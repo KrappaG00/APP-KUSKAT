@@ -1,0 +1,7082 @@
+[
+  {
+    "id": "2.5_q1",
+    "number": 1,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué estudia la pragmática?",
+    "options": [
+      {
+        "key": "B",
+        "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía de las palabras"
+      },
+      {
+        "key": "E",
+        "text": "La pronunciación de las palabras"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática estudia el uso del lenguaje en contexto."
+  },
+  {
+    "id": "2.5_q2",
+    "number": 2,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "La pragmática se diferencia de la semántica porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La pragmática estudia el significado en contexto."
+  },
+  {
+    "id": "2.5_q3",
+    "number": 3,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es el contexto en pragmática?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo el lugar donde se habla"
+      },
+      {
+        "key": "C",
+        "text": "Solo el tiempo en que se habla"
+      },
+      {
+        "key": "D",
+        "text": "Solo el tema del que se habla"
+      },
+      {
+        "key": "E",
+        "text": "Solo el canal de comunicación"
+      },
+      {
+        "key": "F",
+        "text": "Solo el código utilizado"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El contexto son las circunstancias que rodean la comunicación."
+  },
+  {
+    "id": "2.5_q4",
+    "number": 4,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "El contexto situacional se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las circunstancias físicas y sociales de la comunicación"
+      },
+      {
+        "key": "C",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La caligrafía del texto"
+      },
+      {
+        "key": "F",
+        "text": "La puntuación del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El contexto situacional son las circunstancias físicas y sociales."
+  },
+  {
+    "id": "2.5_q5",
+    "number": 5,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "El contexto lingüístico se refiere a:",
+    "options": [
+      {
+        "key": "D",
+        "text": "La intención del emisor"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El contexto lingüístico es el texto que rodea al enunciado."
+  },
+  {
+    "id": "2.5_q6",
+    "number": 6,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "El contexto sociocultural se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las normas y valores de la comunidad donde se comunica"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El contexto sociocultural son las normas y valores de la comunidad."
+  },
+  {
+    "id": "2.5_q7",
+    "number": 7,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es un enunciado?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La unidad mínima de comunicación en contexto"
+      },
+      {
+        "key": "B",
+        "text": "Una palabra aislada"
+      },
+      {
+        "key": "C",
+        "text": "Una oración gramatical"
+      },
+      {
+        "key": "D",
+        "text": "Un texto completo"
+      },
+      {
+        "key": "E",
+        "text": "Un párrafo"
+      },
+      {
+        "key": "F",
+        "text": "Un sintagma"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El enunciado es la unidad mínima de comunicación en contexto."
+  },
+  {
+    "id": "2.5_q8",
+    "number": 8,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es la intención comunicativa?",
+    "options": [
+      {
+        "key": "C",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La intención comunicativa es el propósito del emisor."
+  },
+  {
+    "id": "2.5_q9",
+    "number": 9,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es el significado literal?",
+    "options": [
+      {
+        "key": "C",
+        "text": "La intención del emisor"
+      },
+      {
+        "key": "E",
+        "text": "La presuposición"
+      },
+      {
+        "key": "F",
+        "text": "La implicatura"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El significado literal es el significado directo de las palabras."
+  },
+  {
+    "id": "2.5_q10",
+    "number": 10,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es el significado inferencial?",
+    "options": [
+      {
+        "key": "C",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El significado inferencial se deduce del contexto y la intención."
+  },
+  {
+    "id": "2.5_q11",
+    "number": 11,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es la comunicación no verbal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La que se realiza sin palabras, mediante gestos, tono, etc."
+      },
+      {
+        "key": "B",
+        "text": "La que se realiza solo con palabras"
+      },
+      {
+        "key": "C",
+        "text": "La que se realiza por escrito"
+      },
+      {
+        "key": "D",
+        "text": "La que se realiza por señas"
+      },
+      {
+        "key": "E",
+        "text": "La que se realiza por teléfono"
+      },
+      {
+        "key": "F",
+        "text": "La que se realiza por correo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La comunicación no verbal se realiza sin palabras."
+  },
+  {
+    "id": "2.5_q12",
+    "number": 12,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es la deixis?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La referencia a elementos del contexto mediante el lenguaje"
+      },
+      {
+        "key": "B",
+        "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La deixis es la referencia a elementos del contexto."
+  },
+  {
+    "id": "2.5_q13",
+    "number": 13,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "La deixis personal se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronombres personales y posesivos"
+      },
+      {
+        "key": "F",
+        "text": "Preposiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La deixis personal usa pronombres personales y posesivos."
+  },
+  {
+    "id": "2.5_q14",
+    "number": 14,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "La deixis espacial se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Pronombres personales"
+      },
+      {
+        "key": "E",
+        "text": "Preposiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La deixis espacial usa adverbios y demostrativos de lugar."
+  },
+  {
+    "id": "2.5_q15",
+    "number": 15,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "La deixis temporal se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Pronombres personales"
+      },
+      {
+        "key": "E",
+        "text": "Preposiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La deixis temporal usa adverbios y expresiones de tiempo."
+  },
+  {
+    "id": "2.5_q16",
+    "number": 16,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "La deixis social se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las formas de tratamiento y cortesía"
+      },
+      {
+        "key": "B",
+        "text": "Los pronombres personales"
+      },
+      {
+        "key": "C",
+        "text": "Los adverbios de lugar"
+      },
+      {
+        "key": "D",
+        "text": "Los adverbios de tiempo"
+      },
+      {
+        "key": "E",
+        "text": "Los conectores"
+      },
+      {
+        "key": "F",
+        "text": "Las preposiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La deixis social usa formas de tratamiento y cortesía."
+  },
+  {
+    "id": "2.5_q17",
+    "number": 17,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es la referencia?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La relación entre un elemento lingüístico y aquello a lo que alude"
+      },
+      {
+        "key": "B",
+        "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La referencia relaciona un elemento lingüístico con su referente."
+  },
+  {
+    "id": "2.5_q18",
+    "number": 18,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es la anáfora?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La referencia a un elemento mencionado antes"
+      },
+      {
+        "key": "B",
+        "text": "La referencia a un elemento mencionado después"
+      },
+      {
+        "key": "C",
+        "text": "La ausencia de referencia"
+      },
+      {
+        "key": "D",
+        "text": "La repetición de palabras"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La anáfora remite a un elemento mencionado antes."
+  },
+  {
+    "id": "2.5_q19",
+    "number": 19,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es la catáfora?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La referencia a un elemento mencionado después"
+      },
+      {
+        "key": "B",
+        "text": "La referencia a un elemento mencionado antes"
+      },
+      {
+        "key": "C",
+        "text": "La ausencia de referencia"
+      },
+      {
+        "key": "D",
+        "text": "La repetición de palabras"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La catáfora remite a un elemento mencionado después."
+  },
+  {
+    "id": "2.5_q20",
+    "number": 20,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es la elipsis?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La omisión de elementos que se sobreentienden"
+      },
+      {
+        "key": "B",
+        "text": "La repetición de elementos"
+      },
+      {
+        "key": "C",
+        "text": "La ausencia de referencia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La elipsis omite elementos sobreentendidos."
+  },
+  {
+    "id": "2.5_q21",
+    "number": 21,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es la presuposición?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La información que se da por supuesta en un enunciado"
+      },
+      {
+        "key": "B",
+        "text": "La información nueva que se aporta"
+      },
+      {
+        "key": "C",
+        "text": "La intención del emisor"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La presuposición es información dada por supuesta."
+  },
+  {
+    "id": "2.5_q22",
+    "number": 22,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es la implicatura?",
+    "options": [
+      {
+        "key": "C",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La implicatura es el significado inferido más allá de lo literal."
+  },
+  {
+    "id": "2.5_q23",
+    "number": 23,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es el principio de cooperación?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El principio de cooperación guía la comunicación eficaz."
+  },
+  {
+    "id": "2.5_q24",
+    "number": 24,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Quién propuso el principio de cooperación?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Paul Grice"
+      },
+      {
+        "key": "D",
+        "text": "Roman Jakobson"
+      },
+      {
+        "key": "E",
+        "text": "Michael Halliday"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Paul Grice propuso el principio de cooperación."
+  },
+  {
+    "id": "2.5_q25",
+    "number": 25,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "Las máximas de Grice son:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Las máximas son cantidad, calidad, relación y manera."
+  },
+  {
+    "id": "2.5_q26",
+    "number": 26,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "La máxima de cantidad se refiere a:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Ser relevante"
+      },
+      {
+        "key": "D",
+        "text": "Ser claro"
+      },
+      {
+        "key": "E",
+        "text": "Ser cortés"
+      },
+      {
+        "key": "F",
+        "text": "Ser breve"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La máxima de cantidad pide información necesaria."
+  },
+  {
+    "id": "2.5_q27",
+    "number": 27,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "La máxima de calidad se refiere a:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Ser relevante"
+      },
+      {
+        "key": "D",
+        "text": "Ser claro"
+      },
+      {
+        "key": "E",
+        "text": "Ser cortés"
+      },
+      {
+        "key": "F",
+        "text": "Ser breve"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La máxima de calidad pide decir la verdad."
+  },
+  {
+    "id": "2.5_q28",
+    "number": 28,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "La máxima de relación se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ser relevante y pertinente"
+      },
+      {
+        "key": "D",
+        "text": "Ser claro"
+      },
+      {
+        "key": "E",
+        "text": "Ser cortés"
+      },
+      {
+        "key": "F",
+        "text": "Ser breve"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La máxima de relación pide ser relevante."
+  },
+  {
+    "id": "2.5_q29",
+    "number": 29,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "La máxima de manera se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ser claro, breve y ordenado"
+      },
+      {
+        "key": "D",
+        "text": "Ser relevante"
+      },
+      {
+        "key": "E",
+        "text": "Ser cortés"
+      },
+      {
+        "key": "F",
+        "text": "Ser preciso"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La máxima de manera pide ser claro, breve y ordenado."
+  },
+  {
+    "id": "2.5_q30",
+    "number": 30,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es la cortesía verbal?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La cortesía verbal mantiene la relación social."
+  },
+  {
+    "id": "2.5_q31",
+    "number": 31,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es la imagen pública o \"face\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La imagen social que cada persona proyecta"
+      },
+      {
+        "key": "B",
+        "text": "La imagen física de una persona"
+      },
+      {
+        "key": "C",
+        "text": "La imagen digital de una persona"
+      },
+      {
+        "key": "D",
+        "text": "La imagen profesional de una persona"
+      },
+      {
+        "key": "E",
+        "text": "La imagen académica de una persona"
+      },
+      {
+        "key": "F",
+        "text": "La imagen personal de una persona"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La imagen pública es la imagen social que se proyecta."
+  },
+  {
+    "id": "2.5_q32",
+    "number": 32,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "La cortesía positiva se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mostrar aprecio y solidaridad hacia el interlocutor"
+      },
+      {
+        "key": "B",
+        "text": "Mostrar distancia y respeto"
+      },
+      {
+        "key": "C",
+        "text": "Ignorar al interlocutor"
+      },
+      {
+        "key": "D",
+        "text": "Ofender al interlocutor"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cortesía positiva muestra aprecio y solidaridad."
+  },
+  {
+    "id": "2.5_q33",
+    "number": 33,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "La cortesía negativa se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mostrar respeto y evitar imposiciones"
+      },
+      {
+        "key": "B",
+        "text": "Mostrar aprecio y solidaridad"
+      },
+      {
+        "key": "C",
+        "text": "Ignorar al interlocutor"
+      },
+      {
+        "key": "D",
+        "text": "Ofender al interlocutor"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cortesía negativa muestra respeto y evita imposiciones."
+  },
+  {
+    "id": "2.5_q34",
+    "number": 34,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Qué es un acto de habla?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La acción que se realiza al emitir un enunciado"
+      },
+      {
+        "key": "B",
+        "text": "La estructura gramatical de una oración"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un acto de habla es una acción al emitir un enunciado."
+  },
+  {
+    "id": "2.5_q35",
+    "number": 35,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "¿Quién propuso la teoría de los actos de habla?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Paul Grice"
+      },
+      {
+        "key": "E",
+        "text": "Roman Jakobson"
+      },
+      {
+        "key": "F",
+        "text": "Michael Halliday"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "John Austin propuso la teoría de los actos de habla."
+  },
+  {
+    "id": "2.5_q36",
+    "number": 36,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "Los actos de habla según Austin son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Locutivo, ilocutivo y perlocutivo"
+      },
+      {
+        "key": "B",
+        "text": "Locutivo, ilocutivo y proposicional"
+      },
+      {
+        "key": "C",
+        "text": "Locutivo, proposicional y perlocutivo"
+      },
+      {
+        "key": "D",
+        "text": "Ilocutivo, proposicional y perlocutivo"
+      },
+      {
+        "key": "E",
+        "text": "Locutivo, ilocutivo y expresivo"
+      },
+      {
+        "key": "F",
+        "text": "Locutivo, ilocutivo y directivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los actos son locutivo, ilocutivo y perlocutivo."
+  },
+  {
+    "id": "2.5_q37",
+    "number": 37,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "El acto locutivo se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La intención del hablante"
+      },
+      {
+        "key": "D",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "E",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "F",
+        "text": "La puntuación del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El acto locutivo es decir algo con significado."
+  },
+  {
+    "id": "2.5_q38",
+    "number": 38,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "El acto ilocutivo se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La intención o fuerza del acto al decir algo"
+      },
+      {
+        "key": "D",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "E",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "F",
+        "text": "La puntuación del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El acto ilocutivo es la intención al decir algo."
+  },
+  {
+    "id": "2.5_q39",
+    "number": 39,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "El acto perlocutivo se refiere a:",
+    "options": [
+      {
+        "key": "C",
+        "text": "La intención del hablante"
+      },
+      {
+        "key": "D",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "E",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "F",
+        "text": "La puntuación del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El acto perlocutivo es el efecto en el oyente."
+  },
+  {
+    "id": "2.5_q40",
+    "number": 40,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+    "statement": "Según Searle, los actos de habla se clasifican en:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Locutivos, ilocutivos y perlocutivos"
+      },
+      {
+        "key": "D",
+        "text": "Literales y figurados"
+      },
+      {
+        "key": "E",
+        "text": "Verbales y no verbales"
+      },
+      {
+        "key": "F",
+        "text": "Orales y escritos ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Searle clasifica en asertivos, directivos, compromisivos, expresivos y declarativos."
+  },
+  {
+    "id": "2.5_q41",
+    "number": 41,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Los actos de habla asertivos o representativos:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Intentan que el oyente haga algo"
+      },
+      {
+        "key": "F",
+        "text": "Preguntan algo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los asertivos afirman o niegan algo."
+  },
+  {
+    "id": "2.5_q42",
+    "number": 42,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Los actos de habla directivos:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Intentan que el oyente haga algo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los directivos intentan que el oyente haga algo."
+  },
+  {
+    "id": "2.5_q43",
+    "number": 43,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Los actos de habla compromisivos:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Intentan que el oyente haga algo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los compromisivos comprometen al hablante."
+  },
+  {
+    "id": "2.5_q44",
+    "number": 44,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Los actos de habla expresivos:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Intentan que el oyente haga algo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los expresivos expresan estados psicológicos."
+  },
+  {
+    "id": "2.5_q45",
+    "number": 45,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Los actos de habla declarativos:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Intentan que el oyente haga algo"
+      },
+      {
+        "key": "F",
+        "text": "Preguntan algo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los declarativos cambian el estado de cosas."
+  },
+  {
+    "id": "2.5_q46",
+    "number": 46,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Te prometo que iré\" es un acto de habla:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Interrogativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Te prometo\" es compromisivo."
+  },
+  {
+    "id": "2.5_q47",
+    "number": 47,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"¿Puedes cerrar la puerta?\" es un acto de habla:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"¿Puedes cerrar la puerta?\" es directivo."
+  },
+  {
+    "id": "2.5_q48",
+    "number": 48,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Lo siento mucho\" es un acto de habla:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Interrogativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Lo siento\" es expresivo."
+  },
+  {
+    "id": "2.5_q49",
+    "number": 49,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Declaro inaugurada la sesión\" es un acto de habla:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Interrogativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Declaro inaugurada\" es declarativo."
+  },
+  {
+    "id": "2.5_q50",
+    "number": 50,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"El cielo es azul\" es un acto de habla:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Interrogativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El cielo es azul\" es asertivo."
+  },
+  {
+    "id": "2.5_q51",
+    "number": 51,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Te aconsejo que estudies\" es un acto de habla:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Interrogativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Te aconsejo\" es directivo."
+  },
+  {
+    "id": "2.5_q52",
+    "number": 52,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"¡Qué alegría verte!\" es un acto de habla:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Interrogativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¡Qué alegría!\" es expresivo."
+  },
+  {
+    "id": "2.5_q53",
+    "number": 53,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Juro decir la verdad\" es un acto de habla:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Interrogativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juro\" es compromisivo."
+  },
+  {
+    "id": "2.5_q54",
+    "number": 54,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Bautizo este barco como Aurora\" es un acto de habla:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Interrogativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Bautizo\" es declarativo."
+  },
+  {
+    "id": "2.5_q55",
+    "number": 55,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Un acto de habla directo es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El acto directo usa forma lingüística convencional."
+  },
+  {
+    "id": "2.5_q56",
+    "number": 56,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Un acto de habla indirecto es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El acto indirecto usa forma no convencional."
+  },
+  {
+    "id": "2.5_q57",
+    "number": 57,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"¿Tienes hora?\" es un acto de habla:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"¿Tienes hora?\" es indirecto (pide la hora)."
+  },
+  {
+    "id": "2.5_q58",
+    "number": 58,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Hace frío aquí\" puede ser un acto de habla:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Hace frío\" es indirecto (sugiere cerrar ventana)."
+  },
+  {
+    "id": "2.5_q59",
+    "number": 59,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"¿Podrías pasarme la sal?\" es un acto de habla:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"¿Podrías pasarme la sal?\" es indirecto (petición)."
+  },
+  {
+    "id": "2.5_q60",
+    "number": 60,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Ya es tarde\" puede ser un acto de habla:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Ya es tarde\" es indirecto (sugiere irse)."
+  },
+  {
+    "id": "2.5_q61",
+    "number": 61,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La fuerza ilocutiva se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La intención comunicativa del hablante"
+      },
+      {
+        "key": "D",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "E",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "F",
+        "text": "La puntuación del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La fuerza ilocutiva es la intención comunicativa."
+  },
+  {
+    "id": "2.5_q62",
+    "number": 62,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "El efecto perlocutivo se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La consecuencia o reacción que produce el enunciado"
+      },
+      {
+        "key": "B",
+        "text": "La intención del hablante"
+      },
+      {
+        "key": "D",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "E",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "F",
+        "text": "La puntuación del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El efecto perlocutivo es la consecuencia del enunciado."
+  },
+  {
+    "id": "2.5_q63",
+    "number": 63,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Los verbos realizativos son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Verbos que al ser pronunciados realizan la acción"
+      },
+      {
+        "key": "B",
+        "text": "Verbos que describen acciones"
+      },
+      {
+        "key": "C",
+        "text": "Verbos que no tienen significado"
+      },
+      {
+        "key": "D",
+        "text": "Verbos que no tienen sujeto"
+      },
+      {
+        "key": "E",
+        "text": "Verbos que no tienen objeto"
+      },
+      {
+        "key": "F",
+        "text": "Verbos que no tienen tiempo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los verbos realizativos realizan la acción al pronunciarse."
+  },
+  {
+    "id": "2.5_q64",
+    "number": 64,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Prometo\" es un verbo:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Realizativo"
+      },
+      {
+        "key": "D",
+        "text": "Impersonal"
+      },
+      {
+        "key": "E",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "F",
+        "text": "Recíproco"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Prometo\" es realizativo."
+  },
+  {
+    "id": "2.5_q65",
+    "number": 65,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Juro\" es un verbo:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Realizativo"
+      },
+      {
+        "key": "D",
+        "text": "Impersonal"
+      },
+      {
+        "key": "E",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "F",
+        "text": "Recíproco"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juro\" es realizativo."
+  },
+  {
+    "id": "2.5_q66",
+    "number": 66,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Declaro\" es un verbo:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Realizativo"
+      },
+      {
+        "key": "D",
+        "text": "Impersonal"
+      },
+      {
+        "key": "E",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "F",
+        "text": "Recíproco"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Declaro\" es realizativo."
+  },
+  {
+    "id": "2.5_q67",
+    "number": 67,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Las condiciones de felicidad de un acto de habla son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las condiciones que deben cumplirse para que el acto sea válido"
+      },
+      {
+        "key": "B",
+        "text": "Las condiciones gramaticales"
+      },
+      {
+        "key": "C",
+        "text": "Las condiciones ortográficas"
+      },
+      {
+        "key": "D",
+        "text": "Las condiciones de puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Las condiciones de caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Las condiciones sintácticas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las condiciones de felicidad validan el acto de habla."
+  },
+  {
+    "id": "2.5_q68",
+    "number": 68,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Para que una promesa sea válida, se requiere:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que el hablante tenga intención de cumplirla"
+      },
+      {
+        "key": "B",
+        "text": "Que el hablante no tenga intención de cumplirla"
+      },
+      {
+        "key": "C",
+        "text": "Que el oyente no la escuche"
+      },
+      {
+        "key": "D",
+        "text": "Que no haya contexto"
+      },
+      {
+        "key": "E",
+        "text": "Que no haya intención"
+      },
+      {
+        "key": "F",
+        "text": "Que no haya efecto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Una promesa válida requiere intención de cumplirla."
+  },
+  {
+    "id": "2.5_q69",
+    "number": 69,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La cortesía en los actos de habla busca:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mantener la relación social y evitar conflictos"
+      },
+      {
+        "key": "B",
+        "text": "Ofender al interlocutor"
+      },
+      {
+        "key": "C",
+        "text": "Ignorar al interlocutor"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cortesía mantiene la relación social."
+  },
+  {
+    "id": "2.5_q70",
+    "number": 70,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La atenuación en la cortesía consiste en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Suavizar la fuerza ilocutiva de un acto"
+      },
+      {
+        "key": "C",
+        "text": "Ignorar la fuerza ilocutiva"
+      },
+      {
+        "key": "E",
+        "text": "Repetir la fuerza ilocutiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La atenuación suaviza la fuerza ilocutiva."
+  },
+  {
+    "id": "2.5_q71",
+    "number": 71,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"¿Serías tan amable de...?\" es una estrategia de:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Ironía"
+      },
+      {
+        "key": "E",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¿Serías tan amable?\" es cortesía negativa."
+  },
+  {
+    "id": "2.5_q72",
+    "number": 72,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"¡Qué guapo estás hoy!\" es una estrategia de:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Ironía"
+      },
+      {
+        "key": "E",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¡Qué guapo estás!\" es cortesía positiva."
+  },
+  {
+    "id": "2.5_q73",
+    "number": 73,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La ironía es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "No decir nada"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La ironía dice lo contrario de lo que se quiere expresar."
+  },
+  {
+    "id": "2.5_q74",
+    "number": 74,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"¡Qué puntual eres!\" dicho a alguien que llega tarde es un ejemplo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ironía"
+      },
+      {
+        "key": "F",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¡Qué puntual eres!\" a alguien tarde es ironía."
+  },
+  {
+    "id": "2.5_q75",
+    "number": 75,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La metáfora es un fenómeno:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sintáctico"
+      },
+      {
+        "key": "C",
+        "text": "Ortográfico"
+      },
+      {
+        "key": "E",
+        "text": "Morfológico"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La metáfora es un fenómeno pragmático."
+  },
+  {
+    "id": "2.5_q76",
+    "number": 76,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Eres un sol\" es un ejemplo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Metáfora"
+      },
+      {
+        "key": "B",
+        "text": "Metonimia"
+      },
+      {
+        "key": "C",
+        "text": "Ironía"
+      },
+      {
+        "key": "D",
+        "text": "Hipérbole"
+      },
+      {
+        "key": "E",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Eres un sol\" es metáfora."
+  },
+  {
+    "id": "2.5_q77",
+    "number": 77,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Me muero de hambre\" es un ejemplo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hipérbole"
+      },
+      {
+        "key": "B",
+        "text": "Metáfora"
+      },
+      {
+        "key": "C",
+        "text": "Metonimia"
+      },
+      {
+        "key": "D",
+        "text": "Ironía"
+      },
+      {
+        "key": "E",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Me muero de hambre\" es hipérbole."
+  },
+  {
+    "id": "2.5_q78",
+    "number": 78,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"Tiene el corazón de piedra\" es un ejemplo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Metáfora"
+      },
+      {
+        "key": "B",
+        "text": "Metonimia"
+      },
+      {
+        "key": "C",
+        "text": "Hipérbole"
+      },
+      {
+        "key": "D",
+        "text": "Ironía"
+      },
+      {
+        "key": "E",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Corazón de piedra\" es metáfora."
+  },
+  {
+    "id": "2.5_q79",
+    "number": 79,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La pragmática intercultural estudia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las diferencias en el uso del lenguaje entre culturas"
+      },
+      {
+        "key": "B",
+        "text": "Las diferencias gramaticales entre lenguas"
+      },
+      {
+        "key": "C",
+        "text": "Las diferencias ortográficas entre lenguas"
+      },
+      {
+        "key": "D",
+        "text": "Las diferencias fonéticas entre lenguas"
+      },
+      {
+        "key": "E",
+        "text": "Las diferencias morfológicas entre lenguas"
+      },
+      {
+        "key": "F",
+        "text": "Las diferencias sintácticas entre lenguas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática intercultural estudia diferencias culturales."
+  },
+  {
+    "id": "2.5_q80",
+    "number": 80,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La pragmática del español estudia:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La gramática del español"
+      },
+      {
+        "key": "C",
+        "text": "La ortografía del español"
+      },
+      {
+        "key": "D",
+        "text": "La fonética del español"
+      },
+      {
+        "key": "E",
+        "text": "La morfología del español"
+      },
+      {
+        "key": "F",
+        "text": "La sintaxis del español"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática del español estudia el uso del español en contexto."
+  },
+  {
+    "id": "2.5_q81",
+    "number": 81,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "El \"tú\" y el \"usted\" en español son ejemplos de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Tú\" y \"usted\" son deixis social."
+  },
+  {
+    "id": "2.5_q82",
+    "number": 82,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "El uso de \"usted\" indica:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Ironía"
+      },
+      {
+        "key": "E",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Usted\" indica distancia y respeto."
+  },
+  {
+    "id": "2.5_q83",
+    "number": 83,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "El uso de \"tú\" indica:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Ironía"
+      },
+      {
+        "key": "E",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Tú\" indica cercanía y confianza."
+  },
+  {
+    "id": "2.5_q84",
+    "number": 84,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "El voseo es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El voseo usa \"vos\" en lugar de \"tú\"."
+  },
+  {
+    "id": "2.5_q85",
+    "number": 85,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La pragmática del discurso estudia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización del lenguaje en unidades mayores que la oración"
+      },
+      {
+        "key": "B",
+        "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática del discurso estudia unidades mayores que la oración."
+  },
+  {
+    "id": "2.5_q86",
+    "number": 86,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "El análisis de la conversación estudia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización secuencial de la interacción verbal"
+      },
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El análisis de la conversación estudia la interacción verbal."
+  },
+  {
+    "id": "2.5_q87",
+    "number": 87,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Los turnos de habla son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las intervenciones de cada participante en una conversación"
+      },
+      {
+        "key": "B",
+        "text": "Las oraciones gramaticales"
+      },
+      {
+        "key": "C",
+        "text": "Las palabras aisladas"
+      },
+      {
+        "key": "D",
+        "text": "Los párrafos"
+      },
+      {
+        "key": "E",
+        "text": "Los textos"
+      },
+      {
+        "key": "F",
+        "text": "Los sintagmas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los turnos son las intervenciones de cada participante."
+  },
+  {
+    "id": "2.5_q88",
+    "number": 88,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La toma de turno se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La toma de turno es el momento de intervenir."
+  },
+  {
+    "id": "2.5_q89",
+    "number": 89,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Los pares adyacentes son:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Secuencias de tres turnos"
+      },
+      {
+        "key": "C",
+        "text": "Secuencias de cuatro turnos"
+      },
+      {
+        "key": "D",
+        "text": "Secuencias de un solo turno"
+      },
+      {
+        "key": "E",
+        "text": "Secuencias sin relación"
+      },
+      {
+        "key": "F",
+        "text": "Secuencias gramaticales"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los pares adyacentes son secuencias de dos turnos relacionados."
+  },
+  {
+    "id": "2.5_q90",
+    "number": 90,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "\"¿Cómo estás?\" - \"Bien, gracias\" es un ejemplo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Par adyacente"
+      },
+      {
+        "key": "B",
+        "text": "Turno único"
+      },
+      {
+        "key": "C",
+        "text": "Secuencia de tres"
+      },
+      {
+        "key": "D",
+        "text": "Secuencia de cuatro"
+      },
+      {
+        "key": "E",
+        "text": "Secuencia sin relación"
+      },
+      {
+        "key": "F",
+        "text": "Secuencia gramatical"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¿Cómo estás?\" - \"Bien\" es par adyacente."
+  },
+  {
+    "id": "2.5_q91",
+    "number": 91,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La reparación en la conversación consiste en:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Ignorar un error"
+      },
+      {
+        "key": "C",
+        "text": "Repetir un error"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La reparación corrige errores en la interacción."
+  },
+  {
+    "id": "2.5_q92",
+    "number": 92,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La superposición en la conversación se produce cuando:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Un participante habla solo"
+      },
+      {
+        "key": "C",
+        "text": "No habla nadie"
+      },
+      {
+        "key": "D",
+        "text": "Se guarda silencio"
+      },
+      {
+        "key": "E",
+        "text": "Se cambia de tema"
+      },
+      {
+        "key": "F",
+        "text": "Se alarga la conversación"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La superposición es hablar al mismo tiempo."
+  },
+  {
+    "id": "2.5_q93",
+    "number": 93,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La pragmática textual estudia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización y uso del lenguaje en textos"
+      },
+      {
+        "key": "B",
+        "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática textual estudia el lenguaje en textos."
+  },
+  {
+    "id": "2.5_q94",
+    "number": 94,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La coherencia pragmática se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La adecuación del texto al contexto comunicativo"
+      },
+      {
+        "key": "B",
+        "text": "La unidad temática"
+      },
+      {
+        "key": "C",
+        "text": "La cohesión gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La coherencia pragmática adecúa el texto al contexto."
+  },
+  {
+    "id": "2.5_q95",
+    "number": 95,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La relevancia en pragmática se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La pertinencia de la información en el contexto"
+      },
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La relevancia es la pertinencia de la información."
+  },
+  {
+    "id": "2.5_q96",
+    "number": 96,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "La teoría de la relevancia fue propuesta por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sperber y Wilson"
+      },
+      {
+        "key": "B",
+        "text": "Grice"
+      },
+      {
+        "key": "D",
+        "text": "Searle"
+      },
+      {
+        "key": "E",
+        "text": "Saussure"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sperber y Wilson propusieron la teoría de la relevancia."
+  },
+  {
+    "id": "2.5_q97",
+    "number": 97,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "Según la teoría de la relevancia, la comunicación busca:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maximizar la relevancia con el mínimo esfuerzo"
+      },
+      {
+        "key": "B",
+        "text": "Maximizar el esfuerzo"
+      },
+      {
+        "key": "C",
+        "text": "Minimizar la relevancia"
+      },
+      {
+        "key": "D",
+        "text": "Ignorar el contexto"
+      },
+      {
+        "key": "E",
+        "text": "Ignorar la intención"
+      },
+      {
+        "key": "F",
+        "text": "Ignorar el efecto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La comunicación busca maximizar relevancia con mínimo esfuerzo."
+  },
+  {
+    "id": "2.5_q98",
+    "number": 98,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "El contexto cognitivo en la teoría de la relevancia se refiere a:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El contexto cognitivo son los supuestos activados."
+  },
+  {
+    "id": "2.5_q99",
+    "number": 99,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "El efecto cognitivo en la teoría de la relevancia se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La modificación de los supuestos del oyente"
+      },
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El efecto cognitivo modifica los supuestos del oyente."
+  },
+  {
+    "id": "2.5_q100",
+    "number": 100,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
+    "statement": "El esfuerzo de procesamiento en la teoría de la relevancia se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El esfuerzo de procesamiento es el costo cognitivo."
+  },
+  {
+    "id": "2.5_q101",
+    "number": 101,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La deixis personal se expresa mediante:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronombres personales y posesivos"
+      },
+      {
+        "key": "F",
+        "text": "Preposiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La deixis personal usa pronombres personales y posesivos."
+  },
+  {
+    "id": "2.5_q102",
+    "number": 102,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Yo\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Yo\" es deixis personal."
+  },
+  {
+    "id": "2.5_q103",
+    "number": 103,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Tú\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Tú\" es deixis personal."
+  },
+  {
+    "id": "2.5_q104",
+    "number": 104,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Él\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Él\" es deixis personal."
+  },
+  {
+    "id": "2.5_q105",
+    "number": 105,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Mi\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Mi\" es deixis personal."
+  },
+  {
+    "id": "2.5_q106",
+    "number": 106,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Tu\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Tu\" es deixis personal."
+  },
+  {
+    "id": "2.5_q107",
+    "number": 107,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La deixis espacial se expresa mediante:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Pronombres personales"
+      },
+      {
+        "key": "E",
+        "text": "Preposiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La交叉 deixis espacial usa adverbios y demostrativos de lugar."
+  },
+  {
+    "id": "2.5_q108",
+    "number": 108,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Aquí\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Aquí\" es deixis espacial."
+  },
+  {
+    "id": "2.5_q109",
+    "number": 109,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Allí\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Allí\" es deixis espacial."
+  },
+  {
+    "id": "2.5_q110",
+    "number": 110,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Este\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Este\" es deixis espacial."
+  },
+  {
+    "id": "2.5_q111",
+    "number": 111,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Ese\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Ese\" es deixis espacial."
+  },
+  {
+    "id": "2.5_q112",
+    "number": 112,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Aquel\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Aquel\" es deixis espacial."
+  },
+  {
+    "id": "2.5_q113",
+    "number": 113,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La deixis temporal se expresa mediante:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Pronombres personales"
+      },
+      {
+        "key": "E",
+        "text": "Preposiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La deixis temporal usa adverbios y expresiones de tiempo."
+  },
+  {
+    "id": "2.5_q114",
+    "number": 114,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Ahora\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Ahora\" es deixis temporal."
+  },
+  {
+    "id": "2.5_q115",
+    "number": 115,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Ayer\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Ayer\" es deixis temporal."
+  },
+  {
+    "id": "2.5_q116",
+    "number": 116,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Mañana\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Mañana\" es deixis temporal."
+  },
+  {
+    "id": "2.5_q117",
+    "number": 117,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Hoy\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Hoy\" es deixis temporal."
+  },
+  {
+    "id": "2.5_q118",
+    "number": 118,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Pronto\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Pronto\" es deixis temporal."
+  },
+  {
+    "id": "2.5_q119",
+    "number": 119,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La deixis social se expresa mediante:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Pronombres personales"
+      },
+      {
+        "key": "F",
+        "text": "Preposiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La deixis social usa formas de tratamiento y cortesía."
+  },
+  {
+    "id": "2.5_q120",
+    "number": 120,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Usted\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Usted\" es deixis social."
+  },
+  {
+    "id": "2.5_q121",
+    "number": 121,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Señor\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Señor\" es deixis social."
+  },
+  {
+    "id": "2.5_q122",
+    "number": 122,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Don\" es un ejemplo de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Don\" es deixis social."
+  },
+  {
+    "id": "2.5_q123",
+    "number": 123,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La referencia es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La relación entre un elemento lingüístico y aquello a lo que alude"
+      },
+      {
+        "key": "B",
+        "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La referencia relaciona un elemento con su referente."
+  },
+  {
+    "id": "2.5_q124",
+    "number": 124,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La referencia exofórica se produce cuando:",
+    "options": [
+      {
+        "key": "C",
+        "text": "No hay referente"
+      },
+      {
+        "key": "D",
+        "text": "Se repite la misma palabra"
+      },
+      {
+        "key": "E",
+        "text": "Se usan sinónimos"
+      },
+      {
+        "key": "F",
+        "text": "Se usan antónimos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La referencia exofórica tiene referente fuera del texto."
+  },
+  {
+    "id": "2.5_q125",
+    "number": 125,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La referencia endofórica se produce cuando:",
+    "options": [
+      {
+        "key": "C",
+        "text": "No hay referente"
+      },
+      {
+        "key": "D",
+        "text": "Se repite la misma palabra"
+      },
+      {
+        "key": "E",
+        "text": "Se usan sinónimos"
+      },
+      {
+        "key": "F",
+        "text": "Se usan antónimos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La referencia endofórica tiene referente dentro del texto."
+  },
+  {
+    "id": "2.5_q126",
+    "number": 126,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La anáfora es un tipo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Referencia endofórica"
+      },
+      {
+        "key": "B",
+        "text": "Referencia exofórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La anáfora es referencia endofórica."
+  },
+  {
+    "id": "2.5_q127",
+    "number": 127,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La catáfora es un tipo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Referencia endofórica"
+      },
+      {
+        "key": "B",
+        "text": "Referencia exofórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La catáfora es referencia endofórica."
+  },
+  {
+    "id": "2.5_q128",
+    "number": 128,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "En \"Juan llegó. Él estaba cansado\", \"él\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Él\" remite a Juan mencionado antes: anáfora."
+  },
+  {
+    "id": "2.5_q129",
+    "number": 129,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "En \"Cuando lo vi, Pedro corría\", \"lo\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Lo\" remite a Pedro mencionado después: catáfora."
+  },
+  {
+    "id": "2.5_q130",
+    "number": 130,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "En \"Compré flores. Las puse en un jarrón\", \"las\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Las\" remite a flores mencionadas antes: anáfora."
+  },
+  {
+    "id": "2.5_q131",
+    "number": 131,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La elipsis es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La omisión de elementos que se sobreentienden"
+      },
+      {
+        "key": "B",
+        "text": "La repetición de elementos"
+      },
+      {
+        "key": "C",
+        "text": "La ausencia de referencia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La elipsis omite elementos sobreentendidos."
+  },
+  {
+    "id": "2.5_q132",
+    "number": 132,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "En \"Juan estudia y María también\", hay:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan estudia y María también\" tiene elipsis del verbo."
+  },
+  {
+    "id": "2.5_q133",
+    "number": 133,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "En \"Yo compré el libro y ella también\", hay:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Yo compré el libro y ella también\" tiene elipsis del verbo."
+  },
+  {
+    "id": "2.5_q134",
+    "number": 134,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La sustitución en la cohesión textual consiste en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reemplazar un elemento por otro"
+      },
+      {
+        "key": "B",
+        "text": "Repetir el mismo elemento"
+      },
+      {
+        "key": "C",
+        "text": "Omitir el elemento"
+      },
+      {
+        "key": "D",
+        "text": "Usar sinónimos"
+      },
+      {
+        "key": "E",
+        "text": "Usar antónimos"
+      },
+      {
+        "key": "F",
+        "text": "Usar conectores"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La sustitución reemplaza un elemento por otro."
+  },
+  {
+    "id": "2.5_q135",
+    "number": 135,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "En \"Juan llegó. El hombre venía cansado\", \"el hombre\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sustitución por sinonimia"
+      },
+      {
+        "key": "B",
+        "text": "Repetición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El hombre\" sustituye a \"Juan\" por sinonimia."
+  },
+  {
+    "id": "2.5_q136",
+    "number": 136,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "En \"Compré un auto. El vehículo es rojo\", \"el vehículo\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sustitución por hiperonimia"
+      },
+      {
+        "key": "B",
+        "text": "Repetición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El vehículo\" sustituye a \"auto\" por hiperonimia."
+  },
+  {
+    "id": "2.5_q137",
+    "number": 137,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "En \"Me gustan las rosas. Las flores son hermosas\", \"las flores\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sustitución por hiperonimia"
+      },
+      {
+        "key": "B",
+        "text": "Repetición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Las flores\" sustituye a \"rosas\" por hiperonimia."
+  },
+  {
+    "id": "2.5_q138",
+    "number": 138,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La cohesión léxica se logra mediante:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Repetición, sinonimia, antonimia, hiperonimia"
+      },
+      {
+        "key": "B",
+        "text": "Solo conectores"
+      },
+      {
+        "key": "C",
+        "text": "Solo puntuación"
+      },
+      {
+        "key": "D",
+        "text": "Solo ortografía"
+      },
+      {
+        "key": "E",
+        "text": "Solo caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Solo sintaxis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cohesión léxica usa repetición, sinonimia, etc."
+  },
+  {
+    "id": "2.5_q139",
+    "number": 139,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "La cohesión gramatical se logra mediante:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronombres, elipsis, determinantes, concordancia"
+      },
+      {
+        "key": "B",
+        "text": "Solo conectores"
+      },
+      {
+        "key": "C",
+        "text": "Solo puntuación"
+      },
+      {
+        "key": "D",
+        "text": "Solo ortografía"
+      },
+      {
+        "key": "E",
+        "text": "Solo caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Solo sintaxis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cohesión gramatical usa pronombres, elipsis, etc."
+  },
+  {
+    "id": "2.5_q140",
+    "number": 140,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "Los conectores son:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Signos de puntuación"
+      },
+      {
+        "key": "C",
+        "text": "Palabras sin significado"
+      },
+      {
+        "key": "D",
+        "text": "Tipos de oraciones"
+      },
+      {
+        "key": "E",
+        "text": "Tipos de párrafos"
+      },
+      {
+        "key": "F",
+        "text": "Tipos de textos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los conectores unen ideas o partes del texto."
+  },
+  {
+    "id": "2.5_q141",
+    "number": 141,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "Los conectores aditivos indican:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Suma o adición de ideas"
+      },
+      {
+        "key": "E",
+        "text": "Tiempo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los conectores aditivos suman ideas."
+  },
+  {
+    "id": "2.5_q142",
+    "number": 142,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "Los conectores adversativos indican:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Suma de ideas"
+      },
+      {
+        "key": "E",
+        "text": "Tiempo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los conectores adversativos contrastan ideas."
+  },
+  {
+    "id": "2.5_q143",
+    "number": 143,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "Los conectores causales indican:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Suma de ideas"
+      },
+      {
+        "key": "E",
+        "text": "Tiempo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los conectores causales indican causa."
+  },
+  {
+    "id": "2.5_q144",
+    "number": 144,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "Los conectores conclusivos indican:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Suma de ideas"
+      },
+      {
+        "key": "E",
+        "text": "Tiempo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los conectores conclusivos indican consecuencia."
+  },
+  {
+    "id": "2.5_q145",
+    "number": 145,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "Los conectores temporales indican:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Orden temporal"
+      },
+      {
+        "key": "B",
+        "text": "Suma de ideas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los conectores temporales indican orden temporal."
+  },
+  {
+    "id": "2.5_q146",
+    "number": 146,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "Los conectores condicionales indican:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Suma de ideas"
+      },
+      {
+        "key": "F",
+        "text": "Tiempo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los conectores condicionales indican condición."
+  },
+  {
+    "id": "2.5_q147",
+    "number": 147,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Y\" es un conector:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Y\" es aditivo."
+  },
+  {
+    "id": "2.5_q148",
+    "number": 148,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Pero\" es un conector:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Pero\" es adversativo."
+  },
+  {
+    "id": "2.5_q149",
+    "number": 149,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Porque\" es un conector:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Porque\" es causal."
+  },
+  {
+    "id": "2.5_q150",
+    "number": 150,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+    "statement": "\"Por lo tanto\" es un conector:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por lo tanto\" es conclusivo."
+  },
+  {
+    "id": "2.5_q151",
+    "number": 151,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La implicatura es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La implicatura es el significado inferido más allá de lo literal."
+  },
+  {
+    "id": "2.5_q152",
+    "number": 152,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La implicatura conversacional se basa en:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La implicatura conversacional se basa en Grice."
+  },
+  {
+    "id": "2.5_q153",
+    "number": 153,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La implicatura convencional se basa en:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Las máximas de Grice"
+      },
+      {
+        "key": "E",
+        "text": "La intención del hablante"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La implicatura convencional se basa en el significado convencional."
+  },
+  {
+    "id": "2.5_q154",
+    "number": 154,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"Juan es alto pero no sabe jugar baloncesto\", la implicatura es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que los altos suelen saber jugar baloncesto"
+      },
+      {
+        "key": "B",
+        "text": "Que Juan es bajo"
+      },
+      {
+        "key": "C",
+        "text": "Que Juan sabe jugar baloncesto"
+      },
+      {
+        "key": "D",
+        "text": "Que Juan no es alto"
+      },
+      {
+        "key": "E",
+        "text": "Que Juan no juega baloncesto"
+      },
+      {
+        "key": "F",
+        "text": "Que Juan es alto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Alto pero no sabe baloncesto\" implica que los altos suelen saber."
+  },
+  {
+    "id": "2.5_q155",
+    "number": 155,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"Algunos estudiantes aprobaron\", la implicatura es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que no todos aprobaron"
+      },
+      {
+        "key": "B",
+        "text": "Que todos aprobaron"
+      },
+      {
+        "key": "C",
+        "text": "Que ninguno aprobó"
+      },
+      {
+        "key": "D",
+        "text": "Que la mayoría aprobó"
+      },
+      {
+        "key": "E",
+        "text": "Que pocos aprobaron"
+      },
+      {
+        "key": "F",
+        "text": "Que todos reprobaron"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Algunos aprobaron\" implica que no todos aprobaron."
+  },
+  {
+    "id": "2.5_q156",
+    "number": 156,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La presuposición es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La información que se da por supuesta en un enunciado"
+      },
+      {
+        "key": "B",
+        "text": "La información nueva que se aporta"
+      },
+      {
+        "key": "C",
+        "text": "La intención del emisor"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La presuposición es información dada por supuesta."
+  },
+  {
+    "id": "2.5_q157",
+    "number": 157,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"El rey de Francia es calvo\", la presuposición es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"El rey de Francia\" presupone que existe."
+  },
+  {
+    "id": "2.5_q158",
+    "number": 158,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"Juan dejó de fumar\", la presuposición es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que Juan fumaba antes"
+      },
+      {
+        "key": "B",
+        "text": "Que Juan nunca fumó"
+      },
+      {
+        "key": "C",
+        "text": "Que Juan fuma ahora"
+      },
+      {
+        "key": "D",
+        "text": "Que Juan no fuma"
+      },
+      {
+        "key": "E",
+        "text": "Que Juan fumará"
+      },
+      {
+        "key": "F",
+        "text": "Que Juan odia fumar"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Dejó de fumar\" presupone que fumaba antes."
+  },
+  {
+    "id": "2.5_q159",
+    "number": 159,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"María se arrepiente de haber mentido\", la presuposición es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que María mintió"
+      },
+      {
+        "key": "B",
+        "text": "Que María no mintió"
+      },
+      {
+        "key": "C",
+        "text": "Que María dice la verdad"
+      },
+      {
+        "key": "D",
+        "text": "Que María no se arrepiente"
+      },
+      {
+        "key": "E",
+        "text": "Que María mentirá"
+      },
+      {
+        "key": "F",
+        "text": "Que María odia mentir"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Se arrepiente de haber mentido\" presupone que mintió."
+  },
+  {
+    "id": "2.5_q160",
+    "number": 160,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"El actual presidente de El Salvador nació en San Salvador\", la presuposición es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Que no existe presidente"
+      },
+      {
+        "key": "C",
+        "text": "Que el presidente nació en otro lugar"
+      },
+      {
+        "key": "D",
+        "text": "Que el presidente es falso"
+      },
+      {
+        "key": "E",
+        "text": "Que el presidente no nació"
+      },
+      {
+        "key": "F",
+        "text": "Que el presidente es extranjero"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El actual presidente\" presupone que existe."
+  },
+  {
+    "id": "2.5_q161",
+    "number": 161,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La presuposición existencial se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La existencia de un referente"
+      },
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La presuposición existencial afirma la existencia de un referente."
+  },
+  {
+    "id": "2.5_q162",
+    "number": 162,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La presuposición factiva se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La verdad de una información presentada como hecho"
+      },
+      {
+        "key": "B",
+        "text": "La existencia de un referente"
+      },
+      {
+        "key": "D",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "E",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "F",
+        "text": "La puntuación del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La presuposición factiva presenta información como hecho."
+  },
+  {
+    "id": "2.5_q163",
+    "number": 163,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La presuposición léxica se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La información presupuesta por el significado de una palabra"
+      },
+      {
+        "key": "B",
+        "text": "La existencia de un referente"
+      },
+      {
+        "key": "C",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "E",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "F",
+        "text": "La puntuación del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La presuposición léxica es la que da el significado de una palabra."
+  },
+  {
+    "id": "2.5_q164",
+    "number": 164,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La presuposición estructural se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La información presupuesta por la estructura gramatical"
+      },
+      {
+        "key": "B",
+        "text": "La existencia de un referente"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La presuposición estructural es la que da la estructura gramatical."
+  },
+  {
+    "id": "2.5_q165",
+    "number": 165,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La presuposición no se cancela fácilmente porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La presuposición no se cancela fácilmente."
+  },
+  {
+    "id": "2.5_q166",
+    "number": 166,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La implicatura sí se puede cancelar porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La implicatura sí se puede cancelar."
+  },
+  {
+    "id": "2.5_q167",
+    "number": 167,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"Pedro es soltero\", la presuposición es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que Pedro no está casado"
+      },
+      {
+        "key": "B",
+        "text": "Que Pedro está casado"
+      },
+      {
+        "key": "C",
+        "text": "Que Pedro es viudo"
+      },
+      {
+        "key": "D",
+        "text": "Que Pedro es divorciado"
+      },
+      {
+        "key": "E",
+        "text": "Que Pedro tiene novia"
+      },
+      {
+        "key": "F",
+        "text": "Que Pedro no tiene novia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Pedro es soltero\" presupone que no está casado."
+  },
+  {
+    "id": "2.5_q168",
+    "number": 168,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"El libro que compré es interesante\", la presuposición es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que compré un libro"
+      },
+      {
+        "key": "B",
+        "text": "Que no compré un libro"
+      },
+      {
+        "key": "C",
+        "text": "Que el libro es aburrido"
+      },
+      {
+        "key": "D",
+        "text": "Que el libro es nuevo"
+      },
+      {
+        "key": "E",
+        "text": "Que el libro es viejo"
+      },
+      {
+        "key": "F",
+        "text": "Que el libro es caro"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El libro que compré\" presupone que compré un libro."
+  },
+  {
+    "id": "2.5_q169",
+    "number": 169,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"Lamento que hayas llegado tarde\", la presuposición es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que llegaste tarde"
+      },
+      {
+        "key": "B",
+        "text": "Que llegaste temprano"
+      },
+      {
+        "key": "C",
+        "text": "Que no llegaste"
+      },
+      {
+        "key": "D",
+        "text": "Que llegarás tarde"
+      },
+      {
+        "key": "E",
+        "text": "Que llegas tarde"
+      },
+      {
+        "key": "F",
+        "text": "Que nunca llegas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Lamento que hayas llegado tarde\" presupone que llegaste tarde."
+  },
+  {
+    "id": "2.5_q170",
+    "number": 170,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"Es triste que no haya venido\", la presuposición es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que no vino"
+      },
+      {
+        "key": "B",
+        "text": "Que vino"
+      },
+      {
+        "key": "C",
+        "text": "Que vendrá"
+      },
+      {
+        "key": "D",
+        "text": "Que viene"
+      },
+      {
+        "key": "E",
+        "text": "Que nunca viene"
+      },
+      {
+        "key": "F",
+        "text": "Que siempre viene"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Es triste que no haya venido\" presupone que no vino."
+  },
+  {
+    "id": "2.5_q171",
+    "number": 171,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La máxima de cantidad se viola cuando:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Se da más o menos información de la necesaria"
+      },
+      {
+        "key": "B",
+        "text": "Se dice la verdad"
+      },
+      {
+        "key": "C",
+        "text": "Se es relevante"
+      },
+      {
+        "key": "D",
+        "text": "Se es claro"
+      },
+      {
+        "key": "E",
+        "text": "Se es cortés"
+      },
+      {
+        "key": "F",
+        "text": "Se es breve"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Se viola la cantidad dando más o menos información."
+  },
+  {
+    "id": "2.5_q172",
+    "number": 172,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La máxima de calidad se viola cuando:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Se dice algo falso o sin evidencia"
+      },
+      {
+        "key": "B",
+        "text": "Se da la información necesaria"
+      },
+      {
+        "key": "C",
+        "text": "Se es relevante"
+      },
+      {
+        "key": "D",
+        "text": "Se es claro"
+      },
+      {
+        "key": "E",
+        "text": "Se es cortés"
+      },
+      {
+        "key": "F",
+        "text": "Se es breve"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Se viola la calidad diciendo algo falso."
+  },
+  {
+    "id": "2.5_q173",
+    "number": 173,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La máxima de relación se viola cuando:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Se dice algo irrelevante"
+      },
+      {
+        "key": "B",
+        "text": "Se da la información necesaria"
+      },
+      {
+        "key": "C",
+        "text": "Se dice la verdad"
+      },
+      {
+        "key": "D",
+        "text": "Se es claro"
+      },
+      {
+        "key": "E",
+        "text": "Se es cortés"
+      },
+      {
+        "key": "F",
+        "text": "Se es breve"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Se viola la relación diciendo algo irrelevante."
+  },
+  {
+    "id": "2.5_q174",
+    "number": 174,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La máxima de manera se viola cuando:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Se es ambiguo, oscuro o desordenado"
+      },
+      {
+        "key": "B",
+        "text": "Se da la información necesaria"
+      },
+      {
+        "key": "C",
+        "text": "Se dice la verdad"
+      },
+      {
+        "key": "D",
+        "text": "Se es relevante"
+      },
+      {
+        "key": "E",
+        "text": "Se es cortés"
+      },
+      {
+        "key": "F",
+        "text": "Se es breve"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Se viola la manera siendo ambiguo."
+  },
+  {
+    "id": "2.5_q175",
+    "number": 175,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "El \"flouting\" de una máxima consiste en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Violarla deliberadamente para generar una implicatura"
+      },
+      {
+        "key": "B",
+        "text": "Respetarla siempre"
+      },
+      {
+        "key": "C",
+        "text": "Ignorarla siempre"
+      },
+      {
+        "key": "E",
+        "text": "Repetirla"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El \"flouting\" viola deliberadamente para generar implicatura."
+  },
+  {
+    "id": "2.5_q176",
+    "number": 176,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"¿Me prestas tu coche? Es que mi suegra está de visita\", la implicatura es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que el hablante no quiere estar con su suegra"
+      },
+      {
+        "key": "B",
+        "text": "Que el hablante quiere estar con su suegra"
+      },
+      {
+        "key": "C",
+        "text": "Que el hablante no tiene coche"
+      },
+      {
+        "key": "D",
+        "text": "Que el hablante tiene coche"
+      },
+      {
+        "key": "E",
+        "text": "Que el hablante odia a su suegra"
+      },
+      {
+        "key": "F",
+        "text": "Que el hablante ama a su suegra"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La implicatura es que no quiere estar con su suegra."
+  },
+  {
+    "id": "2.5_q177",
+    "number": 177,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"A: ¿Vamos al cine? B: Tengo mucho trabajo\", la implicatura es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La implicatura es que no puede ir al cine."
+  },
+  {
+    "id": "2.5_q178",
+    "number": 178,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"A: ¿Te gustó mi comida? B: Nunca había probado algo así\", la implicatura es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que la comida no le gustó"
+      },
+      {
+        "key": "B",
+        "text": "Que la comida le encantó"
+      },
+      {
+        "key": "C",
+        "text": "Que la comida estaba deliciosa"
+      },
+      {
+        "key": "D",
+        "text": "Que la comida era normal"
+      },
+      {
+        "key": "E",
+        "text": "Que la comida era exquisita"
+      },
+      {
+        "key": "F",
+        "text": "Que la comida era la mejor"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La implicatura es que la comida no le gustó."
+  },
+  {
+    "id": "2.5_q179",
+    "number": 179,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La ironía es un tipo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Implicatura"
+      },
+      {
+        "key": "B",
+        "text": "Presuposición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La ironía es un tipo de implicatura."
+  },
+  {
+    "id": "2.5_q180",
+    "number": 180,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La metáfora es un tipo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Implicatura"
+      },
+      {
+        "key": "B",
+        "text": "Presuposición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La metáfora es un tipo de implicatura."
+  },
+  {
+    "id": "2.5_q181",
+    "number": 181,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La metonimia es un tipo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Implicatura"
+      },
+      {
+        "key": "B",
+        "text": "Presuposición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La metonimia es un tipo de implicatura."
+  },
+  {
+    "id": "2.5_q182",
+    "number": 182,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"Leí a Cervantes\", hay:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Metáfora"
+      },
+      {
+        "key": "C",
+        "text": "Ironía"
+      },
+      {
+        "key": "D",
+        "text": "Hipérbole"
+      },
+      {
+        "key": "E",
+        "text": "Presuposición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Leí a Cervantes\" es metonimia."
+  },
+  {
+    "id": "2.5_q183",
+    "number": 183,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"Tiene una pluma excelente\", hay:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Metáfora"
+      },
+      {
+        "key": "C",
+        "text": "Ironía"
+      },
+      {
+        "key": "D",
+        "text": "Hipérbole"
+      },
+      {
+        "key": "E",
+        "text": "Presuposición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Tiene una pluma excelente\" es metonimia."
+  },
+  {
+    "id": "2.5_q184",
+    "number": 184,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"¡Eres un genio!\" dicho a alguien que cometió un error, hay:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ironía"
+      },
+      {
+        "key": "B",
+        "text": "Metáfora"
+      },
+      {
+        "key": "C",
+        "text": "Metonimia"
+      },
+      {
+        "key": "D",
+        "text": "Hipérbole"
+      },
+      {
+        "key": "E",
+        "text": "Presuposición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¡Eres un genio!\" a alguien que erró es ironía."
+  },
+  {
+    "id": "2.5_q185",
+    "number": 185,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "En \"Te lo he dicho un millón de veces\", hay:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hipérbole"
+      },
+      {
+        "key": "B",
+        "text": "Metáfora"
+      },
+      {
+        "key": "C",
+        "text": "Metonimia"
+      },
+      {
+        "key": "D",
+        "text": "Ironía"
+      },
+      {
+        "key": "E",
+        "text": "Presuposición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Un millón de veces\" es hipérbole."
+  },
+  {
+    "id": "2.5_q186",
+    "number": 186,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La hipérbole es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una exageración"
+      },
+      {
+        "key": "B",
+        "text": "Una comparación"
+      },
+      {
+        "key": "C",
+        "text": "Una sustitución"
+      },
+      {
+        "key": "D",
+        "text": "Una omisión"
+      },
+      {
+        "key": "E",
+        "text": "Una repetición"
+      },
+      {
+        "key": "F",
+        "text": "Una negación"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La hipérbole es una exageración."
+  },
+  {
+    "id": "2.5_q187",
+    "number": 187,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La metáfora es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una comparación implícita"
+      },
+      {
+        "key": "B",
+        "text": "Una exageración"
+      },
+      {
+        "key": "C",
+        "text": "Una sustitución"
+      },
+      {
+        "key": "D",
+        "text": "Una omisión"
+      },
+      {
+        "key": "E",
+        "text": "Una repetición"
+      },
+      {
+        "key": "F",
+        "text": "Una negación"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La metáfora es una comparación implícita."
+  },
+  {
+    "id": "2.5_q188",
+    "number": 188,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La metonimia es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una sustitución basada en una relación de contigüidad"
+      },
+      {
+        "key": "B",
+        "text": "Una comparación implícita"
+      },
+      {
+        "key": "C",
+        "text": "Una exageración"
+      },
+      {
+        "key": "D",
+        "text": "Una omisión"
+      },
+      {
+        "key": "E",
+        "text": "Una repetición"
+      },
+      {
+        "key": "F",
+        "text": "Una negación"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La metonimia es una sustitución por contigüidad."
+  },
+  {
+    "id": "2.5_q189",
+    "number": 189,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "El sarcasmo es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una ironía mordaz o cruel"
+      },
+      {
+        "key": "B",
+        "text": "Una metáfora"
+      },
+      {
+        "key": "C",
+        "text": "Una metonimia"
+      },
+      {
+        "key": "D",
+        "text": "Una hipérbole"
+      },
+      {
+        "key": "E",
+        "text": "Una presuposición"
+      },
+      {
+        "key": "F",
+        "text": "Una deixis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El sarcasmo es una ironía mordaz."
+  },
+  {
+    "id": "2.5_q190",
+    "number": 190,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La atenuación es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una estrategia para suavizar la fuerza ilocutiva"
+      },
+      {
+        "key": "B",
+        "text": "Una estrategia para aumentar la fuerza ilocutiva"
+      },
+      {
+        "key": "C",
+        "text": "Una estrategia para ignorar la fuerza ilocutiva"
+      },
+      {
+        "key": "D",
+        "text": "Una estrategia para confundir"
+      },
+      {
+        "key": "E",
+        "text": "Una estrategia para alargar"
+      },
+      {
+        "key": "F",
+        "text": "Una estrategia para cambiar de tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La atenuación suaviza la fuerza ilocutiva."
+  },
+  {
+    "id": "2.5_q191",
+    "number": 191,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La intensificación es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una estrategia para aumentar la fuerza ilocutiva"
+      },
+      {
+        "key": "B",
+        "text": "Una estrategia para suavizar la fuerza ilocutiva"
+      },
+      {
+        "key": "C",
+        "text": "Una estrategia para ignorar la fuerza ilocutiva"
+      },
+      {
+        "key": "D",
+        "text": "Una estrategia para confundir"
+      },
+      {
+        "key": "E",
+        "text": "Una estrategia para alargar"
+      },
+      {
+        "key": "F",
+        "text": "Una estrategia para cambiar de tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La intensificación aumenta la fuerza ilocutiva."
+  },
+  {
+    "id": "2.5_q192",
+    "number": 192,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "\"¿Podrías hacerme un favor?\" es una estrategia de:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Intensificación"
+      },
+      {
+        "key": "D",
+        "text": "Ironía"
+      },
+      {
+        "key": "E",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¿Podrías hacerme un favor?\" es atenuación."
+  },
+  {
+    "id": "2.5_q193",
+    "number": 193,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "\"¡Hazlo ahora mismo!\" es una estrategia de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Intensificación"
+      },
+      {
+        "key": "E",
+        "text": "Ironía"
+      },
+      {
+        "key": "F",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¡Hazlo ahora mismo!\" es intensificación."
+  },
+  {
+    "id": "2.5_q194",
+    "number": 194,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La cortesía positiva busca:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mostrar aprecio y solidaridad"
+      },
+      {
+        "key": "B",
+        "text": "Mostrar distancia y respeto"
+      },
+      {
+        "key": "C",
+        "text": "Ofender"
+      },
+      {
+        "key": "D",
+        "text": "Ignorar"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cortesía positiva muestra aprecio y solidaridad."
+  },
+  {
+    "id": "2.5_q195",
+    "number": 195,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La cortesía negativa busca:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mostrar respeto y evitar imposiciones"
+      },
+      {
+        "key": "B",
+        "text": "Mostrar aprecio y solidaridad"
+      },
+      {
+        "key": "C",
+        "text": "Ofender"
+      },
+      {
+        "key": "D",
+        "text": "Ignorar"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cortesía negativa muestra respeto y evita imposiciones."
+  },
+  {
+    "id": "2.5_q196",
+    "number": 196,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "\"Eres muy inteligente, seguro puedes ayudarme\" es una estrategia de:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Ironía"
+      },
+      {
+        "key": "E",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Eres muy inteligente, seguro puedes ayudarme\" es cortesía positiva."
+  },
+  {
+    "id": "2.5_q197",
+    "number": 197,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "\"No quisiera molestarte, pero ¿podrías...?\" es una estrategia de:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Ironía"
+      },
+      {
+        "key": "E",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"No quisiera molestarte, pero...\" es cortesía negativa."
+  },
+  {
+    "id": "2.5_q198",
+    "number": 198,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La imagen negativa se refiere a:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La imagen negativa es el deseo de no ser impedido."
+  },
+  {
+    "id": "2.5_q199",
+    "number": 199,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "La imagen positiva se refiere a:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La imagen positiva es el deseo de ser apreciado."
+  },
+  {
+    "id": "2.5_q200",
+    "number": 200,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+    "statement": "Un acto de habla que amenaza la imagen es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una orden, una crítica o una disculpa"
+      },
+      {
+        "key": "B",
+        "text": "Un cumplido"
+      },
+      {
+        "key": "C",
+        "text": "Un agradecimiento"
+      },
+      {
+        "key": "D",
+        "text": "Una felicitación"
+      },
+      {
+        "key": "E",
+        "text": "Un saludo"
+      },
+      {
+        "key": "F",
+        "text": "Una despedida ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Una orden, crítica o disculpa amenaza la imagen."
+  },
+  {
+    "id": "2.5_q201",
+    "number": 201,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El análisis del discurso estudia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización del lenguaje en unidades mayores que la oración"
+      },
+      {
+        "key": "B",
+        "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El análisis del discurso estudia unidades mayores que la oración."
+  },
+  {
+    "id": "2.5_q202",
+    "number": 202,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El análisis de la conversación estudia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización secuencial de la interacción verbal"
+      },
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El análisis de la conversación estudia la interacción verbal."
+  },
+  {
+    "id": "2.5_q203",
+    "number": 203,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "Los turnos de habla son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las intervenciones de cada participante en una conversación"
+      },
+      {
+        "key": "B",
+        "text": "Las oraciones gramaticales"
+      },
+      {
+        "key": "C",
+        "text": "Las palabras aisladas"
+      },
+      {
+        "key": "D",
+        "text": "Los párrafos"
+      },
+      {
+        "key": "E",
+        "text": "Los textos"
+      },
+      {
+        "key": "F",
+        "text": "Los sintagmas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los turnos son las intervenciones de cada participante."
+  },
+  {
+    "id": "2.5_q204",
+    "number": 204,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La toma de turno se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La toma de turno es el momento de intervenir."
+  },
+  {
+    "id": "2.5_q205",
+    "number": 205,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "Los pares adyacentes son:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Secuencias de tres turnos"
+      },
+      {
+        "key": "C",
+        "text": "Secuencias de cuatro turnos"
+      },
+      {
+        "key": "D",
+        "text": "Secuencias de un solo turno"
+      },
+      {
+        "key": "E",
+        "text": "Secuencias sin relación"
+      },
+      {
+        "key": "F",
+        "text": "Secuencias gramaticales"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los pares adyacentes son secuencias de dos turnos relacionados."
+  },
+  {
+    "id": "2.5_q206",
+    "number": 206,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "\"¿Cómo estás?\" - \"Bien, gracias\" es un ejemplo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Par adyacente"
+      },
+      {
+        "key": "B",
+        "text": "Turno único"
+      },
+      {
+        "key": "C",
+        "text": "Secuencia de tres"
+      },
+      {
+        "key": "D",
+        "text": "Secuencia de cuatro"
+      },
+      {
+        "key": "E",
+        "text": "Secuencia sin relación"
+      },
+      {
+        "key": "F",
+        "text": "Secuencia gramatical"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¿Cómo estás?\" - \"Bien\" es par adyacente."
+  },
+  {
+    "id": "2.5_q207",
+    "number": 207,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La reparación en la conversación consiste en:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Ignorar un error"
+      },
+      {
+        "key": "C",
+        "text": "Repetir un error"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La reparación corrige errores en la interacción."
+  },
+  {
+    "id": "2.5_q208",
+    "number": 208,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La superposición en la conversación se produce cuando:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Un participante habla solo"
+      },
+      {
+        "key": "C",
+        "text": "No habla nadie"
+      },
+      {
+        "key": "D",
+        "text": "Se guarda silencio"
+      },
+      {
+        "key": "E",
+        "text": "Se cambia de tema"
+      },
+      {
+        "key": "F",
+        "text": "Se alarga la conversación"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La superposición es hablar al mismo tiempo."
+  },
+  {
+    "id": "2.5_q209",
+    "number": 209,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La pragmática textual estudia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización y uso del lenguaje en textos"
+      },
+      {
+        "key": "B",
+        "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática textual estudia el lenguaje en textos."
+  },
+  {
+    "id": "2.5_q210",
+    "number": 210,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La coherencia pragmática se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La adecuación del texto al contexto comunicativo"
+      },
+      {
+        "key": "B",
+        "text": "La unidad temática"
+      },
+      {
+        "key": "C",
+        "text": "La cohesión gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La coherencia pragmática adecúa el texto al contexto."
+  },
+  {
+    "id": "2.5_q211",
+    "number": 211,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La relevancia en pragmática se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La pertinencia de la información en el contexto"
+      },
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La relevancia es la pertinencia de la información."
+  },
+  {
+    "id": "2.5_q212",
+    "number": 212,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La teoría de la relevancia fue propuesta por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sperber y Wilson"
+      },
+      {
+        "key": "B",
+        "text": "Grice"
+      },
+      {
+        "key": "D",
+        "text": "Searle"
+      },
+      {
+        "key": "E",
+        "text": "Saussure"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sperber y Wilson propusieron la teoría de la relevancia."
+  },
+  {
+    "id": "2.5_q213",
+    "number": 213,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "Según la teoría de la relevancia, la comunicación busca:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maximizar la relevancia con el mínimo esfuerzo"
+      },
+      {
+        "key": "B",
+        "text": "Maximizar el esfuerzo"
+      },
+      {
+        "key": "C",
+        "text": "Minimizar la relevancia"
+      },
+      {
+        "key": "D",
+        "text": "Ignorar el contexto"
+      },
+      {
+        "key": "E",
+        "text": "Ignorar la intención"
+      },
+      {
+        "key": "F",
+        "text": "Ignorar el efecto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La comunicación busca maximizar relevancia con mínimo esfuerzo."
+  },
+  {
+    "id": "2.5_q214",
+    "number": 214,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El contexto cognitivo en la teoría de la relevancia se refiere a:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El contexto cognitivo son los supuestos activados."
+  },
+  {
+    "id": "2.5_q215",
+    "number": 215,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El efecto cognitivo en la teoría de la relevancia se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La modificación de los supuestos del oyente"
+      },
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El efecto cognitivo modifica los supuestos del oyente."
+  },
+  {
+    "id": "2.5_q216",
+    "number": 216,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El esfuerzo de procesamiento en la teoría de la relevancia se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El esfuerzo de procesamiento es el costo cognitivo."
+  },
+  {
+    "id": "2.5_q217",
+    "number": 217,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La comunicación ostensiva-inferencial es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La que combina la intención del hablante con la inferencia del oyente"
+      },
+      {
+        "key": "B",
+        "text": "La que solo tiene intención"
+      },
+      {
+        "key": "C",
+        "text": "La que solo tiene inferencia"
+      },
+      {
+        "key": "D",
+        "text": "La que no tiene intención"
+      },
+      {
+        "key": "E",
+        "text": "La que no tiene inferencia"
+      },
+      {
+        "key": "F",
+        "text": "La que no tiene contexto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La comunicación ostensiva-inferencial combina intención e inferencia."
+  },
+  {
+    "id": "2.5_q218",
+    "number": 218,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La ostensión es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La manifestación de la intención comunicativa"
+      },
+      {
+        "key": "B",
+        "text": "La inferencia del oyente"
+      },
+      {
+        "key": "D",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "E",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "F",
+        "text": "La puntuación del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La ostensión es la manifestación de la intención."
+  },
+  {
+    "id": "2.5_q219",
+    "number": 219,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La inferencia es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La manifestación de la intención"
+      },
+      {
+        "key": "D",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "E",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "F",
+        "text": "La puntuación del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La inferencia es el proceso mental del oyente."
+  },
+  {
+    "id": "2.5_q220",
+    "number": 220,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El entorno cognitivo es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El entorno cognitivo son los supuestos compartidos."
+  },
+  {
+    "id": "2.5_q221",
+    "number": 221,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La teoría de la cortesía fue propuesta por:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Grice"
+      },
+      {
+        "key": "D",
+        "text": "Searle"
+      },
+      {
+        "key": "E",
+        "text": "Sperber y Wilson"
+      },
+      {
+        "key": "F",
+        "text": "Saussure"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Brown y Levinson propusieron la teoría de la cortesía."
+  },
+  {
+    "id": "2.5_q222",
+    "number": 222,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La imagen pública o \"face\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La imagen social que cada persona proyecta"
+      },
+      {
+        "key": "B",
+        "text": "La imagen física"
+      },
+      {
+        "key": "C",
+        "text": "La imagen digital"
+      },
+      {
+        "key": "D",
+        "text": "La imagen profesional"
+      },
+      {
+        "key": "E",
+        "text": "La imagen académica"
+      },
+      {
+        "key": "F",
+        "text": "La imagen personal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La imagen pública es la imagen social que se proyecta."
+  },
+  {
+    "id": "2.5_q223",
+    "number": 223,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La cortesía positiva se orienta hacia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La imagen positiva del interlocutor"
+      },
+      {
+        "key": "B",
+        "text": "La imagen negativa del interlocutor"
+      },
+      {
+        "key": "C",
+        "text": "La imagen física"
+      },
+      {
+        "key": "D",
+        "text": "La imagen digital"
+      },
+      {
+        "key": "E",
+        "text": "La imagen profesional"
+      },
+      {
+        "key": "F",
+        "text": "La imagen académica"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cortesía positiva se orienta a la imagen positiva."
+  },
+  {
+    "id": "2.5_q224",
+    "number": 224,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La cortesía negativa se orienta hacia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La imagen negativa del interlocutor"
+      },
+      {
+        "key": "B",
+        "text": "La imagen positiva del interlocutor"
+      },
+      {
+        "key": "C",
+        "text": "La imagen física"
+      },
+      {
+        "key": "D",
+        "text": "La imagen digital"
+      },
+      {
+        "key": "E",
+        "text": "La imagen profesional"
+      },
+      {
+        "key": "F",
+        "text": "La imagen académica"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cortesía negativa se orienta a la imagen negativa."
+  },
+  {
+    "id": "2.5_q225",
+    "number": 225,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La descortesía es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La violación deliberada de las normas de cortesía"
+      },
+      {
+        "key": "C",
+        "text": "La indiferencia a las normas"
+      },
+      {
+        "key": "D",
+        "text": "La ignorancia de las normas"
+      },
+      {
+        "key": "E",
+        "text": "La confusión de las normas"
+      },
+      {
+        "key": "F",
+        "text": "La repetición de las normas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La descortesía viola deliberadamente las normas."
+  },
+  {
+    "id": "2.5_q226",
+    "number": 226,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La pragmática intercultural estudia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las diferencias en el uso del lenguaje entre culturas"
+      },
+      {
+        "key": "B",
+        "text": "Las diferencias gramaticales entre lenguas"
+      },
+      {
+        "key": "C",
+        "text": "Las diferencias ortográficas entre lenguas"
+      },
+      {
+        "key": "D",
+        "text": "Las diferencias fonéticas entre lenguas"
+      },
+      {
+        "key": "E",
+        "text": "Las diferencias morfológicas entre lenguas"
+      },
+      {
+        "key": "F",
+        "text": "Las diferencias sintácticas entre lenguas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática intercultural estudia diferencias culturales."
+  },
+  {
+    "id": "2.5_q227",
+    "number": 227,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La pragmática del español estudia:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La gramática del español"
+      },
+      {
+        "key": "C",
+        "text": "La ortografía del español"
+      },
+      {
+        "key": "D",
+        "text": "La fonética del español"
+      },
+      {
+        "key": "E",
+        "text": "La morfología del español"
+      },
+      {
+        "key": "F",
+        "text": "La sintaxis del español"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática del español estudia el uso del español en contexto."
+  },
+  {
+    "id": "2.5_q228",
+    "number": 228,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El \"tú\" y el \"usted\" en español son ejemplos de:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Tú\" y \"usted\" son deixis social."
+  },
+  {
+    "id": "2.5_q229",
+    "number": 229,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El uso de \"usted\" indica:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Ironía"
+      },
+      {
+        "key": "E",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Usted\" indica distancia y respeto."
+  },
+  {
+    "id": "2.5_q230",
+    "number": 230,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El uso de \"tú\" indica:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Ironía"
+      },
+      {
+        "key": "E",
+        "text": "Sarcasmo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Tú\" indica cercanía y confianza."
+  },
+  {
+    "id": "2.5_q231",
+    "number": 231,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El voseo es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El voseo usa \"vos\" en lugar de \"tú\"."
+  },
+  {
+    "id": "2.5_q232",
+    "number": 232,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La pragmática del discurso estudia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización del lenguaje en unidades mayores que la oración"
+      },
+      {
+        "key": "B",
+        "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática del discurso estudia unidades mayores que la oración."
+  },
+  {
+    "id": "2.5_q233",
+    "number": 233,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El análisis de la conversación estudia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización secuencial de la interacción verbal"
+      },
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El análisis de la conversación estudia la interacción verbal."
+  },
+  {
+    "id": "2.5_q234",
+    "number": 234,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "Los turnos de habla son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las intervenciones de cada participante en una conversación"
+      },
+      {
+        "key": "B",
+        "text": "Las oraciones gramaticales"
+      },
+      {
+        "key": "C",
+        "text": "Las palabras aisladas"
+      },
+      {
+        "key": "D",
+        "text": "Los párrafos"
+      },
+      {
+        "key": "E",
+        "text": "Los textos"
+      },
+      {
+        "key": "F",
+        "text": "Los sintagmas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los turnos son las intervenciones de cada participante."
+  },
+  {
+    "id": "2.5_q235",
+    "number": 235,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La toma de turno se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La toma de turno es el momento de intervenir."
+  },
+  {
+    "id": "2.5_q236",
+    "number": 236,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "Los pares adyacentes son:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Secuencias de tres turnos"
+      },
+      {
+        "key": "C",
+        "text": "Secuencias de cuatro turnos"
+      },
+      {
+        "key": "D",
+        "text": "Secuencias de un solo turno"
+      },
+      {
+        "key": "E",
+        "text": "Secuencias sin relación"
+      },
+      {
+        "key": "F",
+        "text": "Secuencias gramaticales"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los pares adyacentes son secuencias de dos turnos relacionados."
+  },
+  {
+    "id": "2.5_q237",
+    "number": 237,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "\"¿Cómo estás?\" - \"Bien, gracias\" es un ejemplo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Par adyacente"
+      },
+      {
+        "key": "B",
+        "text": "Turno único"
+      },
+      {
+        "key": "C",
+        "text": "Secuencia de tres"
+      },
+      {
+        "key": "D",
+        "text": "Secuencia de cuatro"
+      },
+      {
+        "key": "E",
+        "text": "Secuencia sin relación"
+      },
+      {
+        "key": "F",
+        "text": "Secuencia gramatical"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¿Cómo estás?\" - \"Bien\" es par adyacente."
+  },
+  {
+    "id": "2.5_q238",
+    "number": 238,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La reparación en la conversación consiste en:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Ignorar un error"
+      },
+      {
+        "key": "C",
+        "text": "Repetir un error"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La reparación corrige errores en la interacción."
+  },
+  {
+    "id": "2.5_q239",
+    "number": 239,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La superposición en la conversación se produce cuando:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Un participante habla solo"
+      },
+      {
+        "key": "C",
+        "text": "No habla nadie"
+      },
+      {
+        "key": "D",
+        "text": "Se guarda silencio"
+      },
+      {
+        "key": "E",
+        "text": "Se cambia de tema"
+      },
+      {
+        "key": "F",
+        "text": "Se alarga la conversación"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La superposición es hablar al mismo tiempo."
+  },
+  {
+    "id": "2.5_q240",
+    "number": 240,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La pragmática textual estudia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización y uso del lenguaje en textos"
+      },
+      {
+        "key": "B",
+        "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática textual estudia el lenguaje en textos."
+  },
+  {
+    "id": "2.5_q241",
+    "number": 241,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La coherencia pragmática se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La adecuación del texto al contexto comunicativo"
+      },
+      {
+        "key": "B",
+        "text": "La unidad temática"
+      },
+      {
+        "key": "C",
+        "text": "La cohesión gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La coherencia pragmática adecúa el texto al contexto."
+  },
+  {
+    "id": "2.5_q242",
+    "number": 242,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La relevancia en pragmática se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La pertinencia de la información en el contexto"
+      },
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La relevancia es la pertinencia de la información."
+  },
+  {
+    "id": "2.5_q243",
+    "number": 243,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La teoría de la relevancia fue propuesta por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sperber y Wilson"
+      },
+      {
+        "key": "B",
+        "text": "Grice"
+      },
+      {
+        "key": "D",
+        "text": "Searle"
+      },
+      {
+        "key": "E",
+        "text": "Saussure"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sperber y Wilson propusieron la teoría de la relevancia."
+  },
+  {
+    "id": "2.5_q244",
+    "number": 244,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "Según la teoría de la relevancia, la comunicación busca:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maximizar la relevancia con el mínimo esfuerzo"
+      },
+      {
+        "key": "B",
+        "text": "Maximizar el esfuerzo"
+      },
+      {
+        "key": "C",
+        "text": "Minimizar la relevancia"
+      },
+      {
+        "key": "D",
+        "text": "Ignorar el contexto"
+      },
+      {
+        "key": "E",
+        "text": "Ignorar la intención"
+      },
+      {
+        "key": "F",
+        "text": "Ignorar el efecto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La comunicación busca maximizar relevancia con mínimo esfuerzo."
+  },
+  {
+    "id": "2.5_q245",
+    "number": 245,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El contexto cognitivo en la teoría de la relevancia se refiere a:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El contexto cognitivo son los supuestos activados."
+  },
+  {
+    "id": "2.5_q246",
+    "number": 246,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El efecto cognitivo en la teoría de la relevancia se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La modificación de los supuestos del oyente"
+      },
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El efecto cognitivo modifica los supuestos del oyente."
+  },
+  {
+    "id": "2.5_q247",
+    "number": 247,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "El esfuerzo de procesamiento en la teoría de la relevancia se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "F",
+        "text": "La caligrafía del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El esfuerzo de procesamiento es el costo cognitivo."
+  },
+  {
+    "id": "2.5_q248",
+    "number": 248,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La comunicación ostensiva-inferencial es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La que combina la intención del hablante con la inferencia del oyente"
+      },
+      {
+        "key": "B",
+        "text": "La que solo tiene intención"
+      },
+      {
+        "key": "C",
+        "text": "La que solo tiene inferencia"
+      },
+      {
+        "key": "D",
+        "text": "La que no tiene intención"
+      },
+      {
+        "key": "E",
+        "text": "La que no tiene inferencia"
+      },
+      {
+        "key": "F",
+        "text": "La que no tiene contexto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La comunicación ostensiva-inferencial combina intención e inferencia."
+  },
+  {
+    "id": "2.5_q249",
+    "number": 249,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La ostensión es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La manifestación de la intención comunicativa"
+      },
+      {
+        "key": "B",
+        "text": "La inferencia del oyente"
+      },
+      {
+        "key": "D",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "E",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "F",
+        "text": "La puntuación del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La ostensión es la manifestación de la intención."
+  },
+  {
+    "id": "2.5_q250",
+    "number": 250,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+    "statement": "La inferencia es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La manifestación de la intención"
+      },
+      {
+        "key": "D",
+        "text": "La estructura gramatical"
+      },
+      {
+        "key": "E",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "F",
+        "text": "La puntuación del texto ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La inferencia es el proceso mental del oyente."
+  },
+  {
+    "id": "2.5_q251",
+    "number": 251,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática estudia el lenguaje:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Sin intención"
+      },
+      {
+        "key": "E",
+        "text": "Sin efecto"
+      },
+      {
+        "key": "F",
+        "text": "Sin significado"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática estudia el lenguaje en uso y contexto."
+  },
+  {
+    "id": "2.5_q252",
+    "number": 252,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "El significado pragmático depende de:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo la gramática"
+      },
+      {
+        "key": "C",
+        "text": "Solo la ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Solo la puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Solo la caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Solo la sintaxis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El significado pragmático depende del contexto y la intención."
+  },
+  {
+    "id": "2.5_q253",
+    "number": 253,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La comunicación eficaz requiere:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Ignorar el contexto"
+      },
+      {
+        "key": "C",
+        "text": "Ignorar las intenciones"
+      },
+      {
+        "key": "D",
+        "text": "Ignorar al interlocutor"
+      },
+      {
+        "key": "E",
+        "text": "Ignorar el mensaje"
+      },
+      {
+        "key": "F",
+        "text": "Ignorar el canal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La comunicación eficaz requiere compartir contexto e intenciones."
+  },
+  {
+    "id": "2.5_q254",
+    "number": 254,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "Los malentendidos se producen cuando:",
+    "options": [
+      {
+        "key": "A",
+        "text": "No se comparte el contexto o la intención"
+      },
+      {
+        "key": "B",
+        "text": "Se comparte el contexto"
+      },
+      {
+        "key": "C",
+        "text": "Se comparte la intención"
+      },
+      {
+        "key": "D",
+        "text": "Se comparte el mensaje"
+      },
+      {
+        "key": "E",
+        "text": "Se comparte el canal"
+      },
+      {
+        "key": "F",
+        "text": "Se comparte el código"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los malentendidos surgen al no compartir contexto o intención."
+  },
+  {
+    "id": "2.5_q255",
+    "number": 255,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática es importante en la enseñanza de lenguas porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La pragmática ayuda a usar el lenguaje adecuadamente."
+  },
+  {
+    "id": "2.5_q256",
+    "number": 256,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La competencia pragmática es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La capacidad de usar el lenguaje adecuadamente en contexto"
+      },
+      {
+        "key": "B",
+        "text": "La capacidad de memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "La capacidad de memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "La capacidad de memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "La capacidad de memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "La capacidad de memorizar sintaxis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La competencia pragmática es usar el lenguaje en contexto."
+  },
+  {
+    "id": "2.5_q257",
+    "number": 257,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La competencia pragmática incluye:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La capacidad de interpretar y producir actos de habla"
+      },
+      {
+        "key": "B",
+        "text": "Solo la gramática"
+      },
+      {
+        "key": "C",
+        "text": "Solo la ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Solo la puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Solo la caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Solo la sintaxis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Incluye interpretar y producir actos de habla."
+  },
+  {
+    "id": "2.5_q258",
+    "number": 258,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática intercultural es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La pragmática intercultural evita malentendidos."
+  },
+  {
+    "id": "2.5_q259",
+    "number": 259,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática del español es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La pragmática del español ayuda a usarlo en contexto."
+  },
+  {
+    "id": "2.5_q260",
+    "number": 260,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la traducción es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La pragmática en traducción transmite intención y contexto."
+  },
+  {
+    "id": "2.5_q261",
+    "number": 261,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la publicidad es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La pragmática en publicidad persuade y crea implicaturas."
+  },
+  {
+    "id": "2.5_q262",
+    "number": 262,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la política es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La pragmática en política persuade y crea implicaturas."
+  },
+  {
+    "id": "2.5_q263",
+    "number": 263,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la educación es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La pragmática en educación ayuda a comprender y producir textos."
+  },
+  {
+    "id": "2.5_q264",
+    "number": 264,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la vida cotidiana es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La pragmática en la vida cotidiana ayuda a comunicarse."
+  },
+  {
+    "id": "2.5_q265",
+    "number": 265,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática estudia:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La pragmática estudia el lenguaje en uso."
+  },
+  {
+    "id": "2.5_q266",
+    "number": 266,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática se relaciona con:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La semántica, la sintaxis y la fonología"
+      },
+      {
+        "key": "B",
+        "text": "Solo la semántica"
+      },
+      {
+        "key": "C",
+        "text": "Solo la sintaxis"
+      },
+      {
+        "key": "D",
+        "text": "Solo la fonología"
+      },
+      {
+        "key": "E",
+        "text": "Solo la morfología"
+      },
+      {
+        "key": "F",
+        "text": "Solo la ortografía"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Se relaciona con semántica, sintaxis y fonología."
+  },
+  {
+    "id": "2.5_q267",
+    "number": 267,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática se diferencia de la semántica porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Se diferencia de la semántica por estudiar el significado en contexto."
+  },
+  {
+    "id": "2.5_q268",
+    "number": 268,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática se diferencia de la sintaxis porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Se diferencia de la sintaxis por estudiar el uso, no solo la estructura."
+  },
+  {
+    "id": "2.5_q269",
+    "number": 269,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática se diferencia de la fonología porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Se diferencia de la fonología por estudiar el uso, no solo los sonidos."
+  },
+  {
+    "id": "2.5_q270",
+    "number": 270,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática es una disciplina:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Obsoleta"
+      },
+      {
+        "key": "D",
+        "text": "Inútil"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática es una disciplina en desarrollo."
+  },
+  {
+    "id": "2.5_q271",
+    "number": 271,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática estudia:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La relación entre el lenguaje y sus usuarios"
+      },
+      {
+        "key": "B",
+        "text": "La relación entre las palabras"
+      },
+      {
+        "key": "C",
+        "text": "La relación entre los sonidos"
+      },
+      {
+        "key": "D",
+        "text": "La relación entre las letras"
+      },
+      {
+        "key": "E",
+        "text": "La relación entre las sílabas"
+      },
+      {
+        "key": "F",
+        "text": "La relación entre las oraciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Estudia la relación entre el lenguaje y sus usuarios."
+  },
+  {
+    "id": "2.5_q272",
+    "number": 272,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática se interesa por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La intención del hablante y el efecto en el oyente"
+      },
+      {
+        "key": "B",
+        "text": "Solo la estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "Solo el significado literal"
+      },
+      {
+        "key": "D",
+        "text": "Solo la ortografía"
+      },
+      {
+        "key": "E",
+        "text": "Solo la puntuación"
+      },
+      {
+        "key": "F",
+        "text": "Solo la caligrafía"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Se interesa por la intención del hablante y el efecto en el oyente."
+  },
+  {
+    "id": "2.5_q273",
+    "number": 273,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática analiza:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Los actos de habla, la deixis, la implicatura y la presuposición"
+      },
+      {
+        "key": "B",
+        "text": "Solo los actos de habla"
+      },
+      {
+        "key": "C",
+        "text": "Solo la deixis"
+      },
+      {
+        "key": "D",
+        "text": "Solo la implicatura"
+      },
+      {
+        "key": "E",
+        "text": "Solo la presuposición"
+      },
+      {
+        "key": "F",
+        "text": "Solo la gramática"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Analiza actos de habla, deixis, implicatura y presuposición."
+  },
+  {
+    "id": "2.5_q274",
+    "number": 274,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática es esencial para:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La comunicación eficaz"
+      },
+      {
+        "key": "B",
+        "text": "La memorización de datos"
+      },
+      {
+        "key": "C",
+        "text": "La repetición de información"
+      },
+      {
+        "key": "D",
+        "text": "La copia de información"
+      },
+      {
+        "key": "E",
+        "text": "La ignorancia de información"
+      },
+      {
+        "key": "F",
+        "text": "La confusión de información"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Es esencial para la comunicación eficaz."
+  },
+  {
+    "id": "2.5_q275",
+    "number": 275,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la literatura es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En literatura ayuda a interpretar significados implícitos."
+  },
+  {
+    "id": "2.5_q276",
+    "number": 276,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en el cine es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En cine ayuda a interpretar diálogos e intenciones."
+  },
+  {
+    "id": "2.5_q277",
+    "number": 277,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en las redes sociales es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En redes sociales ayuda a interpretar mensajes e intenciones."
+  },
+  {
+    "id": "2.5_q278",
+    "number": 278,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la inteligencia artificial es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En IA ayuda a que las máquinas interpreten el lenguaje en contexto."
+  },
+  {
+    "id": "2.5_q279",
+    "number": 279,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la traducción automática es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En traducción automática ayuda a transmitir intención y contexto."
+  },
+  {
+    "id": "2.5_q280",
+    "number": 280,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la enseñanza de lenguas es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En enseñanza de lenguas ayuda a usar el lenguaje en contexto."
+  },
+  {
+    "id": "2.5_q281",
+    "number": 281,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la evaluación de lenguas es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En evaluación ayuda a evaluar la competencia comunicativa."
+  },
+  {
+    "id": "2.5_q282",
+    "number": 282,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la investigación es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En investigación ayuda a comprender el uso del lenguaje."
+  },
+  {
+    "id": "2.5_q283",
+    "number": 283,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la psicología es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En psicología ayuda a comprender la comunicación humana."
+  },
+  {
+    "id": "2.5_q284",
+    "number": 284,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la sociología es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En sociología ayuda a comprender la interacción social."
+  },
+  {
+    "id": "2.5_q285",
+    "number": 285,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la antropología es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En antropología ayuda a comprender el lenguaje en culturas."
+  },
+  {
+    "id": "2.5_q286",
+    "number": 286,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la filosofía es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En filosofía ayuda a comprender el lenguaje y la acción."
+  },
+  {
+    "id": "2.5_q287",
+    "number": 287,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la lingüística es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En lingüística ayuda a comprender el lenguaje en uso."
+  },
+  {
+    "id": "2.5_q288",
+    "number": 288,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la comunicación es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En comunicación ayuda a comprender y producir mensajes."
+  },
+  {
+    "id": "2.5_q289",
+    "number": 289,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la educación es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En educación ayuda a desarrollar la competencia comunicativa."
+  },
+  {
+    "id": "2.5_q290",
+    "number": 290,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en el trabajo es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En el trabajo ayuda a comunicarse eficazmente."
+  },
+  {
+    "id": "2.5_q291",
+    "number": 291,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la salud es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En salud ayuda a comunicarse con los pacientes."
+  },
+  {
+    "id": "2.5_q292",
+    "number": 292,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en el derecho es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En derecho ayuda a interpretar textos legales."
+  },
+  {
+    "id": "2.5_q293",
+    "number": 293,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la política es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En política ayuda a interpretar discursos e intenciones."
+  },
+  {
+    "id": "2.5_q294",
+    "number": 294,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en los medios es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En medios ayuda a interpretar mensajes e intenciones."
+  },
+  {
+    "id": "2.5_q295",
+    "number": 295,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la publicidad es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En publicidad ayuda a crear mensajes persuasivos."
+  },
+  {
+    "id": "2.5_q296",
+    "number": 296,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en las relaciones interpersonales es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En relaciones interpersonales ayuda a comunicarse adecuadamente."
+  },
+  {
+    "id": "2.5_q297",
+    "number": 297,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la familia es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En la familia ayuda a comunicarse en el hogar."
+  },
+  {
+    "id": "2.5_q298",
+    "number": 298,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en la amistad es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En la amistad ayuda a comunicarse y mantener amistades."
+  },
+  {
+    "id": "2.5_q299",
+    "number": 299,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática en el amor es importante porque:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "En el amor ayuda a expresar sentimientos."
+  },
+  {
+    "id": "2.5_q300",
+    "number": 300,
+    "subtopicId": "2.5",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
+    "statement": "La pragmática es fundamental para:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Memorizar sintaxis ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pragmática es fundamental para comprender y producir lenguaje en contexto."
+  }
+]

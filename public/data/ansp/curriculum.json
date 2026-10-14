@@ -1,0 +1,758 @@
+{
+  "title": "Academia Nacional de Seguridad Pública (ANSP) - Prueba Cultural Nivel Básico 2025",
+  "description": "Cuestionario general y oficial de 250 preguntas de opción múltiple estructuradas en las 10 materias del temario.",
+  "totalQuestions": 250,
+  "totalSubtopics": 59,
+  "subjects": [
+    {
+      "id": "ansp_historia",
+      "number": 1,
+      "name": "Historia de El Salvador",
+      "codeRange": "1.1 al 1.8",
+      "description": "Conquista, Independencia, Insurrección de Anastasio Aquino, Presidentes, Guerra de las 100 Horas, Conflicto Armado, Acuerdos de Paz y Posguerra.",
+      "totalSubtopics": 8,
+      "totalQuestions": 50,
+      "color": "from-amber-600 to-red-700",
+      "badgeBg": "bg-amber-100",
+      "badgeText": "text-amber-800",
+      "borderColor": "border-amber-200",
+      "icon": "Landmark",
+      "subtopics": [
+        {
+          "id": "ansp_historia_1",
+          "code": "1.1",
+          "title": "1.1 La Conquista de El Salvador",
+          "subjectId": "ansp_historia",
+          "questionCount": 4,
+          "sections": [
+            "1.1 La Conquista de El Salvador"
+          ]
+        },
+        {
+          "id": "ansp_historia_2",
+          "code": "1.2",
+          "title": "1.2 Época de la Independencia: Los próceres",
+          "subjectId": "ansp_historia",
+          "questionCount": 6,
+          "sections": [
+            "1.2 Época de la Independencia: Los próceres"
+          ]
+        },
+        {
+          "id": "ansp_historia_3",
+          "code": "1.3",
+          "title": "1.3 Insurrección de Anastasio Aquino y Los Nonualcos",
+          "subjectId": "ansp_historia",
+          "questionCount": 3,
+          "sections": [
+            "1.3 Insurrección de Anastasio Aquino y Los Nonualcos"
+          ]
+        },
+        {
+          "id": "ansp_historia_4",
+          "code": "1.8",
+          "title": "1.8 Época de postguerra",
+          "subjectId": "ansp_historia",
+          "questionCount": 12,
+          "sections": [
+            "1.8 Época de postguerra"
+          ]
+        },
+        {
+          "id": "ansp_historia_5",
+          "code": "1.5",
+          "title": "1.5 La Guerra de las 100 Horas",
+          "subjectId": "ansp_historia",
+          "questionCount": 3,
+          "sections": [
+            "1.5 La Guerra de las 100 Horas"
+          ]
+        },
+        {
+          "id": "ansp_historia_6",
+          "code": "1.6",
+          "title": "1.6 El Conflicto Armado de El Salvador",
+          "subjectId": "ansp_historia",
+          "questionCount": 8,
+          "sections": [
+            "1.6 El Conflicto Armado de El Salvador"
+          ]
+        },
+        {
+          "id": "ansp_historia_7",
+          "code": "1.7",
+          "title": "1.7 Los Acuerdos de Paz",
+          "subjectId": "ansp_historia",
+          "questionCount": 5,
+          "sections": [
+            "1.7 Los Acuerdos de Paz"
+          ]
+        },
+        {
+          "id": "ansp_historia_8",
+          "code": "1.4",
+          "title": "1.4 Presidentes de El Salvador",
+          "subjectId": "ansp_historia",
+          "questionCount": 9,
+          "sections": [
+            "1.4 Presidentes de El Salvador"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ansp_lenguaje",
+      "number": 2,
+      "name": "Lenguaje",
+      "codeRange": "2.1 al 2.3",
+      "description": "Ortografía acentual y literal, redacción coherente, ensayo argumentativo y cualidades de un buen orador.",
+      "totalSubtopics": 3,
+      "totalQuestions": 11,
+      "color": "from-blue-600 to-indigo-700",
+      "badgeBg": "bg-blue-100",
+      "badgeText": "text-blue-800",
+      "borderColor": "border-blue-200",
+      "icon": "BookOpen",
+      "subtopics": [
+        {
+          "id": "ansp_lenguaje_1",
+          "code": "2.1",
+          "title": "2.1 Ortografía y Gramática",
+          "subjectId": "ansp_lenguaje",
+          "questionCount": 3,
+          "sections": [
+            "2.1 Ortografía y Gramática"
+          ]
+        },
+        {
+          "id": "ansp_lenguaje_2",
+          "code": "2.2",
+          "title": "2.2 Redacción",
+          "subjectId": "ansp_lenguaje",
+          "questionCount": 4,
+          "sections": [
+            "2.2 Redacción"
+          ]
+        },
+        {
+          "id": "ansp_lenguaje_3",
+          "code": "2.3",
+          "title": "2.3 Cualidades de un buen orador",
+          "subjectId": "ansp_lenguaje",
+          "questionCount": 4,
+          "sections": [
+            "2.3 Cualidades de un buen orador"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ansp_literatura",
+      "number": 3,
+      "name": "Literatura",
+      "codeRange": "3.1 al 3.5",
+      "description": "Literatura salvadoreña, oralidad y escritura, 'Jícaras Tristes' de Alfredo Espino, 'Romeo y Julieta' de Shakespeare, y 'Cien años de soledad' de García Márquez.",
+      "totalSubtopics": 6,
+      "totalQuestions": 39,
+      "color": "from-purple-600 to-pink-700",
+      "badgeBg": "bg-purple-100",
+      "badgeText": "text-purple-800",
+      "borderColor": "border-purple-200",
+      "icon": "Feather",
+      "subtopics": [
+        {
+          "id": "ansp_literatura_1",
+          "code": "3.3",
+          "title": "3.3 Jícaras Tristes, Alfredo Espino",
+          "subjectId": "ansp_literatura",
+          "questionCount": 4,
+          "sections": [
+            "3.3 Jícaras Tristes, Alfredo Espino"
+          ]
+        },
+        {
+          "id": "ansp_literatura_2",
+          "code": "3.4",
+          "title": "3.4 Romeo y Julieta, William Shakespeare",
+          "subjectId": "ansp_literatura",
+          "questionCount": 4,
+          "sections": [
+            "3.4 Romeo y Julieta, William Shakespeare"
+          ]
+        },
+        {
+          "id": "ansp_literatura_3",
+          "code": "3.5",
+          "title": "3.5 Cien años de soledad, Gabriel García Márquez",
+          "subjectId": "ansp_literatura",
+          "questionCount": 6,
+          "sections": [
+            "3.5 Cien años de soledad, Gabriel García Márquez"
+          ]
+        },
+        {
+          "id": "ansp_literatura_4",
+          "code": "3.1",
+          "title": "3.1 Literatura salvadoreña",
+          "subjectId": "ansp_literatura",
+          "questionCount": 18,
+          "sections": [
+            "3.1 Literatura salvadoreña"
+          ]
+        },
+        {
+          "id": "ansp_literatura_5",
+          "code": "2.1",
+          "title": "2.1 Ortografía y Gramática",
+          "subjectId": "ansp_literatura",
+          "questionCount": 3,
+          "sections": [
+            "2.1 Ortografía y Gramática"
+          ]
+        },
+        {
+          "id": "ansp_literatura_6",
+          "code": "3.2",
+          "title": "3.2 La oralidad y la escritura",
+          "subjectId": "ansp_literatura",
+          "questionCount": 4,
+          "sections": [
+            "3.2 La oralidad y la escritura"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ansp_geografia",
+      "number": 4,
+      "name": "Geografía de El Salvador y Centroamérica",
+      "codeRange": "4.1 al 4.5",
+      "description": "División político-administrativa, volcanes, lagos, ríos, sitios turísticos, arqueológicos, zonas protegidas y tradiciones.",
+      "totalSubtopics": 10,
+      "totalQuestions": 50,
+      "color": "from-emerald-600 to-teal-700",
+      "badgeBg": "bg-emerald-100",
+      "badgeText": "text-emerald-800",
+      "borderColor": "border-emerald-200",
+      "icon": "Globe",
+      "subtopics": [
+        {
+          "id": "ansp_geografia_1",
+          "code": "4.1",
+          "title": "4.1 Organización político-administrativa",
+          "subjectId": "ansp_geografia",
+          "questionCount": 9,
+          "sections": [
+            "4.1 Organización político-administrativa"
+          ]
+        },
+        {
+          "id": "ansp_geografia_2",
+          "code": "4.2",
+          "title": "4.2 Accidentes geográficos: Volcanes y cerros",
+          "subjectId": "ansp_geografia",
+          "questionCount": 6,
+          "sections": [
+            "4.2 Accidentes geográficos: Volcanes y cerros"
+          ]
+        },
+        {
+          "id": "ansp_geografia_3",
+          "code": "4.3",
+          "title": "4.3 Ubicación de lugares turísticos",
+          "subjectId": "ansp_geografia",
+          "questionCount": 3,
+          "sections": [
+            "4.3 Ubicación de lugares turísticos"
+          ]
+        },
+        {
+          "id": "ansp_geografia_4",
+          "code": "4.4",
+          "title": "4.4 Lugares arqueológicos",
+          "subjectId": "ansp_geografia",
+          "questionCount": 7,
+          "sections": [
+            "4.4 Lugares arqueológicos"
+          ]
+        },
+        {
+          "id": "ansp_geografia_5",
+          "code": "4.5",
+          "title": "4.5 Zonas protegidas",
+          "subjectId": "ansp_geografia",
+          "questionCount": 7,
+          "sections": [
+            "4.5 Zonas protegidas"
+          ]
+        },
+        {
+          "id": "ansp_geografia_6",
+          "code": "4.2",
+          "title": "4.2 Accidentes geográficos: Ríos y lagos",
+          "subjectId": "ansp_geografia",
+          "questionCount": 4,
+          "sections": [
+            "4.2 Accidentes geográficos: Ríos y lagos"
+          ]
+        },
+        {
+          "id": "ansp_geografia_7",
+          "code": "4.2",
+          "title": "4.2 Accidentes geográficos: Bahías y costas",
+          "subjectId": "ansp_geografia",
+          "questionCount": 2,
+          "sections": [
+            "4.2 Accidentes geográficos: Bahías y costas"
+          ]
+        },
+        {
+          "id": "ansp_geografia_8",
+          "code": "1.1",
+          "title": "1.1 La Conquista de El Salvador",
+          "subjectId": "ansp_geografia",
+          "questionCount": 1,
+          "sections": [
+            "1.1 La Conquista de El Salvador"
+          ]
+        },
+        {
+          "id": "ansp_geografia_9",
+          "code": "4.3",
+          "title": "4.3 Tradiciones y folklore",
+          "subjectId": "ansp_geografia",
+          "questionCount": 10,
+          "sections": [
+            "4.3 Tradiciones y folklore"
+          ]
+        },
+        {
+          "id": "ansp_geografia_10",
+          "code": "1.6",
+          "title": "1.6 El Conflicto Armado de El Salvador",
+          "subjectId": "ansp_geografia",
+          "questionCount": 1,
+          "sections": [
+            "1.6 El Conflicto Armado de El Salvador"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ansp_economia",
+      "number": 5,
+      "name": "Realidad Económica y Social",
+      "codeRange": "5.1 al 5.3",
+      "description": "Impuesto al Valor Agregado (IVA), índices de pobreza y sistema previsional de pensiones (AFP).",
+      "totalSubtopics": 3,
+      "totalQuestions": 9,
+      "color": "from-green-600 to-emerald-800",
+      "badgeBg": "bg-green-100",
+      "badgeText": "text-green-800",
+      "borderColor": "border-green-200",
+      "icon": "TrendingUp",
+      "subtopics": [
+        {
+          "id": "ansp_economia_1",
+          "code": "5.1",
+          "title": "5.1 Impuesto al Valor Agregado (IVA)",
+          "subjectId": "ansp_economia",
+          "questionCount": 3,
+          "sections": [
+            "5.1 Impuesto al Valor Agregado (IVA)"
+          ]
+        },
+        {
+          "id": "ansp_economia_2",
+          "code": "5.2",
+          "title": "5.2 Índice de pobreza en El Salvador",
+          "subjectId": "ansp_economia",
+          "questionCount": 3,
+          "sections": [
+            "5.2 Índice de pobreza en El Salvador"
+          ]
+        },
+        {
+          "id": "ansp_economia_3",
+          "code": "5.3",
+          "title": "5.3 Sistema de pensiones AFP",
+          "subjectId": "ansp_economia",
+          "questionCount": 3,
+          "sections": [
+            "5.3 Sistema de pensiones AFP"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ansp_constitucion",
+      "number": 6,
+      "name": "Constitución de la República y DDHH",
+      "codeRange": "6.1 al 6.8",
+      "description": "Forma de gobierno, derechos fundamentales, sufragio, Ministerio Público, PNC, Fuerza Armada y origen de los Derechos Humanos.",
+      "totalSubtopics": 9,
+      "totalQuestions": 27,
+      "color": "from-indigo-600 to-blue-800",
+      "badgeBg": "bg-indigo-100",
+      "badgeText": "text-indigo-800",
+      "borderColor": "border-indigo-200",
+      "icon": "ShieldCheck",
+      "subtopics": [
+        {
+          "id": "ansp_constitucion_1",
+          "code": "6.1",
+          "title": "6.1 El Estado, su forma de gobierno y sistema político",
+          "subjectId": "ansp_constitucion",
+          "questionCount": 3,
+          "sections": [
+            "6.1 El Estado, su forma de gobierno y sistema político"
+          ]
+        },
+        {
+          "id": "ansp_constitucion_2",
+          "code": "6.2",
+          "title": "6.2 Derechos y garantías fundamentales",
+          "subjectId": "ansp_constitucion",
+          "questionCount": 4,
+          "sections": [
+            "6.2 Derechos y garantías fundamentales"
+          ]
+        },
+        {
+          "id": "ansp_constitucion_3",
+          "code": "6.3",
+          "title": "6.3 El voto",
+          "subjectId": "ansp_constitucion",
+          "questionCount": 4,
+          "sections": [
+            "6.3 El voto"
+          ]
+        },
+        {
+          "id": "ansp_constitucion_4",
+          "code": "6.4",
+          "title": "6.4 Ministerio Público: funciones",
+          "subjectId": "ansp_constitucion",
+          "questionCount": 3,
+          "sections": [
+            "6.4 Ministerio Público: funciones"
+          ]
+        },
+        {
+          "id": "ansp_constitucion_5",
+          "code": "6.5",
+          "title": "6.5 Seguridad Pública. Policía Nacional Civil",
+          "subjectId": "ansp_constitucion",
+          "questionCount": 4,
+          "sections": [
+            "6.5 Seguridad Pública. Policía Nacional Civil"
+          ]
+        },
+        {
+          "id": "ansp_constitucion_6",
+          "code": "6.6",
+          "title": "6.6 Defensa Nacional. Fuerza Armada",
+          "subjectId": "ansp_constitucion",
+          "questionCount": 3,
+          "sections": [
+            "6.6 Defensa Nacional. Fuerza Armada"
+          ]
+        },
+        {
+          "id": "ansp_constitucion_7",
+          "code": "6.7",
+          "title": "6.7 Agente de autoridad y funcionario público",
+          "subjectId": "ansp_constitucion",
+          "questionCount": 2,
+          "sections": [
+            "6.7 Agente de autoridad y funcionario público"
+          ]
+        },
+        {
+          "id": "ansp_constitucion_8",
+          "code": "7.4",
+          "title": "7.4 Ley de la Carrera Policial",
+          "subjectId": "ansp_constitucion",
+          "questionCount": 1,
+          "sections": [
+            "7.4 Ley de la Carrera Policial"
+          ]
+        },
+        {
+          "id": "ansp_constitucion_9",
+          "code": "6.8",
+          "title": "6.8 Origen de los derechos humanos",
+          "subjectId": "ansp_constitucion",
+          "questionCount": 3,
+          "sections": [
+            "6.8 Origen de los derechos humanos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ansp_legislacion",
+      "number": 7,
+      "name": "Legislación Salvadoreña",
+      "codeRange": "7.1 al 7.6",
+      "description": "Código Penal, Código Procesal Penal, Ley de Tránsito, Ley de la Carrera Policial, Ley Orgánica de la PNC y Ley Crecer Juntos.",
+      "totalSubtopics": 7,
+      "totalQuestions": 19,
+      "color": "from-rose-600 to-red-800",
+      "badgeBg": "bg-rose-100",
+      "badgeText": "text-rose-800",
+      "borderColor": "border-rose-200",
+      "icon": "Scale",
+      "subtopics": [
+        {
+          "id": "ansp_legislacion_1",
+          "code": "7.1",
+          "title": "7.1 Código Penal",
+          "subjectId": "ansp_legislacion",
+          "questionCount": 3,
+          "sections": [
+            "7.1 Código Penal"
+          ]
+        },
+        {
+          "id": "ansp_legislacion_2",
+          "code": "7.2",
+          "title": "7.2 Código Procesal Penal",
+          "subjectId": "ansp_legislacion",
+          "questionCount": 3,
+          "sections": [
+            "7.2 Código Procesal Penal"
+          ]
+        },
+        {
+          "id": "ansp_legislacion_3",
+          "code": "6.2",
+          "title": "6.2 Derechos y garantías fundamentales",
+          "subjectId": "ansp_legislacion",
+          "questionCount": 1,
+          "sections": [
+            "6.2 Derechos y garantías fundamentales"
+          ]
+        },
+        {
+          "id": "ansp_legislacion_4",
+          "code": "7.3",
+          "title": "7.3 Ley de Tránsito y sus reformas",
+          "subjectId": "ansp_legislacion",
+          "questionCount": 3,
+          "sections": [
+            "7.3 Ley de Tránsito y sus reformas"
+          ]
+        },
+        {
+          "id": "ansp_legislacion_5",
+          "code": "7.4",
+          "title": "7.4 Ley de la Carrera Policial",
+          "subjectId": "ansp_legislacion",
+          "questionCount": 3,
+          "sections": [
+            "7.4 Ley de la Carrera Policial"
+          ]
+        },
+        {
+          "id": "ansp_legislacion_6",
+          "code": "7.5",
+          "title": "7.5 Ley Orgánica de la Policía Nacional Civil",
+          "subjectId": "ansp_legislacion",
+          "questionCount": 3,
+          "sections": [
+            "7.5 Ley Orgánica de la Policía Nacional Civil"
+          ]
+        },
+        {
+          "id": "ansp_legislacion_7",
+          "code": "7.6",
+          "title": "7.6 Ley Crecer Juntos",
+          "subjectId": "ansp_legislacion",
+          "questionCount": 3,
+          "sections": [
+            "7.6 Ley Crecer Juntos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ansp_matematicas",
+      "number": 8,
+      "name": "Matemáticas",
+      "codeRange": "8.1 al 8.5",
+      "description": "Ecuaciones con una incógnita, funciones exponenciales y logarítmicas, teoría de conjuntos, fracciones, decimales y geometría.",
+      "totalSubtopics": 7,
+      "totalQuestions": 25,
+      "color": "from-cyan-600 to-blue-700",
+      "badgeBg": "bg-cyan-100",
+      "badgeText": "text-cyan-800",
+      "borderColor": "border-cyan-200",
+      "icon": "Calculator",
+      "subtopics": [
+        {
+          "id": "ansp_matematicas_1",
+          "code": "8.1",
+          "title": "8.1 Ecuaciones con una incógnita",
+          "subjectId": "ansp_matematicas",
+          "questionCount": 5,
+          "sections": [
+            "8.1 Ecuaciones con una incógnita"
+          ]
+        },
+        {
+          "id": "ansp_matematicas_2",
+          "code": "8.2",
+          "title": "8.2 Función exponencial y logarítmica",
+          "subjectId": "ansp_matematicas",
+          "questionCount": 5,
+          "sections": [
+            "8.2 Función exponencial y logarítmica"
+          ]
+        },
+        {
+          "id": "ansp_matematicas_3",
+          "code": "8.3",
+          "title": "8.3 Teoría de conjuntos",
+          "subjectId": "ansp_matematicas",
+          "questionCount": 4,
+          "sections": [
+            "8.3 Teoría de conjuntos"
+          ]
+        },
+        {
+          "id": "ansp_matematicas_4",
+          "code": "8.4",
+          "title": "8.4 Operaciones con fracciones",
+          "subjectId": "ansp_matematicas",
+          "questionCount": 4,
+          "sections": [
+            "8.4 Operaciones con fracciones"
+          ]
+        },
+        {
+          "id": "ansp_matematicas_5",
+          "code": "8.5",
+          "title": "8.5 Operaciones con decimales",
+          "subjectId": "ansp_matematicas",
+          "questionCount": 4,
+          "sections": [
+            "8.5 Operaciones con decimales"
+          ]
+        },
+        {
+          "id": "ansp_matematicas_6",
+          "code": "8.5",
+          "title": "8.5 Porcentajes aplicados",
+          "subjectId": "ansp_matematicas",
+          "questionCount": 1,
+          "sections": [
+            "8.5 Porcentajes aplicados"
+          ]
+        },
+        {
+          "id": "ansp_matematicas_7",
+          "code": "8.1",
+          "title": "8.1 Geometría básica",
+          "subjectId": "ansp_matematicas",
+          "questionCount": 2,
+          "sections": [
+            "8.1 Geometría básica"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ansp_estadistica",
+      "number": 9,
+      "name": "Estadística y Probabilidad",
+      "codeRange": "9.1 al 9.3",
+      "description": "Población y muestra, cálculo de probabilidades, permutaciones y principios fundamentales de conteo.",
+      "totalSubtopics": 3,
+      "totalQuestions": 10,
+      "color": "from-teal-600 to-cyan-800",
+      "badgeBg": "bg-teal-100",
+      "badgeText": "text-teal-800",
+      "borderColor": "border-teal-200",
+      "icon": "BarChart3",
+      "subtopics": [
+        {
+          "id": "ansp_estadistica_1",
+          "code": "9.1",
+          "title": "9.1 Población y Muestra",
+          "subjectId": "ansp_estadistica",
+          "questionCount": 3,
+          "sections": [
+            "9.1 Población y Muestra"
+          ]
+        },
+        {
+          "id": "ansp_estadistica_2",
+          "code": "9.2",
+          "title": "9.2 Probabilidades",
+          "subjectId": "ansp_estadistica",
+          "questionCount": 3,
+          "sections": [
+            "9.2 Probabilidades"
+          ]
+        },
+        {
+          "id": "ansp_estadistica_3",
+          "code": "9.3",
+          "title": "9.3 El conteo y combinatoria",
+          "subjectId": "ansp_estadistica",
+          "questionCount": 4,
+          "sections": [
+            "9.3 El conteo y combinatoria"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ansp_ofimatica",
+      "number": 10,
+      "name": "Ofimática e Inteligencia Artificial",
+      "codeRange": "10.1 al 10.4",
+      "description": "Microsoft Word (formato y atajos), Microsoft PowerPoint (presentaciones y transiciones), y Microsoft Excel (fórmulas SUMA y PROMEDIO).",
+      "totalSubtopics": 3,
+      "totalQuestions": 10,
+      "color": "from-slate-700 to-slate-900",
+      "badgeBg": "bg-slate-100",
+      "badgeText": "text-slate-800",
+      "borderColor": "border-slate-200",
+      "icon": "Laptop",
+      "subtopics": [
+        {
+          "id": "ansp_ofimatica_1",
+          "code": "10.2",
+          "title": "10.2 Word",
+          "subjectId": "ansp_ofimatica",
+          "questionCount": 4,
+          "sections": [
+            "10.2 Word"
+          ]
+        },
+        {
+          "id": "ansp_ofimatica_2",
+          "code": "10.3",
+          "title": "10.3 PowerPoint",
+          "subjectId": "ansp_ofimatica",
+          "questionCount": 3,
+          "sections": [
+            "10.3 PowerPoint"
+          ]
+        },
+        {
+          "id": "ansp_ofimatica_3",
+          "code": "10.1",
+          "title": "10.1 Excel",
+          "subjectId": "ansp_ofimatica",
+          "questionCount": 3,
+          "sections": [
+            "10.1 Excel"
+          ]
+        }
+      ]
+    }
+  ]
+}

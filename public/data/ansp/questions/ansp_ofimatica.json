@@ -1,0 +1,282 @@
+[
+  {
+    "number": 241,
+    "subtopicId": "ansp_10.2",
+    "sectionTitle": "10.2 Word",
+    "statement": "¿Qué software ofimático líder permite crear, redactar, editar y dar formato profesional a documentos de texto?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Microsoft Access"
+      },
+      {
+        "key": "B",
+        "text": "Microsoft Word"
+      },
+      {
+        "key": "C",
+        "text": "Microsoft Excel"
+      },
+      {
+        "key": "D",
+        "text": "Microsoft Publisher"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Microsoft Word es el procesador de texto estándar para redacción de informes, oficios y tesis.",
+    "subjectId": "ansp_ofimatica",
+    "id": "ansp_q241"
+  },
+  {
+    "number": 242,
+    "subtopicId": "ansp_10.2",
+    "sectionTitle": "10.2 Word",
+    "statement": "¿En qué pestaña de la cinta de opciones de Microsoft Word se localizan las herramientas de corrección ortográfica y gramatical?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pestaña 'Insertar'"
+      },
+      {
+        "key": "B",
+        "text": "Pestaña 'Revisar'"
+      },
+      {
+        "key": "C",
+        "text": "Pestaña 'Disposición'"
+      },
+      {
+        "key": "D",
+        "text": "Pestaña 'Vista'"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "En la pestaña 'Revisar' se encuentra el botón 'Ortografía y gramática', sinónimos y recuento de palabras.",
+    "subjectId": "ansp_ofimatica",
+    "id": "ansp_q242"
+  },
+  {
+    "number": 243,
+    "subtopicId": "ansp_10.2",
+    "sectionTitle": "10.2 Word",
+    "statement": "¿Cuál es el atajo de teclado para forzar un salto de página inmediato en Microsoft Word?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Shift + Enter"
+      },
+      {
+        "key": "B",
+        "text": "Ctrl + Enter"
+      },
+      {
+        "key": "C",
+        "text": "Alt + Enter"
+      },
+      {
+        "key": "D",
+        "text": "Ctrl + P"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Presionar 'Ctrl + Enter' inserta instantáneamente un salto de página manual sin necesidad de múltiples retornos.",
+    "subjectId": "ansp_ofimatica",
+    "id": "ansp_q243"
+  },
+  {
+    "number": 244,
+    "subtopicId": "ansp_10.2",
+    "sectionTitle": "10.2 Word",
+    "statement": "¿Qué tecla combinada con el ratón permite seleccionar fragmentos o bloques de texto no contiguos en un documento?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tab"
+      },
+      {
+        "key": "B",
+        "text": "Ctrl"
+      },
+      {
+        "key": "C",
+        "text": "Alt Gr"
+      },
+      {
+        "key": "D",
+        "text": "Bloq Mayús"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Mantener presionada la tecla 'Ctrl' permite seleccionar múltiples segmentos independientes con el cursor.",
+    "subjectId": "ansp_ofimatica",
+    "id": "ansp_q244"
+  },
+  {
+    "number": 245,
+    "subtopicId": "ansp_10.3",
+    "sectionTitle": "10.3 PowerPoint",
+    "statement": "¿Cuál es el límite máximo predeterminado de diapositivas que puede contener una presentación de PowerPoint?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Máximo 100 diapositivas"
+      },
+      {
+        "key": "B",
+        "text": "No tiene un límite predeterminado (depende solo de la memoria del equipo)"
+      },
+      {
+        "key": "C",
+        "text": "Exactamente 500"
+      },
+      {
+        "key": "D",
+        "text": "Limitado a 50"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "PowerPoint no restringe arbitrariamente el número de diapositivas; la capacidad está sujeta a los recursos del hardware.",
+    "subjectId": "ansp_ofimatica",
+    "id": "ansp_q245"
+  },
+  {
+    "number": 246,
+    "subtopicId": "ansp_10.3",
+    "sectionTitle": "10.3 PowerPoint",
+    "statement": "¿En qué consiste la función \"Vista del Moderador / Presentador\" en Microsoft PowerPoint?",
+    "options": [
+      {
+        "key": "A",
+        "text": "En apagar la pantalla secundaria"
+      },
+      {
+        "key": "B",
+        "text": "En un panel donde el expositor visualiza notas privadas, cronómetro y la siguiente diapositiva mientras el público ve solo la presentación"
+      },
+      {
+        "key": "C",
+        "text": "En traducir el audio a texto automáticamente"
+      },
+      {
+        "key": "D",
+        "text": "En bloquear el teclado"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La Vista del Presentador brinda apoyo confidencial al orador con notas y vista previa en su monitor privado.",
+    "subjectId": "ansp_ofimatica",
+    "id": "ansp_q246"
+  },
+  {
+    "number": 247,
+    "subtopicId": "ansp_10.3",
+    "sectionTitle": "10.3 PowerPoint",
+    "statement": "¿Qué herramienta permite configurar efectos de animación visual al pasar de una diapositiva a la siguiente en PowerPoint?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hipervínculos"
+      },
+      {
+        "key": "B",
+        "text": "Transiciones"
+      },
+      {
+        "key": "C",
+        "text": "Macros"
+      },
+      {
+        "key": "D",
+        "text": "Formatos de celda"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Las 'Transiciones' son los efectos de entrada y salida entre diapositivas consecutivas.",
+    "subjectId": "ansp_ofimatica",
+    "id": "ansp_q247"
+  },
+  {
+    "number": 248,
+    "subtopicId": "ansp_10.1",
+    "sectionTitle": "10.1 Excel",
+    "statement": "En la versión en inglés de Microsoft Excel, ¿qué sintaxis suma correctamente los valores del rango A1 hasta A10?",
+    "options": [
+      {
+        "key": "A",
+        "text": "=ADD(A1:A10)"
+      },
+      {
+        "key": "B",
+        "text": "=SUM(A1:A10)"
+      },
+      {
+        "key": "C",
+        "text": "=TOTAL(A1:A10)"
+      },
+      {
+        "key": "D",
+        "text": "=PLUS(A1:A10)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "En Excel con interfaz en inglés, la función matemática de adición es =SUM().",
+    "subjectId": "ansp_ofimatica",
+    "id": "ansp_q248"
+  },
+  {
+    "number": 249,
+    "subtopicId": "ansp_10.1",
+    "sectionTitle": "10.1 Excel",
+    "statement": "En Microsoft Excel configurado en español, ¿qué fórmula suma los valores contenidos en las celdas desde A1 hasta A10?",
+    "options": [
+      {
+        "key": "A",
+        "text": "=ADICION(A1:A10)"
+      },
+      {
+        "key": "B",
+        "text": "=SUMA(A1:A10)"
+      },
+      {
+        "key": "C",
+        "text": "=SUMAR(A1..A10)"
+      },
+      {
+        "key": "D",
+        "text": "=TOTAL(A1-A10)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La función en castellano es =SUMA(rango), empleando los dos puntos (:) para indicar rango continuo.",
+    "subjectId": "ansp_ofimatica",
+    "id": "ansp_q249"
+  },
+  {
+    "number": 250,
+    "subtopicId": "ansp_10.1",
+    "sectionTitle": "10.1 Excel",
+    "statement": "En Microsoft Excel en español, ¿qué función calcula la media aritmética de los valores del rango A1 a A5?",
+    "options": [
+      {
+        "key": "A",
+        "text": "=MEDIA(A1:A5)"
+      },
+      {
+        "key": "B",
+        "text": "=PROMEDIO(A1:A5)"
+      },
+      {
+        "key": "C",
+        "text": "=MEDIANA(A1:A5)"
+      },
+      {
+        "key": "D",
+        "text": "=AVERAGE(A1:A5)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La función oficial en español es =PROMEDIO(rango); =AVERAGE() es su contraparte en inglés.",
+    "subjectId": "ansp_ofimatica",
+    "id": "ansp_q250"
+  }
+]

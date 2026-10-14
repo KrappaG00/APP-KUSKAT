@@ -1,0 +1,702 @@
+[
+  {
+    "number": 206,
+    "subtopicId": "ansp_8.1",
+    "sectionTitle": "8.1 Ecuaciones con una incógnita",
+    "statement": "Resuelve la ecuación lineal de primer grado: \\(x + 3x + 100 = 500\\)",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x = 50\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x = 100\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x = 125\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(x = 150\\)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Sumando términos semejantes: \\(4x + 100 = 500 \\implies 4x = 400 \\implies x = 100\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q206"
+  },
+  {
+    "number": 207,
+    "subtopicId": "ansp_8.1",
+    "sectionTitle": "8.1 Ecuaciones con una incógnita",
+    "statement": "Encuentra el valor de \\(x\\) que satisface la igualdad: \\(2x + 5 = 15\\)",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x = 3\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x = 5\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x = 7\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(x = 10\\)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Restando 5 en ambos miembros: \\(2x = 10 \\implies x = 10 / 2 = 5\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q207"
+  },
+  {
+    "number": 208,
+    "subtopicId": "ansp_8.1",
+    "sectionTitle": "8.1 Ecuaciones con una incógnita",
+    "statement": "¿Cuál es la solución de la ecuación fraccionaria: \\(\\frac{x}{3} - 10 = 4\\)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x = 18\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x = 30\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x = 42\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(x = 48\\)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Despejando: \\(\\frac{x}{3} = 4 + 10 = 14 \\implies x = 14 \\times 3 = 42\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q208"
+  },
+  {
+    "number": 209,
+    "subtopicId": "ansp_8.1",
+    "sectionTitle": "8.1 Ecuaciones con una incógnita",
+    "statement": "Determina el valor de la incógnita en: \\(3x + 2x - 5 = 20\\)",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x = 3\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x = 5\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x = 6\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(x = 8\\)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Reduciendo términos: \\(5x - 5 = 20 \\implies 5x = 25 \\implies x = 5\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q209"
+  },
+  {
+    "number": 210,
+    "subtopicId": "ansp_8.1",
+    "sectionTitle": "8.1 Ecuaciones con una incógnita",
+    "statement": "Si se tiene la ecuación lineal \\(3x = 24\\), ¿cuánto vale \\(x\\)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x = 6\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x = 7\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x = 8\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(x = 12\\)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Dividiendo ambos miembros entre 3: \\(x = 24 / 3 = 8\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q210"
+  },
+  {
+    "number": 211,
+    "subtopicId": "ansp_8.2",
+    "sectionTitle": "8.2 Función exponencial y logarítmica",
+    "statement": "¿Cuál de las siguientes expresiones corresponde a la estructura de una función exponencial?",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(f(x) = 10x + 5\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(f(x) = 10^x\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(f(x) = x^2\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(f(x) = \\sqrt{x}\\)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Una función exponencial tiene la variable independiente en el exponente: \\(f(x) = a^x\\) con \\(a > 0\\) y \\(a \\neq 1\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q211"
+  },
+  {
+    "number": 212,
+    "subtopicId": "ansp_8.2",
+    "sectionTitle": "8.2 Función exponencial y logarítmica",
+    "statement": "Dada la función exponencial \\(f(x) = 5^x\\), ¿cuál es el valor de \\(f(4)\\)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "20"
+      },
+      {
+        "key": "B",
+        "text": "125"
+      },
+      {
+        "key": "C",
+        "text": "625"
+      },
+      {
+        "key": "D",
+        "text": "3125"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "\\(f(4) = 5^4 = 5 \\times 5 \\times 5 \\times 5 = 625\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q212"
+  },
+  {
+    "number": 213,
+    "subtopicId": "ansp_8.2",
+    "sectionTitle": "8.2 Función exponencial y logarítmica",
+    "statement": "En la función logarítmica: si \\(\\log_2(16) = x\\), ¿cuál es el valor de \\(x\\)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "4"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Por definición de logaritmo, \\(2^x = 16\\). Como \\(2^4 = 16\\), entonces \\(x = 4\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q213"
+  },
+  {
+    "number": 214,
+    "subtopicId": "ansp_8.2",
+    "sectionTitle": "8.2 Función exponencial y logarítmica",
+    "statement": "¿Qué valor numérico representa el logaritmo común en base 10 de 1000: \\(\\log_{10}(1000)\\)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "3"
+      },
+      {
+        "key": "C",
+        "text": "10"
+      },
+      {
+        "key": "D",
+        "text": "100"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Puesto que \\(10^3 = 1000\\), el exponente al que se eleva la base 10 para obtener 1000 es 3.",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q214"
+  },
+  {
+    "number": 215,
+    "subtopicId": "ansp_8.2",
+    "sectionTitle": "8.2 Función exponencial y logarítmica",
+    "statement": "¿Qué propiedad algebraica de los logaritmos corresponde a \\(\\log(\\frac{a}{b})\\)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\log(a) + \\log(b)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\log(a) - \\log(b)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\log(a) \\times \\log(b)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\frac{\\log(a)}{\\log(b)}\\)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El logaritmo de un cociente equivale a la resta de los logaritmos del numerador y denominador: \\(\\log(a/b) = \\log(a) - \\log(b)\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q215"
+  },
+  {
+    "number": 216,
+    "subtopicId": "ansp_8.3",
+    "sectionTitle": "8.3 Teoría de conjuntos",
+    "statement": "Dados los conjuntos \\(A = \\{1, 2\\}\\) y \\(B = \\{2, 3\\}\\), ¿es verdad que la unión \\(A \\cup B = \\{1, 2, 3\\}\\)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sí, es correcto"
+      },
+      {
+        "key": "B",
+        "text": "No, debe ser \\(\\{2\\}\\)"
+      },
+      {
+        "key": "C",
+        "text": "No, debe ser \\(\\{1, 2, 2, 3\\}\\)"
+      },
+      {
+        "key": "D",
+        "text": "No, es el conjunto vacío"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La unión contiene todos los elementos pertenecientes a \\(A\\) o \\(B\\), listando cada elemento una sola vez: \\(\\{1, 2, 3\\}\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q216"
+  },
+  {
+    "number": 217,
+    "subtopicId": "ansp_8.3",
+    "sectionTitle": "8.3 Teoría de conjuntos",
+    "statement": "Si \\(A = \\{1, 2, 3, 4, 5\\}\\) y \\(B = \\{5, 9, 13, 15, 19\\}\\), ¿cuál es la intersección \\(A \\cap B\\)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\{1, 5, 19\\}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\{5\\}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\varnothing\\) (conjunto vacío)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\{1, 2, 3, 4, 5, 9, 13, 15, 19\\}\\)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La intersección está formada por los elementos comunes a ambos conjuntos. El único elemento común es el 5.",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q217"
+  },
+  {
+    "number": 218,
+    "subtopicId": "ansp_8.3",
+    "sectionTitle": "8.3 Teoría de conjuntos",
+    "statement": "Sean los conjuntos \\(A = \\{a, b\\}\\) y \\(B = \\{b, c\\}\\). ¿Cuál es el resultado de la unión \\(A \\cup B\\)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\{b\\}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\{a, b, c\\}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\{a, c\\}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\{a, b, b, c\\}\\)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La unión integra los elementos no repetidos de ambos conjuntos: \\(\\{a, b, c\\}\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q218"
+  },
+  {
+    "number": 219,
+    "subtopicId": "ansp_8.3",
+    "sectionTitle": "8.3 Teoría de conjuntos",
+    "statement": "¿Qué símbolo matemático universal se emplea para denotar la operación de Unión entre conjuntos?",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\cap\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\cup\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\subset\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\in\\)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El símbolo \\(\\cup\\) representa la unión, mientras que \\(\\cap\\) representa la intersección.",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q219"
+  },
+  {
+    "number": 220,
+    "subtopicId": "ansp_8.4",
+    "sectionTitle": "8.4 Operaciones con fracciones",
+    "statement": "Efectúa la suma de fracciones homogéneas: \\(\\frac{2}{26} + \\frac{24}{26}\\)",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\frac{26}{52}\\)"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\frac{12}{13}\\)"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\\(\\frac{2 + 24}{26} = \\frac{26}{26} = 1\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q220"
+  },
+  {
+    "number": 221,
+    "subtopicId": "ansp_8.4",
+    "sectionTitle": "8.4 Operaciones con fracciones",
+    "statement": "Calcula el producto de las siguientes fracciones: \\(\\frac{5}{4} \\times \\frac{2}{5}\\)",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\frac{7}{9}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\frac{1}{2}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\frac{10}{9}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\frac{5}{8}\\)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Multiplicando numeradores y denominadores: \\(\\frac{5 \\times 2}{4 \\times 5} = \\frac{10}{20} = \\frac{1}{2}\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q221"
+  },
+  {
+    "number": 222,
+    "subtopicId": "ansp_8.4",
+    "sectionTitle": "8.4 Operaciones con fracciones",
+    "statement": "Resuelve la sustracción de fracciones: \\(\\frac{5}{6} - \\frac{1}{3}\\)",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\frac{4}{3}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\frac{1}{2}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\frac{2}{3}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\frac{1}{6}\\)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Homogeneizando: \\(\\frac{1}{3} = \\frac{2}{6}\\). Luego, \\(\\frac{5}{6} - \\frac{2}{6} = \\frac{3}{6} = \\frac{1}{2}\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q222"
+  },
+  {
+    "number": 223,
+    "subtopicId": "ansp_8.4",
+    "sectionTitle": "8.4 Operaciones con fracciones",
+    "statement": "Efectúa la división de fracciones: \\(\\frac{3}{4} \\div \\frac{2}{3}\\)",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\frac{6}{12}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\frac{9}{8}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\frac{8}{9}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\frac{5}{7}\\)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Multiplicando por el inverso multiplicativo: \\(\\frac{3}{4} \\times \\frac{3}{2} = \\frac{9}{8}\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q223"
+  },
+  {
+    "number": 224,
+    "subtopicId": "ansp_8.5",
+    "sectionTitle": "8.5 Operaciones con decimales",
+    "statement": "Realiza la siguiente adición de números decimales: \\(9.5 + 4.5 + 5.5 + 0.5\\)",
+    "options": [
+      {
+        "key": "A",
+        "text": "19.0"
+      },
+      {
+        "key": "B",
+        "text": "20.0"
+      },
+      {
+        "key": "C",
+        "text": "20.5"
+      },
+      {
+        "key": "D",
+        "text": "21.0"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Agrupando: \\((9.5 + 4.5) + (5.5 + 0.5) = 14.0 + 6.0 = 20.0\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q224"
+  },
+  {
+    "number": 225,
+    "subtopicId": "ansp_8.5",
+    "sectionTitle": "8.5 Operaciones con decimales",
+    "statement": "¿Cuál es el cociente de dividir \\(5.25 \\div 0.5\\)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2.625"
+      },
+      {
+        "key": "B",
+        "text": "10.5"
+      },
+      {
+        "key": "C",
+        "text": "10.05"
+      },
+      {
+        "key": "D",
+        "text": "25.0"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Dividir entre 0.5 equivale a multiplicar por 2: \\(5.25 \\times 2 = 10.5\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q225"
+  },
+  {
+    "number": 226,
+    "subtopicId": "ansp_8.5",
+    "sectionTitle": "8.5 Operaciones con decimales",
+    "statement": "Calcula el resultado de la multiplicación: \\(0.75 \\times 8\\)",
+    "options": [
+      {
+        "key": "A",
+        "text": "5.5"
+      },
+      {
+        "key": "B",
+        "text": "6.0"
+      },
+      {
+        "key": "C",
+        "text": "6.5"
+      },
+      {
+        "key": "D",
+        "text": "7.0"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Como \\(0.75 = \\frac{3}{4}\\), se tiene \\(\\frac{3}{4} \\times 8 = 3 \\times 2 = 6\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q226"
+  },
+  {
+    "number": 227,
+    "subtopicId": "ansp_8.5",
+    "sectionTitle": "8.5 Operaciones con decimales",
+    "statement": "Resuelve la operación: \\(5.2 \\times 0.3\\)",
+    "options": [
+      {
+        "key": "A",
+        "text": "0.156"
+      },
+      {
+        "key": "B",
+        "text": "1.56"
+      },
+      {
+        "key": "C",
+        "text": "15.6"
+      },
+      {
+        "key": "D",
+        "text": "1.8"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Multiplicando enteros: \\(52 \\times 3 = 156\\). Desplazando dos posiciones decimales: \\(1.56\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q227"
+  },
+  {
+    "number": 238,
+    "subtopicId": "ansp_8.5",
+    "sectionTitle": "8.5 Porcentajes aplicados",
+    "statement": "Si un departamento salvadoreño tiene 348,880 habitantes de una población nacional de 6,359,223, ¿qué porcentaje representa aproximadamente?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.2%"
+      },
+      {
+        "key": "B",
+        "text": "5.5%"
+      },
+      {
+        "key": "C",
+        "text": "8.0%"
+      },
+      {
+        "key": "D",
+        "text": "12.5%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "\\(\\frac{348,880}{6,359,223} \\times 100\\% \\approx 5.486\\% \\approx 5.5\\%\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q238"
+  },
+  {
+    "number": 239,
+    "subtopicId": "ansp_8.1",
+    "sectionTitle": "8.1 Geometría básica",
+    "statement": "¿Cuál es el área de una figura cuadrada cuyo lado mide exactamente 10 cm?",
+    "options": [
+      {
+        "key": "A",
+        "text": "40 cm²"
+      },
+      {
+        "key": "B",
+        "text": "100 cm²"
+      },
+      {
+        "key": "C",
+        "text": "1000 cm²"
+      },
+      {
+        "key": "D",
+        "text": "20 cm²"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El área del cuadrado es \\(l^2 = 10 \\text{ cm} \\times 10 \\text{ cm} = 100\\text{ cm}^2\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q239"
+  },
+  {
+    "number": 240,
+    "subtopicId": "ansp_8.1",
+    "sectionTitle": "8.1 Geometría básica",
+    "statement": "¿Cuál es el perímetro total de un rectángulo de 10 cm de longitud de largo y 5 cm de ancho?",
+    "options": [
+      {
+        "key": "A",
+        "text": "15 cm"
+      },
+      {
+        "key": "B",
+        "text": "30 cm"
+      },
+      {
+        "key": "C",
+        "text": "50 cm"
+      },
+      {
+        "key": "D",
+        "text": "60 cm"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El perímetro es la suma de los cuatro lados: \\(2(10) + 2(5) = 20 + 10 = 30\\text{ cm}\\).",
+    "subjectId": "ansp_matematicas",
+    "id": "ansp_q240"
+  }
+]

@@ -1,0 +1,466 @@
+{
+  "title": "Banco Consolidado de Preguntas de Admisión (UES - AVANZO)",
+  "description": "Compendio maestro de 7,500 preguntas con opciones de múltiple elección y solucionario pedagógico.",
+  "totalQuestions": 7500,
+  "totalSubtopics": 25,
+  "subjects": [
+    {
+      "id": "matematicas",
+      "number": 1,
+      "name": "Matemáticas",
+      "codeRange": "1.1 al 1.7",
+      "description": "Aritmética de reales, recta numérica, teoría de conjuntos e intervalos, valor absoluto, álgebra elemental, geometría, trigonometría y cálculo de funciones.",
+      "totalSubtopics": 7,
+      "totalQuestions": 2100,
+      "color": "from-blue-600 to-indigo-700",
+      "badgeBg": "bg-blue-100",
+      "badgeText": "text-blue-800",
+      "borderColor": "border-blue-200",
+      "icon": "Calculator",
+      "subtopics": [
+        {
+          "id": "1.1",
+          "code": "1.1",
+          "title": "Números Reales",
+          "subjectId": "matematicas",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: CLASIFICACIÓN DE NÚMEROS REALES (1–60)",
+            "SECCIÓN II: PROPIEDADES DE LOS NÚMEROS REALES (61–110)",
+            "SECCIÓN III: EXPANSIÓN DECIMAL (111–150)",
+            "SECCIÓN IV: ORDEN Y COMPARACIÓN (151–190)",
+            "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
+            "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)"
+          ]
+        },
+        {
+          "id": "1.2",
+          "code": "1.2",
+          "title": "La Recta Real",
+          "subjectId": "matematicas",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: CONCEPTOS BÁSICOS DE LA RECTA REAL (1–30)",
+            "SECCIÓN II: ORDEN Y UBICACIÓN (31–60)",
+            "SECCIÓN III: COMPARACIÓN EN LA RECTA REAL (61–90)",
+            "SECCIÓN IV: DISTANCIA ENTRE PUNTOS (91–120)",
+            "SECCIÓN V: PUNTO MEDIO (121–150)",
+            "SECCIÓN VI: DESPLAZAMIENTOS EN LA RECTA REAL (151–180)",
+            "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)",
+            "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
+            "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
+            "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)"
+          ]
+        },
+        {
+          "id": "1.3",
+          "code": "1.3",
+          "title": "Conjuntos e Intervalos",
+          "subjectId": "matematicas",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: CONCEPTOS BÁSICOS DE CONJUNTOS (1–50)",
+            "SECCIÓN II: PERTENENCIA Y SUBCONJUNTOS (51–100)",
+            "SECCIÓN III: OPERACIONES CON CONJUNTOS (101–160)",
+            "SECCIÓN IV: INTERVALOS (161–220)",
+            "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)"
+          ]
+        },
+        {
+          "id": "1.4",
+          "code": "1.4",
+          "title": "Valor Absoluto",
+          "subjectId": "matematicas",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: DEFINICIÓN Y CONCEPTOS BÁSICOS (1–40)",
+            "SECCIÓN II: PROPIEDADES DEL VALOR ABSOLUTO (41–90)",
+            "SECCIÓN III: ECUACIONES CON VALOR ABSOLUTO (91–150)",
+            "SECCIÓN IV: DESIGUALDADES CON VALOR ABSOLUTO (151–210)",
+            "SECCIÓN V: DISTANCIA Y APLICACIONES (211–260)",
+            "SECCIÓN VI: PROBLEMAS AVANZADOS (261–300)"
+          ]
+        },
+        {
+          "id": "1.5",
+          "code": "1.5",
+          "title": "Álgebra",
+          "subjectId": "matematicas",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: EXPRESIONES ALGEBRAICAS BÁSICAS (1–40)",
+            "SECCIÓN II: PRODUCTOS NOTABLES (41–90)",
+            "SECCIÓN III: FACTORIZACIÓN (91–150)",
+            "SECCIÓN IV: ECUACIONES LINEALES (151–200)",
+            "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
+            "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)"
+          ]
+        },
+        {
+          "id": "1.6",
+          "code": "1.6",
+          "title": "Geometría y Trigonometría",
+          "subjectId": "matematicas",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: CONCEPTOS BÁSICOS DE GEOMETRÍA (1–40)",
+            "SECCIÓN II: TEOREMA DE PITÁGORAS (41–90)",
+            "SECCIÓN III: RAZONES TRIGONOMÉTRICAS (91–160)",
+            "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)",
+            "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
+            "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)"
+          ]
+        },
+        {
+          "id": "1.7",
+          "code": "1.7",
+          "title": "Funciones",
+          "subjectId": "matematicas",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: CONCEPTOS BÁSICOS DE FUNCIONES (1–40)",
+            "SECCIÓN II: FUNCIÓN LINEAL (41–100)",
+            "SECCIÓN III: FUNCIÓN CUADRÁTICA (101–170)",
+            "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
+            "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
+            "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lenguaje",
+      "number": 2,
+      "name": "Lenguaje",
+      "codeRange": "2.1 al 2.5",
+      "description": "Ortografía acentual y puntual, gramática, morfología, sintaxis, semántica, metodología de investigación y comprensión lectora.",
+      "totalSubtopics": 5,
+      "totalQuestions": 1500,
+      "color": "from-emerald-600 to-teal-700",
+      "badgeBg": "bg-emerald-100",
+      "badgeText": "text-emerald-800",
+      "borderColor": "border-emerald-200",
+      "icon": "BookOpen",
+      "subtopics": [
+        {
+          "id": "2.1",
+          "code": "2.1",
+          "title": "ORTOGRAFÍA Y GRAMÁTICA",
+          "subjectId": "lenguaje",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+            "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+            "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+            "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+            "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+            "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+            "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)"
+          ]
+        },
+        {
+          "id": "2.2",
+          "code": "2.2",
+          "title": "COHERENCIA Y ESTRUCTURA TEXTUAL",
+          "subjectId": "lenguaje",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+            "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+            "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+            "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+            "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+            "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)"
+          ]
+        },
+        {
+          "id": "2.3",
+          "code": "2.3",
+          "title": "SINTAXIS",
+          "subjectId": "lenguaje",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+            "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+            "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+            "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+            "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+            "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)"
+          ]
+        },
+        {
+          "id": "2.4",
+          "code": "2.4",
+          "title": "METODOLOGÍA Y ESCRITURA ACADÉMICA",
+          "subjectId": "lenguaje",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: FUNDAMENTOS DE INVESTIGACIÓN CIENTÍFICA (1–40)",
+            "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
+            "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
+            "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
+            "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
+            "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)"
+          ]
+        },
+        {
+          "id": "2.5",
+          "code": "2.5",
+          "title": "PRAGMÁTICA",
+          "subjectId": "lenguaje",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
+            "SECCIÓN II: ACTOS DE HABLA (41–100)",
+            "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
+            "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
+            "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
+            "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "literatura",
+      "number": 3,
+      "name": "Literatura",
+      "codeRange": "3.1 al 3.5",
+      "description": "Literatura universal y europea, movimientos del siglo XIX, vanguardismo y contemporáneo, literatura latinoamericana y literatura salvadoreña.",
+      "totalSubtopics": 5,
+      "totalQuestions": 1500,
+      "color": "from-purple-600 to-violet-700",
+      "badgeBg": "bg-purple-100",
+      "badgeText": "text-purple-800",
+      "borderColor": "border-purple-200",
+      "icon": "Feather",
+      "subtopics": [
+        {
+          "id": "3.1",
+          "code": "3.1",
+          "title": "Literatura Universal y Europea",
+          "subjectId": "literatura",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: LITERATURA CLÁSICA GRIEGA (1–60)",
+            "SECCIÓN II: EDAD MEDIA (61–120)",
+            "SECCIÓN III: RENACIMIENTO (121–180)",
+            "SECCIÓN IV: BARROCO (181–240)",
+            "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)"
+          ]
+        },
+        {
+          "id": "3.2",
+          "code": "3.2",
+          "title": "Movimientos del Siglo XIX",
+          "subjectId": "literatura",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: ROMANTICISMO – CONCEPTOS BÁSICOS (1–40)",
+            "SECCIÓN II: ROMANTICISMO – AUTORES Y OBRAS (41–90)",
+            "SECCIÓN III: REALISMO – CONCEPTOS BÁSICOS (91–140)",
+            "SECCIÓN IV: REALISMO – AUTORES Y OBRAS (141–190)",
+            "SECCIÓN V: NATURALISMO (191–230)",
+            "SECCIÓN VI: COMPARACIÓN ROMANTICISMO VS REALISMO (231–270)",
+            "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)"
+          ]
+        },
+        {
+          "id": "3.3",
+          "code": "3.3",
+          "title": "Literatura del Siglo Contemporáneo",
+          "subjectId": "literatura",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: VANGUARDIAS ARTÍSTICAS – CONCEPTOS BÁSICOS (1–40)",
+            "SECCIÓN II: VANGUARDIAS – AUTORES Y OBRAS (41–90)",
+            "SECCIÓN III: EXISTENCIALISMO Y ABSURDO (91–140)",
+            "SECCIÓN IV: NOVELA CONTEMPORÁNEA (141–190)",
+            "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
+            "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
+            "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)"
+          ]
+        },
+        {
+          "id": "3.4",
+          "code": "3.4",
+          "title": "Literatura Latinoamericana",
+          "subjectId": "literatura",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: LITERATURA PRECOLOMBINA (1–40)",
+            "SECCIÓN II: LITERATURA COLONIAL (41–80)",
+            "SECCIÓN III: ROMANTICISMO AMERICANO (81–120)",
+            "SECCIÓN IV: MODERNISMO – RUBÉN DARÍO (121–170)",
+            "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)",
+            "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
+            "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)"
+          ]
+        },
+        {
+          "id": "3.5",
+          "code": "3.5",
+          "title": "Literatura Salvadoreña",
+          "subjectId": "literatura",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: CONTEXTO HISTÓRICO Y LITERATURA PRECOLOMBINA (1–40)",
+            "SECCIÓN II: LITERATURA COLONIAL SALVADOREÑA (41–80)",
+            "SECCIÓN III: ROMANTICISMO Y COSTUMBRISMO SALVADOREÑO (81–120)",
+            "SECCIÓN IV: MODERNISMO SALVADOREÑO (121–160)",
+            "SECCIÓN V: GENERACIÓN COMPROMETIDA (161–220)",
+            "SECCIÓN VI: LITERATURA CONTEMPORÁNEA SALVADOREÑA (221–260)",
+            "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (261–300)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sociales",
+      "number": 4,
+      "name": "Ciencias Sociales",
+      "codeRange": "4.1 al 4.4",
+      "description": "Historia prehispánica y contemporánea de El Salvador, contexto mundial e hitos del siglo XX, sociedad, demografía, derechos y constitución.",
+      "totalSubtopics": 4,
+      "totalQuestions": 1200,
+      "color": "from-amber-600 to-orange-700",
+      "badgeBg": "bg-amber-100",
+      "badgeText": "text-amber-800",
+      "borderColor": "border-amber-200",
+      "icon": "Globe",
+      "subtopics": [
+        {
+          "id": "4.1",
+          "code": "4.1",
+          "title": "Historia de El Salvador",
+          "subjectId": "sociales",
+          "questionCount": 300,
+          "sections": [
+            "Sección I: Época Precolombina y Conquista (1–40)",
+            "Sección II: Independencia y Federación (41–80)",
+            "Sección III: Regímenes Militares y Conflicto (81–140)",
+            "Sección IV: Acuerdos de Paz y Posguerra (141–200)",
+            "Sección V: El Salvador Contemporáneo (201–300)"
+          ]
+        },
+        {
+          "id": "4.2",
+          "code": "4.2",
+          "title": "Contexto Mundial",
+          "subjectId": "sociales",
+          "questionCount": 300,
+          "sections": [
+            "Módulo 1: Reactivos 1 - 50",
+            "Módulo 2: Reactivos 51 - 100",
+            "Módulo 3: Reactivos 101 - 150",
+            "Módulo 4: Reactivos 151 - 200",
+            "Módulo 5: Reactivos 201 - 250",
+            "Módulo 6 Final: Reactivos 251 - 300"
+          ]
+        },
+        {
+          "id": "4.3",
+          "code": "4.3",
+          "title": "Sociedad, Cultura y Población",
+          "subjectId": "sociales",
+          "questionCount": 300,
+          "sections": [
+            "Sección I: Sociedad y Cultura – Conceptos Básicos (1–40)",
+            "Sección II: Identidad y Diversidad Cultural (41–80)",
+            "Sección III: Globalización (81–120)",
+            "Sección IV: Demografía (121–160)",
+            "Sección V: Medio Ambiente y Recursos (161–200)",
+            "Sección VI: Problemas Sociales Contemporáneos (201–300)"
+          ]
+        },
+        {
+          "id": "4.4",
+          "code": "4.4",
+          "title": "Derechos y Sociedad Actual",
+          "subjectId": "sociales",
+          "questionCount": 300,
+          "sections": [
+            "Sección I: Derechos Humanos – Conceptos Básicos (1–50)",
+            "Sección II: Evolución Histórica de los Derechos Humanos (51–100)",
+            "Sección III: Tratados Internacionales de Derechos Humanos (101–150)",
+            "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)",
+            "Sección V: Migración Contemporánea (211–260)",
+            "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "naturales",
+      "number": 5,
+      "name": "Ciencias Naturales",
+      "codeRange": "5.1 al 5.4",
+      "description": "Biología celular y seres vivos, química inorgánica y estequiometría, cinemática y leyes físicas, ecología y taxonomía.",
+      "totalSubtopics": 4,
+      "totalQuestions": 1200,
+      "color": "from-teal-600 to-cyan-700",
+      "badgeBg": "bg-teal-100",
+      "badgeText": "text-teal-800",
+      "borderColor": "border-teal-200",
+      "icon": "Atom",
+      "subtopics": [
+        {
+          "id": "5.1",
+          "code": "5.1",
+          "title": "Biología y Seres Vivos",
+          "subjectId": "naturales",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: PROPIEDADES DE LA MATERIA VIVA (1–50)",
+            "SECCIÓN II: CICLO CELULAR – MITOSIS Y MEIOSIS (51–120)",
+            "SECCIÓN III: GENÉTICA MENDELIANA (121–180)",
+            "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
+            "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)"
+          ]
+        },
+        {
+          "id": "5.2",
+          "code": "5.2",
+          "title": "Química General y Reacciones",
+          "subjectId": "naturales",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: PROPIEDADES DE LA MATERIA (1–50)",
+            "SECCIÓN II: ESTRUCTURA ATÓMICA Y ENLACES (51–120)",
+            "SECCIÓN III: TIPOS DE REACCIONES QUÍMICAS (121–200)",
+            "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
+            "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)"
+          ]
+        },
+        {
+          "id": "5.3",
+          "code": "5.3",
+          "title": "Física General y Mecánica",
+          "subjectId": "naturales",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: CONCEPTOS BÁSICOS Y MAGNITUDES (1–50)",
+            "SECCIÓN II: VECTORES – SUMA Y DESCOMPOSICIÓN (51–120)",
+            "SECCIÓN III: CINEMÁTICA – MRU (121–180)",
+            "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
+            "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)"
+          ]
+        },
+        {
+          "id": "5.4",
+          "code": "5.4",
+          "title": "Taxonomía y Ecosistemas",
+          "subjectId": "naturales",
+          "questionCount": 300,
+          "sections": [
+            "SECCIÓN I: FUNDAMENTOS Y CATEGORÍAS TAXONÓMICAS (1–50)",
+            "SECCIÓN II: NOMENCLATURA BINOMIAL (51–100)",
+            "SECCIÓN III: DOMINIOS Y REINOS (101–150)",
+            "SECCIÓN IV: CINCO REINOS – DETALLE (151–200)",
+            "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
+            "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)"
+          ]
+        }
+      ]
+    }
+  ]
+}

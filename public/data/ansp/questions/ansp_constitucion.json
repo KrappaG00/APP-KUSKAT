@@ -1,0 +1,758 @@
+[
+  {
+    "number": 160,
+    "subtopicId": "ansp_6.1",
+    "sectionTitle": "6.1 El Estado, su forma de gobierno y sistema político",
+    "statement": "El artículo 85 de la Constitución consagra que El Salvador es una República cuya forma de gobierno es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Monárquica parlamentaria"
+      },
+      {
+        "key": "B",
+        "text": "Republicana, democrática y representativa"
+      },
+      {
+        "key": "C",
+        "text": "Teocrática"
+      },
+      {
+        "key": "D",
+        "text": "Militar dictatorial"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El artículo 85 de la Carta Magna establece que el gobierno de El Salvador es republicano, democrático y representativo.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q160"
+  },
+  {
+    "number": 161,
+    "subtopicId": "ansp_6.1",
+    "sectionTitle": "6.1 El Estado, su forma de gobierno y sistema político",
+    "statement": "Según los principios constitucionales fundamentales de la República de El Salvador, el Estado es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Soberano, democrático e independiente"
+      },
+      {
+        "key": "B",
+        "text": "Sujeto a mandatos extranjeros"
+      },
+      {
+        "key": "C",
+        "text": "Una confederación de clanes"
+      },
+      {
+        "key": "D",
+        "text": "Un protectorado internacional"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El Estado salvadoreño es una república soberana donde el poder público dimana del pueblo.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q161"
+  },
+  {
+    "number": 162,
+    "subtopicId": "ansp_6.1",
+    "sectionTitle": "6.1 El Estado, su forma de gobierno y sistema político",
+    "statement": "¿Qué régimen político rige en El Salvador en cuanto a la concentración de la jefatura de Estado y de Gobierno en el Presidente de la República?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sistema parlamentario"
+      },
+      {
+        "key": "B",
+        "text": "Sistema presidencialista"
+      },
+      {
+        "key": "C",
+        "text": "Directorio colegiado"
+      },
+      {
+        "key": "D",
+        "text": "Monarquía constitucional"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El sistema es presidencialista: el Presidente de la República es tanto Jefe de Estado como Jefe del Gobierno y Comandante General de la Fuerza Armada.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q162"
+  },
+  {
+    "number": 163,
+    "subtopicId": "ansp_6.2",
+    "sectionTitle": "6.2 Derechos y garantías fundamentales",
+    "statement": "¿En qué cuerpo normativo fundamental del ordenamiento jurídico se consagran los derechos individuales de los salvadoreños?",
+    "options": [
+      {
+        "key": "A",
+        "text": "En el Código de Comercio"
+      },
+      {
+        "key": "B",
+        "text": "En la Constitución de la República (Título II)"
+      },
+      {
+        "key": "C",
+        "text": "En la Ley de Imprenta"
+      },
+      {
+        "key": "D",
+        "text": "En las Ordenanzas Municipales"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Los derechos individuales a la vida, libertad, igualdad, seguridad y propiedad están garantizados en los artículos 2 al 28 de la Constitución.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q163"
+  },
+  {
+    "number": 164,
+    "subtopicId": "ansp_6.2",
+    "sectionTitle": "6.2 Derechos y garantías fundamentales",
+    "statement": "¿Qué artículo de la Constitución de El Salvador garantiza el derecho de toda persona a expresar y difundir libremente sus pensamientos?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Artículo 2"
+      },
+      {
+        "key": "B",
+        "text": "Artículo 6"
+      },
+      {
+        "key": "C",
+        "text": "Artículo 12"
+      },
+      {
+        "key": "D",
+        "text": "Artículo 25"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El Art. 6 constitucional establece que toda persona puede expresar y difundir libremente sus pensamientos sin censura previa.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q164"
+  },
+  {
+    "number": 165,
+    "subtopicId": "ansp_6.2",
+    "sectionTitle": "6.2 Derechos y garantías fundamentales",
+    "statement": "¿Qué garantía y proceso constitucional permite a una persona protegerse contra privaciones ilegales o arbitrarias de su libertad física?",
+    "options": [
+      {
+        "key": "A",
+        "text": "El Hábeas Corpus (o Exhibición Personal)"
+      },
+      {
+        "key": "B",
+        "text": "El Recurso de Apelación"
+      },
+      {
+        "key": "C",
+        "text": "El Juicio de Cuentas"
+      },
+      {
+        "key": "D",
+        "text": "La Casación"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El proceso constitucional de Hábeas Corpus tutela la libertad e integridad de quienes estén detenidos o amenazados indebidamente (Art. 11 Cn).",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q165"
+  },
+  {
+    "number": 166,
+    "subtopicId": "ansp_6.2",
+    "sectionTitle": "6.2 Derechos y garantías fundamentales",
+    "statement": "¿Cuál de los siguientes términos NO constituye un derecho humano individual reconocido en el orden constitucional salvadoreño?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Derecho a la vida y a la integridad física"
+      },
+      {
+        "key": "B",
+        "text": "Derecho canónico (normativa eclesiástica interna de una iglesia)"
+      },
+      {
+        "key": "C",
+        "text": "Derecho a la seguridad y a la propiedad"
+      },
+      {
+        "key": "D",
+        "text": "Derecho a la libertad de circulación"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El derecho canónico es el conjunto de normas religiosas de la Iglesia Católica y no un derecho fundamental civil o individual del Estado.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q166"
+  },
+  {
+    "number": 167,
+    "subtopicId": "ansp_6.3",
+    "sectionTitle": "6.3 El voto",
+    "statement": "En el ordenamiento constitucional de El Salvador, el acto de votar en elecciones populares constituye:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una actividad comercial"
+      },
+      {
+        "key": "B",
+        "text": "Un derecho y un deber político ciudadano"
+      },
+      {
+        "key": "C",
+        "text": "Una obligación impuesta solo a funcionarios"
+      },
+      {
+        "key": "D",
+        "text": "Un trámite optativo para extranjeros"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El artículo 72 y 73 de la Constitución señalan que ejercer el sufragio es un derecho y un deber cívico irrenunciable.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q167"
+  },
+  {
+    "number": 168,
+    "subtopicId": "ansp_6.3",
+    "sectionTitle": "6.3 El voto",
+    "statement": "Según el artículo 78 de la Constitución, ¿qué características inviolables definen al sufragio en El Salvador?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Censitario, público y delegado"
+      },
+      {
+        "key": "B",
+        "text": "Universal, directo, igualitario y secreto"
+      },
+      {
+        "key": "C",
+        "text": "Condicionado por la renta"
+      },
+      {
+        "key": "D",
+        "text": "Exclusivo para varones"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El voto es universal (para todos los ciudadanos mayores de edad), directo (sin intermediarios) y secreto en la urna.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q168"
+  },
+  {
+    "number": 169,
+    "subtopicId": "ansp_6.3",
+    "sectionTitle": "6.3 El voto",
+    "statement": "¿Qué artículo de la Constitución salvadoreña enuncia los derechos políticos fundamentales de los ciudadanos, entre ellos ejercer el sufragio?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Artículo 72"
+      },
+      {
+        "key": "B",
+        "text": "Artículo 14"
+      },
+      {
+        "key": "C",
+        "text": "Artículo 38"
+      },
+      {
+        "key": "D",
+        "text": "Artículo 101"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El artículo 72 de la Constitución reconoce el derecho de los ciudadanos a asociarse en partidos y ejercer el voto.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q169"
+  },
+  {
+    "number": 170,
+    "subtopicId": "ansp_6.3",
+    "sectionTitle": "6.3 El voto",
+    "statement": "¿Qué principio democrático medular garantiza que la decisión electoral del ciudadano se emita sin coacción ni conocimiento ajeno?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Principio de notoriedad"
+      },
+      {
+        "key": "B",
+        "text": "Principio de libertad y secreto del voto"
+      },
+      {
+        "key": "C",
+        "text": "Principio de jerarquía militar"
+      },
+      {
+        "key": "D",
+        "text": "Principio de delegación obligada"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El secreto del voto garantiza la absoluta libertad de conciencia del elector frente a cualquier presión externa.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q170"
+  },
+  {
+    "number": 171,
+    "subtopicId": "ansp_6.4",
+    "sectionTitle": "6.4 Ministerio Público: funciones",
+    "statement": "¿Cuál es una atribución constitucional central encomendada al Ministerio Público salvadoreño (FGR, PDDH, PGR)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Legislar leyes tributarias"
+      },
+      {
+        "key": "B",
+        "text": "Investigar los delitos y promover la acción de la justicia en defensa de la legalidad"
+      },
+      {
+        "key": "C",
+        "text": "Dictar sentencias penales definitivas"
+      },
+      {
+        "key": "D",
+        "text": "Comandar la Fuerza Armada"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El Ministerio Público vela por la defensa de los intereses de la sociedad y del Estado y la investigación del delito (Art. 193 Cn).",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q171"
+  },
+  {
+    "number": 172,
+    "subtopicId": "ansp_6.4",
+    "sectionTitle": "6.4 Ministerio Público: funciones",
+    "statement": "¿Qué labor esencial distingue a la Fiscalía General de la República dentro del proceso penal salvadoreño?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Administrar las cárceles"
+      },
+      {
+        "key": "B",
+        "text": "Dirigir la investigación del delito y ejercer la acción penal pública (acusación)"
+      },
+      {
+        "key": "C",
+        "text": "Juzgar y condenar a los procesados"
+      },
+      {
+        "key": "D",
+        "text": "Custodiar las fronteras aéreas"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La FGR tiene el monopolio de la acción penal pública y coordina a la Policía Nacional Civil en la investigación técnica.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q172"
+  },
+  {
+    "number": 173,
+    "subtopicId": "ansp_6.4",
+    "sectionTitle": "6.4 Ministerio Público: funciones",
+    "statement": "¿Qué funcionario electo por la Asamblea Legislativa ostenta la máxima autoridad y dirección de la Fiscalía General de la República?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presidente de la Corte Suprema"
+      },
+      {
+        "key": "B",
+        "text": "Fiscal General de la República"
+      },
+      {
+        "key": "C",
+        "text": "Procurador para la Defensa de los DDHH"
+      },
+      {
+        "key": "D",
+        "text": "Ministro de Justicia"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El Fiscal General de la República encabeza la FGR por un período constitucional de tres años.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q173"
+  },
+  {
+    "number": 174,
+    "subtopicId": "ansp_6.5",
+    "sectionTitle": "6.5 Seguridad Pública. Policía Nacional Civil",
+    "statement": "¿Cuál es la misión institucional principal de la Policía Nacional Civil (PNC) en la sociedad salvadoreña?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Prevenir, combatir e investigar los hechos delictivos y garantizar el orden y la seguridad ciudadana"
+      },
+      {
+        "key": "B",
+        "text": "Dictar leyes sobre comercio"
+      },
+      {
+        "key": "C",
+        "text": "Recaudar impuestos de importación"
+      },
+      {
+        "key": "D",
+        "text": "Representar al país diplomáticamente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El artículo 159 de la Constitución define a la PNC como cuerpo armado civil encargado del orden público y seguridad ciudadana.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q174"
+  },
+  {
+    "number": 175,
+    "subtopicId": "ansp_6.5",
+    "sectionTitle": "6.5 Seguridad Pública. Policía Nacional Civil",
+    "statement": "¿En qué año se fundó la Policía Nacional Civil (PNC) como institución civil desmilitarizada emanada de los Acuerdos de Paz?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1980"
+      },
+      {
+        "key": "B",
+        "text": "1992"
+      },
+      {
+        "key": "C",
+        "text": "1998"
+      },
+      {
+        "key": "D",
+        "text": "2001"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La PNC fue creada en 1992 para sustituir a los antiguos cuerpos represivos (Policía Nacional, Guardia Nacional y Policía de Hacienda).",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q175"
+  },
+  {
+    "number": 176,
+    "subtopicId": "ansp_6.5",
+    "sectionTitle": "6.5 Seguridad Pública. Policía Nacional Civil",
+    "statement": "¿Cuál es el lema institucional que enarbola la Policía Nacional Civil de El Salvador?",
+    "options": [
+      {
+        "key": "A",
+        "text": "\"Honor y Gloria\""
+      },
+      {
+        "key": "B",
+        "text": "\"Servicio - Orden - Seguridad\""
+      },
+      {
+        "key": "C",
+        "text": "\"Dios, Unión y Libertad\""
+      },
+      {
+        "key": "D",
+        "text": "\"Lealtad y Sacrificio\""
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Servicio - Orden - Seguridad' es el lema oficial plasmado en los emblemas y juramentos de la PNC.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q176"
+  },
+  {
+    "number": 177,
+    "subtopicId": "ansp_6.5",
+    "sectionTitle": "6.5 Seguridad Pública. Policía Nacional Civil",
+    "statement": "¿Qué rango jerárquico es el más alto en la escala de mando y carrera de la Policía Nacional Civil?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Subcomisionado"
+      },
+      {
+        "key": "B",
+        "text": "Comisionado General"
+      },
+      {
+        "key": "C",
+        "text": "Inspector Jefe"
+      },
+      {
+        "key": "D",
+        "text": "Sargento Mayor"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Comisionado General es la máxima categoría del Nivel Superior en la carrera policial.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q177"
+  },
+  {
+    "number": 178,
+    "subtopicId": "ansp_6.6",
+    "sectionTitle": "6.6 Defensa Nacional. Fuerza Armada",
+    "statement": "¿Cuál es la función primordial y carácter esencial asignado a la Fuerza Armada por la Constitución salvadoreña?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Defender la soberanía del Estado y la integridad de su territorio"
+      },
+      {
+        "key": "B",
+        "text": "Manejar los bancos comerciales"
+      },
+      {
+        "key": "C",
+        "text": "Intervenir en disputas de partidos políticos"
+      },
+      {
+        "key": "D",
+        "text": "Nombrar a los diputados"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El artículo 211 y 212 de la Constitución establece que la Fuerza Armada es una institución permanente al servicio de la defensa de la patria.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q178"
+  },
+  {
+    "number": 179,
+    "subtopicId": "ansp_6.6",
+    "sectionTitle": "6.6 Defensa Nacional. Fuerza Armada",
+    "statement": "El artículo 212 de la Constitución estipula que la misión militar de la Fuerza Armada salvadoreña es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Garantizar la alternabilidad en el poder municipal"
+      },
+      {
+        "key": "B",
+        "text": "Defender la soberanía del Estado y la integridad del territorio"
+      },
+      {
+        "key": "C",
+        "text": "Ejercer el comercio exterior"
+      },
+      {
+        "key": "D",
+        "text": "Investigar delitos comunes"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La defensa de la soberanía nacional e integridad territorial es el fin constitucional primario de las armas nacionales.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q179"
+  },
+  {
+    "number": 180,
+    "subtopicId": "ansp_6.6",
+    "sectionTitle": "6.6 Defensa Nacional. Fuerza Armada",
+    "statement": "¿Cuál de los siguientes cuerpos NO es una de las ramas orgánicas de la Fuerza Armada de El Salvador?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fuerza de Seguridad Pública (antigua denominación policial disuelta)"
+      },
+      {
+        "key": "B",
+        "text": "Ejército"
+      },
+      {
+        "key": "C",
+        "text": "Fuerza Aérea"
+      },
+      {
+        "key": "D",
+        "text": "Fuerza Naval"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las ramas constitucionales de la Fuerza Armada son exclusivamente tres: Ejército, Fuerza Aérea y Fuerza Naval.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q180"
+  },
+  {
+    "number": 181,
+    "subtopicId": "ansp_6.7",
+    "sectionTitle": "6.7 Agente de autoridad y funcionario público",
+    "statement": "En el marco del derecho penal y administrativo salvadoreño, ¿quién tiene legalmente la investidura de \"agente de autoridad\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un comerciante particular"
+      },
+      {
+        "key": "B",
+        "text": "Un agente de la Policía Nacional Civil"
+      },
+      {
+        "key": "C",
+        "text": "Un vigilante privado sin acreditación"
+      },
+      {
+        "key": "D",
+        "text": "Un estudiante de secundaria"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Los miembros activos de la PNC actúan como agentes de autoridad facultados para mantener el orden e imponer la ley.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q181"
+  },
+  {
+    "number": 182,
+    "subtopicId": "ansp_6.7",
+    "sectionTitle": "6.7 Agente de autoridad y funcionario público",
+    "statement": "¿Bajo qué circunstancias excepcionales puede un agente de la PNC allanar una morada o domicilio sin previa orden judicial escrita?",
+    "options": [
+      {
+        "key": "A",
+        "text": "En cualquier momento por mera sospecha"
+      },
+      {
+        "key": "B",
+        "text": "Únicamente en caso de flagrancia delictiva, persecución urgente o grave peligro de vidas (emergencia)"
+      },
+      {
+        "key": "C",
+        "text": "Para cobrar un préstamo vencido"
+      },
+      {
+        "key": "D",
+        "text": "Por solicitud de un vecino"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El Art. 20 de la Constitución consagra la inviolabilidad de la morada, admitiendo allanamiento sin orden judicial solo en flagrancia o emergencia.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q182"
+  },
+  {
+    "number": 183,
+    "subtopicId": "ansp_7.4",
+    "sectionTitle": "7.4 Ley de la Carrera Policial",
+    "statement": "¿Qué cuerpo normativo especial regula las obligaciones, derechos, ascensos y régimen disciplinario de los agentes de la PNC?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Código Aduanero"
+      },
+      {
+        "key": "B",
+        "text": "Ley de la Carrera Policial"
+      },
+      {
+        "key": "C",
+        "text": "Ley de Notariado"
+      },
+      {
+        "key": "D",
+        "text": "Ley de Inquilinato"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La Ley de la Carrera Policial establece el estatuto profesional, méritos y disciplina de todo el personal policial.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q183"
+  },
+  {
+    "number": 184,
+    "subtopicId": "ansp_6.8",
+    "sectionTitle": "6.8 Origen de los derechos humanos",
+    "statement": "¿Cuál es el fin universal y supremo que persigue el reconocimiento de los Derechos Humanos?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Proteger la dignidad intrínseca de todas las personas frente a abusos de poder"
+      },
+      {
+        "key": "B",
+        "text": "Limitar el crecimiento poblacional"
+      },
+      {
+        "key": "C",
+        "text": "Establecer tasas comerciales entre países"
+      },
+      {
+        "key": "D",
+        "text": "Facilitar la adquisición de bienes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los Derechos Humanos reconocen que todo individuo posee dignidad y garantías inalienables por el solo hecho de ser humano.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q184"
+  },
+  {
+    "number": 185,
+    "subtopicId": "ansp_6.8",
+    "sectionTitle": "6.8 Origen de los derechos humanos",
+    "statement": "¿Qué histórico documento internacional adoptado por la ONU en 1948 es la piedra angular de los Derechos Humanos modernos?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pacto de Varsovia"
+      },
+      {
+        "key": "B",
+        "text": "Declaración Universal de los Derechos Humanos"
+      },
+      {
+        "key": "C",
+        "text": "Carta de las Américas"
+      },
+      {
+        "key": "D",
+        "text": "Tratado de Versalles"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La Declaración Universal fue proclamada por la Asamblea General de la ONU en París el 10 de diciembre de 1948.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q185"
+  },
+  {
+    "number": 186,
+    "subtopicId": "ansp_6.8",
+    "sectionTitle": "6.8 Origen de los derechos humanos",
+    "statement": "¿Qué texto constitucional salvadoreño del siglo XIX fue pionero en consagrar un catálogo amplio de libertades individuales y laicismo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Constitución de 1824"
+      },
+      {
+        "key": "B",
+        "text": "Constitución de 1886"
+      },
+      {
+        "key": "C",
+        "text": "Constitución de 1939"
+      },
+      {
+        "key": "D",
+        "text": "Constitución de 1950"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La Constitución liberal de 1886 estuvo vigente más de medio siglo e inspiró la tradición republicana de derechos.",
+    "subjectId": "ansp_constitucion",
+    "id": "ansp_q186"
+  }
+]

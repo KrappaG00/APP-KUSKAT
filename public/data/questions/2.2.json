@@ -1,0 +1,7006 @@
+[
+  {
+    "id": "2.2_q1",
+    "number": 1,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "¿Qué es la coherencia textual?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La propiedad que da unidad de sentido al texto"
+      },
+      {
+        "key": "B",
+        "text": "La suma de oraciones sin relación"
+      },
+      {
+        "key": "D",
+        "text": "La repetición de palabras"
+      },
+      {
+        "key": "E",
+        "text": "La extensión del texto"
+      },
+      {
+        "key": "F",
+        "text": "La cantidad de párrafos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La coherencia da unidad de sentido al texto."
+  },
+  {
+    "id": "2.2_q2",
+    "number": 2,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "¿Qué es la cohesión textual?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La unión superficial entre elementos del texto mediante mecanismos lingüísticos"
+      },
+      {
+        "key": "B",
+        "text": "La idea principal del texto"
+      },
+      {
+        "key": "C",
+        "text": "La estructura de los párrafos"
+      },
+      {
+        "key": "E",
+        "text": "La intención del autor"
+      },
+      {
+        "key": "F",
+        "text": "La extensión del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cohesión une superficialmente los elementos del texto."
+  },
+  {
+    "id": "2.2_q3",
+    "number": 3,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La coherencia se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La unidad temática y lógica del texto"
+      },
+      {
+        "key": "B",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "C",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "D",
+        "text": "La caligrafía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La cantidad de palabras"
+      },
+      {
+        "key": "F",
+        "text": "La sintaxis del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La coherencia es unidad temática y lógica."
+  },
+  {
+    "id": "2.2_q4",
+    "number": 4,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La cohesión se manifiesta a través de:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo signos de puntuación"
+      },
+      {
+        "key": "C",
+        "text": "Solo la ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Solo la caligrafía"
+      },
+      {
+        "key": "E",
+        "text": "Solo la extensión"
+      },
+      {
+        "key": "F",
+        "text": "Solo el tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cohesión se manifiesta por conectores, pronombres, sinónimos, etc."
+  },
+  {
+    "id": "2.2_q5",
+    "number": 5,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "Un texto coherente debe tener:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Unidad temática"
+      },
+      {
+        "key": "B",
+        "text": "Muchas palabras"
+      },
+      {
+        "key": "C",
+        "text": "Muchos párrafos"
+      },
+      {
+        "key": "D",
+        "text": "Muchos conectores"
+      },
+      {
+        "key": "E",
+        "text": "Mucha puntuación"
+      },
+      {
+        "key": "F",
+        "text": "Mucha extensión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un texto coherente debe tener unidad temática."
+  },
+  {
+    "id": "2.2_q6",
+    "number": 6,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La progresión temática se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La repetición de la misma idea"
+      },
+      {
+        "key": "C",
+        "text": "La cantidad de párrafos"
+      },
+      {
+        "key": "D",
+        "text": "La extensión del texto"
+      },
+      {
+        "key": "E",
+        "text": "La cantidad de conectores"
+      },
+      {
+        "key": "F",
+        "text": "La ortografía"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La progresión temática es el avance ordenado de la información."
+  },
+  {
+    "id": "2.2_q7",
+    "number": 7,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "¿Cuál de los siguientes elementos NO es un mecanismo de cohesión?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Pronombres"
+      },
+      {
+        "key": "C",
+        "text": "Sinónimos"
+      },
+      {
+        "key": "F",
+        "text": "Repetición"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "El tema del texto no es un mecanismo de cohesión."
+  },
+  {
+    "id": "2.2_q8",
+    "number": 8,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La unidad temática significa que:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Todo el texto gira en torno a un mismo tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La unidad temática significa que todo gira en torno a un mismo tema."
+  },
+  {
+    "id": "2.2_q9",
+    "number": 9,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La coherencia semántica se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La relación de significado entre las partes del texto"
+      },
+      {
+        "key": "B",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "C",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "D",
+        "text": "La caligrafía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La sintaxis del texto"
+      },
+      {
+        "key": "F",
+        "text": "La extensión del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La coherencia semántica es la relación de significado entre las partes."
+  },
+  {
+    "id": "2.2_q10",
+    "number": 10,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La coherencia pragmática se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La adecuación del texto al contexto comunicativo"
+      },
+      {
+        "key": "B",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "C",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "D",
+        "text": "La caligrafía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La sintaxis del texto"
+      },
+      {
+        "key": "F",
+        "text": "La extensión del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La coherencia pragmática es la adecuación al contexto."
+  },
+  {
+    "id": "2.2_q11",
+    "number": 11,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "Un texto incoherente se caracteriza por:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La incoherencia es falta de unidad temática y lógica."
+  },
+  {
+    "id": "2.2_q12",
+    "number": 12,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La cohesión léxica se logra mediante:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Repetición, sinonimia, antonimia, hiperonimia"
+      },
+      {
+        "key": "B",
+        "text": "Solo conectores"
+      },
+      {
+        "key": "C",
+        "text": "Solo puntuación"
+      },
+      {
+        "key": "D",
+        "text": "Solo ortografía"
+      },
+      {
+        "key": "E",
+        "text": "Solo caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Solo extensión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cohesión léxica se logra por repetición, sinonimia, etc."
+  },
+  {
+    "id": "2.2_q13",
+    "number": 13,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La cohesión gramatical se logra mediante:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronombres, elipsis, determinantes, concordancia"
+      },
+      {
+        "key": "B",
+        "text": "Solo conectores"
+      },
+      {
+        "key": "C",
+        "text": "Solo puntuación"
+      },
+      {
+        "key": "D",
+        "text": "Solo ortografía"
+      },
+      {
+        "key": "E",
+        "text": "Solo caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Solo extensión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cohesión gramatical se logra por pronombres, elipsis, etc."
+  },
+  {
+    "id": "2.2_q14",
+    "number": 14,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "¿Qué es un conector?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un elemento que une ideas o partes del texto"
+      },
+      {
+        "key": "B",
+        "text": "Un signo de puntuación"
+      },
+      {
+        "key": "C",
+        "text": "Una palabra sin significado"
+      },
+      {
+        "key": "D",
+        "text": "Un tipo de oración"
+      },
+      {
+        "key": "E",
+        "text": "Un tipo de párrafo"
+      },
+      {
+        "key": "F",
+        "text": "Un tipo de texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un conector une ideas o partes del texto."
+  },
+  {
+    "id": "2.2_q15",
+    "number": 15,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "¿Qué es la elipsis?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Omisión de elementos que se sobreentienden"
+      },
+      {
+        "key": "B",
+        "text": "Repetición de elementos"
+      },
+      {
+        "key": "C",
+        "text": "Uso excesivo de conectores"
+      },
+      {
+        "key": "D",
+        "text": "Uso excesivo de puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Uso excesivo de ortografía"
+      },
+      {
+        "key": "F",
+        "text": "Uso excesivo de caligrafía"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La elipsis es omisión de elementos sobreentendidos."
+  },
+  {
+    "id": "2.2_q16",
+    "number": 16,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La referencia anafórica se produce cuando:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un elemento remite a otro mencionado antes"
+      },
+      {
+        "key": "B",
+        "text": "Un elemento remite a otro mencionado después"
+      },
+      {
+        "key": "C",
+        "text": "No hay referencia"
+      },
+      {
+        "key": "D",
+        "text": "Se repite la misma palabra"
+      },
+      {
+        "key": "E",
+        "text": "Se usan sinónimos"
+      },
+      {
+        "key": "F",
+        "text": "Se usan antónimos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La anáfora remite a algo mencionado antes."
+  },
+  {
+    "id": "2.2_q17",
+    "number": 17,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La referencia catafórica se produce cuando:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un elemento remite a otro mencionado después"
+      },
+      {
+        "key": "B",
+        "text": "Un elemento remite a otro mencionado antes"
+      },
+      {
+        "key": "C",
+        "text": "No hay referencia"
+      },
+      {
+        "key": "D",
+        "text": "Se repite la misma palabra"
+      },
+      {
+        "key": "E",
+        "text": "Se usan sinónimos"
+      },
+      {
+        "key": "F",
+        "text": "Se usan antónimos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La catáfora remite a algo mencionado después."
+  },
+  {
+    "id": "2.2_q18",
+    "number": 18,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La deixis se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "C",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "D",
+        "text": "La caligrafía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La sintaxis del texto"
+      },
+      {
+        "key": "F",
+        "text": "La extensión del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La deixis señala personas, lugares, tiempos del contexto."
+  },
+  {
+    "id": "2.2_q19",
+    "number": 19,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "Un texto bien cohesionado:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Usa adecuadamente los mecanismos de cohesión"
+      },
+      {
+        "key": "B",
+        "text": "Usa muchos conectores sin criterio"
+      },
+      {
+        "key": "C",
+        "text": "Repite palabras sin necesidad"
+      },
+      {
+        "key": "D",
+        "text": "No usa pronombres"
+      },
+      {
+        "key": "E",
+        "text": "No usa sinónimos"
+      },
+      {
+        "key": "F",
+        "text": "No usa elipsis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un texto bien cohesionado usa adecuadamente los mecanismos."
+  },
+  {
+    "id": "2.2_q20",
+    "number": 20,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La repetición como mecanismo de cohesión:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Puede ser útil si no es excesiva"
+      },
+      {
+        "key": "B",
+        "text": "Siempre es incorrecta"
+      },
+      {
+        "key": "C",
+        "text": "Siempre es correcta"
+      },
+      {
+        "key": "D",
+        "text": "Nunca se usa"
+      },
+      {
+        "key": "E",
+        "text": "Solo se usa en poesía"
+      },
+      {
+        "key": "F",
+        "text": "Solo se usa en ciencia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La repetición puede ser útil si no es excesiva."
+  },
+  {
+    "id": "2.2_q21",
+    "number": 21,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La sinonimia como mecanismo de cohesión:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Nunca se usa"
+      },
+      {
+        "key": "D",
+        "text": "Solo se usa en poesía"
+      },
+      {
+        "key": "E",
+        "text": "Solo se usa en ciencia"
+      },
+      {
+        "key": "F",
+        "text": "Solo se usa en periodismo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La sinonimia evita la repetición excesiva."
+  },
+  {
+    "id": "2.2_q22",
+    "number": 22,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La antonimia como mecanismo de cohesión:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Relaciona ideas mediante palabras de significado opuesto"
+      },
+      {
+        "key": "C",
+        "text": "Nunca se usa"
+      },
+      {
+        "key": "D",
+        "text": "Solo se usa en poesía"
+      },
+      {
+        "key": "E",
+        "text": "Solo se usa en ciencia"
+      },
+      {
+        "key": "F",
+        "text": "Solo se usa en periodismo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La antonimia relaciona ideas opuestas."
+  },
+  {
+    "id": "2.2_q23",
+    "number": 23,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La hiperonimia como mecanismo de cohesión:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Relaciona palabras de significado más general con otras más específicas"
+      },
+      {
+        "key": "C",
+        "text": "Nunca se usa"
+      },
+      {
+        "key": "D",
+        "text": "Solo se usa en poesía"
+      },
+      {
+        "key": "E",
+        "text": "Solo se usa en ciencia"
+      },
+      {
+        "key": "F",
+        "text": "Solo se usa en periodismo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La hiperonimia relaciona términos generales con específicos."
+  },
+  {
+    "id": "2.2_q24",
+    "number": 24,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La hiponimia como mecanismo de cohesión:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Relaciona palabras de significado más específico con otras más generales"
+      },
+      {
+        "key": "C",
+        "text": "Nunca se usa"
+      },
+      {
+        "key": "D",
+        "text": "Solo se usa en poesía"
+      },
+      {
+        "key": "E",
+        "text": "Solo se usa en ciencia"
+      },
+      {
+        "key": "F",
+        "text": "Solo se usa en periodismo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La hiponimia relaciona términos específicos con generales."
+  },
+  {
+    "id": "2.2_q25",
+    "number": 25,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "Los marcadores textuales son:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Signos de puntuación"
+      },
+      {
+        "key": "C",
+        "text": "Tipos de oraciones"
+      },
+      {
+        "key": "D",
+        "text": "Tipos de párrafos"
+      },
+      {
+        "key": "E",
+        "text": "Tipos de textos"
+      },
+      {
+        "key": "F",
+        "text": "Tipos de letras"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los marcadores textuales organizan y estructuran el texto."
+  },
+  {
+    "id": "2.2_q26",
+    "number": 26,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La adecuación textual se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La adaptación del texto al contexto y al destinatario"
+      },
+      {
+        "key": "B",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "C",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "D",
+        "text": "La caligrafía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La sintaxis del texto"
+      },
+      {
+        "key": "F",
+        "text": "La extensión del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La adecuación es la adaptación al contexto y destinatario."
+  },
+  {
+    "id": "2.2_q27",
+    "number": 27,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "Un texto adecuado debe:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Usar el registro lingüístico apropiado"
+      },
+      {
+        "key": "B",
+        "text": "Usar siempre lenguaje formal"
+      },
+      {
+        "key": "C",
+        "text": "Usar siempre lenguaje informal"
+      },
+      {
+        "key": "D",
+        "text": "Usar siempre tecnicismos"
+      },
+      {
+        "key": "E",
+        "text": "Usar siempre coloquialismos"
+      },
+      {
+        "key": "F",
+        "text": "Usar siempre cultismos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un texto adecuado usa el registro lingüístico apropiado."
+  },
+  {
+    "id": "2.2_q28",
+    "number": 28,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La estructura textual se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización de las ideas en el texto"
+      },
+      {
+        "key": "B",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "C",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "D",
+        "text": "La caligrafía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La sintaxis del texto"
+      },
+      {
+        "key": "F",
+        "text": "La extensión del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La estructura textual es la organización de las ideas."
+  },
+  {
+    "id": "2.2_q29",
+    "number": 29,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La introducción de un texto tiene como función:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presentar el tema y captar la atención"
+      },
+      {
+        "key": "D",
+        "text": "Repetir el tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La introducción presenta el tema y capta la atención."
+  },
+  {
+    "id": "2.2_q30",
+    "number": 30,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "El desarrollo de un texto tiene como función:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Presentar el tema"
+      },
+      {
+        "key": "D",
+        "text": "Repetir el tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El desarrollo explica, argumenta o narra las ideas."
+  },
+  {
+    "id": "2.2_q31",
+    "number": 31,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La conclusión de un texto tiene como función:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sintetizar o cerrar las ideas presentadas"
+      },
+      {
+        "key": "B",
+        "text": "Presentar el tema"
+      },
+      {
+        "key": "D",
+        "text": "Repetir el tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La conclusión sintetiza o cierra las ideas."
+  },
+  {
+    "id": "2.2_q32",
+    "number": 32,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "Un párrafo es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un conjunto de oraciones que desarrollan una idea"
+      },
+      {
+        "key": "B",
+        "text": "Un conjunto de palabras sin relación"
+      },
+      {
+        "key": "C",
+        "text": "Un conjunto de textos"
+      },
+      {
+        "key": "D",
+        "text": "Un conjunto de párrafos"
+      },
+      {
+        "key": "E",
+        "text": "Un conjunto de conectores"
+      },
+      {
+        "key": "F",
+        "text": "Un conjunto de signos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un párrafo desarrolla una idea."
+  },
+  {
+    "id": "2.2_q33",
+    "number": 33,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La idea principal de un párrafo:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La idea principal es la más importante del párrafo."
+  },
+  {
+    "id": "2.2_q34",
+    "number": 34,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "Las ideas secundarias de un párrafo:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Son más importantes que la principal"
+      },
+      {
+        "key": "C",
+        "text": "No tienen relación con la principal"
+      },
+      {
+        "key": "D",
+        "text": "Son la conclusión"
+      },
+      {
+        "key": "E",
+        "text": "Son la introducción"
+      },
+      {
+        "key": "F",
+        "text": "Son el título"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las ideas secundarias complementan la principal."
+  },
+  {
+    "id": "2.2_q35",
+    "number": 35,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La oración temática de un párrafo:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La oración temática expresa la idea principal."
+  },
+  {
+    "id": "2.2_q36",
+    "number": 36,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "Un texto expositivo tiene como propósito:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Informar o explicar un tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El texto expositivo informa o explica."
+  },
+  {
+    "id": "2.2_q37",
+    "number": 37,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "Un texto argumentativo tiene como propósito:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Informar o explicar un tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El texto argumentativo convence o persuade."
+  },
+  {
+    "id": "2.2_q38",
+    "number": 38,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "Un texto narrativo tiene como propósito:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Informar o explicar un tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El texto narrativo cuenta una historia."
+  },
+  {
+    "id": "2.2_q39",
+    "number": 39,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "Un texto descriptivo tiene como propósito:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Representar características de personas, objetos o lugares"
+      },
+      {
+        "key": "D",
+        "text": "Informar o explicar un tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El texto descriptivo representa características."
+  },
+  {
+    "id": "2.2_q40",
+    "number": 40,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
+    "statement": "La tesis de un texto argumentativo es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La idea principal que se defiende"
+      },
+      {
+        "key": "B",
+        "text": "La conclusión"
+      },
+      {
+        "key": "C",
+        "text": "La introducción"
+      },
+      {
+        "key": "F",
+        "text": "La idea secundaria ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La tesis es la idea que se defiende."
+  },
+  {
+    "id": "2.2_q41",
+    "number": 41,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Juan llegó tarde. Él siempre llega tarde\", el pronombre \"él\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Referencia anafórica"
+      },
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "D",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Él\" remite a \"Juan\" mencionado antes: anáfora."
+  },
+  {
+    "id": "2.2_q42",
+    "number": 42,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Cuando lo vi, Pedro corría\", el pronombre \"lo\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "B",
+        "text": "Referencia anafórica"
+      },
+      {
+        "key": "D",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Lo\" remite a \"Pedro\" mencionado después: catáfora."
+  },
+  {
+    "id": "2.2_q43",
+    "number": 43,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Compré flores. Las puse en un jarrón\", el artículo \"las\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Referencia anafórica"
+      },
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "D",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Las\" remite a \"flores\" mencionadas antes: anáfora."
+  },
+  {
+    "id": "2.2_q44",
+    "number": 44,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"María estudia medicina. Ella quiere ser doctora\", el pronombre \"ella\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Referencia anafórica"
+      },
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "D",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Ella\" remite a \"María\" mencionada antes: anáfora."
+  },
+  {
+    "id": "2.2_q45",
+    "number": 45,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Pedro y Ana llegaron. Ambos estaban cansados\", el pronombre \"ambos\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Referencia anafórica"
+      },
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "D",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Ambos\" remite a \"Pedro y Ana\" mencionados antes: anáfora."
+  },
+  {
+    "id": "2.2_q46",
+    "number": 46,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Tengo un perro. El animal es muy fiel\", \"el animal\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Hiperonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiponimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El animal\" es sinónimo de \"perro\"."
+  },
+  {
+    "id": "2.2_q47",
+    "number": 47,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Compré un automóvil. El vehículo es rojo\", \"el vehículo\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiperonimia"
+      },
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiponimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El vehículo\" es hiperónimo de \"automóvil\"."
+  },
+  {
+    "id": "2.2_q48",
+    "number": 48,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Llegó el niño. El pequeño sonreía\", \"el pequeño\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Hiperonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiponimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El pequeño\" es sinónimo de \"niño\"."
+  },
+  {
+    "id": "2.2_q49",
+    "number": 49,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Ana compró rosas. Las flores eran hermosas\", \"las flores\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiperonimia"
+      },
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiponimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Las flores\" es hiperónimo de \"rosas\"."
+  },
+  {
+    "id": "2.2_q50",
+    "number": 50,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"El árbol creció. El roble es fuerte\", \"el roble\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiponimia"
+      },
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El roble\" es hipónimo de \"árbol\"."
+  },
+  {
+    "id": "2.2_q51",
+    "number": 51,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Pedro estudia y trabaja. También ayuda en casa\", \"también\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"También\" es conector aditivo."
+  },
+  {
+    "id": "2.2_q52",
+    "number": 52,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"No estudié. Por eso reprobé\", \"por eso\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por eso\" es conector causal."
+  },
+  {
+    "id": "2.2_q53",
+    "number": 53,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Llegué tarde. Sin embargo, entré\", \"sin embargo\" es un mecanismo de:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Sin embargo\" es conector adversativo."
+  },
+  {
+    "id": "2.2_q54",
+    "number": 54,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Primero, estudia. Luego, descansa\", \"primero\" y \"luego\" son:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Primero\" y \"luego\" son ordenadores."
+  },
+  {
+    "id": "2.2_q55",
+    "number": 55,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"En conclusión, todo salió bien\", \"en conclusión\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En conclusión\" es conector conclusivo."
+  },
+  {
+    "id": "2.2_q56",
+    "number": 56,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Por ejemplo, los mamíferos son vertebrados\", \"por ejemplo\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por ejemplo\" es conector de ejemplificación."
+  },
+  {
+    "id": "2.2_q57",
+    "number": 57,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Es decir, no vendrás\", \"es decir\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Es decir\" es conector explicativo."
+  },
+  {
+    "id": "2.2_q58",
+    "number": 58,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Además, trajo postres\", \"además\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Además\" es conector aditivo."
+  },
+  {
+    "id": "2.2_q59",
+    "number": 59,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"No obstante, insistió\", \"no obstante\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"No obstante\" es conector adversativo."
+  },
+  {
+    "id": "2.2_q60",
+    "number": 60,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Por lo tanto, aprobó\", \"por lo tanto\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por lo tanto\" es conector conclusivo."
+  },
+  {
+    "id": "2.2_q61",
+    "number": 61,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Mientras tanto, esperaba\", \"mientras tanto\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Mientras tanto\" es conector temporal."
+  },
+  {
+    "id": "2.2_q62",
+    "number": 62,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"En cambio, él no fue\", \"en cambio\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En cambio\" es conector adversativo."
+  },
+  {
+    "id": "2.2_q63",
+    "number": 63,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Así mismo, lo haré\", \"así mismo\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Así mismo\" es conector aditivo."
+  },
+  {
+    "id": "2.2_q64",
+    "number": 64,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Por consiguiente, renunció\", \"por consiguiente\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por consiguiente\" es conector conclusivo."
+  },
+  {
+    "id": "2.2_q65",
+    "number": 65,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Finalmente, llegó\", \"finalmente\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Finalmente\" es conector de cierre."
+  },
+  {
+    "id": "2.2_q66",
+    "number": 66,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"En primer lugar, hablemos del tema\", \"en primer lugar\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En primer lugar\" es conector ordenador."
+  },
+  {
+    "id": "2.2_q67",
+    "number": 67,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Por otro lado, existe otra teoría\", \"por otro lado\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por otro lado\" es conector ordenador."
+  },
+  {
+    "id": "2.2_q68",
+    "number": 68,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"En resumen, todo fue positivo\", \"en resumen\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En resumen\" es conector conclusivo."
+  },
+  {
+    "id": "2.2_q69",
+    "number": 69,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Dado que llovía, no salimos\", \"dado que\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Dado que\" es conector causal."
+  },
+  {
+    "id": "2.2_q70",
+    "number": 70,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Aunque insistió, no cedí\", \"aunque\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Aunque\" es conector concesivo."
+  },
+  {
+    "id": "2.2_q71",
+    "number": 71,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Si estudias, aprobarás\", \"si\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Si\" es conector condicional."
+  },
+  {
+    "id": "2.2_q72",
+    "number": 72,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Para que entiendas, te explico\", \"para que\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Para que\" es conector final."
+  },
+  {
+    "id": "2.2_q73",
+    "number": 73,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Tan pronto como llegó, se fue\", \"tan pronto como\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Tan pronto como\" es conector temporal."
+  },
+  {
+    "id": "2.2_q74",
+    "number": 74,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Ora estudia, ora trabaja\", \"ora... ora\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Ora... ora\" es conector distributivo."
+  },
+  {
+    "id": "2.2_q75",
+    "number": 75,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Es decir, no es cierto\", \"es decir\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Es decir\" es conector explicativo."
+  },
+  {
+    "id": "2.2_q76",
+    "number": 76,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Mejor dicho, no iré\", \"mejor dicho\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Mejor dicho\" es conector explicativo."
+  },
+  {
+    "id": "2.2_q77",
+    "number": 77,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"O sea, no estás de acuerdo\", \"o sea\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"O sea\" es conector explicativo."
+  },
+  {
+    "id": "2.2_q78",
+    "number": 78,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"En efecto, así fue\", \"en efecto\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En efecto\" es conector de afirmación."
+  },
+  {
+    "id": "2.2_q79",
+    "number": 79,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Por supuesto, iré\", \"por supuesto\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por supuesto\" es conector de afirmación."
+  },
+  {
+    "id": "2.2_q80",
+    "number": 80,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Sin duda, es correcto\", \"sin duda\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Sin duda\" es conector de afirmación."
+  },
+  {
+    "id": "2.2_q81",
+    "number": 81,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Quizás venga\", \"quizás\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Quizás\" es conector de duda."
+  },
+  {
+    "id": "2.2_q82",
+    "number": 82,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Tal vez llueva\", \"tal vez\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Tal vez\" es conector de duda."
+  },
+  {
+    "id": "2.2_q83",
+    "number": 83,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Posiblemente llegue tarde\", \"posiblemente\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Posiblemente\" es conector de duda."
+  },
+  {
+    "id": "2.2_q84",
+    "number": 84,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Obviamente, ganó\", \"obviamente\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Obviamente\" es conector de evidencia."
+  },
+  {
+    "id": "2.2_q85",
+    "number": 85,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Evidentemente, es así\", \"evidentemente\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Evidentemente\" es conector de evidencia."
+  },
+  {
+    "id": "2.2_q86",
+    "number": 86,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Claramente, no es correcto\", \"claramente\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Claramente\" es conector de evidencia."
+  },
+  {
+    "id": "2.2_q87",
+    "number": 87,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Resumiendo, todo está bien\", \"resumiendo\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Resumiendo\" es conector conclusivo."
+  },
+  {
+    "id": "2.2_q88",
+    "number": 88,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"En síntesis, es viable\", \"en síntesis\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En síntesis\" es conector conclusivo."
+  },
+  {
+    "id": "2.2_q89",
+    "number": 89,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Para finalizar, gracias\", \"para finalizar\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Para finalizar\" es conector de cierre."
+  },
+  {
+    "id": "2.2_q90",
+    "number": 90,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)",
+    "statement": "En \"Por último, recordemos\", \"por último\" es un:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Referencia catafórica"
+      },
+      {
+        "key": "E",
+        "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Hiperonimia ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por último\" es conector de cierre."
+  },
+  {
+    "id": "2.2_q91",
+    "number": 91,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"y\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Y\" es aditivo."
+  },
+  {
+    "id": "2.2_q92",
+    "number": 92,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"pero\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Pero\" es adversativo."
+  },
+  {
+    "id": "2.2_q93",
+    "number": 93,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"porque\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Porque\" es causal."
+  },
+  {
+    "id": "2.2_q94",
+    "number": 94,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"por lo tanto\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por lo tanto\" es conclusivo."
+  },
+  {
+    "id": "2.2_q95",
+    "number": 95,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"mientras\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Mientras\" es temporal."
+  },
+  {
+    "id": "2.2_q96",
+    "number": 96,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"si\"?",
+    "options": [
+      {
+        "key": "F",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Si\" es condicional."
+  },
+  {
+    "id": "2.2_q97",
+    "number": 97,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"además\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Además\" es aditivo."
+  },
+  {
+    "id": "2.2_q98",
+    "number": 98,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"sin embargo\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Sin embargo\" es adversativo."
+  },
+  {
+    "id": "2.2_q99",
+    "number": 99,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"puesto que\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Puesto que\" es causal."
+  },
+  {
+    "id": "2.2_q100",
+    "number": 100,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"en consecuencia\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En consecuencia\" es conclusivo."
+  },
+  {
+    "id": "2.2_q101",
+    "number": 101,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"antes de que\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Antes de que\" es temporal."
+  },
+  {
+    "id": "2.2_q102",
+    "number": 102,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"a menos que\"?",
+    "options": [
+      {
+        "key": "F",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"A menos que\" es condicional."
+  },
+  {
+    "id": "2.2_q103",
+    "number": 103,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"también\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"También\" es aditivo."
+  },
+  {
+    "id": "2.2_q104",
+    "number": 104,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"no obstante\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"No obstante\" es adversativo."
+  },
+  {
+    "id": "2.2_q105",
+    "number": 105,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"ya que\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Ya que\" es causal."
+  },
+  {
+    "id": "2.2_q106",
+    "number": 106,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"así que\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Así que\" es conclusivo."
+  },
+  {
+    "id": "2.2_q107",
+    "number": 107,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"después de que\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Después de que\" es temporal."
+  },
+  {
+    "id": "2.2_q108",
+    "number": 108,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"con tal de que\"?",
+    "options": [
+      {
+        "key": "F",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Con tal de que\" es condicional."
+  },
+  {
+    "id": "2.2_q109",
+    "number": 109,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"incluso\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Incluso\" es aditivo."
+  },
+  {
+    "id": "2.2_q110",
+    "number": 110,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"aunque\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Aunque\" es concesivo."
+  },
+  {
+    "id": "2.2_q111",
+    "number": 111,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"dado que\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Dado que\" es causal."
+  },
+  {
+    "id": "2.2_q112",
+    "number": 112,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"por consiguiente\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por consiguiente\" es conclusivo."
+  },
+  {
+    "id": "2.2_q113",
+    "number": 113,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"tan pronto como\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Tan pronto como\" es temporal."
+  },
+  {
+    "id": "2.2_q114",
+    "number": 114,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"siempre que\"?",
+    "options": [
+      {
+        "key": "F",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Siempre que\" es condicional."
+  },
+  {
+    "id": "2.2_q115",
+    "number": 115,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"encima\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Encima\" es aditivo."
+  },
+  {
+    "id": "2.2_q116",
+    "number": 116,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"empero\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Empero\" es adversativo."
+  },
+  {
+    "id": "2.2_q117",
+    "number": 117,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"debido a que\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Debido a que\" es causal."
+  },
+  {
+    "id": "2.2_q118",
+    "number": 118,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"de modo que\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"De modo que\" es conclusivo."
+  },
+  {
+    "id": "2.2_q119",
+    "number": 119,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"en cuanto\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En cuanto\" es temporal."
+  },
+  {
+    "id": "2.2_q120",
+    "number": 120,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"a condición de que\"?",
+    "options": [
+      {
+        "key": "F",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"A condición de que\" es condicional."
+  },
+  {
+    "id": "2.2_q121",
+    "number": 121,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"asimismo\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Asimismo\" es aditivo."
+  },
+  {
+    "id": "2.2_q122",
+    "number": 122,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"mas\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Mas\" es adversativo."
+  },
+  {
+    "id": "2.2_q123",
+    "number": 123,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"pues\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Pues\" es causal."
+  },
+  {
+    "id": "2.2_q124",
+    "number": 124,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"luego\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Luego\" es conclusivo."
+  },
+  {
+    "id": "2.2_q125",
+    "number": 125,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"ahora bien\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Ahora bien\" es adversativo."
+  },
+  {
+    "id": "2.2_q126",
+    "number": 126,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"por el contrario\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por el contrario\" es adversativo."
+  },
+  {
+    "id": "2.2_q127",
+    "number": 127,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"en efecto\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"En efecto\" es de afirmación."
+  },
+  {
+    "id": "2.2_q128",
+    "number": 128,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"en resumen\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En resumen\" es conclusivo."
+  },
+  {
+    "id": "2.2_q129",
+    "number": 129,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"por ejemplo\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Por ejemplo\" es de ejemplificación."
+  },
+  {
+    "id": "2.2_q130",
+    "number": 130,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"es decir\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Es decir\" es explicativo."
+  },
+  {
+    "id": "2.2_q131",
+    "number": 131,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"en primer lugar\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ordenador"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En primer lugar\" es ordenador."
+  },
+  {
+    "id": "2.2_q132",
+    "number": 132,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"finalmente\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Finalmente\" es de cierre."
+  },
+  {
+    "id": "2.2_q133",
+    "number": 133,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"por supuesto\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Por supuesto\" es de afirmación."
+  },
+  {
+    "id": "2.2_q134",
+    "number": 134,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"sin duda\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Sin duda\" es de afirmación."
+  },
+  {
+    "id": "2.2_q135",
+    "number": 135,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"quizás\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Quizás\" es de duda."
+  },
+  {
+    "id": "2.2_q136",
+    "number": 136,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"tal vez\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Tal vez\" es de duda."
+  },
+  {
+    "id": "2.2_q137",
+    "number": 137,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"obviamente\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Obviamente\" es de evidencia."
+  },
+  {
+    "id": "2.2_q138",
+    "number": 138,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"evidentemente\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Evidentemente\" es de evidencia."
+  },
+  {
+    "id": "2.2_q139",
+    "number": 139,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"en síntesis\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En síntesis\" es conclusivo."
+  },
+  {
+    "id": "2.2_q140",
+    "number": 140,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"para finalizar\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Para finalizar\" es de cierre."
+  },
+  {
+    "id": "2.2_q141",
+    "number": 141,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"por último\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Por último\" es de cierre."
+  },
+  {
+    "id": "2.2_q142",
+    "number": 142,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"en cambio\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En cambio\" es adversativo."
+  },
+  {
+    "id": "2.2_q143",
+    "number": 143,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"mientras tanto\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Mientras tanto\" es temporal."
+  },
+  {
+    "id": "2.2_q144",
+    "number": 144,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"a fin de que\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"A fin de que\" es final."
+  },
+  {
+    "id": "2.2_q145",
+    "number": 145,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"con el propósito de\"?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Con el propósito de\" es final."
+  },
+  {
+    "id": "2.2_q146",
+    "number": 146,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"a pesar de que\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"A pesar de que\" es concesivo."
+  },
+  {
+    "id": "2.2_q147",
+    "number": 147,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"por más que\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por más que\" es concesivo."
+  },
+  {
+    "id": "2.2_q148",
+    "number": 148,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"si bien\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Si bien\" es concesivo."
+  },
+  {
+    "id": "2.2_q149",
+    "number": 149,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"así pues\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Así pues\" es conclusivo."
+  },
+  {
+    "id": "2.2_q150",
+    "number": 150,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
+    "statement": "¿Qué tipo de conector es \"de ahí que\"?",
+    "options": [
+      {
+        "key": "E",
+        "text": "Temporal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"De ahí que\" es conclusivo."
+  },
+  {
+    "id": "2.2_q151",
+    "number": 151,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "Un texto expositivo tiene como función principal:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Informar y explicar un tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El texto expositivo informa y explica."
+  },
+  {
+    "id": "2.2_q152",
+    "number": 152,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La estructura básica de un texto expositivo es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Introducción, desarrollo y conclusión"
+      },
+      {
+        "key": "B",
+        "text": "Planteamiento, nudo y desenlace"
+      },
+      {
+        "key": "C",
+        "text": "Tesis, argumentos y conclusión"
+      },
+      {
+        "key": "E",
+        "text": "Inicio, conflicto y resolución"
+      },
+      {
+        "key": "F",
+        "text": "Título, cuerpo y firma"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Introducción, desarrollo y conclusión."
+  },
+  {
+    "id": "2.2_q153",
+    "number": 153,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La introducción de un texto expositivo debe:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presentar el tema y despertar el interés"
+      },
+      {
+        "key": "D",
+        "text": "Repetir el título"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La introducción presenta el tema y despierta interés."
+  },
+  {
+    "id": "2.2_q154",
+    "number": 154,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "El desarrollo de un texto expositivo debe:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Presentar solo el tema"
+      },
+      {
+        "key": "D",
+        "text": "Repetir la introducción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El desarrollo explica y amplía la información."
+  },
+  {
+    "id": "2.2_q155",
+    "number": 155,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La conclusión de un texto expositivo debe:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sintetizar la información presentada"
+      },
+      {
+        "key": "B",
+        "text": "Presentar el tema"
+      },
+      {
+        "key": "D",
+        "text": "Repetir la introducción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La conclusión sintetiza la información."
+  },
+  {
+    "id": "2.2_q156",
+    "number": 156,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Cuál de los siguientes es un texto expositivo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un artículo de enciclopedia"
+      },
+      {
+        "key": "B",
+        "text": "Un cuento"
+      },
+      {
+        "key": "C",
+        "text": "Un poema"
+      },
+      {
+        "key": "D",
+        "text": "Una novela"
+      },
+      {
+        "key": "E",
+        "text": "Una obra de teatro"
+      },
+      {
+        "key": "F",
+        "text": "Una fábula"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un artículo de enciclopedia es expositivo."
+  },
+  {
+    "id": "2.2_q157",
+    "number": 157,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Cuál de los siguientes es un texto expositivo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un manual de instrucciones"
+      },
+      {
+        "key": "B",
+        "text": "Un cuento"
+      },
+      {
+        "key": "C",
+        "text": "Un poema"
+      },
+      {
+        "key": "D",
+        "text": "Una novela"
+      },
+      {
+        "key": "E",
+        "text": "Una obra de teatro"
+      },
+      {
+        "key": "F",
+        "text": "Una fábula"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un manual de instrucciones es expositivo."
+  },
+  {
+    "id": "2.2_q158",
+    "number": 158,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Cuál de los siguientes es un texto expositivo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un texto científico"
+      },
+      {
+        "key": "B",
+        "text": "Un cuento"
+      },
+      {
+        "key": "C",
+        "text": "Un poema"
+      },
+      {
+        "key": "D",
+        "text": "Una novela"
+      },
+      {
+        "key": "E",
+        "text": "Una obra de teatro"
+      },
+      {
+        "key": "F",
+        "text": "Una fábula"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un texto científico es expositivo."
+  },
+  {
+    "id": "2.2_q159",
+    "number": 159,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La exposición puede ser:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo divulgativa"
+      },
+      {
+        "key": "C",
+        "text": "Solo especializada"
+      },
+      {
+        "key": "D",
+        "text": "Solo oral"
+      },
+      {
+        "key": "E",
+        "text": "Solo escrita"
+      },
+      {
+        "key": "F",
+        "text": "Solo visual"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La exposición puede ser divulgativa o especializada."
+  },
+  {
+    "id": "2.2_q160",
+    "number": 160,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La exposición divulgativa se dirige a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Público general"
+      },
+      {
+        "key": "C",
+        "text": "Niños"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La divulgativa se dirige al público general."
+  },
+  {
+    "id": "2.2_q161",
+    "number": 161,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La exposición especializada se dirige a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Público general"
+      },
+      {
+        "key": "C",
+        "text": "Niños"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La especializada se dirige a especialistas."
+  },
+  {
+    "id": "2.2_q162",
+    "number": 162,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "El lenguaje de un texto expositivo divulgativo debe ser:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Muy técnico"
+      },
+      {
+        "key": "E",
+        "text": "Informal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El lenguaje divulgativo debe ser claro y accesible."
+  },
+  {
+    "id": "2.2_q163",
+    "number": 163,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "El lenguaje de un texto expositivo especializado debe ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Técnico y preciso"
+      },
+      {
+        "key": "E",
+        "text": "Informal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El lenguaje especializado debe ser técnico y preciso."
+  },
+  {
+    "id": "2.2_q164",
+    "number": 164,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La objetividad en un texto expositivo implica:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presentar la información sin opiniones personales"
+      },
+      {
+        "key": "B",
+        "text": "Presentar opiniones personales"
+      },
+      {
+        "key": "C",
+        "text": "Presentar solo sentimientos"
+      },
+      {
+        "key": "D",
+        "text": "Presentar solo emociones"
+      },
+      {
+        "key": "E",
+        "text": "Presentar solo creencias"
+      },
+      {
+        "key": "F",
+        "text": "Presentar solo suposiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La objetividad implica no incluir opiniones personales."
+  },
+  {
+    "id": "2.2_q165",
+    "number": 165,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La claridad en un texto expositivo implica:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Usar un lenguaje comprensible"
+      },
+      {
+        "key": "B",
+        "text": "Usar un lenguaje confuso"
+      },
+      {
+        "key": "C",
+        "text": "Usar un lenguaje ambiguo"
+      },
+      {
+        "key": "D",
+        "text": "Usar un lenguaje informal"
+      },
+      {
+        "key": "E",
+        "text": "Usar un lenguaje coloquial"
+      },
+      {
+        "key": "F",
+        "text": "Usar un lenguaje poético"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La claridad implica usar lenguaje comprensible."
+  },
+  {
+    "id": "2.2_q166",
+    "number": 166,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La precisión en un texto expositivo implica:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Usar términos exactos y adecuados"
+      },
+      {
+        "key": "B",
+        "text": "Usar términos vagos"
+      },
+      {
+        "key": "C",
+        "text": "Usar términos ambiguos"
+      },
+      {
+        "key": "D",
+        "text": "Usar términos informales"
+      },
+      {
+        "key": "E",
+        "text": "Usar términos coloquiales"
+      },
+      {
+        "key": "F",
+        "text": "Usar términos poéticos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La precisión implica usar términos exactos."
+  },
+  {
+    "id": "2.2_q167",
+    "number": 167,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La ordenación en un texto expositivo implica:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Organizar las ideas de forma lógica"
+      },
+      {
+        "key": "B",
+        "text": "Organizar las ideas de forma caótica"
+      },
+      {
+        "key": "C",
+        "text": "Organizar las ideas de forma aleatoria"
+      },
+      {
+        "key": "D",
+        "text": "Organizar las ideas de forma confusa"
+      },
+      {
+        "key": "E",
+        "text": "Organizar las ideas de forma ambigua"
+      },
+      {
+        "key": "F",
+        "text": "Organizar las ideas de forma informal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La ordenación implica organizar las ideas lógicamente."
+  },
+  {
+    "id": "2.2_q168",
+    "number": 168,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Qué tipo de estructura expositiva presenta el tema, lo analiza y luego lo sintetiza?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sintetizante"
+      },
+      {
+        "key": "D",
+        "text": "Paralela"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La estructura analizante presenta, analiza y sintetiza."
+  },
+  {
+    "id": "2.2_q169",
+    "number": 169,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Qué tipo de estructura expositiva presenta primero la conclusión y luego la explica?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sintetizante"
+      },
+      {
+        "key": "D",
+        "text": "Paralela"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La estructura sintetizante presenta la conclusión primero."
+  },
+  {
+    "id": "2.2_q170",
+    "number": 170,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Qué tipo de estructura expositiva presenta el tema al inicio y al final?",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sintetizante"
+      },
+      {
+        "key": "D",
+        "text": "Paralela"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La estructura encuadrada presenta el tema al inicio y al final."
+  },
+  {
+    "id": "2.2_q171",
+    "number": 171,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Qué tipo de estructura expositiva presenta ideas en orden temporal?",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sintetizante"
+      },
+      {
+        "key": "E",
+        "text": "Paralela"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La estructura cronológica presenta ideas en orden temporal."
+  },
+  {
+    "id": "2.2_q172",
+    "number": 172,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Qué tipo de estructura expositiva presenta causas y consecuencias?",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sintetizante"
+      },
+      {
+        "key": "E",
+        "text": "Paralela"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La estructura causa-efecto presenta causas y consecuencias."
+  },
+  {
+    "id": "2.2_q173",
+    "number": 173,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Qué tipo de estructura expositiva presenta ideas sin jerarquía?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Paralela"
+      },
+      {
+        "key": "C",
+        "text": "Sintetizante"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La estructura paralela presenta ideas sin jerarquía."
+  },
+  {
+    "id": "2.2_q174",
+    "number": 174,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La definición en un texto expositivo sirve para:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Repetir ideas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La definición explica el significado de un término."
+  },
+  {
+    "id": "2.2_q175",
+    "number": 175,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La clasificación en un texto expositivo sirve para:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Organizar elementos en categorías"
+      },
+      {
+        "key": "D",
+        "text": "Repetir ideas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La clasificación organiza elementos en categorías."
+  },
+  {
+    "id": "2.2_q176",
+    "number": 176,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La comparación en un texto expositivo sirve para:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Repetir ideas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La comparación establece semejanzas y diferencias."
+  },
+  {
+    "id": "2.2_q177",
+    "number": 177,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La ejemplificación en un texto expositivo sirve para:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ilustrar una idea con casos concretos"
+      },
+      {
+        "key": "D",
+        "text": "Repetir ideas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La ejemplificación ilustra una idea con casos concretos."
+  },
+  {
+    "id": "2.2_q178",
+    "number": 178,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La reformulación en un texto expositivo sirve para:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Repetir ideas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La reformulación expresa una idea de otra manera."
+  },
+  {
+    "id": "2.2_q179",
+    "number": 179,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La enumeración en un texto expositivo sirve para:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presentar elementos de una serie"
+      },
+      {
+        "key": "D",
+        "text": "Repetir ideas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La enumeración presenta elementos de una serie."
+  },
+  {
+    "id": "2.2_q180",
+    "number": 180,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La descripción en un texto expositivo sirve para:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Repetir ideas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La descripción detalla características."
+  },
+  {
+    "id": "2.2_q181",
+    "number": 181,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La narración en un texto expositivo sirve para:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Relatar hechos o procesos"
+      },
+      {
+        "key": "D",
+        "text": "Repetir ideas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La narración relata hechos o procesos."
+  },
+  {
+    "id": "2.2_q182",
+    "number": 182,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La argumentación en un texto expositivo sirve para:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Repetir ideas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La argumentación defiende una idea con razones."
+  },
+  {
+    "id": "2.2_q183",
+    "number": 183,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "Un texto expositivo debe evitar:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las opiniones personales"
+      },
+      {
+        "key": "B",
+        "text": "Los datos objetivos"
+      },
+      {
+        "key": "C",
+        "text": "Las definiciones"
+      },
+      {
+        "key": "D",
+        "text": "Las clasificaciones"
+      },
+      {
+        "key": "E",
+        "text": "Las comparaciones"
+      },
+      {
+        "key": "F",
+        "text": "Los ejemplos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un texto expositivo debe evitar opiniones personales."
+  },
+  {
+    "id": "2.2_q184",
+    "number": 184,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "Un texto expositivo debe incluir:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Información verificable"
+      },
+      {
+        "key": "B",
+        "text": "Opiniones personales"
+      },
+      {
+        "key": "C",
+        "text": "Sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Suposiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un texto expositivo debe incluir información verificable."
+  },
+  {
+    "id": "2.2_q185",
+    "number": 185,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La función referencial del lenguaje predomina en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Textos expositivos"
+      },
+      {
+        "key": "B",
+        "text": "Textos narrativos"
+      },
+      {
+        "key": "C",
+        "text": "Textos poéticos"
+      },
+      {
+        "key": "D",
+        "text": "Textos dramáticos"
+      },
+      {
+        "key": "E",
+        "text": "Textos argumentativos"
+      },
+      {
+        "key": "F",
+        "text": "Textos descriptivos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La función referencial predomina en textos expositivos."
+  },
+  {
+    "id": "2.2_q186",
+    "number": 186,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La función apelativa del lenguaje predomina en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Textos argumentativos"
+      },
+      {
+        "key": "B",
+        "text": "Textos expositivos"
+      },
+      {
+        "key": "C",
+        "text": "Textos narrativos"
+      },
+      {
+        "key": "D",
+        "text": "Textos poéticos"
+      },
+      {
+        "key": "E",
+        "text": "Textos dramáticos"
+      },
+      {
+        "key": "F",
+        "text": "Textos descriptivos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La función apelativa predomina en textos argumentativos."
+  },
+  {
+    "id": "2.2_q187",
+    "number": 187,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La función poética del lenguaje predomina en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Textos literarios"
+      },
+      {
+        "key": "B",
+        "text": "Textos expositivos"
+      },
+      {
+        "key": "C",
+        "text": "Textos argumentativos"
+      },
+      {
+        "key": "D",
+        "text": "Textos científicos"
+      },
+      {
+        "key": "E",
+        "text": "Textos periodísticos"
+      },
+      {
+        "key": "F",
+        "text": "Textos académicos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La función poética predomina en textos literarios."
+  },
+  {
+    "id": "2.2_q188",
+    "number": 188,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La función emotiva del lenguaje predomina en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Textos líricos"
+      },
+      {
+        "key": "B",
+        "text": "Textos expositivos"
+      },
+      {
+        "key": "C",
+        "text": "Textos argumentativos"
+      },
+      {
+        "key": "D",
+        "text": "Textos científicos"
+      },
+      {
+        "key": "E",
+        "text": "Textos periodísticos"
+      },
+      {
+        "key": "F",
+        "text": "Textos académicos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La función emotiva predomina en textos líricos."
+  },
+  {
+    "id": "2.2_q189",
+    "number": 189,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La función metalingüística del lenguaje predomina en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Textos que hablan sobre el lenguaje"
+      },
+      {
+        "key": "B",
+        "text": "Textos narrativos"
+      },
+      {
+        "key": "C",
+        "text": "Textos poéticos"
+      },
+      {
+        "key": "D",
+        "text": "Textos dramáticos"
+      },
+      {
+        "key": "E",
+        "text": "Textos descriptivos"
+      },
+      {
+        "key": "F",
+        "text": "Textos argumentativos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La función metalingüística predomina en textos sobre el lenguaje."
+  },
+  {
+    "id": "2.2_q190",
+    "number": 190,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La función fática del lenguaje predomina en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Textos que verifican la comunicación"
+      },
+      {
+        "key": "B",
+        "text": "Textos narrativos"
+      },
+      {
+        "key": "C",
+        "text": "Textos poéticos"
+      },
+      {
+        "key": "D",
+        "text": "Textos dramáticos"
+      },
+      {
+        "key": "E",
+        "text": "Textos descriptivos"
+      },
+      {
+        "key": "F",
+        "text": "Textos argumentativos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La función fática predomina en textos que verifican la comunicación."
+  },
+  {
+    "id": "2.2_q191",
+    "number": 191,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Cuál es el propósito de un texto expositivo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Transmitir información objetiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El texto expositivo transmite información objetiva."
+  },
+  {
+    "id": "2.2_q192",
+    "number": 192,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Cuál es el propósito de un texto argumentativo?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Transmitir información objetiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El texto argumentativo convence al lector."
+  },
+  {
+    "id": "2.2_q193",
+    "number": 193,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Cuál es el propósito de un texto narrativo?",
+    "options": [
+      {
+        "key": "C",
+        "text": "Transmitir información objetiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El texto narrativo cuenta una historia."
+  },
+  {
+    "id": "2.2_q194",
+    "number": 194,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Cuál es el propósito de un texto descriptivo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Representar características"
+      },
+      {
+        "key": "D",
+        "text": "Transmitir información objetiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El texto descriptivo representa características."
+  },
+  {
+    "id": "2.2_q195",
+    "number": 195,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "¿Cuál es el propósito de un texto literario?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Transmitir información objetiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El texto literario crea belleza con el lenguaje."
+  },
+  {
+    "id": "2.2_q196",
+    "number": 196,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La estructura \"introducción, desarrollo y conclusión\" es típica de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Textos expositivos y argumentativos"
+      },
+      {
+        "key": "B",
+        "text": "Textos narrativos"
+      },
+      {
+        "key": "C",
+        "text": "Textos poéticos"
+      },
+      {
+        "key": "D",
+        "text": "Textos dramáticos"
+      },
+      {
+        "key": "E",
+        "text": "Textos descriptivos"
+      },
+      {
+        "key": "F",
+        "text": "Textos literarios"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Introducción, desarrollo y conclusión es típica de expositivos y argumentativos."
+  },
+  {
+    "id": "2.2_q197",
+    "number": 197,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La estructura \"planteamiento, nudo y desenlace\" es típica de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Textos narrativos"
+      },
+      {
+        "key": "B",
+        "text": "Textos expositivos"
+      },
+      {
+        "key": "C",
+        "text": "Textos argumentativos"
+      },
+      {
+        "key": "D",
+        "text": "Textos científicos"
+      },
+      {
+        "key": "E",
+        "text": "Textos académicos"
+      },
+      {
+        "key": "F",
+        "text": "Textos periodísticos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Planteamiento, nudo y desenlace es típica de narrativos."
+  },
+  {
+    "id": "2.2_q198",
+    "number": 198,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "La estructura \"tesis, argumentos y conclusión\" es típica de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Textos argumentativos"
+      },
+      {
+        "key": "B",
+        "text": "Textos narrativos"
+      },
+      {
+        "key": "C",
+        "text": "Textos expositivos"
+      },
+      {
+        "key": "D",
+        "text": "Textos poéticos"
+      },
+      {
+        "key": "E",
+        "text": "Textos dramáticos"
+      },
+      {
+        "key": "F",
+        "text": "Textos descriptivos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tesis, argumentos y conclusión es típica de argumentativos."
+  },
+  {
+    "id": "2.2_q199",
+    "number": 199,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "Los textos expositivos suelen usar:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tercera persona y lenguaje objetivo"
+      },
+      {
+        "key": "B",
+        "text": "Primera persona y lenguaje subjetivo"
+      },
+      {
+        "key": "C",
+        "text": "Segunda persona y lenguaje coloquial"
+      },
+      {
+        "key": "D",
+        "text": "Primera persona y lenguaje poético"
+      },
+      {
+        "key": "E",
+        "text": "Segunda persona y lenguaje informal"
+      },
+      {
+        "key": "F",
+        "text": "Tercera persona y lenguaje poético"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los expositivos usan tercera persona y lenguaje objetivo."
+  },
+  {
+    "id": "2.2_q200",
+    "number": 200,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)",
+    "statement": "Los textos argumentativos suelen usar:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Primera persona y lenguaje subjetivo"
+      },
+      {
+        "key": "B",
+        "text": "Tercera persona y lenguaje objetivo"
+      },
+      {
+        "key": "C",
+        "text": "Segunda persona y lenguaje coloquial"
+      },
+      {
+        "key": "D",
+        "text": "Tercera persona y lenguaje poético"
+      },
+      {
+        "key": "E",
+        "text": "Primera persona y lenguaje científico"
+      },
+      {
+        "key": "F",
+        "text": "Segunda persona y lenguaje formal ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los argumentativos usan primera persona y lenguaje subjetivo."
+  },
+  {
+    "id": "2.2_q201",
+    "number": 201,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "Un texto argumentativo tiene como propósito:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Informar objetivamente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El texto argumentativo convence o persuade."
+  },
+  {
+    "id": "2.2_q202",
+    "number": 202,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La tesis de un texto argumentativo es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La idea principal que se defiende"
+      },
+      {
+        "key": "B",
+        "text": "La conclusión"
+      },
+      {
+        "key": "C",
+        "text": "La introducción"
+      },
+      {
+        "key": "F",
+        "text": "La idea secundaria"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La tesis es la idea que se defiende."
+  },
+  {
+    "id": "2.2_q203",
+    "number": 203,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "Los argumentos de un texto argumentativo son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las razones que apoyan la tesis"
+      },
+      {
+        "key": "B",
+        "text": "Las ideas secundarias"
+      },
+      {
+        "key": "C",
+        "text": "La conclusión"
+      },
+      {
+        "key": "D",
+        "text": "La introducción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los argumentos apoyan la tesis."
+  },
+  {
+    "id": "2.2_q204",
+    "number": 204,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La conclusión de un texto argumentativo:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reafirma la tesis y resume los argumentos"
+      },
+      {
+        "key": "B",
+        "text": "Presenta el tema"
+      },
+      {
+        "key": "D",
+        "text": "Repite la introducción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La conclusión reafirma la tesis y resume los argumentos."
+  },
+  {
+    "id": "2.2_q205",
+    "number": 205,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "¿Cuál de los siguientes es un texto argumentativo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un artículo de opinión"
+      },
+      {
+        "key": "B",
+        "text": "Un cuento"
+      },
+      {
+        "key": "C",
+        "text": "Un poema"
+      },
+      {
+        "key": "D",
+        "text": "Una noticia"
+      },
+      {
+        "key": "E",
+        "text": "Una receta"
+      },
+      {
+        "key": "F",
+        "text": "Un manual"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un artículo de opinión es argumentativo."
+  },
+  {
+    "id": "2.2_q206",
+    "number": 206,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "¿Cuál de los siguientes es un texto argumentativo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un ensayo"
+      },
+      {
+        "key": "B",
+        "text": "Un cuento"
+      },
+      {
+        "key": "C",
+        "text": "Un poema"
+      },
+      {
+        "key": "D",
+        "text": "Una noticia"
+      },
+      {
+        "key": "E",
+        "text": "Una receta"
+      },
+      {
+        "key": "F",
+        "text": "Un manual"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un ensayo es argumentativo."
+  },
+  {
+    "id": "2.2_q207",
+    "number": 207,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "¿Cuál de los siguientes es un texto argumentativo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un discurso político"
+      },
+      {
+        "key": "B",
+        "text": "Un cuento"
+      },
+      {
+        "key": "C",
+        "text": "Un poema"
+      },
+      {
+        "key": "D",
+        "text": "Una noticia"
+      },
+      {
+        "key": "E",
+        "text": "Una receta"
+      },
+      {
+        "key": "F",
+        "text": "Un manual"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un discurso político es argumentativo."
+  },
+  {
+    "id": "2.2_q208",
+    "number": 208,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "¿Cuál de los siguientes es un texto argumentativo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una reseña crítica"
+      },
+      {
+        "key": "B",
+        "text": "Un cuento"
+      },
+      {
+        "key": "C",
+        "text": "Un poema"
+      },
+      {
+        "key": "D",
+        "text": "Una noticia"
+      },
+      {
+        "key": "E",
+        "text": "Una receta"
+      },
+      {
+        "key": "F",
+        "text": "Un manual"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Una reseña crítica es argumentativa."
+  },
+  {
+    "id": "2.2_q209",
+    "number": 209,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La argumentación se basa en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Razonamientos lógicos"
+      },
+      {
+        "key": "C",
+        "text": "Sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Suposiciones"
+      },
+      {
+        "key": "F",
+        "text": "Opiniones sin fundamento"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La argumentación se basa en razonamientos lógicos."
+  },
+  {
+    "id": "2.2_q210",
+    "number": 210,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La argumentación puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Inductiva o deductiva"
+      },
+      {
+        "key": "B",
+        "text": "Solo inductiva"
+      },
+      {
+        "key": "C",
+        "text": "Solo deductiva"
+      },
+      {
+        "key": "D",
+        "text": "Solo oral"
+      },
+      {
+        "key": "E",
+        "text": "Solo escrita"
+      },
+      {
+        "key": "F",
+        "text": "Solo visual"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La argumentación puede ser inductiva o deductiva."
+  },
+  {
+    "id": "2.2_q211",
+    "number": 211,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La argumentación inductiva parte de:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Una conclusión general para llegar a casos particulares"
+      },
+      {
+        "key": "C",
+        "text": "Una premisa falsa"
+      },
+      {
+        "key": "D",
+        "text": "Una premisa verdadera"
+      },
+      {
+        "key": "E",
+        "text": "Una conclusión falsa"
+      },
+      {
+        "key": "F",
+        "text": "Una conclusión verdadera"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La inductiva va de casos particulares a conclusión general."
+  },
+  {
+    "id": "2.2_q212",
+    "number": 212,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La argumentación deductiva parte de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una conclusión general para llegar a casos particulares"
+      },
+      {
+        "key": "C",
+        "text": "Una premisa falsa"
+      },
+      {
+        "key": "D",
+        "text": "Una premisa verdadera"
+      },
+      {
+        "key": "E",
+        "text": "Una conclusión falsa"
+      },
+      {
+        "key": "F",
+        "text": "Una conclusión verdadera"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La deductiva va de conclusión general a casos particulares."
+  },
+  {
+    "id": "2.2_q213",
+    "number": 213,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia argumentativa es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un razonamiento incorrecto que parece válido"
+      },
+      {
+        "key": "B",
+        "text": "Un razonamiento correcto"
+      },
+      {
+        "key": "C",
+        "text": "Una premisa verdadera"
+      },
+      {
+        "key": "D",
+        "text": "Una conclusión verdadera"
+      },
+      {
+        "key": "E",
+        "text": "Un argumento sólido"
+      },
+      {
+        "key": "F",
+        "text": "Una tesis correcta"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La falacia es un razonamiento incorrecto que parece válido."
+  },
+  {
+    "id": "2.2_q214",
+    "number": 214,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"ad hominem\" consiste en:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Ad hominem\" ataca a la persona, no a sus argumentos."
+  },
+  {
+    "id": "2.2_q215",
+    "number": 215,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"ad populum\" consiste en:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Ad populum\" apela a la mayoría."
+  },
+  {
+    "id": "2.2_q216",
+    "number": 216,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"ad verecundiam\" consiste en:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Ad verecundiam\" apela a autoridad no competente."
+  },
+  {
+    "id": "2.2_q217",
+    "number": 217,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"ad ignorantiam\" consiste en:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Ad ignorantiam\" afirma que algo es verdadero porque no se ha demostrado lo contrario."
+  },
+  {
+    "id": "2.2_q218",
+    "number": 218,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"ad baculum\" consiste en:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Ad baculum\" apela a la fuerza o amenaza."
+  },
+  {
+    "id": "2.2_q219",
+    "number": 219,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"ad misericordiam\" consiste en:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Ad misericordiam\" apela a la piedad o compasión."
+  },
+  {
+    "id": "2.2_q220",
+    "number": 220,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"pendiente resbaladiza\" consiste en:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Pendiente resbaladiza\" afirma que un hecho conducirá inevitablemente a otro."
+  },
+  {
+    "id": "2.2_q221",
+    "number": 221,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"falsa dicotomía\" consiste en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presentar solo dos opciones cuando hay más"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Falsa dicotomía\" presenta solo dos opciones cuando hay más."
+  },
+  {
+    "id": "2.2_q222",
+    "number": 222,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"generalización apresurada\" consiste en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sacar una conclusión general de pocos casos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Generalización apresurada\" saca conclusión general de pocos casos."
+  },
+  {
+    "id": "2.2_q223",
+    "number": 223,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"causa falsa\" consiste en:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Causa falsa\" confunde correlación con causalidad."
+  },
+  {
+    "id": "2.2_q224",
+    "number": 224,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"hombre de paja\" consiste en:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Hombre de paja\" distorsiona el argumento del oponente."
+  },
+  {
+    "id": "2.2_q225",
+    "number": 225,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"circular\" consiste en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Usar la conclusión como premisa"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Circular\" usa la conclusión como premisa."
+  },
+  {
+    "id": "2.2_q226",
+    "number": 226,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"equívoco\" consiste en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Usar una palabra con distintos significados en el mismo argumento"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Equívoco\" usa una palabra con distintos significados."
+  },
+  {
+    "id": "2.2_q227",
+    "number": 227,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"anfibología\" consiste en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Usar construcciones gramaticales ambiguas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Anfibología\" usa construcciones gramaticales ambiguas."
+  },
+  {
+    "id": "2.2_q228",
+    "number": 228,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"composición\" consiste en:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Composición\" atribuye al todo lo válido para las partes."
+  },
+  {
+    "id": "2.2_q229",
+    "number": 229,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"división\" consiste en:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"División\" atribuye a las partes lo válido para el todo."
+  },
+  {
+    "id": "2.2_q230",
+    "number": 230,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"non sequitur\" consiste en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Llegar a una conclusión que no se deriva de las premisas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Non sequitur\" llega a conclusión que no se deriva de las premisas."
+  },
+  {
+    "id": "2.2_q231",
+    "number": 231,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "El ensayo argumentativo tiene una estructura de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Introducción, desarrollo y conclusión"
+      },
+      {
+        "key": "B",
+        "text": "Planteamiento, nudo y desenlace"
+      },
+      {
+        "key": "C",
+        "text": "Inicio, conflicto y resolución"
+      },
+      {
+        "key": "E",
+        "text": "Título, cuerpo y firma"
+      },
+      {
+        "key": "F",
+        "text": "Tesis, antítesis y síntesis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El ensayo argumentativo tiene introducción, desarrollo y conclusión."
+  },
+  {
+    "id": "2.2_q232",
+    "number": 232,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La introducción de un ensayo argumentativo debe:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presentar la tesis y captar la atención"
+      },
+      {
+        "key": "D",
+        "text": "Repetir el título"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La introducción presenta la tesis y capta la atención."
+  },
+  {
+    "id": "2.2_q233",
+    "number": 233,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "El desarrollo de un ensayo argumentativo debe:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presentar los argumentos que apoyan la tesis"
+      },
+      {
+        "key": "B",
+        "text": "Presentar solo la tesis"
+      },
+      {
+        "key": "D",
+        "text": "Repetir la introducción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El desarrollo presenta los argumentos que apoyan la tesis."
+  },
+  {
+    "id": "2.2_q234",
+    "number": 234,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La conclusión de un ensayo argumentativo debe:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reafirmar la tesis y resumir los argumentos"
+      },
+      {
+        "key": "B",
+        "text": "Presentar la tesis"
+      },
+      {
+        "key": "D",
+        "text": "Repetir la introducción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La conclusión reafirma la tesis y resume los argumentos."
+  },
+  {
+    "id": "2.2_q235",
+    "number": 235,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "Los argumentos de autoridad se basan en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La opinión de expertos en la materia"
+      },
+      {
+        "key": "B",
+        "text": "La opinión de la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "La emoción"
+      },
+      {
+        "key": "D",
+        "text": "La fuerza"
+      },
+      {
+        "key": "E",
+        "text": "La ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "La tradición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los argumentos de autoridad se basan en expertos."
+  },
+  {
+    "id": "2.2_q236",
+    "number": 236,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "Los argumentos de hecho se basan en:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Opiniones personales"
+      },
+      {
+        "key": "E",
+        "text": "Suposiciones"
+      },
+      {
+        "key": "F",
+        "text": "Tradiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los argumentos de hecho se basan en datos verificables."
+  },
+  {
+    "id": "2.2_q237",
+    "number": 237,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "Los argumentos de ejemplificación se basan en:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Opiniones personales"
+      },
+      {
+        "key": "E",
+        "text": "Suposiciones"
+      },
+      {
+        "key": "F",
+        "text": "Tradiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los argumentos de ejemplificación se basan en casos concretos."
+  },
+  {
+    "id": "2.2_q238",
+    "number": 238,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "Los argumentos de analogía se basan en:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Opiniones personales"
+      },
+      {
+        "key": "E",
+        "text": "Suposiciones"
+      },
+      {
+        "key": "F",
+        "text": "Tradiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los argumentos de analogía se basan en comparaciones."
+  },
+  {
+    "id": "2.2_q239",
+    "number": 239,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "Los argumentos de causa-efecto se basan en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Relaciones de causalidad"
+      },
+      {
+        "key": "B",
+        "text": "Opiniones personales"
+      },
+      {
+        "key": "E",
+        "text": "Suposiciones"
+      },
+      {
+        "key": "F",
+        "text": "Tradiciones"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los argumentos de causa-efecto se basan en relaciones de causalidad."
+  },
+  {
+    "id": "2.2_q240",
+    "number": 240,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La refutación en un texto argumentativo consiste en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rebartir los argumentos del oponente"
+      },
+      {
+        "key": "C",
+        "text": "Ignorar los argumentos del oponente"
+      },
+      {
+        "key": "D",
+        "text": "Repetir los argumentos del oponente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La refutación rebate los argumentos del oponente."
+  },
+  {
+    "id": "2.2_q241",
+    "number": 241,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La contraargumentación consiste en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presentar argumentos contrarios a la tesis para refutarlos"
+      },
+      {
+        "key": "C",
+        "text": "Ignorar la tesis"
+      },
+      {
+        "key": "D",
+        "text": "Repetir la tesis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La contraargumentación presenta argumentos contrarios para refutarlos."
+  },
+  {
+    "id": "2.2_q242",
+    "number": 242,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La concesión en un texto argumentativo consiste en:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Rechazar totalmente un argumento contrario"
+      },
+      {
+        "key": "C",
+        "text": "Ignorar un argumento contrario"
+      },
+      {
+        "key": "D",
+        "text": "Repetir un argumento contrario"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La concesión acepta parcialmente un argumento contrario."
+  },
+  {
+    "id": "2.2_q243",
+    "number": 243,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La persuasión en un texto argumentativo busca:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Informar al lector"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La persuasión busca cambiar la opinión o conducta."
+  },
+  {
+    "id": "2.2_q244",
+    "number": 244,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La disuasión en un texto argumentativo busca:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Informar al lector"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La disuasión busca convencer de no hacer algo."
+  },
+  {
+    "id": "2.2_q245",
+    "number": 245,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "El lenguaje de un texto argumentativo debe ser:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Informal y coloquial"
+      },
+      {
+        "key": "D",
+        "text": "Poético y metafórico"
+      },
+      {
+        "key": "E",
+        "text": "Técnico y especializado"
+      },
+      {
+        "key": "F",
+        "text": "Neutro y objetivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El lenguaje argumentativo debe ser claro, preciso y persuasivo."
+  },
+  {
+    "id": "2.2_q246",
+    "number": 246,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "Los conectores más usados en textos argumentativos son:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Ordenadores y de cierre"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los conectores más usados son adversativos y conclusivos."
+  },
+  {
+    "id": "2.2_q247",
+    "number": 247,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La tesis de un texto argumentativo debe ser:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Informal y coloquial"
+      },
+      {
+        "key": "D",
+        "text": "Poética y metafórica"
+      },
+      {
+        "key": "E",
+        "text": "Técnica y especializada"
+      },
+      {
+        "key": "F",
+        "text": "Neutra y objetiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La tesis debe ser clara, precisa y discutible."
+  },
+  {
+    "id": "2.2_q248",
+    "number": 248,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "Un texto argumentativo sólido debe:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tener argumentos bien fundamentados"
+      },
+      {
+        "key": "B",
+        "text": "Tener argumentos sin fundamento"
+      },
+      {
+        "key": "C",
+        "text": "Tener argumentos contradictorios"
+      },
+      {
+        "key": "D",
+        "text": "Tener argumentos falsos"
+      },
+      {
+        "key": "E",
+        "text": "Tener argumentos ambiguos"
+      },
+      {
+        "key": "F",
+        "text": "Tener argumentos confusos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un texto argumentativo sólido tiene argumentos bien fundamentados."
+  },
+  {
+    "id": "2.2_q249",
+    "number": 249,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"tu quoque\" consiste en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Responder a un ataque con otro ataque similar"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Tu quoque\" responde a un ataque con otro ataque similar."
+  },
+  {
+    "id": "2.2_q250",
+    "number": 250,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
+    "statement": "La falacia \"post hoc\" consiste en:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "\"Post hoc\" asume que si un hecho sigue a otro, el primero es causa del segundo."
+  },
+  {
+    "id": "2.2_q251",
+    "number": 251,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un conjunto de oraciones que desarrollan una idea"
+      },
+      {
+        "key": "B",
+        "text": "Un conjunto de palabras sin relación"
+      },
+      {
+        "key": "C",
+        "text": "Un conjunto de textos"
+      },
+      {
+        "key": "D",
+        "text": "Un conjunto de párrafos"
+      },
+      {
+        "key": "E",
+        "text": "Un conjunto de conectores"
+      },
+      {
+        "key": "F",
+        "text": "Un conjunto de signos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un párrafo desarrolla una idea."
+  },
+  {
+    "id": "2.2_q252",
+    "number": 252,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La idea principal de un párrafo:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La idea principal es la más importante."
+  },
+  {
+    "id": "2.2_q253",
+    "number": 253,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Las ideas secundarias de un párrafo:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Son más importantes que la principal"
+      },
+      {
+        "key": "C",
+        "text": "No tienen relación con la principal"
+      },
+      {
+        "key": "D",
+        "text": "Son la conclusión"
+      },
+      {
+        "key": "E",
+        "text": "Son la introducción"
+      },
+      {
+        "key": "F",
+        "text": "Son el título"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las ideas secundarias complementan la principal."
+  },
+  {
+    "id": "2.2_q254",
+    "number": 254,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La oración temática de un párrafo:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La oración temática expresa la idea principal."
+  },
+  {
+    "id": "2.2_q255",
+    "number": 255,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo de introducción tiene como función:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presentar el tema y captar la atención"
+      },
+      {
+        "key": "D",
+        "text": "Repetir el tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El párrafo de introducción presenta el tema y capta la atención."
+  },
+  {
+    "id": "2.2_q256",
+    "number": 256,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo de desarrollo tiene como función:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Presentar el tema"
+      },
+      {
+        "key": "D",
+        "text": "Repetir el tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El párrafo de desarrollo explica, argumenta o narra."
+  },
+  {
+    "id": "2.2_q257",
+    "number": 257,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo de conclusión tiene como función:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sintetizar o cerrar las ideas presentadas"
+      },
+      {
+        "key": "B",
+        "text": "Presentar el tema"
+      },
+      {
+        "key": "D",
+        "text": "Repetir el tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El párrafo de conclusión sintetiza o cierra las ideas."
+  },
+  {
+    "id": "2.2_q258",
+    "number": 258,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo expositivo tiene como función:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El párrafo expositivo explica o informa."
+  },
+  {
+    "id": "2.2_q259",
+    "number": 259,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo argumentativo tiene como función:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Informar objetivamente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El párrafo argumentativo defiende una idea con razones."
+  },
+  {
+    "id": "2.2_q260",
+    "number": 260,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo narrativo tiene como función:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Informar objetivamente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El párrafo narrativo cuenta una historia."
+  },
+  {
+    "id": "2.2_q261",
+    "number": 261,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo descriptivo tiene como función:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Representar características de personas, objetos o lugares"
+      },
+      {
+        "key": "D",
+        "text": "Informar objetivamente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El párrafo descriptivo representa características."
+  },
+  {
+    "id": "2.2_q262",
+    "number": 262,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo de comparación tiene como función:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Informar objetivamente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El párrafo de comparación establece semejanzas y diferencias."
+  },
+  {
+    "id": "2.2_q263",
+    "number": 263,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo de causa-efecto tiene como función:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Informar objetivamente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El párrafo de causa-efecto explica causas y consecuencias."
+  },
+  {
+    "id": "2.2_q264",
+    "number": 264,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo de definición tiene como función:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Informar objetivamente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El párrafo de definición explica el significado de un término."
+  },
+  {
+    "id": "2.2_q265",
+    "number": 265,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo de clasificación tiene como función:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Organizar elementos en categorías"
+      },
+      {
+        "key": "D",
+        "text": "Informar objetivamente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El párrafo de clasificación organiza elementos en categorías."
+  },
+  {
+    "id": "2.2_q266",
+    "number": 266,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un párrafo de ejemplificación tiene como función:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ilustrar una idea con casos concretos"
+      },
+      {
+        "key": "D",
+        "text": "Informar objetivamente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El párrafo de ejemplificación ilustra una idea con casos concretos."
+  },
+  {
+    "id": "2.2_q267",
+    "number": 267,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La progresión temática se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La repetición de la misma idea"
+      },
+      {
+        "key": "C",
+        "text": "La cantidad de párrafos"
+      },
+      {
+        "key": "D",
+        "text": "La extensión del texto"
+      },
+      {
+        "key": "E",
+        "text": "La cantidad de conectores"
+      },
+      {
+        "key": "F",
+        "text": "La ortografía"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La progresión temática es el avance ordenado de la información."
+  },
+  {
+    "id": "2.2_q268",
+    "number": 268,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La progresión temática puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lineal, con tema constante o derivada"
+      },
+      {
+        "key": "B",
+        "text": "Solo lineal"
+      },
+      {
+        "key": "C",
+        "text": "Solo con tema constante"
+      },
+      {
+        "key": "D",
+        "text": "Solo derivada"
+      },
+      {
+        "key": "E",
+        "text": "Solo circular"
+      },
+      {
+        "key": "F",
+        "text": "Solo repetitiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La progresión temática puede ser lineal, con tema constante o derivada."
+  },
+  {
+    "id": "2.2_q269",
+    "number": 269,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La progresión lineal se caracteriza porque:",
+    "options": [
+      {
+        "key": "D",
+        "text": "No hay progresión"
+      },
+      {
+        "key": "E",
+        "text": "No hay tema"
+      },
+      {
+        "key": "F",
+        "text": "No hay rema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La progresión lineal: el rema se convierte en tema."
+  },
+  {
+    "id": "2.2_q270",
+    "number": 270,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La progresión con tema constante se caracteriza porque:",
+    "options": [
+      {
+        "key": "D",
+        "text": "No hay progresión"
+      },
+      {
+        "key": "E",
+        "text": "No hay tema"
+      },
+      {
+        "key": "F",
+        "text": "No hay rema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La progresión con tema constante: el tema se repite."
+  },
+  {
+    "id": "2.2_q271",
+    "number": 271,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La progresión derivada se caracteriza porque:",
+    "options": [
+      {
+        "key": "D",
+        "text": "No hay progresión"
+      },
+      {
+        "key": "E",
+        "text": "No hay tema"
+      },
+      {
+        "key": "F",
+        "text": "No hay rema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La progresión derivada: el tema se divide en subtemas."
+  },
+  {
+    "id": "2.2_q272",
+    "number": 272,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "El tema de un texto es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La idea principal"
+      },
+      {
+        "key": "C",
+        "text": "La conclusión"
+      },
+      {
+        "key": "D",
+        "text": "La introducción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El tema es el asunto general del texto."
+  },
+  {
+    "id": "2.2_q273",
+    "number": 273,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "El rema de un texto es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La información nueva que se aporta sobre el tema"
+      },
+      {
+        "key": "C",
+        "text": "La conclusión"
+      },
+      {
+        "key": "D",
+        "text": "La introducción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El rema es la información nueva sobre el tema."
+  },
+  {
+    "id": "2.2_q274",
+    "number": 274,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La estructura \"tema-rema\" se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización de la información en el texto"
+      },
+      {
+        "key": "B",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "C",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "D",
+        "text": "La caligrafía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La sintaxis del texto"
+      },
+      {
+        "key": "F",
+        "text": "La extensión del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La estructura tema-rema organiza la información."
+  },
+  {
+    "id": "2.2_q275",
+    "number": 275,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un texto bien estructurado debe tener:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Introducción, desarrollo y conclusión"
+      },
+      {
+        "key": "B",
+        "text": "Solo introducción"
+      },
+      {
+        "key": "C",
+        "text": "Solo desarrollo"
+      },
+      {
+        "key": "D",
+        "text": "Solo conclusión"
+      },
+      {
+        "key": "E",
+        "text": "Sin estructura"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un texto bien estructurado tiene introducción, desarrollo y conclusión."
+  },
+  {
+    "id": "2.2_q276",
+    "number": 276,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La introducción de un texto debe:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presentar el tema y captar la atención"
+      },
+      {
+        "key": "D",
+        "text": "Repetir el título"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La introducción presenta el tema y capta la atención."
+  },
+  {
+    "id": "2.2_q277",
+    "number": 277,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "El desarrollo de un texto debe:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Presentar solo el tema"
+      },
+      {
+        "key": "D",
+        "text": "Repetir la introducción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El desarrollo explica, argumenta o narra las ideas."
+  },
+  {
+    "id": "2.2_q278",
+    "number": 278,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La conclusión de un texto debe:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sintetizar o cerrar las ideas presentadas"
+      },
+      {
+        "key": "B",
+        "text": "Presentar el tema"
+      },
+      {
+        "key": "D",
+        "text": "Repetir la introducción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La conclusión sintetiza o cierra las ideas."
+  },
+  {
+    "id": "2.2_q279",
+    "number": 279,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La cohesión textual se logra mediante:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo signos de puntuación"
+      },
+      {
+        "key": "C",
+        "text": "Solo la ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Solo la caligrafía"
+      },
+      {
+        "key": "E",
+        "text": "Solo la extensión"
+      },
+      {
+        "key": "F",
+        "text": "Solo el tema"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La cohesión se logra por conectores, pronombres, sinónimos, etc."
+  },
+  {
+    "id": "2.2_q280",
+    "number": 280,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La coherencia textual se logra mediante:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Unidad temática y lógica"
+      },
+      {
+        "key": "B",
+        "text": "Muchas palabras"
+      },
+      {
+        "key": "C",
+        "text": "Muchos párrafos"
+      },
+      {
+        "key": "D",
+        "text": "Muchos conectores"
+      },
+      {
+        "key": "E",
+        "text": "Mucha puntuación"
+      },
+      {
+        "key": "F",
+        "text": "Mucha extensión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La coherencia se logra por unidad temática y lógica."
+  },
+  {
+    "id": "2.2_q281",
+    "number": 281,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un texto coherente y cohesionado debe:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tener unidad temática y usar adecuadamente los mecanismos de cohesión"
+      },
+      {
+        "key": "B",
+        "text": "Tener muchos temas"
+      },
+      {
+        "key": "C",
+        "text": "No tener tema"
+      },
+      {
+        "key": "E",
+        "text": "No usar conectores"
+      },
+      {
+        "key": "F",
+        "text": "No usar pronombres"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un texto coherente y cohesionado tiene unidad temática y usa mecanismos de cohesión."
+  },
+  {
+    "id": "2.2_q282",
+    "number": 282,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La adecuación textual se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La adaptación del texto al contexto y al destinatario"
+      },
+      {
+        "key": "B",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "C",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "D",
+        "text": "La caligrafía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La sintaxis del texto"
+      },
+      {
+        "key": "F",
+        "text": "La extensión del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La adecuación es la adaptación al contexto y destinatario."
+  },
+  {
+    "id": "2.2_q283",
+    "number": 283,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un texto adecuado debe:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Usar el registro lingüístico apropiado"
+      },
+      {
+        "key": "B",
+        "text": "Usar siempre lenguaje formal"
+      },
+      {
+        "key": "C",
+        "text": "Usar siempre lenguaje informal"
+      },
+      {
+        "key": "D",
+        "text": "Usar siempre tecnicismos"
+      },
+      {
+        "key": "E",
+        "text": "Usar siempre coloquialismos"
+      },
+      {
+        "key": "F",
+        "text": "Usar siempre cultismos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un texto adecuado usa el registro lingüístico apropiado."
+  },
+  {
+    "id": "2.2_q284",
+    "number": 284,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La estructura textual se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización de las ideas en el texto"
+      },
+      {
+        "key": "B",
+        "text": "La ortografía del texto"
+      },
+      {
+        "key": "C",
+        "text": "La puntuación del texto"
+      },
+      {
+        "key": "D",
+        "text": "La caligrafía del texto"
+      },
+      {
+        "key": "E",
+        "text": "La sintaxis del texto"
+      },
+      {
+        "key": "F",
+        "text": "La extensión del texto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La estructura textual es la organización de las ideas."
+  },
+  {
+    "id": "2.2_q285",
+    "number": 285,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La macroestructura de un texto se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización global de las ideas"
+      },
+      {
+        "key": "B",
+        "text": "La organización de las oraciones"
+      },
+      {
+        "key": "C",
+        "text": "La organización de las palabras"
+      },
+      {
+        "key": "D",
+        "text": "La organización de las sílabas"
+      },
+      {
+        "key": "E",
+        "text": "La organización de las letras"
+      },
+      {
+        "key": "F",
+        "text": "La organización de los signos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La macroestructura es la organización global de las ideas."
+  },
+  {
+    "id": "2.2_q286",
+    "number": 286,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La microestructura de un texto se refiere a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La organización de las oraciones y párrafos"
+      },
+      {
+        "key": "B",
+        "text": "La organización global de las ideas"
+      },
+      {
+        "key": "C",
+        "text": "La organización de las palabras"
+      },
+      {
+        "key": "D",
+        "text": "La organización de las sílabas"
+      },
+      {
+        "key": "E",
+        "text": "La organización de las letras"
+      },
+      {
+        "key": "F",
+        "text": "La organización de los signos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La microestructura es la organización de oraciones y párrafos."
+  },
+  {
+    "id": "2.2_q287",
+    "number": 287,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La superestructura de un texto se refiere a:",
+    "options": [
+      {
+        "key": "B",
+        "text": "La organización de las oraciones"
+      },
+      {
+        "key": "C",
+        "text": "La organización de las palabras"
+      },
+      {
+        "key": "D",
+        "text": "La organización de las sílabas"
+      },
+      {
+        "key": "E",
+        "text": "La organización de las letras"
+      },
+      {
+        "key": "F",
+        "text": "La organización de los signos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La superestructura es el esquema formal que organiza el texto."
+  },
+  {
+    "id": "2.2_q288",
+    "number": 288,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La superestructura de un texto narrativo es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Planteamiento, nudo y desenlace"
+      },
+      {
+        "key": "B",
+        "text": "Introducción, desarrollo y conclusión"
+      },
+      {
+        "key": "C",
+        "text": "Tesis, argumentos y conclusión"
+      },
+      {
+        "key": "E",
+        "text": "Título, cuerpo y firma"
+      },
+      {
+        "key": "F",
+        "text": "Inicio, conflicto y resolución"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La superestructura narrativa es planteamiento, nudo y desenlace."
+  },
+  {
+    "id": "2.2_q289",
+    "number": 289,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La superestructura de un texto expositivo es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Introducción, desarrollo y conclusión"
+      },
+      {
+        "key": "B",
+        "text": "Planteamiento, nudo y desenlace"
+      },
+      {
+        "key": "C",
+        "text": "Tesis, argumentos y conclusión"
+      },
+      {
+        "key": "E",
+        "text": "Título, cuerpo y firma"
+      },
+      {
+        "key": "F",
+        "text": "Inicio, conflicto y resolución"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La superestructura expositiva es introducción, desarrollo y conclusión."
+  },
+  {
+    "id": "2.2_q290",
+    "number": 290,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La superestructura de un texto argumentativo es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tesis, argumentos y conclusión"
+      },
+      {
+        "key": "B",
+        "text": "Planteamiento, nudo y desenlace"
+      },
+      {
+        "key": "C",
+        "text": "Introducción, desarrollo y conclusión"
+      },
+      {
+        "key": "E",
+        "text": "Título, cuerpo y firma"
+      },
+      {
+        "key": "F",
+        "text": "Inicio, conflicto y resolución"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La superestructura argumentativa es tesis, argumentos y conclusión."
+  },
+  {
+    "id": "2.2_q291",
+    "number": 291,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La macroestructura de un texto se construye a partir de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las ideas principales de cada párrafo"
+      },
+      {
+        "key": "B",
+        "text": "Las palabras de cada oración"
+      },
+      {
+        "key": "C",
+        "text": "Las sílabas de cada palabra"
+      },
+      {
+        "key": "D",
+        "text": "Las letras de cada sílaba"
+      },
+      {
+        "key": "E",
+        "text": "Los signos de puntuación"
+      },
+      {
+        "key": "F",
+        "text": "Los conectores"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La macroestructura se construye a partir de las ideas principales."
+  },
+  {
+    "id": "2.2_q292",
+    "number": 292,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La microestructura de un texto se construye a partir de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las oraciones y su organización en párrafos"
+      },
+      {
+        "key": "B",
+        "text": "Las ideas principales"
+      },
+      {
+        "key": "C",
+        "text": "Las palabras clave"
+      },
+      {
+        "key": "D",
+        "text": "Las sílabas"
+      },
+      {
+        "key": "E",
+        "text": "Las letras"
+      },
+      {
+        "key": "F",
+        "text": "Los signos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La microestructura se construye a partir de oraciones y párrafos."
+  },
+  {
+    "id": "2.2_q293",
+    "number": 293,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La progresión temática de un texto debe ser:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Repetitiva"
+      },
+      {
+        "key": "F",
+        "text": "Incoherente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La progresión temática debe ser coherente y ordenada."
+  },
+  {
+    "id": "2.2_q294",
+    "number": 294,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La unidad temática de un texto implica:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que todo el texto gire en torno a un mismo tema"
+      },
+      {
+        "key": "B",
+        "text": "Que el texto tenga muchos temas"
+      },
+      {
+        "key": "C",
+        "text": "Que el texto no tenga tema"
+      },
+      {
+        "key": "D",
+        "text": "Que el texto cambie de tema constantemente"
+      },
+      {
+        "key": "E",
+        "text": "Que el texto solo tenga un párrafo"
+      },
+      {
+        "key": "F",
+        "text": "Que el texto solo tenga una oración"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La unidad temática implica que todo gire en torno a un mismo tema."
+  },
+  {
+    "id": "2.2_q295",
+    "number": 295,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La estructura de un texto debe ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lógica y ordenada"
+      },
+      {
+        "key": "E",
+        "text": "Incoherente"
+      },
+      {
+        "key": "F",
+        "text": "Repetitiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La estructura debe ser lógica y ordenada."
+  },
+  {
+    "id": "2.2_q296",
+    "number": 296,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La introducción de un texto debe captar:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La atención del lector"
+      },
+      {
+        "key": "E",
+        "text": "La paciencia del lector"
+      },
+      {
+        "key": "F",
+        "text": "La curiosidad del lector"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La introducción debe captar la atención del lector."
+  },
+  {
+    "id": "2.2_q297",
+    "number": 297,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "El desarrollo de un texto debe mantener:",
+    "options": [
+      {
+        "key": "E",
+        "text": "La paciencia del lector"
+      },
+      {
+        "key": "F",
+        "text": "La curiosidad del lector"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El desarrollo debe mantener el interés del lector."
+  },
+  {
+    "id": "2.2_q298",
+    "number": 298,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La conclusión de un texto debe dejar:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una idea clara y completa"
+      },
+      {
+        "key": "B",
+        "text": "Una idea confusa"
+      },
+      {
+        "key": "C",
+        "text": "Una idea ambigua"
+      },
+      {
+        "key": "D",
+        "text": "Una idea incoherente"
+      },
+      {
+        "key": "E",
+        "text": "Una idea repetitiva"
+      },
+      {
+        "key": "F",
+        "text": "Una idea caótica"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La conclusión debe dejar una idea clara y completa."
+  },
+  {
+    "id": "2.2_q299",
+    "number": 299,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "Un texto bien escrito debe ser:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Incoherente, sin cohesión e inadecuado"
+      },
+      {
+        "key": "D",
+        "text": "Repetitivo, desordenado y confuso"
+      },
+      {
+        "key": "E",
+        "text": "Incoherente, desordenado y ambiguo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Un texto bien escrito es coherente, cohesionado y adecuado."
+  },
+  {
+    "id": "2.2_q300",
+    "number": 300,
+    "subtopicId": "2.2",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
+    "statement": "La revisión de un texto debe verificar:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo la ortografía"
+      },
+      {
+        "key": "C",
+        "text": "Solo la puntuación"
+      },
+      {
+        "key": "D",
+        "text": "Solo la caligrafía"
+      },
+      {
+        "key": "E",
+        "text": "Solo la extensión"
+      },
+      {
+        "key": "F",
+        "text": "Solo el tema ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La revisión verifica coherencia, cohesión, adecuación y corrección."
+  }
+]

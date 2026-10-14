@@ -1,0 +1,310 @@
+[
+  {
+    "number": 51,
+    "subtopicId": "ansp_2.1",
+    "sectionTitle": "2.1 Ortografía y Gramática",
+    "statement": "Completa correctamente la oración: \"El niño canta una __\"",
+    "options": [
+      {
+        "key": "A",
+        "text": "canción"
+      },
+      {
+        "key": "B",
+        "text": "cancion"
+      },
+      {
+        "key": "C",
+        "text": "cansion"
+      },
+      {
+        "key": "D",
+        "text": "canzión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La palabra 'canción' es aguda terminada en 'n' y se escribe con 'c' y tilde en la 'ó'.",
+    "subjectId": "ansp_lenguaje",
+    "id": "ansp_q51"
+  },
+  {
+    "number": 52,
+    "subtopicId": "ansp_2.2",
+    "sectionTitle": "2.2 Redacción",
+    "statement": "¿Cuál de los siguientes enunciados presenta una redacción y concordancia gramatical correctas?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayer fuistes al cine con tus amigos."
+      },
+      {
+        "key": "B",
+        "text": "Ayer fui al cine con mis amigos."
+      },
+      {
+        "key": "C",
+        "text": "Ayer iba al cine con los amigos míos ayer."
+      },
+      {
+        "key": "D",
+        "text": "Nosotros fui al cine ayer."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La opción B concuerda perfectamente en tiempo pretérito perfecto simple, primera persona singular y sin redundancias ni vulgarismos.",
+    "subjectId": "ansp_lenguaje",
+    "id": "ansp_q52"
+  },
+  {
+    "number": 53,
+    "subtopicId": "ansp_2.1",
+    "sectionTitle": "2.1 Ortografía y Gramática",
+    "statement": "¿Cuál es la grafía correcta de la locución que expresa expectativa o comprobación?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Haber si vamos"
+      },
+      {
+        "key": "B",
+        "text": "A ver si vamos"
+      },
+      {
+        "key": "C",
+        "text": "Ha ver si vamos"
+      },
+      {
+        "key": "D",
+        "text": "Aver si vamos"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'A ver' es la secuencia de la preposición 'a' y el verbo 'ver' usada para llamar la atención o pedir comprobación. 'Haber' es el verbo auxiliar.",
+    "subjectId": "ansp_lenguaje",
+    "id": "ansp_q53"
+  },
+  {
+    "number": 54,
+    "subtopicId": "ansp_2.1",
+    "sectionTitle": "2.1 Ortografía y Gramática",
+    "statement": "¿Cuál de las siguientes formas verbales lleva tilde ortográfica correctamente?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Esta (verbo)"
+      },
+      {
+        "key": "B",
+        "text": "Está (del verbo estar)"
+      },
+      {
+        "key": "C",
+        "text": "Ésta (verbo)"
+      },
+      {
+        "key": "D",
+        "text": "Éstar"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "'Está' es una forma aguda terminada en vocal del verbo estar y debe tildarse obligatoriamente.",
+    "subjectId": "ansp_lenguaje",
+    "id": "ansp_q54"
+  },
+  {
+    "number": 55,
+    "subtopicId": "ansp_2.2",
+    "sectionTitle": "2.2 Redacción",
+    "statement": "En expresión escrita y estilística, ¿en qué consiste el error sintáctico conocido como \"anacoluto\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Repetir una misma palabra en el mismo párrafo"
+      },
+      {
+        "key": "B",
+        "text": "Falta de coherencia sintáctica por ruptura de la estructura oracional iniciada"
+      },
+      {
+        "key": "C",
+        "text": "Confundir la 'b' con la 'v'"
+      },
+      {
+        "key": "D",
+        "text": "Omitir signos de interrogación"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El anacoluto es una inconsecuencia en la construcción de una frase, dejando una cláusula sin terminar o desconectada del sujeto inicial.",
+    "subjectId": "ansp_lenguaje",
+    "id": "ansp_q55"
+  },
+  {
+    "number": 56,
+    "subtopicId": "ansp_2.2",
+    "sectionTitle": "2.2 Redacción",
+    "statement": "¿Qué elemento estructural y lógico es indispensable y NO puede faltar en un ensayo argumentativo?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rima asonante"
+      },
+      {
+        "key": "B",
+        "text": "Tesis o postura central que se defiende"
+      },
+      {
+        "key": "C",
+        "text": "Diálogo dramatizado"
+      },
+      {
+        "key": "D",
+        "text": "Uso obligatorio de metáforas"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La tesis central es la proposición nuclear que el autor sostiene y demuestra a través de argumentos razonados.",
+    "subjectId": "ansp_lenguaje",
+    "id": "ansp_q56"
+  },
+  {
+    "number": 57,
+    "subtopicId": "ansp_2.2",
+    "sectionTitle": "2.2 Redacción",
+    "statement": "¿Qué error metodológico debe evitarse rigurosamente en la redacción de una conclusión?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sintetizar los puntos clave"
+      },
+      {
+        "key": "B",
+        "text": "Introducir nuevos argumentos no expuestos previamente en el desarrollo"
+      },
+      {
+        "key": "C",
+        "text": "Reiterar la postura del autor"
+      },
+      {
+        "key": "D",
+        "text": "Plantear reflexiones finales"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La conclusión debe cerrar y sintetizar lo desarrollado; introducir argumentos inéditos desorganiza el texto y deja premisas sin sustentar.",
+    "subjectId": "ansp_lenguaje",
+    "id": "ansp_q57"
+  },
+  {
+    "number": 95,
+    "subtopicId": "ansp_2.3",
+    "sectionTitle": "2.3 Cualidades de un buen orador",
+    "statement": "¿Cuál es un precepto elemental e inexcusable en el ejercicio de la oratoria efectiva?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hablar a gran velocidad sin pausas"
+      },
+      {
+        "key": "B",
+        "text": "Hablar con claridad, articulación y dicción nítida"
+      },
+      {
+        "key": "C",
+        "text": "Mirar fijamente hacia el suelo"
+      },
+      {
+        "key": "D",
+        "text": "Usar solo tecnicismos incomprensibles"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La claridad vocal y conceptual asegura que el mensaje llegue sin distorsiones a todos los oyentes de la audiencia.",
+    "subjectId": "ansp_lenguaje",
+    "id": "ansp_q95"
+  },
+  {
+    "number": 96,
+    "subtopicId": "ansp_2.3",
+    "sectionTitle": "2.3 Cualidades de un buen orador",
+    "statement": "¿Qué actitud no verbal es esencial para generar confianza y empatía con el auditorio?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cruzar los brazos y mostrar enfado"
+      },
+      {
+        "key": "B",
+        "text": "Lenguaje corporal abierto, contacto visual y postura erguida"
+      },
+      {
+        "key": "C",
+        "text": "Permanecer de espaldas al público"
+      },
+      {
+        "key": "D",
+        "text": "Leer continuamente notas sin alzar la mirada"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Un lenguaje corporal abierto y una mirada franca transmiten autenticidad, convicción y respeto hacia la audiencia.",
+    "subjectId": "ansp_lenguaje",
+    "id": "ansp_q96"
+  },
+  {
+    "number": 97,
+    "subtopicId": "ansp_2.3",
+    "sectionTitle": "2.3 Cualidades de un buen orador",
+    "statement": "¿Qué técnica psicofisiológica es altamente recomendada para regular la ansiedad y el miedo escénico al hablar en público?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hiperventilación acelerada"
+      },
+      {
+        "key": "B",
+        "text": "Respiración diafragmática profunda y controlada"
+      },
+      {
+        "key": "C",
+        "text": "Ingerir bebidas energéticas en exceso"
+      },
+      {
+        "key": "D",
+        "text": "Hablar sin respirar"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La respiración diafragmática oxigena el cerebro, relaja el ritmo cardíaco y aporta estabilidad al flujo de la voz.",
+    "subjectId": "ansp_lenguaje",
+    "id": "ansp_q97"
+  },
+  {
+    "number": 98,
+    "subtopicId": "ansp_2.3",
+    "sectionTitle": "2.3 Cualidades de un buen orador",
+    "statement": "¿Cuál de las siguientes conductas NO constituye una cualidad de un orador eficaz y profesional?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Adaptar el mensaje al perfil del público"
+      },
+      {
+        "key": "B",
+        "text": "Uso excesivo y pedante de jerga técnica innecesaria"
+      },
+      {
+        "key": "C",
+        "text": "Manejo equilibrado de tiempos y silencios"
+      },
+      {
+        "key": "D",
+        "text": "Capacidad de escucha y modulación"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El exceso de tecnicismos oscurece las ideas y aleja a los oyentes en vez de iluminar el discurso.",
+    "subjectId": "ansp_lenguaje",
+    "id": "ansp_q98"
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "number": 1,
+    "subtopicId": "ansp_1.1",
+    "sectionTitle": "1.1 La Conquista de El Salvador",
+    "statement": "¿En qué siglo llegaron los conquistadores españoles al actual territorio de El Salvador?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Siglo XIV"
+      },
+      {
+        "key": "B",
+        "text": "Siglo XV"
+      },
+      {
+        "key": "C",
+        "text": "Siglo XVI"
+      },
+      {
+        "key": "D",
+        "text": "Siglo XVII"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Los españoles, liderados por Pedro de Alvarado, cruzaron el río Paz e iniciaron la invasión del territorio salvadoreño en junio de 1524 (Siglo XVI).",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q1"
+  },
+  {
+    "number": 2,
+    "subtopicId": "ansp_1.2",
+    "sectionTitle": "1.2 Época de la Independencia: Los próceres",
+    "statement": "¿En qué año se firmó el Acta de Independencia de Centroamérica de la corona española?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1811"
+      },
+      {
+        "key": "B",
+        "text": "1821"
+      },
+      {
+        "key": "C",
+        "text": "1824"
+      },
+      {
+        "key": "D",
+        "text": "1841"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La firma de la Independencia de las provincias centroamericanas tuvo lugar el 15 de septiembre de 1821 en la Ciudad de Guatemala.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q2"
+  },
+  {
+    "number": 3,
+    "subtopicId": "ansp_1.1",
+    "sectionTitle": "1.1 La Conquista de El Salvador",
+    "statement": "¿Quién lideró la expedición militar española de conquista en El Salvador en 1524?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hernán Cortés"
+      },
+      {
+        "key": "B",
+        "text": "Pedro de Alvarado"
+      },
+      {
+        "key": "C",
+        "text": "Cristóbal Colón"
+      },
+      {
+        "key": "D",
+        "text": "Francisco Pizarro"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El capitán español Pedro de Alvarado fue enviado por Hernán Cortés hacia el sur, dirigiendo la conquista del Señorío de Cuzcatlán en 1524.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q3"
+  },
+  {
+    "number": 4,
+    "subtopicId": "ansp_1.2",
+    "sectionTitle": "1.2 Época de la Independencia: Los próceres",
+    "statement": "¿Qué prócer salvadoreño es reconocido históricamente como el \"Padre de la Patria\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "José Simeón Cañas"
+      },
+      {
+        "key": "B",
+        "text": "Manuel José Arce"
+      },
+      {
+        "key": "C",
+        "text": "José Matías Delgado"
+      },
+      {
+        "key": "D",
+        "text": "Pedro Pablo Castillo"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "El presbítero y doctor José Matías Delgado encabezó el movimiento insurreccional de 1811 y es considerado el Padre de la Patria salvadoreña.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q4"
+  },
+  {
+    "number": 5,
+    "subtopicId": "ansp_1.3",
+    "sectionTitle": "1.3 Insurrección de Anastasio Aquino y Los Nonualcos",
+    "statement": "¿Qué acontecimiento histórico lideró Anastasio Aquino en El Salvador en 1833?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La firma de la primera constitución"
+      },
+      {
+        "key": "B",
+        "text": "Una rebelión indígena y campesina de los Nonualcos"
+      },
+      {
+        "key": "C",
+        "text": "El derrocamiento del gobierno colonial"
+      },
+      {
+        "key": "D",
+        "text": "La fundación del ejército salvadoreño"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Anastasio Aquino encabezó la insurrección de las comunidades indígenas Nonualcas contra los abusos fiscales y el despojo de tierras comunales en 1833.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q5"
+  },
+  {
+    "number": 6,
+    "subtopicId": "ansp_1.3",
+    "sectionTitle": "1.3 Insurrección de Anastasio Aquino y Los Nonualcos",
+    "statement": "¿En qué departamento salvadoreño se desarrolló principalmente la Insurrección de los Nonualcos liderada por Anastasio Aquino?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Santa Ana"
+      },
+      {
+        "key": "B",
+        "text": "La Paz"
+      },
+      {
+        "key": "C",
+        "text": "San Miguel"
+      },
+      {
+        "key": "D",
+        "text": "Chalatenango"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La región de los Nonualcos (Santiago Nonualco, San Pedro Nonualco y San Juan Nonualco) se localiza en el departamento de La Paz.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q6"
+  },
+  {
+    "number": 7,
+    "subtopicId": "ansp_1.8",
+    "sectionTitle": "1.8 Época de postguerra",
+    "statement": "¿Quién fue el primer presidente de la República electo democráticamente tras la firma de los Acuerdos de Paz en 1994?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Alfredo Cristiani"
+      },
+      {
+        "key": "B",
+        "text": "Armando Calderón Sol"
+      },
+      {
+        "key": "C",
+        "text": "Francisco Flores"
+      },
+      {
+        "key": "D",
+        "text": "Mauricio Funes"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Armando Calderón Sol ganó las elecciones presidenciales de 1994, conocidas como los 'comicios del siglo' por la primera participación electoral del FMLN desmovilizado.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q7"
+  },
+  {
+    "number": 8,
+    "subtopicId": "ansp_1.5",
+    "sectionTitle": "1.5 La Guerra de las 100 Horas",
+    "statement": "¿Contra qué país vecino libró El Salvador el conflicto armado conocido como la \"Guerra de las 100 Horas\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Guatemala"
+      },
+      {
+        "key": "B",
+        "text": "Nicaragua"
+      },
+      {
+        "key": "C",
+        "text": "Honduras"
+      },
+      {
+        "key": "D",
+        "text": "Costa Rica"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "El conflicto bélico de julio de 1969 enfrentó a los ejércitos de El Salvador y Honduras durante aproximadamente cuatro días (100 horas).",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q8"
+  },
+  {
+    "number": 9,
+    "subtopicId": "ansp_1.5",
+    "sectionTitle": "1.5 La Guerra de las 100 Horas",
+    "statement": "¿Qué factores principales desencadenaron la Guerra de las 100 Horas entre El Salvador y Honduras en 1969?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Disputas por el canal interoceánico"
+      },
+      {
+        "key": "B",
+        "text": "Tensiones migratorias y agrarias exacerbadas por partidos de fútbol eliminatorios"
+      },
+      {
+        "key": "C",
+        "text": "Invasión de tropas estadounidenses"
+      },
+      {
+        "key": "D",
+        "text": "Diferendos ideológicos de la Guerra Fría"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La expulsión forzada de campesinos salvadoreños por la reforma agraria hondureña y la violencia desatada en los partidos de eliminatorias mundialistas causaron la guerra.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q9"
+  },
+  {
+    "number": 10,
+    "subtopicId": "ansp_1.6",
+    "sectionTitle": "1.6 El Conflicto Armado de El Salvador",
+    "statement": "¿Cuántos años duró formalmente la Guerra Civil salvadoreña (1980–1992)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "8 años"
+      },
+      {
+        "key": "B",
+        "text": "10 años"
+      },
+      {
+        "key": "C",
+        "text": "12 años"
+      },
+      {
+        "key": "D",
+        "text": "15 años"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "El conflicto armado interno abarcó exactamente 12 años, desde su estallido generalizado en 1980 hasta la firma de la paz en enero de 1992.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q10"
+  },
+  {
+    "number": 11,
+    "subtopicId": "ansp_1.6",
+    "sectionTitle": "1.6 El Conflicto Armado de El Salvador",
+    "statement": "¿Qué trágico acontecimiento en 1980 marcó el inicio y la radicalización del Conflicto Armado salvadoreño?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La caída de la Junta de Gobierno"
+      },
+      {
+        "key": "B",
+        "text": "El asesinato de Monseñor Óscar Arnulfo Romero"
+      },
+      {
+        "key": "C",
+        "text": "La ofensiva guerrillera 'Hasta el Tope'"
+      },
+      {
+        "key": "D",
+        "text": "El golpe de Estado de 1979"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El magnicidio del Arzobispo de San Salvador, Monseñor Romero, el 24 de marzo de 1980, cerró los espacios de diálogo pacífico y detonó la guerra abierta.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q11"
+  },
+  {
+    "number": 12,
+    "subtopicId": "ansp_1.6",
+    "sectionTitle": "1.6 El Conflicto Armado de El Salvador",
+    "statement": "¿Cuál fue la principal coalición insurgente que combatió a las fuerzas gubernamentales durante el conflicto armado salvadoreño?",
+    "options": [
+      {
+        "key": "A",
+        "text": "FSLN"
+      },
+      {
+        "key": "B",
+        "text": "FMLN"
+      },
+      {
+        "key": "C",
+        "text": "URNG"
+      },
+      {
+        "key": "D",
+        "text": "Contras"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El Frente Farabundo Martí para la Liberación Nacional (FMLN) se fundó en octubre de 1980 como alianza de cinco organizaciones guerrilleras.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q12"
+  },
+  {
+    "number": 13,
+    "subtopicId": "ansp_1.6",
+    "sectionTitle": "1.6 El Conflicto Armado de El Salvador",
+    "statement": "¿Cuál de las siguientes organizaciones paramilitares gubernamentales NO formó parte del FMLN?",
+    "options": [
+      {
+        "key": "A",
+        "text": "FPL (Fuerzas Populares de Liberación)"
+      },
+      {
+        "key": "B",
+        "text": "ERP (Ejército Revolucionario del Pueblo)"
+      },
+      {
+        "key": "C",
+        "text": "ORDEN (Organización Democrática Nacionalista)"
+      },
+      {
+        "key": "D",
+        "text": "RN (Resistencia Nacional)"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "ORDEN fue una organización paramilitar progubernamental y de inteligencia rural creada por el gobierno militar en la década de 1960.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q13"
+  },
+  {
+    "number": 14,
+    "subtopicId": "ansp_1.7",
+    "sectionTitle": "1.7 Los Acuerdos de Paz",
+    "statement": "¿En qué año se firmaron los históricos Acuerdos de Paz que pusieron fin a la guerra civil salvadoreña?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1989"
+      },
+      {
+        "key": "B",
+        "text": "1990"
+      },
+      {
+        "key": "C",
+        "text": "1992"
+      },
+      {
+        "key": "D",
+        "text": "1994"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Los Acuerdos de Paz definitivos fueron suscritos el 16 de enero de 1992.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q14"
+  },
+  {
+    "number": 15,
+    "subtopicId": "ansp_1.7",
+    "sectionTitle": "1.7 Los Acuerdos de Paz",
+    "statement": "¿En qué ciudad se firmaron solemnemente los Acuerdos de Paz de El Salvador el 16 de enero de 1992?",
+    "options": [
+      {
+        "key": "A",
+        "text": "San José, Costa Rica"
+      },
+      {
+        "key": "B",
+        "text": "Ginebra, Suiza"
+      },
+      {
+        "key": "C",
+        "text": "Ciudad de México (Castillo de Chapultepec)"
+      },
+      {
+        "key": "D",
+        "text": "Nueva York, EE. UU."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "La ceremonia oficial de suscripción se celebró en el Castillo de Chapultepec, Ciudad de México, con mediación de la ONU.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q15"
+  },
+  {
+    "number": 16,
+    "subtopicId": "ansp_1.4",
+    "sectionTitle": "1.4 Presidentes de El Salvador",
+    "statement": "¿Quién era el presidente constitucional de El Salvador durante la firma de los Acuerdos de Paz en 1992?",
+    "options": [
+      {
+        "key": "A",
+        "text": "José Napoleón Duarte"
+      },
+      {
+        "key": "B",
+        "text": "Alfredo Cristiani Burkard"
+      },
+      {
+        "key": "C",
+        "text": "Armando Calderón Sol"
+      },
+      {
+        "key": "D",
+        "text": "Álvaro Magaña"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El Lic. Alfredo Cristiani gobernó de 1989 a 1994 y encabezó el proceso negociador del Estado con la guerrilla.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q16"
+  },
+  {
+    "number": 17,
+    "subtopicId": "ansp_1.7",
+    "sectionTitle": "1.7 Los Acuerdos de Paz",
+    "statement": "En el marco de los Acuerdos de Paz de 1992, ¿qué organismo se creó para investigar los más graves crímenes y violaciones a derechos humanos?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Corte Penal Internacional"
+      },
+      {
+        "key": "B",
+        "text": "Comisión de la Verdad para El Salvador"
+      },
+      {
+        "key": "C",
+        "text": "Tribunal Supremo de Justicia"
+      },
+      {
+        "key": "D",
+        "text": "Ministerio de Seguridad Pública"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La Comisión de la Verdad para El Salvador investigó graves hechos de violencia y publicó en 1993 el informe 'De la Locura a la Esperanza'.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q17"
+  },
+  {
+    "number": 18,
+    "subtopicId": "ansp_1.8",
+    "sectionTitle": "1.8 Época de postguerra",
+    "statement": "¿Qué fenómeno delictivo organizado surgió e impactó fuertemente la seguridad salvadoreña en la época de postguerra?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bandolerismo rural decimonónico"
+      },
+      {
+        "key": "B",
+        "text": "Pandillas o maras transnacionales"
+      },
+      {
+        "key": "C",
+        "text": "Cárteles de piratería marítima"
+      },
+      {
+        "key": "D",
+        "text": "Contrabando colonial"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Tras la posguerra y las masivas deportaciones desde EE. UU., las pandillas (MS-13 y Barrio 18) crecieron convirtiéndose en la mayor amenaza a la seguridad.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q18"
+  },
+  {
+    "number": 19,
+    "subtopicId": "ansp_1.8",
+    "sectionTitle": "1.8 Época de postguerra",
+    "statement": "¿Qué instituto político alcanzó la presidencia de la República por primera vez en las elecciones de 2009?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ARENA"
+      },
+      {
+        "key": "B",
+        "text": "PDC"
+      },
+      {
+        "key": "C",
+        "text": "FMLN"
+      },
+      {
+        "key": "D",
+        "text": "GANA"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "El FMLN venció en los comicios presidenciales de 2009 llevando a la presidencia a Carlos Mauricio Funes Cartagena.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q19"
+  },
+  {
+    "number": 20,
+    "subtopicId": "ansp_1.4",
+    "sectionTitle": "1.4 Presidentes de El Salvador",
+    "statement": "¿Quién ejerce la presidencia de la República de El Salvador para el período 2024–2029?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Salvador Sánchez Cerén"
+      },
+      {
+        "key": "B",
+        "text": "Nayib Armando Bukele Ortez"
+      },
+      {
+        "key": "C",
+        "text": "Félix Ulloa"
+      },
+      {
+        "key": "D",
+        "text": "Ernesto Castro"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Nayib Bukele fue reelecto en las elecciones generales de febrero de 2024 para gobernar en el quinquenio 2024–2029.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q20"
+  },
+  {
+    "number": 21,
+    "subtopicId": "ansp_1.8",
+    "sectionTitle": "1.8 Época de postguerra",
+    "statement": "¿Qué mandatario salvadoreño implementó la estrategia de seguridad denominada \"Plan Control Territorial\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Antonio Saca"
+      },
+      {
+        "key": "B",
+        "text": "Mauricio Funes"
+      },
+      {
+        "key": "C",
+        "text": "Salvador Sánchez Cerén"
+      },
+      {
+        "key": "D",
+        "text": "Nayib Bukele"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "El presidente Nayib Bukele lanzó el Plan Control Territorial en junio de 2019 para recuperar el control de territorios bajo asedio delictivo.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q21"
+  },
+  {
+    "number": 22,
+    "subtopicId": "ansp_1.8",
+    "sectionTitle": "1.8 Época de postguerra",
+    "statement": "Tras la histórica reducción de los índices de homicidios, ¿qué área es señalada como la principal prioridad nacional para El Salvador?",
+    "options": [
+      {
+        "key": "A",
+        "text": "El problema económico (costo de vida y empleo)"
+      },
+      {
+        "key": "B",
+        "text": "La demarcación fronteriza"
+      },
+      {
+        "key": "C",
+        "text": "El reclutamiento militar obligatorio"
+      },
+      {
+        "key": "D",
+        "text": "La exploración aeroespacial"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Resuelto el control territorial de la violencia, los estudios de opinión y el gobierno coinciden en que la economía y generación de empleo son la prioridad central.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q22"
+  },
+  {
+    "number": 23,
+    "subtopicId": "ansp_1.1",
+    "sectionTitle": "1.1 La Conquista de El Salvador",
+    "statement": "¿Qué pueblo originario presentó la más férrea y prolongada resistencia contra la invasión de Pedro de Alvarado?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Incas"
+      },
+      {
+        "key": "B",
+        "text": "Pipiles (Cuzcatlecos)"
+      },
+      {
+        "key": "C",
+        "text": "Toltecas de México"
+      },
+      {
+        "key": "D",
+        "text": "Guaraníes"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Los pipiles o cuzcatlecos resistieron ferozmente a las huestes invasoras en batallas emblemáticas como Acajutla y Tacuzcalco.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q23"
+  },
+  {
+    "number": 24,
+    "subtopicId": "ansp_1.1",
+    "sectionTitle": "1.1 La Conquista de El Salvador",
+    "statement": "¿En qué célebre batalla de 1524 los guerreros pipiles hirieron gravemente en una pierna a Pedro de Alvarado?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Batalla de Otumba"
+      },
+      {
+        "key": "B",
+        "text": "Batalla de Acajutla"
+      },
+      {
+        "key": "C",
+        "text": "Batalla de Grijalva"
+      },
+      {
+        "key": "D",
+        "text": "Batalla del Golfo"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "En Acajutla (junio de 1524), un flechazo indígena atravesó el muslo de Pedro de Alvarado, dejándolo con cojera permanente por el resto de su vida.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q24"
+  },
+  {
+    "number": 25,
+    "subtopicId": "ansp_1.3",
+    "sectionTitle": "1.3 Insurrección de Anastasio Aquino y Los Nonualcos",
+    "statement": "¿Qué líder indígena fue capturado en San Vicente y ejecutado por el gobierno en 1833 tras encabezar la rebelión de los Nonualcos?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Atlacatl"
+      },
+      {
+        "key": "B",
+        "text": "Atonal"
+      },
+      {
+        "key": "C",
+        "text": "Anastasio Aquino"
+      },
+      {
+        "key": "D",
+        "text": "Feliciano Ama"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Anastasio Aquino fue traicionado, capturado y posteriormente fusilado y decapitado en julio de 1833 por las fuerzas gubernamentales.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q25"
+  },
+  {
+    "number": 26,
+    "subtopicId": "ansp_1.2",
+    "sectionTitle": "1.2 Época de la Independencia: Los próceres",
+    "statement": "¿En qué año se decretó la abolición total de la esclavitud en las Provincias Unidas de Centroamérica?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1811"
+      },
+      {
+        "key": "B",
+        "text": "1821"
+      },
+      {
+        "key": "C",
+        "text": "1824"
+      },
+      {
+        "key": "D",
+        "text": "1850"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "En 1824, por iniciativa de José Simeón Cañas en la Asamblea Constituyente, Centroamérica se convirtió en una de las primeras regiones del mundo en abolir la esclavitud.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q26"
+  },
+  {
+    "number": 27,
+    "subtopicId": "ansp_1.2",
+    "sectionTitle": "1.2 Época de la Independencia: Los próceres",
+    "statement": "¿Quién fue investido como el primer obispo de San Salvador tras la independencia?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Óscar Arnulfo Romero"
+      },
+      {
+        "key": "B",
+        "text": "José Matías Delgado"
+      },
+      {
+        "key": "C",
+        "text": "Luis Chávez y González"
+      },
+      {
+        "key": "D",
+        "text": "Arturo Rivera Damas"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El presbítero José Matías Delgado fue nombrado en 1824 por el Congreso local como primer obispo de la naciente diócesis de San Salvador.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q27"
+  },
+  {
+    "number": 28,
+    "subtopicId": "ansp_1.4",
+    "sectionTitle": "1.4 Presidentes de El Salvador",
+    "statement": "¿Qué general y presidente provisional salvadoreño fue derrocado en octubre de 1944 tras haber asumido luego de la renuncia de Maximiliano Hernández Martínez?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Andrés Ignacio Menéndez"
+      },
+      {
+        "key": "B",
+        "text": "Osmín Aguirre y Salinas"
+      },
+      {
+        "key": "C",
+        "text": "Salvador Castaneda Castro"
+      },
+      {
+        "key": "D",
+        "text": "Julio Adalberto Rivera"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El general Andrés Ignacio Menéndez asumió en mayo de 1944 y fue derrocado meses después por el coronel Osmín Aguirre.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q28"
+  },
+  {
+    "number": 29,
+    "subtopicId": "ansp_1.4",
+    "sectionTitle": "1.4 Presidentes de El Salvador",
+    "statement": "¿En qué año ocurrió el trágico levantamiento campesino e indígena y su posterior masacre estatal conocida como \"La Matanza\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1922"
+      },
+      {
+        "key": "B",
+        "text": "1932"
+      },
+      {
+        "key": "C",
+        "text": "1944"
+      },
+      {
+        "key": "D",
+        "text": "1969"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "En enero de 1932, bajo la dictadura del general Maximiliano Hernández Martínez, miles de indígenas y campesinos fueron masacrados en el occidente del país.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q29"
+  },
+  {
+    "number": 30,
+    "subtopicId": "ansp_1.4",
+    "sectionTitle": "1.4 Presidentes de El Salvador",
+    "statement": "¿Qué mandatario salvadoreño inauguró tramos fundamentales de la Carretera Panamericana en el país durante su gobierno (1956–1960)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fidel Sánchez Hernández"
+      },
+      {
+        "key": "B",
+        "text": "José María Lemus"
+      },
+      {
+        "key": "C",
+        "text": "Arturo Armando Molina"
+      },
+      {
+        "key": "D",
+        "text": "Carlos Humberto Romero"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El teniente coronel José María Lemus inauguró importantes obras de interconexión vial en la Carretera Panamericana y la Carretera del Litoral.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q30"
+  },
+  {
+    "number": 31,
+    "subtopicId": "ansp_1.6",
+    "sectionTitle": "1.6 El Conflicto Armado de El Salvador",
+    "statement": "¿Qué potencia extranjera proveyó mayor financiamiento, asesoría y armamento al gobierno salvadoreño durante el conflicto armado?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Unión Soviética"
+      },
+      {
+        "key": "B",
+        "text": "Estados Unidos"
+      },
+      {
+        "key": "C",
+        "text": "Francia"
+      },
+      {
+        "key": "D",
+        "text": "China"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Estados Unidos otorgó miles de millones de dólares en asistencia económica y bélica a las Fuerzas Armadas de El Salvador durante la década de 1980.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q31"
+  },
+  {
+    "number": 32,
+    "subtopicId": "ansp_1.6",
+    "sectionTitle": "1.6 El Conflicto Armado de El Salvador",
+    "statement": "¿Qué país caribeño brindó apoyo político, logístico y entrenamiento doctrinario a las fuerzas guerrilleras del FMLN?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Jamaica"
+      },
+      {
+        "key": "B",
+        "text": "República Dominicana"
+      },
+      {
+        "key": "C",
+        "text": "Cuba"
+      },
+      {
+        "key": "D",
+        "text": "Puerto Rico"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "El régimen cubano facilitó adiestramiento, atención médica a heridos y coordinación política a los comandantes insurgentes del FMLN.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q32"
+  },
+  {
+    "number": 33,
+    "subtopicId": "ansp_1.6",
+    "sectionTitle": "1.6 El Conflicto Armado de El Salvador",
+    "statement": "¿Qué porcentaje aproximado de la población total salvadoreña de la época se estima que pereció a causa de la Guerra Civil?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Alrededor del 2% (aprox. 75,000 vidas)"
+      },
+      {
+        "key": "B",
+        "text": "Cerca del 10%"
+      },
+      {
+        "key": "C",
+        "text": "Menos del 0.1%"
+      },
+      {
+        "key": "D",
+        "text": "Aproximadamente el 15%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Con una población de unos 4.5 millones en los años ochenta, las más de 75,000 víctimas mortales representaron alrededor del 2% de la población del país.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q33"
+  },
+  {
+    "number": 34,
+    "subtopicId": "ansp_1.7",
+    "sectionTitle": "1.7 Los Acuerdos de Paz",
+    "statement": "¿Qué hecho y lugar solemne simbolizó la culminación de las negociaciones de paz en 1992?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La firma en el Castillo de Chapultepec"
+      },
+      {
+        "key": "B",
+        "text": "La reunión en Ginebra"
+      },
+      {
+        "key": "C",
+        "text": "El pacto de La Palma"
+      },
+      {
+        "key": "D",
+        "text": "La cumbre de Esquipulas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La firma solemne en Chapultepec quedó consagrada como el gran hito simbólico de la reconciliación y fin de la guerra.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q34"
+  },
+  {
+    "number": 35,
+    "subtopicId": "ansp_1.8",
+    "sectionTitle": "1.8 Época de postguerra",
+    "statement": "¿Qué sector económico creció exponencialmente en El Salvador tras la firma de la paz, transformando el modelo agrario tradicional?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sector minero pesado"
+      },
+      {
+        "key": "B",
+        "text": "Sector servicios, comercio y flujo de remesas familiares"
+      },
+      {
+        "key": "C",
+        "text": "Exportación algodonera"
+      },
+      {
+        "key": "D",
+        "text": "Industria aeroespacial"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La masiva migración exterior consolidó las remesas familiares como motor del consumo y disparó el crecimiento del sector servicios financiero y comercial.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q35"
+  },
+  {
+    "number": 36,
+    "subtopicId": "ansp_1.8",
+    "sectionTitle": "1.8 Época de postguerra",
+    "statement": "¿En qué año entró en vigencia la Ley de Integración Monetaria que adoptó el dólar estadounidense como moneda de curso legal?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1992"
+      },
+      {
+        "key": "B",
+        "text": "1998"
+      },
+      {
+        "key": "C",
+        "text": "2001"
+      },
+      {
+        "key": "D",
+        "text": "2009"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "El 1 de enero de 2001 entró en vigor la dolarización de la economía salvadoreña a un tipo de cambio fijo de 8.75 colones por dólar.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q36"
+  },
+  {
+    "number": 37,
+    "subtopicId": "ansp_1.8",
+    "sectionTitle": "1.8 Época de postguerra",
+    "statement": "¿Qué devastador huracán golpeó a El Salvador y Centroamérica a finales de 1998 provocando graves inundaciones y deslaves?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Huracán Katrina"
+      },
+      {
+        "key": "B",
+        "text": "Huracán Mitch"
+      },
+      {
+        "key": "C",
+        "text": "Huracán Fifi"
+      },
+      {
+        "key": "D",
+        "text": "Tormenta Stan"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El huracán Mitch (octubre-noviembre de 1998) causó centenares de muertes y pérdidas multimillonarias en la infraestructura de la región.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q37"
+  },
+  {
+    "number": 38,
+    "subtopicId": "ansp_1.8",
+    "sectionTitle": "1.8 Época de postguerra",
+    "statement": "¿En qué año ocurrieron dos devastadores terremotos de gran magnitud (enero y febrero) que destruyeron miles de viviendas salvadoreñas?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1986"
+      },
+      {
+        "key": "B",
+        "text": "1998"
+      },
+      {
+        "key": "C",
+        "text": "2001"
+      },
+      {
+        "key": "D",
+        "text": "2011"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "El 13 de enero (con el trágico deslave en Las Colinas, Santa Tecla) y el 13 de febrero de 2001 marcaron dos catástrofes sísmicas nacionales.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q38"
+  },
+  {
+    "number": 39,
+    "subtopicId": "ansp_1.8",
+    "sectionTitle": "1.8 Época de postguerra",
+    "statement": "¿En qué año aprobó la Asamblea Legislativa salvadoreña el Régimen de Excepción para combatir a las estructuras terroristas y pandillas?",
+    "options": [
+      {
+        "key": "A",
+        "text": "2019"
+      },
+      {
+        "key": "B",
+        "text": "2020"
+      },
+      {
+        "key": "C",
+        "text": "2021"
+      },
+      {
+        "key": "D",
+        "text": "2022"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "El Régimen de Excepción fue decretado el 27 de marzo de 2022, facultando detenciones masivas y el desmantelamiento de las maras.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q39"
+  },
+  {
+    "number": 40,
+    "subtopicId": "ansp_1.7",
+    "sectionTitle": "1.7 Los Acuerdos de Paz",
+    "statement": "¿Qué presidente centroamericano recibió el Premio Nobel de la Paz en 1987 por impulsar los Acuerdos de Esquipulas para pacificar El Salvador y la región?",
+    "options": [
+      {
+        "key": "A",
+        "text": "José Napoleón Duarte"
+      },
+      {
+        "key": "B",
+        "text": "Óscar Arias Sánchez (Costa Rica)"
+      },
+      {
+        "key": "C",
+        "text": "Vinicio Cerezo"
+      },
+      {
+        "key": "D",
+        "text": "Daniel Ortega"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El mandatario costarricense Óscar Arias Sánchez recibió el Nobel por su plan de paz regional para Centroamérica en 1987.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q40"
+  },
+  {
+    "number": 41,
+    "subtopicId": "ansp_1.8",
+    "sectionTitle": "1.8 Época de postguerra",
+    "statement": "¿Qué gran arteria vial de conectividad interdepartamental fue inaugurada en 2012 con fondos de la Corporación del Reto del Milenio?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Carretera del Litoral"
+      },
+      {
+        "key": "B",
+        "text": "Carretera Longitudinal del Norte"
+      },
+      {
+        "key": "C",
+        "text": "Bulevar Monseñor Romero"
+      },
+      {
+        "key": "D",
+        "text": "Autopista a Comalapa"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La Carretera Longitudinal del Norte integró comunidades históricamente aisladas en los departamentos de la franja norte del país.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q41"
+  },
+  {
+    "number": 42,
+    "subtopicId": "ansp_1.2",
+    "sectionTitle": "1.2 Época de la Independencia: Los próceres",
+    "statement": "¿En qué año proclamó El Salvador su separación definitiva y soberana de la República Federal de Centroamérica?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1821"
+      },
+      {
+        "key": "B",
+        "text": "1838"
+      },
+      {
+        "key": "C",
+        "text": "1841"
+      },
+      {
+        "key": "D",
+        "text": "1856"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "El Salvador se declaró formalmente República independiente, libre y soberana en febrero de 1841 al disolverse la Federación.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q42"
+  },
+  {
+    "number": 43,
+    "subtopicId": "ansp_1.5",
+    "sectionTitle": "1.5 La Guerra de las 100 Horas",
+    "statement": "¿Qué instrumento jurídico internacional definió los límites territoriales y áreas de controversia (\"bolsones\") entre El Salvador y Honduras en 1992?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tratado de Paz de Lima"
+      },
+      {
+        "key": "B",
+        "text": "Fallo de la Corte Internacional de Justicia de La Haya (Tratado de Límites)"
+      },
+      {
+        "key": "C",
+        "text": "Pacto de San Salvador"
+      },
+      {
+        "key": "D",
+        "text": "Convenio de Tegucigalpa"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "En septiembre de 1992 la Corte de La Haya emitió la sentencia que delimitó la frontera terrestre y las zonas en disputa.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q43"
+  },
+  {
+    "number": 44,
+    "subtopicId": "ansp_1.6",
+    "sectionTitle": "1.6 El Conflicto Armado de El Salvador",
+    "statement": "¿Qué efervescencia sociopolítica caracterizó el panorama salvadoreño durante la década de 1970 previo a la guerra civil?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surgimiento masivo de organizaciones populares, gremiales y células político-militares"
+      },
+      {
+        "key": "B",
+        "text": "Periodo de completa estabilidad y desmilitarización"
+      },
+      {
+        "key": "C",
+        "text": "Abolición del ejército"
+      },
+      {
+        "key": "D",
+        "text": "Guerra con Guatemala"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las manifestaciones callejeras obrero-campesinas, fraudes electorales de 1972 y 1977 y el nacimiento de las organizaciones armadas definieron los años setenta.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q44"
+  },
+  {
+    "number": 45,
+    "subtopicId": "ansp_1.4",
+    "sectionTitle": "1.4 Presidentes de El Salvador",
+    "statement": "¿Qué emblemática central hidroeléctrica fue inaugurada en 1954 sobre el río Lempa bajo la presidencia del Tte. Cnel. Óscar Osorio?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Presa Cerrón Grande"
+      },
+      {
+        "key": "B",
+        "text": "Central Hidroeléctrica 5 de Noviembre (Chorrera del Guayabo)"
+      },
+      {
+        "key": "C",
+        "text": "Presa 15 de Septiembre"
+      },
+      {
+        "key": "D",
+        "text": "Central 3 de Febrero (El Chaparral)"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La Presa 5 de Noviembre fue la primera gran central hidroeléctrica de El Salvador, impulsando la modernización e industrialización del país.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q45"
+  },
+  {
+    "number": 46,
+    "subtopicId": "ansp_1.4",
+    "sectionTitle": "1.4 Presidentes de El Salvador",
+    "statement": "¿En qué año se fundó la Universidad de El Salvador (UES), el centro de educación superior más antiguo del país?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1821"
+      },
+      {
+        "key": "B",
+        "text": "1841"
+      },
+      {
+        "key": "C",
+        "text": "1886"
+      },
+      {
+        "key": "D",
+        "text": "1905"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La Universidad de El Salvador fue fundada el 16 de febrero de 1841 por decreto de la Asamblea Constituyente bajo la presidencia de Juan Lindo.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q46"
+  },
+  {
+    "number": 47,
+    "subtopicId": "ansp_1.4",
+    "sectionTitle": "1.4 Presidentes de El Salvador",
+    "statement": "¿Qué trascendental institución de seguridad social y salud pública fue creada durante la gestión del presidente Óscar Osorio (1950–1956)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ministerio de Hacienda"
+      },
+      {
+        "key": "B",
+        "text": "Instituto Salvadoreño del Seguro Social (ISSS)"
+      },
+      {
+        "key": "C",
+        "text": "Banco Central de Reserva"
+      },
+      {
+        "key": "D",
+        "text": "Fondo Social para la Vivienda"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El ISSS fue fundado e implementado a partir de la Constitución de 1950 bajo la política social de Óscar Osorio.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q47"
+  },
+  {
+    "number": 48,
+    "subtopicId": "ansp_1.8",
+    "sectionTitle": "1.8 Época de postguerra",
+    "statement": "¿En qué siglo se consolidó el cultivo del café como el principal producto agroexportador de la economía salvadoreña?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Siglo XVII"
+      },
+      {
+        "key": "B",
+        "text": "Siglo XVIII"
+      },
+      {
+        "key": "C",
+        "text": "Siglo XIX"
+      },
+      {
+        "key": "D",
+        "text": "Siglo XXI"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "En la segunda mitad del siglo XIX, con las reformas liberales del presidente Rafael Zaldívar, el café sustituyó al añil como base de la economía.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q48"
+  },
+  {
+    "number": 49,
+    "subtopicId": "ansp_1.4",
+    "sectionTitle": "1.4 Presidentes de El Salvador",
+    "statement": "¿Qué gobierno decretó la nacionalización de la banca y la reforma agraria en marzo de 1980?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maximiliano Hernández Martínez"
+      },
+      {
+        "key": "B",
+        "text": "Junta Revolucionaria de Gobierno"
+      },
+      {
+        "key": "C",
+        "text": "Alfredo Cristiani"
+      },
+      {
+        "key": "D",
+        "text": "Armando Calderón Sol"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La Junta Revolucionaria de Gobierno surgida tras el golpe de 1979 nacionalizó la banca y el comercio exterior del café en marzo de 1980.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q49"
+  },
+  {
+    "number": 50,
+    "subtopicId": "ansp_1.2",
+    "sectionTitle": "1.2 Época de la Independencia: Los próceres",
+    "statement": "¿Qué gesta popular y patriótica es reconocida como el \"Primer Grito de Independencia\" de Centroamérica?",
+    "options": [
+      {
+        "key": "A",
+        "text": "El alzamiento del 5 de noviembre de 1811 en San Salvador"
+      },
+      {
+        "key": "B",
+        "text": "La batalla de San Jacinto en 1856"
+      },
+      {
+        "key": "C",
+        "text": "La conspiración de Belén en 1813"
+      },
+      {
+        "key": "D",
+        "text": "La toma de Granada en 1823"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El alzamiento encabezado por José Matías Delgado, Manuel José Arce y los hermanos Aguilar el 5 de noviembre de 1811 es el Primer Grito de Independencia.",
+    "subjectId": "ansp_historia",
+    "id": "ansp_q50"
+  }
+]

@@ -1,0 +1,254 @@
+[
+  {
+    "number": 151,
+    "subtopicId": "ansp_5.1",
+    "sectionTitle": "5.1 Impuesto al Valor Agregado (IVA)",
+    "statement": "¿Cuál es la tasa porcentual general vigente que se aplica al Impuesto al Valor Agregado (IVA) en El Salvador?",
+    "options": [
+      {
+        "key": "A",
+        "text": "10%"
+      },
+      {
+        "key": "B",
+        "text": "12%"
+      },
+      {
+        "key": "C",
+        "text": "13%"
+      },
+      {
+        "key": "D",
+        "text": "15%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "La Ley de Impuesto a la Transferencia de Bienes Muebles y a la Prestación de Servicios establece una tasa impositiva general del 13%.",
+    "subjectId": "ansp_economia",
+    "id": "ansp_q151"
+  },
+  {
+    "number": 152,
+    "subtopicId": "ansp_5.1",
+    "sectionTitle": "5.1 Impuesto al Valor Agregado (IVA)",
+    "statement": "¿Qué tipo de gravamen indirecto representa la tasa del 13% en la adquisición de bienes de consumo en El Salvador?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tasa fija general del IVA"
+      },
+      {
+        "key": "B",
+        "text": "Impuesto sobre la Renta"
+      },
+      {
+        "key": "C",
+        "text": "Arancel de aduanas"
+      },
+      {
+        "key": "D",
+        "text": "Impuesto territorial"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El 13% es la alícuota general del IVA aplicada a la mayoría de transacciones comerciales de consumo en el país.",
+    "subjectId": "ansp_economia",
+    "id": "ansp_q152"
+  },
+  {
+    "number": 153,
+    "subtopicId": "ansp_5.1",
+    "sectionTitle": "5.1 Impuesto al Valor Agregado (IVA)",
+    "statement": "¿Qué operaciones comerciales y productos cuentan con tasa preferencial del 0% o exención expresa de IVA en El Salvador?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Exportaciones, medicinas esenciales y productos de canasta básica exentos"
+      },
+      {
+        "key": "B",
+        "text": "Vehículos de lujo"
+      },
+      {
+        "key": "C",
+        "text": "Bebidas alcohólicas importadas"
+      },
+      {
+        "key": "D",
+        "text": "Telefonía celular corporativa"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las exportaciones tienen tasa cero y ciertos medicamentos y productos agropecuarios primarios gozan de exención fiscal legal.",
+    "subjectId": "ansp_economia",
+    "id": "ansp_q153"
+  },
+  {
+    "number": 154,
+    "subtopicId": "ansp_5.2",
+    "sectionTitle": "5.2 Índice de pobreza en El Salvador",
+    "statement": "Desde el punto de vista socioeconómico, ¿con qué carencia primordial se relaciona la condición de pobreza monetaria de un hogar?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Falta de ingresos económicos suficientes para cubrir la Canasta Básica Alimentaria y de servicios"
+      },
+      {
+        "key": "B",
+        "text": "Ausencia de vehículos propios"
+      },
+      {
+        "key": "C",
+        "text": "Falta de entretenimiento digital"
+      },
+      {
+        "key": "D",
+        "text": "Vivir lejos de la capital"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pobreza por ingresos mide la incapacidad de un hogar de generar los recursos monetarios mínimos para adquirir los alimentos y servicios esenciales.",
+    "subjectId": "ansp_economia",
+    "id": "ansp_q154"
+  },
+  {
+    "number": 155,
+    "subtopicId": "ansp_5.2",
+    "sectionTitle": "5.2 Índice de pobreza en El Salvador",
+    "statement": "Según informes económicos de la CEPAL (2023), ¿qué porcentaje aproximado de la población salvadoreña se situaba bajo la línea de pobreza?",
+    "options": [
+      {
+        "key": "A",
+        "text": "12.4%"
+      },
+      {
+        "key": "B",
+        "text": "26.6%"
+      },
+      {
+        "key": "C",
+        "text": "45.0%"
+      },
+      {
+        "key": "D",
+        "text": "60.2%"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La CEPAL reportó para El Salvador una tasa de pobreza de aproximadamente el 26.6% en sus mediciones comparativas regionales.",
+    "subjectId": "ansp_economia",
+    "id": "ansp_q155"
+  },
+  {
+    "number": 156,
+    "subtopicId": "ansp_5.2",
+    "sectionTitle": "5.2 Índice de pobreza en El Salvador",
+    "statement": "De acuerdo con el Banco Mundial, ¿qué tasa aproximada reflejó el índice de pobreza extrema en El Salvador para el año 2023?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Alrededor del 9.3%"
+      },
+      {
+        "key": "B",
+        "text": "Menos del 1%"
+      },
+      {
+        "key": "C",
+        "text": "Más del 35%"
+      },
+      {
+        "key": "D",
+        "text": "Exactamente el 20%"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pobreza extrema en El Salvador (hogares cuyos ingresos no cubren ni siquiera la canasta alimentaria) ronda el 9.3% de la población.",
+    "subjectId": "ansp_economia",
+    "id": "ansp_q156"
+  },
+  {
+    "number": 157,
+    "subtopicId": "ansp_5.3",
+    "sectionTitle": "5.3 Sistema de pensiones AFP",
+    "statement": "¿Cuál es la función primordial de una Administradora de Fondos de Pensiones (AFP)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Conceder créditos automotrices"
+      },
+      {
+        "key": "B",
+        "text": "Administrar e invertir las cuentas de ahorro individual de los trabajadores para su futura jubilación"
+      },
+      {
+        "key": "C",
+        "text": "Cobrar los impuestos municipales"
+      },
+      {
+        "key": "D",
+        "text": "Pagar las deudas del Estado"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Las AFP gestionan los fondos acumulados por los afiliados para asegurar prestaciones por vejez, invalidez y sobrevivencia.",
+    "subjectId": "ansp_economia",
+    "id": "ansp_q157"
+  },
+  {
+    "number": 158,
+    "subtopicId": "ansp_5.3",
+    "sectionTitle": "5.3 Sistema de pensiones AFP",
+    "statement": "¿Qué significado tienen las siglas financieras AFP en el sistema de seguridad social salvadoreño?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Asociación Federal de Préstamos"
+      },
+      {
+        "key": "B",
+        "text": "Administradora de Fondos de Pensiones"
+      },
+      {
+        "key": "C",
+        "text": "Agencia Fiscal Previsional"
+      },
+      {
+        "key": "D",
+        "text": "Asamblea Financiera Pública"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "AFP corresponde a Administradora de Fondos de Pensiones, instituciones privadas supervisadas por la Superintendencia del Sistema Financiero.",
+    "subjectId": "ansp_economia",
+    "id": "ansp_q158"
+  },
+  {
+    "number": 159,
+    "subtopicId": "ansp_5.3",
+    "sectionTitle": "5.3 Sistema de pensiones AFP",
+    "statement": "¿Qué porcentaje de su salario mensual aporta obligatoriamente el trabajador al Sistema de Ahorro para Pensiones (AFP)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3.00%"
+      },
+      {
+        "key": "B",
+        "text": "5.50%"
+      },
+      {
+        "key": "C",
+        "text": "7.25%"
+      },
+      {
+        "key": "D",
+        "text": "10.00%"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "El descuento legal directo al trabajador es del 7.25% de su salario devengado, mientras que el empleador aporta el 8.75% (totalizando un 16%).",
+    "subjectId": "ansp_economia",
+    "id": "ansp_q159"
+  }
+]

@@ -1,0 +1,8722 @@
+[
+  {
+    "id": "2.1_q1",
+    "number": 1,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "árbol"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "lápiz"
+      },
+      {
+        "key": "D",
+        "text": "música"
+      },
+      {
+        "key": "E",
+        "text": "fácil"
+      },
+      {
+        "key": "F",
+        "text": "césped"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "*Cantar* es aguda (última sílaba tónica)."
+  },
+  {
+    "id": "2.1_q2",
+    "number": 2,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "mesa"
+      },
+      {
+        "key": "B",
+        "text": "reloj"
+      },
+      {
+        "key": "C",
+        "text": "silla"
+      },
+      {
+        "key": "D",
+        "text": "libro"
+      },
+      {
+        "key": "E",
+        "text": "casa"
+      },
+      {
+        "key": "F",
+        "text": "pared"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "*Reloj* es aguda."
+  },
+  {
+    "id": "2.1_q3",
+    "number": 3,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "corazón"
+      },
+      {
+        "key": "B",
+        "text": "ventana"
+      },
+      {
+        "key": "C",
+        "text": "teléfono"
+      },
+      {
+        "key": "D",
+        "text": "pájaro"
+      },
+      {
+        "key": "E",
+        "text": "cárcel"
+      },
+      {
+        "key": "F",
+        "text": "lunes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Corazón* es aguda."
+  },
+  {
+    "id": "2.1_q4",
+    "number": 4,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "papel"
+      },
+      {
+        "key": "B",
+        "text": "cuaderno"
+      },
+      {
+        "key": "C",
+        "text": "lápiz"
+      },
+      {
+        "key": "D",
+        "text": "árbol"
+      },
+      {
+        "key": "E",
+        "text": "azúcar"
+      },
+      {
+        "key": "F",
+        "text": "mármol"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Papel* es aguda."
+  },
+  {
+    "id": "2.1_q5",
+    "number": 5,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "café"
+      },
+      {
+        "key": "B",
+        "text": "mesa"
+      },
+      {
+        "key": "C",
+        "text": "silla"
+      },
+      {
+        "key": "D",
+        "text": "libro"
+      },
+      {
+        "key": "E",
+        "text": "casa"
+      },
+      {
+        "key": "F",
+        "text": "ventana"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Café* es aguda."
+  },
+  {
+    "id": "2.1_q6",
+    "number": 6,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "sofá"
+      },
+      {
+        "key": "B",
+        "text": "cama"
+      },
+      {
+        "key": "C",
+        "text": "puerta"
+      },
+      {
+        "key": "D",
+        "text": "ventana"
+      },
+      {
+        "key": "E",
+        "text": "techo"
+      },
+      {
+        "key": "F",
+        "text": "piso"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sofá* es aguda."
+  },
+  {
+    "id": "2.1_q7",
+    "number": 7,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "mamá"
+      },
+      {
+        "key": "B",
+        "text": "papá"
+      },
+      {
+        "key": "C",
+        "text": "casa"
+      },
+      {
+        "key": "D",
+        "text": "mesa"
+      },
+      {
+        "key": "E",
+        "text": "silla"
+      },
+      {
+        "key": "F",
+        "text": "libro"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mamá* es aguda."
+  },
+  {
+    "id": "2.1_q8",
+    "number": 8,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "compás"
+      },
+      {
+        "key": "B",
+        "text": "lápiz"
+      },
+      {
+        "key": "C",
+        "text": "árbol"
+      },
+      {
+        "key": "D",
+        "text": "cárcel"
+      },
+      {
+        "key": "E",
+        "text": "fácil"
+      },
+      {
+        "key": "F",
+        "text": "césped"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Compás* es aguda."
+  },
+  {
+    "id": "2.1_q9",
+    "number": 9,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "jamás"
+      },
+      {
+        "key": "B",
+        "text": "mesa"
+      },
+      {
+        "key": "C",
+        "text": "silla"
+      },
+      {
+        "key": "D",
+        "text": "libro"
+      },
+      {
+        "key": "E",
+        "text": "casa"
+      },
+      {
+        "key": "F",
+        "text": "ventana"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Jamás* es aguda."
+  },
+  {
+    "id": "2.1_q10",
+    "number": 10,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "atrás"
+      },
+      {
+        "key": "B",
+        "text": "delante"
+      },
+      {
+        "key": "C",
+        "text": "cerca"
+      },
+      {
+        "key": "D",
+        "text": "lejos"
+      },
+      {
+        "key": "E",
+        "text": "arriba"
+      },
+      {
+        "key": "F",
+        "text": "abajo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Atrás* es aguda."
+  },
+  {
+    "id": "2.1_q11",
+    "number": 11,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "después"
+      },
+      {
+        "key": "B",
+        "text": "antes"
+      },
+      {
+        "key": "C",
+        "text": "ahora"
+      },
+      {
+        "key": "D",
+        "text": "luego"
+      },
+      {
+        "key": "E",
+        "text": "siempre"
+      },
+      {
+        "key": "F",
+        "text": "nunca"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Después* es aguda."
+  },
+  {
+    "id": "2.1_q12",
+    "number": 12,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "también"
+      },
+      {
+        "key": "B",
+        "text": "tampoco"
+      },
+      {
+        "key": "C",
+        "text": "quizás"
+      },
+      {
+        "key": "D",
+        "text": "acaso"
+      },
+      {
+        "key": "E",
+        "text": "tal vez"
+      },
+      {
+        "key": "F",
+        "text": "quizá"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*También* es aguda."
+  },
+  {
+    "id": "2.1_q13",
+    "number": 13,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "canción"
+      },
+      {
+        "key": "B",
+        "text": "música"
+      },
+      {
+        "key": "C",
+        "text": "lápiz"
+      },
+      {
+        "key": "D",
+        "text": "árbol"
+      },
+      {
+        "key": "E",
+        "text": "fácil"
+      },
+      {
+        "key": "F",
+        "text": "césped"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Canción* es aguda."
+  },
+  {
+    "id": "2.1_q14",
+    "number": 14,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "razón"
+      },
+      {
+        "key": "B",
+        "text": "corazón"
+      },
+      {
+        "key": "C",
+        "text": "mesa"
+      },
+      {
+        "key": "D",
+        "text": "silla"
+      },
+      {
+        "key": "E",
+        "text": "libro"
+      },
+      {
+        "key": "F",
+        "text": "casa"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Razón* es aguda."
+  },
+  {
+    "id": "2.1_q15",
+    "number": 15,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "balón"
+      },
+      {
+        "key": "B",
+        "text": "pelota"
+      },
+      {
+        "key": "C",
+        "text": "juego"
+      },
+      {
+        "key": "D",
+        "text": "cancha"
+      },
+      {
+        "key": "E",
+        "text": "equipo"
+      },
+      {
+        "key": "F",
+        "text": "gol"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Balón* es aguda."
+  },
+  {
+    "id": "2.1_q16",
+    "number": 16,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "camión"
+      },
+      {
+        "key": "B",
+        "text": "carro"
+      },
+      {
+        "key": "C",
+        "text": "auto"
+      },
+      {
+        "key": "D",
+        "text": "moto"
+      },
+      {
+        "key": "E",
+        "text": "bus"
+      },
+      {
+        "key": "F",
+        "text": "tren"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Camión* es aguda."
+  },
+  {
+    "id": "2.1_q17",
+    "number": 17,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "avión"
+      },
+      {
+        "key": "B",
+        "text": "barco"
+      },
+      {
+        "key": "C",
+        "text": "lancha"
+      },
+      {
+        "key": "D",
+        "text": "velero"
+      },
+      {
+        "key": "E",
+        "text": "yate"
+      },
+      {
+        "key": "F",
+        "text": "bote"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Avión* es aguda."
+  },
+  {
+    "id": "2.1_q18",
+    "number": 18,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ratón"
+      },
+      {
+        "key": "B",
+        "text": "gato"
+      },
+      {
+        "key": "C",
+        "text": "perro"
+      },
+      {
+        "key": "D",
+        "text": "ratón"
+      },
+      {
+        "key": "E",
+        "text": "conejo"
+      },
+      {
+        "key": "F",
+        "text": "hámster"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ratón* es aguda."
+  },
+  {
+    "id": "2.1_q19",
+    "number": 19,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ratón"
+      },
+      {
+        "key": "B",
+        "text": "ratón"
+      },
+      {
+        "key": "C",
+        "text": "ratón"
+      },
+      {
+        "key": "D",
+        "text": "ratón"
+      },
+      {
+        "key": "E",
+        "text": "ratón"
+      },
+      {
+        "key": "F",
+        "text": "ratón"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ratón* es aguda."
+  },
+  {
+    "id": "2.1_q20",
+    "number": 20,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "jabón"
+      },
+      {
+        "key": "B",
+        "text": "agua"
+      },
+      {
+        "key": "C",
+        "text": "espuma"
+      },
+      {
+        "key": "D",
+        "text": "baño"
+      },
+      {
+        "key": "E",
+        "text": "ducha"
+      },
+      {
+        "key": "F",
+        "text": "tina"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Jabón* es aguda."
+  },
+  {
+    "id": "2.1_q21",
+    "number": 21,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "botón"
+      },
+      {
+        "key": "B",
+        "text": "camisa"
+      },
+      {
+        "key": "C",
+        "text": "pantalón"
+      },
+      {
+        "key": "D",
+        "text": "zapato"
+      },
+      {
+        "key": "E",
+        "text": "media"
+      },
+      {
+        "key": "F",
+        "text": "blusa"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Botón* es aguda."
+  },
+  {
+    "id": "2.1_q22",
+    "number": 22,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "pantalón"
+      },
+      {
+        "key": "B",
+        "text": "camisa"
+      },
+      {
+        "key": "C",
+        "text": "blusa"
+      },
+      {
+        "key": "D",
+        "text": "falda"
+      },
+      {
+        "key": "E",
+        "text": "vestido"
+      },
+      {
+        "key": "F",
+        "text": "traje"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Pantalón* es aguda."
+  },
+  {
+    "id": "2.1_q23",
+    "number": 23,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "sillón"
+      },
+      {
+        "key": "B",
+        "text": "silla"
+      },
+      {
+        "key": "C",
+        "text": "mesa"
+      },
+      {
+        "key": "D",
+        "text": "cama"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "banco"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sillón* es aguda."
+  },
+  {
+    "id": "2.1_q24",
+    "number": 24,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "calor"
+      },
+      {
+        "key": "B",
+        "text": "frío"
+      },
+      {
+        "key": "C",
+        "text": "templado"
+      },
+      {
+        "key": "D",
+        "text": "fresco"
+      },
+      {
+        "key": "E",
+        "text": "helado"
+      },
+      {
+        "key": "F",
+        "text": "tibio"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Calor* es aguda."
+  },
+  {
+    "id": "2.1_q25",
+    "number": 25,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "dolor"
+      },
+      {
+        "key": "B",
+        "text": "alegría"
+      },
+      {
+        "key": "C",
+        "text": "tristeza"
+      },
+      {
+        "key": "D",
+        "text": "pena"
+      },
+      {
+        "key": "E",
+        "text": "gozo"
+      },
+      {
+        "key": "F",
+        "text": "risa"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Dolor* es aguda."
+  },
+  {
+    "id": "2.1_q26",
+    "number": 26,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "amor"
+      },
+      {
+        "key": "B",
+        "text": "odio"
+      },
+      {
+        "key": "C",
+        "text": "cariño"
+      },
+      {
+        "key": "D",
+        "text": "afecto"
+      },
+      {
+        "key": "E",
+        "text": "pasión"
+      },
+      {
+        "key": "F",
+        "text": "ternura"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Amor* es aguda."
+  },
+  {
+    "id": "2.1_q27",
+    "number": 27,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "sabor"
+      },
+      {
+        "key": "B",
+        "text": "dulce"
+      },
+      {
+        "key": "C",
+        "text": "salado"
+      },
+      {
+        "key": "D",
+        "text": "ácido"
+      },
+      {
+        "key": "E",
+        "text": "amargo"
+      },
+      {
+        "key": "F",
+        "text": "picante"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sabor* es aguda."
+  },
+  {
+    "id": "2.1_q28",
+    "number": 28,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "olor"
+      },
+      {
+        "key": "B",
+        "text": "aroma"
+      },
+      {
+        "key": "C",
+        "text": "fragancia"
+      },
+      {
+        "key": "D",
+        "text": "perfume"
+      },
+      {
+        "key": "E",
+        "text": "esencia"
+      },
+      {
+        "key": "F",
+        "text": "hedor"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Olor* es aguda."
+  },
+  {
+    "id": "2.1_q29",
+    "number": 29,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "color"
+      },
+      {
+        "key": "B",
+        "text": "tono"
+      },
+      {
+        "key": "C",
+        "text": "matiz"
+      },
+      {
+        "key": "D",
+        "text": "sombra"
+      },
+      {
+        "key": "E",
+        "text": "luz"
+      },
+      {
+        "key": "F",
+        "text": "brillo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Color* es aguda."
+  },
+  {
+    "id": "2.1_q30",
+    "number": 30,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "valor"
+      },
+      {
+        "key": "B",
+        "text": "precio"
+      },
+      {
+        "key": "C",
+        "text": "costo"
+      },
+      {
+        "key": "D",
+        "text": "tasa"
+      },
+      {
+        "key": "E",
+        "text": "tarifa"
+      },
+      {
+        "key": "F",
+        "text": "cuota"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Valor* es aguda."
+  },
+  {
+    "id": "2.1_q31",
+    "number": 31,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "temor"
+      },
+      {
+        "key": "B",
+        "text": "miedo"
+      },
+      {
+        "key": "C",
+        "text": "pánico"
+      },
+      {
+        "key": "D",
+        "text": "susto"
+      },
+      {
+        "key": "E",
+        "text": "terror"
+      },
+      {
+        "key": "F",
+        "text": "fobia"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Temor* es aguda."
+  },
+  {
+    "id": "2.1_q32",
+    "number": 32,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "rumor"
+      },
+      {
+        "key": "B",
+        "text": "noticia"
+      },
+      {
+        "key": "C",
+        "text": "chisme"
+      },
+      {
+        "key": "D",
+        "text": "comentario"
+      },
+      {
+        "key": "E",
+        "text": "opinión"
+      },
+      {
+        "key": "F",
+        "text": "crítica"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Rumor* es aguda."
+  },
+  {
+    "id": "2.1_q33",
+    "number": 33,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "humor"
+      },
+      {
+        "key": "B",
+        "text": "gracia"
+      },
+      {
+        "key": "C",
+        "text": "chiste"
+      },
+      {
+        "key": "D",
+        "text": "broma"
+      },
+      {
+        "key": "E",
+        "text": "risa"
+      },
+      {
+        "key": "F",
+        "text": "sonrisa"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Humor* es aguda."
+  },
+  {
+    "id": "2.1_q34",
+    "number": 34,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "rigor"
+      },
+      {
+        "key": "B",
+        "text": "disciplina"
+      },
+      {
+        "key": "C",
+        "text": "orden"
+      },
+      {
+        "key": "D",
+        "text": "control"
+      },
+      {
+        "key": "E",
+        "text": "norma"
+      },
+      {
+        "key": "F",
+        "text": "regla"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Rigor* es aguda."
+  },
+  {
+    "id": "2.1_q35",
+    "number": 35,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "favor"
+      },
+      {
+        "key": "B",
+        "text": "ayuda"
+      },
+      {
+        "key": "C",
+        "text": "apoyo"
+      },
+      {
+        "key": "D",
+        "text": "servicio"
+      },
+      {
+        "key": "E",
+        "text": "beneficio"
+      },
+      {
+        "key": "F",
+        "text": "ventaja"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Favor* es aguda."
+  },
+  {
+    "id": "2.1_q36",
+    "number": 36,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "error"
+      },
+      {
+        "key": "B",
+        "text": "acierto"
+      },
+      {
+        "key": "C",
+        "text": "fallo"
+      },
+      {
+        "key": "D",
+        "text": "equivocación"
+      },
+      {
+        "key": "E",
+        "text": "descuido"
+      },
+      {
+        "key": "F",
+        "text": "falta"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Error* es aguda."
+  },
+  {
+    "id": "2.1_q37",
+    "number": 37,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "temblor"
+      },
+      {
+        "key": "B",
+        "text": "temblor"
+      },
+      {
+        "key": "C",
+        "text": "temblor"
+      },
+      {
+        "key": "D",
+        "text": "temblor"
+      },
+      {
+        "key": "E",
+        "text": "temblor"
+      },
+      {
+        "key": "F",
+        "text": "temblor"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Temblor* es aguda."
+  },
+  {
+    "id": "2.1_q38",
+    "number": 38,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "sudor"
+      },
+      {
+        "key": "B",
+        "text": "transpiración"
+      },
+      {
+        "key": "C",
+        "text": "humedad"
+      },
+      {
+        "key": "D",
+        "text": "calor"
+      },
+      {
+        "key": "E",
+        "text": "frío"
+      },
+      {
+        "key": "F",
+        "text": "frescura"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sudor* es aguda."
+  },
+  {
+    "id": "2.1_q39",
+    "number": 39,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "rencor"
+      },
+      {
+        "key": "B",
+        "text": "perdón"
+      },
+      {
+        "key": "C",
+        "text": "olvido"
+      },
+      {
+        "key": "D",
+        "text": "paz"
+      },
+      {
+        "key": "E",
+        "text": "calma"
+      },
+      {
+        "key": "F",
+        "text": "tranquilidad"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Rencor* es aguda."
+  },
+  {
+    "id": "2.1_q40",
+    "number": 40,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)",
+    "statement": "¿Cuál de las siguientes palabras es aguda?",
+    "options": [
+      {
+        "key": "A",
+        "text": "candor"
+      },
+      {
+        "key": "B",
+        "text": "pureza"
+      },
+      {
+        "key": "C",
+        "text": "inocencia"
+      },
+      {
+        "key": "D",
+        "text": "bondad"
+      },
+      {
+        "key": "E",
+        "text": "virtud"
+      },
+      {
+        "key": "F",
+        "text": "honradez ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Candor* es aguda."
+  },
+  {
+    "id": "2.1_q41",
+    "number": 41,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "árbol"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "café"
+      },
+      {
+        "key": "F",
+        "text": "sofá"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Árbol* es grave (penúltima sílaba tónica)."
+  },
+  {
+    "id": "2.1_q42",
+    "number": 42,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "lápiz"
+      },
+      {
+        "key": "B",
+        "text": "reloj"
+      },
+      {
+        "key": "C",
+        "text": "jamás"
+      },
+      {
+        "key": "D",
+        "text": "atrás"
+      },
+      {
+        "key": "E",
+        "text": "después"
+      },
+      {
+        "key": "F",
+        "text": "también"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Lápiz* es grave."
+  },
+  {
+    "id": "2.1_q43",
+    "number": 43,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "mesa"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "canción"
+      },
+      {
+        "key": "E",
+        "text": "razón"
+      },
+      {
+        "key": "F",
+        "text": "balón"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mesa* es grave."
+  },
+  {
+    "id": "2.1_q44",
+    "number": 44,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "silla"
+      },
+      {
+        "key": "B",
+        "text": "café"
+      },
+      {
+        "key": "C",
+        "text": "sofá"
+      },
+      {
+        "key": "D",
+        "text": "compás"
+      },
+      {
+        "key": "E",
+        "text": "ratón"
+      },
+      {
+        "key": "F",
+        "text": "jabón"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Silla* es grave."
+  },
+  {
+    "id": "2.1_q45",
+    "number": 45,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "libro"
+      },
+      {
+        "key": "B",
+        "text": "corazón"
+      },
+      {
+        "key": "C",
+        "text": "papel"
+      },
+      {
+        "key": "D",
+        "text": "reloj"
+      },
+      {
+        "key": "E",
+        "text": "jamás"
+      },
+      {
+        "key": "F",
+        "text": "atrás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Libro* es grave."
+  },
+  {
+    "id": "2.1_q46",
+    "number": 46,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "casa"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Casa* es grave."
+  },
+  {
+    "id": "2.1_q47",
+    "number": 47,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ventana"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ventana* es grave."
+  },
+  {
+    "id": "2.1_q48",
+    "number": 48,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "teléfono"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Teléfono* es esdrújula, no grave."
+  },
+  {
+    "id": "2.1_q49",
+    "number": 49,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "pájaro"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Pájaro* es esdrújula, no grave."
+  },
+  {
+    "id": "2.1_q50",
+    "number": 50,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cárcel"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cárcel* es grave."
+  },
+  {
+    "id": "2.1_q51",
+    "number": 51,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "lunes"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Lunes* es grave."
+  },
+  {
+    "id": "2.1_q52",
+    "number": 52,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "azúcar"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Azúcar* es grave."
+  },
+  {
+    "id": "2.1_q53",
+    "number": 53,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "mármol"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mármol* es grave."
+  },
+  {
+    "id": "2.1_q54",
+    "number": 54,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "césped"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Césped* es grave."
+  },
+  {
+    "id": "2.1_q55",
+    "number": 55,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fácil"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Fácil* es grave."
+  },
+  {
+    "id": "2.1_q56",
+    "number": 56,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "útil"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Útil* es grave."
+  },
+  {
+    "id": "2.1_q57",
+    "number": 57,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "débil"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Débil* es grave."
+  },
+  {
+    "id": "2.1_q58",
+    "number": 58,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "móvil"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Móvil* es grave."
+  },
+  {
+    "id": "2.1_q59",
+    "number": 59,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "túnel"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Túnel* es grave."
+  },
+  {
+    "id": "2.1_q60",
+    "number": 60,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "nivel"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Nivel* es grave."
+  },
+  {
+    "id": "2.1_q61",
+    "number": 61,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "revista"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Revista* es grave."
+  },
+  {
+    "id": "2.1_q62",
+    "number": 62,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cuaderno"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cuaderno* es grave."
+  },
+  {
+    "id": "2.1_q63",
+    "number": 63,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ventana"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ventana* es grave."
+  },
+  {
+    "id": "2.1_q64",
+    "number": 64,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "puerta"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Puerta* es grave."
+  },
+  {
+    "id": "2.1_q65",
+    "number": 65,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "techo"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Techo* es grave."
+  },
+  {
+    "id": "2.1_q66",
+    "number": 66,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "piso"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Piso* es grave."
+  },
+  {
+    "id": "2.1_q67",
+    "number": 67,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "pared"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Pared* es aguda, no grave."
+  },
+  {
+    "id": "2.1_q68",
+    "number": 68,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "mantel"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mantel* es aguda, no grave."
+  },
+  {
+    "id": "2.1_q69",
+    "number": 69,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "pastel"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Pastel* es aguda, no grave."
+  },
+  {
+    "id": "2.1_q70",
+    "number": 70,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "clavel"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Clavel* es aguda, no grave."
+  },
+  {
+    "id": "2.1_q71",
+    "number": 71,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "examen"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Examen* es grave."
+  },
+  {
+    "id": "2.1_q72",
+    "number": 72,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "joven"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Joven* es grave."
+  },
+  {
+    "id": "2.1_q73",
+    "number": 73,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "orden"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Orden* es grave."
+  },
+  {
+    "id": "2.1_q74",
+    "number": 74,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "imagen"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Imagen* es grave."
+  },
+  {
+    "id": "2.1_q75",
+    "number": 75,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "virgen"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Virgen* es grave."
+  },
+  {
+    "id": "2.1_q76",
+    "number": 76,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "margen"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Margen* es grave."
+  },
+  {
+    "id": "2.1_q77",
+    "number": 77,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "origen"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Origen* es grave."
+  },
+  {
+    "id": "2.1_q78",
+    "number": 78,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "certamen"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Certamen* es grave."
+  },
+  {
+    "id": "2.1_q79",
+    "number": 79,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "resumen"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Resumen* es grave."
+  },
+  {
+    "id": "2.1_q80",
+    "number": 80,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)",
+    "statement": "¿Cuál de las siguientes palabras es grave?",
+    "options": [
+      {
+        "key": "A",
+        "text": "volumen"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Volumen* es grave."
+  },
+  {
+    "id": "2.1_q81",
+    "number": 81,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "música"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Música* es esdrújula."
+  },
+  {
+    "id": "2.1_q82",
+    "number": 82,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "lápiz"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Lápiz* es grave, no esdrújula."
+  },
+  {
+    "id": "2.1_q83",
+    "number": 83,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "árbol"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Árbol* es grave, no esdrújula."
+  },
+  {
+    "id": "2.1_q84",
+    "number": 84,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "teléfono"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Teléfono* es esdrújula."
+  },
+  {
+    "id": "2.1_q85",
+    "number": 85,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "pájaro"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Pájaro* es esdrújula."
+  },
+  {
+    "id": "2.1_q86",
+    "number": 86,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cárcel"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cárcel* es grave, no esdrújula."
+  },
+  {
+    "id": "2.1_q87",
+    "number": 87,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "azúcar"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Azúcar* es grave, no esdrújula."
+  },
+  {
+    "id": "2.1_q88",
+    "number": 88,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "mármol"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mármol* es grave, no esdrújula."
+  },
+  {
+    "id": "2.1_q89",
+    "number": 89,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "césped"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Césped* es grave, no esdrújula."
+  },
+  {
+    "id": "2.1_q90",
+    "number": 90,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "fácil"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Fácil* es grave, no esdrújula."
+  },
+  {
+    "id": "2.1_q91",
+    "number": 91,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "útil"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Útil* es grave, no esdrújula."
+  },
+  {
+    "id": "2.1_q92",
+    "number": 92,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "débil"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Débil* es grave, no esdrújula."
+  },
+  {
+    "id": "2.1_q93",
+    "number": 93,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "móvil"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Móvil* es grave, no esdrújula."
+  },
+  {
+    "id": "2.1_q94",
+    "number": 94,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "túnel"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Túnel* es grave, no esdrújula."
+  },
+  {
+    "id": "2.1_q95",
+    "number": 95,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "médico"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Médico* es esdrújula."
+  },
+  {
+    "id": "2.1_q96",
+    "number": 96,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "médico"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Médico* es esdrújula."
+  },
+  {
+    "id": "2.1_q97",
+    "number": 97,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "brújula"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Brújula* es esdrújula."
+  },
+  {
+    "id": "2.1_q98",
+    "number": 98,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cámara"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cámara* es esdrújula."
+  },
+  {
+    "id": "2.1_q99",
+    "number": 99,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "sábado"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sábado* es esdrújula."
+  },
+  {
+    "id": "2.1_q100",
+    "number": 100,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "miércoles"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Miércoles* es esdrújula."
+  },
+  {
+    "id": "2.1_q101",
+    "number": 101,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "murciélago"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Murciélago* es esdrújula."
+  },
+  {
+    "id": "2.1_q102",
+    "number": 102,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "parásito"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Parásito* es esdrújula."
+  },
+  {
+    "id": "2.1_q103",
+    "number": 103,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "pelícano"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Pelícano* es esdrújula."
+  },
+  {
+    "id": "2.1_q104",
+    "number": 104,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "plátano"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Plátano* es esdrújula."
+  },
+  {
+    "id": "2.1_q105",
+    "number": 105,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "prójimo"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Prójimo* es esdrújula."
+  },
+  {
+    "id": "2.1_q106",
+    "number": 106,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ráfaga"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ráfaga* es esdrújula."
+  },
+  {
+    "id": "2.1_q107",
+    "number": 107,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "relámpago"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Relámpago* es esdrújula."
+  },
+  {
+    "id": "2.1_q108",
+    "number": 108,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "síntoma"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Síntoma* es esdrújula."
+  },
+  {
+    "id": "2.1_q109",
+    "number": 109,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "teléfono"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Teléfono* es esdrújula."
+  },
+  {
+    "id": "2.1_q110",
+    "number": 110,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "término"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Término* es esdrújula."
+  },
+  {
+    "id": "2.1_q111",
+    "number": 111,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "último"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Último* es esdrújula."
+  },
+  {
+    "id": "2.1_q112",
+    "number": 112,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "útilmente"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Útilmente* es sobresdrújula."
+  },
+  {
+    "id": "2.1_q113",
+    "number": 113,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ábaco"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ábaco* es esdrújula."
+  },
+  {
+    "id": "2.1_q114",
+    "number": 114,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "álgebra"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Álgebra* es esdrújula."
+  },
+  {
+    "id": "2.1_q115",
+    "number": 115,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "ánimo"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ánimo* es esdrújula."
+  },
+  {
+    "id": "2.1_q116",
+    "number": 116,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "área"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Área* es esdrújula."
+  },
+  {
+    "id": "2.1_q117",
+    "number": 117,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "bárbaro"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Bárbaro* es esdrújula."
+  },
+  {
+    "id": "2.1_q118",
+    "number": 118,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cálculo"
+      },
+      {
+        "key": "B",
+        "text": "mamá"
+      },
+      {
+        "key": "C",
+        "text": "papá"
+      },
+      {
+        "key": "D",
+        "text": "café"
+      },
+      {
+        "key": "E",
+        "text": "sofá"
+      },
+      {
+        "key": "F",
+        "text": "compás"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cálculo* es esdrújula."
+  },
+  {
+    "id": "2.1_q119",
+    "number": 119,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es esdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "capítulo"
+      },
+      {
+        "key": "B",
+        "text": "canción"
+      },
+      {
+        "key": "C",
+        "text": "razón"
+      },
+      {
+        "key": "D",
+        "text": "balón"
+      },
+      {
+        "key": "E",
+        "text": "camión"
+      },
+      {
+        "key": "F",
+        "text": "avión"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Capítulo* es esdrújula."
+  },
+  {
+    "id": "2.1_q120",
+    "number": 120,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)",
+    "statement": "¿Cuál de las siguientes palabras es sobresdrújula?",
+    "options": [
+      {
+        "key": "A",
+        "text": "cómpramelo"
+      },
+      {
+        "key": "B",
+        "text": "cantar"
+      },
+      {
+        "key": "C",
+        "text": "corazón"
+      },
+      {
+        "key": "D",
+        "text": "papel"
+      },
+      {
+        "key": "E",
+        "text": "reloj"
+      },
+      {
+        "key": "F",
+        "text": "jamás ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cómpramelo* es sobresdrújula."
+  },
+  {
+    "id": "2.1_q121",
+    "number": 121,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Él niño"
+      },
+      {
+        "key": "D",
+        "text": "Él niño"
+      },
+      {
+        "key": "F",
+        "text": "Él niño"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*El* sin tilde es artículo."
+  },
+  {
+    "id": "2.1_q122",
+    "number": 122,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mi casa"
+      },
+      {
+        "key": "B",
+        "text": "Mí casa"
+      },
+      {
+        "key": "C",
+        "text": "Mi casa"
+      },
+      {
+        "key": "D",
+        "text": "Mí casa"
+      },
+      {
+        "key": "E",
+        "text": "Mi casa"
+      },
+      {
+        "key": "F",
+        "text": "Mí casa"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mi* sin tilde es posesivo."
+  },
+  {
+    "id": "2.1_q123",
+    "number": 123,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tu libro"
+      },
+      {
+        "key": "B",
+        "text": "Tú libro"
+      },
+      {
+        "key": "C",
+        "text": "Tu libro"
+      },
+      {
+        "key": "D",
+        "text": "Tú libro"
+      },
+      {
+        "key": "E",
+        "text": "Tu libro"
+      },
+      {
+        "key": "F",
+        "text": "Tú libro"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Tu* sin tilde es posesivo."
+  },
+  {
+    "id": "2.1_q124",
+    "number": 124,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "B",
+    "explanation": "*Té* con tilde es sustantivo (bebida)."
+  },
+  {
+    "id": "2.1_q125",
+    "number": 125,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mi"
+      },
+      {
+        "key": "B",
+        "text": "Mí"
+      },
+      {
+        "key": "C",
+        "text": "Mi"
+      },
+      {
+        "key": "D",
+        "text": "Mí"
+      },
+      {
+        "key": "E",
+        "text": "Mi"
+      },
+      {
+        "key": "F",
+        "text": "Mí"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mi* sin tilde es posesivo."
+  },
+  {
+    "id": "2.1_q126",
+    "number": 126,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sé"
+      },
+      {
+        "key": "B",
+        "text": "Se"
+      },
+      {
+        "key": "C",
+        "text": "Sé"
+      },
+      {
+        "key": "D",
+        "text": "Se"
+      },
+      {
+        "key": "E",
+        "text": "Sé"
+      },
+      {
+        "key": "F",
+        "text": "Se"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sé* con tilde es verbo saber."
+  },
+  {
+    "id": "2.1_q127",
+    "number": 127,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Dé* con tilde es verbo dar."
+  },
+  {
+    "id": "2.1_q128",
+    "number": 128,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Más"
+      },
+      {
+        "key": "B",
+        "text": "Mas"
+      },
+      {
+        "key": "C",
+        "text": "Más"
+      },
+      {
+        "key": "D",
+        "text": "Mas"
+      },
+      {
+        "key": "E",
+        "text": "Más"
+      },
+      {
+        "key": "F",
+        "text": "Mas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Más* con tilde es adverbio de cantidad."
+  },
+  {
+    "id": "2.1_q129",
+    "number": 129,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sí"
+      },
+      {
+        "key": "B",
+        "text": "Si"
+      },
+      {
+        "key": "C",
+        "text": "Sí"
+      },
+      {
+        "key": "D",
+        "text": "Si"
+      },
+      {
+        "key": "E",
+        "text": "Sí"
+      },
+      {
+        "key": "F",
+        "text": "Si"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sí* con tilde es afirmación."
+  },
+  {
+    "id": "2.1_q130",
+    "number": 130,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Aún* con tilde equivale a \"todavía\"."
+  },
+  {
+    "id": "2.1_q131",
+    "number": 131,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Él"
+      },
+      {
+        "key": "C",
+        "text": "Él"
+      },
+      {
+        "key": "E",
+        "text": "Él"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Él* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q132",
+    "number": 132,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tú"
+      },
+      {
+        "key": "B",
+        "text": "Tu"
+      },
+      {
+        "key": "C",
+        "text": "Tú"
+      },
+      {
+        "key": "D",
+        "text": "Tu"
+      },
+      {
+        "key": "E",
+        "text": "Tú"
+      },
+      {
+        "key": "F",
+        "text": "Tu"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Tú* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q133",
+    "number": 133,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mí"
+      },
+      {
+        "key": "B",
+        "text": "Mi"
+      },
+      {
+        "key": "C",
+        "text": "Mí"
+      },
+      {
+        "key": "D",
+        "text": "Mi"
+      },
+      {
+        "key": "E",
+        "text": "Mí"
+      },
+      {
+        "key": "F",
+        "text": "Mi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mí* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q134",
+    "number": 134,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sé"
+      },
+      {
+        "key": "B",
+        "text": "Se"
+      },
+      {
+        "key": "C",
+        "text": "Sé"
+      },
+      {
+        "key": "D",
+        "text": "Se"
+      },
+      {
+        "key": "E",
+        "text": "Sé"
+      },
+      {
+        "key": "F",
+        "text": "Se"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sé* con tilde es verbo saber."
+  },
+  {
+    "id": "2.1_q135",
+    "number": 135,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Dé* con tilde es verbo dar."
+  },
+  {
+    "id": "2.1_q136",
+    "number": 136,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Más"
+      },
+      {
+        "key": "B",
+        "text": "Mas"
+      },
+      {
+        "key": "C",
+        "text": "Más"
+      },
+      {
+        "key": "D",
+        "text": "Mas"
+      },
+      {
+        "key": "E",
+        "text": "Más"
+      },
+      {
+        "key": "F",
+        "text": "Mas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Más* con tilde es adverbio."
+  },
+  {
+    "id": "2.1_q137",
+    "number": 137,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sí"
+      },
+      {
+        "key": "B",
+        "text": "Si"
+      },
+      {
+        "key": "C",
+        "text": "Sí"
+      },
+      {
+        "key": "D",
+        "text": "Si"
+      },
+      {
+        "key": "E",
+        "text": "Sí"
+      },
+      {
+        "key": "F",
+        "text": "Si"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sí* con tilde es afirmación."
+  },
+  {
+    "id": "2.1_q138",
+    "number": 138,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Aún* con tilde equivale a \"todavía\"."
+  },
+  {
+    "id": "2.1_q139",
+    "number": 139,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Él"
+      },
+      {
+        "key": "D",
+        "text": "Él"
+      },
+      {
+        "key": "F",
+        "text": "Él"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "*Él* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q140",
+    "number": 140,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tu"
+      },
+      {
+        "key": "B",
+        "text": "Tú"
+      },
+      {
+        "key": "C",
+        "text": "Tu"
+      },
+      {
+        "key": "D",
+        "text": "Tú"
+      },
+      {
+        "key": "E",
+        "text": "Tu"
+      },
+      {
+        "key": "F",
+        "text": "Tú"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "*Tú* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q141",
+    "number": 141,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mi"
+      },
+      {
+        "key": "B",
+        "text": "Mí"
+      },
+      {
+        "key": "C",
+        "text": "Mi"
+      },
+      {
+        "key": "D",
+        "text": "Mí"
+      },
+      {
+        "key": "E",
+        "text": "Mi"
+      },
+      {
+        "key": "F",
+        "text": "Mí"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "*Mí* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q142",
+    "number": 142,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Se"
+      },
+      {
+        "key": "B",
+        "text": "Sé"
+      },
+      {
+        "key": "C",
+        "text": "Se"
+      },
+      {
+        "key": "D",
+        "text": "Sé"
+      },
+      {
+        "key": "E",
+        "text": "Se"
+      },
+      {
+        "key": "F",
+        "text": "Sé"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "*Sé* con tilde es verbo saber."
+  },
+  {
+    "id": "2.1_q143",
+    "number": 143,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "B",
+    "explanation": "*Dé* con tilde es verbo dar."
+  },
+  {
+    "id": "2.1_q144",
+    "number": 144,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mas"
+      },
+      {
+        "key": "B",
+        "text": "Más"
+      },
+      {
+        "key": "C",
+        "text": "Mas"
+      },
+      {
+        "key": "D",
+        "text": "Más"
+      },
+      {
+        "key": "E",
+        "text": "Mas"
+      },
+      {
+        "key": "F",
+        "text": "Más"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "*Más* con tilde es adverbio."
+  },
+  {
+    "id": "2.1_q145",
+    "number": 145,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Si"
+      },
+      {
+        "key": "B",
+        "text": "Sí"
+      },
+      {
+        "key": "C",
+        "text": "Si"
+      },
+      {
+        "key": "D",
+        "text": "Sí"
+      },
+      {
+        "key": "E",
+        "text": "Si"
+      },
+      {
+        "key": "F",
+        "text": "Sí"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "*Sí* con tilde es afirmación."
+  },
+  {
+    "id": "2.1_q146",
+    "number": 146,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "B",
+    "explanation": "*Aún* con tilde equivale a \"todavía\"."
+  },
+  {
+    "id": "2.1_q147",
+    "number": 147,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Él"
+      },
+      {
+        "key": "C",
+        "text": "Él"
+      },
+      {
+        "key": "E",
+        "text": "Él"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Él* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q148",
+    "number": 148,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tú"
+      },
+      {
+        "key": "B",
+        "text": "Tu"
+      },
+      {
+        "key": "C",
+        "text": "Tú"
+      },
+      {
+        "key": "D",
+        "text": "Tu"
+      },
+      {
+        "key": "E",
+        "text": "Tú"
+      },
+      {
+        "key": "F",
+        "text": "Tu"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Tú* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q149",
+    "number": 149,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mí"
+      },
+      {
+        "key": "B",
+        "text": "Mi"
+      },
+      {
+        "key": "C",
+        "text": "Mí"
+      },
+      {
+        "key": "D",
+        "text": "Mi"
+      },
+      {
+        "key": "E",
+        "text": "Mí"
+      },
+      {
+        "key": "F",
+        "text": "Mi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mí* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q150",
+    "number": 150,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sé"
+      },
+      {
+        "key": "B",
+        "text": "Se"
+      },
+      {
+        "key": "C",
+        "text": "Sé"
+      },
+      {
+        "key": "D",
+        "text": "Se"
+      },
+      {
+        "key": "E",
+        "text": "Sé"
+      },
+      {
+        "key": "F",
+        "text": "Se"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sé* con tilde es verbo saber."
+  },
+  {
+    "id": "2.1_q151",
+    "number": 151,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Dé* con tilde es verbo dar."
+  },
+  {
+    "id": "2.1_q152",
+    "number": 152,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Más"
+      },
+      {
+        "key": "B",
+        "text": "Mas"
+      },
+      {
+        "key": "C",
+        "text": "Más"
+      },
+      {
+        "key": "D",
+        "text": "Mas"
+      },
+      {
+        "key": "E",
+        "text": "Más"
+      },
+      {
+        "key": "F",
+        "text": "Mas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Más* con tilde es adverbio."
+  },
+  {
+    "id": "2.1_q153",
+    "number": 153,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sí"
+      },
+      {
+        "key": "B",
+        "text": "Si"
+      },
+      {
+        "key": "C",
+        "text": "Sí"
+      },
+      {
+        "key": "D",
+        "text": "Si"
+      },
+      {
+        "key": "E",
+        "text": "Sí"
+      },
+      {
+        "key": "F",
+        "text": "Si"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sí* con tilde es afirmación."
+  },
+  {
+    "id": "2.1_q154",
+    "number": 154,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Aún* con tilde equivale a \"todavía\"."
+  },
+  {
+    "id": "2.1_q155",
+    "number": 155,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Él"
+      },
+      {
+        "key": "C",
+        "text": "Él"
+      },
+      {
+        "key": "E",
+        "text": "Él"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Él* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q156",
+    "number": 156,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tú"
+      },
+      {
+        "key": "B",
+        "text": "Tu"
+      },
+      {
+        "key": "C",
+        "text": "Tú"
+      },
+      {
+        "key": "D",
+        "text": "Tu"
+      },
+      {
+        "key": "E",
+        "text": "Tú"
+      },
+      {
+        "key": "F",
+        "text": "Tu"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Tú* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q157",
+    "number": 157,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mí"
+      },
+      {
+        "key": "B",
+        "text": "Mi"
+      },
+      {
+        "key": "C",
+        "text": "Mí"
+      },
+      {
+        "key": "D",
+        "text": "Mi"
+      },
+      {
+        "key": "E",
+        "text": "Mí"
+      },
+      {
+        "key": "F",
+        "text": "Mi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mí* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q158",
+    "number": 158,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sé"
+      },
+      {
+        "key": "B",
+        "text": "Se"
+      },
+      {
+        "key": "C",
+        "text": "Sé"
+      },
+      {
+        "key": "D",
+        "text": "Se"
+      },
+      {
+        "key": "E",
+        "text": "Sé"
+      },
+      {
+        "key": "F",
+        "text": "Se"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sé* con tilde es verbo saber."
+  },
+  {
+    "id": "2.1_q159",
+    "number": 159,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Dé* con tilde es verbo dar."
+  },
+  {
+    "id": "2.1_q160",
+    "number": 160,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Más"
+      },
+      {
+        "key": "B",
+        "text": "Mas"
+      },
+      {
+        "key": "C",
+        "text": "Más"
+      },
+      {
+        "key": "D",
+        "text": "Mas"
+      },
+      {
+        "key": "E",
+        "text": "Más"
+      },
+      {
+        "key": "F",
+        "text": "Mas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Más* con tilde es adverbio."
+  },
+  {
+    "id": "2.1_q161",
+    "number": 161,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sí"
+      },
+      {
+        "key": "B",
+        "text": "Si"
+      },
+      {
+        "key": "C",
+        "text": "Sí"
+      },
+      {
+        "key": "D",
+        "text": "Si"
+      },
+      {
+        "key": "E",
+        "text": "Sí"
+      },
+      {
+        "key": "F",
+        "text": "Si"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sí* con tilde es afirmación."
+  },
+  {
+    "id": "2.1_q162",
+    "number": 162,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Aún* con tilde equivale a \"todavía\"."
+  },
+  {
+    "id": "2.1_q163",
+    "number": 163,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Él"
+      },
+      {
+        "key": "C",
+        "text": "Él"
+      },
+      {
+        "key": "E",
+        "text": "Él"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Él* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q164",
+    "number": 164,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tú"
+      },
+      {
+        "key": "B",
+        "text": "Tu"
+      },
+      {
+        "key": "C",
+        "text": "Tú"
+      },
+      {
+        "key": "D",
+        "text": "Tu"
+      },
+      {
+        "key": "E",
+        "text": "Tú"
+      },
+      {
+        "key": "F",
+        "text": "Tu"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Tú* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q165",
+    "number": 165,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mí"
+      },
+      {
+        "key": "B",
+        "text": "Mi"
+      },
+      {
+        "key": "C",
+        "text": "Mí"
+      },
+      {
+        "key": "D",
+        "text": "Mi"
+      },
+      {
+        "key": "E",
+        "text": "Mí"
+      },
+      {
+        "key": "F",
+        "text": "Mi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mí* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q166",
+    "number": 166,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sé"
+      },
+      {
+        "key": "B",
+        "text": "Se"
+      },
+      {
+        "key": "C",
+        "text": "Sé"
+      },
+      {
+        "key": "D",
+        "text": "Se"
+      },
+      {
+        "key": "E",
+        "text": "Sé"
+      },
+      {
+        "key": "F",
+        "text": "Se"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sé* con tilde es verbo saber."
+  },
+  {
+    "id": "2.1_q167",
+    "number": 167,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Dé* con tilde es verbo dar."
+  },
+  {
+    "id": "2.1_q168",
+    "number": 168,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Más"
+      },
+      {
+        "key": "B",
+        "text": "Mas"
+      },
+      {
+        "key": "C",
+        "text": "Más"
+      },
+      {
+        "key": "D",
+        "text": "Mas"
+      },
+      {
+        "key": "E",
+        "text": "Más"
+      },
+      {
+        "key": "F",
+        "text": "Mas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Más* con tilde es adverbio."
+  },
+  {
+    "id": "2.1_q169",
+    "number": 169,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sí"
+      },
+      {
+        "key": "B",
+        "text": "Si"
+      },
+      {
+        "key": "C",
+        "text": "Sí"
+      },
+      {
+        "key": "D",
+        "text": "Si"
+      },
+      {
+        "key": "E",
+        "text": "Sí"
+      },
+      {
+        "key": "F",
+        "text": "Si"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sí* con tilde es afirmación."
+  },
+  {
+    "id": "2.1_q170",
+    "number": 170,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Aún* con tilde equivale a \"todavía\"."
+  },
+  {
+    "id": "2.1_q171",
+    "number": 171,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Aún* con tilde equivale a \"todavía\"."
+  },
+  {
+    "id": "2.1_q172",
+    "number": 172,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sólo"
+      },
+      {
+        "key": "B",
+        "text": "Solo"
+      },
+      {
+        "key": "C",
+        "text": "Sólo"
+      },
+      {
+        "key": "D",
+        "text": "Solo"
+      },
+      {
+        "key": "E",
+        "text": "Sólo"
+      },
+      {
+        "key": "F",
+        "text": "Solo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sólo* con tilde equivale a \"solamente\" (uso tradicional)."
+  },
+  {
+    "id": "2.1_q173",
+    "number": 173,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Éste"
+      },
+      {
+        "key": "C",
+        "text": "Éste"
+      },
+      {
+        "key": "E",
+        "text": "Éste"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Éste* con tilde es pronombre (uso tradicional)."
+  },
+  {
+    "id": "2.1_q174",
+    "number": 174,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Aquél* con tilde es pronombre (uso tradicional)."
+  },
+  {
+    "id": "2.1_q175",
+    "number": 175,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Dé* con tilde es verbo dar."
+  },
+  {
+    "id": "2.1_q176",
+    "number": 176,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sé"
+      },
+      {
+        "key": "B",
+        "text": "Se"
+      },
+      {
+        "key": "C",
+        "text": "Sé"
+      },
+      {
+        "key": "D",
+        "text": "Se"
+      },
+      {
+        "key": "E",
+        "text": "Sé"
+      },
+      {
+        "key": "F",
+        "text": "Se"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sé* con tilde es verbo saber."
+  },
+  {
+    "id": "2.1_q177",
+    "number": 177,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Té"
+      },
+      {
+        "key": "B",
+        "text": "Te"
+      },
+      {
+        "key": "C",
+        "text": "Té"
+      },
+      {
+        "key": "D",
+        "text": "Te"
+      },
+      {
+        "key": "E",
+        "text": "Té"
+      },
+      {
+        "key": "F",
+        "text": "Te"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Té* con tilde es sustantivo (bebida)."
+  },
+  {
+    "id": "2.1_q178",
+    "number": 178,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Más"
+      },
+      {
+        "key": "B",
+        "text": "Mas"
+      },
+      {
+        "key": "C",
+        "text": "Más"
+      },
+      {
+        "key": "D",
+        "text": "Mas"
+      },
+      {
+        "key": "E",
+        "text": "Más"
+      },
+      {
+        "key": "F",
+        "text": "Mas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Más* con tilde es adverbio."
+  },
+  {
+    "id": "2.1_q179",
+    "number": 179,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sí"
+      },
+      {
+        "key": "B",
+        "text": "Si"
+      },
+      {
+        "key": "C",
+        "text": "Sí"
+      },
+      {
+        "key": "D",
+        "text": "Si"
+      },
+      {
+        "key": "E",
+        "text": "Sí"
+      },
+      {
+        "key": "F",
+        "text": "Si"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sí* con tilde es afirmación."
+  },
+  {
+    "id": "2.1_q180",
+    "number": 180,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mí"
+      },
+      {
+        "key": "B",
+        "text": "Mi"
+      },
+      {
+        "key": "C",
+        "text": "Mí"
+      },
+      {
+        "key": "D",
+        "text": "Mi"
+      },
+      {
+        "key": "E",
+        "text": "Mí"
+      },
+      {
+        "key": "F",
+        "text": "Mi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mí* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q181",
+    "number": 181,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tú"
+      },
+      {
+        "key": "B",
+        "text": "Tu"
+      },
+      {
+        "key": "C",
+        "text": "Tú"
+      },
+      {
+        "key": "D",
+        "text": "Tu"
+      },
+      {
+        "key": "E",
+        "text": "Tú"
+      },
+      {
+        "key": "F",
+        "text": "Tu"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Tú* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q182",
+    "number": 182,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Él"
+      },
+      {
+        "key": "C",
+        "text": "Él"
+      },
+      {
+        "key": "E",
+        "text": "Él"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Él* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q183",
+    "number": 183,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Aún* con tilde equivale a \"todavía\"."
+  },
+  {
+    "id": "2.1_q184",
+    "number": 184,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sólo"
+      },
+      {
+        "key": "B",
+        "text": "Solo"
+      },
+      {
+        "key": "C",
+        "text": "Sólo"
+      },
+      {
+        "key": "D",
+        "text": "Solo"
+      },
+      {
+        "key": "E",
+        "text": "Sólo"
+      },
+      {
+        "key": "F",
+        "text": "Solo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sólo* con tilde equivale a \"solamente\"."
+  },
+  {
+    "id": "2.1_q185",
+    "number": 185,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Éste"
+      },
+      {
+        "key": "C",
+        "text": "Éste"
+      },
+      {
+        "key": "E",
+        "text": "Éste"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Éste* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q186",
+    "number": 186,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Aquél* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q187",
+    "number": 187,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Dé* con tilde es verbo dar."
+  },
+  {
+    "id": "2.1_q188",
+    "number": 188,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sé"
+      },
+      {
+        "key": "B",
+        "text": "Se"
+      },
+      {
+        "key": "C",
+        "text": "Sé"
+      },
+      {
+        "key": "D",
+        "text": "Se"
+      },
+      {
+        "key": "E",
+        "text": "Sé"
+      },
+      {
+        "key": "F",
+        "text": "Se"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sé* con tilde es verbo saber."
+  },
+  {
+    "id": "2.1_q189",
+    "number": 189,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Té"
+      },
+      {
+        "key": "B",
+        "text": "Te"
+      },
+      {
+        "key": "C",
+        "text": "Té"
+      },
+      {
+        "key": "D",
+        "text": "Te"
+      },
+      {
+        "key": "E",
+        "text": "Té"
+      },
+      {
+        "key": "F",
+        "text": "Te"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Té* con tilde es sustantivo."
+  },
+  {
+    "id": "2.1_q190",
+    "number": 190,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Más"
+      },
+      {
+        "key": "B",
+        "text": "Mas"
+      },
+      {
+        "key": "C",
+        "text": "Más"
+      },
+      {
+        "key": "D",
+        "text": "Mas"
+      },
+      {
+        "key": "E",
+        "text": "Más"
+      },
+      {
+        "key": "F",
+        "text": "Mas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Más* con tilde es adverbio."
+  },
+  {
+    "id": "2.1_q191",
+    "number": 191,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sí"
+      },
+      {
+        "key": "B",
+        "text": "Si"
+      },
+      {
+        "key": "C",
+        "text": "Sí"
+      },
+      {
+        "key": "D",
+        "text": "Si"
+      },
+      {
+        "key": "E",
+        "text": "Sí"
+      },
+      {
+        "key": "F",
+        "text": "Si"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sí* con tilde es afirmación."
+  },
+  {
+    "id": "2.1_q192",
+    "number": 192,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mí"
+      },
+      {
+        "key": "B",
+        "text": "Mi"
+      },
+      {
+        "key": "C",
+        "text": "Mí"
+      },
+      {
+        "key": "D",
+        "text": "Mi"
+      },
+      {
+        "key": "E",
+        "text": "Mí"
+      },
+      {
+        "key": "F",
+        "text": "Mi"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Mí* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q193",
+    "number": 193,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tú"
+      },
+      {
+        "key": "B",
+        "text": "Tu"
+      },
+      {
+        "key": "C",
+        "text": "Tú"
+      },
+      {
+        "key": "D",
+        "text": "Tu"
+      },
+      {
+        "key": "E",
+        "text": "Tú"
+      },
+      {
+        "key": "F",
+        "text": "Tu"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Tú* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q194",
+    "number": 194,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Él"
+      },
+      {
+        "key": "C",
+        "text": "Él"
+      },
+      {
+        "key": "E",
+        "text": "Él"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Él* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q195",
+    "number": 195,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Aún* con tilde equivale a \"todavía\"."
+  },
+  {
+    "id": "2.1_q196",
+    "number": 196,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sólo"
+      },
+      {
+        "key": "B",
+        "text": "Solo"
+      },
+      {
+        "key": "C",
+        "text": "Sólo"
+      },
+      {
+        "key": "D",
+        "text": "Solo"
+      },
+      {
+        "key": "E",
+        "text": "Sólo"
+      },
+      {
+        "key": "F",
+        "text": "Solo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sólo* con tilde equivale a \"solamente\"."
+  },
+  {
+    "id": "2.1_q197",
+    "number": 197,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Éste"
+      },
+      {
+        "key": "C",
+        "text": "Éste"
+      },
+      {
+        "key": "E",
+        "text": "Éste"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Éste* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q198",
+    "number": 198,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Aquél* con tilde es pronombre."
+  },
+  {
+    "id": "2.1_q199",
+    "number": 199,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Dé* con tilde es verbo dar."
+  },
+  {
+    "id": "2.1_q200",
+    "number": 200,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sé"
+      },
+      {
+        "key": "B",
+        "text": "Se"
+      },
+      {
+        "key": "C",
+        "text": "Sé"
+      },
+      {
+        "key": "D",
+        "text": "Se"
+      },
+      {
+        "key": "E",
+        "text": "Sé"
+      },
+      {
+        "key": "F",
+        "text": "Se ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Sé* con tilde es verbo saber."
+  },
+  {
+    "id": "2.1_q201",
+    "number": 201,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Vaca"
+      },
+      {
+        "key": "D",
+        "text": "Vaca"
+      },
+      {
+        "key": "F",
+        "text": "Vaca"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "*Vaca* (animal) se escribe con v."
+  },
+  {
+    "id": "2.1_q202",
+    "number": 202,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Vello"
+      },
+      {
+        "key": "D",
+        "text": "Vello"
+      },
+      {
+        "key": "F",
+        "text": "Vello"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Bello* (hermoso) se escribe con b."
+  },
+  {
+    "id": "2.1_q203",
+    "number": 203,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Cabo* (extremo) se escribe con b."
+  },
+  {
+    "id": "2.1_q204",
+    "number": 204,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Grabar"
+      },
+      {
+        "key": "B",
+        "text": "Gravar"
+      },
+      {
+        "key": "C",
+        "text": "Grabar"
+      },
+      {
+        "key": "D",
+        "text": "Gravar"
+      },
+      {
+        "key": "E",
+        "text": "Grabar"
+      },
+      {
+        "key": "F",
+        "text": "Gravar"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Grabar* (registrar) se escribe con b."
+  },
+  {
+    "id": "2.1_q205",
+    "number": 205,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Haber"
+      },
+      {
+        "key": "C",
+        "text": "Haber"
+      },
+      {
+        "key": "E",
+        "text": "Haber"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Haber* (verbo) se escribe con h."
+  },
+  {
+    "id": "2.1_q206",
+    "number": 206,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Iba"
+      },
+      {
+        "key": "B",
+        "text": "Iva"
+      },
+      {
+        "key": "C",
+        "text": "Iba"
+      },
+      {
+        "key": "D",
+        "text": "Iva"
+      },
+      {
+        "key": "E",
+        "text": "Iba"
+      },
+      {
+        "key": "F",
+        "text": "Iva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Iba* (verbo ir) se escribe con b."
+  },
+  {
+    "id": "2.1_q207",
+    "number": 207,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rebelar"
+      },
+      {
+        "key": "B",
+        "text": "Revelar"
+      },
+      {
+        "key": "C",
+        "text": "Rebelar"
+      },
+      {
+        "key": "D",
+        "text": "Revelar"
+      },
+      {
+        "key": "E",
+        "text": "Rebelar"
+      },
+      {
+        "key": "F",
+        "text": "Revelar"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "*Revelar* (descubrir) se escribe con v."
+  },
+  {
+    "id": "2.1_q208",
+    "number": 208,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sabia"
+      },
+      {
+        "key": "B",
+        "text": "Savia"
+      },
+      {
+        "key": "C",
+        "text": "Sabia"
+      },
+      {
+        "key": "D",
+        "text": "Savia"
+      },
+      {
+        "key": "E",
+        "text": "Sabia"
+      },
+      {
+        "key": "F",
+        "text": "Savia"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "*Sabia* (sabiduría) se escribe con b."
+  },
+  {
+    "id": "2.1_q209",
+    "number": 209,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tubo"
+      },
+      {
+        "key": "B",
+        "text": "Tuvo"
+      },
+      {
+        "key": "C",
+        "text": "Tubo"
+      },
+      {
+        "key": "D",
+        "text": "Tuvo"
+      },
+      {
+        "key": "E",
+        "text": "Tubo"
+      },
+      {
+        "key": "F",
+        "text": "Tuvo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Tubo* (cilindro) se escribe con b."
+  },
+  {
+    "id": "2.1_q210",
+    "number": 210,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Valla"
+      },
+      {
+        "key": "B",
+        "text": "Vaya"
+      },
+      {
+        "key": "C",
+        "text": "Valla"
+      },
+      {
+        "key": "D",
+        "text": "Vaya"
+      },
+      {
+        "key": "E",
+        "text": "Valla"
+      },
+      {
+        "key": "F",
+        "text": "Vaya"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Valla* (cerca) se escribe con v."
+  },
+  {
+    "id": "2.1_q211",
+    "number": 211,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Casar* (matrimonio) se escribe con s."
+  },
+  {
+    "id": "2.1_q212",
+    "number": 212,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Seda"
+      },
+      {
+        "key": "D",
+        "text": "Seda"
+      },
+      {
+        "key": "F",
+        "text": "Seda"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ceda* (verbo ceder) se escribe con c."
+  },
+  {
+    "id": "2.1_q213",
+    "number": 213,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sima"
+      },
+      {
+        "key": "D",
+        "text": "Sima"
+      },
+      {
+        "key": "F",
+        "text": "Sima"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cima* (parte alta) se escribe con c."
+  },
+  {
+    "id": "2.1_q214",
+    "number": 214,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Cocer* (cocinar) se escribe con c."
+  },
+  {
+    "id": "2.1_q215",
+    "number": 215,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Caza* (cacería) se escribe con z."
+  },
+  {
+    "id": "2.1_q216",
+    "number": 216,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sien"
+      },
+      {
+        "key": "D",
+        "text": "Sien"
+      },
+      {
+        "key": "F",
+        "text": "Sien"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cien* (número) se escribe con c."
+  },
+  {
+    "id": "2.1_q217",
+    "number": 217,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Siervo"
+      },
+      {
+        "key": "D",
+        "text": "Siervo"
+      },
+      {
+        "key": "F",
+        "text": "Siervo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ciervo* (animal) se escribe con c."
+  },
+  {
+    "id": "2.1_q218",
+    "number": 218,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sima"
+      },
+      {
+        "key": "D",
+        "text": "Sima"
+      },
+      {
+        "key": "F",
+        "text": "Sima"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cima* (parte alta) se escribe con c."
+  },
+  {
+    "id": "2.1_q219",
+    "number": 219,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Cocer* (cocinar) se escribe con c."
+  },
+  {
+    "id": "2.1_q220",
+    "number": 220,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Caza* (cacería) se escribe con z."
+  },
+  {
+    "id": "2.1_q221",
+    "number": 221,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sien"
+      },
+      {
+        "key": "D",
+        "text": "Sien"
+      },
+      {
+        "key": "F",
+        "text": "Sien"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cien* (número) se escribe con c."
+  },
+  {
+    "id": "2.1_q222",
+    "number": 222,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Siervo"
+      },
+      {
+        "key": "D",
+        "text": "Siervo"
+      },
+      {
+        "key": "F",
+        "text": "Siervo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ciervo* (animal) se escribe con c."
+  },
+  {
+    "id": "2.1_q223",
+    "number": 223,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sima"
+      },
+      {
+        "key": "D",
+        "text": "Sima"
+      },
+      {
+        "key": "F",
+        "text": "Sima"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cima* (parte alta) se escribe con c."
+  },
+  {
+    "id": "2.1_q224",
+    "number": 224,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Cocer* (cocinar) se escribe con c."
+  },
+  {
+    "id": "2.1_q225",
+    "number": 225,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Caza* (cacería) se escribe con z."
+  },
+  {
+    "id": "2.1_q226",
+    "number": 226,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sien"
+      },
+      {
+        "key": "D",
+        "text": "Sien"
+      },
+      {
+        "key": "F",
+        "text": "Sien"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cien* (número) se escribe con c."
+  },
+  {
+    "id": "2.1_q227",
+    "number": 227,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Siervo"
+      },
+      {
+        "key": "D",
+        "text": "Siervo"
+      },
+      {
+        "key": "F",
+        "text": "Siervo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ciervo* (animal) se escribe con c."
+  },
+  {
+    "id": "2.1_q228",
+    "number": 228,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sima"
+      },
+      {
+        "key": "D",
+        "text": "Sima"
+      },
+      {
+        "key": "F",
+        "text": "Sima"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cima* (parte alta) se escribe con c."
+  },
+  {
+    "id": "2.1_q229",
+    "number": 229,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Cocer* (cocinar) se escribe con c."
+  },
+  {
+    "id": "2.1_q230",
+    "number": 230,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Caza* (cacería) se escribe con z."
+  },
+  {
+    "id": "2.1_q231",
+    "number": 231,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sien"
+      },
+      {
+        "key": "D",
+        "text": "Sien"
+      },
+      {
+        "key": "F",
+        "text": "Sien"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cien* (número) se escribe con c."
+  },
+  {
+    "id": "2.1_q232",
+    "number": 232,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Siervo"
+      },
+      {
+        "key": "D",
+        "text": "Siervo"
+      },
+      {
+        "key": "F",
+        "text": "Siervo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ciervo* (animal) se escribe con c."
+  },
+  {
+    "id": "2.1_q233",
+    "number": 233,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sima"
+      },
+      {
+        "key": "D",
+        "text": "Sima"
+      },
+      {
+        "key": "F",
+        "text": "Sima"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cima* (parte alta) se escribe con c."
+  },
+  {
+    "id": "2.1_q234",
+    "number": 234,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Cocer* (cocinar) se escribe con c."
+  },
+  {
+    "id": "2.1_q235",
+    "number": 235,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Caza* (cacería) se escribe con z."
+  },
+  {
+    "id": "2.1_q236",
+    "number": 236,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sien"
+      },
+      {
+        "key": "D",
+        "text": "Sien"
+      },
+      {
+        "key": "F",
+        "text": "Sien"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cien* (número) se escribe con c."
+  },
+  {
+    "id": "2.1_q237",
+    "number": 237,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Siervo"
+      },
+      {
+        "key": "D",
+        "text": "Siervo"
+      },
+      {
+        "key": "F",
+        "text": "Siervo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ciervo* (animal) se escribe con c."
+  },
+  {
+    "id": "2.1_q238",
+    "number": 238,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sima"
+      },
+      {
+        "key": "D",
+        "text": "Sima"
+      },
+      {
+        "key": "F",
+        "text": "Sima"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cima* (parte alta) se escribe con c."
+  },
+  {
+    "id": "2.1_q239",
+    "number": 239,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Cocer* (cocinar) se escribe con c."
+  },
+  {
+    "id": "2.1_q240",
+    "number": 240,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Caza* (cacería) se escribe con z."
+  },
+  {
+    "id": "2.1_q241",
+    "number": 241,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sien"
+      },
+      {
+        "key": "D",
+        "text": "Sien"
+      },
+      {
+        "key": "F",
+        "text": "Sien"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cien* (número) se escribe con c."
+  },
+  {
+    "id": "2.1_q242",
+    "number": 242,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Siervo"
+      },
+      {
+        "key": "D",
+        "text": "Siervo"
+      },
+      {
+        "key": "F",
+        "text": "Siervo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ciervo* (animal) se escribe con c."
+  },
+  {
+    "id": "2.1_q243",
+    "number": 243,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sima"
+      },
+      {
+        "key": "D",
+        "text": "Sima"
+      },
+      {
+        "key": "F",
+        "text": "Sima"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cima* (parte alta) se escribe con c."
+  },
+  {
+    "id": "2.1_q244",
+    "number": 244,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Cocer* (cocinar) se escribe con c."
+  },
+  {
+    "id": "2.1_q245",
+    "number": 245,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Caza* (cacería) se escribe con z."
+  },
+  {
+    "id": "2.1_q246",
+    "number": 246,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sien"
+      },
+      {
+        "key": "D",
+        "text": "Sien"
+      },
+      {
+        "key": "F",
+        "text": "Sien"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cien* (número) se escribe con c."
+  },
+  {
+    "id": "2.1_q247",
+    "number": 247,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Siervo"
+      },
+      {
+        "key": "D",
+        "text": "Siervo"
+      },
+      {
+        "key": "F",
+        "text": "Siervo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Ciervo* (animal) se escribe con c."
+  },
+  {
+    "id": "2.1_q248",
+    "number": 248,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sima"
+      },
+      {
+        "key": "D",
+        "text": "Sima"
+      },
+      {
+        "key": "F",
+        "text": "Sima"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "*Cima* (parte alta) se escribe con c."
+  },
+  {
+    "id": "2.1_q249",
+    "number": 249,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Cocer* (cocinar) se escribe con c."
+  },
+  {
+    "id": "2.1_q250",
+    "number": 250,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
+    "statement": "¿Cuál es la forma correcta?",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "*Caza* (cacería) se escribe con z."
+  },
+  {
+    "id": "2.1_q251",
+    "number": 251,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Qué signo se usa para separar elementos de una enumeración?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Punto"
+      },
+      {
+        "key": "C",
+        "text": "Punto y coma"
+      },
+      {
+        "key": "E",
+        "text": "Puntos suspensivos"
+      },
+      {
+        "key": "F",
+        "text": "Interrogación"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "La coma separa elementos de una enumeración."
+  },
+  {
+    "id": "2.1_q252",
+    "number": 252,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Qué signo se usa al final de una oración?",
+    "options": [
+      {
+        "key": "B",
+        "text": "Punto"
+      },
+      {
+        "key": "C",
+        "text": "Punto y coma"
+      },
+      {
+        "key": "E",
+        "text": "Puntos suspensivos"
+      },
+      {
+        "key": "F",
+        "text": "Interrogación"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "El punto cierra una oración."
+  },
+  {
+    "id": "2.1_q253",
+    "number": 253,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Qué signo se usa para indicar una pausa mayor que la coma?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Punto"
+      },
+      {
+        "key": "C",
+        "text": "Punto y coma"
+      },
+      {
+        "key": "E",
+        "text": "Puntos suspensivos"
+      },
+      {
+        "key": "F",
+        "text": "Interrogación"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "El punto y coma indica pausa mayor que la coma."
+  },
+  {
+    "id": "2.1_q254",
+    "number": 254,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Qué signo se usa antes de una enumeración?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Punto"
+      },
+      {
+        "key": "C",
+        "text": "Punto y coma"
+      },
+      {
+        "key": "E",
+        "text": "Puntos suspensivos"
+      },
+      {
+        "key": "F",
+        "text": "Interrogación"
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "Los dos puntos introducen una enumeración."
+  },
+  {
+    "id": "2.1_q255",
+    "number": 255,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Qué signo se usa para indicar duda o suspenso?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Punto"
+      },
+      {
+        "key": "C",
+        "text": "Punto y coma"
+      },
+      {
+        "key": "E",
+        "text": "Puntos suspensivos"
+      },
+      {
+        "key": "F",
+        "text": "Interrogación"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Los puntos suspensivos indican duda o suspenso."
+  },
+  {
+    "id": "2.1_q256",
+    "number": 256,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Qué signo se usa al final de una pregunta?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Punto"
+      },
+      {
+        "key": "C",
+        "text": "Punto y coma"
+      },
+      {
+        "key": "E",
+        "text": "Puntos suspensivos"
+      },
+      {
+        "key": "F",
+        "text": "Interrogación"
+      }
+    ],
+    "correctAnswer": "F",
+    "explanation": "Los signos de interrogación encierran preguntas."
+  },
+  {
+    "id": "2.1_q257",
+    "number": 257,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Qué signo se usa al final de una exclamación?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Punto"
+      },
+      {
+        "key": "C",
+        "text": "Punto y coma"
+      },
+      {
+        "key": "E",
+        "text": "Puntos suspensivos"
+      }
+    ],
+    "correctAnswer": "F",
+    "explanation": "Los signos de exclamación encierran exclamaciones."
+  },
+  {
+    "id": "2.1_q258",
+    "number": 258,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Qué signo se usa para introducir una cita textual?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Punto"
+      },
+      {
+        "key": "C",
+        "text": "Punto y coma"
+      },
+      {
+        "key": "E",
+        "text": "Puntos suspensivos"
+      }
+    ],
+    "correctAnswer": "F",
+    "explanation": "Las comillas introducen citas textuales."
+  },
+  {
+    "id": "2.1_q259",
+    "number": 259,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Qué signo se usa para separar los elementos de una fecha?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Punto"
+      },
+      {
+        "key": "E",
+        "text": "Guion"
+      },
+      {
+        "key": "F",
+        "text": "Paréntesis"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "La barra separa elementos de una fecha."
+  },
+  {
+    "id": "2.1_q260",
+    "number": 260,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Qué signo se usa para encerrar aclaraciones?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Punto"
+      },
+      {
+        "key": "C",
+        "text": "Punto y coma"
+      },
+      {
+        "key": "E",
+        "text": "Paréntesis"
+      },
+      {
+        "key": "F",
+        "text": "Interrogación"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Los paréntesis encierran aclaraciones."
+  },
+  {
+    "id": "2.1_q261",
+    "number": 261,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la coma en: \"Juan, ven aquí\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativo"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Vocativo: se llama o invoca a alguien."
+  },
+  {
+    "id": "2.1_q262",
+    "number": 262,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la coma en: \"Compré manzanas, peras y uvas\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativo"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Enumeración: se listan elementos."
+  },
+  {
+    "id": "2.1_q263",
+    "number": 263,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la coma en: \"Madrid, capital de España, es una ciudad hermosa\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativo"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Aposición: explica o aclara el sustantivo."
+  },
+  {
+    "id": "2.1_q264",
+    "number": 264,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la coma en: \"Sin embargo, no fui\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativo"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Nexo: conecta ideas."
+  },
+  {
+    "id": "2.1_q265",
+    "number": 265,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la coma en: \"Yo estudio; tú, trabajas\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativo"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "F",
+    "explanation": "Elipsis: omite el verbo."
+  },
+  {
+    "id": "2.1_q266",
+    "number": 266,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto del punto y coma en: \"Llegó tarde; sin embargo, entró\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Separar oraciones"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Separa oraciones relacionadas."
+  },
+  {
+    "id": "2.1_q267",
+    "number": 267,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de los dos puntos en: \"Tengo tres hermanos: Ana, Luis y Pedro\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Enumeración: introduce lista."
+  },
+  {
+    "id": "2.1_q268",
+    "number": 268,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de los dos puntos en: \"Dijo: 'No iré'\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cita: introduce palabras textuales."
+  },
+  {
+    "id": "2.1_q269",
+    "number": 269,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de los puntos suspensivos en: \"No sé si...\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Duda: indica incertidumbre."
+  },
+  {
+    "id": "2.1_q270",
+    "number": 270,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de las comillas en: \"Dijo 'hola'\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cita: reproduce palabras textuales."
+  },
+  {
+    "id": "2.1_q271",
+    "number": 271,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto del guion en: \"veintidós\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Compuesto: une palabras."
+  },
+  {
+    "id": "2.1_q272",
+    "number": 272,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto del guion en: \"teórico-práctico\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Compuesto: une palabras."
+  },
+  {
+    "id": "2.1_q273",
+    "number": 273,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la raya en: \"—Ven —dijo—\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diálogo: introduce intervenciones."
+  },
+  {
+    "id": "2.1_q274",
+    "number": 274,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto del paréntesis en: \"Llegó (por fin) a casa\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Aclaración: añade información."
+  },
+  {
+    "id": "2.1_q275",
+    "number": 275,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de los signos de interrogación en: \"¿Vienes?\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pregunta"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pregunta: formula interrogación."
+  },
+  {
+    "id": "2.1_q276",
+    "number": 276,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de los signos de exclamación en: \"¡Ven!\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Exclamación: expresa emoción."
+  },
+  {
+    "id": "2.1_q277",
+    "number": 277,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la diéresis en: \"pingüino\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronunciar la u"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diéresis: pronuncia la u."
+  },
+  {
+    "id": "2.1_q278",
+    "number": 278,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la diéresis en: \"vergüenza\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronunciar la u"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diéresis: pronuncia la u."
+  },
+  {
+    "id": "2.1_q279",
+    "number": 279,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la diéresis en: \"güero\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronunciar la u"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diéresis: pronuncia la u."
+  },
+  {
+    "id": "2.1_q280",
+    "number": 280,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la diéresis en: \"cigüeña\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronunciar la u"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diéresis: pronuncia la u."
+  },
+  {
+    "id": "2.1_q281",
+    "number": 281,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la diéresis en: \"agüita\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronunciar la u"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diéresis: pronuncia la u."
+  },
+  {
+    "id": "2.1_q282",
+    "number": 282,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la diéresis en: \"lingüística\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronunciar la u"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diéresis: pronuncia la u."
+  },
+  {
+    "id": "2.1_q283",
+    "number": 283,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la diéresis en: \"piragüismo\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronunciar la u"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diéresis: pronuncia la u."
+  },
+  {
+    "id": "2.1_q284",
+    "number": 284,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la diéresis en: \"bilingüe\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronunciar la u"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diéresis: pronuncia la u."
+  },
+  {
+    "id": "2.1_q285",
+    "number": 285,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la diéresis en: \"antigüedad\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronunciar la u"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diéresis: pronuncia la u."
+  },
+  {
+    "id": "2.1_q286",
+    "number": 286,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la diéresis en: \"desagüe\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pronunciar la u"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diéresis: pronuncia la u."
+  },
+  {
+    "id": "2.1_q287",
+    "number": 287,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la coma en: \"Pedro, el médico, llegó\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativo"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Aposición: explica el sustantivo."
+  },
+  {
+    "id": "2.1_q288",
+    "number": 288,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la coma en: \"Compré pan, leche y huevos\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativo"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Enumeración: lista elementos."
+  },
+  {
+    "id": "2.1_q289",
+    "number": 289,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la coma en: \"María, te llaman\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativo"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Vocativo: llama o invoca."
+  },
+  {
+    "id": "2.1_q290",
+    "number": 290,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la coma en: \"Bogotá, capital de Colombia, es grande\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativo"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "Aposición: explica el sustantivo."
+  },
+  {
+    "id": "2.1_q291",
+    "number": 291,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la coma en: \"Por lo tanto, no iré\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativo"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "E",
+    "explanation": "Nexo: conecta ideas."
+  },
+  {
+    "id": "2.1_q292",
+    "number": 292,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto del punto y coma en: \"Unos cantan; otros, bailan\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Separar oraciones"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Separa oraciones relacionadas."
+  },
+  {
+    "id": "2.1_q293",
+    "number": 293,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de los dos puntos en: \"Tengo dos opciones: quedarme o irme\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "Enumeración: introduce opciones."
+  },
+  {
+    "id": "2.1_q294",
+    "number": 294,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de los dos puntos en: \"Explicó: 'No puedo'\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cita: introduce palabras textuales."
+  },
+  {
+    "id": "2.1_q295",
+    "number": 295,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de los puntos suspensivos en: \"Tal vez...\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Duda: indica incertidumbre."
+  },
+  {
+    "id": "2.1_q296",
+    "number": 296,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de las comillas en: \"Le dijo 'adiós'\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cita: reproduce palabras textuales."
+  },
+  {
+    "id": "2.1_q297",
+    "number": 297,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto del guion en: \"físico-químico\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Compuesto: une palabras."
+  },
+  {
+    "id": "2.1_q298",
+    "number": 298,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de la raya en: \"—Hola —saludó—\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Diálogo: introduce intervenciones."
+  },
+  {
+    "id": "2.1_q299",
+    "number": 299,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto del paréntesis en: \"Vino (creo) tarde\"?",
+    "options": [
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Aclaración: añade información."
+  },
+  {
+    "id": "2.1_q300",
+    "number": 300,
+    "subtopicId": "2.1",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
+    "statement": "¿Cuál es el uso correcto de los signos de interrogación en: \"¿Qué hora es?\"?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pregunta"
+      },
+      {
+        "key": "D",
+        "text": "Inciso"
+      },
+      {
+        "key": "E",
+        "text": "Nexo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Pregunta: formula interrogación."
+  }
+]

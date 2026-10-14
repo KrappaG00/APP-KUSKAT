@@ -1,0 +1,7967 @@
+[
+  {
+    "id": "2.3_q1",
+    "number": 1,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "¿Qué estudia la sintaxis?",
+    "options": [
+      {
+        "key": "A",
+        "text": "La estructura de las oraciones y las relaciones entre sus constituyentes"
+      },
+      {
+        "key": "C",
+        "text": "La ortografía de las palabras"
+      },
+      {
+        "key": "D",
+        "text": "La pronunciación de las palabras"
+      },
+      {
+        "key": "F",
+        "text": "La formación de las palabras"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La sintaxis estudia la estructura de las oraciones."
+  },
+  {
+    "id": "2.3_q2",
+    "number": 2,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "¿Qué es una oración?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una unidad lingüística con sentido completo que contiene verbo conjugado"
+      },
+      {
+        "key": "B",
+        "text": "Un conjunto de palabras sin sentido"
+      },
+      {
+        "key": "C",
+        "text": "Una palabra aislada"
+      },
+      {
+        "key": "D",
+        "text": "Un conjunto de letras"
+      },
+      {
+        "key": "E",
+        "text": "Un conjunto de sílabas"
+      },
+      {
+        "key": "F",
+        "text": "Un conjunto de fonemas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La oración tiene sentido completo y verbo conjugado."
+  },
+  {
+    "id": "2.3_q3",
+    "number": 3,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "La oración simple se caracteriza por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tener un solo verbo conjugado"
+      },
+      {
+        "key": "B",
+        "text": "Tener dos o más verbos conjugados"
+      },
+      {
+        "key": "C",
+        "text": "No tener verbo"
+      },
+      {
+        "key": "D",
+        "text": "Tener solo sustantivos"
+      },
+      {
+        "key": "E",
+        "text": "Tener solo adjetivos"
+      },
+      {
+        "key": "F",
+        "text": "Tener solo adverbios"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La oración simple tiene un solo verbo conjugado."
+  },
+  {
+    "id": "2.3_q4",
+    "number": 4,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "La oración compuesta se caracteriza por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tener dos o más verbos conjugados"
+      },
+      {
+        "key": "B",
+        "text": "Tener un solo verbo conjugado"
+      },
+      {
+        "key": "C",
+        "text": "No tener verbo"
+      },
+      {
+        "key": "D",
+        "text": "Tener solo sustantivos"
+      },
+      {
+        "key": "E",
+        "text": "Tener solo adjetivos"
+      },
+      {
+        "key": "F",
+        "text": "Tener solo adverbios"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La oración compuesta tiene dos o más verbos conjugados."
+  },
+  {
+    "id": "2.3_q5",
+    "number": 5,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "¿Qué es un sintagma?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un grupo de palabras que desempeña una función sintáctica"
+      },
+      {
+        "key": "B",
+        "text": "Una palabra aislada"
+      },
+      {
+        "key": "C",
+        "text": "Un conjunto de oraciones"
+      },
+      {
+        "key": "D",
+        "text": "Un conjunto de párrafos"
+      },
+      {
+        "key": "E",
+        "text": "Un conjunto de textos"
+      },
+      {
+        "key": "F",
+        "text": "Un conjunto de letras"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El sintagma es un grupo de palabras con función sintáctica."
+  },
+  {
+    "id": "2.3_q6",
+    "number": 6,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "¿Cuántos tipos principales de sintagmas existen?",
+    "options": [
+      {
+        "key": "C",
+        "text": "Tres: nominal, verbal y adjetival"
+      },
+      {
+        "key": "E",
+        "text": "Uno: nominal"
+      },
+      {
+        "key": "F",
+        "text": "Seis: nominal, verbal, adjetival, adverbial, preposicional y conjuntivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cuatro tipos principales: nominal, verbal, adjetival y adverbial."
+  },
+  {
+    "id": "2.3_q7",
+    "number": 7,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El núcleo del sintagma nominal es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sustantivo o pronombre"
+      },
+      {
+        "key": "B",
+        "text": "Un verbo"
+      },
+      {
+        "key": "C",
+        "text": "Un adjetivo"
+      },
+      {
+        "key": "D",
+        "text": "Un adverbio"
+      },
+      {
+        "key": "E",
+        "text": "Una preposición"
+      },
+      {
+        "key": "F",
+        "text": "Una conjunción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El núcleo del sintagma nominal es un sustantivo o pronombre."
+  },
+  {
+    "id": "2.3_q8",
+    "number": 8,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El núcleo del sintagma verbal es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un verbo"
+      },
+      {
+        "key": "B",
+        "text": "Un sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Un adjetivo"
+      },
+      {
+        "key": "D",
+        "text": "Un adverbio"
+      },
+      {
+        "key": "E",
+        "text": "Una preposición"
+      },
+      {
+        "key": "F",
+        "text": "Una conjunción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El núcleo del sintagma verbal es un verbo."
+  },
+  {
+    "id": "2.3_q9",
+    "number": 9,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El núcleo del sintagma adjetival es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un adjetivo"
+      },
+      {
+        "key": "B",
+        "text": "Un sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Un verbo"
+      },
+      {
+        "key": "D",
+        "text": "Un adverbio"
+      },
+      {
+        "key": "E",
+        "text": "Una preposición"
+      },
+      {
+        "key": "F",
+        "text": "Una conjunción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El núcleo del sintagma adjetival es un adjetivo."
+  },
+  {
+    "id": "2.3_q10",
+    "number": 10,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El núcleo del sintagma adverbial es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un adverbio"
+      },
+      {
+        "key": "B",
+        "text": "Un sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Un verbo"
+      },
+      {
+        "key": "D",
+        "text": "Un adjetivo"
+      },
+      {
+        "key": "E",
+        "text": "Una preposición"
+      },
+      {
+        "key": "F",
+        "text": "Una conjunción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El núcleo del sintagma adverbial es un adverbio."
+  },
+  {
+    "id": "2.3_q11",
+    "number": 11,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El sintagma preposicional se caracteriza por:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El sintagma preposicional está encabezado por preposición."
+  },
+  {
+    "id": "2.3_q12",
+    "number": 12,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "La función sintáctica se refiere a:",
+    "options": [
+      {
+        "key": "C",
+        "text": "La ortografía de la palabra"
+      },
+      {
+        "key": "D",
+        "text": "La pronunciación de la palabra"
+      },
+      {
+        "key": "F",
+        "text": "La formación de la palabra"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La función sintáctica es el papel del elemento en la oración."
+  },
+  {
+    "id": "2.3_q13",
+    "number": 13,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "Los constituyentes inmediatos de la oración son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sujeto y predicado"
+      },
+      {
+        "key": "B",
+        "text": "Sustantivo y adjetivo"
+      },
+      {
+        "key": "C",
+        "text": "Verbo y adverbio"
+      },
+      {
+        "key": "E",
+        "text": "Preposición y conjunción"
+      },
+      {
+        "key": "F",
+        "text": "Pronombre y verbo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los constituyentes inmediatos son sujeto y predicado."
+  },
+  {
+    "id": "2.3_q14",
+    "number": 14,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El sujeto de una oración es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Lo que se dice del sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El sujeto es el elemento del que se dice algo."
+  },
+  {
+    "id": "2.3_q15",
+    "number": 15,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El predicado de una oración es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lo que se dice del sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El predicado es lo que se dice del sujeto."
+  },
+  {
+    "id": "2.3_q16",
+    "number": 16,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "La concordancia entre sujeto y predicado se da en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Número y persona"
+      },
+      {
+        "key": "B",
+        "text": "Género y número"
+      },
+      {
+        "key": "C",
+        "text": "Persona y género"
+      },
+      {
+        "key": "D",
+        "text": "Tiempo y modo"
+      },
+      {
+        "key": "F",
+        "text": "Modo y número"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La concordancia se da en número y persona."
+  },
+  {
+    "id": "2.3_q17",
+    "number": 17,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El sujeto léxico es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El sujeto léxico aparece explícitamente."
+  },
+  {
+    "id": "2.3_q18",
+    "number": 18,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El sujeto gramatical o elidido es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El sujeto gramatical o elidido no aparece explícitamente."
+  },
+  {
+    "id": "2.3_q19",
+    "number": 19,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El sujeto puede estar formado por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sustantivo, pronombre, infinitivo o una oración"
+      },
+      {
+        "key": "B",
+        "text": "Solo un sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Solo un pronombre"
+      },
+      {
+        "key": "D",
+        "text": "Solo un infinitivo"
+      },
+      {
+        "key": "E",
+        "text": "Solo una oración"
+      },
+      {
+        "key": "F",
+        "text": "Solo un adjetivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El sujeto puede ser sustantivo, pronombre, infinitivo u oración."
+  },
+  {
+    "id": "2.3_q20",
+    "number": 20,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El predicado puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nominal o verbal"
+      },
+      {
+        "key": "B",
+        "text": "Solo nominal"
+      },
+      {
+        "key": "C",
+        "text": "Solo verbal"
+      },
+      {
+        "key": "D",
+        "text": "Solo adjetival"
+      },
+      {
+        "key": "E",
+        "text": "Solo adverbial"
+      },
+      {
+        "key": "F",
+        "text": "Solo preposicional"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El predicado puede ser nominal o verbal."
+  },
+  {
+    "id": "2.3_q21",
+    "number": 21,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El predicado nominal se caracteriza por:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Llevar verbos predicativos"
+      },
+      {
+        "key": "C",
+        "text": "No llevar verbo"
+      },
+      {
+        "key": "D",
+        "text": "Llevar solo adverbios"
+      },
+      {
+        "key": "E",
+        "text": "Llevar solo adjetivos"
+      },
+      {
+        "key": "F",
+        "text": "Llevar solo sustantivos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El predicado nominal lleva verbos copulativos."
+  },
+  {
+    "id": "2.3_q22",
+    "number": 22,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El predicado verbal se caracteriza por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Llevar verbos predicativos"
+      },
+      {
+        "key": "B",
+        "text": "Llevar verbos copulativos"
+      },
+      {
+        "key": "C",
+        "text": "No llevar verbo"
+      },
+      {
+        "key": "D",
+        "text": "Llevar solo adverbios"
+      },
+      {
+        "key": "E",
+        "text": "Llevar solo adjetivos"
+      },
+      {
+        "key": "F",
+        "text": "Llevar solo sustantivos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El predicado verbal lleva verbos predicativos."
+  },
+  {
+    "id": "2.3_q23",
+    "number": 23,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "Los verbos copulativos son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ser, estar y parecer"
+      },
+      {
+        "key": "B",
+        "text": "Ser, estar y tener"
+      },
+      {
+        "key": "C",
+        "text": "Ser, haber y tener"
+      },
+      {
+        "key": "E",
+        "text": "Ser, estar y haber"
+      },
+      {
+        "key": "F",
+        "text": "Parecer, tener y hacer"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los verbos copulativos son ser, estar y parecer."
+  },
+  {
+    "id": "2.3_q24",
+    "number": 24,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El atributo es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El atributo aparece con verbos copulativos."
+  },
+  {
+    "id": "2.3_q25",
+    "number": 25,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El complemento directo es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El complemento directo recibe directamente la acción."
+  },
+  {
+    "id": "2.3_q26",
+    "number": 26,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El complemento indirecto es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El complemento indirecto recibe indirectamente la acción."
+  },
+  {
+    "id": "2.3_q27",
+    "number": 27,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El complemento circunstancial es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El complemento circunstancial indica circunstancias."
+  },
+  {
+    "id": "2.3_q28",
+    "number": 28,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El complemento agente es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El complemento agente realiza la acción en pasivas."
+  },
+  {
+    "id": "2.3_q29",
+    "number": 29,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El complemento predicativo es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El predicativo complementa a la vez al verbo y al sujeto."
+  },
+  {
+    "id": "2.3_q30",
+    "number": 30,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El complemento del nombre es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El complemento del nombre modifica al sustantivo."
+  },
+  {
+    "id": "2.3_q31",
+    "number": 31,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El complemento del adjetivo es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El complemento del adjetivo modifica al adjetivo."
+  },
+  {
+    "id": "2.3_q32",
+    "number": 32,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El complemento del adverbio es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El complemento del adverbio modifica al adverbio."
+  },
+  {
+    "id": "2.3_q33",
+    "number": 33,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "La aposición es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un complemento del nombre que explica o identifica al sustantivo"
+      },
+      {
+        "key": "B",
+        "text": "Un complemento del verbo"
+      },
+      {
+        "key": "C",
+        "text": "Un complemento del adjetivo"
+      },
+      {
+        "key": "D",
+        "text": "Un complemento del adverbio"
+      },
+      {
+        "key": "E",
+        "text": "Un complemento de la oración"
+      },
+      {
+        "key": "F",
+        "text": "Un complemento del pronombre"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La aposición explica o identifica al sustantivo."
+  },
+  {
+    "id": "2.3_q34",
+    "number": 34,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "Los elementos extraoracionales son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativos, interjecciones y marcadores del discurso"
+      },
+      {
+        "key": "B",
+        "text": "Sujeto y predicado"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los elementos extraoracionales son vocativos, interjecciones y marcadores."
+  },
+  {
+    "id": "2.3_q35",
+    "number": 35,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "El vocativo es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El vocativo sirve para llamar o invocar."
+  },
+  {
+    "id": "2.3_q36",
+    "number": 36,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "Las interjecciones son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Palabras que expresan emociones o reacciones"
+      },
+      {
+        "key": "B",
+        "text": "Palabras que modifican al sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Palabras que modifican al verbo"
+      },
+      {
+        "key": "D",
+        "text": "Palabras que modifican al adjetivo"
+      },
+      {
+        "key": "E",
+        "text": "Palabras que unen oraciones"
+      },
+      {
+        "key": "F",
+        "text": "Palabras que indican circunstancias"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las interjecciones expresan emociones o reacciones."
+  },
+  {
+    "id": "2.3_q37",
+    "number": 37,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "Los marcadores del discurso son:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Los marcadores del discurso organizan y conectan el texto."
+  },
+  {
+    "id": "2.3_q38",
+    "number": 38,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "La oración impersonal se caracteriza por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "No tener sujeto léxico ni gramatical"
+      },
+      {
+        "key": "B",
+        "text": "Tener sujeto léxico"
+      },
+      {
+        "key": "C",
+        "text": "Tener sujeto gramatical"
+      },
+      {
+        "key": "D",
+        "text": "Tener dos sujetos"
+      },
+      {
+        "key": "E",
+        "text": "No tener predicado"
+      },
+      {
+        "key": "F",
+        "text": "No tener verbo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La oración impersonal no tiene sujeto léxico ni gramatical."
+  },
+  {
+    "id": "2.3_q39",
+    "number": 39,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "La oración pasiva se caracteriza por:",
+    "options": [
+      {
+        "key": "C",
+        "text": "No tener sujeto"
+      },
+      {
+        "key": "D",
+        "text": "No tener verbo"
+      },
+      {
+        "key": "E",
+        "text": "No tener predicado"
+      },
+      {
+        "key": "F",
+        "text": "Tener dos verbos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "En la pasiva el sujeto recibe la acción."
+  },
+  {
+    "id": "2.3_q40",
+    "number": 40,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
+    "statement": "La oración activa se caracteriza por:",
+    "options": [
+      {
+        "key": "C",
+        "text": "No tener sujeto"
+      },
+      {
+        "key": "D",
+        "text": "No tener verbo"
+      },
+      {
+        "key": "E",
+        "text": "No tener predicado"
+      },
+      {
+        "key": "F",
+        "text": "Tener dos verbos ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "En la activa el sujeto realiza la acción."
+  },
+  {
+    "id": "2.3_q41",
+    "number": 41,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El sintagma nominal tiene como núcleo:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sustantivo o pronombre"
+      },
+      {
+        "key": "B",
+        "text": "Un verbo"
+      },
+      {
+        "key": "C",
+        "text": "Un adjetivo"
+      },
+      {
+        "key": "D",
+        "text": "Un adverbio"
+      },
+      {
+        "key": "E",
+        "text": "Una preposición"
+      },
+      {
+        "key": "F",
+        "text": "Una conjunción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El núcleo del sintagma nominal es sustantivo o pronombre."
+  },
+  {
+    "id": "2.3_q42",
+    "number": 42,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "Los determinantes del sintagma nominal son:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo artículos"
+      },
+      {
+        "key": "C",
+        "text": "Solo demostrativos"
+      },
+      {
+        "key": "D",
+        "text": "Solo posesivos"
+      },
+      {
+        "key": "E",
+        "text": "Solo numerales"
+      },
+      {
+        "key": "F",
+        "text": "Solo indefinidos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los determinantes son artículos, demostrativos, posesivos, etc."
+  },
+  {
+    "id": "2.3_q43",
+    "number": 43,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El artículo determinado es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Un, una, unos, unas"
+      },
+      {
+        "key": "D",
+        "text": "Mi, tu, su"
+      },
+      {
+        "key": "E",
+        "text": "Uno, dos, tres"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El artículo determinado es el, la, los, las."
+  },
+  {
+    "id": "2.3_q44",
+    "number": 44,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El artículo indeterminado es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un, una, unos, unas"
+      },
+      {
+        "key": "D",
+        "text": "Mi, tu, su"
+      },
+      {
+        "key": "E",
+        "text": "Uno, dos, tres"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El artículo indeterminado es un, una, unos, unas."
+  },
+  {
+    "id": "2.3_q45",
+    "number": 45,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "Los demostrativos son:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Un, una, unos, unas"
+      },
+      {
+        "key": "D",
+        "text": "Mi, tu, su"
+      },
+      {
+        "key": "E",
+        "text": "Uno, dos, tres"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los demostrativos son este, ese, aquel y variantes."
+  },
+  {
+    "id": "2.3_q46",
+    "number": 46,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "Los posesivos son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mi, tu, su, nuestro, vuestro y sus variantes"
+      },
+      {
+        "key": "C",
+        "text": "Un, una, unos, unas"
+      },
+      {
+        "key": "E",
+        "text": "Uno, dos, tres"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los posesivos son mi, tu, su, nuestro, vuestro y variantes."
+  },
+  {
+    "id": "2.3_q47",
+    "number": 47,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "Los numerales pueden ser:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo cardinales"
+      },
+      {
+        "key": "C",
+        "text": "Solo ordinales"
+      },
+      {
+        "key": "D",
+        "text": "Solo partitivos"
+      },
+      {
+        "key": "E",
+        "text": "Solo multiplicativos"
+      },
+      {
+        "key": "F",
+        "text": "Solo romanos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los numerales pueden ser cardinales y ordinales."
+  },
+  {
+    "id": "2.3_q48",
+    "number": 48,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "Los indefinidos son:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Un, una, unos, unas"
+      },
+      {
+        "key": "E",
+        "text": "Mi, tu, su"
+      },
+      {
+        "key": "F",
+        "text": "Uno, dos, tres"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los indefinidos son alguno, ninguno, todo, mucho, poco, etc."
+  },
+  {
+    "id": "2.3_q49",
+    "number": 49,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El adjetivo dentro del sintagma nominal funciona como:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Modificador o complemento del nombre"
+      },
+      {
+        "key": "B",
+        "text": "Núcleo del sintagma"
+      },
+      {
+        "key": "D",
+        "text": "Verbo"
+      },
+      {
+        "key": "F",
+        "text": "Preposición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El adjetivo funciona como modificador o complemento del nombre."
+  },
+  {
+    "id": "2.3_q50",
+    "number": 50,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "La concordancia entre sustantivo y adjetivo se da en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Género y número"
+      },
+      {
+        "key": "B",
+        "text": "Persona y número"
+      },
+      {
+        "key": "C",
+        "text": "Persona y género"
+      },
+      {
+        "key": "D",
+        "text": "Tiempo y modo"
+      },
+      {
+        "key": "F",
+        "text": "Modo y número"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La concordancia sustantivo-adjetivo es en género y número."
+  },
+  {
+    "id": "2.3_q51",
+    "number": 51,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "La aposición puede ser:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo explicativa"
+      },
+      {
+        "key": "C",
+        "text": "Solo especificativa"
+      },
+      {
+        "key": "D",
+        "text": "Solo restrictiva"
+      },
+      {
+        "key": "E",
+        "text": "Solo no restrictiva"
+      },
+      {
+        "key": "F",
+        "text": "Solo determinativa"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La aposición puede ser explicativa o especificativa."
+  },
+  {
+    "id": "2.3_q52",
+    "number": 52,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "La aposición explicativa se separa mediante:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Punto y coma"
+      },
+      {
+        "key": "D",
+        "text": "Puntos suspensivos"
+      },
+      {
+        "key": "E",
+        "text": "Paréntesis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La aposición explicativa se separa mediante comas."
+  },
+  {
+    "id": "2.3_q53",
+    "number": 53,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El complemento del nombre puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sintagma preposicional, un adjetivo o una aposición"
+      },
+      {
+        "key": "B",
+        "text": "Solo un sintagma preposicional"
+      },
+      {
+        "key": "C",
+        "text": "Solo un adjetivo"
+      },
+      {
+        "key": "D",
+        "text": "Solo una aposición"
+      },
+      {
+        "key": "E",
+        "text": "Solo un adverbio"
+      },
+      {
+        "key": "F",
+        "text": "Solo un verbo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El complemento del nombre puede ser sintagma preposicional, adjetivo o aposición."
+  },
+  {
+    "id": "2.3_q54",
+    "number": 54,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"el libro de Juan\", \"de Juan\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"De Juan\" es complemento del nombre."
+  },
+  {
+    "id": "2.3_q55",
+    "number": 55,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"la casa blanca\", \"blanca\" es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Núcleo del sintagma"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Blanca\" es adjetivo que modifica al sustantivo."
+  },
+  {
+    "id": "2.3_q56",
+    "number": 56,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"mi amigo Pedro\", \"Pedro\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Pedro\" es aposición."
+  },
+  {
+    "id": "2.3_q57",
+    "number": 57,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El núcleo del sintagma nominal puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sustantivo, pronombre, infinitivo o una oración sustantivada"
+      },
+      {
+        "key": "B",
+        "text": "Solo un sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Solo un pronombre"
+      },
+      {
+        "key": "D",
+        "text": "Solo un infinitivo"
+      },
+      {
+        "key": "E",
+        "text": "Solo una oración"
+      },
+      {
+        "key": "F",
+        "text": "Solo un adjetivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El núcleo del sintagma nominal puede ser sustantivo, pronombre, infinitivo u oración"
+  },
+  {
+    "id": "2.3_q58",
+    "number": 58,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"los tres libros\", \"los\" y \"tres\" son:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Núcleos"
+      },
+      {
+        "key": "F",
+        "text": "Verbos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Los\" y \"tres\" son determinantes."
+  },
+  {
+    "id": "2.3_q59",
+    "number": 59,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"este coche rojo\", \"este\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sustantivo"
+      },
+      {
+        "key": "D",
+        "text": "Pronombre"
+      },
+      {
+        "key": "F",
+        "text": "Verbo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Este\" es determinante demostrativo."
+  },
+  {
+    "id": "2.3_q60",
+    "number": 60,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"este coche rojo\", \"rojo\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sustantivo"
+      },
+      {
+        "key": "D",
+        "text": "Pronombre"
+      },
+      {
+        "key": "F",
+        "text": "Verbo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Rojo\" es adjetivo."
+  },
+  {
+    "id": "2.3_q61",
+    "number": 61,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"muchos alumnos\", \"muchos\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sustantivo"
+      },
+      {
+        "key": "D",
+        "text": "Pronombre"
+      },
+      {
+        "key": "F",
+        "text": "Verbo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Muchos\" es determinante indefinido."
+  },
+  {
+    "id": "2.3_q62",
+    "number": 62,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"el primer día\", \"primer\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sustantivo"
+      },
+      {
+        "key": "D",
+        "text": "Pronombre"
+      },
+      {
+        "key": "F",
+        "text": "Verbo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Primer\" es determinante numeral ordinal."
+  },
+  {
+    "id": "2.3_q63",
+    "number": 63,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"dos casas\", \"dos\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sustantivo"
+      },
+      {
+        "key": "D",
+        "text": "Pronombre"
+      },
+      {
+        "key": "F",
+        "text": "Verbo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Dos\" es determinante numeral cardinal."
+  },
+  {
+    "id": "2.3_q64",
+    "number": 64,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El sintagma nominal puede desempeñar la función de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sujeto, complemento directo, complemento indirecto, etc."
+      },
+      {
+        "key": "B",
+        "text": "Solo sujeto"
+      },
+      {
+        "key": "C",
+        "text": "Solo complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Solo complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Solo complemento circunstancial"
+      },
+      {
+        "key": "F",
+        "text": "Solo atributo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El sintagma nominal puede ser sujeto, CD, CI, etc."
+  },
+  {
+    "id": "2.3_q65",
+    "number": 65,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan compró pan\", \"Juan\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sujeto"
+      },
+      {
+        "key": "B",
+        "text": "Predicado"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan\" es sujeto."
+  },
+  {
+    "id": "2.3_q66",
+    "number": 66,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan compró pan\", \"pan\" es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Pan\" es complemento directo."
+  },
+  {
+    "id": "2.3_q67",
+    "number": 67,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan dio el libro a María\", \"a María\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"A María\" es complemento indirecto."
+  },
+  {
+    "id": "2.3_q68",
+    "number": 68,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan dio el libro a María\", \"el libro\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El libro\" es complemento directo."
+  },
+  {
+    "id": "2.3_q69",
+    "number": 69,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El complemento directo puede sustituirse por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lo, la, los, las"
+      },
+      {
+        "key": "B",
+        "text": "Le, les"
+      },
+      {
+        "key": "C",
+        "text": "Me, te, se"
+      },
+      {
+        "key": "D",
+        "text": "Nos, os"
+      },
+      {
+        "key": "F",
+        "text": "Él, ella, ellos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El CD se sustituye por lo, la, los, las."
+  },
+  {
+    "id": "2.3_q70",
+    "number": 70,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El complemento indirecto puede sustituirse por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Le, les"
+      },
+      {
+        "key": "B",
+        "text": "Lo, la, los, las"
+      },
+      {
+        "key": "C",
+        "text": "Me, te, se"
+      },
+      {
+        "key": "D",
+        "text": "Nos, os"
+      },
+      {
+        "key": "F",
+        "text": "Él, ella, ellos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El CI se sustituye por le, les."
+  },
+  {
+    "id": "2.3_q71",
+    "number": 71,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El sujeto puede sustituirse por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Él, ella, ellos, ellas"
+      },
+      {
+        "key": "B",
+        "text": "Lo, la, los, las"
+      },
+      {
+        "key": "C",
+        "text": "Le, les"
+      },
+      {
+        "key": "D",
+        "text": "Me, te, se"
+      },
+      {
+        "key": "E",
+        "text": "Nos, os"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El sujeto se sustituye por él, ella, ellos, ellas."
+  },
+  {
+    "id": "2.3_q72",
+    "number": 72,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Se lo dije\", \"se\" sustituye a:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Se\" sustituye al complemento indirecto."
+  },
+  {
+    "id": "2.3_q73",
+    "number": 73,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Se lo dije\", \"lo\" sustituye a:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Lo\" sustituye al complemento directo."
+  },
+  {
+    "id": "2.3_q74",
+    "number": 74,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El atributo puede sustituirse por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lo"
+      },
+      {
+        "key": "B",
+        "text": "Le"
+      },
+      {
+        "key": "C",
+        "text": "La"
+      },
+      {
+        "key": "D",
+        "text": "Los"
+      },
+      {
+        "key": "E",
+        "text": "Las"
+      },
+      {
+        "key": "F",
+        "text": "Les"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El atributo se sustituye por \"lo\"."
+  },
+  {
+    "id": "2.3_q75",
+    "number": 75,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan es médico\", \"médico\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Médico\" es atributo."
+  },
+  {
+    "id": "2.3_q76",
+    "number": 76,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan está cansado\", \"cansado\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Cansado\" es atributo."
+  },
+  {
+    "id": "2.3_q77",
+    "number": 77,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan parece inteligente\", \"inteligente\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Inteligente\" es atributo."
+  },
+  {
+    "id": "2.3_q78",
+    "number": 78,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El atributo concuerda con el sujeto en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Género y número"
+      },
+      {
+        "key": "B",
+        "text": "Persona y número"
+      },
+      {
+        "key": "C",
+        "text": "Persona y género"
+      },
+      {
+        "key": "D",
+        "text": "Tiempo y modo"
+      },
+      {
+        "key": "F",
+        "text": "Modo y número"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El atributo concuerda con el sujeto en género y número."
+  },
+  {
+    "id": "2.3_q79",
+    "number": 79,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El predicativo concuerda con:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo el sujeto"
+      },
+      {
+        "key": "C",
+        "text": "Solo el complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Solo el complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Solo el verbo"
+      },
+      {
+        "key": "F",
+        "text": "Solo el adverbio"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El predicativo concuerda con el sujeto o el CD."
+  },
+  {
+    "id": "2.3_q80",
+    "number": 80,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan llegó cansado\", \"cansado\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Cansado\" es predicativo."
+  },
+  {
+    "id": "2.3_q81",
+    "number": 81,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Considero a Juan inteligente\", \"inteligente\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Predicativo del complemento directo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Inteligente\" es predicativo del CD."
+  },
+  {
+    "id": "2.3_q82",
+    "number": 82,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El complemento circunstancial puede ser de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lugar, tiempo, modo, causa, finalidad, etc."
+      },
+      {
+        "key": "B",
+        "text": "Solo lugar"
+      },
+      {
+        "key": "C",
+        "text": "Solo tiempo"
+      },
+      {
+        "key": "D",
+        "text": "Solo modo"
+      },
+      {
+        "key": "E",
+        "text": "Solo causa"
+      },
+      {
+        "key": "F",
+        "text": "Solo finalidad"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El CC puede ser de lugar, tiempo, modo, causa, finalidad, etc."
+  },
+  {
+    "id": "2.3_q83",
+    "number": 83,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan estudia en la biblioteca\", \"en la biblioteca\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En la biblioteca\" es CC de lugar."
+  },
+  {
+    "id": "2.3_q84",
+    "number": 84,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan llegó ayer\", \"ayer\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Ayer\" es CC de tiempo."
+  },
+  {
+    "id": "2.3_q85",
+    "number": 85,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan estudia con atención\", \"con atención\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Con atención\" es CC de modo."
+  },
+  {
+    "id": "2.3_q86",
+    "number": 86,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan no vino por la lluvia\", \"por la lluvia\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por la lluvia\" es CC de causa."
+  },
+  {
+    "id": "2.3_q87",
+    "number": 87,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"Juan estudia para aprobar\", \"para aprobar\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Para aprobar\" es CC de finalidad."
+  },
+  {
+    "id": "2.3_q88",
+    "number": 88,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "El complemento agente aparece en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oraciones pasivas"
+      },
+      {
+        "key": "B",
+        "text": "Oraciones activas"
+      },
+      {
+        "key": "C",
+        "text": "Oraciones impersonales"
+      },
+      {
+        "key": "D",
+        "text": "Oraciones copulativas"
+      },
+      {
+        "key": "E",
+        "text": "Oraciones transitivas"
+      },
+      {
+        "key": "F",
+        "text": "Oraciones intransitivas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El complemento agente aparece en oraciones pasivas."
+  },
+  {
+    "id": "2.3_q89",
+    "number": 89,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"El libro fue escrito por Juan\", \"por Juan\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por Juan\" es complemento agente."
+  },
+  {
+    "id": "2.3_q90",
+    "number": 90,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
+    "statement": "En \"El libro fue escrito por Juan\", \"El libro\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sujeto paciente"
+      },
+      {
+        "key": "B",
+        "text": "Sujeto agente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El libro\" es sujeto paciente."
+  },
+  {
+    "id": "2.3_q91",
+    "number": 91,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El sintagma verbal tiene como núcleo:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un verbo"
+      },
+      {
+        "key": "B",
+        "text": "Un sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Un adjetivo"
+      },
+      {
+        "key": "D",
+        "text": "Un adverbio"
+      },
+      {
+        "key": "E",
+        "text": "Una preposición"
+      },
+      {
+        "key": "F",
+        "text": "Una conjunción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El núcleo del sintagma verbal es un verbo."
+  },
+  {
+    "id": "2.3_q92",
+    "number": 92,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El verbo expresa:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo acción"
+      },
+      {
+        "key": "C",
+        "text": "Solo proceso"
+      },
+      {
+        "key": "D",
+        "text": "Solo estado"
+      },
+      {
+        "key": "E",
+        "text": "Solo tiempo"
+      },
+      {
+        "key": "F",
+        "text": "Solo modo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El verbo expresa acción, proceso o estado."
+  },
+  {
+    "id": "2.3_q93",
+    "number": 93,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Las formas no personales del verbo son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Infinitivo, gerundio y participio"
+      },
+      {
+        "key": "B",
+        "text": "Solo infinitivo"
+      },
+      {
+        "key": "C",
+        "text": "Solo gerundio"
+      },
+      {
+        "key": "D",
+        "text": "Solo participio"
+      },
+      {
+        "key": "E",
+        "text": "Solo imperativo"
+      },
+      {
+        "key": "F",
+        "text": "Solo subjuntivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las formas no personales son infinitivo, gerundio y participio."
+  },
+  {
+    "id": "2.3_q94",
+    "number": 94,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El infinitivo termina en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-ar, -er, -ir"
+      },
+      {
+        "key": "B",
+        "text": "-ando, -iendo"
+      },
+      {
+        "key": "C",
+        "text": "-ado, -ido"
+      },
+      {
+        "key": "D",
+        "text": "-o, -as, -a"
+      },
+      {
+        "key": "E",
+        "text": "-e, -es, -e"
+      },
+      {
+        "key": "F",
+        "text": "-ría, -rías"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El infinitivo termina en -ar, -er, -ir."
+  },
+  {
+    "id": "2.3_q95",
+    "number": 95,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El gerundio termina en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-ando, -iendo"
+      },
+      {
+        "key": "B",
+        "text": "-ar, -er, -ir"
+      },
+      {
+        "key": "C",
+        "text": "-ado, -ido"
+      },
+      {
+        "key": "D",
+        "text": "-o, -as, -a"
+      },
+      {
+        "key": "E",
+        "text": "-e, -es, -e"
+      },
+      {
+        "key": "F",
+        "text": "-ría, -rías"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El gerundio termina en -ando, -iendo."
+  },
+  {
+    "id": "2.3_q96",
+    "number": 96,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El participio termina en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-ado, -ido"
+      },
+      {
+        "key": "B",
+        "text": "-ar, -er, -ir"
+      },
+      {
+        "key": "C",
+        "text": "-ando, -iendo"
+      },
+      {
+        "key": "D",
+        "text": "-o, -as, -a"
+      },
+      {
+        "key": "E",
+        "text": "-e, -es, -e"
+      },
+      {
+        "key": "F",
+        "text": "-ría, -rías"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El participio termina en -ado, -ido."
+  },
+  {
+    "id": "2.3_q97",
+    "number": 97,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Los verbos copulativos son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ser, estar, parecer"
+      },
+      {
+        "key": "B",
+        "text": "Ser, estar, tener"
+      },
+      {
+        "key": "C",
+        "text": "Ser, haber, tener"
+      },
+      {
+        "key": "E",
+        "text": "Ser, estar, haber"
+      },
+      {
+        "key": "F",
+        "text": "Parecer, tener, hacer"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los verbos copulativos son ser, estar, parecer."
+  },
+  {
+    "id": "2.3_q98",
+    "number": 98,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Los verbos predicativos son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Todos los que no son copulativos"
+      },
+      {
+        "key": "B",
+        "text": "Solo ser, estar, parecer"
+      },
+      {
+        "key": "C",
+        "text": "Solo los transitivos"
+      },
+      {
+        "key": "D",
+        "text": "Solo los intransitivos"
+      },
+      {
+        "key": "E",
+        "text": "Solo los reflexivos"
+      },
+      {
+        "key": "F",
+        "text": "Solo los impersonales"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los verbos predicativos son todos los que no son copulativos."
+  },
+  {
+    "id": "2.3_q99",
+    "number": 99,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Los verbos transitivos son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Los que necesitan complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "Los que no necesitan complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Los que necesitan complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Los que necesitan complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Los que necesitan atributo"
+      },
+      {
+        "key": "F",
+        "text": "Los que necesitan predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los transitivos necesitan complemento directo."
+  },
+  {
+    "id": "2.3_q100",
+    "number": 100,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Los verbos intransitivos son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Los que no necesitan complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "Los que necesitan complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Los que necesitan complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Los que necesitan complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Los que necesitan atributo"
+      },
+      {
+        "key": "F",
+        "text": "Los que necesitan predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los intransitivos no necesitan complemento directo."
+  },
+  {
+    "id": "2.3_q101",
+    "number": 101,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Los verbos reflexivos son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Los que llevan pronombre reflexivo"
+      },
+      {
+        "key": "B",
+        "text": "Los que no llevan pronombre"
+      },
+      {
+        "key": "C",
+        "text": "Los que llevan complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Los que llevan complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Los que llevan atributo"
+      },
+      {
+        "key": "F",
+        "text": "Los que llevan predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los reflexivos llevan pronombre reflexivo."
+  },
+  {
+    "id": "2.3_q102",
+    "number": 102,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Los verbos recíprocos son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Los que expresan acción mutua"
+      },
+      {
+        "key": "B",
+        "text": "Los que expresan acción reflexiva"
+      },
+      {
+        "key": "C",
+        "text": "Los que expresan acción transitiva"
+      },
+      {
+        "key": "D",
+        "text": "Los que expresan acción intransitiva"
+      },
+      {
+        "key": "E",
+        "text": "Los que expresan acción copulativa"
+      },
+      {
+        "key": "F",
+        "text": "Los que expresan acción impersonal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los recíprocos expresan acción mutua."
+  },
+  {
+    "id": "2.3_q103",
+    "number": 103,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Los verbos impersonales son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Los que no tienen sujeto"
+      },
+      {
+        "key": "B",
+        "text": "Los que tienen sujeto"
+      },
+      {
+        "key": "C",
+        "text": "Los que tienen dos sujetos"
+      },
+      {
+        "key": "D",
+        "text": "Los que tienen sujeto elidido"
+      },
+      {
+        "key": "E",
+        "text": "Los que tienen sujeto paciente"
+      },
+      {
+        "key": "F",
+        "text": "Los que tienen sujeto agente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los impersonales no tienen sujeto."
+  },
+  {
+    "id": "2.3_q104",
+    "number": 104,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Los verbos auxiliares son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Haber, ser, estar y otros que ayudan a formar tiempos compuestos"
+      },
+      {
+        "key": "B",
+        "text": "Solo haber"
+      },
+      {
+        "key": "C",
+        "text": "Solo ser"
+      },
+      {
+        "key": "D",
+        "text": "Solo estar"
+      },
+      {
+        "key": "E",
+        "text": "Solo tener"
+      },
+      {
+        "key": "F",
+        "text": "Solo hacer"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los auxiliares ayudan a formar tiempos compuestos."
+  },
+  {
+    "id": "2.3_q105",
+    "number": 105,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Los tiempos compuestos se forman con:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Haber + participio"
+      },
+      {
+        "key": "B",
+        "text": "Ser + participio"
+      },
+      {
+        "key": "D",
+        "text": "Tener + participio"
+      },
+      {
+        "key": "E",
+        "text": "Ir + infinitivo"
+      },
+      {
+        "key": "F",
+        "text": "Poder + infinitivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Los tiempos compuestos se forman con haber + participio."
+  },
+  {
+    "id": "2.3_q106",
+    "number": 106,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Las perífrasis verbales se forman con:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Verbo auxiliar + verbo en forma no personal"
+      },
+      {
+        "key": "C",
+        "text": "Un verbo y un adverbio"
+      },
+      {
+        "key": "D",
+        "text": "Un verbo y un sustantivo"
+      },
+      {
+        "key": "E",
+        "text": "Un verbo y un adjetivo"
+      },
+      {
+        "key": "F",
+        "text": "Un verbo y una preposición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las perífrasis se forman con auxiliar + forma no personal."
+  },
+  {
+    "id": "2.3_q107",
+    "number": 107,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "\"Voy a estudiar\" es una perífrasis de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Infinitivo"
+      },
+      {
+        "key": "B",
+        "text": "Gerundio"
+      },
+      {
+        "key": "C",
+        "text": "Participio"
+      },
+      {
+        "key": "D",
+        "text": "Subjuntivo"
+      },
+      {
+        "key": "E",
+        "text": "Imperativo"
+      },
+      {
+        "key": "F",
+        "text": "Indicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Voy a estudiar\" es perífrasis de infinitivo."
+  },
+  {
+    "id": "2.3_q108",
+    "number": 108,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "\"Estoy estudiando\" es una perífrasis de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gerundio"
+      },
+      {
+        "key": "B",
+        "text": "Infinitivo"
+      },
+      {
+        "key": "C",
+        "text": "Participio"
+      },
+      {
+        "key": "D",
+        "text": "Subjuntivo"
+      },
+      {
+        "key": "E",
+        "text": "Imperativo"
+      },
+      {
+        "key": "F",
+        "text": "Indicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Estoy estudiando\" es perífrasis de gerundio."
+  },
+  {
+    "id": "2.3_q109",
+    "number": 109,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "\"Tengo estudiado\" es una perífrasis de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Participio"
+      },
+      {
+        "key": "B",
+        "text": "Infinitivo"
+      },
+      {
+        "key": "C",
+        "text": "Gerundio"
+      },
+      {
+        "key": "D",
+        "text": "Subjuntivo"
+      },
+      {
+        "key": "E",
+        "text": "Imperativo"
+      },
+      {
+        "key": "F",
+        "text": "Indicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Tengo estudiado\" es perífrasis de participio."
+  },
+  {
+    "id": "2.3_q110",
+    "number": 110,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El modo indicativo expresa:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Realidad o certeza"
+      },
+      {
+        "key": "C",
+        "text": "Mandato"
+      },
+      {
+        "key": "E",
+        "text": "Irrealidad"
+      },
+      {
+        "key": "F",
+        "text": "Hipótesis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El indicativo expresa realidad o certeza."
+  },
+  {
+    "id": "2.3_q111",
+    "number": 111,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El modo subjuntivo expresa:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Realidad o certeza"
+      },
+      {
+        "key": "C",
+        "text": "Mandato"
+      },
+      {
+        "key": "E",
+        "text": "Negación"
+      },
+      {
+        "key": "F",
+        "text": "Pregunta"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El subjuntivo expresa duda, posibilidad, deseo o irrealidad."
+  },
+  {
+    "id": "2.3_q112",
+    "number": 112,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El modo imperativo expresa:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mandato o ruego"
+      },
+      {
+        "key": "B",
+        "text": "Realidad o certeza"
+      },
+      {
+        "key": "E",
+        "text": "Irrealidad"
+      },
+      {
+        "key": "F",
+        "text": "Hipótesis"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El imperativo expresa mandato o ruego."
+  },
+  {
+    "id": "2.3_q113",
+    "number": 113,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El tiempo verbal indica:",
+    "options": [
+      {
+        "key": "D",
+        "text": "La voz de la acción"
+      },
+      {
+        "key": "E",
+        "text": "La persona de la acción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El tiempo verbal indica el momento de la acción."
+  },
+  {
+    "id": "2.3_q114",
+    "number": 114,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El aspecto verbal indica:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Si la acción está terminada o en desarrollo"
+      },
+      {
+        "key": "D",
+        "text": "La voz de la acción"
+      },
+      {
+        "key": "E",
+        "text": "La persona de la acción"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El aspecto indica si la acción está terminada o en desarrollo."
+  },
+  {
+    "id": "2.3_q115",
+    "number": 115,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "La voz activa indica que:",
+    "options": [
+      {
+        "key": "C",
+        "text": "No hay sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Hay dos sujetos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La voz activa indica que el sujeto realiza la acción."
+  },
+  {
+    "id": "2.3_q116",
+    "number": 116,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "La voz pasiva indica que:",
+    "options": [
+      {
+        "key": "C",
+        "text": "No hay sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Hay dos sujetos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La voz pasiva indica que el sujeto recibe la acción."
+  },
+  {
+    "id": "2.3_q117",
+    "number": 117,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "La pasiva se forma con:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ser + participio + por + agente"
+      },
+      {
+        "key": "B",
+        "text": "Haber + participio"
+      },
+      {
+        "key": "D",
+        "text": "Tener + participio"
+      },
+      {
+        "key": "E",
+        "text": "Ir + infinitivo"
+      },
+      {
+        "key": "F",
+        "text": "Poder + infinitivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pasiva se forma con ser + participio + por + agente."
+  },
+  {
+    "id": "2.3_q118",
+    "number": 118,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"La casa fue construida por Juan\", la oración es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pasiva"
+      },
+      {
+        "key": "C",
+        "text": "Impersonal"
+      },
+      {
+        "key": "E",
+        "text": "Reflexiva"
+      },
+      {
+        "key": "F",
+        "text": "Recíproca"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"La casa fue construida por Juan\" es pasiva."
+  },
+  {
+    "id": "2.3_q119",
+    "number": 119,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Juan construyó la casa\", la oración es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Pasiva"
+      },
+      {
+        "key": "C",
+        "text": "Impersonal"
+      },
+      {
+        "key": "E",
+        "text": "Reflexiva"
+      },
+      {
+        "key": "F",
+        "text": "Recíproca"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan construyó la casa\" es activa."
+  },
+  {
+    "id": "2.3_q120",
+    "number": 120,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "La pasiva refleja se forma con:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Se + verbo en tercera persona"
+      },
+      {
+        "key": "B",
+        "text": "Ser + participio"
+      },
+      {
+        "key": "C",
+        "text": "Haber + participio"
+      },
+      {
+        "key": "E",
+        "text": "Ir + infinitivo"
+      },
+      {
+        "key": "F",
+        "text": "Tener + participio"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La pasiva refleja se forma con se + verbo en tercera persona."
+  },
+  {
+    "id": "2.3_q121",
+    "number": 121,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Se venden casas\", la oración es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pasiva refleja"
+      },
+      {
+        "key": "B",
+        "text": "Pasiva perifrástica"
+      },
+      {
+        "key": "D",
+        "text": "Impersonal"
+      },
+      {
+        "key": "F",
+        "text": "Reflexiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Se venden casas\" es pasiva refleja."
+  },
+  {
+    "id": "2.3_q122",
+    "number": 122,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Se vive bien aquí\", la oración es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Impersonal refleja"
+      },
+      {
+        "key": "B",
+        "text": "Pasiva refleja"
+      },
+      {
+        "key": "E",
+        "text": "Reflexiva"
+      },
+      {
+        "key": "F",
+        "text": "Recíproca"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Se vive bien aquí\" es impersonal refleja."
+  },
+  {
+    "id": "2.3_q123",
+    "number": 123,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Los verbos de la tercera conjugación terminan en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-ir"
+      },
+      {
+        "key": "B",
+        "text": "-ar"
+      },
+      {
+        "key": "C",
+        "text": "-er"
+      },
+      {
+        "key": "D",
+        "text": "-or"
+      },
+      {
+        "key": "E",
+        "text": "-ur"
+      },
+      {
+        "key": "F",
+        "text": "-ando"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La tercera conjugación termina en -ir."
+  },
+  {
+    "id": "2.3_q124",
+    "number": 124,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Los verbos de la segunda conjugación terminan en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-er"
+      },
+      {
+        "key": "B",
+        "text": "-ar"
+      },
+      {
+        "key": "C",
+        "text": "-ir"
+      },
+      {
+        "key": "D",
+        "text": "-or"
+      },
+      {
+        "key": "E",
+        "text": "-ur"
+      },
+      {
+        "key": "F",
+        "text": "-iendo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La segunda conjugación termina en -er."
+  },
+  {
+    "id": "2.3_q125",
+    "number": 125,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "Los verbos de la primera conjugación terminan en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-ar"
+      },
+      {
+        "key": "B",
+        "text": "-er"
+      },
+      {
+        "key": "C",
+        "text": "-ir"
+      },
+      {
+        "key": "D",
+        "text": "-or"
+      },
+      {
+        "key": "E",
+        "text": "-ur"
+      },
+      {
+        "key": "F",
+        "text": "-ado"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La primera conjugación termina en -ar."
+  },
+  {
+    "id": "2.3_q126",
+    "number": 126,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El verbo \"ser\" es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Predicativo"
+      },
+      {
+        "key": "C",
+        "text": "Transitivo"
+      },
+      {
+        "key": "D",
+        "text": "Intransitivo"
+      },
+      {
+        "key": "E",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "F",
+        "text": "Impersonal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Ser\" es copulativo."
+  },
+  {
+    "id": "2.3_q127",
+    "number": 127,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El verbo \"estar\" es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Predicativo"
+      },
+      {
+        "key": "C",
+        "text": "Transitivo"
+      },
+      {
+        "key": "D",
+        "text": "Intransitivo"
+      },
+      {
+        "key": "E",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "F",
+        "text": "Impersonal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Estar\" es copulativo."
+  },
+  {
+    "id": "2.3_q128",
+    "number": 128,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El verbo \"parecer\" es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Predicativo"
+      },
+      {
+        "key": "C",
+        "text": "Transitivo"
+      },
+      {
+        "key": "D",
+        "text": "Intransitivo"
+      },
+      {
+        "key": "E",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "F",
+        "text": "Impersonal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Parecer\" es copulativo."
+  },
+  {
+    "id": "2.3_q129",
+    "number": 129,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El verbo \"tener\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Predicativo"
+      },
+      {
+        "key": "D",
+        "text": "Impersonal"
+      },
+      {
+        "key": "E",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "F",
+        "text": "Recíproco"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Tener\" es predicativo."
+  },
+  {
+    "id": "2.3_q130",
+    "number": 130,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El verbo \"haber\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Predicativo"
+      },
+      {
+        "key": "D",
+        "text": "Impersonal"
+      },
+      {
+        "key": "E",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "F",
+        "text": "Recíproco"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Haber\" es auxiliar."
+  },
+  {
+    "id": "2.3_q131",
+    "number": 131,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Hay muchos libros\", \"hay\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Impersonal"
+      },
+      {
+        "key": "C",
+        "text": "Predicativo"
+      },
+      {
+        "key": "D",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "E",
+        "text": "Recíproco"
+      },
+      {
+        "key": "F",
+        "text": "Transitivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Hay\" es impersonal."
+  },
+  {
+    "id": "2.3_q132",
+    "number": 132,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Llueve mucho\", \"llueve\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Impersonal"
+      },
+      {
+        "key": "C",
+        "text": "Predicativo"
+      },
+      {
+        "key": "D",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "E",
+        "text": "Recíproco"
+      },
+      {
+        "key": "F",
+        "text": "Transitivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Llueve\" es impersonal."
+  },
+  {
+    "id": "2.3_q133",
+    "number": 133,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Juan se lava\", \"se\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "B",
+        "text": "Recíproco"
+      },
+      {
+        "key": "C",
+        "text": "Impersonal"
+      },
+      {
+        "key": "D",
+        "text": "Pasivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Se\" en \"Juan se lava\" es reflexivo."
+  },
+  {
+    "id": "2.3_q134",
+    "number": 134,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Juan y María se escriben\", \"se\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Recíproco"
+      },
+      {
+        "key": "B",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "C",
+        "text": "Impersonal"
+      },
+      {
+        "key": "D",
+        "text": "Pasivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Se\" en \"Juan y María se escriben\" es recíproco."
+  },
+  {
+    "id": "2.3_q135",
+    "number": 135,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Se come bien en este restaurante\", \"se\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Impersonal"
+      },
+      {
+        "key": "B",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "C",
+        "text": "Recíproco"
+      },
+      {
+        "key": "D",
+        "text": "Pasivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Se\" en \"Se come bien\" es impersonal."
+  },
+  {
+    "id": "2.3_q136",
+    "number": 136,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Se venden libros\", \"se\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pasivo reflejo"
+      },
+      {
+        "key": "B",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "C",
+        "text": "Recíproco"
+      },
+      {
+        "key": "D",
+        "text": "Impersonal"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Se\" en \"Se venden libros\" es pasivo reflejo."
+  },
+  {
+    "id": "2.3_q137",
+    "number": 137,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El complemento directo puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sintagma nominal, un pronombre o una oración"
+      },
+      {
+        "key": "B",
+        "text": "Solo un sintagma nominal"
+      },
+      {
+        "key": "C",
+        "text": "Solo un pronombre"
+      },
+      {
+        "key": "D",
+        "text": "Solo una oración"
+      },
+      {
+        "key": "E",
+        "text": "Solo un infinitivo"
+      },
+      {
+        "key": "F",
+        "text": "Solo un gerundio"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El CD puede ser sintagma nominal, pronombre u oración."
+  },
+  {
+    "id": "2.3_q138",
+    "number": 138,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "El complemento indirecto puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sintagma preposicional con \"a\" o \"para\""
+      },
+      {
+        "key": "B",
+        "text": "Solo un sintagma nominal"
+      },
+      {
+        "key": "C",
+        "text": "Solo un pronombre"
+      },
+      {
+        "key": "D",
+        "text": "Solo una oración"
+      },
+      {
+        "key": "E",
+        "text": "Solo un infinitivo"
+      },
+      {
+        "key": "F",
+        "text": "Solo un gerundio"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El CI puede ser sintagma preposicional con \"a\" o \"para\"."
+  },
+  {
+    "id": "2.3_q139",
+    "number": 139,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Dije la verdad a Juan\", \"la verdad\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"La verdad\" es complemento directo."
+  },
+  {
+    "id": "2.3_q140",
+    "number": 140,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Dije la verdad a Juan\", \"a Juan\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"A Juan\" es complemento indirecto."
+  },
+  {
+    "id": "2.3_q141",
+    "number": 141,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Compré flores para María\", \"para María\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Para María\" es complemento indirecto."
+  },
+  {
+    "id": "2.3_q142",
+    "number": 142,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Compré flores en el mercado\", \"en el mercado\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En el mercado\" es CC de lugar."
+  },
+  {
+    "id": "2.3_q143",
+    "number": 143,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Estudio porque quiero aprender\", \"porque quiero aprender\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Porque quiero aprender\" es CC de causa."
+  },
+  {
+    "id": "2.3_q144",
+    "number": 144,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Vine para ayudarte\", \"para ayudarte\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Para ayudarte\" es CC de finalidad."
+  },
+  {
+    "id": "2.3_q145",
+    "number": 145,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Lo hice con mucho cuidado\", \"con mucho cuidado\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Con mucho cuidado\" es CC de modo."
+  },
+  {
+    "id": "2.3_q146",
+    "number": 146,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Llegaré mañana\", \"mañana\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Mañana\" es CC de tiempo."
+  },
+  {
+    "id": "2.3_q147",
+    "number": 147,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Juan es más alto que Pedro\", \"que Pedro\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Que Pedro\" es complemento del adjetivo."
+  },
+  {
+    "id": "2.3_q148",
+    "number": 148,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Muy lejos de aquí\", \"de aquí\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"De aquí\" es complemento del adverbio."
+  },
+  {
+    "id": "2.3_q149",
+    "number": 149,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"Cansado de esperar\", \"de esperar\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"De esperar\" es complemento del adjetivo."
+  },
+  {
+    "id": "2.3_q150",
+    "number": 150,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
+    "statement": "En \"El hombre de la barba\", \"de la barba\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"De la barba\" es complemento del nombre."
+  },
+  {
+    "id": "2.3_q151",
+    "number": 151,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "El sujeto de una oración es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Lo que se dice del sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El sujeto es el elemento del que se dice algo."
+  },
+  {
+    "id": "2.3_q152",
+    "number": 152,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "El predicado de una oración es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lo que se dice del sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El predicado es lo que se dice del sujeto."
+  },
+  {
+    "id": "2.3_q153",
+    "number": 153,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"El niño juega\", el sujeto es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "juega"
+      },
+      {
+        "key": "D",
+        "text": "niño juega"
+      },
+      {
+        "key": "F",
+        "text": "No hay sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El niño\" es el sujeto."
+  },
+  {
+    "id": "2.3_q154",
+    "number": 154,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"El niño juega\", el predicado es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "juega"
+      },
+      {
+        "key": "D",
+        "text": "niño"
+      },
+      {
+        "key": "F",
+        "text": "No hay predicado"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juega\" es el predicado."
+  },
+  {
+    "id": "2.3_q155",
+    "number": 155,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"María y Juan estudian\", el sujeto es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "María y Juan"
+      },
+      {
+        "key": "B",
+        "text": "estudian"
+      },
+      {
+        "key": "C",
+        "text": "María"
+      },
+      {
+        "key": "D",
+        "text": "Juan"
+      },
+      {
+        "key": "E",
+        "text": "María y Juan estudian"
+      },
+      {
+        "key": "F",
+        "text": "No hay sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"María y Juan\" es el sujeto."
+  },
+  {
+    "id": "2.3_q156",
+    "number": 156,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"María y Juan estudian\", el predicado es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "estudian"
+      },
+      {
+        "key": "B",
+        "text": "María y Juan"
+      },
+      {
+        "key": "C",
+        "text": "María"
+      },
+      {
+        "key": "D",
+        "text": "Juan"
+      },
+      {
+        "key": "E",
+        "text": "María y Juan estudian"
+      },
+      {
+        "key": "F",
+        "text": "No hay predicado"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Estudian\" es el predicado."
+  },
+  {
+    "id": "2.3_q157",
+    "number": 157,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "El sujeto puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sintagma nominal o una oración"
+      },
+      {
+        "key": "B",
+        "text": "Solo un sintagma nominal"
+      },
+      {
+        "key": "C",
+        "text": "Solo una oración"
+      },
+      {
+        "key": "D",
+        "text": "Solo un pronombre"
+      },
+      {
+        "key": "E",
+        "text": "Solo un infinitivo"
+      },
+      {
+        "key": "F",
+        "text": "Solo un gerundio"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El sujeto puede ser sintagma nominal u oración."
+  },
+  {
+    "id": "2.3_q158",
+    "number": 158,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "El sujeto puede sustituirse por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Él, ella, ellos, ellas"
+      },
+      {
+        "key": "B",
+        "text": "Lo, la, los, las"
+      },
+      {
+        "key": "C",
+        "text": "Le, les"
+      },
+      {
+        "key": "D",
+        "text": "Me, te, se"
+      },
+      {
+        "key": "E",
+        "text": "Nos, os"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El sujeto se sustituye por él, ella, ellos, ellas."
+  },
+  {
+    "id": "2.3_q159",
+    "number": 159,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La concordancia entre sujeto y verbo se da en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Número y persona"
+      },
+      {
+        "key": "B",
+        "text": "Género y número"
+      },
+      {
+        "key": "C",
+        "text": "Persona y género"
+      },
+      {
+        "key": "D",
+        "text": "Tiempo y modo"
+      },
+      {
+        "key": "F",
+        "text": "Modo y número"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La concordancia sujeto-verbo es en número y persona."
+  },
+  {
+    "id": "2.3_q160",
+    "number": 160,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Los niños juegan\", el sujeto es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Los niños"
+      },
+      {
+        "key": "B",
+        "text": "juegan"
+      },
+      {
+        "key": "C",
+        "text": "Los"
+      },
+      {
+        "key": "D",
+        "text": "niños"
+      },
+      {
+        "key": "E",
+        "text": "Los niños juegan"
+      },
+      {
+        "key": "F",
+        "text": "No hay sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Los niños\" es el sujeto."
+  },
+  {
+    "id": "2.3_q161",
+    "number": 161,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Los niños juegan\", el verbo concuerda en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tercera persona del plural"
+      },
+      {
+        "key": "B",
+        "text": "Tercera persona del singular"
+      },
+      {
+        "key": "C",
+        "text": "Primera persona del plural"
+      },
+      {
+        "key": "D",
+        "text": "Primera persona del singular"
+      },
+      {
+        "key": "E",
+        "text": "Segunda persona del plural"
+      },
+      {
+        "key": "F",
+        "text": "Segunda persona del singular"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El verbo concuerda en tercera persona del plural."
+  },
+  {
+    "id": "2.3_q162",
+    "number": 162,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Yo estudio\", el sujeto es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yo"
+      },
+      {
+        "key": "B",
+        "text": "estudio"
+      },
+      {
+        "key": "C",
+        "text": "Yo estudio"
+      },
+      {
+        "key": "D",
+        "text": "No hay sujeto"
+      },
+      {
+        "key": "E",
+        "text": "estudio yo"
+      },
+      {
+        "key": "F",
+        "text": "Yo y estudio"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Yo\" es el sujeto."
+  },
+  {
+    "id": "2.3_q163",
+    "number": 163,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Yo estudio\", el sujeto es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Léxico"
+      },
+      {
+        "key": "B",
+        "text": "Gramatical"
+      },
+      {
+        "key": "D",
+        "text": "Impersonal"
+      },
+      {
+        "key": "E",
+        "text": "Paciente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Yo\" es sujeto léxico."
+  },
+  {
+    "id": "2.3_q164",
+    "number": 164,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Estudio\", el sujeto es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Gramatical o elidido"
+      },
+      {
+        "key": "B",
+        "text": "Léxico"
+      },
+      {
+        "key": "C",
+        "text": "Impersonal"
+      },
+      {
+        "key": "D",
+        "text": "Paciente"
+      },
+      {
+        "key": "F",
+        "text": "No hay sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "En \"Estudio\", el sujeto es gramatical o elidido."
+  },
+  {
+    "id": "2.3_q165",
+    "number": 165,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Llueve\", el sujeto es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Léxico"
+      },
+      {
+        "key": "C",
+        "text": "Gramatical"
+      },
+      {
+        "key": "E",
+        "text": "Paciente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "En \"Llueve\" no hay sujeto (impersonal)."
+  },
+  {
+    "id": "2.3_q166",
+    "number": 166,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Hay libros\", el sujeto es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Léxico"
+      },
+      {
+        "key": "C",
+        "text": "Gramatical"
+      },
+      {
+        "key": "E",
+        "text": "Paciente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "En \"Hay libros\" no hay sujeto (impersonal)."
+  },
+  {
+    "id": "2.3_q167",
+    "number": 167,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "El predicado nominal lleva:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Verbo copulativo + atributo"
+      },
+      {
+        "key": "B",
+        "text": "Verbo predicativo + complementos"
+      },
+      {
+        "key": "C",
+        "text": "Solo verbo"
+      },
+      {
+        "key": "D",
+        "text": "Solo atributo"
+      },
+      {
+        "key": "E",
+        "text": "Solo complemento directo"
+      },
+      {
+        "key": "F",
+        "text": "Solo complemento indirecto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El predicado nominal lleva verbo copulativo + atributo."
+  },
+  {
+    "id": "2.3_q168",
+    "number": 168,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "El predicado verbal lleva:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Verbo predicativo + complementos"
+      },
+      {
+        "key": "B",
+        "text": "Verbo copulativo + atributo"
+      },
+      {
+        "key": "C",
+        "text": "Solo verbo"
+      },
+      {
+        "key": "D",
+        "text": "Solo atributo"
+      },
+      {
+        "key": "E",
+        "text": "Solo complemento directo"
+      },
+      {
+        "key": "F",
+        "text": "Solo complemento indirecto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El predicado verbal lleva verbo predicativo + complementos."
+  },
+  {
+    "id": "2.3_q169",
+    "number": 169,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Juan es médico\", el predicado es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nominal"
+      },
+      {
+        "key": "B",
+        "text": "Verbal"
+      },
+      {
+        "key": "C",
+        "text": "Impersonal"
+      },
+      {
+        "key": "D",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "E",
+        "text": "Recíproco"
+      },
+      {
+        "key": "F",
+        "text": "Pasivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan es médico\" tiene predicado nominal."
+  },
+  {
+    "id": "2.3_q170",
+    "number": 170,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Juan corre\", el predicado es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Verbal"
+      },
+      {
+        "key": "B",
+        "text": "Nominal"
+      },
+      {
+        "key": "C",
+        "text": "Impersonal"
+      },
+      {
+        "key": "D",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "E",
+        "text": "Recíproco"
+      },
+      {
+        "key": "F",
+        "text": "Pasivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan corre\" tiene predicado verbal."
+  },
+  {
+    "id": "2.3_q171",
+    "number": 171,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Juan está cansado\", el predicado es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nominal"
+      },
+      {
+        "key": "B",
+        "text": "Verbal"
+      },
+      {
+        "key": "C",
+        "text": "Impersonal"
+      },
+      {
+        "key": "D",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "E",
+        "text": "Recíproco"
+      },
+      {
+        "key": "F",
+        "text": "Pasivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan está cansado\" tiene predicado nominal."
+  },
+  {
+    "id": "2.3_q172",
+    "number": 172,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Juan parece inteligente\", el predicado es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Nominal"
+      },
+      {
+        "key": "B",
+        "text": "Verbal"
+      },
+      {
+        "key": "C",
+        "text": "Impersonal"
+      },
+      {
+        "key": "D",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "E",
+        "text": "Recíproco"
+      },
+      {
+        "key": "F",
+        "text": "Pasivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan parece inteligente\" tiene predicado nominal."
+  },
+  {
+    "id": "2.3_q173",
+    "number": 173,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Juan compró un libro\", el predicado es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Verbal"
+      },
+      {
+        "key": "B",
+        "text": "Nominal"
+      },
+      {
+        "key": "C",
+        "text": "Impersonal"
+      },
+      {
+        "key": "D",
+        "text": "Reflexivo"
+      },
+      {
+        "key": "E",
+        "text": "Recíproco"
+      },
+      {
+        "key": "F",
+        "text": "Pasivo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan compró un libro\" tiene predicado verbal."
+  },
+  {
+    "id": "2.3_q174",
+    "number": 174,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "El atributo en el predicado nominal puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sintagma nominal, adjetival o preposicional"
+      },
+      {
+        "key": "B",
+        "text": "Solo un sintagma nominal"
+      },
+      {
+        "key": "C",
+        "text": "Solo un sintagma adjetival"
+      },
+      {
+        "key": "D",
+        "text": "Solo un sintagma preposicional"
+      },
+      {
+        "key": "E",
+        "text": "Solo un adverbio"
+      },
+      {
+        "key": "F",
+        "text": "Solo un verbo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El atributo puede ser SN, SAdj o SPrep."
+  },
+  {
+    "id": "2.3_q175",
+    "number": 175,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Juan es profesor\", \"profesor\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Profesor\" es atributo."
+  },
+  {
+    "id": "2.3_q176",
+    "number": 176,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Juan es alto\", \"alto\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Alto\" es atributo."
+  },
+  {
+    "id": "2.3_q177",
+    "number": 177,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Juan es de Madrid\", \"de Madrid\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"De Madrid\" es atributo."
+  },
+  {
+    "id": "2.3_q178",
+    "number": 178,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "El atributo puede sustituirse por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lo"
+      },
+      {
+        "key": "B",
+        "text": "Le"
+      },
+      {
+        "key": "C",
+        "text": "La"
+      },
+      {
+        "key": "D",
+        "text": "Los"
+      },
+      {
+        "key": "E",
+        "text": "Las"
+      },
+      {
+        "key": "F",
+        "text": "Les"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El atributo se sustituye por \"lo\"."
+  },
+  {
+    "id": "2.3_q179",
+    "number": 179,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Juan es médico y Pedro también lo es\", \"lo\" sustituye a:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Lo\" sustituye al atributo."
+  },
+  {
+    "id": "2.3_q180",
+    "number": 180,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración copulativa es la que:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lleva verbo copulativo"
+      },
+      {
+        "key": "B",
+        "text": "Lleva verbo predicativo"
+      },
+      {
+        "key": "C",
+        "text": "No lleva verbo"
+      },
+      {
+        "key": "D",
+        "text": "Lleva dos verbos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La oración copulativa lleva verbo copulativo."
+  },
+  {
+    "id": "2.3_q181",
+    "number": 181,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración predicativa es la que:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lleva verbo predicativo"
+      },
+      {
+        "key": "B",
+        "text": "Lleva verbo copulativo"
+      },
+      {
+        "key": "C",
+        "text": "No lleva verbo"
+      },
+      {
+        "key": "D",
+        "text": "Lleva dos verbos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La oración predicativa lleva verbo predicativo."
+  },
+  {
+    "id": "2.3_q182",
+    "number": 182,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración transitiva es la que:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lleva complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "No lleva complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Lleva complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Lleva complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Lleva atributo"
+      },
+      {
+        "key": "F",
+        "text": "Lleva predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La oración transitiva lleva complemento directo."
+  },
+  {
+    "id": "2.3_q183",
+    "number": 183,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración intransitiva es la que:",
+    "options": [
+      {
+        "key": "A",
+        "text": "No lleva complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "Lleva complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Lleva complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Lleva complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Lleva atributo"
+      },
+      {
+        "key": "F",
+        "text": "Lleva predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La oración intransitiva no lleva complemento directo."
+  },
+  {
+    "id": "2.3_q184",
+    "number": 184,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración reflexiva es la que:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lleva pronombre reflexivo"
+      },
+      {
+        "key": "B",
+        "text": "No lleva pronombre"
+      },
+      {
+        "key": "C",
+        "text": "Lleva complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Lleva complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Lleva atributo"
+      },
+      {
+        "key": "F",
+        "text": "Lleva predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La oración reflexiva lleva pronombre reflexivo."
+  },
+  {
+    "id": "2.3_q185",
+    "number": 185,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración recíproca es la que:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "La oración recíproca expresa acción mutua."
+  },
+  {
+    "id": "2.3_q186",
+    "number": 186,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración impersonal es la que:",
+    "options": [
+      {
+        "key": "A",
+        "text": "No tiene sujeto"
+      },
+      {
+        "key": "B",
+        "text": "Tiene sujeto"
+      },
+      {
+        "key": "C",
+        "text": "Tiene dos sujetos"
+      },
+      {
+        "key": "D",
+        "text": "Tiene sujeto elidido"
+      },
+      {
+        "key": "E",
+        "text": "Tiene sujeto paciente"
+      },
+      {
+        "key": "F",
+        "text": "Tiene sujeto agente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La oración impersonal no tiene sujeto."
+  },
+  {
+    "id": "2.3_q187",
+    "number": 187,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración pasiva es la que:",
+    "options": [
+      {
+        "key": "C",
+        "text": "No tiene sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Tiene dos sujetos"
+      },
+      {
+        "key": "E",
+        "text": "Tiene sujeto agente"
+      },
+      {
+        "key": "F",
+        "text": "Tiene sujeto y agente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "En la pasiva el sujeto recibe la acción."
+  },
+  {
+    "id": "2.3_q188",
+    "number": 188,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración activa es la que:",
+    "options": [
+      {
+        "key": "C",
+        "text": "No tiene sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Tiene dos sujetos"
+      },
+      {
+        "key": "E",
+        "text": "Tiene sujeto paciente"
+      },
+      {
+        "key": "F",
+        "text": "Tiene sujeto y paciente"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "En la activa el sujeto realiza la acción."
+  },
+  {
+    "id": "2.3_q189",
+    "number": 189,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"La casa fue construida por Juan\", el sujeto es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "La casa"
+      },
+      {
+        "key": "B",
+        "text": "Juan"
+      },
+      {
+        "key": "C",
+        "text": "fue construida"
+      },
+      {
+        "key": "D",
+        "text": "por Juan"
+      },
+      {
+        "key": "E",
+        "text": "La casa fue construida"
+      },
+      {
+        "key": "F",
+        "text": "No hay sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"La casa\" es el sujeto paciente."
+  },
+  {
+    "id": "2.3_q190",
+    "number": 190,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"La casa fue construida por Juan\", el complemento agente es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "por Juan"
+      },
+      {
+        "key": "B",
+        "text": "La casa"
+      },
+      {
+        "key": "C",
+        "text": "fue construida"
+      },
+      {
+        "key": "D",
+        "text": "La casa fue construida"
+      },
+      {
+        "key": "E",
+        "text": "No hay complemento agente"
+      },
+      {
+        "key": "F",
+        "text": "Juan"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por Juan\" es el complemento agente."
+  },
+  {
+    "id": "2.3_q191",
+    "number": 191,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Juan construyó la casa\", el sujeto es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Juan"
+      },
+      {
+        "key": "B",
+        "text": "la casa"
+      },
+      {
+        "key": "C",
+        "text": "construyó"
+      },
+      {
+        "key": "D",
+        "text": "Juan construyó"
+      },
+      {
+        "key": "E",
+        "text": "No hay sujeto"
+      },
+      {
+        "key": "F",
+        "text": "la casa construida"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan\" es el sujeto."
+  },
+  {
+    "id": "2.3_q192",
+    "number": 192,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Juan construyó la casa\", el complemento directo es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "la casa"
+      },
+      {
+        "key": "B",
+        "text": "Juan"
+      },
+      {
+        "key": "C",
+        "text": "construyó"
+      },
+      {
+        "key": "D",
+        "text": "Juan construyó"
+      },
+      {
+        "key": "E",
+        "text": "No hay complemento directo"
+      },
+      {
+        "key": "F",
+        "text": "la casa construida"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"La casa\" es el complemento directo."
+  },
+  {
+    "id": "2.3_q193",
+    "number": 193,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Se venden casas\", el sujeto es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "casas"
+      },
+      {
+        "key": "B",
+        "text": "Se"
+      },
+      {
+        "key": "C",
+        "text": "venden"
+      },
+      {
+        "key": "D",
+        "text": "No hay sujeto"
+      },
+      {
+        "key": "E",
+        "text": "Se venden"
+      },
+      {
+        "key": "F",
+        "text": "casas venden"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Casas\" es el sujeto paciente."
+  },
+  {
+    "id": "2.3_q194",
+    "number": 194,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Se vive bien aquí\", el sujeto es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Se"
+      },
+      {
+        "key": "C",
+        "text": "vive"
+      },
+      {
+        "key": "D",
+        "text": "aquí"
+      },
+      {
+        "key": "E",
+        "text": "bien"
+      },
+      {
+        "key": "F",
+        "text": "Se vive"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Se vive bien aquí\" es impersonal, no hay sujeto."
+  },
+  {
+    "id": "2.3_q195",
+    "number": 195,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Hay muchos libros\", el sujeto es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "muchos libros"
+      },
+      {
+        "key": "C",
+        "text": "Hay"
+      },
+      {
+        "key": "D",
+        "text": "muchos"
+      },
+      {
+        "key": "E",
+        "text": "libros"
+      },
+      {
+        "key": "F",
+        "text": "Hay muchos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Hay muchos libros\" es impersonal, no hay sujeto."
+  },
+  {
+    "id": "2.3_q196",
+    "number": 196,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "En \"Llueve mucho\", el sujeto es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Llueve"
+      },
+      {
+        "key": "C",
+        "text": "mucho"
+      },
+      {
+        "key": "D",
+        "text": "Llueve mucho"
+      },
+      {
+        "key": "E",
+        "text": "No hay predicado"
+      },
+      {
+        "key": "F",
+        "text": "No hay oración"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Llueve mucho\" es impersonal, no hay sujeto."
+  },
+  {
+    "id": "2.3_q197",
+    "number": 197,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración \"Juan estudia\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Simple, activa, transitiva"
+      },
+      {
+        "key": "B",
+        "text": "Simple, activa, intransitiva"
+      },
+      {
+        "key": "C",
+        "text": "Simple, pasiva, transitiva"
+      },
+      {
+        "key": "F",
+        "text": "Simple, copulativa, transitiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan estudia\" es simple, activa, intransitiva."
+  },
+  {
+    "id": "2.3_q198",
+    "number": 198,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración \"Juan es médico\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Simple, copulativa"
+      },
+      {
+        "key": "B",
+        "text": "Simple, predicativa"
+      },
+      {
+        "key": "C",
+        "text": "Simple, pasiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan es médico\" es simple, copulativa."
+  },
+  {
+    "id": "2.3_q199",
+    "number": 199,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración \"Juan compró un libro\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Simple, predicativa, transitiva"
+      },
+      {
+        "key": "B",
+        "text": "Simple, copulativa, transitiva"
+      },
+      {
+        "key": "C",
+        "text": "Simple, predicativa, intransitiva"
+      },
+      {
+        "key": "F",
+        "text": "Simple, pasiva, transitiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan compró un libro\" es simple, predicativa, transitiva."
+  },
+  {
+    "id": "2.3_q200",
+    "number": 200,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
+    "statement": "La oración \"Juan llegó tarde\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Simple, predicativa, intransitiva"
+      },
+      {
+        "key": "B",
+        "text": "Simple, copulativa, intransitiva"
+      },
+      {
+        "key": "C",
+        "text": "Simple, predicativa, transitiva"
+      },
+      {
+        "key": "F",
+        "text": "Simple, pasiva, intransitiva ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan llegó tarde\" es simple, predicativa, intransitiva."
+  },
+  {
+    "id": "2.3_q201",
+    "number": 201,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento directo es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El CD recibe directamente la acción del verbo."
+  },
+  {
+    "id": "2.3_q202",
+    "number": 202,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento directo puede sustituirse por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lo, la, los, las"
+      },
+      {
+        "key": "B",
+        "text": "Le, les"
+      },
+      {
+        "key": "C",
+        "text": "Me, te, se"
+      },
+      {
+        "key": "D",
+        "text": "Nos, os"
+      },
+      {
+        "key": "E",
+        "text": "Él, ella, ellos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El CD se sustituye por lo, la, los, las."
+  },
+  {
+    "id": "2.3_q203",
+    "number": 203,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento indirecto puede sustituirse por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Le, les"
+      },
+      {
+        "key": "B",
+        "text": "Lo, la, los, las"
+      },
+      {
+        "key": "C",
+        "text": "Me, te, se"
+      },
+      {
+        "key": "D",
+        "text": "Nos, os"
+      },
+      {
+        "key": "E",
+        "text": "Él, ella, ellos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El CI se sustituye por le, les."
+  },
+  {
+    "id": "2.3_q204",
+    "number": 204,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento directo puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sintagma nominal, un pronombre o una oración"
+      },
+      {
+        "key": "B",
+        "text": "Solo un sintagma nominal"
+      },
+      {
+        "key": "C",
+        "text": "Solo un pronombre"
+      },
+      {
+        "key": "D",
+        "text": "Solo una oración"
+      },
+      {
+        "key": "E",
+        "text": "Solo un infinitivo"
+      },
+      {
+        "key": "F",
+        "text": "Solo un gerundio"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El CD puede ser SN, pronombre u oración."
+  },
+  {
+    "id": "2.3_q205",
+    "number": 205,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento indirecto puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sintagma preposicional con \"a\" o \"para\""
+      },
+      {
+        "key": "B",
+        "text": "Solo un sintagma nominal"
+      },
+      {
+        "key": "C",
+        "text": "Solo un pronombre"
+      },
+      {
+        "key": "D",
+        "text": "Solo una oración"
+      },
+      {
+        "key": "E",
+        "text": "Solo un infinitivo"
+      },
+      {
+        "key": "F",
+        "text": "Solo un gerundio"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El CI puede ser SPrep con \"a\" o \"para\"."
+  },
+  {
+    "id": "2.3_q206",
+    "number": 206,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Compré el libro\", \"el libro\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El libro\" es complemento directo."
+  },
+  {
+    "id": "2.3_q207",
+    "number": 207,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Di el libro a Juan\", \"el libro\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El libro\" es complemento directo."
+  },
+  {
+    "id": "2.3_q208",
+    "number": 208,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Di el libro a Juan\", \"a Juan\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"A Juan\" es complemento indirecto."
+  },
+  {
+    "id": "2.3_q209",
+    "number": 209,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Compré flores para María\", \"flores\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Flores\" es complemento directo."
+  },
+  {
+    "id": "2.3_q210",
+    "number": 210,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Compré flores para María\", \"para María\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Para María\" es complemento indirecto."
+  },
+  {
+    "id": "2.3_q211",
+    "number": 211,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento circunstancial puede ser de:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lugar, tiempo, modo, causa, finalidad, etc."
+      },
+      {
+        "key": "B",
+        "text": "Solo lugar"
+      },
+      {
+        "key": "C",
+        "text": "Solo tiempo"
+      },
+      {
+        "key": "D",
+        "text": "Solo modo"
+      },
+      {
+        "key": "E",
+        "text": "Solo causa"
+      },
+      {
+        "key": "F",
+        "text": "Solo finalidad"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El CC puede ser de lugar, tiempo, modo, causa, finalidad, etc."
+  },
+  {
+    "id": "2.3_q212",
+    "number": 212,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Estudio en la biblioteca\", \"en la biblioteca\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En la biblioteca\" es CC de lugar."
+  },
+  {
+    "id": "2.3_q213",
+    "number": 213,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Llegué ayer\", \"ayer\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Ayer\" es CC de tiempo."
+  },
+  {
+    "id": "2.3_q214",
+    "number": 214,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Lo hice con cuidado\", \"con cuidado\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Con cuidado\" es CC de modo."
+  },
+  {
+    "id": "2.3_q215",
+    "number": 215,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"No vino por la lluvia\", \"por la lluvia\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por la lluvia\" es CC de causa."
+  },
+  {
+    "id": "2.3_q216",
+    "number": 216,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Estudio para aprobar\", \"para aprobar\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Para aprobar\" es CC de finalidad."
+  },
+  {
+    "id": "2.3_q217",
+    "number": 217,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Vino con Juan\", \"con Juan\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Con Juan\" es CC de compañía."
+  },
+  {
+    "id": "2.3_q218",
+    "number": 218,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Lo hizo con un martillo\", \"con un martillo\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Con un martillo\" es CC de instrumento."
+  },
+  {
+    "id": "2.3_q219",
+    "number": 219,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Cuesta cien pesos\", \"cien pesos\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Cien pesos\" es CC de cantidad."
+  },
+  {
+    "id": "2.3_q220",
+    "number": 220,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento agente aparece en:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oraciones pasivas"
+      },
+      {
+        "key": "B",
+        "text": "Oraciones activas"
+      },
+      {
+        "key": "C",
+        "text": "Oraciones impersonales"
+      },
+      {
+        "key": "D",
+        "text": "Oraciones copulativas"
+      },
+      {
+        "key": "E",
+        "text": "Oraciones transitivas"
+      },
+      {
+        "key": "F",
+        "text": "Oraciones intransitivas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El complemento agente aparece en oraciones pasivas."
+  },
+  {
+    "id": "2.3_q221",
+    "number": 221,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"El libro fue escrito por Juan\", \"por Juan\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Por Juan\" es complemento agente."
+  },
+  {
+    "id": "2.3_q222",
+    "number": 222,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento agente puede sustituirse por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "No se sustituye por pronombre"
+      },
+      {
+        "key": "B",
+        "text": "Lo"
+      },
+      {
+        "key": "C",
+        "text": "Le"
+      },
+      {
+        "key": "D",
+        "text": "La"
+      },
+      {
+        "key": "E",
+        "text": "Los"
+      },
+      {
+        "key": "F",
+        "text": "Las"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El complemento agente no se sustituye por pronombre."
+  },
+  {
+    "id": "2.3_q223",
+    "number": 223,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento predicativo concuerda con:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo el sujeto"
+      },
+      {
+        "key": "C",
+        "text": "Solo el complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Solo el complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Solo el verbo"
+      },
+      {
+        "key": "F",
+        "text": "Solo el adverbio"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El predicativo concuerda con el sujeto o el CD."
+  },
+  {
+    "id": "2.3_q224",
+    "number": 224,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Juan llegó cansado\", \"cansado\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Cansado\" es predicativo."
+  },
+  {
+    "id": "2.3_q225",
+    "number": 225,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Considero a Juan inteligente\", \"inteligente\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Predicativo del complemento directo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Inteligente\" es predicativo del CD."
+  },
+  {
+    "id": "2.3_q226",
+    "number": 226,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Nombraron a Juan director\", \"director\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Predicativo del complemento directo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Director\" es predicativo del CD."
+  },
+  {
+    "id": "2.3_q227",
+    "number": 227,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Juan es médico\", \"médico\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Médico\" es atributo."
+  },
+  {
+    "id": "2.3_q228",
+    "number": 228,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Juan está cansado\", \"cansado\" es:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Cansado\" es atributo."
+  },
+  {
+    "id": "2.3_q229",
+    "number": 229,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El atributo puede sustituirse por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lo"
+      },
+      {
+        "key": "B",
+        "text": "Le"
+      },
+      {
+        "key": "C",
+        "text": "La"
+      },
+      {
+        "key": "D",
+        "text": "Los"
+      },
+      {
+        "key": "E",
+        "text": "Las"
+      },
+      {
+        "key": "F",
+        "text": "Les"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El atributo se sustituye por \"lo\"."
+  },
+  {
+    "id": "2.3_q230",
+    "number": 230,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Juan es médico y Pedro también lo es\", \"lo\" sustituye a:",
+    "options": [
+      {
+        "key": "E",
+        "text": "Predicativo"
+      },
+      {
+        "key": "F",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Lo\" sustituye al atributo."
+  },
+  {
+    "id": "2.3_q231",
+    "number": 231,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento del nombre puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sintagma preposicional, un adjetivo o una aposición"
+      },
+      {
+        "key": "B",
+        "text": "Solo un sintagma preposicional"
+      },
+      {
+        "key": "C",
+        "text": "Solo un adjetivo"
+      },
+      {
+        "key": "D",
+        "text": "Solo una aposición"
+      },
+      {
+        "key": "E",
+        "text": "Solo un adverbio"
+      },
+      {
+        "key": "F",
+        "text": "Solo un verbo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El complemento del nombre puede ser SPrep, adjetivo o aposición."
+  },
+  {
+    "id": "2.3_q232",
+    "number": 232,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"el libro de Juan\", \"de Juan\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"De Juan\" es complemento del nombre."
+  },
+  {
+    "id": "2.3_q233",
+    "number": 233,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"la casa blanca\", \"blanca\" es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Núcleo del sintagma"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Blanca\" es adjetivo que modifica al sustantivo."
+  },
+  {
+    "id": "2.3_q234",
+    "number": 234,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"mi amigo Pedro\", \"Pedro\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Pedro\" es aposición."
+  },
+  {
+    "id": "2.3_q235",
+    "number": 235,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento del adjetivo puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sintagma preposicional o una oración"
+      },
+      {
+        "key": "B",
+        "text": "Solo un sintagma preposicional"
+      },
+      {
+        "key": "C",
+        "text": "Solo una oración"
+      },
+      {
+        "key": "D",
+        "text": "Solo un adverbio"
+      },
+      {
+        "key": "E",
+        "text": "Solo un sustantivo"
+      },
+      {
+        "key": "F",
+        "text": "Solo un verbo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El complemento del adjetivo puede ser SPrep u oración."
+  },
+  {
+    "id": "2.3_q236",
+    "number": 236,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Cansado de esperar\", \"de esperar\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"De esperar\" es complemento del adjetivo."
+  },
+  {
+    "id": "2.3_q237",
+    "number": 237,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Muy lejos de aquí\", \"de aquí\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"De aquí\" es complemento del adverbio."
+  },
+  {
+    "id": "2.3_q238",
+    "number": 238,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Juan es más alto que Pedro\", \"que Pedro\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Que Pedro\" es complemento del adjetivo."
+  },
+  {
+    "id": "2.3_q239",
+    "number": 239,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento del adverbio puede ser:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Un sintagma preposicional"
+      },
+      {
+        "key": "B",
+        "text": "Solo un sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Solo un adjetivo"
+      },
+      {
+        "key": "D",
+        "text": "Solo un verbo"
+      },
+      {
+        "key": "E",
+        "text": "Solo una oración"
+      },
+      {
+        "key": "F",
+        "text": "Solo un pronombre"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El complemento del adverbio puede ser SPrep."
+  },
+  {
+    "id": "2.3_q240",
+    "number": 240,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"El hombre de la barba\", \"de la barba\" es:",
+    "options": [
+      {
+        "key": "F",
+        "text": "Predicativo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"De la barba\" es complemento del nombre."
+  },
+  {
+    "id": "2.3_q241",
+    "number": 241,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El vocativo es:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El vocativo sirve para llamar o invocar."
+  },
+  {
+    "id": "2.3_q242",
+    "number": 242,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Juan, ven aquí\", \"Juan\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativo"
+      },
+      {
+        "key": "B",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan\" es vocativo."
+  },
+  {
+    "id": "2.3_q243",
+    "number": 243,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"María, te llaman\", \"María\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Vocativo"
+      },
+      {
+        "key": "B",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"María\" es vocativo."
+  },
+  {
+    "id": "2.3_q244",
+    "number": 244,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "Las interjecciones son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Palabras que expresan emociones o reacciones"
+      },
+      {
+        "key": "B",
+        "text": "Palabras que modifican al sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Palabras que modifican al verbo"
+      },
+      {
+        "key": "D",
+        "text": "Palabras que modifican al adjetivo"
+      },
+      {
+        "key": "E",
+        "text": "Palabras que unen oraciones"
+      },
+      {
+        "key": "F",
+        "text": "Palabras que indican circunstancias"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las interjecciones expresan emociones o reacciones."
+  },
+  {
+    "id": "2.3_q245",
+    "number": 245,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"¡Ay!, me duele\", \"¡Ay!\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interjección"
+      },
+      {
+        "key": "B",
+        "text": "Vocativo"
+      },
+      {
+        "key": "C",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¡Ay!\" es interjección."
+  },
+  {
+    "id": "2.3_q246",
+    "number": 246,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "Los marcadores del discurso son:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "Los marcadores del discurso organizan y conectan el texto."
+  },
+  {
+    "id": "2.3_q247",
+    "number": 247,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Sin embargo, no fui\", \"sin embargo\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Marcador del discurso"
+      },
+      {
+        "key": "B",
+        "text": "Vocativo"
+      },
+      {
+        "key": "C",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Sin embargo\" es marcador del discurso."
+  },
+  {
+    "id": "2.3_q248",
+    "number": 248,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"En conclusión, todo salió bien\", \"en conclusión\" es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Marcador del discurso"
+      },
+      {
+        "key": "B",
+        "text": "Vocativo"
+      },
+      {
+        "key": "C",
+        "text": "Sujeto"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"En conclusión\" es marcador del discurso."
+  },
+  {
+    "id": "2.3_q249",
+    "number": 249,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "El complemento directo puede llevar la preposición \"a\" cuando:",
+    "options": [],
+    "correctAnswer": "A",
+    "explanation": "El CD lleva \"a\" cuando es persona o cosa personificada."
+  },
+  {
+    "id": "2.3_q250",
+    "number": 250,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
+    "statement": "En \"Vi a Juan\", \"a Juan\" es:",
+    "options": [
+      {
+        "key": "C",
+        "text": "Sujeto"
+      },
+      {
+        "key": "F",
+        "text": "Predicativo ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"A Juan\" es complemento directo."
+  },
+  {
+    "id": "2.3_q251",
+    "number": 251,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "La oración simple se caracteriza por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tener un solo verbo conjugado"
+      },
+      {
+        "key": "B",
+        "text": "Tener dos o más verbos conjugados"
+      },
+      {
+        "key": "C",
+        "text": "No tener verbo"
+      },
+      {
+        "key": "D",
+        "text": "Tener solo sustantivos"
+      },
+      {
+        "key": "E",
+        "text": "Tener solo adjetivos"
+      },
+      {
+        "key": "F",
+        "text": "Tener solo adverbios"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La oración simple tiene un solo verbo conjugado."
+  },
+  {
+    "id": "2.3_q252",
+    "number": 252,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "La oración compuesta se caracteriza por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tener dos o más verbos conjugados"
+      },
+      {
+        "key": "B",
+        "text": "Tener un solo verbo conjugado"
+      },
+      {
+        "key": "C",
+        "text": "No tener verbo"
+      },
+      {
+        "key": "D",
+        "text": "Tener solo sustantivos"
+      },
+      {
+        "key": "E",
+        "text": "Tener solo adjetivos"
+      },
+      {
+        "key": "F",
+        "text": "Tener solo adverbios"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La oración compuesta tiene dos o más verbos conjugados."
+  },
+  {
+    "id": "2.3_q253",
+    "number": 253,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones compuestas pueden ser:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Solo coordinadas"
+      },
+      {
+        "key": "C",
+        "text": "Solo subordinadas"
+      },
+      {
+        "key": "D",
+        "text": "Solo yuxtapuestas"
+      },
+      {
+        "key": "E",
+        "text": "Solo copulativas"
+      },
+      {
+        "key": "F",
+        "text": "Solo adversativas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las compuestas pueden ser coordinadas y subordinadas."
+  },
+  {
+    "id": "2.3_q254",
+    "number": 254,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones coordinadas se caracterizan por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ser independientes sintácticamente"
+      },
+      {
+        "key": "C",
+        "text": "No tener verbo"
+      },
+      {
+        "key": "D",
+        "text": "Tener un solo verbo"
+      },
+      {
+        "key": "E",
+        "text": "Ser impersonales"
+      },
+      {
+        "key": "F",
+        "text": "Ser pasivas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las coordinadas son independientes sintácticamente."
+  },
+  {
+    "id": "2.3_q255",
+    "number": 255,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones subordinadas se caracterizan por:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Ser independientes"
+      },
+      {
+        "key": "C",
+        "text": "No tener verbo"
+      },
+      {
+        "key": "D",
+        "text": "Tener un solo verbo"
+      },
+      {
+        "key": "E",
+        "text": "Ser impersonales"
+      },
+      {
+        "key": "F",
+        "text": "Ser pasivas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las subordinadas dependen sintácticamente de otra."
+  },
+  {
+    "id": "2.3_q256",
+    "number": 256,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones yuxtapuestas se caracterizan por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Unirse sin conjunciones"
+      },
+      {
+        "key": "B",
+        "text": "Unirse con conjunciones"
+      },
+      {
+        "key": "C",
+        "text": "Ser independientes"
+      },
+      {
+        "key": "D",
+        "text": "Ser dependientes"
+      },
+      {
+        "key": "E",
+        "text": "No tener verbo"
+      },
+      {
+        "key": "F",
+        "text": "Tener un solo verbo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las yuxtapuestas se unen sin conjunciones."
+  },
+  {
+    "id": "2.3_q257",
+    "number": 257,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones coordinadas copulativas se unen con:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Y, e, ni"
+      },
+      {
+        "key": "B",
+        "text": "O, u"
+      },
+      {
+        "key": "C",
+        "text": "Pero, mas, sino"
+      },
+      {
+        "key": "E",
+        "text": "Pues, porque"
+      },
+      {
+        "key": "F",
+        "text": "Luego, así que"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las copulativas se unen con y, e, ni."
+  },
+  {
+    "id": "2.3_q258",
+    "number": 258,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones coordinadas disyuntivas se unen con:",
+    "options": [
+      {
+        "key": "A",
+        "text": "O, u"
+      },
+      {
+        "key": "B",
+        "text": "Y, e, ni"
+      },
+      {
+        "key": "C",
+        "text": "Pero, mas, sino"
+      },
+      {
+        "key": "E",
+        "text": "Pues, porque"
+      },
+      {
+        "key": "F",
+        "text": "Luego, así que"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las disyuntivas se unen con o, u."
+  },
+  {
+    "id": "2.3_q259",
+    "number": 259,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones coordinadas adversativas se unen con:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pero, mas, sino"
+      },
+      {
+        "key": "B",
+        "text": "Y, e, ni"
+      },
+      {
+        "key": "C",
+        "text": "O, u"
+      },
+      {
+        "key": "E",
+        "text": "Pues, porque"
+      },
+      {
+        "key": "F",
+        "text": "Luego, así que"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las adversativas se unen con pero, mas, sino."
+  },
+  {
+    "id": "2.3_q260",
+    "number": 260,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones coordinadas explicativas se unen con:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Y, e, ni"
+      },
+      {
+        "key": "C",
+        "text": "O, u"
+      },
+      {
+        "key": "D",
+        "text": "Pero, mas, sino"
+      },
+      {
+        "key": "E",
+        "text": "Pues, porque"
+      },
+      {
+        "key": "F",
+        "text": "Luego, así que"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las explicativas se unen con es decir, o sea."
+  },
+  {
+    "id": "2.3_q261",
+    "number": 261,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Juan estudia y María trabaja\", la oración es:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Subordinada"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan estudia y María trabaja\" es coordinada copulativa."
+  },
+  {
+    "id": "2.3_q262",
+    "number": 262,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"¿Vienes o te quedas?\", la oración es:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Subordinada"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¿Vienes o te quedas?\" es coordinada disyuntiva."
+  },
+  {
+    "id": "2.3_q263",
+    "number": 263,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Estudié, pero no aprobé\", la oración es:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Subordinada"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Estudié, pero no aprobé\" es coordinada adversativa."
+  },
+  {
+    "id": "2.3_q264",
+    "number": 264,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Llegó tarde, es decir, no pudo entrar\", la oración es:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Subordinada"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Llegó tarde, es decir, no pudo entrar\" es coordinada explicativa."
+  },
+  {
+    "id": "2.3_q265",
+    "number": 265,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Juan estudia, María trabaja\", la oración es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "E",
+        "text": "Subordinada"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Juan estudia, María trabaja\" es yuxtapuesta."
+  },
+  {
+    "id": "2.3_q266",
+    "number": 266,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones subordinadas sustantivas funcionan como:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sujeto, complemento directo, etc."
+      },
+      {
+        "key": "D",
+        "text": "Verbo"
+      },
+      {
+        "key": "E",
+        "text": "Preposición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las subordinadas sustantivas funcionan como sujeto, CD, etc."
+  },
+  {
+    "id": "2.3_q267",
+    "number": 267,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones subordinadas adjetivas funcionan como:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantivo"
+      },
+      {
+        "key": "D",
+        "text": "Verbo"
+      },
+      {
+        "key": "E",
+        "text": "Preposición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las subordinadas adjetivas funcionan como adjetivo."
+  },
+  {
+    "id": "2.3_q268",
+    "number": 268,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones subordinadas adverbiales funcionan como:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantivo"
+      },
+      {
+        "key": "D",
+        "text": "Verbo"
+      },
+      {
+        "key": "E",
+        "text": "Preposición"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las subordinadas adverbiales funcionan como adverbio."
+  },
+  {
+    "id": "2.3_q269",
+    "number": 269,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Quiero que vengas\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Quiero que vengas\" tiene subordinada sustantiva."
+  },
+  {
+    "id": "2.3_q270",
+    "number": 270,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"El libro que compré es interesante\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El libro que compré es interesante\" tiene subordinada adjetiva."
+  },
+  {
+    "id": "2.3_q271",
+    "number": 271,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Estudio cuando puedo\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Estudio cuando puedo\" tiene subordinada adverbial."
+  },
+  {
+    "id": "2.3_q272",
+    "number": 272,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones subordinadas sustantivas pueden ir introducidas por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que, si, pronombres interrogativos"
+      },
+      {
+        "key": "B",
+        "text": "Que, cual, quien"
+      },
+      {
+        "key": "D",
+        "text": "Y, o, pero"
+      },
+      {
+        "key": "F",
+        "text": "Pues, porque"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las sustantivas van introducidas por que, si, interrogativos."
+  },
+  {
+    "id": "2.3_q273",
+    "number": 273,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones subordinadas adjetivas pueden ir introducidas por:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Que, cual, quien, cuyo"
+      },
+      {
+        "key": "B",
+        "text": "Que, si, pronombres interrogativos"
+      },
+      {
+        "key": "D",
+        "text": "Y, o, pero"
+      },
+      {
+        "key": "F",
+        "text": "Pues, porque"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las adjetivas van introducidas por que, cual, quien, cuyo."
+  },
+  {
+    "id": "2.3_q274",
+    "number": 274,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "Las oraciones subordinadas adverbiales pueden ir introducidas por:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Que, si, pronombres interrogativos"
+      },
+      {
+        "key": "C",
+        "text": "Que, cual, quien, cuyo"
+      },
+      {
+        "key": "D",
+        "text": "Y, o, pero"
+      },
+      {
+        "key": "F",
+        "text": "Pues, porque"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Las adverbiales van introducidas por cuando, donde, como, etc."
+  },
+  {
+    "id": "2.3_q275",
+    "number": 275,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Dijo que vendría\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sustantiva de complemento directo"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Dijo que vendría\" tiene subordinada sustantiva de CD."
+  },
+  {
+    "id": "2.3_q276",
+    "number": 276,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"El hombre que vino es mi tío\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El hombre que vino es mi tío\" tiene subordinada adjetiva."
+  },
+  {
+    "id": "2.3_q277",
+    "number": 277,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Cuando llegues, avísame\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Cuando llegues, avísame\" tiene subordinada adverbial temporal."
+  },
+  {
+    "id": "2.3_q278",
+    "number": 278,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Estudio porque quiero aprobar\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Estudio porque quiero aprobar\" tiene subordinada adverbial causal."
+  },
+  {
+    "id": "2.3_q279",
+    "number": 279,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Estudio para que me aprueben\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Estudio para que me aprueben\" tiene subordinada adverbial final."
+  },
+  {
+    "id": "2.3_q280",
+    "number": 280,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Si estudias, aprobarás\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Si estudias, aprobarás\" tiene subordinada adverbial condicional."
+  },
+  {
+    "id": "2.3_q281",
+    "number": 281,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Aunque estudies, no aprobarás\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Aunque estudies, no aprobarás\" tiene subordinada adverbial concesiva."
+  },
+  {
+    "id": "2.3_q282",
+    "number": 282,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Estudia tanto que se enfermó\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Estudia tanto que se enfermó\" tiene subordinada adverbial consecutiva."
+  },
+  {
+    "id": "2.3_q283",
+    "number": 283,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Hice lo que me pediste\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Hice lo que me pediste\" tiene subordinada sustantiva."
+  },
+  {
+    "id": "2.3_q284",
+    "number": 284,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Quien estudia, aprueba\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Quien estudia, aprueba\" tiene subordinada adjetiva sustantivada."
+  },
+  {
+    "id": "2.3_q285",
+    "number": 285,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"No sé si vendrá\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"No sé si vendrá\" tiene subordinada sustantiva."
+  },
+  {
+    "id": "2.3_q286",
+    "number": 286,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Me preguntó dónde vivía\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Me preguntó dónde vivía\" tiene subordinada sustantiva."
+  },
+  {
+    "id": "2.3_q287",
+    "number": 287,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"El hecho de que no viniera me molestó\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"El hecho de que no viniera me molestó\" tiene subordinada sustantiva."
+  },
+  {
+    "id": "2.3_q288",
+    "number": 288,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Vive donde termina la calle\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Vive donde termina la calle\" tiene subordinada adverbial de lugar."
+  },
+  {
+    "id": "2.3_q289",
+    "number": 289,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Lo hizo como le dijeron\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Lo hizo como le dijeron\" tiene subordinada adverbial de modo."
+  },
+  {
+    "id": "2.3_q290",
+    "number": 290,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Es más alto que su padre\", la oración subordinada es:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Sustantiva"
+      },
+      {
+        "key": "E",
+        "text": "Yuxtapuesta"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Es más alto que su padre\" tiene subordinada adverbial comparativa."
+  },
+  {
+    "id": "2.3_q291",
+    "number": 291,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "La oración compuesta por subordinación tiene:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Una oración principal y una o más subordinadas"
+      },
+      {
+        "key": "B",
+        "text": "Solo oraciones coordinadas"
+      },
+      {
+        "key": "C",
+        "text": "Solo oraciones yuxtapuestas"
+      },
+      {
+        "key": "D",
+        "text": "Solo una oración"
+      },
+      {
+        "key": "E",
+        "text": "Solo dos oraciones independientes"
+      },
+      {
+        "key": "F",
+        "text": "Solo tres oraciones independientes"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La compuesta por subordinación tiene principal y subordinadas."
+  },
+  {
+    "id": "2.3_q292",
+    "number": 292,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "La oración compuesta por coordinación tiene:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Una oración principal y una subordinada"
+      },
+      {
+        "key": "C",
+        "text": "Solo una oración"
+      },
+      {
+        "key": "D",
+        "text": "Solo dos oraciones dependientes"
+      },
+      {
+        "key": "E",
+        "text": "Solo tres oraciones dependientes"
+      },
+      {
+        "key": "F",
+        "text": "Solo oraciones yuxtapuestas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La compuesta por coordinación tiene oraciones independientes."
+  },
+  {
+    "id": "2.3_q293",
+    "number": 293,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "La oración compuesta por yuxtaposición tiene:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Una oración principal y una subordinada"
+      },
+      {
+        "key": "C",
+        "text": "Solo una oración"
+      },
+      {
+        "key": "D",
+        "text": "Solo dos oraciones dependientes"
+      },
+      {
+        "key": "E",
+        "text": "Solo tres oraciones dependientes"
+      },
+      {
+        "key": "F",
+        "text": "Solo oraciones coordinadas"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La compuesta por yuxtaposición tiene oraciones unidas sin conjunciones."
+  },
+  {
+    "id": "2.3_q294",
+    "number": 294,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Llegué, vi, vencí\", las oraciones son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Yuxtapuestas"
+      },
+      {
+        "key": "E",
+        "text": "Subordinadas"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Llegué, vi, vencí\" son yuxtapuestas."
+  },
+  {
+    "id": "2.3_q295",
+    "number": 295,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Estudia y trabaja\", las oraciones son:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Yuxtapuestas"
+      },
+      {
+        "key": "E",
+        "text": "Subordinadas"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Estudia y trabaja\" son coordinadas copulativas."
+  },
+  {
+    "id": "2.3_q296",
+    "number": 296,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"¿Estudias o trabajas?\", las oraciones son:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Yuxtapuestas"
+      },
+      {
+        "key": "E",
+        "text": "Subordinadas"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"¿Estudias o trabajas?\" son coordinadas disyuntivas."
+  },
+  {
+    "id": "2.3_q297",
+    "number": 297,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Estudia, pero no aprende\", las oraciones son:",
+    "options": [
+      {
+        "key": "B",
+        "text": "Yuxtapuestas"
+      },
+      {
+        "key": "E",
+        "text": "Subordinadas"
+      },
+      {
+        "key": "F",
+        "text": "Simple"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Estudia, pero no aprende\" son coordinadas adversativas."
+  },
+  {
+    "id": "2.3_q298",
+    "number": 298,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Quiero que estudies\", la oración es:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Simple"
+      },
+      {
+        "key": "E",
+        "text": "Impersonal"
+      },
+      {
+        "key": "F",
+        "text": "Pasiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Quiero que estudies\" es compuesta por subordinación."
+  },
+  {
+    "id": "2.3_q299",
+    "number": 299,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Estudia y trabaja\", la oración es:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Simple"
+      },
+      {
+        "key": "E",
+        "text": "Impersonal"
+      },
+      {
+        "key": "F",
+        "text": "Pasiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Estudia y trabaja\" es compuesta por coordinación."
+  },
+  {
+    "id": "2.3_q300",
+    "number": 300,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
+    "statement": "En \"Llegué, vi, vencí\", la oración es:",
+    "options": [
+      {
+        "key": "D",
+        "text": "Simple"
+      },
+      {
+        "key": "E",
+        "text": "Impersonal"
+      },
+      {
+        "key": "F",
+        "text": "Pasiva ---"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\"Llegué, vi, vencí\" es compuesta por yuxtaposición."
+  }
+]
