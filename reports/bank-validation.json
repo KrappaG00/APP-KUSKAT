@@ -3160,6 +3160,571 @@
       "kind": "opciones-repetidas",
       "where": "ansp/questions/ansp_lenguaje.json#2 (ansp_q53)",
       "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/5_matematica.json#0 (asd_5_mat_1)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/5_matematica.json#6 (asd_5_mat_7)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/5_matematica.json#247 (asd_5_mat_248)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#44 (asd_6_mat_45)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#45 (asd_6_mat_46)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#46 (asd_6_mat_47)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#54 (asd_6_mat_55)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#55 (asd_6_mat_56)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#56 (asd_6_mat_57)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#64 (asd_6_mat_65)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#65 (asd_6_mat_66)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#66 (asd_6_mat_67)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#114 (asd_6_mat_115)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#116 (asd_6_mat_117)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#124 (asd_6_mat_125)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#134 (asd_6_mat_135)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#136 (asd_6_mat_137)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#144 (asd_6_mat_145)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#154 (asd_6_mat_155)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#201 (asd_6_mat_202)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#206 (asd_6_mat_207)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#208 (asd_6_mat_209)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#213 (asd_6_mat_214)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#215 (asd_6_mat_216)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#220 (asd_6_mat_221)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#222 (asd_6_mat_223)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#227 (asd_6_mat_228)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#229 (asd_6_mat_230)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#234 (asd_6_mat_235)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/6_matematica.json#236 (asd_6_mat_237)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/7_matematica.json#244 (asd_7_mat_245)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/7_matematica.json#249 (asd_7_mat_250)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/7_matematica.json#278 (asd_7_mat_279)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/7_matematica.json#287 (asd_7_mat_288)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/7_matematica.json#296 (asd_7_mat_297)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/7_matematica.json#305 (asd_7_mat_306)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "asd/questions/7_matematica.json#314 (asd_7_mat_315)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#200 (avanzo_precalc_q201)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#204 (avanzo_precalc_q205)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#208 (avanzo_precalc_q209)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#212 (avanzo_precalc_q213)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#216 (avanzo_precalc_q217)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#220 (avanzo_precalc_q221)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#224 (avanzo_precalc_q225)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#228 (avanzo_precalc_q229)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#232 (avanzo_precalc_q233)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#236 (avanzo_precalc_q237)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#243 (avanzo_precalc_q244)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#251 (avanzo_precalc_q252)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#259 (avanzo_precalc_q260)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#260 (avanzo_precalc_q261)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#261 (avanzo_precalc_q262)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#262 (avanzo_precalc_q263)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#263 (avanzo_precalc_q264)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#267 (avanzo_precalc_q268)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#275 (avanzo_precalc_q276)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#480 (avanzo_precalc_q481)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#481 (avanzo_precalc_q482)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#482 (avanzo_precalc_q483)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#483 (avanzo_precalc_q484)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#484 (avanzo_precalc_q485)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#485 (avanzo_precalc_q486)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#486 (avanzo_precalc_q487)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#487 (avanzo_precalc_q488)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#488 (avanzo_precalc_q489)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#489 (avanzo_precalc_q490)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#490 (avanzo_precalc_q491)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#491 (avanzo_precalc_q492)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#492 (avanzo_precalc_q493)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#493 (avanzo_precalc_q494)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#494 (avanzo_precalc_q495)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#495 (avanzo_precalc_q496)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#496 (avanzo_precalc_q497)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#497 (avanzo_precalc_q498)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#498 (avanzo_precalc_q499)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#499 (avanzo_precalc_q500)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#500 (avanzo_precalc_q501)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#501 (avanzo_precalc_q502)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#502 (avanzo_precalc_q503)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#503 (avanzo_precalc_q504)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#504 (avanzo_precalc_q505)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#505 (avanzo_precalc_q506)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#506 (avanzo_precalc_q507)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#507 (avanzo_precalc_q508)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#508 (avanzo_precalc_q509)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#509 (avanzo_precalc_q510)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#510 (avanzo_precalc_q511)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#511 (avanzo_precalc_q512)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#512 (avanzo_precalc_q513)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#513 (avanzo_precalc_q514)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#514 (avanzo_precalc_q515)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#515 (avanzo_precalc_q516)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#516 (avanzo_precalc_q517)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#517 (avanzo_precalc_q518)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#518 (avanzo_precalc_q519)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "avanzo/questions/avanzo_precalculo.json#519 (avanzo_precalc_q520)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#72 (ena_mat_q73)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#76 (ena_mat_q77)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#80 (ena_mat_q81)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#84 (ena_mat_q85)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#88 (ena_mat_q89)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#92 (ena_mat_q93)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#96 (ena_mat_q97)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#100 (ena_mat_q101)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#104 (ena_mat_q105)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#108 (ena_mat_q109)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#112 (ena_mat_q113)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#116 (ena_mat_q117)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#120 (ena_mat_q121)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#124 (ena_mat_q125)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#128 (ena_mat_q129)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#132 (ena_mat_q133)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ena/questions/ena_matematicas.json#136 (ena_mat_q137)",
+      "msg": "hay opciones con el mismo texto"
     }
   ],
   "manifest": {
@@ -3916,8 +4481,432 @@
             }
           }
         }
+      },
+      "ASD": {
+        "totalQuestions": 2190,
+        "subjects": {
+          "asd_5": {
+            "totalQuestions": 730,
+            "subtopics": {
+              "5_matematica": {
+                "file": "/data/asd/questions/5_matematica.json",
+                "totalQuestions": 365,
+                "sections": {
+                  "Unidad 1: Divisibilidad, Múltiplos y Divisores (1–35)": 35,
+                  "Unidad 2: Polígonos y Triángulos (36–65)": 30,
+                  "Unidad 3: Multiplicación y División de Decimales por Naturales (66–95)": 30,
+                  "Unidad 4: Gráficas de Líneas y Datos (96–120)": 25,
+                  "Unidad 5: Multiplicación y División de Decimales por Decimales (121–155)": 35,
+                  "Unidad 6: Cantidad por Unidad y Rapidez (156–185)": 30,
+                  "Unidad 7: Fracciones y Operaciones (186–230)": 45,
+                  "Unidad 8: Área de Triángulos y Cuadriláteros (231–265)": 35,
+                  "Unidad 9: Medidas y Conversión de Unidades (266–295)": 30,
+                  "Unidad 10: Multiplicación y División de Fracciones por Naturales (296–330)": 35,
+                  "Unidad 11: Cuerpos Geométricos y Volumen (331–365)": 35
+                }
+              },
+              "5_ciencias": {
+                "file": "/data/asd/questions/5_ciencias.json",
+                "totalQuestions": 365,
+                "sections": {
+                  "Unidad 1: La Materia y sus Propiedades (1–40)": 40,
+                  "Unidad 2: La Célula y los Reinos de la Naturaleza (41–85)": 45,
+                  "Unidad 3: El Cuerpo Humano y la Salud (86–140)": 55,
+                  "Unidad 4: Las Plantas y el Reino Vegetal (141–185)": 45,
+                  "Unidad 5: Ecosistemas y Biodiversidad de El Salvador (186–235)": 50,
+                  "Unidad 6: Fuerzas, Máquinas Simples y Energía (236–285)": 50,
+                  "Unidad 7: La Tierra, el Clima y el Universo (286–365)": 80
+                }
+              }
+            }
+          },
+          "asd_6": {
+            "totalQuestions": 730,
+            "subtopics": {
+              "6_matematica": {
+                "file": "/data/asd/questions/6_matematica.json",
+                "totalQuestions": 365,
+                "sections": {
+                  "Unidad 1: Operaciones con Fracciones (1–40)": 40,
+                  "Unidad 2: Cantidades Variables y Números Romanos (41–70)": 30,
+                  "Unidad 3: División de Fracciones y Jerarquía (71–110)": 40,
+                  "Unidad 4: Razones y Porcentajes (111–155)": 45,
+                  "Unidad 5: Proporcionalidad Directa e Inversa (156–200)": 45,
+                  "Unidad 6: Longitud de la Circunferencia y Área del Círculo (201–240)": 40,
+                  "Unidad 7: Análisis de Datos y Media Aritmética (241–280)": 40,
+                  "Unidad 8: Volumen de Prismas y Cilindros (281–320)": 40,
+                  "Unidad 9: Conversión de Medidas del Sistema Internacional (321–345)": 25,
+                  "Unidad 10: Transformaciones Geométricas y Simetría (346–365)": 20
+                }
+              },
+              "6_ciencias": {
+                "file": "/data/asd/questions/6_ciencias.json",
+                "totalQuestions": 365,
+                "sections": {
+                  "Unidad 1: Investigación Científica y Magnitudes Físicas (1–35)": 35,
+                  "Unidad 2: Estructura de la Materia y Cambios Químicos (36–80)": 45,
+                  "Unidad 3: Sistemas de Coordinación del Cuerpo Humano (81–135)": 55,
+                  "Unidad 4: Reproducción y Genética en los Seres Vivos (136–180)": 45,
+                  "Unidad 5: Dinámica de los Ecosistemas y Ciclos Biogeoquímicos (181–235)": 55,
+                  "Unidad 6: Electricidad, Magnetismo y Circuitos (236–285)": 50,
+                  "Unidad 7: Fenómenos Geológicos y Gestión de Riesgos (286–365)": 80
+                }
+              }
+            }
+          },
+          "asd_7": {
+            "totalQuestions": 730,
+            "subtopics": {
+              "7_matematica": {
+                "file": "/data/asd/questions/7_matematica.json",
+                "totalQuestions": 365,
+                "sections": {
+                  "Unidad 1: Números Positivos, Negativos y el Cero (1–35)": 35,
+                  "Unidad 2: Operaciones con Números con Signo (36–80)": 45,
+                  "Unidad 3: Ecuaciones de Primer Grado con una Incógnita (81–135)": 55,
+                  "Unidad 4: Expresiones Algebraicas y Términos Semejantes (136–180)": 45,
+                  "Unidad 5: Proporcionalidad Directa e Inversa con Gráficas (181–225)": 45,
+                  "Unidad 6: Geometría Plana y Construcciones (226–270)": 45,
+                  "Unidad 7: Perímetro, Área y Cuerpos Geométricos (271–320)": 50,
+                  "Unidad 8: Estadística Descriptiva y Probabilidad (321–365)": 45
+                }
+              },
+              "7_ciencias": {
+                "file": "/data/asd/questions/7_ciencias.json",
+                "totalQuestions": 365,
+                "sections": {
+                  "Unidad 1: Naturaleza de la Ciencia y Trabajo Experimental (1–35)": 35,
+                  "Unidad 2: Estructura Atómica y Tabla Periódica (36–90)": 55,
+                  "Unidad 3: Enlaces Químicos y Reacciones (91–135)": 45,
+                  "Unidad 4: Biología Celular y Genética Mendeliana (136–190)": 55,
+                  "Unidad 5: Fisiología Humana e Inmunología (191–235)": 45,
+                  "Unidad 6: Cinemática y Leyes del Movimiento de Newton (236–285)": 50,
+                  "Unidad 7: Ecología, Recursos Hídricos y Cambio Climático (286–330)": 45,
+                  "Unidad 8: Astronomía y Geología Terrestre (331–365)": 35
+                }
+              }
+            }
+          }
+        }
+      },
+      "AVANZO": {
+        "totalQuestions": 3000,
+        "subjects": {
+          "avanzo_precalculo": {
+            "totalQuestions": 600,
+            "subtopics": {
+              "avanzo_precalculo": {
+                "file": "/data/avanzo/questions/avanzo_precalculo.json",
+                "totalQuestions": 600,
+                "sections": {
+                  "Bloque 1: Álgebra, Ecuaciones y Desigualdades (1–120)": 120,
+                  "Bloque 2: Funciones Reales y Modelado Matemático (121–240)": 120,
+                  "Bloque 3: Geometría Analítica y Cónicas (241–360)": 120,
+                  "Bloque 4: Trigonometría e Identidades (361–480)": 120,
+                  "Bloque 5: Estadística y Probabilidad (481–600)": 120
+                }
+              }
+            }
+          },
+          "avanzo_ciudadania": {
+            "totalQuestions": 600,
+            "subtopics": {
+              "avanzo_ciudadania": {
+                "file": "/data/avanzo/questions/avanzo_ciudadania.json",
+                "totalQuestions": 600,
+                "sections": {
+                  "Bloque 1: La Investigación en Ciencias Sociales (1–200)": 200,
+                  "Bloque 2: Desarrollo Histórico, Social y Económico de El Salvador (201–400)": 200,
+                  "Bloque 3: Sociedad, Democracia, Estado de Derecho y Convivencia (401–600)": 200
+                }
+              }
+            }
+          },
+          "avanzo_ciencias": {
+            "totalQuestions": 600,
+            "subtopics": {
+              "avanzo_ciencias": {
+                "file": "/data/avanzo/questions/avanzo_ciencias.json",
+                "totalQuestions": 600,
+                "sections": {
+                  "Bloque 1: Física y Leyes del Movimiento (1–200)": 200,
+                  "Bloque 2: Química y Transformaciones de la Materia (201–400)": 200,
+                  "Bloque 3: Biología, Genética y Medio Ambiente (401–600)": 200
+                }
+              }
+            }
+          },
+          "avanzo_lengua": {
+            "totalQuestions": 600,
+            "subtopics": {
+              "avanzo_lengua": {
+                "file": "/data/avanzo/questions/avanzo_lengua.json",
+                "totalQuestions": 600,
+                "sections": {
+                  "Bloque 1: Texto Narrativo y Literatura Salvadoreña (1–150)": 150,
+                  "Bloque 2: Texto Poético y Recursos Estilísticos (151–300)": 150,
+                  "Bloque 3: Texto Argumentativo y Ensayístico (301–450)": 150,
+                  "Bloque 4: Texto Expositivo, Cohesión y Normativa Lingüística (451–600)": 150
+                }
+              }
+            }
+          },
+          "avanzo_ingles": {
+            "totalQuestions": 600,
+            "subtopics": {
+              "avanzo_ingles": {
+                "file": "/data/avanzo/questions/avanzo_ingles.json",
+                "totalQuestions": 600,
+                "sections": {
+                  "Bloque 1: Reading Comprehension & Everyday Texts (1–200)": 200,
+                  "Bloque 2: Grammar & Sentence Structure (201–400)": 200,
+                  "Bloque 3: Functional Language & Daily Communication (401–600)": 200
+                }
+              }
+            }
+          }
+        }
+      },
+      "ENA": {
+        "totalQuestions": 1400,
+        "subjects": {
+          "ena_matematicas": {
+            "totalQuestions": 350,
+            "subtopics": {
+              "ena_matematicas": {
+                "file": "/data/ena/questions/ena_matematicas.json",
+                "totalQuestions": 350,
+                "sections": {
+                  "Unidades de Medida Agrícolas y Conversiones (1–70)": 70,
+                  "Aritmética Aplicada, Regla de Tres y Porcentajes (71–140)": 70,
+                  "Área y Volumen de Figuras Geométricas en el Campo (141–210)": 70,
+                  "Álgebra, Factorización y Ecuaciones (211–280)": 70,
+                  "Trigonometría, Recta, Conjuntos y Funciones (281–350)": 70
+                }
+              }
+            }
+          },
+          "ena_quimica": {
+            "totalQuestions": 350,
+            "subtopics": {
+              "ena_quimica": {
+                "file": "/data/ena/questions/ena_quimica.json",
+                "totalQuestions": 350,
+                "sections": {
+                  "Definición, Ramas y Estados de la Materia (1–70)": 70,
+                  "El Átomo y su Estructura Nuclear (71–140)": 70,
+                  "La Tabla Periódica y Familias de Elementos (141–210)": 70,
+                  "Enlaces Químicos y Estructura Molecular (211–280)": 70,
+                  "Reacciones Químicas y Agroquímica (281–350)": 70
+                }
+              }
+            }
+          },
+          "ena_biologia": {
+            "totalQuestions": 350,
+            "subtopics": {
+              "ena_biologia": {
+                "file": "/data/ena/questions/ena_biologia.json",
+                "totalQuestions": 350,
+                "sections": {
+                  "Materia Viva y Niveles de Organización (1–70)": 70,
+                  "La Célula y sus Organelos (71–140)": 70,
+                  "Metabolismo Celular y Fotosíntesis (141–210)": 70,
+                  "Genética y Leyes de la Herencia (211–280)": 70,
+                  "Los Seis Reinos de la Naturaleza y Ecología (281–350)": 70
+                }
+              }
+            }
+          },
+          "ena_lenguaje": {
+            "totalQuestions": 350,
+            "subtopics": {
+              "ena_lenguaje": {
+                "file": "/data/ena/questions/ena_lenguaje.json",
+                "totalQuestions": 350,
+                "sections": {
+                  "Comunicación, Textos Orales y Oratoria (1–70)": 70,
+                  "Técnicas de Estudio y Organizadores de Información (71–140)": 70,
+                  "Investigación Científica e Informe Académico (141–210)": 70,
+                  "Texto Argumentativo, Ensayo y Discurso Persuasivo (211–280)": 70,
+                  "Literatura Salvadoreña y Precolombina, Morfosintaxis (281–350)": 70
+                }
+              }
+            }
+          }
+        }
+      },
+      "ESCALAFON": {
+        "totalQuestions": 3300,
+        "subjects": {
+          "escalafon_general": {
+            "totalQuestions": 300,
+            "subtopics": {
+              "escalafon_general": {
+                "file": "/data/escalafon/questions/escalafon_general.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: TEORÍAS PEDAGÓGICAS Y DESARROLLO COGNITIVO (1–75)": 75,
+                  "SECCIÓN II: MARCO LEGAL Y NORMATIVA DE LA CARRERA DOCENTE (76–150)": 75,
+                  "SECCIÓN III: DIDÁCTICA, SECUENCIAS Y EVALUACIÓN POR COMPETENCIAS (151–225)": 75,
+                  "SECCIÓN IV: INVESTIGACIÓN-ACCIÓN, COMPETENCIA DIGITAL Y MEDIO AMBIENTE (226–300)": 75
+                }
+              }
+            }
+          },
+          "escalafon_parvularia": {
+            "totalQuestions": 300,
+            "subtopics": {
+              "escalafon_parvularia": {
+                "file": "/data/escalafon/questions/escalafon_parvularia.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: DESARROLLO INFANTIL Y ESTIMULACIÓN TEMPRANA (1–75)": 75,
+                  "SECCIÓN II: DIDÁCTICA Y METODOLOGÍAS DEL NIVEL INICIAL Y PARVULARIO (76–150)": 75,
+                  "SECCIÓN III: ORGANIZACIÓN CURRICULAR Y RINCONES DE APRENDIZAJE (151–225)": 75,
+                  "SECCIÓN IV: EXPRESIÓN CREATIVA, LECTOESCRITURA Y COMUNICACIÓN (226–300)": 75
+                }
+              }
+            }
+          },
+          "escalafon_basica": {
+            "totalQuestions": 300,
+            "subtopics": {
+              "escalafon_basica": {
+                "file": "/data/escalafon/questions/escalafon_basica.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: FUNDAMENTOS DEL CURRÍCULO DE I Y II CICLO (1–75)": 75,
+                  "SECCIÓN II: DIDÁCTICA DE LA MATEMÁTICA Y ESMATE EN PRIMARIA (76–150)": 75,
+                  "SECCIÓN III: DIDÁCTICA DEL LENGUAJE, LECTURA Y ESCRITURA (151–225)": 75,
+                  "SECCIÓN IV: DIDÁCTICA DE CIENCIAS NATURALES Y ESTUDIOS SOCIALES (226–300)": 75
+                }
+              }
+            }
+          },
+          "escalafon_lenguaje": {
+            "totalQuestions": 300,
+            "subtopics": {
+              "escalafon_lenguaje": {
+                "file": "/data/escalafon/questions/escalafon_lenguaje.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: LITERATURA SALVADOREÑA Y TEORÍA NARRATIVA (1–75)": 75,
+                  "SECCIÓN II: GÉNEROS LITERARIOS, POESÍA Y TRANSTEXTUALIDAD (76–150)": 75,
+                  "SECCIÓN III: LINGÜÍSTICA, SEMÁNTICA Y FUNCIONES DEL LENGUAJE (151–225)": 75,
+                  "SECCIÓN IV: GRAMÁTICA, ORTOGRAFÍA RAE Y DIDÁCTICA COMUNICATIVA (226–300)": 75
+                }
+              }
+            }
+          },
+          "escalafon_matematica": {
+            "totalQuestions": 300,
+            "subtopics": {
+              "escalafon_matematica": {
+                "file": "/data/escalafon/questions/escalafon_matematica.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: ARITMÉTICA, CONJUNTOS Y LÓGICA MATEMÁTICA (1–75)": 75,
+                  "SECCIÓN II: ÁLGEBRA, SISTEMAS DE ECUACIONES Y MATRICES (76–150)": 75,
+                  "SECCIÓN III: RELACIONES, FUNCIONES Y GEOMETRÍA ANALÍTICA (151–225)": 75,
+                  "SECCIÓN IV: CÁLCULO DIFERENCIAL, INTEGRAL Y PROBABILIDAD (226–300)": 75
+                }
+              }
+            }
+          },
+          "escalafon_naturales": {
+            "totalQuestions": 300,
+            "subtopics": {
+              "escalafon_naturales": {
+                "file": "/data/escalafon/questions/escalafon_naturales.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: FÍSICA CLÁSICA, CINEMÁTICA Y LEYES DE NEWTON (1–75)": 75,
+                  "SECCIÓN II: FLUIDOS, ENERGÍA, ONDAS Y ELECTROSTÁTICA (76–150)": 75,
+                  "SECCIÓN III: QUÍMICA: ÁTOMOS, TABLA PERIÓDICA, ENLACES Y PH (151–225)": 75,
+                  "SECCIÓN IV: BIOLOGÍA, CITOLOGÍA, GENÉTICA Y ECOLOGÍA (226–300)": 75
+                }
+              }
+            }
+          },
+          "escalafon_sociales": {
+            "totalQuestions": 300,
+            "subtopics": {
+              "escalafon_sociales": {
+                "file": "/data/escalafon/questions/escalafon_sociales.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: EPISTEMOLOGÍA Y TEORÍAS DE LAS CIENCIAS SOCIALES (1–75)": 75,
+                  "SECCIÓN II: HISTORIA DE EL SALVADOR Y CENTROAMÉRICA (76–150)": 75,
+                  "SECCIÓN III: CONFLICTO ARMADO, ACUERDOS DE PAZ Y DEMOCRACIA (151–225)": 75,
+                  "SECCIÓN IV: DERECHOS HUMANOS, CONSTITUCIÓN Y GEOGRAFÍA (226–300)": 75
+                }
+              }
+            }
+          },
+          "escalafon_ingles": {
+            "totalQuestions": 300,
+            "subtopics": {
+              "escalafon_ingles": {
+                "file": "/data/escalafon/questions/escalafon_ingles.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECTION I: PHONETICS, SPEECH PRODUCTION AND MINIMAL PAIRS (1–75)": 75,
+                  "SECTION II: READING COMPREHENSION AND TEXTUAL INFERENCE (76–150)": 75,
+                  "SECTION III: ADVANCED GRAMMAR, SYNTAX AND DISCOURSE MARKERS (151–225)": 75,
+                  "SECTION IV: ELT METHODOLOGY, TASK-BASED LEARNING AND ASSESSMENT (226–300)": 75
+                }
+              }
+            }
+          },
+          "escalafon_fisica": {
+            "totalQuestions": 300,
+            "subtopics": {
+              "escalafon_fisica": {
+                "file": "/data/escalafon/questions/escalafon_fisica.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: FUNDAMENTOS CURRICULARES Y EPISTEMOLOGÍA DE LA EDUCACIÓN FÍSICA (1–75)": 75,
+                  "SECCIÓN II: DESARROLLO MOTOR, CONTINUO PSICOMOTOR Y LATERALIDAD (76–150)": 75,
+                  "SECCIÓN III: CAPACIDADES FÍSICAS CONDICIONALES Y COORDINATIVAS (151–225)": 75,
+                  "SECCIÓN IV: DIDÁCTICA DEL DEPORTE, PLANIFICACIÓN Y EVALUACIÓN (226–300)": 75
+                }
+              }
+            }
+          },
+          "escalafon_especial": {
+            "totalQuestions": 300,
+            "subtopics": {
+              "escalafon_especial": {
+                "file": "/data/escalafon/questions/escalafon_especial.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: EVALUACIÓN Y DIAGNÓSTICO DE NECESIDADES EDUCATIVAS ESPECIALES (1–75)": 75,
+                  "SECCIÓN II: CARACTERIZACIÓN DE DISCAPACIDADES Y TRASTORNOS (76–150)": 75,
+                  "SECCIÓN III: METODOLOGÍAS Y ESTRATEGIAS DE INTERVENCIÓN COGNITIVA (151–225)": 75,
+                  "SECCIÓN IV: DISEÑO UNIVERSAL PARA EL APRENDIZAJE (DUA) E INCLUSIÓN EDUCATIVA (226–300)": 75
+                }
+              }
+            }
+          },
+          "escalafon_comerciales": {
+            "totalQuestions": 300,
+            "subtopics": {
+              "escalafon_comerciales": {
+                "file": "/data/escalafon/questions/escalafon_comerciales.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: TEORÍA DE LA ADMINISTRACIÓN Y TALENTO HUMANO (1–75)": 75,
+                  "SECCIÓN II: ORGANIZACIÓN, MODELOS DE EMPRESA Y PROCESOS PRODUCTIVOS (76–150)": 75,
+                  "SECCIÓN III: MARCO JURÍDICO COMERCIAL, LABORAL Y TRIBUTARIO (151–225)": 75,
+                  "SECCIÓN IV: CONTABILIDAD FINANCIERA, TRIBUTACIÓN Y ÉTICA GUBERNAMENTAL (226–300)": 75
+                }
+              }
+            }
+          }
+        }
       }
     },
-    "totalQuestions": 7750
+    "totalQuestions": 17640
   }
 }

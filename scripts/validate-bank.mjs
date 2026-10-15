@@ -218,6 +218,210 @@ if (anspCur) {
   manifest.institutions.ANSP = inst;
 }
 
+// ---------------------------------------------------------------------------
+// ASD (Academia Sabatina Departamental - Jóvenes Talento)
+// ---------------------------------------------------------------------------
+const asdCur = readJson('asd/curriculum.json');
+if (asdCur) {
+  const subjects = new Set(asdCur.subjects.map((s) => s.id));
+  const inst = { totalQuestions: 0, subjects: {} };
+  const perFileById = new Map();
+  let declaredTotal = 0;
+  for (const subj of asdCur.subjects) {
+    const sEntry = { totalQuestions: 0, subtopics: {} };
+    for (const st of subj.subtopics) {
+      declaredTotal += st.questionCount || 0;
+      const rel = `asd/questions/${st.id}.json`;
+      const raw = readJson(rel);
+      if (!raw) continue;
+      const ctx = {
+        subjects,
+        subtopics: new Set([st.id]),
+        sectionsBySubtopic: new Map([[st.id, st.sections || []]]),
+      };
+      const valid = validateQuestions(rel, raw, ctx);
+      registerIds(rel, valid);
+      for (const q of valid) {
+        perFileById.set(q.id, q);
+        if (q.subjectId !== subj.id) err(`${rel} (${q.id})`, `subjectId "${q.subjectId}" no corresponde a la materia/grado "${subj.id}"`);
+      }
+      const sections = {};
+      for (const q of valid) sections[q.sectionTitle || ''] = (sections[q.sectionTitle || ''] || 0) + 1;
+      if (Array.isArray(raw) && st.questionCount !== raw.length) warn('conteo-curriculo', rel, `el currículo declara ${st.questionCount} y el archivo contiene ${raw.length}`);
+      sEntry.subtopics[st.id] = { file: `/data/${rel}`, totalQuestions: valid.length, sections };
+      sEntry.totalQuestions += valid.length;
+    }
+    inst.subjects[subj.id] = sEntry;
+    inst.totalQuestions += sEntry.totalQuestions;
+  }
+  if (asdCur.totalQuestions !== declaredTotal) warn('conteo-curriculo', 'asd/curriculum.json', `totalQuestions=${asdCur.totalQuestions} pero la suma de subtemas es ${declaredTotal}`);
+
+  // all.json debe ser exactamente la unión de los archivos por subtema.
+  const all = readJson('asd/questions/all.json');
+  if (Array.isArray(all)) {
+    if (all.length !== perFileById.size) err('asd/questions/all.json', `contiene ${all.length} preguntas y los archivos por subtema suman ${perFileById.size}`);
+    for (const q of all) {
+      const twin = perFileById.get(q.id);
+      if (!twin) err('asd/questions/all.json', `la pregunta ${q.id} no está en ningún archivo por subtema`);
+      else if (twin.correctAnswer !== q.correctAnswer || twin.statement !== q.statement) err('asd/questions/all.json', `la pregunta ${q.id} difiere de su copia por subtema`);
+    }
+  }
+  manifest.institutions.ASD = inst;
+}
+
+// ---------------------------------------------------------------------------
+// AVANZO (Prueba Nacional AVANZO 2025 - MINED)
+// ---------------------------------------------------------------------------
+const avanzoCur = readJson('avanzo/curriculum.json');
+if (avanzoCur) {
+  const subjects = new Set(avanzoCur.subjects.map((s) => s.id));
+  const inst = { totalQuestions: 0, subjects: {} };
+  const perFileById = new Map();
+  let declaredTotal = 0;
+  for (const subj of avanzoCur.subjects) {
+    const sEntry = { totalQuestions: 0, subtopics: {} };
+    for (const st of subj.subtopics) {
+      declaredTotal += st.questionCount || 0;
+      const rel = `avanzo/questions/${st.id}.json`;
+      const raw = readJson(rel);
+      if (!raw) continue;
+      const ctx = {
+        subjects,
+        subtopics: new Set([st.id]),
+        sectionsBySubtopic: new Map([[st.id, st.sections || []]]),
+      };
+      const valid = validateQuestions(rel, raw, ctx);
+      registerIds(rel, valid);
+      for (const q of valid) {
+        perFileById.set(q.id, q);
+        if (q.subjectId !== subj.id) err(`${rel} (${q.id})`, `subjectId "${q.subjectId}" no corresponde a la asignatura "${subj.id}"`);
+      }
+      const sections = {};
+      for (const q of valid) sections[q.sectionTitle || ''] = (sections[q.sectionTitle || ''] || 0) + 1;
+      if (Array.isArray(raw) && st.questionCount !== raw.length) warn('conteo-curriculo', rel, `el currículo declara ${st.questionCount} y el archivo contiene ${raw.length}`);
+      sEntry.subtopics[st.id] = { file: `/data/${rel}`, totalQuestions: valid.length, sections };
+      sEntry.totalQuestions += valid.length;
+    }
+    inst.subjects[subj.id] = sEntry;
+    inst.totalQuestions += sEntry.totalQuestions;
+  }
+  if (avanzoCur.totalQuestions !== declaredTotal) warn('conteo-curriculo', 'avanzo/curriculum.json', `totalQuestions=${avanzoCur.totalQuestions} pero la suma de subtemas es ${declaredTotal}`);
+
+  // all.json debe ser exactamente la unión de los archivos por materia.
+  const all = readJson('avanzo/questions/all.json');
+  if (Array.isArray(all)) {
+    if (all.length !== perFileById.size) err('avanzo/questions/all.json', `contiene ${all.length} preguntas y los archivos por materia suman ${perFileById.size}`);
+    for (const q of all) {
+      const twin = perFileById.get(q.id);
+      if (!twin) err('avanzo/questions/all.json', `la pregunta ${q.id} no está en ningún archivo por materia`);
+      else if (twin.correctAnswer !== q.correctAnswer || twin.statement !== q.statement) err('avanzo/questions/all.json', `la pregunta ${q.id} difiere de su copia por materia`);
+    }
+  }
+  manifest.institutions.AVANZO = inst;
+}
+
+// ---------------------------------------------------------------------------
+// ENA (Escuela Nacional de Agricultura "Roberto Quiñónez")
+// ---------------------------------------------------------------------------
+const enaCur = readJson('ena/curriculum.json');
+if (enaCur) {
+  const subjects = new Set(enaCur.subjects.map((s) => s.id));
+  const inst = { totalQuestions: 0, subjects: {} };
+  const perFileById = new Map();
+  let declaredTotal = 0;
+  for (const subj of enaCur.subjects) {
+    const sEntry = { totalQuestions: 0, subtopics: {} };
+    for (const st of subj.subtopics) {
+      declaredTotal += st.questionCount || 0;
+      const rel = `ena/questions/${st.id}.json`;
+      const raw = readJson(rel);
+      if (!raw) continue;
+      const ctx = {
+        subjects,
+        subtopics: new Set([st.id]),
+        sectionsBySubtopic: new Map([[st.id, st.sections || []]]),
+      };
+      const valid = validateQuestions(rel, raw, ctx);
+      registerIds(rel, valid);
+      for (const q of valid) {
+        perFileById.set(q.id, q);
+        if (q.subjectId !== subj.id) err(`${rel} (${q.id})`, `subjectId "${q.subjectId}" no corresponde a la materia "${subj.id}"`);
+      }
+      const sections = {};
+      for (const q of valid) sections[q.sectionTitle || ''] = (sections[q.sectionTitle || ''] || 0) + 1;
+      if (Array.isArray(raw) && st.questionCount !== raw.length) warn('conteo-curriculo', rel, `el currículo declara ${st.questionCount} y el archivo contiene ${raw.length}`);
+      sEntry.subtopics[st.id] = { file: `/data/${rel}`, totalQuestions: valid.length, sections };
+      sEntry.totalQuestions += valid.length;
+    }
+    inst.subjects[subj.id] = sEntry;
+    inst.totalQuestions += sEntry.totalQuestions;
+  }
+  if (enaCur.totalQuestions !== declaredTotal) warn('conteo-curriculo', 'ena/curriculum.json', `totalQuestions=${enaCur.totalQuestions} pero la suma de subtemas es ${declaredTotal}`);
+
+  // all.json debe ser exactamente la unión de los archivos por materia.
+  const all = readJson('ena/questions/all.json');
+  if (Array.isArray(all)) {
+    if (all.length !== perFileById.size) err('ena/questions/all.json', `contiene ${all.length} preguntas y los archivos por materia suman ${perFileById.size}`);
+    for (const q of all) {
+      const twin = perFileById.get(q.id);
+      if (!twin) err('ena/questions/all.json', `la pregunta ${q.id} no está en ningún archivo por materia`);
+      else if (twin.correctAnswer !== q.correctAnswer || twin.statement !== q.statement) err('ena/questions/all.json', `la pregunta ${q.id} difiere de su copia por materia`);
+    }
+  }
+  manifest.institutions.ENA = inst;
+}
+
+// ---------------------------------------------------------------------------
+// ESCALAFÓN DOCENTE (Ascenso al Nivel Uno 2026 - Tribunal Calificador / MINED)
+// ---------------------------------------------------------------------------
+const escalafonCur = readJson('escalafon/curriculum.json');
+if (escalafonCur) {
+  const subjects = new Set(escalafonCur.subjects.map((s) => s.id));
+  const inst = { totalQuestions: 0, subjects: {} };
+  const perFileById = new Map();
+  let declaredTotal = 0;
+  for (const subj of escalafonCur.subjects) {
+    const sEntry = { totalQuestions: 0, subtopics: {} };
+    for (const st of subj.subtopics) {
+      declaredTotal += st.questionCount || 0;
+      const rel = `escalafon/questions/${st.id}.json`;
+      const raw = readJson(rel);
+      if (!raw) continue;
+      const ctx = {
+        subjects,
+        subtopics: new Set([st.id]),
+        sectionsBySubtopic: new Map([[st.id, st.sections || []]]),
+      };
+      const valid = validateQuestions(rel, raw, ctx);
+      registerIds(rel, valid);
+      for (const q of valid) {
+        perFileById.set(q.id, q);
+        if (q.subjectId !== subj.id) err(`${rel} (${q.id})`, `subjectId "${q.subjectId}" no corresponde a la especialidad "${subj.id}"`);
+      }
+      const sections = {};
+      for (const q of valid) sections[q.sectionTitle || ''] = (sections[q.sectionTitle || ''] || 0) + 1;
+      if (Array.isArray(raw) && st.questionCount !== raw.length) warn('conteo-curriculo', rel, `el currículo declara ${st.questionCount} y el archivo contiene ${raw.length}`);
+      sEntry.subtopics[st.id] = { file: `/data/${rel}`, totalQuestions: valid.length, sections };
+      sEntry.totalQuestions += valid.length;
+    }
+    inst.subjects[subj.id] = sEntry;
+    inst.totalQuestions += sEntry.totalQuestions;
+  }
+  if (escalafonCur.totalQuestions !== declaredTotal) warn('conteo-curriculo', 'escalafon/curriculum.json', `totalQuestions=${escalafonCur.totalQuestions} pero la suma de subtemas es ${declaredTotal}`);
+
+  // all.json debe ser exactamente la unión de los archivos por especialidad.
+  const all = readJson('escalafon/questions/all.json');
+  if (Array.isArray(all)) {
+    if (all.length !== perFileById.size) err('escalafon/questions/all.json', `contiene ${all.length} preguntas y los archivos por especialidad suman ${perFileById.size}`);
+    for (const q of all) {
+      const twin = perFileById.get(q.id);
+      if (!twin) err('escalafon/questions/all.json', `la pregunta ${q.id} no está en ningún archivo por especialidad`);
+      else if (twin.correctAnswer !== q.correctAnswer || twin.statement !== q.statement) err('escalafon/questions/all.json', `la pregunta ${q.id} difiere de su copia por especialidad`);
+    }
+  }
+  manifest.institutions.ESCALAFON = inst;
+}
+
 manifest.totalQuestions = Object.values(manifest.institutions).reduce((a, i) => a + i.totalQuestions, 0);
 
 // ---------------------------------------------------------------------------
@@ -225,7 +429,7 @@ manifest.totalQuestions = Object.values(manifest.institutions).reduce((a, i) => 
 // ---------------------------------------------------------------------------
 const byKind = warnings.reduce((acc, w) => ((acc[w.kind] = (acc[w.kind] || 0) + 1), acc), {});
 console.log('KUSKAT · Validación del banco de preguntas');
-console.log(`  Preguntas válidas: UES=${manifest.institutions.UES?.totalQuestions ?? 0}  ANSP=${manifest.institutions.ANSP?.totalQuestions ?? 0}  total=${manifest.totalQuestions}`);
+console.log(`  Preguntas válidas: UES=${manifest.institutions.UES?.totalQuestions ?? 0}  ANSP=${manifest.institutions.ANSP?.totalQuestions ?? 0}  ASD=${manifest.institutions.ASD?.totalQuestions ?? 0}  AVANZO=${manifest.institutions.AVANZO?.totalQuestions ?? 0}  ENA=${manifest.institutions.ENA?.totalQuestions ?? 0}  ESCALAFON=${manifest.institutions.ESCALAFON?.totalQuestions ?? 0}  total=${manifest.totalQuestions}`);
 console.log(`  Errores: ${errors.length}`);
 console.log(`  Advertencias: ${warnings.length}`, byKind);
 

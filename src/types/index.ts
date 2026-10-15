@@ -1,5 +1,5 @@
-export type ExamCategory = 'UES' | 'ANSP' | 'ALL';
-export type Institution = 'UES' | 'ANSP';
+export type ExamCategory = 'UES' | 'ANSP' | 'ASD' | 'AVANZO' | 'ENA' | 'ESCALAFON' | 'ALL';
+export type Institution = 'UES' | 'ANSP' | 'ASD' | 'AVANZO' | 'ENA' | 'ESCALAFON';
 
 export type PedagogicalLevel = 'basico' | 'intermedio' | 'admision';
 

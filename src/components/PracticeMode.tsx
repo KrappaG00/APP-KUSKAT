@@ -24,6 +24,8 @@ import {
   ChevronDown,
   ChevronUp,
   Target,
+  BookOpen,
+  Sprout,
 } from 'lucide-react';
 import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel } from '../types';
 import {
@@ -187,10 +189,18 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         title = `Simulacro: ${activeSubject.name}`;
       } else if (selectedCategory === 'UES') {
         title = 'Simulacro Oficial Admisión UES';
+      } else if (selectedCategory === 'AVANZO') {
+        title = 'Simulacro Prueba Nacional AVANZO 2025';
       } else if (selectedCategory === 'ANSP') {
         title = 'Simulador de Prueba Cultural ANSP';
+      } else if (selectedCategory === 'ASD') {
+        title = 'Simulador Academia Sabatina Departamental (ASD)';
+      } else if (selectedCategory === 'ENA') {
+        title = 'Simulador de Admisión ENA 2027';
+      } else if (selectedCategory === 'ESCALAFON') {
+        title = 'Simulador de Ascenso al Nivel 1 del Escalafón Docente';
       } else {
-        title = 'Simulacro Integral Mixto (UES & ANSP)';
+        title = 'Simulacro Integral Mixto (UES, ESCALAFÓN, AVANZO, ASD, ENA & ANSP)';
       }
 
       if (selectedLevel !== 'ALL') {
@@ -376,7 +386,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               Simulador Maestro de Tests KUSKAT
             </h2>
             <p className="text-xs sm:text-sm text-slate-500 max-w-lg mx-auto leading-relaxed">
-              Genera exámenes de evaluación aleatorios sobre el banco maestro de <strong className="text-slate-800">7,750 preguntas</strong>.
+              Genera exámenes de evaluación aleatorios sobre el banco maestro de <strong className="text-slate-800">17,640 preguntas</strong>.
               Configura por tipo institucional, materia académica, unidad temática o sección.
             </p>
           </div>
@@ -389,7 +399,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider">
                 1. Ámbito de Evaluación (Tipo):
               </label>
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+              <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-2.5">
                 <button
                   type="button"
                   onClick={() => {
@@ -406,11 +416,11 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 >
                   <div className="flex items-center justify-between">
                     <Sparkles className="w-4 h-4 text-amber-400" />
-                    <span className="text-[10px] font-mono opacity-70">7,750 Q</span>
+                    <span className="text-[10px] font-mono opacity-70">17,640 Q</span>
                   </div>
                   <div className="pt-2">
                     <span className="font-bold text-xs block">Integral Mixto</span>
-                    <span className="text-[10px] opacity-75">UES & ANSP Combinado</span>
+                    <span className="text-[10px] opacity-75">Todas las Áreas</span>
                   </div>
                 </button>
 
@@ -435,6 +445,102 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   <div className="pt-2">
                     <span className="font-bold text-xs block">Admisión UES</span>
                     <span className="text-[10px] opacity-75">5 Materias Académicas</span>
+                  </div>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSelectedCategory('AVANZO');
+                    setSelectedSubjectId('ALL');
+                    setSelectedSubtopicId('ALL');
+                    setSelectedSectionTitle('ALL');
+                  }}
+                  className={`p-3 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
+                    selectedCategory === 'AVANZO'
+                      ? 'bg-amber-600 text-white border-amber-600 shadow-xs'
+                      : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                  }`}
+                >
+                  <div className="flex items-center justify-between">
+                    <BookOpen className="w-4 h-4 text-amber-200" />
+                    <span className="text-[10px] font-mono opacity-80">3,000 Q</span>
+                  </div>
+                  <div className="pt-2">
+                    <span className="font-bold text-xs block">Prueba AVANZO</span>
+                    <span className="text-[10px] opacity-75">Bachillerato 2025</span>
+                  </div>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSelectedCategory('ASD');
+                    setSelectedSubjectId('ALL');
+                    setSelectedSubtopicId('ALL');
+                    setSelectedSectionTitle('ALL');
+                  }}
+                  className={`p-3 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
+                    selectedCategory === 'ASD'
+                      ? 'bg-emerald-700 text-white border-emerald-700 shadow-xs'
+                      : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                  }`}
+                >
+                  <div className="flex items-center justify-between">
+                    <Award className="w-4 h-4 text-emerald-200" />
+                    <span className="text-[10px] font-mono opacity-80">2,190 Q</span>
+                  </div>
+                  <div className="pt-2">
+                    <span className="font-bold text-xs block">Jóvenes Talento</span>
+                    <span className="text-[10px] opacity-75">5.°, 6.° y 7.° Grado</span>
+                  </div>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSelectedCategory('ENA');
+                    setSelectedSubjectId('ALL');
+                    setSelectedSubtopicId('ALL');
+                    setSelectedSectionTitle('ALL');
+                  }}
+                  className={`p-3 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
+                    selectedCategory === 'ENA'
+                      ? 'bg-emerald-600 text-white border-emerald-600 shadow-xs'
+                      : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                  }`}
+                >
+                  <div className="flex items-center justify-between">
+                    <Sprout className="w-4 h-4 text-emerald-200" />
+                    <span className="text-[10px] font-mono opacity-80">1,400 Q</span>
+                  </div>
+                  <div className="pt-2">
+                    <span className="font-bold text-xs block">Admisión ENA</span>
+                    <span className="text-[10px] opacity-75">Agronomía 2027</span>
+                  </div>
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => {
+                    setSelectedCategory('ESCALAFON');
+                    setSelectedSubjectId('ALL');
+                    setSelectedSubtopicId('ALL');
+                    setSelectedSectionTitle('ALL');
+                  }}
+                  className={`p-3 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
+                    selectedCategory === 'ESCALAFON'
+                      ? 'bg-purple-800 text-white border-purple-800 shadow-xs'
+                      : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                  }`}
+                >
+                  <div className="flex items-center justify-between">
+                    <Award className="w-4 h-4 text-purple-200" />
+                    <span className="text-[10px] font-mono opacity-80">3,300 Q</span>
+                  </div>
+                  <div className="pt-2">
+                    <span className="font-bold text-xs block">Escalafón Docente</span>
+                    <span className="text-[10px] opacity-75">Nivel 1 (MINED 2026)</span>
                   </div>
                 </button>
 
@@ -496,7 +602,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 className="w-full p-3 border border-slate-200 rounded-xl text-xs sm:text-sm bg-slate-50 focus:ring-2 focus:ring-blue-500 focus:outline-none"
               >
                 <option value="ALL">
-                  🌟 Todas las Materias (Evaluación Global • {selectedCategory === 'ALL' ? '7,750' : selectedCategory === 'UES' ? '7,500' : '250'} reactivos)
+                  🌟 Todas las Materias (Evaluación Global • {selectedCategory === 'ALL' ? '14,340' : selectedCategory === 'UES' ? '7,500' : selectedCategory === 'AVANZO' ? '3,000' : selectedCategory === 'ASD' ? '2,190' : selectedCategory === 'ENA' ? '1,400' : '250'} reactivos)
                 </option>
                 {filteredSubjects.map((s) => (
                   <option key={s.id} value={s.id}>

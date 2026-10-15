@@ -42,7 +42,6 @@ import {
 import { CategoryHierarchyViewer } from './components/CategoryHierarchyViewer';
 import { PracticeMode } from './components/PracticeMode';
 import { OnboardingTutorial } from './components/OnboardingTutorial';
-import { AdBanner } from './components/AdBanner';
 
 // ============================================================================
 // COMPONENTE PARA RENDERIZAR MATEMÁTICAS CON KATEX ($...$ y $$...$$)
@@ -182,7 +181,7 @@ export default function App() {
   const [quizQuestions, setQuizQuestions] = useState<Question[]>([]);
 
   // Estado para el exportador LaTeX
-  const [latexScope, setLatexScope] = useState<'ALL' | 'UES' | 'ANSP' | 'custom'>('ALL');
+  const [latexScope, setLatexScope] = useState<'ALL' | 'UES' | 'ESCALAFON' | 'AVANZO' | 'ASD' | 'ENA' | 'ANSP' | 'custom'>('ALL');
   const [latexCustomQuestions, setLatexCustomQuestions] = useState<Question[] | null>(null);
   const [latexCustomTitle, setLatexCustomTitle] = useState<string | null>(null);
   const [copiedLatex, setCopiedLatex] = useState<boolean>(false);
@@ -196,7 +195,7 @@ export default function App() {
   // Generación de código LaTeX en tiempo real
   const currentLatexCode = useMemo(() => {
     let targetQuestions = QUESTIONS_DATA;
-    let docTitle = 'Compilación Completa (UES & ANSP)';
+    let docTitle = 'Compilación Completa Kuskat (UES, ESCALAFÓN, AVANZO, ASD, ENA & ANSP)';
 
     if (latexScope === 'custom' && latexCustomQuestions && latexCustomQuestions.length > 0) {
       targetQuestions = latexCustomQuestions;
@@ -204,6 +203,18 @@ export default function App() {
     } else if (latexScope === 'UES') {
       targetQuestions = QUESTIONS_DATA.filter((q) => q.institution === 'UES');
       docTitle = 'Admisión Universitaria UES';
+    } else if (latexScope === 'ESCALAFON') {
+      targetQuestions = QUESTIONS_DATA.filter((q) => q.institution === 'ESCALAFON');
+      docTitle = 'Ascenso al Nivel Uno del Escalafón Docente 2026';
+    } else if (latexScope === 'AVANZO') {
+      targetQuestions = QUESTIONS_DATA.filter((q) => q.institution === 'AVANZO');
+      docTitle = 'Prueba Nacional AVANZO 2025';
+    } else if (latexScope === 'ASD') {
+      targetQuestions = QUESTIONS_DATA.filter((q) => q.institution === 'ASD');
+      docTitle = 'Academia Sabatina Departamental (ASD)';
+    } else if (latexScope === 'ENA') {
+      targetQuestions = QUESTIONS_DATA.filter((q) => q.institution === 'ENA');
+      docTitle = 'Escuela Nacional de Agricultura "Roberto Quiñónez" (ENA)';
     } else if (latexScope === 'ANSP') {
       targetQuestions = QUESTIONS_DATA.filter((q) => q.institution === 'ANSP');
       docTitle = 'Academia Nacional de Seguridad Pública (ANSP)';
@@ -237,7 +248,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-100 flex flex-col font-sans text-slate-800">
       {/* ==================================================================== */}
-      {/* 1. CINTILLO SUPERIOR DE ANUNCIOS Y CONTACTO */}
+      {/* 1. CINTILLO SUPERIOR DE INFORMACIÓN Y CONTACTO */}
       {/* ==================================================================== */}
       <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 text-white text-[10px] sm:text-xs py-2 px-3 sm:px-6 lg:px-8 border-b border-blue-900/50">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1.5 sm:gap-2">
@@ -491,7 +502,39 @@ export default function App() {
                       latexScope === 'UES' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-600'
                     }`}
                   >
-                    UES Completo
+                    UES
+                  </button>
+                  <button
+                    onClick={() => setLatexScope('ESCALAFON')}
+                    className={`px-3 py-1 rounded-lg transition-all cursor-pointer ${
+                      latexScope === 'ESCALAFON' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-600'
+                    }`}
+                  >
+                    Escalafón
+                  </button>
+                  <button
+                    onClick={() => setLatexScope('AVANZO')}
+                    className={`px-3 py-1 rounded-lg transition-all cursor-pointer ${
+                      latexScope === 'AVANZO' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-600'
+                    }`}
+                  >
+                    AVANZO
+                  </button>
+                  <button
+                    onClick={() => setLatexScope('ASD')}
+                    className={`px-3 py-1 rounded-lg transition-all cursor-pointer ${
+                      latexScope === 'ASD' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-600'
+                    }`}
+                  >
+                    ASD
+                  </button>
+                  <button
+                    onClick={() => setLatexScope('ENA')}
+                    className={`px-3 py-1 rounded-lg transition-all cursor-pointer ${
+                      latexScope === 'ENA' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-600'
+                    }`}
+                  >
+                    ENA
                   </button>
                   <button
                     onClick={() => setLatexScope('ANSP')}
@@ -499,7 +542,7 @@ export default function App() {
                       latexScope === 'ANSP' ? 'bg-white text-slate-900 shadow-xs' : 'text-slate-600'
                     }`}
                   >
-                    ANSP Completo
+                    ANSP
                   </button>
                 </div>
               </div>
@@ -866,17 +909,7 @@ export default function App() {
             </div>
           </div>
 
-          {/* ================================================================ */}
-          {/* ESPACIO PUBLICITARIO SUTIL DE PIE DE PÁGINA (2 de 2 máx)           */}
-          {/* ================================================================ */}
-          <div className="pt-6">
-            <AdBanner
-              label="Patrocinado"
-              className="border-slate-200/60 bg-slate-50/50"
-            />
-          </div>
-
-          <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-400 text-[11px]">
+          <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-400 text-[11px] border-t border-slate-200/60">
             <div className="flex items-center gap-3 flex-wrap">
               <p>KUSKAT © 2026 • Todos los derechos reservados • Desarrollado por Yeferson E. Perez</p>
               <span>•</span>

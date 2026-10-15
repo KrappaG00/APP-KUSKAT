@@ -31,6 +31,7 @@ import {
   SlidersHorizontal,
   X,
   Play,
+  Sprout,
 } from 'lucide-react';
 import katex from 'katex';
 import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel } from '../types';
@@ -250,7 +251,59 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
             }
           }
         }
-        // 3. Si se eligió ANSP completa
+        // 3. Si se eligió ASD completa
+        else if (selectedInst === 'ASD') {
+          const res = await fetch('/data/asd/questions/all.json');
+          if (res.ok) {
+            const raw = await res.json();
+            if (Array.isArray(raw)) {
+              pool = raw;
+            }
+          }
+          if (pool.length === 0) {
+            pool = await fetchSubtopicQuestions('ASD', '5_matematica', 'Matemática', 'Divisibilidad');
+          }
+        }
+        // 4. Si se eligió ENA completa
+        else if (selectedInst === 'ENA') {
+          const res = await fetch('/data/ena/questions/all.json');
+          if (res.ok) {
+            const raw = await res.json();
+            if (Array.isArray(raw)) {
+              pool = raw;
+            }
+          }
+          if (pool.length === 0) {
+            pool = await fetchSubtopicQuestions('ENA', 'ena_matematicas', 'Matemáticas', 'Matemáticas Agrarias');
+          }
+        }
+        // 5. Si se eligió AVANZO completa
+        else if (selectedInst === 'AVANZO') {
+          const res = await fetch('/data/avanzo/questions/all.json');
+          if (res.ok) {
+            const raw = await res.json();
+            if (Array.isArray(raw)) {
+              pool = raw;
+            }
+          }
+          if (pool.length === 0) {
+            pool = await fetchSubtopicQuestions('AVANZO', 'avanzo_precalculo', 'Precálculo', 'Precálculo');
+          }
+        }
+        // 6. Si se eligió ESCALAFON completa
+        else if (selectedInst === 'ESCALAFON') {
+          const res = await fetch('/data/escalafon/questions/all.json');
+          if (res.ok) {
+            const raw = await res.json();
+            if (Array.isArray(raw)) {
+              pool = raw;
+            }
+          }
+          if (pool.length === 0) {
+            pool = await fetchSubtopicQuestions('ESCALAFON', 'escalafon_general', 'Formación General Pedagógica y Legislación', 'Formación General');
+          }
+        }
+        // 7. Si se eligió ANSP completa
         else if (selectedInst === 'ANSP') {
           const anspSubjs = subjects.filter((s) => s.institution === 'ANSP');
           const promises = anspSubjs.map((s) =>
@@ -259,7 +312,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           const results = await Promise.all(promises);
           pool = results.flat();
         }
-        // 4. Si se eligió UES completa
+        // 8. Si se eligió UES completa
         else if (selectedInst === 'UES') {
           // Cargamos la primera materia como vista principal para evitar sobrecargar 7500 reactivos simultáneos
           const uesMat = subjects.find((s) => s.id === 'matematicas') || subjects.find((s) => s.institution === 'UES');
@@ -273,14 +326,18 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
             pool = QUESTIONS_DATA.filter((q) => q.institution === 'UES');
           }
         }
-        // 5. "ALL" (Todas las Categorías)
+        // 9. "ALL" (Todas las Categorías)
         else {
-          // Cargamos preguntas representativas combinadas de UES y ANSP
-          const [uesPool, anspPool] = await Promise.all([
+          // Cargamos preguntas representativas combinadas de UES, ANSP, ASD, AVANZO, ENA y ESCALAFON
+          const [uesPool, anspPool, asdPool, avanzoPool, enaPool, escalafonPool] = await Promise.all([
             fetchSubtopicQuestions('UES', '1.1', 'Matemáticas', 'Números Reales').catch(() => []),
             fetchSubtopicQuestions('ANSP', 'ansp_historia', 'Historia de El Salvador').catch(() => []),
+            fetchSubtopicQuestions('ASD', '5_matematica', 'Matemática', 'Divisibilidad').catch(() => []),
+            fetchSubtopicQuestions('AVANZO', 'avanzo_precalculo', 'Precálculo', 'Precálculo').catch(() => []),
+            fetchSubtopicQuestions('ENA', 'ena_matematicas', 'Matemáticas', 'Matemáticas Agrarias').catch(() => []),
+            fetchSubtopicQuestions('ESCALAFON', 'escalafon_general', 'Formación General Pedagógica y Legislación', 'Formación General').catch(() => []),
           ]);
-          pool = [...uesPool, ...anspPool];
+          pool = [...uesPool, ...anspPool, ...asdPool, ...avanzoPool, ...enaPool, ...escalafonPool];
         }
 
         if (pool.length === 0) {
@@ -410,18 +467,24 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       }[];
     }[] = [];
 
-    // 1. Agrupar por Institución (UES / ANSP)
+    // 1. Agrupar por Institución (UES / AVANZO / ASD / ENA / ESCALAFON / ANSP)
     const instBuckets: Record<Institution, Question[]> = {
       UES: [],
+      AVANZO: [],
+      ASD: [],
+      ENA: [],
+      ESCALAFON: [],
       ANSP: [],
     };
 
     displayedQuestions.forEach((q) => {
       const inst = q.institution || 'UES';
-      instBuckets[inst].push(q);
+      if (instBuckets[inst]) {
+        instBuckets[inst].push(q);
+      }
     });
 
-    (['UES', 'ANSP'] as Institution[]).forEach((inst) => {
+    (['UES', 'AVANZO', 'ASD', 'ENA', 'ESCALAFON', 'ANSP'] as Institution[]).forEach((inst) => {
       const qList = instBuckets[inst];
       if (qList.length === 0) return;
 
@@ -512,7 +575,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
     setSelectedLevel('ALL');
     setMenuSearchQuery('');
     setQuestionSearchQuery('');
-    showToast('Mostrando todas las categorías (UES & ANSP)');
+    showToast('Mostrando todas las categorías (UES, ESCALAFÓN, AVANZO, ASD, ENA & ANSP)');
   };
 
   // Toggle colapsar/expandir sección
@@ -617,29 +680,49 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           </h2>
 
           <p className="text-xs sm:text-sm text-slate-300 max-w-3xl leading-relaxed">
-            Explora las <strong className="text-white">7,750 preguntas oficiales</strong> organizadas
-            jerárquicamente: selecciona entre <strong className="text-white">UES</strong> (Admisión Universitaria) y{' '}
-            <strong className="text-white">ANSP</strong> (Policía Nacional Civil), filtra por materia académica,
+            Explora las <strong className="text-white">17,640 preguntas oficiales</strong> organizadas
+            jerárquicamente: selecciona entre <strong className="text-white">UES</strong> (Admisión Universitaria),{' '}
+            <strong className="text-white">ESCALAFÓN DOCENTE</strong> (Ascenso al Nivel Uno 2026 MINED),{' '}
+            <strong className="text-white">AVANZO</strong> (Prueba Nacional Bachillerato),{' '}
+            <strong className="text-white">ASD</strong> (Jóvenes Talento El Salvador),{' '}
+            <strong className="text-white">ENA</strong> (Escuela Nacional de Agricultura "Roberto Quiñónez") y{' '}
+            <strong className="text-white">ANSP</strong> (Policía Nacional Civil), filtra por especialidad, grado, materia académica,
             unidad temática o desglose por sección.
           </p>
 
           {/* Estadísticas Clave */}
-          <div className="pt-2 grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3 text-xs">
+          <div className="pt-2 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 gap-2 sm:gap-3 text-xs">
             <div className="bg-white/10 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-white/10">
               <span className="text-[10px] text-slate-400 uppercase tracking-wider block font-bold">Total Reactivos</span>
-              <span className="text-lg font-black text-white">7,750</span>
+              <span className="text-lg font-black text-white">17,640</span>
             </div>
             <div className="bg-blue-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-blue-400/20">
               <span className="text-[10px] text-blue-300 uppercase tracking-wider block font-bold">Tipo UES</span>
               <span className="text-lg font-black text-blue-200">7,500</span>
             </div>
+            <div className="bg-purple-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-purple-400/20">
+              <span className="text-[10px] text-purple-300 uppercase tracking-wider block font-bold">Escalafón</span>
+              <span className="text-lg font-black text-purple-200">3,300</span>
+            </div>
+            <div className="bg-amber-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-amber-400/20">
+              <span className="text-[10px] text-amber-300 uppercase tracking-wider block font-bold">Tipo AVANZO</span>
+              <span className="text-lg font-black text-amber-200">3,000</span>
+            </div>
+            <div className="bg-emerald-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-emerald-400/20">
+              <span className="text-[10px] text-emerald-300 uppercase tracking-wider block font-bold">Tipo ASD</span>
+              <span className="text-lg font-black text-emerald-200">2,190</span>
+            </div>
+            <div className="bg-teal-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-teal-400/20">
+              <span className="text-[10px] text-teal-300 uppercase tracking-wider block font-bold">Tipo ENA</span>
+              <span className="text-lg font-black text-teal-200">1,400</span>
+            </div>
             <div className="bg-indigo-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-indigo-400/20">
               <span className="text-[10px] text-indigo-300 uppercase tracking-wider block font-bold">Tipo ANSP</span>
               <span className="text-lg font-black text-indigo-200">250</span>
             </div>
-            <div className="bg-emerald-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-emerald-400/20">
-              <span className="text-[10px] text-emerald-300 uppercase tracking-wider block font-bold">Asignaturas</span>
-              <span className="text-lg font-black text-emerald-200">{subjects.length || 15}</span>
+            <div className="bg-fuchsia-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-fuchsia-400/20">
+              <span className="text-[10px] text-fuchsia-300 uppercase tracking-wider block font-bold">Asignaturas</span>
+              <span className="text-lg font-black text-fuchsia-200">{subjects.length || 38}</span>
             </div>
           </div>
         </div>
@@ -714,7 +797,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
             <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block">
               1. Tipo de Institución:
             </label>
-            <div className="grid grid-cols-3 gap-1.5 p-1 bg-slate-100 rounded-2xl text-xs font-bold">
+            <div className="grid grid-cols-3 sm:grid-cols-7 gap-1 p-1 bg-slate-100 rounded-2xl text-xs font-bold">
               <button
                 onClick={() => {
                   setSelectedInst('ALL');
@@ -729,7 +812,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                 }`}
               >
                 <span>Todas</span>
-                <span className="block text-[9px] font-mono text-slate-400">7,750</span>
+                <span className="block text-[9px] font-mono text-slate-400">17,640</span>
               </button>
 
               <button
@@ -748,6 +831,82 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                 <span>UES</span>
                 <span className={`block text-[9px] font-mono ${selectedInst === 'UES' ? 'text-blue-100' : 'text-slate-400'}`}>
                   7,500
+                </span>
+              </button>
+
+              <button
+                onClick={() => {
+                  setSelectedInst('ESCALAFON');
+                  setSelectedSubjectId('ALL');
+                  setSelectedSubtopicId('ALL');
+                  setSelectedSectionTitle('ALL');
+                }}
+                className={`py-2 px-1 rounded-xl transition-all text-center cursor-pointer ${
+                  selectedInst === 'ESCALAFON'
+                    ? 'bg-purple-800 text-white shadow-xs'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                <span>Escalafón</span>
+                <span className={`block text-[9px] font-mono ${selectedInst === 'ESCALAFON' ? 'text-purple-200' : 'text-slate-400'}`}>
+                  3,300
+                </span>
+              </button>
+
+              <button
+                onClick={() => {
+                  setSelectedInst('AVANZO');
+                  setSelectedSubjectId('ALL');
+                  setSelectedSubtopicId('ALL');
+                  setSelectedSectionTitle('ALL');
+                }}
+                className={`py-2 px-1 rounded-xl transition-all text-center cursor-pointer ${
+                  selectedInst === 'AVANZO'
+                    ? 'bg-amber-600 text-white shadow-xs'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                <span>AVANZO</span>
+                <span className={`block text-[9px] font-mono ${selectedInst === 'AVANZO' ? 'text-amber-100' : 'text-slate-400'}`}>
+                  3,000
+                </span>
+              </button>
+
+              <button
+                onClick={() => {
+                  setSelectedInst('ASD');
+                  setSelectedSubjectId('ALL');
+                  setSelectedSubtopicId('ALL');
+                  setSelectedSectionTitle('ALL');
+                }}
+                className={`py-2 px-1 rounded-xl transition-all text-center cursor-pointer ${
+                  selectedInst === 'ASD'
+                    ? 'bg-emerald-700 text-white shadow-xs'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                <span>ASD</span>
+                <span className={`block text-[9px] font-mono ${selectedInst === 'ASD' ? 'text-emerald-200' : 'text-slate-400'}`}>
+                  2,190
+                </span>
+              </button>
+
+              <button
+                onClick={() => {
+                  setSelectedInst('ENA');
+                  setSelectedSubjectId('ALL');
+                  setSelectedSubtopicId('ALL');
+                  setSelectedSectionTitle('ALL');
+                }}
+                className={`py-2 px-1 rounded-xl transition-all text-center cursor-pointer ${
+                  selectedInst === 'ENA'
+                    ? 'bg-emerald-600 text-white shadow-xs'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                <span>ENA</span>
+                <span className={`block text-[9px] font-mono ${selectedInst === 'ENA' ? 'text-emerald-100' : 'text-slate-400'}`}>
+                  1,400
                 </span>
               </button>
 
@@ -844,6 +1003,8 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                         className={`text-[9px] px-1.5 py-0.5 rounded-md font-mono font-bold ${
                           subj.institution === 'ANSP'
                             ? 'bg-indigo-100 text-indigo-800'
+                            : subj.institution === 'ASD'
+                            ? 'bg-emerald-100 text-emerald-800'
                             : 'bg-blue-100 text-blue-800'
                         }`}
                       >
@@ -993,7 +1154,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               {/* Breadcrumb de Ruta de Selección */}
               <div className="flex items-center gap-1.5 text-xs text-slate-600 flex-wrap w-full sm:w-auto">
                 <span className="font-bold text-slate-900 bg-slate-100 px-2 py-0.5 rounded-md">
-                  {selectedInst === 'ALL' ? 'UES & ANSP' : selectedInst}
+                  {selectedInst === 'ALL' ? 'UES, ESCALAFÓN, AVANZO, ASD, ENA & ANSP' : selectedInst}
                 </span>
                 <span>/</span>
                 <span className="font-semibold text-slate-700">
@@ -1166,32 +1327,64 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
             <div className="space-y-8">
               {groupedHierarchy.map((instGroup) => (
                 <div key={instGroup.institution} className="space-y-6">
-                  {/* Encabezado Nivel 1: TIPO (UES O ANSP) */}
+                  {/* Encabezado Nivel 1: TIPO (UES, AVANZO, ASD, ENA O ANSP) */}
                   <div
                     className={`p-4 rounded-2xl border text-white flex items-center justify-between shadow-xs ${
                       instGroup.institution === 'UES'
                         ? 'bg-gradient-to-r from-blue-700 to-indigo-800 border-blue-600'
-                        : 'bg-gradient-to-r from-indigo-800 to-purple-900 border-indigo-700'
+                        : instGroup.institution === 'ESCALAFON'
+                        ? 'bg-gradient-to-r from-purple-800 to-indigo-900 border-purple-700'
+                        : instGroup.institution === 'AVANZO'
+                        ? 'bg-gradient-to-r from-amber-600 to-orange-700 border-amber-500'
+                        : instGroup.institution === 'ENA'
+                        ? 'bg-gradient-to-r from-emerald-600 to-green-700 border-emerald-500'
+                        : instGroup.institution === 'ANSP'
+                        ? 'bg-gradient-to-r from-indigo-800 to-purple-900 border-indigo-700'
+                        : 'bg-gradient-to-r from-emerald-700 to-teal-800 border-emerald-600'
                     }`}
                   >
                     <div className="flex items-center gap-2.5">
                       <div className="w-8 h-8 rounded-xl bg-white/20 backdrop-blur-md flex items-center justify-center font-black">
                         {instGroup.institution === 'UES' ? (
                           <GraduationCap className="w-4 h-4 text-white" />
-                        ) : (
+                        ) : instGroup.institution === 'ESCALAFON' ? (
+                          <Award className="w-4 h-4 text-white" />
+                        ) : instGroup.institution === 'AVANZO' ? (
+                          <BookOpen className="w-4 h-4 text-white" />
+                        ) : instGroup.institution === 'ENA' ? (
+                          <Sprout className="w-4 h-4 text-white" />
+                        ) : instGroup.institution === 'ANSP' ? (
                           <Shield className="w-4 h-4 text-white" />
+                        ) : (
+                          <Award className="w-4 h-4 text-white" />
                         )}
                       </div>
                       <div>
                         <h3 className="text-base sm:text-lg font-black tracking-tight">
                           {instGroup.institution === 'UES'
                             ? 'Universidad de El Salvador (UES) — Admisión Universitaria'
-                            : 'Academia Nacional de Seguridad Pública (ANSP) — Prueba Cultural'}
+                            : instGroup.institution === 'ESCALAFON'
+                            ? 'Tribunal Calificador de la Carrera Docente — Ascenso al Nivel Uno 2026 (MINED)'
+                            : instGroup.institution === 'AVANZO'
+                            ? 'Prueba Nacional AVANZO 2025 — Ministerio de Educación (MINED)'
+                            : instGroup.institution === 'ENA'
+                            ? 'Escuela Nacional de Agricultura "Roberto Quiñónez" (ENA) — Admisión 2027'
+                            : instGroup.institution === 'ANSP'
+                            ? 'Academia Nacional de Seguridad Pública (ANSP) — Prueba Cultural'
+                            : 'Academia Sabatina Departamental (ASD) — Jóvenes Talento'}
                         </h3>
                         <p className="text-[11px] text-white/80">
                           {instGroup.institution === 'UES'
                             ? 'Banco consolidado de reactivos con justificación paso a paso'
-                            : 'Cuestionario oficial estructurado en opción múltiple y temario nacional'}
+                            : instGroup.institution === 'ESCALAFON'
+                            ? 'Banco oficial de 3,300 preguntas en Formación General y 10 Especialidades Curriculares docentes'
+                            : instGroup.institution === 'AVANZO'
+                            ? 'Evaluación oficial de 3,000 reactivos para Bachillerato en Precálculo, Ciudadanía, Ciencias, Lengua e Inglés'
+                            : instGroup.institution === 'ENA'
+                            ? 'Banco técnico de 1,400 reactivos en Matemáticas Agrarias, Química, Biología y Lenguaje Técnico'
+                            : instGroup.institution === 'ANSP'
+                            ? 'Cuestionario oficial estructurado en opción múltiple y temario nacional'
+                            : 'Preparación académica para 5.°, 6.° y 7.° Grado en Matemática y Ciencias Naturales'}
                         </p>
                       </div>
                     </div>

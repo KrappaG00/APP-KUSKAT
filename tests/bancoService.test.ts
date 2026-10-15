@@ -42,6 +42,42 @@ describe('bancoService (Aislamiento de Respaldos y Clasificación Pedagógica)',
     }
   });
 
+  it('el respaldo para ASD solo retorna preguntas con institución ASD', () => {
+    const asdFallback = getStrictFallbackQuestions('ASD');
+    expect(asdFallback.length).toBeGreaterThan(0);
+
+    for (const q of asdFallback) {
+      expect(q.institution).toBe('ASD');
+    }
+  });
+
+  it('el respaldo para AVANZO solo retorna preguntas con institución AVANZO', () => {
+    const avanzoFallback = getStrictFallbackQuestions('AVANZO');
+    expect(avanzoFallback.length).toBeGreaterThan(0);
+
+    for (const q of avanzoFallback) {
+      expect(q.institution).toBe('AVANZO');
+    }
+  });
+
+  it('el respaldo para ENA solo retorna preguntas con institución ENA', () => {
+    const enaFallback = getStrictFallbackQuestions('ENA');
+    expect(enaFallback.length).toBeGreaterThan(0);
+
+    for (const q of enaFallback) {
+      expect(q.institution).toBe('ENA');
+    }
+  });
+
+  it('el respaldo para ESCALAFON solo retorna preguntas con institución ESCALAFON', () => {
+    const escalafonFallback = getStrictFallbackQuestions('ESCALAFON');
+    expect(escalafonFallback.length).toBeGreaterThan(0);
+
+    for (const q of escalafonFallback) {
+      expect(q.institution).toBe('ESCALAFON');
+    }
+  });
+
   it('asigna el nivel pedagógico básico a conceptos, definiciones y clasificaciones iniciales', () => {
     const level1 = assignPedagogicalLevel('SECCIÓN I: CONCEPTOS FUNDAMENTALES (1-30)', 0, 100);
     expect(level1).toBe('basico');

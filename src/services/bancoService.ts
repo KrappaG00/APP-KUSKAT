@@ -14,6 +14,10 @@ import { QUESTIONS_DATA } from '../data';
 const questionsCache = new Map<string, Question[]>();
 let uesCurriculumCache: CurriculumData | null = null;
 let anspCurriculumCache: CurriculumData | null = null;
+let asdCurriculumCache: CurriculumData | null = null;
+let avanzoCurriculumCache: CurriculumData | null = null;
+let enaCurriculumCache: CurriculumData | null = null;
+let escalafonCurriculumCache: CurriculumData | null = null;
 
 /**
  * Asigna un nivel pedagógico ('basico', 'intermedio', 'admision') a cada reactivo
@@ -155,13 +159,23 @@ export function getStrictFallbackQuestions(
 }
 
 /**
- * Carga la malla curricular oficial para UES o ANSP.
+ * Carga la malla curricular oficial para UES, ANSP, ASD, AVANZO, ENA o ESCALAFON.
  */
-export async function fetchCurriculum(category: 'UES' | 'ANSP' = 'UES'): Promise<CurriculumData> {
+export async function fetchCurriculum(category: 'UES' | 'ANSP' | 'ASD' | 'AVANZO' | 'ENA' | 'ESCALAFON' = 'UES'): Promise<CurriculumData> {
   if (category === 'UES' && uesCurriculumCache) return uesCurriculumCache;
   if (category === 'ANSP' && anspCurriculumCache) return anspCurriculumCache;
+  if (category === 'ASD' && asdCurriculumCache) return asdCurriculumCache;
+  if (category === 'AVANZO' && avanzoCurriculumCache) return avanzoCurriculumCache;
+  if (category === 'ENA' && enaCurriculumCache) return enaCurriculumCache;
+  if (category === 'ESCALAFON' && escalafonCurriculumCache) return escalafonCurriculumCache;
 
-  const url = category === 'ANSP' ? '/data/ansp/curriculum.json' : '/data/curriculum.json';
+  let url = '/data/curriculum.json';
+  if (category === 'ANSP') url = '/data/ansp/curriculum.json';
+  if (category === 'ASD') url = '/data/asd/curriculum.json';
+  if (category === 'AVANZO') url = '/data/avanzo/curriculum.json';
+  if (category === 'ENA') url = '/data/ena/curriculum.json';
+  if (category === 'ESCALAFON') url = '/data/escalafon/curriculum.json';
+
   try {
     const res = await fetch(url);
     if (!res.ok) {
@@ -176,6 +190,10 @@ export async function fetchCurriculum(category: 'UES' | 'ANSP' = 'UES'): Promise
 
     if (category === 'UES') uesCurriculumCache = data;
     if (category === 'ANSP') anspCurriculumCache = data;
+    if (category === 'ASD') asdCurriculumCache = data;
+    if (category === 'AVANZO') avanzoCurriculumCache = data;
+    if (category === 'ENA') enaCurriculumCache = data;
+    if (category === 'ESCALAFON') escalafonCurriculumCache = data;
 
     return data;
   } catch (error) {
@@ -185,25 +203,45 @@ export async function fetchCurriculum(category: 'UES' | 'ANSP' = 'UES'): Promise
 }
 
 /**
- * Carga ambos currículos y retorna la malla unificada (UES + ANSP).
+ * Carga los currículos de todas las instituciones y retorna la malla unificada (UES + ANSP + ASD + AVANZO + ENA + ESCALAFON).
  */
 export async function fetchUnifiedCurriculum(): Promise<{
   allSubjects: SubjectMeta[];
   totalQuestions: number;
   totalSubtopics: number;
 }> {
-  const [ues, ansp] = await Promise.all([
+  const [ues, ansp, asd, avanzo, ena, escalafon] = await Promise.all([
     fetchCurriculum('UES').catch(() => getFallbackCurriculum('UES')),
     fetchCurriculum('ANSP').catch(() => getFallbackCurriculum('ANSP')),
+    fetchCurriculum('ASD').catch(() => getFallbackCurriculum('ASD')),
+    fetchCurriculum('AVANZO').catch(() => getFallbackCurriculum('AVANZO')),
+    fetchCurriculum('ENA').catch(() => getFallbackCurriculum('ENA')),
+    fetchCurriculum('ESCALAFON').catch(() => getFallbackCurriculum('ESCALAFON')),
   ]);
 
   const allSubjects: SubjectMeta[] = [
     ...ues.subjects.map((s) => ({ ...s, institution: 'UES' as Institution })),
+    ...avanzo.subjects.map((s) => ({ ...s, institution: 'AVANZO' as Institution })),
+    ...asd.subjects.map((s) => ({ ...s, institution: 'ASD' as Institution })),
+    ...ena.subjects.map((s) => ({ ...s, institution: 'ENA' as Institution })),
+    ...escalafon.subjects.map((s) => ({ ...s, institution: 'ESCALAFON' as Institution })),
     ...ansp.subjects.map((s) => ({ ...s, institution: 'ANSP' as Institution })),
   ];
 
-  const totalQuestions = (ues.totalQuestions || 7500) + (ansp.totalQuestions || 250);
-  const totalSubtopics = (ues.totalSubtopics || 25) + (ansp.totalSubtopics || 10);
+  const totalQuestions =
+    (ues.totalQuestions || 7500) +
+    (avanzo.totalQuestions || 3000) +
+    (asd.totalQuestions || 2190) +
+    (ena.totalQuestions || 1400) +
+    (escalafon.totalQuestions || 3300) +
+    (ansp.totalQuestions || 250);
+  const totalSubtopics =
+    (ues.totalSubtopics || 25) +
+    (avanzo.totalSubtopics || 5) +
+    (asd.totalSubtopics || 6) +
+    (ena.totalSubtopics || 4) +
+    (escalafon.totalSubtopics || 11) +
+    (ansp.totalSubtopics || 10);
 
   return { allSubjects, totalQuestions, totalSubtopics };
 }
@@ -232,7 +270,251 @@ export async function fetchQuestionsDetailed(
   let errorMessage: string | undefined = undefined;
 
   try {
-    if (category === 'ANSP') {
+    if (category === 'ASD') {
+      let url = `/data/asd/questions/${targetId}.json`;
+      if (targetId === 'all') {
+        url = '/data/asd/questions/all.json';
+      }
+
+      const res = await fetch(url);
+      if (res.ok) {
+        const raw = await res.json();
+        if (Array.isArray(raw)) {
+          questions = raw
+            .map((q: any, i: number) =>
+              sanitizeQuestion(
+                q,
+                i,
+                targetId,
+                q.subjectId || targetId,
+                'ASD',
+                subjectName || getSubjectNameFromId(q.subjectId || targetId, 'ASD'),
+                topicTitle || q.sectionTitle,
+                raw.length
+              )
+            )
+            .filter((q): q is Question => q !== null);
+        } else {
+          errorType = 'invalid_data';
+          errorMessage = 'La respuesta del banco ASD no tiene el formato esperado.';
+        }
+      } else if (res.status === 404) {
+        // Intento de recuperación cargando all.json filtrado
+        const allRes = await fetch('/data/asd/questions/all.json');
+        if (allRes.ok) {
+          const allRaw = await allRes.json();
+          if (Array.isArray(allRaw)) {
+            const filtered =
+              targetId === 'all'
+                ? allRaw
+                : allRaw.filter((q: any) => q.subtopicId === targetId || q.subjectId === targetId);
+            questions = filtered
+              .map((q: any, i: number) =>
+                sanitizeQuestion(
+                  q,
+                  i,
+                  targetId,
+                  q.subjectId || targetId,
+                  'ASD',
+                  subjectName,
+                  topicTitle,
+                  filtered.length
+                )
+              )
+              .filter((q): q is Question => q !== null);
+          }
+        } else {
+          errorType = 'not_found';
+          errorMessage = `No se encontró el archivo de reactivos ASD para ${targetId}.`;
+        }
+      } else {
+        errorType = 'network';
+        errorMessage = `Error de red (${res.status}) al consultar el banco ASD.`;
+      }
+    } else if (category === 'AVANZO') {
+      let url = `/data/avanzo/questions/${targetId}.json`;
+      if (targetId === 'all') {
+        url = '/data/avanzo/questions/all.json';
+      }
+
+      const res = await fetch(url);
+      if (res.ok) {
+        const raw = await res.json();
+        if (Array.isArray(raw)) {
+          questions = raw
+            .map((q: any, i: number) =>
+              sanitizeQuestion(
+                q,
+                i,
+                targetId,
+                q.subjectId || targetId,
+                'AVANZO',
+                subjectName || getSubjectNameFromId(q.subjectId || targetId, 'AVANZO'),
+                topicTitle || q.sectionTitle,
+                raw.length
+              )
+            )
+            .filter((q): q is Question => q !== null);
+        } else {
+          errorType = 'invalid_data';
+          errorMessage = 'La respuesta del banco AVANZO no tiene el formato esperado.';
+        }
+      } else if (res.status === 404) {
+        // Intento de recuperación cargando all.json filtrado
+        const allRes = await fetch('/data/avanzo/questions/all.json');
+        if (allRes.ok) {
+          const allRaw = await allRes.json();
+          if (Array.isArray(allRaw)) {
+            const filtered =
+              targetId === 'all'
+                ? allRaw
+                : allRaw.filter((q: any) => q.subtopicId === targetId || q.subjectId === targetId);
+            questions = filtered
+              .map((q: any, i: number) =>
+                sanitizeQuestion(
+                  q,
+                  i,
+                  targetId,
+                  q.subjectId || targetId,
+                  'AVANZO',
+                  subjectName,
+                  topicTitle,
+                  filtered.length
+                )
+              )
+              .filter((q): q is Question => q !== null);
+          }
+        } else {
+          errorType = 'not_found';
+          errorMessage = `No se encontró el archivo de reactivos AVANZO para ${targetId}.`;
+        }
+      } else {
+        errorType = 'network';
+        errorMessage = `Error de red (${res.status}) al consultar el banco AVANZO.`;
+      }
+    } else if (category === 'ENA') {
+      let url = `/data/ena/questions/${targetId}.json`;
+      if (targetId === 'all') {
+        url = '/data/ena/questions/all.json';
+      }
+
+      const res = await fetch(url);
+      if (res.ok) {
+        const raw = await res.json();
+        if (Array.isArray(raw)) {
+          questions = raw
+            .map((q: any, i: number) =>
+              sanitizeQuestion(
+                q,
+                i,
+                targetId,
+                q.subjectId || targetId,
+                'ENA',
+                subjectName || getSubjectNameFromId(q.subjectId || targetId, 'ENA'),
+                topicTitle || q.sectionTitle,
+                raw.length
+              )
+            )
+            .filter((q): q is Question => q !== null);
+        } else {
+          errorType = 'invalid_data';
+          errorMessage = 'La respuesta del banco ENA no tiene el formato esperado.';
+        }
+      } else if (res.status === 404) {
+        // Intento de recuperación cargando all.json filtrado
+        const allRes = await fetch('/data/ena/questions/all.json');
+        if (allRes.ok) {
+          const allRaw = await allRes.json();
+          if (Array.isArray(allRaw)) {
+            const filtered =
+              targetId === 'all'
+                ? allRaw
+                : allRaw.filter((q: any) => q.subtopicId === targetId || q.subjectId === targetId);
+            questions = filtered
+              .map((q: any, i: number) =>
+                sanitizeQuestion(
+                  q,
+                  i,
+                  targetId,
+                  q.subjectId || targetId,
+                  'ENA',
+                  subjectName,
+                  topicTitle,
+                  filtered.length
+                )
+              )
+              .filter((q): q is Question => q !== null);
+          }
+        } else {
+          errorType = 'not_found';
+          errorMessage = `No se encontró el archivo de reactivos ENA para ${targetId}.`;
+        }
+      } else {
+        errorType = 'network';
+        errorMessage = `Error de red (${res.status}) al consultar el banco ENA.`;
+      }
+    } else if (category === 'ESCALAFON') {
+      let url = `/data/escalafon/questions/${targetId}.json`;
+      if (targetId === 'all') {
+        url = '/data/escalafon/questions/all.json';
+      }
+
+      const res = await fetch(url);
+      if (res.ok) {
+        const raw = await res.json();
+        if (Array.isArray(raw)) {
+          questions = raw
+            .map((q: any, i: number) =>
+              sanitizeQuestion(
+                q,
+                i,
+                targetId,
+                q.subjectId || targetId,
+                'ESCALAFON',
+                subjectName || getSubjectNameFromId(q.subjectId || targetId, 'ESCALAFON'),
+                topicTitle || q.sectionTitle,
+                raw.length
+              )
+            )
+            .filter((q): q is Question => q !== null);
+        } else {
+          errorType = 'invalid_data';
+          errorMessage = 'La respuesta del banco ESCALAFÓN no tiene el formato esperado.';
+        }
+      } else if (res.status === 404) {
+        // Intento de recuperación cargando all.json filtrado
+        const allRes = await fetch('/data/escalafon/questions/all.json');
+        if (allRes.ok) {
+          const allRaw = await allRes.json();
+          if (Array.isArray(allRaw)) {
+            const filtered =
+              targetId === 'all'
+                ? allRaw
+                : allRaw.filter((q: any) => q.subtopicId === targetId || q.subjectId === targetId);
+            questions = filtered
+              .map((q: any, i: number) =>
+                sanitizeQuestion(
+                  q,
+                  i,
+                  targetId,
+                  q.subjectId || targetId,
+                  'ESCALAFON',
+                  subjectName,
+                  topicTitle,
+                  filtered.length
+                )
+              )
+              .filter((q): q is Question => q !== null);
+          }
+        } else {
+          errorType = 'not_found';
+          errorMessage = `No se encontró el archivo de reactivos ESCALAFÓN para ${targetId}.`;
+        }
+      } else {
+        errorType = 'network';
+        errorMessage = `Error de red (${res.status}) al consultar el banco ESCALAFÓN.`;
+      }
+    } else if (category === 'ANSP') {
       let url = `/data/ansp/questions/${targetId}.json`;
       if (targetId === 'all') {
         url = '/data/ansp/questions/all.json';
@@ -380,7 +662,428 @@ export async function fetchSubtopicQuestions(
 /**
  * Retorna currículo de emergencia si falla la red.
  */
-function getFallbackCurriculum(category: 'UES' | 'ANSP'): CurriculumData {
+function getFallbackCurriculum(category: 'UES' | 'ANSP' | 'ASD' | 'AVANZO' | 'ENA' | 'ESCALAFON'): CurriculumData {
+  if (category === 'ESCALAFON') {
+    return {
+      title: 'Evaluación para el Ascenso al Nivel Uno del Escalafón Docente — MINED 2026',
+      description: 'Banco oficial de preparación para las pruebas de suficiencia y ascenso de categoría docente convocadas por el Tribunal Calificador de la Carrera Docente del Ministerio de Educación de El Salvador (MINED), estructurado en Formación General y 10 Especialidades Curriculares (300 preguntas por sección).',
+      totalQuestions: 3300,
+      totalSubtopics: 11,
+      subjects: [
+        {
+          id: 'escalafon_general',
+          number: 1,
+          name: 'Formación General Pedagógica y Legislación',
+          codeRange: '1.1 al 1.12',
+          description: 'Pensamiento pedagógico, desarrollo cognitivo de Piaget, fines de la educación, marco normativo (Ley de la Carrera Docente, Ley Crecer Juntos, Ley de Ética Gubernamental), secuencias didácticas, adaptaciones curriculares, evaluación por competencias, investigación y TIC.',
+          totalSubtopics: 1,
+          totalQuestions: 300,
+          color: 'from-purple-700 to-indigo-800',
+          badgeBg: 'bg-purple-100',
+          badgeText: 'text-purple-800',
+          borderColor: 'border-purple-200',
+          icon: 'Award',
+          institution: 'ESCALAFON',
+          subtopics: [{ id: 'escalafon_general', code: '1.0', title: 'Formación General Pedagógica y Normativa', subjectId: 'escalafon_general', questionCount: 300 }],
+        },
+        {
+          id: 'escalafon_parvularia',
+          number: 2,
+          name: 'Educación Parvularia',
+          codeRange: '2.1 al 2.4',
+          description: 'Desarrollo infantil físico, psicomotor y socioafectivo, estimulación temprana, didáctica y precursores de la educación inicial, organización curricular, rincones de aprendizaje y expresión creativa.',
+          totalSubtopics: 1,
+          totalQuestions: 300,
+          color: 'from-pink-600 to-rose-700',
+          badgeBg: 'bg-pink-100',
+          badgeText: 'text-pink-800',
+          borderColor: 'border-pink-200',
+          icon: 'Sparkles',
+          institution: 'ESCALAFON',
+          subtopics: [{ id: 'escalafon_parvularia', code: '2.0', title: 'Didáctica y Desarrollo en Educación Parvularia', subjectId: 'escalafon_parvularia', questionCount: 300 }],
+        },
+        {
+          id: 'escalafon_basica',
+          number: 3,
+          name: 'Educación Básica (I y II Ciclo)',
+          codeRange: '3.1 al 3.4',
+          description: 'Fundamentos de lectoescritura inicial y método fónico-analítico-sintético, didáctica de matemática básica, ciencias naturales e indagación escolar, y ciencias sociales con formación cívica y memoria histórica.',
+          totalSubtopics: 1,
+          totalQuestions: 300,
+          color: 'from-amber-600 to-orange-700',
+          badgeBg: 'bg-amber-100',
+          badgeText: 'text-amber-800',
+          borderColor: 'border-amber-200',
+          icon: 'BookOpen',
+          institution: 'ESCALAFON',
+          subtopics: [{ id: 'escalafon_basica', code: '3.0', title: 'Didáctica Integral de Educación Básica', subjectId: 'escalafon_basica', questionCount: 300 }],
+        },
+        {
+          id: 'escalafon_lenguaje',
+          number: 4,
+          name: 'Lenguaje y Literatura',
+          codeRange: '4.1 al 4.4',
+          description: 'Lingüística textual, análisis morfosintáctico, semántica y ortografía RAE, literatura universal, española y latinoamericana, canon salvadoreño y didáctica del enfoque comunicativo.',
+          totalSubtopics: 1,
+          totalQuestions: 300,
+          color: 'from-violet-600 to-purple-700',
+          badgeBg: 'bg-violet-100',
+          badgeText: 'text-violet-800',
+          borderColor: 'border-violet-200',
+          icon: 'Feather',
+          institution: 'ESCALAFON',
+          subtopics: [{ id: 'escalafon_lenguaje', code: '4.0', title: 'Especialidad de Lenguaje y Literatura', subjectId: 'escalafon_lenguaje', questionCount: 300 }],
+        },
+        {
+          id: 'escalafon_matematica',
+          number: 5,
+          name: 'Matemática',
+          codeRange: '5.1 al 5.4',
+          description: 'Aritmética rigurosa, álgebra polinomial, geometría euclidiana, trigonometría, precálculo, funciones, estadística descriptiva, probabilidad y didáctica ESMATE.',
+          totalSubtopics: 1,
+          totalQuestions: 300,
+          color: 'from-blue-600 to-indigo-700',
+          badgeBg: 'bg-blue-100',
+          badgeText: 'text-blue-800',
+          borderColor: 'border-blue-200',
+          icon: 'Calculator',
+          institution: 'ESCALAFON',
+          subtopics: [{ id: 'escalafon_matematica', code: '5.0', title: 'Especialidad de Matemática ESMATE', subjectId: 'escalafon_matematica', questionCount: 300 }],
+        },
+        {
+          id: 'escalafon_naturales',
+          number: 6,
+          name: 'Ciencias Naturales',
+          codeRange: '6.1 al 6.4',
+          description: 'Mecánica newtoniana, electromagnetismo, termodinámica, química atómica, enlaces, estequiometría, biología celular, genética, ecología y didáctica experimental indagatoria.',
+          totalSubtopics: 1,
+          totalQuestions: 300,
+          color: 'from-emerald-600 to-teal-700',
+          badgeBg: 'bg-emerald-100',
+          badgeText: 'text-emerald-800',
+          borderColor: 'border-emerald-200',
+          icon: 'Atom',
+          institution: 'ESCALAFON',
+          subtopics: [{ id: 'escalafon_naturales', code: '6.0', title: 'Especialidad de Ciencias Naturales', subjectId: 'escalafon_naturales', questionCount: 300 }],
+        },
+        {
+          id: 'escalafon_sociales',
+          number: 7,
+          name: 'Ciencias Sociales',
+          codeRange: '7.1 al 7.4',
+          description: 'Historia de El Salvador, Centroamérica y el mundo, geografía física y humana, teoría política, sociología, formación ciudadana, derechos humanos y metodología didáctica de las ciencias sociales.',
+          totalSubtopics: 1,
+          totalQuestions: 300,
+          color: 'from-red-600 to-rose-700',
+          badgeBg: 'bg-red-100',
+          badgeText: 'text-red-800',
+          borderColor: 'border-red-200',
+          icon: 'Landmark',
+          institution: 'ESCALAFON',
+          subtopics: [{ id: 'escalafon_sociales', code: '7.0', title: 'Especialidad de Ciencias Sociales', subjectId: 'escalafon_sociales', questionCount: 300 }],
+        },
+        {
+          id: 'escalafon_ingles',
+          number: 8,
+          name: 'Inglés',
+          codeRange: '8.1 al 8.4',
+          description: 'Dominio lingüístico C1/B2, gramática avanzada, fonética y fonología inglesa, metodologías ELT/TESOL, diseño de lesson plans y evaluación de destrezas comunicativas.',
+          totalSubtopics: 1,
+          totalQuestions: 300,
+          color: 'from-sky-600 to-blue-700',
+          badgeBg: 'bg-sky-100',
+          badgeText: 'text-sky-800',
+          borderColor: 'border-sky-200',
+          icon: 'Globe',
+          institution: 'ESCALAFON',
+          subtopics: [{ id: 'escalafon_ingles', code: '8.0', title: 'Especialidad de Idioma Inglés', subjectId: 'escalafon_ingles', questionCount: 300 }],
+        },
+        {
+          id: 'escalafon_fisica',
+          number: 9,
+          name: 'Educación Física',
+          codeRange: '9.1 al 9.4',
+          description: 'Fisiología del ejercicio, anatomía motriz, biomecánica, desarrollo psicomotor, iniciación deportiva, recreación escolar y didáctica de la actividad física saludable.',
+          totalSubtopics: 1,
+          totalQuestions: 300,
+          color: 'from-lime-600 to-green-700',
+          badgeBg: 'bg-lime-100',
+          badgeText: 'text-lime-800',
+          borderColor: 'border-lime-200',
+          icon: 'Activity',
+          institution: 'ESCALAFON',
+          subtopics: [{ id: 'escalafon_fisica', code: '9.0', title: 'Especialidad de Educación Física', subjectId: 'escalafon_fisica', questionCount: 300 }],
+        },
+        {
+          id: 'escalafon_especial',
+          number: 10,
+          name: 'Educación Especial',
+          codeRange: '10.1 al 10.4',
+          description: 'Inclusión educativa, Diseño Universal para el Aprendizaje (DUA), adaptaciones curriculares, necesidades educativas especiales asociadas o no a discapacidad y tecnologías asistivas.',
+          totalSubtopics: 1,
+          totalQuestions: 300,
+          color: 'from-teal-600 to-cyan-700',
+          badgeBg: 'bg-teal-100',
+          badgeText: 'text-teal-800',
+          borderColor: 'border-teal-200',
+          icon: 'HeartHandshake',
+          institution: 'ESCALAFON',
+          subtopics: [{ id: 'escalafon_especial', code: '10.0', title: 'Especialidad de Educación Especial e Inclusiva', subjectId: 'escalafon_especial', questionCount: 300 }],
+        },
+        {
+          id: 'escalafon_comerciales',
+          number: 11,
+          name: 'Ciencias Comerciales',
+          codeRange: '11.1 al 11.4',
+          description: 'Contabilidad general y de costos, estados financieros, legislación mercantil y tributaria salvadoreña (Código de Comercio, Código Tributario), administración y mercadotecnia.',
+          totalSubtopics: 1,
+          totalQuestions: 300,
+          color: 'from-slate-600 to-gray-800',
+          badgeBg: 'bg-slate-100',
+          badgeText: 'text-slate-800',
+          borderColor: 'border-slate-200',
+          icon: 'Briefcase',
+          institution: 'ESCALAFON',
+          subtopics: [{ id: 'escalafon_comerciales', code: '11.0', title: 'Especialidad de Ciencias Comerciales y Contabilidad', subjectId: 'escalafon_comerciales', questionCount: 300 }],
+        },
+      ],
+    };
+  }
+
+  if (category === 'ENA') {
+    return {
+      title: 'Escuela Nacional de Agricultura "Roberto Quiñónez" (ENA)',
+      description: 'Banco oficial de 1,400 preguntas para el Examen de Admisión 2027 estructurado en 4 asignaturas técnicas (350 preguntas por materia).',
+      totalQuestions: 1400,
+      totalSubtopics: 4,
+      subjects: [
+        {
+          id: 'ena_matematicas',
+          number: 1,
+          name: 'Matemáticas',
+          codeRange: '1.1 al 1.7',
+          description: 'Aritmética aplicada al agro, unidades agrarias (manzanas, quintales), porcentajes, regla de tres, áreas, álgebra y trigonometría.',
+          totalSubtopics: 1,
+          totalQuestions: 350,
+          color: 'from-emerald-600 to-green-700',
+          badgeBg: 'bg-emerald-100',
+          badgeText: 'text-emerald-800',
+          borderColor: 'border-emerald-200',
+          icon: 'Calculator',
+          institution: 'ENA',
+          subtopics: [{ id: 'ena_matematicas', code: '1.0', title: 'Matemáticas Agrarias', subjectId: 'ena_matematicas', questionCount: 350 }],
+        },
+        {
+          id: 'ena_quimica',
+          number: 2,
+          name: 'Química',
+          codeRange: '2.1 al 2.6',
+          description: 'Química general, estructura atómica, tabla periódica, macronutrientes NPK, enlaces químicos, soluciones y encalado de suelos.',
+          totalSubtopics: 1,
+          totalQuestions: 350,
+          color: 'from-teal-600 to-emerald-700',
+          badgeBg: 'bg-teal-100',
+          badgeText: 'text-teal-800',
+          borderColor: 'border-teal-200',
+          icon: 'Atom',
+          institution: 'ENA',
+          subtopics: [{ id: 'ena_quimica', code: '2.0', title: 'Química y Agroquímica', subjectId: 'ena_quimica', questionCount: 350 }],
+        },
+        {
+          id: 'ena_biologia',
+          number: 3,
+          name: 'Biología',
+          codeRange: '3.1 al 3.6',
+          description: 'Célula vegetal y animal, fotosíntesis, respiración celular, genética mendeliana, reinos biológicos y microbiología del suelo.',
+          totalSubtopics: 1,
+          totalQuestions: 350,
+          color: 'from-green-600 to-lime-700',
+          badgeBg: 'bg-green-100',
+          badgeText: 'text-green-800',
+          borderColor: 'border-green-200',
+          icon: 'Sprout',
+          institution: 'ENA',
+          subtopics: [{ id: 'ena_biologia', code: '3.0', title: 'Biología y Botánica Agrícola', subjectId: 'ena_biologia', questionCount: 350 }],
+        },
+        {
+          id: 'ena_lenguaje',
+          number: 4,
+          name: 'Lenguaje',
+          codeRange: '4.1 al 4.6',
+          description: 'Comunicación técnica, informes académicos, bitácora de campo, argumentación, ortografía y literatura salvadoreña.',
+          totalSubtopics: 1,
+          totalQuestions: 350,
+          color: 'from-amber-600 to-yellow-700',
+          badgeBg: 'bg-amber-100',
+          badgeText: 'text-amber-800',
+          borderColor: 'border-amber-200',
+          icon: 'BookOpen',
+          institution: 'ENA',
+          subtopics: [{ id: 'ena_lenguaje', code: '4.0', title: 'Lenguaje y Comunicación Técnica', subjectId: 'ena_lenguaje', questionCount: 350 }],
+        },
+      ],
+    };
+  }
+
+  if (category === 'ASD') {
+    return {
+      title: 'Academia Sabatina Departamental (ASD) - Jóvenes Talento',
+      description: 'Banco oficial de 2,190 preguntas estructurado por grados académicos (Quinto, Sexto y Séptimo Grado) en Matemática y Ciencias Naturales (365 preguntas por materia).',
+      totalQuestions: 2190,
+      totalSubtopics: 6,
+      subjects: [
+        {
+          id: 'asd_5',
+          number: 1,
+          name: 'Quinto Grado (5.° Grado)',
+          codeRange: '5.1 y 5.2',
+          description: 'Preparación académica de 5.° Grado en Matemática (ESMATE) y Ciencias Naturales.',
+          totalSubtopics: 2,
+          totalQuestions: 730,
+          color: 'from-emerald-600 to-teal-700',
+          badgeBg: 'bg-emerald-100',
+          badgeText: 'text-emerald-800',
+          borderColor: 'border-emerald-200',
+          icon: 'GraduationCap',
+          institution: 'ASD',
+          subtopics: [
+            { id: '5_matematica', code: '5.1', title: 'Matemática (5.° Grado)', subjectId: 'asd_5', questionCount: 365 },
+            { id: '5_ciencias', code: '5.2', title: 'Ciencias Naturales (5.° Grado)', subjectId: 'asd_5', questionCount: 365 },
+          ],
+        },
+        {
+          id: 'asd_6',
+          number: 2,
+          name: 'Sexto Grado (6.° Grado)',
+          codeRange: '6.1 y 6.2',
+          description: 'Preparación académica de 6.° Grado en Matemática (ESMATE) y Ciencias Naturales.',
+          totalSubtopics: 2,
+          totalQuestions: 730,
+          color: 'from-blue-600 to-indigo-700',
+          badgeBg: 'bg-blue-100',
+          badgeText: 'text-blue-800',
+          borderColor: 'border-blue-200',
+          icon: 'BookOpen',
+          institution: 'ASD',
+          subtopics: [
+            { id: '6_matematica', code: '6.1', title: 'Matemática (6.° Grado)', subjectId: 'asd_6', questionCount: 365 },
+            { id: '6_ciencias', code: '6.2', title: 'Ciencias Naturales (6.° Grado)', subjectId: 'asd_6', questionCount: 365 },
+          ],
+        },
+        {
+          id: 'asd_7',
+          number: 3,
+          name: 'Séptimo Grado (7.° Grado)',
+          codeRange: '7.1 y 7.2',
+          description: 'Preparación académica de 7.° Grado en Matemática (ESMATE) y Ciencias Naturales.',
+          totalSubtopics: 2,
+          totalQuestions: 730,
+          color: 'from-purple-600 to-pink-700',
+          badgeBg: 'bg-purple-100',
+          badgeText: 'text-purple-800',
+          borderColor: 'border-purple-200',
+          icon: 'Award',
+          institution: 'ASD',
+          subtopics: [
+            { id: '7_matematica', code: '7.1', title: 'Matemática (7.° Grado)', subjectId: 'asd_7', questionCount: 365 },
+            { id: '7_ciencias', code: '7.2', title: 'Ciencias Naturales (7.° Grado)', subjectId: 'asd_7', questionCount: 365 },
+          ],
+        },
+      ],
+    };
+  }
+
+  if (category === 'AVANZO') {
+    return {
+      title: 'Prueba Nacional AVANZO 2025 - Ministerio de Educación de El Salvador',
+      description: 'Banco oficial estandarizado de 3,000 preguntas de opción múltiple estructurado en las 5 áreas de evaluación para Segundo Año de Bachillerato (600 preguntas por sección).',
+      totalQuestions: 3000,
+      totalSubtopics: 5,
+      subjects: [
+        {
+          id: 'avanzo_precalculo',
+          number: 1,
+          name: 'Precálculo',
+          codeRange: '4.1.1 al 4.1.5',
+          description: 'Álgebra, funciones reales, geometría analítica, trigonometría y estadística descriptiva.',
+          totalSubtopics: 1,
+          totalQuestions: 600,
+          color: 'from-amber-600 to-orange-700',
+          badgeBg: 'bg-amber-100',
+          badgeText: 'text-amber-800',
+          borderColor: 'border-amber-200',
+          icon: 'Calculator',
+          institution: 'AVANZO',
+          subtopics: [{ id: 'avanzo_precalculo', code: '4.1', title: 'Precálculo (Bachillerato)', subjectId: 'avanzo_precalculo', questionCount: 600 }],
+        },
+        {
+          id: 'avanzo_ciudadania',
+          number: 2,
+          name: 'Ciudadanía y Valores',
+          codeRange: '4.2.1 al 4.2.3',
+          description: 'Investigación social, desarrollo histórico de El Salvador, Constitución, derechos humanos y convivencia democrática.',
+          totalSubtopics: 1,
+          totalQuestions: 600,
+          color: 'from-rose-600 to-pink-700',
+          badgeBg: 'bg-rose-100',
+          badgeText: 'text-rose-800',
+          borderColor: 'border-rose-200',
+          icon: 'Landmark',
+          institution: 'AVANZO',
+          subtopics: [{ id: 'avanzo_ciudadania', code: '4.2', title: 'Ciudadanía y Valores', subjectId: 'avanzo_ciudadania', questionCount: 600 }],
+        },
+        {
+          id: 'avanzo_ciencias',
+          number: 3,
+          name: 'Ciencia y Tecnología',
+          codeRange: '4.3.1 al 4.3.3',
+          description: 'Física, Química y Biología con enfoque CTSA.',
+          totalSubtopics: 1,
+          totalQuestions: 600,
+          color: 'from-teal-600 to-cyan-700',
+          badgeBg: 'bg-teal-100',
+          badgeText: 'text-teal-800',
+          borderColor: 'border-teal-200',
+          icon: 'Atom',
+          institution: 'AVANZO',
+          subtopics: [{ id: 'avanzo_ciencias', code: '4.3', title: 'Ciencia y Tecnología', subjectId: 'avanzo_ciencias', questionCount: 600 }],
+        },
+        {
+          id: 'avanzo_lengua',
+          number: 4,
+          name: 'Lengua y Literatura',
+          codeRange: '4.4.1 al 4.4.4',
+          description: 'Texto narrativo, poético, argumentativo, expositivo y literatura salvadoreña.',
+          totalSubtopics: 1,
+          totalQuestions: 600,
+          color: 'from-violet-600 to-purple-700',
+          badgeBg: 'bg-violet-100',
+          badgeText: 'text-violet-800',
+          borderColor: 'border-violet-200',
+          icon: 'BookOpen',
+          institution: 'AVANZO',
+          subtopics: [{ id: 'avanzo_lengua', code: '4.4', title: 'Lengua y Literatura', subjectId: 'avanzo_lengua', questionCount: 600 }],
+        },
+        {
+          id: 'avanzo_ingles',
+          number: 5,
+          name: 'Inglés',
+          codeRange: '4.5.1 al 4.5.3',
+          description: 'Comprensión lectora, gramática y comunicación según el Marco MCER (Pre-A1 a B1).',
+          totalSubtopics: 1,
+          totalQuestions: 600,
+          color: 'from-sky-600 to-blue-700',
+          badgeBg: 'bg-sky-100',
+          badgeText: 'text-sky-800',
+          borderColor: 'border-sky-200',
+          icon: 'Globe',
+          institution: 'AVANZO',
+          subtopics: [{ id: 'avanzo_ingles', code: '4.5', title: 'Inglés (Marco MCER)', subjectId: 'avanzo_ingles', questionCount: 600 }],
+        },
+      ],
+    };
+  }
+
   if (category === 'ANSP') {
     return {
       title: 'Academia Nacional de Seguridad Pública (ANSP)',
@@ -489,6 +1192,59 @@ function getFallbackCurriculum(category: 'UES' | 'ANSP'): CurriculumData {
 }
 
 export function getSubjectNameFromId(id: string, inst: Institution): string {
+  if (inst === 'ESCALAFON') {
+    const map: Record<string, string> = {
+      escalafon_general: 'Formación General Pedagógica y Legislación',
+      escalafon_parvularia: 'Educación Parvularia',
+      escalafon_basica: 'Educación Básica (I y II Ciclo)',
+      escalafon_lenguaje: 'Lenguaje y Literatura',
+      escalafon_matematica: 'Matemática',
+      escalafon_naturales: 'Ciencias Naturales',
+      escalafon_sociales: 'Ciencias Sociales',
+      escalafon_ingles: 'Inglés',
+      escalafon_fisica: 'Educación Física',
+      escalafon_especial: 'Educación Especial',
+      escalafon_comerciales: 'Ciencias Comerciales',
+    };
+    return map[id] || 'Especialidad Escalafón';
+  }
+
+  if (inst === 'ENA') {
+    const map: Record<string, string> = {
+      ena_matematicas: 'Matemáticas',
+      ena_quimica: 'Química',
+      ena_biologia: 'Biología',
+      ena_lenguaje: 'Lenguaje',
+    };
+    return map[id] || 'Asignatura ENA';
+  }
+
+  if (inst === 'AVANZO') {
+    const map: Record<string, string> = {
+      avanzo_precalculo: 'Precálculo',
+      avanzo_ciudadania: 'Ciudadanía y Valores',
+      avanzo_ciencias: 'Ciencia y Tecnología',
+      avanzo_lengua: 'Lengua y Literatura',
+      avanzo_ingles: 'Inglés',
+    };
+    return map[id] || 'Asignatura AVANZO';
+  }
+
+  if (inst === 'ASD') {
+    const map: Record<string, string> = {
+      asd_5: 'Quinto Grado (5.° Grado)',
+      asd_6: 'Sexto Grado (6.° Grado)',
+      asd_7: 'Séptimo Grado (7.° Grado)',
+      '5_matematica': 'Matemática (5.° Grado)',
+      '5_ciencias': 'Ciencias Naturales (5.° Grado)',
+      '6_matematica': 'Matemática (6.° Grado)',
+      '6_ciencias': 'Ciencias Naturales (6.° Grado)',
+      '7_matematica': 'Matemática (7.° Grado)',
+      '7_ciencias': 'Ciencias Naturales (7.° Grado)',
+    };
+    return map[id] || (id.includes('ciencias') ? 'Ciencias Naturales' : 'Matemática');
+  }
+
   if (inst === 'ANSP') {
     const map: Record<string, string> = {
       ansp_historia: 'Historia de El Salvador',
@@ -660,7 +1416,7 @@ export function generateLatexForQuestions(
 }
 
 /**
- * Genera un banco aleatorio dinámico desde todo el banco de preguntas (7,750 preguntas)
+ * Genera un banco aleatorio dinámico desde todo el banco de preguntas (14,340 preguntas)
  * basándose en los filtros jerárquicos de Categoría, Materia, Tema, Sección y Nivel Pedagógico.
  */
 export async function fetchDynamicQuizPool(params: {
@@ -676,8 +1432,142 @@ export async function fetchDynamicQuizPool(params: {
   let pool: Question[] = [];
 
   try {
-    // 1. ANSP
-    if (category === 'ANSP') {
+    // 1. AVANZO (Prueba Nacional Bachillerato)
+    if (category === 'AVANZO') {
+      if (subtopicId !== 'ALL') {
+        pool = await fetchSubtopicQuestions('AVANZO', subtopicId);
+      } else if (subjectId !== 'ALL') {
+        pool = await fetchSubtopicQuestions('AVANZO', subjectId);
+      } else {
+        const res = await fetch('/data/avanzo/questions/all.json');
+        if (res.ok) {
+          const raw = await res.json();
+          if (Array.isArray(raw)) {
+            pool = raw
+              .map((q: any, i: number) =>
+                sanitizeQuestion(
+                  q,
+                  i,
+                  q.subtopicId || 'avanzo_precalculo',
+                  q.subjectId || 'avanzo_precalculo',
+                  'AVANZO',
+                  getSubjectNameFromId(q.subjectId || 'avanzo_precalculo', 'AVANZO'),
+                  q.sectionTitle,
+                  raw.length
+                )
+              )
+              .filter((q): q is Question => q !== null);
+          }
+        } else {
+          pool = await fetchSubtopicQuestions('AVANZO', 'avanzo_precalculo');
+        }
+      }
+    }
+    // 2. ASD (Jóvenes Talento)
+    else if (category === 'ASD') {
+      if (subtopicId !== 'ALL') {
+        pool = await fetchSubtopicQuestions('ASD', subtopicId);
+      } else if (subjectId !== 'ALL') {
+        const curriculum = await fetchCurriculum('ASD');
+        const subj = curriculum.subjects.find((s) => s.id === subjectId);
+        if (subj && subj.subtopics.length > 0) {
+          const subPromises = subj.subtopics.map((st) =>
+            fetchSubtopicQuestions('ASD', st.id, subj.name, st.title)
+          );
+          const results = await Promise.all(subPromises);
+          pool = results.flat();
+        } else {
+          pool = await fetchSubtopicQuestions('ASD', '5_matematica');
+        }
+      } else {
+        const res = await fetch('/data/asd/questions/all.json');
+        if (res.ok) {
+          const raw = await res.json();
+          if (Array.isArray(raw)) {
+            pool = raw
+              .map((q: any, i: number) =>
+                sanitizeQuestion(
+                  q,
+                  i,
+                  q.subtopicId || 'asd',
+                  q.subjectId || 'asd_5',
+                  'ASD',
+                  getSubjectNameFromId(q.subjectId || 'asd_5', 'ASD'),
+                  q.sectionTitle,
+                  raw.length
+                )
+              )
+              .filter((q): q is Question => q !== null);
+          }
+        } else {
+          pool = await fetchSubtopicQuestions('ASD', '5_matematica');
+        }
+      }
+    }
+    // 3. ENA (Escuela Nacional de Agricultura "Roberto Quiñónez")
+    else if (category === 'ENA') {
+      if (subtopicId !== 'ALL') {
+        pool = await fetchSubtopicQuestions('ENA', subtopicId);
+      } else if (subjectId !== 'ALL') {
+        pool = await fetchSubtopicQuestions('ENA', subjectId);
+      } else {
+        const res = await fetch('/data/ena/questions/all.json');
+        if (res.ok) {
+          const raw = await res.json();
+          if (Array.isArray(raw)) {
+            pool = raw
+              .map((q: any, i: number) =>
+                sanitizeQuestion(
+                  q,
+                  i,
+                  q.subtopicId || 'ena_matematicas',
+                  q.subjectId || 'ena_matematicas',
+                  'ENA',
+                  getSubjectNameFromId(q.subjectId || 'ena_matematicas', 'ENA'),
+                  q.sectionTitle,
+                  raw.length
+                )
+              )
+              .filter((q): q is Question => q !== null);
+          }
+        } else {
+          pool = await fetchSubtopicQuestions('ENA', 'ena_matematicas');
+        }
+      }
+    }
+    // 4. ESCALAFÓN DOCENTE (Ascenso al Nivel Uno 2026 - MINED)
+    else if (category === 'ESCALAFON') {
+      if (subtopicId !== 'ALL') {
+        pool = await fetchSubtopicQuestions('ESCALAFON', subtopicId);
+      } else if (subjectId !== 'ALL') {
+        pool = await fetchSubtopicQuestions('ESCALAFON', subjectId);
+      } else {
+        const res = await fetch('/data/escalafon/questions/all.json');
+        if (res.ok) {
+          const raw = await res.json();
+          if (Array.isArray(raw)) {
+            pool = raw
+              .map((q: any, i: number) =>
+                sanitizeQuestion(
+                  q,
+                  i,
+                  q.subtopicId || 'escalafon_general',
+                  q.subjectId || 'escalafon_general',
+                  'ESCALAFON',
+                  getSubjectNameFromId(q.subjectId || 'escalafon_general', 'ESCALAFON'),
+                  q.sectionTitle,
+                  raw.length
+                )
+              )
+              .filter((q): q is Question => q !== null);
+          }
+        } else {
+          pool = await fetchSubtopicQuestions('ESCALAFON', 'escalafon_general');
+        }
+      }
+    }
+    // 5. ANSP
+    else if (category === 'ANSP') {
       if (subjectId !== 'ALL') {
         pool = await fetchSubtopicQuestions('ANSP', subjectId);
       } else {
@@ -705,7 +1595,7 @@ export async function fetchDynamicQuizPool(params: {
         }
       }
     }
-    // 2. UES
+    // 6. UES
     else if (category === 'UES') {
       if (subtopicId !== 'ALL') {
         pool = await fetchSubtopicQuestions('UES', subtopicId);
@@ -729,22 +1619,35 @@ export async function fetchDynamicQuizPool(params: {
         pool = results.flat();
       }
     }
-    // 3. ALL (Mixto: UES & ANSP)
+    // 7. ALL (Mixto: UES & ESCALAFON & AVANZO & ASD & ENA & ANSP)
     else {
       if (subjectId !== 'ALL') {
+        const isEscalafon = subjectId.startsWith('escalafon_');
         const isAnsp = subjectId.startsWith('ansp_');
+        const isAsd = subjectId.startsWith('asd_') || subjectId.includes('matematica') || subjectId.includes('ciencias');
+        const isAvanzo = subjectId.startsWith('avanzo_');
+        const isEna = subjectId.startsWith('ena_');
+        const inst: Institution = isEscalafon ? 'ESCALAFON' : isAnsp ? 'ANSP' : isAsd ? 'ASD' : isAvanzo ? 'AVANZO' : isEna ? 'ENA' : 'UES';
         pool = await fetchSubtopicQuestions(
-          isAnsp ? 'ANSP' : 'UES',
+          inst,
           subtopicId !== 'ALL' ? subtopicId : subjectId
         );
       } else {
-        const uesCount = Math.max(1, Math.round(count * 0.7));
-        const anspCount = Math.max(1, count - uesCount);
-        const [uesPool, anspPool] = await Promise.all([
+        const uesCount = Math.max(1, Math.round(count * 0.25));
+        const escalafonCount = Math.max(1, Math.round(count * 0.20));
+        const avanzoCount = Math.max(1, Math.round(count * 0.20));
+        const asdCount = Math.max(1, Math.round(count * 0.15));
+        const enaCount = Math.max(1, Math.round(count * 0.10));
+        const anspCount = Math.max(1, count - uesCount - escalafonCount - avanzoCount - asdCount - enaCount);
+        const [uesPool, escalafonPool, avanzoPool, asdPool, enaPool, anspPool] = await Promise.all([
           fetchDynamicQuizPool({ category: 'UES', subjectId: 'ALL', subtopicId: 'ALL', count: uesCount }),
+          fetchDynamicQuizPool({ category: 'ESCALAFON', subjectId: 'ALL', subtopicId: 'ALL', count: escalafonCount }),
+          fetchDynamicQuizPool({ category: 'AVANZO', subjectId: 'ALL', subtopicId: 'ALL', count: avanzoCount }),
+          fetchDynamicQuizPool({ category: 'ASD', subjectId: 'ALL', subtopicId: 'ALL', count: asdCount }),
+          fetchDynamicQuizPool({ category: 'ENA', subjectId: 'ALL', subtopicId: 'ALL', count: enaCount }),
           fetchDynamicQuizPool({ category: 'ANSP', subjectId: 'ALL', subtopicId: 'ALL', count: anspCount }),
         ]);
-        pool = [...uesPool, ...anspPool];
+        pool = [...uesPool, ...escalafonPool, ...avanzoPool, ...asdPool, ...enaPool, ...anspPool];
       }
     }
 
