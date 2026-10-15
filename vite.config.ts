@@ -16,6 +16,7 @@ export default defineConfig({
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
+          three: ['three'],
           katex: ['katex'],
           icons: ['lucide-react'],
         },

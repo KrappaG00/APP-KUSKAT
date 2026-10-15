@@ -24,67 +24,76 @@ interface OnboardingTutorialProps {
 export const TUTORIAL_STEPS: TutorialStep[] = [
   {
     step: 1,
-    title: 'Elige tu Institución y Materia',
-    subtitle: 'Preparación a tu medida',
-    badge: 'Paso 1 de 5 • Ámbitos',
+    title: 'Elige tu Institución, Materia & Portal 3D',
+    subtitle: 'Preparación para la aprobación de exámenes de Centro América',
+    badge: 'Paso 1 de 5 • Convocatorias & 3D',
     description:
-      'KUSKAT te permite prepararte tanto para el examen de admisión de la Universidad de El Salvador (UES) como para la prueba cultural de la Academia Nacional de Seguridad Pública (ANSP), o practicar ambos en un examen integral.',
+      'KUSKAT (By Yeferson E. Perez) reúne un banco maestro de 17,640 reactivos oficiales organizados en 6 convocatorias de alta exigencia académica y profesional, complementado con un Portal 3D interactivo con el mapa de los 14 departamentos de El Salvador.',
     bulletPoints: [
-      '🎓 Admisión UES: 7,500 reactivos en 5 materias (Matemática, Física/Química, Biología, Sociales y Lenguaje).',
-      '🛡️ Academia ANSP: 250 reactivos oficiales en 10 materias de formación institucional y ciudadana.',
-      '🌟 Examen Mixto: Simulacros combinados con preguntas balanceadas de ambas instituciones.',
+      '🎓 Admisión UES (7,500 reactivos): Matemática, Física, Química, Biología, Ciencias Sociales y Lenguaje.',
+      '📜 Escalafón Docente (3,300 reactivos): Ascenso al Nivel Uno 2026 MINED en Formación General y 10 Especialidades.',
+      '📘 Prueba AVANZO (3,000 reactivos): Bachillerato MINED en Precálculo, Ciudadanía, Ciencia y Tecnología, Lengua e Inglés.',
+      '🏅 Jóvenes Talento - ASD (2,190 reactivos): 5.°, 6.° y 7.° Grado en Matemática y Ciencias Naturales.',
+      '🌱 Admisión ENA (1,400 reactivos): Técnico Agropecuario 2027 en Matemáticas Agrarias, Química, Biología y Lenguaje.',
+      '🛡️ Academia ANSP (250 reactivos): Prueba Cultural PNC en legislación, derecho constitucional y cultura salvadoreña.',
+      '🗺️ Portal 3D Interactivo: Explora el mapa de El Salvador, indicadores educativos departamentales y estadísticas espaciales.',
     ],
   },
   {
     step: 2,
-    title: 'Categorías y Niveles de Aprendizaje',
-    subtitle: 'Aprende desde los fundamentos hasta el nivel de examen',
-    badge: 'Paso 2 de 5 • Niveles',
+    title: 'Categorías, Secciones y Niveles de Aprendizaje',
+    subtitle: 'Navegación limpia con secciones colapsadas por defecto',
+    badge: 'Paso 2 de 5 • Temario & Malla',
     description:
-      'No necesitas ser un experto para comenzar. El temario está organizado pedagógicamente para que construyas tu conocimiento paso a paso.',
+      'El temario está estructurado jerárquicamente por Tipo de Institución, Materia, Tema y Sección. Todas las secciones aparecen cerradas por defecto para una lectura cómoda y rápida, permitiéndote abrir solo lo que necesitas estudiar.',
     bulletPoints: [
-      '🌱 Nivel Básico: Conceptos clave, definiciones elementales y vocabulario guiado.',
-      '⚙️ Nivel Intermedio: Procedimientos paso a paso, propiedades y aplicación de fórmulas.',
-      '🏆 Nivel Admisión: Preguntas integradoras con la misma estructura y rigor de la prueba real.',
+      '📂 Secciones cerradas por defecto: Despliega únicamente la sección de tu interés o pulsa "Expandir Todo" con un solo clic.',
+      '🌱 Nivel Básico: Conceptos elementales, definiciones clave y ejemplos cotidianos para afianzar los fundamentos.',
+      '⚙️ Nivel Intermedio: Procedimientos paso a paso, propiedades analíticas, algoritmos y aplicación de fórmulas.',
+      '🎯 Nivel Admisión: Reactivos integradores con el rigor, estructura y estándar real de la prueba oficial.',
+      '🔍 Buscador Inteligente: Filtra al instante por palabras clave, términos científicos o fórmulas KaTeX.',
     ],
   },
   {
     step: 3,
-    title: 'Resolución Activa con KaTeX',
-    subtitle: 'Fórmulas legibles y explicaciones claras',
-    badge: 'Paso 3 de 5 • Soluciones',
+    title: 'Resolución Activa con KaTeX y Solucionarios',
+    subtitle: 'Fórmulas de alta definición y justificaciones analíticas',
+    badge: 'Paso 3 de 5 • KaTeX & Soluciones',
     description:
-      'Todas las fórmulas matemáticas y científicas se presentan en tipografía clara y lenguaje humano. Al contestar una pregunta en Modo Tutor, verás la justificación inmediata.',
+      'Todas las expresiones matemáticas, químicas y científicas se renderizan en tipografía KaTeX nítida y legible. Cada reactivo incluye su solución analítica detallada.',
     bulletPoints: [
-      '📐 Tipografía KaTeX de alta calidad para fracciones, raíces, potencias y símbolos.',
-      '💡 Solucionario comentado: Explicación de por qué la clave es la correcta.',
-      '🔁 Ejercicio similar: Opción para reforzar la competencia si cometes un error.',
+      '📐 Tipografía KaTeX Profesional: Fracciones, integrales, raíces, matrices, vectores y simbología científica clara.',
+      '💡 Justificación Pedagógica: Explicación de por qué la clave es la correcta y cuál es el error común en los distractores.',
+      '📋 Copiado con Un Clic: Copia reactivos individuales o secciones completas con formato limpio para tus apuntes.',
+      '🎓 Modo Tutor Inmediato: Actívalo en el simulador para recibir la retroalimentación y solución KaTeX justo al responder.',
     ],
   },
   {
     step: 4,
-    title: 'Simulador de Examen Configurable',
-    subtitle: 'Ponte a prueba en condiciones reales',
-    badge: 'Paso 4 de 5 • Simulador',
+    title: 'Simulador de Examen Configurable y Táctil',
+    subtitle: 'Evaluación formal con cronómetro oficial y diseño 100% responsive',
+    badge: 'Paso 4 de 5 • Simulador Formal',
     description:
-      'Configura tu sesión de prueba según tu tiempo disponible: desde un test rápido de 5 preguntas hasta un simulacro oficial de 50 reactivos con cronómetro.',
+      'Ponte a prueba en condiciones reales de evaluación. Configura simulacros desde 5 reactivos rápidos hasta exámenes oficiales completos de 50 o 100 preguntas.',
     bulletPoints: [
-      '⏱️ Temporizador oficial (1.0 o 1.5 min por reactivo) o modo sin límite para estudiar a tu ritmo.',
-      '🚩 Marcador de reactivos ("Revisar luego") para no estancarte en preguntas dudosas.',
-      '🔢 Matriz de salto rápido para navegar entre preguntas con un solo clic.',
+      '⏱️ Temporizador Oficial: Elige entre 1.0 min o 1.5 min por pregunta, o practica sin límite a tu propio ritmo.',
+      '🚩 Marcador de Reactivos: Marca preguntas dudosas ("Revisar luego") para no perder tiempo y volver a ellas al final.',
+      '🔢 Matriz de Salto Rápido: Monitorea qué preguntas has respondido, cuáles dejaste en blanco y navega con un solo toque.',
+      '📱 100% Web Responsive: Optimizado con botones táctiles ergonómicos (mínimo 44px) para celulares, tablets y PC.',
     ],
   },
   {
     step: 5,
-    title: 'Resultados y Diagnóstico de Rendimiento',
-    subtitle: 'Conoce tu nota oficial y refuerza tus debilidades',
-    badge: 'Paso 5 de 5 • Diagnóstico',
+    title: 'Resultados, Diagnóstico, Impresión a PDF y LaTeX',
+    subtitle: 'Boleta de notas 100% local, cero almacenamiento en la nube y privacidad total',
+    badge: 'Paso 5 de 5 • Diagnóstico & PDF',
     description:
-      'Al entregar tu examen obtendrás tu calificación en la escala salvadoreña (0.0 a 10.0), el porcentaje de aciertos y un desglose por asignatura.',
+      'Al finalizar tu prueba obtendrás tu nota en la escala salvadoreña (0.0 a 10.0), diagnóstico por materia y opciones completas para imprimir y exportar sin subir ningún archivo a la nube.',
     bulletPoints: [
-      '📊 Desglose por materia: Identifica exactamente en qué temas necesitas más práctica.',
-      '📄 Exportador LaTeX: Descarga tu examen o solucionario en formato .tex para imprimirlo o estudiarlo sin conexión.',
-      '❓ Ayuda siempre disponible: Puedes volver a ver este tutorial en cualquier momento desde el menú superior.',
+      '🖨️ Imprimir / Exportar a PDF: Genera al instante tu boleta oficial y solucionario para imprimir o guardar en PDF directamente en tu navegador.',
+      '🔒 Privacidad Absoluta (Cero Nube): Todo se procesa en la memoria de tu dispositivo; al salir no queda ningún documento temporal guardado en servidores ni en la nube.',
+      '📄 Exportador de Código LaTeX: Descarga el archivo .tex con clave y solucionario listo para Overleaf o TeX Live.',
+      '💬 Soporte Directo con el Desarrollador: Comunícate con Yeferson E. Perez mediante WhatsApp KUSKAT (+503 7657 4463) e Instagram (@Kuskat.es).',
     ],
   },
 ];
@@ -149,26 +158,37 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
         className="bg-white rounded-3xl border border-slate-200 shadow-2xl max-w-xl w-full overflow-hidden flex flex-col relative text-slate-800"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Cabecera del Tutorial con Progreso */}
+        {/* Cabecera del Tutorial con Progreso y Marca KUSKAT */}
         <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 p-5 sm:p-6 text-white relative">
-          <div className="flex items-center justify-between gap-3 mb-2">
-            <span className="px-3 py-1 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-xs font-bold uppercase tracking-wider">
-              {step.badge}
-            </span>
-            <button
-              onClick={handleSkip}
-              className="p-1.5 rounded-full bg-white/10 hover:bg-white/20 text-slate-200 transition-colors cursor-pointer"
-              aria-label="Cerrar u omitir tutorial"
-              title="Omitir tutorial (Esc)"
-            >
-              <X className="w-4 h-4" />
-            </button>
+          <div className="flex items-center justify-between gap-3 mb-2.5">
+            <div className="flex items-center gap-2">
+              <div className="w-6 h-6 rounded-lg bg-white p-0.5 flex items-center justify-center shrink-0 shadow-2xs">
+                <img src="/kuskat_logo.png" alt="KUSKAT" className="w-full h-full object-contain" />
+              </div>
+              <span className="font-montenegrin text-xs tracking-wider uppercase text-blue-200 font-bold">
+                KUSKAT • Guía Tutorial
+              </span>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <span className="px-2.5 py-0.5 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-[10px] sm:text-xs font-bold uppercase tracking-wider font-caslon">
+                {step.badge}
+              </span>
+              <button
+                onClick={handleSkip}
+                className="p-1.5 rounded-full bg-white/10 hover:bg-white/20 text-slate-200 transition-colors cursor-pointer"
+                aria-label="Cerrar u omitir tutorial"
+                title="Omitir tutorial (Esc)"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
           </div>
 
-          <h3 id="tutorial-modal-title" className="text-xl sm:text-2xl font-black tracking-tight text-white">
+          <h3 id="tutorial-modal-title" className="text-xl sm:text-2xl font-black tracking-tight text-white font-montenegrin">
             {step.title}
           </h3>
-          <p className="text-xs sm:text-sm text-slate-300 font-medium pt-0.5">{step.subtitle}</p>
+          <p className="text-xs sm:text-sm text-slate-300 font-medium pt-1 font-caslon">{step.subtitle}</p>
 
           {/* Barra de Progreso de 5 Pasos */}
           <div className="flex items-center gap-1.5 pt-4">

@@ -26,7 +26,10 @@ import {
   Target,
   BookOpen,
   Sprout,
+  Printer,
+  ShieldCheck,
 } from 'lucide-react';
+import katex from 'katex';
 import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel } from '../types';
 import {
   fetchUnifiedCurriculum,
@@ -35,12 +38,78 @@ import {
   getSimilarQuestion,
 } from '../services/bancoService';
 import { MathText } from './CategoryHierarchyViewer';
+import { LeaderboardSection } from './LeaderboardSection';
+import { saveExamResult } from '../services/statsService';
+import { getCurrentUser } from '../services/authService';
+
+function escapeHtml(str: string): string {
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
+function renderMathToString(text: string): string {
+  if (!text) return '';
+  let processed = text
+    .replace(/(\d+)\s*\^\\?\{?circ\}?/g, '$1°')
+    .replace(/\\circ\b/g, '°')
+    .replace(/\\u0007pprox/g, '\\approx')
+    .replace(/\\u000bec/g, '\\vec')
+    .replace(/\bcm\^2\b/g, 'cm²')
+    .replace(/\bm\^2\b/g, 'm²')
+    .replace(/\bkm\^2\b/g, 'km²');
+
+  const regex = /(\$\$[\s\S]*?\$\$)|(\$[^\$\n]+?\$)|(\\\[[\s\S]*?\\\])|(\\\([\s\S]*?\\\\?\))/g;
+  const parts: string[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = regex.exec(processed)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push(escapeHtml(processed.slice(lastIndex, match.index)));
+    }
+    const rawMatch = match[0];
+    let mathCode = '';
+    let isBlock = false;
+    if (rawMatch.startsWith('$$') && rawMatch.endsWith('$$')) {
+      mathCode = rawMatch.slice(2, -2).trim();
+      isBlock = true;
+    } else if (rawMatch.startsWith('$') && rawMatch.endsWith('$')) {
+      mathCode = rawMatch.slice(1, -1).trim();
+    } else if (rawMatch.startsWith('\\[') && rawMatch.endsWith('\\]')) {
+      mathCode = rawMatch.slice(2, -2).trim();
+      isBlock = true;
+    } else if (rawMatch.startsWith('\\(') && rawMatch.endsWith('\\)')) {
+      mathCode = rawMatch.slice(2, -2).trim();
+    }
+    try {
+      parts.push(
+        katex.renderToString(mathCode, {
+          displayMode: isBlock,
+          throwOnError: false,
+          output: 'htmlAndMathml',
+        })
+      );
+    } catch {
+      parts.push(escapeHtml(rawMatch));
+    }
+    lastIndex = match.index + rawMatch.length;
+  }
+  if (lastIndex < processed.length) {
+    parts.push(escapeHtml(processed.slice(lastIndex)));
+  }
+  return parts.join('');
+}
 
 interface PracticeModeProps {
   initialQuestions?: Question[] | null;
   initialTitle?: string | null;
   onExportLatex?: (questions: Question[], title: string) => void;
   onBackToCategories?: () => void;
+  onOpenAccountModal?: () => void;
   showToast: (msg: string) => void;
 }
 
@@ -49,6 +118,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
   initialTitle,
   onExportLatex,
   onBackToCategories,
+  onOpenAccountModal,
   showToast,
 }) => {
   // Malla curricular para el configurador
@@ -370,12 +440,417 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
     }));
   }, [quizQuestions, userAnswers]);
 
+  // Auto-guardado de resultados de exámenes en formato texto para historial de usuario y tabla Top 10
+  useEffect(() => {
+    if (quizFinished && quizQuestions.length > 0) {
+      const user = getCurrentUser();
+      const institution = quizQuestions[0]?.institution || 'UES';
+      saveExamResult({
+        userId: user ? user.id : 'invitado',
+        userDisplayName: user ? user.username : 'Estudiante KUSKAT',
+        institution: institution,
+        quizTitle: quizTitle || `Simulacro Oficial ${institution}`,
+        totalQuestions: quizQuestions.length,
+        correctAnswers: correctCount,
+        incorrectAnswers: incorrectCount,
+        unanswered: unansweredCount,
+        percentage: percentage,
+        grade: finalGrade,
+        timeSpentSeconds: totalExamSeconds - secondsRemaining,
+        breakdown: subjectBreakdown
+      });
+    }
+  }, [quizFinished]);
+
+  // Generador e Impresor de Reporte PDF (100% en memoria en el cliente, cero guardado en nube ni archivos temporales)
+  const handlePrintPdfReport = () => {
+    try {
+      const printIframe = document.createElement('iframe');
+      printIframe.setAttribute('title', 'Reporte de Evaluación KUSKAT');
+      printIframe.style.position = 'fixed';
+      printIframe.style.right = '0';
+      printIframe.style.bottom = '0';
+      printIframe.style.width = '0';
+      printIframe.style.height = '0';
+      printIframe.style.border = '0';
+      printIframe.style.opacity = '0';
+      printIframe.style.pointerEvents = 'none';
+      document.body.appendChild(printIframe);
+
+      const iframeDoc = printIframe.contentWindow?.document;
+      if (!iframeDoc) {
+        showToast('No se pudo abrir el servicio de impresión.');
+        return;
+      }
+
+      const now = new Date();
+      const formattedDate = now.toLocaleDateString('es-SV', {
+        weekday: 'long',
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+      });
+      const formattedTime = now.toLocaleTimeString('es-SV', {
+        hour: '2-digit',
+        minute: '2-digit',
+      });
+
+      const institutionName = quizQuestions[0]?.institution || 'KUSKAT';
+
+      let html = `<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>KUSKAT - Reporte de Resultados - ${escapeHtml(quizTitle)}</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+  <style>
+    @page {
+      size: A4 portrait;
+      margin: 1.5cm 1.2cm;
+    }
+    * {
+      box-sizing: border-box;
+      -webkit-print-color-adjust: exact !important;
+      print-color-adjust: exact !important;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      color: #0f172a;
+      background: #ffffff;
+      margin: 0;
+      padding: 0;
+      font-size: 10pt;
+      line-height: 1.45;
+    }
+    .header {
+      border-bottom: 2.5px solid #1e3a8a;
+      padding-bottom: 12px;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .header-logo {
+      width: 48px;
+      height: 48px;
+      object-fit: contain;
+    }
+    .header-titles h1 {
+      margin: 0;
+      font-size: 16pt;
+      font-weight: 800;
+      color: #1e3a8a;
+      letter-spacing: -0.5px;
+    }
+    .header-titles p {
+      margin: 2px 0 0;
+      font-size: 8.5pt;
+      color: #64748b;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .header-right {
+      text-align: right;
+      font-size: 8pt;
+      color: #475569;
+    }
+    .summary-card {
+      background: #f8fafc;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin-bottom: 16px;
+    }
+    .status-badge {
+      display: inline-block;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      font-size: 8.5pt;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .badge-approved { background: #d1fae5; color: #065f46; border: 1px solid #a7f3d0; }
+    .badge-failed { background: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
+    .exam-title {
+      font-size: 13pt;
+      font-weight: 800;
+      color: #0f172a;
+      margin: 0 0 10px;
+    }
+    .metrics-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 10px;
+    }
+    .metric-box {
+      background: #ffffff;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 8px 10px;
+      text-align: center;
+    }
+    .metric-label {
+      font-size: 7pt;
+      text-transform: uppercase;
+      color: #64748b;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      display: block;
+    }
+    .metric-value {
+      font-size: 14pt;
+      font-weight: 800;
+      margin-top: 2px;
+      display: block;
+    }
+    .text-emerald { color: #059669; }
+    .text-rose { color: #dc2626; }
+    .breakdown-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12px;
+      font-size: 8.5pt;
+    }
+    .breakdown-table th, .breakdown-table td {
+      border: 1px solid #e2e8f0;
+      padding: 5px 8px;
+      text-align: left;
+    }
+    .breakdown-table th {
+      background: #f1f5f9;
+      font-weight: 700;
+      color: #334155;
+    }
+    .section-title {
+      font-size: 11pt;
+      font-weight: 800;
+      color: #1e3a8a;
+      margin: 18px 0 10px;
+      padding-bottom: 4px;
+      border-bottom: 1.5px solid #cbd5e1;
+    }
+    .question-card {
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 10px 12px;
+      margin-bottom: 10px;
+      page-break-inside: avoid;
+    }
+    .q-correct { border-left: 4px solid #059669; background: #fafdfb; }
+    .q-incorrect { border-left: 4px solid #dc2626; background: #fffdfd; }
+    .q-blank { border-left: 4px solid #d97706; background: #fffdfa; }
+    .q-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+      font-size: 8pt;
+      font-weight: 700;
+    }
+    .q-statement {
+      font-weight: 600;
+      margin-bottom: 6px;
+      font-size: 9pt;
+      color: #1e293b;
+    }
+    .q-options {
+      margin: 4px 0 6px;
+      padding-left: 14px;
+      font-size: 8.5pt;
+    }
+    .q-opt {
+      margin-bottom: 2px;
+    }
+    .opt-correct { color: #065f46; font-weight: 700; }
+    .opt-wrong { color: #991b1b; font-weight: 700; text-decoration: line-through; }
+    .q-explanation {
+      margin-top: 6px;
+      padding: 6px 8px;
+      background: #f8fafc;
+      border-radius: 4px;
+      font-size: 8pt;
+      color: #475569;
+      border: 1px solid #edf2f7;
+    }
+    .footer {
+      margin-top: 24px;
+      padding-top: 8px;
+      border-top: 1px solid #e2e8f0;
+      font-size: 7.5pt;
+      color: #94a3b8;
+      text-align: center;
+      page-break-inside: avoid;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <div class="header-left">
+      <img src="${window.location.origin}/kuskat_logo.png" alt="KUSKAT" class="header-logo" onerror="this.style.display='none'">
+      <div class="header-titles">
+        <h1>KUSKAT</h1>
+        <p>Reporte Oficial de Evaluación • ${escapeHtml(institutionName)}</p>
+      </div>
+    </div>
+    <div class="header-right">
+      <div><strong>Fecha:</strong> ${formattedDate}</div>
+      <div><strong>Hora:</strong> ${formattedTime}</div>
+      <div><strong>Plataforma:</strong> KUSKAT By Yeferson E. Perez</div>
+    </div>
+  </div>
+
+  <div class="summary-card">
+    <span class="status-badge ${percentage >= 70 ? 'badge-approved' : 'badge-failed'}">
+      ${percentage >= 70 ? '✓ Examen Aprobado' : '⚠ Resultado por Mejorar'}
+    </span>
+    <h2 class="exam-title">${escapeHtml(quizTitle)}</h2>
+
+    <div class="metrics-grid">
+      <div class="metric-box">
+        <span class="metric-label">Calificación (0-10)</span>
+        <span class="metric-value ${percentage >= 70 ? 'text-emerald' : 'text-rose'}">${finalGrade}</span>
+      </div>
+      <div class="metric-box">
+        <span class="metric-label">Porcentaje</span>
+        <span class="metric-value">${percentage}%</span>
+      </div>
+      <div class="metric-box">
+        <span class="metric-label">Aciertos</span>
+        <span class="metric-value text-emerald">${correctCount} / ${quizQuestions.length}</span>
+      </div>
+      <div class="metric-box">
+        <span class="metric-label">Fallos / Vacías</span>
+        <span class="metric-value text-rose">${incorrectCount + unansweredCount}</span>
+      </div>
+    </div>`;
+
+      if (subjectBreakdown.length > 1) {
+        html += `
+    <table class="breakdown-table">
+      <thead>
+        <tr>
+          <th>Materia / Componente</th>
+          <th>Aciertos</th>
+          <th>Total</th>
+          <th>Efectividad</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${subjectBreakdown
+          .map(
+            (sb) => `
+        <tr>
+          <td><strong>${escapeHtml(sb.name)}</strong></td>
+          <td>${sb.correct}</td>
+          <td>${sb.total}</td>
+          <td><strong style="color: ${sb.pct >= 70 ? '#059669' : '#dc2626'}">${sb.pct}%</strong></td>
+        </tr>`
+          )
+          .join('')}
+      </tbody>
+    </table>`;
+      }
+
+      html += `
+  </div>
+
+  <div class="section-title">
+    <span>Solucionario Oficial y Revisión Ítem por Ítem</span>
+    <span style="font-size: 8.5pt; font-weight: 600; color: #64748b;">${quizQuestions.length} reactivos evaluados</span>
+  </div>`;
+
+      quizQuestions.forEach((q, idx) => {
+        const userAns = userAnswers[idx];
+        const isRight = userAns === q.correctAnswer;
+        const isBlank = userAns === undefined;
+
+        html += `
+  <div class="question-card ${isRight ? 'q-correct' : isBlank ? 'q-blank' : 'q-incorrect'}">
+    <div class="q-header">
+      <span>Reactivo #${idx + 1} • [${escapeHtml(q.institution)}] ${escapeHtml(q.subject)}</span>
+      <span style="color: ${isRight ? '#059669' : isBlank ? '#d97706' : '#dc2626'}">
+        ${isRight ? '✓ Correcto (+1.0)' : isBlank ? '○ No Respondida (0.0)' : `✗ Incorrecto (Clave: ${q.correctAnswer})`}
+      </span>
+    </div>
+    <div class="q-statement">${renderMathToString(q.statement)}</div>
+    <div class="q-options">`;
+
+        q.options.forEach((opt) => {
+          const isUserPick = userAns === opt.key;
+          const isActualCorrect = q.correctAnswer === opt.key;
+
+          let optClass = '';
+          if (isActualCorrect) {
+            optClass = 'opt-correct';
+          }
+          if (isUserPick && !isRight) {
+            optClass = 'opt-wrong';
+          }
+
+          html += `
+      <div class="q-opt ${optClass}">
+        <strong>${opt.key})</strong> ${renderMathToString(opt.text)}
+        ${isUserPick ? `<em>(Tu respuesta${isRight ? ' correcta' : ''})</em>` : ''}
+      </div>`;
+        });
+
+        html += `
+    </div>`;
+
+        if (q.explanation) {
+          html += `
+    <div class="q-explanation">
+      <strong>Justificación Oficial:</strong> ${renderMathToString(q.explanation)}
+    </div>`;
+        }
+
+        html += `
+  </div>`;
+      });
+
+      html += `
+  <div class="footer">
+    <p>Reporte generado 100% de manera local en el dispositivo del estudiante. Cero almacenamiento en la nube ni archivos temporales persistentes.</p>
+    <p>KUSKAT • Plataforma de Preparación Académica de Alto Rendimiento • El Salvador</p>
+  </div>
+</body>
+</html>`;
+
+      iframeDoc.open();
+      iframeDoc.write(html);
+      iframeDoc.close();
+
+      showToast('Abriendo ventana de impresión / exportación PDF...');
+
+      setTimeout(() => {
+        printIframe.contentWindow?.focus();
+        printIframe.contentWindow?.print();
+
+        // Eliminación total del iframe temporal en memoria
+        setTimeout(() => {
+          if (document.body.contains(printIframe)) {
+            document.body.removeChild(printIframe);
+          }
+        }, 1500);
+      }, 350);
+    } catch (err) {
+      console.error('Error al imprimir reporte:', err);
+      showToast('Error al preparar el documento para impresión.');
+    }
+  };
+
   // ==========================================================================
   // PANTALLA 1: CONFIGURADOR DEL SIMULADOR BASADO EN CATEGORÍAS
   // ==========================================================================
   if (!quizActive) {
     return (
-      <div className="max-w-3xl mx-auto space-y-6">
+      <div className="max-w-4xl mx-auto space-y-8">
         <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-9 shadow-xs space-y-6">
           {/* Cabecera */}
           <div className="text-center space-y-2.5">
@@ -814,6 +1289,9 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
             </button>
           </div>
         </div>
+
+        {/* Tabla de Estadísticas y Top 10 KUSKAT */}
+        <LeaderboardSection onOpenAccountModal={onOpenAccountModal} />
       </div>
     );
   }
@@ -1165,10 +1643,10 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         )}
 
         {/* Botones de Acción */}
-        <div className="flex items-center justify-center gap-3 flex-wrap pt-2">
+        <div className="grid grid-cols-1 sm:flex sm:flex-wrap sm:justify-center items-center gap-2.5 sm:gap-3 pt-2">
           <button
             onClick={handleRetrySameQuiz}
-            className="inline-flex items-center gap-2 px-4 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs rounded-xl transition-colors cursor-pointer"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs rounded-xl transition-colors cursor-pointer min-h-[44px]"
           >
             <RotateCcw className="w-3.5 h-3.5" />
             <span>Repetir Mismo Test</span>
@@ -1176,21 +1654,50 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
 
           <button
             onClick={handleNewTestConfig}
-            className="inline-flex items-center gap-2 px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs rounded-xl shadow-xs transition-colors cursor-pointer"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs rounded-xl shadow-xs transition-colors cursor-pointer min-h-[44px]"
           >
             <SlidersHorizontal className="w-3.5 h-3.5" />
             <span>Configurar Nuevo Test</span>
           </button>
 
+          <button
+            onClick={handlePrintPdfReport}
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl shadow-xs transition-colors cursor-pointer min-h-[44px]"
+            title="Imprimir o Guardar en PDF el reporte oficial y solucionario"
+          >
+            <Printer className="w-3.5 h-3.5" />
+            <span>Imprimir / Exportar a PDF</span>
+          </button>
+
           {onExportLatex && (
             <button
               onClick={() => onExportLatex(quizQuestions, `Solucionario: ${quizTitle}`)}
-              className="inline-flex items-center gap-2 px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-xl shadow-xs transition-colors cursor-pointer"
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs rounded-xl shadow-xs transition-colors cursor-pointer min-h-[44px]"
             >
               <FileCode className="w-3.5 h-3.5" />
               <span>Exportar Solucionario LaTeX</span>
             </button>
           )}
+
+          {onBackToCategories && (
+            <button
+              onClick={() => {
+                handleNewTestConfig();
+                onBackToCategories();
+              }}
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs rounded-xl transition-colors cursor-pointer min-h-[44px]"
+              title="Salir del resultado y volver al menú limpiando datos en memoria"
+            >
+              <ArrowLeft className="w-3.5 h-3.5" />
+              <span>Salir al Menú</span>
+            </button>
+          )}
+        </div>
+
+        {/* Garantía de Privacidad y Cero Almacenamiento en Nube */}
+        <div className="flex items-center justify-center gap-2 text-[11px] text-slate-400 pt-2 border-t border-slate-100">
+          <ShieldCheck className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+          <span>Generación 100% local en tu dispositivo • Cero archivos temporales ni guardado en la nube</span>
         </div>
       </div>
 
@@ -1386,6 +1893,9 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
           );
         })}
       </div>
+
+      {/* Tabla de Estadísticas y Top 10 KUSKAT */}
+      <LeaderboardSection onOpenAccountModal={onOpenAccountModal} />
     </div>
   );
 };

@@ -92,7 +92,7 @@ export const Header: React.FC<HeaderProps> = ({
               En Desarrollo
             </span>
             <span className="font-medium text-slate-200 leading-tight">
-              Trabajando en prueba AVANZO y material de medicina.
+              Trabajando en material de medicina.
             </span>
           </div>
 

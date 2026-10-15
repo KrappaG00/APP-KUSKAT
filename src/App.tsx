@@ -31,6 +31,7 @@ import {
   Layers,
   FolderTree,
   HelpCircle,
+  Scale,
 } from 'lucide-react';
 import {
   Institution,
@@ -39,9 +40,25 @@ import {
   SUBJECTS_BY_INSTITUTION,
   generateLatexDocument,
 } from './data';
-import { CategoryHierarchyViewer } from './components/CategoryHierarchyViewer';
-import { PracticeMode } from './components/PracticeMode';
-import { OnboardingTutorial } from './components/OnboardingTutorial';
+import { AccountModal } from './components/AccountModal';
+import { LegalModal, LegalTab } from './components/LegalModal';
+import { CookieBanner } from './components/CookieBanner';
+import { getCurrentUser } from './services/authService';
+import { User } from './types/auth';
+
+// Componentes con carga diferida (lazy loading) para acelerar el inicio
+const CategoryHierarchyViewer = React.lazy(() =>
+  import('./components/CategoryHierarchyViewer').then((m) => ({ default: m.CategoryHierarchyViewer }))
+);
+const PracticeMode = React.lazy(() =>
+  import('./components/PracticeMode').then((m) => ({ default: m.PracticeMode }))
+);
+const OnboardingTutorial = React.lazy(() =>
+  import('./components/OnboardingTutorial').then((m) => ({ default: m.OnboardingTutorial }))
+);
+const MotionSitesPortal = React.lazy(() =>
+  import('./components/motionsites/MotionSitesPortal').then((m) => ({ default: m.MotionSitesPortal }))
+);
 
 // ============================================================================
 // COMPONENTE PARA RENDERIZAR MATEMÁTICAS CON KATEX ($...$ y $$...$$)
@@ -150,9 +167,24 @@ function escapeHtml(str: string): string {
 // COMPONENTE PRINCIPAL APP
 // ============================================================================
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'categories' | 'practice' | 'latex'>('categories');
+  const [activeTab, setActiveTab] = useState<'motionsites3d' | 'categories' | 'practice' | 'latex'>('motionsites3d');
   const [isDevModalOpen, setIsDevModalOpen] = useState<boolean>(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+
+  // Estados de Cuentas Nativas, Exámenes y Marco Legal
+  const [currentUser, setCurrentUser] = useState<User | null>(null);
+  const [isAccountModalOpen, setIsAccountModalOpen] = useState<boolean>(false);
+  const [isLegalModalOpen, setIsLegalModalOpen] = useState<boolean>(false);
+  const [legalModalTab, setLegalModalTab] = useState<LegalTab>('terms');
+
+  useEffect(() => {
+    setCurrentUser(getCurrentUser());
+  }, []);
+
+  const handleOpenLegalModal = (tab: LegalTab = 'terms') => {
+    setLegalModalTab(tab);
+    setIsLegalModalOpen(true);
+  };
 
   // Estado del Tutorial de Bienvenida Opcional
   const [isTutorialOpen, setIsTutorialOpen] = useState<boolean>(() => {
@@ -245,8 +277,34 @@ export default function App() {
     showToast('Descargando archivo .tex...');
   };
 
+  // Renderizado del Portal 3D Estilo MotionSites (Dark Mode)
+  if (activeTab === 'motionsites3d') {
+    return (
+      <React.Suspense
+        fallback={
+          <div className="min-h-screen bg-slate-50 flex flex-col items-center justify-center p-4 font-caslon">
+            <div className="w-14 h-14 rounded-2xl bg-white p-2 shadow-md border border-slate-200 flex items-center justify-center mb-3 animate-pulse">
+              <img src="/kuskat_logo.png" alt="Logo KUSKAT" className="w-full h-full object-contain" />
+            </div>
+            <p className="text-sm font-semibold text-slate-700 tracking-editorial">Iniciando KUSKAT...</p>
+          </div>
+        }
+      >
+        <MotionSitesPortal
+          onEnterSimulator={() => {
+            setQuizQuestions([]);
+            setActiveTab('practice');
+          }}
+          onOpenCategories={() => {
+            setActiveTab('categories');
+          }}
+        />
+      </React.Suspense>
+    );
+  }
+
   return (
-    <div className="min-h-screen bg-slate-100 flex flex-col font-sans text-slate-800">
+    <div className="min-h-screen bg-slate-100 flex flex-col font-caslon text-slate-800">
       {/* ==================================================================== */}
       {/* 1. CINTILLO SUPERIOR DE INFORMACIÓN Y CONTACTO */}
       {/* ==================================================================== */}
@@ -257,7 +315,7 @@ export default function App() {
               En Desarrollo
             </span>
             <span className="font-medium text-slate-200">
-              Trabajando en prueba AVANZO y material de medicina.
+              Trabajando en material de medicina.
             </span>
           </div>
 
@@ -283,6 +341,15 @@ export default function App() {
               <span className="text-pink-400 font-bold">Instagram:</span>
               <span>@Kuskat.es</span>
             </a>
+            <span className="text-slate-600 hidden md:inline">•</span>
+            <button
+              onClick={() => handleOpenLegalModal('terms')}
+              className="hidden md:flex hover:text-blue-300 items-center gap-1 transition-colors cursor-pointer text-slate-300"
+              title="Marco legal, privacidad y normativas salvadoreñas"
+            >
+              <Scale className="w-3.5 h-3.5 text-blue-400" />
+              <span>Legal y Privacidad</span>
+            </button>
           </div>
         </div>
       </div>
@@ -294,12 +361,16 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3 flex flex-col sm:flex-row items-center justify-between gap-3">
           {/* Logo y Nombre del Proyecto */}
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-blue-700 via-indigo-600 to-purple-600 flex items-center justify-center text-white shadow-md shadow-blue-500/20 shrink-0 font-black text-lg">
-              K
+            <div className="w-10 h-10 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center justify-center p-1 shrink-0 overflow-hidden">
+              <img
+                src="/kuskat_logo.png"
+                alt="Logo KUSKAT"
+                className="w-full h-full object-contain"
+              />
             </div>
             <div>
               <div className="flex items-center gap-2">
-                <h1 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+                <h1 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight font-montenegrin">
                   KUSKAT
                 </h1>
                 <span className="text-[10px] sm:text-xs font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded-md border border-blue-200">
@@ -307,7 +378,7 @@ export default function App() {
                 </span>
               </div>
               <p className="text-[11px] text-slate-500 font-medium">
-                Preparación para Admisión UES & Exámenes ANSP
+                Preparación para la aprobacion de examenes de Centro America
               </p>
             </div>
           </div>
@@ -347,7 +418,19 @@ export default function App() {
             </button>
 
             {/* Vistas Principales (Tabs) */}
-            <nav className="flex items-center bg-slate-100 p-1 rounded-xl text-xs font-semibold text-slate-600">
+            <nav className="flex items-center bg-slate-100 p-1 rounded-xl text-xs font-semibold text-slate-600 flex-wrap">
+              <button
+                onClick={() => setActiveTab('motionsites3d')}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
+                  activeTab === 'motionsites3d'
+                    ? 'bg-slate-900 text-[#F8DCCB] shadow-xs font-bold'
+                    : 'text-indigo-900 bg-indigo-50/80 hover:bg-indigo-100 font-bold border border-indigo-200/60'
+                }`}
+                title="Entrar al sitio web 3D interactivo estilo MotionSites con mapa de El Salvador"
+              >
+                <Sparkles className="w-3.5 h-3.5 text-amber-500 animate-pulse" />
+                <span>Portal 3D</span>
+              </button>
               <button
                 onClick={() => setActiveTab('categories')}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
@@ -385,6 +468,27 @@ export default function App() {
                 <span>LaTeX</span>
               </button>
             </nav>
+
+            {/* Botón de Cuenta / Iniciar Sesión */}
+            <button
+              onClick={() => setIsAccountModalOpen(true)}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-bold transition-all cursor-pointer shadow-2xs ${
+                currentUser
+                  ? 'border-emerald-300 bg-emerald-50 text-emerald-900 hover:bg-emerald-100'
+                  : 'border-blue-300 bg-blue-50 text-blue-900 hover:bg-blue-100'
+              }`}
+              title={currentUser ? `Cuenta activa: ${currentUser.username} • Ver exámenes realizados` : 'Iniciar sesión o registrar cuenta nativa'}
+            >
+              <UserCheck className="w-3.5 h-3.5 text-blue-600" />
+              {currentUser ? (
+                <span className="flex items-center gap-1.5">
+                  <span className="truncate max-w-[100px]">{currentUser.username}</span>
+                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
+                </span>
+              ) : (
+                <span>Cuenta</span>
+              )}
+            </button>
           </div>
         </div>
       </header>
@@ -397,46 +501,67 @@ export default function App() {
         {/* VISTA 0: MENÚ JERÁRQUICO POR SECCIÓN, TEMA, MATERIA Y TIPO */}
         {/* ================================================================== */}
         {activeTab === 'categories' && (
-          <CategoryHierarchyViewer
-            onStartPracticeWithQuestions={(questions) => {
-              setQuizQuestions(questions);
-              setActiveTab('practice');
-              showToast(`Simulador iniciado con ${questions.length} preguntas de la sección.`);
-            }}
-            onExportLatexWithQuestions={(questions, title) => {
-              setLatexCustomQuestions(questions);
-              setLatexCustomTitle(title);
-              setLatexScope('custom');
-              setActiveTab('latex');
-              showToast(`Exportador LaTeX preparado para: ${title}`);
-            }}
-            showToast={showToast}
-          />
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <img src="/kuskat_logo.png" alt="KUSKAT" className="w-6 h-6 object-contain" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Explorador de Categorías...</p>
+              </div>
+            }
+          >
+            <CategoryHierarchyViewer
+              onStartPracticeWithQuestions={(questions) => {
+                setQuizQuestions(questions);
+                setActiveTab('practice');
+                showToast(`Simulador iniciado con ${questions.length} preguntas de la sección.`);
+              }}
+              onExportLatexWithQuestions={(questions, title) => {
+                setLatexCustomQuestions(questions);
+                setLatexCustomTitle(title);
+                setLatexScope('custom');
+                setActiveTab('latex');
+                showToast(`Exportador LaTeX preparado para: ${title}`);
+              }}
+              showToast={showToast}
+            />
+          </React.Suspense>
         )}
-
-
 
         {/* ================================================================== */}
         {/* VISTA 2: SIMULADOR DE EXAMEN AVANZADO & BANCO UNIFICADO */}
         {/* ================================================================== */}
         {activeTab === 'practice' && (
-          <PracticeMode
-            initialQuestions={quizQuestions.length > 0 ? quizQuestions : null}
-            initialTitle={
-              quizQuestions.length > 0
-                ? `Simulacro Personalizado (${quizQuestions.length} reactivos)`
-                : null
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <img src="/kuskat_logo.png" alt="KUSKAT" className="w-6 h-6 object-contain" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Simulador de Examen...</p>
+              </div>
             }
-            onExportLatex={(questions, title) => {
-              setLatexCustomQuestions(questions);
-              setLatexCustomTitle(title);
-              setLatexScope('custom');
-              setActiveTab('latex');
-              showToast(`Exportador LaTeX preparado para: ${title}`);
-            }}
-            onBackToCategories={() => setActiveTab('categories')}
-            showToast={showToast}
-          />
+          >
+            <PracticeMode
+              initialQuestions={quizQuestions.length > 0 ? quizQuestions : null}
+              initialTitle={
+                quizQuestions.length > 0
+                  ? `Simulacro Personalizado (${quizQuestions.length} reactivos)`
+                  : null
+              }
+              onExportLatex={(questions, title) => {
+                setLatexCustomQuestions(questions);
+                setLatexCustomTitle(title);
+                setLatexScope('custom');
+                setActiveTab('latex');
+                showToast(`Exportador LaTeX preparado para: ${title}`);
+              }}
+              onBackToCategories={() => setActiveTab('categories')}
+              onOpenAccountModal={() => setIsAccountModalOpen(true)}
+              showToast={showToast}
+            />
+          </React.Suspense>
         )}
 
         {/* ================================================================== */}
@@ -571,10 +696,20 @@ export default function App() {
       {/* ==================================================================== */}
       {/* 4. BARRA DE NAVEGACIÓN INFERIOR PARA MÓVILES (PWA STYLE) */}
       {/* ==================================================================== */}
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-lg border-t border-slate-200 px-3 py-1.5 flex items-center justify-around shadow-xl">
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-lg border-t border-slate-200 px-2 py-1.5 pb-[calc(0.375rem+env(safe-area-inset-bottom,0px))] flex items-center justify-around shadow-xl">
+        <button
+          onClick={() => setActiveTab('motionsites3d')}
+          className={`flex flex-col items-center gap-0.5 py-1 px-2 rounded-xl text-[10px] font-bold transition-all cursor-pointer ${
+            activeTab === 'motionsites3d' ? 'text-blue-700 font-extrabold' : 'text-slate-500'
+          }`}
+        >
+          <Sparkles className="w-4 h-4 text-amber-500" />
+          <span>Portal 3D</span>
+        </button>
+
         <button
           onClick={() => setActiveTab('categories')}
-          className={`flex flex-col items-center gap-1 py-1 px-3 rounded-xl text-[10px] font-bold transition-all cursor-pointer ${
+          className={`flex flex-col items-center gap-0.5 py-1 px-2 rounded-xl text-[10px] font-bold transition-all cursor-pointer ${
             activeTab === 'categories' ? 'text-blue-600 font-extrabold' : 'text-slate-500'
           }`}
         >
@@ -587,7 +722,7 @@ export default function App() {
             setQuizQuestions([]);
             setActiveTab('practice');
           }}
-          className={`flex flex-col items-center gap-1 py-1 px-3 rounded-xl text-[10px] font-bold transition-all cursor-pointer ${
+          className={`flex flex-col items-center gap-0.5 py-1 px-2 rounded-xl text-[10px] font-bold transition-all cursor-pointer ${
             activeTab === 'practice' ? 'text-amber-600 font-extrabold' : 'text-slate-500'
           }`}
         >
@@ -597,7 +732,7 @@ export default function App() {
 
         <button
           onClick={() => setActiveTab('latex')}
-          className={`flex flex-col items-center gap-1 py-1 px-2.5 rounded-xl text-[10px] font-bold transition-all cursor-pointer ${
+          className={`flex flex-col items-center gap-0.5 py-1 px-2 rounded-xl text-[10px] font-bold transition-all cursor-pointer ${
             activeTab === 'latex' ? 'text-slate-900 font-extrabold' : 'text-slate-500'
           }`}
         >
@@ -606,8 +741,19 @@ export default function App() {
         </button>
 
         <button
+          onClick={() => setIsAccountModalOpen(true)}
+          className={`flex flex-col items-center gap-0.5 py-1 px-1.5 rounded-xl text-[10px] font-bold cursor-pointer ${
+            currentUser ? 'text-emerald-700 font-extrabold' : 'text-slate-500'
+          }`}
+          title="Ver mi cuenta y exámenes realizados"
+        >
+          <UserCheck className="w-4 h-4 text-blue-600" />
+          <span>{currentUser ? 'Perfil' : 'Cuenta'}</span>
+        </button>
+
+        <button
           onClick={() => setIsTutorialOpen(true)}
-          className="flex flex-col items-center gap-1 py-1 px-2 rounded-xl text-[10px] font-bold text-blue-700 cursor-pointer"
+          className="flex flex-col items-center gap-0.5 py-1 px-1.5 rounded-xl text-[10px] font-bold text-blue-700 cursor-pointer"
           title="Ver tutorial de bienvenida"
         >
           <HelpCircle className="w-4 h-4 text-blue-600" />
@@ -616,7 +762,7 @@ export default function App() {
 
         <button
           onClick={() => setIsDevModalOpen(true)}
-          className="flex flex-col items-center gap-1 py-1 px-2 rounded-xl text-[10px] font-bold text-slate-500 cursor-pointer"
+          className="flex flex-col items-center gap-0.5 py-1 px-1.5 rounded-xl text-[10px] font-bold text-slate-500 cursor-pointer"
         >
           <div className="w-4 h-4 rounded-full overflow-hidden border border-amber-400 shrink-0">
             <img src="/yeferson_perez.jpg" alt="Creador" className="w-full h-full object-cover" />
@@ -628,10 +774,14 @@ export default function App() {
       {/* ==================================================================== */}
       {/* 4.5 TUTORIAL DE BIENVENIDA O GUÍA INTERACTIVA (OPCIONAL) */}
       {/* ==================================================================== */}
-      <OnboardingTutorial
-        isOpen={isTutorialOpen}
-        onClose={handleCloseTutorial}
-      />
+      {isTutorialOpen && (
+        <React.Suspense fallback={null}>
+          <OnboardingTutorial
+            isOpen={isTutorialOpen}
+            onClose={handleCloseTutorial}
+          />
+        </React.Suspense>
+      )}
 
       {/* ==================================================================== */}
       {/* 5. MODAL DEL DESARROLLADOR & CREADOR (YEFERSON E. PEREZ) */}
@@ -807,17 +957,21 @@ export default function App() {
             {/* Columna 1: Marca KUSKAT */}
             <div className="space-y-3">
               <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-blue-700 via-indigo-600 to-purple-600 flex items-center justify-center text-white font-black text-base shadow-xs">
-                  K
+                <div className="w-9 h-9 rounded-xl bg-white border border-slate-200 flex items-center justify-center p-1 shrink-0 overflow-hidden shadow-xs">
+                  <img
+                    src="/kuskat_logo.png"
+                    alt="Logo KUSKAT"
+                    className="w-full h-full object-contain"
+                  />
                 </div>
-                <span className="text-lg font-black text-slate-900 tracking-tight">KUSKAT</span>
+                <span className="text-lg font-black text-slate-900 tracking-tight font-montenegrin">KUSKAT</span>
               </div>
               <p className="text-xs text-slate-600 leading-relaxed">
                 Plataforma integral de simulación y bancos de preguntas para aspirantes universitarios (UES) y de la Academia Nacional de Seguridad Pública (ANSP).
               </p>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-50 text-blue-800 font-semibold border border-blue-200 text-[11px]">
                 <Rocket className="w-3.5 h-3.5 text-blue-600 shrink-0" />
-                <span>Trabajando en prueba AVANZO y material de medicina.</span>
+                <span>Trabajando en material de medicina.</span>
               </div>
             </div>
 
@@ -909,7 +1063,53 @@ export default function App() {
             </div>
           </div>
 
-          <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-400 text-[11px] border-t border-slate-200/60">
+          {/* Enlaces a Políticas y Marco Legal */}
+          <div className="pt-4 pb-2 flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-[11px] text-slate-500 border-t border-slate-100">
+            <span className="font-semibold text-slate-700">Políticas & Marco Normativo:</span>
+            <button
+              onClick={() => handleOpenLegalModal('terms')}
+              className="hover:text-blue-600 transition-colors cursor-pointer underline"
+            >
+              1. Términos y Condiciones
+            </button>
+            <span>•</span>
+            <button
+              onClick={() => handleOpenLegalModal('privacy')}
+              className="hover:text-blue-600 transition-colors cursor-pointer underline"
+            >
+              2. Política de Privacidad
+            </button>
+            <span>•</span>
+            <button
+              onClick={() => handleOpenLegalModal('cookies')}
+              className="hover:text-blue-600 transition-colors cursor-pointer underline"
+            >
+              3. Cookies
+            </button>
+            <span>•</span>
+            <button
+              onClick={() => handleOpenLegalModal('refund')}
+              className="hover:text-blue-600 transition-colors cursor-pointer underline"
+            >
+              4. Reembolsos
+            </button>
+            <span>•</span>
+            <button
+              onClick={() => handleOpenLegalModal('copyright')}
+              className="hover:text-blue-600 transition-colors cursor-pointer underline"
+            >
+              5. Derechos de Imágenes
+            </button>
+            <span>•</span>
+            <button
+              onClick={() => handleOpenLegalModal('laws')}
+              className="hover:text-blue-600 transition-colors cursor-pointer underline"
+            >
+              6. Leyes de El Salvador
+            </button>
+          </div>
+
+          <div className="pt-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-400 text-[11px] border-t border-slate-200/60">
             <div className="flex items-center gap-3 flex-wrap">
               <p>KUSKAT © 2026 • Todos los derechos reservados • Desarrollado por Yeferson E. Perez</p>
               <span>•</span>
@@ -924,6 +1124,30 @@ export default function App() {
           </div>
         </div>
       </footer>
+
+      {/* ==================================================================== */}
+      {/* 8. MODAL DE CUENTA (INICIAR SESIÓN, CREAR CUENTA, EXÁMENES REALIZADOS) */}
+      {/* ==================================================================== */}
+      <AccountModal
+        isOpen={isAccountModalOpen}
+        onClose={() => setIsAccountModalOpen(false)}
+        onOpenLegalModal={handleOpenLegalModal}
+        onUserChanged={setCurrentUser}
+      />
+
+      {/* ==================================================================== */}
+      {/* 9. MODAL DE MARCO LEGAL Y POLÍTICAS DE PRIVACIDAD */}
+      {/* ==================================================================== */}
+      <LegalModal
+        isOpen={isLegalModalOpen}
+        onClose={() => setIsLegalModalOpen(false)}
+        initialTab={legalModalTab}
+      />
+
+      {/* ==================================================================== */}
+      {/* 10. BANNER DE CONSENTIMIENTO DE COOKIES */}
+      {/* ==================================================================== */}
+      <CookieBanner onOpenLegalModal={handleOpenLegalModal} />
     </div>
   );
 }

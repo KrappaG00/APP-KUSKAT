@@ -347,12 +347,14 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
         if (isMounted) {
           setLoadedQuestions(pool);
           setLoadingQuestions(false);
+          setCollapsedSections({});
         }
       } catch (err) {
         console.warn('Error fetching questions:', err);
         if (isMounted) {
           setLoadedQuestions(QUESTIONS_DATA);
           setLoadingQuestions(false);
+          setCollapsedSections({});
         }
       }
     };
@@ -578,33 +580,36 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
     showToast('Mostrando todas las categorías (UES, ESCALAFÓN, AVANZO, ASD, ENA & ANSP)');
   };
 
-  // Toggle colapsar/expandir sección
+  // Toggle colapsar/expandir sección (por defecto cerradas)
   const toggleCollapseSection = (secKey: string) => {
-    setCollapsedSections((prev) => ({
-      ...prev,
-      [secKey]: !prev[secKey],
-    }));
+    setCollapsedSections((prev) => {
+      const currentlyCollapsed = prev[secKey] ?? true;
+      return {
+        ...prev,
+        [secKey]: !currentlyCollapsed,
+      };
+    });
   };
 
   // Expandir todas las secciones
   const handleExpandAll = () => {
-    setCollapsedSections({});
-    showToast('Todas las secciones expandidas');
-  };
-
-  // Colapsar todas las secciones
-  const handleCollapseAll = () => {
     const newCollapsed: Record<string, boolean> = {};
     groupedHierarchy.forEach((instGroup) => {
       instGroup.subjects.forEach((subj) => {
         subj.topics.forEach((top) => {
           top.sections.forEach((sec) => {
-            newCollapsed[`${instGroup.institution}_${subj.subjectName}_${sec.sectionTitle}`] = true;
+            newCollapsed[`${instGroup.institution}_${subj.subjectName}_${sec.sectionTitle}`] = false;
           });
         });
       });
     });
     setCollapsedSections(newCollapsed);
+    showToast('Todas las secciones expandidas');
+  };
+
+  // Colapsar todas las secciones
+  const handleCollapseAll = () => {
+    setCollapsedSections({});
     showToast('Todas las secciones colapsadas');
   };
 
@@ -749,25 +754,35 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
         <aside
           className={`${
             isMobileMenuOpen ? 'block' : 'hidden'
-          } lg:block lg:col-span-4 bg-white rounded-3xl border border-slate-200 p-5 shadow-xs space-y-5 sticky top-20 max-h-[85vh] overflow-y-auto touch-scroll`}
+          } lg:block lg:col-span-4 bg-white rounded-3xl border border-slate-200 p-4 sm:p-5 shadow-xs space-y-4 sm:space-y-5 sticky top-20 max-h-[85vh] overflow-y-auto touch-scroll`}
         >
           {/* Cabecera del Menú */}
           <div className="flex items-center justify-between pb-3 border-b border-slate-100">
             <div className="flex items-center gap-2">
-              <FolderTree className="w-5 h-5 text-blue-600" />
+              <FolderTree className="w-5 h-5 text-blue-600 shrink-0" />
               <div>
                 <h3 className="text-sm font-extrabold text-slate-900">Menú de Categorías</h3>
                 <p className="text-[11px] text-slate-500">Selecciona nivel por nivel</p>
               </div>
             </div>
 
-            <button
-              onClick={handleSelectAllCategories}
-              className="text-[11px] font-bold text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-2.5 py-1 rounded-lg transition-colors cursor-pointer"
-              title="Restablecer todos los filtros"
-            >
-              Ver Todo
-            </button>
+            <div className="flex items-center gap-1.5">
+              <button
+                onClick={handleSelectAllCategories}
+                className="text-[11px] font-bold text-blue-600 hover:text-blue-800 bg-blue-50 hover:bg-blue-100 px-2.5 py-1 rounded-lg transition-colors cursor-pointer"
+                title="Restablecer todos los filtros"
+              >
+                Ver Todo
+              </button>
+              <button
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="lg:hidden p-1.5 text-slate-400 hover:text-slate-700 bg-slate-100 rounded-lg cursor-pointer"
+                aria-label="Cerrar menú"
+                title="Cerrar menú de categorías"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
           </div>
 
           {/* Búsqueda dentro del menú */}
@@ -791,13 +806,14 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           </div>
 
           {/* ================================================================ */}
-          {/* NIVEL 1: SELECTOR DE TIPO ("UES" O "ANSP") */}
+          {/* NIVEL 1: SELECTOR DE TIPO (INSTITUCIÓN / CONVOCATORIA) */}
           {/* ================================================================ */}
           <div className="space-y-2">
-            <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block">
+            <label className="text-[11px] font-extrabold text-slate-500 uppercase tracking-wider block font-caslon">
               1. Tipo de Institución:
             </label>
-            <div className="grid grid-cols-3 sm:grid-cols-7 gap-1 p-1 bg-slate-100 rounded-2xl text-xs font-bold">
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-1.5 p-1.5 bg-slate-100 rounded-2xl text-[11px] sm:text-xs font-bold">
+              {/* Botón 'Todas' en fila completa */}
               <button
                 onClick={() => {
                   setSelectedInst('ALL');
@@ -805,16 +821,25 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                   setSelectedSubtopicId('ALL');
                   setSelectedSectionTitle('ALL');
                 }}
-                className={`py-2 px-1 rounded-xl transition-all text-center cursor-pointer ${
+                className={`col-span-2 sm:col-span-3 py-1.5 sm:py-2 px-2.5 sm:px-3 rounded-xl transition-all flex items-center justify-between cursor-pointer border ${
                   selectedInst === 'ALL'
-                    ? 'bg-white text-slate-900 shadow-xs'
-                    : 'text-slate-600 hover:text-slate-900'
+                    ? 'bg-white text-slate-900 shadow-xs border-slate-200'
+                    : 'text-slate-600 hover:text-slate-900 border-transparent hover:bg-slate-200/60'
                 }`}
+                title="Mostrar todas las convocatorias oficiales"
               >
-                <span>Todas</span>
-                <span className="block text-[9px] font-mono text-slate-400">17,640</span>
+                <div className="flex items-center gap-1.5 sm:gap-2">
+                  <span className="w-2 h-2 rounded-full bg-blue-600 shrink-0" />
+                  <span className="font-caslon font-bold text-[11px] sm:text-xs">Todas las Convocatorias</span>
+                </div>
+                <span className={`text-[9px] sm:text-[10px] font-mono font-bold px-1.5 sm:px-2 py-0.5 rounded-md ${
+                  selectedInst === 'ALL' ? 'bg-slate-100 text-slate-800' : 'text-slate-400'
+                }`}>
+                  17,640
+                </span>
               </button>
 
+              {/* UES */}
               <button
                 onClick={() => {
                   setSelectedInst('UES');
@@ -822,18 +847,20 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                   setSelectedSubtopicId('ALL');
                   setSelectedSectionTitle('ALL');
                 }}
-                className={`py-2 px-1 rounded-xl transition-all text-center cursor-pointer ${
+                className={`py-1.5 sm:py-2 px-1.5 sm:px-2.5 rounded-xl transition-all text-center cursor-pointer min-w-0 ${
                   selectedInst === 'UES'
                     ? 'bg-blue-600 text-white shadow-xs'
-                    : 'text-slate-600 hover:text-slate-900'
+                    : 'bg-white/70 text-slate-700 hover:bg-white hover:text-slate-900 border border-slate-200/50'
                 }`}
+                title="Admisión Universitaria UES (7,500 reactivos)"
               >
-                <span>UES</span>
-                <span className={`block text-[9px] font-mono ${selectedInst === 'UES' ? 'text-blue-100' : 'text-slate-400'}`}>
+                <span className="truncate block font-caslon font-bold text-[11px] sm:text-xs">UES</span>
+                <span className={`block text-[8.5px] sm:text-[9px] font-mono ${selectedInst === 'UES' ? 'text-blue-100' : 'text-slate-400'}`}>
                   7,500
                 </span>
               </button>
 
+              {/* Escalafón */}
               <button
                 onClick={() => {
                   setSelectedInst('ESCALAFON');
@@ -841,18 +868,20 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                   setSelectedSubtopicId('ALL');
                   setSelectedSectionTitle('ALL');
                 }}
-                className={`py-2 px-1 rounded-xl transition-all text-center cursor-pointer ${
+                className={`py-1.5 sm:py-2 px-1.5 sm:px-2.5 rounded-xl transition-all text-center cursor-pointer min-w-0 ${
                   selectedInst === 'ESCALAFON'
                     ? 'bg-purple-800 text-white shadow-xs'
-                    : 'text-slate-600 hover:text-slate-900'
+                    : 'bg-white/70 text-slate-700 hover:bg-white hover:text-slate-900 border border-slate-200/50'
                 }`}
+                title="Ascenso al Nivel 1 del Escalafón Docente 2026 (3,300 reactivos)"
               >
-                <span>Escalafón</span>
-                <span className={`block text-[9px] font-mono ${selectedInst === 'ESCALAFON' ? 'text-purple-200' : 'text-slate-400'}`}>
+                <span className="truncate block font-caslon font-bold text-[11px] sm:text-xs">Escalafón</span>
+                <span className={`block text-[8.5px] sm:text-[9px] font-mono ${selectedInst === 'ESCALAFON' ? 'text-purple-200' : 'text-slate-400'}`}>
                   3,300
                 </span>
               </button>
 
+              {/* AVANZO */}
               <button
                 onClick={() => {
                   setSelectedInst('AVANZO');
@@ -860,18 +889,20 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                   setSelectedSubtopicId('ALL');
                   setSelectedSectionTitle('ALL');
                 }}
-                className={`py-2 px-1 rounded-xl transition-all text-center cursor-pointer ${
+                className={`py-1.5 sm:py-2 px-1.5 sm:px-2.5 rounded-xl transition-all text-center cursor-pointer min-w-0 ${
                   selectedInst === 'AVANZO'
                     ? 'bg-amber-600 text-white shadow-xs'
-                    : 'text-slate-600 hover:text-slate-900'
+                    : 'bg-white/70 text-slate-700 hover:bg-white hover:text-slate-900 border border-slate-200/50'
                 }`}
+                title="Prueba Nacional AVANZO Bachillerato (3,000 reactivos)"
               >
-                <span>AVANZO</span>
-                <span className={`block text-[9px] font-mono ${selectedInst === 'AVANZO' ? 'text-amber-100' : 'text-slate-400'}`}>
+                <span className="truncate block font-caslon font-bold text-[11px] sm:text-xs">AVANZO</span>
+                <span className={`block text-[8.5px] sm:text-[9px] font-mono ${selectedInst === 'AVANZO' ? 'text-amber-100' : 'text-slate-400'}`}>
                   3,000
                 </span>
               </button>
 
+              {/* ASD */}
               <button
                 onClick={() => {
                   setSelectedInst('ASD');
@@ -879,18 +910,20 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                   setSelectedSubtopicId('ALL');
                   setSelectedSectionTitle('ALL');
                 }}
-                className={`py-2 px-1 rounded-xl transition-all text-center cursor-pointer ${
+                className={`py-1.5 sm:py-2 px-1.5 sm:px-2.5 rounded-xl transition-all text-center cursor-pointer min-w-0 ${
                   selectedInst === 'ASD'
                     ? 'bg-emerald-700 text-white shadow-xs'
-                    : 'text-slate-600 hover:text-slate-900'
+                    : 'bg-white/70 text-slate-700 hover:bg-white hover:text-slate-900 border border-slate-200/50'
                 }`}
+                title="Academia Sabatina Departamental Jóvenes Talento (2,190 reactivos)"
               >
-                <span>ASD</span>
-                <span className={`block text-[9px] font-mono ${selectedInst === 'ASD' ? 'text-emerald-200' : 'text-slate-400'}`}>
+                <span className="truncate block font-caslon font-bold text-[11px] sm:text-xs">ASD</span>
+                <span className={`block text-[8.5px] sm:text-[9px] font-mono ${selectedInst === 'ASD' ? 'text-emerald-200' : 'text-slate-400'}`}>
                   2,190
                 </span>
               </button>
 
+              {/* ENA */}
               <button
                 onClick={() => {
                   setSelectedInst('ENA');
@@ -898,18 +931,20 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                   setSelectedSubtopicId('ALL');
                   setSelectedSectionTitle('ALL');
                 }}
-                className={`py-2 px-1 rounded-xl transition-all text-center cursor-pointer ${
+                className={`py-1.5 sm:py-2 px-1.5 sm:px-2.5 rounded-xl transition-all text-center cursor-pointer min-w-0 ${
                   selectedInst === 'ENA'
-                    ? 'bg-emerald-600 text-white shadow-xs'
-                    : 'text-slate-600 hover:text-slate-900'
+                    ? 'bg-teal-700 text-white shadow-xs'
+                    : 'bg-white/70 text-slate-700 hover:bg-white hover:text-slate-900 border border-slate-200/50'
                 }`}
+                title="Escuela Nacional de Agricultura ENA (1,400 reactivos)"
               >
-                <span>ENA</span>
-                <span className={`block text-[9px] font-mono ${selectedInst === 'ENA' ? 'text-emerald-100' : 'text-slate-400'}`}>
+                <span className="truncate block font-caslon font-bold text-[11px] sm:text-xs">ENA</span>
+                <span className={`block text-[8.5px] sm:text-[9px] font-mono ${selectedInst === 'ENA' ? 'text-teal-100' : 'text-slate-400'}`}>
                   1,400
                 </span>
               </button>
 
+              {/* ANSP */}
               <button
                 onClick={() => {
                   setSelectedInst('ANSP');
@@ -917,14 +952,15 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                   setSelectedSubtopicId('ALL');
                   setSelectedSectionTitle('ALL');
                 }}
-                className={`py-2 px-1 rounded-xl transition-all text-center cursor-pointer ${
+                className={`py-1.5 sm:py-2 px-1.5 sm:px-2.5 rounded-xl transition-all text-center cursor-pointer min-w-0 ${
                   selectedInst === 'ANSP'
                     ? 'bg-indigo-700 text-white shadow-xs'
-                    : 'text-slate-600 hover:text-slate-900'
+                    : 'bg-white/70 text-slate-700 hover:bg-white hover:text-slate-900 border border-slate-200/50'
                 }`}
+                title="Academia Nacional de Seguridad Pública ANSP (250 reactivos)"
               >
-                <span>ANSP</span>
-                <span className={`block text-[9px] font-mono ${selectedInst === 'ANSP' ? 'text-indigo-200' : 'text-slate-400'}`}>
+                <span className="truncate block font-caslon font-bold text-[11px] sm:text-xs">ANSP</span>
+                <span className={`block text-[8.5px] sm:text-[9px] font-mono ${selectedInst === 'ANSP' ? 'text-indigo-200' : 'text-slate-400'}`}>
                   250
                 </span>
               </button>
@@ -1142,6 +1178,17 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               </div>
             </div>
           )}
+
+          {/* Botón de cierre y visualización en dispositivos móviles */}
+          <div className="lg:hidden pt-3 border-t border-slate-100 sticky bottom-0 bg-white/95 backdrop-blur-xs pb-1">
+            <button
+              onClick={() => setIsMobileMenuOpen(false)}
+              className="w-full py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-md flex items-center justify-center gap-2 cursor-pointer min-h-[44px]"
+            >
+              <Check className="w-4 h-4" />
+              <span>Ver {displayedQuestions.length} preguntas seleccionadas</span>
+            </button>
+          </div>
         </aside>
 
         {/* ================================================================== */}
@@ -1420,7 +1467,8 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                           {/* Encabezados Nivel 4: SECCIÓN */}
                           {top.sections.map((sec) => {
                             const secKey = `${instGroup.institution}_${subj.subjectName}_${sec.sectionTitle}`;
-                            const isCollapsed = collapsedSections[secKey] || false;
+                            const isCollapsed =
+                              questionSearchQuery.trim() !== '' ? false : (collapsedSections[secKey] ?? true);
 
                             return (
                               <div

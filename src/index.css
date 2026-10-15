@@ -6,7 +6,13 @@
     overflow-x: hidden;
     width: 100%;
     -webkit-tap-highlight-color: transparent;
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    font-family: 'Libre Caslon Condensed', 'Caslon', Georgia, serif;
+    letter-spacing: 0.015em;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montenegrin Gothic One', 'Bodoni MT', 'Didot', 'Playfair Display', Georgia, serif;
+    font-weight: 400;
   }
 }
 
@@ -58,3 +64,88 @@
   overflow-x: auto;
   overflow-y: hidden;
 }
+
+/* ==========================================================================
+   SISTEMA TIPOGRÁFICO Y UTILIDADES 3D PARA KUSKAT MOTIONSITES (DARK MODE)
+   ========================================================================== */
+.font-montenegrin {
+  font-family: 'Montenegrin Gothic One', 'Bodoni MT', 'Didot', 'Playfair Display', Georgia, serif;
+  font-weight: 400;
+}
+
+.font-caslon {
+  font-family: 'Libre Caslon Condensed', 'Caslon', Georgia, serif;
+}
+
+.tracking-micro {
+  letter-spacing: 0.2em;
+}
+
+.tracking-editorial {
+  letter-spacing: 0.015em;
+}
+
+/* 3D Transforms y Perspectiva */
+.perspective-800 {
+  perspective: 800px;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.perspective-2000 {
+  perspective: 2000px;
+}
+
+.transform-style-3d {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+/* Animación de onda expansiva (ripple) */
+@keyframes rippleWave {
+  0% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(27, 94, 32, 0.7);
+  }
+  70% {
+    transform: scale(1.02);
+    box-shadow: 0 0 0 18px rgba(27, 94, 32, 0);
+  }
+  100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(27, 94, 32, 0);
+  }
+}
+
+.animate-ripple {
+  animation: rippleWave 2.2s infinite cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Animación de flotación continua */
+@keyframes floatSlow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0.6deg);
+  }
+}
+
+.animate-float-slow {
+  animation: floatSlow 4.5s ease-in-out infinite;
+}
+
+/* Glow suave melocotón nocturno (#F8DCCB) */
+.glow-peach {
+  filter: drop-shadow(0 0 14px rgba(248, 220, 203, 0.35));
+}
+
+.glow-peach-subtle {
+  filter: drop-shadow(0 0 8px rgba(248, 220, 203, 0.22));
+}
+
