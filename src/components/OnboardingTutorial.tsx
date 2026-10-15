@@ -13,6 +13,10 @@ import {
   CheckCircle2,
   HelpCircle,
   FileCode,
+  Trophy,
+  UserCheck,
+  Scale,
+  Printer
 } from 'lucide-react';
 import { TutorialStep } from '../types';
 
@@ -24,76 +28,79 @@ interface OnboardingTutorialProps {
 export const TUTORIAL_STEPS: TutorialStep[] = [
   {
     step: 1,
-    title: 'Elige tu Institución, Materia & Portal 3D',
-    subtitle: 'Preparación para la aprobación de exámenes de Centro América',
+    title: 'Elige tu Institución, Materia & Portal 3D Estable',
+    subtitle: 'Preparación de alto rendimiento para exámenes oficiales de El Salvador',
     badge: 'Paso 1 de 5 • Convocatorias & 3D',
     description:
-      'KUSKAT (By Yeferson E. Perez) reúne un banco maestro de 17,640 reactivos oficiales organizados en 6 convocatorias de alta exigencia académica y profesional, complementado con un Portal 3D interactivo con el mapa de los 14 departamentos de El Salvador.',
+      'KUSKAT (creado por Yeferson E. Perez) reúne un banco maestro de 17,640 preguntas oficiales estructuradas en 6 convocatorias de exigencia nacional, complementado con un Portal 3D con mapa de El Salvador fijo y adaptado a cualquier pantalla.',
     bulletPoints: [
       '🎓 Admisión UES (7,500 reactivos): Matemática, Física, Química, Biología, Ciencias Sociales y Lenguaje.',
       '📜 Escalafón Docente (3,300 reactivos): Ascenso al Nivel Uno 2026 MINED en Formación General y 10 Especialidades.',
       '📘 Prueba AVANZO (3,000 reactivos): Bachillerato MINED en Precálculo, Ciudadanía, Ciencia y Tecnología, Lengua e Inglés.',
       '🏅 Jóvenes Talento - ASD (2,190 reactivos): 5.°, 6.° y 7.° Grado en Matemática y Ciencias Naturales.',
-      '🌱 Admisión ENA (1,400 reactivos): Técnico Agropecuario 2027 en Matemáticas Agrarias, Química, Biología y Lenguaje.',
+      '🌱 Admisión ENA (1,400 reactivos): Técnico Agropecuario en Matemáticas Agrarias, Química, Biología y Lenguaje.',
       '🛡️ Academia ANSP (250 reactivos): Prueba Cultural PNC en legislación, derecho constitucional y cultura salvadoreña.',
-      '🗺️ Portal 3D Interactivo: Explora el mapa de El Salvador, indicadores educativos departamentales y estadísticas espaciales.',
+      '🗺️ Mapa 3D Estable y Adaptativo: Geografía de los 14 departamentos fija (sin tambaleo) que se adapta automáticamente a celulares, tablets y computadoras.',
     ],
   },
   {
     step: 2,
-    title: 'Categorías, Secciones y Niveles de Aprendizaje',
-    subtitle: 'Navegación limpia con secciones colapsadas por defecto',
-    badge: 'Paso 2 de 5 • Temario & Malla',
+    title: 'Categorías, Temario y Secciones Cerradas por Defecto',
+    subtitle: 'Navegación fluida y carga optimizada para estudiar sin demoras',
+    badge: 'Paso 2 de 5 • Malla Curricular',
     description:
-      'El temario está estructurado jerárquicamente por Tipo de Institución, Materia, Tema y Sección. Todas las secciones aparecen cerradas por defecto para una lectura cómoda y rápida, permitiéndote abrir solo lo que necesitas estudiar.',
+      'El temario se organiza jerárquicamente por Tipo de Institución, Materia, Tema y Sección. Todas las secciones aparecen cerradas por defecto para que la página cargue de inmediato y tú despliegues solo lo que necesitas estudiar.',
     bulletPoints: [
       '📂 Secciones cerradas por defecto: Despliega únicamente la sección de tu interés o pulsa "Expandir Todo" con un solo clic.',
-      '🌱 Nivel Básico: Conceptos elementales, definiciones clave y ejemplos cotidianos para afianzar los fundamentos.',
-      '⚙️ Nivel Intermedio: Procedimientos paso a paso, propiedades analíticas, algoritmos y aplicación de fórmulas.',
+      '🌱 Nivel Básico: Conceptos elementales, definiciones fundamentales y ejemplos introductorios.',
+      '⚙️ Nivel Intermedio: Procedimientos paso a paso, propiedades analíticas, algoritmos y fórmulas aplicadas.',
       '🎯 Nivel Admisión: Reactivos integradores con el rigor, estructura y estándar real de la prueba oficial.',
       '🔍 Buscador Inteligente: Filtra al instante por palabras clave, términos científicos o fórmulas KaTeX.',
     ],
   },
   {
     step: 3,
-    title: 'Resolución Activa con KaTeX y Solucionarios',
-    subtitle: 'Fórmulas de alta definición y justificaciones analíticas',
-    badge: 'Paso 3 de 5 • KaTeX & Soluciones',
+    title: 'Cuentas Nativas, KaTeX y Doble Consentimiento',
+    subtitle: 'Inicia sesión sin intermediarios externos y con estricta minimización de datos',
+    badge: 'Paso 3 de 5 • Cuentas & KaTeX',
     description:
-      'Todas las expresiones matemáticas, químicas y científicas se renderizan en tipografía KaTeX nítida y legible. Cada reactivo incluye su solución analítica detallada.',
+      'Crea tu cuenta de estudiante nativa directamente en KUSKAT con solo usuario y contraseña (sin Google ni Facebook). Todas las expresiones científicas se renderizan en tipografía KaTeX nítida y legible.',
     bulletPoints: [
-      '📐 Tipografía KaTeX Profesional: Fracciones, integrales, raíces, matrices, vectores y simbología científica clara.',
-      '💡 Justificación Pedagógica: Explicación de por qué la clave es la correcta y cuál es el error común en los distractores.',
-      '📋 Copiado con Un Clic: Copia reactivos individuales o secciones completas con formato limpio para tus apuntes.',
-      '🎓 Modo Tutor Inmediato: Actívalo en el simulador para recibir la retroalimentación y solución KaTeX justo al responder.',
+      '👤 Cuenta Nativa sin Intermediarios: Regístrate con tu usuario y contraseña cifrada con SHA-256 localmente en tu navegador.',
+      '🔒 Minimización de Datos: Solo se solicita usuario, correo y clave. Cero recopilación de fotos o datos innecesarios.',
+      '📝 Dos Casillas Separadas: Consentimiento explícito e independiente para Términos de Uso y Política de Privacidad con auditoría.',
+      '📐 Tipografía KaTeX Profesional: Fracciones, integrales, matrices, vectores y reacciones químicas de alta resolución.',
+      '🎓 Modo Tutor Inmediato: Actívalo en el simulador para recibir la explicación y solución KaTeX al momento de responder.',
     ],
   },
   {
     step: 4,
-    title: 'Simulador de Examen Configurable y Táctil',
-    subtitle: 'Evaluación formal con cronómetro oficial y diseño 100% responsive',
-    badge: 'Paso 4 de 5 • Simulador Formal',
+    title: 'Simulador de Examen y Tabla Top 1 / Top 10 Nacional',
+    subtitle: 'Cronómetro oficial, puntuación +1 / -2 y ranking con reinicio anual',
+    badge: 'Paso 4 de 5 • Simulador & Ranking',
     description:
-      'Ponte a prueba en condiciones reales de evaluación. Configura simulacros desde 5 reactivos rápidos hasta exámenes oficiales completos de 50 o 100 preguntas.',
+      'Ponte a prueba en condiciones reales de examen. Al final de la sección encontrarás la tabla de clasificación nacional con puntuación oficial KUSKAT y filtros por periodos académicos.',
     bulletPoints: [
-      '⏱️ Temporizador Oficial: Elige entre 1.0 min o 1.5 min por pregunta, o practica sin límite a tu propio ritmo.',
-      '🚩 Marcador de Reactivos: Marca preguntas dudosas ("Revisar luego") para no perder tiempo y volver a ellas al final.',
-      '🔢 Matriz de Salto Rápido: Monitorea qué preguntas has respondido, cuáles dejaste en blanco y navega con un solo toque.',
-      '📱 100% Web Responsive: Optimizado con botones táctiles ergonómicos (mínimo 44px) para celulares, tablets y PC.',
+      '⏱️ Temporizador y Modo Táctil: Elige 1.0 min, 1.5 min por pregunta o práctica libre con interfaz 100% web responsive.',
+      '🏆 Puntuación Oficial: +1 punto por cada acierto, -2 puntos por cada error, con tope mínimo en 0 (sin saldo negativo).',
+      '👑 Líderes Top 1 Inicial: Antes de interactuar con la tabla, se exhibe el Top 1 de cada una de las 6 categorías institucionales.',
+      '📊 Tabla Top 10 Interactiva: Filtra por periodos Diario, Mensual, Trimestral, Semestral y Anual.',
+      '🔄 Ciclo Anual (1 Ene - 31 Dic): El ranking anual inicia el 1 de enero y se reinicia automáticamente cada 31 de diciembre.',
     ],
   },
   {
     step: 5,
-    title: 'Resultados, Diagnóstico, Impresión a PDF y LaTeX',
-    subtitle: 'Boleta de notas 100% local, cero almacenamiento en la nube y privacidad total',
-    badge: 'Paso 5 de 5 • Diagnóstico & PDF',
+    title: 'Resultados, Historial en Texto, Impresión a PDF y Marco Legal',
+    subtitle: 'Boleta de notas 100% en memoria, cero archivos en la nube y normativas de El Salvador',
+    badge: 'Paso 5 de 5 • Exámenes & Legal',
     description:
-      'Al finalizar tu prueba obtendrás tu nota en la escala salvadoreña (0.0 a 10.0), diagnóstico por materia y opciones completas para imprimir y exportar sin subir ningún archivo a la nube.',
+      'En el apartado "CUENTA" puedes consultar todos tus exámenes realizados guardados en formato de texto. Genera boletas oficiales en PDF sin almacenar ningún archivo temporal en la nube.',
     bulletPoints: [
-      '🖨️ Imprimir / Exportar a PDF: Genera al instante tu boleta oficial y solucionario para imprimir o guardar en PDF directamente en tu navegador.',
-      '🔒 Privacidad Absoluta (Cero Nube): Todo se procesa en la memoria de tu dispositivo; al salir no queda ningún documento temporal guardado en servidores ni en la nube.',
-      '📄 Exportador de Código LaTeX: Descarga el archivo .tex con clave y solucionario listo para Overleaf o TeX Live.',
-      '💬 Soporte Directo con el Desarrollador: Comunícate con Yeferson E. Perez mediante WhatsApp KUSKAT (+503 7657 4463) e Instagram (@Kuskat.es).',
+      '📋 Historial de Exámenes Realizados: Revisa en "CUENTA" tus evaluaciones anteriores con aciertos, errores, fecha y puntaje.',
+      '🖨️ Imprimir / Exportar a PDF: Emite al instante tu boleta oficial y solucionario para imprimir o descargar en PDF en tu navegador.',
+      '🛡️ Cero Documentos en la Nube: Todo se genera en la memoria de tu dispositivo; al salir no queda ningún archivo temporal en servidores.',
+      '⚖️ Cumplimiento Legal Salvadoreño: Respaldado por la Constitución de El Salvador (Arts. 53-54), Ley de Comercio Electrónico y Delitos Informáticos.',
+      '💬 Canales de Contacto: Conéctate con el creador Yeferson E. Perez por WhatsApp (+503 7657 4463) e Instagram (@Kuskat.es).',
     ],
   },
 ];
@@ -166,7 +173,7 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
                 <img src="/kuskat_logo.png" alt="KUSKAT" className="w-full h-full object-contain" />
               </div>
               <span className="font-montenegrin text-xs tracking-wider uppercase text-blue-200 font-bold">
-                KUSKAT • Guía Tutorial
+                KUSKAT • Guía Tutorial Oficial
               </span>
             </div>
 

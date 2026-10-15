@@ -15,7 +15,7 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
   const [hoveredDept, setHoveredDept] = useState<DepartmentData | null>(null);
   const [tooltipPos, setTooltipPos] = useState<{ x: number; y: number } | null>(null);
 
-  // Typewriter effect state
+  // Efecto de máquina de escribir para el titular
   const fullTitle = 'Aprende El Salvador, transforma tu futuro';
   const [displayedTitle, setDisplayedTitle] = useState('');
 
@@ -35,15 +35,54 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
     const container = mountRef.current;
     if (!container) return;
 
-    const width = container.clientWidth;
-    const height = container.clientHeight;
+    const width = container.clientWidth || window.innerWidth;
+    const height = container.clientHeight || 500;
 
     const scene = new THREE.Scene();
-    scene.fog = new THREE.FogExp2(0xf1f5f9, 0.0015);
+    scene.fog = new THREE.FogExp2(0xf1f5f9, 0.0012);
 
-    const camera = new THREE.PerspectiveCamera(45, width / height, 1, 2000);
-    camera.position.set(20, -180, 480);
-    camera.lookAt(20, 10, 0);
+    // Dimensiones maestras de la geometría de El Salvador (Ahuachapán a La Unión)
+    const MAP_BOUNDS = {
+      width: 580,  // Ancho con márgenes de seguridad (extremos en -245 y 285)
+      height: 190, // Alto con márgenes de seguridad (extremos en -58 y 85)
+      centerX: 20, // Centro geográfico X
+      centerY: 14, // Centro geográfico Y
+    };
+
+    const camera = new THREE.PerspectiveCamera(45, width / height, 1, 3000);
+
+    // Función matemática para adaptar la cámara al tamaño de cualquier pantalla
+    // Garantiza que el mapa de El Salvador siempre quepa holgadamente sin recortarse
+    const adjustCameraToScreen = (w: number, h: number) => {
+      const aspect = w / h;
+      camera.aspect = aspect;
+
+      const vFovRad = (camera.fov * Math.PI) / 180;
+      const vHeightAtDist1 = 2 * Math.tan(vFovRad / 2);
+      const vWidthAtDist1 = vHeightAtDist1 * aspect;
+
+      const distForHeight = MAP_BOUNDS.height / vHeightAtDist1;
+      const distForWidth = MAP_BOUNDS.width / vWidthAtDist1;
+
+      // Margen de resguardo adaptado para que quepa tanto en móviles como en monitores anchos
+      const safetyMargin = w < 640 ? 1.25 : 1.15;
+      const targetDistance = Math.max(distForHeight, distForWidth) * safetyMargin;
+
+      // En móviles el título superior ocupa espacio. Bajamos el punto de enfoque levemente
+      const isMobile = w < 640;
+      const focusY = isMobile ? MAP_BOUNDS.centerY + 16 : MAP_BOUNDS.centerY;
+
+      // Ángulo de inclinación 3D fijo y estático (perspectiva limpia isométrica)
+      const tiltAngle = 0.32;
+      const camY = focusY - Math.sin(tiltAngle) * targetDistance * 0.42;
+      const camZ = Math.cos(tiltAngle) * targetDistance;
+
+      camera.position.set(MAP_BOUNDS.centerX, camY, camZ);
+      camera.lookAt(MAP_BOUNDS.centerX, focusY, 0);
+      camera.updateProjectionMatrix();
+    };
+
+    adjustCameraToScreen(width, height);
 
     const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
     renderer.setSize(width, height);
@@ -53,10 +92,10 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
     container.appendChild(renderer.domElement);
 
     // Iluminación diurna de estudio
-    const ambientLight = new THREE.AmbientLight(0xffffff, 0.9);
+    const ambientLight = new THREE.AmbientLight(0xffffff, 0.95);
     scene.add(ambientLight);
 
-    const dirLight1 = new THREE.DirectionalLight(0xffffff, 1.3);
+    const dirLight1 = new THREE.DirectionalLight(0xffffff, 1.25);
     dirLight1.position.set(150, 250, 300);
     dirLight1.castShadow = true;
     scene.add(dirLight1);
@@ -66,15 +105,14 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
     scene.add(dirLight2);
 
     // Grupo principal para el mapa de El Salvador
+    // REQUISITO: El mapa NO se mueve (queda fijo, estable y anclado)
     const mapGroup = new THREE.Group();
+    mapGroup.position.set(0, 0, 0);
+    mapGroup.scale.set(1, 1, 1);
+    mapGroup.rotation.set(0.32, 0, 0); // Inclinación fija elegante, sin rotaciones bruscas
     scene.add(mapGroup);
 
-    // Animación de entrada: el mapa emerge desde el fondo con profundidad 3D
-    mapGroup.position.z = -280;
-    mapGroup.scale.set(0.6, 0.6, 0.6);
-    mapGroup.rotation.x = 0.45;
-
-    // Colores institucionales acordes a la paleta estándar de KUSKAT
+    // Colores institucionales KUSKAT
     const COLOR_BASE = new THREE.Color('#2563EB'); // Azul Institucional
     const COLOR_HOVER = new THREE.Color('#059669'); // Verde Éxito
     const COLOR_SELECTED = new THREE.Color('#1E40AF'); // Azul Marino Profundo
@@ -91,7 +129,7 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
 
     const deptMeshes: DeptMeshRef[] = [];
 
-    // Construcción de los 14 departamentos independientes con separación de 3px
+    // Construcción de los 14 departamentos con separación sutil de 2.5px
     DEPARTMENTS_DATA.forEach((dept) => {
       const shape = new THREE.Shape();
       const pts = dept.polygon;
@@ -105,10 +143,10 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
       cx /= pts.length;
       cy /= pts.length;
 
-      // Desplazamiento radial de separación (3px gap)
+      // Separación radial sutil
       const distFromCenter = Math.sqrt(cx * cx + cy * cy) || 1;
-      const gapX = (cx / distFromCenter) * 3;
-      const gapY = (cy / distFromCenter) * 3;
+      const gapX = (cx / distFromCenter) * 2.5;
+      const gapY = (cy / distFromCenter) * 2.5;
 
       shape.moveTo(pts[0][0] + gapX, pts[0][1] + gapY);
       for (let i = 1; i < pts.length; i++) {
@@ -142,7 +180,7 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
       mesh.receiveShadow = true;
       (mesh as any).departmentData = dept;
 
-      // Bordes estilizados limpios
+      // Bordes estilizados nítidos
       const wireGeo = new THREE.EdgesGeometry(geometry);
       const wireMat = new THREE.LineBasicMaterial({
         color: 0x93c5fd,
@@ -234,31 +272,18 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
     renderer.domElement.addEventListener('touchend', handlePointerDown);
 
     let animId: number;
-    let clock = new THREE.Clock();
 
     const renderLoop = () => {
-      clock.getDelta();
+      // REQUISITO: El mapa NO se mueve (cero parallax del ratón, cero tambaleo o drifting)
+      // La inclinación se mantiene estrictamente estática y fija en 0.32 rad
 
-      // Animación suave de entrada del mapa (emergencia 3D)
-      if (mapGroup.position.z < -2) {
-        mapGroup.position.z += (0 - mapGroup.position.z) * 0.05;
-        mapGroup.scale.x += (1 - mapGroup.scale.x) * 0.05;
-        mapGroup.scale.y += (1 - mapGroup.scale.y) * 0.05;
-        mapGroup.scale.z += (1 - mapGroup.scale.z) * 0.05;
-        mapGroup.rotation.x += (0.35 - mapGroup.rotation.x) * 0.05;
-      }
-
-      // Parallax sutil con mouse
-      mapGroup.rotation.y = THREE.MathUtils.lerp(mapGroup.rotation.y, mouse.x * 0.08, 0.05);
-      mapGroup.rotation.x = THREE.MathUtils.lerp(mapGroup.rotation.x, 0.35 - mouse.y * 0.08, 0.05);
-
-      // Actualizar elevación +15px y colores de los departamentos
+      // Únicamente se eleva el departamento activo/hovered para proporcionar feedback táctil
       deptMeshes.forEach((item) => {
         const isHovered = currentHoveredDept?.id === item.data.id;
         const isSelected = selectedDepartmentId === item.data.id;
 
-        item.targetElevation = isSelected ? 22 : isHovered ? 15 : 0;
-        item.currentElevation += (item.targetElevation - item.currentElevation) * 0.18;
+        item.targetElevation = isSelected ? 20 : isHovered ? 14 : 0;
+        item.currentElevation += (item.targetElevation - item.currentElevation) * 0.2;
         item.mesh.position.z = item.baseZ + item.currentElevation;
 
         const targetColor = isSelected
@@ -272,7 +297,7 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
         if (isHovered || isSelected) {
           item.material.emissive.setHex(0x059669);
           item.material.emissiveIntensity = 0.35;
-          (item.wireframe.material as THREE.LineBasicMaterial).opacity = 0.8;
+          (item.wireframe.material as THREE.LineBasicMaterial).opacity = 0.85;
         } else {
           item.material.emissive.setHex(0x1e3a8a);
           item.material.emissiveIntensity = 0.15;
@@ -303,19 +328,25 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
 
     renderLoop();
 
+    // Adaptación a cambios de tamaño de ventana y orientación
     const handleResize = () => {
       if (!container) return;
-      const w = container.clientWidth;
-      const h = container.clientHeight;
-      camera.aspect = w / h;
-      camera.updateProjectionMatrix();
+      const w = container.clientWidth || window.innerWidth;
+      const h = container.clientHeight || 500;
+      adjustCameraToScreen(w, h);
       renderer.setSize(w, h);
     };
 
     window.addEventListener('resize', handleResize);
 
+    const resizeObserver = new ResizeObserver(() => {
+      handleResize();
+    });
+    resizeObserver.observe(container);
+
     return () => {
       observer.disconnect();
+      resizeObserver.disconnect();
       window.removeEventListener('resize', handleResize);
       renderer.domElement.removeEventListener('mousemove', handlePointerMove);
       renderer.domElement.removeEventListener('click', handlePointerDown);
@@ -333,15 +364,15 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
   }, [onSelectDepartment, selectedDepartmentId]);
 
   return (
-    <div className="relative w-full h-[460px] sm:h-[600px] lg:h-[720px] bg-gradient-to-b from-slate-50 via-slate-100 to-slate-200 overflow-hidden select-none border-b border-slate-200">
+    <div className="relative w-full h-[500px] sm:h-[600px] lg:h-[700px] bg-gradient-to-b from-slate-50 via-slate-100 to-slate-200 overflow-hidden select-none border-b border-slate-200">
       {/* Canvas 3D de Three.js */}
       <div ref={mountRef} className="absolute inset-0 w-full h-full" />
 
-      {/* Titular superpuesto con efecto máquina de escribir */}
+      {/* Titular superpuesto */}
       <div className="absolute top-5 sm:top-10 lg:top-12 inset-x-0 mx-auto max-w-4xl text-center px-3 sm:px-4 pointer-events-none z-10">
         <div className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3 py-0.5 sm:py-1 rounded-full bg-blue-50 border border-blue-200 text-blue-700 text-[10px] sm:text-xs font-caslon tracking-micro uppercase mb-2 sm:mb-3 shadow-2xs">
           <span className="w-2 h-2 rounded-full bg-blue-600 animate-pulse" />
-          Mapa 3D Interactivo • Los 14 Departamentos
+          Mapa 3D Oficial • Los 14 Departamentos
         </div>
 
         <h2 className="font-montenegrin text-xl sm:text-3xl md:text-4xl lg:text-5xl text-slate-900 tracking-wide min-h-[2.5rem] sm:min-h-[3rem] drop-shadow-xs px-2">
@@ -360,9 +391,9 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
         <span>Azul Institucional</span>
         <span className="text-slate-300">•</span>
         <div className="w-3 h-3 rounded-sm bg-emerald-600 border border-emerald-400" />
-        <span className="text-slate-900 font-bold">Hover (+15px Elevación)</span>
+        <span className="text-slate-900 font-bold">Hover (+14px Elevación)</span>
         <span className="text-slate-300">•</span>
-        <span className="text-blue-600 font-semibold">Clic para abrir panel 3D</span>
+        <span className="text-blue-600 font-semibold">Clic para abrir panel departamental</span>
       </div>
 
       {/* Tooltip flotante 3D al hover en Libre Caslon Condensed con fondo blanco */}
