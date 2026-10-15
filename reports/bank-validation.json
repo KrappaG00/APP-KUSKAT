@@ -1,0 +1,3923 @@
+{
+  "errors": [],
+  "warnings": [
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#106 (1.1_q107)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#126 (1.1_q127)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#131 (1.1_q132)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#133 (1.1_q134)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.1.json#182 (1.1_q183)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#183 (1.1_q184)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.1.json#183 (1.1_q184)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#190 (1.1_q191)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#198 (1.1_q199)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.1.json#223 (1.1_q224)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#225 (1.1_q226)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#227 (1.1_q228)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#231 (1.1_q232)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#233 (1.1_q234)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#234 (1.1_q235)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#235 (1.1_q236)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#239 (1.1_q240)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.1.json#245 (1.1_q246)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.1.json#256 (1.1_q257)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#276 (1.1_q277)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#277 (1.1_q278)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#278 (1.1_q279)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#279 (1.1_q280)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#280 (1.1_q281)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#281 (1.1_q282)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#282 (1.1_q283)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#283 (1.1_q284)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#284 (1.1_q285)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#285 (1.1_q286)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#286 (1.1_q287)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.1.json#287 (1.1_q288)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#1 (1.2_q2)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#9 (1.2_q10)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#13 (1.2_q14)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.2.json#15 (1.2_q16)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.2.json#17 (1.2_q18)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#22 (1.2_q23)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#32 (1.2_q33)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#50 (1.2_q51)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#51 (1.2_q52)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#53 (1.2_q54)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#54 (1.2_q55)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#55 (1.2_q56)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#70 (1.2_q71)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#72 (1.2_q73)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#73 (1.2_q74)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#79 (1.2_q80)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#81 (1.2_q82)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#83 (1.2_q84)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#86 (1.2_q87)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#87 (1.2_q88)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#88 (1.2_q89)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#104 (1.2_q105)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#105 (1.2_q106)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#121 (1.2_q122)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#122 (1.2_q123)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#124 (1.2_q125)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#132 (1.2_q133)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#138 (1.2_q139)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#141 (1.2_q142)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#144 (1.2_q145)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#151 (1.2_q152)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#152 (1.2_q153)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#153 (1.2_q154)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#159 (1.2_q160)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#161 (1.2_q162)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#166 (1.2_q167)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#167 (1.2_q168)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#168 (1.2_q169)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#175 (1.2_q176)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#182 (1.2_q183)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#183 (1.2_q184)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#188 (1.2_q189)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#194 (1.2_q195)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.2.json#195 (1.2_q196)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#197 (1.2_q198)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.2.json#203 (1.2_q204)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.2.json#205 (1.2_q206)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#206 (1.2_q207)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.2.json#206 (1.2_q207)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.2.json#207 (1.2_q208)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#208 (1.2_q209)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#209 (1.2_q210)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.2.json#209 (1.2_q210)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#211 (1.2_q212)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#212 (1.2_q213)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#213 (1.2_q214)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#216 (1.2_q217)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#221 (1.2_q222)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#222 (1.2_q223)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#230 (1.2_q231)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#231 (1.2_q232)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#232 (1.2_q233)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#242 (1.2_q243)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#246 (1.2_q247)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#247 (1.2_q248)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#248 (1.2_q249)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#249 (1.2_q250)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#250 (1.2_q251)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#251 (1.2_q252)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#252 (1.2_q253)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#253 (1.2_q254)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#254 (1.2_q255)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#255 (1.2_q256)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#256 (1.2_q257)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#257 (1.2_q258)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#258 (1.2_q259)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.2.json#259 (1.2_q260)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#4 (1.3_q5)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#6 (1.3_q7)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#7 (1.3_q8)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#9 (1.3_q10)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#10 (1.3_q11)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#17 (1.3_q18)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#18 (1.3_q19)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#19 (1.3_q20)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#20 (1.3_q21)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#21 (1.3_q22)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#23 (1.3_q24)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#26 (1.3_q27)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#27 (1.3_q28)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#28 (1.3_q29)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#29 (1.3_q30)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#33 (1.3_q34)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#34 (1.3_q35)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#35 (1.3_q36)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#37 (1.3_q38)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#40 (1.3_q41)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#41 (1.3_q42)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#45 (1.3_q46)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#46 (1.3_q47)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#47 (1.3_q48)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#49 (1.3_q50)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#62 (1.3_q63)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#67 (1.3_q68)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#79 (1.3_q80)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#91 (1.3_q92)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#92 (1.3_q93)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#98 (1.3_q99)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#100 (1.3_q101)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#101 (1.3_q102)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#103 (1.3_q104)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#104 (1.3_q105)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#105 (1.3_q106)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#106 (1.3_q107)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#107 (1.3_q108)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#108 (1.3_q109)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#109 (1.3_q110)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#110 (1.3_q111)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#111 (1.3_q112)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#112 (1.3_q113)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#113 (1.3_q114)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#114 (1.3_q115)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#115 (1.3_q116)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#116 (1.3_q117)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#117 (1.3_q118)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#118 (1.3_q119)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#119 (1.3_q120)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#120 (1.3_q121)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#121 (1.3_q122)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#122 (1.3_q123)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#123 (1.3_q124)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#124 (1.3_q125)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#125 (1.3_q126)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#126 (1.3_q127)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#127 (1.3_q128)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#128 (1.3_q129)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#129 (1.3_q130)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#130 (1.3_q131)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#131 (1.3_q132)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#132 (1.3_q133)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#133 (1.3_q134)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#135 (1.3_q136)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#136 (1.3_q137)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#137 (1.3_q138)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#138 (1.3_q139)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#139 (1.3_q140)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#140 (1.3_q141)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#141 (1.3_q142)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#142 (1.3_q143)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#143 (1.3_q144)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#144 (1.3_q145)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#145 (1.3_q146)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#147 (1.3_q148)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#149 (1.3_q150)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#150 (1.3_q151)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#151 (1.3_q152)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#152 (1.3_q153)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#153 (1.3_q154)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#154 (1.3_q155)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#155 (1.3_q156)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#156 (1.3_q157)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#157 (1.3_q158)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#158 (1.3_q159)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#168 (1.3_q169)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#177 (1.3_q178)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#179 (1.3_q180)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#180 (1.3_q181)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#181 (1.3_q182)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#182 (1.3_q183)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#184 (1.3_q185)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#185 (1.3_q186)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#186 (1.3_q187)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#187 (1.3_q188)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#188 (1.3_q189)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#189 (1.3_q190)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#190 (1.3_q191)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#191 (1.3_q192)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#192 (1.3_q193)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#193 (1.3_q194)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#194 (1.3_q195)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#195 (1.3_q196)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#196 (1.3_q197)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#197 (1.3_q198)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#198 (1.3_q199)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#199 (1.3_q200)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#200 (1.3_q201)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#201 (1.3_q202)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#202 (1.3_q203)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#203 (1.3_q204)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#204 (1.3_q205)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#205 (1.3_q206)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#206 (1.3_q207)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#207 (1.3_q208)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#208 (1.3_q209)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#210 (1.3_q211)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#211 (1.3_q212)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#212 (1.3_q213)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#213 (1.3_q214)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#214 (1.3_q215)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#215 (1.3_q216)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#216 (1.3_q217)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#218 (1.3_q219)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#219 (1.3_q220)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#220 (1.3_q221)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#221 (1.3_q222)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#222 (1.3_q223)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#223 (1.3_q224)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#224 (1.3_q225)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#225 (1.3_q226)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#226 (1.3_q227)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#227 (1.3_q228)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#228 (1.3_q229)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#229 (1.3_q230)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#230 (1.3_q231)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#231 (1.3_q232)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#232 (1.3_q233)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#233 (1.3_q234)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#234 (1.3_q235)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#255 (1.3_q256)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#256 (1.3_q257)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#257 (1.3_q258)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#258 (1.3_q259)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#265 (1.3_q266)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#266 (1.3_q267)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#267 (1.3_q268)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#268 (1.3_q269)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#269 (1.3_q270)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#270 (1.3_q271)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#271 (1.3_q272)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#272 (1.3_q273)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#279 (1.3_q280)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#281 (1.3_q282)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#282 (1.3_q283)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#283 (1.3_q284)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#284 (1.3_q285)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#295 (1.3_q296)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#296 (1.3_q297)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#297 (1.3_q298)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#298 (1.3_q299)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.3.json#299 (1.3_q300)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#5 (1.4_q6)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#13 (1.4_q14)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#15 (1.4_q16)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#17 (1.4_q18)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#28 (1.4_q29)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#45 (1.4_q46)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#46 (1.4_q47)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#50 (1.4_q51)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#51 (1.4_q52)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#77 (1.4_q78)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#78 (1.4_q79)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#79 (1.4_q80)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#92 (1.4_q93)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#102 (1.4_q103)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#112 (1.4_q113)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#113 (1.4_q114)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#114 (1.4_q115)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#121 (1.4_q122)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#122 (1.4_q123)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#125 (1.4_q126)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#132 (1.4_q133)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#136 (1.4_q137)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#144 (1.4_q145)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#145 (1.4_q146)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#148 (1.4_q149)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#174 (1.4_q175)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#201 (1.4_q202)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#203 (1.4_q204)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#205 (1.4_q206)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#209 (1.4_q210)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#210 (1.4_q211)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#216 (1.4_q217)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#217 (1.4_q218)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#222 (1.4_q223)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#230 (1.4_q231)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.4.json#236 (1.4_q237)",
+      "msg": "la explicación concluye \"1\", que coincide con la opción B y no con la clave A"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.4.json#239 (1.4_q240)",
+      "msg": "la explicación concluye \"1\", que coincide con la opción B y no con la clave A"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.4.json#249 (1.4_q250)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#251 (1.4_q252)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#253 (1.4_q254)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#266 (1.4_q267)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.4.json#267 (1.4_q268)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.4.json#296 (1.4_q297)",
+      "msg": "la explicación concluye \"1\", que coincide con la opción B y no con la clave A"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#5 (1.5_q6)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#9 (1.5_q10)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#10 (1.5_q11)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#16 (1.5_q17)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#17 (1.5_q18)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.5.json#30 (1.5_q31)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#38 (1.5_q39)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#86 (1.5_q87)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#99 (1.5_q100)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#101 (1.5_q102)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#182 (1.5_q183)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#188 (1.5_q189)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#226 (1.5_q227)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#244 (1.5_q245)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#249 (1.5_q250)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.5.json#255 (1.5_q256)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#14 (1.6_q15)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#20 (1.6_q21)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#21 (1.6_q22)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#22 (1.6_q23)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#26 (1.6_q27)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#30 (1.6_q31)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#31 (1.6_q32)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#43 (1.6_q44)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#46 (1.6_q47)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#47 (1.6_q48)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#50 (1.6_q51)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#51 (1.6_q52)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#52 (1.6_q53)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#76 (1.6_q77)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#77 (1.6_q78)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#79 (1.6_q80)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#89 (1.6_q90)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#91 (1.6_q92)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#92 (1.6_q93)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#94 (1.6_q95)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#95 (1.6_q96)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#101 (1.6_q102)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#101 (1.6_q102)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#104 (1.6_q105)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#105 (1.6_q106)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#105 (1.6_q106)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#106 (1.6_q107)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#106 (1.6_q107)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#107 (1.6_q108)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#107 (1.6_q108)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#108 (1.6_q109)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#108 (1.6_q109)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#109 (1.6_q110)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#109 (1.6_q110)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#111 (1.6_q112)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#111 (1.6_q112)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#112 (1.6_q113)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#113 (1.6_q114)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#113 (1.6_q114)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#126 (1.6_q127)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#132 (1.6_q133)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#133 (1.6_q134)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#135 (1.6_q136)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#136 (1.6_q137)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#137 (1.6_q138)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#138 (1.6_q139)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#140 (1.6_q141)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#141 (1.6_q142)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#142 (1.6_q143)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#143 (1.6_q144)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#144 (1.6_q145)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#145 (1.6_q146)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#147 (1.6_q148)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#149 (1.6_q150)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#150 (1.6_q151)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#151 (1.6_q152)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#152 (1.6_q153)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#153 (1.6_q154)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#154 (1.6_q155)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#156 (1.6_q157)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#161 (1.6_q162)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#174 (1.6_q175)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#175 (1.6_q176)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#176 (1.6_q177)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#177 (1.6_q178)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#178 (1.6_q179)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#179 (1.6_q180)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#180 (1.6_q181)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#181 (1.6_q182)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#182 (1.6_q183)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#184 (1.6_q185)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#185 (1.6_q186)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#187 (1.6_q188)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.6.json#197 (1.6_q198)",
+      "msg": "la explicación concluye \"10\", que coincide con la opción D y no con la clave A"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#219 (1.6_q220)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#221 (1.6_q222)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#228 (1.6_q229)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#230 (1.6_q231)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#230 (1.6_q231)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#234 (1.6_q235)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#234 (1.6_q235)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#236 (1.6_q237)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.6.json#236 (1.6_q237)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#250 (1.6_q251)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#252 (1.6_q253)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#258 (1.6_q259)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#281 (1.6_q282)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.6.json#284 (1.6_q285)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#6 (1.7_q7)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#11 (1.7_q12)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#23 (1.7_q24)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#24 (1.7_q25)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#44 (1.7_q45)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#45 (1.7_q46)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#47 (1.7_q48)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#48 (1.7_q49)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#49 (1.7_q50)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#53 (1.7_q54)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#70 (1.7_q71)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#86 (1.7_q87)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#87 (1.7_q88)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#90 (1.7_q91)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#91 (1.7_q92)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#92 (1.7_q93)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#98 (1.7_q99)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.7.json#118 (1.7_q119)",
+      "msg": "la explicación concluye \"2\", que coincide con la opción D y no con la clave A"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.7.json#120 (1.7_q121)",
+      "msg": "la explicación concluye \"2\", que coincide con la opción D y no con la clave A"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#126 (1.7_q127)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#127 (1.7_q128)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#130 (1.7_q131)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#131 (1.7_q132)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#133 (1.7_q134)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#146 (1.7_q147)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#147 (1.7_q148)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#158 (1.7_q159)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#160 (1.7_q161)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#161 (1.7_q162)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.7.json#163 (1.7_q164)",
+      "msg": "la explicación concluye \"2\", que coincide con la opción D y no con la clave A"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.7.json#165 (1.7_q166)",
+      "msg": "la explicación concluye \"2\", que coincide con la opción D y no con la clave A"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.7.json#166 (1.7_q167)",
+      "msg": "la explicación concluye \"-1\", que coincide con la opción E y no con la clave A"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.7.json#168 (1.7_q169)",
+      "msg": "la explicación concluye \"0\", que coincide con la opción C y no con la clave A"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.7.json#169 (1.7_q170)",
+      "msg": "la explicación concluye \"-1\", que coincide con la opción E y no con la clave A"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#179 (1.7_q180)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#185 (1.7_q186)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#186 (1.7_q187)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#187 (1.7_q188)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#195 (1.7_q196)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#195 (1.7_q196)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#196 (1.7_q197)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#196 (1.7_q197)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#198 (1.7_q199)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#199 (1.7_q200)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#200 (1.7_q201)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#201 (1.7_q202)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#208 (1.7_q209)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#209 (1.7_q210)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#215 (1.7_q216)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#219 (1.7_q220)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#235 (1.7_q236)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "sin-explicacion",
+      "where": "questions/1.7.json#258 (1.7_q259)",
+      "msg": "explicación ausente o muy corta"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#264 (1.7_q265)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#272 (1.7_q273)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.7.json#273 (1.7_q274)",
+      "msg": "la explicación concluye \"0\", que coincide con la opción F y no con la clave A"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.7.json#277 (1.7_q278)",
+      "msg": "la explicación concluye \"0\", que coincide con la opción F y no con la clave A"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.7.json#279 (1.7_q280)",
+      "msg": "la explicación concluye \"0\", que coincide con la opción F y no con la clave A"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.7.json#280 (1.7_q281)",
+      "msg": "la explicación concluye \"0\", que coincide con la opción F y no con la clave A"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.7.json#282 (1.7_q283)",
+      "msg": "la explicación concluye \"0\", que coincide con la opción F y no con la clave A"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#284 (1.7_q285)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#287 (1.7_q288)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#288 (1.7_q289)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/1.7.json#295 (1.7_q296)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#17 (2.1_q18)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#18 (2.1_q19)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#36 (2.1_q37)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#120 (2.1_q121)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#121 (2.1_q122)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#122 (2.1_q123)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#123 (2.1_q124)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#124 (2.1_q125)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#125 (2.1_q126)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#126 (2.1_q127)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#127 (2.1_q128)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#128 (2.1_q129)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#129 (2.1_q130)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#130 (2.1_q131)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#131 (2.1_q132)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#132 (2.1_q133)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#133 (2.1_q134)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#134 (2.1_q135)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#135 (2.1_q136)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#136 (2.1_q137)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#137 (2.1_q138)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#138 (2.1_q139)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#139 (2.1_q140)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#140 (2.1_q141)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#141 (2.1_q142)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#142 (2.1_q143)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#143 (2.1_q144)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#144 (2.1_q145)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#145 (2.1_q146)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#146 (2.1_q147)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#147 (2.1_q148)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#148 (2.1_q149)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#149 (2.1_q150)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#150 (2.1_q151)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#151 (2.1_q152)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#152 (2.1_q153)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#153 (2.1_q154)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#154 (2.1_q155)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#155 (2.1_q156)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#156 (2.1_q157)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#157 (2.1_q158)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#158 (2.1_q159)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#159 (2.1_q160)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#160 (2.1_q161)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#161 (2.1_q162)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#162 (2.1_q163)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#163 (2.1_q164)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#164 (2.1_q165)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#165 (2.1_q166)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#166 (2.1_q167)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#167 (2.1_q168)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#168 (2.1_q169)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#169 (2.1_q170)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#170 (2.1_q171)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#171 (2.1_q172)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#172 (2.1_q173)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#173 (2.1_q174)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#174 (2.1_q175)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#175 (2.1_q176)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#176 (2.1_q177)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#177 (2.1_q178)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#178 (2.1_q179)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#179 (2.1_q180)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#180 (2.1_q181)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#181 (2.1_q182)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#182 (2.1_q183)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#183 (2.1_q184)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#184 (2.1_q185)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#185 (2.1_q186)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#186 (2.1_q187)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#187 (2.1_q188)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#188 (2.1_q189)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#189 (2.1_q190)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#190 (2.1_q191)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#191 (2.1_q192)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#192 (2.1_q193)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#193 (2.1_q194)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#194 (2.1_q195)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#195 (2.1_q196)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#196 (2.1_q197)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#197 (2.1_q198)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#198 (2.1_q199)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#199 (2.1_q200)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#200 (2.1_q201)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#201 (2.1_q202)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#202 (2.1_q203)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#203 (2.1_q204)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#204 (2.1_q205)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#205 (2.1_q206)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#206 (2.1_q207)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#207 (2.1_q208)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#208 (2.1_q209)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#209 (2.1_q210)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#210 (2.1_q211)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#211 (2.1_q212)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#212 (2.1_q213)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#213 (2.1_q214)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#214 (2.1_q215)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#215 (2.1_q216)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#216 (2.1_q217)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#217 (2.1_q218)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#218 (2.1_q219)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#219 (2.1_q220)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#220 (2.1_q221)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#221 (2.1_q222)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#222 (2.1_q223)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#223 (2.1_q224)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#224 (2.1_q225)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#225 (2.1_q226)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#226 (2.1_q227)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#227 (2.1_q228)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#228 (2.1_q229)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#229 (2.1_q230)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#230 (2.1_q231)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#231 (2.1_q232)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#232 (2.1_q233)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#233 (2.1_q234)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#234 (2.1_q235)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#235 (2.1_q236)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#236 (2.1_q237)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#237 (2.1_q238)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#238 (2.1_q239)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#239 (2.1_q240)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#240 (2.1_q241)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#241 (2.1_q242)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#242 (2.1_q243)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#243 (2.1_q244)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#244 (2.1_q245)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#245 (2.1_q246)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#246 (2.1_q247)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#247 (2.1_q248)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#248 (2.1_q249)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#249 (2.1_q250)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.4.json#70 (2.4_q71)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/3.1.json#10 (3.1_q11)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/3.1.json#11 (3.1_q12)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/3.1.json#12 (3.1_q13)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/3.1.json#13 (3.1_q14)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/5.3.json#60 (5.3_q61)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/5.3.json#61 (5.3_q62)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/5.3.json#62 (5.3_q63)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/5.3.json#63 (5.3_q64)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/5.3.json#96 (5.3_q97)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/5.3.json#97 (5.3_q98)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/5.3.json#98 (5.3_q99)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/5.3.json#99 (5.3_q100)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/5.4.json#37 (5.4_q38)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/5.4.json#51 (5.4_q52)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/5.4.json#54 (5.4_q55)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/5.4.json#60 (5.4_q61)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "ansp/questions/ansp_lenguaje.json#2 (ansp_q53)",
+      "msg": "hay opciones con el mismo texto"
+    }
+  ],
+  "manifest": {
+    "generatedFrom": "scripts/validate-bank.mjs",
+    "institutions": {
+      "UES": {
+        "totalQuestions": 7500,
+        "subjects": {
+          "matematicas": {
+            "totalQuestions": 2100,
+            "subtopics": {
+              "1.1": {
+                "file": "/data/questions/1.1.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: CLASIFICACIÓN DE NÚMEROS REALES (1–60)": 60,
+                  "SECCIÓN II: PROPIEDADES DE LOS NÚMEROS REALES (61–110)": 50,
+                  "SECCIÓN III: EXPANSIÓN DECIMAL (111–150)": 40,
+                  "SECCIÓN IV: ORDEN Y COMPARACIÓN (151–190)": 40,
+                  "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)": 50,
+                  "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)": 60
+                }
+              },
+              "1.2": {
+                "file": "/data/questions/1.2.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: CONCEPTOS BÁSICOS DE LA RECTA REAL (1–30)": 30,
+                  "SECCIÓN II: ORDEN Y UBICACIÓN (31–60)": 30,
+                  "SECCIÓN III: COMPARACIÓN EN LA RECTA REAL (61–90)": 30,
+                  "SECCIÓN IV: DISTANCIA ENTRE PUNTOS (91–120)": 30,
+                  "SECCIÓN V: PUNTO MEDIO (121–150)": 30,
+                  "SECCIÓN VI: DESPLAZAMIENTOS EN LA RECTA REAL (151–180)": 30,
+                  "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)": 30,
+                  "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)": 30,
+                  "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)": 30,
+                  "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)": 30
+                }
+              },
+              "1.3": {
+                "file": "/data/questions/1.3.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: CONCEPTOS BÁSICOS DE CONJUNTOS (1–50)": 50,
+                  "SECCIÓN II: PERTENENCIA Y SUBCONJUNTOS (51–100)": 50,
+                  "SECCIÓN III: OPERACIONES CON CONJUNTOS (101–160)": 60,
+                  "SECCIÓN IV: INTERVALOS (161–220)": 60,
+                  "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)": 80
+                }
+              },
+              "1.4": {
+                "file": "/data/questions/1.4.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: DEFINICIÓN Y CONCEPTOS BÁSICOS (1–40)": 40,
+                  "SECCIÓN II: PROPIEDADES DEL VALOR ABSOLUTO (41–90)": 50,
+                  "SECCIÓN III: ECUACIONES CON VALOR ABSOLUTO (91–150)": 60,
+                  "SECCIÓN IV: DESIGUALDADES CON VALOR ABSOLUTO (151–210)": 60,
+                  "SECCIÓN V: DISTANCIA Y APLICACIONES (211–260)": 50,
+                  "SECCIÓN VI: PROBLEMAS AVANZADOS (261–300)": 40
+                }
+              },
+              "1.5": {
+                "file": "/data/questions/1.5.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: EXPRESIONES ALGEBRAICAS BÁSICAS (1–40)": 40,
+                  "SECCIÓN II: PRODUCTOS NOTABLES (41–90)": 50,
+                  "SECCIÓN III: FACTORIZACIÓN (91–150)": 60,
+                  "SECCIÓN IV: ECUACIONES LINEALES (151–200)": 50,
+                  "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)": 50,
+                  "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)": 50
+                }
+              },
+              "1.6": {
+                "file": "/data/questions/1.6.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: CONCEPTOS BÁSICOS DE GEOMETRÍA (1–40)": 40,
+                  "SECCIÓN II: TEOREMA DE PITÁGORAS (41–90)": 50,
+                  "SECCIÓN III: RAZONES TRIGONOMÉTRICAS (91–160)": 70,
+                  "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)": 50,
+                  "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)": 40,
+                  "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)": 50
+                }
+              },
+              "1.7": {
+                "file": "/data/questions/1.7.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: CONCEPTOS BÁSICOS DE FUNCIONES (1–40)": 40,
+                  "SECCIÓN II: FUNCIÓN LINEAL (41–100)": 60,
+                  "SECCIÓN III: FUNCIÓN CUADRÁTICA (101–170)": 70,
+                  "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)": 50,
+                  "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)": 50,
+                  "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)": 30
+                }
+              }
+            }
+          },
+          "lenguaje": {
+            "totalQuestions": 1500,
+            "subtopics": {
+              "2.1": {
+                "file": "/data/questions/2.1.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: ACENTUACIÓN – PALABRAS AGUDAS (1–40)": 40,
+                  "SECCIÓN II: ACENTUACIÓN – PALABRAS GRAVES O LLANAS (41–80)": 40,
+                  "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)": 40,
+                  "SECCIÓN IV: TILDE DIACRÍTICA (121–170)": 50,
+                  "SECCIÓN V: TILDE DISOLVENTE (171–200)": 30,
+                  "SECCIÓN VI: USO DE GRAFÍAS (201–250)": 50,
+                  "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)": 50
+                }
+              },
+              "2.2": {
+                "file": "/data/questions/2.2.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)": 40,
+                  "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)": 50,
+                  "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)": 60,
+                  "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)": 50,
+                  "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)": 50,
+                  "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)": 50
+                }
+              },
+              "2.3": {
+                "file": "/data/questions/2.3.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)": 40,
+                  "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)": 50,
+                  "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)": 60,
+                  "SECCIÓN IV: SUJETO Y PREDICADO (151–200)": 50,
+                  "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)": 50,
+                  "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)": 50
+                }
+              },
+              "2.4": {
+                "file": "/data/questions/2.4.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: FUNDAMENTOS DE INVESTIGACIÓN CIENTÍFICA (1–40)": 40,
+                  "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)": 60,
+                  "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)": 60,
+                  "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)": 60,
+                  "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)": 50,
+                  "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)": 30
+                }
+              },
+              "2.5": {
+                "file": "/data/questions/2.5.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)": 40,
+                  "SECCIÓN II: ACTOS DE HABLA (41–100)": 60,
+                  "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)": 50,
+                  "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)": 50,
+                  "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)": 50,
+                  "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)": 50
+                }
+              }
+            }
+          },
+          "literatura": {
+            "totalQuestions": 1500,
+            "subtopics": {
+              "3.1": {
+                "file": "/data/questions/3.1.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: LITERATURA CLÁSICA GRIEGA (1–60)": 60,
+                  "SECCIÓN II: EDAD MEDIA (61–120)": 60,
+                  "SECCIÓN III: RENACIMIENTO (121–180)": 60,
+                  "SECCIÓN IV: BARROCO (181–240)": 60,
+                  "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)": 60
+                }
+              },
+              "3.2": {
+                "file": "/data/questions/3.2.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: ROMANTICISMO – CONCEPTOS BÁSICOS (1–40)": 40,
+                  "SECCIÓN II: ROMANTICISMO – AUTORES Y OBRAS (41–90)": 50,
+                  "SECCIÓN III: REALISMO – CONCEPTOS BÁSICOS (91–140)": 50,
+                  "SECCIÓN IV: REALISMO – AUTORES Y OBRAS (141–190)": 50,
+                  "SECCIÓN V: NATURALISMO (191–230)": 40,
+                  "SECCIÓN VI: COMPARACIÓN ROMANTICISMO VS REALISMO (231–270)": 40,
+                  "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)": 30
+                }
+              },
+              "3.3": {
+                "file": "/data/questions/3.3.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: VANGUARDIAS ARTÍSTICAS – CONCEPTOS BÁSICOS (1–40)": 40,
+                  "SECCIÓN II: VANGUARDIAS – AUTORES Y OBRAS (41–90)": 50,
+                  "SECCIÓN III: EXISTENCIALISMO Y ABSURDO (91–140)": 50,
+                  "SECCIÓN IV: NOVELA CONTEMPORÁNEA (141–190)": 50,
+                  "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)": 40,
+                  "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)": 40,
+                  "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)": 30
+                }
+              },
+              "3.4": {
+                "file": "/data/questions/3.4.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: LITERATURA PRECOLOMBINA (1–40)": 40,
+                  "SECCIÓN II: LITERATURA COLONIAL (41–80)": 40,
+                  "SECCIÓN III: ROMANTICISMO AMERICANO (81–120)": 40,
+                  "SECCIÓN IV: MODERNISMO – RUBÉN DARÍO (121–170)": 50,
+                  "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)": 40,
+                  "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)": 50,
+                  "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)": 40
+                }
+              },
+              "3.5": {
+                "file": "/data/questions/3.5.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: CONTEXTO HISTÓRICO Y LITERATURA PRECOLOMBINA (1–40)": 40,
+                  "SECCIÓN II: LITERATURA COLONIAL SALVADOREÑA (41–80)": 40,
+                  "SECCIÓN III: ROMANTICISMO Y COSTUMBRISMO SALVADOREÑO (81–120)": 40,
+                  "SECCIÓN IV: MODERNISMO SALVADOREÑO (121–160)": 40,
+                  "SECCIÓN V: GENERACIÓN COMPROMETIDA (161–220)": 60,
+                  "SECCIÓN VI: LITERATURA CONTEMPORÁNEA SALVADOREÑA (221–260)": 40,
+                  "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (261–300)": 40
+                }
+              }
+            }
+          },
+          "sociales": {
+            "totalQuestions": 1200,
+            "subtopics": {
+              "4.1": {
+                "file": "/data/questions/4.1.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "Sección I: Época Precolombina y Conquista (1–40)": 40,
+                  "Sección II: Independencia y Federación (41–80)": 40,
+                  "Sección III: Regímenes Militares y Conflicto (81–140)": 60,
+                  "Sección IV: Acuerdos de Paz y Posguerra (141–200)": 60,
+                  "Sección V: El Salvador Contemporáneo (201–300)": 100
+                }
+              },
+              "4.2": {
+                "file": "/data/questions/4.2.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "Módulo 1: Reactivos 1 - 50": 50,
+                  "Módulo 2: Reactivos 51 - 100": 50,
+                  "Módulo 3: Reactivos 101 - 150": 50,
+                  "Módulo 4: Reactivos 151 - 200": 50,
+                  "Módulo 5: Reactivos 201 - 250": 50,
+                  "Módulo 6 Final: Reactivos 251 - 300": 50
+                }
+              },
+              "4.3": {
+                "file": "/data/questions/4.3.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "Sección I: Sociedad y Cultura – Conceptos Básicos (1–40)": 40,
+                  "Sección II: Identidad y Diversidad Cultural (41–80)": 40,
+                  "Sección III: Globalización (81–120)": 40,
+                  "Sección IV: Demografía (121–160)": 40,
+                  "Sección V: Medio Ambiente y Recursos (161–200)": 40,
+                  "Sección VI: Problemas Sociales Contemporáneos (201–300)": 100
+                }
+              },
+              "4.4": {
+                "file": "/data/questions/4.4.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "Sección I: Derechos Humanos – Conceptos Básicos (1–50)": 50,
+                  "Sección II: Evolución Histórica de los Derechos Humanos (51–100)": 50,
+                  "Sección III: Tratados Internacionales de Derechos Humanos (101–150)": 50,
+                  "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)": 60,
+                  "Sección V: Migración Contemporánea (211–260)": 50,
+                  "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)": 40
+                }
+              }
+            }
+          },
+          "naturales": {
+            "totalQuestions": 1200,
+            "subtopics": {
+              "5.1": {
+                "file": "/data/questions/5.1.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: PROPIEDADES DE LA MATERIA VIVA (1–50)": 50,
+                  "SECCIÓN II: CICLO CELULAR – MITOSIS Y MEIOSIS (51–120)": 70,
+                  "SECCIÓN III: GENÉTICA MENDELIANA (121–180)": 60,
+                  "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)": 60,
+                  "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)": 60
+                }
+              },
+              "5.2": {
+                "file": "/data/questions/5.2.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: PROPIEDADES DE LA MATERIA (1–50)": 50,
+                  "SECCIÓN II: ESTRUCTURA ATÓMICA Y ENLACES (51–120)": 70,
+                  "SECCIÓN III: TIPOS DE REACCIONES QUÍMICAS (121–200)": 80,
+                  "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)": 50,
+                  "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)": 50
+                }
+              },
+              "5.3": {
+                "file": "/data/questions/5.3.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: CONCEPTOS BÁSICOS Y MAGNITUDES (1–50)": 50,
+                  "SECCIÓN II: VECTORES – SUMA Y DESCOMPOSICIÓN (51–120)": 70,
+                  "SECCIÓN III: CINEMÁTICA – MRU (121–180)": 60,
+                  "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)": 60,
+                  "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)": 60
+                }
+              },
+              "5.4": {
+                "file": "/data/questions/5.4.json",
+                "totalQuestions": 300,
+                "sections": {
+                  "SECCIÓN I: FUNDAMENTOS Y CATEGORÍAS TAXONÓMICAS (1–50)": 50,
+                  "SECCIÓN II: NOMENCLATURA BINOMIAL (51–100)": 50,
+                  "SECCIÓN III: DOMINIOS Y REINOS (101–150)": 50,
+                  "SECCIÓN IV: CINCO REINOS – DETALLE (151–200)": 50,
+                  "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)": 50,
+                  "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)": 50
+                }
+              }
+            }
+          }
+        }
+      },
+      "ANSP": {
+        "totalQuestions": 250,
+        "subjects": {
+          "ansp_historia": {
+            "file": "/data/ansp/questions/ansp_historia.json",
+            "totalQuestions": 50,
+            "subtopics": {
+              "ansp_historia_1": {
+                "totalQuestions": 4,
+                "sections": {
+                  "1.1 La Conquista de El Salvador": 4
+                }
+              },
+              "ansp_historia_2": {
+                "totalQuestions": 6,
+                "sections": {
+                  "1.2 Época de la Independencia: Los próceres": 6
+                }
+              },
+              "ansp_historia_3": {
+                "totalQuestions": 3,
+                "sections": {
+                  "1.3 Insurrección de Anastasio Aquino y Los Nonualcos": 3
+                }
+              },
+              "ansp_historia_4": {
+                "totalQuestions": 12,
+                "sections": {
+                  "1.8 Época de postguerra": 12
+                }
+              },
+              "ansp_historia_5": {
+                "totalQuestions": 3,
+                "sections": {
+                  "1.5 La Guerra de las 100 Horas": 3
+                }
+              },
+              "ansp_historia_6": {
+                "totalQuestions": 8,
+                "sections": {
+                  "1.6 El Conflicto Armado de El Salvador": 8
+                }
+              },
+              "ansp_historia_7": {
+                "totalQuestions": 5,
+                "sections": {
+                  "1.7 Los Acuerdos de Paz": 5
+                }
+              },
+              "ansp_historia_8": {
+                "totalQuestions": 9,
+                "sections": {
+                  "1.4 Presidentes de El Salvador": 9
+                }
+              }
+            }
+          },
+          "ansp_lenguaje": {
+            "file": "/data/ansp/questions/ansp_lenguaje.json",
+            "totalQuestions": 11,
+            "subtopics": {
+              "ansp_lenguaje_1": {
+                "totalQuestions": 3,
+                "sections": {
+                  "2.1 Ortografía y Gramática": 3
+                }
+              },
+              "ansp_lenguaje_2": {
+                "totalQuestions": 4,
+                "sections": {
+                  "2.2 Redacción": 4
+                }
+              },
+              "ansp_lenguaje_3": {
+                "totalQuestions": 4,
+                "sections": {
+                  "2.3 Cualidades de un buen orador": 4
+                }
+              }
+            }
+          },
+          "ansp_literatura": {
+            "file": "/data/ansp/questions/ansp_literatura.json",
+            "totalQuestions": 39,
+            "subtopics": {
+              "ansp_literatura_1": {
+                "totalQuestions": 4,
+                "sections": {
+                  "3.3 Jícaras Tristes, Alfredo Espino": 4
+                }
+              },
+              "ansp_literatura_2": {
+                "totalQuestions": 4,
+                "sections": {
+                  "3.4 Romeo y Julieta, William Shakespeare": 4
+                }
+              },
+              "ansp_literatura_3": {
+                "totalQuestions": 6,
+                "sections": {
+                  "3.5 Cien años de soledad, Gabriel García Márquez": 6
+                }
+              },
+              "ansp_literatura_4": {
+                "totalQuestions": 18,
+                "sections": {
+                  "3.1 Literatura salvadoreña": 18
+                }
+              },
+              "ansp_literatura_5": {
+                "totalQuestions": 3,
+                "sections": {
+                  "2.1 Ortografía y Gramática": 3
+                }
+              },
+              "ansp_literatura_6": {
+                "totalQuestions": 4,
+                "sections": {
+                  "3.2 La oralidad y la escritura": 4
+                }
+              }
+            }
+          },
+          "ansp_geografia": {
+            "file": "/data/ansp/questions/ansp_geografia.json",
+            "totalQuestions": 50,
+            "subtopics": {
+              "ansp_geografia_1": {
+                "totalQuestions": 9,
+                "sections": {
+                  "4.1 Organización político-administrativa": 9
+                }
+              },
+              "ansp_geografia_2": {
+                "totalQuestions": 6,
+                "sections": {
+                  "4.2 Accidentes geográficos: Volcanes y cerros": 6
+                }
+              },
+              "ansp_geografia_3": {
+                "totalQuestions": 3,
+                "sections": {
+                  "4.3 Ubicación de lugares turísticos": 3
+                }
+              },
+              "ansp_geografia_4": {
+                "totalQuestions": 7,
+                "sections": {
+                  "4.4 Lugares arqueológicos": 7
+                }
+              },
+              "ansp_geografia_5": {
+                "totalQuestions": 7,
+                "sections": {
+                  "4.5 Zonas protegidas": 7
+                }
+              },
+              "ansp_geografia_6": {
+                "totalQuestions": 4,
+                "sections": {
+                  "4.2 Accidentes geográficos: Ríos y lagos": 4
+                }
+              },
+              "ansp_geografia_7": {
+                "totalQuestions": 2,
+                "sections": {
+                  "4.2 Accidentes geográficos: Bahías y costas": 2
+                }
+              },
+              "ansp_geografia_8": {
+                "totalQuestions": 1,
+                "sections": {
+                  "1.1 La Conquista de El Salvador": 1
+                }
+              },
+              "ansp_geografia_9": {
+                "totalQuestions": 10,
+                "sections": {
+                  "4.3 Tradiciones y folklore": 10
+                }
+              },
+              "ansp_geografia_10": {
+                "totalQuestions": 1,
+                "sections": {
+                  "1.6 El Conflicto Armado de El Salvador": 1
+                }
+              }
+            }
+          },
+          "ansp_economia": {
+            "file": "/data/ansp/questions/ansp_economia.json",
+            "totalQuestions": 9,
+            "subtopics": {
+              "ansp_economia_1": {
+                "totalQuestions": 3,
+                "sections": {
+                  "5.1 Impuesto al Valor Agregado (IVA)": 3
+                }
+              },
+              "ansp_economia_2": {
+                "totalQuestions": 3,
+                "sections": {
+                  "5.2 Índice de pobreza en El Salvador": 3
+                }
+              },
+              "ansp_economia_3": {
+                "totalQuestions": 3,
+                "sections": {
+                  "5.3 Sistema de pensiones AFP": 3
+                }
+              }
+            }
+          },
+          "ansp_constitucion": {
+            "file": "/data/ansp/questions/ansp_constitucion.json",
+            "totalQuestions": 27,
+            "subtopics": {
+              "ansp_constitucion_1": {
+                "totalQuestions": 3,
+                "sections": {
+                  "6.1 El Estado, su forma de gobierno y sistema político": 3
+                }
+              },
+              "ansp_constitucion_2": {
+                "totalQuestions": 4,
+                "sections": {
+                  "6.2 Derechos y garantías fundamentales": 4
+                }
+              },
+              "ansp_constitucion_3": {
+                "totalQuestions": 4,
+                "sections": {
+                  "6.3 El voto": 4
+                }
+              },
+              "ansp_constitucion_4": {
+                "totalQuestions": 3,
+                "sections": {
+                  "6.4 Ministerio Público: funciones": 3
+                }
+              },
+              "ansp_constitucion_5": {
+                "totalQuestions": 4,
+                "sections": {
+                  "6.5 Seguridad Pública. Policía Nacional Civil": 4
+                }
+              },
+              "ansp_constitucion_6": {
+                "totalQuestions": 3,
+                "sections": {
+                  "6.6 Defensa Nacional. Fuerza Armada": 3
+                }
+              },
+              "ansp_constitucion_7": {
+                "totalQuestions": 2,
+                "sections": {
+                  "6.7 Agente de autoridad y funcionario público": 2
+                }
+              },
+              "ansp_constitucion_8": {
+                "totalQuestions": 1,
+                "sections": {
+                  "7.4 Ley de la Carrera Policial": 1
+                }
+              },
+              "ansp_constitucion_9": {
+                "totalQuestions": 3,
+                "sections": {
+                  "6.8 Origen de los derechos humanos": 3
+                }
+              }
+            }
+          },
+          "ansp_legislacion": {
+            "file": "/data/ansp/questions/ansp_legislacion.json",
+            "totalQuestions": 19,
+            "subtopics": {
+              "ansp_legislacion_1": {
+                "totalQuestions": 3,
+                "sections": {
+                  "7.1 Código Penal": 3
+                }
+              },
+              "ansp_legislacion_2": {
+                "totalQuestions": 3,
+                "sections": {
+                  "7.2 Código Procesal Penal": 3
+                }
+              },
+              "ansp_legislacion_3": {
+                "totalQuestions": 1,
+                "sections": {
+                  "6.2 Derechos y garantías fundamentales": 1
+                }
+              },
+              "ansp_legislacion_4": {
+                "totalQuestions": 3,
+                "sections": {
+                  "7.3 Ley de Tránsito y sus reformas": 3
+                }
+              },
+              "ansp_legislacion_5": {
+                "totalQuestions": 3,
+                "sections": {
+                  "7.4 Ley de la Carrera Policial": 3
+                }
+              },
+              "ansp_legislacion_6": {
+                "totalQuestions": 3,
+                "sections": {
+                  "7.5 Ley Orgánica de la Policía Nacional Civil": 3
+                }
+              },
+              "ansp_legislacion_7": {
+                "totalQuestions": 3,
+                "sections": {
+                  "7.6 Ley Crecer Juntos": 3
+                }
+              }
+            }
+          },
+          "ansp_matematicas": {
+            "file": "/data/ansp/questions/ansp_matematicas.json",
+            "totalQuestions": 25,
+            "subtopics": {
+              "ansp_matematicas_1": {
+                "totalQuestions": 5,
+                "sections": {
+                  "8.1 Ecuaciones con una incógnita": 5
+                }
+              },
+              "ansp_matematicas_2": {
+                "totalQuestions": 5,
+                "sections": {
+                  "8.2 Función exponencial y logarítmica": 5
+                }
+              },
+              "ansp_matematicas_3": {
+                "totalQuestions": 4,
+                "sections": {
+                  "8.3 Teoría de conjuntos": 4
+                }
+              },
+              "ansp_matematicas_4": {
+                "totalQuestions": 4,
+                "sections": {
+                  "8.4 Operaciones con fracciones": 4
+                }
+              },
+              "ansp_matematicas_5": {
+                "totalQuestions": 4,
+                "sections": {
+                  "8.5 Operaciones con decimales": 4
+                }
+              },
+              "ansp_matematicas_6": {
+                "totalQuestions": 1,
+                "sections": {
+                  "8.5 Porcentajes aplicados": 1
+                }
+              },
+              "ansp_matematicas_7": {
+                "totalQuestions": 2,
+                "sections": {
+                  "8.1 Geometría básica": 2
+                }
+              }
+            }
+          },
+          "ansp_estadistica": {
+            "file": "/data/ansp/questions/ansp_estadistica.json",
+            "totalQuestions": 10,
+            "subtopics": {
+              "ansp_estadistica_1": {
+                "totalQuestions": 3,
+                "sections": {
+                  "9.1 Población y Muestra": 3
+                }
+              },
+              "ansp_estadistica_2": {
+                "totalQuestions": 3,
+                "sections": {
+                  "9.2 Probabilidades": 3
+                }
+              },
+              "ansp_estadistica_3": {
+                "totalQuestions": 4,
+                "sections": {
+                  "9.3 El conteo y combinatoria": 4
+                }
+              }
+            }
+          },
+          "ansp_ofimatica": {
+            "file": "/data/ansp/questions/ansp_ofimatica.json",
+            "totalQuestions": 10,
+            "subtopics": {
+              "ansp_ofimatica_1": {
+                "totalQuestions": 4,
+                "sections": {
+                  "10.2 Word": 4
+                }
+              },
+              "ansp_ofimatica_2": {
+                "totalQuestions": 3,
+                "sections": {
+                  "10.3 PowerPoint": 3
+                }
+              },
+              "ansp_ofimatica_3": {
+                "totalQuestions": 3,
+                "sections": {
+                  "10.1 Excel": 3
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "totalQuestions": 7750
+  }
+}

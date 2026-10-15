@@ -48,8 +48,20 @@
         "text": "Generar conocimiento verificable y confiable"
       },
       {
+        "key": "B",
+        "text": "Confirmar creencias personales"
+      },
+      {
         "key": "C",
         "text": "Repetir información existente"
+      },
+      {
+        "key": "D",
+        "text": "Expresar opiniones"
+      },
+      {
+        "key": "E",
+        "text": "Entretener al público"
       },
       {
         "key": "F",
@@ -76,8 +88,16 @@
         "text": "Ser subjetivo y arbitrario"
       },
       {
+        "key": "C",
+        "text": "Basarse en opiniones"
+      },
+      {
         "key": "D",
         "text": "Ser aleatorio"
+      },
+      {
+        "key": "E",
+        "text": "Depender de creencias"
       },
       {
         "key": "F",
@@ -312,6 +332,10 @@
     "statement": "¿Qué es la población en investigación?",
     "options": [
       {
+        "key": "A",
+        "text": "El conjunto total de elementos que comparten características"
+      },
+      {
         "key": "B",
         "text": "Una parte del conjunto"
       },
@@ -346,6 +370,10 @@
       {
         "key": "A",
         "text": "Un subconjunto representativo de la población"
+      },
+      {
+        "key": "B",
+        "text": "El conjunto total"
       },
       {
         "key": "C",
@@ -556,12 +584,28 @@
     "statement": "¿Qué es la confiabilidad de una fuente?",
     "options": [
       {
+        "key": "A",
+        "text": "El grado en que la información es creíble y verificable"
+      },
+      {
         "key": "B",
         "text": "La cantidad de información"
       },
       {
         "key": "C",
         "text": "La extensión del texto"
+      },
+      {
+        "key": "D",
+        "text": "El número de páginas"
+      },
+      {
+        "key": "E",
+        "text": "El color de la portada"
+      },
+      {
+        "key": "F",
+        "text": "El precio del libro"
       }
     ],
     "correctAnswer": "A",
@@ -576,12 +620,28 @@
     "statement": "¿Qué es la validez en investigación?",
     "options": [
       {
+        "key": "A",
+        "text": "El grado en que un instrumento mide lo que pretende medir"
+      },
+      {
         "key": "B",
         "text": "La cantidad de datos"
       },
       {
         "key": "C",
         "text": "La extensión del informe"
+      },
+      {
+        "key": "D",
+        "text": "El número de páginas"
+      },
+      {
+        "key": "E",
+        "text": "El color de la portada"
+      },
+      {
+        "key": "F",
+        "text": "El precio del libro"
       }
     ],
     "correctAnswer": "A",
@@ -596,12 +656,28 @@
     "statement": "¿Qué es la confiabilidad en investigación?",
     "options": [
       {
+        "key": "A",
+        "text": "El grado en que un instrumento produce resultados consistentes"
+      },
+      {
         "key": "B",
         "text": "La cantidad de datos"
       },
       {
         "key": "C",
         "text": "La extensión del informe"
+      },
+      {
+        "key": "D",
+        "text": "El número de páginas"
+      },
+      {
+        "key": "E",
+        "text": "El color de la portada"
+      },
+      {
+        "key": "F",
+        "text": "El precio del libro"
       }
     ],
     "correctAnswer": "A",
@@ -615,6 +691,10 @@
     "sectionTitle": "SECCIÓN I: FUNDAMENTOS DE INVESTIGACIÓN CIENTÍFICA (1–40)",
     "statement": "¿Qué es el marco teórico?",
     "options": [
+      {
+        "key": "A",
+        "text": "El conjunto de teorías y conceptos que sustentan la investigación"
+      },
       {
         "key": "B",
         "text": "La conclusión de la investigación"
@@ -658,6 +738,10 @@
       {
         "key": "C",
         "text": "La introducción de la investigación"
+      },
+      {
+        "key": "D",
+        "text": "El marco teórico"
       },
       {
         "key": "E",
@@ -752,6 +836,10 @@
     "statement": "¿Qué es un objetivo general?",
     "options": [
       {
+        "key": "A",
+        "text": "El propósito principal de la investigación"
+      },
+      {
         "key": "B",
         "text": "Un propósito específico"
       },
@@ -786,6 +874,10 @@
       {
         "key": "A",
         "text": "Un propósito concreto que contribuye al objetivo general"
+      },
+      {
+        "key": "B",
+        "text": "El propósito principal"
       },
       {
         "key": "C",
@@ -960,6 +1052,10 @@
     "statement": "¿Qué es el estado del arte?",
     "options": [
       {
+        "key": "A",
+        "text": "El conjunto de investigaciones más recientes sobre un tema"
+      },
+      {
         "key": "B",
         "text": "La conclusión"
       },
@@ -1064,6 +1160,10 @@
     "statement": "¿Qué es la recolección de datos?",
     "options": [
       {
+        "key": "A",
+        "text": "El proceso de obtener información para la investigación"
+      },
+      {
         "key": "B",
         "text": "La conclusión"
       },
@@ -1095,6 +1195,10 @@
     "sectionTitle": "SECCIÓN I: FUNDAMENTOS DE INVESTIGACIÓN CIENTÍFICA (1–40)",
     "statement": "¿Qué es el análisis de datos?",
     "options": [
+      {
+        "key": "A",
+        "text": "El proceso de interpretar y organizar la información obtenida"
+      },
       {
         "key": "B",
         "text": "La conclusión"
@@ -1176,8 +1280,16 @@
         "text": "La metodología"
       },
       {
+        "key": "D",
+        "text": "El marco teórico"
+      },
+      {
         "key": "E",
         "text": "Las recomendaciones"
+      },
+      {
+        "key": "F",
+        "text": "El planteamiento"
       }
     ],
     "correctAnswer": "A",
@@ -1206,6 +1318,14 @@
       {
         "key": "D",
         "text": "La metodología"
+      },
+      {
+        "key": "E",
+        "text": "El marco teórico"
+      },
+      {
+        "key": "F",
+        "text": "El planteamiento"
       }
     ],
     "correctAnswer": "A",
@@ -1219,6 +1339,10 @@
     "sectionTitle": "SECCIÓN I: FUNDAMENTOS DE INVESTIGACIÓN CIENTÍFICA (1–40)",
     "statement": "¿Qué es la ética en la investigación?",
     "options": [
+      {
+        "key": "A",
+        "text": "El conjunto de principios que guían la conducta del investigador"
+      },
       {
         "key": "B",
         "text": "La conclusión"
@@ -1358,7 +1482,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué significan las siglas APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "American Psychological Association"
+      },
+      {
+        "key": "B",
+        "text": "Asociación Psicológica Americana"
+      },
+      {
+        "key": "C",
+        "text": "Asociación de Profesores Americanos"
+      },
+      {
+        "key": "D",
+        "text": "American Professors Association"
+      },
+      {
+        "key": "E",
+        "text": "Asociación de Psicólogos Académicos"
+      },
+      {
+        "key": "F",
+        "text": "American Academic Publishers"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "APA significa American Psychological Association."
   },
@@ -1370,6 +1519,10 @@
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cuál es el objetivo principal de las normas APA?",
     "options": [
+      {
+        "key": "A",
+        "text": "Estandarizar la citación y referenciación de fuentes"
+      },
       {
         "key": "B",
         "text": "Regular la ortografía"
@@ -1545,7 +1698,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se cita textualmente a un autor en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Apellido, año, p. página)"
+      },
+      {
+        "key": "B",
+        "text": "(Nombre, año)"
+      },
+      {
+        "key": "C",
+        "text": "(Título, año)"
+      },
+      {
+        "key": "D",
+        "text": "(Editorial, año)"
+      },
+      {
+        "key": "E",
+        "text": "(Ciudad, año)"
+      },
+      {
+        "key": "F",
+        "text": "(País, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Se cita (Apellido, año, p. página)."
   },
@@ -1556,7 +1734,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se cita parafraseando a un autor en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Apellido, año)"
+      },
+      {
+        "key": "B",
+        "text": "(Apellido, año, p. página)"
+      },
+      {
+        "key": "C",
+        "text": "(Nombre, año)"
+      },
+      {
+        "key": "D",
+        "text": "(Título, año)"
+      },
+      {
+        "key": "E",
+        "text": "(Editorial, año)"
+      },
+      {
+        "key": "F",
+        "text": "(Ciudad, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Se cita (Apellido, año)."
   },
@@ -1603,7 +1806,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se cita una fuente con dos autores en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Apellido1 y Apellido2, año)"
+      },
+      {
+        "key": "B",
+        "text": "(Apellido1, Apellido2, año)"
+      },
+      {
+        "key": "C",
+        "text": "(Apellido1 et al., año)"
+      },
+      {
+        "key": "D",
+        "text": "(Apellido1 & Apellido2, año)"
+      },
+      {
+        "key": "E",
+        "text": "(Apellido1/Apellido2, año)"
+      },
+      {
+        "key": "F",
+        "text": "(Apellido1-Apellido2, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Con dos autores: (Apellido1 y Apellido2, año)."
   },
@@ -1614,7 +1842,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se cita una fuente con tres o más autores en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Apellido1 et al., año)"
+      },
+      {
+        "key": "B",
+        "text": "(Apellido1 y Apellido2, año)"
+      },
+      {
+        "key": "C",
+        "text": "(Apellido1, Apellido2, año)"
+      },
+      {
+        "key": "D",
+        "text": "(Apellido1 & Apellido2, año)"
+      },
+      {
+        "key": "E",
+        "text": "(Apellido1/Apellido2, año)"
+      },
+      {
+        "key": "F",
+        "text": "(Apellido1-Apellido2, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Con tres o más: (Apellido1 et al., año)."
   },
@@ -1625,7 +1878,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se cita una fuente institucional en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Nombre de la institución, año)"
+      },
+      {
+        "key": "B",
+        "text": "(Apellido, año)"
+      },
+      {
+        "key": "C",
+        "text": "(Título, año)"
+      },
+      {
+        "key": "D",
+        "text": "(Editorial, año)"
+      },
+      {
+        "key": "E",
+        "text": "(Ciudad, año)"
+      },
+      {
+        "key": "F",
+        "text": "(País, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Institucional: (Nombre de la institución, año)."
   },
@@ -1636,7 +1914,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se cita una fuente sin autor en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Título de la obra, año)"
+      },
+      {
+        "key": "B",
+        "text": "(Anónimo, año)"
+      },
+      {
+        "key": "C",
+        "text": "(Sin autor, año)"
+      },
+      {
+        "key": "D",
+        "text": "(Desconocido, año)"
+      },
+      {
+        "key": "E",
+        "text": "(N.N., año)"
+      },
+      {
+        "key": "F",
+        "text": "(Autor, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Sin autor: (Título de la obra, año)."
   },
@@ -1647,7 +1950,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se cita una fuente sin fecha en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Apellido, s.f.)"
+      },
+      {
+        "key": "B",
+        "text": "(Apellido, sin fecha)"
+      },
+      {
+        "key": "C",
+        "text": "(Apellido, 0000)"
+      },
+      {
+        "key": "D",
+        "text": "(Apellido, ?)"
+      },
+      {
+        "key": "E",
+        "text": "(Apellido, n.d.)"
+      },
+      {
+        "key": "F",
+        "text": "(Apellido, sin año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Sin fecha: (Apellido, s.f.)."
   },
@@ -1664,12 +1992,24 @@
         "text": "Presentar como propias las ideas o palabras de otro autor"
       },
       {
+        "key": "B",
+        "text": "Citar correctamente a un autor"
+      },
+      {
         "key": "C",
         "text": "Parafrasear correctamente"
       },
       {
         "key": "D",
         "text": "Resumir correctamente"
+      },
+      {
+        "key": "E",
+        "text": "Comentar correctamente"
+      },
+      {
+        "key": "F",
+        "text": "Analizar correctamente"
       }
     ],
     "correctAnswer": "A",
@@ -1690,6 +2030,10 @@
       {
         "key": "B",
         "text": "Plagio parafraseado"
+      },
+      {
+        "key": "C",
+        "text": "Autoplagio"
       },
       {
         "key": "D",
@@ -1724,6 +2068,10 @@
         "text": "Plagio directo"
       },
       {
+        "key": "C",
+        "text": "Autoplagio"
+      },
+      {
         "key": "D",
         "text": "Plagio accidental"
       },
@@ -1747,6 +2095,10 @@
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué tipo de plagio es reutilizar un trabajo propio sin indicarlo?",
     "options": [
+      {
+        "key": "A",
+        "text": "Autoplagio"
+      },
       {
         "key": "B",
         "text": "Plagio directo"
@@ -1792,6 +2144,10 @@
         "text": "Plagio parafraseado"
       },
       {
+        "key": "D",
+        "text": "Autoplagio"
+      },
+      {
         "key": "E",
         "text": "Plagio accidental"
       },
@@ -1811,6 +2167,14 @@
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se evita el plagio?",
     "options": [
+      {
+        "key": "A",
+        "text": "Citando y referenciando correctamente las fuentes"
+      },
+      {
+        "key": "B",
+        "text": "Copiando sin citar"
+      },
       {
         "key": "C",
         "text": "Parafraseando sin citar"
@@ -1839,6 +2203,18 @@
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué es una paráfrasis correcta?",
     "options": [
+      {
+        "key": "A",
+        "text": "Expresar las ideas de otro con palabras propias y citar la fuente"
+      },
+      {
+        "key": "B",
+        "text": "Copiar exactamente las palabras de otro"
+      },
+      {
+        "key": "C",
+        "text": "Cambiar algunas palabras sin citar"
+      },
       {
         "key": "D",
         "text": "Usar las ideas de otro sin citar"
@@ -1940,12 +2316,24 @@
         "text": "Sangría de 5 espacios, sin comillas, con punto final después del paréntesis"
       },
       {
+        "key": "B",
+        "text": "Entre comillas, en el texto"
+      },
+      {
         "key": "C",
         "text": "Sin sangría, entre comillas"
       },
       {
+        "key": "D",
+        "text": "Con sangría, entre comillas"
+      },
+      {
         "key": "E",
         "text": "Sin punto final"
+      },
+      {
+        "key": "F",
+        "text": "Con cursiva"
       }
     ],
     "correctAnswer": "A",
@@ -1959,6 +2347,22 @@
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué es el DOI en una referencia?",
     "options": [
+      {
+        "key": "A",
+        "text": "El Identificador de Objeto Digital"
+      },
+      {
+        "key": "B",
+        "text": "El nombre del autor"
+      },
+      {
+        "key": "C",
+        "text": "El título de la obra"
+      },
+      {
+        "key": "D",
+        "text": "El año de publicación"
+      },
       {
         "key": "E",
         "text": "La editorial"
@@ -2014,7 +2418,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Dónde se ubica la lista de referencias en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Al final del documento"
+      },
+      {
+        "key": "B",
+        "text": "Al inicio del documento"
+      },
+      {
+        "key": "C",
+        "text": "En el medio del documento"
+      },
+      {
+        "key": "D",
+        "text": "En el pie de página"
+      },
+      {
+        "key": "E",
+        "text": "En el encabezado"
+      },
+      {
+        "key": "F",
+        "text": "En el margen"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La lista de referencias va al final del documento."
   },
@@ -2026,6 +2455,10 @@
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se ordenan las referencias en APA?",
     "options": [
+      {
+        "key": "A",
+        "text": "Alfabéticamente por el apellido del autor"
+      },
       {
         "key": "B",
         "text": "Por orden de aparición"
@@ -2057,7 +2490,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se escribe el apellido del autor en una referencia APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Apellido, Inicial del nombre."
+      },
+      {
+        "key": "B",
+        "text": "Nombre Apellido"
+      },
+      {
+        "key": "C",
+        "text": "Apellido, Nombre completo"
+      },
+      {
+        "key": "D",
+        "text": "Inicial. Apellido"
+      },
+      {
+        "key": "E",
+        "text": "Nombre, Apellido"
+      },
+      {
+        "key": "F",
+        "text": "Apellido, Nombre"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Apellido, Inicial del nombre."
   },
@@ -2068,7 +2526,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se escribe el año en una referencia APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Año)."
+      },
+      {
+        "key": "B",
+        "text": "Año."
+      },
+      {
+        "key": "C",
+        "text": "[Año]."
+      },
+      {
+        "key": "D",
+        "text": "{Año}."
+      },
+      {
+        "key": "E",
+        "text": "Año"
+      },
+      {
+        "key": "F",
+        "text": "<Año>"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "(Año)."
   },
@@ -2337,8 +2820,24 @@
         "text": "Times New Roman"
       },
       {
+        "key": "B",
+        "text": "Arial"
+      },
+      {
+        "key": "C",
+        "text": "Calibri"
+      },
+      {
         "key": "D",
         "text": "Verdana"
+      },
+      {
+        "key": "E",
+        "text": "Comic Sans"
+      },
+      {
+        "key": "F",
+        "text": "Courier"
       }
     ],
     "correctAnswer": "A",
@@ -2352,6 +2851,10 @@
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué interlineado se usa en APA?",
     "options": [
+      {
+        "key": "A",
+        "text": "Doble"
+      },
       {
         "key": "B",
         "text": "Sencillo"
@@ -2385,6 +2888,10 @@
     "statement": "¿Qué márgenes se usan en APA?",
     "options": [
       {
+        "key": "A",
+        "text": "2.54 cm (1 pulgada) en todos los lados"
+      },
+      {
         "key": "B",
         "text": "2 cm"
       },
@@ -2416,6 +2923,10 @@
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué es la sangría en APA?",
     "options": [
+      {
+        "key": "A",
+        "text": "1.27 cm (0.5 pulgadas) al inicio de cada párrafo"
+      },
       {
         "key": "B",
         "text": "2.54 cm"
@@ -2484,6 +2995,26 @@
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué es el número de página en APA?",
     "options": [
+      {
+        "key": "A",
+        "text": "Aparece en la esquina superior derecha"
+      },
+      {
+        "key": "B",
+        "text": "Aparece en la esquina inferior derecha"
+      },
+      {
+        "key": "C",
+        "text": "Aparece en la esquina superior izquierda"
+      },
+      {
+        "key": "D",
+        "text": "Aparece en la esquina inferior izquierda"
+      },
+      {
+        "key": "E",
+        "text": "Aparece en el centro"
+      },
       {
         "key": "F",
         "text": "No aparece"
@@ -2585,6 +3116,14 @@
         "text": "La última palabra del título"
       },
       {
+        "key": "D",
+        "text": "El nombre del autor"
+      },
+      {
+        "key": "E",
+        "text": "El año de publicación"
+      },
+      {
         "key": "F",
         "text": "La editorial"
       }
@@ -2601,8 +3140,24 @@
     "statement": "¿Qué es el nivel 1 de encabezado en APA?",
     "options": [
       {
+        "key": "A",
+        "text": "Centrado, negrita, mayúscula inicial"
+      },
+      {
+        "key": "B",
+        "text": "Alineado a la izquierda, negrita"
+      },
+      {
         "key": "C",
         "text": "Sangría, negrita, punto final"
+      },
+      {
+        "key": "D",
+        "text": "Centrado, cursiva"
+      },
+      {
+        "key": "E",
+        "text": "Alineado a la izquierda, cursiva"
       },
       {
         "key": "F",
@@ -2621,8 +3176,24 @@
     "statement": "¿Qué es el nivel 2 de encabezado en APA?",
     "options": [
       {
+        "key": "A",
+        "text": "Alineado a la izquierda, negrita, mayúscula inicial"
+      },
+      {
+        "key": "B",
+        "text": "Centrado, negrita"
+      },
+      {
         "key": "C",
         "text": "Sangría, negrita, punto final"
+      },
+      {
+        "key": "D",
+        "text": "Centrado, cursiva"
+      },
+      {
+        "key": "E",
+        "text": "Alineado a la izquierda, cursiva"
       },
       {
         "key": "F",
@@ -2640,6 +3211,22 @@
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué es el nivel 3 de encabezado en APA?",
     "options": [
+      {
+        "key": "A",
+        "text": "Alineado a la izquierda, negrita cursiva, mayúscula inicial"
+      },
+      {
+        "key": "B",
+        "text": "Centrado, negrita"
+      },
+      {
+        "key": "C",
+        "text": "Alineado a la izquierda, negrita"
+      },
+      {
+        "key": "D",
+        "text": "Centrado, cursiva"
+      },
       {
         "key": "E",
         "text": "Sangría, negrita"
@@ -2665,6 +3252,22 @@
         "text": "Sangría, negrita, mayúscula inicial, punto final"
       },
       {
+        "key": "B",
+        "text": "Centrado, negrita"
+      },
+      {
+        "key": "C",
+        "text": "Alineado a la izquierda, negrita"
+      },
+      {
+        "key": "D",
+        "text": "Centrado, cursiva"
+      },
+      {
+        "key": "E",
+        "text": "Alineado a la izquierda, cursiva"
+      },
+      {
         "key": "F",
         "text": "Sangría, cursiva, punto final"
       }
@@ -2685,6 +3288,22 @@
         "text": "Sangría, negrita cursiva, mayúscula inicial, punto final"
       },
       {
+        "key": "B",
+        "text": "Centrado, negrita"
+      },
+      {
+        "key": "C",
+        "text": "Alineado a la izquierda, negrita"
+      },
+      {
+        "key": "D",
+        "text": "Centrado, cursiva"
+      },
+      {
+        "key": "E",
+        "text": "Alineado a la izquierda, cursiva"
+      },
+      {
         "key": "F",
         "text": "Sangría, negrita, punto final"
       }
@@ -2699,7 +3318,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se cita una comunicación personal en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Nombre, comunicación personal, fecha)"
+      },
+      {
+        "key": "B",
+        "text": "(Apellido, año)"
+      },
+      {
+        "key": "C",
+        "text": "(Apellido, año, p. página)"
+      },
+      {
+        "key": "D",
+        "text": "(Título, año)"
+      },
+      {
+        "key": "E",
+        "text": "(Editorial, año)"
+      },
+      {
+        "key": "F",
+        "text": "(Ciudad, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "(Nombre, comunicación personal, fecha)."
   },
@@ -2710,7 +3354,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Cómo se cita una fuente electrónica en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Apellido, año)"
+      },
+      {
+        "key": "B",
+        "text": "(Apellido, año, p. página)"
+      },
+      {
+        "key": "C",
+        "text": "(Título, año)"
+      },
+      {
+        "key": "D",
+        "text": "(URL, año)"
+      },
+      {
+        "key": "E",
+        "text": "(Editorial, año)"
+      },
+      {
+        "key": "F",
+        "text": "(Ciudad, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "(Apellido, año)."
   },
@@ -2721,7 +3390,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué es una referencia de libro en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Apellido, A. A. (Año). Título del libro. Editorial."
+      },
+      {
+        "key": "B",
+        "text": "Título del libro. Apellido, A. A. (Año). Editorial."
+      },
+      {
+        "key": "C",
+        "text": "Apellido, A. A. (Año). Editorial. Título del libro."
+      },
+      {
+        "key": "D",
+        "text": "Editorial. Apellido, A. A. (Año). Título del libro."
+      },
+      {
+        "key": "E",
+        "text": "Título del libro. Editorial. Apellido, A. A. (Año)."
+      },
+      {
+        "key": "F",
+        "text": "Apellido, A. A. Título del libro. (Año). Editorial."
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Apellido, A. A. (Año). Título del libro. Editorial."
   },
@@ -2732,7 +3426,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué es una referencia de artículo de revista en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Apellido, A. A. (Año). Título del artículo. Nombre de la revista, volumen(número), páginas."
+      },
+      {
+        "key": "B",
+        "text": "Título del artículo. Apellido, A. A. (Año). Nombre de la revista, volumen(número), páginas."
+      },
+      {
+        "key": "C",
+        "text": "Apellido, A. A. (Año). Nombre de la revista, volumen(número), páginas. Título del artículo."
+      },
+      {
+        "key": "D",
+        "text": "Nombre de la revista, volumen(número), páginas. Apellido, A. A. (Año). Título del artículo."
+      },
+      {
+        "key": "E",
+        "text": "Título del artículo. Nombre de la revista. Apellido, A. A. (Año). volumen(número), páginas."
+      },
+      {
+        "key": "F",
+        "text": "Apellido, A. A. Título del artículo. Nombre de la revista. (Año). volumen(número), páginas."
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Apellido, A. A. (Año). Título del artículo. Nombre de la revista, volumen(número), páginas."
   },
@@ -2743,7 +3462,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué es una referencia de página web en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Apellido, A. A. (Año). Título de la página. Nombre del sitio. URL"
+      },
+      {
+        "key": "B",
+        "text": "Título de la página. Apellido, A. A. (Año). Nombre del sitio. URL"
+      },
+      {
+        "key": "C",
+        "text": "Apellido, A. A. (Año). Nombre del sitio. Título de la página. URL"
+      },
+      {
+        "key": "D",
+        "text": "Nombre del sitio. Apellido, A. A. (Año). Título de la página. URL"
+      },
+      {
+        "key": "E",
+        "text": "Título de la página. Nombre del sitio. Apellido, A. A. (Año). URL"
+      },
+      {
+        "key": "F",
+        "text": "Apellido, A. A. Título de la página. Nombre del sitio. (Año). URL"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Apellido, A. A. (Año). Título de la página. Nombre del sitio. URL."
   },
@@ -2754,7 +3498,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué es una referencia de tesis en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Apellido, A. A. (Año). Título de la tesis [Tesis de grado/maestría/doctorado]. Institución."
+      },
+      {
+        "key": "B",
+        "text": "Título de la tesis. Apellido, A. A. (Año). Institución."
+      },
+      {
+        "key": "C",
+        "text": "Apellido, A. A. (Año). Institución. Título de la tesis."
+      },
+      {
+        "key": "D",
+        "text": "Institución. Apellido, A. A. (Año). Título de la tesis."
+      },
+      {
+        "key": "E",
+        "text": "Título de la tesis. Institución. Apellido, A. A. (Año)."
+      },
+      {
+        "key": "F",
+        "text": "Apellido, A. A. Título de la tesis. (Año). Institución."
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Apellido, A. A. (Año). Título de la tesis [Tesis de grado/maestría/doctorado]. Institución."
   },
@@ -2765,7 +3534,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué es una referencia de periódico en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Apellido, A. A. (Año, día mes). Título del artículo. Nombre del periódico, páginas."
+      },
+      {
+        "key": "B",
+        "text": "Título del artículo. Apellido, A. A. (Año, día mes). Nombre del periódico, páginas."
+      },
+      {
+        "key": "C",
+        "text": "Apellido, A. A. (Año, día mes). Nombre del periódico, páginas. Título del artículo."
+      },
+      {
+        "key": "D",
+        "text": "Nombre del periódico, páginas. Apellido, A. A. (Año, día mes). Título del artículo."
+      },
+      {
+        "key": "E",
+        "text": "Título del artículo. Nombre del periódico. Apellido, A. A. (Año, día mes). páginas."
+      },
+      {
+        "key": "F",
+        "text": "Apellido, A. A. Título del artículo. Nombre del periódico. (Año, día mes). páginas."
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Apellido, A. A. (Año, día mes). Título del artículo. Nombre del periódico, páginas."
   },
@@ -2776,7 +3570,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)",
     "statement": "¿Qué es una referencia de capítulo de libro en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Apellido, A. A. (Año). Título del capítulo. En A. A. Apellido (Ed.), Título del libro (pp. páginas). Editorial."
+      },
+      {
+        "key": "B",
+        "text": "Título del capítulo. Apellido, A. A. (Año). En A. A. Apellido (Ed.), Título del libro (pp. páginas). Editorial."
+      },
+      {
+        "key": "C",
+        "text": "Apellido, A. A. (Año). En A. A. Apellido (Ed.), Título del libro (pp. páginas). Editorial. Título del capítulo."
+      },
+      {
+        "key": "D",
+        "text": "En A. A. Apellido (Ed.), Título del libro (pp. páginas). Apellido, A. A. (Año). Título del capítulo. Editorial."
+      },
+      {
+        "key": "E",
+        "text": "Título del libro. Apellido, A. A. (Año). Título del capítulo. En A. A. Apellido (Ed.), (pp. páginas). Editorial."
+      },
+      {
+        "key": "F",
+        "text": "Apellido, A. A. Título del capítulo. En A. A. Apellido (Ed.), Título del libro (pp. páginas). (Año). Editorial. ---"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Apellido, A. A. (Año). Título del capítulo. En A. A. Apellido (Ed.), Título del libro (pp. páginas)."
   },
@@ -2835,6 +3654,10 @@
       {
         "key": "C",
         "text": "Inicio, conflicto y resolución"
+      },
+      {
+        "key": "D",
+        "text": "Descripción, análisis y síntesis"
       },
       {
         "key": "E",
@@ -2977,6 +3800,14 @@
         "text": "La introducción"
       },
       {
+        "key": "D",
+        "text": "El título"
+      },
+      {
+        "key": "E",
+        "text": "El subtítulo"
+      },
+      {
         "key": "F",
         "text": "La idea secundaria"
       }
@@ -2991,7 +3822,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Dónde se ubica la tesis en un ensayo?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Al final de la introducción"
+      },
+      {
+        "key": "B",
+        "text": "Al inicio de la introducción"
+      },
+      {
+        "key": "C",
+        "text": "En el desarrollo"
+      },
+      {
+        "key": "D",
+        "text": "En la conclusión"
+      },
+      {
+        "key": "E",
+        "text": "En el título"
+      },
+      {
+        "key": "F",
+        "text": "En las referencias"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La tesis se ubica al final de la introducción."
   },
@@ -3018,6 +3874,14 @@
       {
         "key": "D",
         "text": "La introducción"
+      },
+      {
+        "key": "E",
+        "text": "El título"
+      },
+      {
+        "key": "F",
+        "text": "El subtítulo"
       }
     ],
     "correctAnswer": "A",
@@ -3031,6 +3895,10 @@
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué tipos de argumentos existen?",
     "options": [
+      {
+        "key": "A",
+        "text": "De autoridad, de hecho, de ejemplificación, de analogía, de causa-efecto"
+      },
       {
         "key": "B",
         "text": "Solo de autoridad"
@@ -3062,7 +3930,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué es un argumento de autoridad?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que se basa en la opinión de expertos"
+      },
+      {
+        "key": "B",
+        "text": "El que se basa en datos verificables"
+      },
+      {
+        "key": "C",
+        "text": "El que se basa en casos concretos"
+      },
+      {
+        "key": "D",
+        "text": "El que se basa en comparaciones"
+      },
+      {
+        "key": "E",
+        "text": "El que se basa en relaciones de causalidad"
+      },
+      {
+        "key": "F",
+        "text": "El que se basa en emociones"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El argumento de autoridad se basa en expertos."
   },
@@ -3073,7 +3966,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué es un argumento de hecho?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que se basa en datos verificables"
+      },
+      {
+        "key": "B",
+        "text": "El que se basa en la opinión de expertos"
+      },
+      {
+        "key": "C",
+        "text": "El que se basa en casos concretos"
+      },
+      {
+        "key": "D",
+        "text": "El que se basa en comparaciones"
+      },
+      {
+        "key": "E",
+        "text": "El que se basa en relaciones de causalidad"
+      },
+      {
+        "key": "F",
+        "text": "El que se basa en emociones"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El argumento de hecho se basa en datos verificables."
   },
@@ -3084,7 +4002,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué es un argumento de ejemplificación?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que se basa en casos concretos que ilustran la tesis"
+      },
+      {
+        "key": "B",
+        "text": "El que se basa en la opinión de expertos"
+      },
+      {
+        "key": "C",
+        "text": "El que se basa en datos verificables"
+      },
+      {
+        "key": "D",
+        "text": "El que se basa en comparaciones"
+      },
+      {
+        "key": "E",
+        "text": "El que se basa en relaciones de causalidad"
+      },
+      {
+        "key": "F",
+        "text": "El que se basa en emociones"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El argumento de ejemplificación se basa en casos concretos."
   },
@@ -3095,7 +4038,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué es un argumento de analogía?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que se basa en comparaciones con casos similares"
+      },
+      {
+        "key": "B",
+        "text": "El que se basa en la opinión de expertos"
+      },
+      {
+        "key": "C",
+        "text": "El que se basa en datos verificables"
+      },
+      {
+        "key": "D",
+        "text": "El que se basa en casos concretos"
+      },
+      {
+        "key": "E",
+        "text": "El que se basa en relaciones de causalidad"
+      },
+      {
+        "key": "F",
+        "text": "El que se basa en emociones"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El argumento de analogía se basa en comparaciones."
   },
@@ -3106,7 +4074,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué es un argumento de causa-efecto?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que se basa en relaciones de causalidad"
+      },
+      {
+        "key": "B",
+        "text": "El que se basa en la opinión de expertos"
+      },
+      {
+        "key": "C",
+        "text": "El que se basa en datos verificables"
+      },
+      {
+        "key": "D",
+        "text": "El que se basa en casos concretos"
+      },
+      {
+        "key": "E",
+        "text": "El que se basa en comparaciones"
+      },
+      {
+        "key": "F",
+        "text": "El que se basa en emociones"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El argumento de causa-efecto se basa en relaciones de causalidad."
   },
@@ -3123,6 +4116,10 @@
         "text": "La rebate de los argumentos del oponente"
       },
       {
+        "key": "B",
+        "text": "El apoyo a los argumentos del oponente"
+      },
+      {
         "key": "C",
         "text": "La ignorancia de los argumentos del oponente"
       },
@@ -3133,6 +4130,10 @@
       {
         "key": "E",
         "text": "La confusión del oponente"
+      },
+      {
+        "key": "F",
+        "text": "El alargamiento del texto"
       }
     ],
     "correctAnswer": "A",
@@ -3151,6 +4152,10 @@
         "text": "La presentación de argumentos contrarios para refutarlos"
       },
       {
+        "key": "B",
+        "text": "El apoyo a la tesis"
+      },
+      {
         "key": "C",
         "text": "La ignorancia de la tesis"
       },
@@ -3161,6 +4166,10 @@
       {
         "key": "E",
         "text": "La confusión del lector"
+      },
+      {
+        "key": "F",
+        "text": "El alargamiento del texto"
       }
     ],
     "correctAnswer": "A",
@@ -3179,6 +4188,10 @@
         "text": "La aceptación parcial de un argumento contrario"
       },
       {
+        "key": "B",
+        "text": "El rechazo total de un argumento contrario"
+      },
+      {
         "key": "C",
         "text": "La ignorancia de un argumento contrario"
       },
@@ -3189,6 +4202,10 @@
       {
         "key": "E",
         "text": "La confusión del lector"
+      },
+      {
+        "key": "F",
+        "text": "El alargamiento del texto"
       }
     ],
     "correctAnswer": "A",
@@ -3201,7 +4218,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué es la persuasión?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El intento de cambiar la opinión o conducta del lector"
+      },
+      {
+        "key": "B",
+        "text": "El intento de informar al lector"
+      },
+      {
+        "key": "C",
+        "text": "El intento de entretener al lector"
+      },
+      {
+        "key": "D",
+        "text": "El intento de expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "El intento de contar una historia"
+      },
+      {
+        "key": "F",
+        "text": "El intento de describir un lugar"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La persuasión busca cambiar la opinión o conducta."
   },
@@ -3212,7 +4254,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué es la disuasión?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El intento de convencer al lector de no hacer algo"
+      },
+      {
+        "key": "B",
+        "text": "El intento de convencer al lector de hacer algo"
+      },
+      {
+        "key": "C",
+        "text": "El intento de informar al lector"
+      },
+      {
+        "key": "D",
+        "text": "El intento de entretener al lector"
+      },
+      {
+        "key": "E",
+        "text": "El intento de expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "El intento de contar una historia"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La disuasión busca convencer de no hacer algo."
   },
@@ -3261,8 +4328,16 @@
     "statement": "¿Qué tono debe tener un ensayo académico?",
     "options": [
       {
+        "key": "A",
+        "text": "Formal, objetivo y respetuoso"
+      },
+      {
         "key": "B",
         "text": "Informal, subjetivo e irrespetuoso"
+      },
+      {
+        "key": "C",
+        "text": "Coloquial y emotivo"
       },
       {
         "key": "D",
@@ -3271,6 +4346,10 @@
       {
         "key": "E",
         "text": "Humorístico y sarcástico"
+      },
+      {
+        "key": "F",
+        "text": "Ambiguo y confuso"
       }
     ],
     "correctAnswer": "A",
@@ -3320,6 +4399,18 @@
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué estilo debe tener un ensayo académico?",
     "options": [
+      {
+        "key": "A",
+        "text": "Claro, preciso y coherente"
+      },
+      {
+        "key": "B",
+        "text": "Confuso, ambiguo e incoherente"
+      },
+      {
+        "key": "C",
+        "text": "Coloquial y emotivo"
+      },
       {
         "key": "D",
         "text": "Poético y metafórico"
@@ -3469,6 +4560,10 @@
         "text": "La paráfrasis sin citar"
       },
       {
+        "key": "E",
+        "text": "El plagio"
+      },
+      {
         "key": "F",
         "text": "La imitación"
       }
@@ -3520,6 +4615,10 @@
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué es la profundidad en un ensayo?",
     "options": [
+      {
+        "key": "A",
+        "text": "El análisis detallado y riguroso del tema"
+      },
       {
         "key": "B",
         "text": "La conclusión"
@@ -3588,6 +4687,10 @@
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué es la precisión en un ensayo?",
     "options": [
+      {
+        "key": "A",
+        "text": "El uso exacto y adecuado de los términos"
+      },
       {
         "key": "B",
         "text": "La conclusión"
@@ -3692,6 +4795,10 @@
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué se debe revisar en un ensayo?",
     "options": [
+      {
+        "key": "A",
+        "text": "Coherencia, cohesión, adecuación, corrección y estilo"
+      },
       {
         "key": "B",
         "text": "Solo la ortografía"
@@ -3955,6 +5062,14 @@
       {
         "key": "D",
         "text": "La introducción"
+      },
+      {
+        "key": "E",
+        "text": "El título"
+      },
+      {
+        "key": "F",
+        "text": "El subtítulo"
       }
     ],
     "correctAnswer": "A",
@@ -3983,6 +5098,14 @@
       {
         "key": "D",
         "text": "La introducción"
+      },
+      {
+        "key": "E",
+        "text": "El título"
+      },
+      {
+        "key": "F",
+        "text": "El subtítulo"
       }
     ],
     "correctAnswer": "A",
@@ -4011,6 +5134,14 @@
       {
         "key": "D",
         "text": "La introducción"
+      },
+      {
+        "key": "E",
+        "text": "El título"
+      },
+      {
+        "key": "F",
+        "text": "El subtítulo"
       }
     ],
     "correctAnswer": "A",
@@ -4061,6 +5192,10 @@
     "statement": "¿Qué son los conectores en un ensayo?",
     "options": [
       {
+        "key": "A",
+        "text": "Elementos que unen ideas y párrafos"
+      },
+      {
         "key": "B",
         "text": "La conclusión"
       },
@@ -4092,6 +5227,26 @@
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué tipo de conectores se usan en un ensayo argumentativo?",
     "options": [
+      {
+        "key": "A",
+        "text": "Adversativos y conclusivos"
+      },
+      {
+        "key": "B",
+        "text": "Aditivos y temporales"
+      },
+      {
+        "key": "C",
+        "text": "Condicionales y finales"
+      },
+      {
+        "key": "D",
+        "text": "De duda y evidencia"
+      },
+      {
+        "key": "E",
+        "text": "De ejemplificación y explicación"
+      },
       {
         "key": "F",
         "text": "Ordenadores y de cierre"
@@ -4185,12 +5340,24 @@
         "text": "Presentar como propias las ideas o palabras de otro"
       },
       {
+        "key": "B",
+        "text": "Citar correctamente"
+      },
+      {
         "key": "C",
         "text": "Parafrasear correctamente"
       },
       {
         "key": "D",
         "text": "Resumir correctamente"
+      },
+      {
+        "key": "E",
+        "text": "Comentar correctamente"
+      },
+      {
+        "key": "F",
+        "text": "Analizar correctamente"
       }
     ],
     "correctAnswer": "A",
@@ -4204,6 +5371,14 @@
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Cómo se evita el plagio en un ensayo?",
     "options": [
+      {
+        "key": "A",
+        "text": "Citando y referenciando correctamente las fuentes"
+      },
+      {
+        "key": "B",
+        "text": "Copiando sin citar"
+      },
       {
         "key": "C",
         "text": "Parafraseando sin citar"
@@ -4232,6 +5407,10 @@
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué es la ética académica?",
     "options": [
+      {
+        "key": "A",
+        "text": "El conjunto de principios que guían la conducta del estudiante e investigador"
+      },
       {
         "key": "B",
         "text": "La conclusión"
@@ -4337,6 +5516,10 @@
     "statement": "¿Qué es la responsabilidad académica?",
     "options": [
       {
+        "key": "A",
+        "text": "El cumplimiento de las normas y compromisos académicos"
+      },
+      {
         "key": "B",
         "text": "La conclusión"
       },
@@ -4405,6 +5588,10 @@
     "statement": "¿Qué es la colaboración académica?",
     "options": [
       {
+        "key": "A",
+        "text": "El trabajo conjunto entre estudiantes e investigadores"
+      },
+      {
         "key": "B",
         "text": "La conclusión"
       },
@@ -4436,6 +5623,10 @@
     "sectionTitle": "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)",
     "statement": "¿Qué es la evaluación académica?",
     "options": [
+      {
+        "key": "A",
+        "text": "El proceso de valorar el trabajo y aprendizaje"
+      },
       {
         "key": "B",
         "text": "La conclusión"
@@ -4613,8 +5804,24 @@
     "statement": "¿Qué características tiene la redacción académica?",
     "options": [
       {
+        "key": "A",
+        "text": "Formalidad, objetividad, precisión, claridad y coherencia"
+      },
+      {
         "key": "B",
         "text": "Informalidad, subjetividad, ambigüedad, confusión e incoherencia"
+      },
+      {
+        "key": "C",
+        "text": "Creatividad, emotividad, ambigüedad, confusión e incoherencia"
+      },
+      {
+        "key": "D",
+        "text": "Coloquialidad, subjetividad, precisión, claridad y coherencia"
+      },
+      {
+        "key": "E",
+        "text": "Formalidad, subjetividad, ambigüedad, confusión e incoherencia"
       },
       {
         "key": "F",
@@ -4631,7 +5838,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
     "statement": "¿Qué es la formalidad en la redacción académica?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El uso del registro culto y adecuado al contexto académico"
+      },
+      {
+        "key": "B",
+        "text": "El uso del registro coloquial"
+      },
+      {
+        "key": "C",
+        "text": "El uso del registro informal"
+      },
+      {
+        "key": "D",
+        "text": "El uso del registro poético"
+      },
+      {
+        "key": "E",
+        "text": "El uso del registro humorístico"
+      },
+      {
+        "key": "F",
+        "text": "El uso del registro publicitario"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La formalidad usa registro culto."
   },
@@ -4678,7 +5910,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
     "statement": "¿Qué es la precisión en la redacción académica?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El uso exacto y adecuado de los términos"
+      },
+      {
+        "key": "B",
+        "text": "El uso vago de los términos"
+      },
+      {
+        "key": "C",
+        "text": "El uso ambiguo de los términos"
+      },
+      {
+        "key": "D",
+        "text": "El uso informal de los términos"
+      },
+      {
+        "key": "E",
+        "text": "El uso coloquial de los términos"
+      },
+      {
+        "key": "F",
+        "text": "El uso poético de los términos"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La precisión usa términos exactos."
   },
@@ -4849,6 +6106,10 @@
       {
         "key": "D",
         "text": "La paráfrasis sin citar"
+      },
+      {
+        "key": "E",
+        "text": "El plagio"
       },
       {
         "key": "F",
@@ -5119,8 +6380,28 @@
     "statement": "¿Qué es la puntuación en la redacción académica?",
     "options": [
       {
+        "key": "A",
+        "text": "El uso adecuado de los signos de puntuación"
+      },
+      {
+        "key": "B",
+        "text": "El uso inadecuado de los signos de puntuación"
+      },
+      {
         "key": "C",
         "text": "La ausencia de signos de puntuación"
+      },
+      {
+        "key": "D",
+        "text": "El uso excesivo de signos de puntuación"
+      },
+      {
+        "key": "E",
+        "text": "El uso aleatorio de signos de puntuación"
+      },
+      {
+        "key": "F",
+        "text": "El uso confuso de signos de puntuación"
       }
     ],
     "correctAnswer": "A",
@@ -5135,8 +6416,28 @@
     "statement": "¿Qué es la ortografía en la redacción académica?",
     "options": [
       {
+        "key": "A",
+        "text": "El uso correcto de las reglas ortográficas"
+      },
+      {
+        "key": "B",
+        "text": "El uso incorrecto de las reglas ortográficas"
+      },
+      {
         "key": "C",
         "text": "La ausencia de reglas ortográficas"
+      },
+      {
+        "key": "D",
+        "text": "El uso aleatorio de las reglas ortográficas"
+      },
+      {
+        "key": "E",
+        "text": "El uso confuso de las reglas ortográficas"
+      },
+      {
+        "key": "F",
+        "text": "El uso ambiguo de las reglas ortográficas"
       }
     ],
     "correctAnswer": "A",
@@ -5151,8 +6452,28 @@
     "statement": "¿Qué es la gramática en la redacción académica?",
     "options": [
       {
+        "key": "A",
+        "text": "El uso correcto de las reglas gramaticales"
+      },
+      {
+        "key": "B",
+        "text": "El uso incorrecto de las reglas gramaticales"
+      },
+      {
         "key": "C",
         "text": "La ausencia de reglas gramaticales"
+      },
+      {
+        "key": "D",
+        "text": "El uso aleatorio de las reglas gramaticales"
+      },
+      {
+        "key": "E",
+        "text": "El uso confuso de las reglas gramaticales"
+      },
+      {
+        "key": "F",
+        "text": "El uso ambiguo de las reglas gramaticales"
       }
     ],
     "correctAnswer": "A",
@@ -5203,6 +6524,18 @@
     "statement": "¿Qué estilo debe tener la redacción académica?",
     "options": [
       {
+        "key": "A",
+        "text": "Claro, preciso, coherente y formal"
+      },
+      {
+        "key": "B",
+        "text": "Confuso, ambiguo, incoherente e informal"
+      },
+      {
+        "key": "C",
+        "text": "Coloquial y emotivo"
+      },
+      {
         "key": "D",
         "text": "Poético y metafórico"
       },
@@ -5225,7 +6558,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
     "statement": "¿Qué es el registro en la redacción académica?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El nivel de lengua adecuado al contexto académico"
+      },
+      {
+        "key": "B",
+        "text": "El nivel de lengua coloquial"
+      },
+      {
+        "key": "C",
+        "text": "El nivel de lengua informal"
+      },
+      {
+        "key": "D",
+        "text": "El nivel de lengua poético"
+      },
+      {
+        "key": "E",
+        "text": "El nivel de lengua humorístico"
+      },
+      {
+        "key": "F",
+        "text": "El nivel de lengua publicitario"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El registro es el nivel de lengua adecuado."
   },
@@ -5237,6 +6595,14 @@
     "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
     "statement": "¿Qué registro debe usarse en la redacción académica?",
     "options": [
+      {
+        "key": "A",
+        "text": "Culto y formal"
+      },
+      {
+        "key": "B",
+        "text": "Coloquial e informal"
+      },
       {
         "key": "C",
         "text": "Poético y metafórico"
@@ -5302,6 +6668,10 @@
     "statement": "¿Qué voz se prefiere en la redacción académica?",
     "options": [
       {
+        "key": "A",
+        "text": "Activa"
+      },
+      {
         "key": "B",
         "text": "Pasiva"
       },
@@ -5333,6 +6703,10 @@
     "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
     "statement": "¿Qué es la persona gramatical en la redacción académica?",
     "options": [
+      {
+        "key": "A",
+        "text": "El pronombre que indica quién habla"
+      },
       {
         "key": "B",
         "text": "La conclusión"
@@ -5402,6 +6776,10 @@
     "statement": "¿Qué es el tiempo verbal en la redacción académica?",
     "options": [
       {
+        "key": "A",
+        "text": "El momento en que se realiza la acción"
+      },
+      {
         "key": "B",
         "text": "La conclusión"
       },
@@ -5440,6 +6818,14 @@
       {
         "key": "B",
         "text": "Pasado"
+      },
+      {
+        "key": "C",
+        "text": "Futuro"
+      },
+      {
+        "key": "D",
+        "text": "Condicional"
       },
       {
         "key": "E",
@@ -5786,6 +7172,10 @@
     "statement": "¿Qué es la narración en la redacción académica?",
     "options": [
       {
+        "key": "A",
+        "text": "El relato de hechos o procesos"
+      },
+      {
         "key": "B",
         "text": "La copia exacta de un texto"
       },
@@ -6044,6 +7434,14 @@
       {
         "key": "C",
         "text": "La última palabra del título"
+      },
+      {
+        "key": "D",
+        "text": "El nombre del autor"
+      },
+      {
+        "key": "E",
+        "text": "El año de publicación"
       },
       {
         "key": "F",
@@ -6530,12 +7928,20 @@
     "statement": "¿Qué es la metodología de la investigación?",
     "options": [
       {
+        "key": "A",
+        "text": "El conjunto de métodos y técnicas para realizar una investigación"
+      },
+      {
         "key": "B",
         "text": "La conclusión"
       },
       {
         "key": "C",
         "text": "La introducción"
+      },
+      {
+        "key": "D",
+        "text": "El marco teórico"
       },
       {
         "key": "E",
@@ -6558,12 +7964,20 @@
     "statement": "¿Qué es el método científico?",
     "options": [
       {
+        "key": "A",
+        "text": "El procedimiento sistemático para obtener conocimiento"
+      },
+      {
         "key": "B",
         "text": "La conclusión"
       },
       {
         "key": "C",
         "text": "La introducción"
+      },
+      {
+        "key": "D",
+        "text": "El marco teórico"
       },
       {
         "key": "E",
@@ -6584,7 +7998,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es el método deductivo?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que parte de lo general para llegar a lo particular"
+      },
+      {
+        "key": "B",
+        "text": "El que parte de lo particular para llegar a lo general"
+      },
+      {
+        "key": "C",
+        "text": "El que no tiene dirección"
+      },
+      {
+        "key": "D",
+        "text": "El que es aleatorio"
+      },
+      {
+        "key": "E",
+        "text": "El que es confuso"
+      },
+      {
+        "key": "F",
+        "text": "El que es ambiguo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El método deductivo va de lo general a lo particular."
   },
@@ -6595,7 +8034,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es el método inductivo?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que parte de lo particular para llegar a lo general"
+      },
+      {
+        "key": "B",
+        "text": "El que parte de lo general para llegar a lo particular"
+      },
+      {
+        "key": "C",
+        "text": "El que no tiene dirección"
+      },
+      {
+        "key": "D",
+        "text": "El que es aleatorio"
+      },
+      {
+        "key": "E",
+        "text": "El que es confuso"
+      },
+      {
+        "key": "F",
+        "text": "El que es ambiguo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El método inductivo va de lo particular a lo general."
   },
@@ -6606,7 +8070,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es el método analítico?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que descompone un todo en sus partes"
+      },
+      {
+        "key": "B",
+        "text": "El que une las partes en un todo"
+      },
+      {
+        "key": "C",
+        "text": "El que no tiene dirección"
+      },
+      {
+        "key": "D",
+        "text": "El que es aleatorio"
+      },
+      {
+        "key": "E",
+        "text": "El que es confuso"
+      },
+      {
+        "key": "F",
+        "text": "El que es ambiguo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El método analítico descompone un todo en partes."
   },
@@ -6617,7 +8106,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es el método sintético?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que une las partes en un todo"
+      },
+      {
+        "key": "B",
+        "text": "El que descompone un todo en sus partes"
+      },
+      {
+        "key": "C",
+        "text": "El que no tiene dirección"
+      },
+      {
+        "key": "D",
+        "text": "El que es aleatorio"
+      },
+      {
+        "key": "E",
+        "text": "El que es confuso"
+      },
+      {
+        "key": "F",
+        "text": "El que es ambiguo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El método sintético une las partes en un todo."
   },
@@ -6628,7 +8142,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es el método comparativo?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que establece semejanzas y diferencias"
+      },
+      {
+        "key": "B",
+        "text": "El que descompone un todo"
+      },
+      {
+        "key": "C",
+        "text": "El que une las partes"
+      },
+      {
+        "key": "D",
+        "text": "El que no tiene dirección"
+      },
+      {
+        "key": "E",
+        "text": "El que es aleatorio"
+      },
+      {
+        "key": "F",
+        "text": "El que es confuso"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El método comparativo establece semejanzas y diferencias."
   },
@@ -6639,7 +8178,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es el método experimental?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que manipula variables para observar efectos"
+      },
+      {
+        "key": "B",
+        "text": "El que observa sin manipular"
+      },
+      {
+        "key": "C",
+        "text": "El que no tiene dirección"
+      },
+      {
+        "key": "D",
+        "text": "El que es aleatorio"
+      },
+      {
+        "key": "E",
+        "text": "El que es confuso"
+      },
+      {
+        "key": "F",
+        "text": "El que es ambiguo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El método experimental manipula variables."
   },
@@ -6650,7 +8214,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es el método observacional?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que observa sin manipular variables"
+      },
+      {
+        "key": "B",
+        "text": "El que manipula variables"
+      },
+      {
+        "key": "C",
+        "text": "El que no tiene dirección"
+      },
+      {
+        "key": "D",
+        "text": "El que es aleatorio"
+      },
+      {
+        "key": "E",
+        "text": "El que es confuso"
+      },
+      {
+        "key": "F",
+        "text": "El que es ambiguo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El método observacional observa sin manipular."
   },
@@ -7059,12 +8648,24 @@
     "statement": "¿Qué es la técnica de investigación?",
     "options": [
       {
+        "key": "A",
+        "text": "El procedimiento específico para recoger datos"
+      },
+      {
+        "key": "B",
+        "text": "El método general"
+      },
+      {
         "key": "C",
         "text": "La conclusión"
       },
       {
         "key": "D",
         "text": "La introducción"
+      },
+      {
+        "key": "E",
+        "text": "El marco teórico"
       },
       {
         "key": "F",
@@ -7299,12 +8900,28 @@
     "statement": "¿Qué es la validez de un instrumento?",
     "options": [
       {
+        "key": "A",
+        "text": "El grado en que mide lo que pretende medir"
+      },
+      {
         "key": "B",
         "text": "La cantidad de datos"
       },
       {
         "key": "C",
         "text": "La extensión del informe"
+      },
+      {
+        "key": "D",
+        "text": "El número de páginas"
+      },
+      {
+        "key": "E",
+        "text": "El color de la portada"
+      },
+      {
+        "key": "F",
+        "text": "El precio del libro"
       }
     ],
     "correctAnswer": "A",
@@ -7319,12 +8936,28 @@
     "statement": "¿Qué es la confiabilidad de un instrumento?",
     "options": [
       {
+        "key": "A",
+        "text": "El grado en que produce resultados consistentes"
+      },
+      {
         "key": "B",
         "text": "La cantidad de datos"
       },
       {
         "key": "C",
         "text": "La extensión del informe"
+      },
+      {
+        "key": "D",
+        "text": "El número de páginas"
+      },
+      {
+        "key": "E",
+        "text": "El color de la portada"
+      },
+      {
+        "key": "F",
+        "text": "El precio del libro"
       }
     ],
     "correctAnswer": "A",
@@ -7337,7 +8970,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es la triangulación?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El uso de múltiples métodos o fuentes para validar resultados"
+      },
+      {
+        "key": "B",
+        "text": "El uso de un solo método"
+      },
+      {
+        "key": "C",
+        "text": "El uso de una sola fuente"
+      },
+      {
+        "key": "D",
+        "text": "El uso de un solo instrumento"
+      },
+      {
+        "key": "E",
+        "text": "El uso de un solo investigador"
+      },
+      {
+        "key": "F",
+        "text": "El uso de un solo enfoque"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La triangulación usa múltiples métodos o fuentes."
   },
@@ -7349,6 +9007,10 @@
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es la población en investigación?",
     "options": [
+      {
+        "key": "A",
+        "text": "El conjunto total de elementos que comparten características"
+      },
       {
         "key": "B",
         "text": "Una parte del conjunto"
@@ -7386,6 +9048,10 @@
         "text": "Un subconjunto representativo de la población"
       },
       {
+        "key": "B",
+        "text": "El conjunto total"
+      },
+      {
         "key": "C",
         "text": "Un individuo"
       },
@@ -7412,7 +9078,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es el muestreo probabilístico?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que selecciona la muestra al azar"
+      },
+      {
+        "key": "B",
+        "text": "El que selecciona la muestra por conveniencia"
+      },
+      {
+        "key": "C",
+        "text": "El que selecciona la muestra por cuotas"
+      },
+      {
+        "key": "D",
+        "text": "El que selecciona la muestra por juicio"
+      },
+      {
+        "key": "E",
+        "text": "El que selecciona la muestra por bola de nieve"
+      },
+      {
+        "key": "F",
+        "text": "El que selecciona la muestra sin criterio"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El muestreo probabilístico selecciona al azar."
   },
@@ -7423,7 +9114,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es el muestreo no probabilístico?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que selecciona la muestra sin azar"
+      },
+      {
+        "key": "B",
+        "text": "El que selecciona la muestra al azar"
+      },
+      {
+        "key": "C",
+        "text": "El que selecciona la muestra aleatoriamente"
+      },
+      {
+        "key": "D",
+        "text": "El que selecciona la muestra sistemáticamente"
+      },
+      {
+        "key": "E",
+        "text": "El que selecciona la muestra estratificadamente"
+      },
+      {
+        "key": "F",
+        "text": "El que selecciona la muestra por conglomerados"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El muestreo no probabilístico selecciona sin azar."
   },
@@ -7436,12 +9152,24 @@
     "statement": "¿Qué es el análisis estadístico?",
     "options": [
       {
+        "key": "A",
+        "text": "El procesamiento de datos numéricos para obtener conclusiones"
+      },
+      {
+        "key": "B",
+        "text": "El procesamiento de datos no numéricos"
+      },
+      {
         "key": "C",
         "text": "La conclusión"
       },
       {
         "key": "D",
         "text": "La introducción"
+      },
+      {
+        "key": "E",
+        "text": "El marco teórico"
       },
       {
         "key": "F",
@@ -7459,6 +9187,18 @@
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es la media aritmética?",
     "options": [
+      {
+        "key": "A",
+        "text": "El promedio de un conjunto de datos"
+      },
+      {
+        "key": "B",
+        "text": "El valor central de un conjunto ordenado"
+      },
+      {
+        "key": "C",
+        "text": "El valor más frecuente"
+      },
       {
         "key": "D",
         "text": "La diferencia entre el máximo y el mínimo"
@@ -7484,6 +9224,18 @@
     "statement": "¿Qué es la mediana?",
     "options": [
       {
+        "key": "A",
+        "text": "El valor central de un conjunto ordenado"
+      },
+      {
+        "key": "B",
+        "text": "El promedio de un conjunto de datos"
+      },
+      {
+        "key": "C",
+        "text": "El valor más frecuente"
+      },
+      {
         "key": "D",
         "text": "La diferencia entre el máximo y el mínimo"
       },
@@ -7507,6 +9259,18 @@
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es la moda?",
     "options": [
+      {
+        "key": "A",
+        "text": "El valor más frecuente"
+      },
+      {
+        "key": "B",
+        "text": "El promedio de un conjunto de datos"
+      },
+      {
+        "key": "C",
+        "text": "El valor central de un conjunto ordenado"
+      },
       {
         "key": "D",
         "text": "La diferencia entre el máximo y el mínimo"
@@ -7536,6 +9300,18 @@
         "text": "La diferencia entre el máximo y el mínimo"
       },
       {
+        "key": "B",
+        "text": "El promedio de un conjunto de datos"
+      },
+      {
+        "key": "C",
+        "text": "El valor central de un conjunto ordenado"
+      },
+      {
+        "key": "D",
+        "text": "El valor más frecuente"
+      },
+      {
         "key": "E",
         "text": "La desviación estándar"
       },
@@ -7560,6 +9336,18 @@
         "text": "La medida de dispersión de los datos respecto a la media"
       },
       {
+        "key": "B",
+        "text": "El promedio de un conjunto de datos"
+      },
+      {
+        "key": "C",
+        "text": "El valor central de un conjunto ordenado"
+      },
+      {
+        "key": "D",
+        "text": "El valor más frecuente"
+      },
+      {
         "key": "E",
         "text": "La diferencia entre el máximo y el mínimo"
       },
@@ -7579,6 +9367,22 @@
     "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
     "statement": "¿Qué es la varianza?",
     "options": [
+      {
+        "key": "A",
+        "text": "El cuadrado de la desviación estándar"
+      },
+      {
+        "key": "B",
+        "text": "El promedio de un conjunto de datos"
+      },
+      {
+        "key": "C",
+        "text": "El valor central de un conjunto ordenado"
+      },
+      {
+        "key": "D",
+        "text": "El valor más frecuente"
+      },
       {
         "key": "E",
         "text": "La diferencia entre el máximo y el mínimo"
@@ -7610,6 +9414,10 @@
       {
         "key": "C",
         "text": "La introducción"
+      },
+      {
+        "key": "D",
+        "text": "El marco teórico"
       },
       {
         "key": "E",
@@ -7860,6 +9668,10 @@
         "text": "La introducción"
       },
       {
+        "key": "D",
+        "text": "El marco teórico"
+      },
+      {
         "key": "E",
         "text": "Los resultados"
       },
@@ -7880,12 +9692,20 @@
     "statement": "¿Qué es la regresión?",
     "options": [
       {
+        "key": "A",
+        "text": "El modelo que predice el valor de una variable a partir de otra"
+      },
+      {
         "key": "B",
         "text": "La conclusión"
       },
       {
         "key": "C",
         "text": "La introducción"
+      },
+      {
+        "key": "D",
+        "text": "El marco teórico"
       },
       {
         "key": "E",
@@ -7907,6 +9727,10 @@
     "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
     "statement": "¿Qué es la ética académica?",
     "options": [
+      {
+        "key": "A",
+        "text": "El conjunto de principios que guían la conducta del estudiante e investigador"
+      },
       {
         "key": "B",
         "text": "La conclusión"
@@ -8012,6 +9836,10 @@
     "statement": "¿Qué es la responsabilidad académica?",
     "options": [
       {
+        "key": "A",
+        "text": "El cumplimiento de las normas y compromisos académicos"
+      },
+      {
         "key": "B",
         "text": "La conclusión"
       },
@@ -8080,6 +9908,10 @@
     "statement": "¿Qué es la colaboración académica?",
     "options": [
       {
+        "key": "A",
+        "text": "El trabajo conjunto entre estudiantes e investigadores"
+      },
+      {
         "key": "B",
         "text": "La conclusión"
       },
@@ -8111,6 +9943,10 @@
     "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
     "statement": "¿Qué es la evaluación académica?",
     "options": [
+      {
+        "key": "A",
+        "text": "El proceso de valorar el trabajo y aprendizaje"
+      },
       {
         "key": "B",
         "text": "La conclusión"
@@ -8256,12 +10092,24 @@
         "text": "Presentar como propias las ideas o palabras de otro"
       },
       {
+        "key": "B",
+        "text": "Citar correctamente"
+      },
+      {
         "key": "C",
         "text": "Parafrasear correctamente"
       },
       {
         "key": "D",
         "text": "Resumir correctamente"
+      },
+      {
+        "key": "E",
+        "text": "Comentar correctamente"
+      },
+      {
+        "key": "F",
+        "text": "Analizar correctamente"
       }
     ],
     "correctAnswer": "A",
@@ -8282,6 +10130,10 @@
       {
         "key": "B",
         "text": "Plagio parafraseado"
+      },
+      {
+        "key": "C",
+        "text": "Autoplagio"
       },
       {
         "key": "D",
@@ -8316,6 +10168,10 @@
         "text": "Plagio directo"
       },
       {
+        "key": "C",
+        "text": "Autoplagio"
+      },
+      {
         "key": "D",
         "text": "Plagio accidental"
       },
@@ -8339,6 +10195,10 @@
     "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
     "statement": "¿Qué tipo de plagio es reutilizar un trabajo propio sin indicarlo?",
     "options": [
+      {
+        "key": "A",
+        "text": "Autoplagio"
+      },
       {
         "key": "B",
         "text": "Plagio directo"
@@ -8384,6 +10244,10 @@
         "text": "Plagio parafraseado"
       },
       {
+        "key": "D",
+        "text": "Autoplagio"
+      },
+      {
         "key": "E",
         "text": "Plagio accidental"
       },
@@ -8403,6 +10267,14 @@
     "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
     "statement": "¿Cómo se evita el plagio?",
     "options": [
+      {
+        "key": "A",
+        "text": "Citando y referenciando correctamente las fuentes"
+      },
+      {
+        "key": "B",
+        "text": "Copiando sin citar"
+      },
       {
         "key": "C",
         "text": "Parafraseando sin citar"
@@ -8431,6 +10303,18 @@
     "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
     "statement": "¿Qué es una paráfrasis correcta?",
     "options": [
+      {
+        "key": "A",
+        "text": "Expresar las ideas de otro con palabras propias y citar la fuente"
+      },
+      {
+        "key": "B",
+        "text": "Copiar exactamente las palabras de otro"
+      },
+      {
+        "key": "C",
+        "text": "Cambiar algunas palabras sin citar"
+      },
       {
         "key": "D",
         "text": "Usar las ideas de otro sin citar"
@@ -8634,7 +10518,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
     "statement": "¿Cómo se cita textualmente a un autor en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Apellido, año, p. página)"
+      },
+      {
+        "key": "B",
+        "text": "(Nombre, año)"
+      },
+      {
+        "key": "C",
+        "text": "(Título, año)"
+      },
+      {
+        "key": "D",
+        "text": "(Editorial, año)"
+      },
+      {
+        "key": "E",
+        "text": "(Ciudad, año)"
+      },
+      {
+        "key": "F",
+        "text": "(País, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Se cita (Apellido, año, p. página)."
   },
@@ -8645,7 +10554,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
     "statement": "¿Cómo se cita parafraseando a un autor en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Apellido, año)"
+      },
+      {
+        "key": "B",
+        "text": "(Apellido, año, p. página)"
+      },
+      {
+        "key": "C",
+        "text": "(Nombre, año)"
+      },
+      {
+        "key": "D",
+        "text": "(Título, año)"
+      },
+      {
+        "key": "E",
+        "text": "(Editorial, año)"
+      },
+      {
+        "key": "F",
+        "text": "(Ciudad, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Se cita (Apellido, año)."
   },
@@ -8692,7 +10626,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
     "statement": "¿Cómo se cita una fuente con dos autores en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Apellido1 y Apellido2, año)"
+      },
+      {
+        "key": "B",
+        "text": "(Apellido1, Apellido2, año)"
+      },
+      {
+        "key": "C",
+        "text": "(Apellido1 et al., año)"
+      },
+      {
+        "key": "D",
+        "text": "(Apellido1 & Apellido2, año)"
+      },
+      {
+        "key": "E",
+        "text": "(Apellido1/Apellido2, año)"
+      },
+      {
+        "key": "F",
+        "text": "(Apellido1-Apellido2, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Con dos autores: (Apellido1 y Apellido2, año)."
   },
@@ -8703,7 +10662,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
     "statement": "¿Cómo se cita una fuente con tres o más autores en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Apellido1 et al., año)"
+      },
+      {
+        "key": "B",
+        "text": "(Apellido1 y Apellido2, año)"
+      },
+      {
+        "key": "C",
+        "text": "(Apellido1, Apellido2, año)"
+      },
+      {
+        "key": "D",
+        "text": "(Apellido1 & Apellido2, año)"
+      },
+      {
+        "key": "E",
+        "text": "(Apellido1/Apellido2, año)"
+      },
+      {
+        "key": "F",
+        "text": "(Apellido1-Apellido2, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Con tres o más: (Apellido1 et al., año)."
   },
@@ -8714,7 +10698,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
     "statement": "¿Cómo se cita una fuente institucional en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Nombre de la institución, año)"
+      },
+      {
+        "key": "B",
+        "text": "(Apellido, año)"
+      },
+      {
+        "key": "C",
+        "text": "(Título, año)"
+      },
+      {
+        "key": "D",
+        "text": "(Editorial, año)"
+      },
+      {
+        "key": "E",
+        "text": "(Ciudad, año)"
+      },
+      {
+        "key": "F",
+        "text": "(País, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Institucional: (Nombre de la institución, año)."
   },
@@ -8725,7 +10734,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
     "statement": "¿Cómo se cita una fuente sin autor en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Título de la obra, año)"
+      },
+      {
+        "key": "B",
+        "text": "(Anónimo, año)"
+      },
+      {
+        "key": "C",
+        "text": "(Sin autor, año)"
+      },
+      {
+        "key": "D",
+        "text": "(Desconocido, año)"
+      },
+      {
+        "key": "E",
+        "text": "(N.N., año)"
+      },
+      {
+        "key": "F",
+        "text": "(Autor, año)"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Sin autor: (Título de la obra, año)."
   },
@@ -8736,7 +10770,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
     "statement": "¿Cómo se cita una fuente sin fecha en APA?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "(Apellido, s.f.)"
+      },
+      {
+        "key": "B",
+        "text": "(Apellido, sin fecha)"
+      },
+      {
+        "key": "C",
+        "text": "(Apellido, 0000)"
+      },
+      {
+        "key": "D",
+        "text": "(Apellido, ?)"
+      },
+      {
+        "key": "E",
+        "text": "(Apellido, n.d.)"
+      },
+      {
+        "key": "F",
+        "text": "(Apellido, sin año) ---"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Sin fecha: (Apellido, s.f.)."
   }

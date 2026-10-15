@@ -12,12 +12,20 @@
         "text": "La estructura de las oraciones y las relaciones entre sus constituyentes"
       },
       {
+        "key": "B",
+        "text": "El significado de las palabras"
+      },
+      {
         "key": "C",
         "text": "La ortografía de las palabras"
       },
       {
         "key": "D",
         "text": "La pronunciación de las palabras"
+      },
+      {
+        "key": "E",
+        "text": "El origen de las palabras"
       },
       {
         "key": "F",
@@ -180,8 +188,20 @@
     "statement": "¿Cuántos tipos principales de sintagmas existen?",
     "options": [
       {
+        "key": "A",
+        "text": "Cuatro: nominal, verbal, adjetival y adverbial"
+      },
+      {
+        "key": "B",
+        "text": "Dos: nominal y verbal"
+      },
+      {
         "key": "C",
         "text": "Tres: nominal, verbal y adjetival"
+      },
+      {
+        "key": "D",
+        "text": "Cinco: nominal, verbal, adjetival, adverbial y preposicional"
       },
       {
         "key": "E",
@@ -346,7 +366,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El sintagma preposicional se caracteriza por:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Estar encabezado por una preposición"
+      },
+      {
+        "key": "B",
+        "text": "Estar encabezado por un sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Estar encabezado por un verbo"
+      },
+      {
+        "key": "D",
+        "text": "Estar encabezado por un adjetivo"
+      },
+      {
+        "key": "E",
+        "text": "Estar encabezado por un adverbio"
+      },
+      {
+        "key": "F",
+        "text": "Estar encabezado por una conjunción"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El sintagma preposicional está encabezado por preposición."
   },
@@ -359,12 +404,24 @@
     "statement": "La función sintáctica se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "El papel que desempeña un elemento dentro de la oración"
+      },
+      {
+        "key": "B",
+        "text": "El significado de la palabra"
+      },
+      {
         "key": "C",
         "text": "La ortografía de la palabra"
       },
       {
         "key": "D",
         "text": "La pronunciación de la palabra"
+      },
+      {
+        "key": "E",
+        "text": "El origen de la palabra"
       },
       {
         "key": "F",
@@ -395,6 +452,10 @@
         "text": "Verbo y adverbio"
       },
       {
+        "key": "D",
+        "text": "Artículo y sustantivo"
+      },
+      {
         "key": "E",
         "text": "Preposición y conjunción"
       },
@@ -415,8 +476,28 @@
     "statement": "El sujeto de una oración es:",
     "options": [
       {
+        "key": "A",
+        "text": "El elemento del que se dice algo"
+      },
+      {
         "key": "B",
         "text": "Lo que se dice del sujeto"
+      },
+      {
+        "key": "C",
+        "text": "El verbo de la oración"
+      },
+      {
+        "key": "D",
+        "text": "El complemento directo"
+      },
+      {
+        "key": "E",
+        "text": "El complemento indirecto"
+      },
+      {
+        "key": "F",
+        "text": "El complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
@@ -433,6 +514,26 @@
       {
         "key": "A",
         "text": "Lo que se dice del sujeto"
+      },
+      {
+        "key": "B",
+        "text": "El elemento del que se dice algo"
+      },
+      {
+        "key": "C",
+        "text": "El sujeto de la oración"
+      },
+      {
+        "key": "D",
+        "text": "El complemento directo"
+      },
+      {
+        "key": "E",
+        "text": "El complemento indirecto"
+      },
+      {
+        "key": "F",
+        "text": "El complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
@@ -463,6 +564,10 @@
         "text": "Tiempo y modo"
       },
       {
+        "key": "E",
+        "text": "Aspecto y voz"
+      },
+      {
         "key": "F",
         "text": "Modo y número"
       }
@@ -477,7 +582,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El sujeto léxico es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que aparece explícitamente en la oración"
+      },
+      {
+        "key": "B",
+        "text": "El que no aparece explícitamente"
+      },
+      {
+        "key": "C",
+        "text": "El que se sobreentiende"
+      },
+      {
+        "key": "D",
+        "text": "El que está en el verbo"
+      },
+      {
+        "key": "E",
+        "text": "El que está en el predicado"
+      },
+      {
+        "key": "F",
+        "text": "El que está en el complemento"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El sujeto léxico aparece explícitamente."
   },
@@ -488,7 +618,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El sujeto gramatical o elidido es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que no aparece explícitamente pero se sobreentiende"
+      },
+      {
+        "key": "B",
+        "text": "El que aparece explícitamente"
+      },
+      {
+        "key": "C",
+        "text": "El que está en el predicado"
+      },
+      {
+        "key": "D",
+        "text": "El que está en el complemento"
+      },
+      {
+        "key": "E",
+        "text": "El que está en el adverbio"
+      },
+      {
+        "key": "F",
+        "text": "El que está en el adjetivo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El sujeto gramatical o elidido no aparece explícitamente."
   },
@@ -573,6 +728,10 @@
     "statement": "El predicado nominal se caracteriza por:",
     "options": [
       {
+        "key": "A",
+        "text": "Llevar verbos copulativos (ser, estar, parecer)"
+      },
+      {
         "key": "B",
         "text": "Llevar verbos predicativos"
       },
@@ -653,6 +812,10 @@
         "text": "Ser, haber y tener"
       },
       {
+        "key": "D",
+        "text": "Estar, haber y hacer"
+      },
+      {
         "key": "E",
         "text": "Ser, estar y haber"
       },
@@ -671,7 +834,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El atributo es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El complemento que aparece con verbos copulativos"
+      },
+      {
+        "key": "B",
+        "text": "El complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "El complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "El complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "El complemento agente"
+      },
+      {
+        "key": "F",
+        "text": "El complemento predicativo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El atributo aparece con verbos copulativos."
   },
@@ -682,7 +870,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El complemento directo es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que recibe directamente la acción del verbo"
+      },
+      {
+        "key": "B",
+        "text": "El que recibe indirectamente la acción"
+      },
+      {
+        "key": "C",
+        "text": "El que indica circunstancias"
+      },
+      {
+        "key": "D",
+        "text": "El que aparece con verbos copulativos"
+      },
+      {
+        "key": "E",
+        "text": "El que indica el agente"
+      },
+      {
+        "key": "F",
+        "text": "El que modifica al sustantivo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El complemento directo recibe directamente la acción."
   },
@@ -693,7 +906,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El complemento indirecto es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que recibe indirectamente la acción del verbo"
+      },
+      {
+        "key": "B",
+        "text": "El que recibe directamente la acción"
+      },
+      {
+        "key": "C",
+        "text": "El que indica circunstancias"
+      },
+      {
+        "key": "D",
+        "text": "El que aparece con verbos copulativos"
+      },
+      {
+        "key": "E",
+        "text": "El que indica el agente"
+      },
+      {
+        "key": "F",
+        "text": "El que modifica al sustantivo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El complemento indirecto recibe indirectamente la acción."
   },
@@ -704,7 +942,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El complemento circunstancial es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que indica circunstancias de la acción verbal"
+      },
+      {
+        "key": "B",
+        "text": "El que recibe directamente la acción"
+      },
+      {
+        "key": "C",
+        "text": "El que recibe indirectamente la acción"
+      },
+      {
+        "key": "D",
+        "text": "El que aparece con verbos copulativos"
+      },
+      {
+        "key": "E",
+        "text": "El que indica el agente"
+      },
+      {
+        "key": "F",
+        "text": "El que modifica al sustantivo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El complemento circunstancial indica circunstancias."
   },
@@ -715,7 +978,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El complemento agente es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que realiza la acción en oraciones pasivas"
+      },
+      {
+        "key": "B",
+        "text": "El que recibe la acción"
+      },
+      {
+        "key": "C",
+        "text": "El que indica circunstancias"
+      },
+      {
+        "key": "D",
+        "text": "El que aparece con verbos copulativos"
+      },
+      {
+        "key": "E",
+        "text": "El que modifica al sustantivo"
+      },
+      {
+        "key": "F",
+        "text": "El que modifica al verbo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El complemento agente realiza la acción en pasivas."
   },
@@ -726,7 +1014,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El complemento predicativo es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que complementa a la vez al verbo y al sujeto"
+      },
+      {
+        "key": "B",
+        "text": "El que complementa solo al verbo"
+      },
+      {
+        "key": "C",
+        "text": "El que complementa solo al sujeto"
+      },
+      {
+        "key": "D",
+        "text": "El que complementa al sustantivo"
+      },
+      {
+        "key": "E",
+        "text": "El que complementa al adjetivo"
+      },
+      {
+        "key": "F",
+        "text": "El que complementa al adverbio"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El predicativo complementa a la vez al verbo y al sujeto."
   },
@@ -737,7 +1050,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El complemento del nombre es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que modifica al sustantivo"
+      },
+      {
+        "key": "B",
+        "text": "El que modifica al verbo"
+      },
+      {
+        "key": "C",
+        "text": "El que modifica al adjetivo"
+      },
+      {
+        "key": "D",
+        "text": "El que modifica al adverbio"
+      },
+      {
+        "key": "E",
+        "text": "El que modifica a la oración"
+      },
+      {
+        "key": "F",
+        "text": "El que modifica al pronombre"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El complemento del nombre modifica al sustantivo."
   },
@@ -748,7 +1086,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El complemento del adjetivo es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que modifica al adjetivo"
+      },
+      {
+        "key": "B",
+        "text": "El que modifica al sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "El que modifica al verbo"
+      },
+      {
+        "key": "D",
+        "text": "El que modifica al adverbio"
+      },
+      {
+        "key": "E",
+        "text": "El que modifica a la oración"
+      },
+      {
+        "key": "F",
+        "text": "El que modifica al pronombre"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El complemento del adjetivo modifica al adjetivo."
   },
@@ -759,7 +1122,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El complemento del adverbio es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que modifica al adverbio"
+      },
+      {
+        "key": "B",
+        "text": "El que modifica al sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "El que modifica al verbo"
+      },
+      {
+        "key": "D",
+        "text": "El que modifica al adjetivo"
+      },
+      {
+        "key": "E",
+        "text": "El que modifica a la oración"
+      },
+      {
+        "key": "F",
+        "text": "El que modifica al pronombre"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El complemento del adverbio modifica al adverbio."
   },
@@ -814,6 +1202,22 @@
       {
         "key": "B",
         "text": "Sujeto y predicado"
+      },
+      {
+        "key": "C",
+        "text": "Complemento directo e indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo y predicativo"
+      },
+      {
+        "key": "E",
+        "text": "Complemento agente y circunstancial"
+      },
+      {
+        "key": "F",
+        "text": "Artículo y sustantivo"
       }
     ],
     "correctAnswer": "A",
@@ -826,7 +1230,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "El vocativo es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El elemento que sirve para llamar o invocar al interlocutor"
+      },
+      {
+        "key": "B",
+        "text": "El que recibe la acción"
+      },
+      {
+        "key": "C",
+        "text": "El que indica circunstancias"
+      },
+      {
+        "key": "D",
+        "text": "El que modifica al sustantivo"
+      },
+      {
+        "key": "E",
+        "text": "El que modifica al verbo"
+      },
+      {
+        "key": "F",
+        "text": "El que modifica al adjetivo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El vocativo sirve para llamar o invocar."
   },
@@ -873,7 +1302,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "Los marcadores del discurso son:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Elementos que organizan y conectan el texto"
+      },
+      {
+        "key": "B",
+        "text": "Elementos que modifican al sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Elementos que modifican al verbo"
+      },
+      {
+        "key": "D",
+        "text": "Elementos que modifican al adjetivo"
+      },
+      {
+        "key": "E",
+        "text": "Elementos que indican circunstancias"
+      },
+      {
+        "key": "F",
+        "text": "Elementos que expresan emociones"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Los marcadores del discurso organizan y conectan el texto."
   },
@@ -922,6 +1376,14 @@
     "statement": "La oración pasiva se caracteriza por:",
     "options": [
       {
+        "key": "A",
+        "text": "El sujeto recibe la acción del verbo"
+      },
+      {
+        "key": "B",
+        "text": "El sujeto realiza la acción"
+      },
+      {
         "key": "C",
         "text": "No tener sujeto"
       },
@@ -949,6 +1411,14 @@
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE SINTAXIS (1–40)",
     "statement": "La oración activa se caracteriza por:",
     "options": [
+      {
+        "key": "A",
+        "text": "El sujeto realiza la acción del verbo"
+      },
+      {
+        "key": "B",
+        "text": "El sujeto recibe la acción"
+      },
       {
         "key": "C",
         "text": "No tener sujeto"
@@ -1014,6 +1484,10 @@
     "statement": "Los determinantes del sintagma nominal son:",
     "options": [
       {
+        "key": "A",
+        "text": "Artículos, demostrativos, posesivos, numerales, indefinidos"
+      },
+      {
         "key": "B",
         "text": "Solo artículos"
       },
@@ -1046,8 +1520,16 @@
     "statement": "El artículo determinado es:",
     "options": [
       {
+        "key": "A",
+        "text": "El, la, los, las"
+      },
+      {
         "key": "B",
         "text": "Un, una, unos, unas"
+      },
+      {
+        "key": "C",
+        "text": "Este, ese, aquel"
       },
       {
         "key": "D",
@@ -1056,6 +1538,10 @@
       {
         "key": "E",
         "text": "Uno, dos, tres"
+      },
+      {
+        "key": "F",
+        "text": "Alguno, ninguno"
       }
     ],
     "correctAnswer": "A",
@@ -1074,12 +1560,24 @@
         "text": "Un, una, unos, unas"
       },
       {
+        "key": "B",
+        "text": "El, la, los, las"
+      },
+      {
+        "key": "C",
+        "text": "Este, ese, aquel"
+      },
+      {
         "key": "D",
         "text": "Mi, tu, su"
       },
       {
         "key": "E",
         "text": "Uno, dos, tres"
+      },
+      {
+        "key": "F",
+        "text": "Alguno, ninguno"
       }
     ],
     "correctAnswer": "A",
@@ -1094,6 +1592,14 @@
     "statement": "Los demostrativos son:",
     "options": [
       {
+        "key": "A",
+        "text": "Este, ese, aquel y sus variantes"
+      },
+      {
+        "key": "B",
+        "text": "El, la, los, las"
+      },
+      {
         "key": "C",
         "text": "Un, una, unos, unas"
       },
@@ -1104,6 +1610,10 @@
       {
         "key": "E",
         "text": "Uno, dos, tres"
+      },
+      {
+        "key": "F",
+        "text": "Alguno, ninguno"
       }
     ],
     "correctAnswer": "A",
@@ -1122,12 +1632,24 @@
         "text": "Mi, tu, su, nuestro, vuestro y sus variantes"
       },
       {
+        "key": "B",
+        "text": "El, la, los, las"
+      },
+      {
         "key": "C",
         "text": "Un, una, unos, unas"
       },
       {
+        "key": "D",
+        "text": "Este, ese, aquel"
+      },
+      {
         "key": "E",
         "text": "Uno, dos, tres"
+      },
+      {
+        "key": "F",
+        "text": "Alguno, ninguno"
       }
     ],
     "correctAnswer": "A",
@@ -1141,6 +1663,10 @@
     "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
     "statement": "Los numerales pueden ser:",
     "options": [
+      {
+        "key": "A",
+        "text": "Cardinales y ordinales"
+      },
       {
         "key": "B",
         "text": "Solo cardinales"
@@ -1174,8 +1700,20 @@
     "statement": "Los indefinidos son:",
     "options": [
       {
+        "key": "A",
+        "text": "Alguno, ninguno, todo, mucho, poco, etc."
+      },
+      {
+        "key": "B",
+        "text": "El, la, los, las"
+      },
+      {
         "key": "C",
         "text": "Un, una, unos, unas"
+      },
+      {
+        "key": "D",
+        "text": "Este, ese, aquel"
       },
       {
         "key": "E",
@@ -1206,8 +1744,16 @@
         "text": "Núcleo del sintagma"
       },
       {
+        "key": "C",
+        "text": "Determinante"
+      },
+      {
         "key": "D",
         "text": "Verbo"
+      },
+      {
+        "key": "E",
+        "text": "Adverbio"
       },
       {
         "key": "F",
@@ -1242,6 +1788,10 @@
         "text": "Tiempo y modo"
       },
       {
+        "key": "E",
+        "text": "Aspecto y voz"
+      },
+      {
         "key": "F",
         "text": "Modo y número"
       }
@@ -1257,6 +1807,10 @@
     "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
     "statement": "La aposición puede ser:",
     "options": [
+      {
+        "key": "A",
+        "text": "Explicativa o especificativa"
+      },
       {
         "key": "B",
         "text": "Solo explicativa"
@@ -1290,8 +1844,16 @@
     "statement": "La aposición explicativa se separa mediante:",
     "options": [
       {
+        "key": "A",
+        "text": "Comas"
+      },
+      {
         "key": "B",
         "text": "Punto y coma"
+      },
+      {
+        "key": "C",
+        "text": "Dos puntos"
       },
       {
         "key": "D",
@@ -1300,6 +1862,10 @@
       {
         "key": "E",
         "text": "Paréntesis"
+      },
+      {
+        "key": "F",
+        "text": "Corchetes"
       }
     ],
     "correctAnswer": "A",
@@ -1350,6 +1916,26 @@
     "statement": "En \"el libro de Juan\", \"de Juan\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento del nombre"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
+      {
         "key": "F",
         "text": "Predicativo"
       }
@@ -1366,8 +1952,28 @@
     "statement": "En \"la casa blanca\", \"blanca\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adjetivo que modifica al sustantivo"
+      },
+      {
         "key": "B",
         "text": "Núcleo del sintagma"
+      },
+      {
+        "key": "C",
+        "text": "Determinante"
+      },
+      {
+        "key": "D",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "E",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "F",
+        "text": "Complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
@@ -1381,6 +1987,26 @@
     "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
     "statement": "En \"mi amigo Pedro\", \"Pedro\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Aposición"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
       {
         "key": "F",
         "text": "Predicativo"
@@ -1434,8 +2060,24 @@
     "statement": "En \"los tres libros\", \"los\" y \"tres\" son:",
     "options": [
       {
+        "key": "A",
+        "text": "Determinantes"
+      },
+      {
         "key": "B",
         "text": "Núcleos"
+      },
+      {
+        "key": "C",
+        "text": "Adjetivos"
+      },
+      {
+        "key": "D",
+        "text": "Complementos"
+      },
+      {
+        "key": "E",
+        "text": "Aposiciones"
       },
       {
         "key": "F",
@@ -1454,12 +2096,24 @@
     "statement": "En \"este coche rojo\", \"este\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Determinante demostrativo"
+      },
+      {
+        "key": "B",
+        "text": "Adjetivo"
+      },
+      {
         "key": "C",
         "text": "Sustantivo"
       },
       {
         "key": "D",
         "text": "Pronombre"
+      },
+      {
+        "key": "E",
+        "text": "Adverbio"
       },
       {
         "key": "F",
@@ -1478,12 +2132,24 @@
     "statement": "En \"este coche rojo\", \"rojo\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adjetivo"
+      },
+      {
+        "key": "B",
+        "text": "Determinante"
+      },
+      {
         "key": "C",
         "text": "Sustantivo"
       },
       {
         "key": "D",
         "text": "Pronombre"
+      },
+      {
+        "key": "E",
+        "text": "Adverbio"
       },
       {
         "key": "F",
@@ -1502,12 +2168,24 @@
     "statement": "En \"muchos alumnos\", \"muchos\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Determinante indefinido"
+      },
+      {
+        "key": "B",
+        "text": "Adjetivo"
+      },
+      {
         "key": "C",
         "text": "Sustantivo"
       },
       {
         "key": "D",
         "text": "Pronombre"
+      },
+      {
+        "key": "E",
+        "text": "Adverbio"
       },
       {
         "key": "F",
@@ -1526,12 +2204,24 @@
     "statement": "En \"el primer día\", \"primer\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Determinante numeral ordinal"
+      },
+      {
+        "key": "B",
+        "text": "Adjetivo"
+      },
+      {
         "key": "C",
         "text": "Sustantivo"
       },
       {
         "key": "D",
         "text": "Pronombre"
+      },
+      {
+        "key": "E",
+        "text": "Adverbio"
       },
       {
         "key": "F",
@@ -1550,12 +2240,24 @@
     "statement": "En \"dos casas\", \"dos\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Determinante numeral cardinal"
+      },
+      {
+        "key": "B",
+        "text": "Adjetivo"
+      },
+      {
         "key": "C",
         "text": "Sustantivo"
       },
       {
         "key": "D",
         "text": "Pronombre"
+      },
+      {
+        "key": "E",
+        "text": "Adverbio"
       },
       {
         "key": "F",
@@ -1616,6 +2318,22 @@
       {
         "key": "B",
         "text": "Predicado"
+      },
+      {
+        "key": "C",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "F",
+        "text": "Atributo"
       }
     ],
     "correctAnswer": "A",
@@ -1630,8 +2348,24 @@
     "statement": "En \"Juan compró pan\", \"pan\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento directo"
+      },
+      {
         "key": "B",
         "text": "Sujeto"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -1650,8 +2384,24 @@
     "statement": "En \"Juan dio el libro a María\", \"a María\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -1670,8 +2420,24 @@
     "statement": "En \"Juan dio el libro a María\", \"el libro\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento indirecto"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -1706,6 +2472,10 @@
         "text": "Nos, os"
       },
       {
+        "key": "E",
+        "text": "Esto, eso, aquello"
+      },
+      {
         "key": "F",
         "text": "Él, ella, ellos"
       }
@@ -1736,6 +2506,10 @@
       {
         "key": "D",
         "text": "Nos, os"
+      },
+      {
+        "key": "E",
+        "text": "Esto, eso, aquello"
       },
       {
         "key": "F",
@@ -1772,6 +2546,10 @@
       {
         "key": "E",
         "text": "Nos, os"
+      },
+      {
+        "key": "F",
+        "text": "Esto, eso, aquello"
       }
     ],
     "correctAnswer": "A",
@@ -1786,8 +2564,24 @@
     "statement": "En \"Se lo dije\", \"se\" sustituye a:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -1806,8 +2600,24 @@
     "statement": "En \"Se lo dije\", \"lo\" sustituye a:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento indirecto"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -1862,6 +2672,22 @@
     "statement": "En \"Juan es médico\", \"médico\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Atributo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -1882,6 +2708,22 @@
     "statement": "En \"Juan está cansado\", \"cansado\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Atributo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -1901,6 +2743,22 @@
     "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
     "statement": "En \"Juan parece inteligente\", \"inteligente\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Atributo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -1938,6 +2796,10 @@
         "text": "Tiempo y modo"
       },
       {
+        "key": "E",
+        "text": "Aspecto y voz"
+      },
+      {
         "key": "F",
         "text": "Modo y número"
       }
@@ -1953,6 +2815,10 @@
     "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
     "statement": "El predicativo concuerda con:",
     "options": [
+      {
+        "key": "A",
+        "text": "El sujeto o el complemento directo"
+      },
       {
         "key": "B",
         "text": "Solo el sujeto"
@@ -1990,6 +2856,22 @@
         "text": "Predicativo"
       },
       {
+        "key": "B",
+        "text": "Atributo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Complemento circunstancial"
+      },
+      {
         "key": "F",
         "text": "Sujeto"
       }
@@ -2008,6 +2890,22 @@
       {
         "key": "A",
         "text": "Predicativo del complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "Atributo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Complemento circunstancial"
       },
       {
         "key": "F",
@@ -2062,6 +2960,22 @@
     "statement": "En \"Juan estudia en la biblioteca\", \"en la biblioteca\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento circunstancial de lugar"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -2081,6 +2995,22 @@
     "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
     "statement": "En \"Juan llegó ayer\", \"ayer\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complemento circunstancial de tiempo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -2102,6 +3032,22 @@
     "statement": "En \"Juan estudia con atención\", \"con atención\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento circunstancial de modo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -2122,6 +3068,22 @@
     "statement": "En \"Juan no vino por la lluvia\", \"por la lluvia\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento circunstancial de causa"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -2141,6 +3103,22 @@
     "sectionTitle": "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)",
     "statement": "En \"Juan estudia para aprobar\", \"para aprobar\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complemento circunstancial de finalidad"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -2198,6 +3176,26 @@
     "statement": "En \"El libro fue escrito por Juan\", \"por Juan\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento agente"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
+      {
         "key": "F",
         "text": "Predicativo"
       }
@@ -2220,6 +3218,22 @@
       {
         "key": "B",
         "text": "Sujeto agente"
+      },
+      {
+        "key": "C",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "F",
+        "text": "Atributo ---"
       }
     ],
     "correctAnswer": "A",
@@ -2269,6 +3283,10 @@
     "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
     "statement": "El verbo expresa:",
     "options": [
+      {
+        "key": "A",
+        "text": "Acción, proceso o estado"
+      },
       {
         "key": "B",
         "text": "Solo acción"
@@ -2456,6 +3474,10 @@
       {
         "key": "C",
         "text": "Ser, haber, tener"
+      },
+      {
+        "key": "D",
+        "text": "Estar, haber, hacer"
       },
       {
         "key": "E",
@@ -2738,6 +3760,10 @@
         "text": "Ser + participio"
       },
       {
+        "key": "C",
+        "text": "Estar + gerundio"
+      },
+      {
         "key": "D",
         "text": "Tener + participio"
       },
@@ -2764,6 +3790,10 @@
       {
         "key": "A",
         "text": "Verbo auxiliar + verbo en forma no personal"
+      },
+      {
+        "key": "B",
+        "text": "Dos verbos conjugados"
       },
       {
         "key": "C",
@@ -2906,8 +3936,16 @@
         "text": "Realidad o certeza"
       },
       {
+        "key": "B",
+        "text": "Duda o posibilidad"
+      },
+      {
         "key": "C",
         "text": "Mandato"
+      },
+      {
+        "key": "D",
+        "text": "Deseo"
       },
       {
         "key": "E",
@@ -2930,12 +3968,20 @@
     "statement": "El modo subjuntivo expresa:",
     "options": [
       {
+        "key": "A",
+        "text": "Duda, posibilidad, deseo o irrealidad"
+      },
+      {
         "key": "B",
         "text": "Realidad o certeza"
       },
       {
         "key": "C",
         "text": "Mandato"
+      },
+      {
+        "key": "D",
+        "text": "Afirmación"
       },
       {
         "key": "E",
@@ -2966,6 +4012,14 @@
         "text": "Realidad o certeza"
       },
       {
+        "key": "C",
+        "text": "Duda o posibilidad"
+      },
+      {
+        "key": "D",
+        "text": "Deseo"
+      },
+      {
         "key": "E",
         "text": "Irrealidad"
       },
@@ -2986,12 +4040,28 @@
     "statement": "El tiempo verbal indica:",
     "options": [
       {
+        "key": "A",
+        "text": "El momento en que se realiza la acción"
+      },
+      {
+        "key": "B",
+        "text": "El modo de la acción"
+      },
+      {
+        "key": "C",
+        "text": "El aspecto de la acción"
+      },
+      {
         "key": "D",
         "text": "La voz de la acción"
       },
       {
         "key": "E",
         "text": "La persona de la acción"
+      },
+      {
+        "key": "F",
+        "text": "El número de la acción"
       }
     ],
     "correctAnswer": "A",
@@ -3010,12 +4080,24 @@
         "text": "Si la acción está terminada o en desarrollo"
       },
       {
+        "key": "B",
+        "text": "El momento de la acción"
+      },
+      {
+        "key": "C",
+        "text": "El modo de la acción"
+      },
+      {
         "key": "D",
         "text": "La voz de la acción"
       },
       {
         "key": "E",
         "text": "La persona de la acción"
+      },
+      {
+        "key": "F",
+        "text": "El número de la acción"
       }
     ],
     "correctAnswer": "A",
@@ -3030,12 +4112,28 @@
     "statement": "La voz activa indica que:",
     "options": [
       {
+        "key": "A",
+        "text": "El sujeto realiza la acción"
+      },
+      {
+        "key": "B",
+        "text": "El sujeto recibe la acción"
+      },
+      {
         "key": "C",
         "text": "No hay sujeto"
       },
       {
         "key": "D",
         "text": "Hay dos sujetos"
+      },
+      {
+        "key": "E",
+        "text": "El sujeto es paciente"
+      },
+      {
+        "key": "F",
+        "text": "El sujeto es agente y paciente"
       }
     ],
     "correctAnswer": "A",
@@ -3050,12 +4148,28 @@
     "statement": "La voz pasiva indica que:",
     "options": [
       {
+        "key": "A",
+        "text": "El sujeto recibe la acción"
+      },
+      {
+        "key": "B",
+        "text": "El sujeto realiza la acción"
+      },
+      {
         "key": "C",
         "text": "No hay sujeto"
       },
       {
         "key": "D",
         "text": "Hay dos sujetos"
+      },
+      {
+        "key": "E",
+        "text": "El sujeto es agente"
+      },
+      {
+        "key": "F",
+        "text": "El sujeto es agente y paciente"
       }
     ],
     "correctAnswer": "A",
@@ -3076,6 +4190,10 @@
       {
         "key": "B",
         "text": "Haber + participio"
+      },
+      {
+        "key": "C",
+        "text": "Estar + gerundio"
       },
       {
         "key": "D",
@@ -3106,8 +4224,16 @@
         "text": "Pasiva"
       },
       {
+        "key": "B",
+        "text": "Activa"
+      },
+      {
         "key": "C",
         "text": "Impersonal"
+      },
+      {
+        "key": "D",
+        "text": "Copulativa"
       },
       {
         "key": "E",
@@ -3130,12 +4256,20 @@
     "statement": "En \"Juan construyó la casa\", la oración es:",
     "options": [
       {
+        "key": "A",
+        "text": "Activa"
+      },
+      {
         "key": "B",
         "text": "Pasiva"
       },
       {
         "key": "C",
         "text": "Impersonal"
+      },
+      {
+        "key": "D",
+        "text": "Copulativa"
       },
       {
         "key": "E",
@@ -3170,6 +4304,10 @@
         "text": "Haber + participio"
       },
       {
+        "key": "D",
+        "text": "Estar + gerundio"
+      },
+      {
         "key": "E",
         "text": "Ir + infinitivo"
       },
@@ -3198,8 +4336,16 @@
         "text": "Pasiva perifrástica"
       },
       {
+        "key": "C",
+        "text": "Activa"
+      },
+      {
         "key": "D",
         "text": "Impersonal"
+      },
+      {
+        "key": "E",
+        "text": "Copulativa"
       },
       {
         "key": "F",
@@ -3224,6 +4370,14 @@
       {
         "key": "B",
         "text": "Pasiva refleja"
+      },
+      {
+        "key": "C",
+        "text": "Activa"
+      },
+      {
+        "key": "D",
+        "text": "Copulativa"
       },
       {
         "key": "E",
@@ -3354,6 +4508,10 @@
     "statement": "El verbo \"ser\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Copulativo"
+      },
+      {
         "key": "B",
         "text": "Predicativo"
       },
@@ -3386,6 +4544,10 @@
     "statement": "El verbo \"estar\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Copulativo"
+      },
+      {
         "key": "B",
         "text": "Predicativo"
       },
@@ -3417,6 +4579,10 @@
     "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
     "statement": "El verbo \"parecer\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Copulativo"
+      },
       {
         "key": "B",
         "text": "Predicativo"
@@ -3454,6 +4620,14 @@
         "text": "Predicativo"
       },
       {
+        "key": "B",
+        "text": "Copulativo"
+      },
+      {
+        "key": "C",
+        "text": "Auxiliar"
+      },
+      {
         "key": "D",
         "text": "Impersonal"
       },
@@ -3477,6 +4651,14 @@
     "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
     "statement": "El verbo \"haber\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Auxiliar"
+      },
+      {
+        "key": "B",
+        "text": "Copulativo"
+      },
       {
         "key": "C",
         "text": "Predicativo"
@@ -3510,6 +4692,10 @@
         "text": "Impersonal"
       },
       {
+        "key": "B",
+        "text": "Copulativo"
+      },
+      {
         "key": "C",
         "text": "Predicativo"
       },
@@ -3540,6 +4726,10 @@
       {
         "key": "A",
         "text": "Impersonal"
+      },
+      {
+        "key": "B",
+        "text": "Copulativo"
       },
       {
         "key": "C",
@@ -3584,6 +4774,14 @@
       {
         "key": "D",
         "text": "Pasivo"
+      },
+      {
+        "key": "E",
+        "text": "Dativo"
+      },
+      {
+        "key": "F",
+        "text": "Acusativo"
       }
     ],
     "correctAnswer": "A",
@@ -3612,6 +4810,14 @@
       {
         "key": "D",
         "text": "Pasivo"
+      },
+      {
+        "key": "E",
+        "text": "Dativo"
+      },
+      {
+        "key": "F",
+        "text": "Acusativo"
       }
     ],
     "correctAnswer": "A",
@@ -3640,6 +4846,14 @@
       {
         "key": "D",
         "text": "Pasivo"
+      },
+      {
+        "key": "E",
+        "text": "Dativo"
+      },
+      {
+        "key": "F",
+        "text": "Acusativo"
       }
     ],
     "correctAnswer": "A",
@@ -3668,6 +4882,14 @@
       {
         "key": "D",
         "text": "Impersonal"
+      },
+      {
+        "key": "E",
+        "text": "Dativo"
+      },
+      {
+        "key": "F",
+        "text": "Acusativo"
       }
     ],
     "correctAnswer": "A",
@@ -3754,8 +4976,24 @@
     "statement": "En \"Dije la verdad a Juan\", \"la verdad\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento indirecto"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -3774,8 +5012,24 @@
     "statement": "En \"Dije la verdad a Juan\", \"a Juan\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -3794,8 +5048,24 @@
     "statement": "En \"Compré flores para María\", \"para María\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -3813,6 +5083,22 @@
     "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
     "statement": "En \"Compré flores en el mercado\", \"en el mercado\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complemento circunstancial de lugar"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -3834,6 +5120,22 @@
     "statement": "En \"Estudio porque quiero aprender\", \"porque quiero aprender\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento circunstancial de causa"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -3853,6 +5155,22 @@
     "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
     "statement": "En \"Vine para ayudarte\", \"para ayudarte\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complemento circunstancial de finalidad"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -3874,6 +5192,22 @@
     "statement": "En \"Lo hice con mucho cuidado\", \"con mucho cuidado\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento circunstancial de modo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -3893,6 +5227,22 @@
     "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
     "statement": "En \"Llegaré mañana\", \"mañana\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complemento circunstancial de tiempo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -3914,6 +5264,26 @@
     "statement": "En \"Juan es más alto que Pedro\", \"que Pedro\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento del adjetivo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
+      {
         "key": "F",
         "text": "Predicativo"
       }
@@ -3929,6 +5299,26 @@
     "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
     "statement": "En \"Muy lejos de aquí\", \"de aquí\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complemento del adverbio"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
       {
         "key": "F",
         "text": "Predicativo"
@@ -3946,6 +5336,26 @@
     "statement": "En \"Cansado de esperar\", \"de esperar\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento del adjetivo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
+      {
         "key": "F",
         "text": "Predicativo"
       }
@@ -3961,6 +5371,26 @@
     "sectionTitle": "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)",
     "statement": "En \"El hombre de la barba\", \"de la barba\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complemento del nombre"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
       {
         "key": "F",
         "text": "Predicativo ---"
@@ -3978,8 +5408,28 @@
     "statement": "El sujeto de una oración es:",
     "options": [
       {
+        "key": "A",
+        "text": "El elemento del que se dice algo"
+      },
+      {
         "key": "B",
         "text": "Lo que se dice del sujeto"
+      },
+      {
+        "key": "C",
+        "text": "El verbo"
+      },
+      {
+        "key": "D",
+        "text": "El complemento directo"
+      },
+      {
+        "key": "E",
+        "text": "El complemento indirecto"
+      },
+      {
+        "key": "F",
+        "text": "El complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
@@ -3996,6 +5446,26 @@
       {
         "key": "A",
         "text": "Lo que se dice del sujeto"
+      },
+      {
+        "key": "B",
+        "text": "El elemento del que se dice algo"
+      },
+      {
+        "key": "C",
+        "text": "El sujeto"
+      },
+      {
+        "key": "D",
+        "text": "El complemento directo"
+      },
+      {
+        "key": "E",
+        "text": "El complemento indirecto"
+      },
+      {
+        "key": "F",
+        "text": "El complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
@@ -4010,12 +5480,24 @@
     "statement": "En \"El niño juega\", el sujeto es:",
     "options": [
       {
+        "key": "A",
+        "text": "El niño"
+      },
+      {
         "key": "B",
         "text": "juega"
       },
       {
+        "key": "C",
+        "text": "El"
+      },
+      {
         "key": "D",
         "text": "niño juega"
+      },
+      {
+        "key": "E",
+        "text": "El niño juega"
       },
       {
         "key": "F",
@@ -4038,8 +5520,20 @@
         "text": "juega"
       },
       {
+        "key": "B",
+        "text": "El niño"
+      },
+      {
+        "key": "C",
+        "text": "El"
+      },
+      {
         "key": "D",
         "text": "niño"
+      },
+      {
+        "key": "E",
+        "text": "El niño juega"
       },
       {
         "key": "F",
@@ -4184,6 +5678,10 @@
       {
         "key": "E",
         "text": "Nos, os"
+      },
+      {
+        "key": "F",
+        "text": "Esto, eso, aquello"
       }
     ],
     "correctAnswer": "A",
@@ -4212,6 +5710,10 @@
       {
         "key": "D",
         "text": "Tiempo y modo"
+      },
+      {
+        "key": "E",
+        "text": "Aspecto y voz"
       },
       {
         "key": "F",
@@ -4346,12 +5848,20 @@
         "text": "Gramatical"
       },
       {
+        "key": "C",
+        "text": "Elidido"
+      },
+      {
         "key": "D",
         "text": "Impersonal"
       },
       {
         "key": "E",
         "text": "Paciente"
+      },
+      {
+        "key": "F",
+        "text": "Agente"
       }
     ],
     "correctAnswer": "A",
@@ -4382,6 +5892,10 @@
         "text": "Paciente"
       },
       {
+        "key": "E",
+        "text": "Agente"
+      },
+      {
         "key": "F",
         "text": "No hay sujeto"
       }
@@ -4398,6 +5912,10 @@
     "statement": "En \"Llueve\", el sujeto es:",
     "options": [
       {
+        "key": "A",
+        "text": "No hay sujeto (impersonal)"
+      },
+      {
         "key": "B",
         "text": "Léxico"
       },
@@ -4406,8 +5924,16 @@
         "text": "Gramatical"
       },
       {
+        "key": "D",
+        "text": "Elidido"
+      },
+      {
         "key": "E",
         "text": "Paciente"
+      },
+      {
+        "key": "F",
+        "text": "Agente"
       }
     ],
     "correctAnswer": "A",
@@ -4422,6 +5948,10 @@
     "statement": "En \"Hay libros\", el sujeto es:",
     "options": [
       {
+        "key": "A",
+        "text": "No hay sujeto (impersonal)"
+      },
+      {
         "key": "B",
         "text": "Léxico"
       },
@@ -4430,8 +5960,16 @@
         "text": "Gramatical"
       },
       {
+        "key": "D",
+        "text": "Elidido"
+      },
+      {
         "key": "E",
         "text": "Paciente"
+      },
+      {
+        "key": "F",
+        "text": "Agente"
       }
     ],
     "correctAnswer": "A",
@@ -4734,6 +6272,22 @@
     "statement": "En \"Juan es profesor\", \"profesor\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Atributo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -4754,6 +6308,22 @@
     "statement": "En \"Juan es alto\", \"alto\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Atributo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -4773,6 +6343,22 @@
     "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
     "statement": "En \"Juan es de Madrid\", \"de Madrid\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Atributo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -4830,6 +6416,22 @@
     "statement": "En \"Juan es médico y Pedro también lo es\", \"lo\" sustituye a:",
     "options": [
       {
+        "key": "A",
+        "text": "Atributo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -4864,6 +6466,14 @@
       {
         "key": "D",
         "text": "Lleva dos verbos"
+      },
+      {
+        "key": "E",
+        "text": "Es impersonal"
+      },
+      {
+        "key": "F",
+        "text": "Es pasiva"
       }
     ],
     "correctAnswer": "A",
@@ -4892,6 +6502,14 @@
       {
         "key": "D",
         "text": "Lleva dos verbos"
+      },
+      {
+        "key": "E",
+        "text": "Es impersonal"
+      },
+      {
+        "key": "F",
+        "text": "Es pasiva"
       }
     ],
     "correctAnswer": "A",
@@ -5012,7 +6630,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
     "statement": "La oración recíproca es la que:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Expresa acción mutua"
+      },
+      {
+        "key": "B",
+        "text": "Expresa acción reflexiva"
+      },
+      {
+        "key": "C",
+        "text": "Expresa acción transitiva"
+      },
+      {
+        "key": "D",
+        "text": "Expresa acción intransitiva"
+      },
+      {
+        "key": "E",
+        "text": "Expresa acción copulativa"
+      },
+      {
+        "key": "F",
+        "text": "Expresa acción impersonal"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La oración recíproca expresa acción mutua."
   },
@@ -5061,6 +6704,14 @@
     "statement": "La oración pasiva es la que:",
     "options": [
       {
+        "key": "A",
+        "text": "El sujeto recibe la acción"
+      },
+      {
+        "key": "B",
+        "text": "El sujeto realiza la acción"
+      },
+      {
         "key": "C",
         "text": "No tiene sujeto"
       },
@@ -5088,6 +6739,14 @@
     "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
     "statement": "La oración activa es la que:",
     "options": [
+      {
+        "key": "A",
+        "text": "El sujeto realiza la acción"
+      },
+      {
+        "key": "B",
+        "text": "El sujeto recibe la acción"
+      },
       {
         "key": "C",
         "text": "No tiene sujeto"
@@ -5297,6 +6956,10 @@
     "statement": "En \"Se vive bien aquí\", el sujeto es:",
     "options": [
       {
+        "key": "A",
+        "text": "No hay sujeto (impersonal)"
+      },
+      {
         "key": "B",
         "text": "Se"
       },
@@ -5329,6 +6992,10 @@
     "statement": "En \"Hay muchos libros\", el sujeto es:",
     "options": [
       {
+        "key": "A",
+        "text": "No hay sujeto (impersonal)"
+      },
+      {
         "key": "B",
         "text": "muchos libros"
       },
@@ -5360,6 +7027,10 @@
     "sectionTitle": "SECCIÓN IV: SUJETO Y PREDICADO (151–200)",
     "statement": "En \"Llueve mucho\", el sujeto es:",
     "options": [
+      {
+        "key": "A",
+        "text": "No hay sujeto (impersonal)"
+      },
       {
         "key": "B",
         "text": "Llueve"
@@ -5405,6 +7076,14 @@
         "text": "Simple, pasiva, transitiva"
       },
       {
+        "key": "D",
+        "text": "Compuesta, activa, transitiva"
+      },
+      {
+        "key": "E",
+        "text": "Compuesta, pasiva, intransitiva"
+      },
+      {
         "key": "F",
         "text": "Simple, copulativa, transitiva"
       }
@@ -5431,6 +7110,18 @@
       {
         "key": "C",
         "text": "Simple, pasiva"
+      },
+      {
+        "key": "D",
+        "text": "Compuesta, copulativa"
+      },
+      {
+        "key": "E",
+        "text": "Compuesta, predicativa"
+      },
+      {
+        "key": "F",
+        "text": "Compuesta, pasiva"
       }
     ],
     "correctAnswer": "A",
@@ -5455,6 +7146,14 @@
       {
         "key": "C",
         "text": "Simple, predicativa, intransitiva"
+      },
+      {
+        "key": "D",
+        "text": "Compuesta, predicativa, transitiva"
+      },
+      {
+        "key": "E",
+        "text": "Compuesta, copulativa, transitiva"
       },
       {
         "key": "F",
@@ -5485,6 +7184,14 @@
         "text": "Simple, predicativa, transitiva"
       },
       {
+        "key": "D",
+        "text": "Compuesta, predicativa, intransitiva"
+      },
+      {
+        "key": "E",
+        "text": "Compuesta, copulativa, intransitiva"
+      },
+      {
         "key": "F",
         "text": "Simple, pasiva, intransitiva ---"
       }
@@ -5499,7 +7206,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
     "statement": "El complemento directo es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que recibe directamente la acción del verbo"
+      },
+      {
+        "key": "B",
+        "text": "El que recibe indirectamente la acción"
+      },
+      {
+        "key": "C",
+        "text": "El que indica circunstancias"
+      },
+      {
+        "key": "D",
+        "text": "El que aparece con verbos copulativos"
+      },
+      {
+        "key": "E",
+        "text": "El que indica el agente"
+      },
+      {
+        "key": "F",
+        "text": "El que modifica al sustantivo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El CD recibe directamente la acción del verbo."
   },
@@ -5530,6 +7262,10 @@
       {
         "key": "E",
         "text": "Él, ella, ellos"
+      },
+      {
+        "key": "F",
+        "text": "Esto, eso, aquello"
       }
     ],
     "correctAnswer": "A",
@@ -5562,6 +7298,10 @@
       {
         "key": "E",
         "text": "Él, ella, ellos"
+      },
+      {
+        "key": "F",
+        "text": "Esto, eso, aquello"
       }
     ],
     "correctAnswer": "A",
@@ -5648,8 +7388,24 @@
     "statement": "En \"Compré el libro\", \"el libro\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento indirecto"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -5668,8 +7424,24 @@
     "statement": "En \"Di el libro a Juan\", \"el libro\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento indirecto"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -5688,8 +7460,24 @@
     "statement": "En \"Di el libro a Juan\", \"a Juan\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -5708,8 +7496,24 @@
     "statement": "En \"Compré flores para María\", \"flores\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento indirecto"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -5728,8 +7532,24 @@
     "statement": "En \"Compré flores para María\", \"para María\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -5784,6 +7604,22 @@
     "statement": "En \"Estudio en la biblioteca\", \"en la biblioteca\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento circunstancial de lugar"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -5803,6 +7639,22 @@
     "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
     "statement": "En \"Llegué ayer\", \"ayer\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complemento circunstancial de tiempo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -5824,6 +7676,22 @@
     "statement": "En \"Lo hice con cuidado\", \"con cuidado\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento circunstancial de modo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -5843,6 +7711,22 @@
     "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
     "statement": "En \"No vino por la lluvia\", \"por la lluvia\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complemento circunstancial de causa"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -5864,6 +7748,22 @@
     "statement": "En \"Estudio para aprobar\", \"para aprobar\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento circunstancial de finalidad"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -5883,6 +7783,22 @@
     "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
     "statement": "En \"Vino con Juan\", \"con Juan\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complemento circunstancial de compañía"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -5904,6 +7820,22 @@
     "statement": "En \"Lo hizo con un martillo\", \"con un martillo\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento circunstancial de instrumento"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -5923,6 +7855,22 @@
     "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
     "statement": "En \"Cuesta cien pesos\", \"cien pesos\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complemento circunstancial de cantidad"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -5980,6 +7928,26 @@
     "statement": "En \"El libro fue escrito por Juan\", \"por Juan\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento agente"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
+      {
         "key": "F",
         "text": "Predicativo"
       }
@@ -6032,6 +8000,10 @@
     "statement": "El complemento predicativo concuerda con:",
     "options": [
       {
+        "key": "A",
+        "text": "El sujeto o el complemento directo"
+      },
+      {
         "key": "B",
         "text": "Solo el sujeto"
       },
@@ -6068,6 +8040,22 @@
         "text": "Predicativo"
       },
       {
+        "key": "B",
+        "text": "Atributo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Complemento circunstancial"
+      },
+      {
         "key": "F",
         "text": "Sujeto"
       }
@@ -6086,6 +8074,22 @@
       {
         "key": "A",
         "text": "Predicativo del complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "Atributo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Complemento circunstancial"
       },
       {
         "key": "F",
@@ -6108,6 +8112,22 @@
         "text": "Predicativo del complemento directo"
       },
       {
+        "key": "B",
+        "text": "Atributo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Complemento circunstancial"
+      },
+      {
         "key": "F",
         "text": "Sujeto"
       }
@@ -6123,6 +8143,22 @@
     "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
     "statement": "En \"Juan es médico\", \"médico\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Atributo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -6143,6 +8179,22 @@
     "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
     "statement": "En \"Juan está cansado\", \"cansado\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Atributo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
       {
         "key": "E",
         "text": "Predicativo"
@@ -6200,6 +8252,22 @@
     "statement": "En \"Juan es médico y Pedro también lo es\", \"lo\" sustituye a:",
     "options": [
       {
+        "key": "A",
+        "text": "Atributo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
         "key": "E",
         "text": "Predicativo"
       },
@@ -6256,6 +8324,26 @@
     "statement": "En \"el libro de Juan\", \"de Juan\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento del nombre"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
+      {
         "key": "F",
         "text": "Predicativo"
       }
@@ -6272,8 +8360,28 @@
     "statement": "En \"la casa blanca\", \"blanca\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adjetivo que modifica al sustantivo"
+      },
+      {
         "key": "B",
         "text": "Núcleo del sintagma"
+      },
+      {
+        "key": "C",
+        "text": "Determinante"
+      },
+      {
+        "key": "D",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "E",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "F",
+        "text": "Complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
@@ -6287,6 +8395,26 @@
     "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
     "statement": "En \"mi amigo Pedro\", \"Pedro\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Aposición"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
       {
         "key": "F",
         "text": "Predicativo"
@@ -6340,6 +8468,26 @@
     "statement": "En \"Cansado de esperar\", \"de esperar\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento del adjetivo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
+      {
         "key": "F",
         "text": "Predicativo"
       }
@@ -6356,6 +8504,26 @@
     "statement": "En \"Muy lejos de aquí\", \"de aquí\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento del adverbio"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
+      {
         "key": "F",
         "text": "Predicativo"
       }
@@ -6371,6 +8539,26 @@
     "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
     "statement": "En \"Juan es más alto que Pedro\", \"que Pedro\" es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complemento del adjetivo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
       {
         "key": "F",
         "text": "Predicativo"
@@ -6424,6 +8612,26 @@
     "statement": "En \"El hombre de la barba\", \"de la barba\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento del nombre"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
+      },
+      {
         "key": "F",
         "text": "Predicativo"
       }
@@ -6438,7 +8646,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
     "statement": "El vocativo es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El elemento que sirve para llamar o invocar al interlocutor"
+      },
+      {
+        "key": "B",
+        "text": "El que recibe la acción"
+      },
+      {
+        "key": "C",
+        "text": "El que indica circunstancias"
+      },
+      {
+        "key": "D",
+        "text": "El que modifica al sustantivo"
+      },
+      {
+        "key": "E",
+        "text": "El que modifica al verbo"
+      },
+      {
+        "key": "F",
+        "text": "El que modifica al adjetivo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El vocativo sirve para llamar o invocar."
   },
@@ -6457,6 +8690,22 @@
       {
         "key": "B",
         "text": "Sujeto"
+      },
+      {
+        "key": "C",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "F",
+        "text": "Atributo"
       }
     ],
     "correctAnswer": "A",
@@ -6477,6 +8726,22 @@
       {
         "key": "B",
         "text": "Sujeto"
+      },
+      {
+        "key": "C",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "D",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "E",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "F",
+        "text": "Atributo"
       }
     ],
     "correctAnswer": "A",
@@ -6537,6 +8802,18 @@
       {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "E",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "F",
+        "text": "Complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
@@ -6549,7 +8826,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
     "statement": "Los marcadores del discurso son:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Elementos que organizan y conectan el texto"
+      },
+      {
+        "key": "B",
+        "text": "Elementos que modifican al sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Elementos que modifican al verbo"
+      },
+      {
+        "key": "D",
+        "text": "Elementos que modifican al adjetivo"
+      },
+      {
+        "key": "E",
+        "text": "Elementos que indican circunstancias"
+      },
+      {
+        "key": "F",
+        "text": "Elementos que expresan emociones"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Los marcadores del discurso organizan y conectan el texto."
   },
@@ -6572,6 +8874,18 @@
       {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "E",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "F",
+        "text": "Complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
@@ -6596,6 +8910,18 @@
       {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "E",
+        "text": "Complemento indirecto"
+      },
+      {
+        "key": "F",
+        "text": "Complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
@@ -6608,7 +8934,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
     "statement": "El complemento directo puede llevar la preposición \"a\" cuando:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Es una persona o cosa personificada"
+      },
+      {
+        "key": "B",
+        "text": "Es una cosa"
+      },
+      {
+        "key": "C",
+        "text": "Es un lugar"
+      },
+      {
+        "key": "D",
+        "text": "Es un tiempo"
+      },
+      {
+        "key": "E",
+        "text": "Es un modo"
+      },
+      {
+        "key": "F",
+        "text": "Es una causa"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El CD lleva \"a\" cuando es persona o cosa personificada."
   },
@@ -6621,8 +8972,24 @@
     "statement": "En \"Vi a Juan\", \"a Juan\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "B",
+        "text": "Complemento indirecto"
+      },
+      {
         "key": "C",
         "text": "Sujeto"
+      },
+      {
+        "key": "D",
+        "text": "Complemento circunstancial"
+      },
+      {
+        "key": "E",
+        "text": "Atributo"
       },
       {
         "key": "F",
@@ -6713,6 +9080,10 @@
     "statement": "Las oraciones compuestas pueden ser:",
     "options": [
       {
+        "key": "A",
+        "text": "Coordinadas y subordinadas"
+      },
+      {
         "key": "B",
         "text": "Solo coordinadas"
       },
@@ -6749,6 +9120,10 @@
         "text": "Ser independientes sintácticamente"
       },
       {
+        "key": "B",
+        "text": "Depender una de otra"
+      },
+      {
         "key": "C",
         "text": "No tener verbo"
       },
@@ -6776,6 +9151,10 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
     "statement": "Las oraciones subordinadas se caracterizan por:",
     "options": [
+      {
+        "key": "A",
+        "text": "Depender sintácticamente de otra"
+      },
       {
         "key": "B",
         "text": "Ser independientes"
@@ -6857,6 +9236,10 @@
         "text": "Pero, mas, sino"
       },
       {
+        "key": "D",
+        "text": "Es decir, o sea"
+      },
+      {
         "key": "E",
         "text": "Pues, porque"
       },
@@ -6887,6 +9270,10 @@
       {
         "key": "C",
         "text": "Pero, mas, sino"
+      },
+      {
+        "key": "D",
+        "text": "Es decir, o sea"
       },
       {
         "key": "E",
@@ -6921,6 +9308,10 @@
         "text": "O, u"
       },
       {
+        "key": "D",
+        "text": "Es decir, o sea"
+      },
+      {
         "key": "E",
         "text": "Pues, porque"
       },
@@ -6940,6 +9331,10 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
     "statement": "Las oraciones coordinadas explicativas se unen con:",
     "options": [
+      {
+        "key": "A",
+        "text": "Es decir, o sea"
+      },
       {
         "key": "B",
         "text": "Y, e, ni"
@@ -6973,6 +9368,18 @@
     "statement": "En \"Juan estudia y María trabaja\", la oración es:",
     "options": [
       {
+        "key": "A",
+        "text": "Coordinada copulativa"
+      },
+      {
+        "key": "B",
+        "text": "Coordinada disyuntiva"
+      },
+      {
+        "key": "C",
+        "text": "Coordinada adversativa"
+      },
+      {
         "key": "D",
         "text": "Subordinada"
       },
@@ -6996,6 +9403,18 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
     "statement": "En \"¿Vienes o te quedas?\", la oración es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Coordinada disyuntiva"
+      },
+      {
+        "key": "B",
+        "text": "Coordinada copulativa"
+      },
+      {
+        "key": "C",
+        "text": "Coordinada adversativa"
+      },
       {
         "key": "D",
         "text": "Subordinada"
@@ -7021,6 +9440,18 @@
     "statement": "En \"Estudié, pero no aprobé\", la oración es:",
     "options": [
       {
+        "key": "A",
+        "text": "Coordinada adversativa"
+      },
+      {
+        "key": "B",
+        "text": "Coordinada copulativa"
+      },
+      {
+        "key": "C",
+        "text": "Coordinada disyuntiva"
+      },
+      {
         "key": "D",
         "text": "Subordinada"
       },
@@ -7044,6 +9475,18 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
     "statement": "En \"Llegó tarde, es decir, no pudo entrar\", la oración es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Coordinada explicativa"
+      },
+      {
+        "key": "B",
+        "text": "Coordinada copulativa"
+      },
+      {
+        "key": "C",
+        "text": "Coordinada disyuntiva"
+      },
       {
         "key": "D",
         "text": "Subordinada"
@@ -7073,6 +9516,18 @@
         "text": "Yuxtapuesta"
       },
       {
+        "key": "B",
+        "text": "Coordinada copulativa"
+      },
+      {
+        "key": "C",
+        "text": "Coordinada disyuntiva"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada adversativa"
+      },
+      {
         "key": "E",
         "text": "Subordinada"
       },
@@ -7097,12 +9552,24 @@
         "text": "Sujeto, complemento directo, etc."
       },
       {
+        "key": "B",
+        "text": "Adjetivo"
+      },
+      {
+        "key": "C",
+        "text": "Adverbio"
+      },
+      {
         "key": "D",
         "text": "Verbo"
       },
       {
         "key": "E",
         "text": "Preposición"
+      },
+      {
+        "key": "F",
+        "text": "Conjunción"
       }
     ],
     "correctAnswer": "A",
@@ -7117,8 +9584,16 @@
     "statement": "Las oraciones subordinadas adjetivas funcionan como:",
     "options": [
       {
+        "key": "A",
+        "text": "Adjetivo"
+      },
+      {
         "key": "B",
         "text": "Sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Adverbio"
       },
       {
         "key": "D",
@@ -7127,6 +9602,10 @@
       {
         "key": "E",
         "text": "Preposición"
+      },
+      {
+        "key": "F",
+        "text": "Conjunción"
       }
     ],
     "correctAnswer": "A",
@@ -7141,8 +9620,16 @@
     "statement": "Las oraciones subordinadas adverbiales funcionan como:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbio"
+      },
+      {
         "key": "B",
         "text": "Sustantivo"
+      },
+      {
+        "key": "C",
+        "text": "Adjetivo"
       },
       {
         "key": "D",
@@ -7151,6 +9638,10 @@
       {
         "key": "E",
         "text": "Preposición"
+      },
+      {
+        "key": "F",
+        "text": "Conjunción"
       }
     ],
     "correctAnswer": "A",
@@ -7167,6 +9658,18 @@
       {
         "key": "A",
         "text": "Sustantiva"
+      },
+      {
+        "key": "B",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "C",
+        "text": "Adverbial"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7189,8 +9692,20 @@
     "statement": "En \"El libro que compré es interesante\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adjetiva"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adverbial"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7213,8 +9728,20 @@
     "statement": "En \"Estudio cuando puedo\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbial"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7245,8 +9772,16 @@
         "text": "Que, cual, quien"
       },
       {
+        "key": "C",
+        "text": "Cuando, donde, como"
+      },
+      {
         "key": "D",
         "text": "Y, o, pero"
+      },
+      {
+        "key": "E",
+        "text": "Es decir, o sea"
       },
       {
         "key": "F",
@@ -7273,8 +9808,16 @@
         "text": "Que, si, pronombres interrogativos"
       },
       {
+        "key": "C",
+        "text": "Cuando, donde, como"
+      },
+      {
         "key": "D",
         "text": "Y, o, pero"
+      },
+      {
+        "key": "E",
+        "text": "Es decir, o sea"
       },
       {
         "key": "F",
@@ -7293,6 +9836,10 @@
     "statement": "Las oraciones subordinadas adverbiales pueden ir introducidas por:",
     "options": [
       {
+        "key": "A",
+        "text": "Cuando, donde, como, porque, para que, etc."
+      },
+      {
         "key": "B",
         "text": "Que, si, pronombres interrogativos"
       },
@@ -7303,6 +9850,10 @@
       {
         "key": "D",
         "text": "Y, o, pero"
+      },
+      {
+        "key": "E",
+        "text": "Es decir, o sea"
       },
       {
         "key": "F",
@@ -7325,6 +9876,18 @@
         "text": "Sustantiva de complemento directo"
       },
       {
+        "key": "B",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "C",
+        "text": "Adverbial"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
+      },
+      {
         "key": "E",
         "text": "Yuxtapuesta"
       },
@@ -7345,8 +9908,20 @@
     "statement": "En \"El hombre que vino es mi tío\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adjetiva"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adverbial"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7369,8 +9944,20 @@
     "statement": "En \"Cuando llegues, avísame\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbial temporal"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7393,8 +9980,20 @@
     "statement": "En \"Estudio porque quiero aprobar\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbial causal"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7417,8 +10016,20 @@
     "statement": "En \"Estudio para que me aprueben\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbial final"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7441,8 +10052,20 @@
     "statement": "En \"Si estudias, aprobarás\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbial condicional"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7465,8 +10088,20 @@
     "statement": "En \"Aunque estudies, no aprobarás\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbial concesiva"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7489,8 +10124,20 @@
     "statement": "En \"Estudia tanto que se enfermó\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbial consecutiva"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7517,6 +10164,18 @@
         "text": "Sustantiva"
       },
       {
+        "key": "B",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "C",
+        "text": "Adverbial"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
+      },
+      {
         "key": "E",
         "text": "Yuxtapuesta"
       },
@@ -7537,8 +10196,20 @@
     "statement": "En \"Quien estudia, aprueba\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adjetiva sustantivada"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adverbial"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7565,6 +10236,18 @@
         "text": "Sustantiva"
       },
       {
+        "key": "B",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "C",
+        "text": "Adverbial"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
+      },
+      {
         "key": "E",
         "text": "Yuxtapuesta"
       },
@@ -7587,6 +10270,18 @@
       {
         "key": "A",
         "text": "Sustantiva"
+      },
+      {
+        "key": "B",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "C",
+        "text": "Adverbial"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7613,6 +10308,18 @@
         "text": "Sustantiva"
       },
       {
+        "key": "B",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "C",
+        "text": "Adverbial"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
+      },
+      {
         "key": "E",
         "text": "Yuxtapuesta"
       },
@@ -7633,8 +10340,20 @@
     "statement": "En \"Vive donde termina la calle\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbial de lugar"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7657,8 +10376,20 @@
     "statement": "En \"Lo hizo como le dijeron\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbial de modo"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7681,8 +10412,20 @@
     "statement": "En \"Es más alto que su padre\", la oración subordinada es:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbial comparativa"
+      },
+      {
         "key": "B",
         "text": "Sustantiva"
+      },
+      {
+        "key": "C",
+        "text": "Adjetiva"
+      },
+      {
+        "key": "D",
+        "text": "Coordinada"
       },
       {
         "key": "E",
@@ -7741,6 +10484,10 @@
     "statement": "La oración compuesta por coordinación tiene:",
     "options": [
       {
+        "key": "A",
+        "text": "Dos o más oraciones independientes"
+      },
+      {
         "key": "B",
         "text": "Una oración principal y una subordinada"
       },
@@ -7772,6 +10519,10 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
     "statement": "La oración compuesta por yuxtaposición tiene:",
     "options": [
+      {
+        "key": "A",
+        "text": "Dos o más oraciones independientes unidas sin conjunciones"
+      },
       {
         "key": "B",
         "text": "Una oración principal y una subordinada"
@@ -7809,6 +10560,18 @@
         "text": "Yuxtapuestas"
       },
       {
+        "key": "B",
+        "text": "Coordinadas copulativas"
+      },
+      {
+        "key": "C",
+        "text": "Coordinadas disyuntivas"
+      },
+      {
+        "key": "D",
+        "text": "Coordinadas adversativas"
+      },
+      {
         "key": "E",
         "text": "Subordinadas"
       },
@@ -7829,8 +10592,20 @@
     "statement": "En \"Estudia y trabaja\", las oraciones son:",
     "options": [
       {
+        "key": "A",
+        "text": "Coordinadas copulativas"
+      },
+      {
         "key": "B",
         "text": "Yuxtapuestas"
+      },
+      {
+        "key": "C",
+        "text": "Coordinadas disyuntivas"
+      },
+      {
+        "key": "D",
+        "text": "Coordinadas adversativas"
       },
       {
         "key": "E",
@@ -7853,8 +10628,20 @@
     "statement": "En \"¿Estudias o trabajas?\", las oraciones son:",
     "options": [
       {
+        "key": "A",
+        "text": "Coordinadas disyuntivas"
+      },
+      {
         "key": "B",
         "text": "Yuxtapuestas"
+      },
+      {
+        "key": "C",
+        "text": "Coordinadas copulativas"
+      },
+      {
+        "key": "D",
+        "text": "Coordinadas adversativas"
       },
       {
         "key": "E",
@@ -7877,8 +10664,20 @@
     "statement": "En \"Estudia, pero no aprende\", las oraciones son:",
     "options": [
       {
+        "key": "A",
+        "text": "Coordinadas adversativas"
+      },
+      {
         "key": "B",
         "text": "Yuxtapuestas"
+      },
+      {
+        "key": "C",
+        "text": "Coordinadas copulativas"
+      },
+      {
+        "key": "D",
+        "text": "Coordinadas disyuntivas"
       },
       {
         "key": "E",
@@ -7900,6 +10699,18 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
     "statement": "En \"Quiero que estudies\", la oración es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Compuesta por subordinación"
+      },
+      {
+        "key": "B",
+        "text": "Compuesta por coordinación"
+      },
+      {
+        "key": "C",
+        "text": "Compuesta por yuxtaposición"
+      },
       {
         "key": "D",
         "text": "Simple"
@@ -7925,6 +10736,18 @@
     "statement": "En \"Estudia y trabaja\", la oración es:",
     "options": [
       {
+        "key": "A",
+        "text": "Compuesta por coordinación"
+      },
+      {
+        "key": "B",
+        "text": "Compuesta por subordinación"
+      },
+      {
+        "key": "C",
+        "text": "Compuesta por yuxtaposición"
+      },
+      {
         "key": "D",
         "text": "Simple"
       },
@@ -7948,6 +10771,18 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
     "statement": "En \"Llegué, vi, vencí\", la oración es:",
     "options": [
+      {
+        "key": "A",
+        "text": "Compuesta por yuxtaposición"
+      },
+      {
+        "key": "B",
+        "text": "Compuesta por coordinación"
+      },
+      {
+        "key": "C",
+        "text": "Compuesta por subordinación"
+      },
       {
         "key": "D",
         "text": "Simple"

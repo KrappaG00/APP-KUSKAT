@@ -88,7 +88,7 @@ export const DeveloperModal: React.FC<DeveloperModalProps> = ({ isOpen, onClose 
               <div className="flex items-start gap-2.5 bg-white p-2.5 rounded-xl border border-slate-200/80 shadow-2xs">
                 <GraduationCap className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
                 <p className="text-xs text-slate-800 leading-snug font-medium">
-                  <strong>Estudiante de Ciencias Computacionales y Ciencias Médicas.</strong>
+                  <strong>Estudiante de Ciencias Computacionales y Ciencias Médicas, proximamente :).</strong>
                 </p>
               </div>
 

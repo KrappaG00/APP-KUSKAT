@@ -32,7 +32,8 @@ import {
   X,
   Play,
 } from 'lucide-react';
-import { Institution, Question, SubjectMeta, SubtopicMeta } from '../types';
+import katex from 'katex';
+import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel } from '../types';
 import { fetchUnifiedCurriculum, fetchSubtopicQuestions } from '../services/bancoService';
 import { QUESTIONS_DATA } from '../data';
 
@@ -41,8 +42,6 @@ interface KaTeXMathProps {
   text: string;
   className?: string;
 }
-
-declare const window: any;
 
 export const MathText: React.FC<KaTeXMathProps> = ({ text, className = '' }) => {
   const renderedHtml = useMemo(() => {
@@ -58,12 +57,6 @@ export const MathText: React.FC<KaTeXMathProps> = ({ text, className = '' }) => 
       .replace(/\bm\^2\b/g, 'm²')
       .replace(/\bkm\^2\b/g, 'km²');
 
-    const katex = (window as any).katex;
-    if (!katex) {
-      // Fallback si katex aún no está en window
-      return escapeHtml(processed);
-    }
-
     // Auto-detecta si el texto completo es una fórmula matemática sin delimitadores
     const hasDelimiters =
       processed.includes('$') || processed.includes('\\(') || processed.includes('\\[');
@@ -77,6 +70,7 @@ export const MathText: React.FC<KaTeXMathProps> = ({ text, className = '' }) => 
         return katex.renderToString(processed.trim(), {
           displayMode: false,
           throwOnError: false,
+          trust: false,
           output: 'htmlAndMathml',
         });
       } catch {
@@ -116,6 +110,7 @@ export const MathText: React.FC<KaTeXMathProps> = ({ text, className = '' }) => 
         const html = katex.renderToString(mathCode, {
           displayMode: isBlock,
           throwOnError: false,
+          trust: false,
           output: 'htmlAndMathml',
         });
         parts.push(html);
@@ -174,6 +169,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
   // Filtros de búsqueda y controles de menú
   const [menuSearchQuery, setMenuSearchQuery] = useState<string>('');
   const [questionSearchQuery, setQuestionSearchQuery] = useState<string>('');
+  const [selectedLevel, setSelectedLevel] = useState<'ALL' | PedagogicalLevel>('ALL');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
 
   // Preguntas cargadas y estado de interactividad
@@ -389,9 +385,14 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
         if (!match) return false;
       }
 
+      // Filtro por nivel pedagógico
+      if (selectedLevel !== 'ALL' && q.level !== selectedLevel) {
+        return false;
+      }
+
       return true;
     });
-  }, [loadedQuestions, selectedInst, selectedSectionTitle, selectedSubtopicId, activeSubtopic, questionSearchQuery]);
+  }, [loadedQuestions, selectedInst, selectedSectionTitle, selectedSubtopicId, activeSubtopic, questionSearchQuery, selectedLevel]);
 
   // Agrupación Jerárquica: Tipo -> Materia -> Tema -> Sección
   const groupedHierarchy = useMemo(() => {
@@ -508,6 +509,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
     setSelectedSubjectId('ALL');
     setSelectedSubtopicId('ALL');
     setSelectedSectionTitle('ALL');
+    setSelectedLevel('ALL');
     setMenuSearchQuery('');
     setQuestionSearchQuery('');
     showToast('Mostrando todas las categorías (UES & ANSP)');
@@ -1050,6 +1052,57 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               )}
             </div>
 
+            {/* Filtro por Nivel Pedagógico */}
+            <div className="flex items-center gap-1.5 flex-wrap pt-1 text-xs">
+              <span className="text-slate-500 font-bold mr-1 text-[11px] uppercase tracking-wider">
+                Nivel Pedagógico:
+              </span>
+              <button
+                type="button"
+                onClick={() => setSelectedLevel('ALL')}
+                className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+                  selectedLevel === 'ALL'
+                    ? 'bg-slate-900 text-white shadow-2xs'
+                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                }`}
+              >
+                Todos
+              </button>
+              <button
+                type="button"
+                onClick={() => setSelectedLevel('basico')}
+                className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+                  selectedLevel === 'basico'
+                    ? 'bg-emerald-600 text-white shadow-2xs'
+                    : 'bg-emerald-50 text-emerald-800 hover:bg-emerald-100'
+                }`}
+              >
+                🌱 Básico
+              </button>
+              <button
+                type="button"
+                onClick={() => setSelectedLevel('intermedio')}
+                className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+                  selectedLevel === 'intermedio'
+                    ? 'bg-blue-600 text-white shadow-2xs'
+                    : 'bg-blue-50 text-blue-800 hover:bg-blue-100'
+                }`}
+              >
+                ⚡ Intermedio
+              </button>
+              <button
+                type="button"
+                onClick={() => setSelectedLevel('admision')}
+                className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all cursor-pointer ${
+                  selectedLevel === 'admision'
+                    ? 'bg-purple-600 text-white shadow-2xs'
+                    : 'bg-purple-50 text-purple-800 hover:bg-purple-100'
+                }`}
+              >
+                🎯 Admisión
+              </button>
+            </div>
+
             {/* Acciones Generales con estas preguntas */}
             <div className="flex items-center justify-between text-xs text-slate-500 pt-1 flex-wrap gap-2">
               <span className="font-semibold text-slate-700">
@@ -1270,6 +1323,19 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                                               <span className="text-slate-400 font-medium text-[11px] hidden sm:inline">
                                                 • {q.topic}
                                               </span>
+                                              {q.level && (
+                                                <span
+                                                  className={`font-bold px-2 py-0.5 rounded-full text-[9px] uppercase tracking-wider ${
+                                                    q.level === 'basico'
+                                                      ? 'bg-emerald-100 text-emerald-800'
+                                                      : q.level === 'intermedio'
+                                                      ? 'bg-blue-100 text-blue-800'
+                                                      : 'bg-purple-100 text-purple-800'
+                                                  }`}
+                                                >
+                                                  {q.level === 'basico' ? 'Básico' : q.level === 'intermedio' ? 'Intermedio' : 'Admisión'}
+                                                </span>
+                                              )}
                                             </div>
 
                                             <button

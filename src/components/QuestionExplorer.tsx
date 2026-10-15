@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from 'react';
-import { ExamCategory, Question, SubjectMeta, SubtopicMeta } from '../types';
+import { ExamCategory, Question, SubjectMeta, SubtopicMeta, Institution } from '../types';
 import { fetchSubtopicQuestions, generateLatexForQuestions } from '../services/bancoService';
 import { QuestionCard } from './QuestionCard';
 import {
@@ -55,7 +55,8 @@ export const QuestionExplorer: React.FC<QuestionExplorerProps> = ({
 
     const fetchId = category === 'ANSP' ? currentSubject.id : currentSubtopic.id;
 
-    fetchSubtopicQuestions(category, fetchId)
+    const targetInst: Institution = category === 'ALL' ? (fetchId.startsWith('ansp_') ? 'ANSP' : 'UES') : category;
+    fetchSubtopicQuestions(targetInst, fetchId)
       .then((data) => {
         if (isMounted) {
           setQuestions(data);

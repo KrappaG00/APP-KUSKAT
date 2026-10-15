@@ -16,6 +16,10 @@
         "text": "La suma de oraciones sin relación"
       },
       {
+        "key": "C",
+        "text": "El uso exclusivo de conectores"
+      },
+      {
         "key": "D",
         "text": "La repetición de palabras"
       },
@@ -50,6 +54,10 @@
       {
         "key": "C",
         "text": "La estructura de los párrafos"
+      },
+      {
+        "key": "D",
+        "text": "El tema del texto"
       },
       {
         "key": "E",
@@ -107,6 +115,10 @@
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
     "statement": "La cohesión se manifiesta a través de:",
     "options": [
+      {
+        "key": "A",
+        "text": "Conectores, pronombres, sinónimos y otros mecanismos"
+      },
       {
         "key": "B",
         "text": "Solo signos de puntuación"
@@ -176,6 +188,10 @@
     "statement": "La progresión temática se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "El avance ordenado de la información en el texto"
+      },
+      {
         "key": "B",
         "text": "La repetición de la misma idea"
       },
@@ -208,12 +224,24 @@
     "statement": "¿Cuál de los siguientes elementos NO es un mecanismo de cohesión?",
     "options": [
       {
+        "key": "A",
+        "text": "Conectores"
+      },
+      {
         "key": "B",
         "text": "Pronombres"
       },
       {
         "key": "C",
         "text": "Sinónimos"
+      },
+      {
+        "key": "D",
+        "text": "El tema del texto"
+      },
+      {
+        "key": "E",
+        "text": "Elipsis"
       },
       {
         "key": "F",
@@ -234,6 +262,26 @@
       {
         "key": "A",
         "text": "Todo el texto gira en torno a un mismo tema"
+      },
+      {
+        "key": "B",
+        "text": "El texto tiene muchos temas"
+      },
+      {
+        "key": "C",
+        "text": "El texto no tiene tema"
+      },
+      {
+        "key": "D",
+        "text": "El texto cambia de tema constantemente"
+      },
+      {
+        "key": "E",
+        "text": "El texto solo tiene un párrafo"
+      },
+      {
+        "key": "F",
+        "text": "El texto solo tiene una oración"
       }
     ],
     "correctAnswer": "A",
@@ -318,7 +366,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
     "statement": "Un texto incoherente se caracteriza por:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Falta de unidad temática y lógica"
+      },
+      {
+        "key": "B",
+        "text": "Exceso de conectores"
+      },
+      {
+        "key": "C",
+        "text": "Exceso de párrafos"
+      },
+      {
+        "key": "D",
+        "text": "Exceso de puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Exceso de extensión"
+      },
+      {
+        "key": "F",
+        "text": "Exceso de ortografía"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La incoherencia es falta de unidad temática y lógica."
   },
@@ -547,6 +620,10 @@
     "statement": "La deixis se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "Elementos que señalan personas, lugares, tiempos del contexto"
+      },
+      {
         "key": "B",
         "text": "La ortografía del texto"
       },
@@ -651,6 +728,14 @@
     "statement": "La sinonimia como mecanismo de cohesión:",
     "options": [
       {
+        "key": "A",
+        "text": "Evita la repetición excesiva usando palabras equivalentes"
+      },
+      {
+        "key": "B",
+        "text": "Es incorrecta"
+      },
+      {
         "key": "C",
         "text": "Nunca se usa"
       },
@@ -681,6 +766,10 @@
       {
         "key": "A",
         "text": "Relaciona ideas mediante palabras de significado opuesto"
+      },
+      {
+        "key": "B",
+        "text": "Es incorrecta"
       },
       {
         "key": "C",
@@ -715,6 +804,10 @@
         "text": "Relaciona palabras de significado más general con otras más específicas"
       },
       {
+        "key": "B",
+        "text": "Es incorrecta"
+      },
+      {
         "key": "C",
         "text": "Nunca se usa"
       },
@@ -747,6 +840,10 @@
         "text": "Relaciona palabras de significado más específico con otras más generales"
       },
       {
+        "key": "B",
+        "text": "Es incorrecta"
+      },
+      {
         "key": "C",
         "text": "Nunca se usa"
       },
@@ -774,6 +871,10 @@
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
     "statement": "Los marcadores textuales son:",
     "options": [
+      {
+        "key": "A",
+        "text": "Elementos que organizan y estructuran el texto"
+      },
       {
         "key": "B",
         "text": "Signos de puntuación"
@@ -919,8 +1020,24 @@
         "text": "Presentar el tema y captar la atención"
       },
       {
+        "key": "B",
+        "text": "Desarrollar las ideas"
+      },
+      {
+        "key": "C",
+        "text": "Concluir el tema"
+      },
+      {
         "key": "D",
         "text": "Repetir el tema"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -935,12 +1052,28 @@
     "statement": "El desarrollo de un texto tiene como función:",
     "options": [
       {
+        "key": "A",
+        "text": "Explicar, argumentar o narrar las ideas principales"
+      },
+      {
         "key": "B",
         "text": "Presentar el tema"
       },
       {
+        "key": "C",
+        "text": "Concluir el tema"
+      },
+      {
         "key": "D",
         "text": "Repetir el tema"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -963,8 +1096,20 @@
         "text": "Presentar el tema"
       },
       {
+        "key": "C",
+        "text": "Desarrollar las ideas"
+      },
+      {
         "key": "D",
         "text": "Repetir el tema"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -1013,7 +1158,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
     "statement": "La idea principal de un párrafo:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Es la idea más importante que se desarrolla"
+      },
+      {
+        "key": "B",
+        "text": "Es la primera palabra"
+      },
+      {
+        "key": "C",
+        "text": "Es la última palabra"
+      },
+      {
+        "key": "D",
+        "text": "Es la más larga"
+      },
+      {
+        "key": "E",
+        "text": "Es la más corta"
+      },
+      {
+        "key": "F",
+        "text": "Es la más repetida"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La idea principal es la más importante del párrafo."
   },
@@ -1025,6 +1195,10 @@
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
     "statement": "Las ideas secundarias de un párrafo:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complementan o apoyan la idea principal"
+      },
       {
         "key": "B",
         "text": "Son más importantes que la principal"
@@ -1056,7 +1230,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE COHERENCIA Y COHESIÓN (1–40)",
     "statement": "La oración temática de un párrafo:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Expresa la idea principal"
+      },
+      {
+        "key": "B",
+        "text": "Expresa una idea secundaria"
+      },
+      {
+        "key": "C",
+        "text": "Es la conclusión"
+      },
+      {
+        "key": "D",
+        "text": "Es la introducción"
+      },
+      {
+        "key": "E",
+        "text": "Es el título"
+      },
+      {
+        "key": "F",
+        "text": "Es el subtítulo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La oración temática expresa la idea principal."
   },
@@ -1071,6 +1270,26 @@
       {
         "key": "A",
         "text": "Informar o explicar un tema"
+      },
+      {
+        "key": "B",
+        "text": "Convencer al lector"
+      },
+      {
+        "key": "C",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "D",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Entretener"
+      },
+      {
+        "key": "F",
+        "text": "Confundir"
       }
     ],
     "correctAnswer": "A",
@@ -1085,8 +1304,28 @@
     "statement": "Un texto argumentativo tiene como propósito:",
     "options": [
       {
+        "key": "A",
+        "text": "Convencer o persuadir al lector"
+      },
+      {
         "key": "B",
         "text": "Informar o explicar un tema"
+      },
+      {
+        "key": "C",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "D",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Entretener"
+      },
+      {
+        "key": "F",
+        "text": "Confundir"
       }
     ],
     "correctAnswer": "A",
@@ -1101,8 +1340,28 @@
     "statement": "Un texto narrativo tiene como propósito:",
     "options": [
       {
+        "key": "A",
+        "text": "Contar una historia o sucesos"
+      },
+      {
         "key": "B",
         "text": "Informar o explicar un tema"
+      },
+      {
+        "key": "C",
+        "text": "Convencer al lector"
+      },
+      {
+        "key": "D",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Entretener"
+      },
+      {
+        "key": "F",
+        "text": "Confundir"
       }
     ],
     "correctAnswer": "A",
@@ -1121,8 +1380,24 @@
         "text": "Representar características de personas, objetos o lugares"
       },
       {
+        "key": "B",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "C",
+        "text": "Convencer al lector"
+      },
+      {
         "key": "D",
         "text": "Informar o explicar un tema"
+      },
+      {
+        "key": "E",
+        "text": "Entretener"
+      },
+      {
+        "key": "F",
+        "text": "Confundir"
       }
     ],
     "correctAnswer": "A",
@@ -1149,6 +1424,14 @@
         "text": "La introducción"
       },
       {
+        "key": "D",
+        "text": "El título"
+      },
+      {
+        "key": "E",
+        "text": "El subtítulo"
+      },
+      {
         "key": "F",
         "text": "La idea secundaria ---"
       }
@@ -1173,8 +1456,16 @@
         "text": "Referencia catafórica"
       },
       {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
         "key": "D",
         "text": "Sinonimia"
+      },
+      {
+        "key": "E",
+        "text": "Antonimia"
       },
       {
         "key": "F",
@@ -1201,8 +1492,16 @@
         "text": "Referencia anafórica"
       },
       {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
         "key": "D",
         "text": "Sinonimia"
+      },
+      {
+        "key": "E",
+        "text": "Antonimia"
       },
       {
         "key": "F",
@@ -1229,8 +1528,16 @@
         "text": "Referencia catafórica"
       },
       {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
         "key": "D",
         "text": "Sinonimia"
+      },
+      {
+        "key": "E",
+        "text": "Antonimia"
       },
       {
         "key": "F",
@@ -1257,8 +1564,16 @@
         "text": "Referencia catafórica"
       },
       {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
         "key": "D",
         "text": "Sinonimia"
+      },
+      {
+        "key": "E",
+        "text": "Antonimia"
       },
       {
         "key": "F",
@@ -1285,8 +1600,16 @@
         "text": "Referencia catafórica"
       },
       {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
         "key": "D",
         "text": "Sinonimia"
+      },
+      {
+        "key": "E",
+        "text": "Antonimia"
       },
       {
         "key": "F",
@@ -1311,6 +1634,14 @@
       {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1341,6 +1672,14 @@
         "text": "Referencia catafórica"
       },
       {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
+      },
+      {
         "key": "E",
         "text": "Sinonimia"
       },
@@ -1367,6 +1706,14 @@
       {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1397,6 +1744,14 @@
         "text": "Referencia catafórica"
       },
       {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
+      },
+      {
         "key": "E",
         "text": "Sinonimia"
       },
@@ -1425,6 +1780,14 @@
         "text": "Referencia catafórica"
       },
       {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
+      },
+      {
         "key": "E",
         "text": "Sinonimia"
       },
@@ -1445,8 +1808,20 @@
     "statement": "En \"Pedro estudia y trabaja. También ayuda en casa\", \"también\" es un mecanismo de:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector aditivo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1469,8 +1844,20 @@
     "statement": "En \"No estudié. Por eso reprobé\", \"por eso\" es un mecanismo de:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector causal"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1493,8 +1880,20 @@
     "statement": "En \"Llegué tarde. Sin embargo, entré\", \"sin embargo\" es un mecanismo de:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector adversativo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1517,8 +1916,20 @@
     "statement": "En \"Primero, estudia. Luego, descansa\", \"primero\" y \"luego\" son:",
     "options": [
       {
+        "key": "A",
+        "text": "Conectores ordenadores"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1541,8 +1952,20 @@
     "statement": "En \"En conclusión, todo salió bien\", \"en conclusión\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector conclusivo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1565,8 +1988,20 @@
     "statement": "En \"Por ejemplo, los mamíferos son vertebrados\", \"por ejemplo\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de ejemplificación"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1589,8 +2024,20 @@
     "statement": "En \"Es decir, no vendrás\", \"es decir\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector explicativo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1613,8 +2060,20 @@
     "statement": "En \"Además, trajo postres\", \"además\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector aditivo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1637,8 +2096,20 @@
     "statement": "En \"No obstante, insistió\", \"no obstante\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector adversativo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1661,8 +2132,20 @@
     "statement": "En \"Por lo tanto, aprobó\", \"por lo tanto\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector conclusivo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1685,8 +2168,20 @@
     "statement": "En \"Mientras tanto, esperaba\", \"mientras tanto\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector temporal"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1709,8 +2204,20 @@
     "statement": "En \"En cambio, él no fue\", \"en cambio\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector adversativo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1733,8 +2240,20 @@
     "statement": "En \"Así mismo, lo haré\", \"así mismo\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector aditivo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1757,8 +2276,20 @@
     "statement": "En \"Por consiguiente, renunció\", \"por consiguiente\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector conclusivo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1781,8 +2312,20 @@
     "statement": "En \"Finalmente, llegó\", \"finalmente\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de cierre"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1805,8 +2348,20 @@
     "statement": "En \"En primer lugar, hablemos del tema\", \"en primer lugar\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector ordenador"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1829,8 +2384,20 @@
     "statement": "En \"Por otro lado, existe otra teoría\", \"por otro lado\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector ordenador"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1853,8 +2420,20 @@
     "statement": "En \"En resumen, todo fue positivo\", \"en resumen\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector conclusivo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1877,8 +2456,20 @@
     "statement": "En \"Dado que llovía, no salimos\", \"dado que\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector causal"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1901,8 +2492,20 @@
     "statement": "En \"Aunque insistió, no cedí\", \"aunque\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector concesivo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1925,8 +2528,20 @@
     "statement": "En \"Si estudias, aprobarás\", \"si\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector condicional"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1949,8 +2564,20 @@
     "statement": "En \"Para que entiendas, te explico\", \"para que\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector final"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1973,8 +2600,20 @@
     "statement": "En \"Tan pronto como llegó, se fue\", \"tan pronto como\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector temporal"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -1997,8 +2636,20 @@
     "statement": "En \"Ora estudia, ora trabaja\", \"ora... ora\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector distributivo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2021,8 +2672,20 @@
     "statement": "En \"Es decir, no es cierto\", \"es decir\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector explicativo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2045,8 +2708,20 @@
     "statement": "En \"Mejor dicho, no iré\", \"mejor dicho\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector explicativo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2069,8 +2744,20 @@
     "statement": "En \"O sea, no estás de acuerdo\", \"o sea\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector explicativo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2093,8 +2780,20 @@
     "statement": "En \"En efecto, así fue\", \"en efecto\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de afirmación"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2117,8 +2816,20 @@
     "statement": "En \"Por supuesto, iré\", \"por supuesto\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de afirmación"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2141,8 +2852,20 @@
     "statement": "En \"Sin duda, es correcto\", \"sin duda\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de afirmación"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2165,8 +2888,20 @@
     "statement": "En \"Quizás venga\", \"quizás\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de duda"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2189,8 +2924,20 @@
     "statement": "En \"Tal vez llueva\", \"tal vez\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de duda"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2213,8 +2960,20 @@
     "statement": "En \"Posiblemente llegue tarde\", \"posiblemente\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de duda"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2237,8 +2996,20 @@
     "statement": "En \"Obviamente, ganó\", \"obviamente\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de evidencia"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2261,8 +3032,20 @@
     "statement": "En \"Evidentemente, es así\", \"evidentemente\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de evidencia"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2285,8 +3068,20 @@
     "statement": "En \"Claramente, no es correcto\", \"claramente\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de evidencia"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2309,8 +3104,20 @@
     "statement": "En \"Resumiendo, todo está bien\", \"resumiendo\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector conclusivo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2333,8 +3140,20 @@
     "statement": "En \"En síntesis, es viable\", \"en síntesis\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector conclusivo"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2357,8 +3176,20 @@
     "statement": "En \"Para finalizar, gracias\", \"para finalizar\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de cierre"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2381,8 +3212,20 @@
     "statement": "En \"Por último, recordemos\", \"por último\" es un:",
     "options": [
       {
+        "key": "A",
+        "text": "Conector de cierre"
+      },
+      {
         "key": "B",
         "text": "Referencia catafórica"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Antonimia"
       },
       {
         "key": "E",
@@ -2405,8 +3248,28 @@
     "statement": "¿Qué tipo de conector es \"y\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Aditivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2421,8 +3284,28 @@
     "statement": "¿Qué tipo de conector es \"pero\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Adversativo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2437,8 +3320,28 @@
     "statement": "¿Qué tipo de conector es \"porque\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Causal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2453,8 +3356,28 @@
     "statement": "¿Qué tipo de conector es \"por lo tanto\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2471,6 +3394,26 @@
       {
         "key": "A",
         "text": "Temporal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2484,6 +3427,26 @@
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"si\"?",
     "options": [
+      {
+        "key": "A",
+        "text": "Condicional"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
       {
         "key": "F",
         "text": "Temporal"
@@ -2501,8 +3464,28 @@
     "statement": "¿Qué tipo de conector es \"además\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Aditivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2517,8 +3500,28 @@
     "statement": "¿Qué tipo de conector es \"sin embargo\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Adversativo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2533,8 +3536,28 @@
     "statement": "¿Qué tipo de conector es \"puesto que\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Causal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2549,8 +3572,28 @@
     "statement": "¿Qué tipo de conector es \"en consecuencia\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2567,6 +3610,26 @@
       {
         "key": "A",
         "text": "Temporal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2580,6 +3643,26 @@
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"a menos que\"?",
     "options": [
+      {
+        "key": "A",
+        "text": "Condicional"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
       {
         "key": "F",
         "text": "Temporal"
@@ -2597,8 +3680,28 @@
     "statement": "¿Qué tipo de conector es \"también\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Aditivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2613,8 +3716,28 @@
     "statement": "¿Qué tipo de conector es \"no obstante\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Adversativo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2629,8 +3752,28 @@
     "statement": "¿Qué tipo de conector es \"ya que\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Causal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2645,8 +3788,28 @@
     "statement": "¿Qué tipo de conector es \"así que\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2663,6 +3826,26 @@
       {
         "key": "A",
         "text": "Temporal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2676,6 +3859,26 @@
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"con tal de que\"?",
     "options": [
+      {
+        "key": "A",
+        "text": "Condicional"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
       {
         "key": "F",
         "text": "Temporal"
@@ -2693,8 +3896,28 @@
     "statement": "¿Qué tipo de conector es \"incluso\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Aditivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2709,8 +3932,28 @@
     "statement": "¿Qué tipo de conector es \"aunque\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Concesivo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2725,8 +3968,28 @@
     "statement": "¿Qué tipo de conector es \"dado que\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Causal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2741,8 +4004,28 @@
     "statement": "¿Qué tipo de conector es \"por consiguiente\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2759,6 +4042,26 @@
       {
         "key": "A",
         "text": "Temporal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2772,6 +4075,26 @@
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"siempre que\"?",
     "options": [
+      {
+        "key": "A",
+        "text": "Condicional"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
       {
         "key": "F",
         "text": "Temporal"
@@ -2789,8 +4112,28 @@
     "statement": "¿Qué tipo de conector es \"encima\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Aditivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2805,8 +4148,28 @@
     "statement": "¿Qué tipo de conector es \"empero\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Adversativo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2821,8 +4184,28 @@
     "statement": "¿Qué tipo de conector es \"debido a que\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Causal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2837,8 +4220,28 @@
     "statement": "¿Qué tipo de conector es \"de modo que\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2855,6 +4258,26 @@
       {
         "key": "A",
         "text": "Temporal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2868,6 +4291,26 @@
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"a condición de que\"?",
     "options": [
+      {
+        "key": "A",
+        "text": "Condicional"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
       {
         "key": "F",
         "text": "Temporal"
@@ -2885,8 +4328,28 @@
     "statement": "¿Qué tipo de conector es \"asimismo\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Aditivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2901,8 +4364,28 @@
     "statement": "¿Qué tipo de conector es \"mas\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Adversativo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2917,8 +4400,28 @@
     "statement": "¿Qué tipo de conector es \"pues\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Causal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2933,8 +4436,28 @@
     "statement": "¿Qué tipo de conector es \"luego\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2949,8 +4472,28 @@
     "statement": "¿Qué tipo de conector es \"ahora bien\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Adversativo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2965,8 +4508,28 @@
     "statement": "¿Qué tipo de conector es \"por el contrario\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Adversativo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -2979,7 +4542,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"en efecto\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "De afirmación"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"En efecto\" es de afirmación."
   },
@@ -2992,8 +4580,28 @@
     "statement": "¿Qué tipo de conector es \"en resumen\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -3006,7 +4614,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"por ejemplo\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "De ejemplificación"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Por ejemplo\" es de ejemplificación."
   },
@@ -3017,7 +4650,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"es decir\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Explicativo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Es decir\" es explicativo."
   },
@@ -3032,6 +4690,26 @@
       {
         "key": "A",
         "text": "Ordenador"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -3044,7 +4722,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"finalmente\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "De cierre"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Finalmente\" es de cierre."
   },
@@ -3055,7 +4758,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"por supuesto\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "De afirmación"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Por supuesto\" es de afirmación."
   },
@@ -3066,7 +4794,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"sin duda\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "De afirmación"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Sin duda\" es de afirmación."
   },
@@ -3077,7 +4830,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"quizás\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "De duda"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Quizás\" es de duda."
   },
@@ -3088,7 +4866,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"tal vez\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "De duda"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Tal vez\" es de duda."
   },
@@ -3099,7 +4902,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"obviamente\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "De evidencia"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Obviamente\" es de evidencia."
   },
@@ -3110,7 +4938,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"evidentemente\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "De evidencia"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Evidentemente\" es de evidencia."
   },
@@ -3123,8 +4976,28 @@
     "statement": "¿Qué tipo de conector es \"en síntesis\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -3137,7 +5010,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"para finalizar\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "De cierre"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Para finalizar\" es de cierre."
   },
@@ -3148,7 +5046,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"por último\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "De cierre"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Por último\" es de cierre."
   },
@@ -3161,8 +5084,28 @@
     "statement": "¿Qué tipo de conector es \"en cambio\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Adversativo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -3179,6 +5122,26 @@
       {
         "key": "A",
         "text": "Temporal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -3191,7 +5154,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"a fin de que\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Final"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"A fin de que\" es final."
   },
@@ -3202,7 +5190,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)",
     "statement": "¿Qué tipo de conector es \"con el propósito de\"?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Final"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
+        "key": "E",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Con el propósito de\" es final."
   },
@@ -3215,8 +5228,28 @@
     "statement": "¿Qué tipo de conector es \"a pesar de que\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Concesivo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -3231,8 +5264,28 @@
     "statement": "¿Qué tipo de conector es \"por más que\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Concesivo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -3247,8 +5300,28 @@
     "statement": "¿Qué tipo de conector es \"si bien\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Concesivo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -3263,8 +5336,28 @@
     "statement": "¿Qué tipo de conector es \"así pues\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -3279,8 +5372,28 @@
     "statement": "¿Qué tipo de conector es \"de ahí que\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional ---"
       }
     ],
     "correctAnswer": "A",
@@ -3297,6 +5410,26 @@
       {
         "key": "A",
         "text": "Informar y explicar un tema"
+      },
+      {
+        "key": "B",
+        "text": "Convencer al lector"
+      },
+      {
+        "key": "C",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "D",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Entretener"
+      },
+      {
+        "key": "F",
+        "text": "Confundir"
       }
     ],
     "correctAnswer": "A",
@@ -3323,6 +5456,10 @@
         "text": "Tesis, argumentos y conclusión"
       },
       {
+        "key": "D",
+        "text": "Descripción, análisis y síntesis"
+      },
+      {
         "key": "E",
         "text": "Inicio, conflicto y resolución"
       },
@@ -3347,8 +5484,24 @@
         "text": "Presentar el tema y despertar el interés"
       },
       {
+        "key": "B",
+        "text": "Desarrollar todas las ideas"
+      },
+      {
+        "key": "C",
+        "text": "Concluir el tema"
+      },
+      {
         "key": "D",
         "text": "Repetir el título"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -3363,12 +5516,28 @@
     "statement": "El desarrollo de un texto expositivo debe:",
     "options": [
       {
+        "key": "A",
+        "text": "Explicar y ampliar la información sobre el tema"
+      },
+      {
         "key": "B",
         "text": "Presentar solo el tema"
       },
       {
+        "key": "C",
+        "text": "Concluir el tema"
+      },
+      {
         "key": "D",
         "text": "Repetir la introducción"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -3391,8 +5560,20 @@
         "text": "Presentar el tema"
       },
       {
+        "key": "C",
+        "text": "Desarrollar nuevas ideas"
+      },
+      {
         "key": "D",
         "text": "Repetir la introducción"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -3515,6 +5696,10 @@
     "statement": "La exposición puede ser:",
     "options": [
       {
+        "key": "A",
+        "text": "Divulgativa o especializada"
+      },
+      {
         "key": "B",
         "text": "Solo divulgativa"
       },
@@ -3551,8 +5736,24 @@
         "text": "Público general"
       },
       {
+        "key": "B",
+        "text": "Especialistas"
+      },
+      {
         "key": "C",
         "text": "Niños"
+      },
+      {
+        "key": "D",
+        "text": "Adultos"
+      },
+      {
+        "key": "E",
+        "text": "Ancianos"
+      },
+      {
+        "key": "F",
+        "text": "Adolescentes"
       }
     ],
     "correctAnswer": "A",
@@ -3567,12 +5768,28 @@
     "statement": "La exposición especializada se dirige a:",
     "options": [
       {
+        "key": "A",
+        "text": "Especialistas en la materia"
+      },
+      {
         "key": "B",
         "text": "Público general"
       },
       {
         "key": "C",
         "text": "Niños"
+      },
+      {
+        "key": "D",
+        "text": "Adultos"
+      },
+      {
+        "key": "E",
+        "text": "Ancianos"
+      },
+      {
+        "key": "F",
+        "text": "Adolescentes"
       }
     ],
     "correctAnswer": "A",
@@ -3587,12 +5804,28 @@
     "statement": "El lenguaje de un texto expositivo divulgativo debe ser:",
     "options": [
       {
+        "key": "A",
+        "text": "Claro y accesible"
+      },
+      {
         "key": "B",
         "text": "Muy técnico"
       },
       {
+        "key": "C",
+        "text": "Confuso"
+      },
+      {
+        "key": "D",
+        "text": "Ambiguo"
+      },
+      {
         "key": "E",
         "text": "Informal"
+      },
+      {
+        "key": "F",
+        "text": "Coloquial"
       }
     ],
     "correctAnswer": "A",
@@ -3611,8 +5844,24 @@
         "text": "Técnico y preciso"
       },
       {
+        "key": "B",
+        "text": "Claro y accesible"
+      },
+      {
+        "key": "C",
+        "text": "Confuso"
+      },
+      {
+        "key": "D",
+        "text": "Ambiguo"
+      },
+      {
         "key": "E",
         "text": "Informal"
+      },
+      {
+        "key": "F",
+        "text": "Coloquial"
       }
     ],
     "correctAnswer": "A",
@@ -3771,12 +6020,28 @@
     "statement": "¿Qué tipo de estructura expositiva presenta el tema, lo analiza y luego lo sintetiza?",
     "options": [
       {
+        "key": "A",
+        "text": "Analizante"
+      },
+      {
         "key": "B",
         "text": "Sintetizante"
       },
       {
+        "key": "C",
+        "text": "Encuadrada"
+      },
+      {
         "key": "D",
         "text": "Paralela"
+      },
+      {
+        "key": "E",
+        "text": "Cronológica"
+      },
+      {
+        "key": "F",
+        "text": "Causa-efecto"
       }
     ],
     "correctAnswer": "A",
@@ -3795,8 +6060,24 @@
         "text": "Sintetizante"
       },
       {
+        "key": "B",
+        "text": "Analizante"
+      },
+      {
+        "key": "C",
+        "text": "Encuadrada"
+      },
+      {
         "key": "D",
         "text": "Paralela"
+      },
+      {
+        "key": "E",
+        "text": "Cronológica"
+      },
+      {
+        "key": "F",
+        "text": "Causa-efecto"
       }
     ],
     "correctAnswer": "A",
@@ -3811,12 +6092,28 @@
     "statement": "¿Qué tipo de estructura expositiva presenta el tema al inicio y al final?",
     "options": [
       {
+        "key": "A",
+        "text": "Encuadrada"
+      },
+      {
+        "key": "B",
+        "text": "Analizante"
+      },
+      {
         "key": "C",
         "text": "Sintetizante"
       },
       {
         "key": "D",
         "text": "Paralela"
+      },
+      {
+        "key": "E",
+        "text": "Cronológica"
+      },
+      {
+        "key": "F",
+        "text": "Causa-efecto"
       }
     ],
     "correctAnswer": "A",
@@ -3831,12 +6128,28 @@
     "statement": "¿Qué tipo de estructura expositiva presenta ideas en orden temporal?",
     "options": [
       {
+        "key": "A",
+        "text": "Cronológica"
+      },
+      {
+        "key": "B",
+        "text": "Analizante"
+      },
+      {
         "key": "C",
         "text": "Sintetizante"
       },
       {
+        "key": "D",
+        "text": "Encuadrada"
+      },
+      {
         "key": "E",
         "text": "Paralela"
+      },
+      {
+        "key": "F",
+        "text": "Causa-efecto"
       }
     ],
     "correctAnswer": "A",
@@ -3851,12 +6164,28 @@
     "statement": "¿Qué tipo de estructura expositiva presenta causas y consecuencias?",
     "options": [
       {
+        "key": "A",
+        "text": "Causa-efecto"
+      },
+      {
+        "key": "B",
+        "text": "Analizante"
+      },
+      {
         "key": "C",
         "text": "Sintetizante"
       },
       {
+        "key": "D",
+        "text": "Encuadrada"
+      },
+      {
         "key": "E",
         "text": "Paralela"
+      },
+      {
+        "key": "F",
+        "text": "Cronológica"
       }
     ],
     "correctAnswer": "A",
@@ -3875,8 +6204,24 @@
         "text": "Paralela"
       },
       {
+        "key": "B",
+        "text": "Analizante"
+      },
+      {
         "key": "C",
         "text": "Sintetizante"
+      },
+      {
+        "key": "D",
+        "text": "Encuadrada"
+      },
+      {
+        "key": "E",
+        "text": "Cronológica"
+      },
+      {
+        "key": "F",
+        "text": "Causa-efecto"
       }
     ],
     "correctAnswer": "A",
@@ -3891,8 +6236,28 @@
     "statement": "La definición en un texto expositivo sirve para:",
     "options": [
       {
+        "key": "A",
+        "text": "Explicar el significado de un término"
+      },
+      {
+        "key": "B",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "C",
+        "text": "Alargar el texto"
+      },
+      {
         "key": "D",
         "text": "Repetir ideas"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Convencer al lector"
       }
     ],
     "correctAnswer": "A",
@@ -3911,8 +6276,24 @@
         "text": "Organizar elementos en categorías"
       },
       {
+        "key": "B",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "C",
+        "text": "Alargar el texto"
+      },
+      {
         "key": "D",
         "text": "Repetir ideas"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Convencer al lector"
       }
     ],
     "correctAnswer": "A",
@@ -3927,8 +6308,28 @@
     "statement": "La comparación en un texto expositivo sirve para:",
     "options": [
       {
+        "key": "A",
+        "text": "Establecer semejanzas y diferencias"
+      },
+      {
+        "key": "B",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "C",
+        "text": "Alargar el texto"
+      },
+      {
         "key": "D",
         "text": "Repetir ideas"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Convencer al lector"
       }
     ],
     "correctAnswer": "A",
@@ -3947,8 +6348,24 @@
         "text": "Ilustrar una idea con casos concretos"
       },
       {
+        "key": "B",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "C",
+        "text": "Alargar el texto"
+      },
+      {
         "key": "D",
         "text": "Repetir ideas"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Convencer al lector"
       }
     ],
     "correctAnswer": "A",
@@ -3963,8 +6380,28 @@
     "statement": "La reformulación en un texto expositivo sirve para:",
     "options": [
       {
+        "key": "A",
+        "text": "Expresar una idea de otra manera para aclararla"
+      },
+      {
+        "key": "B",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "C",
+        "text": "Alargar el texto"
+      },
+      {
         "key": "D",
         "text": "Repetir ideas"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Convencer al lector"
       }
     ],
     "correctAnswer": "A",
@@ -3983,8 +6420,24 @@
         "text": "Presentar elementos de una serie"
       },
       {
+        "key": "B",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "C",
+        "text": "Alargar el texto"
+      },
+      {
         "key": "D",
         "text": "Repetir ideas"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Convencer al lector"
       }
     ],
     "correctAnswer": "A",
@@ -3999,8 +6452,28 @@
     "statement": "La descripción en un texto expositivo sirve para:",
     "options": [
       {
+        "key": "A",
+        "text": "Detallar características de un objeto o fenómeno"
+      },
+      {
+        "key": "B",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "C",
+        "text": "Alargar el texto"
+      },
+      {
         "key": "D",
         "text": "Repetir ideas"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Convencer al lector"
       }
     ],
     "correctAnswer": "A",
@@ -4019,8 +6492,24 @@
         "text": "Relatar hechos o procesos"
       },
       {
+        "key": "B",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "C",
+        "text": "Alargar el texto"
+      },
+      {
         "key": "D",
         "text": "Repetir ideas"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Convencer al lector"
       }
     ],
     "correctAnswer": "A",
@@ -4035,8 +6524,28 @@
     "statement": "La argumentación en un texto expositivo sirve para:",
     "options": [
       {
+        "key": "A",
+        "text": "Defender una idea con razones"
+      },
+      {
+        "key": "B",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "C",
+        "text": "Alargar el texto"
+      },
+      {
         "key": "D",
         "text": "Repetir ideas"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Convencer al lector"
       }
     ],
     "correctAnswer": "A",
@@ -4097,6 +6606,14 @@
       {
         "key": "C",
         "text": "Sentimientos"
+      },
+      {
+        "key": "D",
+        "text": "Emociones"
+      },
+      {
+        "key": "E",
+        "text": "Creencias"
       },
       {
         "key": "F",
@@ -4333,6 +6850,26 @@
       {
         "key": "A",
         "text": "Transmitir información objetiva"
+      },
+      {
+        "key": "B",
+        "text": "Convencer al lector"
+      },
+      {
+        "key": "C",
+        "text": "Entretener al lector"
+      },
+      {
+        "key": "D",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "F",
+        "text": "Describir un lugar"
       }
     ],
     "correctAnswer": "A",
@@ -4347,8 +6884,28 @@
     "statement": "¿Cuál es el propósito de un texto argumentativo?",
     "options": [
       {
+        "key": "A",
+        "text": "Convencer al lector"
+      },
+      {
         "key": "B",
         "text": "Transmitir información objetiva"
+      },
+      {
+        "key": "C",
+        "text": "Entretener al lector"
+      },
+      {
+        "key": "D",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "F",
+        "text": "Describir un lugar"
       }
     ],
     "correctAnswer": "A",
@@ -4363,8 +6920,28 @@
     "statement": "¿Cuál es el propósito de un texto narrativo?",
     "options": [
       {
+        "key": "A",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "B",
+        "text": "Convencer al lector"
+      },
+      {
         "key": "C",
         "text": "Transmitir información objetiva"
+      },
+      {
+        "key": "D",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Entretener al lector"
+      },
+      {
+        "key": "F",
+        "text": "Describir un lugar"
       }
     ],
     "correctAnswer": "A",
@@ -4383,8 +6960,24 @@
         "text": "Representar características"
       },
       {
+        "key": "B",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "C",
+        "text": "Convencer al lector"
+      },
+      {
         "key": "D",
         "text": "Transmitir información objetiva"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Entretener al lector"
       }
     ],
     "correctAnswer": "A",
@@ -4399,8 +6992,28 @@
     "statement": "¿Cuál es el propósito de un texto literario?",
     "options": [
       {
+        "key": "A",
+        "text": "Crear belleza con el lenguaje"
+      },
+      {
         "key": "B",
         "text": "Transmitir información objetiva"
+      },
+      {
+        "key": "C",
+        "text": "Convencer al lector"
+      },
+      {
+        "key": "D",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "E",
+        "text": "Describir un lugar"
+      },
+      {
+        "key": "F",
+        "text": "Expresar sentimientos"
       }
     ],
     "correctAnswer": "A",
@@ -4595,8 +7208,28 @@
     "statement": "Un texto argumentativo tiene como propósito:",
     "options": [
       {
+        "key": "A",
+        "text": "Convencer o persuadir al lector"
+      },
+      {
         "key": "B",
         "text": "Informar objetivamente"
+      },
+      {
+        "key": "C",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "D",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Entretener"
+      },
+      {
+        "key": "F",
+        "text": "Describir un lugar"
       }
     ],
     "correctAnswer": "A",
@@ -4621,6 +7254,14 @@
       {
         "key": "C",
         "text": "La introducción"
+      },
+      {
+        "key": "D",
+        "text": "El título"
+      },
+      {
+        "key": "E",
+        "text": "El subtítulo"
       },
       {
         "key": "F",
@@ -4653,6 +7294,14 @@
       {
         "key": "D",
         "text": "La introducción"
+      },
+      {
+        "key": "E",
+        "text": "El título"
+      },
+      {
+        "key": "F",
+        "text": "El subtítulo"
       }
     ],
     "correctAnswer": "A",
@@ -4675,8 +7324,20 @@
         "text": "Presenta el tema"
       },
       {
+        "key": "C",
+        "text": "Desarrolla nuevas ideas"
+      },
+      {
         "key": "D",
         "text": "Repite la introducción"
+      },
+      {
+        "key": "E",
+        "text": "Confunde al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alarga el texto"
       }
     ],
     "correctAnswer": "A",
@@ -4839,8 +7500,16 @@
         "text": "Razonamientos lógicos"
       },
       {
+        "key": "B",
+        "text": "Emociones"
+      },
+      {
         "key": "C",
         "text": "Sentimientos"
+      },
+      {
+        "key": "D",
+        "text": "Creencias"
       },
       {
         "key": "E",
@@ -4899,6 +7568,10 @@
     "statement": "La argumentación inductiva parte de:",
     "options": [
       {
+        "key": "A",
+        "text": "Casos particulares para llegar a una conclusión general"
+      },
+      {
         "key": "B",
         "text": "Una conclusión general para llegar a casos particulares"
       },
@@ -4933,6 +7606,10 @@
       {
         "key": "A",
         "text": "Una conclusión general para llegar a casos particulares"
+      },
+      {
+        "key": "B",
+        "text": "Casos particulares para llegar a una conclusión general"
       },
       {
         "key": "C",
@@ -4997,7 +7674,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La falacia \"ad hominem\" consiste en:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Atacar a la persona en lugar de sus argumentos"
+      },
+      {
+        "key": "B",
+        "text": "Atacar los argumentos"
+      },
+      {
+        "key": "C",
+        "text": "Atacar la conclusión"
+      },
+      {
+        "key": "D",
+        "text": "Atacar la tesis"
+      },
+      {
+        "key": "E",
+        "text": "Atacar la premisa"
+      },
+      {
+        "key": "F",
+        "text": "Atacar la evidencia"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Ad hominem\" ataca a la persona, no a sus argumentos."
   },
@@ -5008,7 +7710,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La falacia \"ad populum\" consiste en:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Apelar a la mayoría para validar un argumento"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la emoción"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Ad populum\" apela a la mayoría."
   },
@@ -5019,7 +7746,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La falacia \"ad verecundiam\" consiste en:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Apelar a una autoridad no competente"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la emoción"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Ad verecundiam\" apela a autoridad no competente."
   },
@@ -5030,7 +7782,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La falacia \"ad ignorantiam\" consiste en:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Afirmar que algo es verdadero porque no se ha demostrado lo contrario"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la emoción"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Ad ignorantiam\" afirma que algo es verdadero porque no se ha demostrado lo contrario."
   },
@@ -5041,7 +7818,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La falacia \"ad baculum\" consiste en:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Apelar a la fuerza o amenaza"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la emoción"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Ad baculum\" apela a la fuerza o amenaza."
   },
@@ -5052,7 +7854,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La falacia \"ad misericordiam\" consiste en:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Apelar a la piedad o compasión"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Ad misericordiam\" apela a la piedad o compasión."
   },
@@ -5063,7 +7890,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La falacia \"pendiente resbaladiza\" consiste en:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Afirmar que un hecho conducirá inevitablemente a otro sin justificarlo"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Pendiente resbaladiza\" afirma que un hecho conducirá inevitablemente a otro."
   },
@@ -5078,6 +7930,26 @@
       {
         "key": "A",
         "text": "Presentar solo dos opciones cuando hay más"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
       }
     ],
     "correctAnswer": "A",
@@ -5094,6 +7966,26 @@
       {
         "key": "A",
         "text": "Sacar una conclusión general de pocos casos"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
       }
     ],
     "correctAnswer": "A",
@@ -5106,7 +7998,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La falacia \"causa falsa\" consiste en:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Confundir correlación con causalidad"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Causa falsa\" confunde correlación con causalidad."
   },
@@ -5117,7 +8034,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La falacia \"hombre de paja\" consiste en:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Distorsionar el argumento del oponente para refutarlo más fácilmente"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Hombre de paja\" distorsiona el argumento del oponente."
   },
@@ -5132,6 +8074,26 @@
       {
         "key": "A",
         "text": "Usar la conclusión como premisa"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
       }
     ],
     "correctAnswer": "A",
@@ -5148,6 +8110,26 @@
       {
         "key": "A",
         "text": "Usar una palabra con distintos significados en el mismo argumento"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
       }
     ],
     "correctAnswer": "A",
@@ -5164,6 +8146,26 @@
       {
         "key": "A",
         "text": "Usar construcciones gramaticales ambiguas"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
       }
     ],
     "correctAnswer": "A",
@@ -5176,7 +8178,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La falacia \"composición\" consiste en:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Atribuir al todo lo que es válido para las partes"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Composición\" atribuye al todo lo válido para las partes."
   },
@@ -5187,7 +8214,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La falacia \"división\" consiste en:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Atribuir a las partes lo que es válido para el todo"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"División\" atribuye a las partes lo válido para el todo."
   },
@@ -5202,6 +8254,26 @@
       {
         "key": "A",
         "text": "Llegar a una conclusión que no se deriva de las premisas"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
       }
     ],
     "correctAnswer": "A",
@@ -5228,6 +8300,10 @@
         "text": "Inicio, conflicto y resolución"
       },
       {
+        "key": "D",
+        "text": "Descripción, análisis y síntesis"
+      },
+      {
         "key": "E",
         "text": "Título, cuerpo y firma"
       },
@@ -5252,8 +8328,24 @@
         "text": "Presentar la tesis y captar la atención"
       },
       {
+        "key": "B",
+        "text": "Desarrollar los argumentos"
+      },
+      {
+        "key": "C",
+        "text": "Concluir el tema"
+      },
+      {
         "key": "D",
         "text": "Repetir el título"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -5276,8 +8368,20 @@
         "text": "Presentar solo la tesis"
       },
       {
+        "key": "C",
+        "text": "Concluir el tema"
+      },
+      {
         "key": "D",
         "text": "Repetir la introducción"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -5300,8 +8404,20 @@
         "text": "Presentar la tesis"
       },
       {
+        "key": "C",
+        "text": "Desarrollar nuevos argumentos"
+      },
+      {
         "key": "D",
         "text": "Repetir la introducción"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -5352,8 +8468,20 @@
     "statement": "Los argumentos de hecho se basan en:",
     "options": [
       {
+        "key": "A",
+        "text": "Datos verificables y comprobables"
+      },
+      {
         "key": "B",
         "text": "Opiniones personales"
+      },
+      {
+        "key": "C",
+        "text": "Emociones"
+      },
+      {
+        "key": "D",
+        "text": "Creencias"
       },
       {
         "key": "E",
@@ -5376,8 +8504,20 @@
     "statement": "Los argumentos de ejemplificación se basan en:",
     "options": [
       {
+        "key": "A",
+        "text": "Casos concretos que ilustran la tesis"
+      },
+      {
         "key": "B",
         "text": "Opiniones personales"
+      },
+      {
+        "key": "C",
+        "text": "Emociones"
+      },
+      {
+        "key": "D",
+        "text": "Creencias"
       },
       {
         "key": "E",
@@ -5400,8 +8540,20 @@
     "statement": "Los argumentos de analogía se basan en:",
     "options": [
       {
+        "key": "A",
+        "text": "Comparaciones con casos similares"
+      },
+      {
         "key": "B",
         "text": "Opiniones personales"
+      },
+      {
+        "key": "C",
+        "text": "Emociones"
+      },
+      {
+        "key": "D",
+        "text": "Creencias"
       },
       {
         "key": "E",
@@ -5432,6 +8584,14 @@
         "text": "Opiniones personales"
       },
       {
+        "key": "C",
+        "text": "Emociones"
+      },
+      {
+        "key": "D",
+        "text": "Creencias"
+      },
+      {
         "key": "E",
         "text": "Suposiciones"
       },
@@ -5456,12 +8616,24 @@
         "text": "Rebartir los argumentos del oponente"
       },
       {
+        "key": "B",
+        "text": "Apoyar los argumentos del oponente"
+      },
+      {
         "key": "C",
         "text": "Ignorar los argumentos del oponente"
       },
       {
         "key": "D",
         "text": "Repetir los argumentos del oponente"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al oponente"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -5480,12 +8652,24 @@
         "text": "Presentar argumentos contrarios a la tesis para refutarlos"
       },
       {
+        "key": "B",
+        "text": "Apoyar la tesis"
+      },
+      {
         "key": "C",
         "text": "Ignorar la tesis"
       },
       {
         "key": "D",
         "text": "Repetir la tesis"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -5500,6 +8684,10 @@
     "statement": "La concesión en un texto argumentativo consiste en:",
     "options": [
       {
+        "key": "A",
+        "text": "Aceptar parcialmente un argumento contrario"
+      },
+      {
         "key": "B",
         "text": "Rechazar totalmente un argumento contrario"
       },
@@ -5510,6 +8698,14 @@
       {
         "key": "D",
         "text": "Repetir un argumento contrario"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -5524,8 +8720,28 @@
     "statement": "La persuasión en un texto argumentativo busca:",
     "options": [
       {
+        "key": "A",
+        "text": "Cambiar la opinión o conducta del lector"
+      },
+      {
         "key": "B",
         "text": "Informar al lector"
+      },
+      {
+        "key": "C",
+        "text": "Entretener al lector"
+      },
+      {
+        "key": "D",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "F",
+        "text": "Describir un lugar"
       }
     ],
     "correctAnswer": "A",
@@ -5540,8 +8756,28 @@
     "statement": "La disuasión en un texto argumentativo busca:",
     "options": [
       {
+        "key": "A",
+        "text": "Convencer al lector de no hacer algo"
+      },
+      {
+        "key": "B",
+        "text": "Convencer al lector de hacer algo"
+      },
+      {
         "key": "C",
         "text": "Informar al lector"
+      },
+      {
+        "key": "D",
+        "text": "Entretener al lector"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Contar una historia"
       }
     ],
     "correctAnswer": "A",
@@ -5555,6 +8791,14 @@
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "El lenguaje de un texto argumentativo debe ser:",
     "options": [
+      {
+        "key": "A",
+        "text": "Claro, preciso y persuasivo"
+      },
+      {
+        "key": "B",
+        "text": "Confuso y ambiguo"
+      },
       {
         "key": "C",
         "text": "Informal y coloquial"
@@ -5584,6 +8828,26 @@
     "statement": "Los conectores más usados en textos argumentativos son:",
     "options": [
       {
+        "key": "A",
+        "text": "Adversativos y conclusivos"
+      },
+      {
+        "key": "B",
+        "text": "Aditivos y temporales"
+      },
+      {
+        "key": "C",
+        "text": "Condicionales y finales"
+      },
+      {
+        "key": "D",
+        "text": "De duda y evidencia"
+      },
+      {
+        "key": "E",
+        "text": "De ejemplificación y explicación"
+      },
+      {
         "key": "F",
         "text": "Ordenadores y de cierre"
       }
@@ -5599,6 +8863,14 @@
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La tesis de un texto argumentativo debe ser:",
     "options": [
+      {
+        "key": "A",
+        "text": "Clara, precisa y discutible"
+      },
+      {
+        "key": "B",
+        "text": "Confusa, ambigua e indiscutible"
+      },
       {
         "key": "C",
         "text": "Informal y coloquial"
@@ -5666,6 +8938,26 @@
       {
         "key": "A",
         "text": "Responder a un ataque con otro ataque similar"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición"
       }
     ],
     "correctAnswer": "A",
@@ -5678,7 +8970,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
     "statement": "La falacia \"post hoc\" consiste en:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Asumir que si un hecho sigue a otro, el primero es causa del segundo"
+      },
+      {
+        "key": "B",
+        "text": "Apelar a la mayoría"
+      },
+      {
+        "key": "C",
+        "text": "Apelar a la autoridad"
+      },
+      {
+        "key": "D",
+        "text": "Apelar a la fuerza"
+      },
+      {
+        "key": "E",
+        "text": "Apelar a la ignorancia"
+      },
+      {
+        "key": "F",
+        "text": "Apelar a la tradición ---"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Post hoc\" asume que si un hecho sigue a otro, el primero es causa del segundo."
   },
@@ -5725,7 +9042,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
     "statement": "La idea principal de un párrafo:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Es la idea más importante que se desarrolla"
+      },
+      {
+        "key": "B",
+        "text": "Es la primera palabra"
+      },
+      {
+        "key": "C",
+        "text": "Es la última palabra"
+      },
+      {
+        "key": "D",
+        "text": "Es la más larga"
+      },
+      {
+        "key": "E",
+        "text": "Es la más corta"
+      },
+      {
+        "key": "F",
+        "text": "Es la más repetida"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La idea principal es la más importante."
   },
@@ -5737,6 +9079,10 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
     "statement": "Las ideas secundarias de un párrafo:",
     "options": [
+      {
+        "key": "A",
+        "text": "Complementan o apoyan la idea principal"
+      },
       {
         "key": "B",
         "text": "Son más importantes que la principal"
@@ -5768,7 +9114,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
     "statement": "La oración temática de un párrafo:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Expresa la idea principal"
+      },
+      {
+        "key": "B",
+        "text": "Expresa una idea secundaria"
+      },
+      {
+        "key": "C",
+        "text": "Es la conclusión"
+      },
+      {
+        "key": "D",
+        "text": "Es la introducción"
+      },
+      {
+        "key": "E",
+        "text": "Es el título"
+      },
+      {
+        "key": "F",
+        "text": "Es el subtítulo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La oración temática expresa la idea principal."
   },
@@ -5785,8 +9156,24 @@
         "text": "Presentar el tema y captar la atención"
       },
       {
+        "key": "B",
+        "text": "Desarrollar las ideas"
+      },
+      {
+        "key": "C",
+        "text": "Concluir el tema"
+      },
+      {
         "key": "D",
         "text": "Repetir el tema"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -5801,12 +9188,28 @@
     "statement": "Un párrafo de desarrollo tiene como función:",
     "options": [
       {
+        "key": "A",
+        "text": "Explicar, argumentar o narrar las ideas principales"
+      },
+      {
         "key": "B",
         "text": "Presentar el tema"
       },
       {
+        "key": "C",
+        "text": "Concluir el tema"
+      },
+      {
         "key": "D",
         "text": "Repetir el tema"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -5829,8 +9232,20 @@
         "text": "Presentar el tema"
       },
       {
+        "key": "C",
+        "text": "Desarrollar las ideas"
+      },
+      {
         "key": "D",
         "text": "Repetir el tema"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -5843,7 +9258,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
     "statement": "Un párrafo expositivo tiene como función:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Explicar o informar sobre un tema"
+      },
+      {
+        "key": "B",
+        "text": "Convencer al lector"
+      },
+      {
+        "key": "C",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "D",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Entretener"
+      },
+      {
+        "key": "F",
+        "text": "Describir un lugar"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El párrafo expositivo explica o informa."
   },
@@ -5856,8 +9296,28 @@
     "statement": "Un párrafo argumentativo tiene como función:",
     "options": [
       {
+        "key": "A",
+        "text": "Defender una idea con razones"
+      },
+      {
         "key": "B",
         "text": "Informar objetivamente"
+      },
+      {
+        "key": "C",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "D",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Entretener"
+      },
+      {
+        "key": "F",
+        "text": "Describir un lugar"
       }
     ],
     "correctAnswer": "A",
@@ -5872,8 +9332,28 @@
     "statement": "Un párrafo narrativo tiene como función:",
     "options": [
       {
+        "key": "A",
+        "text": "Contar una historia o sucesos"
+      },
+      {
         "key": "B",
         "text": "Informar objetivamente"
+      },
+      {
+        "key": "C",
+        "text": "Convencer al lector"
+      },
+      {
+        "key": "D",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Entretener"
+      },
+      {
+        "key": "F",
+        "text": "Describir un lugar"
       }
     ],
     "correctAnswer": "A",
@@ -5892,8 +9372,24 @@
         "text": "Representar características de personas, objetos o lugares"
       },
       {
+        "key": "B",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "C",
+        "text": "Convencer al lector"
+      },
+      {
         "key": "D",
         "text": "Informar objetivamente"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Entretener"
       }
     ],
     "correctAnswer": "A",
@@ -5908,8 +9404,28 @@
     "statement": "Un párrafo de comparación tiene como función:",
     "options": [
       {
+        "key": "A",
+        "text": "Establecer semejanzas y diferencias"
+      },
+      {
+        "key": "B",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "C",
+        "text": "Convencer al lector"
+      },
+      {
         "key": "D",
         "text": "Informar objetivamente"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Entretener"
       }
     ],
     "correctAnswer": "A",
@@ -5924,8 +9440,28 @@
     "statement": "Un párrafo de causa-efecto tiene como función:",
     "options": [
       {
+        "key": "A",
+        "text": "Explicar las causas y consecuencias de un fenómeno"
+      },
+      {
+        "key": "B",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "C",
+        "text": "Convencer al lector"
+      },
+      {
         "key": "D",
         "text": "Informar objetivamente"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Entretener"
       }
     ],
     "correctAnswer": "A",
@@ -5940,8 +9476,28 @@
     "statement": "Un párrafo de definición tiene como función:",
     "options": [
       {
+        "key": "A",
+        "text": "Explicar el significado de un término"
+      },
+      {
+        "key": "B",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "C",
+        "text": "Convencer al lector"
+      },
+      {
         "key": "D",
         "text": "Informar objetivamente"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Entretener"
       }
     ],
     "correctAnswer": "A",
@@ -5960,8 +9516,24 @@
         "text": "Organizar elementos en categorías"
       },
       {
+        "key": "B",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "C",
+        "text": "Convencer al lector"
+      },
+      {
         "key": "D",
         "text": "Informar objetivamente"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Entretener"
       }
     ],
     "correctAnswer": "A",
@@ -5980,8 +9552,24 @@
         "text": "Ilustrar una idea con casos concretos"
       },
       {
+        "key": "B",
+        "text": "Contar una historia"
+      },
+      {
+        "key": "C",
+        "text": "Convencer al lector"
+      },
+      {
         "key": "D",
         "text": "Informar objetivamente"
+      },
+      {
+        "key": "E",
+        "text": "Expresar sentimientos"
+      },
+      {
+        "key": "F",
+        "text": "Entretener"
       }
     ],
     "correctAnswer": "A",
@@ -5995,6 +9583,10 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
     "statement": "La progresión temática se refiere a:",
     "options": [
+      {
+        "key": "A",
+        "text": "El avance ordenado de la información en el texto"
+      },
       {
         "key": "B",
         "text": "La repetición de la misma idea"
@@ -6064,6 +9656,18 @@
     "statement": "La progresión lineal se caracteriza porque:",
     "options": [
       {
+        "key": "A",
+        "text": "El rema de una oración se convierte en el tema de la siguiente"
+      },
+      {
+        "key": "B",
+        "text": "El tema se repite en todas las oraciones"
+      },
+      {
+        "key": "C",
+        "text": "El tema se divide en subtemas"
+      },
+      {
         "key": "D",
         "text": "No hay progresión"
       },
@@ -6087,6 +9691,18 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
     "statement": "La progresión con tema constante se caracteriza porque:",
     "options": [
+      {
+        "key": "A",
+        "text": "El mismo tema se repite en todas las oraciones"
+      },
+      {
+        "key": "B",
+        "text": "El rema se convierte en tema"
+      },
+      {
+        "key": "C",
+        "text": "El tema se divide en subtemas"
+      },
       {
         "key": "D",
         "text": "No hay progresión"
@@ -6112,6 +9728,18 @@
     "statement": "La progresión derivada se caracteriza porque:",
     "options": [
       {
+        "key": "A",
+        "text": "El tema se divide en varios subtemas"
+      },
+      {
+        "key": "B",
+        "text": "El rema se convierte en tema"
+      },
+      {
+        "key": "C",
+        "text": "El tema se repite"
+      },
+      {
         "key": "D",
         "text": "No hay progresión"
       },
@@ -6136,6 +9764,10 @@
     "statement": "El tema de un texto es:",
     "options": [
       {
+        "key": "A",
+        "text": "El asunto general del que trata"
+      },
+      {
         "key": "B",
         "text": "La idea principal"
       },
@@ -6146,6 +9778,14 @@
       {
         "key": "D",
         "text": "La introducción"
+      },
+      {
+        "key": "E",
+        "text": "El título"
+      },
+      {
+        "key": "F",
+        "text": "El subtítulo"
       }
     ],
     "correctAnswer": "A",
@@ -6164,12 +9804,24 @@
         "text": "La información nueva que se aporta sobre el tema"
       },
       {
+        "key": "B",
+        "text": "El asunto general"
+      },
+      {
         "key": "C",
         "text": "La conclusión"
       },
       {
         "key": "D",
         "text": "La introducción"
+      },
+      {
+        "key": "E",
+        "text": "El título"
+      },
+      {
+        "key": "F",
+        "text": "El subtítulo"
       }
     ],
     "correctAnswer": "A",
@@ -6238,6 +9890,10 @@
       {
         "key": "E",
         "text": "Sin estructura"
+      },
+      {
+        "key": "F",
+        "text": "Estructura caótica"
       }
     ],
     "correctAnswer": "A",
@@ -6256,8 +9912,24 @@
         "text": "Presentar el tema y captar la atención"
       },
       {
+        "key": "B",
+        "text": "Desarrollar todas las ideas"
+      },
+      {
+        "key": "C",
+        "text": "Concluir el tema"
+      },
+      {
         "key": "D",
         "text": "Repetir el título"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -6272,12 +9944,28 @@
     "statement": "El desarrollo de un texto debe:",
     "options": [
       {
+        "key": "A",
+        "text": "Explicar, argumentar o narrar las ideas principales"
+      },
+      {
         "key": "B",
         "text": "Presentar solo el tema"
       },
       {
+        "key": "C",
+        "text": "Concluir el tema"
+      },
+      {
         "key": "D",
         "text": "Repetir la introducción"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -6300,8 +9988,20 @@
         "text": "Presentar el tema"
       },
       {
+        "key": "C",
+        "text": "Desarrollar nuevas ideas"
+      },
+      {
         "key": "D",
         "text": "Repetir la introducción"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al lector"
+      },
+      {
+        "key": "F",
+        "text": "Alargar el texto"
       }
     ],
     "correctAnswer": "A",
@@ -6315,6 +10015,10 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
     "statement": "La cohesión textual se logra mediante:",
     "options": [
+      {
+        "key": "A",
+        "text": "Conectores, pronombres, sinónimos y otros mecanismos"
+      },
       {
         "key": "B",
         "text": "Solo signos de puntuación"
@@ -6394,6 +10098,10 @@
       {
         "key": "C",
         "text": "No tener tema"
+      },
+      {
+        "key": "D",
+        "text": "Cambiar de tema constantemente"
       },
       {
         "key": "E",
@@ -6596,6 +10304,10 @@
     "statement": "La superestructura de un texto se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "El esquema formal que organiza el texto"
+      },
+      {
         "key": "B",
         "text": "La organización de las oraciones"
       },
@@ -6640,6 +10352,10 @@
         "text": "Tesis, argumentos y conclusión"
       },
       {
+        "key": "D",
+        "text": "Descripción, análisis y síntesis"
+      },
+      {
         "key": "E",
         "text": "Título, cuerpo y firma"
       },
@@ -6672,6 +10388,10 @@
         "text": "Tesis, argumentos y conclusión"
       },
       {
+        "key": "D",
+        "text": "Descripción, análisis y síntesis"
+      },
+      {
         "key": "E",
         "text": "Título, cuerpo y firma"
       },
@@ -6702,6 +10422,10 @@
       {
         "key": "C",
         "text": "Introducción, desarrollo y conclusión"
+      },
+      {
+        "key": "D",
+        "text": "Descripción, análisis y síntesis"
       },
       {
         "key": "E",
@@ -6796,8 +10520,24 @@
     "statement": "La progresión temática de un texto debe ser:",
     "options": [
       {
+        "key": "A",
+        "text": "Coherente y ordenada"
+      },
+      {
+        "key": "B",
+        "text": "Caótica"
+      },
+      {
         "key": "C",
         "text": "Repetitiva"
+      },
+      {
+        "key": "D",
+        "text": "Confusa"
+      },
+      {
+        "key": "E",
+        "text": "Ambigua"
       },
       {
         "key": "F",
@@ -6856,6 +10596,18 @@
         "text": "Lógica y ordenada"
       },
       {
+        "key": "B",
+        "text": "Caótica"
+      },
+      {
+        "key": "C",
+        "text": "Confusa"
+      },
+      {
+        "key": "D",
+        "text": "Ambigua"
+      },
+      {
         "key": "E",
         "text": "Incoherente"
       },
@@ -6880,6 +10632,18 @@
         "text": "La atención del lector"
       },
       {
+        "key": "B",
+        "text": "El dinero del lector"
+      },
+      {
+        "key": "C",
+        "text": "El tiempo del lector"
+      },
+      {
+        "key": "D",
+        "text": "El esfuerzo del lector"
+      },
+      {
         "key": "E",
         "text": "La paciencia del lector"
       },
@@ -6899,6 +10663,22 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
     "statement": "El desarrollo de un texto debe mantener:",
     "options": [
+      {
+        "key": "A",
+        "text": "El interés del lector"
+      },
+      {
+        "key": "B",
+        "text": "El dinero del lector"
+      },
+      {
+        "key": "C",
+        "text": "El tiempo del lector"
+      },
+      {
+        "key": "D",
+        "text": "El esfuerzo del lector"
+      },
       {
         "key": "E",
         "text": "La paciencia del lector"
@@ -6956,8 +10736,16 @@
     "statement": "Un texto bien escrito debe ser:",
     "options": [
       {
+        "key": "A",
+        "text": "Coherente, cohesionado y adecuado"
+      },
+      {
         "key": "B",
         "text": "Incoherente, sin cohesión e inadecuado"
+      },
+      {
+        "key": "C",
+        "text": "Confuso, ambiguo y caótico"
       },
       {
         "key": "D",
@@ -6966,6 +10754,10 @@
       {
         "key": "E",
         "text": "Incoherente, desordenado y ambiguo"
+      },
+      {
+        "key": "F",
+        "text": "Coherente pero sin cohesión"
       }
     ],
     "correctAnswer": "A",
@@ -6979,6 +10771,10 @@
     "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
     "statement": "La revisión de un texto debe verificar:",
     "options": [
+      {
+        "key": "A",
+        "text": "Coherencia, cohesión, adecuación y corrección"
+      },
       {
         "key": "B",
         "text": "Solo la ortografía"

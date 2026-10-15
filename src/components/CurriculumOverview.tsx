@@ -33,7 +33,7 @@ export const CurriculumOverview: React.FC<CurriculumOverviewProps> = ({
   onSelectSubtopic,
   onOpenLatex,
 }) => {
-  const getSubjectIcon = (iconName: string) => {
+  const getSubjectIcon = (iconName?: string) => {
     switch (iconName) {
       case 'Calculator':
         return <Calculator className="w-5 h-5" />;

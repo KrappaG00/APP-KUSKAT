@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { ExamCategory, SubjectMeta } from '../types';
+import { ExamCategory, SubjectMeta, Institution } from '../types';
 import { fetchSubtopicQuestions, generateLatexForQuestions } from '../services/bancoService';
 import { Download, Copy, Check, Search, FileCode, ExternalLink, HelpCircle } from 'lucide-react';
 
@@ -58,7 +58,8 @@ export const LatexViewer: React.FC<LatexViewerProps> = ({ category, subjects, on
         }
       }
 
-      fetchSubtopicQuestions(category, selectedScope)
+      const targetInst: Institution = category === 'ALL' ? (selectedScope.startsWith('ansp_') ? 'ANSP' : 'UES') : category;
+      fetchSubtopicQuestions(targetInst, selectedScope)
         .then((qList) => {
           if (isMounted) {
             const generated = generateLatexForQuestions(foundTitle, foundCode, qList, true);

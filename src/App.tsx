@@ -30,6 +30,7 @@ import {
   Rocket,
   Layers,
   FolderTree,
+  HelpCircle,
 } from 'lucide-react';
 import {
   Institution,
@@ -40,6 +41,8 @@ import {
 } from './data';
 import { CategoryHierarchyViewer } from './components/CategoryHierarchyViewer';
 import { PracticeMode } from './components/PracticeMode';
+import { OnboardingTutorial } from './components/OnboardingTutorial';
+import { AdBanner } from './components/AdBanner';
 
 // ============================================================================
 // COMPONENTE PARA RENDERIZAR MATEMÁTICAS CON KATEX ($...$ y $$...$$)
@@ -151,6 +154,29 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<'categories' | 'practice' | 'latex'>('categories');
   const [isDevModalOpen, setIsDevModalOpen] = useState<boolean>(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
+
+  // Estado del Tutorial de Bienvenida Opcional
+  const [isTutorialOpen, setIsTutorialOpen] = useState<boolean>(() => {
+    try {
+      const neverShow = localStorage.getItem('kuskat_tutorial_never_show') === 'true';
+      const sessionDismissed = sessionStorage.getItem('kuskat_tutorial_dismissed_session') === 'true';
+      return !neverShow && !sessionDismissed;
+    } catch {
+      return false;
+    }
+  });
+
+  const handleCloseTutorial = (dontShowAgain: boolean) => {
+    try {
+      if (dontShowAgain) {
+        localStorage.setItem('kuskat_tutorial_never_show', 'true');
+      }
+      sessionStorage.setItem('kuskat_tutorial_dismissed_session', 'true');
+    } catch (e) {
+      console.warn('Storage unavailable:', e);
+    }
+    setIsTutorialOpen(false);
+  };
 
   // Preguntas seleccionadas para enviar al simulador (desde Categorías)
   const [quizQuestions, setQuizQuestions] = useState<Question[]>([]);
@@ -296,6 +322,17 @@ export default function App() {
               </div>
               <span className="hidden sm:inline">Creador:</span>
               <span className="font-bold text-slate-900">Yeferson E. Perez</span>
+            </button>
+
+            {/* Botón de Tutorial / Guía Inicial */}
+            <button
+              onClick={() => setIsTutorialOpen(true)}
+              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border border-blue-200 bg-blue-50/80 hover:bg-blue-100 text-blue-900 text-xs font-bold transition-all cursor-pointer shadow-2xs"
+              title="Abrir tutorial y guía interactiva de KUSKAT"
+            >
+              <HelpCircle className="w-3.5 h-3.5 text-blue-600" />
+              <span className="hidden sm:inline">Guía</span>
+              <span>Tutorial</span>
             </button>
 
             {/* Vistas Principales (Tabs) */}
@@ -526,6 +563,15 @@ export default function App() {
         </button>
 
         <button
+          onClick={() => setIsTutorialOpen(true)}
+          className="flex flex-col items-center gap-1 py-1 px-2 rounded-xl text-[10px] font-bold text-blue-700 cursor-pointer"
+          title="Ver tutorial de bienvenida"
+        >
+          <HelpCircle className="w-4 h-4 text-blue-600" />
+          <span>Tutorial</span>
+        </button>
+
+        <button
           onClick={() => setIsDevModalOpen(true)}
           className="flex flex-col items-center gap-1 py-1 px-2 rounded-xl text-[10px] font-bold text-slate-500 cursor-pointer"
         >
@@ -535,6 +581,14 @@ export default function App() {
           <span>Creador</span>
         </button>
       </nav>
+
+      {/* ==================================================================== */}
+      {/* 4.5 TUTORIAL DE BIENVENIDA O GUÍA INTERACTIVA (OPCIONAL) */}
+      {/* ==================================================================== */}
+      <OnboardingTutorial
+        isOpen={isTutorialOpen}
+        onClose={handleCloseTutorial}
+      />
 
       {/* ==================================================================== */}
       {/* 5. MODAL DEL DESARROLLADOR & CREADOR (YEFERSON E. PEREZ) */}
@@ -594,7 +648,7 @@ export default function App() {
                   <div className="flex items-start gap-2.5 bg-white p-2.5 rounded-xl border border-slate-200/80">
                     <GraduationCap className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
                     <p className="text-slate-800 font-medium">
-                      <strong>Estudiante de Ciencias Computacionales y Ciencias Médicas.</strong>
+                      <strong>Estudiante de Ciencias Computacionales y Ciencias Médicas, proximamente :).</strong>
                     </p>
                   </div>
                   <div className="flex items-start gap-2.5 bg-white p-2.5 rounded-xl border border-slate-200/80">
@@ -751,7 +805,7 @@ export default function App() {
                 </div>
 
                 <div className="space-y-1 text-[11px] text-slate-600 border-t border-slate-200/70 pt-2">
-                  <p className="font-medium text-slate-800">• Estudiante de Ciencias Computacionales y Ciencias Médicas.</p>
+                  <p className="font-medium text-slate-800">• Estudiante de Ciencias Computacionales y Ciencias Médicas, proximamente :).</p>
                   <p>• Exalumno de Jóvenes Talento - ASD Morazán.</p>
                   <p>• Educación media cursada en CECEM.</p>
                 </div>
@@ -812,8 +866,27 @@ export default function App() {
             </div>
           </div>
 
+          {/* ================================================================ */}
+          {/* ESPACIO PUBLICITARIO SUTIL DE PIE DE PÁGINA (2 de 2 máx)           */}
+          {/* ================================================================ */}
+          <div className="pt-6">
+            <AdBanner
+              label="Patrocinado"
+              className="border-slate-200/60 bg-slate-50/50"
+            />
+          </div>
+
           <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-slate-400 text-[11px]">
-            <p>KUSKAT © 2026 • Todos los derechos reservados • Desarrollado por Yeferson E. Perez</p>
+            <div className="flex items-center gap-3 flex-wrap">
+              <p>KUSKAT © 2026 • Todos los derechos reservados • Desarrollado por Yeferson E. Perez</p>
+              <span>•</span>
+              <button
+                onClick={() => setIsTutorialOpen(true)}
+                className="text-blue-600 hover:text-blue-800 underline font-bold cursor-pointer"
+              >
+                Ver tutorial nuevamente
+              </button>
+            </div>
             <p className="font-mono">v2.3.0 • El Salvador</p>
           </div>
         </div>

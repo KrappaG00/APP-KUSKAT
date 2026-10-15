@@ -1,6 +1,8 @@
 export type ExamCategory = 'UES' | 'ANSP' | 'ALL';
 export type Institution = 'UES' | 'ANSP';
 
+export type PedagogicalLevel = 'basico' | 'intermedio' | 'admision';
+
 export interface QuestionOption {
   key: string; // 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
   text: string;
@@ -19,6 +21,7 @@ export interface Question {
   institution: Institution;
   subject: string;
   topic: string;
+  level?: PedagogicalLevel;
 }
 
 export interface SubtopicMeta {
@@ -60,4 +63,23 @@ export interface CategorySelection {
   subjectId: string; // 'ALL' or specific subject id
   subtopicId: string; // 'ALL' or specific subtopic id
   sectionTitle: string; // 'ALL' or specific section title
+}
+
+export type FetchErrorType = 'network' | 'not_found' | 'invalid_data' | 'empty';
+
+export interface FetchQuestionsResult {
+  questions: Question[];
+  status: 'success' | 'empty' | 'error';
+  errorType?: FetchErrorType;
+  errorMessage?: string;
+  isFallback?: boolean;
+}
+
+export interface TutorialStep {
+  step: number;
+  title: string;
+  subtitle: string;
+  description: string;
+  bulletPoints: string[];
+  badge: string;
 }

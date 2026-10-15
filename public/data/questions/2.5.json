@@ -8,8 +8,16 @@
     "statement": "¿Qué estudia la pragmática?",
     "options": [
       {
+        "key": "A",
+        "text": "El uso del lenguaje en contexto y la intención del emisor"
+      },
+      {
         "key": "B",
         "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "C",
+        "text": "El significado de las palabras"
       },
       {
         "key": "D",
@@ -18,6 +26,10 @@
       {
         "key": "E",
         "text": "La pronunciación de las palabras"
+      },
+      {
+        "key": "F",
+        "text": "El origen de las palabras"
       }
     ],
     "correctAnswer": "A",
@@ -30,7 +42,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
     "statement": "La pragmática se diferencia de la semántica porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Estudia el significado en contexto, no solo el significado literal"
+      },
+      {
+        "key": "B",
+        "text": "Estudia solo el significado literal"
+      },
+      {
+        "key": "C",
+        "text": "Estudia solo la sintaxis"
+      },
+      {
+        "key": "D",
+        "text": "Estudia solo la ortografía"
+      },
+      {
+        "key": "E",
+        "text": "Estudia solo la fonética"
+      },
+      {
+        "key": "F",
+        "text": "Estudia solo la morfología"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La pragmática estudia el significado en contexto."
   },
@@ -42,6 +79,10 @@
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
     "statement": "¿Qué es el contexto en pragmática?",
     "options": [
+      {
+        "key": "A",
+        "text": "El conjunto de circunstancias que rodean el acto comunicativo"
+      },
       {
         "key": "B",
         "text": "Solo el lugar donde se habla"
@@ -79,6 +120,10 @@
         "text": "Las circunstancias físicas y sociales de la comunicación"
       },
       {
+        "key": "B",
+        "text": "El significado de las palabras"
+      },
+      {
         "key": "C",
         "text": "La estructura gramatical"
       },
@@ -107,8 +152,28 @@
     "statement": "El contexto lingüístico se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "El texto que rodea a un enunciado"
+      },
+      {
+        "key": "B",
+        "text": "El lugar donde se habla"
+      },
+      {
+        "key": "C",
+        "text": "El tiempo en que se habla"
+      },
+      {
         "key": "D",
         "text": "La intención del emisor"
+      },
+      {
+        "key": "E",
+        "text": "El canal de comunicación"
+      },
+      {
+        "key": "F",
+        "text": "El código utilizado"
       }
     ],
     "correctAnswer": "A",
@@ -125,6 +190,26 @@
       {
         "key": "A",
         "text": "Las normas y valores de la comunidad donde se comunica"
+      },
+      {
+        "key": "B",
+        "text": "El lugar físico"
+      },
+      {
+        "key": "C",
+        "text": "El tiempo"
+      },
+      {
+        "key": "D",
+        "text": "El canal"
+      },
+      {
+        "key": "E",
+        "text": "El código"
+      },
+      {
+        "key": "F",
+        "text": "El mensaje"
       }
     ],
     "correctAnswer": "A",
@@ -175,6 +260,14 @@
     "statement": "¿Qué es la intención comunicativa?",
     "options": [
       {
+        "key": "A",
+        "text": "El propósito que tiene el emisor al comunicarse"
+      },
+      {
+        "key": "B",
+        "text": "El significado literal de las palabras"
+      },
+      {
         "key": "C",
         "text": "La estructura gramatical"
       },
@@ -203,8 +296,20 @@
     "statement": "¿Qué es el significado literal?",
     "options": [
       {
+        "key": "A",
+        "text": "El significado directo de las palabras según el código"
+      },
+      {
+        "key": "B",
+        "text": "El significado inferido por el contexto"
+      },
+      {
         "key": "C",
         "text": "La intención del emisor"
+      },
+      {
+        "key": "D",
+        "text": "El efecto en el receptor"
       },
       {
         "key": "E",
@@ -226,6 +331,14 @@
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
     "statement": "¿Qué es el significado inferencial?",
     "options": [
+      {
+        "key": "A",
+        "text": "El significado que se deduce del contexto y la intención"
+      },
+      {
+        "key": "B",
+        "text": "El significado directo de las palabras"
+      },
       {
         "key": "C",
         "text": "La estructura gramatical"
@@ -299,6 +412,10 @@
         "text": "La estructura de las oraciones"
       },
       {
+        "key": "C",
+        "text": "El significado de las palabras"
+      },
+      {
         "key": "D",
         "text": "La ortografía del texto"
       },
@@ -327,6 +444,22 @@
         "text": "Pronombres personales y posesivos"
       },
       {
+        "key": "B",
+        "text": "Adverbios de lugar"
+      },
+      {
+        "key": "C",
+        "text": "Adverbios de tiempo"
+      },
+      {
+        "key": "D",
+        "text": "Demostrativos"
+      },
+      {
+        "key": "E",
+        "text": "Conectores"
+      },
+      {
         "key": "F",
         "text": "Preposiciones"
       }
@@ -343,12 +476,28 @@
     "statement": "La deixis espacial se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbios y demostrativos de lugar"
+      },
+      {
         "key": "B",
         "text": "Pronombres personales"
       },
       {
+        "key": "C",
+        "text": "Adverbios de tiempo"
+      },
+      {
+        "key": "D",
+        "text": "Conectores"
+      },
+      {
         "key": "E",
         "text": "Preposiciones"
+      },
+      {
+        "key": "F",
+        "text": "Conjunciones"
       }
     ],
     "correctAnswer": "A",
@@ -363,12 +512,28 @@
     "statement": "La deixis temporal se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbios y expresiones de tiempo"
+      },
+      {
         "key": "B",
         "text": "Pronombres personales"
       },
       {
+        "key": "C",
+        "text": "Adverbios de lugar"
+      },
+      {
+        "key": "D",
+        "text": "Conectores"
+      },
+      {
         "key": "E",
         "text": "Preposiciones"
+      },
+      {
+        "key": "F",
+        "text": "Conjunciones"
       }
     ],
     "correctAnswer": "A",
@@ -427,6 +592,10 @@
         "text": "La estructura de las oraciones"
       },
       {
+        "key": "C",
+        "text": "El significado de las palabras"
+      },
+      {
         "key": "D",
         "text": "La ortografía del texto"
       },
@@ -465,6 +634,14 @@
       {
         "key": "D",
         "text": "La repetición de palabras"
+      },
+      {
+        "key": "E",
+        "text": "El uso de sinónimos"
+      },
+      {
+        "key": "F",
+        "text": "El uso de antónimos"
       }
     ],
     "correctAnswer": "A",
@@ -493,6 +670,14 @@
       {
         "key": "D",
         "text": "La repetición de palabras"
+      },
+      {
+        "key": "E",
+        "text": "El uso de sinónimos"
+      },
+      {
+        "key": "F",
+        "text": "El uso de antónimos"
       }
     ],
     "correctAnswer": "A",
@@ -517,6 +702,18 @@
       {
         "key": "C",
         "text": "La ausencia de referencia"
+      },
+      {
+        "key": "D",
+        "text": "El uso de sinónimos"
+      },
+      {
+        "key": "E",
+        "text": "El uso de antónimos"
+      },
+      {
+        "key": "F",
+        "text": "El uso de conectores"
       }
     ],
     "correctAnswer": "A",
@@ -541,6 +738,18 @@
       {
         "key": "C",
         "text": "La intención del emisor"
+      },
+      {
+        "key": "D",
+        "text": "El efecto en el receptor"
+      },
+      {
+        "key": "E",
+        "text": "El significado literal"
+      },
+      {
+        "key": "F",
+        "text": "El significado inferencial"
       }
     ],
     "correctAnswer": "A",
@@ -554,6 +763,14 @@
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
     "statement": "¿Qué es la implicatura?",
     "options": [
+      {
+        "key": "A",
+        "text": "El significado inferido que va más allá de lo literal"
+      },
+      {
+        "key": "B",
+        "text": "El significado literal"
+      },
       {
         "key": "C",
         "text": "La estructura gramatical"
@@ -581,7 +798,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
     "statement": "¿Qué es el principio de cooperación?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El principio que guía la comunicación eficaz entre hablantes"
+      },
+      {
+        "key": "B",
+        "text": "El principio que guía la estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El principio que guía la ortografía"
+      },
+      {
+        "key": "D",
+        "text": "El principio que guía la puntuación"
+      },
+      {
+        "key": "E",
+        "text": "El principio que guía la caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "El principio que guía la sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El principio de cooperación guía la comunicación eficaz."
   },
@@ -598,12 +840,24 @@
         "text": "Paul Grice"
       },
       {
+        "key": "B",
+        "text": "Ferdinand de Saussure"
+      },
+      {
+        "key": "C",
+        "text": "Noam Chomsky"
+      },
+      {
         "key": "D",
         "text": "Roman Jakobson"
       },
       {
         "key": "E",
         "text": "Michael Halliday"
+      },
+      {
+        "key": "F",
+        "text": "John Austin"
       }
     ],
     "correctAnswer": "A",
@@ -616,7 +870,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
     "statement": "Las máximas de Grice son:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cantidad, calidad, relación y manera"
+      },
+      {
+        "key": "B",
+        "text": "Cantidad, calidad, relación y cortesía"
+      },
+      {
+        "key": "C",
+        "text": "Cantidad, calidad, modo y cortesía"
+      },
+      {
+        "key": "D",
+        "text": "Cantidad, calidad, pertinencia y modo"
+      },
+      {
+        "key": "E",
+        "text": "Cantidad, calidad, relevancia y manera"
+      },
+      {
+        "key": "F",
+        "text": "Cantidad, calidad, cooperación y manera"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Las máximas son cantidad, calidad, relación y manera."
   },
@@ -628,6 +907,14 @@
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
     "statement": "La máxima de cantidad se refiere a:",
     "options": [
+      {
+        "key": "A",
+        "text": "Dar la información necesaria, ni más ni menos"
+      },
+      {
+        "key": "B",
+        "text": "Decir la verdad"
+      },
       {
         "key": "C",
         "text": "Ser relevante"
@@ -656,6 +943,14 @@
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
     "statement": "La máxima de calidad se refiere a:",
     "options": [
+      {
+        "key": "A",
+        "text": "Decir la verdad y no decir lo que se cree falso"
+      },
+      {
+        "key": "B",
+        "text": "Dar la información necesaria"
+      },
       {
         "key": "C",
         "text": "Ser relevante"
@@ -689,6 +984,14 @@
         "text": "Ser relevante y pertinente"
       },
       {
+        "key": "B",
+        "text": "Dar la información necesaria"
+      },
+      {
+        "key": "C",
+        "text": "Decir la verdad"
+      },
+      {
         "key": "D",
         "text": "Ser claro"
       },
@@ -717,6 +1020,14 @@
         "text": "Ser claro, breve y ordenado"
       },
       {
+        "key": "B",
+        "text": "Dar la información necesaria"
+      },
+      {
+        "key": "C",
+        "text": "Decir la verdad"
+      },
+      {
         "key": "D",
         "text": "Ser relevante"
       },
@@ -739,7 +1050,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
     "statement": "¿Qué es la cortesía verbal?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El conjunto de estrategias para mantener la relación social"
+      },
+      {
+        "key": "B",
+        "text": "El conjunto de reglas gramaticales"
+      },
+      {
+        "key": "C",
+        "text": "El conjunto de reglas ortográficas"
+      },
+      {
+        "key": "D",
+        "text": "El conjunto de reglas de puntuación"
+      },
+      {
+        "key": "E",
+        "text": "El conjunto de reglas de caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "El conjunto de reglas sintácticas"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La cortesía verbal mantiene la relación social."
   },
@@ -802,6 +1138,14 @@
       {
         "key": "D",
         "text": "Ofender al interlocutor"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al interlocutor"
+      },
+      {
+        "key": "F",
+        "text": "Alargar la conversación"
       }
     ],
     "correctAnswer": "A",
@@ -830,6 +1174,14 @@
       {
         "key": "D",
         "text": "Ofender al interlocutor"
+      },
+      {
+        "key": "E",
+        "text": "Confundir al interlocutor"
+      },
+      {
+        "key": "F",
+        "text": "Alargar la conversación"
       }
     ],
     "correctAnswer": "A",
@@ -850,6 +1202,10 @@
       {
         "key": "B",
         "text": "La estructura gramatical de una oración"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal de las palabras"
       },
       {
         "key": "D",
@@ -876,8 +1232,20 @@
     "statement": "¿Quién propuso la teoría de los actos de habla?",
     "options": [
       {
+        "key": "A",
+        "text": "John Austin"
+      },
+      {
         "key": "B",
         "text": "Paul Grice"
+      },
+      {
+        "key": "C",
+        "text": "Ferdinand de Saussure"
+      },
+      {
+        "key": "D",
+        "text": "Noam Chomsky"
       },
       {
         "key": "E",
@@ -936,8 +1304,16 @@
     "statement": "El acto locutivo se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "El acto de decir algo con significado"
+      },
+      {
         "key": "B",
         "text": "La intención del hablante"
+      },
+      {
+        "key": "C",
+        "text": "El efecto en el oyente"
       },
       {
         "key": "D",
@@ -968,6 +1344,14 @@
         "text": "La intención o fuerza del acto al decir algo"
       },
       {
+        "key": "B",
+        "text": "El acto de decir algo"
+      },
+      {
+        "key": "C",
+        "text": "El efecto en el oyente"
+      },
+      {
         "key": "D",
         "text": "La estructura gramatical"
       },
@@ -991,6 +1375,14 @@
     "sectionTitle": "SECCIÓN I: CONCEPTOS BÁSICOS DE PRAGMÁTICA (1–40)",
     "statement": "El acto perlocutivo se refiere a:",
     "options": [
+      {
+        "key": "A",
+        "text": "El efecto que produce el enunciado en el oyente"
+      },
+      {
+        "key": "B",
+        "text": "El acto de decir algo"
+      },
       {
         "key": "C",
         "text": "La intención del hablante"
@@ -1020,8 +1412,16 @@
     "statement": "Según Searle, los actos de habla se clasifican en:",
     "options": [
       {
+        "key": "A",
+        "text": "Asertivos, directivos, compromisivos, expresivos y declarativos"
+      },
+      {
         "key": "B",
         "text": "Locutivos, ilocutivos y perlocutivos"
+      },
+      {
+        "key": "C",
+        "text": "Directos e indirectos"
       },
       {
         "key": "D",
@@ -1048,8 +1448,24 @@
     "statement": "Los actos de habla asertivos o representativos:",
     "options": [
       {
+        "key": "A",
+        "text": "Afirman o niegan algo sobre el mundo"
+      },
+      {
         "key": "B",
         "text": "Intentan que el oyente haga algo"
+      },
+      {
+        "key": "C",
+        "text": "Comprometen al hablante a hacer algo"
+      },
+      {
+        "key": "D",
+        "text": "Expresan sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Cambian el estado de cosas"
       },
       {
         "key": "F",
@@ -1070,6 +1486,26 @@
       {
         "key": "A",
         "text": "Intentan que el oyente haga algo"
+      },
+      {
+        "key": "B",
+        "text": "Afirman o niegan algo"
+      },
+      {
+        "key": "C",
+        "text": "Comprometen al hablante"
+      },
+      {
+        "key": "D",
+        "text": "Expresan sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Cambian el estado de cosas"
+      },
+      {
+        "key": "F",
+        "text": "Declaran algo"
       }
     ],
     "correctAnswer": "A",
@@ -1084,8 +1520,28 @@
     "statement": "Los actos de habla compromisivos:",
     "options": [
       {
+        "key": "A",
+        "text": "Comprometen al hablante a realizar una acción futura"
+      },
+      {
+        "key": "B",
+        "text": "Afirman o niegan algo"
+      },
+      {
         "key": "C",
         "text": "Intentan que el oyente haga algo"
+      },
+      {
+        "key": "D",
+        "text": "Expresan sentimientos"
+      },
+      {
+        "key": "E",
+        "text": "Cambian el estado de cosas"
+      },
+      {
+        "key": "F",
+        "text": "Declaran algo"
       }
     ],
     "correctAnswer": "A",
@@ -1100,8 +1556,28 @@
     "statement": "Los actos de habla expresivos:",
     "options": [
       {
+        "key": "A",
+        "text": "Expresan el estado psicológico o emocional del hablante"
+      },
+      {
+        "key": "B",
+        "text": "Afirman o niegan algo"
+      },
+      {
         "key": "C",
         "text": "Intentan que el oyente haga algo"
+      },
+      {
+        "key": "D",
+        "text": "Comprometen al hablante"
+      },
+      {
+        "key": "E",
+        "text": "Cambian el estado de cosas"
+      },
+      {
+        "key": "F",
+        "text": "Declaran algo"
       }
     ],
     "correctAnswer": "A",
@@ -1116,8 +1592,24 @@
     "statement": "Los actos de habla declarativos:",
     "options": [
       {
+        "key": "A",
+        "text": "Cambian el estado de cosas al ser emitidos"
+      },
+      {
+        "key": "B",
+        "text": "Afirman o niegan algo"
+      },
+      {
         "key": "C",
         "text": "Intentan que el oyente haga algo"
+      },
+      {
+        "key": "D",
+        "text": "Comprometen al hablante"
+      },
+      {
+        "key": "E",
+        "text": "Expresan sentimientos"
       },
       {
         "key": "F",
@@ -1136,6 +1628,26 @@
     "statement": "\"Te prometo que iré\" es un acto de habla:",
     "options": [
       {
+        "key": "A",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "B",
+        "text": "Asertivo"
+      },
+      {
+        "key": "C",
+        "text": "Directivo"
+      },
+      {
+        "key": "D",
+        "text": "Expresivo"
+      },
+      {
+        "key": "E",
+        "text": "Declarativo"
+      },
+      {
         "key": "F",
         "text": "Interrogativo"
       }
@@ -1150,7 +1662,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "\"¿Puedes cerrar la puerta?\" es un acto de habla:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Directivo"
+      },
+      {
+        "key": "B",
+        "text": "Asertivo"
+      },
+      {
+        "key": "C",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "D",
+        "text": "Expresivo"
+      },
+      {
+        "key": "E",
+        "text": "Declarativo"
+      },
+      {
+        "key": "F",
+        "text": "Exclamativo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"¿Puedes cerrar la puerta?\" es directivo."
   },
@@ -1162,6 +1699,26 @@
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "\"Lo siento mucho\" es un acto de habla:",
     "options": [
+      {
+        "key": "A",
+        "text": "Expresivo"
+      },
+      {
+        "key": "B",
+        "text": "Asertivo"
+      },
+      {
+        "key": "C",
+        "text": "Directivo"
+      },
+      {
+        "key": "D",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "E",
+        "text": "Declarativo"
+      },
       {
         "key": "F",
         "text": "Interrogativo"
@@ -1179,6 +1736,26 @@
     "statement": "\"Declaro inaugurada la sesión\" es un acto de habla:",
     "options": [
       {
+        "key": "A",
+        "text": "Declarativo"
+      },
+      {
+        "key": "B",
+        "text": "Asertivo"
+      },
+      {
+        "key": "C",
+        "text": "Directivo"
+      },
+      {
+        "key": "D",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "E",
+        "text": "Expresivo"
+      },
+      {
         "key": "F",
         "text": "Interrogativo"
       }
@@ -1194,6 +1771,26 @@
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "\"El cielo es azul\" es un acto de habla:",
     "options": [
+      {
+        "key": "A",
+        "text": "Asertivo"
+      },
+      {
+        "key": "B",
+        "text": "Directivo"
+      },
+      {
+        "key": "C",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "D",
+        "text": "Expresivo"
+      },
+      {
+        "key": "E",
+        "text": "Declarativo"
+      },
       {
         "key": "F",
         "text": "Interrogativo"
@@ -1211,6 +1808,26 @@
     "statement": "\"Te aconsejo que estudies\" es un acto de habla:",
     "options": [
       {
+        "key": "A",
+        "text": "Directivo"
+      },
+      {
+        "key": "B",
+        "text": "Asertivo"
+      },
+      {
+        "key": "C",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "D",
+        "text": "Expresivo"
+      },
+      {
+        "key": "E",
+        "text": "Declarativo"
+      },
+      {
         "key": "F",
         "text": "Interrogativo"
       }
@@ -1226,6 +1843,26 @@
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "\"¡Qué alegría verte!\" es un acto de habla:",
     "options": [
+      {
+        "key": "A",
+        "text": "Expresivo"
+      },
+      {
+        "key": "B",
+        "text": "Asertivo"
+      },
+      {
+        "key": "C",
+        "text": "Directivo"
+      },
+      {
+        "key": "D",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "E",
+        "text": "Declarativo"
+      },
       {
         "key": "F",
         "text": "Interrogativo"
@@ -1243,6 +1880,26 @@
     "statement": "\"Juro decir la verdad\" es un acto de habla:",
     "options": [
       {
+        "key": "A",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "B",
+        "text": "Asertivo"
+      },
+      {
+        "key": "C",
+        "text": "Directivo"
+      },
+      {
+        "key": "D",
+        "text": "Expresivo"
+      },
+      {
+        "key": "E",
+        "text": "Declarativo"
+      },
+      {
         "key": "F",
         "text": "Interrogativo"
       }
@@ -1259,6 +1916,26 @@
     "statement": "\"Bautizo este barco como Aurora\" es un acto de habla:",
     "options": [
       {
+        "key": "A",
+        "text": "Declarativo"
+      },
+      {
+        "key": "B",
+        "text": "Asertivo"
+      },
+      {
+        "key": "C",
+        "text": "Directivo"
+      },
+      {
+        "key": "D",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "E",
+        "text": "Expresivo"
+      },
+      {
         "key": "F",
         "text": "Interrogativo"
       }
@@ -1273,7 +1950,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "Un acto de habla directo es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que se realiza mediante una forma lingüística convencional"
+      },
+      {
+        "key": "B",
+        "text": "El que se realiza indirectamente"
+      },
+      {
+        "key": "C",
+        "text": "El que no tiene intención"
+      },
+      {
+        "key": "D",
+        "text": "El que no tiene efecto"
+      },
+      {
+        "key": "E",
+        "text": "El que no tiene significado"
+      },
+      {
+        "key": "F",
+        "text": "El que no tiene contexto"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El acto directo usa forma lingüística convencional."
   },
@@ -1284,7 +1986,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "Un acto de habla indirecto es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El que se realiza mediante una forma lingüística no convencional"
+      },
+      {
+        "key": "B",
+        "text": "El que se realiza directamente"
+      },
+      {
+        "key": "C",
+        "text": "El que no tiene intención"
+      },
+      {
+        "key": "D",
+        "text": "El que no tiene efecto"
+      },
+      {
+        "key": "E",
+        "text": "El que no tiene significado"
+      },
+      {
+        "key": "F",
+        "text": "El que no tiene contexto"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El acto indirecto usa forma no convencional."
   },
@@ -1295,7 +2022,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "\"¿Tienes hora?\" es un acto de habla:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Indirecto (pregunta que en realidad pide la hora)"
+      },
+      {
+        "key": "B",
+        "text": "Directo"
+      },
+      {
+        "key": "C",
+        "text": "Asertivo"
+      },
+      {
+        "key": "D",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "E",
+        "text": "Declarativo"
+      },
+      {
+        "key": "F",
+        "text": "Expresivo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"¿Tienes hora?\" es indirecto (pide la hora)."
   },
@@ -1306,7 +2058,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "\"Hace frío aquí\" puede ser un acto de habla:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Indirecto (sugiere cerrar la ventana)"
+      },
+      {
+        "key": "B",
+        "text": "Directo"
+      },
+      {
+        "key": "C",
+        "text": "Asertivo"
+      },
+      {
+        "key": "D",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "E",
+        "text": "Declarativo"
+      },
+      {
+        "key": "F",
+        "text": "Expresivo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Hace frío\" es indirecto (sugiere cerrar ventana)."
   },
@@ -1317,7 +2094,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "\"¿Podrías pasarme la sal?\" es un acto de habla:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Indirecto (petición disfrazada de pregunta)"
+      },
+      {
+        "key": "B",
+        "text": "Directo"
+      },
+      {
+        "key": "C",
+        "text": "Asertivo"
+      },
+      {
+        "key": "D",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "E",
+        "text": "Declarativo"
+      },
+      {
+        "key": "F",
+        "text": "Expresivo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"¿Podrías pasarme la sal?\" es indirecto (petición)."
   },
@@ -1328,7 +2130,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "\"Ya es tarde\" puede ser un acto de habla:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Indirecto (sugiere irse)"
+      },
+      {
+        "key": "B",
+        "text": "Directo"
+      },
+      {
+        "key": "C",
+        "text": "Asertivo"
+      },
+      {
+        "key": "D",
+        "text": "Compromisivo"
+      },
+      {
+        "key": "E",
+        "text": "Declarativo"
+      },
+      {
+        "key": "F",
+        "text": "Expresivo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Ya es tarde\" es indirecto (sugiere irse)."
   },
@@ -1343,6 +2170,14 @@
       {
         "key": "A",
         "text": "La intención comunicativa del hablante"
+      },
+      {
+        "key": "B",
+        "text": "El efecto en el oyente"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -1375,6 +2210,10 @@
       {
         "key": "B",
         "text": "La intención del hablante"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -1441,6 +2280,14 @@
         "text": "Realizativo"
       },
       {
+        "key": "B",
+        "text": "Descriptivo"
+      },
+      {
+        "key": "C",
+        "text": "Copulativo"
+      },
+      {
         "key": "D",
         "text": "Impersonal"
       },
@@ -1469,6 +2316,14 @@
         "text": "Realizativo"
       },
       {
+        "key": "B",
+        "text": "Descriptivo"
+      },
+      {
+        "key": "C",
+        "text": "Copulativo"
+      },
+      {
         "key": "D",
         "text": "Impersonal"
       },
@@ -1495,6 +2350,14 @@
       {
         "key": "A",
         "text": "Realizativo"
+      },
+      {
+        "key": "B",
+        "text": "Descriptivo"
+      },
+      {
+        "key": "C",
+        "text": "Copulativo"
       },
       {
         "key": "D",
@@ -1603,6 +2466,18 @@
       {
         "key": "C",
         "text": "Ignorar al interlocutor"
+      },
+      {
+        "key": "D",
+        "text": "Confundir al interlocutor"
+      },
+      {
+        "key": "E",
+        "text": "Alargar la conversación"
+      },
+      {
+        "key": "F",
+        "text": "Cambiar de tema"
       }
     ],
     "correctAnswer": "A",
@@ -1621,12 +2496,24 @@
         "text": "Suavizar la fuerza ilocutiva de un acto"
       },
       {
+        "key": "B",
+        "text": "Aumentar la fuerza ilocutiva"
+      },
+      {
         "key": "C",
         "text": "Ignorar la fuerza ilocutiva"
       },
       {
+        "key": "D",
+        "text": "Confundir la fuerza ilocutiva"
+      },
+      {
         "key": "E",
         "text": "Repetir la fuerza ilocutiva"
+      },
+      {
+        "key": "F",
+        "text": "Alargar la fuerza ilocutiva"
       }
     ],
     "correctAnswer": "A",
@@ -1641,12 +2528,28 @@
     "statement": "\"¿Serías tan amable de...?\" es una estrategia de:",
     "options": [
       {
+        "key": "A",
+        "text": "Cortesía negativa"
+      },
+      {
+        "key": "B",
+        "text": "Cortesía positiva"
+      },
+      {
+        "key": "C",
+        "text": "Descortesía"
+      },
+      {
         "key": "D",
         "text": "Ironía"
       },
       {
         "key": "E",
         "text": "Sarcasmo"
+      },
+      {
+        "key": "F",
+        "text": "Amenaza"
       }
     ],
     "correctAnswer": "A",
@@ -1661,12 +2564,28 @@
     "statement": "\"¡Qué guapo estás hoy!\" es una estrategia de:",
     "options": [
       {
+        "key": "A",
+        "text": "Cortesía positiva"
+      },
+      {
+        "key": "B",
+        "text": "Cortesía negativa"
+      },
+      {
+        "key": "C",
+        "text": "Descortesía"
+      },
+      {
         "key": "D",
         "text": "Ironía"
       },
       {
         "key": "E",
         "text": "Sarcasmo"
+      },
+      {
+        "key": "F",
+        "text": "Amenaza"
       }
     ],
     "correctAnswer": "A",
@@ -1681,8 +2600,28 @@
     "statement": "La ironía es:",
     "options": [
       {
+        "key": "A",
+        "text": "Decir lo contrario de lo que se quiere expresar"
+      },
+      {
+        "key": "B",
+        "text": "Decir exactamente lo que se quiere expresar"
+      },
+      {
         "key": "C",
         "text": "No decir nada"
+      },
+      {
+        "key": "D",
+        "text": "Confundir al oyente"
+      },
+      {
+        "key": "E",
+        "text": "Alargar la conversación"
+      },
+      {
+        "key": "F",
+        "text": "Cambiar de tema"
       }
     ],
     "correctAnswer": "A",
@@ -1701,6 +2640,22 @@
         "text": "Ironía"
       },
       {
+        "key": "B",
+        "text": "Cortesía positiva"
+      },
+      {
+        "key": "C",
+        "text": "Cortesía negativa"
+      },
+      {
+        "key": "D",
+        "text": "Descortesía"
+      },
+      {
+        "key": "E",
+        "text": "Amenaza"
+      },
+      {
         "key": "F",
         "text": "Sarcasmo"
       }
@@ -1717,6 +2672,10 @@
     "statement": "La metáfora es un fenómeno:",
     "options": [
       {
+        "key": "A",
+        "text": "Pragmático (el significado figurado depende del contexto)"
+      },
+      {
         "key": "B",
         "text": "Sintáctico"
       },
@@ -1725,8 +2684,16 @@
         "text": "Ortográfico"
       },
       {
+        "key": "D",
+        "text": "Fonético"
+      },
+      {
         "key": "E",
         "text": "Morfológico"
+      },
+      {
+        "key": "F",
+        "text": "Caligráfico"
       }
     ],
     "correctAnswer": "A",
@@ -1759,6 +2726,10 @@
       {
         "key": "E",
         "text": "Sarcasmo"
+      },
+      {
+        "key": "F",
+        "text": "Amenaza"
       }
     ],
     "correctAnswer": "A",
@@ -1791,6 +2762,10 @@
       {
         "key": "E",
         "text": "Sarcasmo"
+      },
+      {
+        "key": "F",
+        "text": "Amenaza"
       }
     ],
     "correctAnswer": "A",
@@ -1823,6 +2798,10 @@
       {
         "key": "E",
         "text": "Sarcasmo"
+      },
+      {
+        "key": "F",
+        "text": "Amenaza"
       }
     ],
     "correctAnswer": "A",
@@ -1873,6 +2852,10 @@
     "statement": "La pragmática del español estudia:",
     "options": [
       {
+        "key": "A",
+        "text": "El uso del español en contexto"
+      },
+      {
         "key": "B",
         "text": "La gramática del español"
       },
@@ -1903,7 +2886,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "El \"tú\" y el \"usted\" en español son ejemplos de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis social"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "D",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Tú\" y \"usted\" son deixis social."
   },
@@ -1916,12 +2924,28 @@
     "statement": "El uso de \"usted\" indica:",
     "options": [
       {
+        "key": "A",
+        "text": "Distancia y respeto"
+      },
+      {
+        "key": "B",
+        "text": "Cercanía y confianza"
+      },
+      {
+        "key": "C",
+        "text": "Enojo"
+      },
+      {
         "key": "D",
         "text": "Ironía"
       },
       {
         "key": "E",
         "text": "Sarcasmo"
+      },
+      {
+        "key": "F",
+        "text": "Amenaza"
       }
     ],
     "correctAnswer": "A",
@@ -1936,12 +2960,28 @@
     "statement": "El uso de \"tú\" indica:",
     "options": [
       {
+        "key": "A",
+        "text": "Cercanía y confianza"
+      },
+      {
+        "key": "B",
+        "text": "Distancia y respeto"
+      },
+      {
+        "key": "C",
+        "text": "Enojo"
+      },
+      {
         "key": "D",
         "text": "Ironía"
       },
       {
         "key": "E",
         "text": "Sarcasmo"
+      },
+      {
+        "key": "F",
+        "text": "Amenaza"
       }
     ],
     "correctAnswer": "A",
@@ -1954,7 +2994,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "El voseo es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El uso de \"vos\" en lugar de \"tú\" en algunas regiones"
+      },
+      {
+        "key": "B",
+        "text": "El uso de \"usted\" en lugar de \"tú\""
+      },
+      {
+        "key": "C",
+        "text": "El uso de \"tú\" en lugar de \"usted\""
+      },
+      {
+        "key": "D",
+        "text": "El uso de \"vosotros\" en lugar de \"ustedes\""
+      },
+      {
+        "key": "E",
+        "text": "El uso de \"ustedes\" en lugar de \"vosotros\""
+      },
+      {
+        "key": "F",
+        "text": "El uso de \"nosotros\" en lugar de \"yo\""
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El voseo usa \"vos\" en lugar de \"tú\"."
   },
@@ -1973,6 +3038,10 @@
       {
         "key": "B",
         "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "C",
+        "text": "El significado de las palabras"
       },
       {
         "key": "D",
@@ -2005,6 +3074,10 @@
       {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -2067,8 +3140,16 @@
     "statement": "La toma de turno se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "El momento en que un participante interviene en la conversación"
+      },
+      {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -2094,6 +3175,10 @@
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "Los pares adyacentes son:",
     "options": [
+      {
+        "key": "A",
+        "text": "Secuencias de dos turnos relacionados (pregunta-respuesta)"
+      },
       {
         "key": "B",
         "text": "Secuencias de tres turnos"
@@ -2163,12 +3248,28 @@
     "statement": "La reparación en la conversación consiste en:",
     "options": [
       {
+        "key": "A",
+        "text": "Corregir un error o malentendido en la interacción"
+      },
+      {
         "key": "B",
         "text": "Ignorar un error"
       },
       {
         "key": "C",
         "text": "Repetir un error"
+      },
+      {
+        "key": "D",
+        "text": "Alargar la conversación"
+      },
+      {
+        "key": "E",
+        "text": "Cambiar de tema"
+      },
+      {
+        "key": "F",
+        "text": "Confundir al oyente"
       }
     ],
     "correctAnswer": "A",
@@ -2182,6 +3283,10 @@
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "La superposición en la conversación se produce cuando:",
     "options": [
+      {
+        "key": "A",
+        "text": "Dos o más participantes hablan al mismo tiempo"
+      },
       {
         "key": "B",
         "text": "Un participante habla solo"
@@ -2221,6 +3326,10 @@
       {
         "key": "B",
         "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "C",
+        "text": "El significado de las palabras"
       },
       {
         "key": "D",
@@ -2291,6 +3400,10 @@
         "text": "La estructura gramatical"
       },
       {
+        "key": "C",
+        "text": "El significado literal"
+      },
+      {
         "key": "D",
         "text": "La ortografía del texto"
       },
@@ -2323,12 +3436,20 @@
         "text": "Grice"
       },
       {
+        "key": "C",
+        "text": "Austin"
+      },
+      {
         "key": "D",
         "text": "Searle"
       },
       {
         "key": "E",
         "text": "Saussure"
+      },
+      {
+        "key": "F",
+        "text": "Chomsky"
       }
     ],
     "correctAnswer": "A",
@@ -2377,7 +3498,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN II: ACTOS DE HABLA (41–100)",
     "statement": "El contexto cognitivo en la teoría de la relevancia se refiere a:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El conjunto de supuestos que el oyente activa para interpretar"
+      },
+      {
+        "key": "B",
+        "text": "El lugar físico"
+      },
+      {
+        "key": "C",
+        "text": "El tiempo"
+      },
+      {
+        "key": "D",
+        "text": "El canal"
+      },
+      {
+        "key": "E",
+        "text": "El código"
+      },
+      {
+        "key": "F",
+        "text": "El mensaje"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El contexto cognitivo son los supuestos activados."
   },
@@ -2396,6 +3542,10 @@
       {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -2422,8 +3572,16 @@
     "statement": "El esfuerzo de procesamiento en la teoría de la relevancia se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "El costo cognitivo de interpretar un enunciado"
+      },
+      {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -2454,6 +3612,22 @@
         "text": "Pronombres personales y posesivos"
       },
       {
+        "key": "B",
+        "text": "Adverbios de lugar"
+      },
+      {
+        "key": "C",
+        "text": "Adverbios de tiempo"
+      },
+      {
+        "key": "D",
+        "text": "Demostrativos"
+      },
+      {
+        "key": "E",
+        "text": "Conectores"
+      },
+      {
         "key": "F",
         "text": "Preposiciones"
       }
@@ -2468,7 +3642,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Yo\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "B",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "C",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Yo\" es deixis personal."
   },
@@ -2479,7 +3678,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Tú\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "B",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "C",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Tú\" es deixis personal."
   },
@@ -2490,7 +3714,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Él\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "B",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "C",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Él\" es deixis personal."
   },
@@ -2501,7 +3750,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Mi\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "B",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "C",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Mi\" es deixis personal."
   },
@@ -2512,7 +3786,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Tu\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "B",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "C",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Tu\" es deixis personal."
   },
@@ -2525,12 +3824,28 @@
     "statement": "La deixis espacial se expresa mediante:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbios y demostrativos de lugar"
+      },
+      {
         "key": "B",
         "text": "Pronombres personales"
       },
       {
+        "key": "C",
+        "text": "Adverbios de tiempo"
+      },
+      {
+        "key": "D",
+        "text": "Conectores"
+      },
+      {
         "key": "E",
         "text": "Preposiciones"
+      },
+      {
+        "key": "F",
+        "text": "Conjunciones"
       }
     ],
     "correctAnswer": "A",
@@ -2543,7 +3858,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Aquí\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Aquí\" es deixis espacial."
   },
@@ -2554,7 +3894,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Allí\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Allí\" es deixis espacial."
   },
@@ -2565,7 +3930,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Este\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Este\" es deixis espacial."
   },
@@ -2576,7 +3966,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Ese\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Ese\" es deixis espacial."
   },
@@ -2587,7 +4002,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Aquel\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Aquel\" es deixis espacial."
   },
@@ -2600,12 +4040,28 @@
     "statement": "La deixis temporal se expresa mediante:",
     "options": [
       {
+        "key": "A",
+        "text": "Adverbios y expresiones de tiempo"
+      },
+      {
         "key": "B",
         "text": "Pronombres personales"
       },
       {
+        "key": "C",
+        "text": "Adverbios de lugar"
+      },
+      {
+        "key": "D",
+        "text": "Conectores"
+      },
+      {
         "key": "E",
         "text": "Preposiciones"
+      },
+      {
+        "key": "F",
+        "text": "Conjunciones"
       }
     ],
     "correctAnswer": "A",
@@ -2618,7 +4074,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Ahora\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Ahora\" es deixis temporal."
   },
@@ -2629,7 +4110,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Ayer\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Ayer\" es deixis temporal."
   },
@@ -2640,7 +4146,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Mañana\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Mañana\" es deixis temporal."
   },
@@ -2651,7 +4182,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Hoy\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Hoy\" es deixis temporal."
   },
@@ -2662,7 +4218,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Pronto\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "D",
+        "text": "Deixis social"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Pronto\" es deixis temporal."
   },
@@ -2675,8 +4256,24 @@
     "statement": "La deixis social se expresa mediante:",
     "options": [
       {
+        "key": "A",
+        "text": "Formas de tratamiento y cortesía"
+      },
+      {
         "key": "B",
         "text": "Pronombres personales"
+      },
+      {
+        "key": "C",
+        "text": "Adverbios de lugar"
+      },
+      {
+        "key": "D",
+        "text": "Adverbios de tiempo"
+      },
+      {
+        "key": "E",
+        "text": "Conectores"
       },
       {
         "key": "F",
@@ -2693,7 +4290,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Usted\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis social"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "D",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Usted\" es deixis social."
   },
@@ -2704,7 +4326,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Señor\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis social"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "D",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Señor\" es deixis social."
   },
@@ -2715,7 +4362,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "\"Don\" es un ejemplo de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis social"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "D",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Don\" es deixis social."
   },
@@ -2734,6 +4406,10 @@
       {
         "key": "B",
         "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "C",
+        "text": "El significado de las palabras"
       },
       {
         "key": "D",
@@ -2759,6 +4435,14 @@
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "La referencia exofórica se produce cuando:",
     "options": [
+      {
+        "key": "A",
+        "text": "El referente está fuera del texto"
+      },
+      {
+        "key": "B",
+        "text": "El referente está dentro del texto"
+      },
       {
         "key": "C",
         "text": "No hay referente"
@@ -2787,6 +4471,14 @@
     "sectionTitle": "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)",
     "statement": "La referencia endofórica se produce cuando:",
     "options": [
+      {
+        "key": "A",
+        "text": "El referente está dentro del texto"
+      },
+      {
+        "key": "B",
+        "text": "El referente está fuera del texto"
+      },
       {
         "key": "C",
         "text": "No hay referente"
@@ -2824,8 +4516,20 @@
         "text": "Referencia exofórica"
       },
       {
+        "key": "C",
+        "text": "Deixis"
+      },
+      {
+        "key": "D",
+        "text": "Elipsis"
+      },
+      {
         "key": "E",
         "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
@@ -2848,8 +4552,20 @@
         "text": "Referencia exofórica"
       },
       {
+        "key": "C",
+        "text": "Deixis"
+      },
+      {
+        "key": "D",
+        "text": "Elipsis"
+      },
+      {
         "key": "E",
         "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
@@ -2864,8 +4580,28 @@
     "statement": "En \"Juan llegó. Él estaba cansado\", \"él\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Anáfora"
+      },
+      {
+        "key": "B",
+        "text": "Catáfora"
+      },
+      {
+        "key": "C",
+        "text": "Deixis"
+      },
+      {
+        "key": "D",
+        "text": "Elipsis"
+      },
+      {
         "key": "E",
         "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
@@ -2880,8 +4616,28 @@
     "statement": "En \"Cuando lo vi, Pedro corría\", \"lo\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Catáfora"
+      },
+      {
+        "key": "B",
+        "text": "Anáfora"
+      },
+      {
+        "key": "C",
+        "text": "Deixis"
+      },
+      {
+        "key": "D",
+        "text": "Elipsis"
+      },
+      {
         "key": "E",
         "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
@@ -2896,8 +4652,28 @@
     "statement": "En \"Compré flores. Las puse en un jarrón\", \"las\" es:",
     "options": [
       {
+        "key": "A",
+        "text": "Anáfora"
+      },
+      {
+        "key": "B",
+        "text": "Catáfora"
+      },
+      {
+        "key": "C",
+        "text": "Deixis"
+      },
+      {
+        "key": "D",
+        "text": "Elipsis"
+      },
+      {
         "key": "E",
         "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
@@ -2922,6 +4698,18 @@
       {
         "key": "C",
         "text": "La ausencia de referencia"
+      },
+      {
+        "key": "D",
+        "text": "El uso de sinónimos"
+      },
+      {
+        "key": "E",
+        "text": "El uso de antónimos"
+      },
+      {
+        "key": "F",
+        "text": "El uso de conectores"
       }
     ],
     "correctAnswer": "A",
@@ -2936,8 +4724,28 @@
     "statement": "En \"Juan estudia y María también\", hay:",
     "options": [
       {
+        "key": "A",
+        "text": "Elipsis del verbo"
+      },
+      {
+        "key": "B",
+        "text": "Anáfora"
+      },
+      {
+        "key": "C",
+        "text": "Catáfora"
+      },
+      {
+        "key": "D",
+        "text": "Deixis"
+      },
+      {
         "key": "E",
         "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
@@ -2952,8 +4760,28 @@
     "statement": "En \"Yo compré el libro y ella también\", hay:",
     "options": [
       {
+        "key": "A",
+        "text": "Elipsis del verbo"
+      },
+      {
+        "key": "B",
+        "text": "Anáfora"
+      },
+      {
+        "key": "C",
+        "text": "Catáfora"
+      },
+      {
+        "key": "D",
+        "text": "Deixis"
+      },
+      {
         "key": "E",
         "text": "Sinonimia"
+      },
+      {
+        "key": "F",
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
@@ -3010,6 +4838,22 @@
       {
         "key": "B",
         "text": "Repetición"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Deixis"
+      },
+      {
+        "key": "E",
+        "text": "Catáfora"
+      },
+      {
+        "key": "F",
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
@@ -3030,6 +4874,22 @@
       {
         "key": "B",
         "text": "Repetición"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Deixis"
+      },
+      {
+        "key": "E",
+        "text": "Catáfora"
+      },
+      {
+        "key": "F",
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
@@ -3050,6 +4910,22 @@
       {
         "key": "B",
         "text": "Repetición"
+      },
+      {
+        "key": "C",
+        "text": "Elipsis"
+      },
+      {
+        "key": "D",
+        "text": "Deixis"
+      },
+      {
+        "key": "E",
+        "text": "Catáfora"
+      },
+      {
+        "key": "F",
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
@@ -3136,6 +5012,10 @@
     "statement": "Los conectores son:",
     "options": [
       {
+        "key": "A",
+        "text": "Elementos que unen ideas o partes del texto"
+      },
+      {
         "key": "B",
         "text": "Signos de puntuación"
       },
@@ -3172,8 +5052,24 @@
         "text": "Suma o adición de ideas"
       },
       {
+        "key": "B",
+        "text": "Contraste de ideas"
+      },
+      {
+        "key": "C",
+        "text": "Causa"
+      },
+      {
+        "key": "D",
+        "text": "Consecuencia"
+      },
+      {
         "key": "E",
         "text": "Tiempo"
+      },
+      {
+        "key": "F",
+        "text": "Condición"
       }
     ],
     "correctAnswer": "A",
@@ -3188,12 +5084,28 @@
     "statement": "Los conectores adversativos indican:",
     "options": [
       {
+        "key": "A",
+        "text": "Contraste u oposición de ideas"
+      },
+      {
         "key": "B",
         "text": "Suma de ideas"
       },
       {
+        "key": "C",
+        "text": "Causa"
+      },
+      {
+        "key": "D",
+        "text": "Consecuencia"
+      },
+      {
         "key": "E",
         "text": "Tiempo"
+      },
+      {
+        "key": "F",
+        "text": "Condición"
       }
     ],
     "correctAnswer": "A",
@@ -3208,12 +5120,28 @@
     "statement": "Los conectores causales indican:",
     "options": [
       {
+        "key": "A",
+        "text": "Causa o razón"
+      },
+      {
         "key": "B",
         "text": "Suma de ideas"
       },
       {
+        "key": "C",
+        "text": "Contraste"
+      },
+      {
+        "key": "D",
+        "text": "Consecuencia"
+      },
+      {
         "key": "E",
         "text": "Tiempo"
+      },
+      {
+        "key": "F",
+        "text": "Condición"
       }
     ],
     "correctAnswer": "A",
@@ -3228,12 +5156,28 @@
     "statement": "Los conectores conclusivos indican:",
     "options": [
       {
+        "key": "A",
+        "text": "Consecuencia o conclusión"
+      },
+      {
         "key": "B",
         "text": "Suma de ideas"
       },
       {
+        "key": "C",
+        "text": "Contraste"
+      },
+      {
+        "key": "D",
+        "text": "Causa"
+      },
+      {
         "key": "E",
         "text": "Tiempo"
+      },
+      {
+        "key": "F",
+        "text": "Condición"
       }
     ],
     "correctAnswer": "A",
@@ -3254,6 +5198,22 @@
       {
         "key": "B",
         "text": "Suma de ideas"
+      },
+      {
+        "key": "C",
+        "text": "Contraste"
+      },
+      {
+        "key": "D",
+        "text": "Causa"
+      },
+      {
+        "key": "E",
+        "text": "Consecuencia"
+      },
+      {
+        "key": "F",
+        "text": "Condición"
       }
     ],
     "correctAnswer": "A",
@@ -3268,8 +5228,24 @@
     "statement": "Los conectores condicionales indican:",
     "options": [
       {
+        "key": "A",
+        "text": "Condición"
+      },
+      {
         "key": "B",
         "text": "Suma de ideas"
+      },
+      {
+        "key": "C",
+        "text": "Contraste"
+      },
+      {
+        "key": "D",
+        "text": "Causa"
+      },
+      {
+        "key": "E",
+        "text": "Consecuencia"
       },
       {
         "key": "F",
@@ -3288,8 +5264,28 @@
     "statement": "\"Y\" es un conector:",
     "options": [
       {
+        "key": "A",
+        "text": "Aditivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -3304,8 +5300,28 @@
     "statement": "\"Pero\" es un conector:",
     "options": [
       {
+        "key": "A",
+        "text": "Adversativo"
+      },
+      {
+        "key": "B",
+        "text": "Aditivo"
+      },
+      {
+        "key": "C",
+        "text": "Causal"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -3320,8 +5336,28 @@
     "statement": "\"Porque\" es un conector:",
     "options": [
       {
+        "key": "A",
+        "text": "Causal"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Conclusivo"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional"
       }
     ],
     "correctAnswer": "A",
@@ -3336,8 +5372,28 @@
     "statement": "\"Por lo tanto\" es un conector:",
     "options": [
       {
+        "key": "A",
+        "text": "Conclusivo"
+      },
+      {
+        "key": "B",
+        "text": "Adversativo"
+      },
+      {
+        "key": "C",
+        "text": "Aditivo"
+      },
+      {
+        "key": "D",
+        "text": "Causal"
+      },
+      {
         "key": "E",
         "text": "Temporal"
+      },
+      {
+        "key": "F",
+        "text": "Condicional ---"
       }
     ],
     "correctAnswer": "A",
@@ -3351,6 +5407,14 @@
     "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
     "statement": "La implicatura es:",
     "options": [
+      {
+        "key": "A",
+        "text": "El significado inferido que va más allá de lo literal"
+      },
+      {
+        "key": "B",
+        "text": "El significado literal"
+      },
       {
         "key": "C",
         "text": "La estructura gramatical"
@@ -3380,8 +5444,16 @@
     "statement": "La implicatura conversacional se basa en:",
     "options": [
       {
+        "key": "A",
+        "text": "El principio de cooperación y las máximas de Grice"
+      },
+      {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -3408,12 +5480,28 @@
     "statement": "La implicatura convencional se basa en:",
     "options": [
       {
+        "key": "A",
+        "text": "El significado convencional de las palabras"
+      },
+      {
+        "key": "B",
+        "text": "El principio de cooperación"
+      },
+      {
         "key": "C",
         "text": "Las máximas de Grice"
       },
       {
+        "key": "D",
+        "text": "El contexto situacional"
+      },
+      {
         "key": "E",
         "text": "La intención del hablante"
+      },
+      {
+        "key": "F",
+        "text": "El efecto en el oyente"
       }
     ],
     "correctAnswer": "A",
@@ -3510,6 +5598,18 @@
       {
         "key": "C",
         "text": "La intención del emisor"
+      },
+      {
+        "key": "D",
+        "text": "El efecto en el receptor"
+      },
+      {
+        "key": "E",
+        "text": "El significado literal"
+      },
+      {
+        "key": "F",
+        "text": "El significado inferencial"
       }
     ],
     "correctAnswer": "A",
@@ -3522,7 +5622,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
     "statement": "En \"El rey de Francia es calvo\", la presuposición es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Que existe un rey de Francia"
+      },
+      {
+        "key": "B",
+        "text": "Que el rey de Francia no es calvo"
+      },
+      {
+        "key": "C",
+        "text": "Que el rey de Francia es pelirrojo"
+      },
+      {
+        "key": "D",
+        "text": "Que no existe un rey de Francia"
+      },
+      {
+        "key": "E",
+        "text": "Que el rey de Francia es alto"
+      },
+      {
+        "key": "F",
+        "text": "Que el rey de Francia es bajo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"El rey de Francia\" presupone que existe."
   },
@@ -3607,6 +5732,10 @@
     "statement": "En \"El actual presidente de El Salvador nació en San Salvador\", la presuposición es:",
     "options": [
       {
+        "key": "A",
+        "text": "Que existe un actual presidente de El Salvador"
+      },
+      {
         "key": "B",
         "text": "Que no existe presidente"
       },
@@ -3647,6 +5776,10 @@
         "text": "La estructura gramatical"
       },
       {
+        "key": "C",
+        "text": "El significado literal"
+      },
+      {
         "key": "D",
         "text": "La ortografía del texto"
       },
@@ -3677,6 +5810,10 @@
       {
         "key": "B",
         "text": "La existencia de un referente"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -3715,6 +5852,10 @@
         "text": "La estructura gramatical"
       },
       {
+        "key": "D",
+        "text": "El significado literal"
+      },
+      {
         "key": "E",
         "text": "La ortografía del texto"
       },
@@ -3743,6 +5884,10 @@
         "text": "La existencia de un referente"
       },
       {
+        "key": "C",
+        "text": "El significado literal"
+      },
+      {
         "key": "D",
         "text": "La ortografía del texto"
       },
@@ -3765,7 +5910,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
     "statement": "La presuposición no se cancela fácilmente porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Es información dada por supuesta"
+      },
+      {
+        "key": "B",
+        "text": "Es información nueva"
+      },
+      {
+        "key": "C",
+        "text": "Es información literal"
+      },
+      {
+        "key": "D",
+        "text": "Es información inferida"
+      },
+      {
+        "key": "E",
+        "text": "Es información contextual"
+      },
+      {
+        "key": "F",
+        "text": "Es información gramatical"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La presuposición no se cancela fácilmente."
   },
@@ -3776,7 +5946,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
     "statement": "La implicatura sí se puede cancelar porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Es información inferida y no dicha explícitamente"
+      },
+      {
+        "key": "B",
+        "text": "Es información dada por supuesta"
+      },
+      {
+        "key": "C",
+        "text": "Es información literal"
+      },
+      {
+        "key": "D",
+        "text": "Es información gramatical"
+      },
+      {
+        "key": "E",
+        "text": "Es información ortográfica"
+      },
+      {
+        "key": "F",
+        "text": "Es información sintáctica"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La implicatura sí se puede cancelar."
   },
@@ -4089,8 +6284,16 @@
         "text": "Ignorarla siempre"
       },
       {
+        "key": "D",
+        "text": "Confundirla con otra"
+      },
+      {
         "key": "E",
         "text": "Repetirla"
+      },
+      {
+        "key": "F",
+        "text": "Alargarla"
       }
     ],
     "correctAnswer": "A",
@@ -4139,7 +6342,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
     "statement": "En \"A: ¿Vamos al cine? B: Tengo mucho trabajo\", la implicatura es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Que B no puede ir al cine"
+      },
+      {
+        "key": "B",
+        "text": "Que B quiere ir al cine"
+      },
+      {
+        "key": "C",
+        "text": "Que B no tiene trabajo"
+      },
+      {
+        "key": "D",
+        "text": "Que B odia el cine"
+      },
+      {
+        "key": "E",
+        "text": "Que B ama el cine"
+      },
+      {
+        "key": "F",
+        "text": "Que B irá al cine"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La implicatura es que no puede ir al cine."
   },
@@ -4194,6 +6422,22 @@
       {
         "key": "B",
         "text": "Presuposición"
+      },
+      {
+        "key": "C",
+        "text": "Deixis"
+      },
+      {
+        "key": "D",
+        "text": "Anáfora"
+      },
+      {
+        "key": "E",
+        "text": "Catáfora"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -4214,6 +6458,22 @@
       {
         "key": "B",
         "text": "Presuposición"
+      },
+      {
+        "key": "C",
+        "text": "Deixis"
+      },
+      {
+        "key": "D",
+        "text": "Anáfora"
+      },
+      {
+        "key": "E",
+        "text": "Catáfora"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -4234,6 +6494,22 @@
       {
         "key": "B",
         "text": "Presuposición"
+      },
+      {
+        "key": "C",
+        "text": "Deixis"
+      },
+      {
+        "key": "D",
+        "text": "Anáfora"
+      },
+      {
+        "key": "E",
+        "text": "Catáfora"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -4248,6 +6524,10 @@
     "statement": "En \"Leí a Cervantes\", hay:",
     "options": [
       {
+        "key": "A",
+        "text": "Metonimia (leí una obra de Cervantes)"
+      },
+      {
         "key": "B",
         "text": "Metáfora"
       },
@@ -4262,6 +6542,10 @@
       {
         "key": "E",
         "text": "Presuposición"
+      },
+      {
+        "key": "F",
+        "text": "Deixis"
       }
     ],
     "correctAnswer": "A",
@@ -4276,6 +6560,10 @@
     "statement": "En \"Tiene una pluma excelente\", hay:",
     "options": [
       {
+        "key": "A",
+        "text": "Metonimia (tiene una escritura excelente)"
+      },
+      {
         "key": "B",
         "text": "Metáfora"
       },
@@ -4290,6 +6578,10 @@
       {
         "key": "E",
         "text": "Presuposición"
+      },
+      {
+        "key": "F",
+        "text": "Deixis"
       }
     ],
     "correctAnswer": "A",
@@ -4322,6 +6614,10 @@
       {
         "key": "E",
         "text": "Presuposición"
+      },
+      {
+        "key": "F",
+        "text": "Deixis"
       }
     ],
     "correctAnswer": "A",
@@ -4354,6 +6650,10 @@
       {
         "key": "E",
         "text": "Presuposición"
+      },
+      {
+        "key": "F",
+        "text": "Deixis"
       }
     ],
     "correctAnswer": "A",
@@ -4584,8 +6884,16 @@
     "statement": "\"¿Podrías hacerme un favor?\" es una estrategia de:",
     "options": [
       {
+        "key": "A",
+        "text": "Atenuación"
+      },
+      {
         "key": "B",
         "text": "Intensificación"
+      },
+      {
+        "key": "C",
+        "text": "Descortesía"
       },
       {
         "key": "D",
@@ -4594,6 +6902,10 @@
       {
         "key": "E",
         "text": "Sarcasmo"
+      },
+      {
+        "key": "F",
+        "text": "Amenaza"
       }
     ],
     "correctAnswer": "A",
@@ -4610,6 +6922,18 @@
       {
         "key": "A",
         "text": "Intensificación"
+      },
+      {
+        "key": "B",
+        "text": "Atenuación"
+      },
+      {
+        "key": "C",
+        "text": "Cortesía positiva"
+      },
+      {
+        "key": "D",
+        "text": "Cortesía negativa"
       },
       {
         "key": "E",
@@ -4646,6 +6970,14 @@
       {
         "key": "D",
         "text": "Ignorar"
+      },
+      {
+        "key": "E",
+        "text": "Confundir"
+      },
+      {
+        "key": "F",
+        "text": "Alargar"
       }
     ],
     "correctAnswer": "A",
@@ -4674,6 +7006,14 @@
       {
         "key": "D",
         "text": "Ignorar"
+      },
+      {
+        "key": "E",
+        "text": "Confundir"
+      },
+      {
+        "key": "F",
+        "text": "Alargar"
       }
     ],
     "correctAnswer": "A",
@@ -4688,12 +7028,28 @@
     "statement": "\"Eres muy inteligente, seguro puedes ayudarme\" es una estrategia de:",
     "options": [
       {
+        "key": "A",
+        "text": "Cortesía positiva"
+      },
+      {
+        "key": "B",
+        "text": "Cortesía negativa"
+      },
+      {
+        "key": "C",
+        "text": "Descortesía"
+      },
+      {
         "key": "D",
         "text": "Ironía"
       },
       {
         "key": "E",
         "text": "Sarcasmo"
+      },
+      {
+        "key": "F",
+        "text": "Amenaza"
       }
     ],
     "correctAnswer": "A",
@@ -4708,12 +7064,28 @@
     "statement": "\"No quisiera molestarte, pero ¿podrías...?\" es una estrategia de:",
     "options": [
       {
+        "key": "A",
+        "text": "Cortesía negativa"
+      },
+      {
+        "key": "B",
+        "text": "Cortesía positiva"
+      },
+      {
+        "key": "C",
+        "text": "Descortesía"
+      },
+      {
         "key": "D",
         "text": "Ironía"
       },
       {
         "key": "E",
         "text": "Sarcasmo"
+      },
+      {
+        "key": "F",
+        "text": "Amenaza"
       }
     ],
     "correctAnswer": "A",
@@ -4726,7 +7098,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
     "statement": "La imagen negativa se refiere a:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El deseo de no ser impedido o molestado"
+      },
+      {
+        "key": "B",
+        "text": "El deseo de ser apreciado"
+      },
+      {
+        "key": "C",
+        "text": "El deseo de ser ignorado"
+      },
+      {
+        "key": "D",
+        "text": "El deseo de ser ofendido"
+      },
+      {
+        "key": "E",
+        "text": "El deseo de ser confundido"
+      },
+      {
+        "key": "F",
+        "text": "El deseo de ser alargado"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La imagen negativa es el deseo de no ser impedido."
   },
@@ -4737,7 +7134,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)",
     "statement": "La imagen positiva se refiere a:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El deseo de ser apreciado y aprobado"
+      },
+      {
+        "key": "B",
+        "text": "El deseo de no ser impedido"
+      },
+      {
+        "key": "C",
+        "text": "El deseo de ser ignorado"
+      },
+      {
+        "key": "D",
+        "text": "El deseo de ser ofendido"
+      },
+      {
+        "key": "E",
+        "text": "El deseo de ser confundido"
+      },
+      {
+        "key": "F",
+        "text": "El deseo de ser alargado"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La imagen positiva es el deseo de ser apreciado."
   },
@@ -4794,6 +7216,10 @@
         "text": "La estructura de las oraciones"
       },
       {
+        "key": "C",
+        "text": "El significado de las palabras"
+      },
+      {
         "key": "D",
         "text": "La ortografía del texto"
       },
@@ -4824,6 +7250,10 @@
       {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -4886,8 +7316,16 @@
     "statement": "La toma de turno se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "El momento en que un participante interviene en la conversación"
+      },
+      {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -4913,6 +7351,10 @@
     "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
     "statement": "Los pares adyacentes son:",
     "options": [
+      {
+        "key": "A",
+        "text": "Secuencias de dos turnos relacionados (pregunta-respuesta)"
+      },
       {
         "key": "B",
         "text": "Secuencias de tres turnos"
@@ -4982,12 +7424,28 @@
     "statement": "La reparación en la conversación consiste en:",
     "options": [
       {
+        "key": "A",
+        "text": "Corregir un error o malentendido en la interacción"
+      },
+      {
         "key": "B",
         "text": "Ignorar un error"
       },
       {
         "key": "C",
         "text": "Repetir un error"
+      },
+      {
+        "key": "D",
+        "text": "Alargar la conversación"
+      },
+      {
+        "key": "E",
+        "text": "Cambiar de tema"
+      },
+      {
+        "key": "F",
+        "text": "Confundir al oyente"
       }
     ],
     "correctAnswer": "A",
@@ -5001,6 +7459,10 @@
     "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
     "statement": "La superposición en la conversación se produce cuando:",
     "options": [
+      {
+        "key": "A",
+        "text": "Dos o más participantes hablan al mismo tiempo"
+      },
       {
         "key": "B",
         "text": "Un participante habla solo"
@@ -5040,6 +7502,10 @@
       {
         "key": "B",
         "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "C",
+        "text": "El significado de las palabras"
       },
       {
         "key": "D",
@@ -5110,6 +7576,10 @@
         "text": "La estructura gramatical"
       },
       {
+        "key": "C",
+        "text": "El significado literal"
+      },
+      {
         "key": "D",
         "text": "La ortografía del texto"
       },
@@ -5142,12 +7612,20 @@
         "text": "Grice"
       },
       {
+        "key": "C",
+        "text": "Austin"
+      },
+      {
         "key": "D",
         "text": "Searle"
       },
       {
         "key": "E",
         "text": "Saussure"
+      },
+      {
+        "key": "F",
+        "text": "Chomsky"
       }
     ],
     "correctAnswer": "A",
@@ -5196,7 +7674,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
     "statement": "El contexto cognitivo en la teoría de la relevancia se refiere a:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El conjunto de supuestos que el oyente activa para interpretar"
+      },
+      {
+        "key": "B",
+        "text": "El lugar físico"
+      },
+      {
+        "key": "C",
+        "text": "El tiempo"
+      },
+      {
+        "key": "D",
+        "text": "El canal"
+      },
+      {
+        "key": "E",
+        "text": "El código"
+      },
+      {
+        "key": "F",
+        "text": "El mensaje"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El contexto cognitivo son los supuestos activados."
   },
@@ -5215,6 +7718,10 @@
       {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -5241,8 +7748,16 @@
     "statement": "El esfuerzo de procesamiento en la teoría de la relevancia se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "El costo cognitivo de interpretar un enunciado"
+      },
+      {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -5313,6 +7828,10 @@
         "text": "La inferencia del oyente"
       },
       {
+        "key": "C",
+        "text": "El significado literal"
+      },
+      {
         "key": "D",
         "text": "La estructura gramatical"
       },
@@ -5337,8 +7856,16 @@
     "statement": "La inferencia es:",
     "options": [
       {
+        "key": "A",
+        "text": "El proceso mental del oyente para interpretar"
+      },
+      {
         "key": "B",
         "text": "La manifestación de la intención"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -5363,7 +7890,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
     "statement": "El entorno cognitivo es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El conjunto de supuestos compartidos por los interlocutores"
+      },
+      {
+        "key": "B",
+        "text": "El lugar físico"
+      },
+      {
+        "key": "C",
+        "text": "El tiempo"
+      },
+      {
+        "key": "D",
+        "text": "El canal"
+      },
+      {
+        "key": "E",
+        "text": "El código"
+      },
+      {
+        "key": "F",
+        "text": "El mensaje"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El entorno cognitivo son los supuestos compartidos."
   },
@@ -5376,8 +7928,16 @@
     "statement": "La teoría de la cortesía fue propuesta por:",
     "options": [
       {
+        "key": "A",
+        "text": "Brown y Levinson"
+      },
+      {
         "key": "B",
         "text": "Grice"
+      },
+      {
+        "key": "C",
+        "text": "Austin"
       },
       {
         "key": "D",
@@ -5516,6 +8076,10 @@
         "text": "La violación deliberada de las normas de cortesía"
       },
       {
+        "key": "B",
+        "text": "El respeto a las normas de cortesía"
+      },
+      {
         "key": "C",
         "text": "La indiferencia a las normas"
       },
@@ -5580,6 +8144,10 @@
     "statement": "La pragmática del español estudia:",
     "options": [
       {
+        "key": "A",
+        "text": "El uso del español en contexto"
+      },
+      {
         "key": "B",
         "text": "La gramática del español"
       },
@@ -5610,7 +8178,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
     "statement": "El \"tú\" y el \"usted\" en español son ejemplos de:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Deixis social"
+      },
+      {
+        "key": "B",
+        "text": "Deixis personal"
+      },
+      {
+        "key": "C",
+        "text": "Deixis espacial"
+      },
+      {
+        "key": "D",
+        "text": "Deixis temporal"
+      },
+      {
+        "key": "E",
+        "text": "Anáfora"
+      },
+      {
+        "key": "F",
+        "text": "Catáfora"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "\"Tú\" y \"usted\" son deixis social."
   },
@@ -5623,12 +8216,28 @@
     "statement": "El uso de \"usted\" indica:",
     "options": [
       {
+        "key": "A",
+        "text": "Distancia y respeto"
+      },
+      {
+        "key": "B",
+        "text": "Cercanía y confianza"
+      },
+      {
+        "key": "C",
+        "text": "Enojo"
+      },
+      {
         "key": "D",
         "text": "Ironía"
       },
       {
         "key": "E",
         "text": "Sarcasmo"
+      },
+      {
+        "key": "F",
+        "text": "Amenaza"
       }
     ],
     "correctAnswer": "A",
@@ -5643,12 +8252,28 @@
     "statement": "El uso de \"tú\" indica:",
     "options": [
       {
+        "key": "A",
+        "text": "Cercanía y confianza"
+      },
+      {
+        "key": "B",
+        "text": "Distancia y respeto"
+      },
+      {
+        "key": "C",
+        "text": "Enojo"
+      },
+      {
         "key": "D",
         "text": "Ironía"
       },
       {
         "key": "E",
         "text": "Sarcasmo"
+      },
+      {
+        "key": "F",
+        "text": "Amenaza"
       }
     ],
     "correctAnswer": "A",
@@ -5661,7 +8286,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
     "statement": "El voseo es:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El uso de \"vos\" en lugar de \"tú\" en algunas regiones"
+      },
+      {
+        "key": "B",
+        "text": "El uso de \"usted\" en lugar de \"tú\""
+      },
+      {
+        "key": "C",
+        "text": "El uso de \"tú\" en lugar de \"usted\""
+      },
+      {
+        "key": "D",
+        "text": "El uso de \"vosotros\" en lugar de \"ustedes\""
+      },
+      {
+        "key": "E",
+        "text": "El uso de \"ustedes\" en lugar de \"vosotros\""
+      },
+      {
+        "key": "F",
+        "text": "El uso de \"nosotros\" en lugar de \"yo\""
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El voseo usa \"vos\" en lugar de \"tú\"."
   },
@@ -5680,6 +8330,10 @@
       {
         "key": "B",
         "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "C",
+        "text": "El significado de las palabras"
       },
       {
         "key": "D",
@@ -5712,6 +8366,10 @@
       {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -5774,8 +8432,16 @@
     "statement": "La toma de turno se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "El momento en que un participante interviene en la conversación"
+      },
+      {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -5801,6 +8467,10 @@
     "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
     "statement": "Los pares adyacentes son:",
     "options": [
+      {
+        "key": "A",
+        "text": "Secuencias de dos turnos relacionados (pregunta-respuesta)"
+      },
       {
         "key": "B",
         "text": "Secuencias de tres turnos"
@@ -5870,12 +8540,28 @@
     "statement": "La reparación en la conversación consiste en:",
     "options": [
       {
+        "key": "A",
+        "text": "Corregir un error o malentendido en la interacción"
+      },
+      {
         "key": "B",
         "text": "Ignorar un error"
       },
       {
         "key": "C",
         "text": "Repetir un error"
+      },
+      {
+        "key": "D",
+        "text": "Alargar la conversación"
+      },
+      {
+        "key": "E",
+        "text": "Cambiar de tema"
+      },
+      {
+        "key": "F",
+        "text": "Confundir al oyente"
       }
     ],
     "correctAnswer": "A",
@@ -5889,6 +8575,10 @@
     "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
     "statement": "La superposición en la conversación se produce cuando:",
     "options": [
+      {
+        "key": "A",
+        "text": "Dos o más participantes hablan al mismo tiempo"
+      },
       {
         "key": "B",
         "text": "Un participante habla solo"
@@ -5928,6 +8618,10 @@
       {
         "key": "B",
         "text": "La estructura de las oraciones"
+      },
+      {
+        "key": "C",
+        "text": "El significado de las palabras"
       },
       {
         "key": "D",
@@ -5998,6 +8692,10 @@
         "text": "La estructura gramatical"
       },
       {
+        "key": "C",
+        "text": "El significado literal"
+      },
+      {
         "key": "D",
         "text": "La ortografía del texto"
       },
@@ -6030,12 +8728,20 @@
         "text": "Grice"
       },
       {
+        "key": "C",
+        "text": "Austin"
+      },
+      {
         "key": "D",
         "text": "Searle"
       },
       {
         "key": "E",
         "text": "Saussure"
+      },
+      {
+        "key": "F",
+        "text": "Chomsky"
       }
     ],
     "correctAnswer": "A",
@@ -6084,7 +8790,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
     "statement": "El contexto cognitivo en la teoría de la relevancia se refiere a:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El conjunto de supuestos que el oyente activa para interpretar"
+      },
+      {
+        "key": "B",
+        "text": "El lugar físico"
+      },
+      {
+        "key": "C",
+        "text": "El tiempo"
+      },
+      {
+        "key": "D",
+        "text": "El canal"
+      },
+      {
+        "key": "E",
+        "text": "El código"
+      },
+      {
+        "key": "F",
+        "text": "El mensaje"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "El contexto cognitivo son los supuestos activados."
   },
@@ -6103,6 +8834,10 @@
       {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -6129,8 +8864,16 @@
     "statement": "El esfuerzo de procesamiento en la teoría de la relevancia se refiere a:",
     "options": [
       {
+        "key": "A",
+        "text": "El costo cognitivo de interpretar un enunciado"
+      },
+      {
         "key": "B",
         "text": "La estructura gramatical"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -6201,6 +8944,10 @@
         "text": "La inferencia del oyente"
       },
       {
+        "key": "C",
+        "text": "El significado literal"
+      },
+      {
         "key": "D",
         "text": "La estructura gramatical"
       },
@@ -6225,8 +8972,16 @@
     "statement": "La inferencia es:",
     "options": [
       {
+        "key": "A",
+        "text": "El proceso mental del oyente para interpretar"
+      },
+      {
         "key": "B",
         "text": "La manifestación de la intención"
+      },
+      {
+        "key": "C",
+        "text": "El significado literal"
       },
       {
         "key": "D",
@@ -6253,6 +9008,18 @@
     "statement": "La pragmática estudia el lenguaje:",
     "options": [
       {
+        "key": "A",
+        "text": "En uso y en contexto"
+      },
+      {
+        "key": "B",
+        "text": "En abstracto"
+      },
+      {
+        "key": "C",
+        "text": "Fuera de contexto"
+      },
+      {
         "key": "D",
         "text": "Sin intención"
       },
@@ -6276,6 +9043,10 @@
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "El significado pragmático depende de:",
     "options": [
+      {
+        "key": "A",
+        "text": "El contexto y la intención"
+      },
       {
         "key": "B",
         "text": "Solo la gramática"
@@ -6308,6 +9079,10 @@
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La comunicación eficaz requiere:",
     "options": [
+      {
+        "key": "A",
+        "text": "Compartir el contexto y las intenciones"
+      },
       {
         "key": "B",
         "text": "Ignorar el contexto"
@@ -6375,7 +9150,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática es importante en la enseñanza de lenguas porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a usar el lenguaje adecuadamente en contexto"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La pragmática ayuda a usar el lenguaje adecuadamente."
   },
@@ -6458,7 +9258,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática intercultural es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a evitar malentendidos entre culturas"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La pragmática intercultural evita malentendidos."
   },
@@ -6469,7 +9294,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática del español es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a usar el español adecuadamente en contexto"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La pragmática del español ayuda a usarlo en contexto."
   },
@@ -6480,7 +9330,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la traducción es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a transmitir la intención y el contexto"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a traducir literalmente"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a ignorar el contexto"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a ignorar la intención"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a ignorar el mensaje"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a ignorar el canal"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La pragmática en traducción transmite intención y contexto."
   },
@@ -6491,7 +9366,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la publicidad es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a persuadir y crear implicaturas"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a informar objetivamente"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a describir"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a narrar"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a exponer"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a argumentar"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La pragmática en publicidad persuade y crea implicaturas."
   },
@@ -6502,7 +9402,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la política es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a persuadir y crear implicaturas"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a informar objetivamente"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a describir"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a narrar"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a exponer"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a argumentar"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La pragmática en política persuade y crea implicaturas."
   },
@@ -6513,7 +9438,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la educación es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comprender y producir textos adecuados"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar datos"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a repetir información"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a copiar información"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a ignorar información"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a confundir información"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La pragmática en educación ayuda a comprender y producir textos."
   },
@@ -6524,7 +9474,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la vida cotidiana es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comunicarse eficazmente"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La pragmática en la vida cotidiana ayuda a comunicarse."
   },
@@ -6535,7 +9510,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática estudia:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El lenguaje en uso"
+      },
+      {
+        "key": "B",
+        "text": "El lenguaje en abstracto"
+      },
+      {
+        "key": "C",
+        "text": "El lenguaje fuera de contexto"
+      },
+      {
+        "key": "D",
+        "text": "El lenguaje sin intención"
+      },
+      {
+        "key": "E",
+        "text": "El lenguaje sin efecto"
+      },
+      {
+        "key": "F",
+        "text": "El lenguaje sin significado"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "La pragmática estudia el lenguaje en uso."
   },
@@ -6582,7 +9582,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática se diferencia de la semántica porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Estudia el significado en contexto"
+      },
+      {
+        "key": "B",
+        "text": "Estudia el significado literal"
+      },
+      {
+        "key": "C",
+        "text": "Estudia la estructura gramatical"
+      },
+      {
+        "key": "D",
+        "text": "Estudia la ortografía"
+      },
+      {
+        "key": "E",
+        "text": "Estudia la puntuación"
+      },
+      {
+        "key": "F",
+        "text": "Estudia la caligrafía"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Se diferencia de la semántica por estudiar el significado en contexto."
   },
@@ -6593,7 +9618,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática se diferencia de la sintaxis porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Estudia el uso del lenguaje, no solo la estructura"
+      },
+      {
+        "key": "B",
+        "text": "Estudia solo la estructura"
+      },
+      {
+        "key": "C",
+        "text": "Estudia solo el significado literal"
+      },
+      {
+        "key": "D",
+        "text": "Estudia solo la ortografía"
+      },
+      {
+        "key": "E",
+        "text": "Estudia solo la puntuación"
+      },
+      {
+        "key": "F",
+        "text": "Estudia solo la caligrafía"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Se diferencia de la sintaxis por estudiar el uso, no solo la estructura."
   },
@@ -6604,7 +9654,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática se diferencia de la fonología porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Estudia el uso del lenguaje, no solo los sonidos"
+      },
+      {
+        "key": "B",
+        "text": "Estudia solo los sonidos"
+      },
+      {
+        "key": "C",
+        "text": "Estudia solo la estructura"
+      },
+      {
+        "key": "D",
+        "text": "Estudia solo el significado literal"
+      },
+      {
+        "key": "E",
+        "text": "Estudia solo la ortografía"
+      },
+      {
+        "key": "F",
+        "text": "Estudia solo la puntuación"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "Se diferencia de la fonología por estudiar el uso, no solo los sonidos."
   },
@@ -6617,12 +9692,28 @@
     "statement": "La pragmática es una disciplina:",
     "options": [
       {
+        "key": "A",
+        "text": "En desarrollo y con múltiples enfoques"
+      },
+      {
+        "key": "B",
+        "text": "Antigua y sin desarrollo"
+      },
+      {
         "key": "C",
         "text": "Obsoleta"
       },
       {
         "key": "D",
         "text": "Inútil"
+      },
+      {
+        "key": "E",
+        "text": "Confusa"
+      },
+      {
+        "key": "F",
+        "text": "Ambigua"
       }
     ],
     "correctAnswer": "A",
@@ -6779,7 +9870,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la literatura es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a interpretar los significados implícitos"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En literatura ayuda a interpretar significados implícitos."
   },
@@ -6790,7 +9906,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en el cine es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a interpretar los diálogos y las intenciones"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En cine ayuda a interpretar diálogos e intenciones."
   },
@@ -6801,7 +9942,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en las redes sociales es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a interpretar los mensajes y las intenciones"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En redes sociales ayuda a interpretar mensajes e intenciones."
   },
@@ -6812,7 +9978,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la inteligencia artificial es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a que las máquinas interpreten el lenguaje en contexto"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En IA ayuda a que las máquinas interpreten el lenguaje en contexto."
   },
@@ -6823,7 +10014,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la traducción automática es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a transmitir la intención y el contexto"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a traducir literalmente"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a ignorar el contexto"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a ignorar la intención"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a ignorar el mensaje"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a ignorar el canal"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En traducción automática ayuda a transmitir intención y contexto."
   },
@@ -6834,7 +10050,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la enseñanza de lenguas es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a usar el lenguaje adecuadamente en contexto"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En enseñanza de lenguas ayuda a usar el lenguaje en contexto."
   },
@@ -6845,7 +10086,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la evaluación de lenguas es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a evaluar la competencia comunicativa"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a evaluar la gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a evaluar la ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a evaluar la puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a evaluar la caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a evaluar la sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En evaluación ayuda a evaluar la competencia comunicativa."
   },
@@ -6856,7 +10122,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la investigación es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comprender el uso del lenguaje en contexto"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar datos"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a repetir información"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a copiar información"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a ignorar información"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a confundir información"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En investigación ayuda a comprender el uso del lenguaje."
   },
@@ -6867,7 +10158,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la psicología es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comprender la comunicación humana"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En psicología ayuda a comprender la comunicación humana."
   },
@@ -6878,7 +10194,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la sociología es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comprender la interacción social"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En sociología ayuda a comprender la interacción social."
   },
@@ -6889,7 +10230,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la antropología es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comprender el uso del lenguaje en diferentes culturas"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En antropología ayuda a comprender el lenguaje en culturas."
   },
@@ -6900,7 +10266,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la filosofía es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comprender el lenguaje y la acción"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En filosofía ayuda a comprender el lenguaje y la acción."
   },
@@ -6911,7 +10302,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la lingüística es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comprender el lenguaje en uso"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En lingüística ayuda a comprender el lenguaje en uso."
   },
@@ -6922,7 +10338,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la comunicación es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comprender y producir mensajes adecuados"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En comunicación ayuda a comprender y producir mensajes."
   },
@@ -6933,7 +10374,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la educación es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a desarrollar la competencia comunicativa"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar datos"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a repetir información"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a copiar información"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a ignorar información"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a confundir información"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En educación ayuda a desarrollar la competencia comunicativa."
   },
@@ -6944,7 +10410,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en el trabajo es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comunicarse eficazmente en el ámbito laboral"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En el trabajo ayuda a comunicarse eficazmente."
   },
@@ -6955,7 +10446,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la salud es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comunicarse eficazmente con los pacientes"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En salud ayuda a comunicarse con los pacientes."
   },
@@ -6966,7 +10482,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en el derecho es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a interpretar los textos legales y las intenciones"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En derecho ayuda a interpretar textos legales."
   },
@@ -6977,7 +10518,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la política es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a interpretar los discursos y las intenciones"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En política ayuda a interpretar discursos e intenciones."
   },
@@ -6988,7 +10554,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en los medios es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a interpretar los mensajes y las intenciones"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En medios ayuda a interpretar mensajes e intenciones."
   },
@@ -6999,7 +10590,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la publicidad es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a crear mensajes persuasivos"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a informar objetivamente"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a describir"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a narrar"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a exponer"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a argumentar"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En publicidad ayuda a crear mensajes persuasivos."
   },
@@ -7010,7 +10626,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en las relaciones interpersonales es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comunicarse adecuadamente y mantener relaciones"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En relaciones interpersonales ayuda a comunicarse adecuadamente."
   },
@@ -7021,7 +10662,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la familia es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comunicarse adecuadamente en el hogar"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En la familia ayuda a comunicarse en el hogar."
   },
@@ -7032,7 +10698,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en la amistad es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comunicarse adecuadamente y mantener amistades"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En la amistad ayuda a comunicarse y mantener amistades."
   },
@@ -7043,7 +10734,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática en el amor es importante porque:",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Ayuda a comunicarse adecuadamente y expresar sentimientos"
+      },
+      {
+        "key": "B",
+        "text": "Ayuda a memorizar gramática"
+      },
+      {
+        "key": "C",
+        "text": "Ayuda a memorizar ortografía"
+      },
+      {
+        "key": "D",
+        "text": "Ayuda a memorizar puntuación"
+      },
+      {
+        "key": "E",
+        "text": "Ayuda a memorizar caligrafía"
+      },
+      {
+        "key": "F",
+        "text": "Ayuda a memorizar sintaxis"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "En el amor ayuda a expresar sentimientos."
   },
@@ -7055,6 +10771,10 @@
     "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
     "statement": "La pragmática es fundamental para:",
     "options": [
+      {
+        "key": "A",
+        "text": "Comprender y producir lenguaje en contexto"
+      },
       {
         "key": "B",
         "text": "Memorizar gramática"

@@ -23,9 +23,15 @@ import {
   Bookmark,
   ChevronDown,
   ChevronUp,
+  Target,
 } from 'lucide-react';
-import { Institution, Question, SubjectMeta, SubtopicMeta } from '../types';
-import { fetchUnifiedCurriculum, fetchDynamicQuizPool } from '../services/bancoService';
+import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel } from '../types';
+import {
+  fetchUnifiedCurriculum,
+  fetchDynamicQuizPool,
+  fetchSubtopicQuestions,
+  getSimilarQuestion,
+} from '../services/bancoService';
 import { MathText } from './CategoryHierarchyViewer';
 
 interface PracticeModeProps {
@@ -52,9 +58,16 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
   const [selectedSubjectId, setSelectedSubjectId] = useState<string>('ALL');
   const [selectedSubtopicId, setSelectedSubtopicId] = useState<string>('ALL');
   const [selectedSectionTitle, setSelectedSectionTitle] = useState<string>('ALL');
+  const [selectedLevel, setSelectedLevel] = useState<'ALL' | PedagogicalLevel>('ALL');
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [timerMode, setTimerMode] = useState<'none' | '1m' | '1.5m'>('1m');
   const [tutorMode, setTutorMode] = useState<boolean>(false);
+
+  // Estados de remediación pedagógica en el solucionario
+  const [activeRemediationIdx, setActiveRemediationIdx] = useState<number | null>(null);
+  const [remediationQuestion, setRemediationQuestion] = useState<Question | null>(null);
+  const [remediationUserAns, setRemediationUserAns] = useState<string | null>(null);
+  const [remediationSolved, setRemediationSolved] = useState<boolean>(false);
 
   // Estados del examen en progreso
   const [quizActive, setQuizActive] = useState<boolean>(false);
@@ -157,6 +170,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         subjectId: selectedSubjectId,
         subtopicId: selectedSubtopicId,
         sectionTitle: selectedSectionTitle !== 'ALL' ? selectedSectionTitle : undefined,
+        level: selectedLevel !== 'ALL' ? selectedLevel : undefined,
         count: questionCount,
       });
 
@@ -179,6 +193,12 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         title = 'Simulacro Integral Mixto (UES & ANSP)';
       }
 
+      if (selectedLevel !== 'ALL') {
+        const levelName =
+          selectedLevel === 'basico' ? 'Básico' : selectedLevel === 'intermedio' ? 'Intermedio' : 'Admisión';
+        title += ` • Nivel ${levelName}`;
+      }
+
       let timePerQ = 60;
       if (timerMode === '1.5m') timePerQ = 90;
       const totalSecs = timerMode === 'none' ? 0 : pool.length * timePerQ;
@@ -191,6 +211,8 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
       setQuizFinished(false);
       setSecondsRemaining(totalSecs);
       setTotalExamSeconds(totalSecs);
+      setActiveRemediationIdx(null);
+      setRemediationQuestion(null);
       setQuizActive(true);
       showToast(`¡Examen iniciado con ${pool.length} reactivos!`);
     } catch (err) {
@@ -234,6 +256,44 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
     showToast('Examen calificado exitosamente.');
   };
 
+  // Alternar reactivo similar para remediación
+  const handleToggleRemediation = async (targetQ: Question, idx: number) => {
+    if (activeRemediationIdx === idx) {
+      setActiveRemediationIdx(null);
+      setRemediationQuestion(null);
+      setRemediationUserAns(null);
+      setRemediationSolved(false);
+      return;
+    }
+
+    // 1. Buscar en el pool del quiz actual
+    let similar = getSimilarQuestion(targetQ, quizQuestions);
+
+    // 2. Si no hay similar en el quiz actual, cargar del subtema
+    if (!similar && targetQ.subtopicId) {
+      try {
+        const subQ = await fetchSubtopicQuestions(targetQ.institution, targetQ.subtopicId);
+        similar = getSimilarQuestion(targetQ, subQ);
+      } catch {
+        // Fallback silencioso
+      }
+    }
+
+    if (similar) {
+      setActiveRemediationIdx(idx);
+      setRemediationQuestion(similar);
+      setRemediationUserAns(null);
+      setRemediationSolved(false);
+    } else {
+      showToast('No se encontró otro reactivo equivalente en este subtema para practicar.');
+    }
+  };
+
+  const handlePickRemediationOption = (key: string) => {
+    setRemediationUserAns(key);
+    setRemediationSolved(true);
+  };
+
   // Reiniciar con las mismas preguntas
   const handleRetrySameQuiz = () => {
     setUserAnswers({});
@@ -241,6 +301,8 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
     setCurrentIndex(0);
     setQuizFinished(false);
     setSecondsRemaining(totalExamSeconds);
+    setActiveRemediationIdx(null);
+    setRemediationQuestion(null);
     showToast('Examen reiniciado para nueva evaluación.');
   };
 
@@ -250,6 +312,8 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
     setQuizFinished(false);
     setUserAnswers({});
     setMarkedQuestions({});
+    setActiveRemediationIdx(null);
+    setRemediationQuestion(null);
   };
 
   // Cálculos de Desempeño
@@ -497,7 +561,66 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
             </div>
 
             {/* ============================================================ */}
-            {/* 5. CONFIGURACIÓN DE TIEMPO Y MODO DE PRÁCTICA */}
+            {/* 5. NIVEL DE PROGRESIÓN PEDAGÓGICA */}
+            {/* ============================================================ */}
+            <div className="space-y-2">
+              <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider">
+                5. Nivel de Progresión Pedagógica:
+              </label>
+              <div className="grid grid-cols-2 sm:grid-cols-4 gap-2">
+                <button
+                  type="button"
+                  onClick={() => setSelectedLevel('ALL')}
+                  className={`p-3 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
+                    selectedLevel === 'ALL'
+                      ? 'bg-slate-900 border-slate-900 text-white shadow-xs'
+                      : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                  }`}
+                >
+                  <span className="font-bold text-xs block">Todos los Niveles</span>
+                  <span className="text-[10px] opacity-75">Equilibrado</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setSelectedLevel('basico')}
+                  className={`p-3 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
+                    selectedLevel === 'basico'
+                      ? 'bg-emerald-600 border-emerald-600 text-white shadow-xs'
+                      : 'bg-emerald-50/50 border-emerald-200 text-emerald-900 hover:bg-emerald-100/60'
+                  }`}
+                >
+                  <span className="font-bold text-xs block">🌱 Básico</span>
+                  <span className="text-[10px] opacity-75">Conceptos y Reglas</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setSelectedLevel('intermedio')}
+                  className={`p-3 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
+                    selectedLevel === 'intermedio'
+                      ? 'bg-blue-600 border-blue-600 text-white shadow-xs'
+                      : 'bg-blue-50/50 border-blue-200 text-blue-900 hover:bg-blue-100/60'
+                  }`}
+                >
+                  <span className="font-bold text-xs block">⚡ Intermedio</span>
+                  <span className="text-[10px] opacity-75">Procedimientos</span>
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setSelectedLevel('admision')}
+                  className={`p-3 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
+                    selectedLevel === 'admision'
+                      ? 'bg-purple-600 border-purple-600 text-white shadow-xs'
+                      : 'bg-purple-50/50 border-purple-200 text-purple-900 hover:bg-purple-100/60'
+                  }`}
+                >
+                  <span className="font-bold text-xs block">🎯 Admisión</span>
+                  <span className="text-[10px] opacity-75">Simulación Real UES</span>
+                </button>
+              </div>
+            </div>
+
+            {/* ============================================================ */}
+            {/* 6. CONFIGURACIÓN DE TIEMPO Y MODO DE PRÁCTICA */}
             {/* ============================================================ */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
               {/* Temporizador */}
@@ -655,6 +778,23 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   [{currentQ.institution}] {currentQ.subject}
                 </span>
                 <span className="hidden sm:inline">• {currentQ.topic}</span>
+                {currentQ.level && (
+                  <span
+                    className={`text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider ${
+                      currentQ.level === 'basico'
+                        ? 'bg-emerald-100 text-emerald-800'
+                        : currentQ.level === 'intermedio'
+                        ? 'bg-blue-100 text-blue-800'
+                        : 'bg-purple-100 text-purple-800'
+                    }`}
+                  >
+                    {currentQ.level === 'basico'
+                      ? 'Nivel Básico'
+                      : currentQ.level === 'intermedio'
+                      ? 'Intermedio'
+                      : 'Admisión'}
+                  </span>
+                )}
               </div>
 
               <button
@@ -972,13 +1112,26 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               }`}
             >
               <div className="flex items-center justify-between text-xs">
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 flex-wrap">
                   <span className="w-6 h-6 rounded-lg bg-slate-900 text-white font-mono font-bold flex items-center justify-center text-[11px]">
                     #{idx + 1}
                   </span>
                   <span className="font-bold text-slate-800">
                     [{q.institution}] {q.subject}
                   </span>
+                  {q.level && (
+                    <span
+                      className={`text-[9px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider ${
+                        q.level === 'basico'
+                          ? 'bg-emerald-100 text-emerald-800'
+                          : q.level === 'intermedio'
+                          ? 'bg-blue-100 text-blue-800'
+                          : 'bg-purple-100 text-purple-800'
+                      }`}
+                    >
+                      {q.level}
+                    </span>
+                  )}
                 </div>
 
                 <span
@@ -1033,6 +1186,96 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   <MathText text={q.explanation} />
                 </div>
               </div>
+
+              {/* Remediación Inmediata de Errores */}
+              {!isRight && (
+                <div className="pt-1">
+                  <button
+                    type="button"
+                    onClick={() => handleToggleRemediation(q, idx)}
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-900 bg-amber-100 hover:bg-amber-200 border border-amber-300 shadow-2xs transition-all cursor-pointer"
+                  >
+                    <Target className="w-3.5 h-3.5 text-amber-700" />
+                    <span>
+                      {activeRemediationIdx === idx
+                        ? 'Ocultar reactivo similar'
+                        : 'Practicar reactivo similar'}
+                    </span>
+                  </button>
+
+                  {activeRemediationIdx === idx && remediationQuestion && (
+                    <div className="mt-3 p-4 bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl border-2 border-amber-300 space-y-3 animate-fade-in text-left">
+                      <div className="flex items-center justify-between text-xs flex-wrap gap-2">
+                        <div className="flex items-center gap-1.5 font-bold text-amber-950">
+                          <Sparkles className="w-4 h-4 text-amber-600" />
+                          <span>Reactivo de Remediación Inmediata</span>
+                        </div>
+                        <span className="text-[10px] font-mono bg-white px-2 py-0.5 rounded border border-amber-200 text-amber-800">
+                          {remediationQuestion.id} • {remediationQuestion.level || 'nivel equivalente'}
+                        </span>
+                      </div>
+
+                      <div className="text-slate-900 text-sm font-medium leading-relaxed">
+                        <MathText text={remediationQuestion.statement} />
+                      </div>
+
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                        {remediationQuestion.options.map((rOpt) => {
+                          const isPicked = remediationUserAns === rOpt.key;
+                          const isCorrect = remediationQuestion.correctAnswer === rOpt.key;
+                          let rClass = 'bg-white border-amber-200 text-slate-800 hover:bg-amber-100/50';
+
+                          if (remediationSolved) {
+                            if (isCorrect) {
+                              rClass = 'bg-emerald-100 border-emerald-500 text-emerald-950 font-bold';
+                            } else if (isPicked) {
+                              rClass = 'bg-rose-100 border-rose-400 text-rose-950';
+                            } else {
+                              rClass = 'bg-white/60 border-slate-200 text-slate-400 opacity-60';
+                            }
+                          }
+
+                          return (
+                            <button
+                              key={rOpt.key}
+                              type="button"
+                              onClick={() => handlePickRemediationOption(rOpt.key)}
+                              className={`p-2.5 rounded-xl border text-left transition-all flex items-start gap-2.5 cursor-pointer ${rClass}`}
+                            >
+                              <span className="font-mono font-bold">{rOpt.key})</span>
+                              <div className="flex-1">
+                                <MathText text={rOpt.text} />
+                              </div>
+                            </button>
+                          );
+                        })}
+                      </div>
+
+                      {remediationSolved && (
+                        <div className="p-3 bg-white rounded-xl border border-amber-200 text-xs space-y-1 animate-fade-in">
+                          <div className="font-bold flex items-center gap-1.5">
+                            {remediationUserAns === remediationQuestion.correctAnswer ? (
+                              <span className="text-emerald-700 flex items-center gap-1 font-bold">
+                                <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                                ¡Excelente! Has superado el reactivo de refuerzo.
+                              </span>
+                            ) : (
+                              <span className="text-rose-700 flex items-center gap-1 font-bold">
+                                <XCircle className="w-4 h-4 text-rose-600" />
+                                Respuesta incorrecta. Revisa la justificación:
+                              </span>
+                            )}
+                          </div>
+                          <div className="text-slate-600 leading-relaxed">
+                            <strong className="text-slate-800">Justificación: </strong>
+                            <MathText text={remediationQuestion.explanation} />
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+              )}
             </div>
           );
         })}

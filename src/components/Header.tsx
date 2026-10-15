@@ -52,7 +52,7 @@ export const Header: React.FC<HeaderProps> = ({
   totalQuestions,
   onOpenDeveloperModal,
 }) => {
-  const getSubjectIcon = (iconName: string) => {
+  const getSubjectIcon = (iconName?: string) => {
     switch (iconName) {
       case 'Calculator':
         return <Calculator className="w-4 h-4" />;

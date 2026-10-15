@@ -4328,12 +4328,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "El niño"
+      },
+      {
         "key": "B",
         "text": "Él niño"
       },
       {
+        "key": "C",
+        "text": "El niño"
+      },
+      {
         "key": "D",
         "text": "Él niño"
+      },
+      {
+        "key": "E",
+        "text": "El niño"
       },
       {
         "key": "F",
@@ -4422,7 +4434,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "El te"
+      },
+      {
+        "key": "B",
+        "text": "El té"
+      },
+      {
+        "key": "C",
+        "text": "El te"
+      },
+      {
+        "key": "D",
+        "text": "El té"
+      },
+      {
+        "key": "E",
+        "text": "El te"
+      },
+      {
+        "key": "F",
+        "text": "El té"
+      }
+    ],
     "correctAnswer": "B",
     "explanation": "*Té* con tilde es sustantivo (bebida)."
   },
@@ -4505,7 +4542,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Dé"
+      },
+      {
+        "key": "B",
+        "text": "De"
+      },
+      {
+        "key": "C",
+        "text": "Dé"
+      },
+      {
+        "key": "D",
+        "text": "De"
+      },
+      {
+        "key": "E",
+        "text": "Dé"
+      },
+      {
+        "key": "F",
+        "text": "De"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Dé* con tilde es verbo dar."
   },
@@ -4588,7 +4650,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Aún"
+      },
+      {
+        "key": "B",
+        "text": "Aun"
+      },
+      {
+        "key": "C",
+        "text": "Aún"
+      },
+      {
+        "key": "D",
+        "text": "Aun"
+      },
+      {
+        "key": "E",
+        "text": "Aún"
+      },
+      {
+        "key": "F",
+        "text": "Aun"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Aún* con tilde equivale a \"todavía\"."
   },
@@ -4605,12 +4692,24 @@
         "text": "Él"
       },
       {
+        "key": "B",
+        "text": "El"
+      },
+      {
         "key": "C",
         "text": "Él"
       },
       {
+        "key": "D",
+        "text": "El"
+      },
+      {
         "key": "E",
         "text": "Él"
+      },
+      {
+        "key": "F",
+        "text": "El"
       }
     ],
     "correctAnswer": "A",
@@ -4731,7 +4830,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Dé"
+      },
+      {
+        "key": "B",
+        "text": "De"
+      },
+      {
+        "key": "C",
+        "text": "Dé"
+      },
+      {
+        "key": "D",
+        "text": "De"
+      },
+      {
+        "key": "E",
+        "text": "Dé"
+      },
+      {
+        "key": "F",
+        "text": "De"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Dé* con tilde es verbo dar."
   },
@@ -4814,7 +4938,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Aún"
+      },
+      {
+        "key": "B",
+        "text": "Aun"
+      },
+      {
+        "key": "C",
+        "text": "Aún"
+      },
+      {
+        "key": "D",
+        "text": "Aun"
+      },
+      {
+        "key": "E",
+        "text": "Aún"
+      },
+      {
+        "key": "F",
+        "text": "Aun"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Aún* con tilde equivale a \"todavía\"."
   },
@@ -4827,12 +4976,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "El"
+      },
+      {
         "key": "B",
         "text": "Él"
       },
       {
+        "key": "C",
+        "text": "El"
+      },
+      {
         "key": "D",
         "text": "Él"
+      },
+      {
+        "key": "E",
+        "text": "El"
       },
       {
         "key": "F",
@@ -4957,7 +5118,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "De"
+      },
+      {
+        "key": "B",
+        "text": "Dé"
+      },
+      {
+        "key": "C",
+        "text": "De"
+      },
+      {
+        "key": "D",
+        "text": "Dé"
+      },
+      {
+        "key": "E",
+        "text": "De"
+      },
+      {
+        "key": "F",
+        "text": "Dé"
+      }
+    ],
     "correctAnswer": "B",
     "explanation": "*Dé* con tilde es verbo dar."
   },
@@ -5040,7 +5226,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Aun"
+      },
+      {
+        "key": "B",
+        "text": "Aún"
+      },
+      {
+        "key": "C",
+        "text": "Aun"
+      },
+      {
+        "key": "D",
+        "text": "Aún"
+      },
+      {
+        "key": "E",
+        "text": "Aun"
+      },
+      {
+        "key": "F",
+        "text": "Aún"
+      }
+    ],
     "correctAnswer": "B",
     "explanation": "*Aún* con tilde equivale a \"todavía\"."
   },
@@ -5057,12 +5268,24 @@
         "text": "Él"
       },
       {
+        "key": "B",
+        "text": "El"
+      },
+      {
         "key": "C",
         "text": "Él"
       },
       {
+        "key": "D",
+        "text": "El"
+      },
+      {
         "key": "E",
         "text": "Él"
+      },
+      {
+        "key": "F",
+        "text": "El"
       }
     ],
     "correctAnswer": "A",
@@ -5183,7 +5406,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Dé"
+      },
+      {
+        "key": "B",
+        "text": "De"
+      },
+      {
+        "key": "C",
+        "text": "Dé"
+      },
+      {
+        "key": "D",
+        "text": "De"
+      },
+      {
+        "key": "E",
+        "text": "Dé"
+      },
+      {
+        "key": "F",
+        "text": "De"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Dé* con tilde es verbo dar."
   },
@@ -5266,7 +5514,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Aún"
+      },
+      {
+        "key": "B",
+        "text": "Aun"
+      },
+      {
+        "key": "C",
+        "text": "Aún"
+      },
+      {
+        "key": "D",
+        "text": "Aun"
+      },
+      {
+        "key": "E",
+        "text": "Aún"
+      },
+      {
+        "key": "F",
+        "text": "Aun"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Aún* con tilde equivale a \"todavía\"."
   },
@@ -5283,12 +5556,24 @@
         "text": "Él"
       },
       {
+        "key": "B",
+        "text": "El"
+      },
+      {
         "key": "C",
         "text": "Él"
       },
       {
+        "key": "D",
+        "text": "El"
+      },
+      {
         "key": "E",
         "text": "Él"
+      },
+      {
+        "key": "F",
+        "text": "El"
       }
     ],
     "correctAnswer": "A",
@@ -5409,7 +5694,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Dé"
+      },
+      {
+        "key": "B",
+        "text": "De"
+      },
+      {
+        "key": "C",
+        "text": "Dé"
+      },
+      {
+        "key": "D",
+        "text": "De"
+      },
+      {
+        "key": "E",
+        "text": "Dé"
+      },
+      {
+        "key": "F",
+        "text": "De"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Dé* con tilde es verbo dar."
   },
@@ -5492,7 +5802,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Aún"
+      },
+      {
+        "key": "B",
+        "text": "Aun"
+      },
+      {
+        "key": "C",
+        "text": "Aún"
+      },
+      {
+        "key": "D",
+        "text": "Aun"
+      },
+      {
+        "key": "E",
+        "text": "Aún"
+      },
+      {
+        "key": "F",
+        "text": "Aun"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Aún* con tilde equivale a \"todavía\"."
   },
@@ -5509,12 +5844,24 @@
         "text": "Él"
       },
       {
+        "key": "B",
+        "text": "El"
+      },
+      {
         "key": "C",
         "text": "Él"
       },
       {
+        "key": "D",
+        "text": "El"
+      },
+      {
         "key": "E",
         "text": "Él"
+      },
+      {
+        "key": "F",
+        "text": "El"
       }
     ],
     "correctAnswer": "A",
@@ -5635,7 +5982,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Dé"
+      },
+      {
+        "key": "B",
+        "text": "De"
+      },
+      {
+        "key": "C",
+        "text": "Dé"
+      },
+      {
+        "key": "D",
+        "text": "De"
+      },
+      {
+        "key": "E",
+        "text": "Dé"
+      },
+      {
+        "key": "F",
+        "text": "De"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Dé* con tilde es verbo dar."
   },
@@ -5718,7 +6090,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN IV: TILDE DIACRÍTICA (121–170)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Aún"
+      },
+      {
+        "key": "B",
+        "text": "Aun"
+      },
+      {
+        "key": "C",
+        "text": "Aún"
+      },
+      {
+        "key": "D",
+        "text": "Aun"
+      },
+      {
+        "key": "E",
+        "text": "Aún"
+      },
+      {
+        "key": "F",
+        "text": "Aun ---"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Aún* con tilde equivale a \"todavía\"."
   },
@@ -5729,7 +6126,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Aún"
+      },
+      {
+        "key": "B",
+        "text": "Aun"
+      },
+      {
+        "key": "C",
+        "text": "Aún"
+      },
+      {
+        "key": "D",
+        "text": "Aun"
+      },
+      {
+        "key": "E",
+        "text": "Aún"
+      },
+      {
+        "key": "F",
+        "text": "Aun"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Aún* con tilde equivale a \"todavía\"."
   },
@@ -5782,12 +6204,24 @@
         "text": "Éste"
       },
       {
+        "key": "B",
+        "text": "Este"
+      },
+      {
         "key": "C",
         "text": "Éste"
       },
       {
+        "key": "D",
+        "text": "Este"
+      },
+      {
         "key": "E",
         "text": "Éste"
+      },
+      {
+        "key": "F",
+        "text": "Este"
       }
     ],
     "correctAnswer": "A",
@@ -5800,7 +6234,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Aquél"
+      },
+      {
+        "key": "B",
+        "text": "Aquel"
+      },
+      {
+        "key": "C",
+        "text": "Aquél"
+      },
+      {
+        "key": "D",
+        "text": "Aquel"
+      },
+      {
+        "key": "E",
+        "text": "Aquél"
+      },
+      {
+        "key": "F",
+        "text": "Aquel"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Aquél* con tilde es pronombre (uso tradicional)."
   },
@@ -5811,7 +6270,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Dé"
+      },
+      {
+        "key": "B",
+        "text": "De"
+      },
+      {
+        "key": "C",
+        "text": "Dé"
+      },
+      {
+        "key": "D",
+        "text": "De"
+      },
+      {
+        "key": "E",
+        "text": "Dé"
+      },
+      {
+        "key": "F",
+        "text": "De"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Dé* con tilde es verbo dar."
   },
@@ -6044,12 +6528,24 @@
         "text": "Él"
       },
       {
+        "key": "B",
+        "text": "El"
+      },
+      {
         "key": "C",
         "text": "Él"
       },
       {
+        "key": "D",
+        "text": "El"
+      },
+      {
         "key": "E",
         "text": "Él"
+      },
+      {
+        "key": "F",
+        "text": "El"
       }
     ],
     "correctAnswer": "A",
@@ -6062,7 +6558,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Aún"
+      },
+      {
+        "key": "B",
+        "text": "Aun"
+      },
+      {
+        "key": "C",
+        "text": "Aún"
+      },
+      {
+        "key": "D",
+        "text": "Aun"
+      },
+      {
+        "key": "E",
+        "text": "Aún"
+      },
+      {
+        "key": "F",
+        "text": "Aun"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Aún* con tilde equivale a \"todavía\"."
   },
@@ -6115,12 +6636,24 @@
         "text": "Éste"
       },
       {
+        "key": "B",
+        "text": "Este"
+      },
+      {
         "key": "C",
         "text": "Éste"
       },
       {
+        "key": "D",
+        "text": "Este"
+      },
+      {
         "key": "E",
         "text": "Éste"
+      },
+      {
+        "key": "F",
+        "text": "Este"
       }
     ],
     "correctAnswer": "A",
@@ -6133,7 +6666,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Aquél"
+      },
+      {
+        "key": "B",
+        "text": "Aquel"
+      },
+      {
+        "key": "C",
+        "text": "Aquél"
+      },
+      {
+        "key": "D",
+        "text": "Aquel"
+      },
+      {
+        "key": "E",
+        "text": "Aquél"
+      },
+      {
+        "key": "F",
+        "text": "Aquel"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Aquél* con tilde es pronombre."
   },
@@ -6144,7 +6702,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Dé"
+      },
+      {
+        "key": "B",
+        "text": "De"
+      },
+      {
+        "key": "C",
+        "text": "Dé"
+      },
+      {
+        "key": "D",
+        "text": "De"
+      },
+      {
+        "key": "E",
+        "text": "Dé"
+      },
+      {
+        "key": "F",
+        "text": "De"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Dé* con tilde es verbo dar."
   },
@@ -6377,12 +6960,24 @@
         "text": "Él"
       },
       {
+        "key": "B",
+        "text": "El"
+      },
+      {
         "key": "C",
         "text": "Él"
       },
       {
+        "key": "D",
+        "text": "El"
+      },
+      {
         "key": "E",
         "text": "Él"
+      },
+      {
+        "key": "F",
+        "text": "El"
       }
     ],
     "correctAnswer": "A",
@@ -6395,7 +6990,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Aún"
+      },
+      {
+        "key": "B",
+        "text": "Aun"
+      },
+      {
+        "key": "C",
+        "text": "Aún"
+      },
+      {
+        "key": "D",
+        "text": "Aun"
+      },
+      {
+        "key": "E",
+        "text": "Aún"
+      },
+      {
+        "key": "F",
+        "text": "Aun"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Aún* con tilde equivale a \"todavía\"."
   },
@@ -6448,12 +7068,24 @@
         "text": "Éste"
       },
       {
+        "key": "B",
+        "text": "Este"
+      },
+      {
         "key": "C",
         "text": "Éste"
       },
       {
+        "key": "D",
+        "text": "Este"
+      },
+      {
         "key": "E",
         "text": "Éste"
+      },
+      {
+        "key": "F",
+        "text": "Este"
       }
     ],
     "correctAnswer": "A",
@@ -6466,7 +7098,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Aquél"
+      },
+      {
+        "key": "B",
+        "text": "Aquel"
+      },
+      {
+        "key": "C",
+        "text": "Aquél"
+      },
+      {
+        "key": "D",
+        "text": "Aquel"
+      },
+      {
+        "key": "E",
+        "text": "Aquél"
+      },
+      {
+        "key": "F",
+        "text": "Aquel"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Aquél* con tilde es pronombre."
   },
@@ -6477,7 +7134,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN V: TILDE DISOLVENTE (171–200)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Dé"
+      },
+      {
+        "key": "B",
+        "text": "De"
+      },
+      {
+        "key": "C",
+        "text": "Dé"
+      },
+      {
+        "key": "D",
+        "text": "De"
+      },
+      {
+        "key": "E",
+        "text": "Dé"
+      },
+      {
+        "key": "F",
+        "text": "De"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Dé* con tilde es verbo dar."
   },
@@ -6526,12 +7208,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Baca"
+      },
+      {
         "key": "B",
         "text": "Vaca"
       },
       {
+        "key": "C",
+        "text": "Baca"
+      },
+      {
         "key": "D",
         "text": "Vaca"
+      },
+      {
+        "key": "E",
+        "text": "Baca"
       },
       {
         "key": "F",
@@ -6550,12 +7244,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Bello"
+      },
+      {
         "key": "B",
         "text": "Vello"
       },
       {
+        "key": "C",
+        "text": "Bello"
+      },
+      {
         "key": "D",
         "text": "Vello"
+      },
+      {
+        "key": "E",
+        "text": "Bello"
       },
       {
         "key": "F",
@@ -6572,7 +7278,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cabo"
+      },
+      {
+        "key": "B",
+        "text": "Cavo"
+      },
+      {
+        "key": "C",
+        "text": "Cabo"
+      },
+      {
+        "key": "D",
+        "text": "Cavo"
+      },
+      {
+        "key": "E",
+        "text": "Cabo"
+      },
+      {
+        "key": "F",
+        "text": "Cavo"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Cabo* (extremo) se escribe con b."
   },
@@ -6625,12 +7356,24 @@
         "text": "Haber"
       },
       {
+        "key": "B",
+        "text": "A ver"
+      },
+      {
         "key": "C",
         "text": "Haber"
       },
       {
+        "key": "D",
+        "text": "A ver"
+      },
+      {
         "key": "E",
         "text": "Haber"
+      },
+      {
+        "key": "F",
+        "text": "A ver"
       }
     ],
     "correctAnswer": "A",
@@ -6823,7 +7566,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Casar"
+      },
+      {
+        "key": "B",
+        "text": "Cazar"
+      },
+      {
+        "key": "C",
+        "text": "Casar"
+      },
+      {
+        "key": "D",
+        "text": "Cazar"
+      },
+      {
+        "key": "E",
+        "text": "Casar"
+      },
+      {
+        "key": "F",
+        "text": "Cazar"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Casar* (matrimonio) se escribe con s."
   },
@@ -6836,12 +7604,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Ceda"
+      },
+      {
         "key": "B",
         "text": "Seda"
       },
       {
+        "key": "C",
+        "text": "Ceda"
+      },
+      {
         "key": "D",
         "text": "Seda"
+      },
+      {
+        "key": "E",
+        "text": "Ceda"
       },
       {
         "key": "F",
@@ -6860,12 +7640,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cima"
+      },
+      {
         "key": "B",
         "text": "Sima"
       },
       {
+        "key": "C",
+        "text": "Cima"
+      },
+      {
         "key": "D",
         "text": "Sima"
+      },
+      {
+        "key": "E",
+        "text": "Cima"
       },
       {
         "key": "F",
@@ -6882,7 +7674,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cocer"
+      },
+      {
+        "key": "B",
+        "text": "Coser"
+      },
+      {
+        "key": "C",
+        "text": "Cocer"
+      },
+      {
+        "key": "D",
+        "text": "Coser"
+      },
+      {
+        "key": "E",
+        "text": "Cocer"
+      },
+      {
+        "key": "F",
+        "text": "Coser"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Cocer* (cocinar) se escribe con c."
   },
@@ -6893,7 +7710,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Caza"
+      },
+      {
+        "key": "B",
+        "text": "Casa"
+      },
+      {
+        "key": "C",
+        "text": "Caza"
+      },
+      {
+        "key": "D",
+        "text": "Casa"
+      },
+      {
+        "key": "E",
+        "text": "Caza"
+      },
+      {
+        "key": "F",
+        "text": "Casa"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Caza* (cacería) se escribe con z."
   },
@@ -6906,12 +7748,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cien"
+      },
+      {
         "key": "B",
         "text": "Sien"
       },
       {
+        "key": "C",
+        "text": "Cien"
+      },
+      {
         "key": "D",
         "text": "Sien"
+      },
+      {
+        "key": "E",
+        "text": "Cien"
       },
       {
         "key": "F",
@@ -6930,12 +7784,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Ciervo"
+      },
+      {
         "key": "B",
         "text": "Siervo"
       },
       {
+        "key": "C",
+        "text": "Ciervo"
+      },
+      {
         "key": "D",
         "text": "Siervo"
+      },
+      {
+        "key": "E",
+        "text": "Ciervo"
       },
       {
         "key": "F",
@@ -6954,12 +7820,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cima"
+      },
+      {
         "key": "B",
         "text": "Sima"
       },
       {
+        "key": "C",
+        "text": "Cima"
+      },
+      {
         "key": "D",
         "text": "Sima"
+      },
+      {
+        "key": "E",
+        "text": "Cima"
       },
       {
         "key": "F",
@@ -6976,7 +7854,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cocer"
+      },
+      {
+        "key": "B",
+        "text": "Coser"
+      },
+      {
+        "key": "C",
+        "text": "Cocer"
+      },
+      {
+        "key": "D",
+        "text": "Coser"
+      },
+      {
+        "key": "E",
+        "text": "Cocer"
+      },
+      {
+        "key": "F",
+        "text": "Coser"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Cocer* (cocinar) se escribe con c."
   },
@@ -6987,7 +7890,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Caza"
+      },
+      {
+        "key": "B",
+        "text": "Casa"
+      },
+      {
+        "key": "C",
+        "text": "Caza"
+      },
+      {
+        "key": "D",
+        "text": "Casa"
+      },
+      {
+        "key": "E",
+        "text": "Caza"
+      },
+      {
+        "key": "F",
+        "text": "Casa"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Caza* (cacería) se escribe con z."
   },
@@ -7000,12 +7928,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cien"
+      },
+      {
         "key": "B",
         "text": "Sien"
       },
       {
+        "key": "C",
+        "text": "Cien"
+      },
+      {
         "key": "D",
         "text": "Sien"
+      },
+      {
+        "key": "E",
+        "text": "Cien"
       },
       {
         "key": "F",
@@ -7024,12 +7964,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Ciervo"
+      },
+      {
         "key": "B",
         "text": "Siervo"
       },
       {
+        "key": "C",
+        "text": "Ciervo"
+      },
+      {
         "key": "D",
         "text": "Siervo"
+      },
+      {
+        "key": "E",
+        "text": "Ciervo"
       },
       {
         "key": "F",
@@ -7048,12 +8000,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cima"
+      },
+      {
         "key": "B",
         "text": "Sima"
       },
       {
+        "key": "C",
+        "text": "Cima"
+      },
+      {
         "key": "D",
         "text": "Sima"
+      },
+      {
+        "key": "E",
+        "text": "Cima"
       },
       {
         "key": "F",
@@ -7070,7 +8034,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cocer"
+      },
+      {
+        "key": "B",
+        "text": "Coser"
+      },
+      {
+        "key": "C",
+        "text": "Cocer"
+      },
+      {
+        "key": "D",
+        "text": "Coser"
+      },
+      {
+        "key": "E",
+        "text": "Cocer"
+      },
+      {
+        "key": "F",
+        "text": "Coser"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Cocer* (cocinar) se escribe con c."
   },
@@ -7081,7 +8070,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Caza"
+      },
+      {
+        "key": "B",
+        "text": "Casa"
+      },
+      {
+        "key": "C",
+        "text": "Caza"
+      },
+      {
+        "key": "D",
+        "text": "Casa"
+      },
+      {
+        "key": "E",
+        "text": "Caza"
+      },
+      {
+        "key": "F",
+        "text": "Casa"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Caza* (cacería) se escribe con z."
   },
@@ -7094,12 +8108,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cien"
+      },
+      {
         "key": "B",
         "text": "Sien"
       },
       {
+        "key": "C",
+        "text": "Cien"
+      },
+      {
         "key": "D",
         "text": "Sien"
+      },
+      {
+        "key": "E",
+        "text": "Cien"
       },
       {
         "key": "F",
@@ -7118,12 +8144,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Ciervo"
+      },
+      {
         "key": "B",
         "text": "Siervo"
       },
       {
+        "key": "C",
+        "text": "Ciervo"
+      },
+      {
         "key": "D",
         "text": "Siervo"
+      },
+      {
+        "key": "E",
+        "text": "Ciervo"
       },
       {
         "key": "F",
@@ -7142,12 +8180,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cima"
+      },
+      {
         "key": "B",
         "text": "Sima"
       },
       {
+        "key": "C",
+        "text": "Cima"
+      },
+      {
         "key": "D",
         "text": "Sima"
+      },
+      {
+        "key": "E",
+        "text": "Cima"
       },
       {
         "key": "F",
@@ -7164,7 +8214,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cocer"
+      },
+      {
+        "key": "B",
+        "text": "Coser"
+      },
+      {
+        "key": "C",
+        "text": "Cocer"
+      },
+      {
+        "key": "D",
+        "text": "Coser"
+      },
+      {
+        "key": "E",
+        "text": "Cocer"
+      },
+      {
+        "key": "F",
+        "text": "Coser"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Cocer* (cocinar) se escribe con c."
   },
@@ -7175,7 +8250,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Caza"
+      },
+      {
+        "key": "B",
+        "text": "Casa"
+      },
+      {
+        "key": "C",
+        "text": "Caza"
+      },
+      {
+        "key": "D",
+        "text": "Casa"
+      },
+      {
+        "key": "E",
+        "text": "Caza"
+      },
+      {
+        "key": "F",
+        "text": "Casa"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Caza* (cacería) se escribe con z."
   },
@@ -7188,12 +8288,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cien"
+      },
+      {
         "key": "B",
         "text": "Sien"
       },
       {
+        "key": "C",
+        "text": "Cien"
+      },
+      {
         "key": "D",
         "text": "Sien"
+      },
+      {
+        "key": "E",
+        "text": "Cien"
       },
       {
         "key": "F",
@@ -7212,12 +8324,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Ciervo"
+      },
+      {
         "key": "B",
         "text": "Siervo"
       },
       {
+        "key": "C",
+        "text": "Ciervo"
+      },
+      {
         "key": "D",
         "text": "Siervo"
+      },
+      {
+        "key": "E",
+        "text": "Ciervo"
       },
       {
         "key": "F",
@@ -7236,12 +8360,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cima"
+      },
+      {
         "key": "B",
         "text": "Sima"
       },
       {
+        "key": "C",
+        "text": "Cima"
+      },
+      {
         "key": "D",
         "text": "Sima"
+      },
+      {
+        "key": "E",
+        "text": "Cima"
       },
       {
         "key": "F",
@@ -7258,7 +8394,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cocer"
+      },
+      {
+        "key": "B",
+        "text": "Coser"
+      },
+      {
+        "key": "C",
+        "text": "Cocer"
+      },
+      {
+        "key": "D",
+        "text": "Coser"
+      },
+      {
+        "key": "E",
+        "text": "Cocer"
+      },
+      {
+        "key": "F",
+        "text": "Coser"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Cocer* (cocinar) se escribe con c."
   },
@@ -7269,7 +8430,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Caza"
+      },
+      {
+        "key": "B",
+        "text": "Casa"
+      },
+      {
+        "key": "C",
+        "text": "Caza"
+      },
+      {
+        "key": "D",
+        "text": "Casa"
+      },
+      {
+        "key": "E",
+        "text": "Caza"
+      },
+      {
+        "key": "F",
+        "text": "Casa"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Caza* (cacería) se escribe con z."
   },
@@ -7282,12 +8468,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cien"
+      },
+      {
         "key": "B",
         "text": "Sien"
       },
       {
+        "key": "C",
+        "text": "Cien"
+      },
+      {
         "key": "D",
         "text": "Sien"
+      },
+      {
+        "key": "E",
+        "text": "Cien"
       },
       {
         "key": "F",
@@ -7306,12 +8504,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Ciervo"
+      },
+      {
         "key": "B",
         "text": "Siervo"
       },
       {
+        "key": "C",
+        "text": "Ciervo"
+      },
+      {
         "key": "D",
         "text": "Siervo"
+      },
+      {
+        "key": "E",
+        "text": "Ciervo"
       },
       {
         "key": "F",
@@ -7330,12 +8540,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cima"
+      },
+      {
         "key": "B",
         "text": "Sima"
       },
       {
+        "key": "C",
+        "text": "Cima"
+      },
+      {
         "key": "D",
         "text": "Sima"
+      },
+      {
+        "key": "E",
+        "text": "Cima"
       },
       {
         "key": "F",
@@ -7352,7 +8574,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cocer"
+      },
+      {
+        "key": "B",
+        "text": "Coser"
+      },
+      {
+        "key": "C",
+        "text": "Cocer"
+      },
+      {
+        "key": "D",
+        "text": "Coser"
+      },
+      {
+        "key": "E",
+        "text": "Cocer"
+      },
+      {
+        "key": "F",
+        "text": "Coser"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Cocer* (cocinar) se escribe con c."
   },
@@ -7363,7 +8610,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Caza"
+      },
+      {
+        "key": "B",
+        "text": "Casa"
+      },
+      {
+        "key": "C",
+        "text": "Caza"
+      },
+      {
+        "key": "D",
+        "text": "Casa"
+      },
+      {
+        "key": "E",
+        "text": "Caza"
+      },
+      {
+        "key": "F",
+        "text": "Casa"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Caza* (cacería) se escribe con z."
   },
@@ -7376,12 +8648,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cien"
+      },
+      {
         "key": "B",
         "text": "Sien"
       },
       {
+        "key": "C",
+        "text": "Cien"
+      },
+      {
         "key": "D",
         "text": "Sien"
+      },
+      {
+        "key": "E",
+        "text": "Cien"
       },
       {
         "key": "F",
@@ -7400,12 +8684,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Ciervo"
+      },
+      {
         "key": "B",
         "text": "Siervo"
       },
       {
+        "key": "C",
+        "text": "Ciervo"
+      },
+      {
         "key": "D",
         "text": "Siervo"
+      },
+      {
+        "key": "E",
+        "text": "Ciervo"
       },
       {
         "key": "F",
@@ -7424,12 +8720,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cima"
+      },
+      {
         "key": "B",
         "text": "Sima"
       },
       {
+        "key": "C",
+        "text": "Cima"
+      },
+      {
         "key": "D",
         "text": "Sima"
+      },
+      {
+        "key": "E",
+        "text": "Cima"
       },
       {
         "key": "F",
@@ -7446,7 +8754,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cocer"
+      },
+      {
+        "key": "B",
+        "text": "Coser"
+      },
+      {
+        "key": "C",
+        "text": "Cocer"
+      },
+      {
+        "key": "D",
+        "text": "Coser"
+      },
+      {
+        "key": "E",
+        "text": "Cocer"
+      },
+      {
+        "key": "F",
+        "text": "Coser"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Cocer* (cocinar) se escribe con c."
   },
@@ -7457,7 +8790,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Caza"
+      },
+      {
+        "key": "B",
+        "text": "Casa"
+      },
+      {
+        "key": "C",
+        "text": "Caza"
+      },
+      {
+        "key": "D",
+        "text": "Casa"
+      },
+      {
+        "key": "E",
+        "text": "Caza"
+      },
+      {
+        "key": "F",
+        "text": "Casa"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Caza* (cacería) se escribe con z."
   },
@@ -7470,12 +8828,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cien"
+      },
+      {
         "key": "B",
         "text": "Sien"
       },
       {
+        "key": "C",
+        "text": "Cien"
+      },
+      {
         "key": "D",
         "text": "Sien"
+      },
+      {
+        "key": "E",
+        "text": "Cien"
       },
       {
         "key": "F",
@@ -7494,12 +8864,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Ciervo"
+      },
+      {
         "key": "B",
         "text": "Siervo"
       },
       {
+        "key": "C",
+        "text": "Ciervo"
+      },
+      {
         "key": "D",
         "text": "Siervo"
+      },
+      {
+        "key": "E",
+        "text": "Ciervo"
       },
       {
         "key": "F",
@@ -7518,12 +8900,24 @@
     "statement": "¿Cuál es la forma correcta?",
     "options": [
       {
+        "key": "A",
+        "text": "Cima"
+      },
+      {
         "key": "B",
         "text": "Sima"
       },
       {
+        "key": "C",
+        "text": "Cima"
+      },
+      {
         "key": "D",
         "text": "Sima"
+      },
+      {
+        "key": "E",
+        "text": "Cima"
       },
       {
         "key": "F",
@@ -7540,7 +8934,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Cocer"
+      },
+      {
+        "key": "B",
+        "text": "Coser"
+      },
+      {
+        "key": "C",
+        "text": "Cocer"
+      },
+      {
+        "key": "D",
+        "text": "Coser"
+      },
+      {
+        "key": "E",
+        "text": "Cocer"
+      },
+      {
+        "key": "F",
+        "text": "Coser"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Cocer* (cocinar) se escribe con c."
   },
@@ -7551,7 +8970,32 @@
     "subjectId": "lenguaje",
     "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
     "statement": "¿Cuál es la forma correcta?",
-    "options": [],
+    "options": [
+      {
+        "key": "A",
+        "text": "Caza"
+      },
+      {
+        "key": "B",
+        "text": "Casa"
+      },
+      {
+        "key": "C",
+        "text": "Caza"
+      },
+      {
+        "key": "D",
+        "text": "Casa"
+      },
+      {
+        "key": "E",
+        "text": "Caza"
+      },
+      {
+        "key": "F",
+        "text": "Casa ---"
+      }
+    ],
     "correctAnswer": "A",
     "explanation": "*Caza* (cacería) se escribe con z."
   },
@@ -7568,8 +9012,16 @@
         "text": "Punto"
       },
       {
+        "key": "B",
+        "text": "Coma"
+      },
+      {
         "key": "C",
         "text": "Punto y coma"
+      },
+      {
+        "key": "D",
+        "text": "Dos puntos"
       },
       {
         "key": "E",
@@ -7592,12 +9044,20 @@
     "statement": "¿Qué signo se usa al final de una oración?",
     "options": [
       {
+        "key": "A",
+        "text": "Coma"
+      },
+      {
         "key": "B",
         "text": "Punto"
       },
       {
         "key": "C",
         "text": "Punto y coma"
+      },
+      {
+        "key": "D",
+        "text": "Dos puntos"
       },
       {
         "key": "E",
@@ -7624,8 +9084,16 @@
         "text": "Punto"
       },
       {
+        "key": "B",
+        "text": "Coma"
+      },
+      {
         "key": "C",
         "text": "Punto y coma"
+      },
+      {
+        "key": "D",
+        "text": "Dos puntos"
       },
       {
         "key": "E",
@@ -7652,8 +9120,16 @@
         "text": "Punto"
       },
       {
+        "key": "B",
+        "text": "Coma"
+      },
+      {
         "key": "C",
         "text": "Punto y coma"
+      },
+      {
+        "key": "D",
+        "text": "Dos puntos"
       },
       {
         "key": "E",
@@ -7680,8 +9156,16 @@
         "text": "Punto"
       },
       {
+        "key": "B",
+        "text": "Coma"
+      },
+      {
         "key": "C",
         "text": "Punto y coma"
+      },
+      {
+        "key": "D",
+        "text": "Dos puntos"
       },
       {
         "key": "E",
@@ -7708,8 +9192,16 @@
         "text": "Punto"
       },
       {
+        "key": "B",
+        "text": "Coma"
+      },
+      {
         "key": "C",
         "text": "Punto y coma"
+      },
+      {
+        "key": "D",
+        "text": "Dos puntos"
       },
       {
         "key": "E",
@@ -7736,12 +9228,24 @@
         "text": "Punto"
       },
       {
+        "key": "B",
+        "text": "Coma"
+      },
+      {
         "key": "C",
         "text": "Punto y coma"
       },
       {
+        "key": "D",
+        "text": "Dos puntos"
+      },
+      {
         "key": "E",
         "text": "Puntos suspensivos"
+      },
+      {
+        "key": "F",
+        "text": "Exclamación"
       }
     ],
     "correctAnswer": "F",
@@ -7760,12 +9264,24 @@
         "text": "Punto"
       },
       {
+        "key": "B",
+        "text": "Coma"
+      },
+      {
         "key": "C",
         "text": "Punto y coma"
       },
       {
+        "key": "D",
+        "text": "Dos puntos"
+      },
+      {
         "key": "E",
         "text": "Puntos suspensivos"
+      },
+      {
+        "key": "F",
+        "text": "Comillas"
       }
     ],
     "correctAnswer": "F",
@@ -7782,6 +9298,18 @@
       {
         "key": "A",
         "text": "Punto"
+      },
+      {
+        "key": "B",
+        "text": "Coma"
+      },
+      {
+        "key": "C",
+        "text": "Barra"
+      },
+      {
+        "key": "D",
+        "text": "Dos puntos"
       },
       {
         "key": "E",
@@ -7808,8 +9336,16 @@
         "text": "Punto"
       },
       {
+        "key": "B",
+        "text": "Coma"
+      },
+      {
         "key": "C",
         "text": "Punto y coma"
+      },
+      {
+        "key": "D",
+        "text": "Dos puntos"
       },
       {
         "key": "E",
@@ -7836,12 +9372,24 @@
         "text": "Vocativo"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -7860,12 +9408,24 @@
         "text": "Vocativo"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "B",
@@ -7884,12 +9444,24 @@
         "text": "Vocativo"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "C",
@@ -7908,12 +9480,24 @@
         "text": "Vocativo"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "E",
@@ -7932,12 +9516,24 @@
         "text": "Vocativo"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "F",
@@ -7956,12 +9552,24 @@
         "text": "Separar oraciones"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -7976,12 +9584,28 @@
     "statement": "¿Cuál es el uso correcto de los dos puntos en: \"Tengo tres hermanos: Ana, Luis y Pedro\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Cita"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "B",
@@ -7996,12 +9620,28 @@
     "statement": "¿Cuál es el uso correcto de los dos puntos en: \"Dijo: 'No iré'\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Cita"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8016,12 +9656,28 @@
     "statement": "¿Cuál es el uso correcto de los puntos suspensivos en: \"No sé si...\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Duda"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8036,12 +9692,28 @@
     "statement": "¿Cuál es el uso correcto de las comillas en: \"Dijo 'hola'\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Cita"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8056,12 +9728,28 @@
     "statement": "¿Cuál es el uso correcto del guion en: \"veintidós\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Compuesto"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8076,12 +9764,28 @@
     "statement": "¿Cuál es el uso correcto del guion en: \"teórico-práctico\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Compuesto"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8096,12 +9800,28 @@
     "statement": "¿Cuál es el uso correcto de la raya en: \"—Ven —dijo—\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Diálogo"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8116,12 +9836,28 @@
     "statement": "¿Cuál es el uso correcto del paréntesis en: \"Llegó (por fin) a casa\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Aclaración"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8140,12 +9876,24 @@
         "text": "Pregunta"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8160,12 +9908,28 @@
     "statement": "¿Cuál es el uso correcto de los signos de exclamación en: \"¡Ven!\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Exclamación"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8184,12 +9948,24 @@
         "text": "Pronunciar la u"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8208,12 +9984,24 @@
         "text": "Pronunciar la u"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8232,12 +10020,24 @@
         "text": "Pronunciar la u"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8256,12 +10056,24 @@
         "text": "Pronunciar la u"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8280,12 +10092,24 @@
         "text": "Pronunciar la u"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8304,12 +10128,24 @@
         "text": "Pronunciar la u"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8328,12 +10164,24 @@
         "text": "Pronunciar la u"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8352,12 +10200,24 @@
         "text": "Pronunciar la u"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8376,12 +10236,24 @@
         "text": "Pronunciar la u"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8400,12 +10272,24 @@
         "text": "Pronunciar la u"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8424,12 +10308,24 @@
         "text": "Vocativo"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "C",
@@ -8448,12 +10344,24 @@
         "text": "Vocativo"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "B",
@@ -8472,12 +10380,24 @@
         "text": "Vocativo"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8496,12 +10416,24 @@
         "text": "Vocativo"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "C",
@@ -8520,12 +10452,24 @@
         "text": "Vocativo"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "E",
@@ -8544,12 +10488,24 @@
         "text": "Separar oraciones"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8564,12 +10520,28 @@
     "statement": "¿Cuál es el uso correcto de los dos puntos en: \"Tengo dos opciones: quedarme o irme\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Cita"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "B",
@@ -8584,12 +10556,28 @@
     "statement": "¿Cuál es el uso correcto de los dos puntos en: \"Explicó: 'No puedo'\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Cita"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8604,12 +10592,28 @@
     "statement": "¿Cuál es el uso correcto de los puntos suspensivos en: \"Tal vez...\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Duda"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8624,12 +10628,28 @@
     "statement": "¿Cuál es el uso correcto de las comillas en: \"Le dijo 'adiós'\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Cita"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8644,12 +10664,28 @@
     "statement": "¿Cuál es el uso correcto del guion en: \"físico-químico\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Compuesto"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8664,12 +10700,28 @@
     "statement": "¿Cuál es el uso correcto de la raya en: \"—Hola —saludó—\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Diálogo"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8684,12 +10736,28 @@
     "statement": "¿Cuál es el uso correcto del paréntesis en: \"Vino (creo) tarde\"?",
     "options": [
       {
+        "key": "A",
+        "text": "Aclaración"
+      },
+      {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis"
       }
     ],
     "correctAnswer": "A",
@@ -8708,12 +10776,24 @@
         "text": "Pregunta"
       },
       {
+        "key": "B",
+        "text": "Enumeración"
+      },
+      {
+        "key": "C",
+        "text": "Aposición"
+      },
+      {
         "key": "D",
         "text": "Inciso"
       },
       {
         "key": "E",
         "text": "Nexo"
+      },
+      {
+        "key": "F",
+        "text": "Elipsis ---"
       }
     ],
     "correctAnswer": "A",
