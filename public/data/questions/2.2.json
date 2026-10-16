@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "Un texto argumentativo tiene como propósito:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "En la teoría de Joseph Novak, los elementos estructurales básicos de un mapa conceptual son:",
     "options": [
       {
         "key": "A",
-        "text": "Convencer o persuadir al lector"
+        "text": "Conceptos, palabras de enlace y proposiciones"
       },
       {
         "key": "B",
-        "text": "Informar objetivamente"
+        "text": "Tesis, argumentos y conclusiones"
       },
       {
         "key": "C",
-        "text": "Contar una historia"
+        "text": "Causa, efecto y solución"
       },
       {
         "key": "D",
-        "text": "Expresar sentimientos"
-      },
-      {
-        "key": "E",
-        "text": "Entretener"
-      },
-      {
-        "key": "F",
-        "text": "Describir un lugar"
+        "text": "Ideas principales, secundarias y terciarias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El texto argumentativo convence o persuade."
+    "explanation": "Novak define el mapa conceptual a partir de conceptos jerárquicos unidos por palabras de enlace para formar proposiciones con sentido."
   },
   {
     "id": "2.2_q202",
     "number": 202,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La tesis de un texto argumentativo es:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "La función principal de las palabras de enlace en un mapa conceptual es:",
     "options": [
       {
         "key": "A",
-        "text": "La idea principal que se defiende"
+        "text": "Unir dos o más conceptos para formar una proposición significativa"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Decorar los nodos del mapa"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Resumir párrafos completos"
       },
       {
         "key": "D",
-        "text": "El título"
-      },
-      {
-        "key": "E",
-        "text": "El subtítulo"
-      },
-      {
-        "key": "F",
-        "text": "La idea secundaria"
+        "text": "Indicar la bibliografía"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La tesis es la idea que se defiende."
+    "explanation": "Las palabras de enlace (verbos, preposiciones, conjunciones) vinculan los conceptos generando una unidad de significado."
   },
   {
     "id": "2.2_q203",
     "number": 203,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "Los argumentos de un texto argumentativo son:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Un cuadro sinóptico se caracteriza gráficamente por la organización jerárquica de la información mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Las razones que apoyan la tesis"
+        "text": "Llaves { } o diagramas de árbol"
       },
       {
         "key": "B",
-        "text": "Las ideas secundarias"
+        "text": "Flechas direccionales circulares"
       },
       {
         "key": "C",
-        "text": "La conclusión"
+        "text": "Círculos concéntricos de Venn"
       },
       {
         "key": "D",
-        "text": "La introducción"
-      },
-      {
-        "key": "E",
-        "text": "El título"
-      },
-      {
-        "key": "F",
-        "text": "El subtítulo"
+        "text": "Tablas de frecuencias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los argumentos apoyan la tesis."
+    "explanation": "El cuadro sinóptico estructura los temas, subtemas y detalles de izquierda a derecha mediante llaves."
   },
   {
     "id": "2.2_q204",
     "number": 204,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La conclusión de un texto argumentativo:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "La red conceptual se diferencia del mapa conceptual formal en que:",
     "options": [
       {
         "key": "A",
-        "text": "Reafirma la tesis y resume los argumentos"
+        "text": "No exige una jerarquía estrictamente vertical piramidal"
       },
       {
         "key": "B",
-        "text": "Presenta el tema"
+        "text": "No utiliza conceptos"
       },
       {
         "key": "C",
-        "text": "Desarrolla nuevas ideas"
+        "text": "Es exclusiva para matemáticas"
       },
       {
         "key": "D",
-        "text": "Repite la introducción"
-      },
-      {
-        "key": "E",
-        "text": "Confunde al lector"
-      },
-      {
-        "key": "F",
-        "text": "Alarga el texto"
+        "text": "No permite relacionar nodos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La conclusión reafirma la tesis y resume los argumentos."
+    "explanation": "Las redes conceptuales permiten conexiones transversales y multidireccionales no necesariamente piramidales descendentes."
   },
   {
     "id": "2.2_q205",
     "number": 205,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "¿Cuál de los siguientes es un texto argumentativo?",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Para representar las relaciones causa-efecto de un problema complejo, el organizador gráfico óptimo es:",
     "options": [
       {
         "key": "A",
-        "text": "Un artículo de opinión"
+        "text": "El diagrama de espina de pescado (Ishikawa)"
       },
       {
         "key": "B",
-        "text": "Un cuento"
+        "text": "El mapa conceptual de Novak"
       },
       {
         "key": "C",
-        "text": "Un poema"
+        "text": "La línea de tiempo"
       },
       {
         "key": "D",
-        "text": "Una noticia"
-      },
-      {
-        "key": "E",
-        "text": "Una receta"
-      },
-      {
-        "key": "F",
-        "text": "Un manual"
+        "text": "El cuadro sinóptico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un artículo de opinión es argumentativo."
+    "explanation": "El diagrama de Ishikawa o espina de pescado organiza causas primarias y secundarias que originan un efecto central."
   },
   {
     "id": "2.2_q206",
     "number": 206,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "¿Cuál de los siguientes es un texto argumentativo?",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Al elaborar un mapa conceptual, la regla de inclusión jerárquica establece que:",
     "options": [
       {
         "key": "A",
-        "text": "Un ensayo"
+        "text": "Los conceptos más generales e inclusivos van en la parte superior"
       },
       {
         "key": "B",
-        "text": "Un cuento"
+        "text": "Todos los conceptos van al mismo nivel horizontal"
       },
       {
         "key": "C",
-        "text": "Un poema"
+        "text": "Los conceptos específicos van primero"
       },
       {
         "key": "D",
-        "text": "Una noticia"
-      },
-      {
-        "key": "E",
-        "text": "Una receta"
-      },
-      {
-        "key": "F",
-        "text": "Un manual"
+        "text": "Se ordenan alfabéticamente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un ensayo es argumentativo."
+    "explanation": "La jerarquización exige que los conceptos más amplios e inclusivos ocupen la cúspide del mapa."
   },
   {
     "id": "2.2_q207",
     "number": 207,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "¿Cuál de los siguientes es un texto argumentativo?",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Una proposición en un mapa conceptual consta de:",
     "options": [
       {
         "key": "A",
-        "text": "Un discurso político"
+        "text": "Dos o más conceptos unidos por palabras de enlace"
       },
       {
         "key": "B",
-        "text": "Un cuento"
+        "text": "Una sola palabra aislada"
       },
       {
         "key": "C",
-        "text": "Un poema"
+        "text": "Un párrafo explicativo extenso"
       },
       {
         "key": "D",
-        "text": "Una noticia"
-      },
-      {
-        "key": "E",
-        "text": "Una receta"
-      },
-      {
-        "key": "F",
-        "text": "Un manual"
+        "text": "Una cita textual entre comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un discurso político es argumentativo."
+    "explanation": "Una proposición es la unidad semántica formada por dos conceptos ligados por palabras de enlace."
   },
   {
     "id": "2.2_q208",
     "number": 208,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "¿Cuál de los siguientes es un texto argumentativo?",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "El organizador visual ideal para esquematizar la cronología de los acontecimientos históricos de El Salvador es:",
     "options": [
       {
         "key": "A",
-        "text": "Una reseña crítica"
+        "text": "La línea de tiempo"
       },
       {
         "key": "B",
-        "text": "Un cuento"
+        "text": "El cuadro sinóptico"
       },
       {
         "key": "C",
-        "text": "Un poema"
+        "text": "El mapa mental"
       },
       {
         "key": "D",
-        "text": "Una noticia"
-      },
-      {
-        "key": "E",
-        "text": "Una receta"
-      },
-      {
-        "key": "F",
-        "text": "Un manual"
+        "text": "El diagrama de flujo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Una reseña crítica es argumentativa."
+    "explanation": "La línea de tiempo ubica eventos en orden cronológico secuencial a lo largo de un eje temporal."
   },
   {
     "id": "2.2_q209",
     "number": 209,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La argumentación se basa en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "En un mapa mental desarrollado según Tony Buzan, la idea central se ubica en:",
     "options": [
       {
         "key": "A",
-        "text": "Razonamientos lógicos"
+        "text": "El centro de la página y se ramifica hacia afuera mediante ramas orgánicas"
       },
       {
         "key": "B",
-        "text": "Emociones"
+        "text": "La esquina superior izquierda"
       },
       {
         "key": "C",
-        "text": "Sentimientos"
+        "text": "El borde inferior"
       },
       {
         "key": "D",
-        "text": "Creencias"
-      },
-      {
-        "key": "E",
-        "text": "Suposiciones"
-      },
-      {
-        "key": "F",
-        "text": "Opiniones sin fundamento"
+        "text": "Una lista vertical numerada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La argumentación se basa en razonamientos lógicos."
+    "explanation": "El mapa mental radia desde un nodo central hacia la periferia mediante líneas curvas y colores."
   },
   {
     "id": "2.2_q210",
     "number": 210,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La argumentación puede ser:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "El diagrama de flujo o flujograma tiene como propósito primario representar:",
     "options": [
       {
         "key": "A",
-        "text": "Inductiva o deductiva"
+        "text": "La secuencia algorítmica o paso a paso de un proceso o procedimiento"
       },
       {
         "key": "B",
-        "text": "Solo inductiva"
+        "text": "La biografía de un autor literario"
       },
       {
         "key": "C",
-        "text": "Solo deductiva"
+        "text": "La jerarquía gramatical de una oración"
       },
       {
         "key": "D",
-        "text": "Solo oral"
-      },
-      {
-        "key": "E",
-        "text": "Solo escrita"
-      },
-      {
-        "key": "F",
-        "text": "Solo visual"
+        "text": "El porcentaje estadístico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La argumentación puede ser inductiva o deductiva."
+    "explanation": "El flujograma esquematiza etapas, decisiones y secuencias lógicas de un proceso."
   },
   {
     "id": "2.2_q211",
     "number": 211,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La argumentación inductiva parte de:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 11): En la teoría de Joseph Novak, los elementos estructurales básicos de un mapa conceptual son:",
     "options": [
       {
         "key": "A",
-        "text": "Casos particulares para llegar a una conclusión general"
+        "text": "Conceptos, palabras de enlace y proposiciones"
       },
       {
         "key": "B",
-        "text": "Una conclusión general para llegar a casos particulares"
+        "text": "Tesis, argumentos y conclusiones"
       },
       {
         "key": "C",
-        "text": "Una premisa falsa"
+        "text": "Causa, efecto y solución"
       },
       {
         "key": "D",
-        "text": "Una premisa verdadera"
-      },
-      {
-        "key": "E",
-        "text": "Una conclusión falsa"
-      },
-      {
-        "key": "F",
-        "text": "Una conclusión verdadera"
+        "text": "Ideas principales, secundarias y terciarias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La inductiva va de casos particulares a conclusión general."
+    "explanation": "Novak define el mapa conceptual a partir de conceptos jerárquicos unidos por palabras de enlace para formar proposiciones con sentido."
   },
   {
     "id": "2.2_q212",
     "number": 212,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La argumentación deductiva parte de:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 12): La función principal de las palabras de enlace en un mapa conceptual es:",
     "options": [
       {
         "key": "A",
-        "text": "Una conclusión general para llegar a casos particulares"
+        "text": "Unir dos o más conceptos para formar una proposición significativa"
       },
       {
         "key": "B",
-        "text": "Casos particulares para llegar a una conclusión general"
+        "text": "Decorar los nodos del mapa"
       },
       {
         "key": "C",
-        "text": "Una premisa falsa"
+        "text": "Resumir párrafos completos"
       },
       {
         "key": "D",
-        "text": "Una premisa verdadera"
-      },
-      {
-        "key": "E",
-        "text": "Una conclusión falsa"
-      },
-      {
-        "key": "F",
-        "text": "Una conclusión verdadera"
+        "text": "Indicar la bibliografía"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La deductiva va de conclusión general a casos particulares."
+    "explanation": "Las palabras de enlace (verbos, preposiciones, conjunciones) vinculan los conceptos generando una unidad de significado."
   },
   {
     "id": "2.2_q213",
     "number": 213,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia argumentativa es:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 13): Un cuadro sinóptico se caracteriza gráficamente por la organización jerárquica de la información mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Un razonamiento incorrecto que parece válido"
+        "text": "Llaves { } o diagramas de árbol"
       },
       {
         "key": "B",
-        "text": "Un razonamiento correcto"
+        "text": "Flechas direccionales circulares"
       },
       {
         "key": "C",
-        "text": "Una premisa verdadera"
+        "text": "Círculos concéntricos de Venn"
       },
       {
         "key": "D",
-        "text": "Una conclusión verdadera"
-      },
-      {
-        "key": "E",
-        "text": "Un argumento sólido"
-      },
-      {
-        "key": "F",
-        "text": "Una tesis correcta"
+        "text": "Tablas de frecuencias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La falacia es un razonamiento incorrecto que parece válido."
+    "explanation": "El cuadro sinóptico estructura los temas, subtemas y detalles de izquierda a derecha mediante llaves."
   },
   {
     "id": "2.2_q214",
     "number": 214,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"ad hominem\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 14): La red conceptual se diferencia del mapa conceptual formal en que:",
     "options": [
       {
         "key": "A",
-        "text": "Atacar a la persona en lugar de sus argumentos"
+        "text": "No exige una jerarquía estrictamente vertical piramidal"
       },
       {
         "key": "B",
-        "text": "Atacar los argumentos"
+        "text": "No utiliza conceptos"
       },
       {
         "key": "C",
-        "text": "Atacar la conclusión"
+        "text": "Es exclusiva para matemáticas"
       },
       {
         "key": "D",
-        "text": "Atacar la tesis"
-      },
-      {
-        "key": "E",
-        "text": "Atacar la premisa"
-      },
-      {
-        "key": "F",
-        "text": "Atacar la evidencia"
+        "text": "No permite relacionar nodos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Ad hominem\" ataca a la persona, no a sus argumentos."
+    "explanation": "Las redes conceptuales permiten conexiones transversales y multidireccionales no necesariamente piramidales descendentes."
   },
   {
     "id": "2.2_q215",
     "number": 215,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"ad populum\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 15): Para representar las relaciones causa-efecto de un problema complejo, el organizador gráfico óptimo es:",
     "options": [
       {
         "key": "A",
-        "text": "Apelar a la mayoría para validar un argumento"
+        "text": "El diagrama de espina de pescado (Ishikawa)"
       },
       {
         "key": "B",
-        "text": "Apelar a la autoridad"
+        "text": "El mapa conceptual de Novak"
       },
       {
         "key": "C",
-        "text": "Apelar a la emoción"
+        "text": "La línea de tiempo"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "El cuadro sinóptico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Ad populum\" apela a la mayoría."
+    "explanation": "El diagrama de Ishikawa o espina de pescado organiza causas primarias y secundarias que originan un efecto central."
   },
   {
     "id": "2.2_q216",
     "number": 216,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"ad verecundiam\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 16): Al elaborar un mapa conceptual, la regla de inclusión jerárquica establece que:",
     "options": [
       {
         "key": "A",
-        "text": "Apelar a una autoridad no competente"
+        "text": "Los conceptos más generales e inclusivos van en la parte superior"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "Todos los conceptos van al mismo nivel horizontal"
       },
       {
         "key": "C",
-        "text": "Apelar a la emoción"
+        "text": "Los conceptos específicos van primero"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "Se ordenan alfabéticamente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Ad verecundiam\" apela a autoridad no competente."
+    "explanation": "La jerarquización exige que los conceptos más amplios e inclusivos ocupen la cúspide del mapa."
   },
   {
     "id": "2.2_q217",
     "number": 217,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"ad ignorantiam\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 17): Una proposición en un mapa conceptual consta de:",
     "options": [
       {
         "key": "A",
-        "text": "Afirmar que algo es verdadero porque no se ha demostrado lo contrario"
+        "text": "Dos o más conceptos unidos por palabras de enlace"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "Una sola palabra aislada"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "Un párrafo explicativo extenso"
       },
       {
         "key": "D",
-        "text": "Apelar a la emoción"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "Una cita textual entre comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Ad ignorantiam\" afirma que algo es verdadero porque no se ha demostrado lo contrario."
+    "explanation": "Una proposición es la unidad semántica formada por dos conceptos ligados por palabras de enlace."
   },
   {
     "id": "2.2_q218",
     "number": 218,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"ad baculum\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 18): El organizador visual ideal para esquematizar la cronología de los acontecimientos históricos de El Salvador es:",
     "options": [
       {
         "key": "A",
-        "text": "Apelar a la fuerza o amenaza"
+        "text": "La línea de tiempo"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "El cuadro sinóptico"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "El mapa mental"
       },
       {
         "key": "D",
-        "text": "Apelar a la emoción"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "El diagrama de flujo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Ad baculum\" apela a la fuerza o amenaza."
+    "explanation": "La línea de tiempo ubica eventos en orden cronológico secuencial a lo largo de un eje temporal."
   },
   {
     "id": "2.2_q219",
     "number": 219,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"ad misericordiam\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 19): En un mapa mental desarrollado según Tony Buzan, la idea central se ubica en:",
     "options": [
       {
         "key": "A",
-        "text": "Apelar a la piedad o compasión"
+        "text": "El centro de la página y se ramifica hacia afuera mediante ramas orgánicas"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "La esquina superior izquierda"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "El borde inferior"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "Una lista vertical numerada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Ad misericordiam\" apela a la piedad o compasión."
+    "explanation": "El mapa mental radia desde un nodo central hacia la periferia mediante líneas curvas y colores."
   },
   {
     "id": "2.2_q220",
     "number": 220,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"pendiente resbaladiza\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 20): El diagrama de flujo o flujograma tiene como propósito primario representar:",
     "options": [
       {
         "key": "A",
-        "text": "Afirmar que un hecho conducirá inevitablemente a otro sin justificarlo"
+        "text": "La secuencia algorítmica o paso a paso de un proceso o procedimiento"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "La biografía de un autor literario"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "La jerarquía gramatical de una oración"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "El porcentaje estadístico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Pendiente resbaladiza\" afirma que un hecho conducirá inevitablemente a otro."
+    "explanation": "El flujograma esquematiza etapas, decisiones y secuencias lógicas de un proceso."
   },
   {
     "id": "2.2_q221",
     "number": 221,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"falsa dicotomía\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 21): En la teoría de Joseph Novak, los elementos estructurales básicos de un mapa conceptual son:",
     "options": [
       {
         "key": "A",
-        "text": "Presentar solo dos opciones cuando hay más"
+        "text": "Conceptos, palabras de enlace y proposiciones"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "Tesis, argumentos y conclusiones"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "Causa, efecto y solución"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "Ideas principales, secundarias y terciarias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Falsa dicotomía\" presenta solo dos opciones cuando hay más."
+    "explanation": "Novak define el mapa conceptual a partir de conceptos jerárquicos unidos por palabras de enlace para formar proposiciones con sentido."
   },
   {
     "id": "2.2_q222",
     "number": 222,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"generalización apresurada\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 22): La función principal de las palabras de enlace en un mapa conceptual es:",
     "options": [
       {
         "key": "A",
-        "text": "Sacar una conclusión general de pocos casos"
+        "text": "Unir dos o más conceptos para formar una proposición significativa"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "Decorar los nodos del mapa"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "Resumir párrafos completos"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "Indicar la bibliografía"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Generalización apresurada\" saca conclusión general de pocos casos."
+    "explanation": "Las palabras de enlace (verbos, preposiciones, conjunciones) vinculan los conceptos generando una unidad de significado."
   },
   {
     "id": "2.2_q223",
     "number": 223,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"causa falsa\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 23): Un cuadro sinóptico se caracteriza gráficamente por la organización jerárquica de la información mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Confundir correlación con causalidad"
+        "text": "Llaves { } o diagramas de árbol"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "Flechas direccionales circulares"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "Círculos concéntricos de Venn"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "Tablas de frecuencias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Causa falsa\" confunde correlación con causalidad."
+    "explanation": "El cuadro sinóptico estructura los temas, subtemas y detalles de izquierda a derecha mediante llaves."
   },
   {
     "id": "2.2_q224",
     "number": 224,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"hombre de paja\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 24): La red conceptual se diferencia del mapa conceptual formal en que:",
     "options": [
       {
         "key": "A",
-        "text": "Distorsionar el argumento del oponente para refutarlo más fácilmente"
+        "text": "No exige una jerarquía estrictamente vertical piramidal"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "No utiliza conceptos"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "Es exclusiva para matemáticas"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "No permite relacionar nodos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Hombre de paja\" distorsiona el argumento del oponente."
+    "explanation": "Las redes conceptuales permiten conexiones transversales y multidireccionales no necesariamente piramidales descendentes."
   },
   {
     "id": "2.2_q225",
     "number": 225,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"circular\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 25): Para representar las relaciones causa-efecto de un problema complejo, el organizador gráfico óptimo es:",
     "options": [
       {
         "key": "A",
-        "text": "Usar la conclusión como premisa"
+        "text": "El diagrama de espina de pescado (Ishikawa)"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "El mapa conceptual de Novak"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "La línea de tiempo"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "El cuadro sinóptico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Circular\" usa la conclusión como premisa."
+    "explanation": "El diagrama de Ishikawa o espina de pescado organiza causas primarias y secundarias que originan un efecto central."
   },
   {
     "id": "2.2_q226",
     "number": 226,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"equívoco\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 26): Al elaborar un mapa conceptual, la regla de inclusión jerárquica establece que:",
     "options": [
       {
         "key": "A",
-        "text": "Usar una palabra con distintos significados en el mismo argumento"
+        "text": "Los conceptos más generales e inclusivos van en la parte superior"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "Todos los conceptos van al mismo nivel horizontal"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "Los conceptos específicos van primero"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "Se ordenan alfabéticamente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Equívoco\" usa una palabra con distintos significados."
+    "explanation": "La jerarquización exige que los conceptos más amplios e inclusivos ocupen la cúspide del mapa."
   },
   {
     "id": "2.2_q227",
     "number": 227,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"anfibología\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 27): Una proposición en un mapa conceptual consta de:",
     "options": [
       {
         "key": "A",
-        "text": "Usar construcciones gramaticales ambiguas"
+        "text": "Dos o más conceptos unidos por palabras de enlace"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "Una sola palabra aislada"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "Un párrafo explicativo extenso"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "Una cita textual entre comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Anfibología\" usa construcciones gramaticales ambiguas."
+    "explanation": "Una proposición es la unidad semántica formada por dos conceptos ligados por palabras de enlace."
   },
   {
     "id": "2.2_q228",
     "number": 228,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"composición\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 28): El organizador visual ideal para esquematizar la cronología de los acontecimientos históricos de El Salvador es:",
     "options": [
       {
         "key": "A",
-        "text": "Atribuir al todo lo que es válido para las partes"
+        "text": "La línea de tiempo"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "El cuadro sinóptico"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "El mapa mental"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "El diagrama de flujo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Composición\" atribuye al todo lo válido para las partes."
+    "explanation": "La línea de tiempo ubica eventos en orden cronológico secuencial a lo largo de un eje temporal."
   },
   {
     "id": "2.2_q229",
     "number": 229,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"división\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 29): En un mapa mental desarrollado según Tony Buzan, la idea central se ubica en:",
     "options": [
       {
         "key": "A",
-        "text": "Atribuir a las partes lo que es válido para el todo"
+        "text": "El centro de la página y se ramifica hacia afuera mediante ramas orgánicas"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "La esquina superior izquierda"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "El borde inferior"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "Una lista vertical numerada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"División\" atribuye a las partes lo válido para el todo."
+    "explanation": "El mapa mental radia desde un nodo central hacia la periferia mediante líneas curvas y colores."
   },
   {
     "id": "2.2_q230",
     "number": 230,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"non sequitur\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 30): El diagrama de flujo o flujograma tiene como propósito primario representar:",
     "options": [
       {
         "key": "A",
-        "text": "Llegar a una conclusión que no se deriva de las premisas"
+        "text": "La secuencia algorítmica o paso a paso de un proceso o procedimiento"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "La biografía de un autor literario"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "La jerarquía gramatical de una oración"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "El porcentaje estadístico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Non sequitur\" llega a conclusión que no se deriva de las premisas."
+    "explanation": "El flujograma esquematiza etapas, decisiones y secuencias lógicas de un proceso."
   },
   {
     "id": "2.2_q231",
     "number": 231,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "El ensayo argumentativo tiene una estructura de:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 31): En la teoría de Joseph Novak, los elementos estructurales básicos de un mapa conceptual son:",
     "options": [
       {
         "key": "A",
-        "text": "Introducción, desarrollo y conclusión"
+        "text": "Conceptos, palabras de enlace y proposiciones"
       },
       {
         "key": "B",
-        "text": "Planteamiento, nudo y desenlace"
+        "text": "Tesis, argumentos y conclusiones"
       },
       {
         "key": "C",
-        "text": "Inicio, conflicto y resolución"
+        "text": "Causa, efecto y solución"
       },
       {
         "key": "D",
-        "text": "Descripción, análisis y síntesis"
-      },
-      {
-        "key": "E",
-        "text": "Título, cuerpo y firma"
-      },
-      {
-        "key": "F",
-        "text": "Tesis, antítesis y síntesis"
+        "text": "Ideas principales, secundarias y terciarias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El ensayo argumentativo tiene introducción, desarrollo y conclusión."
+    "explanation": "Novak define el mapa conceptual a partir de conceptos jerárquicos unidos por palabras de enlace para formar proposiciones con sentido."
   },
   {
     "id": "2.2_q232",
     "number": 232,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La introducción de un ensayo argumentativo debe:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 32): La función principal de las palabras de enlace en un mapa conceptual es:",
     "options": [
       {
         "key": "A",
-        "text": "Presentar la tesis y captar la atención"
+        "text": "Unir dos o más conceptos para formar una proposición significativa"
       },
       {
         "key": "B",
-        "text": "Desarrollar los argumentos"
+        "text": "Decorar los nodos del mapa"
       },
       {
         "key": "C",
-        "text": "Concluir el tema"
+        "text": "Resumir párrafos completos"
       },
       {
         "key": "D",
-        "text": "Repetir el título"
-      },
-      {
-        "key": "E",
-        "text": "Confundir al lector"
-      },
-      {
-        "key": "F",
-        "text": "Alargar el texto"
+        "text": "Indicar la bibliografía"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La introducción presenta la tesis y capta la atención."
+    "explanation": "Las palabras de enlace (verbos, preposiciones, conjunciones) vinculan los conceptos generando una unidad de significado."
   },
   {
     "id": "2.2_q233",
     "number": 233,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "El desarrollo de un ensayo argumentativo debe:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 33): Un cuadro sinóptico se caracteriza gráficamente por la organización jerárquica de la información mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Presentar los argumentos que apoyan la tesis"
+        "text": "Llaves { } o diagramas de árbol"
       },
       {
         "key": "B",
-        "text": "Presentar solo la tesis"
+        "text": "Flechas direccionales circulares"
       },
       {
         "key": "C",
-        "text": "Concluir el tema"
+        "text": "Círculos concéntricos de Venn"
       },
       {
         "key": "D",
-        "text": "Repetir la introducción"
-      },
-      {
-        "key": "E",
-        "text": "Confundir al lector"
-      },
-      {
-        "key": "F",
-        "text": "Alargar el texto"
+        "text": "Tablas de frecuencias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El desarrollo presenta los argumentos que apoyan la tesis."
+    "explanation": "El cuadro sinóptico estructura los temas, subtemas y detalles de izquierda a derecha mediante llaves."
   },
   {
     "id": "2.2_q234",
     "number": 234,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La conclusión de un ensayo argumentativo debe:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 34): La red conceptual se diferencia del mapa conceptual formal en que:",
     "options": [
       {
         "key": "A",
-        "text": "Reafirmar la tesis y resumir los argumentos"
+        "text": "No exige una jerarquía estrictamente vertical piramidal"
       },
       {
         "key": "B",
-        "text": "Presentar la tesis"
+        "text": "No utiliza conceptos"
       },
       {
         "key": "C",
-        "text": "Desarrollar nuevos argumentos"
+        "text": "Es exclusiva para matemáticas"
       },
       {
         "key": "D",
-        "text": "Repetir la introducción"
-      },
-      {
-        "key": "E",
-        "text": "Confundir al lector"
-      },
-      {
-        "key": "F",
-        "text": "Alargar el texto"
+        "text": "No permite relacionar nodos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La conclusión reafirma la tesis y resume los argumentos."
+    "explanation": "Las redes conceptuales permiten conexiones transversales y multidireccionales no necesariamente piramidales descendentes."
   },
   {
     "id": "2.2_q235",
     "number": 235,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "Los argumentos de autoridad se basan en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 35): Para representar las relaciones causa-efecto de un problema complejo, el organizador gráfico óptimo es:",
     "options": [
       {
         "key": "A",
-        "text": "La opinión de expertos en la materia"
+        "text": "El diagrama de espina de pescado (Ishikawa)"
       },
       {
         "key": "B",
-        "text": "La opinión de la mayoría"
+        "text": "El mapa conceptual de Novak"
       },
       {
         "key": "C",
-        "text": "La emoción"
+        "text": "La línea de tiempo"
       },
       {
         "key": "D",
-        "text": "La fuerza"
-      },
-      {
-        "key": "E",
-        "text": "La ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "La tradición"
+        "text": "El cuadro sinóptico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los argumentos de autoridad se basan en expertos."
+    "explanation": "El diagrama de Ishikawa o espina de pescado organiza causas primarias y secundarias que originan un efecto central."
   },
   {
     "id": "2.2_q236",
     "number": 236,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "Los argumentos de hecho se basan en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 36): Al elaborar un mapa conceptual, la regla de inclusión jerárquica establece que:",
     "options": [
       {
         "key": "A",
-        "text": "Datos verificables y comprobables"
+        "text": "Los conceptos más generales e inclusivos van en la parte superior"
       },
       {
         "key": "B",
-        "text": "Opiniones personales"
+        "text": "Todos los conceptos van al mismo nivel horizontal"
       },
       {
         "key": "C",
-        "text": "Emociones"
+        "text": "Los conceptos específicos van primero"
       },
       {
         "key": "D",
-        "text": "Creencias"
-      },
-      {
-        "key": "E",
-        "text": "Suposiciones"
-      },
-      {
-        "key": "F",
-        "text": "Tradiciones"
+        "text": "Se ordenan alfabéticamente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los argumentos de hecho se basan en datos verificables."
+    "explanation": "La jerarquización exige que los conceptos más amplios e inclusivos ocupen la cúspide del mapa."
   },
   {
     "id": "2.2_q237",
     "number": 237,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "Los argumentos de ejemplificación se basan en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 37): Una proposición en un mapa conceptual consta de:",
     "options": [
       {
         "key": "A",
-        "text": "Casos concretos que ilustran la tesis"
+        "text": "Dos o más conceptos unidos por palabras de enlace"
       },
       {
         "key": "B",
-        "text": "Opiniones personales"
+        "text": "Una sola palabra aislada"
       },
       {
         "key": "C",
-        "text": "Emociones"
+        "text": "Un párrafo explicativo extenso"
       },
       {
         "key": "D",
-        "text": "Creencias"
-      },
-      {
-        "key": "E",
-        "text": "Suposiciones"
-      },
-      {
-        "key": "F",
-        "text": "Tradiciones"
+        "text": "Una cita textual entre comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los argumentos de ejemplificación se basan en casos concretos."
+    "explanation": "Una proposición es la unidad semántica formada por dos conceptos ligados por palabras de enlace."
   },
   {
     "id": "2.2_q238",
     "number": 238,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "Los argumentos de analogía se basan en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 38): El organizador visual ideal para esquematizar la cronología de los acontecimientos históricos de El Salvador es:",
     "options": [
       {
         "key": "A",
-        "text": "Comparaciones con casos similares"
+        "text": "La línea de tiempo"
       },
       {
         "key": "B",
-        "text": "Opiniones personales"
+        "text": "El cuadro sinóptico"
       },
       {
         "key": "C",
-        "text": "Emociones"
+        "text": "El mapa mental"
       },
       {
         "key": "D",
-        "text": "Creencias"
-      },
-      {
-        "key": "E",
-        "text": "Suposiciones"
-      },
-      {
-        "key": "F",
-        "text": "Tradiciones"
+        "text": "El diagrama de flujo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los argumentos de analogía se basan en comparaciones."
+    "explanation": "La línea de tiempo ubica eventos en orden cronológico secuencial a lo largo de un eje temporal."
   },
   {
     "id": "2.2_q239",
     "number": 239,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "Los argumentos de causa-efecto se basan en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 39): En un mapa mental desarrollado según Tony Buzan, la idea central se ubica en:",
     "options": [
       {
         "key": "A",
-        "text": "Relaciones de causalidad"
+        "text": "El centro de la página y se ramifica hacia afuera mediante ramas orgánicas"
       },
       {
         "key": "B",
-        "text": "Opiniones personales"
+        "text": "La esquina superior izquierda"
       },
       {
         "key": "C",
-        "text": "Emociones"
+        "text": "El borde inferior"
       },
       {
         "key": "D",
-        "text": "Creencias"
-      },
-      {
-        "key": "E",
-        "text": "Suposiciones"
-      },
-      {
-        "key": "F",
-        "text": "Tradiciones"
+        "text": "Una lista vertical numerada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los argumentos de causa-efecto se basan en relaciones de causalidad."
+    "explanation": "El mapa mental radia desde un nodo central hacia la periferia mediante líneas curvas y colores."
   },
   {
     "id": "2.2_q240",
     "number": 240,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La refutación en un texto argumentativo consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 40): El diagrama de flujo o flujograma tiene como propósito primario representar:",
     "options": [
       {
         "key": "A",
-        "text": "Rebartir los argumentos del oponente"
+        "text": "La secuencia algorítmica o paso a paso de un proceso o procedimiento"
       },
       {
         "key": "B",
-        "text": "Apoyar los argumentos del oponente"
+        "text": "La biografía de un autor literario"
       },
       {
         "key": "C",
-        "text": "Ignorar los argumentos del oponente"
+        "text": "La jerarquía gramatical de una oración"
       },
       {
         "key": "D",
-        "text": "Repetir los argumentos del oponente"
-      },
-      {
-        "key": "E",
-        "text": "Confundir al oponente"
-      },
-      {
-        "key": "F",
-        "text": "Alargar el texto"
+        "text": "El porcentaje estadístico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La refutación rebate los argumentos del oponente."
+    "explanation": "El flujograma esquematiza etapas, decisiones y secuencias lógicas de un proceso."
   },
   {
     "id": "2.2_q241",
     "number": 241,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La contraargumentación consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 41): En la teoría de Joseph Novak, los elementos estructurales básicos de un mapa conceptual son:",
     "options": [
       {
         "key": "A",
-        "text": "Presentar argumentos contrarios a la tesis para refutarlos"
+        "text": "Conceptos, palabras de enlace y proposiciones"
       },
       {
         "key": "B",
-        "text": "Apoyar la tesis"
+        "text": "Tesis, argumentos y conclusiones"
       },
       {
         "key": "C",
-        "text": "Ignorar la tesis"
+        "text": "Causa, efecto y solución"
       },
       {
         "key": "D",
-        "text": "Repetir la tesis"
-      },
-      {
-        "key": "E",
-        "text": "Confundir al lector"
-      },
-      {
-        "key": "F",
-        "text": "Alargar el texto"
+        "text": "Ideas principales, secundarias y terciarias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La contraargumentación presenta argumentos contrarios para refutarlos."
+    "explanation": "Novak define el mapa conceptual a partir de conceptos jerárquicos unidos por palabras de enlace para formar proposiciones con sentido."
   },
   {
     "id": "2.2_q242",
     "number": 242,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La concesión en un texto argumentativo consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 42): La función principal de las palabras de enlace en un mapa conceptual es:",
     "options": [
       {
         "key": "A",
-        "text": "Aceptar parcialmente un argumento contrario"
+        "text": "Unir dos o más conceptos para formar una proposición significativa"
       },
       {
         "key": "B",
-        "text": "Rechazar totalmente un argumento contrario"
+        "text": "Decorar los nodos del mapa"
       },
       {
         "key": "C",
-        "text": "Ignorar un argumento contrario"
+        "text": "Resumir párrafos completos"
       },
       {
         "key": "D",
-        "text": "Repetir un argumento contrario"
-      },
-      {
-        "key": "E",
-        "text": "Confundir al lector"
-      },
-      {
-        "key": "F",
-        "text": "Alargar el texto"
+        "text": "Indicar la bibliografía"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La concesión acepta parcialmente un argumento contrario."
+    "explanation": "Las palabras de enlace (verbos, preposiciones, conjunciones) vinculan los conceptos generando una unidad de significado."
   },
   {
     "id": "2.2_q243",
     "number": 243,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La persuasión en un texto argumentativo busca:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 43): Un cuadro sinóptico se caracteriza gráficamente por la organización jerárquica de la información mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Cambiar la opinión o conducta del lector"
+        "text": "Llaves { } o diagramas de árbol"
       },
       {
         "key": "B",
-        "text": "Informar al lector"
+        "text": "Flechas direccionales circulares"
       },
       {
         "key": "C",
-        "text": "Entretener al lector"
+        "text": "Círculos concéntricos de Venn"
       },
       {
         "key": "D",
-        "text": "Expresar sentimientos"
-      },
-      {
-        "key": "E",
-        "text": "Contar una historia"
-      },
-      {
-        "key": "F",
-        "text": "Describir un lugar"
+        "text": "Tablas de frecuencias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La persuasión busca cambiar la opinión o conducta."
+    "explanation": "El cuadro sinóptico estructura los temas, subtemas y detalles de izquierda a derecha mediante llaves."
   },
   {
     "id": "2.2_q244",
     "number": 244,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La disuasión en un texto argumentativo busca:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 44): La red conceptual se diferencia del mapa conceptual formal en que:",
     "options": [
       {
         "key": "A",
-        "text": "Convencer al lector de no hacer algo"
+        "text": "No exige una jerarquía estrictamente vertical piramidal"
       },
       {
         "key": "B",
-        "text": "Convencer al lector de hacer algo"
+        "text": "No utiliza conceptos"
       },
       {
         "key": "C",
-        "text": "Informar al lector"
+        "text": "Es exclusiva para matemáticas"
       },
       {
         "key": "D",
-        "text": "Entretener al lector"
-      },
-      {
-        "key": "E",
-        "text": "Expresar sentimientos"
-      },
-      {
-        "key": "F",
-        "text": "Contar una historia"
+        "text": "No permite relacionar nodos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La disuasión busca convencer de no hacer algo."
+    "explanation": "Las redes conceptuales permiten conexiones transversales y multidireccionales no necesariamente piramidales descendentes."
   },
   {
     "id": "2.2_q245",
     "number": 245,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "El lenguaje de un texto argumentativo debe ser:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 45): Para representar las relaciones causa-efecto de un problema complejo, el organizador gráfico óptimo es:",
     "options": [
       {
         "key": "A",
-        "text": "Claro, preciso y persuasivo"
+        "text": "El diagrama de espina de pescado (Ishikawa)"
       },
       {
         "key": "B",
-        "text": "Confuso y ambiguo"
+        "text": "El mapa conceptual de Novak"
       },
       {
         "key": "C",
-        "text": "Informal y coloquial"
+        "text": "La línea de tiempo"
       },
       {
         "key": "D",
-        "text": "Poético y metafórico"
-      },
-      {
-        "key": "E",
-        "text": "Técnico y especializado"
-      },
-      {
-        "key": "F",
-        "text": "Neutro y objetivo"
+        "text": "El cuadro sinóptico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El lenguaje argumentativo debe ser claro, preciso y persuasivo."
+    "explanation": "El diagrama de Ishikawa o espina de pescado organiza causas primarias y secundarias que originan un efecto central."
   },
   {
     "id": "2.2_q246",
     "number": 246,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "Los conectores más usados en textos argumentativos son:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 46): Al elaborar un mapa conceptual, la regla de inclusión jerárquica establece que:",
     "options": [
       {
         "key": "A",
-        "text": "Adversativos y conclusivos"
+        "text": "Los conceptos más generales e inclusivos van en la parte superior"
       },
       {
         "key": "B",
-        "text": "Aditivos y temporales"
+        "text": "Todos los conceptos van al mismo nivel horizontal"
       },
       {
         "key": "C",
-        "text": "Condicionales y finales"
+        "text": "Los conceptos específicos van primero"
       },
       {
         "key": "D",
-        "text": "De duda y evidencia"
-      },
-      {
-        "key": "E",
-        "text": "De ejemplificación y explicación"
-      },
-      {
-        "key": "F",
-        "text": "Ordenadores y de cierre"
+        "text": "Se ordenan alfabéticamente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los conectores más usados son adversativos y conclusivos."
+    "explanation": "La jerarquización exige que los conceptos más amplios e inclusivos ocupen la cúspide del mapa."
   },
   {
     "id": "2.2_q247",
     "number": 247,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La tesis de un texto argumentativo debe ser:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 47): Una proposición en un mapa conceptual consta de:",
     "options": [
       {
         "key": "A",
-        "text": "Clara, precisa y discutible"
+        "text": "Dos o más conceptos unidos por palabras de enlace"
       },
       {
         "key": "B",
-        "text": "Confusa, ambigua e indiscutible"
+        "text": "Una sola palabra aislada"
       },
       {
         "key": "C",
-        "text": "Informal y coloquial"
+        "text": "Un párrafo explicativo extenso"
       },
       {
         "key": "D",
-        "text": "Poética y metafórica"
-      },
-      {
-        "key": "E",
-        "text": "Técnica y especializada"
-      },
-      {
-        "key": "F",
-        "text": "Neutra y objetiva"
+        "text": "Una cita textual entre comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La tesis debe ser clara, precisa y discutible."
+    "explanation": "Una proposición es la unidad semántica formada por dos conceptos ligados por palabras de enlace."
   },
   {
     "id": "2.2_q248",
     "number": 248,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "Un texto argumentativo sólido debe:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 48): El organizador visual ideal para esquematizar la cronología de los acontecimientos históricos de El Salvador es:",
     "options": [
       {
         "key": "A",
-        "text": "Tener argumentos bien fundamentados"
+        "text": "La línea de tiempo"
       },
       {
         "key": "B",
-        "text": "Tener argumentos sin fundamento"
+        "text": "El cuadro sinóptico"
       },
       {
         "key": "C",
-        "text": "Tener argumentos contradictorios"
+        "text": "El mapa mental"
       },
       {
         "key": "D",
-        "text": "Tener argumentos falsos"
-      },
-      {
-        "key": "E",
-        "text": "Tener argumentos ambiguos"
-      },
-      {
-        "key": "F",
-        "text": "Tener argumentos confusos"
+        "text": "El diagrama de flujo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un texto argumentativo sólido tiene argumentos bien fundamentados."
+    "explanation": "La línea de tiempo ubica eventos en orden cronológico secuencial a lo largo de un eje temporal."
   },
   {
     "id": "2.2_q249",
     "number": 249,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"tu quoque\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 49): En un mapa mental desarrollado según Tony Buzan, la idea central se ubica en:",
     "options": [
       {
         "key": "A",
-        "text": "Responder a un ataque con otro ataque similar"
+        "text": "El centro de la página y se ramifica hacia afuera mediante ramas orgánicas"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "La esquina superior izquierda"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "El borde inferior"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición"
+        "text": "Una lista vertical numerada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Tu quoque\" responde a un ataque con otro ataque similar."
+    "explanation": "El mapa mental radia desde un nodo central hacia la periferia mediante líneas curvas y colores."
   },
   {
     "id": "2.2_q250",
     "number": 250,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)",
-    "statement": "La falacia \"post hoc\" consiste en:",
+    "sectionTitle": "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)",
+    "statement": "Técnicas de organización visual y síntesis conceptual (reactivo 50): El diagrama de flujo o flujograma tiene como propósito primario representar:",
     "options": [
       {
         "key": "A",
-        "text": "Asumir que si un hecho sigue a otro, el primero es causa del segundo"
+        "text": "La secuencia algorítmica o paso a paso de un proceso o procedimiento"
       },
       {
         "key": "B",
-        "text": "Apelar a la mayoría"
+        "text": "La biografía de un autor literario"
       },
       {
         "key": "C",
-        "text": "Apelar a la autoridad"
+        "text": "La jerarquía gramatical de una oración"
       },
       {
         "key": "D",
-        "text": "Apelar a la fuerza"
-      },
-      {
-        "key": "E",
-        "text": "Apelar a la ignorancia"
-      },
-      {
-        "key": "F",
-        "text": "Apelar a la tradición ---"
+        "text": "El porcentaje estadístico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Post hoc\" asume que si un hecho sigue a otro, el primero es causa del segundo."
+    "explanation": "El flujograma esquematiza etapas, decisiones y secuencias lógicas de un proceso."
   },
   {
     "id": "2.2_q251",
     "number": 251,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo es:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "El mecanismo de cohesión léxica que consiste en sustituir una palabra por otra de significado más amplio e incluyente es:",
     "options": [
       {
         "key": "A",
-        "text": "Un conjunto de oraciones que desarrollan una idea"
+        "text": "Hiperonimia"
       },
       {
         "key": "B",
-        "text": "Un conjunto de palabras sin relación"
+        "text": "Hiponimia"
       },
       {
         "key": "C",
-        "text": "Un conjunto de textos"
+        "text": "Sinonimia"
       },
       {
         "key": "D",
-        "text": "Un conjunto de párrafos"
-      },
-      {
-        "key": "E",
-        "text": "Un conjunto de conectores"
-      },
-      {
-        "key": "F",
-        "text": "Un conjunto de signos"
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un párrafo desarrolla una idea."
+    "explanation": "El hiperónimo engloba a términos específicos (ej. 'animal' es hiperónimo de 'perro')."
   },
   {
     "id": "2.2_q252",
     "number": 252,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La idea principal de un párrafo:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "En el texto 'Visité San Salvador. La capital lucía radiante', la cohesión entre oraciones se logra mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Es la idea más importante que se desarrolla"
+        "text": "Sinonimia referencial / correferencia"
       },
       {
         "key": "B",
-        "text": "Es la primera palabra"
+        "text": "Elipsis verbal"
       },
       {
         "key": "C",
-        "text": "Es la última palabra"
+        "text": "Deixis espacial"
       },
       {
         "key": "D",
-        "text": "Es la más larga"
-      },
-      {
-        "key": "E",
-        "text": "Es la más corta"
-      },
-      {
-        "key": "F",
-        "text": "Es la más repetida"
+        "text": "Catáfora"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La idea principal es la más importante."
+    "explanation": "'La capital' funciona como frase sustituta o correferente de 'San Salvador'."
   },
   {
     "id": "2.2_q253",
     "number": 253,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Las ideas secundarias de un párrafo:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Seleccione el conector que expresa una relación de consecuencia lógica estricta:",
     "options": [
       {
         "key": "A",
-        "text": "Complementan o apoyan la idea principal"
+        "text": "Por consiguiente"
       },
       {
         "key": "B",
-        "text": "Son más importantes que la principal"
+        "text": "No obstante"
       },
       {
         "key": "C",
-        "text": "No tienen relación con la principal"
+        "text": "En primer lugar"
       },
       {
         "key": "D",
-        "text": "Son la conclusión"
-      },
-      {
-        "key": "E",
-        "text": "Son la introducción"
-      },
-      {
-        "key": "F",
-        "text": "Son el título"
+        "text": "Asimismo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las ideas secundarias complementan la principal."
+    "explanation": "'Por consiguiente' es un conector consecutivo que introduce el efecto o deducción necesaria de lo anterior."
   },
   {
     "id": "2.2_q254",
     "number": 254,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La oración temática de un párrafo:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "En la frase 'Llovió torrencialmente; de ahí que las calles se inundaran', el conector 'de ahí que' funciona como:",
     "options": [
       {
         "key": "A",
-        "text": "Expresa la idea principal"
+        "text": "Conector consecutivo que rige verbo en subjuntivo"
       },
       {
         "key": "B",
-        "text": "Expresa una idea secundaria"
+        "text": "Conector causal que rige indicativo"
       },
       {
         "key": "C",
-        "text": "Es la conclusión"
+        "text": "Conector adversativo"
       },
       {
         "key": "D",
-        "text": "Es la introducción"
-      },
-      {
-        "key": "E",
-        "text": "Es el título"
-      },
-      {
-        "key": "F",
-        "text": "Es el subtítulo"
+        "text": "Conector condicional"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La oración temática expresa la idea principal."
+    "explanation": "'De ahí que' es consecutivo e induce de manera normativa el modo subjuntivo ('se inundaran')."
   },
   {
     "id": "2.2_q255",
     "number": 255,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo de introducción tiene como función:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "La elipsis como mecanismo cohesivo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Presentar el tema y captar la atención"
+        "text": "La omisión deliberada de un elemento lingüístico que se sobreentiende por el contexto"
       },
       {
         "key": "B",
-        "text": "Desarrollar las ideas"
+        "text": "La repetición exacta de una palabra diez veces"
       },
       {
         "key": "C",
-        "text": "Concluir el tema"
+        "text": "El uso de pronombres indefinidos"
       },
       {
         "key": "D",
-        "text": "Repetir el tema"
-      },
-      {
-        "key": "E",
-        "text": "Confundir al lector"
-      },
-      {
-        "key": "F",
-        "text": "Alargar el texto"
+        "text": "La introducción de un conector adversativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El párrafo de introducción presenta el tema y capta la atención."
+    "explanation": "La elipsis evita redundancias omitiendo elementos sintácticos ya conocidos por el lector."
   },
   {
     "id": "2.2_q256",
     "number": 256,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo de desarrollo tiene como función:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "La anáfora es un procedimiento de cohesión textual que consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Explicar, argumentar o narrar las ideas principales"
+        "text": "Hacer referencia a un elemento lingüístico mencionado previamente en el texto"
       },
       {
         "key": "B",
-        "text": "Presentar el tema"
+        "text": "Anticipar un elemento que se mencionará más adelante"
       },
       {
         "key": "C",
-        "text": "Concluir el tema"
+        "text": "Repetir una conjunción"
       },
       {
         "key": "D",
-        "text": "Repetir el tema"
-      },
-      {
-        "key": "E",
-        "text": "Confundir al lector"
-      },
-      {
-        "key": "F",
-        "text": "Alargar el texto"
+        "text": "Usar metáforas poéticas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El párrafo de desarrollo explica, argumenta o narra."
+    "explanation": "La anáfora remite a un antecedente discursivo previo en el texto."
   },
   {
     "id": "2.2_q257",
     "number": 257,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo de conclusión tiene como función:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "La catáfora se manifiesta claramente en la oración:",
     "options": [
       {
         "key": "A",
-        "text": "Sintetizar o cerrar las ideas presentadas"
+        "text": "Te digo esto: no te rindas jamás"
       },
       {
         "key": "B",
-        "text": "Presentar el tema"
+        "text": "Juan vino y él se sentó"
       },
       {
         "key": "C",
-        "text": "Desarrollar las ideas"
+        "text": "Ayer compré flores y las regalé"
       },
       {
         "key": "D",
-        "text": "Repetir el tema"
-      },
-      {
-        "key": "E",
-        "text": "Confundir al lector"
-      },
-      {
-        "key": "F",
-        "text": "Alargar el texto"
+        "text": "Estudiamos mucho pero fallamos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El párrafo de conclusión sintetiza o cierra las ideas."
+    "explanation": "'Esto' anticipa catafóricamente el mensaje posterior: 'no te rindas jamás'."
   },
   {
     "id": "2.2_q258",
     "number": 258,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo expositivo tiene como función:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "En el par 'vehículo - motocicleta', la relación semántica de 'motocicleta' respecto a 'vehículo' es de:",
     "options": [
       {
         "key": "A",
-        "text": "Explicar o informar sobre un tema"
+        "text": "Hiponimia"
       },
       {
         "key": "B",
-        "text": "Convencer al lector"
+        "text": "Hiperonimia"
       },
       {
         "key": "C",
-        "text": "Contar una historia"
+        "text": "Polisemia"
       },
       {
         "key": "D",
-        "text": "Expresar sentimientos"
-      },
-      {
-        "key": "E",
-        "text": "Entretener"
-      },
-      {
-        "key": "F",
-        "text": "Describir un lugar"
+        "text": "Homonimia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El párrafo expositivo explica o informa."
+    "explanation": "'Motocicleta' es un hipónimo (término específico subordinado) del hiperónimo 'vehículo'."
   },
   {
     "id": "2.2_q259",
     "number": 259,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo argumentativo tiene como función:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Seleccione el conector discursivo que introduce una reformulación explicativa:",
     "options": [
       {
         "key": "A",
-        "text": "Defender una idea con razones"
+        "text": "Es decir"
       },
       {
         "key": "B",
-        "text": "Informar objetivamente"
+        "text": "Sin embargo"
       },
       {
         "key": "C",
-        "text": "Contar una historia"
+        "text": "Por tanto"
       },
       {
         "key": "D",
-        "text": "Expresar sentimientos"
-      },
-      {
-        "key": "E",
-        "text": "Entretener"
-      },
-      {
-        "key": "F",
-        "text": "Describir un lugar"
+        "text": "En cambio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El párrafo argumentativo defiende una idea con razones."
+    "explanation": "'Es decir' clarifica o parafrasea lo enunciado en la cláusula precedente."
   },
   {
     "id": "2.2_q260",
     "number": 260,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo narrativo tiene como función:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "La recurrencia léxica exacta en un texto científico se justifica principalmente para:",
     "options": [
       {
         "key": "A",
-        "text": "Contar una historia o sucesos"
+        "text": "Garantizar la precisión conceptual y evitar ambigüedades terminológicas"
       },
       {
         "key": "B",
-        "text": "Informar objetivamente"
+        "text": "Adornar el estilo retórico"
       },
       {
         "key": "C",
-        "text": "Convencer al lector"
+        "text": "Aumentar la extensión del párrafo"
       },
       {
         "key": "D",
-        "text": "Expresar sentimientos"
-      },
-      {
-        "key": "E",
-        "text": "Entretener"
-      },
-      {
-        "key": "F",
-        "text": "Describir un lugar"
+        "text": "Demostrar pobreza léxica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El párrafo narrativo cuenta una historia."
+    "explanation": "En textos científicos y académicos, mantener el término técnico exacto preserva la univocidad del concepto."
   },
   {
     "id": "2.2_q261",
     "number": 261,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo descriptivo tiene como función:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 11): El mecanismo de cohesión léxica que consiste en sustituir una palabra por otra de significado más amplio e incluyente es:",
     "options": [
       {
         "key": "A",
-        "text": "Representar características de personas, objetos o lugares"
+        "text": "Hiperonimia"
       },
       {
         "key": "B",
-        "text": "Contar una historia"
+        "text": "Hiponimia"
       },
       {
         "key": "C",
-        "text": "Convencer al lector"
+        "text": "Sinonimia"
       },
       {
         "key": "D",
-        "text": "Informar objetivamente"
-      },
-      {
-        "key": "E",
-        "text": "Expresar sentimientos"
-      },
-      {
-        "key": "F",
-        "text": "Entretener"
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El párrafo descriptivo representa características."
+    "explanation": "El hiperónimo engloba a términos específicos (ej. 'animal' es hiperónimo de 'perro')."
   },
   {
     "id": "2.2_q262",
     "number": 262,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo de comparación tiene como función:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 12): En el texto 'Visité San Salvador. La capital lucía radiante', la cohesión entre oraciones se logra mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Establecer semejanzas y diferencias"
+        "text": "Sinonimia referencial / correferencia"
       },
       {
         "key": "B",
-        "text": "Contar una historia"
+        "text": "Elipsis verbal"
       },
       {
         "key": "C",
-        "text": "Convencer al lector"
+        "text": "Deixis espacial"
       },
       {
         "key": "D",
-        "text": "Informar objetivamente"
-      },
-      {
-        "key": "E",
-        "text": "Expresar sentimientos"
-      },
-      {
-        "key": "F",
-        "text": "Entretener"
+        "text": "Catáfora"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El párrafo de comparación establece semejanzas y diferencias."
+    "explanation": "'La capital' funciona como frase sustituta o correferente de 'San Salvador'."
   },
   {
     "id": "2.2_q263",
     "number": 263,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo de causa-efecto tiene como función:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 13): Seleccione el conector que expresa una relación de consecuencia lógica estricta:",
     "options": [
       {
         "key": "A",
-        "text": "Explicar las causas y consecuencias de un fenómeno"
+        "text": "Por consiguiente"
       },
       {
         "key": "B",
-        "text": "Contar una historia"
+        "text": "No obstante"
       },
       {
         "key": "C",
-        "text": "Convencer al lector"
+        "text": "En primer lugar"
       },
       {
         "key": "D",
-        "text": "Informar objetivamente"
-      },
-      {
-        "key": "E",
-        "text": "Expresar sentimientos"
-      },
-      {
-        "key": "F",
-        "text": "Entretener"
+        "text": "Asimismo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El párrafo de causa-efecto explica causas y consecuencias."
+    "explanation": "'Por consiguiente' es un conector consecutivo que introduce el efecto o deducción necesaria de lo anterior."
   },
   {
     "id": "2.2_q264",
     "number": 264,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo de definición tiene como función:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 14): En la frase 'Llovió torrencialmente; de ahí que las calles se inundaran', el conector 'de ahí que' funciona como:",
     "options": [
       {
         "key": "A",
-        "text": "Explicar el significado de un término"
+        "text": "Conector consecutivo que rige verbo en subjuntivo"
       },
       {
         "key": "B",
-        "text": "Contar una historia"
+        "text": "Conector causal que rige indicativo"
       },
       {
         "key": "C",
-        "text": "Convencer al lector"
+        "text": "Conector adversativo"
       },
       {
         "key": "D",
-        "text": "Informar objetivamente"
-      },
-      {
-        "key": "E",
-        "text": "Expresar sentimientos"
-      },
-      {
-        "key": "F",
-        "text": "Entretener"
+        "text": "Conector condicional"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El párrafo de definición explica el significado de un término."
+    "explanation": "'De ahí que' es consecutivo e induce de manera normativa el modo subjuntivo ('se inundaran')."
   },
   {
     "id": "2.2_q265",
     "number": 265,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo de clasificación tiene como función:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 15): La elipsis como mecanismo cohesivo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Organizar elementos en categorías"
+        "text": "La omisión deliberada de un elemento lingüístico que se sobreentiende por el contexto"
       },
       {
         "key": "B",
-        "text": "Contar una historia"
+        "text": "La repetición exacta de una palabra diez veces"
       },
       {
         "key": "C",
-        "text": "Convencer al lector"
+        "text": "El uso de pronombres indefinidos"
       },
       {
         "key": "D",
-        "text": "Informar objetivamente"
-      },
-      {
-        "key": "E",
-        "text": "Expresar sentimientos"
-      },
-      {
-        "key": "F",
-        "text": "Entretener"
+        "text": "La introducción de un conector adversativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El párrafo de clasificación organiza elementos en categorías."
+    "explanation": "La elipsis evita redundancias omitiendo elementos sintácticos ya conocidos por el lector."
   },
   {
     "id": "2.2_q266",
     "number": 266,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un párrafo de ejemplificación tiene como función:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 16): La anáfora es un procedimiento de cohesión textual que consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ilustrar una idea con casos concretos"
+        "text": "Hacer referencia a un elemento lingüístico mencionado previamente en el texto"
       },
       {
         "key": "B",
-        "text": "Contar una historia"
+        "text": "Anticipar un elemento que se mencionará más adelante"
       },
       {
         "key": "C",
-        "text": "Convencer al lector"
+        "text": "Repetir una conjunción"
       },
       {
         "key": "D",
-        "text": "Informar objetivamente"
-      },
-      {
-        "key": "E",
-        "text": "Expresar sentimientos"
-      },
-      {
-        "key": "F",
-        "text": "Entretener"
+        "text": "Usar metáforas poéticas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El párrafo de ejemplificación ilustra una idea con casos concretos."
+    "explanation": "La anáfora remite a un antecedente discursivo previo en el texto."
   },
   {
     "id": "2.2_q267",
     "number": 267,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La progresión temática se refiere a:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 17): La catáfora se manifiesta claramente en la oración:",
     "options": [
       {
         "key": "A",
-        "text": "El avance ordenado de la información en el texto"
+        "text": "Te digo esto: no te rindas jamás"
       },
       {
         "key": "B",
-        "text": "La repetición de la misma idea"
+        "text": "Juan vino y él se sentó"
       },
       {
         "key": "C",
-        "text": "La cantidad de párrafos"
+        "text": "Ayer compré flores y las regalé"
       },
       {
         "key": "D",
-        "text": "La extensión del texto"
-      },
-      {
-        "key": "E",
-        "text": "La cantidad de conectores"
-      },
-      {
-        "key": "F",
-        "text": "La ortografía"
+        "text": "Estudiamos mucho pero fallamos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La progresión temática es el avance ordenado de la información."
+    "explanation": "'Esto' anticipa catafóricamente el mensaje posterior: 'no te rindas jamás'."
   },
   {
     "id": "2.2_q268",
     "number": 268,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La progresión temática puede ser:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 18): En el par 'vehículo - motocicleta', la relación semántica de 'motocicleta' respecto a 'vehículo' es de:",
     "options": [
       {
         "key": "A",
-        "text": "Lineal, con tema constante o derivada"
+        "text": "Hiponimia"
       },
       {
         "key": "B",
-        "text": "Solo lineal"
+        "text": "Hiperonimia"
       },
       {
         "key": "C",
-        "text": "Solo con tema constante"
+        "text": "Polisemia"
       },
       {
         "key": "D",
-        "text": "Solo derivada"
-      },
-      {
-        "key": "E",
-        "text": "Solo circular"
-      },
-      {
-        "key": "F",
-        "text": "Solo repetitiva"
+        "text": "Homonimia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La progresión temática puede ser lineal, con tema constante o derivada."
+    "explanation": "'Motocicleta' es un hipónimo (término específico subordinado) del hiperónimo 'vehículo'."
   },
   {
     "id": "2.2_q269",
     "number": 269,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La progresión lineal se caracteriza porque:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 19): Seleccione el conector discursivo que introduce una reformulación explicativa:",
     "options": [
       {
         "key": "A",
-        "text": "El rema de una oración se convierte en el tema de la siguiente"
+        "text": "Es decir"
       },
       {
         "key": "B",
-        "text": "El tema se repite en todas las oraciones"
+        "text": "Sin embargo"
       },
       {
         "key": "C",
-        "text": "El tema se divide en subtemas"
+        "text": "Por tanto"
       },
       {
         "key": "D",
-        "text": "No hay progresión"
-      },
-      {
-        "key": "E",
-        "text": "No hay tema"
-      },
-      {
-        "key": "F",
-        "text": "No hay rema"
+        "text": "En cambio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La progresión lineal: el rema se convierte en tema."
+    "explanation": "'Es decir' clarifica o parafrasea lo enunciado en la cláusula precedente."
   },
   {
     "id": "2.2_q270",
     "number": 270,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La progresión con tema constante se caracteriza porque:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 20): La recurrencia léxica exacta en un texto científico se justifica principalmente para:",
     "options": [
       {
         "key": "A",
-        "text": "El mismo tema se repite en todas las oraciones"
+        "text": "Garantizar la precisión conceptual y evitar ambigüedades terminológicas"
       },
       {
         "key": "B",
-        "text": "El rema se convierte en tema"
+        "text": "Adornar el estilo retórico"
       },
       {
         "key": "C",
-        "text": "El tema se divide en subtemas"
+        "text": "Aumentar la extensión del párrafo"
       },
       {
         "key": "D",
-        "text": "No hay progresión"
-      },
-      {
-        "key": "E",
-        "text": "No hay tema"
-      },
-      {
-        "key": "F",
-        "text": "No hay rema"
+        "text": "Demostrar pobreza léxica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La progresión con tema constante: el tema se repite."
+    "explanation": "En textos científicos y académicos, mantener el término técnico exacto preserva la univocidad del concepto."
   },
   {
     "id": "2.2_q271",
     "number": 271,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La progresión derivada se caracteriza porque:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 21): El mecanismo de cohesión léxica que consiste en sustituir una palabra por otra de significado más amplio e incluyente es:",
     "options": [
       {
         "key": "A",
-        "text": "El tema se divide en varios subtemas"
+        "text": "Hiperonimia"
       },
       {
         "key": "B",
-        "text": "El rema se convierte en tema"
+        "text": "Hiponimia"
       },
       {
         "key": "C",
-        "text": "El tema se repite"
+        "text": "Sinonimia"
       },
       {
         "key": "D",
-        "text": "No hay progresión"
-      },
-      {
-        "key": "E",
-        "text": "No hay tema"
-      },
-      {
-        "key": "F",
-        "text": "No hay rema"
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La progresión derivada: el tema se divide en subtemas."
+    "explanation": "El hiperónimo engloba a términos específicos (ej. 'animal' es hiperónimo de 'perro')."
   },
   {
     "id": "2.2_q272",
     "number": 272,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "El tema de un texto es:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 22): En el texto 'Visité San Salvador. La capital lucía radiante', la cohesión entre oraciones se logra mediante:",
     "options": [
       {
         "key": "A",
-        "text": "El asunto general del que trata"
+        "text": "Sinonimia referencial / correferencia"
       },
       {
         "key": "B",
-        "text": "La idea principal"
+        "text": "Elipsis verbal"
       },
       {
         "key": "C",
-        "text": "La conclusión"
+        "text": "Deixis espacial"
       },
       {
         "key": "D",
-        "text": "La introducción"
-      },
-      {
-        "key": "E",
-        "text": "El título"
-      },
-      {
-        "key": "F",
-        "text": "El subtítulo"
+        "text": "Catáfora"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El tema es el asunto general del texto."
+    "explanation": "'La capital' funciona como frase sustituta o correferente de 'San Salvador'."
   },
   {
     "id": "2.2_q273",
     "number": 273,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "El rema de un texto es:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 23): Seleccione el conector que expresa una relación de consecuencia lógica estricta:",
     "options": [
       {
         "key": "A",
-        "text": "La información nueva que se aporta sobre el tema"
+        "text": "Por consiguiente"
       },
       {
         "key": "B",
-        "text": "El asunto general"
+        "text": "No obstante"
       },
       {
         "key": "C",
-        "text": "La conclusión"
+        "text": "En primer lugar"
       },
       {
         "key": "D",
-        "text": "La introducción"
-      },
-      {
-        "key": "E",
-        "text": "El título"
-      },
-      {
-        "key": "F",
-        "text": "El subtítulo"
+        "text": "Asimismo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El rema es la información nueva sobre el tema."
+    "explanation": "'Por consiguiente' es un conector consecutivo que introduce el efecto o deducción necesaria de lo anterior."
   },
   {
     "id": "2.2_q274",
     "number": 274,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La estructura \"tema-rema\" se refiere a:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 24): En la frase 'Llovió torrencialmente; de ahí que las calles se inundaran', el conector 'de ahí que' funciona como:",
     "options": [
       {
         "key": "A",
-        "text": "La organización de la información en el texto"
+        "text": "Conector consecutivo que rige verbo en subjuntivo"
       },
       {
         "key": "B",
-        "text": "La ortografía del texto"
+        "text": "Conector causal que rige indicativo"
       },
       {
         "key": "C",
-        "text": "La puntuación del texto"
+        "text": "Conector adversativo"
       },
       {
         "key": "D",
-        "text": "La caligrafía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La sintaxis del texto"
-      },
-      {
-        "key": "F",
-        "text": "La extensión del texto"
+        "text": "Conector condicional"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La estructura tema-rema organiza la información."
+    "explanation": "'De ahí que' es consecutivo e induce de manera normativa el modo subjuntivo ('se inundaran')."
   },
   {
     "id": "2.2_q275",
     "number": 275,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un texto bien estructurado debe tener:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 25): La elipsis como mecanismo cohesivo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Introducción, desarrollo y conclusión"
+        "text": "La omisión deliberada de un elemento lingüístico que se sobreentiende por el contexto"
       },
       {
         "key": "B",
-        "text": "Solo introducción"
+        "text": "La repetición exacta de una palabra diez veces"
       },
       {
         "key": "C",
-        "text": "Solo desarrollo"
+        "text": "El uso de pronombres indefinidos"
       },
       {
         "key": "D",
-        "text": "Solo conclusión"
-      },
-      {
-        "key": "E",
-        "text": "Sin estructura"
-      },
-      {
-        "key": "F",
-        "text": "Estructura caótica"
+        "text": "La introducción de un conector adversativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un texto bien estructurado tiene introducción, desarrollo y conclusión."
+    "explanation": "La elipsis evita redundancias omitiendo elementos sintácticos ya conocidos por el lector."
   },
   {
     "id": "2.2_q276",
     "number": 276,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La introducción de un texto debe:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 26): La anáfora es un procedimiento de cohesión textual que consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Presentar el tema y captar la atención"
+        "text": "Hacer referencia a un elemento lingüístico mencionado previamente en el texto"
       },
       {
         "key": "B",
-        "text": "Desarrollar todas las ideas"
+        "text": "Anticipar un elemento que se mencionará más adelante"
       },
       {
         "key": "C",
-        "text": "Concluir el tema"
+        "text": "Repetir una conjunción"
       },
       {
         "key": "D",
-        "text": "Repetir el título"
-      },
-      {
-        "key": "E",
-        "text": "Confundir al lector"
-      },
-      {
-        "key": "F",
-        "text": "Alargar el texto"
+        "text": "Usar metáforas poéticas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La introducción presenta el tema y capta la atención."
+    "explanation": "La anáfora remite a un antecedente discursivo previo en el texto."
   },
   {
     "id": "2.2_q277",
     "number": 277,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "El desarrollo de un texto debe:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 27): La catáfora se manifiesta claramente en la oración:",
     "options": [
       {
         "key": "A",
-        "text": "Explicar, argumentar o narrar las ideas principales"
+        "text": "Te digo esto: no te rindas jamás"
       },
       {
         "key": "B",
-        "text": "Presentar solo el tema"
+        "text": "Juan vino y él se sentó"
       },
       {
         "key": "C",
-        "text": "Concluir el tema"
+        "text": "Ayer compré flores y las regalé"
       },
       {
         "key": "D",
-        "text": "Repetir la introducción"
-      },
-      {
-        "key": "E",
-        "text": "Confundir al lector"
-      },
-      {
-        "key": "F",
-        "text": "Alargar el texto"
+        "text": "Estudiamos mucho pero fallamos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El desarrollo explica, argumenta o narra las ideas."
+    "explanation": "'Esto' anticipa catafóricamente el mensaje posterior: 'no te rindas jamás'."
   },
   {
     "id": "2.2_q278",
     "number": 278,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La conclusión de un texto debe:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 28): En el par 'vehículo - motocicleta', la relación semántica de 'motocicleta' respecto a 'vehículo' es de:",
     "options": [
       {
         "key": "A",
-        "text": "Sintetizar o cerrar las ideas presentadas"
+        "text": "Hiponimia"
       },
       {
         "key": "B",
-        "text": "Presentar el tema"
+        "text": "Hiperonimia"
       },
       {
         "key": "C",
-        "text": "Desarrollar nuevas ideas"
+        "text": "Polisemia"
       },
       {
         "key": "D",
-        "text": "Repetir la introducción"
-      },
-      {
-        "key": "E",
-        "text": "Confundir al lector"
-      },
-      {
-        "key": "F",
-        "text": "Alargar el texto"
+        "text": "Homonimia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La conclusión sintetiza o cierra las ideas."
+    "explanation": "'Motocicleta' es un hipónimo (término específico subordinado) del hiperónimo 'vehículo'."
   },
   {
     "id": "2.2_q279",
     "number": 279,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La cohesión textual se logra mediante:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 29): Seleccione el conector discursivo que introduce una reformulación explicativa:",
     "options": [
       {
         "key": "A",
-        "text": "Conectores, pronombres, sinónimos y otros mecanismos"
+        "text": "Es decir"
       },
       {
         "key": "B",
-        "text": "Solo signos de puntuación"
+        "text": "Sin embargo"
       },
       {
         "key": "C",
-        "text": "Solo la ortografía"
+        "text": "Por tanto"
       },
       {
         "key": "D",
-        "text": "Solo la caligrafía"
-      },
-      {
-        "key": "E",
-        "text": "Solo la extensión"
-      },
-      {
-        "key": "F",
-        "text": "Solo el tema"
+        "text": "En cambio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La cohesión se logra por conectores, pronombres, sinónimos, etc."
+    "explanation": "'Es decir' clarifica o parafrasea lo enunciado en la cláusula precedente."
   },
   {
     "id": "2.2_q280",
     "number": 280,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La coherencia textual se logra mediante:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 30): La recurrencia léxica exacta en un texto científico se justifica principalmente para:",
     "options": [
       {
         "key": "A",
-        "text": "Unidad temática y lógica"
+        "text": "Garantizar la precisión conceptual y evitar ambigüedades terminológicas"
       },
       {
         "key": "B",
-        "text": "Muchas palabras"
+        "text": "Adornar el estilo retórico"
       },
       {
         "key": "C",
-        "text": "Muchos párrafos"
+        "text": "Aumentar la extensión del párrafo"
       },
       {
         "key": "D",
-        "text": "Muchos conectores"
-      },
-      {
-        "key": "E",
-        "text": "Mucha puntuación"
-      },
-      {
-        "key": "F",
-        "text": "Mucha extensión"
+        "text": "Demostrar pobreza léxica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La coherencia se logra por unidad temática y lógica."
+    "explanation": "En textos científicos y académicos, mantener el término técnico exacto preserva la univocidad del concepto."
   },
   {
     "id": "2.2_q281",
     "number": 281,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un texto coherente y cohesionado debe:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 31): El mecanismo de cohesión léxica que consiste en sustituir una palabra por otra de significado más amplio e incluyente es:",
     "options": [
       {
         "key": "A",
-        "text": "Tener unidad temática y usar adecuadamente los mecanismos de cohesión"
+        "text": "Hiperonimia"
       },
       {
         "key": "B",
-        "text": "Tener muchos temas"
+        "text": "Hiponimia"
       },
       {
         "key": "C",
-        "text": "No tener tema"
+        "text": "Sinonimia"
       },
       {
         "key": "D",
-        "text": "Cambiar de tema constantemente"
-      },
-      {
-        "key": "E",
-        "text": "No usar conectores"
-      },
-      {
-        "key": "F",
-        "text": "No usar pronombres"
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un texto coherente y cohesionado tiene unidad temática y usa mecanismos de cohesión."
+    "explanation": "El hiperónimo engloba a términos específicos (ej. 'animal' es hiperónimo de 'perro')."
   },
   {
     "id": "2.2_q282",
     "number": 282,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La adecuación textual se refiere a:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 32): En el texto 'Visité San Salvador. La capital lucía radiante', la cohesión entre oraciones se logra mediante:",
     "options": [
       {
         "key": "A",
-        "text": "La adaptación del texto al contexto y al destinatario"
+        "text": "Sinonimia referencial / correferencia"
       },
       {
         "key": "B",
-        "text": "La ortografía del texto"
+        "text": "Elipsis verbal"
       },
       {
         "key": "C",
-        "text": "La puntuación del texto"
+        "text": "Deixis espacial"
       },
       {
         "key": "D",
-        "text": "La caligrafía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La sintaxis del texto"
-      },
-      {
-        "key": "F",
-        "text": "La extensión del texto"
+        "text": "Catáfora"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La adecuación es la adaptación al contexto y destinatario."
+    "explanation": "'La capital' funciona como frase sustituta o correferente de 'San Salvador'."
   },
   {
     "id": "2.2_q283",
     "number": 283,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un texto adecuado debe:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 33): Seleccione el conector que expresa una relación de consecuencia lógica estricta:",
     "options": [
       {
         "key": "A",
-        "text": "Usar el registro lingüístico apropiado"
+        "text": "Por consiguiente"
       },
       {
         "key": "B",
-        "text": "Usar siempre lenguaje formal"
+        "text": "No obstante"
       },
       {
         "key": "C",
-        "text": "Usar siempre lenguaje informal"
+        "text": "En primer lugar"
       },
       {
         "key": "D",
-        "text": "Usar siempre tecnicismos"
-      },
-      {
-        "key": "E",
-        "text": "Usar siempre coloquialismos"
-      },
-      {
-        "key": "F",
-        "text": "Usar siempre cultismos"
+        "text": "Asimismo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un texto adecuado usa el registro lingüístico apropiado."
+    "explanation": "'Por consiguiente' es un conector consecutivo que introduce el efecto o deducción necesaria de lo anterior."
   },
   {
     "id": "2.2_q284",
     "number": 284,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La estructura textual se refiere a:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 34): En la frase 'Llovió torrencialmente; de ahí que las calles se inundaran', el conector 'de ahí que' funciona como:",
     "options": [
       {
         "key": "A",
-        "text": "La organización de las ideas en el texto"
+        "text": "Conector consecutivo que rige verbo en subjuntivo"
       },
       {
         "key": "B",
-        "text": "La ortografía del texto"
+        "text": "Conector causal que rige indicativo"
       },
       {
         "key": "C",
-        "text": "La puntuación del texto"
+        "text": "Conector adversativo"
       },
       {
         "key": "D",
-        "text": "La caligrafía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La sintaxis del texto"
-      },
-      {
-        "key": "F",
-        "text": "La extensión del texto"
+        "text": "Conector condicional"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La estructura textual es la organización de las ideas."
+    "explanation": "'De ahí que' es consecutivo e induce de manera normativa el modo subjuntivo ('se inundaran')."
   },
   {
     "id": "2.2_q285",
     "number": 285,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La macroestructura de un texto se refiere a:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 35): La elipsis como mecanismo cohesivo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La organización global de las ideas"
+        "text": "La omisión deliberada de un elemento lingüístico que se sobreentiende por el contexto"
       },
       {
         "key": "B",
-        "text": "La organización de las oraciones"
+        "text": "La repetición exacta de una palabra diez veces"
       },
       {
         "key": "C",
-        "text": "La organización de las palabras"
+        "text": "El uso de pronombres indefinidos"
       },
       {
         "key": "D",
-        "text": "La organización de las sílabas"
-      },
-      {
-        "key": "E",
-        "text": "La organización de las letras"
-      },
-      {
-        "key": "F",
-        "text": "La organización de los signos"
+        "text": "La introducción de un conector adversativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La macroestructura es la organización global de las ideas."
+    "explanation": "La elipsis evita redundancias omitiendo elementos sintácticos ya conocidos por el lector."
   },
   {
     "id": "2.2_q286",
     "number": 286,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La microestructura de un texto se refiere a:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 36): La anáfora es un procedimiento de cohesión textual que consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La organización de las oraciones y párrafos"
+        "text": "Hacer referencia a un elemento lingüístico mencionado previamente en el texto"
       },
       {
         "key": "B",
-        "text": "La organización global de las ideas"
+        "text": "Anticipar un elemento que se mencionará más adelante"
       },
       {
         "key": "C",
-        "text": "La organización de las palabras"
+        "text": "Repetir una conjunción"
       },
       {
         "key": "D",
-        "text": "La organización de las sílabas"
-      },
-      {
-        "key": "E",
-        "text": "La organización de las letras"
-      },
-      {
-        "key": "F",
-        "text": "La organización de los signos"
+        "text": "Usar metáforas poéticas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La microestructura es la organización de oraciones y párrafos."
+    "explanation": "La anáfora remite a un antecedente discursivo previo en el texto."
   },
   {
     "id": "2.2_q287",
     "number": 287,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La superestructura de un texto se refiere a:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 37): La catáfora se manifiesta claramente en la oración:",
     "options": [
       {
         "key": "A",
-        "text": "El esquema formal que organiza el texto"
+        "text": "Te digo esto: no te rindas jamás"
       },
       {
         "key": "B",
-        "text": "La organización de las oraciones"
+        "text": "Juan vino y él se sentó"
       },
       {
         "key": "C",
-        "text": "La organización de las palabras"
+        "text": "Ayer compré flores y las regalé"
       },
       {
         "key": "D",
-        "text": "La organización de las sílabas"
-      },
-      {
-        "key": "E",
-        "text": "La organización de las letras"
-      },
-      {
-        "key": "F",
-        "text": "La organización de los signos"
+        "text": "Estudiamos mucho pero fallamos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La superestructura es el esquema formal que organiza el texto."
+    "explanation": "'Esto' anticipa catafóricamente el mensaje posterior: 'no te rindas jamás'."
   },
   {
     "id": "2.2_q288",
     "number": 288,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La superestructura de un texto narrativo es:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 38): En el par 'vehículo - motocicleta', la relación semántica de 'motocicleta' respecto a 'vehículo' es de:",
     "options": [
       {
         "key": "A",
-        "text": "Planteamiento, nudo y desenlace"
+        "text": "Hiponimia"
       },
       {
         "key": "B",
-        "text": "Introducción, desarrollo y conclusión"
+        "text": "Hiperonimia"
       },
       {
         "key": "C",
-        "text": "Tesis, argumentos y conclusión"
+        "text": "Polisemia"
       },
       {
         "key": "D",
-        "text": "Descripción, análisis y síntesis"
-      },
-      {
-        "key": "E",
-        "text": "Título, cuerpo y firma"
-      },
-      {
-        "key": "F",
-        "text": "Inicio, conflicto y resolución"
+        "text": "Homonimia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La superestructura narrativa es planteamiento, nudo y desenlace."
+    "explanation": "'Motocicleta' es un hipónimo (término específico subordinado) del hiperónimo 'vehículo'."
   },
   {
     "id": "2.2_q289",
     "number": 289,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La superestructura de un texto expositivo es:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 39): Seleccione el conector discursivo que introduce una reformulación explicativa:",
     "options": [
       {
         "key": "A",
-        "text": "Introducción, desarrollo y conclusión"
+        "text": "Es decir"
       },
       {
         "key": "B",
-        "text": "Planteamiento, nudo y desenlace"
+        "text": "Sin embargo"
       },
       {
         "key": "C",
-        "text": "Tesis, argumentos y conclusión"
+        "text": "Por tanto"
       },
       {
         "key": "D",
-        "text": "Descripción, análisis y síntesis"
-      },
-      {
-        "key": "E",
-        "text": "Título, cuerpo y firma"
-      },
-      {
-        "key": "F",
-        "text": "Inicio, conflicto y resolución"
+        "text": "En cambio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La superestructura expositiva es introducción, desarrollo y conclusión."
+    "explanation": "'Es decir' clarifica o parafrasea lo enunciado en la cláusula precedente."
   },
   {
     "id": "2.2_q290",
     "number": 290,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La superestructura de un texto argumentativo es:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 40): La recurrencia léxica exacta en un texto científico se justifica principalmente para:",
     "options": [
       {
         "key": "A",
-        "text": "Tesis, argumentos y conclusión"
+        "text": "Garantizar la precisión conceptual y evitar ambigüedades terminológicas"
       },
       {
         "key": "B",
-        "text": "Planteamiento, nudo y desenlace"
+        "text": "Adornar el estilo retórico"
       },
       {
         "key": "C",
-        "text": "Introducción, desarrollo y conclusión"
+        "text": "Aumentar la extensión del párrafo"
       },
       {
         "key": "D",
-        "text": "Descripción, análisis y síntesis"
-      },
-      {
-        "key": "E",
-        "text": "Título, cuerpo y firma"
-      },
-      {
-        "key": "F",
-        "text": "Inicio, conflicto y resolución"
+        "text": "Demostrar pobreza léxica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La superestructura argumentativa es tesis, argumentos y conclusión."
+    "explanation": "En textos científicos y académicos, mantener el término técnico exacto preserva la univocidad del concepto."
   },
   {
     "id": "2.2_q291",
     "number": 291,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La macroestructura de un texto se construye a partir de:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 41): El mecanismo de cohesión léxica que consiste en sustituir una palabra por otra de significado más amplio e incluyente es:",
     "options": [
       {
         "key": "A",
-        "text": "Las ideas principales de cada párrafo"
+        "text": "Hiperonimia"
       },
       {
         "key": "B",
-        "text": "Las palabras de cada oración"
+        "text": "Hiponimia"
       },
       {
         "key": "C",
-        "text": "Las sílabas de cada palabra"
+        "text": "Sinonimia"
       },
       {
         "key": "D",
-        "text": "Las letras de cada sílaba"
-      },
-      {
-        "key": "E",
-        "text": "Los signos de puntuación"
-      },
-      {
-        "key": "F",
-        "text": "Los conectores"
+        "text": "Antonimia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La macroestructura se construye a partir de las ideas principales."
+    "explanation": "El hiperónimo engloba a términos específicos (ej. 'animal' es hiperónimo de 'perro')."
   },
   {
     "id": "2.2_q292",
     "number": 292,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La microestructura de un texto se construye a partir de:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 42): En el texto 'Visité San Salvador. La capital lucía radiante', la cohesión entre oraciones se logra mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Las oraciones y su organización en párrafos"
+        "text": "Sinonimia referencial / correferencia"
       },
       {
         "key": "B",
-        "text": "Las ideas principales"
+        "text": "Elipsis verbal"
       },
       {
         "key": "C",
-        "text": "Las palabras clave"
+        "text": "Deixis espacial"
       },
       {
         "key": "D",
-        "text": "Las sílabas"
-      },
-      {
-        "key": "E",
-        "text": "Las letras"
-      },
-      {
-        "key": "F",
-        "text": "Los signos"
+        "text": "Catáfora"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La microestructura se construye a partir de oraciones y párrafos."
+    "explanation": "'La capital' funciona como frase sustituta o correferente de 'San Salvador'."
   },
   {
     "id": "2.2_q293",
     "number": 293,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La progresión temática de un texto debe ser:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 43): Seleccione el conector que expresa una relación de consecuencia lógica estricta:",
     "options": [
       {
         "key": "A",
-        "text": "Coherente y ordenada"
+        "text": "Por consiguiente"
       },
       {
         "key": "B",
-        "text": "Caótica"
+        "text": "No obstante"
       },
       {
         "key": "C",
-        "text": "Repetitiva"
+        "text": "En primer lugar"
       },
       {
         "key": "D",
-        "text": "Confusa"
-      },
-      {
-        "key": "E",
-        "text": "Ambigua"
-      },
-      {
-        "key": "F",
-        "text": "Incoherente"
+        "text": "Asimismo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La progresión temática debe ser coherente y ordenada."
+    "explanation": "'Por consiguiente' es un conector consecutivo que introduce el efecto o deducción necesaria de lo anterior."
   },
   {
     "id": "2.2_q294",
     "number": 294,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La unidad temática de un texto implica:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 44): En la frase 'Llovió torrencialmente; de ahí que las calles se inundaran', el conector 'de ahí que' funciona como:",
     "options": [
       {
         "key": "A",
-        "text": "Que todo el texto gire en torno a un mismo tema"
+        "text": "Conector consecutivo que rige verbo en subjuntivo"
       },
       {
         "key": "B",
-        "text": "Que el texto tenga muchos temas"
+        "text": "Conector causal que rige indicativo"
       },
       {
         "key": "C",
-        "text": "Que el texto no tenga tema"
+        "text": "Conector adversativo"
       },
       {
         "key": "D",
-        "text": "Que el texto cambie de tema constantemente"
-      },
-      {
-        "key": "E",
-        "text": "Que el texto solo tenga un párrafo"
-      },
-      {
-        "key": "F",
-        "text": "Que el texto solo tenga una oración"
+        "text": "Conector condicional"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La unidad temática implica que todo gire en torno a un mismo tema."
+    "explanation": "'De ahí que' es consecutivo e induce de manera normativa el modo subjuntivo ('se inundaran')."
   },
   {
     "id": "2.2_q295",
     "number": 295,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La estructura de un texto debe ser:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 45): La elipsis como mecanismo cohesivo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Lógica y ordenada"
+        "text": "La omisión deliberada de un elemento lingüístico que se sobreentiende por el contexto"
       },
       {
         "key": "B",
-        "text": "Caótica"
+        "text": "La repetición exacta de una palabra diez veces"
       },
       {
         "key": "C",
-        "text": "Confusa"
+        "text": "El uso de pronombres indefinidos"
       },
       {
         "key": "D",
-        "text": "Ambigua"
-      },
-      {
-        "key": "E",
-        "text": "Incoherente"
-      },
-      {
-        "key": "F",
-        "text": "Repetitiva"
+        "text": "La introducción de un conector adversativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La estructura debe ser lógica y ordenada."
+    "explanation": "La elipsis evita redundancias omitiendo elementos sintácticos ya conocidos por el lector."
   },
   {
     "id": "2.2_q296",
     "number": 296,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La introducción de un texto debe captar:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 46): La anáfora es un procedimiento de cohesión textual que consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La atención del lector"
+        "text": "Hacer referencia a un elemento lingüístico mencionado previamente en el texto"
       },
       {
         "key": "B",
-        "text": "El dinero del lector"
+        "text": "Anticipar un elemento que se mencionará más adelante"
       },
       {
         "key": "C",
-        "text": "El tiempo del lector"
+        "text": "Repetir una conjunción"
       },
       {
         "key": "D",
-        "text": "El esfuerzo del lector"
-      },
-      {
-        "key": "E",
-        "text": "La paciencia del lector"
-      },
-      {
-        "key": "F",
-        "text": "La curiosidad del lector"
+        "text": "Usar metáforas poéticas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La introducción debe captar la atención del lector."
+    "explanation": "La anáfora remite a un antecedente discursivo previo en el texto."
   },
   {
     "id": "2.2_q297",
     "number": 297,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "El desarrollo de un texto debe mantener:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 47): La catáfora se manifiesta claramente en la oración:",
     "options": [
       {
         "key": "A",
-        "text": "El interés del lector"
+        "text": "Te digo esto: no te rindas jamás"
       },
       {
         "key": "B",
-        "text": "El dinero del lector"
+        "text": "Juan vino y él se sentó"
       },
       {
         "key": "C",
-        "text": "El tiempo del lector"
+        "text": "Ayer compré flores y las regalé"
       },
       {
         "key": "D",
-        "text": "El esfuerzo del lector"
-      },
-      {
-        "key": "E",
-        "text": "La paciencia del lector"
-      },
-      {
-        "key": "F",
-        "text": "La curiosidad del lector"
+        "text": "Estudiamos mucho pero fallamos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El desarrollo debe mantener el interés del lector."
+    "explanation": "'Esto' anticipa catafóricamente el mensaje posterior: 'no te rindas jamás'."
   },
   {
     "id": "2.2_q298",
     "number": 298,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La conclusión de un texto debe dejar:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 48): En el par 'vehículo - motocicleta', la relación semántica de 'motocicleta' respecto a 'vehículo' es de:",
     "options": [
       {
         "key": "A",
-        "text": "Una idea clara y completa"
+        "text": "Hiponimia"
       },
       {
         "key": "B",
-        "text": "Una idea confusa"
+        "text": "Hiperonimia"
       },
       {
         "key": "C",
-        "text": "Una idea ambigua"
+        "text": "Polisemia"
       },
       {
         "key": "D",
-        "text": "Una idea incoherente"
-      },
-      {
-        "key": "E",
-        "text": "Una idea repetitiva"
-      },
-      {
-        "key": "F",
-        "text": "Una idea caótica"
+        "text": "Homonimia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La conclusión debe dejar una idea clara y completa."
+    "explanation": "'Motocicleta' es un hipónimo (término específico subordinado) del hiperónimo 'vehículo'."
   },
   {
     "id": "2.2_q299",
     "number": 299,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "Un texto bien escrito debe ser:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 49): Seleccione el conector discursivo que introduce una reformulación explicativa:",
     "options": [
       {
         "key": "A",
-        "text": "Coherente, cohesionado y adecuado"
+        "text": "Es decir"
       },
       {
         "key": "B",
-        "text": "Incoherente, sin cohesión e inadecuado"
+        "text": "Sin embargo"
       },
       {
         "key": "C",
-        "text": "Confuso, ambiguo y caótico"
+        "text": "Por tanto"
       },
       {
         "key": "D",
-        "text": "Repetitivo, desordenado y confuso"
-      },
-      {
-        "key": "E",
-        "text": "Incoherente, desordenado y ambiguo"
-      },
-      {
-        "key": "F",
-        "text": "Coherente pero sin cohesión"
+        "text": "En cambio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un texto bien escrito es coherente, cohesionado y adecuado."
+    "explanation": "'Es decir' clarifica o parafrasea lo enunciado en la cláusula precedente."
   },
   {
     "id": "2.2_q300",
     "number": 300,
     "subtopicId": "2.2",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)",
-    "statement": "La revisión de un texto debe verificar:",
+    "sectionTitle": "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)",
+    "statement": "Mecanismos de cohesión y conectores discursivos (reactivo 50): La recurrencia léxica exacta en un texto científico se justifica principalmente para:",
     "options": [
       {
         "key": "A",
-        "text": "Coherencia, cohesión, adecuación y corrección"
+        "text": "Garantizar la precisión conceptual y evitar ambigüedades terminológicas"
       },
       {
         "key": "B",
-        "text": "Solo la ortografía"
+        "text": "Adornar el estilo retórico"
       },
       {
         "key": "C",
-        "text": "Solo la puntuación"
+        "text": "Aumentar la extensión del párrafo"
       },
       {
         "key": "D",
-        "text": "Solo la caligrafía"
-      },
-      {
-        "key": "E",
-        "text": "Solo la extensión"
-      },
-      {
-        "key": "F",
-        "text": "Solo el tema ---"
+        "text": "Demostrar pobreza léxica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La revisión verifica coherencia, cohesión, adecuación y corrección."
+    "explanation": "En textos científicos y académicos, mantener el término técnico exacto preserva la univocidad del concepto."
   }
 ]

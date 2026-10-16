@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Según la RAE, la regla ortográfica correcta para el cierre de las abreviaturas es:",
     "options": [
       {
         "key": "A",
-        "text": "Baca"
+        "text": "Llevan obligatoriamente punto abreviativo o barra"
       },
       {
         "key": "B",
-        "text": "Vaca"
+        "text": "Nunca llevan punto final"
       },
       {
         "key": "C",
-        "text": "Baca"
+        "text": "Llevan coma al final"
       },
       {
         "key": "D",
-        "text": "Vaca"
-      },
-      {
-        "key": "E",
-        "text": "Baca"
-      },
-      {
-        "key": "F",
-        "text": "Vaca"
+        "text": "Se escriben en mayúsculas sin punto"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "*Vaca* (animal) se escribe con v."
+    "correctAnswer": "A",
+    "explanation": "Toda abreviatura debe cerrarse con punto abreviativo (ej. 'pág.', 'Dr.') o con barra (ej. 'c/')."
   },
   {
     "id": "2.1_q202",
     "number": 202,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "La forma ortográficamente correcta de la sigla de la Universidad de El Salvador es:",
     "options": [
       {
         "key": "A",
-        "text": "Bello"
+        "text": "UES"
       },
       {
         "key": "B",
-        "text": "Vello"
+        "text": "U.E.S."
       },
       {
         "key": "C",
-        "text": "Bello"
+        "text": "Ues"
       },
       {
         "key": "D",
-        "text": "Vello"
-      },
-      {
-        "key": "E",
-        "text": "Bello"
-      },
-      {
-        "key": "F",
-        "text": "Vello"
+        "text": "U-E-S"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Bello* (hermoso) se escribe con b."
+    "explanation": "Las siglas se escriben en mayúsculas compactas sin puntos ni espacios intermedios."
   },
   {
     "id": "2.1_q203",
     "number": 203,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Un acrónimo se distingue de una sigla simple porque:",
     "options": [
       {
         "key": "A",
-        "text": "Cabo"
+        "text": "Puede pronunciarse como una palabra y se somete a las reglas generales de acentuación"
       },
       {
         "key": "B",
-        "text": "Cavo"
+        "text": "Solo tiene dos letras"
       },
       {
         "key": "C",
-        "text": "Cabo"
+        "text": "Siempre lleva tilde diacrítica"
       },
       {
         "key": "D",
-        "text": "Cavo"
-      },
-      {
-        "key": "E",
-        "text": "Cabo"
-      },
-      {
-        "key": "F",
-        "text": "Cavo"
+        "text": "Debe escribirse entre comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cabo* (extremo) se escribe con b."
+    "explanation": "Los acrónimos (como Ovni, Unicef, Sida) se leen silábicamente y se adaptan a las reglas de acentuación."
   },
   {
     "id": "2.1_q204",
     "number": 204,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "¿En cuál oración se emplean correctamente los corchetes?",
     "options": [
       {
         "key": "A",
-        "text": "Grabar"
+        "text": "El autor afirmó: 'En aquel año [1992] se firmaron los Acuerdos de Paz'"
       },
       {
         "key": "B",
-        "text": "Gravar"
+        "text": "El autor afirmó: '[En aquel año] se firmaron los Acuerdos'"
       },
       {
         "key": "C",
-        "text": "Grabar"
+        "text": "El autor [afirmó] que la paz era necesaria"
       },
       {
         "key": "D",
-        "text": "Gravar"
-      },
-      {
-        "key": "E",
-        "text": "Grabar"
-      },
-      {
-        "key": "F",
-        "text": "Gravar"
+        "text": "Los corchetes sustituyen a las comillas en todos los casos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Grabar* (registrar) se escribe con b."
+    "explanation": "Los corchetes se utilizan para introducir aclaraciones o interpolaciones ajenas dentro de una cita textual ajena."
   },
   {
     "id": "2.1_q205",
     "number": 205,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Para encerrar el título de un artículo o capítulo dentro de un libro se deben usar:",
     "options": [
       {
         "key": "A",
-        "text": "Haber"
+        "text": "Comillas"
       },
       {
         "key": "B",
-        "text": "A ver"
+        "text": "Paréntesis"
       },
       {
         "key": "C",
-        "text": "Haber"
+        "text": "Corchetes"
       },
       {
         "key": "D",
-        "text": "A ver"
-      },
-      {
-        "key": "E",
-        "text": "Haber"
-      },
-      {
-        "key": "F",
-        "text": "A ver"
+        "text": "Punto y coma"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Haber* (verbo) se escribe con h."
+    "explanation": "Los títulos de artículos, capítulos, poemas o canciones se escriben entre comillas en el texto."
   },
   {
     "id": "2.1_q206",
     "number": 206,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "La abreviatura correcta de 'número' es:",
     "options": [
       {
         "key": "A",
-        "text": "Iba"
+        "text": "núm. o n.º"
       },
       {
         "key": "B",
-        "text": "Iva"
+        "text": "nro"
       },
       {
         "key": "C",
-        "text": "Iba"
+        "text": "num."
       },
       {
         "key": "D",
-        "text": "Iva"
-      },
-      {
-        "key": "E",
-        "text": "Iba"
-      },
-      {
-        "key": "F",
-        "text": "Iva"
+        "text": "Nº."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Iba* (verbo ir) se escribe con b."
+    "explanation": "La RAE valida 'núm.' o 'n.º' con letra volada y punto abreviativo."
   },
   {
     "id": "2.1_q207",
     "number": 207,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "En la enumeración 'Compramos manzanas, peras y uvas; cuadernos, lápices y reglas; y camisas y pantalones', el uso del punto y coma se justifica porque:",
     "options": [
       {
         "key": "A",
-        "text": "Rebelar"
+        "text": "Separa miembros de una enumeración compleja que ya contienen comas internas"
       },
       {
         "key": "B",
-        "text": "Revelar"
+        "text": "Es obligatorio antes de la conjunción y"
       },
       {
         "key": "C",
-        "text": "Rebelar"
+        "text": "Sustituye al punto y seguido"
       },
       {
         "key": "D",
-        "text": "Revelar"
-      },
-      {
-        "key": "E",
-        "text": "Rebelar"
-      },
-      {
-        "key": "F",
-        "text": "Revelar"
+        "text": "Indica el final de un párrafo"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "*Revelar* (descubrir) se escribe con v."
+    "correctAnswer": "A",
+    "explanation": "El punto y coma separa miembros de una cláusula compleja que ya contienen comas interiores."
   },
   {
     "id": "2.1_q208",
     "number": 208,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Los dos puntos (:) se emplean correctamente tras las fórmulas de saludo en cartas o correos en español antes de:",
     "options": [
       {
         "key": "A",
-        "text": "Sabia"
+        "text": "Iniciar la siguiente línea con mayúscula"
       },
       {
         "key": "B",
-        "text": "Savia"
+        "text": "Continuar en el mismo renglón con minúscula"
       },
       {
         "key": "C",
-        "text": "Sabia"
+        "text": "Colocar un punto y coma"
       },
       {
         "key": "D",
-        "text": "Savia"
-      },
-      {
-        "key": "E",
-        "text": "Sabia"
-      },
-      {
-        "key": "F",
-        "text": "Savia"
+        "text": "Cerrar con comillas"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "*Sabia* (sabiduría) se escribe con b."
+    "correctAnswer": "A",
+    "explanation": "En español, el encabezamiento de cartas o correos lleva dos puntos y el texto subsiguiente comienza en renglón aparte con mayúscula."
   },
   {
     "id": "2.1_q209",
     "number": 209,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "¿Cuál de las siguientes palabras es un acrónimo lexicalizado admitido como sustantivo común?",
     "options": [
       {
         "key": "A",
-        "text": "Tubo"
+        "text": "láser"
       },
       {
         "key": "B",
-        "text": "Tuvo"
+        "text": "OEA"
       },
       {
         "key": "C",
-        "text": "Tubo"
+        "text": "FMI"
       },
       {
         "key": "D",
-        "text": "Tuvo"
-      },
-      {
-        "key": "E",
-        "text": "Tubo"
-      },
-      {
-        "key": "F",
-        "text": "Tuvo"
+        "text": "ONU"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Tubo* (cilindro) se escribe con b."
+    "explanation": "'Láser' proviene del inglés light amplification by stimulated emission of radiation y se lexicalizó como nombre común acentuado."
   },
   {
     "id": "2.1_q210",
     "number": 210,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "El uso correcto de los puntos suspensivos (...) exige que sean exactamente:",
     "options": [
       {
         "key": "A",
-        "text": "Valla"
+        "text": "Tres puntos sin espacio entre ellos"
       },
       {
         "key": "B",
-        "text": "Vaya"
+        "text": "Cuatro puntos al final de la oración"
       },
       {
         "key": "C",
-        "text": "Valla"
+        "text": "Dos puntos continuos"
       },
       {
         "key": "D",
-        "text": "Vaya"
-      },
-      {
-        "key": "E",
-        "text": "Valla"
-      },
-      {
-        "key": "F",
-        "text": "Vaya"
+        "text": "Cinco puntos para indicar pausa mayor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Valla* (cerca) se escribe con v."
+    "explanation": "Los puntos suspensivos son estrictamente tres signos continuos."
   },
   {
     "id": "2.1_q211",
     "number": 211,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 11): Según la RAE, la regla ortográfica correcta para el cierre de las abreviaturas es:",
     "options": [
       {
         "key": "A",
-        "text": "Casar"
+        "text": "Llevan obligatoriamente punto abreviativo o barra"
       },
       {
         "key": "B",
-        "text": "Cazar"
+        "text": "Nunca llevan punto final"
       },
       {
         "key": "C",
-        "text": "Casar"
+        "text": "Llevan coma al final"
       },
       {
         "key": "D",
-        "text": "Cazar"
-      },
-      {
-        "key": "E",
-        "text": "Casar"
-      },
-      {
-        "key": "F",
-        "text": "Cazar"
+        "text": "Se escriben en mayúsculas sin punto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Casar* (matrimonio) se escribe con s."
+    "explanation": "Toda abreviatura debe cerrarse con punto abreviativo (ej. 'pág.', 'Dr.') o con barra (ej. 'c/')."
   },
   {
     "id": "2.1_q212",
     "number": 212,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 12): La forma ortográficamente correcta de la sigla de la Universidad de El Salvador es:",
     "options": [
       {
         "key": "A",
-        "text": "Ceda"
+        "text": "UES"
       },
       {
         "key": "B",
-        "text": "Seda"
+        "text": "U.E.S."
       },
       {
         "key": "C",
-        "text": "Ceda"
+        "text": "Ues"
       },
       {
         "key": "D",
-        "text": "Seda"
-      },
-      {
-        "key": "E",
-        "text": "Ceda"
-      },
-      {
-        "key": "F",
-        "text": "Seda"
+        "text": "U-E-S"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Ceda* (verbo ceder) se escribe con c."
+    "explanation": "Las siglas se escriben en mayúsculas compactas sin puntos ni espacios intermedios."
   },
   {
     "id": "2.1_q213",
     "number": 213,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 13): Un acrónimo se distingue de una sigla simple porque:",
     "options": [
       {
         "key": "A",
-        "text": "Cima"
+        "text": "Puede pronunciarse como una palabra y se somete a las reglas generales de acentuación"
       },
       {
         "key": "B",
-        "text": "Sima"
+        "text": "Solo tiene dos letras"
       },
       {
         "key": "C",
-        "text": "Cima"
+        "text": "Siempre lleva tilde diacrítica"
       },
       {
         "key": "D",
-        "text": "Sima"
-      },
-      {
-        "key": "E",
-        "text": "Cima"
-      },
-      {
-        "key": "F",
-        "text": "Sima"
+        "text": "Debe escribirse entre comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cima* (parte alta) se escribe con c."
+    "explanation": "Los acrónimos (como Ovni, Unicef, Sida) se leen silábicamente y se adaptan a las reglas de acentuación."
   },
   {
     "id": "2.1_q214",
     "number": 214,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 14): ¿En cuál oración se emplean correctamente los corchetes?",
     "options": [
       {
         "key": "A",
-        "text": "Cocer"
+        "text": "El autor afirmó: 'En aquel año [1992] se firmaron los Acuerdos de Paz'"
       },
       {
         "key": "B",
-        "text": "Coser"
+        "text": "El autor afirmó: '[En aquel año] se firmaron los Acuerdos'"
       },
       {
         "key": "C",
-        "text": "Cocer"
+        "text": "El autor [afirmó] que la paz era necesaria"
       },
       {
         "key": "D",
-        "text": "Coser"
-      },
-      {
-        "key": "E",
-        "text": "Cocer"
-      },
-      {
-        "key": "F",
-        "text": "Coser"
+        "text": "Los corchetes sustituyen a las comillas en todos los casos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cocer* (cocinar) se escribe con c."
+    "explanation": "Los corchetes se utilizan para introducir aclaraciones o interpolaciones ajenas dentro de una cita textual ajena."
   },
   {
     "id": "2.1_q215",
     "number": 215,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 15): Para encerrar el título de un artículo o capítulo dentro de un libro se deben usar:",
     "options": [
       {
         "key": "A",
-        "text": "Caza"
+        "text": "Comillas"
       },
       {
         "key": "B",
-        "text": "Casa"
+        "text": "Paréntesis"
       },
       {
         "key": "C",
-        "text": "Caza"
+        "text": "Corchetes"
       },
       {
         "key": "D",
-        "text": "Casa"
-      },
-      {
-        "key": "E",
-        "text": "Caza"
-      },
-      {
-        "key": "F",
-        "text": "Casa"
+        "text": "Punto y coma"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Caza* (cacería) se escribe con z."
+    "explanation": "Los títulos de artículos, capítulos, poemas o canciones se escriben entre comillas en el texto."
   },
   {
     "id": "2.1_q216",
     "number": 216,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 16): La abreviatura correcta de 'número' es:",
     "options": [
       {
         "key": "A",
-        "text": "Cien"
+        "text": "núm. o n.º"
       },
       {
         "key": "B",
-        "text": "Sien"
+        "text": "nro"
       },
       {
         "key": "C",
-        "text": "Cien"
+        "text": "num."
       },
       {
         "key": "D",
-        "text": "Sien"
-      },
-      {
-        "key": "E",
-        "text": "Cien"
-      },
-      {
-        "key": "F",
-        "text": "Sien"
+        "text": "Nº."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cien* (número) se escribe con c."
+    "explanation": "La RAE valida 'núm.' o 'n.º' con letra volada y punto abreviativo."
   },
   {
     "id": "2.1_q217",
     "number": 217,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 17): En la enumeración 'Compramos manzanas, peras y uvas; cuadernos, lápices y reglas; y camisas y pantalones', el uso del punto y coma se justifica porque:",
     "options": [
       {
         "key": "A",
-        "text": "Ciervo"
+        "text": "Separa miembros de una enumeración compleja que ya contienen comas internas"
       },
       {
         "key": "B",
-        "text": "Siervo"
+        "text": "Es obligatorio antes de la conjunción y"
       },
       {
         "key": "C",
-        "text": "Ciervo"
+        "text": "Sustituye al punto y seguido"
       },
       {
         "key": "D",
-        "text": "Siervo"
-      },
-      {
-        "key": "E",
-        "text": "Ciervo"
-      },
-      {
-        "key": "F",
-        "text": "Siervo"
+        "text": "Indica el final de un párrafo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Ciervo* (animal) se escribe con c."
+    "explanation": "El punto y coma separa miembros de una cláusula compleja que ya contienen comas interiores."
   },
   {
     "id": "2.1_q218",
     "number": 218,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 18): Los dos puntos (:) se emplean correctamente tras las fórmulas de saludo en cartas o correos en español antes de:",
     "options": [
       {
         "key": "A",
-        "text": "Cima"
+        "text": "Iniciar la siguiente línea con mayúscula"
       },
       {
         "key": "B",
-        "text": "Sima"
+        "text": "Continuar en el mismo renglón con minúscula"
       },
       {
         "key": "C",
-        "text": "Cima"
+        "text": "Colocar un punto y coma"
       },
       {
         "key": "D",
-        "text": "Sima"
-      },
-      {
-        "key": "E",
-        "text": "Cima"
-      },
-      {
-        "key": "F",
-        "text": "Sima"
+        "text": "Cerrar con comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cima* (parte alta) se escribe con c."
+    "explanation": "En español, el encabezamiento de cartas o correos lleva dos puntos y el texto subsiguiente comienza en renglón aparte con mayúscula."
   },
   {
     "id": "2.1_q219",
     "number": 219,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 19): ¿Cuál de las siguientes palabras es un acrónimo lexicalizado admitido como sustantivo común?",
     "options": [
       {
         "key": "A",
-        "text": "Cocer"
+        "text": "láser"
       },
       {
         "key": "B",
-        "text": "Coser"
+        "text": "OEA"
       },
       {
         "key": "C",
-        "text": "Cocer"
+        "text": "FMI"
       },
       {
         "key": "D",
-        "text": "Coser"
-      },
-      {
-        "key": "E",
-        "text": "Cocer"
-      },
-      {
-        "key": "F",
-        "text": "Coser"
+        "text": "ONU"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cocer* (cocinar) se escribe con c."
+    "explanation": "'Láser' proviene del inglés light amplification by stimulated emission of radiation y se lexicalizó como nombre común acentuado."
   },
   {
     "id": "2.1_q220",
     "number": 220,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 20): El uso correcto de los puntos suspensivos (...) exige que sean exactamente:",
     "options": [
       {
         "key": "A",
-        "text": "Caza"
+        "text": "Tres puntos sin espacio entre ellos"
       },
       {
         "key": "B",
-        "text": "Casa"
+        "text": "Cuatro puntos al final de la oración"
       },
       {
         "key": "C",
-        "text": "Caza"
+        "text": "Dos puntos continuos"
       },
       {
         "key": "D",
-        "text": "Casa"
-      },
-      {
-        "key": "E",
-        "text": "Caza"
-      },
-      {
-        "key": "F",
-        "text": "Casa"
+        "text": "Cinco puntos para indicar pausa mayor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Caza* (cacería) se escribe con z."
+    "explanation": "Los puntos suspensivos son estrictamente tres signos continuos."
   },
   {
     "id": "2.1_q221",
     "number": 221,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 21): Según la RAE, la regla ortográfica correcta para el cierre de las abreviaturas es:",
     "options": [
       {
         "key": "A",
-        "text": "Cien"
+        "text": "Llevan obligatoriamente punto abreviativo o barra"
       },
       {
         "key": "B",
-        "text": "Sien"
+        "text": "Nunca llevan punto final"
       },
       {
         "key": "C",
-        "text": "Cien"
+        "text": "Llevan coma al final"
       },
       {
         "key": "D",
-        "text": "Sien"
-      },
-      {
-        "key": "E",
-        "text": "Cien"
-      },
-      {
-        "key": "F",
-        "text": "Sien"
+        "text": "Se escriben en mayúsculas sin punto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cien* (número) se escribe con c."
+    "explanation": "Toda abreviatura debe cerrarse con punto abreviativo (ej. 'pág.', 'Dr.') o con barra (ej. 'c/')."
   },
   {
     "id": "2.1_q222",
     "number": 222,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 22): La forma ortográficamente correcta de la sigla de la Universidad de El Salvador es:",
     "options": [
       {
         "key": "A",
-        "text": "Ciervo"
+        "text": "UES"
       },
       {
         "key": "B",
-        "text": "Siervo"
+        "text": "U.E.S."
       },
       {
         "key": "C",
-        "text": "Ciervo"
+        "text": "Ues"
       },
       {
         "key": "D",
-        "text": "Siervo"
-      },
-      {
-        "key": "E",
-        "text": "Ciervo"
-      },
-      {
-        "key": "F",
-        "text": "Siervo"
+        "text": "U-E-S"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Ciervo* (animal) se escribe con c."
+    "explanation": "Las siglas se escriben en mayúsculas compactas sin puntos ni espacios intermedios."
   },
   {
     "id": "2.1_q223",
     "number": 223,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 23): Un acrónimo se distingue de una sigla simple porque:",
     "options": [
       {
         "key": "A",
-        "text": "Cima"
+        "text": "Puede pronunciarse como una palabra y se somete a las reglas generales de acentuación"
       },
       {
         "key": "B",
-        "text": "Sima"
+        "text": "Solo tiene dos letras"
       },
       {
         "key": "C",
-        "text": "Cima"
+        "text": "Siempre lleva tilde diacrítica"
       },
       {
         "key": "D",
-        "text": "Sima"
-      },
-      {
-        "key": "E",
-        "text": "Cima"
-      },
-      {
-        "key": "F",
-        "text": "Sima"
+        "text": "Debe escribirse entre comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cima* (parte alta) se escribe con c."
+    "explanation": "Los acrónimos (como Ovni, Unicef, Sida) se leen silábicamente y se adaptan a las reglas de acentuación."
   },
   {
     "id": "2.1_q224",
     "number": 224,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 24): ¿En cuál oración se emplean correctamente los corchetes?",
     "options": [
       {
         "key": "A",
-        "text": "Cocer"
+        "text": "El autor afirmó: 'En aquel año [1992] se firmaron los Acuerdos de Paz'"
       },
       {
         "key": "B",
-        "text": "Coser"
+        "text": "El autor afirmó: '[En aquel año] se firmaron los Acuerdos'"
       },
       {
         "key": "C",
-        "text": "Cocer"
+        "text": "El autor [afirmó] que la paz era necesaria"
       },
       {
         "key": "D",
-        "text": "Coser"
-      },
-      {
-        "key": "E",
-        "text": "Cocer"
-      },
-      {
-        "key": "F",
-        "text": "Coser"
+        "text": "Los corchetes sustituyen a las comillas en todos los casos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cocer* (cocinar) se escribe con c."
+    "explanation": "Los corchetes se utilizan para introducir aclaraciones o interpolaciones ajenas dentro de una cita textual ajena."
   },
   {
     "id": "2.1_q225",
     "number": 225,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 25): Para encerrar el título de un artículo o capítulo dentro de un libro se deben usar:",
     "options": [
       {
         "key": "A",
-        "text": "Caza"
+        "text": "Comillas"
       },
       {
         "key": "B",
-        "text": "Casa"
+        "text": "Paréntesis"
       },
       {
         "key": "C",
-        "text": "Caza"
+        "text": "Corchetes"
       },
       {
         "key": "D",
-        "text": "Casa"
-      },
-      {
-        "key": "E",
-        "text": "Caza"
-      },
-      {
-        "key": "F",
-        "text": "Casa"
+        "text": "Punto y coma"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Caza* (cacería) se escribe con z."
+    "explanation": "Los títulos de artículos, capítulos, poemas o canciones se escriben entre comillas en el texto."
   },
   {
     "id": "2.1_q226",
     "number": 226,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 26): La abreviatura correcta de 'número' es:",
     "options": [
       {
         "key": "A",
-        "text": "Cien"
+        "text": "núm. o n.º"
       },
       {
         "key": "B",
-        "text": "Sien"
+        "text": "nro"
       },
       {
         "key": "C",
-        "text": "Cien"
+        "text": "num."
       },
       {
         "key": "D",
-        "text": "Sien"
-      },
-      {
-        "key": "E",
-        "text": "Cien"
-      },
-      {
-        "key": "F",
-        "text": "Sien"
+        "text": "Nº."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cien* (número) se escribe con c."
+    "explanation": "La RAE valida 'núm.' o 'n.º' con letra volada y punto abreviativo."
   },
   {
     "id": "2.1_q227",
     "number": 227,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 27): En la enumeración 'Compramos manzanas, peras y uvas; cuadernos, lápices y reglas; y camisas y pantalones', el uso del punto y coma se justifica porque:",
     "options": [
       {
         "key": "A",
-        "text": "Ciervo"
+        "text": "Separa miembros de una enumeración compleja que ya contienen comas internas"
       },
       {
         "key": "B",
-        "text": "Siervo"
+        "text": "Es obligatorio antes de la conjunción y"
       },
       {
         "key": "C",
-        "text": "Ciervo"
+        "text": "Sustituye al punto y seguido"
       },
       {
         "key": "D",
-        "text": "Siervo"
-      },
-      {
-        "key": "E",
-        "text": "Ciervo"
-      },
-      {
-        "key": "F",
-        "text": "Siervo"
+        "text": "Indica el final de un párrafo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Ciervo* (animal) se escribe con c."
+    "explanation": "El punto y coma separa miembros de una cláusula compleja que ya contienen comas interiores."
   },
   {
     "id": "2.1_q228",
     "number": 228,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 28): Los dos puntos (:) se emplean correctamente tras las fórmulas de saludo en cartas o correos en español antes de:",
     "options": [
       {
         "key": "A",
-        "text": "Cima"
+        "text": "Iniciar la siguiente línea con mayúscula"
       },
       {
         "key": "B",
-        "text": "Sima"
+        "text": "Continuar en el mismo renglón con minúscula"
       },
       {
         "key": "C",
-        "text": "Cima"
+        "text": "Colocar un punto y coma"
       },
       {
         "key": "D",
-        "text": "Sima"
-      },
-      {
-        "key": "E",
-        "text": "Cima"
-      },
-      {
-        "key": "F",
-        "text": "Sima"
+        "text": "Cerrar con comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cima* (parte alta) se escribe con c."
+    "explanation": "En español, el encabezamiento de cartas o correos lleva dos puntos y el texto subsiguiente comienza en renglón aparte con mayúscula."
   },
   {
     "id": "2.1_q229",
     "number": 229,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 29): ¿Cuál de las siguientes palabras es un acrónimo lexicalizado admitido como sustantivo común?",
     "options": [
       {
         "key": "A",
-        "text": "Cocer"
+        "text": "láser"
       },
       {
         "key": "B",
-        "text": "Coser"
+        "text": "OEA"
       },
       {
         "key": "C",
-        "text": "Cocer"
+        "text": "FMI"
       },
       {
         "key": "D",
-        "text": "Coser"
-      },
-      {
-        "key": "E",
-        "text": "Cocer"
-      },
-      {
-        "key": "F",
-        "text": "Coser"
+        "text": "ONU"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cocer* (cocinar) se escribe con c."
+    "explanation": "'Láser' proviene del inglés light amplification by stimulated emission of radiation y se lexicalizó como nombre común acentuado."
   },
   {
     "id": "2.1_q230",
     "number": 230,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 30): El uso correcto de los puntos suspensivos (...) exige que sean exactamente:",
     "options": [
       {
         "key": "A",
-        "text": "Caza"
+        "text": "Tres puntos sin espacio entre ellos"
       },
       {
         "key": "B",
-        "text": "Casa"
+        "text": "Cuatro puntos al final de la oración"
       },
       {
         "key": "C",
-        "text": "Caza"
+        "text": "Dos puntos continuos"
       },
       {
         "key": "D",
-        "text": "Casa"
-      },
-      {
-        "key": "E",
-        "text": "Caza"
-      },
-      {
-        "key": "F",
-        "text": "Casa"
+        "text": "Cinco puntos para indicar pausa mayor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Caza* (cacería) se escribe con z."
+    "explanation": "Los puntos suspensivos son estrictamente tres signos continuos."
   },
   {
     "id": "2.1_q231",
     "number": 231,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 31): Según la RAE, la regla ortográfica correcta para el cierre de las abreviaturas es:",
     "options": [
       {
         "key": "A",
-        "text": "Cien"
+        "text": "Llevan obligatoriamente punto abreviativo o barra"
       },
       {
         "key": "B",
-        "text": "Sien"
+        "text": "Nunca llevan punto final"
       },
       {
         "key": "C",
-        "text": "Cien"
+        "text": "Llevan coma al final"
       },
       {
         "key": "D",
-        "text": "Sien"
-      },
-      {
-        "key": "E",
-        "text": "Cien"
-      },
-      {
-        "key": "F",
-        "text": "Sien"
+        "text": "Se escriben en mayúsculas sin punto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cien* (número) se escribe con c."
+    "explanation": "Toda abreviatura debe cerrarse con punto abreviativo (ej. 'pág.', 'Dr.') o con barra (ej. 'c/')."
   },
   {
     "id": "2.1_q232",
     "number": 232,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 32): La forma ortográficamente correcta de la sigla de la Universidad de El Salvador es:",
     "options": [
       {
         "key": "A",
-        "text": "Ciervo"
+        "text": "UES"
       },
       {
         "key": "B",
-        "text": "Siervo"
+        "text": "U.E.S."
       },
       {
         "key": "C",
-        "text": "Ciervo"
+        "text": "Ues"
       },
       {
         "key": "D",
-        "text": "Siervo"
-      },
-      {
-        "key": "E",
-        "text": "Ciervo"
-      },
-      {
-        "key": "F",
-        "text": "Siervo"
+        "text": "U-E-S"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Ciervo* (animal) se escribe con c."
+    "explanation": "Las siglas se escriben en mayúsculas compactas sin puntos ni espacios intermedios."
   },
   {
     "id": "2.1_q233",
     "number": 233,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 33): Un acrónimo se distingue de una sigla simple porque:",
     "options": [
       {
         "key": "A",
-        "text": "Cima"
+        "text": "Puede pronunciarse como una palabra y se somete a las reglas generales de acentuación"
       },
       {
         "key": "B",
-        "text": "Sima"
+        "text": "Solo tiene dos letras"
       },
       {
         "key": "C",
-        "text": "Cima"
+        "text": "Siempre lleva tilde diacrítica"
       },
       {
         "key": "D",
-        "text": "Sima"
-      },
-      {
-        "key": "E",
-        "text": "Cima"
-      },
-      {
-        "key": "F",
-        "text": "Sima"
+        "text": "Debe escribirse entre comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cima* (parte alta) se escribe con c."
+    "explanation": "Los acrónimos (como Ovni, Unicef, Sida) se leen silábicamente y se adaptan a las reglas de acentuación."
   },
   {
     "id": "2.1_q234",
     "number": 234,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 34): ¿En cuál oración se emplean correctamente los corchetes?",
     "options": [
       {
         "key": "A",
-        "text": "Cocer"
+        "text": "El autor afirmó: 'En aquel año [1992] se firmaron los Acuerdos de Paz'"
       },
       {
         "key": "B",
-        "text": "Coser"
+        "text": "El autor afirmó: '[En aquel año] se firmaron los Acuerdos'"
       },
       {
         "key": "C",
-        "text": "Cocer"
+        "text": "El autor [afirmó] que la paz era necesaria"
       },
       {
         "key": "D",
-        "text": "Coser"
-      },
-      {
-        "key": "E",
-        "text": "Cocer"
-      },
-      {
-        "key": "F",
-        "text": "Coser"
+        "text": "Los corchetes sustituyen a las comillas en todos los casos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cocer* (cocinar) se escribe con c."
+    "explanation": "Los corchetes se utilizan para introducir aclaraciones o interpolaciones ajenas dentro de una cita textual ajena."
   },
   {
     "id": "2.1_q235",
     "number": 235,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 35): Para encerrar el título de un artículo o capítulo dentro de un libro se deben usar:",
     "options": [
       {
         "key": "A",
-        "text": "Caza"
+        "text": "Comillas"
       },
       {
         "key": "B",
-        "text": "Casa"
+        "text": "Paréntesis"
       },
       {
         "key": "C",
-        "text": "Caza"
+        "text": "Corchetes"
       },
       {
         "key": "D",
-        "text": "Casa"
-      },
-      {
-        "key": "E",
-        "text": "Caza"
-      },
-      {
-        "key": "F",
-        "text": "Casa"
+        "text": "Punto y coma"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Caza* (cacería) se escribe con z."
+    "explanation": "Los títulos de artículos, capítulos, poemas o canciones se escriben entre comillas en el texto."
   },
   {
     "id": "2.1_q236",
     "number": 236,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 36): La abreviatura correcta de 'número' es:",
     "options": [
       {
         "key": "A",
-        "text": "Cien"
+        "text": "núm. o n.º"
       },
       {
         "key": "B",
-        "text": "Sien"
+        "text": "nro"
       },
       {
         "key": "C",
-        "text": "Cien"
+        "text": "num."
       },
       {
         "key": "D",
-        "text": "Sien"
-      },
-      {
-        "key": "E",
-        "text": "Cien"
-      },
-      {
-        "key": "F",
-        "text": "Sien"
+        "text": "Nº."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cien* (número) se escribe con c."
+    "explanation": "La RAE valida 'núm.' o 'n.º' con letra volada y punto abreviativo."
   },
   {
     "id": "2.1_q237",
     "number": 237,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 37): En la enumeración 'Compramos manzanas, peras y uvas; cuadernos, lápices y reglas; y camisas y pantalones', el uso del punto y coma se justifica porque:",
     "options": [
       {
         "key": "A",
-        "text": "Ciervo"
+        "text": "Separa miembros de una enumeración compleja que ya contienen comas internas"
       },
       {
         "key": "B",
-        "text": "Siervo"
+        "text": "Es obligatorio antes de la conjunción y"
       },
       {
         "key": "C",
-        "text": "Ciervo"
+        "text": "Sustituye al punto y seguido"
       },
       {
         "key": "D",
-        "text": "Siervo"
-      },
-      {
-        "key": "E",
-        "text": "Ciervo"
-      },
-      {
-        "key": "F",
-        "text": "Siervo"
+        "text": "Indica el final de un párrafo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Ciervo* (animal) se escribe con c."
+    "explanation": "El punto y coma separa miembros de una cláusula compleja que ya contienen comas interiores."
   },
   {
     "id": "2.1_q238",
     "number": 238,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 38): Los dos puntos (:) se emplean correctamente tras las fórmulas de saludo en cartas o correos en español antes de:",
     "options": [
       {
         "key": "A",
-        "text": "Cima"
+        "text": "Iniciar la siguiente línea con mayúscula"
       },
       {
         "key": "B",
-        "text": "Sima"
+        "text": "Continuar en el mismo renglón con minúscula"
       },
       {
         "key": "C",
-        "text": "Cima"
+        "text": "Colocar un punto y coma"
       },
       {
         "key": "D",
-        "text": "Sima"
-      },
-      {
-        "key": "E",
-        "text": "Cima"
-      },
-      {
-        "key": "F",
-        "text": "Sima"
+        "text": "Cerrar con comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cima* (parte alta) se escribe con c."
+    "explanation": "En español, el encabezamiento de cartas o correos lleva dos puntos y el texto subsiguiente comienza en renglón aparte con mayúscula."
   },
   {
     "id": "2.1_q239",
     "number": 239,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 39): ¿Cuál de las siguientes palabras es un acrónimo lexicalizado admitido como sustantivo común?",
     "options": [
       {
         "key": "A",
-        "text": "Cocer"
+        "text": "láser"
       },
       {
         "key": "B",
-        "text": "Coser"
+        "text": "OEA"
       },
       {
         "key": "C",
-        "text": "Cocer"
+        "text": "FMI"
       },
       {
         "key": "D",
-        "text": "Coser"
-      },
-      {
-        "key": "E",
-        "text": "Cocer"
-      },
-      {
-        "key": "F",
-        "text": "Coser"
+        "text": "ONU"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cocer* (cocinar) se escribe con c."
+    "explanation": "'Láser' proviene del inglés light amplification by stimulated emission of radiation y se lexicalizó como nombre común acentuado."
   },
   {
     "id": "2.1_q240",
     "number": 240,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 40): El uso correcto de los puntos suspensivos (...) exige que sean exactamente:",
     "options": [
       {
         "key": "A",
-        "text": "Caza"
+        "text": "Tres puntos sin espacio entre ellos"
       },
       {
         "key": "B",
-        "text": "Casa"
+        "text": "Cuatro puntos al final de la oración"
       },
       {
         "key": "C",
-        "text": "Caza"
+        "text": "Dos puntos continuos"
       },
       {
         "key": "D",
-        "text": "Casa"
-      },
-      {
-        "key": "E",
-        "text": "Caza"
-      },
-      {
-        "key": "F",
-        "text": "Casa"
+        "text": "Cinco puntos para indicar pausa mayor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Caza* (cacería) se escribe con z."
+    "explanation": "Los puntos suspensivos son estrictamente tres signos continuos."
   },
   {
     "id": "2.1_q241",
     "number": 241,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 41): Según la RAE, la regla ortográfica correcta para el cierre de las abreviaturas es:",
     "options": [
       {
         "key": "A",
-        "text": "Cien"
+        "text": "Llevan obligatoriamente punto abreviativo o barra"
       },
       {
         "key": "B",
-        "text": "Sien"
+        "text": "Nunca llevan punto final"
       },
       {
         "key": "C",
-        "text": "Cien"
+        "text": "Llevan coma al final"
       },
       {
         "key": "D",
-        "text": "Sien"
-      },
-      {
-        "key": "E",
-        "text": "Cien"
-      },
-      {
-        "key": "F",
-        "text": "Sien"
+        "text": "Se escriben en mayúsculas sin punto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cien* (número) se escribe con c."
+    "explanation": "Toda abreviatura debe cerrarse con punto abreviativo (ej. 'pág.', 'Dr.') o con barra (ej. 'c/')."
   },
   {
     "id": "2.1_q242",
     "number": 242,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 42): La forma ortográficamente correcta de la sigla de la Universidad de El Salvador es:",
     "options": [
       {
         "key": "A",
-        "text": "Ciervo"
+        "text": "UES"
       },
       {
         "key": "B",
-        "text": "Siervo"
+        "text": "U.E.S."
       },
       {
         "key": "C",
-        "text": "Ciervo"
+        "text": "Ues"
       },
       {
         "key": "D",
-        "text": "Siervo"
-      },
-      {
-        "key": "E",
-        "text": "Ciervo"
-      },
-      {
-        "key": "F",
-        "text": "Siervo"
+        "text": "U-E-S"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Ciervo* (animal) se escribe con c."
+    "explanation": "Las siglas se escriben en mayúsculas compactas sin puntos ni espacios intermedios."
   },
   {
     "id": "2.1_q243",
     "number": 243,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 43): Un acrónimo se distingue de una sigla simple porque:",
     "options": [
       {
         "key": "A",
-        "text": "Cima"
+        "text": "Puede pronunciarse como una palabra y se somete a las reglas generales de acentuación"
       },
       {
         "key": "B",
-        "text": "Sima"
+        "text": "Solo tiene dos letras"
       },
       {
         "key": "C",
-        "text": "Cima"
+        "text": "Siempre lleva tilde diacrítica"
       },
       {
         "key": "D",
-        "text": "Sima"
-      },
-      {
-        "key": "E",
-        "text": "Cima"
-      },
-      {
-        "key": "F",
-        "text": "Sima"
+        "text": "Debe escribirse entre comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cima* (parte alta) se escribe con c."
+    "explanation": "Los acrónimos (como Ovni, Unicef, Sida) se leen silábicamente y se adaptan a las reglas de acentuación."
   },
   {
     "id": "2.1_q244",
     "number": 244,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 44): ¿En cuál oración se emplean correctamente los corchetes?",
     "options": [
       {
         "key": "A",
-        "text": "Cocer"
+        "text": "El autor afirmó: 'En aquel año [1992] se firmaron los Acuerdos de Paz'"
       },
       {
         "key": "B",
-        "text": "Coser"
+        "text": "El autor afirmó: '[En aquel año] se firmaron los Acuerdos'"
       },
       {
         "key": "C",
-        "text": "Cocer"
+        "text": "El autor [afirmó] que la paz era necesaria"
       },
       {
         "key": "D",
-        "text": "Coser"
-      },
-      {
-        "key": "E",
-        "text": "Cocer"
-      },
-      {
-        "key": "F",
-        "text": "Coser"
+        "text": "Los corchetes sustituyen a las comillas en todos los casos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cocer* (cocinar) se escribe con c."
+    "explanation": "Los corchetes se utilizan para introducir aclaraciones o interpolaciones ajenas dentro de una cita textual ajena."
   },
   {
     "id": "2.1_q245",
     "number": 245,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 45): Para encerrar el título de un artículo o capítulo dentro de un libro se deben usar:",
     "options": [
       {
         "key": "A",
-        "text": "Caza"
+        "text": "Comillas"
       },
       {
         "key": "B",
-        "text": "Casa"
+        "text": "Paréntesis"
       },
       {
         "key": "C",
-        "text": "Caza"
+        "text": "Corchetes"
       },
       {
         "key": "D",
-        "text": "Casa"
-      },
-      {
-        "key": "E",
-        "text": "Caza"
-      },
-      {
-        "key": "F",
-        "text": "Casa"
+        "text": "Punto y coma"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Caza* (cacería) se escribe con z."
+    "explanation": "Los títulos de artículos, capítulos, poemas o canciones se escriben entre comillas en el texto."
   },
   {
     "id": "2.1_q246",
     "number": 246,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 46): La abreviatura correcta de 'número' es:",
     "options": [
       {
         "key": "A",
-        "text": "Cien"
+        "text": "núm. o n.º"
       },
       {
         "key": "B",
-        "text": "Sien"
+        "text": "nro"
       },
       {
         "key": "C",
-        "text": "Cien"
+        "text": "num."
       },
       {
         "key": "D",
-        "text": "Sien"
-      },
-      {
-        "key": "E",
-        "text": "Cien"
-      },
-      {
-        "key": "F",
-        "text": "Sien"
+        "text": "Nº."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cien* (número) se escribe con c."
+    "explanation": "La RAE valida 'núm.' o 'n.º' con letra volada y punto abreviativo."
   },
   {
     "id": "2.1_q247",
     "number": 247,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 47): En la enumeración 'Compramos manzanas, peras y uvas; cuadernos, lápices y reglas; y camisas y pantalones', el uso del punto y coma se justifica porque:",
     "options": [
       {
         "key": "A",
-        "text": "Ciervo"
+        "text": "Separa miembros de una enumeración compleja que ya contienen comas internas"
       },
       {
         "key": "B",
-        "text": "Siervo"
+        "text": "Es obligatorio antes de la conjunción y"
       },
       {
         "key": "C",
-        "text": "Ciervo"
+        "text": "Sustituye al punto y seguido"
       },
       {
         "key": "D",
-        "text": "Siervo"
-      },
-      {
-        "key": "E",
-        "text": "Ciervo"
-      },
-      {
-        "key": "F",
-        "text": "Siervo"
+        "text": "Indica el final de un párrafo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Ciervo* (animal) se escribe con c."
+    "explanation": "El punto y coma separa miembros de una cláusula compleja que ya contienen comas interiores."
   },
   {
     "id": "2.1_q248",
     "number": 248,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 48): Los dos puntos (:) se emplean correctamente tras las fórmulas de saludo en cartas o correos en español antes de:",
     "options": [
       {
         "key": "A",
-        "text": "Cima"
+        "text": "Iniciar la siguiente línea con mayúscula"
       },
       {
         "key": "B",
-        "text": "Sima"
+        "text": "Continuar en el mismo renglón con minúscula"
       },
       {
         "key": "C",
-        "text": "Cima"
+        "text": "Colocar un punto y coma"
       },
       {
         "key": "D",
-        "text": "Sima"
-      },
-      {
-        "key": "E",
-        "text": "Cima"
-      },
-      {
-        "key": "F",
-        "text": "Sima"
+        "text": "Cerrar con comillas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cima* (parte alta) se escribe con c."
+    "explanation": "En español, el encabezamiento de cartas o correos lleva dos puntos y el texto subsiguiente comienza en renglón aparte con mayúscula."
   },
   {
     "id": "2.1_q249",
     "number": 249,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 49): ¿Cuál de las siguientes palabras es un acrónimo lexicalizado admitido como sustantivo común?",
     "options": [
       {
         "key": "A",
-        "text": "Cocer"
+        "text": "láser"
       },
       {
         "key": "B",
-        "text": "Coser"
+        "text": "OEA"
       },
       {
         "key": "C",
-        "text": "Cocer"
+        "text": "FMI"
       },
       {
         "key": "D",
-        "text": "Coser"
-      },
-      {
-        "key": "E",
-        "text": "Cocer"
-      },
-      {
-        "key": "F",
-        "text": "Coser"
+        "text": "ONU"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Cocer* (cocinar) se escribe con c."
+    "explanation": "'Láser' proviene del inglés light amplification by stimulated emission of radiation y se lexicalizó como nombre común acentuado."
   },
   {
     "id": "2.1_q250",
     "number": 250,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: USO DE GRAFÍAS (201–250)",
-    "statement": "¿Cuál es la forma correcta?",
+    "sectionTitle": "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)",
+    "statement": "Normativa ortográfica de puntuación y siglas (reactivo 50): El uso correcto de los puntos suspensivos (...) exige que sean exactamente:",
     "options": [
       {
         "key": "A",
-        "text": "Caza"
+        "text": "Tres puntos sin espacio entre ellos"
       },
       {
         "key": "B",
-        "text": "Casa"
+        "text": "Cuatro puntos al final de la oración"
       },
       {
         "key": "C",
-        "text": "Caza"
+        "text": "Dos puntos continuos"
       },
       {
         "key": "D",
-        "text": "Casa"
-      },
-      {
-        "key": "E",
-        "text": "Caza"
-      },
-      {
-        "key": "F",
-        "text": "Casa ---"
+        "text": "Cinco puntos para indicar pausa mayor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "*Caza* (cacería) se escribe con z."
+    "explanation": "Los puntos suspensivos son estrictamente tres signos continuos."
   },
   {
     "id": "2.1_q251",
     "number": 251,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Qué signo se usa para separar elementos de una enumeración?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Seleccione la oración correctamente escrita con la conjunción adversativa 'sino':",
     "options": [
       {
         "key": "A",
-        "text": "Punto"
+        "text": "No quiero café, sino chocolate caliente"
       },
       {
         "key": "B",
-        "text": "Coma"
+        "text": "No quiero café, si no chocolate caliente"
       },
       {
         "key": "C",
-        "text": "Punto y coma"
+        "text": "Vendré sino llueve mañana"
       },
       {
         "key": "D",
-        "text": "Dos puntos"
-      },
-      {
-        "key": "E",
-        "text": "Puntos suspensivos"
-      },
-      {
-        "key": "F",
-        "text": "Interrogación"
+        "text": "Sino estudias reprobarás"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "La coma separa elementos de una enumeración."
+    "correctAnswer": "A",
+    "explanation": "'Sino' junto es conjunción adversativa tras negación ('no quiero X, sino Y'). 'Si no' separado es condicional negativo."
   },
   {
     "id": "2.1_q252",
     "number": 252,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Qué signo se usa al final de una oración?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Complete correctamente la oración: 'Ignoro el _____ de su ausencia':",
     "options": [
       {
         "key": "A",
-        "text": "Coma"
+        "text": "porqué"
       },
       {
         "key": "B",
-        "text": "Punto"
+        "text": "por qué"
       },
       {
         "key": "C",
-        "text": "Punto y coma"
+        "text": "porque"
       },
       {
         "key": "D",
-        "text": "Dos puntos"
-      },
-      {
-        "key": "E",
-        "text": "Puntos suspensivos"
-      },
-      {
-        "key": "F",
-        "text": "Interrogación"
+        "text": "por que"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "El punto cierra una oración."
+    "correctAnswer": "A",
+    "explanation": "'Porqué' es sustantivo masculino sinónimo de 'motivo' o 'causa', precedido por artículo o determinante y lleva tilde."
   },
   {
     "id": "2.1_q253",
     "number": 253,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Qué signo se usa para indicar una pausa mayor que la coma?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Complete: '¿_____ no viniste a la clase de refuerzo universitario?':",
     "options": [
       {
         "key": "A",
-        "text": "Punto"
+        "text": "Por qué"
       },
       {
         "key": "B",
-        "text": "Coma"
+        "text": "Porqué"
       },
       {
         "key": "C",
-        "text": "Punto y coma"
+        "text": "Porque"
       },
       {
         "key": "D",
-        "text": "Dos puntos"
-      },
-      {
-        "key": "E",
-        "text": "Puntos suspensivos"
-      },
-      {
-        "key": "F",
-        "text": "Interrogación"
+        "text": "Por que"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "El punto y coma indica pausa mayor que la coma."
+    "correctAnswer": "A",
+    "explanation": "'Por qué' tónico y separado es la locución interrogativa causal directa o indirecta."
   },
   {
     "id": "2.1_q254",
     "number": 254,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Qué signo se usa antes de una enumeración?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Complete: 'No fui a la biblioteca _____ tenía que trabajar':",
     "options": [
       {
         "key": "A",
-        "text": "Punto"
+        "text": "porque"
       },
       {
         "key": "B",
-        "text": "Coma"
+        "text": "por qué"
       },
       {
         "key": "C",
-        "text": "Punto y coma"
+        "text": "porqué"
       },
       {
         "key": "D",
-        "text": "Dos puntos"
-      },
-      {
-        "key": "E",
-        "text": "Puntos suspensivos"
-      },
-      {
-        "key": "F",
-        "text": "Interrogación"
+        "text": "por que"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Los dos puntos introducen una enumeración."
+    "correctAnswer": "A",
+    "explanation": "'Porque' átono y junto es conjunción causal equivalente a 'ya que' o 'puesto que'."
   },
   {
     "id": "2.1_q255",
     "number": 255,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Qué signo se usa para indicar duda o suspenso?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Seleccione la oración donde se emplea adecuadamente la forma 'a ver':",
     "options": [
       {
         "key": "A",
-        "text": "Punto"
+        "text": "Vamos a ver los resultados del examen"
       },
       {
         "key": "B",
-        "text": "Coma"
+        "text": "Haber si vienes temprano mañana"
       },
       {
         "key": "C",
-        "text": "Punto y coma"
+        "text": "Debió a ver estudiado más"
       },
       {
         "key": "D",
-        "text": "Dos puntos"
-      },
-      {
-        "key": "E",
-        "text": "Puntos suspensivos"
-      },
-      {
-        "key": "F",
-        "text": "Interrogación"
+        "text": "Va haber fiesta hoy"
       }
     ],
-    "correctAnswer": "E",
-    "explanation": "Los puntos suspensivos indican duda o suspenso."
+    "correctAnswer": "A",
+    "explanation": "'A ver' es la secuencia de preposición 'a' y el verbo 'ver' ('vamos a observar/comprobar')."
   },
   {
     "id": "2.1_q256",
     "number": 256,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Qué signo se usa al final de una pregunta?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Complete: 'El estudiante debe _____ presentado su documento de identidad':",
     "options": [
       {
         "key": "A",
-        "text": "Punto"
+        "text": "haber"
       },
       {
         "key": "B",
-        "text": "Coma"
+        "text": "a ver"
       },
       {
         "key": "C",
-        "text": "Punto y coma"
+        "text": "a ver sido"
       },
       {
         "key": "D",
-        "text": "Dos puntos"
-      },
-      {
-        "key": "E",
-        "text": "Puntos suspensivos"
-      },
-      {
-        "key": "F",
-        "text": "Interrogación"
+        "text": "ha ver"
       }
     ],
-    "correctAnswer": "F",
-    "explanation": "Los signos de interrogación encierran preguntas."
+    "correctAnswer": "A",
+    "explanation": "'Haber' es el verbo auxiliar en infinitivo para formar tiempos compuestos."
   },
   {
     "id": "2.1_q257",
     "number": 257,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Qué signo se usa al final de una exclamación?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Seleccione la palabra compuesta que conserva la tilde del segundo vocablo según la regla general:",
     "options": [
       {
         "key": "A",
-        "text": "Punto"
+        "text": "decimoséptimo"
       },
       {
         "key": "B",
-        "text": "Coma"
+        "text": "décimoséptimo"
       },
       {
         "key": "C",
-        "text": "Punto y coma"
+        "text": "décimoseptimo"
       },
       {
         "key": "D",
-        "text": "Dos puntos"
-      },
-      {
-        "key": "E",
-        "text": "Puntos suspensivos"
-      },
-      {
-        "key": "F",
-        "text": "Exclamación"
+        "text": "decimoseptimo"
       }
     ],
-    "correctAnswer": "F",
-    "explanation": "Los signos de exclamación encierran exclamaciones."
+    "correctAnswer": "A",
+    "explanation": "En palabras compuestas sin guion, solo el último elemento conserva o adquiere la tilde según las reglas: 'séptimo' -> 'decimoséptimo'."
   },
   {
     "id": "2.1_q258",
     "number": 258,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Qué signo se usa para introducir una cita textual?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Los adverbios terminados en '-mente' conservan la tilde si:",
     "options": [
       {
         "key": "A",
-        "text": "Punto"
+        "text": "El adjetivo base la llevaba originalmente"
       },
       {
         "key": "B",
-        "text": "Coma"
+        "text": "Siempre llevan tilde por ser esdrújulos"
       },
       {
         "key": "C",
-        "text": "Punto y coma"
+        "text": "Nunca llevan tilde"
       },
       {
         "key": "D",
-        "text": "Dos puntos"
-      },
-      {
-        "key": "E",
-        "text": "Puntos suspensivos"
-      },
-      {
-        "key": "F",
-        "text": "Comillas"
+        "text": "Terminan en vocal"
       }
     ],
-    "correctAnswer": "F",
-    "explanation": "Las comillas introducen citas textuales."
+    "correctAnswer": "A",
+    "explanation": "Conservan la tilde del adjetivo primitivo (ej. 'fácil' -> 'fácilmente'; 'suave' -> 'suavemente')."
   },
   {
     "id": "2.1_q259",
     "number": 259,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Qué signo se usa para separar los elementos de una fecha?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "La grafía correcta para el compuesto que significa 'por lo tanto' o 'del mismo modo' es:",
     "options": [
       {
         "key": "A",
-        "text": "Punto"
+        "text": "asimismo"
       },
       {
         "key": "B",
-        "text": "Coma"
+        "text": "así mismo"
       },
       {
         "key": "C",
-        "text": "Barra"
+        "text": "a sí mismo"
       },
       {
         "key": "D",
-        "text": "Dos puntos"
-      },
-      {
-        "key": "E",
-        "text": "Guion"
-      },
-      {
-        "key": "F",
-        "text": "Paréntesis"
+        "text": "asi mismo"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "La barra separa elementos de una fecha."
+    "correctAnswer": "A",
+    "explanation": "'Asimismo' (o 'así mismo') significa 'también'. 'A sí mismo' implica reflexión hacia la persona."
   },
   {
     "id": "2.1_q260",
     "number": 260,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Qué signo se usa para encerrar aclaraciones?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Seleccione la opción ortográficamente correcta:",
     "options": [
       {
         "key": "A",
-        "text": "Punto"
+        "text": "Ella se peina a sí misma frente al espejo"
       },
       {
         "key": "B",
-        "text": "Coma"
+        "text": "Ella se peina asimismo frente al espejo"
       },
       {
         "key": "C",
-        "text": "Punto y coma"
+        "text": "Ella se peina así mismo frente al espejo"
       },
       {
         "key": "D",
-        "text": "Dos puntos"
-      },
-      {
-        "key": "E",
-        "text": "Paréntesis"
-      },
-      {
-        "key": "F",
-        "text": "Interrogación"
+        "text": "Ella se peina a si misma sin tilde"
       }
     ],
-    "correctAnswer": "E",
-    "explanation": "Los paréntesis encierran aclaraciones."
+    "correctAnswer": "A",
+    "explanation": "'A sí misma' lleva preposición, pronombre reflexivo tónico 'sí' con tilde diacrítica y adjetivo 'misma'."
   },
   {
     "id": "2.1_q261",
     "number": 261,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la coma en: \"Juan, ven aquí\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 11): Seleccione la oración correctamente escrita con la conjunción adversativa 'sino':",
     "options": [
       {
         "key": "A",
-        "text": "Vocativo"
+        "text": "No quiero café, sino chocolate caliente"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "No quiero café, si no chocolate caliente"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Vendré sino llueve mañana"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Sino estudias reprobarás"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Vocativo: se llama o invoca a alguien."
+    "explanation": "'Sino' junto es conjunción adversativa tras negación ('no quiero X, sino Y'). 'Si no' separado es condicional negativo."
   },
   {
     "id": "2.1_q262",
     "number": 262,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la coma en: \"Compré manzanas, peras y uvas\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 12): Complete correctamente la oración: 'Ignoro el _____ de su ausencia':",
     "options": [
       {
         "key": "A",
-        "text": "Vocativo"
+        "text": "porqué"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "por qué"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "porque"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "por que"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Enumeración: se listan elementos."
+    "correctAnswer": "A",
+    "explanation": "'Porqué' es sustantivo masculino sinónimo de 'motivo' o 'causa', precedido por artículo o determinante y lleva tilde."
   },
   {
     "id": "2.1_q263",
     "number": 263,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la coma en: \"Madrid, capital de España, es una ciudad hermosa\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 13): Complete: '¿_____ no viniste a la clase de refuerzo universitario?':",
     "options": [
       {
         "key": "A",
-        "text": "Vocativo"
+        "text": "Por qué"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Porqué"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Porque"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Por que"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Aposición: explica o aclara el sustantivo."
+    "correctAnswer": "A",
+    "explanation": "'Por qué' tónico y separado es la locución interrogativa causal directa o indirecta."
   },
   {
     "id": "2.1_q264",
     "number": 264,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la coma en: \"Sin embargo, no fui\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 14): Complete: 'No fui a la biblioteca _____ tenía que trabajar':",
     "options": [
       {
         "key": "A",
-        "text": "Vocativo"
+        "text": "porque"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "por qué"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "porqué"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "por que"
       }
     ],
-    "correctAnswer": "E",
-    "explanation": "Nexo: conecta ideas."
+    "correctAnswer": "A",
+    "explanation": "'Porque' átono y junto es conjunción causal equivalente a 'ya que' o 'puesto que'."
   },
   {
     "id": "2.1_q265",
     "number": 265,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la coma en: \"Yo estudio; tú, trabajas\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 15): Seleccione la oración donde se emplea adecuadamente la forma 'a ver':",
     "options": [
       {
         "key": "A",
-        "text": "Vocativo"
+        "text": "Vamos a ver los resultados del examen"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Haber si vienes temprano mañana"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Debió a ver estudiado más"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Va haber fiesta hoy"
       }
     ],
-    "correctAnswer": "F",
-    "explanation": "Elipsis: omite el verbo."
+    "correctAnswer": "A",
+    "explanation": "'A ver' es la secuencia de preposición 'a' y el verbo 'ver' ('vamos a observar/comprobar')."
   },
   {
     "id": "2.1_q266",
     "number": 266,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto del punto y coma en: \"Llegó tarde; sin embargo, entró\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 16): Complete: 'El estudiante debe _____ presentado su documento de identidad':",
     "options": [
       {
         "key": "A",
-        "text": "Separar oraciones"
+        "text": "haber"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "a ver"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "a ver sido"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "ha ver"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Separa oraciones relacionadas."
+    "explanation": "'Haber' es el verbo auxiliar en infinitivo para formar tiempos compuestos."
   },
   {
     "id": "2.1_q267",
     "number": 267,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de los dos puntos en: \"Tengo tres hermanos: Ana, Luis y Pedro\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 17): Seleccione la palabra compuesta que conserva la tilde del segundo vocablo según la regla general:",
     "options": [
       {
         "key": "A",
-        "text": "Cita"
+        "text": "decimoséptimo"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "décimoséptimo"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "décimoseptimo"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "decimoseptimo"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Enumeración: introduce lista."
+    "correctAnswer": "A",
+    "explanation": "En palabras compuestas sin guion, solo el último elemento conserva o adquiere la tilde según las reglas: 'séptimo' -> 'decimoséptimo'."
   },
   {
     "id": "2.1_q268",
     "number": 268,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de los dos puntos en: \"Dijo: 'No iré'\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 18): Los adverbios terminados en '-mente' conservan la tilde si:",
     "options": [
       {
         "key": "A",
-        "text": "Cita"
+        "text": "El adjetivo base la llevaba originalmente"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Siempre llevan tilde por ser esdrújulos"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Nunca llevan tilde"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Terminan en vocal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Cita: introduce palabras textuales."
+    "explanation": "Conservan la tilde del adjetivo primitivo (ej. 'fácil' -> 'fácilmente'; 'suave' -> 'suavemente')."
   },
   {
     "id": "2.1_q269",
     "number": 269,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de los puntos suspensivos en: \"No sé si...\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 19): La grafía correcta para el compuesto que significa 'por lo tanto' o 'del mismo modo' es:",
     "options": [
       {
         "key": "A",
-        "text": "Duda"
+        "text": "asimismo"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "así mismo"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "a sí mismo"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "asi mismo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Duda: indica incertidumbre."
+    "explanation": "'Asimismo' (o 'así mismo') significa 'también'. 'A sí mismo' implica reflexión hacia la persona."
   },
   {
     "id": "2.1_q270",
     "number": 270,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de las comillas en: \"Dijo 'hola'\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 20): Seleccione la opción ortográficamente correcta:",
     "options": [
       {
         "key": "A",
-        "text": "Cita"
+        "text": "Ella se peina a sí misma frente al espejo"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Ella se peina asimismo frente al espejo"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Ella se peina así mismo frente al espejo"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Ella se peina a si misma sin tilde"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Cita: reproduce palabras textuales."
+    "explanation": "'A sí misma' lleva preposición, pronombre reflexivo tónico 'sí' con tilde diacrítica y adjetivo 'misma'."
   },
   {
     "id": "2.1_q271",
     "number": 271,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto del guion en: \"veintidós\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 21): Seleccione la oración correctamente escrita con la conjunción adversativa 'sino':",
     "options": [
       {
         "key": "A",
-        "text": "Compuesto"
+        "text": "No quiero café, sino chocolate caliente"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "No quiero café, si no chocolate caliente"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Vendré sino llueve mañana"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Sino estudias reprobarás"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Compuesto: une palabras."
+    "explanation": "'Sino' junto es conjunción adversativa tras negación ('no quiero X, sino Y'). 'Si no' separado es condicional negativo."
   },
   {
     "id": "2.1_q272",
     "number": 272,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto del guion en: \"teórico-práctico\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 22): Complete correctamente la oración: 'Ignoro el _____ de su ausencia':",
     "options": [
       {
         "key": "A",
-        "text": "Compuesto"
+        "text": "porqué"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "por qué"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "porque"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "por que"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Compuesto: une palabras."
+    "explanation": "'Porqué' es sustantivo masculino sinónimo de 'motivo' o 'causa', precedido por artículo o determinante y lleva tilde."
   },
   {
     "id": "2.1_q273",
     "number": 273,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la raya en: \"—Ven —dijo—\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 23): Complete: '¿_____ no viniste a la clase de refuerzo universitario?':",
     "options": [
       {
         "key": "A",
-        "text": "Diálogo"
+        "text": "Por qué"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Porqué"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Porque"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Por que"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diálogo: introduce intervenciones."
+    "explanation": "'Por qué' tónico y separado es la locución interrogativa causal directa o indirecta."
   },
   {
     "id": "2.1_q274",
     "number": 274,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto del paréntesis en: \"Llegó (por fin) a casa\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 24): Complete: 'No fui a la biblioteca _____ tenía que trabajar':",
     "options": [
       {
         "key": "A",
-        "text": "Aclaración"
+        "text": "porque"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "por qué"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "porqué"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "por que"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Aclaración: añade información."
+    "explanation": "'Porque' átono y junto es conjunción causal equivalente a 'ya que' o 'puesto que'."
   },
   {
     "id": "2.1_q275",
     "number": 275,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de los signos de interrogación en: \"¿Vienes?\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 25): Seleccione la oración donde se emplea adecuadamente la forma 'a ver':",
     "options": [
       {
         "key": "A",
-        "text": "Pregunta"
+        "text": "Vamos a ver los resultados del examen"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Haber si vienes temprano mañana"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Debió a ver estudiado más"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Va haber fiesta hoy"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Pregunta: formula interrogación."
+    "explanation": "'A ver' es la secuencia de preposición 'a' y el verbo 'ver' ('vamos a observar/comprobar')."
   },
   {
     "id": "2.1_q276",
     "number": 276,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de los signos de exclamación en: \"¡Ven!\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 26): Complete: 'El estudiante debe _____ presentado su documento de identidad':",
     "options": [
       {
         "key": "A",
-        "text": "Exclamación"
+        "text": "haber"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "a ver"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "a ver sido"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "ha ver"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Exclamación: expresa emoción."
+    "explanation": "'Haber' es el verbo auxiliar en infinitivo para formar tiempos compuestos."
   },
   {
     "id": "2.1_q277",
     "number": 277,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la diéresis en: \"pingüino\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 27): Seleccione la palabra compuesta que conserva la tilde del segundo vocablo según la regla general:",
     "options": [
       {
         "key": "A",
-        "text": "Pronunciar la u"
+        "text": "decimoséptimo"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "décimoséptimo"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "décimoseptimo"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "decimoseptimo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diéresis: pronuncia la u."
+    "explanation": "En palabras compuestas sin guion, solo el último elemento conserva o adquiere la tilde según las reglas: 'séptimo' -> 'decimoséptimo'."
   },
   {
     "id": "2.1_q278",
     "number": 278,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la diéresis en: \"vergüenza\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 28): Los adverbios terminados en '-mente' conservan la tilde si:",
     "options": [
       {
         "key": "A",
-        "text": "Pronunciar la u"
+        "text": "El adjetivo base la llevaba originalmente"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Siempre llevan tilde por ser esdrújulos"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Nunca llevan tilde"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Terminan en vocal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diéresis: pronuncia la u."
+    "explanation": "Conservan la tilde del adjetivo primitivo (ej. 'fácil' -> 'fácilmente'; 'suave' -> 'suavemente')."
   },
   {
     "id": "2.1_q279",
     "number": 279,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la diéresis en: \"güero\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 29): La grafía correcta para el compuesto que significa 'por lo tanto' o 'del mismo modo' es:",
     "options": [
       {
         "key": "A",
-        "text": "Pronunciar la u"
+        "text": "asimismo"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "así mismo"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "a sí mismo"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "asi mismo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diéresis: pronuncia la u."
+    "explanation": "'Asimismo' (o 'así mismo') significa 'también'. 'A sí mismo' implica reflexión hacia la persona."
   },
   {
     "id": "2.1_q280",
     "number": 280,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la diéresis en: \"cigüeña\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 30): Seleccione la opción ortográficamente correcta:",
     "options": [
       {
         "key": "A",
-        "text": "Pronunciar la u"
+        "text": "Ella se peina a sí misma frente al espejo"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Ella se peina asimismo frente al espejo"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Ella se peina así mismo frente al espejo"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Ella se peina a si misma sin tilde"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diéresis: pronuncia la u."
+    "explanation": "'A sí misma' lleva preposición, pronombre reflexivo tónico 'sí' con tilde diacrítica y adjetivo 'misma'."
   },
   {
     "id": "2.1_q281",
     "number": 281,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la diéresis en: \"agüita\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 31): Seleccione la oración correctamente escrita con la conjunción adversativa 'sino':",
     "options": [
       {
         "key": "A",
-        "text": "Pronunciar la u"
+        "text": "No quiero café, sino chocolate caliente"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "No quiero café, si no chocolate caliente"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Vendré sino llueve mañana"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Sino estudias reprobarás"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diéresis: pronuncia la u."
+    "explanation": "'Sino' junto es conjunción adversativa tras negación ('no quiero X, sino Y'). 'Si no' separado es condicional negativo."
   },
   {
     "id": "2.1_q282",
     "number": 282,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la diéresis en: \"lingüística\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 32): Complete correctamente la oración: 'Ignoro el _____ de su ausencia':",
     "options": [
       {
         "key": "A",
-        "text": "Pronunciar la u"
+        "text": "porqué"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "por qué"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "porque"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "por que"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diéresis: pronuncia la u."
+    "explanation": "'Porqué' es sustantivo masculino sinónimo de 'motivo' o 'causa', precedido por artículo o determinante y lleva tilde."
   },
   {
     "id": "2.1_q283",
     "number": 283,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la diéresis en: \"piragüismo\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 33): Complete: '¿_____ no viniste a la clase de refuerzo universitario?':",
     "options": [
       {
         "key": "A",
-        "text": "Pronunciar la u"
+        "text": "Por qué"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Porqué"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Porque"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Por que"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diéresis: pronuncia la u."
+    "explanation": "'Por qué' tónico y separado es la locución interrogativa causal directa o indirecta."
   },
   {
     "id": "2.1_q284",
     "number": 284,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la diéresis en: \"bilingüe\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 34): Complete: 'No fui a la biblioteca _____ tenía que trabajar':",
     "options": [
       {
         "key": "A",
-        "text": "Pronunciar la u"
+        "text": "porque"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "por qué"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "porqué"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "por que"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diéresis: pronuncia la u."
+    "explanation": "'Porque' átono y junto es conjunción causal equivalente a 'ya que' o 'puesto que'."
   },
   {
     "id": "2.1_q285",
     "number": 285,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la diéresis en: \"antigüedad\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 35): Seleccione la oración donde se emplea adecuadamente la forma 'a ver':",
     "options": [
       {
         "key": "A",
-        "text": "Pronunciar la u"
+        "text": "Vamos a ver los resultados del examen"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Haber si vienes temprano mañana"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Debió a ver estudiado más"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Va haber fiesta hoy"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diéresis: pronuncia la u."
+    "explanation": "'A ver' es la secuencia de preposición 'a' y el verbo 'ver' ('vamos a observar/comprobar')."
   },
   {
     "id": "2.1_q286",
     "number": 286,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la diéresis en: \"desagüe\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 36): Complete: 'El estudiante debe _____ presentado su documento de identidad':",
     "options": [
       {
         "key": "A",
-        "text": "Pronunciar la u"
+        "text": "haber"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "a ver"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "a ver sido"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "ha ver"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diéresis: pronuncia la u."
+    "explanation": "'Haber' es el verbo auxiliar en infinitivo para formar tiempos compuestos."
   },
   {
     "id": "2.1_q287",
     "number": 287,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la coma en: \"Pedro, el médico, llegó\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 37): Seleccione la palabra compuesta que conserva la tilde del segundo vocablo según la regla general:",
     "options": [
       {
         "key": "A",
-        "text": "Vocativo"
+        "text": "decimoséptimo"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "décimoséptimo"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "décimoseptimo"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "decimoseptimo"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Aposición: explica el sustantivo."
+    "correctAnswer": "A",
+    "explanation": "En palabras compuestas sin guion, solo el último elemento conserva o adquiere la tilde según las reglas: 'séptimo' -> 'decimoséptimo'."
   },
   {
     "id": "2.1_q288",
     "number": 288,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la coma en: \"Compré pan, leche y huevos\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 38): Los adverbios terminados en '-mente' conservan la tilde si:",
     "options": [
       {
         "key": "A",
-        "text": "Vocativo"
+        "text": "El adjetivo base la llevaba originalmente"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Siempre llevan tilde por ser esdrújulos"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Nunca llevan tilde"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Terminan en vocal"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Enumeración: lista elementos."
+    "correctAnswer": "A",
+    "explanation": "Conservan la tilde del adjetivo primitivo (ej. 'fácil' -> 'fácilmente'; 'suave' -> 'suavemente')."
   },
   {
     "id": "2.1_q289",
     "number": 289,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la coma en: \"María, te llaman\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 39): La grafía correcta para el compuesto que significa 'por lo tanto' o 'del mismo modo' es:",
     "options": [
       {
         "key": "A",
-        "text": "Vocativo"
+        "text": "asimismo"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "así mismo"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "a sí mismo"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "asi mismo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Vocativo: llama o invoca."
+    "explanation": "'Asimismo' (o 'así mismo') significa 'también'. 'A sí mismo' implica reflexión hacia la persona."
   },
   {
     "id": "2.1_q290",
     "number": 290,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la coma en: \"Bogotá, capital de Colombia, es grande\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 40): Seleccione la opción ortográficamente correcta:",
     "options": [
       {
         "key": "A",
-        "text": "Vocativo"
+        "text": "Ella se peina a sí misma frente al espejo"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Ella se peina asimismo frente al espejo"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Ella se peina así mismo frente al espejo"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Ella se peina a si misma sin tilde"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Aposición: explica el sustantivo."
+    "correctAnswer": "A",
+    "explanation": "'A sí misma' lleva preposición, pronombre reflexivo tónico 'sí' con tilde diacrítica y adjetivo 'misma'."
   },
   {
     "id": "2.1_q291",
     "number": 291,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la coma en: \"Por lo tanto, no iré\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 41): Seleccione la oración correctamente escrita con la conjunción adversativa 'sino':",
     "options": [
       {
         "key": "A",
-        "text": "Vocativo"
+        "text": "No quiero café, sino chocolate caliente"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "No quiero café, si no chocolate caliente"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Vendré sino llueve mañana"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Sino estudias reprobarás"
       }
     ],
-    "correctAnswer": "E",
-    "explanation": "Nexo: conecta ideas."
+    "correctAnswer": "A",
+    "explanation": "'Sino' junto es conjunción adversativa tras negación ('no quiero X, sino Y'). 'Si no' separado es condicional negativo."
   },
   {
     "id": "2.1_q292",
     "number": 292,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto del punto y coma en: \"Unos cantan; otros, bailan\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 42): Complete correctamente la oración: 'Ignoro el _____ de su ausencia':",
     "options": [
       {
         "key": "A",
-        "text": "Separar oraciones"
+        "text": "porqué"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "por qué"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "porque"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "por que"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Separa oraciones relacionadas."
+    "explanation": "'Porqué' es sustantivo masculino sinónimo de 'motivo' o 'causa', precedido por artículo o determinante y lleva tilde."
   },
   {
     "id": "2.1_q293",
     "number": 293,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de los dos puntos en: \"Tengo dos opciones: quedarme o irme\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 43): Complete: '¿_____ no viniste a la clase de refuerzo universitario?':",
     "options": [
       {
         "key": "A",
-        "text": "Cita"
+        "text": "Por qué"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Porqué"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Porque"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Por que"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Enumeración: introduce opciones."
+    "correctAnswer": "A",
+    "explanation": "'Por qué' tónico y separado es la locución interrogativa causal directa o indirecta."
   },
   {
     "id": "2.1_q294",
     "number": 294,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de los dos puntos en: \"Explicó: 'No puedo'\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 44): Complete: 'No fui a la biblioteca _____ tenía que trabajar':",
     "options": [
       {
         "key": "A",
-        "text": "Cita"
+        "text": "porque"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "por qué"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "porqué"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "por que"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Cita: introduce palabras textuales."
+    "explanation": "'Porque' átono y junto es conjunción causal equivalente a 'ya que' o 'puesto que'."
   },
   {
     "id": "2.1_q295",
     "number": 295,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de los puntos suspensivos en: \"Tal vez...\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 45): Seleccione la oración donde se emplea adecuadamente la forma 'a ver':",
     "options": [
       {
         "key": "A",
-        "text": "Duda"
+        "text": "Vamos a ver los resultados del examen"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Haber si vienes temprano mañana"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Debió a ver estudiado más"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Va haber fiesta hoy"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Duda: indica incertidumbre."
+    "explanation": "'A ver' es la secuencia de preposición 'a' y el verbo 'ver' ('vamos a observar/comprobar')."
   },
   {
     "id": "2.1_q296",
     "number": 296,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de las comillas en: \"Le dijo 'adiós'\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 46): Complete: 'El estudiante debe _____ presentado su documento de identidad':",
     "options": [
       {
         "key": "A",
-        "text": "Cita"
+        "text": "haber"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "a ver"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "a ver sido"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "ha ver"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Cita: reproduce palabras textuales."
+    "explanation": "'Haber' es el verbo auxiliar en infinitivo para formar tiempos compuestos."
   },
   {
     "id": "2.1_q297",
     "number": 297,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto del guion en: \"físico-químico\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 47): Seleccione la palabra compuesta que conserva la tilde del segundo vocablo según la regla general:",
     "options": [
       {
         "key": "A",
-        "text": "Compuesto"
+        "text": "decimoséptimo"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "décimoséptimo"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "décimoseptimo"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "decimoseptimo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Compuesto: une palabras."
+    "explanation": "En palabras compuestas sin guion, solo el último elemento conserva o adquiere la tilde según las reglas: 'séptimo' -> 'decimoséptimo'."
   },
   {
     "id": "2.1_q298",
     "number": 298,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de la raya en: \"—Hola —saludó—\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 48): Los adverbios terminados en '-mente' conservan la tilde si:",
     "options": [
       {
         "key": "A",
-        "text": "Diálogo"
+        "text": "El adjetivo base la llevaba originalmente"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Siempre llevan tilde por ser esdrújulos"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Nunca llevan tilde"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "Terminan en vocal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diálogo: introduce intervenciones."
+    "explanation": "Conservan la tilde del adjetivo primitivo (ej. 'fácil' -> 'fácilmente'; 'suave' -> 'suavemente')."
   },
   {
     "id": "2.1_q299",
     "number": 299,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto del paréntesis en: \"Vino (creo) tarde\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 49): La grafía correcta para el compuesto que significa 'por lo tanto' o 'del mismo modo' es:",
     "options": [
       {
         "key": "A",
-        "text": "Aclaración"
+        "text": "asimismo"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "así mismo"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "a sí mismo"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis"
+        "text": "asi mismo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Aclaración: añade información."
+    "explanation": "'Asimismo' (o 'así mismo') significa 'también'. 'A sí mismo' implica reflexión hacia la persona."
   },
   {
     "id": "2.1_q300",
     "number": 300,
     "subtopicId": "2.1",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)",
-    "statement": "¿Cuál es el uso correcto de los signos de interrogación en: \"¿Qué hora es?\"?",
+    "sectionTitle": "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)",
+    "statement": "Corrección ortográfica en pares homófonos y compuestos (reactivo 50): Seleccione la opción ortográficamente correcta:",
     "options": [
       {
         "key": "A",
-        "text": "Pregunta"
+        "text": "Ella se peina a sí misma frente al espejo"
       },
       {
         "key": "B",
-        "text": "Enumeración"
+        "text": "Ella se peina asimismo frente al espejo"
       },
       {
         "key": "C",
-        "text": "Aposición"
+        "text": "Ella se peina así mismo frente al espejo"
       },
       {
         "key": "D",
-        "text": "Inciso"
-      },
-      {
-        "key": "E",
-        "text": "Nexo"
-      },
-      {
-        "key": "F",
-        "text": "Elipsis ---"
+        "text": "Ella se peina a si misma sin tilde"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Pregunta: formula interrogación."
+    "explanation": "'A sí misma' lleva preposición, pronombre reflexivo tónico 'sí' con tilde diacrítica y adjetivo 'misma'."
   }
 ]

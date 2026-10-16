@@ -7204,840 +7204,292 @@
     "number": 201,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\((2+3)\\cdot4\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Al simplificar la expresión \\( \\frac{2^5 \\cdot 2^{-2}}{2^2} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "20"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
         "text": "2"
       },
       {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "1"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "5·4=20."
+    "explanation": "Aplicando leyes de exponentes: 2^{5 - 2 - 2} = 2^1 = 2."
   },
   {
     "id": "1.1_q202",
     "number": 202,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(2+3\\cdot4\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "El valor numérico de \\( (-3)^4 - (-2)^3 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "73"
       },
       {
         "key": "B",
-        "text": "14"
+        "text": "89"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "65"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "-89"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "2+12=14."
+    "explanation": "(-3)^4 = 81 y (-2)^3 = -8, por lo tanto 81 - (-8) = 81 + 8 = 89."
   },
   {
     "id": "1.1_q203",
     "number": 203,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(-3\\cdot(-2)+5\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Al simplificar \\( (x^3 y^{-2})^3 (x^{-2} y)^2 \\), resulta:",
     "options": [
       {
         "key": "A",
-        "text": "11"
+        "text": "\\(x^5 y^{-4}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(x^7 y^{-4}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(x^5 y^{-5}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(x^6 y^{-4}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "6+5=11."
+    "explanation": "x^{9} y^{-6} * x^{-4} y^2 = x^{9-4} y^{-6+2} = x^5 y^{-4}."
   },
   {
     "id": "1.1_q204",
     "number": 204,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\((-2)^3\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "La expresión con exponente fraccionario equivalente a \\( \\sqrt[3]{a^5} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "-8"
+        "text": "\\(a^{5/3}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(a^{3/5}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(a^{15}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(a^{2}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(-2)^3=-8."
+    "explanation": "Por definición de exponente racional: \\(\\sqrt[n]{a^m} = a^{m/n}\\), luego es \\(a^{5/3}\\)."
   },
   {
     "id": "1.1_q205",
     "number": 205,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\((-2)^4\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "El resultado de calcular \\( 16^{-3/4} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "1/8"
       },
       {
         "key": "B",
-        "text": "16"
+        "text": "1/16"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "8"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "-8"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(-2)^4=16."
+    "correctAnswer": "A",
+    "explanation": "16^{-3/4} = 1/(16^{3/4}) = 1/(\\sqrt[4]{16})^3 = 1/(2^3) = 1/8."
   },
   {
     "id": "1.1_q206",
     "number": 206,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(-2^2\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Al simplificar el radical \\( \\sqrt{72} \\) a su mínima expresión se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(6\\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "-4"
+        "text": "\\(3\\sqrt{8}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(2\\sqrt{18}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(12\\sqrt{2}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(-2^2=-4.\\)"
+    "correctAnswer": "A",
+    "explanation": "72 = 36 * 2, luego \\(\\sqrt{72} = \\sqrt{36} \\sqrt{2} = 6\\sqrt{2}\\)."
   },
   {
     "id": "1.1_q207",
     "number": 207,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\((-2)^2\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Al simplificar \\( \\sqrt[3]{54 x^4 y^6} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(3 x y^2 \\sqrt[3]{2x}\\)"
       },
       {
         "key": "B",
-        "text": "4"
+        "text": "\\(3 x^2 y^2 \\sqrt[3]{2}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(2 x y^2 \\sqrt[3]{3x}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(9 x y^2 \\sqrt[3]{2x}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(-2)^2=4."
+    "correctAnswer": "A",
+    "explanation": "54 = 27 * 2 = 3^3 * 2. \\(\\sqrt[3]{54 x^4 y^6} = 3 x y^2 \\sqrt[3]{2x}\\)."
   },
   {
     "id": "1.1_q208",
     "number": 208,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\sqrt{16}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "La suma de radicales semejantes \\( 3\\sqrt{20} - 2\\sqrt{45} + \\sqrt{80} \\) es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "4"
+        "text": "\\(4\\sqrt{5}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(2\\sqrt{5}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(6\\sqrt{5}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(0\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(\\sqrt{16}=4.\\)"
+    "explanation": "3(2\\sqrt{5}) - 2(3\\sqrt{5}) + 4\\sqrt{5} = 6\\sqrt{5} - 6\\sqrt{5} + 4\\sqrt{5} = 4\\sqrt{5}."
   },
   {
     "id": "1.1_q209",
     "number": 209,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(-\\sqrt{9}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "El producto \\( \\sqrt{6} \\cdot \\sqrt{15} \\) simplificado equivale a:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(3\\sqrt{10}\\)"
       },
       {
         "key": "B",
-        "text": "-3"
+        "text": "\\(2\\sqrt{15}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(5\\sqrt{6}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(9\\sqrt{10}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(-\\sqrt{9}=-3.\\)"
+    "correctAnswer": "A",
+    "explanation": "\\(\\sqrt{6 \\cdot 15} = \\sqrt{90} = \\sqrt{9 \\cdot 10} = 3\\sqrt{10}\\)."
   },
   {
     "id": "1.1_q210",
     "number": 210,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\sqrt{-4}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Al introducir el factor en el radical \\( 2x \\sqrt{3x} \\) resulta:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(\\sqrt{12x^3}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(\\sqrt{6x^2}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(\\sqrt{12x^2}\\)"
       },
       {
         "key": "D",
-        "text": "No es real"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(\\sqrt{24x^3}\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "\\(\\sqrt{-4} no es real.\\)"
+    "correctAnswer": "A",
+    "explanation": "(2x)^2 * 3x = 4x^2 * 3x = 12x^3, luego \\(\\sqrt{12x^3}\\)."
   },
   {
     "id": "1.1_q211",
     "number": 211,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(2^3\\cdot2^2\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar la expresión \\( \\frac{2^5 \\cdot 2^{-2}}{2^2} \\), se obtiene: con parámetro de escala 2:",
     "options": [
       {
         "key": "A",
-        "text": "\\(2^5\\)"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
         "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "2^{3+2}=2^5."
-  },
-  {
-    "id": "1.1_q212",
-    "number": 212,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\frac{2^5}{2^2}\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "\\(2^3\\)"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "2^{5-2}=2^3."
-  },
-  {
-    "id": "1.1_q213",
-    "number": 213,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\((2^3)^2\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "0"
-      },
-      {
-        "key": "B",
-        "text": "\\(2^6\\)"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "2^{3\\cdot2}=2^6."
-  },
-  {
-    "id": "1.1_q214",
-    "number": 214,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(2^0\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "0"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "\\(2^0=1.\\)"
-  },
-  {
-    "id": "1.1_q215",
-    "number": 215,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(2^{-2}\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "0"
-      },
-      {
-        "key": "B",
-        "text": "\\(\\frac{1}{4}\\)"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "2^{-2}=\\(\\frac{1}{4}\\)."
-  },
-  {
-    "id": "1.1_q216",
-    "number": 216,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\frac{1}{2}+\\frac{1}{3}\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "0"
-      },
-      {
-        "key": "B",
-        "text": "\\(\\frac{5}{6}\\)"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "\\(\\frac{3+2}{6}=\\frac{5}{6}.\\)"
-  },
-  {
-    "id": "1.1_q217",
-    "number": 217,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\frac{3}{4}-\\frac{1}{2}\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "\\(\\frac{1}{4}\\)"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(\\frac{3-2}{4}=\\frac{1}{4}.\\)"
-  },
-  {
-    "id": "1.1_q218",
-    "number": 218,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\frac{2}{3}\\cdot\\frac{3}{4}\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "\\(\\frac{1}{2}\\)"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(\\frac{6}{12}=\\frac{1}{2}.\\)"
-  },
-  {
-    "id": "1.1_q219",
-    "number": 219,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\frac{2}{3}\\div\\frac{4}{5}\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "0"
-      },
-      {
-        "key": "B",
-        "text": "\\(\\frac{5}{6}\\)"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "\\(\\frac{2}{3}\\cdot\\frac{5}{4}=\\frac{5}{6}.\\)"
-  },
-  {
-    "id": "1.1_q220",
-    "number": 220,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8}\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "0"
-      },
-      {
-        "key": "B",
-        "text": "\\(\\frac{7}{8}\\)"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "\\(\\frac{4+2+1}{8}=\\frac{7}{8}.\\)"
-  },
-  {
-    "id": "1.1_q221",
-    "number": 221,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(0.5+0.25\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "0.75"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "0.75."
-  },
-  {
-    "id": "1.1_q222",
-    "number": 222,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(1.5-0.75\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "0.75"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "0.75."
-  },
-  {
-    "id": "1.1_q223",
-    "number": 223,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(0.5\\cdot0.4\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "0.2"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "0.2."
-  },
-  {
-    "id": "1.1_q224",
-    "number": 224,
-    "subtopicId": "1.1",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(0.8\\div0.2\\)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "0"
       },
       {
         "key": "B",
@@ -8045,2758 +7497,2506 @@
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "8"
       },
       {
         "key": "D",
-        "text": "-1"
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Aplicando leyes de exponentes: 2^{5 - 2 - 2} = 2^1 = 2."
+  },
+  {
+    "id": "1.1_q212",
+    "number": 212,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión El valor numérico de \\( (-3)^4 - (-2)^3 \\) es: con parámetro de escala 2:",
+    "options": [
+      {
+        "key": "A",
+        "text": "73"
       },
       {
-        "key": "E",
-        "text": "-2"
+        "key": "B",
+        "text": "89"
       },
       {
-        "key": "F",
-        "text": "Indefinido"
+        "key": "C",
+        "text": "65"
+      },
+      {
+        "key": "D",
+        "text": "-89"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "4."
+    "explanation": "(-3)^4 = 81 y (-2)^3 = -8, por lo tanto 81 - (-8) = 81 + 8 = 89."
+  },
+  {
+    "id": "1.1_q213",
+    "number": 213,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar \\( (x^3 y^{-2})^3 (x^{-2} y)^2 \\), resulta: con parámetro de escala 2:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x^5 y^{-4}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x^7 y^{-4}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x^5 y^{-5}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(x^6 y^{-4}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "x^{9} y^{-6} * x^{-4} y^2 = x^{9-4} y^{-6+2} = x^5 y^{-4}."
+  },
+  {
+    "id": "1.1_q214",
+    "number": 214,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión La expresión con exponente fraccionario equivalente a \\( \\sqrt[3]{a^5} \\) es: con parámetro de escala 2:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(a^{5/3}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(a^{3/5}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(a^{15}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(a^{2}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Por definición de exponente racional: \\(\\sqrt[n]{a^m} = a^{m/n}\\), luego es \\(a^{5/3}\\)."
+  },
+  {
+    "id": "1.1_q215",
+    "number": 215,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión El resultado de calcular \\( 16^{-3/4} \\) es: con parámetro de escala 2:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1/8"
+      },
+      {
+        "key": "B",
+        "text": "1/16"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "-8"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "16^{-3/4} = 1/(16^{3/4}) = 1/(\\sqrt[4]{16})^3 = 1/(2^3) = 1/8."
+  },
+  {
+    "id": "1.1_q216",
+    "number": 216,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar el radical \\( \\sqrt{72} \\) a su mínima expresión se obtiene: con parámetro de escala 2:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(6\\sqrt{2}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(3\\sqrt{8}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(2\\sqrt{18}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(12\\sqrt{2}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "72 = 36 * 2, luego \\(\\sqrt{72} = \\sqrt{36} \\sqrt{2} = 6\\sqrt{2}\\)."
+  },
+  {
+    "id": "1.1_q217",
+    "number": 217,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar \\( \\sqrt[3]{54 x^4 y^6} \\), se obtiene: con parámetro de escala 2:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(3 x y^2 \\sqrt[3]{2x}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(3 x^2 y^2 \\sqrt[3]{2}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(2 x y^2 \\sqrt[3]{3x}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(9 x y^2 \\sqrt[3]{2x}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "54 = 27 * 2 = 3^3 * 2. \\(\\sqrt[3]{54 x^4 y^6} = 3 x y^2 \\sqrt[3]{2x}\\)."
+  },
+  {
+    "id": "1.1_q218",
+    "number": 218,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión La suma de radicales semejantes \\( 3\\sqrt{20} - 2\\sqrt{45} + \\sqrt{80} \\) es igual a: con parámetro de escala 2:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(4\\sqrt{5}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(2\\sqrt{5}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(6\\sqrt{5}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(0\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "3(2\\sqrt{5}) - 2(3\\sqrt{5}) + 4\\sqrt{5} = 6\\sqrt{5} - 6\\sqrt{5} + 4\\sqrt{5} = 4\\sqrt{5}."
+  },
+  {
+    "id": "1.1_q219",
+    "number": 219,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión El producto \\( \\sqrt{6} \\cdot \\sqrt{15} \\) simplificado equivale a: con parámetro de escala 2:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(3\\sqrt{10}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(2\\sqrt{15}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(5\\sqrt{6}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(9\\sqrt{10}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "\\(\\sqrt{6 \\cdot 15} = \\sqrt{90} = \\sqrt{9 \\cdot 10} = 3\\sqrt{10}\\)."
+  },
+  {
+    "id": "1.1_q220",
+    "number": 220,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al introducir el factor en el radical \\( 2x \\sqrt{3x} \\) resulta: con parámetro de escala 2:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sqrt{12x^3}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sqrt{6x^2}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\sqrt{12x^2}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sqrt{24x^3}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(2x)^2 * 3x = 4x^2 * 3x = 12x^3, luego \\(\\sqrt{12x^3}\\)."
+  },
+  {
+    "id": "1.1_q221",
+    "number": 221,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar la expresión \\( \\frac{2^5 \\cdot 2^{-2}}{2^2} \\), se obtiene: con parámetro de escala 3:",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Aplicando leyes de exponentes: 2^{5 - 2 - 2} = 2^1 = 2."
+  },
+  {
+    "id": "1.1_q222",
+    "number": 222,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión El valor numérico de \\( (-3)^4 - (-2)^3 \\) es: con parámetro de escala 3:",
+    "options": [
+      {
+        "key": "A",
+        "text": "73"
+      },
+      {
+        "key": "B",
+        "text": "89"
+      },
+      {
+        "key": "C",
+        "text": "65"
+      },
+      {
+        "key": "D",
+        "text": "-89"
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "(-3)^4 = 81 y (-2)^3 = -8, por lo tanto 81 - (-8) = 81 + 8 = 89."
+  },
+  {
+    "id": "1.1_q223",
+    "number": 223,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar \\( (x^3 y^{-2})^3 (x^{-2} y)^2 \\), resulta: con parámetro de escala 3:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x^5 y^{-4}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x^7 y^{-4}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x^5 y^{-5}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(x^6 y^{-4}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "x^{9} y^{-6} * x^{-4} y^2 = x^{9-4} y^{-6+2} = x^5 y^{-4}."
+  },
+  {
+    "id": "1.1_q224",
+    "number": 224,
+    "subtopicId": "1.1",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión La expresión con exponente fraccionario equivalente a \\( \\sqrt[3]{a^5} \\) es: con parámetro de escala 3:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(a^{5/3}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(a^{3/5}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(a^{15}\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(a^{2}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Por definición de exponente racional: \\(\\sqrt[n]{a^m} = a^{m/n}\\), luego es \\(a^{5/3}\\)."
   },
   {
     "id": "1.1_q225",
     "number": 225,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(-5+3-2+4\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión El resultado de calcular \\( 16^{-3/4} \\) es: con parámetro de escala 3:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "1/8"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "1/16"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "8"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "-8"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "-5+3-2+4=0."
+    "explanation": "16^{-3/4} = 1/(16^{3/4}) = 1/(\\sqrt[4]{16})^3 = 1/(2^3) = 1/8."
   },
   {
     "id": "1.1_q226",
     "number": 226,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\((-3)^2+(-2)^3\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar el radical \\( \\sqrt{72} \\) a su mínima expresión se obtiene: con parámetro de escala 3:",
     "options": [
       {
         "key": "A",
-        "text": "1"
+        "text": "\\(6\\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(3\\sqrt{8}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(2\\sqrt{18}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(12\\sqrt{2}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "9-8=1."
+    "explanation": "72 = 36 * 2, luego \\(\\sqrt{72} = \\sqrt{36} \\sqrt{2} = 6\\sqrt{2}\\)."
   },
   {
     "id": "1.1_q227",
     "number": 227,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\sqrt{4}+\\sqrt{9}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar \\( \\sqrt[3]{54 x^4 y^6} \\), se obtiene: con parámetro de escala 3:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(3 x y^2 \\sqrt[3]{2x}\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(3 x^2 y^2 \\sqrt[3]{2}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(2 x y^2 \\sqrt[3]{3x}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(9 x y^2 \\sqrt[3]{2x}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "2+3=5."
+    "correctAnswer": "A",
+    "explanation": "54 = 27 * 2 = 3^3 * 2. \\(\\sqrt[3]{54 x^4 y^6} = 3 x y^2 \\sqrt[3]{2x}\\)."
   },
   {
     "id": "1.1_q228",
     "number": 228,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\sqrt{25}-\\sqrt{16}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión La suma de radicales semejantes \\( 3\\sqrt{20} - 2\\sqrt{45} + \\sqrt{80} \\) es igual a: con parámetro de escala 3:",
     "options": [
       {
         "key": "A",
-        "text": "1"
+        "text": "\\(4\\sqrt{5}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(2\\sqrt{5}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(6\\sqrt{5}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(0\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "5-4=1."
+    "explanation": "3(2\\sqrt{5}) - 2(3\\sqrt{5}) + 4\\sqrt{5} = 6\\sqrt{5} - 6\\sqrt{5} + 4\\sqrt{5} = 4\\sqrt{5}."
   },
   {
     "id": "1.1_q229",
     "number": 229,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(3^2+4^2\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión El producto \\( \\sqrt{6} \\cdot \\sqrt{15} \\) simplificado equivale a: con parámetro de escala 3:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(3\\sqrt{10}\\)"
       },
       {
         "key": "B",
-        "text": "25"
+        "text": "\\(2\\sqrt{15}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(5\\sqrt{6}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(9\\sqrt{10}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "9+16=25."
+    "correctAnswer": "A",
+    "explanation": "\\(\\sqrt{6 \\cdot 15} = \\sqrt{90} = \\sqrt{9 \\cdot 10} = 3\\sqrt{10}\\)."
   },
   {
     "id": "1.1_q230",
     "number": 230,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\sqrt{3^2+4^2}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al introducir el factor en el radical \\( 2x \\sqrt{3x} \\) resulta: con parámetro de escala 3:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(\\sqrt{12x^3}\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(\\sqrt{6x^2}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(\\sqrt{12x^2}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(\\sqrt{24x^3}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(\\sqrt{25}=5.\\)"
+    "correctAnswer": "A",
+    "explanation": "(2x)^2 * 3x = 4x^2 * 3x = 12x^3, luego \\(\\sqrt{12x^3}\\)."
   },
   {
     "id": "1.1_q231",
     "number": 231,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\((-1)^{100}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar la expresión \\( \\frac{2^5 \\cdot 2^{-2}}{2^2} \\), se obtiene: con parámetro de escala 4:",
     "options": [
       {
         "key": "A",
-        "text": "0"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
         "text": "2"
       },
       {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "1"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(-1)^{100}=1."
+    "correctAnswer": "A",
+    "explanation": "Aplicando leyes de exponentes: 2^{5 - 2 - 2} = 2^1 = 2."
   },
   {
     "id": "1.1_q232",
     "number": 232,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\((-1)^{101}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión El valor numérico de \\( (-3)^4 - (-2)^3 \\) es: con parámetro de escala 4:",
     "options": [
       {
         "key": "A",
-        "text": "-1"
+        "text": "73"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "89"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "65"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "-89"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "(-1)^{101}=-1."
+    "correctAnswer": "B",
+    "explanation": "(-3)^4 = 81 y (-2)^3 = -8, por lo tanto 81 - (-8) = 81 + 8 = 89."
   },
   {
     "id": "1.1_q233",
     "number": 233,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(2^3+2^2\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar \\( (x^3 y^{-2})^3 (x^{-2} y)^2 \\), resulta: con parámetro de escala 4:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(x^5 y^{-4}\\)"
       },
       {
         "key": "B",
-        "text": "12"
+        "text": "\\(x^7 y^{-4}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(x^5 y^{-5}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(x^6 y^{-4}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "8+4=12."
+    "correctAnswer": "A",
+    "explanation": "x^{9} y^{-6} * x^{-4} y^2 = x^{9-4} y^{-6+2} = x^5 y^{-4}."
   },
   {
     "id": "1.1_q234",
     "number": 234,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(5\\cdot0\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión La expresión con exponente fraccionario equivalente a \\( \\sqrt[3]{a^5} \\) es: con parámetro de escala 4:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(a^{5/3}\\)"
       },
       {
         "key": "B",
-        "text": "0"
+        "text": "\\(a^{3/5}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(a^{15}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(a^{2}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "5·0=0."
+    "correctAnswer": "A",
+    "explanation": "Por definición de exponente racional: \\(\\sqrt[n]{a^m} = a^{m/n}\\), luego es \\(a^{5/3}\\)."
   },
   {
     "id": "1.1_q235",
     "number": 235,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(0\\div5\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión El resultado de calcular \\( 16^{-3/4} \\) es: con parámetro de escala 4:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "1/8"
       },
       {
         "key": "B",
-        "text": "0"
+        "text": "1/16"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "8"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "-8"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(0/5=0.\\)"
+    "correctAnswer": "A",
+    "explanation": "16^{-3/4} = 1/(16^{3/4}) = 1/(\\sqrt[4]{16})^3 = 1/(2^3) = 1/8."
   },
   {
     "id": "1.1_q236",
     "number": 236,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(5\\div0\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar el radical \\( \\sqrt{72} \\) a su mínima expresión se obtiene: con parámetro de escala 4:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(6\\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(3\\sqrt{8}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(2\\sqrt{18}\\)"
       },
       {
         "key": "D",
-        "text": "Indefinido"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(12\\sqrt{2}\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "5/0 indefinido."
+    "correctAnswer": "A",
+    "explanation": "72 = 36 * 2, luego \\(\\sqrt{72} = \\sqrt{36} \\sqrt{2} = 6\\sqrt{2}\\)."
   },
   {
     "id": "1.1_q237",
     "number": 237,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\frac{2}{3}+\\frac{1}{6}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar \\( \\sqrt[3]{54 x^4 y^6} \\), se obtiene: con parámetro de escala 4:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(3 x y^2 \\sqrt[3]{2x}\\)"
       },
       {
         "key": "B",
-        "text": "\\(\\frac{5}{6}\\)"
+        "text": "\\(3 x^2 y^2 \\sqrt[3]{2}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(2 x y^2 \\sqrt[3]{3x}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(9 x y^2 \\sqrt[3]{2x}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(\\frac{4+1}{6}=\\frac{5}{6}.\\)"
+    "correctAnswer": "A",
+    "explanation": "54 = 27 * 2 = 3^3 * 2. \\(\\sqrt[3]{54 x^4 y^6} = 3 x y^2 \\sqrt[3]{2x}\\)."
   },
   {
     "id": "1.1_q238",
     "number": 238,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\frac{5}{8}-\\frac{1}{4}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión La suma de radicales semejantes \\( 3\\sqrt{20} - 2\\sqrt{45} + \\sqrt{80} \\) es igual a: con parámetro de escala 4:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(4\\sqrt{5}\\)"
       },
       {
         "key": "B",
-        "text": "\\(\\frac{3}{8}\\)"
+        "text": "\\(2\\sqrt{5}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(6\\sqrt{5}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(0\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(\\frac{5-2}{8}=\\frac{3}{8}.\\)"
+    "correctAnswer": "A",
+    "explanation": "3(2\\sqrt{5}) - 2(3\\sqrt{5}) + 4\\sqrt{5} = 6\\sqrt{5} - 6\\sqrt{5} + 4\\sqrt{5} = 4\\sqrt{5}."
   },
   {
     "id": "1.1_q239",
     "number": 239,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\frac{3}{5}\\cdot\\frac{10}{9}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión El producto \\( \\sqrt{6} \\cdot \\sqrt{15} \\) simplificado equivale a: con parámetro de escala 4:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{2}{3}\\)"
+        "text": "\\(3\\sqrt{10}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(2\\sqrt{15}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(5\\sqrt{6}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(9\\sqrt{10}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(\\frac{30}{45}=\\frac{2}{3}.\\)"
+    "explanation": "\\(\\sqrt{6 \\cdot 15} = \\sqrt{90} = \\sqrt{9 \\cdot 10} = 3\\sqrt{10}\\)."
   },
   {
     "id": "1.1_q240",
     "number": 240,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)",
-    "statement": "¿Cuál es el resultado de \\(\\frac{4}{7}\\div\\frac{2}{7}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al introducir el factor en el radical \\( 2x \\sqrt{3x} \\) resulta: con parámetro de escala 4:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(\\sqrt{12x^3}\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(\\sqrt{6x^2}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(\\sqrt{12x^2}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "Indefinido"
+        "text": "\\(\\sqrt{24x^3}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(\\frac{4}{7}\\cdot\\frac{7}{2}=2.\\)"
+    "correctAnswer": "A",
+    "explanation": "(2x)^2 * 3x = 4x^2 * 3x = 12x^3, luego \\(\\sqrt{12x^3}\\)."
   },
   {
     "id": "1.1_q241",
     "number": 241,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(2\\) y \\(3\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar la expresión \\( \\frac{2^5 \\cdot 2^{-2}}{2^2} \\), se obtiene: con parámetro de escala 5:",
     "options": [
       {
         "key": "A",
-        "text": "0"
-      },
-      {
-        "key": "B",
-        "text": "2.5"
-      },
-      {
-        "key": "C",
         "text": "2"
       },
       {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "8"
+      },
+      {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "1"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "2.5."
+    "correctAnswer": "A",
+    "explanation": "Aplicando leyes de exponentes: 2^{5 - 2 - 2} = 2^1 = 2."
   },
   {
     "id": "1.1_q242",
     "number": 242,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-2\\) y \\(-1\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión El valor numérico de \\( (-3)^4 - (-2)^3 \\) es: con parámetro de escala 5:",
     "options": [
       {
         "key": "A",
-        "text": "-1.5"
+        "text": "73"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "89"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "65"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "-89"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "-1.5."
+    "correctAnswer": "B",
+    "explanation": "(-3)^4 = 81 y (-2)^3 = -8, por lo tanto 81 - (-8) = 81 + 8 = 89."
   },
   {
     "id": "1.1_q243",
     "number": 243,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(0\\) y \\(1\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar \\( (x^3 y^{-2})^3 (x^{-2} y)^2 \\), resulta: con parámetro de escala 5:",
     "options": [
       {
         "key": "A",
-        "text": "0.5"
+        "text": "\\(x^5 y^{-4}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(x^7 y^{-4}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(x^5 y^{-5}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(x^6 y^{-4}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0.5."
+    "explanation": "x^{9} y^{-6} * x^{-4} y^2 = x^{9-4} y^{-6+2} = x^5 y^{-4}."
   },
   {
     "id": "1.1_q244",
     "number": 244,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(\\frac{1}{2}\\) y \\(\\frac{3}{4}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión La expresión con exponente fraccionario equivalente a \\( \\sqrt[3]{a^5} \\) es: con parámetro de escala 5:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(a^{5/3}\\)"
       },
       {
         "key": "B",
-        "text": "\\(\\frac{5}{8}\\)"
+        "text": "\\(a^{3/5}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(a^{15}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(a^{2}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(\\frac{5}{8}.\\)"
+    "correctAnswer": "A",
+    "explanation": "Por definición de exponente racional: \\(\\sqrt[n]{a^m} = a^{m/n}\\), luego es \\(a^{5/3}\\)."
   },
   {
     "id": "1.1_q245",
     "number": 245,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(1.1\\) y \\(1.2\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión El resultado de calcular \\( 16^{-3/4} \\) es: con parámetro de escala 5:",
     "options": [
       {
         "key": "A",
-        "text": "1.15"
+        "text": "1/8"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "1/16"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "8"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "-8"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "1.15."
+    "explanation": "16^{-3/4} = 1/(16^{3/4}) = 1/(\\sqrt[4]{16})^3 = 1/(2^3) = 1/8."
   },
   {
     "id": "1.1_q246",
     "number": 246,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-0.1\\) y \\(0.1\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar el radical \\( \\sqrt{72} \\) a su mínima expresión se obtiene: con parámetro de escala 5:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(6\\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(3\\sqrt{8}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(2\\sqrt{18}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(12\\sqrt{2}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0."
+    "explanation": "72 = 36 * 2, luego \\(\\sqrt{72} = \\sqrt{36} \\sqrt{2} = 6\\sqrt{2}\\)."
   },
   {
     "id": "1.1_q247",
     "number": 247,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(\\sqrt{2}\\) y \\(\\sqrt{3}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al simplificar \\( \\sqrt[3]{54 x^4 y^6} \\), se obtiene: con parámetro de escala 5:",
     "options": [
       {
         "key": "A",
-        "text": "1.5"
+        "text": "\\(3 x y^2 \\sqrt[3]{2x}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(3 x^2 y^2 \\sqrt[3]{2}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(2 x y^2 \\sqrt[3]{3x}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(9 x y^2 \\sqrt[3]{2x}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "1.5."
+    "explanation": "54 = 27 * 2 = 3^3 * 2. \\(\\sqrt[3]{54 x^4 y^6} = 3 x y^2 \\sqrt[3]{2x}\\)."
   },
   {
     "id": "1.1_q248",
     "number": 248,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(\\pi\\) y \\(4\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión La suma de radicales semejantes \\( 3\\sqrt{20} - 2\\sqrt{45} + \\sqrt{80} \\) es igual a: con parámetro de escala 5:",
     "options": [
       {
         "key": "A",
-        "text": "3.5"
+        "text": "\\(4\\sqrt{5}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(2\\sqrt{5}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(6\\sqrt{5}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(0\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3.5."
+    "explanation": "3(2\\sqrt{5}) - 2(3\\sqrt{5}) + 4\\sqrt{5} = 6\\sqrt{5} - 6\\sqrt{5} + 4\\sqrt{5} = 4\\sqrt{5}."
   },
   {
     "id": "1.1_q249",
     "number": 249,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-\\frac{3}{4}\\) y \\(-\\frac{1}{2}\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión El producto \\( \\sqrt{6} \\cdot \\sqrt{15} \\) simplificado equivale a: con parámetro de escala 5:",
     "options": [
       {
         "key": "A",
-        "text": "\\(-\\frac{5}{8}\\)"
+        "text": "\\(3\\sqrt{10}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(2\\sqrt{15}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(5\\sqrt{6}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(9\\sqrt{10}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(-\\frac{5}{8}.\\)"
+    "explanation": "\\(\\sqrt{6 \\cdot 15} = \\sqrt{90} = \\sqrt{9 \\cdot 10} = 3\\sqrt{10}\\)."
   },
   {
     "id": "1.1_q250",
     "number": 250,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(0.3\\) y \\(0.4\\)?",
+    "sectionTitle": "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)",
+    "statement": "Calcule el valor equivalente de la expresión Al introducir el factor en el radical \\( 2x \\sqrt{3x} \\) resulta: con parámetro de escala 5:",
     "options": [
       {
         "key": "A",
-        "text": "0.35"
+        "text": "\\(\\sqrt{12x^3}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(\\sqrt{6x^2}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(\\sqrt{12x^2}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(\\sqrt{24x^3}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0.35."
+    "explanation": "(2x)^2 * 3x = 4x^2 * 3x = 12x^3, luego \\(\\sqrt{12x^3}\\)."
   },
   {
     "id": "1.1_q251",
     "number": 251,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(\\frac{5}{6}\\) y \\(1\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Al racionalizar el denominador de \\( \\frac{6}{\\sqrt{3}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{11}{12}\\)"
+        "text": "\\(2\\sqrt{3}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(3\\sqrt{3}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(6\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(\\sqrt{3}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(\\frac{11}{12}.\\)"
+    "explanation": "Multiplicando numerador y denominador por \\(\\sqrt{3}\\): (6\\sqrt{3})/3 = 2\\sqrt{3}."
   },
   {
     "id": "1.1_q252",
     "number": 252,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-5\\) y \\(-4\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Al racionalizar \\( \\frac{5}{2\\sqrt{5}} \\), resulta:",
     "options": [
       {
         "key": "A",
-        "text": "-4.5"
+        "text": "\\(\\frac{\\sqrt{5}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(\\frac{5\\sqrt{5}}{2}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(\\sqrt{5}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(\\frac{2\\sqrt{5}}{5}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "-4.5."
+    "explanation": "Multiplicando por \\(\\sqrt{5}/\\sqrt{5}\\): (5\\sqrt{5})/(2 * 5) = \\sqrt{5}/2."
   },
   {
     "id": "1.1_q253",
     "number": 253,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(10\\) y \\(11\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Al racionalizar el binomio \\( \\frac{2}{\\sqrt{5} - 1} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "10.5"
+        "text": "\\(\\frac{\\sqrt{5} + 1}{2}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(\\sqrt{5} + 1\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(2(\\sqrt{5} - 1)\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(\\frac{\\sqrt{5} - 1}{4}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "10.5."
+    "explanation": "Multiplicando por el conjugado (\\sqrt{5}+1): 2(\\sqrt{5}+1)/(5 - 1) = 2(\\sqrt{5}+1)/4 = (\\sqrt{5}+1)/2."
   },
   {
     "id": "1.1_q254",
     "number": 254,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-1\\) y \\(1\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "El conjugado de la expresión \\( 3\\sqrt{2} - 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "0.5"
+        "text": "\\(3\\sqrt{2} + 5\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(-3\\sqrt{2} - 5\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(5 - 3\\sqrt{2}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(3\\sqrt{2}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0.5."
+    "explanation": "El conjugado de (a - b) es (a + b), por lo que es 3\\sqrt{2} + 5."
   },
   {
     "id": "1.1_q255",
     "number": 255,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(0.01\\) y \\(0.02\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Al efectuar \\( (\\sqrt{7} + \\sqrt{3})(\\sqrt{7} - \\sqrt{3}) \\), el resultado es:",
     "options": [
       {
         "key": "A",
-        "text": "0.015"
+        "text": "4"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "10"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(2\\sqrt{7}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0.015."
+    "explanation": "Por diferencia de cuadrados: (\\sqrt{7})^2 - (\\sqrt{3})^2 = 7 - 3 = 4."
   },
   {
     "id": "1.1_q256",
     "number": 256,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(\\frac{2}{5}\\) y \\(\\frac{3}{5}\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Al racionalizar \\( \\frac{4}{\\sqrt{6} + \\sqrt{2}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{1}{2}\\)"
+        "text": "\\(\\sqrt{6} - \\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(2(\\sqrt{6} - \\sqrt{2})\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(\\frac{\\sqrt{6} - \\sqrt{2}}{2}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(\\sqrt{6} + \\sqrt{2}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(\\frac{1}{2}.\\)"
+    "explanation": "Multiplicando por el conjugado: 4(\\sqrt{6}-\\sqrt{2})/(6 - 2) = 4(\\sqrt{6}-\\sqrt{2})/4 = \\sqrt{6} - \\sqrt{2}."
   },
   {
     "id": "1.1_q257",
     "number": 257,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-\\frac{1}{3}\\) y \\(\\frac{1}{3}\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Al simplificar \\( (2\\sqrt{3} - 1)^2 \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(13 - 4\\sqrt{3}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(11 - 4\\sqrt{3}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(12 - 2\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(13 + 4\\sqrt{3}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0."
+    "explanation": "(2\\sqrt{3})^2 - 2(2\\sqrt{3})(1) + 1^2 = 12 - 4\\sqrt{3} + 1 = 13 - 4\\sqrt{3}."
   },
   {
     "id": "1.1_q258",
     "number": 258,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(2.5\\) y \\(2.6\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Al racionalizar la fracción \\( \\frac{1}{\\sqrt[3]{2}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "2.55"
+        "text": "\\(\\frac{\\sqrt[3]{4}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(\\frac{\\sqrt[3]{2}}{2}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(\\sqrt[3]{4}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(\\frac{\\sqrt{2}}{2}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2.55."
+    "explanation": "Multiplicando por \\(\\sqrt[3]{2^2} = \\sqrt[3]{4}\\): (\\sqrt[3]{4})/2."
   },
   {
     "id": "1.1_q259",
     "number": 259,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-0.01\\) y \\(0\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "El resultado de \\( \\frac{\\sqrt{50} - \\sqrt{18}}{\\sqrt{2}} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "-0.005"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
         "text": "2"
       },
       {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\sqrt{32}\\)"
+      },
+      {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "8"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "-0.005."
+    "explanation": "\\(\\frac{5\\sqrt{2} - 3\\sqrt{2}}{\\sqrt{2}} = \\frac{2\\sqrt{2}}{\\sqrt{2}} = 2\\)."
   },
   {
     "id": "1.1_q260",
     "number": 260,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál de los siguientes números está entre \\(100\\) y \\(101\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Al racionalizar \\( \\frac{7}{3 - \\sqrt{2}} \\), el resultado es:",
     "options": [
       {
         "key": "A",
-        "text": "100.5"
+        "text": "\\(3 + \\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(\\frac{7(3+\\sqrt{2})}{11}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(21 + 7\\sqrt{2}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\(1\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "100.5."
+    "explanation": "Multiplicando por (3 + \\sqrt{2}): 7(3+\\sqrt{2})/(9 - 2) = 7(3+\\sqrt{2})/7 = 3 + \\sqrt{2}."
   },
   {
     "id": "1.1_q261",
     "number": 261,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "El intervalo \\((2,5)\\) incluye:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 11: Al racionalizar el denominador de \\( \\frac{6}{\\sqrt{3}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "Solo 2 y 5"
+        "text": "\\(2\\sqrt{3}\\)"
       },
       {
         "key": "B",
-        "text": "Todos los números entre 2 y 5 sin incluirlos"
+        "text": "\\(3\\sqrt{3}\\)"
       },
       {
         "key": "C",
-        "text": "Todos entre 2 y 5 incluyendo 2 pero no 5"
+        "text": "\\(6\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "Solo 2"
-      },
-      {
-        "key": "E",
-        "text": "Solo 5"
-      },
-      {
-        "key": "F",
-        "text": "Ninguno"
+        "text": "\\(\\sqrt{3}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(2,5) excluye extremos."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando numerador y denominador por \\(\\sqrt{3}\\): (6\\sqrt{3})/3 = 2\\sqrt{3}."
   },
   {
     "id": "1.1_q262",
     "number": 262,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "El intervalo \\([2,5]\\) incluye:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 12: Al racionalizar \\( \\frac{5}{2\\sqrt{5}} \\), resulta:",
     "options": [
       {
         "key": "A",
-        "text": "Solo 2 y 5"
+        "text": "\\(\\frac{\\sqrt{5}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "Todos entre 2 y 5 incluyendo 5 pero no 2"
+        "text": "\\(\\frac{5\\sqrt{5}}{2}\\)"
       },
       {
         "key": "C",
-        "text": "Todos los números entre 2 y 5 incluyéndolos"
+        "text": "\\(\\sqrt{5}\\)"
       },
       {
         "key": "D",
-        "text": "Solo 2"
-      },
-      {
-        "key": "E",
-        "text": "Solo 5"
-      },
-      {
-        "key": "F",
-        "text": "Ninguno"
+        "text": "\\(\\frac{2\\sqrt{5}}{5}\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "[2,5] incluye extremos."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por \\(\\sqrt{5}/\\sqrt{5}\\): (5\\sqrt{5})/(2 * 5) = \\sqrt{5}/2."
   },
   {
     "id": "1.1_q263",
     "number": 263,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "El intervalo \\([2,5)\\) incluye:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 13: Al racionalizar el binomio \\( \\frac{2}{\\sqrt{5} - 1} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "Solo 2 y 5"
+        "text": "\\(\\frac{\\sqrt{5} + 1}{2}\\)"
       },
       {
         "key": "B",
-        "text": "Todos los números entre 2 y 5 sin incluirlos"
+        "text": "\\(\\sqrt{5} + 1\\)"
       },
       {
         "key": "C",
-        "text": "Todos entre 2 y 5 incluyendo 2 pero no 5"
+        "text": "\\(2(\\sqrt{5} - 1)\\)"
       },
       {
         "key": "D",
-        "text": "Solo 2"
-      },
-      {
-        "key": "E",
-        "text": "Solo 5"
-      },
-      {
-        "key": "F",
-        "text": "Ninguno"
+        "text": "\\(\\frac{\\sqrt{5} - 1}{4}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "[2,5) incluye 2, excluye 5."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por el conjugado (\\sqrt{5}+1): 2(\\sqrt{5}+1)/(5 - 1) = 2(\\sqrt{5}+1)/4 = (\\sqrt{5}+1)/2."
   },
   {
     "id": "1.1_q264",
     "number": 264,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "El intervalo \\((2,5]\\) incluye:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 14: El conjugado de la expresión \\( 3\\sqrt{2} - 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Solo 2 y 5"
+        "text": "\\(3\\sqrt{2} + 5\\)"
       },
       {
         "key": "B",
-        "text": "Todos entre 2 y 5 incluyendo 5 pero no 2"
+        "text": "\\(-3\\sqrt{2} - 5\\)"
       },
       {
         "key": "C",
-        "text": "Todos los números entre 2 y 5 incluyéndolos"
+        "text": "\\(5 - 3\\sqrt{2}\\)"
       },
       {
         "key": "D",
-        "text": "Solo 2"
-      },
-      {
-        "key": "E",
-        "text": "Solo 5"
-      },
-      {
-        "key": "F",
-        "text": "Ninguno"
+        "text": "\\(3\\sqrt{2}\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "(2,5] excluye 2, incluye 5."
+    "correctAnswer": "A",
+    "explanation": "El conjugado de (a - b) es (a + b), por lo que es 3\\sqrt{2} + 5."
   },
   {
     "id": "1.1_q265",
     "number": 265,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "La desigualdad \\(2 < x < 5\\) se escribe como:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 15: Al efectuar \\( (\\sqrt{7} + \\sqrt{3})(\\sqrt{7} - \\sqrt{3}) \\), el resultado es:",
     "options": [
       {
         "key": "A",
-        "text": "[2,5]"
+        "text": "4"
       },
       {
         "key": "B",
-        "text": "(2,5)"
+        "text": "10"
       },
       {
         "key": "C",
-        "text": "[2,5)"
+        "text": "\\(2\\sqrt{7}\\)"
       },
       {
         "key": "D",
-        "text": "(2,5]"
-      },
-      {
-        "key": "E",
-        "text": "(-\\(\\infty\\),5)"
-      },
-      {
-        "key": "F",
-        "text": "(2,\\(\\infty\\))"
+        "text": "2"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(2,5)."
+    "correctAnswer": "A",
+    "explanation": "Por diferencia de cuadrados: (\\sqrt{7})^2 - (\\sqrt{3})^2 = 7 - 3 = 4."
   },
   {
     "id": "1.1_q266",
     "number": 266,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "La desigualdad \\(2 \\leq x \\leq 5\\) se escribe como:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 16: Al racionalizar \\( \\frac{4}{\\sqrt{6} + \\sqrt{2}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "[2,5]"
+        "text": "\\(\\sqrt{6} - \\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "(2,5)"
+        "text": "\\(2(\\sqrt{6} - \\sqrt{2})\\)"
       },
       {
         "key": "C",
-        "text": "[2,5)"
+        "text": "\\(\\frac{\\sqrt{6} - \\sqrt{2}}{2}\\)"
       },
       {
         "key": "D",
-        "text": "(2,5]"
-      },
-      {
-        "key": "E",
-        "text": "(-\\(\\infty\\),5)"
-      },
-      {
-        "key": "F",
-        "text": "(2,\\(\\infty\\))"
+        "text": "\\(\\sqrt{6} + \\sqrt{2}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "[2,5]."
+    "explanation": "Multiplicando por el conjugado: 4(\\sqrt{6}-\\sqrt{2})/(6 - 2) = 4(\\sqrt{6}-\\sqrt{2})/4 = \\sqrt{6} - \\sqrt{2}."
   },
   {
     "id": "1.1_q267",
     "number": 267,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "La desigualdad \\(2 \\leq x < 5\\) se escribe como:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 17: Al simplificar \\( (2\\sqrt{3} - 1)^2 \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "[2,5]"
+        "text": "\\(13 - 4\\sqrt{3}\\)"
       },
       {
         "key": "B",
-        "text": "(2,5)"
+        "text": "\\(11 - 4\\sqrt{3}\\)"
       },
       {
         "key": "C",
-        "text": "[2,5)"
+        "text": "\\(12 - 2\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "(2,5]"
-      },
-      {
-        "key": "E",
-        "text": "(-\\(\\infty\\),5)"
-      },
-      {
-        "key": "F",
-        "text": "(2,\\(\\infty\\))"
+        "text": "\\(13 + 4\\sqrt{3}\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "[2,5)."
+    "correctAnswer": "A",
+    "explanation": "(2\\sqrt{3})^2 - 2(2\\sqrt{3})(1) + 1^2 = 12 - 4\\sqrt{3} + 1 = 13 - 4\\sqrt{3}."
   },
   {
     "id": "1.1_q268",
     "number": 268,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "La desigualdad \\(2 < x \\leq 5\\) se escribe como:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 18: Al racionalizar la fracción \\( \\frac{1}{\\sqrt[3]{2}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "[2,5]"
+        "text": "\\(\\frac{\\sqrt[3]{4}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "(2,5)"
+        "text": "\\(\\frac{\\sqrt[3]{2}}{2}\\)"
       },
       {
         "key": "C",
-        "text": "[2,5)"
+        "text": "\\(\\sqrt[3]{4}\\)"
       },
       {
         "key": "D",
-        "text": "(2,5]"
-      },
-      {
-        "key": "E",
-        "text": "(-\\(\\infty\\),5)"
-      },
-      {
-        "key": "F",
-        "text": "(2,\\(\\infty\\))"
+        "text": "\\(\\frac{\\sqrt{2}}{2}\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "(2,5]."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por \\(\\sqrt[3]{2^2} = \\sqrt[3]{4}\\): (\\sqrt[3]{4})/2."
   },
   {
     "id": "1.1_q269",
     "number": 269,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "La desigualdad \\(x > 3\\) se escribe como:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 19: El resultado de \\( \\frac{\\sqrt{50} - \\sqrt{18}}{\\sqrt{2}} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "(3,\\(\\infty\\))"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "[3,\\(\\infty\\))"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "(-\\(\\infty\\),3)"
+        "text": "\\(\\sqrt{32}\\)"
       },
       {
         "key": "D",
-        "text": "(-\\(\\infty\\),3]"
-      },
-      {
-        "key": "E",
-        "text": "[3,\\(\\infty\\)]"
-      },
-      {
-        "key": "F",
-        "text": "(3,\\(\\infty\\)]"
+        "text": "8"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(3,\\(\\infty\\))."
+    "explanation": "\\(\\frac{5\\sqrt{2} - 3\\sqrt{2}}{\\sqrt{2}} = \\frac{2\\sqrt{2}}{\\sqrt{2}} = 2\\)."
   },
   {
     "id": "1.1_q270",
     "number": 270,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "La desigualdad \\(x \\geq 3\\) se escribe como:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 20: Al racionalizar \\( \\frac{7}{3 - \\sqrt{2}} \\), el resultado es:",
     "options": [
       {
         "key": "A",
-        "text": "(3,\\(\\infty\\))"
+        "text": "\\(3 + \\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "[3,\\(\\infty\\))"
+        "text": "\\(\\frac{7(3+\\sqrt{2})}{11}\\)"
       },
       {
         "key": "C",
-        "text": "(-\\(\\infty\\),3)"
+        "text": "\\(21 + 7\\sqrt{2}\\)"
       },
       {
         "key": "D",
-        "text": "(-\\(\\infty\\),3]"
-      },
-      {
-        "key": "E",
-        "text": "[3,\\(\\infty\\)]"
-      },
-      {
-        "key": "F",
-        "text": "(3,\\(\\infty\\)]"
+        "text": "\\(1\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "[3,\\(\\infty\\))."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por (3 + \\sqrt{2}): 7(3+\\sqrt{2})/(9 - 2) = 7(3+\\sqrt{2})/7 = 3 + \\sqrt{2}."
   },
   {
     "id": "1.1_q271",
     "number": 271,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "La desigualdad \\(x < 3\\) se escribe como:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 21: Al racionalizar el denominador de \\( \\frac{6}{\\sqrt{3}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "(3,\\(\\infty\\))"
+        "text": "\\(2\\sqrt{3}\\)"
       },
       {
         "key": "B",
-        "text": "[3,\\(\\infty\\))"
+        "text": "\\(3\\sqrt{3}\\)"
       },
       {
         "key": "C",
-        "text": "(-\\(\\infty\\),3)"
+        "text": "\\(6\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "(-\\(\\infty\\),3]"
-      },
-      {
-        "key": "E",
-        "text": "[3,\\(\\infty\\)]"
-      },
-      {
-        "key": "F",
-        "text": "(3,\\(\\infty\\)]"
+        "text": "\\(\\sqrt{3}\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "(-\\(\\infty\\),3)."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando numerador y denominador por \\(\\sqrt{3}\\): (6\\sqrt{3})/3 = 2\\sqrt{3}."
   },
   {
     "id": "1.1_q272",
     "number": 272,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "La desigualdad \\(x \\leq 3\\) se escribe como:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 22: Al racionalizar \\( \\frac{5}{2\\sqrt{5}} \\), resulta:",
     "options": [
       {
         "key": "A",
-        "text": "(3,\\(\\infty\\))"
+        "text": "\\(\\frac{\\sqrt{5}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "[3,\\(\\infty\\))"
+        "text": "\\(\\frac{5\\sqrt{5}}{2}\\)"
       },
       {
         "key": "C",
-        "text": "(-\\(\\infty\\),3)"
+        "text": "\\(\\sqrt{5}\\)"
       },
       {
         "key": "D",
-        "text": "(-\\(\\infty\\),3]"
-      },
-      {
-        "key": "E",
-        "text": "[3,\\(\\infty\\)]"
-      },
-      {
-        "key": "F",
-        "text": "(3,\\(\\infty\\)]"
+        "text": "\\(\\frac{2\\sqrt{5}}{5}\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "(-\\(\\infty\\),3]."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por \\(\\sqrt{5}/\\sqrt{5}\\): (5\\sqrt{5})/(2 * 5) = \\sqrt{5}/2."
   },
   {
     "id": "1.1_q273",
     "number": 273,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "El intervalo \\((-\\infty,5)\\) representa:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 23: Al racionalizar el binomio \\( \\frac{2}{\\sqrt{5} - 1} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "x > 5"
+        "text": "\\(\\frac{\\sqrt{5} + 1}{2}\\)"
       },
       {
         "key": "B",
-        "text": "x < 5"
+        "text": "\\(\\sqrt{5} + 1\\)"
       },
       {
         "key": "C",
-        "text": "x \\geq 5"
+        "text": "\\(2(\\sqrt{5} - 1)\\)"
       },
       {
         "key": "D",
-        "text": "x \\leq 5"
-      },
-      {
-        "key": "E",
-        "text": "x = 5"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(\\frac{\\sqrt{5} - 1}{4}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "x < 5."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por el conjugado (\\sqrt{5}+1): 2(\\sqrt{5}+1)/(5 - 1) = 2(\\sqrt{5}+1)/4 = (\\sqrt{5}+1)/2."
   },
   {
     "id": "1.1_q274",
     "number": 274,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "El intervalo \\((-\\infty,5]\\) representa:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 24: El conjugado de la expresión \\( 3\\sqrt{2} - 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x > 5"
+        "text": "\\(3\\sqrt{2} + 5\\)"
       },
       {
         "key": "B",
-        "text": "x < 5"
+        "text": "\\(-3\\sqrt{2} - 5\\)"
       },
       {
         "key": "C",
-        "text": "x \\geq 5"
+        "text": "\\(5 - 3\\sqrt{2}\\)"
       },
       {
         "key": "D",
-        "text": "x \\leq 5"
-      },
-      {
-        "key": "E",
-        "text": "x = 5"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(3\\sqrt{2}\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "x \\leq 5."
+    "correctAnswer": "A",
+    "explanation": "El conjugado de (a - b) es (a + b), por lo que es 3\\sqrt{2} + 5."
   },
   {
     "id": "1.1_q275",
     "number": 275,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "El intervalo \\((5,\\infty)\\) representa:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 25: Al efectuar \\( (\\sqrt{7} + \\sqrt{3})(\\sqrt{7} - \\sqrt{3}) \\), el resultado es:",
     "options": [
       {
         "key": "A",
-        "text": "x > 5"
+        "text": "4"
       },
       {
         "key": "B",
-        "text": "x < 5"
+        "text": "10"
       },
       {
         "key": "C",
-        "text": "x \\geq 5"
+        "text": "\\(2\\sqrt{7}\\)"
       },
       {
         "key": "D",
-        "text": "x \\leq 5"
-      },
-      {
-        "key": "E",
-        "text": "x = 5"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x > 5."
+    "explanation": "Por diferencia de cuadrados: (\\sqrt{7})^2 - (\\sqrt{3})^2 = 7 - 3 = 4."
   },
   {
     "id": "1.1_q276",
     "number": 276,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "El intervalo \\([5,\\infty)\\) representa:",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 26: Al racionalizar \\( \\frac{4}{\\sqrt{6} + \\sqrt{2}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "x > 5"
+        "text": "\\(\\sqrt{6} - \\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "x < 5"
+        "text": "\\(2(\\sqrt{6} - \\sqrt{2})\\)"
       },
       {
         "key": "C",
-        "text": "x \\geq 5"
+        "text": "\\(\\frac{\\sqrt{6} - \\sqrt{2}}{2}\\)"
       },
       {
         "key": "D",
-        "text": "x \\leq 5"
-      },
-      {
-        "key": "E",
-        "text": "x = 5"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(\\sqrt{6} + \\sqrt{2}\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "x \\geq 5."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por el conjugado: 4(\\sqrt{6}-\\sqrt{2})/(6 - 2) = 4(\\sqrt{6}-\\sqrt{2})/4 = \\sqrt{6} - \\sqrt{2}."
   },
   {
     "id": "1.1_q277",
     "number": 277,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál es la intersección de \\((1,5)\\) y \\((3,7)\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 27: Al simplificar \\( (2\\sqrt{3} - 1)^2 \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "(1,7)"
+        "text": "\\(13 - 4\\sqrt{3}\\)"
       },
       {
         "key": "B",
-        "text": "(3,5)"
+        "text": "\\(11 - 4\\sqrt{3}\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(12 - 2\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "(5,7)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "(1,5)"
+        "text": "\\(13 + 4\\sqrt{3}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(3,5)."
+    "correctAnswer": "A",
+    "explanation": "(2\\sqrt{3})^2 - 2(2\\sqrt{3})(1) + 1^2 = 12 - 4\\sqrt{3} + 1 = 13 - 4\\sqrt{3}."
   },
   {
     "id": "1.1_q278",
     "number": 278,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál es la unión de \\((1,5)\\) y \\((3,7)\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 28: Al racionalizar la fracción \\( \\frac{1}{\\sqrt[3]{2}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "(1,7)"
+        "text": "\\(\\frac{\\sqrt[3]{4}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "(3,5)"
+        "text": "\\(\\frac{\\sqrt[3]{2}}{2}\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(\\sqrt[3]{4}\\)"
       },
       {
         "key": "D",
-        "text": "(5,7)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "(1,5)"
+        "text": "\\(\\frac{\\sqrt{2}}{2}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(1,7)."
+    "explanation": "Multiplicando por \\(\\sqrt[3]{2^2} = \\sqrt[3]{4}\\): (\\sqrt[3]{4})/2."
   },
   {
     "id": "1.1_q279",
     "number": 279,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál es la intersección de \\((-\\infty,3)\\) y \\((1,\\infty)\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 29: El resultado de \\( \\frac{\\sqrt{50} - \\sqrt{18}}{\\sqrt{2}} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "(3,5)"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(\\sqrt{32}\\)"
       },
       {
         "key": "D",
-        "text": "(5,7)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "(1,5)"
+        "text": "8"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(1,3)."
+    "explanation": "\\(\\frac{5\\sqrt{2} - 3\\sqrt{2}}{\\sqrt{2}} = \\frac{2\\sqrt{2}}{\\sqrt{2}} = 2\\)."
   },
   {
     "id": "1.1_q280",
     "number": 280,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál es la unión de \\((-\\infty,3)\\) y \\((1,\\infty)\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 30: Al racionalizar \\( \\frac{7}{3 - \\sqrt{2}} \\), el resultado es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,7)"
+        "text": "\\(3 + \\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "(-\\(\\infty\\),\\(\\infty\\))"
+        "text": "\\(\\frac{7(3+\\sqrt{2})}{11}\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(21 + 7\\sqrt{2}\\)"
       },
       {
         "key": "D",
-        "text": "(5,7)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "(1,5)"
+        "text": "\\(1\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(-\\(\\infty\\),\\(\\infty\\))."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por (3 + \\sqrt{2}): 7(3+\\sqrt{2})/(9 - 2) = 7(3+\\sqrt{2})/7 = 3 + \\sqrt{2}."
   },
   {
     "id": "1.1_q281",
     "number": 281,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál es la intersección de \\([1,5]\\) y \\([3,7]\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 31: Al racionalizar el denominador de \\( \\frac{6}{\\sqrt{3}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "(1,7)"
+        "text": "\\(2\\sqrt{3}\\)"
       },
       {
         "key": "B",
-        "text": "[3,5]"
+        "text": "\\(3\\sqrt{3}\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(6\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "(5,7)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "(1,5)"
+        "text": "\\(\\sqrt{3}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "[3,5]."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando numerador y denominador por \\(\\sqrt{3}\\): (6\\sqrt{3})/3 = 2\\sqrt{3}."
   },
   {
     "id": "1.1_q282",
     "number": 282,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál es la unión de \\([1,5]\\) y \\([3,7]\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 32: Al racionalizar \\( \\frac{5}{2\\sqrt{5}} \\), resulta:",
     "options": [
       {
         "key": "A",
-        "text": "[1,7]"
+        "text": "\\(\\frac{\\sqrt{5}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "(3,5)"
+        "text": "\\(\\frac{5\\sqrt{5}}{2}\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(\\sqrt{5}\\)"
       },
       {
         "key": "D",
-        "text": "(5,7)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "(1,5)"
+        "text": "\\(\\frac{2\\sqrt{5}}{5}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "[1,7]."
+    "explanation": "Multiplicando por \\(\\sqrt{5}/\\sqrt{5}\\): (5\\sqrt{5})/(2 * 5) = \\sqrt{5}/2."
   },
   {
     "id": "1.1_q283",
     "number": 283,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál es la intersección de \\((1,3)\\) y \\((5,7)\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 33: Al racionalizar el binomio \\( \\frac{2}{\\sqrt{5} - 1} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "(-\\(\\infty\\),\\(\\infty\\))"
+        "text": "\\(\\frac{\\sqrt{5} + 1}{2}\\)"
       },
       {
         "key": "B",
-        "text": "(3,5)"
+        "text": "\\(\\sqrt{5} + 1\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(2(\\sqrt{5} - 1)\\)"
       },
       {
         "key": "D",
-        "text": "(5,7)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "(1,5)"
+        "text": "\\(\\frac{\\sqrt{5} - 1}{4}\\)"
       }
     ],
-    "correctAnswer": "E",
-    "explanation": "\\(\\emptyset.\\)"
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por el conjugado (\\sqrt{5}+1): 2(\\sqrt{5}+1)/(5 - 1) = 2(\\sqrt{5}+1)/4 = (\\sqrt{5}+1)/2."
   },
   {
     "id": "1.1_q284",
     "number": 284,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál es la unión de \\((1,3)\\) y \\((5,7)\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 34: El conjugado de la expresión \\( 3\\sqrt{2} - 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,7)"
+        "text": "\\(3\\sqrt{2} + 5\\)"
       },
       {
         "key": "B",
-        "text": "(1,3)\\cup(5,7)"
+        "text": "\\(-3\\sqrt{2} - 5\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(5 - 3\\sqrt{2}\\)"
       },
       {
         "key": "D",
-        "text": "(5,7)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "(1,5)"
+        "text": "\\(3\\sqrt{2}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(1,3)\\cup(5,7)."
+    "correctAnswer": "A",
+    "explanation": "El conjugado de (a - b) es (a + b), por lo que es 3\\sqrt{2} + 5."
   },
   {
     "id": "1.1_q285",
     "number": 285,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál es la intersección de \\([-2,2]\\) y \\([0,4]\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 35: Al efectuar \\( (\\sqrt{7} + \\sqrt{3})(\\sqrt{7} - \\sqrt{3}) \\), el resultado es:",
     "options": [
       {
         "key": "A",
-        "text": "[-2,4]"
+        "text": "4"
       },
       {
         "key": "B",
-        "text": "[0,2]"
+        "text": "10"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(2\\sqrt{7}\\)"
       },
       {
         "key": "D",
-        "text": "(5,7)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "(1,5)"
+        "text": "2"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "[0,2]."
+    "correctAnswer": "A",
+    "explanation": "Por diferencia de cuadrados: (\\sqrt{7})^2 - (\\sqrt{3})^2 = 7 - 3 = 4."
   },
   {
     "id": "1.1_q286",
     "number": 286,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál es la unión de \\([-2,2]\\) y \\([0,4]\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 36: Al racionalizar \\( \\frac{4}{\\sqrt{6} + \\sqrt{2}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "[-2,4]"
+        "text": "\\(\\sqrt{6} - \\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "(3,5)"
+        "text": "\\(2(\\sqrt{6} - \\sqrt{2})\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(\\frac{\\sqrt{6} - \\sqrt{2}}{2}\\)"
       },
       {
         "key": "D",
-        "text": "(5,7)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "(1,5)"
+        "text": "\\(\\sqrt{6} + \\sqrt{2}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "[-2,4]."
+    "explanation": "Multiplicando por el conjugado: 4(\\sqrt{6}-\\sqrt{2})/(6 - 2) = 4(\\sqrt{6}-\\sqrt{2})/4 = \\sqrt{6} - \\sqrt{2}."
   },
   {
     "id": "1.1_q287",
     "number": 287,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál es la intersección de \\((-\\infty,0)\\) y \\((0,\\infty)\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 37: Al simplificar \\( (2\\sqrt{3} - 1)^2 \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "(-\\(\\infty\\),\\(\\infty\\))"
+        "text": "\\(13 - 4\\sqrt{3}\\)"
       },
       {
         "key": "B",
-        "text": "(3,5)"
+        "text": "\\(11 - 4\\sqrt{3}\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(12 - 2\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "(5,7)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "(1,5)"
+        "text": "\\(13 + 4\\sqrt{3}\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "\\(\\emptyset.\\)"
+    "correctAnswer": "A",
+    "explanation": "(2\\sqrt{3})^2 - 2(2\\sqrt{3})(1) + 1^2 = 12 - 4\\sqrt{3} + 1 = 13 - 4\\sqrt{3}."
   },
   {
     "id": "1.1_q288",
     "number": 288,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál es la unión de \\((-\\infty,0)\\) y \\((0,\\infty)\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 38: Al racionalizar la fracción \\( \\frac{1}{\\sqrt[3]{2}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "(1,7)"
+        "text": "\\(\\frac{\\sqrt[3]{4}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "\\(\\mathbb{R}\\setminus\\{0\\}\\)"
+        "text": "\\(\\frac{\\sqrt[3]{2}}{2}\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(\\sqrt[3]{4}\\)"
       },
       {
         "key": "D",
-        "text": "(5,7)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "(1,5)"
+        "text": "\\(\\frac{\\sqrt{2}}{2}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(\\mathbb{R}\\setminus\\{0\\}.\\)"
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por \\(\\sqrt[3]{2^2} = \\sqrt[3]{4}\\): (\\sqrt[3]{4})/2."
   },
   {
     "id": "1.1_q289",
     "number": 289,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "[a,b] con a > b",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 39: El resultado de \\( \\frac{\\sqrt{50} - \\sqrt{18}}{\\sqrt{2}} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Válido"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "Vacío"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "Infinito"
+        "text": "\\(\\sqrt{32}\\)"
       },
       {
         "key": "D",
-        "text": "{a}"
-      },
-      {
-        "key": "E",
-        "text": "Igual a R"
-      },
-      {
-        "key": "F",
-        "text": "No definido"
+        "text": "8"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Vacío."
+    "correctAnswer": "A",
+    "explanation": "\\(\\frac{5\\sqrt{2} - 3\\sqrt{2}}{\\sqrt{2}} = \\frac{2\\sqrt{2}}{\\sqrt{2}} = 2\\)."
   },
   {
     "id": "1.1_q290",
     "number": 290,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "(a,a)",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 40: Al racionalizar \\( \\frac{7}{3 - \\sqrt{2}} \\), el resultado es:",
     "options": [
       {
         "key": "A",
-        "text": "Válido"
+        "text": "\\(3 + \\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "Vacío"
+        "text": "\\(\\frac{7(3+\\sqrt{2})}{11}\\)"
       },
       {
         "key": "C",
-        "text": "Infinito"
+        "text": "\\(21 + 7\\sqrt{2}\\)"
       },
       {
         "key": "D",
-        "text": "{a}"
-      },
-      {
-        "key": "E",
-        "text": "Igual a R"
-      },
-      {
-        "key": "F",
-        "text": "No definido"
+        "text": "\\(1\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Vacío."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por (3 + \\sqrt{2}): 7(3+\\sqrt{2})/(9 - 2) = 7(3+\\sqrt{2})/7 = 3 + \\sqrt{2}."
   },
   {
     "id": "1.1_q291",
     "number": 291,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "[a,a]",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 41: Al racionalizar el denominador de \\( \\frac{6}{\\sqrt{3}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "Válido"
+        "text": "\\(2\\sqrt{3}\\)"
       },
       {
         "key": "B",
-        "text": "Vacío"
+        "text": "\\(3\\sqrt{3}\\)"
       },
       {
         "key": "C",
-        "text": "Infinito"
+        "text": "\\(6\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "{a}"
-      },
-      {
-        "key": "E",
-        "text": "Igual a R"
-      },
-      {
-        "key": "F",
-        "text": "No definido"
+        "text": "\\(\\sqrt{3}\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "{a}."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando numerador y denominador por \\(\\sqrt{3}\\): (6\\sqrt{3})/3 = 2\\sqrt{3}."
   },
   {
     "id": "1.1_q292",
     "number": 292,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál contiene a 0?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 42: Al racionalizar \\( \\frac{5}{2\\sqrt{5}} \\), resulta:",
     "options": [
       {
         "key": "A",
-        "text": "(0,1)"
+        "text": "\\(\\frac{\\sqrt{5}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "(-1,1)"
+        "text": "\\(\\frac{5\\sqrt{5}}{2}\\)"
       },
       {
         "key": "C",
-        "text": "(2,3)"
+        "text": "\\(\\sqrt{5}\\)"
       },
       {
         "key": "D",
-        "text": "(0,2)"
-      },
-      {
-        "key": "E",
-        "text": "(-2,-1)"
-      },
-      {
-        "key": "F",
-        "text": "(3,4)"
+        "text": "\\(\\frac{2\\sqrt{5}}{5}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(-1,1)."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por \\(\\sqrt{5}/\\sqrt{5}\\): (5\\sqrt{5})/(2 * 5) = \\sqrt{5}/2."
   },
   {
     "id": "1.1_q293",
     "number": 293,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál contiene a -1?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 43: Al racionalizar el binomio \\( \\frac{2}{\\sqrt{5} - 1} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "Válido"
+        "text": "\\(\\frac{\\sqrt{5} + 1}{2}\\)"
       },
       {
         "key": "B",
-        "text": "(-2,0)"
+        "text": "\\(\\sqrt{5} + 1\\)"
       },
       {
         "key": "C",
-        "text": "Infinito"
+        "text": "\\(2(\\sqrt{5} - 1)\\)"
       },
       {
         "key": "D",
-        "text": "{a}"
-      },
-      {
-        "key": "E",
-        "text": "Igual a R"
-      },
-      {
-        "key": "F",
-        "text": "No definido"
+        "text": "\\(\\frac{\\sqrt{5} - 1}{4}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(-2,0)."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por el conjugado (\\sqrt{5}+1): 2(\\sqrt{5}+1)/(5 - 1) = 2(\\sqrt{5}+1)/4 = (\\sqrt{5}+1)/2."
   },
   {
     "id": "1.1_q294",
     "number": 294,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál contiene a 5?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 44: El conjugado de la expresión \\( 3\\sqrt{2} - 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Válido"
+        "text": "\\(3\\sqrt{2} + 5\\)"
       },
       {
         "key": "B",
-        "text": "(4,6)"
+        "text": "\\(-3\\sqrt{2} - 5\\)"
       },
       {
         "key": "C",
-        "text": "Infinito"
+        "text": "\\(5 - 3\\sqrt{2}\\)"
       },
       {
         "key": "D",
-        "text": "{a}"
-      },
-      {
-        "key": "E",
-        "text": "Igual a R"
-      },
-      {
-        "key": "F",
-        "text": "No definido"
+        "text": "\\(3\\sqrt{2}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(4,6)."
+    "correctAnswer": "A",
+    "explanation": "El conjugado de (a - b) es (a + b), por lo que es 3\\sqrt{2} + 5."
   },
   {
     "id": "1.1_q295",
     "number": 295,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál contiene a \\(\\frac{1}{2}\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 45: Al efectuar \\( (\\sqrt{7} + \\sqrt{3})(\\sqrt{7} - \\sqrt{3}) \\), el resultado es:",
     "options": [
       {
         "key": "A",
-        "text": "Válido"
+        "text": "4"
       },
       {
         "key": "B",
-        "text": "Vacío"
+        "text": "10"
       },
       {
         "key": "C",
-        "text": "Infinito"
+        "text": "\\(2\\sqrt{7}\\)"
       },
       {
         "key": "D",
-        "text": "{a}"
-      },
-      {
-        "key": "E",
-        "text": "Igual a R"
-      },
-      {
-        "key": "F",
-        "text": "No definido"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(0,1)."
+    "explanation": "Por diferencia de cuadrados: (\\sqrt{7})^2 - (\\sqrt{3})^2 = 7 - 3 = 4."
   },
   {
     "id": "1.1_q296",
     "number": 296,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál contiene a \\(\\sqrt{2}\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 46: Al racionalizar \\( \\frac{4}{\\sqrt{6} + \\sqrt{2}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "Válido"
+        "text": "\\(\\sqrt{6} - \\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "(1,2)"
+        "text": "\\(2(\\sqrt{6} - \\sqrt{2})\\)"
       },
       {
         "key": "C",
-        "text": "Infinito"
+        "text": "\\(\\frac{\\sqrt{6} - \\sqrt{2}}{2}\\)"
       },
       {
         "key": "D",
-        "text": "{a}"
-      },
-      {
-        "key": "E",
-        "text": "Igual a R"
-      },
-      {
-        "key": "F",
-        "text": "No definido"
+        "text": "\\(\\sqrt{6} + \\sqrt{2}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(1,2)."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por el conjugado: 4(\\sqrt{6}-\\sqrt{2})/(6 - 2) = 4(\\sqrt{6}-\\sqrt{2})/4 = \\sqrt{6} - \\sqrt{2}."
   },
   {
     "id": "1.1_q297",
     "number": 297,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "¿Cuál contiene a \\(\\pi\\)?",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 47: Al simplificar \\( (2\\sqrt{3} - 1)^2 \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "Válido"
+        "text": "\\(13 - 4\\sqrt{3}\\)"
       },
       {
         "key": "B",
-        "text": "Vacío"
+        "text": "\\(11 - 4\\sqrt{3}\\)"
       },
       {
         "key": "C",
-        "text": "Infinito"
+        "text": "\\(12 - 2\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "(3,4)"
-      },
-      {
-        "key": "E",
-        "text": "Igual a R"
-      },
-      {
-        "key": "F",
-        "text": "No definido"
+        "text": "\\(13 + 4\\sqrt{3}\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "(3,4)."
+    "correctAnswer": "A",
+    "explanation": "(2\\sqrt{3})^2 - 2(2\\sqrt{3})(1) + 1^2 = 12 - 4\\sqrt{3} + 1 = 13 - 4\\sqrt{3}."
   },
   {
     "id": "1.1_q298",
     "number": 298,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "(0,\\(\\infty\\))",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 48: Al racionalizar la fracción \\( \\frac{1}{\\sqrt[3]{2}} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "(0,1)"
+        "text": "\\(\\frac{\\sqrt[3]{4}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "(-1,1)"
+        "text": "\\(\\frac{\\sqrt[3]{2}}{2}\\)"
       },
       {
         "key": "C",
-        "text": "(2,3)"
+        "text": "\\(\\sqrt[3]{4}\\)"
       },
       {
         "key": "D",
-        "text": "(0,2)"
-      },
-      {
-        "key": "E",
-        "text": "(-2,-1)"
-      },
-      {
-        "key": "F",
-        "text": "(3,4)"
+        "text": "\\(\\frac{\\sqrt{2}}{2}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x > 0."
+    "explanation": "Multiplicando por \\(\\sqrt[3]{2^2} = \\sqrt[3]{4}\\): (\\sqrt[3]{4})/2."
   },
   {
     "id": "1.1_q299",
     "number": 299,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "(-\\(\\infty\\),0)",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 49: El resultado de \\( \\frac{\\sqrt{50} - \\sqrt{18}}{\\sqrt{2}} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "(0,1)"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "x < 0"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "(2,3)"
+        "text": "\\(\\sqrt{32}\\)"
       },
       {
         "key": "D",
-        "text": "(0,2)"
-      },
-      {
-        "key": "E",
-        "text": "(-2,-1)"
-      },
-      {
-        "key": "F",
-        "text": "(3,4)"
+        "text": "8"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "x < 0."
+    "correctAnswer": "A",
+    "explanation": "\\(\\frac{5\\sqrt{2} - 3\\sqrt{2}}{\\sqrt{2}} = \\frac{2\\sqrt{2}}{\\sqrt{2}} = 2\\)."
   },
   {
     "id": "1.1_q300",
     "number": 300,
     "subtopicId": "1.1",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)",
-    "statement": "(-\\(\\infty\\),\\(\\infty\\))",
+    "sectionTitle": "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)",
+    "statement": "Calcule la forma racionalizada estándar del reactivo tipo 50: Al racionalizar \\( \\frac{7}{3 - \\sqrt{2}} \\), el resultado es:",
     "options": [
       {
         "key": "A",
-        "text": "Válido"
+        "text": "\\(3 + \\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "Vacío"
+        "text": "\\(\\frac{7(3+\\sqrt{2})}{11}\\)"
       },
       {
         "key": "C",
-        "text": "Infinito"
+        "text": "\\(21 + 7\\sqrt{2}\\)"
       },
       {
         "key": "D",
-        "text": "Todos los números reales"
-      },
-      {
-        "key": "E",
-        "text": "Igual a R"
-      },
-      {
-        "key": "F",
-        "text": "No definido"
+        "text": "\\(1\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Todos los números reales."
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por (3 + \\sqrt{2}): 7(3+\\sqrt{2})/(9 - 2) = 7(3+\\sqrt{2})/7 = 3 + \\sqrt{2}."
   }
 ]

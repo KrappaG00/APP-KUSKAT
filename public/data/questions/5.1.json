@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es el ADN?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En la respiración celular aeróbica, la primera etapa denominada Glucólisis se lleva a cabo en:",
     "options": [
       {
         "key": "A",
-        "text": "El ácido desoxirribonucleico que contiene la información genética"
+        "text": "El citoplasma (citosol) de la célula"
       },
       {
         "key": "B",
-        "text": "El ácido ribonucleico que contiene la información genética"
+        "text": "La matriz mitocondrial"
       },
       {
         "key": "C",
-        "text": "El ácido desoxirribonucleico que contiene la información proteica"
+        "text": "La membrana mitocondrial interna"
       },
       {
         "key": "D",
-        "text": "El ácido ribonucleico que contiene la información proteica"
-      },
-      {
-        "key": "E",
-        "text": "El ácido desoxirribonucleico que contiene la información lipídica"
-      },
-      {
-        "key": "F",
-        "text": "El ácido ribonucleico que contiene la información lipídica"
+        "text": "El estroma del cloroplasto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El ADN contiene la información genética."
+    "explanation": "La glucólisis es anaeróbica y ocurre en el citosol celular, escindiendo la glucosa en dos moléculas de piruvato."
   },
   {
     "id": "5.1_q202",
     "number": 202,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Quiénes descubrieron la estructura de doble hélice del ADN?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "El rendimiento neto de energía útil producido directamente por la glucólisis por cada molécula de glucosa es de:",
     "options": [
       {
         "key": "A",
-        "text": "Watson y Crick"
+        "text": "2 moléculas de ATP y 2 moléculas de NADH"
       },
       {
         "key": "B",
-        "text": "Mendel y Darwin"
+        "text": "36 moléculas de ATP y 6 de CO2"
       },
       {
         "key": "C",
-        "text": "Pasteur y Koch"
+        "text": "4 moléculas de FADH2 y 1 de GTP"
       },
       {
         "key": "D",
-        "text": "Hooke y Leeuwenhoek"
-      },
-      {
-        "key": "E",
-        "text": "Fleming y Florey"
-      },
-      {
-        "key": "F",
-        "text": "Newton y Einstein"
+        "text": "38 moléculas de ATP y 2 de lactato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Watson y Crick descubrieron la doble hélice."
+    "explanation": "Se invierten 2 ATP en la fase preparatoria y se generan 4 ATP, arrojando una ganancia neta de 2 ATP y 2 NADH."
   },
   {
     "id": "5.1_q203",
     "number": 203,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Cuáles son las bases nitrogenadas del ADN?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "El Ciclo de Krebs (o ciclo del ácido cítrico) ocurre específicamente en:",
     "options": [
       {
         "key": "A",
-        "text": "Adenina, timina, citosina y guanina"
+        "text": "La matriz mitocondrial"
       },
       {
         "key": "B",
-        "text": "Adenina, uracilo, citosina y guanina"
+        "text": "El espacio intermembrana mitocondrial"
       },
       {
         "key": "C",
-        "text": "Adenina, timina, citosina y uracilo"
+        "text": "El retículo endoplásmico rugoso"
       },
       {
         "key": "D",
-        "text": "Adenina, uracilo, citosina y timina"
-      },
-      {
-        "key": "E",
-        "text": "Adenina, guanina, uracilo y timina"
-      },
-      {
-        "key": "F",
-        "text": "Adenina, citosina, uracilo y guanina"
+        "text": "Los tilacoides del cloroplasto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las bases del ADN son A, T, C y G."
+    "explanation": "En la matriz mitocondrial, el acetil-CoA se condensa con el oxalacetato para formar citrato y liberar transportadores de electrones."
   },
   {
     "id": "5.1_q204",
     "number": 204,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Cuáles son las bases nitrogenadas del ARN?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En la respiración celular, la mayor cantidad de ATP se produce durante:",
     "options": [
       {
         "key": "A",
-        "text": "Adenina, uracilo, citosina y guanina"
+        "text": "La fosforilación oxidativa acoplada a la cadena transportadora de electrones"
       },
       {
         "key": "B",
-        "text": "Adenina, timina, citosina y guanina"
+        "text": "La glucólisis citoplasmática"
       },
       {
         "key": "C",
-        "text": "Adenina, timina, citosina y uracilo"
+        "text": "El ciclo de Krebs en la matriz"
       },
       {
         "key": "D",
-        "text": "Adenina, uracilo, citosina y timina"
-      },
-      {
-        "key": "E",
-        "text": "Adenina, guanina, uracilo y timina"
-      },
-      {
-        "key": "F",
-        "text": "Adenina, citosina, uracilo y guanina"
+        "text": "La fermentación láctica en los músculos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las bases del ARN son A, U, C y G."
+    "explanation": "El gradiente electroquímico de protones en la membrana interna impulsa la ATP sintasa generando cerca de 28 a 34 ATP."
   },
   {
     "id": "5.1_q205",
     "number": 205,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Con qué base se empareja la adenina en el ADN?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "El aceptor final de electrones en la cadena respiratoria mitocondrial aeróbica es:",
     "options": [
       {
         "key": "A",
-        "text": "Con timina"
+        "text": "El oxígeno molecular \\( (O_2) \\), que se reduce para formar agua \\( (H_2O) \\)"
       },
       {
         "key": "B",
-        "text": "Con uracilo"
+        "text": "El dióxido de carbono \\( (CO_2) \\)"
       },
       {
         "key": "C",
-        "text": "Con citosina"
+        "text": "El piruvato de la glucólisis"
       },
       {
         "key": "D",
-        "text": "Con guanina"
-      },
-      {
-        "key": "E",
-        "text": "Con adenina"
-      },
-      {
-        "key": "F",
-        "text": "Con otra base"
+        "text": "El NAD+ oxidado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La adenina se empareja con timina en el ADN."
+    "explanation": "El oxígeno atrae los electrones terminales e incorpora protones para formar agua; sin él, la cadena se detiene."
   },
   {
     "id": "5.1_q206",
     "number": 206,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Con qué base se empareja la guanina en el ADN?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "La fermentación láctica en las células musculares humanas en condiciones de anoxia tiene como objetivo celular principal:",
     "options": [
       {
         "key": "A",
-        "text": "Con citosina"
+        "text": "Regenerar el \\( NAD^+ \\) oxidado a partir del NADH para permitir que la glucólisis continúe produciendo ATP"
       },
       {
         "key": "B",
-        "text": "Con timina"
+        "text": "Sintetizar grandes cantidades de glucosa de reserva"
       },
       {
         "key": "C",
-        "text": "Con uracilo"
+        "text": "Neutralizar los ácidos en el torrente sanguíneo"
       },
       {
         "key": "D",
-        "text": "Con adenina"
-      },
-      {
-        "key": "E",
-        "text": "Con guanina"
-      },
-      {
-        "key": "F",
-        "text": "Con otra base"
+        "text": "Absorber dióxido de carbono de los pulmones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La guanina se empareja con citosina en el ADN."
+    "explanation": "Al reducir el piruvato a lactato, se oxida el NADH a \\( NAD^+ \\), sustrato imprescindible para mantener activa la glucólisis."
   },
   {
     "id": "5.1_q207",
     "number": 207,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Con qué base se empareja la adenina en el ARN?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "La fase luminosa de la fotosíntesis tiene lugar en las membranas de los:",
     "options": [
       {
         "key": "A",
-        "text": "Con uracilo"
+        "text": "Tilacoides del cloroplasto"
       },
       {
         "key": "B",
-        "text": "Con timina"
+        "text": "Estromas del cloroplasto"
       },
       {
         "key": "C",
-        "text": "Con citosina"
+        "text": "Cisternas del complejo de Golgi"
       },
       {
         "key": "D",
-        "text": "Con guanina"
-      },
-      {
-        "key": "E",
-        "text": "Con adenina"
-      },
-      {
-        "key": "F",
-        "text": "Con otra base"
+        "text": "Ribosomas citoplasmáticos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La adenina se empareja con uracilo en el ARN."
+    "explanation": "Los fotosistemas I y II con sus pigmentos de clorofila están incrustados en la membrana tilacoidal."
   },
   {
     "id": "5.1_q208",
     "number": 208,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es la replicación del ADN?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "El fenómeno de la 'fotólisis del agua' en el Fotosistema II de la fase luminosa fotosintética produce:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de copiar el ADN antes de la división celular"
+        "text": "Electrones para la cadena fotosintética, protones \\( H^+ \\) y liberación de oxígeno molecular \\( (O_2) \\)"
       },
       {
         "key": "B",
-        "text": "El proceso de copiar el ARN"
+        "text": "Dióxido de carbono y glucosa líquida"
       },
       {
         "key": "C",
-        "text": "El proceso de copiar proteínas"
+        "text": "Ácido láctico y alcohol etílico"
       },
       {
         "key": "D",
-        "text": "El proceso de copiar lípidos"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de copiar carbohidratos"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de copiar minerales"
+        "text": "ATP sintasa purificada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La replicación copia el ADN antes de la división."
+    "explanation": "La ruptura fotocatalítica de la molécula de agua restituye los electrones excitados en la clorofila P680 y libera \\( O_2 \\)."
   },
   {
     "id": "5.1_q209",
     "number": 209,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es la transcripción?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En la fase oscura o Ciclo de Calvin-Benson de la fotosíntesis, la fijación del \\( CO_2 \\) es catalizada por la enzima:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de copiar el ADN en ARN"
+        "text": "RuBisCO (Ribulosa-1,5-bisfosfato carboxilasa-oxigenasa)"
       },
       {
         "key": "B",
-        "text": "El proceso de copiar el ARN en ADN"
+        "text": "ADN polimerasa III"
       },
       {
         "key": "C",
-        "text": "El proceso de copiar el ARN en proteínas"
+        "text": "Catalasa peroxisomal"
       },
       {
         "key": "D",
-        "text": "El proceso de copiar proteínas en ADN"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de copiar lípidos en ADN"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de copiar carbohidratos en ADN"
+        "text": "Amilasa pancreática"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La transcripción copia el ADN en ARN."
+    "explanation": "La RuBisCO fija el \\( CO_2 \\) sobre la ribulosa-1,5-bisfosfato en el estroma para generar fosfoglicerato (PGA)."
   },
   {
     "id": "5.1_q210",
     "number": 210,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es la traducción?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "El producto carbohidrato directo de tres vueltas completas del Ciclo de Calvin utilizado para fabricar glucosa es:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de sintetizar proteínas a partir del ARN"
+        "text": "Gliceraldehído-3-fosfato (G3P)"
       },
       {
         "key": "B",
-        "text": "El proceso de sintetizar ARN a partir del ADN"
+        "text": "Ácido pirúvico concentrado"
       },
       {
         "key": "C",
-        "text": "El proceso de sintetizar ADN a partir del ARN"
+        "text": "Fructosa-1,6-bisfosfato no fosforilada"
       },
       {
         "key": "D",
-        "text": "El proceso de sintetizar lípidos a partir del ARN"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de sintetizar carbohidratos a partir del ARN"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de sintetizar minerales a partir del ARN"
+        "text": "Sacarosa cristalina directa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La traducción sintetiza proteínas a partir del ARN."
+    "explanation": "Dos moléculas de G3P que abandonan el ciclo de Calvin se combinan en el citoplasma para formar una molécula de glucosa."
   },
   {
     "id": "5.1_q211",
     "number": 211,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es el código genético?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 11): En la respiración celular aeróbica, la primera etapa denominada Glucólisis se lleva a cabo en:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de reglas que relacionan los codones con los aminoácidos"
+        "text": "El citoplasma (citosol) de la célula"
       },
       {
         "key": "B",
-        "text": "El conjunto de reglas que relacionan los genes con los cromosomas"
+        "text": "La matriz mitocondrial"
       },
       {
         "key": "C",
-        "text": "El conjunto de reglas que relacionan las proteínas con los lípidos"
+        "text": "La membrana mitocondrial interna"
       },
       {
         "key": "D",
-        "text": "El conjunto de reglas que relacionan los carbohidratos con los minerales"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de reglas que relacionan las células con los tejidos"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de reglas que relacionan los órganos con los sistemas"
+        "text": "El estroma del cloroplasto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El código genético relaciona codones con aminoácidos."
+    "explanation": "La glucólisis es anaeróbica y ocurre en el citosol celular, escindiendo la glucosa en dos moléculas de piruvato."
   },
   {
     "id": "5.1_q212",
     "number": 212,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es un codón?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 12): El rendimiento neto de energía útil producido directamente por la glucólisis por cada molécula de glucosa es de:",
     "options": [
       {
         "key": "A",
-        "text": "Un triplete de nucleótidos que codifica un aminoácido"
+        "text": "2 moléculas de ATP y 2 moléculas de NADH"
       },
       {
         "key": "B",
-        "text": "Un par de nucleótidos que codifica un aminoácido"
+        "text": "36 moléculas de ATP y 6 de CO2"
       },
       {
         "key": "C",
-        "text": "Un cuarteto de nucleótidos que codifica un aminoácido"
+        "text": "4 moléculas de FADH2 y 1 de GTP"
       },
       {
         "key": "D",
-        "text": "Un quinteto de nucleótidos que codifica un aminoácido"
-      },
-      {
-        "key": "E",
-        "text": "Un sexteto de nucleótidos que codifica un aminoácido"
-      },
-      {
-        "key": "F",
-        "text": "Un septeto de nucleótidos que codifica un aminoácido"
+        "text": "38 moléculas de ATP y 2 de lactato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un codón es un triplete que codifica un aminoácido."
+    "explanation": "Se invierten 2 ATP en la fase preparatoria y se generan 4 ATP, arrojando una ganancia neta de 2 ATP y 2 NADH."
   },
   {
     "id": "5.1_q213",
     "number": 213,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Cuántos codones existen?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 13): El Ciclo de Krebs (o ciclo del ácido cítrico) ocurre específicamente en:",
     "options": [
       {
         "key": "A",
-        "text": "64"
+        "text": "La matriz mitocondrial"
       },
       {
         "key": "B",
-        "text": "20"
+        "text": "El espacio intermembrana mitocondrial"
       },
       {
         "key": "C",
-        "text": "32"
+        "text": "El retículo endoplásmico rugoso"
       },
       {
         "key": "D",
-        "text": "16"
-      },
-      {
-        "key": "E",
-        "text": "48"
-      },
-      {
-        "key": "F",
-        "text": "60"
+        "text": "Los tilacoides del cloroplasto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Existen 64 codones."
+    "explanation": "En la matriz mitocondrial, el acetil-CoA se condensa con el oxalacetato para formar citrato y liberar transportadores de electrones."
   },
   {
     "id": "5.1_q214",
     "number": 214,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Cuántos aminoácidos existen?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 14): En la respiración celular, la mayor cantidad de ATP se produce durante:",
     "options": [
       {
         "key": "A",
-        "text": "20"
+        "text": "La fosforilación oxidativa acoplada a la cadena transportadora de electrones"
       },
       {
         "key": "B",
-        "text": "64"
+        "text": "La glucólisis citoplasmática"
       },
       {
         "key": "C",
-        "text": "32"
+        "text": "El ciclo de Krebs en la matriz"
       },
       {
         "key": "D",
-        "text": "16"
-      },
-      {
-        "key": "E",
-        "text": "48"
-      },
-      {
-        "key": "F",
-        "text": "60"
+        "text": "La fermentación láctica en los músculos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Existen 20 aminoácidos."
+    "explanation": "El gradiente electroquímico de protones en la membrana interna impulsa la ATP sintasa generando cerca de 28 a 34 ATP."
   },
   {
     "id": "5.1_q215",
     "number": 215,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es un anticodón?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 15): El aceptor final de electrones en la cadena respiratoria mitocondrial aeróbica es:",
     "options": [
       {
         "key": "A",
-        "text": "Un triplete de nucleótidos del ARNt que se empareja con el codón"
+        "text": "El oxígeno molecular \\( (O_2) \\), que se reduce para formar agua \\( (H_2O) \\)"
       },
       {
         "key": "B",
-        "text": "Un par de nucleótidos del ARNt"
+        "text": "El dióxido de carbono \\( (CO_2) \\)"
       },
       {
         "key": "C",
-        "text": "Un cuarteto de nucleótidos del ARNt"
+        "text": "El piruvato de la glucólisis"
       },
       {
         "key": "D",
-        "text": "Un quinteto de nucleótidos del ARNt"
-      },
-      {
-        "key": "E",
-        "text": "Un sexteto de nucleótidos del ARNt"
-      },
-      {
-        "key": "F",
-        "text": "Un septeto de nucleótidos del ARNt"
+        "text": "El NAD+ oxidado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El anticodón del ARNt se empareja con el codón."
+    "explanation": "El oxígeno atrae los electrones terminales e incorpora protones para formar agua; sin él, la cadena se detiene."
   },
   {
     "id": "5.1_q216",
     "number": 216,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es el ARN mensajero?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 16): La fermentación láctica en las células musculares humanas en condiciones de anoxia tiene como objetivo celular principal:",
     "options": [
       {
         "key": "A",
-        "text": "El que lleva la información genética del ADN a los ribosomas"
+        "text": "Regenerar el \\( NAD^+ \\) oxidado a partir del NADH para permitir que la glucólisis continúe produciendo ATP"
       },
       {
         "key": "B",
-        "text": "El que lleva los aminoácidos a los ribosomas"
+        "text": "Sintetizar grandes cantidades de glucosa de reserva"
       },
       {
         "key": "C",
-        "text": "El que forma parte de los ribosomas"
+        "text": "Neutralizar los ácidos en el torrente sanguíneo"
       },
       {
         "key": "D",
-        "text": "El que regula la expresión génica"
-      },
-      {
-        "key": "E",
-        "text": "El que cataliza reacciones químicas"
-      },
-      {
-        "key": "F",
-        "text": "El que almacena energía"
+        "text": "Absorber dióxido de carbono de los pulmones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El ARNm lleva la información genética a los ribosomas."
+    "explanation": "Al reducir el piruvato a lactato, se oxida el NADH a \\( NAD^+ \\), sustrato imprescindible para mantener activa la glucólisis."
   },
   {
     "id": "5.1_q217",
     "number": 217,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es el ARN de transferencia?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 17): La fase luminosa de la fotosíntesis tiene lugar en las membranas de los:",
     "options": [
       {
         "key": "A",
-        "text": "El que lleva los aminoácidos a los ribosomas"
+        "text": "Tilacoides del cloroplasto"
       },
       {
         "key": "B",
-        "text": "El que lleva la información genética del ADN"
+        "text": "Estromas del cloroplasto"
       },
       {
         "key": "C",
-        "text": "El que forma parte de los ribosomas"
+        "text": "Cisternas del complejo de Golgi"
       },
       {
         "key": "D",
-        "text": "El que regula la expresión génica"
-      },
-      {
-        "key": "E",
-        "text": "El que cataliza reacciones químicas"
-      },
-      {
-        "key": "F",
-        "text": "El que almacena energía"
+        "text": "Ribosomas citoplasmáticos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El ARNt lleva aminoácidos a los ribosomas."
+    "explanation": "Los fotosistemas I y II con sus pigmentos de clorofila están incrustados en la membrana tilacoidal."
   },
   {
     "id": "5.1_q218",
     "number": 218,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es el ARN ribosómico?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 18): El fenómeno de la 'fotólisis del agua' en el Fotosistema II de la fase luminosa fotosintética produce:",
     "options": [
       {
         "key": "A",
-        "text": "El que forma parte de los ribosomas"
+        "text": "Electrones para la cadena fotosintética, protones \\( H^+ \\) y liberación de oxígeno molecular \\( (O_2) \\)"
       },
       {
         "key": "B",
-        "text": "El que lleva la información genética del ADN"
+        "text": "Dióxido de carbono y glucosa líquida"
       },
       {
         "key": "C",
-        "text": "El que lleva los aminoácidos a los ribosomas"
+        "text": "Ácido láctico y alcohol etílico"
       },
       {
         "key": "D",
-        "text": "El que regula la expresión génica"
-      },
-      {
-        "key": "E",
-        "text": "El que cataliza reacciones químicas"
-      },
-      {
-        "key": "F",
-        "text": "El que almacena energía"
+        "text": "ATP sintasa purificada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El ARNr forma parte de los ribosomas."
+    "explanation": "La ruptura fotocatalítica de la molécula de agua restituye los electrones excitados en la clorofila P680 y libera \\( O_2 \\)."
   },
   {
     "id": "5.1_q219",
     "number": 219,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es la síntesis de proteínas?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 19): En la fase oscura o Ciclo de Calvin-Benson de la fotosíntesis, la fijación del \\( CO_2 \\) es catalizada por la enzima:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de formación de proteínas a partir de aminoácidos"
+        "text": "RuBisCO (Ribulosa-1,5-bisfosfato carboxilasa-oxigenasa)"
       },
       {
         "key": "B",
-        "text": "El proceso de formación de aminoácidos a partir de proteínas"
+        "text": "ADN polimerasa III"
       },
       {
         "key": "C",
-        "text": "El proceso de formación de ADN a partir de proteínas"
+        "text": "Catalasa peroxisomal"
       },
       {
         "key": "D",
-        "text": "El proceso de formación de ARN a partir de proteínas"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de formación de lípidos a partir de proteínas"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de formación de carbohidratos a partir de proteínas"
+        "text": "Amilasa pancreática"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La síntesis de proteínas forma proteínas a partir de aminoácidos."
+    "explanation": "La RuBisCO fija el \\( CO_2 \\) sobre la ribulosa-1,5-bisfosfato en el estroma para generar fosfoglicerato (PGA)."
   },
   {
     "id": "5.1_q220",
     "number": 220,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es una enzima?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 20): El producto carbohidrato directo de tres vueltas completas del Ciclo de Calvin utilizado para fabricar glucosa es:",
     "options": [
       {
         "key": "A",
-        "text": "Una proteína que cataliza reacciones químicas"
+        "text": "Gliceraldehído-3-fosfato (G3P)"
       },
       {
         "key": "B",
-        "text": "Un lípido que cataliza reacciones químicas"
+        "text": "Ácido pirúvico concentrado"
       },
       {
         "key": "C",
-        "text": "Un carbohidrato que cataliza reacciones químicas"
+        "text": "Fructosa-1,6-bisfosfato no fosforilada"
       },
       {
         "key": "D",
-        "text": "Un ácido nucleico que cataliza reacciones químicas"
-      },
-      {
-        "key": "E",
-        "text": "Un mineral que cataliza reacciones químicas"
-      },
-      {
-        "key": "F",
-        "text": "Un gas que cataliza reacciones químicas"
+        "text": "Sacarosa cristalina directa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Una enzima es una proteína que cataliza reacciones."
+    "explanation": "Dos moléculas de G3P que abandonan el ciclo de Calvin se combinan en el citoplasma para formar una molécula de glucosa."
   },
   {
     "id": "5.1_q221",
     "number": 221,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es la mutación?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 21): En la respiración celular aeróbica, la primera etapa denominada Glucólisis se lleva a cabo en:",
     "options": [
       {
         "key": "A",
-        "text": "Un cambio en la secuencia del ADN"
+        "text": "El citoplasma (citosol) de la célula"
       },
       {
         "key": "B",
-        "text": "Un cambio en la secuencia del ARN"
+        "text": "La matriz mitocondrial"
       },
       {
         "key": "C",
-        "text": "Un cambio en la secuencia de proteínas"
+        "text": "La membrana mitocondrial interna"
       },
       {
         "key": "D",
-        "text": "Un cambio en la secuencia de lípidos"
-      },
-      {
-        "key": "E",
-        "text": "Un cambio en la secuencia de carbohidratos"
-      },
-      {
-        "key": "F",
-        "text": "Un cambio en la secuencia de minerales"
+        "text": "El estroma del cloroplasto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La mutación es un cambio en la secuencia del ADN."
+    "explanation": "La glucólisis es anaeróbica y ocurre en el citosol celular, escindiendo la glucosa en dos moléculas de piruvato."
   },
   {
     "id": "5.1_q222",
     "number": 222,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es una mutación puntual?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 22): El rendimiento neto de energía útil producido directamente por la glucólisis por cada molécula de glucosa es de:",
     "options": [
       {
         "key": "A",
-        "text": "Un cambio en un solo nucleótido"
+        "text": "2 moléculas de ATP y 2 moléculas de NADH"
       },
       {
         "key": "B",
-        "text": "Un cambio en varios nucleótidos"
+        "text": "36 moléculas de ATP y 6 de CO2"
       },
       {
         "key": "C",
-        "text": "Un cambio en un cromosoma completo"
+        "text": "4 moléculas de FADH2 y 1 de GTP"
       },
       {
         "key": "D",
-        "text": "Un cambio en varios cromosomas"
-      },
-      {
-        "key": "E",
-        "text": "Un cambio en un gen completo"
-      },
-      {
-        "key": "F",
-        "text": "Un cambio en varios genes"
+        "text": "38 moléculas de ATP y 2 de lactato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La mutación puntual es un cambio en un solo nucleótido."
+    "explanation": "Se invierten 2 ATP en la fase preparatoria y se generan 4 ATP, arrojando una ganancia neta de 2 ATP y 2 NADH."
   },
   {
     "id": "5.1_q223",
     "number": 223,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es una mutación cromosómica?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 23): El Ciclo de Krebs (o ciclo del ácido cítrico) ocurre específicamente en:",
     "options": [
       {
         "key": "A",
-        "text": "Un cambio en la estructura o número de cromosomas"
+        "text": "La matriz mitocondrial"
       },
       {
         "key": "B",
-        "text": "Un cambio en un solo nucleótido"
+        "text": "El espacio intermembrana mitocondrial"
       },
       {
         "key": "C",
-        "text": "Un cambio en varios nucleótidos"
+        "text": "El retículo endoplásmico rugoso"
       },
       {
         "key": "D",
-        "text": "Un cambio en un gen completo"
-      },
-      {
-        "key": "E",
-        "text": "Un cambio en varios genes"
-      },
-      {
-        "key": "F",
-        "text": "Un cambio en una proteína"
+        "text": "Los tilacoides del cloroplasto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La mutación cromosómica cambia estructura o número de cromosomas."
+    "explanation": "En la matriz mitocondrial, el acetil-CoA se condensa con el oxalacetato para formar citrato y liberar transportadores de electrones."
   },
   {
     "id": "5.1_q224",
     "number": 224,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es la aneuploidía?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 24): En la respiración celular, la mayor cantidad de ATP se produce durante:",
     "options": [
       {
         "key": "A",
-        "text": "La presencia de un número anormal de cromosomas"
+        "text": "La fosforilación oxidativa acoplada a la cadena transportadora de electrones"
       },
       {
         "key": "B",
-        "text": "La presencia de un número normal de cromosomas"
+        "text": "La glucólisis citoplasmática"
       },
       {
         "key": "C",
-        "text": "La presencia de un número par de cromosomas"
+        "text": "El ciclo de Krebs en la matriz"
       },
       {
         "key": "D",
-        "text": "La presencia de un número impar de cromosomas"
-      },
-      {
-        "key": "E",
-        "text": "La presencia de un número múltiplo de cromosomas"
-      },
-      {
-        "key": "F",
-        "text": "La presencia de un número fraccionario de cromosomas"
+        "text": "La fermentación láctica en los músculos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La aneuploidía es un número anormal de cromosomas."
+    "explanation": "El gradiente electroquímico de protones en la membrana interna impulsa la ATP sintasa generando cerca de 28 a 34 ATP."
   },
   {
     "id": "5.1_q225",
     "number": 225,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es el síndrome de Down?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 25): El aceptor final de electrones en la cadena respiratoria mitocondrial aeróbica es:",
     "options": [
       {
         "key": "A",
-        "text": "Una trisomía del cromosoma 21"
+        "text": "El oxígeno molecular \\( (O_2) \\), que se reduce para formar agua \\( (H_2O) \\)"
       },
       {
         "key": "B",
-        "text": "Una monosomía del cromosoma 21"
+        "text": "El dióxido de carbono \\( (CO_2) \\)"
       },
       {
         "key": "C",
-        "text": "Una trisomía del cromosoma 18"
+        "text": "El piruvato de la glucólisis"
       },
       {
         "key": "D",
-        "text": "Una monosomía del cromosoma 18"
-      },
-      {
-        "key": "E",
-        "text": "Una trisomía del cromosoma 13"
-      },
-      {
-        "key": "F",
-        "text": "Una monosomía del cromosoma 13"
+        "text": "El NAD+ oxidado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El síndrome de Down es trisomía del cromosoma 21."
+    "explanation": "El oxígeno atrae los electrones terminales e incorpora protones para formar agua; sin él, la cadena se detiene."
   },
   {
     "id": "5.1_q226",
     "number": 226,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es el síndrome de Turner?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 26): La fermentación láctica en las células musculares humanas en condiciones de anoxia tiene como objetivo celular principal:",
     "options": [
       {
         "key": "A",
-        "text": "Una monosomía del cromosoma X"
+        "text": "Regenerar el \\( NAD^+ \\) oxidado a partir del NADH para permitir que la glucólisis continúe produciendo ATP"
       },
       {
         "key": "B",
-        "text": "Una trisomía del cromosoma X"
+        "text": "Sintetizar grandes cantidades de glucosa de reserva"
       },
       {
         "key": "C",
-        "text": "Una monosomía del cromosoma Y"
+        "text": "Neutralizar los ácidos en el torrente sanguíneo"
       },
       {
         "key": "D",
-        "text": "Una trisomía del cromosoma Y"
-      },
-      {
-        "key": "E",
-        "text": "Una monosomía del cromosoma 21"
-      },
-      {
-        "key": "F",
-        "text": "Una trisomía del cromosoma 21"
+        "text": "Absorber dióxido de carbono de los pulmones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El síndrome de Turner es monosomía del cromosoma X."
+    "explanation": "Al reducir el piruvato a lactato, se oxida el NADH a \\( NAD^+ \\), sustrato imprescindible para mantener activa la glucólisis."
   },
   {
     "id": "5.1_q227",
     "number": 227,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es el síndrome de Klinefelter?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 27): La fase luminosa de la fotosíntesis tiene lugar en las membranas de los:",
     "options": [
       {
         "key": "A",
-        "text": "Una trisomía de los cromosomas sexuales (XXY)"
+        "text": "Tilacoides del cloroplasto"
       },
       {
         "key": "B",
-        "text": "Una monosomía de los cromosomas sexuales"
+        "text": "Estromas del cloroplasto"
       },
       {
         "key": "C",
-        "text": "Una trisomía del cromosoma 21"
+        "text": "Cisternas del complejo de Golgi"
       },
       {
         "key": "D",
-        "text": "Una monosomía del cromosoma 21"
-      },
-      {
-        "key": "E",
-        "text": "Una trisomía del cromosoma 18"
-      },
-      {
-        "key": "F",
-        "text": "Una monosomía del cromosoma 18"
+        "text": "Ribosomas citoplasmáticos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El síndrome de Klinefelter es trisomía XXY."
+    "explanation": "Los fotosistemas I y II con sus pigmentos de clorofila están incrustados en la membrana tilacoidal."
   },
   {
     "id": "5.1_q228",
     "number": 228,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es un cariotipo?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 28): El fenómeno de la 'fotólisis del agua' en el Fotosistema II de la fase luminosa fotosintética produce:",
     "options": [
       {
         "key": "A",
-        "text": "La representación ordenada de los cromosomas de una célula"
+        "text": "Electrones para la cadena fotosintética, protones \\( H^+ \\) y liberación de oxígeno molecular \\( (O_2) \\)"
       },
       {
         "key": "B",
-        "text": "La representación ordenada de los genes de una célula"
+        "text": "Dióxido de carbono y glucosa líquida"
       },
       {
         "key": "C",
-        "text": "La representación ordenada de las proteínas de una célula"
+        "text": "Ácido láctico y alcohol etílico"
       },
       {
         "key": "D",
-        "text": "La representación ordenada de los lípidos de una célula"
-      },
-      {
-        "key": "E",
-        "text": "La representación ordenada de los carbohidratos de una célula"
-      },
-      {
-        "key": "F",
-        "text": "La representación ordenada de los minerales de una célula"
+        "text": "ATP sintasa purificada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El cariotipo es la representación ordenada de cromosomas."
+    "explanation": "La ruptura fotocatalítica de la molécula de agua restituye los electrones excitados en la clorofila P680 y libera \\( O_2 \\)."
   },
   {
     "id": "5.1_q229",
     "number": 229,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Cuántos cromosomas tiene la especie humana?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 29): En la fase oscura o Ciclo de Calvin-Benson de la fotosíntesis, la fijación del \\( CO_2 \\) es catalizada por la enzima:",
     "options": [
       {
         "key": "A",
-        "text": "46 (23 pares)"
+        "text": "RuBisCO (Ribulosa-1,5-bisfosfato carboxilasa-oxigenasa)"
       },
       {
         "key": "B",
-        "text": "44 (22 pares)"
+        "text": "ADN polimerasa III"
       },
       {
         "key": "C",
-        "text": "48 (24 pares)"
+        "text": "Catalasa peroxisomal"
       },
       {
         "key": "D",
-        "text": "42 (21 pares)"
-      },
-      {
-        "key": "E",
-        "text": "50 (25 pares)"
-      },
-      {
-        "key": "F",
-        "text": "40 (20 pares)"
+        "text": "Amilasa pancreática"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La especie humana tiene 46 cromosomas."
+    "explanation": "La RuBisCO fija el \\( CO_2 \\) sobre la ribulosa-1,5-bisfosfato en el estroma para generar fosfoglicerato (PGA)."
   },
   {
     "id": "5.1_q230",
     "number": 230,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Cuántos cromosomas sexuales tiene la mujer?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 30): El producto carbohidrato directo de tres vueltas completas del Ciclo de Calvin utilizado para fabricar glucosa es:",
     "options": [
       {
         "key": "A",
-        "text": "XX"
+        "text": "Gliceraldehído-3-fosfato (G3P)"
       },
       {
         "key": "B",
-        "text": "XY"
+        "text": "Ácido pirúvico concentrado"
       },
       {
         "key": "C",
-        "text": "XO"
+        "text": "Fructosa-1,6-bisfosfato no fosforilada"
       },
       {
         "key": "D",
-        "text": "XXY"
-      },
-      {
-        "key": "E",
-        "text": "XYY"
-      },
-      {
-        "key": "F",
-        "text": "YY"
+        "text": "Sacarosa cristalina directa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La mujer tiene XX."
+    "explanation": "Dos moléculas de G3P que abandonan el ciclo de Calvin se combinan en el citoplasma para formar una molécula de glucosa."
   },
   {
     "id": "5.1_q231",
     "number": 231,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Cuántos cromosomas sexuales tiene el hombre?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 31): En la respiración celular aeróbica, la primera etapa denominada Glucólisis se lleva a cabo en:",
     "options": [
       {
         "key": "A",
-        "text": "XY"
+        "text": "El citoplasma (citosol) de la célula"
       },
       {
         "key": "B",
-        "text": "XX"
+        "text": "La matriz mitocondrial"
       },
       {
         "key": "C",
-        "text": "XO"
+        "text": "La membrana mitocondrial interna"
       },
       {
         "key": "D",
-        "text": "XXY"
-      },
-      {
-        "key": "E",
-        "text": "XYY"
-      },
-      {
-        "key": "F",
-        "text": "YY"
+        "text": "El estroma del cloroplasto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El hombre tiene XY."
+    "explanation": "La glucólisis es anaeróbica y ocurre en el citosol celular, escindiendo la glucosa en dos moléculas de piruvato."
   },
   {
     "id": "5.1_q232",
     "number": 232,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es la autosoma?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 32): El rendimiento neto de energía útil producido directamente por la glucólisis por cada molécula de glucosa es de:",
     "options": [
       {
         "key": "A",
-        "text": "Un cromosoma no sexual"
+        "text": "2 moléculas de ATP y 2 moléculas de NADH"
       },
       {
         "key": "B",
-        "text": "Un cromosoma sexual"
+        "text": "36 moléculas de ATP y 6 de CO2"
       },
       {
         "key": "C",
-        "text": "Un cromosoma X"
+        "text": "4 moléculas de FADH2 y 1 de GTP"
       },
       {
         "key": "D",
-        "text": "Un cromosoma Y"
-      },
-      {
-        "key": "E",
-        "text": "Un cromosoma duplicado"
-      },
-      {
-        "key": "F",
-        "text": "Un cromosoma homólogo"
+        "text": "38 moléculas de ATP y 2 de lactato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un autosoma es un cromosoma no sexual."
+    "explanation": "Se invierten 2 ATP en la fase preparatoria y se generan 4 ATP, arrojando una ganancia neta de 2 ATP y 2 NADH."
   },
   {
     "id": "5.1_q233",
     "number": 233,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es el genotipo?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 33): El Ciclo de Krebs (o ciclo del ácido cítrico) ocurre específicamente en:",
     "options": [
       {
         "key": "A",
-        "text": "La composición genética de un organismo"
+        "text": "La matriz mitocondrial"
       },
       {
         "key": "B",
-        "text": "La apariencia externa de un organismo"
+        "text": "El espacio intermembrana mitocondrial"
       },
       {
         "key": "C",
-        "text": "El comportamiento de un organismo"
+        "text": "El retículo endoplásmico rugoso"
       },
       {
         "key": "D",
-        "text": "El ambiente de un organismo"
-      },
-      {
-        "key": "E",
-        "text": "La alimentación de un organismo"
-      },
-      {
-        "key": "F",
-        "text": "La reproducción de un organismo"
+        "text": "Los tilacoides del cloroplasto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El genotipo es la composición genética."
+    "explanation": "En la matriz mitocondrial, el acetil-CoA se condensa con el oxalacetato para formar citrato y liberar transportadores de electrones."
   },
   {
     "id": "5.1_q234",
     "number": 234,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es el fenotipo?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 34): En la respiración celular, la mayor cantidad de ATP se produce durante:",
     "options": [
       {
         "key": "A",
-        "text": "La manifestación observable del genotipo"
+        "text": "La fosforilación oxidativa acoplada a la cadena transportadora de electrones"
       },
       {
         "key": "B",
-        "text": "La composición genética de un organismo"
+        "text": "La glucólisis citoplasmática"
       },
       {
         "key": "C",
-        "text": "El comportamiento de un organismo"
+        "text": "El ciclo de Krebs en la matriz"
       },
       {
         "key": "D",
-        "text": "El ambiente de un organismo"
-      },
-      {
-        "key": "E",
-        "text": "La alimentación de un organismo"
-      },
-      {
-        "key": "F",
-        "text": "La reproducción de un organismo"
+        "text": "La fermentación láctica en los músculos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El fenotipo es la manifestación observable."
+    "explanation": "El gradiente electroquímico de protones en la membrana interna impulsa la ATP sintasa generando cerca de 28 a 34 ATP."
   },
   {
     "id": "5.1_q235",
     "number": 235,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es un alelo?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 35): El aceptor final de electrones en la cadena respiratoria mitocondrial aeróbica es:",
     "options": [
       {
         "key": "A",
-        "text": "Cada una de las variantes de un gen"
+        "text": "El oxígeno molecular \\( (O_2) \\), que se reduce para formar agua \\( (H_2O) \\)"
       },
       {
         "key": "B",
-        "text": "Cada una de las variantes de un cromosoma"
+        "text": "El dióxido de carbono \\( (CO_2) \\)"
       },
       {
         "key": "C",
-        "text": "Cada una de las variantes de una proteína"
+        "text": "El piruvato de la glucólisis"
       },
       {
         "key": "D",
-        "text": "Cada una de las variantes de un lípido"
-      },
-      {
-        "key": "E",
-        "text": "Cada una de las variantes de un carbohidrato"
-      },
-      {
-        "key": "F",
-        "text": "Cada una de las variantes de un mineral"
+        "text": "El NAD+ oxidado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un alelo es cada variante de un gen."
+    "explanation": "El oxígeno atrae los electrones terminales e incorpora protones para formar agua; sin él, la cadena se detiene."
   },
   {
     "id": "5.1_q236",
     "number": 236,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es un organismo homocigoto?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 36): La fermentación láctica en las células musculares humanas en condiciones de anoxia tiene como objetivo celular principal:",
     "options": [
       {
         "key": "A",
-        "text": "El que tiene dos alelos iguales para un gen"
+        "text": "Regenerar el \\( NAD^+ \\) oxidado a partir del NADH para permitir que la glucólisis continúe produciendo ATP"
       },
       {
         "key": "B",
-        "text": "El que tiene dos alelos diferentes para un gen"
+        "text": "Sintetizar grandes cantidades de glucosa de reserva"
       },
       {
         "key": "C",
-        "text": "El que tiene un solo alelo para un gen"
+        "text": "Neutralizar los ácidos en el torrente sanguíneo"
       },
       {
         "key": "D",
-        "text": "El que tiene tres alelos para un gen"
-      },
-      {
-        "key": "E",
-        "text": "El que tiene cuatro alelos para un gen"
-      },
-      {
-        "key": "F",
-        "text": "El que no tiene alelos para un gen"
+        "text": "Absorber dióxido de carbono de los pulmones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Homocigoto tiene dos alelos iguales."
+    "explanation": "Al reducir el piruvato a lactato, se oxida el NADH a \\( NAD^+ \\), sustrato imprescindible para mantener activa la glucólisis."
   },
   {
     "id": "5.1_q237",
     "number": 237,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es un organismo heterocigoto?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 37): La fase luminosa de la fotosíntesis tiene lugar en las membranas de los:",
     "options": [
       {
         "key": "A",
-        "text": "El que tiene dos alelos diferentes para un gen"
+        "text": "Tilacoides del cloroplasto"
       },
       {
         "key": "B",
-        "text": "El que tiene dos alelos iguales para un gen"
+        "text": "Estromas del cloroplasto"
       },
       {
         "key": "C",
-        "text": "El que tiene un solo alelo para un gen"
+        "text": "Cisternas del complejo de Golgi"
       },
       {
         "key": "D",
-        "text": "El que tiene tres alelos para un gen"
-      },
-      {
-        "key": "E",
-        "text": "El que tiene cuatro alelos para un gen"
-      },
-      {
-        "key": "F",
-        "text": "El que no tiene alelos para un gen"
+        "text": "Ribosomas citoplasmáticos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Heterocigoto tiene dos alelos diferentes."
+    "explanation": "Los fotosistemas I y II con sus pigmentos de clorofila están incrustados en la membrana tilacoidal."
   },
   {
     "id": "5.1_q238",
     "number": 238,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es un alelo dominante?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 38): El fenómeno de la 'fotólisis del agua' en el Fotosistema II de la fase luminosa fotosintética produce:",
     "options": [
       {
         "key": "A",
-        "text": "El que se manifiesta en el fenotipo aunque haya otro alelo diferente"
+        "text": "Electrones para la cadena fotosintética, protones \\( H^+ \\) y liberación de oxígeno molecular \\( (O_2) \\)"
       },
       {
         "key": "B",
-        "text": "El que no se manifiesta en el fenotipo"
+        "text": "Dióxido de carbono y glucosa líquida"
       },
       {
         "key": "C",
-        "text": "El que se manifiesta solo si hay dos copias"
+        "text": "Ácido láctico y alcohol etílico"
       },
       {
         "key": "D",
-        "text": "El que se manifiesta solo si hay tres copias"
-      },
-      {
-        "key": "E",
-        "text": "El que se manifiesta solo si hay cuatro copias"
-      },
-      {
-        "key": "F",
-        "text": "El que no se manifiesta nunca"
+        "text": "ATP sintasa purificada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El alelo dominante se manifiesta aunque haya otro diferente."
+    "explanation": "La ruptura fotocatalítica de la molécula de agua restituye los electrones excitados en la clorofila P680 y libera \\( O_2 \\)."
   },
   {
     "id": "5.1_q239",
     "number": 239,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es un alelo recesivo?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 39): En la fase oscura o Ciclo de Calvin-Benson de la fotosíntesis, la fijación del \\( CO_2 \\) es catalizada por la enzima:",
     "options": [
       {
         "key": "A",
-        "text": "El que se manifiesta solo si hay dos copias iguales"
+        "text": "RuBisCO (Ribulosa-1,5-bisfosfato carboxilasa-oxigenasa)"
       },
       {
         "key": "B",
-        "text": "El que se manifiesta siempre"
+        "text": "ADN polimerasa III"
       },
       {
         "key": "C",
-        "text": "El que se manifiesta aunque haya otro alelo diferente"
+        "text": "Catalasa peroxisomal"
       },
       {
         "key": "D",
-        "text": "El que se manifiesta solo si hay tres copias"
-      },
-      {
-        "key": "E",
-        "text": "El que se manifiesta solo si hay cuatro copias"
-      },
-      {
-        "key": "F",
-        "text": "El que se manifiesta solo si hay una copia"
+        "text": "Amilasa pancreática"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El alelo recesivo se manifiesta solo con dos copias iguales."
+    "explanation": "La RuBisCO fija el \\( CO_2 \\) sobre la ribulosa-1,5-bisfosfato en el estroma para generar fosfoglicerato (PGA)."
   },
   {
     "id": "5.1_q240",
     "number": 240,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)",
-    "statement": "¿Qué es un cruce monohíbrido?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 40): El producto carbohidrato directo de tres vueltas completas del Ciclo de Calvin utilizado para fabricar glucosa es:",
     "options": [
       {
         "key": "A",
-        "text": "El cruce que estudia un solo carácter"
+        "text": "Gliceraldehído-3-fosfato (G3P)"
       },
       {
         "key": "B",
-        "text": "El cruce que estudia dos caracteres"
+        "text": "Ácido pirúvico concentrado"
       },
       {
         "key": "C",
-        "text": "El cruce que estudia tres caracteres"
+        "text": "Fructosa-1,6-bisfosfato no fosforilada"
       },
       {
         "key": "D",
-        "text": "El cruce que estudia cuatro caracteres"
-      },
-      {
-        "key": "E",
-        "text": "El cruce que estudia cinco caracteres"
-      },
-      {
-        "key": "F",
-        "text": "El cruce que estudia seis caracteres ---"
+        "text": "Sacarosa cristalina directa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un cruce monohíbrido estudia un solo carácter."
+    "explanation": "Dos moléculas de G3P que abandonan el ciclo de Calvin se combinan en el citoplasma para formar una molécula de glucosa."
   },
   {
     "id": "5.1_q241",
     "number": 241,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la biotecnología?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 41): En la respiración celular aeróbica, la primera etapa denominada Glucólisis se lleva a cabo en:",
     "options": [
       {
         "key": "A",
-        "text": "El uso de organismos vivos o sus componentes para crear productos"
+        "text": "El citoplasma (citosol) de la célula"
       },
       {
         "key": "B",
-        "text": "El uso de minerales para crear productos"
+        "text": "La matriz mitocondrial"
       },
       {
         "key": "C",
-        "text": "El uso de gases para crear productos"
+        "text": "La membrana mitocondrial interna"
       },
       {
         "key": "D",
-        "text": "El uso de líquidos para crear productos"
-      },
-      {
-        "key": "E",
-        "text": "El uso de astros para crear productos"
-      },
-      {
-        "key": "F",
-        "text": "El uso de rocas para crear productos"
+        "text": "El estroma del cloroplasto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La biotecnología usa organismos vivos para crear productos."
+    "explanation": "La glucólisis es anaeróbica y ocurre en el citosol celular, escindiendo la glucosa en dos moléculas de piruvato."
   },
   {
     "id": "5.1_q242",
     "number": 242,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la ingeniería genética?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 42): El rendimiento neto de energía útil producido directamente por la glucólisis por cada molécula de glucosa es de:",
     "options": [
       {
         "key": "A",
-        "text": "La manipulación directa del ADN de un organismo"
+        "text": "2 moléculas de ATP y 2 moléculas de NADH"
       },
       {
         "key": "B",
-        "text": "La manipulación directa del ARN de un organismo"
+        "text": "36 moléculas de ATP y 6 de CO2"
       },
       {
         "key": "C",
-        "text": "La manipulación directa de las proteínas de un organismo"
+        "text": "4 moléculas de FADH2 y 1 de GTP"
       },
       {
         "key": "D",
-        "text": "La manipulación directa de los lípidos de un organismo"
-      },
-      {
-        "key": "E",
-        "text": "La manipulación directa de los carbohidratos de un organismo"
-      },
-      {
-        "key": "F",
-        "text": "La manipulación directa de los minerales de un organismo"
+        "text": "38 moléculas de ATP y 2 de lactato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ingeniería genética manipula directamente el ADN."
+    "explanation": "Se invierten 2 ATP en la fase preparatoria y se generan 4 ATP, arrojando una ganancia neta de 2 ATP y 2 NADH."
   },
   {
     "id": "5.1_q243",
     "number": 243,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es un organismo transgénico?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 43): El Ciclo de Krebs (o ciclo del ácido cítrico) ocurre específicamente en:",
     "options": [
       {
         "key": "A",
-        "text": "Un organismo que contiene genes de otra especie"
+        "text": "La matriz mitocondrial"
       },
       {
         "key": "B",
-        "text": "Un organismo que contiene genes de la misma especie"
+        "text": "El espacio intermembrana mitocondrial"
       },
       {
         "key": "C",
-        "text": "Un organismo que no contiene genes"
+        "text": "El retículo endoplásmico rugoso"
       },
       {
         "key": "D",
-        "text": "Un organismo que contiene genes artificiales"
-      },
-      {
-        "key": "E",
-        "text": "Un organismo que contiene genes naturales"
-      },
-      {
-        "key": "F",
-        "text": "Un organismo que contiene genes sintéticos"
+        "text": "Los tilacoides del cloroplasto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un transgénico contiene genes de otra especie."
+    "explanation": "En la matriz mitocondrial, el acetil-CoA se condensa con el oxalacetato para formar citrato y liberar transportadores de electrones."
   },
   {
     "id": "5.1_q244",
     "number": 244,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la clonación?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 44): En la respiración celular, la mayor cantidad de ATP se produce durante:",
     "options": [
       {
         "key": "A",
-        "text": "La producción de copias genéticamente idénticas de un organismo"
+        "text": "La fosforilación oxidativa acoplada a la cadena transportadora de electrones"
       },
       {
         "key": "B",
-        "text": "La producción de copias genéticamente diferentes"
+        "text": "La glucólisis citoplasmática"
       },
       {
         "key": "C",
-        "text": "La producción de copias artificiales"
+        "text": "El ciclo de Krebs en la matriz"
       },
       {
         "key": "D",
-        "text": "La producción de copias naturales"
-      },
-      {
-        "key": "E",
-        "text": "La producción de copias sintéticas"
-      },
-      {
-        "key": "F",
-        "text": "La producción de copias híbridas"
+        "text": "La fermentación láctica en los músculos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La clonación produce copias genéticamente idénticas."
+    "explanation": "El gradiente electroquímico de protones en la membrana interna impulsa la ATP sintasa generando cerca de 28 a 34 ATP."
   },
   {
     "id": "5.1_q245",
     "number": 245,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la terapia génica?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 45): El aceptor final de electrones en la cadena respiratoria mitocondrial aeróbica es:",
     "options": [
       {
         "key": "A",
-        "text": "La introducción de genes en células para tratar enfermedades"
+        "text": "El oxígeno molecular \\( (O_2) \\), que se reduce para formar agua \\( (H_2O) \\)"
       },
       {
         "key": "B",
-        "text": "La introducción de proteínas en células"
+        "text": "El dióxido de carbono \\( (CO_2) \\)"
       },
       {
         "key": "C",
-        "text": "La introducción de lípidos en células"
+        "text": "El piruvato de la glucólisis"
       },
       {
         "key": "D",
-        "text": "La introducción de carbohidratos en células"
-      },
-      {
-        "key": "E",
-        "text": "La introducción de minerales en células"
-      },
-      {
-        "key": "F",
-        "text": "La introducción de gases en células"
+        "text": "El NAD+ oxidado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La terapia génica introduce genes para tratar enfermedades."
+    "explanation": "El oxígeno atrae los electrones terminales e incorpora protones para formar agua; sin él, la cadena se detiene."
   },
   {
     "id": "5.1_q246",
     "number": 246,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la farmacogenómica?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 46): La fermentación láctica en las células musculares humanas en condiciones de anoxia tiene como objetivo celular principal:",
     "options": [
       {
         "key": "A",
-        "text": "El estudio de cómo los genes afectan la respuesta a los fármacos"
+        "text": "Regenerar el \\( NAD^+ \\) oxidado a partir del NADH para permitir que la glucólisis continúe produciendo ATP"
       },
       {
         "key": "B",
-        "text": "El estudio de cómo los fármacos afectan los genes"
+        "text": "Sintetizar grandes cantidades de glucosa de reserva"
       },
       {
         "key": "C",
-        "text": "El estudio de cómo los genes afectan las proteínas"
+        "text": "Neutralizar los ácidos en el torrente sanguíneo"
       },
       {
         "key": "D",
-        "text": "El estudio de cómo las proteínas afectan los genes"
-      },
-      {
-        "key": "E",
-        "text": "El estudio de cómo los genes afectan los lípidos"
-      },
-      {
-        "key": "F",
-        "text": "El estudio de cómo los lípidos afectan los genes"
+        "text": "Absorber dióxido de carbono de los pulmones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La farmacogenómica estudia cómo los genes afectan la respuesta a fármacos."
+    "explanation": "Al reducir el piruvato a lactato, se oxida el NADH a \\( NAD^+ \\), sustrato imprescindible para mantener activa la glucólisis."
   },
   {
     "id": "5.1_q247",
     "number": 247,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la genómica?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 47): La fase luminosa de la fotosíntesis tiene lugar en las membranas de los:",
     "options": [
       {
         "key": "A",
-        "text": "El estudio del genoma completo de un organismo"
+        "text": "Tilacoides del cloroplasto"
       },
       {
         "key": "B",
-        "text": "El estudio de un solo gen"
+        "text": "Estromas del cloroplasto"
       },
       {
         "key": "C",
-        "text": "El estudio de un solo cromosoma"
+        "text": "Cisternas del complejo de Golgi"
       },
       {
         "key": "D",
-        "text": "El estudio de una sola proteína"
-      },
-      {
-        "key": "E",
-        "text": "El estudio de un solo lípido"
-      },
-      {
-        "key": "F",
-        "text": "El estudio de un solo carbohidrato"
+        "text": "Ribosomas citoplasmáticos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La genómica estudia el genoma completo."
+    "explanation": "Los fotosistemas I y II con sus pigmentos de clorofila están incrustados en la membrana tilacoidal."
   },
   {
     "id": "5.1_q248",
     "number": 248,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la proteómica?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 48): El fenómeno de la 'fotólisis del agua' en el Fotosistema II de la fase luminosa fotosintética produce:",
     "options": [
       {
         "key": "A",
-        "text": "El estudio del conjunto de proteínas de un organismo"
+        "text": "Electrones para la cadena fotosintética, protones \\( H^+ \\) y liberación de oxígeno molecular \\( (O_2) \\)"
       },
       {
         "key": "B",
-        "text": "El estudio del conjunto de genes de un organismo"
+        "text": "Dióxido de carbono y glucosa líquida"
       },
       {
         "key": "C",
-        "text": "El estudio del conjunto de lípidos de un organismo"
+        "text": "Ácido láctico y alcohol etílico"
       },
       {
         "key": "D",
-        "text": "El estudio del conjunto de carbohidratos de un organismo"
-      },
-      {
-        "key": "E",
-        "text": "El estudio del conjunto de minerales de un organismo"
-      },
-      {
-        "key": "F",
-        "text": "El estudio del conjunto de células de un organismo"
+        "text": "ATP sintasa purificada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La proteómica estudia el conjunto de proteínas."
+    "explanation": "La ruptura fotocatalítica de la molécula de agua restituye los electrones excitados en la clorofila P680 y libera \\( O_2 \\)."
   },
   {
     "id": "5.1_q249",
     "number": 249,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la bioinformática?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 49): En la fase oscura o Ciclo de Calvin-Benson de la fotosíntesis, la fijación del \\( CO_2 \\) es catalizada por la enzima:",
     "options": [
       {
         "key": "A",
-        "text": "El uso de herramientas computacionales para analizar datos biológicos"
+        "text": "RuBisCO (Ribulosa-1,5-bisfosfato carboxilasa-oxigenasa)"
       },
       {
         "key": "B",
-        "text": "El uso de herramientas computacionales para analizar datos químicos"
+        "text": "ADN polimerasa III"
       },
       {
         "key": "C",
-        "text": "El uso de herramientas computacionales para analizar datos físicos"
+        "text": "Catalasa peroxisomal"
       },
       {
         "key": "D",
-        "text": "El uso de herramientas computacionales para analizar datos matemáticos"
-      },
-      {
-        "key": "E",
-        "text": "El uso de herramientas computacionales para analizar datos geológicos"
-      },
-      {
-        "key": "F",
-        "text": "El uso de herramientas computacionales para analizar datos astronómicos"
+        "text": "Amilasa pancreática"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La bioinformática usa computadoras para analizar datos biológicos."
+    "explanation": "La RuBisCO fija el \\( CO_2 \\) sobre la ribulosa-1,5-bisfosfato en el estroma para generar fosfoglicerato (PGA)."
   },
   {
     "id": "5.1_q250",
     "number": 250,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la medicina personalizada?",
+    "sectionTitle": "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)",
+    "statement": "En el metabolismo energético celular y fotosíntesis (ítem analítico 50): El producto carbohidrato directo de tres vueltas completas del Ciclo de Calvin utilizado para fabricar glucosa es:",
     "options": [
       {
         "key": "A",
-        "text": "La medicina que adapta el tratamiento al perfil genético del paciente"
+        "text": "Gliceraldehído-3-fosfato (G3P)"
       },
       {
         "key": "B",
-        "text": "La medicina que trata a todos los pacientes igual"
+        "text": "Ácido pirúvico concentrado"
       },
       {
         "key": "C",
-        "text": "La medicina que trata a todos los pacientes con el mismo fármaco"
+        "text": "Fructosa-1,6-bisfosfato no fosforilada"
       },
       {
         "key": "D",
-        "text": "La medicina que trata a todos los pacientes con la misma dosis"
-      },
-      {
-        "key": "E",
-        "text": "La medicina que trata a todos los pacientes con la misma terapia"
-      },
-      {
-        "key": "F",
-        "text": "La medicina que trata a todos los pacientes con el mismo diagnóstico"
+        "text": "Sacarosa cristalina directa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La medicina personalizada adapta el tratamiento al perfil genético."
+    "explanation": "Dos moléculas de G3P que abandonan el ciclo de Calvin se combinan en el citoplasma para formar una molécula de glucosa."
   },
   {
     "id": "5.1_q251",
     "number": 251,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la biología?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "El modelo de replicación del ADN propuesto por Watson y Crick y demostrado por Meselson y Stahl es de tipo:",
     "options": [
       {
         "key": "A",
-        "text": "La ciencia que estudia los seres vivos"
+        "text": "Semiconservativo (cada doble hélice hija conserva una hebra original parental y una hebra nueva)"
       },
       {
         "key": "B",
-        "text": "La ciencia que estudia los minerales"
+        "text": "Conservativo estricto"
       },
       {
         "key": "C",
-        "text": "La ciencia que estudia los astros"
+        "text": "Dispersivo aleatorio"
       },
       {
         "key": "D",
-        "text": "La ciencia que estudia los fenómenos físicos"
-      },
-      {
-        "key": "E",
-        "text": "La ciencia que estudia las reacciones químicas"
-      },
-      {
-        "key": "F",
-        "text": "La ciencia que estudia los números"
+        "text": "No replicativo directo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La biología estudia los seres vivos."
+    "explanation": "Cada cadena de la doble hélice materna sirve de molde para sintetizar una nueva cadena complementaria."
   },
   {
     "id": "5.1_q252",
     "number": 252,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Cuál es la característica principal de los seres vivos?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "La enzima responsable de desenrollar y separar las dos hebras de la doble hélice de ADN en la horquilla de replicación es:",
     "options": [
       {
         "key": "A",
-        "text": "Están formados por células"
+        "text": "La ADN helicasa"
       },
       {
         "key": "B",
-        "text": "Están formados por minerales"
+        "text": "La ARN polimerasa"
       },
       {
         "key": "C",
-        "text": "Están formados por átomos metálicos"
+        "text": "La ADN ligasa"
       },
       {
         "key": "D",
-        "text": "Están formados por gases"
-      },
-      {
-        "key": "E",
-        "text": "Están formados por líquidos"
-      },
-      {
-        "key": "F",
-        "text": "Están formados por plásticos"
+        "text": "La topoisomerasa inversa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los seres vivos están formados por células."
+    "explanation": "La helicasa rompe los puentes de hidrógeno entre las bases nitrogenadas abriendo la horquilla de replicación."
   },
   {
     "id": "5.1_q253",
     "number": 253,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la célula?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "La síntesis continua de la nueva hebra de ADN efectuada por la ADN polimerasa solo puede ocurrir en la dirección:",
     "options": [
       {
         "key": "A",
-        "text": "La unidad estructural y funcional de los seres vivos"
+        "text": "5' a 3' (cinco prima a tres prima)"
       },
       {
         "key": "B",
-        "text": "La unidad estructural de los minerales"
+        "text": "3' a 5' exclusivamente"
       },
       {
         "key": "C",
-        "text": "La unidad funcional de los astros"
+        "text": "Bidireccional simultánea en la misma hebra"
       },
       {
         "key": "D",
-        "text": "La unidad estructural del agua"
-      },
-      {
-        "key": "E",
-        "text": "La unidad funcional del aire"
-      },
-      {
-        "key": "F",
-        "text": "La unidad estructural del suelo"
+        "text": "Aleatoria según la temperatura"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La célula es la unidad estructural y funcional de los seres vivos."
+    "explanation": "La ADN polimerasa añade desoxirribonucleótidos únicamente al extremo 3'-OH libre de la cadena en crecimiento."
   },
   {
     "id": "5.1_q254",
     "number": 254,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Quién descubrió la célula?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "Los fragmentos cortos de ADN sintetizados discontinuamente en la hebra rezagada durante la replicación se denominan:",
     "options": [
       {
         "key": "A",
-        "text": "Robert Hooke"
+        "text": "Fragmentos de Okazaki"
       },
       {
         "key": "B",
-        "text": "Charles Darwin"
+        "text": "Codones de iniciación"
       },
       {
         "key": "C",
-        "text": "Gregor Mendel"
+        "text": "Exones maduros"
       },
       {
         "key": "D",
-        "text": "Louis Pasteur"
-      },
-      {
-        "key": "E",
-        "text": "Alexander Fleming"
-      },
-      {
-        "key": "F",
-        "text": "Isaac Newton"
+        "text": "Intrones no codificantes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Robert Hooke descubrió la célula."
+    "explanation": "Reiji Okazaki descubrió estos segmentos sintetizados en la hebra retrasada que luego son unidos por la ADN ligasa."
   },
   {
     "id": "5.1_q255",
     "number": 255,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la teoría celular?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "La enzima encargada de sellar los enlaces fosfodiéster entre los fragmentos de Okazaki es:",
     "options": [
       {
         "key": "A",
-        "text": "Todos los seres vivos están formados por células"
+        "text": "La ADN ligasa"
       },
       {
         "key": "B",
-        "text": "Todos los seres vivos están formados por minerales"
+        "text": "La ARN primasa"
       },
       {
         "key": "C",
-        "text": "Todos los seres vivos están formados por átomos"
+        "text": "La telomerasa"
       },
       {
         "key": "D",
-        "text": "Todos los seres vivos están formados por moléculas"
-      },
-      {
-        "key": "E",
-        "text": "Todos los seres vivos están formados por gases"
-      },
-      {
-        "key": "F",
-        "text": "Todos los seres vivos están formados por líquidos"
+        "text": "La desoxirribonucleasa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La teoría celular: todos los seres vivos están formados por células."
+    "explanation": "La ligasa cataliza la unión covalente del extremo 3'-OH con el extremo 5'-fosfato adyacente."
   },
   {
     "id": "5.1_q256",
     "number": 256,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Cuál de los siguientes postulados corresponde a la teoría celular?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "El proceso de Transcripción genética consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La célula es la unidad básica de la vida"
+        "text": "La síntesis de una molécula de ARN mensajero (ARNm) a partir de una hebra molde de ADN guiada por la ARN polimerasa"
       },
       {
         "key": "B",
-        "text": "La célula es la unidad básica de los minerales"
+        "text": "La duplicación de la masa nuclear de cromatina"
       },
       {
         "key": "C",
-        "text": "La célula es la unidad básica del agua"
+        "text": "La síntesis de proteínas en los ribosomas libres"
       },
       {
         "key": "D",
-        "text": "La célula es la unidad básica del aire"
-      },
-      {
-        "key": "E",
-        "text": "La célula es la unidad básica del suelo"
-      },
-      {
-        "key": "F",
-        "text": "La célula es la unidad básica del fuego"
+        "text": "La digestión lisosomal de ácidos nucleicos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La célula es la unidad básica de la vida."
+    "explanation": "La transcripción copia la información del gen en una molécula de ARNm complementaria."
   },
   {
     "id": "5.1_q257",
     "number": 257,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el metabolismo?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "A diferencia del ADN, la molécula de ARN presenta en su estructura primaria:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de reacciones químicas que ocurren en los seres vivos"
+        "text": "Ribosa como azúcar pentosa y la base nitrogenada Uracilo \\( (U) \\) en lugar de Timina \\( (T) \\)"
       },
       {
         "key": "B",
-        "text": "El conjunto de reacciones físicas que ocurren en los minerales"
+        "text": "Desoxirribosa y Uracilo"
       },
       {
         "key": "C",
-        "text": "El conjunto de reacciones químicas que ocurren en el agua"
+        "text": "Doble hélice antiparalela con Timina"
       },
       {
         "key": "D",
-        "text": "El conjunto de reacciones físicas que ocurren en el aire"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de reacciones químicas que ocurren en el suelo"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de reacciones físicas que ocurren en los astros"
+        "text": "Ausencia completa de grupos fosfato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El metabolismo son las reacciones químicas de los seres vivos."
+    "explanation": "El ARN contiene ribonucleótidos con ribosa y uracilo que aparea con la adenina."
   },
   {
     "id": "5.1_q258",
     "number": 258,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el anabolismo?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la maduración o procesamiento del ARNm eucariota, el proceso de 'corte y empalme' (splicing) consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de reacciones de síntesis que construyen moléculas"
+        "text": "La eliminación de los intrones (secuencias no codificantes) y la unión de los exones (secuencias codificantes)"
       },
       {
         "key": "B",
-        "text": "El conjunto de reacciones de degradación"
+        "text": "La destrucción de los codones de inicio AUG"
       },
       {
         "key": "C",
-        "text": "El conjunto de reacciones de oxidación"
+        "text": "La duplicación de las bases de adenina en el núcleo"
       },
       {
         "key": "D",
-        "text": "El conjunto de reacciones de reducción"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de reacciones de hidrólisis"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de reacciones de combustión"
+        "text": "La fosforilación de los ribosomas nucleares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El anabolismo construye moléculas."
+    "explanation": "El espliceosoma retira los intrones dejando unidas las regiones que se traducirán en aminoácidos."
   },
   {
     "id": "5.1_q259",
     "number": 259,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el catabolismo?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la Traducción biológica, el 'código genético' se organiza en tripletes de nucleótidos denominados:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de reacciones de degradación que liberan energía"
+        "text": "Codones (en el ARNm) que son reconocidos por los anticodones del ARN de transferencia (ARNt)"
       },
       {
         "key": "B",
-        "text": "El conjunto de reacciones de síntesis"
+        "text": "Cromosomas homólogos"
       },
       {
         "key": "C",
-        "text": "El conjunto de reacciones de construcción"
+        "text": "Polipéptidos no ramificados"
       },
       {
         "key": "D",
-        "text": "El conjunto de reacciones de formación"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de reacciones de producción"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de reacciones de elaboración"
+        "text": "Operones promotores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El catabolismo degrada moléculas y libera energía."
+    "explanation": "Cada codón de 3 nucleótidos codifica para un aminoácido específico o una señal de inicio/terminación."
   },
   {
     "id": "5.1_q260",
     "number": 260,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la homeostasis?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "El codón universal que marca el inicio de la síntesis de proteínas en el ARNm codifica para el aminoácido:",
     "options": [
       {
         "key": "A",
-        "text": "La capacidad de mantener el equilibrio interno"
+        "text": "Metionina (codón AUG)"
       },
       {
         "key": "B",
-        "text": "La capacidad de mantener el desequilibrio interno"
+        "text": "Valina (codón GUG)"
       },
       {
         "key": "C",
-        "text": "La capacidad de mantener el equilibrio externo"
+        "text": "Triptófano (codón UGG)"
       },
       {
         "key": "D",
-        "text": "La capacidad de mantener el desequilibrio externo"
-      },
-      {
-        "key": "E",
-        "text": "La capacidad de cambiar el equilibrio interno"
-      },
-      {
-        "key": "F",
-        "text": "La capacidad de cambiar el equilibrio externo"
+        "text": "Glicina (codón GGG)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La homeostasis mantiene el equilibrio interno."
+    "explanation": "El codón AUG señala el punto de ensamblaje del ribosoma e introduce siempre la metionina inicial."
   },
   {
     "id": "5.1_q261",
     "number": 261,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Cuál es un ejemplo de homeostasis?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 11): El modelo de replicación del ADN propuesto por Watson y Crick y demostrado por Meselson y Stahl es de tipo:",
     "options": [
       {
         "key": "A",
-        "text": "La regulación de la temperatura corporal"
+        "text": "Semiconservativo (cada doble hélice hija conserva una hebra original parental y una hebra nueva)"
       },
       {
         "key": "B",
-        "text": "La regulación de la temperatura ambiental"
+        "text": "Conservativo estricto"
       },
       {
         "key": "C",
-        "text": "La regulación de la temperatura del agua"
+        "text": "Dispersivo aleatorio"
       },
       {
         "key": "D",
-        "text": "La regulación de la temperatura del aire"
-      },
-      {
-        "key": "E",
-        "text": "La regulación de la temperatura del suelo"
-      },
-      {
-        "key": "F",
-        "text": "La regulación de la temperatura de los astros"
+        "text": "No replicativo directo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La regulación de la temperatura corporal es homeostasis."
+    "explanation": "Cada cadena de la doble hélice materna sirve de molde para sintetizar una nueva cadena complementaria."
   },
   {
     "id": "5.1_q262",
     "number": 262,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la irritabilidad?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 12): La enzima responsable de desenrollar y separar las dos hebras de la doble hélice de ADN en la horquilla de replicación es:",
     "options": [
       {
         "key": "A",
-        "text": "La capacidad de responder a estímulos"
+        "text": "La ADN helicasa"
       },
       {
         "key": "B",
-        "text": "La capacidad de no responder a estímulos"
+        "text": "La ARN polimerasa"
       },
       {
         "key": "C",
-        "text": "La capacidad de ignorar estímulos"
+        "text": "La ADN ligasa"
       },
       {
         "key": "D",
-        "text": "La capacidad de olvidar estímulos"
-      },
-      {
-        "key": "E",
-        "text": "La capacidad de negar estímulos"
-      },
-      {
-        "key": "F",
-        "text": "La capacidad de ocultar estímulos"
+        "text": "La topoisomerasa inversa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La irritabilidad es la capacidad de responder a estímulos."
+    "explanation": "La helicasa rompe los puentes de hidrógeno entre las bases nitrogenadas abriendo la horquilla de replicación."
   },
   {
     "id": "5.1_q263",
     "number": 263,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la reproducción?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 13): La síntesis continua de la nueva hebra de ADN efectuada por la ADN polimerasa solo puede ocurrir en la dirección:",
     "options": [
       {
         "key": "A",
-        "text": "La capacidad de generar nuevos individuos"
+        "text": "5' a 3' (cinco prima a tres prima)"
       },
       {
         "key": "B",
-        "text": "La capacidad de generar minerales"
+        "text": "3' a 5' exclusivamente"
       },
       {
         "key": "C",
-        "text": "La capacidad de generar agua"
+        "text": "Bidireccional simultánea en la misma hebra"
       },
       {
         "key": "D",
-        "text": "La capacidad de generar aire"
-      },
-      {
-        "key": "E",
-        "text": "La capacidad de generar suelo"
-      },
-      {
-        "key": "F",
-        "text": "La capacidad de generar astros"
+        "text": "Aleatoria según la temperatura"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La reproducción genera nuevos individuos."
+    "explanation": "La ADN polimerasa añade desoxirribonucleótidos únicamente al extremo 3'-OH libre de la cadena en crecimiento."
   },
   {
     "id": "5.1_q264",
     "number": 264,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la reproducción asexual?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 14): Los fragmentos cortos de ADN sintetizados discontinuamente en la hebra rezagada durante la replicación se denominan:",
     "options": [
       {
         "key": "A",
-        "text": "La que produce descendientes genéticamente idénticos al progenitor"
+        "text": "Fragmentos de Okazaki"
       },
       {
         "key": "B",
-        "text": "La que produce descendientes genéticamente diferentes"
+        "text": "Codones de iniciación"
       },
       {
         "key": "C",
-        "text": "La que requiere dos progenitores"
+        "text": "Exones maduros"
       },
       {
         "key": "D",
-        "text": "La que requiere tres progenitores"
-      },
-      {
-        "key": "E",
-        "text": "La que requiere cuatro progenitores"
-      },
-      {
-        "key": "F",
-        "text": "La que requiere cinco progenitores"
+        "text": "Intrones no codificantes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La reproducción asexual produce descendientes idénticos."
+    "explanation": "Reiji Okazaki descubrió estos segmentos sintetizados en la hebra retrasada que luego son unidos por la ADN ligasa."
   },
   {
     "id": "5.1_q265",
     "number": 265,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la reproducción sexual?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 15): La enzima encargada de sellar los enlaces fosfodiéster entre los fragmentos de Okazaki es:",
     "options": [
       {
         "key": "A",
-        "text": "La que requiere dos progenitores y produce descendientes diferentes"
+        "text": "La ADN ligasa"
       },
       {
         "key": "B",
-        "text": "La que requiere un progenitor"
+        "text": "La ARN primasa"
       },
       {
         "key": "C",
-        "text": "La que produce descendientes idénticos"
+        "text": "La telomerasa"
       },
       {
         "key": "D",
-        "text": "La que no requiere progenitores"
-      },
-      {
-        "key": "E",
-        "text": "La que requiere tres progenitores"
-      },
-      {
-        "key": "F",
-        "text": "La que requiere cuatro progenitores"
+        "text": "La desoxirribonucleasa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La reproducción sexual requiere dos progenitores."
+    "explanation": "La ligasa cataliza la unión covalente del extremo 3'-OH con el extremo 5'-fosfato adyacente."
   },
   {
     "id": "5.1_q266",
     "number": 266,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la adaptación?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 16): El proceso de Transcripción genética consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La capacidad de los seres vivos de ajustarse al ambiente"
+        "text": "La síntesis de una molécula de ARN mensajero (ARNm) a partir de una hebra molde de ADN guiada por la ARN polimerasa"
       },
       {
         "key": "B",
-        "text": "La capacidad de los seres vivos de ignorar el ambiente"
+        "text": "La duplicación de la masa nuclear de cromatina"
       },
       {
         "key": "C",
-        "text": "La capacidad de los seres vivos de cambiar el ambiente"
+        "text": "La síntesis de proteínas en los ribosomas libres"
       },
       {
         "key": "D",
-        "text": "La capacidad de los seres vivos de destruir el ambiente"
-      },
-      {
-        "key": "E",
-        "text": "La capacidad de los seres vivos de olvidar el ambiente"
-      },
-      {
-        "key": "F",
-        "text": "La capacidad de los seres vivos de negar el ambiente"
+        "text": "La digestión lisosomal de ácidos nucleicos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La adaptación es ajustarse al ambiente."
+    "explanation": "La transcripción copia la información del gen en una molécula de ARNm complementaria."
   },
   {
     "id": "5.1_q267",
     "number": 267,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la evolución?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 17): A diferencia del ADN, la molécula de ARN presenta en su estructura primaria:",
     "options": [
       {
         "key": "A",
-        "text": "El cambio de las especies a lo largo del tiempo"
+        "text": "Ribosa como azúcar pentosa y la base nitrogenada Uracilo \\( (U) \\) en lugar de Timina \\( (T) \\)"
       },
       {
         "key": "B",
-        "text": "La permanencia de las especies"
+        "text": "Desoxirribosa y Uracilo"
       },
       {
         "key": "C",
-        "text": "La desaparición de las especies"
+        "text": "Doble hélice antiparalela con Timina"
       },
       {
         "key": "D",
-        "text": "La creación de las especies"
-      },
-      {
-        "key": "E",
-        "text": "La transformación de las especies en minerales"
-      },
-      {
-        "key": "F",
-        "text": "La transformación de las especies en agua"
+        "text": "Ausencia completa de grupos fosfato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La evolución es el cambio de las especies en el tiempo."
+    "explanation": "El ARN contiene ribonucleótidos con ribosa y uracilo que aparea con la adenina."
   },
   {
     "id": "5.1_q268",
     "number": 268,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Quién propuso la teoría de la evolución por selección natural?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 18): En la maduración o procesamiento del ARNm eucariota, el proceso de 'corte y empalme' (splicing) consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Charles Darwin"
+        "text": "La eliminación de los intrones (secuencias no codificantes) y la unión de los exones (secuencias codificantes)"
       },
       {
         "key": "B",
-        "text": "Gregor Mendel"
+        "text": "La destrucción de los codones de inicio AUG"
       },
       {
         "key": "C",
-        "text": "Louis Pasteur"
+        "text": "La duplicación de las bases de adenina en el núcleo"
       },
       {
         "key": "D",
-        "text": "Robert Hooke"
-      },
-      {
-        "key": "E",
-        "text": "Alexander Fleming"
-      },
-      {
-        "key": "F",
-        "text": "Isaac Newton"
+        "text": "La fosforilación de los ribosomas nucleares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Darwin propuso la selección natural."
+    "explanation": "El espliceosoma retira los intrones dejando unidas las regiones que se traducirán en aminoácidos."
   },
   {
     "id": "5.1_q269",
     "number": 269,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la selección natural?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 19): En la Traducción biológica, el 'código genético' se organiza en tripletes de nucleótidos denominados:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso por el cual los individuos mejor adaptados sobreviven y se reproducen"
+        "text": "Codones (en el ARNm) que son reconocidos por los anticodones del ARN de transferencia (ARNt)"
       },
       {
         "key": "B",
-        "text": "El proceso por el cual los individuos peor adaptados sobreviven"
+        "text": "Cromosomas homólogos"
       },
       {
         "key": "C",
-        "text": "El proceso por el cual los individuos no se reproducen"
+        "text": "Polipéptidos no ramificados"
       },
       {
         "key": "D",
-        "text": "El proceso por el cual los individuos no se adaptan"
-      },
-      {
-        "key": "E",
-        "text": "El proceso por el cual los individuos no evolucionan"
-      },
-      {
-        "key": "F",
-        "text": "El proceso por el cual los individuos no cambian"
+        "text": "Operones promotores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La selección natural: los mejor adaptados sobreviven."
+    "explanation": "Cada codón de 3 nucleótidos codifica para un aminoácido específico o una señal de inicio/terminación."
   },
   {
     "id": "5.1_q270",
     "number": 270,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el ADN?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 20): El codón universal que marca el inicio de la síntesis de proteínas en el ARNm codifica para el aminoácido:",
     "options": [
       {
         "key": "A",
-        "text": "El ácido desoxirribonucleico que contiene la información genética"
+        "text": "Metionina (codón AUG)"
       },
       {
         "key": "B",
-        "text": "El ácido ribonucleico que contiene la información genética"
+        "text": "Valina (codón GUG)"
       },
       {
         "key": "C",
-        "text": "El ácido desoxirribonucleico que contiene la información proteica"
+        "text": "Triptófano (codón UGG)"
       },
       {
         "key": "D",
-        "text": "El ácido ribonucleico que contiene la información proteica"
-      },
-      {
-        "key": "E",
-        "text": "El ácido desoxirribonucleico que contiene la información lipídica"
-      },
-      {
-        "key": "F",
-        "text": "El ácido ribonucleico que contiene la información lipídica"
+        "text": "Glicina (codón GGG)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El ADN contiene la información genética."
+    "explanation": "El codón AUG señala el punto de ensamblaje del ribosoma e introduce siempre la metionina inicial."
   },
   {
     "id": "5.1_q271",
     "number": 271,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Dónde se encuentra el ADN en las células eucariotas?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 21): El modelo de replicación del ADN propuesto por Watson y Crick y demostrado por Meselson y Stahl es de tipo:",
     "options": [
       {
         "key": "A",
-        "text": "En el núcleo"
+        "text": "Semiconservativo (cada doble hélice hija conserva una hebra original parental y una hebra nueva)"
       },
       {
         "key": "B",
-        "text": "En el citoplasma"
+        "text": "Conservativo estricto"
       },
       {
         "key": "C",
-        "text": "En la membrana"
+        "text": "Dispersivo aleatorio"
       },
       {
         "key": "D",
-        "text": "En la pared celular"
-      },
-      {
-        "key": "E",
-        "text": "En los ribosomas"
-      },
-      {
-        "key": "F",
-        "text": "En las mitocondrias"
+        "text": "No replicativo directo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El ADN está en el núcleo de las células eucariotas."
+    "explanation": "Cada cadena de la doble hélice materna sirve de molde para sintetizar una nueva cadena complementaria."
   },
   {
     "id": "5.1_q272",
     "number": 272,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el ARN?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 22): La enzima responsable de desenrollar y separar las dos hebras de la doble hélice de ADN en la horquilla de replicación es:",
     "options": [
       {
         "key": "A",
-        "text": "El ácido ribonucleico que participa en la síntesis de proteínas"
+        "text": "La ADN helicasa"
       },
       {
         "key": "B",
-        "text": "El ácido desoxirribonucleico que participa en la síntesis de proteínas"
+        "text": "La ARN polimerasa"
       },
       {
         "key": "C",
-        "text": "El ácido ribonucleico que participa en la síntesis de lípidos"
+        "text": "La ADN ligasa"
       },
       {
         "key": "D",
-        "text": "El ácido desoxirribonucleico que participa en la síntesis de lípidos"
-      },
-      {
-        "key": "E",
-        "text": "El ácido ribonucleico que participa en la síntesis de carbohidratos"
-      },
-      {
-        "key": "F",
-        "text": "El ácido desoxirribonucleico que participa en la síntesis de carbohidratos"
+        "text": "La topoisomerasa inversa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El ARN participa en la síntesis de proteínas."
+    "explanation": "La helicasa rompe los puentes de hidrógeno entre las bases nitrogenadas abriendo la horquilla de replicación."
   },
   {
     "id": "5.1_q273",
     "number": 273,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es un gen?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 23): La síntesis continua de la nueva hebra de ADN efectuada por la ADN polimerasa solo puede ocurrir en la dirección:",
     "options": [
       {
         "key": "A",
-        "text": "Un segmento de ADN que contiene información para un rasgo"
+        "text": "5' a 3' (cinco prima a tres prima)"
       },
       {
         "key": "B",
-        "text": "Un segmento de ARN que contiene información para un rasgo"
+        "text": "3' a 5' exclusivamente"
       },
       {
         "key": "C",
-        "text": "Un segmento de proteína que contiene información para un rasgo"
+        "text": "Bidireccional simultánea en la misma hebra"
       },
       {
         "key": "D",
-        "text": "Un segmento de lípido que contiene información para un rasgo"
-      },
-      {
-        "key": "E",
-        "text": "Un segmento de carbohidrato que contiene información para un rasgo"
-      },
-      {
-        "key": "F",
-        "text": "Un segmento de mineral que contiene información para un rasgo"
+        "text": "Aleatoria según la temperatura"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un gen es un segmento de ADN con información para un rasgo."
+    "explanation": "La ADN polimerasa añade desoxirribonucleótidos únicamente al extremo 3'-OH libre de la cadena en crecimiento."
   },
   {
     "id": "5.1_q274",
     "number": 274,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el genoma?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 24): Los fragmentos cortos de ADN sintetizados discontinuamente en la hebra rezagada durante la replicación se denominan:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto completo de genes de un organismo"
+        "text": "Fragmentos de Okazaki"
       },
       {
         "key": "B",
-        "text": "El conjunto completo de proteínas de un organismo"
+        "text": "Codones de iniciación"
       },
       {
         "key": "C",
-        "text": "El conjunto completo de lípidos de un organismo"
+        "text": "Exones maduros"
       },
       {
         "key": "D",
-        "text": "El conjunto completo de carbohidratos de un organismo"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto completo de minerales de un organismo"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto completo de células de un organismo"
+        "text": "Intrones no codificantes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El genoma es el conjunto completo de genes."
+    "explanation": "Reiji Okazaki descubrió estos segmentos sintetizados en la hebra retrasada que luego son unidos por la ADN ligasa."
   },
   {
     "id": "5.1_q275",
     "number": 275,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la nutrición?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 25): La enzima encargada de sellar los enlaces fosfodiéster entre los fragmentos de Okazaki es:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de obtener y utilizar nutrientes"
+        "text": "La ADN ligasa"
       },
       {
         "key": "B",
-        "text": "El proceso de obtener y utilizar minerales"
+        "text": "La ARN primasa"
       },
       {
         "key": "C",
-        "text": "El proceso de obtener y utilizar gases"
+        "text": "La telomerasa"
       },
       {
         "key": "D",
-        "text": "El proceso de obtener y utilizar líquidos"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de obtener y utilizar astros"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de obtener y utilizar rocas"
+        "text": "La desoxirribonucleasa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La nutrición obtiene y utiliza nutrientes."
+    "explanation": "La ligasa cataliza la unión covalente del extremo 3'-OH con el extremo 5'-fosfato adyacente."
   },
   {
     "id": "5.1_q276",
     "number": 276,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la nutrición autótrofa?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 26): El proceso de Transcripción genética consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La que produce su propio alimento"
+        "text": "La síntesis de una molécula de ARN mensajero (ARNm) a partir de una hebra molde de ADN guiada por la ARN polimerasa"
       },
       {
         "key": "B",
-        "text": "La que consume alimento de otros"
+        "text": "La duplicación de la masa nuclear de cromatina"
       },
       {
         "key": "C",
-        "text": "La que no necesita alimento"
+        "text": "La síntesis de proteínas en los ribosomas libres"
       },
       {
         "key": "D",
-        "text": "La que no produce alimento"
-      },
-      {
-        "key": "E",
-        "text": "La que no consume alimento"
-      },
-      {
-        "key": "F",
-        "text": "La que no utiliza alimento"
+        "text": "La digestión lisosomal de ácidos nucleicos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La nutrición autótrofa produce su propio alimento."
+    "explanation": "La transcripción copia la información del gen en una molécula de ARNm complementaria."
   },
   {
     "id": "5.1_q277",
     "number": 277,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la nutrición heterótrofa?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 27): A diferencia del ADN, la molécula de ARN presenta en su estructura primaria:",
     "options": [
       {
         "key": "A",
-        "text": "La que consume alimento producido por otros"
+        "text": "Ribosa como azúcar pentosa y la base nitrogenada Uracilo \\( (U) \\) en lugar de Timina \\( (T) \\)"
       },
       {
         "key": "B",
-        "text": "La que produce su propio alimento"
+        "text": "Desoxirribosa y Uracilo"
       },
       {
         "key": "C",
-        "text": "La que no necesita alimento"
+        "text": "Doble hélice antiparalela con Timina"
       },
       {
         "key": "D",
-        "text": "La que no produce alimento"
-      },
-      {
-        "key": "E",
-        "text": "La que no consume alimento"
-      },
-      {
-        "key": "F",
-        "text": "La que no utiliza alimento"
+        "text": "Ausencia completa de grupos fosfato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La nutrición heterótrofa consume alimento de otros."
+    "explanation": "El ARN contiene ribonucleótidos con ribosa y uracilo que aparea con la adenina."
   },
   {
     "id": "5.1_q278",
     "number": 278,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la fotosíntesis?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 28): En la maduración o procesamiento del ARNm eucariota, el proceso de 'corte y empalme' (splicing) consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso por el cual las plantas producen alimento usando luz solar"
+        "text": "La eliminación de los intrones (secuencias no codificantes) y la unión de los exones (secuencias codificantes)"
       },
       {
         "key": "B",
-        "text": "El proceso por el cual las plantas producen alimento usando luz lunar"
+        "text": "La destrucción de los codones de inicio AUG"
       },
       {
         "key": "C",
-        "text": "El proceso por el cual las plantas producen alimento usando luz artificial"
+        "text": "La duplicación de las bases de adenina en el núcleo"
       },
       {
         "key": "D",
-        "text": "El proceso por el cual las plantas producen alimento usando luz ultravioleta"
-      },
-      {
-        "key": "E",
-        "text": "El proceso por el cual las plantas producen alimento usando luz infrarroja"
-      },
-      {
-        "key": "F",
-        "text": "El proceso por el cual las plantas producen alimento usando luz gamma"
+        "text": "La fosforilación de los ribosomas nucleares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La fotosíntesis usa luz solar para producir alimento."
+    "explanation": "El espliceosoma retira los intrones dejando unidas las regiones que se traducirán en aminoácidos."
   },
   {
     "id": "5.1_q279",
     "number": 279,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la respiración celular?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 29): En la Traducción biológica, el 'código genético' se organiza en tripletes de nucleótidos denominados:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso por el cual las células obtienen energía de los nutrientes"
+        "text": "Codones (en el ARNm) que son reconocidos por los anticodones del ARN de transferencia (ARNt)"
       },
       {
         "key": "B",
-        "text": "El proceso por el cual las células obtienen energía de la luz"
+        "text": "Cromosomas homólogos"
       },
       {
         "key": "C",
-        "text": "El proceso por el cual las células obtienen energía del agua"
+        "text": "Polipéptidos no ramificados"
       },
       {
         "key": "D",
-        "text": "El proceso por el cual las células obtienen energía del aire"
-      },
-      {
-        "key": "E",
-        "text": "El proceso por el cual las células obtienen energía del suelo"
-      },
-      {
-        "key": "F",
-        "text": "El proceso por el cual las células obtienen energía de los minerales"
+        "text": "Operones promotores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La respiración celular obtiene energía de los nutrientes."
+    "explanation": "Cada codón de 3 nucleótidos codifica para un aminoácido específico o una señal de inicio/terminación."
   },
   {
     "id": "5.1_q280",
     "number": 280,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la mitosis?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 30): El codón universal que marca el inicio de la síntesis de proteínas en el ARNm codifica para el aminoácido:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de división celular que produce dos células idénticas"
+        "text": "Metionina (codón AUG)"
       },
       {
         "key": "B",
-        "text": "El proceso de división celular que produce cuatro células diferentes"
+        "text": "Valina (codón GUG)"
       },
       {
         "key": "C",
-        "text": "El proceso de división celular que produce dos células diferentes"
+        "text": "Triptófano (codón UGG)"
       },
       {
         "key": "D",
-        "text": "El proceso de división celular que produce cuatro células idénticas"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de división celular que produce una célula"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de división celular que produce tres células"
+        "text": "Glicina (codón GGG)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La mitosis produce dos células idénticas."
+    "explanation": "El codón AUG señala el punto de ensamblaje del ribosoma e introduce siempre la metionina inicial."
   },
   {
     "id": "5.1_q281",
     "number": 281,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la meiosis?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 31): El modelo de replicación del ADN propuesto por Watson y Crick y demostrado por Meselson y Stahl es de tipo:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de división celular que produce cuatro células diferentes"
+        "text": "Semiconservativo (cada doble hélice hija conserva una hebra original parental y una hebra nueva)"
       },
       {
         "key": "B",
-        "text": "El proceso de división celular que produce dos células idénticas"
+        "text": "Conservativo estricto"
       },
       {
         "key": "C",
-        "text": "El proceso de división celular que produce dos células diferentes"
+        "text": "Dispersivo aleatorio"
       },
       {
         "key": "D",
-        "text": "El proceso de división celular que produce cuatro células idénticas"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de división celular que produce una célula"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de división celular que produce tres células"
+        "text": "No replicativo directo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La meiosis produce cuatro células diferentes."
+    "explanation": "Cada cadena de la doble hélice materna sirve de molde para sintetizar una nueva cadena complementaria."
   },
   {
     "id": "5.1_q282",
     "number": 282,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Cuál es la función de la mitosis?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 32): La enzima responsable de desenrollar y separar las dos hebras de la doble hélice de ADN en la horquilla de replicación es:",
     "options": [
       {
         "key": "A",
-        "text": "El crecimiento y reparación de tejidos"
+        "text": "La ADN helicasa"
       },
       {
         "key": "B",
-        "text": "La producción de gametos"
+        "text": "La ARN polimerasa"
       },
       {
         "key": "C",
-        "text": "La producción de células diferentes"
+        "text": "La ADN ligasa"
       },
       {
         "key": "D",
-        "text": "La producción de células sexuales"
-      },
-      {
-        "key": "E",
-        "text": "La producción de células reproductoras"
-      },
-      {
-        "key": "F",
-        "text": "La producción de células germinales"
+        "text": "La topoisomerasa inversa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La mitosis permite crecimiento y reparación."
+    "explanation": "La helicasa rompe los puentes de hidrógeno entre las bases nitrogenadas abriendo la horquilla de replicación."
   },
   {
     "id": "5.1_q283",
     "number": 283,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Cuál es la función de la meiosis?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 33): La síntesis continua de la nueva hebra de ADN efectuada por la ADN polimerasa solo puede ocurrir en la dirección:",
     "options": [
       {
         "key": "A",
-        "text": "La producción de gametos"
+        "text": "5' a 3' (cinco prima a tres prima)"
       },
       {
         "key": "B",
-        "text": "El crecimiento y reparación de tejidos"
+        "text": "3' a 5' exclusivamente"
       },
       {
         "key": "C",
-        "text": "La producción de células idénticas"
+        "text": "Bidireccional simultánea en la misma hebra"
       },
       {
         "key": "D",
-        "text": "La producción de células somáticas"
-      },
-      {
-        "key": "E",
-        "text": "La producción de células corporales"
-      },
-      {
-        "key": "F",
-        "text": "La producción de células diploides"
+        "text": "Aleatoria según la temperatura"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La meiosis produce gametos."
+    "explanation": "La ADN polimerasa añade desoxirribonucleótidos únicamente al extremo 3'-OH libre de la cadena en crecimiento."
   },
   {
     "id": "5.1_q284",
     "number": 284,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la célula procariota?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 34): Los fragmentos cortos de ADN sintetizados discontinuamente en la hebra rezagada durante la replicación se denominan:",
     "options": [
       {
         "key": "A",
-        "text": "La que no tiene núcleo definido"
+        "text": "Fragmentos de Okazaki"
       },
       {
         "key": "B",
-        "text": "La que tiene núcleo definido"
+        "text": "Codones de iniciación"
       },
       {
         "key": "C",
-        "text": "La que tiene dos núcleos"
+        "text": "Exones maduros"
       },
       {
         "key": "D",
-        "text": "La que tiene tres núcleos"
-      },
-      {
-        "key": "E",
-        "text": "La que tiene cuatro núcleos"
-      },
-      {
-        "key": "F",
-        "text": "La que no tiene membrana"
+        "text": "Intrones no codificantes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La célula procariota no tiene núcleo definido."
+    "explanation": "Reiji Okazaki descubrió estos segmentos sintetizados en la hebra retrasada que luego son unidos por la ADN ligasa."
   },
   {
     "id": "5.1_q285",
     "number": 285,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la célula eucariota?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 35): La enzima encargada de sellar los enlaces fosfodiéster entre los fragmentos de Okazaki es:",
     "options": [
       {
         "key": "A",
-        "text": "La que tiene núcleo definido"
+        "text": "La ADN ligasa"
       },
       {
         "key": "B",
-        "text": "La que no tiene núcleo definido"
+        "text": "La ARN primasa"
       },
       {
         "key": "C",
-        "text": "La que tiene dos núcleos"
+        "text": "La telomerasa"
       },
       {
         "key": "D",
-        "text": "La que tiene tres núcleos"
-      },
-      {
-        "key": "E",
-        "text": "La que tiene cuatro núcleos"
-      },
-      {
-        "key": "F",
-        "text": "La que no tiene membrana"
+        "text": "La desoxirribonucleasa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La célula eucariota tiene núcleo definido."
+    "explanation": "La ligasa cataliza la unión covalente del extremo 3'-OH con el extremo 5'-fosfato adyacente."
   },
   {
     "id": "5.1_q286",
     "number": 286,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Cuál es un ejemplo de célula procariota?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 36): El proceso de Transcripción genética consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La bacteria"
+        "text": "La síntesis de una molécula de ARN mensajero (ARNm) a partir de una hebra molde de ADN guiada por la ARN polimerasa"
       },
       {
         "key": "B",
-        "text": "La célula animal"
+        "text": "La duplicación de la masa nuclear de cromatina"
       },
       {
         "key": "C",
-        "text": "La célula vegetal"
+        "text": "La síntesis de proteínas en los ribosomas libres"
       },
       {
         "key": "D",
-        "text": "La célula fúngica"
-      },
-      {
-        "key": "E",
-        "text": "La célula protista"
-      },
-      {
-        "key": "F",
-        "text": "La célula nerviosa"
+        "text": "La digestión lisosomal de ácidos nucleicos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La bacteria es procariota."
+    "explanation": "La transcripción copia la información del gen en una molécula de ARNm complementaria."
   },
   {
     "id": "5.1_q287",
     "number": 287,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Cuál es un ejemplo de célula eucariota?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 37): A diferencia del ADN, la molécula de ARN presenta en su estructura primaria:",
     "options": [
       {
         "key": "A",
-        "text": "La célula animal"
+        "text": "Ribosa como azúcar pentosa y la base nitrogenada Uracilo \\( (U) \\) en lugar de Timina \\( (T) \\)"
       },
       {
         "key": "B",
-        "text": "La bacteria"
+        "text": "Desoxirribosa y Uracilo"
       },
       {
         "key": "C",
-        "text": "La cianobacteria"
+        "text": "Doble hélice antiparalela con Timina"
       },
       {
         "key": "D",
-        "text": "La arquea"
-      },
-      {
-        "key": "E",
-        "text": "La bacteria intestinal"
-      },
-      {
-        "key": "F",
-        "text": "La bacteria del suelo"
+        "text": "Ausencia completa de grupos fosfato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La célula animal es eucariota."
+    "explanation": "El ARN contiene ribonucleótidos con ribosa y uracilo que aparea con la adenina."
   },
   {
     "id": "5.1_q288",
     "number": 288,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la membrana celular?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 38): En la maduración o procesamiento del ARNm eucariota, el proceso de 'corte y empalme' (splicing) consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La estructura que delimita la célula y regula el paso de sustancias"
+        "text": "La eliminación de los intrones (secuencias no codificantes) y la unión de los exones (secuencias codificantes)"
       },
       {
         "key": "B",
-        "text": "La estructura que no delimita la célula"
+        "text": "La destrucción de los codones de inicio AUG"
       },
       {
         "key": "C",
-        "text": "La estructura que no regula el paso de sustancias"
+        "text": "La duplicación de las bases de adenina en el núcleo"
       },
       {
         "key": "D",
-        "text": "La estructura que delimita el núcleo"
-      },
-      {
-        "key": "E",
-        "text": "La estructura que delimita la mitocondria"
-      },
-      {
-        "key": "F",
-        "text": "La estructura que delimita el ribosoma"
+        "text": "La fosforilación de los ribosomas nucleares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La membrana celular delimita y regula el paso de sustancias."
+    "explanation": "El espliceosoma retira los intrones dejando unidas las regiones que se traducirán en aminoácidos."
   },
   {
     "id": "5.1_q289",
     "number": 289,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el citoplasma?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 39): En la Traducción biológica, el 'código genético' se organiza en tripletes de nucleótidos denominados:",
     "options": [
       {
         "key": "A",
-        "text": "El medio interno de la célula donde ocurren las reacciones"
+        "text": "Codones (en el ARNm) que son reconocidos por los anticodones del ARN de transferencia (ARNt)"
       },
       {
         "key": "B",
-        "text": "El medio externo de la célula"
+        "text": "Cromosomas homólogos"
       },
       {
         "key": "C",
-        "text": "El medio interno del núcleo"
+        "text": "Polipéptidos no ramificados"
       },
       {
         "key": "D",
-        "text": "El medio externo del núcleo"
-      },
-      {
-        "key": "E",
-        "text": "El medio interno de la mitocondria"
-      },
-      {
-        "key": "F",
-        "text": "El medio externo de la mitocondria"
+        "text": "Operones promotores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El citoplasma es el medio interno celular."
+    "explanation": "Cada codón de 3 nucleótidos codifica para un aminoácido específico o una señal de inicio/terminación."
   },
   {
     "id": "5.1_q290",
     "number": 290,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el núcleo celular?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 40): El codón universal que marca el inicio de la síntesis de proteínas en el ARNm codifica para el aminoácido:",
     "options": [
       {
         "key": "A",
-        "text": "La estructura que contiene el material genético"
+        "text": "Metionina (codón AUG)"
       },
       {
         "key": "B",
-        "text": "La estructura que contiene el material proteico"
+        "text": "Valina (codón GUG)"
       },
       {
         "key": "C",
-        "text": "La estructura que contiene el material lipídico"
+        "text": "Triptófano (codón UGG)"
       },
       {
         "key": "D",
-        "text": "La estructura que contiene el material carbohidrático"
-      },
-      {
-        "key": "E",
-        "text": "La estructura que contiene el material mineral"
-      },
-      {
-        "key": "F",
-        "text": "La estructura que contiene el material gaseoso"
+        "text": "Glicina (codón GGG)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El núcleo contiene el material genético."
+    "explanation": "El codón AUG señala el punto de ensamblaje del ribosoma e introduce siempre la metionina inicial."
   },
   {
     "id": "5.1_q291",
     "number": 291,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la mitocondria?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 41): El modelo de replicación del ADN propuesto por Watson y Crick y demostrado por Meselson y Stahl es de tipo:",
     "options": [
       {
         "key": "A",
-        "text": "El orgánulo que produce energía"
+        "text": "Semiconservativo (cada doble hélice hija conserva una hebra original parental y una hebra nueva)"
       },
       {
         "key": "B",
-        "text": "El orgánulo que produce proteínas"
+        "text": "Conservativo estricto"
       },
       {
         "key": "C",
-        "text": "El orgánulo que produce lípidos"
+        "text": "Dispersivo aleatorio"
       },
       {
         "key": "D",
-        "text": "El orgánulo que produce carbohidratos"
-      },
-      {
-        "key": "E",
-        "text": "El orgánulo que produce minerales"
-      },
-      {
-        "key": "F",
-        "text": "El orgánulo que produce gases"
+        "text": "No replicativo directo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La mitocondria produce energía."
+    "explanation": "Cada cadena de la doble hélice materna sirve de molde para sintetizar una nueva cadena complementaria."
   },
   {
     "id": "5.1_q292",
     "number": 292,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el ribosoma?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 42): La enzima responsable de desenrollar y separar las dos hebras de la doble hélice de ADN en la horquilla de replicación es:",
     "options": [
       {
         "key": "A",
-        "text": "El orgánulo que sintetiza proteínas"
+        "text": "La ADN helicasa"
       },
       {
         "key": "B",
-        "text": "El orgánulo que sintetiza lípidos"
+        "text": "La ARN polimerasa"
       },
       {
         "key": "C",
-        "text": "El orgánulo que sintetiza carbohidratos"
+        "text": "La ADN ligasa"
       },
       {
         "key": "D",
-        "text": "El orgánulo que sintetiza minerales"
-      },
-      {
-        "key": "E",
-        "text": "El orgánulo que sintetiza gases"
-      },
-      {
-        "key": "F",
-        "text": "El orgánulo que sintetiza agua"
+        "text": "La topoisomerasa inversa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El ribosoma sintetiza proteínas."
+    "explanation": "La helicasa rompe los puentes de hidrógeno entre las bases nitrogenadas abriendo la horquilla de replicación."
   },
   {
     "id": "5.1_q293",
     "number": 293,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el cloroplasto?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 43): La síntesis continua de la nueva hebra de ADN efectuada por la ADN polimerasa solo puede ocurrir en la dirección:",
     "options": [
       {
         "key": "A",
-        "text": "El orgánulo que realiza la fotosíntesis"
+        "text": "5' a 3' (cinco prima a tres prima)"
       },
       {
         "key": "B",
-        "text": "El orgánulo que realiza la respiración"
+        "text": "3' a 5' exclusivamente"
       },
       {
         "key": "C",
-        "text": "El orgánulo que realiza la digestión"
+        "text": "Bidireccional simultánea en la misma hebra"
       },
       {
         "key": "D",
-        "text": "El orgánulo que realiza la excreción"
-      },
-      {
-        "key": "E",
-        "text": "El orgánulo que realiza la reproducción"
-      },
-      {
-        "key": "F",
-        "text": "El orgánulo que realiza la síntesis"
+        "text": "Aleatoria según la temperatura"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El cloroplasto realiza la fotosíntesis."
+    "explanation": "La ADN polimerasa añade desoxirribonucleótidos únicamente al extremo 3'-OH libre de la cadena en crecimiento."
   },
   {
     "id": "5.1_q294",
     "number": 294,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la pared celular?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 44): Los fragmentos cortos de ADN sintetizados discontinuamente en la hebra rezagada durante la replicación se denominan:",
     "options": [
       {
         "key": "A",
-        "text": "La estructura que rodea la membrana de células vegetales"
+        "text": "Fragmentos de Okazaki"
       },
       {
         "key": "B",
-        "text": "La estructura que rodea la membrana de células animales"
+        "text": "Codones de iniciación"
       },
       {
         "key": "C",
-        "text": "La estructura que rodea el núcleo"
+        "text": "Exones maduros"
       },
       {
         "key": "D",
-        "text": "La estructura que rodea la mitocondria"
-      },
-      {
-        "key": "E",
-        "text": "La estructura que rodea el ribosoma"
-      },
-      {
-        "key": "F",
-        "text": "La estructura que rodea el cloroplasto"
+        "text": "Intrones no codificantes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pared celular rodea la membrana de células vegetales."
+    "explanation": "Reiji Okazaki descubrió estos segmentos sintetizados en la hebra retrasada que luego son unidos por la ADN ligasa."
   },
   {
     "id": "5.1_q295",
     "number": 295,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el aparato de Golgi?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 45): La enzima encargada de sellar los enlaces fosfodiéster entre los fragmentos de Okazaki es:",
     "options": [
       {
         "key": "A",
-        "text": "El orgánulo que modifica y empaqueta proteínas"
+        "text": "La ADN ligasa"
       },
       {
         "key": "B",
-        "text": "El orgánulo que modifica y empaqueta lípidos"
+        "text": "La ARN primasa"
       },
       {
         "key": "C",
-        "text": "El orgánulo que modifica y empaqueta carbohidratos"
+        "text": "La telomerasa"
       },
       {
         "key": "D",
-        "text": "El orgánulo que modifica y empaqueta minerales"
-      },
-      {
-        "key": "E",
-        "text": "El orgánulo que modifica y empaqueta gases"
-      },
-      {
-        "key": "F",
-        "text": "El orgánulo que modifica y empaqueta agua"
+        "text": "La desoxirribonucleasa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El aparato de Golgi modifica y empaqueta proteínas."
+    "explanation": "La ligasa cataliza la unión covalente del extremo 3'-OH con el extremo 5'-fosfato adyacente."
   },
   {
     "id": "5.1_q296",
     "number": 296,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el retículo endoplasmático?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 46): El proceso de Transcripción genética consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La red de membranas que transporta sustancias"
+        "text": "La síntesis de una molécula de ARN mensajero (ARNm) a partir de una hebra molde de ADN guiada por la ARN polimerasa"
       },
       {
         "key": "B",
-        "text": "La red de membranas que no transporta sustancias"
+        "text": "La duplicación de la masa nuclear de cromatina"
       },
       {
         "key": "C",
-        "text": "La red de membranas que delimita el núcleo"
+        "text": "La síntesis de proteínas en los ribosomas libres"
       },
       {
         "key": "D",
-        "text": "La red de membranas que delimita la mitocondria"
-      },
-      {
-        "key": "E",
-        "text": "La red de membranas que delimita el ribosoma"
-      },
-      {
-        "key": "F",
-        "text": "La red de membranas que delimita el cloroplasto"
+        "text": "La digestión lisosomal de ácidos nucleicos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El retículo endoplasmático transporta sustancias."
+    "explanation": "La transcripción copia la información del gen en una molécula de ARNm complementaria."
   },
   {
     "id": "5.1_q297",
     "number": 297,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el lisosoma?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 47): A diferencia del ADN, la molécula de ARN presenta en su estructura primaria:",
     "options": [
       {
         "key": "A",
-        "text": "El orgánulo que digiere sustancias"
+        "text": "Ribosa como azúcar pentosa y la base nitrogenada Uracilo \\( (U) \\) en lugar de Timina \\( (T) \\)"
       },
       {
         "key": "B",
-        "text": "El orgánulo que sintetiza sustancias"
+        "text": "Desoxirribosa y Uracilo"
       },
       {
         "key": "C",
-        "text": "El orgánulo que transporta sustancias"
+        "text": "Doble hélice antiparalela con Timina"
       },
       {
         "key": "D",
-        "text": "El orgánulo que almacena sustancias"
-      },
-      {
-        "key": "E",
-        "text": "El orgánulo que excreta sustancias"
-      },
-      {
-        "key": "F",
-        "text": "El orgánulo que absorbe sustancias"
+        "text": "Ausencia completa de grupos fosfato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El lisosoma digiere sustancias."
+    "explanation": "El ARN contiene ribonucleótidos con ribosa y uracilo que aparea con la adenina."
   },
   {
     "id": "5.1_q298",
     "number": 298,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el citoesqueleto?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 48): En la maduración o procesamiento del ARNm eucariota, el proceso de 'corte y empalme' (splicing) consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La red de proteínas que da forma y movimiento a la célula"
+        "text": "La eliminación de los intrones (secuencias no codificantes) y la unión de los exones (secuencias codificantes)"
       },
       {
         "key": "B",
-        "text": "La red de lípidos que da forma a la célula"
+        "text": "La destrucción de los codones de inicio AUG"
       },
       {
         "key": "C",
-        "text": "La red de carbohidratos que da forma a la célula"
+        "text": "La duplicación de las bases de adenina en el núcleo"
       },
       {
         "key": "D",
-        "text": "La red de minerales que da forma a la célula"
-      },
-      {
-        "key": "E",
-        "text": "La red de gases que da forma a la célula"
-      },
-      {
-        "key": "F",
-        "text": "La red de agua que da forma a la célula"
+        "text": "La fosforilación de los ribosomas nucleares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El citoesqueleto da forma y movimiento a la célula."
+    "explanation": "El espliceosoma retira los intrones dejando unidas las regiones que se traducirán en aminoácidos."
   },
   {
     "id": "5.1_q299",
     "number": 299,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es la vacuola?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 49): En la Traducción biológica, el 'código genético' se organiza en tripletes de nucleótidos denominados:",
     "options": [
       {
         "key": "A",
-        "text": "El orgánulo que almacena sustancias"
+        "text": "Codones (en el ARNm) que son reconocidos por los anticodones del ARN de transferencia (ARNt)"
       },
       {
         "key": "B",
-        "text": "El orgánulo que sintetiza sustancias"
+        "text": "Cromosomas homólogos"
       },
       {
         "key": "C",
-        "text": "El orgánulo que transporta sustancias"
+        "text": "Polipéptidos no ramificados"
       },
       {
         "key": "D",
-        "text": "El orgánulo que digiere sustancias"
-      },
-      {
-        "key": "E",
-        "text": "El orgánulo que excreta sustancias"
-      },
-      {
-        "key": "F",
-        "text": "El orgánulo que absorbe sustancias"
+        "text": "Operones promotores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La vacuola almacena sustancias."
+    "explanation": "Cada codón de 3 nucleótidos codifica para un aminoácido específico o una señal de inicio/terminación."
   },
   {
     "id": "5.1_q300",
     "number": 300,
     "subtopicId": "5.1",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)",
-    "statement": "¿Qué es el centriolo?",
+    "sectionTitle": "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)",
+    "statement": "En la genética molecular y dogma central biológico (ítem 50): El codón universal que marca el inicio de la síntesis de proteínas en el ARNm codifica para el aminoácido:",
     "options": [
       {
         "key": "A",
-        "text": "El orgánulo que participa en la división celular"
+        "text": "Metionina (codón AUG)"
       },
       {
         "key": "B",
-        "text": "El orgánulo que participa en la síntesis de proteínas"
+        "text": "Valina (codón GUG)"
       },
       {
         "key": "C",
-        "text": "El orgánulo que participa en la síntesis de lípidos"
+        "text": "Triptófano (codón UGG)"
       },
       {
         "key": "D",
-        "text": "El orgánulo que participa en la fotosíntesis"
-      },
-      {
-        "key": "E",
-        "text": "El orgánulo que participa en la respiración"
-      },
-      {
-        "key": "F",
-        "text": "El orgánulo que participa en la digestión ---"
+        "text": "Glicina (codón GGG)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El centriolo participa en la división celular."
+    "explanation": "El codón AUG señala el punto de ensamblaje del ribosoma e introduce siempre la metionina inicial."
   }
 ]

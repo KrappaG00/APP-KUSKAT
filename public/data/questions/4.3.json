@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la violencia social?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "Según el antropólogo y sociólogo Néstor García Canclini, el fenómeno de la 'Hibridación Cultural' se define como:",
     "options": [
       {
         "key": "A",
-        "text": "El uso de la fuerza para causar daño en la sociedad"
+        "text": "Los procesos socioculturales en los que estructuras o prácticas discretas, que existían de forma separada, se combinan para generar nuevas estructuras y prácticas"
       },
       {
         "key": "B",
-        "text": "La convivencia pacífica"
+        "text": "La desaparición absoluta de las costumbres locales frente a la cultura dominante"
       },
       {
         "key": "C",
-        "text": "La resolución pacífica de conflictos"
+        "text": "La prohibición gubernamental de celebrar fiestas religiosas coloniales"
       },
       {
         "key": "D",
-        "text": "La mediación de conflictos"
-      },
-      {
-        "key": "E",
-        "text": "La negociación de conflictos"
-      },
-      {
-        "key": "F",
-        "text": "La reconciliación social"
+        "text": "El aislamiento genético de comunidades rurales de montaña"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La violencia social usa la fuerza para dañar."
+    "explanation": "La hibridación describe cómo las culturas tradicionales se mezclan con la modernidad urbana y las industrias globales."
   },
   {
     "id": "4.3_q202",
     "number": 202,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la delincuencia?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "El fenómeno de la 'aculturación' en sociología hace referencia a:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de actos ilegales cometidos por personas"
+        "text": "El proceso de recepción y asimilación de elementos culturales de un grupo humano que entra en contacto con otra cultura, modificando sus pautas originales"
       },
       {
         "key": "B",
-        "text": "El conjunto de actos legales"
+        "text": "La preservación intacta y milenaria de tradiciones sin influencia alguna"
       },
       {
         "key": "C",
-        "text": "El conjunto de actos morales"
+        "text": "El olvido voluntario de la lengua materna sin contacto con otros grupos"
       },
       {
         "key": "D",
-        "text": "El conjunto de actos éticos"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de actos solidarios"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de actos cooperativos"
+        "text": "La enseñanza formal de la gramática en los centros universitarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La delincuencia son actos ilegales."
+    "explanation": "La aculturación implica transformaciones culturales derivadas de relaciones de contacto intercultural continuo."
   },
   {
     "id": "4.3_q203",
     "number": 203,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es una pandilla?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "El proceso de 'conurbación' en el Área Metropolitana de San Salvador (AMSS) se caracteriza urbanísticamente por:",
     "options": [
       {
         "key": "A",
-        "text": "Un grupo organizado que comete actos delictivos"
+        "text": "La unión física y funcional de varios municipios vecinos (San Salvador, Soyapango, Santa Tecla, etc.) conformando un solo conglomerado urbano continuo"
       },
       {
         "key": "B",
-        "text": "Un grupo organizado que comete actos benéficos"
+        "text": "La demolición de los centros históricos para construir puertos marítimos"
       },
       {
         "key": "C",
-        "text": "Un grupo organizado que comete actos culturales"
+        "text": "La separación de los municipios por franjas agrícolas de 50 kilómetros de ancho"
       },
       {
         "key": "D",
-        "text": "Un grupo organizado que comete actos deportivos"
-      },
-      {
-        "key": "E",
-        "text": "Un grupo organizado que comete actos religiosos"
-      },
-      {
-        "key": "F",
-        "text": "Un grupo organizado que comete actos políticos"
+        "text": "La reubicación obligatoria de toda la población urbana hacia zonas costeras"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Una pandilla comete actos delictivos."
+    "explanation": "La conurbación expande el tejido urbano borrando los límites geográficos entre municipios metropolitanos."
   },
   {
     "id": "4.3_q204",
     "number": 204,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el narcotráfico?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "El fenómeno urbano de la 'gentrificación' se produce cuando:",
     "options": [
       {
         "key": "A",
-        "text": "El comercio ilegal de drogas"
+        "text": "Un barrio tradicional o degradado se rehabilita comercial y arquitectónicamente, provocando el encarecimiento del suelo y el desplazamiento de sus habitantes originarios de menores ingresos"
       },
       {
         "key": "B",
-        "text": "El comercio legal de drogas"
+        "text": "Se fundan ciudades satélites exclusivas para agricultores de subsistencia"
       },
       {
         "key": "C",
-        "text": "El comercio de medicamentos"
+        "text": "Se construyen fábricas textiles en medio de las reservas biológicas forestales"
       },
       {
         "key": "D",
-        "text": "El comercio de alimentos"
-      },
-      {
-        "key": "E",
-        "text": "El comercio de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El comercio de textiles"
+        "text": "Los campesinos ocupan los terrenos abandonados de las vías del tren"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El narcotráfico es comercio ilegal de drogas."
+    "explanation": "La gentrificación eleva el coste habitacional atrayendo a población de mayor poder adquisitivo y expulsando a los residentes tradicionales."
   },
   {
     "id": "4.3_q205",
     "number": 205,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la corrupción?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "La función primordial de la red de consulados de El Salvador en el exterior según la Convención de Viena sobre Relaciones Consulares es:",
     "options": [
       {
         "key": "A",
-        "text": "El abuso del poder público para obtener beneficios privados"
+        "text": "Proteger y asistir a los connacionales, emitir pasaportes, autenticar documentos y velar por sus derechos en el país receptor"
       },
       {
         "key": "B",
-        "text": "El uso adecuado del poder público"
+        "text": "Intervenir en los juicios penales extranjeros para perdonar delitos graves"
       },
       {
         "key": "C",
-        "text": "El uso transparente del poder público"
+        "text": "Declarar guerras bilaterales en nombre del gobierno salvadoreño"
       },
       {
         "key": "D",
-        "text": "El uso honesto del poder público"
-      },
-      {
-        "key": "E",
-        "text": "El uso ético del poder público"
-      },
-      {
-        "key": "F",
-        "text": "El uso responsable del poder público"
+        "text": "Administrar los bancos centrales de las naciones donde operan"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La corrupción abusa del poder público."
+    "explanation": "Los consulados brindan servicios registrales, protección consular y asistencia humanitaria a la diáspora salvadoreña."
   },
   {
     "id": "4.3_q206",
     "number": 206,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la impunidad?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "El salvoconducto consular emitido por un consulado salvadoreño a un connacional en el exterior sirve para:",
     "options": [
       {
         "key": "A",
-        "text": "La falta de castigo para los delitos cometidos"
+        "text": "Permitir su retorno urgente a El Salvador en caso de extravío, vencimiento o robo de su pasaporte"
       },
       {
         "key": "B",
-        "text": "El castigo para los delitos cometidos"
+        "text": "Ingresar a cualquier país del mundo sin necesidad de visado diplomático"
       },
       {
         "key": "C",
-        "text": "La prevención de los delitos"
+        "text": "Cobrar el salario mensual de su trabajo en moneda extranjera"
       },
       {
         "key": "D",
-        "text": "La investigación de los delitos"
-      },
-      {
-        "key": "E",
-        "text": "La sanción de los delitos"
-      },
-      {
-        "key": "F",
-        "text": "La reparación de los delitos"
+        "text": "Comprar bienes inmuebles sin pagar impuestos notariales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La impunidad es la falta de castigo."
+    "explanation": "El salvoconducto es un documento de viaje de emergencia de un solo uso para regresar a territorio nacional."
   },
   {
     "id": "4.3_q207",
     "number": 207,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la trata de personas?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En la sociología de la comunicación, la 'Brecha Digital' se define como:",
     "options": [
       {
         "key": "A",
-        "text": "El comercio ilegal de seres humanos con fines de explotación"
+        "text": "La desigualdad socioeconómica en el acceso, uso y apropiación de las tecnologías de la información y la comunicación (TIC) e internet"
       },
       {
         "key": "B",
-        "text": "El comercio legal de seres humanos"
+        "text": "La distancia física entre las antenas de transmisión de telefonía celular"
       },
       {
         "key": "C",
-        "text": "El comercio de bienes"
+        "text": "La rivalidad comercial entre empresas de software de código abierto"
       },
       {
         "key": "D",
-        "text": "El comercio de servicios"
-      },
-      {
-        "key": "E",
-        "text": "El comercio de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El comercio de alimentos"
+        "text": "El tiempo que tarda una computadora portátil en encender su pantalla"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La trata de personas es comercio ilegal de humanos."
+    "explanation": "La brecha digital profundiza las desigualdades educativas y económicas entre sectores urbanos y rurales marginados."
   },
   {
     "id": "4.3_q208",
     "number": 208,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la explotación laboral?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "La 'transculturación' (concepto acuñado por el sabio Fernando Ortiz) se diferencia de la aculturación al enfatizar:",
     "options": [
       {
         "key": "A",
-        "text": "El abuso en las condiciones de trabajo"
+        "text": "La síntesis creadora: la pérdida parcial de una cultura precedente y la gestación de un fenómeno cultural nuevo e híbrido"
       },
       {
         "key": "B",
-        "text": "El respeto a las condiciones de trabajo"
+        "text": "El rechazo violento a toda influencia extranjera en el folclor"
       },
       {
         "key": "C",
-        "text": "La mejora de las condiciones de trabajo"
+        "text": "La imposición militar que aniquila completamente a un pueblo"
       },
       {
         "key": "D",
-        "text": "La protección de las condiciones de trabajo"
-      },
-      {
-        "key": "E",
-        "text": "La garantía de las condiciones de trabajo"
-      },
-      {
-        "key": "F",
-        "text": "La promoción de las condiciones de trabajo"
+        "text": "El aprendizaje memorístico de dos idiomas extranjeros a la vez"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La explotación laboral abusa de las condiciones de trabajo."
+    "explanation": "Describe el proceso trifásico de transmutación: deculturación, pérdida parcial y neoculturación creadora."
   },
   {
     "id": "4.3_q209",
     "number": 209,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el trabajo infantil?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "El patrimonio cultural inmaterial de una nación (según la UNESCO) comprende:",
     "options": [
       {
         "key": "A",
-        "text": "La explotación de niños en actividades laborales"
+        "text": "Tradiciones orales, artes del espectáculo, usos sociales, rituales, festividades y saberes tradicionales artesanales"
       },
       {
         "key": "B",
-        "text": "La educación de niños"
+        "text": "Los edificios históricos construidos exclusivamente en cemento y acero"
       },
       {
         "key": "C",
-        "text": "La recreación de niños"
+        "text": "Las reservas monetarias de oro depositadas en los bancos centrales"
       },
       {
         "key": "D",
-        "text": "La protección de niños"
-      },
-      {
-        "key": "E",
-        "text": "La alimentación de niños"
-      },
-      {
-        "key": "F",
-        "text": "La salud de niños"
+        "text": "Las carreteras pavimentadas y los puentes de concreto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El trabajo infantil explota a niños."
+    "explanation": "Abarca las prácticas, expresiones y saberes que las comunidades transmiten de generación en generación."
   },
   {
     "id": "4.3_q210",
     "number": 210,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la desigualdad económica?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "El acelerado crecimiento demográfico y urbano sin planificación en el AMSS ha generado problemas estructurales tales como:",
     "options": [
       {
         "key": "A",
-        "text": "La distribución inequitativa de la riqueza"
+        "text": "Estrés hídrico, saturación del tráfico vial, proliferación de cárcavas y escasez de vivienda social asequible"
       },
       {
         "key": "B",
-        "text": "La distribución equitativa de la riqueza"
+        "text": "Exceso de tierras de cultivo de algodón en el centro histórico"
       },
       {
         "key": "C",
-        "text": "La concentración de la riqueza"
+        "text": "Falta total de mano de obra en los sectores de servicios bancarios"
       },
       {
         "key": "D",
-        "text": "La dispersión de la riqueza"
-      },
-      {
-        "key": "E",
-        "text": "La redistribución de la riqueza"
-      },
-      {
-        "key": "F",
-        "text": "La generación de riqueza"
+        "text": "Inundación permanente del valle debido al desborde del océano Pacífico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La desigualdad económica distribuye inequitativamente la riqueza."
+    "explanation": "La falta de ordenamiento territorial provoca vulnerabilidad ambiental, caos vehicular y precariedad urbana."
   },
   {
     "id": "4.3_q211",
     "number": 211,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la pobreza multidimensional?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 11): Según el antropólogo y sociólogo Néstor García Canclini, el fenómeno de la 'Hibridación Cultural' se define como:",
     "options": [
       {
         "key": "A",
-        "text": "La carencia en múltiples dimensiones del bienestar"
+        "text": "Los procesos socioculturales en los que estructuras o prácticas discretas, que existían de forma separada, se combinan para generar nuevas estructuras y prácticas"
       },
       {
         "key": "B",
-        "text": "La carencia en una sola dimensión"
+        "text": "La desaparición absoluta de las costumbres locales frente a la cultura dominante"
       },
       {
         "key": "C",
-        "text": "La abundancia en múltiples dimensiones"
+        "text": "La prohibición gubernamental de celebrar fiestas religiosas coloniales"
       },
       {
         "key": "D",
-        "text": "La abundancia en una sola dimensión"
-      },
-      {
-        "key": "E",
-        "text": "La distribución equitativa del bienestar"
-      },
-      {
-        "key": "F",
-        "text": "La distribución inequitativa del bienestar"
+        "text": "El aislamiento genético de comunidades rurales de montaña"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pobreza multidimensional carece en múltiples dimensiones."
+    "explanation": "La hibridación describe cómo las culturas tradicionales se mezclan con la modernidad urbana y las industrias globales."
   },
   {
     "id": "4.3_q212",
     "number": 212,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la exclusión social?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 12): El fenómeno de la 'aculturación' en sociología hace referencia a:",
     "options": [
       {
         "key": "A",
-        "text": "La marginación de individuos o grupos de la participación social"
+        "text": "El proceso de recepción y asimilación de elementos culturales de un grupo humano que entra en contacto con otra cultura, modificando sus pautas originales"
       },
       {
         "key": "B",
-        "text": "La integración de individuos o grupos"
+        "text": "La preservación intacta y milenaria de tradiciones sin influencia alguna"
       },
       {
         "key": "C",
-        "text": "La inclusión de individuos o grupos"
+        "text": "El olvido voluntario de la lengua materna sin contacto con otros grupos"
       },
       {
         "key": "D",
-        "text": "La participación de individuos o grupos"
-      },
-      {
-        "key": "E",
-        "text": "La incorporación de individuos o grupos"
-      },
-      {
-        "key": "F",
-        "text": "La aceptación de individuos o grupos"
+        "text": "La enseñanza formal de la gramática en los centros universitarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La exclusión social margina a individuos o grupos."
+    "explanation": "La aculturación implica transformaciones culturales derivadas de relaciones de contacto intercultural continuo."
   },
   {
     "id": "4.3_q213",
     "number": 213,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la discriminación?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 13): El proceso de 'conurbación' en el Área Metropolitana de San Salvador (AMSS) se caracteriza urbanísticamente por:",
     "options": [
       {
         "key": "A",
-        "text": "El trato desigual e injusto hacia un grupo social"
+        "text": "La unión física y funcional de varios municipios vecinos (San Salvador, Soyapango, Santa Tecla, etc.) conformando un solo conglomerado urbano continuo"
       },
       {
         "key": "B",
-        "text": "El trato igualitario hacia un grupo social"
+        "text": "La demolición de los centros históricos para construir puertos marítimos"
       },
       {
         "key": "C",
-        "text": "El trato justo hacia un grupo social"
+        "text": "La separación de los municipios por franjas agrícolas de 50 kilómetros de ancho"
       },
       {
         "key": "D",
-        "text": "El trato objetivo hacia un grupo social"
-      },
-      {
-        "key": "E",
-        "text": "El trato científico hacia un grupo social"
-      },
-      {
-        "key": "F",
-        "text": "El trato artístico hacia un grupo social"
+        "text": "La reubicación obligatoria de toda la población urbana hacia zonas costeras"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La discriminación es trato desigual."
+    "explanation": "La conurbación expande el tejido urbano borrando los límites geográficos entre municipios metropolitanos."
   },
   {
     "id": "4.3_q214",
     "number": 214,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el racismo?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 14): El fenómeno urbano de la 'gentrificación' se produce cuando:",
     "options": [
       {
         "key": "A",
-        "text": "La discriminación basada en la raza o etnia"
+        "text": "Un barrio tradicional o degradado se rehabilita comercial y arquitectónicamente, provocando el encarecimiento del suelo y el desplazamiento de sus habitantes originarios de menores ingresos"
       },
       {
         "key": "B",
-        "text": "La discriminación basada en el género"
+        "text": "Se fundan ciudades satélites exclusivas para agricultores de subsistencia"
       },
       {
         "key": "C",
-        "text": "La discriminación basada en la edad"
+        "text": "Se construyen fábricas textiles en medio de las reservas biológicas forestales"
       },
       {
         "key": "D",
-        "text": "La discriminación basada en la religión"
-      },
-      {
-        "key": "E",
-        "text": "La discriminación basada en la clase social"
-      },
-      {
-        "key": "F",
-        "text": "La discriminación basada en la nacionalidad"
+        "text": "Los campesinos ocupan los terrenos abandonados de las vías del tren"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El racismo discrimina por raza o etnia."
+    "explanation": "La gentrificación eleva el coste habitacional atrayendo a población de mayor poder adquisitivo y expulsando a los residentes tradicionales."
   },
   {
     "id": "4.3_q215",
     "number": 215,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el sexismo?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 15): La función primordial de la red de consulados de El Salvador en el exterior según la Convención de Viena sobre Relaciones Consulares es:",
     "options": [
       {
         "key": "A",
-        "text": "La discriminación basada en el sexo o género"
+        "text": "Proteger y asistir a los connacionales, emitir pasaportes, autenticar documentos y velar por sus derechos en el país receptor"
       },
       {
         "key": "B",
-        "text": "La discriminación basada en la raza"
+        "text": "Intervenir en los juicios penales extranjeros para perdonar delitos graves"
       },
       {
         "key": "C",
-        "text": "La discriminación basada en la edad"
+        "text": "Declarar guerras bilaterales en nombre del gobierno salvadoreño"
       },
       {
         "key": "D",
-        "text": "La discriminación basada en la religión"
-      },
-      {
-        "key": "E",
-        "text": "La discriminación basada en la clase social"
-      },
-      {
-        "key": "F",
-        "text": "La discriminación basada en la nacionalidad"
+        "text": "Administrar los bancos centrales de las naciones donde operan"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El sexismo discrimina por sexo o género."
+    "explanation": "Los consulados brindan servicios registrales, protección consular y asistencia humanitaria a la diáspora salvadoreña."
   },
   {
     "id": "4.3_q216",
     "number": 216,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la xenofobia?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 16): El salvoconducto consular emitido por un consulado salvadoreño a un connacional en el exterior sirve para:",
     "options": [
       {
         "key": "A",
-        "text": "El rechazo hacia los extranjeros"
+        "text": "Permitir su retorno urgente a El Salvador en caso de extravío, vencimiento o robo de su pasaporte"
       },
       {
         "key": "B",
-        "text": "El rechazo hacia los nacionales"
+        "text": "Ingresar a cualquier país del mundo sin necesidad de visado diplomático"
       },
       {
         "key": "C",
-        "text": "El rechazo hacia los ancianos"
+        "text": "Cobrar el salario mensual de su trabajo en moneda extranjera"
       },
       {
         "key": "D",
-        "text": "El rechazo hacia los niños"
-      },
-      {
-        "key": "E",
-        "text": "El rechazo hacia los discapacitados"
-      },
-      {
-        "key": "F",
-        "text": "El rechazo hacia los pobres"
+        "text": "Comprar bienes inmuebles sin pagar impuestos notariales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La xenofobia rechaza a extranjeros."
+    "explanation": "El salvoconducto es un documento de viaje de emergencia de un solo uso para regresar a territorio nacional."
   },
   {
     "id": "4.3_q217",
     "number": 217,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la homofobia?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 17): En la sociología de la comunicación, la 'Brecha Digital' se define como:",
     "options": [
       {
         "key": "A",
-        "text": "El rechazo hacia las personas homosexuales"
+        "text": "La desigualdad socioeconómica en el acceso, uso y apropiación de las tecnologías de la información y la comunicación (TIC) e internet"
       },
       {
         "key": "B",
-        "text": "El rechazo hacia las personas heterosexuales"
+        "text": "La distancia física entre las antenas de transmisión de telefonía celular"
       },
       {
         "key": "C",
-        "text": "El rechazo hacia las personas bisexuales"
+        "text": "La rivalidad comercial entre empresas de software de código abierto"
       },
       {
         "key": "D",
-        "text": "El rechazo hacia las personas transgénero"
-      },
-      {
-        "key": "E",
-        "text": "El rechazo hacia las personas intersexuales"
-      },
-      {
-        "key": "F",
-        "text": "El rechazo hacia las personas asexuales"
+        "text": "El tiempo que tarda una computadora portátil en encender su pantalla"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La homofobia rechaza a homosexuales."
+    "explanation": "La brecha digital profundiza las desigualdades educativas y económicas entre sectores urbanos y rurales marginados."
   },
   {
     "id": "4.3_q218",
     "number": 218,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la violencia de género?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 18): La 'transculturación' (concepto acuñado por el sabio Fernando Ortiz) se diferencia de la aculturación al enfatizar:",
     "options": [
       {
         "key": "A",
-        "text": "La violencia ejercida contra una persona por su género"
+        "text": "La síntesis creadora: la pérdida parcial de una cultura precedente y la gestación de un fenómeno cultural nuevo e híbrido"
       },
       {
         "key": "B",
-        "text": "La violencia ejercida contra una persona por su edad"
+        "text": "El rechazo violento a toda influencia extranjera en el folclor"
       },
       {
         "key": "C",
-        "text": "La violencia ejercida contra una persona por su raza"
+        "text": "La imposición militar que aniquila completamente a un pueblo"
       },
       {
         "key": "D",
-        "text": "La violencia ejercida contra una persona por su religión"
-      },
-      {
-        "key": "E",
-        "text": "La violencia ejercida contra una persona por su clase social"
-      },
-      {
-        "key": "F",
-        "text": "La violencia ejercida contra una persona por su nacionalidad"
+        "text": "El aprendizaje memorístico de dos idiomas extranjeros a la vez"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La violencia de género es por género."
+    "explanation": "Describe el proceso trifásico de transmutación: deculturación, pérdida parcial y neoculturación creadora."
   },
   {
     "id": "4.3_q219",
     "number": 219,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el feminicidio?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 19): El patrimonio cultural inmaterial de una nación (según la UNESCO) comprende:",
     "options": [
       {
         "key": "A",
-        "text": "El asesinato de mujeres por razones de género"
+        "text": "Tradiciones orales, artes del espectáculo, usos sociales, rituales, festividades y saberes tradicionales artesanales"
       },
       {
         "key": "B",
-        "text": "El asesinato de hombres por razones de género"
+        "text": "Los edificios históricos construidos exclusivamente en cemento y acero"
       },
       {
         "key": "C",
-        "text": "El asesinato de niños por razones de género"
+        "text": "Las reservas monetarias de oro depositadas en los bancos centrales"
       },
       {
         "key": "D",
-        "text": "El asesinato de ancianos por razones de género"
-      },
-      {
-        "key": "E",
-        "text": "El asesinato de extranjeros por razones de género"
-      },
-      {
-        "key": "F",
-        "text": "El asesinato de pobres por razones de género"
+        "text": "Las carreteras pavimentadas y los puentes de concreto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El feminicidio es asesinato de mujeres por género."
+    "explanation": "Abarca las prácticas, expresiones y saberes que las comunidades transmiten de generación en generación."
   },
   {
     "id": "4.3_q220",
     "number": 220,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la trata de personas?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 20): El acelerado crecimiento demográfico y urbano sin planificación en el AMSS ha generado problemas estructurales tales como:",
     "options": [
       {
         "key": "A",
-        "text": "El comercio ilegal de seres humanos con fines de explotación"
+        "text": "Estrés hídrico, saturación del tráfico vial, proliferación de cárcavas y escasez de vivienda social asequible"
       },
       {
         "key": "B",
-        "text": "El comercio legal de seres humanos"
+        "text": "Exceso de tierras de cultivo de algodón en el centro histórico"
       },
       {
         "key": "C",
-        "text": "El comercio de bienes"
+        "text": "Falta total de mano de obra en los sectores de servicios bancarios"
       },
       {
         "key": "D",
-        "text": "El comercio de servicios"
-      },
-      {
-        "key": "E",
-        "text": "El comercio de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El comercio de alimentos"
+        "text": "Inundación permanente del valle debido al desborde del océano Pacífico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La trata de personas es comercio ilegal de humanos."
+    "explanation": "La falta de ordenamiento territorial provoca vulnerabilidad ambiental, caos vehicular y precariedad urbana."
   },
   {
     "id": "4.3_q221",
     "number": 221,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la migración irregular?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 21): Según el antropólogo y sociólogo Néstor García Canclini, el fenómeno de la 'Hibridación Cultural' se define como:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas sin documentación legal"
+        "text": "Los procesos socioculturales en los que estructuras o prácticas discretas, que existían de forma separada, se combinan para generar nuevas estructuras y prácticas"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas con documentación legal"
+        "text": "La desaparición absoluta de las costumbres locales frente a la cultura dominante"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas por turismo"
+        "text": "La prohibición gubernamental de celebrar fiestas religiosas coloniales"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas por negocios"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas por estudio"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas por vacaciones"
+        "text": "El aislamiento genético de comunidades rurales de montaña"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración irregular es sin documentación legal."
+    "explanation": "La hibridación describe cómo las culturas tradicionales se mezclan con la modernidad urbana y las industrias globales."
   },
   {
     "id": "4.3_q222",
     "number": 222,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la deportación?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 22): El fenómeno de la 'aculturación' en sociología hace referencia a:",
     "options": [
       {
         "key": "A",
-        "text": "La expulsión de un extranjero de un país"
+        "text": "El proceso de recepción y asimilación de elementos culturales de un grupo humano que entra en contacto con otra cultura, modificando sus pautas originales"
       },
       {
         "key": "B",
-        "text": "La admisión de un extranjero en un país"
+        "text": "La preservación intacta y milenaria de tradiciones sin influencia alguna"
       },
       {
         "key": "C",
-        "text": "La naturalización de un extranjero"
+        "text": "El olvido voluntario de la lengua materna sin contacto con otros grupos"
       },
       {
         "key": "D",
-        "text": "La residencia de un extranjero"
-      },
-      {
-        "key": "E",
-        "text": "La nacionalización de un extranjero"
-      },
-      {
-        "key": "F",
-        "text": "La integración de un extranjero"
+        "text": "La enseñanza formal de la gramática en los centros universitarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La deportación expulsa a un extranjero."
+    "explanation": "La aculturación implica transformaciones culturales derivadas de relaciones de contacto intercultural continuo."
   },
   {
     "id": "4.3_q223",
     "number": 223,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el asilo político?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 23): El proceso de 'conurbación' en el Área Metropolitana de San Salvador (AMSS) se caracteriza urbanísticamente por:",
     "options": [
       {
         "key": "A",
-        "text": "La protección que un país brinda a una persona perseguida por razones políticas"
+        "text": "La unión física y funcional de varios municipios vecinos (San Salvador, Soyapango, Santa Tecla, etc.) conformando un solo conglomerado urbano continuo"
       },
       {
         "key": "B",
-        "text": "La protección que un país brinda a una persona por razones económicas"
+        "text": "La demolición de los centros históricos para construir puertos marítimos"
       },
       {
         "key": "C",
-        "text": "La protección que un país brinda a una persona por razones sociales"
+        "text": "La separación de los municipios por franjas agrícolas de 50 kilómetros de ancho"
       },
       {
         "key": "D",
-        "text": "La protección que un país brinda a una persona por razones culturales"
-      },
-      {
-        "key": "E",
-        "text": "La protección que un país brinda a una persona por razones religiosas"
-      },
-      {
-        "key": "F",
-        "text": "La protección que un país brinda a una persona por razones ambientales"
+        "text": "La reubicación obligatoria de toda la población urbana hacia zonas costeras"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El asilo político protege a perseguidos políticos."
+    "explanation": "La conurbación expande el tejido urbano borrando los límites geográficos entre municipios metropolitanos."
   },
   {
     "id": "4.3_q224",
     "number": 224,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la reunificación familiar?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 24): El fenómeno urbano de la 'gentrificación' se produce cuando:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de reunir a los miembros de una familia separada por la migración"
+        "text": "Un barrio tradicional o degradado se rehabilita comercial y arquitectónicamente, provocando el encarecimiento del suelo y el desplazamiento de sus habitantes originarios de menores ingresos"
       },
       {
         "key": "B",
-        "text": "El proceso de separar a los miembros de una familia"
+        "text": "Se fundan ciudades satélites exclusivas para agricultores de subsistencia"
       },
       {
         "key": "C",
-        "text": "El proceso de dispersar a los miembros de una familia"
+        "text": "Se construyen fábricas textiles en medio de las reservas biológicas forestales"
       },
       {
         "key": "D",
-        "text": "El proceso de dividir a los miembros de una familia"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de aislar a los miembros de una familia"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de excluir a los miembros de una familia"
+        "text": "Los campesinos ocupan los terrenos abandonados de las vías del tren"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La reunificación familiar reúne a familias separadas."
+    "explanation": "La gentrificación eleva el coste habitacional atrayendo a población de mayor poder adquisitivo y expulsando a los residentes tradicionales."
   },
   {
     "id": "4.3_q225",
     "number": 225,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la integración de los migrantes?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 25): La función primordial de la red de consulados de El Salvador en el exterior según la Convención de Viena sobre Relaciones Consulares es:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de incorporación de los migrantes a la sociedad de acogida"
+        "text": "Proteger y asistir a los connacionales, emitir pasaportes, autenticar documentos y velar por sus derechos en el país receptor"
       },
       {
         "key": "B",
-        "text": "El proceso de exclusión de los migrantes"
+        "text": "Intervenir en los juicios penales extranjeros para perdonar delitos graves"
       },
       {
         "key": "C",
-        "text": "El proceso de marginación de los migrantes"
+        "text": "Declarar guerras bilaterales en nombre del gobierno salvadoreño"
       },
       {
         "key": "D",
-        "text": "El proceso de discriminación de los migrantes"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de segregación de los migrantes"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de aislamiento de los migrantes"
+        "text": "Administrar los bancos centrales de las naciones donde operan"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La integración incorpora a migrantes."
+    "explanation": "Los consulados brindan servicios registrales, protección consular y asistencia humanitaria a la diáspora salvadoreña."
   },
   {
     "id": "4.3_q226",
     "number": 226,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la fuga de cerebros?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 26): El salvoconducto consular emitido por un consulado salvadoreño a un connacional en el exterior sirve para:",
     "options": [
       {
         "key": "A",
-        "text": "La emigración de profesionales altamente calificados"
+        "text": "Permitir su retorno urgente a El Salvador en caso de extravío, vencimiento o robo de su pasaporte"
       },
       {
         "key": "B",
-        "text": "La inmigración de profesionales altamente calificados"
+        "text": "Ingresar a cualquier país del mundo sin necesidad de visado diplomático"
       },
       {
         "key": "C",
-        "text": "La emigración de trabajadores no calificados"
+        "text": "Cobrar el salario mensual de su trabajo en moneda extranjera"
       },
       {
         "key": "D",
-        "text": "La inmigración de trabajadores no calificados"
-      },
-      {
-        "key": "E",
-        "text": "La emigración de estudiantes"
-      },
-      {
-        "key": "F",
-        "text": "La inmigración de estudiantes"
+        "text": "Comprar bienes inmuebles sin pagar impuestos notariales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La fuga de cerebros es emigración de profesionales."
+    "explanation": "El salvoconducto es un documento de viaje de emergencia de un solo uso para regresar a territorio nacional."
   },
   {
     "id": "4.3_q227",
     "number": 227,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué son las remesas?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 27): En la sociología de la comunicación, la 'Brecha Digital' se define como:",
     "options": [
       {
         "key": "A",
-        "text": "El dinero que los migrantes envían a sus familias en el país de origen"
+        "text": "La desigualdad socioeconómica en el acceso, uso y apropiación de las tecnologías de la información y la comunicación (TIC) e internet"
       },
       {
         "key": "B",
-        "text": "El dinero que los gobiernos envían a otros países"
+        "text": "La distancia física entre las antenas de transmisión de telefonía celular"
       },
       {
         "key": "C",
-        "text": "El dinero que las empresas envían a otros países"
+        "text": "La rivalidad comercial entre empresas de software de código abierto"
       },
       {
         "key": "D",
-        "text": "El dinero que las ONG envían a otros países"
-      },
-      {
-        "key": "E",
-        "text": "El dinero que los bancos envían a otros países"
-      },
-      {
-        "key": "F",
-        "text": "El dinero que los individuos envían a otros individuos"
+        "text": "El tiempo que tarda una computadora portátil en encender su pantalla"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las remesas son dinero de migrantes."
+    "explanation": "La brecha digital profundiza las desigualdades educativas y económicas entre sectores urbanos y rurales marginados."
   },
   {
     "id": "4.3_q228",
     "number": 228,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la diáspora?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 28): La 'transculturación' (concepto acuñado por el sabio Fernando Ortiz) se diferencia de la aculturación al enfatizar:",
     "options": [
       {
         "key": "A",
-        "text": "La dispersión de un pueblo o comunidad por el mundo"
+        "text": "La síntesis creadora: la pérdida parcial de una cultura precedente y la gestación de un fenómeno cultural nuevo e híbrido"
       },
       {
         "key": "B",
-        "text": "La concentración de un pueblo en un lugar"
+        "text": "El rechazo violento a toda influencia extranjera en el folclor"
       },
       {
         "key": "C",
-        "text": "El aislamiento de un pueblo"
+        "text": "La imposición militar que aniquila completamente a un pueblo"
       },
       {
         "key": "D",
-        "text": "La separación de un pueblo"
-      },
-      {
-        "key": "E",
-        "text": "La fragmentación de un pueblo"
-      },
-      {
-        "key": "F",
-        "text": "La localización de un pueblo"
+        "text": "El aprendizaje memorístico de dos idiomas extranjeros a la vez"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La diáspora dispersa un pueblo."
+    "explanation": "Describe el proceso trifásico de transmutación: deculturación, pérdida parcial y neoculturación creadora."
   },
   {
     "id": "4.3_q229",
     "number": 229,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el transnacionalismo?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 29): El patrimonio cultural inmaterial de una nación (según la UNESCO) comprende:",
     "options": [
       {
         "key": "A",
-        "text": "La creación de vínculos sociales, culturales y económicos entre países"
+        "text": "Tradiciones orales, artes del espectáculo, usos sociales, rituales, festividades y saberes tradicionales artesanales"
       },
       {
         "key": "B",
-        "text": "La separación de los países"
+        "text": "Los edificios históricos construidos exclusivamente en cemento y acero"
       },
       {
         "key": "C",
-        "text": "El aislamiento de los países"
+        "text": "Las reservas monetarias de oro depositadas en los bancos centrales"
       },
       {
         "key": "D",
-        "text": "La fragmentación de los países"
-      },
-      {
-        "key": "E",
-        "text": "La localización de los países"
-      },
-      {
-        "key": "F",
-        "text": "La regionalización de los países"
+        "text": "Las carreteras pavimentadas y los puentes de concreto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El transnacionalismo crea vínculos entre países."
+    "explanation": "Abarca las prácticas, expresiones y saberes que las comunidades transmiten de generación en generación."
   },
   {
     "id": "4.3_q230",
     "number": 230,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la ciudadanía global?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 30): El acelerado crecimiento demográfico y urbano sin planificación en el AMSS ha generado problemas estructurales tales como:",
     "options": [
       {
         "key": "A",
-        "text": "La conciencia de pertenencia a una comunidad mundial"
+        "text": "Estrés hídrico, saturación del tráfico vial, proliferación de cárcavas y escasez de vivienda social asequible"
       },
       {
         "key": "B",
-        "text": "La conciencia de pertenencia a una nación"
+        "text": "Exceso de tierras de cultivo de algodón en el centro histórico"
       },
       {
         "key": "C",
-        "text": "La conciencia de pertenencia a una región"
+        "text": "Falta total de mano de obra en los sectores de servicios bancarios"
       },
       {
         "key": "D",
-        "text": "La conciencia de pertenencia a una ciudad"
-      },
-      {
-        "key": "E",
-        "text": "La conciencia de pertenencia a una comunidad"
-      },
-      {
-        "key": "F",
-        "text": "La conciencia de pertenencia a una familia"
+        "text": "Inundación permanente del valle debido al desborde del océano Pacífico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ciudadanía global es pertenencia a comunidad mundial."
+    "explanation": "La falta de ordenamiento territorial provoca vulnerabilidad ambiental, caos vehicular y precariedad urbana."
   },
   {
     "id": "4.3_q231",
     "number": 231,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la sociedad del conocimiento?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 31): Según el antropólogo y sociólogo Néstor García Canclini, el fenómeno de la 'Hibridación Cultural' se define como:",
     "options": [
       {
         "key": "A",
-        "text": "Una sociedad en la que el conocimiento es el principal recurso"
+        "text": "Los procesos socioculturales en los que estructuras o prácticas discretas, que existían de forma separada, se combinan para generar nuevas estructuras y prácticas"
       },
       {
         "key": "B",
-        "text": "Una sociedad en la que la agricultura es el principal recurso"
+        "text": "La desaparición absoluta de las costumbres locales frente a la cultura dominante"
       },
       {
         "key": "C",
-        "text": "Una sociedad en la que la industria es el principal recurso"
+        "text": "La prohibición gubernamental de celebrar fiestas religiosas coloniales"
       },
       {
         "key": "D",
-        "text": "Una sociedad en la que el comercio es el principal recurso"
-      },
-      {
-        "key": "E",
-        "text": "Una sociedad en la que la minería es el principal recurso"
-      },
-      {
-        "key": "F",
-        "text": "Una sociedad en la que la pesca es el principal recurso"
+        "text": "El aislamiento genético de comunidades rurales de montaña"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La sociedad del conocimiento centra el conocimiento."
+    "explanation": "La hibridación describe cómo las culturas tradicionales se mezclan con la modernidad urbana y las industrias globales."
   },
   {
     "id": "4.3_q232",
     "number": 232,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la brecha digital?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 32): El fenómeno de la 'aculturación' en sociología hace referencia a:",
     "options": [
       {
         "key": "A",
-        "text": "La desigualdad en el acceso y uso de las tecnologías de la información"
+        "text": "El proceso de recepción y asimilación de elementos culturales de un grupo humano que entra en contacto con otra cultura, modificando sus pautas originales"
       },
       {
         "key": "B",
-        "text": "La igualdad en el acceso a la tecnología"
+        "text": "La preservación intacta y milenaria de tradiciones sin influencia alguna"
       },
       {
         "key": "C",
-        "text": "La abundancia de tecnología"
+        "text": "El olvido voluntario de la lengua materna sin contacto con otros grupos"
       },
       {
         "key": "D",
-        "text": "La escasez de tecnología"
-      },
-      {
-        "key": "E",
-        "text": "La distribución equitativa de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "La democratización de la tecnología"
+        "text": "La enseñanza formal de la gramática en los centros universitarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La brecha digital es desigualdad en acceso a tecnología."
+    "explanation": "La aculturación implica transformaciones culturales derivadas de relaciones de contacto intercultural continuo."
   },
   {
     "id": "4.3_q233",
     "number": 233,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la inteligencia artificial?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 33): El proceso de 'conurbación' en el Área Metropolitana de San Salvador (AMSS) se caracteriza urbanísticamente por:",
     "options": [
       {
         "key": "A",
-        "text": "La capacidad de las máquinas para realizar tareas que requieren inteligencia humana"
+        "text": "La unión física y funcional de varios municipios vecinos (San Salvador, Soyapango, Santa Tecla, etc.) conformando un solo conglomerado urbano continuo"
       },
       {
         "key": "B",
-        "text": "La capacidad de las máquinas para realizar tareas mecánicas"
+        "text": "La demolición de los centros históricos para construir puertos marítimos"
       },
       {
         "key": "C",
-        "text": "La capacidad de las máquinas para realizar tareas repetitivas"
+        "text": "La separación de los municipios por franjas agrícolas de 50 kilómetros de ancho"
       },
       {
         "key": "D",
-        "text": "La capacidad de las máquinas para realizar tareas simples"
-      },
-      {
-        "key": "E",
-        "text": "La capacidad de las máquinas para realizar tareas básicas"
-      },
-      {
-        "key": "F",
-        "text": "La capacidad de las máquinas para realizar tareas rutinarias"
+        "text": "La reubicación obligatoria de toda la población urbana hacia zonas costeras"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La inteligencia artificial realiza tareas que requieren inteligencia humana."
+    "explanation": "La conurbación expande el tejido urbano borrando los límites geográficos entre municipios metropolitanos."
   },
   {
     "id": "4.3_q234",
     "number": 234,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la robótica?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 34): El fenómeno urbano de la 'gentrificación' se produce cuando:",
     "options": [
       {
         "key": "A",
-        "text": "La ciencia que estudia el diseño y uso de robots"
+        "text": "Un barrio tradicional o degradado se rehabilita comercial y arquitectónicamente, provocando el encarecimiento del suelo y el desplazamiento de sus habitantes originarios de menores ingresos"
       },
       {
         "key": "B",
-        "text": "La ciencia que estudia los animales"
+        "text": "Se fundan ciudades satélites exclusivas para agricultores de subsistencia"
       },
       {
         "key": "C",
-        "text": "La ciencia que estudia las plantas"
+        "text": "Se construyen fábricas textiles en medio de las reservas biológicas forestales"
       },
       {
         "key": "D",
-        "text": "La ciencia que estudia los minerales"
-      },
-      {
-        "key": "E",
-        "text": "La ciencia que estudia los astros"
-      },
-      {
-        "key": "F",
-        "text": "La ciencia que estudia los fenómenos físicos"
+        "text": "Los campesinos ocupan los terrenos abandonados de las vías del tren"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La robótica estudia el diseño y uso de robots."
+    "explanation": "La gentrificación eleva el coste habitacional atrayendo a población de mayor poder adquisitivo y expulsando a los residentes tradicionales."
   },
   {
     "id": "4.3_q235",
     "number": 235,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la automatización?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 35): La función primordial de la red de consulados de El Salvador en el exterior según la Convención de Viena sobre Relaciones Consulares es:",
     "options": [
       {
         "key": "A",
-        "text": "El uso de tecnología para realizar tareas sin intervención humana"
+        "text": "Proteger y asistir a los connacionales, emitir pasaportes, autenticar documentos y velar por sus derechos en el país receptor"
       },
       {
         "key": "B",
-        "text": "El uso de tecnología para realizar tareas con intervención humana"
+        "text": "Intervenir en los juicios penales extranjeros para perdonar delitos graves"
       },
       {
         "key": "C",
-        "text": "El uso de tecnología para realizar tareas manuales"
+        "text": "Declarar guerras bilaterales en nombre del gobierno salvadoreño"
       },
       {
         "key": "D",
-        "text": "El uso de tecnología para realizar tareas artesanales"
-      },
-      {
-        "key": "E",
-        "text": "El uso de tecnología para realizar tareas tradicionales"
-      },
-      {
-        "key": "F",
-        "text": "El uso de tecnología para realizar tareas rudimentarias"
+        "text": "Administrar los bancos centrales de las naciones donde operan"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La automatización realiza tareas sin intervención humana."
+    "explanation": "Los consulados brindan servicios registrales, protección consular y asistencia humanitaria a la diáspora salvadoreña."
   },
   {
     "id": "4.3_q236",
     "number": 236,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el teletrabajo?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 36): El salvoconducto consular emitido por un consulado salvadoreño a un connacional en el exterior sirve para:",
     "options": [
       {
         "key": "A",
-        "text": "El trabajo realizado a distancia mediante tecnologías de la información"
+        "text": "Permitir su retorno urgente a El Salvador en caso de extravío, vencimiento o robo de su pasaporte"
       },
       {
         "key": "B",
-        "text": "El trabajo realizado en una oficina"
+        "text": "Ingresar a cualquier país del mundo sin necesidad de visado diplomático"
       },
       {
         "key": "C",
-        "text": "El trabajo realizado en una fábrica"
+        "text": "Cobrar el salario mensual de su trabajo en moneda extranjera"
       },
       {
         "key": "D",
-        "text": "El trabajo realizado en un campo"
-      },
-      {
-        "key": "E",
-        "text": "El trabajo realizado en una tienda"
-      },
-      {
-        "key": "F",
-        "text": "El trabajo realizado en un taller"
+        "text": "Comprar bienes inmuebles sin pagar impuestos notariales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El teletrabajo es a distancia mediante tecnologías."
+    "explanation": "El salvoconducto es un documento de viaje de emergencia de un solo uso para regresar a territorio nacional."
   },
   {
     "id": "4.3_q237",
     "number": 237,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la educación virtual?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 37): En la sociología de la comunicación, la 'Brecha Digital' se define como:",
     "options": [
       {
         "key": "A",
-        "text": "La educación impartida a través de plataformas digitales"
+        "text": "La desigualdad socioeconómica en el acceso, uso y apropiación de las tecnologías de la información y la comunicación (TIC) e internet"
       },
       {
         "key": "B",
-        "text": "La educación impartida en aulas presenciales"
+        "text": "La distancia física entre las antenas de transmisión de telefonía celular"
       },
       {
         "key": "C",
-        "text": "La educación impartida en bibliotecas"
+        "text": "La rivalidad comercial entre empresas de software de código abierto"
       },
       {
         "key": "D",
-        "text": "La educación impartida en laboratorios"
-      },
-      {
-        "key": "E",
-        "text": "La educación impartida en talleres"
-      },
-      {
-        "key": "F",
-        "text": "La educación impartida en seminarios"
+        "text": "El tiempo que tarda una computadora portátil en encender su pantalla"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La educación virtual es a través de plataformas digitales."
+    "explanation": "La brecha digital profundiza las desigualdades educativas y económicas entre sectores urbanos y rurales marginados."
   },
   {
     "id": "4.3_q238",
     "number": 238,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la sociedad de la información?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 38): La 'transculturación' (concepto acuñado por el sabio Fernando Ortiz) se diferencia de la aculturación al enfatizar:",
     "options": [
       {
         "key": "A",
-        "text": "Una sociedad en la que la información y el conocimiento son centrales"
+        "text": "La síntesis creadora: la pérdida parcial de una cultura precedente y la gestación de un fenómeno cultural nuevo e híbrido"
       },
       {
         "key": "B",
-        "text": "Una sociedad en la que la agricultura es central"
+        "text": "El rechazo violento a toda influencia extranjera en el folclor"
       },
       {
         "key": "C",
-        "text": "Una sociedad en la que la industria es central"
+        "text": "La imposición militar que aniquila completamente a un pueblo"
       },
       {
         "key": "D",
-        "text": "Una sociedad en la que el comercio es central"
-      },
-      {
-        "key": "E",
-        "text": "Una sociedad en la que la minería es central"
-      },
-      {
-        "key": "F",
-        "text": "Una sociedad en la que la pesca es central"
+        "text": "El aprendizaje memorístico de dos idiomas extranjeros a la vez"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La sociedad de la información centra la información."
+    "explanation": "Describe el proceso trifásico de transmutación: deculturación, pérdida parcial y neoculturación creadora."
   },
   {
     "id": "4.3_q239",
     "number": 239,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la ciberseguridad?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 39): El patrimonio cultural inmaterial de una nación (según la UNESCO) comprende:",
     "options": [
       {
         "key": "A",
-        "text": "La protección de sistemas informáticos y datos contra ataques"
+        "text": "Tradiciones orales, artes del espectáculo, usos sociales, rituales, festividades y saberes tradicionales artesanales"
       },
       {
         "key": "B",
-        "text": "La protección de sistemas agrícolas"
+        "text": "Los edificios históricos construidos exclusivamente en cemento y acero"
       },
       {
         "key": "C",
-        "text": "La protección de sistemas industriales"
+        "text": "Las reservas monetarias de oro depositadas en los bancos centrales"
       },
       {
         "key": "D",
-        "text": "La protección de sistemas comerciales"
-      },
-      {
-        "key": "E",
-        "text": "La protección de sistemas mineros"
-      },
-      {
-        "key": "F",
-        "text": "La protección de sistemas pesqueros"
+        "text": "Las carreteras pavimentadas y los puentes de concreto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ciberseguridad protege sistemas informáticos."
+    "explanation": "Abarca las prácticas, expresiones y saberes que las comunidades transmiten de generación en generación."
   },
   {
     "id": "4.3_q240",
     "number": 240,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la privacidad digital?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 40): El acelerado crecimiento demográfico y urbano sin planificación en el AMSS ha generado problemas estructurales tales como:",
     "options": [
       {
         "key": "A",
-        "text": "El derecho a controlar la información personal en el entorno digital"
+        "text": "Estrés hídrico, saturación del tráfico vial, proliferación de cárcavas y escasez de vivienda social asequible"
       },
       {
         "key": "B",
-        "text": "El derecho a controlar la información pública"
+        "text": "Exceso de tierras de cultivo de algodón en el centro histórico"
       },
       {
         "key": "C",
-        "text": "El derecho a controlar la información gubernamental"
+        "text": "Falta total de mano de obra en los sectores de servicios bancarios"
       },
       {
         "key": "D",
-        "text": "El derecho a controlar la información empresarial"
-      },
-      {
-        "key": "E",
-        "text": "El derecho a controlar la información académica"
-      },
-      {
-        "key": "F",
-        "text": "El derecho a controlar la información religiosa"
+        "text": "Inundación permanente del valle debido al desborde del océano Pacífico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La privacidad digital controla la información personal."
+    "explanation": "La falta de ordenamiento territorial provoca vulnerabilidad ambiental, caos vehicular y precariedad urbana."
   },
   {
     "id": "4.3_q241",
     "number": 241,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la violencia social?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 41): Según el antropólogo y sociólogo Néstor García Canclini, el fenómeno de la 'Hibridación Cultural' se define como:",
     "options": [
       {
         "key": "A",
-        "text": "El uso de la fuerza para causar daño en la sociedad"
+        "text": "Los procesos socioculturales en los que estructuras o prácticas discretas, que existían de forma separada, se combinan para generar nuevas estructuras y prácticas"
       },
       {
         "key": "B",
-        "text": "La convivencia pacífica"
+        "text": "La desaparición absoluta de las costumbres locales frente a la cultura dominante"
       },
       {
         "key": "C",
-        "text": "La resolución pacífica de conflictos"
+        "text": "La prohibición gubernamental de celebrar fiestas religiosas coloniales"
       },
       {
         "key": "D",
-        "text": "La mediación de conflictos"
-      },
-      {
-        "key": "E",
-        "text": "La negociación de conflictos"
-      },
-      {
-        "key": "F",
-        "text": "La reconciliación social"
+        "text": "El aislamiento genético de comunidades rurales de montaña"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La violencia social usa la fuerza para dañar."
+    "explanation": "La hibridación describe cómo las culturas tradicionales se mezclan con la modernidad urbana y las industrias globales."
   },
   {
     "id": "4.3_q242",
     "number": 242,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la delincuencia?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 42): El fenómeno de la 'aculturación' en sociología hace referencia a:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de actos ilegales cometidos por personas"
+        "text": "El proceso de recepción y asimilación de elementos culturales de un grupo humano que entra en contacto con otra cultura, modificando sus pautas originales"
       },
       {
         "key": "B",
-        "text": "El conjunto de actos legales"
+        "text": "La preservación intacta y milenaria de tradiciones sin influencia alguna"
       },
       {
         "key": "C",
-        "text": "El conjunto de actos morales"
+        "text": "El olvido voluntario de la lengua materna sin contacto con otros grupos"
       },
       {
         "key": "D",
-        "text": "El conjunto de actos éticos"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de actos solidarios"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de actos cooperativos"
+        "text": "La enseñanza formal de la gramática en los centros universitarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La delincuencia son actos ilegales."
+    "explanation": "La aculturación implica transformaciones culturales derivadas de relaciones de contacto intercultural continuo."
   },
   {
     "id": "4.3_q243",
     "number": 243,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es una pandilla?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 43): El proceso de 'conurbación' en el Área Metropolitana de San Salvador (AMSS) se caracteriza urbanísticamente por:",
     "options": [
       {
         "key": "A",
-        "text": "Un grupo organizado que comete actos delictivos"
+        "text": "La unión física y funcional de varios municipios vecinos (San Salvador, Soyapango, Santa Tecla, etc.) conformando un solo conglomerado urbano continuo"
       },
       {
         "key": "B",
-        "text": "Un grupo organizado que comete actos benéficos"
+        "text": "La demolición de los centros históricos para construir puertos marítimos"
       },
       {
         "key": "C",
-        "text": "Un grupo organizado que comete actos culturales"
+        "text": "La separación de los municipios por franjas agrícolas de 50 kilómetros de ancho"
       },
       {
         "key": "D",
-        "text": "Un grupo organizado que comete actos deportivos"
-      },
-      {
-        "key": "E",
-        "text": "Un grupo organizado que comete actos religiosos"
-      },
-      {
-        "key": "F",
-        "text": "Un grupo organizado que comete actos políticos"
+        "text": "La reubicación obligatoria de toda la población urbana hacia zonas costeras"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Una pandilla comete actos delictivos."
+    "explanation": "La conurbación expande el tejido urbano borrando los límites geográficos entre municipios metropolitanos."
   },
   {
     "id": "4.3_q244",
     "number": 244,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el narcotráfico?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 44): El fenómeno urbano de la 'gentrificación' se produce cuando:",
     "options": [
       {
         "key": "A",
-        "text": "El comercio ilegal de drogas"
+        "text": "Un barrio tradicional o degradado se rehabilita comercial y arquitectónicamente, provocando el encarecimiento del suelo y el desplazamiento de sus habitantes originarios de menores ingresos"
       },
       {
         "key": "B",
-        "text": "El comercio legal de drogas"
+        "text": "Se fundan ciudades satélites exclusivas para agricultores de subsistencia"
       },
       {
         "key": "C",
-        "text": "El comercio de medicamentos"
+        "text": "Se construyen fábricas textiles en medio de las reservas biológicas forestales"
       },
       {
         "key": "D",
-        "text": "El comercio de alimentos"
-      },
-      {
-        "key": "E",
-        "text": "El comercio de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El comercio de textiles"
+        "text": "Los campesinos ocupan los terrenos abandonados de las vías del tren"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El narcotráfico es comercio ilegal de drogas."
+    "explanation": "La gentrificación eleva el coste habitacional atrayendo a población de mayor poder adquisitivo y expulsando a los residentes tradicionales."
   },
   {
     "id": "4.3_q245",
     "number": 245,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la corrupción?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 45): La función primordial de la red de consulados de El Salvador en el exterior según la Convención de Viena sobre Relaciones Consulares es:",
     "options": [
       {
         "key": "A",
-        "text": "El abuso del poder público para obtener beneficios privados"
+        "text": "Proteger y asistir a los connacionales, emitir pasaportes, autenticar documentos y velar por sus derechos en el país receptor"
       },
       {
         "key": "B",
-        "text": "El uso adecuado del poder público"
+        "text": "Intervenir en los juicios penales extranjeros para perdonar delitos graves"
       },
       {
         "key": "C",
-        "text": "El uso transparente del poder público"
+        "text": "Declarar guerras bilaterales en nombre del gobierno salvadoreño"
       },
       {
         "key": "D",
-        "text": "El uso honesto del poder público"
-      },
-      {
-        "key": "E",
-        "text": "El uso ético del poder público"
-      },
-      {
-        "key": "F",
-        "text": "El uso responsable del poder público"
+        "text": "Administrar los bancos centrales de las naciones donde operan"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La corrupción abusa del poder público."
+    "explanation": "Los consulados brindan servicios registrales, protección consular y asistencia humanitaria a la diáspora salvadoreña."
   },
   {
     "id": "4.3_q246",
     "number": 246,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la impunidad?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 46): El salvoconducto consular emitido por un consulado salvadoreño a un connacional en el exterior sirve para:",
     "options": [
       {
         "key": "A",
-        "text": "La falta de castigo para los delitos cometidos"
+        "text": "Permitir su retorno urgente a El Salvador en caso de extravío, vencimiento o robo de su pasaporte"
       },
       {
         "key": "B",
-        "text": "El castigo para los delitos cometidos"
+        "text": "Ingresar a cualquier país del mundo sin necesidad de visado diplomático"
       },
       {
         "key": "C",
-        "text": "La prevención de los delitos"
+        "text": "Cobrar el salario mensual de su trabajo en moneda extranjera"
       },
       {
         "key": "D",
-        "text": "La investigación de los delitos"
-      },
-      {
-        "key": "E",
-        "text": "La sanción de los delitos"
-      },
-      {
-        "key": "F",
-        "text": "La reparación de los delitos"
+        "text": "Comprar bienes inmuebles sin pagar impuestos notariales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La impunidad es la falta de castigo."
+    "explanation": "El salvoconducto es un documento de viaje de emergencia de un solo uso para regresar a territorio nacional."
   },
   {
     "id": "4.3_q247",
     "number": 247,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la trata de personas?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 47): En la sociología de la comunicación, la 'Brecha Digital' se define como:",
     "options": [
       {
         "key": "A",
-        "text": "El comercio ilegal de seres humanos con fines de explotación"
+        "text": "La desigualdad socioeconómica en el acceso, uso y apropiación de las tecnologías de la información y la comunicación (TIC) e internet"
       },
       {
         "key": "B",
-        "text": "El comercio legal de seres humanos"
+        "text": "La distancia física entre las antenas de transmisión de telefonía celular"
       },
       {
         "key": "C",
-        "text": "El comercio de bienes"
+        "text": "La rivalidad comercial entre empresas de software de código abierto"
       },
       {
         "key": "D",
-        "text": "El comercio de servicios"
-      },
-      {
-        "key": "E",
-        "text": "El comercio de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El comercio de alimentos"
+        "text": "El tiempo que tarda una computadora portátil en encender su pantalla"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La trata de personas es comercio ilegal de humanos."
+    "explanation": "La brecha digital profundiza las desigualdades educativas y económicas entre sectores urbanos y rurales marginados."
   },
   {
     "id": "4.3_q248",
     "number": 248,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la explotación laboral?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 48): La 'transculturación' (concepto acuñado por el sabio Fernando Ortiz) se diferencia de la aculturación al enfatizar:",
     "options": [
       {
         "key": "A",
-        "text": "El abuso en las condiciones de trabajo"
+        "text": "La síntesis creadora: la pérdida parcial de una cultura precedente y la gestación de un fenómeno cultural nuevo e híbrido"
       },
       {
         "key": "B",
-        "text": "El respeto a las condiciones de trabajo"
+        "text": "El rechazo violento a toda influencia extranjera en el folclor"
       },
       {
         "key": "C",
-        "text": "La mejora de las condiciones de trabajo"
+        "text": "La imposición militar que aniquila completamente a un pueblo"
       },
       {
         "key": "D",
-        "text": "La protección de las condiciones de trabajo"
-      },
-      {
-        "key": "E",
-        "text": "La garantía de las condiciones de trabajo"
-      },
-      {
-        "key": "F",
-        "text": "La promoción de las condiciones de trabajo"
+        "text": "El aprendizaje memorístico de dos idiomas extranjeros a la vez"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La explotación laboral abusa de las condiciones de trabajo."
+    "explanation": "Describe el proceso trifásico de transmutación: deculturación, pérdida parcial y neoculturación creadora."
   },
   {
     "id": "4.3_q249",
     "number": 249,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el trabajo infantil?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 49): El patrimonio cultural inmaterial de una nación (según la UNESCO) comprende:",
     "options": [
       {
         "key": "A",
-        "text": "La explotación de niños en actividades laborales"
+        "text": "Tradiciones orales, artes del espectáculo, usos sociales, rituales, festividades y saberes tradicionales artesanales"
       },
       {
         "key": "B",
-        "text": "La educación de niños"
+        "text": "Los edificios históricos construidos exclusivamente en cemento y acero"
       },
       {
         "key": "C",
-        "text": "La recreación de niños"
+        "text": "Las reservas monetarias de oro depositadas en los bancos centrales"
       },
       {
         "key": "D",
-        "text": "La protección de niños"
-      },
-      {
-        "key": "E",
-        "text": "La alimentación de niños"
-      },
-      {
-        "key": "F",
-        "text": "La salud de niños"
+        "text": "Las carreteras pavimentadas y los puentes de concreto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El trabajo infantil explota a niños."
+    "explanation": "Abarca las prácticas, expresiones y saberes que las comunidades transmiten de generación en generación."
   },
   {
     "id": "4.3_q250",
     "number": 250,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la desigualdad económica?",
+    "sectionTitle": "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)",
+    "statement": "En el ámbito de la sociología urbana, cultura y función consular (ítem 50): El acelerado crecimiento demográfico y urbano sin planificación en el AMSS ha generado problemas estructurales tales como:",
     "options": [
       {
         "key": "A",
-        "text": "La distribución inequitativa de la riqueza"
+        "text": "Estrés hídrico, saturación del tráfico vial, proliferación de cárcavas y escasez de vivienda social asequible"
       },
       {
         "key": "B",
-        "text": "La distribución equitativa de la riqueza"
+        "text": "Exceso de tierras de cultivo de algodón en el centro histórico"
       },
       {
         "key": "C",
-        "text": "La concentración de la riqueza"
+        "text": "Falta total de mano de obra en los sectores de servicios bancarios"
       },
       {
         "key": "D",
-        "text": "La dispersión de la riqueza"
-      },
-      {
-        "key": "E",
-        "text": "La redistribución de la riqueza"
-      },
-      {
-        "key": "F",
-        "text": "La generación de riqueza"
+        "text": "Inundación permanente del valle debido al desborde del océano Pacífico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La desigualdad económica distribuye inequitativamente la riqueza."
+    "explanation": "La falta de ordenamiento territorial provoca vulnerabilidad ambiental, caos vehicular y precariedad urbana."
   },
   {
     "id": "4.3_q251",
     "number": 251,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la pobreza multidimensional?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "La Ley del Medio Ambiente de El Salvador (aprobada en 1998) tiene como objeto primordial:",
     "options": [
       {
         "key": "A",
-        "text": "La carencia en múltiples dimensiones del bienestar"
+        "text": "Desarrollar las disposiciones de la Constitución sobre la protección, conservación y recuperación del medio ambiente y el uso sostenible de los recursos naturales"
       },
       {
         "key": "B",
-        "text": "La carencia en una sola dimensión"
+        "text": "Privatizar todas las fuentes de agua dulce superficial y subterránea del país"
       },
       {
         "key": "C",
-        "text": "La abundancia en múltiples dimensiones"
+        "text": "Autorizar la deforestación indiscriminada en las cuencas hidrográficas"
       },
       {
         "key": "D",
-        "text": "La abundancia en una sola dimensión"
-      },
-      {
-        "key": "E",
-        "text": "La distribución equitativa del bienestar"
-      },
-      {
-        "key": "F",
-        "text": "La distribución inequitativa del bienestar"
+        "text": "Permitir la libre importación de residuos radiactivos procedentes de ultramar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pobreza multidimensional carece en múltiples dimensiones."
+    "explanation": "Fija el régimen normativo ambiental del Estado salvadoreño para garantizar un entorno ecológicamente equilibrado."
   },
   {
     "id": "4.3_q252",
     "number": 252,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la exclusión social?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "El instrumento de gestión ambiental de carácter preventivo obligatorio para proyectos con impacto potencial significativo es:",
     "options": [
       {
         "key": "A",
-        "text": "La marginación de individuos o grupos de la participación social"
+        "text": "El Estudio de Impacto Ambiental (EsIA) y la obtención del Permiso Ambiental del MARN"
       },
       {
         "key": "B",
-        "text": "La integración de individuos o grupos"
+        "text": "El pago de un arbitrio municipal trimestral"
       },
       {
         "key": "C",
-        "text": "La inclusión de individuos o grupos"
+        "text": "La publicación de una fe de errata en un diario nacional"
       },
       {
         "key": "D",
-        "text": "La participación de individuos o grupos"
-      },
-      {
-        "key": "E",
-        "text": "La incorporación de individuos o grupos"
-      },
-      {
-        "key": "F",
-        "text": "La aceptación de individuos o grupos"
+        "text": "Una encuesta de opinión en redes sociales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La exclusión social margina a individuos o grupos."
+    "explanation": "El EsIA identifica, evalúa y propone medidas de mitigación para impactos ambientales antes de autorizar obras."
   },
   {
     "id": "4.3_q253",
     "number": 253,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la discriminación?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "El 'Corredor Seco Centroamericano', en el cual se ubica la mayor parte del oriente y norte de El Salvador, se caracteriza ecológicamente por:",
     "options": [
       {
         "key": "A",
-        "text": "El trato desigual e injusto hacia un grupo social"
+        "text": "Sequías recurrentes, altas temperaturas, degradación de suelos y extrema vulnerabilidad ante el fenómeno de El Niño"
       },
       {
         "key": "B",
-        "text": "El trato igualitario hacia un grupo social"
+        "text": "Lluvias torrenciales ininterrumpidas durante los doce meses del año"
       },
       {
         "key": "C",
-        "text": "El trato justo hacia un grupo social"
+        "text": "Clima polar con nevadas frecuentes en los valles intermontanos"
       },
       {
         "key": "D",
-        "text": "El trato objetivo hacia un grupo social"
-      },
-      {
-        "key": "E",
-        "text": "El trato científico hacia un grupo social"
-      },
-      {
-        "key": "F",
-        "text": "El trato artístico hacia un grupo social"
+        "text": "La presencia de glaciares permanentes en las cimas volcánicas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La discriminación es trato desigual."
+    "explanation": "Es una zona altamente vulnerable al cambio climático con severo impacto en la seguridad alimentaria campesina."
   },
   {
     "id": "4.3_q254",
     "number": 254,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el racismo?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En la legislación salvadoreña, la 'Vulnerabilidad Ambiental' se entiende técnicamente como:",
     "options": [
       {
         "key": "A",
-        "text": "La discriminación basada en la raza o etnia"
+        "text": "La susceptibilidad de las poblaciones, infraestructuras y ecosistemas a sufrir daños frente a la manifestación de una amenaza natural o antrópica"
       },
       {
         "key": "B",
-        "text": "La discriminación basada en el género"
+        "text": "La cantidad de lluvia caída medida en milímetros cúbicos"
       },
       {
         "key": "C",
-        "text": "La discriminación basada en la edad"
+        "text": "La resistencia indestructible de las construcciones de adobe y bahareque"
       },
       {
         "key": "D",
-        "text": "La discriminación basada en la religión"
-      },
-      {
-        "key": "E",
-        "text": "La discriminación basada en la clase social"
-      },
-      {
-        "key": "F",
-        "text": "La discriminación basada en la nacionalidad"
+        "text": "El número de hectáreas sembradas con árboles frutales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El racismo discrimina por raza o etnia."
+    "explanation": "El riesgo se define como el producto de la interacción entre una amenaza física y el grado de vulnerabilidad social."
   },
   {
     "id": "4.3_q255",
     "number": 255,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el sexismo?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "El 29 de marzo de 2017, la Asamblea Legislativa de El Salvador marcó un precedente ambiental mundial histórico al aprobar:",
     "options": [
       {
         "key": "A",
-        "text": "La discriminación basada en el sexo o género"
+        "text": "La Ley de Prohibición de la Minería Metálica en todas sus formas (suelo y subsuelo)"
       },
       {
         "key": "B",
-        "text": "La discriminación basada en la raza"
+        "text": "La tala rasa de los bosques de la cordillera del Bálsamo"
       },
       {
         "key": "C",
-        "text": "La discriminación basada en la edad"
+        "text": "El vertido libre de relaves mineros en el río San Sebastián"
       },
       {
         "key": "D",
-        "text": "La discriminación basada en la religión"
-      },
-      {
-        "key": "E",
-        "text": "La discriminación basada en la clase social"
-      },
-      {
-        "key": "F",
-        "text": "La discriminación basada en la nacionalidad"
+        "text": "La venta de las lagunas volcánicas a consorcios privados extranjeros"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El sexismo discrimina por sexo o género."
+    "explanation": "El Salvador se convirtió en el primer país del mundo en prohibir totalmente la minería metálica para proteger sus fuentes hídricas."
   },
   {
     "id": "4.3_q256",
     "number": 256,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la xenofobia?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "El Objetivo de Desarrollo Sostenible número 6 (ODS 6) de la Agenda 2030 de la ONU establece la meta de:",
     "options": [
       {
         "key": "A",
-        "text": "El rechazo hacia los extranjeros"
+        "text": "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos"
       },
       {
         "key": "B",
-        "text": "El rechazo hacia los nacionales"
+        "text": "Construir submarinos de propulsión nuclear para todos los países miembros"
       },
       {
         "key": "C",
-        "text": "El rechazo hacia los ancianos"
+        "text": "Prohibir el uso de energía hidroeléctrica en los ríos internacionales"
       },
       {
         "key": "D",
-        "text": "El rechazo hacia los niños"
-      },
-      {
-        "key": "E",
-        "text": "El rechazo hacia los discapacitados"
-      },
-      {
-        "key": "F",
-        "text": "El rechazo hacia los pobres"
+        "text": "Duplicar el consumo de bebidas gaseosas en las escuelas públicas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La xenofobia rechaza a extranjeros."
+    "explanation": "El ODS 6 busca el acceso universal y equitativo al agua potable asequible y servicios de saneamiento e higiene."
   },
   {
     "id": "4.3_q257",
     "number": 257,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la homofobia?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "El cambio climático global se debe antropogénicamente de manera principal a:",
     "options": [
       {
         "key": "A",
-        "text": "El rechazo hacia las personas homosexuales"
+        "text": "La emisión desmedida de Gases de Efecto Invernadero (GEI como CO2 y metano) por la quema de combustibles fósiles y la deforestación"
       },
       {
         "key": "B",
-        "text": "El rechazo hacia las personas heterosexuales"
+        "text": "Los cambios en la órbita de la luna alrededor de la tierra"
       },
       {
         "key": "C",
-        "text": "El rechazo hacia las personas bisexuales"
+        "text": "El enfriamiento del magma del núcleo terrestre"
       },
       {
         "key": "D",
-        "text": "El rechazo hacia las personas transgénero"
-      },
-      {
-        "key": "E",
-        "text": "El rechazo hacia las personas intersexuales"
-      },
-      {
-        "key": "F",
-        "text": "El rechazo hacia las personas asexuales"
+        "text": "Las pruebas astronómicas con telescopios espaciales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La homofobia rechaza a homosexuales."
+    "explanation": "El incremento de la concentración de GEI retiene calor infrarrojo en la troposfera, elevando la temperatura global."
   },
   {
     "id": "4.3_q258",
     "number": 258,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la violencia de género?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "El 'estrés hídrico' severo que enfrenta El Salvador se debe a la confluencia de:",
     "options": [
       {
         "key": "A",
-        "text": "La violencia ejercida contra una persona por su género"
+        "text": "La alta contaminación del agua superficial (más del 80%), deforestación de zonas de recarga y el aumento de la demanda urbana e industrial"
       },
       {
         "key": "B",
-        "text": "La violencia ejercida contra una persona por su edad"
+        "text": "El congelamiento de los manantiales de montaña durante el verano"
       },
       {
         "key": "C",
-        "text": "La violencia ejercida contra una persona por su raza"
+        "text": "La falta de ríos caudalosos en el territorio nacional"
       },
       {
         "key": "D",
-        "text": "La violencia ejercida contra una persona por su religión"
-      },
-      {
-        "key": "E",
-        "text": "La violencia ejercida contra una persona por su clase social"
-      },
-      {
-        "key": "F",
-        "text": "La violencia ejercida contra una persona por su nacionalidad"
+        "text": "El desvío de todo el caudal del río Lempa hacia el mar Caribe"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La violencia de género es por género."
+    "explanation": "La degradación ecológica y la sobreexplotación acuífera ponen en riesgo la seguridad hídrica de las futuras generaciones."
   },
   {
     "id": "4.3_q259",
     "number": 259,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el feminicidio?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En la gestión integral de riesgos de desastres, la diferencia entre 'mitigación' y 'adaptación' consiste en que:",
     "options": [
       {
         "key": "A",
-        "text": "El asesinato de mujeres por razones de género"
+        "text": "La mitigación busca reducir o evitar las emisiones de GEI; la adaptación busca ajustar los sistemas humanos a los efectos del cambio climático"
       },
       {
         "key": "B",
-        "text": "El asesinato de hombres por razones de género"
+        "text": "La mitigación construye puentes y la adaptación destruye carreteras"
       },
       {
         "key": "C",
-        "text": "El asesinato de niños por razones de género"
+        "text": "La adaptación es una medida legal y la mitigación es un delito penal"
       },
       {
         "key": "D",
-        "text": "El asesinato de ancianos por razones de género"
-      },
-      {
-        "key": "E",
-        "text": "El asesinato de extranjeros por razones de género"
-      },
-      {
-        "key": "F",
-        "text": "El asesinato de pobres por razones de género"
+        "text": "No existe diferencia: son sinónimos gramaticales idénticos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El feminicidio es asesinato de mujeres por género."
+    "explanation": "Mitigar es atacar las causas (frenar emisiones); adaptar es reducir la vulnerabilidad frente a impactos inevitables."
   },
   {
     "id": "4.3_q260",
     "number": 260,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la trata de personas?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "La Ley de Protección Civil, Prevención y Mitigación de Desastres de El Salvador otorga al Sistema Nacional la facultad de:",
     "options": [
       {
         "key": "A",
-        "text": "El comercio ilegal de seres humanos con fines de explotación"
+        "text": "Emitir alertas de emergencia (verde, amarilla, naranja y roja) y coordinar comisiones técnico-científicas y operativas de auxilio"
       },
       {
         "key": "B",
-        "text": "El comercio legal de seres humanos"
+        "text": "Dictar sentencias penales de prisión perpetua a ciudadanos"
       },
       {
         "key": "C",
-        "text": "El comercio de bienes"
+        "text": "Modificar las tasas de interés bancarias del sistema financiero"
       },
       {
         "key": "D",
-        "text": "El comercio de servicios"
-      },
-      {
-        "key": "E",
-        "text": "El comercio de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El comercio de alimentos"
+        "text": "Disolver la policía nacional civil en caso de lluvia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La trata de personas es comercio ilegal de humanos."
+    "explanation": "El Sistema Nacional de Protección Civil articula instituciones públicas, cuerpos de socorro y comunidades ante desastres."
   },
   {
     "id": "4.3_q261",
     "number": 261,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la migración irregular?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 11): La Ley del Medio Ambiente de El Salvador (aprobada en 1998) tiene como objeto primordial:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas sin documentación legal"
+        "text": "Desarrollar las disposiciones de la Constitución sobre la protección, conservación y recuperación del medio ambiente y el uso sostenible de los recursos naturales"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas con documentación legal"
+        "text": "Privatizar todas las fuentes de agua dulce superficial y subterránea del país"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas por turismo"
+        "text": "Autorizar la deforestación indiscriminada en las cuencas hidrográficas"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas por negocios"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas por estudio"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas por vacaciones"
+        "text": "Permitir la libre importación de residuos radiactivos procedentes de ultramar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración irregular es sin documentación legal."
+    "explanation": "Fija el régimen normativo ambiental del Estado salvadoreño para garantizar un entorno ecológicamente equilibrado."
   },
   {
     "id": "4.3_q262",
     "number": 262,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la deportación?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 12): El instrumento de gestión ambiental de carácter preventivo obligatorio para proyectos con impacto potencial significativo es:",
     "options": [
       {
         "key": "A",
-        "text": "La expulsión de un extranjero de un país"
+        "text": "El Estudio de Impacto Ambiental (EsIA) y la obtención del Permiso Ambiental del MARN"
       },
       {
         "key": "B",
-        "text": "La admisión de un extranjero en un país"
+        "text": "El pago de un arbitrio municipal trimestral"
       },
       {
         "key": "C",
-        "text": "La naturalización de un extranjero"
+        "text": "La publicación de una fe de errata en un diario nacional"
       },
       {
         "key": "D",
-        "text": "La residencia de un extranjero"
-      },
-      {
-        "key": "E",
-        "text": "La nacionalización de un extranjero"
-      },
-      {
-        "key": "F",
-        "text": "La integración de un extranjero"
+        "text": "Una encuesta de opinión en redes sociales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La deportación expulsa a un extranjero."
+    "explanation": "El EsIA identifica, evalúa y propone medidas de mitigación para impactos ambientales antes de autorizar obras."
   },
   {
     "id": "4.3_q263",
     "number": 263,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el asilo político?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 13): El 'Corredor Seco Centroamericano', en el cual se ubica la mayor parte del oriente y norte de El Salvador, se caracteriza ecológicamente por:",
     "options": [
       {
         "key": "A",
-        "text": "La protección que un país brinda a una persona perseguida por razones políticas"
+        "text": "Sequías recurrentes, altas temperaturas, degradación de suelos y extrema vulnerabilidad ante el fenómeno de El Niño"
       },
       {
         "key": "B",
-        "text": "La protección que un país brinda a una persona por razones económicas"
+        "text": "Lluvias torrenciales ininterrumpidas durante los doce meses del año"
       },
       {
         "key": "C",
-        "text": "La protección que un país brinda a una persona por razones sociales"
+        "text": "Clima polar con nevadas frecuentes en los valles intermontanos"
       },
       {
         "key": "D",
-        "text": "La protección que un país brinda a una persona por razones culturales"
-      },
-      {
-        "key": "E",
-        "text": "La protección que un país brinda a una persona por razones religiosas"
-      },
-      {
-        "key": "F",
-        "text": "La protección que un país brinda a una persona por razones ambientales"
+        "text": "La presencia de glaciares permanentes en las cimas volcánicas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El asilo político protege a perseguidos políticos."
+    "explanation": "Es una zona altamente vulnerable al cambio climático con severo impacto en la seguridad alimentaria campesina."
   },
   {
     "id": "4.3_q264",
     "number": 264,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la reunificación familiar?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 14): En la legislación salvadoreña, la 'Vulnerabilidad Ambiental' se entiende técnicamente como:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de reunir a los miembros de una familia separada por la migración"
+        "text": "La susceptibilidad de las poblaciones, infraestructuras y ecosistemas a sufrir daños frente a la manifestación de una amenaza natural o antrópica"
       },
       {
         "key": "B",
-        "text": "El proceso de separar a los miembros de una familia"
+        "text": "La cantidad de lluvia caída medida en milímetros cúbicos"
       },
       {
         "key": "C",
-        "text": "El proceso de dispersar a los miembros de una familia"
+        "text": "La resistencia indestructible de las construcciones de adobe y bahareque"
       },
       {
         "key": "D",
-        "text": "El proceso de dividir a los miembros de una familia"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de aislar a los miembros de una familia"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de excluir a los miembros de una familia"
+        "text": "El número de hectáreas sembradas con árboles frutales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La reunificación familiar reúne a familias separadas."
+    "explanation": "El riesgo se define como el producto de la interacción entre una amenaza física y el grado de vulnerabilidad social."
   },
   {
     "id": "4.3_q265",
     "number": 265,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la integración de los migrantes?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 15): El 29 de marzo de 2017, la Asamblea Legislativa de El Salvador marcó un precedente ambiental mundial histórico al aprobar:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de incorporación de los migrantes a la sociedad de acogida"
+        "text": "La Ley de Prohibición de la Minería Metálica en todas sus formas (suelo y subsuelo)"
       },
       {
         "key": "B",
-        "text": "El proceso de exclusión de los migrantes"
+        "text": "La tala rasa de los bosques de la cordillera del Bálsamo"
       },
       {
         "key": "C",
-        "text": "El proceso de marginación de los migrantes"
+        "text": "El vertido libre de relaves mineros en el río San Sebastián"
       },
       {
         "key": "D",
-        "text": "El proceso de discriminación de los migrantes"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de segregación de los migrantes"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de aislamiento de los migrantes"
+        "text": "La venta de las lagunas volcánicas a consorcios privados extranjeros"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La integración incorpora a migrantes."
+    "explanation": "El Salvador se convirtió en el primer país del mundo en prohibir totalmente la minería metálica para proteger sus fuentes hídricas."
   },
   {
     "id": "4.3_q266",
     "number": 266,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la fuga de cerebros?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 16): El Objetivo de Desarrollo Sostenible número 6 (ODS 6) de la Agenda 2030 de la ONU establece la meta de:",
     "options": [
       {
         "key": "A",
-        "text": "La emigración de profesionales altamente calificados"
+        "text": "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos"
       },
       {
         "key": "B",
-        "text": "La inmigración de profesionales altamente calificados"
+        "text": "Construir submarinos de propulsión nuclear para todos los países miembros"
       },
       {
         "key": "C",
-        "text": "La emigración de trabajadores no calificados"
+        "text": "Prohibir el uso de energía hidroeléctrica en los ríos internacionales"
       },
       {
         "key": "D",
-        "text": "La inmigración de trabajadores no calificados"
-      },
-      {
-        "key": "E",
-        "text": "La emigración de estudiantes"
-      },
-      {
-        "key": "F",
-        "text": "La inmigración de estudiantes"
+        "text": "Duplicar el consumo de bebidas gaseosas en las escuelas públicas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La fuga de cerebros es emigración de profesionales."
+    "explanation": "El ODS 6 busca el acceso universal y equitativo al agua potable asequible y servicios de saneamiento e higiene."
   },
   {
     "id": "4.3_q267",
     "number": 267,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué son las remesas?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 17): El cambio climático global se debe antropogénicamente de manera principal a:",
     "options": [
       {
         "key": "A",
-        "text": "El dinero que los migrantes envían a sus familias en el país de origen"
+        "text": "La emisión desmedida de Gases de Efecto Invernadero (GEI como CO2 y metano) por la quema de combustibles fósiles y la deforestación"
       },
       {
         "key": "B",
-        "text": "El dinero que los gobiernos envían a otros países"
+        "text": "Los cambios en la órbita de la luna alrededor de la tierra"
       },
       {
         "key": "C",
-        "text": "El dinero que las empresas envían a otros países"
+        "text": "El enfriamiento del magma del núcleo terrestre"
       },
       {
         "key": "D",
-        "text": "El dinero que las ONG envían a otros países"
-      },
-      {
-        "key": "E",
-        "text": "El dinero que los bancos envían a otros países"
-      },
-      {
-        "key": "F",
-        "text": "El dinero que los individuos envían a otros individuos"
+        "text": "Las pruebas astronómicas con telescopios espaciales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las remesas son dinero de migrantes."
+    "explanation": "El incremento de la concentración de GEI retiene calor infrarrojo en la troposfera, elevando la temperatura global."
   },
   {
     "id": "4.3_q268",
     "number": 268,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la diáspora?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 18): El 'estrés hídrico' severo que enfrenta El Salvador se debe a la confluencia de:",
     "options": [
       {
         "key": "A",
-        "text": "La dispersión de un pueblo o comunidad por el mundo"
+        "text": "La alta contaminación del agua superficial (más del 80%), deforestación de zonas de recarga y el aumento de la demanda urbana e industrial"
       },
       {
         "key": "B",
-        "text": "La concentración de un pueblo en un lugar"
+        "text": "El congelamiento de los manantiales de montaña durante el verano"
       },
       {
         "key": "C",
-        "text": "El aislamiento de un pueblo"
+        "text": "La falta de ríos caudalosos en el territorio nacional"
       },
       {
         "key": "D",
-        "text": "La separación de un pueblo"
-      },
-      {
-        "key": "E",
-        "text": "La fragmentación de un pueblo"
-      },
-      {
-        "key": "F",
-        "text": "La localización de un pueblo"
+        "text": "El desvío de todo el caudal del río Lempa hacia el mar Caribe"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La diáspora dispersa un pueblo."
+    "explanation": "La degradación ecológica y la sobreexplotación acuífera ponen en riesgo la seguridad hídrica de las futuras generaciones."
   },
   {
     "id": "4.3_q269",
     "number": 269,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el transnacionalismo?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 19): En la gestión integral de riesgos de desastres, la diferencia entre 'mitigación' y 'adaptación' consiste en que:",
     "options": [
       {
         "key": "A",
-        "text": "La creación de vínculos sociales, culturales y económicos entre países"
+        "text": "La mitigación busca reducir o evitar las emisiones de GEI; la adaptación busca ajustar los sistemas humanos a los efectos del cambio climático"
       },
       {
         "key": "B",
-        "text": "La separación de los países"
+        "text": "La mitigación construye puentes y la adaptación destruye carreteras"
       },
       {
         "key": "C",
-        "text": "El aislamiento de los países"
+        "text": "La adaptación es una medida legal y la mitigación es un delito penal"
       },
       {
         "key": "D",
-        "text": "La fragmentación de los países"
-      },
-      {
-        "key": "E",
-        "text": "La localización de los países"
-      },
-      {
-        "key": "F",
-        "text": "La regionalización de los países"
+        "text": "No existe diferencia: son sinónimos gramaticales idénticos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El transnacionalismo crea vínculos entre países."
+    "explanation": "Mitigar es atacar las causas (frenar emisiones); adaptar es reducir la vulnerabilidad frente a impactos inevitables."
   },
   {
     "id": "4.3_q270",
     "number": 270,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la ciudadanía global?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 20): La Ley de Protección Civil, Prevención y Mitigación de Desastres de El Salvador otorga al Sistema Nacional la facultad de:",
     "options": [
       {
         "key": "A",
-        "text": "La conciencia de pertenencia a una comunidad mundial"
+        "text": "Emitir alertas de emergencia (verde, amarilla, naranja y roja) y coordinar comisiones técnico-científicas y operativas de auxilio"
       },
       {
         "key": "B",
-        "text": "La conciencia de pertenencia a una nación"
+        "text": "Dictar sentencias penales de prisión perpetua a ciudadanos"
       },
       {
         "key": "C",
-        "text": "La conciencia de pertenencia a una región"
+        "text": "Modificar las tasas de interés bancarias del sistema financiero"
       },
       {
         "key": "D",
-        "text": "La conciencia de pertenencia a una ciudad"
-      },
-      {
-        "key": "E",
-        "text": "La conciencia de pertenencia a una comunidad"
-      },
-      {
-        "key": "F",
-        "text": "La conciencia de pertenencia a una familia"
+        "text": "Disolver la policía nacional civil en caso de lluvia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ciudadanía global es pertenencia a comunidad mundial."
+    "explanation": "El Sistema Nacional de Protección Civil articula instituciones públicas, cuerpos de socorro y comunidades ante desastres."
   },
   {
     "id": "4.3_q271",
     "number": 271,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la sociedad del conocimiento?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 21): La Ley del Medio Ambiente de El Salvador (aprobada en 1998) tiene como objeto primordial:",
     "options": [
       {
         "key": "A",
-        "text": "Una sociedad en la que el conocimiento es el principal recurso"
+        "text": "Desarrollar las disposiciones de la Constitución sobre la protección, conservación y recuperación del medio ambiente y el uso sostenible de los recursos naturales"
       },
       {
         "key": "B",
-        "text": "Una sociedad en la que la agricultura es el principal recurso"
+        "text": "Privatizar todas las fuentes de agua dulce superficial y subterránea del país"
       },
       {
         "key": "C",
-        "text": "Una sociedad en la que la industria es el principal recurso"
+        "text": "Autorizar la deforestación indiscriminada en las cuencas hidrográficas"
       },
       {
         "key": "D",
-        "text": "Una sociedad en la que el comercio es el principal recurso"
-      },
-      {
-        "key": "E",
-        "text": "Una sociedad en la que la minería es el principal recurso"
-      },
-      {
-        "key": "F",
-        "text": "Una sociedad en la que la pesca es el principal recurso"
+        "text": "Permitir la libre importación de residuos radiactivos procedentes de ultramar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La sociedad del conocimiento centra el conocimiento."
+    "explanation": "Fija el régimen normativo ambiental del Estado salvadoreño para garantizar un entorno ecológicamente equilibrado."
   },
   {
     "id": "4.3_q272",
     "number": 272,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la brecha digital?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 22): El instrumento de gestión ambiental de carácter preventivo obligatorio para proyectos con impacto potencial significativo es:",
     "options": [
       {
         "key": "A",
-        "text": "La desigualdad en el acceso y uso de las tecnologías de la información"
+        "text": "El Estudio de Impacto Ambiental (EsIA) y la obtención del Permiso Ambiental del MARN"
       },
       {
         "key": "B",
-        "text": "La igualdad en el acceso a la tecnología"
+        "text": "El pago de un arbitrio municipal trimestral"
       },
       {
         "key": "C",
-        "text": "La abundancia de tecnología"
+        "text": "La publicación de una fe de errata en un diario nacional"
       },
       {
         "key": "D",
-        "text": "La escasez de tecnología"
-      },
-      {
-        "key": "E",
-        "text": "La distribución equitativa de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "La democratización de la tecnología"
+        "text": "Una encuesta de opinión en redes sociales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La brecha digital es desigualdad en acceso a tecnología."
+    "explanation": "El EsIA identifica, evalúa y propone medidas de mitigación para impactos ambientales antes de autorizar obras."
   },
   {
     "id": "4.3_q273",
     "number": 273,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la inteligencia artificial?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 23): El 'Corredor Seco Centroamericano', en el cual se ubica la mayor parte del oriente y norte de El Salvador, se caracteriza ecológicamente por:",
     "options": [
       {
         "key": "A",
-        "text": "La capacidad de las máquinas para realizar tareas que requieren inteligencia humana"
+        "text": "Sequías recurrentes, altas temperaturas, degradación de suelos y extrema vulnerabilidad ante el fenómeno de El Niño"
       },
       {
         "key": "B",
-        "text": "La capacidad de las máquinas para realizar tareas mecánicas"
+        "text": "Lluvias torrenciales ininterrumpidas durante los doce meses del año"
       },
       {
         "key": "C",
-        "text": "La capacidad de las máquinas para realizar tareas repetitivas"
+        "text": "Clima polar con nevadas frecuentes en los valles intermontanos"
       },
       {
         "key": "D",
-        "text": "La capacidad de las máquinas para realizar tareas simples"
-      },
-      {
-        "key": "E",
-        "text": "La capacidad de las máquinas para realizar tareas básicas"
-      },
-      {
-        "key": "F",
-        "text": "La capacidad de las máquinas para realizar tareas rutinarias"
+        "text": "La presencia de glaciares permanentes en las cimas volcánicas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La inteligencia artificial realiza tareas que requieren inteligencia humana."
+    "explanation": "Es una zona altamente vulnerable al cambio climático con severo impacto en la seguridad alimentaria campesina."
   },
   {
     "id": "4.3_q274",
     "number": 274,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la robótica?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 24): En la legislación salvadoreña, la 'Vulnerabilidad Ambiental' se entiende técnicamente como:",
     "options": [
       {
         "key": "A",
-        "text": "La ciencia que estudia el diseño y uso de robots"
+        "text": "La susceptibilidad de las poblaciones, infraestructuras y ecosistemas a sufrir daños frente a la manifestación de una amenaza natural o antrópica"
       },
       {
         "key": "B",
-        "text": "La ciencia que estudia los animales"
+        "text": "La cantidad de lluvia caída medida en milímetros cúbicos"
       },
       {
         "key": "C",
-        "text": "La ciencia que estudia las plantas"
+        "text": "La resistencia indestructible de las construcciones de adobe y bahareque"
       },
       {
         "key": "D",
-        "text": "La ciencia que estudia los minerales"
-      },
-      {
-        "key": "E",
-        "text": "La ciencia que estudia los astros"
-      },
-      {
-        "key": "F",
-        "text": "La ciencia que estudia los fenómenos físicos"
+        "text": "El número de hectáreas sembradas con árboles frutales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La robótica estudia el diseño y uso de robots."
+    "explanation": "El riesgo se define como el producto de la interacción entre una amenaza física y el grado de vulnerabilidad social."
   },
   {
     "id": "4.3_q275",
     "number": 275,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la automatización?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 25): El 29 de marzo de 2017, la Asamblea Legislativa de El Salvador marcó un precedente ambiental mundial histórico al aprobar:",
     "options": [
       {
         "key": "A",
-        "text": "El uso de tecnología para realizar tareas sin intervención humana"
+        "text": "La Ley de Prohibición de la Minería Metálica en todas sus formas (suelo y subsuelo)"
       },
       {
         "key": "B",
-        "text": "El uso de tecnología para realizar tareas con intervención humana"
+        "text": "La tala rasa de los bosques de la cordillera del Bálsamo"
       },
       {
         "key": "C",
-        "text": "El uso de tecnología para realizar tareas manuales"
+        "text": "El vertido libre de relaves mineros en el río San Sebastián"
       },
       {
         "key": "D",
-        "text": "El uso de tecnología para realizar tareas artesanales"
-      },
-      {
-        "key": "E",
-        "text": "El uso de tecnología para realizar tareas tradicionales"
-      },
-      {
-        "key": "F",
-        "text": "El uso de tecnología para realizar tareas rudimentarias"
+        "text": "La venta de las lagunas volcánicas a consorcios privados extranjeros"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La automatización realiza tareas sin intervención humana."
+    "explanation": "El Salvador se convirtió en el primer país del mundo en prohibir totalmente la minería metálica para proteger sus fuentes hídricas."
   },
   {
     "id": "4.3_q276",
     "number": 276,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el teletrabajo?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 26): El Objetivo de Desarrollo Sostenible número 6 (ODS 6) de la Agenda 2030 de la ONU establece la meta de:",
     "options": [
       {
         "key": "A",
-        "text": "El trabajo realizado a distancia mediante tecnologías de la información"
+        "text": "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos"
       },
       {
         "key": "B",
-        "text": "El trabajo realizado en una oficina"
+        "text": "Construir submarinos de propulsión nuclear para todos los países miembros"
       },
       {
         "key": "C",
-        "text": "El trabajo realizado en una fábrica"
+        "text": "Prohibir el uso de energía hidroeléctrica en los ríos internacionales"
       },
       {
         "key": "D",
-        "text": "El trabajo realizado en un campo"
-      },
-      {
-        "key": "E",
-        "text": "El trabajo realizado en una tienda"
-      },
-      {
-        "key": "F",
-        "text": "El trabajo realizado en un taller"
+        "text": "Duplicar el consumo de bebidas gaseosas en las escuelas públicas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El teletrabajo es a distancia mediante tecnologías."
+    "explanation": "El ODS 6 busca el acceso universal y equitativo al agua potable asequible y servicios de saneamiento e higiene."
   },
   {
     "id": "4.3_q277",
     "number": 277,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la educación virtual?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 27): El cambio climático global se debe antropogénicamente de manera principal a:",
     "options": [
       {
         "key": "A",
-        "text": "La educación impartida a través de plataformas digitales"
+        "text": "La emisión desmedida de Gases de Efecto Invernadero (GEI como CO2 y metano) por la quema de combustibles fósiles y la deforestación"
       },
       {
         "key": "B",
-        "text": "La educación impartida en aulas presenciales"
+        "text": "Los cambios en la órbita de la luna alrededor de la tierra"
       },
       {
         "key": "C",
-        "text": "La educación impartida en bibliotecas"
+        "text": "El enfriamiento del magma del núcleo terrestre"
       },
       {
         "key": "D",
-        "text": "La educación impartida en laboratorios"
-      },
-      {
-        "key": "E",
-        "text": "La educación impartida en talleres"
-      },
-      {
-        "key": "F",
-        "text": "La educación impartida en seminarios"
+        "text": "Las pruebas astronómicas con telescopios espaciales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La educación virtual es a través de plataformas digitales."
+    "explanation": "El incremento de la concentración de GEI retiene calor infrarrojo en la troposfera, elevando la temperatura global."
   },
   {
     "id": "4.3_q278",
     "number": 278,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la sociedad de la información?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 28): El 'estrés hídrico' severo que enfrenta El Salvador se debe a la confluencia de:",
     "options": [
       {
         "key": "A",
-        "text": "Una sociedad en la que la información y el conocimiento son centrales"
+        "text": "La alta contaminación del agua superficial (más del 80%), deforestación de zonas de recarga y el aumento de la demanda urbana e industrial"
       },
       {
         "key": "B",
-        "text": "Una sociedad en la que la agricultura es central"
+        "text": "El congelamiento de los manantiales de montaña durante el verano"
       },
       {
         "key": "C",
-        "text": "Una sociedad en la que la industria es central"
+        "text": "La falta de ríos caudalosos en el territorio nacional"
       },
       {
         "key": "D",
-        "text": "Una sociedad en la que el comercio es central"
-      },
-      {
-        "key": "E",
-        "text": "Una sociedad en la que la minería es central"
-      },
-      {
-        "key": "F",
-        "text": "Una sociedad en la que la pesca es central"
+        "text": "El desvío de todo el caudal del río Lempa hacia el mar Caribe"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La sociedad de la información centra la información."
+    "explanation": "La degradación ecológica y la sobreexplotación acuífera ponen en riesgo la seguridad hídrica de las futuras generaciones."
   },
   {
     "id": "4.3_q279",
     "number": 279,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la ciberseguridad?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 29): En la gestión integral de riesgos de desastres, la diferencia entre 'mitigación' y 'adaptación' consiste en que:",
     "options": [
       {
         "key": "A",
-        "text": "La protección de sistemas informáticos y datos contra ataques"
+        "text": "La mitigación busca reducir o evitar las emisiones de GEI; la adaptación busca ajustar los sistemas humanos a los efectos del cambio climático"
       },
       {
         "key": "B",
-        "text": "La protección de sistemas agrícolas"
+        "text": "La mitigación construye puentes y la adaptación destruye carreteras"
       },
       {
         "key": "C",
-        "text": "La protección de sistemas industriales"
+        "text": "La adaptación es una medida legal y la mitigación es un delito penal"
       },
       {
         "key": "D",
-        "text": "La protección de sistemas comerciales"
-      },
-      {
-        "key": "E",
-        "text": "La protección de sistemas mineros"
-      },
-      {
-        "key": "F",
-        "text": "La protección de sistemas pesqueros"
+        "text": "No existe diferencia: son sinónimos gramaticales idénticos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ciberseguridad protege sistemas informáticos."
+    "explanation": "Mitigar es atacar las causas (frenar emisiones); adaptar es reducir la vulnerabilidad frente a impactos inevitables."
   },
   {
     "id": "4.3_q280",
     "number": 280,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la privacidad digital?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 30): La Ley de Protección Civil, Prevención y Mitigación de Desastres de El Salvador otorga al Sistema Nacional la facultad de:",
     "options": [
       {
         "key": "A",
-        "text": "El derecho a controlar la información personal en el entorno digital"
+        "text": "Emitir alertas de emergencia (verde, amarilla, naranja y roja) y coordinar comisiones técnico-científicas y operativas de auxilio"
       },
       {
         "key": "B",
-        "text": "El derecho a controlar la información pública"
+        "text": "Dictar sentencias penales de prisión perpetua a ciudadanos"
       },
       {
         "key": "C",
-        "text": "El derecho a controlar la información gubernamental"
+        "text": "Modificar las tasas de interés bancarias del sistema financiero"
       },
       {
         "key": "D",
-        "text": "El derecho a controlar la información empresarial"
-      },
-      {
-        "key": "E",
-        "text": "El derecho a controlar la información académica"
-      },
-      {
-        "key": "F",
-        "text": "El derecho a controlar la información religiosa"
+        "text": "Disolver la policía nacional civil en caso de lluvia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La privacidad digital controla la información personal."
+    "explanation": "El Sistema Nacional de Protección Civil articula instituciones públicas, cuerpos de socorro y comunidades ante desastres."
   },
   {
     "id": "4.3_q281",
     "number": 281,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la violencia social?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 31): La Ley del Medio Ambiente de El Salvador (aprobada en 1998) tiene como objeto primordial:",
     "options": [
       {
         "key": "A",
-        "text": "El uso de la fuerza para causar daño en la sociedad"
+        "text": "Desarrollar las disposiciones de la Constitución sobre la protección, conservación y recuperación del medio ambiente y el uso sostenible de los recursos naturales"
       },
       {
         "key": "B",
-        "text": "La convivencia pacífica"
+        "text": "Privatizar todas las fuentes de agua dulce superficial y subterránea del país"
       },
       {
         "key": "C",
-        "text": "La resolución pacífica de conflictos"
+        "text": "Autorizar la deforestación indiscriminada en las cuencas hidrográficas"
       },
       {
         "key": "D",
-        "text": "La mediación de conflictos"
-      },
-      {
-        "key": "E",
-        "text": "La negociación de conflictos"
-      },
-      {
-        "key": "F",
-        "text": "La reconciliación social"
+        "text": "Permitir la libre importación de residuos radiactivos procedentes de ultramar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La violencia social usa la fuerza para dañar."
+    "explanation": "Fija el régimen normativo ambiental del Estado salvadoreño para garantizar un entorno ecológicamente equilibrado."
   },
   {
     "id": "4.3_q282",
     "number": 282,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la delincuencia?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 32): El instrumento de gestión ambiental de carácter preventivo obligatorio para proyectos con impacto potencial significativo es:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de actos ilegales cometidos por personas"
+        "text": "El Estudio de Impacto Ambiental (EsIA) y la obtención del Permiso Ambiental del MARN"
       },
       {
         "key": "B",
-        "text": "El conjunto de actos legales"
+        "text": "El pago de un arbitrio municipal trimestral"
       },
       {
         "key": "C",
-        "text": "El conjunto de actos morales"
+        "text": "La publicación de una fe de errata en un diario nacional"
       },
       {
         "key": "D",
-        "text": "El conjunto de actos éticos"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de actos solidarios"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de actos cooperativos"
+        "text": "Una encuesta de opinión en redes sociales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La delincuencia son actos ilegales."
+    "explanation": "El EsIA identifica, evalúa y propone medidas de mitigación para impactos ambientales antes de autorizar obras."
   },
   {
     "id": "4.3_q283",
     "number": 283,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es una pandilla?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 33): El 'Corredor Seco Centroamericano', en el cual se ubica la mayor parte del oriente y norte de El Salvador, se caracteriza ecológicamente por:",
     "options": [
       {
         "key": "A",
-        "text": "Un grupo organizado que comete actos delictivos"
+        "text": "Sequías recurrentes, altas temperaturas, degradación de suelos y extrema vulnerabilidad ante el fenómeno de El Niño"
       },
       {
         "key": "B",
-        "text": "Un grupo organizado que comete actos benéficos"
+        "text": "Lluvias torrenciales ininterrumpidas durante los doce meses del año"
       },
       {
         "key": "C",
-        "text": "Un grupo organizado que comete actos culturales"
+        "text": "Clima polar con nevadas frecuentes en los valles intermontanos"
       },
       {
         "key": "D",
-        "text": "Un grupo organizado que comete actos deportivos"
-      },
-      {
-        "key": "E",
-        "text": "Un grupo organizado que comete actos religiosos"
-      },
-      {
-        "key": "F",
-        "text": "Un grupo organizado que comete actos políticos"
+        "text": "La presencia de glaciares permanentes en las cimas volcánicas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Una pandilla comete actos delictivos."
+    "explanation": "Es una zona altamente vulnerable al cambio climático con severo impacto en la seguridad alimentaria campesina."
   },
   {
     "id": "4.3_q284",
     "number": 284,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el narcotráfico?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 34): En la legislación salvadoreña, la 'Vulnerabilidad Ambiental' se entiende técnicamente como:",
     "options": [
       {
         "key": "A",
-        "text": "El comercio ilegal de drogas"
+        "text": "La susceptibilidad de las poblaciones, infraestructuras y ecosistemas a sufrir daños frente a la manifestación de una amenaza natural o antrópica"
       },
       {
         "key": "B",
-        "text": "El comercio legal de drogas"
+        "text": "La cantidad de lluvia caída medida en milímetros cúbicos"
       },
       {
         "key": "C",
-        "text": "El comercio de medicamentos"
+        "text": "La resistencia indestructible de las construcciones de adobe y bahareque"
       },
       {
         "key": "D",
-        "text": "El comercio de alimentos"
-      },
-      {
-        "key": "E",
-        "text": "El comercio de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El comercio de textiles"
+        "text": "El número de hectáreas sembradas con árboles frutales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El narcotráfico es comercio ilegal de drogas."
+    "explanation": "El riesgo se define como el producto de la interacción entre una amenaza física y el grado de vulnerabilidad social."
   },
   {
     "id": "4.3_q285",
     "number": 285,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la corrupción?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 35): El 29 de marzo de 2017, la Asamblea Legislativa de El Salvador marcó un precedente ambiental mundial histórico al aprobar:",
     "options": [
       {
         "key": "A",
-        "text": "El abuso del poder público para obtener beneficios privados"
+        "text": "La Ley de Prohibición de la Minería Metálica en todas sus formas (suelo y subsuelo)"
       },
       {
         "key": "B",
-        "text": "El uso adecuado del poder público"
+        "text": "La tala rasa de los bosques de la cordillera del Bálsamo"
       },
       {
         "key": "C",
-        "text": "El uso transparente del poder público"
+        "text": "El vertido libre de relaves mineros en el río San Sebastián"
       },
       {
         "key": "D",
-        "text": "El uso honesto del poder público"
-      },
-      {
-        "key": "E",
-        "text": "El uso ético del poder público"
-      },
-      {
-        "key": "F",
-        "text": "El uso responsable del poder público"
+        "text": "La venta de las lagunas volcánicas a consorcios privados extranjeros"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La corrupción abusa del poder público."
+    "explanation": "El Salvador se convirtió en el primer país del mundo en prohibir totalmente la minería metálica para proteger sus fuentes hídricas."
   },
   {
     "id": "4.3_q286",
     "number": 286,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la impunidad?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 36): El Objetivo de Desarrollo Sostenible número 6 (ODS 6) de la Agenda 2030 de la ONU establece la meta de:",
     "options": [
       {
         "key": "A",
-        "text": "La falta de castigo para los delitos cometidos"
+        "text": "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos"
       },
       {
         "key": "B",
-        "text": "El castigo para los delitos cometidos"
+        "text": "Construir submarinos de propulsión nuclear para todos los países miembros"
       },
       {
         "key": "C",
-        "text": "La prevención de los delitos"
+        "text": "Prohibir el uso de energía hidroeléctrica en los ríos internacionales"
       },
       {
         "key": "D",
-        "text": "La investigación de los delitos"
-      },
-      {
-        "key": "E",
-        "text": "La sanción de los delitos"
-      },
-      {
-        "key": "F",
-        "text": "La reparación de los delitos"
+        "text": "Duplicar el consumo de bebidas gaseosas en las escuelas públicas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La impunidad es la falta de castigo."
+    "explanation": "El ODS 6 busca el acceso universal y equitativo al agua potable asequible y servicios de saneamiento e higiene."
   },
   {
     "id": "4.3_q287",
     "number": 287,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la trata de personas?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 37): El cambio climático global se debe antropogénicamente de manera principal a:",
     "options": [
       {
         "key": "A",
-        "text": "El comercio ilegal de seres humanos con fines de explotación"
+        "text": "La emisión desmedida de Gases de Efecto Invernadero (GEI como CO2 y metano) por la quema de combustibles fósiles y la deforestación"
       },
       {
         "key": "B",
-        "text": "El comercio legal de seres humanos"
+        "text": "Los cambios en la órbita de la luna alrededor de la tierra"
       },
       {
         "key": "C",
-        "text": "El comercio de bienes"
+        "text": "El enfriamiento del magma del núcleo terrestre"
       },
       {
         "key": "D",
-        "text": "El comercio de servicios"
-      },
-      {
-        "key": "E",
-        "text": "El comercio de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El comercio de alimentos"
+        "text": "Las pruebas astronómicas con telescopios espaciales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La trata de personas es comercio ilegal de humanos."
+    "explanation": "El incremento de la concentración de GEI retiene calor infrarrojo en la troposfera, elevando la temperatura global."
   },
   {
     "id": "4.3_q288",
     "number": 288,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la explotación laboral?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 38): El 'estrés hídrico' severo que enfrenta El Salvador se debe a la confluencia de:",
     "options": [
       {
         "key": "A",
-        "text": "El abuso en las condiciones de trabajo"
+        "text": "La alta contaminación del agua superficial (más del 80%), deforestación de zonas de recarga y el aumento de la demanda urbana e industrial"
       },
       {
         "key": "B",
-        "text": "El respeto a las condiciones de trabajo"
+        "text": "El congelamiento de los manantiales de montaña durante el verano"
       },
       {
         "key": "C",
-        "text": "La mejora de las condiciones de trabajo"
+        "text": "La falta de ríos caudalosos en el territorio nacional"
       },
       {
         "key": "D",
-        "text": "La protección de las condiciones de trabajo"
-      },
-      {
-        "key": "E",
-        "text": "La garantía de las condiciones de trabajo"
-      },
-      {
-        "key": "F",
-        "text": "La promoción de las condiciones de trabajo"
+        "text": "El desvío de todo el caudal del río Lempa hacia el mar Caribe"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La explotación laboral abusa de las condiciones de trabajo."
+    "explanation": "La degradación ecológica y la sobreexplotación acuífera ponen en riesgo la seguridad hídrica de las futuras generaciones."
   },
   {
     "id": "4.3_q289",
     "number": 289,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el trabajo infantil?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 39): En la gestión integral de riesgos de desastres, la diferencia entre 'mitigación' y 'adaptación' consiste en que:",
     "options": [
       {
         "key": "A",
-        "text": "La explotación de niños en actividades laborales"
+        "text": "La mitigación busca reducir o evitar las emisiones de GEI; la adaptación busca ajustar los sistemas humanos a los efectos del cambio climático"
       },
       {
         "key": "B",
-        "text": "La educación de niños"
+        "text": "La mitigación construye puentes y la adaptación destruye carreteras"
       },
       {
         "key": "C",
-        "text": "La recreación de niños"
+        "text": "La adaptación es una medida legal y la mitigación es un delito penal"
       },
       {
         "key": "D",
-        "text": "La protección de niños"
-      },
-      {
-        "key": "E",
-        "text": "La alimentación de niños"
-      },
-      {
-        "key": "F",
-        "text": "La salud de niños"
+        "text": "No existe diferencia: son sinónimos gramaticales idénticos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El trabajo infantil explota a niños."
+    "explanation": "Mitigar es atacar las causas (frenar emisiones); adaptar es reducir la vulnerabilidad frente a impactos inevitables."
   },
   {
     "id": "4.3_q290",
     "number": 290,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la desigualdad económica?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 40): La Ley de Protección Civil, Prevención y Mitigación de Desastres de El Salvador otorga al Sistema Nacional la facultad de:",
     "options": [
       {
         "key": "A",
-        "text": "La distribución inequitativa de la riqueza"
+        "text": "Emitir alertas de emergencia (verde, amarilla, naranja y roja) y coordinar comisiones técnico-científicas y operativas de auxilio"
       },
       {
         "key": "B",
-        "text": "La distribución equitativa de la riqueza"
+        "text": "Dictar sentencias penales de prisión perpetua a ciudadanos"
       },
       {
         "key": "C",
-        "text": "La concentración de la riqueza"
+        "text": "Modificar las tasas de interés bancarias del sistema financiero"
       },
       {
         "key": "D",
-        "text": "La dispersión de la riqueza"
-      },
-      {
-        "key": "E",
-        "text": "La redistribución de la riqueza"
-      },
-      {
-        "key": "F",
-        "text": "La generación de riqueza"
+        "text": "Disolver la policía nacional civil en caso de lluvia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La desigualdad económica distribuye inequitativamente la riqueza."
+    "explanation": "El Sistema Nacional de Protección Civil articula instituciones públicas, cuerpos de socorro y comunidades ante desastres."
   },
   {
     "id": "4.3_q291",
     "number": 291,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la pobreza multidimensional?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 41): La Ley del Medio Ambiente de El Salvador (aprobada en 1998) tiene como objeto primordial:",
     "options": [
       {
         "key": "A",
-        "text": "La carencia en múltiples dimensiones del bienestar"
+        "text": "Desarrollar las disposiciones de la Constitución sobre la protección, conservación y recuperación del medio ambiente y el uso sostenible de los recursos naturales"
       },
       {
         "key": "B",
-        "text": "La carencia en una sola dimensión"
+        "text": "Privatizar todas las fuentes de agua dulce superficial y subterránea del país"
       },
       {
         "key": "C",
-        "text": "La abundancia en múltiples dimensiones"
+        "text": "Autorizar la deforestación indiscriminada en las cuencas hidrográficas"
       },
       {
         "key": "D",
-        "text": "La abundancia en una sola dimensión"
-      },
-      {
-        "key": "E",
-        "text": "La distribución equitativa del bienestar"
-      },
-      {
-        "key": "F",
-        "text": "La distribución inequitativa del bienestar"
+        "text": "Permitir la libre importación de residuos radiactivos procedentes de ultramar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pobreza multidimensional carece en múltiples dimensiones."
+    "explanation": "Fija el régimen normativo ambiental del Estado salvadoreño para garantizar un entorno ecológicamente equilibrado."
   },
   {
     "id": "4.3_q292",
     "number": 292,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la exclusión social?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 42): El instrumento de gestión ambiental de carácter preventivo obligatorio para proyectos con impacto potencial significativo es:",
     "options": [
       {
         "key": "A",
-        "text": "La marginación de individuos o grupos de la participación social"
+        "text": "El Estudio de Impacto Ambiental (EsIA) y la obtención del Permiso Ambiental del MARN"
       },
       {
         "key": "B",
-        "text": "La integración de individuos o grupos"
+        "text": "El pago de un arbitrio municipal trimestral"
       },
       {
         "key": "C",
-        "text": "La inclusión de individuos o grupos"
+        "text": "La publicación de una fe de errata en un diario nacional"
       },
       {
         "key": "D",
-        "text": "La participación de individuos o grupos"
-      },
-      {
-        "key": "E",
-        "text": "La incorporación de individuos o grupos"
-      },
-      {
-        "key": "F",
-        "text": "La aceptación de individuos o grupos"
+        "text": "Una encuesta de opinión en redes sociales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La exclusión social margina a individuos o grupos."
+    "explanation": "El EsIA identifica, evalúa y propone medidas de mitigación para impactos ambientales antes de autorizar obras."
   },
   {
     "id": "4.3_q293",
     "number": 293,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la discriminación?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 43): El 'Corredor Seco Centroamericano', en el cual se ubica la mayor parte del oriente y norte de El Salvador, se caracteriza ecológicamente por:",
     "options": [
       {
         "key": "A",
-        "text": "El trato desigual e injusto hacia un grupo social"
+        "text": "Sequías recurrentes, altas temperaturas, degradación de suelos y extrema vulnerabilidad ante el fenómeno de El Niño"
       },
       {
         "key": "B",
-        "text": "El trato igualitario hacia un grupo social"
+        "text": "Lluvias torrenciales ininterrumpidas durante los doce meses del año"
       },
       {
         "key": "C",
-        "text": "El trato justo hacia un grupo social"
+        "text": "Clima polar con nevadas frecuentes en los valles intermontanos"
       },
       {
         "key": "D",
-        "text": "El trato objetivo hacia un grupo social"
-      },
-      {
-        "key": "E",
-        "text": "El trato científico hacia un grupo social"
-      },
-      {
-        "key": "F",
-        "text": "El trato artístico hacia un grupo social"
+        "text": "La presencia de glaciares permanentes en las cimas volcánicas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La discriminación es trato desigual."
+    "explanation": "Es una zona altamente vulnerable al cambio climático con severo impacto en la seguridad alimentaria campesina."
   },
   {
     "id": "4.3_q294",
     "number": 294,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el racismo?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 44): En la legislación salvadoreña, la 'Vulnerabilidad Ambiental' se entiende técnicamente como:",
     "options": [
       {
         "key": "A",
-        "text": "La discriminación basada en la raza o etnia"
+        "text": "La susceptibilidad de las poblaciones, infraestructuras y ecosistemas a sufrir daños frente a la manifestación de una amenaza natural o antrópica"
       },
       {
         "key": "B",
-        "text": "La discriminación basada en el género"
+        "text": "La cantidad de lluvia caída medida en milímetros cúbicos"
       },
       {
         "key": "C",
-        "text": "La discriminación basada en la edad"
+        "text": "La resistencia indestructible de las construcciones de adobe y bahareque"
       },
       {
         "key": "D",
-        "text": "La discriminación basada en la religión"
-      },
-      {
-        "key": "E",
-        "text": "La discriminación basada en la clase social"
-      },
-      {
-        "key": "F",
-        "text": "La discriminación basada en la nacionalidad"
+        "text": "El número de hectáreas sembradas con árboles frutales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El racismo discrimina por raza o etnia."
+    "explanation": "El riesgo se define como el producto de la interacción entre una amenaza física y el grado de vulnerabilidad social."
   },
   {
     "id": "4.3_q295",
     "number": 295,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el sexismo?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 45): El 29 de marzo de 2017, la Asamblea Legislativa de El Salvador marcó un precedente ambiental mundial histórico al aprobar:",
     "options": [
       {
         "key": "A",
-        "text": "La discriminación basada en el sexo o género"
+        "text": "La Ley de Prohibición de la Minería Metálica en todas sus formas (suelo y subsuelo)"
       },
       {
         "key": "B",
-        "text": "La discriminación basada en la raza"
+        "text": "La tala rasa de los bosques de la cordillera del Bálsamo"
       },
       {
         "key": "C",
-        "text": "La discriminación basada en la edad"
+        "text": "El vertido libre de relaves mineros en el río San Sebastián"
       },
       {
         "key": "D",
-        "text": "La discriminación basada en la religión"
-      },
-      {
-        "key": "E",
-        "text": "La discriminación basada en la clase social"
-      },
-      {
-        "key": "F",
-        "text": "La discriminación basada en la nacionalidad"
+        "text": "La venta de las lagunas volcánicas a consorcios privados extranjeros"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El sexismo discrimina por sexo o género."
+    "explanation": "El Salvador se convirtió en el primer país del mundo en prohibir totalmente la minería metálica para proteger sus fuentes hídricas."
   },
   {
     "id": "4.3_q296",
     "number": 296,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la xenofobia?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 46): El Objetivo de Desarrollo Sostenible número 6 (ODS 6) de la Agenda 2030 de la ONU establece la meta de:",
     "options": [
       {
         "key": "A",
-        "text": "El rechazo hacia los extranjeros"
+        "text": "Garantizar la disponibilidad y la gestión sostenible del agua y el saneamiento para todos"
       },
       {
         "key": "B",
-        "text": "El rechazo hacia los nacionales"
+        "text": "Construir submarinos de propulsión nuclear para todos los países miembros"
       },
       {
         "key": "C",
-        "text": "El rechazo hacia los ancianos"
+        "text": "Prohibir el uso de energía hidroeléctrica en los ríos internacionales"
       },
       {
         "key": "D",
-        "text": "El rechazo hacia los niños"
-      },
-      {
-        "key": "E",
-        "text": "El rechazo hacia los discapacitados"
-      },
-      {
-        "key": "F",
-        "text": "El rechazo hacia los pobres"
+        "text": "Duplicar el consumo de bebidas gaseosas en las escuelas públicas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La xenofobia rechaza a extranjeros."
+    "explanation": "El ODS 6 busca el acceso universal y equitativo al agua potable asequible y servicios de saneamiento e higiene."
   },
   {
     "id": "4.3_q297",
     "number": 297,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la homofobia?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 47): El cambio climático global se debe antropogénicamente de manera principal a:",
     "options": [
       {
         "key": "A",
-        "text": "El rechazo hacia las personas homosexuales"
+        "text": "La emisión desmedida de Gases de Efecto Invernadero (GEI como CO2 y metano) por la quema de combustibles fósiles y la deforestación"
       },
       {
         "key": "B",
-        "text": "El rechazo hacia las personas heterosexuales"
+        "text": "Los cambios en la órbita de la luna alrededor de la tierra"
       },
       {
         "key": "C",
-        "text": "El rechazo hacia las personas bisexuales"
+        "text": "El enfriamiento del magma del núcleo terrestre"
       },
       {
         "key": "D",
-        "text": "El rechazo hacia las personas transgénero"
-      },
-      {
-        "key": "E",
-        "text": "El rechazo hacia las personas intersexuales"
-      },
-      {
-        "key": "F",
-        "text": "El rechazo hacia las personas asexuales"
+        "text": "Las pruebas astronómicas con telescopios espaciales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La homofobia rechaza a homosexuales."
+    "explanation": "El incremento de la concentración de GEI retiene calor infrarrojo en la troposfera, elevando la temperatura global."
   },
   {
     "id": "4.3_q298",
     "number": 298,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la violencia de género?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 48): El 'estrés hídrico' severo que enfrenta El Salvador se debe a la confluencia de:",
     "options": [
       {
         "key": "A",
-        "text": "La violencia ejercida contra una persona por su género"
+        "text": "La alta contaminación del agua superficial (más del 80%), deforestación de zonas de recarga y el aumento de la demanda urbana e industrial"
       },
       {
         "key": "B",
-        "text": "La violencia ejercida contra una persona por su edad"
+        "text": "El congelamiento de los manantiales de montaña durante el verano"
       },
       {
         "key": "C",
-        "text": "La violencia ejercida contra una persona por su raza"
+        "text": "La falta de ríos caudalosos en el territorio nacional"
       },
       {
         "key": "D",
-        "text": "La violencia ejercida contra una persona por su religión"
-      },
-      {
-        "key": "E",
-        "text": "La violencia ejercida contra una persona por su clase social"
-      },
-      {
-        "key": "F",
-        "text": "La violencia ejercida contra una persona por su nacionalidad"
+        "text": "El desvío de todo el caudal del río Lempa hacia el mar Caribe"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La violencia de género es por género."
+    "explanation": "La degradación ecológica y la sobreexplotación acuífera ponen en riesgo la seguridad hídrica de las futuras generaciones."
   },
   {
     "id": "4.3_q299",
     "number": 299,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es el feminicidio?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 49): En la gestión integral de riesgos de desastres, la diferencia entre 'mitigación' y 'adaptación' consiste en que:",
     "options": [
       {
         "key": "A",
-        "text": "El asesinato de mujeres por razones de género"
+        "text": "La mitigación busca reducir o evitar las emisiones de GEI; la adaptación busca ajustar los sistemas humanos a los efectos del cambio climático"
       },
       {
         "key": "B",
-        "text": "El asesinato de hombres por razones de género"
+        "text": "La mitigación construye puentes y la adaptación destruye carreteras"
       },
       {
         "key": "C",
-        "text": "El asesinato de niños por razones de género"
+        "text": "La adaptación es una medida legal y la mitigación es un delito penal"
       },
       {
         "key": "D",
-        "text": "El asesinato de ancianos por razones de género"
-      },
-      {
-        "key": "E",
-        "text": "El asesinato de extranjeros por razones de género"
-      },
-      {
-        "key": "F",
-        "text": "El asesinato de pobres por razones de género"
+        "text": "No existe diferencia: son sinónimos gramaticales idénticos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El feminicidio es asesinato de mujeres por género."
+    "explanation": "Mitigar es atacar las causas (frenar emisiones); adaptar es reducir la vulnerabilidad frente a impactos inevitables."
   },
   {
     "id": "4.3_q300",
     "number": 300,
     "subtopicId": "4.3",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Problemas Sociales Contemporáneos (201–300)",
-    "statement": "¿Qué es la trata de personas?",
+    "sectionTitle": "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)",
+    "statement": "En relación con el marco ambiental, vulnerabilidad y cambio climático (reactivo 50): La Ley de Protección Civil, Prevención y Mitigación de Desastres de El Salvador otorga al Sistema Nacional la facultad de:",
     "options": [
       {
         "key": "A",
-        "text": "El comercio ilegal de seres humanos con fines de explotación"
+        "text": "Emitir alertas de emergencia (verde, amarilla, naranja y roja) y coordinar comisiones técnico-científicas y operativas de auxilio"
       },
       {
         "key": "B",
-        "text": "El comercio legal de seres humanos"
+        "text": "Dictar sentencias penales de prisión perpetua a ciudadanos"
       },
       {
         "key": "C",
-        "text": "El comercio de bienes"
+        "text": "Modificar las tasas de interés bancarias del sistema financiero"
       },
       {
         "key": "D",
-        "text": "El comercio de servicios"
-      },
-      {
-        "key": "E",
-        "text": "El comercio de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El comercio de alimentos"
+        "text": "Disolver la policía nacional civil en caso de lluvia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La trata de personas es comercio ilegal de humanos."
+    "explanation": "El Sistema Nacional de Protección Civil articula instituciones públicas, cuerpos de socorro y comunidades ante desastres."
   }
 ]

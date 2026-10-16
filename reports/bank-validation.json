@@ -47,116 +47,6 @@
       "msg": "hay opciones con el mismo texto"
     },
     {
-      "kind": "sin-explicacion",
-      "where": "questions/1.1.json#223 (1.1_q224)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#225 (1.1_q226)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#227 (1.1_q228)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#231 (1.1_q232)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#233 (1.1_q234)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#234 (1.1_q235)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#235 (1.1_q236)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#239 (1.1_q240)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.1.json#245 (1.1_q246)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.1.json#256 (1.1_q257)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#276 (1.1_q277)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#277 (1.1_q278)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#278 (1.1_q279)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#279 (1.1_q280)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#280 (1.1_q281)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#281 (1.1_q282)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#282 (1.1_q283)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#283 (1.1_q284)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#284 (1.1_q285)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#285 (1.1_q286)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#286 (1.1_q287)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.1.json#287 (1.1_q288)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
       "kind": "opciones-repetidas",
       "where": "questions/1.2.json#1 (1.2_q2)",
       "msg": "hay opciones con el mismo texto"
@@ -379,166 +269,6 @@
     {
       "kind": "opciones-repetidas",
       "where": "questions/1.2.json#197 (1.2_q198)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.2.json#203 (1.2_q204)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.2.json#205 (1.2_q206)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#206 (1.2_q207)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.2.json#206 (1.2_q207)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.2.json#207 (1.2_q208)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#208 (1.2_q209)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#209 (1.2_q210)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.2.json#209 (1.2_q210)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#211 (1.2_q212)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#212 (1.2_q213)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#213 (1.2_q214)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#216 (1.2_q217)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#221 (1.2_q222)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#222 (1.2_q223)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#230 (1.2_q231)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#231 (1.2_q232)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#232 (1.2_q233)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#242 (1.2_q243)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#246 (1.2_q247)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#247 (1.2_q248)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#248 (1.2_q249)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#249 (1.2_q250)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#250 (1.2_q251)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#251 (1.2_q252)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#252 (1.2_q253)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#253 (1.2_q254)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#254 (1.2_q255)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#255 (1.2_q256)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#256 (1.2_q257)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#257 (1.2_q258)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#258 (1.2_q259)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.2.json#259 (1.2_q260)",
       "msg": "hay opciones con el mismo texto"
     },
     {
@@ -1083,281 +813,6 @@
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#200 (1.3_q201)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#201 (1.3_q202)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#202 (1.3_q203)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#203 (1.3_q204)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#204 (1.3_q205)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#205 (1.3_q206)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#206 (1.3_q207)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#207 (1.3_q208)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#208 (1.3_q209)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#210 (1.3_q211)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#211 (1.3_q212)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#212 (1.3_q213)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#213 (1.3_q214)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#214 (1.3_q215)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#215 (1.3_q216)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#216 (1.3_q217)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#218 (1.3_q219)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#219 (1.3_q220)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#220 (1.3_q221)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#221 (1.3_q222)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#222 (1.3_q223)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#223 (1.3_q224)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#224 (1.3_q225)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#225 (1.3_q226)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#226 (1.3_q227)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#227 (1.3_q228)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#228 (1.3_q229)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#229 (1.3_q230)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#230 (1.3_q231)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#231 (1.3_q232)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#232 (1.3_q233)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#233 (1.3_q234)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#234 (1.3_q235)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#255 (1.3_q256)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#256 (1.3_q257)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#257 (1.3_q258)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#258 (1.3_q259)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#265 (1.3_q266)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#266 (1.3_q267)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#267 (1.3_q268)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#268 (1.3_q269)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#269 (1.3_q270)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#270 (1.3_q271)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#271 (1.3_q272)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#272 (1.3_q273)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#279 (1.3_q280)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#281 (1.3_q282)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#282 (1.3_q283)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#283 (1.3_q284)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#284 (1.3_q285)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#295 (1.3_q296)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#296 (1.3_q297)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#297 (1.3_q298)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#298 (1.3_q299)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.3.json#299 (1.3_q300)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
       "where": "questions/1.4.json#5 (1.4_q6)",
       "msg": "hay opciones con el mismo texto"
     },
@@ -1488,91 +943,6 @@
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#201 (1.4_q202)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#203 (1.4_q204)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#205 (1.4_q206)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#209 (1.4_q210)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#210 (1.4_q211)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#216 (1.4_q217)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#217 (1.4_q218)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#222 (1.4_q223)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#230 (1.4_q231)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "posible-clave-incorrecta",
-      "where": "questions/1.4.json#236 (1.4_q237)",
-      "msg": "la explicación concluye \"1\", que coincide con la opción B y no con la clave A"
-    },
-    {
-      "kind": "posible-clave-incorrecta",
-      "where": "questions/1.4.json#239 (1.4_q240)",
-      "msg": "la explicación concluye \"1\", que coincide con la opción B y no con la clave A"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.4.json#249 (1.4_q250)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#251 (1.4_q252)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#253 (1.4_q254)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#266 (1.4_q267)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.4.json#267 (1.4_q268)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "posible-clave-incorrecta",
-      "where": "questions/1.4.json#296 (1.4_q297)",
-      "msg": "la explicación concluye \"1\", que coincide con la opción B y no con la clave A"
-    },
-    {
-      "kind": "opciones-repetidas",
       "where": "questions/1.5.json#5 (1.5_q6)",
       "msg": "hay opciones con el mismo texto"
     },
@@ -1632,24 +1002,29 @@
       "msg": "hay opciones con el mismo texto"
     },
     {
-      "kind": "opciones-repetidas",
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.5.json#206 (1.5_q207)",
+      "msg": "la explicación concluye \"3\", que coincide con la opción C y no con la clave A"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.5.json#216 (1.5_q217)",
+      "msg": "la explicación concluye \"3\", que coincide con la opción C y no con la clave A"
+    },
+    {
+      "kind": "posible-clave-incorrecta",
       "where": "questions/1.5.json#226 (1.5_q227)",
-      "msg": "hay opciones con el mismo texto"
+      "msg": "la explicación concluye \"3\", que coincide con la opción C y no con la clave A"
     },
     {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.5.json#244 (1.5_q245)",
-      "msg": "hay opciones con el mismo texto"
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.5.json#236 (1.5_q237)",
+      "msg": "la explicación concluye \"3\", que coincide con la opción C y no con la clave A"
     },
     {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.5.json#249 (1.5_q250)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.5.json#255 (1.5_q256)",
-      "msg": "hay opciones con el mismo texto"
+      "kind": "posible-clave-incorrecta",
+      "where": "questions/1.5.json#246 (1.5_q247)",
+      "msg": "la explicación concluye \"3\", que coincide con la opción C y no con la clave A"
     },
     {
       "kind": "opciones-repetidas",
@@ -2022,76 +1397,6 @@
       "msg": "la explicación concluye \"10\", que coincide con la opción D y no con la clave A"
     },
     {
-      "kind": "sin-explicacion",
-      "where": "questions/1.6.json#219 (1.6_q220)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.6.json#221 (1.6_q222)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.6.json#228 (1.6_q229)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.6.json#230 (1.6_q231)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.6.json#230 (1.6_q231)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.6.json#234 (1.6_q235)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.6.json#234 (1.6_q235)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.6.json#236 (1.6_q237)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.6.json#236 (1.6_q237)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.6.json#250 (1.6_q251)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.6.json#252 (1.6_q253)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.6.json#258 (1.6_q259)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.6.json#281 (1.6_q282)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.6.json#284 (1.6_q285)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
       "kind": "opciones-repetidas",
       "where": "questions/1.7.json#6 (1.7_q7)",
       "msg": "hay opciones con el mismo texto"
@@ -2310,101 +1615,6 @@
       "kind": "sin-explicacion",
       "where": "questions/1.7.json#199 (1.7_q200)",
       "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.7.json#200 (1.7_q201)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.7.json#201 (1.7_q202)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.7.json#208 (1.7_q209)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.7.json#209 (1.7_q210)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.7.json#215 (1.7_q216)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.7.json#219 (1.7_q220)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.7.json#235 (1.7_q236)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "sin-explicacion",
-      "where": "questions/1.7.json#258 (1.7_q259)",
-      "msg": "explicación ausente o muy corta"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.7.json#264 (1.7_q265)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.7.json#272 (1.7_q273)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "posible-clave-incorrecta",
-      "where": "questions/1.7.json#273 (1.7_q274)",
-      "msg": "la explicación concluye \"0\", que coincide con la opción F y no con la clave A"
-    },
-    {
-      "kind": "posible-clave-incorrecta",
-      "where": "questions/1.7.json#277 (1.7_q278)",
-      "msg": "la explicación concluye \"0\", que coincide con la opción F y no con la clave A"
-    },
-    {
-      "kind": "posible-clave-incorrecta",
-      "where": "questions/1.7.json#279 (1.7_q280)",
-      "msg": "la explicación concluye \"0\", que coincide con la opción F y no con la clave A"
-    },
-    {
-      "kind": "posible-clave-incorrecta",
-      "where": "questions/1.7.json#280 (1.7_q281)",
-      "msg": "la explicación concluye \"0\", que coincide con la opción F y no con la clave A"
-    },
-    {
-      "kind": "posible-clave-incorrecta",
-      "where": "questions/1.7.json#282 (1.7_q283)",
-      "msg": "la explicación concluye \"0\", que coincide con la opción F y no con la clave A"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.7.json#284 (1.7_q285)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.7.json#287 (1.7_q288)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.7.json#288 (1.7_q289)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/1.7.json#295 (1.7_q296)",
-      "msg": "hay opciones con el mismo texto"
     },
     {
       "kind": "opciones-repetidas",
@@ -2823,57 +2033,7 @@
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#200 (2.1_q201)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
       "where": "questions/2.1.json#201 (2.1_q202)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#202 (2.1_q203)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#203 (2.1_q204)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#204 (2.1_q205)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#205 (2.1_q206)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#206 (2.1_q207)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#207 (2.1_q208)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#208 (2.1_q209)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#209 (2.1_q210)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#210 (2.1_q211)",
       "msg": "hay opciones con el mismo texto"
     },
     {
@@ -2883,97 +2043,7 @@
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#212 (2.1_q213)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#213 (2.1_q214)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#214 (2.1_q215)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#215 (2.1_q216)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#216 (2.1_q217)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#217 (2.1_q218)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#218 (2.1_q219)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#219 (2.1_q220)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#220 (2.1_q221)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
       "where": "questions/2.1.json#221 (2.1_q222)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#222 (2.1_q223)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#223 (2.1_q224)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#224 (2.1_q225)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#225 (2.1_q226)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#226 (2.1_q227)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#227 (2.1_q228)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#228 (2.1_q229)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#229 (2.1_q230)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#230 (2.1_q231)",
       "msg": "hay opciones con el mismo texto"
     },
     {
@@ -2983,92 +2053,132 @@
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#232 (2.1_q233)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#233 (2.1_q234)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#234 (2.1_q235)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#235 (2.1_q236)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#236 (2.1_q237)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#237 (2.1_q238)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#238 (2.1_q239)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#239 (2.1_q240)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#240 (2.1_q241)",
-      "msg": "hay opciones con el mismo texto"
-    },
-    {
-      "kind": "opciones-repetidas",
       "where": "questions/2.1.json#241 (2.1_q242)",
       "msg": "hay opciones con el mismo texto"
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#242 (2.1_q243)",
+      "where": "questions/2.1.json#250 (2.1_q251)",
       "msg": "hay opciones con el mismo texto"
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#243 (2.1_q244)",
+      "where": "questions/2.1.json#251 (2.1_q252)",
       "msg": "hay opciones con el mismo texto"
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#244 (2.1_q245)",
+      "where": "questions/2.1.json#252 (2.1_q253)",
       "msg": "hay opciones con el mismo texto"
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#245 (2.1_q246)",
+      "where": "questions/2.1.json#253 (2.1_q254)",
       "msg": "hay opciones con el mismo texto"
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#246 (2.1_q247)",
+      "where": "questions/2.1.json#258 (2.1_q259)",
       "msg": "hay opciones con el mismo texto"
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#247 (2.1_q248)",
+      "where": "questions/2.1.json#260 (2.1_q261)",
       "msg": "hay opciones con el mismo texto"
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#248 (2.1_q249)",
+      "where": "questions/2.1.json#261 (2.1_q262)",
       "msg": "hay opciones con el mismo texto"
     },
     {
       "kind": "opciones-repetidas",
-      "where": "questions/2.1.json#249 (2.1_q250)",
+      "where": "questions/2.1.json#262 (2.1_q263)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#263 (2.1_q264)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#268 (2.1_q269)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#270 (2.1_q271)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#271 (2.1_q272)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#272 (2.1_q273)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#273 (2.1_q274)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#278 (2.1_q279)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#280 (2.1_q281)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#281 (2.1_q282)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#282 (2.1_q283)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#283 (2.1_q284)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#288 (2.1_q289)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#290 (2.1_q291)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#291 (2.1_q292)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#292 (2.1_q293)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#293 (2.1_q294)",
+      "msg": "hay opciones con el mismo texto"
+    },
+    {
+      "kind": "opciones-repetidas",
+      "where": "questions/2.1.json#298 (2.1_q299)",
       "msg": "hay opciones con el mismo texto"
     },
     {
@@ -3744,8 +2854,9 @@
                   "SECCIÓN II: PROPIEDADES DE LOS NÚMEROS REALES (61–110)": 50,
                   "SECCIÓN III: EXPANSIÓN DECIMAL (111–150)": 40,
                   "SECCIÓN IV: ORDEN Y COMPARACIÓN (151–190)": 40,
-                  "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)": 50,
-                  "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)": 60
+                  "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)": 10,
+                  "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)": 50,
+                  "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)": 50
                 }
               },
               "1.2": {
@@ -3758,10 +2869,9 @@
                   "SECCIÓN IV: DISTANCIA ENTRE PUNTOS (91–120)": 30,
                   "SECCIÓN V: PUNTO MEDIO (121–150)": 30,
                   "SECCIÓN VI: DESPLAZAMIENTOS EN LA RECTA REAL (151–180)": 30,
-                  "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)": 30,
-                  "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)": 30,
-                  "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)": 30,
-                  "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)": 30
+                  "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)": 20,
+                  "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)": 50,
+                  "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)": 50
                 }
               },
               "1.3": {
@@ -3771,8 +2881,9 @@
                   "SECCIÓN I: CONCEPTOS BÁSICOS DE CONJUNTOS (1–50)": 50,
                   "SECCIÓN II: PERTENENCIA Y SUBCONJUNTOS (51–100)": 50,
                   "SECCIÓN III: OPERACIONES CON CONJUNTOS (101–160)": 60,
-                  "SECCIÓN IV: INTERVALOS (161–220)": 60,
-                  "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)": 80
+                  "SECCIÓN IV: INTERVALOS (161–220)": 40,
+                  "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)": 50,
+                  "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)": 50
                 }
               },
               "1.4": {
@@ -3782,9 +2893,9 @@
                   "SECCIÓN I: DEFINICIÓN Y CONCEPTOS BÁSICOS (1–40)": 40,
                   "SECCIÓN II: PROPIEDADES DEL VALOR ABSOLUTO (41–90)": 50,
                   "SECCIÓN III: ECUACIONES CON VALOR ABSOLUTO (91–150)": 60,
-                  "SECCIÓN IV: DESIGUALDADES CON VALOR ABSOLUTO (151–210)": 60,
-                  "SECCIÓN V: DISTANCIA Y APLICACIONES (211–260)": 50,
-                  "SECCIÓN VI: PROBLEMAS AVANZADOS (261–300)": 40
+                  "SECCIÓN IV: DESIGUALDADES CON VALOR ABSOLUTO (151–210)": 50,
+                  "SECCIÓN V: DESIGUALDADES LINEALES Y NO LINEALES (201–250)": 50,
+                  "SECCIÓN VI: ECUACIONES CUADRÁTICAS Y DISCRIMINANTE (251–300)": 50
                 }
               },
               "1.5": {
@@ -3795,8 +2906,8 @@
                   "SECCIÓN II: PRODUCTOS NOTABLES (41–90)": 50,
                   "SECCIÓN III: FACTORIZACIÓN (91–150)": 60,
                   "SECCIÓN IV: ECUACIONES LINEALES (151–200)": 50,
-                  "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)": 50,
-                  "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)": 50
+                  "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)": 50,
+                  "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)": 50
                 }
               },
               "1.6": {
@@ -3806,9 +2917,9 @@
                   "SECCIÓN I: CONCEPTOS BÁSICOS DE GEOMETRÍA (1–40)": 40,
                   "SECCIÓN II: TEOREMA DE PITÁGORAS (41–90)": 50,
                   "SECCIÓN III: RAZONES TRIGONOMÉTRICAS (91–160)": 70,
-                  "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)": 50,
-                  "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)": 40,
-                  "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)": 50
+                  "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)": 40,
+                  "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)": 50,
+                  "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)": 50
                 }
               },
               "1.7": {
@@ -3818,9 +2929,9 @@
                   "SECCIÓN I: CONCEPTOS BÁSICOS DE FUNCIONES (1–40)": 40,
                   "SECCIÓN II: FUNCIÓN LINEAL (41–100)": 60,
                   "SECCIÓN III: FUNCIÓN CUADRÁTICA (101–170)": 70,
-                  "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)": 50,
-                  "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)": 50,
-                  "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)": 30
+                  "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)": 30,
+                  "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)": 50,
+                  "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)": 50
                 }
               }
             }
@@ -3837,8 +2948,8 @@
                   "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)": 40,
                   "SECCIÓN IV: TILDE DIACRÍTICA (121–170)": 50,
                   "SECCIÓN V: TILDE DISOLVENTE (171–200)": 30,
-                  "SECCIÓN VI: USO DE GRAFÍAS (201–250)": 50,
-                  "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)": 50
+                  "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)": 50,
+                  "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)": 50
                 }
               },
               "2.2": {
@@ -3849,8 +2960,8 @@
                   "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)": 50,
                   "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)": 60,
                   "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)": 50,
-                  "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)": 50,
-                  "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)": 50
+                  "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)": 50,
+                  "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)": 50
                 }
               },
               "2.3": {
@@ -3861,8 +2972,8 @@
                   "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)": 50,
                   "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)": 60,
                   "SECCIÓN IV: SUJETO Y PREDICADO (151–200)": 50,
-                  "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)": 50,
-                  "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)": 50
+                  "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)": 50,
+                  "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)": 50
                 }
               },
               "2.4": {
@@ -3872,9 +2983,9 @@
                   "SECCIÓN I: FUNDAMENTOS DE INVESTIGACIÓN CIENTÍFICA (1–40)": 40,
                   "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)": 60,
                   "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)": 60,
-                  "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)": 60,
-                  "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)": 50,
-                  "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)": 30
+                  "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)": 40,
+                  "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)": 50,
+                  "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)": 50
                 }
               },
               "2.5": {
@@ -3885,8 +2996,8 @@
                   "SECCIÓN II: ACTOS DE HABLA (41–100)": 60,
                   "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)": 50,
                   "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)": 50,
-                  "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)": 50,
-                  "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)": 50
+                  "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)": 50,
+                  "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)": 50
                 }
               }
             }
@@ -3901,8 +3012,9 @@
                   "SECCIÓN I: LITERATURA CLÁSICA GRIEGA (1–60)": 60,
                   "SECCIÓN II: EDAD MEDIA (61–120)": 60,
                   "SECCIÓN III: RENACIMIENTO (121–180)": 60,
-                  "SECCIÓN IV: BARROCO (181–240)": 60,
-                  "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)": 60
+                  "SECCIÓN IV: BARROCO (181–240)": 20,
+                  "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)": 50,
+                  "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)": 50
                 }
               },
               "3.2": {
@@ -3913,9 +3025,9 @@
                   "SECCIÓN II: ROMANTICISMO – AUTORES Y OBRAS (41–90)": 50,
                   "SECCIÓN III: REALISMO – CONCEPTOS BÁSICOS (91–140)": 50,
                   "SECCIÓN IV: REALISMO – AUTORES Y OBRAS (141–190)": 50,
-                  "SECCIÓN V: NATURALISMO (191–230)": 40,
-                  "SECCIÓN VI: COMPARACIÓN ROMANTICISMO VS REALISMO (231–270)": 40,
-                  "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)": 30
+                  "SECCIÓN V: NATURALISMO (191–230)": 10,
+                  "SECCIÓN V: MANIERISMO Y TEATRO BARROCO ESPAÑOL (201–250)": 50,
+                  "SECCIÓN VI: CULTERANISMO, CONCEPTISMO Y TEATRO NEOCLÁSICO (251–300)": 50
                 }
               },
               "3.3": {
@@ -3926,9 +3038,9 @@
                   "SECCIÓN II: VANGUARDIAS – AUTORES Y OBRAS (41–90)": 50,
                   "SECCIÓN III: EXISTENCIALISMO Y ABSURDO (91–140)": 50,
                   "SECCIÓN IV: NOVELA CONTEMPORÁNEA (141–190)": 50,
-                  "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)": 40,
-                  "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)": 40,
-                  "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)": 30
+                  "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)": 10,
+                  "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)": 50,
+                  "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)": 50
                 }
               },
               "3.4": {
@@ -3939,9 +3051,9 @@
                   "SECCIÓN II: LITERATURA COLONIAL (41–80)": 40,
                   "SECCIÓN III: ROMANTICISMO AMERICANO (81–120)": 40,
                   "SECCIÓN IV: MODERNISMO – RUBÉN DARÍO (121–170)": 50,
-                  "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)": 40,
-                  "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)": 50,
-                  "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)": 40
+                  "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)": 30,
+                  "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)": 50,
+                  "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)": 50
                 }
               },
               "3.5": {
@@ -3952,9 +3064,9 @@
                   "SECCIÓN II: LITERATURA COLONIAL SALVADOREÑA (41–80)": 40,
                   "SECCIÓN III: ROMANTICISMO Y COSTUMBRISMO SALVADOREÑO (81–120)": 40,
                   "SECCIÓN IV: MODERNISMO SALVADOREÑO (121–160)": 40,
-                  "SECCIÓN V: GENERACIÓN COMPROMETIDA (161–220)": 60,
-                  "SECCIÓN VI: LITERATURA CONTEMPORÁNEA SALVADOREÑA (221–260)": 40,
-                  "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (261–300)": 40
+                  "SECCIÓN V: GENERACIÓN COMPROMETIDA (161–220)": 40,
+                  "SECCIÓN V: REGIONALISMO E INDIGENISMO HISPANOAMERICANO (201–250)": 50,
+                  "SECCIÓN VI: EL BOOM LATINOAMERICANO Y VANGUARDISMO (251–300)": 50
                 }
               }
             }
@@ -3970,7 +3082,8 @@
                   "Sección II: Independencia y Federación (41–80)": 40,
                   "Sección III: Regímenes Militares y Conflicto (81–140)": 60,
                   "Sección IV: Acuerdos de Paz y Posguerra (141–200)": 60,
-                  "Sección V: El Salvador Contemporáneo (201–300)": 100
+                  "SECCIÓN V: REPÚBLICA CAFETALERA, MODELO ISI Y DICTADURAS MILITARES (201–250)": 50,
+                  "SECCIÓN VI: CONFLICTO ARMADO Y ACUERDOS DE PAZ DE CHAPULTEPEC (251–300)": 50
                 }
               },
               "4.2": {
@@ -3981,8 +3094,8 @@
                   "Módulo 2: Reactivos 51 - 100": 50,
                   "Módulo 3: Reactivos 101 - 150": 50,
                   "Módulo 4: Reactivos 151 - 200": 50,
-                  "Módulo 5: Reactivos 201 - 250": 50,
-                  "Módulo 6 Final: Reactivos 251 - 300": 50
+                  "SECCIÓN V: GUERRA FRÍA, CAÍDA DEL MURO Y REVOLUCIONES INDUSTRIALES (201–250)": 50,
+                  "SECCIÓN VI: MACROECONOMÍA SALVADOREÑA Y DOLARIZACIÓN (251–300)": 50
                 }
               },
               "4.3": {
@@ -3994,7 +3107,8 @@
                   "Sección III: Globalización (81–120)": 40,
                   "Sección IV: Demografía (121–160)": 40,
                   "Sección V: Medio Ambiente y Recursos (161–200)": 40,
-                  "Sección VI: Problemas Sociales Contemporáneos (201–300)": 100
+                  "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)": 50,
+                  "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)": 50
                 }
               },
               "4.4": {
@@ -4004,9 +3118,9 @@
                   "Sección I: Derechos Humanos – Conceptos Básicos (1–50)": 50,
                   "Sección II: Evolución Histórica de los Derechos Humanos (51–100)": 50,
                   "Sección III: Tratados Internacionales de Derechos Humanos (101–150)": 50,
-                  "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)": 60,
-                  "Sección V: Migración Contemporánea (211–260)": 50,
-                  "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)": 40
+                  "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)": 50,
+                  "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)": 50,
+                  "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)": 50
                 }
               }
             }
@@ -4021,8 +3135,9 @@
                   "SECCIÓN I: PROPIEDADES DE LA MATERIA VIVA (1–50)": 50,
                   "SECCIÓN II: CICLO CELULAR – MITOSIS Y MEIOSIS (51–120)": 70,
                   "SECCIÓN III: GENÉTICA MENDELIANA (121–180)": 60,
-                  "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)": 60,
-                  "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)": 60
+                  "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)": 20,
+                  "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)": 50,
+                  "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)": 50
                 }
               },
               "5.2": {
@@ -4032,8 +3147,8 @@
                   "SECCIÓN I: PROPIEDADES DE LA MATERIA (1–50)": 50,
                   "SECCIÓN II: ESTRUCTURA ATÓMICA Y ENLACES (51–120)": 70,
                   "SECCIÓN III: TIPOS DE REACCIONES QUÍMICAS (121–200)": 80,
-                  "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)": 50,
-                  "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)": 50
+                  "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)": 50,
+                  "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)": 50
                 }
               },
               "5.3": {
@@ -4043,8 +3158,9 @@
                   "SECCIÓN I: CONCEPTOS BÁSICOS Y MAGNITUDES (1–50)": 50,
                   "SECCIÓN II: VECTORES – SUMA Y DESCOMPOSICIÓN (51–120)": 70,
                   "SECCIÓN III: CINEMÁTICA – MRU (121–180)": 60,
-                  "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)": 60,
-                  "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)": 60
+                  "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)": 20,
+                  "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)": 50,
+                  "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)": 50
                 }
               },
               "5.4": {
@@ -4055,8 +3171,8 @@
                   "SECCIÓN II: NOMENCLATURA BINOMIAL (51–100)": 50,
                   "SECCIÓN III: DOMINIOS Y REINOS (101–150)": 50,
                   "SECCIÓN IV: CINCO REINOS – DETALLE (151–200)": 50,
-                  "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)": 50,
-                  "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)": 50
+                  "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)": 50,
+                  "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)": 50
                 }
               }
             }

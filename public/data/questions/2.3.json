@@ -7204,2320 +7204,1892 @@
     "number": 201,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento directo es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "En la oración 'Debes estudiar con dedicación para el examen de admisión UES', la perífrasis verbal 'debes estudiar' es de tipo:",
     "options": [
       {
         "key": "A",
-        "text": "El que recibe directamente la acción del verbo"
+        "text": "Modal de obligación"
       },
       {
         "key": "B",
-        "text": "El que recibe indirectamente la acción"
+        "text": "Modal de probabilidad"
       },
       {
         "key": "C",
-        "text": "El que indica circunstancias"
+        "text": "Aspectual ingresiva"
       },
       {
         "key": "D",
-        "text": "El que aparece con verbos copulativos"
-      },
-      {
-        "key": "E",
-        "text": "El que indica el agente"
-      },
-      {
-        "key": "F",
-        "text": "El que modifica al sustantivo"
+        "text": "Aspectual terminativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El CD recibe directamente la acción del verbo."
+    "explanation": "'Deber + infinitivo' expresa obligación o mandato ineludible."
   },
   {
     "id": "2.3_q202",
     "number": 202,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento directo puede sustituirse por:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "La perífrasis verbal 'debe de ser' en 'Ese auto debe de costar una fortuna' expresa:",
     "options": [
       {
         "key": "A",
-        "text": "Lo, la, los, las"
+        "text": "Probabilidad o conjetura"
       },
       {
         "key": "B",
-        "text": "Le, les"
+        "text": "Obligación estricta"
       },
       {
         "key": "C",
-        "text": "Me, te, se"
+        "text": "Comienzo de acción"
       },
       {
         "key": "D",
-        "text": "Nos, os"
-      },
-      {
-        "key": "E",
-        "text": "Él, ella, ellos"
-      },
-      {
-        "key": "F",
-        "text": "Esto, eso, aquello"
+        "text": "Acción terminada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El CD se sustituye por lo, la, los, las."
+    "explanation": "'Deber de + infinitivo' expresa suposición, hipótesis o probabilidad."
   },
   {
     "id": "2.3_q203",
     "number": 203,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento indirecto puede sustituirse por:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "La perífrasis aspectual que indica una acción a punto de comenzar (inminente) es:",
     "options": [
       {
         "key": "A",
-        "text": "Le, les"
+        "text": "Ingresiva (ej. 'ir a + infinitivo' o 'estar a punto de + infinitivo')"
       },
       {
         "key": "B",
-        "text": "Lo, la, los, las"
+        "text": "Incoativa (ej. 'empezar a + infinitivo')"
       },
       {
         "key": "C",
-        "text": "Me, te, se"
+        "text": "Durativa (ej. 'estar + gerundio')"
       },
       {
         "key": "D",
-        "text": "Nos, os"
-      },
-      {
-        "key": "E",
-        "text": "Él, ella, ellos"
-      },
-      {
-        "key": "F",
-        "text": "Esto, eso, aquello"
+        "text": "Reiterativa (ej. 'volver a + infinitivo')"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El CI se sustituye por le, les."
+    "explanation": "Las perífrasis ingresivas señalan la inminencia del inicio del evento."
   },
   {
     "id": "2.3_q204",
     "number": 204,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento directo puede ser:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "En la oración 'El científico continuó investigando la muestra en el laboratorio', la perífrasis 'continuó investigando' es:",
     "options": [
       {
         "key": "A",
-        "text": "Un sintagma nominal, un pronombre o una oración"
+        "text": "Aspectual durativa o continuativa"
       },
       {
         "key": "B",
-        "text": "Solo un sintagma nominal"
+        "text": "Modal de necesidad"
       },
       {
         "key": "C",
-        "text": "Solo un pronombre"
+        "text": "Aspectual ingresiva"
       },
       {
         "key": "D",
-        "text": "Solo una oración"
-      },
-      {
-        "key": "E",
-        "text": "Solo un infinitivo"
-      },
-      {
-        "key": "F",
-        "text": "Solo un gerundio"
+        "text": "Aspectual puntual"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El CD puede ser SN, pronombre u oración."
+    "explanation": "'Continuar + gerundio' expresa una acción en pleno desarrollo procesual."
   },
   {
     "id": "2.3_q205",
     "number": 205,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento indirecto puede ser:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "En 'El estudiante acabó de redactar su tesis académica', la perífrasis 'acabó de redactar' es:",
     "options": [
       {
         "key": "A",
-        "text": "Un sintagma preposicional con \"a\" o \"para\""
+        "text": "Aspectual terminativa"
       },
       {
         "key": "B",
-        "text": "Solo un sintagma nominal"
+        "text": "Modal de posibilidad"
       },
       {
         "key": "C",
-        "text": "Solo un pronombre"
+        "text": "Aspectual incoativa"
       },
       {
         "key": "D",
-        "text": "Solo una oración"
-      },
-      {
-        "key": "E",
-        "text": "Solo un infinitivo"
-      },
-      {
-        "key": "F",
-        "text": "Solo un gerundio"
+        "text": "Aspectual reiterativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El CI puede ser SPrep con \"a\" o \"para\"."
+    "explanation": "'Acabar de + infinitivo' denota la culminación inmediata del evento verbal."
   },
   {
     "id": "2.3_q206",
     "number": 206,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Compré el libro\", \"el libro\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "¿Cuál de las siguientes construcciones constituye una perífrasis verbal auténtica?",
     "options": [
       {
         "key": "A",
-        "text": "Complemento directo"
+        "text": "Tengo que salir"
       },
       {
         "key": "B",
-        "text": "Complemento indirecto"
+        "text": "Deseo salir"
       },
       {
         "key": "C",
-        "text": "Sujeto"
+        "text": "Prometo estudiar"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo"
+        "text": "Pienso comer"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"El libro\" es complemento directo."
+    "explanation": "En 'tengo que salir', el verbo tener pierde su valor léxico posesivo y actúa como auxiliar modal gramaticalizado."
   },
   {
     "id": "2.3_q207",
     "number": 207,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Di el libro a Juan\", \"el libro\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "La perífrasis reiterativa que indica la repetición de un hecho se ejemplifica en:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento directo"
+        "text": "Volvió a cometer el mismo error"
       },
       {
         "key": "B",
-        "text": "Complemento indirecto"
+        "text": "Empezó a llorar"
       },
       {
         "key": "C",
-        "text": "Sujeto"
+        "text": "Dejó de fumar"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo"
+        "text": "Suele caminar por las tardes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"El libro\" es complemento directo."
+    "explanation": "'Volver a + infinitivo' indica repetición o iteración de la acción."
   },
   {
     "id": "2.3_q208",
     "number": 208,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Di el libro a Juan\", \"a Juan\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "En 'Llegó a tener tres maestrías universitarias', la perífrasis 'llegó a tener' es:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento indirecto"
+        "text": "Aspectual escalar o cumulativa"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Modal epistémica"
       },
       {
         "key": "C",
-        "text": "Sujeto"
+        "text": "Ingresiva"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo"
+        "text": "Durativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"A Juan\" es complemento indirecto."
+    "explanation": "'Llegar a + infinitivo' denota la culminación de un proceso tras superar etapas o esfuerzo."
   },
   {
     "id": "2.3_q209",
     "number": 209,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Compré flores para María\", \"flores\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "La perífrasis consuetudinaria o de hábito se manifiesta en:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento directo"
+        "text": "Suele levantarse a las cinco de la mañana"
       },
       {
         "key": "B",
-        "text": "Complemento indirecto"
+        "text": "Va a levantarse temprano"
       },
       {
         "key": "C",
-        "text": "Sujeto"
+        "text": "Se puso a levantarse"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo"
+        "text": "Tiene que levantarse"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Flores\" es complemento directo."
+    "explanation": "'Soler + infinitivo' expresa la frecuencia habitual o costumbre."
   },
   {
     "id": "2.3_q210",
     "number": 210,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Compré flores para María\", \"para María\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Una perífrasis verbal está formada por:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento indirecto"
+        "text": "Un verbo auxiliar conjugado + (nexo) + una forma no personal (infinitivo, gerundio o participio)"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Dos verbos en indicativo separados por coma"
       },
       {
         "key": "C",
-        "text": "Sujeto"
+        "text": "Un adverbio y un sustantivo"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo"
+        "text": "Un verbo copulativo y un adjetivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Para María\" es complemento indirecto."
+    "explanation": "Estructura formal canónica de toda perífrasis verbal en lengua española."
   },
   {
     "id": "2.3_q211",
     "number": 211,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento circunstancial puede ser de:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 11): En la oración 'Debes estudiar con dedicación para el examen de admisión UES', la perífrasis verbal 'debes estudiar' es de tipo:",
     "options": [
       {
         "key": "A",
-        "text": "Lugar, tiempo, modo, causa, finalidad, etc."
+        "text": "Modal de obligación"
       },
       {
         "key": "B",
-        "text": "Solo lugar"
+        "text": "Modal de probabilidad"
       },
       {
         "key": "C",
-        "text": "Solo tiempo"
+        "text": "Aspectual ingresiva"
       },
       {
         "key": "D",
-        "text": "Solo modo"
-      },
-      {
-        "key": "E",
-        "text": "Solo causa"
-      },
-      {
-        "key": "F",
-        "text": "Solo finalidad"
+        "text": "Aspectual terminativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El CC puede ser de lugar, tiempo, modo, causa, finalidad, etc."
+    "explanation": "'Deber + infinitivo' expresa obligación o mandato ineludible."
   },
   {
     "id": "2.3_q212",
     "number": 212,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Estudio en la biblioteca\", \"en la biblioteca\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 12): La perífrasis verbal 'debe de ser' en 'Ese auto debe de costar una fortuna' expresa:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento circunstancial de lugar"
+        "text": "Probabilidad o conjetura"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Obligación estricta"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Comienzo de acción"
       },
       {
         "key": "D",
-        "text": "Atributo"
-      },
-      {
-        "key": "E",
-        "text": "Predicativo"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Acción terminada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"En la biblioteca\" es CC de lugar."
+    "explanation": "'Deber de + infinitivo' expresa suposición, hipótesis o probabilidad."
   },
   {
     "id": "2.3_q213",
     "number": 213,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Llegué ayer\", \"ayer\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 13): La perífrasis aspectual que indica una acción a punto de comenzar (inminente) es:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento circunstancial de tiempo"
+        "text": "Ingresiva (ej. 'ir a + infinitivo' o 'estar a punto de + infinitivo')"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Incoativa (ej. 'empezar a + infinitivo')"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Durativa (ej. 'estar + gerundio')"
       },
       {
         "key": "D",
-        "text": "Atributo"
-      },
-      {
-        "key": "E",
-        "text": "Predicativo"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Reiterativa (ej. 'volver a + infinitivo')"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Ayer\" es CC de tiempo."
+    "explanation": "Las perífrasis ingresivas señalan la inminencia del inicio del evento."
   },
   {
     "id": "2.3_q214",
     "number": 214,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Lo hice con cuidado\", \"con cuidado\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 14): En la oración 'El científico continuó investigando la muestra en el laboratorio', la perífrasis 'continuó investigando' es:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento circunstancial de modo"
+        "text": "Aspectual durativa o continuativa"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Modal de necesidad"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Aspectual ingresiva"
       },
       {
         "key": "D",
-        "text": "Atributo"
-      },
-      {
-        "key": "E",
-        "text": "Predicativo"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Aspectual puntual"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Con cuidado\" es CC de modo."
+    "explanation": "'Continuar + gerundio' expresa una acción en pleno desarrollo procesual."
   },
   {
     "id": "2.3_q215",
     "number": 215,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"No vino por la lluvia\", \"por la lluvia\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 15): En 'El estudiante acabó de redactar su tesis académica', la perífrasis 'acabó de redactar' es:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento circunstancial de causa"
+        "text": "Aspectual terminativa"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Modal de posibilidad"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Aspectual incoativa"
       },
       {
         "key": "D",
-        "text": "Atributo"
-      },
-      {
-        "key": "E",
-        "text": "Predicativo"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Aspectual reiterativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Por la lluvia\" es CC de causa."
+    "explanation": "'Acabar de + infinitivo' denota la culminación inmediata del evento verbal."
   },
   {
     "id": "2.3_q216",
     "number": 216,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Estudio para aprobar\", \"para aprobar\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 16): ¿Cuál de las siguientes construcciones constituye una perífrasis verbal auténtica?",
     "options": [
       {
         "key": "A",
-        "text": "Complemento circunstancial de finalidad"
+        "text": "Tengo que salir"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Deseo salir"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Prometo estudiar"
       },
       {
         "key": "D",
-        "text": "Atributo"
-      },
-      {
-        "key": "E",
-        "text": "Predicativo"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Pienso comer"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Para aprobar\" es CC de finalidad."
+    "explanation": "En 'tengo que salir', el verbo tener pierde su valor léxico posesivo y actúa como auxiliar modal gramaticalizado."
   },
   {
     "id": "2.3_q217",
     "number": 217,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Vino con Juan\", \"con Juan\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 17): La perífrasis reiterativa que indica la repetición de un hecho se ejemplifica en:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento circunstancial de compañía"
+        "text": "Volvió a cometer el mismo error"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Empezó a llorar"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Dejó de fumar"
       },
       {
         "key": "D",
-        "text": "Atributo"
-      },
-      {
-        "key": "E",
-        "text": "Predicativo"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Suele caminar por las tardes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Con Juan\" es CC de compañía."
+    "explanation": "'Volver a + infinitivo' indica repetición o iteración de la acción."
   },
   {
     "id": "2.3_q218",
     "number": 218,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Lo hizo con un martillo\", \"con un martillo\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 18): En 'Llegó a tener tres maestrías universitarias', la perífrasis 'llegó a tener' es:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento circunstancial de instrumento"
+        "text": "Aspectual escalar o cumulativa"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Modal epistémica"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Ingresiva"
       },
       {
         "key": "D",
-        "text": "Atributo"
-      },
-      {
-        "key": "E",
-        "text": "Predicativo"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Durativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Con un martillo\" es CC de instrumento."
+    "explanation": "'Llegar a + infinitivo' denota la culminación de un proceso tras superar etapas o esfuerzo."
   },
   {
     "id": "2.3_q219",
     "number": 219,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Cuesta cien pesos\", \"cien pesos\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 19): La perífrasis consuetudinaria o de hábito se manifiesta en:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento circunstancial de cantidad"
+        "text": "Suele levantarse a las cinco de la mañana"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Va a levantarse temprano"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Se puso a levantarse"
       },
       {
         "key": "D",
-        "text": "Atributo"
-      },
-      {
-        "key": "E",
-        "text": "Predicativo"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Tiene que levantarse"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Cien pesos\" es CC de cantidad."
+    "explanation": "'Soler + infinitivo' expresa la frecuencia habitual o costumbre."
   },
   {
     "id": "2.3_q220",
     "number": 220,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento agente aparece en:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 20): Una perífrasis verbal está formada por:",
     "options": [
       {
         "key": "A",
-        "text": "Oraciones pasivas"
+        "text": "Un verbo auxiliar conjugado + (nexo) + una forma no personal (infinitivo, gerundio o participio)"
       },
       {
         "key": "B",
-        "text": "Oraciones activas"
+        "text": "Dos verbos en indicativo separados por coma"
       },
       {
         "key": "C",
-        "text": "Oraciones impersonales"
+        "text": "Un adverbio y un sustantivo"
       },
       {
         "key": "D",
-        "text": "Oraciones copulativas"
-      },
-      {
-        "key": "E",
-        "text": "Oraciones transitivas"
-      },
-      {
-        "key": "F",
-        "text": "Oraciones intransitivas"
+        "text": "Un verbo copulativo y un adjetivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El complemento agente aparece en oraciones pasivas."
+    "explanation": "Estructura formal canónica de toda perífrasis verbal en lengua española."
   },
   {
     "id": "2.3_q221",
     "number": 221,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"El libro fue escrito por Juan\", \"por Juan\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 21): En la oración 'Debes estudiar con dedicación para el examen de admisión UES', la perífrasis verbal 'debes estudiar' es de tipo:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento agente"
+        "text": "Modal de obligación"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Modal de probabilidad"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Aspectual ingresiva"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo"
+        "text": "Aspectual terminativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Por Juan\" es complemento agente."
+    "explanation": "'Deber + infinitivo' expresa obligación o mandato ineludible."
   },
   {
     "id": "2.3_q222",
     "number": 222,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento agente puede sustituirse por:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 22): La perífrasis verbal 'debe de ser' en 'Ese auto debe de costar una fortuna' expresa:",
     "options": [
       {
         "key": "A",
-        "text": "No se sustituye por pronombre"
+        "text": "Probabilidad o conjetura"
       },
       {
         "key": "B",
-        "text": "Lo"
+        "text": "Obligación estricta"
       },
       {
         "key": "C",
-        "text": "Le"
+        "text": "Comienzo de acción"
       },
       {
         "key": "D",
-        "text": "La"
-      },
-      {
-        "key": "E",
-        "text": "Los"
-      },
-      {
-        "key": "F",
-        "text": "Las"
+        "text": "Acción terminada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El complemento agente no se sustituye por pronombre."
+    "explanation": "'Deber de + infinitivo' expresa suposición, hipótesis o probabilidad."
   },
   {
     "id": "2.3_q223",
     "number": 223,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento predicativo concuerda con:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 23): La perífrasis aspectual que indica una acción a punto de comenzar (inminente) es:",
     "options": [
       {
         "key": "A",
-        "text": "El sujeto o el complemento directo"
+        "text": "Ingresiva (ej. 'ir a + infinitivo' o 'estar a punto de + infinitivo')"
       },
       {
         "key": "B",
-        "text": "Solo el sujeto"
+        "text": "Incoativa (ej. 'empezar a + infinitivo')"
       },
       {
         "key": "C",
-        "text": "Solo el complemento directo"
+        "text": "Durativa (ej. 'estar + gerundio')"
       },
       {
         "key": "D",
-        "text": "Solo el complemento indirecto"
-      },
-      {
-        "key": "E",
-        "text": "Solo el verbo"
-      },
-      {
-        "key": "F",
-        "text": "Solo el adverbio"
+        "text": "Reiterativa (ej. 'volver a + infinitivo')"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El predicativo concuerda con el sujeto o el CD."
+    "explanation": "Las perífrasis ingresivas señalan la inminencia del inicio del evento."
   },
   {
     "id": "2.3_q224",
     "number": 224,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Juan llegó cansado\", \"cansado\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 24): En la oración 'El científico continuó investigando la muestra en el laboratorio', la perífrasis 'continuó investigando' es:",
     "options": [
       {
         "key": "A",
-        "text": "Predicativo"
+        "text": "Aspectual durativa o continuativa"
       },
       {
         "key": "B",
-        "text": "Atributo"
+        "text": "Modal de necesidad"
       },
       {
         "key": "C",
-        "text": "Complemento directo"
+        "text": "Aspectual ingresiva"
       },
       {
         "key": "D",
-        "text": "Complemento indirecto"
-      },
-      {
-        "key": "E",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Aspectual puntual"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Cansado\" es predicativo."
+    "explanation": "'Continuar + gerundio' expresa una acción en pleno desarrollo procesual."
   },
   {
     "id": "2.3_q225",
     "number": 225,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Considero a Juan inteligente\", \"inteligente\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 25): En 'El estudiante acabó de redactar su tesis académica', la perífrasis 'acabó de redactar' es:",
     "options": [
       {
         "key": "A",
-        "text": "Predicativo del complemento directo"
+        "text": "Aspectual terminativa"
       },
       {
         "key": "B",
-        "text": "Atributo"
+        "text": "Modal de posibilidad"
       },
       {
         "key": "C",
-        "text": "Complemento directo"
+        "text": "Aspectual incoativa"
       },
       {
         "key": "D",
-        "text": "Complemento indirecto"
-      },
-      {
-        "key": "E",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Aspectual reiterativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Inteligente\" es predicativo del CD."
+    "explanation": "'Acabar de + infinitivo' denota la culminación inmediata del evento verbal."
   },
   {
     "id": "2.3_q226",
     "number": 226,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Nombraron a Juan director\", \"director\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 26): ¿Cuál de las siguientes construcciones constituye una perífrasis verbal auténtica?",
     "options": [
       {
         "key": "A",
-        "text": "Predicativo del complemento directo"
+        "text": "Tengo que salir"
       },
       {
         "key": "B",
-        "text": "Atributo"
+        "text": "Deseo salir"
       },
       {
         "key": "C",
-        "text": "Complemento directo"
+        "text": "Prometo estudiar"
       },
       {
         "key": "D",
-        "text": "Complemento indirecto"
-      },
-      {
-        "key": "E",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Pienso comer"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Director\" es predicativo del CD."
+    "explanation": "En 'tengo que salir', el verbo tener pierde su valor léxico posesivo y actúa como auxiliar modal gramaticalizado."
   },
   {
     "id": "2.3_q227",
     "number": 227,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Juan es médico\", \"médico\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 27): La perífrasis reiterativa que indica la repetición de un hecho se ejemplifica en:",
     "options": [
       {
         "key": "A",
-        "text": "Atributo"
+        "text": "Volvió a cometer el mismo error"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Empezó a llorar"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Dejó de fumar"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Predicativo"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Suele caminar por las tardes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Médico\" es atributo."
+    "explanation": "'Volver a + infinitivo' indica repetición o iteración de la acción."
   },
   {
     "id": "2.3_q228",
     "number": 228,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Juan está cansado\", \"cansado\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 28): En 'Llegó a tener tres maestrías universitarias', la perífrasis 'llegó a tener' es:",
     "options": [
       {
         "key": "A",
-        "text": "Atributo"
+        "text": "Aspectual escalar o cumulativa"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Modal epistémica"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Ingresiva"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Predicativo"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Durativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Cansado\" es atributo."
+    "explanation": "'Llegar a + infinitivo' denota la culminación de un proceso tras superar etapas o esfuerzo."
   },
   {
     "id": "2.3_q229",
     "number": 229,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El atributo puede sustituirse por:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 29): La perífrasis consuetudinaria o de hábito se manifiesta en:",
     "options": [
       {
         "key": "A",
-        "text": "Lo"
+        "text": "Suele levantarse a las cinco de la mañana"
       },
       {
         "key": "B",
-        "text": "Le"
+        "text": "Va a levantarse temprano"
       },
       {
         "key": "C",
-        "text": "La"
+        "text": "Se puso a levantarse"
       },
       {
         "key": "D",
-        "text": "Los"
-      },
-      {
-        "key": "E",
-        "text": "Las"
-      },
-      {
-        "key": "F",
-        "text": "Les"
+        "text": "Tiene que levantarse"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El atributo se sustituye por \"lo\"."
+    "explanation": "'Soler + infinitivo' expresa la frecuencia habitual o costumbre."
   },
   {
     "id": "2.3_q230",
     "number": 230,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Juan es médico y Pedro también lo es\", \"lo\" sustituye a:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 30): Una perífrasis verbal está formada por:",
     "options": [
       {
         "key": "A",
-        "text": "Atributo"
+        "text": "Un verbo auxiliar conjugado + (nexo) + una forma no personal (infinitivo, gerundio o participio)"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Dos verbos en indicativo separados por coma"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Un adverbio y un sustantivo"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Predicativo"
-      },
-      {
-        "key": "F",
-        "text": "Sujeto"
+        "text": "Un verbo copulativo y un adjetivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Lo\" sustituye al atributo."
+    "explanation": "Estructura formal canónica de toda perífrasis verbal en lengua española."
   },
   {
     "id": "2.3_q231",
     "number": 231,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento del nombre puede ser:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 31): En la oración 'Debes estudiar con dedicación para el examen de admisión UES', la perífrasis verbal 'debes estudiar' es de tipo:",
     "options": [
       {
         "key": "A",
-        "text": "Un sintagma preposicional, un adjetivo o una aposición"
+        "text": "Modal de obligación"
       },
       {
         "key": "B",
-        "text": "Solo un sintagma preposicional"
+        "text": "Modal de probabilidad"
       },
       {
         "key": "C",
-        "text": "Solo un adjetivo"
+        "text": "Aspectual ingresiva"
       },
       {
         "key": "D",
-        "text": "Solo una aposición"
-      },
-      {
-        "key": "E",
-        "text": "Solo un adverbio"
-      },
-      {
-        "key": "F",
-        "text": "Solo un verbo"
+        "text": "Aspectual terminativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El complemento del nombre puede ser SPrep, adjetivo o aposición."
+    "explanation": "'Deber + infinitivo' expresa obligación o mandato ineludible."
   },
   {
     "id": "2.3_q232",
     "number": 232,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"el libro de Juan\", \"de Juan\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 32): La perífrasis verbal 'debe de ser' en 'Ese auto debe de costar una fortuna' expresa:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento del nombre"
+        "text": "Probabilidad o conjetura"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Obligación estricta"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Comienzo de acción"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo"
+        "text": "Acción terminada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"De Juan\" es complemento del nombre."
+    "explanation": "'Deber de + infinitivo' expresa suposición, hipótesis o probabilidad."
   },
   {
     "id": "2.3_q233",
     "number": 233,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"la casa blanca\", \"blanca\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 33): La perífrasis aspectual que indica una acción a punto de comenzar (inminente) es:",
     "options": [
       {
         "key": "A",
-        "text": "Adjetivo que modifica al sustantivo"
+        "text": "Ingresiva (ej. 'ir a + infinitivo' o 'estar a punto de + infinitivo')"
       },
       {
         "key": "B",
-        "text": "Núcleo del sintagma"
+        "text": "Incoativa (ej. 'empezar a + infinitivo')"
       },
       {
         "key": "C",
-        "text": "Determinante"
+        "text": "Durativa (ej. 'estar + gerundio')"
       },
       {
         "key": "D",
-        "text": "Complemento directo"
-      },
-      {
-        "key": "E",
-        "text": "Complemento indirecto"
-      },
-      {
-        "key": "F",
-        "text": "Complemento circunstancial"
+        "text": "Reiterativa (ej. 'volver a + infinitivo')"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Blanca\" es adjetivo que modifica al sustantivo."
+    "explanation": "Las perífrasis ingresivas señalan la inminencia del inicio del evento."
   },
   {
     "id": "2.3_q234",
     "number": 234,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"mi amigo Pedro\", \"Pedro\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 34): En la oración 'El científico continuó investigando la muestra en el laboratorio', la perífrasis 'continuó investigando' es:",
     "options": [
       {
         "key": "A",
-        "text": "Aposición"
+        "text": "Aspectual durativa o continuativa"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Modal de necesidad"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Aspectual ingresiva"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo"
+        "text": "Aspectual puntual"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Pedro\" es aposición."
+    "explanation": "'Continuar + gerundio' expresa una acción en pleno desarrollo procesual."
   },
   {
     "id": "2.3_q235",
     "number": 235,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento del adjetivo puede ser:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 35): En 'El estudiante acabó de redactar su tesis académica', la perífrasis 'acabó de redactar' es:",
     "options": [
       {
         "key": "A",
-        "text": "Un sintagma preposicional o una oración"
+        "text": "Aspectual terminativa"
       },
       {
         "key": "B",
-        "text": "Solo un sintagma preposicional"
+        "text": "Modal de posibilidad"
       },
       {
         "key": "C",
-        "text": "Solo una oración"
+        "text": "Aspectual incoativa"
       },
       {
         "key": "D",
-        "text": "Solo un adverbio"
-      },
-      {
-        "key": "E",
-        "text": "Solo un sustantivo"
-      },
-      {
-        "key": "F",
-        "text": "Solo un verbo"
+        "text": "Aspectual reiterativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El complemento del adjetivo puede ser SPrep u oración."
+    "explanation": "'Acabar de + infinitivo' denota la culminación inmediata del evento verbal."
   },
   {
     "id": "2.3_q236",
     "number": 236,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Cansado de esperar\", \"de esperar\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 36): ¿Cuál de las siguientes construcciones constituye una perífrasis verbal auténtica?",
     "options": [
       {
         "key": "A",
-        "text": "Complemento del adjetivo"
+        "text": "Tengo que salir"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Deseo salir"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Prometo estudiar"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo"
+        "text": "Pienso comer"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"De esperar\" es complemento del adjetivo."
+    "explanation": "En 'tengo que salir', el verbo tener pierde su valor léxico posesivo y actúa como auxiliar modal gramaticalizado."
   },
   {
     "id": "2.3_q237",
     "number": 237,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Muy lejos de aquí\", \"de aquí\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 37): La perífrasis reiterativa que indica la repetición de un hecho se ejemplifica en:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento del adverbio"
+        "text": "Volvió a cometer el mismo error"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Empezó a llorar"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Dejó de fumar"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo"
+        "text": "Suele caminar por las tardes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"De aquí\" es complemento del adverbio."
+    "explanation": "'Volver a + infinitivo' indica repetición o iteración de la acción."
   },
   {
     "id": "2.3_q238",
     "number": 238,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Juan es más alto que Pedro\", \"que Pedro\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 38): En 'Llegó a tener tres maestrías universitarias', la perífrasis 'llegó a tener' es:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento del adjetivo"
+        "text": "Aspectual escalar o cumulativa"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Modal epistémica"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Ingresiva"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo"
+        "text": "Durativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Que Pedro\" es complemento del adjetivo."
+    "explanation": "'Llegar a + infinitivo' denota la culminación de un proceso tras superar etapas o esfuerzo."
   },
   {
     "id": "2.3_q239",
     "number": 239,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento del adverbio puede ser:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 39): La perífrasis consuetudinaria o de hábito se manifiesta en:",
     "options": [
       {
         "key": "A",
-        "text": "Un sintagma preposicional"
+        "text": "Suele levantarse a las cinco de la mañana"
       },
       {
         "key": "B",
-        "text": "Solo un sustantivo"
+        "text": "Va a levantarse temprano"
       },
       {
         "key": "C",
-        "text": "Solo un adjetivo"
+        "text": "Se puso a levantarse"
       },
       {
         "key": "D",
-        "text": "Solo un verbo"
-      },
-      {
-        "key": "E",
-        "text": "Solo una oración"
-      },
-      {
-        "key": "F",
-        "text": "Solo un pronombre"
+        "text": "Tiene que levantarse"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El complemento del adverbio puede ser SPrep."
+    "explanation": "'Soler + infinitivo' expresa la frecuencia habitual o costumbre."
   },
   {
     "id": "2.3_q240",
     "number": 240,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"El hombre de la barba\", \"de la barba\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 40): Una perífrasis verbal está formada por:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento del nombre"
+        "text": "Un verbo auxiliar conjugado + (nexo) + una forma no personal (infinitivo, gerundio o participio)"
       },
       {
         "key": "B",
-        "text": "Complemento directo"
+        "text": "Dos verbos en indicativo separados por coma"
       },
       {
         "key": "C",
-        "text": "Complemento indirecto"
+        "text": "Un adverbio y un sustantivo"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo"
+        "text": "Un verbo copulativo y un adjetivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"De la barba\" es complemento del nombre."
+    "explanation": "Estructura formal canónica de toda perífrasis verbal en lengua española."
   },
   {
     "id": "2.3_q241",
     "number": 241,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El vocativo es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 41): En la oración 'Debes estudiar con dedicación para el examen de admisión UES', la perífrasis verbal 'debes estudiar' es de tipo:",
     "options": [
       {
         "key": "A",
-        "text": "El elemento que sirve para llamar o invocar al interlocutor"
+        "text": "Modal de obligación"
       },
       {
         "key": "B",
-        "text": "El que recibe la acción"
+        "text": "Modal de probabilidad"
       },
       {
         "key": "C",
-        "text": "El que indica circunstancias"
+        "text": "Aspectual ingresiva"
       },
       {
         "key": "D",
-        "text": "El que modifica al sustantivo"
-      },
-      {
-        "key": "E",
-        "text": "El que modifica al verbo"
-      },
-      {
-        "key": "F",
-        "text": "El que modifica al adjetivo"
+        "text": "Aspectual terminativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El vocativo sirve para llamar o invocar."
+    "explanation": "'Deber + infinitivo' expresa obligación o mandato ineludible."
   },
   {
     "id": "2.3_q242",
     "number": 242,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Juan, ven aquí\", \"Juan\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 42): La perífrasis verbal 'debe de ser' en 'Ese auto debe de costar una fortuna' expresa:",
     "options": [
       {
         "key": "A",
-        "text": "Vocativo"
+        "text": "Probabilidad o conjetura"
       },
       {
         "key": "B",
-        "text": "Sujeto"
+        "text": "Obligación estricta"
       },
       {
         "key": "C",
-        "text": "Complemento directo"
+        "text": "Comienzo de acción"
       },
       {
         "key": "D",
-        "text": "Complemento indirecto"
-      },
-      {
-        "key": "E",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "F",
-        "text": "Atributo"
+        "text": "Acción terminada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Juan\" es vocativo."
+    "explanation": "'Deber de + infinitivo' expresa suposición, hipótesis o probabilidad."
   },
   {
     "id": "2.3_q243",
     "number": 243,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"María, te llaman\", \"María\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 43): La perífrasis aspectual que indica una acción a punto de comenzar (inminente) es:",
     "options": [
       {
         "key": "A",
-        "text": "Vocativo"
+        "text": "Ingresiva (ej. 'ir a + infinitivo' o 'estar a punto de + infinitivo')"
       },
       {
         "key": "B",
-        "text": "Sujeto"
+        "text": "Incoativa (ej. 'empezar a + infinitivo')"
       },
       {
         "key": "C",
-        "text": "Complemento directo"
+        "text": "Durativa (ej. 'estar + gerundio')"
       },
       {
         "key": "D",
-        "text": "Complemento indirecto"
-      },
-      {
-        "key": "E",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "F",
-        "text": "Atributo"
+        "text": "Reiterativa (ej. 'volver a + infinitivo')"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"María\" es vocativo."
+    "explanation": "Las perífrasis ingresivas señalan la inminencia del inicio del evento."
   },
   {
     "id": "2.3_q244",
     "number": 244,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "Las interjecciones son:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 44): En la oración 'El científico continuó investigando la muestra en el laboratorio', la perífrasis 'continuó investigando' es:",
     "options": [
       {
         "key": "A",
-        "text": "Palabras que expresan emociones o reacciones"
+        "text": "Aspectual durativa o continuativa"
       },
       {
         "key": "B",
-        "text": "Palabras que modifican al sustantivo"
+        "text": "Modal de necesidad"
       },
       {
         "key": "C",
-        "text": "Palabras que modifican al verbo"
+        "text": "Aspectual ingresiva"
       },
       {
         "key": "D",
-        "text": "Palabras que modifican al adjetivo"
-      },
-      {
-        "key": "E",
-        "text": "Palabras que unen oraciones"
-      },
-      {
-        "key": "F",
-        "text": "Palabras que indican circunstancias"
+        "text": "Aspectual puntual"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las interjecciones expresan emociones o reacciones."
+    "explanation": "'Continuar + gerundio' expresa una acción en pleno desarrollo procesual."
   },
   {
     "id": "2.3_q245",
     "number": 245,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"¡Ay!, me duele\", \"¡Ay!\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 45): En 'El estudiante acabó de redactar su tesis académica', la perífrasis 'acabó de redactar' es:",
     "options": [
       {
         "key": "A",
-        "text": "Interjección"
+        "text": "Aspectual terminativa"
       },
       {
         "key": "B",
-        "text": "Vocativo"
+        "text": "Modal de posibilidad"
       },
       {
         "key": "C",
-        "text": "Sujeto"
+        "text": "Aspectual incoativa"
       },
       {
         "key": "D",
-        "text": "Complemento directo"
-      },
-      {
-        "key": "E",
-        "text": "Complemento indirecto"
-      },
-      {
-        "key": "F",
-        "text": "Complemento circunstancial"
+        "text": "Aspectual reiterativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"¡Ay!\" es interjección."
+    "explanation": "'Acabar de + infinitivo' denota la culminación inmediata del evento verbal."
   },
   {
     "id": "2.3_q246",
     "number": 246,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "Los marcadores del discurso son:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 46): ¿Cuál de las siguientes construcciones constituye una perífrasis verbal auténtica?",
     "options": [
       {
         "key": "A",
-        "text": "Elementos que organizan y conectan el texto"
+        "text": "Tengo que salir"
       },
       {
         "key": "B",
-        "text": "Elementos que modifican al sustantivo"
+        "text": "Deseo salir"
       },
       {
         "key": "C",
-        "text": "Elementos que modifican al verbo"
+        "text": "Prometo estudiar"
       },
       {
         "key": "D",
-        "text": "Elementos que modifican al adjetivo"
-      },
-      {
-        "key": "E",
-        "text": "Elementos que indican circunstancias"
-      },
-      {
-        "key": "F",
-        "text": "Elementos que expresan emociones"
+        "text": "Pienso comer"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los marcadores del discurso organizan y conectan el texto."
+    "explanation": "En 'tengo que salir', el verbo tener pierde su valor léxico posesivo y actúa como auxiliar modal gramaticalizado."
   },
   {
     "id": "2.3_q247",
     "number": 247,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Sin embargo, no fui\", \"sin embargo\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 47): La perífrasis reiterativa que indica la repetición de un hecho se ejemplifica en:",
     "options": [
       {
         "key": "A",
-        "text": "Marcador del discurso"
+        "text": "Volvió a cometer el mismo error"
       },
       {
         "key": "B",
-        "text": "Vocativo"
+        "text": "Empezó a llorar"
       },
       {
         "key": "C",
-        "text": "Sujeto"
+        "text": "Dejó de fumar"
       },
       {
         "key": "D",
-        "text": "Complemento directo"
-      },
-      {
-        "key": "E",
-        "text": "Complemento indirecto"
-      },
-      {
-        "key": "F",
-        "text": "Complemento circunstancial"
+        "text": "Suele caminar por las tardes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Sin embargo\" es marcador del discurso."
+    "explanation": "'Volver a + infinitivo' indica repetición o iteración de la acción."
   },
   {
     "id": "2.3_q248",
     "number": 248,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"En conclusión, todo salió bien\", \"en conclusión\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 48): En 'Llegó a tener tres maestrías universitarias', la perífrasis 'llegó a tener' es:",
     "options": [
       {
         "key": "A",
-        "text": "Marcador del discurso"
+        "text": "Aspectual escalar o cumulativa"
       },
       {
         "key": "B",
-        "text": "Vocativo"
+        "text": "Modal epistémica"
       },
       {
         "key": "C",
-        "text": "Sujeto"
+        "text": "Ingresiva"
       },
       {
         "key": "D",
-        "text": "Complemento directo"
-      },
-      {
-        "key": "E",
-        "text": "Complemento indirecto"
-      },
-      {
-        "key": "F",
-        "text": "Complemento circunstancial"
+        "text": "Durativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"En conclusión\" es marcador del discurso."
+    "explanation": "'Llegar a + infinitivo' denota la culminación de un proceso tras superar etapas o esfuerzo."
   },
   {
     "id": "2.3_q249",
     "number": 249,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "El complemento directo puede llevar la preposición \"a\" cuando:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 49): La perífrasis consuetudinaria o de hábito se manifiesta en:",
     "options": [
       {
         "key": "A",
-        "text": "Es una persona o cosa personificada"
+        "text": "Suele levantarse a las cinco de la mañana"
       },
       {
         "key": "B",
-        "text": "Es una cosa"
+        "text": "Va a levantarse temprano"
       },
       {
         "key": "C",
-        "text": "Es un lugar"
+        "text": "Se puso a levantarse"
       },
       {
         "key": "D",
-        "text": "Es un tiempo"
-      },
-      {
-        "key": "E",
-        "text": "Es un modo"
-      },
-      {
-        "key": "F",
-        "text": "Es una causa"
+        "text": "Tiene que levantarse"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El CD lleva \"a\" cuando es persona o cosa personificada."
+    "explanation": "'Soler + infinitivo' expresa la frecuencia habitual o costumbre."
   },
   {
     "id": "2.3_q250",
     "number": 250,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)",
-    "statement": "En \"Vi a Juan\", \"a Juan\" es:",
+    "sectionTitle": "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)",
+    "statement": "Clasificación y análisis de perífrasis verbales (reactivo 50): Una perífrasis verbal está formada por:",
     "options": [
       {
         "key": "A",
-        "text": "Complemento directo"
+        "text": "Un verbo auxiliar conjugado + (nexo) + una forma no personal (infinitivo, gerundio o participio)"
       },
       {
         "key": "B",
-        "text": "Complemento indirecto"
+        "text": "Dos verbos en indicativo separados por coma"
       },
       {
         "key": "C",
-        "text": "Sujeto"
+        "text": "Un adverbio y un sustantivo"
       },
       {
         "key": "D",
-        "text": "Complemento circunstancial"
-      },
-      {
-        "key": "E",
-        "text": "Atributo"
-      },
-      {
-        "key": "F",
-        "text": "Predicativo ---"
+        "text": "Un verbo copulativo y un adjetivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"A Juan\" es complemento directo."
+    "explanation": "Estructura formal canónica de toda perífrasis verbal en lengua española."
   },
   {
     "id": "2.3_q251",
     "number": 251,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "La oración simple se caracteriza por:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "En la frase 'sumamente difícil de resolver', el núcleo del sintagma adjetival es:",
     "options": [
       {
         "key": "A",
-        "text": "Tener un solo verbo conjugado"
+        "text": "difícil"
       },
       {
         "key": "B",
-        "text": "Tener dos o más verbos conjugados"
+        "text": "sumamente"
       },
       {
         "key": "C",
-        "text": "No tener verbo"
+        "text": "de"
       },
       {
         "key": "D",
-        "text": "Tener solo sustantivos"
-      },
-      {
-        "key": "E",
-        "text": "Tener solo adjetivos"
-      },
-      {
-        "key": "F",
-        "text": "Tener solo adverbios"
+        "text": "resolver"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La oración simple tiene un solo verbo conjugado."
+    "explanation": "El núcleo del Sintagma Adjetival (SAdj) es el adjetivo 'difícil', modificado por el adverbio cuantificador 'sumamente'."
   },
   {
     "id": "2.3_q252",
     "number": 252,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "La oración compuesta se caracteriza por:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Un Sintagma Preposicional (SPrep) se estructura sintácticamente de forma canónica mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Tener dos o más verbos conjugados"
+        "text": "Enlace (preposición) + Término (SN, SAdj, etc.)"
       },
       {
         "key": "B",
-        "text": "Tener un solo verbo conjugado"
+        "text": "Núcleo verbal + Complemento"
       },
       {
         "key": "C",
-        "text": "No tener verbo"
+        "text": "Determinante + Nombre"
       },
       {
         "key": "D",
-        "text": "Tener solo sustantivos"
-      },
-      {
-        "key": "E",
-        "text": "Tener solo adjetivos"
-      },
-      {
-        "key": "F",
-        "text": "Tener solo adverbios"
+        "text": "Adverbio + Adjetivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La oración compuesta tiene dos o más verbos conjugados."
+    "explanation": "El SPrep consta invariablemente de un enlace preposicional y su término regido."
   },
   {
     "id": "2.3_q253",
     "number": 253,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones compuestas pueden ser:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "En la oración 'La casa de madera fue destruida', la función sintáctica del sintagma 'de madera' es:",
     "options": [
       {
         "key": "A",
-        "text": "Coordinadas y subordinadas"
+        "text": "Complemento del nombre (CN)"
       },
       {
         "key": "B",
-        "text": "Solo coordinadas"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Solo subordinadas"
+        "text": "Atributo"
       },
       {
         "key": "D",
-        "text": "Solo yuxtapuestas"
-      },
-      {
-        "key": "E",
-        "text": "Solo copulativas"
-      },
-      {
-        "key": "F",
-        "text": "Solo adversativas"
+        "text": "Complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las compuestas pueden ser coordinadas y subordinadas."
+    "explanation": "'De madera' es un SPrep que complementa directamente al sustantivo núcleo 'casa'."
   },
   {
     "id": "2.3_q254",
     "number": 254,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones coordinadas se caracterizan por:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "La oración 'Deseo que apruebes el examen de admisión' contiene una proposición subordinada:",
     "options": [
       {
         "key": "A",
-        "text": "Ser independientes sintácticamente"
+        "text": "Sustantiva en función de Complemento Directo"
       },
       {
         "key": "B",
-        "text": "Depender una de otra"
+        "text": "Adjetiva especificativa"
       },
       {
         "key": "C",
-        "text": "No tener verbo"
+        "text": "Adverbial de tiempo"
       },
       {
         "key": "D",
-        "text": "Tener un solo verbo"
-      },
-      {
-        "key": "E",
-        "text": "Ser impersonales"
-      },
-      {
-        "key": "F",
-        "text": "Ser pasivas"
+        "text": "Coordinada adversativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las coordinadas son independientes sintácticamente."
+    "explanation": "La proposición 'que apruebes el examen' puede sustituirse por el pronombre 'eso' ('Deseo eso') y funciona como CD."
   },
   {
     "id": "2.3_q255",
     "number": 255,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones subordinadas se caracterizan por:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "En 'Estudié con esmero, pero el examen fue sumamente riguroso', las oraciones están unidas por coordinación:",
     "options": [
       {
         "key": "A",
-        "text": "Depender sintácticamente de otra"
+        "text": "Adversativa"
       },
       {
         "key": "B",
-        "text": "Ser independientes"
+        "text": "Copulativa"
       },
       {
         "key": "C",
-        "text": "No tener verbo"
+        "text": "Disyuntiva"
       },
       {
         "key": "D",
-        "text": "Tener un solo verbo"
-      },
-      {
-        "key": "E",
-        "text": "Ser impersonales"
-      },
-      {
-        "key": "F",
-        "text": "Ser pasivas"
+        "text": "Distributiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las subordinadas dependen sintácticamente de otra."
+    "explanation": "'Pero' es una conjunción coordinante adversativa que expresa contraposición."
   },
   {
     "id": "2.3_q256",
     "number": 256,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones yuxtapuestas se caracterizan por:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "En la oración subordinada sustantiva 'Me alegra que hayas vuelto', la función de la proposición subordinada es:",
     "options": [
       {
         "key": "A",
-        "text": "Unirse sin conjunciones"
+        "text": "Sujeto"
       },
       {
         "key": "B",
-        "text": "Unirse con conjunciones"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Ser independientes"
+        "text": "Complemento de régimen"
       },
       {
         "key": "D",
-        "text": "Ser dependientes"
-      },
-      {
-        "key": "E",
-        "text": "No tener verbo"
-      },
-      {
-        "key": "F",
-        "text": "Tener un solo verbo"
+        "text": "Atributo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las yuxtapuestas se unen sin conjunciones."
+    "explanation": "'Que hayas vuelto' es el sujeto de la oración: 'Eso me alegra' -> 'Esas cosas me alegran'."
   },
   {
     "id": "2.3_q257",
     "number": 257,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones coordinadas copulativas se unen con:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "El núcleo de un Sintagma Adverbial (SAdv) en 'demasiado lejos de la ciudad' es:",
     "options": [
       {
         "key": "A",
-        "text": "Y, e, ni"
+        "text": "lejos"
       },
       {
         "key": "B",
-        "text": "O, u"
+        "text": "demasiado"
       },
       {
         "key": "C",
-        "text": "Pero, mas, sino"
+        "text": "de"
       },
       {
         "key": "D",
-        "text": "Es decir, o sea"
-      },
-      {
-        "key": "E",
-        "text": "Pues, porque"
-      },
-      {
-        "key": "F",
-        "text": "Luego, así que"
+        "text": "ciudad"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las copulativas se unen con y, e, ni."
+    "explanation": "El núcleo es el adverbio 'lejos', cuantificado por 'demasiado' y complementado por 'de la ciudad'."
   },
   {
     "id": "2.3_q258",
     "number": 258,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones coordinadas disyuntivas se unen con:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "En la oración compuesta 'Ni come ni deja comer al prójimo', la relación entre proposiciones es:",
     "options": [
       {
         "key": "A",
-        "text": "O, u"
+        "text": "Coordinada copulativa correlativa"
       },
       {
         "key": "B",
-        "text": "Y, e, ni"
+        "text": "Subordinada adverbial"
       },
       {
         "key": "C",
-        "text": "Pero, mas, sino"
+        "text": "Coordinada disyuntiva"
       },
       {
         "key": "D",
-        "text": "Es decir, o sea"
-      },
-      {
-        "key": "E",
-        "text": "Pues, porque"
-      },
-      {
-        "key": "F",
-        "text": "Luego, así que"
+        "text": "Subordinada sustantiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las disyuntivas se unen con o, u."
+    "explanation": "Las conjunciones 'ni... ni' enlazan oraciones en coordinación copulativa negativa."
   },
   {
     "id": "2.3_q259",
     "number": 259,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones coordinadas adversativas se unen con:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "En la oración 'El postulante fue felicitado por el decano', el sintagma 'por el decano' cumple la función de:",
     "options": [
       {
         "key": "A",
-        "text": "Pero, mas, sino"
+        "text": "Complemento Agente"
       },
       {
         "key": "B",
-        "text": "Y, e, ni"
+        "text": "Complemento de Régimen"
       },
       {
         "key": "C",
-        "text": "O, u"
+        "text": "Complemento Indirecto"
       },
       {
         "key": "D",
-        "text": "Es decir, o sea"
-      },
-      {
-        "key": "E",
-        "text": "Pues, porque"
-      },
-      {
-        "key": "F",
-        "text": "Luego, así que"
+        "text": "Complemento Circunstancial de Modo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las adversativas se unen con pero, mas, sino."
+    "explanation": "En oraciones en voz pasiva analítica, el ejecutor de la acción encabezado por 'por' es el Complemento Agente."
   },
   {
     "id": "2.3_q260",
     "number": 260,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones coordinadas explicativas se unen con:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "En 'El profesor habló de lingüística durante dos horas', el sintagma 'de lingüística' desempeña la función de:",
     "options": [
       {
         "key": "A",
-        "text": "Es decir, o sea"
+        "text": "Complemento de régimen preposicional (suplemento)"
       },
       {
         "key": "B",
-        "text": "Y, e, ni"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "O, u"
+        "text": "Complemento del nombre"
       },
       {
         "key": "D",
-        "text": "Pero, mas, sino"
-      },
-      {
-        "key": "E",
-        "text": "Pues, porque"
-      },
-      {
-        "key": "F",
-        "text": "Luego, así que"
+        "text": "Atributo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las explicativas se unen con es decir, o sea."
+    "explanation": "El verbo 'hablar' rige obligatoriamente la preposición 'de' para seleccionar su argumento temático."
   },
   {
     "id": "2.3_q261",
     "number": 261,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Juan estudia y María trabaja\", la oración es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 11): En la frase 'sumamente difícil de resolver', el núcleo del sintagma adjetival es:",
     "options": [
       {
         "key": "A",
-        "text": "Coordinada copulativa"
+        "text": "difícil"
       },
       {
         "key": "B",
-        "text": "Coordinada disyuntiva"
+        "text": "sumamente"
       },
       {
         "key": "C",
-        "text": "Coordinada adversativa"
+        "text": "de"
       },
       {
         "key": "D",
-        "text": "Subordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "resolver"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Juan estudia y María trabaja\" es coordinada copulativa."
+    "explanation": "El núcleo del Sintagma Adjetival (SAdj) es el adjetivo 'difícil', modificado por el adverbio cuantificador 'sumamente'."
   },
   {
     "id": "2.3_q262",
     "number": 262,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"¿Vienes o te quedas?\", la oración es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 12): Un Sintagma Preposicional (SPrep) se estructura sintácticamente de forma canónica mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Coordinada disyuntiva"
+        "text": "Enlace (preposición) + Término (SN, SAdj, etc.)"
       },
       {
         "key": "B",
-        "text": "Coordinada copulativa"
+        "text": "Núcleo verbal + Complemento"
       },
       {
         "key": "C",
-        "text": "Coordinada adversativa"
+        "text": "Determinante + Nombre"
       },
       {
         "key": "D",
-        "text": "Subordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Adverbio + Adjetivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"¿Vienes o te quedas?\" es coordinada disyuntiva."
+    "explanation": "El SPrep consta invariablemente de un enlace preposicional y su término regido."
   },
   {
     "id": "2.3_q263",
     "number": 263,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Estudié, pero no aprobé\", la oración es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 13): En la oración 'La casa de madera fue destruida', la función sintáctica del sintagma 'de madera' es:",
     "options": [
       {
         "key": "A",
-        "text": "Coordinada adversativa"
+        "text": "Complemento del nombre (CN)"
       },
       {
         "key": "B",
-        "text": "Coordinada copulativa"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Coordinada disyuntiva"
+        "text": "Atributo"
       },
       {
         "key": "D",
-        "text": "Subordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Estudié, pero no aprobé\" es coordinada adversativa."
+    "explanation": "'De madera' es un SPrep que complementa directamente al sustantivo núcleo 'casa'."
   },
   {
     "id": "2.3_q264",
     "number": 264,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Llegó tarde, es decir, no pudo entrar\", la oración es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 14): La oración 'Deseo que apruebes el examen de admisión' contiene una proposición subordinada:",
     "options": [
       {
         "key": "A",
-        "text": "Coordinada explicativa"
+        "text": "Sustantiva en función de Complemento Directo"
       },
       {
         "key": "B",
-        "text": "Coordinada copulativa"
+        "text": "Adjetiva especificativa"
       },
       {
         "key": "C",
-        "text": "Coordinada disyuntiva"
+        "text": "Adverbial de tiempo"
       },
       {
         "key": "D",
-        "text": "Subordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Coordinada adversativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Llegó tarde, es decir, no pudo entrar\" es coordinada explicativa."
+    "explanation": "La proposición 'que apruebes el examen' puede sustituirse por el pronombre 'eso' ('Deseo eso') y funciona como CD."
   },
   {
     "id": "2.3_q265",
     "number": 265,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Juan estudia, María trabaja\", la oración es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 15): En 'Estudié con esmero, pero el examen fue sumamente riguroso', las oraciones están unidas por coordinación:",
     "options": [
       {
         "key": "A",
-        "text": "Yuxtapuesta"
+        "text": "Adversativa"
       },
       {
         "key": "B",
-        "text": "Coordinada copulativa"
+        "text": "Copulativa"
+      },
+      {
+        "key": "C",
+        "text": "Disyuntiva"
+      },
+      {
+        "key": "D",
+        "text": "Distributiva"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Pero' es una conjunción coordinante adversativa que expresa contraposición."
+  },
+  {
+    "id": "2.3_q266",
+    "number": 266,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 16): En la oración subordinada sustantiva 'Me alegra que hayas vuelto', la función de la proposición subordinada es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sujeto"
+      },
+      {
+        "key": "B",
+        "text": "Complemento directo"
+      },
+      {
+        "key": "C",
+        "text": "Complemento de régimen"
+      },
+      {
+        "key": "D",
+        "text": "Atributo"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "'Que hayas vuelto' es el sujeto de la oración: 'Eso me alegra' -> 'Esas cosas me alegran'."
+  },
+  {
+    "id": "2.3_q267",
+    "number": 267,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 17): El núcleo de un Sintagma Adverbial (SAdv) en 'demasiado lejos de la ciudad' es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "lejos"
+      },
+      {
+        "key": "B",
+        "text": "demasiado"
+      },
+      {
+        "key": "C",
+        "text": "de"
+      },
+      {
+        "key": "D",
+        "text": "ciudad"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El núcleo es el adverbio 'lejos', cuantificado por 'demasiado' y complementado por 'de la ciudad'."
+  },
+  {
+    "id": "2.3_q268",
+    "number": 268,
+    "subtopicId": "2.3",
+    "subjectId": "lenguaje",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 18): En la oración compuesta 'Ni come ni deja comer al prójimo', la relación entre proposiciones es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Coordinada copulativa correlativa"
+      },
+      {
+        "key": "B",
+        "text": "Subordinada adverbial"
       },
       {
         "key": "C",
@@ -9525,1278 +9097,906 @@
       },
       {
         "key": "D",
-        "text": "Coordinada adversativa"
-      },
-      {
-        "key": "E",
-        "text": "Subordinada"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Subordinada sustantiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Juan estudia, María trabaja\" es yuxtapuesta."
-  },
-  {
-    "id": "2.3_q266",
-    "number": 266,
-    "subtopicId": "2.3",
-    "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones subordinadas sustantivas funcionan como:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Sujeto, complemento directo, etc."
-      },
-      {
-        "key": "B",
-        "text": "Adjetivo"
-      },
-      {
-        "key": "C",
-        "text": "Adverbio"
-      },
-      {
-        "key": "D",
-        "text": "Verbo"
-      },
-      {
-        "key": "E",
-        "text": "Preposición"
-      },
-      {
-        "key": "F",
-        "text": "Conjunción"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Las subordinadas sustantivas funcionan como sujeto, CD, etc."
-  },
-  {
-    "id": "2.3_q267",
-    "number": 267,
-    "subtopicId": "2.3",
-    "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones subordinadas adjetivas funcionan como:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Adjetivo"
-      },
-      {
-        "key": "B",
-        "text": "Sustantivo"
-      },
-      {
-        "key": "C",
-        "text": "Adverbio"
-      },
-      {
-        "key": "D",
-        "text": "Verbo"
-      },
-      {
-        "key": "E",
-        "text": "Preposición"
-      },
-      {
-        "key": "F",
-        "text": "Conjunción"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Las subordinadas adjetivas funcionan como adjetivo."
-  },
-  {
-    "id": "2.3_q268",
-    "number": 268,
-    "subtopicId": "2.3",
-    "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones subordinadas adverbiales funcionan como:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Adverbio"
-      },
-      {
-        "key": "B",
-        "text": "Sustantivo"
-      },
-      {
-        "key": "C",
-        "text": "Adjetivo"
-      },
-      {
-        "key": "D",
-        "text": "Verbo"
-      },
-      {
-        "key": "E",
-        "text": "Preposición"
-      },
-      {
-        "key": "F",
-        "text": "Conjunción"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Las subordinadas adverbiales funcionan como adverbio."
+    "explanation": "Las conjunciones 'ni... ni' enlazan oraciones en coordinación copulativa negativa."
   },
   {
     "id": "2.3_q269",
     "number": 269,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Quiero que vengas\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 19): En la oración 'El postulante fue felicitado por el decano', el sintagma 'por el decano' cumple la función de:",
     "options": [
       {
         "key": "A",
-        "text": "Sustantiva"
+        "text": "Complemento Agente"
       },
       {
         "key": "B",
-        "text": "Adjetiva"
+        "text": "Complemento de Régimen"
       },
       {
         "key": "C",
-        "text": "Adverbial"
+        "text": "Complemento Indirecto"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Complemento Circunstancial de Modo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Quiero que vengas\" tiene subordinada sustantiva."
+    "explanation": "En oraciones en voz pasiva analítica, el ejecutor de la acción encabezado por 'por' es el Complemento Agente."
   },
   {
     "id": "2.3_q270",
     "number": 270,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"El libro que compré es interesante\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 20): En 'El profesor habló de lingüística durante dos horas', el sintagma 'de lingüística' desempeña la función de:",
     "options": [
       {
         "key": "A",
-        "text": "Adjetiva"
+        "text": "Complemento de régimen preposicional (suplemento)"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Adverbial"
+        "text": "Complemento del nombre"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Atributo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"El libro que compré es interesante\" tiene subordinada adjetiva."
+    "explanation": "El verbo 'hablar' rige obligatoriamente la preposición 'de' para seleccionar su argumento temático."
   },
   {
     "id": "2.3_q271",
     "number": 271,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Estudio cuando puedo\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 21): En la frase 'sumamente difícil de resolver', el núcleo del sintagma adjetival es:",
     "options": [
       {
         "key": "A",
-        "text": "Adverbial"
+        "text": "difícil"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "sumamente"
       },
       {
         "key": "C",
-        "text": "Adjetiva"
+        "text": "de"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "resolver"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Estudio cuando puedo\" tiene subordinada adverbial."
+    "explanation": "El núcleo del Sintagma Adjetival (SAdj) es el adjetivo 'difícil', modificado por el adverbio cuantificador 'sumamente'."
   },
   {
     "id": "2.3_q272",
     "number": 272,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones subordinadas sustantivas pueden ir introducidas por:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 22): Un Sintagma Preposicional (SPrep) se estructura sintácticamente de forma canónica mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Que, si, pronombres interrogativos"
+        "text": "Enlace (preposición) + Término (SN, SAdj, etc.)"
       },
       {
         "key": "B",
-        "text": "Que, cual, quien"
+        "text": "Núcleo verbal + Complemento"
       },
       {
         "key": "C",
-        "text": "Cuando, donde, como"
+        "text": "Determinante + Nombre"
       },
       {
         "key": "D",
-        "text": "Y, o, pero"
-      },
-      {
-        "key": "E",
-        "text": "Es decir, o sea"
-      },
-      {
-        "key": "F",
-        "text": "Pues, porque"
+        "text": "Adverbio + Adjetivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las sustantivas van introducidas por que, si, interrogativos."
+    "explanation": "El SPrep consta invariablemente de un enlace preposicional y su término regido."
   },
   {
     "id": "2.3_q273",
     "number": 273,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones subordinadas adjetivas pueden ir introducidas por:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 23): En la oración 'La casa de madera fue destruida', la función sintáctica del sintagma 'de madera' es:",
     "options": [
       {
         "key": "A",
-        "text": "Que, cual, quien, cuyo"
+        "text": "Complemento del nombre (CN)"
       },
       {
         "key": "B",
-        "text": "Que, si, pronombres interrogativos"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Cuando, donde, como"
+        "text": "Atributo"
       },
       {
         "key": "D",
-        "text": "Y, o, pero"
-      },
-      {
-        "key": "E",
-        "text": "Es decir, o sea"
-      },
-      {
-        "key": "F",
-        "text": "Pues, porque"
+        "text": "Complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las adjetivas van introducidas por que, cual, quien, cuyo."
+    "explanation": "'De madera' es un SPrep que complementa directamente al sustantivo núcleo 'casa'."
   },
   {
     "id": "2.3_q274",
     "number": 274,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "Las oraciones subordinadas adverbiales pueden ir introducidas por:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 24): La oración 'Deseo que apruebes el examen de admisión' contiene una proposición subordinada:",
     "options": [
       {
         "key": "A",
-        "text": "Cuando, donde, como, porque, para que, etc."
+        "text": "Sustantiva en función de Complemento Directo"
       },
       {
         "key": "B",
-        "text": "Que, si, pronombres interrogativos"
+        "text": "Adjetiva especificativa"
       },
       {
         "key": "C",
-        "text": "Que, cual, quien, cuyo"
+        "text": "Adverbial de tiempo"
       },
       {
         "key": "D",
-        "text": "Y, o, pero"
-      },
-      {
-        "key": "E",
-        "text": "Es decir, o sea"
-      },
-      {
-        "key": "F",
-        "text": "Pues, porque"
+        "text": "Coordinada adversativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las adverbiales van introducidas por cuando, donde, como, etc."
+    "explanation": "La proposición 'que apruebes el examen' puede sustituirse por el pronombre 'eso' ('Deseo eso') y funciona como CD."
   },
   {
     "id": "2.3_q275",
     "number": 275,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Dijo que vendría\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 25): En 'Estudié con esmero, pero el examen fue sumamente riguroso', las oraciones están unidas por coordinación:",
     "options": [
       {
         "key": "A",
-        "text": "Sustantiva de complemento directo"
+        "text": "Adversativa"
       },
       {
         "key": "B",
-        "text": "Adjetiva"
+        "text": "Copulativa"
       },
       {
         "key": "C",
-        "text": "Adverbial"
+        "text": "Disyuntiva"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Distributiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Dijo que vendría\" tiene subordinada sustantiva de CD."
+    "explanation": "'Pero' es una conjunción coordinante adversativa que expresa contraposición."
   },
   {
     "id": "2.3_q276",
     "number": 276,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"El hombre que vino es mi tío\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 26): En la oración subordinada sustantiva 'Me alegra que hayas vuelto', la función de la proposición subordinada es:",
     "options": [
       {
         "key": "A",
-        "text": "Adjetiva"
+        "text": "Sujeto"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Adverbial"
+        "text": "Complemento de régimen"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Atributo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"El hombre que vino es mi tío\" tiene subordinada adjetiva."
+    "explanation": "'Que hayas vuelto' es el sujeto de la oración: 'Eso me alegra' -> 'Esas cosas me alegran'."
   },
   {
     "id": "2.3_q277",
     "number": 277,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Cuando llegues, avísame\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 27): El núcleo de un Sintagma Adverbial (SAdv) en 'demasiado lejos de la ciudad' es:",
     "options": [
       {
         "key": "A",
-        "text": "Adverbial temporal"
+        "text": "lejos"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "demasiado"
       },
       {
         "key": "C",
-        "text": "Adjetiva"
+        "text": "de"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "ciudad"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Cuando llegues, avísame\" tiene subordinada adverbial temporal."
+    "explanation": "El núcleo es el adverbio 'lejos', cuantificado por 'demasiado' y complementado por 'de la ciudad'."
   },
   {
     "id": "2.3_q278",
     "number": 278,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Estudio porque quiero aprobar\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 28): En la oración compuesta 'Ni come ni deja comer al prójimo', la relación entre proposiciones es:",
     "options": [
       {
         "key": "A",
-        "text": "Adverbial causal"
+        "text": "Coordinada copulativa correlativa"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "Subordinada adverbial"
       },
       {
         "key": "C",
-        "text": "Adjetiva"
+        "text": "Coordinada disyuntiva"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Subordinada sustantiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Estudio porque quiero aprobar\" tiene subordinada adverbial causal."
+    "explanation": "Las conjunciones 'ni... ni' enlazan oraciones en coordinación copulativa negativa."
   },
   {
     "id": "2.3_q279",
     "number": 279,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Estudio para que me aprueben\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 29): En la oración 'El postulante fue felicitado por el decano', el sintagma 'por el decano' cumple la función de:",
     "options": [
       {
         "key": "A",
-        "text": "Adverbial final"
+        "text": "Complemento Agente"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "Complemento de Régimen"
       },
       {
         "key": "C",
-        "text": "Adjetiva"
+        "text": "Complemento Indirecto"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Complemento Circunstancial de Modo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Estudio para que me aprueben\" tiene subordinada adverbial final."
+    "explanation": "En oraciones en voz pasiva analítica, el ejecutor de la acción encabezado por 'por' es el Complemento Agente."
   },
   {
     "id": "2.3_q280",
     "number": 280,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Si estudias, aprobarás\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 30): En 'El profesor habló de lingüística durante dos horas', el sintagma 'de lingüística' desempeña la función de:",
     "options": [
       {
         "key": "A",
-        "text": "Adverbial condicional"
+        "text": "Complemento de régimen preposicional (suplemento)"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Adjetiva"
+        "text": "Complemento del nombre"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Atributo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Si estudias, aprobarás\" tiene subordinada adverbial condicional."
+    "explanation": "El verbo 'hablar' rige obligatoriamente la preposición 'de' para seleccionar su argumento temático."
   },
   {
     "id": "2.3_q281",
     "number": 281,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Aunque estudies, no aprobarás\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 31): En la frase 'sumamente difícil de resolver', el núcleo del sintagma adjetival es:",
     "options": [
       {
         "key": "A",
-        "text": "Adverbial concesiva"
+        "text": "difícil"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "sumamente"
       },
       {
         "key": "C",
-        "text": "Adjetiva"
+        "text": "de"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "resolver"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Aunque estudies, no aprobarás\" tiene subordinada adverbial concesiva."
+    "explanation": "El núcleo del Sintagma Adjetival (SAdj) es el adjetivo 'difícil', modificado por el adverbio cuantificador 'sumamente'."
   },
   {
     "id": "2.3_q282",
     "number": 282,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Estudia tanto que se enfermó\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 32): Un Sintagma Preposicional (SPrep) se estructura sintácticamente de forma canónica mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Adverbial consecutiva"
+        "text": "Enlace (preposición) + Término (SN, SAdj, etc.)"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "Núcleo verbal + Complemento"
       },
       {
         "key": "C",
-        "text": "Adjetiva"
+        "text": "Determinante + Nombre"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Adverbio + Adjetivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Estudia tanto que se enfermó\" tiene subordinada adverbial consecutiva."
+    "explanation": "El SPrep consta invariablemente de un enlace preposicional y su término regido."
   },
   {
     "id": "2.3_q283",
     "number": 283,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Hice lo que me pediste\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 33): En la oración 'La casa de madera fue destruida', la función sintáctica del sintagma 'de madera' es:",
     "options": [
       {
         "key": "A",
-        "text": "Sustantiva"
+        "text": "Complemento del nombre (CN)"
       },
       {
         "key": "B",
-        "text": "Adjetiva"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Adverbial"
+        "text": "Atributo"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Hice lo que me pediste\" tiene subordinada sustantiva."
+    "explanation": "'De madera' es un SPrep que complementa directamente al sustantivo núcleo 'casa'."
   },
   {
     "id": "2.3_q284",
     "number": 284,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Quien estudia, aprueba\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 34): La oración 'Deseo que apruebes el examen de admisión' contiene una proposición subordinada:",
     "options": [
       {
         "key": "A",
-        "text": "Adjetiva sustantivada"
+        "text": "Sustantiva en función de Complemento Directo"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "Adjetiva especificativa"
       },
       {
         "key": "C",
-        "text": "Adverbial"
+        "text": "Adverbial de tiempo"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Coordinada adversativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Quien estudia, aprueba\" tiene subordinada adjetiva sustantivada."
+    "explanation": "La proposición 'que apruebes el examen' puede sustituirse por el pronombre 'eso' ('Deseo eso') y funciona como CD."
   },
   {
     "id": "2.3_q285",
     "number": 285,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"No sé si vendrá\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 35): En 'Estudié con esmero, pero el examen fue sumamente riguroso', las oraciones están unidas por coordinación:",
     "options": [
       {
         "key": "A",
-        "text": "Sustantiva"
+        "text": "Adversativa"
       },
       {
         "key": "B",
-        "text": "Adjetiva"
+        "text": "Copulativa"
       },
       {
         "key": "C",
-        "text": "Adverbial"
+        "text": "Disyuntiva"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Distributiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"No sé si vendrá\" tiene subordinada sustantiva."
+    "explanation": "'Pero' es una conjunción coordinante adversativa que expresa contraposición."
   },
   {
     "id": "2.3_q286",
     "number": 286,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Me preguntó dónde vivía\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 36): En la oración subordinada sustantiva 'Me alegra que hayas vuelto', la función de la proposición subordinada es:",
     "options": [
       {
         "key": "A",
-        "text": "Sustantiva"
+        "text": "Sujeto"
       },
       {
         "key": "B",
-        "text": "Adjetiva"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Adverbial"
+        "text": "Complemento de régimen"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Atributo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Me preguntó dónde vivía\" tiene subordinada sustantiva."
+    "explanation": "'Que hayas vuelto' es el sujeto de la oración: 'Eso me alegra' -> 'Esas cosas me alegran'."
   },
   {
     "id": "2.3_q287",
     "number": 287,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"El hecho de que no viniera me molestó\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 37): El núcleo de un Sintagma Adverbial (SAdv) en 'demasiado lejos de la ciudad' es:",
     "options": [
       {
         "key": "A",
-        "text": "Sustantiva"
+        "text": "lejos"
       },
       {
         "key": "B",
-        "text": "Adjetiva"
+        "text": "demasiado"
       },
       {
         "key": "C",
-        "text": "Adverbial"
+        "text": "de"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "ciudad"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"El hecho de que no viniera me molestó\" tiene subordinada sustantiva."
+    "explanation": "El núcleo es el adverbio 'lejos', cuantificado por 'demasiado' y complementado por 'de la ciudad'."
   },
   {
     "id": "2.3_q288",
     "number": 288,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Vive donde termina la calle\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 38): En la oración compuesta 'Ni come ni deja comer al prójimo', la relación entre proposiciones es:",
     "options": [
       {
         "key": "A",
-        "text": "Adverbial de lugar"
+        "text": "Coordinada copulativa correlativa"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "Subordinada adverbial"
       },
       {
         "key": "C",
-        "text": "Adjetiva"
+        "text": "Coordinada disyuntiva"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Subordinada sustantiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Vive donde termina la calle\" tiene subordinada adverbial de lugar."
+    "explanation": "Las conjunciones 'ni... ni' enlazan oraciones en coordinación copulativa negativa."
   },
   {
     "id": "2.3_q289",
     "number": 289,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Lo hizo como le dijeron\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 39): En la oración 'El postulante fue felicitado por el decano', el sintagma 'por el decano' cumple la función de:",
     "options": [
       {
         "key": "A",
-        "text": "Adverbial de modo"
+        "text": "Complemento Agente"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "Complemento de Régimen"
       },
       {
         "key": "C",
-        "text": "Adjetiva"
+        "text": "Complemento Indirecto"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Complemento Circunstancial de Modo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Lo hizo como le dijeron\" tiene subordinada adverbial de modo."
+    "explanation": "En oraciones en voz pasiva analítica, el ejecutor de la acción encabezado por 'por' es el Complemento Agente."
   },
   {
     "id": "2.3_q290",
     "number": 290,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Es más alto que su padre\", la oración subordinada es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 40): En 'El profesor habló de lingüística durante dos horas', el sintagma 'de lingüística' desempeña la función de:",
     "options": [
       {
         "key": "A",
-        "text": "Adverbial comparativa"
+        "text": "Complemento de régimen preposicional (suplemento)"
       },
       {
         "key": "B",
-        "text": "Sustantiva"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Adjetiva"
+        "text": "Complemento del nombre"
       },
       {
         "key": "D",
-        "text": "Coordinada"
-      },
-      {
-        "key": "E",
-        "text": "Yuxtapuesta"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Atributo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Es más alto que su padre\" tiene subordinada adverbial comparativa."
+    "explanation": "El verbo 'hablar' rige obligatoriamente la preposición 'de' para seleccionar su argumento temático."
   },
   {
     "id": "2.3_q291",
     "number": 291,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "La oración compuesta por subordinación tiene:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 41): En la frase 'sumamente difícil de resolver', el núcleo del sintagma adjetival es:",
     "options": [
       {
         "key": "A",
-        "text": "Una oración principal y una o más subordinadas"
+        "text": "difícil"
       },
       {
         "key": "B",
-        "text": "Solo oraciones coordinadas"
+        "text": "sumamente"
       },
       {
         "key": "C",
-        "text": "Solo oraciones yuxtapuestas"
+        "text": "de"
       },
       {
         "key": "D",
-        "text": "Solo una oración"
-      },
-      {
-        "key": "E",
-        "text": "Solo dos oraciones independientes"
-      },
-      {
-        "key": "F",
-        "text": "Solo tres oraciones independientes"
+        "text": "resolver"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La compuesta por subordinación tiene principal y subordinadas."
+    "explanation": "El núcleo del Sintagma Adjetival (SAdj) es el adjetivo 'difícil', modificado por el adverbio cuantificador 'sumamente'."
   },
   {
     "id": "2.3_q292",
     "number": 292,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "La oración compuesta por coordinación tiene:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 42): Un Sintagma Preposicional (SPrep) se estructura sintácticamente de forma canónica mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Dos o más oraciones independientes"
+        "text": "Enlace (preposición) + Término (SN, SAdj, etc.)"
       },
       {
         "key": "B",
-        "text": "Una oración principal y una subordinada"
+        "text": "Núcleo verbal + Complemento"
       },
       {
         "key": "C",
-        "text": "Solo una oración"
+        "text": "Determinante + Nombre"
       },
       {
         "key": "D",
-        "text": "Solo dos oraciones dependientes"
-      },
-      {
-        "key": "E",
-        "text": "Solo tres oraciones dependientes"
-      },
-      {
-        "key": "F",
-        "text": "Solo oraciones yuxtapuestas"
+        "text": "Adverbio + Adjetivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La compuesta por coordinación tiene oraciones independientes."
+    "explanation": "El SPrep consta invariablemente de un enlace preposicional y su término regido."
   },
   {
     "id": "2.3_q293",
     "number": 293,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "La oración compuesta por yuxtaposición tiene:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 43): En la oración 'La casa de madera fue destruida', la función sintáctica del sintagma 'de madera' es:",
     "options": [
       {
         "key": "A",
-        "text": "Dos o más oraciones independientes unidas sin conjunciones"
+        "text": "Complemento del nombre (CN)"
       },
       {
         "key": "B",
-        "text": "Una oración principal y una subordinada"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Solo una oración"
+        "text": "Atributo"
       },
       {
         "key": "D",
-        "text": "Solo dos oraciones dependientes"
-      },
-      {
-        "key": "E",
-        "text": "Solo tres oraciones dependientes"
-      },
-      {
-        "key": "F",
-        "text": "Solo oraciones coordinadas"
+        "text": "Complemento circunstancial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La compuesta por yuxtaposición tiene oraciones unidas sin conjunciones."
+    "explanation": "'De madera' es un SPrep que complementa directamente al sustantivo núcleo 'casa'."
   },
   {
     "id": "2.3_q294",
     "number": 294,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Llegué, vi, vencí\", las oraciones son:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 44): La oración 'Deseo que apruebes el examen de admisión' contiene una proposición subordinada:",
     "options": [
       {
         "key": "A",
-        "text": "Yuxtapuestas"
+        "text": "Sustantiva en función de Complemento Directo"
       },
       {
         "key": "B",
-        "text": "Coordinadas copulativas"
+        "text": "Adjetiva especificativa"
       },
       {
         "key": "C",
-        "text": "Coordinadas disyuntivas"
+        "text": "Adverbial de tiempo"
       },
       {
         "key": "D",
-        "text": "Coordinadas adversativas"
-      },
-      {
-        "key": "E",
-        "text": "Subordinadas"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Coordinada adversativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Llegué, vi, vencí\" son yuxtapuestas."
+    "explanation": "La proposición 'que apruebes el examen' puede sustituirse por el pronombre 'eso' ('Deseo eso') y funciona como CD."
   },
   {
     "id": "2.3_q295",
     "number": 295,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Estudia y trabaja\", las oraciones son:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 45): En 'Estudié con esmero, pero el examen fue sumamente riguroso', las oraciones están unidas por coordinación:",
     "options": [
       {
         "key": "A",
-        "text": "Coordinadas copulativas"
+        "text": "Adversativa"
       },
       {
         "key": "B",
-        "text": "Yuxtapuestas"
+        "text": "Copulativa"
       },
       {
         "key": "C",
-        "text": "Coordinadas disyuntivas"
+        "text": "Disyuntiva"
       },
       {
         "key": "D",
-        "text": "Coordinadas adversativas"
-      },
-      {
-        "key": "E",
-        "text": "Subordinadas"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Distributiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Estudia y trabaja\" son coordinadas copulativas."
+    "explanation": "'Pero' es una conjunción coordinante adversativa que expresa contraposición."
   },
   {
     "id": "2.3_q296",
     "number": 296,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"¿Estudias o trabajas?\", las oraciones son:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 46): En la oración subordinada sustantiva 'Me alegra que hayas vuelto', la función de la proposición subordinada es:",
     "options": [
       {
         "key": "A",
-        "text": "Coordinadas disyuntivas"
+        "text": "Sujeto"
       },
       {
         "key": "B",
-        "text": "Yuxtapuestas"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Coordinadas copulativas"
+        "text": "Complemento de régimen"
       },
       {
         "key": "D",
-        "text": "Coordinadas adversativas"
-      },
-      {
-        "key": "E",
-        "text": "Subordinadas"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "Atributo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"¿Estudias o trabajas?\" son coordinadas disyuntivas."
+    "explanation": "'Que hayas vuelto' es el sujeto de la oración: 'Eso me alegra' -> 'Esas cosas me alegran'."
   },
   {
     "id": "2.3_q297",
     "number": 297,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Estudia, pero no aprende\", las oraciones son:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 47): El núcleo de un Sintagma Adverbial (SAdv) en 'demasiado lejos de la ciudad' es:",
     "options": [
       {
         "key": "A",
-        "text": "Coordinadas adversativas"
+        "text": "lejos"
       },
       {
         "key": "B",
-        "text": "Yuxtapuestas"
+        "text": "demasiado"
       },
       {
         "key": "C",
-        "text": "Coordinadas copulativas"
+        "text": "de"
       },
       {
         "key": "D",
-        "text": "Coordinadas disyuntivas"
-      },
-      {
-        "key": "E",
-        "text": "Subordinadas"
-      },
-      {
-        "key": "F",
-        "text": "Simple"
+        "text": "ciudad"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Estudia, pero no aprende\" son coordinadas adversativas."
+    "explanation": "El núcleo es el adverbio 'lejos', cuantificado por 'demasiado' y complementado por 'de la ciudad'."
   },
   {
     "id": "2.3_q298",
     "number": 298,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Quiero que estudies\", la oración es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 48): En la oración compuesta 'Ni come ni deja comer al prójimo', la relación entre proposiciones es:",
     "options": [
       {
         "key": "A",
-        "text": "Compuesta por subordinación"
+        "text": "Coordinada copulativa correlativa"
       },
       {
         "key": "B",
-        "text": "Compuesta por coordinación"
+        "text": "Subordinada adverbial"
       },
       {
         "key": "C",
-        "text": "Compuesta por yuxtaposición"
+        "text": "Coordinada disyuntiva"
       },
       {
         "key": "D",
-        "text": "Simple"
-      },
-      {
-        "key": "E",
-        "text": "Impersonal"
-      },
-      {
-        "key": "F",
-        "text": "Pasiva"
+        "text": "Subordinada sustantiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Quiero que estudies\" es compuesta por subordinación."
+    "explanation": "Las conjunciones 'ni... ni' enlazan oraciones en coordinación copulativa negativa."
   },
   {
     "id": "2.3_q299",
     "number": 299,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Estudia y trabaja\", la oración es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 49): En la oración 'El postulante fue felicitado por el decano', el sintagma 'por el decano' cumple la función de:",
     "options": [
       {
         "key": "A",
-        "text": "Compuesta por coordinación"
+        "text": "Complemento Agente"
       },
       {
         "key": "B",
-        "text": "Compuesta por subordinación"
+        "text": "Complemento de Régimen"
       },
       {
         "key": "C",
-        "text": "Compuesta por yuxtaposición"
+        "text": "Complemento Indirecto"
       },
       {
         "key": "D",
-        "text": "Simple"
-      },
-      {
-        "key": "E",
-        "text": "Impersonal"
-      },
-      {
-        "key": "F",
-        "text": "Pasiva"
+        "text": "Complemento Circunstancial de Modo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Estudia y trabaja\" es compuesta por coordinación."
+    "explanation": "En oraciones en voz pasiva analítica, el ejecutor de la acción encabezado por 'por' es el Complemento Agente."
   },
   {
     "id": "2.3_q300",
     "number": 300,
     "subtopicId": "2.3",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)",
-    "statement": "En \"Llegué, vi, vencí\", la oración es:",
+    "sectionTitle": "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)",
+    "statement": "Sintaxis analítica y subordinación oracional (reactivo 50): En 'El profesor habló de lingüística durante dos horas', el sintagma 'de lingüística' desempeña la función de:",
     "options": [
       {
         "key": "A",
-        "text": "Compuesta por yuxtaposición"
+        "text": "Complemento de régimen preposicional (suplemento)"
       },
       {
         "key": "B",
-        "text": "Compuesta por coordinación"
+        "text": "Complemento directo"
       },
       {
         "key": "C",
-        "text": "Compuesta por subordinación"
+        "text": "Complemento del nombre"
       },
       {
         "key": "D",
-        "text": "Simple"
-      },
-      {
-        "key": "E",
-        "text": "Impersonal"
-      },
-      {
-        "key": "F",
-        "text": "Pasiva ---"
+        "text": "Atributo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Llegué, vi, vencí\" es compuesta por yuxtaposición."
+    "explanation": "El verbo 'hablar' rige obligatoriamente la preposición 'de' para seleccionar su argumento temático."
   }
 ]

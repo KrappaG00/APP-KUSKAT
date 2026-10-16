@@ -15,8 +15,9 @@
                 "SECCIÓN II: PROPIEDADES DE LOS NÚMEROS REALES (61–110)": 50,
                 "SECCIÓN III: EXPANSIÓN DECIMAL (111–150)": 40,
                 "SECCIÓN IV: ORDEN Y COMPARACIÓN (151–190)": 40,
-                "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)": 50,
-                "SECCIÓN VI: DENSIDAD E INTERVALOS (241–300)": 60
+                "SECCIÓN V: OPERACIONES CON NÚMEROS REALES (191–240)": 10,
+                "SECCIÓN V: EXPONENTES, POTENCIAS Y RADICALES (201–250)": 50,
+                "SECCIÓN VI: RACIONALIZACIÓN Y OPERACIONES CON RADICALES (251–300)": 50
               }
             },
             "1.2": {
@@ -29,10 +30,9 @@
                 "SECCIÓN IV: DISTANCIA ENTRE PUNTOS (91–120)": 30,
                 "SECCIÓN V: PUNTO MEDIO (121–150)": 30,
                 "SECCIÓN VI: DESPLAZAMIENTOS EN LA RECTA REAL (151–180)": 30,
-                "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)": 30,
-                "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)": 30,
-                "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)": 30,
-                "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)": 30
+                "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)": 20,
+                "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)": 50,
+                "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)": 50
               }
             },
             "1.3": {
@@ -42,8 +42,9 @@
                 "SECCIÓN I: CONCEPTOS BÁSICOS DE CONJUNTOS (1–50)": 50,
                 "SECCIÓN II: PERTENENCIA Y SUBCONJUNTOS (51–100)": 50,
                 "SECCIÓN III: OPERACIONES CON CONJUNTOS (101–160)": 60,
-                "SECCIÓN IV: INTERVALOS (161–220)": 60,
-                "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)": 80
+                "SECCIÓN IV: INTERVALOS (161–220)": 40,
+                "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)": 50,
+                "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)": 50
               }
             },
             "1.4": {
@@ -53,9 +54,9 @@
                 "SECCIÓN I: DEFINICIÓN Y CONCEPTOS BÁSICOS (1–40)": 40,
                 "SECCIÓN II: PROPIEDADES DEL VALOR ABSOLUTO (41–90)": 50,
                 "SECCIÓN III: ECUACIONES CON VALOR ABSOLUTO (91–150)": 60,
-                "SECCIÓN IV: DESIGUALDADES CON VALOR ABSOLUTO (151–210)": 60,
-                "SECCIÓN V: DISTANCIA Y APLICACIONES (211–260)": 50,
-                "SECCIÓN VI: PROBLEMAS AVANZADOS (261–300)": 40
+                "SECCIÓN IV: DESIGUALDADES CON VALOR ABSOLUTO (151–210)": 50,
+                "SECCIÓN V: DESIGUALDADES LINEALES Y NO LINEALES (201–250)": 50,
+                "SECCIÓN VI: ECUACIONES CUADRÁTICAS Y DISCRIMINANTE (251–300)": 50
               }
             },
             "1.5": {
@@ -66,8 +67,8 @@
                 "SECCIÓN II: PRODUCTOS NOTABLES (41–90)": 50,
                 "SECCIÓN III: FACTORIZACIÓN (91–150)": 60,
                 "SECCIÓN IV: ECUACIONES LINEALES (151–200)": 50,
-                "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)": 50,
-                "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)": 50
+                "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)": 50,
+                "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)": 50
               }
             },
             "1.6": {
@@ -77,9 +78,9 @@
                 "SECCIÓN I: CONCEPTOS BÁSICOS DE GEOMETRÍA (1–40)": 40,
                 "SECCIÓN II: TEOREMA DE PITÁGORAS (41–90)": 50,
                 "SECCIÓN III: RAZONES TRIGONOMÉTRICAS (91–160)": 70,
-                "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)": 50,
-                "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)": 40,
-                "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)": 50
+                "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)": 40,
+                "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)": 50,
+                "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)": 50
               }
             },
             "1.7": {
@@ -89,9 +90,9 @@
                 "SECCIÓN I: CONCEPTOS BÁSICOS DE FUNCIONES (1–40)": 40,
                 "SECCIÓN II: FUNCIÓN LINEAL (41–100)": 60,
                 "SECCIÓN III: FUNCIÓN CUADRÁTICA (101–170)": 70,
-                "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)": 50,
-                "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)": 50,
-                "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)": 30
+                "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)": 30,
+                "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)": 50,
+                "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)": 50
               }
             }
           }
@@ -108,8 +109,8 @@
                 "SECCIÓN III: ACENTUACIÓN – PALABRAS ESDRÚJULAS Y SOBRESDRÚJULAS (81–120)": 40,
                 "SECCIÓN IV: TILDE DIACRÍTICA (121–170)": 50,
                 "SECCIÓN V: TILDE DISOLVENTE (171–200)": 30,
-                "SECCIÓN VI: USO DE GRAFÍAS (201–250)": 50,
-                "SECCIÓN VII: SIGNOS DE PUNTUACIÓN (251–300)": 50
+                "SECCIÓN VI: ABREVIATURAS, SIGLAS, ACRÓNIMOS Y SIGNOS DE PUNTUACIÓN (201–250)": 50,
+                "SECCIÓN VII: ORTOGRAFÍA DUDOSA Y PALABRAS HOMÓFONAS (251–300)": 50
               }
             },
             "2.2": {
@@ -120,8 +121,8 @@
                 "SECCIÓN II: COHESIÓN – MECANISMOS DE REFERENCIA (41–90)": 50,
                 "SECCIÓN III: CONECTORES Y MARCADORES TEXTUALES (91–150)": 60,
                 "SECCIÓN IV: ESTRUCTURA DE TEXTOS EXPOSITIVOS (151–200)": 50,
-                "SECCIÓN V: ESTRUCTURA DE TEXTOS ARGUMENTATIVOS (201–250)": 50,
-                "SECCIÓN VI: TIPOS DE PÁRRAFOS Y PROGRESIÓN TEMÁTICA (251–300)": 50
+                "SECCIÓN V: ORGANIZADORES VISUALES DE LA INFORMACIÓN (201–250)": 50,
+                "SECCIÓN VI: COHESIÓN LÉXICA Y CONECTORES DE CAUSA/CONSECUENCIA (251–300)": 50
               }
             },
             "2.3": {
@@ -132,8 +133,8 @@
                 "SECCIÓN II: EL SINTAGMA NOMINAL Y SUS COMPONENTES (41–90)": 50,
                 "SECCIÓN III: EL SINTAGMA VERBAL Y SUS COMPONENTES (91–150)": 60,
                 "SECCIÓN IV: SUJETO Y PREDICADO (151–200)": 50,
-                "SECCIÓN V: COMPLEMENTOS DEL VERBO (201–250)": 50,
-                "SECCIÓN VI: TIPOS DE ORACIONES Y COORDINACIÓN/SUBORDINACIÓN (251–300)": 50
+                "SECCIÓN V: PERÍFRASIS VERBALES MODALES Y ASPECTUALES (201–250)": 50,
+                "SECCIÓN VI: ANÁLISIS SINTAGMÁTICO Y ESTRUCTURAS ORACIONALES (251–300)": 50
               }
             },
             "2.4": {
@@ -143,9 +144,9 @@
                 "SECCIÓN I: FUNDAMENTOS DE INVESTIGACIÓN CIENTÍFICA (1–40)": 40,
                 "SECCIÓN II: NORMAS APA – CITACIÓN (41–100)": 60,
                 "SECCIÓN III: ESTRUCTURA DEL ENSAYO ACADÉMICO (101–160)": 60,
-                "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)": 60,
-                "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)": 50,
-                "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)": 30
+                "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)": 40,
+                "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)": 50,
+                "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)": 50
               }
             },
             "2.5": {
@@ -156,8 +157,8 @@
                 "SECCIÓN II: ACTOS DE HABLA (41–100)": 60,
                 "SECCIÓN III: DEIXIS Y REFERENCIA (101–150)": 50,
                 "SECCIÓN IV: IMPLICATURA Y PRESUPOSICIÓN (151–200)": 50,
-                "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)": 50,
-                "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)": 50
+                "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)": 50,
+                "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)": 50
               }
             }
           }
@@ -172,8 +173,9 @@
                 "SECCIÓN I: LITERATURA CLÁSICA GRIEGA (1–60)": 60,
                 "SECCIÓN II: EDAD MEDIA (61–120)": 60,
                 "SECCIÓN III: RENACIMIENTO (121–180)": 60,
-                "SECCIÓN IV: BARROCO (181–240)": 60,
-                "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)": 60
+                "SECCIÓN IV: BARROCO (181–240)": 20,
+                "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)": 50,
+                "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)": 50
               }
             },
             "3.2": {
@@ -184,9 +186,9 @@
                 "SECCIÓN II: ROMANTICISMO – AUTORES Y OBRAS (41–90)": 50,
                 "SECCIÓN III: REALISMO – CONCEPTOS BÁSICOS (91–140)": 50,
                 "SECCIÓN IV: REALISMO – AUTORES Y OBRAS (141–190)": 50,
-                "SECCIÓN V: NATURALISMO (191–230)": 40,
-                "SECCIÓN VI: COMPARACIÓN ROMANTICISMO VS REALISMO (231–270)": 40,
-                "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)": 30
+                "SECCIÓN V: NATURALISMO (191–230)": 10,
+                "SECCIÓN V: MANIERISMO Y TEATRO BARROCO ESPAÑOL (201–250)": 50,
+                "SECCIÓN VI: CULTERANISMO, CONCEPTISMO Y TEATRO NEOCLÁSICO (251–300)": 50
               }
             },
             "3.3": {
@@ -197,9 +199,9 @@
                 "SECCIÓN II: VANGUARDIAS – AUTORES Y OBRAS (41–90)": 50,
                 "SECCIÓN III: EXISTENCIALISMO Y ABSURDO (91–140)": 50,
                 "SECCIÓN IV: NOVELA CONTEMPORÁNEA (141–190)": 50,
-                "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)": 40,
-                "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)": 40,
-                "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)": 30
+                "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)": 10,
+                "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)": 50,
+                "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)": 50
               }
             },
             "3.4": {
@@ -210,9 +212,9 @@
                 "SECCIÓN II: LITERATURA COLONIAL (41–80)": 40,
                 "SECCIÓN III: ROMANTICISMO AMERICANO (81–120)": 40,
                 "SECCIÓN IV: MODERNISMO – RUBÉN DARÍO (121–170)": 50,
-                "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)": 40,
-                "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)": 50,
-                "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)": 40
+                "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)": 30,
+                "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)": 50,
+                "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)": 50
               }
             },
             "3.5": {
@@ -223,9 +225,9 @@
                 "SECCIÓN II: LITERATURA COLONIAL SALVADOREÑA (41–80)": 40,
                 "SECCIÓN III: ROMANTICISMO Y COSTUMBRISMO SALVADOREÑO (81–120)": 40,
                 "SECCIÓN IV: MODERNISMO SALVADOREÑO (121–160)": 40,
-                "SECCIÓN V: GENERACIÓN COMPROMETIDA (161–220)": 60,
-                "SECCIÓN VI: LITERATURA CONTEMPORÁNEA SALVADOREÑA (221–260)": 40,
-                "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (261–300)": 40
+                "SECCIÓN V: GENERACIÓN COMPROMETIDA (161–220)": 40,
+                "SECCIÓN V: REGIONALISMO E INDIGENISMO HISPANOAMERICANO (201–250)": 50,
+                "SECCIÓN VI: EL BOOM LATINOAMERICANO Y VANGUARDISMO (251–300)": 50
               }
             }
           }
@@ -241,7 +243,8 @@
                 "Sección II: Independencia y Federación (41–80)": 40,
                 "Sección III: Regímenes Militares y Conflicto (81–140)": 60,
                 "Sección IV: Acuerdos de Paz y Posguerra (141–200)": 60,
-                "Sección V: El Salvador Contemporáneo (201–300)": 100
+                "SECCIÓN V: REPÚBLICA CAFETALERA, MODELO ISI Y DICTADURAS MILITARES (201–250)": 50,
+                "SECCIÓN VI: CONFLICTO ARMADO Y ACUERDOS DE PAZ DE CHAPULTEPEC (251–300)": 50
               }
             },
             "4.2": {
@@ -252,8 +255,8 @@
                 "Módulo 2: Reactivos 51 - 100": 50,
                 "Módulo 3: Reactivos 101 - 150": 50,
                 "Módulo 4: Reactivos 151 - 200": 50,
-                "Módulo 5: Reactivos 201 - 250": 50,
-                "Módulo 6 Final: Reactivos 251 - 300": 50
+                "SECCIÓN V: GUERRA FRÍA, CAÍDA DEL MURO Y REVOLUCIONES INDUSTRIALES (201–250)": 50,
+                "SECCIÓN VI: MACROECONOMÍA SALVADOREÑA Y DOLARIZACIÓN (251–300)": 50
               }
             },
             "4.3": {
@@ -265,7 +268,8 @@
                 "Sección III: Globalización (81–120)": 40,
                 "Sección IV: Demografía (121–160)": 40,
                 "Sección V: Medio Ambiente y Recursos (161–200)": 40,
-                "Sección VI: Problemas Sociales Contemporáneos (201–300)": 100
+                "SECCIÓN V: IDENTIDAD CULTURAL, URBANIZACIÓN Y FUNCIÓN CONSULAR (201–250)": 50,
+                "SECCIÓN VI: LEGISLACIÓN AMBIENTAL, VULNERABILIDAD Y ODS (251–300)": 50
               }
             },
             "4.4": {
@@ -275,9 +279,9 @@
                 "Sección I: Derechos Humanos – Conceptos Básicos (1–50)": 50,
                 "Sección II: Evolución Histórica de los Derechos Humanos (51–100)": 50,
                 "Sección III: Tratados Internacionales de Derechos Humanos (101–150)": 50,
-                "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)": 60,
-                "Sección V: Migración Contemporánea (211–260)": 50,
-                "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)": 40
+                "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)": 50,
+                "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)": 50,
+                "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)": 50
               }
             }
           }
@@ -292,8 +296,9 @@
                 "SECCIÓN I: PROPIEDADES DE LA MATERIA VIVA (1–50)": 50,
                 "SECCIÓN II: CICLO CELULAR – MITOSIS Y MEIOSIS (51–120)": 70,
                 "SECCIÓN III: GENÉTICA MENDELIANA (121–180)": 60,
-                "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)": 60,
-                "SECCIÓN V: BIOLOGÍA CELULAR Y HERENCIA – APLICACIONES (241–300)": 60
+                "SECCIÓN IV: GENÉTICA MOLECULAR – ADN Y HERENCIA (181–240)": 20,
+                "SECCIÓN V: METABOLISMO ENERGÉTICO: RESPIRACIÓN CELULAR Y FOTOSÍNTESIS (201–250)": 50,
+                "SECCIÓN VI: GENÉTICA MOLECULAR: REPLICACIÓN, TRANSCRIPCIÓN Y TRADUCCIÓN (251–300)": 50
               }
             },
             "5.2": {
@@ -303,8 +308,8 @@
                 "SECCIÓN I: PROPIEDADES DE LA MATERIA (1–50)": 50,
                 "SECCIÓN II: ESTRUCTURA ATÓMICA Y ENLACES (51–120)": 70,
                 "SECCIÓN III: TIPOS DE REACCIONES QUÍMICAS (121–200)": 80,
-                "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)": 50,
-                "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)": 50
+                "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)": 50,
+                "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)": 50
               }
             },
             "5.3": {
@@ -314,8 +319,9 @@
                 "SECCIÓN I: CONCEPTOS BÁSICOS Y MAGNITUDES (1–50)": 50,
                 "SECCIÓN II: VECTORES – SUMA Y DESCOMPOSICIÓN (51–120)": 70,
                 "SECCIÓN III: CINEMÁTICA – MRU (121–180)": 60,
-                "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)": 60,
-                "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)": 60
+                "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)": 20,
+                "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)": 50,
+                "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)": 50
               }
             },
             "5.4": {
@@ -326,8 +332,8 @@
                 "SECCIÓN II: NOMENCLATURA BINOMIAL (51–100)": 50,
                 "SECCIÓN III: DOMINIOS Y REINOS (101–150)": 50,
                 "SECCIÓN IV: CINCO REINOS – DETALLE (151–200)": 50,
-                "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)": 50,
-                "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)": 50
+                "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)": 50,
+                "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)": 50
               }
             }
           }

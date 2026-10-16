@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Un tranvía llamado Deseo?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En las 'Rimas' de Gustavo Adolfo Bécquer, la poesía se define primordialmente como:",
     "options": [
       {
         "key": "A",
-        "text": "Tennessee Williams"
+        "text": "Un sentimiento inefable, espiritual y misterioso identificado con la amada y el alma"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Un ejercicio métrico riguroso para ganar certámenes cortesanos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Un discurso político para incitar a las masas a la huelga general"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Una recopilación científica de fenómenos de la naturaleza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Tennessee Williams."
+    "explanation": "En la Rima XXI ('¿Qué es poesía? Poesía... eres tú'), Bécquer funde poesía, belleza y sentimiento amoroso."
   },
   {
     "id": "3.3_q202",
     "number": 202,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de La gata sobre el tejado de zinc?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "Las 'Leyendas' de Bécquer (como 'El monte de las ánimas' o 'El rayo de luna') se inscriben en el Romanticismo por su:",
     "options": [
       {
         "key": "A",
-        "text": "Tennessee Williams"
+        "text": "Atmósfera nocturna, misterio sobrenatural, ruinas medievales y obsesión por ideales inalcanzables"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Fidelidad rigurosa a las estadísticas económicas del siglo XIX"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Descripción exacta de la vida en las fábricas textiles modernas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Enfoque humorístico e irónico sobre las tradiciones populares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Tennessee Williams."
+    "explanation": "Bécquer explora el terror gótico, la noche de difuntos y la búsqueda de un ideal de belleza que conduce a la locura."
   },
   {
     "id": "3.3_q203",
     "number": 203,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de El zoo de cristal?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En la 'Canción del pirata' de José de Espronceda, el pirata proclama como valor supremo de su existencia:",
     "options": [
       {
         "key": "A",
-        "text": "Tennessee Williams"
+        "text": "'Que es mi barco mi tesoro, que es mi dios la libertad, mi ley la fuerza y el viento, mi única patria la mar'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "'El oro del rey de Inglaterra y las sedas de los mercaderes'"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "'La paz de los monasterios y el perdón de los pecados'"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "'La obediencia incondicional a las leyes del parlamento'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Tennessee Williams."
+    "explanation": "Espronceda encarna el arquetipo del héroe romántico rebelde que desafía todas las convenciones y poderes opresores."
   },
   {
     "id": "3.3_q204",
     "number": 204,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Deseo bajo los olmos?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "El Naturalismo literario, fundado por Émile Zola ('La novela experimental'), se fundamentó teóricamente en:",
     "options": [
       {
         "key": "A",
-        "text": "Eugene O'Neill"
+        "text": "El determinismo biológico (herencia genética) y el determinismo social (ambiente de clase)"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La exaltación de los sueños espirituales y los milagros religiosos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La convicción de que el hombre es absolutamente libre y puro por naturaleza"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La copia literal de las tragedias griegas clásicas de Sófocles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Eugene O'Neill."
+    "explanation": "Zola concebía al novelista como un científico que disecciona las patologías humanas provocadas por el medio y la herencia."
   },
   {
     "id": "3.3_q205",
     "number": 205,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Largo viaje hacia la noche?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En la novela 'Marianela' de Benito Pérez Galdós, el conflicto trágico se desata cuando:",
     "options": [
       {
         "key": "A",
-        "text": "Eugene O'Neill"
+        "text": "Pablo recupera la vista tras una operación y Marianela, temiendo el rechazo a su fealdad física, muere de dolor"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El hermano de Marianela es encarcelado injustamente por robar ganado"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Marianela se casa en secreto con el médico Teodoro Golfín"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Un terremoto destruye las minas de Socartes matando a los personajes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Eugene O'Neill."
+    "explanation": "Galdós contrapone la belleza espiritual e interior de Nela frente al choque despiadado con la realidad visual material."
   },
   {
     "id": "3.3_q206",
     "number": 206,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de El emperador Jones?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En 'Fortunata y Jacinta' de Galdós, la obra cumbre del Realismo español retrata:",
     "options": [
       {
         "key": "A",
-        "text": "Eugene O'Neill"
+        "text": "La sociedad madrileña del siglo XIX a través de dos mujeres de diferentes clases sociales unidas por el mismo hombre"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Las expediciones de los piratas caribeños contra la armada española"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La persecución inquisitorial a los dramaturgos barrocos"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Un amor pastoril en las colinas de Asturias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Eugene O'Neill."
+    "explanation": "Galdós analiza con maestría psicológica la burguesía y el pueblo llano madrileño en el marco de la Restauración borbónica."
   },
   {
     "id": "3.3_q207",
     "number": 207,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Calígula?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "El Realismo literario europeo del siglo XIX se caracterizó estilísticamente por:",
     "options": [
       {
         "key": "A",
-        "text": "Albert Camus"
+        "text": "El narrador omnisciente, la verosimilitud social, la observación minuciosa y la lengua viva de cada estrato"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El verso libre con metáforas herméticas y asociaciones ilógicas"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El uso de dioses del Olimpo como protagonistas de la trama"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La eliminación deliberada de todo diálogo en la novela"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Albert Camus."
+    "explanation": "El Realismo documentaba la sociedad burguesa contemporánea con precisión casi sociológica y psicológica."
   },
   {
     "id": "3.3_q208",
     "number": 208,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Los justos?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En 'Madame Bovary' de Gustave Flaubert, el término 'bovarismo' pasó a definir psicológicamente:",
     "options": [
       {
         "key": "A",
-        "text": "Albert Camus"
+        "text": "La insatisfacción crónica con la realidad mediocre frente a fantasías románticas inalcanzables"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La generosidad desinteresada con los enfermos de los hospitales rurales"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El amor desmedido por la investigación botánica y farmacéutica"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La valentía heroica en el campo de batalla frente al invasor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Albert Camus."
+    "explanation": "Emma Bovary es víctima de la disonancia entre sus ilusiones novelescas y la rutina asfixiante de su matrimonio de provincias."
   },
   {
     "id": "3.3_q209",
     "number": 209,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de El diablo y Dios?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En 'Crimen y castigo' de Fiódor Dostoyevski, el dilema que atormenta a Raskólnikov tras cometer el asesinato es:",
     "options": [
       {
         "key": "A",
-        "text": "Jean-Paul Sartre"
+        "text": "La culpa psicológica demoledora y la búsqueda de redención espiritual frente a su teoría del 'hombre extraordinario'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El temor exclusivo a perder el dinero robado a la anciana usurera"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El odio hacia sus compañeros de la universidad que lo delataron"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "El resentimiento por no haber obtenido honores en el ejército zarista"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Jean-Paul Sartre."
+    "explanation": "Dostoyevski sondea los abismos de la conciencia humana, la expiación moral del pecado y la resurrección espiritual."
   },
   {
     "id": "3.3_q210",
     "number": 210,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Las manos sucias?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En 'Germinal' de Émile Zola, la trama expone con rigor naturalista:",
     "options": [
       {
         "key": "A",
-        "text": "Jean-Paul Sartre"
+        "text": "La miseria deshumanizadora, la explotación laboral y la huelga desesperada de los mineros del carbón en Francia"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La vida ociosa y refinada de la aristocracia en los palacios de Versalles"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El viaje de exploración científica por las selvas del Amazonas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La coronación de Napoleón Bonaparte en la catedral de Notre Dame"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Jean-Paul Sartre."
+    "explanation": "Zola muestra la lucha de clases, el hambre atroz y la degradación biológica en las galerías subterráneas de las minas."
   },
   {
     "id": "3.3_q211",
     "number": 211,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Historia de una escalera?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 11): En las 'Rimas' de Gustavo Adolfo Bécquer, la poesía se define primordialmente como:",
     "options": [
       {
         "key": "A",
-        "text": "Antonio Buero Vallejo"
+        "text": "Un sentimiento inefable, espiritual y misterioso identificado con la amada y el alma"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Un ejercicio métrico riguroso para ganar certámenes cortesanos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Un discurso político para incitar a las masas a la huelga general"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Una recopilación científica de fenómenos de la naturaleza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Antonio Buero Vallejo."
+    "explanation": "En la Rima XXI ('¿Qué es poesía? Poesía... eres tú'), Bécquer funde poesía, belleza y sentimiento amoroso."
   },
   {
     "id": "3.3_q212",
     "number": 212,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de En la ardiente oscuridad?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 12): Las 'Leyendas' de Bécquer (como 'El monte de las ánimas' o 'El rayo de luna') se inscriben en el Romanticismo por su:",
     "options": [
       {
         "key": "A",
-        "text": "Antonio Buero Vallejo"
+        "text": "Atmósfera nocturna, misterio sobrenatural, ruinas medievales y obsesión por ideales inalcanzables"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Fidelidad rigurosa a las estadísticas económicas del siglo XIX"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Descripción exacta de la vida en las fábricas textiles modernas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Enfoque humorístico e irónico sobre las tradiciones populares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Antonio Buero Vallejo."
+    "explanation": "Bécquer explora el terror gótico, la noche de difuntos y la búsqueda de un ideal de belleza que conduce a la locura."
   },
   {
     "id": "3.3_q213",
     "number": 213,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de El tragaluz?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 13): En la 'Canción del pirata' de José de Espronceda, el pirata proclama como valor supremo de su existencia:",
     "options": [
       {
         "key": "A",
-        "text": "Antonio Buero Vallejo"
+        "text": "'Que es mi barco mi tesoro, que es mi dios la libertad, mi ley la fuerza y el viento, mi única patria la mar'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "'El oro del rey de Inglaterra y las sedas de los mercaderes'"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "'La paz de los monasterios y el perdón de los pecados'"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "'La obediencia incondicional a las leyes del parlamento'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Antonio Buero Vallejo."
+    "explanation": "Espronceda encarna el arquetipo del héroe romántico rebelde que desafía todas las convenciones y poderes opresores."
   },
   {
     "id": "3.3_q214",
     "number": 214,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de La fundación?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 14): El Naturalismo literario, fundado por Émile Zola ('La novela experimental'), se fundamentó teóricamente en:",
     "options": [
       {
         "key": "A",
-        "text": "Antonio Buero Vallejo"
+        "text": "El determinismo biológico (herencia genética) y el determinismo social (ambiente de clase)"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La exaltación de los sueños espirituales y los milagros religiosos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La convicción de que el hombre es absolutamente libre y puro por naturaleza"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La copia literal de las tragedias griegas clásicas de Sófocles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Antonio Buero Vallejo."
+    "explanation": "Zola concebía al novelista como un científico que disecciona las patologías humanas provocadas por el medio y la herencia."
   },
   {
     "id": "3.3_q215",
     "number": 215,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Un soñador para un pueblo?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 15): En la novela 'Marianela' de Benito Pérez Galdós, el conflicto trágico se desata cuando:",
     "options": [
       {
         "key": "A",
-        "text": "Antonio Buero Vallejo"
+        "text": "Pablo recupera la vista tras una operación y Marianela, temiendo el rechazo a su fealdad física, muere de dolor"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El hermano de Marianela es encarcelado injustamente por robar ganado"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Marianela se casa en secreto con el médico Teodoro Golfín"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Un terremoto destruye las minas de Socartes matando a los personajes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Antonio Buero Vallejo."
+    "explanation": "Galdós contrapone la belleza espiritual e interior de Nela frente al choque despiadado con la realidad visual material."
   },
   {
     "id": "3.3_q216",
     "number": 216,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Las Meninas?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 16): En 'Fortunata y Jacinta' de Galdós, la obra cumbre del Realismo español retrata:",
     "options": [
       {
         "key": "A",
-        "text": "Antonio Buero Vallejo"
+        "text": "La sociedad madrileña del siglo XIX a través de dos mujeres de diferentes clases sociales unidas por el mismo hombre"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Las expediciones de los piratas caribeños contra la armada española"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La persecución inquisitorial a los dramaturgos barrocos"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Un amor pastoril en las colinas de Asturias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Antonio Buero Vallejo."
+    "explanation": "Galdós analiza con maestría psicológica la burguesía y el pueblo llano madrileño en el marco de la Restauración borbónica."
   },
   {
     "id": "3.3_q217",
     "number": 217,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de El concierto de San Ovidio?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 17): El Realismo literario europeo del siglo XIX se caracterizó estilísticamente por:",
     "options": [
       {
         "key": "A",
-        "text": "Antonio Buero Vallejo"
+        "text": "El narrador omnisciente, la verosimilitud social, la observación minuciosa y la lengua viva de cada estrato"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El verso libre con metáforas herméticas y asociaciones ilógicas"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El uso de dioses del Olimpo como protagonistas de la trama"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La eliminación deliberada de todo diálogo en la novela"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Antonio Buero Vallejo."
+    "explanation": "El Realismo documentaba la sociedad burguesa contemporánea con precisión casi sociológica y psicológica."
   },
   {
     "id": "3.3_q218",
     "number": 218,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de La doble historia del doctor Valmy?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 18): En 'Madame Bovary' de Gustave Flaubert, el término 'bovarismo' pasó a definir psicológicamente:",
     "options": [
       {
         "key": "A",
-        "text": "Antonio Buero Vallejo"
+        "text": "La insatisfacción crónica con la realidad mediocre frente a fantasías románticas inalcanzables"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La generosidad desinteresada con los enfermos de los hospitales rurales"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El amor desmedido por la investigación botánica y farmacéutica"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La valentía heroica en el campo de batalla frente al invasor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Antonio Buero Vallejo."
+    "explanation": "Emma Bovary es víctima de la disonancia entre sus ilusiones novelescas y la rutina asfixiante de su matrimonio de provincias."
   },
   {
     "id": "3.3_q219",
     "number": 219,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Muerte de un viajante?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 19): En 'Crimen y castigo' de Fiódor Dostoyevski, el dilema que atormenta a Raskólnikov tras cometer el asesinato es:",
     "options": [
       {
         "key": "A",
-        "text": "Arthur Miller"
+        "text": "La culpa psicológica demoledora y la búsqueda de redención espiritual frente a su teoría del 'hombre extraordinario'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El temor exclusivo a perder el dinero robado a la anciana usurera"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El odio hacia sus compañeros de la universidad que lo delataron"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "El resentimiento por no haber obtenido honores en el ejército zarista"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Arthur Miller."
+    "explanation": "Dostoyevski sondea los abismos de la conciencia humana, la expiación moral del pecado y la resurrección espiritual."
   },
   {
     "id": "3.3_q220",
     "number": 220,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Las brujas de Salem?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 20): En 'Germinal' de Émile Zola, la trama expone con rigor naturalista:",
     "options": [
       {
         "key": "A",
-        "text": "Arthur Miller"
+        "text": "La miseria deshumanizadora, la explotación laboral y la huelga desesperada de los mineros del carbón en Francia"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La vida ociosa y refinada de la aristocracia en los palacios de Versalles"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El viaje de exploración científica por las selvas del Amazonas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La coronación de Napoleón Bonaparte en la catedral de Notre Dame"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Arthur Miller."
+    "explanation": "Zola muestra la lucha de clases, el hambre atroz y la degradación biológica en las galerías subterráneas de las minas."
   },
   {
     "id": "3.3_q221",
     "number": 221,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Un tranvía llamado Deseo?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 21): En las 'Rimas' de Gustavo Adolfo Bécquer, la poesía se define primordialmente como:",
     "options": [
       {
         "key": "A",
-        "text": "Tennessee Williams"
+        "text": "Un sentimiento inefable, espiritual y misterioso identificado con la amada y el alma"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Un ejercicio métrico riguroso para ganar certámenes cortesanos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Un discurso político para incitar a las masas a la huelga general"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Una recopilación científica de fenómenos de la naturaleza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Tennessee Williams."
+    "explanation": "En la Rima XXI ('¿Qué es poesía? Poesía... eres tú'), Bécquer funde poesía, belleza y sentimiento amoroso."
   },
   {
     "id": "3.3_q222",
     "number": 222,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de La gata sobre el tejado de zinc?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 22): Las 'Leyendas' de Bécquer (como 'El monte de las ánimas' o 'El rayo de luna') se inscriben en el Romanticismo por su:",
     "options": [
       {
         "key": "A",
-        "text": "Tennessee Williams"
+        "text": "Atmósfera nocturna, misterio sobrenatural, ruinas medievales y obsesión por ideales inalcanzables"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Fidelidad rigurosa a las estadísticas económicas del siglo XIX"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Descripción exacta de la vida en las fábricas textiles modernas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Enfoque humorístico e irónico sobre las tradiciones populares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Tennessee Williams."
+    "explanation": "Bécquer explora el terror gótico, la noche de difuntos y la búsqueda de un ideal de belleza que conduce a la locura."
   },
   {
     "id": "3.3_q223",
     "number": 223,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de El zoo de cristal?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 23): En la 'Canción del pirata' de José de Espronceda, el pirata proclama como valor supremo de su existencia:",
     "options": [
       {
         "key": "A",
-        "text": "Tennessee Williams"
+        "text": "'Que es mi barco mi tesoro, que es mi dios la libertad, mi ley la fuerza y el viento, mi única patria la mar'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "'El oro del rey de Inglaterra y las sedas de los mercaderes'"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "'La paz de los monasterios y el perdón de los pecados'"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "'La obediencia incondicional a las leyes del parlamento'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Tennessee Williams."
+    "explanation": "Espronceda encarna el arquetipo del héroe romántico rebelde que desafía todas las convenciones y poderes opresores."
   },
   {
     "id": "3.3_q224",
     "number": 224,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Deseo bajo los olmos?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 24): El Naturalismo literario, fundado por Émile Zola ('La novela experimental'), se fundamentó teóricamente en:",
     "options": [
       {
         "key": "A",
-        "text": "Eugene O'Neill"
+        "text": "El determinismo biológico (herencia genética) y el determinismo social (ambiente de clase)"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La exaltación de los sueños espirituales y los milagros religiosos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La convicción de que el hombre es absolutamente libre y puro por naturaleza"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La copia literal de las tragedias griegas clásicas de Sófocles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Eugene O'Neill."
+    "explanation": "Zola concebía al novelista como un científico que disecciona las patologías humanas provocadas por el medio y la herencia."
   },
   {
     "id": "3.3_q225",
     "number": 225,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Largo viaje hacia la noche?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 25): En la novela 'Marianela' de Benito Pérez Galdós, el conflicto trágico se desata cuando:",
     "options": [
       {
         "key": "A",
-        "text": "Eugene O'Neill"
+        "text": "Pablo recupera la vista tras una operación y Marianela, temiendo el rechazo a su fealdad física, muere de dolor"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El hermano de Marianela es encarcelado injustamente por robar ganado"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Marianela se casa en secreto con el médico Teodoro Golfín"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Un terremoto destruye las minas de Socartes matando a los personajes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Eugene O'Neill."
+    "explanation": "Galdós contrapone la belleza espiritual e interior de Nela frente al choque despiadado con la realidad visual material."
   },
   {
     "id": "3.3_q226",
     "number": 226,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de El emperador Jones?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 26): En 'Fortunata y Jacinta' de Galdós, la obra cumbre del Realismo español retrata:",
     "options": [
       {
         "key": "A",
-        "text": "Eugene O'Neill"
+        "text": "La sociedad madrileña del siglo XIX a través de dos mujeres de diferentes clases sociales unidas por el mismo hombre"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Las expediciones de los piratas caribeños contra la armada española"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La persecución inquisitorial a los dramaturgos barrocos"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Un amor pastoril en las colinas de Asturias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Eugene O'Neill."
+    "explanation": "Galdós analiza con maestría psicológica la burguesía y el pueblo llano madrileño en el marco de la Restauración borbónica."
   },
   {
     "id": "3.3_q227",
     "number": 227,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Calígula?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 27): El Realismo literario europeo del siglo XIX se caracterizó estilísticamente por:",
     "options": [
       {
         "key": "A",
-        "text": "Albert Camus"
+        "text": "El narrador omnisciente, la verosimilitud social, la observación minuciosa y la lengua viva de cada estrato"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El verso libre con metáforas herméticas y asociaciones ilógicas"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El uso de dioses del Olimpo como protagonistas de la trama"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La eliminación deliberada de todo diálogo en la novela"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Albert Camus."
+    "explanation": "El Realismo documentaba la sociedad burguesa contemporánea con precisión casi sociológica y psicológica."
   },
   {
     "id": "3.3_q228",
     "number": 228,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Los justos?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 28): En 'Madame Bovary' de Gustave Flaubert, el término 'bovarismo' pasó a definir psicológicamente:",
     "options": [
       {
         "key": "A",
-        "text": "Albert Camus"
+        "text": "La insatisfacción crónica con la realidad mediocre frente a fantasías románticas inalcanzables"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La generosidad desinteresada con los enfermos de los hospitales rurales"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El amor desmedido por la investigación botánica y farmacéutica"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La valentía heroica en el campo de batalla frente al invasor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Albert Camus."
+    "explanation": "Emma Bovary es víctima de la disonancia entre sus ilusiones novelescas y la rutina asfixiante de su matrimonio de provincias."
   },
   {
     "id": "3.3_q229",
     "number": 229,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de El diablo y Dios?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 29): En 'Crimen y castigo' de Fiódor Dostoyevski, el dilema que atormenta a Raskólnikov tras cometer el asesinato es:",
     "options": [
       {
         "key": "A",
-        "text": "Jean-Paul Sartre"
+        "text": "La culpa psicológica demoledora y la búsqueda de redención espiritual frente a su teoría del 'hombre extraordinario'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El temor exclusivo a perder el dinero robado a la anciana usurera"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El odio hacia sus compañeros de la universidad que lo delataron"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "El resentimiento por no haber obtenido honores en el ejército zarista"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Jean-Paul Sartre."
+    "explanation": "Dostoyevski sondea los abismos de la conciencia humana, la expiación moral del pecado y la resurrección espiritual."
   },
   {
     "id": "3.3_q230",
     "number": 230,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: TEATRO CONTEMPORÁNEO (191–230)",
-    "statement": "¿Quién es el autor de Las manos sucias?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 30): En 'Germinal' de Émile Zola, la trama expone con rigor naturalista:",
     "options": [
       {
         "key": "A",
-        "text": "Jean-Paul Sartre"
+        "text": "La miseria deshumanizadora, la explotación laboral y la huelga desesperada de los mineros del carbón en Francia"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La vida ociosa y refinada de la aristocracia en los palacios de Versalles"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El viaje de exploración científica por las selvas del Amazonas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La coronación de Napoleón Bonaparte en la catedral de Notre Dame"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Jean-Paul Sartre."
+    "explanation": "Zola muestra la lucha de clases, el hambre atroz y la degradación biológica en las galerías subterráneas de las minas."
   },
   {
     "id": "3.3_q231",
     "number": 231,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Qué es la poesía contemporánea?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 31): En las 'Rimas' de Gustavo Adolfo Bécquer, la poesía se define primordialmente como:",
     "options": [
       {
         "key": "A",
-        "text": "La poesía del siglo XX que rompe con las formas tradicionales"
+        "text": "Un sentimiento inefable, espiritual y misterioso identificado con la amada y el alma"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Un ejercicio métrico riguroso para ganar certámenes cortesanos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Un discurso político para incitar a las masas a la huelga general"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Una recopilación científica de fenómenos de la naturaleza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La poesía del siglo XX que rompe con las formas tradicionales."
+    "explanation": "En la Rima XXI ('¿Qué es poesía? Poesía... eres tú'), Bécquer funde poesía, belleza y sentimiento amoroso."
   },
   {
     "id": "3.3_q232",
     "number": 232,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Qué es el verso libre?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 32): Las 'Leyendas' de Bécquer (como 'El monte de las ánimas' o 'El rayo de luna') se inscriben en el Romanticismo por su:",
     "options": [
       {
         "key": "A",
-        "text": "Un verso sin rima ni métrica fija"
+        "text": "Atmósfera nocturna, misterio sobrenatural, ruinas medievales y obsesión por ideales inalcanzables"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Fidelidad rigurosa a las estadísticas económicas del siglo XIX"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Descripción exacta de la vida en las fábricas textiles modernas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Enfoque humorístico e irónico sobre las tradiciones populares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Un verso sin rima ni métrica fija."
+    "explanation": "Bécquer explora el terror gótico, la noche de difuntos y la búsqueda de un ideal de belleza que conduce a la locura."
   },
   {
     "id": "3.3_q233",
     "number": 233,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Poeta en Nueva York?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 33): En la 'Canción del pirata' de José de Espronceda, el pirata proclama como valor supremo de su existencia:",
     "options": [
       {
         "key": "A",
-        "text": "Federico García Lorca"
+        "text": "'Que es mi barco mi tesoro, que es mi dios la libertad, mi ley la fuerza y el viento, mi única patria la mar'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "'El oro del rey de Inglaterra y las sedas de los mercaderes'"
       },
       {
         "key": "C",
-        "text": "Pablo Neruda"
+        "text": "'La paz de los monasterios y el perdón de los pecados'"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "'La obediencia incondicional a las leyes del parlamento'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Federico García Lorca."
+    "explanation": "Espronceda encarna el arquetipo del héroe romántico rebelde que desafía todas las convenciones y poderes opresores."
   },
   {
     "id": "3.3_q234",
     "number": 234,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Veinte poemas de amor y una canción desesperada?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 34): El Naturalismo literario, fundado por Émile Zola ('La novela experimental'), se fundamentó teóricamente en:",
     "options": [
       {
         "key": "A",
-        "text": "Pablo Neruda"
+        "text": "El determinismo biológico (herencia genética) y el determinismo social (ambiente de clase)"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La exaltación de los sueños espirituales y los milagros religiosos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La convicción de que el hombre es absolutamente libre y puro por naturaleza"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "La copia literal de las tragedias griegas clásicas de Sófocles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Pablo Neruda."
+    "explanation": "Zola concebía al novelista como un científico que disecciona las patologías humanas provocadas por el medio y la herencia."
   },
   {
     "id": "3.3_q235",
     "number": 235,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Trilce?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 35): En la novela 'Marianela' de Benito Pérez Galdós, el conflicto trágico se desata cuando:",
     "options": [
       {
         "key": "A",
-        "text": "César Vallejo"
+        "text": "Pablo recupera la vista tras una operación y Marianela, temiendo el rechazo a su fealdad física, muere de dolor"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El hermano de Marianela es encarcelado injustamente por robar ganado"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Marianela se casa en secreto con el médico Teodoro Golfín"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "Un terremoto destruye las minas de Socartes matando a los personajes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. César Vallejo."
+    "explanation": "Galdós contrapone la belleza espiritual e interior de Nela frente al choque despiadado con la realidad visual material."
   },
   {
     "id": "3.3_q236",
     "number": 236,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Libertad bajo palabra?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 36): En 'Fortunata y Jacinta' de Galdós, la obra cumbre del Realismo español retrata:",
     "options": [
       {
         "key": "A",
-        "text": "Octavio Paz"
+        "text": "La sociedad madrileña del siglo XIX a través de dos mujeres de diferentes clases sociales unidas por el mismo hombre"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Las expediciones de los piratas caribeños contra la armada española"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La persecución inquisitorial a los dramaturgos barrocos"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "Un amor pastoril en las colinas de Asturias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Octavio Paz."
+    "explanation": "Galdós analiza con maestría psicológica la burguesía y el pueblo llano madrileño en el marco de la Restauración borbónica."
   },
   {
     "id": "3.3_q237",
     "number": 237,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Altazor?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 37): El Realismo literario europeo del siglo XIX se caracterizó estilísticamente por:",
     "options": [
       {
         "key": "A",
-        "text": "Vicente Huidobro"
+        "text": "El narrador omnisciente, la verosimilitud social, la observación minuciosa y la lengua viva de cada estrato"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El verso libre con metáforas herméticas y asociaciones ilógicas"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El uso de dioses del Olimpo como protagonistas de la trama"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La eliminación deliberada de todo diálogo en la novela"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Vicente Huidobro."
+    "explanation": "El Realismo documentaba la sociedad burguesa contemporánea con precisión casi sociológica y psicológica."
   },
   {
     "id": "3.3_q238",
     "number": 238,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Fervor de Buenos Aires?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 38): En 'Madame Bovary' de Gustave Flaubert, el término 'bovarismo' pasó a definir psicológicamente:",
     "options": [
       {
         "key": "A",
-        "text": "Jorge Luis Borges"
+        "text": "La insatisfacción crónica con la realidad mediocre frente a fantasías románticas inalcanzables"
       },
       {
         "key": "B",
-        "text": "Federico García Lorca"
+        "text": "La generosidad desinteresada con los enfermos de los hospitales rurales"
       },
       {
         "key": "C",
-        "text": "Pablo Neruda"
+        "text": "El amor desmedido por la investigación botánica y farmacéutica"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "La valentía heroica en el campo de batalla frente al invasor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Jorge Luis Borges."
+    "explanation": "Emma Bovary es víctima de la disonancia entre sus ilusiones novelescas y la rutina asfixiante de su matrimonio de provincias."
   },
   {
     "id": "3.3_q239",
     "number": 239,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Romancero gitano?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 39): En 'Crimen y castigo' de Fiódor Dostoyevski, el dilema que atormenta a Raskólnikov tras cometer el asesinato es:",
     "options": [
       {
         "key": "A",
-        "text": "Federico García Lorca"
+        "text": "La culpa psicológica demoledora y la búsqueda de redención espiritual frente a su teoría del 'hombre extraordinario'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El temor exclusivo a perder el dinero robado a la anciana usurera"
       },
       {
         "key": "C",
-        "text": "Pablo Neruda"
+        "text": "El odio hacia sus compañeros de la universidad que lo delataron"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "El resentimiento por no haber obtenido honores en el ejército zarista"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Federico García Lorca."
+    "explanation": "Dostoyevski sondea los abismos de la conciencia humana, la expiación moral del pecado y la resurrección espiritual."
   },
   {
     "id": "3.3_q240",
     "number": 240,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Residencia en la tierra?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 40): En 'Germinal' de Émile Zola, la trama expone con rigor naturalista:",
     "options": [
       {
         "key": "A",
-        "text": "Pablo Neruda"
+        "text": "La miseria deshumanizadora, la explotación laboral y la huelga desesperada de los mineros del carbón en Francia"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La vida ociosa y refinada de la aristocracia en los palacios de Versalles"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El viaje de exploración científica por las selvas del Amazonas"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "La coronación de Napoleón Bonaparte en la catedral de Notre Dame"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Pablo Neruda."
+    "explanation": "Zola muestra la lucha de clases, el hambre atroz y la degradación biológica en las galerías subterráneas de las minas."
   },
   {
     "id": "3.3_q241",
     "number": 241,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de España, aparta de mí este cáliz?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 41): En las 'Rimas' de Gustavo Adolfo Bécquer, la poesía se define primordialmente como:",
     "options": [
       {
         "key": "A",
-        "text": "César Vallejo"
+        "text": "Un sentimiento inefable, espiritual y misterioso identificado con la amada y el alma"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Un ejercicio métrico riguroso para ganar certámenes cortesanos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Un discurso político para incitar a las masas a la huelga general"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "Una recopilación científica de fenómenos de la naturaleza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. César Vallejo."
+    "explanation": "En la Rima XXI ('¿Qué es poesía? Poesía... eres tú'), Bécquer funde poesía, belleza y sentimiento amoroso."
   },
   {
     "id": "3.3_q242",
     "number": 242,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Piedra de sol?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 42): Las 'Leyendas' de Bécquer (como 'El monte de las ánimas' o 'El rayo de luna') se inscriben en el Romanticismo por su:",
     "options": [
       {
         "key": "A",
-        "text": "Octavio Paz"
+        "text": "Atmósfera nocturna, misterio sobrenatural, ruinas medievales y obsesión por ideales inalcanzables"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Fidelidad rigurosa a las estadísticas económicas del siglo XIX"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Descripción exacta de la vida en las fábricas textiles modernas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "Enfoque humorístico e irónico sobre las tradiciones populares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Octavio Paz."
+    "explanation": "Bécquer explora el terror gótico, la noche de difuntos y la búsqueda de un ideal de belleza que conduce a la locura."
   },
   {
     "id": "3.3_q243",
     "number": 243,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de El rayo que no cesa?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 43): En la 'Canción del pirata' de José de Espronceda, el pirata proclama como valor supremo de su existencia:",
     "options": [
       {
         "key": "A",
-        "text": "Miguel Hernández"
+        "text": "'Que es mi barco mi tesoro, que es mi dios la libertad, mi ley la fuerza y el viento, mi única patria la mar'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "'El oro del rey de Inglaterra y las sedas de los mercaderes'"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "'La paz de los monasterios y el perdón de los pecados'"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "'La obediencia incondicional a las leyes del parlamento'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Miguel Hernández."
+    "explanation": "Espronceda encarna el arquetipo del héroe romántico rebelde que desafía todas las convenciones y poderes opresores."
   },
   {
     "id": "3.3_q244",
     "number": 244,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Viento del pueblo?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 44): El Naturalismo literario, fundado por Émile Zola ('La novela experimental'), se fundamentó teóricamente en:",
     "options": [
       {
         "key": "A",
-        "text": "Miguel Hernández"
+        "text": "El determinismo biológico (herencia genética) y el determinismo social (ambiente de clase)"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La exaltación de los sueños espirituales y los milagros religiosos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La convicción de que el hombre es absolutamente libre y puro por naturaleza"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La copia literal de las tragedias griegas clásicas de Sófocles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Miguel Hernández."
+    "explanation": "Zola concebía al novelista como un científico que disecciona las patologías humanas provocadas por el medio y la herencia."
   },
   {
     "id": "3.3_q245",
     "number": 245,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Cancionero y romancero de ausencias?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 45): En la novela 'Marianela' de Benito Pérez Galdós, el conflicto trágico se desata cuando:",
     "options": [
       {
         "key": "A",
-        "text": "Miguel Hernández"
+        "text": "Pablo recupera la vista tras una operación y Marianela, temiendo el rechazo a su fealdad física, muere de dolor"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El hermano de Marianela es encarcelado injustamente por robar ganado"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Marianela se casa en secreto con el médico Teodoro Golfín"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Un terremoto destruye las minas de Socartes matando a los personajes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Miguel Hernández."
+    "explanation": "Galdós contrapone la belleza espiritual e interior de Nela frente al choque despiadado con la realidad visual material."
   },
   {
     "id": "3.3_q246",
     "number": 246,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Hijos de la ira?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 46): En 'Fortunata y Jacinta' de Galdós, la obra cumbre del Realismo español retrata:",
     "options": [
       {
         "key": "A",
-        "text": "Dámaso Alonso"
+        "text": "La sociedad madrileña del siglo XIX a través de dos mujeres de diferentes clases sociales unidas por el mismo hombre"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Las expediciones de los piratas caribeños contra la armada española"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La persecución inquisitorial a los dramaturgos barrocos"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Un amor pastoril en las colinas de Asturias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Dámaso Alonso."
+    "explanation": "Galdós analiza con maestría psicológica la burguesía y el pueblo llano madrileño en el marco de la Restauración borbónica."
   },
   {
     "id": "3.3_q247",
     "number": 247,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Sombra del paraíso?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 47): El Realismo literario europeo del siglo XIX se caracterizó estilísticamente por:",
     "options": [
       {
         "key": "A",
-        "text": "Vicente Aleixandre"
+        "text": "El narrador omnisciente, la verosimilitud social, la observación minuciosa y la lengua viva de cada estrato"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El verso libre con metáforas herméticas y asociaciones ilógicas"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El uso de dioses del Olimpo como protagonistas de la trama"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La eliminación deliberada de todo diálogo en la novela"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Vicente Aleixandre."
+    "explanation": "El Realismo documentaba la sociedad burguesa contemporánea con precisión casi sociológica y psicológica."
   },
   {
     "id": "3.3_q248",
     "number": 248,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de La destrucción o el amor?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 48): En 'Madame Bovary' de Gustave Flaubert, el término 'bovarismo' pasó a definir psicológicamente:",
     "options": [
       {
         "key": "A",
-        "text": "Vicente Aleixandre"
+        "text": "La insatisfacción crónica con la realidad mediocre frente a fantasías románticas inalcanzables"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La generosidad desinteresada con los enfermos de los hospitales rurales"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El amor desmedido por la investigación botánica y farmacéutica"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La valentía heroica en el campo de batalla frente al invasor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Vicente Aleixandre."
+    "explanation": "Emma Bovary es víctima de la disonancia entre sus ilusiones novelescas y la rutina asfixiante de su matrimonio de provincias."
   },
   {
     "id": "3.3_q249",
     "number": 249,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Espadas como labios?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 49): En 'Crimen y castigo' de Fiódor Dostoyevski, el dilema que atormenta a Raskólnikov tras cometer el asesinato es:",
     "options": [
       {
         "key": "A",
-        "text": "Vicente Aleixandre"
+        "text": "La culpa psicológica demoledora y la búsqueda de redención espiritual frente a su teoría del 'hombre extraordinario'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El temor exclusivo a perder el dinero robado a la anciana usurera"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El odio hacia sus compañeros de la universidad que lo delataron"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "El resentimiento por no haber obtenido honores en el ejército zarista"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Vicente Aleixandre."
+    "explanation": "Dostoyevski sondea los abismos de la conciencia humana, la expiación moral del pecado y la resurrección espiritual."
   },
   {
     "id": "3.3_q250",
     "number": 250,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Poemas humanos?",
+    "sectionTitle": "SECCIÓN V: ROMANTICISMO, REALISMO Y NATURALISMO EUROPEO (201–250)",
+    "statement": "En el contexto del Romanticismo, Realismo y Naturalismo (análisis 50): En 'Germinal' de Émile Zola, la trama expone con rigor naturalista:",
     "options": [
       {
         "key": "A",
-        "text": "César Vallejo"
+        "text": "La miseria deshumanizadora, la explotación laboral y la huelga desesperada de los mineros del carbón en Francia"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La vida ociosa y refinada de la aristocracia en los palacios de Versalles"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "El viaje de exploración científica por las selvas del Amazonas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "La coronación de Napoleón Bonaparte en la catedral de Notre Dame"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. César Vallejo."
+    "explanation": "Zola muestra la lucha de clases, el hambre atroz y la degradación biológica en las galerías subterráneas de las minas."
   },
   {
     "id": "3.3_q251",
     "number": 251,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Los heraldos negros?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En 'Esperando a Godot' de Samuel Beckett, obra fundacional del Teatro del Absurdo, Vladimir y Estragón representan:",
     "options": [
       {
         "key": "A",
-        "text": "César Vallejo"
+        "text": "La condición humana atrapada en la espera inútil, la falta de sentido y la incomunicación existencial"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Dos soldados patriotas esperando la orden de atacar las trincheras"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Dos jueces implacables que esperan procesar a un criminal de guerra"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "Dos reyes desterrados que aguardan recuperar sus coronas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. César Vallejo."
+    "explanation": "Beckett despoja la acción de causa y efecto: los personajes esperan a un ente que nunca llega, simbolizando el vacío de la existencia."
   },
   {
     "id": "3.3_q252",
     "number": 252,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Canto general?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "El Teatro del Absurdo (Ionesco, Beckett) desafía las convenciones teatrales tradicionales mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Pablo Neruda"
+        "text": "Diálogos ilógicos, repeticiones circulares, situaciones incoherentes y la fractura del lenguaje"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El empleo de discursos grandilocuentes en verso alejandrino rimado"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La resolución moralizante de todos los conflictos en el último acto"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "La reconstrucción arqueológica exacta de escenarios históricos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Pablo Neruda."
+    "explanation": "Refleja la desilusión de posguerra mostrando que las estructuras de la razón y el lenguaje han colapsado."
   },
   {
     "id": "3.3_q253",
     "number": 253,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Odas elementales?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En 'La cantante calva' de Eugène Ionesco, la conversación entre los señores Smith y los señores Martin satiriza:",
     "options": [
       {
         "key": "A",
-        "text": "Pablo Neruda"
+        "text": "Los clichés vacíos, los lugares comunes y la alienación del discurso de la burguesía contemporánea"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Las leyes penales aplicadas a los robos menores en Londres"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Los descubrimientos médicos de los hospitales universitarios"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "Las técnicas agrícolas de los campesinos normandos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Pablo Neruda."
+    "explanation": "Ionesco utiliza la charla absurda e intrascendente para demostrar la incapacidad real de las personas para comunicarse."
   },
   {
     "id": "3.3_q254",
     "number": 254,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Confieso que he vivido?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En la obra teatral existencialista 'A puerta cerrada' (Huis Clos) de Jean-Paul Sartre, la famosa sentencia final es:",
     "options": [
       {
         "key": "A",
-        "text": "Pablo Neruda"
+        "text": "'El infierno son los otros'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "'La muerte es el único descanso'"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "'La fe mueve montañas invisibles'"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "'El amor todo lo perdona'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Pablo Neruda."
+    "explanation": "En una habitación sin espejos, tres personajes condenados descubren que la mirada inquisidora del otro es su propio tormento eterno."
   },
   {
     "id": "3.3_q255",
     "number": 255,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de El laberinto de la soledad?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En 'La casa de Bernarda Alba' de Federico García Lorca, el conflicto dramático central se dirime entre:",
     "options": [
       {
         "key": "A",
-        "text": "Octavio Paz"
+        "text": "El principio de autoridad represiva (Bernarda) y el deseo de libertad y pasión vital (Adela)"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La herencia económica disputada entre los peones del campo"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La lucha política entre monárquicos y republicanos en Andalucía"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "La venganza de los gitanos contra los guardias civiles del cuartel"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Octavio Paz."
+    "explanation": "Lorca simboliza en el bastón de Bernarda la tiranía moral y el enclaustramiento que sofoca el amor y la vida."
   },
   {
     "id": "3.3_q256",
     "number": 256,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Árbol adentro?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "El símbolo trágico del caballo garañón dando coces en las paredes del corral en 'La casa de Bernarda Alba' representa:",
     "options": [
       {
         "key": "A",
-        "text": "Octavio Paz"
+        "text": "La fuerza indomable del deseo sexual masculino y la pasión reprimida en la casa"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La prosperidad agrícola y la riqueza ganadera de Bernarda"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La llegada inminente de la peste a la comarca andaluza"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "El orgullo militar de los antiguos caballeros de la orden"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Octavio Paz."
+    "explanation": "El caballo encerrado que patea en la noche refleja la tensión erótica reprimida que terminará en tragedia."
   },
   {
     "id": "3.3_q257",
     "number": 257,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Blanco?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En 'Bodas de sangre' de García Lorca, los personajes que no tienen nombre propio (salvo Leonardo) representan:",
     "options": [
       {
         "key": "A",
-        "text": "Octavio Paz"
+        "text": "Arquetipos universales de la tragedia campesina regidos por el honor, la sangre y el destino"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Personajes anónimos que no tenían importancia en el drama"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Extranjeros que llegaron huyendo de las guerras europeas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "Sirvientes que carecían de derechos civiles en la época"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Octavio Paz."
+    "explanation": "La Madre, el Novio, la Novia y el Padre operan como símbolos trágicos de una fuerza cósmica ancestral."
   },
   {
     "id": "3.3_q258",
     "number": 258,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Ladera este?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En 'Bodas de sangre', la aparición personificada de la Luna y la Mendiga en el bosque simboliza:",
     "options": [
       {
         "key": "A",
-        "text": "Octavio Paz"
+        "text": "La muerte ineludible y la fatalidad cósmica que alumbra a los perseguidores para consumar el duelo"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La bondad caritativa hacia los amantes fugitivos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La sabiduría de la vejez campestre que busca la reconciliación"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "La alegría de los bosques mágicos del Renacimiento"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Octavio Paz."
+    "explanation": "La Mendiga (la Muerte) y la Luna (el cómplice de la tragedia) colaboran para sellar el sangriento destino de los rivales."
   },
   {
     "id": "3.3_q259",
     "number": 259,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Salamandra?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "El teatro épico de Bertolt Brecht se distingue de la dramaturgia clásica por el 'efecto de distanciamiento' (Verfremdungseffekt), cuyo fin es:",
     "options": [
       {
         "key": "A",
-        "text": "Octavio Paz"
+        "text": "Evitar la catarsis emocional para que el espectador reflexione críticamente sobre la realidad social"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Hacer llorar desconsoladamente al público durante toda la obra"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Sumergir al espectador en un trance hipnótico e ilusorio"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "Ocultar a los actores detrás de máscaras de bronce para no verlos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Octavio Paz."
+    "explanation": "Brecht buscaba que el espectador fuera un observador activo y lúcido que juzgara las contradicciones del sistema."
   },
   {
     "id": "3.3_q260",
     "number": 260,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Pasado en claro?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En 'Madre Coraje y sus hijos' de Bertolt Brecht, la lección política y ética fundamental es que:",
     "options": [
       {
         "key": "A",
-        "text": "Octavio Paz"
+        "text": "La guerra es la continuación destructiva del comercio burgués donde los humildes sacrifican a sus familias"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La valentía militar es la mayor gloria a la que puede aspirar una madre"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La fe ciega en los generales conduce a la victoria inminente"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "El contrabando de armas enriquece a los pueblos devastados"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Octavio Paz."
+    "explanation": "Madre Coraje intenta lucrar con la Guerra de los Treinta Años y, como precio inevitable, termina perdiendo a todos sus hijos."
   },
   {
     "id": "3.3_q261",
     "number": 261,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Qué es la poesía contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 11): En 'Esperando a Godot' de Samuel Beckett, obra fundacional del Teatro del Absurdo, Vladimir y Estragón representan:",
     "options": [
       {
         "key": "A",
-        "text": "La poesía del siglo XX que rompe con las formas tradicionales"
+        "text": "La condición humana atrapada en la espera inútil, la falta de sentido y la incomunicación existencial"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Dos soldados patriotas esperando la orden de atacar las trincheras"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Dos jueces implacables que esperan procesar a un criminal de guerra"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Dos reyes desterrados que aguardan recuperar sus coronas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La poesía del siglo XX que rompe con las formas tradicionales."
+    "explanation": "Beckett despoja la acción de causa y efecto: los personajes esperan a un ente que nunca llega, simbolizando el vacío de la existencia."
   },
   {
     "id": "3.3_q262",
     "number": 262,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Qué es el verso libre?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 12): El Teatro del Absurdo (Ionesco, Beckett) desafía las convenciones teatrales tradicionales mediante:",
     "options": [
       {
         "key": "A",
-        "text": "Un verso sin rima ni métrica fija"
+        "text": "Diálogos ilógicos, repeticiones circulares, situaciones incoherentes y la fractura del lenguaje"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El empleo de discursos grandilocuentes en verso alejandrino rimado"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La resolución moralizante de todos los conflictos en el último acto"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La reconstrucción arqueológica exacta de escenarios históricos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Un verso sin rima ni métrica fija."
+    "explanation": "Refleja la desilusión de posguerra mostrando que las estructuras de la razón y el lenguaje han colapsado."
   },
   {
     "id": "3.3_q263",
     "number": 263,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Poeta en Nueva York?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 13): En 'La cantante calva' de Eugène Ionesco, la conversación entre los señores Smith y los señores Martin satiriza:",
     "options": [
       {
         "key": "A",
-        "text": "Federico García Lorca"
+        "text": "Los clichés vacíos, los lugares comunes y la alienación del discurso de la burguesía contemporánea"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Las leyes penales aplicadas a los robos menores en Londres"
       },
       {
         "key": "C",
-        "text": "Pablo Neruda"
+        "text": "Los descubrimientos médicos de los hospitales universitarios"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "Las técnicas agrícolas de los campesinos normandos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Federico García Lorca."
+    "explanation": "Ionesco utiliza la charla absurda e intrascendente para demostrar la incapacidad real de las personas para comunicarse."
   },
   {
     "id": "3.3_q264",
     "number": 264,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Veinte poemas de amor y una canción desesperada?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 14): En la obra teatral existencialista 'A puerta cerrada' (Huis Clos) de Jean-Paul Sartre, la famosa sentencia final es:",
     "options": [
       {
         "key": "A",
-        "text": "Pablo Neruda"
+        "text": "'El infierno son los otros'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "'La muerte es el único descanso'"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "'La fe mueve montañas invisibles'"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "'El amor todo lo perdona'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Pablo Neruda."
+    "explanation": "En una habitación sin espejos, tres personajes condenados descubren que la mirada inquisidora del otro es su propio tormento eterno."
   },
   {
     "id": "3.3_q265",
     "number": 265,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Trilce?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 15): En 'La casa de Bernarda Alba' de Federico García Lorca, el conflicto dramático central se dirime entre:",
     "options": [
       {
         "key": "A",
-        "text": "César Vallejo"
+        "text": "El principio de autoridad represiva (Bernarda) y el deseo de libertad y pasión vital (Adela)"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La herencia económica disputada entre los peones del campo"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La lucha política entre monárquicos y republicanos en Andalucía"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "La venganza de los gitanos contra los guardias civiles del cuartel"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. César Vallejo."
+    "explanation": "Lorca simboliza en el bastón de Bernarda la tiranía moral y el enclaustramiento que sofoca el amor y la vida."
   },
   {
     "id": "3.3_q266",
     "number": 266,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Libertad bajo palabra?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 16): El símbolo trágico del caballo garañón dando coces en las paredes del corral en 'La casa de Bernarda Alba' representa:",
     "options": [
       {
         "key": "A",
-        "text": "Octavio Paz"
+        "text": "La fuerza indomable del deseo sexual masculino y la pasión reprimida en la casa"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La prosperidad agrícola y la riqueza ganadera de Bernarda"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La llegada inminente de la peste a la comarca andaluza"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "El orgullo militar de los antiguos caballeros de la orden"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Octavio Paz."
+    "explanation": "El caballo encerrado que patea en la noche refleja la tensión erótica reprimida que terminará en tragedia."
   },
   {
     "id": "3.3_q267",
     "number": 267,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Altazor?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 17): En 'Bodas de sangre' de García Lorca, los personajes que no tienen nombre propio (salvo Leonardo) representan:",
     "options": [
       {
         "key": "A",
-        "text": "Vicente Huidobro"
+        "text": "Arquetipos universales de la tragedia campesina regidos por el honor, la sangre y el destino"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Personajes anónimos que no tenían importancia en el drama"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Extranjeros que llegaron huyendo de las guerras europeas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Sirvientes que carecían de derechos civiles en la época"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Vicente Huidobro."
+    "explanation": "La Madre, el Novio, la Novia y el Padre operan como símbolos trágicos de una fuerza cósmica ancestral."
   },
   {
     "id": "3.3_q268",
     "number": 268,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Fervor de Buenos Aires?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 18): En 'Bodas de sangre', la aparición personificada de la Luna y la Mendiga en el bosque simboliza:",
     "options": [
       {
         "key": "A",
-        "text": "Jorge Luis Borges"
+        "text": "La muerte ineludible y la fatalidad cósmica que alumbra a los perseguidores para consumar el duelo"
       },
       {
         "key": "B",
-        "text": "Federico García Lorca"
+        "text": "La bondad caritativa hacia los amantes fugitivos"
       },
       {
         "key": "C",
-        "text": "Pablo Neruda"
+        "text": "La sabiduría de la vejez campestre que busca la reconciliación"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "La alegría de los bosques mágicos del Renacimiento"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Jorge Luis Borges."
+    "explanation": "La Mendiga (la Muerte) y la Luna (el cómplice de la tragedia) colaboran para sellar el sangriento destino de los rivales."
   },
   {
     "id": "3.3_q269",
     "number": 269,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Romancero gitano?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 19): El teatro épico de Bertolt Brecht se distingue de la dramaturgia clásica por el 'efecto de distanciamiento' (Verfremdungseffekt), cuyo fin es:",
     "options": [
       {
         "key": "A",
-        "text": "Federico García Lorca"
+        "text": "Evitar la catarsis emocional para que el espectador reflexione críticamente sobre la realidad social"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Hacer llorar desconsoladamente al público durante toda la obra"
       },
       {
         "key": "C",
-        "text": "Pablo Neruda"
+        "text": "Sumergir al espectador en un trance hipnótico e ilusorio"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "Ocultar a los actores detrás de máscaras de bronce para no verlos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Federico García Lorca."
+    "explanation": "Brecht buscaba que el espectador fuera un observador activo y lúcido que juzgara las contradicciones del sistema."
   },
   {
     "id": "3.3_q270",
     "number": 270,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: POESÍA CONTEMPORÁNEA (231–270)",
-    "statement": "¿Quién es el autor de Residencia en la tierra?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 20): En 'Madre Coraje y sus hijos' de Bertolt Brecht, la lección política y ética fundamental es que:",
     "options": [
       {
         "key": "A",
-        "text": "Pablo Neruda"
+        "text": "La guerra es la continuación destructiva del comercio burgués donde los humildes sacrifican a sus familias"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La valentía militar es la mayor gloria a la que puede aspirar una madre"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La fe ciega en los generales conduce a la victoria inminente"
       },
       {
         "key": "D",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "E",
-        "text": "César Vallejo"
-      },
-      {
-        "key": "F",
-        "text": "Vicente Huidobro"
+        "text": "El contrabando de armas enriquece a los pueblos devastados"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Pablo Neruda."
+    "explanation": "Madre Coraje intenta lucrar con la Guerra de los Treinta Años y, como precio inevitable, termina perdiendo a todos sus hijos."
   },
   {
     "id": "3.3_q271",
     "number": 271,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Cuál es el tema central de la literatura contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 21): En 'Esperando a Godot' de Samuel Beckett, obra fundacional del Teatro del Absurdo, Vladimir y Estragón representan:",
     "options": [
       {
         "key": "A",
-        "text": "La crisis de la modernidad y la condición humana"
+        "text": "La condición humana atrapada en la espera inútil, la falta de sentido y la incomunicación existencial"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Dos soldados patriotas esperando la orden de atacar las trincheras"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Dos jueces implacables que esperan procesar a un criminal de guerra"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Dos reyes desterrados que aguardan recuperar sus coronas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La crisis de la modernidad y la condición humana."
+    "explanation": "Beckett despoja la acción de causa y efecto: los personajes esperan a un ente que nunca llega, simbolizando el vacío de la existencia."
   },
   {
     "id": "3.3_q272",
     "number": 272,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la alienación en la literatura contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 22): El Teatro del Absurdo (Ionesco, Beckett) desafía las convenciones teatrales tradicionales mediante:",
     "options": [
       {
         "key": "A",
-        "text": "La representación del individuo aislado y deshumanizado"
+        "text": "Diálogos ilógicos, repeticiones circulares, situaciones incoherentes y la fractura del lenguaje"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El empleo de discursos grandilocuentes en verso alejandrino rimado"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La resolución moralizante de todos los conflictos en el último acto"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La reconstrucción arqueológica exacta de escenarios históricos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La representación del individuo aislado y deshumanizado."
+    "explanation": "Refleja la desilusión de posguerra mostrando que las estructuras de la razón y el lenguaje han colapsado."
   },
   {
     "id": "3.3_q273",
     "number": 273,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la incomunicación en la literatura contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 23): En 'La cantante calva' de Eugène Ionesco, la conversación entre los señores Smith y los señores Martin satiriza:",
     "options": [
       {
         "key": "A",
-        "text": "La representación de la dificultad de comunicación entre las personas"
+        "text": "Los clichés vacíos, los lugares comunes y la alienación del discurso de la burguesía contemporánea"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Las leyes penales aplicadas a los robos menores en Londres"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Los descubrimientos médicos de los hospitales universitarios"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Las técnicas agrícolas de los campesinos normandos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La representación de la dificultad de comunicación entre las personas."
+    "explanation": "Ionesco utiliza la charla absurda e intrascendente para demostrar la incapacidad real de las personas para comunicarse."
   },
   {
     "id": "3.3_q274",
     "number": 274,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la angustia existencial?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 24): En la obra teatral existencialista 'A puerta cerrada' (Huis Clos) de Jean-Paul Sartre, la famosa sentencia final es:",
     "options": [
       {
         "key": "A",
-        "text": "La representación de la preocupación por el sentido de la existencia"
+        "text": "'El infierno son los otros'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "'La muerte es el único descanso'"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "'La fe mueve montañas invisibles'"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "'El amor todo lo perdona'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La representación de la preocupación por el sentido de la existencia."
+    "explanation": "En una habitación sin espejos, tres personajes condenados descubren que la mirada inquisidora del otro es su propio tormento eterno."
   },
   {
     "id": "3.3_q275",
     "number": 275,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la libertad en el existencialismo?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 25): En 'La casa de Bernarda Alba' de Federico García Lorca, el conflicto dramático central se dirime entre:",
     "options": [
       {
         "key": "A",
-        "text": "La capacidad del individuo de elegir y responsabilizarse"
+        "text": "El principio de autoridad represiva (Bernarda) y el deseo de libertad y pasión vital (Adela)"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La herencia económica disputada entre los peones del campo"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La lucha política entre monárquicos y republicanos en Andalucía"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La venganza de los gitanos contra los guardias civiles del cuartel"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La capacidad del individuo de elegir y responsabilizarse."
+    "explanation": "Lorca simboliza en el bastón de Bernarda la tiranía moral y el enclaustramiento que sofoca el amor y la vida."
   },
   {
     "id": "3.3_q276",
     "number": 276,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la responsabilidad en el existencialismo?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 26): El símbolo trágico del caballo garañón dando coces en las paredes del corral en 'La casa de Bernarda Alba' representa:",
     "options": [
       {
         "key": "A",
-        "text": "La consecuencia de la libertad de elección"
+        "text": "La fuerza indomable del deseo sexual masculino y la pasión reprimida en la casa"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La prosperidad agrícola y la riqueza ganadera de Bernarda"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La llegada inminente de la peste a la comarca andaluza"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "El orgullo militar de los antiguos caballeros de la orden"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La consecuencia de la libertad de elección."
+    "explanation": "El caballo encerrado que patea en la noche refleja la tensión erótica reprimida que terminará en tragedia."
   },
   {
     "id": "3.3_q277",
     "number": 277,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es el compromiso en la literatura contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 27): En 'Bodas de sangre' de García Lorca, los personajes que no tienen nombre propio (salvo Leonardo) representan:",
     "options": [
       {
         "key": "A",
-        "text": "La implicación del escritor en los problemas sociales y políticos"
+        "text": "Arquetipos universales de la tragedia campesina regidos por el honor, la sangre y el destino"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Personajes anónimos que no tenían importancia en el drama"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Extranjeros que llegaron huyendo de las guerras europeas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Sirvientes que carecían de derechos civiles en la época"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La implicación del escritor en los problemas sociales y políticos."
+    "explanation": "La Madre, el Novio, la Novia y el Padre operan como símbolos trágicos de una fuerza cósmica ancestral."
   },
   {
     "id": "3.3_q278",
     "number": 278,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la intertextualidad?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 28): En 'Bodas de sangre', la aparición personificada de la Luna y la Mendiga en el bosque simboliza:",
     "options": [
       {
         "key": "A",
-        "text": "La relación entre un texto y otros textos"
+        "text": "La muerte ineludible y la fatalidad cósmica que alumbra a los perseguidores para consumar el duelo"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La bondad caritativa hacia los amantes fugitivos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La sabiduría de la vejez campestre que busca la reconciliación"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La alegría de los bosques mágicos del Renacimiento"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La relación entre un texto y otros textos."
+    "explanation": "La Mendiga (la Muerte) y la Luna (el cómplice de la tragedia) colaboran para sellar el sangriento destino de los rivales."
   },
   {
     "id": "3.3_q279",
     "number": 279,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la metaficción?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 29): El teatro épico de Bertolt Brecht se distingue de la dramaturgia clásica por el 'efecto de distanciamiento' (Verfremdungseffekt), cuyo fin es:",
     "options": [
       {
         "key": "A",
-        "text": "La reflexión sobre la propia narración dentro de la narración"
+        "text": "Evitar la catarsis emocional para que el espectador reflexione críticamente sobre la realidad social"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Hacer llorar desconsoladamente al público durante toda la obra"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Sumergir al espectador en un trance hipnótico e ilusorio"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Ocultar a los actores detrás de máscaras de bronce para no verlos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La reflexión sobre la propia narración dentro de la narración."
+    "explanation": "Brecht buscaba que el espectador fuera un observador activo y lúcido que juzgara las contradicciones del sistema."
   },
   {
     "id": "3.3_q280",
     "number": 280,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la fragmentación en la literatura contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 30): En 'Madre Coraje y sus hijos' de Bertolt Brecht, la lección política y ética fundamental es que:",
     "options": [
       {
         "key": "A",
-        "text": "La ruptura de la linealidad narrativa"
+        "text": "La guerra es la continuación destructiva del comercio burgués donde los humildes sacrifican a sus familias"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La valentía militar es la mayor gloria a la que puede aspirar una madre"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La fe ciega en los generales conduce a la victoria inminente"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "El contrabando de armas enriquece a los pueblos devastados"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La ruptura de la linealidad narrativa."
+    "explanation": "Madre Coraje intenta lucrar con la Guerra de los Treinta Años y, como precio inevitable, termina perdiendo a todos sus hijos."
   },
   {
     "id": "3.3_q281",
     "number": 281,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es el perspectivismo en la literatura contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 31): En 'Esperando a Godot' de Samuel Beckett, obra fundacional del Teatro del Absurdo, Vladimir y Estragón representan:",
     "options": [
       {
         "key": "A",
-        "text": "La multiplicidad de puntos de vista en la narración"
+        "text": "La condición humana atrapada en la espera inútil, la falta de sentido y la incomunicación existencial"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Dos soldados patriotas esperando la orden de atacar las trincheras"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Dos jueces implacables que esperan procesar a un criminal de guerra"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Dos reyes desterrados que aguardan recuperar sus coronas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La multiplicidad de puntos de vista en la narración."
+    "explanation": "Beckett despoja la acción de causa y efecto: los personajes esperan a un ente que nunca llega, simbolizando el vacío de la existencia."
   },
   {
     "id": "3.3_q282",
     "number": 282,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es el tiempo circular en la literatura contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 32): El Teatro del Absurdo (Ionesco, Beckett) desafía las convenciones teatrales tradicionales mediante:",
     "options": [
       {
         "key": "A",
-        "text": "La repetición de los acontecimientos"
+        "text": "Diálogos ilógicos, repeticiones circulares, situaciones incoherentes y la fractura del lenguaje"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El empleo de discursos grandilocuentes en verso alejandrino rimado"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La resolución moralizante de todos los conflictos en el último acto"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La reconstrucción arqueológica exacta de escenarios históricos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La repetición de los acontecimientos."
+    "explanation": "Refleja la desilusión de posguerra mostrando que las estructuras de la razón y el lenguaje han colapsado."
   },
   {
     "id": "3.3_q283",
     "number": 283,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es el realismo mágico?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 33): En 'La cantante calva' de Eugène Ionesco, la conversación entre los señores Smith y los señores Martin satiriza:",
     "options": [
       {
         "key": "A",
-        "text": "La mezcla de lo real y lo fantástico en la narración"
+        "text": "Los clichés vacíos, los lugares comunes y la alienación del discurso de la burguesía contemporánea"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Las leyes penales aplicadas a los robos menores en Londres"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Los descubrimientos médicos de los hospitales universitarios"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Las técnicas agrícolas de los campesinos normandos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La mezcla de lo real y lo fantástico en la narración."
+    "explanation": "Ionesco utiliza la charla absurda e intrascendente para demostrar la incapacidad real de las personas para comunicarse."
   },
   {
     "id": "3.3_q284",
     "number": 284,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es lo real maravilloso?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 34): En la obra teatral existencialista 'A puerta cerrada' (Huis Clos) de Jean-Paul Sartre, la famosa sentencia final es:",
     "options": [
       {
         "key": "A",
-        "text": "La presencia de lo extraordinario en la realidad cotidiana"
+        "text": "'El infierno son los otros'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "'La muerte es el único descanso'"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "'La fe mueve montañas invisibles'"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "'El amor todo lo perdona'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La presencia de lo extraordinario en la realidad cotidiana."
+    "explanation": "En una habitación sin espejos, tres personajes condenados descubren que la mirada inquisidora del otro es su propio tormento eterno."
   },
   {
     "id": "3.3_q285",
     "number": 285,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la literatura del boom latinoamericano?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 35): En 'La casa de Bernarda Alba' de Federico García Lorca, el conflicto dramático central se dirime entre:",
     "options": [
       {
         "key": "A",
-        "text": "El fenómeno editorial y literario de los años 60 y 70"
+        "text": "El principio de autoridad represiva (Bernarda) y el deseo de libertad y pasión vital (Adela)"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La herencia económica disputada entre los peones del campo"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La lucha política entre monárquicos y republicanos en Andalucía"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La venganza de los gitanos contra los guardias civiles del cuartel"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. El fenómeno editorial y literario de los años 60 y 70."
+    "explanation": "Lorca simboliza en el bastón de Bernarda la tiranía moral y el enclaustramiento que sofoca el amor y la vida."
   },
   {
     "id": "3.3_q286",
     "number": 286,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Quiénes son los principales representantes del boom?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 36): El símbolo trágico del caballo garañón dando coces en las paredes del corral en 'La casa de Bernarda Alba' representa:",
     "options": [
       {
         "key": "A",
-        "text": "García Márquez, Cortázar, Vargas Llosa y Fuentes"
+        "text": "La fuerza indomable del deseo sexual masculino y la pasión reprimida en la casa"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La prosperidad agrícola y la riqueza ganadera de Bernarda"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La llegada inminente de la peste a la comarca andaluza"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "El orgullo militar de los antiguos caballeros de la orden"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. García Márquez, Cortázar, Vargas Llosa y Fuentes."
+    "explanation": "El caballo encerrado que patea en la noche refleja la tensión erótica reprimida que terminará en tragedia."
   },
   {
     "id": "3.3_q287",
     "number": 287,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la novela total?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 37): En 'Bodas de sangre' de García Lorca, los personajes que no tienen nombre propio (salvo Leonardo) representan:",
     "options": [
       {
         "key": "A",
-        "text": "Una novela que abarca múltiples aspectos de la realidad"
+        "text": "Arquetipos universales de la tragedia campesina regidos por el honor, la sangre y el destino"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Personajes anónimos que no tenían importancia en el drama"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Extranjeros que llegaron huyendo de las guerras europeas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Sirvientes que carecían de derechos civiles en la época"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Una novela que abarca múltiples aspectos de la realidad."
+    "explanation": "La Madre, el Novio, la Novia y el Padre operan como símbolos trágicos de una fuerza cósmica ancestral."
   },
   {
     "id": "3.3_q288",
     "number": 288,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la literatura posmoderna?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 38): En 'Bodas de sangre', la aparición personificada de la Luna y la Mendiga en el bosque simboliza:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura que cuestiona los grandes relatos y la verdad única"
+        "text": "La muerte ineludible y la fatalidad cósmica que alumbra a los perseguidores para consumar el duelo"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La bondad caritativa hacia los amantes fugitivos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La sabiduría de la vejez campestre que busca la reconciliación"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La alegría de los bosques mágicos del Renacimiento"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura que cuestiona los grandes relatos y la verdad única."
+    "explanation": "La Mendiga (la Muerte) y la Luna (el cómplice de la tragedia) colaboran para sellar el sangriento destino de los rivales."
   },
   {
     "id": "3.3_q289",
     "number": 289,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la desconstrucción en la literatura?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 39): El teatro épico de Bertolt Brecht se distingue de la dramaturgia clásica por el 'efecto de distanciamiento' (Verfremdungseffekt), cuyo fin es:",
     "options": [
       {
         "key": "A",
-        "text": "La crítica a las oposiciones jerárquicas del pensamiento occidental"
+        "text": "Evitar la catarsis emocional para que el espectador reflexione críticamente sobre la realidad social"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Hacer llorar desconsoladamente al público durante toda la obra"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Sumergir al espectador en un trance hipnótico e ilusorio"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Ocultar a los actores detrás de máscaras de bronce para no verlos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La crítica a las oposiciones jerárquicas del pensamiento occidental."
+    "explanation": "Brecht buscaba que el espectador fuera un observador activo y lúcido que juzgara las contradicciones del sistema."
   },
   {
     "id": "3.3_q290",
     "number": 290,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la hipertextualidad?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 40): En 'Madre Coraje y sus hijos' de Bertolt Brecht, la lección política y ética fundamental es que:",
     "options": [
       {
         "key": "A",
-        "text": "La relación entre un texto y otro texto anterior"
+        "text": "La guerra es la continuación destructiva del comercio burgués donde los humildes sacrifican a sus familias"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La valentía militar es la mayor gloria a la que puede aspirar una madre"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La fe ciega en los generales conduce a la victoria inminente"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "El contrabando de armas enriquece a los pueblos devastados"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La relación entre un texto y otro texto anterior."
+    "explanation": "Madre Coraje intenta lucrar con la Guerra de los Treinta Años y, como precio inevitable, termina perdiendo a todos sus hijos."
   },
   {
     "id": "3.3_q291",
     "number": 291,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la parodia en la literatura contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 41): En 'Esperando a Godot' de Samuel Beckett, obra fundacional del Teatro del Absurdo, Vladimir y Estragón representan:",
     "options": [
       {
         "key": "A",
-        "text": "La imitación burlesca de un texto o género"
+        "text": "La condición humana atrapada en la espera inútil, la falta de sentido y la incomunicación existencial"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Dos soldados patriotas esperando la orden de atacar las trincheras"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Dos jueces implacables que esperan procesar a un criminal de guerra"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Dos reyes desterrados que aguardan recuperar sus coronas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La imitación burlesca de un texto o género."
+    "explanation": "Beckett despoja la acción de causa y efecto: los personajes esperan a un ente que nunca llega, simbolizando el vacío de la existencia."
   },
   {
     "id": "3.3_q292",
     "number": 292,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es el pastiche en la literatura contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 42): El Teatro del Absurdo (Ionesco, Beckett) desafía las convenciones teatrales tradicionales mediante:",
     "options": [
       {
         "key": "A",
-        "text": "La mezcla de estilos y géneros diversos"
+        "text": "Diálogos ilógicos, repeticiones circulares, situaciones incoherentes y la fractura del lenguaje"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "El empleo de discursos grandilocuentes en verso alejandrino rimado"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La resolución moralizante de todos los conflictos en el último acto"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La reconstrucción arqueológica exacta de escenarios históricos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La mezcla de estilos y géneros diversos."
+    "explanation": "Refleja la desilusión de posguerra mostrando que las estructuras de la razón y el lenguaje han colapsado."
   },
   {
     "id": "3.3_q293",
     "number": 293,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la ironía en la literatura contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 43): En 'La cantante calva' de Eugène Ionesco, la conversación entre los señores Smith y los señores Martin satiriza:",
     "options": [
       {
         "key": "A",
-        "text": "La expresión de lo contrario de lo que se quiere decir"
+        "text": "Los clichés vacíos, los lugares comunes y la alienación del discurso de la burguesía contemporánea"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Las leyes penales aplicadas a los robos menores en Londres"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Los descubrimientos médicos de los hospitales universitarios"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Las técnicas agrícolas de los campesinos normandos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La expresión de lo contrario de lo que se quiere decir."
+    "explanation": "Ionesco utiliza la charla absurda e intrascendente para demostrar la incapacidad real de las personas para comunicarse."
   },
   {
     "id": "3.3_q294",
     "number": 294,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es el humor negro en la literatura contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 44): En la obra teatral existencialista 'A puerta cerrada' (Huis Clos) de Jean-Paul Sartre, la famosa sentencia final es:",
     "options": [
       {
         "key": "A",
-        "text": "El humor que trata temas tabúes o dolorosos"
+        "text": "'El infierno son los otros'"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "'La muerte es el único descanso'"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "'La fe mueve montañas invisibles'"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "'El amor todo lo perdona'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. El humor que trata temas tabúes o dolorosos."
+    "explanation": "En una habitación sin espejos, tres personajes condenados descubren que la mirada inquisidora del otro es su propio tormento eterno."
   },
   {
     "id": "3.3_q295",
     "number": 295,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la literatura del absurdo?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 45): En 'La casa de Bernarda Alba' de Federico García Lorca, el conflicto dramático central se dirime entre:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura que representa la falta de sentido de la existencia"
+        "text": "El principio de autoridad represiva (Bernarda) y el deseo de libertad y pasión vital (Adela)"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La herencia económica disputada entre los peones del campo"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La lucha política entre monárquicos y republicanos en Andalucía"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La venganza de los gitanos contra los guardias civiles del cuartel"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura que representa la falta de sentido de la existencia."
+    "explanation": "Lorca simboliza en el bastón de Bernarda la tiranía moral y el enclaustramiento que sofoca el amor y la vida."
   },
   {
     "id": "3.3_q296",
     "number": 296,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la literatura existencialista?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 46): El símbolo trágico del caballo garañón dando coces en las paredes del corral en 'La casa de Bernarda Alba' representa:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura que reflexiona sobre la existencia humana"
+        "text": "La fuerza indomable del deseo sexual masculino y la pasión reprimida en la casa"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La prosperidad agrícola y la riqueza ganadera de Bernarda"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La llegada inminente de la peste a la comarca andaluza"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "El orgullo militar de los antiguos caballeros de la orden"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura que reflexiona sobre la existencia humana."
+    "explanation": "El caballo encerrado que patea en la noche refleja la tensión erótica reprimida que terminará en tragedia."
   },
   {
     "id": "3.3_q297",
     "number": 297,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la literatura comprometida?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 47): En 'Bodas de sangre' de García Lorca, los personajes que no tienen nombre propio (salvo Leonardo) representan:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura que se implica en los problemas sociales y políticos"
+        "text": "Arquetipos universales de la tragedia campesina regidos por el honor, la sangre y el destino"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Personajes anónimos que no tenían importancia en el drama"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Extranjeros que llegaron huyendo de las guerras europeas"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Sirvientes que carecían de derechos civiles en la época"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura que se implica en los problemas sociales y políticos."
+    "explanation": "La Madre, el Novio, la Novia y el Padre operan como símbolos trágicos de una fuerza cósmica ancestral."
   },
   {
     "id": "3.3_q298",
     "number": 298,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la literatura experimental?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 48): En 'Bodas de sangre', la aparición personificada de la Luna y la Mendiga en el bosque simboliza:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura que rompe con las formas tradicionales"
+        "text": "La muerte ineludible y la fatalidad cósmica que alumbra a los perseguidores para consumar el duelo"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La bondad caritativa hacia los amantes fugitivos"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La sabiduría de la vejez campestre que busca la reconciliación"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "La alegría de los bosques mágicos del Renacimiento"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura que rompe con las formas tradicionales."
+    "explanation": "La Mendiga (la Muerte) y la Luna (el cómplice de la tragedia) colaboran para sellar el sangriento destino de los rivales."
   },
   {
     "id": "3.3_q299",
     "number": 299,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la literatura de vanguardia?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 49): El teatro épico de Bertolt Brecht se distingue de la dramaturgia clásica por el 'efecto de distanciamiento' (Verfremdungseffekt), cuyo fin es:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura que rompe con las normas y tradiciones"
+        "text": "Evitar la catarsis emocional para que el espectador reflexione críticamente sobre la realidad social"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "Hacer llorar desconsoladamente al público durante toda la obra"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "Sumergir al espectador en un trance hipnótico e ilusorio"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "Ocultar a los actores detrás de máscaras de bronce para no verlos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura que rompe con las normas y tradiciones."
+    "explanation": "Brecht buscaba que el espectador fuera un observador activo y lúcido que juzgara las contradicciones del sistema."
   },
   {
     "id": "3.3_q300",
     "number": 300,
     "subtopicId": "3.3",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: TEMAS Y CARACTERÍSTICAS (271–300)",
-    "statement": "¿Qué es la literatura contemporánea?",
+    "sectionTitle": "SECCIÓN VI: TEATRO DE VANGUARDIA Y DRAMATURGIA DEL SIGLO XX (251–300)",
+    "statement": "En el análisis del teatro contemporáneo y vanguardista (ítem 50): En 'Madre Coraje y sus hijos' de Bertolt Brecht, la lección política y ética fundamental es que:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura del siglo XX y XXI que rompe con las formas tradicionales"
+        "text": "La guerra es la continuación destructiva del comercio burgués donde los humildes sacrifican a sus familias"
       },
       {
         "key": "B",
-        "text": "Jorge Luis Borges"
+        "text": "La valentía militar es la mayor gloria a la que puede aspirar una madre"
       },
       {
         "key": "C",
-        "text": "Federico García Lorca"
+        "text": "La fe ciega en los generales conduce a la victoria inminente"
       },
       {
         "key": "D",
-        "text": "Pablo Neruda"
-      },
-      {
-        "key": "E",
-        "text": "Octavio Paz"
-      },
-      {
-        "key": "F",
-        "text": "César Vallejo"
+        "text": "El contrabando de armas enriquece a los pueblos devastados"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura del siglo XX y XXI que rompe con las formas tradicionales."
+    "explanation": "Madre Coraje intenta lucrar con la Guerra de los Treinta Años y, como precio inevitable, termina perdiendo a todos sus hijos."
   }
 ]

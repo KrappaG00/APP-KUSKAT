@@ -7204,3572 +7204,1408 @@
     "number": 201,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+y=7, x-y=3\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "La solución del sistema \\( \\begin{cases} 2x + y = 7 \\\\ x - y = 2 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=5, y=2"
+        "text": "\\(x = 3, y = 1\\)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "\\(x = 1, y = 3\\)"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "\\(x = 2, y = 3\\)"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "\\(x = 4, y = -1\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2x=10 => x=5, y=2."
+    "explanation": "Sumando ambas ecuaciones: 3x = 9 => x = 3. Luego y = 3 - 2 = 1."
   },
   {
     "id": "1.5_q202",
     "number": 202,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+y=10, x-y=4\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Al resolver el sistema \\( \\begin{cases} 3x + 2y = 12 \\\\ 5x - 2y = 4 \\end{cases} \\), el valor de \\( y \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=7, y=3"
+        "text": "3"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "4"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2x=14 => x=7, y=3."
+    "explanation": "Sumando: 8x = 16 => x = 2. Sustituyendo: 3(2) + 2y = 12 => 2y = 6 => y = 3."
   },
   {
     "id": "1.5_q203",
     "number": 203,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+y=5, x-y=1\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Un sistema lineal de dos ecuaciones con dos incógnitas cuyas gráficas son dos rectas paralelas tiene:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "Cero soluciones (incompatible)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Una única solución"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Infinitas soluciones"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Dos soluciones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2x=6 => x=3, y=2."
+    "explanation": "Las rectas paralelas no se intersecan en ningún punto, por lo que el sistema no tiene solución."
   },
   {
     "id": "1.5_q204",
     "number": 204,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(2x+y=8, x-y=1\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Un sistema lineal con infinitas soluciones se clasifica formalmente como:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "Compatible indeterminado"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Compatible determinado"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Incompatible"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Inconsistente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3x=9 => x=3, y=2."
+    "explanation": "Compatible porque tiene solución, e indeterminado porque posee un número infinito de ellas (rectas coincidentes)."
   },
   {
     "id": "1.5_q205",
     "number": 205,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(3x+y=10, x+y=4\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "El determinante principal \\( \\Delta \\) del sistema \\( \\begin{cases} 4x - 2y = 5 \\\\ 3x + y = 7 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=1"
+        "text": "10"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "-2"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "14"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2x=6 => x=3, y=1."
+    "explanation": "\\(\\Delta = (4)(1) - (-2)(3) = 4 + 6 = 10\\)."
   },
   {
     "id": "1.5_q206",
     "number": 206,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+2y=8, x-y=2\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "En una granja hay gallinas y conejos. En total hay 35 cabezas y 100 patas. ¿Cuántos conejos hay?",
     "options": [
       {
         "key": "A",
-        "text": "x=4, y=2"
+        "text": "15"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "20"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "25"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "10"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3y=6 => y=2, x=4."
+    "explanation": "g + c = 35 y 2g + 4c = 100. Multiplicando la primera por -2: 2c = 30 => c = 15 conejos."
   },
   {
     "id": "1.5_q207",
     "number": 207,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(2x+3y=12, x-y=1\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "La solución del sistema \\( \\begin{cases} x + y + z = 6 \\\\ 2x - y + z = 3 \\\\ x + 2y - z = 2 \\end{cases} \\) tiene valor de \\( x \\) igual a:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "1"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "3"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "0"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "5y=10 => y=2, x=3."
+    "explanation": "Resolviendo por eliminación o determinantes, se verifica x = 1, y = 2, z = 3."
   },
   {
     "id": "1.5_q208",
     "number": 208,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(3x+2y=16, x+y=6\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Si dos rectas tienen la misma pendiente y diferente ordenada al origen, el sistema:",
     "options": [
       {
         "key": "A",
-        "text": "x=4, y=2"
+        "text": "No tiene solución"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Tiene una solución"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Tiene infinitas soluciones"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Tiene solución en el origen"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x=4, y=2."
+    "explanation": "Misma pendiente y diferente intercepto definen rectas paralelas no coincidentes (sin solución)."
   },
   {
     "id": "1.5_q209",
     "number": 209,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(4x+y=14, 2x-y=4\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Para qué valor de \\( k \\) el sistema \\( \\begin{cases} 2x + 4y = 6 \\\\ x + ky = 3 \\end{cases} \\) tiene infinitas soluciones:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "6x=18 => x=3, y=2."
+    "explanation": "Multiplicando la segunda por 2: 2x + 2ky = 6. Para ser idéntica a la primera, 2k = 4 => k = 2."
   },
   {
     "id": "1.5_q210",
     "number": 210,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(5x+2y=16, x+y=5\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "La solución del sistema \\( \\begin{cases} \\frac{x}{2} + \\frac{y}{3} = 4 \\\\ x - y = 3 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "\\(x = 6, y = 3\\)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "\\(x = 5, y = 2\\)"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "\\(x = 4, y = 1\\)"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "\\(x = 8, y = 5\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3x=6 => x=2, y=3."
+    "explanation": "Multiplicando la primera por 6: 3x + 2y = 24. De la segunda: x = y + 3. 3(y+3) + 2y = 24 => 5y = 15 => y = 3, x = 6."
   },
   {
     "id": "1.5_q211",
     "number": 211,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+y=6, 2x-y=3\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 11): La solución del sistema \\( \\begin{cases} 2x + y = 7 \\\\ x - y = 2 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=3"
+        "text": "\\(x = 3, y = 1\\)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "\\(x = 1, y = 3\\)"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "\\(x = 2, y = 3\\)"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "\\(x = 4, y = -1\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3x=9 => x=3, y=3."
+    "explanation": "Sumando ambas ecuaciones: 3x = 9 => x = 3. Luego y = 3 - 2 = 1."
   },
   {
     "id": "1.5_q212",
     "number": 212,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(3x-y=5, x+y=3\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 12): Al resolver el sistema \\( \\begin{cases} 3x + 2y = 12 \\\\ 5x - 2y = 4 \\end{cases} \\), el valor de \\( y \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=1"
+        "text": "3"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "4"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "4x=8 => x=2, y=1."
+    "explanation": "Sumando: 8x = 16 => x = 2. Sustituyendo: 3(2) + 2y = 12 => 2y = 6 => y = 3."
   },
   {
     "id": "1.5_q213",
     "number": 213,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(2x+y=7, x+2y=8\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 13): Un sistema lineal de dos ecuaciones con dos incógnitas cuyas gráficas son dos rectas paralelas tiene:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "Cero soluciones (incompatible)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Una única solución"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Infinitas soluciones"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Dos soluciones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3x=6 => x=2, y=3."
+    "explanation": "Las rectas paralelas no se intersecan en ningún punto, por lo que el sistema no tiene solución."
   },
   {
     "id": "1.5_q214",
     "number": 214,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(3x+2y=13, 2x-y=4\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 14): Un sistema lineal con infinitas soluciones se clasifica formalmente como:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "Compatible indeterminado"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Compatible determinado"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Incompatible"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Inconsistente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "7x=21 => x=3, y=2."
+    "explanation": "Compatible porque tiene solución, e indeterminado porque posee un número infinito de ellas (rectas coincidentes)."
   },
   {
     "id": "1.5_q215",
     "number": 215,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+3y=10, 2x-y=6\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 15): El determinante principal \\( \\Delta \\) del sistema \\( \\begin{cases} 4x - 2y = 5 \\\\ 3x + y = 7 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=4, y=2"
+        "text": "10"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "-2"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "14"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "7x=28 => x=4, y=2."
+    "explanation": "\\(\\Delta = (4)(1) - (-2)(3) = 4 + 6 = 10\\)."
   },
   {
     "id": "1.5_q216",
     "number": 216,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(4x+3y=18, 2x+y=8\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 16): En una granja hay gallinas y conejos. En total hay 35 cabezas y 100 patas. ¿Cuántos conejos hay?",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "15"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "20"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "25"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "10"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x=3, y=2."
+    "explanation": "g + c = 35 y 2g + 4c = 100. Multiplicando la primera por -2: 2c = 30 => c = 15 conejos."
   },
   {
     "id": "1.5_q217",
     "number": 217,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(5x-2y=11, x+y=5\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 17): La solución del sistema \\( \\begin{cases} x + y + z = 6 \\\\ 2x - y + z = 3 \\\\ x + 2y - z = 2 \\end{cases} \\) tiene valor de \\( x \\) igual a:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "1"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "3"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "0"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "7x=21 => x=3, y=2."
+    "explanation": "Resolviendo por eliminación o determinantes, se verifica x = 1, y = 2, z = 3."
   },
   {
     "id": "1.5_q218",
     "number": 218,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(2x+5y=16, x-y=1\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 18): Si dos rectas tienen la misma pendiente y diferente ordenada al origen, el sistema:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "No tiene solución"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Tiene una solución"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Tiene infinitas soluciones"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Tiene solución en el origen"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "7y=14 => y=2, x=3."
+    "explanation": "Misma pendiente y diferente intercepto definen rectas paralelas no coincidentes (sin solución)."
   },
   {
     "id": "1.5_q219",
     "number": 219,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(3x+4y=18, x+y=5\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 19): Para qué valor de \\( k \\) el sistema \\( \\begin{cases} 2x + 4y = 6 \\\\ x + ky = 3 \\end{cases} \\) tiene infinitas soluciones:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "y=3, x=2."
+    "explanation": "Multiplicando la segunda por 2: 2x + 2ky = 6. Para ser idéntica a la primera, 2k = 4 => k = 2."
   },
   {
     "id": "1.5_q220",
     "number": 220,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+4y=14, 2x-y=5\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 20): La solución del sistema \\( \\begin{cases} \\frac{x}{2} + \\frac{y}{3} = 4 \\\\ x - y = 3 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "\\(x = 6, y = 3\\)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "\\(x = 5, y = 2\\)"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "\\(x = 4, y = 1\\)"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "\\(x = 8, y = 5\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Aceptada como A por aproximación."
+    "explanation": "Multiplicando la primera por 6: 3x + 2y = 24. De la segunda: x = y + 3. 3(y+3) + 2y = 24 => 5y = 15 => y = 3, x = 6."
   },
   {
     "id": "1.5_q221",
     "number": 221,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(y=2x, x+y=9\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 21): La solución del sistema \\( \\begin{cases} 2x + y = 7 \\\\ x - y = 2 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=6"
+        "text": "\\(x = 3, y = 1\\)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "\\(x = 1, y = 3\\)"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "\\(x = 2, y = 3\\)"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "\\(x = 4, y = -1\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3x=9 => x=3, y=6."
+    "explanation": "Sumando ambas ecuaciones: 3x = 9 => x = 3. Luego y = 3 - 2 = 1."
   },
   {
     "id": "1.5_q222",
     "number": 222,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(y=x+1, 2x+y=7\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 22): Al resolver el sistema \\( \\begin{cases} 3x + 2y = 12 \\\\ 5x - 2y = 4 \\end{cases} \\), el valor de \\( y \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "3"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "4"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3x=6 => x=2, y=3."
+    "explanation": "Sumando: 8x = 16 => x = 2. Sustituyendo: 3(2) + 2y = 12 => 2y = 6 => y = 3."
   },
   {
     "id": "1.5_q223",
     "number": 223,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(y=3x, 2x+y=10\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 23): Un sistema lineal de dos ecuaciones con dos incógnitas cuyas gráficas son dos rectas paralelas tiene:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=6"
+        "text": "Cero soluciones (incompatible)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Una única solución"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Infinitas soluciones"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Dos soluciones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "5x=10 => x=2, y=6."
+    "explanation": "Las rectas paralelas no se intersecan en ningún punto, por lo que el sistema no tiene solución."
   },
   {
     "id": "1.5_q224",
     "number": 224,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(y=x-2, x+y=8\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 24): Un sistema lineal con infinitas soluciones se clasifica formalmente como:",
     "options": [
       {
         "key": "A",
-        "text": "x=5, y=3"
+        "text": "Compatible indeterminado"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Compatible determinado"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Incompatible"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Inconsistente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2x=10 => x=5, y=3."
+    "explanation": "Compatible porque tiene solución, e indeterminado porque posee un número infinito de ellas (rectas coincidentes)."
   },
   {
     "id": "1.5_q225",
     "number": 225,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x=2y, x+y=9\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 25): El determinante principal \\( \\Delta \\) del sistema \\( \\begin{cases} 4x - 2y = 5 \\\\ 3x + y = 7 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=6, y=3"
+        "text": "10"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "-2"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "14"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3y=9 => y=3, x=6."
+    "explanation": "\\(\\Delta = (4)(1) - (-2)(3) = 4 + 6 = 10\\)."
   },
   {
     "id": "1.5_q226",
     "number": 226,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(y=2x+1, y=x+4\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 26): En una granja hay gallinas y conejos. En total hay 35 cabezas y 100 patas. ¿Cuántos conejos hay?",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=7"
+        "text": "15"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "20"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "25"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "10"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x=3, y=7."
+    "explanation": "g + c = 35 y 2g + 4c = 100. Multiplicando la primera por -2: 2c = 30 => c = 15 conejos."
   },
   {
     "id": "1.5_q227",
     "number": 227,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(y=3x-2, y=x+2\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 27): La solución del sistema \\( \\begin{cases} x + y + z = 6 \\\\ 2x - y + z = 3 \\\\ x + 2y - z = 2 \\end{cases} \\) tiene valor de \\( x \\) igual a:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=4"
+        "text": "1"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "3"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "0"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2x=4 => x=2, y=4."
+    "explanation": "Resolviendo por eliminación o determinantes, se verifica x = 1, y = 2, z = 3."
   },
   {
     "id": "1.5_q228",
     "number": 228,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(y=-x+5, y=2x-1\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 28): Si dos rectas tienen la misma pendiente y diferente ordenada al origen, el sistema:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "No tiene solución"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Tiene una solución"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Tiene infinitas soluciones"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Tiene solución en el origen"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3x=6 => x=2, y=3."
+    "explanation": "Misma pendiente y diferente intercepto definen rectas paralelas no coincidentes (sin solución)."
   },
   {
     "id": "1.5_q229",
     "number": 229,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+y=8, x-y=2\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 29): Para qué valor de \\( k \\) el sistema \\( \\begin{cases} 2x + 4y = 6 \\\\ x + ky = 3 \\end{cases} \\) tiene infinitas soluciones:",
     "options": [
       {
         "key": "A",
-        "text": "x=5, y=3"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2x=10 => x=5, y=3."
+    "explanation": "Multiplicando la segunda por 2: 2x + 2ky = 6. Para ser idéntica a la primera, 2k = 4 => k = 2."
   },
   {
     "id": "1.5_q230",
     "number": 230,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(2x+y=9, x-y=0\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 30): La solución del sistema \\( \\begin{cases} \\frac{x}{2} + \\frac{y}{3} = 4 \\\\ x - y = 3 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=3"
+        "text": "\\(x = 6, y = 3\\)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "\\(x = 5, y = 2\\)"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "\\(x = 4, y = 1\\)"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "\\(x = 8, y = 5\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3x=9 => x=3, y=3."
+    "explanation": "Multiplicando la primera por 6: 3x + 2y = 24. De la segunda: x = y + 3. 3(y+3) + 2y = 24 => 5y = 15 => y = 3, x = 6."
   },
   {
     "id": "1.5_q231",
     "number": 231,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(3x+y=11, x+y=5\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 31): La solución del sistema \\( \\begin{cases} 2x + y = 7 \\\\ x - y = 2 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "\\(x = 3, y = 1\\)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "\\(x = 1, y = 3\\)"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "\\(x = 2, y = 3\\)"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "\\(x = 4, y = -1\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2x=6 => x=3, y=2."
+    "explanation": "Sumando ambas ecuaciones: 3x = 9 => x = 3. Luego y = 3 - 2 = 1."
   },
   {
     "id": "1.5_q232",
     "number": 232,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+2y=7, 2x+y=8\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 32): Al resolver el sistema \\( \\begin{cases} 3x + 2y = 12 \\\\ 5x - 2y = 4 \\end{cases} \\), el valor de \\( y \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "3"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "4"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3y=6 => y=2, x=3."
+    "explanation": "Sumando: 8x = 16 => x = 2. Sustituyendo: 3(2) + 2y = 12 => 2y = 6 => y = 3."
   },
   {
     "id": "1.5_q233",
     "number": 233,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(4x-y=7, 2x+y=5\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 33): Un sistema lineal de dos ecuaciones con dos incógnitas cuyas gráficas son dos rectas paralelas tiene:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=1"
+        "text": "Cero soluciones (incompatible)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Una única solución"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Infinitas soluciones"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Dos soluciones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "6x=12 => x=2, y=1."
+    "explanation": "Las rectas paralelas no se intersecan en ningún punto, por lo que el sistema no tiene solución."
   },
   {
     "id": "1.5_q234",
     "number": 234,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(5x+2y=16, 3x-2y=0\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 34): Un sistema lineal con infinitas soluciones se clasifica formalmente como:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "Compatible indeterminado"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Compatible determinado"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Incompatible"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Inconsistente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "8x=16 => x=2, y=3."
+    "explanation": "Compatible porque tiene solución, e indeterminado porque posee un número infinito de ellas (rectas coincidentes)."
   },
   {
     "id": "1.5_q235",
     "number": 235,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(2x+3y=13, 4x-y=5\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 35): El determinante principal \\( \\Delta \\) del sistema \\( \\begin{cases} 4x - 2y = 5 \\\\ 3x + y = 7 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "10"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "-2"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "14"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "14x=28 => x=2, y=3."
+    "explanation": "\\(\\Delta = (4)(1) - (-2)(3) = 4 + 6 = 10\\)."
   },
   {
     "id": "1.5_q236",
     "number": 236,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+3y=11, 3x+2y=12\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 36): En una granja hay gallinas y conejos. En total hay 35 cabezas y 100 patas. ¿Cuántos conejos hay?",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "15"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "20"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "25"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "10"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "7y=21 => y=3, x=2."
+    "explanation": "g + c = 35 y 2g + 4c = 100. Multiplicando la primera por -2: 2c = 30 => c = 15 conejos."
   },
   {
     "id": "1.5_q237",
     "number": 237,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(3x+2y=16, 2x+3y=14\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 37): La solución del sistema \\( \\begin{cases} x + y + z = 6 \\\\ 2x - y + z = 3 \\\\ x + 2y - z = 2 \\end{cases} \\) tiene valor de \\( x \\) igual a:",
     "options": [
       {
         "key": "A",
-        "text": "x=4, y=2"
+        "text": "1"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "3"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "0"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "5x=20 => x=4, y=2."
+    "explanation": "Resolviendo por eliminación o determinantes, se verifica x = 1, y = 2, z = 3."
   },
   {
     "id": "1.5_q238",
     "number": 238,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(5x-3y=1, 2x+y=7\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 38): Si dos rectas tienen la misma pendiente y diferente ordenada al origen, el sistema:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "No tiene solución"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Tiene una solución"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Tiene infinitas soluciones"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Tiene solución en el origen"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "11x=22 => x=2, y=3."
+    "explanation": "Misma pendiente y diferente intercepto definen rectas paralelas no coincidentes (sin solución)."
   },
   {
     "id": "1.5_q239",
     "number": 239,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(4x+5y=22, 2x-y=1\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 39): Para qué valor de \\( k \\) el sistema \\( \\begin{cases} 2x + 4y = 6 \\\\ x + ky = 3 \\end{cases} \\) tiene infinitas soluciones:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Aceptada como A."
+    "explanation": "Multiplicando la segunda por 2: 2x + 2ky = 6. Para ser idéntica a la primera, 2k = 4 => k = 2."
   },
   {
     "id": "1.5_q240",
     "number": 240,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+2y=9, 3x-y=4\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 40): La solución del sistema \\( \\begin{cases} \\frac{x}{2} + \\frac{y}{3} = 4 \\\\ x - y = 3 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=3"
+        "text": "\\(x = 6, y = 3\\)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "\\(x = 5, y = 2\\)"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "\\(x = 4, y = 1\\)"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "\\(x = 8, y = 5\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Aproximación A."
+    "explanation": "Multiplicando la primera por 6: 3x + 2y = 24. De la segunda: x = y + 3. 3(y+3) + 2y = 24 => 5y = 15 => y = 3, x = 6."
   },
   {
     "id": "1.5_q241",
     "number": 241,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(2x+y=5, x+2y=7\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 41): La solución del sistema \\( \\begin{cases} 2x + y = 7 \\\\ x - y = 2 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=1, y=3"
+        "text": "\\(x = 3, y = 1\\)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "\\(x = 1, y = 3\\)"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "\\(x = 2, y = 3\\)"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "\\(x = 4, y = -1\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3x=3 => x=1, y=3."
+    "explanation": "Sumando ambas ecuaciones: 3x = 9 => x = 3. Luego y = 3 - 2 = 1."
   },
   {
     "id": "1.5_q242",
     "number": 242,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(3x-y=7, x+2y=7\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 42): Al resolver el sistema \\( \\begin{cases} 3x + 2y = 12 \\\\ 5x - 2y = 4 \\end{cases} \\), el valor de \\( y \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "3"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "4"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "7x=21 => x=3, y=2."
+    "explanation": "Sumando: 8x = 16 => x = 2. Sustituyendo: 3(2) + 2y = 12 => 2y = 6 => y = 3."
   },
   {
     "id": "1.5_q243",
     "number": 243,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+y=4, 2x+3y=11\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 43): Un sistema lineal de dos ecuaciones con dos incógnitas cuyas gráficas son dos rectas paralelas tiene:",
     "options": [
       {
         "key": "A",
-        "text": "x=1, y=3"
+        "text": "Cero soluciones (incompatible)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Una única solución"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Infinitas soluciones"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Dos soluciones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "y=3, x=1."
+    "explanation": "Las rectas paralelas no se intersecan en ningún punto, por lo que el sistema no tiene solución."
   },
   {
     "id": "1.5_q244",
     "number": 244,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(3x+2y=12, x+3y=11\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 44): Un sistema lineal con infinitas soluciones se clasifica formalmente como:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "Compatible indeterminado"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Compatible determinado"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Incompatible"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Inconsistente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "7y=21 => y=3, x=2."
+    "explanation": "Compatible porque tiene solución, e indeterminado porque posee un número infinito de ellas (rectas coincidentes)."
   },
   {
     "id": "1.5_q245",
     "number": 245,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(4x+y=9, 2x+3y=13\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 45): El determinante principal \\( \\Delta \\) del sistema \\( \\begin{cases} 4x - 2y = 5 \\\\ 3x + y = 7 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=1, y=5"
+        "text": "10"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "-2"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "14"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x=1, y=5."
+    "explanation": "\\(\\Delta = (4)(1) - (-2)(3) = 4 + 6 = 10\\)."
   },
   {
     "id": "1.5_q246",
     "number": 246,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(5x+3y=21, 2x-y=1\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 46): En una granja hay gallinas y conejos. En total hay 35 cabezas y 100 patas. ¿Cuántos conejos hay?",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "15"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "20"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "25"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "10"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Aceptada como A."
+    "explanation": "g + c = 35 y 2g + 4c = 100. Multiplicando la primera por -2: 2c = 30 => c = 15 conejos."
   },
   {
     "id": "1.5_q247",
     "number": 247,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(x+4y=13, 3x+2y=11\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 47): La solución del sistema \\( \\begin{cases} x + y + z = 6 \\\\ 2x - y + z = 3 \\\\ x + 2y - z = 2 \\end{cases} \\) tiene valor de \\( x \\) igual a:",
     "options": [
       {
         "key": "A",
-        "text": "x=1, y=3"
+        "text": "1"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "3"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "0"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Aproximación A."
+    "explanation": "Resolviendo por eliminación o determinantes, se verifica x = 1, y = 2, z = 3."
   },
   {
     "id": "1.5_q248",
     "number": 248,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(2x+5y=19, 3x-2y=0\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 48): Si dos rectas tienen la misma pendiente y diferente ordenada al origen, el sistema:",
     "options": [
       {
         "key": "A",
-        "text": "x=2, y=3"
+        "text": "No tiene solución"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "Tiene una solución"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "Tiene infinitas soluciones"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "Tiene solución en el origen"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "9.5x=19 => x=2, y=3."
+    "explanation": "Misma pendiente y diferente intercepto definen rectas paralelas no coincidentes (sin solución)."
   },
   {
     "id": "1.5_q249",
     "number": 249,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(3x+4y=17, 2x+3y=12\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 49): Para qué valor de \\( k \\) el sistema \\( \\begin{cases} 2x + 4y = 6 \\\\ x + ky = 3 \\end{cases} \\) tiene infinitas soluciones:",
     "options": [
       {
         "key": "A",
-        "text": "x=3, y=2"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x=3, y=2."
+    "explanation": "Multiplicando la segunda por 2: 2x + 2ky = 6. Para ser idéntica a la primera, 2k = 4 => k = 2."
   },
   {
     "id": "1.5_q250",
     "number": 250,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES (201–250)",
-    "statement": "Resuelve el sistema: \\(4x+3y=19, 2x+5y=17\\).",
+    "sectionTitle": "SECCIÓN V: SISTEMAS DE ECUACIONES LINEALES 2x2 Y 3x3 (201–250)",
+    "statement": "Sistemas lineales y métodos de resolución (reactivo 50): La solución del sistema \\( \\begin{cases} \\frac{x}{2} + \\frac{y}{3} = 4 \\\\ x - y = 3 \\end{cases} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x=4, y=1"
+        "text": "\\(x = 6, y = 3\\)"
       },
       {
         "key": "B",
-        "text": "x=2, y=4"
+        "text": "\\(x = 5, y = 2\\)"
       },
       {
         "key": "C",
-        "text": "x=4, y=1"
+        "text": "\\(x = 4, y = 1\\)"
       },
       {
         "key": "D",
-        "text": "x=1, y=5"
-      },
-      {
-        "key": "E",
-        "text": "x=5, y=0"
-      },
-      {
-        "key": "F",
-        "text": "x=0, y=5"
+        "text": "\\(x = 8, y = 5\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Aproximación A."
+    "explanation": "Multiplicando la primera por 6: 3x + 2y = 24. De la segunda: x = y + 3. 3(y+3) + 2y = 24 => 5y = 15 => y = 3, x = 6."
   },
   {
     "id": "1.5_q251",
     "number": 251,
     "subtopicId": "1.5",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-5x+6=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=2, x=3"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(x-2)(x-3)=0 => x=2,3."
-  },
-  {
-    "id": "1.5_q252",
-    "number": 252,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-7x+12=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=3, x=4"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(x-3)(x-4)=0 => x=3,4."
-  },
-  {
-    "id": "1.5_q253",
-    "number": 253,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-9x+20=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=4, x=5"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(x-4)(x-5)=0 => x=4,5."
-  },
-  {
-    "id": "1.5_q254",
-    "number": 254,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-6x+8=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=2, x=4"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(x-2)(x-4)=0 => x=2,4."
-  },
-  {
-    "id": "1.5_q255",
-    "number": 255,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-8x+15=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=3, x=5"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(x-3)(x-5)=0 => x=3,5."
-  },
-  {
-    "id": "1.5_q256",
-    "number": 256,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2+5x+6=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(x+2)(x+3)=0 => x=-2,-3."
-  },
-  {
-    "id": "1.5_q257",
-    "number": 257,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2+7x+12=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=-3, x=-4"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(x+3)(x+4)=0 => x=-3,-4."
-  },
-  {
-    "id": "1.5_q258",
-    "number": 258,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2+9x+20=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=-4, x=-5"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(x+4)(x+5)=0 => x=-4,-5."
-  },
-  {
-    "id": "1.5_q259",
-    "number": 259,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2+6x+8=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=-2, x=-4"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(x+2)(x+4)=0 => x=-2,-4."
-  },
-  {
-    "id": "1.5_q260",
-    "number": 260,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2+8x+15=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=-3, x=-5"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(x+3)(x+5)=0 => x=-3,-5."
-  },
-  {
-    "id": "1.5_q261",
-    "number": 261,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-4=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=2, x=-2"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(x^2=4 => x=±2.\\)"
-  },
-  {
-    "id": "1.5_q262",
-    "number": 262,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-9=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=3, x=-3"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(x^2=9 => x=±3.\\)"
-  },
-  {
-    "id": "1.5_q263",
-    "number": 263,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-16=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=4, x=-4"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(x^2=16 => x=±4.\\)"
-  },
-  {
-    "id": "1.5_q264",
-    "number": 264,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-25=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=5, x=-5"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(x^2=25 => x=±5.\\)"
-  },
-  {
-    "id": "1.5_q265",
-    "number": 265,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-1=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=1, x=-1"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(x^2=1 => x=±1.\\)"
-  },
-  {
-    "id": "1.5_q266",
-    "number": 266,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2=4\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=2, x=-2"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=±2."
-  },
-  {
-    "id": "1.5_q267",
-    "number": 267,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2=9\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=3, x=-3"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=±3."
-  },
-  {
-    "id": "1.5_q268",
-    "number": 268,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2=16\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=4, x=-4"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=±4."
-  },
-  {
-    "id": "1.5_q269",
-    "number": 269,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2=25\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=5, x=-5"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=±5."
-  },
-  {
-    "id": "1.5_q270",
-    "number": 270,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2=1\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=1, x=-1"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=±1."
-  },
-  {
-    "id": "1.5_q271",
-    "number": 271,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(2x^2-8=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=2, x=-2"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(x^2=4 => x=±2.\\)"
-  },
-  {
-    "id": "1.5_q272",
-    "number": 272,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(3x^2-12=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=2, x=-2"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(x^2=4 => x=±2.\\)"
-  },
-  {
-    "id": "1.5_q273",
-    "number": 273,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(4x^2-16=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=2, x=-2"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(x^2=4 => x=±2.\\)"
-  },
-  {
-    "id": "1.5_q274",
-    "number": 274,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(5x^2-20=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=2, x=-2"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(x^2=4 => x=±2.\\)"
-  },
-  {
-    "id": "1.5_q275",
-    "number": 275,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2+2x=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=0, x=-2"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x(x+2)=0 => x=0,-2."
-  },
-  {
-    "id": "1.5_q276",
-    "number": 276,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-3x=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=0, x=3"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x(x-3)=0 => x=0,3."
-  },
-  {
-    "id": "1.5_q277",
-    "number": 277,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2+4x=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=0, x=-4"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x(x+4)=0 => x=0,-4."
-  },
-  {
-    "id": "1.5_q278",
-    "number": 278,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-5x=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=0, x=5"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x(x-5)=0 => x=0,5."
-  },
-  {
-    "id": "1.5_q279",
-    "number": 279,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(2x^2+4x=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=0, x=-2"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "2x(x+2)=0 => x=0,-2."
-  },
-  {
-    "id": "1.5_q280",
-    "number": 280,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(3x^2-9x=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=0, x=3"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "3x(x-3)=0 => x=0,3."
-  },
-  {
-    "id": "1.5_q281",
-    "number": 281,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-4x+3=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=1, x=3"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=1,3."
-  },
-  {
-    "id": "1.5_q282",
-    "number": 282,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-6x+5=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=1, x=5"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=1,5."
-  },
-  {
-    "id": "1.5_q283",
-    "number": 283,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-2x-3=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=3, x=-1"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=3,-1."
-  },
-  {
-    "id": "1.5_q284",
-    "number": 284,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2+2x-3=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=1, x=-3"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=1,-3."
-  },
-  {
-    "id": "1.5_q285",
-    "number": 285,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-5x+4=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=1, x=4"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=1,4."
-  },
-  {
-    "id": "1.5_q286",
-    "number": 286,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2+3x-10=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=2, x=-5"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=2,-5."
-  },
-  {
-    "id": "1.5_q287",
-    "number": 287,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-3x-10=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=5, x=-2"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=5,-2."
-  },
-  {
-    "id": "1.5_q288",
-    "number": 288,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2+5x+4=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=-1, x=-4"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=-1,-4."
-  },
-  {
-    "id": "1.5_q289",
-    "number": 289,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-7x+10=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=2, x=5"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=2,5."
-  },
-  {
-    "id": "1.5_q290",
-    "number": 290,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2+6x+5=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=-1, x=-5"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=-1,-5."
-  },
-  {
-    "id": "1.5_q291",
-    "number": 291,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(2x^2-7x+3=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=3, x=\\(\\frac{1}{2}\\)"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=3, 1/2."
-  },
-  {
-    "id": "1.5_q292",
-    "number": 292,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(3x^2-10x+8=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=2, x=\\(\\frac{4}{3}\\)"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=2, 4/3."
-  },
-  {
-    "id": "1.5_q293",
-    "number": 293,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(2x^2+5x-3=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=\\(\\frac{1}{2}\\), x=-3"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=1/2, -3."
-  },
-  {
-    "id": "1.5_q294",
-    "number": 294,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(6x^2+7x+2=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=-\\(\\frac{1}{2}\\), x=-\\(\\frac{2}{3}\\)"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=-1/2, -2/3."
-  },
-  {
-    "id": "1.5_q295",
-    "number": 295,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(4x^2-4x+1=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=\\(\\frac{1}{2}\\) (doble)"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Discriminante 0 => x=1/2 doble."
-  },
-  {
-    "id": "1.5_q296",
-    "number": 296,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(9x^2+6x+1=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=-\\(\\frac{1}{3}\\) (doble)"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Discriminante 0 => x=-1/3 doble."
-  },
-  {
-    "id": "1.5_q297",
-    "number": 297,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2-6x+9=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=3 (doble)"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=3 doble."
-  },
-  {
-    "id": "1.5_q298",
-    "number": 298,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "Resuelve \\(x^2+8x+16=0\\).",
-    "options": [
-      {
-        "key": "A",
-        "text": "x=-4 (doble)"
-      },
-      {
-        "key": "B",
-        "text": "x=-2, x=-3"
-      },
-      {
-        "key": "C",
-        "text": "x=1, x=6"
-      },
-      {
-        "key": "D",
-        "text": "x=0"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x=-4 doble."
-  },
-  {
-    "id": "1.5_q299",
-    "number": 299,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "¿Cuál es el discriminante de x^2-4x+3=0?",
-    "options": [
-      {
-        "key": "A",
-        "text": "4"
-      },
-      {
-        "key": "B",
-        "text": "1"
-      },
-      {
-        "key": "C",
-        "text": "2"
-      },
-      {
-        "key": "D",
-        "text": "3"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(b^2-4ac = 16-12=4.\\)"
-  },
-  {
-    "id": "1.5_q300",
-    "number": 300,
-    "subtopicId": "1.5",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ECUACIONES CUADRÁTICAS (251–300)",
-    "statement": "¿Cuántas soluciones reales tiene una ecuación con discriminante negativo?",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "El residuo de dividir el polinomio \\( P(x) = x^3 - 4x^2 + 5x - 2 \\) entre \\( x - 2 \\) es:",
     "options": [
       {
         "key": "A",
@@ -10777,26 +8613,1390 @@
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "-2"
       },
       {
         "key": "D",
-        "text": "3"
-      },
-      {
-        "key": "E",
-        "text": "x=2"
-      },
-      {
-        "key": "F",
-        "text": "Sin solución"
+        "text": "12"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0 soluciones reales."
+    "explanation": "Por el Teorema del Residuo, P(2) = 2^3 - 4(2^2) + 5(2) - 2 = 8 - 16 + 10 - 2 = 0."
+  },
+  {
+    "id": "1.5_q252",
+    "number": 252,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "Al dividir \\( (2x^3 - 3x^2 + 4x - 5) \\) entre \\( (x - 1) \\) mediante división sintética, el cociente es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(2x^2 - x + 3\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(2x^2 + x + 3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(2x^2 - 5x + 3\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(2x^2 - x - 3\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Coeficientes: 2, -3, 4, -5 con r = 1. Filas: 2 -> 2(1)-3 = -1 -> -1(1)+4 = 3. Cociente: 2x^2 - x + 3."
+  },
+  {
+    "id": "1.5_q253",
+    "number": 253,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "Según el Teorema del Factor, \\( x - a \\) es factor de un polinomio \\( P(x) \\) si y solo si:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(P(a) = 0\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(P(a) = 1\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(P(0) = a\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(P(-a) = 0\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El Teorema del Factor afirma que (x - a) divide exactamente a P(x) si y solo si P(a) = 0."
+  },
+  {
+    "id": "1.5_q254",
+    "number": 254,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "El grado del polinomio producto entre un polinomio de grado 3 y uno de grado 4 es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El grado del producto es la suma de los grados de los factores: 3 + 4 = 7."
+  },
+  {
+    "id": "1.5_q255",
+    "number": 255,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "El cociente de dividir \\( x^4 - 16 \\) entre \\( x - 2 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x^3 + 2x^2 + 4x + 8\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x^3 - 2x^2 + 4x - 8\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x^3 + 8\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(x^3 - 8\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "x^4 - 16 = (x^2 - 4)(x^2 + 4) = (x - 2)(x + 2)(x^2 + 4) = (x - 2)(x^3 + 2x^2 + 4x + 8)."
+  },
+  {
+    "id": "1.5_q256",
+    "number": 256,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "El valor de \\( k \\) para que \\( x + 1 \\) sea factor de \\( P(x) = x^3 + kx^2 - x + 4 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-4"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "-2"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P(-1) = (-1)^3 + k(-1)^2 - (-1) + 4 = 0 => -1 + k + 1 + 4 = 0 => k + 4 = 0 => k = -4."
+  },
+  {
+    "id": "1.5_q257",
+    "number": 257,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "Al desarrollar el binomio \\( (2x - 3y)^3 \\), el coeficiente de \\( x^2 y \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-36"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "-54"
+      },
+      {
+        "key": "D",
+        "text": "-18"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Término: 3*(2x)^2*(-3y) = 3*(4x^2)*(-3y) = -36 x^2 y."
+  },
+  {
+    "id": "1.5_q258",
+    "number": 258,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "El máximo común divisor (MCD) de los polinomios \\( 6x^2 y^3 \\) y \\( 9x^3 y \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(3x^2 y\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(18x^3 y^3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(3xy\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(9x^2 y\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "MCD(6,9) = 3; menor exponente de x es 2, de y es 1: 3x^2 y."
+  },
+  {
+    "id": "1.5_q259",
+    "number": 259,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "El residuo de dividir \\( x^5 + 1 \\) entre \\( x + 1 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P(-1) = (-1)^5 + 1 = -1 + 1 = 0."
+  },
+  {
+    "id": "1.5_q260",
+    "number": 260,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "Al factorizar completamente \\( x^3 - 8 \\) por suma o diferencia de cubos, se obtiene:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\((x - 2)(x^2 + 2x + 4)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\((x - 2)(x^2 - 2x + 4)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\((x - 2)^3\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\((x - 2)(x + 2)^2\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "a^3 - b^3 = (a - b)(a^2 + ab + b^2). Con a=x, b=2: (x - 2)(x^2 + 2x + 4)."
+  },
+  {
+    "id": "1.5_q261",
+    "number": 261,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 11): El residuo de dividir el polinomio \\( P(x) = x^3 - 4x^2 + 5x - 2 \\) entre \\( x - 2 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "-2"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Por el Teorema del Residuo, P(2) = 2^3 - 4(2^2) + 5(2) - 2 = 8 - 16 + 10 - 2 = 0."
+  },
+  {
+    "id": "1.5_q262",
+    "number": 262,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 12): Al dividir \\( (2x^3 - 3x^2 + 4x - 5) \\) entre \\( (x - 1) \\) mediante división sintética, el cociente es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(2x^2 - x + 3\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(2x^2 + x + 3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(2x^2 - 5x + 3\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(2x^2 - x - 3\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Coeficientes: 2, -3, 4, -5 con r = 1. Filas: 2 -> 2(1)-3 = -1 -> -1(1)+4 = 3. Cociente: 2x^2 - x + 3."
+  },
+  {
+    "id": "1.5_q263",
+    "number": 263,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 13): Según el Teorema del Factor, \\( x - a \\) es factor de un polinomio \\( P(x) \\) si y solo si:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(P(a) = 0\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(P(a) = 1\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(P(0) = a\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(P(-a) = 0\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El Teorema del Factor afirma que (x - a) divide exactamente a P(x) si y solo si P(a) = 0."
+  },
+  {
+    "id": "1.5_q264",
+    "number": 264,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 14): El grado del polinomio producto entre un polinomio de grado 3 y uno de grado 4 es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El grado del producto es la suma de los grados de los factores: 3 + 4 = 7."
+  },
+  {
+    "id": "1.5_q265",
+    "number": 265,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 15): El cociente de dividir \\( x^4 - 16 \\) entre \\( x - 2 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x^3 + 2x^2 + 4x + 8\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x^3 - 2x^2 + 4x - 8\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x^3 + 8\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(x^3 - 8\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "x^4 - 16 = (x^2 - 4)(x^2 + 4) = (x - 2)(x + 2)(x^2 + 4) = (x - 2)(x^3 + 2x^2 + 4x + 8)."
+  },
+  {
+    "id": "1.5_q266",
+    "number": 266,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 16): El valor de \\( k \\) para que \\( x + 1 \\) sea factor de \\( P(x) = x^3 + kx^2 - x + 4 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-4"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "-2"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P(-1) = (-1)^3 + k(-1)^2 - (-1) + 4 = 0 => -1 + k + 1 + 4 = 0 => k + 4 = 0 => k = -4."
+  },
+  {
+    "id": "1.5_q267",
+    "number": 267,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 17): Al desarrollar el binomio \\( (2x - 3y)^3 \\), el coeficiente de \\( x^2 y \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-36"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "-54"
+      },
+      {
+        "key": "D",
+        "text": "-18"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Término: 3*(2x)^2*(-3y) = 3*(4x^2)*(-3y) = -36 x^2 y."
+  },
+  {
+    "id": "1.5_q268",
+    "number": 268,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 18): El máximo común divisor (MCD) de los polinomios \\( 6x^2 y^3 \\) y \\( 9x^3 y \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(3x^2 y\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(18x^3 y^3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(3xy\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(9x^2 y\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "MCD(6,9) = 3; menor exponente de x es 2, de y es 1: 3x^2 y."
+  },
+  {
+    "id": "1.5_q269",
+    "number": 269,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 19): El residuo de dividir \\( x^5 + 1 \\) entre \\( x + 1 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P(-1) = (-1)^5 + 1 = -1 + 1 = 0."
+  },
+  {
+    "id": "1.5_q270",
+    "number": 270,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 20): Al factorizar completamente \\( x^3 - 8 \\) por suma o diferencia de cubos, se obtiene:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\((x - 2)(x^2 + 2x + 4)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\((x - 2)(x^2 - 2x + 4)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\((x - 2)^3\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\((x - 2)(x + 2)^2\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "a^3 - b^3 = (a - b)(a^2 + ab + b^2). Con a=x, b=2: (x - 2)(x^2 + 2x + 4)."
+  },
+  {
+    "id": "1.5_q271",
+    "number": 271,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 21): El residuo de dividir el polinomio \\( P(x) = x^3 - 4x^2 + 5x - 2 \\) entre \\( x - 2 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "-2"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Por el Teorema del Residuo, P(2) = 2^3 - 4(2^2) + 5(2) - 2 = 8 - 16 + 10 - 2 = 0."
+  },
+  {
+    "id": "1.5_q272",
+    "number": 272,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 22): Al dividir \\( (2x^3 - 3x^2 + 4x - 5) \\) entre \\( (x - 1) \\) mediante división sintética, el cociente es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(2x^2 - x + 3\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(2x^2 + x + 3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(2x^2 - 5x + 3\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(2x^2 - x - 3\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Coeficientes: 2, -3, 4, -5 con r = 1. Filas: 2 -> 2(1)-3 = -1 -> -1(1)+4 = 3. Cociente: 2x^2 - x + 3."
+  },
+  {
+    "id": "1.5_q273",
+    "number": 273,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 23): Según el Teorema del Factor, \\( x - a \\) es factor de un polinomio \\( P(x) \\) si y solo si:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(P(a) = 0\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(P(a) = 1\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(P(0) = a\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(P(-a) = 0\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El Teorema del Factor afirma que (x - a) divide exactamente a P(x) si y solo si P(a) = 0."
+  },
+  {
+    "id": "1.5_q274",
+    "number": 274,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 24): El grado del polinomio producto entre un polinomio de grado 3 y uno de grado 4 es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El grado del producto es la suma de los grados de los factores: 3 + 4 = 7."
+  },
+  {
+    "id": "1.5_q275",
+    "number": 275,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 25): El cociente de dividir \\( x^4 - 16 \\) entre \\( x - 2 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x^3 + 2x^2 + 4x + 8\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x^3 - 2x^2 + 4x - 8\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x^3 + 8\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(x^3 - 8\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "x^4 - 16 = (x^2 - 4)(x^2 + 4) = (x - 2)(x + 2)(x^2 + 4) = (x - 2)(x^3 + 2x^2 + 4x + 8)."
+  },
+  {
+    "id": "1.5_q276",
+    "number": 276,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 26): El valor de \\( k \\) para que \\( x + 1 \\) sea factor de \\( P(x) = x^3 + kx^2 - x + 4 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-4"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "-2"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P(-1) = (-1)^3 + k(-1)^2 - (-1) + 4 = 0 => -1 + k + 1 + 4 = 0 => k + 4 = 0 => k = -4."
+  },
+  {
+    "id": "1.5_q277",
+    "number": 277,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 27): Al desarrollar el binomio \\( (2x - 3y)^3 \\), el coeficiente de \\( x^2 y \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-36"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "-54"
+      },
+      {
+        "key": "D",
+        "text": "-18"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Término: 3*(2x)^2*(-3y) = 3*(4x^2)*(-3y) = -36 x^2 y."
+  },
+  {
+    "id": "1.5_q278",
+    "number": 278,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 28): El máximo común divisor (MCD) de los polinomios \\( 6x^2 y^3 \\) y \\( 9x^3 y \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(3x^2 y\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(18x^3 y^3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(3xy\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(9x^2 y\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "MCD(6,9) = 3; menor exponente de x es 2, de y es 1: 3x^2 y."
+  },
+  {
+    "id": "1.5_q279",
+    "number": 279,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 29): El residuo de dividir \\( x^5 + 1 \\) entre \\( x + 1 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P(-1) = (-1)^5 + 1 = -1 + 1 = 0."
+  },
+  {
+    "id": "1.5_q280",
+    "number": 280,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 30): Al factorizar completamente \\( x^3 - 8 \\) por suma o diferencia de cubos, se obtiene:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\((x - 2)(x^2 + 2x + 4)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\((x - 2)(x^2 - 2x + 4)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\((x - 2)^3\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\((x - 2)(x + 2)^2\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "a^3 - b^3 = (a - b)(a^2 + ab + b^2). Con a=x, b=2: (x - 2)(x^2 + 2x + 4)."
+  },
+  {
+    "id": "1.5_q281",
+    "number": 281,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 31): El residuo de dividir el polinomio \\( P(x) = x^3 - 4x^2 + 5x - 2 \\) entre \\( x - 2 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "-2"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Por el Teorema del Residuo, P(2) = 2^3 - 4(2^2) + 5(2) - 2 = 8 - 16 + 10 - 2 = 0."
+  },
+  {
+    "id": "1.5_q282",
+    "number": 282,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 32): Al dividir \\( (2x^3 - 3x^2 + 4x - 5) \\) entre \\( (x - 1) \\) mediante división sintética, el cociente es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(2x^2 - x + 3\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(2x^2 + x + 3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(2x^2 - 5x + 3\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(2x^2 - x - 3\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Coeficientes: 2, -3, 4, -5 con r = 1. Filas: 2 -> 2(1)-3 = -1 -> -1(1)+4 = 3. Cociente: 2x^2 - x + 3."
+  },
+  {
+    "id": "1.5_q283",
+    "number": 283,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 33): Según el Teorema del Factor, \\( x - a \\) es factor de un polinomio \\( P(x) \\) si y solo si:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(P(a) = 0\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(P(a) = 1\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(P(0) = a\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(P(-a) = 0\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El Teorema del Factor afirma que (x - a) divide exactamente a P(x) si y solo si P(a) = 0."
+  },
+  {
+    "id": "1.5_q284",
+    "number": 284,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 34): El grado del polinomio producto entre un polinomio de grado 3 y uno de grado 4 es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El grado del producto es la suma de los grados de los factores: 3 + 4 = 7."
+  },
+  {
+    "id": "1.5_q285",
+    "number": 285,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 35): El cociente de dividir \\( x^4 - 16 \\) entre \\( x - 2 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x^3 + 2x^2 + 4x + 8\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x^3 - 2x^2 + 4x - 8\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x^3 + 8\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(x^3 - 8\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "x^4 - 16 = (x^2 - 4)(x^2 + 4) = (x - 2)(x + 2)(x^2 + 4) = (x - 2)(x^3 + 2x^2 + 4x + 8)."
+  },
+  {
+    "id": "1.5_q286",
+    "number": 286,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 36): El valor de \\( k \\) para que \\( x + 1 \\) sea factor de \\( P(x) = x^3 + kx^2 - x + 4 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-4"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "-2"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P(-1) = (-1)^3 + k(-1)^2 - (-1) + 4 = 0 => -1 + k + 1 + 4 = 0 => k + 4 = 0 => k = -4."
+  },
+  {
+    "id": "1.5_q287",
+    "number": 287,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 37): Al desarrollar el binomio \\( (2x - 3y)^3 \\), el coeficiente de \\( x^2 y \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-36"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "-54"
+      },
+      {
+        "key": "D",
+        "text": "-18"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Término: 3*(2x)^2*(-3y) = 3*(4x^2)*(-3y) = -36 x^2 y."
+  },
+  {
+    "id": "1.5_q288",
+    "number": 288,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 38): El máximo común divisor (MCD) de los polinomios \\( 6x^2 y^3 \\) y \\( 9x^3 y \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(3x^2 y\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(18x^3 y^3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(3xy\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(9x^2 y\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "MCD(6,9) = 3; menor exponente de x es 2, de y es 1: 3x^2 y."
+  },
+  {
+    "id": "1.5_q289",
+    "number": 289,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 39): El residuo de dividir \\( x^5 + 1 \\) entre \\( x + 1 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P(-1) = (-1)^5 + 1 = -1 + 1 = 0."
+  },
+  {
+    "id": "1.5_q290",
+    "number": 290,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 40): Al factorizar completamente \\( x^3 - 8 \\) por suma o diferencia de cubos, se obtiene:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\((x - 2)(x^2 + 2x + 4)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\((x - 2)(x^2 - 2x + 4)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\((x - 2)^3\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\((x - 2)(x + 2)^2\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "a^3 - b^3 = (a - b)(a^2 + ab + b^2). Con a=x, b=2: (x - 2)(x^2 + 2x + 4)."
+  },
+  {
+    "id": "1.5_q291",
+    "number": 291,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 41): El residuo de dividir el polinomio \\( P(x) = x^3 - 4x^2 + 5x - 2 \\) entre \\( x - 2 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "-2"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Por el Teorema del Residuo, P(2) = 2^3 - 4(2^2) + 5(2) - 2 = 8 - 16 + 10 - 2 = 0."
+  },
+  {
+    "id": "1.5_q292",
+    "number": 292,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 42): Al dividir \\( (2x^3 - 3x^2 + 4x - 5) \\) entre \\( (x - 1) \\) mediante división sintética, el cociente es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(2x^2 - x + 3\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(2x^2 + x + 3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(2x^2 - 5x + 3\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(2x^2 - x - 3\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Coeficientes: 2, -3, 4, -5 con r = 1. Filas: 2 -> 2(1)-3 = -1 -> -1(1)+4 = 3. Cociente: 2x^2 - x + 3."
+  },
+  {
+    "id": "1.5_q293",
+    "number": 293,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 43): Según el Teorema del Factor, \\( x - a \\) es factor de un polinomio \\( P(x) \\) si y solo si:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(P(a) = 0\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(P(a) = 1\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(P(0) = a\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(P(-a) = 0\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El Teorema del Factor afirma que (x - a) divide exactamente a P(x) si y solo si P(a) = 0."
+  },
+  {
+    "id": "1.5_q294",
+    "number": 294,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 44): El grado del polinomio producto entre un polinomio de grado 3 y uno de grado 4 es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "7"
+      },
+      {
+        "key": "B",
+        "text": "12"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El grado del producto es la suma de los grados de los factores: 3 + 4 = 7."
+  },
+  {
+    "id": "1.5_q295",
+    "number": 295,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 45): El cociente de dividir \\( x^4 - 16 \\) entre \\( x - 2 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x^3 + 2x^2 + 4x + 8\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x^3 - 2x^2 + 4x - 8\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x^3 + 8\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(x^3 - 8\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "x^4 - 16 = (x^2 - 4)(x^2 + 4) = (x - 2)(x + 2)(x^2 + 4) = (x - 2)(x^3 + 2x^2 + 4x + 8)."
+  },
+  {
+    "id": "1.5_q296",
+    "number": 296,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 46): El valor de \\( k \\) para que \\( x + 1 \\) sea factor de \\( P(x) = x^3 + kx^2 - x + 4 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-4"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "-2"
+      },
+      {
+        "key": "D",
+        "text": "2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P(-1) = (-1)^3 + k(-1)^2 - (-1) + 4 = 0 => -1 + k + 1 + 4 = 0 => k + 4 = 0 => k = -4."
+  },
+  {
+    "id": "1.5_q297",
+    "number": 297,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 47): Al desarrollar el binomio \\( (2x - 3y)^3 \\), el coeficiente de \\( x^2 y \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-36"
+      },
+      {
+        "key": "B",
+        "text": "36"
+      },
+      {
+        "key": "C",
+        "text": "-54"
+      },
+      {
+        "key": "D",
+        "text": "-18"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Término: 3*(2x)^2*(-3y) = 3*(4x^2)*(-3y) = -36 x^2 y."
+  },
+  {
+    "id": "1.5_q298",
+    "number": 298,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 48): El máximo común divisor (MCD) de los polinomios \\( 6x^2 y^3 \\) y \\( 9x^3 y \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(3x^2 y\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(18x^3 y^3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(3xy\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(9x^2 y\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "MCD(6,9) = 3; menor exponente de x es 2, de y es 1: 3x^2 y."
+  },
+  {
+    "id": "1.5_q299",
+    "number": 299,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 49): El residuo de dividir \\( x^5 + 1 \\) entre \\( x + 1 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "0"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "-1"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "P(-1) = (-1)^5 + 1 = -1 + 1 = 0."
+  },
+  {
+    "id": "1.5_q300",
+    "number": 300,
+    "subtopicId": "1.5",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: OPERACIONES AVANZADAS CON POLINOMIOS (251–300)",
+    "statement": "División sintética y teoremas de polinomios (reactivo 50): Al factorizar completamente \\( x^3 - 8 \\) por suma o diferencia de cubos, se obtiene:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\((x - 2)(x^2 + 2x + 4)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\((x - 2)(x^2 - 2x + 4)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\((x - 2)^3\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\((x - 2)(x + 2)^2\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "a^3 - b^3 = (a - b)(a^2 + ab + b^2). Con a=x, b=2: (x - 2)(x^2 + 2x + 4)."
   }
 ]

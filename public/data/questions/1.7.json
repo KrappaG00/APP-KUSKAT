@@ -7204,656 +7204,64 @@
     "number": 201,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=x^2 con x>=0, f^{-1}(16) es:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "La pendiente de la recta que pasa por los puntos \\( A(2, 3) \\) y \\( B(6, 11) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "4"
-      },
-      {
-        "key": "B",
         "text": "2"
       },
       {
+        "key": "B",
+        "text": "4"
+      },
+      {
         "key": "C",
-        "text": "x"
+        "text": "1/2"
       },
       {
         "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "8"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "4."
+    "explanation": "m = (11 - 3)/(6 - 2) = 8/4 = 2."
   },
   {
     "id": "1.7_q202",
     "number": 202,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=x^2 con x>=0, f^{-1}(25) es:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "La ecuación de la recta con pendiente \\( m = -3 \\) que pasa por el punto \\( (1, 4) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "5"
+        "text": "\\(y = -3x + 7\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(y = -3x + 1\\)"
       },
       {
         "key": "C",
-        "text": "x"
+        "text": "\\(y = 3x + 1\\)"
       },
       {
         "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(y = -3x - 7\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "5."
+    "explanation": "y - 4 = -3(x - 1) => y - 4 = -3x + 3 => y = -3x + 7."
   },
   {
     "id": "1.7_q203",
     "number": 203,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "La función f(x)=2x+1 es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Inyectiva"
-      },
-      {
-        "key": "B",
-        "text": "2"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Inyectiva."
-  },
-  {
-    "id": "1.7_q204",
-    "number": 204,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "La función f(x)=x^2 con dominio R es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "No inyectiva"
-      },
-      {
-        "key": "B",
-        "text": "2"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "No inyectiva."
-  },
-  {
-    "id": "1.7_q205",
-    "number": 205,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "La función f(x)=x^2 con dominio x>=0 es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Inyectiva"
-      },
-      {
-        "key": "B",
-        "text": "2"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Inyectiva."
-  },
-  {
-    "id": "1.7_q206",
-    "number": 206,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Una función es inyectiva si:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Cada valor del rango corresponde a un solo valor del dominio"
-      },
-      {
-        "key": "B",
-        "text": "2"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Inyectiva."
-  },
-  {
-    "id": "1.7_q207",
-    "number": 207,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Una función es sobreyectiva si:",
-    "options": [
-      {
-        "key": "A",
-        "text": "El rango es igual al codominio"
-      },
-      {
-        "key": "B",
-        "text": "2"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Sobreyectiva."
-  },
-  {
-    "id": "1.7_q208",
-    "number": 208,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Una función es biyectiva si:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Es inyectiva y sobreyectiva"
-      },
-      {
-        "key": "B",
-        "text": "2"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Biyectiva."
-  },
-  {
-    "id": "1.7_q209",
-    "number": 209,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=2x+1, f(f^{-1}(5)) es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "5"
-      },
-      {
-        "key": "B",
-        "text": "2"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "5."
-  },
-  {
-    "id": "1.7_q210",
-    "number": 210,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=3x-2, f^{-1}(f(4)) es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "4"
-      },
-      {
-        "key": "B",
-        "text": "2"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "4."
-  },
-  {
-    "id": "1.7_q211",
-    "number": 211,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=x+1 y g(x)=2x, (g o f)(x) es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "2x+2"
-      },
-      {
-        "key": "B",
-        "text": "2x+1"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "2x+2."
-  },
-  {
-    "id": "1.7_q212",
-    "number": 212,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=x^2 y g(x)=x-1, (g o f)(x) es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "\\(x^2-1\\)"
-      },
-      {
-        "key": "B",
-        "text": "2x+1"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(x^2-1.\\)"
-  },
-  {
-    "id": "1.7_q213",
-    "number": 213,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=2x+1 y g(x)=x^2, (g o f)(x) es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "(2x+1)^2"
-      },
-      {
-        "key": "B",
-        "text": "2x+1"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "(2x+1)^2."
-  },
-  {
-    "id": "1.7_q214",
-    "number": 214,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=x+2 y g(x)=x^2, (f o g)(x) es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "\\(x^2+2\\)"
-      },
-      {
-        "key": "B",
-        "text": "2x+1"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(x^2+2.\\)"
-  },
-  {
-    "id": "1.7_q215",
-    "number": 215,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=3x y g(x)=x+1, (f o g)(x) es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "3x+3"
-      },
-      {
-        "key": "B",
-        "text": "2x+1"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "3x+3."
-  },
-  {
-    "id": "1.7_q216",
-    "number": 216,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=x-1 y g(x)=x+1, (f o g)(x) es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "x"
-      },
-      {
-        "key": "B",
-        "text": "2x+1"
-      },
-      {
-        "key": "C",
-        "text": "2x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "x."
-  },
-  {
-    "id": "1.7_q217",
-    "number": 217,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=1/x y g(x)=x+1, (f o g)(x) es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "1/(x+1)"
-      },
-      {
-        "key": "B",
-        "text": "2x+1"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "1/(x+1)."
-  },
-  {
-    "id": "1.7_q218",
-    "number": 218,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=x^2+1, f(f(1)) es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "5"
-      },
-      {
-        "key": "B",
-        "text": "2"
-      },
-      {
-        "key": "C",
-        "text": "x"
-      },
-      {
-        "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "f(1)=2, f(2)=5."
-  },
-  {
-    "id": "1.7_q219",
-    "number": 219,
-    "subtopicId": "1.7",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=2x-3, f(f(2)) es:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Dos rectas no verticales \\( L_1 \\) y \\( L_2 \\) son perpendiculares si y solo si el producto de sus pendientes es:",
     "options": [
       {
         "key": "A",
@@ -7861,543 +7269,871 @@
       },
       {
         "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "Indefinido"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Condición analítica de perpendicularidad: m_1 * m_2 = -1."
+  },
+  {
+    "id": "1.7_q204",
+    "number": 204,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "La recta perpendicular a \\( y = 2x + 5 \\) tiene como pendiente:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-1/2"
+      },
+      {
+        "key": "B",
         "text": "2"
       },
       {
         "key": "C",
-        "text": "x"
+        "text": "-2"
       },
       {
         "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "1/2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "f(2)=1, f(1)=-1."
+    "explanation": "m_2 = -1/m_1 = -1/2."
+  },
+  {
+    "id": "1.7_q205",
+    "number": 205,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "La ecuación canónica de la circunferencia con centro en el origen y radio \\( r = 5 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x^2 + y^2 = 25\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x^2 + y^2 = 5\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x^2 - y^2 = 25\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\((x-5)^2 + (y-5)^2 = 25\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "x^2 + y^2 = r^2 = 5^2 = 25."
+  },
+  {
+    "id": "1.7_q206",
+    "number": 206,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "El centro y el radio de la circunferencia \\( (x - 3)^2 + (y + 2)^2 = 16 \\) son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Centro (3, -2), radio 4"
+      },
+      {
+        "key": "B",
+        "text": "Centro (-3, 2), radio 4"
+      },
+      {
+        "key": "C",
+        "text": "Centro (3, -2), radio 16"
+      },
+      {
+        "key": "D",
+        "text": "Centro (-3, 2), radio 16"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "De (x - h)^2 + (y - k)^2 = r^2: h = 3, k = -2, r = \\sqrt{16} = 4."
+  },
+  {
+    "id": "1.7_q207",
+    "number": 207,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "La distancia del punto \\( P(1, 2) \\) a la recta \\( 3x + 4y - 1 = 0 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "d = |3(1) + 4(2) - 1| / \\sqrt{3^2 + 4^2} = |3 + 8 - 1| / \\sqrt{25} = 10 / 5 = 2."
+  },
+  {
+    "id": "1.7_q208",
+    "number": 208,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "La ecuación general de la recta \\( y = \\frac{2}{3}x - 4 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(2x - 3y - 12 = 0\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(2x + 3y - 12 = 0\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(3x - 2y - 12 = 0\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(2x - 3y + 4 = 0\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por 3: 3y = 2x - 12 => 2x - 3y - 12 = 0."
+  },
+  {
+    "id": "1.7_q209",
+    "number": 209,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "El punto de intersección de la recta \\( 2x - y = 4 \\) con el eje Y es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "(0, -4)"
+      },
+      {
+        "key": "B",
+        "text": "(2, 0)"
+      },
+      {
+        "key": "C",
+        "text": "(0, 4)"
+      },
+      {
+        "key": "D",
+        "text": "(-4, 0)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Haciendo x = 0: 2(0) - y = 4 => y = -4. Punto: (0, -4)."
+  },
+  {
+    "id": "1.7_q210",
+    "number": 210,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "La ecuación ordinaria de la circunferencia \\( x^2 + y^2 - 4x + 6y - 3 = 0 \\) completando cuadrados es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\((x - 2)^2 + (y + 3)^2 = 16\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\((x + 2)^2 + (y - 3)^2 = 16\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\((x - 2)^2 + (y + 3)^2 = 9\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\((x - 4)^2 + (y + 6)^2 = 3\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(x^2 - 4x + 4) + (y^2 + 6y + 9) = 3 + 4 + 9 => (x - 2)^2 + (y + 3)^2 = 16."
+  },
+  {
+    "id": "1.7_q211",
+    "number": 211,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 11): La pendiente de la recta que pasa por los puntos \\( A(2, 3) \\) y \\( B(6, 11) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "4"
+      },
+      {
+        "key": "C",
+        "text": "1/2"
+      },
+      {
+        "key": "D",
+        "text": "8"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "m = (11 - 3)/(6 - 2) = 8/4 = 2."
+  },
+  {
+    "id": "1.7_q212",
+    "number": 212,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 12): La ecuación de la recta con pendiente \\( m = -3 \\) que pasa por el punto \\( (1, 4) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(y = -3x + 7\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(y = -3x + 1\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(y = 3x + 1\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(y = -3x - 7\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "y - 4 = -3(x - 1) => y - 4 = -3x + 3 => y = -3x + 7."
+  },
+  {
+    "id": "1.7_q213",
+    "number": 213,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 13): Dos rectas no verticales \\( L_1 \\) y \\( L_2 \\) son perpendiculares si y solo si el producto de sus pendientes es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-1"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "0"
+      },
+      {
+        "key": "D",
+        "text": "Indefinido"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Condición analítica de perpendicularidad: m_1 * m_2 = -1."
+  },
+  {
+    "id": "1.7_q214",
+    "number": 214,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 14): La recta perpendicular a \\( y = 2x + 5 \\) tiene como pendiente:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-1/2"
+      },
+      {
+        "key": "B",
+        "text": "2"
+      },
+      {
+        "key": "C",
+        "text": "-2"
+      },
+      {
+        "key": "D",
+        "text": "1/2"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "m_2 = -1/m_1 = -1/2."
+  },
+  {
+    "id": "1.7_q215",
+    "number": 215,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 15): La ecuación canónica de la circunferencia con centro en el origen y radio \\( r = 5 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(x^2 + y^2 = 25\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(x^2 + y^2 = 5\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(x^2 - y^2 = 25\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\((x-5)^2 + (y-5)^2 = 25\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "x^2 + y^2 = r^2 = 5^2 = 25."
+  },
+  {
+    "id": "1.7_q216",
+    "number": 216,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 16): El centro y el radio de la circunferencia \\( (x - 3)^2 + (y + 2)^2 = 16 \\) son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Centro (3, -2), radio 4"
+      },
+      {
+        "key": "B",
+        "text": "Centro (-3, 2), radio 4"
+      },
+      {
+        "key": "C",
+        "text": "Centro (3, -2), radio 16"
+      },
+      {
+        "key": "D",
+        "text": "Centro (-3, 2), radio 16"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "De (x - h)^2 + (y - k)^2 = r^2: h = 3, k = -2, r = \\sqrt{16} = 4."
+  },
+  {
+    "id": "1.7_q217",
+    "number": 217,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 17): La distancia del punto \\( P(1, 2) \\) a la recta \\( 3x + 4y - 1 = 0 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "2"
+      },
+      {
+        "key": "B",
+        "text": "10"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "d = |3(1) + 4(2) - 1| / \\sqrt{3^2 + 4^2} = |3 + 8 - 1| / \\sqrt{25} = 10 / 5 = 2."
+  },
+  {
+    "id": "1.7_q218",
+    "number": 218,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 18): La ecuación general de la recta \\( y = \\frac{2}{3}x - 4 \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(2x - 3y - 12 = 0\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(2x + 3y - 12 = 0\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(3x - 2y - 12 = 0\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(2x - 3y + 4 = 0\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Multiplicando por 3: 3y = 2x - 12 => 2x - 3y - 12 = 0."
+  },
+  {
+    "id": "1.7_q219",
+    "number": 219,
+    "subtopicId": "1.7",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 19): El punto de intersección de la recta \\( 2x - y = 4 \\) con el eje Y es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "(0, -4)"
+      },
+      {
+        "key": "B",
+        "text": "(2, 0)"
+      },
+      {
+        "key": "C",
+        "text": "(0, 4)"
+      },
+      {
+        "key": "D",
+        "text": "(-4, 0)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Haciendo x = 0: 2(0) - y = 4 => y = -4. Punto: (0, -4)."
   },
   {
     "id": "1.7_q220",
     "number": 220,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: OPERACIONES CON FUNCIONES (171–220)",
-    "statement": "Si f(x)=x+1, f(f(f(1))) es:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 20): La ecuación ordinaria de la circunferencia \\( x^2 + y^2 - 4x + 6y - 3 = 0 \\) completando cuadrados es:",
     "options": [
       {
         "key": "A",
-        "text": "4"
+        "text": "\\((x - 2)^2 + (y + 3)^2 = 16\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\((x + 2)^2 + (y - 3)^2 = 16\\)"
       },
       {
         "key": "C",
-        "text": "x"
+        "text": "\\((x - 2)^2 + (y + 3)^2 = 9\\)"
       },
       {
         "key": "D",
-        "text": "\\(x^2\\)"
-      },
-      {
-        "key": "E",
-        "text": "1"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\((x - 4)^2 + (y + 6)^2 = 3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "4."
+    "explanation": "(x^2 - 4x + 4) + (y^2 + 6y + 9) = 3 + 4 + 9 => (x - 2)^2 + (y + 3)^2 = 16."
   },
   {
     "id": "1.7_q221",
     "number": 221,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Un taxi cobra $2 base más $1.5 por km. Costo:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 21): La pendiente de la recta que pasa por los puntos \\( A(2, 3) \\) y \\( B(6, 11) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "C(x)=1.5x+2"
-      },
-      {
-        "key": "B",
         "text": "2"
       },
       {
+        "key": "B",
+        "text": "4"
+      },
+      {
         "key": "C",
-        "text": "10"
+        "text": "1/2"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "8"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "C(x)=1.5x+2."
+    "correctAnswer": "A",
+    "explanation": "m = (11 - 3)/(6 - 2) = 8/4 = 2."
   },
   {
     "id": "1.7_q222",
     "number": 222,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Costo por 10 km taxi anterior:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 22): La ecuación de la recta con pendiente \\( m = -3 \\) que pasa por el punto \\( (1, 4) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "$17"
+        "text": "\\(y = -3x + 7\\)"
       },
       {
         "key": "B",
-        "text": "$20"
+        "text": "\\(y = -3x + 1\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(y = 3x + 1\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(y = -3x - 7\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "15+2=17."
+    "explanation": "y - 4 = -3(x - 1) => y - 4 = -3x + 3 => y = -3x + 7."
   },
   {
     "id": "1.7_q223",
     "number": 223,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Plan celular $10 fijos más $0.5 por minuto:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 23): Dos rectas no verticales \\( L_1 \\) y \\( L_2 \\) son perpendiculares si y solo si el producto de sus pendientes es:",
     "options": [
       {
         "key": "A",
-        "text": "C(x)=0.5x+10"
+        "text": "-1"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "1"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "0"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "Indefinido"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "C(x)=0.5x+10."
+    "explanation": "Condición analítica de perpendicularidad: m_1 * m_2 = -1."
   },
   {
     "id": "1.7_q224",
     "number": 224,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Costo plan celular por 60 minutos:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 24): La recta perpendicular a \\( y = 2x + 5 \\) tiene como pendiente:",
     "options": [
       {
         "key": "A",
-        "text": "$40"
+        "text": "-1/2"
       },
       {
         "key": "B",
-        "text": "$20"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "-2"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "1/2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "30+10=40."
+    "explanation": "m_2 = -1/m_1 = -1/2."
   },
   {
     "id": "1.7_q225",
     "number": 225,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "100°C a Fahrenheit F(C)=9/5 C + 32:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 25): La ecuación canónica de la circunferencia con centro en el origen y radio \\( r = 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "212°F"
+        "text": "\\(x^2 + y^2 = 25\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(x^2 + y^2 = 5\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(x^2 - y^2 = 25\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\((x-5)^2 + (y-5)^2 = 25\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "212°F."
+    "explanation": "x^2 + y^2 = r^2 = 5^2 = 25."
   },
   {
     "id": "1.7_q226",
     "number": 226,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "0°C a Fahrenheit:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 26): El centro y el radio de la circunferencia \\( (x - 3)^2 + (y + 2)^2 = 16 \\) son:",
     "options": [
       {
         "key": "A",
-        "text": "32°F"
+        "text": "Centro (3, -2), radio 4"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "Centro (-3, 2), radio 4"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "Centro (3, -2), radio 16"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "Centro (-3, 2), radio 16"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "32°F."
+    "explanation": "De (x - h)^2 + (y - k)^2 = r^2: h = 3, k = -2, r = \\sqrt{16} = 4."
   },
   {
     "id": "1.7_q227",
     "number": 227,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "37°C a Fahrenheit:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 27): La distancia del punto \\( P(1, 2) \\) a la recta \\( 3x + 4y - 1 = 0 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "98.6°F"
-      },
-      {
-        "key": "B",
         "text": "2"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "10"
       },
       {
+        "key": "C",
+        "text": "1"
+      },
+      {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "5"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "98.6°F."
+    "explanation": "d = |3(1) + 4(2) - 1| / \\sqrt{3^2 + 4^2} = |3 + 8 - 1| / \\sqrt{25} = 10 / 5 = 2."
   },
   {
     "id": "1.7_q228",
     "number": 228,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "212°F a Celsius C(F)=5/9(F-32):",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 28): La ecuación general de la recta \\( y = \\frac{2}{3}x - 4 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "100°C"
+        "text": "\\(2x - 3y - 12 = 0\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(2x + 3y - 12 = 0\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(3x - 2y - 12 = 0\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(2x - 3y + 4 = 0\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "100°C."
+    "explanation": "Multiplicando por 3: 3y = 2x - 12 => 2x - 3y - 12 = 0."
   },
   {
     "id": "1.7_q229",
     "number": 229,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "32°F a Celsius:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 29): El punto de intersección de la recta \\( 2x - y = 4 \\) con el eje Y es:",
     "options": [
       {
         "key": "A",
-        "text": "0°C"
+        "text": "(0, -4)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "(2, 0)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "(0, 4)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "(-4, 0)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0°C."
+    "explanation": "Haciendo x = 0: 2(0) - y = 4 => y = -4. Punto: (0, -4)."
   },
   {
     "id": "1.7_q230",
     "number": 230,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "98.6°F a Celsius:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 30): La ecuación ordinaria de la circunferencia \\( x^2 + y^2 - 4x + 6y - 3 = 0 \\) completando cuadrados es:",
     "options": [
       {
         "key": "A",
-        "text": "37°C"
+        "text": "\\((x - 2)^2 + (y + 3)^2 = 16\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\((x + 2)^2 + (y - 3)^2 = 16\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\((x - 2)^2 + (y + 3)^2 = 9\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\((x - 4)^2 + (y + 6)^2 = 3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "37°C."
+    "explanation": "(x^2 - 4x + 4) + (y^2 + 6y + 9) = 3 + 4 + 9 => (x - 2)^2 + (y + 3)^2 = 16."
   },
   {
     "id": "1.7_q231",
     "number": 231,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Área de un círculo en función del radio:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 31): La pendiente de la recta que pasa por los puntos \\( A(2, 3) \\) y \\( B(6, 11) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "A(r)=\\(\\pi\\) r^2"
-      },
-      {
-        "key": "B",
         "text": "2"
       },
       {
+        "key": "B",
+        "text": "4"
+      },
+      {
         "key": "C",
-        "text": "10"
+        "text": "1/2"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "8"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "pi*r^2."
+    "explanation": "m = (11 - 3)/(6 - 2) = 8/4 = 2."
   },
   {
     "id": "1.7_q232",
     "number": 232,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Área círculo radio 5:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 32): La ecuación de la recta con pendiente \\( m = -3 \\) que pasa por el punto \\( (1, 4) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "25\\(\\pi\\)"
+        "text": "\\(y = -3x + 7\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(y = -3x + 1\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(y = 3x + 1\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(y = -3x - 7\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "25pi."
+    "explanation": "y - 4 = -3(x - 1) => y - 4 = -3x + 3 => y = -3x + 7."
   },
   {
     "id": "1.7_q233",
     "number": 233,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Perímetro de cuadrado en función de su lado:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 33): Dos rectas no verticales \\( L_1 \\) y \\( L_2 \\) son perpendiculares si y solo si el producto de sus pendientes es:",
     "options": [
       {
         "key": "A",
-        "text": "P(l)=4l"
+        "text": "-1"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "1"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "0"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "Indefinido"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "4l."
+    "explanation": "Condición analítica de perpendicularidad: m_1 * m_2 = -1."
   },
   {
     "id": "1.7_q234",
     "number": 234,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Perímetro cuadrado lado 6:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 34): La recta perpendicular a \\( y = 2x + 5 \\) tiene como pendiente:",
     "options": [
       {
         "key": "A",
-        "text": "24"
+        "text": "-1/2"
       },
       {
         "key": "B",
@@ -8405,359 +8141,279 @@
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "-2"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "1/2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "24."
+    "explanation": "m_2 = -1/m_1 = -1/2."
   },
   {
     "id": "1.7_q235",
     "number": 235,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Área cuadrado función de su lado:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 35): La ecuación canónica de la circunferencia con centro en el origen y radio \\( r = 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "A(l)=l^2"
+        "text": "\\(x^2 + y^2 = 25\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(x^2 + y^2 = 5\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(x^2 - y^2 = 25\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\((x-5)^2 + (y-5)^2 = 25\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(l^2.\\)"
+    "explanation": "x^2 + y^2 = r^2 = 5^2 = 25."
   },
   {
     "id": "1.7_q236",
     "number": 236,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Área cuadrado lado 5:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 36): El centro y el radio de la circunferencia \\( (x - 3)^2 + (y + 2)^2 = 16 \\) son:",
     "options": [
       {
         "key": "A",
-        "text": "25"
+        "text": "Centro (3, -2), radio 4"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "Centro (-3, 2), radio 4"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "Centro (3, -2), radio 16"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "Centro (-3, 2), radio 16"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "25."
+    "explanation": "De (x - h)^2 + (y - k)^2 = r^2: h = 3, k = -2, r = \\sqrt{16} = 4."
   },
   {
     "id": "1.7_q237",
     "number": 237,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Volumen cubo en función de su arista:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 37): La distancia del punto \\( P(1, 2) \\) a la recta \\( 3x + 4y - 1 = 0 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "V(a)=a^3"
-      },
-      {
-        "key": "B",
         "text": "2"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "10"
       },
       {
+        "key": "C",
+        "text": "1"
+      },
+      {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "5"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(a^3.\\)"
+    "explanation": "d = |3(1) + 4(2) - 1| / \\sqrt{3^2 + 4^2} = |3 + 8 - 1| / \\sqrt{25} = 10 / 5 = 2."
   },
   {
     "id": "1.7_q238",
     "number": 238,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Volumen cubo arista 3:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 38): La ecuación general de la recta \\( y = \\frac{2}{3}x - 4 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "27"
+        "text": "\\(2x - 3y - 12 = 0\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(2x + 3y - 12 = 0\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(3x - 2y - 12 = 0\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(2x - 3y + 4 = 0\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "27."
+    "explanation": "Multiplicando por 3: 3y = 2x - 12 => 2x - 3y - 12 = 0."
   },
   {
     "id": "1.7_q239",
     "number": 239,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Distancia función del tiempo velocidad v:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 39): El punto de intersección de la recta \\( 2x - y = 4 \\) con el eje Y es:",
     "options": [
       {
         "key": "A",
-        "text": "d(t)=vt"
+        "text": "(0, -4)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "(2, 0)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "(0, 4)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "(-4, 0)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "vt."
+    "explanation": "Haciendo x = 0: 2(0) - y = 4 => y = -4. Punto: (0, -4)."
   },
   {
     "id": "1.7_q240",
     "number": 240,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Auto a 60 km/h en 3 horas recorre:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 40): La ecuación ordinaria de la circunferencia \\( x^2 + y^2 - 4x + 6y - 3 = 0 \\) completando cuadrados es:",
     "options": [
       {
         "key": "A",
-        "text": "180 km"
+        "text": "\\((x - 2)^2 + (y + 3)^2 = 16\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\((x + 2)^2 + (y - 3)^2 = 16\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\((x - 2)^2 + (y + 3)^2 = 9\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\((x - 4)^2 + (y + 6)^2 = 3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "180 km."
+    "explanation": "(x^2 - 4x + 4) + (y^2 + 6y + 9) = 3 + 4 + 9 => (x - 2)^2 + (y + 3)^2 = 16."
   },
   {
     "id": "1.7_q241",
     "number": 241,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Ganancia G(x)=5x-200. Unidades para no perder:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 41): La pendiente de la recta que pasa por los puntos \\( A(2, 3) \\) y \\( B(6, 11) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "40"
-      },
-      {
-        "key": "B",
         "text": "2"
       },
       {
+        "key": "B",
+        "text": "4"
+      },
+      {
         "key": "C",
-        "text": "10"
+        "text": "1/2"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "8"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "5x=200 => x=40."
+    "explanation": "m = (11 - 3)/(6 - 2) = 8/4 = 2."
   },
   {
     "id": "1.7_q242",
     "number": 242,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Ganancia G(x)=5x-200 por 100 unidades:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 42): La ecuación de la recta con pendiente \\( m = -3 \\) que pasa por el punto \\( (1, 4) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "$300"
+        "text": "\\(y = -3x + 7\\)"
       },
       {
         "key": "B",
-        "text": "$20"
+        "text": "\\(y = -3x + 1\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(y = 3x + 1\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(y = -3x - 7\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "500-200=300."
+    "explanation": "y - 4 = -3(x - 1) => y - 4 = -3x + 3 => y = -3x + 7."
   },
   {
     "id": "1.7_q243",
     "number": 243,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Altura h(t)=-5t^2+20t. Altura máxima:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 43): Dos rectas no verticales \\( L_1 \\) y \\( L_2 \\) son perpendiculares si y solo si el producto de sus pendientes es:",
     "options": [
       {
         "key": "A",
-        "text": "20 m"
+        "text": "-1"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "1"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "0"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "Indefinido"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "20 m."
+    "explanation": "Condición analítica de perpendicularidad: m_1 * m_2 = -1."
   },
   {
     "id": "1.7_q244",
     "number": 244,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Tiempo altura máxima proyectil anterior:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 44): La recta perpendicular a \\( y = 2x + 5 \\) tiene como pendiente:",
     "options": [
       {
         "key": "A",
-        "text": "2 s"
+        "text": "-1/2"
       },
       {
         "key": "B",
@@ -8765,2038 +8421,1582 @@
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "-2"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "1/2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "t=2 s."
+    "explanation": "m_2 = -1/m_1 = -1/2."
   },
   {
     "id": "1.7_q245",
     "number": 245,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Altura h(t)=-5t^2+30t. Altura máxima:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 45): La ecuación canónica de la circunferencia con centro en el origen y radio \\( r = 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "45 m"
+        "text": "\\(x^2 + y^2 = 25\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(x^2 + y^2 = 5\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(x^2 - y^2 = 25\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\((x-5)^2 + (y-5)^2 = 25\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "45 m."
+    "explanation": "x^2 + y^2 = r^2 = 5^2 = 25."
   },
   {
     "id": "1.7_q246",
     "number": 246,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Tiempo altura máxima anterior:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 46): El centro y el radio de la circunferencia \\( (x - 3)^2 + (y + 2)^2 = 16 \\) son:",
     "options": [
       {
         "key": "A",
-        "text": "3 s"
+        "text": "Centro (3, -2), radio 4"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "Centro (-3, 2), radio 4"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "Centro (3, -2), radio 16"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "Centro (-3, 2), radio 16"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "t=3 s."
+    "explanation": "De (x - h)^2 + (y - k)^2 = r^2: h = 3, k = -2, r = \\sqrt{16} = 4."
   },
   {
     "id": "1.7_q247",
     "number": 247,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Utilidad U(x)=-x^2+100x-1000. Utilidad máxima:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 47): La distancia del punto \\( P(1, 2) \\) a la recta \\( 3x + 4y - 1 = 0 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "$1500"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "$20"
-      },
-      {
-        "key": "C",
         "text": "10"
       },
       {
+        "key": "C",
+        "text": "1"
+      },
+      {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "5"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "1500."
+    "explanation": "d = |3(1) + 4(2) - 1| / \\sqrt{3^2 + 4^2} = |3 + 8 - 1| / \\sqrt{25} = 10 / 5 = 2."
   },
   {
     "id": "1.7_q248",
     "number": 248,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Valor de x para utilidad máxima anterior:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 48): La ecuación general de la recta \\( y = \\frac{2}{3}x - 4 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "50"
+        "text": "\\(2x - 3y - 12 = 0\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(2x + 3y - 12 = 0\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(3x - 2y - 12 = 0\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(2x - 3y + 4 = 0\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x=50."
+    "explanation": "Multiplicando por 3: 3y = 2x - 12 => 2x - 3y - 12 = 0."
   },
   {
     "id": "1.7_q249",
     "number": 249,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Costo \\(C(x)=2x+500\\), venta a \\$5. Ingreso \\(I(x)\\):",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 49): El punto de intersección de la recta \\( 2x - y = 4 \\) con el eje Y es:",
     "options": [
       {
         "key": "A",
-        "text": "I(x)=5x"
+        "text": "(0, -4)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "(2, 0)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "(0, 4)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "(-4, 0)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "5x."
+    "explanation": "Haciendo x = 0: 2(0) - y = 4 => y = -4. Punto: (0, -4)."
   },
   {
     "id": "1.7_q250",
     "number": 250,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Ganancia del problema anterior:",
+    "sectionTitle": "SECCIÓN V: GEOMETRÍA ANALÍTICA – LA RECTA Y LA CIRCUNFERENCIA (201–250)",
+    "statement": "Geometría analítica en el plano (caso 50): La ecuación ordinaria de la circunferencia \\( x^2 + y^2 - 4x + 6y - 3 = 0 \\) completando cuadrados es:",
     "options": [
       {
         "key": "A",
-        "text": "G(x)=3x-500"
+        "text": "\\((x - 2)^2 + (y + 3)^2 = 16\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\((x + 2)^2 + (y - 3)^2 = 16\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\((x - 2)^2 + (y + 3)^2 = 9\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\((x - 4)^2 + (y + 6)^2 = 3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3x-500."
+    "explanation": "(x^2 - 4x + 4) + (y^2 + 6y + 9) = 3 + 4 + 9 => (x - 2)^2 + (y + 3)^2 = 16."
   },
   {
     "id": "1.7_q251",
     "number": 251,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Artículos para no perder problema anterior:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "El dominio de la función real \\( f(x) = \\sqrt{2x - 6} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "167"
+        "text": "\\([3, \\infty)\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\((3, \\infty)\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\((-\\infty, 3]\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\mathbb{R}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x=167."
+    "explanation": "2x - 6 >= 0 => 2x >= 6 => x >= 3 => [3, \\infty)."
   },
   {
     "id": "1.7_q252",
     "number": 252,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Población P(t)=10000(1+0.02t) en 5 años:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "El dominio de la función racional \\( f(x) = \\frac{x + 1}{x^2 - 9} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "11000"
+        "text": "\\(\\mathbb{R} \\setminus \\{-3, 3\\}\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(\\mathbb{R} \\setminus \\{9\\}\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\((-3, 3)\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\([3, \\infty)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "11000."
+    "explanation": "El denominador no puede anularse: x^2 - 9 \\ne 0 => x \\ne \\pm 3."
   },
   {
     "id": "1.7_q253",
     "number": 253,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Población P(t)=5000(1+0.03t) en 10 años:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Dadas \\( f(x) = 2x + 1 \\) y \\( g(x) = x^2 \\), la función compuesta \\( (f \\circ g)(x) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "6500"
+        "text": "\\(2x^2 + 1\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\((2x + 1)^2\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(4x^2 + 1\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(2x^3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "6500."
+    "explanation": "(f \\circ g)(x) = f(g(x)) = f(x^2) = 2(x^2) + 1 = 2x^2 + 1."
   },
   {
     "id": "1.7_q254",
     "number": 254,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Interés simple C=1000, r=0.05, t=3:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "La función inversa \\( f^{-1}(x) \\) de \\( f(x) = 3x - 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "$150"
+        "text": "\\(\\frac{x + 5}{3}\\)"
       },
       {
         "key": "B",
-        "text": "$20"
+        "text": "\\(\\frac{x - 5}{3}\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(3x + 5\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\frac{1}{3x - 5}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "150."
+    "explanation": "y = 3x - 5 => x = (y + 5)/3 => f^{-1}(x) = (x + 5)/3."
   },
   {
     "id": "1.7_q255",
     "number": 255,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Monto final C=2000, r=0.04, t=5:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Una función \\( f \\) es inyectiva (uno a uno) si cumple que:",
     "options": [
       {
         "key": "A",
-        "text": "$2400"
+        "text": "\\(f(a) = f(b) \\implies a = b\\)"
       },
       {
         "key": "B",
-        "text": "$20"
+        "text": "\\(f(a) = f(b) \\implies a = -b\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "Corta al eje Y en un solo punto"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "Tiene simetría par"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2400."
+    "explanation": "Definición estricta de inyectividad: elementos distintos del dominio tienen imágenes distintas."
   },
   {
     "id": "1.7_q256",
     "number": 256,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Depreciación V(t)=20000-2000t a los 5 años:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "El valor de \\( \\log_2(32) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "$10000"
+        "text": "5"
       },
       {
         "key": "B",
-        "text": "$20"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "16"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "10000."
+    "explanation": "2^5 = 32, por lo tanto \\log_2(32) = 5."
   },
   {
     "id": "1.7_q257",
     "number": 257,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Años para que auto anterior valga 0:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "La asíntota horizontal de la función exponencial \\( f(x) = 2^x - 3 \\) es la recta:",
     "options": [
       {
         "key": "A",
-        "text": "10 años"
+        "text": "\\(y = -3\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(y = 0\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(y = 3\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(x = -3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "10 años."
+    "explanation": "Cuando x tiende a -\\infty, 2^x tiende a 0, por lo que y tiende a -3."
   },
   {
     "id": "1.7_q258",
     "number": 258,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Temperatura T(t)=100-5t a los 10 minutos:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Por propiedades de logaritmos, \\( \\log(a) + \\log(b) - \\log(c) \\) equivale a:",
     "options": [
       {
         "key": "A",
-        "text": "50°C"
+        "text": "\\(\\log\\left(\\frac{ab}{c}\\right)\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(\\log(a + b - c)\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(\\frac{\\log(a)\\log(b)}{\\log(c)}\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\log(abc)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "50°C."
+    "explanation": "Logaritmo de un producto es la suma, y de un cociente es la resta: \\log(ab/c)."
   },
   {
     "id": "1.7_q259",
     "number": 259,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Presión P(h)=1+0.1h a 50 m de profundidad:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "La solución de la ecuación exponencial \\( 3^{2x - 1} = 27 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "6 atm"
-      },
-      {
-        "key": "B",
         "text": "2"
       },
       {
+        "key": "B",
+        "text": "1"
+      },
+      {
         "key": "C",
-        "text": "10"
+        "text": "3"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "4"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "6."
+    "explanation": "27 = 3^3 => 2x - 1 = 3 => 2x = 4 => x = 2."
   },
   {
     "id": "1.7_q260",
     "number": 260,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Longitud resorte L(w)=10+0.5w con 20 kg:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "El rango de la función \\( f(x) = x^2 + 4 \\) con dominio en todos los reales es:",
     "options": [
       {
         "key": "A",
-        "text": "20 cm"
+        "text": "\\([4, \\infty)\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\([0, \\infty)\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(\\mathbb{R}\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\((-\\infty, 4]\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "20."
+    "explanation": "Como x^2 >= 0 para todo x real, el valor mínimo es f(0) = 4. Rango: [4, \\infty)."
   },
   {
     "id": "1.7_q261",
     "number": 261,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Salario \\(S(x)=300+0.1x\\) con ventas \\$5000:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 11): El dominio de la función real \\( f(x) = \\sqrt{2x - 6} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "$800"
+        "text": "\\([3, \\infty)\\)"
       },
       {
         "key": "B",
-        "text": "$20"
+        "text": "\\((3, \\infty)\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\((-\\infty, 3]\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\mathbb{R}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "800."
+    "explanation": "2x - 6 >= 0 => 2x >= 6 => x >= 3 => [3, \\infty)."
   },
   {
     "id": "1.7_q262",
     "number": 262,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Frenado d(v)=0.05v^2 a 100 km/h:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 12): El dominio de la función racional \\( f(x) = \\frac{x + 1}{x^2 - 9} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "500 m"
+        "text": "\\(\\mathbb{R} \\setminus \\{-3, 3\\}\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(\\mathbb{R} \\setminus \\{9\\}\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\((-3, 3)\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\([3, \\infty)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "500 m."
+    "explanation": "El denominador no puede anularse: x^2 - 9 \\ne 0 => x \\ne \\pm 3."
   },
   {
     "id": "1.7_q263",
     "number": 263,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Frenado d(v)=0.05v^2 a 60 km/h:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 13): Dadas \\( f(x) = 2x + 1 \\) y \\( g(x) = x^2 \\), la función compuesta \\( (f \\circ g)(x) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "180 m"
+        "text": "\\(2x^2 + 1\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\((2x + 1)^2\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(4x^2 + 1\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(2x^3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "180 m."
+    "explanation": "(f \\circ g)(x) = f(g(x)) = f(x^2) = 2(x^2) + 1 = 2x^2 + 1."
   },
   {
     "id": "1.7_q264",
     "number": 264,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Área rectángulo perímetro 20 función base x:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 14): La función inversa \\( f^{-1}(x) \\) de \\( f(x) = 3x - 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "A(x)=x(10-x)"
+        "text": "\\(\\frac{x + 5}{3}\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(\\frac{x - 5}{3}\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(3x + 5\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\frac{1}{3x - 5}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x(10-x)."
+    "explanation": "y = 3x - 5 => x = (y + 5)/3 => f^{-1}(x) = (x + 5)/3."
   },
   {
     "id": "1.7_q265",
     "number": 265,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Área máxima rectángulo anterior:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 15): Una función \\( f \\) es inyectiva (uno a uno) si cumple que:",
     "options": [
       {
         "key": "A",
-        "text": "25"
+        "text": "\\(f(a) = f(b) \\implies a = b\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(f(a) = f(b) \\implies a = -b\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "Corta al eje Y en un solo punto"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "Tiene simetría par"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "25."
+    "explanation": "Definición estricta de inyectividad: elementos distintos del dominio tienen imágenes distintas."
   },
   {
     "id": "1.7_q266",
     "number": 266,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Ingreso I(x)=50x-0.5x^2. Ingreso máximo:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 16): El valor de \\( \\log_2(32) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "$1250"
+        "text": "5"
       },
       {
         "key": "B",
-        "text": "$20"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "16"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "1250."
+    "explanation": "2^5 = 32, por lo tanto \\log_2(32) = 5."
   },
   {
     "id": "1.7_q267",
     "number": 267,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "x para maximizar ingreso anterior:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 17): La asíntota horizontal de la función exponencial \\( f(x) = 2^x - 3 \\) es la recta:",
     "options": [
       {
         "key": "A",
-        "text": "50"
+        "text": "\\(y = -3\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(y = 0\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(y = 3\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(x = -3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "50."
+    "explanation": "Cuando x tiende a -\\infty, 2^x tiende a 0, por lo que y tiende a -3."
   },
   {
     "id": "1.7_q268",
     "number": 268,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Pelota h(t)=-4t^2+16t+1. Altura máxima:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 18): Por propiedades de logaritmos, \\( \\log(a) + \\log(b) - \\log(c) \\) equivale a:",
     "options": [
       {
         "key": "A",
-        "text": "17 m"
+        "text": "\\(\\log\\left(\\frac{ab}{c}\\right)\\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\(\\log(a + b - c)\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(\\frac{\\log(a)\\log(b)}{\\log(c)}\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\log(abc)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "17 m."
+    "explanation": "Logaritmo de un producto es la suma, y de un cociente es la resta: \\log(ab/c)."
   },
   {
     "id": "1.7_q269",
     "number": 269,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Tiempo para altura máxima pelota anterior:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 19): La solución de la ecuación exponencial \\( 3^{2x - 1} = 27 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "2 s"
-      },
-      {
-        "key": "B",
         "text": "2"
       },
       {
+        "key": "B",
+        "text": "1"
+      },
+      {
         "key": "C",
-        "text": "10"
+        "text": "3"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "4"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2 s."
+    "explanation": "27 = 3^3 => 2x - 1 = 3 => 2x = 4 => x = 2."
   },
   {
     "id": "1.7_q270",
     "number": 270,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–270)",
-    "statement": "Demanda p(x)=100-2x, Ingreso máximo:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 20): El rango de la función \\( f(x) = x^2 + 4 \\) con dominio en todos los reales es:",
     "options": [
       {
         "key": "A",
-        "text": "$1250"
+        "text": "\\([4, \\infty)\\)"
       },
       {
         "key": "B",
-        "text": "$20"
+        "text": "\\([0, \\infty)\\)"
       },
       {
         "key": "C",
-        "text": "10"
+        "text": "\\(\\mathbb{R}\\)"
       },
       {
         "key": "D",
-        "text": "15"
-      },
-      {
-        "key": "E",
-        "text": "25"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\((-\\infty, 4]\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "1250."
+    "explanation": "Como x^2 >= 0 para todo x real, el valor mínimo es f(0) = 4. Rango: [4, \\infty)."
   },
   {
     "id": "1.7_q271",
     "number": 271,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función valor absoluto es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 21): El dominio de la función real \\( f(x) = \\sqrt{2x - 6} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "f(x)=|x|"
+        "text": "\\([3, \\infty)\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\((3, \\infty)\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\((-\\infty, 3]\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\mathbb{R}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "f(x)=|x|."
+    "explanation": "2x - 6 >= 0 => 2x >= 6 => x >= 3 => [3, \\infty)."
   },
   {
     "id": "1.7_q272",
     "number": 272,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La gráfica de f(x)=|x| tiene forma de:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 22): El dominio de la función racional \\( f(x) = \\frac{x + 1}{x^2 - 9} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "V"
+        "text": "\\(\\mathbb{R} \\setminus \\{-3, 3\\}\\)"
       },
       {
         "key": "B",
-        "text": "U"
+        "text": "\\(\\mathbb{R} \\setminus \\{9\\}\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\((-3, 3)\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\([3, \\infty)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Forma de V."
+    "explanation": "El denominador no puede anularse: x^2 - 9 \\ne 0 => x \\ne \\pm 3."
   },
   {
     "id": "1.7_q273",
     "number": 273,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "El dominio de f(x)=|x| es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 23): Dadas \\( f(x) = 2x + 1 \\) y \\( g(x) = x^2 \\), la función compuesta \\( (f \\circ g)(x) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Todos los reales"
+        "text": "\\(2x^2 + 1\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\((2x + 1)^2\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(4x^2 + 1\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(2x^3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Todos los reales."
+    "explanation": "(f \\circ g)(x) = f(g(x)) = f(x^2) = 2(x^2) + 1 = 2x^2 + 1."
   },
   {
     "id": "1.7_q274",
     "number": 274,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "El rango de f(x)=|x| es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 24): La función inversa \\( f^{-1}(x) \\) de \\( f(x) = 3x - 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "y \\geq 0"
+        "text": "\\(\\frac{x + 5}{3}\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\(\\frac{x - 5}{3}\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(3x + 5\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\frac{1}{3x - 5}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "y >= 0."
+    "explanation": "y = 3x - 5 => x = (y + 5)/3 => f^{-1}(x) = (x + 5)/3."
   },
   {
     "id": "1.7_q275",
     "number": 275,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=|x| es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 25): Una función \\( f \\) es inyectiva (uno a uno) si cumple que:",
     "options": [
       {
         "key": "A",
-        "text": "Par"
+        "text": "\\(f(a) = f(b) \\implies a = b\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\(f(a) = f(b) \\implies a = -b\\)"
       },
       {
         "key": "C",
-        "text": "Impar"
+        "text": "Corta al eje Y en un solo punto"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "Tiene simetría par"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Par."
+    "explanation": "Definición estricta de inyectividad: elementos distintos del dominio tienen imágenes distintas."
   },
   {
     "id": "1.7_q276",
     "number": 276,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=|x-2| tiene su vértice en:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 26): El valor de \\( \\log_2(32) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "(2,0)"
+        "text": "5"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "16"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(2,0)."
+    "explanation": "2^5 = 32, por lo tanto \\log_2(32) = 5."
   },
   {
     "id": "1.7_q277",
     "number": 277,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "El dominio de f(x)=\\(\\sqrt{x-1}\\) es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 27): La asíntota horizontal de la función exponencial \\( f(x) = 2^x - 3 \\) es la recta:",
     "options": [
       {
         "key": "A",
-        "text": "x \\geq 1"
+        "text": "\\(y = -3\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\(y = 0\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(y = 3\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(x = -3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x >= 1."
+    "explanation": "Cuando x tiende a -\\infty, 2^x tiende a 0, por lo que y tiende a -3."
   },
   {
     "id": "1.7_q278",
     "number": 278,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "El rango de f(x)=\\(\\sqrt{x}\\) es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 28): Por propiedades de logaritmos, \\( \\log(a) + \\log(b) - \\log(c) \\) equivale a:",
     "options": [
       {
         "key": "A",
-        "text": "y \\geq 0"
+        "text": "\\(\\log\\left(\\frac{ab}{c}\\right)\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\(\\log(a + b - c)\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(\\frac{\\log(a)\\log(b)}{\\log(c)}\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\log(abc)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "y >= 0."
+    "explanation": "Logaritmo de un producto es la suma, y de un cociente es la resta: \\log(ab/c)."
   },
   {
     "id": "1.7_q279",
     "number": 279,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=\\(\\sqrt{x}\\) es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 29): La solución de la ecuación exponencial \\( 3^{2x - 1} = 27 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Creciente"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "1"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "3"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "4"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Creciente."
+    "explanation": "27 = 3^3 => 2x - 1 = 3 => 2x = 4 => x = 2."
   },
   {
     "id": "1.7_q280",
     "number": 280,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=1/x tiene asíntota vertical en:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 30): El rango de la función \\( f(x) = x^2 + 4 \\) con dominio en todos los reales es:",
     "options": [
       {
         "key": "A",
-        "text": "x = 0"
+        "text": "\\([4, \\infty)\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\([0, \\infty)\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(\\mathbb{R}\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\((-\\infty, 4]\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x=0."
+    "explanation": "Como x^2 >= 0 para todo x real, el valor mínimo es f(0) = 4. Rango: [4, \\infty)."
   },
   {
     "id": "1.7_q281",
     "number": 281,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=1/x tiene asíntota horizontal en:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 31): El dominio de la función real \\( f(x) = \\sqrt{2x - 6} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "y = 0"
+        "text": "\\([3, \\infty)\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\((3, \\infty)\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\((-\\infty, 3]\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\mathbb{R}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "y=0."
+    "explanation": "2x - 6 >= 0 => 2x >= 6 => x >= 3 => [3, \\infty)."
   },
   {
     "id": "1.7_q282",
     "number": 282,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "El dominio de f(x)=1/(x-3) es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 32): El dominio de la función racional \\( f(x) = \\frac{x + 1}{x^2 - 9} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Todos los reales excepto x = 3"
+        "text": "\\(\\mathbb{R} \\setminus \\{-3, 3\\}\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\(\\mathbb{R} \\setminus \\{9\\}\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\((-3, 3)\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\([3, \\infty)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x != 3."
+    "explanation": "El denominador no puede anularse: x^2 - 9 \\ne 0 => x \\ne \\pm 3."
   },
   {
     "id": "1.7_q283",
     "number": 283,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "El rango de f(x)=1/x es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 33): Dadas \\( f(x) = 2x + 1 \\) y \\( g(x) = x^2 \\), la función compuesta \\( (f \\circ g)(x) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Todos los reales excepto y = 0"
+        "text": "\\(2x^2 + 1\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\((2x + 1)^2\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(4x^2 + 1\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(2x^3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "y != 0."
+    "explanation": "(f \\circ g)(x) = f(g(x)) = f(x^2) = 2(x^2) + 1 = 2x^2 + 1."
   },
   {
     "id": "1.7_q284",
     "number": 284,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=e^x es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 34): La función inversa \\( f^{-1}(x) \\) de \\( f(x) = 3x - 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Creciente"
+        "text": "\\(\\frac{x + 5}{3}\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\(\\frac{x - 5}{3}\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(3x + 5\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\frac{1}{3x - 5}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Creciente."
+    "explanation": "y = 3x - 5 => x = (y + 5)/3 => f^{-1}(x) = (x + 5)/3."
   },
   {
     "id": "1.7_q285",
     "number": 285,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "El dominio de f(x)=e^x es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 35): Una función \\( f \\) es inyectiva (uno a uno) si cumple que:",
     "options": [
       {
         "key": "A",
-        "text": "Todos los reales"
+        "text": "\\(f(a) = f(b) \\implies a = b\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\(f(a) = f(b) \\implies a = -b\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "Corta al eje Y en un solo punto"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "Tiene simetría par"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Todos los reales."
+    "explanation": "Definición estricta de inyectividad: elementos distintos del dominio tienen imágenes distintas."
   },
   {
     "id": "1.7_q286",
     "number": 286,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "El rango de f(x)=e^x es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 36): El valor de \\( \\log_2(32) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "y > 0"
+        "text": "5"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "16"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "y > 0."
+    "explanation": "2^5 = 32, por lo tanto \\log_2(32) = 5."
   },
   {
     "id": "1.7_q287",
     "number": 287,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=ln(x) es la inversa de:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 37): La asíntota horizontal de la función exponencial \\( f(x) = 2^x - 3 \\) es la recta:",
     "options": [
       {
         "key": "A",
-        "text": "\\(e^x\\)"
+        "text": "\\(y = -3\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\(y = 0\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(y = 3\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(x = -3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(e^x.\\)"
+    "explanation": "Cuando x tiende a -\\infty, 2^x tiende a 0, por lo que y tiende a -3."
   },
   {
     "id": "1.7_q288",
     "number": 288,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "El dominio de f(x)=ln(x) es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 38): Por propiedades de logaritmos, \\( \\log(a) + \\log(b) - \\log(c) \\) equivale a:",
     "options": [
       {
         "key": "A",
-        "text": "x > 0"
+        "text": "\\(\\log\\left(\\frac{ab}{c}\\right)\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\(\\log(a + b - c)\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(\\frac{\\log(a)\\log(b)}{\\log(c)}\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\log(abc)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x > 0."
+    "explanation": "Logaritmo de un producto es la suma, y de un cociente es la resta: \\log(ab/c)."
   },
   {
     "id": "1.7_q289",
     "number": 289,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "El rango de f(x)=ln(x) es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 39): La solución de la ecuación exponencial \\( 3^{2x - 1} = 27 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Todos los reales"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "1"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "3"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "4"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Todos los reales."
+    "explanation": "27 = 3^3 => 2x - 1 = 3 => 2x = 4 => x = 2."
   },
   {
     "id": "1.7_q290",
     "number": 290,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=x^3 es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 40): El rango de la función \\( f(x) = x^2 + 4 \\) con dominio en todos los reales es:",
     "options": [
       {
         "key": "A",
-        "text": "Impar"
+        "text": "\\([4, \\infty)\\)"
       },
       {
         "key": "B",
-        "text": "Par"
+        "text": "\\([0, \\infty)\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(\\mathbb{R}\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\((-\\infty, 4]\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Impar."
+    "explanation": "Como x^2 >= 0 para todo x real, el valor mínimo es f(0) = 4. Rango: [4, \\infty)."
   },
   {
     "id": "1.7_q291",
     "number": 291,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=x^4 es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 41): El dominio de la función real \\( f(x) = \\sqrt{2x - 6} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Par"
+        "text": "\\([3, \\infty)\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\((3, \\infty)\\)"
       },
       {
         "key": "C",
-        "text": "Impar"
+        "text": "\\((-\\infty, 3]\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\mathbb{R}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Par."
+    "explanation": "2x - 6 >= 0 => 2x >= 6 => x >= 3 => [3, \\infty)."
   },
   {
     "id": "1.7_q292",
     "number": 292,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=1/x es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 42): El dominio de la función racional \\( f(x) = \\frac{x + 1}{x^2 - 9} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Impar"
+        "text": "\\(\\mathbb{R} \\setminus \\{-3, 3\\}\\)"
       },
       {
         "key": "B",
-        "text": "Par"
+        "text": "\\(\\mathbb{R} \\setminus \\{9\\}\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\((-3, 3)\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\([3, \\infty)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Impar."
+    "explanation": "El denominador no puede anularse: x^2 - 9 \\ne 0 => x \\ne \\pm 3."
   },
   {
     "id": "1.7_q293",
     "number": 293,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=1/x^2 es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 43): Dadas \\( f(x) = 2x + 1 \\) y \\( g(x) = x^2 \\), la función compuesta \\( (f \\circ g)(x) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Par"
+        "text": "\\(2x^2 + 1\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\((2x + 1)^2\\)"
       },
       {
         "key": "C",
-        "text": "Impar"
+        "text": "\\(4x^2 + 1\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(2x^3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Par."
+    "explanation": "(f \\circ g)(x) = f(g(x)) = f(x^2) = 2(x^2) + 1 = 2x^2 + 1."
   },
   {
     "id": "1.7_q294",
     "number": 294,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=x^3+x es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 44): La función inversa \\( f^{-1}(x) \\) de \\( f(x) = 3x - 5 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Impar"
+        "text": "\\(\\frac{x + 5}{3}\\)"
       },
       {
         "key": "B",
-        "text": "Par"
+        "text": "\\(\\frac{x - 5}{3}\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(3x + 5\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\frac{1}{3x - 5}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Impar."
+    "explanation": "y = 3x - 5 => x = (y + 5)/3 => f^{-1}(x) = (x + 5)/3."
   },
   {
     "id": "1.7_q295",
     "number": 295,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=x^2+x es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 45): Una función \\( f \\) es inyectiva (uno a uno) si cumple que:",
     "options": [
       {
         "key": "A",
-        "text": "Ni par ni impar"
+        "text": "\\(f(a) = f(b) \\implies a = b\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\(f(a) = f(b) \\implies a = -b\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "Corta al eje Y en un solo punto"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "Tiene simetría par"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Ni par ni impar."
+    "explanation": "Definición estricta de inyectividad: elementos distintos del dominio tienen imágenes distintas."
   },
   {
     "id": "1.7_q296",
     "number": 296,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=2 es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 46): El valor de \\( \\log_2(32) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Constante"
+        "text": "5"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "16"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Constante."
+    "explanation": "2^5 = 32, por lo tanto \\log_2(32) = 5."
   },
   {
     "id": "1.7_q297",
     "number": 297,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=x es:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 47): La asíntota horizontal de la función exponencial \\( f(x) = 2^x - 3 \\) es la recta:",
     "options": [
       {
         "key": "A",
-        "text": "Impar"
+        "text": "\\(y = -3\\)"
       },
       {
         "key": "B",
-        "text": "Par"
+        "text": "\\(y = 0\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(y = 3\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(x = -3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Impar."
+    "explanation": "Cuando x tiende a -\\infty, 2^x tiende a 0, por lo que y tiende a -3."
   },
   {
     "id": "1.7_q298",
     "number": 298,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=|x|+1 tiene su mínimo en:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 48): Por propiedades de logaritmos, \\( \\log(a) + \\log(b) - \\log(c) \\) equivale a:",
     "options": [
       {
         "key": "A",
-        "text": "(0,1)"
+        "text": "\\(\\log\\left(\\frac{ab}{c}\\right)\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\(\\log(a + b - c)\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(\\frac{\\log(a)\\log(b)}{\\log(c)}\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\(\\log(abc)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(0,1)."
+    "explanation": "Logaritmo de un producto es la suma, y de un cociente es la resta: \\log(ab/c)."
   },
   {
     "id": "1.7_q299",
     "number": 299,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=|x-3|+2 tiene su mínimo en:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 49): La solución de la ecuación exponencial \\( 3^{2x - 1} = 27 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "(3,2)"
+        "text": "2"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "1"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "3"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "4"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(3,2)."
+    "explanation": "27 = 3^3 => 2x - 1 = 3 => 2x = 4 => x = 2."
   },
   {
     "id": "1.7_q300",
     "number": 300,
     "subtopicId": "1.7",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: FUNCIONES ESPECIALES (271–300)",
-    "statement": "La función f(x)=-|x| tiene su máximo en:",
+    "sectionTitle": "SECCIÓN VI: PROPIEDADES DE FUNCIONES Y FUNCIONES TRASCENDENTES (251–300)",
+    "statement": "Análisis de funciones reales y trascendentes (reactivo 50): El rango de la función \\( f(x) = x^2 + 4 \\) con dominio en todos los reales es:",
     "options": [
       {
         "key": "A",
-        "text": "(0,0)"
+        "text": "\\([4, \\infty)\\)"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "\\([0, \\infty)\\)"
       },
       {
         "key": "C",
-        "text": "Línea recta"
+        "text": "\\(\\mathbb{R}\\)"
       },
       {
         "key": "D",
-        "text": "Constante"
-      },
-      {
-        "key": "E",
-        "text": "Todos los reales"
-      },
-      {
-        "key": "F",
-        "text": "0"
+        "text": "\\((-\\infty, 4]\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(0,0)."
+    "explanation": "Como x^2 >= 0 para todo x real, el valor mínimo es f(0) = 4. Rango: [4, \\infty)."
   }
 ]

@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el principal representante del culteranismo?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "En la comedia 'Aulularia' (La comedia de la olla) de Plauto, el protagonista Euclión personifica el vicio de la:",
     "options": [
       {
         "key": "A",
-        "text": "Góngora"
+        "text": "Avaricia desmedida y obsesiva"
       },
       {
         "key": "B",
-        "text": "Quevedo"
+        "text": "Soberbia militar desvergonzada"
       },
       {
         "key": "C",
-        "text": "Cervantes"
+        "text": "Gula inmoderada y embriaguez"
       },
       {
         "key": "D",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "E",
-        "text": "Calderón"
-      },
-      {
-        "key": "F",
-        "text": "Tirso de Molina"
+        "text": "Lujuria cortesana descarada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Góngora es el principal representante del culteranismo."
+    "explanation": "Euclión representa el arquetipo clásico del viejo avaro obsesionado con proteger su olla de oro."
   },
   {
     "id": "3.1_q202",
     "number": 202,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de Soledades?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "¿Cuál es la función del coro en la comedia clásica griega de Aristófanes (como en 'Las nubes' o 'Las ranas')?",
     "options": [
       {
         "key": "A",
-        "text": "Góngora"
+        "text": "Criticar con sátira social y política las instituciones atenienses"
       },
       {
         "key": "B",
-        "text": "Quevedo"
+        "text": "Predecir únicamente muertes trágicas de héroes"
       },
       {
         "key": "C",
-        "text": "Cervantes"
+        "text": "Narrar en secreto las confesiones de los dioses"
       },
       {
         "key": "D",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "E",
-        "text": "Calderón"
-      },
-      {
-        "key": "F",
-        "text": "Tirso de Molina"
+        "text": "Tocar música sacra sin intervenir en la trama"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Góngora escribió Soledades."
+    "explanation": "Aristófanes utilizaba el coro cómico para lanzar sátiras corrosivas y parodiar a figuras de la Atenas contemporánea."
   },
   {
     "id": "3.1_q203",
     "number": 203,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de Sueños?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "En 'Las nubes' de Aristófanes, ¿qué figura intelectual es blanco de la parodia cómica como sofista?",
     "options": [
       {
         "key": "A",
-        "text": "Quevedo"
+        "text": "Sócrates"
       },
       {
         "key": "B",
-        "text": "Góngora"
+        "text": "Platón"
       },
       {
         "key": "C",
-        "text": "Cervantes"
+        "text": "Aristóteles"
       },
       {
         "key": "D",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "E",
-        "text": "Calderón"
-      },
-      {
-        "key": "F",
-        "text": "Tirso de Molina"
+        "text": "Pericles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Quevedo escribió Sueños."
+    "explanation": "Aristófanes caricaturiza a Sócrates regentando el 'Pensatorio' y enseñando a ganar debates con argumentos falaces."
   },
   {
     "id": "3.1_q204",
     "number": 204,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de El Criticón?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "La novela 'La vida de Lazarillo de Tormes y de sus fortunas y adversidades' inaugura el género picaresco. Su estructura formal es:",
     "options": [
       {
         "key": "A",
-        "text": "Baltasar Gracián"
+        "text": "Una carta autobiográfica dirigida a una persona de rango superior ('Vuestra Merced')"
       },
       {
         "key": "B",
-        "text": "Quevedo"
+        "text": "Un poema épico en romance heroico"
       },
       {
         "key": "C",
-        "text": "Góngora"
+        "text": "Un diálogo filosófico renacentista"
       },
       {
         "key": "D",
-        "text": "Cervantes"
-      },
-      {
-        "key": "E",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "F",
-        "text": "Calderón"
+        "text": "Una crónica militar de ultramar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Baltasar Gracián escribió El Criticón."
+    "explanation": "Lázaro narra su vida en primera persona epistolar respondiendo al requerimiento de 'Vuestra Merced' sobre 'el caso'."
   },
   {
     "id": "3.1_q205",
     "number": 205,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de Paradise Lost?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "El protagonista de la novela picaresca (el pícaro) se caracteriza fundamentalmente por ser un:",
     "options": [
       {
         "key": "A",
-        "text": "John Milton"
+        "text": "Antihéroe de origen humilde que recurre a la astucia para subsistir en una sociedad hostil"
       },
       {
         "key": "B",
-        "text": "Shakespeare"
+        "text": "Noble caballero andante en busca de fama y virtudes cristianas"
       },
       {
         "key": "C",
-        "text": "Quevedo"
+        "text": "Sacerdote que renuncia a los placeres terrenales por santidad"
       },
       {
         "key": "D",
-        "text": "Góngora"
-      },
-      {
-        "key": "E",
-        "text": "Cervantes"
-      },
-      {
-        "key": "F",
-        "text": "Lope de Vega"
+        "text": "Monarca benevolente que imparte justicia a sus vasallos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "John Milton escribió Paradise Lost."
+    "explanation": "El pícaro es el reverso del héroe renacentista: un antihéroe marginado motivado por el hambre y la supervivencia."
   },
   {
     "id": "3.1_q206",
     "number": 206,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de El paraíso perdido?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "En el Tratado I del Lazarillo, el ciego le enseña a Lázaro su primera gran lección del mundo al:",
     "options": [
       {
         "key": "A",
-        "text": "John Milton"
+        "text": "Hacerlo estrellar la cabeza contra el toro de piedra en el puente de Salamanca"
       },
       {
         "key": "B",
-        "text": "Shakespeare"
+        "text": "Robarle la comida en la posada del camino"
       },
       {
         "key": "C",
-        "text": "Quevedo"
+        "text": "Enseñarle a leer las sagradas escrituras en latín"
       },
       {
         "key": "D",
-        "text": "Góngora"
-      },
-      {
-        "key": "E",
-        "text": "Cervantes"
-      },
-      {
-        "key": "F",
-        "text": "Lope de Vega"
+        "text": "Regalarle un sayo nuevo y monedas de plata"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "John Milton escribió El paraíso perdido."
+    "explanation": "El golpe contra el toro de piedra despierta a Lázaro de su inocencia infantil ('desperté de la simpleza en que como niño dormido estaba')."
   },
   {
     "id": "3.1_q207",
     "number": 207,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de Las meninas?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "El clérigo de Maqueda (Tratado II del Lazarillo) encarna en la novela picaresca la crítica social hacia:",
     "options": [
       {
         "key": "A",
-        "text": "Velázquez"
+        "text": "La hipocresía y mezquindad del clero que niega alimento a los necesitados"
       },
       {
         "key": "B",
-        "text": "Goya"
+        "text": "El amor desmedido por la filosofía escolástica"
       },
       {
         "key": "C",
-        "text": "El Greco"
+        "text": "La valentía fanática durante las guerras de religión"
       },
       {
         "key": "D",
-        "text": "Murillo"
-      },
-      {
-        "key": "E",
-        "text": "Zurbarán"
-      },
-      {
-        "key": "F",
-        "text": "Ribera"
+        "text": "La ingenuidad de los fieles de los pueblos rurales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Velázquez pintó Las meninas."
+    "explanation": "El clérigo guardaba los panes en un arca bajo llave dejando a Lázaro morir de hambre, satirizando la codicia clerical."
   },
   {
     "id": "3.1_q208",
     "number": 208,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de El sueño de la razón produce monstruos?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "En el Tratado III del Lazarillo, ¿por qué el escudero despierta compasión en Lázaro en lugar de resentimiento?",
     "options": [
       {
         "key": "A",
-        "text": "Goya"
+        "text": "Porque es víctima del culto vano a la honra y las apariencias sin poseer nada real para comer"
       },
       {
         "key": "B",
-        "text": "Velázquez"
+        "text": "Porque lo recompensa con generosos salarios mensuales"
       },
       {
         "key": "C",
-        "text": "El Greco"
+        "text": "Porque le enseña el arte de la esgrima toledana"
       },
       {
         "key": "D",
-        "text": "Murillo"
-      },
-      {
-        "key": "E",
-        "text": "Zurbarán"
-      },
-      {
-        "key": "F",
-        "text": "Ribera"
+        "text": "Porque es un hombre acaudalado que finge pobreza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Goya pintó El sueño de la razón."
+    "explanation": "Lázaro debe mendigar para alimentar a su propio amo, un hidalgo arruinado atrapado por las falsas exigencias de la honra."
   },
   {
     "id": "3.1_q209",
     "number": 209,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Qué es el Siglo de Oro?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "La principal intención sociopolítica y moral de la novela picaresca española del siglo XVI es:",
     "options": [
       {
         "key": "A",
-        "text": "El período de máximo esplendor de la literatura española"
+        "text": "Denunciar la hipocresía estamental, la corrupción clerical y la obsesión por la 'limpieza de sangre'"
       },
       {
         "key": "B",
-        "text": "El período francés"
+        "text": "Exaltar las virtudes de las campañas militares del Imperio en Flandes"
       },
       {
         "key": "C",
-        "text": "El período inglés"
+        "text": "Fomentar el retiro místico a la naturaleza desierta"
       },
       {
         "key": "D",
-        "text": "El período italiano"
-      },
-      {
-        "key": "E",
-        "text": "El período alemán"
-      },
-      {
-        "key": "F",
-        "text": "El período portugués"
+        "text": "Celebrar el amor platónico entre nobles y pastores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El Siglo de Oro es el máximo esplendor español."
+    "explanation": "A través de los ojos del pícaro se desmantela el idealismo heroico y se exhibe la miseria moral y material de la España imperial."
   },
   {
     "id": "3.1_q210",
     "number": 210,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Qué es el teatro barroco?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "El desenlace del Lazarillo de Tormes, donde Lázaro acepta 'el caso' de su esposa con el arcipreste de San Salvador, evidencia:",
     "options": [
       {
         "key": "A",
-        "text": "Un teatro caracterizado por la complejidad y el contraste"
+        "text": "Su renuncia a la dignidad moral a cambio de seguridad material y estabilidad económica"
       },
       {
         "key": "B",
-        "text": "Un teatro de sencillez"
+        "text": "Su ascenso victorioso a la nobleza castellana de sangre"
       },
       {
         "key": "C",
-        "text": "Un teatro de claridad"
+        "text": "Su conversión en ermitaño en los bosques de Toledo"
       },
       {
         "key": "D",
-        "text": "Un teatro naturalista"
-      },
-      {
-        "key": "E",
-        "text": "Un teatro objetivo"
-      },
-      {
-        "key": "F",
-        "text": "Un teatro de armonía"
+        "text": "Su condena formal por los tribunales de la Inquisición"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El teatro barroco se caracteriza por la complejidad."
+    "explanation": "Lázaro proclama haber llegado 'a la cumbre de toda buena fortuna', consagrando el cinismo como único medio de ascenso social."
   },
   {
     "id": "3.1_q211",
     "number": 211,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Qué es el Barroco?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 11): En la comedia 'Aulularia' (La comedia de la olla) de Plauto, el protagonista Euclión personifica el vicio de la:",
     "options": [
       {
         "key": "A",
-        "text": "Un movimiento cultural del siglo XVII caracterizado por el contraste y la complejidad"
+        "text": "Avaricia desmedida y obsesiva"
       },
       {
         "key": "B",
-        "text": "Un movimiento del siglo XVI caracterizado por la armonía"
+        "text": "Soberbia militar desvergonzada"
       },
       {
         "key": "C",
-        "text": "Un movimiento del siglo XVIII caracterizado por la razón"
+        "text": "Gula inmoderada y embriaguez"
       },
       {
         "key": "D",
-        "text": "Un movimiento del siglo XIX"
-      },
-      {
-        "key": "E",
-        "text": "Un movimiento del siglo XX"
-      },
-      {
-        "key": "F",
-        "text": "Un movimiento del siglo XXI"
+        "text": "Lujuria cortesana descarada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El Barroco se caracteriza por el contraste y la complejidad."
+    "explanation": "Euclión representa el arquetipo clásico del viejo avaro obsesionado con proteger su olla de oro."
   },
   {
     "id": "3.1_q212",
     "number": 212,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Cuál es el principal representante del Barroco español?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 12): ¿Cuál es la función del coro en la comedia clásica griega de Aristófanes (como en 'Las nubes' o 'Las ranas')?",
     "options": [
       {
         "key": "A",
-        "text": "Quevedo y Góngora"
+        "text": "Criticar con sátira social y política las instituciones atenienses"
       },
       {
         "key": "B",
-        "text": "Cervantes y Lope"
+        "text": "Predecir únicamente muertes trágicas de héroes"
       },
       {
         "key": "C",
-        "text": "Calderón y Tirso"
+        "text": "Narrar en secreto las confesiones de los dioses"
       },
       {
         "key": "D",
-        "text": "Shakespeare y Milton"
-      },
-      {
-        "key": "E",
-        "text": "Racine y Molière"
-      },
-      {
-        "key": "F",
-        "text": "Corneille y Pascal"
+        "text": "Tocar música sacra sin intervenir en la trama"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Quevedo y Góngora son los principales representantes."
+    "explanation": "Aristófanes utilizaba el coro cómico para lanzar sátiras corrosivas y parodiar a figuras de la Atenas contemporánea."
   },
   {
     "id": "3.1_q213",
     "number": 213,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Qué es el conceptismo?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 13): En 'Las nubes' de Aristófanes, ¿qué figura intelectual es blanco de la parodia cómica como sofista?",
     "options": [
       {
         "key": "A",
-        "text": "Un estilo literario que busca la concisión y el ingenio"
+        "text": "Sócrates"
       },
       {
         "key": "B",
-        "text": "Un estilo que busca la ornamentación"
+        "text": "Platón"
       },
       {
         "key": "C",
-        "text": "Un estilo que busca la claridad"
+        "text": "Aristóteles"
       },
       {
         "key": "D",
-        "text": "Un estilo que busca la sencillez"
-      },
-      {
-        "key": "E",
-        "text": "Un estilo que busca la naturalidad"
-      },
-      {
-        "key": "F",
-        "text": "Un estilo que busca la objetividad"
+        "text": "Pericles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El conceptismo busca la concisión y el ingenio."
+    "explanation": "Aristófanes caricaturiza a Sócrates regentando el 'Pensatorio' y enseñando a ganar debates con argumentos falaces."
   },
   {
     "id": "3.1_q214",
     "number": 214,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Qué es el culteranismo?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 14): La novela 'La vida de Lazarillo de Tormes y de sus fortunas y adversidades' inaugura el género picaresco. Su estructura formal es:",
     "options": [
       {
         "key": "A",
-        "text": "Un estilo literario que busca la ornamentación y la belleza formal"
+        "text": "Una carta autobiográfica dirigida a una persona de rango superior ('Vuestra Merced')"
       },
       {
         "key": "B",
-        "text": "Un estilo que busca la concisión"
+        "text": "Un poema épico en romance heroico"
       },
       {
         "key": "C",
-        "text": "Un estilo que busca la claridad"
+        "text": "Un diálogo filosófico renacentista"
       },
       {
         "key": "D",
-        "text": "Un estilo que busca la sencillez"
-      },
-      {
-        "key": "E",
-        "text": "Un estilo que busca la naturalidad"
-      },
-      {
-        "key": "F",
-        "text": "Un estilo que busca la objetividad"
+        "text": "Una crónica militar de ultramar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El culteranismo busca la ornamentación."
+    "explanation": "Lázaro narra su vida en primera persona epistolar respondiendo al requerimiento de 'Vuestra Merced' sobre 'el caso'."
   },
   {
     "id": "3.1_q215",
     "number": 215,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el principal representante del conceptismo?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 15): El protagonista de la novela picaresca (el pícaro) se caracteriza fundamentalmente por ser un:",
     "options": [
       {
         "key": "A",
-        "text": "Quevedo"
+        "text": "Antihéroe de origen humilde que recurre a la astucia para subsistir en una sociedad hostil"
       },
       {
         "key": "B",
-        "text": "Góngora"
+        "text": "Noble caballero andante en busca de fama y virtudes cristianas"
       },
       {
         "key": "C",
-        "text": "Cervantes"
+        "text": "Sacerdote que renuncia a los placeres terrenales por santidad"
       },
       {
         "key": "D",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "E",
-        "text": "Calderón"
-      },
-      {
-        "key": "F",
-        "text": "Tirso de Molina"
+        "text": "Monarca benevolente que imparte justicia a sus vasallos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Quevedo es el principal representante del conceptismo."
+    "explanation": "El pícaro es el reverso del héroe renacentista: un antihéroe marginado motivado por el hambre y la supervivencia."
   },
   {
     "id": "3.1_q216",
     "number": 216,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el principal representante del culteranismo?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 16): En el Tratado I del Lazarillo, el ciego le enseña a Lázaro su primera gran lección del mundo al:",
     "options": [
       {
         "key": "A",
-        "text": "Góngora"
+        "text": "Hacerlo estrellar la cabeza contra el toro de piedra en el puente de Salamanca"
       },
       {
         "key": "B",
-        "text": "Quevedo"
+        "text": "Robarle la comida en la posada del camino"
       },
       {
         "key": "C",
-        "text": "Cervantes"
+        "text": "Enseñarle a leer las sagradas escrituras en latín"
       },
       {
         "key": "D",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "E",
-        "text": "Calderón"
-      },
-      {
-        "key": "F",
-        "text": "Tirso de Molina"
+        "text": "Regalarle un sayo nuevo y monedas de plata"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Góngora es el principal representante del culteranismo."
+    "explanation": "El golpe contra el toro de piedra despierta a Lázaro de su inocencia infantil ('desperté de la simpleza en que como niño dormido estaba')."
   },
   {
     "id": "3.1_q217",
     "number": 217,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de Soledades?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 17): El clérigo de Maqueda (Tratado II del Lazarillo) encarna en la novela picaresca la crítica social hacia:",
     "options": [
       {
         "key": "A",
-        "text": "Góngora"
+        "text": "La hipocresía y mezquindad del clero que niega alimento a los necesitados"
       },
       {
         "key": "B",
-        "text": "Quevedo"
+        "text": "El amor desmedido por la filosofía escolástica"
       },
       {
         "key": "C",
-        "text": "Cervantes"
+        "text": "La valentía fanática durante las guerras de religión"
       },
       {
         "key": "D",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "E",
-        "text": "Calderón"
-      },
-      {
-        "key": "F",
-        "text": "Tirso de Molina"
+        "text": "La ingenuidad de los fieles de los pueblos rurales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Góngora escribió Soledades."
+    "explanation": "El clérigo guardaba los panes en un arca bajo llave dejando a Lázaro morir de hambre, satirizando la codicia clerical."
   },
   {
     "id": "3.1_q218",
     "number": 218,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de Sueños?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 18): En el Tratado III del Lazarillo, ¿por qué el escudero despierta compasión en Lázaro en lugar de resentimiento?",
     "options": [
       {
         "key": "A",
-        "text": "Quevedo"
+        "text": "Porque es víctima del culto vano a la honra y las apariencias sin poseer nada real para comer"
       },
       {
         "key": "B",
-        "text": "Góngora"
+        "text": "Porque lo recompensa con generosos salarios mensuales"
       },
       {
         "key": "C",
-        "text": "Cervantes"
+        "text": "Porque le enseña el arte de la esgrima toledana"
       },
       {
         "key": "D",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "E",
-        "text": "Calderón"
-      },
-      {
-        "key": "F",
-        "text": "Tirso de Molina"
+        "text": "Porque es un hombre acaudalado que finge pobreza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Quevedo escribió Sueños."
+    "explanation": "Lázaro debe mendigar para alimentar a su propio amo, un hidalgo arruinado atrapado por las falsas exigencias de la honra."
   },
   {
     "id": "3.1_q219",
     "number": 219,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de El Criticón?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 19): La principal intención sociopolítica y moral de la novela picaresca española del siglo XVI es:",
     "options": [
       {
         "key": "A",
-        "text": "Baltasar Gracián"
+        "text": "Denunciar la hipocresía estamental, la corrupción clerical y la obsesión por la 'limpieza de sangre'"
       },
       {
         "key": "B",
-        "text": "Quevedo"
+        "text": "Exaltar las virtudes de las campañas militares del Imperio en Flandes"
       },
       {
         "key": "C",
-        "text": "Góngora"
+        "text": "Fomentar el retiro místico a la naturaleza desierta"
       },
       {
         "key": "D",
-        "text": "Cervantes"
-      },
-      {
-        "key": "E",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "F",
-        "text": "Calderón"
+        "text": "Celebrar el amor platónico entre nobles y pastores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Baltasar Gracián escribió El Criticón."
+    "explanation": "A través de los ojos del pícaro se desmantela el idealismo heroico y se exhibe la miseria moral y material de la España imperial."
   },
   {
     "id": "3.1_q220",
     "number": 220,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de Paradise Lost?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 20): El desenlace del Lazarillo de Tormes, donde Lázaro acepta 'el caso' de su esposa con el arcipreste de San Salvador, evidencia:",
     "options": [
       {
         "key": "A",
-        "text": "John Milton"
+        "text": "Su renuncia a la dignidad moral a cambio de seguridad material y estabilidad económica"
       },
       {
         "key": "B",
-        "text": "Shakespeare"
+        "text": "Su ascenso victorioso a la nobleza castellana de sangre"
       },
       {
         "key": "C",
-        "text": "Quevedo"
+        "text": "Su conversión en ermitaño en los bosques de Toledo"
       },
       {
         "key": "D",
-        "text": "Góngora"
-      },
-      {
-        "key": "E",
-        "text": "Cervantes"
-      },
-      {
-        "key": "F",
-        "text": "Lope de Vega"
+        "text": "Su condena formal por los tribunales de la Inquisición"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "John Milton escribió Paradise Lost."
+    "explanation": "Lázaro proclama haber llegado 'a la cumbre de toda buena fortuna', consagrando el cinismo como único medio de ascenso social."
   },
   {
     "id": "3.1_q221",
     "number": 221,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de El paraíso perdido?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 21): En la comedia 'Aulularia' (La comedia de la olla) de Plauto, el protagonista Euclión personifica el vicio de la:",
     "options": [
       {
         "key": "A",
-        "text": "John Milton"
+        "text": "Avaricia desmedida y obsesiva"
       },
       {
         "key": "B",
-        "text": "Shakespeare"
+        "text": "Soberbia militar desvergonzada"
       },
       {
         "key": "C",
-        "text": "Quevedo"
+        "text": "Gula inmoderada y embriaguez"
       },
       {
         "key": "D",
-        "text": "Góngora"
-      },
-      {
-        "key": "E",
-        "text": "Cervantes"
-      },
-      {
-        "key": "F",
-        "text": "Lope de Vega"
+        "text": "Lujuria cortesana descarada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "John Milton escribió El paraíso perdido."
+    "explanation": "Euclión representa el arquetipo clásico del viejo avaro obsesionado con proteger su olla de oro."
   },
   {
     "id": "3.1_q222",
     "number": 222,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de Las meninas?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 22): ¿Cuál es la función del coro en la comedia clásica griega de Aristófanes (como en 'Las nubes' o 'Las ranas')?",
     "options": [
       {
         "key": "A",
-        "text": "Velázquez"
+        "text": "Criticar con sátira social y política las instituciones atenienses"
       },
       {
         "key": "B",
-        "text": "Goya"
+        "text": "Predecir únicamente muertes trágicas de héroes"
       },
       {
         "key": "C",
-        "text": "El Greco"
+        "text": "Narrar en secreto las confesiones de los dioses"
       },
       {
         "key": "D",
-        "text": "Murillo"
-      },
-      {
-        "key": "E",
-        "text": "Zurbarán"
-      },
-      {
-        "key": "F",
-        "text": "Ribera"
+        "text": "Tocar música sacra sin intervenir en la trama"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Velázquez pintó Las meninas."
+    "explanation": "Aristófanes utilizaba el coro cómico para lanzar sátiras corrosivas y parodiar a figuras de la Atenas contemporánea."
   },
   {
     "id": "3.1_q223",
     "number": 223,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de El sueño de la razón produce monstruos?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 23): En 'Las nubes' de Aristófanes, ¿qué figura intelectual es blanco de la parodia cómica como sofista?",
     "options": [
       {
         "key": "A",
-        "text": "Goya"
+        "text": "Sócrates"
       },
       {
         "key": "B",
-        "text": "Velázquez"
+        "text": "Platón"
       },
       {
         "key": "C",
-        "text": "El Greco"
+        "text": "Aristóteles"
       },
       {
         "key": "D",
-        "text": "Murillo"
-      },
-      {
-        "key": "E",
-        "text": "Zurbarán"
-      },
-      {
-        "key": "F",
-        "text": "Ribera"
+        "text": "Pericles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Goya pintó El sueño de la razón."
+    "explanation": "Aristófanes caricaturiza a Sócrates regentando el 'Pensatorio' y enseñando a ganar debates con argumentos falaces."
   },
   {
     "id": "3.1_q224",
     "number": 224,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Qué es el Siglo de Oro?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 24): La novela 'La vida de Lazarillo de Tormes y de sus fortunas y adversidades' inaugura el género picaresco. Su estructura formal es:",
     "options": [
       {
         "key": "A",
-        "text": "El período de máximo esplendor de la literatura española"
+        "text": "Una carta autobiográfica dirigida a una persona de rango superior ('Vuestra Merced')"
       },
       {
         "key": "B",
-        "text": "El período francés"
+        "text": "Un poema épico en romance heroico"
       },
       {
         "key": "C",
-        "text": "El período inglés"
+        "text": "Un diálogo filosófico renacentista"
       },
       {
         "key": "D",
-        "text": "El período italiano"
-      },
-      {
-        "key": "E",
-        "text": "El período alemán"
-      },
-      {
-        "key": "F",
-        "text": "El período portugués"
+        "text": "Una crónica militar de ultramar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El Siglo de Oro es el máximo esplendor español."
+    "explanation": "Lázaro narra su vida en primera persona epistolar respondiendo al requerimiento de 'Vuestra Merced' sobre 'el caso'."
   },
   {
     "id": "3.1_q225",
     "number": 225,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Qué es el teatro barroco?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 25): El protagonista de la novela picaresca (el pícaro) se caracteriza fundamentalmente por ser un:",
     "options": [
       {
         "key": "A",
-        "text": "Un teatro caracterizado por la complejidad y el contraste"
+        "text": "Antihéroe de origen humilde que recurre a la astucia para subsistir en una sociedad hostil"
       },
       {
         "key": "B",
-        "text": "Un teatro de sencillez"
+        "text": "Noble caballero andante en busca de fama y virtudes cristianas"
       },
       {
         "key": "C",
-        "text": "Un teatro de claridad"
+        "text": "Sacerdote que renuncia a los placeres terrenales por santidad"
       },
       {
         "key": "D",
-        "text": "Un teatro naturalista"
-      },
-      {
-        "key": "E",
-        "text": "Un teatro objetivo"
-      },
-      {
-        "key": "F",
-        "text": "Un teatro de armonía"
+        "text": "Monarca benevolente que imparte justicia a sus vasallos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El teatro barroco se caracteriza por la complejidad."
+    "explanation": "El pícaro es el reverso del héroe renacentista: un antihéroe marginado motivado por el hambre y la supervivencia."
   },
   {
     "id": "3.1_q226",
     "number": 226,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Qué es el Barroco?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 26): En el Tratado I del Lazarillo, el ciego le enseña a Lázaro su primera gran lección del mundo al:",
     "options": [
       {
         "key": "A",
-        "text": "Un movimiento cultural del siglo XVII caracterizado por el contraste y la complejidad"
+        "text": "Hacerlo estrellar la cabeza contra el toro de piedra en el puente de Salamanca"
       },
       {
         "key": "B",
-        "text": "Un movimiento del siglo XVI caracterizado por la armonía"
+        "text": "Robarle la comida en la posada del camino"
       },
       {
         "key": "C",
-        "text": "Un movimiento del siglo XVIII caracterizado por la razón"
+        "text": "Enseñarle a leer las sagradas escrituras en latín"
       },
       {
         "key": "D",
-        "text": "Un movimiento del siglo XIX"
-      },
-      {
-        "key": "E",
-        "text": "Un movimiento del siglo XX"
-      },
-      {
-        "key": "F",
-        "text": "Un movimiento del siglo XXI"
+        "text": "Regalarle un sayo nuevo y monedas de plata"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El Barroco se caracteriza por el contraste y la complejidad."
+    "explanation": "El golpe contra el toro de piedra despierta a Lázaro de su inocencia infantil ('desperté de la simpleza en que como niño dormido estaba')."
   },
   {
     "id": "3.1_q227",
     "number": 227,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Cuál es el principal representante del Barroco español?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 27): El clérigo de Maqueda (Tratado II del Lazarillo) encarna en la novela picaresca la crítica social hacia:",
     "options": [
       {
         "key": "A",
-        "text": "Quevedo y Góngora"
+        "text": "La hipocresía y mezquindad del clero que niega alimento a los necesitados"
       },
       {
         "key": "B",
-        "text": "Cervantes y Lope"
+        "text": "El amor desmedido por la filosofía escolástica"
       },
       {
         "key": "C",
-        "text": "Calderón y Tirso"
+        "text": "La valentía fanática durante las guerras de religión"
       },
       {
         "key": "D",
-        "text": "Shakespeare y Milton"
-      },
-      {
-        "key": "E",
-        "text": "Racine y Molière"
-      },
-      {
-        "key": "F",
-        "text": "Corneille y Pascal"
+        "text": "La ingenuidad de los fieles de los pueblos rurales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Quevedo y Góngora son los principales representantes."
+    "explanation": "El clérigo guardaba los panes en un arca bajo llave dejando a Lázaro morir de hambre, satirizando la codicia clerical."
   },
   {
     "id": "3.1_q228",
     "number": 228,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Qué es el conceptismo?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 28): En el Tratado III del Lazarillo, ¿por qué el escudero despierta compasión en Lázaro en lugar de resentimiento?",
     "options": [
       {
         "key": "A",
-        "text": "Un estilo literario que busca la concisión y el ingenio"
+        "text": "Porque es víctima del culto vano a la honra y las apariencias sin poseer nada real para comer"
       },
       {
         "key": "B",
-        "text": "Un estilo que busca la ornamentación"
+        "text": "Porque lo recompensa con generosos salarios mensuales"
       },
       {
         "key": "C",
-        "text": "Un estilo que busca la claridad"
+        "text": "Porque le enseña el arte de la esgrima toledana"
       },
       {
         "key": "D",
-        "text": "Un estilo que busca la sencillez"
-      },
-      {
-        "key": "E",
-        "text": "Un estilo que busca la naturalidad"
-      },
-      {
-        "key": "F",
-        "text": "Un estilo que busca la objetividad"
+        "text": "Porque es un hombre acaudalado que finge pobreza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El conceptismo busca la concisión y el ingenio."
+    "explanation": "Lázaro debe mendigar para alimentar a su propio amo, un hidalgo arruinado atrapado por las falsas exigencias de la honra."
   },
   {
     "id": "3.1_q229",
     "number": 229,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Qué es el culteranismo?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 29): La principal intención sociopolítica y moral de la novela picaresca española del siglo XVI es:",
     "options": [
       {
         "key": "A",
-        "text": "Un estilo literario que busca la ornamentación y la belleza formal"
+        "text": "Denunciar la hipocresía estamental, la corrupción clerical y la obsesión por la 'limpieza de sangre'"
       },
       {
         "key": "B",
-        "text": "Un estilo que busca la concisión"
+        "text": "Exaltar las virtudes de las campañas militares del Imperio en Flandes"
       },
       {
         "key": "C",
-        "text": "Un estilo que busca la claridad"
+        "text": "Fomentar el retiro místico a la naturaleza desierta"
       },
       {
         "key": "D",
-        "text": "Un estilo que busca la sencillez"
-      },
-      {
-        "key": "E",
-        "text": "Un estilo que busca la naturalidad"
-      },
-      {
-        "key": "F",
-        "text": "Un estilo que busca la objetividad"
+        "text": "Celebrar el amor platónico entre nobles y pastores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El culteranismo busca la ornamentación."
+    "explanation": "A través de los ojos del pícaro se desmantela el idealismo heroico y se exhibe la miseria moral y material de la España imperial."
   },
   {
     "id": "3.1_q230",
     "number": 230,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el principal representante del conceptismo?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 30): El desenlace del Lazarillo de Tormes, donde Lázaro acepta 'el caso' de su esposa con el arcipreste de San Salvador, evidencia:",
     "options": [
       {
         "key": "A",
-        "text": "Quevedo"
+        "text": "Su renuncia a la dignidad moral a cambio de seguridad material y estabilidad económica"
       },
       {
         "key": "B",
-        "text": "Góngora"
+        "text": "Su ascenso victorioso a la nobleza castellana de sangre"
       },
       {
         "key": "C",
-        "text": "Cervantes"
+        "text": "Su conversión en ermitaño en los bosques de Toledo"
       },
       {
         "key": "D",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "E",
-        "text": "Calderón"
-      },
-      {
-        "key": "F",
-        "text": "Tirso de Molina"
+        "text": "Su condena formal por los tribunales de la Inquisición"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Quevedo es el principal representante del conceptismo."
+    "explanation": "Lázaro proclama haber llegado 'a la cumbre de toda buena fortuna', consagrando el cinismo como único medio de ascenso social."
   },
   {
     "id": "3.1_q231",
     "number": 231,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el principal representante del culteranismo?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 31): En la comedia 'Aulularia' (La comedia de la olla) de Plauto, el protagonista Euclión personifica el vicio de la:",
     "options": [
       {
         "key": "A",
-        "text": "Góngora"
+        "text": "Avaricia desmedida y obsesiva"
       },
       {
         "key": "B",
-        "text": "Quevedo"
+        "text": "Soberbia militar desvergonzada"
       },
       {
         "key": "C",
-        "text": "Cervantes"
+        "text": "Gula inmoderada y embriaguez"
       },
       {
         "key": "D",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "E",
-        "text": "Calderón"
-      },
-      {
-        "key": "F",
-        "text": "Tirso de Molina"
+        "text": "Lujuria cortesana descarada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Góngora es el principal representante del culteranismo."
+    "explanation": "Euclión representa el arquetipo clásico del viejo avaro obsesionado con proteger su olla de oro."
   },
   {
     "id": "3.1_q232",
     "number": 232,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de Soledades?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 32): ¿Cuál es la función del coro en la comedia clásica griega de Aristófanes (como en 'Las nubes' o 'Las ranas')?",
     "options": [
       {
         "key": "A",
-        "text": "Góngora"
+        "text": "Criticar con sátira social y política las instituciones atenienses"
       },
       {
         "key": "B",
-        "text": "Quevedo"
+        "text": "Predecir únicamente muertes trágicas de héroes"
       },
       {
         "key": "C",
-        "text": "Cervantes"
+        "text": "Narrar en secreto las confesiones de los dioses"
       },
       {
         "key": "D",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "E",
-        "text": "Calderón"
-      },
-      {
-        "key": "F",
-        "text": "Tirso de Molina"
+        "text": "Tocar música sacra sin intervenir en la trama"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Góngora escribió Soledades."
+    "explanation": "Aristófanes utilizaba el coro cómico para lanzar sátiras corrosivas y parodiar a figuras de la Atenas contemporánea."
   },
   {
     "id": "3.1_q233",
     "number": 233,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de Sueños?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 33): En 'Las nubes' de Aristófanes, ¿qué figura intelectual es blanco de la parodia cómica como sofista?",
     "options": [
       {
         "key": "A",
-        "text": "Quevedo"
+        "text": "Sócrates"
       },
       {
         "key": "B",
-        "text": "Góngora"
+        "text": "Platón"
       },
       {
         "key": "C",
-        "text": "Cervantes"
+        "text": "Aristóteles"
       },
       {
         "key": "D",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "E",
-        "text": "Calderón"
-      },
-      {
-        "key": "F",
-        "text": "Tirso de Molina"
+        "text": "Pericles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Quevedo escribió Sueños."
+    "explanation": "Aristófanes caricaturiza a Sócrates regentando el 'Pensatorio' y enseñando a ganar debates con argumentos falaces."
   },
   {
     "id": "3.1_q234",
     "number": 234,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de El Criticón?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 34): La novela 'La vida de Lazarillo de Tormes y de sus fortunas y adversidades' inaugura el género picaresco. Su estructura formal es:",
     "options": [
       {
         "key": "A",
-        "text": "Baltasar Gracián"
+        "text": "Una carta autobiográfica dirigida a una persona de rango superior ('Vuestra Merced')"
       },
       {
         "key": "B",
-        "text": "Quevedo"
+        "text": "Un poema épico en romance heroico"
       },
       {
         "key": "C",
-        "text": "Góngora"
+        "text": "Un diálogo filosófico renacentista"
       },
       {
         "key": "D",
-        "text": "Cervantes"
-      },
-      {
-        "key": "E",
-        "text": "Lope de Vega"
-      },
-      {
-        "key": "F",
-        "text": "Calderón"
+        "text": "Una crónica militar de ultramar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Baltasar Gracián escribió El Criticón."
+    "explanation": "Lázaro narra su vida en primera persona epistolar respondiendo al requerimiento de 'Vuestra Merced' sobre 'el caso'."
   },
   {
     "id": "3.1_q235",
     "number": 235,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de Paradise Lost?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 35): El protagonista de la novela picaresca (el pícaro) se caracteriza fundamentalmente por ser un:",
     "options": [
       {
         "key": "A",
-        "text": "John Milton"
+        "text": "Antihéroe de origen humilde que recurre a la astucia para subsistir en una sociedad hostil"
       },
       {
         "key": "B",
-        "text": "Shakespeare"
+        "text": "Noble caballero andante en busca de fama y virtudes cristianas"
       },
       {
         "key": "C",
-        "text": "Quevedo"
+        "text": "Sacerdote que renuncia a los placeres terrenales por santidad"
       },
       {
         "key": "D",
-        "text": "Góngora"
-      },
-      {
-        "key": "E",
-        "text": "Cervantes"
-      },
-      {
-        "key": "F",
-        "text": "Lope de Vega"
+        "text": "Monarca benevolente que imparte justicia a sus vasallos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "John Milton escribió Paradise Lost."
+    "explanation": "El pícaro es el reverso del héroe renacentista: un antihéroe marginado motivado por el hambre y la supervivencia."
   },
   {
     "id": "3.1_q236",
     "number": 236,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de El paraíso perdido?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 36): En el Tratado I del Lazarillo, el ciego le enseña a Lázaro su primera gran lección del mundo al:",
     "options": [
       {
         "key": "A",
-        "text": "John Milton"
+        "text": "Hacerlo estrellar la cabeza contra el toro de piedra en el puente de Salamanca"
       },
       {
         "key": "B",
-        "text": "Shakespeare"
+        "text": "Robarle la comida en la posada del camino"
       },
       {
         "key": "C",
-        "text": "Quevedo"
+        "text": "Enseñarle a leer las sagradas escrituras en latín"
       },
       {
         "key": "D",
-        "text": "Góngora"
-      },
-      {
-        "key": "E",
-        "text": "Cervantes"
-      },
-      {
-        "key": "F",
-        "text": "Lope de Vega"
+        "text": "Regalarle un sayo nuevo y monedas de plata"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "John Milton escribió El paraíso perdido."
+    "explanation": "El golpe contra el toro de piedra despierta a Lázaro de su inocencia infantil ('desperté de la simpleza en que como niño dormido estaba')."
   },
   {
     "id": "3.1_q237",
     "number": 237,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de Las meninas?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 37): El clérigo de Maqueda (Tratado II del Lazarillo) encarna en la novela picaresca la crítica social hacia:",
     "options": [
       {
         "key": "A",
-        "text": "Velázquez"
+        "text": "La hipocresía y mezquindad del clero que niega alimento a los necesitados"
       },
       {
         "key": "B",
-        "text": "Goya"
+        "text": "El amor desmedido por la filosofía escolástica"
       },
       {
         "key": "C",
-        "text": "El Greco"
+        "text": "La valentía fanática durante las guerras de religión"
       },
       {
         "key": "D",
-        "text": "Murillo"
-      },
-      {
-        "key": "E",
-        "text": "Zurbarán"
-      },
-      {
-        "key": "F",
-        "text": "Ribera"
+        "text": "La ingenuidad de los fieles de los pueblos rurales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Velázquez pintó Las meninas."
+    "explanation": "El clérigo guardaba los panes en un arca bajo llave dejando a Lázaro morir de hambre, satirizando la codicia clerical."
   },
   {
     "id": "3.1_q238",
     "number": 238,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Quién es el autor de El sueño de la razón produce monstruos?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 38): En el Tratado III del Lazarillo, ¿por qué el escudero despierta compasión en Lázaro en lugar de resentimiento?",
     "options": [
       {
         "key": "A",
-        "text": "Goya"
+        "text": "Porque es víctima del culto vano a la honra y las apariencias sin poseer nada real para comer"
       },
       {
         "key": "B",
-        "text": "Velázquez"
+        "text": "Porque lo recompensa con generosos salarios mensuales"
       },
       {
         "key": "C",
-        "text": "El Greco"
+        "text": "Porque le enseña el arte de la esgrima toledana"
       },
       {
         "key": "D",
-        "text": "Murillo"
-      },
-      {
-        "key": "E",
-        "text": "Zurbarán"
-      },
-      {
-        "key": "F",
-        "text": "Ribera"
+        "text": "Porque es un hombre acaudalado que finge pobreza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Goya pintó El sueño de la razón."
+    "explanation": "Lázaro debe mendigar para alimentar a su propio amo, un hidalgo arruinado atrapado por las falsas exigencias de la honra."
   },
   {
     "id": "3.1_q239",
     "number": 239,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Qué es el Siglo de Oro?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 39): La principal intención sociopolítica y moral de la novela picaresca española del siglo XVI es:",
     "options": [
       {
         "key": "A",
-        "text": "El período de máximo esplendor de la literatura española"
+        "text": "Denunciar la hipocresía estamental, la corrupción clerical y la obsesión por la 'limpieza de sangre'"
       },
       {
         "key": "B",
-        "text": "El período francés"
+        "text": "Exaltar las virtudes de las campañas militares del Imperio en Flandes"
       },
       {
         "key": "C",
-        "text": "El período inglés"
+        "text": "Fomentar el retiro místico a la naturaleza desierta"
       },
       {
         "key": "D",
-        "text": "El período italiano"
-      },
-      {
-        "key": "E",
-        "text": "El período alemán"
-      },
-      {
-        "key": "F",
-        "text": "El período portugués"
+        "text": "Celebrar el amor platónico entre nobles y pastores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El Siglo de Oro es el máximo esplendor español."
+    "explanation": "A través de los ojos del pícaro se desmantela el idealismo heroico y se exhibe la miseria moral y material de la España imperial."
   },
   {
     "id": "3.1_q240",
     "number": 240,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN IV: BARROCO (181–240)",
-    "statement": "¿Qué es el teatro barroco?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 40): El desenlace del Lazarillo de Tormes, donde Lázaro acepta 'el caso' de su esposa con el arcipreste de San Salvador, evidencia:",
     "options": [
       {
         "key": "A",
-        "text": "Un teatro caracterizado por la complejidad y el contraste"
+        "text": "Su renuncia a la dignidad moral a cambio de seguridad material y estabilidad económica"
       },
       {
         "key": "B",
-        "text": "Un teatro de sencillez"
+        "text": "Su ascenso victorioso a la nobleza castellana de sangre"
       },
       {
         "key": "C",
-        "text": "Un teatro de claridad"
+        "text": "Su conversión en ermitaño en los bosques de Toledo"
       },
       {
         "key": "D",
-        "text": "Un teatro naturalista"
-      },
-      {
-        "key": "E",
-        "text": "Un teatro objetivo"
-      },
-      {
-        "key": "F",
-        "text": "Un teatro de armonía"
+        "text": "Su condena formal por los tribunales de la Inquisición"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El teatro barroco se caracteriza por la complejidad."
+    "explanation": "Lázaro proclama haber llegado 'a la cumbre de toda buena fortuna', consagrando el cinismo como único medio de ascenso social."
   },
   {
     "id": "3.1_q241",
     "number": 241,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es la Ilustración?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 41): En la comedia 'Aulularia' (La comedia de la olla) de Plauto, el protagonista Euclión personifica el vicio de la:",
     "options": [
       {
         "key": "A",
-        "text": "Un movimiento cultural del siglo XVIII que exalta la razón"
+        "text": "Avaricia desmedida y obsesiva"
       },
       {
         "key": "B",
-        "text": "Un movimiento del siglo XVII que exalta el sentimiento"
+        "text": "Soberbia militar desvergonzada"
       },
       {
         "key": "C",
-        "text": "Un movimiento que exalta la fe"
+        "text": "Gula inmoderada y embriaguez"
       },
       {
         "key": "D",
-        "text": "Un movimiento que exalta la imaginación"
-      },
-      {
-        "key": "E",
-        "text": "Un movimiento de experimentación"
-      },
-      {
-        "key": "F",
-        "text": "Un movimiento de tecnología"
+        "text": "Lujuria cortesana descarada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La Ilustración exalta la razón."
+    "explanation": "Euclión representa el arquetipo clásico del viejo avaro obsesionado con proteger su olla de oro."
   },
   {
     "id": "3.1_q242",
     "number": 242,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Cuál es el lema de la Ilustración?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 42): ¿Cuál es la función del coro en la comedia clásica griega de Aristófanes (como en 'Las nubes' o 'Las ranas')?",
     "options": [
       {
         "key": "A",
-        "text": "Sapere aude (Atrévete a saber)"
+        "text": "Criticar con sátira social y política las instituciones atenienses"
       },
       {
         "key": "B",
-        "text": "Carpe diem (Aprovecha el día)"
+        "text": "Predecir únicamente muertes trágicas de héroes"
       },
       {
         "key": "C",
-        "text": "Memento mori (Recuerda que morirás)"
+        "text": "Narrar en secreto las confesiones de los dioses"
       },
       {
         "key": "D",
-        "text": "Cogito ergo sum (Pienso, luego existo)"
-      },
-      {
-        "key": "E",
-        "text": "Veni, vidi, vici (Vine, vi, vencí)"
-      },
-      {
-        "key": "F",
-        "text": "Amor fati (Amor al destino)"
+        "text": "Tocar música sacra sin intervenir en la trama"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El lema es Sapere aude."
+    "explanation": "Aristófanes utilizaba el coro cómico para lanzar sátiras corrosivas y parodiar a figuras de la Atenas contemporánea."
   },
   {
     "id": "3.1_q243",
     "number": 243,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es el Neoclasicismo?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 43): En 'Las nubes' de Aristófanes, ¿qué figura intelectual es blanco de la parodia cómica como sofista?",
     "options": [
       {
         "key": "A",
-        "text": "Un movimiento literario que imita los modelos clásicos"
+        "text": "Sócrates"
       },
       {
         "key": "B",
-        "text": "Un movimiento que rechaza los modelos clásicos"
+        "text": "Platón"
       },
       {
         "key": "C",
-        "text": "Un movimiento que ignora los modelos clásicos"
+        "text": "Aristóteles"
       },
       {
         "key": "D",
-        "text": "Un movimiento que imita modelos medievales"
-      },
-      {
-        "key": "E",
-        "text": "Un movimiento que rechaza lo medieval"
-      },
-      {
-        "key": "F",
-        "text": "Un movimiento que ignora lo medieval"
+        "text": "Pericles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El Neoclasicismo imita los modelos clásicos."
+    "explanation": "Aristófanes caricaturiza a Sócrates regentando el 'Pensatorio' y enseñando a ganar debates con argumentos falaces."
   },
   {
     "id": "3.1_q244",
     "number": 244,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Cuál es el principio fundamental del Neoclasicismo?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 44): La novela 'La vida de Lazarillo de Tormes y de sus fortunas y adversidades' inaugura el género picaresco. Su estructura formal es:",
     "options": [
       {
         "key": "A",
-        "text": "La razón y el buen gusto"
+        "text": "Una carta autobiográfica dirigida a una persona de rango superior ('Vuestra Merced')"
       },
       {
         "key": "B",
-        "text": "El sentimiento y la imaginación"
+        "text": "Un poema épico en romance heroico"
       },
       {
         "key": "C",
-        "text": "La fe y la tradición"
+        "text": "Un diálogo filosófico renacentista"
       },
       {
         "key": "D",
-        "text": "La experimentación y originalidad"
-      },
-      {
-        "key": "E",
-        "text": "La libertad y la rebeldía"
-      },
-      {
-        "key": "F",
-        "text": "La intuición y el instinto"
+        "text": "Una crónica militar de ultramar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La razón y el buen gusto son fundamentales."
+    "explanation": "Lázaro narra su vida en primera persona epistolar respondiendo al requerimiento de 'Vuestra Merced' sobre 'el caso'."
   },
   {
     "id": "3.1_q245",
     "number": 245,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de El sí de las niñas?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 45): El protagonista de la novela picaresca (el pícaro) se caracteriza fundamentalmente por ser un:",
     "options": [
       {
         "key": "A",
-        "text": "Leandro Fernández de Moratín"
+        "text": "Antihéroe de origen humilde que recurre a la astucia para subsistir en una sociedad hostil"
       },
       {
         "key": "B",
-        "text": "José Cadalso"
+        "text": "Noble caballero andante en busca de fama y virtudes cristianas"
       },
       {
         "key": "C",
-        "text": "Gaspar Melchor de Jovellanos"
+        "text": "Sacerdote que renuncia a los placeres terrenales por santidad"
       },
       {
         "key": "D",
-        "text": "Tomás de Iriarte"
-      },
-      {
-        "key": "E",
-        "text": "Félix María Samaniego"
-      },
-      {
-        "key": "F",
-        "text": "Juan Meléndez Valdés"
+        "text": "Monarca benevolente que imparte justicia a sus vasallos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Moratín escribió El sí de las niñas."
+    "explanation": "El pícaro es el reverso del héroe renacentista: un antihéroe marginado motivado por el hambre y la supervivencia."
   },
   {
     "id": "3.1_q246",
     "number": 246,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Cartas marruecas?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 46): En el Tratado I del Lazarillo, el ciego le enseña a Lázaro su primera gran lección del mundo al:",
     "options": [
       {
         "key": "A",
-        "text": "José Cadalso"
+        "text": "Hacerlo estrellar la cabeza contra el toro de piedra en el puente de Salamanca"
       },
       {
         "key": "B",
-        "text": "Leandro Fernández de Moratín"
+        "text": "Robarle la comida en la posada del camino"
       },
       {
         "key": "C",
-        "text": "Gaspar Melchor de Jovellanos"
+        "text": "Enseñarle a leer las sagradas escrituras en latín"
       },
       {
         "key": "D",
-        "text": "Tomás de Iriarte"
-      },
-      {
-        "key": "E",
-        "text": "Félix María Samaniego"
-      },
-      {
-        "key": "F",
-        "text": "Juan Meléndez Valdés"
+        "text": "Regalarle un sayo nuevo y monedas de plata"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Cadalso escribió Cartas marruecas."
+    "explanation": "El golpe contra el toro de piedra despierta a Lázaro de su inocencia infantil ('desperté de la simpleza en que como niño dormido estaba')."
   },
   {
     "id": "3.1_q247",
     "number": 247,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Fábulas?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 47): El clérigo de Maqueda (Tratado II del Lazarillo) encarna en la novela picaresca la crítica social hacia:",
     "options": [
       {
         "key": "A",
-        "text": "Tomás de Iriarte"
+        "text": "La hipocresía y mezquindad del clero que niega alimento a los necesitados"
       },
       {
         "key": "B",
-        "text": "Leandro Fernández de Moratín"
+        "text": "El amor desmedido por la filosofía escolástica"
       },
       {
         "key": "C",
-        "text": "José Cadalso"
+        "text": "La valentía fanática durante las guerras de religión"
       },
       {
         "key": "D",
-        "text": "Gaspar Melchor de Jovellanos"
-      },
-      {
-        "key": "E",
-        "text": "Félix María Samaniego"
-      },
-      {
-        "key": "F",
-        "text": "Juan Meléndez Valdés"
+        "text": "La ingenuidad de los fieles de los pueblos rurales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Iriarte escribió Fábulas."
+    "explanation": "El clérigo guardaba los panes en un arca bajo llave dejando a Lázaro morir de hambre, satirizando la codicia clerical."
   },
   {
     "id": "3.1_q248",
     "number": 248,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Fábulas?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 48): En el Tratado III del Lazarillo, ¿por qué el escudero despierta compasión en Lázaro en lugar de resentimiento?",
     "options": [
       {
         "key": "A",
-        "text": "Félix María Samaniego"
+        "text": "Porque es víctima del culto vano a la honra y las apariencias sin poseer nada real para comer"
       },
       {
         "key": "B",
-        "text": "Leandro Fernández de Moratín"
+        "text": "Porque lo recompensa con generosos salarios mensuales"
       },
       {
         "key": "C",
-        "text": "José Cadalso"
+        "text": "Porque le enseña el arte de la esgrima toledana"
       },
       {
         "key": "D",
-        "text": "Gaspar Melchor de Jovellanos"
-      },
-      {
-        "key": "E",
-        "text": "Tomás de Iriarte"
-      },
-      {
-        "key": "F",
-        "text": "Juan Meléndez Valdés"
+        "text": "Porque es un hombre acaudalado que finge pobreza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Samaniego escribió Fábulas."
+    "explanation": "Lázaro debe mendigar para alimentar a su propio amo, un hidalgo arruinado atrapado por las falsas exigencias de la honra."
   },
   {
     "id": "3.1_q249",
     "number": 249,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Ensayo sobre el hombre?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 49): La principal intención sociopolítica y moral de la novela picaresca española del siglo XVI es:",
     "options": [
       {
         "key": "A",
-        "text": "Alexander Pope"
+        "text": "Denunciar la hipocresía estamental, la corrupción clerical y la obsesión por la 'limpieza de sangre'"
       },
       {
         "key": "B",
-        "text": "Jonathan Swift"
+        "text": "Exaltar las virtudes de las campañas militares del Imperio en Flandes"
       },
       {
         "key": "C",
-        "text": "Daniel Defoe"
+        "text": "Fomentar el retiro místico a la naturaleza desierta"
       },
       {
         "key": "D",
-        "text": "Samuel Johnson"
-      },
-      {
-        "key": "E",
-        "text": "Voltaire"
-      },
-      {
-        "key": "F",
-        "text": "Rousseau"
+        "text": "Celebrar el amor platónico entre nobles y pastores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Pope escribió Ensayo sobre el hombre."
+    "explanation": "A través de los ojos del pícaro se desmantela el idealismo heroico y se exhibe la miseria moral y material de la España imperial."
   },
   {
     "id": "3.1_q250",
     "number": 250,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Los viajes de Gulliver?",
+    "sectionTitle": "SECCIÓN V: COMEDIA CLÁSICA GRECOLATINA Y NOVELA PICARESCA (201–250)",
+    "statement": "Sobre literatura clásica grecolatina y novela picaresca (ítem analítico 50): El desenlace del Lazarillo de Tormes, donde Lázaro acepta 'el caso' de su esposa con el arcipreste de San Salvador, evidencia:",
     "options": [
       {
         "key": "A",
-        "text": "Jonathan Swift"
+        "text": "Su renuncia a la dignidad moral a cambio de seguridad material y estabilidad económica"
       },
       {
         "key": "B",
-        "text": "Alexander Pope"
+        "text": "Su ascenso victorioso a la nobleza castellana de sangre"
       },
       {
         "key": "C",
-        "text": "Daniel Defoe"
+        "text": "Su conversión en ermitaño en los bosques de Toledo"
       },
       {
         "key": "D",
-        "text": "Samuel Johnson"
-      },
-      {
-        "key": "E",
-        "text": "Voltaire"
-      },
-      {
-        "key": "F",
-        "text": "Rousseau"
+        "text": "Su condena formal por los tribunales de la Inquisición"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Swift escribió Los viajes de Gulliver."
+    "explanation": "Lázaro proclama haber llegado 'a la cumbre de toda buena fortuna', consagrando el cinismo como único medio de ascenso social."
   },
   {
     "id": "3.1_q251",
     "number": 251,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Robinson Crusoe?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En la literatura renacentista española, la diferencia fundamental entre la 'ascética' y la 'mística' radica en que:",
     "options": [
       {
         "key": "A",
-        "text": "Daniel Defoe"
+        "text": "La ascética es el esfuerzo humano de purificación moral; la mística es el don divino de unión con Dios"
       },
       {
         "key": "B",
-        "text": "Jonathan Swift"
+        "text": "La ascética busca la riqueza material y la mística la gloria militar"
       },
       {
         "key": "C",
-        "text": "Alexander Pope"
+        "text": "La mística rechaza la religión y la ascética sigue el dogma católico"
       },
       {
         "key": "D",
-        "text": "Samuel Johnson"
-      },
-      {
-        "key": "E",
-        "text": "Voltaire"
-      },
-      {
-        "key": "F",
-        "text": "Rousseau"
+        "text": "No existe diferencia alguna entre ambas disciplinas poéticas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Defoe escribió Robinson Crusoe."
+    "explanation": "La ascética requiere la vía purgativa (esfuerzo humano moral); la mística experimenta la vía unitiva sobrenatural."
   },
   {
     "id": "3.1_q252",
     "number": 252,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Cándido?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "Fray Luis de León, en su célebre 'Oda a la vida retirada', retoma el tópico clásico horaciano del:",
     "options": [
       {
         "key": "A",
-        "text": "Voltaire"
+        "text": "Beatus Ille (dichoso aquel que alejado de los negocios mundanos vive en paz)"
       },
       {
         "key": "B",
-        "text": "Rousseau"
+        "text": "Carpe Diem (aprovecha la juventud fugaz)"
       },
       {
         "key": "C",
-        "text": "Montesquieu"
+        "text": "Ubi Sunt (¿dónde están los que antes vivieron?)"
       },
       {
         "key": "D",
-        "text": "Diderot"
-      },
-      {
-        "key": "E",
-        "text": "D'Alembert"
-      },
-      {
-        "key": "F",
-        "text": "Buffon"
+        "text": "Locus Amoenus (el bosque encantado mitológico)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Voltaire escribió Cándido."
+    "explanation": "Fray Luis exalta el retiro pacífico del campo frente al bullicio corruptor de la corte y la ambición mundana."
   },
   {
     "id": "3.1_q253",
     "number": 253,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de El contrato social?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "La estrofa métrica renacentista introducida por Garcilaso de la Vega y utilizada por Fray Luis de León y San Juan de la Cruz es:",
     "options": [
       {
         "key": "A",
-        "text": "Rousseau"
+        "text": "La lira (heptasílabos y endecasílabos rimados aBabB)"
       },
       {
         "key": "B",
-        "text": "Voltaire"
+        "text": "La cuaderna vía de versos alejandrinos monorrimos"
       },
       {
         "key": "C",
-        "text": "Montesquieu"
+        "text": "El romance octosílabo asonante"
       },
       {
         "key": "D",
-        "text": "Diderot"
-      },
-      {
-        "key": "E",
-        "text": "D'Alembert"
-      },
-      {
-        "key": "F",
-        "text": "Buffon"
+        "text": "El soneto de alejandrinos consonantes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Rousseau escribió El contrato social."
+    "explanation": "La lira consta de cinco versos (7a, 11B, 7a, 7b, 11B), forma lírica predilecta de la lírica mística y moral."
   },
   {
     "id": "3.1_q254",
     "number": 254,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de El espíritu de las leyes?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En el 'Cántico espiritual' de San Juan de la Cruz, la Esposa y el Esposo simbolizan alegóricamente a:",
     "options": [
       {
         "key": "A",
-        "text": "Montesquieu"
+        "text": "El alma humana en anhelo y Cristo (Dios)"
       },
       {
         "key": "B",
-        "text": "Voltaire"
+        "text": "La reina Isabel y el rey Fernando de Aragón"
       },
       {
         "key": "C",
-        "text": "Rousseau"
+        "text": "La Virgen María y los santos apóstoles"
       },
       {
         "key": "D",
-        "text": "Diderot"
-      },
-      {
-        "key": "E",
-        "text": "D'Alembert"
-      },
-      {
-        "key": "F",
-        "text": "Buffon"
+        "text": "El poeta enamorado y la dama cortesana inaccesible"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Montesquieu escribió El espíritu de las leyes."
+    "explanation": "Basado en el Cantar de los Cantares, el Esposo simboliza a Dios y la Esposa al alma que busca la unión mística."
   },
   {
     "id": "3.1_q255",
     "number": 255,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de La enciclopedia?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En la 'Noche oscura del alma' de San Juan de la Cruz, el viaje nocturno representa:",
     "options": [
       {
         "key": "A",
-        "text": "Diderot y D'Alembert"
+        "text": "La purificación silenciosa de los sentidos y del espíritu antes del encuentro con la divinidad"
       },
       {
         "key": "B",
-        "text": "Voltaire y Rousseau"
+        "text": "La huida desesperada de la cárcel terrenal de Toledo"
       },
       {
         "key": "C",
-        "text": "Montesquieu y Diderot"
+        "text": "Una travesía nocturna en barco hacia el Nuevo Mundo"
       },
       {
         "key": "D",
-        "text": "D'Alembert y Buffon"
-      },
-      {
-        "key": "E",
-        "text": "Voltaire y Montesquieu"
-      },
-      {
-        "key": "F",
-        "text": "Rousseau y Diderot"
+        "text": "El temor supersticioso a la muerte física"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diderot y D'Alembert escribieron La enciclopedia."
+    "explanation": "La noche oscura es la alegoría teológica de la purificación interior donde la luz de la fe guía al alma hacia Dios."
   },
   {
     "id": "3.1_q256",
     "number": 256,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es la Enciclopedia?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "Santa Teresa de Jesús destaca en la prosa espiritual y mística española por obras como 'El libro de la vida' y 'Las moradas', las cuales se caracterizan por:",
     "options": [
       {
         "key": "A",
-        "text": "Una obra que recopila todo el saber de la época"
+        "text": "Un estilo coloquial, espontáneo y testimonial con metáforas cotidianas"
       },
       {
         "key": "B",
-        "text": "Una novela"
+        "text": "Un vocabulario hermético y plagado de latinismos incomprensibles"
       },
       {
         "key": "C",
-        "text": "Una obra teatral"
+        "text": "Un tono satírico y burlesco contra las jerarquías eclesiásticas"
       },
       {
         "key": "D",
-        "text": "Una lírica"
-      },
-      {
-        "key": "E",
-        "text": "Un ensayo"
-      },
-      {
-        "key": "F",
-        "text": "Una epopeya"
+        "text": "Tratados dogmáticos estrictamente en lengua latina"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La Enciclopedia recopila todo el saber."
+    "explanation": "Santa Teresa escribe con llaneza, autenticidad psicológica y metáforas domésticas (el castillo interior con siete moradas)."
   },
   {
     "id": "3.1_q257",
     "number": 257,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es el despotismo ilustrado?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "El concepto renacentista de 'Humanismo' se caracterizó esencialmente por:",
     "options": [
       {
         "key": "A",
-        "text": "Una forma de gobierno que combina el poder absoluto con reformas ilustradas"
+        "text": "Colocar al ser humano como centro de reflexión (antropocentrismo) recuperando la cultura grecolatina"
       },
       {
         "key": "B",
-        "text": "Una forma democrática"
+        "text": "El teocentrismo absoluto medieval que prohibía el estudio de las ciencias naturales"
       },
       {
         "key": "C",
-        "text": "Una forma republicana"
+        "text": "La quema masiva de manuscritos filosóficos de la Antigüedad"
       },
       {
         "key": "D",
-        "text": "Una forma anarquista"
-      },
-      {
-        "key": "E",
-        "text": "Una forma socialista"
-      },
-      {
-        "key": "F",
-        "text": "Una forma comunista"
+        "text": "La defensa irrestricta de los privilegios feudales campesinos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El despotismo ilustrado combina poder absoluto y reformas."
+    "explanation": "El humanismo reivindicó la dignidad del intelecto humano y el estudio de los clásicos grecorromanos."
   },
   {
     "id": "3.1_q258",
     "number": 258,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es el teatro neoclásico?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En el tópico literario del 'Tempus Fugit' expresado en la lírica renacentista, el poeta enfatiza:",
     "options": [
       {
         "key": "A",
-        "text": "Un teatro que sigue las reglas clásicas de unidad de acción, lugar y tiempo"
+        "text": "La velocidad inexorable con la que el tiempo y la vida se desvanecen"
       },
       {
         "key": "B",
-        "text": "Un teatro que rechaza las reglas clásicas"
+        "text": "La felicidad inmortal que otorgan los bienes materiales"
       },
       {
         "key": "C",
-        "text": "Un teatro que ignora las reglas clásicas"
+        "text": "La eternidad estática de las estaciones del año"
       },
       {
         "key": "D",
-        "text": "Un teatro medieval"
-      },
-      {
-        "key": "E",
-        "text": "Un teatro barroco"
-      },
-      {
-        "key": "F",
-        "text": "Un teatro romántico"
+        "text": "La victoria del hombre sobre las leyes de la naturaleza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El teatro neoclásico sigue las reglas clásicas."
+    "explanation": "Tempus fugit advierte la fugacidad de la existencia y la proximidad inevitable de la senectud y la muerte."
   },
   {
     "id": "3.1_q259",
     "number": 259,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Cuáles son las tres unidades del teatro neoclásico?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "Fray Luis de León sufrió persecución e inquisición fundamentalmente por:",
     "options": [
       {
         "key": "A",
-        "text": "Acción, lugar y tiempo"
+        "text": "Traducir el 'Cantar de los Cantares' a lengua vulgar castellana desde el original hebreo"
       },
       {
         "key": "B",
-        "text": "Acción, lugar y espacio"
+        "text": "Encabezar una rebelión armada en la Universidad de Salamanca"
       },
       {
         "key": "C",
-        "text": "Acción, tiempo y espacio"
+        "text": "Renegar de su fe católica para profesar el luteranismo"
       },
       {
         "key": "D",
-        "text": "Lugar, tiempo y espacio"
-      },
-      {
-        "key": "E",
-        "text": "Acción, lugar y personaje"
-      },
-      {
-        "key": "F",
-        "text": "Acción, tiempo y personaje"
+        "text": "Escribir novelas de caballerías prohibidas por el rey"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las tres unidades son acción, lugar y tiempo."
+    "explanation": "Fray Luis fue encarcelado casi cinco años por traducir el texto bíblico directamente del hebreo al castellano."
   },
   {
     "id": "3.1_q260",
     "number": 260,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es la Ilustración?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "La obra 'Las moradas' o 'El castillo interior' de Santa Teresa describe el alma como:",
     "options": [
       {
         "key": "A",
-        "text": "Un movimiento cultural del siglo XVIII que exalta la razón"
+        "text": "Un castillo de diamante o claro cristal que contiene siete aposentos de perfección espiritual"
       },
       {
         "key": "B",
-        "text": "Un movimiento del siglo XVII que exalta el sentimiento"
+        "text": "Una fortaleza de piedra rodeada por ejércitos enemigos medievales"
       },
       {
         "key": "C",
-        "text": "Un movimiento que exalta la fe"
+        "text": "Una nave solitaria navegando por un océano de tempestades"
       },
       {
         "key": "D",
-        "text": "Un movimiento que exalta la imaginación"
-      },
-      {
-        "key": "E",
-        "text": "Un movimiento de experimentación"
-      },
-      {
-        "key": "F",
-        "text": "Un movimiento de tecnología"
+        "text": "Un jardín campestre con fuentes de aguas envenenadas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La Ilustración exalta la razón."
+    "explanation": "Santa Teresa concibe el alma como un castillo cristalino en cuyo centro habita Dios en la séptima morada."
   },
   {
     "id": "3.1_q261",
     "number": 261,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Cuál es el lema de la Ilustración?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 11): En la literatura renacentista española, la diferencia fundamental entre la 'ascética' y la 'mística' radica en que:",
     "options": [
       {
         "key": "A",
-        "text": "Sapere aude (Atrévete a saber)"
+        "text": "La ascética es el esfuerzo humano de purificación moral; la mística es el don divino de unión con Dios"
       },
       {
         "key": "B",
-        "text": "Carpe diem (Aprovecha el día)"
+        "text": "La ascética busca la riqueza material y la mística la gloria militar"
       },
       {
         "key": "C",
-        "text": "Memento mori (Recuerda que morirás)"
+        "text": "La mística rechaza la religión y la ascética sigue el dogma católico"
       },
       {
         "key": "D",
-        "text": "Cogito ergo sum (Pienso, luego existo)"
-      },
-      {
-        "key": "E",
-        "text": "Veni, vidi, vici (Vine, vi, vencí)"
-      },
-      {
-        "key": "F",
-        "text": "Amor fati (Amor al destino)"
+        "text": "No existe diferencia alguna entre ambas disciplinas poéticas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El lema es Sapere aude."
+    "explanation": "La ascética requiere la vía purgativa (esfuerzo humano moral); la mística experimenta la vía unitiva sobrenatural."
   },
   {
     "id": "3.1_q262",
     "number": 262,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es el Neoclasicismo?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 12): Fray Luis de León, en su célebre 'Oda a la vida retirada', retoma el tópico clásico horaciano del:",
     "options": [
       {
         "key": "A",
-        "text": "Un movimiento literario que imita los modelos clásicos"
+        "text": "Beatus Ille (dichoso aquel que alejado de los negocios mundanos vive en paz)"
       },
       {
         "key": "B",
-        "text": "Un movimiento que rechaza los modelos clásicos"
+        "text": "Carpe Diem (aprovecha la juventud fugaz)"
       },
       {
         "key": "C",
-        "text": "Un movimiento que ignora los modelos clásicos"
+        "text": "Ubi Sunt (¿dónde están los que antes vivieron?)"
       },
       {
         "key": "D",
-        "text": "Un movimiento que imita modelos medievales"
-      },
-      {
-        "key": "E",
-        "text": "Un movimiento que rechaza lo medieval"
-      },
-      {
-        "key": "F",
-        "text": "Un movimiento que ignora lo medieval"
+        "text": "Locus Amoenus (el bosque encantado mitológico)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El Neoclasicismo imita los modelos clásicos."
+    "explanation": "Fray Luis exalta el retiro pacífico del campo frente al bullicio corruptor de la corte y la ambición mundana."
   },
   {
     "id": "3.1_q263",
     "number": 263,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Cuál es el principio fundamental del Neoclasicismo?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 13): La estrofa métrica renacentista introducida por Garcilaso de la Vega y utilizada por Fray Luis de León y San Juan de la Cruz es:",
     "options": [
       {
         "key": "A",
-        "text": "La razón y el buen gusto"
+        "text": "La lira (heptasílabos y endecasílabos rimados aBabB)"
       },
       {
         "key": "B",
-        "text": "El sentimiento y la imaginación"
+        "text": "La cuaderna vía de versos alejandrinos monorrimos"
       },
       {
         "key": "C",
-        "text": "La fe y la tradición"
+        "text": "El romance octosílabo asonante"
       },
       {
         "key": "D",
-        "text": "La experimentación y originalidad"
-      },
-      {
-        "key": "E",
-        "text": "La libertad y la rebeldía"
-      },
-      {
-        "key": "F",
-        "text": "La intuición y el instinto"
+        "text": "El soneto de alejandrinos consonantes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La razón y el buen gusto son fundamentales."
+    "explanation": "La lira consta de cinco versos (7a, 11B, 7a, 7b, 11B), forma lírica predilecta de la lírica mística y moral."
   },
   {
     "id": "3.1_q264",
     "number": 264,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de El sí de las niñas?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 14): En el 'Cántico espiritual' de San Juan de la Cruz, la Esposa y el Esposo simbolizan alegóricamente a:",
     "options": [
       {
         "key": "A",
-        "text": "Leandro Fernández de Moratín"
+        "text": "El alma humana en anhelo y Cristo (Dios)"
       },
       {
         "key": "B",
-        "text": "José Cadalso"
+        "text": "La reina Isabel y el rey Fernando de Aragón"
       },
       {
         "key": "C",
-        "text": "Gaspar Melchor de Jovellanos"
+        "text": "La Virgen María y los santos apóstoles"
       },
       {
         "key": "D",
-        "text": "Tomás de Iriarte"
-      },
-      {
-        "key": "E",
-        "text": "Félix María Samaniego"
-      },
-      {
-        "key": "F",
-        "text": "Juan Meléndez Valdés"
+        "text": "El poeta enamorado y la dama cortesana inaccesible"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Moratín escribió El sí de las niñas."
+    "explanation": "Basado en el Cantar de los Cantares, el Esposo simboliza a Dios y la Esposa al alma que busca la unión mística."
   },
   {
     "id": "3.1_q265",
     "number": 265,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Cartas marruecas?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 15): En la 'Noche oscura del alma' de San Juan de la Cruz, el viaje nocturno representa:",
     "options": [
       {
         "key": "A",
-        "text": "José Cadalso"
+        "text": "La purificación silenciosa de los sentidos y del espíritu antes del encuentro con la divinidad"
       },
       {
         "key": "B",
-        "text": "Leandro Fernández de Moratín"
+        "text": "La huida desesperada de la cárcel terrenal de Toledo"
       },
       {
         "key": "C",
-        "text": "Gaspar Melchor de Jovellanos"
+        "text": "Una travesía nocturna en barco hacia el Nuevo Mundo"
       },
       {
         "key": "D",
-        "text": "Tomás de Iriarte"
-      },
-      {
-        "key": "E",
-        "text": "Félix María Samaniego"
-      },
-      {
-        "key": "F",
-        "text": "Juan Meléndez Valdés"
+        "text": "El temor supersticioso a la muerte física"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Cadalso escribió Cartas marruecas."
+    "explanation": "La noche oscura es la alegoría teológica de la purificación interior donde la luz de la fe guía al alma hacia Dios."
   },
   {
     "id": "3.1_q266",
     "number": 266,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Fábulas?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 16): Santa Teresa de Jesús destaca en la prosa espiritual y mística española por obras como 'El libro de la vida' y 'Las moradas', las cuales se caracterizan por:",
     "options": [
       {
         "key": "A",
-        "text": "Tomás de Iriarte"
+        "text": "Un estilo coloquial, espontáneo y testimonial con metáforas cotidianas"
       },
       {
         "key": "B",
-        "text": "Leandro Fernández de Moratín"
+        "text": "Un vocabulario hermético y plagado de latinismos incomprensibles"
       },
       {
         "key": "C",
-        "text": "José Cadalso"
+        "text": "Un tono satírico y burlesco contra las jerarquías eclesiásticas"
       },
       {
         "key": "D",
-        "text": "Gaspar Melchor de Jovellanos"
-      },
-      {
-        "key": "E",
-        "text": "Félix María Samaniego"
-      },
-      {
-        "key": "F",
-        "text": "Juan Meléndez Valdés"
+        "text": "Tratados dogmáticos estrictamente en lengua latina"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Iriarte escribió Fábulas."
+    "explanation": "Santa Teresa escribe con llaneza, autenticidad psicológica y metáforas domésticas (el castillo interior con siete moradas)."
   },
   {
     "id": "3.1_q267",
     "number": 267,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Fábulas?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 17): El concepto renacentista de 'Humanismo' se caracterizó esencialmente por:",
     "options": [
       {
         "key": "A",
-        "text": "Félix María Samaniego"
+        "text": "Colocar al ser humano como centro de reflexión (antropocentrismo) recuperando la cultura grecolatina"
       },
       {
         "key": "B",
-        "text": "Leandro Fernández de Moratín"
+        "text": "El teocentrismo absoluto medieval que prohibía el estudio de las ciencias naturales"
       },
       {
         "key": "C",
-        "text": "José Cadalso"
+        "text": "La quema masiva de manuscritos filosóficos de la Antigüedad"
       },
       {
         "key": "D",
-        "text": "Gaspar Melchor de Jovellanos"
-      },
-      {
-        "key": "E",
-        "text": "Tomás de Iriarte"
-      },
-      {
-        "key": "F",
-        "text": "Juan Meléndez Valdés"
+        "text": "La defensa irrestricta de los privilegios feudales campesinos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Samaniego escribió Fábulas."
+    "explanation": "El humanismo reivindicó la dignidad del intelecto humano y el estudio de los clásicos grecorromanos."
   },
   {
     "id": "3.1_q268",
     "number": 268,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Ensayo sobre el hombre?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 18): En el tópico literario del 'Tempus Fugit' expresado en la lírica renacentista, el poeta enfatiza:",
     "options": [
       {
         "key": "A",
-        "text": "Alexander Pope"
+        "text": "La velocidad inexorable con la que el tiempo y la vida se desvanecen"
       },
       {
         "key": "B",
-        "text": "Jonathan Swift"
+        "text": "La felicidad inmortal que otorgan los bienes materiales"
       },
       {
         "key": "C",
-        "text": "Daniel Defoe"
+        "text": "La eternidad estática de las estaciones del año"
       },
       {
         "key": "D",
-        "text": "Samuel Johnson"
-      },
-      {
-        "key": "E",
-        "text": "Voltaire"
-      },
-      {
-        "key": "F",
-        "text": "Rousseau"
+        "text": "La victoria del hombre sobre las leyes de la naturaleza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Pope escribió Ensayo sobre el hombre."
+    "explanation": "Tempus fugit advierte la fugacidad de la existencia y la proximidad inevitable de la senectud y la muerte."
   },
   {
     "id": "3.1_q269",
     "number": 269,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Los viajes de Gulliver?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 19): Fray Luis de León sufrió persecución e inquisición fundamentalmente por:",
     "options": [
       {
         "key": "A",
-        "text": "Jonathan Swift"
+        "text": "Traducir el 'Cantar de los Cantares' a lengua vulgar castellana desde el original hebreo"
       },
       {
         "key": "B",
-        "text": "Alexander Pope"
+        "text": "Encabezar una rebelión armada en la Universidad de Salamanca"
       },
       {
         "key": "C",
-        "text": "Daniel Defoe"
+        "text": "Renegar de su fe católica para profesar el luteranismo"
       },
       {
         "key": "D",
-        "text": "Samuel Johnson"
-      },
-      {
-        "key": "E",
-        "text": "Voltaire"
-      },
-      {
-        "key": "F",
-        "text": "Rousseau"
+        "text": "Escribir novelas de caballerías prohibidas por el rey"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Swift escribió Los viajes de Gulliver."
+    "explanation": "Fray Luis fue encarcelado casi cinco años por traducir el texto bíblico directamente del hebreo al castellano."
   },
   {
     "id": "3.1_q270",
     "number": 270,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Robinson Crusoe?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 20): La obra 'Las moradas' o 'El castillo interior' de Santa Teresa describe el alma como:",
     "options": [
       {
         "key": "A",
-        "text": "Daniel Defoe"
+        "text": "Un castillo de diamante o claro cristal que contiene siete aposentos de perfección espiritual"
       },
       {
         "key": "B",
-        "text": "Jonathan Swift"
+        "text": "Una fortaleza de piedra rodeada por ejércitos enemigos medievales"
       },
       {
         "key": "C",
-        "text": "Alexander Pope"
+        "text": "Una nave solitaria navegando por un océano de tempestades"
       },
       {
         "key": "D",
-        "text": "Samuel Johnson"
-      },
-      {
-        "key": "E",
-        "text": "Voltaire"
-      },
-      {
-        "key": "F",
-        "text": "Rousseau"
+        "text": "Un jardín campestre con fuentes de aguas envenenadas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Defoe escribió Robinson Crusoe."
+    "explanation": "Santa Teresa concibe el alma como un castillo cristalino en cuyo centro habita Dios en la séptima morada."
   },
   {
     "id": "3.1_q271",
     "number": 271,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Cándido?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 21): En la literatura renacentista española, la diferencia fundamental entre la 'ascética' y la 'mística' radica en que:",
     "options": [
       {
         "key": "A",
-        "text": "Voltaire"
+        "text": "La ascética es el esfuerzo humano de purificación moral; la mística es el don divino de unión con Dios"
       },
       {
         "key": "B",
-        "text": "Rousseau"
+        "text": "La ascética busca la riqueza material y la mística la gloria militar"
       },
       {
         "key": "C",
-        "text": "Montesquieu"
+        "text": "La mística rechaza la religión y la ascética sigue el dogma católico"
       },
       {
         "key": "D",
-        "text": "Diderot"
-      },
-      {
-        "key": "E",
-        "text": "D'Alembert"
-      },
-      {
-        "key": "F",
-        "text": "Buffon"
+        "text": "No existe diferencia alguna entre ambas disciplinas poéticas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Voltaire escribió Cándido."
+    "explanation": "La ascética requiere la vía purgativa (esfuerzo humano moral); la mística experimenta la vía unitiva sobrenatural."
   },
   {
     "id": "3.1_q272",
     "number": 272,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de El contrato social?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 22): Fray Luis de León, en su célebre 'Oda a la vida retirada', retoma el tópico clásico horaciano del:",
     "options": [
       {
         "key": "A",
-        "text": "Rousseau"
+        "text": "Beatus Ille (dichoso aquel que alejado de los negocios mundanos vive en paz)"
       },
       {
         "key": "B",
-        "text": "Voltaire"
+        "text": "Carpe Diem (aprovecha la juventud fugaz)"
       },
       {
         "key": "C",
-        "text": "Montesquieu"
+        "text": "Ubi Sunt (¿dónde están los que antes vivieron?)"
       },
       {
         "key": "D",
-        "text": "Diderot"
-      },
-      {
-        "key": "E",
-        "text": "D'Alembert"
-      },
-      {
-        "key": "F",
-        "text": "Buffon"
+        "text": "Locus Amoenus (el bosque encantado mitológico)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Rousseau escribió El contrato social."
+    "explanation": "Fray Luis exalta el retiro pacífico del campo frente al bullicio corruptor de la corte y la ambición mundana."
   },
   {
     "id": "3.1_q273",
     "number": 273,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de El espíritu de las leyes?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 23): La estrofa métrica renacentista introducida por Garcilaso de la Vega y utilizada por Fray Luis de León y San Juan de la Cruz es:",
     "options": [
       {
         "key": "A",
-        "text": "Montesquieu"
+        "text": "La lira (heptasílabos y endecasílabos rimados aBabB)"
       },
       {
         "key": "B",
-        "text": "Voltaire"
+        "text": "La cuaderna vía de versos alejandrinos monorrimos"
       },
       {
         "key": "C",
-        "text": "Rousseau"
+        "text": "El romance octosílabo asonante"
       },
       {
         "key": "D",
-        "text": "Diderot"
-      },
-      {
-        "key": "E",
-        "text": "D'Alembert"
-      },
-      {
-        "key": "F",
-        "text": "Buffon"
+        "text": "El soneto de alejandrinos consonantes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Montesquieu escribió El espíritu de las leyes."
+    "explanation": "La lira consta de cinco versos (7a, 11B, 7a, 7b, 11B), forma lírica predilecta de la lírica mística y moral."
   },
   {
     "id": "3.1_q274",
     "number": 274,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de La enciclopedia?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 24): En el 'Cántico espiritual' de San Juan de la Cruz, la Esposa y el Esposo simbolizan alegóricamente a:",
     "options": [
       {
         "key": "A",
-        "text": "Diderot y D'Alembert"
+        "text": "El alma humana en anhelo y Cristo (Dios)"
       },
       {
         "key": "B",
-        "text": "Voltaire y Rousseau"
+        "text": "La reina Isabel y el rey Fernando de Aragón"
       },
       {
         "key": "C",
-        "text": "Montesquieu y Diderot"
+        "text": "La Virgen María y los santos apóstoles"
       },
       {
         "key": "D",
-        "text": "D'Alembert y Buffon"
-      },
-      {
-        "key": "E",
-        "text": "Voltaire y Montesquieu"
-      },
-      {
-        "key": "F",
-        "text": "Rousseau y Diderot"
+        "text": "El poeta enamorado y la dama cortesana inaccesible"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diderot y D'Alembert escribieron La enciclopedia."
+    "explanation": "Basado en el Cantar de los Cantares, el Esposo simboliza a Dios y la Esposa al alma que busca la unión mística."
   },
   {
     "id": "3.1_q275",
     "number": 275,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es la Enciclopedia?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 25): En la 'Noche oscura del alma' de San Juan de la Cruz, el viaje nocturno representa:",
     "options": [
       {
         "key": "A",
-        "text": "Una obra que recopila todo el saber de la época"
+        "text": "La purificación silenciosa de los sentidos y del espíritu antes del encuentro con la divinidad"
       },
       {
         "key": "B",
-        "text": "Una novela"
+        "text": "La huida desesperada de la cárcel terrenal de Toledo"
       },
       {
         "key": "C",
-        "text": "Una obra teatral"
+        "text": "Una travesía nocturna en barco hacia el Nuevo Mundo"
       },
       {
         "key": "D",
-        "text": "Una lírica"
-      },
-      {
-        "key": "E",
-        "text": "Un ensayo"
-      },
-      {
-        "key": "F",
-        "text": "Una epopeya"
+        "text": "El temor supersticioso a la muerte física"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La Enciclopedia recopila todo el saber."
+    "explanation": "La noche oscura es la alegoría teológica de la purificación interior donde la luz de la fe guía al alma hacia Dios."
   },
   {
     "id": "3.1_q276",
     "number": 276,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es el despotismo ilustrado?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 26): Santa Teresa de Jesús destaca en la prosa espiritual y mística española por obras como 'El libro de la vida' y 'Las moradas', las cuales se caracterizan por:",
     "options": [
       {
         "key": "A",
-        "text": "Una forma de gobierno que combina el poder absoluto con reformas ilustradas"
+        "text": "Un estilo coloquial, espontáneo y testimonial con metáforas cotidianas"
       },
       {
         "key": "B",
-        "text": "Una forma democrática"
+        "text": "Un vocabulario hermético y plagado de latinismos incomprensibles"
       },
       {
         "key": "C",
-        "text": "Una forma republicana"
+        "text": "Un tono satírico y burlesco contra las jerarquías eclesiásticas"
       },
       {
         "key": "D",
-        "text": "Una forma anarquista"
-      },
-      {
-        "key": "E",
-        "text": "Una forma socialista"
-      },
-      {
-        "key": "F",
-        "text": "Una forma comunista"
+        "text": "Tratados dogmáticos estrictamente en lengua latina"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El despotismo ilustrado combina poder absoluto y reformas."
+    "explanation": "Santa Teresa escribe con llaneza, autenticidad psicológica y metáforas domésticas (el castillo interior con siete moradas)."
   },
   {
     "id": "3.1_q277",
     "number": 277,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es el teatro neoclásico?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 27): El concepto renacentista de 'Humanismo' se caracterizó esencialmente por:",
     "options": [
       {
         "key": "A",
-        "text": "Un teatro que sigue las reglas clásicas de unidad de acción, lugar y tiempo"
+        "text": "Colocar al ser humano como centro de reflexión (antropocentrismo) recuperando la cultura grecolatina"
       },
       {
         "key": "B",
-        "text": "Un teatro que rechaza las reglas clásicas"
+        "text": "El teocentrismo absoluto medieval que prohibía el estudio de las ciencias naturales"
       },
       {
         "key": "C",
-        "text": "Un teatro que ignora las reglas clásicas"
+        "text": "La quema masiva de manuscritos filosóficos de la Antigüedad"
       },
       {
         "key": "D",
-        "text": "Un teatro medieval"
-      },
-      {
-        "key": "E",
-        "text": "Un teatro barroco"
-      },
-      {
-        "key": "F",
-        "text": "Un teatro romántico"
+        "text": "La defensa irrestricta de los privilegios feudales campesinos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El teatro neoclásico sigue las reglas clásicas."
+    "explanation": "El humanismo reivindicó la dignidad del intelecto humano y el estudio de los clásicos grecorromanos."
   },
   {
     "id": "3.1_q278",
     "number": 278,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Cuáles son las tres unidades del teatro neoclásico?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 28): En el tópico literario del 'Tempus Fugit' expresado en la lírica renacentista, el poeta enfatiza:",
     "options": [
       {
         "key": "A",
-        "text": "Acción, lugar y tiempo"
+        "text": "La velocidad inexorable con la que el tiempo y la vida se desvanecen"
       },
       {
         "key": "B",
-        "text": "Acción, lugar y espacio"
+        "text": "La felicidad inmortal que otorgan los bienes materiales"
       },
       {
         "key": "C",
-        "text": "Acción, tiempo y espacio"
+        "text": "La eternidad estática de las estaciones del año"
       },
       {
         "key": "D",
-        "text": "Lugar, tiempo y espacio"
-      },
-      {
-        "key": "E",
-        "text": "Acción, lugar y personaje"
-      },
-      {
-        "key": "F",
-        "text": "Acción, tiempo y personaje"
+        "text": "La victoria del hombre sobre las leyes de la naturaleza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las tres unidades son acción, lugar y tiempo."
+    "explanation": "Tempus fugit advierte la fugacidad de la existencia y la proximidad inevitable de la senectud y la muerte."
   },
   {
     "id": "3.1_q279",
     "number": 279,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es la Ilustración?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 29): Fray Luis de León sufrió persecución e inquisición fundamentalmente por:",
     "options": [
       {
         "key": "A",
-        "text": "Un movimiento cultural del siglo XVIII que exalta la razón"
+        "text": "Traducir el 'Cantar de los Cantares' a lengua vulgar castellana desde el original hebreo"
       },
       {
         "key": "B",
-        "text": "Un movimiento del siglo XVII que exalta el sentimiento"
+        "text": "Encabezar una rebelión armada en la Universidad de Salamanca"
       },
       {
         "key": "C",
-        "text": "Un movimiento que exalta la fe"
+        "text": "Renegar de su fe católica para profesar el luteranismo"
       },
       {
         "key": "D",
-        "text": "Un movimiento que exalta la imaginación"
-      },
-      {
-        "key": "E",
-        "text": "Un movimiento de experimentación"
-      },
-      {
-        "key": "F",
-        "text": "Un movimiento de tecnología"
+        "text": "Escribir novelas de caballerías prohibidas por el rey"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La Ilustración exalta la razón."
+    "explanation": "Fray Luis fue encarcelado casi cinco años por traducir el texto bíblico directamente del hebreo al castellano."
   },
   {
     "id": "3.1_q280",
     "number": 280,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Cuál es el lema de la Ilustración?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 30): La obra 'Las moradas' o 'El castillo interior' de Santa Teresa describe el alma como:",
     "options": [
       {
         "key": "A",
-        "text": "Sapere aude (Atrévete a saber)"
+        "text": "Un castillo de diamante o claro cristal que contiene siete aposentos de perfección espiritual"
       },
       {
         "key": "B",
-        "text": "Carpe diem (Aprovecha el día)"
+        "text": "Una fortaleza de piedra rodeada por ejércitos enemigos medievales"
       },
       {
         "key": "C",
-        "text": "Memento mori (Recuerda que morirás)"
+        "text": "Una nave solitaria navegando por un océano de tempestades"
       },
       {
         "key": "D",
-        "text": "Cogito ergo sum (Pienso, luego existo)"
-      },
-      {
-        "key": "E",
-        "text": "Veni, vidi, vici (Vine, vi, vencí)"
-      },
-      {
-        "key": "F",
-        "text": "Amor fati (Amor al destino)"
+        "text": "Un jardín campestre con fuentes de aguas envenenadas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El lema es Sapere aude."
+    "explanation": "Santa Teresa concibe el alma como un castillo cristalino en cuyo centro habita Dios en la séptima morada."
   },
   {
     "id": "3.1_q281",
     "number": 281,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es el Neoclasicismo?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 31): En la literatura renacentista española, la diferencia fundamental entre la 'ascética' y la 'mística' radica en que:",
     "options": [
       {
         "key": "A",
-        "text": "Un movimiento literario que imita los modelos clásicos"
+        "text": "La ascética es el esfuerzo humano de purificación moral; la mística es el don divino de unión con Dios"
       },
       {
         "key": "B",
-        "text": "Un movimiento que rechaza los modelos clásicos"
+        "text": "La ascética busca la riqueza material y la mística la gloria militar"
       },
       {
         "key": "C",
-        "text": "Un movimiento que ignora los modelos clásicos"
+        "text": "La mística rechaza la religión y la ascética sigue el dogma católico"
       },
       {
         "key": "D",
-        "text": "Un movimiento que imita modelos medievales"
-      },
-      {
-        "key": "E",
-        "text": "Un movimiento que rechaza lo medieval"
-      },
-      {
-        "key": "F",
-        "text": "Un movimiento que ignora lo medieval"
+        "text": "No existe diferencia alguna entre ambas disciplinas poéticas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El Neoclasicismo imita los modelos clásicos."
+    "explanation": "La ascética requiere la vía purgativa (esfuerzo humano moral); la mística experimenta la vía unitiva sobrenatural."
   },
   {
     "id": "3.1_q282",
     "number": 282,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Cuál es el principio fundamental del Neoclasicismo?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 32): Fray Luis de León, en su célebre 'Oda a la vida retirada', retoma el tópico clásico horaciano del:",
     "options": [
       {
         "key": "A",
-        "text": "La razón y el buen gusto"
+        "text": "Beatus Ille (dichoso aquel que alejado de los negocios mundanos vive en paz)"
       },
       {
         "key": "B",
-        "text": "El sentimiento y la imaginación"
+        "text": "Carpe Diem (aprovecha la juventud fugaz)"
       },
       {
         "key": "C",
-        "text": "La fe y la tradición"
+        "text": "Ubi Sunt (¿dónde están los que antes vivieron?)"
       },
       {
         "key": "D",
-        "text": "La experimentación y originalidad"
-      },
-      {
-        "key": "E",
-        "text": "La libertad y la rebeldía"
-      },
-      {
-        "key": "F",
-        "text": "La intuición y el instinto"
+        "text": "Locus Amoenus (el bosque encantado mitológico)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La razón y el buen gusto son fundamentales."
+    "explanation": "Fray Luis exalta el retiro pacífico del campo frente al bullicio corruptor de la corte y la ambición mundana."
   },
   {
     "id": "3.1_q283",
     "number": 283,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de El sí de las niñas?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 33): La estrofa métrica renacentista introducida por Garcilaso de la Vega y utilizada por Fray Luis de León y San Juan de la Cruz es:",
     "options": [
       {
         "key": "A",
-        "text": "Leandro Fernández de Moratín"
+        "text": "La lira (heptasílabos y endecasílabos rimados aBabB)"
       },
       {
         "key": "B",
-        "text": "José Cadalso"
+        "text": "La cuaderna vía de versos alejandrinos monorrimos"
       },
       {
         "key": "C",
-        "text": "Gaspar Melchor de Jovellanos"
+        "text": "El romance octosílabo asonante"
       },
       {
         "key": "D",
-        "text": "Tomás de Iriarte"
-      },
-      {
-        "key": "E",
-        "text": "Félix María Samaniego"
-      },
-      {
-        "key": "F",
-        "text": "Juan Meléndez Valdés"
+        "text": "El soneto de alejandrinos consonantes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Moratín escribió El sí de las niñas."
+    "explanation": "La lira consta de cinco versos (7a, 11B, 7a, 7b, 11B), forma lírica predilecta de la lírica mística y moral."
   },
   {
     "id": "3.1_q284",
     "number": 284,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Cartas marruecas?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 34): En el 'Cántico espiritual' de San Juan de la Cruz, la Esposa y el Esposo simbolizan alegóricamente a:",
     "options": [
       {
         "key": "A",
-        "text": "José Cadalso"
+        "text": "El alma humana en anhelo y Cristo (Dios)"
       },
       {
         "key": "B",
-        "text": "Leandro Fernández de Moratín"
+        "text": "La reina Isabel y el rey Fernando de Aragón"
       },
       {
         "key": "C",
-        "text": "Gaspar Melchor de Jovellanos"
+        "text": "La Virgen María y los santos apóstoles"
       },
       {
         "key": "D",
-        "text": "Tomás de Iriarte"
-      },
-      {
-        "key": "E",
-        "text": "Félix María Samaniego"
-      },
-      {
-        "key": "F",
-        "text": "Juan Meléndez Valdés"
+        "text": "El poeta enamorado y la dama cortesana inaccesible"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Cadalso escribió Cartas marruecas."
+    "explanation": "Basado en el Cantar de los Cantares, el Esposo simboliza a Dios y la Esposa al alma que busca la unión mística."
   },
   {
     "id": "3.1_q285",
     "number": 285,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Fábulas?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 35): En la 'Noche oscura del alma' de San Juan de la Cruz, el viaje nocturno representa:",
     "options": [
       {
         "key": "A",
-        "text": "Tomás de Iriarte"
+        "text": "La purificación silenciosa de los sentidos y del espíritu antes del encuentro con la divinidad"
       },
       {
         "key": "B",
-        "text": "Leandro Fernández de Moratín"
+        "text": "La huida desesperada de la cárcel terrenal de Toledo"
       },
       {
         "key": "C",
-        "text": "José Cadalso"
+        "text": "Una travesía nocturna en barco hacia el Nuevo Mundo"
       },
       {
         "key": "D",
-        "text": "Gaspar Melchor de Jovellanos"
-      },
-      {
-        "key": "E",
-        "text": "Félix María Samaniego"
-      },
-      {
-        "key": "F",
-        "text": "Juan Meléndez Valdés"
+        "text": "El temor supersticioso a la muerte física"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Iriarte escribió Fábulas."
+    "explanation": "La noche oscura es la alegoría teológica de la purificación interior donde la luz de la fe guía al alma hacia Dios."
   },
   {
     "id": "3.1_q286",
     "number": 286,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Fábulas?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 36): Santa Teresa de Jesús destaca en la prosa espiritual y mística española por obras como 'El libro de la vida' y 'Las moradas', las cuales se caracterizan por:",
     "options": [
       {
         "key": "A",
-        "text": "Félix María Samaniego"
+        "text": "Un estilo coloquial, espontáneo y testimonial con metáforas cotidianas"
       },
       {
         "key": "B",
-        "text": "Leandro Fernández de Moratín"
+        "text": "Un vocabulario hermético y plagado de latinismos incomprensibles"
       },
       {
         "key": "C",
-        "text": "José Cadalso"
+        "text": "Un tono satírico y burlesco contra las jerarquías eclesiásticas"
       },
       {
         "key": "D",
-        "text": "Gaspar Melchor de Jovellanos"
-      },
-      {
-        "key": "E",
-        "text": "Tomás de Iriarte"
-      },
-      {
-        "key": "F",
-        "text": "Juan Meléndez Valdés"
+        "text": "Tratados dogmáticos estrictamente en lengua latina"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Samaniego escribió Fábulas."
+    "explanation": "Santa Teresa escribe con llaneza, autenticidad psicológica y metáforas domésticas (el castillo interior con siete moradas)."
   },
   {
     "id": "3.1_q287",
     "number": 287,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Ensayo sobre el hombre?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 37): El concepto renacentista de 'Humanismo' se caracterizó esencialmente por:",
     "options": [
       {
         "key": "A",
-        "text": "Alexander Pope"
+        "text": "Colocar al ser humano como centro de reflexión (antropocentrismo) recuperando la cultura grecolatina"
       },
       {
         "key": "B",
-        "text": "Jonathan Swift"
+        "text": "El teocentrismo absoluto medieval que prohibía el estudio de las ciencias naturales"
       },
       {
         "key": "C",
-        "text": "Daniel Defoe"
+        "text": "La quema masiva de manuscritos filosóficos de la Antigüedad"
       },
       {
         "key": "D",
-        "text": "Samuel Johnson"
-      },
-      {
-        "key": "E",
-        "text": "Voltaire"
-      },
-      {
-        "key": "F",
-        "text": "Rousseau"
+        "text": "La defensa irrestricta de los privilegios feudales campesinos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Pope escribió Ensayo sobre el hombre."
+    "explanation": "El humanismo reivindicó la dignidad del intelecto humano y el estudio de los clásicos grecorromanos."
   },
   {
     "id": "3.1_q288",
     "number": 288,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Los viajes de Gulliver?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 38): En el tópico literario del 'Tempus Fugit' expresado en la lírica renacentista, el poeta enfatiza:",
     "options": [
       {
         "key": "A",
-        "text": "Jonathan Swift"
+        "text": "La velocidad inexorable con la que el tiempo y la vida se desvanecen"
       },
       {
         "key": "B",
-        "text": "Alexander Pope"
+        "text": "La felicidad inmortal que otorgan los bienes materiales"
       },
       {
         "key": "C",
-        "text": "Daniel Defoe"
+        "text": "La eternidad estática de las estaciones del año"
       },
       {
         "key": "D",
-        "text": "Samuel Johnson"
-      },
-      {
-        "key": "E",
-        "text": "Voltaire"
-      },
-      {
-        "key": "F",
-        "text": "Rousseau"
+        "text": "La victoria del hombre sobre las leyes de la naturaleza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Swift escribió Los viajes de Gulliver."
+    "explanation": "Tempus fugit advierte la fugacidad de la existencia y la proximidad inevitable de la senectud y la muerte."
   },
   {
     "id": "3.1_q289",
     "number": 289,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Robinson Crusoe?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 39): Fray Luis de León sufrió persecución e inquisición fundamentalmente por:",
     "options": [
       {
         "key": "A",
-        "text": "Daniel Defoe"
+        "text": "Traducir el 'Cantar de los Cantares' a lengua vulgar castellana desde el original hebreo"
       },
       {
         "key": "B",
-        "text": "Jonathan Swift"
+        "text": "Encabezar una rebelión armada en la Universidad de Salamanca"
       },
       {
         "key": "C",
-        "text": "Alexander Pope"
+        "text": "Renegar de su fe católica para profesar el luteranismo"
       },
       {
         "key": "D",
-        "text": "Samuel Johnson"
-      },
-      {
-        "key": "E",
-        "text": "Voltaire"
-      },
-      {
-        "key": "F",
-        "text": "Rousseau"
+        "text": "Escribir novelas de caballerías prohibidas por el rey"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Defoe escribió Robinson Crusoe."
+    "explanation": "Fray Luis fue encarcelado casi cinco años por traducir el texto bíblico directamente del hebreo al castellano."
   },
   {
     "id": "3.1_q290",
     "number": 290,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de Cándido?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 40): La obra 'Las moradas' o 'El castillo interior' de Santa Teresa describe el alma como:",
     "options": [
       {
         "key": "A",
-        "text": "Voltaire"
+        "text": "Un castillo de diamante o claro cristal que contiene siete aposentos de perfección espiritual"
       },
       {
         "key": "B",
-        "text": "Rousseau"
+        "text": "Una fortaleza de piedra rodeada por ejércitos enemigos medievales"
       },
       {
         "key": "C",
-        "text": "Montesquieu"
+        "text": "Una nave solitaria navegando por un océano de tempestades"
       },
       {
         "key": "D",
-        "text": "Diderot"
-      },
-      {
-        "key": "E",
-        "text": "D'Alembert"
-      },
-      {
-        "key": "F",
-        "text": "Buffon"
+        "text": "Un jardín campestre con fuentes de aguas envenenadas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Voltaire escribió Cándido."
+    "explanation": "Santa Teresa concibe el alma como un castillo cristalino en cuyo centro habita Dios en la séptima morada."
   },
   {
     "id": "3.1_q291",
     "number": 291,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de El contrato social?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 41): En la literatura renacentista española, la diferencia fundamental entre la 'ascética' y la 'mística' radica en que:",
     "options": [
       {
         "key": "A",
-        "text": "Rousseau"
+        "text": "La ascética es el esfuerzo humano de purificación moral; la mística es el don divino de unión con Dios"
       },
       {
         "key": "B",
-        "text": "Voltaire"
+        "text": "La ascética busca la riqueza material y la mística la gloria militar"
       },
       {
         "key": "C",
-        "text": "Montesquieu"
+        "text": "La mística rechaza la religión y la ascética sigue el dogma católico"
       },
       {
         "key": "D",
-        "text": "Diderot"
-      },
-      {
-        "key": "E",
-        "text": "D'Alembert"
-      },
-      {
-        "key": "F",
-        "text": "Buffon"
+        "text": "No existe diferencia alguna entre ambas disciplinas poéticas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Rousseau escribió El contrato social."
+    "explanation": "La ascética requiere la vía purgativa (esfuerzo humano moral); la mística experimenta la vía unitiva sobrenatural."
   },
   {
     "id": "3.1_q292",
     "number": 292,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de El espíritu de las leyes?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 42): Fray Luis de León, en su célebre 'Oda a la vida retirada', retoma el tópico clásico horaciano del:",
     "options": [
       {
         "key": "A",
-        "text": "Montesquieu"
+        "text": "Beatus Ille (dichoso aquel que alejado de los negocios mundanos vive en paz)"
       },
       {
         "key": "B",
-        "text": "Voltaire"
+        "text": "Carpe Diem (aprovecha la juventud fugaz)"
       },
       {
         "key": "C",
-        "text": "Rousseau"
+        "text": "Ubi Sunt (¿dónde están los que antes vivieron?)"
       },
       {
         "key": "D",
-        "text": "Diderot"
-      },
-      {
-        "key": "E",
-        "text": "D'Alembert"
-      },
-      {
-        "key": "F",
-        "text": "Buffon"
+        "text": "Locus Amoenus (el bosque encantado mitológico)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Montesquieu escribió El espíritu de las leyes."
+    "explanation": "Fray Luis exalta el retiro pacífico del campo frente al bullicio corruptor de la corte y la ambición mundana."
   },
   {
     "id": "3.1_q293",
     "number": 293,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Quién es el autor de La enciclopedia?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 43): La estrofa métrica renacentista introducida por Garcilaso de la Vega y utilizada por Fray Luis de León y San Juan de la Cruz es:",
     "options": [
       {
         "key": "A",
-        "text": "Diderot y D'Alembert"
+        "text": "La lira (heptasílabos y endecasílabos rimados aBabB)"
       },
       {
         "key": "B",
-        "text": "Voltaire y Rousseau"
+        "text": "La cuaderna vía de versos alejandrinos monorrimos"
       },
       {
         "key": "C",
-        "text": "Montesquieu y Diderot"
+        "text": "El romance octosílabo asonante"
       },
       {
         "key": "D",
-        "text": "D'Alembert y Buffon"
-      },
-      {
-        "key": "E",
-        "text": "Voltaire y Montesquieu"
-      },
-      {
-        "key": "F",
-        "text": "Rousseau y Diderot"
+        "text": "El soneto de alejandrinos consonantes"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diderot y D'Alembert escribieron La enciclopedia."
+    "explanation": "La lira consta de cinco versos (7a, 11B, 7a, 7b, 11B), forma lírica predilecta de la lírica mística y moral."
   },
   {
     "id": "3.1_q294",
     "number": 294,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es la Enciclopedia?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 44): En el 'Cántico espiritual' de San Juan de la Cruz, la Esposa y el Esposo simbolizan alegóricamente a:",
     "options": [
       {
         "key": "A",
-        "text": "Una obra que recopila todo el saber de la época"
+        "text": "El alma humana en anhelo y Cristo (Dios)"
       },
       {
         "key": "B",
-        "text": "Una novela"
+        "text": "La reina Isabel y el rey Fernando de Aragón"
       },
       {
         "key": "C",
-        "text": "Una obra teatral"
+        "text": "La Virgen María y los santos apóstoles"
       },
       {
         "key": "D",
-        "text": "Una lírica"
-      },
-      {
-        "key": "E",
-        "text": "Un ensayo"
-      },
-      {
-        "key": "F",
-        "text": "Una epopeya"
+        "text": "El poeta enamorado y la dama cortesana inaccesible"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La Enciclopedia recopila todo el saber."
+    "explanation": "Basado en el Cantar de los Cantares, el Esposo simboliza a Dios y la Esposa al alma que busca la unión mística."
   },
   {
     "id": "3.1_q295",
     "number": 295,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es el despotismo ilustrado?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 45): En la 'Noche oscura del alma' de San Juan de la Cruz, el viaje nocturno representa:",
     "options": [
       {
         "key": "A",
-        "text": "Una forma de gobierno que combina el poder absoluto con reformas ilustradas"
+        "text": "La purificación silenciosa de los sentidos y del espíritu antes del encuentro con la divinidad"
       },
       {
         "key": "B",
-        "text": "Una forma democrática"
+        "text": "La huida desesperada de la cárcel terrenal de Toledo"
       },
       {
         "key": "C",
-        "text": "Una forma republicana"
+        "text": "Una travesía nocturna en barco hacia el Nuevo Mundo"
       },
       {
         "key": "D",
-        "text": "Una forma anarquista"
-      },
-      {
-        "key": "E",
-        "text": "Una forma socialista"
-      },
-      {
-        "key": "F",
-        "text": "Una forma comunista"
+        "text": "El temor supersticioso a la muerte física"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El despotismo ilustrado combina poder absoluto y reformas."
+    "explanation": "La noche oscura es la alegoría teológica de la purificación interior donde la luz de la fe guía al alma hacia Dios."
   },
   {
     "id": "3.1_q296",
     "number": 296,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es el teatro neoclásico?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 46): Santa Teresa de Jesús destaca en la prosa espiritual y mística española por obras como 'El libro de la vida' y 'Las moradas', las cuales se caracterizan por:",
     "options": [
       {
         "key": "A",
-        "text": "Un teatro que sigue las reglas clásicas de unidad de acción, lugar y tiempo"
+        "text": "Un estilo coloquial, espontáneo y testimonial con metáforas cotidianas"
       },
       {
         "key": "B",
-        "text": "Un teatro que rechaza las reglas clásicas"
+        "text": "Un vocabulario hermético y plagado de latinismos incomprensibles"
       },
       {
         "key": "C",
-        "text": "Un teatro que ignora las reglas clásicas"
+        "text": "Un tono satírico y burlesco contra las jerarquías eclesiásticas"
       },
       {
         "key": "D",
-        "text": "Un teatro medieval"
-      },
-      {
-        "key": "E",
-        "text": "Un teatro barroco"
-      },
-      {
-        "key": "F",
-        "text": "Un teatro romántico"
+        "text": "Tratados dogmáticos estrictamente en lengua latina"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El teatro neoclásico sigue las reglas clásicas."
+    "explanation": "Santa Teresa escribe con llaneza, autenticidad psicológica y metáforas domésticas (el castillo interior con siete moradas)."
   },
   {
     "id": "3.1_q297",
     "number": 297,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Cuáles son las tres unidades del teatro neoclásico?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 47): El concepto renacentista de 'Humanismo' se caracterizó esencialmente por:",
     "options": [
       {
         "key": "A",
-        "text": "Acción, lugar y tiempo"
+        "text": "Colocar al ser humano como centro de reflexión (antropocentrismo) recuperando la cultura grecolatina"
       },
       {
         "key": "B",
-        "text": "Acción, lugar y espacio"
+        "text": "El teocentrismo absoluto medieval que prohibía el estudio de las ciencias naturales"
       },
       {
         "key": "C",
-        "text": "Acción, tiempo y espacio"
+        "text": "La quema masiva de manuscritos filosóficos de la Antigüedad"
       },
       {
         "key": "D",
-        "text": "Lugar, tiempo y espacio"
-      },
-      {
-        "key": "E",
-        "text": "Acción, lugar y personaje"
-      },
-      {
-        "key": "F",
-        "text": "Acción, tiempo y personaje"
+        "text": "La defensa irrestricta de los privilegios feudales campesinos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las tres unidades son acción, lugar y tiempo."
+    "explanation": "El humanismo reivindicó la dignidad del intelecto humano y el estudio de los clásicos grecorromanos."
   },
   {
     "id": "3.1_q298",
     "number": 298,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es la Ilustración?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 48): En el tópico literario del 'Tempus Fugit' expresado en la lírica renacentista, el poeta enfatiza:",
     "options": [
       {
         "key": "A",
-        "text": "Un movimiento cultural del siglo XVIII que exalta la razón"
+        "text": "La velocidad inexorable con la que el tiempo y la vida se desvanecen"
       },
       {
         "key": "B",
-        "text": "Un movimiento del siglo XVII que exalta el sentimiento"
+        "text": "La felicidad inmortal que otorgan los bienes materiales"
       },
       {
         "key": "C",
-        "text": "Un movimiento que exalta la fe"
+        "text": "La eternidad estática de las estaciones del año"
       },
       {
         "key": "D",
-        "text": "Un movimiento que exalta la imaginación"
-      },
-      {
-        "key": "E",
-        "text": "Un movimiento de experimentación"
-      },
-      {
-        "key": "F",
-        "text": "Un movimiento de tecnología"
+        "text": "La victoria del hombre sobre las leyes de la naturaleza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La Ilustración exalta la razón."
+    "explanation": "Tempus fugit advierte la fugacidad de la existencia y la proximidad inevitable de la senectud y la muerte."
   },
   {
     "id": "3.1_q299",
     "number": 299,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Cuál es el lema de la Ilustración?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 49): Fray Luis de León sufrió persecución e inquisición fundamentalmente por:",
     "options": [
       {
         "key": "A",
-        "text": "Sapere aude (Atrévete a saber)"
+        "text": "Traducir el 'Cantar de los Cantares' a lengua vulgar castellana desde el original hebreo"
       },
       {
         "key": "B",
-        "text": "Carpe diem (Aprovecha el día)"
+        "text": "Encabezar una rebelión armada en la Universidad de Salamanca"
       },
       {
         "key": "C",
-        "text": "Memento mori (Recuerda que morirás)"
+        "text": "Renegar de su fe católica para profesar el luteranismo"
       },
       {
         "key": "D",
-        "text": "Cogito ergo sum (Pienso, luego existo)"
-      },
-      {
-        "key": "E",
-        "text": "Veni, vidi, vici (Vine, vi, vencí)"
-      },
-      {
-        "key": "F",
-        "text": "Amor fati (Amor al destino)"
+        "text": "Escribir novelas de caballerías prohibidas por el rey"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El lema es Sapere aude."
+    "explanation": "Fray Luis fue encarcelado casi cinco años por traducir el texto bíblico directamente del hebreo al castellano."
   },
   {
     "id": "3.1_q300",
     "number": 300,
     "subtopicId": "3.1",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: ILUSTRACIÓN Y NEOCLASICISMO (241–300)",
-    "statement": "¿Qué es el Neoclasicismo?",
+    "sectionTitle": "SECCIÓN VI: POESÍA ASCÉTICA, MÍSTICA Y HUMANISMO RENACENTISTA (251–300)",
+    "statement": "En relación con la poesía ascética, mística y humanismo español (ítem 50): La obra 'Las moradas' o 'El castillo interior' de Santa Teresa describe el alma como:",
     "options": [
       {
         "key": "A",
-        "text": "Un movimiento literario que imita los modelos clásicos"
+        "text": "Un castillo de diamante o claro cristal que contiene siete aposentos de perfección espiritual"
       },
       {
         "key": "B",
-        "text": "Un movimiento que rechaza los modelos clásicos"
+        "text": "Una fortaleza de piedra rodeada por ejércitos enemigos medievales"
       },
       {
         "key": "C",
-        "text": "Un movimiento que ignora los modelos clásicos"
+        "text": "Una nave solitaria navegando por un océano de tempestades"
       },
       {
         "key": "D",
-        "text": "Un movimiento que imita modelos medievales"
-      },
-      {
-        "key": "E",
-        "text": "Un movimiento que rechaza lo medieval"
-      },
-      {
-        "key": "F",
-        "text": "Un movimiento que ignora lo medieval"
+        "text": "Un jardín campestre con fuentes de aguas envenenadas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El Neoclasicismo imita los modelos clásicos."
+    "explanation": "Santa Teresa concibe el alma como un castillo cristalino en cuyo centro habita Dios en la séptima morada."
   }
 ]

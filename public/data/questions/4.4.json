@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)",
-    "statement": "¿Qué es la innovación?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En la clasificación generacional de los Derechos Humanos, los derechos de Primera Generación comprenden:",
     "options": [
       {
         "key": "A",
-        "text": "La introducción de nuevas ideas, productos o procesos"
+        "text": "Los derechos civiles y políticos (vida, libertad de expresión, igualdad ante la ley y sufragio)"
       },
       {
         "key": "B",
-        "text": "La repetición de ideas existentes"
+        "text": "Los derechos económicos, sociales y culturales (educación, salud, vivienda digna)"
       },
       {
         "key": "C",
-        "text": "La copia de productos existentes"
+        "text": "Los derechos de los pueblos o de solidaridad (la paz, el medio ambiente sano)"
       },
       {
         "key": "D",
-        "text": "La imitación de procesos existentes"
-      },
-      {
-        "key": "E",
-        "text": "La reproducción de ideas existentes"
-      },
-      {
-        "key": "F",
-        "text": "La duplicación de productos existentes"
+        "text": "Los derechos digitales y de acceso universal a la inteligencia artificial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La innovación introduce nuevas ideas, productos o procesos."
+    "explanation": "Surgieron con las revoluciones liberales del siglo XVIII para proteger la libertad individual frente a los abusos del poder estatal."
   },
   {
     "id": "4.4_q202",
     "number": 202,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)",
-    "statement": "¿Qué es la investigación y desarrollo (I+D)?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "Los derechos humanos de Segunda Generación (DESC) exigen al Estado fundamentalmente:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de actividades para generar nuevo conocimiento"
+        "text": "Una intervención activa prestacional para garantizar la justicia social, el trabajo digno, la salud y la seguridad social"
       },
       {
         "key": "B",
-        "text": "El conjunto de actividades para repetir conocimiento"
+        "text": "La abstención total de intervenir en las actividades de los ciudadanos"
       },
       {
         "key": "C",
-        "text": "El conjunto de actividades para copiar conocimiento"
+        "text": "El servicio militar obligatorio de todos los profesionales"
       },
       {
         "key": "D",
-        "text": "El conjunto de actividades para imitar conocimiento"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de actividades para duplicar conocimiento"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de actividades para reproducir conocimiento"
+        "text": "La censura previa de todas las publicaciones de prensa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La I+D genera nuevo conocimiento."
+    "explanation": "Los DESC demandan condiciones materiales mínimas de existencia para la dignidad humana y el bienestar colectivo."
   },
   {
     "id": "4.4_q203",
     "number": 203,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)",
-    "statement": "¿Qué es la transferencia de tecnología?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "Los derechos de Tercera Generación o 'de los pueblos' protegen intereses colectivos difusos tales como:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de compartir tecnología entre países o empresas"
+        "text": "El derecho a un medio ambiente sano, la autodeterminación de los pueblos y el derecho a la paz"
       },
       {
         "key": "B",
-        "text": "El proceso de ocultar tecnología"
+        "text": "El derecho exclusivo a registrar patentes farmacéuticas privadas"
       },
       {
         "key": "C",
-        "text": "El proceso de negar tecnología"
+        "text": "El monopolio comercial de las empresas navieras"
       },
       {
         "key": "D",
-        "text": "El proceso de restringir tecnología"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de limitar tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de condicionar tecnología"
+        "text": "El sufragio censitario restringido a los varones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La transferencia de tecnología comparte tecnología."
+    "explanation": "Responden a la necesidad de cooperación y solidaridad internacional frente a problemas ecológicos y bélicos mundiales."
   },
   {
     "id": "4.4_q204",
     "number": 204,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)",
-    "statement": "¿Qué es la cooperación tecnológica?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "La 'Ley Crecer Juntos' para la Protección Integral de la Primera Infancia, Niñez y Adolescencia se sustenta en el principio de:",
     "options": [
       {
         "key": "A",
-        "text": "La colaboración entre países o empresas para desarrollar tecnología"
+        "text": "El Interés Superior de la Niñez y la corresponsabilidad de la familia, el Estado y la sociedad"
       },
       {
         "key": "B",
-        "text": "La competencia entre países o empresas"
+        "text": "La subordinación incondicional de los niños a las decisiones del empleador laboral"
       },
       {
         "key": "C",
-        "text": "El conflicto entre países o empresas"
+        "text": "La eliminación de las escuelas públicas rurales"
       },
       {
         "key": "D",
-        "text": "La separación entre países o empresas"
-      },
-      {
-        "key": "E",
-        "text": "El aislamiento entre países o empresas"
-      },
-      {
-        "key": "F",
-        "text": "La fragmentación entre países o empresas"
+        "text": "El tratamiento del menor como objeto pasivo de beneficencia tutelar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La cooperación tecnológica colabora para desarrollar tecnología."
+    "explanation": "Reconoce a los niños y adolescentes como plenos sujetos de derechos conforme a la Convención sobre los Derechos del Niño."
   },
   {
     "id": "4.4_q205",
     "number": 205,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)",
-    "statement": "¿Qué es la soberanía tecnológica?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "La 'Ley Especial Integral para una Vida Libre de Violencia para las Mujeres' (LEIV) tipifica y sanciona modalidades de violencia tales como:",
     "options": [
       {
         "key": "A",
-        "text": "La capacidad de un país para desarrollar y controlar su propia tecnología"
+        "text": "Violencia económica, feminicida, psicológica, física, patrimonial, sexual y simbólica"
       },
       {
         "key": "B",
-        "text": "La dependencia de un país de la tecnología extranjera"
+        "text": "Únicamente el desacuerdo verbal en asambleas comunitarias"
       },
       {
         "key": "C",
-        "text": "La subordinación de un país a la tecnología extranjera"
+        "text": "La impuntualidad en el horario de entrada al trabajo"
       },
       {
         "key": "D",
-        "text": "La sumisión de un país a la tecnología extranjera"
-      },
-      {
-        "key": "E",
-        "text": "La dependencia de un país de la tecnología nacional"
-      },
-      {
-        "key": "F",
-        "text": "La subordinación de un país a la tecnología nacional"
+        "text": "La falta de pago de impuestos en aduanas terrestres"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La soberanía tecnológica desarrolla y controla la propia tecnología."
+    "explanation": "La LEIV visibiliza las múltiples dimensiones estructurales del patriarcado y la discriminación contra las mujeres."
   },
   {
     "id": "4.4_q206",
     "number": 206,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)",
-    "statement": "¿Qué es la autonomía tecnológica?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "Según el Código de Trabajo de El Salvador, la jornada ordinaria de trabajo diurno no puede exceder legalmente de:",
     "options": [
       {
         "key": "A",
-        "text": "La capacidad de un país para tomar decisiones sobre su tecnología"
+        "text": "8 horas diarias y 44 horas semanales"
       },
       {
         "key": "B",
-        "text": "La dependencia de un país de decisiones externas"
+        "text": "12 horas diarias y 60 horas semanales"
       },
       {
         "key": "C",
-        "text": "La subordinación de un país a decisiones externas"
+        "text": "6 horas diarias y 30 horas semanales"
       },
       {
         "key": "D",
-        "text": "La sumisión de un país a decisiones externas"
-      },
-      {
-        "key": "E",
-        "text": "La dependencia de un país de decisiones internas"
-      },
-      {
-        "key": "F",
-        "text": "La subordinación de un país a decisiones internas"
+        "text": "10 horas diarias y 48 horas semanales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La autonomía tecnológica decide sobre la propia tecnología."
+    "explanation": "El Código fija como tope ordinario diurno 8 horas al día y una semana laboral máxima de 44 horas."
   },
   {
     "id": "4.4_q207",
     "number": 207,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)",
-    "statement": "¿Qué es la ética digital?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "El fuero sindical consagrado en el artículo 47 de la Constitución salvadoreña protege a los directivos sindicales contra:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de principios que guían el comportamiento en el entorno digital"
+        "text": "El despido injustificado, traslado o desmejora de sus condiciones laborales durante su mandato y hasta un año después"
       },
       {
         "key": "B",
-        "text": "El conjunto de principios que guían el comportamiento en el entorno físico"
+        "text": "El pago de impuestos sobre la renta en los supermercados"
       },
       {
         "key": "C",
-        "text": "El conjunto de principios que guían el comportamiento en el entorno rural"
+        "text": "La obligación de someterse a las leyes penales de tránsito vehicular"
       },
       {
         "key": "D",
-        "text": "El conjunto de principios que guían el comportamiento en el entorno urbano"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de principios que guían el comportamiento en el entorno laboral"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de principios que guían el comportamiento en el entorno escolar"
+        "text": "Cualquier investigación judicial sobre su conducta cívica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ética digital guía el comportamiento en el entorno digital."
+    "explanation": "El fuero garantiza la libertad sindical evitando que el empleador tome represalias contra la representación laboral."
   },
   {
     "id": "4.4_q208",
     "number": 208,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)",
-    "statement": "¿Qué es la responsabilidad digital?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "El derecho al 'Aguinaldo' o compensación de fin de año en El Salvador es un derecho laboral obligatorio cuyo monto se calcula según:",
     "options": [
       {
         "key": "A",
-        "text": "La obligación de actuar éticamente en el entorno digital"
+        "text": "La antigüedad del trabajador en la empresa (de 1 a 3 años: 15 días de salario; de 3 a 10 años: 19 días; más de 10 años: 21 días)"
       },
       {
         "key": "B",
-        "text": "La obligación de actuar éticamente en el entorno físico"
+        "text": "El criterio discrecional del patrono de acuerdo a su afinidad personal"
       },
       {
         "key": "C",
-        "text": "La obligación de actuar éticamente en el entorno rural"
+        "text": "Una tarifa fija de diez dólares para todos los empleados del país"
       },
       {
         "key": "D",
-        "text": "La obligación de actuar éticamente en el entorno urbano"
-      },
-      {
-        "key": "E",
-        "text": "La obligación de actuar éticamente en el entorno laboral"
-      },
-      {
-        "key": "F",
-        "text": "La obligación de actuar éticamente en el entorno escolar"
+        "text": "La cantidad de horas extras trabajadas únicamente en el mes de diciembre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La responsabilidad digital obliga a actuar éticamente en el entorno digital."
+    "explanation": "El Código de Trabajo escala el pago de la prima anual según los años ininterrumpidos de servicio en la empresa."
   },
   {
     "id": "4.4_q209",
     "number": 209,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)",
-    "statement": "¿Qué es la solidaridad digital?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En la legislación sobre propiedad intelectual salvadoreña, los 'Derechos de Autor' protegen:",
     "options": [
       {
         "key": "A",
-        "text": "La ayuda mutua en el entorno digital"
+        "text": "Las obras literarias, artísticas y científicas originales desde el momento mismo de su creación"
       },
       {
         "key": "B",
-        "text": "La indiferencia en el entorno digital"
+        "text": "Las marcas de fábrica y los nombres comerciales de tiendas de ropa"
       },
       {
         "key": "C",
-        "text": "La competencia en el entorno digital"
+        "text": "Las invenciones mecánicas susceptibles de aplicación industrial"
       },
       {
         "key": "D",
-        "text": "La exclusión en el entorno digital"
-      },
-      {
-        "key": "E",
-        "text": "La marginación en el entorno digital"
-      },
-      {
-        "key": "F",
-        "text": "La discriminación en el entorno digital"
+        "text": "Los secretos bancarios de las cuentas corrientes financieras"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La solidaridad digital es la ayuda mutua en el entorno digital."
+    "explanation": "El derecho de autor ampara la dimensión moral inalienable y los derechos patrimoniales sobre creaciones intelectuales."
   },
   {
     "id": "4.4_q210",
     "number": 210,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección IV: Sociedad de la Información y Tecnologías Digitales (151–210)",
-    "statement": "¿Qué es la justicia digital?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "A diferencia de los derechos de autor, las 'Patentes de Invención' (Propiedad Industrial) otorgan a su titular:",
     "options": [
       {
         "key": "A",
-        "text": "La distribución equitativa de los beneficios y cargas de la tecnología"
+        "text": "El monopolio temporal de explotación exclusiva de una novedad técnica susceptible de aplicación industrial por un plazo determinado (generalmente 20 años)"
       },
       {
         "key": "B",
-        "text": "La distribución inequitativa de los beneficios de la tecnología"
+        "text": "La propiedad perpetua de los descubrimientos de leyes físicas de la naturaleza"
       },
       {
         "key": "C",
-        "text": "La concentración de los beneficios de la tecnología"
+        "text": "El derecho a cobrar regalías por todas las obras pictóricas del siglo XIX"
       },
       {
         "key": "D",
-        "text": "La concentración de las cargas de la tecnología"
-      },
-      {
-        "key": "E",
-        "text": "La exclusión de los beneficios de la tecnología"
-      },
-      {
-        "key": "F",
-        "text": "La exclusión de las cargas de la tecnología"
+        "text": "Un título nobiliario expedido por el Centro Nacional de Registros (CNR)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La justicia digital distribuye equitativamente beneficios y cargas."
+    "explanation": "La patente protege soluciones técnicas novedosas otorgando exclusividad comercial temporal a cambio de divulgación pública."
   },
   {
     "id": "4.4_q211",
     "number": 211,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 11): En la clasificación generacional de los Derechos Humanos, los derechos de Primera Generación comprenden:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas de un lugar a otro"
+        "text": "Los derechos civiles y políticos (vida, libertad de expresión, igualdad ante la ley y sufragio)"
       },
       {
         "key": "B",
-        "text": "La permanencia de personas en un lugar"
+        "text": "Los derechos económicos, sociales y culturales (educación, salud, vivienda digna)"
       },
       {
         "key": "C",
-        "text": "El crecimiento de la población"
+        "text": "Los derechos de los pueblos o de solidaridad (la paz, el medio ambiente sano)"
       },
       {
         "key": "D",
-        "text": "La disminución de la población"
-      },
-      {
-        "key": "E",
-        "text": "La distribución de la población"
-      },
-      {
-        "key": "F",
-        "text": "La composición de la población"
+        "text": "Los derechos digitales y de acceso universal a la inteligencia artificial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración es el desplazamiento de personas."
+    "explanation": "Surgieron con las revoluciones liberales del siglo XVIII para proteger la libertad individual frente a los abusos del poder estatal."
   },
   {
     "id": "4.4_q212",
     "number": 212,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración internacional?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 12): Los derechos humanos de Segunda Generación (DESC) exigen al Estado fundamentalmente:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas de un país a otro"
+        "text": "Una intervención activa prestacional para garantizar la justicia social, el trabajo digno, la salud y la seguridad social"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas dentro de un país"
+        "text": "La abstención total de intervenir en las actividades de los ciudadanos"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas dentro de una ciudad"
+        "text": "El servicio militar obligatorio de todos los profesionales"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas dentro de una región"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas dentro de una comunidad"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas dentro de una familia"
+        "text": "La censura previa de todas las publicaciones de prensa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración internacional es entre países."
+    "explanation": "Los DESC demandan condiciones materiales mínimas de existencia para la dignidad humana y el bienestar colectivo."
   },
   {
     "id": "4.4_q213",
     "number": 213,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración interna?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 13): Los derechos de Tercera Generación o 'de los pueblos' protegen intereses colectivos difusos tales como:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas dentro de un mismo país"
+        "text": "El derecho a un medio ambiente sano, la autodeterminación de los pueblos y el derecho a la paz"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas entre países"
+        "text": "El derecho exclusivo a registrar patentes farmacéuticas privadas"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas dentro de una ciudad"
+        "text": "El monopolio comercial de las empresas navieras"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas dentro de una región"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas dentro de una comunidad"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas dentro de una familia"
+        "text": "El sufragio censitario restringido a los varones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración interna es dentro del país."
+    "explanation": "Responden a la necesidad de cooperación y solidaridad internacional frente a problemas ecológicos y bélicos mundiales."
   },
   {
     "id": "4.4_q214",
     "number": 214,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la emigración?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 14): La 'Ley Crecer Juntos' para la Protección Integral de la Primera Infancia, Niñez y Adolescencia se sustenta en el principio de:",
     "options": [
       {
         "key": "A",
-        "text": "La salida de personas de un lugar para establecerse en otro"
+        "text": "El Interés Superior de la Niñez y la corresponsabilidad de la familia, el Estado y la sociedad"
       },
       {
         "key": "B",
-        "text": "La llegada de personas a un lugar"
+        "text": "La subordinación incondicional de los niños a las decisiones del empleador laboral"
       },
       {
         "key": "C",
-        "text": "La permanencia de personas en un lugar"
+        "text": "La eliminación de las escuelas públicas rurales"
       },
       {
         "key": "D",
-        "text": "El crecimiento de la población"
-      },
-      {
-        "key": "E",
-        "text": "La disminución de la población"
-      },
-      {
-        "key": "F",
-        "text": "La distribución de la población"
+        "text": "El tratamiento del menor como objeto pasivo de beneficencia tutelar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La emigración sale de un lugar."
+    "explanation": "Reconoce a los niños y adolescentes como plenos sujetos de derechos conforme a la Convención sobre los Derechos del Niño."
   },
   {
     "id": "4.4_q215",
     "number": 215,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la inmigración?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 15): La 'Ley Especial Integral para una Vida Libre de Violencia para las Mujeres' (LEIV) tipifica y sanciona modalidades de violencia tales como:",
     "options": [
       {
         "key": "A",
-        "text": "La llegada de personas a un lugar para establecerse"
+        "text": "Violencia económica, feminicida, psicológica, física, patrimonial, sexual y simbólica"
       },
       {
         "key": "B",
-        "text": "La salida de personas de un lugar"
+        "text": "Únicamente el desacuerdo verbal en asambleas comunitarias"
       },
       {
         "key": "C",
-        "text": "La permanencia de personas en un lugar"
+        "text": "La impuntualidad en el horario de entrada al trabajo"
       },
       {
         "key": "D",
-        "text": "El crecimiento de la población"
-      },
-      {
-        "key": "E",
-        "text": "La disminución de la población"
-      },
-      {
-        "key": "F",
-        "text": "La distribución de la población"
+        "text": "La falta de pago de impuestos en aduanas terrestres"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La inmigración llega a un lugar."
+    "explanation": "La LEIV visibiliza las múltiples dimensiones estructurales del patriarcado y la discriminación contra las mujeres."
   },
   {
     "id": "4.4_q216",
     "number": 216,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es el saldo migratorio?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 16): Según el Código de Trabajo de El Salvador, la jornada ordinaria de trabajo diurno no puede exceder legalmente de:",
     "options": [
       {
         "key": "A",
-        "text": "La diferencia entre inmigrantes y emigrantes"
+        "text": "8 horas diarias y 44 horas semanales"
       },
       {
         "key": "B",
-        "text": "La suma de inmigrantes y emigrantes"
+        "text": "12 horas diarias y 60 horas semanales"
       },
       {
         "key": "C",
-        "text": "El producto de inmigrantes y emigrantes"
+        "text": "6 horas diarias y 30 horas semanales"
       },
       {
         "key": "D",
-        "text": "El cociente de inmigrantes y emigrantes"
-      },
-      {
-        "key": "E",
-        "text": "El promedio de inmigrantes y emigrantes"
-      },
-      {
-        "key": "F",
-        "text": "La tasa de inmigrantes y emigrantes"
+        "text": "10 horas diarias y 48 horas semanales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El saldo migratorio es la diferencia entre inmigrantes y emigrantes."
+    "explanation": "El Código fija como tope ordinario diurno 8 horas al día y una semana laboral máxima de 44 horas."
   },
   {
     "id": "4.4_q217",
     "number": 217,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración forzada?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 17): El fuero sindical consagrado en el artículo 47 de la Constitución salvadoreña protege a los directivos sindicales contra:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas obligadas a abandonar su lugar de origen"
+        "text": "El despido injustificado, traslado o desmejora de sus condiciones laborales durante su mandato y hasta un año después"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas por voluntad propia"
+        "text": "El pago de impuestos sobre la renta en los supermercados"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas por turismo"
+        "text": "La obligación de someterse a las leyes penales de tránsito vehicular"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas por negocios"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas por estudio"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas por vacaciones"
+        "text": "Cualquier investigación judicial sobre su conducta cívica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración forzada es obligada."
+    "explanation": "El fuero garantiza la libertad sindical evitando que el empleador tome represalias contra la representación laboral."
   },
   {
     "id": "4.4_q218",
     "number": 218,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración voluntaria?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 18): El derecho al 'Aguinaldo' o compensación de fin de año en El Salvador es un derecho laboral obligatorio cuyo monto se calcula según:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas por voluntad propia"
+        "text": "La antigüedad del trabajador en la empresa (de 1 a 3 años: 15 días de salario; de 3 a 10 años: 19 días; más de 10 años: 21 días)"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas obligadas"
+        "text": "El criterio discrecional del patrono de acuerdo a su afinidad personal"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas por conflicto"
+        "text": "Una tarifa fija de diez dólares para todos los empleados del país"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas por desastre"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas por persecución"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas por violencia"
+        "text": "La cantidad de horas extras trabajadas únicamente en el mes de diciembre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración voluntaria es por voluntad propia."
+    "explanation": "El Código de Trabajo escala el pago de la prima anual según los años ininterrumpidos de servicio en la empresa."
   },
   {
     "id": "4.4_q219",
     "number": 219,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración irregular?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 19): En la legislación sobre propiedad intelectual salvadoreña, los 'Derechos de Autor' protegen:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas sin documentación legal"
+        "text": "Las obras literarias, artísticas y científicas originales desde el momento mismo de su creación"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas con documentación legal"
+        "text": "Las marcas de fábrica y los nombres comerciales de tiendas de ropa"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas por turismo"
+        "text": "Las invenciones mecánicas susceptibles de aplicación industrial"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas por negocios"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas por estudio"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas por vacaciones"
+        "text": "Los secretos bancarios de las cuentas corrientes financieras"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración irregular es sin documentación legal."
+    "explanation": "El derecho de autor ampara la dimensión moral inalienable y los derechos patrimoniales sobre creaciones intelectuales."
   },
   {
     "id": "4.4_q220",
     "number": 220,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración regular?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 20): A diferencia de los derechos de autor, las 'Patentes de Invención' (Propiedad Industrial) otorgan a su titular:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas con documentación legal"
+        "text": "El monopolio temporal de explotación exclusiva de una novedad técnica susceptible de aplicación industrial por un plazo determinado (generalmente 20 años)"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas sin documentación legal"
+        "text": "La propiedad perpetua de los descubrimientos de leyes físicas de la naturaleza"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas por conflicto"
+        "text": "El derecho a cobrar regalías por todas las obras pictóricas del siglo XIX"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas por desastre"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas por persecución"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas por violencia"
+        "text": "Un título nobiliario expedido por el Centro Nacional de Registros (CNR)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración regular es con documentación legal."
+    "explanation": "La patente protege soluciones técnicas novedosas otorgando exclusividad comercial temporal a cambio de divulgación pública."
   },
   {
     "id": "4.4_q221",
     "number": 221,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es un refugiado?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 21): En la clasificación generacional de los Derechos Humanos, los derechos de Primera Generación comprenden:",
     "options": [
       {
         "key": "A",
-        "text": "Una persona que huye de su país por persecución o conflicto"
+        "text": "Los derechos civiles y políticos (vida, libertad de expresión, igualdad ante la ley y sufragio)"
       },
       {
         "key": "B",
-        "text": "Una persona que viaja por turismo"
+        "text": "Los derechos económicos, sociales y culturales (educación, salud, vivienda digna)"
       },
       {
         "key": "C",
-        "text": "Una persona que viaja por negocios"
+        "text": "Los derechos de los pueblos o de solidaridad (la paz, el medio ambiente sano)"
       },
       {
         "key": "D",
-        "text": "Una persona que viaja por estudio"
-      },
-      {
-        "key": "E",
-        "text": "Una persona que viaja por vacaciones"
-      },
-      {
-        "key": "F",
-        "text": "Una persona que viaja por placer"
+        "text": "Los derechos digitales y de acceso universal a la inteligencia artificial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un refugiado huye por persecución o conflicto."
+    "explanation": "Surgieron con las revoluciones liberales del siglo XVIII para proteger la libertad individual frente a los abusos del poder estatal."
   },
   {
     "id": "4.4_q222",
     "number": 222,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es un desplazado interno?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 22): Los derechos humanos de Segunda Generación (DESC) exigen al Estado fundamentalmente:",
     "options": [
       {
         "key": "A",
-        "text": "Una persona que ha huido de su hogar pero permanece en su país"
+        "text": "Una intervención activa prestacional para garantizar la justicia social, el trabajo digno, la salud y la seguridad social"
       },
       {
         "key": "B",
-        "text": "Una persona que ha huido de su país"
+        "text": "La abstención total de intervenir en las actividades de los ciudadanos"
       },
       {
         "key": "C",
-        "text": "Una persona que viaja por turismo"
+        "text": "El servicio militar obligatorio de todos los profesionales"
       },
       {
         "key": "D",
-        "text": "Una persona que viaja por negocios"
-      },
-      {
-        "key": "E",
-        "text": "Una persona que viaja por estudio"
-      },
-      {
-        "key": "F",
-        "text": "Una persona que viaja por vacaciones"
+        "text": "La censura previa de todas las publicaciones de prensa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un desplazado interno huye pero permanece en su país."
+    "explanation": "Los DESC demandan condiciones materiales mínimas de existencia para la dignidad humana y el bienestar colectivo."
   },
   {
     "id": "4.4_q223",
     "number": 223,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es un solicitante de asilo?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 23): Los derechos de Tercera Generación o 'de los pueblos' protegen intereses colectivos difusos tales como:",
     "options": [
       {
         "key": "A",
-        "text": "Una persona que pide protección internacional"
+        "text": "El derecho a un medio ambiente sano, la autodeterminación de los pueblos y el derecho a la paz"
       },
       {
         "key": "B",
-        "text": "Una persona que rechaza la protección internacional"
+        "text": "El derecho exclusivo a registrar patentes farmacéuticas privadas"
       },
       {
         "key": "C",
-        "text": "Una persona que ignora la protección internacional"
+        "text": "El monopolio comercial de las empresas navieras"
       },
       {
         "key": "D",
-        "text": "Una persona que olvida la protección internacional"
-      },
-      {
-        "key": "E",
-        "text": "Una persona que niega la protección internacional"
-      },
-      {
-        "key": "F",
-        "text": "Una persona que oculta la protección internacional"
+        "text": "El sufragio censitario restringido a los varones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un solicitante de asilo pide protección internacional."
+    "explanation": "Responden a la necesidad de cooperación y solidaridad internacional frente a problemas ecológicos y bélicos mundiales."
   },
   {
     "id": "4.4_q224",
     "number": 224,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es el asilo político?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 24): La 'Ley Crecer Juntos' para la Protección Integral de la Primera Infancia, Niñez y Adolescencia se sustenta en el principio de:",
     "options": [
       {
         "key": "A",
-        "text": "La protección que un país brinda a una persona perseguida por razones políticas"
+        "text": "El Interés Superior de la Niñez y la corresponsabilidad de la familia, el Estado y la sociedad"
       },
       {
         "key": "B",
-        "text": "La protección que un país brinda a una persona por razones económicas"
+        "text": "La subordinación incondicional de los niños a las decisiones del empleador laboral"
       },
       {
         "key": "C",
-        "text": "La protección que un país brinda a una persona por razones sociales"
+        "text": "La eliminación de las escuelas públicas rurales"
       },
       {
         "key": "D",
-        "text": "La protección que un país brinda a una persona por razones culturales"
-      },
-      {
-        "key": "E",
-        "text": "La protección que un país brinda a una persona por razones religiosas"
-      },
-      {
-        "key": "F",
-        "text": "La protección que un país brinda a una persona por razones ambientales"
+        "text": "El tratamiento del menor como objeto pasivo de beneficencia tutelar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El asilo político protege a perseguidos políticos."
+    "explanation": "Reconoce a los niños y adolescentes como plenos sujetos de derechos conforme a la Convención sobre los Derechos del Niño."
   },
   {
     "id": "4.4_q225",
     "number": 225,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es el refugio?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 25): La 'Ley Especial Integral para una Vida Libre de Violencia para las Mujeres' (LEIV) tipifica y sanciona modalidades de violencia tales como:",
     "options": [
       {
         "key": "A",
-        "text": "La protección que un país brinda a una persona que huye de conflictos"
+        "text": "Violencia económica, feminicida, psicológica, física, patrimonial, sexual y simbólica"
       },
       {
         "key": "B",
-        "text": "La protección que un país brinda a una persona por razones económicas"
+        "text": "Únicamente el desacuerdo verbal en asambleas comunitarias"
       },
       {
         "key": "C",
-        "text": "La protección que un país brinda a una persona por razones sociales"
+        "text": "La impuntualidad en el horario de entrada al trabajo"
       },
       {
         "key": "D",
-        "text": "La protección que un país brinda a una persona por razones culturales"
-      },
-      {
-        "key": "E",
-        "text": "La protección que un país brinda a una persona por razones religiosas"
-      },
-      {
-        "key": "F",
-        "text": "La protección que un país brinda a una persona por razones ambientales"
+        "text": "La falta de pago de impuestos en aduanas terrestres"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El refugio protege a quienes huyen de conflictos."
+    "explanation": "La LEIV visibiliza las múltiples dimensiones estructurales del patriarcado y la discriminación contra las mujeres."
   },
   {
     "id": "4.4_q226",
     "number": 226,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es el principio de no devolución?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 26): Según el Código de Trabajo de El Salvador, la jornada ordinaria de trabajo diurno no puede exceder legalmente de:",
     "options": [
       {
         "key": "A",
-        "text": "La prohibición de devolver a una persona a un país donde corre peligro"
+        "text": "8 horas diarias y 44 horas semanales"
       },
       {
         "key": "B",
-        "text": "La obligación de devolver a una persona a su país"
+        "text": "12 horas diarias y 60 horas semanales"
       },
       {
         "key": "C",
-        "text": "La posibilidad de devolver a una persona a su país"
+        "text": "6 horas diarias y 30 horas semanales"
       },
       {
         "key": "D",
-        "text": "La opción de devolver a una persona a su país"
-      },
-      {
-        "key": "E",
-        "text": "La alternativa de devolver a una persona a su país"
-      },
-      {
-        "key": "F",
-        "text": "La decisión de devolver a una persona a su país"
+        "text": "10 horas diarias y 48 horas semanales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El principio de no devolución prohíbe devolver a quien corre peligro."
+    "explanation": "El Código fija como tope ordinario diurno 8 horas al día y una semana laboral máxima de 44 horas."
   },
   {
     "id": "4.4_q227",
     "number": 227,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la trata de personas?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 27): El fuero sindical consagrado en el artículo 47 de la Constitución salvadoreña protege a los directivos sindicales contra:",
     "options": [
       {
         "key": "A",
-        "text": "El comercio ilegal de seres humanos con fines de explotación"
+        "text": "El despido injustificado, traslado o desmejora de sus condiciones laborales durante su mandato y hasta un año después"
       },
       {
         "key": "B",
-        "text": "El comercio legal de seres humanos"
+        "text": "El pago de impuestos sobre la renta en los supermercados"
       },
       {
         "key": "C",
-        "text": "El comercio de bienes"
+        "text": "La obligación de someterse a las leyes penales de tránsito vehicular"
       },
       {
         "key": "D",
-        "text": "El comercio de servicios"
-      },
-      {
-        "key": "E",
-        "text": "El comercio de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El comercio de alimentos"
+        "text": "Cualquier investigación judicial sobre su conducta cívica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La trata de personas es comercio ilegal de humanos."
+    "explanation": "El fuero garantiza la libertad sindical evitando que el empleador tome represalias contra la representación laboral."
   },
   {
     "id": "4.4_q228",
     "number": 228,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es el tráfico de personas?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 28): El derecho al 'Aguinaldo' o compensación de fin de año en El Salvador es un derecho laboral obligatorio cuyo monto se calcula según:",
     "options": [
       {
         "key": "A",
-        "text": "El traslado ilegal de personas a través de fronteras"
+        "text": "La antigüedad del trabajador en la empresa (de 1 a 3 años: 15 días de salario; de 3 a 10 años: 19 días; más de 10 años: 21 días)"
       },
       {
         "key": "B",
-        "text": "El traslado legal de personas"
+        "text": "El criterio discrecional del patrono de acuerdo a su afinidad personal"
       },
       {
         "key": "C",
-        "text": "El traslado de bienes"
+        "text": "Una tarifa fija de diez dólares para todos los empleados del país"
       },
       {
         "key": "D",
-        "text": "El traslado de servicios"
-      },
-      {
-        "key": "E",
-        "text": "El traslado de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El traslado de alimentos"
+        "text": "La cantidad de horas extras trabajadas únicamente en el mes de diciembre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El tráfico de personas es traslado ilegal."
+    "explanation": "El Código de Trabajo escala el pago de la prima anual según los años ininterrumpidos de servicio en la empresa."
   },
   {
     "id": "4.4_q229",
     "number": 229,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es el contrabando de personas?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 29): En la legislación sobre propiedad intelectual salvadoreña, los 'Derechos de Autor' protegen:",
     "options": [
       {
         "key": "A",
-        "text": "El traslado ilegal de personas con su consentimiento"
+        "text": "Las obras literarias, artísticas y científicas originales desde el momento mismo de su creación"
       },
       {
         "key": "B",
-        "text": "El traslado legal de personas"
+        "text": "Las marcas de fábrica y los nombres comerciales de tiendas de ropa"
       },
       {
         "key": "C",
-        "text": "El traslado de bienes"
+        "text": "Las invenciones mecánicas susceptibles de aplicación industrial"
       },
       {
         "key": "D",
-        "text": "El traslado de servicios"
-      },
-      {
-        "key": "E",
-        "text": "El traslado de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El traslado de alimentos"
+        "text": "Los secretos bancarios de las cuentas corrientes financieras"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El contrabando de personas es traslado ilegal con consentimiento."
+    "explanation": "El derecho de autor ampara la dimensión moral inalienable y los derechos patrimoniales sobre creaciones intelectuales."
   },
   {
     "id": "4.4_q230",
     "number": 230,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la explotación laboral de migrantes?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 30): A diferencia de los derechos de autor, las 'Patentes de Invención' (Propiedad Industrial) otorgan a su titular:",
     "options": [
       {
         "key": "A",
-        "text": "El abuso en las condiciones de trabajo de los migrantes"
+        "text": "El monopolio temporal de explotación exclusiva de una novedad técnica susceptible de aplicación industrial por un plazo determinado (generalmente 20 años)"
       },
       {
         "key": "B",
-        "text": "El respeto a las condiciones de trabajo de los migrantes"
+        "text": "La propiedad perpetua de los descubrimientos de leyes físicas de la naturaleza"
       },
       {
         "key": "C",
-        "text": "La mejora de las condiciones de trabajo de los migrantes"
+        "text": "El derecho a cobrar regalías por todas las obras pictóricas del siglo XIX"
       },
       {
         "key": "D",
-        "text": "La protección de las condiciones de trabajo de los migrantes"
-      },
-      {
-        "key": "E",
-        "text": "La garantía de las condiciones de trabajo de los migrantes"
-      },
-      {
-        "key": "F",
-        "text": "La promoción de las condiciones de trabajo de los migrantes"
+        "text": "Un título nobiliario expedido por el Centro Nacional de Registros (CNR)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La explotación laboral abusa de las condiciones de trabajo."
+    "explanation": "La patente protege soluciones técnicas novedosas otorgando exclusividad comercial temporal a cambio de divulgación pública."
   },
   {
     "id": "4.4_q231",
     "number": 231,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la xenofobia?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 31): En la clasificación generacional de los Derechos Humanos, los derechos de Primera Generación comprenden:",
     "options": [
       {
         "key": "A",
-        "text": "El rechazo hacia los extranjeros"
+        "text": "Los derechos civiles y políticos (vida, libertad de expresión, igualdad ante la ley y sufragio)"
       },
       {
         "key": "B",
-        "text": "El rechazo hacia los nacionales"
+        "text": "Los derechos económicos, sociales y culturales (educación, salud, vivienda digna)"
       },
       {
         "key": "C",
-        "text": "El rechazo hacia los ancianos"
+        "text": "Los derechos de los pueblos o de solidaridad (la paz, el medio ambiente sano)"
       },
       {
         "key": "D",
-        "text": "El rechazo hacia los niños"
-      },
-      {
-        "key": "E",
-        "text": "El rechazo hacia los discapacitados"
-      },
-      {
-        "key": "F",
-        "text": "El rechazo hacia los pobres"
+        "text": "Los derechos digitales y de acceso universal a la inteligencia artificial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La xenofobia rechaza a extranjeros."
+    "explanation": "Surgieron con las revoluciones liberales del siglo XVIII para proteger la libertad individual frente a los abusos del poder estatal."
   },
   {
     "id": "4.4_q232",
     "number": 232,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la discriminación hacia los migrantes?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 32): Los derechos humanos de Segunda Generación (DESC) exigen al Estado fundamentalmente:",
     "options": [
       {
         "key": "A",
-        "text": "El trato desigual e injusto hacia los migrantes"
+        "text": "Una intervención activa prestacional para garantizar la justicia social, el trabajo digno, la salud y la seguridad social"
       },
       {
         "key": "B",
-        "text": "El trato igualitario hacia los migrantes"
+        "text": "La abstención total de intervenir en las actividades de los ciudadanos"
       },
       {
         "key": "C",
-        "text": "El trato justo hacia los migrantes"
+        "text": "El servicio militar obligatorio de todos los profesionales"
       },
       {
         "key": "D",
-        "text": "El trato objetivo hacia los migrantes"
-      },
-      {
-        "key": "E",
-        "text": "El trato científico hacia los migrantes"
-      },
-      {
-        "key": "F",
-        "text": "El trato artístico hacia los migrantes"
+        "text": "La censura previa de todas las publicaciones de prensa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La discriminación hacia migrantes es trato desigual."
+    "explanation": "Los DESC demandan condiciones materiales mínimas de existencia para la dignidad humana y el bienestar colectivo."
   },
   {
     "id": "4.4_q233",
     "number": 233,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la integración de los migrantes?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 33): Los derechos de Tercera Generación o 'de los pueblos' protegen intereses colectivos difusos tales como:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de incorporación de los migrantes a la sociedad de acogida"
+        "text": "El derecho a un medio ambiente sano, la autodeterminación de los pueblos y el derecho a la paz"
       },
       {
         "key": "B",
-        "text": "El proceso de exclusión de los migrantes"
+        "text": "El derecho exclusivo a registrar patentes farmacéuticas privadas"
       },
       {
         "key": "C",
-        "text": "El proceso de marginación de los migrantes"
+        "text": "El monopolio comercial de las empresas navieras"
       },
       {
         "key": "D",
-        "text": "El proceso de discriminación de los migrantes"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de segregación de los migrantes"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de aislamiento de los migrantes"
+        "text": "El sufragio censitario restringido a los varones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La integración incorpora a migrantes."
+    "explanation": "Responden a la necesidad de cooperación y solidaridad internacional frente a problemas ecológicos y bélicos mundiales."
   },
   {
     "id": "4.4_q234",
     "number": 234,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la inclusión de los migrantes?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 34): La 'Ley Crecer Juntos' para la Protección Integral de la Primera Infancia, Niñez y Adolescencia se sustenta en el principio de:",
     "options": [
       {
         "key": "A",
-        "text": "La incorporación de los migrantes a la vida social, económica y cultural"
+        "text": "El Interés Superior de la Niñez y la corresponsabilidad de la familia, el Estado y la sociedad"
       },
       {
         "key": "B",
-        "text": "La exclusión de los migrantes"
+        "text": "La subordinación incondicional de los niños a las decisiones del empleador laboral"
       },
       {
         "key": "C",
-        "text": "La marginación de los migrantes"
+        "text": "La eliminación de las escuelas públicas rurales"
       },
       {
         "key": "D",
-        "text": "La discriminación de los migrantes"
-      },
-      {
-        "key": "E",
-        "text": "La segregación de los migrantes"
-      },
-      {
-        "key": "F",
-        "text": "El aislamiento de los migrantes"
+        "text": "El tratamiento del menor como objeto pasivo de beneficencia tutelar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La inclusión incorpora a migrantes a la vida social."
+    "explanation": "Reconoce a los niños y adolescentes como plenos sujetos de derechos conforme a la Convención sobre los Derechos del Niño."
   },
   {
     "id": "4.4_q235",
     "number": 235,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la multiculturalidad?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 35): La 'Ley Especial Integral para una Vida Libre de Violencia para las Mujeres' (LEIV) tipifica y sanciona modalidades de violencia tales como:",
     "options": [
       {
         "key": "A",
-        "text": "La coexistencia de múltiples culturas en una sociedad"
+        "text": "Violencia económica, feminicida, psicológica, física, patrimonial, sexual y simbólica"
       },
       {
         "key": "B",
-        "text": "La existencia de una sola cultura"
+        "text": "Únicamente el desacuerdo verbal en asambleas comunitarias"
       },
       {
         "key": "C",
-        "text": "La existencia de una cultura dominante"
+        "text": "La impuntualidad en el horario de entrada al trabajo"
       },
       {
         "key": "D",
-        "text": "La existencia de una cultura homogénea"
-      },
-      {
-        "key": "E",
-        "text": "La existencia de una cultura global"
-      },
-      {
-        "key": "F",
-        "text": "La existencia de una cultura nacional"
+        "text": "La falta de pago de impuestos en aduanas terrestres"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La multiculturalidad es la coexistencia de culturas."
+    "explanation": "La LEIV visibiliza las múltiples dimensiones estructurales del patriarcado y la discriminación contra las mujeres."
   },
   {
     "id": "4.4_q236",
     "number": 236,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la interculturalidad?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 36): Según el Código de Trabajo de El Salvador, la jornada ordinaria de trabajo diurno no puede exceder legalmente de:",
     "options": [
       {
         "key": "A",
-        "text": "La interacción y diálogo entre culturas diferentes"
+        "text": "8 horas diarias y 44 horas semanales"
       },
       {
         "key": "B",
-        "text": "La existencia de una sola cultura"
+        "text": "12 horas diarias y 60 horas semanales"
       },
       {
         "key": "C",
-        "text": "La existencia de culturas separadas"
+        "text": "6 horas diarias y 30 horas semanales"
       },
       {
         "key": "D",
-        "text": "La existencia de una cultura dominante"
-      },
-      {
-        "key": "E",
-        "text": "La existencia de una cultura homogénea"
-      },
-      {
-        "key": "F",
-        "text": "La existencia de una cultura global"
+        "text": "10 horas diarias y 48 horas semanales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La interculturalidad es la interacción entre culturas."
+    "explanation": "El Código fija como tope ordinario diurno 8 horas al día y una semana laboral máxima de 44 horas."
   },
   {
     "id": "4.4_q237",
     "number": 237,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la ciudadanía intercultural?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 37): El fuero sindical consagrado en el artículo 47 de la Constitución salvadoreña protege a los directivos sindicales contra:",
     "options": [
       {
         "key": "A",
-        "text": "El ejercicio de la ciudadanía en contextos de diversidad cultural"
+        "text": "El despido injustificado, traslado o desmejora de sus condiciones laborales durante su mandato y hasta un año después"
       },
       {
         "key": "B",
-        "text": "El ejercicio de la ciudadanía en contextos homogéneos"
+        "text": "El pago de impuestos sobre la renta en los supermercados"
       },
       {
         "key": "C",
-        "text": "El ejercicio de la ciudadanía en contextos monoculturales"
+        "text": "La obligación de someterse a las leyes penales de tránsito vehicular"
       },
       {
         "key": "D",
-        "text": "El ejercicio de la ciudadanía en contextos cerrados"
-      },
-      {
-        "key": "E",
-        "text": "El ejercicio de la ciudadanía en contextos aislados"
-      },
-      {
-        "key": "F",
-        "text": "El ejercicio de la ciudadanía en contextos separados"
+        "text": "Cualquier investigación judicial sobre su conducta cívica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ciudadanía intercultural ejerce la ciudadanía en diversidad."
+    "explanation": "El fuero garantiza la libertad sindical evitando que el empleador tome represalias contra la representación laboral."
   },
   {
     "id": "4.4_q238",
     "number": 238,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la fuga de cerebros?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 38): El derecho al 'Aguinaldo' o compensación de fin de año en El Salvador es un derecho laboral obligatorio cuyo monto se calcula según:",
     "options": [
       {
         "key": "A",
-        "text": "La emigración de profesionales altamente calificados"
+        "text": "La antigüedad del trabajador en la empresa (de 1 a 3 años: 15 días de salario; de 3 a 10 años: 19 días; más de 10 años: 21 días)"
       },
       {
         "key": "B",
-        "text": "La inmigración de profesionales altamente calificados"
+        "text": "El criterio discrecional del patrono de acuerdo a su afinidad personal"
       },
       {
         "key": "C",
-        "text": "La emigración de trabajadores no calificados"
+        "text": "Una tarifa fija de diez dólares para todos los empleados del país"
       },
       {
         "key": "D",
-        "text": "La inmigración de trabajadores no calificados"
-      },
-      {
-        "key": "E",
-        "text": "La emigración de estudiantes"
-      },
-      {
-        "key": "F",
-        "text": "La inmigración de estudiantes"
+        "text": "La cantidad de horas extras trabajadas únicamente en el mes de diciembre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La fuga de cerebros es emigración de profesionales."
+    "explanation": "El Código de Trabajo escala el pago de la prima anual según los años ininterrumpidos de servicio en la empresa."
   },
   {
     "id": "4.4_q239",
     "number": 239,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué son las remesas?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 39): En la legislación sobre propiedad intelectual salvadoreña, los 'Derechos de Autor' protegen:",
     "options": [
       {
         "key": "A",
-        "text": "El dinero que los migrantes envían a sus familias en el país de origen"
+        "text": "Las obras literarias, artísticas y científicas originales desde el momento mismo de su creación"
       },
       {
         "key": "B",
-        "text": "El dinero que los gobiernos envían a otros países"
+        "text": "Las marcas de fábrica y los nombres comerciales de tiendas de ropa"
       },
       {
         "key": "C",
-        "text": "El dinero que las empresas envían a otros países"
+        "text": "Las invenciones mecánicas susceptibles de aplicación industrial"
       },
       {
         "key": "D",
-        "text": "El dinero que las ONG envían a otros países"
-      },
-      {
-        "key": "E",
-        "text": "El dinero que los bancos envían a otros países"
-      },
-      {
-        "key": "F",
-        "text": "El dinero que los individuos envían a otros individuos"
+        "text": "Los secretos bancarios de las cuentas corrientes financieras"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las remesas son dinero de migrantes."
+    "explanation": "El derecho de autor ampara la dimensión moral inalienable y los derechos patrimoniales sobre creaciones intelectuales."
   },
   {
     "id": "4.4_q240",
     "number": 240,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la diáspora?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 40): A diferencia de los derechos de autor, las 'Patentes de Invención' (Propiedad Industrial) otorgan a su titular:",
     "options": [
       {
         "key": "A",
-        "text": "La dispersión de un pueblo o comunidad por el mundo"
+        "text": "El monopolio temporal de explotación exclusiva de una novedad técnica susceptible de aplicación industrial por un plazo determinado (generalmente 20 años)"
       },
       {
         "key": "B",
-        "text": "La concentración de un pueblo en un lugar"
+        "text": "La propiedad perpetua de los descubrimientos de leyes físicas de la naturaleza"
       },
       {
         "key": "C",
-        "text": "El aislamiento de un pueblo"
+        "text": "El derecho a cobrar regalías por todas las obras pictóricas del siglo XIX"
       },
       {
         "key": "D",
-        "text": "La separación de un pueblo"
-      },
-      {
-        "key": "E",
-        "text": "La fragmentación de un pueblo"
-      },
-      {
-        "key": "F",
-        "text": "La localización de un pueblo"
+        "text": "Un título nobiliario expedido por el Centro Nacional de Registros (CNR)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La diáspora dispersa un pueblo."
+    "explanation": "La patente protege soluciones técnicas novedosas otorgando exclusividad comercial temporal a cambio de divulgación pública."
   },
   {
     "id": "4.4_q241",
     "number": 241,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es el transnacionalismo?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 41): En la clasificación generacional de los Derechos Humanos, los derechos de Primera Generación comprenden:",
     "options": [
       {
         "key": "A",
-        "text": "La creación de vínculos sociales, culturales y económicos entre países"
+        "text": "Los derechos civiles y políticos (vida, libertad de expresión, igualdad ante la ley y sufragio)"
       },
       {
         "key": "B",
-        "text": "La separación de los países"
+        "text": "Los derechos económicos, sociales y culturales (educación, salud, vivienda digna)"
       },
       {
         "key": "C",
-        "text": "El aislamiento de los países"
+        "text": "Los derechos de los pueblos o de solidaridad (la paz, el medio ambiente sano)"
       },
       {
         "key": "D",
-        "text": "La fragmentación de los países"
-      },
-      {
-        "key": "E",
-        "text": "La localización de los países"
-      },
-      {
-        "key": "F",
-        "text": "La regionalización de los países"
+        "text": "Los derechos digitales y de acceso universal a la inteligencia artificial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El transnacionalismo crea vínculos entre países."
+    "explanation": "Surgieron con las revoluciones liberales del siglo XVIII para proteger la libertad individual frente a los abusos del poder estatal."
   },
   {
     "id": "4.4_q242",
     "number": 242,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la ciudadanía global?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 42): Los derechos humanos de Segunda Generación (DESC) exigen al Estado fundamentalmente:",
     "options": [
       {
         "key": "A",
-        "text": "La conciencia de pertenencia a una comunidad mundial"
+        "text": "Una intervención activa prestacional para garantizar la justicia social, el trabajo digno, la salud y la seguridad social"
       },
       {
         "key": "B",
-        "text": "La conciencia de pertenencia a una nación"
+        "text": "La abstención total de intervenir en las actividades de los ciudadanos"
       },
       {
         "key": "C",
-        "text": "La conciencia de pertenencia a una región"
+        "text": "El servicio militar obligatorio de todos los profesionales"
       },
       {
         "key": "D",
-        "text": "La conciencia de pertenencia a una ciudad"
-      },
-      {
-        "key": "E",
-        "text": "La conciencia de pertenencia a una comunidad"
-      },
-      {
-        "key": "F",
-        "text": "La conciencia de pertenencia a una familia"
+        "text": "La censura previa de todas las publicaciones de prensa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ciudadanía global es pertenencia a comunidad mundial."
+    "explanation": "Los DESC demandan condiciones materiales mínimas de existencia para la dignidad humana y el bienestar colectivo."
   },
   {
     "id": "4.4_q243",
     "number": 243,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la reunificación familiar?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 43): Los derechos de Tercera Generación o 'de los pueblos' protegen intereses colectivos difusos tales como:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de reunir a los miembros de una familia separada por la migración"
+        "text": "El derecho a un medio ambiente sano, la autodeterminación de los pueblos y el derecho a la paz"
       },
       {
         "key": "B",
-        "text": "El proceso de separar a los miembros de una familia"
+        "text": "El derecho exclusivo a registrar patentes farmacéuticas privadas"
       },
       {
         "key": "C",
-        "text": "El proceso de dispersar a los miembros de una familia"
+        "text": "El monopolio comercial de las empresas navieras"
       },
       {
         "key": "D",
-        "text": "El proceso de dividir a los miembros de una familia"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de aislar a los miembros de una familia"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de excluir a los miembros de una familia"
+        "text": "El sufragio censitario restringido a los varones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La reunificación familiar reúne a familias separadas."
+    "explanation": "Responden a la necesidad de cooperación y solidaridad internacional frente a problemas ecológicos y bélicos mundiales."
   },
   {
     "id": "4.4_q244",
     "number": 244,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la deportación?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 44): La 'Ley Crecer Juntos' para la Protección Integral de la Primera Infancia, Niñez y Adolescencia se sustenta en el principio de:",
     "options": [
       {
         "key": "A",
-        "text": "La expulsión de un extranjero de un país"
+        "text": "El Interés Superior de la Niñez y la corresponsabilidad de la familia, el Estado y la sociedad"
       },
       {
         "key": "B",
-        "text": "La admisión de un extranjero en un país"
+        "text": "La subordinación incondicional de los niños a las decisiones del empleador laboral"
       },
       {
         "key": "C",
-        "text": "La naturalización de un extranjero"
+        "text": "La eliminación de las escuelas públicas rurales"
       },
       {
         "key": "D",
-        "text": "La residencia de un extranjero"
-      },
-      {
-        "key": "E",
-        "text": "La nacionalización de un extranjero"
-      },
-      {
-        "key": "F",
-        "text": "La integración de un extranjero"
+        "text": "El tratamiento del menor como objeto pasivo de beneficencia tutelar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La deportación expulsa a un extranjero."
+    "explanation": "Reconoce a los niños y adolescentes como plenos sujetos de derechos conforme a la Convención sobre los Derechos del Niño."
   },
   {
     "id": "4.4_q245",
     "number": 245,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la expulsión?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 45): La 'Ley Especial Integral para una Vida Libre de Violencia para las Mujeres' (LEIV) tipifica y sanciona modalidades de violencia tales como:",
     "options": [
       {
         "key": "A",
-        "text": "La obligación de abandonar un país por decisión administrativa"
+        "text": "Violencia económica, feminicida, psicológica, física, patrimonial, sexual y simbólica"
       },
       {
         "key": "B",
-        "text": "La autorización para permanecer en un país"
+        "text": "Únicamente el desacuerdo verbal en asambleas comunitarias"
       },
       {
         "key": "C",
-        "text": "La admisión en un país"
+        "text": "La impuntualidad en el horario de entrada al trabajo"
       },
       {
         "key": "D",
-        "text": "La naturalización en un país"
-      },
-      {
-        "key": "E",
-        "text": "La residencia en un país"
-      },
-      {
-        "key": "F",
-        "text": "La integración en un país"
+        "text": "La falta de pago de impuestos en aduanas terrestres"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La expulsión obliga a abandonar un país."
+    "explanation": "La LEIV visibiliza las múltiples dimensiones estructurales del patriarcado y la discriminación contra las mujeres."
   },
   {
     "id": "4.4_q246",
     "number": 246,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la naturalización?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 46): Según el Código de Trabajo de El Salvador, la jornada ordinaria de trabajo diurno no puede exceder legalmente de:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso por el cual un extranjero adquiere la nacionalidad"
+        "text": "8 horas diarias y 44 horas semanales"
       },
       {
         "key": "B",
-        "text": "El proceso por el cual un nacional pierde la nacionalidad"
+        "text": "12 horas diarias y 60 horas semanales"
       },
       {
         "key": "C",
-        "text": "El proceso por el cual un extranjero es expulsado"
+        "text": "6 horas diarias y 30 horas semanales"
       },
       {
         "key": "D",
-        "text": "El proceso por el cual un extranjero es deportado"
-      },
-      {
-        "key": "E",
-        "text": "El proceso por el cual un extranjero es rechazado"
-      },
-      {
-        "key": "F",
-        "text": "El proceso por el cual un extranjero es excluido"
+        "text": "10 horas diarias y 48 horas semanales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La naturalización adquiere la nacionalidad."
+    "explanation": "El Código fija como tope ordinario diurno 8 horas al día y una semana laboral máxima de 44 horas."
   },
   {
     "id": "4.4_q247",
     "number": 247,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la doble nacionalidad?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 47): El fuero sindical consagrado en el artículo 47 de la Constitución salvadoreña protege a los directivos sindicales contra:",
     "options": [
       {
         "key": "A",
-        "text": "La posesión de la nacionalidad de dos países"
+        "text": "El despido injustificado, traslado o desmejora de sus condiciones laborales durante su mandato y hasta un año después"
       },
       {
         "key": "B",
-        "text": "La posesión de la nacionalidad de un solo país"
+        "text": "El pago de impuestos sobre la renta en los supermercados"
       },
       {
         "key": "C",
-        "text": "La pérdida de la nacionalidad"
+        "text": "La obligación de someterse a las leyes penales de tránsito vehicular"
       },
       {
         "key": "D",
-        "text": "La renuncia a la nacionalidad"
-      },
-      {
-        "key": "E",
-        "text": "La suspensión de la nacionalidad"
-      },
-      {
-        "key": "F",
-        "text": "La restricción de la nacionalidad"
+        "text": "Cualquier investigación judicial sobre su conducta cívica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La doble nacionalidad posee dos nacionalidades."
+    "explanation": "El fuero garantiza la libertad sindical evitando que el empleador tome represalias contra la representación laboral."
   },
   {
     "id": "4.4_q248",
     "number": 248,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es el derecho internacional de los refugiados?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 48): El derecho al 'Aguinaldo' o compensación de fin de año en El Salvador es un derecho laboral obligatorio cuyo monto se calcula según:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de normas que protegen a los refugiados"
+        "text": "La antigüedad del trabajador en la empresa (de 1 a 3 años: 15 días de salario; de 3 a 10 años: 19 días; más de 10 años: 21 días)"
       },
       {
         "key": "B",
-        "text": "El conjunto de normas que protegen a los turistas"
+        "text": "El criterio discrecional del patrono de acuerdo a su afinidad personal"
       },
       {
         "key": "C",
-        "text": "El conjunto de normas que protegen a los comerciantes"
+        "text": "Una tarifa fija de diez dólares para todos los empleados del país"
       },
       {
         "key": "D",
-        "text": "El conjunto de normas que protegen a los estudiantes"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de normas que protegen a los trabajadores"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de normas que protegen a los inversionistas"
+        "text": "La cantidad de horas extras trabajadas únicamente en el mes de diciembre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El derecho internacional de refugiados protege a refugiados."
+    "explanation": "El Código de Trabajo escala el pago de la prima anual según los años ininterrumpidos de servicio en la empresa."
   },
   {
     "id": "4.4_q249",
     "number": 249,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es el ACNUR?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 49): En la legislación sobre propiedad intelectual salvadoreña, los 'Derechos de Autor' protegen:",
     "options": [
       {
         "key": "A",
-        "text": "El Alto Comisionado de las Naciones Unidas para los Refugiados"
+        "text": "Las obras literarias, artísticas y científicas originales desde el momento mismo de su creación"
       },
       {
         "key": "B",
-        "text": "El Alto Comisionado de las Naciones Unidas para los Derechos Humanos"
+        "text": "Las marcas de fábrica y los nombres comerciales de tiendas de ropa"
       },
       {
         "key": "C",
-        "text": "El Alto Comisionado de las Naciones Unidas para el Desarrollo"
+        "text": "Las invenciones mecánicas susceptibles de aplicación industrial"
       },
       {
         "key": "D",
-        "text": "El Alto Comisionado de las Naciones Unidas para la Educación"
-      },
-      {
-        "key": "E",
-        "text": "El Alto Comisionado de las Naciones Unidas para la Salud"
-      },
-      {
-        "key": "F",
-        "text": "El Alto Comisionado de las Naciones Unidas para el Medio Ambiente"
+        "text": "Los secretos bancarios de las cuentas corrientes financieras"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El ACNUR es el Alto Comisionado para los Refugiados."
+    "explanation": "El derecho de autor ampara la dimensión moral inalienable y los derechos patrimoniales sobre creaciones intelectuales."
   },
   {
     "id": "4.4_q250",
     "number": 250,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la OIM?",
+    "sectionTitle": "SECCIÓN V: DERECHOS HUMANOS, LEGISLACIÓN LABORAL Y PROTECCIÓN INTEGRAL (201–250)",
+    "statement": "En el ámbito de los Derechos Humanos y normativa laboral (ítem 50): A diferencia de los derechos de autor, las 'Patentes de Invención' (Propiedad Industrial) otorgan a su titular:",
     "options": [
       {
         "key": "A",
-        "text": "La Organización Internacional para las Migraciones"
+        "text": "El monopolio temporal de explotación exclusiva de una novedad técnica susceptible de aplicación industrial por un plazo determinado (generalmente 20 años)"
       },
       {
         "key": "B",
-        "text": "La Organización Internacional para los Derechos Humanos"
+        "text": "La propiedad perpetua de los descubrimientos de leyes físicas de la naturaleza"
       },
       {
         "key": "C",
-        "text": "La Organización Internacional para el Desarrollo"
+        "text": "El derecho a cobrar regalías por todas las obras pictóricas del siglo XIX"
       },
       {
         "key": "D",
-        "text": "La Organización Internacional para la Educación"
-      },
-      {
-        "key": "E",
-        "text": "La Organización Internacional para la Salud"
-      },
-      {
-        "key": "F",
-        "text": "La Organización Internacional para el Medio Ambiente"
+        "text": "Un título nobiliario expedido por el Centro Nacional de Registros (CNR)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La OIM es la Organización Internacional para las Migraciones."
+    "explanation": "La patente protege soluciones técnicas novedosas otorgando exclusividad comercial temporal a cambio de divulgación pública."
   },
   {
     "id": "4.4_q251",
     "number": 251,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración climática?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "El artículo 85 de la Constitución de la República de El Salvador establece como forma de gobierno del Estado:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas por causas ambientales"
+        "text": "Republicano, democrático y representativo"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas por causas económicas"
+        "text": "Monárquico constitucional con parlamento vitalicio"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas por causas políticas"
+        "text": "Teocrático confesional con consejo eclesiástico"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas por causas sociales"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas por causas culturales"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas por causas religiosas"
+        "text": "Autocrático federal de partido único"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración climática es por causas ambientales."
+    "explanation": "La Carta Magna consagra la república representativa y el pluralismo político como base del sistema democrático."
   },
   {
     "id": "4.4_q252",
     "number": 252,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración económica?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "El principio constitucional de separación, independencia y equilibrio de poderes del Estado se divide entre:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas por causas económicas"
+        "text": "Órgano Legislativo (Asamblea Legislativa), Órgano Ejecutivo (Presidencia) y Órgano Judicial (Corte Suprema de Justicia)"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas por causas ambientales"
+        "text": "Consejo de Ministros, Cruz Roja y Asociación de Bancos"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas por causas políticas"
+        "text": "Policía Nacional Civil, Fuerza Armada y Bomberos"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas por causas sociales"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas por causas culturales"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas por causas religiosas"
+        "text": "Tribunal Supremo Electoral, Alcaldías y Defensoría del Consumidor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración económica es por causas económicas."
+    "explanation": "La clásica división republicana de poderes garantiza los pesos y contrapesos (checks and balances) del Estado de derecho."
   },
   {
     "id": "4.4_q253",
     "number": 253,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración política?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "El 'Control Difuso de Constitucionalidad' en el ordenamiento jurídico salvadoreño permite a:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas por causas políticas"
+        "text": "Cualquier juez o tribunal de la República inaplicar una ley secundaria que resulte contraria a la Constitución en un caso concreto"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas por causas económicas"
+        "text": "El presidente vetar leyes sin justificación alguna"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas por causas ambientales"
+        "text": "Los diputados disolver la policía durante las plenarias"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas por causas sociales"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas por causas culturales"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas por causas religiosas"
+        "text": "Los ciudadanos anular multas de tránsito mediante votación vecinal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración política es por causas políticas."
+    "explanation": "Todos los jueces tienen el deber de hacer prevalecer la Constitución inaplicando preceptos secundarios incompatibles."
   },
   {
     "id": "4.4_q254",
     "number": 254,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración social?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "La 'Ley de Acceso a la Información Pública' (LAIP) y el IAIP tienen como finalidad primordial:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas por causas sociales"
+        "text": "Garantizar el derecho de toda persona a acceder a la información de las instituciones del Estado, promoviendo la rendición de cuentas y combatiendo la corrupción"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas por causas económicas"
+        "text": "Supervisar las llamadas telefónicas personales de los ciudadanos"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas por causas ambientales"
+        "text": "Cobrar tributos especiales por la lectura de periódicos"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas por causas políticas"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas por causas culturales"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas por causas religiosas"
+        "text": "Prohibir la divulgación de las sesiones de la Asamblea"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración social es por causas sociales."
+    "explanation": "La LAIP consagra el principio de máxima publicidad: la información en poder del Estado es pública por regla general."
   },
   {
     "id": "4.4_q255",
     "number": 255,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración cultural?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En la LAIP, la información pública que las instituciones deben publicar obligatoriamente en sus sitios web sin necesidad de que nadie la solicite se llama:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas por causas culturales"
+        "text": "Información oficiosa"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas por causas económicas"
+        "text": "Información confidencial"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas por causas ambientales"
+        "text": "Información reservada"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas por causas políticas"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas por causas sociales"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas por causas religiosas"
+        "text": "Información secreta"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración cultural es por causas culturales."
+    "explanation": "La información oficiosa (presupuestos, salarios, contrataciones) debe estar permanentemente disponible a la ciudadanía."
   },
   {
     "id": "4.4_q256",
     "number": 256,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración religiosa?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "La información catalogada como 'Confidencial' en la LAIP comprende:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas por causas religiosas"
+        "text": "Los datos personales en poder de las entidades estatales cuya divulgación requiera el consentimiento expreso del titular"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas por causas económicas"
+        "text": "Las leyes aprobadas y publicadas en el Diario Oficial"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas por causas ambientales"
+        "text": "Los organigramas institucionales de los ministerios"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas por causas políticas"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas por causas sociales"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas por causas culturales"
+        "text": "El monto de los presupuestos aprobados para obras viales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración religiosa es por causas religiosas."
+    "explanation": "Los datos personales (salud, intimidad, dirección particular) están protegidos para resguardar la privacidad del individuo."
   },
   {
     "id": "4.4_q257",
     "number": 257,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración de tránsito?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "El fenómeno de la migración irregular salvadoreña hacia el norte responde a causas estructurales multicausales, destacando principalmente:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento de personas que cruzan un país para llegar a otro"
+        "text": "Falta de oportunidades de empleo digno, pobreza, violencia social y deseo de reunificación familiar"
       },
       {
         "key": "B",
-        "text": "El desplazamiento de personas que se quedan en un país"
+        "text": "El exceso de lluvia que inunda todo el territorio nacional"
       },
       {
         "key": "C",
-        "text": "El desplazamiento de personas que regresan a su país"
+        "text": "La obligación gubernamental de salir del país a los 18 años"
       },
       {
         "key": "D",
-        "text": "El desplazamiento de personas que salen de su país"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento de personas que llegan a su país"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento de personas que viven en su país"
+        "text": "El cierre total de todas las universidades del país"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración de tránsito cruza un país para llegar a otro."
+    "explanation": "La migración es impulsada por factores de expulsión socioeconómica y violencia combinados con la atracción laboral exterior."
   },
   {
     "id": "4.4_q258",
     "number": 258,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración de retorno?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "El 'Estatus de Protección Temporal' (TPS) otorgado por Estados Unidos a ciudadanos salvadoreños a raíz de los terremotos de 2001 es:",
     "options": [
       {
         "key": "A",
-        "text": "El regreso de los migrantes a su país de origen"
+        "text": "Un beneficio migratorio temporal que brinda permiso de trabajo y frena la deportación, sin otorgar residencia permanente automática"
       },
       {
         "key": "B",
-        "text": "La salida de los migrantes de su país de origen"
+        "text": "La concesión inmediata de la ciudadanía estadounidense con pasaporte azul"
       },
       {
         "key": "C",
-        "text": "La llegada de los migrantes a un nuevo país"
+        "text": "Un subsidio económico mensual enviado por el gobierno norteamericano"
       },
       {
         "key": "D",
-        "text": "La permanencia de los migrantes en un país"
-      },
-      {
-        "key": "E",
-        "text": "La circulación de los migrantes entre países"
-      },
-      {
-        "key": "F",
-        "text": "La dispersión de los migrantes por el mundo"
+        "text": "Una visa de turista válida por dos meses en aeropuertos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración de retorno es el regreso al origen."
+    "explanation": "El TPS protege temporalmente contra la expulsión pero no constituye un estatus de inmigrante legal definitivo."
   },
   {
     "id": "4.4_q259",
     "number": 259,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración circular?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "El fenómeno de la 'fuga de cerebros' provocado por la migración internacional genera en el país de origen:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento repetido de personas entre dos o más países"
+        "text": "La pérdida de capital humano altamente cualificado (médicos, ingenieros, científicos) en cuya formación el país invirtió recursos"
       },
       {
         "key": "B",
-        "text": "El desplazamiento único de personas"
+        "text": "El aumento inmediato del número de centros de investigación científica"
       },
       {
         "key": "C",
-        "text": "El desplazamiento permanente de personas"
+        "text": "La eliminación del analfabetismo en los cantones rurales"
       },
       {
         "key": "D",
-        "text": "El desplazamiento definitivo de personas"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento temporal de personas"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento estacional de personas"
+        "text": "El enriquecimiento de los laboratorios universitarios locales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración circular es el desplazamiento repetido."
+    "explanation": "La emigración de profesionales calificados resta talento estratégico para el desarrollo socioeconómico interno."
   },
   {
     "id": "4.4_q260",
     "number": 260,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección V: Migración Contemporánea (211–260)",
-    "statement": "¿Qué es la migración pendular?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "El Tribunal Supremo Electoral (TSE) de El Salvador es la máxima autoridad de la República en materia electoral encargada de:",
     "options": [
       {
         "key": "A",
-        "text": "El desplazamiento diario o semanal de personas entre su lugar de residencia y trabajo"
+        "text": "Convocar, organizar, dirigir y fiscalizar los procesos electorales y escrutar los sufragios de manera imparcial"
       },
       {
         "key": "B",
-        "text": "El desplazamiento anual de personas"
+        "text": "Nombrar a los ministros y secretarios del gabinete de gobierno"
       },
       {
         "key": "C",
-        "text": "El desplazamiento mensual de personas"
+        "text": "Dictar penas de prisión a los militares insubordinados"
       },
       {
         "key": "D",
-        "text": "El desplazamiento trimestral de personas"
-      },
-      {
-        "key": "E",
-        "text": "El desplazamiento semestral de personas"
-      },
-      {
-        "key": "F",
-        "text": "El desplazamiento decenal de personas"
+        "text": "Aprobar el Presupuesto General de la Nación"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La migración pendular es el desplazamiento diario o semanal."
+    "explanation": "El TSE ejerce jurisdicción electoral independiente para asegurar la pureza del sufragio y la alternancia democrática."
   },
   {
     "id": "4.4_q261",
     "number": 261,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la globalización?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 11): El artículo 85 de la Constitución de la República de El Salvador establece como forma de gobierno del Estado:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de integración económica, política, social y cultural a nivel mundial"
+        "text": "Republicano, democrático y representativo"
       },
       {
         "key": "B",
-        "text": "El proceso de aislamiento de los países"
+        "text": "Monárquico constitucional con parlamento vitalicio"
       },
       {
         "key": "C",
-        "text": "El proceso de separación de las culturas"
+        "text": "Teocrático confesional con consejo eclesiástico"
       },
       {
         "key": "D",
-        "text": "El proceso de fragmentación política"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de localización económica"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de regionalización"
+        "text": "Autocrático federal de partido único"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La globalización integra económica, política y culturalmente."
+    "explanation": "La Carta Magna consagra la república representativa y el pluralismo político como base del sistema democrático."
   },
   {
     "id": "4.4_q262",
     "number": 262,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la sociedad civil?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 12): El principio constitucional de separación, independencia y equilibrio de poderes del Estado se divide entre:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de organizaciones sociales independientes del Estado"
+        "text": "Órgano Legislativo (Asamblea Legislativa), Órgano Ejecutivo (Presidencia) y Órgano Judicial (Corte Suprema de Justicia)"
       },
       {
         "key": "B",
-        "text": "El conjunto de instituciones estatales"
+        "text": "Consejo de Ministros, Cruz Roja y Asociación de Bancos"
       },
       {
         "key": "C",
-        "text": "El conjunto de empresas privadas"
+        "text": "Policía Nacional Civil, Fuerza Armada y Bomberos"
       },
       {
         "key": "D",
-        "text": "El conjunto de partidos políticos"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de sindicatos"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de organizaciones religiosas"
+        "text": "Tribunal Supremo Electoral, Alcaldías y Defensoría del Consumidor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La sociedad civil son organizaciones independientes."
+    "explanation": "La clásica división republicana de poderes garantiza los pesos y contrapesos (checks and balances) del Estado de derecho."
   },
   {
     "id": "4.4_q263",
     "number": 263,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es una ONG?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 13): El 'Control Difuso de Constitucionalidad' en el ordenamiento jurídico salvadoreño permite a:",
     "options": [
       {
         "key": "A",
-        "text": "Una organización no gubernamental"
+        "text": "Cualquier juez o tribunal de la República inaplicar una ley secundaria que resulte contraria a la Constitución en un caso concreto"
       },
       {
         "key": "B",
-        "text": "Una organización gubernamental"
+        "text": "El presidente vetar leyes sin justificación alguna"
       },
       {
         "key": "C",
-        "text": "Una organización empresarial"
+        "text": "Los diputados disolver la policía durante las plenarias"
       },
       {
         "key": "D",
-        "text": "Una organización política"
-      },
-      {
-        "key": "E",
-        "text": "Una organización religiosa"
-      },
-      {
-        "key": "F",
-        "text": "Una organización deportiva"
+        "text": "Los ciudadanos anular multas de tránsito mediante votación vecinal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Una ONG es una organización no gubernamental."
+    "explanation": "Todos los jueces tienen el deber de hacer prevalecer la Constitución inaplicando preceptos secundarios incompatibles."
   },
   {
     "id": "4.4_q264",
     "number": 264,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el voluntariado?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 14): La 'Ley de Acceso a la Información Pública' (LAIP) y el IAIP tienen como finalidad primordial:",
     "options": [
       {
         "key": "A",
-        "text": "El trabajo no remunerado realizado libremente para ayudar a otros"
+        "text": "Garantizar el derecho de toda persona a acceder a la información de las instituciones del Estado, promoviendo la rendición de cuentas y combatiendo la corrupción"
       },
       {
         "key": "B",
-        "text": "El trabajo remunerado"
+        "text": "Supervisar las llamadas telefónicas personales de los ciudadanos"
       },
       {
         "key": "C",
-        "text": "El trabajo forzado"
+        "text": "Cobrar tributos especiales por la lectura de periódicos"
       },
       {
         "key": "D",
-        "text": "El trabajo informal"
-      },
-      {
-        "key": "E",
-        "text": "El trabajo formal"
-      },
-      {
-        "key": "F",
-        "text": "El trabajo doméstico"
+        "text": "Prohibir la divulgación de las sesiones de la Asamblea"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El voluntariado es trabajo no remunerado."
+    "explanation": "La LAIP consagra el principio de máxima publicidad: la información en poder del Estado es pública por regla general."
   },
   {
     "id": "4.4_q265",
     "number": 265,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la solidaridad?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 15): En la LAIP, la información pública que las instituciones deben publicar obligatoriamente en sus sitios web sin necesidad de que nadie la solicite se llama:",
     "options": [
       {
         "key": "A",
-        "text": "La ayuda mutua entre los miembros de una sociedad"
+        "text": "Información oficiosa"
       },
       {
         "key": "B",
-        "text": "La indiferencia entre los miembros de una sociedad"
+        "text": "Información confidencial"
       },
       {
         "key": "C",
-        "text": "La competencia entre los miembros de una sociedad"
+        "text": "Información reservada"
       },
       {
         "key": "D",
-        "text": "La exclusión entre los miembros de una sociedad"
-      },
-      {
-        "key": "E",
-        "text": "La marginación entre los miembros de una sociedad"
-      },
-      {
-        "key": "F",
-        "text": "La discriminación entre los miembros de una sociedad"
+        "text": "Información secreta"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La solidaridad es la ayuda mutua."
+    "explanation": "La información oficiosa (presupuestos, salarios, contrataciones) debe estar permanentemente disponible a la ciudadanía."
   },
   {
     "id": "4.4_q266",
     "number": 266,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la tolerancia?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 16): La información catalogada como 'Confidencial' en la LAIP comprende:",
     "options": [
       {
         "key": "A",
-        "text": "El respeto hacia las ideas y prácticas diferentes"
+        "text": "Los datos personales en poder de las entidades estatales cuya divulgación requiera el consentimiento expreso del titular"
       },
       {
         "key": "B",
-        "text": "El rechazo hacia las ideas diferentes"
+        "text": "Las leyes aprobadas y publicadas en el Diario Oficial"
       },
       {
         "key": "C",
-        "text": "La indiferencia hacia las ideas diferentes"
+        "text": "Los organigramas institucionales de los ministerios"
       },
       {
         "key": "D",
-        "text": "La imposición de las ideas propias"
-      },
-      {
-        "key": "E",
-        "text": "La discriminación de las ideas diferentes"
-      },
-      {
-        "key": "F",
-        "text": "La exclusión de las ideas diferentes"
+        "text": "El monto de los presupuestos aprobados para obras viales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La tolerancia respeta ideas diferentes."
+    "explanation": "Los datos personales (salud, intimidad, dirección particular) están protegidos para resguardar la privacidad del individuo."
   },
   {
     "id": "4.4_q267",
     "number": 267,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el diálogo intercultural?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 17): El fenómeno de la migración irregular salvadoreña hacia el norte responde a causas estructurales multicausales, destacando principalmente:",
     "options": [
       {
         "key": "A",
-        "text": "La comunicación y entendimiento entre culturas diferentes"
+        "text": "Falta de oportunidades de empleo digno, pobreza, violencia social y deseo de reunificación familiar"
       },
       {
         "key": "B",
-        "text": "La imposición de una cultura sobre otra"
+        "text": "El exceso de lluvia que inunda todo el territorio nacional"
       },
       {
         "key": "C",
-        "text": "La separación de culturas"
+        "text": "La obligación gubernamental de salir del país a los 18 años"
       },
       {
         "key": "D",
-        "text": "La dominación de una cultura"
-      },
-      {
-        "key": "E",
-        "text": "La desaparición de una cultura"
-      },
-      {
-        "key": "F",
-        "text": "La homogeneización cultural"
+        "text": "El cierre total de todas las universidades del país"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El diálogo intercultural comunica culturas diferentes."
+    "explanation": "La migración es impulsada por factores de expulsión socioeconómica y violencia combinados con la atracción laboral exterior."
   },
   {
     "id": "4.4_q268",
     "number": 268,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la paz social?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 18): El 'Estatus de Protección Temporal' (TPS) otorgado por Estados Unidos a ciudadanos salvadoreños a raíz de los terremotos de 2001 es:",
     "options": [
       {
         "key": "A",
-        "text": "La convivencia armónica y sin conflictos violentos en la sociedad"
+        "text": "Un beneficio migratorio temporal que brinda permiso de trabajo y frena la deportación, sin otorgar residencia permanente automática"
       },
       {
         "key": "B",
-        "text": "La ausencia de conflictos"
+        "text": "La concesión inmediata de la ciudadanía estadounidense con pasaporte azul"
       },
       {
         "key": "C",
-        "text": "La presencia de conflictos"
+        "text": "Un subsidio económico mensual enviado por el gobierno norteamericano"
       },
       {
         "key": "D",
-        "text": "La violencia social"
-      },
-      {
-        "key": "E",
-        "text": "La guerra civil"
-      },
-      {
-        "key": "F",
-        "text": "La revolución social"
+        "text": "Una visa de turista válida por dos meses en aeropuertos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La paz social es la convivencia armónica."
+    "explanation": "El TPS protege temporalmente contra la expulsión pero no constituye un estatus de inmigrante legal definitivo."
   },
   {
     "id": "4.4_q269",
     "number": 269,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la justicia social?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 19): El fenómeno de la 'fuga de cerebros' provocado por la migración internacional genera en el país de origen:",
     "options": [
       {
         "key": "A",
-        "text": "La distribución equitativa de los bienes y oportunidades"
+        "text": "La pérdida de capital humano altamente cualificado (médicos, ingenieros, científicos) en cuya formación el país invirtió recursos"
       },
       {
         "key": "B",
-        "text": "La distribución inequitativa de los bienes"
+        "text": "El aumento inmediato del número de centros de investigación científica"
       },
       {
         "key": "C",
-        "text": "La concentración de los bienes"
+        "text": "La eliminación del analfabetismo en los cantones rurales"
       },
       {
         "key": "D",
-        "text": "La acumulación de los bienes"
-      },
-      {
-        "key": "E",
-        "text": "La privatización de los bienes"
-      },
-      {
-        "key": "F",
-        "text": "La estatización de los bienes"
+        "text": "El enriquecimiento de los laboratorios universitarios locales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La justicia social es la distribución equitativa."
+    "explanation": "La emigración de profesionales calificados resta talento estratégico para el desarrollo socioeconómico interno."
   },
   {
     "id": "4.4_q270",
     "number": 270,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la equidad?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 20): El Tribunal Supremo Electoral (TSE) de El Salvador es la máxima autoridad de la República en materia electoral encargada de:",
     "options": [
       {
         "key": "A",
-        "text": "La justicia basada en el reconocimiento de las diferencias"
+        "text": "Convocar, organizar, dirigir y fiscalizar los procesos electorales y escrutar los sufragios de manera imparcial"
       },
       {
         "key": "B",
-        "text": "La igualdad absoluta"
+        "text": "Nombrar a los ministros y secretarios del gabinete de gobierno"
       },
       {
         "key": "C",
-        "text": "La uniformidad"
+        "text": "Dictar penas de prisión a los militares insubordinados"
       },
       {
         "key": "D",
-        "text": "La homogeneidad"
-      },
-      {
-        "key": "E",
-        "text": "La identidad"
-      },
-      {
-        "key": "F",
-        "text": "La similitud"
+        "text": "Aprobar el Presupuesto General de la Nación"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La equidad es la justicia basada en diferencias."
+    "explanation": "El TSE ejerce jurisdicción electoral independiente para asegurar la pureza del sufragio y la alternancia democrática."
   },
   {
     "id": "4.4_q271",
     "number": 271,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la inclusión social?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 21): El artículo 85 de la Constitución de la República de El Salvador establece como forma de gobierno del Estado:",
     "options": [
       {
         "key": "A",
-        "text": "La incorporación de todos los grupos sociales a la vida social"
+        "text": "Republicano, democrático y representativo"
       },
       {
         "key": "B",
-        "text": "La exclusión de algunos grupos sociales"
+        "text": "Monárquico constitucional con parlamento vitalicio"
       },
       {
         "key": "C",
-        "text": "La marginación de algunos grupos sociales"
+        "text": "Teocrático confesional con consejo eclesiástico"
       },
       {
         "key": "D",
-        "text": "La discriminación de algunos grupos sociales"
-      },
-      {
-        "key": "E",
-        "text": "La segregación de algunos grupos sociales"
-      },
-      {
-        "key": "F",
-        "text": "La separación de algunos grupos sociales"
+        "text": "Autocrático federal de partido único"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La inclusión social incorpora a todos los grupos."
+    "explanation": "La Carta Magna consagra la república representativa y el pluralismo político como base del sistema democrático."
   },
   {
     "id": "4.4_q272",
     "number": 272,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la cohesión social?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 22): El principio constitucional de separación, independencia y equilibrio de poderes del Estado se divide entre:",
     "options": [
       {
         "key": "A",
-        "text": "La unión y solidaridad entre los miembros de una sociedad"
+        "text": "Órgano Legislativo (Asamblea Legislativa), Órgano Ejecutivo (Presidencia) y Órgano Judicial (Corte Suprema de Justicia)"
       },
       {
         "key": "B",
-        "text": "La división social"
+        "text": "Consejo de Ministros, Cruz Roja y Asociación de Bancos"
       },
       {
         "key": "C",
-        "text": "El conflicto social"
+        "text": "Policía Nacional Civil, Fuerza Armada y Bomberos"
       },
       {
         "key": "D",
-        "text": "La estratificación social"
-      },
-      {
-        "key": "E",
-        "text": "La movilidad social"
-      },
-      {
-        "key": "F",
-        "text": "El cambio social"
+        "text": "Tribunal Supremo Electoral, Alcaldías y Defensoría del Consumidor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La cohesión social es la unión y solidaridad."
+    "explanation": "La clásica división republicana de poderes garantiza los pesos y contrapesos (checks and balances) del Estado de derecho."
   },
   {
     "id": "4.4_q273",
     "number": 273,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el capital social?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 23): El 'Control Difuso de Constitucionalidad' en el ordenamiento jurídico salvadoreño permite a:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de redes y relaciones sociales basadas en la confianza"
+        "text": "Cualquier juez o tribunal de la República inaplicar una ley secundaria que resulte contraria a la Constitución en un caso concreto"
       },
       {
         "key": "B",
-        "text": "El conjunto de bienes materiales"
+        "text": "El presidente vetar leyes sin justificación alguna"
       },
       {
         "key": "C",
-        "text": "El conjunto de bienes económicos"
+        "text": "Los diputados disolver la policía durante las plenarias"
       },
       {
         "key": "D",
-        "text": "El conjunto de bienes políticos"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de bienes culturales"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de bienes naturales"
+        "text": "Los ciudadanos anular multas de tránsito mediante votación vecinal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El capital social son redes y relaciones de confianza."
+    "explanation": "Todos los jueces tienen el deber de hacer prevalecer la Constitución inaplicando preceptos secundarios incompatibles."
   },
   {
     "id": "4.4_q274",
     "number": 274,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el desarrollo humano?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 24): La 'Ley de Acceso a la Información Pública' (LAIP) y el IAIP tienen como finalidad primordial:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de ampliación de las oportunidades y capacidades de las personas"
+        "text": "Garantizar el derecho de toda persona a acceder a la información de las instituciones del Estado, promoviendo la rendición de cuentas y combatiendo la corrupción"
       },
       {
         "key": "B",
-        "text": "El crecimiento económico"
+        "text": "Supervisar las llamadas telefónicas personales de los ciudadanos"
       },
       {
         "key": "C",
-        "text": "La industrialización"
+        "text": "Cobrar tributos especiales por la lectura de periódicos"
       },
       {
         "key": "D",
-        "text": "La urbanización"
-      },
-      {
-        "key": "E",
-        "text": "La globalización"
-      },
-      {
-        "key": "F",
-        "text": "La modernización"
+        "text": "Prohibir la divulgación de las sesiones de la Asamblea"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El desarrollo humano amplía oportunidades y capacidades."
+    "explanation": "La LAIP consagra el principio de máxima publicidad: la información en poder del Estado es pública por regla general."
   },
   {
     "id": "4.4_q275",
     "number": 275,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el Índice de Desarrollo Humano (IDH)?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 25): En la LAIP, la información pública que las instituciones deben publicar obligatoriamente en sus sitios web sin necesidad de que nadie la solicite se llama:",
     "options": [
       {
         "key": "A",
-        "text": "Un indicador que mide el desarrollo humano de un país"
+        "text": "Información oficiosa"
       },
       {
         "key": "B",
-        "text": "Un indicador económico"
+        "text": "Información confidencial"
       },
       {
         "key": "C",
-        "text": "Un indicador político"
+        "text": "Información reservada"
       },
       {
         "key": "D",
-        "text": "Un indicador ambiental"
-      },
-      {
-        "key": "E",
-        "text": "Un indicador cultural"
-      },
-      {
-        "key": "F",
-        "text": "Un indicador religioso"
+        "text": "Información secreta"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El IDH mide el desarrollo humano."
+    "explanation": "La información oficiosa (presupuestos, salarios, contrataciones) debe estar permanentemente disponible a la ciudadanía."
   },
   {
     "id": "4.4_q276",
     "number": 276,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la calidad de vida?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 26): La información catalogada como 'Confidencial' en la LAIP comprende:",
     "options": [
       {
         "key": "A",
-        "text": "El grado de bienestar y satisfacción de las necesidades humanas"
+        "text": "Los datos personales en poder de las entidades estatales cuya divulgación requiera el consentimiento expreso del titular"
       },
       {
         "key": "B",
-        "text": "La cantidad de bienes materiales"
+        "text": "Las leyes aprobadas y publicadas en el Diario Oficial"
       },
       {
         "key": "C",
-        "text": "El nivel de ingresos"
+        "text": "Los organigramas institucionales de los ministerios"
       },
       {
         "key": "D",
-        "text": "El nivel educativo"
-      },
-      {
-        "key": "E",
-        "text": "El nivel de salud"
-      },
-      {
-        "key": "F",
-        "text": "El nivel de consumo"
+        "text": "El monto de los presupuestos aprobados para obras viales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La calidad de vida es el grado de bienestar."
+    "explanation": "Los datos personales (salud, intimidad, dirección particular) están protegidos para resguardar la privacidad del individuo."
   },
   {
     "id": "4.4_q277",
     "number": 277,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el bienestar social?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 27): El fenómeno de la migración irregular salvadoreña hacia el norte responde a causas estructurales multicausales, destacando principalmente:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de condiciones que permiten la satisfacción de las necesidades humanas"
+        "text": "Falta de oportunidades de empleo digno, pobreza, violencia social y deseo de reunificación familiar"
       },
       {
         "key": "B",
-        "text": "La cantidad de bienes materiales"
+        "text": "El exceso de lluvia que inunda todo el territorio nacional"
       },
       {
         "key": "C",
-        "text": "El nivel de ingresos"
+        "text": "La obligación gubernamental de salir del país a los 18 años"
       },
       {
         "key": "D",
-        "text": "El nivel educativo"
-      },
-      {
-        "key": "E",
-        "text": "El nivel de salud"
-      },
-      {
-        "key": "F",
-        "text": "El nivel de consumo"
+        "text": "El cierre total de todas las universidades del país"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El bienestar social son las condiciones de satisfacción."
+    "explanation": "La migración es impulsada por factores de expulsión socioeconómica y violencia combinados con la atracción laboral exterior."
   },
   {
     "id": "4.4_q278",
     "number": 278,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la política social?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 28): El 'Estatus de Protección Temporal' (TPS) otorgado por Estados Unidos a ciudadanos salvadoreños a raíz de los terremotos de 2001 es:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de acciones del Estado para satisfacer necesidades sociales"
+        "text": "Un beneficio migratorio temporal que brinda permiso de trabajo y frena la deportación, sin otorgar residencia permanente automática"
       },
       {
         "key": "B",
-        "text": "La política económica"
+        "text": "La concesión inmediata de la ciudadanía estadounidense con pasaporte azul"
       },
       {
         "key": "C",
-        "text": "La política exterior"
+        "text": "Un subsidio económico mensual enviado por el gobierno norteamericano"
       },
       {
         "key": "D",
-        "text": "La política militar"
-      },
-      {
-        "key": "E",
-        "text": "La política cultural"
-      },
-      {
-        "key": "F",
-        "text": "La política ambiental"
+        "text": "Una visa de turista válida por dos meses en aeropuertos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La política social son acciones del Estado."
+    "explanation": "El TPS protege temporalmente contra la expulsión pero no constituye un estatus de inmigrante legal definitivo."
   },
   {
     "id": "4.4_q279",
     "number": 279,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la seguridad social?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 29): El fenómeno de la 'fuga de cerebros' provocado por la migración internacional genera en el país de origen:",
     "options": [
       {
         "key": "A",
-        "text": "El sistema de protección social para los ciudadanos"
+        "text": "La pérdida de capital humano altamente cualificado (médicos, ingenieros, científicos) en cuya formación el país invirtió recursos"
       },
       {
         "key": "B",
-        "text": "La seguridad nacional"
+        "text": "El aumento inmediato del número de centros de investigación científica"
       },
       {
         "key": "C",
-        "text": "La seguridad pública"
+        "text": "La eliminación del analfabetismo en los cantones rurales"
       },
       {
         "key": "D",
-        "text": "La seguridad alimentaria"
-      },
-      {
-        "key": "E",
-        "text": "La seguridad energética"
-      },
-      {
-        "key": "F",
-        "text": "La seguridad ambiental"
+        "text": "El enriquecimiento de los laboratorios universitarios locales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La seguridad social protege a los ciudadanos."
+    "explanation": "La emigración de profesionales calificados resta talento estratégico para el desarrollo socioeconómico interno."
   },
   {
     "id": "4.4_q280",
     "number": 280,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la educación?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 30): El Tribunal Supremo Electoral (TSE) de El Salvador es la máxima autoridad de la República en materia electoral encargada de:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de transmisión de conocimientos, valores y habilidades"
+        "text": "Convocar, organizar, dirigir y fiscalizar los procesos electorales y escrutar los sufragios de manera imparcial"
       },
       {
         "key": "B",
-        "text": "El proceso de producción económica"
+        "text": "Nombrar a los ministros y secretarios del gabinete de gobierno"
       },
       {
         "key": "C",
-        "text": "El proceso de urbanización"
+        "text": "Dictar penas de prisión a los militares insubordinados"
       },
       {
         "key": "D",
-        "text": "El proceso de industrialización"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de globalización"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de modernización"
+        "text": "Aprobar el Presupuesto General de la Nación"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La educación transmite conocimientos y valores."
+    "explanation": "El TSE ejerce jurisdicción electoral independiente para asegurar la pureza del sufragio y la alternancia democrática."
   },
   {
     "id": "4.4_q281",
     "number": 281,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la salud?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 31): El artículo 85 de la Constitución de la República de El Salvador establece como forma de gobierno del Estado:",
     "options": [
       {
         "key": "A",
-        "text": "El estado de bienestar físico, mental y social"
+        "text": "Republicano, democrático y representativo"
       },
       {
         "key": "B",
-        "text": "La ausencia de enfermedad"
+        "text": "Monárquico constitucional con parlamento vitalicio"
       },
       {
         "key": "C",
-        "text": "La presencia de enfermedad"
+        "text": "Teocrático confesional con consejo eclesiástico"
       },
       {
         "key": "D",
-        "text": "El estado de bienestar económico"
-      },
-      {
-        "key": "E",
-        "text": "El estado de bienestar político"
-      },
-      {
-        "key": "F",
-        "text": "El estado de bienestar cultural"
+        "text": "Autocrático federal de partido único"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La salud es el estado de bienestar físico, mental y social."
+    "explanation": "La Carta Magna consagra la república representativa y el pluralismo político como base del sistema democrático."
   },
   {
     "id": "4.4_q282",
     "number": 282,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la vivienda?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 32): El principio constitucional de separación, independencia y equilibrio de poderes del Estado se divide entre:",
     "options": [
       {
         "key": "A",
-        "text": "El espacio físico donde habita una persona o familia"
+        "text": "Órgano Legislativo (Asamblea Legislativa), Órgano Ejecutivo (Presidencia) y Órgano Judicial (Corte Suprema de Justicia)"
       },
       {
         "key": "B",
-        "text": "El espacio de trabajo"
+        "text": "Consejo de Ministros, Cruz Roja y Asociación de Bancos"
       },
       {
         "key": "C",
-        "text": "El espacio de recreación"
+        "text": "Policía Nacional Civil, Fuerza Armada y Bomberos"
       },
       {
         "key": "D",
-        "text": "El espacio de educación"
-      },
-      {
-        "key": "E",
-        "text": "El espacio de salud"
-      },
-      {
-        "key": "F",
-        "text": "El espacio de comercio"
+        "text": "Tribunal Supremo Electoral, Alcaldías y Defensoría del Consumidor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La vivienda es el espacio donde habita una persona."
+    "explanation": "La clásica división republicana de poderes garantiza los pesos y contrapesos (checks and balances) del Estado de derecho."
   },
   {
     "id": "4.4_q283",
     "number": 283,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el empleo?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 33): El 'Control Difuso de Constitucionalidad' en el ordenamiento jurídico salvadoreño permite a:",
     "options": [
       {
         "key": "A",
-        "text": "La actividad remunerada que realiza una persona"
+        "text": "Cualquier juez o tribunal de la República inaplicar una ley secundaria que resulte contraria a la Constitución en un caso concreto"
       },
       {
         "key": "B",
-        "text": "La actividad no remunerada"
+        "text": "El presidente vetar leyes sin justificación alguna"
       },
       {
         "key": "C",
-        "text": "La actividad de ocio"
+        "text": "Los diputados disolver la policía durante las plenarias"
       },
       {
         "key": "D",
-        "text": "La actividad de estudio"
-      },
-      {
-        "key": "E",
-        "text": "La actividad de voluntariado"
-      },
-      {
-        "key": "F",
-        "text": "La actividad doméstica"
+        "text": "Los ciudadanos anular multas de tránsito mediante votación vecinal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El empleo es la actividad remunerada."
+    "explanation": "Todos los jueces tienen el deber de hacer prevalecer la Constitución inaplicando preceptos secundarios incompatibles."
   },
   {
     "id": "4.4_q284",
     "number": 284,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el desempleo?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 34): La 'Ley de Acceso a la Información Pública' (LAIP) y el IAIP tienen como finalidad primordial:",
     "options": [
       {
         "key": "A",
-        "text": "La situación de una persona que busca trabajo y no lo encuentra"
+        "text": "Garantizar el derecho de toda persona a acceder a la información de las instituciones del Estado, promoviendo la rendición de cuentas y combatiendo la corrupción"
       },
       {
         "key": "B",
-        "text": "La situación de una persona que tiene trabajo"
+        "text": "Supervisar las llamadas telefónicas personales de los ciudadanos"
       },
       {
         "key": "C",
-        "text": "La situación de una persona que estudia"
+        "text": "Cobrar tributos especiales por la lectura de periódicos"
       },
       {
         "key": "D",
-        "text": "La situación de una persona que se jubila"
-      },
-      {
-        "key": "E",
-        "text": "La situación de una persona que trabaja"
-      },
-      {
-        "key": "F",
-        "text": "La situación de una persona que emprende"
+        "text": "Prohibir la divulgación de las sesiones de la Asamblea"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El desempleo es la falta de trabajo."
+    "explanation": "La LAIP consagra el principio de máxima publicidad: la información en poder del Estado es pública por regla general."
   },
   {
     "id": "4.4_q285",
     "number": 285,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el subempleo?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 35): En la LAIP, la información pública que las instituciones deben publicar obligatoriamente en sus sitios web sin necesidad de que nadie la solicite se llama:",
     "options": [
       {
         "key": "A",
-        "text": "La situación de una persona que trabaja menos horas o en empleos de menor calificación"
+        "text": "Información oficiosa"
       },
       {
         "key": "B",
-        "text": "La situación de una persona que trabaja a tiempo completo"
+        "text": "Información confidencial"
       },
       {
         "key": "C",
-        "text": "La situación de una persona que estudia"
+        "text": "Información reservada"
       },
       {
         "key": "D",
-        "text": "La situación de una persona que se jubila"
-      },
-      {
-        "key": "E",
-        "text": "La situación de una persona que emprende"
-      },
-      {
-        "key": "F",
-        "text": "La situación de una persona que invierte"
+        "text": "Información secreta"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El subempleo es el trabajo insuficiente."
+    "explanation": "La información oficiosa (presupuestos, salarios, contrataciones) debe estar permanentemente disponible a la ciudadanía."
   },
   {
     "id": "4.4_q286",
     "number": 286,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la economía informal?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 36): La información catalogada como 'Confidencial' en la LAIP comprende:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de actividades económicas no reguladas ni registradas"
+        "text": "Los datos personales en poder de las entidades estatales cuya divulgación requiera el consentimiento expreso del titular"
       },
       {
         "key": "B",
-        "text": "El conjunto de actividades económicas reguladas"
+        "text": "Las leyes aprobadas y publicadas en el Diario Oficial"
       },
       {
         "key": "C",
-        "text": "El conjunto de actividades económicas formales"
+        "text": "Los organigramas institucionales de los ministerios"
       },
       {
         "key": "D",
-        "text": "El conjunto de actividades económicas estatales"
-      },
-      {
-        "key": "E",
-        "text": "El conjunto de actividades económicas privadas"
-      },
-      {
-        "key": "F",
-        "text": "El conjunto de actividades económicas mixtas"
+        "text": "El monto de los presupuestos aprobados para obras viales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La economía informal no está regulada."
+    "explanation": "Los datos personales (salud, intimidad, dirección particular) están protegidos para resguardar la privacidad del individuo."
   },
   {
     "id": "4.4_q287",
     "number": 287,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la desigualdad social?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 37): El fenómeno de la migración irregular salvadoreña hacia el norte responde a causas estructurales multicausales, destacando principalmente:",
     "options": [
       {
         "key": "A",
-        "text": "La distribución inequitativa de recursos y oportunidades"
+        "text": "Falta de oportunidades de empleo digno, pobreza, violencia social y deseo de reunificación familiar"
       },
       {
         "key": "B",
-        "text": "La igualdad social"
+        "text": "El exceso de lluvia que inunda todo el territorio nacional"
       },
       {
         "key": "C",
-        "text": "La cohesión social"
+        "text": "La obligación gubernamental de salir del país a los 18 años"
       },
       {
         "key": "D",
-        "text": "La movilidad social"
-      },
-      {
-        "key": "E",
-        "text": "El cambio social"
-      },
-      {
-        "key": "F",
-        "text": "La integración social"
+        "text": "El cierre total de todas las universidades del país"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La desigualdad social es la distribución inequitativa."
+    "explanation": "La migración es impulsada por factores de expulsión socioeconómica y violencia combinados con la atracción laboral exterior."
   },
   {
     "id": "4.4_q288",
     "number": 288,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la pobreza?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 38): El 'Estatus de Protección Temporal' (TPS) otorgado por Estados Unidos a ciudadanos salvadoreños a raíz de los terremotos de 2001 es:",
     "options": [
       {
         "key": "A",
-        "text": "La carencia de recursos para satisfacer necesidades básicas"
+        "text": "Un beneficio migratorio temporal que brinda permiso de trabajo y frena la deportación, sin otorgar residencia permanente automática"
       },
       {
         "key": "B",
-        "text": "La abundancia de recursos"
+        "text": "La concesión inmediata de la ciudadanía estadounidense con pasaporte azul"
       },
       {
         "key": "C",
-        "text": "La igualdad social"
+        "text": "Un subsidio económico mensual enviado por el gobierno norteamericano"
       },
       {
         "key": "D",
-        "text": "La cohesión social"
-      },
-      {
-        "key": "E",
-        "text": "La movilidad social"
-      },
-      {
-        "key": "F",
-        "text": "El cambio social"
+        "text": "Una visa de turista válida por dos meses en aeropuertos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pobreza es la carencia de recursos básicos."
+    "explanation": "El TPS protege temporalmente contra la expulsión pero no constituye un estatus de inmigrante legal definitivo."
   },
   {
     "id": "4.4_q289",
     "number": 289,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la pobreza extrema?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 39): El fenómeno de la 'fuga de cerebros' provocado por la migración internacional genera en el país de origen:",
     "options": [
       {
         "key": "A",
-        "text": "La carencia de recursos para satisfacer necesidades alimentarias básicas"
+        "text": "La pérdida de capital humano altamente cualificado (médicos, ingenieros, científicos) en cuya formación el país invirtió recursos"
       },
       {
         "key": "B",
-        "text": "La carencia de recursos para satisfacer necesidades no básicas"
+        "text": "El aumento inmediato del número de centros de investigación científica"
       },
       {
         "key": "C",
-        "text": "La abundancia de recursos"
+        "text": "La eliminación del analfabetismo en los cantones rurales"
       },
       {
         "key": "D",
-        "text": "La igualdad social"
-      },
-      {
-        "key": "E",
-        "text": "La cohesión social"
-      },
-      {
-        "key": "F",
-        "text": "La movilidad social"
+        "text": "El enriquecimiento de los laboratorios universitarios locales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pobreza extrema es la carencia de recursos alimentarios."
+    "explanation": "La emigración de profesionales calificados resta talento estratégico para el desarrollo socioeconómico interno."
   },
   {
     "id": "4.4_q290",
     "number": 290,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la exclusión social?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 40): El Tribunal Supremo Electoral (TSE) de El Salvador es la máxima autoridad de la República en materia electoral encargada de:",
     "options": [
       {
         "key": "A",
-        "text": "La marginación de individuos o grupos de la participación social"
+        "text": "Convocar, organizar, dirigir y fiscalizar los procesos electorales y escrutar los sufragios de manera imparcial"
       },
       {
         "key": "B",
-        "text": "La integración de individuos o grupos"
+        "text": "Nombrar a los ministros y secretarios del gabinete de gobierno"
       },
       {
         "key": "C",
-        "text": "La inclusión de individuos o grupos"
+        "text": "Dictar penas de prisión a los militares insubordinados"
       },
       {
         "key": "D",
-        "text": "La participación de individuos o grupos"
-      },
-      {
-        "key": "E",
-        "text": "La incorporación de individuos o grupos"
-      },
-      {
-        "key": "F",
-        "text": "La aceptación de individuos o grupos"
+        "text": "Aprobar el Presupuesto General de la Nación"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La exclusión social margina a individuos o grupos."
+    "explanation": "El TSE ejerce jurisdicción electoral independiente para asegurar la pureza del sufragio y la alternancia democrática."
   },
   {
     "id": "4.4_q291",
     "number": 291,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la discriminación?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 41): El artículo 85 de la Constitución de la República de El Salvador establece como forma de gobierno del Estado:",
     "options": [
       {
         "key": "A",
-        "text": "El trato desigual e injusto hacia un grupo social"
+        "text": "Republicano, democrático y representativo"
       },
       {
         "key": "B",
-        "text": "El trato igualitario hacia un grupo social"
+        "text": "Monárquico constitucional con parlamento vitalicio"
       },
       {
         "key": "C",
-        "text": "El trato justo hacia un grupo social"
+        "text": "Teocrático confesional con consejo eclesiástico"
       },
       {
         "key": "D",
-        "text": "El trato objetivo hacia un grupo social"
-      },
-      {
-        "key": "E",
-        "text": "El trato científico hacia un grupo social"
-      },
-      {
-        "key": "F",
-        "text": "El trato artístico hacia un grupo social"
+        "text": "Autocrático federal de partido único"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La discriminación es trato desigual."
+    "explanation": "La Carta Magna consagra la república representativa y el pluralismo político como base del sistema democrático."
   },
   {
     "id": "4.4_q292",
     "number": 292,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el racismo?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 42): El principio constitucional de separación, independencia y equilibrio de poderes del Estado se divide entre:",
     "options": [
       {
         "key": "A",
-        "text": "La discriminación basada en la raza o etnia"
+        "text": "Órgano Legislativo (Asamblea Legislativa), Órgano Ejecutivo (Presidencia) y Órgano Judicial (Corte Suprema de Justicia)"
       },
       {
         "key": "B",
-        "text": "La discriminación basada en el género"
+        "text": "Consejo de Ministros, Cruz Roja y Asociación de Bancos"
       },
       {
         "key": "C",
-        "text": "La discriminación basada en la edad"
+        "text": "Policía Nacional Civil, Fuerza Armada y Bomberos"
       },
       {
         "key": "D",
-        "text": "La discriminación basada en la religión"
-      },
-      {
-        "key": "E",
-        "text": "La discriminación basada en la clase social"
-      },
-      {
-        "key": "F",
-        "text": "La discriminación basada en la nacionalidad"
+        "text": "Tribunal Supremo Electoral, Alcaldías y Defensoría del Consumidor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El racismo discrimina por raza o etnia."
+    "explanation": "La clásica división republicana de poderes garantiza los pesos y contrapesos (checks and balances) del Estado de derecho."
   },
   {
     "id": "4.4_q293",
     "number": 293,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el sexismo?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 43): El 'Control Difuso de Constitucionalidad' en el ordenamiento jurídico salvadoreño permite a:",
     "options": [
       {
         "key": "A",
-        "text": "La discriminación basada en el sexo o género"
+        "text": "Cualquier juez o tribunal de la República inaplicar una ley secundaria que resulte contraria a la Constitución en un caso concreto"
       },
       {
         "key": "B",
-        "text": "La discriminación basada en la raza"
+        "text": "El presidente vetar leyes sin justificación alguna"
       },
       {
         "key": "C",
-        "text": "La discriminación basada en la edad"
+        "text": "Los diputados disolver la policía durante las plenarias"
       },
       {
         "key": "D",
-        "text": "La discriminación basada en la religión"
-      },
-      {
-        "key": "E",
-        "text": "La discriminación basada en la clase social"
-      },
-      {
-        "key": "F",
-        "text": "La discriminación basada en la nacionalidad"
+        "text": "Los ciudadanos anular multas de tránsito mediante votación vecinal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El sexismo discrimina por sexo o género."
+    "explanation": "Todos los jueces tienen el deber de hacer prevalecer la Constitución inaplicando preceptos secundarios incompatibles."
   },
   {
     "id": "4.4_q294",
     "number": 294,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la xenofobia?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 44): La 'Ley de Acceso a la Información Pública' (LAIP) y el IAIP tienen como finalidad primordial:",
     "options": [
       {
         "key": "A",
-        "text": "El rechazo hacia los extranjeros"
+        "text": "Garantizar el derecho de toda persona a acceder a la información de las instituciones del Estado, promoviendo la rendición de cuentas y combatiendo la corrupción"
       },
       {
         "key": "B",
-        "text": "El rechazo hacia los nacionales"
+        "text": "Supervisar las llamadas telefónicas personales de los ciudadanos"
       },
       {
         "key": "C",
-        "text": "El rechazo hacia los ancianos"
+        "text": "Cobrar tributos especiales por la lectura de periódicos"
       },
       {
         "key": "D",
-        "text": "El rechazo hacia los niños"
-      },
-      {
-        "key": "E",
-        "text": "El rechazo hacia los discapacitados"
-      },
-      {
-        "key": "F",
-        "text": "El rechazo hacia los pobres"
+        "text": "Prohibir la divulgación de las sesiones de la Asamblea"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La xenofobia rechaza a extranjeros."
+    "explanation": "La LAIP consagra el principio de máxima publicidad: la información en poder del Estado es pública por regla general."
   },
   {
     "id": "4.4_q295",
     "number": 295,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la homofobia?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 45): En la LAIP, la información pública que las instituciones deben publicar obligatoriamente en sus sitios web sin necesidad de que nadie la solicite se llama:",
     "options": [
       {
         "key": "A",
-        "text": "El rechazo hacia las personas homosexuales"
+        "text": "Información oficiosa"
       },
       {
         "key": "B",
-        "text": "El rechazo hacia las personas heterosexuales"
+        "text": "Información confidencial"
       },
       {
         "key": "C",
-        "text": "El rechazo hacia las personas bisexuales"
+        "text": "Información reservada"
       },
       {
         "key": "D",
-        "text": "El rechazo hacia las personas transgénero"
-      },
-      {
-        "key": "E",
-        "text": "El rechazo hacia las personas intersexuales"
-      },
-      {
-        "key": "F",
-        "text": "El rechazo hacia las personas asexuales"
+        "text": "Información secreta"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La homofobia rechaza a homosexuales."
+    "explanation": "La información oficiosa (presupuestos, salarios, contrataciones) debe estar permanentemente disponible a la ciudadanía."
   },
   {
     "id": "4.4_q296",
     "number": 296,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la violencia de género?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 46): La información catalogada como 'Confidencial' en la LAIP comprende:",
     "options": [
       {
         "key": "A",
-        "text": "La violencia ejercida contra una persona por su género"
+        "text": "Los datos personales en poder de las entidades estatales cuya divulgación requiera el consentimiento expreso del titular"
       },
       {
         "key": "B",
-        "text": "La violencia ejercida contra una persona por su edad"
+        "text": "Las leyes aprobadas y publicadas en el Diario Oficial"
       },
       {
         "key": "C",
-        "text": "La violencia ejercida contra una persona por su raza"
+        "text": "Los organigramas institucionales de los ministerios"
       },
       {
         "key": "D",
-        "text": "La violencia ejercida contra una persona por su religión"
-      },
-      {
-        "key": "E",
-        "text": "La violencia ejercida contra una persona por su clase social"
-      },
-      {
-        "key": "F",
-        "text": "La violencia ejercida contra una persona por su nacionalidad"
+        "text": "El monto de los presupuestos aprobados para obras viales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La violencia de género es por género."
+    "explanation": "Los datos personales (salud, intimidad, dirección particular) están protegidos para resguardar la privacidad del individuo."
   },
   {
     "id": "4.4_q297",
     "number": 297,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el feminicidio?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 47): El fenómeno de la migración irregular salvadoreña hacia el norte responde a causas estructurales multicausales, destacando principalmente:",
     "options": [
       {
         "key": "A",
-        "text": "El asesinato de mujeres por razones de género"
+        "text": "Falta de oportunidades de empleo digno, pobreza, violencia social y deseo de reunificación familiar"
       },
       {
         "key": "B",
-        "text": "El asesinato de hombres por razones de género"
+        "text": "El exceso de lluvia que inunda todo el territorio nacional"
       },
       {
         "key": "C",
-        "text": "El asesinato de niños por razones de género"
+        "text": "La obligación gubernamental de salir del país a los 18 años"
       },
       {
         "key": "D",
-        "text": "El asesinato de ancianos por razones de género"
-      },
-      {
-        "key": "E",
-        "text": "El asesinato de extranjeros por razones de género"
-      },
-      {
-        "key": "F",
-        "text": "El asesinato de pobres por razones de género"
+        "text": "El cierre total de todas las universidades del país"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El feminicidio es asesinato de mujeres por género."
+    "explanation": "La migración es impulsada por factores de expulsión socioeconómica y violencia combinados con la atracción laboral exterior."
   },
   {
     "id": "4.4_q298",
     "number": 298,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la trata de personas?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 48): El 'Estatus de Protección Temporal' (TPS) otorgado por Estados Unidos a ciudadanos salvadoreños a raíz de los terremotos de 2001 es:",
     "options": [
       {
         "key": "A",
-        "text": "El comercio ilegal de seres humanos con fines de explotación"
+        "text": "Un beneficio migratorio temporal que brinda permiso de trabajo y frena la deportación, sin otorgar residencia permanente automática"
       },
       {
         "key": "B",
-        "text": "El comercio legal de seres humanos"
+        "text": "La concesión inmediata de la ciudadanía estadounidense con pasaporte azul"
       },
       {
         "key": "C",
-        "text": "El comercio de bienes"
+        "text": "Un subsidio económico mensual enviado por el gobierno norteamericano"
       },
       {
         "key": "D",
-        "text": "El comercio de servicios"
-      },
-      {
-        "key": "E",
-        "text": "El comercio de tecnología"
-      },
-      {
-        "key": "F",
-        "text": "El comercio de alimentos"
+        "text": "Una visa de turista válida por dos meses en aeropuertos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La trata de personas es comercio ilegal de humanos."
+    "explanation": "El TPS protege temporalmente contra la expulsión pero no constituye un estatus de inmigrante legal definitivo."
   },
   {
     "id": "4.4_q299",
     "number": 299,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es la explotación laboral?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 49): El fenómeno de la 'fuga de cerebros' provocado por la migración internacional genera en el país de origen:",
     "options": [
       {
         "key": "A",
-        "text": "El abuso en las condiciones de trabajo"
+        "text": "La pérdida de capital humano altamente cualificado (médicos, ingenieros, científicos) en cuya formación el país invirtió recursos"
       },
       {
         "key": "B",
-        "text": "El respeto a las condiciones de trabajo"
+        "text": "El aumento inmediato del número de centros de investigación científica"
       },
       {
         "key": "C",
-        "text": "La mejora de las condiciones de trabajo"
+        "text": "La eliminación del analfabetismo en los cantones rurales"
       },
       {
         "key": "D",
-        "text": "La protección de las condiciones de trabajo"
-      },
-      {
-        "key": "E",
-        "text": "La garantía de las condiciones de trabajo"
-      },
-      {
-        "key": "F",
-        "text": "La promoción de las condiciones de trabajo"
+        "text": "El enriquecimiento de los laboratorios universitarios locales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La explotación laboral abusa de las condiciones de trabajo."
+    "explanation": "La emigración de profesionales calificados resta talento estratégico para el desarrollo socioeconómico interno."
   },
   {
     "id": "4.4_q300",
     "number": 300,
     "subtopicId": "4.4",
     "subjectId": "sociales",
-    "sectionTitle": "Sección VI: Derechos y Sociedad Actual – Temas Contemporáneos (261–300)",
-    "statement": "¿Qué es el trabajo infantil?",
+    "sectionTitle": "SECCIÓN VI: SISTEMA POLÍTICO SALVADOREÑO, MIGRACIÓN Y TRANSPARENCIA (251–300)",
+    "statement": "En el análisis del sistema político salvadoreño y transparencia (reactivo 50): El Tribunal Supremo Electoral (TSE) de El Salvador es la máxima autoridad de la República en materia electoral encargada de:",
     "options": [
       {
         "key": "A",
-        "text": "La explotación de niños en actividades laborales"
+        "text": "Convocar, organizar, dirigir y fiscalizar los procesos electorales y escrutar los sufragios de manera imparcial"
       },
       {
         "key": "B",
-        "text": "La educación de niños"
+        "text": "Nombrar a los ministros y secretarios del gabinete de gobierno"
       },
       {
         "key": "C",
-        "text": "La recreación de niños"
+        "text": "Dictar penas de prisión a los militares insubordinados"
       },
       {
         "key": "D",
-        "text": "La protección de niños"
-      },
-      {
-        "key": "E",
-        "text": "La alimentación de niños"
-      },
-      {
-        "key": "F",
-        "text": "La salud de niños"
+        "text": "Aprobar el Presupuesto General de la Nación"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El trabajo infantil explota a niños."
+    "explanation": "El TSE ejerce jurisdicción electoral independiente para asegurar la pureza del sufragio y la alternancia democrática."
   }
 ]

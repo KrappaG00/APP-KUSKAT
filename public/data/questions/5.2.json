@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es la estequiometría?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "Los cuatro números cuánticos que describen el estado de un electrón en un átomo son:",
     "options": [
       {
         "key": "A",
-        "text": "El cálculo de las relaciones cuantitativas en las reacciones químicas"
+        "text": "Principal \\( (n) \\), secundario o azimutal \\( (l) \\), magnético \\( (m_l) \\) y de espín \\( (m_s) \\)"
       },
       {
         "key": "B",
-        "text": "El cálculo de las relaciones cualitativas"
+        "text": "Masa, carga, velocidad y radio"
       },
       {
         "key": "C",
-        "text": "El cálculo de las propiedades físicas"
+        "text": "Neutrónico, protónico, leptónico y bariónico"
       },
       {
         "key": "D",
-        "text": "El cálculo de las propiedades químicas"
-      },
-      {
-        "key": "E",
-        "text": "El cálculo de las estructuras moleculares"
-      },
-      {
-        "key": "F",
-        "text": "El cálculo de las energías de enlace"
+        "text": "Alfa, beta, gamma y delta"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La estequiometría calcula relaciones cuantitativas."
+    "explanation": "n indica el nivel de energía; l el subnivel o forma del orbital; ml la orientación espacial; y ms el giro intrínseco."
   },
   {
     "id": "5.2_q202",
     "number": 202,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es un mol?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "El número cuántico azimutal o de momento angular \\( l \\) puede tomar valores enteros desde:",
     "options": [
       {
         "key": "A",
-        "text": "La cantidad de sustancia que contiene 6.022×10²³ partículas"
+        "text": "\\( 0 \\) hasta \\( n - 1 \\) (donde 0=s, 1=p, 2=d, 3=f)"
       },
       {
         "key": "B",
-        "text": "La cantidad de sustancia que contiene 6.022×10²² partículas"
+        "text": "\\( 1 \\) hasta \\( n + 1 \\)"
       },
       {
         "key": "C",
-        "text": "La cantidad de sustancia que contiene 6.022×10²⁴ partículas"
+        "text": "\\( -n \\) hasta \\( +n \\)"
       },
       {
         "key": "D",
-        "text": "La cantidad de sustancia que contiene 6.022×10²¹ partículas"
-      },
-      {
-        "key": "E",
-        "text": "La cantidad de sustancia que contiene 6.022×10²⁰ partículas"
-      },
-      {
-        "key": "F",
-        "text": "La cantidad de sustancia que contiene 6.022×10²⁵ partículas"
+        "text": "Únicamente valores negativos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un mol contiene 6.022×10²³ partículas."
+    "explanation": "Para un nivel dado n, el valor de l varía desde 0 hasta n-1, determinando la geometría del orbital."
   },
   {
     "id": "5.2_q203",
     "number": 203,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es el número de Avogadro?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "El 'Principio de Exclusión de Pauli' establece que en un mismo átomo:",
     "options": [
       {
         "key": "A",
-        "text": "6.022×10²³"
+        "text": "No pueden existir dos electrones con los cuatro números cuánticos idénticos"
       },
       {
         "key": "B",
-        "text": "6.022×10²²"
+        "text": "Todos los orbitales deben llenarse con espines paralelos"
       },
       {
         "key": "C",
-        "text": "6.022×10²⁴"
+        "text": "Los electrones ocupan primero los niveles de mayor energía"
       },
       {
         "key": "D",
-        "text": "6.022×10²¹"
-      },
-      {
-        "key": "E",
-        "text": "6.022×10²⁰"
-      },
-      {
-        "key": "F",
-        "text": "6.022×10²⁵"
+        "text": "La masa del protón debe ser igual a la del electrón"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El número de Avogadro es 6.022×10²³."
+    "explanation": "Dos electrones en un mismo orbital pueden compartir n, l y ml, pero obligatoriamente deben tener espines opuestos (+1/2 y -1/2)."
   },
   {
     "id": "5.2_q204",
     "number": 204,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es la masa molar?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "La 'Regla de Hund' de máxima multiplicidad señala que al llenar orbitales degenerados (de igual energía):",
     "options": [
       {
         "key": "A",
-        "text": "La masa de un mol de sustancia"
+        "text": "Los electrones se distribuyen con espines paralelos ocupando el mayor número posible de orbitales antes de aparearse"
       },
       {
         "key": "B",
-        "text": "La masa de un átomo de sustancia"
+        "text": "Los orbitales se aparean completamente antes de ocupar el siguiente"
       },
       {
         "key": "C",
-        "text": "La masa de una molécula de sustancia"
+        "text": "Se llenan primero los subniveles con espines antihorarios"
       },
       {
         "key": "D",
-        "text": "La masa de un ion de sustancia"
-      },
-      {
-        "key": "E",
-        "text": "La masa de un isótopo de sustancia"
-      },
-      {
-        "key": "F",
-        "text": "La masa de un electrón de sustancia"
+        "text": "No pueden ingresar más de un electrón por nivel cuántico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La masa molar es la masa de un mol."
+    "explanation": "La configuración de menor energía es la que maximiza el número de electrones desapareados con espín paralelo."
   },
   {
     "id": "5.2_q205",
     "number": 205,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es la masa molar del agua (H₂O)?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "La configuración electrónica en estado fundamental del átomo de Carbono \\( (Z = 6) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(18 g/mol\\)"
+        "text": "\\( 1s^2 \\, 2s^2 \\, 2p^2 \\)"
       },
       {
         "key": "B",
-        "text": "\\(16 g/mol\\)"
+        "text": "\\( 1s^2 \\, 2s^4 \\)"
       },
       {
         "key": "C",
-        "text": "\\(20 g/mol\\)"
+        "text": "\\( 1s^3 \\, 2p^3 \\)"
       },
       {
         "key": "D",
-        "text": "\\(22 g/mol\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(24 g/mol\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(26 g/mol\\)"
+        "text": "\\( 1s^2 \\, 2s^1 \\, 2p^3 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La masa molar del agua es 18 g/mol."
+    "explanation": "Siguiendo el principio de Aufbau: el nivel 1s aloja 2 electrones, el 2s aloja 2 electrones y el 2p aloja 2 electrones."
   },
   {
     "id": "5.2_q206",
     "number": 206,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es la masa molar del dióxido de carbono (CO₂)?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En la tabla periódica, la propiedad periódica denominada 'Electronegatividad' tiende a:",
     "options": [
       {
         "key": "A",
-        "text": "\\(44 g/mol\\)"
+        "text": "Aumentar de izquierda a derecha a lo largo de un período y disminuir de arriba hacia abajo en un grupo"
       },
       {
         "key": "B",
-        "text": "\\(28 g/mol\\)"
+        "text": "Aumentar hacia abajo en los grupos alcalinos"
       },
       {
         "key": "C",
-        "text": "\\(32 g/mol\\)"
+        "text": "Permanecer constante en toda la tabla"
       },
       {
         "key": "D",
-        "text": "\\(40 g/mol\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(48 g/mol\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(52 g/mol\\)"
+        "text": "Disminuir hacia la esquina superior derecha"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La masa molar del CO₂ es 44 g/mol."
+    "explanation": "El Flúor es el elemento más electronegativo (4.0 en la escala de Pauling) en la esquina superior derecha."
   },
   {
     "id": "5.2_q207",
     "number": 207,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es la masa molar del cloruro de sodio (NaCl)?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "La concentración en porcentaje masa en volumen (% m/v) de una solución se define operativamente como:",
     "options": [
       {
         "key": "A",
-        "text": "58.5 g/mol"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{masa de soluto (g)}}{\\text{volumen de solución (mL)}} \\times 100 \\)"
       },
       {
         "key": "B",
-        "text": "\\(23 g/mol\\)"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{moles de soluto}}{\\text{litros de solvente}} \\times 100 \\)"
       },
       {
         "key": "C",
-        "text": "35.5 g/mol"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{masa de solvente (kg)}}{\\text{masa de soluto (g)}} \\times 100 \\)"
       },
       {
         "key": "D",
-        "text": "\\(50 g/mol\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(60 g/mol\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(65 g/mol\\)"
+        "text": "\\( \\% \\, m/v = \\text{volumen de soluto} + \\text{volumen de solvente} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La masa molar del NaCl es 58.5 g/mol."
+    "explanation": "Expresa los gramos de soluto disueltos en exactamente 100 mililitros de disolución total."
   },
   {
     "id": "5.2_q208",
     "number": 208,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es un reactivo limitante?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "La 'Molaridad' \\( (M) \\) de una disolución acuosa se define como:",
     "options": [
       {
         "key": "A",
-        "text": "El que se consume primero en una reacción química"
+        "text": "El número de moles de soluto disueltos en un litro \\( (1 \\, L) \\) de disolución"
       },
       {
         "key": "B",
-        "text": "El que se consume último"
+        "text": "El número de gramos de soluto en un kilogramo de agua"
       },
       {
         "key": "C",
-        "text": "El que no se consume"
+        "text": "El número de equivalentes-gramo por mililitro"
       },
       {
         "key": "D",
-        "text": "El que se produce en la reacción"
-      },
-      {
-        "key": "E",
-        "text": "El que cataliza la reacción"
-      },
-      {
-        "key": "F",
-        "text": "El que inhibe la reacción"
+        "text": "La fracción molar multiplicada por cien"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El reactivo limitante se consume primero."
+    "explanation": "M = moles de soluto / litros de disolución (unidades: mol/L)."
   },
   {
     "id": "5.2_q209",
     "number": 209,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es un reactivo en exceso?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "Si se disuelven \\( 0.5 \\, \\text{moles} \\) de \\( NaCl \\) en agua suficiente para preparar \\( 2.0 \\, L \\) de disolución, la molaridad resultante es:",
     "options": [
       {
         "key": "A",
-        "text": "El que está en mayor cantidad de la necesaria"
+        "text": "\\( 0.25 \\, M \\)"
       },
       {
         "key": "B",
-        "text": "El que está en menor cantidad de la necesaria"
+        "text": "\\( 1.0 \\, M \\)"
       },
       {
         "key": "C",
-        "text": "El que se consume primero"
+        "text": "\\( 0.50 \\, M \\)"
       },
       {
         "key": "D",
-        "text": "El que no se consume"
-      },
-      {
-        "key": "E",
-        "text": "El que se produce en la reacción"
-      },
-      {
-        "key": "F",
-        "text": "El que cataliza la reacción"
+        "text": "\\( 4.0 \\, M \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El reactivo en exceso está en mayor cantidad."
+    "explanation": "M = 0.5 moles / 2.0 L = 0.25 mol/L = 0.25 M."
   },
   {
     "id": "5.2_q210",
     "number": 210,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es el rendimiento de una reacción?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "La ecuación empleada para calcular diluciones en el laboratorio químico \\( (C_1 V_1 = C_2 V_2) \\) se fundamenta en que:",
     "options": [
       {
         "key": "A",
-        "text": "La relación entre el producto obtenido y el teórico"
+        "text": "La cantidad de moles o masa de soluto permanece constante al añadir más disolvente"
       },
       {
         "key": "B",
-        "text": "La relación entre el reactivo y el producto"
+        "text": "El volumen de la solución disminuye al agregar agua destilada"
       },
       {
         "key": "C",
-        "text": "La relación entre el producto y el reactivo"
+        "text": "La densidad del solvente se duplica automáticamente"
       },
       {
         "key": "D",
-        "text": "La relación entre los reactivos"
-      },
-      {
-        "key": "E",
-        "text": "La relación entre los productos"
-      },
-      {
-        "key": "F",
-        "text": "La relación entre el catalizador y el producto"
+        "text": "La masa molar del compuesto cambia de valor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El rendimiento es producto obtenido/teórico."
+    "explanation": "Diluir consiste en agregar disolvente; la masa y los moles de soluto no varían entre el estado inicial y el final."
   },
   {
     "id": "5.2_q211",
     "number": 211,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es un catalizador?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 11): Los cuatro números cuánticos que describen el estado de un electrón en un átomo son:",
     "options": [
       {
         "key": "A",
-        "text": "Una sustancia que acelera una reacción sin consumirse"
+        "text": "Principal \\( (n) \\), secundario o azimutal \\( (l) \\), magnético \\( (m_l) \\) y de espín \\( (m_s) \\)"
       },
       {
         "key": "B",
-        "text": "Una sustancia que retarda una reacción"
+        "text": "Masa, carga, velocidad y radio"
       },
       {
         "key": "C",
-        "text": "Una sustancia que se consume en la reacción"
+        "text": "Neutrónico, protónico, leptónico y bariónico"
       },
       {
         "key": "D",
-        "text": "Una sustancia que se produce en la reacción"
-      },
-      {
-        "key": "E",
-        "text": "Una sustancia que inhibe la reacción"
-      },
-      {
-        "key": "F",
-        "text": "Una sustancia que detiene la reacción"
+        "text": "Alfa, beta, gamma y delta"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El catalizador acelera sin consumirse."
+    "explanation": "n indica el nivel de energía; l el subnivel o forma del orbital; ml la orientación espacial; y ms el giro intrínseco."
   },
   {
     "id": "5.2_q212",
     "number": 212,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es un inhibidor?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 12): El número cuántico azimutal o de momento angular \\( l \\) puede tomar valores enteros desde:",
     "options": [
       {
         "key": "A",
-        "text": "Una sustancia que retarda o detiene una reacción"
+        "text": "\\( 0 \\) hasta \\( n - 1 \\) (donde 0=s, 1=p, 2=d, 3=f)"
       },
       {
         "key": "B",
-        "text": "Una sustancia que acelera una reacción"
+        "text": "\\( 1 \\) hasta \\( n + 1 \\)"
       },
       {
         "key": "C",
-        "text": "Una sustancia que se consume en la reacción"
+        "text": "\\( -n \\) hasta \\( +n \\)"
       },
       {
         "key": "D",
-        "text": "Una sustancia que se produce en la reacción"
-      },
-      {
-        "key": "E",
-        "text": "Una sustancia que cataliza la reacción"
-      },
-      {
-        "key": "F",
-        "text": "Una sustancia que inicia la reacción"
+        "text": "Únicamente valores negativos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El inhibidor retarda o detiene."
+    "explanation": "Para un nivel dado n, el valor de l varía desde 0 hasta n-1, determinando la geometría del orbital."
   },
   {
     "id": "5.2_q213",
     "number": 213,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es la energía de activación?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 13): El 'Principio de Exclusión de Pauli' establece que en un mismo átomo:",
     "options": [
       {
         "key": "A",
-        "text": "La energía mínima necesaria para iniciar una reacción"
+        "text": "No pueden existir dos electrones con los cuatro números cuánticos idénticos"
       },
       {
         "key": "B",
-        "text": "La energía liberada en una reacción"
+        "text": "Todos los orbitales deben llenarse con espines paralelos"
       },
       {
         "key": "C",
-        "text": "La energía absorbida en una reacción"
+        "text": "Los electrones ocupan primero los niveles de mayor energía"
       },
       {
         "key": "D",
-        "text": "La energía total de una reacción"
-      },
-      {
-        "key": "E",
-        "text": "La energía de los reactivos"
-      },
-      {
-        "key": "F",
-        "text": "La energía de los productos"
+        "text": "La masa del protón debe ser igual a la del electrón"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La energía de activación inicia la reacción."
+    "explanation": "Dos electrones en un mismo orbital pueden compartir n, l y ml, pero obligatoriamente deben tener espines opuestos (+1/2 y -1/2)."
   },
   {
     "id": "5.2_q214",
     "number": 214,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es una reacción exotérmica?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 14): La 'Regla de Hund' de máxima multiplicidad señala que al llenar orbitales degenerados (de igual energía):",
     "options": [
       {
         "key": "A",
-        "text": "La que libera energía en forma de calor"
+        "text": "Los electrones se distribuyen con espines paralelos ocupando el mayor número posible de orbitales antes de aparearse"
       },
       {
         "key": "B",
-        "text": "La que absorbe energía en forma de calor"
+        "text": "Los orbitales se aparean completamente antes de ocupar el siguiente"
       },
       {
         "key": "C",
-        "text": "La que no intercambia energía"
+        "text": "Se llenan primero los subniveles con espines antihorarios"
       },
       {
         "key": "D",
-        "text": "La que libera energía en forma de luz"
-      },
-      {
-        "key": "E",
-        "text": "La que absorbe energía en forma de luz"
-      },
-      {
-        "key": "F",
-        "text": "La que libera energía en forma de sonido"
+        "text": "No pueden ingresar más de un electrón por nivel cuántico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La reacción exotérmica libera calor."
+    "explanation": "La configuración de menor energía es la que maximiza el número de electrones desapareados con espín paralelo."
   },
   {
     "id": "5.2_q215",
     "number": 215,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es una reacción endotérmica?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 15): La configuración electrónica en estado fundamental del átomo de Carbono \\( (Z = 6) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "La que absorbe energía en forma de calor"
+        "text": "\\( 1s^2 \\, 2s^2 \\, 2p^2 \\)"
       },
       {
         "key": "B",
-        "text": "La que libera energía en forma de calor"
+        "text": "\\( 1s^2 \\, 2s^4 \\)"
       },
       {
         "key": "C",
-        "text": "La que no intercambia energía"
+        "text": "\\( 1s^3 \\, 2p^3 \\)"
       },
       {
         "key": "D",
-        "text": "La que libera energía en forma de luz"
-      },
-      {
-        "key": "E",
-        "text": "La que absorbe energía en forma de luz"
-      },
-      {
-        "key": "F",
-        "text": "La que libera energía en forma de sonido"
+        "text": "\\( 1s^2 \\, 2s^1 \\, 2p^3 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La reacción endotérmica absorbe calor."
+    "explanation": "Siguiendo el principio de Aufbau: el nivel 1s aloja 2 electrones, el 2s aloja 2 electrones y el 2p aloja 2 electrones."
   },
   {
     "id": "5.2_q216",
     "number": 216,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es un ejemplo de reacción exotérmica?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 16): En la tabla periódica, la propiedad periódica denominada 'Electronegatividad' tiende a:",
     "options": [
       {
         "key": "A",
-        "text": "La combustión"
+        "text": "Aumentar de izquierda a derecha a lo largo de un período y disminuir de arriba hacia abajo en un grupo"
       },
       {
         "key": "B",
-        "text": "La fotosíntesis"
+        "text": "Aumentar hacia abajo en los grupos alcalinos"
       },
       {
         "key": "C",
-        "text": "La electrólisis"
+        "text": "Permanecer constante en toda la tabla"
       },
       {
         "key": "D",
-        "text": "La fusión del hielo"
-      },
-      {
-        "key": "E",
-        "text": "La evaporación del agua"
-      },
-      {
-        "key": "F",
-        "text": "La sublimación del yodo"
+        "text": "Disminuir hacia la esquina superior derecha"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La combustión es exotérmica."
+    "explanation": "El Flúor es el elemento más electronegativo (4.0 en la escala de Pauling) en la esquina superior derecha."
   },
   {
     "id": "5.2_q217",
     "number": 217,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es un ejemplo de reacción endotérmica?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 17): La concentración en porcentaje masa en volumen (% m/v) de una solución se define operativamente como:",
     "options": [
       {
         "key": "A",
-        "text": "La fotosíntesis"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{masa de soluto (g)}}{\\text{volumen de solución (mL)}} \\times 100 \\)"
       },
       {
         "key": "B",
-        "text": "La combustión"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{moles de soluto}}{\\text{litros de solvente}} \\times 100 \\)"
       },
       {
         "key": "C",
-        "text": "La respiración celular"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{masa de solvente (kg)}}{\\text{masa de soluto (g)}} \\times 100 \\)"
       },
       {
         "key": "D",
-        "text": "La oxidación del hierro"
-      },
-      {
-        "key": "E",
-        "text": "La fermentación"
-      },
-      {
-        "key": "F",
-        "text": "La corrosión"
+        "text": "\\( \\% \\, m/v = \\text{volumen de soluto} + \\text{volumen de solvente} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La fotosíntesis es endotérmica."
+    "explanation": "Expresa los gramos de soluto disueltos en exactamente 100 mililitros de disolución total."
   },
   {
     "id": "5.2_q218",
     "number": 218,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es el equilibrio químico?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 18): La 'Molaridad' \\( (M) \\) de una disolución acuosa se define como:",
     "options": [
       {
         "key": "A",
-        "text": "El estado en que las velocidades de reacción directa e inversa son iguales"
+        "text": "El número de moles de soluto disueltos en un litro \\( (1 \\, L) \\) de disolución"
       },
       {
         "key": "B",
-        "text": "El estado en que la reacción directa es más rápida"
+        "text": "El número de gramos de soluto en un kilogramo de agua"
       },
       {
         "key": "C",
-        "text": "El estado en que la reacción inversa es más rápida"
+        "text": "El número de equivalentes-gramo por mililitro"
       },
       {
         "key": "D",
-        "text": "El estado en que la reacción se detiene"
-      },
-      {
-        "key": "E",
-        "text": "El estado en que no hay reacción"
-      },
-      {
-        "key": "F",
-        "text": "El estado en que solo hay reactivos"
+        "text": "La fracción molar multiplicada por cien"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El equilibrio químico iguala velocidades."
+    "explanation": "M = moles de soluto / litros de disolución (unidades: mol/L)."
   },
   {
     "id": "5.2_q219",
     "number": 219,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es el principio de Le Chatelier?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 19): Si se disuelven \\( 0.5 \\, \\text{moles} \\) de \\( NaCl \\) en agua suficiente para preparar \\( 2.0 \\, L \\) de disolución, la molaridad resultante es:",
     "options": [
       {
         "key": "A",
-        "text": "Si se altera un sistema en equilibrio, este se desplaza para contrarrestar el cambio"
+        "text": "\\( 0.25 \\, M \\)"
       },
       {
         "key": "B",
-        "text": "Si se altera un sistema en equilibrio, este no cambia"
+        "text": "\\( 1.0 \\, M \\)"
       },
       {
         "key": "C",
-        "text": "Si se altera un sistema en equilibrio, este se destruye"
+        "text": "\\( 0.50 \\, M \\)"
       },
       {
         "key": "D",
-        "text": "Si se altera un sistema en equilibrio, este se acelera"
-      },
-      {
-        "key": "E",
-        "text": "Si se altera un sistema en equilibrio, este se detiene"
-      },
-      {
-        "key": "F",
-        "text": "Si se altera un sistema en equilibrio, este se invierte"
+        "text": "\\( 4.0 \\, M \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Le Chatelier: el sistema contrarresta el cambio."
+    "explanation": "M = 0.5 moles / 2.0 L = 0.25 mol/L = 0.25 M."
   },
   {
     "id": "5.2_q220",
     "number": 220,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es un ácido según Arrhenius?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 20): La ecuación empleada para calcular diluciones en el laboratorio químico \\( (C_1 V_1 = C_2 V_2) \\) se fundamenta en que:",
     "options": [
       {
         "key": "A",
-        "text": "Una sustancia que libera iones H⁺ en agua"
+        "text": "La cantidad de moles o masa de soluto permanece constante al añadir más disolvente"
       },
       {
         "key": "B",
-        "text": "Una sustancia que libera iones OH⁻ en agua"
+        "text": "El volumen de la solución disminuye al agregar agua destilada"
       },
       {
         "key": "C",
-        "text": "Una sustancia que acepta protones"
+        "text": "La densidad del solvente se duplica automáticamente"
       },
       {
         "key": "D",
-        "text": "Una sustancia que dona electrones"
-      },
-      {
-        "key": "E",
-        "text": "Una sustancia que acepta electrones"
-      },
-      {
-        "key": "F",
-        "text": "Una sustancia que dona neutrones"
+        "text": "La masa molar del compuesto cambia de valor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Ácido Arrhenius libera H⁺."
+    "explanation": "Diluir consiste en agregar disolvente; la masa y los moles de soluto no varían entre el estado inicial y el final."
   },
   {
     "id": "5.2_q221",
     "number": 221,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es una base según Arrhenius?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 21): Los cuatro números cuánticos que describen el estado de un electrón en un átomo son:",
     "options": [
       {
         "key": "A",
-        "text": "Una sustancia que libera iones OH⁻ en agua"
+        "text": "Principal \\( (n) \\), secundario o azimutal \\( (l) \\), magnético \\( (m_l) \\) y de espín \\( (m_s) \\)"
       },
       {
         "key": "B",
-        "text": "Una sustancia que libera iones H⁺ en agua"
+        "text": "Masa, carga, velocidad y radio"
       },
       {
         "key": "C",
-        "text": "Una sustancia que dona protones"
+        "text": "Neutrónico, protónico, leptónico y bariónico"
       },
       {
         "key": "D",
-        "text": "Una sustancia que acepta electrones"
-      },
-      {
-        "key": "E",
-        "text": "Una sustancia que dona electrones"
-      },
-      {
-        "key": "F",
-        "text": "Una sustancia que acepta neutrones"
+        "text": "Alfa, beta, gamma y delta"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Base Arrhenius libera OH⁻."
+    "explanation": "n indica el nivel de energía; l el subnivel o forma del orbital; ml la orientación espacial; y ms el giro intrínseco."
   },
   {
     "id": "5.2_q222",
     "number": 222,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es un ácido según Brønsted-Lowry?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 22): El número cuántico azimutal o de momento angular \\( l \\) puede tomar valores enteros desde:",
     "options": [
       {
         "key": "A",
-        "text": "Una sustancia que dona protones"
+        "text": "\\( 0 \\) hasta \\( n - 1 \\) (donde 0=s, 1=p, 2=d, 3=f)"
       },
       {
         "key": "B",
-        "text": "Una sustancia que acepta protones"
+        "text": "\\( 1 \\) hasta \\( n + 1 \\)"
       },
       {
         "key": "C",
-        "text": "Una sustancia que libera iones OH⁻"
+        "text": "\\( -n \\) hasta \\( +n \\)"
       },
       {
         "key": "D",
-        "text": "Una sustancia que libera iones H⁺"
-      },
-      {
-        "key": "E",
-        "text": "Una sustancia que acepta electrones"
-      },
-      {
-        "key": "F",
-        "text": "Una sustancia que dona electrones"
+        "text": "Únicamente valores negativos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Ácido Brønsted-Lowry dona protones."
+    "explanation": "Para un nivel dado n, el valor de l varía desde 0 hasta n-1, determinando la geometría del orbital."
   },
   {
     "id": "5.2_q223",
     "number": 223,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es una base según Brønsted-Lowry?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 23): El 'Principio de Exclusión de Pauli' establece que en un mismo átomo:",
     "options": [
       {
         "key": "A",
-        "text": "Una sustancia que acepta protones"
+        "text": "No pueden existir dos electrones con los cuatro números cuánticos idénticos"
       },
       {
         "key": "B",
-        "text": "Una sustancia que dona protones"
+        "text": "Todos los orbitales deben llenarse con espines paralelos"
       },
       {
         "key": "C",
-        "text": "Una sustancia que libera iones OH⁻"
+        "text": "Los electrones ocupan primero los niveles de mayor energía"
       },
       {
         "key": "D",
-        "text": "Una sustancia que libera iones H⁺"
-      },
-      {
-        "key": "E",
-        "text": "Una sustancia que acepta electrones"
-      },
-      {
-        "key": "F",
-        "text": "Una sustancia que dona electrones"
+        "text": "La masa del protón debe ser igual a la del electrón"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Base Brønsted-Lowry acepta protones."
+    "explanation": "Dos electrones en un mismo orbital pueden compartir n, l y ml, pero obligatoriamente deben tener espines opuestos (+1/2 y -1/2)."
   },
   {
     "id": "5.2_q224",
     "number": 224,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es el pH?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 24): La 'Regla de Hund' de máxima multiplicidad señala que al llenar orbitales degenerados (de igual energía):",
     "options": [
       {
         "key": "A",
-        "text": "La medida de la acidez o basicidad de una disolución"
+        "text": "Los electrones se distribuyen con espines paralelos ocupando el mayor número posible de orbitales antes de aparearse"
       },
       {
         "key": "B",
-        "text": "La medida de la temperatura de una disolución"
+        "text": "Los orbitales se aparean completamente antes de ocupar el siguiente"
       },
       {
         "key": "C",
-        "text": "La medida de la densidad de una disolución"
+        "text": "Se llenan primero los subniveles con espines antihorarios"
       },
       {
         "key": "D",
-        "text": "La medida de la presión de una disolución"
-      },
-      {
-        "key": "E",
-        "text": "La medida del volumen de una disolución"
-      },
-      {
-        "key": "F",
-        "text": "La medida de la masa de una disolución"
+        "text": "No pueden ingresar más de un electrón por nivel cuántico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El pH mide acidez o basicidad."
+    "explanation": "La configuración de menor energía es la que maximiza el número de electrones desapareados con espín paralelo."
   },
   {
     "id": "5.2_q225",
     "number": 225,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es el pH de una disolución neutra?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 25): La configuración electrónica en estado fundamental del átomo de Carbono \\( (Z = 6) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "7"
+        "text": "\\( 1s^2 \\, 2s^2 \\, 2p^2 \\)"
       },
       {
         "key": "B",
-        "text": "0"
+        "text": "\\( 1s^2 \\, 2s^4 \\)"
       },
       {
         "key": "C",
-        "text": "14"
+        "text": "\\( 1s^3 \\, 2p^3 \\)"
       },
       {
         "key": "D",
-        "text": "1"
-      },
-      {
-        "key": "E",
-        "text": "13"
-      },
-      {
-        "key": "F",
-        "text": "10"
+        "text": "\\( 1s^2 \\, 2s^1 \\, 2p^3 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "pH neutro es 7."
+    "explanation": "Siguiendo el principio de Aufbau: el nivel 1s aloja 2 electrones, el 2s aloja 2 electrones y el 2p aloja 2 electrones."
   },
   {
     "id": "5.2_q226",
     "number": 226,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es el pH de una disolución ácida?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 26): En la tabla periódica, la propiedad periódica denominada 'Electronegatividad' tiende a:",
     "options": [
       {
         "key": "A",
-        "text": "Menor que 7"
+        "text": "Aumentar de izquierda a derecha a lo largo de un período y disminuir de arriba hacia abajo en un grupo"
       },
       {
         "key": "B",
-        "text": "Mayor que 7"
+        "text": "Aumentar hacia abajo en los grupos alcalinos"
       },
       {
         "key": "C",
-        "text": "Igual a 7"
+        "text": "Permanecer constante en toda la tabla"
       },
       {
         "key": "D",
-        "text": "Igual a 0"
-      },
-      {
-        "key": "E",
-        "text": "Igual a 14"
-      },
-      {
-        "key": "F",
-        "text": "Mayor que 14"
+        "text": "Disminuir hacia la esquina superior derecha"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "pH ácido es menor que 7."
+    "explanation": "El Flúor es el elemento más electronegativo (4.0 en la escala de Pauling) en la esquina superior derecha."
   },
   {
     "id": "5.2_q227",
     "number": 227,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es el pH de una disolución básica?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 27): La concentración en porcentaje masa en volumen (% m/v) de una solución se define operativamente como:",
     "options": [
       {
         "key": "A",
-        "text": "Mayor que 7"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{masa de soluto (g)}}{\\text{volumen de solución (mL)}} \\times 100 \\)"
       },
       {
         "key": "B",
-        "text": "Menor que 7"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{moles de soluto}}{\\text{litros de solvente}} \\times 100 \\)"
       },
       {
         "key": "C",
-        "text": "Igual a 7"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{masa de solvente (kg)}}{\\text{masa de soluto (g)}} \\times 100 \\)"
       },
       {
         "key": "D",
-        "text": "Igual a 0"
-      },
-      {
-        "key": "E",
-        "text": "Igual a 14"
-      },
-      {
-        "key": "F",
-        "text": "Menor que 0"
+        "text": "\\( \\% \\, m/v = \\text{volumen de soluto} + \\text{volumen de solvente} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "pH básico es mayor que 7."
+    "explanation": "Expresa los gramos de soluto disueltos en exactamente 100 mililitros de disolución total."
   },
   {
     "id": "5.2_q228",
     "number": 228,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es una reacción de neutralización?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 28): La 'Molaridad' \\( (M) \\) de una disolución acuosa se define como:",
     "options": [
       {
         "key": "A",
-        "text": "La reacción entre un ácido y una base para formar sal y agua"
+        "text": "El número de moles de soluto disueltos en un litro \\( (1 \\, L) \\) de disolución"
       },
       {
         "key": "B",
-        "text": "La reacción entre dos ácidos"
+        "text": "El número de gramos de soluto en un kilogramo de agua"
       },
       {
         "key": "C",
-        "text": "La reacción entre dos bases"
+        "text": "El número de equivalentes-gramo por mililitro"
       },
       {
         "key": "D",
-        "text": "La reacción entre un ácido y un metal"
-      },
-      {
-        "key": "E",
-        "text": "La reacción entre una base y un no metal"
-      },
-      {
-        "key": "F",
-        "text": "La reacción entre dos sales"
+        "text": "La fracción molar multiplicada por cien"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La neutralización forma sal y agua."
+    "explanation": "M = moles de soluto / litros de disolución (unidades: mol/L)."
   },
   {
     "id": "5.2_q229",
     "number": 229,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es el producto de la reacción entre HCl y NaOH?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 29): Si se disuelven \\( 0.5 \\, \\text{moles} \\) de \\( NaCl \\) en agua suficiente para preparar \\( 2.0 \\, L \\) de disolución, la molaridad resultante es:",
     "options": [
       {
         "key": "A",
-        "text": "NaCl y H₂O"
+        "text": "\\( 0.25 \\, M \\)"
       },
       {
         "key": "B",
-        "text": "NaCl y H₂"
+        "text": "\\( 1.0 \\, M \\)"
       },
       {
         "key": "C",
-        "text": "NaCl y O₂"
+        "text": "\\( 0.50 \\, M \\)"
       },
       {
         "key": "D",
-        "text": "NaH y Cl₂"
-      },
-      {
-        "key": "E",
-        "text": "Na y HCl"
-      },
-      {
-        "key": "F",
-        "text": "NaOH y HCl"
+        "text": "\\( 4.0 \\, M \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "HCl + NaOH → NaCl + H₂O."
+    "explanation": "M = 0.5 moles / 2.0 L = 0.25 mol/L = 0.25 M."
   },
   {
     "id": "5.2_q230",
     "number": 230,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es un indicador ácido-base?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 30): La ecuación empleada para calcular diluciones en el laboratorio químico \\( (C_1 V_1 = C_2 V_2) \\) se fundamenta en que:",
     "options": [
       {
         "key": "A",
-        "text": "Una sustancia que cambia de color según el pH"
+        "text": "La cantidad de moles o masa de soluto permanece constante al añadir más disolvente"
       },
       {
         "key": "B",
-        "text": "Una sustancia que cambia de temperatura"
+        "text": "El volumen de la solución disminuye al agregar agua destilada"
       },
       {
         "key": "C",
-        "text": "Una sustancia que cambia de densidad"
+        "text": "La densidad del solvente se duplica automáticamente"
       },
       {
         "key": "D",
-        "text": "Una sustancia que cambia de presión"
-      },
-      {
-        "key": "E",
-        "text": "Una sustancia que cambia de volumen"
-      },
-      {
-        "key": "F",
-        "text": "Una sustancia que cambia de masa"
+        "text": "La masa molar del compuesto cambia de valor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El indicador cambia de color según pH."
+    "explanation": "Diluir consiste en agregar disolvente; la masa y los moles de soluto no varían entre el estado inicial y el final."
   },
   {
     "id": "5.2_q231",
     "number": 231,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es un ejemplo de indicador ácido-base?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 31): Los cuatro números cuánticos que describen el estado de un electrón en un átomo son:",
     "options": [
       {
         "key": "A",
-        "text": "La fenolftaleína"
+        "text": "Principal \\( (n) \\), secundario o azimutal \\( (l) \\), magnético \\( (m_l) \\) y de espín \\( (m_s) \\)"
       },
       {
         "key": "B",
-        "text": "El agua"
+        "text": "Masa, carga, velocidad y radio"
       },
       {
         "key": "C",
-        "text": "El alcohol"
+        "text": "Neutrónico, protónico, leptónico y bariónico"
       },
       {
         "key": "D",
-        "text": "La sal"
-      },
-      {
-        "key": "E",
-        "text": "El azúcar"
-      },
-      {
-        "key": "F",
-        "text": "El aceite"
+        "text": "Alfa, beta, gamma y delta"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La fenolftaleína es un indicador."
+    "explanation": "n indica el nivel de energía; l el subnivel o forma del orbital; ml la orientación espacial; y ms el giro intrínseco."
   },
   {
     "id": "5.2_q232",
     "number": 232,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es una sal?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 32): El número cuántico azimutal o de momento angular \\( l \\) puede tomar valores enteros desde:",
     "options": [
       {
         "key": "A",
-        "text": "Un compuesto formado por un catión y un anión"
+        "text": "\\( 0 \\) hasta \\( n - 1 \\) (donde 0=s, 1=p, 2=d, 3=f)"
       },
       {
         "key": "B",
-        "text": "Un compuesto formado por dos cationes"
+        "text": "\\( 1 \\) hasta \\( n + 1 \\)"
       },
       {
         "key": "C",
-        "text": "Un compuesto formado por dos aniones"
+        "text": "\\( -n \\) hasta \\( +n \\)"
       },
       {
         "key": "D",
-        "text": "Un compuesto formado por un ácido y una base"
-      },
-      {
-        "key": "E",
-        "text": "Un compuesto formado por dos ácidos"
-      },
-      {
-        "key": "F",
-        "text": "Un compuesto formado por dos bases"
+        "text": "Únicamente valores negativos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Una sal tiene catión y anión."
+    "explanation": "Para un nivel dado n, el valor de l varía desde 0 hasta n-1, determinando la geometría del orbital."
   },
   {
     "id": "5.2_q233",
     "number": 233,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es la electrólisis?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 33): El 'Principio de Exclusión de Pauli' establece que en un mismo átomo:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de descomposición de una sustancia mediante electricidad"
+        "text": "No pueden existir dos electrones con los cuatro números cuánticos idénticos"
       },
       {
         "key": "B",
-        "text": "El proceso de descomposición de una sustancia mediante calor"
+        "text": "Todos los orbitales deben llenarse con espines paralelos"
       },
       {
         "key": "C",
-        "text": "El proceso de descomposición de una sustancia mediante luz"
+        "text": "Los electrones ocupan primero los niveles de mayor energía"
       },
       {
         "key": "D",
-        "text": "El proceso de descomposición de una sustancia mediante presión"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de descomposición de una sustancia mediante sonido"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de descomposición de una sustancia mediante radiación"
+        "text": "La masa del protón debe ser igual a la del electrón"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La electrólisis descompone con electricidad."
+    "explanation": "Dos electrones en un mismo orbital pueden compartir n, l y ml, pero obligatoriamente deben tener espines opuestos (+1/2 y -1/2)."
   },
   {
     "id": "5.2_q234",
     "number": 234,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es una pila?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 34): La 'Regla de Hund' de máxima multiplicidad señala que al llenar orbitales degenerados (de igual energía):",
     "options": [
       {
         "key": "A",
-        "text": "Un dispositivo que convierte energía química en eléctrica"
+        "text": "Los electrones se distribuyen con espines paralelos ocupando el mayor número posible de orbitales antes de aparearse"
       },
       {
         "key": "B",
-        "text": "Un dispositivo que convierte energía eléctrica en química"
+        "text": "Los orbitales se aparean completamente antes de ocupar el siguiente"
       },
       {
         "key": "C",
-        "text": "Un dispositivo que convierte energía mecánica en eléctrica"
+        "text": "Se llenan primero los subniveles con espines antihorarios"
       },
       {
         "key": "D",
-        "text": "Un dispositivo que convierte energía térmica en eléctrica"
-      },
-      {
-        "key": "E",
-        "text": "Un dispositivo que convierte energía solar en eléctrica"
-      },
-      {
-        "key": "F",
-        "text": "Un dispositivo que convierte energía nuclear en eléctrica"
+        "text": "No pueden ingresar más de un electrón por nivel cuántico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pila convierte energía química en eléctrica."
+    "explanation": "La configuración de menor energía es la que maximiza el número de electrones desapareados con espín paralelo."
   },
   {
     "id": "5.2_q235",
     "number": 235,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es la corrosión?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 35): La configuración electrónica en estado fundamental del átomo de Carbono \\( (Z = 6) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "La degradación de un metal por reacción química con el ambiente"
+        "text": "\\( 1s^2 \\, 2s^2 \\, 2p^2 \\)"
       },
       {
         "key": "B",
-        "text": "La degradación de un metal por reacción física"
+        "text": "\\( 1s^2 \\, 2s^4 \\)"
       },
       {
         "key": "C",
-        "text": "La degradación de un metal por reacción mecánica"
+        "text": "\\( 1s^3 \\, 2p^3 \\)"
       },
       {
         "key": "D",
-        "text": "La degradación de un metal por reacción térmica"
-      },
-      {
-        "key": "E",
-        "text": "La degradación de un metal por reacción eléctrica"
-      },
-      {
-        "key": "F",
-        "text": "La degradación de un metal por reacción nuclear"
+        "text": "\\( 1s^2 \\, 2s^1 \\, 2p^3 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La corrosión degrada metales por reacción química."
+    "explanation": "Siguiendo el principio de Aufbau: el nivel 1s aloja 2 electrones, el 2s aloja 2 electrones y el 2p aloja 2 electrones."
   },
   {
     "id": "5.2_q236",
     "number": 236,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es la oxidación?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 36): En la tabla periódica, la propiedad periódica denominada 'Electronegatividad' tiende a:",
     "options": [
       {
         "key": "A",
-        "text": "La pérdida de electrones por parte de una sustancia"
+        "text": "Aumentar de izquierda a derecha a lo largo de un período y disminuir de arriba hacia abajo en un grupo"
       },
       {
         "key": "B",
-        "text": "La ganancia de electrones por parte de una sustancia"
+        "text": "Aumentar hacia abajo en los grupos alcalinos"
       },
       {
         "key": "C",
-        "text": "La pérdida de protones por parte de una sustancia"
+        "text": "Permanecer constante en toda la tabla"
       },
       {
         "key": "D",
-        "text": "La ganancia de protones por parte de una sustancia"
-      },
-      {
-        "key": "E",
-        "text": "La pérdida de neutrones por parte de una sustancia"
-      },
-      {
-        "key": "F",
-        "text": "La ganancia de neutrones por parte de una sustancia"
+        "text": "Disminuir hacia la esquina superior derecha"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La oxidación pierde electrones."
+    "explanation": "El Flúor es el elemento más electronegativo (4.0 en la escala de Pauling) en la esquina superior derecha."
   },
   {
     "id": "5.2_q237",
     "number": 237,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es la reducción?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 37): La concentración en porcentaje masa en volumen (% m/v) de una solución se define operativamente como:",
     "options": [
       {
         "key": "A",
-        "text": "La ganancia de electrones por parte de una sustancia"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{masa de soluto (g)}}{\\text{volumen de solución (mL)}} \\times 100 \\)"
       },
       {
         "key": "B",
-        "text": "La pérdida de electrones por parte de una sustancia"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{moles de soluto}}{\\text{litros de solvente}} \\times 100 \\)"
       },
       {
         "key": "C",
-        "text": "La ganancia de protones por parte de una sustancia"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{masa de solvente (kg)}}{\\text{masa de soluto (g)}} \\times 100 \\)"
       },
       {
         "key": "D",
-        "text": "La pérdida de protones por parte de una sustancia"
-      },
-      {
-        "key": "E",
-        "text": "La ganancia de neutrones por parte de una sustancia"
-      },
-      {
-        "key": "F",
-        "text": "La pérdida de neutrones por parte de una sustancia"
+        "text": "\\( \\% \\, m/v = \\text{volumen de soluto} + \\text{volumen de solvente} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La reducción gana electrones."
+    "explanation": "Expresa los gramos de soluto disueltos en exactamente 100 mililitros de disolución total."
   },
   {
     "id": "5.2_q238",
     "number": 238,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es una reacción redox?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 38): La 'Molaridad' \\( (M) \\) de una disolución acuosa se define como:",
     "options": [
       {
         "key": "A",
-        "text": "La que implica transferencia de electrones"
+        "text": "El número de moles de soluto disueltos en un litro \\( (1 \\, L) \\) de disolución"
       },
       {
         "key": "B",
-        "text": "La que implica transferencia de protones"
+        "text": "El número de gramos de soluto en un kilogramo de agua"
       },
       {
         "key": "C",
-        "text": "La que implica transferencia de neutrones"
+        "text": "El número de equivalentes-gramo por mililitro"
       },
       {
         "key": "D",
-        "text": "La que implica transferencia de átomos"
-      },
-      {
-        "key": "E",
-        "text": "La que implica transferencia de moléculas"
-      },
-      {
-        "key": "F",
-        "text": "La que implica transferencia de iones"
+        "text": "La fracción molar multiplicada por cien"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La reacción redox transfiere electrones."
+    "explanation": "M = moles de soluto / litros de disolución (unidades: mol/L)."
   },
   {
     "id": "5.2_q239",
     "number": 239,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es el agente oxidante?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 39): Si se disuelven \\( 0.5 \\, \\text{moles} \\) de \\( NaCl \\) en agua suficiente para preparar \\( 2.0 \\, L \\) de disolución, la molaridad resultante es:",
     "options": [
       {
         "key": "A",
-        "text": "La sustancia que gana electrones y se reduce"
+        "text": "\\( 0.25 \\, M \\)"
       },
       {
         "key": "B",
-        "text": "La sustancia que pierde electrones y se oxida"
+        "text": "\\( 1.0 \\, M \\)"
       },
       {
         "key": "C",
-        "text": "La sustancia que gana protones"
+        "text": "\\( 0.50 \\, M \\)"
       },
       {
         "key": "D",
-        "text": "La sustancia que pierde protones"
-      },
-      {
-        "key": "E",
-        "text": "La sustancia que gana neutrones"
-      },
-      {
-        "key": "F",
-        "text": "La sustancia que pierde neutrones"
+        "text": "\\( 4.0 \\, M \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El agente oxidante gana electrones y se reduce."
+    "explanation": "M = 0.5 moles / 2.0 L = 0.25 mol/L = 0.25 M."
   },
   {
     "id": "5.2_q240",
     "number": 240,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es el agente reductor?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 40): La ecuación empleada para calcular diluciones en el laboratorio químico \\( (C_1 V_1 = C_2 V_2) \\) se fundamenta en que:",
     "options": [
       {
         "key": "A",
-        "text": "La sustancia que pierde electrones y se oxida"
+        "text": "La cantidad de moles o masa de soluto permanece constante al añadir más disolvente"
       },
       {
         "key": "B",
-        "text": "La sustancia que gana electrones y se reduce"
+        "text": "El volumen de la solución disminuye al agregar agua destilada"
       },
       {
         "key": "C",
-        "text": "La sustancia que gana protones"
+        "text": "La densidad del solvente se duplica automáticamente"
       },
       {
         "key": "D",
-        "text": "La sustancia que pierde protones"
-      },
-      {
-        "key": "E",
-        "text": "La sustancia que gana neutrones"
-      },
-      {
-        "key": "F",
-        "text": "La sustancia que pierde neutrones"
+        "text": "La masa molar del compuesto cambia de valor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El agente reductor pierde electrones y se oxida."
+    "explanation": "Diluir consiste en agregar disolvente; la masa y los moles de soluto no varían entre el estado inicial y el final."
   },
   {
     "id": "5.2_q241",
     "number": 241,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es el número de oxidación?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 41): Los cuatro números cuánticos que describen el estado de un electrón en un átomo son:",
     "options": [
       {
         "key": "A",
-        "text": "La carga que tendría un átomo si los electrones se asignaran al átomo más electronegativo"
+        "text": "Principal \\( (n) \\), secundario o azimutal \\( (l) \\), magnético \\( (m_l) \\) y de espín \\( (m_s) \\)"
       },
       {
         "key": "B",
-        "text": "La carga que tendría un átomo si los electrones se asignaran al átomo menos electronegativo"
+        "text": "Masa, carga, velocidad y radio"
       },
       {
         "key": "C",
-        "text": "La carga real de un átomo en un compuesto"
+        "text": "Neutrónico, protónico, leptónico y bariónico"
       },
       {
         "key": "D",
-        "text": "La carga de un ion en disolución"
-      },
-      {
-        "key": "E",
-        "text": "La carga de un electrón"
-      },
-      {
-        "key": "F",
-        "text": "La carga de un protón"
+        "text": "Alfa, beta, gamma y delta"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El número de oxidación es la carga hipotética."
+    "explanation": "n indica el nivel de energía; l el subnivel o forma del orbital; ml la orientación espacial; y ms el giro intrínseco."
   },
   {
     "id": "5.2_q242",
     "number": 242,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es una reacción de síntesis o combinación?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 42): El número cuántico azimutal o de momento angular \\( l \\) puede tomar valores enteros desde:",
     "options": [
       {
         "key": "A",
-        "text": "La que forma un compuesto a partir de dos o más sustancias"
+        "text": "\\( 0 \\) hasta \\( n - 1 \\) (donde 0=s, 1=p, 2=d, 3=f)"
       },
       {
         "key": "B",
-        "text": "La que descompone un compuesto en dos o más sustancias"
+        "text": "\\( 1 \\) hasta \\( n + 1 \\)"
       },
       {
         "key": "C",
-        "text": "La que sustituye un elemento por otro"
+        "text": "\\( -n \\) hasta \\( +n \\)"
       },
       {
         "key": "D",
-        "text": "La que intercambia iones entre compuestos"
-      },
-      {
-        "key": "E",
-        "text": "La que neutraliza un ácido y una base"
-      },
-      {
-        "key": "F",
-        "text": "La que combustiona un compuesto"
+        "text": "Únicamente valores negativos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La síntesis forma un compuesto."
+    "explanation": "Para un nivel dado n, el valor de l varía desde 0 hasta n-1, determinando la geometría del orbital."
   },
   {
     "id": "5.2_q243",
     "number": 243,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es una reacción de descomposición?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 43): El 'Principio de Exclusión de Pauli' establece que en un mismo átomo:",
     "options": [
       {
         "key": "A",
-        "text": "La que descompone un compuesto en dos o más sustancias"
+        "text": "No pueden existir dos electrones con los cuatro números cuánticos idénticos"
       },
       {
         "key": "B",
-        "text": "La que forma un compuesto a partir de dos o más sustancias"
+        "text": "Todos los orbitales deben llenarse con espines paralelos"
       },
       {
         "key": "C",
-        "text": "La que sustituye un elemento por otro"
+        "text": "Los electrones ocupan primero los niveles de mayor energía"
       },
       {
         "key": "D",
-        "text": "La que intercambia iones entre compuestos"
-      },
-      {
-        "key": "E",
-        "text": "La que neutraliza un ácido y una base"
-      },
-      {
-        "key": "F",
-        "text": "La que combustiona un compuesto"
+        "text": "La masa del protón debe ser igual a la del electrón"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La descomposición descompone un compuesto."
+    "explanation": "Dos electrones en un mismo orbital pueden compartir n, l y ml, pero obligatoriamente deben tener espines opuestos (+1/2 y -1/2)."
   },
   {
     "id": "5.2_q244",
     "number": 244,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es el coeficiente correcto para balancear: __H₂ + O₂ → __H₂O?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 44): La 'Regla de Hund' de máxima multiplicidad señala que al llenar orbitales degenerados (de igual energía):",
     "options": [
       {
         "key": "A",
-        "text": "2, 1, 2"
+        "text": "Los electrones se distribuyen con espines paralelos ocupando el mayor número posible de orbitales antes de aparearse"
       },
       {
         "key": "B",
-        "text": "1, 1, 1"
+        "text": "Los orbitales se aparean completamente antes de ocupar el siguiente"
       },
       {
         "key": "C",
-        "text": "2, 2, 2"
+        "text": "Se llenan primero los subniveles con espines antihorarios"
       },
       {
         "key": "D",
-        "text": "1, 2, 1"
-      },
-      {
-        "key": "E",
-        "text": "2, 1, 1"
-      },
-      {
-        "key": "F",
-        "text": "1, 1, 2"
+        "text": "No pueden ingresar más de un electrón por nivel cuántico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2, 1, 2 balancea H₂ + O₂ → H₂O."
+    "explanation": "La configuración de menor energía es la que maximiza el número de electrones desapareados con espín paralelo."
   },
   {
     "id": "5.2_q245",
     "number": 245,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es el coeficiente correcto para balancear: __N₂ + __H₂ → __NH₃?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 45): La configuración electrónica en estado fundamental del átomo de Carbono \\( (Z = 6) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "1, 3, 2"
+        "text": "\\( 1s^2 \\, 2s^2 \\, 2p^2 \\)"
       },
       {
         "key": "B",
-        "text": "1, 2, 3"
+        "text": "\\( 1s^2 \\, 2s^4 \\)"
       },
       {
         "key": "C",
-        "text": "2, 3, 1"
+        "text": "\\( 1s^3 \\, 2p^3 \\)"
       },
       {
         "key": "D",
-        "text": "3, 1, 2"
-      },
-      {
-        "key": "E",
-        "text": "2, 1, 3"
-      },
-      {
-        "key": "F",
-        "text": "1, 1, 1"
+        "text": "\\( 1s^2 \\, 2s^1 \\, 2p^3 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "1, 3, 2 balancea N₂ + H₂ → NH₃."
+    "explanation": "Siguiendo el principio de Aufbau: el nivel 1s aloja 2 electrones, el 2s aloja 2 electrones y el 2p aloja 2 electrones."
   },
   {
     "id": "5.2_q246",
     "number": 246,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es el coeficiente correcto para balancear: __CH₄ + __O₂ → __CO₂ + __H₂O?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 46): En la tabla periódica, la propiedad periódica denominada 'Electronegatividad' tiende a:",
     "options": [
       {
         "key": "A",
-        "text": "1, 2, 1, 2"
+        "text": "Aumentar de izquierda a derecha a lo largo de un período y disminuir de arriba hacia abajo en un grupo"
       },
       {
         "key": "B",
-        "text": "1, 1, 1, 2"
+        "text": "Aumentar hacia abajo en los grupos alcalinos"
       },
       {
         "key": "C",
-        "text": "1, 2, 2, 1"
+        "text": "Permanecer constante en toda la tabla"
       },
       {
         "key": "D",
-        "text": "2, 1, 1, 2"
-      },
-      {
-        "key": "E",
-        "text": "1, 3, 1, 2"
-      },
-      {
-        "key": "F",
-        "text": "2, 2, 1, 1"
+        "text": "Disminuir hacia la esquina superior derecha"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "1, 2, 1, 2 balancea CH₄ + O₂ → CO₂ + H₂O."
+    "explanation": "El Flúor es el elemento más electronegativo (4.0 en la escala de Pauling) en la esquina superior derecha."
   },
   {
     "id": "5.2_q247",
     "number": 247,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es el coeficiente correcto para balancear: __Fe + __O₂ → __Fe₂O₃?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 47): La concentración en porcentaje masa en volumen (% m/v) de una solución se define operativamente como:",
     "options": [
       {
         "key": "A",
-        "text": "4, 3, 2"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{masa de soluto (g)}}{\\text{volumen de solución (mL)}} \\times 100 \\)"
       },
       {
         "key": "B",
-        "text": "2, 3, 1"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{moles de soluto}}{\\text{litros de solvente}} \\times 100 \\)"
       },
       {
         "key": "C",
-        "text": "3, 4, 2"
+        "text": "\\( \\% \\, m/v = \\frac{\\text{masa de solvente (kg)}}{\\text{masa de soluto (g)}} \\times 100 \\)"
       },
       {
         "key": "D",
-        "text": "2, 1, 1"
-      },
-      {
-        "key": "E",
-        "text": "4, 2, 2"
-      },
-      {
-        "key": "F",
-        "text": "1, 1, 1"
+        "text": "\\( \\% \\, m/v = \\text{volumen de soluto} + \\text{volumen de solvente} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "4, 3, 2 balancea Fe + O₂ → Fe₂O₃."
+    "explanation": "Expresa los gramos de soluto disueltos en exactamente 100 mililitros de disolución total."
   },
   {
     "id": "5.2_q248",
     "number": 248,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Cuál es el coeficiente correcto para balancear: __Al + __HCl → __AlCl₃ + __H₂?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 48): La 'Molaridad' \\( (M) \\) de una disolución acuosa se define como:",
     "options": [
       {
         "key": "A",
-        "text": "2, 6, 2, 3"
+        "text": "El número de moles de soluto disueltos en un litro \\( (1 \\, L) \\) de disolución"
       },
       {
         "key": "B",
-        "text": "1, 3, 1, 1"
+        "text": "El número de gramos de soluto en un kilogramo de agua"
       },
       {
         "key": "C",
-        "text": "2, 3, 2, 3"
+        "text": "El número de equivalentes-gramo por mililitro"
       },
       {
         "key": "D",
-        "text": "1, 6, 1, 3"
-      },
-      {
-        "key": "E",
-        "text": "2, 6, 3, 2"
-      },
-      {
-        "key": "F",
-        "text": "3, 6, 2, 2"
+        "text": "La fracción molar multiplicada por cien"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2, 6, 2, 3 balancea Al + HCl → AlCl₃ + H₂."
+    "explanation": "M = moles de soluto / litros de disolución (unidades: mol/L)."
   },
   {
     "id": "5.2_q249",
     "number": 249,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es una ecuación iónica?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 49): Si se disuelven \\( 0.5 \\, \\text{moles} \\) de \\( NaCl \\) en agua suficiente para preparar \\( 2.0 \\, L \\) de disolución, la molaridad resultante es:",
     "options": [
       {
         "key": "A",
-        "text": "La que muestra los iones que participan en la reacción"
+        "text": "\\( 0.25 \\, M \\)"
       },
       {
         "key": "B",
-        "text": "La que muestra las moléculas"
+        "text": "\\( 1.0 \\, M \\)"
       },
       {
         "key": "C",
-        "text": "La que muestra los átomos"
+        "text": "\\( 0.50 \\, M \\)"
       },
       {
         "key": "D",
-        "text": "La que muestra los electrones"
-      },
-      {
-        "key": "E",
-        "text": "La que muestra los protones"
-      },
-      {
-        "key": "F",
-        "text": "La que muestra los neutrones"
+        "text": "\\( 4.0 \\, M \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ecuación iónica muestra iones."
+    "explanation": "M = 0.5 moles / 2.0 L = 0.25 mol/L = 0.25 M."
   },
   {
     "id": "5.2_q250",
     "number": 250,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: ESTEQUIOMETRÍA Y CÁLCULOS QUÍMICOS (201–250)",
-    "statement": "¿Qué es una ecuación iónica neta?",
+    "sectionTitle": "SECCIÓN V: ESTRUCTURA ELECTRÓNICA, NÚMEROS CUÁNTICOS Y SOLUCIONES (201–250)",
+    "statement": "En relación con estructura cuántica y cálculo de soluciones químicas (ítem 50): La ecuación empleada para calcular diluciones en el laboratorio químico \\( (C_1 V_1 = C_2 V_2) \\) se fundamenta en que:",
     "options": [
       {
         "key": "A",
-        "text": "La que muestra solo los iones que reaccionan"
+        "text": "La cantidad de moles o masa de soluto permanece constante al añadir más disolvente"
       },
       {
         "key": "B",
-        "text": "La que muestra todos los iones"
+        "text": "El volumen de la solución disminuye al agregar agua destilada"
       },
       {
         "key": "C",
-        "text": "La que muestra las moléculas"
+        "text": "La densidad del solvente se duplica automáticamente"
       },
       {
         "key": "D",
-        "text": "La que muestra los átomos"
-      },
-      {
-        "key": "E",
-        "text": "La que muestra los electrones"
-      },
-      {
-        "key": "F",
-        "text": "La que muestra los protones ---"
+        "text": "La masa molar del compuesto cambia de valor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ecuación iónica neta muestra iones que reaccionan."
+    "explanation": "Diluir consiste en agregar disolvente; la masa y los moles de soluto no varían entre el estado inicial y el final."
   },
   {
     "id": "5.2_q251",
     "number": 251,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química orgánica?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "Según la teoría ácido-base de Brønsted-Lowry, un 'ácido' es toda sustancia capaz de:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia los compuestos del carbono"
+        "text": "Donar un protón \\( (H^+) \\) a otra sustancia"
       },
       {
         "key": "B",
-        "text": "La que estudia los compuestos inorgánicos"
+        "text": "Aceptar un par de electrones no enlazantes"
       },
       {
         "key": "C",
-        "text": "La que estudia los metales"
+        "text": "Disociar iones oxidrilo \\( (OH^-) \\) en medio acuoso exclusivamente"
       },
       {
         "key": "D",
-        "text": "La que estudia los no metales"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia los gases nobles"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia los minerales"
+        "text": "Ceder neutrones en el núcleo atómico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química orgánica estudia compuestos del carbono."
+    "explanation": "Brønsted y Lowry definieron el ácido como donador de protones \\( (H^+) \\) y la base como receptora de protones."
   },
   {
     "id": "5.2_q252",
     "number": 252,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química inorgánica?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En la reacción \\( NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^- \\), el par conjugado del amoníaco \\( (NH_3) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia los compuestos sin carbono (excepto algunos)"
+        "text": "El ión amonio \\( (NH_4^+) \\), que actúa como ácido conjugado"
       },
       {
         "key": "B",
-        "text": "La que estudia los compuestos del carbono"
+        "text": "El agua \\( (H_2O) \\)"
       },
       {
         "key": "C",
-        "text": "La que estudia los seres vivos"
+        "text": "El ión hidróxido \\( (OH^-) \\)"
       },
       {
         "key": "D",
-        "text": "La que estudia los minerales"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia los metales"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia los gases"
+        "text": "El nitrógeno gaseoso"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química inorgánica estudia compuestos sin carbono."
+    "explanation": "Al aceptar un protón, la base \\( NH_3 \\) se transforma en su ácido conjugado \\( NH_4^+ \\)."
   },
   {
     "id": "5.2_q253",
     "number": 253,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuál es el elemento central de la química orgánica?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "El pH se define matemáticamente mediante la expresión logarítmica:",
     "options": [
       {
         "key": "A",
-        "text": "El carbono"
+        "text": "\\( pH = -\\log[H^+] \\) (o \\( -\\log[H_3O^+] \\))"
       },
       {
         "key": "B",
-        "text": "El hidrógeno"
+        "text": "\\( pH = \\log[OH^-] \\)"
       },
       {
         "key": "C",
-        "text": "El oxígeno"
+        "text": "\\( pH = 14 \\times [H^+] \\)"
       },
       {
         "key": "D",
-        "text": "El nitrógeno"
-      },
-      {
-        "key": "E",
-        "text": "El azufre"
-      },
-      {
-        "key": "F",
-        "text": "El fósforo"
+        "text": "\\( pH = -\\ln(K_w) \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El carbono es el elemento central."
+    "explanation": "El potencial de hidrógeno (pH) ideado por Sørensen es el logaritmo negativo de la concentración molar de iones hidronio."
   },
   {
     "id": "5.2_q254",
     "number": 254,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuántos enlaces puede formar el carbono?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En agua pura a \\( 25^\\circ \\text{C} \\), el producto iónico del agua \\( (K_w) \\) vale:",
     "options": [
       {
         "key": "A",
-        "text": "4"
+        "text": "\\( 1.0 \\times 10^{-14} \\)"
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "\\( 1.0 \\times 10^{-7} \\)"
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "\\( 7.0 \\times 10^{-14} \\)"
       },
       {
         "key": "D",
-        "text": "5"
-      },
-      {
-        "key": "E",
-        "text": "6"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\( 14.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El carbono forma 4 enlaces."
+    "explanation": "Kw = [H+][OH-] = 1.0 x 10^{-14} a 25 °C, por lo que [H+] = [OH-] = 1.0 x 10^{-7} M (pH neutro = 7)."
   },
   {
     "id": "5.2_q255",
     "number": 255,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un hidrocarburo?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "Si una solución acuosa tiene una concentración \\( [H^+] = 1.0 \\times 10^{-3} \\, M \\), su valor de pH es:",
     "options": [
       {
         "key": "A",
-        "text": "Un compuesto formado por carbono e hidrógeno"
+        "text": "\\( 3.0 \\)"
       },
       {
         "key": "B",
-        "text": "Un compuesto formado por carbono y oxígeno"
+        "text": "\\( 11.0 \\)"
       },
       {
         "key": "C",
-        "text": "Un compuesto formado por carbono y nitrógeno"
+        "text": "\\( -3.0 \\)"
       },
       {
         "key": "D",
-        "text": "Un compuesto formado por carbono y azufre"
-      },
-      {
-        "key": "E",
-        "text": "Un compuesto formado por carbono y fósforo"
-      },
-      {
-        "key": "F",
-        "text": "Un compuesto formado por carbono y cloro"
+        "text": "\\( 7.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un hidrocarburo tiene carbono e hidrógeno."
+    "explanation": "pH = -log(1.0 x 10^{-3}) = -(-3) = 3.0 (disolución fuertemente ácida)."
   },
   {
     "id": "5.2_q256",
     "number": 256,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un alcano?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "Una disolución con pH igual a \\( 9.0 \\) se clasifica químicamente como:",
     "options": [
       {
         "key": "A",
-        "text": "Un hidrocarburo saturado con enlaces simples"
+        "text": "Básica o alcalina (ya que \\( pH > 7 \\))"
       },
       {
         "key": "B",
-        "text": "Un hidrocarburo insaturado con dobles enlaces"
+        "text": "Ácida fuerte"
       },
       {
         "key": "C",
-        "text": "Un hidrocarburo insaturado con triples enlaces"
+        "text": "Completamente neutra"
       },
       {
         "key": "D",
-        "text": "Un hidrocarburo aromático"
-      },
-      {
-        "key": "E",
-        "text": "Un hidrocarburo cíclico"
-      },
-      {
-        "key": "F",
-        "text": "Un hidrocarburo ramificado"
+        "text": "Inerte no reactiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un alcano es saturado con enlaces simples."
+    "explanation": "En la escala de 0 a 14 a 25 °C: pH < 7 es ácido, pH = 7 es neutro y pH > 7 es alcalino o básico."
   },
   {
     "id": "5.2_q257",
     "number": 257,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un alqueno?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "Si una disolución posee un pH de \\( 5.0 \\), su valor de pOH correspondiente es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "Un hidrocarburo insaturado con dobles enlaces"
+        "text": "\\( 9.0 \\)"
       },
       {
         "key": "B",
-        "text": "Un hidrocarburo saturado con enlaces simples"
+        "text": "\\( 5.0 \\)"
       },
       {
         "key": "C",
-        "text": "Un hidrocarburo insaturado con triples enlaces"
+        "text": "\\( 2.0 \\)"
       },
       {
         "key": "D",
-        "text": "Un hidrocarburo aromático"
-      },
-      {
-        "key": "E",
-        "text": "Un hidrocarburo cíclico"
-      },
-      {
-        "key": "F",
-        "text": "Un hidrocarburo ramificado"
+        "text": "\\( 14.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un alqueno tiene dobles enlaces."
+    "explanation": "Puesto que pH + pOH = 14 a 25 °C, entonces pOH = 14 - 5 = 9.0."
   },
   {
     "id": "5.2_q258",
     "number": 258,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un alquino?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "Una 'solución amortiguadora' (o buffer) se caracteriza funcionalmente por:",
     "options": [
       {
         "key": "A",
-        "text": "Un hidrocarburo insaturado con triples enlaces"
+        "text": "Resistir cambios bruscos en el pH cuando se le adicionan pequeñas cantidades de ácido o base fuerte"
       },
       {
         "key": "B",
-        "text": "Un hidrocarburo saturado con enlaces simples"
+        "text": "Mantener la temperatura de ebullición exactamente a 100 °C"
       },
       {
         "key": "C",
-        "text": "Un hidrocarburo insaturado con dobles enlaces"
+        "text": "Precipitar de inmediato todos los iones disueltos"
       },
       {
         "key": "D",
-        "text": "Un hidrocarburo aromático"
-      },
-      {
-        "key": "E",
-        "text": "Un hidrocarburo cíclico"
-      },
-      {
-        "key": "F",
-        "text": "Un hidrocarburo ramificado"
+        "text": "Consistir únicamente en agua destilada desmineralizada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un alquino tiene triples enlaces."
+    "explanation": "Formada por un ácido débil y su sal conjugada (o base débil y su ácido conjugado), neutraliza protones u oxhidrilos agregados."
   },
   {
     "id": "5.2_q259",
     "number": 259,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuál es la fórmula general de los alcanos?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En la sangre humana, el principal sistema amortiguador fisiológico que mantiene el pH entre 7.35 y 7.45 es:",
     "options": [
       {
         "key": "A",
-        "text": "CₙH₂ₙ₊₂"
+        "text": "El par ácido carbónico / bicarbonato \\( (H_2CO_3 / HCO_3^-) \\)"
       },
       {
         "key": "B",
-        "text": "CₙH₂ₙ"
+        "text": "El ácido clorhídrico puro"
       },
       {
         "key": "C",
-        "text": "CₙH₂ₙ₋₂"
+        "text": "El sulfato de cobre concentrado"
       },
       {
         "key": "D",
-        "text": "CₙHₙ"
-      },
-      {
-        "key": "E",
-        "text": "CₙH₂ₙ₊₁"
-      },
-      {
-        "key": "F",
-        "text": "CₙH₂ₙ₋₁"
+        "text": "El hidróxido de sodio libre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La fórmula de alcanos es CₙH₂ₙ₊₂."
+    "explanation": "El equilibrio CO2 + H2O <-> H2CO3 <-> H+ + HCO3- regula el pH plasmático con auxilio de la respiración pulmonar y la función renal."
   },
   {
     "id": "5.2_q260",
     "number": 260,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuál es la fórmula general de los alquenos?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "Al mezclar volúmenes equimolares de un ácido fuerte \\( (HCl) \\) y una base fuerte \\( (NaOH) \\), se produce una reacción de neutralización que genera:",
     "options": [
       {
         "key": "A",
-        "text": "CₙH₂ₙ"
+        "text": "Agua y una sal neutra \\( (NaCl + H_2O) \\) con pH neutro aproximado de 7"
       },
       {
         "key": "B",
-        "text": "CₙH₂ₙ₊₂"
+        "text": "Gas hidrógeno inflamable puro"
       },
       {
         "key": "C",
-        "text": "CₙH₂ₙ₋₂"
+        "text": "Ácido sulfúrico concentrado"
       },
       {
         "key": "D",
-        "text": "CₙHₙ"
-      },
-      {
-        "key": "E",
-        "text": "CₙH₂ₙ₊₁"
-      },
-      {
-        "key": "F",
-        "text": "CₙH₂ₙ₋₁"
+        "text": "Un precipitado insoluble de óxido de calcio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La fórmula de alquenos es CₙH₂ₙ."
+    "explanation": "HCl + NaOH -> NaCl + H2O; los protones H+ y los OH- se neutralizan completamente formando moléculas de agua."
   },
   {
     "id": "5.2_q261",
     "number": 261,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuál es la fórmula general de los alquinos?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 11): Según la teoría ácido-base de Brønsted-Lowry, un 'ácido' es toda sustancia capaz de:",
     "options": [
       {
         "key": "A",
-        "text": "CₙH₂ₙ₋₂"
+        "text": "Donar un protón \\( (H^+) \\) a otra sustancia"
       },
       {
         "key": "B",
-        "text": "CₙH₂ₙ₊₂"
+        "text": "Aceptar un par de electrones no enlazantes"
       },
       {
         "key": "C",
-        "text": "CₙH₂ₙ"
+        "text": "Disociar iones oxidrilo \\( (OH^-) \\) en medio acuoso exclusivamente"
       },
       {
         "key": "D",
-        "text": "CₙHₙ"
-      },
-      {
-        "key": "E",
-        "text": "CₙH₂ₙ₊₁"
-      },
-      {
-        "key": "F",
-        "text": "CₙH₂ₙ₋₁"
+        "text": "Ceder neutrones en el núcleo atómico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La fórmula de alquinos es CₙH₂ₙ₋₂."
+    "explanation": "Brønsted y Lowry definieron el ácido como donador de protones \\( (H^+) \\) y la base como receptora de protones."
   },
   {
     "id": "5.2_q262",
     "number": 262,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un grupo funcional?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 12): En la reacción \\( NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^- \\), el par conjugado del amoníaco \\( (NH_3) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Un átomo o grupo de átomos que determina las propiedades químicas"
+        "text": "El ión amonio \\( (NH_4^+) \\), que actúa como ácido conjugado"
       },
       {
         "key": "B",
-        "text": "Un átomo o grupo de átomos que determina las propiedades físicas"
+        "text": "El agua \\( (H_2O) \\)"
       },
       {
         "key": "C",
-        "text": "Un átomo o grupo de átomos que determina la masa"
+        "text": "El ión hidróxido \\( (OH^-) \\)"
       },
       {
         "key": "D",
-        "text": "Un átomo o grupo de átomos que determina el volumen"
-      },
-      {
-        "key": "E",
-        "text": "Un átomo o grupo de átomos que determina la densidad"
-      },
-      {
-        "key": "F",
-        "text": "Un átomo o grupo de átomos que determina la temperatura"
+        "text": "El nitrógeno gaseoso"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El grupo funcional determina propiedades químicas."
+    "explanation": "Al aceptar un protón, la base \\( NH_3 \\) se transforma en su ácido conjugado \\( NH_4^+ \\)."
   },
   {
     "id": "5.2_q263",
     "number": 263,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuál es el grupo funcional de los alcoholes?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 13): El pH se define matemáticamente mediante la expresión logarítmica:",
     "options": [
       {
         "key": "A",
-        "text": "-OH (hidroxilo)"
+        "text": "\\( pH = -\\log[H^+] \\) (o \\( -\\log[H_3O^+] \\))"
       },
       {
         "key": "B",
-        "text": "-COOH (carboxilo)"
+        "text": "\\( pH = \\log[OH^-] \\)"
       },
       {
         "key": "C",
-        "text": "-CHO (aldehído)"
+        "text": "\\( pH = 14 \\times [H^+] \\)"
       },
       {
         "key": "D",
-        "text": "-CO- (cetona)"
-      },
-      {
-        "key": "E",
-        "text": "-NH₂ (amino)"
-      },
-      {
-        "key": "F",
-        "text": "-O- (éter)"
+        "text": "\\( pH = -\\ln(K_w) \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El grupo de alcoholes es -OH."
+    "explanation": "El potencial de hidrógeno (pH) ideado por Sørensen es el logaritmo negativo de la concentración molar de iones hidronio."
   },
   {
     "id": "5.2_q264",
     "number": 264,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuál es el grupo funcional de los ácidos carboxílicos?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 14): En agua pura a \\( 25^\\circ \\text{C} \\), el producto iónico del agua \\( (K_w) \\) vale:",
     "options": [
       {
         "key": "A",
-        "text": "-COOH (carboxilo)"
+        "text": "\\( 1.0 \\times 10^{-14} \\)"
       },
       {
         "key": "B",
-        "text": "-OH (hidroxilo)"
+        "text": "\\( 1.0 \\times 10^{-7} \\)"
       },
       {
         "key": "C",
-        "text": "-CHO (aldehído)"
+        "text": "\\( 7.0 \\times 10^{-14} \\)"
       },
       {
         "key": "D",
-        "text": "-CO- (cetona)"
-      },
-      {
-        "key": "E",
-        "text": "-NH₂ (amino)"
-      },
-      {
-        "key": "F",
-        "text": "-O- (éter)"
+        "text": "\\( 14.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El grupo de ácidos carboxílicos es -COOH."
+    "explanation": "Kw = [H+][OH-] = 1.0 x 10^{-14} a 25 °C, por lo que [H+] = [OH-] = 1.0 x 10^{-7} M (pH neutro = 7)."
   },
   {
     "id": "5.2_q265",
     "number": 265,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuál es el grupo funcional de los aldehídos?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 15): Si una solución acuosa tiene una concentración \\( [H^+] = 1.0 \\times 10^{-3} \\, M \\), su valor de pH es:",
     "options": [
       {
         "key": "A",
-        "text": "-CHO (aldehído)"
+        "text": "\\( 3.0 \\)"
       },
       {
         "key": "B",
-        "text": "-OH (hidroxilo)"
+        "text": "\\( 11.0 \\)"
       },
       {
         "key": "C",
-        "text": "-COOH (carboxilo)"
+        "text": "\\( -3.0 \\)"
       },
       {
         "key": "D",
-        "text": "-CO- (cetona)"
-      },
-      {
-        "key": "E",
-        "text": "-NH₂ (amino)"
-      },
-      {
-        "key": "F",
-        "text": "-O- (éter)"
+        "text": "\\( 7.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El grupo de aldehídos es -CHO."
+    "explanation": "pH = -log(1.0 x 10^{-3}) = -(-3) = 3.0 (disolución fuertemente ácida)."
   },
   {
     "id": "5.2_q266",
     "number": 266,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuál es el grupo funcional de las cetonas?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 16): Una disolución con pH igual a \\( 9.0 \\) se clasifica químicamente como:",
     "options": [
       {
         "key": "A",
-        "text": "-CO- (cetona)"
+        "text": "Básica o alcalina (ya que \\( pH > 7 \\))"
       },
       {
         "key": "B",
-        "text": "-OH (hidroxilo)"
+        "text": "Ácida fuerte"
       },
       {
         "key": "C",
-        "text": "-COOH (carboxilo)"
+        "text": "Completamente neutra"
       },
       {
         "key": "D",
-        "text": "-CHO (aldehído)"
-      },
-      {
-        "key": "E",
-        "text": "-NH₂ (amino)"
-      },
-      {
-        "key": "F",
-        "text": "-O- (éter)"
+        "text": "Inerte no reactiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El grupo de cetonas es -CO-."
+    "explanation": "En la escala de 0 a 14 a 25 °C: pH < 7 es ácido, pH = 7 es neutro y pH > 7 es alcalino o básico."
   },
   {
     "id": "5.2_q267",
     "number": 267,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuál es el grupo funcional de las aminas?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 17): Si una disolución posee un pH de \\( 5.0 \\), su valor de pOH correspondiente es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "-NH₂ (amino)"
+        "text": "\\( 9.0 \\)"
       },
       {
         "key": "B",
-        "text": "-OH (hidroxilo)"
+        "text": "\\( 5.0 \\)"
       },
       {
         "key": "C",
-        "text": "-COOH (carboxilo)"
+        "text": "\\( 2.0 \\)"
       },
       {
         "key": "D",
-        "text": "-CHO (aldehído)"
-      },
-      {
-        "key": "E",
-        "text": "-CO- (cetona)"
-      },
-      {
-        "key": "F",
-        "text": "-O- (éter)"
+        "text": "\\( 14.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El grupo de aminas es -NH₂."
+    "explanation": "Puesto que pH + pOH = 14 a 25 °C, entonces pOH = 14 - 5 = 9.0."
   },
   {
     "id": "5.2_q268",
     "number": 268,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuál es el grupo funcional de los éteres?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 18): Una 'solución amortiguadora' (o buffer) se caracteriza funcionalmente por:",
     "options": [
       {
         "key": "A",
-        "text": "-O- (éter)"
+        "text": "Resistir cambios bruscos en el pH cuando se le adicionan pequeñas cantidades de ácido o base fuerte"
       },
       {
         "key": "B",
-        "text": "-OH (hidroxilo)"
+        "text": "Mantener la temperatura de ebullición exactamente a 100 °C"
       },
       {
         "key": "C",
-        "text": "-COOH (carboxilo)"
+        "text": "Precipitar de inmediato todos los iones disueltos"
       },
       {
         "key": "D",
-        "text": "-CHO (aldehído)"
-      },
-      {
-        "key": "E",
-        "text": "-CO- (cetona)"
-      },
-      {
-        "key": "F",
-        "text": "-NH₂ (amino)"
+        "text": "Consistir únicamente en agua destilada desmineralizada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El grupo de éteres es -O-."
+    "explanation": "Formada por un ácido débil y su sal conjugada (o base débil y su ácido conjugado), neutraliza protones u oxhidrilos agregados."
   },
   {
     "id": "5.2_q269",
     "number": 269,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un isómero?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 19): En la sangre humana, el principal sistema amortiguador fisiológico que mantiene el pH entre 7.35 y 7.45 es:",
     "options": [
       {
         "key": "A",
-        "text": "Un compuesto con la misma fórmula molecular pero diferente estructura"
+        "text": "El par ácido carbónico / bicarbonato \\( (H_2CO_3 / HCO_3^-) \\)"
       },
       {
         "key": "B",
-        "text": "Un compuesto con diferente fórmula molecular"
+        "text": "El ácido clorhídrico puro"
       },
       {
         "key": "C",
-        "text": "Un compuesto con la misma estructura"
+        "text": "El sulfato de cobre concentrado"
       },
       {
         "key": "D",
-        "text": "Un compuesto con diferentes átomos"
-      },
-      {
-        "key": "E",
-        "text": "Un compuesto con diferentes enlaces"
-      },
-      {
-        "key": "F",
-        "text": "Un compuesto con diferentes propiedades"
+        "text": "El hidróxido de sodio libre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un isómero tiene misma fórmula molecular y diferente estructura."
+    "explanation": "El equilibrio CO2 + H2O <-> H2CO3 <-> H+ + HCO3- regula el pH plasmático con auxilio de la respiración pulmonar y la función renal."
   },
   {
     "id": "5.2_q270",
     "number": 270,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un polímero?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 20): Al mezclar volúmenes equimolares de un ácido fuerte \\( (HCl) \\) y una base fuerte \\( (NaOH) \\), se produce una reacción de neutralización que genera:",
     "options": [
       {
         "key": "A",
-        "text": "Una molécula grande formada por la unión de monómeros"
+        "text": "Agua y una sal neutra \\( (NaCl + H_2O) \\) con pH neutro aproximado de 7"
       },
       {
         "key": "B",
-        "text": "Una molécula pequeña"
+        "text": "Gas hidrógeno inflamable puro"
       },
       {
         "key": "C",
-        "text": "Un átomo"
+        "text": "Ácido sulfúrico concentrado"
       },
       {
         "key": "D",
-        "text": "Un ion"
-      },
-      {
-        "key": "E",
-        "text": "Un isótopo"
-      },
-      {
-        "key": "F",
-        "text": "Un isómero"
+        "text": "Un precipitado insoluble de óxido de calcio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un polímero se forma por unión de monómeros."
+    "explanation": "HCl + NaOH -> NaCl + H2O; los protones H+ y los OH- se neutralizan completamente formando moléculas de agua."
   },
   {
     "id": "5.2_q271",
     "number": 271,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuál es un ejemplo de polímero natural?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 21): Según la teoría ácido-base de Brønsted-Lowry, un 'ácido' es toda sustancia capaz de:",
     "options": [
       {
         "key": "A",
-        "text": "El almidón"
+        "text": "Donar un protón \\( (H^+) \\) a otra sustancia"
       },
       {
         "key": "B",
-        "text": "El polietileno"
+        "text": "Aceptar un par de electrones no enlazantes"
       },
       {
         "key": "C",
-        "text": "El PVC"
+        "text": "Disociar iones oxidrilo \\( (OH^-) \\) en medio acuoso exclusivamente"
       },
       {
         "key": "D",
-        "text": "El nylon"
-      },
-      {
-        "key": "E",
-        "text": "El poliestireno"
-      },
-      {
-        "key": "F",
-        "text": "El teflón"
+        "text": "Ceder neutrones en el núcleo atómico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El almidón es polímero natural."
+    "explanation": "Brønsted y Lowry definieron el ácido como donador de protones \\( (H^+) \\) y la base como receptora de protones."
   },
   {
     "id": "5.2_q272",
     "number": 272,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Cuál es un ejemplo de polímero sintético?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 22): En la reacción \\( NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^- \\), el par conjugado del amoníaco \\( (NH_3) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "El polietileno"
+        "text": "El ión amonio \\( (NH_4^+) \\), que actúa como ácido conjugado"
       },
       {
         "key": "B",
-        "text": "El almidón"
+        "text": "El agua \\( (H_2O) \\)"
       },
       {
         "key": "C",
-        "text": "La celulosa"
+        "text": "El ión hidróxido \\( (OH^-) \\)"
       },
       {
         "key": "D",
-        "text": "La proteína"
-      },
-      {
-        "key": "E",
-        "text": "El ADN"
-      },
-      {
-        "key": "F",
-        "text": "El caucho natural"
+        "text": "El nitrógeno gaseoso"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El polietileno es polímero sintético."
+    "explanation": "Al aceptar un protón, la base \\( NH_3 \\) se transforma en su ácido conjugado \\( NH_4^+ \\)."
   },
   {
     "id": "5.2_q273",
     "number": 273,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la fermentación?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 23): El pH se define matemáticamente mediante la expresión logarítmica:",
     "options": [
       {
         "key": "A",
-        "text": "Un proceso anaerobio de transformación de azúcares"
+        "text": "\\( pH = -\\log[H^+] \\) (o \\( -\\log[H_3O^+] \\))"
       },
       {
         "key": "B",
-        "text": "Un proceso aerobio de transformación de azúcares"
+        "text": "\\( pH = \\log[OH^-] \\)"
       },
       {
         "key": "C",
-        "text": "Un proceso de oxidación de grasas"
+        "text": "\\( pH = 14 \\times [H^+] \\)"
       },
       {
         "key": "D",
-        "text": "Un proceso de descomposición de proteínas"
-      },
-      {
-        "key": "E",
-        "text": "Un proceso de síntesis de lípidos"
-      },
-      {
-        "key": "F",
-        "text": "Un proceso de síntesis de carbohidratos"
+        "text": "\\( pH = -\\ln(K_w) \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La fermentación es anaerobia."
+    "explanation": "El potencial de hidrógeno (pH) ideado por Sørensen es el logaritmo negativo de la concentración molar de iones hidronio."
   },
   {
     "id": "5.2_q274",
     "number": 274,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la saponificación?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 24): En agua pura a \\( 25^\\circ \\text{C} \\), el producto iónico del agua \\( (K_w) \\) vale:",
     "options": [
       {
         "key": "A",
-        "text": "La reacción de un ácido graso con una base para formar jabón"
+        "text": "\\( 1.0 \\times 10^{-14} \\)"
       },
       {
         "key": "B",
-        "text": "La reacción de un ácido con un alcohol"
+        "text": "\\( 1.0 \\times 10^{-7} \\)"
       },
       {
         "key": "C",
-        "text": "La reacción de un ácido con un metal"
+        "text": "\\( 7.0 \\times 10^{-14} \\)"
       },
       {
         "key": "D",
-        "text": "La reacción de una base con un no metal"
-      },
-      {
-        "key": "E",
-        "text": "La reacción de dos ácidos"
-      },
-      {
-        "key": "F",
-        "text": "La reacción de dos bases"
+        "text": "\\( 14.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La saponificación forma jabón."
+    "explanation": "Kw = [H+][OH-] = 1.0 x 10^{-14} a 25 °C, por lo que [H+] = [OH-] = 1.0 x 10^{-7} M (pH neutro = 7)."
   },
   {
     "id": "5.2_q275",
     "number": 275,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un jabón?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 25): Si una solución acuosa tiene una concentración \\( [H^+] = 1.0 \\times 10^{-3} \\, M \\), su valor de pH es:",
     "options": [
       {
         "key": "A",
-        "text": "Una sal de ácido graso"
+        "text": "\\( 3.0 \\)"
       },
       {
         "key": "B",
-        "text": "Un ácido graso"
+        "text": "\\( 11.0 \\)"
       },
       {
         "key": "C",
-        "text": "Un alcohol"
+        "text": "\\( -3.0 \\)"
       },
       {
         "key": "D",
-        "text": "Un éster"
-      },
-      {
-        "key": "E",
-        "text": "Una amida"
-      },
-      {
-        "key": "F",
-        "text": "Una amina"
+        "text": "\\( 7.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un jabón es sal de ácido graso."
+    "explanation": "pH = -log(1.0 x 10^{-3}) = -(-3) = 3.0 (disolución fuertemente ácida)."
   },
   {
     "id": "5.2_q276",
     "number": 276,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un aminoácido?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 26): Una disolución con pH igual a \\( 9.0 \\) se clasifica químicamente como:",
     "options": [
       {
         "key": "A",
-        "text": "Un compuesto con grupo amino y grupo carboxilo"
+        "text": "Básica o alcalina (ya que \\( pH > 7 \\))"
       },
       {
         "key": "B",
-        "text": "Un compuesto con grupo hidroxilo y grupo carbonilo"
+        "text": "Ácida fuerte"
       },
       {
         "key": "C",
-        "text": "Un compuesto con grupo éter y grupo éster"
+        "text": "Completamente neutra"
       },
       {
         "key": "D",
-        "text": "Un compuesto con grupo aldehído y grupo cetona"
-      },
-      {
-        "key": "E",
-        "text": "Un compuesto con grupo nitro y grupo sulfónico"
-      },
-      {
-        "key": "F",
-        "text": "Un compuesto con grupo fosfato y grupo sulfato"
+        "text": "Inerte no reactiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un aminoácido tiene grupo amino y carboxilo."
+    "explanation": "En la escala de 0 a 14 a 25 °C: pH < 7 es ácido, pH = 7 es neutro y pH > 7 es alcalino o básico."
   },
   {
     "id": "5.2_q277",
     "number": 277,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un enlace peptídico?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 27): Si una disolución posee un pH de \\( 5.0 \\), su valor de pOH correspondiente es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "El enlace entre dos aminoácidos"
+        "text": "\\( 9.0 \\)"
       },
       {
         "key": "B",
-        "text": "El enlace entre dos monosacáridos"
+        "text": "\\( 5.0 \\)"
       },
       {
         "key": "C",
-        "text": "El enlace entre dos ácidos grasos"
+        "text": "\\( 2.0 \\)"
       },
       {
         "key": "D",
-        "text": "El enlace entre dos nucleótidos"
-      },
-      {
-        "key": "E",
-        "text": "El enlace entre dos lípidos"
-      },
-      {
-        "key": "F",
-        "text": "El enlace entre dos carbohidratos"
+        "text": "\\( 14.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El enlace peptídico une aminoácidos."
+    "explanation": "Puesto que pH + pOH = 14 a 25 °C, entonces pOH = 14 - 5 = 9.0."
   },
   {
     "id": "5.2_q278",
     "number": 278,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es una proteína?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 28): Una 'solución amortiguadora' (o buffer) se caracteriza funcionalmente por:",
     "options": [
       {
         "key": "A",
-        "text": "Un polímero de aminoácidos"
+        "text": "Resistir cambios bruscos en el pH cuando se le adicionan pequeñas cantidades de ácido o base fuerte"
       },
       {
         "key": "B",
-        "text": "Un polímero de monosacáridos"
+        "text": "Mantener la temperatura de ebullición exactamente a 100 °C"
       },
       {
         "key": "C",
-        "text": "Un polímero de ácidos grasos"
+        "text": "Precipitar de inmediato todos los iones disueltos"
       },
       {
         "key": "D",
-        "text": "Un polímero de nucleótidos"
-      },
-      {
-        "key": "E",
-        "text": "Un polímero de lípidos"
-      },
-      {
-        "key": "F",
-        "text": "Un polímero de carbohidratos"
+        "text": "Consistir únicamente en agua destilada desmineralizada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Una proteína es polímero de aminoácidos."
+    "explanation": "Formada por un ácido débil y su sal conjugada (o base débil y su ácido conjugado), neutraliza protones u oxhidrilos agregados."
   },
   {
     "id": "5.2_q279",
     "number": 279,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un carbohidrato?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 29): En la sangre humana, el principal sistema amortiguador fisiológico que mantiene el pH entre 7.35 y 7.45 es:",
     "options": [
       {
         "key": "A",
-        "text": "Un compuesto formado por carbono, hidrógeno y oxígeno"
+        "text": "El par ácido carbónico / bicarbonato \\( (H_2CO_3 / HCO_3^-) \\)"
       },
       {
         "key": "B",
-        "text": "Un compuesto formado por carbono, hidrógeno y nitrógeno"
+        "text": "El ácido clorhídrico puro"
       },
       {
         "key": "C",
-        "text": "Un compuesto formado por carbono, hidrógeno y azufre"
+        "text": "El sulfato de cobre concentrado"
       },
       {
         "key": "D",
-        "text": "Un compuesto formado por carbono, hidrógeno y fósforo"
-      },
-      {
-        "key": "E",
-        "text": "Un compuesto formado por carbono, hidrógeno y cloro"
-      },
-      {
-        "key": "F",
-        "text": "Un compuesto formado por carbono, hidrógeno y flúor"
+        "text": "El hidróxido de sodio libre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un carbohidrato tiene C, H y O."
+    "explanation": "El equilibrio CO2 + H2O <-> H2CO3 <-> H+ + HCO3- regula el pH plasmático con auxilio de la respiración pulmonar y la función renal."
   },
   {
     "id": "5.2_q280",
     "number": 280,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un lípido?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 30): Al mezclar volúmenes equimolares de un ácido fuerte \\( (HCl) \\) y una base fuerte \\( (NaOH) \\), se produce una reacción de neutralización que genera:",
     "options": [
       {
         "key": "A",
-        "text": "Un compuesto insoluble en agua y soluble en disolventes orgánicos"
+        "text": "Agua y una sal neutra \\( (NaCl + H_2O) \\) con pH neutro aproximado de 7"
       },
       {
         "key": "B",
-        "text": "Un compuesto soluble en agua"
+        "text": "Gas hidrógeno inflamable puro"
       },
       {
         "key": "C",
-        "text": "Un compuesto soluble en agua y en disolventes orgánicos"
+        "text": "Ácido sulfúrico concentrado"
       },
       {
         "key": "D",
-        "text": "Un compuesto insoluble en agua y en disolventes orgánicos"
-      },
-      {
-        "key": "E",
-        "text": "Un compuesto soluble en agua e insoluble en disolventes orgánicos"
-      },
-      {
-        "key": "F",
-        "text": "Un compuesto insoluble en agua y soluble en agua"
+        "text": "Un precipitado insoluble de óxido de calcio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un lípido es insoluble en agua."
+    "explanation": "HCl + NaOH -> NaCl + H2O; los protones H+ y los OH- se neutralizan completamente formando moléculas de agua."
   },
   {
     "id": "5.2_q281",
     "number": 281,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un nucleótido?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 31): Según la teoría ácido-base de Brønsted-Lowry, un 'ácido' es toda sustancia capaz de:",
     "options": [
       {
         "key": "A",
-        "text": "Un compuesto formado por base nitrogenada, azúcar y fosfato"
+        "text": "Donar un protón \\( (H^+) \\) a otra sustancia"
       },
       {
         "key": "B",
-        "text": "Un compuesto formado por aminoácidos"
+        "text": "Aceptar un par de electrones no enlazantes"
       },
       {
         "key": "C",
-        "text": "Un compuesto formado por monosacáridos"
+        "text": "Disociar iones oxidrilo \\( (OH^-) \\) en medio acuoso exclusivamente"
       },
       {
         "key": "D",
-        "text": "Un compuesto formado por ácidos grasos"
-      },
-      {
-        "key": "E",
-        "text": "Un compuesto formado por lípidos"
-      },
-      {
-        "key": "F",
-        "text": "Un compuesto formado por carbohidratos"
+        "text": "Ceder neutrones en el núcleo atómico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un nucleótido tiene base, azúcar y fosfato."
+    "explanation": "Brønsted y Lowry definieron el ácido como donador de protones \\( (H^+) \\) y la base como receptora de protones."
   },
   {
     "id": "5.2_q282",
     "number": 282,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es el ADN?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 32): En la reacción \\( NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^- \\), el par conjugado del amoníaco \\( (NH_3) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Un polímero de nucleótidos"
+        "text": "El ión amonio \\( (NH_4^+) \\), que actúa como ácido conjugado"
       },
       {
         "key": "B",
-        "text": "Un polímero de aminoácidos"
+        "text": "El agua \\( (H_2O) \\)"
       },
       {
         "key": "C",
-        "text": "Un polímero de monosacáridos"
+        "text": "El ión hidróxido \\( (OH^-) \\)"
       },
       {
         "key": "D",
-        "text": "Un polímero de ácidos grasos"
-      },
-      {
-        "key": "E",
-        "text": "Un polímero de lípidos"
-      },
-      {
-        "key": "F",
-        "text": "Un polímero de carbohidratos"
+        "text": "El nitrógeno gaseoso"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El ADN es polímero de nucleótidos."
+    "explanation": "Al aceptar un protón, la base \\( NH_3 \\) se transforma en su ácido conjugado \\( NH_4^+ \\)."
   },
   {
     "id": "5.2_q283",
     "number": 283,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es el ARN?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 33): El pH se define matemáticamente mediante la expresión logarítmica:",
     "options": [
       {
         "key": "A",
-        "text": "Un polímero de nucleótidos"
+        "text": "\\( pH = -\\log[H^+] \\) (o \\( -\\log[H_3O^+] \\))"
       },
       {
         "key": "B",
-        "text": "Un polímero de aminoácidos"
+        "text": "\\( pH = \\log[OH^-] \\)"
       },
       {
         "key": "C",
-        "text": "Un polímero de monosacáridos"
+        "text": "\\( pH = 14 \\times [H^+] \\)"
       },
       {
         "key": "D",
-        "text": "Un polímero de ácidos grasos"
-      },
-      {
-        "key": "E",
-        "text": "Un polímero de lípidos"
-      },
-      {
-        "key": "F",
-        "text": "Un polímero de carbohidratos"
+        "text": "\\( pH = -\\ln(K_w) \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El ARN es polímero de nucleótidos."
+    "explanation": "El potencial de hidrógeno (pH) ideado por Sørensen es el logaritmo negativo de la concentración molar de iones hidronio."
   },
   {
     "id": "5.2_q284",
     "number": 284,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es una enzima?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 34): En agua pura a \\( 25^\\circ \\text{C} \\), el producto iónico del agua \\( (K_w) \\) vale:",
     "options": [
       {
         "key": "A",
-        "text": "Una proteína que cataliza reacciones químicas"
+        "text": "\\( 1.0 \\times 10^{-14} \\)"
       },
       {
         "key": "B",
-        "text": "Un lípido que cataliza reacciones químicas"
+        "text": "\\( 1.0 \\times 10^{-7} \\)"
       },
       {
         "key": "C",
-        "text": "Un carbohidrato que cataliza reacciones químicas"
+        "text": "\\( 7.0 \\times 10^{-14} \\)"
       },
       {
         "key": "D",
-        "text": "Un ácido nucleico que cataliza reacciones químicas"
-      },
-      {
-        "key": "E",
-        "text": "Un mineral que cataliza reacciones químicas"
-      },
-      {
-        "key": "F",
-        "text": "Un gas que cataliza reacciones químicas"
+        "text": "\\( 14.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Una enzima es proteína catalizadora."
+    "explanation": "Kw = [H+][OH-] = 1.0 x 10^{-14} a 25 °C, por lo que [H+] = [OH-] = 1.0 x 10^{-7} M (pH neutro = 7)."
   },
   {
     "id": "5.2_q285",
     "number": 285,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la catálisis?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 35): Si una solución acuosa tiene una concentración \\( [H^+] = 1.0 \\times 10^{-3} \\, M \\), su valor de pH es:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de acelerar una reacción mediante un catalizador"
+        "text": "\\( 3.0 \\)"
       },
       {
         "key": "B",
-        "text": "El proceso de retardar una reacción"
+        "text": "\\( 11.0 \\)"
       },
       {
         "key": "C",
-        "text": "El proceso de detener una reacción"
+        "text": "\\( -3.0 \\)"
       },
       {
         "key": "D",
-        "text": "El proceso de invertir una reacción"
-      },
-      {
-        "key": "E",
-        "text": "El proceso de iniciar una reacción"
-      },
-      {
-        "key": "F",
-        "text": "El proceso de finalizar una reacción"
+        "text": "\\( 7.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La catálisis acelera con catalizador."
+    "explanation": "pH = -log(1.0 x 10^{-3}) = -(-3) = 3.0 (disolución fuertemente ácida)."
   },
   {
     "id": "5.2_q286",
     "number": 286,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es un catalizador biológico?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 36): Una disolución con pH igual a \\( 9.0 \\) se clasifica químicamente como:",
     "options": [
       {
         "key": "A",
-        "text": "Una enzima"
+        "text": "Básica o alcalina (ya que \\( pH > 7 \\))"
       },
       {
         "key": "B",
-        "text": "Un ácido"
+        "text": "Ácida fuerte"
       },
       {
         "key": "C",
-        "text": "Una base"
+        "text": "Completamente neutra"
       },
       {
         "key": "D",
-        "text": "Una sal"
-      },
-      {
-        "key": "E",
-        "text": "Un óxido"
-      },
-      {
-        "key": "F",
-        "text": "Un metal"
+        "text": "Inerte no reactiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Un catalizador biológico es una enzima."
+    "explanation": "En la escala de 0 a 14 a 25 °C: pH < 7 es ácido, pH = 7 es neutro y pH > 7 es alcalino o básico."
   },
   {
     "id": "5.2_q287",
     "number": 287,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química analítica?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 37): Si una disolución posee un pH de \\( 5.0 \\), su valor de pOH correspondiente es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "\\( 9.0 \\)"
       },
       {
         "key": "B",
-        "text": "La que estudia las reacciones químicas"
+        "text": "\\( 5.0 \\)"
       },
       {
         "key": "C",
-        "text": "La que estudia las propiedades físicas"
+        "text": "\\( 2.0 \\)"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las estructuras moleculares"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las energías de enlace"
+        "text": "\\( 14.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química analítica estudia composición."
+    "explanation": "Puesto que pH + pOH = 14 a 25 °C, entonces pOH = 14 - 5 = 9.0."
   },
   {
     "id": "5.2_q288",
     "number": 288,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química física?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 38): Una 'solución amortiguadora' (o buffer) se caracteriza funcionalmente por:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia los principios físicos de los sistemas químicos"
+        "text": "Resistir cambios bruscos en el pH cuando se le adicionan pequeñas cantidades de ácido o base fuerte"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "Mantener la temperatura de ebullición exactamente a 100 °C"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "Precipitar de inmediato todos los iones disueltos"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las estructuras moleculares"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las energías de enlace"
+        "text": "Consistir únicamente en agua destilada desmineralizada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química física estudia principios físicos."
+    "explanation": "Formada por un ácido débil y su sal conjugada (o base débil y su ácido conjugado), neutraliza protones u oxhidrilos agregados."
   },
   {
     "id": "5.2_q289",
     "number": 289,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la bioquímica?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 39): En la sangre humana, el principal sistema amortiguador fisiológico que mantiene el pH entre 7.35 y 7.45 es:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia los procesos químicos en los seres vivos"
+        "text": "El par ácido carbónico / bicarbonato \\( (H_2CO_3 / HCO_3^-) \\)"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "El ácido clorhídrico puro"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "El sulfato de cobre concentrado"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades físicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las estructuras moleculares"
+        "text": "El hidróxido de sodio libre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La bioquímica estudia procesos químicos en seres vivos."
+    "explanation": "El equilibrio CO2 + H2O <-> H2CO3 <-> H+ + HCO3- regula el pH plasmático con auxilio de la respiración pulmonar y la función renal."
   },
   {
     "id": "5.2_q290",
     "number": 290,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química industrial?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 40): Al mezclar volúmenes equimolares de un ácido fuerte \\( (HCl) \\) y una base fuerte \\( (NaOH) \\), se produce una reacción de neutralización que genera:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia la producción de sustancias a gran escala"
+        "text": "Agua y una sal neutra \\( (NaCl + H_2O) \\) con pH neutro aproximado de 7"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "Gas hidrógeno inflamable puro"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "Ácido sulfúrico concentrado"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades físicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las estructuras moleculares"
+        "text": "Un precipitado insoluble de óxido de calcio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química industrial produce a gran escala."
+    "explanation": "HCl + NaOH -> NaCl + H2O; los protones H+ y los OH- se neutralizan completamente formando moléculas de agua."
   },
   {
     "id": "5.2_q291",
     "number": 291,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química ambiental?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 41): Según la teoría ácido-base de Brønsted-Lowry, un 'ácido' es toda sustancia capaz de:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia los procesos químicos en el medio ambiente"
+        "text": "Donar un protón \\( (H^+) \\) a otra sustancia"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "Aceptar un par de electrones no enlazantes"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "Disociar iones oxidrilo \\( (OH^-) \\) en medio acuoso exclusivamente"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades físicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las estructuras moleculares"
+        "text": "Ceder neutrones en el núcleo atómico"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química ambiental estudia procesos en el ambiente."
+    "explanation": "Brønsted y Lowry definieron el ácido como donador de protones \\( (H^+) \\) y la base como receptora de protones."
   },
   {
     "id": "5.2_q292",
     "number": 292,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química de polímeros?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 42): En la reacción \\( NH_3 + H_2O \\rightleftharpoons NH_4^+ + OH^- \\), el par conjugado del amoníaco \\( (NH_3) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia la síntesis y propiedades de los polímeros"
+        "text": "El ión amonio \\( (NH_4^+) \\), que actúa como ácido conjugado"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "El agua \\( (H_2O) \\)"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "El ión hidróxido \\( (OH^-) \\)"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades físicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las estructuras moleculares"
+        "text": "El nitrógeno gaseoso"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química de polímeros estudia polímeros."
+    "explanation": "Al aceptar un protón, la base \\( NH_3 \\) se transforma en su ácido conjugado \\( NH_4^+ \\)."
   },
   {
     "id": "5.2_q293",
     "number": 293,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química medicinal?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 43): El pH se define matemáticamente mediante la expresión logarítmica:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia el diseño y síntesis de fármacos"
+        "text": "\\( pH = -\\log[H^+] \\) (o \\( -\\log[H_3O^+] \\))"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "\\( pH = \\log[OH^-] \\)"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "\\( pH = 14 \\times [H^+] \\)"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades físicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las estructuras moleculares"
+        "text": "\\( pH = -\\ln(K_w) \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química medicinal diseña fármacos."
+    "explanation": "El potencial de hidrógeno (pH) ideado por Sørensen es el logaritmo negativo de la concentración molar de iones hidronio."
   },
   {
     "id": "5.2_q294",
     "number": 294,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química de materiales?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 44): En agua pura a \\( 25^\\circ \\text{C} \\), el producto iónico del agua \\( (K_w) \\) vale:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia el diseño y síntesis de materiales"
+        "text": "\\( 1.0 \\times 10^{-14} \\)"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "\\( 1.0 \\times 10^{-7} \\)"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "\\( 7.0 \\times 10^{-14} \\)"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades físicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las estructuras moleculares"
+        "text": "\\( 14.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química de materiales diseña materiales."
+    "explanation": "Kw = [H+][OH-] = 1.0 x 10^{-14} a 25 °C, por lo que [H+] = [OH-] = 1.0 x 10^{-7} M (pH neutro = 7)."
   },
   {
     "id": "5.2_q295",
     "number": 295,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química computacional?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 45): Si una solución acuosa tiene una concentración \\( [H^+] = 1.0 \\times 10^{-3} \\, M \\), su valor de pH es:",
     "options": [
       {
         "key": "A",
-        "text": "La que usa computadoras para simular sistemas químicos"
+        "text": "\\( 3.0 \\)"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "\\( 11.0 \\)"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "\\( -3.0 \\)"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades físicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las estructuras moleculares"
+        "text": "\\( 7.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química computacional simula sistemas químicos."
+    "explanation": "pH = -log(1.0 x 10^{-3}) = -(-3) = 3.0 (disolución fuertemente ácida)."
   },
   {
     "id": "5.2_q296",
     "number": 296,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química verde?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 46): Una disolución con pH igual a \\( 9.0 \\) se clasifica químicamente como:",
     "options": [
       {
         "key": "A",
-        "text": "La que busca reducir el impacto ambiental de los procesos químicos"
+        "text": "Básica o alcalina (ya que \\( pH > 7 \\))"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "Ácida fuerte"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "Completamente neutra"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades físicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las estructuras moleculares"
+        "text": "Inerte no reactiva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química verde reduce impacto ambiental."
+    "explanation": "En la escala de 0 a 14 a 25 °C: pH < 7 es ácido, pH = 7 es neutro y pH > 7 es alcalino o básico."
   },
   {
     "id": "5.2_q297",
     "number": 297,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química de alimentos?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 47): Si una disolución posee un pH de \\( 5.0 \\), su valor de pOH correspondiente es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia la composición y transformación de los alimentos"
+        "text": "\\( 9.0 \\)"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "\\( 5.0 \\)"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "\\( 2.0 \\)"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades físicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las estructuras moleculares"
+        "text": "\\( 14.0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química de alimentos estudia alimentos."
+    "explanation": "Puesto que pH + pOH = 14 a 25 °C, entonces pOH = 14 - 5 = 9.0."
   },
   {
     "id": "5.2_q298",
     "number": 298,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química agrícola?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 48): Una 'solución amortiguadora' (o buffer) se caracteriza funcionalmente por:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia los procesos químicos en la agricultura"
+        "text": "Resistir cambios bruscos en el pH cuando se le adicionan pequeñas cantidades de ácido o base fuerte"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "Mantener la temperatura de ebullición exactamente a 100 °C"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "Precipitar de inmediato todos los iones disueltos"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades físicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las estructuras moleculares"
+        "text": "Consistir únicamente en agua destilada desmineralizada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química agrícola estudia agricultura."
+    "explanation": "Formada por un ácido débil y su sal conjugada (o base débil y su ácido conjugado), neutraliza protones u oxhidrilos agregados."
   },
   {
     "id": "5.2_q299",
     "number": 299,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química de los materiales?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 49): En la sangre humana, el principal sistema amortiguador fisiológico que mantiene el pH entre 7.35 y 7.45 es:",
     "options": [
       {
         "key": "A",
-        "text": "La que estudia la síntesis y propiedades de los materiales"
+        "text": "El par ácido carbónico / bicarbonato \\( (H_2CO_3 / HCO_3^-) \\)"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "El ácido clorhídrico puro"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "El sulfato de cobre concentrado"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades físicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las estructuras moleculares"
+        "text": "El hidróxido de sodio libre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química de materiales estudia materiales."
+    "explanation": "El equilibrio CO2 + H2O <-> H2CO3 <-> H+ + HCO3- regula el pH plasmático con auxilio de la respiración pulmonar y la función renal."
   },
   {
     "id": "5.2_q300",
     "number": 300,
     "subtopicId": "5.2",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: QUÍMICA ORGÁNICA E INORGÁNICA (251–300)",
-    "statement": "¿Qué es la química teórica?",
+    "sectionTitle": "SECCIÓN VI: EQUILIBRIO QUÍMICO, TEORÍAS ÁCIDO-BASE Y ESCALA DE PH (251–300)",
+    "statement": "En el equilibrio ácido-base y cálculo de pH y pOH (ítem 50): Al mezclar volúmenes equimolares de un ácido fuerte \\( (HCl) \\) y una base fuerte \\( (NaOH) \\), se produce una reacción de neutralización que genera:",
     "options": [
       {
         "key": "A",
-        "text": "La que usa modelos matemáticos para explicar sistemas químicos"
+        "text": "Agua y una sal neutra \\( (NaCl + H_2O) \\) con pH neutro aproximado de 7"
       },
       {
         "key": "B",
-        "text": "La que estudia la composición de las sustancias"
+        "text": "Gas hidrógeno inflamable puro"
       },
       {
         "key": "C",
-        "text": "La que estudia las reacciones químicas"
+        "text": "Ácido sulfúrico concentrado"
       },
       {
         "key": "D",
-        "text": "La que estudia las propiedades físicas"
-      },
-      {
-        "key": "E",
-        "text": "La que estudia las propiedades químicas"
-      },
-      {
-        "key": "F",
-        "text": "La que estudia las estructuras moleculares ---"
+        "text": "Un precipitado insoluble de óxido de calcio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La química teórica usa modelos matemáticos."
+    "explanation": "HCl + NaOH -> NaCl + H2O; los protones H+ y los OH- se neutralizan completamente formando moléculas de agua."
   }
 ]

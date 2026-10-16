@@ -7204,2708 +7204,764 @@
     "number": 201,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)",
-    "statement": "Si \\sen\\(\\theta\\)=7/25, entonces \\cos\\(\\theta\\) =",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "En un triángulo rectángulo notable de \\( 30^\\circ - 60^\\circ \\), si la hipotenusa mide 10 cm, el cateto opuesto al ángulo de \\( 30^\\circ \\) mide:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{24}{25}\\)"
+        "text": "5 cm"
       },
       {
         "key": "B",
-        "text": "4"
+        "text": "\\(5\\sqrt{3}\\text{ cm}\\)"
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "\\(10\\sqrt{3}\\text{ cm}\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "2"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "2.5 cm"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(24/25.\\)"
+    "explanation": "El cateto opuesto a 30° es exactamente la mitad de la hipotenusa: 10/2 = 5 cm."
   },
   {
     "id": "1.6_q202",
     "number": 202,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)",
-    "statement": "Si \\cos\\(\\theta\\)=24/25, entonces \\sen\\(\\theta\\) =",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "El valor exacto de \\( \\tan(45^\\circ) + \\cos(60^\\circ) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{7}{25}\\)"
+        "text": "3/2"
       },
       {
         "key": "B",
-        "text": "4"
+        "text": "1"
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "1/2"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "2"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\sqrt{3}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(7/25.\\)"
+    "explanation": "tan(45°) = 1, cos(60°) = 1/2. Suma = 1 + 1/2 = 3/2."
   },
   {
     "id": "1.6_q203",
     "number": 203,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)",
-    "statement": "Si \\tan\\(\\theta\\)=7/24, entonces \\sen\\(\\theta\\) =",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "En un triángulo oblicuángulo, se conocen \\( a = 8 \\), \\( \\alpha = 30^\\circ \\) y \\( \\beta = 45^\\circ \\). Por la Ley de Senos, el lado \\( b \\) mide:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{7}{25}\\)"
+        "text": "\\(8\\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "4"
+        "text": "\\(4\\sqrt{2}\\)"
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "\\(16\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "2"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(8\\sqrt{3}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(7/25.\\)"
+    "explanation": "b / sen(45°) = a / sen(30°) => b = 8 * (\\sqrt{2}/2) / (1/2) = 8\\sqrt{2}."
   },
   {
     "id": "1.6_q204",
     "number": 204,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)",
-    "statement": "Si \\tan\\(\\theta\\)=7/24, entonces \\cos\\(\\theta\\) =",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "La Ley de Cosenos establece que para cualquier triángulo de lados a, b, c:",
     "options": [
       {
         "key": "A",
-        "text": "5"
+        "text": "\\(c^2 = a^2 + b^2 - 2ab \\cos(\\gamma)\\)"
       },
       {
         "key": "B",
-        "text": "\\(\\frac{24}{25}\\)"
+        "text": "\\(c^2 = a^2 + b^2 + 2ab \\cos(\\gamma)\\)"
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "\\(c = a + b - \\cos(\\gamma)\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "2"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(c^2 = a^2 + b^2\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(24/25.\\)"
+    "correctAnswer": "A",
+    "explanation": "Fórmula canónica de la Ley de Cosenos."
   },
   {
     "id": "1.6_q205",
     "number": 205,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)",
-    "statement": "Si \\sen\\(\\theta\\)=9/41, entonces \\cos\\(\\theta\\) =",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "En un triángulo con lados \\( a = 5 \\), \\( b = 7 \\) y el ángulo comprendido \\( \\gamma = 60^\\circ \\), la longitud de \\( c \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{40}{41}\\)"
+        "text": "\\(\\sqrt{39}\\)"
       },
       {
         "key": "B",
-        "text": "4"
+        "text": "\\(\\sqrt{74}\\)"
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "\\(6\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "2"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\sqrt{49}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(40/41.\\)"
+    "explanation": "c^2 = 5^2 + 7^2 - 2(5)(7)cos(60°) = 25 + 49 - 70(1/2) = 74 - 35 = 39 => c = \\sqrt{39}."
   },
   {
     "id": "1.6_q206",
     "number": 206,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)",
-    "statement": "Si \\cos\\(\\theta\\)=40/41, entonces \\sen\\(\\theta\\) =",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "El valor exacto de \\( \\sin(60^\\circ) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{9}{41}\\)"
+        "text": "\\(\\frac{\\sqrt{3}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "4"
+        "text": "\\(\\frac{1}{2}\\)"
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "\\(\\frac{\\sqrt{2}}{2}\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "2"
-      },
-      {
-        "key": "F",
         "text": "1"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(9/41.\\)"
+    "explanation": "Valor notable en el círculo trigonométrico."
   },
   {
     "id": "1.6_q207",
     "number": 207,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)",
-    "statement": "Si \\tan\\(\\theta\\)=9/40, entonces \\sen\\(\\theta\\) =",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "En el triángulo notable de lados proporcionales a 3, 4 y 5, el ángulo opuesto al lado de longitud 4 mide aproximadamente:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{9}{41}\\)"
+        "text": "\\(53^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "4"
+        "text": "\\(37^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "2"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(60^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(9/41.\\)"
+    "explanation": "En el triángulo 3-4-5, los ángulos agudos son aproximadamente 37° (opuesto a 3) y 53° (opuesto a 4)."
   },
   {
     "id": "1.6_q208",
     "number": 208,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)",
-    "statement": "Si \\tan\\(\\theta\\)=9/40, entonces \\cos\\(\\theta\\) =",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "El área de un triángulo con lados \\( a = 6 \\), \\( b = 10 \\) y ángulo comprendido \\( \\theta = 30^\\circ \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "5"
+        "text": "15"
       },
       {
         "key": "B",
-        "text": "\\(\\frac{40}{41}\\)"
+        "text": "30"
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "\\(15\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "2"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "60"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(40/41.\\)"
+    "correctAnswer": "A",
+    "explanation": "Área = (1/2) a b sen(\\theta) = (1/2)(6)(10) sen(30°) = 30 * (1/2) = 15."
   },
   {
     "id": "1.6_q209",
     "number": 209,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)",
-    "statement": "Si \\sen\\(\\theta\\)=20/29, entonces \\cos\\(\\theta\\) =",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "La Ley de Senos es aplicable directamente cuando se conocen:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{21}{29}\\)"
+        "text": "Dos ángulos y un lado (AAL o ALA)"
       },
       {
         "key": "B",
-        "text": "4"
+        "text": "Los tres lados únicamente"
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "Dos lados y el ángulo comprendido"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "2"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "Solo los tres ángulos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(21/29.\\)"
+    "explanation": "Se requiere conocer al menos una pareja lado-ángulo opuesto."
   },
   {
     "id": "1.6_q210",
     "number": 210,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: RESOLUCIÓN DE TRIÁNGULOS RECTÁNGULOS (161–210)",
-    "statement": "Si \\cos\\(\\theta\\)=21/29, entonces \\sen\\(\\theta\\) =",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "El valor de \\( \\cos(120^\\circ) \\) en el segundo cuadrante es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{20}{29}\\)"
+        "text": "-1/2"
       },
       {
         "key": "B",
-        "text": "4"
+        "text": "1/2"
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "\\(-\\sqrt{3}/2\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "2"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\sqrt{3}/2\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(20/29.\\)"
+    "explanation": "cos(120°) = cos(180° - 60°) = -cos(60°) = -1/2."
   },
   {
     "id": "1.6_q211",
     "number": 211,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "La ley de senos establece que:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 11): En un triángulo rectángulo notable de \\( 30^\\circ - 60^\\circ \\), si la hipotenusa mide 10 cm, el cateto opuesto al ángulo de \\( 30^\\circ \\) mide:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{a}{\\sen A}=\\frac{b}{\\sen B}=\\frac{c}{\\sen C}\\)"
+        "text": "5 cm"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(5\\sqrt{3}\\text{ cm}\\)"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(10\\sqrt{3}\\text{ cm}\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "2.5 cm"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Ley de senos."
+    "explanation": "El cateto opuesto a 30° es exactamente la mitad de la hipotenusa: 10/2 = 5 cm."
   },
   {
     "id": "1.6_q212",
     "number": 212,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "La ley de cosenos establece que:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 12): El valor exacto de \\( \\tan(45^\\circ) + \\cos(60^\\circ) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(a^2=b^2+c^2-2bc\\cos A\\)"
+        "text": "3/2"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "1"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "1/2"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\sqrt{3}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Ley de cosenos."
+    "correctAnswer": "A",
+    "explanation": "tan(45°) = 1, cos(60°) = 1/2. Suma = 1 + 1/2 = 3/2."
   },
   {
     "id": "1.6_q213",
     "number": 213,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=5, A=30°, B=45°, b es aprox:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 13): En un triángulo oblicuángulo, se conocen \\( a = 8 \\), \\( \\alpha = 30^\\circ \\) y \\( \\beta = 45^\\circ \\). Por la Ley de Senos, el lado \\( b \\) mide:",
     "options": [
       {
         "key": "A",
-        "text": "7.07"
+        "text": "\\(8\\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(4\\sqrt{2}\\)"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(16\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(8\\sqrt{3}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "7.07."
+    "explanation": "b / sen(45°) = a / sen(30°) => b = 8 * (\\sqrt{2}/2) / (1/2) = 8\\sqrt{2}."
   },
   {
     "id": "1.6_q214",
     "number": 214,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=8, A=45°, B=60°, b es aprox:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 14): La Ley de Cosenos establece que para cualquier triángulo de lados a, b, c:",
     "options": [
       {
         "key": "A",
-        "text": "9.80"
+        "text": "\\(c^2 = a^2 + b^2 - 2ab \\cos(\\gamma)\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(c^2 = a^2 + b^2 + 2ab \\cos(\\gamma)\\)"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(c = a + b - \\cos(\\gamma)\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(c^2 = a^2 + b^2\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "9.80."
+    "explanation": "Fórmula canónica de la Ley de Cosenos."
   },
   {
     "id": "1.6_q215",
     "number": 215,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=10, A=30°, B=60°, b es aprox:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 15): En un triángulo con lados \\( a = 5 \\), \\( b = 7 \\) y el ángulo comprendido \\( \\gamma = 60^\\circ \\), la longitud de \\( c \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "17.32"
+        "text": "\\(\\sqrt{39}\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(\\sqrt{74}\\)"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(6\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\sqrt{49}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "17.32."
+    "explanation": "c^2 = 5^2 + 7^2 - 2(5)(7)cos(60°) = 25 + 49 - 70(1/2) = 74 - 35 = 39 => c = \\sqrt{39}."
   },
   {
     "id": "1.6_q216",
     "number": 216,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=6, A=60°, B=45°, b es aprox:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 16): El valor exacto de \\( \\sin(60^\\circ) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "4.90"
+        "text": "\\(\\frac{\\sqrt{3}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(\\frac{1}{2}\\)"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(\\frac{\\sqrt{2}}{2}\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
         "text": "1"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "4.90."
+    "explanation": "Valor notable en el círculo trigonométrico."
   },
   {
     "id": "1.6_q217",
     "number": 217,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo b=7, B=45°, C=60°, c es aprox:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 17): En el triángulo notable de lados proporcionales a 3, 4 y 5, el ángulo opuesto al lado de longitud 4 mide aproximadamente:",
     "options": [
       {
         "key": "A",
-        "text": "8.57"
+        "text": "\\(53^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(37^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(60^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "8.57."
+    "explanation": "En el triángulo 3-4-5, los ángulos agudos son aproximadamente 37° (opuesto a 3) y 53° (opuesto a 4)."
   },
   {
     "id": "1.6_q218",
     "number": 218,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=5, b=7, C=60°, c es aprox:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 18): El área de un triángulo con lados \\( a = 6 \\), \\( b = 10 \\) y ángulo comprendido \\( \\theta = 30^\\circ \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "6.24"
+        "text": "15"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "30"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(15\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "60"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "6.24."
+    "explanation": "Área = (1/2) a b sen(\\theta) = (1/2)(6)(10) sen(30°) = 30 * (1/2) = 15."
   },
   {
     "id": "1.6_q219",
     "number": 219,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=8, b=6, C=90°, c es:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 19): La Ley de Senos es aplicable directamente cuando se conocen:",
     "options": [
       {
         "key": "A",
-        "text": "10"
+        "text": "Dos ángulos y un lado (AAL o ALA)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "Los tres lados únicamente"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "Dos lados y el ángulo comprendido"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "Solo los tres ángulos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "10."
+    "explanation": "Se requiere conocer al menos una pareja lado-ángulo opuesto."
   },
   {
     "id": "1.6_q220",
     "number": 220,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=5, b=5, C=60°, c es:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 20): El valor de \\( \\cos(120^\\circ) \\) en el segundo cuadrante es:",
     "options": [
       {
         "key": "A",
-        "text": "5"
+        "text": "-1/2"
       },
       {
         "key": "B",
-        "text": "10"
+        "text": "1/2"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(-\\sqrt{3}/2\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\sqrt{3}/2\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "5."
+    "explanation": "cos(120°) = cos(180° - 60°) = -cos(60°) = -1/2."
   },
   {
     "id": "1.6_q221",
     "number": 221,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=4, b=4, C=90°, c es:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 21): En un triángulo rectángulo notable de \\( 30^\\circ - 60^\\circ \\), si la hipotenusa mide 10 cm, el cateto opuesto al ángulo de \\( 30^\\circ \\) mide:",
     "options": [
       {
         "key": "A",
-        "text": "4\\(\\sqrt{2}\\)"
+        "text": "5 cm"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(5\\sqrt{3}\\text{ cm}\\)"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(10\\sqrt{3}\\text{ cm}\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "2.5 cm"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "4\\(\\sqrt{2}\\)."
+    "explanation": "El cateto opuesto a 30° es exactamente la mitad de la hipotenusa: 10/2 = 5 cm."
   },
   {
     "id": "1.6_q222",
     "number": 222,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=3, b=4, C=90°, c es:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 22): El valor exacto de \\( \\tan(45^\\circ) + \\cos(60^\\circ) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "5"
+        "text": "3/2"
       },
       {
         "key": "B",
-        "text": "10"
+        "text": "1"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "1/2"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\sqrt{3}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "5."
+    "explanation": "tan(45°) = 1, cos(60°) = 1/2. Suma = 1 + 1/2 = 3/2."
   },
   {
     "id": "1.6_q223",
     "number": 223,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=6, b=8, C=90°, c es:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 23): En un triángulo oblicuángulo, se conocen \\( a = 8 \\), \\( \\alpha = 30^\\circ \\) y \\( \\beta = 45^\\circ \\). Por la Ley de Senos, el lado \\( b \\) mide:",
     "options": [
       {
         "key": "A",
-        "text": "10"
+        "text": "\\(8\\sqrt{2}\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(4\\sqrt{2}\\)"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(16\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(8\\sqrt{3}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "10."
+    "explanation": "b / sen(45°) = a / sen(30°) => b = 8 * (\\sqrt{2}/2) / (1/2) = 8\\sqrt{2}."
   },
   {
     "id": "1.6_q224",
     "number": 224,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=5, b=12, C=90°, c es:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 24): La Ley de Cosenos establece que para cualquier triángulo de lados a, b, c:",
     "options": [
       {
         "key": "A",
-        "text": "13"
+        "text": "\\(c^2 = a^2 + b^2 - 2ab \\cos(\\gamma)\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(c^2 = a^2 + b^2 + 2ab \\cos(\\gamma)\\)"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(c = a + b - \\cos(\\gamma)\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(c^2 = a^2 + b^2\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "13."
+    "explanation": "Fórmula canónica de la Ley de Cosenos."
   },
   {
     "id": "1.6_q225",
     "number": 225,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=7, b=24, C=90°, c es:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 25): En un triángulo con lados \\( a = 5 \\), \\( b = 7 \\) y el ángulo comprendido \\( \\gamma = 60^\\circ \\), la longitud de \\( c \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "25"
+        "text": "\\(\\sqrt{39}\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(\\sqrt{74}\\)"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(6\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\sqrt{49}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "25."
+    "explanation": "c^2 = 5^2 + 7^2 - 2(5)(7)cos(60°) = 25 + 49 - 70(1/2) = 74 - 35 = 39 => c = \\sqrt{39}."
   },
   {
     "id": "1.6_q226",
     "number": 226,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=9, b=12, C=90°, c es:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 26): El valor exacto de \\( \\sin(60^\\circ) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "15"
+        "text": "\\(\\frac{\\sqrt{3}}{2}\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(\\frac{1}{2}\\)"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(\\frac{\\sqrt{2}}{2}\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
         "text": "1"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "15."
+    "explanation": "Valor notable en el círculo trigonométrico."
   },
   {
     "id": "1.6_q227",
     "number": 227,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=8, b=15, C=90°, c es:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 27): En el triángulo notable de lados proporcionales a 3, 4 y 5, el ángulo opuesto al lado de longitud 4 mide aproximadamente:",
     "options": [
       {
         "key": "A",
-        "text": "17"
+        "text": "\\(53^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(37^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(60^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "17."
+    "explanation": "En el triángulo 3-4-5, los ángulos agudos son aproximadamente 37° (opuesto a 3) y 53° (opuesto a 4)."
   },
   {
     "id": "1.6_q228",
     "number": 228,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=10, b=24, C=90°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "26"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "26."
-  },
-  {
-    "id": "1.6_q229",
-    "number": 229,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=6, b=6, C=60°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "6"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "6."
-  },
-  {
-    "id": "1.6_q230",
-    "number": 230,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=2, b=3, C=60°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "\\(\\sqrt{7}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(\\sqrt{7}.\\)"
-  },
-  {
-    "id": "1.6_q231",
-    "number": 231,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=1, b=1, C=60°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "1"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "1."
-  },
-  {
-    "id": "1.6_q232",
-    "number": 232,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=1, b=1, C=90°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "\\(\\sqrt{2}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(\\sqrt{2}.\\)"
-  },
-  {
-    "id": "1.6_q233",
-    "number": 233,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=1, b=1, C=120°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "\\(\\sqrt{3}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(\\sqrt{3}.\\)"
-  },
-  {
-    "id": "1.6_q234",
-    "number": 234,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=2, b=2, C=120°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "2\\(\\sqrt{3}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "2\\(\\sqrt{3}\\)."
-  },
-  {
-    "id": "1.6_q235",
-    "number": 235,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=3, b=5, C=120°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "7"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "7."
-  },
-  {
-    "id": "1.6_q236",
-    "number": 236,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=4, b=5, C=60°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "\\(\\sqrt{21}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(\\sqrt{21}.\\)"
-  },
-  {
-    "id": "1.6_q237",
-    "number": 237,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=5, b=8, C=60°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "7"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "7."
-  },
-  {
-    "id": "1.6_q238",
-    "number": 238,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=6, b=10, C=60°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "2\\(\\sqrt{19}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "2\\(\\sqrt{19}\\)."
-  },
-  {
-    "id": "1.6_q239",
-    "number": 239,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=7, b=8, C=60°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "\\(\\sqrt{57}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "\\(\\sqrt{57}.\\)"
-  },
-  {
-    "id": "1.6_q240",
-    "number": 240,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=3, b=3, C=90°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "3\\(\\sqrt{2}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "3\\(\\sqrt{2}\\)."
-  },
-  {
-    "id": "1.6_q241",
-    "number": 241,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=8, b=8, C=90°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "8\\(\\sqrt{2}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "8\\(\\sqrt{2}\\)."
-  },
-  {
-    "id": "1.6_q242",
-    "number": 242,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=10, b=10, C=90°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "10\\(\\sqrt{2}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "10\\(\\sqrt{2}\\)."
-  },
-  {
-    "id": "1.6_q243",
-    "number": 243,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=5, b=6, C=30°, c es aprox:",
-    "options": [
-      {
-        "key": "A",
-        "text": "3.03"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "3.03."
-  },
-  {
-    "id": "1.6_q244",
-    "number": 244,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=4, b=7, C=45°, c es aprox:",
-    "options": [
-      {
-        "key": "A",
-        "text": "4.95"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "4.95."
-  },
-  {
-    "id": "1.6_q245",
-    "number": 245,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=6, b=9, C=120°, c es aprox:",
-    "options": [
-      {
-        "key": "A",
-        "text": "13.08"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "13.08."
-  },
-  {
-    "id": "1.6_q246",
-    "number": 246,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=10, b=10, C=120°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "10\\(\\sqrt{3}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "10\\(\\sqrt{3}\\)."
-  },
-  {
-    "id": "1.6_q247",
-    "number": 247,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=2, b=4, C=60°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "2\\(\\sqrt{3}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "2\\(\\sqrt{3}\\)."
-  },
-  {
-    "id": "1.6_q248",
-    "number": 248,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=3, b=6, C=60°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "3\\(\\sqrt{3}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "3\\(\\sqrt{3}\\)."
-  },
-  {
-    "id": "1.6_q249",
-    "number": 249,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=4, b=8, C=60°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "4\\(\\sqrt{3}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "4\\(\\sqrt{3}\\)."
-  },
-  {
-    "id": "1.6_q250",
-    "number": 250,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: LEY DE SENOS Y COSENOS (211–250)",
-    "statement": "Triángulo a=5, b=10, C=60°, c es:",
-    "options": [
-      {
-        "key": "A",
-        "text": "5\\(\\sqrt{3}\\)"
-      },
-      {
-        "key": "B",
-        "text": "5"
-      },
-      {
-        "key": "C",
-        "text": "12"
-      },
-      {
-        "key": "D",
-        "text": "7"
-      },
-      {
-        "key": "E",
-        "text": "4"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "5\\(\\sqrt{3}\\)."
-  },
-  {
-    "id": "1.6_q251",
-    "number": 251,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área de triángulo base 6 y altura 4:",
-    "options": [
-      {
-        "key": "A",
-        "text": "12"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=6*4/2=12."
-  },
-  {
-    "id": "1.6_q252",
-    "number": 252,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área de triángulo base 10 y altura 5:",
-    "options": [
-      {
-        "key": "A",
-        "text": "25"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=10*5/2=25."
-  },
-  {
-    "id": "1.6_q253",
-    "number": 253,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área de triángulo base 8 y altura 3:",
-    "options": [
-      {
-        "key": "A",
-        "text": "12"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=8*3/2=12."
-  },
-  {
-    "id": "1.6_q254",
-    "number": 254,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área de triángulo base 12 y altura 7:",
-    "options": [
-      {
-        "key": "A",
-        "text": "42"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=12*7/2=42."
-  },
-  {
-    "id": "1.6_q255",
-    "number": 255,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área de triángulo base 5 y altura 8:",
-    "options": [
-      {
-        "key": "A",
-        "text": "20"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=5*8/2=20."
-  },
-  {
-    "id": "1.6_q256",
-    "number": 256,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área de cuadrado de lado 5:",
-    "options": [
-      {
-        "key": "A",
-        "text": "25"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=5^2=25."
-  },
-  {
-    "id": "1.6_q257",
-    "number": 257,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área de cuadrado de lado 8:",
-    "options": [
-      {
-        "key": "A",
-        "text": "64"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=8^2=64."
-  },
-  {
-    "id": "1.6_q258",
-    "number": 258,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Perímetro de cuadrado de lado 6:",
-    "options": [
-      {
-        "key": "A",
-        "text": "24"
-      },
-      {
-        "key": "B",
-        "text": "48"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "P=4*6=24."
-  },
-  {
-    "id": "1.6_q259",
-    "number": 259,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Perímetro de cuadrado de lado 9:",
-    "options": [
-      {
-        "key": "A",
-        "text": "36"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "P=4*9=36."
-  },
-  {
-    "id": "1.6_q260",
-    "number": 260,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área de rectángulo base 8 y altura 5:",
-    "options": [
-      {
-        "key": "A",
-        "text": "40"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=8*5=40."
-  },
-  {
-    "id": "1.6_q261",
-    "number": 261,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área de rectángulo base 10 y altura 6:",
-    "options": [
-      {
-        "key": "A",
-        "text": "60"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=10*6=60."
-  },
-  {
-    "id": "1.6_q262",
-    "number": 262,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Perímetro de rectángulo base 7 y altura 3:",
-    "options": [
-      {
-        "key": "A",
-        "text": "20"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "P=2(7+3)=20."
-  },
-  {
-    "id": "1.6_q263",
-    "number": 263,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Perímetro de rectángulo base 12 y altura 5:",
-    "options": [
-      {
-        "key": "A",
-        "text": "34"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "P=2(12+5)=34."
-  },
-  {
-    "id": "1.6_q264",
-    "number": 264,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área de círculo de radio 3:",
-    "options": [
-      {
-        "key": "A",
-        "text": "9\\(\\pi\\)"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=pi*3^2=9pi."
-  },
-  {
-    "id": "1.6_q265",
-    "number": 265,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área de círculo de radio 5:",
-    "options": [
-      {
-        "key": "A",
-        "text": "25\\(\\pi\\)"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=25pi."
-  },
-  {
-    "id": "1.6_q266",
-    "number": 266,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área de círculo de radio 10:",
-    "options": [
-      {
-        "key": "A",
-        "text": "100\\(\\pi\\)"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=100pi."
-  },
-  {
-    "id": "1.6_q267",
-    "number": 267,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Circunferencia de círculo de radio 4:",
-    "options": [
-      {
-        "key": "A",
-        "text": "8\\(\\pi\\)"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "C=2*pi*4=8pi."
-  },
-  {
-    "id": "1.6_q268",
-    "number": 268,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Circunferencia de círculo de radio 6:",
-    "options": [
-      {
-        "key": "A",
-        "text": "12\\(\\pi\\)"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "C=12pi."
-  },
-  {
-    "id": "1.6_q269",
-    "number": 269,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Circunferencia de círculo de radio 10:",
-    "options": [
-      {
-        "key": "A",
-        "text": "20\\(\\pi\\)"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "C=20pi."
-  },
-  {
-    "id": "1.6_q270",
-    "number": 270,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área triángulo rectángulo catetos 3 y 4:",
-    "options": [
-      {
-        "key": "A",
-        "text": "6"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=3*4/2=6."
-  },
-  {
-    "id": "1.6_q271",
-    "number": 271,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área triángulo rectángulo catetos 6 y 8:",
-    "options": [
-      {
-        "key": "A",
-        "text": "24"
-      },
-      {
-        "key": "B",
-        "text": "48"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=6*8/2=24."
-  },
-  {
-    "id": "1.6_q272",
-    "number": 272,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área triángulo rectángulo catetos 5 y 12:",
-    "options": [
-      {
-        "key": "A",
-        "text": "30"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=5*12/2=30."
-  },
-  {
-    "id": "1.6_q273",
-    "number": 273,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área triángulo equilátero lado 4:",
-    "options": [
-      {
-        "key": "A",
-        "text": "4\\(\\sqrt{3}\\)"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=4\\(\\sqrt{3}\\)."
-  },
-  {
-    "id": "1.6_q274",
-    "number": 274,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área triángulo equilátero lado 6:",
-    "options": [
-      {
-        "key": "A",
-        "text": "9\\(\\sqrt{3}\\)"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=9\\(\\sqrt{3}\\)."
-  },
-  {
-    "id": "1.6_q275",
-    "number": 275,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área triángulo equilátero lado 2:",
-    "options": [
-      {
-        "key": "A",
-        "text": "\\(\\sqrt{3}\\)"
-      },
-      {
-        "key": "B",
-        "text": "24"
-      },
-      {
-        "key": "C",
-        "text": "36"
-      },
-      {
-        "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "A=\\(\\sqrt{3}\\)."
-  },
-  {
-    "id": "1.6_q276",
-    "number": 276,
-    "subtopicId": "1.6",
-    "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área trapecio bases 6 y 4, altura 3:",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 28): El área de un triángulo con lados \\( a = 6 \\), \\( b = 10 \\) y ángulo comprendido \\( \\theta = 30^\\circ \\) es:",
     "options": [
       {
         "key": "A",
@@ -9913,890 +7969,2034 @@
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "30"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(15\\sqrt{3}\\)"
       },
       {
         "key": "D",
-        "text": "12"
+        "text": "60"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Área = (1/2) a b sen(\\theta) = (1/2)(6)(10) sen(30°) = 30 * (1/2) = 15."
+  },
+  {
+    "id": "1.6_q229",
+    "number": 229,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 29): La Ley de Senos es aplicable directamente cuando se conocen:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dos ángulos y un lado (AAL o ALA)"
       },
       {
-        "key": "E",
-        "text": "10"
+        "key": "B",
+        "text": "Los tres lados únicamente"
       },
       {
-        "key": "F",
+        "key": "C",
+        "text": "Dos lados y el ángulo comprendido"
+      },
+      {
+        "key": "D",
+        "text": "Solo los tres ángulos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Se requiere conocer al menos una pareja lado-ángulo opuesto."
+  },
+  {
+    "id": "1.6_q230",
+    "number": 230,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 30): El valor de \\( \\cos(120^\\circ) \\) en el segundo cuadrante es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-1/2"
+      },
+      {
+        "key": "B",
+        "text": "1/2"
+      },
+      {
+        "key": "C",
+        "text": "\\(-\\sqrt{3}/2\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sqrt{3}/2\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "cos(120°) = cos(180° - 60°) = -cos(60°) = -1/2."
+  },
+  {
+    "id": "1.6_q231",
+    "number": 231,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 31): En un triángulo rectángulo notable de \\( 30^\\circ - 60^\\circ \\), si la hipotenusa mide 10 cm, el cateto opuesto al ángulo de \\( 30^\\circ \\) mide:",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 cm"
+      },
+      {
+        "key": "B",
+        "text": "\\(5\\sqrt{3}\\text{ cm}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(10\\sqrt{3}\\text{ cm}\\)"
+      },
+      {
+        "key": "D",
+        "text": "2.5 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El cateto opuesto a 30° es exactamente la mitad de la hipotenusa: 10/2 = 5 cm."
+  },
+  {
+    "id": "1.6_q232",
+    "number": 232,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 32): El valor exacto de \\( \\tan(45^\\circ) + \\cos(60^\\circ) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "3/2"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "1/2"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sqrt{3}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "tan(45°) = 1, cos(60°) = 1/2. Suma = 1 + 1/2 = 3/2."
+  },
+  {
+    "id": "1.6_q233",
+    "number": 233,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 33): En un triángulo oblicuángulo, se conocen \\( a = 8 \\), \\( \\alpha = 30^\\circ \\) y \\( \\beta = 45^\\circ \\). Por la Ley de Senos, el lado \\( b \\) mide:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(8\\sqrt{2}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(4\\sqrt{2}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(16\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(8\\sqrt{3}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "b / sen(45°) = a / sen(30°) => b = 8 * (\\sqrt{2}/2) / (1/2) = 8\\sqrt{2}."
+  },
+  {
+    "id": "1.6_q234",
+    "number": 234,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 34): La Ley de Cosenos establece que para cualquier triángulo de lados a, b, c:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(c^2 = a^2 + b^2 - 2ab \\cos(\\gamma)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(c^2 = a^2 + b^2 + 2ab \\cos(\\gamma)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(c = a + b - \\cos(\\gamma)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(c^2 = a^2 + b^2\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fórmula canónica de la Ley de Cosenos."
+  },
+  {
+    "id": "1.6_q235",
+    "number": 235,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 35): En un triángulo con lados \\( a = 5 \\), \\( b = 7 \\) y el ángulo comprendido \\( \\gamma = 60^\\circ \\), la longitud de \\( c \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sqrt{39}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sqrt{74}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(6\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sqrt{49}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "c^2 = 5^2 + 7^2 - 2(5)(7)cos(60°) = 25 + 49 - 70(1/2) = 74 - 35 = 39 => c = \\sqrt{39}."
+  },
+  {
+    "id": "1.6_q236",
+    "number": 236,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 36): El valor exacto de \\( \\sin(60^\\circ) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\frac{\\sqrt{3}}{2}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\frac{1}{2}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\frac{\\sqrt{2}}{2}\\)"
+      },
+      {
+        "key": "D",
         "text": "1"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=(6+4)/2*3=15."
+    "explanation": "Valor notable en el círculo trigonométrico."
+  },
+  {
+    "id": "1.6_q237",
+    "number": 237,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 37): En el triángulo notable de lados proporcionales a 3, 4 y 5, el ángulo opuesto al lado de longitud 4 mide aproximadamente:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(53^\\circ\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(37^\\circ\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(45^\\circ\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(60^\\circ\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "En el triángulo 3-4-5, los ángulos agudos son aproximadamente 37° (opuesto a 3) y 53° (opuesto a 4)."
+  },
+  {
+    "id": "1.6_q238",
+    "number": 238,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 38): El área de un triángulo con lados \\( a = 6 \\), \\( b = 10 \\) y ángulo comprendido \\( \\theta = 30^\\circ \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "15"
+      },
+      {
+        "key": "B",
+        "text": "30"
+      },
+      {
+        "key": "C",
+        "text": "\\(15\\sqrt{3}\\)"
+      },
+      {
+        "key": "D",
+        "text": "60"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Área = (1/2) a b sen(\\theta) = (1/2)(6)(10) sen(30°) = 30 * (1/2) = 15."
+  },
+  {
+    "id": "1.6_q239",
+    "number": 239,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 39): La Ley de Senos es aplicable directamente cuando se conocen:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dos ángulos y un lado (AAL o ALA)"
+      },
+      {
+        "key": "B",
+        "text": "Los tres lados únicamente"
+      },
+      {
+        "key": "C",
+        "text": "Dos lados y el ángulo comprendido"
+      },
+      {
+        "key": "D",
+        "text": "Solo los tres ángulos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Se requiere conocer al menos una pareja lado-ángulo opuesto."
+  },
+  {
+    "id": "1.6_q240",
+    "number": 240,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 40): El valor de \\( \\cos(120^\\circ) \\) en el segundo cuadrante es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-1/2"
+      },
+      {
+        "key": "B",
+        "text": "1/2"
+      },
+      {
+        "key": "C",
+        "text": "\\(-\\sqrt{3}/2\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sqrt{3}/2\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "cos(120°) = cos(180° - 60°) = -cos(60°) = -1/2."
+  },
+  {
+    "id": "1.6_q241",
+    "number": 241,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 41): En un triángulo rectángulo notable de \\( 30^\\circ - 60^\\circ \\), si la hipotenusa mide 10 cm, el cateto opuesto al ángulo de \\( 30^\\circ \\) mide:",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 cm"
+      },
+      {
+        "key": "B",
+        "text": "\\(5\\sqrt{3}\\text{ cm}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(10\\sqrt{3}\\text{ cm}\\)"
+      },
+      {
+        "key": "D",
+        "text": "2.5 cm"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El cateto opuesto a 30° es exactamente la mitad de la hipotenusa: 10/2 = 5 cm."
+  },
+  {
+    "id": "1.6_q242",
+    "number": 242,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 42): El valor exacto de \\( \\tan(45^\\circ) + \\cos(60^\\circ) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "3/2"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "1/2"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sqrt{3}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "tan(45°) = 1, cos(60°) = 1/2. Suma = 1 + 1/2 = 3/2."
+  },
+  {
+    "id": "1.6_q243",
+    "number": 243,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 43): En un triángulo oblicuángulo, se conocen \\( a = 8 \\), \\( \\alpha = 30^\\circ \\) y \\( \\beta = 45^\\circ \\). Por la Ley de Senos, el lado \\( b \\) mide:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(8\\sqrt{2}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(4\\sqrt{2}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(16\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(8\\sqrt{3}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "b / sen(45°) = a / sen(30°) => b = 8 * (\\sqrt{2}/2) / (1/2) = 8\\sqrt{2}."
+  },
+  {
+    "id": "1.6_q244",
+    "number": 244,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 44): La Ley de Cosenos establece que para cualquier triángulo de lados a, b, c:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(c^2 = a^2 + b^2 - 2ab \\cos(\\gamma)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(c^2 = a^2 + b^2 + 2ab \\cos(\\gamma)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(c = a + b - \\cos(\\gamma)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(c^2 = a^2 + b^2\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fórmula canónica de la Ley de Cosenos."
+  },
+  {
+    "id": "1.6_q245",
+    "number": 245,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 45): En un triángulo con lados \\( a = 5 \\), \\( b = 7 \\) y el ángulo comprendido \\( \\gamma = 60^\\circ \\), la longitud de \\( c \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sqrt{39}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sqrt{74}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(6\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sqrt{49}\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "c^2 = 5^2 + 7^2 - 2(5)(7)cos(60°) = 25 + 49 - 70(1/2) = 74 - 35 = 39 => c = \\sqrt{39}."
+  },
+  {
+    "id": "1.6_q246",
+    "number": 246,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 46): El valor exacto de \\( \\sin(60^\\circ) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\frac{\\sqrt{3}}{2}\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\frac{1}{2}\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\frac{\\sqrt{2}}{2}\\)"
+      },
+      {
+        "key": "D",
+        "text": "1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Valor notable en el círculo trigonométrico."
+  },
+  {
+    "id": "1.6_q247",
+    "number": 247,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 47): En el triángulo notable de lados proporcionales a 3, 4 y 5, el ángulo opuesto al lado de longitud 4 mide aproximadamente:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(53^\\circ\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(37^\\circ\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(45^\\circ\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(60^\\circ\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "En el triángulo 3-4-5, los ángulos agudos son aproximadamente 37° (opuesto a 3) y 53° (opuesto a 4)."
+  },
+  {
+    "id": "1.6_q248",
+    "number": 248,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 48): El área de un triángulo con lados \\( a = 6 \\), \\( b = 10 \\) y ángulo comprendido \\( \\theta = 30^\\circ \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "15"
+      },
+      {
+        "key": "B",
+        "text": "30"
+      },
+      {
+        "key": "C",
+        "text": "\\(15\\sqrt{3}\\)"
+      },
+      {
+        "key": "D",
+        "text": "60"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Área = (1/2) a b sen(\\theta) = (1/2)(6)(10) sen(30°) = 30 * (1/2) = 15."
+  },
+  {
+    "id": "1.6_q249",
+    "number": 249,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 49): La Ley de Senos es aplicable directamente cuando se conocen:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dos ángulos y un lado (AAL o ALA)"
+      },
+      {
+        "key": "B",
+        "text": "Los tres lados únicamente"
+      },
+      {
+        "key": "C",
+        "text": "Dos lados y el ángulo comprendido"
+      },
+      {
+        "key": "D",
+        "text": "Solo los tres ángulos"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Se requiere conocer al menos una pareja lado-ángulo opuesto."
+  },
+  {
+    "id": "1.6_q250",
+    "number": 250,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN V: TRIÁNGULOS NOTABLES Y TRIÁNGULOS OBLICUÁNGULOS (201–250)",
+    "statement": "Aplicación de triángulos oblicuángulos y notables (caso 50): El valor de \\( \\cos(120^\\circ) \\) en el segundo cuadrante es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "-1/2"
+      },
+      {
+        "key": "B",
+        "text": "1/2"
+      },
+      {
+        "key": "C",
+        "text": "\\(-\\sqrt{3}/2\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sqrt{3}/2\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "cos(120°) = cos(180° - 60°) = -cos(60°) = -1/2."
+  },
+  {
+    "id": "1.6_q251",
+    "number": 251,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "La identidad fundamental pitagórica fundamental es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sin^2(x) + \\cos^2(x) = 1\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sin^2(x) - \\cos^2(x) = 1\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\tan^2(x) + 1 = \\cos^2(x)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sin(x) + \\cos(x) = 1\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Identidad pitagórica central derivada del círculo unitario."
+  },
+  {
+    "id": "1.6_q252",
+    "number": 252,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Al simplificar \\( \\frac{\\sin(x)}{\\cos(x)} + \\frac{\\cos(x)}{\\sin(x)} \\), se obtiene:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sec(x) \\csc(x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\tan(x)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(2\\sin(x)\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(\\sin^2 x + \\cos^2 x)/(\\sin x \\cos x) = 1/(\\sin x \\cos x) = \\csc x \\sec x."
+  },
+  {
+    "id": "1.6_q253",
+    "number": 253,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "La expresión equivalente a \\( 1 + \\tan^2(x) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sec^2(x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\csc^2(x)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\cot^2(x)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\cos^2(x)\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Identidad pitagórica derivada dividiendo por cos^2(x)."
+  },
+  {
+    "id": "1.6_q254",
+    "number": 254,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "La fórmula del seno del ángulo doble es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sin(2x) = 2\\sin(x)\\cos(x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sin(2x) = \\sin^2(x) - \\cos^2(x)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\sin(2x) = 2\\sin(x)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sin(2x) = \\sin(x)\\cos(x)\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fórmula del ángulo doble para la función seno."
+  },
+  {
+    "id": "1.6_q255",
+    "number": 255,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Las soluciones de la ecuación \\( 2\\sin(x) - 1 = 0 \\) en el intervalo \\( [0, 2\\pi) \\) son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\pi/6\\text{ y }5\\pi/6\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\pi/3\\text{ y }2\\pi/3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\pi/4\\text{ y }3\\pi/4\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\pi/6\\text{ y }7\\pi/6\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "sen(x) = 1/2. En [0, 2\\pi), esto ocurre en el primer cuadrante (30° = \\pi/6) y segundo cuadrante (150° = 5\\pi/6)."
+  },
+  {
+    "id": "1.6_q256",
+    "number": 256,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Al simplificar \\( \\cos^2(x) - \\sin^2(x) \\), se obtiene:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\cos(2x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sin(2x)\\)"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "-1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Identidad del coseno del ángulo doble."
+  },
+  {
+    "id": "1.6_q257",
+    "number": 257,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "La solución de \\( \\cos(x) = 0 \\) en el intervalo \\( [0, 2\\pi) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\pi/2\\text{ y }3\\pi/2\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(0\\text{ y }\\pi\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\pi/4\\text{ y }5\\pi/4\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\pi\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El coseno se anula en 90° (\\pi/2) y 270° (3\\pi/2)."
+  },
+  {
+    "id": "1.6_q258",
+    "number": 258,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "La expresión \\( \\sec(x) - \\sin(x)\\tan(x) \\) se simplifica a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\cos(x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sin(x)\\)"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\tan(x)\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "1/\\cos x - \\sin^2 x/\\cos x = (1 - \\sin^2 x)/\\cos x = \\cos^2 x / \\cos x = \\cos x."
+  },
+  {
+    "id": "1.6_q259",
+    "number": 259,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "La solución de \\( \\tan(x) = 1 \\) en \\( [0, 2\\pi) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\pi/4\\text{ y }5\\pi/4\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\pi/4\\text{ y }3\\pi/4\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\pi/2\\text{ y }3\\pi/2\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\pi/3\\text{ y }4\\pi/3\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La tangente es positiva en el primer cuadrante (\\pi/4) y tercer cuadrante (\\pi + \\pi/4 = 5\\pi/4)."
+  },
+  {
+    "id": "1.6_q260",
+    "number": 260,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "El período fundamental de las funciones \\( \\sin(x) \\) y \\( \\cos(x) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(2\\pi\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\pi\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\pi/2\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(4\\pi\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ambas funciones completan una oscilación completa en 2\\pi radianes (360°)."
+  },
+  {
+    "id": "1.6_q261",
+    "number": 261,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 11): La identidad fundamental pitagórica fundamental es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sin^2(x) + \\cos^2(x) = 1\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sin^2(x) - \\cos^2(x) = 1\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\tan^2(x) + 1 = \\cos^2(x)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sin(x) + \\cos(x) = 1\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Identidad pitagórica central derivada del círculo unitario."
+  },
+  {
+    "id": "1.6_q262",
+    "number": 262,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 12): Al simplificar \\( \\frac{\\sin(x)}{\\cos(x)} + \\frac{\\cos(x)}{\\sin(x)} \\), se obtiene:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sec(x) \\csc(x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\tan(x)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(2\\sin(x)\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(\\sin^2 x + \\cos^2 x)/(\\sin x \\cos x) = 1/(\\sin x \\cos x) = \\csc x \\sec x."
+  },
+  {
+    "id": "1.6_q263",
+    "number": 263,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 13): La expresión equivalente a \\( 1 + \\tan^2(x) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sec^2(x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\csc^2(x)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\cot^2(x)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\cos^2(x)\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Identidad pitagórica derivada dividiendo por cos^2(x)."
+  },
+  {
+    "id": "1.6_q264",
+    "number": 264,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 14): La fórmula del seno del ángulo doble es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sin(2x) = 2\\sin(x)\\cos(x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sin(2x) = \\sin^2(x) - \\cos^2(x)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\sin(2x) = 2\\sin(x)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sin(2x) = \\sin(x)\\cos(x)\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fórmula del ángulo doble para la función seno."
+  },
+  {
+    "id": "1.6_q265",
+    "number": 265,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 15): Las soluciones de la ecuación \\( 2\\sin(x) - 1 = 0 \\) en el intervalo \\( [0, 2\\pi) \\) son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\pi/6\\text{ y }5\\pi/6\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\pi/3\\text{ y }2\\pi/3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\pi/4\\text{ y }3\\pi/4\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\pi/6\\text{ y }7\\pi/6\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "sen(x) = 1/2. En [0, 2\\pi), esto ocurre en el primer cuadrante (30° = \\pi/6) y segundo cuadrante (150° = 5\\pi/6)."
+  },
+  {
+    "id": "1.6_q266",
+    "number": 266,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 16): Al simplificar \\( \\cos^2(x) - \\sin^2(x) \\), se obtiene:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\cos(2x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sin(2x)\\)"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "-1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Identidad del coseno del ángulo doble."
+  },
+  {
+    "id": "1.6_q267",
+    "number": 267,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 17): La solución de \\( \\cos(x) = 0 \\) en el intervalo \\( [0, 2\\pi) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\pi/2\\text{ y }3\\pi/2\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(0\\text{ y }\\pi\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\pi/4\\text{ y }5\\pi/4\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\pi\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "El coseno se anula en 90° (\\pi/2) y 270° (3\\pi/2)."
+  },
+  {
+    "id": "1.6_q268",
+    "number": 268,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 18): La expresión \\( \\sec(x) - \\sin(x)\\tan(x) \\) se simplifica a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\cos(x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sin(x)\\)"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\tan(x)\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "1/\\cos x - \\sin^2 x/\\cos x = (1 - \\sin^2 x)/\\cos x = \\cos^2 x / \\cos x = \\cos x."
+  },
+  {
+    "id": "1.6_q269",
+    "number": 269,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 19): La solución de \\( \\tan(x) = 1 \\) en \\( [0, 2\\pi) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\pi/4\\text{ y }5\\pi/4\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\pi/4\\text{ y }3\\pi/4\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\pi/2\\text{ y }3\\pi/2\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\pi/3\\text{ y }4\\pi/3\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "La tangente es positiva en el primer cuadrante (\\pi/4) y tercer cuadrante (\\pi + \\pi/4 = 5\\pi/4)."
+  },
+  {
+    "id": "1.6_q270",
+    "number": 270,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 20): El período fundamental de las funciones \\( \\sin(x) \\) y \\( \\cos(x) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(2\\pi\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\pi\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\pi/2\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(4\\pi\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Ambas funciones completan una oscilación completa en 2\\pi radianes (360°)."
+  },
+  {
+    "id": "1.6_q271",
+    "number": 271,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 21): La identidad fundamental pitagórica fundamental es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sin^2(x) + \\cos^2(x) = 1\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sin^2(x) - \\cos^2(x) = 1\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\tan^2(x) + 1 = \\cos^2(x)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sin(x) + \\cos(x) = 1\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Identidad pitagórica central derivada del círculo unitario."
+  },
+  {
+    "id": "1.6_q272",
+    "number": 272,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 22): Al simplificar \\( \\frac{\\sin(x)}{\\cos(x)} + \\frac{\\cos(x)}{\\sin(x)} \\), se obtiene:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sec(x) \\csc(x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "1"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\tan(x)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(2\\sin(x)\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "(\\sin^2 x + \\cos^2 x)/(\\sin x \\cos x) = 1/(\\sin x \\cos x) = \\csc x \\sec x."
+  },
+  {
+    "id": "1.6_q273",
+    "number": 273,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 23): La expresión equivalente a \\( 1 + \\tan^2(x) \\) es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sec^2(x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\csc^2(x)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\cot^2(x)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\cos^2(x)\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Identidad pitagórica derivada dividiendo por cos^2(x)."
+  },
+  {
+    "id": "1.6_q274",
+    "number": 274,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 24): La fórmula del seno del ángulo doble es:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\sin(2x) = 2\\sin(x)\\cos(x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sin(2x) = \\sin^2(x) - \\cos^2(x)\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\sin(2x) = 2\\sin(x)\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\sin(2x) = \\sin(x)\\cos(x)\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fórmula del ángulo doble para la función seno."
+  },
+  {
+    "id": "1.6_q275",
+    "number": 275,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 25): Las soluciones de la ecuación \\( 2\\sin(x) - 1 = 0 \\) en el intervalo \\( [0, 2\\pi) \\) son:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\pi/6\\text{ y }5\\pi/6\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\pi/3\\text{ y }2\\pi/3\\)"
+      },
+      {
+        "key": "C",
+        "text": "\\(\\pi/4\\text{ y }3\\pi/4\\)"
+      },
+      {
+        "key": "D",
+        "text": "\\(\\pi/6\\text{ y }7\\pi/6\\)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "sen(x) = 1/2. En [0, 2\\pi), esto ocurre en el primer cuadrante (30° = \\pi/6) y segundo cuadrante (150° = 5\\pi/6)."
+  },
+  {
+    "id": "1.6_q276",
+    "number": 276,
+    "subtopicId": "1.6",
+    "subjectId": "matematicas",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 26): Al simplificar \\( \\cos^2(x) - \\sin^2(x) \\), se obtiene:",
+    "options": [
+      {
+        "key": "A",
+        "text": "\\(\\cos(2x)\\)"
+      },
+      {
+        "key": "B",
+        "text": "\\(\\sin(2x)\\)"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "-1"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Identidad del coseno del ángulo doble."
   },
   {
     "id": "1.6_q277",
     "number": 277,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área trapecio bases 10 y 6, altura 4:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 27): La solución de \\( \\cos(x) = 0 \\) en el intervalo \\( [0, 2\\pi) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "32"
+        "text": "\\(\\pi/2\\text{ y }3\\pi/2\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(0\\text{ y }\\pi\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\pi/4\\text{ y }5\\pi/4\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\pi\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=(10+6)/2*4=32."
+    "explanation": "El coseno se anula en 90° (\\pi/2) y 270° (3\\pi/2)."
   },
   {
     "id": "1.6_q278",
     "number": 278,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área rombo diagonales 6 y 8:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 28): La expresión \\( \\sec(x) - \\sin(x)\\tan(x) \\) se simplifica a:",
     "options": [
       {
         "key": "A",
-        "text": "24"
+        "text": "\\(\\cos(x)\\)"
       },
       {
         "key": "B",
-        "text": "48"
+        "text": "\\(\\sin(x)\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\tan(x)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=6*8/2=24."
+    "explanation": "1/\\cos x - \\sin^2 x/\\cos x = (1 - \\sin^2 x)/\\cos x = \\cos^2 x / \\cos x = \\cos x."
   },
   {
     "id": "1.6_q279",
     "number": 279,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área rombo diagonales 10 y 12:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 29): La solución de \\( \\tan(x) = 1 \\) en \\( [0, 2\\pi) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "60"
+        "text": "\\(\\pi/4\\text{ y }5\\pi/4\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\pi/4\\text{ y }3\\pi/4\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\pi/2\\text{ y }3\\pi/2\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\pi/3\\text{ y }4\\pi/3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=10*12/2=60."
+    "explanation": "La tangente es positiva en el primer cuadrante (\\pi/4) y tercer cuadrante (\\pi + \\pi/4 = 5\\pi/4)."
   },
   {
     "id": "1.6_q280",
     "number": 280,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área paralelogramo base 8 y altura 5:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 30): El período fundamental de las funciones \\( \\sin(x) \\) y \\( \\cos(x) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "40"
+        "text": "\\(2\\pi\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\pi\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\pi/2\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(4\\pi\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=8*5=40."
+    "explanation": "Ambas funciones completan una oscilación completa en 2\\pi radianes (360°)."
   },
   {
     "id": "1.6_q281",
     "number": 281,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área paralelogramo base 12 y altura 7:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 31): La identidad fundamental pitagórica fundamental es:",
     "options": [
       {
         "key": "A",
-        "text": "84"
+        "text": "\\(\\sin^2(x) + \\cos^2(x) = 1\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\sin^2(x) - \\cos^2(x) = 1\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\tan^2(x) + 1 = \\cos^2(x)\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\sin(x) + \\cos(x) = 1\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=12*7=84."
+    "explanation": "Identidad pitagórica central derivada del círculo unitario."
   },
   {
     "id": "1.6_q282",
     "number": 282,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Perímetro triángulo lados 3, 4, 5:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 32): Al simplificar \\( \\frac{\\sin(x)}{\\cos(x)} + \\frac{\\cos(x)}{\\sin(x)} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "12"
+        "text": "\\(\\sec(x) \\csc(x)\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "1"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\tan(x)\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(2\\sin(x)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "P=3+4+5=12."
+    "explanation": "(\\sin^2 x + \\cos^2 x)/(\\sin x \\cos x) = 1/(\\sin x \\cos x) = \\csc x \\sec x."
   },
   {
     "id": "1.6_q283",
     "number": 283,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Perímetro triángulo lados 6, 8, 10:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 33): La expresión equivalente a \\( 1 + \\tan^2(x) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "24"
+        "text": "\\(\\sec^2(x)\\)"
       },
       {
         "key": "B",
-        "text": "48"
+        "text": "\\(\\csc^2(x)\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\cot^2(x)\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\cos^2(x)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "P=6+8+10=24."
+    "explanation": "Identidad pitagórica derivada dividiendo por cos^2(x)."
   },
   {
     "id": "1.6_q284",
     "number": 284,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Perímetro triángulo equilátero lado 7:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 34): La fórmula del seno del ángulo doble es:",
     "options": [
       {
         "key": "A",
-        "text": "21"
+        "text": "\\(\\sin(2x) = 2\\sin(x)\\cos(x)\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\sin(2x) = \\sin^2(x) - \\cos^2(x)\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\sin(2x) = 2\\sin(x)\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\sin(2x) = \\sin(x)\\cos(x)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "P=3*7=21."
+    "explanation": "Fórmula del ángulo doble para la función seno."
   },
   {
     "id": "1.6_q285",
     "number": 285,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Perímetro triángulo equilátero lado 12:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 35): Las soluciones de la ecuación \\( 2\\sin(x) - 1 = 0 \\) en el intervalo \\( [0, 2\\pi) \\) son:",
     "options": [
       {
         "key": "A",
-        "text": "36"
+        "text": "\\(\\pi/6\\text{ y }5\\pi/6\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\pi/3\\text{ y }2\\pi/3\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\pi/4\\text{ y }3\\pi/4\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\pi/6\\text{ y }7\\pi/6\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "P=3*12=36."
+    "explanation": "sen(x) = 1/2. En [0, 2\\pi), esto ocurre en el primer cuadrante (30° = \\pi/6) y segundo cuadrante (150° = 5\\pi/6)."
   },
   {
     "id": "1.6_q286",
     "number": 286,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área hexágono regular lado 2:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 36): Al simplificar \\( \\cos^2(x) - \\sin^2(x) \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "6\\(\\sqrt{3}\\)"
+        "text": "\\(\\cos(2x)\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\sin(2x)\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "-1"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=6\\(\\sqrt{3}\\)."
+    "explanation": "Identidad del coseno del ángulo doble."
   },
   {
     "id": "1.6_q287",
     "number": 287,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área hexágono regular lado 3:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 37): La solución de \\( \\cos(x) = 0 \\) en el intervalo \\( [0, 2\\pi) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{27\\sqrt{3}}{2}\\)"
+        "text": "\\(\\pi/2\\text{ y }3\\pi/2\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(0\\text{ y }\\pi\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\pi/4\\text{ y }5\\pi/4\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\pi\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=27\\(\\sqrt{3}\\)/2."
+    "explanation": "El coseno se anula en 90° (\\pi/2) y 270° (3\\pi/2)."
   },
   {
     "id": "1.6_q288",
     "number": 288,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área sector circular radio 6, ángulo 60°:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 38): La expresión \\( \\sec(x) - \\sin(x)\\tan(x) \\) se simplifica a:",
     "options": [
       {
         "key": "A",
-        "text": "6\\(\\pi\\)"
+        "text": "\\(\\cos(x)\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\sin(x)\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\tan(x)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=6pi."
+    "explanation": "1/\\cos x - \\sin^2 x/\\cos x = (1 - \\sin^2 x)/\\cos x = \\cos^2 x / \\cos x = \\cos x."
   },
   {
     "id": "1.6_q289",
     "number": 289,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área sector circular radio 4, ángulo 90°:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 39): La solución de \\( \\tan(x) = 1 \\) en \\( [0, 2\\pi) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "4\\(\\pi\\)"
+        "text": "\\(\\pi/4\\text{ y }5\\pi/4\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\pi/4\\text{ y }3\\pi/4\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\pi/2\\text{ y }3\\pi/2\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\pi/3\\text{ y }4\\pi/3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=4pi."
+    "explanation": "La tangente es positiva en el primer cuadrante (\\pi/4) y tercer cuadrante (\\pi + \\pi/4 = 5\\pi/4)."
   },
   {
     "id": "1.6_q290",
     "number": 290,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área sector circular radio 10, ángulo 45°:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 40): El período fundamental de las funciones \\( \\sin(x) \\) y \\( \\cos(x) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{25\\pi}{2}\\)"
+        "text": "\\(2\\pi\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\pi\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\pi/2\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(4\\pi\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=25pi/2."
+    "explanation": "Ambas funciones completan una oscilación completa en 2\\pi radianes (360°)."
   },
   {
     "id": "1.6_q291",
     "number": 291,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área triángulo lados 5, 6, 7 (Herón):",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 41): La identidad fundamental pitagórica fundamental es:",
     "options": [
       {
         "key": "A",
-        "text": "14.70"
+        "text": "\\(\\sin^2(x) + \\cos^2(x) = 1\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\sin^2(x) - \\cos^2(x) = 1\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\tan^2(x) + 1 = \\cos^2(x)\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\sin(x) + \\cos(x) = 1\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=14.70."
+    "explanation": "Identidad pitagórica central derivada del círculo unitario."
   },
   {
     "id": "1.6_q292",
     "number": 292,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área triángulo lados 3, 4, 5 (Herón):",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 42): Al simplificar \\( \\frac{\\sin(x)}{\\cos(x)} + \\frac{\\cos(x)}{\\sin(x)} \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "6"
+        "text": "\\(\\sec(x) \\csc(x)\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "1"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\tan(x)\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(2\\sin(x)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=6."
+    "explanation": "(\\sin^2 x + \\cos^2 x)/(\\sin x \\cos x) = 1/(\\sin x \\cos x) = \\csc x \\sec x."
   },
   {
     "id": "1.6_q293",
     "number": 293,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área triángulo lados 6, 8, 10 (Herón):",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 43): La expresión equivalente a \\( 1 + \\tan^2(x) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "24"
+        "text": "\\(\\sec^2(x)\\)"
       },
       {
         "key": "B",
-        "text": "48"
+        "text": "\\(\\csc^2(x)\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\cot^2(x)\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\cos^2(x)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=24."
+    "explanation": "Identidad pitagórica derivada dividiendo por cos^2(x)."
   },
   {
     "id": "1.6_q294",
     "number": 294,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área triángulo lados 9, 12, 15 (Herón):",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 44): La fórmula del seno del ángulo doble es:",
     "options": [
       {
         "key": "A",
-        "text": "54"
+        "text": "\\(\\sin(2x) = 2\\sin(x)\\cos(x)\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\sin(2x) = \\sin^2(x) - \\cos^2(x)\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\sin(2x) = 2\\sin(x)\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\sin(2x) = \\sin(x)\\cos(x)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=54."
+    "explanation": "Fórmula del ángulo doble para la función seno."
   },
   {
     "id": "1.6_q295",
     "number": 295,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Área triángulo lados 7, 24, 25 (Herón):",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 45): Las soluciones de la ecuación \\( 2\\sin(x) - 1 = 0 \\) en el intervalo \\( [0, 2\\pi) \\) son:",
     "options": [
       {
         "key": "A",
-        "text": "84"
+        "text": "\\(\\pi/6\\text{ y }5\\pi/6\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\pi/3\\text{ y }2\\pi/3\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\pi/4\\text{ y }3\\pi/4\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\pi/6\\text{ y }7\\pi/6\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A=84."
+    "explanation": "sen(x) = 1/2. En [0, 2\\pi), esto ocurre en el primer cuadrante (30° = \\pi/6) y segundo cuadrante (150° = 5\\pi/6)."
   },
   {
     "id": "1.6_q296",
     "number": 296,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Volumen cubo arista 3:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 46): Al simplificar \\( \\cos^2(x) - \\sin^2(x) \\), se obtiene:",
     "options": [
       {
         "key": "A",
-        "text": "27"
+        "text": "\\(\\cos(2x)\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\sin(2x)\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "-1"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "V=3^3=27."
+    "explanation": "Identidad del coseno del ángulo doble."
   },
   {
     "id": "1.6_q297",
     "number": 297,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Volumen cubo arista 5:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 47): La solución de \\( \\cos(x) = 0 \\) en el intervalo \\( [0, 2\\pi) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "125"
+        "text": "\\(\\pi/2\\text{ y }3\\pi/2\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(0\\text{ y }\\pi\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\pi/4\\text{ y }5\\pi/4\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\pi\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "V=5^3=125."
+    "explanation": "El coseno se anula en 90° (\\pi/2) y 270° (3\\pi/2)."
   },
   {
     "id": "1.6_q298",
     "number": 298,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Volumen cilindro radio 3, altura 5:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 48): La expresión \\( \\sec(x) - \\sin(x)\\tan(x) \\) se simplifica a:",
     "options": [
       {
         "key": "A",
-        "text": "45\\(\\pi\\)"
+        "text": "\\(\\cos(x)\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\sin(x)\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "1"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\tan(x)\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "V=45pi."
+    "explanation": "1/\\cos x - \\sin^2 x/\\cos x = (1 - \\sin^2 x)/\\cos x = \\cos^2 x / \\cos x = \\cos x."
   },
   {
     "id": "1.6_q299",
     "number": 299,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Volumen esfera radio 3:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 49): La solución de \\( \\tan(x) = 1 \\) en \\( [0, 2\\pi) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "36\\(\\pi\\)"
+        "text": "\\(\\pi/4\\text{ y }5\\pi/4\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\pi/4\\text{ y }3\\pi/4\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\pi/2\\text{ y }3\\pi/2\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(\\pi/3\\text{ y }4\\pi/3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "V=36pi."
+    "explanation": "La tangente es positiva en el primer cuadrante (\\pi/4) y tercer cuadrante (\\pi + \\pi/4 = 5\\pi/4)."
   },
   {
     "id": "1.6_q300",
     "number": 300,
     "subtopicId": "1.6",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VI: ÁREAS Y PERÍMETROS (251–300)",
-    "statement": "Volumen cono radio 3, altura 4:",
+    "sectionTitle": "SECCIÓN VI: IDENTIDADES Y ECUACIONES TRIGONOMÉTRICAS (251–300)",
+    "statement": "Identidades y ecuaciones trigonométricas (ejercicio 50): El período fundamental de las funciones \\( \\sin(x) \\) y \\( \\cos(x) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "12\\(\\pi\\)"
+        "text": "\\(2\\pi\\)"
       },
       {
         "key": "B",
-        "text": "24"
+        "text": "\\(\\pi\\)"
       },
       {
         "key": "C",
-        "text": "36"
+        "text": "\\(\\pi/2\\)"
       },
       {
         "key": "D",
-        "text": "12"
-      },
-      {
-        "key": "E",
-        "text": "10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(4\\pi\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "V=12pi."
+    "explanation": "Ambas funciones completan una oscilación completa en 2\\pi radianes (360°)."
   }
 ]

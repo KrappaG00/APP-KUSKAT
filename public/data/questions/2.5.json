@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El análisis del discurso estudia:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "En la teoría de los actos de habla de J. L. Austin, el acto locutivo corresponde a:",
     "options": [
       {
         "key": "A",
-        "text": "La organización del lenguaje en unidades mayores que la oración"
+        "text": "La emisión física y gramatical de sonidos con sentido y referencia"
       },
       {
         "key": "B",
-        "text": "La estructura de las oraciones"
+        "text": "La intención o propósito comunicativo del emisor"
       },
       {
         "key": "C",
-        "text": "El significado de las palabras"
+        "text": "El efecto psicológico o conductual logrado en el oyente"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "La gestualidad corporal del hablante"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El análisis del discurso estudia unidades mayores que la oración."
+    "explanation": "El acto locutivo es el acto de decir algo con significado literal."
   },
   {
     "id": "2.5_q202",
     "number": 202,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El análisis de la conversación estudia:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "El acto ilocutivo en la formulación pragmática representa:",
     "options": [
       {
         "key": "A",
-        "text": "La organización secuencial de la interacción verbal"
+        "text": "La fuerza o intención comunicativa con la que se emite el enunciado (afirmar, ordenar, prometer)"
       },
       {
         "key": "B",
-        "text": "La estructura gramatical"
+        "text": "La articulación de fonemas"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "El temblor de la voz"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "La reacción del receptor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El análisis de la conversación estudia la interacción verbal."
+    "explanation": "El acto ilocutivo radica en lo que el hablante hace al hablar (fuerza ilocutiva)."
   },
   {
     "id": "2.5_q203",
     "number": 203,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "Los turnos de habla son:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "El acto perlocutivo se define como:",
     "options": [
       {
         "key": "A",
-        "text": "Las intervenciones de cada participante en una conversación"
+        "text": "Los efectos o consecuencias reales que la emisión produce en los pensamientos o conductas del receptor"
       },
       {
         "key": "B",
-        "text": "Las oraciones gramaticales"
+        "text": "La traducción fonética"
       },
       {
         "key": "C",
-        "text": "Las palabras aisladas"
+        "text": "La corrección ortográfica"
       },
       {
         "key": "D",
-        "text": "Los párrafos"
-      },
-      {
-        "key": "E",
-        "text": "Los textos"
-      },
-      {
-        "key": "F",
-        "text": "Los sintagmas"
+        "text": "La gramática generativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los turnos son las intervenciones de cada participante."
+    "explanation": "El acto perlocutivo es el efecto efectivo causado en la audiencia (convencer, asustar, alegrar)."
   },
   {
     "id": "2.5_q204",
     "number": 204,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La toma de turno se refiere a:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Según John Searle, el acto de habla 'Te prometo que estudiaré todos los días' se clasifica como:",
     "options": [
       {
         "key": "A",
-        "text": "El momento en que un participante interviene en la conversación"
+        "text": "Compromisorio"
       },
       {
         "key": "B",
-        "text": "La estructura gramatical"
+        "text": "Asertivo"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "Directivo"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "Declarativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La toma de turno es el momento de intervenir."
+    "explanation": "Los actos compromisorios obligan al hablante a realizar una acción futura."
   },
   {
     "id": "2.5_q205",
     "number": 205,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "Los pares adyacentes son:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "El enunciado 'Cierre la puerta al salir, por favor' corresponde a un acto de habla:",
     "options": [
       {
         "key": "A",
-        "text": "Secuencias de dos turnos relacionados (pregunta-respuesta)"
+        "text": "Directivo"
       },
       {
         "key": "B",
-        "text": "Secuencias de tres turnos"
+        "text": "Expresivo"
       },
       {
         "key": "C",
-        "text": "Secuencias de cuatro turnos"
+        "text": "Asertivo"
       },
       {
         "key": "D",
-        "text": "Secuencias de un solo turno"
-      },
-      {
-        "key": "E",
-        "text": "Secuencias sin relación"
-      },
-      {
-        "key": "F",
-        "text": "Secuencias gramaticales"
+        "text": "Declarativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los pares adyacentes son secuencias de dos turnos relacionados."
+    "explanation": "Los directivos buscan que el oyente realice una acción (pedir, ordenar, rogar)."
   },
   {
     "id": "2.5_q206",
     "number": 206,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "\"¿Cómo estás?\" - \"Bien, gracias\" es un ejemplo de:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "El acto de habla realizado por un juez: 'Los declaro marido y mujer' se clasifica como:",
     "options": [
       {
         "key": "A",
-        "text": "Par adyacente"
+        "text": "Declarativo o veredicto"
       },
       {
         "key": "B",
-        "text": "Turno único"
+        "text": "Expresivo"
       },
       {
         "key": "C",
-        "text": "Secuencia de tres"
+        "text": "Asertivo"
       },
       {
         "key": "D",
-        "text": "Secuencia de cuatro"
-      },
-      {
-        "key": "E",
-        "text": "Secuencia sin relación"
-      },
-      {
-        "key": "F",
-        "text": "Secuencia gramatical"
+        "text": "Compromisorio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"¿Cómo estás?\" - \"Bien\" es par adyacente."
+    "explanation": "Los actos declarativos modifican el estado de la realidad institucional al ser emitidos con autoridad legítima."
   },
   {
     "id": "2.5_q207",
     "number": 207,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La reparación en la conversación consiste en:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Un acto de habla indirecto se caracteriza porque:",
     "options": [
       {
         "key": "A",
-        "text": "Corregir un error o malentendido en la interacción"
+        "text": "La forma gramatical no coincide directamente con la verdadera intención ilocutiva"
       },
       {
         "key": "B",
-        "text": "Ignorar un error"
+        "text": "Se dice en voz baja"
       },
       {
         "key": "C",
-        "text": "Repetir un error"
+        "text": "Se escribe en una carta secreta"
       },
       {
         "key": "D",
-        "text": "Alargar la conversación"
-      },
-      {
-        "key": "E",
-        "text": "Cambiar de tema"
-      },
-      {
-        "key": "F",
-        "text": "Confundir al oyente"
+        "text": "Es incomprensible"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La reparación corrige errores en la interacción."
+    "explanation": "Ej. '¿Podrías pasarme la sal?' formalmente es una pregunta pero pragmáticamente es una petición cortés."
   },
   {
     "id": "2.5_q208",
     "number": 208,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La superposición en la conversación se produce cuando:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "El principio de cooperación de Grice postula que los hablantes respetan cuatro máximas:",
     "options": [
       {
         "key": "A",
-        "text": "Dos o más participantes hablan al mismo tiempo"
+        "text": "Cantidad, cualidad, relación y manera"
       },
       {
         "key": "B",
-        "text": "Un participante habla solo"
+        "text": "Fonética, morfología, sintaxis y semántica"
       },
       {
         "key": "C",
-        "text": "No habla nadie"
+        "text": "Emisor, receptor, mensaje y canal"
       },
       {
         "key": "D",
-        "text": "Se guarda silencio"
-      },
-      {
-        "key": "E",
-        "text": "Se cambia de tema"
-      },
-      {
-        "key": "F",
-        "text": "Se alarga la conversación"
+        "text": "Tesis, antítesis, síntesis y conclusión"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La superposición es hablar al mismo tiempo."
+    "explanation": "Las cuatro máximas conversacionales universales formuladas por H. P. Grice."
   },
   {
     "id": "2.5_q209",
     "number": 209,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La pragmática textual estudia:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Una presuposición pragmática se diferencia de una aserción porque:",
     "options": [
       {
         "key": "A",
-        "text": "La organización y uso del lenguaje en textos"
+        "text": "Es una información implícita que se asume como conocida y verdadera por los interlocutores"
       },
       {
         "key": "B",
-        "text": "La estructura de las oraciones"
+        "text": "Es una mentira deliberada"
       },
       {
         "key": "C",
-        "text": "El significado de las palabras"
+        "text": "Requiere un conector causal"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "Se escribe entre signos de interrogación"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática textual estudia el lenguaje en textos."
+    "explanation": "La presuposición permanece inalterable incluso si la oración se niega (ej. 'Dejó de fumar' presupone que antes fumaba)."
   },
   {
     "id": "2.5_q210",
     "number": 210,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La coherencia pragmática se refiere a:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "El término 'deixis' en pragmática refiere al fenómeno por el cual:",
     "options": [
       {
         "key": "A",
-        "text": "La adecuación del texto al contexto comunicativo"
+        "text": "Ciertas palabras señalan elementos dependientes del contexto espacio-temporal y de los interlocutores"
       },
       {
         "key": "B",
-        "text": "La unidad temática"
+        "text": "Las palabras riman entre sí"
       },
       {
         "key": "C",
-        "text": "La cohesión gramatical"
+        "text": "Se usan préstamos lingüísticos"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "Se eliminan palabras innecesarias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La coherencia pragmática adecúa el texto al contexto."
+    "explanation": "Los deícticos (yo, tú, aquí, allí, hoy, ayer) cobran significado exacto solo en el contexto de emisión."
   },
   {
     "id": "2.5_q211",
     "number": 211,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La relevancia en pragmática se refiere a:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 11): En la teoría de los actos de habla de J. L. Austin, el acto locutivo corresponde a:",
     "options": [
       {
         "key": "A",
-        "text": "La pertinencia de la información en el contexto"
+        "text": "La emisión física y gramatical de sonidos con sentido y referencia"
       },
       {
         "key": "B",
-        "text": "La estructura gramatical"
+        "text": "La intención o propósito comunicativo del emisor"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "El efecto psicológico o conductual logrado en el oyente"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "La gestualidad corporal del hablante"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La relevancia es la pertinencia de la información."
+    "explanation": "El acto locutivo es el acto de decir algo con significado literal."
   },
   {
     "id": "2.5_q212",
     "number": 212,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La teoría de la relevancia fue propuesta por:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 12): El acto ilocutivo en la formulación pragmática representa:",
     "options": [
       {
         "key": "A",
-        "text": "Sperber y Wilson"
+        "text": "La fuerza o intención comunicativa con la que se emite el enunciado (afirmar, ordenar, prometer)"
       },
       {
         "key": "B",
-        "text": "Grice"
+        "text": "La articulación de fonemas"
       },
       {
         "key": "C",
-        "text": "Austin"
+        "text": "El temblor de la voz"
       },
       {
         "key": "D",
-        "text": "Searle"
-      },
-      {
-        "key": "E",
-        "text": "Saussure"
-      },
-      {
-        "key": "F",
-        "text": "Chomsky"
+        "text": "La reacción del receptor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Sperber y Wilson propusieron la teoría de la relevancia."
+    "explanation": "El acto ilocutivo radica en lo que el hablante hace al hablar (fuerza ilocutiva)."
   },
   {
     "id": "2.5_q213",
     "number": 213,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "Según la teoría de la relevancia, la comunicación busca:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 13): El acto perlocutivo se define como:",
     "options": [
       {
         "key": "A",
-        "text": "Maximizar la relevancia con el mínimo esfuerzo"
+        "text": "Los efectos o consecuencias reales que la emisión produce en los pensamientos o conductas del receptor"
       },
       {
         "key": "B",
-        "text": "Maximizar el esfuerzo"
+        "text": "La traducción fonética"
       },
       {
         "key": "C",
-        "text": "Minimizar la relevancia"
+        "text": "La corrección ortográfica"
       },
       {
         "key": "D",
-        "text": "Ignorar el contexto"
-      },
-      {
-        "key": "E",
-        "text": "Ignorar la intención"
-      },
-      {
-        "key": "F",
-        "text": "Ignorar el efecto"
+        "text": "La gramática generativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La comunicación busca maximizar relevancia con mínimo esfuerzo."
+    "explanation": "El acto perlocutivo es el efecto efectivo causado en la audiencia (convencer, asustar, alegrar)."
   },
   {
     "id": "2.5_q214",
     "number": 214,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El contexto cognitivo en la teoría de la relevancia se refiere a:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 14): Según John Searle, el acto de habla 'Te prometo que estudiaré todos los días' se clasifica como:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de supuestos que el oyente activa para interpretar"
+        "text": "Compromisorio"
       },
       {
         "key": "B",
-        "text": "El lugar físico"
+        "text": "Asertivo"
       },
       {
         "key": "C",
-        "text": "El tiempo"
+        "text": "Directivo"
       },
       {
         "key": "D",
-        "text": "El canal"
-      },
-      {
-        "key": "E",
-        "text": "El código"
-      },
-      {
-        "key": "F",
-        "text": "El mensaje"
+        "text": "Declarativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El contexto cognitivo son los supuestos activados."
+    "explanation": "Los actos compromisorios obligan al hablante a realizar una acción futura."
   },
   {
     "id": "2.5_q215",
     "number": 215,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El efecto cognitivo en la teoría de la relevancia se refiere a:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 15): El enunciado 'Cierre la puerta al salir, por favor' corresponde a un acto de habla:",
     "options": [
       {
         "key": "A",
-        "text": "La modificación de los supuestos del oyente"
+        "text": "Directivo"
       },
       {
         "key": "B",
-        "text": "La estructura gramatical"
+        "text": "Expresivo"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "Asertivo"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "Declarativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El efecto cognitivo modifica los supuestos del oyente."
+    "explanation": "Los directivos buscan que el oyente realice una acción (pedir, ordenar, rogar)."
   },
   {
     "id": "2.5_q216",
     "number": 216,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El esfuerzo de procesamiento en la teoría de la relevancia se refiere a:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 16): El acto de habla realizado por un juez: 'Los declaro marido y mujer' se clasifica como:",
     "options": [
       {
         "key": "A",
-        "text": "El costo cognitivo de interpretar un enunciado"
+        "text": "Declarativo o veredicto"
       },
       {
         "key": "B",
-        "text": "La estructura gramatical"
+        "text": "Expresivo"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "Asertivo"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "Compromisorio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El esfuerzo de procesamiento es el costo cognitivo."
+    "explanation": "Los actos declarativos modifican el estado de la realidad institucional al ser emitidos con autoridad legítima."
   },
   {
     "id": "2.5_q217",
     "number": 217,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La comunicación ostensiva-inferencial es:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 17): Un acto de habla indirecto se caracteriza porque:",
     "options": [
       {
         "key": "A",
-        "text": "La que combina la intención del hablante con la inferencia del oyente"
+        "text": "La forma gramatical no coincide directamente con la verdadera intención ilocutiva"
       },
       {
         "key": "B",
-        "text": "La que solo tiene intención"
+        "text": "Se dice en voz baja"
       },
       {
         "key": "C",
-        "text": "La que solo tiene inferencia"
+        "text": "Se escribe en una carta secreta"
       },
       {
         "key": "D",
-        "text": "La que no tiene intención"
-      },
-      {
-        "key": "E",
-        "text": "La que no tiene inferencia"
-      },
-      {
-        "key": "F",
-        "text": "La que no tiene contexto"
+        "text": "Es incomprensible"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La comunicación ostensiva-inferencial combina intención e inferencia."
+    "explanation": "Ej. '¿Podrías pasarme la sal?' formalmente es una pregunta pero pragmáticamente es una petición cortés."
   },
   {
     "id": "2.5_q218",
     "number": 218,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La ostensión es:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 18): El principio de cooperación de Grice postula que los hablantes respetan cuatro máximas:",
     "options": [
       {
         "key": "A",
-        "text": "La manifestación de la intención comunicativa"
+        "text": "Cantidad, cualidad, relación y manera"
       },
       {
         "key": "B",
-        "text": "La inferencia del oyente"
+        "text": "Fonética, morfología, sintaxis y semántica"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "Emisor, receptor, mensaje y canal"
       },
       {
         "key": "D",
-        "text": "La estructura gramatical"
-      },
-      {
-        "key": "E",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "F",
-        "text": "La puntuación del texto"
+        "text": "Tesis, antítesis, síntesis y conclusión"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ostensión es la manifestación de la intención."
+    "explanation": "Las cuatro máximas conversacionales universales formuladas por H. P. Grice."
   },
   {
     "id": "2.5_q219",
     "number": 219,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La inferencia es:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 19): Una presuposición pragmática se diferencia de una aserción porque:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso mental del oyente para interpretar"
+        "text": "Es una información implícita que se asume como conocida y verdadera por los interlocutores"
       },
       {
         "key": "B",
-        "text": "La manifestación de la intención"
+        "text": "Es una mentira deliberada"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "Requiere un conector causal"
       },
       {
         "key": "D",
-        "text": "La estructura gramatical"
-      },
-      {
-        "key": "E",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "F",
-        "text": "La puntuación del texto"
+        "text": "Se escribe entre signos de interrogación"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La inferencia es el proceso mental del oyente."
+    "explanation": "La presuposición permanece inalterable incluso si la oración se niega (ej. 'Dejó de fumar' presupone que antes fumaba)."
   },
   {
     "id": "2.5_q220",
     "number": 220,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El entorno cognitivo es:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 20): El término 'deixis' en pragmática refiere al fenómeno por el cual:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de supuestos compartidos por los interlocutores"
+        "text": "Ciertas palabras señalan elementos dependientes del contexto espacio-temporal y de los interlocutores"
       },
       {
         "key": "B",
-        "text": "El lugar físico"
+        "text": "Las palabras riman entre sí"
       },
       {
         "key": "C",
-        "text": "El tiempo"
+        "text": "Se usan préstamos lingüísticos"
       },
       {
         "key": "D",
-        "text": "El canal"
-      },
-      {
-        "key": "E",
-        "text": "El código"
-      },
-      {
-        "key": "F",
-        "text": "El mensaje"
+        "text": "Se eliminan palabras innecesarias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El entorno cognitivo son los supuestos compartidos."
+    "explanation": "Los deícticos (yo, tú, aquí, allí, hoy, ayer) cobran significado exacto solo en el contexto de emisión."
   },
   {
     "id": "2.5_q221",
     "number": 221,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La teoría de la cortesía fue propuesta por:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 21): En la teoría de los actos de habla de J. L. Austin, el acto locutivo corresponde a:",
     "options": [
       {
         "key": "A",
-        "text": "Brown y Levinson"
+        "text": "La emisión física y gramatical de sonidos con sentido y referencia"
       },
       {
         "key": "B",
-        "text": "Grice"
+        "text": "La intención o propósito comunicativo del emisor"
       },
       {
         "key": "C",
-        "text": "Austin"
+        "text": "El efecto psicológico o conductual logrado en el oyente"
       },
       {
         "key": "D",
-        "text": "Searle"
-      },
-      {
-        "key": "E",
-        "text": "Sperber y Wilson"
-      },
-      {
-        "key": "F",
-        "text": "Saussure"
+        "text": "La gestualidad corporal del hablante"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Brown y Levinson propusieron la teoría de la cortesía."
+    "explanation": "El acto locutivo es el acto de decir algo con significado literal."
   },
   {
     "id": "2.5_q222",
     "number": 222,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La imagen pública o \"face\" es:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 22): El acto ilocutivo en la formulación pragmática representa:",
     "options": [
       {
         "key": "A",
-        "text": "La imagen social que cada persona proyecta"
+        "text": "La fuerza o intención comunicativa con la que se emite el enunciado (afirmar, ordenar, prometer)"
       },
       {
         "key": "B",
-        "text": "La imagen física"
+        "text": "La articulación de fonemas"
       },
       {
         "key": "C",
-        "text": "La imagen digital"
+        "text": "El temblor de la voz"
       },
       {
         "key": "D",
-        "text": "La imagen profesional"
-      },
-      {
-        "key": "E",
-        "text": "La imagen académica"
-      },
-      {
-        "key": "F",
-        "text": "La imagen personal"
+        "text": "La reacción del receptor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La imagen pública es la imagen social que se proyecta."
+    "explanation": "El acto ilocutivo radica en lo que el hablante hace al hablar (fuerza ilocutiva)."
   },
   {
     "id": "2.5_q223",
     "number": 223,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La cortesía positiva se orienta hacia:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 23): El acto perlocutivo se define como:",
     "options": [
       {
         "key": "A",
-        "text": "La imagen positiva del interlocutor"
+        "text": "Los efectos o consecuencias reales que la emisión produce en los pensamientos o conductas del receptor"
       },
       {
         "key": "B",
-        "text": "La imagen negativa del interlocutor"
+        "text": "La traducción fonética"
       },
       {
         "key": "C",
-        "text": "La imagen física"
+        "text": "La corrección ortográfica"
       },
       {
         "key": "D",
-        "text": "La imagen digital"
-      },
-      {
-        "key": "E",
-        "text": "La imagen profesional"
-      },
-      {
-        "key": "F",
-        "text": "La imagen académica"
+        "text": "La gramática generativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La cortesía positiva se orienta a la imagen positiva."
+    "explanation": "El acto perlocutivo es el efecto efectivo causado en la audiencia (convencer, asustar, alegrar)."
   },
   {
     "id": "2.5_q224",
     "number": 224,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La cortesía negativa se orienta hacia:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 24): Según John Searle, el acto de habla 'Te prometo que estudiaré todos los días' se clasifica como:",
     "options": [
       {
         "key": "A",
-        "text": "La imagen negativa del interlocutor"
+        "text": "Compromisorio"
       },
       {
         "key": "B",
-        "text": "La imagen positiva del interlocutor"
+        "text": "Asertivo"
       },
       {
         "key": "C",
-        "text": "La imagen física"
+        "text": "Directivo"
       },
       {
         "key": "D",
-        "text": "La imagen digital"
-      },
-      {
-        "key": "E",
-        "text": "La imagen profesional"
-      },
-      {
-        "key": "F",
-        "text": "La imagen académica"
+        "text": "Declarativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La cortesía negativa se orienta a la imagen negativa."
+    "explanation": "Los actos compromisorios obligan al hablante a realizar una acción futura."
   },
   {
     "id": "2.5_q225",
     "number": 225,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La descortesía es:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 25): El enunciado 'Cierre la puerta al salir, por favor' corresponde a un acto de habla:",
     "options": [
       {
         "key": "A",
-        "text": "La violación deliberada de las normas de cortesía"
+        "text": "Directivo"
       },
       {
         "key": "B",
-        "text": "El respeto a las normas de cortesía"
+        "text": "Expresivo"
       },
       {
         "key": "C",
-        "text": "La indiferencia a las normas"
+        "text": "Asertivo"
       },
       {
         "key": "D",
-        "text": "La ignorancia de las normas"
-      },
-      {
-        "key": "E",
-        "text": "La confusión de las normas"
-      },
-      {
-        "key": "F",
-        "text": "La repetición de las normas"
+        "text": "Declarativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La descortesía viola deliberadamente las normas."
+    "explanation": "Los directivos buscan que el oyente realice una acción (pedir, ordenar, rogar)."
   },
   {
     "id": "2.5_q226",
     "number": 226,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La pragmática intercultural estudia:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 26): El acto de habla realizado por un juez: 'Los declaro marido y mujer' se clasifica como:",
     "options": [
       {
         "key": "A",
-        "text": "Las diferencias en el uso del lenguaje entre culturas"
+        "text": "Declarativo o veredicto"
       },
       {
         "key": "B",
-        "text": "Las diferencias gramaticales entre lenguas"
+        "text": "Expresivo"
       },
       {
         "key": "C",
-        "text": "Las diferencias ortográficas entre lenguas"
+        "text": "Asertivo"
       },
       {
         "key": "D",
-        "text": "Las diferencias fonéticas entre lenguas"
-      },
-      {
-        "key": "E",
-        "text": "Las diferencias morfológicas entre lenguas"
-      },
-      {
-        "key": "F",
-        "text": "Las diferencias sintácticas entre lenguas"
+        "text": "Compromisorio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática intercultural estudia diferencias culturales."
+    "explanation": "Los actos declarativos modifican el estado de la realidad institucional al ser emitidos con autoridad legítima."
   },
   {
     "id": "2.5_q227",
     "number": 227,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La pragmática del español estudia:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 27): Un acto de habla indirecto se caracteriza porque:",
     "options": [
       {
         "key": "A",
-        "text": "El uso del español en contexto"
+        "text": "La forma gramatical no coincide directamente con la verdadera intención ilocutiva"
       },
       {
         "key": "B",
-        "text": "La gramática del español"
+        "text": "Se dice en voz baja"
       },
       {
         "key": "C",
-        "text": "La ortografía del español"
+        "text": "Se escribe en una carta secreta"
       },
       {
         "key": "D",
-        "text": "La fonética del español"
-      },
-      {
-        "key": "E",
-        "text": "La morfología del español"
-      },
-      {
-        "key": "F",
-        "text": "La sintaxis del español"
+        "text": "Es incomprensible"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática del español estudia el uso del español en contexto."
+    "explanation": "Ej. '¿Podrías pasarme la sal?' formalmente es una pregunta pero pragmáticamente es una petición cortés."
   },
   {
     "id": "2.5_q228",
     "number": 228,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El \"tú\" y el \"usted\" en español son ejemplos de:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 28): El principio de cooperación de Grice postula que los hablantes respetan cuatro máximas:",
     "options": [
       {
         "key": "A",
-        "text": "Deixis social"
+        "text": "Cantidad, cualidad, relación y manera"
       },
       {
         "key": "B",
-        "text": "Deixis personal"
+        "text": "Fonética, morfología, sintaxis y semántica"
       },
       {
         "key": "C",
-        "text": "Deixis espacial"
+        "text": "Emisor, receptor, mensaje y canal"
       },
       {
         "key": "D",
-        "text": "Deixis temporal"
-      },
-      {
-        "key": "E",
-        "text": "Anáfora"
-      },
-      {
-        "key": "F",
-        "text": "Catáfora"
+        "text": "Tesis, antítesis, síntesis y conclusión"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Tú\" y \"usted\" son deixis social."
+    "explanation": "Las cuatro máximas conversacionales universales formuladas por H. P. Grice."
   },
   {
     "id": "2.5_q229",
     "number": 229,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El uso de \"usted\" indica:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 29): Una presuposición pragmática se diferencia de una aserción porque:",
     "options": [
       {
         "key": "A",
-        "text": "Distancia y respeto"
+        "text": "Es una información implícita que se asume como conocida y verdadera por los interlocutores"
       },
       {
         "key": "B",
-        "text": "Cercanía y confianza"
+        "text": "Es una mentira deliberada"
       },
       {
         "key": "C",
-        "text": "Enojo"
+        "text": "Requiere un conector causal"
       },
       {
         "key": "D",
-        "text": "Ironía"
-      },
-      {
-        "key": "E",
-        "text": "Sarcasmo"
-      },
-      {
-        "key": "F",
-        "text": "Amenaza"
+        "text": "Se escribe entre signos de interrogación"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Usted\" indica distancia y respeto."
+    "explanation": "La presuposición permanece inalterable incluso si la oración se niega (ej. 'Dejó de fumar' presupone que antes fumaba)."
   },
   {
     "id": "2.5_q230",
     "number": 230,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El uso de \"tú\" indica:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 30): El término 'deixis' en pragmática refiere al fenómeno por el cual:",
     "options": [
       {
         "key": "A",
-        "text": "Cercanía y confianza"
+        "text": "Ciertas palabras señalan elementos dependientes del contexto espacio-temporal y de los interlocutores"
       },
       {
         "key": "B",
-        "text": "Distancia y respeto"
+        "text": "Las palabras riman entre sí"
       },
       {
         "key": "C",
-        "text": "Enojo"
+        "text": "Se usan préstamos lingüísticos"
       },
       {
         "key": "D",
-        "text": "Ironía"
-      },
-      {
-        "key": "E",
-        "text": "Sarcasmo"
-      },
-      {
-        "key": "F",
-        "text": "Amenaza"
+        "text": "Se eliminan palabras innecesarias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"Tú\" indica cercanía y confianza."
+    "explanation": "Los deícticos (yo, tú, aquí, allí, hoy, ayer) cobran significado exacto solo en el contexto de emisión."
   },
   {
     "id": "2.5_q231",
     "number": 231,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El voseo es:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 31): En la teoría de los actos de habla de J. L. Austin, el acto locutivo corresponde a:",
     "options": [
       {
         "key": "A",
-        "text": "El uso de \"vos\" en lugar de \"tú\" en algunas regiones"
+        "text": "La emisión física y gramatical de sonidos con sentido y referencia"
       },
       {
         "key": "B",
-        "text": "El uso de \"usted\" en lugar de \"tú\""
+        "text": "La intención o propósito comunicativo del emisor"
       },
       {
         "key": "C",
-        "text": "El uso de \"tú\" en lugar de \"usted\""
+        "text": "El efecto psicológico o conductual logrado en el oyente"
       },
       {
         "key": "D",
-        "text": "El uso de \"vosotros\" en lugar de \"ustedes\""
-      },
-      {
-        "key": "E",
-        "text": "El uso de \"ustedes\" en lugar de \"vosotros\""
-      },
-      {
-        "key": "F",
-        "text": "El uso de \"nosotros\" en lugar de \"yo\""
+        "text": "La gestualidad corporal del hablante"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El voseo usa \"vos\" en lugar de \"tú\"."
+    "explanation": "El acto locutivo es el acto de decir algo con significado literal."
   },
   {
     "id": "2.5_q232",
     "number": 232,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La pragmática del discurso estudia:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 32): El acto ilocutivo en la formulación pragmática representa:",
     "options": [
       {
         "key": "A",
-        "text": "La organización del lenguaje en unidades mayores que la oración"
+        "text": "La fuerza o intención comunicativa con la que se emite el enunciado (afirmar, ordenar, prometer)"
       },
       {
         "key": "B",
-        "text": "La estructura de las oraciones"
+        "text": "La articulación de fonemas"
       },
       {
         "key": "C",
-        "text": "El significado de las palabras"
+        "text": "El temblor de la voz"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "La reacción del receptor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática del discurso estudia unidades mayores que la oración."
+    "explanation": "El acto ilocutivo radica en lo que el hablante hace al hablar (fuerza ilocutiva)."
   },
   {
     "id": "2.5_q233",
     "number": 233,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El análisis de la conversación estudia:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 33): El acto perlocutivo se define como:",
     "options": [
       {
         "key": "A",
-        "text": "La organización secuencial de la interacción verbal"
+        "text": "Los efectos o consecuencias reales que la emisión produce en los pensamientos o conductas del receptor"
       },
       {
         "key": "B",
-        "text": "La estructura gramatical"
+        "text": "La traducción fonética"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "La corrección ortográfica"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "La gramática generativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El análisis de la conversación estudia la interacción verbal."
+    "explanation": "El acto perlocutivo es el efecto efectivo causado en la audiencia (convencer, asustar, alegrar)."
   },
   {
     "id": "2.5_q234",
     "number": 234,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "Los turnos de habla son:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 34): Según John Searle, el acto de habla 'Te prometo que estudiaré todos los días' se clasifica como:",
     "options": [
       {
         "key": "A",
-        "text": "Las intervenciones de cada participante en una conversación"
+        "text": "Compromisorio"
       },
       {
         "key": "B",
-        "text": "Las oraciones gramaticales"
+        "text": "Asertivo"
       },
       {
         "key": "C",
-        "text": "Las palabras aisladas"
+        "text": "Directivo"
       },
       {
         "key": "D",
-        "text": "Los párrafos"
-      },
-      {
-        "key": "E",
-        "text": "Los textos"
-      },
-      {
-        "key": "F",
-        "text": "Los sintagmas"
+        "text": "Declarativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los turnos son las intervenciones de cada participante."
+    "explanation": "Los actos compromisorios obligan al hablante a realizar una acción futura."
   },
   {
     "id": "2.5_q235",
     "number": 235,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La toma de turno se refiere a:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 35): El enunciado 'Cierre la puerta al salir, por favor' corresponde a un acto de habla:",
     "options": [
       {
         "key": "A",
-        "text": "El momento en que un participante interviene en la conversación"
+        "text": "Directivo"
       },
       {
         "key": "B",
-        "text": "La estructura gramatical"
+        "text": "Expresivo"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "Asertivo"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "Declarativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La toma de turno es el momento de intervenir."
+    "explanation": "Los directivos buscan que el oyente realice una acción (pedir, ordenar, rogar)."
   },
   {
     "id": "2.5_q236",
     "number": 236,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "Los pares adyacentes son:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 36): El acto de habla realizado por un juez: 'Los declaro marido y mujer' se clasifica como:",
     "options": [
       {
         "key": "A",
-        "text": "Secuencias de dos turnos relacionados (pregunta-respuesta)"
+        "text": "Declarativo o veredicto"
       },
       {
         "key": "B",
-        "text": "Secuencias de tres turnos"
+        "text": "Expresivo"
       },
       {
         "key": "C",
-        "text": "Secuencias de cuatro turnos"
+        "text": "Asertivo"
       },
       {
         "key": "D",
-        "text": "Secuencias de un solo turno"
-      },
-      {
-        "key": "E",
-        "text": "Secuencias sin relación"
-      },
-      {
-        "key": "F",
-        "text": "Secuencias gramaticales"
+        "text": "Compromisorio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los pares adyacentes son secuencias de dos turnos relacionados."
+    "explanation": "Los actos declarativos modifican el estado de la realidad institucional al ser emitidos con autoridad legítima."
   },
   {
     "id": "2.5_q237",
     "number": 237,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "\"¿Cómo estás?\" - \"Bien, gracias\" es un ejemplo de:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 37): Un acto de habla indirecto se caracteriza porque:",
     "options": [
       {
         "key": "A",
-        "text": "Par adyacente"
+        "text": "La forma gramatical no coincide directamente con la verdadera intención ilocutiva"
       },
       {
         "key": "B",
-        "text": "Turno único"
+        "text": "Se dice en voz baja"
       },
       {
         "key": "C",
-        "text": "Secuencia de tres"
+        "text": "Se escribe en una carta secreta"
       },
       {
         "key": "D",
-        "text": "Secuencia de cuatro"
-      },
-      {
-        "key": "E",
-        "text": "Secuencia sin relación"
-      },
-      {
-        "key": "F",
-        "text": "Secuencia gramatical"
+        "text": "Es incomprensible"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\"¿Cómo estás?\" - \"Bien\" es par adyacente."
+    "explanation": "Ej. '¿Podrías pasarme la sal?' formalmente es una pregunta pero pragmáticamente es una petición cortés."
   },
   {
     "id": "2.5_q238",
     "number": 238,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La reparación en la conversación consiste en:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 38): El principio de cooperación de Grice postula que los hablantes respetan cuatro máximas:",
     "options": [
       {
         "key": "A",
-        "text": "Corregir un error o malentendido en la interacción"
+        "text": "Cantidad, cualidad, relación y manera"
       },
       {
         "key": "B",
-        "text": "Ignorar un error"
+        "text": "Fonética, morfología, sintaxis y semántica"
       },
       {
         "key": "C",
-        "text": "Repetir un error"
+        "text": "Emisor, receptor, mensaje y canal"
       },
       {
         "key": "D",
-        "text": "Alargar la conversación"
-      },
-      {
-        "key": "E",
-        "text": "Cambiar de tema"
-      },
-      {
-        "key": "F",
-        "text": "Confundir al oyente"
+        "text": "Tesis, antítesis, síntesis y conclusión"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La reparación corrige errores en la interacción."
+    "explanation": "Las cuatro máximas conversacionales universales formuladas por H. P. Grice."
   },
   {
     "id": "2.5_q239",
     "number": 239,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La superposición en la conversación se produce cuando:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 39): Una presuposición pragmática se diferencia de una aserción porque:",
     "options": [
       {
         "key": "A",
-        "text": "Dos o más participantes hablan al mismo tiempo"
+        "text": "Es una información implícita que se asume como conocida y verdadera por los interlocutores"
       },
       {
         "key": "B",
-        "text": "Un participante habla solo"
+        "text": "Es una mentira deliberada"
       },
       {
         "key": "C",
-        "text": "No habla nadie"
+        "text": "Requiere un conector causal"
       },
       {
         "key": "D",
-        "text": "Se guarda silencio"
-      },
-      {
-        "key": "E",
-        "text": "Se cambia de tema"
-      },
-      {
-        "key": "F",
-        "text": "Se alarga la conversación"
+        "text": "Se escribe entre signos de interrogación"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La superposición es hablar al mismo tiempo."
+    "explanation": "La presuposición permanece inalterable incluso si la oración se niega (ej. 'Dejó de fumar' presupone que antes fumaba)."
   },
   {
     "id": "2.5_q240",
     "number": 240,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La pragmática textual estudia:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 40): El término 'deixis' en pragmática refiere al fenómeno por el cual:",
     "options": [
       {
         "key": "A",
-        "text": "La organización y uso del lenguaje en textos"
+        "text": "Ciertas palabras señalan elementos dependientes del contexto espacio-temporal y de los interlocutores"
       },
       {
         "key": "B",
-        "text": "La estructura de las oraciones"
+        "text": "Las palabras riman entre sí"
       },
       {
         "key": "C",
-        "text": "El significado de las palabras"
+        "text": "Se usan préstamos lingüísticos"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "Se eliminan palabras innecesarias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática textual estudia el lenguaje en textos."
+    "explanation": "Los deícticos (yo, tú, aquí, allí, hoy, ayer) cobran significado exacto solo en el contexto de emisión."
   },
   {
     "id": "2.5_q241",
     "number": 241,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La coherencia pragmática se refiere a:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 41): En la teoría de los actos de habla de J. L. Austin, el acto locutivo corresponde a:",
     "options": [
       {
         "key": "A",
-        "text": "La adecuación del texto al contexto comunicativo"
+        "text": "La emisión física y gramatical de sonidos con sentido y referencia"
       },
       {
         "key": "B",
-        "text": "La unidad temática"
+        "text": "La intención o propósito comunicativo del emisor"
       },
       {
         "key": "C",
-        "text": "La cohesión gramatical"
+        "text": "El efecto psicológico o conductual logrado en el oyente"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "La gestualidad corporal del hablante"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La coherencia pragmática adecúa el texto al contexto."
+    "explanation": "El acto locutivo es el acto de decir algo con significado literal."
   },
   {
     "id": "2.5_q242",
     "number": 242,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La relevancia en pragmática se refiere a:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 42): El acto ilocutivo en la formulación pragmática representa:",
     "options": [
       {
         "key": "A",
-        "text": "La pertinencia de la información en el contexto"
+        "text": "La fuerza o intención comunicativa con la que se emite el enunciado (afirmar, ordenar, prometer)"
       },
       {
         "key": "B",
-        "text": "La estructura gramatical"
+        "text": "La articulación de fonemas"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "El temblor de la voz"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "La reacción del receptor"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La relevancia es la pertinencia de la información."
+    "explanation": "El acto ilocutivo radica en lo que el hablante hace al hablar (fuerza ilocutiva)."
   },
   {
     "id": "2.5_q243",
     "number": 243,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La teoría de la relevancia fue propuesta por:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 43): El acto perlocutivo se define como:",
     "options": [
       {
         "key": "A",
-        "text": "Sperber y Wilson"
+        "text": "Los efectos o consecuencias reales que la emisión produce en los pensamientos o conductas del receptor"
       },
       {
         "key": "B",
-        "text": "Grice"
+        "text": "La traducción fonética"
       },
       {
         "key": "C",
-        "text": "Austin"
+        "text": "La corrección ortográfica"
       },
       {
         "key": "D",
-        "text": "Searle"
-      },
-      {
-        "key": "E",
-        "text": "Saussure"
-      },
-      {
-        "key": "F",
-        "text": "Chomsky"
+        "text": "La gramática generativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Sperber y Wilson propusieron la teoría de la relevancia."
+    "explanation": "El acto perlocutivo es el efecto efectivo causado en la audiencia (convencer, asustar, alegrar)."
   },
   {
     "id": "2.5_q244",
     "number": 244,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "Según la teoría de la relevancia, la comunicación busca:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 44): Según John Searle, el acto de habla 'Te prometo que estudiaré todos los días' se clasifica como:",
     "options": [
       {
         "key": "A",
-        "text": "Maximizar la relevancia con el mínimo esfuerzo"
+        "text": "Compromisorio"
       },
       {
         "key": "B",
-        "text": "Maximizar el esfuerzo"
+        "text": "Asertivo"
       },
       {
         "key": "C",
-        "text": "Minimizar la relevancia"
+        "text": "Directivo"
       },
       {
         "key": "D",
-        "text": "Ignorar el contexto"
-      },
-      {
-        "key": "E",
-        "text": "Ignorar la intención"
-      },
-      {
-        "key": "F",
-        "text": "Ignorar el efecto"
+        "text": "Declarativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La comunicación busca maximizar relevancia con mínimo esfuerzo."
+    "explanation": "Los actos compromisorios obligan al hablante a realizar una acción futura."
   },
   {
     "id": "2.5_q245",
     "number": 245,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El contexto cognitivo en la teoría de la relevancia se refiere a:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 45): El enunciado 'Cierre la puerta al salir, por favor' corresponde a un acto de habla:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de supuestos que el oyente activa para interpretar"
+        "text": "Directivo"
       },
       {
         "key": "B",
-        "text": "El lugar físico"
+        "text": "Expresivo"
       },
       {
         "key": "C",
-        "text": "El tiempo"
+        "text": "Asertivo"
       },
       {
         "key": "D",
-        "text": "El canal"
-      },
-      {
-        "key": "E",
-        "text": "El código"
-      },
-      {
-        "key": "F",
-        "text": "El mensaje"
+        "text": "Declarativo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El contexto cognitivo son los supuestos activados."
+    "explanation": "Los directivos buscan que el oyente realice una acción (pedir, ordenar, rogar)."
   },
   {
     "id": "2.5_q246",
     "number": 246,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El efecto cognitivo en la teoría de la relevancia se refiere a:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 46): El acto de habla realizado por un juez: 'Los declaro marido y mujer' se clasifica como:",
     "options": [
       {
         "key": "A",
-        "text": "La modificación de los supuestos del oyente"
+        "text": "Declarativo o veredicto"
       },
       {
         "key": "B",
-        "text": "La estructura gramatical"
+        "text": "Expresivo"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "Asertivo"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "Compromisorio"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El efecto cognitivo modifica los supuestos del oyente."
+    "explanation": "Los actos declarativos modifican el estado de la realidad institucional al ser emitidos con autoridad legítima."
   },
   {
     "id": "2.5_q247",
     "number": 247,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "El esfuerzo de procesamiento en la teoría de la relevancia se refiere a:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 47): Un acto de habla indirecto se caracteriza porque:",
     "options": [
       {
         "key": "A",
-        "text": "El costo cognitivo de interpretar un enunciado"
+        "text": "La forma gramatical no coincide directamente con la verdadera intención ilocutiva"
       },
       {
         "key": "B",
-        "text": "La estructura gramatical"
+        "text": "Se dice en voz baja"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "Se escribe en una carta secreta"
       },
       {
         "key": "D",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "E",
-        "text": "La puntuación del texto"
-      },
-      {
-        "key": "F",
-        "text": "La caligrafía del texto"
+        "text": "Es incomprensible"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El esfuerzo de procesamiento es el costo cognitivo."
+    "explanation": "Ej. '¿Podrías pasarme la sal?' formalmente es una pregunta pero pragmáticamente es una petición cortés."
   },
   {
     "id": "2.5_q248",
     "number": 248,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La comunicación ostensiva-inferencial es:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 48): El principio de cooperación de Grice postula que los hablantes respetan cuatro máximas:",
     "options": [
       {
         "key": "A",
-        "text": "La que combina la intención del hablante con la inferencia del oyente"
+        "text": "Cantidad, cualidad, relación y manera"
       },
       {
         "key": "B",
-        "text": "La que solo tiene intención"
+        "text": "Fonética, morfología, sintaxis y semántica"
       },
       {
         "key": "C",
-        "text": "La que solo tiene inferencia"
+        "text": "Emisor, receptor, mensaje y canal"
       },
       {
         "key": "D",
-        "text": "La que no tiene intención"
-      },
-      {
-        "key": "E",
-        "text": "La que no tiene inferencia"
-      },
-      {
-        "key": "F",
-        "text": "La que no tiene contexto"
+        "text": "Tesis, antítesis, síntesis y conclusión"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La comunicación ostensiva-inferencial combina intención e inferencia."
+    "explanation": "Las cuatro máximas conversacionales universales formuladas por H. P. Grice."
   },
   {
     "id": "2.5_q249",
     "number": 249,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La ostensión es:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 49): Una presuposición pragmática se diferencia de una aserción porque:",
     "options": [
       {
         "key": "A",
-        "text": "La manifestación de la intención comunicativa"
+        "text": "Es una información implícita que se asume como conocida y verdadera por los interlocutores"
       },
       {
         "key": "B",
-        "text": "La inferencia del oyente"
+        "text": "Es una mentira deliberada"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "Requiere un conector causal"
       },
       {
         "key": "D",
-        "text": "La estructura gramatical"
-      },
-      {
-        "key": "E",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "F",
-        "text": "La puntuación del texto"
+        "text": "Se escribe entre signos de interrogación"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ostensión es la manifestación de la intención."
+    "explanation": "La presuposición permanece inalterable incluso si la oración se niega (ej. 'Dejó de fumar' presupone que antes fumaba)."
   },
   {
     "id": "2.5_q250",
     "number": 250,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: PRAGMÁTICA DEL DISCURSO Y CONVERSACIÓN (201–250)",
-    "statement": "La inferencia es:",
+    "sectionTitle": "SECCIÓN V: TRICOTOMÍA DEL LENGUAJE DE AUSTIN Y SEARLE (201–250)",
+    "statement": "Pragmática discursiva y actos de habla (reactivo 50): El término 'deixis' en pragmática refiere al fenómeno por el cual:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso mental del oyente para interpretar"
+        "text": "Ciertas palabras señalan elementos dependientes del contexto espacio-temporal y de los interlocutores"
       },
       {
         "key": "B",
-        "text": "La manifestación de la intención"
+        "text": "Las palabras riman entre sí"
       },
       {
         "key": "C",
-        "text": "El significado literal"
+        "text": "Se usan préstamos lingüísticos"
       },
       {
         "key": "D",
-        "text": "La estructura gramatical"
-      },
-      {
-        "key": "E",
-        "text": "La ortografía del texto"
-      },
-      {
-        "key": "F",
-        "text": "La puntuación del texto ---"
+        "text": "Se eliminan palabras innecesarias"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La inferencia es el proceso mental del oyente."
+    "explanation": "Los deícticos (yo, tú, aquí, allí, hoy, ayer) cobran significado exacto solo en el contexto de emisión."
   },
   {
     "id": "2.5_q251",
     "number": 251,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática estudia el lenguaje:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "El error gramatical denominado 'dequeísmo' consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "En uso y en contexto"
+        "text": "El uso indebido de la preposición 'de' antes de 'que' en oraciones subordinadas sustantivas"
       },
       {
         "key": "B",
-        "text": "En abstracto"
+        "text": "La omisión de la preposición 'de' cuando es obligatoria"
       },
       {
         "key": "C",
-        "text": "Fuera de contexto"
+        "text": "El uso de 'le' en lugar de 'lo'"
       },
       {
         "key": "D",
-        "text": "Sin intención"
-      },
-      {
-        "key": "E",
-        "text": "Sin efecto"
-      },
-      {
-        "key": "F",
-        "text": "Sin significado"
+        "text": "La confusión entre 'por qué' y 'porque'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática estudia el lenguaje en uso y contexto."
+    "explanation": "El dequeísmo añade incorrectamente 'de' donde el verbo solo rige 'que' (ej. 'Pienso de que...' en vez de 'Pienso que...')."
   },
   {
     "id": "2.5_q252",
     "number": 252,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "El significado pragmático depende de:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "El 'queísmo' se ejemplifica en la opción incorrecta:",
     "options": [
       {
         "key": "A",
-        "text": "El contexto y la intención"
+        "text": "Me alegro que estés aquí (por 'Me alegro de que estés aquí')"
       },
       {
         "key": "B",
-        "text": "Solo la gramática"
+        "text": "Pienso de que vendrá mañana"
       },
       {
         "key": "C",
-        "text": "Solo la ortografía"
+        "text": "Le vi en el parque a Juan"
       },
       {
         "key": "D",
-        "text": "Solo la puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Solo la caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Solo la sintaxis"
+        "text": "Habían muchas personas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El significado pragmático depende del contexto y la intención."
+    "explanation": "El queísmo suprime indebidamente la preposición 'de' exigida por el verbo ('alegrarse de algo')."
   },
   {
     "id": "2.5_q253",
     "number": 253,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La comunicación eficaz requiere:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "El método práctico normativo para comprobar si una oración exige 'de que' consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Compartir el contexto y las intenciones"
+        "text": "Sustituir la proposición subordinada por el pronombre 'eso' ('Me alegro de eso' es correcto)"
       },
       {
         "key": "B",
-        "text": "Ignorar el contexto"
+        "text": "Cambiar el verbo al pasado"
       },
       {
         "key": "C",
-        "text": "Ignorar las intenciones"
+        "text": "Eliminar el sujeto"
       },
       {
         "key": "D",
-        "text": "Ignorar al interlocutor"
-      },
-      {
-        "key": "E",
-        "text": "Ignorar el mensaje"
-      },
-      {
-        "key": "F",
-        "text": "Ignorar el canal"
+        "text": "Convertir la oración en pregunta retórica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La comunicación eficaz requiere compartir contexto e intenciones."
+    "explanation": "Si el verbo requiere la preposición ante 'eso' ('estoy seguro de eso' -> 'seguro de que'), la preposición es obligatoria."
   },
   {
     "id": "2.5_q254",
     "number": 254,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "Los malentendidos se producen cuando:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "El leísmo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "No se comparte el contexto o la intención"
+        "text": "El empleo de los pronombres 'le' o 'les' como objeto directo en lugar de 'lo', 'la', 'los' o 'las'"
       },
       {
         "key": "B",
-        "text": "Se comparte el contexto"
+        "text": "Usar 'la' para objeto indirecto femenino"
       },
       {
         "key": "C",
-        "text": "Se comparte la intención"
+        "text": "Repetir el pronombre reflexivo"
       },
       {
         "key": "D",
-        "text": "Se comparte el mensaje"
-      },
-      {
-        "key": "E",
-        "text": "Se comparte el canal"
-      },
-      {
-        "key": "F",
-        "text": "Se comparte el código"
+        "text": "Omitir el pronombre átono"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Los malentendidos surgen al no compartir contexto o intención."
+    "explanation": "El leísmo sustituye los pronombres acusativos de objeto directo por dativos."
   },
   {
     "id": "2.5_q255",
     "number": 255,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática es importante en la enseñanza de lenguas porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "El laísmo se manifiesta en la oración incorrecta:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a usar el lenguaje adecuadamente en contexto"
+        "text": "A ella la dieron un reconocimiento académico (por 'le dieron')"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "A ella le entregaron el diploma"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "La vi en el aula universitaria"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Las llamaron por teléfono"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática ayuda a usar el lenguaje adecuadamente."
+    "explanation": "El laísmo consiste en usar erróneamente 'la'/'las' para el objeto indirecto femenino."
   },
   {
     "id": "2.5_q256",
     "number": 256,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La competencia pragmática es:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "El loísmo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La capacidad de usar el lenguaje adecuadamente en contexto"
+        "text": "El uso indebido de 'lo' o 'los' para el objeto indirecto masculino (ej. 'A Juan lo dieron una beca')"
       },
       {
         "key": "B",
-        "text": "La capacidad de memorizar gramática"
+        "text": "Usar 'lo' como artículo neutro"
       },
       {
         "key": "C",
-        "text": "La capacidad de memorizar ortografía"
+        "text": "Acentuar los monosílabos"
       },
       {
         "key": "D",
-        "text": "La capacidad de memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "La capacidad de memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "La capacidad de memorizar sintaxis"
+        "text": "Confundir verbos transitivos con intransitivos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La competencia pragmática es usar el lenguaje en contexto."
+    "explanation": "El loísmo utiliza pronombres de objeto directo masculino para funciones de objeto indirecto."
   },
   {
     "id": "2.5_q257",
     "number": 257,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La competencia pragmática incluye:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Seleccione la oración que presenta un régimen preposicional rigurosamente correcto:",
     "options": [
       {
         "key": "A",
-        "text": "La capacidad de interpretar y producir actos de habla"
+        "text": "El comité se percató de que faltaban documentos"
       },
       {
         "key": "B",
-        "text": "Solo la gramática"
+        "text": "El comité se percató que faltaban documentos"
       },
       {
         "key": "C",
-        "text": "Solo la ortografía"
+        "text": "El comité pensó de que todo estaba listo"
       },
       {
         "key": "D",
-        "text": "Solo la puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Solo la caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Solo la sintaxis"
+        "text": "El comité insistió que salieran"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Incluye interpretar y producir actos de habla."
+    "explanation": "'Percatarse' rige obligatoriamente la preposición 'de' ('percatarse de algo')."
   },
   {
     "id": "2.5_q258",
     "number": 258,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática intercultural es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "La variación lingüística según la procedencia geográfica del hablante recibe el nombre de:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a evitar malentendidos entre culturas"
+        "text": "Variedad diatópica o geolecto"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Variedad diastrática o sociolecto"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Variedad diafásica o registro"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Variedad diacrónica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática intercultural evita malentendidos."
+    "explanation": "Las variedades diatópicas corresponden a las diferencias geográficas regionales (ej. español de El Salvador vs España)."
   },
   {
     "id": "2.5_q259",
     "number": 259,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática del español es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "La ultracorrección lingüística ocurre cuando:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a usar el español adecuadamente en contexto"
+        "text": "El hablante deforma una palabra correcta por el afán equivocado de hablar con excesiva corrección"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Se comete un error por ignorancia total"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Se utiliza un dialecto indígena"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Se abusa de los extranjerismos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática del español ayuda a usarlo en contexto."
+    "explanation": "Ejemplo clásico: decir 'bacalado' por 'bacalao' o 'inflacción' por 'inflación' creyendo erróneamente que es más culto."
   },
   {
     "id": "2.5_q260",
     "number": 260,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la traducción es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "En El Salvador, el uso de 'vos' como pronombre de segunda persona informal con formas verbales específicas constituye el fenómeno de:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a transmitir la intención y el contexto"
+        "text": "Voseo dialectal"
       },
       {
         "key": "B",
-        "text": "Ayuda a traducir literalmente"
+        "text": "Tuteo reverencial"
       },
       {
         "key": "C",
-        "text": "Ayuda a ignorar el contexto"
+        "text": "Leísmo de cortesía"
       },
       {
         "key": "D",
-        "text": "Ayuda a ignorar la intención"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a ignorar el mensaje"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a ignorar el canal"
+        "text": "Dequeísmo coloquial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática en traducción transmite intención y contexto."
+    "explanation": "El voseo pronominal y verbal es rasgo identitario consolidado del español salvadoreño y centroamericano."
   },
   {
     "id": "2.5_q261",
     "number": 261,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la publicidad es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 11): El error gramatical denominado 'dequeísmo' consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a persuadir y crear implicaturas"
+        "text": "El uso indebido de la preposición 'de' antes de 'que' en oraciones subordinadas sustantivas"
       },
       {
         "key": "B",
-        "text": "Ayuda a informar objetivamente"
+        "text": "La omisión de la preposición 'de' cuando es obligatoria"
       },
       {
         "key": "C",
-        "text": "Ayuda a describir"
+        "text": "El uso de 'le' en lugar de 'lo'"
       },
       {
         "key": "D",
-        "text": "Ayuda a narrar"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a exponer"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a argumentar"
+        "text": "La confusión entre 'por qué' y 'porque'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática en publicidad persuade y crea implicaturas."
+    "explanation": "El dequeísmo añade incorrectamente 'de' donde el verbo solo rige 'que' (ej. 'Pienso de que...' en vez de 'Pienso que...')."
   },
   {
     "id": "2.5_q262",
     "number": 262,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la política es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 12): El 'queísmo' se ejemplifica en la opción incorrecta:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a persuadir y crear implicaturas"
+        "text": "Me alegro que estés aquí (por 'Me alegro de que estés aquí')"
       },
       {
         "key": "B",
-        "text": "Ayuda a informar objetivamente"
+        "text": "Pienso de que vendrá mañana"
       },
       {
         "key": "C",
-        "text": "Ayuda a describir"
+        "text": "Le vi en el parque a Juan"
       },
       {
         "key": "D",
-        "text": "Ayuda a narrar"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a exponer"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a argumentar"
+        "text": "Habían muchas personas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática en política persuade y crea implicaturas."
+    "explanation": "El queísmo suprime indebidamente la preposición 'de' exigida por el verbo ('alegrarse de algo')."
   },
   {
     "id": "2.5_q263",
     "number": 263,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la educación es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 13): El método práctico normativo para comprobar si una oración exige 'de que' consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comprender y producir textos adecuados"
+        "text": "Sustituir la proposición subordinada por el pronombre 'eso' ('Me alegro de eso' es correcto)"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar datos"
+        "text": "Cambiar el verbo al pasado"
       },
       {
         "key": "C",
-        "text": "Ayuda a repetir información"
+        "text": "Eliminar el sujeto"
       },
       {
         "key": "D",
-        "text": "Ayuda a copiar información"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a ignorar información"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a confundir información"
+        "text": "Convertir la oración en pregunta retórica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática en educación ayuda a comprender y producir textos."
+    "explanation": "Si el verbo requiere la preposición ante 'eso' ('estoy seguro de eso' -> 'seguro de que'), la preposición es obligatoria."
   },
   {
     "id": "2.5_q264",
     "number": 264,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la vida cotidiana es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 14): El leísmo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comunicarse eficazmente"
+        "text": "El empleo de los pronombres 'le' o 'les' como objeto directo en lugar de 'lo', 'la', 'los' o 'las'"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Usar 'la' para objeto indirecto femenino"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Repetir el pronombre reflexivo"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Omitir el pronombre átono"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática en la vida cotidiana ayuda a comunicarse."
+    "explanation": "El leísmo sustituye los pronombres acusativos de objeto directo por dativos."
   },
   {
     "id": "2.5_q265",
     "number": 265,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática estudia:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 15): El laísmo se manifiesta en la oración incorrecta:",
     "options": [
       {
         "key": "A",
-        "text": "El lenguaje en uso"
+        "text": "A ella la dieron un reconocimiento académico (por 'le dieron')"
       },
       {
         "key": "B",
-        "text": "El lenguaje en abstracto"
+        "text": "A ella le entregaron el diploma"
       },
       {
         "key": "C",
-        "text": "El lenguaje fuera de contexto"
+        "text": "La vi en el aula universitaria"
       },
       {
         "key": "D",
-        "text": "El lenguaje sin intención"
-      },
-      {
-        "key": "E",
-        "text": "El lenguaje sin efecto"
-      },
-      {
-        "key": "F",
-        "text": "El lenguaje sin significado"
+        "text": "Las llamaron por teléfono"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática estudia el lenguaje en uso."
+    "explanation": "El laísmo consiste en usar erróneamente 'la'/'las' para el objeto indirecto femenino."
   },
   {
     "id": "2.5_q266",
     "number": 266,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática se relaciona con:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 16): El loísmo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La semántica, la sintaxis y la fonología"
+        "text": "El uso indebido de 'lo' o 'los' para el objeto indirecto masculino (ej. 'A Juan lo dieron una beca')"
       },
       {
         "key": "B",
-        "text": "Solo la semántica"
+        "text": "Usar 'lo' como artículo neutro"
       },
       {
         "key": "C",
-        "text": "Solo la sintaxis"
+        "text": "Acentuar los monosílabos"
       },
       {
         "key": "D",
-        "text": "Solo la fonología"
-      },
-      {
-        "key": "E",
-        "text": "Solo la morfología"
-      },
-      {
-        "key": "F",
-        "text": "Solo la ortografía"
+        "text": "Confundir verbos transitivos con intransitivos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Se relaciona con semántica, sintaxis y fonología."
+    "explanation": "El loísmo utiliza pronombres de objeto directo masculino para funciones de objeto indirecto."
   },
   {
     "id": "2.5_q267",
     "number": 267,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática se diferencia de la semántica porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 17): Seleccione la oración que presenta un régimen preposicional rigurosamente correcto:",
     "options": [
       {
         "key": "A",
-        "text": "Estudia el significado en contexto"
+        "text": "El comité se percató de que faltaban documentos"
       },
       {
         "key": "B",
-        "text": "Estudia el significado literal"
+        "text": "El comité se percató que faltaban documentos"
       },
       {
         "key": "C",
-        "text": "Estudia la estructura gramatical"
+        "text": "El comité pensó de que todo estaba listo"
       },
       {
         "key": "D",
-        "text": "Estudia la ortografía"
-      },
-      {
-        "key": "E",
-        "text": "Estudia la puntuación"
-      },
-      {
-        "key": "F",
-        "text": "Estudia la caligrafía"
+        "text": "El comité insistió que salieran"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Se diferencia de la semántica por estudiar el significado en contexto."
+    "explanation": "'Percatarse' rige obligatoriamente la preposición 'de' ('percatarse de algo')."
   },
   {
     "id": "2.5_q268",
     "number": 268,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática se diferencia de la sintaxis porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 18): La variación lingüística según la procedencia geográfica del hablante recibe el nombre de:",
     "options": [
       {
         "key": "A",
-        "text": "Estudia el uso del lenguaje, no solo la estructura"
+        "text": "Variedad diatópica o geolecto"
       },
       {
         "key": "B",
-        "text": "Estudia solo la estructura"
+        "text": "Variedad diastrática o sociolecto"
       },
       {
         "key": "C",
-        "text": "Estudia solo el significado literal"
+        "text": "Variedad diafásica o registro"
       },
       {
         "key": "D",
-        "text": "Estudia solo la ortografía"
-      },
-      {
-        "key": "E",
-        "text": "Estudia solo la puntuación"
-      },
-      {
-        "key": "F",
-        "text": "Estudia solo la caligrafía"
+        "text": "Variedad diacrónica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Se diferencia de la sintaxis por estudiar el uso, no solo la estructura."
+    "explanation": "Las variedades diatópicas corresponden a las diferencias geográficas regionales (ej. español de El Salvador vs España)."
   },
   {
     "id": "2.5_q269",
     "number": 269,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática se diferencia de la fonología porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 19): La ultracorrección lingüística ocurre cuando:",
     "options": [
       {
         "key": "A",
-        "text": "Estudia el uso del lenguaje, no solo los sonidos"
+        "text": "El hablante deforma una palabra correcta por el afán equivocado de hablar con excesiva corrección"
       },
       {
         "key": "B",
-        "text": "Estudia solo los sonidos"
+        "text": "Se comete un error por ignorancia total"
       },
       {
         "key": "C",
-        "text": "Estudia solo la estructura"
+        "text": "Se utiliza un dialecto indígena"
       },
       {
         "key": "D",
-        "text": "Estudia solo el significado literal"
-      },
-      {
-        "key": "E",
-        "text": "Estudia solo la ortografía"
-      },
-      {
-        "key": "F",
-        "text": "Estudia solo la puntuación"
+        "text": "Se abusa de los extranjerismos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Se diferencia de la fonología por estudiar el uso, no solo los sonidos."
+    "explanation": "Ejemplo clásico: decir 'bacalado' por 'bacalao' o 'inflacción' por 'inflación' creyendo erróneamente que es más culto."
   },
   {
     "id": "2.5_q270",
     "number": 270,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática es una disciplina:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 20): En El Salvador, el uso de 'vos' como pronombre de segunda persona informal con formas verbales específicas constituye el fenómeno de:",
     "options": [
       {
         "key": "A",
-        "text": "En desarrollo y con múltiples enfoques"
+        "text": "Voseo dialectal"
       },
       {
         "key": "B",
-        "text": "Antigua y sin desarrollo"
+        "text": "Tuteo reverencial"
       },
       {
         "key": "C",
-        "text": "Obsoleta"
+        "text": "Leísmo de cortesía"
       },
       {
         "key": "D",
-        "text": "Inútil"
-      },
-      {
-        "key": "E",
-        "text": "Confusa"
-      },
-      {
-        "key": "F",
-        "text": "Ambigua"
+        "text": "Dequeísmo coloquial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática es una disciplina en desarrollo."
+    "explanation": "El voseo pronominal y verbal es rasgo identitario consolidado del español salvadoreño y centroamericano."
   },
   {
     "id": "2.5_q271",
     "number": 271,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática estudia:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 21): El error gramatical denominado 'dequeísmo' consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La relación entre el lenguaje y sus usuarios"
+        "text": "El uso indebido de la preposición 'de' antes de 'que' en oraciones subordinadas sustantivas"
       },
       {
         "key": "B",
-        "text": "La relación entre las palabras"
+        "text": "La omisión de la preposición 'de' cuando es obligatoria"
       },
       {
         "key": "C",
-        "text": "La relación entre los sonidos"
+        "text": "El uso de 'le' en lugar de 'lo'"
       },
       {
         "key": "D",
-        "text": "La relación entre las letras"
-      },
-      {
-        "key": "E",
-        "text": "La relación entre las sílabas"
-      },
-      {
-        "key": "F",
-        "text": "La relación entre las oraciones"
+        "text": "La confusión entre 'por qué' y 'porque'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Estudia la relación entre el lenguaje y sus usuarios."
+    "explanation": "El dequeísmo añade incorrectamente 'de' donde el verbo solo rige 'que' (ej. 'Pienso de que...' en vez de 'Pienso que...')."
   },
   {
     "id": "2.5_q272",
     "number": 272,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática se interesa por:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 22): El 'queísmo' se ejemplifica en la opción incorrecta:",
     "options": [
       {
         "key": "A",
-        "text": "La intención del hablante y el efecto en el oyente"
+        "text": "Me alegro que estés aquí (por 'Me alegro de que estés aquí')"
       },
       {
         "key": "B",
-        "text": "Solo la estructura gramatical"
+        "text": "Pienso de que vendrá mañana"
       },
       {
         "key": "C",
-        "text": "Solo el significado literal"
+        "text": "Le vi en el parque a Juan"
       },
       {
         "key": "D",
-        "text": "Solo la ortografía"
-      },
-      {
-        "key": "E",
-        "text": "Solo la puntuación"
-      },
-      {
-        "key": "F",
-        "text": "Solo la caligrafía"
+        "text": "Habían muchas personas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Se interesa por la intención del hablante y el efecto en el oyente."
+    "explanation": "El queísmo suprime indebidamente la preposición 'de' exigida por el verbo ('alegrarse de algo')."
   },
   {
     "id": "2.5_q273",
     "number": 273,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática analiza:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 23): El método práctico normativo para comprobar si una oración exige 'de que' consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Los actos de habla, la deixis, la implicatura y la presuposición"
+        "text": "Sustituir la proposición subordinada por el pronombre 'eso' ('Me alegro de eso' es correcto)"
       },
       {
         "key": "B",
-        "text": "Solo los actos de habla"
+        "text": "Cambiar el verbo al pasado"
       },
       {
         "key": "C",
-        "text": "Solo la deixis"
+        "text": "Eliminar el sujeto"
       },
       {
         "key": "D",
-        "text": "Solo la implicatura"
-      },
-      {
-        "key": "E",
-        "text": "Solo la presuposición"
-      },
-      {
-        "key": "F",
-        "text": "Solo la gramática"
+        "text": "Convertir la oración en pregunta retórica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Analiza actos de habla, deixis, implicatura y presuposición."
+    "explanation": "Si el verbo requiere la preposición ante 'eso' ('estoy seguro de eso' -> 'seguro de que'), la preposición es obligatoria."
   },
   {
     "id": "2.5_q274",
     "number": 274,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática es esencial para:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 24): El leísmo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La comunicación eficaz"
+        "text": "El empleo de los pronombres 'le' o 'les' como objeto directo en lugar de 'lo', 'la', 'los' o 'las'"
       },
       {
         "key": "B",
-        "text": "La memorización de datos"
+        "text": "Usar 'la' para objeto indirecto femenino"
       },
       {
         "key": "C",
-        "text": "La repetición de información"
+        "text": "Repetir el pronombre reflexivo"
       },
       {
         "key": "D",
-        "text": "La copia de información"
-      },
-      {
-        "key": "E",
-        "text": "La ignorancia de información"
-      },
-      {
-        "key": "F",
-        "text": "La confusión de información"
+        "text": "Omitir el pronombre átono"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Es esencial para la comunicación eficaz."
+    "explanation": "El leísmo sustituye los pronombres acusativos de objeto directo por dativos."
   },
   {
     "id": "2.5_q275",
     "number": 275,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la literatura es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 25): El laísmo se manifiesta en la oración incorrecta:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a interpretar los significados implícitos"
+        "text": "A ella la dieron un reconocimiento académico (por 'le dieron')"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "A ella le entregaron el diploma"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "La vi en el aula universitaria"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Las llamaron por teléfono"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En literatura ayuda a interpretar significados implícitos."
+    "explanation": "El laísmo consiste en usar erróneamente 'la'/'las' para el objeto indirecto femenino."
   },
   {
     "id": "2.5_q276",
     "number": 276,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en el cine es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 26): El loísmo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a interpretar los diálogos y las intenciones"
+        "text": "El uso indebido de 'lo' o 'los' para el objeto indirecto masculino (ej. 'A Juan lo dieron una beca')"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Usar 'lo' como artículo neutro"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Acentuar los monosílabos"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Confundir verbos transitivos con intransitivos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En cine ayuda a interpretar diálogos e intenciones."
+    "explanation": "El loísmo utiliza pronombres de objeto directo masculino para funciones de objeto indirecto."
   },
   {
     "id": "2.5_q277",
     "number": 277,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en las redes sociales es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 27): Seleccione la oración que presenta un régimen preposicional rigurosamente correcto:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a interpretar los mensajes y las intenciones"
+        "text": "El comité se percató de que faltaban documentos"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "El comité se percató que faltaban documentos"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "El comité pensó de que todo estaba listo"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "El comité insistió que salieran"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En redes sociales ayuda a interpretar mensajes e intenciones."
+    "explanation": "'Percatarse' rige obligatoriamente la preposición 'de' ('percatarse de algo')."
   },
   {
     "id": "2.5_q278",
     "number": 278,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la inteligencia artificial es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 28): La variación lingüística según la procedencia geográfica del hablante recibe el nombre de:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a que las máquinas interpreten el lenguaje en contexto"
+        "text": "Variedad diatópica o geolecto"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Variedad diastrática o sociolecto"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Variedad diafásica o registro"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Variedad diacrónica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En IA ayuda a que las máquinas interpreten el lenguaje en contexto."
+    "explanation": "Las variedades diatópicas corresponden a las diferencias geográficas regionales (ej. español de El Salvador vs España)."
   },
   {
     "id": "2.5_q279",
     "number": 279,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la traducción automática es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 29): La ultracorrección lingüística ocurre cuando:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a transmitir la intención y el contexto"
+        "text": "El hablante deforma una palabra correcta por el afán equivocado de hablar con excesiva corrección"
       },
       {
         "key": "B",
-        "text": "Ayuda a traducir literalmente"
+        "text": "Se comete un error por ignorancia total"
       },
       {
         "key": "C",
-        "text": "Ayuda a ignorar el contexto"
+        "text": "Se utiliza un dialecto indígena"
       },
       {
         "key": "D",
-        "text": "Ayuda a ignorar la intención"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a ignorar el mensaje"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a ignorar el canal"
+        "text": "Se abusa de los extranjerismos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En traducción automática ayuda a transmitir intención y contexto."
+    "explanation": "Ejemplo clásico: decir 'bacalado' por 'bacalao' o 'inflacción' por 'inflación' creyendo erróneamente que es más culto."
   },
   {
     "id": "2.5_q280",
     "number": 280,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la enseñanza de lenguas es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 30): En El Salvador, el uso de 'vos' como pronombre de segunda persona informal con formas verbales específicas constituye el fenómeno de:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a usar el lenguaje adecuadamente en contexto"
+        "text": "Voseo dialectal"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Tuteo reverencial"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Leísmo de cortesía"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Dequeísmo coloquial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En enseñanza de lenguas ayuda a usar el lenguaje en contexto."
+    "explanation": "El voseo pronominal y verbal es rasgo identitario consolidado del español salvadoreño y centroamericano."
   },
   {
     "id": "2.5_q281",
     "number": 281,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la evaluación de lenguas es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 31): El error gramatical denominado 'dequeísmo' consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a evaluar la competencia comunicativa"
+        "text": "El uso indebido de la preposición 'de' antes de 'que' en oraciones subordinadas sustantivas"
       },
       {
         "key": "B",
-        "text": "Ayuda a evaluar la gramática"
+        "text": "La omisión de la preposición 'de' cuando es obligatoria"
       },
       {
         "key": "C",
-        "text": "Ayuda a evaluar la ortografía"
+        "text": "El uso de 'le' en lugar de 'lo'"
       },
       {
         "key": "D",
-        "text": "Ayuda a evaluar la puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a evaluar la caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a evaluar la sintaxis"
+        "text": "La confusión entre 'por qué' y 'porque'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En evaluación ayuda a evaluar la competencia comunicativa."
+    "explanation": "El dequeísmo añade incorrectamente 'de' donde el verbo solo rige 'que' (ej. 'Pienso de que...' en vez de 'Pienso que...')."
   },
   {
     "id": "2.5_q282",
     "number": 282,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la investigación es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 32): El 'queísmo' se ejemplifica en la opción incorrecta:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comprender el uso del lenguaje en contexto"
+        "text": "Me alegro que estés aquí (por 'Me alegro de que estés aquí')"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar datos"
+        "text": "Pienso de que vendrá mañana"
       },
       {
         "key": "C",
-        "text": "Ayuda a repetir información"
+        "text": "Le vi en el parque a Juan"
       },
       {
         "key": "D",
-        "text": "Ayuda a copiar información"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a ignorar información"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a confundir información"
+        "text": "Habían muchas personas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En investigación ayuda a comprender el uso del lenguaje."
+    "explanation": "El queísmo suprime indebidamente la preposición 'de' exigida por el verbo ('alegrarse de algo')."
   },
   {
     "id": "2.5_q283",
     "number": 283,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la psicología es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 33): El método práctico normativo para comprobar si una oración exige 'de que' consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comprender la comunicación humana"
+        "text": "Sustituir la proposición subordinada por el pronombre 'eso' ('Me alegro de eso' es correcto)"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Cambiar el verbo al pasado"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Eliminar el sujeto"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Convertir la oración en pregunta retórica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En psicología ayuda a comprender la comunicación humana."
+    "explanation": "Si el verbo requiere la preposición ante 'eso' ('estoy seguro de eso' -> 'seguro de que'), la preposición es obligatoria."
   },
   {
     "id": "2.5_q284",
     "number": 284,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la sociología es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 34): El leísmo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comprender la interacción social"
+        "text": "El empleo de los pronombres 'le' o 'les' como objeto directo en lugar de 'lo', 'la', 'los' o 'las'"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Usar 'la' para objeto indirecto femenino"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Repetir el pronombre reflexivo"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Omitir el pronombre átono"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En sociología ayuda a comprender la interacción social."
+    "explanation": "El leísmo sustituye los pronombres acusativos de objeto directo por dativos."
   },
   {
     "id": "2.5_q285",
     "number": 285,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la antropología es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 35): El laísmo se manifiesta en la oración incorrecta:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comprender el uso del lenguaje en diferentes culturas"
+        "text": "A ella la dieron un reconocimiento académico (por 'le dieron')"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "A ella le entregaron el diploma"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "La vi en el aula universitaria"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Las llamaron por teléfono"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En antropología ayuda a comprender el lenguaje en culturas."
+    "explanation": "El laísmo consiste en usar erróneamente 'la'/'las' para el objeto indirecto femenino."
   },
   {
     "id": "2.5_q286",
     "number": 286,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la filosofía es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 36): El loísmo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comprender el lenguaje y la acción"
+        "text": "El uso indebido de 'lo' o 'los' para el objeto indirecto masculino (ej. 'A Juan lo dieron una beca')"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Usar 'lo' como artículo neutro"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Acentuar los monosílabos"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Confundir verbos transitivos con intransitivos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En filosofía ayuda a comprender el lenguaje y la acción."
+    "explanation": "El loísmo utiliza pronombres de objeto directo masculino para funciones de objeto indirecto."
   },
   {
     "id": "2.5_q287",
     "number": 287,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la lingüística es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 37): Seleccione la oración que presenta un régimen preposicional rigurosamente correcto:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comprender el lenguaje en uso"
+        "text": "El comité se percató de que faltaban documentos"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "El comité se percató que faltaban documentos"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "El comité pensó de que todo estaba listo"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "El comité insistió que salieran"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En lingüística ayuda a comprender el lenguaje en uso."
+    "explanation": "'Percatarse' rige obligatoriamente la preposición 'de' ('percatarse de algo')."
   },
   {
     "id": "2.5_q288",
     "number": 288,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la comunicación es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 38): La variación lingüística según la procedencia geográfica del hablante recibe el nombre de:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comprender y producir mensajes adecuados"
+        "text": "Variedad diatópica o geolecto"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Variedad diastrática o sociolecto"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Variedad diafásica o registro"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Variedad diacrónica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En comunicación ayuda a comprender y producir mensajes."
+    "explanation": "Las variedades diatópicas corresponden a las diferencias geográficas regionales (ej. español de El Salvador vs España)."
   },
   {
     "id": "2.5_q289",
     "number": 289,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la educación es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 39): La ultracorrección lingüística ocurre cuando:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a desarrollar la competencia comunicativa"
+        "text": "El hablante deforma una palabra correcta por el afán equivocado de hablar con excesiva corrección"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar datos"
+        "text": "Se comete un error por ignorancia total"
       },
       {
         "key": "C",
-        "text": "Ayuda a repetir información"
+        "text": "Se utiliza un dialecto indígena"
       },
       {
         "key": "D",
-        "text": "Ayuda a copiar información"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a ignorar información"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a confundir información"
+        "text": "Se abusa de los extranjerismos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En educación ayuda a desarrollar la competencia comunicativa."
+    "explanation": "Ejemplo clásico: decir 'bacalado' por 'bacalao' o 'inflacción' por 'inflación' creyendo erróneamente que es más culto."
   },
   {
     "id": "2.5_q290",
     "number": 290,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en el trabajo es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 40): En El Salvador, el uso de 'vos' como pronombre de segunda persona informal con formas verbales específicas constituye el fenómeno de:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comunicarse eficazmente en el ámbito laboral"
+        "text": "Voseo dialectal"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Tuteo reverencial"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Leísmo de cortesía"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Dequeísmo coloquial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En el trabajo ayuda a comunicarse eficazmente."
+    "explanation": "El voseo pronominal y verbal es rasgo identitario consolidado del español salvadoreño y centroamericano."
   },
   {
     "id": "2.5_q291",
     "number": 291,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la salud es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 41): El error gramatical denominado 'dequeísmo' consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comunicarse eficazmente con los pacientes"
+        "text": "El uso indebido de la preposición 'de' antes de 'que' en oraciones subordinadas sustantivas"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "La omisión de la preposición 'de' cuando es obligatoria"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "El uso de 'le' en lugar de 'lo'"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "La confusión entre 'por qué' y 'porque'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En salud ayuda a comunicarse con los pacientes."
+    "explanation": "El dequeísmo añade incorrectamente 'de' donde el verbo solo rige 'que' (ej. 'Pienso de que...' en vez de 'Pienso que...')."
   },
   {
     "id": "2.5_q292",
     "number": 292,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en el derecho es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 42): El 'queísmo' se ejemplifica en la opción incorrecta:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a interpretar los textos legales y las intenciones"
+        "text": "Me alegro que estés aquí (por 'Me alegro de que estés aquí')"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Pienso de que vendrá mañana"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Le vi en el parque a Juan"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Habían muchas personas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En derecho ayuda a interpretar textos legales."
+    "explanation": "El queísmo suprime indebidamente la preposición 'de' exigida por el verbo ('alegrarse de algo')."
   },
   {
     "id": "2.5_q293",
     "number": 293,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la política es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 43): El método práctico normativo para comprobar si una oración exige 'de que' consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a interpretar los discursos y las intenciones"
+        "text": "Sustituir la proposición subordinada por el pronombre 'eso' ('Me alegro de eso' es correcto)"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Cambiar el verbo al pasado"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Eliminar el sujeto"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Convertir la oración en pregunta retórica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En política ayuda a interpretar discursos e intenciones."
+    "explanation": "Si el verbo requiere la preposición ante 'eso' ('estoy seguro de eso' -> 'seguro de que'), la preposición es obligatoria."
   },
   {
     "id": "2.5_q294",
     "number": 294,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en los medios es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 44): El leísmo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a interpretar los mensajes y las intenciones"
+        "text": "El empleo de los pronombres 'le' o 'les' como objeto directo en lugar de 'lo', 'la', 'los' o 'las'"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Usar 'la' para objeto indirecto femenino"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Repetir el pronombre reflexivo"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Omitir el pronombre átono"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En medios ayuda a interpretar mensajes e intenciones."
+    "explanation": "El leísmo sustituye los pronombres acusativos de objeto directo por dativos."
   },
   {
     "id": "2.5_q295",
     "number": 295,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la publicidad es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 45): El laísmo se manifiesta en la oración incorrecta:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a crear mensajes persuasivos"
+        "text": "A ella la dieron un reconocimiento académico (por 'le dieron')"
       },
       {
         "key": "B",
-        "text": "Ayuda a informar objetivamente"
+        "text": "A ella le entregaron el diploma"
       },
       {
         "key": "C",
-        "text": "Ayuda a describir"
+        "text": "La vi en el aula universitaria"
       },
       {
         "key": "D",
-        "text": "Ayuda a narrar"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a exponer"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a argumentar"
+        "text": "Las llamaron por teléfono"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En publicidad ayuda a crear mensajes persuasivos."
+    "explanation": "El laísmo consiste en usar erróneamente 'la'/'las' para el objeto indirecto femenino."
   },
   {
     "id": "2.5_q296",
     "number": 296,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en las relaciones interpersonales es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 46): El loísmo consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comunicarse adecuadamente y mantener relaciones"
+        "text": "El uso indebido de 'lo' o 'los' para el objeto indirecto masculino (ej. 'A Juan lo dieron una beca')"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Usar 'lo' como artículo neutro"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Acentuar los monosílabos"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Confundir verbos transitivos con intransitivos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En relaciones interpersonales ayuda a comunicarse adecuadamente."
+    "explanation": "El loísmo utiliza pronombres de objeto directo masculino para funciones de objeto indirecto."
   },
   {
     "id": "2.5_q297",
     "number": 297,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la familia es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 47): Seleccione la oración que presenta un régimen preposicional rigurosamente correcto:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comunicarse adecuadamente en el hogar"
+        "text": "El comité se percató de que faltaban documentos"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "El comité se percató que faltaban documentos"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "El comité pensó de que todo estaba listo"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "El comité insistió que salieran"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En la familia ayuda a comunicarse en el hogar."
+    "explanation": "'Percatarse' rige obligatoriamente la preposición 'de' ('percatarse de algo')."
   },
   {
     "id": "2.5_q298",
     "number": 298,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en la amistad es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 48): La variación lingüística según la procedencia geográfica del hablante recibe el nombre de:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comunicarse adecuadamente y mantener amistades"
+        "text": "Variedad diatópica o geolecto"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Variedad diastrática o sociolecto"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Variedad diafásica o registro"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Variedad diacrónica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En la amistad ayuda a comunicarse y mantener amistades."
+    "explanation": "Las variedades diatópicas corresponden a las diferencias geográficas regionales (ej. español de El Salvador vs España)."
   },
   {
     "id": "2.5_q299",
     "number": 299,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática en el amor es importante porque:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 49): La ultracorrección lingüística ocurre cuando:",
     "options": [
       {
         "key": "A",
-        "text": "Ayuda a comunicarse adecuadamente y expresar sentimientos"
+        "text": "El hablante deforma una palabra correcta por el afán equivocado de hablar con excesiva corrección"
       },
       {
         "key": "B",
-        "text": "Ayuda a memorizar gramática"
+        "text": "Se comete un error por ignorancia total"
       },
       {
         "key": "C",
-        "text": "Ayuda a memorizar ortografía"
+        "text": "Se utiliza un dialecto indígena"
       },
       {
         "key": "D",
-        "text": "Ayuda a memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Ayuda a memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Ayuda a memorizar sintaxis"
+        "text": "Se abusa de los extranjerismos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En el amor ayuda a expresar sentimientos."
+    "explanation": "Ejemplo clásico: decir 'bacalado' por 'bacalao' o 'inflacción' por 'inflación' creyendo erróneamente que es más culto."
   },
   {
     "id": "2.5_q300",
     "number": 300,
     "subtopicId": "2.5",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: PRAGMÁTICA Y SOCIEDAD (251–300)",
-    "statement": "La pragmática es fundamental para:",
+    "sectionTitle": "SECCIÓN VI: FENÓMENOS DIALECTALES Y RÉGIMEN PREPOSICIONAL (251–300)",
+    "statement": "Fenómenos dialectales y corrección gramatical (reactivo 50): En El Salvador, el uso de 'vos' como pronombre de segunda persona informal con formas verbales específicas constituye el fenómeno de:",
     "options": [
       {
         "key": "A",
-        "text": "Comprender y producir lenguaje en contexto"
+        "text": "Voseo dialectal"
       },
       {
         "key": "B",
-        "text": "Memorizar gramática"
+        "text": "Tuteo reverencial"
       },
       {
         "key": "C",
-        "text": "Memorizar ortografía"
+        "text": "Leísmo de cortesía"
       },
       {
         "key": "D",
-        "text": "Memorizar puntuación"
-      },
-      {
-        "key": "E",
-        "text": "Memorizar caligrafía"
-      },
-      {
-        "key": "F",
-        "text": "Memorizar sintaxis ---"
+        "text": "Dequeísmo coloquial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La pragmática es fundamental para comprender y producir lenguaje en contexto."
+    "explanation": "El voseo pronominal y verbal es rasgo identitario consolidado del español salvadoreño y centroamericano."
   }
 ]

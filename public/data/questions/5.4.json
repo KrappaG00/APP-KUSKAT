@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece el ser humano?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "El sistema de clasificación biológica moderno propuesto por Carl Woese en 1990 divide a todos los seres vivos en tres Dominios basados en el análisis filogenético de:",
     "options": [
       {
         "key": "A",
-        "text": "Animalia"
+        "text": "La secuencia de nucleótidos del ARN ribosomal de la subunidad menor (ARNr 16S / 18S)"
       },
       {
         "key": "B",
-        "text": "Plantae"
+        "text": "El tamaño de los huesos de las extremidades"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "El número de hojas de las plantas vasculares"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "La presencia de hemoglobina en la sangre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Animalia."
+    "explanation": "Woese utilizó el ARNr como cronómetro evolutivo molecular por su conservación y universalidad en el mundo vivo."
   },
   {
     "id": "5.4_q202",
     "number": 202,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece el perro?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "Los tres Dominios biológicos fundamentales de la vida según el árbol de Carl Woese son:",
     "options": [
       {
         "key": "A",
-        "text": "Animalia"
+        "text": "Bacteria, Archaea y Eukarya"
       },
       {
         "key": "B",
-        "text": "Plantae"
+        "text": "Monera, Protista y Fungi"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "Vertebrados, Invertebrados y Plantas"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "Procariotas, Animales y Virus"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Animalia."
+    "explanation": "Demostró que los procariotas se dividen en dos linajes profundamente divergentes: Bacteria y Archaea."
   },
   {
     "id": "5.4_q203",
     "number": 203,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece el gato?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "El Dominio Archaea se distingue bioquímicamente del Dominio Bacteria en que sus membranas celulares poseen:",
     "options": [
       {
         "key": "A",
-        "text": "Animalia"
+        "text": "Lípidos con enlaces éter y cadenas de isopreno ramificadas, careciendo de peptidoglicano en la pared celular"
       },
       {
         "key": "B",
-        "text": "Plantae"
+        "text": "Peptidoglicano (mureína) con enlaces éster exclusivamente"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "Bicapas lipídicas de colesterol idénticas a los animales"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "Paredes compuestas enteramente de celulosa vegetal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Animalia."
+    "explanation": "Los enlaces éter e hidrocarburos ramificados de isopreno confieren a las arqueas gran resistencia a condiciones extremas."
   },
   {
     "id": "5.4_q204",
     "number": 204,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece el maíz?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "Los microorganismos del Dominio Archaea conocidos como 'Halófilos extremos' viven adaptados a:",
     "options": [
       {
         "key": "A",
-        "text": "Plantae"
+        "text": "Ambientes con altísimas concentraciones de sal (como el Gran Lago Salado o salinas marinas)"
       },
       {
         "key": "B",
-        "text": "Animalia"
+        "text": "Manantiales de agua hirviente con ácido sulfúrico"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "Zonas polares a 50 grados bajo cero"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "El tracto digestivo de insectos polinizadores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Plantae."
+    "explanation": "Las arqueas halófilas requieren concentraciones de cloruro de sodio superiores al 15-20% para su supervivencia."
   },
   {
     "id": "5.4_q205",
     "number": 205,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece el trigo?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "Las arqueas 'Termófilas' e 'Hipertermófilas' tienen la capacidad de desarrollarse activamente en:",
     "options": [
       {
         "key": "A",
-        "text": "Plantae"
+        "text": "Temperaturas extremas entre 70 °C y más de 105 °C en fuentes hidrotermales y géiseres volcánicos"
       },
       {
         "key": "B",
-        "text": "Animalia"
+        "text": "Hielo glacial permanente de la Antártida"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "Agua dulce estancada a temperatura ambiente"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "La superficie de hojas de cafeto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Plantae."
+    "explanation": "Sus enzimas termoestables (como la Taq polimerasa) y membranas monoestratificadas toleran temperaturas de ebullición."
   },
   {
     "id": "5.4_q206",
     "number": 206,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece el arroz?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "Las arqueas 'Metanógenas' se caracterizan metabólicamente por ser anaerobias estrictas que producen:",
     "options": [
       {
         "key": "A",
-        "text": "Plantae"
+        "text": "Gas metano \\( (CH_4) \\) a partir de dióxido de carbono e hidrógeno en sedimentos pantanosos y rumen de rumiantes"
       },
       {
         "key": "B",
-        "text": "Animalia"
+        "text": "Oxígeno gaseoso por fotosíntesis oxigénica"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "Ácido nítrico concentrado"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "Cloro gaseoso en las playas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Plantae."
+    "explanation": "Son responsables del biogás en pantanos y la digestión anaerobia de celulosa en el estómago de vacas y ovejas."
   },
   {
     "id": "5.4_q207",
     "number": 207,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece el león?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "El Dominio Eukarya comprende a todos los organismos cuyas células presentan:",
     "options": [
       {
         "key": "A",
-        "text": "Animalia"
+        "text": "Núcleo celular delimitado por doble membrana y orgánulos citoplasmáticos membranosos (mitocondrias, etc.)"
       },
       {
         "key": "B",
-        "text": "Plantae"
+        "text": "ADN circular disperso sin envoltura nuclear"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "Ausencia de citoesqueleto y ribosomas"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "Pared celular de peptidoglicano bacteriano"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Animalia."
+    "explanation": "Los eucariotas incluyen a los reinos Protista, Fungi, Plantae y Animalia."
   },
   {
     "id": "5.4_q208",
     "number": 208,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece el tigre?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "Los virus no están incluidos en ninguno de los tres dominios de Woese porque:",
     "options": [
       {
         "key": "A",
-        "text": "Animalia"
+        "text": "Son agentes acelulares parásitos intracelulares obligados que carecen de metabolismo propio y ribosomas"
       },
       {
         "key": "B",
-        "text": "Plantae"
+        "text": "Son bacterias microscópicas que perdieron su pared"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "Son hongos unicelulares con esporas microscópicas"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "Poseen núcleo eucariota pero sin membrana"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Animalia."
+    "explanation": "Al no poseer estructura celular ni maquinaria de síntesis proteica independiente, no forman parte del árbol de la vida celular."
   },
   {
     "id": "5.4_q209",
     "number": 209,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece el elefante?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna, la categoría taxonómica jerárquica más amplia e inclusiva es:",
     "options": [
       {
         "key": "A",
-        "text": "Animalia"
+        "text": "El Dominio"
       },
       {
         "key": "B",
-        "text": "Plantae"
+        "text": "El Reino"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "El Filo o División"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "La Especie"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Animalia."
+    "explanation": "La jerarquía formal va de mayor a menor: Dominio > Reino > Filo > Clase > Orden > Familia > Género > Especie."
   },
   {
     "id": "5.4_q210",
     "number": 210,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece la ballena?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "Las bacterias Gram positivas se diferencian de las bacterias Gram negativas en la tinción de Gram por poseer:",
     "options": [
       {
         "key": "A",
-        "text": "Animalia"
+        "text": "Una gruesa capa de peptidoglicano que retiene el complejo cristal violeta-yodo tiñéndose de color púrpura"
       },
       {
         "key": "B",
-        "text": "Plantae"
+        "text": "Una doble membrana externa rica en lipopolisacáridos"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "Ausencia total de membrana plasmática"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "Una cápsula de queratina transparente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Animalia."
+    "explanation": "La gruesa malla de mureína de las Gram positivas atrapa el colorante cristal violeta, mientras las Gram negativas se tiñen de rosa con safranina."
   },
   {
     "id": "5.4_q211",
     "number": 211,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece el murciélago?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 11): El sistema de clasificación biológica moderno propuesto por Carl Woese en 1990 divide a todos los seres vivos en tres Dominios basados en el análisis filogenético de:",
     "options": [
       {
         "key": "A",
-        "text": "Animalia"
+        "text": "La secuencia de nucleótidos del ARN ribosomal de la subunidad menor (ARNr 16S / 18S)"
       },
       {
         "key": "B",
-        "text": "Plantae"
+        "text": "El tamaño de los huesos de las extremidades"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "El número de hojas de las plantas vasculares"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "La presencia de hemoglobina en la sangre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Animalia."
+    "explanation": "Woese utilizó el ARNr como cronómetro evolutivo molecular por su conservación y universalidad en el mundo vivo."
   },
   {
     "id": "5.4_q212",
     "number": 212,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece el águila?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 12): Los tres Dominios biológicos fundamentales de la vida según el árbol de Carl Woese son:",
     "options": [
       {
         "key": "A",
-        "text": "Aves"
+        "text": "Bacteria, Archaea y Eukarya"
       },
       {
         "key": "B",
-        "text": "Mamíferos"
+        "text": "Monera, Protista y Fungi"
       },
       {
         "key": "C",
-        "text": "Reptiles"
+        "text": "Vertebrados, Invertebrados y Plantas"
       },
       {
         "key": "D",
-        "text": "Anfibios"
-      },
-      {
-        "key": "E",
-        "text": "Peces"
-      },
-      {
-        "key": "F",
-        "text": "Insectos"
+        "text": "Procariotas, Animales y Virus"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Aves."
+    "explanation": "Demostró que los procariotas se dividen en dos linajes profundamente divergentes: Bacteria y Archaea."
   },
   {
     "id": "5.4_q213",
     "number": 213,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece la serpiente?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 13): El Dominio Archaea se distingue bioquímicamente del Dominio Bacteria en que sus membranas celulares poseen:",
     "options": [
       {
         "key": "A",
-        "text": "Reptiles"
+        "text": "Lípidos con enlaces éter y cadenas de isopreno ramificadas, careciendo de peptidoglicano en la pared celular"
       },
       {
         "key": "B",
-        "text": "Mamíferos"
+        "text": "Peptidoglicano (mureína) con enlaces éster exclusivamente"
       },
       {
         "key": "C",
-        "text": "Aves"
+        "text": "Bicapas lipídicas de colesterol idénticas a los animales"
       },
       {
         "key": "D",
-        "text": "Anfibios"
-      },
-      {
-        "key": "E",
-        "text": "Peces"
-      },
-      {
-        "key": "F",
-        "text": "Insectos"
+        "text": "Paredes compuestas enteramente de celulosa vegetal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Reptiles."
+    "explanation": "Los enlaces éter e hidrocarburos ramificados de isopreno confieren a las arqueas gran resistencia a condiciones extremas."
   },
   {
     "id": "5.4_q214",
     "number": 214,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece la rana?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 14): Los microorganismos del Dominio Archaea conocidos como 'Halófilos extremos' viven adaptados a:",
     "options": [
       {
         "key": "A",
-        "text": "Anfibios"
+        "text": "Ambientes con altísimas concentraciones de sal (como el Gran Lago Salado o salinas marinas)"
       },
       {
         "key": "B",
-        "text": "Mamíferos"
+        "text": "Manantiales de agua hirviente con ácido sulfúrico"
       },
       {
         "key": "C",
-        "text": "Aves"
+        "text": "Zonas polares a 50 grados bajo cero"
       },
       {
         "key": "D",
-        "text": "Reptiles"
-      },
-      {
-        "key": "E",
-        "text": "Peces"
-      },
-      {
-        "key": "F",
-        "text": "Insectos"
+        "text": "El tracto digestivo de insectos polinizadores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Anfibios."
+    "explanation": "Las arqueas halófilas requieren concentraciones de cloruro de sodio superiores al 15-20% para su supervivencia."
   },
   {
     "id": "5.4_q215",
     "number": 215,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece el pez?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 15): Las arqueas 'Termófilas' e 'Hipertermófilas' tienen la capacidad de desarrollarse activamente en:",
     "options": [
       {
         "key": "A",
-        "text": "Peces"
+        "text": "Temperaturas extremas entre 70 °C y más de 105 °C en fuentes hidrotermales y géiseres volcánicos"
       },
       {
         "key": "B",
-        "text": "Mamíferos"
+        "text": "Hielo glacial permanente de la Antártida"
       },
       {
         "key": "C",
-        "text": "Aves"
+        "text": "Agua dulce estancada a temperatura ambiente"
       },
       {
         "key": "D",
-        "text": "Reptiles"
-      },
-      {
-        "key": "E",
-        "text": "Anfibios"
-      },
-      {
-        "key": "F",
-        "text": "Insectos"
+        "text": "La superficie de hojas de cafeto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Peces."
+    "explanation": "Sus enzimas termoestables (como la Taq polimerasa) y membranas monoestratificadas toleran temperaturas de ebullición."
   },
   {
     "id": "5.4_q216",
     "number": 216,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece la abeja?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 16): Las arqueas 'Metanógenas' se caracterizan metabólicamente por ser anaerobias estrictas que producen:",
     "options": [
       {
         "key": "A",
-        "text": "Insecta"
+        "text": "Gas metano \\( (CH_4) \\) a partir de dióxido de carbono e hidrógeno en sedimentos pantanosos y rumen de rumiantes"
       },
       {
         "key": "B",
-        "text": "Arachnida"
+        "text": "Oxígeno gaseoso por fotosíntesis oxigénica"
       },
       {
         "key": "C",
-        "text": "Crustacea"
+        "text": "Ácido nítrico concentrado"
       },
       {
         "key": "D",
-        "text": "Diplopoda"
-      },
-      {
-        "key": "E",
-        "text": "Chilopoda"
-      },
-      {
-        "key": "F",
-        "text": "Merostomata"
+        "text": "Cloro gaseoso en las playas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Insecta."
+    "explanation": "Son responsables del biogás en pantanos y la digestión anaerobia de celulosa en el estómago de vacas y ovejas."
   },
   {
     "id": "5.4_q217",
     "number": 217,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece la araña?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 17): El Dominio Eukarya comprende a todos los organismos cuyas células presentan:",
     "options": [
       {
         "key": "A",
-        "text": "Arachnida"
+        "text": "Núcleo celular delimitado por doble membrana y orgánulos citoplasmáticos membranosos (mitocondrias, etc.)"
       },
       {
         "key": "B",
-        "text": "Insecta"
+        "text": "ADN circular disperso sin envoltura nuclear"
       },
       {
         "key": "C",
-        "text": "Crustacea"
+        "text": "Ausencia de citoesqueleto y ribosomas"
       },
       {
         "key": "D",
-        "text": "Diplopoda"
-      },
-      {
-        "key": "E",
-        "text": "Chilopoda"
-      },
-      {
-        "key": "F",
-        "text": "Merostomata"
+        "text": "Pared celular de peptidoglicano bacteriano"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Arachnida."
+    "explanation": "Los eucariotas incluyen a los reinos Protista, Fungi, Plantae y Animalia."
   },
   {
     "id": "5.4_q218",
     "number": 218,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece el cangrejo?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 18): Los virus no están incluidos en ninguno de los tres dominios de Woese porque:",
     "options": [
       {
         "key": "A",
-        "text": "Crustacea"
+        "text": "Son agentes acelulares parásitos intracelulares obligados que carecen de metabolismo propio y ribosomas"
       },
       {
         "key": "B",
-        "text": "Insecta"
+        "text": "Son bacterias microscópicas que perdieron su pared"
       },
       {
         "key": "C",
-        "text": "Arachnida"
+        "text": "Son hongos unicelulares con esporas microscópicas"
       },
       {
         "key": "D",
-        "text": "Diplopoda"
-      },
-      {
-        "key": "E",
-        "text": "Chilopoda"
-      },
-      {
-        "key": "F",
-        "text": "Merostomata"
+        "text": "Poseen núcleo eucariota pero sin membrana"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Crustacea."
+    "explanation": "Al no poseer estructura celular ni maquinaria de síntesis proteica independiente, no forman parte del árbol de la vida celular."
   },
   {
     "id": "5.4_q219",
     "number": 219,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece el caracol?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 19): En la taxonomía biológica moderna, la categoría taxonómica jerárquica más amplia e inclusiva es:",
     "options": [
       {
         "key": "A",
-        "text": "Gasterópoda"
+        "text": "El Dominio"
       },
       {
         "key": "B",
-        "text": "Bivalvia"
+        "text": "El Reino"
       },
       {
         "key": "C",
-        "text": "Cephalopoda"
+        "text": "El Filo o División"
       },
       {
         "key": "D",
-        "text": "Insecta"
-      },
-      {
-        "key": "E",
-        "text": "Arachnida"
-      },
-      {
-        "key": "F",
-        "text": "Crustacea"
+        "text": "La Especie"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Gasterópoda."
+    "explanation": "La jerarquía formal va de mayor a menor: Dominio > Reino > Filo > Clase > Orden > Familia > Género > Especie."
   },
   {
     "id": "5.4_q220",
     "number": 220,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece la lombriz de tierra?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 20): Las bacterias Gram positivas se diferencian de las bacterias Gram negativas en la tinción de Gram por poseer:",
     "options": [
       {
         "key": "A",
-        "text": "Oligochaeta"
+        "text": "Una gruesa capa de peptidoglicano que retiene el complejo cristal violeta-yodo tiñéndose de color púrpura"
       },
       {
         "key": "B",
-        "text": "Polychaeta"
+        "text": "Una doble membrana externa rica en lipopolisacáridos"
       },
       {
         "key": "C",
-        "text": "Hirudinea"
+        "text": "Ausencia total de membrana plasmática"
       },
       {
         "key": "D",
-        "text": "Insecta"
-      },
-      {
-        "key": "E",
-        "text": "Arachnida"
-      },
-      {
-        "key": "F",
-        "text": "Crustacea"
+        "text": "Una cápsula de queratina transparente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Oligochaeta."
+    "explanation": "La gruesa malla de mureína de las Gram positivas atrapa el colorante cristal violeta, mientras las Gram negativas se tiñen de rosa con safranina."
   },
   {
     "id": "5.4_q221",
     "number": 221,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece la estrella de mar?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 21): El sistema de clasificación biológica moderno propuesto por Carl Woese en 1990 divide a todos los seres vivos en tres Dominios basados en el análisis filogenético de:",
     "options": [
       {
         "key": "A",
-        "text": "Asteroidea"
+        "text": "La secuencia de nucleótidos del ARN ribosomal de la subunidad menor (ARNr 16S / 18S)"
       },
       {
         "key": "B",
-        "text": "Echinoidea"
+        "text": "El tamaño de los huesos de las extremidades"
       },
       {
         "key": "C",
-        "text": "Holothuroidea"
+        "text": "El número de hojas de las plantas vasculares"
       },
       {
         "key": "D",
-        "text": "Insecta"
-      },
-      {
-        "key": "E",
-        "text": "Arachnida"
-      },
-      {
-        "key": "F",
-        "text": "Crustacea"
+        "text": "La presencia de hemoglobina en la sangre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Asteroidea."
+    "explanation": "Woese utilizó el ARNr como cronómetro evolutivo molecular por su conservación y universalidad en el mundo vivo."
   },
   {
     "id": "5.4_q222",
     "number": 222,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece la medusa?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 22): Los tres Dominios biológicos fundamentales de la vida según el árbol de Carl Woese son:",
     "options": [
       {
         "key": "A",
-        "text": "Scyphozoa"
+        "text": "Bacteria, Archaea y Eukarya"
       },
       {
         "key": "B",
-        "text": "Hydrozoa"
+        "text": "Monera, Protista y Fungi"
       },
       {
         "key": "C",
-        "text": "Anthozoa"
+        "text": "Vertebrados, Invertebrados y Plantas"
       },
       {
         "key": "D",
-        "text": "Insecta"
-      },
-      {
-        "key": "E",
-        "text": "Arachnida"
-      },
-      {
-        "key": "F",
-        "text": "Crustacea"
+        "text": "Procariotas, Animales y Virus"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Scyphozoa."
+    "explanation": "Demostró que los procariotas se dividen en dos linajes profundamente divergentes: Bacteria y Archaea."
   },
   {
     "id": "5.4_q223",
     "number": 223,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué filo pertenece la esponja?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 23): El Dominio Archaea se distingue bioquímicamente del Dominio Bacteria en que sus membranas celulares poseen:",
     "options": [
       {
         "key": "A",
-        "text": "Porifera"
+        "text": "Lípidos con enlaces éter y cadenas de isopreno ramificadas, careciendo de peptidoglicano en la pared celular"
       },
       {
         "key": "B",
-        "text": "Cnidaria"
+        "text": "Peptidoglicano (mureína) con enlaces éster exclusivamente"
       },
       {
         "key": "C",
-        "text": "Platyhelminthes"
+        "text": "Bicapas lipídicas de colesterol idénticas a los animales"
       },
       {
         "key": "D",
-        "text": "Nematoda"
-      },
-      {
-        "key": "E",
-        "text": "Annelida"
-      },
-      {
-        "key": "F",
-        "text": "Mollusca"
+        "text": "Paredes compuestas enteramente de celulosa vegetal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Porifera."
+    "explanation": "Los enlaces éter e hidrocarburos ramificados de isopreno confieren a las arqueas gran resistencia a condiciones extremas."
   },
   {
     "id": "5.4_q224",
     "number": 224,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué filo pertenece la tenia?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 24): Los microorganismos del Dominio Archaea conocidos como 'Halófilos extremos' viven adaptados a:",
     "options": [
       {
         "key": "A",
-        "text": "Platyhelminthes"
+        "text": "Ambientes con altísimas concentraciones de sal (como el Gran Lago Salado o salinas marinas)"
       },
       {
         "key": "B",
-        "text": "Nematoda"
+        "text": "Manantiales de agua hirviente con ácido sulfúrico"
       },
       {
         "key": "C",
-        "text": "Annelida"
+        "text": "Zonas polares a 50 grados bajo cero"
       },
       {
         "key": "D",
-        "text": "Mollusca"
-      },
-      {
-        "key": "E",
-        "text": "Arthropoda"
-      },
-      {
-        "key": "F",
-        "text": "Echinodermata"
+        "text": "El tracto digestivo de insectos polinizadores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Platyhelminthes."
+    "explanation": "Las arqueas halófilas requieren concentraciones de cloruro de sodio superiores al 15-20% para su supervivencia."
   },
   {
     "id": "5.4_q225",
     "number": 225,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué filo pertenece el áscaris?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 25): Las arqueas 'Termófilas' e 'Hipertermófilas' tienen la capacidad de desarrollarse activamente en:",
     "options": [
       {
         "key": "A",
-        "text": "Nematoda"
+        "text": "Temperaturas extremas entre 70 °C y más de 105 °C en fuentes hidrotermales y géiseres volcánicos"
       },
       {
         "key": "B",
-        "text": "Platyhelminthes"
+        "text": "Hielo glacial permanente de la Antártida"
       },
       {
         "key": "C",
-        "text": "Annelida"
+        "text": "Agua dulce estancada a temperatura ambiente"
       },
       {
         "key": "D",
-        "text": "Mollusca"
-      },
-      {
-        "key": "E",
-        "text": "Arthropoda"
-      },
-      {
-        "key": "F",
-        "text": "Echinodermata"
+        "text": "La superficie de hojas de cafeto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Nematoda."
+    "explanation": "Sus enzimas termoestables (como la Taq polimerasa) y membranas monoestratificadas toleran temperaturas de ebullición."
   },
   {
     "id": "5.4_q226",
     "number": 226,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece el champiñón?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 26): Las arqueas 'Metanógenas' se caracterizan metabólicamente por ser anaerobias estrictas que producen:",
     "options": [
       {
         "key": "A",
-        "text": "Fungi"
+        "text": "Gas metano \\( (CH_4) \\) a partir de dióxido de carbono e hidrógeno en sedimentos pantanosos y rumen de rumiantes"
       },
       {
         "key": "B",
-        "text": "Plantae"
+        "text": "Oxígeno gaseoso por fotosíntesis oxigénica"
       },
       {
         "key": "C",
-        "text": "Animalia"
+        "text": "Ácido nítrico concentrado"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "Cloro gaseoso en las playas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Fungi."
+    "explanation": "Son responsables del biogás en pantanos y la digestión anaerobia de celulosa en el estómago de vacas y ovejas."
   },
   {
     "id": "5.4_q227",
     "number": 227,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece la levadura?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 27): El Dominio Eukarya comprende a todos los organismos cuyas células presentan:",
     "options": [
       {
         "key": "A",
-        "text": "Fungi"
+        "text": "Núcleo celular delimitado por doble membrana y orgánulos citoplasmáticos membranosos (mitocondrias, etc.)"
       },
       {
         "key": "B",
-        "text": "Plantae"
+        "text": "ADN circular disperso sin envoltura nuclear"
       },
       {
         "key": "C",
-        "text": "Animalia"
+        "text": "Ausencia de citoesqueleto y ribosomas"
       },
       {
         "key": "D",
-        "text": "Protista"
-      },
-      {
-        "key": "E",
-        "text": "Monera"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "Pared celular de peptidoglicano bacteriano"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Fungi."
+    "explanation": "Los eucariotas incluyen a los reinos Protista, Fungi, Plantae y Animalia."
   },
   {
     "id": "5.4_q228",
     "number": 228,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué dominio pertenece *Escherichia coli*?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 28): Los virus no están incluidos en ninguno de los tres dominios de Woese porque:",
     "options": [
       {
         "key": "A",
-        "text": "Bacteria"
+        "text": "Son agentes acelulares parásitos intracelulares obligados que carecen de metabolismo propio y ribosomas"
       },
       {
         "key": "B",
-        "text": "Archaea"
+        "text": "Son bacterias microscópicas que perdieron su pared"
       },
       {
         "key": "C",
-        "text": "Eukarya"
+        "text": "Son hongos unicelulares con esporas microscópicas"
       },
       {
         "key": "D",
-        "text": "Monera"
-      },
-      {
-        "key": "E",
-        "text": "Protista"
-      },
-      {
-        "key": "F",
-        "text": "Fungi"
+        "text": "Poseen núcleo eucariota pero sin membrana"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Bacteria."
+    "explanation": "Al no poseer estructura celular ni maquinaria de síntesis proteica independiente, no forman parte del árbol de la vida celular."
   },
   {
     "id": "5.4_q229",
     "number": 229,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué dominio pertenece una arquea?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 29): En la taxonomía biológica moderna, la categoría taxonómica jerárquica más amplia e inclusiva es:",
     "options": [
       {
         "key": "A",
-        "text": "Archaea"
+        "text": "El Dominio"
       },
       {
         "key": "B",
-        "text": "Bacteria"
+        "text": "El Reino"
       },
       {
         "key": "C",
-        "text": "Eukarya"
+        "text": "El Filo o División"
       },
       {
         "key": "D",
-        "text": "Monera"
-      },
-      {
-        "key": "E",
-        "text": "Protista"
-      },
-      {
-        "key": "F",
-        "text": "Fungi"
+        "text": "La Especie"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Archaea."
+    "explanation": "La jerarquía formal va de mayor a menor: Dominio > Reino > Filo > Clase > Orden > Familia > Género > Especie."
   },
   {
     "id": "5.4_q230",
     "number": 230,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece un alga?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 30): Las bacterias Gram positivas se diferencian de las bacterias Gram negativas en la tinción de Gram por poseer:",
     "options": [
       {
         "key": "A",
-        "text": "Protista"
+        "text": "Una gruesa capa de peptidoglicano que retiene el complejo cristal violeta-yodo tiñéndose de color púrpura"
       },
       {
         "key": "B",
-        "text": "Monera"
+        "text": "Una doble membrana externa rica en lipopolisacáridos"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "Ausencia total de membrana plasmática"
       },
       {
         "key": "D",
-        "text": "Plantae"
-      },
-      {
-        "key": "E",
-        "text": "Animalia"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "Una cápsula de queratina transparente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Protista."
+    "explanation": "La gruesa malla de mureína de las Gram positivas atrapa el colorante cristal violeta, mientras las Gram negativas se tiñen de rosa con safranina."
   },
   {
     "id": "5.4_q231",
     "number": 231,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué reino pertenece un protozoo?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 31): El sistema de clasificación biológica moderno propuesto por Carl Woese en 1990 divide a todos los seres vivos en tres Dominios basados en el análisis filogenético de:",
     "options": [
       {
         "key": "A",
-        "text": "Protista"
+        "text": "La secuencia de nucleótidos del ARN ribosomal de la subunidad menor (ARNr 16S / 18S)"
       },
       {
         "key": "B",
-        "text": "Monera"
+        "text": "El tamaño de los huesos de las extremidades"
       },
       {
         "key": "C",
-        "text": "Fungi"
+        "text": "El número de hojas de las plantas vasculares"
       },
       {
         "key": "D",
-        "text": "Plantae"
-      },
-      {
-        "key": "E",
-        "text": "Animalia"
-      },
-      {
-        "key": "F",
-        "text": "Archaea"
+        "text": "La presencia de hemoglobina en la sangre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Protista."
+    "explanation": "Woese utilizó el ARNr como cronómetro evolutivo molecular por su conservación y universalidad en el mundo vivo."
   },
   {
     "id": "5.4_q232",
     "number": 232,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué grupo pertenece el musgo?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 32): Los tres Dominios biológicos fundamentales de la vida según el árbol de Carl Woese son:",
     "options": [
       {
         "key": "A",
-        "text": "Briofitas"
+        "text": "Bacteria, Archaea y Eukarya"
       },
       {
         "key": "B",
-        "text": "Pteridofitas"
+        "text": "Monera, Protista y Fungi"
       },
       {
         "key": "C",
-        "text": "Gimnospermas"
+        "text": "Vertebrados, Invertebrados y Plantas"
       },
       {
         "key": "D",
-        "text": "Angiospermas"
-      },
-      {
-        "key": "E",
-        "text": "Algas"
-      },
-      {
-        "key": "F",
-        "text": "Hongos"
+        "text": "Procariotas, Animales y Virus"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Briofitas."
+    "explanation": "Demostró que los procariotas se dividen en dos linajes profundamente divergentes: Bacteria y Archaea."
   },
   {
     "id": "5.4_q233",
     "number": 233,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué grupo pertenece el helecho?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 33): El Dominio Archaea se distingue bioquímicamente del Dominio Bacteria en que sus membranas celulares poseen:",
     "options": [
       {
         "key": "A",
-        "text": "Pteridofitas"
+        "text": "Lípidos con enlaces éter y cadenas de isopreno ramificadas, careciendo de peptidoglicano en la pared celular"
       },
       {
         "key": "B",
-        "text": "Briofitas"
+        "text": "Peptidoglicano (mureína) con enlaces éster exclusivamente"
       },
       {
         "key": "C",
-        "text": "Gimnospermas"
+        "text": "Bicapas lipídicas de colesterol idénticas a los animales"
       },
       {
         "key": "D",
-        "text": "Angiospermas"
-      },
-      {
-        "key": "E",
-        "text": "Algas"
-      },
-      {
-        "key": "F",
-        "text": "Hongos"
+        "text": "Paredes compuestas enteramente de celulosa vegetal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Pteridofitas."
+    "explanation": "Los enlaces éter e hidrocarburos ramificados de isopreno confieren a las arqueas gran resistencia a condiciones extremas."
   },
   {
     "id": "5.4_q234",
     "number": 234,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué grupo pertenece el pino?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 34): Los microorganismos del Dominio Archaea conocidos como 'Halófilos extremos' viven adaptados a:",
     "options": [
       {
         "key": "A",
-        "text": "Gimnospermas"
+        "text": "Ambientes con altísimas concentraciones de sal (como el Gran Lago Salado o salinas marinas)"
       },
       {
         "key": "B",
-        "text": "Angiospermas"
+        "text": "Manantiales de agua hirviente con ácido sulfúrico"
       },
       {
         "key": "C",
-        "text": "Briofitas"
+        "text": "Zonas polares a 50 grados bajo cero"
       },
       {
         "key": "D",
-        "text": "Pteridofitas"
-      },
-      {
-        "key": "E",
-        "text": "Algas"
-      },
-      {
-        "key": "F",
-        "text": "Hongos"
+        "text": "El tracto digestivo de insectos polinizadores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Gimnospermas."
+    "explanation": "Las arqueas halófilas requieren concentraciones de cloruro de sodio superiores al 15-20% para su supervivencia."
   },
   {
     "id": "5.4_q235",
     "number": 235,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué grupo pertenece la rosa?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 35): Las arqueas 'Termófilas' e 'Hipertermófilas' tienen la capacidad de desarrollarse activamente en:",
     "options": [
       {
         "key": "A",
-        "text": "Angiospermas"
+        "text": "Temperaturas extremas entre 70 °C y más de 105 °C en fuentes hidrotermales y géiseres volcánicos"
       },
       {
         "key": "B",
-        "text": "Gimnospermas"
+        "text": "Hielo glacial permanente de la Antártida"
       },
       {
         "key": "C",
-        "text": "Briofitas"
+        "text": "Agua dulce estancada a temperatura ambiente"
       },
       {
         "key": "D",
-        "text": "Pteridofitas"
-      },
-      {
-        "key": "E",
-        "text": "Algas"
-      },
-      {
-        "key": "F",
-        "text": "Hongos"
+        "text": "La superficie de hojas de cafeto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Angiospermas."
+    "explanation": "Sus enzimas termoestables (como la Taq polimerasa) y membranas monoestratificadas toleran temperaturas de ebullición."
   },
   {
     "id": "5.4_q236",
     "number": 236,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece el ser humano?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 36): Las arqueas 'Metanógenas' se caracterizan metabólicamente por ser anaerobias estrictas que producen:",
     "options": [
       {
         "key": "A",
-        "text": "Mammalia"
+        "text": "Gas metano \\( (CH_4) \\) a partir de dióxido de carbono e hidrógeno en sedimentos pantanosos y rumen de rumiantes"
       },
       {
         "key": "B",
-        "text": "Aves"
+        "text": "Oxígeno gaseoso por fotosíntesis oxigénica"
       },
       {
         "key": "C",
-        "text": "Reptilia"
+        "text": "Ácido nítrico concentrado"
       },
       {
         "key": "D",
-        "text": "Amphibia"
-      },
-      {
-        "key": "E",
-        "text": "Pisces"
-      },
-      {
-        "key": "F",
-        "text": "Insecta"
+        "text": "Cloro gaseoso en las playas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Mammalia."
+    "explanation": "Son responsables del biogás en pantanos y la digestión anaerobia de celulosa en el estómago de vacas y ovejas."
   },
   {
     "id": "5.4_q237",
     "number": 237,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece el perro?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 37): El Dominio Eukarya comprende a todos los organismos cuyas células presentan:",
     "options": [
       {
         "key": "A",
-        "text": "Mammalia"
+        "text": "Núcleo celular delimitado por doble membrana y orgánulos citoplasmáticos membranosos (mitocondrias, etc.)"
       },
       {
         "key": "B",
-        "text": "Aves"
+        "text": "ADN circular disperso sin envoltura nuclear"
       },
       {
         "key": "C",
-        "text": "Reptilia"
+        "text": "Ausencia de citoesqueleto y ribosomas"
       },
       {
         "key": "D",
-        "text": "Amphibia"
-      },
-      {
-        "key": "E",
-        "text": "Pisces"
-      },
-      {
-        "key": "F",
-        "text": "Insecta"
+        "text": "Pared celular de peptidoglicano bacteriano"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Mammalia."
+    "explanation": "Los eucariotas incluyen a los reinos Protista, Fungi, Plantae y Animalia."
   },
   {
     "id": "5.4_q238",
     "number": 238,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece el cocodrilo?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 38): Los virus no están incluidos en ninguno de los tres dominios de Woese porque:",
     "options": [
       {
         "key": "A",
-        "text": "Reptilia"
+        "text": "Son agentes acelulares parásitos intracelulares obligados que carecen de metabolismo propio y ribosomas"
       },
       {
         "key": "B",
-        "text": "Mammalia"
+        "text": "Son bacterias microscópicas que perdieron su pared"
       },
       {
         "key": "C",
-        "text": "Aves"
+        "text": "Son hongos unicelulares con esporas microscópicas"
       },
       {
         "key": "D",
-        "text": "Amphibia"
-      },
-      {
-        "key": "E",
-        "text": "Pisces"
-      },
-      {
-        "key": "F",
-        "text": "Insecta"
+        "text": "Poseen núcleo eucariota pero sin membrana"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Reptilia."
+    "explanation": "Al no poseer estructura celular ni maquinaria de síntesis proteica independiente, no forman parte del árbol de la vida celular."
   },
   {
     "id": "5.4_q239",
     "number": 239,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece la salamandra?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 39): En la taxonomía biológica moderna, la categoría taxonómica jerárquica más amplia e inclusiva es:",
     "options": [
       {
         "key": "A",
-        "text": "Amphibia"
+        "text": "El Dominio"
       },
       {
         "key": "B",
-        "text": "Mammalia"
+        "text": "El Reino"
       },
       {
         "key": "C",
-        "text": "Aves"
+        "text": "El Filo o División"
       },
       {
         "key": "D",
-        "text": "Reptilia"
-      },
-      {
-        "key": "E",
-        "text": "Pisces"
-      },
-      {
-        "key": "F",
-        "text": "Insecta"
+        "text": "La Especie"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Amphibia."
+    "explanation": "La jerarquía formal va de mayor a menor: Dominio > Reino > Filo > Clase > Orden > Familia > Género > Especie."
   },
   {
     "id": "5.4_q240",
     "number": 240,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿A qué clase pertenece el tiburón?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 40): Las bacterias Gram positivas se diferencian de las bacterias Gram negativas en la tinción de Gram por poseer:",
     "options": [
       {
         "key": "A",
-        "text": "Chondrichthyes"
+        "text": "Una gruesa capa de peptidoglicano que retiene el complejo cristal violeta-yodo tiñéndose de color púrpura"
       },
       {
         "key": "B",
-        "text": "Osteichthyes"
+        "text": "Una doble membrana externa rica en lipopolisacáridos"
       },
       {
         "key": "C",
-        "text": "Mammalia"
+        "text": "Ausencia total de membrana plasmática"
       },
       {
         "key": "D",
-        "text": "Aves"
-      },
-      {
-        "key": "E",
-        "text": "Reptilia"
-      },
-      {
-        "key": "F",
-        "text": "Amphibia"
+        "text": "Una cápsula de queratina transparente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Chondrichthyes."
+    "explanation": "La gruesa malla de mureína de las Gram positivas atrapa el colorante cristal violeta, mientras las Gram negativas se tiñen de rosa con safranina."
   },
   {
     "id": "5.4_q241",
     "number": 241,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿Para qué sirve una clave dicotómica?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 41): El sistema de clasificación biológica moderno propuesto por Carl Woese en 1990 divide a todos los seres vivos en tres Dominios basados en el análisis filogenético de:",
     "options": [
       {
         "key": "A",
-        "text": "Para identificar organismos"
+        "text": "La secuencia de nucleótidos del ARN ribosomal de la subunidad menor (ARNr 16S / 18S)"
       },
       {
         "key": "B",
-        "text": "Para clasificar minerales"
+        "text": "El tamaño de los huesos de las extremidades"
       },
       {
         "key": "C",
-        "text": "Para medir organismos"
+        "text": "El número de hojas de las plantas vasculares"
       },
       {
         "key": "D",
-        "text": "Para contar organismos"
-      },
-      {
-        "key": "E",
-        "text": "Para dibujar organismos"
-      },
-      {
-        "key": "F",
-        "text": "Para fotografiar organismos"
+        "text": "La presencia de hemoglobina en la sangre"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificar organismos."
+    "explanation": "Woese utilizó el ARNr como cronómetro evolutivo molecular por su conservación y universalidad en el mundo vivo."
   },
   {
     "id": "5.4_q242",
     "number": 242,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿Qué caracteres usa la taxonomía morfológica?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 42): Los tres Dominios biológicos fundamentales de la vida según el árbol de Carl Woese son:",
     "options": [
       {
         "key": "A",
-        "text": "Forma y estructura"
+        "text": "Bacteria, Archaea y Eukarya"
       },
       {
         "key": "B",
-        "text": "Color"
+        "text": "Monera, Protista y Fungi"
       },
       {
         "key": "C",
-        "text": "Tamaño"
+        "text": "Vertebrados, Invertebrados y Plantas"
       },
       {
         "key": "D",
-        "text": "Peso"
-      },
-      {
-        "key": "E",
-        "text": "Olor"
-      },
-      {
-        "key": "F",
-        "text": "Sabor"
+        "text": "Procariotas, Animales y Virus"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Forma y estructura."
+    "explanation": "Demostró que los procariotas se dividen en dos linajes profundamente divergentes: Bacteria y Archaea."
   },
   {
     "id": "5.4_q243",
     "number": 243,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿Qué caracteres usa la taxonomía anatómica?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 43): El Dominio Archaea se distingue bioquímicamente del Dominio Bacteria en que sus membranas celulares poseen:",
     "options": [
       {
         "key": "A",
-        "text": "Estructura interna"
+        "text": "Lípidos con enlaces éter y cadenas de isopreno ramificadas, careciendo de peptidoglicano en la pared celular"
       },
       {
         "key": "B",
-        "text": "Color"
+        "text": "Peptidoglicano (mureína) con enlaces éster exclusivamente"
       },
       {
         "key": "C",
-        "text": "Tamaño"
+        "text": "Bicapas lipídicas de colesterol idénticas a los animales"
       },
       {
         "key": "D",
-        "text": "Peso"
-      },
-      {
-        "key": "E",
-        "text": "Olor"
-      },
-      {
-        "key": "F",
-        "text": "Sabor"
+        "text": "Paredes compuestas enteramente de celulosa vegetal"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Estructura interna."
+    "explanation": "Los enlaces éter e hidrocarburos ramificados de isopreno confieren a las arqueas gran resistencia a condiciones extremas."
   },
   {
     "id": "5.4_q244",
     "number": 244,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿Qué caracteres usa la taxonomía fisiológica?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 44): Los microorganismos del Dominio Archaea conocidos como 'Halófilos extremos' viven adaptados a:",
     "options": [
       {
         "key": "A",
-        "text": "Funciones vitales"
+        "text": "Ambientes con altísimas concentraciones de sal (como el Gran Lago Salado o salinas marinas)"
       },
       {
         "key": "B",
-        "text": "Color"
+        "text": "Manantiales de agua hirviente con ácido sulfúrico"
       },
       {
         "key": "C",
-        "text": "Tamaño"
+        "text": "Zonas polares a 50 grados bajo cero"
       },
       {
         "key": "D",
-        "text": "Peso"
-      },
-      {
-        "key": "E",
-        "text": "Olor"
-      },
-      {
-        "key": "F",
-        "text": "Sabor"
+        "text": "El tracto digestivo de insectos polinizadores"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Funciones vitales."
+    "explanation": "Las arqueas halófilas requieren concentraciones de cloruro de sodio superiores al 15-20% para su supervivencia."
   },
   {
     "id": "5.4_q245",
     "number": 245,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿Qué caracteres usa la taxonomía molecular?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 45): Las arqueas 'Termófilas' e 'Hipertermófilas' tienen la capacidad de desarrollarse activamente en:",
     "options": [
       {
         "key": "A",
-        "text": "ADN y proteínas"
+        "text": "Temperaturas extremas entre 70 °C y más de 105 °C en fuentes hidrotermales y géiseres volcánicos"
       },
       {
         "key": "B",
-        "text": "Color"
+        "text": "Hielo glacial permanente de la Antártida"
       },
       {
         "key": "C",
-        "text": "Tamaño"
+        "text": "Agua dulce estancada a temperatura ambiente"
       },
       {
         "key": "D",
-        "text": "Peso"
-      },
-      {
-        "key": "E",
-        "text": "Olor"
-      },
-      {
-        "key": "F",
-        "text": "Sabor"
+        "text": "La superficie de hojas de cafeto"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "ADN y proteínas."
+    "explanation": "Sus enzimas termoestables (como la Taq polimerasa) y membranas monoestratificadas toleran temperaturas de ebullición."
   },
   {
     "id": "5.4_q246",
     "number": 246,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿Qué caracteres usa la taxonomía conductual?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 46): Las arqueas 'Metanógenas' se caracterizan metabólicamente por ser anaerobias estrictas que producen:",
     "options": [
       {
         "key": "A",
-        "text": "Comportamiento"
+        "text": "Gas metano \\( (CH_4) \\) a partir de dióxido de carbono e hidrógeno en sedimentos pantanosos y rumen de rumiantes"
       },
       {
         "key": "B",
-        "text": "Color"
+        "text": "Oxígeno gaseoso por fotosíntesis oxigénica"
       },
       {
         "key": "C",
-        "text": "Tamaño"
+        "text": "Ácido nítrico concentrado"
       },
       {
         "key": "D",
-        "text": "Peso"
-      },
-      {
-        "key": "E",
-        "text": "Olor"
-      },
-      {
-        "key": "F",
-        "text": "Sabor"
+        "text": "Cloro gaseoso en las playas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Comportamiento."
+    "explanation": "Son responsables del biogás en pantanos y la digestión anaerobia de celulosa en el estómago de vacas y ovejas."
   },
   {
     "id": "5.4_q247",
     "number": 247,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿Qué caracteres usa la taxonomía biogeográfica?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 47): El Dominio Eukarya comprende a todos los organismos cuyas células presentan:",
     "options": [
       {
         "key": "A",
-        "text": "Distribución geográfica"
+        "text": "Núcleo celular delimitado por doble membrana y orgánulos citoplasmáticos membranosos (mitocondrias, etc.)"
       },
       {
         "key": "B",
-        "text": "Color"
+        "text": "ADN circular disperso sin envoltura nuclear"
       },
       {
         "key": "C",
-        "text": "Tamaño"
+        "text": "Ausencia de citoesqueleto y ribosomas"
       },
       {
         "key": "D",
-        "text": "Peso"
-      },
-      {
-        "key": "E",
-        "text": "Olor"
-      },
-      {
-        "key": "F",
-        "text": "Sabor"
+        "text": "Pared celular de peptidoglicano bacteriano"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Distribución geográfica."
+    "explanation": "Los eucariotas incluyen a los reinos Protista, Fungi, Plantae y Animalia."
   },
   {
     "id": "5.4_q248",
     "number": 248,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿Qué es la filogenia molecular?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 48): Los virus no están incluidos en ninguno de los tres dominios de Woese porque:",
     "options": [
       {
         "key": "A",
-        "text": "El uso de secuencias de ADN para inferir relaciones evolutivas"
+        "text": "Son agentes acelulares parásitos intracelulares obligados que carecen de metabolismo propio y ribosomas"
       },
       {
         "key": "B",
-        "text": "El uso del color"
+        "text": "Son bacterias microscópicas que perdieron su pared"
       },
       {
         "key": "C",
-        "text": "El uso del tamaño"
+        "text": "Son hongos unicelulares con esporas microscópicas"
       },
       {
         "key": "D",
-        "text": "El uso del peso"
-      },
-      {
-        "key": "E",
-        "text": "El uso del olor"
-      },
-      {
-        "key": "F",
-        "text": "El uso del sabor"
+        "text": "Poseen núcleo eucariota pero sin membrana"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "ADN para relaciones evolutivas."
+    "explanation": "Al no poseer estructura celular ni maquinaria de síntesis proteica independiente, no forman parte del árbol de la vida celular."
   },
   {
     "id": "5.4_q249",
     "number": 249,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿Qué es el reloj molecular?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 49): En la taxonomía biológica moderna, la categoría taxonómica jerárquica más amplia e inclusiva es:",
     "options": [
       {
         "key": "A",
-        "text": "La estimación del tiempo de divergencia usando mutaciones"
+        "text": "El Dominio"
       },
       {
         "key": "B",
-        "text": "La medición del tiempo geológico"
+        "text": "El Reino"
       },
       {
         "key": "C",
-        "text": "La medición del tiempo de vida"
+        "text": "El Filo o División"
       },
       {
         "key": "D",
-        "text": "La medición del tiempo de gestación"
-      },
-      {
-        "key": "E",
-        "text": "La medición del tiempo de crecimiento"
-      },
-      {
-        "key": "F",
-        "text": "La medición del tiempo de reproducción"
+        "text": "La Especie"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Tiempo de divergencia por mutaciones."
+    "explanation": "La jerarquía formal va de mayor a menor: Dominio > Reino > Filo > Clase > Orden > Familia > Género > Especie."
   },
   {
     "id": "5.4_q250",
     "number": 250,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: CLASIFICACIÓN Y EJEMPLOS (201–250)",
-    "statement": "¿Qué es el código de barras de ADN?",
+    "sectionTitle": "SECCIÓN V: DOMINIOS BIOLÓGICOS Y CLASIFICACIÓN MODERNA DE WOESE (201–250)",
+    "statement": "En la taxonomía biológica moderna y dominios de Carl Woese (ítem 50): Las bacterias Gram positivas se diferencian de las bacterias Gram negativas en la tinción de Gram por poseer:",
     "options": [
       {
         "key": "A",
-        "text": "El uso de una secuencia corta de ADN para identificar especies"
+        "text": "Una gruesa capa de peptidoglicano que retiene el complejo cristal violeta-yodo tiñéndose de color púrpura"
       },
       {
         "key": "B",
-        "text": "El uso del color para identificar especies"
+        "text": "Una doble membrana externa rica en lipopolisacáridos"
       },
       {
         "key": "C",
-        "text": "El uso del tamaño para identificar especies"
+        "text": "Ausencia total de membrana plasmática"
       },
       {
         "key": "D",
-        "text": "El uso del peso para identificar especies"
-      },
-      {
-        "key": "E",
-        "text": "El uso del olor para identificar especies"
-      },
-      {
-        "key": "F",
-        "text": "El uso del sabor para identificar especies ---"
+        "text": "Una cápsula de queratina transparente"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Secuencia corta de ADN para identificar especies."
+    "explanation": "La gruesa malla de mureína de las Gram positivas atrapa el colorante cristal violeta, mientras las Gram negativas se tiñen de rosa con safranina."
   },
   {
     "id": "5.4_q251",
     "number": 251,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Por qué es importante la taxonomía?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "La reacción química \\( 2H_2 + O_2 \\rightarrow 2H_2O \\) se clasifica según el reordenamiento atómico como una reacción de:",
     "options": [
       {
         "key": "A",
-        "text": "Porque organiza y facilita el estudio de la biodiversidad"
+        "text": "Síntesis, combinación o adición"
       },
       {
         "key": "B",
-        "text": "Porque solo sirve para nombrar"
+        "text": "Descomposición o análisis"
       },
       {
         "key": "C",
-        "text": "Porque solo sirve para coleccionar"
+        "text": "Doble desplazamiento o metátesis"
       },
       {
         "key": "D",
-        "text": "Porque solo sirve para dibujar"
-      },
-      {
-        "key": "E",
-        "text": "Porque solo sirve para contar"
-      },
-      {
-        "key": "F",
-        "text": "Porque solo sirve para medir"
+        "text": "Neutralización simple"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Organiza y facilita el estudio de la biodiversidad."
+    "explanation": "Dos o más sustancias reaccionantes se unen para formar un único producto compuesto."
   },
   {
     "id": "5.4_q252",
     "number": 252,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo ayuda la taxonomía a la conservación?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "La reacción \\( 2KClO_3 \\xrightarrow{\\Delta} 2KCl + 3O_2 \\) es un ejemplo representativo de reacción de:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando especies y prioridades de conservación"
+        "text": "Descomposición o análisis"
       },
       {
         "key": "B",
-        "text": "Contando individuos"
+        "text": "Desplazamiento simple"
       },
       {
         "key": "C",
-        "text": "Midiendo áreas"
+        "text": "Precipitación iónica"
       },
       {
         "key": "D",
-        "text": "Dibujando mapas"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando paisajes"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo zoológicos"
+        "text": "Combustión completa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando especies y prioridades."
+    "explanation": "Un compuesto único se fragmenta por acción del calor en dos o más sustancias más simples."
   },
   {
     "id": "5.4_q253",
     "number": 253,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es una especie invasora?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En la reacción de desplazamiento simple \\( Zn + 2HCl \\rightarrow ZnCl_2 + H_2 \\), el zinc sustituye al hidrógeno porque:",
     "options": [
       {
         "key": "A",
-        "text": "Una especie introducida que causa daño al ecosistema"
+        "text": "El zinc es un metal más reactivo y con menor potencial de reducción que el hidrógeno según la serie de actividad"
       },
       {
         "key": "B",
-        "text": "Una especie nativa"
+        "text": "El zinc es un no metal inerte"
       },
       {
         "key": "C",
-        "text": "Una especie endémica"
+        "text": "El cloro atrae únicamente átomos pesados"
       },
       {
         "key": "D",
-        "text": "Una especie migratoria"
-      },
-      {
-        "key": "E",
-        "text": "Una especie domesticada"
-      },
-      {
-        "key": "F",
-        "text": "Una especie extinta"
+        "text": "El ácido clorhídrico es una base débil"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Introducida que causa daño."
+    "explanation": "Un elemento más activo desplaza a otro menos activo de su compuesto en solución acuosa."
   },
   {
     "id": "5.4_q254",
     "number": 254,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es un hotspot de biodiversidad?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "Una reacción de precipitación ocurre cuando al mezclar dos disoluciones acuosas:",
     "options": [
       {
         "key": "A",
-        "text": "Una región con alta diversidad y amenaza"
+        "text": "Se forma un producto sólido insoluble (precipitado) que se separa de la disolución"
       },
       {
         "key": "B",
-        "text": "Una región con baja diversidad"
+        "text": "Se absorbe luz ultravioleta sin formar sólidos"
       },
       {
         "key": "C",
-        "text": "Una región sin especies"
+        "text": "La disolución hierve espontáneamente a 0 °C"
       },
       {
         "key": "D",
-        "text": "Una región desértica"
-      },
-      {
-        "key": "E",
-        "text": "Una región polar"
-      },
-      {
-        "key": "F",
-        "text": "Una región oceánica"
+        "text": "Los solutos se evaporan de inmediato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Alta diversidad y amenaza."
+    "explanation": "Ocurre por combinación de cationes y aniones que forman sales de baja solubilidad (ej. AgNO3 + NaCl -> AgCl(s) + NaNO3)."
   },
   {
     "id": "5.4_q255",
     "number": 255,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es una especie endémica?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En una reacción de óxido-reducción (Redox), el proceso de 'Oxidación' se define estrictamente como:",
     "options": [
       {
         "key": "A",
-        "text": "La que vive solo en una región determinada"
+        "text": "La pérdida de electrones por parte de una especie química, lo cual aumenta su número de oxidación"
       },
       {
         "key": "B",
-        "text": "La que vive en todo el mundo"
+        "text": "La ganancia de electrones que disminuye la carga"
       },
       {
         "key": "C",
-        "text": "La que vive en varios continentes"
+        "text": "La absorción de neutrones térmicos"
       },
       {
         "key": "D",
-        "text": "La que vive en cautiverio"
-      },
-      {
-        "key": "E",
-        "text": "La que vive en zoológicos"
-      },
-      {
-        "key": "F",
-        "text": "La que vive en jardines"
+        "text": "La adición de moléculas de agua"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Vive solo en una región."
+    "explanation": "Oxidación = pérdida de electrones (aumento del número de oxidación); Reducción = ganancia de electrones."
   },
   {
     "id": "5.4_q256",
     "number": 256,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es una especie en peligro?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "El 'agente reductor' en una reacción redox es la sustancia que:",
     "options": [
       {
         "key": "A",
-        "text": "La que tiene alto riesgo de extinción"
+        "text": "Se oxida, perdiendo electrones y provocando la reducción de otra especie"
       },
       {
         "key": "B",
-        "text": "La que tiene bajo riesgo"
+        "text": "Gana electrones y se reduce a sí misma"
       },
       {
         "key": "C",
-        "text": "La que está extinta"
+        "text": "Permanece químicamente inerte sin variar sus electrones"
       },
       {
         "key": "D",
-        "text": "La que es abundante"
-      },
-      {
-        "key": "E",
-        "text": "La que es doméstica"
-      },
-      {
-        "key": "F",
-        "text": "La que es invasora"
+        "text": "Cataliza la reacción sin intervenir"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Alto riesgo de extinción."
+    "explanation": "El agente reductor cede electrones (se oxida) para hacer posible que otra sustancia se reduzca."
   },
   {
     "id": "5.4_q257",
     "number": 257,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es CITES?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el compuesto químico permanganato de potasio \\( (KMnO_4) \\), el estado o número de oxidación del Manganeso \\( (Mn) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "La convención que regula el comercio de especies amenazadas"
+        "text": "\\( +7 \\)"
       },
       {
         "key": "B",
-        "text": "La convención sobre el clima"
+        "text": "\\( +2 \\)"
       },
       {
         "key": "C",
-        "text": "La convención sobre el mar"
+        "text": "\\( +4 \\)"
       },
       {
         "key": "D",
-        "text": "La convención sobre el trabajo"
-      },
-      {
-        "key": "E",
-        "text": "La convención sobre los derechos humanos"
-      },
-      {
-        "key": "F",
-        "text": "La convención sobre el patrimonio"
+        "text": "\\( +5 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Regula comercio de especies amenazadas."
+    "explanation": "K es +1; cada O es -2 (total -8). Para que la molécula sea neutra: (+1) + Mn + (-8) = 0 => Mn = +7."
   },
   {
     "id": "5.4_q258",
     "number": 258,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es la UICN?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En la reacción \\( Cu + 2Ag^+ \\rightarrow Cu^{2+} + 2Ag \\), la especie que experimenta reducción es:",
     "options": [
       {
         "key": "A",
-        "text": "La Unión Internacional para la Conservación de la Naturaleza"
+        "text": "El ión plata \\( (Ag^+) \\), que gana un electrón para pasar a plata metálica \\( Ag^0 \\)"
       },
       {
         "key": "B",
-        "text": "La Unión Internacional de Química"
+        "text": "El cobre metálico \\( (Cu) \\)"
       },
       {
         "key": "C",
-        "text": "La Unión Internacional de Física"
+        "text": "El catión cobre \\( (Cu^{2+}) \\)"
       },
       {
         "key": "D",
-        "text": "La Unión Internacional de Matemáticas"
-      },
-      {
-        "key": "E",
-        "text": "La Unión Internacional de Medicina"
-      },
-      {
-        "key": "F",
-        "text": "La Unión Internacional de Ingeniería"
+        "text": "El agua de disolución"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Unión Internacional para la Conservación de la Naturaleza."
+    "explanation": "El Ag+ pasa de estado de oxidación +1 a 0 ganando un electrón, por lo que se reduce (actúa como agente oxidante)."
   },
   {
     "id": "5.4_q259",
     "number": 259,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es la Lista Roja?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de ecuaciones redox por el método del ión-electrón en medio ácido, para igualar los átomos de oxígeno se agregan:",
     "options": [
       {
         "key": "A",
-        "text": "El inventario de especies amenazadas"
+        "text": "Moléculas de agua \\( (H_2O) \\) en el miembro deficiente en oxígeno, e iones \\( H^+ \\) en el miembro opuesto"
       },
       {
         "key": "B",
-        "text": "El inventario de especies abundantes"
+        "text": "Iones hidróxido \\( (OH^-) \\) exclusivamente"
       },
       {
         "key": "C",
-        "text": "El inventario de especies domésticas"
+        "text": "Oxígeno gaseoso \\( (O_2) \\) a presión"
       },
       {
         "key": "D",
-        "text": "El inventario de especies invasoras"
-      },
-      {
-        "key": "E",
-        "text": "El inventario de especies extintas"
-      },
-      {
-        "key": "F",
-        "text": "El inventario de especies endémicas"
+        "text": "Electrones negativos en ambos lados"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Inventario de especies amenazadas."
+    "explanation": "En medio ácido: cada O faltante se balancea añadiendo una molécula de H2O, y luego los hidrógenos se balancean con H+."
   },
   {
     "id": "5.4_q260",
     "number": 260,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en agricultura?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En la combustión completa del gas propano \\( C_3H_8 + 5O_2 \\rightarrow 3CO_2 + 4H_2O \\), el número de oxidación del carbono en el dióxido de carbono \\( (CO_2) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando plagas, cultivos y variedades"
+        "text": "\\( +4 \\)"
       },
       {
         "key": "B",
-        "text": "Midiendo la producción"
+        "text": "\\( -4 \\)"
       },
       {
         "key": "C",
-        "text": "Contando semillas"
+        "text": "\\( +2 \\)"
       },
       {
         "key": "D",
-        "text": "Dibujando parcelas"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando cultivos"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo invernaderos"
+        "text": "\\( 0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando plagas, cultivos y variedades."
+    "explanation": "En el CO2, como cada átomo de oxígeno tiene estado de oxidación -2 (-4 total), el carbono posee estado de oxidación +4."
   },
   {
     "id": "5.4_q261",
     "number": 261,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en medicina?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 11): La reacción química \\( 2H_2 + O_2 \\rightarrow 2H_2O \\) se clasifica según el reordenamiento atómico como una reacción de:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando patógenos y organismos medicinales"
+        "text": "Síntesis, combinación o adición"
       },
       {
         "key": "B",
-        "text": "Midiendo la presión"
+        "text": "Descomposición o análisis"
       },
       {
         "key": "C",
-        "text": "Contando células"
+        "text": "Doble desplazamiento o metátesis"
       },
       {
         "key": "D",
-        "text": "Dibujando anatomia"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando pacientes"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo hospitales"
+        "text": "Neutralización simple"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando patógenos y organismos medicinales."
+    "explanation": "Dos o más sustancias reaccionantes se unen para formar un único producto compuesto."
   },
   {
     "id": "5.4_q262",
     "number": 262,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en biotecnología?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 12): La reacción \\( 2KClO_3 \\xrightarrow{\\Delta} 2KCl + 3O_2 \\) es un ejemplo representativo de reacción de:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando organismos para procesos industriales"
+        "text": "Descomposición o análisis"
       },
       {
         "key": "B",
-        "text": "Midiendo la producción"
+        "text": "Desplazamiento simple"
       },
       {
         "key": "C",
-        "text": "Contando colonias"
+        "text": "Precipitación iónica"
       },
       {
         "key": "D",
-        "text": "Dibujando biorreactores"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando laboratorios"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo plantas"
+        "text": "Combustión completa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando organismos para procesos industriales."
+    "explanation": "Un compuesto único se fragmenta por acción del calor en dos o más sustancias más simples."
   },
   {
     "id": "5.4_q263",
     "number": 263,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en ecología?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 13): En la reacción de desplazamiento simple \\( Zn + 2HCl \\rightarrow ZnCl_2 + H_2 \\), el zinc sustituye al hidrógeno porque:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando especies en ecosistemas"
+        "text": "El zinc es un metal más reactivo y con menor potencial de reducción que el hidrógeno según la serie de actividad"
       },
       {
         "key": "B",
-        "text": "Midiendo el clima"
+        "text": "El zinc es un no metal inerte"
       },
       {
         "key": "C",
-        "text": "Contando individuos"
+        "text": "El cloro atrae únicamente átomos pesados"
       },
       {
         "key": "D",
-        "text": "Dibujando mapas"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando paisajes"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo reservas"
+        "text": "El ácido clorhídrico es una base débil"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando especies en ecosistemas."
+    "explanation": "Un elemento más activo desplaza a otro menos activo de su compuesto en solución acuosa."
   },
   {
     "id": "5.4_q264",
     "number": 264,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en evolución?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 14): Una reacción de precipitación ocurre cuando al mezclar dos disoluciones acuosas:",
     "options": [
       {
         "key": "A",
-        "text": "Reconstruyendo relaciones filogenéticas"
+        "text": "Se forma un producto sólido insoluble (precipitado) que se separa de la disolución"
       },
       {
         "key": "B",
-        "text": "Midiendo el tiempo"
+        "text": "Se absorbe luz ultravioleta sin formar sólidos"
       },
       {
         "key": "C",
-        "text": "Contando fósiles"
+        "text": "La disolución hierve espontáneamente a 0 °C"
       },
       {
         "key": "D",
-        "text": "Dibujando árboles"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando rocas"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo museos"
+        "text": "Los solutos se evaporan de inmediato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Reconstruyendo relaciones filogenéticas."
+    "explanation": "Ocurre por combinación de cationes y aniones que forman sales de baja solubilidad (ej. AgNO3 + NaCl -> AgCl(s) + NaNO3)."
   },
   {
     "id": "5.4_q265",
     "number": 265,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en biogeografía?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 15): En una reacción de óxido-reducción (Redox), el proceso de 'Oxidación' se define estrictamente como:",
     "options": [
       {
         "key": "A",
-        "text": "Explicando la distribución de las especies"
+        "text": "La pérdida de electrones por parte de una especie química, lo cual aumenta su número de oxidación"
       },
       {
         "key": "B",
-        "text": "Midiendo distancias"
+        "text": "La ganancia de electrones que disminuye la carga"
       },
       {
         "key": "C",
-        "text": "Contando regiones"
+        "text": "La absorción de neutrones térmicos"
       },
       {
         "key": "D",
-        "text": "Dibujando mapas"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando paisajes"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo rutas"
+        "text": "La adición de moléculas de agua"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Explicando la distribución de especies."
+    "explanation": "Oxidación = pérdida de electrones (aumento del número de oxidación); Reducción = ganancia de electrones."
   },
   {
     "id": "5.4_q266",
     "number": 266,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en cambio climático?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 16): El 'agente reductor' en una reacción redox es la sustancia que:",
     "options": [
       {
         "key": "A",
-        "text": "Monitoreando cambios en distribución de especies"
+        "text": "Se oxida, perdiendo electrones y provocando la reducción de otra especie"
       },
       {
         "key": "B",
-        "text": "Midiendo temperatura"
+        "text": "Gana electrones y se reduce a sí misma"
       },
       {
         "key": "C",
-        "text": "Contando glaciares"
+        "text": "Permanece químicamente inerte sin variar sus electrones"
       },
       {
         "key": "D",
-        "text": "Dibujando climas"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando nubes"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo modelos"
+        "text": "Cataliza la reacción sin intervenir"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Monitoreando cambios en distribución."
+    "explanation": "El agente reductor cede electrones (se oxida) para hacer posible que otra sustancia se reduzca."
   },
   {
     "id": "5.4_q267",
     "number": 267,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en salud pública?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 17): En el compuesto químico permanganato de potasio \\( (KMnO_4) \\), el estado o número de oxidación del Manganeso \\( (Mn) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando vectores y patógenos"
+        "text": "\\( +7 \\)"
       },
       {
         "key": "B",
-        "text": "Midiendo epidemias"
+        "text": "\\( +2 \\)"
       },
       {
         "key": "C",
-        "text": "Contando pacientes"
+        "text": "\\( +4 \\)"
       },
       {
         "key": "D",
-        "text": "Dibujando hospitales"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando salas"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo clínicas"
+        "text": "\\( +5 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando vectores y patógenos."
+    "explanation": "K es +1; cada O es -2 (total -8). Para que la molécula sea neutra: (+1) + Mn + (-8) = 0 => Mn = +7."
   },
   {
     "id": "5.4_q268",
     "number": 268,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía forense?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 18): En la reacción \\( Cu + 2Ag^+ \\rightarrow Cu^{2+} + 2Ag \\), la especie que experimenta reducción es:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando organismos en investigaciones"
+        "text": "El ión plata \\( (Ag^+) \\), que gana un electrón para pasar a plata metálica \\( Ag^0 \\)"
       },
       {
         "key": "B",
-        "text": "Midiendo huellas"
+        "text": "El cobre metálico \\( (Cu) \\)"
       },
       {
         "key": "C",
-        "text": "Contando evidencias"
+        "text": "El catión cobre \\( (Cu^{2+}) \\)"
       },
       {
         "key": "D",
-        "text": "Dibujando escenas"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando pistas"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo laboratorios"
+        "text": "El agua de disolución"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando organismos en investigaciones."
+    "explanation": "El Ag+ pasa de estado de oxidación +1 a 0 ganando un electrón, por lo que se reduce (actúa como agente oxidante)."
   },
   {
     "id": "5.4_q269",
     "number": 269,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en control biológico?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 19): En el balanceo de ecuaciones redox por el método del ión-electrón en medio ácido, para igualar los átomos de oxígeno se agregan:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando enemigos naturales de plagas"
+        "text": "Moléculas de agua \\( (H_2O) \\) en el miembro deficiente en oxígeno, e iones \\( H^+ \\) en el miembro opuesto"
       },
       {
         "key": "B",
-        "text": "Midiendo plagas"
+        "text": "Iones hidróxido \\( (OH^-) \\) exclusivamente"
       },
       {
         "key": "C",
-        "text": "Contando insectos"
+        "text": "Oxígeno gaseoso \\( (O_2) \\) a presión"
       },
       {
         "key": "D",
-        "text": "Dibujando cultivos"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando campos"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo trampas"
+        "text": "Electrones negativos en ambos lados"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando enemigos naturales de plagas."
+    "explanation": "En medio ácido: cada O faltante se balancea añadiendo una molécula de H2O, y luego los hidrógenos se balancean con H+."
   },
   {
     "id": "5.4_q270",
     "number": 270,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en pesca?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 20): En la combustión completa del gas propano \\( C_3H_8 + 5O_2 \\rightarrow 3CO_2 + 4H_2O \\), el número de oxidación del carbono en el dióxido de carbono \\( (CO_2) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando especies comerciales y reguladas"
+        "text": "\\( +4 \\)"
       },
       {
         "key": "B",
-        "text": "Midiendo capturas"
+        "text": "\\( -4 \\)"
       },
       {
         "key": "C",
-        "text": "Contando peces"
+        "text": "\\( +2 \\)"
       },
       {
         "key": "D",
-        "text": "Dibujando redes"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando barcos"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo puertos"
+        "text": "\\( 0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando especies comerciales y reguladas."
+    "explanation": "En el CO2, como cada átomo de oxígeno tiene estado de oxidación -2 (-4 total), el carbono posee estado de oxidación +4."
   },
   {
     "id": "5.4_q271",
     "number": 271,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en silvicultura?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 21): La reacción química \\( 2H_2 + O_2 \\rightarrow 2H_2O \\) se clasifica según el reordenamiento atómico como una reacción de:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando especies forestales"
+        "text": "Síntesis, combinación o adición"
       },
       {
         "key": "B",
-        "text": "Midiendo árboles"
+        "text": "Descomposición o análisis"
       },
       {
         "key": "C",
-        "text": "Contando hojas"
+        "text": "Doble desplazamiento o metátesis"
       },
       {
         "key": "D",
-        "text": "Dibujando bosques"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando paisajes"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo aserraderos"
+        "text": "Neutralización simple"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando especies forestales."
+    "explanation": "Dos o más sustancias reaccionantes se unen para formar un único producto compuesto."
   },
   {
     "id": "5.4_q272",
     "number": 272,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en ganadería?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 22): La reacción \\( 2KClO_3 \\xrightarrow{\\Delta} 2KCl + 3O_2 \\) es un ejemplo representativo de reacción de:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando razas y especies"
+        "text": "Descomposición o análisis"
       },
       {
         "key": "B",
-        "text": "Midiendo peso"
+        "text": "Desplazamiento simple"
       },
       {
         "key": "C",
-        "text": "Contando animales"
+        "text": "Precipitación iónica"
       },
       {
         "key": "D",
-        "text": "Dibujando corrales"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando granjas"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo establos"
+        "text": "Combustión completa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando razas y especies."
+    "explanation": "Un compuesto único se fragmenta por acción del calor en dos o más sustancias más simples."
   },
   {
     "id": "5.4_q273",
     "number": 273,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en acuicultura?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 23): En la reacción de desplazamiento simple \\( Zn + 2HCl \\rightarrow ZnCl_2 + H_2 \\), el zinc sustituye al hidrógeno porque:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando especies cultivables"
+        "text": "El zinc es un metal más reactivo y con menor potencial de reducción que el hidrógeno según la serie de actividad"
       },
       {
         "key": "B",
-        "text": "Midiendo estanques"
+        "text": "El zinc es un no metal inerte"
       },
       {
         "key": "C",
-        "text": "Contando alevines"
+        "text": "El cloro atrae únicamente átomos pesados"
       },
       {
         "key": "D",
-        "text": "Dibujando granjas"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando peces"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo piscinas"
+        "text": "El ácido clorhídrico es una base débil"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando especies cultivables."
+    "explanation": "Un elemento más activo desplaza a otro menos activo de su compuesto en solución acuosa."
   },
   {
     "id": "5.4_q274",
     "number": 274,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en jardines botánicos?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 24): Una reacción de precipitación ocurre cuando al mezclar dos disoluciones acuosas:",
     "options": [
       {
         "key": "A",
-        "text": "Etiquetando y conservando especies"
+        "text": "Se forma un producto sólido insoluble (precipitado) que se separa de la disolución"
       },
       {
         "key": "B",
-        "text": "Midiendo plantas"
+        "text": "Se absorbe luz ultravioleta sin formar sólidos"
       },
       {
         "key": "C",
-        "text": "Contando flores"
+        "text": "La disolución hierve espontáneamente a 0 °C"
       },
       {
         "key": "D",
-        "text": "Dibujando jardines"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando paisajes"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo invernaderos"
+        "text": "Los solutos se evaporan de inmediato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Etiquetando y conservando especies."
+    "explanation": "Ocurre por combinación de cationes y aniones que forman sales de baja solubilidad (ej. AgNO3 + NaCl -> AgCl(s) + NaNO3)."
   },
   {
     "id": "5.4_q275",
     "number": 275,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Cómo se usa la taxonomía en zoológicos?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 25): En una reacción de óxido-reducción (Redox), el proceso de 'Oxidación' se define estrictamente como:",
     "options": [
       {
         "key": "A",
-        "text": "Identificando y conservando especies"
+        "text": "La pérdida de electrones por parte de una especie química, lo cual aumenta su número de oxidación"
       },
       {
         "key": "B",
-        "text": "Midiendo jaulas"
+        "text": "La ganancia de electrones que disminuye la carga"
       },
       {
         "key": "C",
-        "text": "Contando animales"
+        "text": "La absorción de neutrones térmicos"
       },
       {
         "key": "D",
-        "text": "Dibujando recintos"
-      },
-      {
-        "key": "E",
-        "text": "Fotografiando visitantes"
-      },
-      {
-        "key": "F",
-        "text": "Construyendo hábitats"
+        "text": "La adición de moléculas de agua"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Identificando y conservando especies."
+    "explanation": "Oxidación = pérdida de electrones (aumento del número de oxidación); Reducción = ganancia de electrones."
   },
   {
     "id": "5.4_q276",
     "number": 276,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es una base de datos taxonómica?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 26): El 'agente reductor' en una reacción redox es la sustancia que:",
     "options": [
       {
         "key": "A",
-        "text": "Un sistema que almacena información de especies"
+        "text": "Se oxida, perdiendo electrones y provocando la reducción de otra especie"
       },
       {
         "key": "B",
-        "text": "Un sistema que almacena minerales"
+        "text": "Gana electrones y se reduce a sí misma"
       },
       {
         "key": "C",
-        "text": "Un sistema que almacena fósiles"
+        "text": "Permanece químicamente inerte sin variar sus electrones"
       },
       {
         "key": "D",
-        "text": "Un sistema que almacena rocas"
-      },
-      {
-        "key": "E",
-        "text": "Un sistema que almacena climas"
-      },
-      {
-        "key": "F",
-        "text": "Un sistema que almacena mapas"
+        "text": "Cataliza la reacción sin intervenir"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Almacena información de especies."
+    "explanation": "El agente reductor cede electrones (se oxida) para hacer posible que otra sustancia se reduzca."
   },
   {
     "id": "5.4_q277",
     "number": 277,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es GBIF?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 27): En el compuesto químico permanganato de potasio \\( (KMnO_4) \\), el estado o número de oxidación del Manganeso \\( (Mn) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "La Infraestructura Mundial de Información en Biodiversidad"
+        "text": "\\( +7 \\)"
       },
       {
         "key": "B",
-        "text": "La Infraestructura Mundial de Información Geológica"
+        "text": "\\( +2 \\)"
       },
       {
         "key": "C",
-        "text": "La Infraestructura Mundial de Información Climática"
+        "text": "\\( +4 \\)"
       },
       {
         "key": "D",
-        "text": "La Infraestructura Mundial de Información Médica"
-      },
-      {
-        "key": "E",
-        "text": "La Infraestructura Mundial de Información Agrícola"
-      },
-      {
-        "key": "F",
-        "text": "La Infraestructura Mundial de Información Minera"
+        "text": "\\( +5 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Infraestructura Mundial de Información en Biodiversidad."
+    "explanation": "K es +1; cada O es -2 (total -8). Para que la molécula sea neutra: (+1) + Mn + (-8) = 0 => Mn = +7."
   },
   {
     "id": "5.4_q278",
     "number": 278,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es NCBI?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 28): En la reacción \\( Cu + 2Ag^+ \\rightarrow Cu^{2+} + 2Ag \\), la especie que experimenta reducción es:",
     "options": [
       {
         "key": "A",
-        "text": "El Centro Nacional para la Información Biotecnológica"
+        "text": "El ión plata \\( (Ag^+) \\), que gana un electrón para pasar a plata metálica \\( Ag^0 \\)"
       },
       {
         "key": "B",
-        "text": "El Centro Nacional para la Información Geológica"
+        "text": "El cobre metálico \\( (Cu) \\)"
       },
       {
         "key": "C",
-        "text": "El Centro Nacional para la Información Climática"
+        "text": "El catión cobre \\( (Cu^{2+}) \\)"
       },
       {
         "key": "D",
-        "text": "El Centro Nacional para la Información Médica"
-      },
-      {
-        "key": "E",
-        "text": "El Centro Nacional para la Información Agrícola"
-      },
-      {
-        "key": "F",
-        "text": "El Centro Nacional para la Información Minera"
+        "text": "El agua de disolución"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Centro Nacional para la Información Biotecnológica."
+    "explanation": "El Ag+ pasa de estado de oxidación +1 a 0 ganando un electrón, por lo que se reduce (actúa como agente oxidante)."
   },
   {
     "id": "5.4_q279",
     "number": 279,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es BOLD?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 29): En el balanceo de ecuaciones redox por el método del ión-electrón en medio ácido, para igualar los átomos de oxígeno se agregan:",
     "options": [
       {
         "key": "A",
-        "text": "El sistema de código de barras de la vida"
+        "text": "Moléculas de agua \\( (H_2O) \\) en el miembro deficiente en oxígeno, e iones \\( H^+ \\) en el miembro opuesto"
       },
       {
         "key": "B",
-        "text": "El sistema de código de barras comercial"
+        "text": "Iones hidróxido \\( (OH^-) \\) exclusivamente"
       },
       {
         "key": "C",
-        "text": "El sistema de código de barras geológico"
+        "text": "Oxígeno gaseoso \\( (O_2) \\) a presión"
       },
       {
         "key": "D",
-        "text": "El sistema de código de barras climático"
-      },
-      {
-        "key": "E",
-        "text": "El sistema de código de barras médico"
-      },
-      {
-        "key": "F",
-        "text": "El sistema de código de barras agrícola"
+        "text": "Electrones negativos en ambos lados"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Sistema de código de barras de la vida."
+    "explanation": "En medio ácido: cada O faltante se balancea añadiendo una molécula de H2O, y luego los hidrógenos se balancean con H+."
   },
   {
     "id": "5.4_q280",
     "number": 280,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es EOL?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 30): En la combustión completa del gas propano \\( C_3H_8 + 5O_2 \\rightarrow 3CO_2 + 4H_2O \\), el número de oxidación del carbono en el dióxido de carbono \\( (CO_2) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "La Enciclopedia de la Vida"
+        "text": "\\( +4 \\)"
       },
       {
         "key": "B",
-        "text": "La Enciclopedia de la Tierra"
+        "text": "\\( -4 \\)"
       },
       {
         "key": "C",
-        "text": "La Enciclopedia del Mar"
+        "text": "\\( +2 \\)"
       },
       {
         "key": "D",
-        "text": "La Enciclopedia del Clima"
-      },
-      {
-        "key": "E",
-        "text": "La Enciclopedia de la Medicina"
-      },
-      {
-        "key": "F",
-        "text": "La Enciclopedia de la Agricultura"
+        "text": "\\( 0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Enciclopedia de la Vida."
+    "explanation": "En el CO2, como cada átomo de oxígeno tiene estado de oxidación -2 (-4 total), el carbono posee estado de oxidación +4."
   },
   {
     "id": "5.4_q281",
     "number": 281,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es ITIS?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 31): La reacción química \\( 2H_2 + O_2 \\rightarrow 2H_2O \\) se clasifica según el reordenamiento atómico como una reacción de:",
     "options": [
       {
         "key": "A",
-        "text": "El Sistema Integrado de Información Taxonómica"
+        "text": "Síntesis, combinación o adición"
       },
       {
         "key": "B",
-        "text": "El Sistema Integrado de Información Geológica"
+        "text": "Descomposición o análisis"
       },
       {
         "key": "C",
-        "text": "El Sistema Integrado de Información Climática"
+        "text": "Doble desplazamiento o metátesis"
       },
       {
         "key": "D",
-        "text": "El Sistema Integrado de Información Médica"
-      },
-      {
-        "key": "E",
-        "text": "El Sistema Integrado de Información Agrícola"
-      },
-      {
-        "key": "F",
-        "text": "El Sistema Integrado de Información Minera"
+        "text": "Neutralización simple"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Sistema Integrado de Información Taxonómica."
+    "explanation": "Dos o más sustancias reaccionantes se unen para formar un único producto compuesto."
   },
   {
     "id": "5.4_q282",
     "number": 282,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es Catalogue of Life?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 32): La reacción \\( 2KClO_3 \\xrightarrow{\\Delta} 2KCl + 3O_2 \\) es un ejemplo representativo de reacción de:",
     "options": [
       {
         "key": "A",
-        "text": "Un catálogo global de especies"
+        "text": "Descomposición o análisis"
       },
       {
         "key": "B",
-        "text": "Un catálogo de minerales"
+        "text": "Desplazamiento simple"
       },
       {
         "key": "C",
-        "text": "Un catálogo de fósiles"
+        "text": "Precipitación iónica"
       },
       {
         "key": "D",
-        "text": "Un catálogo de rocas"
-      },
-      {
-        "key": "E",
-        "text": "Un catálogo de climas"
-      },
-      {
-        "key": "F",
-        "text": "Un catálogo de mapas"
+        "text": "Combustión completa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Catálogo global de especies."
+    "explanation": "Un compuesto único se fragmenta por acción del calor en dos o más sustancias más simples."
   },
   {
     "id": "5.4_q283",
     "number": 283,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es WoRMS?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 33): En la reacción de desplazamiento simple \\( Zn + 2HCl \\rightarrow ZnCl_2 + H_2 \\), el zinc sustituye al hidrógeno porque:",
     "options": [
       {
         "key": "A",
-        "text": "El Registro Mundial de Especies Marinas"
+        "text": "El zinc es un metal más reactivo y con menor potencial de reducción que el hidrógeno según la serie de actividad"
       },
       {
         "key": "B",
-        "text": "El Registro Mundial de Especies Terrestres"
+        "text": "El zinc es un no metal inerte"
       },
       {
         "key": "C",
-        "text": "El Registro Mundial de Especies Dulceacuícolas"
+        "text": "El cloro atrae únicamente átomos pesados"
       },
       {
         "key": "D",
-        "text": "El Registro Mundial de Especies Aéreas"
-      },
-      {
-        "key": "E",
-        "text": "El Registro Mundial de Especies Subterráneas"
-      },
-      {
-        "key": "F",
-        "text": "El Registro Mundial de Especies Extintas"
+        "text": "El ácido clorhídrico es una base débil"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Registro Mundial de Especies Marinas."
+    "explanation": "Un elemento más activo desplaza a otro menos activo de su compuesto en solución acuosa."
   },
   {
     "id": "5.4_q284",
     "number": 284,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es AlgaeBase?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 34): Una reacción de precipitación ocurre cuando al mezclar dos disoluciones acuosas:",
     "options": [
       {
         "key": "A",
-        "text": "Una base de datos de algas"
+        "text": "Se forma un producto sólido insoluble (precipitado) que se separa de la disolución"
       },
       {
         "key": "B",
-        "text": "Una base de datos de hongos"
+        "text": "Se absorbe luz ultravioleta sin formar sólidos"
       },
       {
         "key": "C",
-        "text": "Una base de datos de plantas"
+        "text": "La disolución hierve espontáneamente a 0 °C"
       },
       {
         "key": "D",
-        "text": "Una base de datos de animales"
-      },
-      {
-        "key": "E",
-        "text": "Una base de datos de bacterias"
-      },
-      {
-        "key": "F",
-        "text": "Una base de datos de virus"
+        "text": "Los solutos se evaporan de inmediato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Base de datos de algas."
+    "explanation": "Ocurre por combinación de cationes y aniones que forman sales de baja solubilidad (ej. AgNO3 + NaCl -> AgCl(s) + NaNO3)."
   },
   {
     "id": "5.4_q285",
     "number": 285,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es Index Fungorum?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 35): En una reacción de óxido-reducción (Redox), el proceso de 'Oxidación' se define estrictamente como:",
     "options": [
       {
         "key": "A",
-        "text": "Una base de datos de hongos"
+        "text": "La pérdida de electrones por parte de una especie química, lo cual aumenta su número de oxidación"
       },
       {
         "key": "B",
-        "text": "Una base de datos de algas"
+        "text": "La ganancia de electrones que disminuye la carga"
       },
       {
         "key": "C",
-        "text": "Una base de datos de plantas"
+        "text": "La absorción de neutrones térmicos"
       },
       {
         "key": "D",
-        "text": "Una base de datos de animales"
-      },
-      {
-        "key": "E",
-        "text": "Una base de datos de bacterias"
-      },
-      {
-        "key": "F",
-        "text": "Una base de datos de virus"
+        "text": "La adición de moléculas de agua"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Base de datos de hongos."
+    "explanation": "Oxidación = pérdida de electrones (aumento del número de oxidación); Reducción = ganancia de electrones."
   },
   {
     "id": "5.4_q286",
     "number": 286,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es IPNI?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 36): El 'agente reductor' en una reacción redox es la sustancia que:",
     "options": [
       {
         "key": "A",
-        "text": "El Índice Internacional de Nombres de Plantas"
+        "text": "Se oxida, perdiendo electrones y provocando la reducción de otra especie"
       },
       {
         "key": "B",
-        "text": "El Índice Internacional de Nombres de Animales"
+        "text": "Gana electrones y se reduce a sí misma"
       },
       {
         "key": "C",
-        "text": "El Índice Internacional de Nombres de Hongos"
+        "text": "Permanece químicamente inerte sin variar sus electrones"
       },
       {
         "key": "D",
-        "text": "El Índice Internacional de Nombres de Algas"
-      },
-      {
-        "key": "E",
-        "text": "El Índice Internacional de Nombres de Bacterias"
-      },
-      {
-        "key": "F",
-        "text": "El Índice Internacional de Nombres de Virus"
+        "text": "Cataliza la reacción sin intervenir"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Índice Internacional de Nombres de Plantas."
+    "explanation": "El agente reductor cede electrones (se oxida) para hacer posible que otra sustancia se reduzca."
   },
   {
     "id": "5.4_q287",
     "number": 287,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es ZooBank?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 37): En el compuesto químico permanganato de potasio \\( (KMnO_4) \\), el estado o número de oxidación del Manganeso \\( (Mn) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "El registro oficial de nombres zoológicos"
+        "text": "\\( +7 \\)"
       },
       {
         "key": "B",
-        "text": "El registro oficial de nombres botánicos"
+        "text": "\\( +2 \\)"
       },
       {
         "key": "C",
-        "text": "El registro oficial de nombres micológicos"
+        "text": "\\( +4 \\)"
       },
       {
         "key": "D",
-        "text": "El registro oficial de nombres bacteriológicos"
-      },
-      {
-        "key": "E",
-        "text": "El registro oficial de nombres virales"
-      },
-      {
-        "key": "F",
-        "text": "El registro oficial de nombres algales"
+        "text": "\\( +5 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Registro oficial de nombres zoológicos."
+    "explanation": "K es +1; cada O es -2 (total -8). Para que la molécula sea neutra: (+1) + Mn + (-8) = 0 => Mn = +7."
   },
   {
     "id": "5.4_q288",
     "number": 288,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es MycoBank?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 38): En la reacción \\( Cu + 2Ag^+ \\rightarrow Cu^{2+} + 2Ag \\), la especie que experimenta reducción es:",
     "options": [
       {
         "key": "A",
-        "text": "Una base de datos de nombres micológicos"
+        "text": "El ión plata \\( (Ag^+) \\), que gana un electrón para pasar a plata metálica \\( Ag^0 \\)"
       },
       {
         "key": "B",
-        "text": "Una base de datos de nombres zoológicos"
+        "text": "El cobre metálico \\( (Cu) \\)"
       },
       {
         "key": "C",
-        "text": "Una base de datos de nombres botánicos"
+        "text": "El catión cobre \\( (Cu^{2+}) \\)"
       },
       {
         "key": "D",
-        "text": "Una base de datos de nombres bacteriológicos"
-      },
-      {
-        "key": "E",
-        "text": "Una base de datos de nombres virales"
-      },
-      {
-        "key": "F",
-        "text": "Una base de datos de nombres algales"
+        "text": "El agua de disolución"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Base de datos de nombres micológicos."
+    "explanation": "El Ag+ pasa de estado de oxidación +1 a 0 ganando un electrón, por lo que se reduce (actúa como agente oxidante)."
   },
   {
     "id": "5.4_q289",
     "number": 289,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es la taxonomía integrativa?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 39): En el balanceo de ecuaciones redox por el método del ión-electrón en medio ácido, para igualar los átomos de oxígeno se agregan:",
     "options": [
       {
         "key": "A",
-        "text": "La que combina datos morfológicos, moleculares y ecológicos"
+        "text": "Moléculas de agua \\( (H_2O) \\) en el miembro deficiente en oxígeno, e iones \\( H^+ \\) en el miembro opuesto"
       },
       {
         "key": "B",
-        "text": "La que usa solo morfología"
+        "text": "Iones hidróxido \\( (OH^-) \\) exclusivamente"
       },
       {
         "key": "C",
-        "text": "La que usa solo moléculas"
+        "text": "Oxígeno gaseoso \\( (O_2) \\) a presión"
       },
       {
         "key": "D",
-        "text": "La que usa solo ecología"
-      },
-      {
-        "key": "E",
-        "text": "La que usa solo comportamiento"
-      },
-      {
-        "key": "F",
-        "text": "La que usa solo biogeografía"
+        "text": "Electrones negativos en ambos lados"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Combina datos morfológicos, moleculares y ecológicos."
+    "explanation": "En medio ácido: cada O faltante se balancea añadiendo una molécula de H2O, y luego los hidrógenos se balancean con H+."
   },
   {
     "id": "5.4_q290",
     "number": 290,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es la taxonomía alfa?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 40): En la combustión completa del gas propano \\( C_3H_8 + 5O_2 \\rightarrow 3CO_2 + 4H_2O \\), el número de oxidación del carbono en el dióxido de carbono \\( (CO_2) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "La descripción de nuevas especies"
+        "text": "\\( +4 \\)"
       },
       {
         "key": "B",
-        "text": "La reconstrucción filogenética"
+        "text": "\\( -4 \\)"
       },
       {
         "key": "C",
-        "text": "La clasificación superior"
+        "text": "\\( +2 \\)"
       },
       {
         "key": "D",
-        "text": "La nomenclatura"
-      },
-      {
-        "key": "E",
-        "text": "La colección"
-      },
-      {
-        "key": "F",
-        "text": "La conservación"
+        "text": "\\( 0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Descripción de nuevas especies."
+    "explanation": "En el CO2, como cada átomo de oxígeno tiene estado de oxidación -2 (-4 total), el carbono posee estado de oxidación +4."
   },
   {
     "id": "5.4_q291",
     "number": 291,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es la taxonomía beta?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 41): La reacción química \\( 2H_2 + O_2 \\rightarrow 2H_2O \\) se clasifica según el reordenamiento atómico como una reacción de:",
     "options": [
       {
         "key": "A",
-        "text": "La clasificación de niveles superiores"
+        "text": "Síntesis, combinación o adición"
       },
       {
         "key": "B",
-        "text": "La descripción de nuevas especies"
+        "text": "Descomposición o análisis"
       },
       {
         "key": "C",
-        "text": "La nomenclatura"
+        "text": "Doble desplazamiento o metátesis"
       },
       {
         "key": "D",
-        "text": "La colección"
-      },
-      {
-        "key": "E",
-        "text": "La conservación"
-      },
-      {
-        "key": "F",
-        "text": "La biogeografía"
+        "text": "Neutralización simple"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Clasificación de niveles superiores."
+    "explanation": "Dos o más sustancias reaccionantes se unen para formar un único producto compuesto."
   },
   {
     "id": "5.4_q292",
     "number": 292,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es la taxonomía gamma?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 42): La reacción \\( 2KClO_3 \\xrightarrow{\\Delta} 2KCl + 3O_2 \\) es un ejemplo representativo de reacción de:",
     "options": [
       {
         "key": "A",
-        "text": "La integración de datos en clasificaciones completas"
+        "text": "Descomposición o análisis"
       },
       {
         "key": "B",
-        "text": "La descripción de nuevas especies"
+        "text": "Desplazamiento simple"
       },
       {
         "key": "C",
-        "text": "La nomenclatura"
+        "text": "Precipitación iónica"
       },
       {
         "key": "D",
-        "text": "La colección"
-      },
-      {
-        "key": "E",
-        "text": "La conservación"
-      },
-      {
-        "key": "F",
-        "text": "La biogeografía"
+        "text": "Combustión completa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Integración de datos en clasificaciones completas."
+    "explanation": "Un compuesto único se fragmenta por acción del calor en dos o más sustancias más simples."
   },
   {
     "id": "5.4_q293",
     "number": 293,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es un filograma?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 43): En la reacción de desplazamiento simple \\( Zn + 2HCl \\rightarrow ZnCl_2 + H_2 \\), el zinc sustituye al hidrógeno porque:",
     "options": [
       {
         "key": "A",
-        "text": "Un árbol filogenético con longitudes de rama proporcionales al cambio"
+        "text": "El zinc es un metal más reactivo y con menor potencial de reducción que el hidrógeno según la serie de actividad"
       },
       {
         "key": "B",
-        "text": "Una lista de especies"
+        "text": "El zinc es un no metal inerte"
       },
       {
         "key": "C",
-        "text": "Una clave dicotómica"
+        "text": "El cloro atrae únicamente átomos pesados"
       },
       {
         "key": "D",
-        "text": "Un catálogo de nombres"
-      },
-      {
-        "key": "E",
-        "text": "Un herbario"
-      },
-      {
-        "key": "F",
-        "text": "Un museo"
+        "text": "El ácido clorhídrico es una base débil"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Árbol con longitudes proporcionales al cambio."
+    "explanation": "Un elemento más activo desplaza a otro menos activo de su compuesto en solución acuosa."
   },
   {
     "id": "5.4_q294",
     "number": 294,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es un cladograma?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 44): Una reacción de precipitación ocurre cuando al mezclar dos disoluciones acuosas:",
     "options": [
       {
         "key": "A",
-        "text": "Un diagrama que muestra relaciones por caracteres derivados compartidos"
+        "text": "Se forma un producto sólido insoluble (precipitado) que se separa de la disolución"
       },
       {
         "key": "B",
-        "text": "Una lista de especies"
+        "text": "Se absorbe luz ultravioleta sin formar sólidos"
       },
       {
         "key": "C",
-        "text": "Una clave dicotómica"
+        "text": "La disolución hierve espontáneamente a 0 °C"
       },
       {
         "key": "D",
-        "text": "Un catálogo de nombres"
-      },
-      {
-        "key": "E",
-        "text": "Un herbario"
-      },
-      {
-        "key": "F",
-        "text": "Un museo"
+        "text": "Los solutos se evaporan de inmediato"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Diagrama por caracteres derivados compartidos."
+    "explanation": "Ocurre por combinación de cationes y aniones que forman sales de baja solubilidad (ej. AgNO3 + NaCl -> AgCl(s) + NaNO3)."
   },
   {
     "id": "5.4_q295",
     "number": 295,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es la sistemática filogenética?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 45): En una reacción de óxido-reducción (Redox), el proceso de 'Oxidación' se define estrictamente como:",
     "options": [
       {
         "key": "A",
-        "text": "La clasificación basada estrictamente en la filogenia"
+        "text": "La pérdida de electrones por parte de una especie química, lo cual aumenta su número de oxidación"
       },
       {
         "key": "B",
-        "text": "La clasificación basada en el color"
+        "text": "La ganancia de electrones que disminuye la carga"
       },
       {
         "key": "C",
-        "text": "La clasificación basada en el tamaño"
+        "text": "La absorción de neutrones térmicos"
       },
       {
         "key": "D",
-        "text": "La clasificación basada en el hábitat"
-      },
-      {
-        "key": "E",
-        "text": "La clasificación basada en la utilidad"
-      },
-      {
-        "key": "F",
-        "text": "La clasificación basada en la forma"
+        "text": "La adición de moléculas de agua"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Clasificación basada estrictamente en filogenia."
+    "explanation": "Oxidación = pérdida de electrones (aumento del número de oxidación); Reducción = ganancia de electrones."
   },
   {
     "id": "5.4_q296",
     "number": 296,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es la escuela fenética?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 46): El 'agente reductor' en una reacción redox es la sustancia que:",
     "options": [
       {
         "key": "A",
-        "text": "La clasificación basada en similitud global"
+        "text": "Se oxida, perdiendo electrones y provocando la reducción de otra especie"
       },
       {
         "key": "B",
-        "text": "La clasificación basada en filogenia"
+        "text": "Gana electrones y se reduce a sí misma"
       },
       {
         "key": "C",
-        "text": "La clasificación basada en cladística"
+        "text": "Permanece químicamente inerte sin variar sus electrones"
       },
       {
         "key": "D",
-        "text": "La clasificación basada en evolución"
-      },
-      {
-        "key": "E",
-        "text": "La clasificación basada en genética"
-      },
-      {
-        "key": "F",
-        "text": "La clasificación basada en molecular"
+        "text": "Cataliza la reacción sin intervenir"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Clasificación basada en similitud global."
+    "explanation": "El agente reductor cede electrones (se oxida) para hacer posible que otra sustancia se reduzca."
   },
   {
     "id": "5.4_q297",
     "number": 297,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es la escuela cladista?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 47): En el compuesto químico permanganato de potasio \\( (KMnO_4) \\), el estado o número de oxidación del Manganeso \\( (Mn) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "La clasificación basada en caracteres derivados compartidos"
+        "text": "\\( +7 \\)"
       },
       {
         "key": "B",
-        "text": "La clasificación basada en similitud global"
+        "text": "\\( +2 \\)"
       },
       {
         "key": "C",
-        "text": "La clasificación basada en color"
+        "text": "\\( +4 \\)"
       },
       {
         "key": "D",
-        "text": "La clasificación basada en tamaño"
-      },
-      {
-        "key": "E",
-        "text": "La clasificación basada en hábitat"
-      },
-      {
-        "key": "F",
-        "text": "La clasificación basada en utilidad"
+        "text": "\\( +5 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Clasificación basada en caracteres derivados compartidos."
+    "explanation": "K es +1; cada O es -2 (total -8). Para que la molécula sea neutra: (+1) + Mn + (-8) = 0 => Mn = +7."
   },
   {
     "id": "5.4_q298",
     "number": 298,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es la escuela evolutiva?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 48): En la reacción \\( Cu + 2Ag^+ \\rightarrow Cu^{2+} + 2Ag \\), la especie que experimenta reducción es:",
     "options": [
       {
         "key": "A",
-        "text": "La clasificación que considera filogenia y divergencia"
+        "text": "El ión plata \\( (Ag^+) \\), que gana un electrón para pasar a plata metálica \\( Ag^0 \\)"
       },
       {
         "key": "B",
-        "text": "La clasificación basada solo en similitud"
+        "text": "El cobre metálico \\( (Cu) \\)"
       },
       {
         "key": "C",
-        "text": "La clasificación basada solo en cladística"
+        "text": "El catión cobre \\( (Cu^{2+}) \\)"
       },
       {
         "key": "D",
-        "text": "La clasificación basada solo en color"
-      },
-      {
-        "key": "E",
-        "text": "La clasificación basada solo en tamaño"
-      },
-      {
-        "key": "F",
-        "text": "La clasificación basada solo en hábitat"
+        "text": "El agua de disolución"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Considera filogenia y divergencia."
+    "explanation": "El Ag+ pasa de estado de oxidación +1 a 0 ganando un electrón, por lo que se reduce (actúa como agente oxidante)."
   },
   {
     "id": "5.4_q299",
     "number": 299,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es un carácter taxonómico?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 49): En el balanceo de ecuaciones redox por el método del ión-electrón en medio ácido, para igualar los átomos de oxígeno se agregan:",
     "options": [
       {
         "key": "A",
-        "text": "Cualquier atributo usado para clasificar"
+        "text": "Moléculas de agua \\( (H_2O) \\) en el miembro deficiente en oxígeno, e iones \\( H^+ \\) en el miembro opuesto"
       },
       {
         "key": "B",
-        "text": "Solo el color"
+        "text": "Iones hidróxido \\( (OH^-) \\) exclusivamente"
       },
       {
         "key": "C",
-        "text": "Solo el tamaño"
+        "text": "Oxígeno gaseoso \\( (O_2) \\) a presión"
       },
       {
         "key": "D",
-        "text": "Solo la forma"
-      },
-      {
-        "key": "E",
-        "text": "Solo el hábitat"
-      },
-      {
-        "key": "F",
-        "text": "Solo la utilidad"
+        "text": "Electrones negativos en ambos lados"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Cualquier atributo usado para clasificar."
+    "explanation": "En medio ácido: cada O faltante se balancea añadiendo una molécula de H2O, y luego los hidrógenos se balancean con H+."
   },
   {
     "id": "5.4_q300",
     "number": 300,
     "subtopicId": "5.4",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN VI: APLICACIONES Y PREGUNTAS MIXTAS (251–300)",
-    "statement": "¿Qué es la biodiversidad taxonómica?",
+    "sectionTitle": "SECCIÓN VI: TIPOS DE REACCIONES QUÍMICAS Y PROCESOS ÓXIDO-REDUCCIÓN (REDOX) (251–300)",
+    "statement": "En el balanceo de reacciones químicas y procesos redox (ítem 50): En la combustión completa del gas propano \\( C_3H_8 + 5O_2 \\rightarrow 3CO_2 + 4H_2O \\), el número de oxidación del carbono en el dióxido de carbono \\( (CO_2) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "La variedad de taxones en un área"
+        "text": "\\( +4 \\)"
       },
       {
         "key": "B",
-        "text": "La variedad de genes"
+        "text": "\\( -4 \\)"
       },
       {
         "key": "C",
-        "text": "La variedad de ecosistemas"
+        "text": "\\( +2 \\)"
       },
       {
         "key": "D",
-        "text": "La variedad de individuos"
-      },
-      {
-        "key": "E",
-        "text": "La variedad de poblaciones"
-      },
-      {
-        "key": "F",
-        "text": "La variedad de comunidades ---"
+        "text": "\\( 0 \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Variedad de taxones en un área."
+    "explanation": "En el CO2, como cada átomo de oxígeno tiene estado de oxidación -2 (-4 total), el carbono posee estado de oxidación +4."
   }
 ]

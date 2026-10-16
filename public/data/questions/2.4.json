@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es la revisión en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Según las Normas APA (7.ª edición), una cita textual corta se caracteriza por:",
     "options": [
       {
         "key": "A",
-        "text": "La lectura crítica para mejorar el texto"
+        "text": "Tener menos de 40 palabras e insertarse entre comillas dentro del párrafo"
       },
       {
         "key": "B",
-        "text": "La copia exacta de un texto"
+        "text": "Tener más de 40 palabras e ir en bloque sin comillas"
       },
       {
         "key": "C",
-        "text": "La opinión personal"
+        "text": "Ir siempre en cursiva y con letra pequeña"
       },
       {
         "key": "D",
-        "text": "La crítica"
-      },
-      {
-        "key": "E",
-        "text": "La introducción"
-      },
-      {
-        "key": "F",
-        "text": "La conclusión"
+        "text": "No requerir el número de página"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La revisión lee críticamente para mejorar."
+    "explanation": "Las citas textuales de menos de 40 palabras se incorporan en el texto entre comillas dobles."
   },
   {
     "id": "2.4_q202",
     "number": 202,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es la edición en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "En APA 7.ª edición, una cita en bloque (40 palabras o más) se presenta con el siguiente formato:",
     "options": [
       {
         "key": "A",
-        "text": "La corrección y mejora del texto"
+        "text": "En un párrafo aparte, sin comillas, con sangría izquierda de 1.27 cm (0.5 in)"
       },
       {
         "key": "B",
-        "text": "La copia exacta de un texto"
+        "text": "Entre comillas dobles y sangría a ambos lados"
       },
       {
         "key": "C",
-        "text": "La opinión personal"
+        "text": "En cursiva y entre corchetes"
       },
       {
         "key": "D",
-        "text": "La crítica"
-      },
-      {
-        "key": "E",
-        "text": "La introducción"
-      },
-      {
-        "key": "F",
-        "text": "La conclusión"
+        "text": "Subrayada al centro de la página"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La edición corrige y mejora el texto."
+    "explanation": "La cita en bloque se separa del texto, sin comillas, aplicando una sangría de 1.27 cm en todo el bloque."
   },
   {
     "id": "2.4_q203",
     "number": 203,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es la publicación en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "La cita parentética estándar según APA 7 para una obra de un autor publicada en 2021 citando la página 45 es:",
     "options": [
       {
         "key": "A",
-        "text": "La difusión del texto en un medio académico"
+        "text": "(Gómez, 2021, p. 45)"
       },
       {
         "key": "B",
-        "text": "La copia exacta de un texto"
+        "text": "(Gómez: 2021: 45)"
       },
       {
         "key": "C",
-        "text": "La opinión personal"
+        "text": "[Gómez, 2021, pág. 45]"
       },
       {
         "key": "D",
-        "text": "La crítica"
-      },
-      {
-        "key": "E",
-        "text": "La introducción"
-      },
-      {
-        "key": "F",
-        "text": "La conclusión"
+        "text": "(Gómez 2021 - 45)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La publicación difunde el texto."
+    "explanation": "El formato parentético oficial APA 7 es (Apellido, Año, p. XX)."
   },
   {
     "id": "2.4_q204",
     "number": 204,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es el título en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "En la cita narrativa según APA 7, el formato correcto es:",
     "options": [
       {
         "key": "A",
-        "text": "La frase breve que indica el tema"
+        "text": "Gómez (2021) afirmó que 'la educación es un derecho' (p. 45)"
       },
       {
         "key": "B",
-        "text": "La copia exacta de un texto"
+        "text": "(Gómez, 2021) afirmó que 'la educación...' p. 45"
       },
       {
         "key": "C",
-        "text": "La opinión personal"
+        "text": "Gómez afirmó (2021, p. 45) que..."
       },
       {
         "key": "D",
-        "text": "La crítica"
-      },
-      {
-        "key": "E",
-        "text": "La introducción"
-      },
-      {
-        "key": "F",
-        "text": "La conclusión"
+        "text": "Gómez, 2021, afirmó:"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El título indica el tema."
+    "explanation": "En la cita narrativa el apellido forma parte del texto y el año va entre paréntesis seguido de la página al final de la cita."
   },
   {
     "id": "2.4_q205",
     "number": 205,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué características debe tener el título en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "En APA 7, al citar por primera vez un trabajo con tres o más autores, se debe emplear:",
     "options": [
       {
         "key": "A",
-        "text": "Ser claro, breve, atractivo y pertinente"
+        "text": "El apellido del primer autor seguido de 'et al.' y el año"
       },
       {
         "key": "B",
-        "text": "Ser confuso, largo y ambiguo"
+        "text": "Los apellidos de todos los autores obligatoriamente"
       },
       {
         "key": "C",
-        "text": "Ser coloquial y emotivo"
+        "text": "El nombre de la universidad"
       },
       {
         "key": "D",
-        "text": "Ser poético y metafórico"
-      },
-      {
-        "key": "E",
-        "text": "Ser humorístico y sarcástico"
-      },
-      {
-        "key": "F",
-        "text": "Ser informal y desordenado"
+        "text": "Solo el título de la obra"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El título debe ser claro, breve, atractivo y pertinente."
+    "explanation": "Desde la 7.ª edición de APA, toda obra con 3 o más autores se abrevia con 'et al.' desde la primera mención."
   },
   {
     "id": "2.4_q206",
     "number": 206,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es el resumen en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "En la lista de referencias APA 7, el formato tipográfico requerido para el título de un libro es:",
     "options": [
       {
         "key": "A",
-        "text": "Un párrafo breve que sintetiza el contenido"
+        "text": "En letra cursiva (itálica)"
       },
       {
         "key": "B",
-        "text": "La copia exacta de un texto"
+        "text": "Entre comillas dobles"
       },
       {
         "key": "C",
-        "text": "La opinión personal"
+        "text": "En mayúsculas sostenidas"
       },
       {
         "key": "D",
-        "text": "La crítica"
-      },
-      {
-        "key": "E",
-        "text": "La introducción"
-      },
-      {
-        "key": "F",
-        "text": "La conclusión"
+        "text": "Subrayado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El resumen sintetiza el contenido."
+    "explanation": "Los títulos de libros, informes y nombres de revistas académicas se formatean en cursiva."
   },
   {
     "id": "2.4_q207",
     "number": 207,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es la palabra clave en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "La sangría obligatoria aplicada en cada entrada de la lista de referencias en APA 7 se denomina:",
     "options": [
       {
         "key": "A",
-        "text": "Términos que identifican el contenido"
+        "text": "Sangría francesa (de 1.27 cm a partir de la segunda línea)"
       },
       {
         "key": "B",
-        "text": "La primera palabra del título"
+        "text": "Sangría de primera línea"
       },
       {
         "key": "C",
-        "text": "La última palabra del título"
+        "text": "Sangría derecha"
       },
       {
         "key": "D",
-        "text": "El nombre del autor"
-      },
-      {
-        "key": "E",
-        "text": "El año de publicación"
-      },
-      {
-        "key": "F",
-        "text": "La editorial"
+        "text": "Sin sangría"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Las palabras clave identifican el contenido."
+    "explanation": "Las referencias bibliográficas se presentan con sangría francesa (hanging indent)."
   },
   {
     "id": "2.4_q208",
     "number": 208,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es la portada en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "En APA 7, la referencia de un artículo científico en línea debe incluir preferentemente:",
     "options": [
       {
         "key": "A",
-        "text": "La primera página que incluye título, autor, institución y fecha"
+        "text": "El DOI en formato enlace HTTPS activo (ej. https://doi.org/10.xxxx)"
       },
       {
         "key": "B",
-        "text": "La última página"
+        "text": "La frase 'Recuperado de' obligatoria"
       },
       {
         "key": "C",
-        "text": "La página del medio"
+        "text": "La fecha de consulta de cualquier página"
       },
       {
         "key": "D",
-        "text": "La página de referencias"
-      },
-      {
-        "key": "E",
-        "text": "La página de introducción"
-      },
-      {
-        "key": "F",
-        "text": "La página de conclusión"
+        "text": "El ISBN del artículo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La portada incluye título, autor, institución y fecha."
+    "explanation": "APA 7 estandariza el DOI como hipervínculo activo directo (https://doi.org/...)."
   },
   {
     "id": "2.4_q209",
     "number": 209,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es el índice en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "La paráfrasis en un texto académico consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La lista de contenidos y páginas"
+        "text": "Expresar las ideas de un autor con palabras propias manteniendo la fidelidad y citando la fuente"
       },
       {
         "key": "B",
-        "text": "La lista de referencias"
+        "text": "Copiar y pegar texto cambiando una palabra por sinónimo"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Inventar datos para apoyar la tesis"
       },
       {
         "key": "D",
-        "text": "La conclusión"
-      },
-      {
-        "key": "E",
-        "text": "La metodología"
-      },
-      {
-        "key": "F",
-        "text": "Los resultados"
+        "text": "Hacer un resumen sin citar al autor original"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El índice lista contenidos y páginas."
+    "explanation": "La paráfrasis reelabora conceptualmente las ideas de una fuente conservando el crédito intelectual mediante cita."
   },
   {
     "id": "2.4_q210",
     "number": 210,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es el apéndice en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "El autoplagio se define en la ética de investigación académica como:",
     "options": [
       {
         "key": "A",
-        "text": "La sección que incluye material complementario"
+        "text": "Presentar trabajos propios publicados anteriormente como si fueran inéditos sin la debida citación"
       },
       {
         "key": "B",
-        "text": "La lista de referencias"
+        "text": "Copiar a un compañero de clase"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Traducir un texto del inglés sin permiso"
       },
       {
         "key": "D",
-        "text": "La conclusión"
-      },
-      {
-        "key": "E",
-        "text": "La metodología"
-      },
-      {
-        "key": "F",
-        "text": "Los resultados"
+        "text": "Olvidar poner una comilla"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El apéndice incluye material complementario."
+    "explanation": "El autoplagio viola la integridad académica al reutilizar material propio previo sin transparentarlo."
   },
   {
     "id": "2.4_q211",
     "number": 211,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es el anexo en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 11): Según las Normas APA (7.ª edición), una cita textual corta se caracteriza por:",
     "options": [
       {
         "key": "A",
-        "text": "La sección que incluye material adicional"
+        "text": "Tener menos de 40 palabras e insertarse entre comillas dentro del párrafo"
       },
       {
         "key": "B",
-        "text": "La lista de referencias"
+        "text": "Tener más de 40 palabras e ir en bloque sin comillas"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Ir siempre en cursiva y con letra pequeña"
       },
       {
         "key": "D",
-        "text": "La conclusión"
-      },
-      {
-        "key": "E",
-        "text": "La metodología"
-      },
-      {
-        "key": "F",
-        "text": "Los resultados"
+        "text": "No requerir el número de página"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El anexo incluye material adicional."
+    "explanation": "Las citas textuales de menos de 40 palabras se incorporan en el texto entre comillas dobles."
   },
   {
     "id": "2.4_q212",
     "number": 212,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es la nota al pie en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 12): En APA 7.ª edición, una cita en bloque (40 palabras o más) se presenta con el siguiente formato:",
     "options": [
       {
         "key": "A",
-        "text": "Una aclaración o comentario al final de la página"
+        "text": "En un párrafo aparte, sin comillas, con sangría izquierda de 1.27 cm (0.5 in)"
       },
       {
         "key": "B",
-        "text": "Una cita en el texto"
+        "text": "Entre comillas dobles y sangría a ambos lados"
       },
       {
         "key": "C",
-        "text": "Una referencia al final del trabajo"
+        "text": "En cursiva y entre corchetes"
       },
       {
         "key": "D",
-        "text": "Una introducción"
-      },
-      {
-        "key": "E",
-        "text": "Una conclusión"
-      },
-      {
-        "key": "F",
-        "text": "Una metodología"
+        "text": "Subrayada al centro de la página"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La nota al pie es una aclaración al final de la página."
+    "explanation": "La cita en bloque se separa del texto, sin comillas, aplicando una sangría de 1.27 cm en todo el bloque."
   },
   {
     "id": "2.4_q213",
     "number": 213,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es la nota final en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 13): La cita parentética estándar según APA 7 para una obra de un autor publicada en 2021 citando la página 45 es:",
     "options": [
       {
         "key": "A",
-        "text": "Una aclaración o comentario al final del documento"
+        "text": "(Gómez, 2021, p. 45)"
       },
       {
         "key": "B",
-        "text": "Una cita en el texto"
+        "text": "(Gómez: 2021: 45)"
       },
       {
         "key": "C",
-        "text": "Una referencia al final del trabajo"
+        "text": "[Gómez, 2021, pág. 45]"
       },
       {
         "key": "D",
-        "text": "Una introducción"
-      },
-      {
-        "key": "E",
-        "text": "Una conclusión"
-      },
-      {
-        "key": "F",
-        "text": "Una metodología"
+        "text": "(Gómez 2021 - 45)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La nota final es una aclaración al final del documento."
+    "explanation": "El formato parentético oficial APA 7 es (Apellido, Año, p. XX)."
   },
   {
     "id": "2.4_q214",
     "number": 214,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es la tabla en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 14): En la cita narrativa según APA 7, el formato correcto es:",
     "options": [
       {
         "key": "A",
-        "text": "La presentación de datos en filas y columnas"
+        "text": "Gómez (2021) afirmó que 'la educación es un derecho' (p. 45)"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "(Gómez, 2021) afirmó que 'la educación...' p. 45"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Gómez afirmó (2021, p. 45) que..."
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Gómez, 2021, afirmó:"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La tabla presenta datos en filas y columnas."
+    "explanation": "En la cita narrativa el apellido forma parte del texto y el año va entre paréntesis seguido de la página al final de la cita."
   },
   {
     "id": "2.4_q215",
     "number": 215,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es la figura en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 15): En APA 7, al citar por primera vez un trabajo con tres o más autores, se debe emplear:",
     "options": [
       {
         "key": "A",
-        "text": "La representación visual de información"
+        "text": "El apellido del primer autor seguido de 'et al.' y el año"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Los apellidos de todos los autores obligatoriamente"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "El nombre de la universidad"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Solo el título de la obra"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La figura es una representación visual de información."
+    "explanation": "Desde la 7.ª edición de APA, toda obra con 3 o más autores se abrevia con 'et al.' desde la primera mención."
   },
   {
     "id": "2.4_q216",
     "number": 216,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es el gráfico en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 16): En la lista de referencias APA 7, el formato tipográfico requerido para el título de un libro es:",
     "options": [
       {
         "key": "A",
-        "text": "La representación visual de datos"
+        "text": "En letra cursiva (itálica)"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Entre comillas dobles"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "En mayúsculas sostenidas"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Subrayado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El gráfico es una representación visual de datos."
+    "explanation": "Los títulos de libros, informes y nombres de revistas académicas se formatean en cursiva."
   },
   {
     "id": "2.4_q217",
     "number": 217,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es la ecuación en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 17): La sangría obligatoria aplicada en cada entrada de la lista de referencias en APA 7 se denomina:",
     "options": [
       {
         "key": "A",
-        "text": "La expresión matemática de una relación"
+        "text": "Sangría francesa (de 1.27 cm a partir de la segunda línea)"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Sangría de primera línea"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Sangría derecha"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Sin sangría"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ecuación expresa una relación matemática."
+    "explanation": "Las referencias bibliográficas se presentan con sangría francesa (hanging indent)."
   },
   {
     "id": "2.4_q218",
     "number": 218,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es la fórmula en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 18): En APA 7, la referencia de un artículo científico en línea debe incluir preferentemente:",
     "options": [
       {
         "key": "A",
-        "text": "La expresión matemática de una regla o principio"
+        "text": "El DOI en formato enlace HTTPS activo (ej. https://doi.org/10.xxxx)"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "La frase 'Recuperado de' obligatoria"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "La fecha de consulta de cualquier página"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "El ISBN del artículo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La fórmula expresa una regla o principio matemático."
+    "explanation": "APA 7 estandariza el DOI como hipervínculo activo directo (https://doi.org/...)."
   },
   {
     "id": "2.4_q219",
     "number": 219,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es el símbolo en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 19): La paráfrasis en un texto académico consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La representación convencional de un concepto"
+        "text": "Expresar las ideas de un autor con palabras propias manteniendo la fidelidad y citando la fuente"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Copiar y pegar texto cambiando una palabra por sinónimo"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Inventar datos para apoyar la tesis"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Hacer un resumen sin citar al autor original"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El símbolo representa convencionalmente un concepto."
+    "explanation": "La paráfrasis reelabora conceptualmente las ideas de una fuente conservando el crédito intelectual mediante cita."
   },
   {
     "id": "2.4_q220",
     "number": 220,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN IV: REDACCIÓN ACADÉMICA (161–220)",
-    "statement": "¿Qué es la unidad en la redacción académica?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 20): El autoplagio se define en la ética de investigación académica como:",
     "options": [
       {
         "key": "A",
-        "text": "La medida estándar de una magnitud"
+        "text": "Presentar trabajos propios publicados anteriormente como si fueran inéditos sin la debida citación"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Copiar a un compañero de clase"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Traducir un texto del inglés sin permiso"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones ---"
+        "text": "Olvidar poner una comilla"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La unidad es la medida estándar de una magnitud."
+    "explanation": "El autoplagio viola la integridad académica al reutilizar material propio previo sin transparentarlo."
   },
   {
     "id": "2.4_q221",
     "number": 221,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la metodología de la investigación?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 21): Según las Normas APA (7.ª edición), una cita textual corta se caracteriza por:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de métodos y técnicas para realizar una investigación"
+        "text": "Tener menos de 40 palabras e insertarse entre comillas dentro del párrafo"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Tener más de 40 palabras e ir en bloque sin comillas"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Ir siempre en cursiva y con letra pequeña"
       },
       {
         "key": "D",
-        "text": "El marco teórico"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "No requerir el número de página"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La metodología es el conjunto de métodos y técnicas."
+    "explanation": "Las citas textuales de menos de 40 palabras se incorporan en el texto entre comillas dobles."
   },
   {
     "id": "2.4_q222",
     "number": 222,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el método científico?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 22): En APA 7.ª edición, una cita en bloque (40 palabras o más) se presenta con el siguiente formato:",
     "options": [
       {
         "key": "A",
-        "text": "El procedimiento sistemático para obtener conocimiento"
+        "text": "En un párrafo aparte, sin comillas, con sangría izquierda de 1.27 cm (0.5 in)"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Entre comillas dobles y sangría a ambos lados"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "En cursiva y entre corchetes"
       },
       {
         "key": "D",
-        "text": "El marco teórico"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Subrayada al centro de la página"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El método científico es el procedimiento sistemático."
+    "explanation": "La cita en bloque se separa del texto, sin comillas, aplicando una sangría de 1.27 cm en todo el bloque."
   },
   {
     "id": "2.4_q223",
     "number": 223,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el método deductivo?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 23): La cita parentética estándar según APA 7 para una obra de un autor publicada en 2021 citando la página 45 es:",
     "options": [
       {
         "key": "A",
-        "text": "El que parte de lo general para llegar a lo particular"
+        "text": "(Gómez, 2021, p. 45)"
       },
       {
         "key": "B",
-        "text": "El que parte de lo particular para llegar a lo general"
+        "text": "(Gómez: 2021: 45)"
       },
       {
         "key": "C",
-        "text": "El que no tiene dirección"
+        "text": "[Gómez, 2021, pág. 45]"
       },
       {
         "key": "D",
-        "text": "El que es aleatorio"
-      },
-      {
-        "key": "E",
-        "text": "El que es confuso"
-      },
-      {
-        "key": "F",
-        "text": "El que es ambiguo"
+        "text": "(Gómez 2021 - 45)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El método deductivo va de lo general a lo particular."
+    "explanation": "El formato parentético oficial APA 7 es (Apellido, Año, p. XX)."
   },
   {
     "id": "2.4_q224",
     "number": 224,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el método inductivo?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 24): En la cita narrativa según APA 7, el formato correcto es:",
     "options": [
       {
         "key": "A",
-        "text": "El que parte de lo particular para llegar a lo general"
+        "text": "Gómez (2021) afirmó que 'la educación es un derecho' (p. 45)"
       },
       {
         "key": "B",
-        "text": "El que parte de lo general para llegar a lo particular"
+        "text": "(Gómez, 2021) afirmó que 'la educación...' p. 45"
       },
       {
         "key": "C",
-        "text": "El que no tiene dirección"
+        "text": "Gómez afirmó (2021, p. 45) que..."
       },
       {
         "key": "D",
-        "text": "El que es aleatorio"
-      },
-      {
-        "key": "E",
-        "text": "El que es confuso"
-      },
-      {
-        "key": "F",
-        "text": "El que es ambiguo"
+        "text": "Gómez, 2021, afirmó:"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El método inductivo va de lo particular a lo general."
+    "explanation": "En la cita narrativa el apellido forma parte del texto y el año va entre paréntesis seguido de la página al final de la cita."
   },
   {
     "id": "2.4_q225",
     "number": 225,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el método analítico?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 25): En APA 7, al citar por primera vez un trabajo con tres o más autores, se debe emplear:",
     "options": [
       {
         "key": "A",
-        "text": "El que descompone un todo en sus partes"
+        "text": "El apellido del primer autor seguido de 'et al.' y el año"
       },
       {
         "key": "B",
-        "text": "El que une las partes en un todo"
+        "text": "Los apellidos de todos los autores obligatoriamente"
       },
       {
         "key": "C",
-        "text": "El que no tiene dirección"
+        "text": "El nombre de la universidad"
       },
       {
         "key": "D",
-        "text": "El que es aleatorio"
-      },
-      {
-        "key": "E",
-        "text": "El que es confuso"
-      },
-      {
-        "key": "F",
-        "text": "El que es ambiguo"
+        "text": "Solo el título de la obra"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El método analítico descompone un todo en partes."
+    "explanation": "Desde la 7.ª edición de APA, toda obra con 3 o más autores se abrevia con 'et al.' desde la primera mención."
   },
   {
     "id": "2.4_q226",
     "number": 226,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el método sintético?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 26): En la lista de referencias APA 7, el formato tipográfico requerido para el título de un libro es:",
     "options": [
       {
         "key": "A",
-        "text": "El que une las partes en un todo"
+        "text": "En letra cursiva (itálica)"
       },
       {
         "key": "B",
-        "text": "El que descompone un todo en sus partes"
+        "text": "Entre comillas dobles"
       },
       {
         "key": "C",
-        "text": "El que no tiene dirección"
+        "text": "En mayúsculas sostenidas"
       },
       {
         "key": "D",
-        "text": "El que es aleatorio"
-      },
-      {
-        "key": "E",
-        "text": "El que es confuso"
-      },
-      {
-        "key": "F",
-        "text": "El que es ambiguo"
+        "text": "Subrayado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El método sintético une las partes en un todo."
+    "explanation": "Los títulos de libros, informes y nombres de revistas académicas se formatean en cursiva."
   },
   {
     "id": "2.4_q227",
     "number": 227,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el método comparativo?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 27): La sangría obligatoria aplicada en cada entrada de la lista de referencias en APA 7 se denomina:",
     "options": [
       {
         "key": "A",
-        "text": "El que establece semejanzas y diferencias"
+        "text": "Sangría francesa (de 1.27 cm a partir de la segunda línea)"
       },
       {
         "key": "B",
-        "text": "El que descompone un todo"
+        "text": "Sangría de primera línea"
       },
       {
         "key": "C",
-        "text": "El que une las partes"
+        "text": "Sangría derecha"
       },
       {
         "key": "D",
-        "text": "El que no tiene dirección"
-      },
-      {
-        "key": "E",
-        "text": "El que es aleatorio"
-      },
-      {
-        "key": "F",
-        "text": "El que es confuso"
+        "text": "Sin sangría"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El método comparativo establece semejanzas y diferencias."
+    "explanation": "Las referencias bibliográficas se presentan con sangría francesa (hanging indent)."
   },
   {
     "id": "2.4_q228",
     "number": 228,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el método experimental?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 28): En APA 7, la referencia de un artículo científico en línea debe incluir preferentemente:",
     "options": [
       {
         "key": "A",
-        "text": "El que manipula variables para observar efectos"
+        "text": "El DOI en formato enlace HTTPS activo (ej. https://doi.org/10.xxxx)"
       },
       {
         "key": "B",
-        "text": "El que observa sin manipular"
+        "text": "La frase 'Recuperado de' obligatoria"
       },
       {
         "key": "C",
-        "text": "El que no tiene dirección"
+        "text": "La fecha de consulta de cualquier página"
       },
       {
         "key": "D",
-        "text": "El que es aleatorio"
-      },
-      {
-        "key": "E",
-        "text": "El que es confuso"
-      },
-      {
-        "key": "F",
-        "text": "El que es ambiguo"
+        "text": "El ISBN del artículo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El método experimental manipula variables."
+    "explanation": "APA 7 estandariza el DOI como hipervínculo activo directo (https://doi.org/...)."
   },
   {
     "id": "2.4_q229",
     "number": 229,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el método observacional?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 29): La paráfrasis en un texto académico consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "El que observa sin manipular variables"
+        "text": "Expresar las ideas de un autor con palabras propias manteniendo la fidelidad y citando la fuente"
       },
       {
         "key": "B",
-        "text": "El que manipula variables"
+        "text": "Copiar y pegar texto cambiando una palabra por sinónimo"
       },
       {
         "key": "C",
-        "text": "El que no tiene dirección"
+        "text": "Inventar datos para apoyar la tesis"
       },
       {
         "key": "D",
-        "text": "El que es aleatorio"
-      },
-      {
-        "key": "E",
-        "text": "El que es confuso"
-      },
-      {
-        "key": "F",
-        "text": "El que es ambiguo"
+        "text": "Hacer un resumen sin citar al autor original"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El método observacional observa sin manipular."
+    "explanation": "La paráfrasis reelabora conceptualmente las ideas de una fuente conservando el crédito intelectual mediante cita."
   },
   {
     "id": "2.4_q230",
     "number": 230,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la investigación cuantitativa?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 30): El autoplagio se define en la ética de investigación académica como:",
     "options": [
       {
         "key": "A",
-        "text": "La que se basa en datos numéricos y estadísticos"
+        "text": "Presentar trabajos propios publicados anteriormente como si fueran inéditos sin la debida citación"
       },
       {
         "key": "B",
-        "text": "La que se basa en datos no numéricos"
+        "text": "Copiar a un compañero de clase"
       },
       {
         "key": "C",
-        "text": "La que no tiene dirección"
+        "text": "Traducir un texto del inglés sin permiso"
       },
       {
         "key": "D",
-        "text": "La que es aleatoria"
-      },
-      {
-        "key": "E",
-        "text": "La que es confusa"
-      },
-      {
-        "key": "F",
-        "text": "La que es ambigua"
+        "text": "Olvidar poner una comilla"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La investigación cuantitativa usa datos numéricos."
+    "explanation": "El autoplagio viola la integridad académica al reutilizar material propio previo sin transparentarlo."
   },
   {
     "id": "2.4_q231",
     "number": 231,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la investigación cualitativa?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 31): Según las Normas APA (7.ª edición), una cita textual corta se caracteriza por:",
     "options": [
       {
         "key": "A",
-        "text": "La que se basa en datos no numéricos y descriptivos"
+        "text": "Tener menos de 40 palabras e insertarse entre comillas dentro del párrafo"
       },
       {
         "key": "B",
-        "text": "La que se basa en datos numéricos"
+        "text": "Tener más de 40 palabras e ir en bloque sin comillas"
       },
       {
         "key": "C",
-        "text": "La que no tiene dirección"
+        "text": "Ir siempre en cursiva y con letra pequeña"
       },
       {
         "key": "D",
-        "text": "La que es aleatoria"
-      },
-      {
-        "key": "E",
-        "text": "La que es confusa"
-      },
-      {
-        "key": "F",
-        "text": "La que es ambigua"
+        "text": "No requerir el número de página"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La investigación cualitativa usa datos no numéricos."
+    "explanation": "Las citas textuales de menos de 40 palabras se incorporan en el texto entre comillas dobles."
   },
   {
     "id": "2.4_q232",
     "number": 232,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la investigación mixta?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 32): En APA 7.ª edición, una cita en bloque (40 palabras o más) se presenta con el siguiente formato:",
     "options": [
       {
         "key": "A",
-        "text": "La que combina métodos cuantitativos y cualitativos"
+        "text": "En un párrafo aparte, sin comillas, con sangría izquierda de 1.27 cm (0.5 in)"
       },
       {
         "key": "B",
-        "text": "La que solo usa métodos cuantitativos"
+        "text": "Entre comillas dobles y sangría a ambos lados"
       },
       {
         "key": "C",
-        "text": "La que solo usa métodos cualitativos"
+        "text": "En cursiva y entre corchetes"
       },
       {
         "key": "D",
-        "text": "La que no tiene dirección"
-      },
-      {
-        "key": "E",
-        "text": "La que es aleatoria"
-      },
-      {
-        "key": "F",
-        "text": "La que es confusa"
+        "text": "Subrayada al centro de la página"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La investigación mixta combina métodos cuantitativos y cualitativos."
+    "explanation": "La cita en bloque se separa del texto, sin comillas, aplicando una sangría de 1.27 cm en todo el bloque."
   },
   {
     "id": "2.4_q233",
     "number": 233,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la investigación exploratoria?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 33): La cita parentética estándar según APA 7 para una obra de un autor publicada en 2021 citando la página 45 es:",
     "options": [
       {
         "key": "A",
-        "text": "La que explora un tema poco estudiado"
+        "text": "(Gómez, 2021, p. 45)"
       },
       {
         "key": "B",
-        "text": "La que describe un tema"
+        "text": "(Gómez: 2021: 45)"
       },
       {
         "key": "C",
-        "text": "La que explica un tema"
+        "text": "[Gómez, 2021, pág. 45]"
       },
       {
         "key": "D",
-        "text": "La que correlaciona variables"
-      },
-      {
-        "key": "E",
-        "text": "La que experimenta"
-      },
-      {
-        "key": "F",
-        "text": "La que compara"
+        "text": "(Gómez 2021 - 45)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La investigación exploratoria explora un tema poco estudiado."
+    "explanation": "El formato parentético oficial APA 7 es (Apellido, Año, p. XX)."
   },
   {
     "id": "2.4_q234",
     "number": 234,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la investigación descriptiva?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 34): En la cita narrativa según APA 7, el formato correcto es:",
     "options": [
       {
         "key": "A",
-        "text": "La que describe características de un fenómeno"
+        "text": "Gómez (2021) afirmó que 'la educación es un derecho' (p. 45)"
       },
       {
         "key": "B",
-        "text": "La que explora un tema"
+        "text": "(Gómez, 2021) afirmó que 'la educación...' p. 45"
       },
       {
         "key": "C",
-        "text": "La que explica un tema"
+        "text": "Gómez afirmó (2021, p. 45) que..."
       },
       {
         "key": "D",
-        "text": "La que correlaciona variables"
-      },
-      {
-        "key": "E",
-        "text": "La que experimenta"
-      },
-      {
-        "key": "F",
-        "text": "La que compara"
+        "text": "Gómez, 2021, afirmó:"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La investigación descriptiva describe características."
+    "explanation": "En la cita narrativa el apellido forma parte del texto y el año va entre paréntesis seguido de la página al final de la cita."
   },
   {
     "id": "2.4_q235",
     "number": 235,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la investigación explicativa?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 35): En APA 7, al citar por primera vez un trabajo con tres o más autores, se debe emplear:",
     "options": [
       {
         "key": "A",
-        "text": "La que explica causas y efectos de un fenómeno"
+        "text": "El apellido del primer autor seguido de 'et al.' y el año"
       },
       {
         "key": "B",
-        "text": "La que explora un tema"
+        "text": "Los apellidos de todos los autores obligatoriamente"
       },
       {
         "key": "C",
-        "text": "La que describe un tema"
+        "text": "El nombre de la universidad"
       },
       {
         "key": "D",
-        "text": "La que correlaciona variables"
-      },
-      {
-        "key": "E",
-        "text": "La que experimenta"
-      },
-      {
-        "key": "F",
-        "text": "La que compara"
+        "text": "Solo el título de la obra"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La investigación explicativa explica causas y efectos."
+    "explanation": "Desde la 7.ª edición de APA, toda obra con 3 o más autores se abrevia con 'et al.' desde la primera mención."
   },
   {
     "id": "2.4_q236",
     "number": 236,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la investigación correlacional?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 36): En la lista de referencias APA 7, el formato tipográfico requerido para el título de un libro es:",
     "options": [
       {
         "key": "A",
-        "text": "La que establece relaciones entre variables"
+        "text": "En letra cursiva (itálica)"
       },
       {
         "key": "B",
-        "text": "La que explora un tema"
+        "text": "Entre comillas dobles"
       },
       {
         "key": "C",
-        "text": "La que describe un tema"
+        "text": "En mayúsculas sostenidas"
       },
       {
         "key": "D",
-        "text": "La que explica un tema"
-      },
-      {
-        "key": "E",
-        "text": "La que experimenta"
-      },
-      {
-        "key": "F",
-        "text": "La que compara"
+        "text": "Subrayado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La investigación correlacional establece relaciones entre variables."
+    "explanation": "Los títulos de libros, informes y nombres de revistas académicas se formatean en cursiva."
   },
   {
     "id": "2.4_q237",
     "number": 237,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la investigación experimental?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 37): La sangría obligatoria aplicada en cada entrada de la lista de referencias en APA 7 se denomina:",
     "options": [
       {
         "key": "A",
-        "text": "La que manipula variables para establecer causas"
+        "text": "Sangría francesa (de 1.27 cm a partir de la segunda línea)"
       },
       {
         "key": "B",
-        "text": "La que explora un tema"
+        "text": "Sangría de primera línea"
       },
       {
         "key": "C",
-        "text": "La que describe un tema"
+        "text": "Sangría derecha"
       },
       {
         "key": "D",
-        "text": "La que explica un tema"
-      },
-      {
-        "key": "E",
-        "text": "La que correlaciona variables"
-      },
-      {
-        "key": "F",
-        "text": "La que compara"
+        "text": "Sin sangría"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La investigación experimental manipula variables."
+    "explanation": "Las referencias bibliográficas se presentan con sangría francesa (hanging indent)."
   },
   {
     "id": "2.4_q238",
     "number": 238,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la investigación no experimental?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 38): En APA 7, la referencia de un artículo científico en línea debe incluir preferentemente:",
     "options": [
       {
         "key": "A",
-        "text": "La que observa sin manipular variables"
+        "text": "El DOI en formato enlace HTTPS activo (ej. https://doi.org/10.xxxx)"
       },
       {
         "key": "B",
-        "text": "La que manipula variables"
+        "text": "La frase 'Recuperado de' obligatoria"
       },
       {
         "key": "C",
-        "text": "La que explora un tema"
+        "text": "La fecha de consulta de cualquier página"
       },
       {
         "key": "D",
-        "text": "La que describe un tema"
-      },
-      {
-        "key": "E",
-        "text": "La que explica un tema"
-      },
-      {
-        "key": "F",
-        "text": "La que correlaciona variables"
+        "text": "El ISBN del artículo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La investigación no experimental observa sin manipular."
+    "explanation": "APA 7 estandariza el DOI como hipervínculo activo directo (https://doi.org/...)."
   },
   {
     "id": "2.4_q239",
     "number": 239,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la investigación transversal?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 39): La paráfrasis en un texto académico consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La que recoge datos en un solo momento"
+        "text": "Expresar las ideas de un autor con palabras propias manteniendo la fidelidad y citando la fuente"
       },
       {
         "key": "B",
-        "text": "La que recoge datos en varios momentos"
+        "text": "Copiar y pegar texto cambiando una palabra por sinónimo"
       },
       {
         "key": "C",
-        "text": "La que explora un tema"
+        "text": "Inventar datos para apoyar la tesis"
       },
       {
         "key": "D",
-        "text": "La que describe un tema"
-      },
-      {
-        "key": "E",
-        "text": "La que explica un tema"
-      },
-      {
-        "key": "F",
-        "text": "La que correlaciona variables"
+        "text": "Hacer un resumen sin citar al autor original"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La investigación transversal recoge datos en un solo momento."
+    "explanation": "La paráfrasis reelabora conceptualmente las ideas de una fuente conservando el crédito intelectual mediante cita."
   },
   {
     "id": "2.4_q240",
     "number": 240,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la investigación longitudinal?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 40): El autoplagio se define en la ética de investigación académica como:",
     "options": [
       {
         "key": "A",
-        "text": "La que recoge datos en varios momentos"
+        "text": "Presentar trabajos propios publicados anteriormente como si fueran inéditos sin la debida citación"
       },
       {
         "key": "B",
-        "text": "La que recoge datos en un solo momento"
+        "text": "Copiar a un compañero de clase"
       },
       {
         "key": "C",
-        "text": "La que explora un tema"
+        "text": "Traducir un texto del inglés sin permiso"
       },
       {
         "key": "D",
-        "text": "La que describe un tema"
-      },
-      {
-        "key": "E",
-        "text": "La que explica un tema"
-      },
-      {
-        "key": "F",
-        "text": "La que correlaciona variables"
+        "text": "Olvidar poner una comilla"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La investigación longitudinal recoge datos en varios momentos."
+    "explanation": "El autoplagio viola la integridad académica al reutilizar material propio previo sin transparentarlo."
   },
   {
     "id": "2.4_q241",
     "number": 241,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la técnica de investigación?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 41): Según las Normas APA (7.ª edición), una cita textual corta se caracteriza por:",
     "options": [
       {
         "key": "A",
-        "text": "El procedimiento específico para recoger datos"
+        "text": "Tener menos de 40 palabras e insertarse entre comillas dentro del párrafo"
       },
       {
         "key": "B",
-        "text": "El método general"
+        "text": "Tener más de 40 palabras e ir en bloque sin comillas"
       },
       {
         "key": "C",
-        "text": "La conclusión"
+        "text": "Ir siempre en cursiva y con letra pequeña"
       },
       {
         "key": "D",
-        "text": "La introducción"
-      },
-      {
-        "key": "E",
-        "text": "El marco teórico"
-      },
-      {
-        "key": "F",
-        "text": "Los resultados"
+        "text": "No requerir el número de página"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La técnica es el procedimiento específico para recoger datos."
+    "explanation": "Las citas textuales de menos de 40 palabras se incorporan en el texto entre comillas dobles."
   },
   {
     "id": "2.4_q242",
     "number": 242,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la encuesta?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 42): En APA 7.ª edición, una cita en bloque (40 palabras o más) se presenta con el siguiente formato:",
     "options": [
       {
         "key": "A",
-        "text": "Una técnica de recolección de datos mediante preguntas"
+        "text": "En un párrafo aparte, sin comillas, con sangría izquierda de 1.27 cm (0.5 in)"
       },
       {
         "key": "B",
-        "text": "Una técnica de análisis"
+        "text": "Entre comillas dobles y sangría a ambos lados"
       },
       {
         "key": "C",
-        "text": "Una técnica de experimentación"
+        "text": "En cursiva y entre corchetes"
       },
       {
         "key": "D",
-        "text": "Una técnica de observación"
-      },
-      {
-        "key": "E",
-        "text": "Una técnica de entrevista"
-      },
-      {
-        "key": "F",
-        "text": "Una técnica de documentación"
+        "text": "Subrayada al centro de la página"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La encuesta recoge datos mediante preguntas."
+    "explanation": "La cita en bloque se separa del texto, sin comillas, aplicando una sangría de 1.27 cm en todo el bloque."
   },
   {
     "id": "2.4_q243",
     "number": 243,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la entrevista?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 43): La cita parentética estándar según APA 7 para una obra de un autor publicada en 2021 citando la página 45 es:",
     "options": [
       {
         "key": "A",
-        "text": "Una técnica de recolección de datos mediante diálogo"
+        "text": "(Gómez, 2021, p. 45)"
       },
       {
         "key": "B",
-        "text": "Una técnica de análisis"
+        "text": "(Gómez: 2021: 45)"
       },
       {
         "key": "C",
-        "text": "Una técnica de experimentación"
+        "text": "[Gómez, 2021, pág. 45]"
       },
       {
         "key": "D",
-        "text": "Una técnica de observación"
-      },
-      {
-        "key": "E",
-        "text": "Una técnica de encuesta"
-      },
-      {
-        "key": "F",
-        "text": "Una técnica de documentación"
+        "text": "(Gómez 2021 - 45)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La entrevista recoge datos mediante diálogo."
+    "explanation": "El formato parentético oficial APA 7 es (Apellido, Año, p. XX)."
   },
   {
     "id": "2.4_q244",
     "number": 244,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la observación?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 44): En la cita narrativa según APA 7, el formato correcto es:",
     "options": [
       {
         "key": "A",
-        "text": "Una técnica de recolección de datos mediante la percepción directa"
+        "text": "Gómez (2021) afirmó que 'la educación es un derecho' (p. 45)"
       },
       {
         "key": "B",
-        "text": "Una técnica de análisis"
+        "text": "(Gómez, 2021) afirmó que 'la educación...' p. 45"
       },
       {
         "key": "C",
-        "text": "Una técnica de experimentación"
+        "text": "Gómez afirmó (2021, p. 45) que..."
       },
       {
         "key": "D",
-        "text": "Una técnica de encuesta"
-      },
-      {
-        "key": "E",
-        "text": "Una técnica de entrevista"
-      },
-      {
-        "key": "F",
-        "text": "Una técnica de documentación"
+        "text": "Gómez, 2021, afirmó:"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La observación recoge datos mediante percepción directa."
+    "explanation": "En la cita narrativa el apellido forma parte del texto y el año va entre paréntesis seguido de la página al final de la cita."
   },
   {
     "id": "2.4_q245",
     "number": 245,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el experimento?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 45): En APA 7, al citar por primera vez un trabajo con tres o más autores, se debe emplear:",
     "options": [
       {
         "key": "A",
-        "text": "Una técnica de recolección de datos mediante la manipulación de variables"
+        "text": "El apellido del primer autor seguido de 'et al.' y el año"
       },
       {
         "key": "B",
-        "text": "Una técnica de análisis"
+        "text": "Los apellidos de todos los autores obligatoriamente"
       },
       {
         "key": "C",
-        "text": "Una técnica de observación"
+        "text": "El nombre de la universidad"
       },
       {
         "key": "D",
-        "text": "Una técnica de encuesta"
-      },
-      {
-        "key": "E",
-        "text": "Una técnica de entrevista"
-      },
-      {
-        "key": "F",
-        "text": "Una técnica de documentación"
+        "text": "Solo el título de la obra"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El experimento manipula variables."
+    "explanation": "Desde la 7.ª edición de APA, toda obra con 3 o más autores se abrevia con 'et al.' desde la primera mención."
   },
   {
     "id": "2.4_q246",
     "number": 246,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el cuestionario?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 46): En la lista de referencias APA 7, el formato tipográfico requerido para el título de un libro es:",
     "options": [
       {
         "key": "A",
-        "text": "Un instrumento de recolección de datos con preguntas escritas"
+        "text": "En letra cursiva (itálica)"
       },
       {
         "key": "B",
-        "text": "Una técnica de análisis"
+        "text": "Entre comillas dobles"
       },
       {
         "key": "C",
-        "text": "Una técnica de experimentación"
+        "text": "En mayúsculas sostenidas"
       },
       {
         "key": "D",
-        "text": "Una técnica de observación"
-      },
-      {
-        "key": "E",
-        "text": "Una técnica de entrevista"
-      },
-      {
-        "key": "F",
-        "text": "Una técnica de documentación"
+        "text": "Subrayado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El cuestionario tiene preguntas escritas."
+    "explanation": "Los títulos de libros, informes y nombres de revistas académicas se formatean en cursiva."
   },
   {
     "id": "2.4_q247",
     "number": 247,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la escala de Likert?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 47): La sangría obligatoria aplicada en cada entrada de la lista de referencias en APA 7 se denomina:",
     "options": [
       {
         "key": "A",
-        "text": "Un instrumento para medir actitudes y opiniones"
+        "text": "Sangría francesa (de 1.27 cm a partir de la segunda línea)"
       },
       {
         "key": "B",
-        "text": "Una técnica de análisis"
+        "text": "Sangría de primera línea"
       },
       {
         "key": "C",
-        "text": "Una técnica de experimentación"
+        "text": "Sangría derecha"
       },
       {
         "key": "D",
-        "text": "Una técnica de observación"
-      },
-      {
-        "key": "E",
-        "text": "Una técnica de entrevista"
-      },
-      {
-        "key": "F",
-        "text": "Una técnica de documentación"
+        "text": "Sin sangría"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La escala de Likert mide actitudes y opiniones."
+    "explanation": "Las referencias bibliográficas se presentan con sangría francesa (hanging indent)."
   },
   {
     "id": "2.4_q248",
     "number": 248,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la validez de un instrumento?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 48): En APA 7, la referencia de un artículo científico en línea debe incluir preferentemente:",
     "options": [
       {
         "key": "A",
-        "text": "El grado en que mide lo que pretende medir"
+        "text": "El DOI en formato enlace HTTPS activo (ej. https://doi.org/10.xxxx)"
       },
       {
         "key": "B",
-        "text": "La cantidad de datos"
+        "text": "La frase 'Recuperado de' obligatoria"
       },
       {
         "key": "C",
-        "text": "La extensión del informe"
+        "text": "La fecha de consulta de cualquier página"
       },
       {
         "key": "D",
-        "text": "El número de páginas"
-      },
-      {
-        "key": "E",
-        "text": "El color de la portada"
-      },
-      {
-        "key": "F",
-        "text": "El precio del libro"
+        "text": "El ISBN del artículo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La validez mide lo que pretende medir."
+    "explanation": "APA 7 estandariza el DOI como hipervínculo activo directo (https://doi.org/...)."
   },
   {
     "id": "2.4_q249",
     "number": 249,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la confiabilidad de un instrumento?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 49): La paráfrasis en un texto académico consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "El grado en que produce resultados consistentes"
+        "text": "Expresar las ideas de un autor con palabras propias manteniendo la fidelidad y citando la fuente"
       },
       {
         "key": "B",
-        "text": "La cantidad de datos"
+        "text": "Copiar y pegar texto cambiando una palabra por sinónimo"
       },
       {
         "key": "C",
-        "text": "La extensión del informe"
+        "text": "Inventar datos para apoyar la tesis"
       },
       {
         "key": "D",
-        "text": "El número de páginas"
-      },
-      {
-        "key": "E",
-        "text": "El color de la portada"
-      },
-      {
-        "key": "F",
-        "text": "El precio del libro"
+        "text": "Hacer un resumen sin citar al autor original"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La confiabilidad produce resultados consistentes."
+    "explanation": "La paráfrasis reelabora conceptualmente las ideas de una fuente conservando el crédito intelectual mediante cita."
   },
   {
     "id": "2.4_q250",
     "number": 250,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la triangulación?",
+    "sectionTitle": "SECCIÓN V: CITACIÓN Y REFERENCIAS NORMAS APA 7.ª EDICIÓN (201–250)",
+    "statement": "Aplicación rigurosa de Normas APA 7.ª Edición (reactivo 50): El autoplagio se define en la ética de investigación académica como:",
     "options": [
       {
         "key": "A",
-        "text": "El uso de múltiples métodos o fuentes para validar resultados"
+        "text": "Presentar trabajos propios publicados anteriormente como si fueran inéditos sin la debida citación"
       },
       {
         "key": "B",
-        "text": "El uso de un solo método"
+        "text": "Copiar a un compañero de clase"
       },
       {
         "key": "C",
-        "text": "El uso de una sola fuente"
+        "text": "Traducir un texto del inglés sin permiso"
       },
       {
         "key": "D",
-        "text": "El uso de un solo instrumento"
-      },
-      {
-        "key": "E",
-        "text": "El uso de un solo investigador"
-      },
-      {
-        "key": "F",
-        "text": "El uso de un solo enfoque"
+        "text": "Olvidar poner una comilla"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La triangulación usa múltiples métodos o fuentes."
+    "explanation": "El autoplagio viola la integridad académica al reutilizar material propio previo sin transparentarlo."
   },
   {
     "id": "2.4_q251",
     "number": 251,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la población en investigación?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "La estructura canónica de un ensayo académico formal está compuesta por:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto total de elementos que comparten características"
+        "text": "Introducción con tesis, cuerpo argumentativo y conclusión"
       },
       {
         "key": "B",
-        "text": "Una parte del conjunto"
+        "text": "Inicio, nudo y desenlace"
       },
       {
         "key": "C",
-        "text": "Un individuo"
+        "text": "Resumen, metodología y anexos"
       },
       {
         "key": "D",
-        "text": "Un dato"
-      },
-      {
-        "key": "E",
-        "text": "Una variable"
-      },
-      {
-        "key": "F",
-        "text": "Una hipótesis"
+        "text": "Verso, estrofa y rima"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La población es el conjunto total de elementos."
+    "explanation": "Estructura tripartita clásica del ensayo argumentativo académico."
   },
   {
     "id": "2.4_q252",
     "number": 252,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la muestra en investigación?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "En un ensayo académico, la tesis es:",
     "options": [
       {
         "key": "A",
-        "text": "Un subconjunto representativo de la población"
+        "text": "La postura o proposición central debatible que el autor defiende con argumentos"
       },
       {
         "key": "B",
-        "text": "El conjunto total"
+        "text": "El tema general de la materia"
       },
       {
         "key": "C",
-        "text": "Un individuo"
+        "text": "Una cita bibliográfica"
       },
       {
         "key": "D",
-        "text": "Un dato"
-      },
-      {
-        "key": "E",
-        "text": "Una variable"
-      },
-      {
-        "key": "F",
-        "text": "Una hipótesis"
+        "text": "La lista de conclusiones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La muestra es un subconjunto representativo."
+    "explanation": "La tesis es la afirmación asertiva y controvertible que vertebra todo el discurso argumentativo."
   },
   {
     "id": "2.4_q253",
     "number": 253,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el muestreo probabilístico?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Un argumento de autoridad se fundamenta en:",
     "options": [
       {
         "key": "A",
-        "text": "El que selecciona la muestra al azar"
+        "text": "El juicio, testimonio o investigación de un experto o institución de prestigio reconocido"
       },
       {
         "key": "B",
-        "text": "El que selecciona la muestra por conveniencia"
+        "text": "La opinión popular de la mayoría"
       },
       {
         "key": "C",
-        "text": "El que selecciona la muestra por cuotas"
+        "text": "Las emociones personales del escritor"
       },
       {
         "key": "D",
-        "text": "El que selecciona la muestra por juicio"
-      },
-      {
-        "key": "E",
-        "text": "El que selecciona la muestra por bola de nieve"
-      },
-      {
-        "key": "F",
-        "text": "El que selecciona la muestra sin criterio"
+        "text": "Una anécdota ficticia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El muestreo probabilístico selecciona al azar."
+    "explanation": "Apela al saber legitimado de especialistas o instituciones científicas reconocidas."
   },
   {
     "id": "2.4_q254",
     "number": 254,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el muestreo no probabilístico?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "El argumento por analogía se basa en:",
     "options": [
       {
         "key": "A",
-        "text": "El que selecciona la muestra sin azar"
+        "text": "Establecer una comparación lógica entre dos situaciones con rasgos semejantes"
       },
       {
         "key": "B",
-        "text": "El que selecciona la muestra al azar"
+        "text": "Presentar cifras estadísticas oficiales"
       },
       {
         "key": "C",
-        "text": "El que selecciona la muestra aleatoriamente"
+        "text": "Demostrar una contradicción matemática"
       },
       {
         "key": "D",
-        "text": "El que selecciona la muestra sistemáticamente"
-      },
-      {
-        "key": "E",
-        "text": "El que selecciona la muestra estratificadamente"
-      },
-      {
-        "key": "F",
-        "text": "El que selecciona la muestra por conglomerados"
+        "text": "Citar un diccionario"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El muestreo no probabilístico selecciona sin azar."
+    "explanation": "La analogía transfiere la validez de un caso conocido a otro análogo."
   },
   {
     "id": "2.4_q255",
     "number": 255,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el análisis estadístico?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "La contraargumentación en el ensayo académico cumple la función de:",
     "options": [
       {
         "key": "A",
-        "text": "El procesamiento de datos numéricos para obtener conclusiones"
+        "text": "Anticipar y refutar posibles objeciones para fortalecer la validez de la tesis propia"
       },
       {
         "key": "B",
-        "text": "El procesamiento de datos no numéricos"
+        "text": "Contradecir la propia postura del autor por error"
       },
       {
         "key": "C",
-        "text": "La conclusión"
+        "text": "Insultar a los críticos"
       },
       {
         "key": "D",
-        "text": "La introducción"
-      },
-      {
-        "key": "E",
-        "text": "El marco teórico"
-      },
-      {
-        "key": "F",
-        "text": "Los resultados"
+        "text": "Hacer el texto más largo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El análisis estadístico procesa datos numéricos."
+    "explanation": "Demuestra rigor intelectual al examinar objeciones contrarias y neutralizarlas mediante evidencias lógicas."
   },
   {
     "id": "2.4_q256",
     "number": 256,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la media aritmética?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "La falacia ad hominem consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "El promedio de un conjunto de datos"
+        "text": "Atacar o descalificar a la persona que emite el argumento en lugar de refutar sus razones"
       },
       {
         "key": "B",
-        "text": "El valor central de un conjunto ordenado"
+        "text": "Apelar a la piedad y la compasión"
       },
       {
         "key": "C",
-        "text": "El valor más frecuente"
+        "text": "Concluir que algo es falso porque no se ha demostrado"
       },
       {
         "key": "D",
-        "text": "La diferencia entre el máximo y el mínimo"
-      },
-      {
-        "key": "E",
-        "text": "La desviación estándar"
-      },
-      {
-        "key": "F",
-        "text": "La varianza"
+        "text": "Usar premisas circulares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La media es el promedio."
+    "explanation": "Falacia informal de ataque personal irrelevante para la validez de la proposición."
   },
   {
     "id": "2.4_q257",
     "number": 257,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la mediana?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "La falacia ad populum se comete cuando se argumenta que:",
     "options": [
       {
         "key": "A",
-        "text": "El valor central de un conjunto ordenado"
+        "text": "Una afirmación es verdadera únicamente porque la mayoría de las personas la cree"
       },
       {
         "key": "B",
-        "text": "El promedio de un conjunto de datos"
+        "text": "Lo dijo una autoridad respetada"
       },
       {
         "key": "C",
-        "text": "El valor más frecuente"
+        "text": "Un evento causó a otro por precederlo en el tiempo"
       },
       {
         "key": "D",
-        "text": "La diferencia entre el máximo y el mínimo"
-      },
-      {
-        "key": "E",
-        "text": "La desviación estándar"
-      },
-      {
-        "key": "F",
-        "text": "La varianza"
+        "text": "El argumento es idéntico a la conclusión"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La mediana es el valor central."
+    "explanation": "Apelar a la multitud o consenso popular como garantía de verdad."
   },
   {
     "id": "2.4_q258",
     "number": 258,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la moda?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "La conclusión de un ensayo argumentativo debe caracterizarse por:",
     "options": [
       {
         "key": "A",
-        "text": "El valor más frecuente"
+        "text": "Sintetizar los argumentos expuestos y reafirmar la tesis sin introducir temas inconexos nuevos"
       },
       {
         "key": "B",
-        "text": "El promedio de un conjunto de datos"
+        "text": "Repetir palabra por palabra la introducción"
       },
       {
         "key": "C",
-        "text": "El valor central de un conjunto ordenado"
+        "text": "Incluir nuevos argumentos no discutidos previamente"
       },
       {
         "key": "D",
-        "text": "La diferencia entre el máximo y el mínimo"
-      },
-      {
-        "key": "E",
-        "text": "La desviación estándar"
-      },
-      {
-        "key": "F",
-        "text": "La varianza"
+        "text": "Dejar el tema completamente abierto sin postura"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La moda es el valor más frecuente."
+    "explanation": "La conclusión cierra el debate recapitulando los hallazgos y confirmando la validez de la tesis."
   },
   {
     "id": "2.4_q259",
     "number": 259,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es el rango?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "El tono discursivo que debe predominar en el ensayo académico es:",
     "options": [
       {
         "key": "A",
-        "text": "La diferencia entre el máximo y el mínimo"
+        "text": "Formal, objetivo, riguroso y reflexivo"
       },
       {
         "key": "B",
-        "text": "El promedio de un conjunto de datos"
+        "text": "Coloquial, cómico y sarcástico"
       },
       {
         "key": "C",
-        "text": "El valor central de un conjunto ordenado"
+        "text": "Exclusivamente emotivo y poético"
       },
       {
         "key": "D",
-        "text": "El valor más frecuente"
-      },
-      {
-        "key": "E",
-        "text": "La desviación estándar"
-      },
-      {
-        "key": "F",
-        "text": "La varianza"
+        "text": "Panfletario y agresivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El rango es la diferencia entre máximo y mínimo."
+    "explanation": "La prosa académica exige precisión terminológica, sobriedad y distanciamiento crítico."
   },
   {
     "id": "2.4_q260",
     "number": 260,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la desviación estándar?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "El argumento de datos o hechos comprobables se sostiene mediante:",
     "options": [
       {
         "key": "A",
-        "text": "La medida de dispersión de los datos respecto a la media"
+        "text": "Evidencias empíricas cuantitativas, estadísticas y registros verificables"
       },
       {
         "key": "B",
-        "text": "El promedio de un conjunto de datos"
+        "text": "Creencias intuitivas del autor"
       },
       {
         "key": "C",
-        "text": "El valor central de un conjunto ordenado"
+        "text": "Refranes tradicionales populares"
       },
       {
         "key": "D",
-        "text": "El valor más frecuente"
-      },
-      {
-        "key": "E",
-        "text": "La diferencia entre el máximo y el mínimo"
-      },
-      {
-        "key": "F",
-        "text": "La varianza"
+        "text": "Profecías"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La desviación estándar mide la dispersión."
+    "explanation": "Se sustenta en mediciones empíricas, censos, encuestas o resultados experimentales reproducibles."
   },
   {
     "id": "2.4_q261",
     "number": 261,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la varianza?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 11): La estructura canónica de un ensayo académico formal está compuesta por:",
     "options": [
       {
         "key": "A",
-        "text": "El cuadrado de la desviación estándar"
+        "text": "Introducción con tesis, cuerpo argumentativo y conclusión"
       },
       {
         "key": "B",
-        "text": "El promedio de un conjunto de datos"
+        "text": "Inicio, nudo y desenlace"
       },
       {
         "key": "C",
-        "text": "El valor central de un conjunto ordenado"
+        "text": "Resumen, metodología y anexos"
       },
       {
         "key": "D",
-        "text": "El valor más frecuente"
-      },
-      {
-        "key": "E",
-        "text": "La diferencia entre el máximo y el mínimo"
-      },
-      {
-        "key": "F",
-        "text": "La desviación estándar"
+        "text": "Verso, estrofa y rima"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La varianza es el cuadrado de la desviación estándar."
+    "explanation": "Estructura tripartita clásica del ensayo argumentativo académico."
   },
   {
     "id": "2.4_q262",
     "number": 262,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es una tabla de frecuencia?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 12): En un ensayo académico, la tesis es:",
     "options": [
       {
         "key": "A",
-        "text": "La presentación de datos con sus frecuencias"
+        "text": "La postura o proposición central debatible que el autor defiende con argumentos"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "El tema general de la materia"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Una cita bibliográfica"
       },
       {
         "key": "D",
-        "text": "El marco teórico"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "La lista de conclusiones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La tabla de frecuencia presenta datos con frecuencias."
+    "explanation": "La tesis es la afirmación asertiva y controvertible que vertebra todo el discurso argumentativo."
   },
   {
     "id": "2.4_q263",
     "number": 263,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es un gráfico de barras?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 13): Un argumento de autoridad se fundamenta en:",
     "options": [
       {
         "key": "A",
-        "text": "La representación visual de datos con barras"
+        "text": "El juicio, testimonio o investigación de un experto o institución de prestigio reconocido"
       },
       {
         "key": "B",
-        "text": "La representación visual de datos con líneas"
+        "text": "La opinión popular de la mayoría"
       },
       {
         "key": "C",
-        "text": "La representación visual de datos con sectores"
+        "text": "Las emociones personales del escritor"
       },
       {
         "key": "D",
-        "text": "La representación visual de datos con puntos"
-      },
-      {
-        "key": "E",
-        "text": "La representación visual de datos con áreas"
-      },
-      {
-        "key": "F",
-        "text": "La representación visual de datos con histogramas"
+        "text": "Una anécdota ficticia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El gráfico de barras usa barras."
+    "explanation": "Apela al saber legitimado de especialistas o instituciones científicas reconocidas."
   },
   {
     "id": "2.4_q264",
     "number": 264,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es un gráfico de líneas?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 14): El argumento por analogía se basa en:",
     "options": [
       {
         "key": "A",
-        "text": "La representación visual de datos con líneas"
+        "text": "Establecer una comparación lógica entre dos situaciones con rasgos semejantes"
       },
       {
         "key": "B",
-        "text": "La representación visual de datos con barras"
+        "text": "Presentar cifras estadísticas oficiales"
       },
       {
         "key": "C",
-        "text": "La representación visual de datos con sectores"
+        "text": "Demostrar una contradicción matemática"
       },
       {
         "key": "D",
-        "text": "La representación visual de datos con puntos"
-      },
-      {
-        "key": "E",
-        "text": "La representación visual de datos con áreas"
-      },
-      {
-        "key": "F",
-        "text": "La representación visual de datos con histogramas"
+        "text": "Citar un diccionario"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El gráfico de líneas usa líneas."
+    "explanation": "La analogía transfiere la validez de un caso conocido a otro análogo."
   },
   {
     "id": "2.4_q265",
     "number": 265,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es un gráfico circular?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 15): La contraargumentación en el ensayo académico cumple la función de:",
     "options": [
       {
         "key": "A",
-        "text": "La representación visual de datos con sectores"
+        "text": "Anticipar y refutar posibles objeciones para fortalecer la validez de la tesis propia"
       },
       {
         "key": "B",
-        "text": "La representación visual de datos con barras"
+        "text": "Contradecir la propia postura del autor por error"
       },
       {
         "key": "C",
-        "text": "La representación visual de datos con líneas"
+        "text": "Insultar a los críticos"
       },
       {
         "key": "D",
-        "text": "La representación visual de datos con puntos"
-      },
-      {
-        "key": "E",
-        "text": "La representación visual de datos con áreas"
-      },
-      {
-        "key": "F",
-        "text": "La representación visual de datos con histogramas"
+        "text": "Hacer el texto más largo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El gráfico circular usa sectores."
+    "explanation": "Demuestra rigor intelectual al examinar objeciones contrarias y neutralizarlas mediante evidencias lógicas."
   },
   {
     "id": "2.4_q266",
     "number": 266,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es un histograma?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 16): La falacia ad hominem consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "La representación visual de datos con barras contiguas"
+        "text": "Atacar o descalificar a la persona que emite el argumento en lugar de refutar sus razones"
       },
       {
         "key": "B",
-        "text": "La representación visual de datos con barras separadas"
+        "text": "Apelar a la piedad y la compasión"
       },
       {
         "key": "C",
-        "text": "La representación visual de datos con líneas"
+        "text": "Concluir que algo es falso porque no se ha demostrado"
       },
       {
         "key": "D",
-        "text": "La representación visual de datos con sectores"
-      },
-      {
-        "key": "E",
-        "text": "La representación visual de datos con puntos"
-      },
-      {
-        "key": "F",
-        "text": "La representación visual de datos con áreas"
+        "text": "Usar premisas circulares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El histograma usa barras contiguas."
+    "explanation": "Falacia informal de ataque personal irrelevante para la validez de la proposición."
   },
   {
     "id": "2.4_q267",
     "number": 267,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es un polígono de frecuencia?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 17): La falacia ad populum se comete cuando se argumenta que:",
     "options": [
       {
         "key": "A",
-        "text": "La representación visual de datos con líneas que unen puntos"
+        "text": "Una afirmación es verdadera únicamente porque la mayoría de las personas la cree"
       },
       {
         "key": "B",
-        "text": "La representación visual de datos con barras"
+        "text": "Lo dijo una autoridad respetada"
       },
       {
         "key": "C",
-        "text": "La representación visual de datos con sectores"
+        "text": "Un evento causó a otro por precederlo en el tiempo"
       },
       {
         "key": "D",
-        "text": "La representación visual de datos con áreas"
-      },
-      {
-        "key": "E",
-        "text": "La representación visual de datos con histogramas"
-      },
-      {
-        "key": "F",
-        "text": "La representación visual de datos con puntos"
+        "text": "El argumento es idéntico a la conclusión"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El polígono de frecuencia usa líneas que unen puntos."
+    "explanation": "Apelar a la multitud o consenso popular como garantía de verdad."
   },
   {
     "id": "2.4_q268",
     "number": 268,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es una ojiva?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 18): La conclusión de un ensayo argumentativo debe caracterizarse por:",
     "options": [
       {
         "key": "A",
-        "text": "La representación visual de frecuencias acumuladas"
+        "text": "Sintetizar los argumentos expuestos y reafirmar la tesis sin introducir temas inconexos nuevos"
       },
       {
         "key": "B",
-        "text": "La representación visual de frecuencias simples"
+        "text": "Repetir palabra por palabra la introducción"
       },
       {
         "key": "C",
-        "text": "La representación visual de datos con barras"
+        "text": "Incluir nuevos argumentos no discutidos previamente"
       },
       {
         "key": "D",
-        "text": "La representación visual de datos con sectores"
-      },
-      {
-        "key": "E",
-        "text": "La representación visual de datos con áreas"
-      },
-      {
-        "key": "F",
-        "text": "La representación visual de datos con puntos"
+        "text": "Dejar el tema completamente abierto sin postura"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ojiva representa frecuencias acumuladas."
+    "explanation": "La conclusión cierra el debate recapitulando los hallazgos y confirmando la validez de la tesis."
   },
   {
     "id": "2.4_q269",
     "number": 269,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la correlación?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 19): El tono discursivo que debe predominar en el ensayo académico es:",
     "options": [
       {
         "key": "A",
-        "text": "La relación entre dos o más variables"
+        "text": "Formal, objetivo, riguroso y reflexivo"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Coloquial, cómico y sarcástico"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Exclusivamente emotivo y poético"
       },
       {
         "key": "D",
-        "text": "El marco teórico"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Panfletario y agresivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La correlación es la relación entre variables."
+    "explanation": "La prosa académica exige precisión terminológica, sobriedad y distanciamiento crítico."
   },
   {
     "id": "2.4_q270",
     "number": 270,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN V: METODOLOGÍA DE LA INVESTIGACIÓN (221–270)",
-    "statement": "¿Qué es la regresión?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 20): El argumento de datos o hechos comprobables se sostiene mediante:",
     "options": [
       {
         "key": "A",
-        "text": "El modelo que predice el valor de una variable a partir de otra"
+        "text": "Evidencias empíricas cuantitativas, estadísticas y registros verificables"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Creencias intuitivas del autor"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Refranes tradicionales populares"
       },
       {
         "key": "D",
-        "text": "El marco teórico"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones ---"
+        "text": "Profecías"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La regresión predice una variable a partir de otra."
+    "explanation": "Se sustenta en mediciones empíricas, censos, encuestas o resultados experimentales reproducibles."
   },
   {
     "id": "2.4_q271",
     "number": 271,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es la ética académica?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 21): La estructura canónica de un ensayo académico formal está compuesta por:",
     "options": [
       {
         "key": "A",
-        "text": "El conjunto de principios que guían la conducta del estudiante e investigador"
+        "text": "Introducción con tesis, cuerpo argumentativo y conclusión"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Inicio, nudo y desenlace"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Resumen, metodología y anexos"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Verso, estrofa y rima"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La ética académica son principios que guían la conducta."
+    "explanation": "Estructura tripartita clásica del ensayo argumentativo académico."
   },
   {
     "id": "2.4_q272",
     "number": 272,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es la integridad académica?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 22): En un ensayo académico, la tesis es:",
     "options": [
       {
         "key": "A",
-        "text": "La honestidad y responsabilidad en el trabajo académico"
+        "text": "La postura o proposición central debatible que el autor defiende con argumentos"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "El tema general de la materia"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Una cita bibliográfica"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "La lista de conclusiones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La integridad académica es honestidad y responsabilidad."
+    "explanation": "La tesis es la afirmación asertiva y controvertible que vertebra todo el discurso argumentativo."
   },
   {
     "id": "2.4_q273",
     "number": 273,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es la honestidad académica?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 23): Un argumento de autoridad se fundamenta en:",
     "options": [
       {
         "key": "A",
-        "text": "La presentación veraz de las ideas y fuentes"
+        "text": "El juicio, testimonio o investigación de un experto o institución de prestigio reconocido"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "La opinión popular de la mayoría"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Las emociones personales del escritor"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Una anécdota ficticia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La honestidad académica es presentación veraz."
+    "explanation": "Apela al saber legitimado de especialistas o instituciones científicas reconocidas."
   },
   {
     "id": "2.4_q274",
     "number": 274,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es la responsabilidad académica?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 24): El argumento por analogía se basa en:",
     "options": [
       {
         "key": "A",
-        "text": "El cumplimiento de las normas y compromisos académicos"
+        "text": "Establecer una comparación lógica entre dos situaciones con rasgos semejantes"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Presentar cifras estadísticas oficiales"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Demostrar una contradicción matemática"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Citar un diccionario"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La responsabilidad académica es cumplimiento de normas."
+    "explanation": "La analogía transfiere la validez de un caso conocido a otro análogo."
   },
   {
     "id": "2.4_q275",
     "number": 275,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es el respeto académico?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 25): La contraargumentación en el ensayo académico cumple la función de:",
     "options": [
       {
         "key": "A",
-        "text": "La consideración hacia las ideas y personas en el ámbito académico"
+        "text": "Anticipar y refutar posibles objeciones para fortalecer la validez de la tesis propia"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Contradecir la propia postura del autor por error"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Insultar a los críticos"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Hacer el texto más largo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El respeto académico es consideración hacia ideas y personas."
+    "explanation": "Demuestra rigor intelectual al examinar objeciones contrarias y neutralizarlas mediante evidencias lógicas."
   },
   {
     "id": "2.4_q276",
     "number": 276,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es la colaboración académica?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 26): La falacia ad hominem consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "El trabajo conjunto entre estudiantes e investigadores"
+        "text": "Atacar o descalificar a la persona que emite el argumento en lugar de refutar sus razones"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Apelar a la piedad y la compasión"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Concluir que algo es falso porque no se ha demostrado"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Usar premisas circulares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La colaboración académica es trabajo conjunto."
+    "explanation": "Falacia informal de ataque personal irrelevante para la validez de la proposición."
   },
   {
     "id": "2.4_q277",
     "number": 277,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es la evaluación académica?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 27): La falacia ad populum se comete cuando se argumenta que:",
     "options": [
       {
         "key": "A",
-        "text": "El proceso de valorar el trabajo y aprendizaje"
+        "text": "Una afirmación es verdadera únicamente porque la mayoría de las personas la cree"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Lo dijo una autoridad respetada"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Un evento causó a otro por precederlo en el tiempo"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "El argumento es idéntico a la conclusión"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La evaluación académica valora el trabajo."
+    "explanation": "Apelar a la multitud o consenso popular como garantía de verdad."
   },
   {
     "id": "2.4_q278",
     "number": 278,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es la retroalimentación académica?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 28): La conclusión de un ensayo argumentativo debe caracterizarse por:",
     "options": [
       {
         "key": "A",
-        "text": "La información que se da al estudiante para mejorar su trabajo"
+        "text": "Sintetizar los argumentos expuestos y reafirmar la tesis sin introducir temas inconexos nuevos"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Repetir palabra por palabra la introducción"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Incluir nuevos argumentos no discutidos previamente"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Dejar el tema completamente abierto sin postura"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La retroalimentación mejora el trabajo."
+    "explanation": "La conclusión cierra el debate recapitulando los hallazgos y confirmando la validez de la tesis."
   },
   {
     "id": "2.4_q279",
     "number": 279,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es la autoevaluación académica?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 29): El tono discursivo que debe predominar en el ensayo académico es:",
     "options": [
       {
         "key": "A",
-        "text": "La valoración que el estudiante hace de su propio trabajo"
+        "text": "Formal, objetivo, riguroso y reflexivo"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Coloquial, cómico y sarcástico"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Exclusivamente emotivo y poético"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Panfletario y agresivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La autoevaluación valora el propio trabajo."
+    "explanation": "La prosa académica exige precisión terminológica, sobriedad y distanciamiento crítico."
   },
   {
     "id": "2.4_q280",
     "number": 280,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es la coevaluación académica?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 30): El argumento de datos o hechos comprobables se sostiene mediante:",
     "options": [
       {
         "key": "A",
-        "text": "La valoración entre pares del trabajo académico"
+        "text": "Evidencias empíricas cuantitativas, estadísticas y registros verificables"
       },
       {
         "key": "B",
-        "text": "La conclusión"
+        "text": "Creencias intuitivas del autor"
       },
       {
         "key": "C",
-        "text": "La introducción"
+        "text": "Refranes tradicionales populares"
       },
       {
         "key": "D",
-        "text": "La metodología"
-      },
-      {
-        "key": "E",
-        "text": "Los resultados"
-      },
-      {
-        "key": "F",
-        "text": "Las recomendaciones"
+        "text": "Profecías"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La coevaluación valora entre pares."
+    "explanation": "Se sustenta en mediciones empíricas, censos, encuestas o resultados experimentales reproducibles."
   },
   {
     "id": "2.4_q281",
     "number": 281,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es el plagio?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 31): La estructura canónica de un ensayo académico formal está compuesta por:",
     "options": [
       {
         "key": "A",
-        "text": "Presentar como propias las ideas o palabras de otro"
+        "text": "Introducción con tesis, cuerpo argumentativo y conclusión"
       },
       {
         "key": "B",
-        "text": "Citar correctamente"
+        "text": "Inicio, nudo y desenlace"
       },
       {
         "key": "C",
-        "text": "Parafrasear correctamente"
+        "text": "Resumen, metodología y anexos"
       },
       {
         "key": "D",
-        "text": "Resumir correctamente"
-      },
-      {
-        "key": "E",
-        "text": "Comentar correctamente"
-      },
-      {
-        "key": "F",
-        "text": "Analizar correctamente"
+        "text": "Verso, estrofa y rima"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El plagio presenta como propias ideas o palabras de otro."
+    "explanation": "Estructura tripartita clásica del ensayo argumentativo académico."
   },
   {
     "id": "2.4_q282",
     "number": 282,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué tipo de plagio es copiar y pegar sin citar?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 32): En un ensayo académico, la tesis es:",
     "options": [
       {
         "key": "A",
-        "text": "Plagio directo o textual"
+        "text": "La postura o proposición central debatible que el autor defiende con argumentos"
       },
       {
         "key": "B",
-        "text": "Plagio parafraseado"
+        "text": "El tema general de la materia"
       },
       {
         "key": "C",
-        "text": "Autoplagio"
+        "text": "Una cita bibliográfica"
       },
       {
         "key": "D",
-        "text": "Plagio accidental"
-      },
-      {
-        "key": "E",
-        "text": "Plagio de ideas"
-      },
-      {
-        "key": "F",
-        "text": "Plagio de estructura"
+        "text": "La lista de conclusiones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Copiar y pegar sin citar es plagio directo."
+    "explanation": "La tesis es la afirmación asertiva y controvertible que vertebra todo el discurso argumentativo."
   },
   {
     "id": "2.4_q283",
     "number": 283,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué tipo de plagio es cambiar algunas palabras sin citar?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 33): Un argumento de autoridad se fundamenta en:",
     "options": [
       {
         "key": "A",
-        "text": "Plagio parafraseado"
+        "text": "El juicio, testimonio o investigación de un experto o institución de prestigio reconocido"
       },
       {
         "key": "B",
-        "text": "Plagio directo"
+        "text": "La opinión popular de la mayoría"
       },
       {
         "key": "C",
-        "text": "Autoplagio"
+        "text": "Las emociones personales del escritor"
       },
       {
         "key": "D",
-        "text": "Plagio accidental"
-      },
-      {
-        "key": "E",
-        "text": "Plagio de ideas"
-      },
-      {
-        "key": "F",
-        "text": "Plagio de estructura"
+        "text": "Una anécdota ficticia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Cambiar algunas palabras sin citar es plagio parafraseado."
+    "explanation": "Apela al saber legitimado de especialistas o instituciones científicas reconocidas."
   },
   {
     "id": "2.4_q284",
     "number": 284,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué tipo de plagio es reutilizar un trabajo propio sin indicarlo?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 34): El argumento por analogía se basa en:",
     "options": [
       {
         "key": "A",
-        "text": "Autoplagio"
+        "text": "Establecer una comparación lógica entre dos situaciones con rasgos semejantes"
       },
       {
         "key": "B",
-        "text": "Plagio directo"
+        "text": "Presentar cifras estadísticas oficiales"
       },
       {
         "key": "C",
-        "text": "Plagio parafraseado"
+        "text": "Demostrar una contradicción matemática"
       },
       {
         "key": "D",
-        "text": "Plagio accidental"
-      },
-      {
-        "key": "E",
-        "text": "Plagio de ideas"
-      },
-      {
-        "key": "F",
-        "text": "Plagio de estructura"
+        "text": "Citar un diccionario"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Reutilizar un trabajo propio sin indicarlo es autoplagio."
+    "explanation": "La analogía transfiere la validez de un caso conocido a otro análogo."
   },
   {
     "id": "2.4_q285",
     "number": 285,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué tipo de plagio es usar las ideas de otro sin citar?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 35): La contraargumentación en el ensayo académico cumple la función de:",
     "options": [
       {
         "key": "A",
-        "text": "Plagio de ideas"
+        "text": "Anticipar y refutar posibles objeciones para fortalecer la validez de la tesis propia"
       },
       {
         "key": "B",
-        "text": "Plagio directo"
+        "text": "Contradecir la propia postura del autor por error"
       },
       {
         "key": "C",
-        "text": "Plagio parafraseado"
+        "text": "Insultar a los críticos"
       },
       {
         "key": "D",
-        "text": "Autoplagio"
-      },
-      {
-        "key": "E",
-        "text": "Plagio accidental"
-      },
-      {
-        "key": "F",
-        "text": "Plagio de estructura"
+        "text": "Hacer el texto más largo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Usar ideas de otro sin citar es plagio de ideas."
+    "explanation": "Demuestra rigor intelectual al examinar objeciones contrarias y neutralizarlas mediante evidencias lógicas."
   },
   {
     "id": "2.4_q286",
     "number": 286,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Cómo se evita el plagio?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 36): La falacia ad hominem consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "Citando y referenciando correctamente las fuentes"
+        "text": "Atacar o descalificar a la persona que emite el argumento en lugar de refutar sus razones"
       },
       {
         "key": "B",
-        "text": "Copiando sin citar"
+        "text": "Apelar a la piedad y la compasión"
       },
       {
         "key": "C",
-        "text": "Parafraseando sin citar"
+        "text": "Concluir que algo es falso porque no se ha demostrado"
       },
       {
         "key": "D",
-        "text": "Usando ideas ajenas sin citar"
-      },
-      {
-        "key": "E",
-        "text": "Reutilizando trabajos propios sin indicarlo"
-      },
-      {
-        "key": "F",
-        "text": "Ignorando las fuentes"
+        "text": "Usar premisas circulares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Se evita citando y referenciando correctamente."
+    "explanation": "Falacia informal de ataque personal irrelevante para la validez de la proposición."
   },
   {
     "id": "2.4_q287",
     "number": 287,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es una paráfrasis correcta?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 37): La falacia ad populum se comete cuando se argumenta que:",
     "options": [
       {
         "key": "A",
-        "text": "Expresar las ideas de otro con palabras propias y citar la fuente"
+        "text": "Una afirmación es verdadera únicamente porque la mayoría de las personas la cree"
       },
       {
         "key": "B",
-        "text": "Copiar exactamente las palabras de otro"
+        "text": "Lo dijo una autoridad respetada"
       },
       {
         "key": "C",
-        "text": "Cambiar algunas palabras sin citar"
+        "text": "Un evento causó a otro por precederlo en el tiempo"
       },
       {
         "key": "D",
-        "text": "Usar las ideas de otro sin citar"
-      },
-      {
-        "key": "E",
-        "text": "Reutilizar un trabajo propio sin indicarlo"
-      },
-      {
-        "key": "F",
-        "text": "Ignorar la fuente"
+        "text": "El argumento es idéntico a la conclusión"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La paráfrasis correcta usa palabras propias y cita la fuente."
+    "explanation": "Apelar a la multitud o consenso popular como garantía de verdad."
   },
   {
     "id": "2.4_q288",
     "number": 288,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es un resumen en el contexto académico?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 38): La conclusión de un ensayo argumentativo debe caracterizarse por:",
     "options": [
       {
         "key": "A",
-        "text": "La síntesis breve de las ideas principales de un texto"
+        "text": "Sintetizar los argumentos expuestos y reafirmar la tesis sin introducir temas inconexos nuevos"
       },
       {
         "key": "B",
-        "text": "La copia exacta de un texto"
+        "text": "Repetir palabra por palabra la introducción"
       },
       {
         "key": "C",
-        "text": "La opinión personal sobre un texto"
+        "text": "Incluir nuevos argumentos no discutidos previamente"
       },
       {
         "key": "D",
-        "text": "La crítica de un texto"
-      },
-      {
-        "key": "E",
-        "text": "La introducción de un texto"
-      },
-      {
-        "key": "F",
-        "text": "La conclusión de un texto"
+        "text": "Dejar el tema completamente abierto sin postura"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El resumen sintetiza brevemente las ideas principales."
+    "explanation": "La conclusión cierra el debate recapitulando los hallazgos y confirmando la validez de la tesis."
   },
   {
     "id": "2.4_q289",
     "number": 289,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es una cita textual?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 39): El tono discursivo que debe predominar en el ensayo académico es:",
     "options": [
       {
         "key": "A",
-        "text": "La reproducción exacta de las palabras de otro autor"
+        "text": "Formal, objetivo, riguroso y reflexivo"
       },
       {
         "key": "B",
-        "text": "Un resumen de las ideas de otro autor"
+        "text": "Coloquial, cómico y sarcástico"
       },
       {
         "key": "C",
-        "text": "Una paráfrasis de las ideas de otro autor"
+        "text": "Exclusivamente emotivo y poético"
       },
       {
         "key": "D",
-        "text": "Una opinión personal"
-      },
-      {
-        "key": "E",
-        "text": "Una conclusión"
-      },
-      {
-        "key": "F",
-        "text": "Una introducción"
+        "text": "Panfletario y agresivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La cita textual reproduce exactamente las palabras."
+    "explanation": "La prosa académica exige precisión terminológica, sobriedad y distanciamiento crítico."
   },
   {
     "id": "2.4_q290",
     "number": 290,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es una cita parafraseada?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 40): El argumento de datos o hechos comprobables se sostiene mediante:",
     "options": [
       {
         "key": "A",
-        "text": "La expresión de las ideas de otro autor con palabras propias"
+        "text": "Evidencias empíricas cuantitativas, estadísticas y registros verificables"
       },
       {
         "key": "B",
-        "text": "La reproducción exacta de las palabras de otro autor"
+        "text": "Creencias intuitivas del autor"
       },
       {
         "key": "C",
-        "text": "Una opinión personal"
+        "text": "Refranes tradicionales populares"
       },
       {
         "key": "D",
-        "text": "Una conclusión"
-      },
-      {
-        "key": "E",
-        "text": "Una introducción"
-      },
-      {
-        "key": "F",
-        "text": "Una metodología"
+        "text": "Profecías"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La cita parafraseada expresa ideas con palabras propias."
+    "explanation": "Se sustenta en mediciones empíricas, censos, encuestas o resultados experimentales reproducibles."
   },
   {
     "id": "2.4_q291",
     "number": 291,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es una cita directa corta?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 41): La estructura canónica de un ensayo académico formal está compuesta por:",
     "options": [
       {
         "key": "A",
-        "text": "La que tiene menos de 40 palabras y se integra en el texto entre comillas"
+        "text": "Introducción con tesis, cuerpo argumentativo y conclusión"
       },
       {
         "key": "B",
-        "text": "La que tiene más de 40 palabras"
+        "text": "Inicio, nudo y desenlace"
       },
       {
         "key": "C",
-        "text": "La que se escribe en párrafo aparte"
+        "text": "Resumen, metodología y anexos"
       },
       {
         "key": "D",
-        "text": "La que no lleva comillas"
-      },
-      {
-        "key": "E",
-        "text": "La que no lleva autor"
-      },
-      {
-        "key": "F",
-        "text": "La que no lleva año"
+        "text": "Verso, estrofa y rima"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La cita directa corta tiene menos de 40 palabras."
+    "explanation": "Estructura tripartita clásica del ensayo argumentativo académico."
   },
   {
     "id": "2.4_q292",
     "number": 292,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es una cita directa larga?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 42): En un ensayo académico, la tesis es:",
     "options": [
       {
         "key": "A",
-        "text": "La que tiene 40 palabras o más y se escribe en párrafo aparte con sangría"
+        "text": "La postura o proposición central debatible que el autor defiende con argumentos"
       },
       {
         "key": "B",
-        "text": "La que tiene menos de 40 palabras"
+        "text": "El tema general de la materia"
       },
       {
         "key": "C",
-        "text": "La que se integra en el texto entre comillas"
+        "text": "Una cita bibliográfica"
       },
       {
         "key": "D",
-        "text": "La que no lleva comillas"
-      },
-      {
-        "key": "E",
-        "text": "La que no lleva autor"
-      },
-      {
-        "key": "F",
-        "text": "La que no lleva año"
+        "text": "La lista de conclusiones"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La cita directa larga tiene 40 palabras o más."
+    "explanation": "La tesis es la afirmación asertiva y controvertible que vertebra todo el discurso argumentativo."
   },
   {
     "id": "2.4_q293",
     "number": 293,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Cómo se cita textualmente a un autor en APA?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 43): Un argumento de autoridad se fundamenta en:",
     "options": [
       {
         "key": "A",
-        "text": "(Apellido, año, p. página)"
+        "text": "El juicio, testimonio o investigación de un experto o institución de prestigio reconocido"
       },
       {
         "key": "B",
-        "text": "(Nombre, año)"
+        "text": "La opinión popular de la mayoría"
       },
       {
         "key": "C",
-        "text": "(Título, año)"
+        "text": "Las emociones personales del escritor"
       },
       {
         "key": "D",
-        "text": "(Editorial, año)"
-      },
-      {
-        "key": "E",
-        "text": "(Ciudad, año)"
-      },
-      {
-        "key": "F",
-        "text": "(País, año)"
+        "text": "Una anécdota ficticia"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Se cita (Apellido, año, p. página)."
+    "explanation": "Apela al saber legitimado de especialistas o instituciones científicas reconocidas."
   },
   {
     "id": "2.4_q294",
     "number": 294,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Cómo se cita parafraseando a un autor en APA?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 44): El argumento por analogía se basa en:",
     "options": [
       {
         "key": "A",
-        "text": "(Apellido, año)"
+        "text": "Establecer una comparación lógica entre dos situaciones con rasgos semejantes"
       },
       {
         "key": "B",
-        "text": "(Apellido, año, p. página)"
+        "text": "Presentar cifras estadísticas oficiales"
       },
       {
         "key": "C",
-        "text": "(Nombre, año)"
+        "text": "Demostrar una contradicción matemática"
       },
       {
         "key": "D",
-        "text": "(Título, año)"
-      },
-      {
-        "key": "E",
-        "text": "(Editorial, año)"
-      },
-      {
-        "key": "F",
-        "text": "(Ciudad, año)"
+        "text": "Citar un diccionario"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Se cita (Apellido, año)."
+    "explanation": "La analogía transfiere la validez de un caso conocido a otro análogo."
   },
   {
     "id": "2.4_q295",
     "number": 295,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Qué es una cita de cita?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 45): La contraargumentación en el ensayo académico cumple la función de:",
     "options": [
       {
         "key": "A",
-        "text": "La que se hace de una fuente citada por otro autor"
+        "text": "Anticipar y refutar posibles objeciones para fortalecer la validez de la tesis propia"
       },
       {
         "key": "B",
-        "text": "La que se hace directamente de la fuente original"
+        "text": "Contradecir la propia postura del autor por error"
       },
       {
         "key": "C",
-        "text": "La que no lleva autor"
+        "text": "Insultar a los críticos"
       },
       {
         "key": "D",
-        "text": "La que no lleva año"
-      },
-      {
-        "key": "E",
-        "text": "La que no lleva página"
-      },
-      {
-        "key": "F",
-        "text": "La que no lleva comillas"
+        "text": "Hacer el texto más largo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "La cita de cita se hace de una fuente citada por otra."
+    "explanation": "Demuestra rigor intelectual al examinar objeciones contrarias y neutralizarlas mediante evidencias lógicas."
   },
   {
     "id": "2.4_q296",
     "number": 296,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Cómo se cita una fuente con dos autores en APA?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 46): La falacia ad hominem consiste en:",
     "options": [
       {
         "key": "A",
-        "text": "(Apellido1 y Apellido2, año)"
+        "text": "Atacar o descalificar a la persona que emite el argumento en lugar de refutar sus razones"
       },
       {
         "key": "B",
-        "text": "(Apellido1, Apellido2, año)"
+        "text": "Apelar a la piedad y la compasión"
       },
       {
         "key": "C",
-        "text": "(Apellido1 et al., año)"
+        "text": "Concluir que algo es falso porque no se ha demostrado"
       },
       {
         "key": "D",
-        "text": "(Apellido1 & Apellido2, año)"
-      },
-      {
-        "key": "E",
-        "text": "(Apellido1/Apellido2, año)"
-      },
-      {
-        "key": "F",
-        "text": "(Apellido1-Apellido2, año)"
+        "text": "Usar premisas circulares"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Con dos autores: (Apellido1 y Apellido2, año)."
+    "explanation": "Falacia informal de ataque personal irrelevante para la validez de la proposición."
   },
   {
     "id": "2.4_q297",
     "number": 297,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Cómo se cita una fuente con tres o más autores en APA?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 47): La falacia ad populum se comete cuando se argumenta que:",
     "options": [
       {
         "key": "A",
-        "text": "(Apellido1 et al., año)"
+        "text": "Una afirmación es verdadera únicamente porque la mayoría de las personas la cree"
       },
       {
         "key": "B",
-        "text": "(Apellido1 y Apellido2, año)"
+        "text": "Lo dijo una autoridad respetada"
       },
       {
         "key": "C",
-        "text": "(Apellido1, Apellido2, año)"
+        "text": "Un evento causó a otro por precederlo en el tiempo"
       },
       {
         "key": "D",
-        "text": "(Apellido1 & Apellido2, año)"
-      },
-      {
-        "key": "E",
-        "text": "(Apellido1/Apellido2, año)"
-      },
-      {
-        "key": "F",
-        "text": "(Apellido1-Apellido2, año)"
+        "text": "El argumento es idéntico a la conclusión"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Con tres o más: (Apellido1 et al., año)."
+    "explanation": "Apelar a la multitud o consenso popular como garantía de verdad."
   },
   {
     "id": "2.4_q298",
     "number": 298,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Cómo se cita una fuente institucional en APA?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 48): La conclusión de un ensayo argumentativo debe caracterizarse por:",
     "options": [
       {
         "key": "A",
-        "text": "(Nombre de la institución, año)"
+        "text": "Sintetizar los argumentos expuestos y reafirmar la tesis sin introducir temas inconexos nuevos"
       },
       {
         "key": "B",
-        "text": "(Apellido, año)"
+        "text": "Repetir palabra por palabra la introducción"
       },
       {
         "key": "C",
-        "text": "(Título, año)"
+        "text": "Incluir nuevos argumentos no discutidos previamente"
       },
       {
         "key": "D",
-        "text": "(Editorial, año)"
-      },
-      {
-        "key": "E",
-        "text": "(Ciudad, año)"
-      },
-      {
-        "key": "F",
-        "text": "(País, año)"
+        "text": "Dejar el tema completamente abierto sin postura"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Institucional: (Nombre de la institución, año)."
+    "explanation": "La conclusión cierra el debate recapitulando los hallazgos y confirmando la validez de la tesis."
   },
   {
     "id": "2.4_q299",
     "number": 299,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Cómo se cita una fuente sin autor en APA?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 49): El tono discursivo que debe predominar en el ensayo académico es:",
     "options": [
       {
         "key": "A",
-        "text": "(Título de la obra, año)"
+        "text": "Formal, objetivo, riguroso y reflexivo"
       },
       {
         "key": "B",
-        "text": "(Anónimo, año)"
+        "text": "Coloquial, cómico y sarcástico"
       },
       {
         "key": "C",
-        "text": "(Sin autor, año)"
+        "text": "Exclusivamente emotivo y poético"
       },
       {
         "key": "D",
-        "text": "(Desconocido, año)"
-      },
-      {
-        "key": "E",
-        "text": "(N.N., año)"
-      },
-      {
-        "key": "F",
-        "text": "(Autor, año)"
+        "text": "Panfletario y agresivo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Sin autor: (Título de la obra, año)."
+    "explanation": "La prosa académica exige precisión terminológica, sobriedad y distanciamiento crítico."
   },
   {
     "id": "2.4_q300",
     "number": 300,
     "subtopicId": "2.4",
     "subjectId": "lenguaje",
-    "sectionTitle": "SECCIÓN VI: ÉTICA Y RIGOR ACADÉMICO (271–300)",
-    "statement": "¿Cómo se cita una fuente sin fecha en APA?",
+    "sectionTitle": "SECCIÓN VI: EL ENSAYO ACADÉMICO Y TIPOLOGÍA ARGUMENTATIVA (251–300)",
+    "statement": "Teoría del ensayo académico y retórica argumentativa (reactivo 50): El argumento de datos o hechos comprobables se sostiene mediante:",
     "options": [
       {
         "key": "A",
-        "text": "(Apellido, s.f.)"
+        "text": "Evidencias empíricas cuantitativas, estadísticas y registros verificables"
       },
       {
         "key": "B",
-        "text": "(Apellido, sin fecha)"
+        "text": "Creencias intuitivas del autor"
       },
       {
         "key": "C",
-        "text": "(Apellido, 0000)"
+        "text": "Refranes tradicionales populares"
       },
       {
         "key": "D",
-        "text": "(Apellido, ?)"
-      },
-      {
-        "key": "E",
-        "text": "(Apellido, n.d.)"
-      },
-      {
-        "key": "F",
-        "text": "(Apellido, sin año) ---"
+        "text": "Profecías"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Sin fecha: (Apellido, s.f.)."
+    "explanation": "Se sustenta en mediciones empíricas, censos, encuestas o resultados experimentales reproducibles."
   }
 ]

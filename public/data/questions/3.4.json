@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)",
-    "statement": "¿Quién es el autor de El águila y la serpiente?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En el 'Popol Vuh' (Libro Sagrado de los mayas k'iche'), la creación definitiva del ser humano verdadero se realiza con:",
     "options": [
       {
         "key": "A",
-        "text": "Martín Luis Guzmán"
+        "text": "Maíz blanco y maíz amarillo amasado por los Progenitores"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Lodo y tierra que se deshacía con el agua de lluvia"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Madera de tz'ite' y cañas que carecían de memoria y corazón"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Piedra volcánica pulida con obsidiana"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Martín Luis Guzmán."
+    "explanation": "Tras los fracasos del hombre de barro y de madera, el hombre de maíz es el único con entendimiento y gratitud hacia los Creadores."
   },
   {
     "id": "3.4_q202",
     "number": 202,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)",
-    "statement": "¿Quién es el autor de Ulises criollo?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "Los dioses creadores primordiales del universo maya k'iche' en el Popol Vuh son:",
     "options": [
       {
         "key": "A",
-        "text": "José Vasconcelos"
+        "text": "Tepeu y Gucumatz (junto al Corazón del Cielo)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Quetzalcóatl y Huitzilopochtli"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Viracocha e Inti"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Tupã y los espíritus de la selva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. José Vasconcelos."
+    "explanation": "Tepeu (el Soberano) y Gucumatz (la Serpiente Emplumada) idearon en la quietud de las aguas la creación del mundo."
   },
   {
     "id": "3.4_q203",
     "number": 203,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)",
-    "statement": "¿Quién es el autor de Huasipungo?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En la segunda parte del Popol Vuh, los gemelos divinos Hunahpú e Ixbalanqué descienden a Xibalbá para:",
     "options": [
       {
         "key": "A",
-        "text": "Jorge Icaza"
+        "text": "Vengar la muerte de sus padres y vencer a los Señores de la Muerte en el juego de pelota"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Buscar las semillas sagradas del frijol y el cacao"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Aprender los secretos de la metalurgia del oro y la plata"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Gobernar el inframundo maya durante la noche eterna"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Jorge Icaza."
+    "explanation": "Los gemelos superan las pruebas de las casas de tormento y derrotan con astucia a Hun-Camé y Vucub-Camé."
   },
   {
     "id": "3.4_q204",
     "number": 204,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)",
-    "statement": "¿Qué es Huasipungo?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "El drama incaico 'Ollantay' (de origen quechua) narra el conflicto trágico provocado por:",
     "options": [
       {
         "key": "A",
-        "text": "Una novela indigenista ecuatoriana"
+        "text": "El amor prohibido entre el general plebeyo Ollantay y la princesa imperial Cusi Coyllur"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La invasión de los conquistadores españoles al valle del Cuzco"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La rebelión de los sacerdotes del Sol contra el Inca Pachacútec"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La pérdida de los tesoros sagrados del templo de Coricancha"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Una novela indigenista ecuatoriana."
+    "explanation": "Ollantay se rebela contra el orden estamental inca que impedía a un guerrero sin sangre real casarse con la hija del Inca."
   },
   {
     "id": "3.4_q205",
     "number": 205,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)",
-    "statement": "¿Quién es el autor de El mundo es ancho y ajeno?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En la lírica náhuatl, Nezahualcóyotl (el 'Rey Poeta' de Texcoco) reflexiona recurrentemente sobre:",
     "options": [
       {
         "key": "A",
-        "text": "Ciro Alegría"
+        "text": "La fugacidad de la vida terrenal ('¿Acaso de verdad se vive en la tierra?'), la amistad y 'flor y canto'"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Las instrucciones bélicas para la captura de esclavos en la guerra florida"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Las técnicas agrícolas del cultivo en las chinampas del lago"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La adoración idólatra al dios de las tempestades marinas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Ciro Alegría."
+    "explanation": "Nezahualcóyotl concibe la poesía ('In xóchitl in cuícatl': flor y canto) como la única verdad imperecedera del ser humano."
   },
   {
     "id": "3.4_q206",
     "number": 206,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)",
-    "statement": "¿Qué es El mundo es ancho y ajeno?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En el Romanticismo hispanoamericano, el relato 'El matadero' de Esteban Echeverría utiliza el matadero de Buenos Aires como:",
     "options": [
       {
         "key": "A",
-        "text": "Una novela indigenista peruana"
+        "text": "Una alegoría política de la barbarie y tiranía de la dictadura de Juan Manuel de Rosas"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Un estudio zootécnico sobre la cría de ganado vacuno en las pampas"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Una historia de amor costumbrista entre carniceros y vendedoras"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una defensa de las tradiciones culinarias de la Argentina colonial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Una novela indigenista peruana."
+    "explanation": "Echeverría denuncia cómo la mazorca rosista aplasta la libertad, la civilización y la dignidad individual del joven unitario."
   },
   {
     "id": "3.4_q207",
     "number": 207,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)",
-    "statement": "¿Quién es el autor de Yawar Fiesta?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En 'Facundo: Civilización y barbarie' de Domingo Faustino Sarmiento, la tesis sociopolítica central postula que:",
     "options": [
       {
         "key": "A",
-        "text": "José María Arguedas"
+        "text": "El atraso de América se debe a la barbarie del desierto y los caudillos gauchos frente a la civilización urbana"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Los gauchos de las pampas deben gobernar las ciudades sudamericanas"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La civilización europea destruyó la felicidad originaria de los campos"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "El progreso solo se logra expulsando a las industrias y los ferrocarriles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. José María Arguedas."
+    "explanation": "Sarmiento analiza al caudillo Facundo Quiroga como la personificación salvaje que impide el triunfo de las leyes y la educación."
   },
   {
     "id": "3.4_q208",
     "number": 208,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)",
-    "statement": "¿Quién es el autor de Los ríos profundos?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En la novela cumbre del Romanticismo sentimental hispanoamericano, 'María' de Jorge Isaacs, el amor idílico se ve truncado por:",
     "options": [
       {
         "key": "A",
-        "text": "José María Arguedas"
+        "text": "La epilepsia mortal que padece María y la distancia física que la separa de Efraín en Londres"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La traición de Efraín con una dama de la nobleza británica"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La negativa violenta del padre de María por motivos de herencia"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una guerra civil que destruye la hacienda del Valle del Cauca"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. José María Arguedas."
+    "explanation": "Isaacs combina la melancolía amorosa con la exaltación elegíaca del paisaje colombiano del Valle del Cauca."
   },
   {
     "id": "3.4_q209",
     "number": 209,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)",
-    "statement": "¿Quién es el autor de Todas las sangres?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "El Romanticismo hispanoamericano se diferenció del europeo principalmente porque los escritores americanos:",
     "options": [
       {
         "key": "A",
-        "text": "José María Arguedas"
+        "text": "Asumieron un compromiso cívico y político urgente en la construcción de las nuevas repúblicas independientes"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Rechazaron toda emoción y escribieron únicamente tratados de física"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Imitaron a los escritores clásicos latinos sin alterar ningún tema"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Se negaron a describir los paisajes y naturalezas locales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. José María Arguedas."
+    "explanation": "Los románticos hispanoamericanos lucharon con la pluma y la espada contra las tiranías y el atraso institucional."
   },
   {
     "id": "3.4_q210",
     "number": 210,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN V: REALISMO CRÍTICO Y NOVELA DE LA TIERRA (171–210)",
-    "statement": "¿Qué es el indigenismo?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En 'Amalia' de José Mármol, se retrata novelescamente el clima de terror civil impuesto por:",
     "options": [
       {
         "key": "A",
-        "text": "Una corriente literaria que reivindica la cultura indígena"
+        "text": "La Mazorca, brazo represor y paramilitar de la dictadura de Rosas en Buenos Aires"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Las tropas realistas españolas durante las guerras de emancipación"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Las bandas de piratas ingleses que asediaban el Río de la Plata"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Las milicias campesinas sublevadas en la cordillera andina"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Una corriente literaria que reivindica la cultura indígena."
+    "explanation": "Mármol ofrece un testimonio apasionado del espionaje, la paranoia y la resistencia contra el régimen rosista."
   },
   {
     "id": "3.4_q211",
     "number": 211,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es el Boom latinoamericano?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 11): En el 'Popol Vuh' (Libro Sagrado de los mayas k'iche'), la creación definitiva del ser humano verdadero se realiza con:",
     "options": [
       {
         "key": "A",
-        "text": "Un fenómeno literario y editorial de los años 60 y 70"
+        "text": "Maíz blanco y maíz amarillo amasado por los Progenitores"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Lodo y tierra que se deshacía con el agua de lluvia"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Madera de tz'ite' y cañas que carecían de memoria y corazón"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Piedra volcánica pulida con obsidiana"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Un fenómeno literario y editorial de los años 60 y 70."
+    "explanation": "Tras los fracasos del hombre de barro y de madera, el hombre de maíz es el único con entendimiento y gratitud hacia los Creadores."
   },
   {
     "id": "3.4_q212",
     "number": 212,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quiénes son los principales representantes del Boom?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 12): Los dioses creadores primordiales del universo maya k'iche' en el Popol Vuh son:",
     "options": [
       {
         "key": "A",
-        "text": "García Márquez, Cortázar, Vargas Llosa y Fuentes"
+        "text": "Tepeu y Gucumatz (junto al Corazón del Cielo)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Quetzalcóatl y Huitzilopochtli"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Viracocha e Inti"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Tupã y los espíritus de la selva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. García Márquez, Cortázar, Vargas Llosa y Fuentes."
+    "explanation": "Tepeu (el Soberano) y Gucumatz (la Serpiente Emplumada) idearon en la quietud de las aguas la creación del mundo."
   },
   {
     "id": "3.4_q213",
     "number": 213,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es el realismo mágico?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 13): En la segunda parte del Popol Vuh, los gemelos divinos Hunahpú e Ixbalanqué descienden a Xibalbá para:",
     "options": [
       {
         "key": "A",
-        "text": "La mezcla de lo real y lo fantástico en la narración"
+        "text": "Vengar la muerte de sus padres y vencer a los Señores de la Muerte en el juego de pelota"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Buscar las semillas sagradas del frijol y el cacao"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Aprender los secretos de la metalurgia del oro y la plata"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Gobernar el inframundo maya durante la noche eterna"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La mezcla de lo real y lo fantástico en la narración."
+    "explanation": "Los gemelos superan las pruebas de las casas de tormento y derrotan con astucia a Hun-Camé y Vucub-Camé."
   },
   {
     "id": "3.4_q214",
     "number": 214,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el principal representante del realismo mágico?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 14): El drama incaico 'Ollantay' (de origen quechua) narra el conflicto trágico provocado por:",
     "options": [
       {
         "key": "A",
-        "text": "Gabriel García Márquez"
+        "text": "El amor prohibido entre el general plebeyo Ollantay y la princesa imperial Cusi Coyllur"
       },
       {
         "key": "B",
-        "text": "Julio Cortázar"
+        "text": "La invasión de los conquistadores españoles al valle del Cuzco"
       },
       {
         "key": "C",
-        "text": "Mario Vargas Llosa"
+        "text": "La rebelión de los sacerdotes del Sol contra el Inca Pachacútec"
       },
       {
         "key": "D",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "La pérdida de los tesoros sagrados del templo de Coricancha"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Gabriel García Márquez."
+    "explanation": "Ollantay se rebela contra el orden estamental inca que impedía a un guerrero sin sangre real casarse con la hija del Inca."
   },
   {
     "id": "3.4_q215",
     "number": 215,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Cien años de soledad?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 15): En la lírica náhuatl, Nezahualcóyotl (el 'Rey Poeta' de Texcoco) reflexiona recurrentemente sobre:",
     "options": [
       {
         "key": "A",
-        "text": "Gabriel García Márquez"
+        "text": "La fugacidad de la vida terrenal ('¿Acaso de verdad se vive en la tierra?'), la amistad y 'flor y canto'"
       },
       {
         "key": "B",
-        "text": "Julio Cortázar"
+        "text": "Las instrucciones bélicas para la captura de esclavos en la guerra florida"
       },
       {
         "key": "C",
-        "text": "Mario Vargas Llosa"
+        "text": "Las técnicas agrícolas del cultivo en las chinampas del lago"
       },
       {
         "key": "D",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "La adoración idólatra al dios de las tempestades marinas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Gabriel García Márquez."
+    "explanation": "Nezahualcóyotl concibe la poesía ('In xóchitl in cuícatl': flor y canto) como la única verdad imperecedera del ser humano."
   },
   {
     "id": "3.4_q216",
     "number": 216,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es Cien años de soledad?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 16): En el Romanticismo hispanoamericano, el relato 'El matadero' de Esteban Echeverría utiliza el matadero de Buenos Aires como:",
     "options": [
       {
         "key": "A",
-        "text": "Una novela que narra la historia de la familia Buendía en Macondo"
+        "text": "Una alegoría política de la barbarie y tiranía de la dictadura de Juan Manuel de Rosas"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Un estudio zootécnico sobre la cría de ganado vacuno en las pampas"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Una historia de amor costumbrista entre carniceros y vendedoras"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una defensa de las tradiciones culinarias de la Argentina colonial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Una novela que narra la historia de la familia Buendía en Macondo."
+    "explanation": "Echeverría denuncia cómo la mazorca rosista aplasta la libertad, la civilización y la dignidad individual del joven unitario."
   },
   {
     "id": "3.4_q217",
     "number": 217,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Rayuela?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 17): En 'Facundo: Civilización y barbarie' de Domingo Faustino Sarmiento, la tesis sociopolítica central postula que:",
     "options": [
       {
         "key": "A",
-        "text": "Julio Cortázar"
+        "text": "El atraso de América se debe a la barbarie del desierto y los caudillos gauchos frente a la civilización urbana"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Los gauchos de las pampas deben gobernar las ciudades sudamericanas"
       },
       {
         "key": "C",
-        "text": "Mario Vargas Llosa"
+        "text": "La civilización europea destruyó la felicidad originaria de los campos"
       },
       {
         "key": "D",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "El progreso solo se logra expulsando a las industrias y los ferrocarriles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Julio Cortázar."
+    "explanation": "Sarmiento analiza al caudillo Facundo Quiroga como la personificación salvaje que impide el triunfo de las leyes y la educación."
   },
   {
     "id": "3.4_q218",
     "number": 218,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es Rayuela?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 18): En la novela cumbre del Romanticismo sentimental hispanoamericano, 'María' de Jorge Isaacs, el amor idílico se ve truncado por:",
     "options": [
       {
         "key": "A",
-        "text": "Una novela experimental que propone múltiples lecturas"
+        "text": "La epilepsia mortal que padece María y la distancia física que la separa de Efraín en Londres"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La traición de Efraín con una dama de la nobleza británica"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La negativa violenta del padre de María por motivos de herencia"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una guerra civil que destruye la hacienda del Valle del Cauca"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Una novela experimental que propone múltiples lecturas."
+    "explanation": "Isaacs combina la melancolía amorosa con la exaltación elegíaca del paisaje colombiano del Valle del Cauca."
   },
   {
     "id": "3.4_q219",
     "number": 219,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de La ciudad y los perros?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 19): El Romanticismo hispanoamericano se diferenció del europeo principalmente porque los escritores americanos:",
     "options": [
       {
         "key": "A",
-        "text": "Mario Vargas Llosa"
+        "text": "Asumieron un compromiso cívico y político urgente en la construcción de las nuevas repúblicas independientes"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Rechazaron toda emoción y escribieron únicamente tratados de física"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Imitaron a los escritores clásicos latinos sin alterar ningún tema"
       },
       {
         "key": "D",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "Se negaron a describir los paisajes y naturalezas locales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Mario Vargas Llosa."
+    "explanation": "Los románticos hispanoamericanos lucharon con la pluma y la espada contra las tiranías y el atraso institucional."
   },
   {
     "id": "3.4_q220",
     "number": 220,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de La muerte de Artemio Cruz?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 20): En 'Amalia' de José Mármol, se retrata novelescamente el clima de terror civil impuesto por:",
     "options": [
       {
         "key": "A",
-        "text": "Carlos Fuentes"
+        "text": "La Mazorca, brazo represor y paramilitar de la dictadura de Rosas en Buenos Aires"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Las tropas realistas españolas durante las guerras de emancipación"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Las bandas de piratas ingleses que asediaban el Río de la Plata"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "Las milicias campesinas sublevadas en la cordillera andina"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Carlos Fuentes."
+    "explanation": "Mármol ofrece un testimonio apasionado del espionaje, la paranoia y la resistencia contra el régimen rosista."
   },
   {
     "id": "3.4_q221",
     "number": 221,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Pedro Páramo?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 21): En el 'Popol Vuh' (Libro Sagrado de los mayas k'iche'), la creación definitiva del ser humano verdadero se realiza con:",
     "options": [
       {
         "key": "A",
-        "text": "Juan Rulfo"
+        "text": "Maíz blanco y maíz amarillo amasado por los Progenitores"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Lodo y tierra que se deshacía con el agua de lluvia"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Madera de tz'ite' y cañas que carecían de memoria y corazón"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "Piedra volcánica pulida con obsidiana"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Juan Rulfo."
+    "explanation": "Tras los fracasos del hombre de barro y de madera, el hombre de maíz es el único con entendimiento y gratitud hacia los Creadores."
   },
   {
     "id": "3.4_q222",
     "number": 222,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es Pedro Páramo?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 22): Los dioses creadores primordiales del universo maya k'iche' en el Popol Vuh son:",
     "options": [
       {
         "key": "A",
-        "text": "Una novela que narra la historia de Comala y su cacique"
+        "text": "Tepeu y Gucumatz (junto al Corazón del Cielo)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Quetzalcóatl y Huitzilopochtli"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Viracocha e Inti"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Tupã y los espíritus de la selva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Una novela que narra la historia de Comala y su cacique."
+    "explanation": "Tepeu (el Soberano) y Gucumatz (la Serpiente Emplumada) idearon en la quietud de las aguas la creación del mundo."
   },
   {
     "id": "3.4_q223",
     "number": 223,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Ficciones?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 23): En la segunda parte del Popol Vuh, los gemelos divinos Hunahpú e Ixbalanqué descienden a Xibalbá para:",
     "options": [
       {
         "key": "A",
-        "text": "Jorge Luis Borges"
+        "text": "Vengar la muerte de sus padres y vencer a los Señores de la Muerte en el juego de pelota"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Buscar las semillas sagradas del frijol y el cacao"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Aprender los secretos de la metalurgia del oro y la plata"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Gobernar el inframundo maya durante la noche eterna"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Jorge Luis Borges."
+    "explanation": "Los gemelos superan las pruebas de las casas de tormento y derrotan con astucia a Hun-Camé y Vucub-Camé."
   },
   {
     "id": "3.4_q224",
     "number": 224,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de El túnel?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 24): El drama incaico 'Ollantay' (de origen quechua) narra el conflicto trágico provocado por:",
     "options": [
       {
         "key": "A",
-        "text": "Ernesto Sábato"
+        "text": "El amor prohibido entre el general plebeyo Ollantay y la princesa imperial Cusi Coyllur"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La invasión de los conquistadores españoles al valle del Cuzco"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La rebelión de los sacerdotes del Sol contra el Inca Pachacútec"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La pérdida de los tesoros sagrados del templo de Coricancha"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Ernesto Sábato."
+    "explanation": "Ollantay se rebela contra el orden estamental inca que impedía a un guerrero sin sangre real casarse con la hija del Inca."
   },
   {
     "id": "3.4_q225",
     "number": 225,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de La invención de Morel?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 25): En la lírica náhuatl, Nezahualcóyotl (el 'Rey Poeta' de Texcoco) reflexiona recurrentemente sobre:",
     "options": [
       {
         "key": "A",
-        "text": "Adolfo Bioy Casares"
+        "text": "La fugacidad de la vida terrenal ('¿Acaso de verdad se vive en la tierra?'), la amistad y 'flor y canto'"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Las instrucciones bélicas para la captura de esclavos en la guerra florida"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Las técnicas agrícolas del cultivo en las chinampas del lago"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La adoración idólatra al dios de las tempestades marinas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Adolfo Bioy Casares."
+    "explanation": "Nezahualcóyotl concibe la poesía ('In xóchitl in cuícatl': flor y canto) como la única verdad imperecedera del ser humano."
   },
   {
     "id": "3.4_q226",
     "number": 226,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de La tregua?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 26): En el Romanticismo hispanoamericano, el relato 'El matadero' de Esteban Echeverría utiliza el matadero de Buenos Aires como:",
     "options": [
       {
         "key": "A",
-        "text": "Mario Benedetti"
+        "text": "Una alegoría política de la barbarie y tiranía de la dictadura de Juan Manuel de Rosas"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Un estudio zootécnico sobre la cría de ganado vacuno en las pampas"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Una historia de amor costumbrista entre carniceros y vendedoras"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una defensa de las tradiciones culinarias de la Argentina colonial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Mario Benedetti."
+    "explanation": "Echeverría denuncia cómo la mazorca rosista aplasta la libertad, la civilización y la dignidad individual del joven unitario."
   },
   {
     "id": "3.4_q227",
     "number": 227,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de El astillero?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 27): En 'Facundo: Civilización y barbarie' de Domingo Faustino Sarmiento, la tesis sociopolítica central postula que:",
     "options": [
       {
         "key": "A",
-        "text": "Juan Carlos Onetti"
+        "text": "El atraso de América se debe a la barbarie del desierto y los caudillos gauchos frente a la civilización urbana"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Los gauchos de las pampas deben gobernar las ciudades sudamericanas"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La civilización europea destruyó la felicidad originaria de los campos"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "El progreso solo se logra expulsando a las industrias y los ferrocarriles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Juan Carlos Onetti."
+    "explanation": "Sarmiento analiza al caudillo Facundo Quiroga como la personificación salvaje que impide el triunfo de las leyes y la educación."
   },
   {
     "id": "3.4_q228",
     "number": 228,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Paradiso?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 28): En la novela cumbre del Romanticismo sentimental hispanoamericano, 'María' de Jorge Isaacs, el amor idílico se ve truncado por:",
     "options": [
       {
         "key": "A",
-        "text": "José Lezama Lima"
+        "text": "La epilepsia mortal que padece María y la distancia física que la separa de Efraín en Londres"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La traición de Efraín con una dama de la nobleza británica"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La negativa violenta del padre de María por motivos de herencia"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una guerra civil que destruye la hacienda del Valle del Cauca"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. José Lezama Lima."
+    "explanation": "Isaacs combina la melancolía amorosa con la exaltación elegíaca del paisaje colombiano del Valle del Cauca."
   },
   {
     "id": "3.4_q229",
     "number": 229,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Tres tristes tigres?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 29): El Romanticismo hispanoamericano se diferenció del europeo principalmente porque los escritores americanos:",
     "options": [
       {
         "key": "A",
-        "text": "Guillermo Cabrera Infante"
+        "text": "Asumieron un compromiso cívico y político urgente en la construcción de las nuevas repúblicas independientes"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Rechazaron toda emoción y escribieron únicamente tratados de física"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Imitaron a los escritores clásicos latinos sin alterar ningún tema"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Se negaron a describir los paisajes y naturalezas locales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Guillermo Cabrera Infante."
+    "explanation": "Los románticos hispanoamericanos lucharon con la pluma y la espada contra las tiranías y el atraso institucional."
   },
   {
     "id": "3.4_q230",
     "number": 230,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de El nombre de la rosa?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 30): En 'Amalia' de José Mármol, se retrata novelescamente el clima de terror civil impuesto por:",
     "options": [
       {
         "key": "A",
-        "text": "Umberto Eco"
+        "text": "La Mazorca, brazo represor y paramilitar de la dictadura de Rosas en Buenos Aires"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Las tropas realistas españolas durante las guerras de emancipación"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Las bandas de piratas ingleses que asediaban el Río de la Plata"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Las milicias campesinas sublevadas en la cordillera andina"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Umberto Eco."
+    "explanation": "Mármol ofrece un testimonio apasionado del espionaje, la paranoia y la resistencia contra el régimen rosista."
   },
   {
     "id": "3.4_q231",
     "number": 231,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es el Boom latinoamericano?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 31): En el 'Popol Vuh' (Libro Sagrado de los mayas k'iche'), la creación definitiva del ser humano verdadero se realiza con:",
     "options": [
       {
         "key": "A",
-        "text": "Un fenómeno literario y editorial de los años 60 y 70"
+        "text": "Maíz blanco y maíz amarillo amasado por los Progenitores"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Lodo y tierra que se deshacía con el agua de lluvia"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Madera de tz'ite' y cañas que carecían de memoria y corazón"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Piedra volcánica pulida con obsidiana"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Un fenómeno literario y editorial de los años 60 y 70."
+    "explanation": "Tras los fracasos del hombre de barro y de madera, el hombre de maíz es el único con entendimiento y gratitud hacia los Creadores."
   },
   {
     "id": "3.4_q232",
     "number": 232,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quiénes son los principales representantes del Boom?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 32): Los dioses creadores primordiales del universo maya k'iche' en el Popol Vuh son:",
     "options": [
       {
         "key": "A",
-        "text": "García Márquez, Cortázar, Vargas Llosa y Fuentes"
+        "text": "Tepeu y Gucumatz (junto al Corazón del Cielo)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Quetzalcóatl y Huitzilopochtli"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Viracocha e Inti"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Tupã y los espíritus de la selva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. García Márquez, Cortázar, Vargas Llosa y Fuentes."
+    "explanation": "Tepeu (el Soberano) y Gucumatz (la Serpiente Emplumada) idearon en la quietud de las aguas la creación del mundo."
   },
   {
     "id": "3.4_q233",
     "number": 233,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es el realismo mágico?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 33): En la segunda parte del Popol Vuh, los gemelos divinos Hunahpú e Ixbalanqué descienden a Xibalbá para:",
     "options": [
       {
         "key": "A",
-        "text": "La mezcla de lo real y lo fantástico en la narración"
+        "text": "Vengar la muerte de sus padres y vencer a los Señores de la Muerte en el juego de pelota"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Buscar las semillas sagradas del frijol y el cacao"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Aprender los secretos de la metalurgia del oro y la plata"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Gobernar el inframundo maya durante la noche eterna"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La mezcla de lo real y lo fantástico en la narración."
+    "explanation": "Los gemelos superan las pruebas de las casas de tormento y derrotan con astucia a Hun-Camé y Vucub-Camé."
   },
   {
     "id": "3.4_q234",
     "number": 234,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el principal representante del realismo mágico?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 34): El drama incaico 'Ollantay' (de origen quechua) narra el conflicto trágico provocado por:",
     "options": [
       {
         "key": "A",
-        "text": "Gabriel García Márquez"
+        "text": "El amor prohibido entre el general plebeyo Ollantay y la princesa imperial Cusi Coyllur"
       },
       {
         "key": "B",
-        "text": "Julio Cortázar"
+        "text": "La invasión de los conquistadores españoles al valle del Cuzco"
       },
       {
         "key": "C",
-        "text": "Mario Vargas Llosa"
+        "text": "La rebelión de los sacerdotes del Sol contra el Inca Pachacútec"
       },
       {
         "key": "D",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "La pérdida de los tesoros sagrados del templo de Coricancha"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Gabriel García Márquez."
+    "explanation": "Ollantay se rebela contra el orden estamental inca que impedía a un guerrero sin sangre real casarse con la hija del Inca."
   },
   {
     "id": "3.4_q235",
     "number": 235,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Cien años de soledad?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 35): En la lírica náhuatl, Nezahualcóyotl (el 'Rey Poeta' de Texcoco) reflexiona recurrentemente sobre:",
     "options": [
       {
         "key": "A",
-        "text": "Gabriel García Márquez"
+        "text": "La fugacidad de la vida terrenal ('¿Acaso de verdad se vive en la tierra?'), la amistad y 'flor y canto'"
       },
       {
         "key": "B",
-        "text": "Julio Cortázar"
+        "text": "Las instrucciones bélicas para la captura de esclavos en la guerra florida"
       },
       {
         "key": "C",
-        "text": "Mario Vargas Llosa"
+        "text": "Las técnicas agrícolas del cultivo en las chinampas del lago"
       },
       {
         "key": "D",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "La adoración idólatra al dios de las tempestades marinas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Gabriel García Márquez."
+    "explanation": "Nezahualcóyotl concibe la poesía ('In xóchitl in cuícatl': flor y canto) como la única verdad imperecedera del ser humano."
   },
   {
     "id": "3.4_q236",
     "number": 236,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es Cien años de soledad?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 36): En el Romanticismo hispanoamericano, el relato 'El matadero' de Esteban Echeverría utiliza el matadero de Buenos Aires como:",
     "options": [
       {
         "key": "A",
-        "text": "Una novela que narra la historia de la familia Buendía en Macondo"
+        "text": "Una alegoría política de la barbarie y tiranía de la dictadura de Juan Manuel de Rosas"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Un estudio zootécnico sobre la cría de ganado vacuno en las pampas"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Una historia de amor costumbrista entre carniceros y vendedoras"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una defensa de las tradiciones culinarias de la Argentina colonial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Una novela que narra la historia de la familia Buendía en Macondo."
+    "explanation": "Echeverría denuncia cómo la mazorca rosista aplasta la libertad, la civilización y la dignidad individual del joven unitario."
   },
   {
     "id": "3.4_q237",
     "number": 237,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Rayuela?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 37): En 'Facundo: Civilización y barbarie' de Domingo Faustino Sarmiento, la tesis sociopolítica central postula que:",
     "options": [
       {
         "key": "A",
-        "text": "Julio Cortázar"
+        "text": "El atraso de América se debe a la barbarie del desierto y los caudillos gauchos frente a la civilización urbana"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Los gauchos de las pampas deben gobernar las ciudades sudamericanas"
       },
       {
         "key": "C",
-        "text": "Mario Vargas Llosa"
+        "text": "La civilización europea destruyó la felicidad originaria de los campos"
       },
       {
         "key": "D",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "El progreso solo se logra expulsando a las industrias y los ferrocarriles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Julio Cortázar."
+    "explanation": "Sarmiento analiza al caudillo Facundo Quiroga como la personificación salvaje que impide el triunfo de las leyes y la educación."
   },
   {
     "id": "3.4_q238",
     "number": 238,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es Rayuela?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 38): En la novela cumbre del Romanticismo sentimental hispanoamericano, 'María' de Jorge Isaacs, el amor idílico se ve truncado por:",
     "options": [
       {
         "key": "A",
-        "text": "Una novela experimental que propone múltiples lecturas"
+        "text": "La epilepsia mortal que padece María y la distancia física que la separa de Efraín en Londres"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La traición de Efraín con una dama de la nobleza británica"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La negativa violenta del padre de María por motivos de herencia"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una guerra civil que destruye la hacienda del Valle del Cauca"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Una novela experimental que propone múltiples lecturas."
+    "explanation": "Isaacs combina la melancolía amorosa con la exaltación elegíaca del paisaje colombiano del Valle del Cauca."
   },
   {
     "id": "3.4_q239",
     "number": 239,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de La ciudad y los perros?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 39): El Romanticismo hispanoamericano se diferenció del europeo principalmente porque los escritores americanos:",
     "options": [
       {
         "key": "A",
-        "text": "Mario Vargas Llosa"
+        "text": "Asumieron un compromiso cívico y político urgente en la construcción de las nuevas repúblicas independientes"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Rechazaron toda emoción y escribieron únicamente tratados de física"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Imitaron a los escritores clásicos latinos sin alterar ningún tema"
       },
       {
         "key": "D",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "Se negaron a describir los paisajes y naturalezas locales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Mario Vargas Llosa."
+    "explanation": "Los románticos hispanoamericanos lucharon con la pluma y la espada contra las tiranías y el atraso institucional."
   },
   {
     "id": "3.4_q240",
     "number": 240,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de La muerte de Artemio Cruz?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 40): En 'Amalia' de José Mármol, se retrata novelescamente el clima de terror civil impuesto por:",
     "options": [
       {
         "key": "A",
-        "text": "Carlos Fuentes"
+        "text": "La Mazorca, brazo represor y paramilitar de la dictadura de Rosas en Buenos Aires"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Las tropas realistas españolas durante las guerras de emancipación"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Las bandas de piratas ingleses que asediaban el Río de la Plata"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "Las milicias campesinas sublevadas en la cordillera andina"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Carlos Fuentes."
+    "explanation": "Mármol ofrece un testimonio apasionado del espionaje, la paranoia y la resistencia contra el régimen rosista."
   },
   {
     "id": "3.4_q241",
     "number": 241,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Pedro Páramo?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 41): En el 'Popol Vuh' (Libro Sagrado de los mayas k'iche'), la creación definitiva del ser humano verdadero se realiza con:",
     "options": [
       {
         "key": "A",
-        "text": "Juan Rulfo"
+        "text": "Maíz blanco y maíz amarillo amasado por los Progenitores"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Lodo y tierra que se deshacía con el agua de lluvia"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Madera de tz'ite' y cañas que carecían de memoria y corazón"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "Piedra volcánica pulida con obsidiana"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Juan Rulfo."
+    "explanation": "Tras los fracasos del hombre de barro y de madera, el hombre de maíz es el único con entendimiento y gratitud hacia los Creadores."
   },
   {
     "id": "3.4_q242",
     "number": 242,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es Pedro Páramo?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 42): Los dioses creadores primordiales del universo maya k'iche' en el Popol Vuh son:",
     "options": [
       {
         "key": "A",
-        "text": "Una novela que narra la historia de Comala y su cacique"
+        "text": "Tepeu y Gucumatz (junto al Corazón del Cielo)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Quetzalcóatl y Huitzilopochtli"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Viracocha e Inti"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Tupã y los espíritus de la selva"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Una novela que narra la historia de Comala y su cacique."
+    "explanation": "Tepeu (el Soberano) y Gucumatz (la Serpiente Emplumada) idearon en la quietud de las aguas la creación del mundo."
   },
   {
     "id": "3.4_q243",
     "number": 243,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Ficciones?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 43): En la segunda parte del Popol Vuh, los gemelos divinos Hunahpú e Ixbalanqué descienden a Xibalbá para:",
     "options": [
       {
         "key": "A",
-        "text": "Jorge Luis Borges"
+        "text": "Vengar la muerte de sus padres y vencer a los Señores de la Muerte en el juego de pelota"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Buscar las semillas sagradas del frijol y el cacao"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Aprender los secretos de la metalurgia del oro y la plata"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Gobernar el inframundo maya durante la noche eterna"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Jorge Luis Borges."
+    "explanation": "Los gemelos superan las pruebas de las casas de tormento y derrotan con astucia a Hun-Camé y Vucub-Camé."
   },
   {
     "id": "3.4_q244",
     "number": 244,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de El túnel?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 44): El drama incaico 'Ollantay' (de origen quechua) narra el conflicto trágico provocado por:",
     "options": [
       {
         "key": "A",
-        "text": "Ernesto Sábato"
+        "text": "El amor prohibido entre el general plebeyo Ollantay y la princesa imperial Cusi Coyllur"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La invasión de los conquistadores españoles al valle del Cuzco"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La rebelión de los sacerdotes del Sol contra el Inca Pachacútec"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La pérdida de los tesoros sagrados del templo de Coricancha"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Ernesto Sábato."
+    "explanation": "Ollantay se rebela contra el orden estamental inca que impedía a un guerrero sin sangre real casarse con la hija del Inca."
   },
   {
     "id": "3.4_q245",
     "number": 245,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de La invención de Morel?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 45): En la lírica náhuatl, Nezahualcóyotl (el 'Rey Poeta' de Texcoco) reflexiona recurrentemente sobre:",
     "options": [
       {
         "key": "A",
-        "text": "Adolfo Bioy Casares"
+        "text": "La fugacidad de la vida terrenal ('¿Acaso de verdad se vive en la tierra?'), la amistad y 'flor y canto'"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Las instrucciones bélicas para la captura de esclavos en la guerra florida"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Las técnicas agrícolas del cultivo en las chinampas del lago"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La adoración idólatra al dios de las tempestades marinas"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Adolfo Bioy Casares."
+    "explanation": "Nezahualcóyotl concibe la poesía ('In xóchitl in cuícatl': flor y canto) como la única verdad imperecedera del ser humano."
   },
   {
     "id": "3.4_q246",
     "number": 246,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de La tregua?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 46): En el Romanticismo hispanoamericano, el relato 'El matadero' de Esteban Echeverría utiliza el matadero de Buenos Aires como:",
     "options": [
       {
         "key": "A",
-        "text": "Mario Benedetti"
+        "text": "Una alegoría política de la barbarie y tiranía de la dictadura de Juan Manuel de Rosas"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Un estudio zootécnico sobre la cría de ganado vacuno en las pampas"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Una historia de amor costumbrista entre carniceros y vendedoras"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una defensa de las tradiciones culinarias de la Argentina colonial"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Mario Benedetti."
+    "explanation": "Echeverría denuncia cómo la mazorca rosista aplasta la libertad, la civilización y la dignidad individual del joven unitario."
   },
   {
     "id": "3.4_q247",
     "number": 247,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de El astillero?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 47): En 'Facundo: Civilización y barbarie' de Domingo Faustino Sarmiento, la tesis sociopolítica central postula que:",
     "options": [
       {
         "key": "A",
-        "text": "Juan Carlos Onetti"
+        "text": "El atraso de América se debe a la barbarie del desierto y los caudillos gauchos frente a la civilización urbana"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Los gauchos de las pampas deben gobernar las ciudades sudamericanas"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La civilización europea destruyó la felicidad originaria de los campos"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "El progreso solo se logra expulsando a las industrias y los ferrocarriles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Juan Carlos Onetti."
+    "explanation": "Sarmiento analiza al caudillo Facundo Quiroga como la personificación salvaje que impide el triunfo de las leyes y la educación."
   },
   {
     "id": "3.4_q248",
     "number": 248,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Paradiso?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 48): En la novela cumbre del Romanticismo sentimental hispanoamericano, 'María' de Jorge Isaacs, el amor idílico se ve truncado por:",
     "options": [
       {
         "key": "A",
-        "text": "José Lezama Lima"
+        "text": "La epilepsia mortal que padece María y la distancia física que la separa de Efraín en Londres"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La traición de Efraín con una dama de la nobleza británica"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La negativa violenta del padre de María por motivos de herencia"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una guerra civil que destruye la hacienda del Valle del Cauca"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. José Lezama Lima."
+    "explanation": "Isaacs combina la melancolía amorosa con la exaltación elegíaca del paisaje colombiano del Valle del Cauca."
   },
   {
     "id": "3.4_q249",
     "number": 249,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Tres tristes tigres?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 49): El Romanticismo hispanoamericano se diferenció del europeo principalmente porque los escritores americanos:",
     "options": [
       {
         "key": "A",
-        "text": "Guillermo Cabrera Infante"
+        "text": "Asumieron un compromiso cívico y político urgente en la construcción de las nuevas repúblicas independientes"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Rechazaron toda emoción y escribieron únicamente tratados de física"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Imitaron a los escritores clásicos latinos sin alterar ningún tema"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Se negaron a describir los paisajes y naturalezas locales"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Guillermo Cabrera Infante."
+    "explanation": "Los románticos hispanoamericanos lucharon con la pluma y la espada contra las tiranías y el atraso institucional."
   },
   {
     "id": "3.4_q250",
     "number": 250,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de El nombre de la rosa?",
+    "sectionTitle": "SECCIÓN V: COSMOVISIÓN PRECOLOMBINA Y ROMANTICISMO AMERICANO (201–250)",
+    "statement": "En cuanto a las raíces precolombinas y el Romanticismo hispanoamericano (ítem 50): En 'Amalia' de José Mármol, se retrata novelescamente el clima de terror civil impuesto por:",
     "options": [
       {
         "key": "A",
-        "text": "Umberto Eco"
+        "text": "La Mazorca, brazo represor y paramilitar de la dictadura de Rosas en Buenos Aires"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Las tropas realistas españolas durante las guerras de emancipación"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Las bandas de piratas ingleses que asediaban el Río de la Plata"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Las milicias campesinas sublevadas en la cordillera andina"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Umberto Eco."
+    "explanation": "Mármol ofrece un testimonio apasionado del espionaje, la paranoia y la resistencia contra el régimen rosista."
   },
   {
     "id": "3.4_q251",
     "number": 251,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es el Boom latinoamericano?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "El hito inaugural del Modernismo hispanoamericano se sitúa formalmente con la publicación de:",
     "options": [
       {
         "key": "A",
-        "text": "Un fenómeno literario y editorial de los años 60 y 70"
+        "text": "'Azul...' (1888) del poeta nicaragüense Rubén Darío en Valparaíso, Chile"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Rimas' (1871) de Gustavo Adolfo Bécquer en Madrid"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Versos libres' (1882) de José Martí en Nueva York"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Ariel' (1900) del uruguayo José Enrique Rodó"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Un fenómeno literario y editorial de los años 60 y 70."
+    "explanation": "Darío fusiona cuentos en prosa artística y poemas líricos inaugurando la renovación verbal del Modernismo."
   },
   {
     "id": "3.4_q252",
     "number": 252,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quiénes son los principales representantes del Boom?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Las dos corrientes poéticas francesas que constituyeron los pilares fundamentales del Modernismo fueron:",
     "options": [
       {
         "key": "A",
-        "text": "García Márquez, Cortázar, Vargas Llosa y Fuentes"
+        "text": "El Parnasianismo (la perfección formal, el arte por el arte) y el Simbolismo (la musicalidad y la sinestesia)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El Clasicismo y la Ilustración enciclopedista"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El Dadaísmo y el Surrealismo automático"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "El Existencialismo y el Teatro del Absurdo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. García Márquez, Cortázar, Vargas Llosa y Fuentes."
+    "explanation": "Darío tomó la belleza marmórea de Leconte de Lisle y la música interior y sugerencia de Verlaine y Mallarmé."
   },
   {
     "id": "3.4_q253",
     "number": 253,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es el realismo mágico?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "El recurso literario característico del Modernismo que consiste en cruzar sensaciones de distintos sentidos (ej. 'dulce sonido', 'verde chillón') es:",
     "options": [
       {
         "key": "A",
-        "text": "La mezcla de lo real y lo fantástico en la narración"
+        "text": "La sinestesia"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El hipérbaton"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La anáfora"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La prosopopeya"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La mezcla de lo real y lo fantástico en la narración."
+    "explanation": "La sinestesia fue empleada por los modernistas para crear una experiencia sensorial total en el lector."
   },
   {
     "id": "3.4_q254",
     "number": 254,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el principal representante del realismo mágico?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "En 'Cantos de vida y esperanza' (1905), Rubén Darío evoluciona hacia una poesía más madura y reflexiva donde destaca:",
     "options": [
       {
         "key": "A",
-        "text": "Gabriel García Márquez"
+        "text": "La preocupación por el destino político y cultural de Hispanoamérica frente al imperialismo anglosajón"
       },
       {
         "key": "B",
-        "text": "Julio Cortázar"
+        "text": "El juego superficial con cisnes de porcelana y princesas chinas"
       },
       {
         "key": "C",
-        "text": "Mario Vargas Llosa"
+        "text": "La burla satírica contra los próceres de la independencia americana"
       },
       {
         "key": "D",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "El rechazo definitivo al idioma castellano"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Gabriel García Márquez."
+    "explanation": "En poemas como 'A Roosevelt', Darío defiende la identidad de la América hispana, católica y libre frente a la amenaza imperial."
   },
   {
     "id": "3.4_q255",
     "number": 255,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Cien años de soledad?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "En el poema 'A Roosevelt' de Rubén Darío, la voz poética advierte al presidente estadounidense que a la América nuestra:",
     "options": [
       {
         "key": "A",
-        "text": "Gabriel García Márquez"
+        "text": "'Para tenernos en vuestras férreas garras, necesitaríais ser Dios mismo'"
       },
       {
         "key": "B",
-        "text": "Julio Cortázar"
+        "text": "'Le faltan soldados y armas para competir con el coloso del norte'"
       },
       {
         "key": "C",
-        "text": "Mario Vargas Llosa"
+        "text": "'Solo le queda rendirse pacíficamente a la modernidad industrial'"
       },
       {
         "key": "D",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "'Ha olvidado para siempre la sangre indígena y española'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Gabriel García Márquez."
+    "explanation": "Darío reivindica la fuerza espiritual de los pueblos de Moctezuma, Atahualpa y Bolívar frente a la soberbia materialista."
   },
   {
     "id": "3.4_q256",
     "number": 256,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es Cien años de soledad?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "En 'Versos sencillos' (1891), el héroe y poeta cubano José Martí expresa una poética basada en:",
     "options": [
       {
         "key": "A",
-        "text": "Una novela que narra la historia de la familia Buendía en Macondo"
+        "text": "La autenticidad humana, el compromiso patriótico, la sinceridad y la sencillez formal"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La ornamentación mitológica aristocrática y el cosmopolitismo exótico"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La desesperación nihilista por el sinsentido de la existencia"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La imitación de las canciones de gesta de los caballeros normandos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Una novela que narra la historia de la familia Buendía en Macondo."
+    "explanation": "Martí proclamó: 'Yo soy un hombre sincero / de donde crece la palma', aunando belleza ética y sencillez estética."
   },
   {
     "id": "3.4_q257",
     "number": 257,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de Rayuela?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "El ensayo 'Nuestra América' (1891) de José Martí plantea como principio de emancipación política:",
     "options": [
       {
         "key": "A",
-        "text": "Julio Cortázar"
+        "text": "'Injértese en nuestras repúblicas el mundo; pero el tronco ha de ser el de nuestras repúblicas'"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Copiar íntegramente las constituciones y leyes de las naciones europeas'"
       },
       {
         "key": "C",
-        "text": "Mario Vargas Llosa"
+        "text": "'Permitir que los gobernantes extranjeros administren los recursos minerales'"
       },
       {
         "key": "D",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "'Suprimir la educación pública en las comunidades rurales'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Julio Cortázar."
+    "explanation": "Martí aboga por una política fundada en el conocimiento de las realidades autóctonas de los pueblos indoibéricos."
   },
   {
     "id": "3.4_q258",
     "number": 258,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Qué es Rayuela?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "El ensayo 'Ariel' (1900) de José Enrique Rodó contrapone alegóricamente a:",
     "options": [
       {
         "key": "A",
-        "text": "Una novela experimental que propone múltiples lecturas"
+        "text": "Ariel (la espiritualidad, la cultura desinteresada y el ideal latino) contra Calibán (el utilitarismo y materialismo anglosajón)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Don Quijote contra el emperador Carlomagno"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El conquistador Hernán Cortés contra los mayas"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La ciencia médica contra la teología medieval"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Una novela experimental que propone múltiples lecturas."
+    "explanation": "Rodó advirtió a la juventud hispanoamericana contra la 'nordomanía' (imitación servil del pragmatismo de EE.UU.)."
   },
   {
     "id": "3.4_q259",
     "number": 259,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de La ciudad y los perros?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "El cisne blanco en la iconografía y simbología modernista dariana representa:",
     "options": [
       {
         "key": "A",
-        "text": "Mario Vargas Llosa"
+        "text": "La belleza pura, la elegancia aristocrática, la armonía y la interrogación sobre el misterio del arte"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La muerte violenta en el campo de batalla"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El progreso tecnológico del ferrocarril y las máquinas de vapor"
       },
       {
         "key": "D",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "La sencillez de la vida campesina de los valles andinos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Mario Vargas Llosa."
+    "explanation": "El cisne es el emblema por excelencia del Modernismo, símbolo del ideal artístico inaccesible y la pureza estética."
   },
   {
     "id": "3.4_q260",
     "number": 260,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VI: BOOM LATINOAMERICANO Y REALISMO MÁGICO (211–260)",
-    "statement": "¿Quién es el autor de La muerte de Artemio Cruz?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "La importancia histórica fundamental del Modernismo radica en que fue:",
     "options": [
       {
         "key": "A",
-        "text": "Carlos Fuentes"
+        "text": "El primer movimiento literario genuinamente hispanoamericano que influyó y revolucionó las letras de España"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Una copia tardía e irrelevante de los cantares de gesta franceses"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Un movimiento exclusivo de las islas del Caribe sin repercusión continental"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Juan Rulfo"
-      },
-      {
-        "key": "F",
-        "text": "Jorge Luis Borges"
+        "text": "Una corriente que impuso el desuso del verso métrico en todo el mundo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Carlos Fuentes."
+    "explanation": "Por primera vez en la historia, América Hispana ejerció el magisterio estilístico e intelectual sobre la metrópoli española."
   },
   {
     "id": "3.4_q261",
     "number": 261,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Qué es la literatura contemporánea latinoamericana?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 11): El hito inaugural del Modernismo hispanoamericano se sitúa formalmente con la publicación de:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura producida desde mediados del siglo XX hasta la actualidad"
+        "text": "'Azul...' (1888) del poeta nicaragüense Rubén Darío en Valparaíso, Chile"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Rimas' (1871) de Gustavo Adolfo Bécquer en Madrid"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Versos libres' (1882) de José Martí en Nueva York"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Ariel' (1900) del uruguayo José Enrique Rodó"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura producida desde mediados del siglo XX hasta la actualidad."
+    "explanation": "Darío fusiona cuentos en prosa artística y poemas líricos inaugurando la renovación verbal del Modernismo."
   },
   {
     "id": "3.4_q262",
     "number": 262,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Qué es la literatura del posboom?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 12): Las dos corrientes poéticas francesas que constituyeron los pilares fundamentales del Modernismo fueron:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura posterior al Boom que explora nuevas formas"
+        "text": "El Parnasianismo (la perfección formal, el arte por el arte) y el Simbolismo (la musicalidad y la sinestesia)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El Clasicismo y la Ilustración enciclopedista"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El Dadaísmo y el Surrealismo automático"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "El Existencialismo y el Teatro del Absurdo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura posterior al Boom que explora nuevas formas."
+    "explanation": "Darío tomó la belleza marmórea de Leconte de Lisle y la música interior y sugerencia de Verlaine y Mallarmé."
   },
   {
     "id": "3.4_q263",
     "number": 263,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quiénes son representantes del posboom?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 13): El recurso literario característico del Modernismo que consiste en cruzar sensaciones de distintos sentidos (ej. 'dulce sonido', 'verde chillón') es:",
     "options": [
       {
         "key": "A",
-        "text": "Isabel Allende, Laura Esquivel y Roberto Bolaño"
+        "text": "La sinestesia"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El hipérbaton"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La anáfora"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La prosopopeya"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Isabel Allende, Laura Esquivel y Roberto Bolaño."
+    "explanation": "La sinestesia fue empleada por los modernistas para crear una experiencia sensorial total en el lector."
   },
   {
     "id": "3.4_q264",
     "number": 264,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es la autora de La casa de los espíritus?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 14): En 'Cantos de vida y esperanza' (1905), Rubén Darío evoluciona hacia una poesía más madura y reflexiva donde destaca:",
     "options": [
       {
         "key": "A",
-        "text": "Isabel Allende"
+        "text": "La preocupación por el destino político y cultural de Hispanoamérica frente al imperialismo anglosajón"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El juego superficial con cisnes de porcelana y princesas chinas"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La burla satírica contra los próceres de la independencia americana"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "El rechazo definitivo al idioma castellano"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Isabel Allende."
+    "explanation": "En poemas como 'A Roosevelt', Darío defiende la identidad de la América hispana, católica y libre frente a la amenaza imperial."
   },
   {
     "id": "3.4_q265",
     "number": 265,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es la autora de Como agua para chocolate?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 15): En el poema 'A Roosevelt' de Rubén Darío, la voz poética advierte al presidente estadounidense que a la América nuestra:",
     "options": [
       {
         "key": "A",
-        "text": "Laura Esquivel"
+        "text": "'Para tenernos en vuestras férreas garras, necesitaríais ser Dios mismo'"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Le faltan soldados y armas para competir con el coloso del norte'"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Solo le queda rendirse pacíficamente a la modernidad industrial'"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Ha olvidado para siempre la sangre indígena y española'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Laura Esquivel."
+    "explanation": "Darío reivindica la fuerza espiritual de los pueblos de Moctezuma, Atahualpa y Bolívar frente a la soberbia materialista."
   },
   {
     "id": "3.4_q266",
     "number": 266,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de Los detectives salvajes?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 16): En 'Versos sencillos' (1891), el héroe y poeta cubano José Martí expresa una poética basada en:",
     "options": [
       {
         "key": "A",
-        "text": "Roberto Bolaño"
+        "text": "La autenticidad humana, el compromiso patriótico, la sinceridad y la sencillez formal"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La ornamentación mitológica aristocrática y el cosmopolitismo exótico"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La desesperación nihilista por el sinsentido de la existencia"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La imitación de las canciones de gesta de los caballeros normandos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Roberto Bolaño."
+    "explanation": "Martí proclamó: 'Yo soy un hombre sincero / de donde crece la palma', aunando belleza ética y sencillez estética."
   },
   {
     "id": "3.4_q267",
     "number": 267,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de 2666?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 17): El ensayo 'Nuestra América' (1891) de José Martí plantea como principio de emancipación política:",
     "options": [
       {
         "key": "A",
-        "text": "Roberto Bolaño"
+        "text": "'Injértese en nuestras repúblicas el mundo; pero el tronco ha de ser el de nuestras repúblicas'"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Copiar íntegramente las constituciones y leyes de las naciones europeas'"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Permitir que los gobernantes extranjeros administren los recursos minerales'"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Suprimir la educación pública en las comunidades rurales'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Roberto Bolaño."
+    "explanation": "Martí aboga por una política fundada en el conocimiento de las realidades autóctonas de los pueblos indoibéricos."
   },
   {
     "id": "3.4_q268",
     "number": 268,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de La noche de Tlatelolco?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 18): El ensayo 'Ariel' (1900) de José Enrique Rodó contrapone alegóricamente a:",
     "options": [
       {
         "key": "A",
-        "text": "Elena Poniatowska"
+        "text": "Ariel (la espiritualidad, la cultura desinteresada y el ideal latino) contra Calibán (el utilitarismo y materialismo anglosajón)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Don Quijote contra el emperador Carlomagno"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El conquistador Hernán Cortés contra los mayas"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La ciencia médica contra la teología medieval"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Elena Poniatowska."
+    "explanation": "Rodó advirtió a la juventud hispanoamericana contra la 'nordomanía' (imitación servil del pragmatismo de EE.UU.)."
   },
   {
     "id": "3.4_q269",
     "number": 269,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de Arráncame la vida?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 19): El cisne blanco en la iconografía y simbología modernista dariana representa:",
     "options": [
       {
         "key": "A",
-        "text": "Ángeles Mastretta"
+        "text": "La belleza pura, la elegancia aristocrática, la armonía y la interrogación sobre el misterio del arte"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La muerte violenta en el campo de batalla"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El progreso tecnológico del ferrocarril y las máquinas de vapor"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La sencillez de la vida campesina de los valles andinos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Ángeles Mastretta."
+    "explanation": "El cisne es el emblema por excelencia del Modernismo, símbolo del ideal artístico inaccesible y la pureza estética."
   },
   {
     "id": "3.4_q270",
     "number": 270,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de El beso de la mujer araña?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 20): La importancia histórica fundamental del Modernismo radica en que fue:",
     "options": [
       {
         "key": "A",
-        "text": "Manuel Puig"
+        "text": "El primer movimiento literario genuinamente hispanoamericano que influyó y revolucionó las letras de España"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Una copia tardía e irrelevante de los cantares de gesta franceses"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Un movimiento exclusivo de las islas del Caribe sin repercusión continental"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una corriente que impuso el desuso del verso métrico en todo el mundo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Manuel Puig."
+    "explanation": "Por primera vez en la historia, América Hispana ejerció el magisterio estilístico e intelectual sobre la metrópoli española."
   },
   {
     "id": "3.4_q271",
     "number": 271,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Qué es la literatura contemporánea latinoamericana?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 21): El hito inaugural del Modernismo hispanoamericano se sitúa formalmente con la publicación de:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura producida desde mediados del siglo XX hasta la actualidad"
+        "text": "'Azul...' (1888) del poeta nicaragüense Rubén Darío en Valparaíso, Chile"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Rimas' (1871) de Gustavo Adolfo Bécquer en Madrid"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Versos libres' (1882) de José Martí en Nueva York"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Ariel' (1900) del uruguayo José Enrique Rodó"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura producida desde mediados del siglo XX hasta la actualidad."
+    "explanation": "Darío fusiona cuentos en prosa artística y poemas líricos inaugurando la renovación verbal del Modernismo."
   },
   {
     "id": "3.4_q272",
     "number": 272,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Qué es la literatura del posboom?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 22): Las dos corrientes poéticas francesas que constituyeron los pilares fundamentales del Modernismo fueron:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura posterior al Boom que explora nuevas formas"
+        "text": "El Parnasianismo (la perfección formal, el arte por el arte) y el Simbolismo (la musicalidad y la sinestesia)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El Clasicismo y la Ilustración enciclopedista"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El Dadaísmo y el Surrealismo automático"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "El Existencialismo y el Teatro del Absurdo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura posterior al Boom que explora nuevas formas."
+    "explanation": "Darío tomó la belleza marmórea de Leconte de Lisle y la música interior y sugerencia de Verlaine y Mallarmé."
   },
   {
     "id": "3.4_q273",
     "number": 273,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quiénes son representantes del posboom?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 23): El recurso literario característico del Modernismo que consiste en cruzar sensaciones de distintos sentidos (ej. 'dulce sonido', 'verde chillón') es:",
     "options": [
       {
         "key": "A",
-        "text": "Isabel Allende, Laura Esquivel y Roberto Bolaño"
+        "text": "La sinestesia"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El hipérbaton"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La anáfora"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La prosopopeya"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Isabel Allende, Laura Esquivel y Roberto Bolaño."
+    "explanation": "La sinestesia fue empleada por los modernistas para crear una experiencia sensorial total en el lector."
   },
   {
     "id": "3.4_q274",
     "number": 274,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es la autora de La casa de los espíritus?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 24): En 'Cantos de vida y esperanza' (1905), Rubén Darío evoluciona hacia una poesía más madura y reflexiva donde destaca:",
     "options": [
       {
         "key": "A",
-        "text": "Isabel Allende"
+        "text": "La preocupación por el destino político y cultural de Hispanoamérica frente al imperialismo anglosajón"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El juego superficial con cisnes de porcelana y princesas chinas"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La burla satírica contra los próceres de la independencia americana"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "El rechazo definitivo al idioma castellano"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Isabel Allende."
+    "explanation": "En poemas como 'A Roosevelt', Darío defiende la identidad de la América hispana, católica y libre frente a la amenaza imperial."
   },
   {
     "id": "3.4_q275",
     "number": 275,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es la autora de Como agua para chocolate?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 25): En el poema 'A Roosevelt' de Rubén Darío, la voz poética advierte al presidente estadounidense que a la América nuestra:",
     "options": [
       {
         "key": "A",
-        "text": "Laura Esquivel"
+        "text": "'Para tenernos en vuestras férreas garras, necesitaríais ser Dios mismo'"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Le faltan soldados y armas para competir con el coloso del norte'"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Solo le queda rendirse pacíficamente a la modernidad industrial'"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Ha olvidado para siempre la sangre indígena y española'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Laura Esquivel."
+    "explanation": "Darío reivindica la fuerza espiritual de los pueblos de Moctezuma, Atahualpa y Bolívar frente a la soberbia materialista."
   },
   {
     "id": "3.4_q276",
     "number": 276,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de Los detectives salvajes?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 26): En 'Versos sencillos' (1891), el héroe y poeta cubano José Martí expresa una poética basada en:",
     "options": [
       {
         "key": "A",
-        "text": "Roberto Bolaño"
+        "text": "La autenticidad humana, el compromiso patriótico, la sinceridad y la sencillez formal"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La ornamentación mitológica aristocrática y el cosmopolitismo exótico"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La desesperación nihilista por el sinsentido de la existencia"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La imitación de las canciones de gesta de los caballeros normandos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Roberto Bolaño."
+    "explanation": "Martí proclamó: 'Yo soy un hombre sincero / de donde crece la palma', aunando belleza ética y sencillez estética."
   },
   {
     "id": "3.4_q277",
     "number": 277,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de 2666?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 27): El ensayo 'Nuestra América' (1891) de José Martí plantea como principio de emancipación política:",
     "options": [
       {
         "key": "A",
-        "text": "Roberto Bolaño"
+        "text": "'Injértese en nuestras repúblicas el mundo; pero el tronco ha de ser el de nuestras repúblicas'"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Copiar íntegramente las constituciones y leyes de las naciones europeas'"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Permitir que los gobernantes extranjeros administren los recursos minerales'"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Suprimir la educación pública en las comunidades rurales'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Roberto Bolaño."
+    "explanation": "Martí aboga por una política fundada en el conocimiento de las realidades autóctonas de los pueblos indoibéricos."
   },
   {
     "id": "3.4_q278",
     "number": 278,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de La noche de Tlatelolco?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 28): El ensayo 'Ariel' (1900) de José Enrique Rodó contrapone alegóricamente a:",
     "options": [
       {
         "key": "A",
-        "text": "Elena Poniatowska"
+        "text": "Ariel (la espiritualidad, la cultura desinteresada y el ideal latino) contra Calibán (el utilitarismo y materialismo anglosajón)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Don Quijote contra el emperador Carlomagno"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El conquistador Hernán Cortés contra los mayas"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La ciencia médica contra la teología medieval"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Elena Poniatowska."
+    "explanation": "Rodó advirtió a la juventud hispanoamericana contra la 'nordomanía' (imitación servil del pragmatismo de EE.UU.)."
   },
   {
     "id": "3.4_q279",
     "number": 279,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de Arráncame la vida?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 29): El cisne blanco en la iconografía y simbología modernista dariana representa:",
     "options": [
       {
         "key": "A",
-        "text": "Ángeles Mastretta"
+        "text": "La belleza pura, la elegancia aristocrática, la armonía y la interrogación sobre el misterio del arte"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La muerte violenta en el campo de batalla"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El progreso tecnológico del ferrocarril y las máquinas de vapor"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La sencillez de la vida campesina de los valles andinos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Ángeles Mastretta."
+    "explanation": "El cisne es el emblema por excelencia del Modernismo, símbolo del ideal artístico inaccesible y la pureza estética."
   },
   {
     "id": "3.4_q280",
     "number": 280,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de El beso de la mujer araña?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 30): La importancia histórica fundamental del Modernismo radica en que fue:",
     "options": [
       {
         "key": "A",
-        "text": "Manuel Puig"
+        "text": "El primer movimiento literario genuinamente hispanoamericano que influyó y revolucionó las letras de España"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Una copia tardía e irrelevante de los cantares de gesta franceses"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Un movimiento exclusivo de las islas del Caribe sin repercusión continental"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una corriente que impuso el desuso del verso métrico en todo el mundo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Manuel Puig."
+    "explanation": "Por primera vez en la historia, América Hispana ejerció el magisterio estilístico e intelectual sobre la metrópoli española."
   },
   {
     "id": "3.4_q281",
     "number": 281,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Qué es la literatura contemporánea latinoamericana?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 31): El hito inaugural del Modernismo hispanoamericano se sitúa formalmente con la publicación de:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura producida desde mediados del siglo XX hasta la actualidad"
+        "text": "'Azul...' (1888) del poeta nicaragüense Rubén Darío en Valparaíso, Chile"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Rimas' (1871) de Gustavo Adolfo Bécquer en Madrid"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Versos libres' (1882) de José Martí en Nueva York"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Ariel' (1900) del uruguayo José Enrique Rodó"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura producida desde mediados del siglo XX hasta la actualidad."
+    "explanation": "Darío fusiona cuentos en prosa artística y poemas líricos inaugurando la renovación verbal del Modernismo."
   },
   {
     "id": "3.4_q282",
     "number": 282,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Qué es la literatura del posboom?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 32): Las dos corrientes poéticas francesas que constituyeron los pilares fundamentales del Modernismo fueron:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura posterior al Boom que explora nuevas formas"
+        "text": "El Parnasianismo (la perfección formal, el arte por el arte) y el Simbolismo (la musicalidad y la sinestesia)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El Clasicismo y la Ilustración enciclopedista"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El Dadaísmo y el Surrealismo automático"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "El Existencialismo y el Teatro del Absurdo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura posterior al Boom que explora nuevas formas."
+    "explanation": "Darío tomó la belleza marmórea de Leconte de Lisle y la música interior y sugerencia de Verlaine y Mallarmé."
   },
   {
     "id": "3.4_q283",
     "number": 283,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quiénes son representantes del posboom?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 33): El recurso literario característico del Modernismo que consiste en cruzar sensaciones de distintos sentidos (ej. 'dulce sonido', 'verde chillón') es:",
     "options": [
       {
         "key": "A",
-        "text": "Isabel Allende, Laura Esquivel y Roberto Bolaño"
+        "text": "La sinestesia"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El hipérbaton"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La anáfora"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La prosopopeya"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Isabel Allende, Laura Esquivel y Roberto Bolaño."
+    "explanation": "La sinestesia fue empleada por los modernistas para crear una experiencia sensorial total en el lector."
   },
   {
     "id": "3.4_q284",
     "number": 284,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es la autora de La casa de los espíritus?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 34): En 'Cantos de vida y esperanza' (1905), Rubén Darío evoluciona hacia una poesía más madura y reflexiva donde destaca:",
     "options": [
       {
         "key": "A",
-        "text": "Isabel Allende"
+        "text": "La preocupación por el destino político y cultural de Hispanoamérica frente al imperialismo anglosajón"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El juego superficial con cisnes de porcelana y princesas chinas"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La burla satírica contra los próceres de la independencia americana"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "El rechazo definitivo al idioma castellano"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Isabel Allende."
+    "explanation": "En poemas como 'A Roosevelt', Darío defiende la identidad de la América hispana, católica y libre frente a la amenaza imperial."
   },
   {
     "id": "3.4_q285",
     "number": 285,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es la autora de Como agua para chocolate?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 35): En el poema 'A Roosevelt' de Rubén Darío, la voz poética advierte al presidente estadounidense que a la América nuestra:",
     "options": [
       {
         "key": "A",
-        "text": "Laura Esquivel"
+        "text": "'Para tenernos en vuestras férreas garras, necesitaríais ser Dios mismo'"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Le faltan soldados y armas para competir con el coloso del norte'"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Solo le queda rendirse pacíficamente a la modernidad industrial'"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Ha olvidado para siempre la sangre indígena y española'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Laura Esquivel."
+    "explanation": "Darío reivindica la fuerza espiritual de los pueblos de Moctezuma, Atahualpa y Bolívar frente a la soberbia materialista."
   },
   {
     "id": "3.4_q286",
     "number": 286,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de Los detectives salvajes?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 36): En 'Versos sencillos' (1891), el héroe y poeta cubano José Martí expresa una poética basada en:",
     "options": [
       {
         "key": "A",
-        "text": "Roberto Bolaño"
+        "text": "La autenticidad humana, el compromiso patriótico, la sinceridad y la sencillez formal"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La ornamentación mitológica aristocrática y el cosmopolitismo exótico"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La desesperación nihilista por el sinsentido de la existencia"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La imitación de las canciones de gesta de los caballeros normandos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Roberto Bolaño."
+    "explanation": "Martí proclamó: 'Yo soy un hombre sincero / de donde crece la palma', aunando belleza ética y sencillez estética."
   },
   {
     "id": "3.4_q287",
     "number": 287,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de 2666?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 37): El ensayo 'Nuestra América' (1891) de José Martí plantea como principio de emancipación política:",
     "options": [
       {
         "key": "A",
-        "text": "Roberto Bolaño"
+        "text": "'Injértese en nuestras repúblicas el mundo; pero el tronco ha de ser el de nuestras repúblicas'"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Copiar íntegramente las constituciones y leyes de las naciones europeas'"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Permitir que los gobernantes extranjeros administren los recursos minerales'"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Suprimir la educación pública en las comunidades rurales'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Roberto Bolaño."
+    "explanation": "Martí aboga por una política fundada en el conocimiento de las realidades autóctonas de los pueblos indoibéricos."
   },
   {
     "id": "3.4_q288",
     "number": 288,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de La noche de Tlatelolco?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 38): El ensayo 'Ariel' (1900) de José Enrique Rodó contrapone alegóricamente a:",
     "options": [
       {
         "key": "A",
-        "text": "Elena Poniatowska"
+        "text": "Ariel (la espiritualidad, la cultura desinteresada y el ideal latino) contra Calibán (el utilitarismo y materialismo anglosajón)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Don Quijote contra el emperador Carlomagno"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El conquistador Hernán Cortés contra los mayas"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La ciencia médica contra la teología medieval"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Elena Poniatowska."
+    "explanation": "Rodó advirtió a la juventud hispanoamericana contra la 'nordomanía' (imitación servil del pragmatismo de EE.UU.)."
   },
   {
     "id": "3.4_q289",
     "number": 289,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de Arráncame la vida?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 39): El cisne blanco en la iconografía y simbología modernista dariana representa:",
     "options": [
       {
         "key": "A",
-        "text": "Ángeles Mastretta"
+        "text": "La belleza pura, la elegancia aristocrática, la armonía y la interrogación sobre el misterio del arte"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La muerte violenta en el campo de batalla"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El progreso tecnológico del ferrocarril y las máquinas de vapor"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La sencillez de la vida campesina de los valles andinos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Ángeles Mastretta."
+    "explanation": "El cisne es el emblema por excelencia del Modernismo, símbolo del ideal artístico inaccesible y la pureza estética."
   },
   {
     "id": "3.4_q290",
     "number": 290,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de El beso de la mujer araña?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 40): La importancia histórica fundamental del Modernismo radica en que fue:",
     "options": [
       {
         "key": "A",
-        "text": "Manuel Puig"
+        "text": "El primer movimiento literario genuinamente hispanoamericano que influyó y revolucionó las letras de España"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Una copia tardía e irrelevante de los cantares de gesta franceses"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Un movimiento exclusivo de las islas del Caribe sin repercusión continental"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una corriente que impuso el desuso del verso métrico en todo el mundo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Manuel Puig."
+    "explanation": "Por primera vez en la historia, América Hispana ejerció el magisterio estilístico e intelectual sobre la metrópoli española."
   },
   {
     "id": "3.4_q291",
     "number": 291,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Qué es la literatura contemporánea latinoamericana?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 41): El hito inaugural del Modernismo hispanoamericano se sitúa formalmente con la publicación de:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura producida desde mediados del siglo XX hasta la actualidad"
+        "text": "'Azul...' (1888) del poeta nicaragüense Rubén Darío en Valparaíso, Chile"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Rimas' (1871) de Gustavo Adolfo Bécquer en Madrid"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Versos libres' (1882) de José Martí en Nueva York"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Ariel' (1900) del uruguayo José Enrique Rodó"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura producida desde mediados del siglo XX hasta la actualidad."
+    "explanation": "Darío fusiona cuentos en prosa artística y poemas líricos inaugurando la renovación verbal del Modernismo."
   },
   {
     "id": "3.4_q292",
     "number": 292,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Qué es la literatura del posboom?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 42): Las dos corrientes poéticas francesas que constituyeron los pilares fundamentales del Modernismo fueron:",
     "options": [
       {
         "key": "A",
-        "text": "La literatura posterior al Boom que explora nuevas formas"
+        "text": "El Parnasianismo (la perfección formal, el arte por el arte) y el Simbolismo (la musicalidad y la sinestesia)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El Clasicismo y la Ilustración enciclopedista"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El Dadaísmo y el Surrealismo automático"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "El Existencialismo y el Teatro del Absurdo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. La literatura posterior al Boom que explora nuevas formas."
+    "explanation": "Darío tomó la belleza marmórea de Leconte de Lisle y la música interior y sugerencia de Verlaine y Mallarmé."
   },
   {
     "id": "3.4_q293",
     "number": 293,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quiénes son representantes del posboom?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 43): El recurso literario característico del Modernismo que consiste en cruzar sensaciones de distintos sentidos (ej. 'dulce sonido', 'verde chillón') es:",
     "options": [
       {
         "key": "A",
-        "text": "Isabel Allende, Laura Esquivel y Roberto Bolaño"
+        "text": "La sinestesia"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El hipérbaton"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La anáfora"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La prosopopeya"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Isabel Allende, Laura Esquivel y Roberto Bolaño."
+    "explanation": "La sinestesia fue empleada por los modernistas para crear una experiencia sensorial total en el lector."
   },
   {
     "id": "3.4_q294",
     "number": 294,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es la autora de La casa de los espíritus?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 44): En 'Cantos de vida y esperanza' (1905), Rubén Darío evoluciona hacia una poesía más madura y reflexiva donde destaca:",
     "options": [
       {
         "key": "A",
-        "text": "Isabel Allende"
+        "text": "La preocupación por el destino político y cultural de Hispanoamérica frente al imperialismo anglosajón"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "El juego superficial con cisnes de porcelana y princesas chinas"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La burla satírica contra los próceres de la independencia americana"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "El rechazo definitivo al idioma castellano"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Isabel Allende."
+    "explanation": "En poemas como 'A Roosevelt', Darío defiende la identidad de la América hispana, católica y libre frente a la amenaza imperial."
   },
   {
     "id": "3.4_q295",
     "number": 295,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es la autora de Como agua para chocolate?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 45): En el poema 'A Roosevelt' de Rubén Darío, la voz poética advierte al presidente estadounidense que a la América nuestra:",
     "options": [
       {
         "key": "A",
-        "text": "Laura Esquivel"
+        "text": "'Para tenernos en vuestras férreas garras, necesitaríais ser Dios mismo'"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Le faltan soldados y armas para competir con el coloso del norte'"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Solo le queda rendirse pacíficamente a la modernidad industrial'"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Ha olvidado para siempre la sangre indígena y española'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Laura Esquivel."
+    "explanation": "Darío reivindica la fuerza espiritual de los pueblos de Moctezuma, Atahualpa y Bolívar frente a la soberbia materialista."
   },
   {
     "id": "3.4_q296",
     "number": 296,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de Los detectives salvajes?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 46): En 'Versos sencillos' (1891), el héroe y poeta cubano José Martí expresa una poética basada en:",
     "options": [
       {
         "key": "A",
-        "text": "Roberto Bolaño"
+        "text": "La autenticidad humana, el compromiso patriótico, la sinceridad y la sencillez formal"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La ornamentación mitológica aristocrática y el cosmopolitismo exótico"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "La desesperación nihilista por el sinsentido de la existencia"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La imitación de las canciones de gesta de los caballeros normandos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Roberto Bolaño."
+    "explanation": "Martí proclamó: 'Yo soy un hombre sincero / de donde crece la palma', aunando belleza ética y sencillez estética."
   },
   {
     "id": "3.4_q297",
     "number": 297,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de 2666?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 47): El ensayo 'Nuestra América' (1891) de José Martí plantea como principio de emancipación política:",
     "options": [
       {
         "key": "A",
-        "text": "Roberto Bolaño"
+        "text": "'Injértese en nuestras repúblicas el mundo; pero el tronco ha de ser el de nuestras repúblicas'"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "'Copiar íntegramente las constituciones y leyes de las naciones europeas'"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "'Permitir que los gobernantes extranjeros administren los recursos minerales'"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "'Suprimir la educación pública en las comunidades rurales'"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Roberto Bolaño."
+    "explanation": "Martí aboga por una política fundada en el conocimiento de las realidades autóctonas de los pueblos indoibéricos."
   },
   {
     "id": "3.4_q298",
     "number": 298,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de La noche de Tlatelolco?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 48): El ensayo 'Ariel' (1900) de José Enrique Rodó contrapone alegóricamente a:",
     "options": [
       {
         "key": "A",
-        "text": "Elena Poniatowska"
+        "text": "Ariel (la espiritualidad, la cultura desinteresada y el ideal latino) contra Calibán (el utilitarismo y materialismo anglosajón)"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Don Quijote contra el emperador Carlomagno"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El conquistador Hernán Cortés contra los mayas"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La ciencia médica contra la teología medieval"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Elena Poniatowska."
+    "explanation": "Rodó advirtió a la juventud hispanoamericana contra la 'nordomanía' (imitación servil del pragmatismo de EE.UU.)."
   },
   {
     "id": "3.4_q299",
     "number": 299,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de Arráncame la vida?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 49): El cisne blanco en la iconografía y simbología modernista dariana representa:",
     "options": [
       {
         "key": "A",
-        "text": "Ángeles Mastretta"
+        "text": "La belleza pura, la elegancia aristocrática, la armonía y la interrogación sobre el misterio del arte"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "La muerte violenta en el campo de batalla"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "El progreso tecnológico del ferrocarril y las máquinas de vapor"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "La sencillez de la vida campesina de los valles andinos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Ángeles Mastretta."
+    "explanation": "El cisne es el emblema por excelencia del Modernismo, símbolo del ideal artístico inaccesible y la pureza estética."
   },
   {
     "id": "3.4_q300",
     "number": 300,
     "subtopicId": "3.4",
     "subjectId": "literatura",
-    "sectionTitle": "SECCIÓN VII: LITERATURA CONTEMPORÁNEA Y TEMAS (261–300)",
-    "statement": "¿Quién es el autor de El beso de la mujer araña?",
+    "sectionTitle": "SECCIÓN VI: MODERNISMO HISPANOAMERICANO Y RENOVACIÓN POÉTICA (251–300)",
+    "statement": "Sobre la trascendencia del Modernismo hispanoamericano (reactivo 50): La importancia histórica fundamental del Modernismo radica en que fue:",
     "options": [
       {
         "key": "A",
-        "text": "Manuel Puig"
+        "text": "El primer movimiento literario genuinamente hispanoamericano que influyó y revolucionó las letras de España"
       },
       {
         "key": "B",
-        "text": "Gabriel García Márquez"
+        "text": "Una copia tardía e irrelevante de los cantares de gesta franceses"
       },
       {
         "key": "C",
-        "text": "Julio Cortázar"
+        "text": "Un movimiento exclusivo de las islas del Caribe sin repercusión continental"
       },
       {
         "key": "D",
-        "text": "Mario Vargas Llosa"
-      },
-      {
-        "key": "E",
-        "text": "Carlos Fuentes"
-      },
-      {
-        "key": "F",
-        "text": "Juan Rulfo"
+        "text": "Una corriente que impuso el desuso del verso métrico en todo el mundo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A. Manuel Puig."
+    "explanation": "Por primera vez en la historia, América Hispana ejerció el magisterio estilístico e intelectual sobre la metrópoli española."
   }
 ]

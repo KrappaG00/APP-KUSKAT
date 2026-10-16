@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Qué es el tiro parabólico?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En un gráfico de posición en función del tiempo \\( (x \\text{ vs } t) \\) para un móvil con Movimiento Rectilíneo Uniforme (MRU), la pendiente de la recta representa:",
     "options": [
       {
         "key": "A",
-        "text": "El movimiento de un cuerpo lanzado con una velocidad inicial que forma un ángulo con la horizontal"
+        "text": "La velocidad constante del móvil"
       },
       {
         "key": "B",
-        "text": "El movimiento de un cuerpo lanzado verticalmente"
+        "text": "La aceleración instantánea"
       },
       {
         "key": "C",
-        "text": "El movimiento de un cuerpo lanzado horizontalmente"
+        "text": "La fuerza centrípeta"
       },
       {
         "key": "D",
-        "text": "El movimiento de un cuerpo en círculos"
-      },
-      {
-        "key": "E",
-        "text": "El movimiento de un cuerpo en el espacio"
-      },
-      {
-        "key": "F",
-        "text": "El movimiento de un cuerpo en el agua"
+        "text": "El trabajo mecánico realizado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Tiro parabólico: velocidad inicial con ángulo."
+    "explanation": "La pendiente m = Delta x / Delta t corresponde por definición a la velocidad instantánea o media del cuerpo."
   },
   {
     "id": "5.3_q202",
     "number": 202,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Cuál es la componente horizontal de la velocidad en el tiro parabólico?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En un gráfico de velocidad en función del tiempo \\( (v \\text{ vs } t) \\), el área bajo la curva geométrica entre dos instantes de tiempo representa:",
     "options": [
       {
         "key": "A",
-        "text": "\\(v_x = v_0 \\cos\theta\\) (constante)"
+        "text": "El desplazamiento o distancia recorrida por el móvil \\( (\\Delta x) \\)"
       },
       {
         "key": "B",
-        "text": "\\(v_x = v_0 \\sen\theta\\) (constante)"
+        "text": "La masa inercial del móvil"
       },
       {
         "key": "C",
-        "text": "\\(v_x = v_0 \tan\theta\\) (constante)"
+        "text": "La aceleración gravitatoria"
       },
       {
         "key": "D",
-        "text": "\\(v_x = v_0 \\cos\theta\\) (variable)"
-      },
-      {
-        "key": "E",
-        "text": "\\(v_x = v_0 \\sen\theta\\) (variable)"
-      },
-      {
-        "key": "F",
-        "text": "\\(v_x = v_0 \tan\theta\\) (variable)"
+        "text": "La presión atmosférica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v_x = v_0 \\cos\theta\\) (constante)."
+    "explanation": "Integrando la velocidad con respecto al tiempo, el área bajo la curva v-t equivale exactamente al desplazamiento neto."
   },
   {
     "id": "5.3_q203",
     "number": 203,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Cuál es la componente vertical de la velocidad en el tiro parabólico?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "Si dos variables físicas \\( y \\) y \\( x \\) son inversamente proporcionales, su relación matemática se expresa como:",
     "options": [
       {
         "key": "A",
-        "text": "\\(v_y = v_0 \\sen\theta - g t\\) (variable)"
+        "text": "\\( y = \\frac{k}{x} \\) (su gráfica es una hipérbola equilátera)"
       },
       {
         "key": "B",
-        "text": "\\(v_y = v_0 \\cos\theta - g t\\) (variable)"
+        "text": "\\( y = k \\cdot x \\) (recta por el origen)"
       },
       {
         "key": "C",
-        "text": "\\(v_y = v_0 \tan\theta - g t\\) (variable)"
+        "text": "\\( y = k \\cdot x^2 \\) (parábola)"
       },
       {
         "key": "D",
-        "text": "\\(v_y = v_0 \\sen\theta\\) (constante)"
-      },
-      {
-        "key": "E",
-        "text": "\\(v_y = v_0 \\cos\theta\\) (constante)"
-      },
-      {
-        "key": "F",
-        "text": "\\(v_y = v_0 \tan\theta\\) (constante)"
+        "text": "\\( y = k + x \\) (recta con corte)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v_y = v_0 \\sen\theta - g t\\) (variable)."
+    "explanation": "En la proporcionalidad inversa el producto y * x = k es constante, generando una rama hiperbólica decreciente."
   },
   {
     "id": "5.3_q204",
     "number": 204,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Cuál es el alcance horizontal máximo en el tiro parabólico?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "La magnitud (módulo) de un vector en dos dimensiones \\( \\vec{A} = (A_x, A_y) \\) se calcula mediante el teorema de Pitágoras como:",
     "options": [
       {
         "key": "A",
-        "text": "\\(R = \frac{v_0^2 \\sen 2\theta}{g}\\)"
+        "text": "\\( |\\vec{A}| = \\sqrt{A_x^2 + A_y^2} \\)"
       },
       {
         "key": "B",
-        "text": "\\(R = \frac{v_0^2 \\cos 2\theta}{g}\\)"
+        "text": "\\( |\\vec{A}| = A_x + A_y \\)"
       },
       {
         "key": "C",
-        "text": "\\(R = \frac{v_0^2 \tan 2\theta}{g}\\)"
+        "text": "\\( |\\vec{A}| = A_x \\cdot A_y \\)"
       },
       {
         "key": "D",
-        "text": "\\(R = \frac{v_0 \\sen 2\theta}{g}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(R = \frac{v_0 \\cos 2\theta}{g}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(R = \frac{v_0 \tan 2\theta}{g}\\)"
+        "text": "\\( |\\vec{A}| = \\sqrt{A_x - A_y} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(R = v_0^2 \\sen 2\theta / g\\)."
+    "explanation": "La magnitud vectorial euclidiana en el plano es la raíz cuadrada de la suma de los cuadrados de sus componentes ortogonales."
   },
   {
     "id": "5.3_q205",
     "number": 205,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Cuál es la altura máxima en el tiro parabólico?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "Si un vector \\( \\vec{V} \\) tiene magnitud de \\( 10 \\, \\text{m/s} \\) y forma un ángulo de \\( 30^\\circ \\) con el eje horizontal positivo \\( x \\), su componente horizontal \\( V_x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(H = \frac{v_0^2 \\sen^2\theta}{2g}\\)"
+        "text": "\\( 10 \\cdot \\cos(30^\\circ) = 10 \\cdot \\frac{\\sqrt{3}}{2} = 5\\sqrt{3} \\approx 8.66 \\, \\text{m/s} \\)"
       },
       {
         "key": "B",
-        "text": "\\(H = \frac{v_0^2 \\cos^2\theta}{2g}\\)"
+        "text": "\\( 10 \\cdot \\sin(30^\\circ) = 5.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "C",
-        "text": "\\(H = \frac{v_0^2 \tan^2\theta}{2g}\\)"
+        "text": "\\( 10 \\cdot \\tan(30^\\circ) = 5.77 \\, \\text{m/s} \\)"
       },
       {
         "key": "D",
-        "text": "\\(H = \frac{v_0 \\sen^2\theta}{2g}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(H = \frac{v_0 \\cos^2\theta}{2g}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(H = \frac{v_0 \tan^2\theta}{2g}\\)"
+        "text": "\\( 10 \\, \\text{m/s} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(H = v_0^2 \\sen^2\theta / (2g)\\)."
+    "explanation": "La componente adyacente es Vx = V * cos(theta) = 10 * cos(30°) = 5*sqrt(3) m/s."
   },
   {
     "id": "5.3_q206",
     "number": 206,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Cuál es el tiempo de vuelo en el tiro parabólico?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "Para el mismo vector de \\( 10 \\, \\text{m/s} \\) a \\( 30^\\circ \\), su componente vertical \\( V_y \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(t_v = \frac{2 v_0 \\sen\theta}{g}\\)"
+        "text": "\\( 10 \\cdot \\sin(30^\\circ) = 10 \\cdot 0.5 = 5.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "B",
-        "text": "\\(t_v = \frac{2 v_0 \\cos\theta}{g}\\)"
+        "text": "\\( 8.66 \\, \\text{m/s} \\)"
       },
       {
         "key": "C",
-        "text": "\\(t_v = \frac{2 v_0 \tan\theta}{g}\\)"
+        "text": "\\( 10.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "D",
-        "text": "\\(t_v = \frac{v_0 \\sen\theta}{g}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(t_v = \frac{v_0 \\cos\theta}{g}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(t_v = \frac{v_0 \tan\theta}{g}\\)"
+        "text": "\\( 0 \\, \\text{m/s} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t_v = 2 v_0 \\sen\theta / g\\)."
+    "explanation": "La componente vertical opuesta es Vy = V * sin(theta) = 10 * sin(30°) = 5.0 m/s."
   },
   {
     "id": "5.3_q207",
     "number": 207,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 20 \\, \text{m/s}\\) y \\(\theta = 30°\\). ¿Cuál es su alcance máximo?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "El producto escalar (producto punto) entre dos vectores perpendiculares \\( \\vec{A} \\perp \\vec{B} \\) es siempre igual a:",
     "options": [
       {
         "key": "A",
-        "text": "\\(35.35 \\, \text{m}\\)"
+        "text": "Cero \\( (\\vec{A} \\cdot \\vec{B} = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(17.68 \\, \text{m}\\)"
+        "text": "El producto de sus magnitudes"
       },
       {
         "key": "C",
-        "text": "\\(70.70 \\, \text{m}\\)"
+        "text": "Uno"
       },
       {
         "key": "D",
-        "text": "\\(53.03 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(88.38 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(26.52 \\, \text{m}\\)"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(R = 20^2 \\sen 60° / 9.8 = 35.35 \\, \text{m}\\)."
+    "explanation": "A · B = |A||B| cos(90°). Como cos(90°) = 0, el producto escalar de dos vectores ortogonales es nulo."
   },
   {
     "id": "5.3_q208",
     "number": 208,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 30 \\, \text{m/s}\\) y \\(\theta = 45°\\). ¿Cuál es su alcance máximo?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "Dados los vectores \\( \\vec{A} = (3, 4) \\) y \\( \\vec{B} = (2, -1) \\), el vector suma \\( \\vec{R} = \\vec{A} + \\vec{B} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(91.84 \\, \text{m}\\)"
+        "text": "\\( (5, 3) \\)"
       },
       {
         "key": "B",
-        "text": "\\(45.92 \\, \text{m}\\)"
+        "text": "\\( (1, 5) \\)"
       },
       {
         "key": "C",
-        "text": "\\(183.68 \\, \text{m}\\)"
+        "text": "\\( (6, -4) \\)"
       },
       {
         "key": "D",
-        "text": "\\(137.76 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(229.60 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(68.88 \\, \text{m}\\)"
+        "text": "\\( (5, 5) \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(R = 30^2 \\sen 90° / 9.8 = 91.84 \\, \text{m}\\)."
+    "explanation": "Se suman componente a componente: Rx = 3 + 2 = 5; Ry = 4 + (-1) = 3; luego R = (5, 3)."
   },
   {
     "id": "5.3_q209",
     "number": 209,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 40 \\, \text{m/s}\\) y \\(\theta = 60°\\). ¿Cuál es su alcance máximo?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "La dirección (ángulo \\( \\theta \\)) de un vector en el primer cuadrante cuyas componentes son \\( A_x = 4 \\) y \\( A_y = 4 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(141.39 \\, \text{m}\\)"
+        "text": "\\( 45^\\circ \\)"
       },
       {
         "key": "B",
-        "text": "\\(70.70 \\, \text{m}\\)"
+        "text": "\\( 30^\\circ \\)"
       },
       {
         "key": "C",
-        "text": "\\(282.78 \\, \text{m}\\)"
+        "text": "\\( 60^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(212.09 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(353.48 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(106.04 \\, \text{m}\\)"
+        "text": "\\( 90^\\circ \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(R = 40^2 \\sen 120° / 9.8 = 141.39 \\, \text{m}\\)."
+    "explanation": "theta = arctan(Ay / Ax) = arctan(4/4) = arctan(1) = 45°."
   },
   {
     "id": "5.3_q210",
     "number": 210,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 50 \\, \text{m/s}\\) y \\(\theta = 30°\\). ¿Cuál es su altura máxima?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "Una magnitud física vectorial se diferencia de una magnitud escalar porque requiere especificar obligatoriamente:",
     "options": [
       {
         "key": "A",
-        "text": "\\(31.89 \\, \text{m}\\)"
+        "text": "Magnitud (valor numérico y unidad), dirección y sentido"
       },
       {
         "key": "B",
-        "text": "\\(15.94 \\, \text{m}\\)"
+        "text": "Únicamente un número positivo"
       },
       {
         "key": "C",
-        "text": "\\(63.78 \\, \text{m}\\)"
+        "text": "La temperatura a la que fue medida"
       },
       {
         "key": "D",
-        "text": "\\(47.83 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(79.72 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(23.92 \\, \text{m}\\)"
+        "text": "El color del cuerpo que se desplaza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(H = 50^2 \\sen^2 30° / (2 \\cdot 9.8) = 31.89 \\, \text{m}\\)."
+    "explanation": "Un escalar queda determinado por su valor y unidad (ej. masa, tiempo); un vector exige además dirección y sentido."
   },
   {
     "id": "5.3_q211",
     "number": 211,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 30 \\, \text{m/s}\\) y \\(\theta = 45°\\). ¿Cuál es su altura máxima?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 11): En un gráfico de posición en función del tiempo \\( (x \\text{ vs } t) \\) para un móvil con Movimiento Rectilíneo Uniforme (MRU), la pendiente de la recta representa:",
     "options": [
       {
         "key": "A",
-        "text": "\\(22.96 \\, \text{m}\\)"
+        "text": "La velocidad constante del móvil"
       },
       {
         "key": "B",
-        "text": "\\(11.48 \\, \text{m}\\)"
+        "text": "La aceleración instantánea"
       },
       {
         "key": "C",
-        "text": "\\(45.92 \\, \text{m}\\)"
+        "text": "La fuerza centrípeta"
       },
       {
         "key": "D",
-        "text": "\\(34.44 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(57.40 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(17.22 \\, \text{m}\\)"
+        "text": "El trabajo mecánico realizado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(H = 30^2 \\sen^2 45° / (2 \\cdot 9.8) = 22.96 \\, \text{m}\\)."
+    "explanation": "La pendiente m = Delta x / Delta t corresponde por definición a la velocidad instantánea o media del cuerpo."
   },
   {
     "id": "5.3_q212",
     "number": 212,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 40 \\, \text{m/s}\\) y \\(\theta = 60°\\). ¿Cuál es su altura máxima?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 12): En un gráfico de velocidad en función del tiempo \\( (v \\text{ vs } t) \\), el área bajo la curva geométrica entre dos instantes de tiempo representa:",
     "options": [
       {
         "key": "A",
-        "text": "\\(61.22 \\, \text{m}\\)"
+        "text": "El desplazamiento o distancia recorrida por el móvil \\( (\\Delta x) \\)"
       },
       {
         "key": "B",
-        "text": "\\(30.61 \\, \text{m}\\)"
+        "text": "La masa inercial del móvil"
       },
       {
         "key": "C",
-        "text": "\\(122.44 \\, \text{m}\\)"
+        "text": "La aceleración gravitatoria"
       },
       {
         "key": "D",
-        "text": "\\(91.83 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(153.05 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(45.92 \\, \text{m}\\)"
+        "text": "La presión atmosférica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(H = 40^2 \\sen^2 60° / (2 \\cdot 9.8) = 61.22 \\, \text{m}\\)."
+    "explanation": "Integrando la velocidad con respecto al tiempo, el área bajo la curva v-t equivale exactamente al desplazamiento neto."
   },
   {
     "id": "5.3_q213",
     "number": 213,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 20 \\, \text{m/s}\\) y \\(\theta = 30°\\). ¿Cuál es su tiempo de vuelo?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 13): Si dos variables físicas \\( y \\) y \\( x \\) son inversamente proporcionales, su relación matemática se expresa como:",
     "options": [
       {
         "key": "A",
-        "text": "\\(2.04 \\, \text{s}\\)"
+        "text": "\\( y = \\frac{k}{x} \\) (su gráfica es una hipérbola equilátera)"
       },
       {
         "key": "B",
-        "text": "\\(1.02 \\, \text{s}\\)"
+        "text": "\\( y = k \\cdot x \\) (recta por el origen)"
       },
       {
         "key": "C",
-        "text": "\\(4.08 \\, \text{s}\\)"
+        "text": "\\( y = k \\cdot x^2 \\) (parábola)"
       },
       {
         "key": "D",
-        "text": "\\(3.06 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(5.10 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(0.51 \\, \text{s}\\)"
+        "text": "\\( y = k + x \\) (recta con corte)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t_v = 2(20)\\sen 30° / 9.8 = 2.04 \\, \text{s}\\)."
+    "explanation": "En la proporcionalidad inversa el producto y * x = k es constante, generando una rama hiperbólica decreciente."
   },
   {
     "id": "5.3_q214",
     "number": 214,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 30 \\, \text{m/s}\\) y \\(\theta = 45°\\). ¿Cuál es su tiempo de vuelo?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 14): La magnitud (módulo) de un vector en dos dimensiones \\( \\vec{A} = (A_x, A_y) \\) se calcula mediante el teorema de Pitágoras como:",
     "options": [
       {
         "key": "A",
-        "text": "\\(4.33 \\, \text{s}\\)"
+        "text": "\\( |\\vec{A}| = \\sqrt{A_x^2 + A_y^2} \\)"
       },
       {
         "key": "B",
-        "text": "\\(2.16 \\, \text{s}\\)"
+        "text": "\\( |\\vec{A}| = A_x + A_y \\)"
       },
       {
         "key": "C",
-        "text": "\\(8.66 \\, \text{s}\\)"
+        "text": "\\( |\\vec{A}| = A_x \\cdot A_y \\)"
       },
       {
         "key": "D",
-        "text": "\\(6.49 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(10.82 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1.08 \\, \text{s}\\)"
+        "text": "\\( |\\vec{A}| = \\sqrt{A_x - A_y} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t_v = 2(30)\\sen 45° / 9.8 = 4.33 \\, \text{s}\\)."
+    "explanation": "La magnitud vectorial euclidiana en el plano es la raíz cuadrada de la suma de los cuadrados de sus componentes ortogonales."
   },
   {
     "id": "5.3_q215",
     "number": 215,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 40 \\, \text{m/s}\\) y \\(\theta = 60°\\). ¿Cuál es su tiempo de vuelo?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 15): Si un vector \\( \\vec{V} \\) tiene magnitud de \\( 10 \\, \\text{m/s} \\) y forma un ángulo de \\( 30^\\circ \\) con el eje horizontal positivo \\( x \\), su componente horizontal \\( V_x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(7.07 \\, \text{s}\\)"
+        "text": "\\( 10 \\cdot \\cos(30^\\circ) = 10 \\cdot \\frac{\\sqrt{3}}{2} = 5\\sqrt{3} \\approx 8.66 \\, \\text{m/s} \\)"
       },
       {
         "key": "B",
-        "text": "\\(3.54 \\, \text{s}\\)"
+        "text": "\\( 10 \\cdot \\sin(30^\\circ) = 5.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "C",
-        "text": "\\(14.14 \\, \text{s}\\)"
+        "text": "\\( 10 \\cdot \\tan(30^\\circ) = 5.77 \\, \\text{m/s} \\)"
       },
       {
         "key": "D",
-        "text": "\\(10.61 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(17.68 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1.77 \\, \text{s}\\)"
+        "text": "\\( 10 \\, \\text{m/s} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t_v = 2(40)\\sen 60° / 9.8 = 7.07 \\, \text{s}\\)."
+    "explanation": "La componente adyacente es Vx = V * cos(theta) = 10 * cos(30°) = 5*sqrt(3) m/s."
   },
   {
     "id": "5.3_q216",
     "number": 216,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Qué es la velocidad angular?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 16): Para el mismo vector de \\( 10 \\, \\text{m/s} \\) a \\( 30^\\circ \\), su componente vertical \\( V_y \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "La variación del ángulo por unidad de tiempo"
+        "text": "\\( 10 \\cdot \\sin(30^\\circ) = 10 \\cdot 0.5 = 5.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "B",
-        "text": "La variación de la posición por unidad de tiempo"
+        "text": "\\( 8.66 \\, \\text{m/s} \\)"
       },
       {
         "key": "C",
-        "text": "La variación de la velocidad por unidad de tiempo"
+        "text": "\\( 10.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "D",
-        "text": "La variación de la masa por unidad de tiempo"
-      },
-      {
-        "key": "E",
-        "text": "La variación de la fuerza por unidad de tiempo"
-      },
-      {
-        "key": "F",
-        "text": "La variación de la energía por unidad de tiempo"
+        "text": "\\( 0 \\, \\text{m/s} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Velocidad angular: variación del ángulo/tiempo."
+    "explanation": "La componente vertical opuesta es Vy = V * sin(theta) = 10 * sin(30°) = 5.0 m/s."
   },
   {
     "id": "5.3_q217",
     "number": 217,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Cuál es la unidad de velocidad angular?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 17): El producto escalar (producto punto) entre dos vectores perpendiculares \\( \\vec{A} \\perp \\vec{B} \\) es siempre igual a:",
     "options": [
       {
         "key": "A",
-        "text": "\\(rad/s\\)"
+        "text": "Cero \\( (\\vec{A} \\cdot \\vec{B} = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(m/s\\)"
+        "text": "El producto de sus magnitudes"
       },
       {
         "key": "C",
-        "text": "\\(m/s²\\)"
+        "text": "Uno"
       },
       {
         "key": "D",
-        "text": "rad"
-      },
-      {
-        "key": "E",
-        "text": "m"
-      },
-      {
-        "key": "F",
-        "text": "s"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Unidad de velocidad angular: rad/s."
+    "explanation": "A · B = |A||B| cos(90°). Como cos(90°) = 0, el producto escalar de dos vectores ortogonales es nulo."
   },
   {
     "id": "5.3_q218",
     "number": 218,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Qué es el movimiento circular uniforme (MCU)?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 18): Dados los vectores \\( \\vec{A} = (3, 4) \\) y \\( \\vec{B} = (2, -1) \\), el vector suma \\( \\vec{R} = \\vec{A} + \\vec{B} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "El movimiento con velocidad angular constante en una trayectoria circular"
+        "text": "\\( (5, 3) \\)"
       },
       {
         "key": "B",
-        "text": "El movimiento con velocidad angular variable"
+        "text": "\\( (1, 5) \\)"
       },
       {
         "key": "C",
-        "text": "El movimiento con aceleración angular constante"
+        "text": "\\( (6, -4) \\)"
       },
       {
         "key": "D",
-        "text": "El movimiento en línea recta"
-      },
-      {
-        "key": "E",
-        "text": "El movimiento en el espacio"
-      },
-      {
-        "key": "F",
-        "text": "El movimiento en el agua"
+        "text": "\\( (5, 5) \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "MCU: velocidad angular constante."
+    "explanation": "Se suman componente a componente: Rx = 3 + 2 = 5; Ry = 4 + (-1) = 3; luego R = (5, 3)."
   },
   {
     "id": "5.3_q219",
     "number": 219,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Cuál es la fórmula de la velocidad tangencial en el MCU?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 19): La dirección (ángulo \\( \\theta \\)) de un vector en el primer cuadrante cuyas componentes son \\( A_x = 4 \\) y \\( A_y = 4 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(v = \\omega \\cdot r\\)"
+        "text": "\\( 45^\\circ \\)"
       },
       {
         "key": "B",
-        "text": "\\(v = \\omega / r\\)"
+        "text": "\\( 30^\\circ \\)"
       },
       {
         "key": "C",
-        "text": "\\(v = r / \\omega\\)"
+        "text": "\\( 60^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(v = \\omega + r\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(v = \\omega - r\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(v = \\omega \\cdot r^2\\)"
+        "text": "\\( 90^\\circ \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v = \\omega r\\)."
+    "explanation": "theta = arctan(Ay / Ax) = arctan(4/4) = arctan(1) = 45°."
   },
   {
     "id": "5.3_q220",
     "number": 220,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Cuál es la fórmula de la aceleración centrípeta en el MCU?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 20): Una magnitud física vectorial se diferencia de una magnitud escalar porque requiere especificar obligatoriamente:",
     "options": [
       {
         "key": "A",
-        "text": "\\(a_c = \frac{v^2}{r}\\)"
+        "text": "Magnitud (valor numérico y unidad), dirección y sentido"
       },
       {
         "key": "B",
-        "text": "\\(a_c = \frac{r}{v^2}\\)"
+        "text": "Únicamente un número positivo"
       },
       {
         "key": "C",
-        "text": "\\(a_c = v^2 \\cdot r\\)"
+        "text": "La temperatura a la que fue medida"
       },
       {
         "key": "D",
-        "text": "\\(a_c = \frac{v}{r}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(a_c = \frac{r}{v}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(a_c = v \\cdot r\\)"
+        "text": "El color del cuerpo que se desplaza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(a_c = v^2/r\\)."
+    "explanation": "Un escalar queda determinado por su valor y unidad (ej. masa, tiempo); un vector exige además dirección y sentido."
   },
   {
     "id": "5.3_q221",
     "number": 221,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Qué es la caída libre?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 21): En un gráfico de posición en función del tiempo \\( (x \\text{ vs } t) \\) para un móvil con Movimiento Rectilíneo Uniforme (MRU), la pendiente de la recta representa:",
     "options": [
       {
         "key": "A",
-        "text": "El movimiento de un cuerpo bajo la acción de la gravedad, sin resistencia del aire"
+        "text": "La velocidad constante del móvil"
       },
       {
         "key": "B",
-        "text": "El movimiento de un cuerpo con velocidad constante"
+        "text": "La aceleración instantánea"
       },
       {
         "key": "C",
-        "text": "El movimiento de un cuerpo con aceleración variable"
+        "text": "La fuerza centrípeta"
       },
       {
         "key": "D",
-        "text": "El movimiento de un cuerpo en círculos"
-      },
-      {
-        "key": "E",
-        "text": "El movimiento de un cuerpo en el espacio"
-      },
-      {
-        "key": "F",
-        "text": "El movimiento de un cuerpo en el agua"
+        "text": "El trabajo mecánico realizado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Caída libre: gravedad sin resistencia del aire."
+    "explanation": "La pendiente m = Delta x / Delta t corresponde por definición a la velocidad instantánea o media del cuerpo."
   },
   {
     "id": "5.3_q222",
     "number": 222,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Cuál es la aceleración en la caída libre?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 22): En un gráfico de velocidad en función del tiempo \\( (v \\text{ vs } t) \\), el área bajo la curva geométrica entre dos instantes de tiempo representa:",
     "options": [
       {
         "key": "A",
-        "text": "\\(9.8 \\, \text{m/s}^2\\) hacia abajo"
+        "text": "El desplazamiento o distancia recorrida por el móvil \\( (\\Delta x) \\)"
       },
       {
         "key": "B",
-        "text": "\\(9.8 \\, \text{m/s}^2\\) hacia arriba"
+        "text": "La masa inercial del móvil"
       },
       {
         "key": "C",
-        "text": "\\(0 \\, \text{m/s}^2\\)"
+        "text": "La aceleración gravitatoria"
       },
       {
         "key": "D",
-        "text": "\\(10 \\, \text{m/s}^2\\) hacia arriba"
-      },
-      {
-        "key": "E",
-        "text": "\\(5 \\, \text{m/s}^2\\) hacia abajo"
-      },
-      {
-        "key": "F",
-        "text": "\\(20 \\, \text{m/s}^2\\) hacia abajo"
+        "text": "La presión atmosférica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(g = 9.8 \\, \text{m/s}^2\\) hacia abajo."
+    "explanation": "Integrando la velocidad con respecto al tiempo, el área bajo la curva v-t equivale exactamente al desplazamiento neto."
   },
   {
     "id": "5.3_q223",
     "number": 223,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Cuál es la fórmula de la velocidad en la caída libre?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 23): Si dos variables físicas \\( y \\) y \\( x \\) son inversamente proporcionales, su relación matemática se expresa como:",
     "options": [
       {
         "key": "A",
-        "text": "\\(v = g \\cdot t\\)"
+        "text": "\\( y = \\frac{k}{x} \\) (su gráfica es una hipérbola equilátera)"
       },
       {
         "key": "B",
-        "text": "\\(v = g / t\\)"
+        "text": "\\( y = k \\cdot x \\) (recta por el origen)"
       },
       {
         "key": "C",
-        "text": "\\(v = t / g\\)"
+        "text": "\\( y = k \\cdot x^2 \\) (parábola)"
       },
       {
         "key": "D",
-        "text": "\\(v = g + t\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(v = g - t\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(v = g \\cdot t^2\\)"
+        "text": "\\( y = k + x \\) (recta con corte)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v = g t\\)."
+    "explanation": "En la proporcionalidad inversa el producto y * x = k es constante, generando una rama hiperbólica decreciente."
   },
   {
     "id": "5.3_q224",
     "number": 224,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Cuál es la fórmula de la distancia en la caída libre?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 24): La magnitud (módulo) de un vector en dos dimensiones \\( \\vec{A} = (A_x, A_y) \\) se calcula mediante el teorema de Pitágoras como:",
     "options": [
       {
         "key": "A",
-        "text": "\\(h = \frac{1}{2} g \\cdot t^2\\)"
+        "text": "\\( |\\vec{A}| = \\sqrt{A_x^2 + A_y^2} \\)"
       },
       {
         "key": "B",
-        "text": "\\(h = g \\cdot t^2\\)"
+        "text": "\\( |\\vec{A}| = A_x + A_y \\)"
       },
       {
         "key": "C",
-        "text": "\\(h = \frac{1}{2} g \\cdot t\\)"
+        "text": "\\( |\\vec{A}| = A_x \\cdot A_y \\)"
       },
       {
         "key": "D",
-        "text": "\\(h = g \\cdot t\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(h = \frac{1}{2} g^2 \\cdot t\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(h = g^2 \\cdot t^2\\)"
+        "text": "\\( |\\vec{A}| = \\sqrt{A_x - A_y} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(h = \frac{1}{2} g t^2\\)."
+    "explanation": "La magnitud vectorial euclidiana en el plano es la raíz cuadrada de la suma de los cuadrados de sus componentes ortogonales."
   },
   {
     "id": "5.3_q225",
     "number": 225,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "¿Cuál es la fórmula de la velocidad final en la caída libre?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 25): Si un vector \\( \\vec{V} \\) tiene magnitud de \\( 10 \\, \\text{m/s} \\) y forma un ángulo de \\( 30^\\circ \\) con el eje horizontal positivo \\( x \\), su componente horizontal \\( V_x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(v = \\sqrt{2 g h}\\)"
+        "text": "\\( 10 \\cdot \\cos(30^\\circ) = 10 \\cdot \\frac{\\sqrt{3}}{2} = 5\\sqrt{3} \\approx 8.66 \\, \\text{m/s} \\)"
       },
       {
         "key": "B",
-        "text": "\\(v = 2 g h\\)"
+        "text": "\\( 10 \\cdot \\sin(30^\\circ) = 5.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "C",
-        "text": "\\(v = \\sqrt{g h}\\)"
+        "text": "\\( 10 \\cdot \\tan(30^\\circ) = 5.77 \\, \\text{m/s} \\)"
       },
       {
         "key": "D",
-        "text": "\\(v = g h\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(v = \\sqrt{2 g / h}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(v = 2 g / h\\)"
+        "text": "\\( 10 \\, \\text{m/s} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v = \\sqrt{2 g h}\\)."
+    "explanation": "La componente adyacente es Vx = V * cos(theta) = 10 * cos(30°) = 5*sqrt(3) m/s."
   },
   {
     "id": "5.3_q226",
     "number": 226,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto cae libremente desde el reposo durante \\(2 \\, \text{s}\\). ¿Cuál es su velocidad final?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 26): Para el mismo vector de \\( 10 \\, \\text{m/s} \\) a \\( 30^\\circ \\), su componente vertical \\( V_y \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(19.6 \\, \text{m/s}\\)"
+        "text": "\\( 10 \\cdot \\sin(30^\\circ) = 10 \\cdot 0.5 = 5.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "B",
-        "text": "\\(9.8 \\, \text{m/s}\\)"
+        "text": "\\( 8.66 \\, \\text{m/s} \\)"
       },
       {
         "key": "C",
-        "text": "\\(4.9 \\, \text{m/s}\\)"
+        "text": "\\( 10.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "D",
-        "text": "\\(39.2 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(29.4 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(14.7 \\, \text{m/s}\\)"
+        "text": "\\( 0 \\, \\text{m/s} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v = 9.8(2) = 19.6 \\, \text{m/s}\\)."
+    "explanation": "La componente vertical opuesta es Vy = V * sin(theta) = 10 * sin(30°) = 5.0 m/s."
   },
   {
     "id": "5.3_q227",
     "number": 227,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto cae libremente desde el reposo durante \\(3 \\, \text{s}\\). ¿Cuál es su velocidad final?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 27): El producto escalar (producto punto) entre dos vectores perpendiculares \\( \\vec{A} \\perp \\vec{B} \\) es siempre igual a:",
     "options": [
       {
         "key": "A",
-        "text": "\\(29.4 \\, \text{m/s}\\)"
+        "text": "Cero \\( (\\vec{A} \\cdot \\vec{B} = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(9.8 \\, \text{m/s}\\)"
+        "text": "El producto de sus magnitudes"
       },
       {
         "key": "C",
-        "text": "\\(19.6 \\, \text{m/s}\\)"
+        "text": "Uno"
       },
       {
         "key": "D",
-        "text": "\\(39.2 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(49.0 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(14.7 \\, \text{m/s}\\)"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v = 9.8(3) = 29.4 \\, \text{m/s}\\)."
+    "explanation": "A · B = |A||B| cos(90°). Como cos(90°) = 0, el producto escalar de dos vectores ortogonales es nulo."
   },
   {
     "id": "5.3_q228",
     "number": 228,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto cae libremente desde el reposo durante \\(4 \\, \text{s}\\). ¿Cuál es su velocidad final?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 28): Dados los vectores \\( \\vec{A} = (3, 4) \\) y \\( \\vec{B} = (2, -1) \\), el vector suma \\( \\vec{R} = \\vec{A} + \\vec{B} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(39.2 \\, \text{m/s}\\)"
+        "text": "\\( (5, 3) \\)"
       },
       {
         "key": "B",
-        "text": "\\(9.8 \\, \text{m/s}\\)"
+        "text": "\\( (1, 5) \\)"
       },
       {
         "key": "C",
-        "text": "\\(19.6 \\, \text{m/s}\\)"
+        "text": "\\( (6, -4) \\)"
       },
       {
         "key": "D",
-        "text": "\\(29.4 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(49.0 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(14.7 \\, \text{m/s}\\)"
+        "text": "\\( (5, 5) \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v = 9.8(4) = 39.2 \\, \text{m/s}\\)."
+    "explanation": "Se suman componente a componente: Rx = 3 + 2 = 5; Ry = 4 + (-1) = 3; luego R = (5, 3)."
   },
   {
     "id": "5.3_q229",
     "number": 229,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto cae libremente desde el reposo durante \\(5 \\, \text{s}\\). ¿Cuál es su velocidad final?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 29): La dirección (ángulo \\( \\theta \\)) de un vector en el primer cuadrante cuyas componentes son \\( A_x = 4 \\) y \\( A_y = 4 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(49.0 \\, \text{m/s}\\)"
+        "text": "\\( 45^\\circ \\)"
       },
       {
         "key": "B",
-        "text": "\\(9.8 \\, \text{m/s}\\)"
+        "text": "\\( 30^\\circ \\)"
       },
       {
         "key": "C",
-        "text": "\\(19.6 \\, \text{m/s}\\)"
+        "text": "\\( 60^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(29.4 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(39.2 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(14.7 \\, \text{m/s}\\)"
+        "text": "\\( 90^\\circ \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v = 9.8(5) = 49.0 \\, \text{m/s}\\)."
+    "explanation": "theta = arctan(Ay / Ax) = arctan(4/4) = arctan(1) = 45°."
   },
   {
     "id": "5.3_q230",
     "number": 230,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto cae libremente desde el reposo durante \\(2 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 30): Una magnitud física vectorial se diferencia de una magnitud escalar porque requiere especificar obligatoriamente:",
     "options": [
       {
         "key": "A",
-        "text": "\\(19.6 \\, \text{m}\\)"
+        "text": "Magnitud (valor numérico y unidad), dirección y sentido"
       },
       {
         "key": "B",
-        "text": "\\(9.8 \\, \text{m}\\)"
+        "text": "Únicamente un número positivo"
       },
       {
         "key": "C",
-        "text": "\\(4.9 \\, \text{m}\\)"
+        "text": "La temperatura a la que fue medida"
       },
       {
         "key": "D",
-        "text": "\\(39.2 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(29.4 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(14.7 \\, \text{m}\\)"
+        "text": "El color del cuerpo que se desplaza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(h = \frac{1}{2}(9.8)(4) = 19.6 \\, \text{m}\\)."
+    "explanation": "Un escalar queda determinado por su valor y unidad (ej. masa, tiempo); un vector exige además dirección y sentido."
   },
   {
     "id": "5.3_q231",
     "number": 231,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto cae libremente desde el reposo durante \\(3 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 31): En un gráfico de posición en función del tiempo \\( (x \\text{ vs } t) \\) para un móvil con Movimiento Rectilíneo Uniforme (MRU), la pendiente de la recta representa:",
     "options": [
       {
         "key": "A",
-        "text": "\\(44.1 \\, \text{m}\\)"
+        "text": "La velocidad constante del móvil"
       },
       {
         "key": "B",
-        "text": "\\(9.8 \\, \text{m}\\)"
+        "text": "La aceleración instantánea"
       },
       {
         "key": "C",
-        "text": "\\(19.6 \\, \text{m}\\)"
+        "text": "La fuerza centrípeta"
       },
       {
         "key": "D",
-        "text": "\\(29.4 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(39.2 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(14.7 \\, \text{m}\\)"
+        "text": "El trabajo mecánico realizado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(h = \frac{1}{2}(9.8)(9) = 44.1 \\, \text{m}\\)."
+    "explanation": "La pendiente m = Delta x / Delta t corresponde por definición a la velocidad instantánea o media del cuerpo."
   },
   {
     "id": "5.3_q232",
     "number": 232,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto cae libremente desde el reposo durante \\(4 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 32): En un gráfico de velocidad en función del tiempo \\( (v \\text{ vs } t) \\), el área bajo la curva geométrica entre dos instantes de tiempo representa:",
     "options": [
       {
         "key": "A",
-        "text": "\\(78.4 \\, \text{m}\\)"
+        "text": "El desplazamiento o distancia recorrida por el móvil \\( (\\Delta x) \\)"
       },
       {
         "key": "B",
-        "text": "\\(9.8 \\, \text{m}\\)"
+        "text": "La masa inercial del móvil"
       },
       {
         "key": "C",
-        "text": "\\(19.6 \\, \text{m}\\)"
+        "text": "La aceleración gravitatoria"
       },
       {
         "key": "D",
-        "text": "\\(29.4 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(39.2 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(14.7 \\, \text{m}\\)"
+        "text": "La presión atmosférica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(h = \frac{1}{2}(9.8)(16) = 78.4 \\, \text{m}\\)."
+    "explanation": "Integrando la velocidad con respecto al tiempo, el área bajo la curva v-t equivale exactamente al desplazamiento neto."
   },
   {
     "id": "5.3_q233",
     "number": 233,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto cae libremente desde el reposo durante \\(5 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 33): Si dos variables físicas \\( y \\) y \\( x \\) son inversamente proporcionales, su relación matemática se expresa como:",
     "options": [
       {
         "key": "A",
-        "text": "\\(122.5 \\, \text{m}\\)"
+        "text": "\\( y = \\frac{k}{x} \\) (su gráfica es una hipérbola equilátera)"
       },
       {
         "key": "B",
-        "text": "\\(9.8 \\, \text{m}\\)"
+        "text": "\\( y = k \\cdot x \\) (recta por el origen)"
       },
       {
         "key": "C",
-        "text": "\\(19.6 \\, \text{m}\\)"
+        "text": "\\( y = k \\cdot x^2 \\) (parábola)"
       },
       {
         "key": "D",
-        "text": "\\(29.4 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(39.2 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(14.7 \\, \text{m}\\)"
+        "text": "\\( y = k + x \\) (recta con corte)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(h = \frac{1}{2}(9.8)(25) = 122.5 \\, \text{m}\\)."
+    "explanation": "En la proporcionalidad inversa el producto y * x = k es constante, generando una rama hiperbólica decreciente."
   },
   {
     "id": "5.3_q234",
     "number": 234,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto se lanza verticalmente hacia arriba con una velocidad inicial de \\(20 \\, \text{m/s}\\). ¿Cuál es su velocidad en el punto más alto?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 34): La magnitud (módulo) de un vector en dos dimensiones \\( \\vec{A} = (A_x, A_y) \\) se calcula mediante el teorema de Pitágoras como:",
     "options": [
       {
         "key": "A",
-        "text": "\\(0 \\, \text{m/s}\\)"
+        "text": "\\( |\\vec{A}| = \\sqrt{A_x^2 + A_y^2} \\)"
       },
       {
         "key": "B",
-        "text": "\\(20 \\, \text{m/s}\\)"
+        "text": "\\( |\\vec{A}| = A_x + A_y \\)"
       },
       {
         "key": "C",
-        "text": "\\(10 \\, \text{m/s}\\)"
+        "text": "\\( |\\vec{A}| = A_x \\cdot A_y \\)"
       },
       {
         "key": "D",
-        "text": "\\(-20 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(9.8 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(-9.8 \\, \text{m/s}\\)"
+        "text": "\\( |\\vec{A}| = \\sqrt{A_x - A_y} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En el punto más alto, \\(v = 0\\)."
+    "explanation": "La magnitud vectorial euclidiana en el plano es la raíz cuadrada de la suma de los cuadrados de sus componentes ortogonales."
   },
   {
     "id": "5.3_q235",
     "number": 235,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto se lanza verticalmente hacia arriba con una velocidad inicial de \\(20 \\, \text{m/s}\\). ¿Cuánto tiempo tarda en alcanzar el punto más alto?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 35): Si un vector \\( \\vec{V} \\) tiene magnitud de \\( 10 \\, \\text{m/s} \\) y forma un ángulo de \\( 30^\\circ \\) con el eje horizontal positivo \\( x \\), su componente horizontal \\( V_x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(2.04 \\, \text{s}\\)"
+        "text": "\\( 10 \\cdot \\cos(30^\\circ) = 10 \\cdot \\frac{\\sqrt{3}}{2} = 5\\sqrt{3} \\approx 8.66 \\, \\text{m/s} \\)"
       },
       {
         "key": "B",
-        "text": "\\(1.02 \\, \text{s}\\)"
+        "text": "\\( 10 \\cdot \\sin(30^\\circ) = 5.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "C",
-        "text": "\\(4.08 \\, \text{s}\\)"
+        "text": "\\( 10 \\cdot \\tan(30^\\circ) = 5.77 \\, \\text{m/s} \\)"
       },
       {
         "key": "D",
-        "text": "\\(3.06 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(5.10 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(0.51 \\, \text{s}\\)"
+        "text": "\\( 10 \\, \\text{m/s} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = 20/9.8 = 2.04 \\, \text{s}\\)."
+    "explanation": "La componente adyacente es Vx = V * cos(theta) = 10 * cos(30°) = 5*sqrt(3) m/s."
   },
   {
     "id": "5.3_q236",
     "number": 236,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto se lanza verticalmente hacia arriba con una velocidad inicial de \\(30 \\, \text{m/s}\\). ¿Cuánto tiempo tarda en alcanzar el punto más alto?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 36): Para el mismo vector de \\( 10 \\, \\text{m/s} \\) a \\( 30^\\circ \\), su componente vertical \\( V_y \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(3.06 \\, \text{s}\\)"
+        "text": "\\( 10 \\cdot \\sin(30^\\circ) = 10 \\cdot 0.5 = 5.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "B",
-        "text": "\\(1.53 \\, \text{s}\\)"
+        "text": "\\( 8.66 \\, \\text{m/s} \\)"
       },
       {
         "key": "C",
-        "text": "\\(6.12 \\, \text{s}\\)"
+        "text": "\\( 10.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "D",
-        "text": "\\(4.59 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(7.65 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(0.77 \\, \text{s}\\)"
+        "text": "\\( 0 \\, \\text{m/s} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = 30/9.8 = 3.06 \\, \text{s}\\)."
+    "explanation": "La componente vertical opuesta es Vy = V * sin(theta) = 10 * sin(30°) = 5.0 m/s."
   },
   {
     "id": "5.3_q237",
     "number": 237,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto se lanza verticalmente hacia arriba con una velocidad inicial de \\(40 \\, \text{m/s}\\). ¿Cuánto tiempo tarda en alcanzar el punto más alto?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 37): El producto escalar (producto punto) entre dos vectores perpendiculares \\( \\vec{A} \\perp \\vec{B} \\) es siempre igual a:",
     "options": [
       {
         "key": "A",
-        "text": "\\(4.08 \\, \text{s}\\)"
+        "text": "Cero \\( (\\vec{A} \\cdot \\vec{B} = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(2.04 \\, \text{s}\\)"
+        "text": "El producto de sus magnitudes"
       },
       {
         "key": "C",
-        "text": "\\(8.16 \\, \text{s}\\)"
+        "text": "Uno"
       },
       {
         "key": "D",
-        "text": "\\(6.12 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(10.20 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1.02 \\, \text{s}\\)"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = 40/9.8 = 4.08 \\, \text{s}\\)."
+    "explanation": "A · B = |A||B| cos(90°). Como cos(90°) = 0, el producto escalar de dos vectores ortogonales es nulo."
   },
   {
     "id": "5.3_q238",
     "number": 238,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto se lanza verticalmente hacia arriba con una velocidad inicial de \\(20 \\, \text{m/s}\\). ¿Cuál es la altura máxima alcanzada?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 38): Dados los vectores \\( \\vec{A} = (3, 4) \\) y \\( \\vec{B} = (2, -1) \\), el vector suma \\( \\vec{R} = \\vec{A} + \\vec{B} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(20.4 \\, \text{m}\\)"
+        "text": "\\( (5, 3) \\)"
       },
       {
         "key": "B",
-        "text": "\\(10.2 \\, \text{m}\\)"
+        "text": "\\( (1, 5) \\)"
       },
       {
         "key": "C",
-        "text": "\\(40.8 \\, \text{m}\\)"
+        "text": "\\( (6, -4) \\)"
       },
       {
         "key": "D",
-        "text": "\\(30.6 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(50.0 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(15.0 \\, \text{m}\\)"
+        "text": "\\( (5, 5) \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(H = 20^2/(2 \\cdot 9.8) = 20.4 \\, \text{m}\\)."
+    "explanation": "Se suman componente a componente: Rx = 3 + 2 = 5; Ry = 4 + (-1) = 3; luego R = (5, 3)."
   },
   {
     "id": "5.3_q239",
     "number": 239,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto se lanza verticalmente hacia arriba con una velocidad inicial de \\(30 \\, \text{m/s}\\). ¿Cuál es la altura máxima alcanzada?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 39): La dirección (ángulo \\( \\theta \\)) de un vector en el primer cuadrante cuyas componentes son \\( A_x = 4 \\) y \\( A_y = 4 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(45.9 \\, \text{m}\\)"
+        "text": "\\( 45^\\circ \\)"
       },
       {
         "key": "B",
-        "text": "\\(22.9 \\, \text{m}\\)"
+        "text": "\\( 30^\\circ \\)"
       },
       {
         "key": "C",
-        "text": "\\(91.8 \\, \text{m}\\)"
+        "text": "\\( 60^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(68.9 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(100.0 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(30.0 \\, \text{m}\\)"
+        "text": "\\( 90^\\circ \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(H = 30^2/(2 \\cdot 9.8) = 45.9 \\, \text{m}\\)."
+    "explanation": "theta = arctan(Ay / Ax) = arctan(4/4) = arctan(1) = 45°."
   },
   {
     "id": "5.3_q240",
     "number": 240,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN IV: CAÍDA LIBRE Y TIRO VERTICAL (181–240)",
-    "statement": "Un objeto se lanza verticalmente hacia arriba con una velocidad inicial de \\(40 \\, \text{m/s}\\). ¿Cuál es la altura máxima alcanzada?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 40): Una magnitud física vectorial se diferencia de una magnitud escalar porque requiere especificar obligatoriamente:",
     "options": [
       {
         "key": "A",
-        "text": "\\(81.6 \\, \text{m}\\)"
+        "text": "Magnitud (valor numérico y unidad), dirección y sentido"
       },
       {
         "key": "B",
-        "text": "\\(40.8 \\, \text{m}\\)"
+        "text": "Únicamente un número positivo"
       },
       {
         "key": "C",
-        "text": "\\(163.2 \\, \text{m}\\)"
+        "text": "La temperatura a la que fue medida"
       },
       {
         "key": "D",
-        "text": "\\(122.4 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(200.0 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(60.0 \\, \text{m}\\) ---"
+        "text": "El color del cuerpo que se desplaza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(H = 40^2/(2 \\cdot 9.8) = 81.6 \\, \text{m}\\)."
+    "explanation": "Un escalar queda determinado por su valor y unidad (ej. masa, tiempo); un vector exige además dirección y sentido."
   },
   {
     "id": "5.3_q241",
     "number": 241,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(72 \\, \text{km/h}\\). ¿Cuál es su velocidad en m/s?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 41): En un gráfico de posición en función del tiempo \\( (x \\text{ vs } t) \\) para un móvil con Movimiento Rectilíneo Uniforme (MRU), la pendiente de la recta representa:",
     "options": [
       {
         "key": "A",
-        "text": "\\(20 \\, \text{m/s}\\)"
+        "text": "La velocidad constante del móvil"
       },
       {
         "key": "B",
-        "text": "\\(72 \\, \text{m/s}\\)"
+        "text": "La aceleración instantánea"
       },
       {
         "key": "C",
-        "text": "\\(7.2 \\, \text{m/s}\\)"
+        "text": "La fuerza centrípeta"
       },
       {
         "key": "D",
-        "text": "\\(200 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(36 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(18 \\, \text{m/s}\\)"
+        "text": "El trabajo mecánico realizado"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(72/3.6 = 20 \\, \text{m/s}\\)."
+    "explanation": "La pendiente m = Delta x / Delta t corresponde por definición a la velocidad instantánea o media del cuerpo."
   },
   {
     "id": "5.3_q242",
     "number": 242,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(108 \\, \text{km/h}\\). ¿Cuál es su velocidad en m/s?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 42): En un gráfico de velocidad en función del tiempo \\( (v \\text{ vs } t) \\), el área bajo la curva geométrica entre dos instantes de tiempo representa:",
     "options": [
       {
         "key": "A",
-        "text": "\\(30 \\, \text{m/s}\\)"
+        "text": "El desplazamiento o distancia recorrida por el móvil \\( (\\Delta x) \\)"
       },
       {
         "key": "B",
-        "text": "\\(108 \\, \text{m/s}\\)"
+        "text": "La masa inercial del móvil"
       },
       {
         "key": "C",
-        "text": "\\(10.8 \\, \text{m/s}\\)"
+        "text": "La aceleración gravitatoria"
       },
       {
         "key": "D",
-        "text": "\\(300 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(54 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(27 \\, \text{m/s}\\)"
+        "text": "La presión atmosférica"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(108/3.6 = 30 \\, \text{m/s}\\)."
+    "explanation": "Integrando la velocidad con respecto al tiempo, el área bajo la curva v-t equivale exactamente al desplazamiento neto."
   },
   {
     "id": "5.3_q243",
     "number": 243,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(36 \\, \text{km/h}\\). ¿Cuál es su velocidad en m/s?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 43): Si dos variables físicas \\( y \\) y \\( x \\) son inversamente proporcionales, su relación matemática se expresa como:",
     "options": [
       {
         "key": "A",
-        "text": "\\(10 \\, \text{m/s}\\)"
+        "text": "\\( y = \\frac{k}{x} \\) (su gráfica es una hipérbola equilátera)"
       },
       {
         "key": "B",
-        "text": "\\(36 \\, \text{m/s}\\)"
+        "text": "\\( y = k \\cdot x \\) (recta por el origen)"
       },
       {
         "key": "C",
-        "text": "\\(3.6 \\, \text{m/s}\\)"
+        "text": "\\( y = k \\cdot x^2 \\) (parábola)"
       },
       {
         "key": "D",
-        "text": "\\(100 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(18 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(9 \\, \text{m/s}\\)"
+        "text": "\\( y = k + x \\) (recta con corte)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(36/3.6 = 10 \\, \text{m/s}\\)."
+    "explanation": "En la proporcionalidad inversa el producto y * x = k es constante, generando una rama hiperbólica decreciente."
   },
   {
     "id": "5.3_q244",
     "number": 244,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(144 \\, \text{km/h}\\). ¿Cuál es su velocidad en m/s?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 44): La magnitud (módulo) de un vector en dos dimensiones \\( \\vec{A} = (A_x, A_y) \\) se calcula mediante el teorema de Pitágoras como:",
     "options": [
       {
         "key": "A",
-        "text": "\\(40 \\, \text{m/s}\\)"
+        "text": "\\( |\\vec{A}| = \\sqrt{A_x^2 + A_y^2} \\)"
       },
       {
         "key": "B",
-        "text": "\\(144 \\, \text{m/s}\\)"
+        "text": "\\( |\\vec{A}| = A_x + A_y \\)"
       },
       {
         "key": "C",
-        "text": "\\(14.4 \\, \text{m/s}\\)"
+        "text": "\\( |\\vec{A}| = A_x \\cdot A_y \\)"
       },
       {
         "key": "D",
-        "text": "\\(400 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(72 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(36 \\, \text{m/s}\\)"
+        "text": "\\( |\\vec{A}| = \\sqrt{A_x - A_y} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(144/3.6 = 40 \\, \text{m/s}\\)."
+    "explanation": "La magnitud vectorial euclidiana en el plano es la raíz cuadrada de la suma de los cuadrados de sus componentes ortogonales."
   },
   {
     "id": "5.3_q245",
     "number": 245,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(54 \\, \text{km/h}\\). ¿Cuál es su velocidad en m/s?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 45): Si un vector \\( \\vec{V} \\) tiene magnitud de \\( 10 \\, \\text{m/s} \\) y forma un ángulo de \\( 30^\\circ \\) con el eje horizontal positivo \\( x \\), su componente horizontal \\( V_x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(15 \\, \text{m/s}\\)"
+        "text": "\\( 10 \\cdot \\cos(30^\\circ) = 10 \\cdot \\frac{\\sqrt{3}}{2} = 5\\sqrt{3} \\approx 8.66 \\, \\text{m/s} \\)"
       },
       {
         "key": "B",
-        "text": "\\(54 \\, \text{m/s}\\)"
+        "text": "\\( 10 \\cdot \\sin(30^\\circ) = 5.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "C",
-        "text": "\\(5.4 \\, \text{m/s}\\)"
+        "text": "\\( 10 \\cdot \\tan(30^\\circ) = 5.77 \\, \\text{m/s} \\)"
       },
       {
         "key": "D",
-        "text": "\\(150 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(27 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(13.5 \\, \text{m/s}\\)"
+        "text": "\\( 10 \\, \\text{m/s} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(54/3.6 = 15 \\, \text{m/s}\\)."
+    "explanation": "La componente adyacente es Vx = V * cos(theta) = 10 * cos(30°) = 5*sqrt(3) m/s."
   },
   {
     "id": "5.3_q246",
     "number": 246,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(25 \\, \text{m/s}\\). ¿Cuál es su velocidad en km/h?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 46): Para el mismo vector de \\( 10 \\, \\text{m/s} \\) a \\( 30^\\circ \\), su componente vertical \\( V_y \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(90 \\, \text{km/h}\\)"
+        "text": "\\( 10 \\cdot \\sin(30^\\circ) = 10 \\cdot 0.5 = 5.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "B",
-        "text": "\\(25 \\, \text{km/h}\\)"
+        "text": "\\( 8.66 \\, \\text{m/s} \\)"
       },
       {
         "key": "C",
-        "text": "\\(250 \\, \text{km/h}\\)"
+        "text": "\\( 10.0 \\, \\text{m/s} \\)"
       },
       {
         "key": "D",
-        "text": "\\(60 \\, \text{km/h}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(45 \\, \text{km/h}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(75 \\, \text{km/h}\\)"
+        "text": "\\( 0 \\, \\text{m/s} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(25 \\cdot 3.6 = 90 \\, \text{km/h}\\)."
+    "explanation": "La componente vertical opuesta es Vy = V * sin(theta) = 10 * sin(30°) = 5.0 m/s."
   },
   {
     "id": "5.3_q247",
     "number": 247,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(40 \\, \text{m/s}\\). ¿Cuál es su velocidad en km/h?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 47): El producto escalar (producto punto) entre dos vectores perpendiculares \\( \\vec{A} \\perp \\vec{B} \\) es siempre igual a:",
     "options": [
       {
         "key": "A",
-        "text": "\\(144 \\, \text{km/h}\\)"
+        "text": "Cero \\( (\\vec{A} \\cdot \\vec{B} = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(40 \\, \text{km/h}\\)"
+        "text": "El producto de sus magnitudes"
       },
       {
         "key": "C",
-        "text": "\\(400 \\, \text{km/h}\\)"
+        "text": "Uno"
       },
       {
         "key": "D",
-        "text": "\\(100 \\, \text{km/h}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(72 \\, \text{km/h}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(120 \\, \text{km/h}\\)"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(40 \\cdot 3.6 = 144 \\, \text{km/h}\\)."
+    "explanation": "A · B = |A||B| cos(90°). Como cos(90°) = 0, el producto escalar de dos vectores ortogonales es nulo."
   },
   {
     "id": "5.3_q248",
     "number": 248,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(15 \\, \text{m/s}\\). ¿Cuál es su velocidad en km/h?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 48): Dados los vectores \\( \\vec{A} = (3, 4) \\) y \\( \\vec{B} = (2, -1) \\), el vector suma \\( \\vec{R} = \\vec{A} + \\vec{B} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(54 \\, \text{km/h}\\)"
+        "text": "\\( (5, 3) \\)"
       },
       {
         "key": "B",
-        "text": "\\(15 \\, \text{km/h}\\)"
+        "text": "\\( (1, 5) \\)"
       },
       {
         "key": "C",
-        "text": "\\(150 \\, \text{km/h}\\)"
+        "text": "\\( (6, -4) \\)"
       },
       {
         "key": "D",
-        "text": "\\(36 \\, \text{km/h}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(27 \\, \text{km/h}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(45 \\, \text{km/h}\\)"
+        "text": "\\( (5, 5) \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(15 \\cdot 3.6 = 54 \\, \text{km/h}\\)."
+    "explanation": "Se suman componente a componente: Rx = 3 + 2 = 5; Ry = 4 + (-1) = 3; luego R = (5, 3)."
   },
   {
     "id": "5.3_q249",
     "number": 249,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(30 \\, \text{m/s}\\). ¿Cuál es su velocidad en km/h?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 49): La dirección (ángulo \\( \\theta \\)) de un vector en el primer cuadrante cuyas componentes son \\( A_x = 4 \\) y \\( A_y = 4 \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(108 \\, \text{km/h}\\)"
+        "text": "\\( 45^\\circ \\)"
       },
       {
         "key": "B",
-        "text": "\\(30 \\, \text{km/h}\\)"
+        "text": "\\( 30^\\circ \\)"
       },
       {
         "key": "C",
-        "text": "\\(300 \\, \text{km/h}\\)"
+        "text": "\\( 60^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(90 \\, \text{km/h}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(54 \\, \text{km/h}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(72 \\, \text{km/h}\\)"
+        "text": "\\( 90^\\circ \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(30 \\cdot 3.6 = 108 \\, \text{km/h}\\)."
+    "explanation": "theta = arctan(Ay / Ax) = arctan(4/4) = arctan(1) = 45°."
   },
   {
     "id": "5.3_q250",
     "number": 250,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(10 \\, \text{m/s}\\). ¿Cuál es su velocidad en km/h?",
+    "sectionTitle": "SECCIÓN V: ANÁLISIS DE GRÁFICAS FÍSICAS Y ÁLGEBRA VECTORIAL EN 2D (201–250)",
+    "statement": "En el análisis gráfico del movimiento y vectores físicos (ítem 50): Una magnitud física vectorial se diferencia de una magnitud escalar porque requiere especificar obligatoriamente:",
     "options": [
       {
         "key": "A",
-        "text": "\\(36 \\, \text{km/h}\\)"
+        "text": "Magnitud (valor numérico y unidad), dirección y sentido"
       },
       {
         "key": "B",
-        "text": "\\(10 \\, \text{km/h}\\)"
+        "text": "Únicamente un número positivo"
       },
       {
         "key": "C",
-        "text": "\\(100 \\, \text{km/h}\\)"
+        "text": "La temperatura a la que fue medida"
       },
       {
         "key": "D",
-        "text": "\\(18 \\, \text{km/h}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(20 \\, \text{km/h}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(30 \\, \text{km/h}\\)"
+        "text": "El color del cuerpo que se desplaza"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(10 \\cdot 3.6 = 36 \\, \text{km/h}\\)."
+    "explanation": "Un escalar queda determinado por su valor y unidad (ej. masa, tiempo); un vector exige además dirección y sentido."
   },
   {
     "id": "5.3_q251",
     "number": 251,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto recorre \\(150 \\, \text{km}\\) en \\(2 \\, \text{h}\\). ¿Cuál es su velocidad media en m/s?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "El movimiento de proyectiles (tiro parabólico) se descompone según el principio de independencia de Galileo en:",
     "options": [
       {
         "key": "A",
-        "text": "\\(20.83 \\, \text{m/s}\\)"
+        "text": "Un movimiento rectilíneo uniforme (MRU) horizontal y un movimiento rectilíneo uniformemente acelerado (MRUA) vertical por la gravedad"
       },
       {
         "key": "B",
-        "text": "\\(75 \\, \text{m/s}\\)"
+        "text": "Dos movimientos circulares concéntricos"
       },
       {
         "key": "C",
-        "text": "\\(41.67 \\, \text{m/s}\\)"
+        "text": "Un movimiento acelerado horizontal y velocidad vertical constante"
       },
       {
         "key": "D",
-        "text": "\\(10.42 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(30 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(50 \\, \text{m/s}\\)"
+        "text": "Dos movimientos de velocidad infinita"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(150000/7200 = 20.83 \\, \text{m/s}\\)."
+    "explanation": "En el eje x no hay aceleración (ax = 0, MRU); en el eje y actúa la aceleración gravitatoria constante g (MRUA)."
   },
   {
     "id": "5.3_q252",
     "number": 252,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un ciclista recorre \\(60 \\, \text{km}\\) en \\(3 \\, \text{h}\\). ¿Cuál es su velocidad media en m/s?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En el punto más alto de la trayectoria parabólica de un proyectil, la componente vertical de la velocidad \\( (v_y) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(5.56 \\, \text{m/s}\\)"
+        "text": "Cero \\( (v_y = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(20 \\, \text{m/s}\\)"
+        "text": "Máxima"
       },
       {
         "key": "C",
-        "text": "\\(16.67 \\, \text{m/s}\\)"
+        "text": "Igual a la aceleración g"
       },
       {
         "key": "D",
-        "text": "\\(10 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(2.78 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(15 \\, \text{m/s}\\)"
+        "text": "Negativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(60000/10800 = 5.56 \\, \text{m/s}\\)."
+    "explanation": "En la cúspide de la parábola el proyectil deja de subir e inicia el descenso, por lo que vy = 0 momentáneamente."
   },
   {
     "id": "5.3_q253",
     "number": 253,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un tren recorre \\(240 \\, \text{km}\\) en \\(2 \\, \text{h}\\). ¿Cuál es su velocidad media en m/s?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cúspide de la trayectoria de un proyectil lanzado en el aire, la velocidad total del móvil es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(33.33 \\, \text{m/s}\\)"
+        "text": "Igual a su componente horizontal constante \\( (v_x = v_{0x}) \\)"
       },
       {
         "key": "B",
-        "text": "\\(120 \\, \text{m/s}\\)"
+        "text": "Estrictamente cero en todas sus componentes"
       },
       {
         "key": "C",
-        "text": "\\(66.67 \\, \text{m/s}\\)"
+        "text": "El doble de la velocidad de lanzamiento"
       },
       {
         "key": "D",
-        "text": "\\(16.67 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(50 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(25 \\, \text{m/s}\\)"
+        "text": "Indeterminada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(240000/7200 = 33.33 \\, \text{m/s}\\)."
+    "explanation": "Dado que vy = 0 en el punto más alto, la velocidad total instantánea es exclusivamente la velocidad horizontal vx."
   },
   {
     "id": "5.3_q254",
     "number": 254,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un avión recorre \\(900 \\, \text{km}\\) en \\(1.5 \\, \text{h}\\). ¿Cuál es su velocidad media en m/s?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "La fórmula cinemática para calcular el tiempo de subida \\( (t_s) \\) de un proyectil lanzado con velocidad \\( v_0 \\) y ángulo \\( \\theta \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(166.67 \\, \text{m/s}\\)"
+        "text": "\\( t_s = \\frac{v_0 \\sin\\theta}{g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(600 \\, \text{m/s}\\)"
+        "text": "\\( t_s = \\frac{v_0 \\cos\\theta}{g} \\)"
       },
       {
         "key": "C",
-        "text": "\\(333.33 \\, \text{m/s}\\)"
+        "text": "\\( t_s = \\frac{v_0^2}{2g} \\)"
       },
       {
         "key": "D",
-        "text": "\\(83.33 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(200 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(150 \\, \text{m/s}\\)"
+        "text": "\\( t_s = \\sqrt{\\frac{2h}{g}} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(900000/5400 = 166.67 \\, \text{m/s}\\)."
+    "explanation": "Haciendo vy = v0 sin(theta) - g * ts = 0, se despeja ts = (v0 sin(theta)) / g."
   },
   {
     "id": "5.3_q255",
     "number": 255,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un barco recorre \\(120 \\, \text{km}\\) en \\(4 \\, \text{h}\\). ¿Cuál es su velocidad media en m/s?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "El tiempo total de vuelo \\( (t_v) \\) de un proyectil que aterriza al mismo nivel horizontal de lanzamiento es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(8.33 \\, \text{m/s}\\)"
+        "text": "El doble del tiempo de subida: \\( t_v = \\frac{2 v_0 \\sin\\theta}{g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(30 \\, \text{m/s}\\)"
+        "text": "La mitad del tiempo de subida"
       },
       {
         "key": "C",
-        "text": "\\(16.67 \\, \text{m/s}\\)"
+        "text": "Igual a la altura máxima dividida entre g"
       },
       {
         "key": "D",
-        "text": "\\(4.17 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(12 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(20 \\, \text{m/s}\\)"
+        "text": "Independiente del ángulo de lanzamiento"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(120000/14400 = 8.33 \\, \text{m/s}\\)."
+    "explanation": "Por simetría parabólica en terreno nivelado, el tiempo de subida es exactamente igual al tiempo de bajada: tv = 2 * ts."
   },
   {
     "id": "5.3_q256",
     "number": 256,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(20 \\, \text{m/s}\\) durante \\(10 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "La altura máxima \\( (H_{max}) \\) alcanzada por un proyectil en tiro parabólico se calcula mediante:",
     "options": [
       {
         "key": "A",
-        "text": "\\(200 \\, \text{m}\\)"
+        "text": "\\( H_{max} = \\frac{(v_0 \\sin\\theta)^2}{2g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(20 \\, \text{m}\\)"
+        "text": "\\( H_{max} = \\frac{v_0 \\cos\\theta}{g} \\)"
       },
       {
         "key": "C",
-        "text": "\\(2 \\, \text{m}\\)"
+        "text": "\\( H_{max} = \\frac{v_0^2}{g} \\)"
       },
       {
         "key": "D",
-        "text": "\\(100 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(300 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(50 \\, \text{m}\\)"
+        "text": "\\( H_{max} = 2g \\cdot t_v \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(20 \\cdot 10 = 200 \\, \text{m}\\)."
+    "explanation": "Usando vy^2 = v0y^2 - 2gHmax con vy = 0: Hmax = (v0y)^2 / (2g) = (v0 sin theta)^2 / (2g)."
   },
   {
     "id": "5.3_q257",
     "number": 257,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(30 \\, \text{m/s}\\) durante \\(15 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "El alcance horizontal máximo \\( (R) \\) en un tiro parabólico sobre terreno plano se obtiene cuando el ángulo de lanzamiento \\( \\theta \\) es de:",
     "options": [
       {
         "key": "A",
-        "text": "\\(450 \\, \text{m}\\)"
+        "text": "\\( 45^\\circ \\)"
       },
       {
         "key": "B",
-        "text": "\\(30 \\, \text{m}\\)"
+        "text": "\\( 90^\\circ \\)"
       },
       {
         "key": "C",
-        "text": "\\(2 \\, \text{m}\\)"
+        "text": "\\( 30^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(150 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(600 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(75 \\, \text{m}\\)"
+        "text": "\\( 60^\\circ \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(30 \\cdot 15 = 450 \\, \text{m}\\)."
+    "explanation": "El alcance es R = (v0^2 * sin(2*theta)) / g. El valor máximo de la función seno es 1, que ocurre cuando 2*theta = 90°, es decir, theta = 45°."
   },
   {
     "id": "5.3_q258",
     "number": 258,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(25 \\, \text{m/s}\\) durante \\(8 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "Dos proyectiles lanzados con la misma rapidez inicial \\( v_0 \\) alcanzarán el mismo rango horizontal \\( R \\) si sus ángulos de tiro son:",
     "options": [
       {
         "key": "A",
-        "text": "\\(200 \\, \text{m}\\)"
+        "text": "Complementarios (su suma es igual a \\( 90^\\circ \\), como \\( 30^\\circ \\) y \\( 60^\\circ \\))"
       },
       {
         "key": "B",
-        "text": "\\(25 \\, \text{m}\\)"
+        "text": "Suplementarios (su suma es \\( 180^\\circ \\))"
       },
       {
         "key": "C",
-        "text": "\\(3.125 \\, \text{m}\\)"
+        "text": "Iguales a \\( 45^\\circ \\) y \\( 90^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(100 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(300 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(50 \\, \text{m}\\)"
+        "text": "Opuestos por el vértice"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(25 \\cdot 8 = 200 \\, \text{m}\\)."
+    "explanation": "Puesto que sin(2*(90° - theta)) = sin(180° - 2*theta) = sin(2*theta), ángulos complementarios generan el mismo alcance horizontal."
   },
   {
     "id": "5.3_q259",
     "number": 259,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(40 \\, \text{m/s}\\) durante \\(12 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En un lanzamiento horizontal desde un acantilado de altura \\( h \\) con velocidad horizontal \\( v_{0x} \\), la velocidad inicial vertical \\( v_{0y} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(480 \\, \text{m}\\)"
+        "text": "Cero \\( (v_{0y} = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(40 \\, \text{m}\\)"
+        "text": "Igual a \\( v_{0x} \\)"
       },
       {
         "key": "C",
-        "text": "\\(3.33 \\, \text{m}\\)"
+        "text": "Igual a \\( g \\cdot h \\)"
       },
       {
         "key": "D",
-        "text": "\\(240 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(600 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(120 \\, \text{m}\\)"
+        "text": "Infinita"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(40 \\cdot 12 = 480 \\, \text{m}\\)."
+    "explanation": "En un tiro semiparabólico horizontal, el proyectil carece de velocidad inicial en el eje vertical (v0y = 0)."
   },
   {
     "id": "5.3_q260",
     "number": 260,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(15 \\, \text{m/s}\\) durante \\(20 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "El tiempo que tarda en caer un objeto lanzado horizontalmente desde una altura \\( h \\) comparado con otro que se deja caer libremente desde la misma altura es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(300 \\, \text{m}\\)"
+        "text": "Exactamente el mismo tiempo para ambos, pues la gravedad actúa independientemente en el eje vertical"
       },
       {
         "key": "B",
-        "text": "\\(15 \\, \text{m}\\)"
+        "text": "El doble de tiempo para el lanzado horizontalmente"
       },
       {
         "key": "C",
-        "text": "\\(0.75 \\, \text{m}\\)"
+        "text": "La mitad de tiempo para el proyectil"
       },
       {
         "key": "D",
-        "text": "\\(150 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(450 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(75 \\, \text{m}\\)"
+        "text": "Cero segundos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(15 \\cdot 20 = 300 \\, \text{m}\\)."
+    "explanation": "El movimiento horizontal es independiente del vertical; ambos tardan t = sqrt(2h / g) en tocar el suelo."
   },
   {
     "id": "5.3_q261",
     "number": 261,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto parte del reposo y acelera a \\(2 \\, \text{m/s}^2\\) durante \\(10 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 11): El movimiento de proyectiles (tiro parabólico) se descompone según el principio de independencia de Galileo en:",
     "options": [
       {
         "key": "A",
-        "text": "\\(100 \\, \text{m}\\)"
+        "text": "Un movimiento rectilíneo uniforme (MRU) horizontal y un movimiento rectilíneo uniformemente acelerado (MRUA) vertical por la gravedad"
       },
       {
         "key": "B",
-        "text": "\\(20 \\, \text{m}\\)"
+        "text": "Dos movimientos circulares concéntricos"
       },
       {
         "key": "C",
-        "text": "\\(200 \\, \text{m}\\)"
+        "text": "Un movimiento acelerado horizontal y velocidad vertical constante"
       },
       {
         "key": "D",
-        "text": "\\(50 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(150 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(25 \\, \text{m}\\)"
+        "text": "Dos movimientos de velocidad infinita"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = \frac{1}{2}(2)(100) = 100 \\, \text{m}\\)."
+    "explanation": "En el eje x no hay aceleración (ax = 0, MRU); en el eje y actúa la aceleración gravitatoria constante g (MRUA)."
   },
   {
     "id": "5.3_q262",
     "number": 262,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto parte del reposo y acelera a \\(3 \\, \text{m/s}^2\\) durante \\(8 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 12): En el punto más alto de la trayectoria parabólica de un proyectil, la componente vertical de la velocidad \\( (v_y) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(96 \\, \text{m}\\)"
+        "text": "Cero \\( (v_y = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(24 \\, \text{m}\\)"
+        "text": "Máxima"
       },
       {
         "key": "C",
-        "text": "\\(192 \\, \text{m}\\)"
+        "text": "Igual a la aceleración g"
       },
       {
         "key": "D",
-        "text": "\\(48 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(144 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(12 \\, \text{m}\\)"
+        "text": "Negativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = \frac{1}{2}(3)(64) = 96 \\, \text{m}\\)."
+    "explanation": "En la cúspide de la parábola el proyectil deja de subir e inicia el descenso, por lo que vy = 0 momentáneamente."
   },
   {
     "id": "5.3_q263",
     "number": 263,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto parte del reposo y acelera a \\(4 \\, \text{m/s}^2\\) durante \\(5 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 13): En la cúspide de la trayectoria de un proyectil lanzado en el aire, la velocidad total del móvil es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(50 \\, \text{m}\\)"
+        "text": "Igual a su componente horizontal constante \\( (v_x = v_{0x}) \\)"
       },
       {
         "key": "B",
-        "text": "\\(20 \\, \text{m}\\)"
+        "text": "Estrictamente cero en todas sus componentes"
       },
       {
         "key": "C",
-        "text": "\\(100 \\, \text{m}\\)"
+        "text": "El doble de la velocidad de lanzamiento"
       },
       {
         "key": "D",
-        "text": "\\(25 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(75 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(10 \\, \text{m}\\)"
+        "text": "Indeterminada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = \frac{1}{2}(4)(25) = 50 \\, \text{m}\\)."
+    "explanation": "Dado que vy = 0 en el punto más alto, la velocidad total instantánea es exclusivamente la velocidad horizontal vx."
   },
   {
     "id": "5.3_q264",
     "number": 264,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto parte del reposo y acelera a \\(5 \\, \text{m/s}^2\\) durante \\(6 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 14): La fórmula cinemática para calcular el tiempo de subida \\( (t_s) \\) de un proyectil lanzado con velocidad \\( v_0 \\) y ángulo \\( \\theta \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(90 \\, \text{m}\\)"
+        "text": "\\( t_s = \\frac{v_0 \\sin\\theta}{g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(30 \\, \text{m}\\)"
+        "text": "\\( t_s = \\frac{v_0 \\cos\\theta}{g} \\)"
       },
       {
         "key": "C",
-        "text": "\\(180 \\, \text{m}\\)"
+        "text": "\\( t_s = \\frac{v_0^2}{2g} \\)"
       },
       {
         "key": "D",
-        "text": "\\(45 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(135 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(15 \\, \text{m}\\)"
+        "text": "\\( t_s = \\sqrt{\\frac{2h}{g}} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = \frac{1}{2}(5)(36) = 90 \\, \text{m}\\)."
+    "explanation": "Haciendo vy = v0 sin(theta) - g * ts = 0, se despeja ts = (v0 sin(theta)) / g."
   },
   {
     "id": "5.3_q265",
     "number": 265,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto parte del reposo y acelera a \\(6 \\, \text{m/s}^2\\) durante \\(4 \\, \text{s}\\). ¿Qué distancia recorre?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 15): El tiempo total de vuelo \\( (t_v) \\) de un proyectil que aterriza al mismo nivel horizontal de lanzamiento es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(48 \\, \text{m}\\)"
+        "text": "El doble del tiempo de subida: \\( t_v = \\frac{2 v_0 \\sin\\theta}{g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(24 \\, \text{m}\\)"
+        "text": "La mitad del tiempo de subida"
       },
       {
         "key": "C",
-        "text": "\\(96 \\, \text{m}\\)"
+        "text": "Igual a la altura máxima dividida entre g"
       },
       {
         "key": "D",
-        "text": "\\(12 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(72 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(6 \\, \text{m}\\)"
+        "text": "Independiente del ángulo de lanzamiento"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = \frac{1}{2}(6)(16) = 48 \\, \text{m}\\)."
+    "explanation": "Por simetría parabólica en terreno nivelado, el tiempo de subida es exactamente igual al tiempo de bajada: tv = 2 * ts."
   },
   {
     "id": "5.3_q266",
     "number": 266,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(20 \\, \text{m/s}\\) y frena a \\(-4 \\, \text{m/s}^2\\). ¿Cuánto tiempo tarda en detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 16): La altura máxima \\( (H_{max}) \\) alcanzada por un proyectil en tiro parabólico se calcula mediante:",
     "options": [
       {
         "key": "A",
-        "text": "\\(5 \\, \text{s}\\)"
+        "text": "\\( H_{max} = \\frac{(v_0 \\sin\\theta)^2}{2g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(4 \\, \text{s}\\)"
+        "text": "\\( H_{max} = \\frac{v_0 \\cos\\theta}{g} \\)"
       },
       {
         "key": "C",
-        "text": "\\(10 \\, \text{s}\\)"
+        "text": "\\( H_{max} = \\frac{v_0^2}{g} \\)"
       },
       {
         "key": "D",
-        "text": "\\(2 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(8 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1 \\, \text{s}\\)"
+        "text": "\\( H_{max} = 2g \\cdot t_v \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = 20/4 = 5 \\, \text{s}\\)."
+    "explanation": "Usando vy^2 = v0y^2 - 2gHmax con vy = 0: Hmax = (v0y)^2 / (2g) = (v0 sin theta)^2 / (2g)."
   },
   {
     "id": "5.3_q267",
     "number": 267,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(30 \\, \text{m/s}\\) y frena a \\(-5 \\, \text{m/s}^2\\). ¿Cuánto tiempo tarda en detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 17): El alcance horizontal máximo \\( (R) \\) en un tiro parabólico sobre terreno plano se obtiene cuando el ángulo de lanzamiento \\( \\theta \\) es de:",
     "options": [
       {
         "key": "A",
-        "text": "\\(6 \\, \text{s}\\)"
+        "text": "\\( 45^\\circ \\)"
       },
       {
         "key": "B",
-        "text": "\\(5 \\, \text{s}\\)"
+        "text": "\\( 90^\\circ \\)"
       },
       {
         "key": "C",
-        "text": "\\(10 \\, \text{s}\\)"
+        "text": "\\( 30^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(3 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(8 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(2 \\, \text{s}\\)"
+        "text": "\\( 60^\\circ \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = 30/5 = 6 \\, \text{s}\\)."
+    "explanation": "El alcance es R = (v0^2 * sin(2*theta)) / g. El valor máximo de la función seno es 1, que ocurre cuando 2*theta = 90°, es decir, theta = 45°."
   },
   {
     "id": "5.3_q268",
     "number": 268,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(40 \\, \text{m/s}\\) y frena a \\(-8 \\, \text{m/s}^2\\). ¿Cuánto tiempo tarda en detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 18): Dos proyectiles lanzados con la misma rapidez inicial \\( v_0 \\) alcanzarán el mismo rango horizontal \\( R \\) si sus ángulos de tiro son:",
     "options": [
       {
         "key": "A",
-        "text": "\\(5 \\, \text{s}\\)"
+        "text": "Complementarios (su suma es igual a \\( 90^\\circ \\), como \\( 30^\\circ \\) y \\( 60^\\circ \\))"
       },
       {
         "key": "B",
-        "text": "\\(4 \\, \text{s}\\)"
+        "text": "Suplementarios (su suma es \\( 180^\\circ \\))"
       },
       {
         "key": "C",
-        "text": "\\(10 \\, \text{s}\\)"
+        "text": "Iguales a \\( 45^\\circ \\) y \\( 90^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(2 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(8 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1 \\, \text{s}\\)"
+        "text": "Opuestos por el vértice"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = 40/8 = 5 \\, \text{s}\\)."
+    "explanation": "Puesto que sin(2*(90° - theta)) = sin(180° - 2*theta) = sin(2*theta), ángulos complementarios generan el mismo alcance horizontal."
   },
   {
     "id": "5.3_q269",
     "number": 269,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(25 \\, \text{m/s}\\) y frena a \\(-5 \\, \text{m/s}^2\\). ¿Cuánto tiempo tarda en detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 19): En un lanzamiento horizontal desde un acantilado de altura \\( h \\) con velocidad horizontal \\( v_{0x} \\), la velocidad inicial vertical \\( v_{0y} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(5 \\, \text{s}\\)"
+        "text": "Cero \\( (v_{0y} = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(4 \\, \text{s}\\)"
+        "text": "Igual a \\( v_{0x} \\)"
       },
       {
         "key": "C",
-        "text": "\\(10 \\, \text{s}\\)"
+        "text": "Igual a \\( g \\cdot h \\)"
       },
       {
         "key": "D",
-        "text": "\\(2 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(8 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1 \\, \text{s}\\)"
+        "text": "Infinita"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = 25/5 = 5 \\, \text{s}\\)."
+    "explanation": "En un tiro semiparabólico horizontal, el proyectil carece de velocidad inicial en el eje vertical (v0y = 0)."
   },
   {
     "id": "5.3_q270",
     "number": 270,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(15 \\, \text{m/s}\\) y frena a \\(-3 \\, \text{m/s}^2\\). ¿Cuánto tiempo tarda en detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 20): El tiempo que tarda en caer un objeto lanzado horizontalmente desde una altura \\( h \\) comparado con otro que se deja caer libremente desde la misma altura es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(5 \\, \text{s}\\)"
+        "text": "Exactamente el mismo tiempo para ambos, pues la gravedad actúa independientemente en el eje vertical"
       },
       {
         "key": "B",
-        "text": "\\(4 \\, \text{s}\\)"
+        "text": "El doble de tiempo para el lanzado horizontalmente"
       },
       {
         "key": "C",
-        "text": "\\(10 \\, \text{s}\\)"
+        "text": "La mitad de tiempo para el proyectil"
       },
       {
         "key": "D",
-        "text": "\\(2 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(8 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1 \\, \text{s}\\)"
+        "text": "Cero segundos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = 15/3 = 5 \\, \text{s}\\)."
+    "explanation": "El movimiento horizontal es independiente del vertical; ambos tardan t = sqrt(2h / g) en tocar el suelo."
   },
   {
     "id": "5.3_q271",
     "number": 271,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(20 \\, \text{m/s}\\) y frena a \\(-4 \\, \text{m/s}^2\\). ¿Qué distancia recorre hasta detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 21): El movimiento de proyectiles (tiro parabólico) se descompone según el principio de independencia de Galileo en:",
     "options": [
       {
         "key": "A",
-        "text": "\\(50 \\, \text{m}\\)"
+        "text": "Un movimiento rectilíneo uniforme (MRU) horizontal y un movimiento rectilíneo uniformemente acelerado (MRUA) vertical por la gravedad"
       },
       {
         "key": "B",
-        "text": "\\(20 \\, \text{m}\\)"
+        "text": "Dos movimientos circulares concéntricos"
       },
       {
         "key": "C",
-        "text": "\\(100 \\, \text{m}\\)"
+        "text": "Un movimiento acelerado horizontal y velocidad vertical constante"
       },
       {
         "key": "D",
-        "text": "\\(25 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(75 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(10 \\, \text{m}\\)"
+        "text": "Dos movimientos de velocidad infinita"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = 20^2/(2 \\cdot 4) = 50 \\, \text{m}\\)."
+    "explanation": "En el eje x no hay aceleración (ax = 0, MRU); en el eje y actúa la aceleración gravitatoria constante g (MRUA)."
   },
   {
     "id": "5.3_q272",
     "number": 272,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(30 \\, \text{m/s}\\) y frena a \\(-5 \\, \text{m/s}^2\\). ¿Qué distancia recorre hasta detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 22): En el punto más alto de la trayectoria parabólica de un proyectil, la componente vertical de la velocidad \\( (v_y) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(90 \\, \text{m}\\)"
+        "text": "Cero \\( (v_y = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(30 \\, \text{m}\\)"
+        "text": "Máxima"
       },
       {
         "key": "C",
-        "text": "\\(180 \\, \text{m}\\)"
+        "text": "Igual a la aceleración g"
       },
       {
         "key": "D",
-        "text": "\\(45 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(135 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(15 \\, \text{m}\\)"
+        "text": "Negativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = 30^2/(2 \\cdot 5) = 90 \\, \text{m}\\)."
+    "explanation": "En la cúspide de la parábola el proyectil deja de subir e inicia el descenso, por lo que vy = 0 momentáneamente."
   },
   {
     "id": "5.3_q273",
     "number": 273,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(40 \\, \text{m/s}\\) y frena a \\(-8 \\, \text{m/s}^2\\). ¿Qué distancia recorre hasta detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 23): En la cúspide de la trayectoria de un proyectil lanzado en el aire, la velocidad total del móvil es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(100 \\, \text{m}\\)"
+        "text": "Igual a su componente horizontal constante \\( (v_x = v_{0x}) \\)"
       },
       {
         "key": "B",
-        "text": "\\(40 \\, \text{m}\\)"
+        "text": "Estrictamente cero en todas sus componentes"
       },
       {
         "key": "C",
-        "text": "\\(200 \\, \text{m}\\)"
+        "text": "El doble de la velocidad de lanzamiento"
       },
       {
         "key": "D",
-        "text": "\\(50 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(150 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(20 \\, \text{m}\\)"
+        "text": "Indeterminada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = 40^2/(2 \\cdot 8) = 100 \\, \text{m}\\)."
+    "explanation": "Dado que vy = 0 en el punto más alto, la velocidad total instantánea es exclusivamente la velocidad horizontal vx."
   },
   {
     "id": "5.3_q274",
     "number": 274,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(25 \\, \text{m/s}\\) y frena a \\(-5 \\, \text{m/s}^2\\). ¿Qué distancia recorre hasta detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 24): La fórmula cinemática para calcular el tiempo de subida \\( (t_s) \\) de un proyectil lanzado con velocidad \\( v_0 \\) y ángulo \\( \\theta \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(62.5 \\, \text{m}\\)"
+        "text": "\\( t_s = \\frac{v_0 \\sin\\theta}{g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(25 \\, \text{m}\\)"
+        "text": "\\( t_s = \\frac{v_0 \\cos\\theta}{g} \\)"
       },
       {
         "key": "C",
-        "text": "\\(125 \\, \text{m}\\)"
+        "text": "\\( t_s = \\frac{v_0^2}{2g} \\)"
       },
       {
         "key": "D",
-        "text": "\\(31.25 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(93.75 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(12.5 \\, \text{m}\\)"
+        "text": "\\( t_s = \\sqrt{\\frac{2h}{g}} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = 25^2/(2 \\cdot 5) = 62.5 \\, \text{m}\\)."
+    "explanation": "Haciendo vy = v0 sin(theta) - g * ts = 0, se despeja ts = (v0 sin(theta)) / g."
   },
   {
     "id": "5.3_q275",
     "number": 275,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(15 \\, \text{m/s}\\) y frena a \\(-3 \\, \text{m/s}^2\\). ¿Qué distancia recorre hasta detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 25): El tiempo total de vuelo \\( (t_v) \\) de un proyectil que aterriza al mismo nivel horizontal de lanzamiento es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(37.5 \\, \text{m}\\)"
+        "text": "El doble del tiempo de subida: \\( t_v = \\frac{2 v_0 \\sin\\theta}{g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(15 \\, \text{m}\\)"
+        "text": "La mitad del tiempo de subida"
       },
       {
         "key": "C",
-        "text": "\\(75 \\, \text{m}\\)"
+        "text": "Igual a la altura máxima dividida entre g"
       },
       {
         "key": "D",
-        "text": "\\(18.75 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(56.25 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(7.5 \\, \text{m}\\)"
+        "text": "Independiente del ángulo de lanzamiento"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = 15^2/(2 \\cdot 3) = 37.5 \\, \text{m}\\)."
+    "explanation": "Por simetría parabólica en terreno nivelado, el tiempo de subida es exactamente igual al tiempo de bajada: tv = 2 * ts."
   },
   {
     "id": "5.3_q276",
     "number": 276,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un objeto se deja caer desde una altura de \\(45 \\, \text{m}\\). ¿Cuánto tiempo tarda en llegar al suelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 26): La altura máxima \\( (H_{max}) \\) alcanzada por un proyectil en tiro parabólico se calcula mediante:",
     "options": [
       {
         "key": "A",
-        "text": "\\(3.03 \\, \text{s}\\)"
+        "text": "\\( H_{max} = \\frac{(v_0 \\sin\\theta)^2}{2g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(1.52 \\, \text{s}\\)"
+        "text": "\\( H_{max} = \\frac{v_0 \\cos\\theta}{g} \\)"
       },
       {
         "key": "C",
-        "text": "\\(6.06 \\, \text{s}\\)"
+        "text": "\\( H_{max} = \\frac{v_0^2}{g} \\)"
       },
       {
         "key": "D",
-        "text": "\\(4.55 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(7.58 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(0.76 \\, \text{s}\\)"
+        "text": "\\( H_{max} = 2g \\cdot t_v \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = \\sqrt{2(45)/9.8} = 3.03 \\, \text{s}\\)."
+    "explanation": "Usando vy^2 = v0y^2 - 2gHmax con vy = 0: Hmax = (v0y)^2 / (2g) = (v0 sin theta)^2 / (2g)."
   },
   {
     "id": "5.3_q277",
     "number": 277,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un objeto se deja caer desde una altura de \\(80 \\, \text{m}\\). ¿Cuánto tiempo tarda en llegar al suelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 27): El alcance horizontal máximo \\( (R) \\) en un tiro parabólico sobre terreno plano se obtiene cuando el ángulo de lanzamiento \\( \\theta \\) es de:",
     "options": [
       {
         "key": "A",
-        "text": "\\(4.04 \\, \text{s}\\)"
+        "text": "\\( 45^\\circ \\)"
       },
       {
         "key": "B",
-        "text": "\\(2.02 \\, \text{s}\\)"
+        "text": "\\( 90^\\circ \\)"
       },
       {
         "key": "C",
-        "text": "\\(8.08 \\, \text{s}\\)"
+        "text": "\\( 30^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(6.06 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(10.10 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1.01 \\, \text{s}\\)"
+        "text": "\\( 60^\\circ \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = \\sqrt{2(80)/9.8} = 4.04 \\, \text{s}\\)."
+    "explanation": "El alcance es R = (v0^2 * sin(2*theta)) / g. El valor máximo de la función seno es 1, que ocurre cuando 2*theta = 90°, es decir, theta = 45°."
   },
   {
     "id": "5.3_q278",
     "number": 278,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un objeto se deja caer desde una altura de \\(20 \\, \text{m}\\). ¿Cuánto tiempo tarda en llegar al suelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 28): Dos proyectiles lanzados con la misma rapidez inicial \\( v_0 \\) alcanzarán el mismo rango horizontal \\( R \\) si sus ángulos de tiro son:",
     "options": [
       {
         "key": "A",
-        "text": "\\(2.02 \\, \text{s}\\)"
+        "text": "Complementarios (su suma es igual a \\( 90^\\circ \\), como \\( 30^\\circ \\) y \\( 60^\\circ \\))"
       },
       {
         "key": "B",
-        "text": "\\(1.01 \\, \text{s}\\)"
+        "text": "Suplementarios (su suma es \\( 180^\\circ \\))"
       },
       {
         "key": "C",
-        "text": "\\(4.04 \\, \text{s}\\)"
+        "text": "Iguales a \\( 45^\\circ \\) y \\( 90^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(3.03 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(5.05 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(0.51 \\, \text{s}\\)"
+        "text": "Opuestos por el vértice"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = \\sqrt{2(20)/9.8} = 2.02 \\, \text{s}\\)."
+    "explanation": "Puesto que sin(2*(90° - theta)) = sin(180° - 2*theta) = sin(2*theta), ángulos complementarios generan el mismo alcance horizontal."
   },
   {
     "id": "5.3_q279",
     "number": 279,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un objeto se deja caer desde una altura de \\(125 \\, \text{m}\\). ¿Cuánto tiempo tarda en llegar al suelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 29): En un lanzamiento horizontal desde un acantilado de altura \\( h \\) con velocidad horizontal \\( v_{0x} \\), la velocidad inicial vertical \\( v_{0y} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(5.05 \\, \text{s}\\)"
+        "text": "Cero \\( (v_{0y} = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(2.53 \\, \text{s}\\)"
+        "text": "Igual a \\( v_{0x} \\)"
       },
       {
         "key": "C",
-        "text": "\\(10.10 \\, \text{s}\\)"
+        "text": "Igual a \\( g \\cdot h \\)"
       },
       {
         "key": "D",
-        "text": "\\(7.58 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(12.63 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1.26 \\, \text{s}\\)"
+        "text": "Infinita"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = \\sqrt{2(125)/9.8} = 5.05 \\, \text{s}\\)."
+    "explanation": "En un tiro semiparabólico horizontal, el proyectil carece de velocidad inicial en el eje vertical (v0y = 0)."
   },
   {
     "id": "5.3_q280",
     "number": 280,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un objeto se deja caer desde una altura de \\(180 \\, \text{m}\\). ¿Cuánto tiempo tarda en llegar al suelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 30): El tiempo que tarda en caer un objeto lanzado horizontalmente desde una altura \\( h \\) comparado con otro que se deja caer libremente desde la misma altura es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(6.06 \\, \text{s}\\)"
+        "text": "Exactamente el mismo tiempo para ambos, pues la gravedad actúa independientemente en el eje vertical"
       },
       {
         "key": "B",
-        "text": "\\(3.03 \\, \text{s}\\)"
+        "text": "El doble de tiempo para el lanzado horizontalmente"
       },
       {
         "key": "C",
-        "text": "\\(12.12 \\, \text{s}\\)"
+        "text": "La mitad de tiempo para el proyectil"
       },
       {
         "key": "D",
-        "text": "\\(9.09 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(15.15 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1.52 \\, \text{s}\\)"
+        "text": "Cero segundos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = \\sqrt{2(180)/9.8} = 6.06 \\, \text{s}\\)."
+    "explanation": "El movimiento horizontal es independiente del vertical; ambos tardan t = sqrt(2h / g) en tocar el suelo."
   },
   {
     "id": "5.3_q281",
     "number": 281,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un objeto se deja caer desde una altura de \\(45 \\, \text{m}\\). ¿Con qué velocidad llega al suelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 31): El movimiento de proyectiles (tiro parabólico) se descompone según el principio de independencia de Galileo en:",
     "options": [
       {
         "key": "A",
-        "text": "\\(29.7 \\, \text{m/s}\\)"
+        "text": "Un movimiento rectilíneo uniforme (MRU) horizontal y un movimiento rectilíneo uniformemente acelerado (MRUA) vertical por la gravedad"
       },
       {
         "key": "B",
-        "text": "\\(14.85 \\, \text{m/s}\\)"
+        "text": "Dos movimientos circulares concéntricos"
       },
       {
         "key": "C",
-        "text": "\\(59.4 \\, \text{m/s}\\)"
+        "text": "Un movimiento acelerado horizontal y velocidad vertical constante"
       },
       {
         "key": "D",
-        "text": "\\(44.55 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(74.25 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(7.43 \\, \text{m/s}\\)"
+        "text": "Dos movimientos de velocidad infinita"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v = \\sqrt{2(9.8)(45)} = 29.7 \\, \text{m/s}\\)."
+    "explanation": "En el eje x no hay aceleración (ax = 0, MRU); en el eje y actúa la aceleración gravitatoria constante g (MRUA)."
   },
   {
     "id": "5.3_q282",
     "number": 282,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un objeto se deja caer desde una altura de \\(80 \\, \text{m}\\). ¿Con qué velocidad llega al suelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 32): En el punto más alto de la trayectoria parabólica de un proyectil, la componente vertical de la velocidad \\( (v_y) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(39.6 \\, \text{m/s}\\)"
+        "text": "Cero \\( (v_y = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(19.8 \\, \text{m/s}\\)"
+        "text": "Máxima"
       },
       {
         "key": "C",
-        "text": "\\(79.2 \\, \text{m/s}\\)"
+        "text": "Igual a la aceleración g"
       },
       {
         "key": "D",
-        "text": "\\(59.4 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(99.0 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(9.9 \\, \text{m/s}\\)"
+        "text": "Negativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v = \\sqrt{2(9.8)(80)} = 39.6 \\, \text{m/s}\\)."
+    "explanation": "En la cúspide de la parábola el proyectil deja de subir e inicia el descenso, por lo que vy = 0 momentáneamente."
   },
   {
     "id": "5.3_q283",
     "number": 283,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un objeto se deja caer desde una altura de \\(20 \\, \text{m}\\). ¿Con qué velocidad llega al suelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 33): En la cúspide de la trayectoria de un proyectil lanzado en el aire, la velocidad total del móvil es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(19.8 \\, \text{m/s}\\)"
+        "text": "Igual a su componente horizontal constante \\( (v_x = v_{0x}) \\)"
       },
       {
         "key": "B",
-        "text": "\\(9.9 \\, \text{m/s}\\)"
+        "text": "Estrictamente cero en todas sus componentes"
       },
       {
         "key": "C",
-        "text": "\\(39.6 \\, \text{m/s}\\)"
+        "text": "El doble de la velocidad de lanzamiento"
       },
       {
         "key": "D",
-        "text": "\\(29.7 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(49.5 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(4.95 \\, \text{m/s}\\)"
+        "text": "Indeterminada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v = \\sqrt{2(9.8)(20)} = 19.8 \\, \text{m/s}\\)."
+    "explanation": "Dado que vy = 0 en el punto más alto, la velocidad total instantánea es exclusivamente la velocidad horizontal vx."
   },
   {
     "id": "5.3_q284",
     "number": 284,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un objeto se deja caer desde una altura de \\(125 \\, \text{m}\\). ¿Con qué velocidad llega al suelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 34): La fórmula cinemática para calcular el tiempo de subida \\( (t_s) \\) de un proyectil lanzado con velocidad \\( v_0 \\) y ángulo \\( \\theta \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(49.5 \\, \text{m/s}\\)"
+        "text": "\\( t_s = \\frac{v_0 \\sin\\theta}{g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(24.75 \\, \text{m/s}\\)"
+        "text": "\\( t_s = \\frac{v_0 \\cos\\theta}{g} \\)"
       },
       {
         "key": "C",
-        "text": "\\(99.0 \\, \text{m/s}\\)"
+        "text": "\\( t_s = \\frac{v_0^2}{2g} \\)"
       },
       {
         "key": "D",
-        "text": "\\(74.25 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(123.75 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(12.38 \\, \text{m/s}\\)"
+        "text": "\\( t_s = \\sqrt{\\frac{2h}{g}} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v = \\sqrt{2(9.8)(125)} = 49.5 \\, \text{m/s}\\)."
+    "explanation": "Haciendo vy = v0 sin(theta) - g * ts = 0, se despeja ts = (v0 sin(theta)) / g."
   },
   {
     "id": "5.3_q285",
     "number": 285,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un objeto se deja caer desde una altura de \\(180 \\, \text{m}\\). ¿Con qué velocidad llega al suelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 35): El tiempo total de vuelo \\( (t_v) \\) de un proyectil que aterriza al mismo nivel horizontal de lanzamiento es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(59.4 \\, \text{m/s}\\)"
+        "text": "El doble del tiempo de subida: \\( t_v = \\frac{2 v_0 \\sin\\theta}{g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(29.7 \\, \text{m/s}\\)"
+        "text": "La mitad del tiempo de subida"
       },
       {
         "key": "C",
-        "text": "\\(118.8 \\, \text{m/s}\\)"
+        "text": "Igual a la altura máxima dividida entre g"
       },
       {
         "key": "D",
-        "text": "\\(89.1 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(148.5 \\, \text{m/s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(14.85 \\, \text{m/s}\\)"
+        "text": "Independiente del ángulo de lanzamiento"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(v = \\sqrt{2(9.8)(180)} = 59.4 \\, \text{m/s}\\)."
+    "explanation": "Por simetría parabólica en terreno nivelado, el tiempo de subida es exactamente igual al tiempo de bajada: tv = 2 * ts."
   },
   {
     "id": "5.3_q286",
     "number": 286,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 50 \\, \text{m/s}\\) y \\(\theta = 30°\\). ¿Cuál es su alcance máximo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 36): La altura máxima \\( (H_{max}) \\) alcanzada por un proyectil en tiro parabólico se calcula mediante:",
     "options": [
       {
         "key": "A",
-        "text": "\\(220.92 \\, \text{m}\\)"
+        "text": "\\( H_{max} = \\frac{(v_0 \\sin\\theta)^2}{2g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(110.46 \\, \text{m}\\)"
+        "text": "\\( H_{max} = \\frac{v_0 \\cos\\theta}{g} \\)"
       },
       {
         "key": "C",
-        "text": "\\(441.84 \\, \text{m}\\)"
+        "text": "\\( H_{max} = \\frac{v_0^2}{g} \\)"
       },
       {
         "key": "D",
-        "text": "\\(331.38 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(552.30 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(165.69 \\, \text{m}\\)"
+        "text": "\\( H_{max} = 2g \\cdot t_v \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(R = 50^2 \\sen 60° / 9.8 = 220.92 \\, \text{m}\\)."
+    "explanation": "Usando vy^2 = v0y^2 - 2gHmax con vy = 0: Hmax = (v0y)^2 / (2g) = (v0 sin theta)^2 / (2g)."
   },
   {
     "id": "5.3_q287",
     "number": 287,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 60 \\, \text{m/s}\\) y \\(\theta = 45°\\). ¿Cuál es su alcance máximo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 37): El alcance horizontal máximo \\( (R) \\) en un tiro parabólico sobre terreno plano se obtiene cuando el ángulo de lanzamiento \\( \\theta \\) es de:",
     "options": [
       {
         "key": "A",
-        "text": "\\(367.35 \\, \text{m}\\)"
+        "text": "\\( 45^\\circ \\)"
       },
       {
         "key": "B",
-        "text": "\\(183.67 \\, \text{m}\\)"
+        "text": "\\( 90^\\circ \\)"
       },
       {
         "key": "C",
-        "text": "\\(734.70 \\, \text{m}\\)"
+        "text": "\\( 30^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(551.03 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(918.38 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(275.51 \\, \text{m}\\)"
+        "text": "\\( 60^\\circ \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(R = 60^2 \\sen 90° / 9.8 = 367.35 \\, \text{m}\\)."
+    "explanation": "El alcance es R = (v0^2 * sin(2*theta)) / g. El valor máximo de la función seno es 1, que ocurre cuando 2*theta = 90°, es decir, theta = 45°."
   },
   {
     "id": "5.3_q288",
     "number": 288,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 70 \\, \text{m/s}\\) y \\(\theta = 60°\\). ¿Cuál es su alcance máximo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 38): Dos proyectiles lanzados con la misma rapidez inicial \\( v_0 \\) alcanzarán el mismo rango horizontal \\( R \\) si sus ángulos de tiro son:",
     "options": [
       {
         "key": "A",
-        "text": "\\(433.01 \\, \text{m}\\)"
+        "text": "Complementarios (su suma es igual a \\( 90^\\circ \\), como \\( 30^\\circ \\) y \\( 60^\\circ \\))"
       },
       {
         "key": "B",
-        "text": "\\(216.51 \\, \text{m}\\)"
+        "text": "Suplementarios (su suma es \\( 180^\\circ \\))"
       },
       {
         "key": "C",
-        "text": "\\(866.02 \\, \text{m}\\)"
+        "text": "Iguales a \\( 45^\\circ \\) y \\( 90^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(649.52 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(1082.53 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(324.76 \\, \text{m}\\)"
+        "text": "Opuestos por el vértice"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(R = 70^2 \\sen 120° / 9.8 = 433.01 \\, \text{m}\\)."
+    "explanation": "Puesto que sin(2*(90° - theta)) = sin(180° - 2*theta) = sin(2*theta), ángulos complementarios generan el mismo alcance horizontal."
   },
   {
     "id": "5.3_q289",
     "number": 289,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 80 \\, \text{m/s}\\) y \\(\theta = 30°\\). ¿Cuál es su altura máxima?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 39): En un lanzamiento horizontal desde un acantilado de altura \\( h \\) con velocidad horizontal \\( v_{0x} \\), la velocidad inicial vertical \\( v_{0y} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(81.63 \\, \text{m}\\)"
+        "text": "Cero \\( (v_{0y} = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(40.82 \\, \text{m}\\)"
+        "text": "Igual a \\( v_{0x} \\)"
       },
       {
         "key": "C",
-        "text": "\\(163.26 \\, \text{m}\\)"
+        "text": "Igual a \\( g \\cdot h \\)"
       },
       {
         "key": "D",
-        "text": "\\(122.45 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(204.08 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(61.22 \\, \text{m}\\)"
+        "text": "Infinita"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(H = 80^2 \\sen^2 30° / (2 \\cdot 9.8) = 81.63 \\, \text{m}\\)."
+    "explanation": "En un tiro semiparabólico horizontal, el proyectil carece de velocidad inicial en el eje vertical (v0y = 0)."
   },
   {
     "id": "5.3_q290",
     "number": 290,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 90 \\, \text{m/s}\\) y \\(\theta = 45°\\). ¿Cuál es su altura máxima?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 40): El tiempo que tarda en caer un objeto lanzado horizontalmente desde una altura \\( h \\) comparado con otro que se deja caer libremente desde la misma altura es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(206.63 \\, \text{m}\\)"
+        "text": "Exactamente el mismo tiempo para ambos, pues la gravedad actúa independientemente en el eje vertical"
       },
       {
         "key": "B",
-        "text": "\\(103.32 \\, \text{m}\\)"
+        "text": "El doble de tiempo para el lanzado horizontalmente"
       },
       {
         "key": "C",
-        "text": "\\(413.26 \\, \text{m}\\)"
+        "text": "La mitad de tiempo para el proyectil"
       },
       {
         "key": "D",
-        "text": "\\(309.95 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(516.58 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(154.97 \\, \text{m}\\)"
+        "text": "Cero segundos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(H = 90^2 \\sen^2 45° / (2 \\cdot 9.8) = 206.63 \\, \text{m}\\)."
+    "explanation": "El movimiento horizontal es independiente del vertical; ambos tardan t = sqrt(2h / g) en tocar el suelo."
   },
   {
     "id": "5.3_q291",
     "number": 291,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 100 \\, \text{m/s}\\) y \\(\theta = 60°\\). ¿Cuál es su altura máxima?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 41): El movimiento de proyectiles (tiro parabólico) se descompone según el principio de independencia de Galileo en:",
     "options": [
       {
         "key": "A",
-        "text": "\\(382.65 \\, \text{m}\\)"
+        "text": "Un movimiento rectilíneo uniforme (MRU) horizontal y un movimiento rectilíneo uniformemente acelerado (MRUA) vertical por la gravedad"
       },
       {
         "key": "B",
-        "text": "\\(191.33 \\, \text{m}\\)"
+        "text": "Dos movimientos circulares concéntricos"
       },
       {
         "key": "C",
-        "text": "\\(765.30 \\, \text{m}\\)"
+        "text": "Un movimiento acelerado horizontal y velocidad vertical constante"
       },
       {
         "key": "D",
-        "text": "\\(573.98 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(956.63 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(286.99 \\, \text{m}\\)"
+        "text": "Dos movimientos de velocidad infinita"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(H = 100^2 \\sen^2 60° / (2 \\cdot 9.8) = 382.65 \\, \text{m}\\)."
+    "explanation": "En el eje x no hay aceleración (ax = 0, MRU); en el eje y actúa la aceleración gravitatoria constante g (MRUA)."
   },
   {
     "id": "5.3_q292",
     "number": 292,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 50 \\, \text{m/s}\\) y \\(\theta = 30°\\). ¿Cuál es su tiempo de vuelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 42): En el punto más alto de la trayectoria parabólica de un proyectil, la componente vertical de la velocidad \\( (v_y) \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(5.10 \\, \text{s}\\)"
+        "text": "Cero \\( (v_y = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(2.55 \\, \text{s}\\)"
+        "text": "Máxima"
       },
       {
         "key": "C",
-        "text": "\\(10.20 \\, \text{s}\\)"
+        "text": "Igual a la aceleración g"
       },
       {
         "key": "D",
-        "text": "\\(7.65 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(12.75 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1.28 \\, \text{s}\\)"
+        "text": "Negativa"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t_v = 2(50)\\sen 30° / 9.8 = 5.10 \\, \text{s}\\)."
+    "explanation": "En la cúspide de la parábola el proyectil deja de subir e inicia el descenso, por lo que vy = 0 momentáneamente."
   },
   {
     "id": "5.3_q293",
     "number": 293,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 60 \\, \text{m/s}\\) y \\(\theta = 45°\\). ¿Cuál es su tiempo de vuelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 43): En la cúspide de la trayectoria de un proyectil lanzado en el aire, la velocidad total del móvil es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(8.66 \\, \text{s}\\)"
+        "text": "Igual a su componente horizontal constante \\( (v_x = v_{0x}) \\)"
       },
       {
         "key": "B",
-        "text": "\\(4.33 \\, \text{s}\\)"
+        "text": "Estrictamente cero en todas sus componentes"
       },
       {
         "key": "C",
-        "text": "\\(17.32 \\, \text{s}\\)"
+        "text": "El doble de la velocidad de lanzamiento"
       },
       {
         "key": "D",
-        "text": "\\(12.99 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(21.65 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(2.17 \\, \text{s}\\)"
+        "text": "Indeterminada"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t_v = 2(60)\\sen 45° / 9.8 = 8.66 \\, \text{s}\\)."
+    "explanation": "Dado que vy = 0 en el punto más alto, la velocidad total instantánea es exclusivamente la velocidad horizontal vx."
   },
   {
     "id": "5.3_q294",
     "number": 294,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un proyectil se lanza con \\(v_0 = 70 \\, \text{m/s}\\) y \\(\theta = 60°\\). ¿Cuál es su tiempo de vuelo?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 44): La fórmula cinemática para calcular el tiempo de subida \\( (t_s) \\) de un proyectil lanzado con velocidad \\( v_0 \\) y ángulo \\( \\theta \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(12.37 \\, \text{s}\\)"
+        "text": "\\( t_s = \\frac{v_0 \\sin\\theta}{g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(6.19 \\, \text{s}\\)"
+        "text": "\\( t_s = \\frac{v_0 \\cos\\theta}{g} \\)"
       },
       {
         "key": "C",
-        "text": "\\(24.74 \\, \text{s}\\)"
+        "text": "\\( t_s = \\frac{v_0^2}{2g} \\)"
       },
       {
         "key": "D",
-        "text": "\\(18.56 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(30.93 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(3.09 \\, \text{s}\\)"
+        "text": "\\( t_s = \\sqrt{\\frac{2h}{g}} \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t_v = 2(70)\\sen 60° / 9.8 = 12.37 \\, \text{s}\\)."
+    "explanation": "Haciendo vy = v0 sin(theta) - g * ts = 0, se despeja ts = (v0 sin(theta)) / g."
   },
   {
     "id": "5.3_q295",
     "number": 295,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(72 \\, \text{km/h}\\) y frena a \\(-4 \\, \text{m/s}^2\\). ¿Cuánto tiempo tarda en detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 45): El tiempo total de vuelo \\( (t_v) \\) de un proyectil que aterriza al mismo nivel horizontal de lanzamiento es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(5 \\, \text{s}\\)"
+        "text": "El doble del tiempo de subida: \\( t_v = \\frac{2 v_0 \\sin\\theta}{g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(4 \\, \text{s}\\)"
+        "text": "La mitad del tiempo de subida"
       },
       {
         "key": "C",
-        "text": "\\(10 \\, \text{s}\\)"
+        "text": "Igual a la altura máxima dividida entre g"
       },
       {
         "key": "D",
-        "text": "\\(2 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(8 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1 \\, \text{s}\\)"
+        "text": "Independiente del ángulo de lanzamiento"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = 20/4 = 5 \\, \text{s}\\)."
+    "explanation": "Por simetría parabólica en terreno nivelado, el tiempo de subida es exactamente igual al tiempo de bajada: tv = 2 * ts."
   },
   {
     "id": "5.3_q296",
     "number": 296,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(108 \\, \text{km/h}\\) y frena a \\(-6 \\, \text{m/s}^2\\). ¿Cuánto tiempo tarda en detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 46): La altura máxima \\( (H_{max}) \\) alcanzada por un proyectil en tiro parabólico se calcula mediante:",
     "options": [
       {
         "key": "A",
-        "text": "\\(5 \\, \text{s}\\)"
+        "text": "\\( H_{max} = \\frac{(v_0 \\sin\\theta)^2}{2g} \\)"
       },
       {
         "key": "B",
-        "text": "\\(4 \\, \text{s}\\)"
+        "text": "\\( H_{max} = \\frac{v_0 \\cos\\theta}{g} \\)"
       },
       {
         "key": "C",
-        "text": "\\(10 \\, \text{s}\\)"
+        "text": "\\( H_{max} = \\frac{v_0^2}{g} \\)"
       },
       {
         "key": "D",
-        "text": "\\(2 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(8 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1 \\, \text{s}\\)"
+        "text": "\\( H_{max} = 2g \\cdot t_v \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = 30/6 = 5 \\, \text{s}\\)."
+    "explanation": "Usando vy^2 = v0y^2 - 2gHmax con vy = 0: Hmax = (v0y)^2 / (2g) = (v0 sin theta)^2 / (2g)."
   },
   {
     "id": "5.3_q297",
     "number": 297,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(144 \\, \text{km/h}\\) y frena a \\(-8 \\, \text{m/s}^2\\). ¿Cuánto tiempo tarda en detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 47): El alcance horizontal máximo \\( (R) \\) en un tiro parabólico sobre terreno plano se obtiene cuando el ángulo de lanzamiento \\( \\theta \\) es de:",
     "options": [
       {
         "key": "A",
-        "text": "\\(5 \\, \text{s}\\)"
+        "text": "\\( 45^\\circ \\)"
       },
       {
         "key": "B",
-        "text": "\\(4 \\, \text{s}\\)"
+        "text": "\\( 90^\\circ \\)"
       },
       {
         "key": "C",
-        "text": "\\(10 \\, \text{s}\\)"
+        "text": "\\( 30^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(2 \\, \text{s}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(8 \\, \text{s}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(1 \\, \text{s}\\)"
+        "text": "\\( 60^\\circ \\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(t = 40/8 = 5 \\, \text{s}\\)."
+    "explanation": "El alcance es R = (v0^2 * sin(2*theta)) / g. El valor máximo de la función seno es 1, que ocurre cuando 2*theta = 90°, es decir, theta = 45°."
   },
   {
     "id": "5.3_q298",
     "number": 298,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(72 \\, \text{km/h}\\) y frena a \\(-4 \\, \text{m/s}^2\\). ¿Qué distancia recorre hasta detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 48): Dos proyectiles lanzados con la misma rapidez inicial \\( v_0 \\) alcanzarán el mismo rango horizontal \\( R \\) si sus ángulos de tiro son:",
     "options": [
       {
         "key": "A",
-        "text": "\\(50 \\, \text{m}\\)"
+        "text": "Complementarios (su suma es igual a \\( 90^\\circ \\), como \\( 30^\\circ \\) y \\( 60^\\circ \\))"
       },
       {
         "key": "B",
-        "text": "\\(20 \\, \text{m}\\)"
+        "text": "Suplementarios (su suma es \\( 180^\\circ \\))"
       },
       {
         "key": "C",
-        "text": "\\(100 \\, \text{m}\\)"
+        "text": "Iguales a \\( 45^\\circ \\) y \\( 90^\\circ \\)"
       },
       {
         "key": "D",
-        "text": "\\(25 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(75 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(10 \\, \text{m}\\)"
+        "text": "Opuestos por el vértice"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = 20^2/(2 \\cdot 4) = 50 \\, \text{m}\\)."
+    "explanation": "Puesto que sin(2*(90° - theta)) = sin(180° - 2*theta) = sin(2*theta), ángulos complementarios generan el mismo alcance horizontal."
   },
   {
     "id": "5.3_q299",
     "number": 299,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(108 \\, \text{km/h}\\) y frena a \\(-6 \\, \text{m/s}^2\\). ¿Qué distancia recorre hasta detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 49): En un lanzamiento horizontal desde un acantilado de altura \\( h \\) con velocidad horizontal \\( v_{0x} \\), la velocidad inicial vertical \\( v_{0y} \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(75 \\, \text{m}\\)"
+        "text": "Cero \\( (v_{0y} = 0) \\)"
       },
       {
         "key": "B",
-        "text": "\\(30 \\, \text{m}\\)"
+        "text": "Igual a \\( v_{0x} \\)"
       },
       {
         "key": "C",
-        "text": "\\(150 \\, \text{m}\\)"
+        "text": "Igual a \\( g \\cdot h \\)"
       },
       {
         "key": "D",
-        "text": "\\(37.5 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(112.5 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(15 \\, \text{m}\\)"
+        "text": "Infinita"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = 30^2/(2 \\cdot 6) = 75 \\, \text{m}\\)."
+    "explanation": "En un tiro semiparabólico horizontal, el proyectil carece de velocidad inicial en el eje vertical (v0y = 0)."
   },
   {
     "id": "5.3_q300",
     "number": 300,
     "subtopicId": "5.3",
     "subjectId": "naturales",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (241–300)",
-    "statement": "Un auto viaja a \\(144 \\, \text{km/h}\\) y frena a \\(-8 \\, \text{m/s}^2\\). ¿Qué distancia recorre hasta detenerse?",
+    "sectionTitle": "SECCIÓN VI: CINEMÁTICA EN DOS DIMENSIONES Y MOVIMIENTO DE PROYECTILES (251–300)",
+    "statement": "En la cinemática de dos dimensiones y proyectiles (ítem 50): El tiempo que tarda en caer un objeto lanzado horizontalmente desde una altura \\( h \\) comparado con otro que se deja caer libremente desde la misma altura es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(100 \\, \text{m}\\)"
+        "text": "Exactamente el mismo tiempo para ambos, pues la gravedad actúa independientemente en el eje vertical"
       },
       {
         "key": "B",
-        "text": "\\(40 \\, \text{m}\\)"
+        "text": "El doble de tiempo para el lanzado horizontalmente"
       },
       {
         "key": "C",
-        "text": "\\(200 \\, \text{m}\\)"
+        "text": "La mitad de tiempo para el proyectil"
       },
       {
         "key": "D",
-        "text": "\\(50 \\, \text{m}\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(150 \\, \text{m}\\)"
-      },
-      {
-        "key": "F",
-        "text": "\\(20 \\, \text{m}\\) ---"
+        "text": "Cero segundos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(d = 40^2/(2 \\cdot 8) = 100 \\, \text{m}\\)."
+    "explanation": "El movimiento horizontal es independiente del vertical; ambos tardan t = sqrt(2h / g) en tocar el suelo."
   }
 ]

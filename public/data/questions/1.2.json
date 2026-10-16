@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)",
-    "statement": "El opuesto de un número positivo es:",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "Sobre una recta se toman los puntos consecutivos A, B y C. Si AB = 8 cm y BC = 12 cm, y M es el punto medio de AC, la longitud de BM es:",
     "options": [
       {
         "key": "A",
-        "text": "Positivo"
+        "text": "2 cm"
       },
       {
         "key": "B",
-        "text": "Negativo"
+        "text": "4 cm"
       },
       {
         "key": "C",
-        "text": "Cero"
+        "text": "6 cm"
       },
       {
         "key": "D",
-        "text": "Igual"
-      },
-      {
-        "key": "E",
-        "text": "Mayor"
-      },
-      {
-        "key": "F",
-        "text": "Menor"
+        "text": "1 cm"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Negativo."
+    "correctAnswer": "A",
+    "explanation": "AC = 8 + 12 = 20 cm. M es punto medio, luego AM = 10 cm. Como AB = 8 cm, BM = AM - AB = 10 - 8 = 2 cm."
   },
   {
     "id": "1.2_q202",
     "number": 202,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)",
-    "statement": "El opuesto de un número negativo es:",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "Dos ángulos son suplementarios y uno de ellos mide \\( 35^\\circ \\) más que el otro. La medida del ángulo menor es:",
     "options": [
       {
         "key": "A",
-        "text": "Positivo"
+        "text": "\\(72.5^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "Negativo"
+        "text": "\\(107.5^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "Cero"
+        "text": "\\(65^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "Igual"
-      },
-      {
-        "key": "E",
-        "text": "Mayor"
-      },
-      {
-        "key": "F",
-        "text": "Menor"
+        "text": "\\(55^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Positivo."
+    "explanation": "x + (x + 35) = 180 => 2x = 145 => x = 72.5°."
   },
   {
     "id": "1.2_q203",
     "number": 203,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)",
-    "statement": "El opuesto de cero es:",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "Dos ángulos son complementarios y su razón es de 2 a 3. La medida del ángulo mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "Cero"
+        "text": "\\(54^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "Uno"
+        "text": "\\(36^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "Menos uno"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "Infinito"
-      },
-      {
-        "key": "E",
-        "text": "Mayor"
-      },
-      {
-        "key": "F",
-        "text": "Menor"
+        "text": "\\(72^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Cero."
+    "explanation": "2k + 3k = 90 => 5k = 90 => k = 18. El mayor es 3(18) = 54°."
   },
   {
     "id": "1.2_q204",
     "number": 204,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)",
-    "statement": "Si x=-2, ¿cuál es el opuesto de x?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "El suplemento del complemento de un ángulo de \\( 40^\\circ \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "2"
+        "text": "\\(130^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-2"
+        "text": "\\(140^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(50^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(90^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2."
+    "explanation": "Complemento de 40° = 90 - 40 = 50°. Suplemento de 50° = 180 - 50 = 130°."
   },
   {
     "id": "1.2_q205",
     "number": 205,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)",
-    "statement": "Si x=5, ¿cuál es el opuesto de x?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "Dos ángulos opuestos por el vértice miden \\( (3x - 10)^\\circ \\) y \\( (2x + 25)^\\circ \\). El valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "-5"
+        "text": "35"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "25"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "15"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "45"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "-5."
+    "explanation": "Por ser opuestos por el vértice: 3x - 10 = 2x + 25 => x = 35."
   },
   {
     "id": "1.2_q206",
     "number": 206,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)",
-    "statement": "Si x=-8, ¿cuál es el opuesto de x?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "Si un ángulo mide \\( 68^\\circ 30' \\), su complemento mide:",
     "options": [
       {
         "key": "A",
-        "text": "8"
+        "text": "\\(21^\\circ 30'\\)"
       },
       {
         "key": "B",
-        "text": "-8"
+        "text": "\\(22^\\circ 30'\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(111^\\circ 30'\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(31^\\circ 30'\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "8."
+    "explanation": "90° - 68° 30' = 89° 60' - 68° 30' = 21° 30'."
   },
   {
     "id": "1.2_q207",
     "number": 207,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)",
-    "statement": "Si x=0, ¿cuál es el opuesto de x?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "Sobre una recta se toman los puntos colineales P, Q, R, S. Si PQ = 2QR, RS = 3QR y PS = 36 cm, ¿cuánto mide QR?",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "6 cm"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "8 cm"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "12 cm"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "4 cm"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0."
+    "explanation": "PS = PQ + QR + RS = 2QR + QR + 3QR = 6QR = 36 => QR = 6 cm."
   },
   {
     "id": "1.2_q208",
     "number": 208,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)",
-    "statement": "¿Cuál es el simétrico de -6 respecto al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "El suplemento de un ángulo \\( \\alpha \\) es igual al triple de su complemento. ¿Cuánto mide \\( \\alpha \\)?",
     "options": [
       {
         "key": "A",
-        "text": "6"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-6"
+        "text": "\\(30^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(15^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "6."
+    "explanation": "180 - a = 3(90 - a) => 180 - a = 270 - 3a => 2a = 90 => a = 45°."
   },
   {
     "id": "1.2_q209",
     "number": 209,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)",
-    "statement": "¿Cuál es el simétrico de 10 respecto al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "Tres ángulos consecutivos alrededor de un punto sobre una recta están en progresión aritmética. Si el menor mide \\( 40^\\circ \\), el mayor mide:",
     "options": [
       {
         "key": "A",
-        "text": "-10"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "10"
+        "text": "\\(70^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(90^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "-10."
+    "explanation": "40 + (40 + d) + (40 + 2d) = 180 => 120 + 3d = 180 => 3d = 60 => d = 20°. Mayor = 40 + 40 = 80°."
   },
   {
     "id": "1.2_q210",
     "number": 210,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VII: OPUESTOS Y SIMÉTRICOS (181–210)",
-    "statement": "¿Cuál es el simétrico de -1 respecto al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "Un ángulo llano equivale en radianes a:",
     "options": [
       {
         "key": "A",
-        "text": "1"
+        "text": "\\(\\pi\\text{ rad}\\)"
       },
       {
         "key": "B",
-        "text": "-1"
+        "text": "\\(2\\pi\\text{ rad}\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(\\pi/2\\text{ rad}\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(3\\pi/2\\text{ rad}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "1."
+    "explanation": "Un ángulo llano mide 180°, que equivale exactamente a \\(\\pi\\) radianes."
   },
   {
     "id": "1.2_q211",
     "number": 211,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(1\\) y \\(4\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 11): Sobre una recta se toman los puntos consecutivos A, B y C. Si AB = 8 cm y BC = 12 cm, y M es el punto medio de AC, la longitud de BM es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "2 cm"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "4 cm"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "6 cm"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "1 cm"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "2 entre 1 y 4."
+    "correctAnswer": "A",
+    "explanation": "AC = 8 + 12 = 20 cm. M es punto medio, luego AM = 10 cm. Como AB = 8 cm, BM = AM - AB = 10 - 8 = 2 cm."
   },
   {
     "id": "1.2_q212",
     "number": 212,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-3\\) y \\(0\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 12): Dos ángulos son suplementarios y uno de ellos mide \\( 35^\\circ \\) más que el otro. La medida del ángulo menor es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(72.5^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-1"
+        "text": "\\(107.5^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(65^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(55^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "-1 entre -3 y 0."
+    "correctAnswer": "A",
+    "explanation": "x + (x + 35) = 180 => 2x = 145 => x = 72.5°."
   },
   {
     "id": "1.2_q213",
     "number": 213,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-2\\) y \\(2\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 13): Dos ángulos son complementarios y su razón es de 2 a 3. La medida del ángulo mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(54^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "0"
+        "text": "\\(36^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(72^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "0 entre -2 y 2."
+    "correctAnswer": "A",
+    "explanation": "2k + 3k = 90 => 5k = 90 => k = 18. El mayor es 3(18) = 54°."
   },
   {
     "id": "1.2_q214",
     "number": 214,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(0\\) y \\(5\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 14): El suplemento del complemento de un ángulo de \\( 40^\\circ \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(130^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "3"
+        "text": "\\(140^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(50^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(90^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "3 entre 0 y 5."
+    "correctAnswer": "A",
+    "explanation": "Complemento de 40° = 90 - 40 = 50°. Suplemento de 50° = 180 - 50 = 130°."
   },
   {
     "id": "1.2_q215",
     "number": 215,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-5\\) y \\(-2\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 15): Dos ángulos opuestos por el vértice miden \\( (3x - 10)^\\circ \\) y \\( (2x + 25)^\\circ \\). El valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "35"
       },
       {
         "key": "B",
-        "text": "-3"
+        "text": "25"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "15"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "45"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "-3 entre -5 y -2."
+    "correctAnswer": "A",
+    "explanation": "Por ser opuestos por el vértice: 3x - 10 = 2x + 25 => x = 35."
   },
   {
     "id": "1.2_q216",
     "number": 216,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(2\\) y \\(8\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 16): Si un ángulo mide \\( 68^\\circ 30' \\), su complemento mide:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(21^\\circ 30'\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(22^\\circ 30'\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(111^\\circ 30'\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(31^\\circ 30'\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "5 entre 2 y 8."
+    "correctAnswer": "A",
+    "explanation": "90° - 68° 30' = 89° 60' - 68° 30' = 21° 30'."
   },
   {
     "id": "1.2_q217",
     "number": 217,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-4\\) y \\(4\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 17): Sobre una recta se toman los puntos colineales P, Q, R, S. Si PQ = 2QR, RS = 3QR y PS = 36 cm, ¿cuánto mide QR?",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "6 cm"
       },
       {
         "key": "B",
-        "text": "0"
+        "text": "8 cm"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "12 cm"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "4 cm"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "0 entre -4 y 4."
+    "correctAnswer": "A",
+    "explanation": "PS = PQ + QR + RS = 2QR + QR + 3QR = 6QR = 36 => QR = 6 cm."
   },
   {
     "id": "1.2_q218",
     "number": 218,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-1\\) y \\(3\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 18): El suplemento de un ángulo \\( \\alpha \\) es igual al triple de su complemento. ¿Cuánto mide \\( \\alpha \\)?",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(30^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(15^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "1 entre -1 y 3."
+    "correctAnswer": "A",
+    "explanation": "180 - a = 3(90 - a) => 180 - a = 270 - 3a => 2a = 90 => a = 45°."
   },
   {
     "id": "1.2_q219",
     "number": 219,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(3\\) y \\(7\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 19): Tres ángulos consecutivos alrededor de un punto sobre una recta están en progresión aritmética. Si el menor mide \\( 40^\\circ \\), el mayor mide:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "5"
+        "text": "\\(70^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(90^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "5 entre 3 y 7."
+    "correctAnswer": "A",
+    "explanation": "40 + (40 + d) + (40 + 2d) = 180 => 120 + 3d = 180 => 3d = 60 => d = 20°. Mayor = 40 + 40 = 80°."
   },
   {
     "id": "1.2_q220",
     "number": 220,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-7\\) y \\(-3\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 20): Un ángulo llano equivale en radianes a:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(\\pi\\text{ rad}\\)"
       },
       {
         "key": "B",
-        "text": "-5"
+        "text": "\\(2\\pi\\text{ rad}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(\\pi/2\\text{ rad}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(3\\pi/2\\text{ rad}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "-5 entre -7 y -3."
+    "correctAnswer": "A",
+    "explanation": "Un ángulo llano mide 180°, que equivale exactamente a \\(\\pi\\) radianes."
   },
   {
     "id": "1.2_q221",
     "number": 221,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(0.5\\) y \\(1.5\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 21): Sobre una recta se toman los puntos consecutivos A, B y C. Si AB = 8 cm y BC = 12 cm, y M es el punto medio de AC, la longitud de BM es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "2 cm"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "4 cm"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "6 cm"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "1 cm"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "1 entre 0.5 y 1.5."
+    "correctAnswer": "A",
+    "explanation": "AC = 8 + 12 = 20 cm. M es punto medio, luego AM = 10 cm. Como AB = 8 cm, BM = AM - AB = 10 - 8 = 2 cm."
   },
   {
     "id": "1.2_q222",
     "number": 222,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-1.5\\) y \\(-0.5\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 22): Dos ángulos son suplementarios y uno de ellos mide \\( 35^\\circ \\) más que el otro. La medida del ángulo menor es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(72.5^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-1"
+        "text": "\\(107.5^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(65^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(55^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "-1 entre -1.5 y -0.5."
+    "correctAnswer": "A",
+    "explanation": "x + (x + 35) = 180 => 2x = 145 => x = 72.5°."
   },
   {
     "id": "1.2_q223",
     "number": 223,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(2.5\\) y \\(3.5\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 23): Dos ángulos son complementarios y su razón es de 2 a 3. La medida del ángulo mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(54^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "3"
+        "text": "\\(36^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(72^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "3 entre 2.5 y 3.5."
+    "correctAnswer": "A",
+    "explanation": "2k + 3k = 90 => 5k = 90 => k = 18. El mayor es 3(18) = 54°."
   },
   {
     "id": "1.2_q224",
     "number": 224,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-3.5\\) y \\(-2.5\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 24): El suplemento del complemento de un ángulo de \\( 40^\\circ \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(130^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-3"
+        "text": "\\(140^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(50^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(90^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "-3 entre -3.5 y -2.5."
+    "correctAnswer": "A",
+    "explanation": "Complemento de 40° = 90 - 40 = 50°. Suplemento de 50° = 180 - 50 = 130°."
   },
   {
     "id": "1.2_q225",
     "number": 225,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(10\\) y \\(20\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 25): Dos ángulos opuestos por el vértice miden \\( (3x - 10)^\\circ \\) y \\( (2x + 25)^\\circ \\). El valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "35"
       },
       {
         "key": "B",
-        "text": "15"
+        "text": "25"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "15"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "45"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "15 entre 10 y 20."
+    "correctAnswer": "A",
+    "explanation": "Por ser opuestos por el vértice: 3x - 10 = 2x + 25 => x = 35."
   },
   {
     "id": "1.2_q226",
     "number": 226,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-20\\) y \\(-10\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 26): Si un ángulo mide \\( 68^\\circ 30' \\), su complemento mide:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(21^\\circ 30'\\)"
       },
       {
         "key": "B",
-        "text": "-15"
+        "text": "\\(22^\\circ 30'\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(111^\\circ 30'\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(31^\\circ 30'\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "-15 entre -20 y -10."
+    "correctAnswer": "A",
+    "explanation": "90° - 68° 30' = 89° 60' - 68° 30' = 21° 30'."
   },
   {
     "id": "1.2_q227",
     "number": 227,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(100\\) y \\(200\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 27): Sobre una recta se toman los puntos colineales P, Q, R, S. Si PQ = 2QR, RS = 3QR y PS = 36 cm, ¿cuánto mide QR?",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "6 cm"
       },
       {
         "key": "B",
-        "text": "150"
+        "text": "8 cm"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "12 cm"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "4 cm"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "150 entre 100 y 200."
+    "correctAnswer": "A",
+    "explanation": "PS = PQ + QR + RS = 2QR + QR + 3QR = 6QR = 36 => QR = 6 cm."
   },
   {
     "id": "1.2_q228",
     "number": 228,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-100\\) y \\(-50\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 28): El suplemento de un ángulo \\( \\alpha \\) es igual al triple de su complemento. ¿Cuánto mide \\( \\alpha \\)?",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-75"
+        "text": "\\(30^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(15^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "-75 entre -100 y -50."
+    "correctAnswer": "A",
+    "explanation": "180 - a = 3(90 - a) => 180 - a = 270 - 3a => 2a = 90 => a = 45°."
   },
   {
     "id": "1.2_q229",
     "number": 229,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(\\frac{1}{2}\\) y \\(\\frac{3}{4}\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 29): Tres ángulos consecutivos alrededor de un punto sobre una recta están en progresión aritmética. Si el menor mide \\( 40^\\circ \\), el mayor mide:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "\\(\\frac{5}{8}\\)"
+        "text": "\\(70^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(90^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(\\frac{5}{8} entre \\frac{1}{2} y \\frac{3}{4}.\\)"
+    "correctAnswer": "A",
+    "explanation": "40 + (40 + d) + (40 + 2d) = 180 => 120 + 3d = 180 => 3d = 60 => d = 20°. Mayor = 40 + 40 = 80°."
   },
   {
     "id": "1.2_q230",
     "number": 230,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(\\frac{1}{3}\\) y \\(\\frac{2}{3}\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 30): Un ángulo llano equivale en radianes a:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(\\pi\\text{ rad}\\)"
       },
       {
         "key": "B",
-        "text": "\\(\\frac{1}{2}\\)"
+        "text": "\\(2\\pi\\text{ rad}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(\\pi/2\\text{ rad}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(3\\pi/2\\text{ rad}\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(\\frac{1}{2} entre \\frac{1}{3} y \\frac{2}{3}.\\)"
+    "correctAnswer": "A",
+    "explanation": "Un ángulo llano mide 180°, que equivale exactamente a \\(\\pi\\) radianes."
   },
   {
     "id": "1.2_q231",
     "number": 231,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-\\frac{1}{2}\\) y \\(\\frac{1}{2}\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 31): Sobre una recta se toman los puntos consecutivos A, B y C. Si AB = 8 cm y BC = 12 cm, y M es el punto medio de AC, la longitud de BM es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "2 cm"
       },
       {
         "key": "B",
-        "text": "0"
+        "text": "4 cm"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "6 cm"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "1 cm"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "0 entre -\\(\\frac{1}{2}\\) y \\(\\frac{1}{2}\\)."
+    "correctAnswer": "A",
+    "explanation": "AC = 8 + 12 = 20 cm. M es punto medio, luego AM = 10 cm. Como AB = 8 cm, BM = AM - AB = 10 - 8 = 2 cm."
   },
   {
     "id": "1.2_q232",
     "number": 232,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-1\\) y \\(1\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 32): Dos ángulos son suplementarios y uno de ellos mide \\( 35^\\circ \\) más que el otro. La medida del ángulo menor es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(72.5^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "0"
+        "text": "\\(107.5^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(65^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(55^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "0 entre -1 y 1."
+    "correctAnswer": "A",
+    "explanation": "x + (x + 35) = 180 => 2x = 145 => x = 72.5°."
   },
   {
     "id": "1.2_q233",
     "number": 233,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-10\\) y \\(10\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 33): Dos ángulos son complementarios y su razón es de 2 a 3. La medida del ángulo mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(54^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "0"
+        "text": "\\(36^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(72^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "0 entre -10 y 10."
+    "correctAnswer": "A",
+    "explanation": "2k + 3k = 90 => 5k = 90 => k = 18. El mayor es 3(18) = 54°."
   },
   {
     "id": "1.2_q234",
     "number": 234,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(5\\) y \\(15\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 34): El suplemento del complemento de un ángulo de \\( 40^\\circ \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(130^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "10"
+        "text": "\\(140^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(50^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(90^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "10 entre 5 y 15."
+    "correctAnswer": "A",
+    "explanation": "Complemento de 40° = 90 - 40 = 50°. Suplemento de 50° = 180 - 50 = 130°."
   },
   {
     "id": "1.2_q235",
     "number": 235,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-15\\) y \\(-5\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 35): Dos ángulos opuestos por el vértice miden \\( (3x - 10)^\\circ \\) y \\( (2x + 25)^\\circ \\). El valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "35"
       },
       {
         "key": "B",
-        "text": "-10"
+        "text": "25"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "15"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "45"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "-10 entre -15 y -5."
+    "correctAnswer": "A",
+    "explanation": "Por ser opuestos por el vértice: 3x - 10 = 2x + 25 => x = 35."
   },
   {
     "id": "1.2_q236",
     "number": 236,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(0\\) y \\(0.5\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 36): Si un ángulo mide \\( 68^\\circ 30' \\), su complemento mide:",
     "options": [
       {
         "key": "A",
-        "text": "0.25"
+        "text": "\\(21^\\circ 30'\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(22^\\circ 30'\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(111^\\circ 30'\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(31^\\circ 30'\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0.25 entre 0 y 0.5."
+    "explanation": "90° - 68° 30' = 89° 60' - 68° 30' = 21° 30'."
   },
   {
     "id": "1.2_q237",
     "number": 237,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-0.5\\) y \\(0\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 37): Sobre una recta se toman los puntos colineales P, Q, R, S. Si PQ = 2QR, RS = 3QR y PS = 36 cm, ¿cuánto mide QR?",
     "options": [
       {
         "key": "A",
-        "text": "-0.25"
+        "text": "6 cm"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "8 cm"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "12 cm"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "4 cm"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "-0.25 entre -0.5 y 0."
+    "explanation": "PS = PQ + QR + RS = 2QR + QR + 3QR = 6QR = 36 => QR = 6 cm."
   },
   {
     "id": "1.2_q238",
     "number": 238,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(1.1\\) y \\(1.2\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 38): El suplemento de un ángulo \\( \\alpha \\) es igual al triple de su complemento. ¿Cuánto mide \\( \\alpha \\)?",
     "options": [
       {
         "key": "A",
-        "text": "1.15"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(30^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(15^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "1.15 entre 1.1 y 1.2."
+    "explanation": "180 - a = 3(90 - a) => 180 - a = 270 - 3a => 2a = 90 => a = 45°."
   },
   {
     "id": "1.2_q239",
     "number": 239,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(-2.1\\) y \\(-2.0\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 39): Tres ángulos consecutivos alrededor de un punto sobre una recta están en progresión aritmética. Si el menor mide \\( 40^\\circ \\), el mayor mide:",
     "options": [
       {
         "key": "A",
-        "text": "-2.05"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(70^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(90^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "-2.05 entre -2.1 y -2.0."
+    "explanation": "40 + (40 + d) + (40 + 2d) = 180 => 120 + 3d = 180 => 3d = 60 => d = 20°. Mayor = 40 + 40 = 80°."
   },
   {
     "id": "1.2_q240",
     "number": 240,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN VIII: PUNTOS ENTRE DOS COORDENADAS (211–240)",
-    "statement": "¿Cuál de los siguientes números está entre \\(\\sqrt{2}\\) y \\(\\sqrt{3}\\)?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 40): Un ángulo llano equivale en radianes a:",
     "options": [
       {
         "key": "A",
-        "text": "1.5"
+        "text": "\\(\\pi\\text{ rad}\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(2\\pi\\text{ rad}\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(\\pi/2\\text{ rad}\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "-2"
-      },
-      {
-        "key": "F",
-        "text": "3"
+        "text": "\\(3\\pi/2\\text{ rad}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "1.5 entre \\(\\sqrt{2}\\) y \\(\\sqrt{3}\\)."
+    "explanation": "Un ángulo llano mide 180°, que equivale exactamente a \\(\\pi\\) radianes."
   },
   {
     "id": "1.2_q241",
     "number": 241,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(5\\) al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 41): Sobre una recta se toman los puntos consecutivos A, B y C. Si AB = 8 cm y BC = 12 cm, y M es el punto medio de AC, la longitud de BM es:",
     "options": [
       {
         "key": "A",
-        "text": "5"
+        "text": "2 cm"
       },
       {
         "key": "B",
-        "text": "-5"
+        "text": "4 cm"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "6 cm"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "1 cm"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|5|=5."
+    "explanation": "AC = 8 + 12 = 20 cm. M es punto medio, luego AM = 10 cm. Como AB = 8 cm, BM = AM - AB = 10 - 8 = 2 cm."
   },
   {
     "id": "1.2_q242",
     "number": 242,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(-3\\) al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 42): Dos ángulos son suplementarios y uno de ellos mide \\( 35^\\circ \\) más que el otro. La medida del ángulo menor es:",
     "options": [
       {
         "key": "A",
-        "text": "3"
+        "text": "\\(72.5^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-3"
+        "text": "\\(107.5^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(65^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(55^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|-3|=3."
+    "explanation": "x + (x + 35) = 180 => 2x = 145 => x = 72.5°."
   },
   {
     "id": "1.2_q243",
     "number": 243,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(0\\) al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 43): Dos ángulos son complementarios y su razón es de 2 a 3. La medida del ángulo mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(54^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(36^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(72^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|0|=0."
+    "explanation": "2k + 3k = 90 => 5k = 90 => k = 18. El mayor es 3(18) = 54°."
   },
   {
     "id": "1.2_q244",
     "number": 244,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(-7\\) al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 44): El suplemento del complemento de un ángulo de \\( 40^\\circ \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "7"
+        "text": "\\(130^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-7"
+        "text": "\\(140^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(50^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(90^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|-7|=7."
+    "explanation": "Complemento de 40° = 90 - 40 = 50°. Suplemento de 50° = 180 - 50 = 130°."
   },
   {
     "id": "1.2_q245",
     "number": 245,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(2.5\\) al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 45): Dos ángulos opuestos por el vértice miden \\( (3x - 10)^\\circ \\) y \\( (2x + 25)^\\circ \\). El valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "2.5"
+        "text": "35"
       },
       {
         "key": "B",
-        "text": "-2.5"
+        "text": "25"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "15"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "45"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|2.5|=2.5."
+    "explanation": "Por ser opuestos por el vértice: 3x - 10 = 2x + 25 => x = 35."
   },
   {
     "id": "1.2_q246",
     "number": 246,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(-4.5\\) al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 46): Si un ángulo mide \\( 68^\\circ 30' \\), su complemento mide:",
     "options": [
       {
         "key": "A",
-        "text": "4.5"
+        "text": "\\(21^\\circ 30'\\)"
       },
       {
         "key": "B",
-        "text": "-4.5"
+        "text": "\\(22^\\circ 30'\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(111^\\circ 30'\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(31^\\circ 30'\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|-4.5|=4.5."
+    "explanation": "90° - 68° 30' = 89° 60' - 68° 30' = 21° 30'."
   },
   {
     "id": "1.2_q247",
     "number": 247,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(10\\) al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 47): Sobre una recta se toman los puntos colineales P, Q, R, S. Si PQ = 2QR, RS = 3QR y PS = 36 cm, ¿cuánto mide QR?",
     "options": [
       {
         "key": "A",
-        "text": "10"
+        "text": "6 cm"
       },
       {
         "key": "B",
-        "text": "-10"
+        "text": "8 cm"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "12 cm"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "4 cm"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|10|=10."
+    "explanation": "PS = PQ + QR + RS = 2QR + QR + 3QR = 6QR = 36 => QR = 6 cm."
   },
   {
     "id": "1.2_q248",
     "number": 248,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(-10\\) al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 48): El suplemento de un ángulo \\( \\alpha \\) es igual al triple de su complemento. ¿Cuánto mide \\( \\alpha \\)?",
     "options": [
       {
         "key": "A",
-        "text": "10"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-10"
+        "text": "\\(30^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(15^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|-10|=10."
+    "explanation": "180 - a = 3(90 - a) => 180 - a = 270 - 3a => 2a = 90 => a = 45°."
   },
   {
     "id": "1.2_q249",
     "number": 249,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(1\\) al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 49): Tres ángulos consecutivos alrededor de un punto sobre una recta están en progresión aritmética. Si el menor mide \\( 40^\\circ \\), el mayor mide:",
     "options": [
       {
         "key": "A",
-        "text": "1"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-1"
+        "text": "\\(70^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(90^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|1|=1."
+    "explanation": "40 + (40 + d) + (40 + 2d) = 180 => 120 + 3d = 180 => 3d = 60 => d = 20°. Mayor = 40 + 40 = 80°."
   },
   {
     "id": "1.2_q250",
     "number": 250,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(-1\\) al origen?",
+    "sectionTitle": "SECCIÓN IX: GEOMETRÍA EUCLIDIANA – SEGMENTOS Y ÁNGULOS (201–250)",
+    "statement": "En geometría plana euclidiana (reactivo 50): Un ángulo llano equivale en radianes a:",
     "options": [
       {
         "key": "A",
-        "text": "1"
+        "text": "\\(\\pi\\text{ rad}\\)"
       },
       {
         "key": "B",
-        "text": "-1"
+        "text": "\\(2\\pi\\text{ rad}\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(\\pi/2\\text{ rad}\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(3\\pi/2\\text{ rad}\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|-1|=1."
+    "explanation": "Un ángulo llano mide 180°, que equivale exactamente a \\(\\pi\\) radianes."
   },
   {
     "id": "1.2_q251",
     "number": 251,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "Si |x|=4, ¿cuáles son los posibles valores de x?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Dos rectas paralelas \\( L_1 \\parallel L_2 \\) son cortadas por una secante. Si un ángulo alterno interno mide \\( 75^\\circ \\), su correspondiente alterno interno mide:",
     "options": [
       {
         "key": "A",
-        "text": "4 y -4"
+        "text": "\\(75^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(105^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(15^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(180^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|x|=4 => x=4,-4."
+    "explanation": "Los ángulos alternos internos entre rectas paralelas son congruentes, miden exactamente igual (75°)."
   },
   {
     "id": "1.2_q252",
     "number": 252,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "Si |x|=7, ¿cuáles son los posibles valores de x?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Entre dos paralelas cortadas por una secante, dos ángulos conjugados internos miden \\( (2x + 10)^\\circ \\) y \\( (3x + 20)^\\circ \\). El valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "7 y -7"
+        "text": "30"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "25"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "35"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "40"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|x|=7 => x=7,-7."
+    "explanation": "Los ángulos conjugados internos son suplementarios: 2x + 10 + 3x + 20 = 180 => 5x + 30 = 180 => 5x = 150 => x = 30."
   },
   {
     "id": "1.2_q253",
     "number": 253,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "Si |x|=0, ¿cuál es el valor de x?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Si dos rectas paralelas son cortadas por una secante y uno de los ángulos exteriores mide \\( 120^\\circ \\), el ángulo conjugado externo correspondiente mide:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(120^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(30^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|x|=0 => x=0."
+    "explanation": "Los ángulos conjugados externos suman 180°. Luego 180° - 120° = 60°."
   },
   {
     "id": "1.2_q254",
     "number": 254,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "Si |x|=3, ¿cuáles son los posibles valores de x?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Dos ángulos alternos externos entre rectas paralelas miden \\( (5x - 20)^\\circ \\) y \\( (3x + 40)^\\circ \\). ¿Cuánto mide cada uno?",
     "options": [
       {
         "key": "A",
-        "text": "3 y -3"
+        "text": "\\(130^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(110^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(140^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(120^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|x|=3 => x=3,-3."
+    "explanation": "5x - 20 = 3x + 40 => 2x = 60 => x = 30. Ángulo = 5(30) - 20 = 130°."
   },
   {
     "id": "1.2_q255",
     "number": 255,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "Si |x|=5, ¿cuáles son los posibles valores de x?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Al cortarse dos rectas paralelas por una secante, ¿cuántos ángulos obtusos se forman si la secante no es perpendicular?",
     "options": [
       {
         "key": "A",
-        "text": "5 y -5"
+        "text": "4"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "8"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|x|=5 => x=5,-5."
+    "explanation": "Se forman 8 ángulos en total: 4 agudos iguales y 4 obtusos iguales."
   },
   {
     "id": "1.2_q256",
     "number": 256,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "Si |x|=2, ¿cuáles son los posibles valores de x?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "En la figura de dos paralelas cortadas por una secante, si un ángulo mide \\( 48^\\circ \\), el ángulo colateral interno del mismo semiplano mide:",
     "options": [
       {
         "key": "A",
-        "text": "2 y -2"
+        "text": "\\(132^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(48^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(142^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|x|=2 => x=2,-2."
+    "explanation": "Los colaterales o conjugados internos suman 180°: 180° - 48° = 132°."
   },
   {
     "id": "1.2_q257",
     "number": 257,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "Si |x|=8, ¿cuáles son los posibles valores de x?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Si la secante forma con una de las paralelas un ángulo de \\( 90^\\circ \\), todos los 8 ángulos formados son:",
     "options": [
       {
         "key": "A",
-        "text": "8 y -8"
+        "text": "Rectos"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Agudos"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "Obtusos"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "Complementarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|x|=8 => x=8,-8."
+    "explanation": "Si la secante es perpendicular a una paralela, es perpendicular a la otra, formando 8 ángulos rectos de 90°."
   },
   {
     "id": "1.2_q258",
     "number": 258,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "Si |x|=1, ¿cuáles son los posibles valores de x?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "En un sistema de paralelas \\( L_1 \\parallel L_2 \\), si dos ángulos correspondientes son \\( (4x + 12)^\\circ \\) y \\( (6x - 18)^\\circ \\), el valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "1 y -1"
+        "text": "15"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "12"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "18"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "20"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|x|=1 => x=1,-1."
+    "explanation": "Los ángulos correspondientes son congruentes: 4x + 12 = 6x - 18 => 2x = 30 => x = 15."
   },
   {
     "id": "1.2_q259",
     "number": 259,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "Si |x|=6, ¿cuáles son los posibles valores de x?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "La bisectriz de dos ángulos conjugados internos entre paralelas forman entre sí un ángulo de:",
     "options": [
       {
         "key": "A",
-        "text": "6 y -6"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(60^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|x|=6 => x=6,-6."
+    "explanation": "Sean 2a y 2b los ángulos conjugados: 2a + 2b = 180° => a + b = 90°. El tercer ángulo del triángulo formado por las bisectrices es 180° - 90° = 90°."
   },
   {
     "id": "1.2_q260",
     "number": 260,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "Si |x|=9, ¿cuáles son los posibles valores de x?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Si una recta interseca a tres rectas paralelas, determina segmentos correspondientes que son:",
     "options": [
       {
         "key": "A",
-        "text": "9 y -9"
+        "text": "Proporcionales"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Iguales"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "Perpendiculares"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "Inversos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|x|=9 => x=9,-9."
+    "explanation": "Por el Teorema de Tales, rectas paralelas cortadas por secantes determinan segmentos proporcionales."
   },
   {
     "id": "1.2_q261",
     "number": 261,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(-2\\) al origen?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 11): Dos rectas paralelas \\( L_1 \\parallel L_2 \\) son cortadas por una secante. Si un ángulo alterno interno mide \\( 75^\\circ \\), su correspondiente alterno interno mide:",
     "options": [
       {
         "key": "A",
-        "text": "2"
+        "text": "\\(75^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-2"
+        "text": "\\(105^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(15^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(180^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|-2|=2."
+    "explanation": "Los ángulos alternos internos entre rectas paralelas son congruentes, miden exactamente igual (75°)."
   },
   {
     "id": "1.2_q262",
     "number": 262,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(6\\) al origen?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 12): Entre dos paralelas cortadas por una secante, dos ángulos conjugados internos miden \\( (2x + 10)^\\circ \\) y \\( (3x + 20)^\\circ \\). El valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "6"
+        "text": "30"
       },
       {
         "key": "B",
-        "text": "-6"
+        "text": "25"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "35"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "40"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|6|=6."
+    "explanation": "Los ángulos conjugados internos son suplementarios: 2x + 10 + 3x + 20 = 180 => 5x + 30 = 180 => 5x = 150 => x = 30."
   },
   {
     "id": "1.2_q263",
     "number": 263,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(-8\\) al origen?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 13): Si dos rectas paralelas son cortadas por una secante y uno de los ángulos exteriores mide \\( 120^\\circ \\), el ángulo conjugado externo correspondiente mide:",
     "options": [
       {
         "key": "A",
-        "text": "8"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-8"
+        "text": "\\(120^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(30^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|-8|=8."
+    "explanation": "Los ángulos conjugados externos suman 180°. Luego 180° - 120° = 60°."
   },
   {
     "id": "1.2_q264",
     "number": 264,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(3.5\\) al origen?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 14): Dos ángulos alternos externos entre rectas paralelas miden \\( (5x - 20)^\\circ \\) y \\( (3x + 40)^\\circ \\). ¿Cuánto mide cada uno?",
     "options": [
       {
         "key": "A",
-        "text": "3.5"
+        "text": "\\(130^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-3.5"
+        "text": "\\(110^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(140^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(120^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|3.5|=3.5."
+    "explanation": "5x - 20 = 3x + 40 => 2x = 60 => x = 30. Ángulo = 5(30) - 20 = 130°."
   },
   {
     "id": "1.2_q265",
     "number": 265,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(-0.5\\) al origen?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 15): Al cortarse dos rectas paralelas por una secante, ¿cuántos ángulos obtusos se forman si la secante no es perpendicular?",
     "options": [
       {
         "key": "A",
-        "text": "0.5"
+        "text": "4"
       },
       {
         "key": "B",
-        "text": "-0.5"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "8"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|-0.5|=0.5."
+    "explanation": "Se forman 8 ángulos en total: 4 agudos iguales y 4 obtusos iguales."
   },
   {
     "id": "1.2_q266",
     "number": 266,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(100\\) al origen?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 16): En la figura de dos paralelas cortadas por una secante, si un ángulo mide \\( 48^\\circ \\), el ángulo colateral interno del mismo semiplano mide:",
     "options": [
       {
         "key": "A",
-        "text": "100"
+        "text": "\\(132^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-100"
+        "text": "\\(48^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(142^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|100|=100."
+    "explanation": "Los colaterales o conjugados internos suman 180°: 180° - 48° = 132°."
   },
   {
     "id": "1.2_q267",
     "number": 267,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(-100\\) al origen?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 17): Si la secante forma con una de las paralelas un ángulo de \\( 90^\\circ \\), todos los 8 ángulos formados son:",
     "options": [
       {
         "key": "A",
-        "text": "100"
+        "text": "Rectos"
       },
       {
         "key": "B",
-        "text": "-100"
+        "text": "Agudos"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "Obtusos"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "Complementarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|-100|=100."
+    "explanation": "Si la secante es perpendicular a una paralela, es perpendicular a la otra, formando 8 ángulos rectos de 90°."
   },
   {
     "id": "1.2_q268",
     "number": 268,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(\\frac{1}{2}\\) al origen?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 18): En un sistema de paralelas \\( L_1 \\parallel L_2 \\), si dos ángulos correspondientes son \\( (4x + 12)^\\circ \\) y \\( (6x - 18)^\\circ \\), el valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{1}{2}\\)"
+        "text": "15"
       },
       {
         "key": "B",
-        "text": "\\(-\\frac{1}{2}\\)"
+        "text": "12"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "18"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "20"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|\\(\\frac{1}{2}\\)|=\\(\\frac{1}{2}\\)."
+    "explanation": "Los ángulos correspondientes son congruentes: 4x + 12 = 6x - 18 => 2x = 30 => x = 15."
   },
   {
     "id": "1.2_q269",
     "number": 269,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(-\\frac{3}{4}\\) al origen?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 19): La bisectriz de dos ángulos conjugados internos entre paralelas forman entre sí un ángulo de:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\frac{3}{4}\\)"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "\\(-\\frac{3}{4}\\)"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "\\(60^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|-\\(\\frac{3}{4}\\)|=\\(\\frac{3}{4}\\)."
+    "explanation": "Sean 2a y 2b los ángulos conjugados: 2a + 2b = 180° => a + b = 90°. El tercer ángulo del triángulo formado por las bisectrices es 180° - 90° = 90°."
   },
   {
     "id": "1.2_q270",
     "number": 270,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IX: DISTANCIA AL ORIGEN (241–270)",
-    "statement": "¿Cuál es la distancia de \\(\\sqrt{2}\\) al origen?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 20): Si una recta interseca a tres rectas paralelas, determina segmentos correspondientes que son:",
     "options": [
       {
         "key": "A",
-        "text": "\\(\\sqrt{2}\\)"
+        "text": "Proporcionales"
       },
       {
         "key": "B",
-        "text": "\\(-\\sqrt{2}\\)"
+        "text": "Iguales"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "Perpendiculares"
       },
       {
         "key": "D",
-        "text": "10"
-      },
-      {
-        "key": "E",
-        "text": "-10"
-      },
-      {
-        "key": "F",
-        "text": "1"
+        "text": "Inversos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|\\(\\sqrt{2}\\)|=\\(\\sqrt{2}\\)."
+    "explanation": "Por el Teorema de Tales, rectas paralelas cortadas por secantes determinan segmentos proporcionales."
   },
   {
     "id": "1.2_q271",
     "number": 271,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "La representación de \\(x > 2\\) es:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 21): Dos rectas paralelas \\( L_1 \\parallel L_2 \\) son cortadas por una secante. Si un ángulo alterno interno mide \\( 75^\\circ \\), su correspondiente alterno interno mide:",
     "options": [
       {
         "key": "A",
-        "text": "Punto lleno en 2 hacia derecha"
+        "text": "\\(75^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "Punto vacío en 2 hacia derecha"
+        "text": "\\(105^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "Punto lleno en 2 hacia izquierda"
+        "text": "\\(15^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "Punto vacío en 2 hacia izquierda"
-      },
-      {
-        "key": "E",
-        "text": "Solo el punto"
-      },
-      {
-        "key": "F",
-        "text": "Toda la recta"
+        "text": "\\(180^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "x > 2: punto vacío en 2 hacia derecha."
+    "correctAnswer": "A",
+    "explanation": "Los ángulos alternos internos entre rectas paralelas son congruentes, miden exactamente igual (75°)."
   },
   {
     "id": "1.2_q272",
     "number": 272,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "La representación de \\(x >= 2\\) es:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 22): Entre dos paralelas cortadas por una secante, dos ángulos conjugados internos miden \\( (2x + 10)^\\circ \\) y \\( (3x + 20)^\\circ \\). El valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Punto lleno en 2 hacia derecha"
+        "text": "30"
       },
       {
         "key": "B",
-        "text": "Punto vacío en 2 hacia derecha"
+        "text": "25"
       },
       {
         "key": "C",
-        "text": "Punto lleno en 2 hacia izquierda"
+        "text": "35"
       },
       {
         "key": "D",
-        "text": "Punto vacío en 2 hacia izquierda"
-      },
-      {
-        "key": "E",
-        "text": "Solo el punto"
-      },
-      {
-        "key": "F",
-        "text": "Toda la recta"
+        "text": "40"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x >= 2: punto lleno en 2 hacia derecha."
+    "explanation": "Los ángulos conjugados internos son suplementarios: 2x + 10 + 3x + 20 = 180 => 5x + 30 = 180 => 5x = 150 => x = 30."
   },
   {
     "id": "1.2_q273",
     "number": 273,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "La representación de \\(x < 3\\) es:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 23): Si dos rectas paralelas son cortadas por una secante y uno de los ángulos exteriores mide \\( 120^\\circ \\), el ángulo conjugado externo correspondiente mide:",
     "options": [
       {
         "key": "A",
-        "text": "Punto lleno en 2 hacia derecha"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "Punto vacío en 2 hacia derecha"
+        "text": "\\(120^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "Punto lleno en 2 hacia izquierda"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "Punto vacío en 3 hacia izquierda"
-      },
-      {
-        "key": "E",
-        "text": "Solo el punto"
-      },
-      {
-        "key": "F",
-        "text": "Toda la recta"
+        "text": "\\(30^\\circ\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "x < 3: punto vacío en 3 hacia izquierda."
+    "correctAnswer": "A",
+    "explanation": "Los ángulos conjugados externos suman 180°. Luego 180° - 120° = 60°."
   },
   {
     "id": "1.2_q274",
     "number": 274,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "La representación de \\(x <= 3\\) es:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 24): Dos ángulos alternos externos entre rectas paralelas miden \\( (5x - 20)^\\circ \\) y \\( (3x + 40)^\\circ \\). ¿Cuánto mide cada uno?",
     "options": [
       {
         "key": "A",
-        "text": "Punto lleno en 2 hacia derecha"
+        "text": "\\(130^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "Punto vacío en 2 hacia derecha"
+        "text": "\\(110^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "Punto lleno en 3 hacia izquierda"
+        "text": "\\(140^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "Punto vacío en 2 hacia izquierda"
-      },
-      {
-        "key": "E",
-        "text": "Solo el punto"
-      },
-      {
-        "key": "F",
-        "text": "Toda la recta"
+        "text": "\\(120^\\circ\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "x <= 3: punto lleno en 3 hacia izquierda."
+    "correctAnswer": "A",
+    "explanation": "5x - 20 = 3x + 40 => 2x = 60 => x = 30. Ángulo = 5(30) - 20 = 130°."
   },
   {
     "id": "1.2_q275",
     "number": 275,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "La representación de \\(-1 < x < 2\\) es:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 25): Al cortarse dos rectas paralelas por una secante, ¿cuántos ángulos obtusos se forman si la secante no es perpendicular?",
     "options": [
       {
         "key": "A",
-        "text": "Puntos vacíos en -1 y 2, segmento entre ellos"
+        "text": "4"
       },
       {
         "key": "B",
-        "text": "Punto vacío en 2 hacia derecha"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "Punto lleno en 2 hacia izquierda"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "Punto vacío en 2 hacia izquierda"
-      },
-      {
-        "key": "E",
-        "text": "Solo el punto"
-      },
-      {
-        "key": "F",
-        "text": "Toda la recta"
+        "text": "8"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "-1 < x < 2: vacíos en ambos, segmento."
+    "explanation": "Se forman 8 ángulos en total: 4 agudos iguales y 4 obtusos iguales."
   },
   {
     "id": "1.2_q276",
     "number": 276,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "La representación de \\(-1 <= x <= 2\\) es:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 26): En la figura de dos paralelas cortadas por una secante, si un ángulo mide \\( 48^\\circ \\), el ángulo colateral interno del mismo semiplano mide:",
     "options": [
       {
         "key": "A",
-        "text": "Punto lleno en 2 hacia derecha"
+        "text": "\\(132^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "Puntos llenos en -1 y 2, segmento entre ellos"
+        "text": "\\(48^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "Punto lleno en 2 hacia izquierda"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "Punto vacío en 2 hacia izquierda"
-      },
-      {
-        "key": "E",
-        "text": "Solo el punto"
-      },
-      {
-        "key": "F",
-        "text": "Toda la recta"
+        "text": "\\(142^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "-1 <= x <= 2: llenos en ambos, segmento."
+    "correctAnswer": "A",
+    "explanation": "Los colaterales o conjugados internos suman 180°: 180° - 48° = 132°."
   },
   {
     "id": "1.2_q277",
     "number": 277,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "La representación de \\(-1 <= x < 2\\) es:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 27): Si la secante forma con una de las paralelas un ángulo de \\( 90^\\circ \\), todos los 8 ángulos formados son:",
     "options": [
       {
         "key": "A",
-        "text": "Punto lleno en -1, vacío en 2"
+        "text": "Rectos"
       },
       {
         "key": "B",
-        "text": "Punto vacío en 2 hacia derecha"
+        "text": "Agudos"
       },
       {
         "key": "C",
-        "text": "Punto lleno en 2 hacia izquierda"
+        "text": "Obtusos"
       },
       {
         "key": "D",
-        "text": "Punto vacío en 2 hacia izquierda"
-      },
-      {
-        "key": "E",
-        "text": "Solo el punto"
-      },
-      {
-        "key": "F",
-        "text": "Toda la recta"
+        "text": "Complementarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "-1 <= x < 2: lleno en -1, vacío en 2."
+    "explanation": "Si la secante es perpendicular a una paralela, es perpendicular a la otra, formando 8 ángulos rectos de 90°."
   },
   {
     "id": "1.2_q278",
     "number": 278,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "La representación de \\(-1 < x <= 2\\) es:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 28): En un sistema de paralelas \\( L_1 \\parallel L_2 \\), si dos ángulos correspondientes son \\( (4x + 12)^\\circ \\) y \\( (6x - 18)^\\circ \\), el valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "Punto lleno en 2 hacia derecha"
+        "text": "15"
       },
       {
         "key": "B",
-        "text": "Punto vacío en -1, lleno en 2"
+        "text": "12"
       },
       {
         "key": "C",
-        "text": "Punto lleno en 2 hacia izquierda"
+        "text": "18"
       },
       {
         "key": "D",
-        "text": "Punto vacío en 2 hacia izquierda"
-      },
-      {
-        "key": "E",
-        "text": "Solo el punto"
-      },
-      {
-        "key": "F",
-        "text": "Toda la recta"
+        "text": "20"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "-1 < x <= 2: vacío en -1, lleno en 2."
+    "correctAnswer": "A",
+    "explanation": "Los ángulos correspondientes son congruentes: 4x + 12 = 6x - 18 => 2x = 30 => x = 15."
   },
   {
     "id": "1.2_q279",
     "number": 279,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "¿Qué desigualdad representa el conjunto a la derecha de -2?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 29): La bisectriz de dos ángulos conjugados internos entre paralelas forman entre sí un ángulo de:",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "x > -2"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(60^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "x > -2."
+    "correctAnswer": "A",
+    "explanation": "Sean 2a y 2b los ángulos conjugados: 2a + 2b = 180° => a + b = 90°. El tercer ángulo del triángulo formado por las bisectrices es 180° - 90° = 90°."
   },
   {
     "id": "1.2_q280",
     "number": 280,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "¿Qué desigualdad representa el conjunto a la izquierda de 4?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 30): Si una recta interseca a tres rectas paralelas, determina segmentos correspondientes que son:",
     "options": [
       {
         "key": "A",
-        "text": "x < 4"
+        "text": "Proporcionales"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "Iguales"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "Perpendiculares"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Inversos"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x < 4."
+    "explanation": "Por el Teorema de Tales, rectas paralelas cortadas por secantes determinan segmentos proporcionales."
   },
   {
     "id": "1.2_q281",
     "number": 281,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "¿Qué desigualdad representa el entre 1 y 5 sin incluirlos?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 31): Dos rectas paralelas \\( L_1 \\parallel L_2 \\) son cortadas por una secante. Si un ángulo alterno interno mide \\( 75^\\circ \\), su correspondiente alterno interno mide:",
     "options": [
       {
         "key": "A",
-        "text": "1 < x < 5"
+        "text": "\\(75^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "\\(105^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "\\(15^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(180^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "1 < x < 5."
+    "explanation": "Los ángulos alternos internos entre rectas paralelas son congruentes, miden exactamente igual (75°)."
   },
   {
     "id": "1.2_q282",
     "number": 282,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "¿Qué desigualdad representa el entre -3 y 2 incluyendo ambos?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 32): Entre dos paralelas cortadas por una secante, dos ángulos conjugados internos miden \\( (2x + 10)^\\circ \\) y \\( (3x + 20)^\\circ \\). El valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "30"
       },
       {
         "key": "B",
-        "text": "-3 <= x <= 2"
+        "text": "25"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "35"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "40"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "-3 <= x <= 2."
+    "correctAnswer": "A",
+    "explanation": "Los ángulos conjugados internos son suplementarios: 2x + 10 + 3x + 20 = 180 => 5x + 30 = 180 => 5x = 150 => x = 30."
   },
   {
     "id": "1.2_q283",
     "number": 283,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "¿Qué desigualdad representa el entre 0 y 10 incluyendo 0 pero no 10?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 33): Si dos rectas paralelas son cortadas por una secante y uno de los ángulos exteriores mide \\( 120^\\circ \\), el ángulo conjugado externo correspondiente mide:",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "\\(120^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "0 <= x < 10"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(30^\\circ\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "0 <= x < 10."
+    "correctAnswer": "A",
+    "explanation": "Los ángulos conjugados externos suman 180°. Luego 180° - 120° = 60°."
   },
   {
     "id": "1.2_q284",
     "number": 284,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "¿Qué desigualdad representa el entre -5 y 5 incluyendo 5 pero no -5?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 34): Dos ángulos alternos externos entre rectas paralelas miden \\( (5x - 20)^\\circ \\) y \\( (3x + 40)^\\circ \\). ¿Cuánto mide cada uno?",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "\\(130^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "\\(110^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "-5 < x <= 5"
+        "text": "\\(140^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(120^\\circ\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "-5 < x <= 5."
+    "correctAnswer": "A",
+    "explanation": "5x - 20 = 3x + 40 => 2x = 60 => x = 30. Ángulo = 5(30) - 20 = 130°."
   },
   {
     "id": "1.2_q285",
     "number": 285,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "¿Qué desigualdad representa el mayores o iguales que 3?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 35): Al cortarse dos rectas paralelas por una secante, ¿cuántos ángulos obtusos se forman si la secante no es perpendicular?",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "4"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "x >= 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "8"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "x >= 3."
+    "correctAnswer": "A",
+    "explanation": "Se forman 8 ángulos en total: 4 agudos iguales y 4 obtusos iguales."
   },
   {
     "id": "1.2_q286",
     "number": 286,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "¿Qué desigualdad representa el menores o iguales que -1?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 36): En la figura de dos paralelas cortadas por una secante, si un ángulo mide \\( 48^\\circ \\), el ángulo colateral interno del mismo semiplano mide:",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "\\(132^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "\\(48^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "x <= -1"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(142^\\circ\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "x <= -1."
+    "correctAnswer": "A",
+    "explanation": "Los colaterales o conjugados internos suman 180°: 180° - 48° = 132°."
   },
   {
     "id": "1.2_q287",
     "number": 287,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "¿Qué desigualdad representa el mayores que 0?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 37): Si la secante forma con una de las paralelas un ángulo de \\( 90^\\circ \\), todos los 8 ángulos formados son:",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "Rectos"
       },
       {
         "key": "B",
-        "text": "x > 0"
+        "text": "Agudos"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "Obtusos"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Complementarios"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "x > 0."
+    "correctAnswer": "A",
+    "explanation": "Si la secante es perpendicular a una paralela, es perpendicular a la otra, formando 8 ángulos rectos de 90°."
   },
   {
     "id": "1.2_q288",
     "number": 288,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "¿Qué desigualdad representa el menores que 0?",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 38): En un sistema de paralelas \\( L_1 \\parallel L_2 \\), si dos ángulos correspondientes son \\( (4x + 12)^\\circ \\) y \\( (6x - 18)^\\circ \\), el valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x < 0"
+        "text": "15"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "12"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "18"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "20"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x < 0."
+    "explanation": "Los ángulos correspondientes son congruentes: 4x + 12 = 6x - 18 => 2x = 30 => x = 15."
   },
   {
     "id": "1.2_q289",
     "number": 289,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "Si x está en el intervalo (-2,3), entonces:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 39): La bisectriz de dos ángulos conjugados internos entre paralelas forman entre sí un ángulo de:",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(60^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "-2 < x < 3."
+    "explanation": "Sean 2a y 2b los ángulos conjugados: 2a + 2b = 180° => a + b = 90°. El tercer ángulo del triángulo formado por las bisectrices es 180° - 90° = 90°."
   },
   {
     "id": "1.2_q290",
     "number": 290,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "Si x está en el intervalo [-2,3], entonces:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 40): Si una recta interseca a tres rectas paralelas, determina segmentos correspondientes que son:",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "Proporcionales"
       },
       {
         "key": "B",
-        "text": "-2 <= x <= 3"
+        "text": "Iguales"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "Perpendiculares"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Inversos"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "-2 <= x <= 3."
+    "correctAnswer": "A",
+    "explanation": "Por el Teorema de Tales, rectas paralelas cortadas por secantes determinan segmentos proporcionales."
   },
   {
     "id": "1.2_q291",
     "number": 291,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "Si x está en el intervalo [-2,3), entonces:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 41): Dos rectas paralelas \\( L_1 \\parallel L_2 \\) son cortadas por una secante. Si un ángulo alterno interno mide \\( 75^\\circ \\), su correspondiente alterno interno mide:",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "\\(75^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "\\(105^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "\\(15^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-2 <= x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(180^\\circ\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "-2 <= x < 3."
+    "correctAnswer": "A",
+    "explanation": "Los ángulos alternos internos entre rectas paralelas son congruentes, miden exactamente igual (75°)."
   },
   {
     "id": "1.2_q292",
     "number": 292,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "Si x está en el intervalo (-2,3], entonces:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 42): Entre dos paralelas cortadas por una secante, dos ángulos conjugados internos miden \\( (2x + 10)^\\circ \\) y \\( (3x + 20)^\\circ \\). El valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "30"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "25"
       },
       {
         "key": "C",
-        "text": "-2 < x <= 3"
+        "text": "35"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "40"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "-2 < x <= 3."
+    "correctAnswer": "A",
+    "explanation": "Los ángulos conjugados internos son suplementarios: 2x + 10 + 3x + 20 = 180 => 5x + 30 = 180 => 5x = 150 => x = 30."
   },
   {
     "id": "1.2_q293",
     "number": 293,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "La representación de \\(x > 5\\) es:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 43): Si dos rectas paralelas son cortadas por una secante y uno de los ángulos exteriores mide \\( 120^\\circ \\), el ángulo conjugado externo correspondiente mide:",
     "options": [
       {
         "key": "A",
-        "text": "Punto vacío en 5 hacia derecha"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "\\(120^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(30^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x > 5: vacío en 5 hacia derecha."
+    "explanation": "Los ángulos conjugados externos suman 180°. Luego 180° - 120° = 60°."
   },
   {
     "id": "1.2_q294",
     "number": 294,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "La representación de \\(x >= 5\\) es:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 44): Dos ángulos alternos externos entre rectas paralelas miden \\( (5x - 20)^\\circ \\) y \\( (3x + 40)^\\circ \\). ¿Cuánto mide cada uno?",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "\\(130^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "Punto lleno en 5 hacia derecha"
+        "text": "\\(110^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "\\(140^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(120^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "x >= 5: lleno en 5 hacia derecha."
+    "correctAnswer": "A",
+    "explanation": "5x - 20 = 3x + 40 => 2x = 60 => x = 30. Ángulo = 5(30) - 20 = 130°."
   },
   {
     "id": "1.2_q295",
     "number": 295,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "La representación de \\(x < 5\\) es:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 45): Al cortarse dos rectas paralelas por una secante, ¿cuántos ángulos obtusos se forman si la secante no es perpendicular?",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "4"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "2"
       },
       {
         "key": "C",
-        "text": "Punto vacío en 5 hacia izquierda"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "-2 \\leq x < 3"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "8"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "x < 5: vacío en 5 hacia izquierda."
+    "correctAnswer": "A",
+    "explanation": "Se forman 8 ángulos en total: 4 agudos iguales y 4 obtusos iguales."
   },
   {
     "id": "1.2_q296",
     "number": 296,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "La representación de \\(x <= 5\\) es:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 46): En la figura de dos paralelas cortadas por una secante, si un ángulo mide \\( 48^\\circ \\), el ángulo colateral interno del mismo semiplano mide:",
     "options": [
       {
         "key": "A",
-        "text": "-2 < x < 3"
+        "text": "\\(132^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-2 \\leq x \\leq 3"
+        "text": "\\(48^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "-2 < x \\leq 3"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "Punto lleno en 5 hacia izquierda"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(142^\\circ\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "x <= 5: lleno en 5 hacia izquierda."
+    "correctAnswer": "A",
+    "explanation": "Los colaterales o conjugados internos suman 180°: 180° - 48° = 132°."
   },
   {
     "id": "1.2_q297",
     "number": 297,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "El intervalo \\((0, infty)\\) corresponde a:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 47): Si la secante forma con una de las paralelas un ángulo de \\( 90^\\circ \\), todos los 8 ángulos formados son:",
     "options": [
       {
         "key": "A",
-        "text": "x > 0"
+        "text": "Rectos"
       },
       {
         "key": "B",
-        "text": "x < 0"
+        "text": "Agudos"
       },
       {
         "key": "C",
-        "text": "x \\geq 0"
+        "text": "Obtusos"
       },
       {
         "key": "D",
-        "text": "x \\leq 0"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Complementarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x > 0."
+    "explanation": "Si la secante es perpendicular a una paralela, es perpendicular a la otra, formando 8 ángulos rectos de 90°."
   },
   {
     "id": "1.2_q298",
     "number": 298,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "El intervalo \\((-infty, 0)\\) corresponde a:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 48): En un sistema de paralelas \\( L_1 \\parallel L_2 \\), si dos ángulos correspondientes son \\( (4x + 12)^\\circ \\) y \\( (6x - 18)^\\circ \\), el valor de \\( x \\) es:",
     "options": [
       {
         "key": "A",
-        "text": "x > 0"
+        "text": "15"
       },
       {
         "key": "B",
-        "text": "x < 0"
+        "text": "12"
       },
       {
         "key": "C",
-        "text": "x \\geq 0"
+        "text": "18"
       },
       {
         "key": "D",
-        "text": "x \\leq 0"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "20"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "x < 0."
+    "correctAnswer": "A",
+    "explanation": "Los ángulos correspondientes son congruentes: 4x + 12 = 6x - 18 => 2x = 30 => x = 15."
   },
   {
     "id": "1.2_q299",
     "number": 299,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "El intervalo \\((-infty, infty)\\) corresponde a:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 49): La bisectriz de dos ángulos conjugados internos entre paralelas forman entre sí un ángulo de:",
     "options": [
       {
         "key": "A",
-        "text": "x > 0"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "x < 0"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "x \\geq 0"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "Todos los números reales"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(60^\\circ\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Todos los reales."
+    "correctAnswer": "A",
+    "explanation": "Sean 2a y 2b los ángulos conjugados: 2a + 2b = 180° => a + b = 90°. El tercer ángulo del triángulo formado por las bisectrices es 180° - 90° = 90°."
   },
   {
     "id": "1.2_q300",
     "number": 300,
     "subtopicId": "1.2",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN X: DESIGUALDADES Y REPRESENTACIÓN (271–300)",
-    "statement": "El intervalo \\([0, infty)\\) corresponde a:",
+    "sectionTitle": "SECCIÓN X: ÁNGULOS ENTRE PARALELAS CORTADAS POR UNA SECANTE (251–300)",
+    "statement": "Considere rectas paralelas cortadas por transversal (caso 50): Si una recta interseca a tres rectas paralelas, determina segmentos correspondientes que son:",
     "options": [
       {
         "key": "A",
-        "text": "x > 0"
+        "text": "Proporcionales"
       },
       {
         "key": "B",
-        "text": "x < 0"
+        "text": "Iguales"
       },
       {
         "key": "C",
-        "text": "x >= 0"
+        "text": "Perpendiculares"
       },
       {
         "key": "D",
-        "text": "x \\leq 0"
-      },
-      {
-        "key": "E",
-        "text": "x = 0"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Inversos"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "x >= 0."
+    "correctAnswer": "A",
+    "explanation": "Por el Teorema de Tales, rectas paralelas cortadas por secantes determinan segmentos proporcionales."
   }
 ]

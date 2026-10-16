@@ -7204,3599 +7204,2799 @@
     "number": 201,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la intersección [-2,2] y [0,4]?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "En todo triángulo euclidiano, la suma de las medidas de los tres ángulos interiores es siempre:",
     "options": [
       {
         "key": "A",
-        "text": "[-2,4]"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "[0,2]"
+        "text": "\\(360^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(270^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Intersección: [0,2]."
+    "correctAnswer": "A",
+    "explanation": "Teorema fundamental de la geometría euclidiana: \\(\\alpha + \\beta + \\gamma = 180^\\circ\\)."
   },
   {
     "id": "1.3_q202",
     "number": 202,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la unión [-2,2] y [0,4]?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "En un triángulo rectángulo, uno de los ángulos agudos mide \\( 37^\\circ \\). ¿Cuánto mide el otro ángulo agudo?",
     "options": [
       {
         "key": "A",
-        "text": "[-2,4]"
+        "text": "\\(53^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "[0,2]"
+        "text": "\\(43^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(63^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(143^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Unión: [-2,4]."
+    "explanation": "Los ángulos agudos de un triángulo rectángulo son complementarios: 90° - 37° = 53°."
   },
   {
     "id": "1.3_q203",
     "number": 203,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la intersección (-3,1) y (1,5)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "La medida de un ángulo exterior de un triángulo es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "(-1,1)"
+        "text": "La suma de los dos ángulos interiores no adyacentes"
       },
       {
         "key": "B",
-        "text": "\\(\\emptyset\\)"
+        "text": "El suplemento del ángulo recto"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "La diferencia de los ángulos interiores"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "180° menos el ángulo exterior"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Sin intersección."
+    "correctAnswer": "A",
+    "explanation": "Por el teorema del ángulo exterior: \\(\\theta_{ext} = \\alpha + \\beta\\)."
   },
   {
     "id": "1.3_q204",
     "number": 204,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la unión (-3,1) y (1,5)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "En un triángulo isósceles, el ángulo desigual mide \\( 40^\\circ \\). ¿Cuánto mide cada uno de los ángulos congruentes?",
     "options": [
       {
         "key": "A",
-        "text": "(-1,1)"
+        "text": "\\(70^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "(-3,1) \\cup (1,5)"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(50^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Unión sin el 1."
+    "correctAnswer": "A",
+    "explanation": "(180° - 40°) / 2 = 140° / 2 = 70°."
   },
   {
     "id": "1.3_q205",
     "number": 205,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la intersección (-\\(\\infty\\),5) y (2,\\(\\infty\\))?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Los lados de un triángulo miden 7 cm y 10 cm. Según la desigualdad triangular, el tercer lado \\( x \\) debe cumplir:",
     "options": [
       {
         "key": "A",
-        "text": "(2,5)"
+        "text": "\\(3 < x < 17\\)"
       },
       {
         "key": "B",
-        "text": "(-2,2)"
+        "text": "\\(7 < x < 10\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(x > 17\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(x < 3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Intersección: (2,5)."
+    "explanation": "10 - 7 < x < 10 + 7 => 3 < x < 17."
   },
   {
     "id": "1.3_q206",
     "number": 206,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la unión (-\\(\\infty\\),5) y (2,\\(\\infty\\))?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "La suma de los tres ángulos exteriores de cualquier triángulo (uno por vértice) es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "(-1,1)"
+        "text": "\\(360^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "(-\\(\\infty\\),\\(\\infty\\))"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(540^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(720^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Todos los reales."
+    "correctAnswer": "A",
+    "explanation": "Para todo polígono convexo, la suma de los ángulos exteriores es 360°."
   },
   {
     "id": "1.3_q207",
     "number": 207,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la intersección [-1,4] y (0,6)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "En un triángulo equilátero, cada uno de sus ángulos interiores mide:",
     "options": [
       {
         "key": "A",
-        "text": "(-1,1)"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "(0,4]"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(120^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Intersección: (0,4]."
+    "correctAnswer": "A",
+    "explanation": "180° / 3 = 60°."
   },
   {
     "id": "1.3_q208",
     "number": 208,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la unión [-1,4] y (0,6)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "En un triángulo, los ángulos interiores están en la razón 2:3:4. La medida del ángulo mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "[-1,6)"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "(-2,2)"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(40^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(100^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Unión: [-1,6)."
+    "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. El mayor es 4(20) = 80°."
   },
   {
     "id": "1.3_q209",
     "number": 209,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la intersección (-\\(\\infty\\),2] y [2,\\(\\infty\\))?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Si un triángulo tiene lados de longitudes 5, 12 y 13, dicho triángulo es:",
     "options": [
       {
         "key": "A",
-        "text": "{2}"
+        "text": "Rectángulo"
       },
       {
         "key": "B",
-        "text": "(-2,2)"
+        "text": "Acutángulo"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "Obtusángulo"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Isósceles"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Intersección: {2}."
+    "explanation": "5^2 + 12^2 = 25 + 144 = 169 = 13^2. Cumple el teorema de Pitágoras, es rectángulo."
   },
   {
     "id": "1.3_q210",
     "number": 210,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la unión (-\\(\\infty\\),2] y [2,\\(\\infty\\))?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "El punto donde se cortan las tres medianas de un triángulo se denomina:",
     "options": [
       {
         "key": "A",
-        "text": "(-1,1)"
+        "text": "Baricentro"
       },
       {
         "key": "B",
-        "text": "(-2,2)"
+        "text": "Ortocentro"
       },
       {
         "key": "C",
-        "text": "(-\\(\\infty\\),\\(\\infty\\))"
+        "text": "Incentro"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Circuncentro"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Todos los reales."
+    "correctAnswer": "A",
+    "explanation": "El baricentro o centro de gravedad es el punto de concurrencia de las medianas."
   },
   {
     "id": "1.3_q211",
     "number": 211,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la intersección (-1,1) y (-2,2)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 11): En todo triángulo euclidiano, la suma de las medidas de los tres ángulos interiores es siempre:",
     "options": [
       {
         "key": "A",
-        "text": "(-1,1)"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "(-2,2)"
+        "text": "\\(360^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(270^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(-1,1)."
+    "explanation": "Teorema fundamental de la geometría euclidiana: \\(\\alpha + \\beta + \\gamma = 180^\\circ\\)."
   },
   {
     "id": "1.3_q212",
     "number": 212,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la unión (-1,1) y (-2,2)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 12): En un triángulo rectángulo, uno de los ángulos agudos mide \\( 37^\\circ \\). ¿Cuánto mide el otro ángulo agudo?",
     "options": [
       {
         "key": "A",
-        "text": "(-1,1)"
+        "text": "\\(53^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "(-2,2)"
+        "text": "\\(43^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(63^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(143^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(-2,2)."
+    "correctAnswer": "A",
+    "explanation": "Los ángulos agudos de un triángulo rectángulo son complementarios: 90° - 37° = 53°."
   },
   {
     "id": "1.3_q213",
     "number": 213,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la intersección [0,3] y [1,4]?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 13): La medida de un ángulo exterior de un triángulo es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "(-1,1)"
+        "text": "La suma de los dos ángulos interiores no adyacentes"
       },
       {
         "key": "B",
-        "text": "[1,3]"
+        "text": "El suplemento del ángulo recto"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "La diferencia de los ángulos interiores"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "180° menos el ángulo exterior"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "[1,3]."
+    "correctAnswer": "A",
+    "explanation": "Por el teorema del ángulo exterior: \\(\\theta_{ext} = \\alpha + \\beta\\)."
   },
   {
     "id": "1.3_q214",
     "number": 214,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la unión [0,3] y [1,4]?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 14): En un triángulo isósceles, el ángulo desigual mide \\( 40^\\circ \\). ¿Cuánto mide cada uno de los ángulos congruentes?",
     "options": [
       {
         "key": "A",
-        "text": "[0,4]"
+        "text": "\\(70^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "(-2,2)"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(50^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "[0,4]."
+    "explanation": "(180° - 40°) / 2 = 140° / 2 = 70°."
   },
   {
     "id": "1.3_q215",
     "number": 215,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la intersección (-5,-2) y (-3,0)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 15): Los lados de un triángulo miden 7 cm y 10 cm. Según la desigualdad triangular, el tercer lado \\( x \\) debe cumplir:",
     "options": [
       {
         "key": "A",
-        "text": "(-1,1)"
+        "text": "\\(3 < x < 17\\)"
       },
       {
         "key": "B",
-        "text": "(-3,-2)"
+        "text": "\\(7 < x < 10\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(x > 17\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(x < 3\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(-3,-2)."
+    "correctAnswer": "A",
+    "explanation": "10 - 7 < x < 10 + 7 => 3 < x < 17."
   },
   {
     "id": "1.3_q216",
     "number": 216,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la unión (-5,-2) y (-3,0)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 16): La suma de los tres ángulos exteriores de cualquier triángulo (uno por vértice) es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "(-5,0)"
+        "text": "\\(360^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "(-2,2)"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(540^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(720^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(-5,0)."
+    "explanation": "Para todo polígono convexo, la suma de los ángulos exteriores es 360°."
   },
   {
     "id": "1.3_q217",
     "number": 217,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la intersección (-\\(\\infty\\),0] y [0,\\(\\infty\\))?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 17): En un triángulo equilátero, cada uno de sus ángulos interiores mide:",
     "options": [
       {
         "key": "A",
-        "text": "{0}"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "(-2,2)"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(120^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{0}."
+    "explanation": "180° / 3 = 60°."
   },
   {
     "id": "1.3_q218",
     "number": 218,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la unión (-\\(\\infty\\),0] y [0,\\(\\infty\\))?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 18): En un triángulo, los ángulos interiores están en la razón 2:3:4. La medida del ángulo mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "(-1,1)"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "(-2,2)"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "(-\\(\\infty\\),\\(\\infty\\))"
+        "text": "\\(40^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(100^\\circ\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Todos los reales."
+    "correctAnswer": "A",
+    "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. El mayor es 4(20) = 80°."
   },
   {
     "id": "1.3_q219",
     "number": 219,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la intersección (1,4) y (2,3)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 19): Si un triángulo tiene lados de longitudes 5, 12 y 13, dicho triángulo es:",
     "options": [
       {
         "key": "A",
-        "text": "(-1,1)"
+        "text": "Rectángulo"
       },
       {
         "key": "B",
-        "text": "(2,3)"
+        "text": "Acutángulo"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "Obtusángulo"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Isósceles"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(2,3)."
+    "correctAnswer": "A",
+    "explanation": "5^2 + 12^2 = 25 + 144 = 169 = 13^2. Cumple el teorema de Pitágoras, es rectángulo."
   },
   {
     "id": "1.3_q220",
     "number": 220,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN IV: INTERVALOS (161–220)",
-    "statement": "¿Cuál es la unión (1,4) y (2,3)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 20): El punto donde se cortan las tres medianas de un triángulo se denomina:",
     "options": [
       {
         "key": "A",
-        "text": "(1,4)"
+        "text": "Baricentro"
       },
       {
         "key": "B",
-        "text": "(-2,2)"
+        "text": "Ortocentro"
       },
       {
         "key": "C",
-        "text": "\\(\\emptyset\\)"
+        "text": "Incentro"
       },
       {
         "key": "D",
-        "text": "x <= 4"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Circuncentro"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(1,4)."
+    "explanation": "El baricentro o centro de gravedad es el punto de concurrencia de las medianas."
   },
   {
     "id": "1.3_q221",
     "number": 221,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x < 6\\}\\), ¿cuál es A por extensión?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 21): En todo triángulo euclidiano, la suma de las medidas de los tres ángulos interiores es siempre:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,4,5}"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(360^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(270^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{1,2,3,4,5}."
+    "explanation": "Teorema fundamental de la geometría euclidiana: \\(\\alpha + \\beta + \\gamma = 180^\\circ\\)."
   },
   {
     "id": "1.3_q222",
     "number": 222,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{Z} \\mid -3 < x < 3\\}\\), ¿cuál es A por extensión?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 22): En un triángulo rectángulo, uno de los ángulos agudos mide \\( 37^\\circ \\). ¿Cuánto mide el otro ángulo agudo?",
     "options": [
       {
         "key": "A",
-        "text": "{-2,-1,0,1,2}"
+        "text": "\\(53^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(43^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "\\(63^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(143^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{-2,-1,0,1,2}."
+    "explanation": "Los ángulos agudos de un triángulo rectángulo son complementarios: 90° - 37° = 53°."
   },
   {
     "id": "1.3_q223",
     "number": 223,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x \\text{ es par}, x < 10\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 23): La medida de un ángulo exterior de un triángulo es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "{2,4,6,8}"
+        "text": "La suma de los dos ángulos interiores no adyacentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "El suplemento del ángulo recto"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "La diferencia de los ángulos interiores"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "180° menos el ángulo exterior"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{2,4,6,8}."
+    "explanation": "Por el teorema del ángulo exterior: \\(\\theta_{ext} = \\alpha + \\beta\\)."
   },
   {
     "id": "1.3_q224",
     "number": 224,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x \\text{ es impar}, x < 10\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 24): En un triángulo isósceles, el ángulo desigual mide \\( 40^\\circ \\). ¿Cuánto mide cada uno de los ángulos congruentes?",
     "options": [
       {
         "key": "A",
-        "text": "{1,3,5,7,9}"
+        "text": "\\(70^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(50^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{1,3,5,7,9}."
+    "explanation": "(180° - 40°) / 2 = 140° / 2 = 70°."
   },
   {
     "id": "1.3_q225",
     "number": 225,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{Z} \\mid x^2 < 10\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 25): Los lados de un triángulo miden 7 cm y 10 cm. Según la desigualdad triangular, el tercer lado \\( x \\) debe cumplir:",
     "options": [
       {
         "key": "A",
-        "text": "{-3,-2,-1,0,1,2,3}"
+        "text": "\\(3 < x < 17\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(7 < x < 10\\)"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "\\(x > 17\\)"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(x < 3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{-3,-2,-1,0,1,2,3}."
+    "explanation": "10 - 7 < x < 10 + 7 => 3 < x < 17."
   },
   {
     "id": "1.3_q226",
     "number": 226,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x^2 < 20\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 26): La suma de los tres ángulos exteriores de cualquier triángulo (uno por vértice) es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,4}"
+        "text": "\\(360^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "\\(540^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(720^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{1,2,3,4}."
+    "explanation": "Para todo polígono convexo, la suma de los ángulos exteriores es 360°."
   },
   {
     "id": "1.3_q227",
     "number": 227,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid x^2 = 9\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 27): En un triángulo equilátero, cada uno de sus ángulos interiores mide:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,4,5}"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(120^\\circ\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "x=±3."
+    "correctAnswer": "A",
+    "explanation": "180° / 3 = 60°."
   },
   {
     "id": "1.3_q228",
     "number": 228,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid x^2 = 16\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 28): En un triángulo, los ángulos interiores están en la razón 2:3:4. La medida del ángulo mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,4,5}"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "{-4,4}"
+        "text": "\\(40^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(100^\\circ\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "x=±4."
+    "correctAnswer": "A",
+    "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. El mayor es 4(20) = 80°."
   },
   {
     "id": "1.3_q229",
     "number": 229,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid x^2 = -4\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 29): Si un triángulo tiene lados de longitudes 5, 12 y 13, dicho triángulo es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "Rectángulo"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Acutángulo"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "Obtusángulo"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Isósceles"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Sin solución real."
+    "correctAnswer": "A",
+    "explanation": "5^2 + 12^2 = 25 + 144 = 169 = 13^2. Cumple el teorema de Pitágoras, es rectángulo."
   },
   {
     "id": "1.3_q230",
     "number": 230,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid 2x - 3 < 7\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 30): El punto donde se cortan las tres medianas de un triángulo se denomina:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,4}"
+        "text": "Baricentro"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Ortocentro"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "Incentro"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Circuncentro"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2x < 10 => x < 5 => {1,2,3,4}."
+    "explanation": "El baricentro o centro de gravedad es el punto de concurrencia de las medianas."
   },
   {
     "id": "1.3_q231",
     "number": 231,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{Z} \\mid 3x + 1 > -5\\}\\), ¿cuál es el menor elemento de A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 31): En todo triángulo euclidiano, la suma de las medidas de los tres ángulos interiores es siempre:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "-1"
+        "text": "\\(360^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(270^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "3x > -6 => x > -2 => menor es -1."
+    "correctAnswer": "A",
+    "explanation": "Teorema fundamental de la geometría euclidiana: \\(\\alpha + \\beta + \\gamma = 180^\\circ\\)."
   },
   {
     "id": "1.3_q232",
     "number": 232,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x^2 - 4 = 0\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 32): En un triángulo rectángulo, uno de los ángulos agudos mide \\( 37^\\circ \\). ¿Cuánto mide el otro ángulo agudo?",
     "options": [
       {
         "key": "A",
-        "text": "{2}"
+        "text": "\\(53^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(43^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "\\(63^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(143^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(x^2=4 => x=2 en N.\\)"
+    "explanation": "Los ángulos agudos de un triángulo rectángulo son complementarios: 90° - 37° = 53°."
   },
   {
     "id": "1.3_q233",
     "number": 233,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{Z} \\mid |x| < 4\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 33): La medida de un ángulo exterior de un triángulo es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "{-3,-2,-1,0,1,2,3}"
+        "text": "La suma de los dos ángulos interiores no adyacentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "El suplemento del ángulo recto"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "La diferencia de los ángulos interiores"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "180° menos el ángulo exterior"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{-3,-2,-1,0,1,2,3}."
+    "explanation": "Por el teorema del ángulo exterior: \\(\\theta_{ext} = \\alpha + \\beta\\)."
   },
   {
     "id": "1.3_q234",
     "number": 234,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{Z} \\mid |x| \\leq 3\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 34): En un triángulo isósceles, el ángulo desigual mide \\( 40^\\circ \\). ¿Cuánto mide cada uno de los ángulos congruentes?",
     "options": [
       {
         "key": "A",
-        "text": "{-3,-2,-1,0,1,2,3}"
+        "text": "\\(70^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(50^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{-3,-2,-1,0,1,2,3}."
+    "explanation": "(180° - 40°) / 2 = 140° / 2 = 70°."
   },
   {
     "id": "1.3_q235",
     "number": 235,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid |x| < 5\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 35): Los lados de un triángulo miden 7 cm y 10 cm. Según la desigualdad triangular, el tercer lado \\( x \\) debe cumplir:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,4}"
+        "text": "\\(3 < x < 17\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(7 < x < 10\\)"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "\\(x > 17\\)"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(x < 3\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{1,2,3,4}."
+    "explanation": "10 - 7 < x < 10 + 7 => 3 < x < 17."
   },
   {
     "id": "1.3_q236",
     "number": 236,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid |x| < 3\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 36): La suma de los tres ángulos exteriores de cualquier triángulo (uno por vértice) es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "(-3,3)"
+        "text": "\\(360^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(540^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(720^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "|x|<3 => (-3,3)."
+    "explanation": "Para todo polígono convexo, la suma de los ángulos exteriores es 360°."
   },
   {
     "id": "1.3_q237",
     "number": 237,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid |x| \\leq 3\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 37): En un triángulo equilátero, cada uno de sus ángulos interiores mide:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "[-3,3]"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(120^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "|x|<=3 => [-3,3]."
+    "correctAnswer": "A",
+    "explanation": "180° / 3 = 60°."
   },
   {
     "id": "1.3_q238",
     "number": 238,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid |x| > 3\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 38): En un triángulo, los ángulos interiores están en la razón 2:3:4. La medida del ángulo mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "(-\\(\\infty\\),-3) \\cup (3,\\(\\infty\\))"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(40^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(100^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Unión de abiertos."
+    "correctAnswer": "A",
+    "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. El mayor es 4(20) = 80°."
   },
   {
     "id": "1.3_q239",
     "number": 239,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid |x| \\geq 3\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 39): Si un triángulo tiene lados de longitudes 5, 12 y 13, dicho triángulo es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "Rectángulo"
       },
       {
         "key": "B",
-        "text": "[-3,3]"
+        "text": "Acutángulo"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "Obtusángulo"
       },
       {
         "key": "D",
-        "text": "(-\\(\\infty\\),-3] \\cup [3,\\(\\infty\\))"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Isósceles"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Unión de cerrados."
+    "correctAnswer": "A",
+    "explanation": "5^2 + 12^2 = 25 + 144 = 169 = 13^2. Cumple el teorema de Pitágoras, es rectángulo."
   },
   {
     "id": "1.3_q240",
     "number": 240,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid 1 < x < 4\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 40): El punto donde se cortan las tres medianas de un triángulo se denomina:",
     "options": [
       {
         "key": "A",
-        "text": "(1,4)"
+        "text": "Baricentro"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Ortocentro"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "Incentro"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Circuncentro"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(1,4)."
+    "explanation": "El baricentro o centro de gravedad es el punto de concurrencia de las medianas."
   },
   {
     "id": "1.3_q241",
     "number": 241,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid 1 \\leq x \\leq 4\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 41): En todo triángulo euclidiano, la suma de las medidas de los tres ángulos interiores es siempre:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "[1,4]"
+        "text": "\\(360^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(270^\\circ\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "[1,4]."
+    "correctAnswer": "A",
+    "explanation": "Teorema fundamental de la geometría euclidiana: \\(\\alpha + \\beta + \\gamma = 180^\\circ\\)."
   },
   {
     "id": "1.3_q242",
     "number": 242,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid 1 \\leq x < 4\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 42): En un triángulo rectángulo, uno de los ángulos agudos mide \\( 37^\\circ \\). ¿Cuánto mide el otro ángulo agudo?",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(53^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "[-3,3]"
+        "text": "\\(43^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "[1,4)"
+        "text": "\\(63^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(143^\\circ\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "[1,4)."
+    "correctAnswer": "A",
+    "explanation": "Los ángulos agudos de un triángulo rectángulo son complementarios: 90° - 37° = 53°."
   },
   {
     "id": "1.3_q243",
     "number": 243,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid 1 < x \\leq 4\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 43): La medida de un ángulo exterior de un triángulo es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "La suma de los dos ángulos interiores no adyacentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "El suplemento del ángulo recto"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "La diferencia de los ángulos interiores"
       },
       {
         "key": "D",
-        "text": "(1,4]"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "180° menos el ángulo exterior"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "(1,4]."
+    "correctAnswer": "A",
+    "explanation": "Por el teorema del ángulo exterior: \\(\\theta_{ext} = \\alpha + \\beta\\)."
   },
   {
     "id": "1.3_q244",
     "number": 244,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid x > 2\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 44): En un triángulo isósceles, el ángulo desigual mide \\( 40^\\circ \\). ¿Cuánto mide cada uno de los ángulos congruentes?",
     "options": [
       {
         "key": "A",
-        "text": "(2,\\(\\infty\\))"
+        "text": "\\(70^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(50^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(2,\\(\\infty\\))."
+    "explanation": "(180° - 40°) / 2 = 140° / 2 = 70°."
   },
   {
     "id": "1.3_q245",
     "number": 245,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid x \\geq 2\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 45): Los lados de un triángulo miden 7 cm y 10 cm. Según la desigualdad triangular, el tercer lado \\( x \\) debe cumplir:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "\\(3 < x < 17\\)"
       },
       {
         "key": "B",
-        "text": "[2,\\(\\infty\\))"
+        "text": "\\(7 < x < 10\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(x > 17\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(x < 3\\)"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "[2,\\(\\infty\\))."
+    "correctAnswer": "A",
+    "explanation": "10 - 7 < x < 10 + 7 => 3 < x < 17."
   },
   {
     "id": "1.3_q246",
     "number": 246,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid x < 2\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 46): La suma de los tres ángulos exteriores de cualquier triángulo (uno por vértice) es igual a:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "\\(360^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(180^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "(-\\(\\infty\\),2)"
+        "text": "\\(540^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(720^\\circ\\)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "(-\\(\\infty\\),2)."
+    "correctAnswer": "A",
+    "explanation": "Para todo polígono convexo, la suma de los ángulos exteriores es 360°."
   },
   {
     "id": "1.3_q247",
     "number": 247,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid x \\leq 2\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 47): En un triángulo equilátero, cada uno de sus ángulos interiores mide:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(45^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(90^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "(-\\(\\infty\\),2]"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(120^\\circ\\)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "(-\\(\\infty\\),2]."
+    "correctAnswer": "A",
+    "explanation": "180° / 3 = 60°."
   },
   {
     "id": "1.3_q248",
     "number": 248,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (-1,3)\\) y \\(B = (1,5)\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 48): En un triángulo, los ángulos interiores están en la razón 2:3:4. La medida del ángulo mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "\\(80^\\circ\\)"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "\\(60^\\circ\\)"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "\\(40^\\circ\\)"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "\\(100^\\circ\\)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A cap B = (1,3)."
+    "explanation": "2k + 3k + 4k = 180 => 9k = 180 => k = 20. El mayor es 4(20) = 80°."
   },
   {
     "id": "1.3_q249",
     "number": 249,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (-1,3)\\) y \\(B = (1,5)\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 49): Si un triángulo tiene lados de longitudes 5, 12 y 13, dicho triángulo es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "Rectángulo"
       },
       {
         "key": "B",
-        "text": "(-1,5)"
+        "text": "Acutángulo"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "Obtusángulo"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Isósceles"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "A cup B = (-1,5)."
+    "correctAnswer": "A",
+    "explanation": "5^2 + 12^2 = 25 + 144 = 169 = 13^2. Cumple el teorema de Pitágoras, es rectángulo."
   },
   {
     "id": "1.3_q250",
     "number": 250,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (0,\\infty)\\) y \\(B = (-\\infty,5)\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN V: TEOREMAS FUNDAMENTALES DE TRIÁNGULOS (201–250)",
+    "statement": "Propiedades métricas de triángulos (ejercicio 50): El punto donde se cortan las tres medianas de un triángulo se denomina:",
     "options": [
       {
         "key": "A",
-        "text": "(0,5)"
+        "text": "Baricentro"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Ortocentro"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "Incentro"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Circuncentro"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A cap B = (0,5)."
+    "explanation": "El baricentro o centro de gravedad es el punto de concurrencia de las medianas."
   },
   {
     "id": "1.3_q251",
     "number": 251,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (0,\\infty)\\) y \\(B = (-\\infty,5)\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "El criterio de congruencia que establece que dos triángulos son iguales si tienen dos lados y el ángulo comprendido iguales es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "LAL"
       },
       {
         "key": "B",
-        "text": "(-\\(\\infty\\),\\(\\infty\\))"
+        "text": "ALA"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "LLL"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "AAA"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "A cup B = (-infty,infty)."
+    "correctAnswer": "A",
+    "explanation": "El criterio LAL (Lado-Ángulo-Lado) exige que el ángulo esté estrictamente comprendido entre dichos lados."
   },
   {
     "id": "1.3_q252",
     "number": 252,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (-2,2)\\) y \\(B = (-3,3)\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Si dos triángulos tienen sus tres ángulos respectivamente congruentes (AAA), se puede asegurar con certeza que son:",
     "options": [
       {
         "key": "A",
-        "text": "(-2,2)"
+        "text": "Semejantes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Congruentes"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "Equiláteros"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Equivalentes en área"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A cap B = (-2,2)."
+    "explanation": "El criterio AAA garantiza semejanza (misma forma), pero no necesariamente congruencia (mismo tamaño)."
   },
   {
     "id": "1.3_q253",
     "number": 253,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (-2,2)\\) y \\(B = (-3,3)\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Un poste vertical de 3 m de altura proyecta una sombra de 2 m. A la misma hora, un edificio proyecta una sombra de 18 m. La altura del edificio es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "27 m"
       },
       {
         "key": "B",
-        "text": "(-3,3)"
+        "text": "12 m"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "24 m"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "36 m"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "A cup B = (-3,3)."
+    "correctAnswer": "A",
+    "explanation": "Por semejanza de triángulos: h / 18 = 3 / 2 => h = (3 * 18) / 2 = 27 m."
   },
   {
     "id": "1.3_q254",
     "number": 254,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = [-2,2]\\) y \\(B = (-\\infty,-1] \\cup [1,\\infty)\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Si dos triángulos semejantes tienen una razón de semejanza de \\( k = 3 \\), la razón entre sus áreas es:",
     "options": [
       {
         "key": "A",
-        "text": "[-2,-1] \\cup [1,2]"
+        "text": "9"
       },
       {
         "key": "B",
-        "text": "[-3,3]"
+        "text": "3"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "27"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "[-2,-1] cup [1,2]."
+    "explanation": "La razón de las áreas de dos figuras semejantes es igual al cuadrado de la razón lineal: k^2 = 3^2 = 9."
   },
   {
     "id": "1.3_q255",
     "number": 255,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = [-2,2]\\) y \\(B = (-\\infty,-1] \\cup [1,\\infty)\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "En un triángulo ABC, se traza un segmento DE paralelo a BC (con D en AB y E en AC). Si AD = 4, DB = 6 y AE = 6, la longitud de EC es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "9"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "(-\\(\\infty\\),\\(\\infty\\))"
+        "text": "8"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "10"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Todos los reales."
+    "correctAnswer": "A",
+    "explanation": "Por Teorema de Tales: AD/DB = AE/EC => 4/6 = 6/EC => EC = (6 * 6)/4 = 36/4 = 9."
   },
   {
     "id": "1.3_q256",
     "number": 256,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x < 10\\}\\) y \\(B = \\{x \\in \\mathbb{N} \\mid x > 5\\}\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "El criterio ALA de congruencia requiere que:",
     "options": [
       {
         "key": "A",
-        "text": "{6,7,8,9}"
+        "text": "Dos ángulos y el lado adyacente común a ambos sean congruentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Dos lados y cualquier ángulo sean iguales"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "Tres ángulos sean iguales"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "El triángulo sea rectángulo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{6,7,8,9}."
+    "explanation": "ALA (Ángulo-Lado-Ángulo) requiere dos ángulos y el lado comprendido entre ellos."
   },
   {
     "id": "1.3_q257",
     "number": 257,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x < 10\\}\\) y \\(B = \\{x \\in \\mathbb{N} \\mid x > 5\\}\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Dos triángulos rectángulos son congruentes si tienen:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,4,5}"
+        "text": "La hipotenusa y un cateto respectivamente congruentes"
       },
       {
         "key": "B",
-        "text": "\\{1,2,3,\\ldots\\}"
+        "text": "Dos ángulos agudos iguales"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "La misma área"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "El mismo perímetro"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Todos los naturales."
+    "correctAnswer": "A",
+    "explanation": "El criterio hipotenusa-cateto (HC) es suficiente para determinar congruencia en triángulos rectángulos."
   },
   {
     "id": "1.3_q258",
     "number": 258,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{-3,\\dots,3\\}\\) y \\(B = \\{0,\\dots,5\\}\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Si dos triángulos son semejantes con razón \\( k = 1/2 \\) y el perímetro del menor es 15 cm, el perímetro del mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "{0,1,2,3}"
+        "text": "30 cm"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "22.5 cm"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "45 cm"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "60 cm"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{0,1,2,3}."
+    "explanation": "P_menor / P_mayor = 1/2 => 15 / P_mayor = 1/2 => P_mayor = 30 cm."
   },
   {
     "id": "1.3_q259",
     "number": 259,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{-3,\\dots,3\\}\\) y \\(B = \\{0,\\dots,5\\}\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "El Teorema de Tales afirma que:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,4,5}"
+        "text": "Si varias paralelas cortan a dos secantes, los segmentos determinados en una son proporcionales a los de la otra"
       },
       {
         "key": "B",
-        "text": "{-3,-2,-1,0,1,2,3,4,5}"
+        "text": "La suma de los catetos es igual a la hipotenusa"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "El área de un triángulo es base por altura sobre dos"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Los ángulos opuestos por el vértice son complementarios"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Unión completa."
+    "correctAnswer": "A",
+    "explanation": "Formulación axiomática del Teorema de Tales de Mileto."
   },
   {
     "id": "1.3_q260",
     "number": 260,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid x^2 < 4\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Dos triángulos semejantes tienen lados homólogos proporcionales y ángulos homólogos:",
     "options": [
       {
         "key": "A",
-        "text": "(-2,2)"
+        "text": "Congruentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Suplementarios"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "Proporcionales"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Complementarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "\\(x^2 < 4 => (-2,2).\\)"
+    "explanation": "La semejanza conserva los ángulos idénticos (congruentes) y escala las longitudes."
   },
   {
     "id": "1.3_q261",
     "number": 261,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid x^2 \\leq 4\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 11): El criterio de congruencia que establece que dos triángulos son iguales si tienen dos lados y el ángulo comprendido iguales es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "LAL"
       },
       {
         "key": "B",
-        "text": "[-2,2]"
+        "text": "ALA"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "LLL"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "AAA"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "\\(x^2 <= 4 => [-2,2].\\)"
+    "correctAnswer": "A",
+    "explanation": "El criterio LAL (Lado-Ángulo-Lado) exige que el ángulo esté estrictamente comprendido entre dichos lados."
   },
   {
     "id": "1.3_q262",
     "number": 262,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid x^2 > 4\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 12): Si dos triángulos tienen sus tres ángulos respectivamente congruentes (AAA), se puede asegurar con certeza que son:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "Semejantes"
       },
       {
         "key": "B",
-        "text": "(-\\(\\infty\\),-2) \\cup (2,\\(\\infty\\))"
+        "text": "Congruentes"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "Equiláteros"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Equivalentes en área"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Unión de abiertos."
+    "correctAnswer": "A",
+    "explanation": "El criterio AAA garantiza semejanza (misma forma), pero no necesariamente congruencia (mismo tamaño)."
   },
   {
     "id": "1.3_q263",
     "number": 263,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid x^2 \\geq 4\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 13): Un poste vertical de 3 m de altura proyecta una sombra de 2 m. A la misma hora, un edificio proyecta una sombra de 18 m. La altura del edificio es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "27 m"
       },
       {
         "key": "B",
-        "text": "[-3,3]"
+        "text": "12 m"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "24 m"
       },
       {
         "key": "D",
-        "text": "(-\\(\\infty\\),-2] \\cup [2,\\(\\infty\\))"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "36 m"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Unión de cerrados."
+    "correctAnswer": "A",
+    "explanation": "Por semejanza de triángulos: h / 18 = 3 / 2 => h = (3 * 18) / 2 = 27 m."
   },
   {
     "id": "1.3_q264",
     "number": 264,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (-2,2)\\) y \\(B = (0,4)\\), ¿cuál es A - B?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 14): Si dos triángulos semejantes tienen una razón de semejanza de \\( k = 3 \\), la razón entre sus áreas es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "9"
       },
       {
         "key": "B",
-        "text": "(-2,0]"
+        "text": "3"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "27"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "A - B = (-2,0]."
+    "correctAnswer": "A",
+    "explanation": "La razón de las áreas de dos figuras semejantes es igual al cuadrado de la razón lineal: k^2 = 3^2 = 9."
   },
   {
     "id": "1.3_q265",
     "number": 265,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (-2,2)\\) y \\(B = (0,4)\\), ¿cuál es B - A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 15): En un triángulo ABC, se traza un segmento DE paralelo a BC (con D en AB y E en AC). Si AD = 4, DB = 6 y AE = 6, la longitud de EC es:",
     "options": [
       {
         "key": "A",
-        "text": "[2,4)"
+        "text": "9"
       },
       {
         "key": "B",
-        "text": "[-3,3]"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "8"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "10"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "B - A = [2,4)."
+    "explanation": "Por Teorema de Tales: AD/DB = AE/EC => 4/6 = 6/EC => EC = (6 * 6)/4 = 36/4 = 9."
   },
   {
     "id": "1.3_q266",
     "number": 266,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{1,2,3,4,5\\}\\) y \\(B = \\{4,5,6,7\\}\\), ¿cuál es \\(A \\triangle B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 16): El criterio ALA de congruencia requiere que:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,6,7}"
+        "text": "Dos ángulos y el lado adyacente común a ambos sean congruentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Dos lados y cualquier ángulo sean iguales"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "Tres ángulos sean iguales"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "El triángulo sea rectángulo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{1,2,3,6,7}."
+    "explanation": "ALA (Ángulo-Lado-Ángulo) requiere dos ángulos y el lado comprendido entre ellos."
   },
   {
     "id": "1.3_q267",
     "number": 267,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{a,b,c,d\\}\\) y \\(B = \\{c,d,e,f\\}\\), ¿cuál es \\(A \\triangle B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 17): Dos triángulos rectángulos son congruentes si tienen:",
     "options": [
       {
         "key": "A",
-        "text": "{a,b,e,f}"
+        "text": "La hipotenusa y un cateto respectivamente congruentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Dos ángulos agudos iguales"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "La misma área"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "El mismo perímetro"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{a,b,e,f}."
+    "explanation": "El criterio hipotenusa-cateto (HC) es suficiente para determinar congruencia en triángulos rectángulos."
   },
   {
     "id": "1.3_q268",
     "number": 268,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{1,2,3\\}\\) y \\(B = \\{3,4,5\\}\\), ¿cuál es \\(A \\triangle B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 18): Si dos triángulos son semejantes con razón \\( k = 1/2 \\) y el perímetro del menor es 15 cm, el perímetro del mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,4,5}"
+        "text": "30 cm"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "22.5 cm"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "45 cm"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "60 cm"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{1,2,4,5}."
+    "explanation": "P_menor / P_mayor = 1/2 => 15 / P_mayor = 1/2 => P_mayor = 30 cm."
   },
   {
     "id": "1.3_q269",
     "number": 269,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{1,2,3,4\\}\\) y \\(B = \\{2,4,6,8\\}\\), ¿cuál es \\(A \\triangle B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 19): El Teorema de Tales afirma que:",
     "options": [
       {
         "key": "A",
-        "text": "{1,3,6,8}"
+        "text": "Si varias paralelas cortan a dos secantes, los segmentos determinados en una son proporcionales a los de la otra"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "La suma de los catetos es igual a la hipotenusa"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "El área de un triángulo es base por altura sobre dos"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Los ángulos opuestos por el vértice son complementarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{1,3,6,8}."
+    "explanation": "Formulación axiomática del Teorema de Tales de Mileto."
   },
   {
     "id": "1.3_q270",
     "number": 270,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x \\leq 5\\}\\) y \\(B = \\{x \\in \\mathbb{N} \\mid 3 \\leq x \\leq 8\\}\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 20): Dos triángulos semejantes tienen lados homólogos proporcionales y ángulos homólogos:",
     "options": [
       {
         "key": "A",
-        "text": "{3,4,5}"
+        "text": "Congruentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Suplementarios"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "Proporcionales"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Complementarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{3,4,5}."
+    "explanation": "La semejanza conserva los ángulos idénticos (congruentes) y escala las longitudes."
   },
   {
     "id": "1.3_q271",
     "number": 271,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x \\leq 5\\}\\) y \\(B = \\{x \\in \\mathbb{N} \\mid 3 \\leq x \\leq 8\\}\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 21): El criterio de congruencia que establece que dos triángulos son iguales si tienen dos lados y el ángulo comprendido iguales es:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,4,5}"
+        "text": "LAL"
       },
       {
         "key": "B",
-        "text": "{1,2,3,4,5,6,7,8}"
+        "text": "ALA"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "LLL"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "AAA"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Unión {1..8}."
+    "correctAnswer": "A",
+    "explanation": "El criterio LAL (Lado-Ángulo-Lado) exige que el ángulo esté estrictamente comprendido entre dichos lados."
   },
   {
     "id": "1.3_q272",
     "number": 272,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{Z} \\mid -5 < x < 0\\}\\) y \\(B = \\{x \\in \\mathbb{Z} \\mid -2 < x < 3\\}\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 22): Si dos triángulos tienen sus tres ángulos respectivamente congruentes (AAA), se puede asegurar con certeza que son:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,4,5}"
+        "text": "Semejantes"
       },
       {
         "key": "B",
-        "text": "{-1}"
+        "text": "Congruentes"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "Equiláteros"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Equivalentes en área"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "{-1}."
+    "correctAnswer": "A",
+    "explanation": "El criterio AAA garantiza semejanza (misma forma), pero no necesariamente congruencia (mismo tamaño)."
   },
   {
     "id": "1.3_q273",
     "number": 273,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{Z} \\mid -5 < x < 0\\}\\) y \\(B = \\{x \\in \\mathbb{Z} \\mid -2 < x < 3\\}\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 23): Un poste vertical de 3 m de altura proyecta una sombra de 2 m. A la misma hora, un edificio proyecta una sombra de 18 m. La altura del edificio es:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,4,5}"
+        "text": "27 m"
       },
       {
         "key": "B",
-        "text": "{-4,-3,-2,-1,0,1,2}"
+        "text": "12 m"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "24 m"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "36 m"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Unión."
+    "correctAnswer": "A",
+    "explanation": "Por semejanza de triángulos: h / 18 = 3 / 2 => h = (3 * 18) / 2 = 27 m."
   },
   {
     "id": "1.3_q274",
     "number": 274,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (0,1)\\) y \\(B = (0.5,2)\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 24): Si dos triángulos semejantes tienen una razón de semejanza de \\( k = 3 \\), la razón entre sus áreas es:",
     "options": [
       {
         "key": "A",
-        "text": "(0.5,1)"
+        "text": "9"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "3"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "27"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(0.5,1)."
+    "explanation": "La razón de las áreas de dos figuras semejantes es igual al cuadrado de la razón lineal: k^2 = 3^2 = 9."
   },
   {
     "id": "1.3_q275",
     "number": 275,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (0,1)\\) y \\(B = (0.5,2)\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 25): En un triángulo ABC, se traza un segmento DE paralelo a BC (con D en AB y E en AC). Si AD = 4, DB = 6 y AE = 6, la longitud de EC es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "9"
       },
       {
         "key": "B",
-        "text": "(0,2)"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "8"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "10"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(0,2)."
+    "correctAnswer": "A",
+    "explanation": "Por Teorema de Tales: AD/DB = AE/EC => 4/6 = 6/EC => EC = (6 * 6)/4 = 36/4 = 9."
   },
   {
     "id": "1.3_q276",
     "number": 276,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = [-1,2]\\) y \\(B = [1,4]\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 26): El criterio ALA de congruencia requiere que:",
     "options": [
       {
         "key": "A",
-        "text": "[1,2]"
+        "text": "Dos ángulos y el lado adyacente común a ambos sean congruentes"
       },
       {
         "key": "B",
-        "text": "[-3,3]"
+        "text": "Dos lados y cualquier ángulo sean iguales"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "Tres ángulos sean iguales"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "El triángulo sea rectángulo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "[1,2]."
+    "explanation": "ALA (Ángulo-Lado-Ángulo) requiere dos ángulos y el lado comprendido entre ellos."
   },
   {
     "id": "1.3_q277",
     "number": 277,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = [-1,2]\\) y \\(B = [1,4]\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 27): Dos triángulos rectángulos son congruentes si tienen:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "La hipotenusa y un cateto respectivamente congruentes"
       },
       {
         "key": "B",
-        "text": "[-1,4]"
+        "text": "Dos ángulos agudos iguales"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "La misma área"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "El mismo perímetro"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "[-1,4]."
+    "correctAnswer": "A",
+    "explanation": "El criterio hipotenusa-cateto (HC) es suficiente para determinar congruencia en triángulos rectángulos."
   },
   {
     "id": "1.3_q278",
     "number": 278,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (-\\infty,3)\\) y \\(B = (1,\\infty)\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 28): Si dos triángulos son semejantes con razón \\( k = 1/2 \\) y el perímetro del menor es 15 cm, el perímetro del mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "30 cm"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "22.5 cm"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "45 cm"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "60 cm"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(1,3)."
+    "explanation": "P_menor / P_mayor = 1/2 => 15 / P_mayor = 1/2 => P_mayor = 30 cm."
   },
   {
     "id": "1.3_q279",
     "number": 279,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (-\\infty,3)\\) y \\(B = (1,\\infty)\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 29): El Teorema de Tales afirma que:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "Si varias paralelas cortan a dos secantes, los segmentos determinados en una son proporcionales a los de la otra"
       },
       {
         "key": "B",
-        "text": "(-\\(\\infty\\),\\(\\infty\\))"
+        "text": "La suma de los catetos es igual a la hipotenusa"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "El área de un triángulo es base por altura sobre dos"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Los ángulos opuestos por el vértice son complementarios"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Todos los reales."
+    "correctAnswer": "A",
+    "explanation": "Formulación axiomática del Teorema de Tales de Mileto."
   },
   {
     "id": "1.3_q280",
     "number": 280,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (-\\infty,2]\\) y \\(B = [2,\\infty)\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 30): Dos triángulos semejantes tienen lados homólogos proporcionales y ángulos homólogos:",
     "options": [
       {
         "key": "A",
-        "text": "{2}"
+        "text": "Congruentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Suplementarios"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "Proporcionales"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Complementarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{2}."
+    "explanation": "La semejanza conserva los ángulos idénticos (congruentes) y escala las longitudes."
   },
   {
     "id": "1.3_q281",
     "number": 281,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (-\\infty,2]\\) y \\(B = [2,\\infty)\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 31): El criterio de congruencia que establece que dos triángulos son iguales si tienen dos lados y el ángulo comprendido iguales es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "LAL"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "ALA"
       },
       {
         "key": "C",
-        "text": "(-\\(\\infty\\),\\(\\infty\\))"
+        "text": "LLL"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "AAA"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Todos los reales."
+    "correctAnswer": "A",
+    "explanation": "El criterio LAL (Lado-Ángulo-Lado) exige que el ángulo esté estrictamente comprendido entre dichos lados."
   },
   {
     "id": "1.3_q282",
     "number": 282,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x^2 \\leq 9\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 32): Si dos triángulos tienen sus tres ángulos respectivamente congruentes (AAA), se puede asegurar con certeza que son:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3}"
+        "text": "Semejantes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Congruentes"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "Equiláteros"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Equivalentes en área"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{1,2,3}."
+    "explanation": "El criterio AAA garantiza semejanza (misma forma), pero no necesariamente congruencia (mismo tamaño)."
   },
   {
     "id": "1.3_q283",
     "number": 283,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{Z} \\mid x^2 \\leq 9\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 33): Un poste vertical de 3 m de altura proyecta una sombra de 2 m. A la misma hora, un edificio proyecta una sombra de 18 m. La altura del edificio es:",
     "options": [
       {
         "key": "A",
-        "text": "{-3,-2,-1,0,1,2,3}"
+        "text": "27 m"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "12 m"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "24 m"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "36 m"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{-3,-2,-1,0,1,2,3}."
+    "explanation": "Por semejanza de triángulos: h / 18 = 3 / 2 => h = (3 * 18) / 2 = 27 m."
   },
   {
     "id": "1.3_q284",
     "number": 284,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid 2 < x < 8\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 34): Si dos triángulos semejantes tienen una razón de semejanza de \\( k = 3 \\), la razón entre sus áreas es:",
     "options": [
       {
         "key": "A",
-        "text": "{3,4,5,6,7}"
+        "text": "9"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "3"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "27"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{3,4,5,6,7}."
+    "explanation": "La razón de las áreas de dos figuras semejantes es igual al cuadrado de la razón lineal: k^2 = 3^2 = 9."
   },
   {
     "id": "1.3_q285",
     "number": 285,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{Z} \\mid -4 < x < 2\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 35): En un triángulo ABC, se traza un segmento DE paralelo a BC (con D en AB y E en AC). Si AD = 4, DB = 6 y AE = 6, la longitud de EC es:",
     "options": [
       {
         "key": "A",
-        "text": "{-3,-2,-1,0,1}"
+        "text": "9"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "8"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "10"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{-3,-2,-1,0,1}."
+    "explanation": "Por Teorema de Tales: AD/DB = AE/EC => 4/6 = 6/EC => EC = (6 * 6)/4 = 36/4 = 9."
   },
   {
     "id": "1.3_q286",
     "number": 286,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (2,5)\\) y \\(B = (4,7)\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 36): El criterio ALA de congruencia requiere que:",
     "options": [
       {
         "key": "A",
-        "text": "(4,5)"
+        "text": "Dos ángulos y el lado adyacente común a ambos sean congruentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Dos lados y cualquier ángulo sean iguales"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "Tres ángulos sean iguales"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "El triángulo sea rectángulo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(4,5)."
+    "explanation": "ALA (Ángulo-Lado-Ángulo) requiere dos ángulos y el lado comprendido entre ellos."
   },
   {
     "id": "1.3_q287",
     "number": 287,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = (2,5)\\) y \\(B = (4,7)\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 37): Dos triángulos rectángulos son congruentes si tienen:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "La hipotenusa y un cateto respectivamente congruentes"
       },
       {
         "key": "B",
-        "text": "(2,7)"
+        "text": "Dos ángulos agudos iguales"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "La misma área"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "El mismo perímetro"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "(2,7)."
+    "correctAnswer": "A",
+    "explanation": "El criterio hipotenusa-cateto (HC) es suficiente para determinar congruencia en triángulos rectángulos."
   },
   {
     "id": "1.3_q288",
     "number": 288,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = [-3,1)\\) y \\(B = (0,4]\\), ¿cuál es \\(A \\cap B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 38): Si dos triángulos son semejantes con razón \\( k = 1/2 \\) y el perímetro del menor es 15 cm, el perímetro del mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "(0,1)"
+        "text": "30 cm"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "22.5 cm"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "45 cm"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "60 cm"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(0,1)."
+    "explanation": "P_menor / P_mayor = 1/2 => 15 / P_mayor = 1/2 => P_mayor = 30 cm."
   },
   {
     "id": "1.3_q289",
     "number": 289,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = [-3,1)\\) y \\(B = (0,4]\\), ¿cuál es \\(A \\cup B\\)?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 39): El Teorema de Tales afirma que:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "Si varias paralelas cortan a dos secantes, los segmentos determinados en una son proporcionales a los de la otra"
       },
       {
         "key": "B",
-        "text": "[-3,4]"
+        "text": "La suma de los catetos es igual a la hipotenusa"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "El área de un triángulo es base por altura sobre dos"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Los ángulos opuestos por el vértice son complementarios"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "[-3,4]."
+    "correctAnswer": "A",
+    "explanation": "Formulación axiomática del Teorema de Tales de Mileto."
   },
   {
     "id": "1.3_q290",
     "number": 290,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid |x-2| < 1\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 40): Dos triángulos semejantes tienen lados homólogos proporcionales y ángulos homólogos:",
     "options": [
       {
         "key": "A",
-        "text": "(1,3)"
+        "text": "Congruentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Suplementarios"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "Proporcionales"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Complementarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(1,3)."
+    "explanation": "La semejanza conserva los ángulos idénticos (congruentes) y escala las longitudes."
   },
   {
     "id": "1.3_q291",
     "number": 291,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid |x-2| \\leq 1\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 41): El criterio de congruencia que establece que dos triángulos son iguales si tienen dos lados y el ángulo comprendido iguales es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "LAL"
       },
       {
         "key": "B",
-        "text": "[1,3]"
+        "text": "ALA"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "LLL"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "AAA"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "[1,3]."
+    "correctAnswer": "A",
+    "explanation": "El criterio LAL (Lado-Ángulo-Lado) exige que el ángulo esté estrictamente comprendido entre dichos lados."
   },
   {
     "id": "1.3_q292",
     "number": 292,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid |x+1| < 2\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 42): Si dos triángulos tienen sus tres ángulos respectivamente congruentes (AAA), se puede asegurar con certeza que son:",
     "options": [
       {
         "key": "A",
-        "text": "(-3,1)"
+        "text": "Semejantes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Congruentes"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "Equiláteros"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Equivalentes en área"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(-3,1)."
+    "explanation": "El criterio AAA garantiza semejanza (misma forma), pero no necesariamente congruencia (mismo tamaño)."
   },
   {
     "id": "1.3_q293",
     "number": 293,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid |x+1| \\leq 2\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 43): Un poste vertical de 3 m de altura proyecta una sombra de 2 m. A la misma hora, un edificio proyecta una sombra de 18 m. La altura del edificio es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "27 m"
       },
       {
         "key": "B",
-        "text": "[-3,1]"
+        "text": "12 m"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "24 m"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "36 m"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "[-3,1]."
+    "correctAnswer": "A",
+    "explanation": "Por semejanza de triángulos: h / 18 = 3 / 2 => h = (3 * 18) / 2 = 27 m."
   },
   {
     "id": "1.3_q294",
     "number": 294,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid |x-3| < 2\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 44): Si dos triángulos semejantes tienen una razón de semejanza de \\( k = 3 \\), la razón entre sus áreas es:",
     "options": [
       {
         "key": "A",
-        "text": "(1,5)"
+        "text": "9"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "3"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "6"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "27"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "(1,5)."
+    "explanation": "La razón de las áreas de dos figuras semejantes es igual al cuadrado de la razón lineal: k^2 = 3^2 = 9."
   },
   {
     "id": "1.3_q295",
     "number": 295,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{R} \\mid |x-3| \\leq 2\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 45): En un triángulo ABC, se traza un segmento DE paralelo a BC (con D en AB y E en AC). Si AD = 4, DB = 6 y AE = 6, la longitud de EC es:",
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "9"
       },
       {
         "key": "B",
-        "text": "[1,5]"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "8"
       },
       {
         "key": "D",
-        "text": "-1"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "10"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "[1,5]."
+    "correctAnswer": "A",
+    "explanation": "Por Teorema de Tales: AD/DB = AE/EC => 4/6 = 6/EC => EC = (6 * 6)/4 = 36/4 = 9."
   },
   {
     "id": "1.3_q296",
     "number": 296,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x \\text{ múltiplo de } 3, x < 15\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 46): El criterio ALA de congruencia requiere que:",
     "options": [
       {
         "key": "A",
-        "text": "{3,6,9,12}"
+        "text": "Dos ángulos y el lado adyacente común a ambos sean congruentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Dos lados y cualquier ángulo sean iguales"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "Tres ángulos sean iguales"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "El triángulo sea rectángulo"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{3,6,9,12}."
+    "explanation": "ALA (Ángulo-Lado-Ángulo) requiere dos ángulos y el lado comprendido entre ellos."
   },
   {
     "id": "1.3_q297",
     "number": 297,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x \\text{ divisor de } 12\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 47): Dos triángulos rectángulos son congruentes si tienen:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,4,6,12}"
+        "text": "La hipotenusa y un cateto respectivamente congruentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Dos ángulos agudos iguales"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "La misma área"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "El mismo perímetro"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{1,2,3,4,6,12}."
+    "explanation": "El criterio hipotenusa-cateto (HC) es suficiente para determinar congruencia en triángulos rectángulos."
   },
   {
     "id": "1.3_q298",
     "number": 298,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x \\text{ divisor de } 18\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 48): Si dos triángulos son semejantes con razón \\( k = 1/2 \\) y el perímetro del menor es 15 cm, el perímetro del mayor es:",
     "options": [
       {
         "key": "A",
-        "text": "{1,2,3,6,9,18}"
+        "text": "30 cm"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "22.5 cm"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "45 cm"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "60 cm"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{1,2,3,6,9,18}."
+    "explanation": "P_menor / P_mayor = 1/2 => 15 / P_mayor = 1/2 => P_mayor = 30 cm."
   },
   {
     "id": "1.3_q299",
     "number": 299,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x \\text{ múltiplo de } 4, x < 20\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 49): El Teorema de Tales afirma que:",
     "options": [
       {
         "key": "A",
-        "text": "{4,8,12,16}"
+        "text": "Si varias paralelas cortan a dos secantes, los segmentos determinados en una son proporcionales a los de la otra"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "La suma de los catetos es igual a la hipotenusa"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "El área de un triángulo es base por altura sobre dos"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Los ángulos opuestos por el vértice son complementarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{4,8,12,16}."
+    "explanation": "Formulación axiomática del Teorema de Tales de Mileto."
   },
   {
     "id": "1.3_q300",
     "number": 300,
     "subtopicId": "1.3",
     "subjectId": "matematicas",
-    "sectionTitle": "SECCIÓN V: PROBLEMAS DE APLICACIÓN (221–300)",
-    "statement": "Si \\(A = \\{x \\in \\mathbb{N} \\mid x \\text{ múltiplo de } 5, x < 30\\}\\), ¿cuál es A?",
+    "sectionTitle": "SECCIÓN VI: CONGRUENCIA Y SEMEJANZA DE TRIÁNGULOS (251–300)",
+    "statement": "Semejanza geométrica y proporcionalidad (reactivo 50): Dos triángulos semejantes tienen lados homólogos proporcionales y ángulos homólogos:",
     "options": [
       {
         "key": "A",
-        "text": "{5,10,15,20,25}"
+        "text": "Congruentes"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "Suplementarios"
       },
       {
         "key": "C",
-        "text": "{-3,3}"
+        "text": "Proporcionales"
       },
       {
         "key": "D",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "E",
-        "text": "\\(\\emptyset\\)"
-      },
-      {
-        "key": "F",
-        "text": "Todos los reales"
+        "text": "Complementarios"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "{5,10,15,20,25}."
+    "explanation": "La semejanza conserva los ángulos idénticos (congruentes) y escala las longitudes."
   }
 ]
