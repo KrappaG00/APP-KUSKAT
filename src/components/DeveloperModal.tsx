@@ -130,7 +130,7 @@ export const DeveloperModal: React.FC<DeveloperModalProps> = ({ isOpen, onClose 
                   Próximos Lanzamientos en Desarrollo:
                 </p>
                 <p className="text-xs font-semibold text-blue-800 leading-snug">
-                  Trabajando en material de medicina.
+                  Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.
                 </p>
                 <div className="pt-1 flex flex-wrap gap-2 text-[11px] font-medium text-blue-700">
                   <span className="inline-flex items-center gap-1 bg-white px-2 py-0.5 rounded-md border border-blue-200 shadow-2xs">

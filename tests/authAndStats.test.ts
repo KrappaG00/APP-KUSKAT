@@ -44,10 +44,10 @@ describe('Filtros Temporales y Reinicio Anual (1 enero - 31 diciembre)', () => {
 });
 
 describe('Top 1 y Top 10 por Institución', () => {
-  it('devuelve el Top 1 para cada una de las 6 instituciones antes de interactuar', () => {
+  it('devuelve el Top 1 para cada una de las instituciones oficiales (incluyendo INGLES) antes de interactuar', () => {
     const topOnes = getTopOnePerInstitution('anual');
-    expect(topOnes).toHaveLength(6);
-    expect(topOnes.map(t => t.institution)).toEqual(['UES', 'ESCALAFON', 'AVANZO', 'ASD', 'ENA', 'ANSP']);
+    expect(topOnes).toHaveLength(7);
+    expect(topOnes.map(t => t.institution)).toEqual(['UES', 'ESCALAFON', 'AVANZO', 'ASD', 'ENA', 'ANSP', 'INGLES']);
     topOnes.forEach(t => {
       expect(t.entry).not.toBeNull();
       expect(t.entry?.rank).toBe(1);

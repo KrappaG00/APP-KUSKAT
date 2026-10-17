@@ -9,6 +9,7 @@ import {
   SubtopicMeta,
 } from '../types';
 import { QUESTIONS_DATA } from '../data';
+import { ENGLISH_QUESTIONS_BANK } from '../data/languages/englishData';
 
 // Caché en memoria para carga instantánea
 const questionsCache = new Map<string, Question[]>();
@@ -18,6 +19,7 @@ let asdCurriculumCache: CurriculumData | null = null;
 let avanzoCurriculumCache: CurriculumData | null = null;
 let enaCurriculumCache: CurriculumData | null = null;
 let escalafonCurriculumCache: CurriculumData | null = null;
+let inglesCurriculumCache: CurriculumData | null = null;
 
 /**
  * Asigna un nivel pedagógico ('basico', 'intermedio', 'admision') a cada reactivo
@@ -159,15 +161,16 @@ export function getStrictFallbackQuestions(
 }
 
 /**
- * Carga la malla curricular oficial para UES, ANSP, ASD, AVANZO, ENA o ESCALAFON.
+ * Carga la malla curricular oficial para UES, ANSP, ASD, AVANZO, ENA, ESCALAFON o INGLES.
  */
-export async function fetchCurriculum(category: 'UES' | 'ANSP' | 'ASD' | 'AVANZO' | 'ENA' | 'ESCALAFON' = 'UES'): Promise<CurriculumData> {
+export async function fetchCurriculum(category: Institution = 'UES'): Promise<CurriculumData> {
   if (category === 'UES' && uesCurriculumCache) return uesCurriculumCache;
   if (category === 'ANSP' && anspCurriculumCache) return anspCurriculumCache;
   if (category === 'ASD' && asdCurriculumCache) return asdCurriculumCache;
   if (category === 'AVANZO' && avanzoCurriculumCache) return avanzoCurriculumCache;
   if (category === 'ENA' && enaCurriculumCache) return enaCurriculumCache;
   if (category === 'ESCALAFON' && escalafonCurriculumCache) return escalafonCurriculumCache;
+  if (category === 'INGLES' && inglesCurriculumCache) return inglesCurriculumCache;
 
   let url = '/data/curriculum.json';
   if (category === 'ANSP') url = '/data/ansp/curriculum.json';
@@ -175,6 +178,7 @@ export async function fetchCurriculum(category: 'UES' | 'ANSP' | 'ASD' | 'AVANZO
   if (category === 'AVANZO') url = '/data/avanzo/curriculum.json';
   if (category === 'ENA') url = '/data/ena/curriculum.json';
   if (category === 'ESCALAFON') url = '/data/escalafon/curriculum.json';
+  if (category === 'INGLES') url = '/data/ingles/curriculum.json';
 
   try {
     const res = await fetch(url);
@@ -194,6 +198,7 @@ export async function fetchCurriculum(category: 'UES' | 'ANSP' | 'ASD' | 'AVANZO
     if (category === 'AVANZO') avanzoCurriculumCache = data;
     if (category === 'ENA') enaCurriculumCache = data;
     if (category === 'ESCALAFON') escalafonCurriculumCache = data;
+    if (category === 'INGLES') inglesCurriculumCache = data;
 
     return data;
   } catch (error) {
@@ -203,20 +208,21 @@ export async function fetchCurriculum(category: 'UES' | 'ANSP' | 'ASD' | 'AVANZO
 }
 
 /**
- * Carga los currículos de todas las instituciones y retorna la malla unificada (UES + ANSP + ASD + AVANZO + ENA + ESCALAFON).
+ * Carga los currículos de todas las instituciones y retorna la malla unificada (UES + ANSP + ASD + AVANZO + ENA + ESCALAFON + INGLES).
  */
 export async function fetchUnifiedCurriculum(): Promise<{
   allSubjects: SubjectMeta[];
   totalQuestions: number;
   totalSubtopics: number;
 }> {
-  const [ues, ansp, asd, avanzo, ena, escalafon] = await Promise.all([
+  const [ues, ansp, asd, avanzo, ena, escalafon, ingles] = await Promise.all([
     fetchCurriculum('UES').catch(() => getFallbackCurriculum('UES')),
     fetchCurriculum('ANSP').catch(() => getFallbackCurriculum('ANSP')),
     fetchCurriculum('ASD').catch(() => getFallbackCurriculum('ASD')),
     fetchCurriculum('AVANZO').catch(() => getFallbackCurriculum('AVANZO')),
     fetchCurriculum('ENA').catch(() => getFallbackCurriculum('ENA')),
     fetchCurriculum('ESCALAFON').catch(() => getFallbackCurriculum('ESCALAFON')),
+    fetchCurriculum('INGLES').catch(() => getFallbackCurriculum('INGLES')),
   ]);
 
   const allSubjects: SubjectMeta[] = [
@@ -226,6 +232,7 @@ export async function fetchUnifiedCurriculum(): Promise<{
     ...ena.subjects.map((s) => ({ ...s, institution: 'ENA' as Institution })),
     ...escalafon.subjects.map((s) => ({ ...s, institution: 'ESCALAFON' as Institution })),
     ...ansp.subjects.map((s) => ({ ...s, institution: 'ANSP' as Institution })),
+    ...ingles.subjects.map((s) => ({ ...s, institution: 'INGLES' as Institution })),
   ];
 
   const totalQuestions =
@@ -234,14 +241,16 @@ export async function fetchUnifiedCurriculum(): Promise<{
     (asd.totalQuestions || 2190) +
     (ena.totalQuestions || 1400) +
     (escalafon.totalQuestions || 3300) +
-    (ansp.totalQuestions || 250);
+    (ansp.totalQuestions || 250) +
+    (ingles.totalQuestions || 600);
   const totalSubtopics =
     (ues.totalSubtopics || 25) +
     (avanzo.totalSubtopics || 5) +
     (asd.totalSubtopics || 6) +
     (ena.totalSubtopics || 4) +
     (escalafon.totalSubtopics || 11) +
-    (ansp.totalSubtopics || 10);
+    (ansp.totalSubtopics || 10) +
+    (ingles.totalSubtopics || 6);
 
   return { allSubjects, totalQuestions, totalSubtopics };
 }
@@ -575,6 +584,35 @@ export async function fetchQuestionsDetailed(
         errorType = 'network';
         errorMessage = `Error de red (${res.status}) al consultar el banco ANSP.`;
       }
+    } else if (category === 'INGLES') {
+      const bank = ENGLISH_QUESTIONS_BANK.map((eq) => {
+        const subId = `ingles_${eq.level.toLowerCase()}`;
+        return {
+          id: eq.id,
+          number: eq.number,
+          institution: 'INGLES' as Institution,
+          subjectId: subId,
+          subject: getSubjectNameFromId(subId, 'INGLES'),
+          subtopicId: subId,
+          topic: eq.topic,
+          sectionTitle: `Nivel ${eq.level} • ${eq.topic}`,
+          statement: eq.statement,
+          options: eq.options,
+          correctAnswer: eq.correctAnswer,
+          explanation: eq.explanation,
+          level: eq.level === 'A1' || eq.level === 'A2' ? 'basico' : eq.level === 'B1' || eq.level === 'B2' ? 'intermedio' : 'admision',
+        } as Question;
+      });
+
+      if (targetId && targetId !== 'all') {
+        const lvl = targetId.toLowerCase().replace('ingles_', '').toUpperCase();
+        const filtered = bank.filter(
+          (q) => q.subtopicId === targetId || q.statement.includes(lvl) || q.subject.includes(lvl) || q.sectionTitle?.includes(lvl)
+        );
+        questions = filtered.length > 0 ? filtered : bank;
+      } else {
+        questions = bank;
+      }
     } else {
       // UES
       const res = await fetch(`/data/questions/${targetId}.json`);
@@ -662,7 +700,114 @@ export async function fetchSubtopicQuestions(
 /**
  * Retorna currículo de emergencia si falla la red.
  */
-function getFallbackCurriculum(category: 'UES' | 'ANSP' | 'ASD' | 'AVANZO' | 'ENA' | 'ESCALAFON'): CurriculumData {
+function getFallbackCurriculum(category: Institution): CurriculumData {
+  if (category === 'INGLES') {
+    return {
+      title: 'Marco Común Europeo de Referencia (MCER / CEFR) — Idiomas: Inglés',
+      description: 'Malla curricular internacional estructurada en 6 niveles de dominio lingüístico: A1 (Principiante), A2 (Elemental), B1 (Intermedio), B2 (Intermedio Alto), C1 (Avanzado Operativo) y C2 (Maestría / Proficiencia), con división contrastiva entre Inglés Americano (US) e Inglés Británico (UK).',
+      totalQuestions: 600,
+      totalSubtopics: 6,
+      subjects: [
+        {
+          id: 'ingles_a1',
+          number: 1,
+          name: 'Nivel A1 • Breakthrough / Beginner',
+          codeRange: 'A1.1 al A1.4',
+          description: 'Verb To Be, Present Simple & 3rd Person, Pronouns & Possessives, Articles A/AN/The, Prepositions of time and place, Daily Routines.',
+          totalSubtopics: 1,
+          totalQuestions: 100,
+          color: 'from-emerald-600 to-teal-700',
+          badgeBg: 'bg-emerald-100',
+          badgeText: 'text-emerald-800',
+          borderColor: 'border-emerald-200',
+          icon: 'Globe',
+          institution: 'INGLES',
+          subtopics: [{ id: 'ingles_a1', code: 'A1.0', title: 'Fundamentos de Comunicación A1', subjectId: 'ingles_a1', questionCount: 100 }],
+        },
+        {
+          id: 'ingles_a2',
+          number: 2,
+          name: 'Nivel A2 • Waystage / Elementary',
+          codeRange: 'A2.1 al A2.4',
+          description: 'Past Simple, Regular/Irregular verbs, -ed phonetics, Comparatives & Superlatives, Future (will vs going to), Countable/Uncountable, Modals.',
+          totalSubtopics: 1,
+          totalQuestions: 100,
+          color: 'from-cyan-600 to-blue-700',
+          badgeBg: 'bg-cyan-100',
+          badgeText: 'text-cyan-800',
+          borderColor: 'border-cyan-200',
+          icon: 'BookOpen',
+          institution: 'INGLES',
+          subtopics: [{ id: 'ingles_a2', code: 'A2.0', title: 'Estructuras Elementales y Narrativa A2', subjectId: 'ingles_a2', questionCount: 100 }],
+        },
+        {
+          id: 'ingles_b1',
+          number: 3,
+          name: 'Nivel B1 • Threshold / Intermediate',
+          codeRange: 'B1.1 al B1.4',
+          description: 'Present Perfect Simple vs Past Simple, Conditionals (0, 1, 2), Passive voice intro, Relative clauses, Used to / Would, Modals of deduction.',
+          totalSubtopics: 1,
+          totalQuestions: 100,
+          color: 'from-blue-600 to-indigo-700',
+          badgeBg: 'bg-blue-100',
+          badgeText: 'text-blue-800',
+          borderColor: 'border-blue-200',
+          icon: 'Award',
+          institution: 'INGLES',
+          subtopics: [{ id: 'ingles_b1', code: 'B1.0', title: 'Consolidación Intermedia B1', subjectId: 'ingles_b1', questionCount: 100 }],
+        },
+        {
+          id: 'ingles_b2',
+          number: 4,
+          name: 'Nivel B2 • Vantage / Upper-Intermediate',
+          codeRange: 'B2.1 al B2.4',
+          description: 'Past Perfect, Future Continuous/Perfect, Conditionals 3rd & Mixed, Reported Speech, Gerunds & Infinitives with meaning shift, Phrasal Verbs.',
+          totalSubtopics: 1,
+          totalQuestions: 100,
+          color: 'from-indigo-600 to-purple-700',
+          badgeBg: 'bg-indigo-100',
+          badgeText: 'text-indigo-800',
+          borderColor: 'border-indigo-200',
+          icon: 'Compass',
+          institution: 'INGLES',
+          subtopics: [{ id: 'ingles_b2', code: 'B2.0', title: 'Fluidez y Precisión Lingüística B2', subjectId: 'ingles_b2', questionCount: 100 }],
+        },
+        {
+          id: 'ingles_c1',
+          number: 5,
+          name: 'Nivel C1 • Effective Operational Proficiency',
+          codeRange: 'C1.1 al C1.4',
+          description: 'Inversion with negative adverbials, Cleft sentences, Advanced passive & causatives, Mandative subjunctive, Nuanced modals, Discourse markers.',
+          totalSubtopics: 1,
+          totalQuestions: 100,
+          color: 'from-purple-600 to-pink-700',
+          badgeBg: 'bg-purple-100',
+          badgeText: 'text-purple-800',
+          borderColor: 'border-purple-200',
+          icon: 'Zap',
+          institution: 'INGLES',
+          subtopics: [{ id: 'ingles_c1', code: 'C1.0', title: 'Competencia Operativa Efectiva C1', subjectId: 'ingles_c1', questionCount: 100 }],
+        },
+        {
+          id: 'ingles_c2',
+          number: 6,
+          name: 'Nivel C2 • Mastery / Proficiency',
+          codeRange: 'C2.1 al C2.4',
+          description: 'Literary & locative inversions, Absolute participle clauses, Subtle modal & epistemic framing, Irreversible binomials, Dense collocations.',
+          totalSubtopics: 1,
+          totalQuestions: 100,
+          color: 'from-rose-600 to-red-800',
+          badgeBg: 'bg-rose-100',
+          badgeText: 'text-rose-800',
+          borderColor: 'border-rose-200',
+          icon: 'Sparkles',
+          institution: 'INGLES',
+          subtopics: [{ id: 'ingles_c2', code: 'C2.0', title: 'Maestría y Proficiencia C2', subjectId: 'ingles_c2', questionCount: 100 }],
+        },
+      ],
+    };
+  }
+
   if (category === 'ESCALAFON') {
     return {
       title: 'Evaluación para el Ascenso al Nivel Uno del Escalafón Docente — MINED 2026',
@@ -1192,6 +1337,18 @@ function getFallbackCurriculum(category: 'UES' | 'ANSP' | 'ASD' | 'AVANZO' | 'EN
 }
 
 export function getSubjectNameFromId(id: string, inst: Institution): string {
+  if (inst === 'INGLES') {
+    const map: Record<string, string> = {
+      ingles_a1: 'Nivel A1 • Breakthrough / Beginner',
+      ingles_a2: 'Nivel A2 • Waystage / Elementary',
+      ingles_b1: 'Nivel B1 • Threshold / Intermediate',
+      ingles_b2: 'Nivel B2 • Vantage / Upper-Intermediate',
+      ingles_c1: 'Nivel C1 • Effective Operational Proficiency',
+      ingles_c2: 'Nivel C2 • Mastery / Proficiency',
+    };
+    return map[id] || 'Nivel de Inglés Internacional';
+  }
+
   if (inst === 'ESCALAFON') {
     const map: Record<string, string> = {
       escalafon_general: 'Formación General Pedagógica y Legislación',
@@ -1619,35 +1776,48 @@ export async function fetchDynamicQuizPool(params: {
         pool = results.flat();
       }
     }
-    // 7. ALL (Mixto: UES & ESCALAFON & AVANZO & ASD & ENA & ANSP)
+    // 6. IDIOMAS & INGLÉS INTERNACIONAL (A1-C2)
+    else if (category === 'INGLES') {
+      if (subtopicId !== 'ALL') {
+        pool = await fetchSubtopicQuestions('INGLES', subtopicId);
+      } else if (subjectId !== 'ALL') {
+        pool = await fetchSubtopicQuestions('INGLES', subjectId);
+      } else {
+        pool = await fetchSubtopicQuestions('INGLES', 'all');
+      }
+    }
+    // 7. ALL (Mixto: UES & ESCALAFON & AVANZO & ASD & ENA & ANSP & INGLES)
     else {
       if (subjectId !== 'ALL') {
+        const isIngles = subjectId.startsWith('ingles_');
         const isEscalafon = subjectId.startsWith('escalafon_');
         const isAnsp = subjectId.startsWith('ansp_');
         const isAsd = subjectId.startsWith('asd_') || subjectId.includes('matematica') || subjectId.includes('ciencias');
         const isAvanzo = subjectId.startsWith('avanzo_');
         const isEna = subjectId.startsWith('ena_');
-        const inst: Institution = isEscalafon ? 'ESCALAFON' : isAnsp ? 'ANSP' : isAsd ? 'ASD' : isAvanzo ? 'AVANZO' : isEna ? 'ENA' : 'UES';
+        const inst: Institution = isIngles ? 'INGLES' : isEscalafon ? 'ESCALAFON' : isAnsp ? 'ANSP' : isAsd ? 'ASD' : isAvanzo ? 'AVANZO' : isEna ? 'ENA' : 'UES';
         pool = await fetchSubtopicQuestions(
           inst,
           subtopicId !== 'ALL' ? subtopicId : subjectId
         );
       } else {
-        const uesCount = Math.max(1, Math.round(count * 0.25));
-        const escalafonCount = Math.max(1, Math.round(count * 0.20));
-        const avanzoCount = Math.max(1, Math.round(count * 0.20));
-        const asdCount = Math.max(1, Math.round(count * 0.15));
+        const uesCount = Math.max(1, Math.round(count * 0.22));
+        const escalafonCount = Math.max(1, Math.round(count * 0.18));
+        const avanzoCount = Math.max(1, Math.round(count * 0.18));
+        const asdCount = Math.max(1, Math.round(count * 0.14));
         const enaCount = Math.max(1, Math.round(count * 0.10));
-        const anspCount = Math.max(1, count - uesCount - escalafonCount - avanzoCount - asdCount - enaCount);
-        const [uesPool, escalafonPool, avanzoPool, asdPool, enaPool, anspPool] = await Promise.all([
+        const inglesCount = Math.max(1, Math.round(count * 0.10));
+        const anspCount = Math.max(1, count - uesCount - escalafonCount - avanzoCount - asdCount - enaCount - inglesCount);
+        const [uesPool, escalafonPool, avanzoPool, asdPool, enaPool, anspPool, inglesPool] = await Promise.all([
           fetchDynamicQuizPool({ category: 'UES', subjectId: 'ALL', subtopicId: 'ALL', count: uesCount }),
           fetchDynamicQuizPool({ category: 'ESCALAFON', subjectId: 'ALL', subtopicId: 'ALL', count: escalafonCount }),
           fetchDynamicQuizPool({ category: 'AVANZO', subjectId: 'ALL', subtopicId: 'ALL', count: avanzoCount }),
           fetchDynamicQuizPool({ category: 'ASD', subjectId: 'ALL', subtopicId: 'ALL', count: asdCount }),
           fetchDynamicQuizPool({ category: 'ENA', subjectId: 'ALL', subtopicId: 'ALL', count: enaCount }),
           fetchDynamicQuizPool({ category: 'ANSP', subjectId: 'ALL', subtopicId: 'ALL', count: anspCount }),
+          fetchDynamicQuizPool({ category: 'INGLES', subjectId: 'ALL', subtopicId: 'ALL', count: inglesCount }),
         ]);
-        pool = [...uesPool, ...escalafonPool, ...avanzoPool, ...asdPool, ...enaPool, ...anspPool];
+        pool = [...uesPool, ...escalafonPool, ...avanzoPool, ...asdPool, ...enaPool, ...anspPool, ...inglesPool];
       }
     }
 

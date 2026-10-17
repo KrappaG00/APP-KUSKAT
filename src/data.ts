@@ -1,4 +1,4 @@
-export type Institution = 'UES' | 'ANSP' | 'ASD' | 'AVANZO' | 'ENA' | 'ESCALAFON';
+export type Institution = 'UES' | 'ANSP' | 'ASD' | 'AVANZO' | 'ENA' | 'ESCALAFON' | 'INGLES';
 
 export interface Option {
   key: string;
@@ -62,6 +62,14 @@ export const SUBJECTS_BY_INSTITUTION: Record<Institution, string[]> = {
     'Educación Física',
     'Educación Especial',
     'Ciencias Comerciales',
+  ],
+  INGLES: [
+    'A1 - Breakthrough / Beginner',
+    'A2 - Waystage / Elementary',
+    'B1 - Threshold / Intermediate',
+    'B2 - Vantage / Upper-Intermediate',
+    'C1 - Effective Operational Proficiency',
+    'C2 - Mastery / Proficiency',
   ],
 };
 

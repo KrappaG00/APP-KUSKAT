@@ -37,6 +37,7 @@ import katex from 'katex';
 import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel } from '../types';
 import { fetchUnifiedCurriculum, fetchSubtopicQuestions } from '../services/bancoService';
 import { QUESTIONS_DATA } from '../data';
+import { AdBanner } from './AdBanner';
 
 // Componente KaTeX Math integrado
 interface KaTeXMathProps {
@@ -469,7 +470,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       }[];
     }[] = [];
 
-    // 1. Agrupar por Institución (UES / AVANZO / ASD / ENA / ESCALAFON / ANSP)
+    // 1. Agrupar por Institución (UES / AVANZO / ASD / ENA / ESCALAFON / ANSP / INGLES)
     const instBuckets: Record<Institution, Question[]> = {
       UES: [],
       AVANZO: [],
@@ -477,6 +478,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       ENA: [],
       ESCALAFON: [],
       ANSP: [],
+      INGLES: [],
     };
 
     displayedQuestions.forEach((q) => {
@@ -486,7 +488,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       }
     });
 
-    (['UES', 'AVANZO', 'ASD', 'ENA', 'ESCALAFON', 'ANSP'] as Institution[]).forEach((inst) => {
+    (['UES', 'AVANZO', 'ASD', 'ENA', 'ESCALAFON', 'ANSP', 'INGLES'] as Institution[]).forEach((inst) => {
       const qList = instBuckets[inst];
       if (qList.length === 0) return;
 
@@ -684,7 +686,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
             Menú de Preguntas por Sección, Tema, Materia y Tipo
           </h2>
 
-          <p className="text-xs sm:text-sm text-slate-300 max-w-3xl leading-relaxed">
+          <p className="text-xs sm:text-sm text-slate-300 w-full text-justify leading-relaxed">
             Explora las <strong className="text-white">17,640 preguntas oficiales</strong> organizadas
             jerárquicamente: selecciona entre <strong className="text-white">UES</strong> (Admisión Universitaria),{' '}
             <strong className="text-white">ESCALAFÓN DOCENTE</strong> (Ascenso al Nivel Uno 2026 MINED),{' '}
@@ -732,6 +734,9 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           </div>
         </div>
       </div>
+
+      {/* Anuncio 1 / 5 (Categorías) */}
+      <AdBanner variant="light" positionLabel="Categorías • 1/5 Superior" slotId="4241045160_c1" />
 
       {/* Botón flotante para abrir el menú en dispositivos móviles */}
       <div className="lg:hidden flex items-center justify-between bg-white p-3.5 rounded-2xl border border-slate-200 shadow-xs">
@@ -964,6 +969,27 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                   250
                 </span>
               </button>
+
+              {/* IDIOMAS / INGLÉS */}
+              <button
+                onClick={() => {
+                  setSelectedInst('INGLES');
+                  setSelectedSubjectId('ALL');
+                  setSelectedSubtopicId('ALL');
+                  setSelectedSectionTitle('ALL');
+                }}
+                className={`py-1.5 sm:py-2 px-1.5 sm:px-2.5 rounded-xl transition-all text-center cursor-pointer min-w-0 ${
+                  selectedInst === 'INGLES'
+                    ? 'bg-emerald-700 text-white shadow-xs'
+                    : 'bg-white/70 text-slate-700 hover:bg-white hover:text-slate-900 border border-slate-200/50'
+                }`}
+                title="Marco Común Europeo de Referencia MCER / CEFR - Inglés (600 reactivos)"
+              >
+                <span className="truncate block font-caslon font-bold text-[11px] sm:text-xs">Inglés</span>
+                <span className={`block text-[8.5px] sm:text-[9px] font-mono ${selectedInst === 'INGLES' ? 'text-emerald-200' : 'text-slate-400'}`}>
+                  600
+                </span>
+              </button>
             </div>
           </div>
 
@@ -1189,6 +1215,11 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               <span>Ver {displayedQuestions.length} preguntas seleccionadas</span>
             </button>
           </div>
+
+          {/* Anuncio 2 / 5 (Categorías) */}
+          <div className="pt-2 border-t border-slate-100">
+            <AdBanner variant="light" positionLabel="Categorías • 2/5 Filtros" slotId="4241045160_c2" />
+          </div>
         </aside>
 
         {/* ================================================================== */}
@@ -1347,6 +1378,9 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               </div>
             </div>
           </div>
+
+          {/* Anuncio 3 / 5 (Categorías) */}
+          <AdBanner variant="light" positionLabel="Categorías • 3/5 Explorador" slotId="4241045160_c3" />
 
           {/* ================================================================ */}
           {/* LISTADO DE PREGUNTAS AGRUPADAS POR SECCIÓN, TEMA, MATERIA Y TIPO */}
@@ -1717,8 +1751,14 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               ))}
             </div>
           )}
+
+          {/* Anuncio 4 / 5 (Categorías) */}
+          <AdBanner variant="light" positionLabel="Categorías • 4/5 Reactivos" slotId="4241045160_c4" />
         </section>
       </div>
+
+      {/* Anuncio 5 / 5 (Categorías) */}
+      <AdBanner variant="light" positionLabel="Categorías • 5/5 Inferior" slotId="4241045160_c5" />
     </div>
   );
 };

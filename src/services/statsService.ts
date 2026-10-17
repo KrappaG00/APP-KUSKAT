@@ -15,7 +15,8 @@ export const INSTITUTIONS_LIST: { id: Institution; name: string }[] = [
   { id: 'AVANZO', name: 'Prueba AVANZO' },
   { id: 'ASD', name: 'Academia de Seguridad Pública (ASD)' },
   { id: 'ENA', name: 'Escuela Nacional de Agricultura (ENA)' },
-  { id: 'ANSP', name: 'Academia Nacional de Seguridad Pública (ANSP)' }
+  { id: 'ANSP', name: 'Academia Nacional de Seguridad Pública (ANSP)' },
+  { id: 'INGLES', name: 'Idiomas & Inglés Internacional (A1-C2)' }
 ];
 
 /**
@@ -206,7 +207,19 @@ function getSeededMockRecords(referenceYear = new Date().getFullYear()): ExamRec
     { name: 'Agente Gilberto Ramos', institution: 'ANSP', correct: 116, incorrect: 27 },
     { name: 'Agente Claudia Umaña', institution: 'ANSP', correct: 105, incorrect: 29 },
     { name: 'Agente Walter Renderos', institution: 'ANSP', correct: 94, incorrect: 31 },
-    { name: 'Agente Nancy Meza', institution: 'ANSP', correct: 84, incorrect: 33 }
+    { name: 'Agente Nancy Meza', institution: 'ANSP', correct: 84, incorrect: 33 },
+
+    // INGLES
+    { name: 'Licda. Katherine Campbell', institution: 'INGLES', correct: 195, incorrect: 5 },
+    { name: 'Prof. William Harrison', institution: 'INGLES', correct: 184, incorrect: 9 },
+    { name: 'Brenda Gallagher', institution: 'INGLES', correct: 172, incorrect: 14 },
+    { name: 'Jonathan Vance', institution: 'INGLES', correct: 160, incorrect: 17 },
+    { name: 'Stephanie Miller', institution: 'INGLES', correct: 148, incorrect: 20 },
+    { name: 'Alexander Wright', institution: 'INGLES', correct: 137, incorrect: 22 },
+    { name: 'Valeria Hawthorne', institution: 'INGLES', correct: 125, incorrect: 24 },
+    { name: 'Lucas Thornton', institution: 'INGLES', correct: 114, incorrect: 28 },
+    { name: 'Elena Sterling', institution: 'INGLES', correct: 102, incorrect: 29 },
+    { name: 'David Montgomery', institution: 'INGLES', correct: 92, incorrect: 31 }
   ];
 
   return mockUsers.map((u, i) => {

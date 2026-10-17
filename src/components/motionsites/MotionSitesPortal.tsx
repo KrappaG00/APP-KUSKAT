@@ -9,6 +9,7 @@ import { AboutUs3D } from './AboutUs3D';
 import { CallToActionFinal3D } from './CallToActionFinal3D';
 import { CustomCursor3D } from './CustomCursor3D';
 import { FloatingParticlesBackground } from './FloatingParticlesBackground';
+import { AdBanner } from '../AdBanner';
 import { Institution } from '../../data';
 import {
   Layers,
@@ -90,7 +91,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
               En Desarrollo
             </span>
             <span className="font-medium text-slate-200">
-              Trabajando en material de medicina.
+              Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.
             </span>
           </div>
 
@@ -174,6 +175,11 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
         </div>
       </header>
 
+      {/* Anuncio 1 / 5 (Portal 3D) */}
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-3">
+        <AdBanner variant="light" positionLabel="Portal 3D • 1/5 Superior" slotId="4241045160_p1" />
+      </div>
+
       {/* ==================================================================== */}
       {/* 3. HERO SECTION CON MAPA 3D DE EL SALVADOR */}
       {/* ==================================================================== */}
@@ -196,15 +202,30 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
         }}
       />
 
+      {/* Anuncio 2 / 5 (Portal 3D) */}
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2">
+        <AdBanner variant="light" positionLabel="Portal 3D • 2/5 Cursos" slotId="4241045160_p2" />
+      </div>
+
       {/* ==================================================================== */}
       {/* 5. CURSOS DESTACADOS */}
       {/* ==================================================================== */}
       <Courses3DSection onEnroll={(inst) => triggerStudyTransition(inst)} />
 
+      {/* Anuncio 3 / 5 (Portal 3D) */}
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2">
+        <AdBanner variant="light" positionLabel="Portal 3D • 3/5 Estadísticas" slotId="4241045160_p3" />
+      </div>
+
       {/* ==================================================================== */}
       {/* 6. LOGROS Y ESTADÍSTICAS */}
       {/* ==================================================================== */}
       <StatsAndCharts3D />
+
+      {/* Anuncio 4 / 5 (Portal 3D) */}
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2">
+        <AdBanner variant="light" positionLabel="Portal 3D • 4/5 Acerca De" slotId="4241045160_p4" />
+      </div>
 
       {/* ==================================================================== */}
       {/* 7. SOBRE NOSOTROS */}
@@ -215,6 +236,11 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
       {/* 8. CALL TO ACTION FINAL */}
       {/* ==================================================================== */}
       <CallToActionFinal3D onStartJourney={() => triggerStudyTransition()} />
+
+      {/* Anuncio 5 / 5 (Portal 3D) */}
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3">
+        <AdBanner variant="light" positionLabel="Portal 3D • 5/5 Inferior" slotId="4241045160_p5" />
+      </div>
 
       {/* ==================================================================== */}
       {/* 9. PIE DE PÁGINA (MISMA PALETA Y ESTRUCTURA QUE LAS OTRAS PÁGINAS) */}
@@ -239,7 +265,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
               </p>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-50 text-blue-800 font-semibold border border-blue-200 text-[11px]">
                 <Rocket className="w-3.5 h-3.5 text-blue-600 shrink-0" />
-                <span>Trabajando en material de medicina.</span>
+                <span>Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.</span>
               </div>
             </div>
 
