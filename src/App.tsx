@@ -1,5 +1,4 @@
 import React, { useState, useMemo, useEffect } from 'react';
-import katex from 'katex';
 import {
   BookOpen,
   Award,
@@ -42,8 +41,7 @@ import {
   SUBJECTS_BY_INSTITUTION,
   generateLatexDocument,
 } from './data';
-import { AccountModal } from './components/AccountModal';
-import { LegalModal, LegalTab } from './components/LegalModal';
+import type { LegalTab } from './components/LegalModal';
 import { CookieBanner } from './components/CookieBanner';
 import { AdBanner } from './components/AdBanner';
 import { getCurrentUser } from './services/authService';
@@ -63,109 +61,17 @@ const MotionSitesPortal = React.lazy(() =>
   import('./components/motionsites/MotionSitesPortal').then((m) => ({ default: m.MotionSitesPortal }))
 );
 const LanguagesView = React.lazy(() => import('./components/LanguagesView'));
+const AccountModal = React.lazy(() =>
+  import('./components/AccountModal').then((m) => ({ default: m.AccountModal }))
+);
+const LegalModal = React.lazy(() =>
+  import('./components/LegalModal').then((m) => ({ default: m.LegalModal }))
+);
 
-// ============================================================================
-// COMPONENTE PARA RENDERIZAR MATEMÁTICAS CON KATEX ($...$ y $$...$$)
-// ============================================================================
-interface KaTeXMathProps {
-  text: string;
-  className?: string;
-}
+import { KaTeXMath, escapeHtml } from './utils/mathRenderer';
+export { KaTeXMath };
 
-export const KaTeXMath: React.FC<KaTeXMathProps> = ({ text, className = '' }) => {
-  const renderedHtml = useMemo(() => {
-    if (!text) return '';
 
-    // Normaliza símbolos de grados y potencias al lenguaje humano natural
-    let processed = text
-      .replace(/(\d+)\s*\^\\?\{?circ\}?/g, '$1°')
-      .replace(/\\circ\b/g, '°')
-      .replace(/\\u0007pprox/g, '\\approx')
-      .replace(/\\u000bec/g, '\\vec')
-      .replace(/\bcm\^2\b/g, 'cm²')
-      .replace(/\bm\^2\b/g, 'm²')
-      .replace(/\bkm\^2\b/g, 'km²');
-
-    // Auto-detecta si el texto completo es una fórmula matemática sin delimitadores
-    const hasDelimiters = processed.includes('$') || processed.includes('\\(') || processed.includes('\\[');
-    if (!hasDelimiters && /^\s*[-+]?\\(?:frac|sqrt|pi|emptyset|mathbb|theta|infty|pm|times|approx|alpha|beta|lambda|Delta|leq|geq|neq)/.test(processed)) {
-      try {
-        return katex.renderToString(processed.trim(), {
-          displayMode: false,
-          throwOnError: false,
-          output: 'htmlAndMathml',
-        });
-      } catch {
-        // En caso de error, continúa con el parseo por fragmentos
-      }
-    }
-
-    // Regex para fragmentos matemáticos: $$...$$, $...$, \[...\], \(...\)
-    const regex = /(\$\$[\s\S]*?\$\$)|(\$[^\$\n]+?\$)|(\\\[[\s\S]*?\\\])|(\\\([\s\S]*?\\\\?\))/g;
-    const parts: string[] = [];
-    let lastIndex = 0;
-    let match: RegExpExecArray | null;
-
-    while ((match = regex.exec(processed)) !== null) {
-      if (match.index > lastIndex) {
-        parts.push(escapeHtml(processed.slice(lastIndex, match.index)));
-      }
-
-      const rawMatch = match[0];
-      let mathCode = '';
-      let isBlock = false;
-
-      if (rawMatch.startsWith('$$') && rawMatch.endsWith('$$')) {
-        mathCode = rawMatch.slice(2, -2).trim();
-        isBlock = true;
-      } else if (rawMatch.startsWith('$') && rawMatch.endsWith('$')) {
-        mathCode = rawMatch.slice(1, -1).trim();
-        isBlock = false;
-      } else if (rawMatch.startsWith('\\[') && rawMatch.endsWith('\\]')) {
-        mathCode = rawMatch.slice(2, -2).trim();
-        isBlock = true;
-      } else if (rawMatch.startsWith('\\(')) {
-        mathCode = rawMatch.slice(2).replace(/\\*\)$/, '').trim();
-        isBlock = false;
-      }
-
-      try {
-        const html = katex.renderToString(mathCode, {
-          displayMode: isBlock,
-          throwOnError: false,
-          output: 'htmlAndMathml',
-        });
-        parts.push(html);
-      } catch {
-        parts.push(escapeHtml(rawMatch));
-      }
-
-      lastIndex = match.index + rawMatch.length;
-    }
-
-    if (lastIndex < processed.length) {
-      parts.push(escapeHtml(processed.slice(lastIndex)));
-    }
-
-    return parts.join('');
-  }, [text]);
-
-  return (
-    <span
-      className={`inline-block max-w-full overflow-x-auto align-middle scrollbar-none touch-scroll ${className}`}
-      dangerouslySetInnerHTML={{ __html: renderedHtml }}
-    />
-  );
-};
-
-function escapeHtml(str: string): string {
-  return str
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#039;');
-}
 
 // ============================================================================
 export default function App() {
@@ -1298,21 +1204,29 @@ export default function App() {
       {/* ==================================================================== */}
       {/* 8. MODAL DE CUENTA (INICIAR SESIÓN, CREAR CUENTA, EXÁMENES REALIZADOS) */}
       {/* ==================================================================== */}
-      <AccountModal
-        isOpen={isAccountModalOpen}
-        onClose={() => setIsAccountModalOpen(false)}
-        onOpenLegalModal={handleOpenLegalModal}
-        onUserChanged={setCurrentUser}
-      />
+      {isAccountModalOpen && (
+        <React.Suspense fallback={null}>
+          <AccountModal
+            isOpen={isAccountModalOpen}
+            onClose={() => setIsAccountModalOpen(false)}
+            onOpenLegalModal={handleOpenLegalModal}
+            onUserChanged={setCurrentUser}
+          />
+        </React.Suspense>
+      )}
 
       {/* ==================================================================== */}
       {/* 9. MODAL DE MARCO LEGAL Y POLÍTICAS DE PRIVACIDAD */}
       {/* ==================================================================== */}
-      <LegalModal
-        isOpen={isLegalModalOpen}
-        onClose={() => setIsLegalModalOpen(false)}
-        initialTab={legalModalTab}
-      />
+      {isLegalModalOpen && (
+        <React.Suspense fallback={null}>
+          <LegalModal
+            isOpen={isLegalModalOpen}
+            onClose={() => setIsLegalModalOpen(false)}
+            initialTab={legalModalTab}
+          />
+        </React.Suspense>
+      )}
 
       {/* ==================================================================== */}
       {/* 10. BANNER DE CONSENTIMIENTO DE COOKIES */}

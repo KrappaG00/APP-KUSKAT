@@ -31,7 +31,6 @@ import {
   Globe,
   Scale,
 } from 'lucide-react';
-import katex from 'katex';
 import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel, EvaluationMode } from '../types';
 import {
   fetchUnifiedCurriculum,
@@ -39,74 +38,12 @@ import {
   fetchSubtopicQuestions,
   getSimilarQuestion,
 } from '../services/bancoService';
-import { MathText } from './CategoryHierarchyViewer';
+import { MathText, renderMathToString, escapeHtml } from '../utils/mathRenderer';
 import { convertToTrueFalse, TrueFalseItem } from '../utils/trueFalseHelper';
 import { LeaderboardSection } from './LeaderboardSection';
 import { AdBanner } from './AdBanner';
 import { saveExamResult } from '../services/statsService';
 import { getCurrentUser } from '../services/authService';
-
-function escapeHtml(str: string): string {
-  return str
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#039;');
-}
-
-function renderMathToString(text: string): string {
-  if (!text) return '';
-  let processed = text
-    .replace(/(\d+)\s*\^\\?\{?circ\}?/g, '$1°')
-    .replace(/\\circ\b/g, '°')
-    .replace(/\\u0007pprox/g, '\\approx')
-    .replace(/\\u000bec/g, '\\vec')
-    .replace(/\bcm\^2\b/g, 'cm²')
-    .replace(/\bm\^2\b/g, 'm²')
-    .replace(/\bkm\^2\b/g, 'km²');
-
-  const regex = /(\$\$[\s\S]*?\$\$)|(\$[^\$\n]+?\$)|(\\\[[\s\S]*?\\\])|(\\\([\s\S]*?\\\\?\))/g;
-  const parts: string[] = [];
-  let lastIndex = 0;
-  let match: RegExpExecArray | null;
-
-  while ((match = regex.exec(processed)) !== null) {
-    if (match.index > lastIndex) {
-      parts.push(escapeHtml(processed.slice(lastIndex, match.index)));
-    }
-    const rawMatch = match[0];
-    let mathCode = '';
-    let isBlock = false;
-    if (rawMatch.startsWith('$$') && rawMatch.endsWith('$$')) {
-      mathCode = rawMatch.slice(2, -2).trim();
-      isBlock = true;
-    } else if (rawMatch.startsWith('$') && rawMatch.endsWith('$')) {
-      mathCode = rawMatch.slice(1, -1).trim();
-    } else if (rawMatch.startsWith('\\[') && rawMatch.endsWith('\\]')) {
-      mathCode = rawMatch.slice(2, -2).trim();
-      isBlock = true;
-    } else if (rawMatch.startsWith('\\(') && rawMatch.endsWith('\\)')) {
-      mathCode = rawMatch.slice(2, -2).trim();
-    }
-    try {
-      parts.push(
-        katex.renderToString(mathCode, {
-          displayMode: isBlock,
-          throwOnError: false,
-          output: 'htmlAndMathml',
-        })
-      );
-    } catch {
-      parts.push(escapeHtml(rawMatch));
-    }
-    lastIndex = match.index + rawMatch.length;
-  }
-  if (lastIndex < processed.length) {
-    parts.push(escapeHtml(processed.slice(lastIndex)));
-  }
-  return parts.join('');
-}
 
 interface PracticeModeProps {
   initialQuestions?: Question[] | null;

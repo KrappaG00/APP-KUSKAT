@@ -9,13 +9,6 @@ import {
   SubtopicMeta,
 } from '../types';
 import { QUESTIONS_DATA } from '../data';
-import { ENGLISH_QUESTIONS_BANK } from '../data/languages/englishData';
-import { NAHUAT_QUESTIONS_BANK } from '../data/languages/nahuatData';
-import { LENCA_QUESTIONS_BANK } from '../data/languages/lencaData';
-import { KAKAWIRA_QUESTIONS_BANK } from '../data/languages/kakawiraData';
-import { GERMAN_QUESTIONS_BANK } from '../data/languages/germanData';
-import { ARABIC_QUESTIONS_BANK } from '../data/languages/arabicData';
-import { MANDARIN_QUESTIONS_BANK } from '../data/languages/mandarinData';
 
 // Caché en memoria para carga instantánea
 const questionsCache = new Map<string, Question[]>();
@@ -1281,15 +1274,34 @@ export async function fetchQuestionsDetailed(
         errorMessage = `Error de red (${res.status}) al consultar el banco ANSP.`;
       }
     } else if (category === 'INGLES') {
-      const getLangBank = (target?: string) => {
+      const loadLangBank = async (target?: string) => {
         const t = (target || '').toLowerCase();
-        if (t.startsWith('nahuat_')) return { lang: 'nahuat', prefix: 'nahuat_', bank: NAHUAT_QUESTIONS_BANK, name: 'Náhuat Pipil' };
-        if (t.startsWith('lenca_')) return { lang: 'lenca', prefix: 'lenca_', bank: LENCA_QUESTIONS_BANK, name: 'Lenca Potón' };
-        if (t.startsWith('kakawira_')) return { lang: 'kakawira', prefix: 'kakawira_', bank: KAKAWIRA_QUESTIONS_BANK, name: 'Kakawira' };
-        if (t.startsWith('german_') || t.startsWith('aleman_')) return { lang: 'german', prefix: 'german_', bank: GERMAN_QUESTIONS_BANK, name: 'Alemán' };
-        if (t.startsWith('arabic_') || t.startsWith('arabe_')) return { lang: 'arabic', prefix: 'arabic_', bank: ARABIC_QUESTIONS_BANK, name: 'Árabe' };
-        if (t.startsWith('mandarin_') || t.startsWith('chino_')) return { lang: 'mandarin', prefix: 'mandarin_', bank: MANDARIN_QUESTIONS_BANK, name: 'Mandarín' };
-        return { lang: 'english', prefix: 'ingles_', bank: ENGLISH_QUESTIONS_BANK, name: 'Inglés' };
+        if (t.startsWith('nahuat_')) {
+          const mod = await import('../data/languages/nahuatData');
+          return { lang: 'nahuat', prefix: 'nahuat_', bank: mod.NAHUAT_QUESTIONS_BANK, name: 'Náhuat Pipil' };
+        }
+        if (t.startsWith('lenca_')) {
+          const mod = await import('../data/languages/lencaData');
+          return { lang: 'lenca', prefix: 'lenca_', bank: mod.LENCA_QUESTIONS_BANK, name: 'Lenca Potón' };
+        }
+        if (t.startsWith('kakawira_')) {
+          const mod = await import('../data/languages/kakawiraData');
+          return { lang: 'kakawira', prefix: 'kakawira_', bank: mod.KAKAWIRA_QUESTIONS_BANK, name: 'Kakawira' };
+        }
+        if (t.startsWith('german_') || t.startsWith('aleman_')) {
+          const mod = await import('../data/languages/germanData');
+          return { lang: 'german', prefix: 'german_', bank: mod.GERMAN_QUESTIONS_BANK, name: 'Alemán' };
+        }
+        if (t.startsWith('arabic_') || t.startsWith('arabe_')) {
+          const mod = await import('../data/languages/arabicData');
+          return { lang: 'arabic', prefix: 'arabic_', bank: mod.ARABIC_QUESTIONS_BANK, name: 'Árabe' };
+        }
+        if (t.startsWith('mandarin_') || t.startsWith('chino_')) {
+          const mod = await import('../data/languages/mandarinData');
+          return { lang: 'mandarin', prefix: 'mandarin_', bank: mod.MANDARIN_QUESTIONS_BANK, name: 'Mandarín' };
+        }
+        const mod = await import('../data/languages/englishData');
+        return { lang: 'english', prefix: 'ingles_', bank: mod.ENGLISH_QUESTIONS_BANK, name: 'Inglés' };
       };
 
       const mapQuestion = (q: any, prefix: string, langName: string) => {
@@ -1312,17 +1324,27 @@ export async function fetchQuestionsDetailed(
       };
 
       if (!targetId || targetId === 'all') {
+        const [engMod, nahMod, lenMod, kakMod, gerMod, araMod, manMod] = await Promise.all([
+          import('../data/languages/englishData'),
+          import('../data/languages/nahuatData'),
+          import('../data/languages/lencaData'),
+          import('../data/languages/kakawiraData'),
+          import('../data/languages/germanData'),
+          import('../data/languages/arabicData'),
+          import('../data/languages/mandarinData'),
+        ]);
+
         questions = [
-          ...ENGLISH_QUESTIONS_BANK.map((q) => mapQuestion(q, 'ingles_', 'Inglés')),
-          ...NAHUAT_QUESTIONS_BANK.map((q) => mapQuestion(q, 'nahuat_', 'Náhuat Pipil')),
-          ...LENCA_QUESTIONS_BANK.map((q) => mapQuestion(q, 'lenca_', 'Lenca Potón')),
-          ...KAKAWIRA_QUESTIONS_BANK.map((q) => mapQuestion(q, 'kakawira_', 'Kakawira')),
-          ...GERMAN_QUESTIONS_BANK.map((q) => mapQuestion(q, 'german_', 'Alemán')),
-          ...ARABIC_QUESTIONS_BANK.map((q) => mapQuestion(q, 'arabic_', 'Árabe')),
-          ...MANDARIN_QUESTIONS_BANK.map((q) => mapQuestion(q, 'mandarin_', 'Mandarín')),
+          ...engMod.ENGLISH_QUESTIONS_BANK.map((q) => mapQuestion(q, 'ingles_', 'Inglés')),
+          ...nahMod.NAHUAT_QUESTIONS_BANK.map((q) => mapQuestion(q, 'nahuat_', 'Náhuat Pipil')),
+          ...lenMod.LENCA_QUESTIONS_BANK.map((q) => mapQuestion(q, 'lenca_', 'Lenca Potón')),
+          ...kakMod.KAKAWIRA_QUESTIONS_BANK.map((q) => mapQuestion(q, 'kakawira_', 'Kakawira')),
+          ...gerMod.GERMAN_QUESTIONS_BANK.map((q) => mapQuestion(q, 'german_', 'Alemán')),
+          ...araMod.ARABIC_QUESTIONS_BANK.map((q) => mapQuestion(q, 'arabic_', 'Árabe')),
+          ...manMod.MANDARIN_QUESTIONS_BANK.map((q) => mapQuestion(q, 'mandarin_', 'Mandarín')),
         ];
       } else {
-        const { prefix, bank, name } = getLangBank(targetId);
+        const { prefix, bank, name } = await loadLangBank(targetId);
         const mapped = bank.map((q) => mapQuestion(q, prefix, name));
         const lvl = targetId.toLowerCase().replace(prefix, '').toUpperCase();
         const filtered = mapped.filter(

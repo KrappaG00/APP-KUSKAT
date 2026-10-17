@@ -33,7 +33,6 @@ import {
   Play,
   Sprout,
 } from 'lucide-react';
-import katex from 'katex';
 import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel, EvaluationMode } from '../types';
 import { fetchUnifiedCurriculum, fetchSubtopicQuestions } from '../services/bancoService';
 import { QUESTIONS_DATA } from '../data';
@@ -41,114 +40,8 @@ import { AdBanner } from './AdBanner';
 import { getCategoryTheory } from '../data/categoryTheoryData';
 import { CategoryTheoryView } from './CategoryTheoryView';
 import { convertToTrueFalse } from '../utils/trueFalseHelper';
-
-// Componente KaTeX Math integrado
-interface KaTeXMathProps {
-  text: string;
-  className?: string;
-}
-
-export const MathText: React.FC<KaTeXMathProps> = ({ text, className = '' }) => {
-  const renderedHtml = useMemo(() => {
-    if (!text) return '';
-
-    // Humanizar símbolos de grados, unidades y potencias
-    let processed = text
-      .replace(/(\d+)\s*\^\\?\{?circ\}?/g, '$1°')
-      .replace(/\\circ\b/g, '°')
-      .replace(/\\u0007pprox/g, '\\approx')
-      .replace(/\\u000bec/g, '\\vec')
-      .replace(/\bcm\^2\b/g, 'cm²')
-      .replace(/\bm\^2\b/g, 'm²')
-      .replace(/\bkm\^2\b/g, 'km²');
-
-    // Auto-detecta si el texto completo es una fórmula matemática sin delimitadores
-    const hasDelimiters =
-      processed.includes('$') || processed.includes('\\(') || processed.includes('\\[');
-    if (
-      !hasDelimiters &&
-      /^\s*[-+]?\\(?:frac|sqrt|pi|emptyset|mathbb|theta|infty|pm|times|approx|alpha|beta|lambda|Delta|leq|geq|neq)/.test(
-        processed
-      )
-    ) {
-      try {
-        return katex.renderToString(processed.trim(), {
-          displayMode: false,
-          throwOnError: false,
-          trust: false,
-          output: 'htmlAndMathml',
-        });
-      } catch {
-        // Fallback
-      }
-    }
-
-    const regex = /(\$\$[\s\S]*?\$\$)|(\$[^\$\n]+?\$)|(\\\[[\s\S]*?\\\])|(\\\([\s\S]*?\\\\?\))/g;
-    const parts: string[] = [];
-    let lastIndex = 0;
-    let match: RegExpExecArray | null;
-
-    while ((match = regex.exec(processed)) !== null) {
-      if (match.index > lastIndex) {
-        parts.push(escapeHtml(processed.slice(lastIndex, match.index)));
-      }
-
-      const rawMatch = match[0];
-      let mathCode = '';
-      let isBlock = false;
-
-      if (rawMatch.startsWith('$$') && rawMatch.endsWith('$$')) {
-        mathCode = rawMatch.slice(2, -2).trim();
-        isBlock = true;
-      } else if (rawMatch.startsWith('$') && rawMatch.endsWith('$')) {
-        mathCode = rawMatch.slice(1, -1).trim();
-        isBlock = false;
-      } else if (rawMatch.startsWith('\\[') && rawMatch.endsWith('\\]')) {
-        mathCode = rawMatch.slice(2, -2).trim();
-        isBlock = true;
-      } else if (rawMatch.startsWith('\\(')) {
-        mathCode = rawMatch.slice(2).replace(/\\*\)$/, '').trim();
-        isBlock = false;
-      }
-
-      try {
-        const html = katex.renderToString(mathCode, {
-          displayMode: isBlock,
-          throwOnError: false,
-          trust: false,
-          output: 'htmlAndMathml',
-        });
-        parts.push(html);
-      } catch {
-        parts.push(escapeHtml(rawMatch));
-      }
-
-      lastIndex = match.index + rawMatch.length;
-    }
-
-    if (lastIndex < processed.length) {
-      parts.push(escapeHtml(processed.slice(lastIndex)));
-    }
-
-    return parts.join('');
-  }, [text]);
-
-  return (
-    <span
-      className={`inline-block max-w-full overflow-x-auto align-middle scrollbar-none touch-scroll ${className}`}
-      dangerouslySetInnerHTML={{ __html: renderedHtml }}
-    />
-  );
-};
-
-function escapeHtml(str: string): string {
-  return str
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#039;');
-}
+import { MathText, escapeHtml } from '../utils/mathRenderer';
+export { MathText };
 
 interface CategoryHierarchyViewerProps {
   onStartPracticeWithQuestions?: (questions: Question[]) => void;
