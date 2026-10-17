@@ -161,7 +161,7 @@ export const DepartmentSidePanel: React.FC<DepartmentSidePanelProps> = ({
         </div>
 
         {/* Footer del Panel con el Botón "Ver más" en la paleta azul institucional */}
-        <div className="sticky bottom-0 bg-white p-4 sm:p-6 border-t border-slate-200">
+        <div className="sticky bottom-0 bg-white p-4 sm:p-6 border-t border-slate-200 pb-[calc(1rem+env(safe-area-inset-bottom,0px))]">
           <button
             onClick={() => onExploreContent(department)}
             className="w-full relative py-3 sm:py-3.5 px-4 sm:px-6 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-caslon text-xs sm:text-sm font-bold tracking-micro uppercase transition-all duration-300 animate-ripple flex items-center justify-center gap-2 sm:gap-3 shadow-md hover:shadow-lg cursor-pointer min-h-[48px]"

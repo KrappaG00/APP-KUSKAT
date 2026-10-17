@@ -29,82 +29,21 @@ import {
   Printer,
   ShieldCheck,
   Globe,
+  Scale,
 } from 'lucide-react';
-import katex from 'katex';
-import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel } from '../types';
+import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel, EvaluationMode } from '../types';
 import {
   fetchUnifiedCurriculum,
   fetchDynamicQuizPool,
   fetchSubtopicQuestions,
   getSimilarQuestion,
 } from '../services/bancoService';
-import { MathText } from './CategoryHierarchyViewer';
+import { MathText, renderMathToString, escapeHtml } from '../utils/mathRenderer';
+import { convertToTrueFalse, TrueFalseItem } from '../utils/trueFalseHelper';
 import { LeaderboardSection } from './LeaderboardSection';
 import { AdBanner } from './AdBanner';
 import { saveExamResult } from '../services/statsService';
 import { getCurrentUser } from '../services/authService';
-
-function escapeHtml(str: string): string {
-  return str
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#039;');
-}
-
-function renderMathToString(text: string): string {
-  if (!text) return '';
-  let processed = text
-    .replace(/(\d+)\s*\^\\?\{?circ\}?/g, '$1°')
-    .replace(/\\circ\b/g, '°')
-    .replace(/\\u0007pprox/g, '\\approx')
-    .replace(/\\u000bec/g, '\\vec')
-    .replace(/\bcm\^2\b/g, 'cm²')
-    .replace(/\bm\^2\b/g, 'm²')
-    .replace(/\bkm\^2\b/g, 'km²');
-
-  const regex = /(\$\$[\s\S]*?\$\$)|(\$[^\$\n]+?\$)|(\\\[[\s\S]*?\\\])|(\\\([\s\S]*?\\\\?\))/g;
-  const parts: string[] = [];
-  let lastIndex = 0;
-  let match: RegExpExecArray | null;
-
-  while ((match = regex.exec(processed)) !== null) {
-    if (match.index > lastIndex) {
-      parts.push(escapeHtml(processed.slice(lastIndex, match.index)));
-    }
-    const rawMatch = match[0];
-    let mathCode = '';
-    let isBlock = false;
-    if (rawMatch.startsWith('$$') && rawMatch.endsWith('$$')) {
-      mathCode = rawMatch.slice(2, -2).trim();
-      isBlock = true;
-    } else if (rawMatch.startsWith('$') && rawMatch.endsWith('$')) {
-      mathCode = rawMatch.slice(1, -1).trim();
-    } else if (rawMatch.startsWith('\\[') && rawMatch.endsWith('\\]')) {
-      mathCode = rawMatch.slice(2, -2).trim();
-      isBlock = true;
-    } else if (rawMatch.startsWith('\\(') && rawMatch.endsWith('\\)')) {
-      mathCode = rawMatch.slice(2, -2).trim();
-    }
-    try {
-      parts.push(
-        katex.renderToString(mathCode, {
-          displayMode: isBlock,
-          throwOnError: false,
-          output: 'htmlAndMathml',
-        })
-      );
-    } catch {
-      parts.push(escapeHtml(rawMatch));
-    }
-    lastIndex = match.index + rawMatch.length;
-  }
-  if (lastIndex < processed.length) {
-    parts.push(escapeHtml(processed.slice(lastIndex)));
-  }
-  return parts.join('');
-}
 
 interface PracticeModeProps {
   initialQuestions?: Question[] | null;
@@ -129,6 +68,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
 
   // Filtros del configurador de tests
   const [selectedCategory, setSelectedCategory] = useState<'ALL' | Institution>('ALL');
+  const [selectedLanguageFilter, setSelectedLanguageFilter] = useState<'ALL' | 'ingles' | 'nahuat' | 'lenca' | 'kakawira' | 'german' | 'arabic' | 'mandarin'>('ALL');
   const [selectedSubjectId, setSelectedSubjectId] = useState<string>('ALL');
   const [selectedSubtopicId, setSelectedSubtopicId] = useState<string>('ALL');
   const [selectedSectionTitle, setSelectedSectionTitle] = useState<string>('ALL');
@@ -136,6 +76,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [timerMode, setTimerMode] = useState<'none' | '1m' | '1.5m'>('1m');
   const [tutorMode, setTutorMode] = useState<boolean>(false);
+  const [evaluationMode, setEvaluationMode] = useState<EvaluationMode>('multiple_choice');
 
   // Estados de remediación pedagógica en el solucionario
   const [activeRemediationIdx, setActiveRemediationIdx] = useState<number | null>(null);
@@ -228,11 +169,17 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
     return () => clearInterval(timer);
   }, [quizActive, quizFinished, timerMode]);
 
-  // Materias filtradas por la categoría seleccionada
+  // Materias filtradas por la categoría seleccionada y filtro de idioma si aplica
   const filteredSubjects = useMemo(() => {
-    if (selectedCategory === 'ALL') return subjects;
-    return subjects.filter((s) => s.institution === selectedCategory);
-  }, [subjects, selectedCategory]);
+    let list = subjects;
+    if (selectedCategory !== 'ALL') {
+      list = list.filter((s) => s.institution === selectedCategory);
+    }
+    if (selectedCategory === 'INGLES' && selectedLanguageFilter !== 'ALL') {
+      list = list.filter((s) => s.id.startsWith(`${selectedLanguageFilter}_`));
+    }
+    return list;
+  }, [subjects, selectedCategory, selectedLanguageFilter]);
 
   // Materia activa seleccionada
   const activeSubject = useMemo(() => {
@@ -289,7 +236,17 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
       } else if (selectedCategory === 'ESCALAFON') {
         title = 'Simulador de Ascenso al Nivel 1 del Escalafón Docente';
       } else if (selectedCategory === 'INGLES') {
-        title = 'Simulador de Idiomas • Inglés Internacional (A1-C2)';
+        const langNames: Record<string, string> = {
+          ingles: 'Inglés Internacional',
+          nahuat: 'Náhuat Pipil',
+          lenca: 'Lenca Potón',
+          kakawira: 'Kakawira (Cacaopera)',
+          german: 'Alemán (Deutsch)',
+          arabic: 'Árabe (Al-\'Arabiyya)',
+          mandarin: 'Mandarín (Pǔtōnghuà)',
+        };
+        const langTitle = selectedLanguageFilter !== 'ALL' ? langNames[selectedLanguageFilter] || 'Idiomas' : 'Escuela de Idiomas (7 Lenguas)';
+        title = `Simulador de ${langTitle} • MCER / CEFR`;
       } else {
         title = 'Simulacro Integral Mixto (UES, ESCALAFÓN, AVANZO, ASD, ENA, ANSP & IDIOMAS)';
       }
@@ -421,9 +378,14 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
   const answeredCount = Object.keys(userAnswers).length;
   const correctCount = useMemo(() => {
     return quizQuestions.reduce((acc, q, idx) => {
+      if (evaluationMode === 'true_false') {
+        const tf = convertToTrueFalse(q);
+        const expected = tf.isTrue ? 'VERDADERO' : 'FALSO';
+        return userAnswers[idx] === expected ? acc + 1 : acc;
+      }
       return userAnswers[idx] === q.correctAnswer ? acc + 1 : acc;
     }, 0);
-  }, [quizQuestions, userAnswers]);
+  }, [quizQuestions, userAnswers, evaluationMode]);
 
   const incorrectCount = answeredCount - correctCount;
   const unansweredCount = quizQuestions.length - answeredCount;
@@ -452,14 +414,18 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
       if (!map.has(sName)) map.set(sName, { total: 0, correct: 0 });
       const item = map.get(sName)!;
       item.total++;
-      if (userAnswers[idx] === q.correctAnswer) item.correct++;
+      const isCorrect =
+        evaluationMode === 'true_false'
+          ? userAnswers[idx] === (convertToTrueFalse(q).isTrue ? 'VERDADERO' : 'FALSO')
+          : userAnswers[idx] === q.correctAnswer;
+      if (isCorrect) item.correct++;
     });
     return Array.from(map.entries()).map(([name, data]) => ({
       name,
       ...data,
       pct: Math.round((data.correct / data.total) * 100),
     }));
-  }, [quizQuestions, userAnswers]);
+  }, [quizQuestions, userAnswers, evaluationMode]);
 
   // Auto-guardado de resultados de exámenes en formato texto para historial de usuario y tabla Top 10
   useEffect(() => {
@@ -885,7 +851,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               Simulador Maestro de Tests KUSKAT
             </h2>
             <p className="text-xs sm:text-sm text-slate-500 max-w-lg mx-auto leading-relaxed">
-              Genera exámenes de evaluación aleatorios sobre el banco maestro de <strong className="text-slate-800">17,640 preguntas</strong>.
+              Genera exámenes de evaluación aleatorios sobre el banco maestro de <strong className="text-slate-800">34,440 preguntas</strong>.
               Configura por tipo institucional, materia académica, unidad temática o sección.
             </p>
           </div>
@@ -903,6 +869,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   type="button"
                   onClick={() => {
                     setSelectedCategory('ALL');
+                    setSelectedLanguageFilter('ALL');
                     setSelectedSubjectId('ALL');
                     setSelectedSubtopicId('ALL');
                     setSelectedSectionTitle('ALL');
@@ -915,7 +882,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 >
                   <div className="flex items-center justify-between">
                     <Sparkles className="w-4 h-4 text-amber-400" />
-                    <span className="text-[10px] font-mono opacity-70">17,640 Q</span>
+                    <span className="text-[10px] font-mono opacity-70">34,440 Q</span>
                   </div>
                   <div className="pt-2">
                     <span className="font-bold text-xs block">Integral Mixto</span>
@@ -1071,6 +1038,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   type="button"
                   onClick={() => {
                     setSelectedCategory('INGLES');
+                    setSelectedLanguageFilter('ALL');
                     setSelectedSubjectId('ALL');
                     setSelectedSubtopicId('ALL');
                     setSelectedSectionTitle('ALL');
@@ -1083,14 +1051,66 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 >
                   <div className="flex items-center justify-between">
                     <Globe className="w-4 h-4 text-emerald-200" />
-                    <span className="text-[10px] font-mono opacity-80">600 Q</span>
+                    <span className="text-[10px] font-mono opacity-80">16,800 Q</span>
                   </div>
                   <div className="pt-2">
-                    <span className="font-bold text-xs block">Idiomas • Inglés</span>
-                    <span className="text-[10px] opacity-75">A1 a C2 (MCER/CEFR)</span>
+                    <span className="font-bold text-xs block">Escuela de Idiomas</span>
+                    <span className="text-[10px] opacity-75">7 Lenguas • 16,800 Q</span>
                   </div>
                 </button>
               </div>
+
+              {/* Sub-menú Interactivo de Selección de Idioma si la categoría es INGLES */}
+              {selectedCategory === 'INGLES' && (
+                <div className="mt-3.5 p-3.5 bg-emerald-50/70 border border-emerald-200 rounded-2xl animate-fade-in space-y-2">
+                  <div className="flex items-center justify-between flex-wrap gap-2">
+                    <label className="text-xs font-bold text-emerald-950 uppercase tracking-wider flex items-center gap-1.5">
+                      <Globe className="w-4 h-4 text-emerald-700" />
+                      <span>Seleccionar Idioma Específico o Evaluar Todas las Lenguas:</span>
+                    </label>
+                    <span className="text-[11px] font-mono font-bold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-full border border-emerald-200">
+                      {selectedLanguageFilter === 'ALL' ? '7 Lenguas (16,800 Q)' : '2,400 Q (Niveles A1 a C2)'}
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2">
+                    {[
+                      { id: 'ALL', name: 'Todos los Idiomas', flag: '🌐', count: '16,800 Q' },
+                      { id: 'ingles', name: 'Inglés (US & UK)', flag: '🇬🇧', count: '2,400 Q' },
+                      { id: 'nahuat', name: 'Náhuat Pipil', flag: '🇸🇻', count: '2,400 Q' },
+                      { id: 'lenca', name: 'Lenca Potón', flag: '🇸🇻', count: '2,400 Q' },
+                      { id: 'kakawira', name: 'Kakawira', flag: '🇸🇻', count: '2,400 Q' },
+                      { id: 'german', name: 'Alemán (DACH)', flag: '🇩🇪', count: '2,400 Q' },
+                      { id: 'arabic', name: 'Árabe (Fus\'ha)', flag: '🇸🇦', count: '2,400 Q' },
+                      { id: 'mandarin', name: 'Mandarín', flag: '🇨🇳', count: '2,400 Q' },
+                    ].map((lang) => {
+                      const isSel = selectedLanguageFilter === lang.id;
+                      return (
+                        <button
+                          key={lang.id}
+                          type="button"
+                          onClick={() => {
+                            setSelectedLanguageFilter(lang.id as any);
+                            setSelectedSubjectId('ALL');
+                            setSelectedSubtopicId('ALL');
+                            setSelectedSectionTitle('ALL');
+                          }}
+                          className={`p-2.5 rounded-xl text-left transition-all cursor-pointer border flex flex-col justify-between ${
+                            isSel
+                              ? 'bg-emerald-800 text-white border-emerald-800 shadow-xs'
+                              : 'bg-white text-slate-700 border-emerald-200/60 hover:bg-emerald-100/60'
+                          }`}
+                        >
+                          <div className="flex items-center justify-between text-xs">
+                            <span className="text-sm">{lang.flag}</span>
+                            <span className="text-[9px] font-mono opacity-80">{lang.count}</span>
+                          </div>
+                          <span className="font-bold text-[11px] mt-1.5 block truncate">{lang.name}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* ============================================================ */}
@@ -1099,7 +1119,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
             <div className="space-y-1.5">
               <div className="flex items-center justify-between">
                 <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider">
-                  2. Materia Académica:
+                  2. Materia Académica / Nivel MCER:
                 </label>
                 {selectedSubjectId !== 'ALL' && (
                   <button
@@ -1125,7 +1145,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 className="w-full p-3 border border-slate-200 rounded-xl text-xs sm:text-sm bg-slate-50 focus:ring-2 focus:ring-blue-500 focus:outline-none"
               >
                 <option value="ALL">
-                  🌟 Todas las Materias (Evaluación Global • {selectedCategory === 'ALL' ? '14,340' : selectedCategory === 'UES' ? '7,500' : selectedCategory === 'AVANZO' ? '3,000' : selectedCategory === 'ASD' ? '2,190' : selectedCategory === 'ENA' ? '1,400' : '250'} reactivos)
+                  🌟 Todas las Materias (Evaluación Global • {selectedCategory === 'ALL' ? '34,440' : selectedCategory === 'UES' ? '7,500' : selectedCategory === 'AVANZO' ? '3,000' : selectedCategory === 'ASD' ? '2,190' : selectedCategory === 'ENA' ? '1,400' : selectedCategory === 'ESCALAFON' ? '3,300' : selectedCategory === 'INGLES' ? (selectedLanguageFilter === 'ALL' ? '16,800' : '2,400') : '250'} reactivos)
                 </option>
                 {filteredSubjects.map((s) => (
                   <option key={s.id} value={s.id}>
@@ -1168,8 +1188,8 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider">
                 4. Cantidad de Reactivos para el Test:
               </label>
-              <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
-                {[5, 10, 20, 30, 50, 100].map((num) => (
+              <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-2">
+                {[5, 10, 20, 30, 50, 100, 200, 400].map((num) => (
                   <button
                     key={num}
                     type="button"
@@ -1182,7 +1202,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   >
                     <span>{num}</span>
                     <span className="block text-[9px] font-normal opacity-70">
-                      {num === 5 ? 'Express' : num === 50 ? 'Real UES' : 'reactivos'}
+                      {num === 5 ? 'Express' : num === 50 ? 'Real UES' : num === 200 ? 'Extenso' : num === 400 ? 'Completo ⭐' : 'reactivos'}
                     </span>
                   </button>
                 ))}
@@ -1293,6 +1313,48 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                     1.5 min / Q
                   </button>
                 </div>
+              </div>
+
+              {/* Modalidad de Evaluación: Opción Múltiple vs Verdadero o Falso */}
+              <div className="p-3.5 bg-slate-50 rounded-2xl border border-slate-200 space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2 text-xs font-bold text-slate-800">
+                    <Scale className="w-4 h-4 text-emerald-600" />
+                    <span>Modalidad de Evaluación:</span>
+                  </div>
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 font-mono">
+                    {evaluationMode === 'true_false' ? '⚖️ V / F' : '🎯 A-D'}
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 gap-2 text-xs font-bold">
+                  <button
+                    type="button"
+                    onClick={() => setEvaluationMode('multiple_choice')}
+                    className={`py-2 px-3 rounded-xl border text-center transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+                      evaluationMode === 'multiple_choice'
+                        ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
+                        : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-100'
+                    }`}
+                  >
+                    <span>🎯 Opción Múltiple</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setEvaluationMode('true_false')}
+                    className={`py-2 px-3 rounded-xl border text-center transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+                      evaluationMode === 'true_false'
+                        ? 'bg-emerald-600 text-white border-emerald-600 shadow-xs'
+                        : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-100'
+                    }`}
+                  >
+                    <span>⚖️ Verdadero o Falso</span>
+                  </button>
+                </div>
+                <p className="text-[11px] text-slate-500 leading-snug">
+                  {evaluationMode === 'true_false'
+                    ? 'Cada reactivo genera una afirmación determinística para evaluar si es VERDADERA o FALSA.'
+                    : 'Modo estándar oficial con 4 a 6 opciones de respuesta (A, B, C, D).'}
+                </p>
               </div>
 
               {/* Modo Tutor / Inmediato */}
@@ -1417,6 +1479,35 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               </span>
             </div>
 
+            {/* Selector de Modo de Evaluación: Opción Múltiple vs Verdadero/Falso */}
+            <div className="flex items-center gap-1 bg-slate-100 p-0.5 rounded-xl border border-slate-200">
+              <button
+                type="button"
+                onClick={() => setEvaluationMode('multiple_choice')}
+                className={`px-2.5 py-1 text-[11px] font-bold rounded-lg transition-all cursor-pointer ${
+                  evaluationMode === 'multiple_choice'
+                    ? 'bg-white text-blue-900 shadow-2xs font-extrabold'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+                title="Evaluar con selección múltiple (A-D)"
+              >
+                Opción Múltiple
+              </button>
+              <button
+                type="button"
+                onClick={() => setEvaluationMode('true_false')}
+                className={`px-2.5 py-1 text-[11px] font-bold rounded-lg transition-all cursor-pointer flex items-center gap-1 ${
+                  evaluationMode === 'true_false'
+                    ? 'bg-white text-indigo-900 shadow-2xs font-extrabold'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+                title="Evaluar proposición en modalidad Verdadero o Falso"
+              >
+                <Scale className="w-3 h-3 text-indigo-600" />
+                <span>Verdadero / Falso</span>
+              </button>
+            </div>
+
             <div className="flex items-center gap-2.5">
               {timerMode !== 'none' && (
                 <div
@@ -1498,72 +1589,229 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               <MathText text={currentQ.statement} />
             </div>
 
-            {/* Opciones */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-              {currentQ.options.map((opt) => {
-                const isSelected = userAnswers[currentIndex] === opt.key;
-                const isRight = currentQ.correctAnswer === opt.key;
-
-                let optClass = 'bg-slate-50 border-slate-200 text-slate-800 hover:bg-slate-100';
-
-                // Si está en Modo Tutor y ya respondió esta pregunta
-                if (tutorMode && isAnswered) {
-                  if (isRight) {
-                    optClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-semibold';
-                  } else if (isSelected) {
-                    optClass = 'bg-rose-50 border-rose-400 text-rose-950';
-                  } else {
-                    optClass = 'bg-slate-50/50 border-slate-200 text-slate-400 opacity-60';
-                  }
-                } else if (isSelected) {
-                  optClass = 'bg-blue-50 border-blue-600 text-blue-950 font-medium ring-2 ring-blue-500/20';
-                }
+            {/* Opciones de Evaluación (Opción Múltiple vs Verdadero o Falso) */}
+            {evaluationMode === 'true_false' ? (
+              (() => {
+                const tf = convertToTrueFalse(currentQ);
+                const userPick = userAnswers[currentIndex];
+                const expected = tf.isTrue ? 'VERDADERO' : 'FALSO';
 
                 return (
-                  <button
-                    key={opt.key}
-                    onClick={() => handleSelectOption(opt.key)}
-                    className={`p-3.5 rounded-xl border text-sm text-left transition-all flex items-start gap-3 cursor-pointer min-h-[44px] ${optClass}`}
-                  >
-                    <span
-                      className={`w-6 h-6 rounded-lg font-mono text-xs font-bold flex items-center justify-center shrink-0 ${
-                        tutorMode && isAnswered && isRight
-                          ? 'bg-emerald-600 text-white'
-                          : isSelected
-                          ? 'bg-blue-600 text-white'
-                          : 'bg-white border border-slate-300 text-slate-700'
-                      }`}
-                    >
-                      {opt.key}
-                    </span>
-                    <div className="flex-1 break-words pt-0.5 leading-snug">
-                      <MathText text={opt.text} />
+                  <div className="space-y-4 pt-1">
+                    {/* Caja de Proposición destacada con KaTeX */}
+                    <div className="p-4 sm:p-5 rounded-2xl bg-indigo-50/70 border-2 border-indigo-200/90 space-y-2.5">
+                      <div className="flex items-center justify-between gap-2 flex-wrap text-xs">
+                        <span className="font-extrabold text-indigo-950 uppercase tracking-wider flex items-center gap-1.5">
+                          <Scale className="w-4 h-4 text-indigo-600" />
+                          Proposición para Evaluar:
+                        </span>
+                        <span className="text-[11px] font-semibold text-indigo-700 bg-white/90 px-2.5 py-0.5 rounded-full border border-indigo-200">
+                          Determina si el siguiente enunciado es Verdadero o Falso
+                        </span>
+                      </div>
+                      <div className="text-slate-900 text-base sm:text-lg font-medium leading-relaxed bg-white/95 p-4 rounded-xl border border-indigo-100 shadow-2xs">
+                        <MathText text={tf.presentedOptionText} />
+                      </div>
                     </div>
-                  </button>
+
+                    {/* Botones de Selección Verdadero / Falso */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-1">
+                      {/* Botón VERDADERO */}
+                      {(() => {
+                        const isPicked = userPick === 'VERDADERO';
+                        const isRight = expected === 'VERDADERO';
+                        let btnClass = 'bg-slate-50/80 border-slate-200 text-slate-800 hover:border-emerald-300 hover:bg-emerald-50/40';
+
+                        if (tutorMode && isAnswered) {
+                          if (isRight) {
+                            btnClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-400/30 shadow-xs';
+                          } else if (isPicked) {
+                            btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                          } else {
+                            btnClass = 'bg-slate-50/40 border-slate-200 text-slate-400 opacity-60';
+                          }
+                        } else if (isPicked) {
+                          btnClass = 'bg-emerald-50 border-emerald-600 text-emerald-950 font-bold ring-2 ring-emerald-500/30 shadow-xs';
+                        }
+
+                        return (
+                          <button
+                            type="button"
+                            onClick={() => handleSelectOption('VERDADERO')}
+                            className={`p-4 rounded-2xl border-2 text-left transition-all flex items-center gap-3.5 cursor-pointer min-h-[58px] ${btnClass}`}
+                          >
+                            <span
+                              className={`w-9 h-9 rounded-xl font-bold flex items-center justify-center shrink-0 text-sm ${
+                                isPicked
+                                  ? 'bg-emerald-600 text-white'
+                                  : 'bg-emerald-100 text-emerald-800'
+                              }`}
+                            >
+                              ✓
+                            </span>
+                            <div className="flex-1">
+                              <span className="block text-base font-extrabold text-emerald-950">
+                                VERDADERO
+                              </span>
+                              <span className="text-xs text-slate-500 font-normal">
+                                La afirmación planteada es correcta
+                              </span>
+                            </div>
+                          </button>
+                        );
+                      })()}
+
+                      {/* Botón FALSO */}
+                      {(() => {
+                        const isPicked = userPick === 'FALSO';
+                        const isRight = expected === 'FALSO';
+                        let btnClass = 'bg-slate-50/80 border-slate-200 text-slate-800 hover:border-rose-300 hover:bg-rose-50/40';
+
+                        if (tutorMode && isAnswered) {
+                          if (isRight) {
+                            btnClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-400/30 shadow-xs';
+                          } else if (isPicked) {
+                            btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                          } else {
+                            btnClass = 'bg-slate-50/40 border-slate-200 text-slate-400 opacity-60';
+                          }
+                        } else if (isPicked) {
+                          btnClass = 'bg-rose-50 border-rose-600 text-rose-950 font-bold ring-2 ring-rose-500/30 shadow-xs';
+                        }
+
+                        return (
+                          <button
+                            type="button"
+                            onClick={() => handleSelectOption('FALSO')}
+                            className={`p-4 rounded-2xl border-2 text-left transition-all flex items-center gap-3.5 cursor-pointer min-h-[58px] ${btnClass}`}
+                          >
+                            <span
+                              className={`w-9 h-9 rounded-xl font-bold flex items-center justify-center shrink-0 text-sm ${
+                                isPicked
+                                  ? 'bg-rose-600 text-white'
+                                  : 'bg-rose-100 text-rose-800'
+                              }`}
+                            >
+                              ✕
+                            </span>
+                            <div className="flex-1">
+                              <span className="block text-base font-extrabold text-rose-950">
+                                FALSO
+                              </span>
+                              <span className="text-xs text-slate-500 font-normal">
+                                La afirmación planteada es incorrecta
+                              </span>
+                            </div>
+                          </button>
+                        );
+                      })()}
+                    </div>
+                  </div>
                 );
-              })}
-            </div>
+              })()
+            ) : (
+              /* Opciones estándar A-D */
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+                {currentQ.options.map((opt) => {
+                  const isSelected = userAnswers[currentIndex] === opt.key;
+                  const isRight = currentQ.correctAnswer === opt.key;
+
+                  let optClass = 'bg-slate-50 border-slate-200 text-slate-800 hover:bg-slate-100';
+
+                  // Si está en Modo Tutor y ya respondió esta pregunta
+                  if (tutorMode && isAnswered) {
+                    if (isRight) {
+                      optClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-semibold';
+                    } else if (isSelected) {
+                      optClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                    } else {
+                      optClass = 'bg-slate-50/50 border-slate-200 text-slate-400 opacity-60';
+                    }
+                  } else if (isSelected) {
+                    optClass = 'bg-blue-50 border-blue-600 text-blue-950 font-medium ring-2 ring-blue-500/20';
+                  }
+
+                  return (
+                    <button
+                      key={opt.key}
+                      onClick={() => handleSelectOption(opt.key)}
+                      className={`p-3.5 rounded-xl border text-sm text-left transition-all flex items-start gap-3 cursor-pointer min-h-[44px] ${optClass}`}
+                    >
+                      <span
+                        className={`w-6 h-6 rounded-lg font-mono text-xs font-bold flex items-center justify-center shrink-0 ${
+                          tutorMode && isAnswered && isRight
+                            ? 'bg-emerald-600 text-white'
+                            : isSelected
+                            ? 'bg-blue-600 text-white'
+                            : 'bg-white border border-slate-300 text-slate-700'
+                        }`}
+                      >
+                        {opt.key}
+                      </span>
+                      <div className="flex-1 break-words pt-0.5 leading-snug">
+                        <MathText text={opt.text} />
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+            )}
 
             {/* Retroalimentación inmediata en Modo Tutor */}
             {tutorMode && isAnswered && (
               <div className="p-3.5 rounded-xl bg-blue-50 border border-blue-100 text-xs sm:text-sm text-slate-700 space-y-1.5 animate-fade-in">
-                <div className="flex items-center gap-2 font-bold text-blue-950">
-                  <span>Clave Correcta:</span>
-                  <span className="px-2 py-0.5 bg-blue-600 text-white rounded text-xs font-mono">
-                    {currentQ.correctAnswer}
-                  </span>
-                  {userAnswers[currentIndex] === currentQ.correctAnswer ? (
-                    <span className="text-emerald-600 font-bold flex items-center gap-1">
-                      <CheckCircle2 className="w-4 h-4" /> ¡Excelente acierto!
-                    </span>
-                  ) : (
-                    <span className="text-rose-600 font-bold">Respuesta incorrecta</span>
-                  )}
-                </div>
-                <div className="leading-relaxed">
-                  <strong className="text-slate-900">Justificación: </strong>
-                  <MathText text={currentQ.explanation} />
-                </div>
+                {evaluationMode === 'true_false' ? (
+                  (() => {
+                    const tf = convertToTrueFalse(currentQ);
+                    const expected = tf.isTrue ? 'VERDADERO' : 'FALSO';
+                    const isSuccess = userAnswers[currentIndex] === expected;
+                    return (
+                      <>
+                        <div className="flex items-center gap-2 font-bold text-blue-950 flex-wrap">
+                          <span>Evaluación Oficial:</span>
+                          <span
+                            className={`px-2.5 py-0.5 rounded text-xs font-mono font-bold text-white ${
+                              tf.isTrue ? 'bg-emerald-600' : 'bg-rose-600'
+                            }`}
+                          >
+                            {expected}
+                          </span>
+                          {isSuccess ? (
+                            <span className="text-emerald-600 font-bold flex items-center gap-1">
+                              <CheckCircle2 className="w-4 h-4" /> ¡Excelente acierto!
+                            </span>
+                          ) : (
+                            <span className="text-rose-600 font-bold">Respuesta incorrecta</span>
+                          )}
+                        </div>
+                        <div className="leading-relaxed">
+                          <strong className="text-slate-900">Justificación Pedagógica: </strong>
+                          <MathText text={tf.explanation} />
+                        </div>
+                      </>
+                    );
+                  })()
+                ) : (
+                  <>
+                    <div className="flex items-center gap-2 font-bold text-blue-950">
+                      <span>Clave Correcta:</span>
+                      <span className="px-2 py-0.5 bg-blue-600 text-white rounded text-xs font-mono">
+                        {currentQ.correctAnswer}
+                      </span>
+                      {userAnswers[currentIndex] === currentQ.correctAnswer ? (
+                        <span className="text-emerald-600 font-bold flex items-center gap-1">
+                          <CheckCircle2 className="w-4 h-4" /> ¡Excelente acierto!
+                        </span>
+                      ) : (
+                        <span className="text-rose-600 font-bold">Respuesta incorrecta</span>
+                      )}
+                    </div>
+                    <div className="leading-relaxed">
+                      <strong className="text-slate-900">Justificación: </strong>
+                      <MathText text={currentQ.explanation} />
+                    </div>
+                  </>
+                )}
               </div>
             )}
 
@@ -1606,24 +1854,24 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">
                 Navegador de Reactivos:
               </span>
-              <div className="flex items-center gap-1.5 flex-wrap">
+              <div className="max-h-36 sm:max-h-44 overflow-y-auto touch-scroll p-2 bg-slate-50/80 rounded-2xl border border-slate-200/80 flex items-center gap-1.5 flex-wrap">
                 {quizQuestions.map((_, idx) => {
                   const isCurrent = idx === currentIndex;
                   const isAnsweredItem = userAnswers[idx] !== undefined;
                   const isMarkedItem = markedQuestions[idx];
 
-                  let pillClass = 'bg-slate-100 text-slate-600 hover:bg-slate-200';
+                  let pillClass = 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200';
                   if (isCurrent) {
-                    pillClass = 'bg-blue-600 text-white ring-2 ring-blue-300 font-bold';
+                    pillClass = 'bg-blue-600 text-white ring-2 ring-blue-300 font-bold border-blue-600';
                   } else if (isAnsweredItem) {
-                    pillClass = 'bg-slate-800 text-white font-semibold';
+                    pillClass = 'bg-slate-800 text-white font-semibold border-slate-800';
                   }
 
                   return (
                     <button
                       key={idx}
                       onClick={() => setCurrentIndex(idx)}
-                      className={`w-7 h-7 rounded-lg text-xs font-mono transition-all cursor-pointer relative ${pillClass}`}
+                      className={`w-7 h-7 rounded-lg text-xs font-mono transition-all cursor-pointer relative shadow-2xs ${pillClass}`}
                     >
                       {idx + 1}
                       {isMarkedItem && (
@@ -1843,8 +2091,15 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         </h4>
 
         {quizQuestions.map((q, idx) => {
+          const tf = convertToTrueFalse(q);
+          const expectedAns =
+            evaluationMode === 'true_false'
+              ? tf.isTrue
+                ? 'VERDADERO'
+                : 'FALSO'
+              : q.correctAnswer;
           const userAns = userAnswers[idx];
-          const isRight = userAns === q.correctAnswer;
+          const isRight = userAns === expectedAns;
           const isBlank = userAns === undefined;
 
           return (
@@ -1899,38 +2154,77 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 <MathText text={q.statement} />
               </div>
 
-              {/* Opciones */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-                {q.options.map((opt) => {
-                  const isUserPick = userAns === opt.key;
-                  const isCorrectPick = q.correctAnswer === opt.key;
-
-                  let optClass = 'bg-slate-50 border-slate-200 text-slate-700';
-                  if (isCorrectPick) {
-                    optClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold';
-                  } else if (isUserPick) {
-                    optClass = 'bg-rose-50 border-rose-400 text-rose-950 line-through';
-                  }
-
-                  return (
-                    <div
-                      key={opt.key}
-                      className={`p-2.5 rounded-xl border flex items-start gap-2.5 ${optClass}`}
-                    >
-                      <span className="font-mono font-bold">{opt.key})</span>
-                      <div className="flex-1">
-                        <MathText text={opt.text} />
-                      </div>
+              {/* Opciones o Proposición V/F */}
+              {evaluationMode === 'true_false' ? (
+                <div className="p-3.5 bg-slate-50/80 rounded-xl border border-slate-200 space-y-2 text-xs">
+                  <div className="flex items-center justify-between gap-2 flex-wrap">
+                    <span className="font-bold text-slate-800 flex items-center gap-1.5">
+                      <Scale className="w-3.5 h-3.5 text-indigo-600" />
+                      Proposición Evaluada:
+                    </span>
+                    <div className="flex items-center gap-2">
+                      <span className="text-slate-500">Tu respuesta:</span>
+                      <span
+                        className={`font-mono font-bold px-2 py-0.5 rounded text-[11px] ${
+                          userAns === 'VERDADERO'
+                            ? 'bg-emerald-100 text-emerald-800'
+                            : userAns === 'FALSO'
+                            ? 'bg-rose-100 text-rose-800'
+                            : 'bg-slate-200 text-slate-700'
+                        }`}
+                      >
+                        {userAns || 'Sin responder'}
+                      </span>
+                      <span className="text-slate-400">•</span>
+                      <span className="text-slate-500">Correcto:</span>
+                      <span
+                        className={`font-mono font-bold px-2 py-0.5 rounded text-[11px] ${
+                          expectedAns === 'VERDADERO'
+                            ? 'bg-emerald-600 text-white'
+                            : 'bg-rose-600 text-white'
+                        }`}
+                      >
+                        {expectedAns}
+                      </span>
                     </div>
-                  );
-                })}
-              </div>
+                  </div>
+                  <div className="p-2.5 bg-white rounded-lg border border-slate-200 text-slate-900 font-medium">
+                    <MathText text={tf.presentedOptionText} />
+                  </div>
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                  {q.options.map((opt) => {
+                    const isUserPick = userAns === opt.key;
+                    const isCorrectPick = q.correctAnswer === opt.key;
+
+                    let optClass = 'bg-slate-50 border-slate-200 text-slate-700';
+                    if (isCorrectPick) {
+                      optClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold';
+                    } else if (isUserPick) {
+                      optClass = 'bg-rose-50 border-rose-400 text-rose-950 line-through';
+                    }
+
+                    return (
+                      <div
+                        key={opt.key}
+                        className={`p-2.5 rounded-xl border flex items-start gap-2.5 ${optClass}`}
+                      >
+                        <span className="font-mono font-bold">{opt.key})</span>
+                        <div className="flex-1">
+                          <MathText text={opt.text} />
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
 
               {/* Justificación Pedagógica */}
               <div className="p-3.5 bg-slate-50 rounded-xl border border-slate-200 text-xs text-slate-700 space-y-1">
                 <span className="font-bold text-slate-900 block">Explicación Oficial:</span>
                 <div className="leading-relaxed">
-                  <MathText text={q.explanation} />
+                  <MathText text={evaluationMode === 'true_false' ? tf.explanation : q.explanation} />
                 </div>
               </div>
 
@@ -1966,56 +2260,120 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                         <MathText text={remediationQuestion.statement} />
                       </div>
 
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-                        {remediationQuestion.options.map((rOpt) => {
-                          const isPicked = remediationUserAns === rOpt.key;
-                          const isCorrect = remediationQuestion.correctAnswer === rOpt.key;
-                          let rClass = 'bg-white border-amber-200 text-slate-800 hover:bg-amber-100/50';
-
-                          if (remediationSolved) {
-                            if (isCorrect) {
-                              rClass = 'bg-emerald-100 border-emerald-500 text-emerald-950 font-bold';
-                            } else if (isPicked) {
-                              rClass = 'bg-rose-100 border-rose-400 text-rose-950';
-                            } else {
-                              rClass = 'bg-white/60 border-slate-200 text-slate-400 opacity-60';
-                            }
-                          }
+                      {/* Modalidad de Selección para Remediación */}
+                      {evaluationMode === 'true_false' ? (
+                        (() => {
+                          const rTf = convertToTrueFalse(remediationQuestion);
+                          const rExpected = rTf.isTrue ? 'VERDADERO' : 'FALSO';
 
                           return (
-                            <button
-                              key={rOpt.key}
-                              type="button"
-                              onClick={() => handlePickRemediationOption(rOpt.key)}
-                              className={`p-2.5 rounded-xl border text-left transition-all flex items-start gap-2.5 cursor-pointer ${rClass}`}
-                            >
-                              <span className="font-mono font-bold">{rOpt.key})</span>
-                              <div className="flex-1">
-                                <MathText text={rOpt.text} />
+                            <div className="space-y-3">
+                              <div className="p-3 bg-white rounded-xl border border-amber-200 text-xs space-y-1">
+                                <span className="font-bold text-amber-900 block">Proposición a Evaluar:</span>
+                                <div className="text-slate-900 font-medium">
+                                  <MathText text={rTf.presentedOptionText} />
+                                </div>
                               </div>
-                            </button>
+                              <div className="grid grid-cols-2 gap-2">
+                                {(['VERDADERO', 'FALSO'] as const).map((rChoice) => {
+                                  const isPicked = remediationUserAns === rChoice;
+                                  const isCorrectChoice = rExpected === rChoice;
+                                  let rClass =
+                                    'bg-white border-amber-200 text-slate-800 hover:bg-amber-100/50';
+
+                                  if (remediationSolved) {
+                                    if (isCorrectChoice) {
+                                      rClass =
+                                        'bg-emerald-100 border-emerald-500 text-emerald-950 font-bold';
+                                    } else if (isPicked) {
+                                      rClass = 'bg-rose-100 border-rose-400 text-rose-950';
+                                    } else {
+                                      rClass =
+                                        'bg-white/60 border-slate-200 text-slate-400 opacity-60';
+                                    }
+                                  }
+
+                                  return (
+                                    <button
+                                      key={rChoice}
+                                      type="button"
+                                      onClick={() => handlePickRemediationOption(rChoice)}
+                                      className={`p-3 rounded-xl border text-center font-bold text-xs cursor-pointer transition-all ${rClass}`}
+                                    >
+                                      {rChoice}
+                                    </button>
+                                  );
+                                })}
+                              </div>
+                            </div>
                           );
-                        })}
-                      </div>
+                        })()
+                      ) : (
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                          {remediationQuestion.options.map((rOpt) => {
+                            const isPicked = remediationUserAns === rOpt.key;
+                            const isCorrect = remediationQuestion.correctAnswer === rOpt.key;
+                            let rClass = 'bg-white border-amber-200 text-slate-800 hover:bg-amber-100/50';
+
+                            if (remediationSolved) {
+                              if (isCorrect) {
+                                rClass = 'bg-emerald-100 border-emerald-500 text-emerald-950 font-bold';
+                              } else if (isPicked) {
+                                rClass = 'bg-rose-100 border-rose-400 text-rose-950';
+                              } else {
+                                rClass = 'bg-white/60 border-slate-200 text-slate-400 opacity-60';
+                              }
+                            }
+
+                            return (
+                              <button
+                                key={rOpt.key}
+                                type="button"
+                                onClick={() => handlePickRemediationOption(rOpt.key)}
+                                className={`p-2.5 rounded-xl border text-left transition-all flex items-start gap-2.5 cursor-pointer ${rClass}`}
+                              >
+                                <span className="font-mono font-bold">{rOpt.key})</span>
+                                <div className="flex-1">
+                                  <MathText text={rOpt.text} />
+                                </div>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
 
                       {remediationSolved && (
                         <div className="p-3 bg-white rounded-xl border border-amber-200 text-xs space-y-1 animate-fade-in">
                           <div className="font-bold flex items-center gap-1.5">
-                            {remediationUserAns === remediationQuestion.correctAnswer ? (
-                              <span className="text-emerald-700 flex items-center gap-1 font-bold">
-                                <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                                ¡Excelente! Has superado el reactivo de refuerzo.
-                              </span>
-                            ) : (
-                              <span className="text-rose-700 flex items-center gap-1 font-bold">
-                                <XCircle className="w-4 h-4 text-rose-600" />
-                                Respuesta incorrecta. Revisa la justificación:
-                              </span>
-                            )}
+                            {(() => {
+                              const rExpected =
+                                evaluationMode === 'true_false'
+                                  ? convertToTrueFalse(remediationQuestion).isTrue
+                                    ? 'VERDADERO'
+                                    : 'FALSO'
+                                  : remediationQuestion.correctAnswer;
+                              return remediationUserAns === rExpected ? (
+                                <span className="text-emerald-700 flex items-center gap-1 font-bold">
+                                  <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                                  ¡Excelente! Has superado el reactivo de refuerzo.
+                                </span>
+                              ) : (
+                                <span className="text-rose-700 flex items-center gap-1 font-bold">
+                                  <XCircle className="w-4 h-4 text-rose-600" />
+                                  Respuesta incorrecta. Revisa la justificación:
+                                </span>
+                              );
+                            })()}
                           </div>
                           <div className="text-slate-600 leading-relaxed">
                             <strong className="text-slate-800">Justificación: </strong>
-                            <MathText text={remediationQuestion.explanation} />
+                            <MathText
+                              text={
+                                evaluationMode === 'true_false'
+                                  ? convertToTrueFalse(remediationQuestion).explanation
+                                  : remediationQuestion.explanation
+                              }
+                            />
                           </div>
                         </div>
                       )}

@@ -33,119 +33,15 @@ import {
   Play,
   Sprout,
 } from 'lucide-react';
-import katex from 'katex';
-import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel } from '../types';
+import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel, EvaluationMode } from '../types';
 import { fetchUnifiedCurriculum, fetchSubtopicQuestions } from '../services/bancoService';
 import { QUESTIONS_DATA } from '../data';
 import { AdBanner } from './AdBanner';
-
-// Componente KaTeX Math integrado
-interface KaTeXMathProps {
-  text: string;
-  className?: string;
-}
-
-export const MathText: React.FC<KaTeXMathProps> = ({ text, className = '' }) => {
-  const renderedHtml = useMemo(() => {
-    if (!text) return '';
-
-    // Humanizar símbolos de grados, unidades y potencias
-    let processed = text
-      .replace(/(\d+)\s*\^\\?\{?circ\}?/g, '$1°')
-      .replace(/\\circ\b/g, '°')
-      .replace(/\\u0007pprox/g, '\\approx')
-      .replace(/\\u000bec/g, '\\vec')
-      .replace(/\bcm\^2\b/g, 'cm²')
-      .replace(/\bm\^2\b/g, 'm²')
-      .replace(/\bkm\^2\b/g, 'km²');
-
-    // Auto-detecta si el texto completo es una fórmula matemática sin delimitadores
-    const hasDelimiters =
-      processed.includes('$') || processed.includes('\\(') || processed.includes('\\[');
-    if (
-      !hasDelimiters &&
-      /^\s*[-+]?\\(?:frac|sqrt|pi|emptyset|mathbb|theta|infty|pm|times|approx|alpha|beta|lambda|Delta|leq|geq|neq)/.test(
-        processed
-      )
-    ) {
-      try {
-        return katex.renderToString(processed.trim(), {
-          displayMode: false,
-          throwOnError: false,
-          trust: false,
-          output: 'htmlAndMathml',
-        });
-      } catch {
-        // Fallback
-      }
-    }
-
-    const regex = /(\$\$[\s\S]*?\$\$)|(\$[^\$\n]+?\$)|(\\\[[\s\S]*?\\\])|(\\\([\s\S]*?\\\\?\))/g;
-    const parts: string[] = [];
-    let lastIndex = 0;
-    let match: RegExpExecArray | null;
-
-    while ((match = regex.exec(processed)) !== null) {
-      if (match.index > lastIndex) {
-        parts.push(escapeHtml(processed.slice(lastIndex, match.index)));
-      }
-
-      const rawMatch = match[0];
-      let mathCode = '';
-      let isBlock = false;
-
-      if (rawMatch.startsWith('$$') && rawMatch.endsWith('$$')) {
-        mathCode = rawMatch.slice(2, -2).trim();
-        isBlock = true;
-      } else if (rawMatch.startsWith('$') && rawMatch.endsWith('$')) {
-        mathCode = rawMatch.slice(1, -1).trim();
-        isBlock = false;
-      } else if (rawMatch.startsWith('\\[') && rawMatch.endsWith('\\]')) {
-        mathCode = rawMatch.slice(2, -2).trim();
-        isBlock = true;
-      } else if (rawMatch.startsWith('\\(')) {
-        mathCode = rawMatch.slice(2).replace(/\\*\)$/, '').trim();
-        isBlock = false;
-      }
-
-      try {
-        const html = katex.renderToString(mathCode, {
-          displayMode: isBlock,
-          throwOnError: false,
-          trust: false,
-          output: 'htmlAndMathml',
-        });
-        parts.push(html);
-      } catch {
-        parts.push(escapeHtml(rawMatch));
-      }
-
-      lastIndex = match.index + rawMatch.length;
-    }
-
-    if (lastIndex < processed.length) {
-      parts.push(escapeHtml(processed.slice(lastIndex)));
-    }
-
-    return parts.join('');
-  }, [text]);
-
-  return (
-    <span
-      className={`inline-block max-w-full overflow-x-auto align-middle scrollbar-none touch-scroll ${className}`}
-      dangerouslySetInnerHTML={{ __html: renderedHtml }}
-    />
-  );
-};
-
-function escapeHtml(str: string): string {
-  return str
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#039;');
-}
+import { getCategoryTheory } from '../data/categoryTheoryData';
+import { CategoryTheoryView } from './CategoryTheoryView';
+import { convertToTrueFalse } from '../utils/trueFalseHelper';
+import { MathText, escapeHtml } from '../utils/mathRenderer';
+export { MathText };
 
 interface CategoryHierarchyViewerProps {
   onStartPracticeWithQuestions?: (questions: Question[]) => void;
@@ -177,6 +73,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
   // Preguntas cargadas y estado de interactividad
   const [loadedQuestions, setLoadedQuestions] = useState<Question[]>([]);
   const [loadingQuestions, setLoadingQuestions] = useState<boolean>(false);
+  const [browserEvalMode, setBrowserEvalMode] = useState<EvaluationMode>('multiple_choice');
   const [userSelectedOptions, setUserSelectedOptions] = useState<Record<string, string>>({});
   const [visibleSolutions, setVisibleSolutions] = useState<Record<string, boolean>>({});
   const [collapsedSections, setCollapsedSections] = useState<Record<string, boolean>>({});
@@ -186,6 +83,12 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [showAllInPage, setShowAllInPage] = useState<boolean>(false);
   const QUESTIONS_PER_PAGE = 25;
+
+  // Teoría académica y bibliografía APA 7.ª Edición según la categoría activa
+  const currentCategoryTheory = useMemo(() => {
+    const inst: Institution = selectedInst === 'ALL' ? 'UES' : selectedInst;
+    return getCategoryTheory(inst);
+  }, [selectedInst]);
 
   // Carga inicial del currículo unificado (UES + ANSP)
   useEffect(() => {
@@ -704,13 +607,14 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           </h2>
 
           <p className="text-xs sm:text-sm text-slate-300 w-full text-justify leading-relaxed">
-            Explora las <strong className="text-white">17,640 preguntas oficiales</strong> organizadas
+            Explora las <strong className="text-white">34,440 preguntas oficiales</strong> organizadas
             jerárquicamente: selecciona entre <strong className="text-white">UES</strong> (Admisión Universitaria),{' '}
             <strong className="text-white">ESCALAFÓN DOCENTE</strong> (Ascenso al Nivel Uno 2026 MINED),{' '}
             <strong className="text-white">AVANZO</strong> (Prueba Nacional Bachillerato),{' '}
             <strong className="text-white">ASD</strong> (Jóvenes Talento El Salvador),{' '}
-            <strong className="text-white">ENA</strong> (Escuela Nacional de Agricultura "Roberto Quiñónez") y{' '}
-            <strong className="text-white">ANSP</strong> (Policía Nacional Civil), filtra por especialidad, grado, materia académica,
+            <strong className="text-white">ENA</strong> (Escuela Nacional de Agricultura "Roberto Quiñónez"),{' '}
+            <strong className="text-white">ANSP</strong> (Policía Nacional Civil) e{' '}
+            <strong className="text-white">IDIOMAS</strong> (7 Lenguas: Inglés, Náhuat, Lenca, Kakawira, Alemán, Árabe y Mandarín • 16,800 reactivos), filtra por especialidad, grado, materia académica,
             unidad temática o desglose por sección.
           </p>
 
@@ -718,7 +622,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           <div className="pt-2 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 gap-2 sm:gap-3 text-xs">
             <div className="bg-white/10 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-white/10">
               <span className="text-[10px] text-slate-400 uppercase tracking-wider block font-bold">Total Reactivos</span>
-              <span className="text-lg font-black text-white">17,640</span>
+              <span className="text-lg font-black text-white">34,440</span>
             </div>
             <div className="bg-blue-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-blue-400/20">
               <span className="text-[10px] text-blue-300 uppercase tracking-wider block font-bold">Tipo UES</span>
@@ -744,9 +648,9 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               <span className="text-[10px] text-indigo-300 uppercase tracking-wider block font-bold">Tipo ANSP</span>
               <span className="text-lg font-black text-indigo-200">250</span>
             </div>
-            <div className="bg-fuchsia-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-fuchsia-400/20">
-              <span className="text-[10px] text-fuchsia-300 uppercase tracking-wider block font-bold">Asignaturas</span>
-              <span className="text-lg font-black text-fuchsia-200">{subjects.length || 38}</span>
+            <div className="bg-emerald-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-emerald-400/20">
+              <span className="text-[10px] text-emerald-300 uppercase tracking-wider block font-bold">7 Idiomas</span>
+              <span className="text-lg font-black text-emerald-200">16,800</span>
             </div>
           </div>
         </div>
@@ -756,13 +660,13 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       <AdBanner variant="light" positionLabel="Categorías • 1/5 Superior" slotId="4241045160_c1" />
 
       {/* Botón flotante para abrir el menú en dispositivos móviles */}
-      <div className="lg:hidden flex items-center justify-between bg-white p-3.5 rounded-2xl border border-slate-200 shadow-xs">
+      <div className="lg:hidden flex items-center justify-between bg-white p-3 rounded-2xl border border-slate-200 shadow-xs sticky top-16 z-30">
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="flex items-center gap-2 text-xs font-bold text-slate-800 bg-slate-100 hover:bg-slate-200 px-4 py-2 rounded-xl transition-all cursor-pointer w-full justify-center"
+          className="flex items-center gap-2 text-xs font-bold text-slate-800 bg-slate-100 hover:bg-slate-200 px-4 py-2.5 rounded-xl transition-all cursor-pointer w-full justify-center min-h-[44px]"
         >
           <SlidersHorizontal className="w-4 h-4 text-blue-600" />
-          <span>{isMobileMenuOpen ? 'Ocultar Menú de Categorías' : '📂 Abrir Menú de Categorías & Temario'}</span>
+          <span>{isMobileMenuOpen ? 'Cerrar Menú de Categorías' : '📂 Abrir Menú de Categorías & Temario'}</span>
         </button>
       </div>
 
@@ -770,13 +674,23 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       {/* 2. LAYOUT PRINCIPAL: MENÚ LATERAL + VISOR JERÁRQUICO */}
       {/* ==================================================================== */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        {/* Backdrop en móviles cuando el menú está abierto */}
+        {isMobileMenuOpen && (
+          <div
+            className="lg:hidden fixed inset-0 z-40 bg-slate-900/60 backdrop-blur-xs animate-fade-in"
+            onClick={() => setIsMobileMenuOpen(false)}
+          />
+        )}
+
         {/* ================================================================== */}
         {/* PANEL DEL MENÚ DE CATEGORÍAS (COL 1-4) */}
         {/* ================================================================== */}
         <aside
           className={`${
-            isMobileMenuOpen ? 'block' : 'hidden'
-          } lg:block lg:col-span-4 bg-white rounded-3xl border border-slate-200 p-4 sm:p-5 shadow-xs space-y-4 sm:space-y-5 sticky top-20 max-h-[85vh] overflow-y-auto touch-scroll`}
+            isMobileMenuOpen
+              ? 'fixed inset-x-2 sm:inset-x-6 top-16 bottom-4 z-50 shadow-2xl rounded-3xl border border-slate-300 animate-scale-up'
+              : 'hidden'
+          } lg:block lg:static lg:z-auto lg:col-span-4 bg-white rounded-3xl border border-slate-200 p-4 sm:p-5 shadow-xs space-y-4 sm:space-y-5 lg:sticky lg:top-20 max-h-[85vh] overflow-y-auto touch-scroll`}
         >
           {/* Cabecera del Menú */}
           <div className="flex items-center justify-between pb-3 border-b border-slate-100">
@@ -857,7 +771,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                 <span className={`text-[9px] sm:text-[10px] font-mono font-bold px-1.5 sm:px-2 py-0.5 rounded-md ${
                   selectedInst === 'ALL' ? 'bg-slate-100 text-slate-800' : 'text-slate-400'
                 }`}>
-                  17,640
+                  34,440
                 </span>
               </button>
 
@@ -987,7 +901,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                 </span>
               </button>
 
-              {/* IDIOMAS / INGLÉS */}
+              {/* IDIOMAS (7 LENGUAS) */}
               <button
                 onClick={() => {
                   setSelectedInst('INGLES');
@@ -1000,11 +914,11 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                     ? 'bg-emerald-700 text-white shadow-xs'
                     : 'bg-white/70 text-slate-700 hover:bg-white hover:text-slate-900 border border-slate-200/50'
                 }`}
-                title="Marco Común Europeo de Referencia MCER / CEFR - Inglés (600 reactivos)"
+                title="Escuela de Idiomas Kuskat - 7 Lenguas (16,800 reactivos)"
               >
-                <span className="truncate block font-caslon font-bold text-[11px] sm:text-xs">Inglés</span>
+                <span className="truncate block font-caslon font-bold text-[11px] sm:text-xs">Idiomas</span>
                 <span className={`block text-[8.5px] sm:text-[9px] font-mono ${selectedInst === 'INGLES' ? 'text-emerald-200' : 'text-slate-400'}`}>
-                  600
+                  16,800
                 </span>
               </button>
             </div>
@@ -1359,6 +1273,46 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               </button>
             </div>
 
+            {/* Modalidad de Evaluación: Opción Múltiple vs Verdadero o Falso */}
+            <div className="flex items-center gap-2 pt-2 border-t border-slate-100 flex-wrap">
+              <span className="text-slate-500 font-bold text-[11px] uppercase tracking-wider">
+                Modalidad de Evaluación:
+              </span>
+              <div className="flex items-center gap-1 bg-slate-100 p-0.5 rounded-xl border border-slate-200">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setBrowserEvalMode('multiple_choice');
+                    setUserSelectedOptions({});
+                  }}
+                  className={`px-3 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+                    browserEvalMode === 'multiple_choice'
+                      ? 'bg-white text-blue-900 shadow-2xs font-extrabold'
+                      : 'text-slate-600 hover:text-slate-900'
+                  }`}
+                  title="Modo tradicional de selección múltiple (A-D)"
+                >
+                  🎯 Opción Múltiple (A-D)
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setBrowserEvalMode('true_false');
+                    setUserSelectedOptions({});
+                  }}
+                  className={`px-3 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1.5 ${
+                    browserEvalMode === 'true_false'
+                      ? 'bg-white text-indigo-900 shadow-2xs font-extrabold'
+                      : 'text-slate-600 hover:text-slate-900'
+                  }`}
+                  title="Evaluar cada reactivo en formato Verdadero o Falso"
+                >
+                  <Scale className="w-3.5 h-3.5 text-indigo-600" />
+                  <span>⚖️ Verdadero o Falso (V/F)</span>
+                </button>
+              </div>
+            </div>
+
             {/* Acciones Generales con estas preguntas */}
             <div className="flex items-center justify-between text-xs text-slate-500 pt-1 flex-wrap gap-2">
               <span className="font-semibold text-slate-700">
@@ -1395,6 +1349,12 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               </div>
             </div>
           </div>
+
+          {/* Fundamentación Teórica Oficial por Categoría (Mínimo 500 palabras, El Porqué, Ejemplos y APA 7.ª Edición) */}
+          <CategoryTheoryView
+            theory={currentCategoryTheory}
+            defaultExpanded={selectedInst !== 'ALL'}
+          />
 
           {/* Anuncio 3 / 5 (Categorías) */}
           <AdBanner variant="light" positionLabel="Categorías • 3/5 Explorador" slotId="4241045160_c3" />
@@ -1586,7 +1546,14 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                                     {sec.questions.map((q) => {
                                       const selectedKey = userSelectedOptions[q.id];
                                       const isAnswered = selectedKey !== undefined;
-                                      const isCorrect = selectedKey === q.correctAnswer;
+                                      const tf = convertToTrueFalse(q);
+                                      const expectedAns =
+                                        browserEvalMode === 'true_false'
+                                          ? tf.isTrue
+                                            ? 'VERDADERO'
+                                            : 'FALSO'
+                                          : q.correctAnswer;
+                                      const isCorrect = selectedKey === expectedAns;
                                       const showSolution = visibleSolutions[q.id] || false;
 
                                       return (
@@ -1648,56 +1615,190 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                                             <MathText text={q.statement} />
                                           </div>
 
-                                          {/* Opciones de Respuesta */}
-                                          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                                            {q.options.map((opt) => {
-                                              const isSelected = selectedKey === opt.key;
-                                              const isRight = q.correctAnswer === opt.key;
-
-                                              let btnClass =
-                                                'bg-slate-50 border-slate-200 text-slate-800 hover:bg-slate-100';
-
-                                              if (isAnswered || showSolution) {
-                                                if (isRight) {
-                                                  btnClass =
-                                                    'bg-emerald-50 border-emerald-500 text-emerald-950 font-semibold';
-                                                } else if (isSelected) {
-                                                  btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
-                                                } else {
-                                                  btnClass =
-                                                    'bg-slate-50/50 border-slate-200 text-slate-400 opacity-60';
-                                                }
-                                              }
-
-                                              return (
-                                                <button
-                                                  key={opt.key}
-                                                  onClick={() => {
-                                                    setUserSelectedOptions((prev) => ({
-                                                      ...prev,
-                                                      [q.id]: opt.key,
-                                                    }));
-                                                  }}
-                                                  className={`p-2.5 sm:p-3 rounded-xl border text-xs sm:text-sm text-left transition-all flex items-start gap-2.5 cursor-pointer min-h-[40px] ${btnClass}`}
-                                                >
-                                                  <span
-                                                    className={`w-5 h-5 rounded-md font-mono text-[11px] font-bold flex items-center justify-center shrink-0 ${
-                                                      (isAnswered || showSolution) && isRight
-                                                        ? 'bg-emerald-600 text-white'
-                                                        : isSelected
-                                                        ? 'bg-rose-600 text-white'
-                                                        : 'bg-white border border-slate-300 text-slate-700'
-                                                    }`}
-                                                  >
-                                                    {opt.key}
+                                          {/* Opciones de Respuesta (Opción Múltiple vs Verdadero o Falso) */}
+                                          {browserEvalMode === 'true_false' ? (
+                                            <div className="space-y-3">
+                                              {/* Caja de Proposición */}
+                                              <div className="p-3.5 sm:p-4 rounded-xl bg-indigo-50/70 border border-indigo-200 space-y-2">
+                                                <div className="flex items-center justify-between gap-2 flex-wrap text-xs">
+                                                  <span className="font-extrabold text-indigo-950 uppercase tracking-wider flex items-center gap-1.5">
+                                                    <Scale className="w-3.5 h-3.5 text-indigo-600" />
+                                                    Proposición para Evaluar:
                                                   </span>
-                                                  <div className="flex-1 break-words leading-snug pt-0.5">
-                                                    <MathText text={opt.text} />
-                                                  </div>
-                                                </button>
-                                              );
-                                            })}
-                                          </div>
+                                                  <span className="text-[10px] font-semibold text-indigo-700 bg-white/90 px-2 py-0.5 rounded-full border border-indigo-200">
+                                                    ¿Es Verdadero o Falso?
+                                                  </span>
+                                                </div>
+                                                <div className="text-slate-900 text-sm sm:text-base font-medium leading-relaxed bg-white/95 p-3 rounded-lg border border-indigo-100 shadow-2xs">
+                                                  <MathText text={tf.presentedOptionText} />
+                                                </div>
+                                              </div>
+
+                                              {/* Botones VERDADERO / FALSO */}
+                                              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                                                {/* VERDADERO */}
+                                                {(() => {
+                                                  const isPicked = selectedKey === 'VERDADERO';
+                                                  const isRight = expectedAns === 'VERDADERO';
+                                                  let btnClass =
+                                                    'bg-slate-50 border-slate-200 text-slate-800 hover:bg-emerald-50/50 hover:border-emerald-300';
+                                                  if (isAnswered || showSolution) {
+                                                    if (isRight) {
+                                                      btnClass =
+                                                        'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold';
+                                                    } else if (isPicked) {
+                                                      btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                                                    } else {
+                                                      btnClass =
+                                                        'bg-slate-50/50 border-slate-200 text-slate-400 opacity-60';
+                                                    }
+                                                  } else if (isPicked) {
+                                                    btnClass =
+                                                      'bg-emerald-50 border-emerald-600 text-emerald-950 font-bold';
+                                                  }
+
+                                                  return (
+                                                    <button
+                                                      key="VERDADERO"
+                                                      onClick={() => {
+                                                        setUserSelectedOptions((prev) => ({
+                                                          ...prev,
+                                                          [q.id]: 'VERDADERO',
+                                                        }));
+                                                      }}
+                                                      className={`p-3 rounded-xl border text-xs sm:text-sm text-left transition-all flex items-center gap-2.5 cursor-pointer min-h-[44px] ${btnClass}`}
+                                                    >
+                                                      <span
+                                                        className={`w-6 h-6 rounded-lg font-bold text-xs flex items-center justify-center shrink-0 ${
+                                                          (isAnswered || showSolution) && isRight
+                                                            ? 'bg-emerald-600 text-white'
+                                                            : isPicked
+                                                            ? 'bg-emerald-600 text-white'
+                                                            : 'bg-emerald-100 text-emerald-800'
+                                                        }`}
+                                                      >
+                                                        ✓
+                                                      </span>
+                                                      <div className="flex-1">
+                                                        <span className="font-extrabold block text-slate-900">
+                                                          VERDADERO
+                                                        </span>
+                                                        <span className="text-[11px] text-slate-500">
+                                                          La proposición planteada es correcta
+                                                        </span>
+                                                      </div>
+                                                    </button>
+                                                  );
+                                                })()}
+
+                                                {/* FALSO */}
+                                                {(() => {
+                                                  const isPicked = selectedKey === 'FALSO';
+                                                  const isRight = expectedAns === 'FALSO';
+                                                  let btnClass =
+                                                    'bg-slate-50 border-slate-200 text-slate-800 hover:bg-rose-50/50 hover:border-rose-300';
+                                                  if (isAnswered || showSolution) {
+                                                    if (isRight) {
+                                                      btnClass =
+                                                        'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold';
+                                                    } else if (isPicked) {
+                                                      btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                                                    } else {
+                                                      btnClass =
+                                                        'bg-slate-50/50 border-slate-200 text-slate-400 opacity-60';
+                                                    }
+                                                  } else if (isPicked) {
+                                                    btnClass =
+                                                      'bg-rose-50 border-rose-600 text-rose-950 font-bold';
+                                                  }
+
+                                                  return (
+                                                    <button
+                                                      key="FALSO"
+                                                      onClick={() => {
+                                                        setUserSelectedOptions((prev) => ({
+                                                          ...prev,
+                                                          [q.id]: 'FALSO',
+                                                        }));
+                                                      }}
+                                                      className={`p-3 rounded-xl border text-xs sm:text-sm text-left transition-all flex items-center gap-2.5 cursor-pointer min-h-[44px] ${btnClass}`}
+                                                    >
+                                                      <span
+                                                        className={`w-6 h-6 rounded-lg font-bold text-xs flex items-center justify-center shrink-0 ${
+                                                          (isAnswered || showSolution) && isRight
+                                                            ? 'bg-emerald-600 text-white'
+                                                            : isPicked
+                                                            ? 'bg-rose-600 text-white'
+                                                            : 'bg-rose-100 text-rose-800'
+                                                        }`}
+                                                      >
+                                                        ✕
+                                                      </span>
+                                                      <div className="flex-1">
+                                                        <span className="font-extrabold block text-slate-900">
+                                                          FALSO
+                                                        </span>
+                                                        <span className="text-[11px] text-slate-500">
+                                                          La proposición planteada es incorrecta
+                                                        </span>
+                                                      </div>
+                                                    </button>
+                                                  );
+                                                })()}
+                                              </div>
+                                            </div>
+                                          ) : (
+                                            /* Opciones de Respuesta A, B, C, D */
+                                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                                              {q.options.map((opt) => {
+                                                const isSelected = selectedKey === opt.key;
+                                                const isRight = q.correctAnswer === opt.key;
+
+                                                let btnClass =
+                                                  'bg-slate-50 border-slate-200 text-slate-800 hover:bg-slate-100';
+
+                                                if (isAnswered || showSolution) {
+                                                  if (isRight) {
+                                                    btnClass =
+                                                      'bg-emerald-50 border-emerald-500 text-emerald-950 font-semibold';
+                                                  } else if (isSelected) {
+                                                    btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                                                  } else {
+                                                    btnClass =
+                                                      'bg-slate-50/50 border-slate-200 text-slate-400 opacity-60';
+                                                  }
+                                                }
+
+                                                return (
+                                                  <button
+                                                    key={opt.key}
+                                                    onClick={() => {
+                                                      setUserSelectedOptions((prev) => ({
+                                                        ...prev,
+                                                        [q.id]: opt.key,
+                                                      }));
+                                                    }}
+                                                    className={`p-2.5 sm:p-3 rounded-xl border text-xs sm:text-sm text-left transition-all flex items-start gap-2.5 cursor-pointer min-h-[40px] ${btnClass}`}
+                                                  >
+                                                    <span
+                                                      className={`w-5 h-5 rounded-md font-mono text-[11px] font-bold flex items-center justify-center shrink-0 ${
+                                                        (isAnswered || showSolution) && isRight
+                                                          ? 'bg-emerald-600 text-white'
+                                                          : isSelected
+                                                          ? 'bg-rose-600 text-white'
+                                                          : 'bg-white border border-slate-300 text-slate-700'
+                                                      }`}
+                                                    >
+                                                      {opt.key}
+                                                    </span>
+                                                    <div className="flex-1 break-words leading-snug pt-0.5">
+                                                      <MathText text={opt.text} />
+                                                    </div>
+                                                  </button>
+                                                );
+                                              })}
+                                            </div>
+                                          )}
 
                                           {/* Clave y Justificación */}
                                           <div className="pt-2 border-t border-slate-100 flex flex-col gap-2">
@@ -1730,7 +1831,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                                                     </span>
                                                   ) : (
                                                     <span className="text-rose-600">
-                                                      Incorrecto (Clave: {q.correctAnswer})
+                                                      Incorrecto ({browserEvalMode === 'true_false' ? `Respuesta: ${expectedAns}` : `Clave: ${q.correctAnswer}`})
                                                     </span>
                                                   )}
                                                 </div>
@@ -1740,14 +1841,14 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                                             {showSolution && (
                                               <div className="p-3 rounded-xl bg-blue-50/80 border border-blue-100 text-xs sm:text-sm text-slate-700 space-y-1.5 animate-fade-in">
                                                 <div className="font-bold text-blue-950 flex items-center gap-2">
-                                                  <span>Opción Correcta:</span>
+                                                  <span>{browserEvalMode === 'true_false' ? 'Evaluación Oficial:' : 'Opción Correcta:'}</span>
                                                   <span className="px-2 py-0.5 bg-blue-600 text-white rounded-md text-xs font-mono">
-                                                    {q.correctAnswer}
+                                                    {expectedAns}
                                                   </span>
                                                 </div>
                                                 <div className="text-slate-700 leading-relaxed">
                                                   <strong className="text-slate-900">Justificación: </strong>
-                                                  <MathText text={q.explanation} />
+                                                  <MathText text={browserEvalMode === 'true_false' ? tf.explanation : q.explanation} />
                                                 </div>
                                               </div>
                                             )}

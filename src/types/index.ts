@@ -3,6 +3,8 @@ export type Institution = 'UES' | 'ANSP' | 'ASD' | 'AVANZO' | 'ENA' | 'ESCALAFON
 
 export type PedagogicalLevel = 'basico' | 'intermedio' | 'admision';
 
+export type EvaluationMode = 'multiple_choice' | 'true_false';
+
 export interface QuestionOption {
   key: string; // 'A' | 'B' | 'C' | 'D' | 'E' | 'F'
   text: string;

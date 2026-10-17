@@ -6,6 +6,8 @@
     overflow-x: hidden;
     width: 100%;
     -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
     font-family: 'Libre Caslon Condensed', 'Caslon', Georgia, serif;
     letter-spacing: 0.015em;
   }
@@ -13,6 +15,19 @@
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Montenegrin Gothic One', 'Bodoni MT', 'Didot', 'Playfair Display', Georgia, serif;
     font-weight: 400;
+  }
+
+  /* Responsive image & table safety */
+  img, svg, video, canvas {
+    max-width: 100%;
+    height: auto;
+  }
+
+  table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 }
 

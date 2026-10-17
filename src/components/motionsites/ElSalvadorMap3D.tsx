@@ -376,7 +376,7 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
   }, [onSelectDepartment, selectedDepartmentId]);
 
   return (
-    <div className="relative w-full h-[500px] sm:h-[600px] lg:h-[700px] bg-gradient-to-b from-slate-50 via-slate-100 to-slate-200 overflow-hidden select-none border-b border-slate-200">
+    <div className="relative w-full h-[420px] sm:h-[550px] lg:h-[680px] bg-gradient-to-b from-slate-50 via-slate-100 to-slate-200 overflow-hidden select-none border-b border-slate-200">
       {/* Canvas 3D de Three.js o fallback interactivo 2D si WebGL no está disponible */}
       {hasWebGlError ? (
         <div className="absolute inset-0 pt-36 sm:pt-40 pb-6 px-4 overflow-y-auto z-10 max-w-5xl mx-auto">

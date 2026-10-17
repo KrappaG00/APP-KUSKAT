@@ -181,7 +181,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
           <div className="flex items-center gap-2 sm:gap-3 shrink-0">
             <button
               onClick={onOpenCategories}
-              className="hidden sm:inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-700 font-caslon text-xs font-semibold tracking-micro uppercase transition-colors cursor-pointer"
+              className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-2 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-700 font-caslon text-xs font-semibold tracking-micro uppercase transition-colors cursor-pointer"
             >
               <Layers className="w-3.5 h-3.5 text-blue-600" />
               <span>Categorías</span>

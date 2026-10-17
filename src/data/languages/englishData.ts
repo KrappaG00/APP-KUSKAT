@@ -81,6 +81,26 @@ export interface PhoneticDistinction {
   examples: { word: string; usIpa: string; ukIpa: string; audioNote: string }[];
 }
 
+export interface LanguageVerbItem {
+  infinitive: string;
+  pastSimple?: string;
+  pastParticiple?: string;
+  spanish: string;
+  level?: CEFRLevel;
+  type?: string;
+  present?: string;
+  past?: string;
+  future?: string;
+  imperative?: string;
+  class?: string;
+}
+
+export interface DialogueLine {
+  speaker: string;
+  text: string;
+  translation: string;
+}
+
 export interface GrammarTopicLesson {
   id: string;
   title: string;
@@ -88,12 +108,43 @@ export interface GrammarTopicLesson {
   category: string;
   summary: string;
   formula?: string;
+  detailedExplanation?: string;
   rules: string[];
   examplesUS: string[];
   examplesUK: string[];
+  practicalDialogue?: DialogueLine[];
   commonMistakes: string[];
-  referenceLink: string;
+  studyTips?: string[];
+  referenceLink?: string;
 }
+
+/**
+ * Calcula con precisión matemática el total de palabras que componen una clase pedagógica
+ * (incluyendo título, teoría, reglas, ejemplos US/UK, diálogos prácticos y consejos).
+ */
+export function countLessonWords(lesson: GrammarTopicLesson): number {
+  const parts: string[] = [
+    lesson.title || '',
+    lesson.category || '',
+    lesson.summary || '',
+    lesson.formula || '',
+    lesson.detailedExplanation || '',
+    ...(lesson.rules || []),
+    ...(lesson.examplesUS || []),
+    ...(lesson.examplesUK || []),
+    ...(lesson.commonMistakes || []),
+    ...(lesson.studyTips || []),
+  ];
+  if (lesson.practicalDialogue) {
+    for (const d of lesson.practicalDialogue) {
+      parts.push(d.speaker, d.text, d.translation);
+    }
+  }
+  const text = parts.join(' ');
+  const matches = text.match(/\b[\wáéíóúÁÉÍÓÚñÑüÜ'-]+\b/g);
+  return matches ? matches.length : 0;
+}
+
 
 export interface LevelCurriculumInfo {
   level: CEFRLevel;
