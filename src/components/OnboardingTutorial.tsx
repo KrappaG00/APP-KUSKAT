@@ -1,7 +1,6 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import {
   GraduationCap,
-  Shield,
   Layers,
   Sparkles,
   Award,
@@ -11,10 +10,12 @@ import {
   Languages,
   Printer,
   BookOpen,
-  Scale
+  Scale,
+  Globe,
 } from 'lucide-react';
 import { TutorialStep } from '../types';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { useTranslation } from '../i18n';
 
 interface OnboardingTutorialProps {
   isOpen: boolean;
@@ -24,34 +25,34 @@ interface OnboardingTutorialProps {
 export const TUTORIAL_STEPS: TutorialStep[] = [
   {
     step: 1,
-    title: 'Elige tu Institución, Materia & Portal 3D Estable',
-    subtitle: 'Preparación de alto rendimiento para exámenes oficiales de El Salvador',
-    badge: 'Paso 1 de 6 • Convocatorias & 3D',
+    title: 'Elige tu Idioma Intercultural, Institución, Materia & Portal 3D / 2D',
+    subtitle: 'Sistema multilingüe en 7 lenguas, accesibilidad WCAG 2.2 AA y 34,440 preguntas oficiales',
+    badge: 'Paso 1 de 6 • Idioma, Convocatorias & 3D',
     description:
-      'KUSKAT (creado por Yeferson E. Perez) reúne un banco maestro de 34,440 preguntas de selección múltiple (17,640 en 6 convocatorias de exigencia nacional y 16,800 en la Escuela de Idiomas), complementado con un Portal 3D interactivo con mapa de El Salvador fijo y adaptado a cualquier pantalla.',
+      'KUSKAT (creado por Yeferson E. Perez) integra un Sistema Multilingüe Intercultural persistente (Español, Náhuat, Lenca, Kakawira, English, العربية con soporte RTL y 中文) junto a un banco maestro de 34,440 preguntas de selección múltiple y un Portal 3D con alternativa 2D accesible.',
     bulletPoints: [
+      '🌐 Selector de Idioma Intercultural (kuskat.lang): Cambia sin recargar la página entre Español, Náhuat, Lenca, Kakawira, Inglés, Árabe (RTL) y Mandarín desde la cabecera, el Portal 3D o este tutorial.',
+      '♿ Portal 3D + Vista 2D Accesible: Explora el mapa interactivo 3D de El Salvador o activa el botón "Saltar experiencia 3D (Vista 2D accesible)" para navegar por teclado los 14 departamentos.',
       '🎓 Admisión UES (7,500 reactivos): Matemática, Física, Química, Biología, Ciencias Sociales y Lenguaje.',
       '📜 Escalafón Docente (3,300 reactivos): Ascenso al Nivel Uno 2026 MINED en Formación General y 10 Especialidades.',
       '📘 Prueba AVANZO (3,000 reactivos): Bachillerato MINED en Precálculo, Ciudadanía y Valores, Ciencia y Tecnología, Lengua e Inglés.',
-      '🏅 Jóvenes Talento - ASD (2,190 reactivos): 5.°, 6.° y 7.° Grado en Matemática y Ciencias Naturales.',
-      '🌱 Admisión ENA (1,400 reactivos): Técnico Agropecuario en Matemáticas Agrarias, Química, Biología y Lenguaje.',
+      '🏅 Jóvenes Talento - ASD (2,190 reactivos) y 🌱 Admisión ENA (1,400 reactivos): Preparación científica y agropecuaria integral.',
       '🛡️ Academia ANSP (250 reactivos): Prueba Cultural PNC en legislación, derecho constitucional y cultura salvadoreña.',
-      '🗺️ Mapa 3D Estable y Adaptativo: Geografía de los 14 departamentos fija (sin tambaleo) que se adapta automáticamente a celulares, tablets y computadoras.',
     ],
   },
   {
     step: 2,
-    title: 'Categorías, Malla Curricular & Teoría Oficial APA 7.ª Edición',
-    subtitle: 'Fundamentación pedagógica rigurosa (≥500 palabras por materia) y navegación fluida',
-    badge: 'Paso 2 de 6 • Malla & Teoría APA',
+    title: 'Categorías, Malla Curricular, Modo Aprender Español & Teoría APA 7.ª Edición',
+    subtitle: 'Comparación bilingüe lado a lado, Glosario Técnico Intercultural y teoría de ≥500 palabras',
+    badge: 'Paso 2 de 6 • Malla, EIB & Teoría APA',
     description:
-      'El temario se organiza jerárquicamente por Institución, Materia, Tema y Sección. Todas las categorías cuentan con módulos teóricos exhaustivos de mínimo 500 palabras explicando el porqué epistemológico, ejemplos resueltos paso a paso y referencias bibliográficas académicas en formato APA 7.ª Edición.',
+      'El temario se organiza jerárquicamente por Institución, Materia, Tema y Sección. Incluye el nuevo Modo Intercultural "Aprender Español" para comunidades de lenguas originarias o extranjeras, además de módulos teóricos de mínimo 500 palabras con citas en formato APA 7.ª Edición.',
     bulletPoints: [
-      '📖 Teoría Académica Exhaustiva (≥500 palabras): Cada materia y categoría integra fundamentación pedagógica completa con desarrollo epistemológico y justificación detallada.',
-      '📚 Referencias Bibliográficas APA 7.ª Edición: Citas y fuentes formales oficiales (MINED, UES, RAE, Duden, Cambridge, etc.) para consulta y rigor académico.',
-      '📂 Secciones cerradas por defecto: Optimización de rendimiento para carga ultra rápida; despliega solo el tema que deseas estudiar.',
-      '🌱 Niveles Pedagógicos (Básico, Intermedio y Admisión): Progresión didáctica desde conceptos elementales hasta reactivos integradores de alta dificultad.',
-      '🔍 Buscador Inteligente Instantáneo: Filtra preguntas y conceptos en tiempo real por palabras clave, áreas temáticas o fórmulas KaTeX.',
+      '🤝 Modo "Aprender Español" (Bilingüe Lado a Lado o Apilado): Visualiza cada pregunta en tu lengua materna (Náhuat, Lenca, Kakawira, Inglés, Árabe o Mandarín) y en Español simultáneamente.',
+      '📘 Glosario Técnico Intercultural Contextual: Explica conceptos clave (ej. fracción, ecuación, átomo, Constitución) distinguiendo entre términos propios revitalizados y préstamos técnicos justificados.',
+      '🔔 Fallback Transparente al Español: Si un reactivo especializado aún está en proceso de traducción comunitaria, el sistema cae automáticamente al español mostrando un aviso discreto sin exponer claves crudas.',
+      '📖 Teoría Académica Exhaustiva (≥500 palabras) y APA 7.ª Edición: Fundamentación epistemológica rigurosa con fuentes oficiales (MINED, UES, RAE, Cambridge, Duden).',
+      '🌱 Niveles Pedagógicos (Básico, Intermedio y Admisión) y Buscador Instantáneo: Filtra preguntas en tiempo real con secciones colapsadas por defecto para máxima velocidad.',
     ],
   },
   {
@@ -62,7 +63,7 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
     description:
       'Aprende y domina 7 idiomas estructurados bajo el estándar internacional MCER/CEFR (A1 a C2), con selector interactivo para elegir la lengua, el área temática y el número de reactivos (desde 10 hasta las 400 preguntas completas por nivel o banco íntegro).',
     bulletPoints: [
-      '🗣️ 7 Idiomas Activos: Inglés (US vs. UK), Náhuat Pipil (Witzapan), Lenca Potón, Kakawira (Cacaopera), Alemán (DACH), Árabe (Fus\'ha y Levantino) y Mandarín (Pǔtōnghuà con Hanzi y Pinyin).',
+      '🗣️ 7 Idiomas Activos con Autónimos Nativos: Inglés (US vs. UK), Náhuat Pipil (Witzapan), Lenca Potón, Kakawira (Cacaopera), Alemán (DACH), Árabe (العربية — Fus\'ha y Levantino con RTL) y Mandarín (中文 — Pǔtōnghuà con Hanzi y Pinyin).',
       '⚙️ Menú de Configuración de Examen: Selecciona tu lengua, nivel MCER (A1-C2), área temática y cantidad de reactivos: 10, 25, 50, 100, 200, 400 (Banco Completo ⭐), TODAS o cantidad personalizada.',
       '📚 840 Clases Teóricas Rigurosas: 120 lecciones completas por idioma (20 por nivel A1-C2) con más de 500 palabras de contenido, diálogos culturales y citas APA 7.ª Edición.',
       '📝 16,800 Reactivos Multilingües: 2,400 preguntas oficiales por idioma (400 por nivel) evaluables en Opción Múltiple (A-D) o Verdadero/Falso (V/F) con mapa interactivo de navegación.',
@@ -72,45 +73,44 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
   {
     step: 4,
     title: 'Evaluación en Verdadero o Falso (V/F), KaTeX & Cuentas Nativas',
-    subtitle: 'Doble modalidad evaluativa en todas las preguntas, renderizado matemático y privacidad estricta',
+    subtitle: 'Doble modalidad evaluativa global, fórmulas matemáticas con aislamiento LTR/RTL y privacidad estricta',
     badge: 'Paso 4 de 6 • V/F, KaTeX & Cuentas',
     description:
-      'Personaliza tu método de estudio alternando en cualquier momento entre Opción Múltiple (A–D) y Verdadero o Falso (V/F) para todas las 34,440 preguntas del proyecto. Además, cuentas nativas seguras con KaTeX de alta precisión.',
+      'Personaliza tu método de estudio alternando en cualquier momento entre Opción Múltiple (A–D) y Verdadero o Falso (V/F) para todas las 34,440 preguntas del proyecto. Además, cuentas nativas seguras con sincronización de idioma y renderizado KaTeX con caché LRU.',
     bulletPoints: [
       '⚖️ Modo Verdadero o Falso (V/F) Global: Evalúate en V/F en cualquier examen, materia o idioma con proposiciones generadas dinámicamente.',
-      '🎯 Opción Múltiple Tradicional (A–D): Cuatro alternativas con distractores pedagógicos calibrados y justificación oficial.',
-      '👤 Cuentas Nativas con SHA-256: Sin intermediarios externos (sin Google ni Facebook); contraseñas cifradas localmente en el navegador.',
+      '🎯 Opción Múltiple Tradicional (A–D): Cuatro alternativas con distractores pedagógicos calibrados y justificación oficial bilingüe.',
+      '📐 Tipografía KaTeX con Caché LRU y Soporte RTL: Renderizado instantáneo de fórmulas matemáticas y químicas, manteniendo dirección LTR en ecuaciones incluso al usar la interfaz en Árabe.',
+      '👤 Cuentas Nativas con SHA-256 y Sincronización de Idioma: Contraseñas cifradas localmente y guardado automático de tu idioma preferido en tu perfil.',
       '📝 Doble Consentimiento Explícito: Casillas independientes para Términos de Uso y Política de Privacidad auditada.',
-      '📐 Tipografía KaTeX Profesional: Renderizado perfecto de fórmulas matemáticas, matrices, vectores y ecuaciones químicas.',
     ],
   },
   {
     step: 5,
     title: 'Simulador Maestro, Remediación Inmediata & Ranking Top 1 / 10',
-    subtitle: 'Práctica personalizada hasta 400 preguntas, refuerzo de errores y ranking nacional',
+    subtitle: 'Práctica bilingüe hasta 400 preguntas, refuerzo de errores en vivo y ranking nacional',
     badge: 'Paso 5 de 6 • Simulador & Refuerzo',
     description:
-      'Configura simulacros desde 5 hasta 400 preguntas por área o nivel. Si fallas una pregunta, el solucionario te permite activar de inmediato un reactivo equivalente para reforzar ese tema específico.',
+      'Configura simulacros desde 5 hasta 400 preguntas por área o nivel con soporte completo del Modo Aprender Español. Si fallas una pregunta, el solucionario te permite activar de inmediato un reactivo equivalente para reforzar ese tema específico.',
     bulletPoints: [
       '🔄 Remediación Pedagógica en Solucionario: Ante cualquier error, practica al instante con una pregunta similar equivalente del mismo subtema.',
+      '🌐 Soporte Multilingüe en Exámenes y Solucionario: Consulta la traducción intercultural y el glosario técnico tanto en Modo Tutor como al finalizar la prueba.',
       '⏱️ Temporizador Flexible y Modo Tutor: Elige 1.0 min, 1.5 min por reactivo o modo sin tiempo, con retroalimentación inmediata opcional.',
       '🏆 Puntuación Oficial KUSKAT: +1 punto por cada acierto, -2 puntos por cada error, con tope mínimo en 0 (cero saldo negativo).',
-      '👑 Salón de Honor Top 1 & Top 10: Clasificación nacional por convocatoria con filtros Diario, Mensual, Trimestral, Semestral y Anual.',
-      '📅 Ciclo Anual Automático: El ranking nacional se renueva de forma transparente cada 31 de diciembre a medianoche.',
+      '👑 Salón de Honor Top 1 & Top 10: Clasificación nacional por convocatoria (mostrando solo alias seguros) con filtros Diario, Mensual, Trimestral, Semestral y Anual.',
     ],
   },
   {
     step: 6,
-    title: 'Resultados, Historial en Texto, Impresión a PDF y Marco Legal',
-    subtitle: 'Boleta de notas 100% en memoria, cero archivos en la nube y normativas de El Salvador',
-    badge: 'Paso 6 de 6 • Exámenes & Legal',
+    title: 'Resultados, Web Responsiva, Rendimiento Ultra-Rápido y Marco Legal',
+    subtitle: 'Carga diferida lazy (<135 KB gzip), navegación móvil adaptativa, impresión a PDF y normativas de El Salvador',
+    badge: 'Paso 6 de 6 • Rendimiento, PDF & Legal',
     description:
-      'En el apartado "CUENTA" puedes consultar todos tus exámenes realizados guardados en formato de texto. Genera boletas oficiales en PDF y exporta a LaTeX sin almacenar ningún archivo temporal en la nube.',
+      'El proyecto está optimizado para ejecutarse en el menor tiempo posible mediante carga dinámica de idiomas y módulos, diseño 100% responsivo para móviles/tablets/PC y generación de boletas en PDF o LaTeX 100% en memoria.',
     bulletPoints: [
-      '📋 Historial de Exámenes Realizados: Revisa en "CUENTA" tus evaluaciones anteriores con aciertos, errores, fecha y puntaje.',
-      '🖨️ Imprimir / Exportar a PDF: Emite al instante tu boleta oficial y solucionario para imprimir o descargar en PDF en tu navegador.',
-      '📄 Exportador LaTeX Completo: Genera código fuente TeX profesional con formato de admisión listo para Overleaf.',
-      '🛡️ Cero Documentos en la Nube: Todo se genera en la memoria de tu dispositivo; al salir no queda ningún archivo temporal en servidores.',
+      '⚡ Rendimiento Optimizado (Lazy Loading): Los bancos de preguntas y diccionarios de idioma se cargan bajo demanda sin inflar el bundle inicial.',
+      '📱 Diseño Web Responsivo y Accesible (WCAG 2.2 AA): Barra inferior en móviles, navegación por teclado (Flechas, Enter, Escape), foco visible y respeto a prefers-reduced-motion.',
+      '📋 Historial en "CUENTA" e Impresión a PDF / LaTeX: Emite al instante tu boleta oficial, solucionario en PDF o código fuente TeX para Overleaf sin subir archivos a la nube.',
       '⚖️ Cumplimiento Legal Salvadoreño: Respaldado por la Constitución de El Salvador (Arts. 53-54), Ley de Comercio Electrónico y Delitos Informáticos.',
       '💬 Canales de Contacto: Conéctate con el creador Yeferson E. Perez por WhatsApp (+503 7943 9901) e Instagram (@Kuskat.es).',
     ],
@@ -139,6 +139,7 @@ const getStepIcon = (stepNum: number) => {
 export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, onClose }) => {
   const [currentStep, setCurrentStep] = useState<number>(0);
   const [dontShowAgain, setDontShowAgain] = useState<boolean>(false);
+  const { t, languageMeta } = useTranslation();
 
   // Navegación con teclado (Escape para salir, Flechas para avanzar/retroceder)
   const handleKeyDown = useCallback(
@@ -189,6 +190,7 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
       role="dialog"
       aria-modal="true"
       aria-labelledby="tutorial-modal-title"
+      dir={languageMeta.dir}
       className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-900/65 backdrop-blur-sm animate-fade-in"
       onClick={handleSkip}
     >
@@ -204,7 +206,7 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
                 <img src="/kuskat_logo.png" alt="KUSKAT" className="w-full h-full object-contain" />
               </div>
               <span className="font-montenegrin text-xs tracking-wider uppercase text-blue-200 font-bold">
-                KUSKAT • Guía Tutorial Oficial
+                {t('tutorial.welcomeTitle')}
               </span>
             </div>
 
@@ -258,11 +260,20 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
 
         {/* Contenido del Paso */}
         <div className="p-5 sm:p-7 space-y-4 text-xs sm:text-sm leading-relaxed overflow-y-auto max-h-[60vh] touch-scroll">
-          {currentStep === 0 && (
-            <div className="p-3.5 rounded-2xl bg-blue-50/70 border border-blue-200/80 space-y-2">
-              <LanguageSwitcher variant="inline-pills" showLearnSpanishToggle={true} />
+          {/* Selector de idioma intercultural integrado en el tutorial */}
+          <div className="p-3.5 rounded-2xl bg-gradient-to-r from-blue-50/90 via-indigo-50/60 to-emerald-50/70 border border-blue-200/80 space-y-2">
+            <div className="flex items-center justify-between gap-2 flex-wrap">
+              <span className="text-[11px] font-extrabold text-blue-950 uppercase tracking-wider flex items-center gap-1.5">
+                <Globe className="w-3.5 h-3.5 text-blue-600" />
+                {t('tutorial.chooseLanguageStep')}
+              </span>
+              <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-white text-blue-800 border border-blue-200">
+                {languageMeta.nativeName} ({languageMeta.dir.toUpperCase()})
+              </span>
             </div>
-          )}
+            <LanguageSwitcher variant="inline-pills" showLearnSpanishToggle={true} />
+          </div>
+
           <p className="text-slate-600 font-medium leading-relaxed">{step.description}</p>
 
           <div className="bg-slate-50 rounded-2xl border border-slate-200 p-4 space-y-2.5">
@@ -303,7 +314,7 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
               onClick={handleSkip}
               className="px-3 py-2 text-slate-500 hover:text-slate-800 font-semibold rounded-xl hover:bg-slate-200/60 transition-colors cursor-pointer"
             >
-              Omitir
+              {t('tutorial.skip')}
             </button>
 
             {!isFirstStep && (
@@ -312,7 +323,7 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
                 className="flex items-center gap-1 px-3 py-2 text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 font-bold rounded-xl transition-colors cursor-pointer shadow-2xs"
               >
                 <ArrowLeft className="w-3.5 h-3.5" />
-                <span>Anterior</span>
+                <span>{t('tutorial.prev')}</span>
               </button>
             )}
 
@@ -320,7 +331,7 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
               onClick={handleNext}
               className="flex items-center gap-1.5 px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 font-bold rounded-xl shadow-sm transition-all cursor-pointer"
             >
-              <span>{isLastStep ? 'Comenzar a estudiar' : 'Siguiente'}</span>
+              <span>{isLastStep ? t('tutorial.finish') : t('tutorial.next')}</span>
               <ArrowRight className="w-3.5 h-3.5" />
             </button>
           </div>
