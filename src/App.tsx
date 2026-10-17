@@ -71,6 +71,7 @@ const LegalModal = React.lazy(() =>
 import { KaTeXMath, escapeHtml } from './utils/mathRenderer';
 import { useTranslation } from './i18n';
 import { LanguageSwitcher } from './components/LanguageSwitcher';
+import { HeaderNavbar, AppPageTab } from './components/HeaderNavbar';
 export { KaTeXMath };
 
 // ============================================================================
@@ -251,6 +252,15 @@ export default function App() {
           onOpenCategories={() => {
             setActiveTab('categories');
           }}
+          onSelectTab={(tab) => {
+            if (tab === 'practice') setQuizQuestions([]);
+            setActiveTab(tab);
+          }}
+          onOpenAccountModal={() => setIsAccountModalOpen(true)}
+          onOpenTutorial={() => setIsTutorialOpen(true)}
+          onOpenDevModal={() => setIsDevModalOpen(true)}
+          onOpenLegalModal={handleOpenLegalModal}
+          currentUser={currentUser}
         />
       </React.Suspense>
     );
@@ -259,232 +269,20 @@ export default function App() {
   return (
     <div className="min-h-screen bg-slate-100 flex flex-col font-caslon text-slate-800">
       {/* ==================================================================== */}
-      {/* 1. CINTILLO SUPERIOR DE INFORMACIÓN Y CONTACTO */}
+      {/* ENCABEZADO PRINCIPAL PERSISTENTE CON MENÚ DE TODAS LAS PÁGINAS */}
       {/* ==================================================================== */}
-      <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 text-white text-[10px] sm:text-xs py-2 px-3 sm:px-6 lg:px-8 border-b border-blue-900/50">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1.5 sm:gap-2">
-          <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap justify-center sm:justify-start">
-            <span className="px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-300 font-bold border border-amber-400/30 text-[9px] sm:text-[10px] uppercase tracking-wider animate-pulse shrink-0">
-              En Desarrollo
-            </span>
-            <span className="font-medium text-slate-200">
-              Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.
-            </span>
-          </div>
-
-          <div className="flex items-center gap-2.5 sm:gap-3 text-slate-300 font-medium text-[10px] sm:text-xs shrink-0">
-            <a
-              href="https://wa.me/50376574463?text=Hola%20KUSKAT,%20estoy%20estudiando%20desde%20tu%20app%20de%20estudio%20:)"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-emerald-400 flex items-center gap-1 transition-colors"
-              title="WhatsApp KUSKAT: +503 7657 4463"
-            >
-              <span className="text-emerald-400 font-bold">WhatsApp KUSKAT:</span>
-              <span className="font-mono">+503 7657 4463</span>
-            </a>
-            <span className="text-slate-600 hidden sm:inline">•</span>
-            <a
-              href="https://instagram.com/Kuskat.es"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-pink-400 flex items-center gap-1 transition-colors"
-              title="Instagram: @Kuskat.es"
-            >
-              <span className="text-pink-400 font-bold">Instagram:</span>
-              <span>@Kuskat.es</span>
-            </a>
-            <span className="text-slate-600 hidden md:inline">•</span>
-            <button
-              onClick={() => handleOpenLegalModal('terms')}
-              className="hidden md:flex hover:text-blue-300 items-center gap-1 transition-colors cursor-pointer text-slate-300"
-              title="Marco legal, privacidad y normativas salvadoreñas"
-            >
-              <Scale className="w-3.5 h-3.5 text-blue-400" />
-              <span>Legal y Privacidad</span>
-            </button>
-          </div>
-        </div>
-      </div>
-
-      {/* ==================================================================== */}
-      {/* 2. ENCABEZADO PRINCIPAL (HEADER) */}
-      {/* ==================================================================== */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs">
-        <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2.5 sm:py-3 flex items-center justify-between gap-2 sm:gap-4">
-          {/* Logo y Nombre del Proyecto */}
-          <div className="flex items-center gap-2 sm:gap-3 min-w-0">
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center justify-center p-1 shrink-0 overflow-hidden">
-              <img
-                src="/kuskat_logo.png"
-                alt="Logo KUSKAT"
-                className="w-full h-full object-contain"
-              />
-            </div>
-            <div className="min-w-0">
-              <div className="flex items-center gap-1.5 sm:gap-2">
-                <h1 className="text-lg sm:text-2xl font-black text-slate-900 tracking-tight font-montenegrin truncate">
-                  KUSKAT
-                </h1>
-                <span className="text-[9px] sm:text-xs font-bold text-blue-700 bg-blue-50 px-1.5 sm:px-2 py-0.5 rounded-md border border-blue-200 shrink-0">
-                  Banco Maestro
-                </span>
-              </div>
-              <p className="text-[10px] sm:text-[11px] text-slate-500 font-medium truncate hidden xs:block sm:block">
-                {t('app.subtitle')}
-              </p>
-            </div>
-          </div>
-
-          {/* Navegación y Perfil: versión escritorio completa */}
-          <div className="hidden md:flex items-center gap-2 flex-wrap justify-end shrink-0">
-            {/* Selector de idioma intercultural (7 lenguas + Modo Aprender Español) */}
-            <LanguageSwitcher variant="compact" />
-
-            {/* Botón de Ficha del Desarrollador */}
-            <button
-              onClick={() => setIsDevModalOpen(true)}
-              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border border-slate-200 bg-slate-50 hover:bg-slate-100 text-slate-700 text-xs font-semibold transition-all cursor-pointer shadow-2xs group"
-              title="Ver biografía y datos de contacto de Yeferson E. Perez"
-            >
-              <div className="w-5 h-5 rounded-full overflow-hidden border border-amber-400 shrink-0">
-                <img
-                  src="/yeferson_perez.jpg"
-                  alt="Yeferson E. Perez"
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform"
-                  onError={(e) => {
-                    (e.target as HTMLElement).style.display = 'none';
-                  }}
-                />
-              </div>
-              <span className="hidden lg:inline">{t('nav.creator')}:</span>
-              <span className="font-bold text-slate-900">Yeferson E. Perez</span>
-            </button>
-
-            {/* Botón de Tutorial / Guía Inicial */}
-            <button
-              onClick={() => setIsTutorialOpen(true)}
-              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border border-blue-200 bg-blue-50/80 hover:bg-blue-100 text-blue-900 text-xs font-bold transition-all cursor-pointer shadow-2xs"
-              title="Abrir tutorial y guía interactiva de KUSKAT"
-            >
-              <HelpCircle className="w-3.5 h-3.5 text-blue-600" />
-              <span>{t('nav.tutorial')}</span>
-            </button>
-
-            {/* Vistas Principales (Tabs) */}
-            <nav className="flex items-center bg-slate-100 p-1 rounded-xl text-xs font-semibold text-slate-600">
-              <button
-                onClick={() => setActiveTab('motionsites3d')}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
-                  (activeTab as string) === 'motionsites3d'
-                    ? 'bg-slate-900 text-[#F8DCCB] shadow-xs font-bold'
-                    : 'text-indigo-900 bg-indigo-50/80 hover:bg-indigo-100 font-bold border border-indigo-200/60'
-                }`}
-                title="Entrar al portal 3D interactivo con mapa de El Salvador"
-              >
-                <Sparkles className="w-3.5 h-3.5 text-amber-500 animate-pulse" />
-                <span>{t('nav.portal3d')}</span>
-              </button>
-              <button
-                onClick={() => setActiveTab('categories')}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
-                  activeTab === 'categories'
-                    ? 'bg-white text-slate-900 shadow-xs font-bold'
-                    : 'hover:text-slate-900'
-                }`}
-              >
-                <FolderTree className="w-3.5 h-3.5 text-blue-600" />
-                <span>{t('nav.categories')}</span>
-              </button>
-              <button
-                onClick={() => {
-                  setQuizQuestions([]);
-                  setActiveTab('practice');
-                }}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
-                  activeTab === 'practice'
-                    ? 'bg-white text-slate-900 shadow-xs font-bold'
-                    : 'hover:text-slate-900'
-                }`}
-              >
-                <Award className="w-3.5 h-3.5 text-amber-500" />
-                <span>{t('nav.simulator')}</span>
-              </button>
-              <button
-                onClick={() => setActiveTab('latex')}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
-                  activeTab === 'latex'
-                    ? 'bg-white text-slate-900 shadow-xs font-bold'
-                    : 'hover:text-slate-900'
-                }`}
-              >
-                <FileCode className="w-3.5 h-3.5" />
-                <span>{t('nav.latex')}</span>
-              </button>
-              <button
-                onClick={() => setActiveTab('languages')}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
-                  activeTab === 'languages'
-                    ? 'bg-white text-slate-900 shadow-xs font-bold'
-                    : 'hover:text-slate-900'
-                }`}
-                title="Aprender Idiomas: 7 Lenguas (A1 a C2)"
-              >
-                <Languages className="w-3.5 h-3.5 text-emerald-600" />
-                <span>{t('nav.languages')}</span>
-              </button>
-            </nav>
-
-            {/* Botón de Cuenta / Iniciar Sesión */}
-            <button
-              onClick={() => setIsAccountModalOpen(true)}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl border text-xs font-bold transition-all cursor-pointer shadow-2xs ${
-                currentUser
-                  ? 'border-emerald-300 bg-emerald-50 text-emerald-900 hover:bg-emerald-100'
-                  : 'border-blue-300 bg-blue-50 text-blue-900 hover:bg-blue-100'
-              }`}
-              title={currentUser ? `Cuenta activa: ${currentUser.username} • Ver exámenes realizados` : 'Iniciar sesión o registrar cuenta nativa'}
-            >
-              <UserCheck className="w-3.5 h-3.5 text-blue-600" />
-              {currentUser ? (
-                <span className="flex items-center gap-1.5">
-                  <span className="truncate max-w-[100px]">{currentUser.username}</span>
-                  <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
-                </span>
-              ) : (
-                <span>{t('nav.account')}</span>
-              )}
-            </button>
-          </div>
-
-          {/* Navegación móvil rápida en cabecera: selector idioma + cuenta + tutorial */}
-          <div className="flex md:hidden items-center gap-1.5 shrink-0">
-            <LanguageSwitcher variant="compact" showLearnSpanishToggle={true} />
-            <button
-              onClick={() => setIsTutorialOpen(true)}
-              className="p-2 rounded-xl border border-blue-200 bg-blue-50 text-blue-900 text-xs font-bold cursor-pointer"
-              title="Abrir tutorial"
-              aria-label={t('nav.tutorial')}
-            >
-              <HelpCircle className="w-4 h-4 text-blue-600" />
-            </button>
-            <button
-              onClick={() => setIsAccountModalOpen(true)}
-              className={`flex items-center gap-1 px-2.5 py-1.5 rounded-xl border text-xs font-bold cursor-pointer ${
-                currentUser
-                  ? 'border-emerald-300 bg-emerald-50 text-emerald-900'
-                  : 'border-blue-300 bg-blue-50 text-blue-900'
-              }`}
-              title={currentUser ? currentUser.username : t('nav.account')}
-            >
-              <UserCheck className="w-4 h-4 text-blue-600" />
-              <span className="truncate max-w-[70px] text-[11px]">
-                {currentUser ? currentUser.username : t('nav.account')}
-              </span>
-            </button>
-          </div>
-        </div>
-      </header>
+      <HeaderNavbar
+        activeTab={activeTab}
+        onSelectTab={(tab) => {
+          if (tab === 'practice') setQuizQuestions([]);
+          setActiveTab(tab);
+        }}
+        onOpenAccountModal={() => setIsAccountModalOpen(true)}
+        onOpenTutorial={() => setIsTutorialOpen(true)}
+        onOpenDevModal={() => setIsDevModalOpen(true)}
+        onOpenLegalModal={handleOpenLegalModal}
+        currentUser={currentUser}
+      />
 
       {/* ==================================================================== */}
       {/* 3. CONTENIDO PRINCIPAL SEGÚN PESTAÑA ACTIVA */}

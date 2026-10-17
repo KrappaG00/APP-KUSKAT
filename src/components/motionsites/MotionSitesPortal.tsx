@@ -13,6 +13,9 @@ import { AdBanner } from '../AdBanner';
 import { LanguageSwitcher } from '../LanguageSwitcher';
 import { useTranslation } from '../../i18n';
 import { Institution } from '../../data';
+import { HeaderNavbar, AppPageTab } from '../HeaderNavbar';
+import { User } from '../../types/auth';
+import type { LegalTab } from '../LegalModal';
 import {
   Layers,
   ArrowRight,
@@ -27,11 +30,23 @@ import {
 interface MotionSitesPortalProps {
   onEnterSimulator: (institution?: Institution) => void;
   onOpenCategories: () => void;
+  onSelectTab?: (tab: AppPageTab) => void;
+  onOpenAccountModal?: () => void;
+  onOpenTutorial?: () => void;
+  onOpenDevModal?: () => void;
+  onOpenLegalModal?: (tab?: LegalTab) => void;
+  currentUser?: User | null;
 }
 
 export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
   onEnterSimulator,
   onOpenCategories,
+  onSelectTab,
+  onOpenAccountModal,
+  onOpenTutorial,
+  onOpenDevModal,
+  onOpenLegalModal,
+  currentUser,
 }) => {
   const { t } = useTranslation();
   const [is2DAccessibleMode, setIs2DAccessibleMode] = useState<boolean>(false);
@@ -113,121 +128,27 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
       )}
 
       {/* ==================================================================== */}
-      {/* 1. CINTILLO SUPERIOR (MISMA PALETA DE LAS OTRAS PÁGINAS) */}
+      {/* 2. ENCABEZADO PRINCIPAL (HEADER CON MENÚ COMPLETO DE TODAS LAS PÁGINAS) */}
       {/* ==================================================================== */}
-      <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 text-white text-[10px] sm:text-xs py-2 px-3 sm:px-6 lg:px-8 border-b border-blue-900/50">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1.5 sm:gap-2">
-          <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap justify-center sm:justify-start">
-            <span className="px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-300 font-bold border border-amber-400/30 text-[9px] sm:text-[10px] uppercase tracking-wider animate-pulse shrink-0">
-              En Desarrollo
-            </span>
-            <span className="font-medium text-slate-200">
-              Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.
-            </span>
-          </div>
-
-          <div className="flex items-center gap-2.5 sm:gap-3 text-slate-300 font-medium text-[10px] sm:text-xs shrink-0">
-            <a
-              href="https://wa.me/50376574463?text=Hola%20KUSKAT,%20estoy%20estudiando%20desde%20tu%20app%20de%20estudio%20:)"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-emerald-400 flex items-center gap-1 transition-colors"
-              title="WhatsApp KUSKAT: +503 7657 4463"
-            >
-              <span className="text-emerald-400 font-bold">WhatsApp KUSKAT:</span>
-              <span className="font-mono">+503 7657 4463</span>
-            </a>
-            <span className="text-slate-600 hidden sm:inline">•</span>
-            <a
-              href="https://instagram.com/Kuskat.es"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-pink-400 flex items-center gap-1 transition-colors"
-              title="Instagram: @Kuskat.es"
-            >
-              <span className="text-pink-400 font-bold">Instagram:</span>
-              <span>@Kuskat.es</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* ==================================================================== */}
-      {/* 2. ENCABEZADO PRINCIPAL (HEADER CON LOGO ORIGINAL DE KUSKAT) */}
-      {/* ==================================================================== */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-4">
-          {/* Logo Original KUSKAT y Título */}
-          <div className="flex items-center gap-3">
-            <div
-              className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center justify-center p-1 shrink-0 overflow-hidden cursor-pointer"
-              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            >
-              <img
-                src="/kuskat_logo.png"
-                alt="Logo KUSKAT"
-                className="w-full h-full object-contain"
-              />
-            </div>
-
-            <div>
-              <div className="flex items-center gap-2">
-                <h1 className="font-montenegrin text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-                  KUSKAT
-                </h1>
-                <span className="text-[10px] sm:text-xs font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded-md border border-blue-200 font-caslon">
-                  Portal 3D
-                </span>
-              </div>
-              <p className="font-caslon text-[11px] text-slate-500 font-medium hidden sm:block">
-                {t('app.subtitle')}
-              </p>
-            </div>
-          </div>
-
-          {/* Navegación, Selector de Idioma y Botones de Acción */}
-          <div className="flex items-center gap-2 sm:gap-2.5 shrink-0 flex-wrap justify-end">
-            <LanguageSwitcher variant="compact" />
-
-            <button
-              type="button"
-              onClick={() => setIs2DAccessibleMode((prev) => !prev)}
-              aria-pressed={is2DAccessibleMode}
-              className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-2 rounded-xl bg-amber-50 hover:bg-amber-100 border border-amber-300 text-amber-900 font-caslon text-xs font-bold transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
-            >
-              {is2DAccessibleMode ? (
-                <>
-                  <Box className="w-3.5 h-3.5 text-amber-700" />
-                  <span className="hidden md:inline">{t('app.enable3D')}</span>
-                  <span className="md:hidden">3D</span>
-                </>
-              ) : (
-                <>
-                  <Grid className="w-3.5 h-3.5 text-amber-700" />
-                  <span className="hidden md:inline">{t('app.skip3D')}</span>
-                  <span className="md:hidden">2D</span>
-                </>
-              )}
-            </button>
-
-            <button
-              onClick={onOpenCategories}
-              className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-2 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-700 font-caslon text-xs font-semibold tracking-micro uppercase transition-colors cursor-pointer"
-            >
-              <Layers className="w-3.5 h-3.5 text-blue-600" />
-              <span>{t('nav.categories')}</span>
-            </button>
-
-            <button
-              onClick={() => triggerStudyTransition()}
-              className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-caslon text-xs sm:text-sm font-bold tracking-micro uppercase transition-all shadow-sm hover:shadow-md cursor-pointer whitespace-nowrap"
-            >
-              <span>{t('nav.simulator')}</span>
-              <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white" />
-            </button>
-          </div>
-        </div>
-      </header>
+      <HeaderNavbar
+        activeTab="motionsites3d"
+        onSelectTab={(tab) => {
+          if (tab === 'practice') {
+            triggerStudyTransition();
+          } else if (tab === 'categories') {
+            onOpenCategories();
+          } else if (onSelectTab) {
+            onSelectTab(tab);
+          }
+        }}
+        onOpenAccountModal={() => (onOpenAccountModal ? onOpenAccountModal() : undefined)}
+        onOpenTutorial={() => (onOpenTutorial ? onOpenTutorial() : undefined)}
+        onOpenDevModal={() => (onOpenDevModal ? onOpenDevModal() : undefined)}
+        onOpenLegalModal={(tab) => (onOpenLegalModal ? onOpenLegalModal(tab) : undefined)}
+        currentUser={currentUser || null}
+        is2DAccessibleMode={is2DAccessibleMode}
+        onToggle2DAccessible={() => setIs2DAccessibleMode((prev) => !prev)}
+      />
 
       {/* Anuncio 1 / 5 (Portal 3D) */}
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-3">
