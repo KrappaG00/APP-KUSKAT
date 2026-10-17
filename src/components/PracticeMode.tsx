@@ -1917,24 +1917,24 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               <span className="text-[11px] font-bold text-slate-400 uppercase tracking-wider block">
                 Navegador de Reactivos:
               </span>
-              <div className="flex items-center gap-1.5 flex-wrap">
+              <div className="max-h-36 sm:max-h-44 overflow-y-auto touch-scroll p-2 bg-slate-50/80 rounded-2xl border border-slate-200/80 flex items-center gap-1.5 flex-wrap">
                 {quizQuestions.map((_, idx) => {
                   const isCurrent = idx === currentIndex;
                   const isAnsweredItem = userAnswers[idx] !== undefined;
                   const isMarkedItem = markedQuestions[idx];
 
-                  let pillClass = 'bg-slate-100 text-slate-600 hover:bg-slate-200';
+                  let pillClass = 'bg-white text-slate-600 hover:bg-slate-100 border border-slate-200';
                   if (isCurrent) {
-                    pillClass = 'bg-blue-600 text-white ring-2 ring-blue-300 font-bold';
+                    pillClass = 'bg-blue-600 text-white ring-2 ring-blue-300 font-bold border-blue-600';
                   } else if (isAnsweredItem) {
-                    pillClass = 'bg-slate-800 text-white font-semibold';
+                    pillClass = 'bg-slate-800 text-white font-semibold border-slate-800';
                   }
 
                   return (
                     <button
                       key={idx}
                       onClick={() => setCurrentIndex(idx)}
-                      className={`w-7 h-7 rounded-lg text-xs font-mono transition-all cursor-pointer relative ${pillClass}`}
+                      className={`w-7 h-7 rounded-lg text-xs font-mono transition-all cursor-pointer relative shadow-2xs ${pillClass}`}
                     >
                       {idx + 1}
                       {isMarkedItem && (

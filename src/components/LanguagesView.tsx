@@ -574,7 +574,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
           </div>
 
           {/* Selector de Idiomas Extensible */}
-          <div className="flex items-center gap-1.5 bg-slate-50 p-1.5 rounded-2xl border border-slate-200 self-start lg:self-auto flex-wrap">
+          <div className="flex items-center gap-1.5 bg-slate-50 p-1.5 rounded-2xl border border-slate-200 self-stretch sm:self-auto overflow-x-auto scrollbar-none touch-scroll flex-nowrap sm:flex-wrap max-w-full">
             {LANGUAGES_CATALOG.map((lang) => {
               const isSelected = selectedLanguageId === lang.id;
               const isAvailable = lang.status === 'active';
@@ -584,7 +584,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                   key={lang.id}
                   disabled={!isAvailable}
                   onClick={() => handleSelectLanguage(lang.id)}
-                  className={`flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                  className={`flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer shrink-0 ${
                     isSelected
                       ? 'bg-slate-900 text-white shadow-xs'
                       : isAvailable
@@ -610,10 +610,10 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
         {/* BARRA DE NAVEGACIÓN SECUNDARIA DENTRO DE IDIOMAS */}
         {/* ==================================================================== */}
         <div className="pt-4 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3 flex-wrap">
-          <div className="flex items-center bg-slate-100 p-1 rounded-2xl text-xs font-bold text-slate-600 flex-wrap gap-1">
+          <div className="flex items-center bg-slate-100 p-1 rounded-2xl text-xs font-bold text-slate-600 overflow-x-auto scrollbar-none touch-scroll flex-nowrap lg:flex-wrap max-w-full gap-1">
             <button
               onClick={() => setActiveMainTab('theory')}
-              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer ${
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer shrink-0 ${
                 activeMainTab === 'theory'
                   ? 'bg-white text-slate-900 shadow-xs font-black'
                   : 'hover:text-slate-900'
@@ -628,7 +628,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
 
             <button
               onClick={() => setActiveMainTab('basics')}
-              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer ${
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer shrink-0 ${
                 activeMainTab === 'basics'
                   ? 'bg-white text-slate-900 shadow-xs font-black'
                   : 'hover:text-slate-900'
@@ -643,7 +643,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
 
             <button
               onClick={() => setActiveMainTab('vocabulary10k')}
-              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer ${
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer shrink-0 ${
                 activeMainTab === 'vocabulary10k'
                   ? 'bg-white text-slate-900 shadow-xs font-black'
                   : 'hover:text-slate-900'
@@ -658,7 +658,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
 
             <button
               onClick={() => setActiveMainTab('verbs')}
-              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer ${
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer shrink-0 ${
                 activeMainTab === 'verbs'
                   ? 'bg-white text-slate-900 shadow-xs font-black'
                   : 'hover:text-slate-900'
@@ -673,7 +673,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
 
             <button
               onClick={() => setActiveMainTab('comparative')}
-              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer ${
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer shrink-0 ${
                 activeMainTab === 'comparative'
                   ? 'bg-white text-slate-900 shadow-xs font-black'
                   : 'hover:text-slate-900'
@@ -699,7 +699,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
 
             <button
               onClick={() => setActiveMainTab('exam')}
-              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer ${
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer shrink-0 ${
                 activeMainTab === 'exam'
                   ? 'bg-white text-slate-900 shadow-xs font-black'
                   : 'hover:text-slate-900'
@@ -714,7 +714,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
 
             <button
               onClick={() => setActiveMainTab('references')}
-              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer ${
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer shrink-0 ${
                 activeMainTab === 'references'
                   ? 'bg-white text-slate-900 shadow-xs font-black'
                   : 'hover:text-slate-900'

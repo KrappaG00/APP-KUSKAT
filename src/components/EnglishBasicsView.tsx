@@ -158,10 +158,10 @@ export default function EnglishBasicsView({ variant }: EnglishBasicsViewProps) {
         </div>
 
         {/* Pestañas de sub-navegación interna */}
-        <div className="mt-6 flex flex-wrap gap-2 pt-4 border-t border-white/15">
+        <div className="mt-6 flex overflow-x-auto scrollbar-none touch-scroll flex-nowrap sm:flex-wrap gap-2 pt-4 border-t border-white/15 max-w-full">
           <button
             onClick={() => setActiveTab('alphabet')}
-            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer shrink-0 ${
               activeTab === 'alphabet'
                 ? 'bg-white text-blue-900 shadow-md font-black'
                 : 'bg-white/10 text-white hover:bg-white/20'
@@ -173,7 +173,7 @@ export default function EnglishBasicsView({ variant }: EnglishBasicsViewProps) {
 
           <button
             onClick={() => setActiveTab('numbers')}
-            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer shrink-0 ${
               activeTab === 'numbers'
                 ? 'bg-white text-indigo-900 shadow-md font-black'
                 : 'bg-white/10 text-white hover:bg-white/20'
@@ -185,7 +185,7 @@ export default function EnglishBasicsView({ variant }: EnglishBasicsViewProps) {
 
           <button
             onClick={() => setActiveTab('colors')}
-            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer shrink-0 ${
               activeTab === 'colors'
                 ? 'bg-white text-purple-900 shadow-md font-black'
                 : 'bg-white/10 text-white hover:bg-white/20'
@@ -197,7 +197,7 @@ export default function EnglishBasicsView({ variant }: EnglishBasicsViewProps) {
 
           <button
             onClick={() => setActiveTab('objects')}
-            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer shrink-0 ${
               activeTab === 'objects'
                 ? 'bg-white text-emerald-900 shadow-md font-black'
                 : 'bg-white/10 text-white hover:bg-white/20'

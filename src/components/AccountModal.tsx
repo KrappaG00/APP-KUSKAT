@@ -224,12 +224,12 @@ export const AccountModal: React.FC<AccountModalProps> = ({
         </div>
 
         {/* Navigation Tabs */}
-        <div className="flex items-center gap-2 px-5 py-2.5 border-b border-slate-800 bg-slate-950/60 text-xs font-semibold">
+        <div className="flex items-center gap-2 px-3 sm:px-5 py-2.5 border-b border-slate-800 bg-slate-950/60 text-xs font-semibold overflow-x-auto scrollbar-none touch-scroll max-w-full">
           {currentUser ? (
             <>
               <button
                 onClick={() => setActiveTab('exams')}
-                className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg transition-all ${
+                className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg transition-all shrink-0 whitespace-nowrap cursor-pointer ${
                   activeTab === 'exams'
                     ? 'bg-blue-600 text-white shadow-sm'
                     : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
@@ -240,7 +240,7 @@ export const AccountModal: React.FC<AccountModalProps> = ({
               </button>
               <button
                 onClick={() => setActiveTab('profile')}
-                className={`flex items-center gap-2 px-3.5 py-1.5 rounded-lg transition-all ${
+                className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-3.5 py-1.5 rounded-lg transition-all shrink-0 whitespace-nowrap cursor-pointer ${
                   activeTab === 'profile'
                     ? 'bg-blue-600 text-white shadow-sm'
                     : 'text-slate-400 hover:bg-slate-800 hover:text-slate-200'
@@ -249,10 +249,10 @@ export const AccountModal: React.FC<AccountModalProps> = ({
                 <UserIcon className="w-4 h-4" />
                 Mi Perfil y Consentimiento Legal
               </button>
-              <div className="ml-auto">
+              <div className="ml-auto shrink-0">
                 <button
                   onClick={handleLogout}
-                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-rose-400 hover:bg-rose-950/40 border border-rose-900/40 transition-colors text-xs"
+                  className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-rose-400 hover:bg-rose-950/40 border border-rose-900/40 transition-colors text-xs shrink-0 whitespace-nowrap cursor-pointer"
                 >
                   <LogOut className="w-3.5 h-3.5" />
                   Cerrar Sesión

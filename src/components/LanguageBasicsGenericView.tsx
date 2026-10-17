@@ -109,10 +109,10 @@ export default function LanguageBasicsGenericView({ languageId }: LanguageBasics
           </p>
 
           {/* Selector de pestañas internas */}
-          <div className="pt-2 flex flex-wrap gap-2">
+          <div className="pt-2 flex overflow-x-auto scrollbar-none touch-scroll flex-nowrap sm:flex-wrap gap-2 max-w-full">
             <button
               onClick={() => { setActiveTab('alphabet'); setSearchTerm(''); }}
-              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer shrink-0 ${
                 activeTab === 'alphabet'
                   ? 'bg-amber-400 text-slate-950 shadow-md font-black'
                   : 'bg-white/10 hover:bg-white/20 text-white'
@@ -124,7 +124,7 @@ export default function LanguageBasicsGenericView({ languageId }: LanguageBasics
 
             <button
               onClick={() => { setActiveTab('numbers'); setSearchTerm(''); }}
-              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer shrink-0 ${
                 activeTab === 'numbers'
                   ? 'bg-amber-400 text-slate-950 shadow-md font-black'
                   : 'bg-white/10 hover:bg-white/20 text-white'
@@ -136,7 +136,7 @@ export default function LanguageBasicsGenericView({ languageId }: LanguageBasics
 
             <button
               onClick={() => { setActiveTab('colors'); setSearchTerm(''); }}
-              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer shrink-0 ${
                 activeTab === 'colors'
                   ? 'bg-amber-400 text-slate-950 shadow-md font-black'
                   : 'bg-white/10 hover:bg-white/20 text-white'
@@ -148,7 +148,7 @@ export default function LanguageBasicsGenericView({ languageId }: LanguageBasics
 
             <button
               onClick={() => { setActiveTab('objects'); setSearchTerm(''); }}
-              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer ${
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all cursor-pointer shrink-0 ${
                 activeTab === 'objects'
                   ? 'bg-amber-400 text-slate-950 shadow-md font-black'
                   : 'bg-white/10 hover:bg-white/20 text-white'

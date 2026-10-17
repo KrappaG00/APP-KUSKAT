@@ -767,13 +767,13 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       <AdBanner variant="light" positionLabel="Categorías • 1/5 Superior" slotId="4241045160_c1" />
 
       {/* Botón flotante para abrir el menú en dispositivos móviles */}
-      <div className="lg:hidden flex items-center justify-between bg-white p-3.5 rounded-2xl border border-slate-200 shadow-xs">
+      <div className="lg:hidden flex items-center justify-between bg-white p-3 rounded-2xl border border-slate-200 shadow-xs sticky top-16 z-30">
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          className="flex items-center gap-2 text-xs font-bold text-slate-800 bg-slate-100 hover:bg-slate-200 px-4 py-2 rounded-xl transition-all cursor-pointer w-full justify-center"
+          className="flex items-center gap-2 text-xs font-bold text-slate-800 bg-slate-100 hover:bg-slate-200 px-4 py-2.5 rounded-xl transition-all cursor-pointer w-full justify-center min-h-[44px]"
         >
           <SlidersHorizontal className="w-4 h-4 text-blue-600" />
-          <span>{isMobileMenuOpen ? 'Ocultar Menú de Categorías' : '📂 Abrir Menú de Categorías & Temario'}</span>
+          <span>{isMobileMenuOpen ? 'Cerrar Menú de Categorías' : '📂 Abrir Menú de Categorías & Temario'}</span>
         </button>
       </div>
 
@@ -781,13 +781,23 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       {/* 2. LAYOUT PRINCIPAL: MENÚ LATERAL + VISOR JERÁRQUICO */}
       {/* ==================================================================== */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+        {/* Backdrop en móviles cuando el menú está abierto */}
+        {isMobileMenuOpen && (
+          <div
+            className="lg:hidden fixed inset-0 z-40 bg-slate-900/60 backdrop-blur-xs animate-fade-in"
+            onClick={() => setIsMobileMenuOpen(false)}
+          />
+        )}
+
         {/* ================================================================== */}
         {/* PANEL DEL MENÚ DE CATEGORÍAS (COL 1-4) */}
         {/* ================================================================== */}
         <aside
           className={`${
-            isMobileMenuOpen ? 'block' : 'hidden'
-          } lg:block lg:col-span-4 bg-white rounded-3xl border border-slate-200 p-4 sm:p-5 shadow-xs space-y-4 sm:space-y-5 sticky top-20 max-h-[85vh] overflow-y-auto touch-scroll`}
+            isMobileMenuOpen
+              ? 'fixed inset-x-2 sm:inset-x-6 top-16 bottom-4 z-50 shadow-2xl rounded-3xl border border-slate-300 animate-scale-up'
+              : 'hidden'
+          } lg:block lg:static lg:z-auto lg:col-span-4 bg-white rounded-3xl border border-slate-200 p-4 sm:p-5 shadow-xs space-y-4 sm:space-y-5 lg:sticky lg:top-20 max-h-[85vh] overflow-y-auto touch-scroll`}
         >
           {/* Cabecera del Menú */}
           <div className="flex items-center justify-between pb-3 border-b border-slate-100">
