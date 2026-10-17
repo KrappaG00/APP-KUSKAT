@@ -23,14 +23,14 @@ const sessionMock = createStorageMock();
 (globalThis as any).localStorage = localMock;
 (globalThis as any).sessionStorage = sessionMock;
 
-describe('Tutorial de Onboarding Interactivo (5 Pasos y Persistencia)', () => {
+describe('Tutorial de Onboarding Interactivo (6 Pasos y Persistencia)', () => {
   beforeEach(() => {
     localMock.clear();
     sessionMock.clear();
   });
 
-  it('tiene exactamente 5 pasos con títulos, descripciones y puntos clave pedagógicos', () => {
-    expect(TUTORIAL_STEPS.length).toBe(5);
+  it('tiene exactamente 6 pasos con títulos, descripciones y puntos clave pedagógicos', () => {
+    expect(TUTORIAL_STEPS.length).toBe(6);
 
     TUTORIAL_STEPS.forEach((step, index) => {
       expect(step.step).toBe(index + 1);
@@ -41,21 +41,38 @@ describe('Tutorial de Onboarding Interactivo (5 Pasos y Persistencia)', () => {
       expect(step.description.trim().length).toBeGreaterThan(0);
 
       expect(Array.isArray(step.bulletPoints)).toBe(true);
-      expect(step.bulletPoints.length).toBeGreaterThanOrEqual(2);
+      expect(step.bulletPoints.length).toBeGreaterThanOrEqual(4);
     });
   });
 
-  it('los pasos cubren instituciones, categorías/niveles, KaTeX, simulador y resultados', () => {
+  it('los pasos cubren instituciones/convocatorias, categorías/niveles, escuela de idiomas multilingüe, KaTeX, simulador y resultados/legal', () => {
     const titles = TUTORIAL_STEPS.map((s) => s.title.toLowerCase());
-    expect(titles.some((t) => t.includes('institución') || t.includes('materia'))).toBe(true);
-    expect(titles.some((t) => t.includes('categorías') || t.includes('niveles'))).toBe(true);
-    expect(titles.some((t) => t.includes('katex'))).toBe(true);
+    expect(titles.some((t) => t.includes('institución') || t.includes('convocatorias'))).toBe(true);
+    expect(titles.some((t) => t.includes('categorías') || t.includes('niveles') || t.includes('malla'))).toBe(true);
+    expect(titles.some((t) => t.includes('idiomas') || t.includes('lenguas'))).toBe(true);
+    expect(titles.some((t) => t.includes('katex') || t.includes('cuentas'))).toBe(true);
     expect(titles.some((t) => t.includes('simulador'))).toBe(true);
-    expect(titles.some((t) => t.includes('resultados') || t.includes('diagnóstico'))).toBe(true);
+    expect(titles.some((t) => t.includes('resultados') || t.includes('legal'))).toBe(true);
+  });
+
+  it('el paso de idiomas detalla los 7 idiomas, las 840 clases y las 2,100 preguntas', () => {
+    const langStep = TUTORIAL_STEPS.find((s) => s.title.toLowerCase().includes('idiomas'));
+    expect(langStep).toBeDefined();
+    const allBulletText = langStep?.bulletPoints.join(' ') || '';
+    expect(allBulletText).toContain('7');
+    expect(allBulletText.toLowerCase()).toContain('náhuat');
+    expect(allBulletText.toLowerCase()).toContain('lenca');
+    expect(allBulletText.toLowerCase()).toContain('kakawira');
+    expect(allBulletText.toLowerCase()).toContain('alemán');
+    expect(allBulletText.toLowerCase()).toContain('árabe');
+    expect(allBulletText.toLowerCase()).toContain('mandarín');
+    expect(allBulletText.toLowerCase()).toContain('inglés');
+    expect(allBulletText).toContain('840');
+    expect(allBulletText).toContain('2,100');
   });
 
   it('respeta la preferencia de persistencia en localStorage cuando el usuario marca no volver a mostrar', () => {
-    const STORAGE_KEY = 'kuskat_tutorial_dismissed_v1';
+    const STORAGE_KEY = 'kuskat_tutorial_never_show';
     expect(localStorage.getItem(STORAGE_KEY)).toBeNull();
 
     // El usuario marca "No volver a mostrar"

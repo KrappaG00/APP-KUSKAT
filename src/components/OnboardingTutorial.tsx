@@ -5,17 +5,10 @@ import {
   Layers,
   Sparkles,
   Award,
-  Clock,
-  BookOpen,
   ArrowRight,
   ArrowLeft,
   X,
-  CheckCircle2,
-  HelpCircle,
-  FileCode,
-  Trophy,
-  UserCheck,
-  Scale,
+  Languages,
   Printer
 } from 'lucide-react';
 import { TutorialStep } from '../types';
@@ -30,13 +23,13 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
     step: 1,
     title: 'Elige tu Institución, Materia & Portal 3D Estable',
     subtitle: 'Preparación de alto rendimiento para exámenes oficiales de El Salvador',
-    badge: 'Paso 1 de 5 • Convocatorias & 3D',
+    badge: 'Paso 1 de 6 • Convocatorias & 3D',
     description:
-      'KUSKAT (creado por Yeferson E. Perez) reúne un banco maestro de 17,640 preguntas oficiales estructuradas en 6 convocatorias de exigencia nacional, complementado con un Portal 3D con mapa de El Salvador fijo y adaptado a cualquier pantalla.',
+      'KUSKAT (creado por Yeferson E. Perez) reúne un banco maestro de 19,740 preguntas de selección múltiple (17,640 en 6 convocatorias de exigencia nacional y 2,100 en la Escuela de Idiomas), complementado con un Portal 3D interactivo con mapa de El Salvador fijo y adaptado a cualquier pantalla.',
     bulletPoints: [
       '🎓 Admisión UES (7,500 reactivos): Matemática, Física, Química, Biología, Ciencias Sociales y Lenguaje.',
       '📜 Escalafón Docente (3,300 reactivos): Ascenso al Nivel Uno 2026 MINED en Formación General y 10 Especialidades.',
-      '📘 Prueba AVANZO (3,000 reactivos): Bachillerato MINED en Precálculo, Ciudadanía, Ciencia y Tecnología, Lengua e Inglés.',
+      '📘 Prueba AVANZO (3,000 reactivos): Bachillerato MINED en Precálculo, Ciudadanía y Valores, Ciencia y Tecnología, Lengua e Inglés.',
       '🏅 Jóvenes Talento - ASD (2,190 reactivos): 5.°, 6.° y 7.° Grado en Matemática y Ciencias Naturales.',
       '🌱 Admisión ENA (1,400 reactivos): Técnico Agropecuario en Matemáticas Agrarias, Química, Biología y Lenguaje.',
       '🛡️ Academia ANSP (250 reactivos): Prueba Cultural PNC en legislación, derecho constitucional y cultura salvadoreña.',
@@ -47,7 +40,7 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
     step: 2,
     title: 'Categorías, Temario y Secciones Cerradas por Defecto',
     subtitle: 'Navegación fluida y carga optimizada para estudiar sin demoras',
-    badge: 'Paso 2 de 5 • Malla Curricular',
+    badge: 'Paso 2 de 6 • Malla Curricular',
     description:
       'El temario se organiza jerárquicamente por Tipo de Institución, Materia, Tema y Sección. Todas las secciones aparecen cerradas por defecto para que la página cargue de inmediato y tú despliegues solo lo que necesitas estudiar.',
     bulletPoints: [
@@ -60,9 +53,24 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
   },
   {
     step: 3,
+    title: 'Escuela de Idiomas Kuskat: 7 Lenguas & Rescate Cultural',
+    subtitle: '840 clases exhaustivas (≥500 palabras), 2,100 reactivos, audio nativo y flashcards 3D',
+    badge: 'Paso 3 de 6 • Idiomas Multilingüe',
+    description:
+      'Aprende y domina 7 idiomas estructurados bajo el estándar internacional MCER/CEFR (A1 a C2), diseñados especialmente desde la perspectiva lingüística del español de El Salvador, integrando lenguas originarias y globales.',
+    bulletPoints: [
+      '🗣️ 7 Idiomas Disponibles: Inglés (US vs. UK), Náhuat Pipil (Witzapan/IRIN), Lenca Potón, Kakawira (Cacaopera), Alemán (DACH), Árabe (Fus\'ha y Levantino) y Mandarín (Pǔtōnghuà con Hanzi y Pinyin).',
+      '📚 840 Clases Teóricas Rigurosas: 120 lecciones completas por idioma (20 por nivel A1-C2) con más de 500 palabras de contenido pedagógico, diálogos culturales, tablas gramaticales y ejercicios resueltos.',
+      '📝 Simulador Multilingüe (2,100 Reactivos): 300 preguntas oficiales por idioma (50 por nivel) con explicaciones gramaticales detalladas y sistema de puntuación oficial +1 / -2.',
+      '🔢 Fundamentos y Conversores Numéricos en Vivo: Conversores interactivos decimales, vigesimales náhuat, decenas invertidas en alemán, numeración árabe y caracteres Hanzi en tiempo real.',
+      '🔊 Pronunciación con Audio y Flashcards 3D: Abecedarios fonéticos, catálogo de colores, objetos cotidianos con síntesis de voz Web Speech API, verbos esenciales y tarjetas de memoria con volteo tridimensional.',
+    ],
+  },
+  {
+    step: 4,
     title: 'Cuentas Nativas, KaTeX y Doble Consentimiento',
     subtitle: 'Inicia sesión sin intermediarios externos y con estricta minimización de datos',
-    badge: 'Paso 3 de 5 • Cuentas & KaTeX',
+    badge: 'Paso 4 de 6 • Cuentas & KaTeX',
     description:
       'Crea tu cuenta de estudiante nativa directamente en KUSKAT con solo usuario y contraseña (sin Google ni Facebook). Todas las expresiones científicas se renderizan en tipografía KaTeX nítida y legible.',
     bulletPoints: [
@@ -74,25 +82,25 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
     ],
   },
   {
-    step: 4,
+    step: 5,
     title: 'Simulador de Examen y Tabla Top 1 / Top 10 Nacional',
     subtitle: 'Cronómetro oficial, puntuación +1 / -2 y ranking con reinicio anual',
-    badge: 'Paso 4 de 5 • Simulador & Ranking',
+    badge: 'Paso 5 de 6 • Simulador & Ranking',
     description:
       'Ponte a prueba en condiciones reales de examen. Al final de la sección encontrarás la tabla de clasificación nacional con puntuación oficial KUSKAT y filtros por periodos académicos.',
     bulletPoints: [
       '⏱️ Temporizador y Modo Táctil: Elige 1.0 min, 1.5 min por pregunta o práctica libre con interfaz 100% web responsive.',
       '🏆 Puntuación Oficial: +1 punto por cada acierto, -2 puntos por cada error, con tope mínimo en 0 (sin saldo negativo).',
-      '👑 Líderes Top 1 Inicial: Antes de interactuar con la tabla, se exhibe el Top 1 de cada una de las 6 categorías institucionales.',
+      '👑 Líderes Top 1 Inicial: Antes de interactuar con la tabla, se exhibe el Top 1 de cada una de las convocatorias institucionales.',
       '📊 Tabla Top 10 Interactiva: Filtra por periodos Diario, Mensual, Trimestral, Semestral y Anual.',
       '🔄 Ciclo Anual (1 Ene - 31 Dic): El ranking anual inicia el 1 de enero y se reinicia automáticamente cada 31 de diciembre.',
     ],
   },
   {
-    step: 5,
+    step: 6,
     title: 'Resultados, Historial en Texto, Impresión a PDF y Marco Legal',
     subtitle: 'Boleta de notas 100% en memoria, cero archivos en la nube y normativas de El Salvador',
-    badge: 'Paso 5 de 5 • Exámenes & Legal',
+    badge: 'Paso 6 de 6 • Exámenes & Legal',
     description:
       'En el apartado "CUENTA" puedes consultar todos tus exámenes realizados guardados en formato de texto. Genera boletas oficiales en PDF sin almacenar ningún archivo temporal en la nube.',
     bulletPoints: [
@@ -100,10 +108,29 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
       '🖨️ Imprimir / Exportar a PDF: Emite al instante tu boleta oficial y solucionario para imprimir o descargar en PDF en tu navegador.',
       '🛡️ Cero Documentos en la Nube: Todo se genera en la memoria de tu dispositivo; al salir no queda ningún archivo temporal en servidores.',
       '⚖️ Cumplimiento Legal Salvadoreño: Respaldado por la Constitución de El Salvador (Arts. 53-54), Ley de Comercio Electrónico y Delitos Informáticos.',
-      '💬 Canales de Contacto: Conéctate con el creador Yeferson E. Perez por WhatsApp (+503 7657 4463) e Instagram (@Kuskat.es).',
+      '💬 Canales de Contacto: Conéctate con el creador Yeferson E. Perez por WhatsApp (+503 7943 9901) e Instagram (@Kuskat.es).',
     ],
   },
 ];
+
+const getStepIcon = (stepNum: number) => {
+  switch (stepNum) {
+    case 1:
+      return <GraduationCap className="w-5 h-5 text-amber-300" />;
+    case 2:
+      return <Layers className="w-5 h-5 text-blue-300" />;
+    case 3:
+      return <Languages className="w-5 h-5 text-emerald-300" />;
+    case 4:
+      return <Shield className="w-5 h-5 text-indigo-300" />;
+    case 5:
+      return <Award className="w-5 h-5 text-amber-300" />;
+    case 6:
+      return <Printer className="w-5 h-5 text-sky-300" />;
+    default:
+      return <Sparkles className="w-5 h-5 text-amber-300" />;
+  }
+};
 
 export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, onClose }) => {
   const [currentStep, setCurrentStep] = useState<number>(0);
@@ -192,30 +219,41 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
             </div>
           </div>
 
-          <h3 id="tutorial-modal-title" className="text-xl sm:text-2xl font-black tracking-tight text-white font-montenegrin">
-            {step.title}
-          </h3>
-          <p className="text-xs sm:text-sm text-slate-300 font-medium pt-1 font-caslon">{step.subtitle}</p>
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-2xl bg-white/10 border border-white/20 flex items-center justify-center shrink-0 shadow-inner">
+              {getStepIcon(step.step)}
+            </div>
+            <div>
+              <h3 id="tutorial-modal-title" className="text-lg sm:text-xl font-black tracking-tight text-white font-montenegrin leading-tight">
+                {step.title}
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-300 font-medium pt-0.5 font-caslon">{step.subtitle}</p>
+            </div>
+          </div>
 
-          {/* Barra de Progreso de 5 Pasos */}
+          {/* Barra de Progreso de 6 Pasos con Navegación Clickeable */}
           <div className="flex items-center gap-1.5 pt-4">
-            {TUTORIAL_STEPS.map((_, idx) => (
-              <div
+            {TUTORIAL_STEPS.map((stepItem, idx) => (
+              <button
                 key={idx}
-                className={`h-1.5 flex-1 rounded-full transition-all duration-300 ${
+                type="button"
+                onClick={() => setCurrentStep(idx)}
+                title={`Ir al Paso ${idx + 1}: ${stepItem.title}`}
+                className={`h-2 flex-1 rounded-full transition-all duration-300 cursor-pointer ${
                   idx === currentStep
-                    ? 'bg-amber-400 ring-2 ring-amber-400/40'
+                    ? 'bg-amber-400 ring-2 ring-amber-400/50 scale-y-110 shadow-xs'
                     : idx < currentStep
-                    ? 'bg-blue-400'
-                    : 'bg-white/20'
+                    ? 'bg-blue-400 hover:bg-blue-300'
+                    : 'bg-white/20 hover:bg-white/40'
                 }`}
+                aria-label={`Paso ${idx + 1}`}
               />
             ))}
           </div>
         </div>
 
         {/* Contenido del Paso */}
-        <div className="p-5 sm:p-7 space-y-4 text-xs sm:text-sm leading-relaxed overflow-y-auto max-h-[60vh]">
+        <div className="p-5 sm:p-7 space-y-4 text-xs sm:text-sm leading-relaxed overflow-y-auto max-h-[60vh] touch-scroll">
           <p className="text-slate-600 font-medium leading-relaxed">{step.description}</p>
 
           <div className="bg-slate-50 rounded-2xl border border-slate-200 p-4 space-y-2.5">
@@ -248,11 +286,15 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
 
           {/* Botones de Navegación */}
           <div className="flex items-center gap-2 w-full sm:w-auto justify-end">
+            <span className="text-[11px] font-bold text-slate-400 font-mono hidden sm:inline mr-1">
+              Paso {currentStep + 1} de {TUTORIAL_STEPS.length}
+            </span>
+
             <button
               onClick={handleSkip}
               className="px-3 py-2 text-slate-500 hover:text-slate-800 font-semibold rounded-xl hover:bg-slate-200/60 transition-colors cursor-pointer"
             >
-              Omitir tutorial
+              Omitir
             </button>
 
             {!isFirstStep && (

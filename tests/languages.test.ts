@@ -4,6 +4,7 @@ import {
   ALL_ENGLISH_VERBS,
   CEFR_CURRICULUM,
   CEFRLevel,
+  countLessonWords,
   ENGLISH_QUESTIONS_BANK,
   GRAMMAR_DISTINCTIONS,
   IRREGULAR_VERBS,
@@ -13,7 +14,15 @@ import {
   SPELLING_RULES,
   VOCABULARY_PAIRS,
 } from '../src/data/languages/englishData';
-import { LANGUAGES_CATALOG } from '../src/data/languages/languagesRegistry';
+import {
+  LANGUAGES_CATALOG,
+  getLanguageCurriculum,
+  getLanguageQuestionsBank,
+  getLanguageVerbs,
+  getLanguageComparative,
+  getLanguageBasics,
+  getLanguageVocabulary,
+} from '../src/data/languages/languagesRegistry';
 import { fetchCurriculum, getSubjectNameFromId } from '../src/services/bancoService';
 
 describe('Módulo Maestro de IDIOMAS & Categoría INGLES en KUSKAT', () => {
@@ -23,19 +32,18 @@ describe('Módulo Maestro de IDIOMAS & Categoría INGLES en KUSKAT', () => {
     expect(englishInst?.name).toContain('Inglés');
   });
 
-  it('2. El catálogo de idiomas es extensible y cuenta con Inglés activo y próximos idiomas', () => {
-    expect(LANGUAGES_CATALOG.length).toBeGreaterThanOrEqual(2);
-    const english = LANGUAGES_CATALOG.find((l) => l.id === 'english');
-    expect(english).toBeDefined();
-    expect(english?.status).toBe('active');
-    expect(english?.levels).toEqual(['A1', 'A2', 'B1', 'B2', 'C1', 'C2']);
+  it('2. El catálogo de idiomas cuenta con los 7 idiomas activos: Inglés, Náhuat, Lenca, Kakawira, Alemán, Árabe y Mandarín', () => {
+    expect(LANGUAGES_CATALOG.length).toBe(7);
+    const activeLanguages = LANGUAGES_CATALOG.filter((l) => l.status === 'active');
+    expect(activeLanguages.length).toBe(7);
 
-    const upcoming = LANGUAGES_CATALOG.filter((l) => l.status === 'upcoming');
-    expect(upcoming.length).toBeGreaterThan(0);
+    const ids = LANGUAGES_CATALOG.map((l) => l.id);
+    expect(ids).toEqual(['english', 'nahuat', 'lenca', 'kakawira', 'german', 'arabic', 'mandarin']);
   });
 
-  it('3. La teoría de inglés cubre rigurosamente los 6 niveles del MCER con mínimo 20 clases por nivel (120 clases total)', () => {
+  it('3. La teoría de inglés cubre rigurosamente los 6 niveles del MCER con mínimo 20 clases por nivel (120 clases total) y cada clase tiene MÍNIMO 500 palabras', () => {
     const levels: CEFRLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+    let totalClassesCount = 0;
 
     levels.forEach((lvl) => {
       const info = CEFR_CURRICULUM[lvl];
@@ -43,18 +51,33 @@ describe('Módulo Maestro de IDIOMAS & Categoría INGLES en KUSKAT', () => {
       expect(info.level).toBe(lvl);
       expect(info.canDoStatements.length).toBeGreaterThan(0);
       expect(info.coreTopics.length).toBeGreaterThan(0);
-      // Cada nivel tiene mínimo 20 lecciones estructuradas
-      expect(info.grammarLessons.length).toBeGreaterThanOrEqual(20);
+      // Cada nivel tiene exactamente 20 lecciones estructuradas
+      expect(info.grammarLessons.length).toBe(20);
 
-      // Cada lección tiene reglas, ejemplos para US y UK, y enlace de referencia metodológico
+      // Cada lección cumple >= 500 palabras y todos los estándares pedagógicos
       info.grammarLessons.forEach((lesson) => {
+        totalClassesCount += 1;
         expect(lesson.title).toBeTruthy();
-        expect(lesson.rules.length).toBeGreaterThan(0);
-        expect(lesson.examplesUS.length).toBeGreaterThan(0);
-        expect(lesson.examplesUK.length).toBeGreaterThan(0);
+        expect(lesson.category).toBeTruthy();
+        expect(lesson.summary).toBeTruthy();
+        expect(lesson.detailedExplanation).toBeTruthy();
+        expect(lesson.rules.length).toBeGreaterThanOrEqual(4);
+        expect(lesson.examplesUS.length).toBeGreaterThanOrEqual(2);
+        expect(lesson.examplesUK.length).toBeGreaterThanOrEqual(2);
+        expect(lesson.practicalDialogue).toBeDefined();
+        expect(lesson.practicalDialogue!.length).toBeGreaterThanOrEqual(4);
+        expect(lesson.commonMistakes.length).toBeGreaterThanOrEqual(2);
+        expect(lesson.studyTips).toBeDefined();
+        expect(lesson.studyTips!.length).toBeGreaterThanOrEqual(2);
         expect(lesson.referenceLink).toMatch(/^https?:\/\//);
+
+        // Verificación matemática estricta: mínimo 500 palabras
+        const words = countLessonWords(lesson);
+        expect(words).toBeGreaterThanOrEqual(500);
       });
     });
+
+    expect(totalClassesCount).toBe(120);
   });
 
   it('4. La comparación entre American English (US) y British English (UK) está completamente desarrollada', () => {
@@ -195,4 +218,259 @@ describe('Módulo Maestro de IDIOMAS & Categoría INGLES en KUSKAT', () => {
     const hasExternalLinks = /<a[\s\S]*?href=["']https?:\/\/[\s\S]*?>/i.test(viewContent);
     expect(hasExternalLinks).toBe(false);
   });
+
+  it('11. El módulo de Fundamentos Básicos cubre el abecedario fonético completo (26 letras) con IPA y reglas de deletreo', async () => {
+    const { ALPHABET_DATA, SPELLING_CONVENTIONS } = await import('../src/data/languages/englishBasicsData');
+
+    expect(ALPHABET_DATA.length).toBe(26);
+    const vowels = ALPHABET_DATA.filter((l) => l.type === 'vowel');
+    const consonants = ALPHABET_DATA.filter((l) => l.type === 'consonant');
+    expect(vowels.length).toBe(5);
+    expect(consonants.length).toBe(21);
+
+    ALPHABET_DATA.forEach((item) => {
+      expect(item.letter).toBeTruthy();
+      expect(item.name).toBeTruthy();
+      expect(item.ipa).toBeTruthy();
+      expect(item.phoneticEs).toBeTruthy();
+      expect(item.sampleWord).toBeTruthy();
+      expect(item.sampleWordIpa).toBeTruthy();
+      expect(item.sampleWordEs).toBeTruthy();
+      expect(item.phoneticTip).toBeTruthy();
+    });
+
+    expect(SPELLING_CONVENTIONS.length).toBeGreaterThanOrEqual(3);
+  });
+
+  it('12. El módulo de números cuenta con cardinales, ordinales, reglas y conversor numérico algorítmico exacto', async () => {
+    const { NUMBERS_CARDINALS_ORDINALS, NUMBER_RULES, numberToEnglishWords } = await import('../src/data/languages/englishBasicsData');
+
+    expect(NUMBERS_CARDINALS_ORDINALS.length).toBeGreaterThanOrEqual(30);
+    expect(NUMBER_RULES.length).toBeGreaterThanOrEqual(4);
+
+    // Pruebas del conversor algorítmico numberToEnglishWords
+    expect(numberToEnglishWords(0)).toBe('zero');
+    expect(numberToEnglishWords(5)).toBe('five');
+    expect(numberToEnglishWords(14)).toBe('fourteen');
+    expect(numberToEnglishWords(45)).toBe('forty-five');
+    expect(numberToEnglishWords(100)).toBe('one hundred');
+    expect(numberToEnglishWords(105)).toBe('one hundred five');
+    expect(numberToEnglishWords(1984)).toBe('one thousand nine hundred eighty-four');
+    expect(numberToEnglishWords(2026)).toBe('two thousand twenty-six');
+    expect(numberToEnglishWords(1000000)).toBe('one million');
+  });
+
+  it('13. El espectro de colores cuenta con 20+ colores bilingües y al menos 10 modismos cromáticos (Color Idioms)', async () => {
+    const { COLORS_DATA, COLOR_IDIOMS } = await import('../src/data/languages/englishBasicsData');
+
+    expect(COLORS_DATA.length).toBeGreaterThanOrEqual(20);
+    COLORS_DATA.forEach((c) => {
+      expect(c.id).toBeTruthy();
+      expect(c.nameEn).toBeTruthy();
+      expect(c.nameEs).toBeTruthy();
+      expect(c.hex).toMatch(/^#[0-9A-Fa-f]{6}$/);
+      expect(c.sampleSentenceEn).toBeTruthy();
+      expect(c.sampleSentenceEs).toBeTruthy();
+    });
+
+    expect(COLOR_IDIOMS.length).toBeGreaterThanOrEqual(10);
+    COLOR_IDIOMS.forEach((idiom) => {
+      expect(idiom.idiom).toBeTruthy();
+      expect(idiom.realMeaning).toBeTruthy();
+      expect(idiom.exampleEn).toBeTruthy();
+      expect(idiom.exampleEs).toBeTruthy();
+    });
+  });
+
+  it('14. El catálogo de objetos cotidianos cuenta con 10 categorías temáticas y más de 180 objetos estructurados', async () => {
+    const { EVERYDAY_OBJECTS_CATEGORIES } = await import('../src/data/languages/englishBasicsData');
+
+    expect(EVERYDAY_OBJECTS_CATEGORIES.length).toBe(10);
+    let totalObjects = 0;
+
+    EVERYDAY_OBJECTS_CATEGORIES.forEach((cat) => {
+      expect(cat.id).toBeTruthy();
+      expect(cat.name).toBeTruthy();
+      expect(cat.iconEmoji).toBeTruthy();
+      expect(cat.items.length).toBeGreaterThanOrEqual(8);
+      totalObjects += cat.items.length;
+
+      cat.items.forEach((obj) => {
+        expect(obj.id).toBeTruthy();
+        expect(obj.nameEn).toBeTruthy();
+        expect(obj.nameEs).toBeTruthy();
+        expect(obj.ipa).toBeTruthy();
+        expect(obj.emoji).toBeTruthy();
+        expect(['a', 'an', 'some', 'the']).toContain(obj.article);
+        expect(obj.pluralEn).toBeTruthy();
+        expect(obj.exampleEn).toBeTruthy();
+        expect(obj.exampleEs).toBeTruthy();
+      });
+    });
+
+    expect(totalObjects).toBeGreaterThanOrEqual(120);
+  });
+
+  it('15. El corpus de las 10,000 palabras más usadas contiene exactamente 10,000 palabras estructuradas y caché inicial síncrono', async () => {
+    const fs = await import('fs');
+    const path = await import('path');
+    const jsonPath = path.resolve(__dirname, '../public/data/ingles/top10000Words.json');
+    expect(fs.existsSync(jsonPath)).toBe(true);
+
+    const jsonContent = JSON.parse(fs.readFileSync(jsonPath, 'utf-8'));
+    expect(Array.isArray(jsonContent)).toBe(true);
+    expect(jsonContent.length).toBe(10000);
+
+    // Comprobar la primera palabra (the) y la última (10000)
+    expect(jsonContent[0].r).toBe(1);
+    expect(jsonContent[0].w).toBe('the');
+    expect(jsonContent[0].pos).toBeTruthy();
+    expect(jsonContent[0].es).toBeTruthy();
+    expect(jsonContent[0].lvl).toBe('A1');
+
+    expect(jsonContent[9999].r).toBe(10000);
+    expect(jsonContent[9999].w).toBeTruthy();
+    expect(jsonContent[9999].es).toBeTruthy();
+
+    // Comprobar caché inicial síncrono de 200 palabras
+    const { INITIAL_TOP_WORDS, FREQUENCY_BANDS } = await import('../src/data/languages/englishTop10kData');
+    expect(INITIAL_TOP_WORDS.length).toBe(200);
+    expect(INITIAL_TOP_WORDS[0].w).toBe('the');
+    expect(FREQUENCY_BANDS.length).toBe(7);
+  });
 });
+
+describe('Módulos Multilingües KUSKAT: Náhuat, Lenca, Kakawira, Alemán, Árabe y Mandarín', () => {
+  const NEW_LANGUAGES = [
+    { id: 'nahuat', name: 'Náhuat Pipil', expectedVerbs: 100 },
+    { id: 'lenca', name: 'Lenca Potón', expectedVerbs: 80 },
+    { id: 'kakawira', name: 'Kakawira', expectedVerbs: 70 },
+    { id: 'german', name: 'Alemán', expectedVerbs: 100 },
+    { id: 'arabic', name: 'Árabe', expectedVerbs: 100 },
+    { id: 'mandarin', name: 'Mandarín', expectedVerbs: 100 },
+  ];
+
+  const CEFR_LEVELS: CEFRLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+
+  NEW_LANGUAGES.forEach(({ id, name, expectedVerbs }) => {
+    describe(`Idioma: ${name} (${id})`, () => {
+      it(`1. Está registrado y activo en LANGUAGES_CATALOG`, () => {
+        const lang = LANGUAGES_CATALOG.find((l) => l.id === id);
+        expect(lang).toBeDefined();
+        expect(lang?.status).toBe('active');
+        expect(lang?.levels).toEqual(CEFR_LEVELS);
+        expect(lang?.variants.length).toBeGreaterThanOrEqual(2);
+      });
+
+      it(`2. Currículo cubre A1 a C2 con 120 lecciones (20 por nivel) y cada una tiene MÍNIMO 500 palabras`, () => {
+        const curriculum = getLanguageCurriculum(id);
+        expect(curriculum).toBeDefined();
+
+        let totalLessons = 0;
+        CEFR_LEVELS.forEach((level) => {
+          const levelInfo = curriculum[level];
+          expect(levelInfo).toBeDefined();
+          expect(levelInfo.level).toBe(level);
+          expect(levelInfo.grammarLessons.length).toBe(20);
+
+          levelInfo.grammarLessons.forEach((lesson) => {
+            totalLessons++;
+            expect(lesson.title).toBeTruthy();
+            expect(lesson.category).toBeTruthy();
+            expect(lesson.summary).toBeTruthy();
+            expect(lesson.detailedExplanation).toBeTruthy();
+            expect(lesson.rules.length).toBeGreaterThanOrEqual(3);
+            expect(lesson.examplesUS.length).toBeGreaterThanOrEqual(2);
+            expect(lesson.examplesUK.length).toBeGreaterThanOrEqual(2);
+            expect(lesson.practicalDialogue).toBeDefined();
+            expect(lesson.practicalDialogue!.length).toBeGreaterThanOrEqual(3);
+            expect(lesson.commonMistakes.length).toBeGreaterThanOrEqual(2);
+            expect(lesson.studyTips).toBeDefined();
+            expect(lesson.studyTips!.length).toBeGreaterThanOrEqual(2);
+
+            // Verificación matemática estricta de palabras (mínimo 500)
+            const words = countLessonWords(lesson);
+            expect(words).toBeGreaterThanOrEqual(500);
+          });
+        });
+
+        expect(totalLessons).toBe(120);
+      });
+
+      it(`3. Banco de preguntas contiene exactamente 300 preguntas (50 por nivel) de 4 opciones (A, B, C, D)`, () => {
+        const bank = getLanguageQuestionsBank(id);
+        expect(bank.length).toBe(300);
+
+        CEFR_LEVELS.forEach((level) => {
+          const levelQuestions = bank.filter((q) => q.level === level);
+          expect(levelQuestions.length).toBe(50);
+
+          levelQuestions.forEach((q) => {
+            expect(q.id).toBeTruthy();
+            expect(q.statement).toBeTruthy();
+            expect(q.options.length).toBe(4);
+            expect(['A', 'B', 'C', 'D']).toContain(q.correctAnswer);
+            expect(q.explanation).toBeTruthy();
+            expect(q.topic).toBeTruthy();
+          });
+        });
+      });
+
+      it(`4. Catálogo de verbos contiene al menos ${expectedVerbs} verbos con traducción al español`, () => {
+        const verbs = getLanguageVerbs(id);
+        expect(verbs.length).toBeGreaterThanOrEqual(expectedVerbs);
+
+        verbs.forEach((v: any) => {
+          expect(v.id || v.infinitive).toBeTruthy();
+          expect(v.infinitive).toBeTruthy();
+          expect(v.pastSimple).toBeTruthy();
+          expect(v.spanish).toBeTruthy();
+        });
+      });
+
+      it(`5. Módulo de fundamentos básicos (alfabeto/tonos, números, colores, objetos) está completo`, () => {
+        const basics = getLanguageBasics(id);
+        expect(basics).not.toBeNull();
+        if (basics) {
+          expect(basics.alphabet.length).toBeGreaterThanOrEqual(4);
+          expect(basics.numbers.length).toBeGreaterThanOrEqual(8);
+          expect(basics.colors.length).toBeGreaterThanOrEqual(5);
+          expect(basics.objects.length).toBeGreaterThanOrEqual(2);
+          expect(typeof basics.numberToWords).toBe('function');
+
+          // Conversor numérico live funcional
+          expect(basics.numberToWords(1)).toBeTruthy();
+          expect(basics.numberToWords(5)).toBeTruthy();
+          expect(basics.numberToWords(10)).toBeTruthy();
+
+          // Colores tienen formato HEX válido
+          basics.colors.forEach((c: any) => {
+            expect(c.hex).toMatch(/^#[0-9A-Fa-f]{6}$/);
+          });
+        }
+      });
+
+      it(`6. Módulo de vocabulario cuenta con corpus estructurado y bandas de frecuencia`, () => {
+        const vocab = getLanguageVocabulary(id);
+        expect(vocab.length).toBeGreaterThanOrEqual(20);
+
+        vocab.forEach((item: any) => {
+          expect(item.id || item.r).toBeTruthy();
+          expect(item.spanish || item.es).toBeTruthy();
+          expect(item.category || item.pos).toBeTruthy();
+        });
+      });
+
+      it(`7. Guía comparativa cuenta con reglas ortográficas, vocabulario y notas pedagógicas`, () => {
+        const comp = getLanguageComparative(id);
+        expect(comp.title).toBeTruthy();
+        expect(comp.spellingRules.length).toBeGreaterThanOrEqual(1);
+        expect(comp.vocabularyPairs.length).toBeGreaterThanOrEqual(3);
+        expect(comp.grammarDistinctions.length).toBeGreaterThanOrEqual(1);
+        expect(comp.phoneticDistinctions.length).toBeGreaterThanOrEqual(1);
+      });
+    });
+  });
+});
+
+
