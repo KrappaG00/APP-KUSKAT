@@ -10,6 +10,12 @@ import {
 } from '../types';
 import { QUESTIONS_DATA } from '../data';
 import { ENGLISH_QUESTIONS_BANK } from '../data/languages/englishData';
+import { NAHUAT_QUESTIONS_BANK } from '../data/languages/nahuatData';
+import { LENCA_QUESTIONS_BANK } from '../data/languages/lencaData';
+import { KAKAWIRA_QUESTIONS_BANK } from '../data/languages/kakawiraData';
+import { GERMAN_QUESTIONS_BANK } from '../data/languages/germanData';
+import { ARABIC_QUESTIONS_BANK } from '../data/languages/arabicData';
+import { MANDARIN_QUESTIONS_BANK } from '../data/languages/mandarinData';
 
 // Caché en memoria para carga instantánea
 const questionsCache = new Map<string, Question[]>();
@@ -161,6 +167,697 @@ export function getStrictFallbackQuestions(
 }
 
 /**
+ * Malla curricular integral de la Escuela de Idiomas (7 lenguas x 6 niveles MCER = 42 asignaturas, 16,800 reactivos).
+ */
+export const ALL_LANGUAGE_SUBJECTS: SubjectMeta[] = [
+  // 1. Inglés (6 niveles)
+  {
+    id: 'ingles_a1',
+    number: 1,
+    name: 'Nivel A1 • Breakthrough / Beginner',
+    codeRange: 'A1.1 al A1.4',
+    description: 'To Be, Present Simple, Pronouns, Articles, Basic Prepositions, Routines.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-blue-600 to-indigo-700',
+    badgeBg: 'bg-blue-100',
+    badgeText: 'text-blue-800',
+    borderColor: 'border-blue-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'ingles_a1', code: 'A1.0', title: 'Inglés • Nivel A1 (Beginner)', subjectId: 'ingles_a1', questionCount: 400 }],
+  },
+  {
+    id: 'ingles_a2',
+    number: 2,
+    name: 'Nivel A2 • Waystage / Elementary',
+    codeRange: 'A2.1 al A2.4',
+    description: 'Past Simple, Regular/Irregular verbs, Comparatives, Future will/going to, Modals.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-blue-600 to-indigo-700',
+    badgeBg: 'bg-blue-100',
+    badgeText: 'text-blue-800',
+    borderColor: 'border-blue-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'ingles_a2', code: 'A2.0', title: 'Inglés • Nivel A2 (Elementary)', subjectId: 'ingles_a2', questionCount: 400 }],
+  },
+  {
+    id: 'ingles_b1',
+    number: 3,
+    name: 'Nivel B1 • Threshold / Intermediate',
+    codeRange: 'B1.1 al B1.4',
+    description: 'Present Perfect vs Past Simple, Conditionals 0/1/2, Passive intro, Relative clauses.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-blue-600 to-indigo-700',
+    badgeBg: 'bg-blue-100',
+    badgeText: 'text-blue-800',
+    borderColor: 'border-blue-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'ingles_b1', code: 'B1.0', title: 'Inglés • Nivel B1 (Intermediate)', subjectId: 'ingles_b1', questionCount: 400 }],
+  },
+  {
+    id: 'ingles_b2',
+    number: 4,
+    name: 'Nivel B2 • Vantage / Upper-Intermediate',
+    codeRange: 'B2.1 al B2.4',
+    description: 'Past Perfect, Future Continuous/Perfect, Conditionals 3rd/Mixed, Reported speech.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-blue-600 to-indigo-700',
+    badgeBg: 'bg-blue-100',
+    badgeText: 'text-blue-800',
+    borderColor: 'border-blue-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'ingles_b2', code: 'B2.0', title: 'Inglés • Nivel B2 (Upper-Intermediate)', subjectId: 'ingles_b2', questionCount: 400 }],
+  },
+  {
+    id: 'ingles_c1',
+    number: 5,
+    name: 'Nivel C1 • Effective Operational Proficiency',
+    codeRange: 'C1.1 al C1.4',
+    description: 'Inversion, Cleft sentences, Advanced passive, Subjunctive, Discourse markers.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-blue-600 to-indigo-700',
+    badgeBg: 'bg-blue-100',
+    badgeText: 'text-blue-800',
+    borderColor: 'border-blue-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'ingles_c1', code: 'C1.0', title: 'Inglés • Nivel C1 (Advanced)', subjectId: 'ingles_c1', questionCount: 400 }],
+  },
+  {
+    id: 'ingles_c2',
+    number: 6,
+    name: 'Nivel C2 • Mastery / Proficiency',
+    codeRange: 'C2.1 al C2.4',
+    description: 'Literary inversions, Absolute participle, Idiomatic mastery, Sophisticated register.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-blue-600 to-indigo-700',
+    badgeBg: 'bg-blue-100',
+    badgeText: 'text-blue-800',
+    borderColor: 'border-blue-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'ingles_c2', code: 'C2.0', title: 'Inglés • Nivel C2 (Proficiency)', subjectId: 'ingles_c2', questionCount: 400 }],
+  },
+
+  // 2. Náhuat Pipil (6 niveles)
+  {
+    id: 'nahuat_a1',
+    number: 7,
+    name: 'Náhuat • Nivel A1 (Pewal / Básico)',
+    codeRange: 'A1.1 al A1.4',
+    description: 'Saludos, prefijos de sujeto (ni-, ti-, ti-...-t), números se, ume, yey, colores y vocabulario pipil.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-emerald-600 to-teal-700',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-800',
+    borderColor: 'border-emerald-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'nahuat_a1', code: 'A1.0', title: 'Náhuat Pipil • Nivel A1 (Pewal)', subjectId: 'nahuat_a1', questionCount: 400 }],
+  },
+  {
+    id: 'nahuat_a2',
+    number: 8,
+    name: 'Náhuat • Nivel A2 (Tikit / Elemental)',
+    codeRange: 'A2.1 al A2.4',
+    description: 'Pretérito con sufijo -ki/-k, prefijos de objeto (ki-, kin-), posesivos nu-, mu-, i- e imperativo ma.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-emerald-600 to-teal-700',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-800',
+    borderColor: 'border-emerald-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'nahuat_a2', code: 'A2.0', title: 'Náhuat Pipil • Nivel A2 (Tikit)', subjectId: 'nahuat_a2', questionCount: 400 }],
+  },
+  {
+    id: 'nahuat_b1',
+    number: 9,
+    name: 'Náhuat • Nivel B1 (Tajtaketza / Intermedio)',
+    codeRange: 'B1.1 al B1.4',
+    description: 'Futuro con sufijo -s, sufijos direccionales -ki (venir a) y -tu (ir a), oraciones compuestas con pal.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-emerald-600 to-teal-700',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-800',
+    borderColor: 'border-emerald-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'nahuat_b1', code: 'B1.0', title: 'Náhuat Pipil • Nivel B1 (Tajtaketza)', subjectId: 'nahuat_b1', questionCount: 400 }],
+  },
+  {
+    id: 'nahuat_b2',
+    number: 10,
+    name: 'Náhuat • Nivel B2 (Tamatilis / Intermedio Alto)',
+    codeRange: 'B2.1 al B2.4',
+    description: 'Voz pasiva (-u/-wa), aplicativo (-lia/-wia), causativo (-tia) y sustantivos relacionales (ijtik, pan).',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-emerald-600 to-teal-700',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-800',
+    borderColor: 'border-emerald-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'nahuat_b2', code: 'B2.0', title: 'Náhuat Pipil • Nivel B2 (Tamatilis)', subjectId: 'nahuat_b2', questionCount: 400 }],
+  },
+  {
+    id: 'nahuat_c1',
+    number: 11,
+    name: 'Náhuat • Nivel C1 (Wey Tajtaketzani / Avanzado)',
+    codeRange: 'C1.1 al C1.4',
+    description: 'Morfología derivativa compleja, sustantivos verbales, reduplicación intensiva/frecuentativa.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-emerald-600 to-teal-700',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-800',
+    borderColor: 'border-emerald-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'nahuat_c1', code: 'C1.0', title: 'Náhuat Pipil • Nivel C1 (Wey Tajtaketzani)', subjectId: 'nahuat_c1', questionCount: 400 }],
+  },
+  {
+    id: 'nahuat_c2',
+    number: 12,
+    name: 'Náhuat • Nivel C2 (Senka Nawat / Maestría)',
+    codeRange: 'C2.1 al C2.4',
+    description: 'Discurso tradicional, narrativa ancestral náhuat, fórmulas ceremoniales y preservación lingüística.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-emerald-600 to-teal-700',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-800',
+    borderColor: 'border-emerald-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'nahuat_c2', code: 'C2.0', title: 'Náhuat Pipil • Nivel C2 (Senka Nawat)', subjectId: 'nahuat_c2', questionCount: 400 }],
+  },
+
+  // 3. Lenca Potón (6 niveles)
+  {
+    id: 'lenca_a1',
+    number: 13,
+    name: 'Lenca Potón • Nivel A1 (Básico)',
+    codeRange: 'A1.1 al A1.4',
+    description: 'Fonología potón, saludos, números lencas (ita, pe, lajwa), colores y términos familiares.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-amber-600 to-orange-700',
+    badgeBg: 'bg-amber-100',
+    badgeText: 'text-amber-800',
+    borderColor: 'border-amber-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'lenca_a1', code: 'A1.0', title: 'Lenca Potón • Nivel A1 (Básico)', subjectId: 'lenca_a1', questionCount: 400 }],
+  },
+  {
+    id: 'lenca_a2',
+    number: 14,
+    name: 'Lenca Potón • Nivel A2 (Elemental)',
+    codeRange: 'A2.1 al A2.4',
+    description: 'Morfología verbal potón, sufijos temporales, posesivos y concordancia básica.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-amber-600 to-orange-700',
+    badgeBg: 'bg-amber-100',
+    badgeText: 'text-amber-800',
+    borderColor: 'border-amber-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'lenca_a2', code: 'A2.0', title: 'Lenca Potón • Nivel A2 (Elemental)', subjectId: 'lenca_a2', questionCount: 400 }],
+  },
+  {
+    id: 'lenca_b1',
+    number: 15,
+    name: 'Lenca Potón • Nivel B1 (Intermedio)',
+    codeRange: 'B1.1 al B1.4',
+    description: 'Oraciones subordinadas, posposiciones espaciales, aspectos verbales y relatos comunales.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-amber-600 to-orange-700',
+    badgeBg: 'bg-amber-100',
+    badgeText: 'text-amber-800',
+    borderColor: 'border-amber-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'lenca_b1', code: 'B1.0', title: 'Lenca Potón • Nivel B1 (Intermedio)', subjectId: 'lenca_b1', questionCount: 400 }],
+  },
+  {
+    id: 'lenca_b2',
+    number: 16,
+    name: 'Lenca Potón • Nivel B2 (Intermedio Alto)',
+    codeRange: 'B2.1 al B2.4',
+    description: 'Sintaxis SOV, construcciones complejas, cláusulas condicionales y temporales.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-amber-600 to-orange-700',
+    badgeBg: 'bg-amber-100',
+    badgeText: 'text-amber-800',
+    borderColor: 'border-amber-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'lenca_b2', code: 'B2.0', title: 'Lenca Potón • Nivel B2 (Intermedio Alto)', subjectId: 'lenca_b2', questionCount: 400 }],
+  },
+  {
+    id: 'lenca_c1',
+    number: 17,
+    name: 'Lenca Potón • Nivel C1 (Avanzado)',
+    codeRange: 'C1.1 al C1.4',
+    description: 'Discurso etnolingüístico, revitalización del lenca potón en Guatajiagua y Chilanga.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-amber-600 to-orange-700',
+    badgeBg: 'bg-amber-100',
+    badgeText: 'text-amber-800',
+    borderColor: 'border-amber-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'lenca_c1', code: 'C1.0', title: 'Lenca Potón • Nivel C1 (Avanzado)', subjectId: 'lenca_c1', questionCount: 400 }],
+  },
+  {
+    id: 'lenca_c2',
+    number: 18,
+    name: 'Lenca Potón • Nivel C2 (Maestría)',
+    codeRange: 'C2.1 al C2.4',
+    description: 'Documentación lingüística, tradición oral y memoria histórica lenca salvadoreña.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-amber-600 to-orange-700',
+    badgeBg: 'bg-amber-100',
+    badgeText: 'text-amber-800',
+    borderColor: 'border-amber-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'lenca_c2', code: 'C2.0', title: 'Lenca Potón • Nivel C2 (Maestría)', subjectId: 'lenca_c2', questionCount: 400 }],
+  },
+
+  // 4. Kakawira (6 niveles)
+  {
+    id: 'kakawira_a1',
+    number: 19,
+    name: 'Kakawira • Nivel A1 (Básico)',
+    codeRange: 'A1.1 al A1.4',
+    description: 'Fonología cacaopera, sistema pronominal, números básicos, objetos cotidianos de Morazán.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-purple-600 to-pink-700',
+    badgeBg: 'bg-purple-100',
+    badgeText: 'text-purple-800',
+    borderColor: 'border-purple-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'kakawira_a1', code: 'A1.0', title: 'Kakawira • Nivel A1 (Básico)', subjectId: 'kakawira_a1', questionCount: 400 }],
+  },
+  {
+    id: 'kakawira_a2',
+    number: 20,
+    name: 'Kakawira • Nivel A2 (Elemental)',
+    codeRange: 'A2.1 al A2.4',
+    description: 'Conjugación verbal elemental, prefijos de concordancia, negación y partículas interrogativas.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-purple-600 to-pink-700',
+    badgeBg: 'bg-purple-100',
+    badgeText: 'text-purple-800',
+    borderColor: 'border-purple-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'kakawira_a2', code: 'A2.0', title: 'Kakawira • Nivel A2 (Elemental)', subjectId: 'kakawira_a2', questionCount: 400 }],
+  },
+  {
+    id: 'kakawira_b1',
+    number: 21,
+    name: 'Kakawira • Nivel B1 (Intermedio)',
+    codeRange: 'B1.1 al B1.4',
+    description: 'Estructuras subordinadas misumalpas, sufijos aspectuales, narraciones de la comunidad cacaopera.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-purple-600 to-pink-700',
+    badgeBg: 'bg-purple-100',
+    badgeText: 'text-purple-800',
+    borderColor: 'border-purple-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'kakawira_b1', code: 'B1.0', title: 'Kakawira • Nivel B1 (Intermedio)', subjectId: 'kakawira_b1', questionCount: 400 }],
+  },
+  {
+    id: 'kakawira_b2',
+    number: 22,
+    name: 'Kakawira • Nivel B2 (Intermedio Alto)',
+    codeRange: 'B2.1 al B2.4',
+    description: 'Relación genética con matagalpa y sumo-mayangna, morfología verbal compleja y derivación léxica.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-purple-600 to-pink-700',
+    badgeBg: 'bg-purple-100',
+    badgeText: 'text-purple-800',
+    borderColor: 'border-purple-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'kakawira_b2', code: 'B2.0', title: 'Kakawira • Nivel B2 (Intermedio Alto)', subjectId: 'kakawira_b2', questionCount: 400 }],
+  },
+  {
+    id: 'kakawira_c1',
+    number: 23,
+    name: 'Kakawira • Nivel C1 (Avanzado)',
+    codeRange: 'C1.1 al C1.4',
+    description: 'Textos etnográficos de Cacaopera, discurso ancestral, lexicografía kakawira de Morazán.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-purple-600 to-pink-700',
+    badgeBg: 'bg-purple-100',
+    badgeText: 'text-purple-800',
+    borderColor: 'border-purple-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'kakawira_c1', code: 'C1.0', title: 'Kakawira • Nivel C1 (Avanzado)', subjectId: 'kakawira_c1', questionCount: 400 }],
+  },
+  {
+    id: 'kakawira_c2',
+    number: 24,
+    name: 'Kakawira • Nivel C2 (Maestría)',
+    codeRange: 'C2.1 al C2.4',
+    description: 'Archivo lingüístico kakawira, cantos tradicionales, reconstrucción fonológica y legado salvadoreño.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-purple-600 to-pink-700',
+    badgeBg: 'bg-purple-100',
+    badgeText: 'text-purple-800',
+    borderColor: 'border-purple-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'kakawira_c2', code: 'C2.0', title: 'Kakawira • Nivel C2 (Maestría)', subjectId: 'kakawira_c2', questionCount: 400 }],
+  },
+
+  // 5. Alemán (6 niveles)
+  {
+    id: 'german_a1',
+    number: 25,
+    name: 'Alemán • Nivel A1 (Anfänger)',
+    codeRange: 'A1.1 al A1.4',
+    description: 'Artículos der/die/das, casos Nominativ/Akkusativ, verbos regulares/irregulares, pronombres.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-yellow-600 to-amber-700',
+    badgeBg: 'bg-yellow-100',
+    badgeText: 'text-yellow-800',
+    borderColor: 'border-yellow-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'german_a1', code: 'A1.0', title: 'Alemán • Nivel A1 (Anfänger)', subjectId: 'german_a1', questionCount: 400 }],
+  },
+  {
+    id: 'german_a2',
+    number: 26,
+    name: 'Alemán • Nivel A2 (Grundlegende Kenntnisse)',
+    codeRange: 'A2.1 al A2.4',
+    description: 'Caso Dativ, preposiciones con Wechselpräpositionen, Perfekt con haben/sein, verbos modales.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-yellow-600 to-amber-700',
+    badgeBg: 'bg-yellow-100',
+    badgeText: 'text-yellow-800',
+    borderColor: 'border-yellow-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'german_a2', code: 'A2.0', title: 'Alemán • Nivel A2 (Grundlegend)', subjectId: 'german_a2', questionCount: 400 }],
+  },
+  {
+    id: 'german_b1',
+    number: 27,
+    name: 'Alemán • Nivel B1 (Fortgeschritten)',
+    codeRange: 'B1.1 al B1.4',
+    description: 'Präteritum, Konjunktiv II de cortesía, oraciones subordinadas weil/dass/obwohl, pasiva.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-yellow-600 to-amber-700',
+    badgeBg: 'bg-yellow-100',
+    badgeText: 'text-yellow-800',
+    borderColor: 'border-yellow-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'german_b1', code: 'B1.0', title: 'Alemán • Nivel B1 (Fortgeschritten)', subjectId: 'german_b1', questionCount: 400 }],
+  },
+  {
+    id: 'german_b2',
+    number: 28,
+    name: 'Alemán • Nivel B2 (Selbständige Sprachverwendung)',
+    codeRange: 'B2.1 al B2.4',
+    description: 'Pasiva con modales y Zustandspassiv, caso Genitiv, n-Deklination, oraciones de relativo complejas.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-yellow-600 to-amber-700',
+    badgeBg: 'bg-yellow-100',
+    badgeText: 'text-yellow-800',
+    borderColor: 'border-yellow-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'german_b2', code: 'B2.0', title: 'Alemán • Nivel B2 (Selbständig)', subjectId: 'german_b2', questionCount: 400 }],
+  },
+  {
+    id: 'german_c1',
+    number: 29,
+    name: 'Alemán • Nivel C1 (Fachkundige Sprachkenntnisse)',
+    codeRange: 'C1.1 al C1.4',
+    description: 'Konjunktiv I (Reported Speech), construcciones participiales avanzadas, Nomen-Verb-Verbindungen.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-yellow-600 to-amber-700',
+    badgeBg: 'bg-yellow-100',
+    badgeText: 'text-yellow-800',
+    borderColor: 'border-yellow-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'german_c1', code: 'C1.0', title: 'Alemán • Nivel C1 (Fachkundig)', subjectId: 'german_c1', questionCount: 400 }],
+  },
+  {
+    id: 'german_c2',
+    number: 30,
+    name: 'Alemán • Nivel C2 (Annähernd muttersprachliche)',
+    codeRange: 'C2.1 al C2.4',
+    description: 'Estilística alemana culta, partículas modales (doch, mal, ja, wohl), registro científico y literario.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-yellow-600 to-amber-700',
+    badgeBg: 'bg-yellow-100',
+    badgeText: 'text-yellow-800',
+    borderColor: 'border-yellow-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'german_c2', code: 'C2.0', title: 'Alemán • Nivel C2 (Muttersprachlich)', subjectId: 'german_c2', questionCount: 400 }],
+  },
+
+  // 6. Árabe (6 niveles)
+  {
+    id: 'arabic_a1',
+    number: 31,
+    name: 'Árabe • Nivel A1 (Mubtadi / Básico)',
+    codeRange: 'A1.1 al A1.4',
+    description: 'Alfabeto árabe (28 letras), harakat (fat-ha, damma, kasra, sukun), pronombres munfasila.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-emerald-700 to-green-800',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-800',
+    borderColor: 'border-emerald-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'arabic_a1', code: 'A1.0', title: 'Árabe • Nivel A1 (Mubtadi)', subjectId: 'arabic_a1', questionCount: 400 }],
+  },
+  {
+    id: 'arabic_a2',
+    number: 32,
+    name: 'Árabe • Nivel A2 (Ibtidai / Elemental)',
+    codeRange: 'A2.1 al A2.4',
+    description: 'Oración nominal (Jumla Ismiyya), oración verbal (Jumla Fi\'liyya), verbo en pasado (Al-Madi), Idafa.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-emerald-700 to-green-800',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-800',
+    borderColor: 'border-emerald-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'arabic_a2', code: 'A2.0', title: 'Árabe • Nivel A2 (Ibtidai)', subjectId: 'arabic_a2', questionCount: 400 }],
+  },
+  {
+    id: 'arabic_b1',
+    number: 33,
+    name: 'Árabe • Nivel B1 (Mutawassit / Intermedio)',
+    codeRange: 'B1.1 al B1.4',
+    description: 'Verbo presente (Al-Mudari\'), caso acusativo (Mansub), partículas de negación (lam, lan, ma, la), dual.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-emerald-700 to-green-800',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-800',
+    borderColor: 'border-emerald-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'arabic_b1', code: 'B1.0', title: 'Árabe • Nivel B1 (Mutawassit)', subjectId: 'arabic_b1', questionCount: 400 }],
+  },
+  {
+    id: 'arabic_b2',
+    number: 34,
+    name: 'Árabe • Nivel B2 (Fawq al-Mutawassit / Intermedio Alto)',
+    codeRange: 'B2.1 al B2.4',
+    description: 'Las 10 formas verbales derivadas (Awzan II-X), plural roto (Jam\' Taksir), condicionales in/law.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-emerald-700 to-green-800',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-800',
+    borderColor: 'border-emerald-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'arabic_b2', code: 'B2.0', title: 'Árabe • Nivel B2 (Fawq al-Mutawassit)', subjectId: 'arabic_b2', questionCount: 400 }],
+  },
+  {
+    id: 'arabic_c1',
+    number: 35,
+    name: 'Árabe • Nivel C1 (Mutaqaddim / Avanzado)',
+    codeRange: 'C1.1 al C1.4',
+    description: 'I\'rab detallado (declinación de casos), Ism al-Fa\'il / Ism al-Maf\'ul, Masdar, elativo Af\'al.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-emerald-700 to-green-800',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-800',
+    borderColor: 'border-emerald-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'arabic_c1', code: 'C1.0', title: 'Árabe • Nivel C1 (Mutaqaddim)', subjectId: 'arabic_c1', questionCount: 400 }],
+  },
+  {
+    id: 'arabic_c2',
+    number: 36,
+    name: 'Árabe • Nivel C2 (Itqan / Maestría)',
+    codeRange: 'C2.1 al C2.4',
+    description: 'Balagha (retórica árabe), proverbios clásicos, prosa diplomática y periodística de alta precisión.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-emerald-700 to-green-800',
+    badgeBg: 'bg-emerald-100',
+    badgeText: 'text-emerald-800',
+    borderColor: 'border-emerald-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'arabic_c2', code: 'C2.0', title: 'Árabe • Nivel C2 (Itqan)', subjectId: 'arabic_c2', questionCount: 400 }],
+  },
+
+  // 7. Mandarín (6 niveles)
+  {
+    id: 'mandarin_a1',
+    number: 37,
+    name: 'Mandarín • Nivel A1 (HSK 1 / Básico)',
+    codeRange: 'A1.1 al A1.4',
+    description: 'Pīnyīn (iniciales, finales y 4 tonos + tono neutro), números 1-100, partículas 是 shì, 的 de, 吗 ma.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-red-600 to-amber-700',
+    badgeBg: 'bg-red-100',
+    badgeText: 'text-red-800',
+    borderColor: 'border-red-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'mandarin_a1', code: 'A1.0', title: 'Mandarín • Nivel A1 (HSK 1)', subjectId: 'mandarin_a1', questionCount: 400 }],
+  },
+  {
+    id: 'mandarin_a2',
+    number: 38,
+    name: 'Mandarín • Nivel A2 (HSK 2 / Elemental)',
+    codeRange: 'A2.1 al A2.4',
+    description: 'Aspecto completivo con 了 le, clasificadores 个 gè, 本 běn, 条 tiáo, verbos auxiliares 想 xiǎng, 要 yào.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-red-600 to-amber-700',
+    badgeBg: 'bg-red-100',
+    badgeText: 'text-red-800',
+    borderColor: 'border-red-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'mandarin_a2', code: 'A2.0', title: 'Mandarín • Nivel A2 (HSK 2)', subjectId: 'mandarin_a2', questionCount: 400 }],
+  },
+  {
+    id: 'mandarin_b1',
+    number: 39,
+    name: 'Mandarín • Nivel B1 (HSK 3 / Intermedio)',
+    codeRange: 'B1.1 al B1.4',
+    description: 'Comparativo con 比 bǐ, estructura 把 bǎ, complementos de resultado y dirección, cláusulas causales.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-red-600 to-amber-700',
+    badgeBg: 'bg-red-100',
+    badgeText: 'text-red-800',
+    borderColor: 'border-red-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'mandarin_b1', code: 'B1.0', title: 'Mandarín • Nivel B1 (HSK 3)', subjectId: 'mandarin_b1', questionCount: 400 }],
+  },
+  {
+    id: 'mandarin_b2',
+    number: 40,
+    name: 'Mandarín • Nivel B2 (HSK 4 / Intermedio Alto)',
+    codeRange: 'B2.1 al B2.4',
+    description: 'Voz pasiva con 被 bèi, conectores lógicos avanzadas (不仅...而且..., 无论...都...), complementos potenciales.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-red-600 to-amber-700',
+    badgeBg: 'bg-red-100',
+    badgeText: 'text-red-800',
+    borderColor: 'border-red-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'mandarin_b2', code: 'B2.0', title: 'Mandarín • Nivel B2 (HSK 4)', subjectId: 'mandarin_b2', questionCount: 400 }],
+  },
+  {
+    id: 'mandarin_c1',
+    number: 41,
+    name: 'Mandarín • Nivel C1 (HSK 5 / Avanzado)',
+    codeRange: 'C1.1 al C1.4',
+    description: 'Chéngyǔ (成语 modismos cuatrisilábicos), registro formal 书面语 shūmiànyǔ, oraciones complejas.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-red-600 to-amber-700',
+    badgeBg: 'bg-red-100',
+    badgeText: 'text-red-800',
+    borderColor: 'border-red-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'mandarin_c1', code: 'C1.0', title: 'Mandarín • Nivel C1 (HSK 5)', subjectId: 'mandarin_c1', questionCount: 400 }],
+  },
+  {
+    id: 'mandarin_c2',
+    number: 42,
+    name: 'Mandarín • Nivel C2 (HSK 6 / Maestría)',
+    codeRange: 'C2.1 al C2.4',
+    description: 'Mandarín literario clásico (Wényánwén), precisión estilística y retórica diplomática y comercial.',
+    totalSubtopics: 1,
+    totalQuestions: 400,
+    color: 'from-red-600 to-amber-700',
+    badgeBg: 'bg-red-100',
+    badgeText: 'text-red-800',
+    borderColor: 'border-red-200',
+    icon: 'Globe',
+    institution: 'INGLES',
+    subtopics: [{ id: 'mandarin_c2', code: 'C2.0', title: 'Mandarín • Nivel C2 (HSK 6)', subjectId: 'mandarin_c2', questionCount: 400 }],
+  },
+];
+
+/**
  * Carga la malla curricular oficial para UES, ANSP, ASD, AVANZO, ENA, ESCALAFON o INGLES.
  */
 export async function fetchCurriculum(category: Institution = 'UES'): Promise<CurriculumData> {
@@ -215,14 +912,13 @@ export async function fetchUnifiedCurriculum(): Promise<{
   totalQuestions: number;
   totalSubtopics: number;
 }> {
-  const [ues, ansp, asd, avanzo, ena, escalafon, ingles] = await Promise.all([
+  const [ues, ansp, asd, avanzo, ena, escalafon] = await Promise.all([
     fetchCurriculum('UES').catch(() => getFallbackCurriculum('UES')),
     fetchCurriculum('ANSP').catch(() => getFallbackCurriculum('ANSP')),
     fetchCurriculum('ASD').catch(() => getFallbackCurriculum('ASD')),
     fetchCurriculum('AVANZO').catch(() => getFallbackCurriculum('AVANZO')),
     fetchCurriculum('ENA').catch(() => getFallbackCurriculum('ENA')),
     fetchCurriculum('ESCALAFON').catch(() => getFallbackCurriculum('ESCALAFON')),
-    fetchCurriculum('INGLES').catch(() => getFallbackCurriculum('INGLES')),
   ]);
 
   const allSubjects: SubjectMeta[] = [
@@ -232,7 +928,7 @@ export async function fetchUnifiedCurriculum(): Promise<{
     ...ena.subjects.map((s) => ({ ...s, institution: 'ENA' as Institution })),
     ...escalafon.subjects.map((s) => ({ ...s, institution: 'ESCALAFON' as Institution })),
     ...ansp.subjects.map((s) => ({ ...s, institution: 'ANSP' as Institution })),
-    ...ingles.subjects.map((s) => ({ ...s, institution: 'INGLES' as Institution })),
+    ...ALL_LANGUAGE_SUBJECTS,
   ];
 
   const totalQuestions =
@@ -242,7 +938,7 @@ export async function fetchUnifiedCurriculum(): Promise<{
     (ena.totalQuestions || 1400) +
     (escalafon.totalQuestions || 3300) +
     (ansp.totalQuestions || 250) +
-    (ingles.totalQuestions || 600);
+    16800; // 7 lenguas x 2,400 preguntas
   const totalSubtopics =
     (ues.totalSubtopics || 25) +
     (avanzo.totalSubtopics || 5) +
@@ -250,7 +946,7 @@ export async function fetchUnifiedCurriculum(): Promise<{
     (ena.totalSubtopics || 4) +
     (escalafon.totalSubtopics || 11) +
     (ansp.totalSubtopics || 10) +
-    (ingles.totalSubtopics || 6);
+    42; // 7 lenguas x 6 niveles
 
   return { allSubjects, totalQuestions, totalSubtopics };
 }
@@ -585,33 +1281,54 @@ export async function fetchQuestionsDetailed(
         errorMessage = `Error de red (${res.status}) al consultar el banco ANSP.`;
       }
     } else if (category === 'INGLES') {
-      const bank = ENGLISH_QUESTIONS_BANK.map((eq) => {
-        const subId = `ingles_${eq.level.toLowerCase()}`;
+      const getLangBank = (target?: string) => {
+        const t = (target || '').toLowerCase();
+        if (t.startsWith('nahuat_')) return { lang: 'nahuat', prefix: 'nahuat_', bank: NAHUAT_QUESTIONS_BANK, name: 'Náhuat Pipil' };
+        if (t.startsWith('lenca_')) return { lang: 'lenca', prefix: 'lenca_', bank: LENCA_QUESTIONS_BANK, name: 'Lenca Potón' };
+        if (t.startsWith('kakawira_')) return { lang: 'kakawira', prefix: 'kakawira_', bank: KAKAWIRA_QUESTIONS_BANK, name: 'Kakawira' };
+        if (t.startsWith('german_') || t.startsWith('aleman_')) return { lang: 'german', prefix: 'german_', bank: GERMAN_QUESTIONS_BANK, name: 'Alemán' };
+        if (t.startsWith('arabic_') || t.startsWith('arabe_')) return { lang: 'arabic', prefix: 'arabic_', bank: ARABIC_QUESTIONS_BANK, name: 'Árabe' };
+        if (t.startsWith('mandarin_') || t.startsWith('chino_')) return { lang: 'mandarin', prefix: 'mandarin_', bank: MANDARIN_QUESTIONS_BANK, name: 'Mandarín' };
+        return { lang: 'english', prefix: 'ingles_', bank: ENGLISH_QUESTIONS_BANK, name: 'Inglés' };
+      };
+
+      const mapQuestion = (q: any, prefix: string, langName: string) => {
+        const subId = `${prefix}${q.level.toLowerCase()}`;
         return {
-          id: eq.id,
-          number: eq.number,
+          id: q.id,
+          number: q.number,
           institution: 'INGLES' as Institution,
           subjectId: subId,
           subject: getSubjectNameFromId(subId, 'INGLES'),
           subtopicId: subId,
-          topic: eq.topic,
-          sectionTitle: `Nivel ${eq.level} • ${eq.topic}`,
-          statement: eq.statement,
-          options: eq.options,
-          correctAnswer: eq.correctAnswer,
-          explanation: eq.explanation,
-          level: eq.level === 'A1' || eq.level === 'A2' ? 'basico' : eq.level === 'B1' || eq.level === 'B2' ? 'intermedio' : 'admision',
+          topic: q.topic,
+          sectionTitle: `${langName} • Nivel ${q.level} • ${q.topic}`,
+          statement: q.statement,
+          options: q.options,
+          correctAnswer: q.correctAnswer,
+          explanation: q.explanation,
+          level: q.level === 'A1' || q.level === 'A2' ? 'basico' : q.level === 'B1' || q.level === 'B2' ? 'intermedio' : 'admision',
         } as Question;
-      });
+      };
 
-      if (targetId && targetId !== 'all') {
-        const lvl = targetId.toLowerCase().replace('ingles_', '').toUpperCase();
-        const filtered = bank.filter(
+      if (!targetId || targetId === 'all') {
+        questions = [
+          ...ENGLISH_QUESTIONS_BANK.map((q) => mapQuestion(q, 'ingles_', 'Inglés')),
+          ...NAHUAT_QUESTIONS_BANK.map((q) => mapQuestion(q, 'nahuat_', 'Náhuat Pipil')),
+          ...LENCA_QUESTIONS_BANK.map((q) => mapQuestion(q, 'lenca_', 'Lenca Potón')),
+          ...KAKAWIRA_QUESTIONS_BANK.map((q) => mapQuestion(q, 'kakawira_', 'Kakawira')),
+          ...GERMAN_QUESTIONS_BANK.map((q) => mapQuestion(q, 'german_', 'Alemán')),
+          ...ARABIC_QUESTIONS_BANK.map((q) => mapQuestion(q, 'arabic_', 'Árabe')),
+          ...MANDARIN_QUESTIONS_BANK.map((q) => mapQuestion(q, 'mandarin_', 'Mandarín')),
+        ];
+      } else {
+        const { prefix, bank, name } = getLangBank(targetId);
+        const mapped = bank.map((q) => mapQuestion(q, prefix, name));
+        const lvl = targetId.toLowerCase().replace(prefix, '').toUpperCase();
+        const filtered = mapped.filter(
           (q) => q.subtopicId === targetId || q.statement.includes(lvl) || q.subject.includes(lvl) || q.sectionTitle?.includes(lvl)
         );
-        questions = filtered.length > 0 ? filtered : bank;
-      } else {
-        questions = bank;
+        questions = filtered.length > 0 ? filtered : mapped;
       }
     } else {
       // UES
@@ -705,106 +1422,9 @@ function getFallbackCurriculum(category: Institution): CurriculumData {
     return {
       title: 'Marco Común Europeo de Referencia (MCER / CEFR) — Idiomas: Inglés',
       description: 'Malla curricular internacional estructurada en 6 niveles de dominio lingüístico: A1 (Principiante), A2 (Elemental), B1 (Intermedio), B2 (Intermedio Alto), C1 (Avanzado Operativo) y C2 (Maestría / Proficiencia), con división contrastiva entre Inglés Americano (US) e Inglés Británico (UK).',
-      totalQuestions: 600,
+      totalQuestions: 2400,
       totalSubtopics: 6,
-      subjects: [
-        {
-          id: 'ingles_a1',
-          number: 1,
-          name: 'Nivel A1 • Breakthrough / Beginner',
-          codeRange: 'A1.1 al A1.4',
-          description: 'Verb To Be, Present Simple & 3rd Person, Pronouns & Possessives, Articles A/AN/The, Prepositions of time and place, Daily Routines.',
-          totalSubtopics: 1,
-          totalQuestions: 100,
-          color: 'from-emerald-600 to-teal-700',
-          badgeBg: 'bg-emerald-100',
-          badgeText: 'text-emerald-800',
-          borderColor: 'border-emerald-200',
-          icon: 'Globe',
-          institution: 'INGLES',
-          subtopics: [{ id: 'ingles_a1', code: 'A1.0', title: 'Fundamentos de Comunicación A1', subjectId: 'ingles_a1', questionCount: 100 }],
-        },
-        {
-          id: 'ingles_a2',
-          number: 2,
-          name: 'Nivel A2 • Waystage / Elementary',
-          codeRange: 'A2.1 al A2.4',
-          description: 'Past Simple, Regular/Irregular verbs, -ed phonetics, Comparatives & Superlatives, Future (will vs going to), Countable/Uncountable, Modals.',
-          totalSubtopics: 1,
-          totalQuestions: 100,
-          color: 'from-cyan-600 to-blue-700',
-          badgeBg: 'bg-cyan-100',
-          badgeText: 'text-cyan-800',
-          borderColor: 'border-cyan-200',
-          icon: 'BookOpen',
-          institution: 'INGLES',
-          subtopics: [{ id: 'ingles_a2', code: 'A2.0', title: 'Estructuras Elementales y Narrativa A2', subjectId: 'ingles_a2', questionCount: 100 }],
-        },
-        {
-          id: 'ingles_b1',
-          number: 3,
-          name: 'Nivel B1 • Threshold / Intermediate',
-          codeRange: 'B1.1 al B1.4',
-          description: 'Present Perfect Simple vs Past Simple, Conditionals (0, 1, 2), Passive voice intro, Relative clauses, Used to / Would, Modals of deduction.',
-          totalSubtopics: 1,
-          totalQuestions: 100,
-          color: 'from-blue-600 to-indigo-700',
-          badgeBg: 'bg-blue-100',
-          badgeText: 'text-blue-800',
-          borderColor: 'border-blue-200',
-          icon: 'Award',
-          institution: 'INGLES',
-          subtopics: [{ id: 'ingles_b1', code: 'B1.0', title: 'Consolidación Intermedia B1', subjectId: 'ingles_b1', questionCount: 100 }],
-        },
-        {
-          id: 'ingles_b2',
-          number: 4,
-          name: 'Nivel B2 • Vantage / Upper-Intermediate',
-          codeRange: 'B2.1 al B2.4',
-          description: 'Past Perfect, Future Continuous/Perfect, Conditionals 3rd & Mixed, Reported Speech, Gerunds & Infinitives with meaning shift, Phrasal Verbs.',
-          totalSubtopics: 1,
-          totalQuestions: 100,
-          color: 'from-indigo-600 to-purple-700',
-          badgeBg: 'bg-indigo-100',
-          badgeText: 'text-indigo-800',
-          borderColor: 'border-indigo-200',
-          icon: 'Compass',
-          institution: 'INGLES',
-          subtopics: [{ id: 'ingles_b2', code: 'B2.0', title: 'Fluidez y Precisión Lingüística B2', subjectId: 'ingles_b2', questionCount: 100 }],
-        },
-        {
-          id: 'ingles_c1',
-          number: 5,
-          name: 'Nivel C1 • Effective Operational Proficiency',
-          codeRange: 'C1.1 al C1.4',
-          description: 'Inversion with negative adverbials, Cleft sentences, Advanced passive & causatives, Mandative subjunctive, Nuanced modals, Discourse markers.',
-          totalSubtopics: 1,
-          totalQuestions: 100,
-          color: 'from-purple-600 to-pink-700',
-          badgeBg: 'bg-purple-100',
-          badgeText: 'text-purple-800',
-          borderColor: 'border-purple-200',
-          icon: 'Zap',
-          institution: 'INGLES',
-          subtopics: [{ id: 'ingles_c1', code: 'C1.0', title: 'Competencia Operativa Efectiva C1', subjectId: 'ingles_c1', questionCount: 100 }],
-        },
-        {
-          id: 'ingles_c2',
-          number: 6,
-          name: 'Nivel C2 • Mastery / Proficiency',
-          codeRange: 'C2.1 al C2.4',
-          description: 'Literary & locative inversions, Absolute participle clauses, Subtle modal & epistemic framing, Irreversible binomials, Dense collocations.',
-          totalSubtopics: 1,
-          totalQuestions: 100,
-          color: 'from-rose-600 to-red-800',
-          badgeBg: 'bg-rose-100',
-          badgeText: 'text-rose-800',
-          borderColor: 'border-rose-200',
-          icon: 'Sparkles',
-          institution: 'INGLES',
-          subtopics: [{ id: 'ingles_c2', code: 'C2.0', title: 'Maestría y Proficiencia C2', subjectId: 'ingles_c2', questionCount: 100 }],
-        },
-      ],
+      subjects: ALL_LANGUAGE_SUBJECTS.slice(0, 6),
     };
   }
 
@@ -1339,14 +1959,57 @@ function getFallbackCurriculum(category: Institution): CurriculumData {
 export function getSubjectNameFromId(id: string, inst: Institution): string {
   if (inst === 'INGLES') {
     const map: Record<string, string> = {
+      // Inglés
       ingles_a1: 'Nivel A1 • Breakthrough / Beginner',
       ingles_a2: 'Nivel A2 • Waystage / Elementary',
       ingles_b1: 'Nivel B1 • Threshold / Intermediate',
       ingles_b2: 'Nivel B2 • Vantage / Upper-Intermediate',
       ingles_c1: 'Nivel C1 • Effective Operational Proficiency',
       ingles_c2: 'Nivel C2 • Mastery / Proficiency',
+      // Náhuat
+      nahuat_a1: 'Náhuat • Nivel A1 (Pewal / Básico)',
+      nahuat_a2: 'Náhuat • Nivel A2 (Tikit / Elemental)',
+      nahuat_b1: 'Náhuat • Nivel B1 (Tajtaketza / Intermedio)',
+      nahuat_b2: 'Náhuat • Nivel B2 (Tamatilis / Intermedio Alto)',
+      nahuat_c1: 'Náhuat • Nivel C1 (Wey Tajtaketzani / Avanzado)',
+      nahuat_c2: 'Náhuat • Nivel C2 (Senka Nawat / Maestría)',
+      // Lenca
+      lenca_a1: 'Lenca Potón • Nivel A1 (Básico)',
+      lenca_a2: 'Lenca Potón • Nivel A2 (Elemental)',
+      lenca_b1: 'Lenca Potón • Nivel B1 (Intermedio)',
+      lenca_b2: 'Lenca Potón • Nivel B2 (Intermedio Alto)',
+      lenca_c1: 'Lenca Potón • Nivel C1 (Avanzado)',
+      lenca_c2: 'Lenca Potón • Nivel C2 (Maestría)',
+      // Kakawira
+      kakawira_a1: 'Kakawira • Nivel A1 (Básico)',
+      kakawira_a2: 'Kakawira • Nivel A2 (Elemental)',
+      kakawira_b1: 'Kakawira • Nivel B1 (Intermedio)',
+      kakawira_b2: 'Kakawira • Nivel B2 (Intermedio Alto)',
+      kakawira_c1: 'Kakawira • Nivel C1 (Avanzado)',
+      kakawira_c2: 'Kakawira • Nivel C2 (Maestría)',
+      // Alemán
+      german_a1: 'Alemán • Nivel A1 (Anfänger)',
+      german_a2: 'Alemán • Nivel A2 (Grundlegende Kenntnisse)',
+      german_b1: 'Alemán • Nivel B1 (Fortgeschritten)',
+      german_b2: 'Alemán • Nivel B2 (Selbständige Sprachverwendung)',
+      german_c1: 'Alemán • Nivel C1 (Fachkundige Sprachkenntnisse)',
+      german_c2: 'Alemán • Nivel C2 (Annähernd muttersprachliche)',
+      // Árabe
+      arabic_a1: 'Árabe • Nivel A1 (Mubtadi / Básico)',
+      arabic_a2: 'Árabe • Nivel A2 (Ibtidai / Elemental)',
+      arabic_b1: 'Árabe • Nivel B1 (Mutawassit / Intermedio)',
+      arabic_b2: 'Árabe • Nivel B2 (Fawq al-Mutawassit / Intermedio Alto)',
+      arabic_c1: 'Árabe • Nivel C1 (Mutaqaddim / Avanzado)',
+      arabic_c2: 'Árabe • Nivel C2 (Itqan / Maestría)',
+      // Mandarín
+      mandarin_a1: 'Mandarín • Nivel A1 (HSK 1 / Básico)',
+      mandarin_a2: 'Mandarín • Nivel A2 (HSK 2 / Elemental)',
+      mandarin_b1: 'Mandarín • Nivel B1 (HSK 3 / Intermedio)',
+      mandarin_b2: 'Mandarín • Nivel B2 (HSK 4 / Intermedio Alto)',
+      mandarin_c1: 'Mandarín • Nivel C1 (HSK 5 / Avanzado)',
+      mandarin_c2: 'Mandarín • Nivel C2 (HSK 6 / Maestría)',
     };
-    return map[id] || 'Nivel de Inglés Internacional';
+    return map[id] || 'Escuela de Idiomas Kuskat';
   }
 
   if (inst === 'ESCALAFON') {
@@ -1789,7 +2452,17 @@ export async function fetchDynamicQuizPool(params: {
     // 7. ALL (Mixto: UES & ESCALAFON & AVANZO & ASD & ENA & ANSP & INGLES)
     else {
       if (subjectId !== 'ALL') {
-        const isIngles = subjectId.startsWith('ingles_');
+        const isIngles =
+          subjectId.startsWith('ingles_') ||
+          subjectId.startsWith('nahuat_') ||
+          subjectId.startsWith('lenca_') ||
+          subjectId.startsWith('kakawira_') ||
+          subjectId.startsWith('german_') ||
+          subjectId.startsWith('aleman_') ||
+          subjectId.startsWith('arabic_') ||
+          subjectId.startsWith('arabe_') ||
+          subjectId.startsWith('mandarin_') ||
+          subjectId.startsWith('chino_');
         const isEscalafon = subjectId.startsWith('escalafon_');
         const isAnsp = subjectId.startsWith('ansp_');
         const isAsd = subjectId.startsWith('asd_') || subjectId.includes('matematica') || subjectId.includes('ciencias');

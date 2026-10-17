@@ -131,6 +131,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
 
   // Filtros del configurador de tests
   const [selectedCategory, setSelectedCategory] = useState<'ALL' | Institution>('ALL');
+  const [selectedLanguageFilter, setSelectedLanguageFilter] = useState<'ALL' | 'ingles' | 'nahuat' | 'lenca' | 'kakawira' | 'german' | 'arabic' | 'mandarin'>('ALL');
   const [selectedSubjectId, setSelectedSubjectId] = useState<string>('ALL');
   const [selectedSubtopicId, setSelectedSubtopicId] = useState<string>('ALL');
   const [selectedSectionTitle, setSelectedSectionTitle] = useState<string>('ALL');
@@ -231,11 +232,17 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
     return () => clearInterval(timer);
   }, [quizActive, quizFinished, timerMode]);
 
-  // Materias filtradas por la categoría seleccionada
+  // Materias filtradas por la categoría seleccionada y filtro de idioma si aplica
   const filteredSubjects = useMemo(() => {
-    if (selectedCategory === 'ALL') return subjects;
-    return subjects.filter((s) => s.institution === selectedCategory);
-  }, [subjects, selectedCategory]);
+    let list = subjects;
+    if (selectedCategory !== 'ALL') {
+      list = list.filter((s) => s.institution === selectedCategory);
+    }
+    if (selectedCategory === 'INGLES' && selectedLanguageFilter !== 'ALL') {
+      list = list.filter((s) => s.id.startsWith(`${selectedLanguageFilter}_`));
+    }
+    return list;
+  }, [subjects, selectedCategory, selectedLanguageFilter]);
 
   // Materia activa seleccionada
   const activeSubject = useMemo(() => {
@@ -292,7 +299,17 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
       } else if (selectedCategory === 'ESCALAFON') {
         title = 'Simulador de Ascenso al Nivel 1 del Escalafón Docente';
       } else if (selectedCategory === 'INGLES') {
-        title = 'Simulador de Idiomas • Inglés Internacional (A1-C2)';
+        const langNames: Record<string, string> = {
+          ingles: 'Inglés Internacional',
+          nahuat: 'Náhuat Pipil',
+          lenca: 'Lenca Potón',
+          kakawira: 'Kakawira (Cacaopera)',
+          german: 'Alemán (Deutsch)',
+          arabic: 'Árabe (Al-\'Arabiyya)',
+          mandarin: 'Mandarín (Pǔtōnghuà)',
+        };
+        const langTitle = selectedLanguageFilter !== 'ALL' ? langNames[selectedLanguageFilter] || 'Idiomas' : 'Escuela de Idiomas (7 Lenguas)';
+        title = `Simulador de ${langTitle} • MCER / CEFR`;
       } else {
         title = 'Simulacro Integral Mixto (UES, ESCALAFÓN, AVANZO, ASD, ENA, ANSP & IDIOMAS)';
       }
@@ -897,7 +914,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               Simulador Maestro de Tests KUSKAT
             </h2>
             <p className="text-xs sm:text-sm text-slate-500 max-w-lg mx-auto leading-relaxed">
-              Genera exámenes de evaluación aleatorios sobre el banco maestro de <strong className="text-slate-800">17,640 preguntas</strong>.
+              Genera exámenes de evaluación aleatorios sobre el banco maestro de <strong className="text-slate-800">34,440 preguntas</strong>.
               Configura por tipo institucional, materia académica, unidad temática o sección.
             </p>
           </div>
@@ -915,6 +932,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   type="button"
                   onClick={() => {
                     setSelectedCategory('ALL');
+                    setSelectedLanguageFilter('ALL');
                     setSelectedSubjectId('ALL');
                     setSelectedSubtopicId('ALL');
                     setSelectedSectionTitle('ALL');
@@ -927,7 +945,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 >
                   <div className="flex items-center justify-between">
                     <Sparkles className="w-4 h-4 text-amber-400" />
-                    <span className="text-[10px] font-mono opacity-70">17,640 Q</span>
+                    <span className="text-[10px] font-mono opacity-70">34,440 Q</span>
                   </div>
                   <div className="pt-2">
                     <span className="font-bold text-xs block">Integral Mixto</span>
@@ -1083,6 +1101,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   type="button"
                   onClick={() => {
                     setSelectedCategory('INGLES');
+                    setSelectedLanguageFilter('ALL');
                     setSelectedSubjectId('ALL');
                     setSelectedSubtopicId('ALL');
                     setSelectedSectionTitle('ALL');
@@ -1095,14 +1114,66 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 >
                   <div className="flex items-center justify-between">
                     <Globe className="w-4 h-4 text-emerald-200" />
-                    <span className="text-[10px] font-mono opacity-80">2,400 Q</span>
+                    <span className="text-[10px] font-mono opacity-80">16,800 Q</span>
                   </div>
                   <div className="pt-2">
-                    <span className="font-bold text-xs block">Idiomas • Inglés</span>
-                    <span className="text-[10px] opacity-75">A1 a C2 (MCER/CEFR)</span>
+                    <span className="font-bold text-xs block">Escuela de Idiomas</span>
+                    <span className="text-[10px] opacity-75">7 Lenguas • 16,800 Q</span>
                   </div>
                 </button>
               </div>
+
+              {/* Sub-menú Interactivo de Selección de Idioma si la categoría es INGLES */}
+              {selectedCategory === 'INGLES' && (
+                <div className="mt-3.5 p-3.5 bg-emerald-50/70 border border-emerald-200 rounded-2xl animate-fade-in space-y-2">
+                  <div className="flex items-center justify-between flex-wrap gap-2">
+                    <label className="text-xs font-bold text-emerald-950 uppercase tracking-wider flex items-center gap-1.5">
+                      <Globe className="w-4 h-4 text-emerald-700" />
+                      <span>Seleccionar Idioma Específico o Evaluar Todas las Lenguas:</span>
+                    </label>
+                    <span className="text-[11px] font-mono font-bold text-emerald-800 bg-emerald-100 px-2.5 py-0.5 rounded-full border border-emerald-200">
+                      {selectedLanguageFilter === 'ALL' ? '7 Lenguas (16,800 Q)' : '2,400 Q (Niveles A1 a C2)'}
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-2">
+                    {[
+                      { id: 'ALL', name: 'Todos los Idiomas', flag: '🌐', count: '16,800 Q' },
+                      { id: 'ingles', name: 'Inglés (US & UK)', flag: '🇬🇧', count: '2,400 Q' },
+                      { id: 'nahuat', name: 'Náhuat Pipil', flag: '🇸🇻', count: '2,400 Q' },
+                      { id: 'lenca', name: 'Lenca Potón', flag: '🇸🇻', count: '2,400 Q' },
+                      { id: 'kakawira', name: 'Kakawira', flag: '🇸🇻', count: '2,400 Q' },
+                      { id: 'german', name: 'Alemán (DACH)', flag: '🇩🇪', count: '2,400 Q' },
+                      { id: 'arabic', name: 'Árabe (Fus\'ha)', flag: '🇸🇦', count: '2,400 Q' },
+                      { id: 'mandarin', name: 'Mandarín', flag: '🇨🇳', count: '2,400 Q' },
+                    ].map((lang) => {
+                      const isSel = selectedLanguageFilter === lang.id;
+                      return (
+                        <button
+                          key={lang.id}
+                          type="button"
+                          onClick={() => {
+                            setSelectedLanguageFilter(lang.id as any);
+                            setSelectedSubjectId('ALL');
+                            setSelectedSubtopicId('ALL');
+                            setSelectedSectionTitle('ALL');
+                          }}
+                          className={`p-2.5 rounded-xl text-left transition-all cursor-pointer border flex flex-col justify-between ${
+                            isSel
+                              ? 'bg-emerald-800 text-white border-emerald-800 shadow-xs'
+                              : 'bg-white text-slate-700 border-emerald-200/60 hover:bg-emerald-100/60'
+                          }`}
+                        >
+                          <div className="flex items-center justify-between text-xs">
+                            <span className="text-sm">{lang.flag}</span>
+                            <span className="text-[9px] font-mono opacity-80">{lang.count}</span>
+                          </div>
+                          <span className="font-bold text-[11px] mt-1.5 block truncate">{lang.name}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              )}
             </div>
 
             {/* ============================================================ */}
@@ -1111,7 +1182,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
             <div className="space-y-1.5">
               <div className="flex items-center justify-between">
                 <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider">
-                  2. Materia Académica:
+                  2. Materia Académica / Nivel MCER:
                 </label>
                 {selectedSubjectId !== 'ALL' && (
                   <button
@@ -1137,7 +1208,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 className="w-full p-3 border border-slate-200 rounded-xl text-xs sm:text-sm bg-slate-50 focus:ring-2 focus:ring-blue-500 focus:outline-none"
               >
                 <option value="ALL">
-                  🌟 Todas las Materias (Evaluación Global • {selectedCategory === 'ALL' ? '14,340' : selectedCategory === 'UES' ? '7,500' : selectedCategory === 'AVANZO' ? '3,000' : selectedCategory === 'ASD' ? '2,190' : selectedCategory === 'ENA' ? '1,400' : '250'} reactivos)
+                  🌟 Todas las Materias (Evaluación Global • {selectedCategory === 'ALL' ? '34,440' : selectedCategory === 'UES' ? '7,500' : selectedCategory === 'AVANZO' ? '3,000' : selectedCategory === 'ASD' ? '2,190' : selectedCategory === 'ENA' ? '1,400' : selectedCategory === 'ESCALAFON' ? '3,300' : selectedCategory === 'INGLES' ? (selectedLanguageFilter === 'ALL' ? '16,800' : '2,400') : '250'} reactivos)
                 </option>
                 {filteredSubjects.map((s) => (
                   <option key={s.id} value={s.id}>

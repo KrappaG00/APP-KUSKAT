@@ -714,13 +714,14 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           </h2>
 
           <p className="text-xs sm:text-sm text-slate-300 w-full text-justify leading-relaxed">
-            Explora las <strong className="text-white">17,640 preguntas oficiales</strong> organizadas
+            Explora las <strong className="text-white">34,440 preguntas oficiales</strong> organizadas
             jerárquicamente: selecciona entre <strong className="text-white">UES</strong> (Admisión Universitaria),{' '}
             <strong className="text-white">ESCALAFÓN DOCENTE</strong> (Ascenso al Nivel Uno 2026 MINED),{' '}
             <strong className="text-white">AVANZO</strong> (Prueba Nacional Bachillerato),{' '}
             <strong className="text-white">ASD</strong> (Jóvenes Talento El Salvador),{' '}
-            <strong className="text-white">ENA</strong> (Escuela Nacional de Agricultura "Roberto Quiñónez") y{' '}
-            <strong className="text-white">ANSP</strong> (Policía Nacional Civil), filtra por especialidad, grado, materia académica,
+            <strong className="text-white">ENA</strong> (Escuela Nacional de Agricultura "Roberto Quiñónez"),{' '}
+            <strong className="text-white">ANSP</strong> (Policía Nacional Civil) e{' '}
+            <strong className="text-white">IDIOMAS</strong> (7 Lenguas: Inglés, Náhuat, Lenca, Kakawira, Alemán, Árabe y Mandarín • 16,800 reactivos), filtra por especialidad, grado, materia académica,
             unidad temática o desglose por sección.
           </p>
 
@@ -728,7 +729,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           <div className="pt-2 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 gap-2 sm:gap-3 text-xs">
             <div className="bg-white/10 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-white/10">
               <span className="text-[10px] text-slate-400 uppercase tracking-wider block font-bold">Total Reactivos</span>
-              <span className="text-lg font-black text-white">17,640</span>
+              <span className="text-lg font-black text-white">34,440</span>
             </div>
             <div className="bg-blue-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-blue-400/20">
               <span className="text-[10px] text-blue-300 uppercase tracking-wider block font-bold">Tipo UES</span>
@@ -754,9 +755,9 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               <span className="text-[10px] text-indigo-300 uppercase tracking-wider block font-bold">Tipo ANSP</span>
               <span className="text-lg font-black text-indigo-200">250</span>
             </div>
-            <div className="bg-fuchsia-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-fuchsia-400/20">
-              <span className="text-[10px] text-fuchsia-300 uppercase tracking-wider block font-bold">Asignaturas</span>
-              <span className="text-lg font-black text-fuchsia-200">{subjects.length || 38}</span>
+            <div className="bg-emerald-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-emerald-400/20">
+              <span className="text-[10px] text-emerald-300 uppercase tracking-wider block font-bold">7 Idiomas</span>
+              <span className="text-lg font-black text-emerald-200">16,800</span>
             </div>
           </div>
         </div>
@@ -867,7 +868,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                 <span className={`text-[9px] sm:text-[10px] font-mono font-bold px-1.5 sm:px-2 py-0.5 rounded-md ${
                   selectedInst === 'ALL' ? 'bg-slate-100 text-slate-800' : 'text-slate-400'
                 }`}>
-                  17,640
+                  34,440
                 </span>
               </button>
 
@@ -997,7 +998,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                 </span>
               </button>
 
-              {/* IDIOMAS / INGLÉS */}
+              {/* IDIOMAS (7 LENGUAS) */}
               <button
                 onClick={() => {
                   setSelectedInst('INGLES');
@@ -1010,11 +1011,11 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                     ? 'bg-emerald-700 text-white shadow-xs'
                     : 'bg-white/70 text-slate-700 hover:bg-white hover:text-slate-900 border border-slate-200/50'
                 }`}
-                title="Marco Común Europeo de Referencia MCER / CEFR - Inglés (600 reactivos)"
+                title="Escuela de Idiomas Kuskat - 7 Lenguas (16,800 reactivos)"
               >
-                <span className="truncate block font-caslon font-bold text-[11px] sm:text-xs">Inglés</span>
+                <span className="truncate block font-caslon font-bold text-[11px] sm:text-xs">Idiomas</span>
                 <span className={`block text-[8.5px] sm:text-[9px] font-mono ${selectedInst === 'INGLES' ? 'text-emerald-200' : 'text-slate-400'}`}>
-                  600
+                  16,800
                 </span>
               </button>
             </div>
