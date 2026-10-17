@@ -49,10 +49,30 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
   // Estado del departamento seleccionado en el mapa 3D
   const [selectedDept, setSelectedDept] = useState<DepartmentData | null>(null);
 
-  // Transición 3D de salida
-  const [isTransitioning, setIsTransitioning] = useState<boolean>(false);
+  useEffect(() => {
+    const scrollToTop = () => {
+      try {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        if (document.documentElement) document.documentElement.scrollTop = 0;
+        if (document.body) document.body.scrollTop = 0;
+      } catch {
+        window.scrollTo(0, 0);
+      }
+    };
+
+    scrollToTop();
+    const rafId = requestAnimationFrame(scrollToTop);
+    return () => cancelAnimationFrame(rafId);
+  }, []);
 
   const triggerStudyTransition = (inst?: Institution) => {
+    try {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+      if (document.documentElement) document.documentElement.scrollTop = 0;
+      if (document.body) document.body.scrollTop = 0;
+    } catch {
+      window.scrollTo(0, 0);
+    }
     setIsTransitioning(true);
     setTimeout(() => {
       onEnterSimulator(inst);

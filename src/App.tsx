@@ -185,6 +185,35 @@ export default function App() {
     setCurrentUser(getCurrentUser());
   }, []);
 
+  // Desactiva la restauración automática del scroll para garantizar inicio arriba
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+  }, []);
+
+  // Cada vez que se dirija a otra página o pestaña, siempre aparece en la parte de arriba
+  useEffect(() => {
+    const scrollToTop = () => {
+      try {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        if (document.documentElement) document.documentElement.scrollTop = 0;
+        if (document.body) document.body.scrollTop = 0;
+      } catch {
+        window.scrollTo(0, 0);
+      }
+    };
+
+    scrollToTop();
+    const rafId = requestAnimationFrame(scrollToTop);
+    const timerId = setTimeout(scrollToTop, 50);
+
+    return () => {
+      cancelAnimationFrame(rafId);
+      clearTimeout(timerId);
+    };
+  }, [activeTab]);
+
   const handleOpenLegalModal = (tab: LegalTab = 'terms') => {
     setLegalModalTab(tab);
     setIsLegalModalOpen(true);

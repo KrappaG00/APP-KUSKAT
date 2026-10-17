@@ -209,6 +209,23 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
     };
   }, []);
 
+  // Cada vez que se seleccione otra categoría, materia o tema, aparece en la parte de arriba
+  useEffect(() => {
+    const scrollToTop = () => {
+      try {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        if (document.documentElement) document.documentElement.scrollTop = 0;
+        if (document.body) document.body.scrollTop = 0;
+      } catch {
+        window.scrollTo(0, 0);
+      }
+    };
+
+    scrollToTop();
+    const rafId = requestAnimationFrame(scrollToTop);
+    return () => cancelAnimationFrame(rafId);
+  }, [selectedInst, selectedSubjectId, selectedSubtopicId]);
+
   // Cargar preguntas según la selección activa
   useEffect(() => {
     let isMounted = true;

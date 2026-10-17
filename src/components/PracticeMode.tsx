@@ -175,6 +175,23 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
     };
   }, []);
 
+  // Cada vez que se cambie de pantalla en el simulador (configurador, examen, resultados) o de reactivo, aparece en la parte de arriba
+  useEffect(() => {
+    const scrollToTop = () => {
+      try {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        if (document.documentElement) document.documentElement.scrollTop = 0;
+        if (document.body) document.body.scrollTop = 0;
+      } catch {
+        window.scrollTo(0, 0);
+      }
+    };
+
+    scrollToTop();
+    const rafId = requestAnimationFrame(scrollToTop);
+    return () => cancelAnimationFrame(rafId);
+  }, [quizActive, quizFinished, currentIndex]);
+
   // Si se reciben preguntas iniciales (ej. desde Categorías), configurar examen inmediatamente
   useEffect(() => {
     if (initialQuestions && initialQuestions.length > 0) {
