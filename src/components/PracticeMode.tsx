@@ -29,9 +29,10 @@ import {
   Printer,
   ShieldCheck,
   Globe,
+  Scale,
 } from 'lucide-react';
 import katex from 'katex';
-import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel } from '../types';
+import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel, EvaluationMode } from '../types';
 import {
   fetchUnifiedCurriculum,
   fetchDynamicQuizPool,
@@ -39,6 +40,7 @@ import {
   getSimilarQuestion,
 } from '../services/bancoService';
 import { MathText } from './CategoryHierarchyViewer';
+import { convertToTrueFalse, TrueFalseItem } from '../utils/trueFalseHelper';
 import { LeaderboardSection } from './LeaderboardSection';
 import { AdBanner } from './AdBanner';
 import { saveExamResult } from '../services/statsService';
@@ -136,6 +138,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
   const [questionCount, setQuestionCount] = useState<number>(10);
   const [timerMode, setTimerMode] = useState<'none' | '1m' | '1.5m'>('1m');
   const [tutorMode, setTutorMode] = useState<boolean>(false);
+  const [evaluationMode, setEvaluationMode] = useState<EvaluationMode>('multiple_choice');
 
   // Estados de remediación pedagógica en el solucionario
   const [activeRemediationIdx, setActiveRemediationIdx] = useState<number | null>(null);
@@ -421,9 +424,14 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
   const answeredCount = Object.keys(userAnswers).length;
   const correctCount = useMemo(() => {
     return quizQuestions.reduce((acc, q, idx) => {
+      if (evaluationMode === 'true_false') {
+        const tf = convertToTrueFalse(q);
+        const expected = tf.isTrue ? 'VERDADERO' : 'FALSO';
+        return userAnswers[idx] === expected ? acc + 1 : acc;
+      }
       return userAnswers[idx] === q.correctAnswer ? acc + 1 : acc;
     }, 0);
-  }, [quizQuestions, userAnswers]);
+  }, [quizQuestions, userAnswers, evaluationMode]);
 
   const incorrectCount = answeredCount - correctCount;
   const unansweredCount = quizQuestions.length - answeredCount;
@@ -452,14 +460,18 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
       if (!map.has(sName)) map.set(sName, { total: 0, correct: 0 });
       const item = map.get(sName)!;
       item.total++;
-      if (userAnswers[idx] === q.correctAnswer) item.correct++;
+      const isCorrect =
+        evaluationMode === 'true_false'
+          ? userAnswers[idx] === (convertToTrueFalse(q).isTrue ? 'VERDADERO' : 'FALSO')
+          : userAnswers[idx] === q.correctAnswer;
+      if (isCorrect) item.correct++;
     });
     return Array.from(map.entries()).map(([name, data]) => ({
       name,
       ...data,
       pct: Math.round((data.correct / data.total) * 100),
     }));
-  }, [quizQuestions, userAnswers]);
+  }, [quizQuestions, userAnswers, evaluationMode]);
 
   // Auto-guardado de resultados de exámenes en formato texto para historial de usuario y tabla Top 10
   useEffect(() => {
@@ -1295,6 +1307,48 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 </div>
               </div>
 
+              {/* Modalidad de Evaluación: Opción Múltiple vs Verdadero o Falso */}
+              <div className="p-3.5 bg-slate-50 rounded-2xl border border-slate-200 space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-center gap-2 text-xs font-bold text-slate-800">
+                    <Scale className="w-4 h-4 text-emerald-600" />
+                    <span>Modalidad de Evaluación:</span>
+                  </div>
+                  <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 font-mono">
+                    {evaluationMode === 'true_false' ? '⚖️ V / F' : '🎯 A-D'}
+                  </span>
+                </div>
+                <div className="grid grid-cols-2 gap-2 text-xs font-bold">
+                  <button
+                    type="button"
+                    onClick={() => setEvaluationMode('multiple_choice')}
+                    className={`py-2 px-3 rounded-xl border text-center transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+                      evaluationMode === 'multiple_choice'
+                        ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
+                        : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-100'
+                    }`}
+                  >
+                    <span>🎯 Opción Múltiple</span>
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setEvaluationMode('true_false')}
+                    className={`py-2 px-3 rounded-xl border text-center transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
+                      evaluationMode === 'true_false'
+                        ? 'bg-emerald-600 text-white border-emerald-600 shadow-xs'
+                        : 'bg-white border-slate-200 text-slate-700 hover:bg-slate-100'
+                    }`}
+                  >
+                    <span>⚖️ Verdadero o Falso</span>
+                  </button>
+                </div>
+                <p className="text-[11px] text-slate-500 leading-snug">
+                  {evaluationMode === 'true_false'
+                    ? 'Cada reactivo genera una afirmación determinística para evaluar si es VERDADERA o FALSA.'
+                    : 'Modo estándar oficial con 4 a 6 opciones de respuesta (A, B, C, D).'}
+                </p>
+              </div>
+
               {/* Modo Tutor / Inmediato */}
               <div className="p-3.5 bg-slate-50 rounded-2xl border border-slate-200 space-y-2">
                 <div className="flex items-center justify-between">
@@ -1417,6 +1471,35 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               </span>
             </div>
 
+            {/* Selector de Modo de Evaluación: Opción Múltiple vs Verdadero/Falso */}
+            <div className="flex items-center gap-1 bg-slate-100 p-0.5 rounded-xl border border-slate-200">
+              <button
+                type="button"
+                onClick={() => setEvaluationMode('multiple_choice')}
+                className={`px-2.5 py-1 text-[11px] font-bold rounded-lg transition-all cursor-pointer ${
+                  evaluationMode === 'multiple_choice'
+                    ? 'bg-white text-blue-900 shadow-2xs font-extrabold'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+                title="Evaluar con selección múltiple (A-D)"
+              >
+                Opción Múltiple
+              </button>
+              <button
+                type="button"
+                onClick={() => setEvaluationMode('true_false')}
+                className={`px-2.5 py-1 text-[11px] font-bold rounded-lg transition-all cursor-pointer flex items-center gap-1 ${
+                  evaluationMode === 'true_false'
+                    ? 'bg-white text-indigo-900 shadow-2xs font-extrabold'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+                title="Evaluar proposición en modalidad Verdadero o Falso"
+              >
+                <Scale className="w-3 h-3 text-indigo-600" />
+                <span>Verdadero / Falso</span>
+              </button>
+            </div>
+
             <div className="flex items-center gap-2.5">
               {timerMode !== 'none' && (
                 <div
@@ -1498,72 +1581,229 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               <MathText text={currentQ.statement} />
             </div>
 
-            {/* Opciones */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
-              {currentQ.options.map((opt) => {
-                const isSelected = userAnswers[currentIndex] === opt.key;
-                const isRight = currentQ.correctAnswer === opt.key;
-
-                let optClass = 'bg-slate-50 border-slate-200 text-slate-800 hover:bg-slate-100';
-
-                // Si está en Modo Tutor y ya respondió esta pregunta
-                if (tutorMode && isAnswered) {
-                  if (isRight) {
-                    optClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-semibold';
-                  } else if (isSelected) {
-                    optClass = 'bg-rose-50 border-rose-400 text-rose-950';
-                  } else {
-                    optClass = 'bg-slate-50/50 border-slate-200 text-slate-400 opacity-60';
-                  }
-                } else if (isSelected) {
-                  optClass = 'bg-blue-50 border-blue-600 text-blue-950 font-medium ring-2 ring-blue-500/20';
-                }
+            {/* Opciones de Evaluación (Opción Múltiple vs Verdadero o Falso) */}
+            {evaluationMode === 'true_false' ? (
+              (() => {
+                const tf = convertToTrueFalse(currentQ);
+                const userPick = userAnswers[currentIndex];
+                const expected = tf.isTrue ? 'VERDADERO' : 'FALSO';
 
                 return (
-                  <button
-                    key={opt.key}
-                    onClick={() => handleSelectOption(opt.key)}
-                    className={`p-3.5 rounded-xl border text-sm text-left transition-all flex items-start gap-3 cursor-pointer min-h-[44px] ${optClass}`}
-                  >
-                    <span
-                      className={`w-6 h-6 rounded-lg font-mono text-xs font-bold flex items-center justify-center shrink-0 ${
-                        tutorMode && isAnswered && isRight
-                          ? 'bg-emerald-600 text-white'
-                          : isSelected
-                          ? 'bg-blue-600 text-white'
-                          : 'bg-white border border-slate-300 text-slate-700'
-                      }`}
-                    >
-                      {opt.key}
-                    </span>
-                    <div className="flex-1 break-words pt-0.5 leading-snug">
-                      <MathText text={opt.text} />
+                  <div className="space-y-4 pt-1">
+                    {/* Caja de Proposición destacada con KaTeX */}
+                    <div className="p-4 sm:p-5 rounded-2xl bg-indigo-50/70 border-2 border-indigo-200/90 space-y-2.5">
+                      <div className="flex items-center justify-between gap-2 flex-wrap text-xs">
+                        <span className="font-extrabold text-indigo-950 uppercase tracking-wider flex items-center gap-1.5">
+                          <Scale className="w-4 h-4 text-indigo-600" />
+                          Proposición para Evaluar:
+                        </span>
+                        <span className="text-[11px] font-semibold text-indigo-700 bg-white/90 px-2.5 py-0.5 rounded-full border border-indigo-200">
+                          Determina si el siguiente enunciado es Verdadero o Falso
+                        </span>
+                      </div>
+                      <div className="text-slate-900 text-base sm:text-lg font-medium leading-relaxed bg-white/95 p-4 rounded-xl border border-indigo-100 shadow-2xs">
+                        <MathText text={tf.presentedOptionText} />
+                      </div>
                     </div>
-                  </button>
+
+                    {/* Botones de Selección Verdadero / Falso */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-1">
+                      {/* Botón VERDADERO */}
+                      {(() => {
+                        const isPicked = userPick === 'VERDADERO';
+                        const isRight = expected === 'VERDADERO';
+                        let btnClass = 'bg-slate-50/80 border-slate-200 text-slate-800 hover:border-emerald-300 hover:bg-emerald-50/40';
+
+                        if (tutorMode && isAnswered) {
+                          if (isRight) {
+                            btnClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-400/30 shadow-xs';
+                          } else if (isPicked) {
+                            btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                          } else {
+                            btnClass = 'bg-slate-50/40 border-slate-200 text-slate-400 opacity-60';
+                          }
+                        } else if (isPicked) {
+                          btnClass = 'bg-emerald-50 border-emerald-600 text-emerald-950 font-bold ring-2 ring-emerald-500/30 shadow-xs';
+                        }
+
+                        return (
+                          <button
+                            type="button"
+                            onClick={() => handleSelectOption('VERDADERO')}
+                            className={`p-4 rounded-2xl border-2 text-left transition-all flex items-center gap-3.5 cursor-pointer min-h-[58px] ${btnClass}`}
+                          >
+                            <span
+                              className={`w-9 h-9 rounded-xl font-bold flex items-center justify-center shrink-0 text-sm ${
+                                isPicked
+                                  ? 'bg-emerald-600 text-white'
+                                  : 'bg-emerald-100 text-emerald-800'
+                              }`}
+                            >
+                              ✓
+                            </span>
+                            <div className="flex-1">
+                              <span className="block text-base font-extrabold text-emerald-950">
+                                VERDADERO
+                              </span>
+                              <span className="text-xs text-slate-500 font-normal">
+                                La afirmación planteada es correcta
+                              </span>
+                            </div>
+                          </button>
+                        );
+                      })()}
+
+                      {/* Botón FALSO */}
+                      {(() => {
+                        const isPicked = userPick === 'FALSO';
+                        const isRight = expected === 'FALSO';
+                        let btnClass = 'bg-slate-50/80 border-slate-200 text-slate-800 hover:border-rose-300 hover:bg-rose-50/40';
+
+                        if (tutorMode && isAnswered) {
+                          if (isRight) {
+                            btnClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-400/30 shadow-xs';
+                          } else if (isPicked) {
+                            btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                          } else {
+                            btnClass = 'bg-slate-50/40 border-slate-200 text-slate-400 opacity-60';
+                          }
+                        } else if (isPicked) {
+                          btnClass = 'bg-rose-50 border-rose-600 text-rose-950 font-bold ring-2 ring-rose-500/30 shadow-xs';
+                        }
+
+                        return (
+                          <button
+                            type="button"
+                            onClick={() => handleSelectOption('FALSO')}
+                            className={`p-4 rounded-2xl border-2 text-left transition-all flex items-center gap-3.5 cursor-pointer min-h-[58px] ${btnClass}`}
+                          >
+                            <span
+                              className={`w-9 h-9 rounded-xl font-bold flex items-center justify-center shrink-0 text-sm ${
+                                isPicked
+                                  ? 'bg-rose-600 text-white'
+                                  : 'bg-rose-100 text-rose-800'
+                              }`}
+                            >
+                              ✕
+                            </span>
+                            <div className="flex-1">
+                              <span className="block text-base font-extrabold text-rose-950">
+                                FALSO
+                              </span>
+                              <span className="text-xs text-slate-500 font-normal">
+                                La afirmación planteada es incorrecta
+                              </span>
+                            </div>
+                          </button>
+                        );
+                      })()}
+                    </div>
+                  </div>
                 );
-              })}
-            </div>
+              })()
+            ) : (
+              /* Opciones estándar A-D */
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+                {currentQ.options.map((opt) => {
+                  const isSelected = userAnswers[currentIndex] === opt.key;
+                  const isRight = currentQ.correctAnswer === opt.key;
+
+                  let optClass = 'bg-slate-50 border-slate-200 text-slate-800 hover:bg-slate-100';
+
+                  // Si está en Modo Tutor y ya respondió esta pregunta
+                  if (tutorMode && isAnswered) {
+                    if (isRight) {
+                      optClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-semibold';
+                    } else if (isSelected) {
+                      optClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                    } else {
+                      optClass = 'bg-slate-50/50 border-slate-200 text-slate-400 opacity-60';
+                    }
+                  } else if (isSelected) {
+                    optClass = 'bg-blue-50 border-blue-600 text-blue-950 font-medium ring-2 ring-blue-500/20';
+                  }
+
+                  return (
+                    <button
+                      key={opt.key}
+                      onClick={() => handleSelectOption(opt.key)}
+                      className={`p-3.5 rounded-xl border text-sm text-left transition-all flex items-start gap-3 cursor-pointer min-h-[44px] ${optClass}`}
+                    >
+                      <span
+                        className={`w-6 h-6 rounded-lg font-mono text-xs font-bold flex items-center justify-center shrink-0 ${
+                          tutorMode && isAnswered && isRight
+                            ? 'bg-emerald-600 text-white'
+                            : isSelected
+                            ? 'bg-blue-600 text-white'
+                            : 'bg-white border border-slate-300 text-slate-700'
+                        }`}
+                      >
+                        {opt.key}
+                      </span>
+                      <div className="flex-1 break-words pt-0.5 leading-snug">
+                        <MathText text={opt.text} />
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+            )}
 
             {/* Retroalimentación inmediata en Modo Tutor */}
             {tutorMode && isAnswered && (
               <div className="p-3.5 rounded-xl bg-blue-50 border border-blue-100 text-xs sm:text-sm text-slate-700 space-y-1.5 animate-fade-in">
-                <div className="flex items-center gap-2 font-bold text-blue-950">
-                  <span>Clave Correcta:</span>
-                  <span className="px-2 py-0.5 bg-blue-600 text-white rounded text-xs font-mono">
-                    {currentQ.correctAnswer}
-                  </span>
-                  {userAnswers[currentIndex] === currentQ.correctAnswer ? (
-                    <span className="text-emerald-600 font-bold flex items-center gap-1">
-                      <CheckCircle2 className="w-4 h-4" /> ¡Excelente acierto!
-                    </span>
-                  ) : (
-                    <span className="text-rose-600 font-bold">Respuesta incorrecta</span>
-                  )}
-                </div>
-                <div className="leading-relaxed">
-                  <strong className="text-slate-900">Justificación: </strong>
-                  <MathText text={currentQ.explanation} />
-                </div>
+                {evaluationMode === 'true_false' ? (
+                  (() => {
+                    const tf = convertToTrueFalse(currentQ);
+                    const expected = tf.isTrue ? 'VERDADERO' : 'FALSO';
+                    const isSuccess = userAnswers[currentIndex] === expected;
+                    return (
+                      <>
+                        <div className="flex items-center gap-2 font-bold text-blue-950 flex-wrap">
+                          <span>Evaluación Oficial:</span>
+                          <span
+                            className={`px-2.5 py-0.5 rounded text-xs font-mono font-bold text-white ${
+                              tf.isTrue ? 'bg-emerald-600' : 'bg-rose-600'
+                            }`}
+                          >
+                            {expected}
+                          </span>
+                          {isSuccess ? (
+                            <span className="text-emerald-600 font-bold flex items-center gap-1">
+                              <CheckCircle2 className="w-4 h-4" /> ¡Excelente acierto!
+                            </span>
+                          ) : (
+                            <span className="text-rose-600 font-bold">Respuesta incorrecta</span>
+                          )}
+                        </div>
+                        <div className="leading-relaxed">
+                          <strong className="text-slate-900">Justificación Pedagógica: </strong>
+                          <MathText text={tf.explanation} />
+                        </div>
+                      </>
+                    );
+                  })()
+                ) : (
+                  <>
+                    <div className="flex items-center gap-2 font-bold text-blue-950">
+                      <span>Clave Correcta:</span>
+                      <span className="px-2 py-0.5 bg-blue-600 text-white rounded text-xs font-mono">
+                        {currentQ.correctAnswer}
+                      </span>
+                      {userAnswers[currentIndex] === currentQ.correctAnswer ? (
+                        <span className="text-emerald-600 font-bold flex items-center gap-1">
+                          <CheckCircle2 className="w-4 h-4" /> ¡Excelente acierto!
+                        </span>
+                      ) : (
+                        <span className="text-rose-600 font-bold">Respuesta incorrecta</span>
+                      )}
+                    </div>
+                    <div className="leading-relaxed">
+                      <strong className="text-slate-900">Justificación: </strong>
+                      <MathText text={currentQ.explanation} />
+                    </div>
+                  </>
+                )}
               </div>
             )}
 
@@ -1843,8 +2083,15 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         </h4>
 
         {quizQuestions.map((q, idx) => {
+          const tf = convertToTrueFalse(q);
+          const expectedAns =
+            evaluationMode === 'true_false'
+              ? tf.isTrue
+                ? 'VERDADERO'
+                : 'FALSO'
+              : q.correctAnswer;
           const userAns = userAnswers[idx];
-          const isRight = userAns === q.correctAnswer;
+          const isRight = userAns === expectedAns;
           const isBlank = userAns === undefined;
 
           return (
@@ -1899,38 +2146,77 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 <MathText text={q.statement} />
               </div>
 
-              {/* Opciones */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-                {q.options.map((opt) => {
-                  const isUserPick = userAns === opt.key;
-                  const isCorrectPick = q.correctAnswer === opt.key;
-
-                  let optClass = 'bg-slate-50 border-slate-200 text-slate-700';
-                  if (isCorrectPick) {
-                    optClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold';
-                  } else if (isUserPick) {
-                    optClass = 'bg-rose-50 border-rose-400 text-rose-950 line-through';
-                  }
-
-                  return (
-                    <div
-                      key={opt.key}
-                      className={`p-2.5 rounded-xl border flex items-start gap-2.5 ${optClass}`}
-                    >
-                      <span className="font-mono font-bold">{opt.key})</span>
-                      <div className="flex-1">
-                        <MathText text={opt.text} />
-                      </div>
+              {/* Opciones o Proposición V/F */}
+              {evaluationMode === 'true_false' ? (
+                <div className="p-3.5 bg-slate-50/80 rounded-xl border border-slate-200 space-y-2 text-xs">
+                  <div className="flex items-center justify-between gap-2 flex-wrap">
+                    <span className="font-bold text-slate-800 flex items-center gap-1.5">
+                      <Scale className="w-3.5 h-3.5 text-indigo-600" />
+                      Proposición Evaluada:
+                    </span>
+                    <div className="flex items-center gap-2">
+                      <span className="text-slate-500">Tu respuesta:</span>
+                      <span
+                        className={`font-mono font-bold px-2 py-0.5 rounded text-[11px] ${
+                          userAns === 'VERDADERO'
+                            ? 'bg-emerald-100 text-emerald-800'
+                            : userAns === 'FALSO'
+                            ? 'bg-rose-100 text-rose-800'
+                            : 'bg-slate-200 text-slate-700'
+                        }`}
+                      >
+                        {userAns || 'Sin responder'}
+                      </span>
+                      <span className="text-slate-400">•</span>
+                      <span className="text-slate-500">Correcto:</span>
+                      <span
+                        className={`font-mono font-bold px-2 py-0.5 rounded text-[11px] ${
+                          expectedAns === 'VERDADERO'
+                            ? 'bg-emerald-600 text-white'
+                            : 'bg-rose-600 text-white'
+                        }`}
+                      >
+                        {expectedAns}
+                      </span>
                     </div>
-                  );
-                })}
-              </div>
+                  </div>
+                  <div className="p-2.5 bg-white rounded-lg border border-slate-200 text-slate-900 font-medium">
+                    <MathText text={tf.presentedOptionText} />
+                  </div>
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                  {q.options.map((opt) => {
+                    const isUserPick = userAns === opt.key;
+                    const isCorrectPick = q.correctAnswer === opt.key;
+
+                    let optClass = 'bg-slate-50 border-slate-200 text-slate-700';
+                    if (isCorrectPick) {
+                      optClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold';
+                    } else if (isUserPick) {
+                      optClass = 'bg-rose-50 border-rose-400 text-rose-950 line-through';
+                    }
+
+                    return (
+                      <div
+                        key={opt.key}
+                        className={`p-2.5 rounded-xl border flex items-start gap-2.5 ${optClass}`}
+                      >
+                        <span className="font-mono font-bold">{opt.key})</span>
+                        <div className="flex-1">
+                          <MathText text={opt.text} />
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
 
               {/* Justificación Pedagógica */}
               <div className="p-3.5 bg-slate-50 rounded-xl border border-slate-200 text-xs text-slate-700 space-y-1">
                 <span className="font-bold text-slate-900 block">Explicación Oficial:</span>
                 <div className="leading-relaxed">
-                  <MathText text={q.explanation} />
+                  <MathText text={evaluationMode === 'true_false' ? tf.explanation : q.explanation} />
                 </div>
               </div>
 
@@ -1966,56 +2252,120 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                         <MathText text={remediationQuestion.statement} />
                       </div>
 
-                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
-                        {remediationQuestion.options.map((rOpt) => {
-                          const isPicked = remediationUserAns === rOpt.key;
-                          const isCorrect = remediationQuestion.correctAnswer === rOpt.key;
-                          let rClass = 'bg-white border-amber-200 text-slate-800 hover:bg-amber-100/50';
-
-                          if (remediationSolved) {
-                            if (isCorrect) {
-                              rClass = 'bg-emerald-100 border-emerald-500 text-emerald-950 font-bold';
-                            } else if (isPicked) {
-                              rClass = 'bg-rose-100 border-rose-400 text-rose-950';
-                            } else {
-                              rClass = 'bg-white/60 border-slate-200 text-slate-400 opacity-60';
-                            }
-                          }
+                      {/* Modalidad de Selección para Remediación */}
+                      {evaluationMode === 'true_false' ? (
+                        (() => {
+                          const rTf = convertToTrueFalse(remediationQuestion);
+                          const rExpected = rTf.isTrue ? 'VERDADERO' : 'FALSO';
 
                           return (
-                            <button
-                              key={rOpt.key}
-                              type="button"
-                              onClick={() => handlePickRemediationOption(rOpt.key)}
-                              className={`p-2.5 rounded-xl border text-left transition-all flex items-start gap-2.5 cursor-pointer ${rClass}`}
-                            >
-                              <span className="font-mono font-bold">{rOpt.key})</span>
-                              <div className="flex-1">
-                                <MathText text={rOpt.text} />
+                            <div className="space-y-3">
+                              <div className="p-3 bg-white rounded-xl border border-amber-200 text-xs space-y-1">
+                                <span className="font-bold text-amber-900 block">Proposición a Evaluar:</span>
+                                <div className="text-slate-900 font-medium">
+                                  <MathText text={rTf.presentedOptionText} />
+                                </div>
                               </div>
-                            </button>
+                              <div className="grid grid-cols-2 gap-2">
+                                {(['VERDADERO', 'FALSO'] as const).map((rChoice) => {
+                                  const isPicked = remediationUserAns === rChoice;
+                                  const isCorrectChoice = rExpected === rChoice;
+                                  let rClass =
+                                    'bg-white border-amber-200 text-slate-800 hover:bg-amber-100/50';
+
+                                  if (remediationSolved) {
+                                    if (isCorrectChoice) {
+                                      rClass =
+                                        'bg-emerald-100 border-emerald-500 text-emerald-950 font-bold';
+                                    } else if (isPicked) {
+                                      rClass = 'bg-rose-100 border-rose-400 text-rose-950';
+                                    } else {
+                                      rClass =
+                                        'bg-white/60 border-slate-200 text-slate-400 opacity-60';
+                                    }
+                                  }
+
+                                  return (
+                                    <button
+                                      key={rChoice}
+                                      type="button"
+                                      onClick={() => handlePickRemediationOption(rChoice)}
+                                      className={`p-3 rounded-xl border text-center font-bold text-xs cursor-pointer transition-all ${rClass}`}
+                                    >
+                                      {rChoice}
+                                    </button>
+                                  );
+                                })}
+                              </div>
+                            </div>
                           );
-                        })}
-                      </div>
+                        })()
+                      ) : (
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                          {remediationQuestion.options.map((rOpt) => {
+                            const isPicked = remediationUserAns === rOpt.key;
+                            const isCorrect = remediationQuestion.correctAnswer === rOpt.key;
+                            let rClass = 'bg-white border-amber-200 text-slate-800 hover:bg-amber-100/50';
+
+                            if (remediationSolved) {
+                              if (isCorrect) {
+                                rClass = 'bg-emerald-100 border-emerald-500 text-emerald-950 font-bold';
+                              } else if (isPicked) {
+                                rClass = 'bg-rose-100 border-rose-400 text-rose-950';
+                              } else {
+                                rClass = 'bg-white/60 border-slate-200 text-slate-400 opacity-60';
+                              }
+                            }
+
+                            return (
+                              <button
+                                key={rOpt.key}
+                                type="button"
+                                onClick={() => handlePickRemediationOption(rOpt.key)}
+                                className={`p-2.5 rounded-xl border text-left transition-all flex items-start gap-2.5 cursor-pointer ${rClass}`}
+                              >
+                                <span className="font-mono font-bold">{rOpt.key})</span>
+                                <div className="flex-1">
+                                  <MathText text={rOpt.text} />
+                                </div>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
 
                       {remediationSolved && (
                         <div className="p-3 bg-white rounded-xl border border-amber-200 text-xs space-y-1 animate-fade-in">
                           <div className="font-bold flex items-center gap-1.5">
-                            {remediationUserAns === remediationQuestion.correctAnswer ? (
-                              <span className="text-emerald-700 flex items-center gap-1 font-bold">
-                                <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                                ¡Excelente! Has superado el reactivo de refuerzo.
-                              </span>
-                            ) : (
-                              <span className="text-rose-700 flex items-center gap-1 font-bold">
-                                <XCircle className="w-4 h-4 text-rose-600" />
-                                Respuesta incorrecta. Revisa la justificación:
-                              </span>
-                            )}
+                            {(() => {
+                              const rExpected =
+                                evaluationMode === 'true_false'
+                                  ? convertToTrueFalse(remediationQuestion).isTrue
+                                    ? 'VERDADERO'
+                                    : 'FALSO'
+                                  : remediationQuestion.correctAnswer;
+                              return remediationUserAns === rExpected ? (
+                                <span className="text-emerald-700 flex items-center gap-1 font-bold">
+                                  <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                                  ¡Excelente! Has superado el reactivo de refuerzo.
+                                </span>
+                              ) : (
+                                <span className="text-rose-700 flex items-center gap-1 font-bold">
+                                  <XCircle className="w-4 h-4 text-rose-600" />
+                                  Respuesta incorrecta. Revisa la justificación:
+                                </span>
+                              );
+                            })()}
                           </div>
                           <div className="text-slate-600 leading-relaxed">
                             <strong className="text-slate-800">Justificación: </strong>
-                            <MathText text={remediationQuestion.explanation} />
+                            <MathText
+                              text={
+                                evaluationMode === 'true_false'
+                                  ? convertToTrueFalse(remediationQuestion).explanation
+                                  : remediationQuestion.explanation
+                              }
+                            />
                           </div>
                         </div>
                       )}

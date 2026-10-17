@@ -22,6 +22,11 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Python cache
+__pycache__/
+*.py[cod]
+
 # Critical: Ensure source code is NEVER ignored
 !src/
 !src/**/*
+

@@ -25,7 +25,7 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
     subtitle: 'Preparación de alto rendimiento para exámenes oficiales de El Salvador',
     badge: 'Paso 1 de 6 • Convocatorias & 3D',
     description:
-      'KUSKAT (creado por Yeferson E. Perez) reúne un banco maestro de 19,740 preguntas de selección múltiple (17,640 en 6 convocatorias de exigencia nacional y 2,100 en la Escuela de Idiomas), complementado con un Portal 3D interactivo con mapa de El Salvador fijo y adaptado a cualquier pantalla.',
+      'KUSKAT (creado por Yeferson E. Perez) reúne un banco maestro de 34,440 preguntas de selección múltiple (17,640 en 6 convocatorias de exigencia nacional y 16,800 en la Escuela de Idiomas), complementado con un Portal 3D interactivo con mapa de El Salvador fijo y adaptado a cualquier pantalla.',
     bulletPoints: [
       '🎓 Admisión UES (7,500 reactivos): Matemática, Física, Química, Biología, Ciencias Sociales y Lenguaje.',
       '📜 Escalafón Docente (3,300 reactivos): Ascenso al Nivel Uno 2026 MINED en Formación General y 10 Especialidades.',
@@ -54,14 +54,14 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
   {
     step: 3,
     title: 'Escuela de Idiomas Kuskat: 7 Lenguas & Rescate Cultural',
-    subtitle: '840 clases exhaustivas (≥500 palabras), 2,100 reactivos, audio nativo y flashcards 3D',
+    subtitle: '840 clases exhaustivas (≥500 palabras), 16,800 reactivos (400 por nivel), audio nativo y flashcards 3D',
     badge: 'Paso 3 de 6 • Idiomas Multilingüe',
     description:
       'Aprende y domina 7 idiomas estructurados bajo el estándar internacional MCER/CEFR (A1 a C2), diseñados especialmente desde la perspectiva lingüística del español de El Salvador, integrando lenguas originarias y globales.',
     bulletPoints: [
       '🗣️ 7 Idiomas Disponibles: Inglés (US vs. UK), Náhuat Pipil (Witzapan/IRIN), Lenca Potón, Kakawira (Cacaopera), Alemán (DACH), Árabe (Fus\'ha y Levantino) y Mandarín (Pǔtōnghuà con Hanzi y Pinyin).',
       '📚 840 Clases Teóricas Rigurosas: 120 lecciones completas por idioma (20 por nivel A1-C2) con más de 500 palabras de contenido pedagógico, diálogos culturales, tablas gramaticales y ejercicios resueltos.',
-      '📝 Simulador Multilingüe (2,100 Reactivos): 300 preguntas oficiales por idioma (50 por nivel) con explicaciones gramaticales detalladas y sistema de puntuación oficial +1 / -2.',
+      '📝 Simulador Multilingüe (16,800 Reactivos): 2,400 preguntas oficiales por idioma (400 por nivel) con explicaciones gramaticales detalladas y sistema de puntuación oficial +1 / -2.',
       '🔢 Fundamentos y Conversores Numéricos en Vivo: Conversores interactivos decimales, vigesimales náhuat, decenas invertidas en alemán, numeración árabe y caracteres Hanzi en tiempo real.',
       '🔊 Pronunciación con Audio y Flashcards 3D: Abecedarios fonéticos, catálogo de colores, objetos cotidianos con síntesis de voz Web Speech API, verbos esenciales y tarjetas de memoria con volteo tridimensional.',
     ],

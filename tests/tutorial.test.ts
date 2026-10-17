@@ -55,7 +55,7 @@ describe('Tutorial de Onboarding Interactivo (6 Pasos y Persistencia)', () => {
     expect(titles.some((t) => t.includes('resultados') || t.includes('legal'))).toBe(true);
   });
 
-  it('el paso de idiomas detalla los 7 idiomas, las 840 clases y las 2,100 preguntas', () => {
+  it('el paso de idiomas detalla los 7 idiomas, las 840 clases y las 16,800 preguntas (2,400 por idioma, 400 por nivel)', () => {
     const langStep = TUTORIAL_STEPS.find((s) => s.title.toLowerCase().includes('idiomas'));
     expect(langStep).toBeDefined();
     const allBulletText = langStep?.bulletPoints.join(' ') || '';
@@ -68,7 +68,9 @@ describe('Tutorial de Onboarding Interactivo (6 Pasos y Persistencia)', () => {
     expect(allBulletText.toLowerCase()).toContain('mandarín');
     expect(allBulletText.toLowerCase()).toContain('inglés');
     expect(allBulletText).toContain('840');
-    expect(allBulletText).toContain('2,100');
+    expect(allBulletText).toContain('16,800');
+    expect(allBulletText).toContain('2,400');
+    expect(allBulletText).toContain('400');
   });
 
   it('respeta la preferencia de persistencia en localStorage cuando el usuario marca no volver a mostrar', () => {

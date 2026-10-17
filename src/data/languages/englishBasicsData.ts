@@ -58,6 +58,7 @@ export interface EverydayObject {
   emoji: string;
   article: 'a' | 'an' | 'some' | 'the';
   pluralEn: string;
+  usVsUk?: string;
   usVsUkNote?: string;
   exampleEn: string;
   exampleEs: string;
@@ -435,26 +436,37 @@ export const NUMBERS_CARDINALS_ORDINALS: NumberEntry[] = [
   { number: 1000000000, cardinal: 'one billion', ordinal: 'one billionth', ordinalAbbr: '1,000,000,000th', pronunciationEs: 'uan bí-lion (mil millones)' }
 ];
 
-export const NUMBER_RULES = [
+export interface NumberRule {
+  title: string;
+  explanation: string;
+  example?: string;
+}
+
+export const NUMBER_RULES: NumberRule[] = [
   {
     title: 'Guion en Números Compuestos (21 al 99)',
-    explanation: 'Todos los números de dos dígitos entre 21 y 99 se escriben SIEMPRE con un guion intermedio en inglés: twenty-one, thirty-five, fifty-eight, ninety-nine.'
+    explanation: 'Todos los números de dos dígitos entre 21 y 99 se escriben SIEMPRE con un guion intermedio en inglés: twenty-one, thirty-five, fifty-eight, ninety-nine.',
+    example: 'twenty-one (21), forty-five (45), ninety-nine (99)'
   },
   {
     title: 'Regla del "AND" entre Cientos y Decenas (US vs. UK)',
-    explanation: 'En British English (UK) es OBLIGATORIO usar "and" entre las centenas y las decenas: 125 = "one hundred and twenty-five". En American English (US) es muy común omitir el "and": "one hundred twenty-five".'
+    explanation: 'En British English (UK) es OBLIGATORIO usar "and" entre las centenas y las decenas: 125 = "one hundred and twenty-five". En American English (US) es muy común omitir el "and": "one hundred twenty-five".',
+    example: 'UK: one hundred and twenty-five | US: one hundred twenty-five'
   },
   {
     title: 'Invariabilidad en Plural (Hundred, Thousand, Million)',
-    explanation: 'Hundred, thousand, million y billion NUNCA llevan "-s" cuando van acompañados de un número exacto: "three million people" (CORRECTO), NO *"three millions people"*. Solo llevan "-s" en expresiones de cantidad indefinida con of: "millions of stars".'
+    explanation: 'Hundred, thousand, million y billion NUNCA llevan "-s" cuando van acompañados de un número exacto: "three million people" (CORRECTO), NO *"three millions people"*. Solo llevan "-s" en expresiones de cantidad indefinida con of: "millions of stars".',
+    example: 'three million people (✓) vs. millions of stars (✓)'
   },
   {
     title: 'Fracciones y Decimales',
-    explanation: 'En inglés el separador decimal es un PUNTO ("point"), no una coma: 3.5 se lee "three point five". En fracciones: 1/2 = "a half / one half", 1/3 = "a third", 1/4 = "a quarter / one fourth", 3/4 = "three quarters".'
+    explanation: 'En inglés el separador decimal es un PUNTO ("point"), no una coma: 3.5 se lee "three point five". En fracciones: 1/2 = "a half / one half", 1/3 = "a third", 1/4 = "a quarter / one fourth", 3/4 = "three quarters".',
+    example: '3.5 = three point five | 1/2 = a half | 3/4 = three quarters'
   },
   {
     title: 'Lectura de Años y Fechas',
-    explanation: 'Los años se leen en bloques de dos dígitos: 1984 = "nineteen eighty-four"; 1999 = "nineteen ninety-nine". Del 2000 al 2009: "two thousand (and) five". A partir de 2010 se puede decir "twenty ten" o "two thousand and ten".'
+    explanation: 'Los años se leen en bloques de dos dígitos: 1984 = "nineteen eighty-four"; 1999 = "nineteen ninety-nine". Del 2000 al 2009: "two thousand (and) five". A partir de 2010 se puede decir "twenty ten" o "two thousand and ten".',
+    example: '1984 = nineteen eighty-four | 2026 = twenty twenty-six'
   }
 ];
 

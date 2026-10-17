@@ -122,13 +122,13 @@ describe('Módulo Maestro de IDIOMAS & Categoría INGLES en KUSKAT', () => {
     });
   });
 
-  it('5. Todas las preguntas del simulador son ESTRICTAMENTE de opción múltiple (A, B, C, D) y suman 50 por nivel (300 total)', () => {
-    expect(ENGLISH_QUESTIONS_BANK.length).toBe(300);
+  it('5. Todas las preguntas del simulador son ESTRICTAMENTE de opción múltiple (A, B, C, D) y suman 400 por nivel (2,400 total)', () => {
+    expect(ENGLISH_QUESTIONS_BANK.length).toBe(2400);
 
     const levels: CEFRLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
     levels.forEach((lvl) => {
       const levelQuestions = ENGLISH_QUESTIONS_BANK.filter((q) => q.level === lvl);
-      expect(levelQuestions.length).toBe(50);
+      expect(levelQuestions.length).toBe(400);
     });
 
     ENGLISH_QUESTIONS_BANK.forEach((q) => {
@@ -397,13 +397,13 @@ describe('Módulos Multilingües KUSKAT: Náhuat, Lenca, Kakawira, Alemán, Ára
         expect(totalLessons).toBe(120);
       });
 
-      it(`3. Banco de preguntas contiene exactamente 300 preguntas (50 por nivel) de 4 opciones (A, B, C, D)`, () => {
+      it(`3. Banco de preguntas contiene exactamente 2,400 preguntas (400 por nivel) de 4 opciones (A, B, C, D)`, () => {
         const bank = getLanguageQuestionsBank(id);
-        expect(bank.length).toBe(300);
+        expect(bank.length).toBe(2400);
 
         CEFR_LEVELS.forEach((level) => {
           const levelQuestions = bank.filter((q) => q.level === level);
-          expect(levelQuestions.length).toBe(50);
+          expect(levelQuestions.length).toBe(400);
 
           levelQuestions.forEach((q) => {
             expect(q.id).toBeTruthy();
@@ -469,6 +469,26 @@ describe('Módulos Multilingües KUSKAT: Náhuat, Lenca, Kakawira, Alemán, Ára
         expect(comp.grammarDistinctions.length).toBeGreaterThanOrEqual(1);
         expect(comp.phoneticDistinctions.length).toBeGreaterThanOrEqual(1);
       });
+    });
+  });
+
+  it('9. Exclusividad de variante American vs. British únicamente para el idioma inglés', () => {
+    // Solo el currículo de inglés maneja la distinción de contraste dialectal US vs UK
+    const englishCurriculum = getLanguageCurriculum('english');
+    const a1EnglishLessons = englishCurriculum['A1'].grammarLessons;
+    expect(a1EnglishLessons.length).toBe(20);
+    expect(a1EnglishLessons.some((l) => l.examplesUS && l.examplesUK)).toBe(true);
+
+    // Los otros 6 idiomas (Náhuat, Lenca, Kakawira, Alemán, Árabe, Mandarín) no operan bajo variante US/UK
+    const nonEnglishIds = LANGUAGES_CATALOG.map((l) => l.id).filter((id) => id !== 'english');
+    expect(nonEnglishIds.length).toBe(6);
+    nonEnglishIds.forEach((id) => {
+      const curriculum = getLanguageCurriculum(id);
+      expect(curriculum['A1'].grammarLessons.length).toBe(20);
+      const bank = getLanguageQuestionsBank(id);
+      expect(bank.length).toBe(2400);
+      // Ningún reactivo de las otras lenguas usa US o UK como variante
+      expect(bank.every((q) => q.variant !== 'US' && q.variant !== 'UK')).toBe(true);
     });
   });
 });

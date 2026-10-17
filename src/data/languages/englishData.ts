@@ -81,6 +81,20 @@ export interface PhoneticDistinction {
   examples: { word: string; usIpa: string; ukIpa: string; audioNote: string }[];
 }
 
+export interface LanguageVerbItem {
+  infinitive: string;
+  pastSimple?: string;
+  pastParticiple?: string;
+  spanish: string;
+  level?: CEFRLevel;
+  type?: string;
+  present?: string;
+  past?: string;
+  future?: string;
+  imperative?: string;
+  class?: string;
+}
+
 export interface DialogueLine {
   speaker: string;
   text: string;
@@ -101,7 +115,7 @@ export interface GrammarTopicLesson {
   practicalDialogue?: DialogueLine[];
   commonMistakes: string[];
   studyTips?: string[];
-  referenceLink: string;
+  referenceLink?: string;
 }
 
 /**

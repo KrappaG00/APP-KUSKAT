@@ -564,10 +564,12 @@ export default function EnglishBasicsView({ variant }: EnglishBasicsViewProps) {
                   <h4 className="font-bold text-sm text-slate-900 mb-1">{rule.title}</h4>
                   <p className="text-xs text-slate-600 leading-relaxed mb-3">{rule.explanation}</p>
                 </div>
-                <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-100 text-xs">
-                  <span className="font-semibold text-indigo-800">Ejemplo: </span>
-                  <span className="font-mono text-slate-700">{rule.example}</span>
-                </div>
+                {rule.example && (
+                  <div className="p-2.5 rounded-xl bg-slate-50 border border-slate-100 text-xs">
+                    <span className="font-semibold text-indigo-800">Ejemplo: </span>
+                    <span className="font-mono text-slate-700">{rule.example}</span>
+                  </div>
+                )}
               </div>
             ))}
           </div>

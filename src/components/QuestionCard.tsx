@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { Question } from '../types';
+import { Question, EvaluationMode } from '../types';
 import { KaTeXRenderer } from './KaTeXRenderer';
-import { CheckCircle2, ChevronDown, ChevronUp, Copy, Check, Info } from 'lucide-react';
+import { CheckCircle2, ChevronDown, ChevronUp, Copy, Check, Info, Scale } from 'lucide-react';
+import { convertToTrueFalse } from '../utils/trueFalseHelper';
 
 interface QuestionCardProps {
   question: Question;
@@ -9,25 +10,40 @@ interface QuestionCardProps {
 }
 
 export const QuestionCard: React.FC<QuestionCardProps> = ({ question, subtopicTitle }) => {
+  const [evalMode, setEvalMode] = useState<EvaluationMode>('multiple_choice');
   const [selectedOption, setSelectedOption] = useState<string | null>(null);
   const [showSolution, setShowSolution] = useState<boolean>(false);
   const [copied, setCopied] = useState<boolean>(false);
+
+  const tf = convertToTrueFalse(question);
+  const expectedAns = evalMode === 'true_false' ? (tf.isTrue ? 'VERDADERO' : 'FALSO') : question.correctAnswer;
 
   const handleSelectOption = (key: string) => {
     setSelectedOption(key);
   };
 
   const isAnswered = selectedOption !== null;
-  const isCorrect = selectedOption === question.correctAnswer;
+  const isCorrect = selectedOption === expectedAns;
+
+  const handleToggleMode = () => {
+    setEvalMode((prev) => (prev === 'multiple_choice' ? 'true_false' : 'multiple_choice'));
+    setSelectedOption(null);
+  };
 
   const handleCopyQuestion = () => {
     let text = `Pregunta ${question.number} (${question.subtopicId}): ${question.statement}\n\n`;
-    question.options.forEach((opt) => {
-      text += `${opt.key}) ${opt.text}\n`;
-    });
-    text += `\nRespuesta Correcta: ${question.correctAnswer}\n`;
-    if (question.explanation) {
-      text += `Explicación: ${question.explanation}\n`;
+    if (evalMode === 'true_false') {
+      text += `Proposición evaluada: "${tf.presentedOptionText}"\n`;
+      text += `Respuesta Correcta: ${expectedAns}\n`;
+      text += `Explicación: ${tf.explanation}\n`;
+    } else {
+      question.options.forEach((opt) => {
+        text += `${opt.key}) ${opt.text}\n`;
+      });
+      text += `\nRespuesta Correcta: ${question.correctAnswer}\n`;
+      if (question.explanation) {
+        text += `Explicación: ${question.explanation}\n`;
+      }
     }
 
     navigator.clipboard.writeText(text);
@@ -37,7 +53,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ question, subtopicTi
 
   return (
     <div className="bg-white rounded-2xl border border-slate-200/80 shadow-sm hover:shadow-md transition-all p-5 sm:p-6 mb-4">
-      {/* Header with question number and section badge */}
+      {/* Header with question number, section badge, and mode toggle */}
       <div className="flex items-start justify-between gap-3 mb-4">
         <div className="flex items-center gap-2.5 flex-wrap">
           <span className="w-8 h-8 rounded-xl bg-slate-900 text-white font-mono font-bold text-xs flex items-center justify-center shrink-0 shadow-xs">
@@ -53,13 +69,30 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ question, subtopicTi
           )}
         </div>
 
-        <button
-          onClick={handleCopyQuestion}
-          className="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-lg transition-colors cursor-pointer"
-          title="Copiar pregunta al portapapeles"
-        >
-          {copied ? <Check className="w-4 h-4 text-emerald-600" /> : <Copy className="w-4 h-4" />}
-        </button>
+        <div className="flex items-center gap-1.5 shrink-0">
+          {/* Toggle Modo de Evaluación */}
+          <button
+            type="button"
+            onClick={handleToggleMode}
+            className={`px-2.5 py-1 rounded-lg text-xs font-bold transition-all cursor-pointer flex items-center gap-1 border ${
+              evalMode === 'true_false'
+                ? 'bg-indigo-50 text-indigo-700 border-indigo-200'
+                : 'bg-slate-50 text-slate-600 border-slate-200 hover:bg-slate-100'
+            }`}
+            title="Alternar entre Opción Múltiple (A-D) y Verdadero o Falso (V/F)"
+          >
+            <Scale className="w-3.5 h-3.5 text-indigo-600" />
+            <span>{evalMode === 'true_false' ? 'Modo: V / F' : 'Modo: A - D'}</span>
+          </button>
+
+          <button
+            onClick={handleCopyQuestion}
+            className="p-1.5 text-slate-400 hover:text-slate-700 hover:bg-slate-100 rounded-lg transition-colors cursor-pointer"
+            title="Copiar reactivo al portapapeles"
+          >
+            {copied ? <Check className="w-4 h-4 text-emerald-600" /> : <Copy className="w-4 h-4" />}
+          </button>
+        </div>
       </div>
 
       {/* Question Statement */}
@@ -67,48 +100,150 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ question, subtopicTi
         <KaTeXRenderer content={question.statement} />
       </div>
 
-      {/* Options Grid (A-F) */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 mb-4">
-        {question.options.map((opt) => {
-          const isSelected = selectedOption === opt.key;
-          const isRight = question.correctAnswer === opt.key;
+      {/* Options Grid: True/False vs Multiple Choice */}
+      {evalMode === 'true_false' ? (
+        <div className="space-y-3 mb-4">
+          <div className="p-3.5 bg-indigo-50/70 rounded-xl border border-indigo-200 space-y-1.5">
+            <span className="text-[11px] font-extrabold text-indigo-950 uppercase tracking-wider block">
+              Proposición para Evaluar:
+            </span>
+            <div className="text-slate-900 text-sm sm:text-base font-medium bg-white p-3 rounded-lg border border-indigo-100 shadow-2xs">
+              <KaTeXRenderer content={tf.presentedOptionText} />
+            </div>
+          </div>
 
-          let btnClass = 'bg-slate-50/80 border-slate-200 text-slate-800 hover:bg-slate-100';
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
+            {/* VERDADERO */}
+            {(() => {
+              const isPicked = selectedOption === 'VERDADERO';
+              const isRight = expectedAns === 'VERDADERO';
+              let btnClass = 'bg-slate-50/80 border-slate-200 text-slate-800 hover:bg-slate-100';
 
-          if (isAnswered || showSolution) {
-            if (isRight) {
-              btnClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-medium shadow-xs';
-            } else if (isSelected) {
-              btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
-            } else {
-              btnClass = 'bg-slate-50/40 border-slate-200 text-slate-400 opacity-70';
+              if (isAnswered || showSolution) {
+                if (isRight) {
+                  btnClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold';
+                } else if (isPicked) {
+                  btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                } else {
+                  btnClass = 'bg-slate-50/40 border-slate-200 text-slate-400 opacity-60';
+                }
+              } else if (isPicked) {
+                btnClass = 'bg-emerald-50 border-emerald-600 text-emerald-950 font-bold';
+              }
+
+              return (
+                <button
+                  type="button"
+                  onClick={() => handleSelectOption('VERDADERO')}
+                  className={`cursor-pointer w-full text-left p-3.5 rounded-xl border text-sm transition-all flex items-center gap-3 ${btnClass}`}
+                >
+                  <span
+                    className={`w-7 h-7 rounded-lg font-bold text-xs flex items-center justify-center shrink-0 ${
+                      (isAnswered || showSolution) && isRight
+                        ? 'bg-emerald-600 text-white'
+                        : isPicked
+                        ? 'bg-emerald-600 text-white'
+                        : 'bg-emerald-100 text-emerald-800'
+                    }`}
+                  >
+                    ✓
+                  </span>
+                  <div className="flex-1">
+                    <span className="font-extrabold block text-slate-900">VERDADERO</span>
+                    <span className="text-xs text-slate-500">La afirmación es correcta</span>
+                  </div>
+                </button>
+              );
+            })()}
+
+            {/* FALSO */}
+            {(() => {
+              const isPicked = selectedOption === 'FALSO';
+              const isRight = expectedAns === 'FALSO';
+              let btnClass = 'bg-slate-50/80 border-slate-200 text-slate-800 hover:bg-slate-100';
+
+              if (isAnswered || showSolution) {
+                if (isRight) {
+                  btnClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold';
+                } else if (isPicked) {
+                  btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                } else {
+                  btnClass = 'bg-slate-50/40 border-slate-200 text-slate-400 opacity-60';
+                }
+              } else if (isPicked) {
+                btnClass = 'bg-rose-50 border-rose-600 text-rose-950 font-bold';
+              }
+
+              return (
+                <button
+                  type="button"
+                  onClick={() => handleSelectOption('FALSO')}
+                  className={`cursor-pointer w-full text-left p-3.5 rounded-xl border text-sm transition-all flex items-center gap-3 ${btnClass}`}
+                >
+                  <span
+                    className={`w-7 h-7 rounded-lg font-bold text-xs flex items-center justify-center shrink-0 ${
+                      (isAnswered || showSolution) && isRight
+                        ? 'bg-emerald-600 text-white'
+                        : isPicked
+                        ? 'bg-rose-600 text-white'
+                        : 'bg-rose-100 text-rose-800'
+                    }`}
+                  >
+                    ✕
+                  </span>
+                  <div className="flex-1">
+                    <span className="font-extrabold block text-slate-900">FALSO</span>
+                    <span className="text-xs text-slate-500">La afirmación es incorrecta</span>
+                  </div>
+                </button>
+              );
+            })()}
+          </div>
+        </div>
+      ) : (
+        /* Options Grid (A-F) */
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 mb-4">
+          {question.options.map((opt) => {
+            const isSelected = selectedOption === opt.key;
+            const isRight = question.correctAnswer === opt.key;
+
+            let btnClass = 'bg-slate-50/80 border-slate-200 text-slate-800 hover:bg-slate-100';
+
+            if (isAnswered || showSolution) {
+              if (isRight) {
+                btnClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-medium shadow-xs';
+              } else if (isSelected) {
+                btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
+              } else {
+                btnClass = 'bg-slate-50/40 border-slate-200 text-slate-400 opacity-70';
+              }
             }
-          }
 
-          return (
-            <button
-              key={opt.key}
-              onClick={() => handleSelectOption(opt.key)}
-              className={`cursor-pointer w-full text-left p-3 rounded-xl border text-sm transition-all flex items-start gap-2.5 ${btnClass}`}
-            >
-              <span
-                className={`w-6 h-6 rounded-lg font-mono text-xs font-bold flex items-center justify-center shrink-0 ${
-                  (isAnswered || showSolution) && isRight
-                    ? 'bg-emerald-600 text-white'
-                    : isSelected
-                    ? 'bg-rose-600 text-white'
-                    : 'bg-white border border-slate-300 text-slate-700'
-                }`}
+            return (
+              <button
+                key={opt.key}
+                onClick={() => handleSelectOption(opt.key)}
+                className={`cursor-pointer w-full text-left p-3 rounded-xl border text-sm transition-all flex items-start gap-2.5 ${btnClass}`}
               >
-                {opt.key}
-              </span>
-              <div className="flex-1 break-words leading-snug pt-0.5">
-                <KaTeXRenderer content={opt.text} />
-              </div>
-            </button>
-          );
-        })}
-      </div>
+                <span
+                  className={`w-6 h-6 rounded-lg font-mono text-xs font-bold flex items-center justify-center shrink-0 ${
+                    (isAnswered || showSolution) && isRight
+                      ? 'bg-emerald-600 text-white'
+                      : isSelected
+                      ? 'bg-rose-600 text-white'
+                      : 'bg-white border border-slate-300 text-slate-700'
+                  }`}
+                >
+                  {opt.key}
+                </span>
+                <div className="flex-1 break-words leading-snug pt-0.5">
+                  <KaTeXRenderer content={opt.text} />
+                </div>
+              </button>
+            );
+          })}
+        </div>
+      )}
 
       {/* Solution Explanation toggle and content */}
       <div className="mt-3 pt-3 border-t border-slate-100 flex flex-col gap-2">
@@ -130,7 +265,7 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ question, subtopicTi
                 </span>
               ) : (
                 <span className="text-rose-600">
-                  Respuesta incorrecta (Clave: {question.correctAnswer})
+                  Respuesta incorrecta ({evalMode === 'true_false' ? `Correcto: ${expectedAns}` : `Clave: ${question.correctAnswer}`})
                 </span>
               )}
             </div>
@@ -140,17 +275,15 @@ export const QuestionCard: React.FC<QuestionCardProps> = ({ question, subtopicTi
         {showSolution && (
           <div className="mt-2 p-3.5 rounded-xl bg-blue-50/70 border border-blue-100 text-xs sm:text-sm text-slate-700 space-y-1.5">
             <div className="font-bold text-blue-900 flex items-center gap-2">
-              <span>Opción Correcta:</span>
+              <span>{evalMode === 'true_false' ? 'Evaluación Oficial:' : 'Opción Correcta:'}</span>
               <span className="px-2 py-0.5 bg-blue-600 text-white rounded-md text-xs font-mono">
-                {question.correctAnswer}
+                {expectedAns}
               </span>
             </div>
-            {question.explanation && (
-              <div className="text-slate-700 leading-relaxed pt-1">
-                <span className="font-semibold text-slate-800">Justificación: </span>
-                <KaTeXRenderer content={question.explanation} />
-              </div>
-            )}
+            <div className="text-slate-700 leading-relaxed pt-1">
+              <span className="font-semibold text-slate-800">Justificación: </span>
+              <KaTeXRenderer content={evalMode === 'true_false' ? tf.explanation : question.explanation} />
+            </div>
           </div>
         )}
       </div>

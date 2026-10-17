@@ -25,7 +25,10 @@ import {
   Volume2,
   XCircle,
   Zap,
+  Scale,
 } from 'lucide-react';
+import { EvaluationMode } from '../types';
+import { convertToTrueFalse } from '../utils/trueFalseHelper';
 import {
   ALL_ENGLISH_VERBS,
   CEFR_CURRICULUM,
@@ -58,6 +61,8 @@ import EnglishBasicsView from './EnglishBasicsView';
 import EnglishTop10kView from './EnglishTop10kView';
 import LanguageBasicsGenericView from './LanguageBasicsGenericView';
 import LanguageVocabularyGenericView from './LanguageVocabularyGenericView';
+import { getLanguageTheory } from '../data/categoryTheoryData';
+import { CategoryTheoryView } from './CategoryTheoryView';
 
 interface LanguageReferenceSource {
   code: string;
@@ -116,7 +121,7 @@ const LANGUAGE_REFERENCES: Record<string, LanguageReferencesConfig> = {
       code: 'KS',
       title: 'Patrimonio Kuskat Nativo',
       desc: 'Adaptación metodológica y pedagógica nativa para hispanohablantes salvadoreños con advertencias fonéticas y ejercicios prácticos.',
-      bullets: ['• 300 preguntas oficiales de opción múltiple (A, B, C, D)', '• Conversor algorítmico de números vigesimales', '• Vocabulario de flora, fauna y cosmovisión pipil'],
+      bullets: ['• 2,400 preguntas oficiales de opción múltiple (400 por nivel)', '• Conversor algorítmico de números vigesimales', '• Vocabulario de flora, fauna y cosmovisión pipil'],
       color: 'blue',
     },
   },
@@ -139,7 +144,7 @@ const LANGUAGE_REFERENCES: Record<string, LanguageReferencesConfig> = {
       code: 'KS',
       title: 'Plataforma Kuskat Autocontenida',
       desc: 'Metodología pedagógica interactiva que permite a hablantes de español salvadoreño aprender la lengua potón sin requerir recursos externos.',
-      bullets: ['• 300 preguntas de selección múltiple con justificación', '• Sintetizador fonético adaptado a dialectos salvadoreños', '• Vocabulario clasificado por frecuencias léxicas'],
+      bullets: ['• 2,400 preguntas de selección múltiple con justificación (400 por nivel)', '• Sintetizador fonético adaptado a dialectos salvadoreños', '• Vocabulario clasificado por frecuencias léxicas'],
       color: 'blue',
     },
   },
@@ -162,7 +167,7 @@ const LANGUAGE_REFERENCES: Record<string, LanguageReferencesConfig> = {
       code: 'KS',
       title: 'Módulo Nativo Kuskat',
       desc: 'Recurso educativo 100% integrado para salvadoreños con ejercicios de opción múltiple, diccionario de verbos y conversor de números.',
-      bullets: ['• 300 reactivos oficiales de evaluación sin audio ni texto libre', '• Diccionario de raíces verbales y formas conjugadas', '• Módulo de objetos clasificados con pronunciación fonética'],
+      bullets: ['• 2,400 reactivos oficiales de evaluación sin audio ni texto libre (400 por nivel)', '• Diccionario de raíces verbales y formas conjugadas', '• Módulo de objetos clasificados con pronunciación fonética'],
       color: 'blue',
     },
   },
@@ -185,7 +190,7 @@ const LANGUAGE_REFERENCES: Record<string, LanguageReferencesConfig> = {
       code: 'TD',
       title: 'TestDaF & ÖSD Standard',
       desc: 'Estándares internacionales de evaluación universitaria y profesional para Alemania, Austria y Suiza con simulador de reactivos.',
-      bullets: ['• 300 preguntas de selección múltiple (50 por nivel)', '• Justificación gramatical con análisis de distractores', '• Vocabulario de alta frecuencia organizado por niveles'],
+      bullets: ['• 2,400 preguntas de selección múltiple (400 por nivel)', '• Justificación gramatical con análisis de distractores', '• Vocabulario de alta frecuencia organizado por niveles'],
       color: 'emerald',
     },
   },
@@ -207,8 +212,8 @@ const LANGUAGE_REFERENCES: Record<string, LanguageReferencesConfig> = {
     source3: {
       code: 'AL',
       title: 'ALECSO & Evaluaciones Kuskat',
-      desc: 'Criterios de la Organización de la Liga Árabe para la Educación, Cultura y Ciencia adaptados al simulador de 300 preguntas de Kuskat.',
-      bullets: ['• 300 preguntas oficiales de opción múltiple estrictas', '• Catálogo de 200 verbos árabes en pasado, presente y maṣdar', '• Alfabeto con las 4 posiciones caligráficas de cada letra'],
+      desc: 'Criterios de la Organización de la Liga Árabe para la Educación, Cultura y Ciencia adaptados al simulador de 2,400 preguntas de Kuskat.',
+      bullets: ['• 2,400 preguntas oficiales de opción múltiple estrictas (400 por nivel)', '• Catálogo de 200 verbos árabes en pasado, presente y maṣdar', '• Alfabeto con las 4 posiciones caligráficas de cada letra'],
       color: 'emerald',
     },
   },
@@ -231,7 +236,7 @@ const LANGUAGE_REFERENCES: Record<string, LanguageReferencesConfig> = {
       code: 'KS',
       title: 'Simulador Estandarizado Kuskat',
       desc: 'Módulo de evaluación nativo con preguntas de opción múltiple, conversor de números y buscador de vocabulario por categorías.',
-      bullets: ['• 300 preguntas de selección múltiple (A, B, C, D) con justificación', '• Conversor numérico a Pinyin y Hanzi en tiempo real', '• Objetos clasificados con pronunciación en mandarín estándar'],
+      bullets: ['• 2,400 preguntas de selección múltiple (A, B, C, D) con justificación (400 por nivel)', '• Conversor numérico a Pinyin y Hanzi en tiempo real', '• Objetos clasificados con pronunciación en mandarín estándar'],
       color: 'emerald',
     },
   },
@@ -270,17 +275,21 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
   const [verbPronunciationFilter, setVerbPronunciationFilter] = useState<string>('all');
   const [showVerbRules, setShowVerbRules] = useState<boolean>(false);
 
-  // Estados del Modo Examen (Selección Múltiple: 50 preguntas por nivel)
+  // Estados del Modo Examen (Selección Múltiple o Verdadero/Falso: 400 preguntas por nivel)
+  const [examEvalMode, setExamEvalMode] = useState<EvaluationMode>('multiple_choice');
   const [examCurrentIndex, setExamCurrentIndex] = useState<number>(0);
-  const [selectedOption, setSelectedOption] = useState<'A' | 'B' | 'C' | 'D' | null>(null);
+  const [selectedOption, setSelectedOption] = useState<'A' | 'B' | 'C' | 'D' | 'VERDADERO' | 'FALSO' | null>(null);
   const [isAnswerSubmitted, setIsAnswerSubmitted] = useState<boolean>(false);
-  const [examAnswers, setExamAnswers] = useState<Record<string, { chosen: 'A' | 'B' | 'C' | 'D'; isCorrect: boolean }>>({});
+  const [examAnswers, setExamAnswers] = useState<Record<string, { chosen: 'A' | 'B' | 'C' | 'D' | 'VERDADERO' | 'FALSO'; isCorrect: boolean }>>({});
   const [examScore, setExamScore] = useState<{ correct: number; incorrect: number }>({ correct: 0, incorrect: 0 });
   const [isExamCompleted, setIsExamCompleted] = useState<boolean>(false);
 
   // Manejador para cambiar de idioma activo
   const handleSelectLanguage = (langId: string) => {
     setSelectedLanguageId(langId);
+    if (langId !== 'english') {
+      setSelectedVariant('ALL');
+    }
     setExamCurrentIndex(0);
     setSelectedOption(null);
     setIsAnswerSubmitted(false);
@@ -322,7 +331,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
     return getLanguageQuestionsBank(selectedLanguageId);
   }, [selectedLanguageId]);
 
-  // Preguntas del examen: EXACTAMENTE las 50 preguntas del nivel seleccionado
+  // Preguntas del examen: EXACTAMENTE las 400 preguntas del nivel seleccionado
   const examQuestions = useMemo(() => {
     return currentQuestions.filter((q) => q.level === selectedLevel);
   }, [currentQuestions, selectedLevel]);
@@ -380,7 +389,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
   }, [currentVerbs, verbTypeFilter, verbPatternFilter, verbPronunciationFilter, verbSearch]);
 
   // Manejador de respuesta en el simulador
-  const handleSelectOption = (key: 'A' | 'B' | 'C' | 'D') => {
+  const handleSelectOption = (key: 'A' | 'B' | 'C' | 'D' | 'VERDADERO' | 'FALSO') => {
     if (isAnswerSubmitted) return;
     setSelectedOption(key);
   };
@@ -388,7 +397,14 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
   const handleSubmitAnswer = () => {
     if (!currentQuestion || !selectedOption || isAnswerSubmitted) return;
 
-    const isCorrect = selectedOption === currentQuestion.correctAnswer;
+    let isCorrect = false;
+    if (examEvalMode === 'true_false') {
+      const tf = convertToTrueFalse(currentQuestion);
+      const expected = tf.isTrue ? 'VERDADERO' : 'FALSO';
+      isCorrect = selectedOption === expected;
+    } else {
+      isCorrect = selectedOption === currentQuestion.correctAnswer;
+    }
     setIsAnswerSubmitted(true);
 
     setExamAnswers((prev) => ({
@@ -487,7 +503,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
             </div>
             <p className="text-xs sm:text-sm text-slate-600 mt-2 max-w-3xl leading-relaxed">
               Currículo pedagógico completo de <strong>{currentLanguage.name}</strong> ({currentLanguage.nativeName}):{' '}
-              <strong>120 clases nativas</strong> (20 por nivel, mínimo 500 palabras), <strong>300 preguntas de examen</strong> de selección múltiple (50 por nivel), catálogo exhaustivo de verbos, fundamentos lingüísticos y módulo de vocabulario estructurado para hispanohablantes salvadoreños. Todo 100% nativo dentro de Kuskat sin enlaces ni dependencias externas.
+              <strong>120 clases nativas</strong> (20 por nivel, mínimo 500 palabras), <strong>2,400 preguntas de examen</strong> de selección múltiple (400 por nivel), catálogo exhaustivo de verbos, fundamentos lingüísticos y módulo de vocabulario estructurado para hispanohablantes salvadoreños. Todo 100% nativo dentro de Kuskat sin enlaces ni dependencias externas.
             </p>
           </div>
 
@@ -643,40 +659,42 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
             </button>
           </div>
 
-          {/* Selector de Variante: US vs UK */}
-          <div className="flex items-center gap-1.5 bg-slate-50 p-1 rounded-2xl border border-slate-200 text-xs font-bold self-start md:self-auto">
-            <span className="text-[11px] text-slate-400 px-2 font-mono">Variante:</span>
-            <button
-              onClick={() => setSelectedVariant('ALL')}
-              className={`px-2.5 py-1.5 rounded-xl transition-all cursor-pointer ${
-                selectedVariant === 'ALL'
-                  ? 'bg-slate-900 text-white shadow-xs'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
-            >
-              🌐 Ambas
-            </button>
-            <button
-              onClick={() => setSelectedVariant('US')}
-              className={`px-2.5 py-1.5 rounded-xl transition-all cursor-pointer ${
-                selectedVariant === 'US'
-                  ? 'bg-blue-700 text-white shadow-xs'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
-            >
-              🇺🇸 American (US)
-            </button>
-            <button
-              onClick={() => setSelectedVariant('UK')}
-              className={`px-2.5 py-1.5 rounded-xl transition-all cursor-pointer ${
-                selectedVariant === 'UK'
-                  ? 'bg-rose-700 text-white shadow-xs'
-                  : 'text-slate-600 hover:text-slate-900'
-              }`}
-            >
-              🇬🇧 British (UK)
-            </button>
-          </div>
+          {/* Selector de Variante: US vs UK (Disponible exclusivamente en Idioma Inglés) */}
+          {selectedLanguageId === 'english' && (
+            <div className="flex items-center gap-1.5 bg-slate-50 p-1 rounded-2xl border border-slate-200 text-xs font-bold self-start md:self-auto">
+              <span className="text-[11px] text-slate-400 px-2 font-mono">Variante:</span>
+              <button
+                onClick={() => setSelectedVariant('ALL')}
+                className={`px-2.5 py-1.5 rounded-xl transition-all cursor-pointer ${
+                  selectedVariant === 'ALL'
+                    ? 'bg-slate-900 text-white shadow-xs'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                🌐 Ambas
+              </button>
+              <button
+                onClick={() => setSelectedVariant('US')}
+                className={`px-2.5 py-1.5 rounded-xl transition-all cursor-pointer ${
+                  selectedVariant === 'US'
+                    ? 'bg-blue-700 text-white shadow-xs'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                🇺🇸 American (US)
+              </button>
+              <button
+                onClick={() => setSelectedVariant('UK')}
+                className={`px-2.5 py-1.5 rounded-xl transition-all cursor-pointer ${
+                  selectedVariant === 'UK'
+                    ? 'bg-rose-700 text-white shadow-xs'
+                    : 'text-slate-600 hover:text-slate-900'
+                }`}
+              >
+                🇬🇧 British (UK)
+              </button>
+            </div>
+          )}
         </div>
 
         {/* ==================================================================== */}
@@ -688,7 +706,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
               Marco Común Europeo de Referencia (MCER / CEFR):
             </span>
             <span className="text-[11px] text-slate-500 font-medium hidden sm:inline">
-              Nivel activo: <strong className="text-slate-900">{selectedLevel} • {currentLevelInfo.nameSpanish}</strong> (20 Clases & 50 Reactivos)
+              Nivel activo: <strong className="text-slate-900">{selectedLevel} • {currentLevelInfo.nameSpanish}</strong> (20 Clases & {examQuestions.length || 400} Reactivos)
             </span>
           </div>
 
@@ -740,6 +758,12 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
       {/* ==================================================================== */}
       {activeMainTab === 'theory' && (
         <div className="space-y-6">
+          {/* Fundamentación Teórica Oficial del Idioma (Mínimo 500 palabras, El Porqué, Ejemplos y APA 7.ª Edición) */}
+          <CategoryTheoryView
+            theory={getLanguageTheory(selectedLanguageId)}
+            defaultExpanded={false}
+          />
+
           {/* Banner descriptivo del nivel actual */}
           <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs">
             <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-4 border-b border-slate-100">
@@ -1557,7 +1581,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
       )}
 
       {/* ==================================================================== */}
-      {/* PESTAÑA 4: SIMULADOR DE EXAMEN (50 PREGUNTAS POR NIVEL) */}
+      {/* PESTAÑA 4: SIMULADOR DE EXAMEN (400 PREGUNTAS POR NIVEL) */}
       {/* ==================================================================== */}
       {activeMainTab === 'exam' && (
         <div className="space-y-6">
@@ -1570,13 +1594,48 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                     Simulador Oficial de Selección Múltiple: Nivel {selectedLevel}
                   </h3>
                   <span className="text-[10px] font-bold bg-amber-100 text-amber-900 px-2 py-0.5 rounded-md border border-amber-200 font-mono">
-                    50 Preguntas Oficiales (A, B, C, D)
+                    {examQuestions.length || 400} Preguntas Oficiales (A, B, C, D)
                   </span>
                 </div>
                 <p className="text-xs sm:text-sm text-slate-600 mt-1">
                   Examen estandarizado sin pruebas de audio ni escritura libre.
                   Regla de puntaje Kuskat: <strong>+1 punto por acierto</strong>, <strong>-2 puntos por error</strong>, tope mínimo en <strong>0</strong>.
                 </p>
+
+                {/* Selector de Modo de Evaluación (Opción Múltiple vs Verdadero/Falso) */}
+                <div className="flex items-center gap-1.5 mt-3 bg-slate-100 p-1 rounded-xl border border-slate-200 inline-flex flex-wrap">
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setExamEvalMode('multiple_choice');
+                      setSelectedOption(null);
+                      setIsAnswerSubmitted(false);
+                    }}
+                    className={`px-3 py-1.5 text-xs font-bold rounded-lg transition-all cursor-pointer ${
+                      examEvalMode === 'multiple_choice'
+                        ? 'bg-white text-blue-900 shadow-2xs font-extrabold'
+                        : 'text-slate-600 hover:text-slate-900'
+                    }`}
+                  >
+                    🎯 Opción Múltiple (A-D)
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setExamEvalMode('true_false');
+                      setSelectedOption(null);
+                      setIsAnswerSubmitted(false);
+                    }}
+                    className={`px-3 py-1.5 text-xs font-bold rounded-lg transition-all cursor-pointer flex items-center gap-1.5 ${
+                      examEvalMode === 'true_false'
+                        ? 'bg-white text-indigo-900 shadow-2xs font-extrabold'
+                        : 'text-slate-600 hover:text-slate-900'
+                    }`}
+                  >
+                    <Scale className="w-3.5 h-3.5 text-indigo-600" />
+                    <span>⚖️ Verdadero o Falso (V/F)</span>
+                  </button>
+                </div>
               </div>
 
               {/* Marcador de Puntaje en Vivo */}
@@ -1620,12 +1679,12 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
               />
             </div>
 
-            {/* Selector interactivo de las 50 preguntas */}
+            {/* Selector interactivo de las 400 preguntas */}
             <div className="pt-4">
               <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block mb-2 font-mono">
-                Mapa de Reactivos (50 Preguntas):
+                Mapa de Reactivos ({examQuestions.length} Preguntas):
               </span>
-              <div className="grid grid-cols-10 sm:grid-cols-25 gap-1 max-h-24 overflow-y-auto p-1 bg-slate-50 rounded-xl border border-slate-200">
+              <div className="grid grid-cols-10 sm:grid-cols-20 md:grid-cols-25 gap-1 max-h-36 overflow-y-auto p-1.5 bg-slate-50 rounded-xl border border-slate-200 touch-scroll">
                 {examQuestions.map((q, idx) => {
                   const ans = examAnswers[q.id];
                   const isCurrent = idx === examCurrentIndex;
@@ -1666,9 +1725,11 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                   <span className="text-xs font-bold text-blue-700 bg-blue-50 px-2.5 py-1 rounded-xl border border-blue-200">
                     Nivel {currentQuestion.level}
                   </span>
-                  <span className="text-xs font-semibold text-purple-700 bg-purple-50 px-2.5 py-1 rounded-xl border border-purple-200">
-                    Variante: {currentQuestion.variant === 'ALL' ? 'Internacional (US/UK)' : currentQuestion.variant === 'US' ? 'American (US)' : 'British (UK)'}
-                  </span>
+                  {selectedLanguageId === 'english' && (
+                    <span className="text-xs font-semibold text-purple-700 bg-purple-50 px-2.5 py-1 rounded-xl border border-purple-200">
+                      Variante: {currentQuestion.variant === 'ALL' ? 'Internacional (US/UK)' : currentQuestion.variant === 'US' ? 'American (US)' : 'British (UK)'}
+                    </span>
+                  )}
                 </div>
 
                 <span className="text-xs text-slate-500 font-mono">
@@ -1681,78 +1742,237 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                 {currentQuestion.statement}
               </div>
 
-              {/* Opciones de Respuesta A, B, C, D */}
-              <div className="space-y-2.5">
-                {currentQuestion.options.map((opt) => {
-                  const isSelected = selectedOption === opt.key;
-                  const isCorrectKey = opt.key === currentQuestion.correctAnswer;
-
-                  let optionStyle = 'bg-white border-slate-200 hover:border-blue-400 text-slate-800';
-
-                  if (isAnswerSubmitted) {
-                    if (isCorrectKey) {
-                      optionStyle = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold shadow-xs';
-                    } else if (isSelected && !isCorrectKey) {
-                      optionStyle = 'bg-rose-50 border-rose-500 text-rose-950 font-bold';
-                    } else {
-                      optionStyle = 'bg-slate-50 border-slate-200 text-slate-400 opacity-60';
-                    }
-                  } else if (isSelected) {
-                    optionStyle = 'bg-blue-50 border-blue-600 text-blue-950 font-bold ring-2 ring-blue-500/20';
-                  }
+              {/* Opciones de Respuesta (Opción Múltiple vs Verdadero o Falso) */}
+              {examEvalMode === 'true_false' ? (
+                (() => {
+                  const tf = convertToTrueFalse(currentQuestion);
+                  const expected = tf.isTrue ? 'VERDADERO' : 'FALSO';
 
                   return (
-                    <button
-                      key={opt.key}
-                      type="button"
-                      disabled={isAnswerSubmitted}
-                      onClick={() => handleSelectOption(opt.key)}
-                      className={`w-full p-4 rounded-2xl border text-left transition-all flex items-center justify-between gap-3 cursor-pointer ${optionStyle}`}
-                    >
-                      <div className="flex items-center gap-3">
-                        <span
-                          className={`w-7 h-7 rounded-xl flex items-center justify-center font-bold text-xs shrink-0 font-mono ${
-                            isSelected
-                              ? 'bg-blue-600 text-white'
-                              : 'bg-slate-100 text-slate-700'
-                          }`}
-                        >
-                          {opt.key}
-                        </span>
-                        <span className="text-sm sm:text-base">{opt.text}</span>
+                    <div className="space-y-4">
+                      {/* Tarjeta de Proposición */}
+                      <div className="p-4 sm:p-5 rounded-2xl bg-indigo-50/70 border-2 border-indigo-200 space-y-2">
+                        <div className="flex items-center justify-between gap-2 flex-wrap text-xs">
+                          <span className="font-extrabold text-indigo-950 uppercase tracking-wider flex items-center gap-1.5">
+                            <Scale className="w-4 h-4 text-indigo-600" />
+                            Proposición para Evaluar:
+                          </span>
+                          <span className="text-[11px] font-semibold text-indigo-700 bg-white/90 px-2.5 py-0.5 rounded-full border border-indigo-200">
+                            Determina si el siguiente enunciado es Verdadero o Falso
+                          </span>
+                        </div>
+                        <div className="text-slate-900 text-base sm:text-lg font-medium leading-relaxed bg-white/95 p-4 rounded-xl border border-indigo-100 shadow-2xs">
+                          {tf.presentedOptionText}
+                        </div>
                       </div>
 
-                      {isAnswerSubmitted && isCorrectKey && (
-                        <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
-                      )}
-                      {isAnswerSubmitted && isSelected && !isCorrectKey && (
-                        <XCircle className="w-5 h-5 text-rose-600 shrink-0" />
-                      )}
-                    </button>
+                      {/* Botones Verdadero / Falso */}
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5">
+                        {/* Botón VERDADERO */}
+                        {(() => {
+                          const isPicked = selectedOption === 'VERDADERO';
+                          const isRight = expected === 'VERDADERO';
+                          let btnStyle =
+                            'bg-white border-slate-200 text-slate-800 hover:border-emerald-300 hover:bg-emerald-50/40';
+
+                          if (isAnswerSubmitted) {
+                            if (isRight) {
+                              btnStyle =
+                                'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-400/30 shadow-xs';
+                            } else if (isPicked) {
+                              btnStyle = 'bg-rose-50 border-rose-400 text-rose-950 font-bold';
+                            } else {
+                              btnStyle = 'bg-slate-50/40 border-slate-200 text-slate-400 opacity-60';
+                            }
+                          } else if (isPicked) {
+                            btnStyle =
+                              'bg-emerald-50 border-emerald-600 text-emerald-950 font-bold ring-2 ring-emerald-500/30 shadow-xs';
+                          }
+
+                          return (
+                            <button
+                              type="button"
+                              disabled={isAnswerSubmitted}
+                              onClick={() => handleSelectOption('VERDADERO')}
+                              className={`p-4 rounded-2xl border-2 text-left transition-all flex items-center justify-between gap-3 cursor-pointer ${btnStyle}`}
+                            >
+                              <div className="flex items-center gap-3">
+                                <span
+                                  className={`w-9 h-9 rounded-xl font-bold flex items-center justify-center shrink-0 text-sm ${
+                                    isPicked
+                                      ? 'bg-emerald-600 text-white'
+                                      : 'bg-emerald-100 text-emerald-800'
+                                  }`}
+                                >
+                                  ✓
+                                </span>
+                                <div>
+                                  <span className="block text-base font-extrabold text-emerald-950">
+                                    VERDADERO
+                                  </span>
+                                  <span className="text-xs text-slate-500 font-normal">
+                                    La afirmación planteada es correcta
+                                  </span>
+                                </div>
+                              </div>
+                              {isAnswerSubmitted && isRight && (
+                                <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
+                              )}
+                              {isAnswerSubmitted && isPicked && !isRight && (
+                                <XCircle className="w-5 h-5 text-rose-600 shrink-0" />
+                              )}
+                            </button>
+                          );
+                        })()}
+
+                        {/* Botón FALSO */}
+                        {(() => {
+                          const isPicked = selectedOption === 'FALSO';
+                          const isRight = expected === 'FALSO';
+                          let btnStyle =
+                            'bg-white border-slate-200 text-slate-800 hover:border-rose-300 hover:bg-rose-50/40';
+
+                          if (isAnswerSubmitted) {
+                            if (isRight) {
+                              btnStyle =
+                                'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-400/30 shadow-xs';
+                            } else if (isPicked) {
+                              btnStyle = 'bg-rose-50 border-rose-400 text-rose-950 font-bold';
+                            } else {
+                              btnStyle = 'bg-slate-50/40 border-slate-200 text-slate-400 opacity-60';
+                            }
+                          } else if (isPicked) {
+                            btnStyle =
+                              'bg-rose-50 border-rose-600 text-rose-950 font-bold ring-2 ring-rose-500/30 shadow-xs';
+                          }
+
+                          return (
+                            <button
+                              type="button"
+                              disabled={isAnswerSubmitted}
+                              onClick={() => handleSelectOption('FALSO')}
+                              className={`p-4 rounded-2xl border-2 text-left transition-all flex items-center justify-between gap-3 cursor-pointer ${btnStyle}`}
+                            >
+                              <div className="flex items-center gap-3">
+                                <span
+                                  className={`w-9 h-9 rounded-xl font-bold flex items-center justify-center shrink-0 text-sm ${
+                                    isPicked
+                                      ? 'bg-rose-600 text-white'
+                                      : 'bg-rose-100 text-rose-800'
+                                  }`}
+                                >
+                                  ✕
+                                </span>
+                                <div>
+                                  <span className="block text-base font-extrabold text-rose-950">
+                                    FALSO
+                                  </span>
+                                  <span className="text-xs text-slate-500 font-normal">
+                                    La afirmación planteada es incorrecta
+                                  </span>
+                                </div>
+                              </div>
+                              {isAnswerSubmitted && isRight && (
+                                <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
+                              )}
+                              {isAnswerSubmitted && isPicked && !isRight && (
+                                <XCircle className="w-5 h-5 text-rose-600 shrink-0" />
+                              )}
+                            </button>
+                          );
+                        })()}
+                      </div>
+                    </div>
                   );
-                })}
-              </div>
+                })()
+              ) : (
+                /* Opciones de Respuesta A, B, C, D */
+                <div className="space-y-2.5">
+                  {currentQuestion.options.map((opt) => {
+                    const isSelected = selectedOption === opt.key;
+                    const isCorrectKey = opt.key === currentQuestion.correctAnswer;
+
+                    let optionStyle = 'bg-white border-slate-200 hover:border-blue-400 text-slate-800';
+
+                    if (isAnswerSubmitted) {
+                      if (isCorrectKey) {
+                        optionStyle = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold shadow-xs';
+                      } else if (isSelected && !isCorrectKey) {
+                        optionStyle = 'bg-rose-50 border-rose-500 text-rose-950 font-bold';
+                      } else {
+                        optionStyle = 'bg-slate-50 border-slate-200 text-slate-400 opacity-60';
+                      }
+                    } else if (isSelected) {
+                      optionStyle = 'bg-blue-50 border-blue-600 text-blue-950 font-bold ring-2 ring-blue-500/20';
+                    }
+
+                    return (
+                      <button
+                        key={opt.key}
+                        type="button"
+                        disabled={isAnswerSubmitted}
+                        onClick={() => handleSelectOption(opt.key)}
+                        className={`w-full p-4 rounded-2xl border text-left transition-all flex items-center justify-between gap-3 cursor-pointer ${optionStyle}`}
+                      >
+                        <div className="flex items-center gap-3">
+                          <span
+                            className={`w-7 h-7 rounded-xl flex items-center justify-center font-bold text-xs shrink-0 font-mono ${
+                              isSelected
+                                ? 'bg-blue-600 text-white'
+                                : 'bg-slate-100 text-slate-700'
+                            }`}
+                          >
+                            {opt.key}
+                          </span>
+                          <span className="text-sm sm:text-base">{opt.text}</span>
+                        </div>
+
+                        {isAnswerSubmitted && isCorrectKey && (
+                          <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
+                        )}
+                        {isAnswerSubmitted && isSelected && !isCorrectKey && (
+                          <XCircle className="w-5 h-5 text-rose-600 shrink-0" />
+                        )}
+                      </button>
+                    );
+                  })}
+                </div>
+              )}
 
               {/* Justificación y Retroalimentación Pedagógica al Enviar */}
               {isAnswerSubmitted && (
                 <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 sm:p-5 space-y-3 animate-fadeIn">
                   <div className="flex items-center gap-2">
-                    {selectedOption === currentQuestion.correctAnswer ? (
-                      <span className="text-emerald-700 font-bold text-sm flex items-center gap-1.5">
-                        <CheckCircle2 className="w-4 h-4 text-emerald-600" />
-                        ¡Respuesta Correcta! (+1 punto oficial Kuskat)
-                      </span>
-                    ) : (
-                      <span className="text-rose-700 font-bold text-sm flex items-center gap-1.5">
-                        <XCircle className="w-4 h-4 text-rose-600" />
-                        Respuesta Incorrecta (-2 puntos Kuskat)
-                      </span>
-                    )}
+                    {(() => {
+                      const isCorrect =
+                        examEvalMode === 'true_false'
+                          ? selectedOption ===
+                            (convertToTrueFalse(currentQuestion).isTrue ? 'VERDADERO' : 'FALSO')
+                          : selectedOption === currentQuestion.correctAnswer;
+
+                      return isCorrect ? (
+                        <span className="text-emerald-700 font-bold text-sm flex items-center gap-1.5">
+                          <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                          ¡Respuesta Correcta! (+1 punto oficial Kuskat)
+                        </span>
+                      ) : (
+                        <span className="text-rose-700 font-bold text-sm flex items-center gap-1.5">
+                          <XCircle className="w-4 h-4 text-rose-600" />
+                          Respuesta Incorrecta (-2 puntos Kuskat)
+                        </span>
+                      );
+                    })()}
                   </div>
 
                   <div className="text-xs sm:text-sm text-slate-700 leading-relaxed bg-white p-3.5 rounded-xl border border-slate-200">
-                    <strong className="text-slate-900 block mb-1">Justificación Gramatical Oficial:</strong>
-                    {currentQuestion.explanation}
+                    <strong className="text-slate-900 block mb-1">
+                      {examEvalMode === 'true_false'
+                        ? 'Justificación de Verdadero/Falso:'
+                        : 'Justificación Gramatical Oficial:'}
+                    </strong>
+                    {examEvalMode === 'true_false'
+                      ? convertToTrueFalse(currentQuestion).explanation
+                      : currentQuestion.explanation}
                   </div>
 
                   {currentQuestion.distractorAnalysis && currentQuestion.distractorAnalysis.length > 0 && (
@@ -1813,7 +2033,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
           ) : (
             <div className="bg-white rounded-3xl border border-slate-200 p-8 text-center space-y-4">
               <Award className="w-12 h-12 text-amber-500 mx-auto" />
-              <h4 className="text-lg font-bold text-slate-900">¡Examen de 50 Preguntas Completado!</h4>
+              <h4 className="text-lg font-bold text-slate-900">¡Examen de {examQuestions.length} Preguntas Completado!</h4>
               <p className="text-sm text-slate-600 max-w-md mx-auto">
                 Has completado la evaluación del Nivel {selectedLevel}. Obtuviste {examScore.correct} aciertos y {examScore.incorrect} errores para un puntaje final de <strong>{kuskatPoints} puntos Kuskat</strong>.
               </p>
@@ -1866,9 +2086,15 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                 <span>Fuentes Bibliográficas y Metodología Pedagógica: {currentLanguage.name}</span>
               </h3>
               <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-4xl leading-relaxed">
-                El contenido teórico y las 300 preguntas oficiales de evaluación de la sección de <strong>IDIOMAS ({currentLanguage.name})</strong> de KUSKAT han sido adaptados de manera <strong>100% nativa y autosuficiente dentro del proyecto</strong> a partir de autoridades lingüísticas y portales pedagógicos de referencia internacional:
+                El contenido teórico y las 2,400 preguntas oficiales de evaluación de la sección de <strong>IDIOMAS ({currentLanguage.name})</strong> de KUSKAT han sido adaptados de manera <strong>100% nativa y autosuficiente dentro del proyecto</strong> a partir de autoridades lingüísticas y portales pedagógicos de referencia internacional:
               </p>
             </div>
+
+            {/* Fundamentación Teórica Oficial del Idioma (Mínimo 500 palabras, El Porqué, Ejemplos y APA 7.ª Edición) */}
+            <CategoryTheoryView
+              theory={getLanguageTheory(selectedLanguageId)}
+              defaultExpanded={true}
+            />
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               {sources.map((src, idx) => {
@@ -1914,7 +2140,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                           className="w-full py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer shadow-xs"
                         >
                           <Award className="w-3.5 h-3.5" />
-                          <span>Tomar Simulador (50 Preguntas por Nivel)</span>
+                          <span>Tomar Simulador (400 Preguntas por Nivel)</span>
                         </button>
                       )}
                       {idx === 2 && (
