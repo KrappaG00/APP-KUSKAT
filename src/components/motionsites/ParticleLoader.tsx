@@ -23,10 +23,17 @@ export const ParticleLoader: React.FC<ParticleLoaderProps> = ({ onComplete }) =>
     const camera = new THREE.PerspectiveCamera(60, width / height, 0.1, 1000);
     camera.position.z = 240;
 
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-    renderer.setSize(width, height);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    container.appendChild(renderer.domElement);
+    let renderer: THREE.WebGLRenderer;
+    try {
+      renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+      renderer.setSize(width, height);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      container.appendChild(renderer.domElement);
+    } catch (e) {
+      console.warn('WebGL not supported for ParticleLoader:', e);
+      onComplete();
+      return;
+    }
 
     const particleCount = 1400;
     const initialPositions = new Float32Array(particleCount * 3);
@@ -181,9 +188,11 @@ export const ParticleLoader: React.FC<ParticleLoaderProps> = ({ onComplete }) =>
       geometry.dispose();
       material.dispose();
       texture.dispose();
-      renderer.dispose();
-      if (renderer.domElement.parentNode) {
-        renderer.domElement.parentNode.removeChild(renderer.domElement);
+      if (renderer) {
+        renderer.dispose();
+        if (renderer.domElement && renderer.domElement.parentNode) {
+          renderer.domElement.parentNode.removeChild(renderer.domElement);
+        }
       }
     };
   }, [onComplete]);

@@ -168,10 +168,20 @@ function escapeHtml(str: string): string {
 }
 
 // ============================================================================
-// COMPONENTE PRINCIPAL APP
-// ============================================================================
 export default function App() {
-  const [activeTab, setActiveTab] = useState<'motionsites3d' | 'categories' | 'practice' | 'latex' | 'languages'>('motionsites3d');
+  const [activeTab, setActiveTab] = useState<'motionsites3d' | 'categories' | 'practice' | 'latex' | 'languages'>(() => {
+    try {
+      if (typeof window !== 'undefined' && window.location.search) {
+        const param = new URLSearchParams(window.location.search).get('tab');
+        if (param === 'categories' || param === 'practice' || param === 'latex' || param === 'languages' || param === 'motionsites3d') {
+          return param;
+        }
+      }
+    } catch {
+      // fallback
+    }
+    return 'motionsites3d';
+  });
   const [isDevModalOpen, setIsDevModalOpen] = useState<boolean>(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
@@ -458,7 +468,7 @@ export default function App() {
               <button
                 onClick={() => setActiveTab('motionsites3d')}
                 className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg transition-all cursor-pointer ${
-                  activeTab === 'motionsites3d'
+                  (activeTab as string) === 'motionsites3d'
                     ? 'bg-slate-900 text-[#F8DCCB] shadow-xs font-bold'
                     : 'text-indigo-900 bg-indigo-50/80 hover:bg-indigo-100 font-bold border border-indigo-200/60'
                 }`}
@@ -825,7 +835,7 @@ export default function App() {
         <button
           onClick={() => setActiveTab('motionsites3d')}
           className={`flex flex-col items-center gap-0.5 py-1 px-2 rounded-xl text-[10px] font-bold transition-all cursor-pointer ${
-            activeTab === 'motionsites3d' ? 'text-blue-700 font-extrabold' : 'text-slate-500'
+            (activeTab as string) === 'motionsites3d' ? 'text-blue-700 font-extrabold' : 'text-slate-500'
           }`}
         >
           <Sparkles className="w-4 h-4 text-amber-500" />

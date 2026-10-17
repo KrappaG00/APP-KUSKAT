@@ -1,11 +1,15 @@
 import { describe, it, expect } from 'vitest';
 import { INSTITUTIONS_LIST, calculateScorePoints } from '../src/services/statsService';
 import {
+  ALL_ENGLISH_VERBS,
   CEFR_CURRICULUM,
   CEFRLevel,
   ENGLISH_QUESTIONS_BANK,
   GRAMMAR_DISTINCTIONS,
+  IRREGULAR_VERBS,
   PHONETIC_DISTINCTIONS,
+  REGULAR_VERB_RULES,
+  REGULAR_VERBS,
   SPELLING_RULES,
   VOCABULARY_PAIRS,
 } from '../src/data/languages/englishData';
@@ -30,7 +34,7 @@ describe('Módulo Maestro de IDIOMAS & Categoría INGLES en KUSKAT', () => {
     expect(upcoming.length).toBeGreaterThan(0);
   });
 
-  it('3. La teoría de inglés cubre rigurosamente los 6 niveles del MCER (A1, A2, B1, B2, C1, C2)', () => {
+  it('3. La teoría de inglés cubre rigurosamente los 6 niveles del MCER con mínimo 20 clases por nivel (120 clases total)', () => {
     const levels: CEFRLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
     levels.forEach((lvl) => {
@@ -39,9 +43,10 @@ describe('Módulo Maestro de IDIOMAS & Categoría INGLES en KUSKAT', () => {
       expect(info.level).toBe(lvl);
       expect(info.canDoStatements.length).toBeGreaterThan(0);
       expect(info.coreTopics.length).toBeGreaterThan(0);
-      expect(info.grammarLessons.length).toBeGreaterThan(0);
+      // Cada nivel tiene mínimo 20 lecciones estructuradas
+      expect(info.grammarLessons.length).toBeGreaterThanOrEqual(20);
 
-      // Cada lección tiene reglas, ejemplos para US y UK, y enlace de referencia
+      // Cada lección tiene reglas, ejemplos para US y UK, y enlace de referencia metodológico
       info.grammarLessons.forEach((lesson) => {
         expect(lesson.title).toBeTruthy();
         expect(lesson.rules.length).toBeGreaterThan(0);
@@ -94,8 +99,14 @@ describe('Módulo Maestro de IDIOMAS & Categoría INGLES en KUSKAT', () => {
     });
   });
 
-  it('5. Todas las preguntas del simulador son ESTRICTAMENTE de opción múltiple (A, B, C, D)', () => {
-    expect(ENGLISH_QUESTIONS_BANK.length).toBeGreaterThanOrEqual(15);
+  it('5. Todas las preguntas del simulador son ESTRICTAMENTE de opción múltiple (A, B, C, D) y suman 50 por nivel (300 total)', () => {
+    expect(ENGLISH_QUESTIONS_BANK.length).toBe(300);
+
+    const levels: CEFRLevel[] = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
+    levels.forEach((lvl) => {
+      const levelQuestions = ENGLISH_QUESTIONS_BANK.filter((q) => q.level === lvl);
+      expect(levelQuestions.length).toBe(50);
+    });
 
     ENGLISH_QUESTIONS_BANK.forEach((q) => {
       // Debe tener exactamente 4 opciones: A, B, C, D
@@ -151,5 +162,37 @@ describe('Módulo Maestro de IDIOMAS & Categoría INGLES en KUSKAT', () => {
     expect(a1Name).toContain('Nivel A1');
     const c2Name = getSubjectNameFromId('ingles_c2', 'INGLES');
     expect(c2Name).toContain('Nivel C2');
+  });
+
+  it('9. El catálogo de verbos en inglés contiene todos los verbos regulares e irregulares con sus 5 formas y traducción', () => {
+    expect(ALL_ENGLISH_VERBS.length).toBeGreaterThanOrEqual(260);
+    expect(IRREGULAR_VERBS.length).toBeGreaterThanOrEqual(140);
+    expect(REGULAR_VERBS.length).toBeGreaterThanOrEqual(120);
+
+    ALL_ENGLISH_VERBS.forEach((verb) => {
+      expect(verb.infinitive.trim()).toBeTruthy();
+      expect(verb.pastSimple.trim()).toBeTruthy();
+      expect(verb.pastParticiple.trim()).toBeTruthy();
+      expect(verb.thirdPersonSingular.trim()).toBeTruthy();
+      expect(verb.gerund.trim()).toBeTruthy();
+      expect(verb.spanish.trim()).toBeTruthy();
+      expect(['irregular', 'regular']).toContain(verb.type);
+      expect(['A-A-A', 'A-B-B', 'A-B-C', 'A-B-A', 'A-A-B', 'regular']).toContain(verb.pattern);
+      expect(['/t/', '/d/', '/ɪd/', 'irregular']).toContain(verb.phoneticEd);
+    });
+
+    // Reglas de verbos regulares
+    expect(REGULAR_VERB_RULES.length).toBeGreaterThanOrEqual(5);
+  });
+
+  it('10. La interfaz de LanguagesView no contiene enlaces de redirección externa hacia fuera del proyecto', async () => {
+    const fs = await import('fs');
+    const path = await import('path');
+    const viewPath = path.resolve(__dirname, '../src/components/LanguagesView.tsx');
+    const viewContent = fs.readFileSync(viewPath, 'utf-8');
+
+    // Comprobar que no hay etiquetas <a> con target="_blank" o href externo
+    const hasExternalLinks = /<a[\s\S]*?href=["']https?:\/\/[\s\S]*?>/i.test(viewContent);
+    expect(hasExternalLinks).toBe(false);
   });
 });

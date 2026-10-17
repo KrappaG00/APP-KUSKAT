@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { DepartmentData } from './data/departmentsData';
 import { ParticleLoader } from './ParticleLoader';
 import { ElSalvadorMap3D } from './ElSalvadorMap3D';
@@ -48,6 +48,9 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
 
   // Estado del departamento seleccionado en el mapa 3D
   const [selectedDept, setSelectedDept] = useState<DepartmentData | null>(null);
+
+  // Transición 3D de salida
+  const [isTransitioning, setIsTransitioning] = useState<boolean>(false);
 
   useEffect(() => {
     const scrollToTop = () => {

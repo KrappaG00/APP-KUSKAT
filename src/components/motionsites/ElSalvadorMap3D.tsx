@@ -14,6 +14,7 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
   const mountRef = useRef<HTMLDivElement>(null);
   const [hoveredDept, setHoveredDept] = useState<DepartmentData | null>(null);
   const [tooltipPos, setTooltipPos] = useState<{ x: number; y: number } | null>(null);
+  const [hasWebGlError, setHasWebGlError] = useState(false);
 
   // Efecto de máquina de escribir para el titular
   const fullTitle = 'Aprende El Salvador, transforma tu futuro';
@@ -84,12 +85,19 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
 
     adjustCameraToScreen(width, height);
 
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-    renderer.setSize(width, height);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    renderer.shadowMap.enabled = true;
-    renderer.shadowMap.type = THREE.PCFSoftShadowMap;
-    container.appendChild(renderer.domElement);
+    let renderer: THREE.WebGLRenderer;
+    try {
+      renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+      renderer.setSize(width, height);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+      renderer.shadowMap.enabled = true;
+      renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+      container.appendChild(renderer.domElement);
+    } catch (e) {
+      console.warn('WebGL not supported for ElSalvadorMap3D:', e);
+      setHasWebGlError(true);
+      return;
+    }
 
     // Iluminación diurna de estudio
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.95);
@@ -348,25 +356,53 @@ export const ElSalvadorMap3D: React.FC<ElSalvadorMap3DProps> = ({
       observer.disconnect();
       resizeObserver.disconnect();
       window.removeEventListener('resize', handleResize);
-      renderer.domElement.removeEventListener('mousemove', handlePointerMove);
-      renderer.domElement.removeEventListener('click', handlePointerDown);
-      renderer.domElement.removeEventListener('touchend', handlePointerDown);
-      cancelAnimationFrame(animId);
-      deptMeshes.forEach((d) => {
-        d.mesh.geometry.dispose();
-        d.material.dispose();
-      });
-      renderer.dispose();
-      if (renderer.domElement.parentNode) {
-        renderer.domElement.parentNode.removeChild(renderer.domElement);
+      if (renderer) {
+        if (renderer.domElement) {
+          renderer.domElement.removeEventListener('mousemove', handlePointerMove);
+          renderer.domElement.removeEventListener('click', handlePointerDown);
+          renderer.domElement.removeEventListener('touchend', handlePointerDown);
+        }
+        deptMeshes.forEach((d) => {
+          d.mesh.geometry.dispose();
+          d.material.dispose();
+        });
+        renderer.dispose();
+        if (renderer.domElement && renderer.domElement.parentNode) {
+          renderer.domElement.parentNode.removeChild(renderer.domElement);
+        }
       }
+      cancelAnimationFrame(animId);
     };
   }, [onSelectDepartment, selectedDepartmentId]);
 
   return (
     <div className="relative w-full h-[500px] sm:h-[600px] lg:h-[700px] bg-gradient-to-b from-slate-50 via-slate-100 to-slate-200 overflow-hidden select-none border-b border-slate-200">
-      {/* Canvas 3D de Three.js */}
-      <div ref={mountRef} className="absolute inset-0 w-full h-full" />
+      {/* Canvas 3D de Three.js o fallback interactivo 2D si WebGL no está disponible */}
+      {hasWebGlError ? (
+        <div className="absolute inset-0 pt-36 sm:pt-40 pb-6 px-4 overflow-y-auto z-10 max-w-5xl mx-auto">
+          <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-2">
+            {DEPARTMENTS_DATA.map((dept) => (
+              <button
+                key={dept.id}
+                onClick={() => onSelectDepartment(dept)}
+                className={`p-2.5 rounded-xl border text-left transition-all cursor-pointer ${
+                  selectedDepartmentId === dept.id
+                    ? 'bg-blue-600 text-white border-blue-700 shadow-md'
+                    : 'bg-white/90 hover:bg-white text-slate-800 border-slate-200 shadow-xs'
+                }`}
+              >
+                <div className="font-montenegrin text-xs font-bold truncate">{dept.name}</div>
+                <div className="text-[10px] opacity-75 truncate">{dept.capital}</div>
+                <div className="text-[9px] text-blue-600 font-bold mt-1">
+                  {dept.studentsCount.toLocaleString()} est.
+                </div>
+              </button>
+            ))}
+          </div>
+        </div>
+      ) : (
+        <div ref={mountRef} className="absolute inset-0 w-full h-full" />
+      )}
 
       {/* Titular superpuesto */}
       <div className="absolute top-5 sm:top-10 lg:top-12 inset-x-0 mx-auto max-w-4xl text-center px-3 sm:px-4 pointer-events-none z-10">

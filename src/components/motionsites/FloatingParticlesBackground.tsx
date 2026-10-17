@@ -15,10 +15,16 @@ export const FloatingParticlesBackground: React.FC = () => {
     const camera = new THREE.PerspectiveCamera(50, width / height, 1, 1000);
     camera.position.z = 250;
 
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-    renderer.setSize(width, height);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
-    container.appendChild(renderer.domElement);
+    let renderer: THREE.WebGLRenderer;
+    try {
+      renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+      renderer.setSize(width, height);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio, 1.5));
+      container.appendChild(renderer.domElement);
+    } catch (e) {
+      console.warn('WebGL not supported for FloatingParticlesBackground:', e);
+      return;
+    }
 
     // Partículas flotantes suaves en azul y esmeralda para fondo claro
     const count = 90;
@@ -133,9 +139,11 @@ export const FloatingParticlesBackground: React.FC = () => {
       geometry.dispose();
       material.dispose();
       texture.dispose();
-      renderer.dispose();
-      if (renderer.domElement.parentNode) {
-        renderer.domElement.parentNode.removeChild(renderer.domElement);
+      if (renderer) {
+        renderer.dispose();
+        if (renderer.domElement && renderer.domElement.parentNode) {
+          renderer.domElement.parentNode.removeChild(renderer.domElement);
+        }
       }
     };
   }, []);

@@ -1,34 +1,45 @@
 import React, { useMemo, useState } from 'react';
 import {
+  ArrowLeft,
+  ArrowRight,
   Award,
+  BookMarked,
   BookOpen,
   CheckCircle2,
   ChevronDown,
   ChevronRight,
-  ExternalLink,
   Filter,
   Flame,
   Globe,
   HelpCircle,
   Info,
   Layers,
+  Library,
   RotateCcw,
   Search,
   Sparkles,
+  SpellCheck,
   Volume2,
   XCircle,
   Zap,
 } from 'lucide-react';
 import {
+  ALL_ENGLISH_VERBS,
   CEFR_CURRICULUM,
   CEFRLevel,
+  EdPronunciation,
   ENGLISH_QUESTIONS_BANK,
+  EnglishVerbEntry,
   GRAMMAR_DISTINCTIONS,
   GrammarTopicLesson,
+  IRREGULAR_VERBS,
   LanguageQuestion,
   PHONETIC_DISTINCTIONS,
+  REGULAR_VERB_RULES,
+  REGULAR_VERBS,
   SPELLING_RULES,
   VariantType,
+  VerbPattern,
   VOCABULARY_PAIRS,
 } from '../data/languages/englishData';
 import { LANGUAGES_CATALOG } from '../data/languages/languagesRegistry';
@@ -43,7 +54,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
   const [selectedLanguageId, setSelectedLanguageId] = useState<string>('english');
 
   // Pestaña principal dentro de Idiomas
-  const [activeMainTab, setActiveMainTab] = useState<'theory' | 'comparative' | 'exam' | 'references'>('theory');
+  const [activeMainTab, setActiveMainTab] = useState<'theory' | 'verbs' | 'comparative' | 'exam' | 'references'>('theory');
 
   // Variante lingüística (US, UK, ALL)
   const [selectedVariant, setSelectedVariant] = useState<VariantType>('ALL');
@@ -51,18 +62,29 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
   // Nivel del MCER / CEFR activo
   const [selectedLevel, setSelectedLevel] = useState<CEFRLevel>('A1');
 
-  // Filtro de búsqueda en vocabulario y teoría
+  // Filtro de búsqueda en vocabulario comparativo
   const [searchQuery, setSearchQuery] = useState<string>('');
 
-  // Lección de gramática expandida en el acordeón
-  const [expandedLessonId, setExpandedLessonId] = useState<string | null>('a1_tobe');
+  // Búsqueda rápida de lecciones en la pestaña de teoría
+  const [lessonSearch, setLessonSearch] = useState<string>('');
 
-  // Estados del Modo Examen (Selección Múltiple)
+  // Lección de gramática expandida en el acordeón
+  const [expandedLessonId, setExpandedLessonId] = useState<string | null>('a1_lesson_01');
+
+  // Estados del Diccionario de Verbos
+  const [verbSearch, setVerbSearch] = useState<string>('');
+  const [verbTypeFilter, setVerbTypeFilter] = useState<'all' | 'irregular' | 'regular'>('all');
+  const [verbPatternFilter, setVerbPatternFilter] = useState<string>('all');
+  const [verbPronunciationFilter, setVerbPronunciationFilter] = useState<string>('all');
+  const [showVerbRules, setShowVerbRules] = useState<boolean>(false);
+
+  // Estados del Modo Examen (Selección Múltiple: 50 preguntas por nivel)
   const [examCurrentIndex, setExamCurrentIndex] = useState<number>(0);
   const [selectedOption, setSelectedOption] = useState<'A' | 'B' | 'C' | 'D' | null>(null);
   const [isAnswerSubmitted, setIsAnswerSubmitted] = useState<boolean>(false);
   const [examAnswers, setExamAnswers] = useState<Record<string, { chosen: 'A' | 'B' | 'C' | 'D'; isCorrect: boolean }>>({});
   const [examScore, setExamScore] = useState<{ correct: number; incorrect: number }>({ correct: 0, incorrect: 0 });
+  const [isExamCompleted, setIsExamCompleted] = useState<boolean>(false);
 
   const currentLanguage = useMemo(() => {
     return LANGUAGES_CATALOG.find((l) => l.id === selectedLanguageId) || LANGUAGES_CATALOG[0];
@@ -72,16 +94,24 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
     return CEFR_CURRICULUM[selectedLevel];
   }, [selectedLevel]);
 
-  // Preguntas filtradas por nivel y variante para el simulador
-  const filteredQuestions = useMemo(() => {
-    return ENGLISH_QUESTIONS_BANK.filter((q) => {
-      const matchLevel = q.level === selectedLevel;
-      const matchVariant = selectedVariant === 'ALL' || q.variant === 'ALL' || q.variant === selectedVariant;
-      return matchLevel && matchVariant;
-    });
-  }, [selectedLevel, selectedVariant]);
+  // Lecciones filtradas por término de búsqueda en Teoría
+  const filteredLessons = useMemo(() => {
+    if (!lessonSearch.trim()) return currentLevelInfo.grammarLessons;
+    const q = lessonSearch.toLowerCase().trim();
+    return currentLevelInfo.grammarLessons.filter(
+      (l) =>
+        l.title.toLowerCase().includes(q) ||
+        l.category.toLowerCase().includes(q) ||
+        l.summary.toLowerCase().includes(q)
+    );
+  }, [currentLevelInfo, lessonSearch]);
 
-  const currentQuestion: LanguageQuestion | undefined = filteredQuestions[examCurrentIndex];
+  // Preguntas del examen: EXACTAMENTE las 50 preguntas del nivel seleccionado
+  const examQuestions = useMemo(() => {
+    return ENGLISH_QUESTIONS_BANK.filter((q) => q.level === selectedLevel);
+  }, [selectedLevel]);
+
+  const currentQuestion: LanguageQuestion | undefined = examQuestions[examCurrentIndex];
 
   // Vocabulario filtrado por búsqueda
   const filteredVocabulary = useMemo(() => {
@@ -95,6 +125,34 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
         v.category.toLowerCase().includes(q)
     );
   }, [searchQuery]);
+
+  // Verbos filtrados en el catálogo de Verbos
+  const filteredVerbs = useMemo(() => {
+    return ALL_ENGLISH_VERBS.filter((verb) => {
+      // Filtro por tipo
+      if (verbTypeFilter !== 'all' && verb.type !== verbTypeFilter) return false;
+
+      // Filtro por patrón morfológico
+      if (verbPatternFilter !== 'all' && verb.pattern !== verbPatternFilter) return false;
+
+      // Filtro por pronunciación fonética de -ed
+      if (verbPronunciationFilter !== 'all' && verb.phoneticEd !== verbPronunciationFilter) return false;
+
+      // Filtro de búsqueda
+      if (verbSearch.trim()) {
+        const q = verbSearch.toLowerCase().trim();
+        const mInfinitive = verb.infinitive.toLowerCase().includes(q);
+        const mPast = verb.pastSimple.toLowerCase().includes(q);
+        const mPart = verb.pastParticiple.toLowerCase().includes(q);
+        const mThird = verb.thirdPersonSingular.toLowerCase().includes(q);
+        const mGer = verb.gerund.toLowerCase().includes(q);
+        const mSpa = verb.spanish.toLowerCase().includes(q);
+        return mInfinitive || mPast || mPart || mThird || mGer || mSpa;
+      }
+
+      return true;
+    });
+  }, [verbTypeFilter, verbPatternFilter, verbPronunciationFilter, verbSearch]);
 
   // Manejador de respuesta en el simulador
   const handleSelectOption = (key: 'A' | 'B' | 'C' | 'D') => {
@@ -120,13 +178,31 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
   };
 
   const handleNextQuestion = () => {
-    if (examCurrentIndex < filteredQuestions.length - 1) {
+    if (examCurrentIndex < examQuestions.length - 1) {
       const nextIdx = examCurrentIndex + 1;
       setExamCurrentIndex(nextIdx);
-      const nextQ = filteredQuestions[nextIdx];
-      const existing = examAnswers[nextQ.id];
-      if (existing) {
-        setSelectedOption(existing.chosen);
+      const nextQ = examQuestions[nextIdx];
+      const existingAnswer = examAnswers[nextQ?.id || ''];
+      if (existingAnswer) {
+        setSelectedOption(existingAnswer.chosen);
+        setIsAnswerSubmitted(true);
+      } else {
+        setSelectedOption(null);
+        setIsAnswerSubmitted(false);
+      }
+    } else {
+      setIsExamCompleted(true);
+    }
+  };
+
+  const handlePrevQuestion = () => {
+    if (examCurrentIndex > 0) {
+      const prevIdx = examCurrentIndex - 1;
+      setExamCurrentIndex(prevIdx);
+      const prevQ = examQuestions[prevIdx];
+      const existingAnswer = examAnswers[prevQ?.id || ''];
+      if (existingAnswer) {
+        setSelectedOption(existingAnswer.chosen);
         setIsAnswerSubmitted(true);
       } else {
         setSelectedOption(null);
@@ -135,14 +211,13 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
     }
   };
 
-  const handlePrevQuestion = () => {
-    if (examCurrentIndex > 0) {
-      const prevIdx = examCurrentIndex - 1;
-      setExamCurrentIndex(prevIdx);
-      const prevQ = filteredQuestions[prevIdx];
-      const existing = examAnswers[prevQ.id];
-      if (existing) {
-        setSelectedOption(existing.chosen);
+  const handleJumpToQuestion = (index: number) => {
+    if (index >= 0 && index < examQuestions.length) {
+      setExamCurrentIndex(index);
+      const targetQ = examQuestions[index];
+      const existingAnswer = examAnswers[targetQ?.id || ''];
+      if (existingAnswer) {
+        setSelectedOption(existingAnswer.chosen);
         setIsAnswerSubmitted(true);
       } else {
         setSelectedOption(null);
@@ -157,85 +232,56 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
     setIsAnswerSubmitted(false);
     setExamAnswers({});
     setExamScore({ correct: 0, incorrect: 0 });
+    setIsExamCompleted(false);
   };
 
-  // Cálculo de puntaje oficial Kuskat (+1 acierto, -2 error, tope 0)
+  // Cálculo de puntaje oficial Kuskat (+1 acierto, -2 error, mínimo 0)
   const kuskatPoints = Math.max(0, examScore.correct * 1 - examScore.incorrect * 2);
 
   return (
-    <div className="space-y-6">
+    <div className="w-full max-w-7xl mx-auto px-3 sm:px-6 py-6 space-y-6">
       {/* ==================================================================== */}
-      {/* AVISO DE FINANCIAMIENTO UNIVERSITARIO (GLOBAL KUSKAT) */}
+      {/* ANUNCIO PATROCINADO 1 / 1 (Superior en Idiomas) */}
       {/* ==================================================================== */}
-      <div className="bg-gradient-to-r from-blue-900 via-indigo-900 to-slate-900 rounded-3xl p-4 sm:p-5 text-white shadow-md border border-blue-800/60 flex flex-col sm:flex-row items-center justify-between gap-4">
-        <div className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-2xl bg-amber-400/20 border border-amber-400/40 flex items-center justify-center shrink-0 text-amber-300">
-            <Sparkles className="w-5 h-5 animate-pulse" />
-          </div>
-          <div>
-            <span className="text-[10px] font-bold uppercase tracking-wider text-amber-300 bg-amber-400/10 px-2 py-0.5 rounded-full border border-amber-400/30">
-              Aporte Educativo Universitario
-            </span>
-            <p className="text-xs sm:text-sm font-medium text-slate-200 mt-0.5">
-              Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.
-            </p>
-          </div>
-        </div>
-        <div className="shrink-0 flex items-center gap-2">
-          <span className="text-[11px] font-mono bg-white/10 px-3 py-1 rounded-xl text-blue-200 border border-white/10">
-            Yeferson E. Perez • Creador
-          </span>
-        </div>
-      </div>
+      <AdBanner positionLabel="Idiomas - Superior" />
 
       {/* ==================================================================== */}
-      {/* ANUNCIO PATROCINADO 1 / 5 (Superior) */}
+      {/* ENCABEZADO PRINCIPAL DE IDIOMAS */}
       {/* ==================================================================== */}
-      <AdBanner variant="light" positionLabel="Idiomas • 1/5 Superior" slotId="4241045160_id1" />
-
-      {/* ==================================================================== */}
-      {/* ENCABEZADO Y SELECTOR DE IDIOMAS */}
-      {/* ==================================================================== */}
-      <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs">
-        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-5 border-b border-slate-100">
+      <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-7 shadow-xs">
+        <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-6 border-b border-slate-100">
           <div>
             <div className="flex items-center gap-2.5 flex-wrap">
-              <div className="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center shadow-xs">
-                <Globe className="w-5 h-5" />
-              </div>
-              <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-                KUSKAT IDIOMAS: Escuela Internacional de Lenguas
-              </h2>
-              <span className="text-[10px] font-bold uppercase px-2.5 py-0.5 rounded-md bg-emerald-50 text-emerald-800 border border-emerald-200">
-                MCER / CEFR A1 — C2
+              <span className="text-2xl sm:text-3xl">🌐</span>
+              <h1 className="text-xl sm:text-3xl font-black text-slate-900 tracking-tight font-caslon">
+                Módulo Maestro de Idiomas
+              </h1>
+              <span className="text-xs font-bold bg-blue-100 text-blue-800 px-3 py-1 rounded-full border border-blue-200 font-mono">
+                MCER • CEFR A1 a C2
               </span>
             </div>
-            <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-4xl">
-              Teoría completa, comparación normativa entre <strong>Inglés Americano (US)</strong> e <strong>Inglés Británico (UK)</strong>,
-              y simulador pedagógico interactivo con evaluaciones <em>estrictamente de opción múltiple</em> (A, B, C, D) basadas en
-              <strong> Englisch-hilfen.de</strong>, <strong>Englishteststore.net</strong> y <strong>Agendaweb.org</strong>.
+            <p className="text-xs sm:text-sm text-slate-600 mt-2 max-w-3xl leading-relaxed">
+              Currículo pedagógico completo de inglés: <strong>120 clases nativas</strong> (20 por nivel), <strong>300 preguntas de examen</strong> de selección múltiple (50 por nivel), diccionario integral de verbos regulares e irregulares y contraste detallado entre American English (US) y British English (UK). Todo 100% contenido en Kuskat sin redirecciones externas.
             </p>
           </div>
 
-          {/* Selector de Idiomas Disponibles / Próximos */}
-          <div className="flex items-center gap-1.5 overflow-x-auto pb-1 max-w-full">
+          {/* Selector de Idiomas Extensible */}
+          <div className="flex items-center gap-1.5 bg-slate-50 p-1.5 rounded-2xl border border-slate-200 self-start lg:self-auto flex-wrap">
             {LANGUAGES_CATALOG.map((lang) => {
-              const isActive = lang.id === selectedLanguageId;
+              const isSelected = selectedLanguageId === lang.id;
               const isAvailable = lang.status === 'active';
 
               return (
                 <button
                   key={lang.id}
-                  type="button"
-                  onClick={() => {
-                    if (isAvailable) setSelectedLanguageId(lang.id);
-                  }}
-                  className={`px-3 py-2 rounded-2xl border text-xs font-bold transition-all shrink-0 flex items-center gap-2 cursor-pointer ${
-                    isActive
-                      ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
+                  disabled={!isAvailable}
+                  onClick={() => setSelectedLanguageId(lang.id)}
+                  className={`flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer ${
+                    isSelected
+                      ? 'bg-slate-900 text-white shadow-xs'
                       : isAvailable
-                      ? 'bg-slate-50 text-slate-700 border-slate-200 hover:bg-slate-100'
-                      : 'bg-slate-50/60 text-slate-400 border-slate-200/60 cursor-not-allowed opacity-75'
+                      ? 'text-slate-600 hover:text-slate-900 hover:bg-slate-200/60'
+                      : 'text-slate-400 opacity-50 cursor-not-allowed'
                   }`}
                   title={isAvailable ? `Aprender ${lang.name}` : `${lang.name} (Próximamente)`}
                 >
@@ -256,7 +302,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
         {/* BARRA DE NAVEGACIÓN SECUNDARIA DENTRO DE IDIOMAS */}
         {/* ==================================================================== */}
         <div className="pt-4 flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3 flex-wrap">
-          <div className="flex items-center bg-slate-100 p-1 rounded-2xl text-xs font-bold text-slate-600 flex-wrap">
+          <div className="flex items-center bg-slate-100 p-1 rounded-2xl text-xs font-bold text-slate-600 flex-wrap gap-1">
             <button
               onClick={() => setActiveMainTab('theory')}
               className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer ${
@@ -266,7 +312,25 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
               }`}
             >
               <BookOpen className="w-4 h-4 text-blue-600" />
-              <span>Teoría por Nivel (A1-C2)</span>
+              <span>Teoría y 20 Clases</span>
+              <span className="text-[9px] bg-blue-100 text-blue-800 px-1.5 py-0.2 rounded-md font-mono">
+                120 Clases
+              </span>
+            </button>
+
+            <button
+              onClick={() => setActiveMainTab('verbs')}
+              className={`flex items-center gap-1.5 px-3 py-2 rounded-xl transition-all cursor-pointer ${
+                activeMainTab === 'verbs'
+                  ? 'bg-white text-slate-900 shadow-xs font-black'
+                  : 'hover:text-slate-900'
+              }`}
+            >
+              <SpellCheck className="w-4 h-4 text-emerald-600" />
+              <span>Diccionario de Verbos</span>
+              <span className="text-[9px] bg-emerald-100 text-emerald-800 px-1.5 py-0.2 rounded-md font-mono">
+                {ALL_ENGLISH_VERBS.length}
+              </span>
             </button>
 
             <button
@@ -278,7 +342,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
               }`}
             >
               <Layers className="w-4 h-4 text-purple-600" />
-              <span>Guía Comparativa (US vs. UK)</span>
+              <span>Guía US vs. UK</span>
             </button>
 
             <button
@@ -290,9 +354,9 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
               }`}
             >
               <Award className="w-4 h-4 text-amber-500" />
-              <span>Examen Opción Múltiple</span>
+              <span>Simulador de Examen</span>
               <span className="text-[9px] bg-amber-100 text-amber-800 px-1.5 py-0.2 rounded-md font-mono">
-                {filteredQuestions.length} Q
+                50 Preguntas
               </span>
             </button>
 
@@ -304,8 +368,8 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                   : 'hover:text-slate-900'
               }`}
             >
-              <ExternalLink className="w-4 h-4 text-emerald-600" />
-              <span>Fuentes & Referencias</span>
+              <Library className="w-4 h-4 text-slate-600" />
+              <span>Fuentes Metodológicas</span>
             </button>
           </div>
 
@@ -354,7 +418,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
               Marco Común Europeo de Referencia (MCER / CEFR):
             </span>
             <span className="text-[11px] text-slate-500 font-medium hidden sm:inline">
-              Nivel seleccionado: <strong className="text-slate-900">{selectedLevel} • {currentLevelInfo.nameSpanish}</strong>
+              Nivel activo: <strong className="text-slate-900">{selectedLevel} • {currentLevelInfo.nameSpanish}</strong> (20 Clases & 50 Reactivos)
             </span>
           </div>
 
@@ -372,10 +436,11 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                     setExamCurrentIndex(0);
                     setSelectedOption(null);
                     setIsAnswerSubmitted(false);
+                    setExpandedLessonId(`${lvl.toLowerCase()}_lesson_01`);
                   }}
                   className={`p-2.5 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
                     isSelected
-                      ? 'bg-slate-900 text-white border-slate-900 shadow-xs'
+                      ? 'bg-slate-900 text-white border-slate-900 shadow-xs ring-2 ring-blue-500/30'
                       : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
                   }`}
                 >
@@ -391,7 +456,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                   </div>
                   <div className="pt-1.5">
                     <span className="font-bold text-[11px] block truncate">{info.nameSpanish}</span>
-                    <span className="text-[9.5px] opacity-70 block truncate">{info.name}</span>
+                    <span className="text-[9.5px] opacity-70 block truncate">20 Clases • 50 Q</span>
                   </div>
                 </button>
               );
@@ -401,7 +466,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
       </div>
 
       {/* ==================================================================== */}
-      {/* PESTAÑA 1: TEORÍA COMPLETA POR NIVEL (A1 A C2) */}
+      {/* PESTAÑA 1: TEORÍA COMPLETA (20 CLASES POR NIVEL) */}
       {/* ==================================================================== */}
       {activeMainTab === 'theory' && (
         <div className="space-y-6">
@@ -418,6 +483,9 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                       Nivel {currentLevelInfo.level}: {currentLevelInfo.nameSpanish}
                     </h3>
                     <span className="text-xs font-mono text-slate-500 font-medium">({currentLevelInfo.name})</span>
+                    <span className="text-xs font-bold bg-emerald-100 text-emerald-800 px-2 py-0.5 rounded-md font-mono">
+                      20 Clases Oficiales
+                    </span>
                   </div>
                   <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-3xl">
                     {currentLevelInfo.description}
@@ -425,13 +493,23 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                 </div>
               </div>
 
-              <button
-                onClick={() => setActiveMainTab('exam')}
-                className="px-4 py-2.5 rounded-2xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs flex items-center gap-2 shadow-xs transition-all cursor-pointer self-start md:self-auto"
-              >
-                <Award className="w-4 h-4" />
-                <span>Rendir Test de Selección Múltiple {currentLevelInfo.level}</span>
-              </button>
+              <div className="flex items-center gap-2 self-start md:self-auto flex-wrap">
+                <button
+                  onClick={() => setActiveMainTab('verbs')}
+                  className="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs flex items-center gap-1.5 transition-colors cursor-pointer"
+                >
+                  <SpellCheck className="w-3.5 h-3.5 text-emerald-600" />
+                  <span>Verbos</span>
+                </button>
+
+                <button
+                  onClick={() => setActiveMainTab('exam')}
+                  className="px-4 py-2.5 rounded-2xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs flex items-center gap-2 shadow-xs transition-all cursor-pointer"
+                >
+                  <Award className="w-4 h-4" />
+                  <span>Simulador (50 Preguntas {currentLevelInfo.level})</span>
+                </button>
+              </div>
             </div>
 
             {/* Competencias Can-Do del MCER */}
@@ -456,7 +534,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                   <BookOpen className="w-4 h-4 text-blue-600" />
                   <span>Ejes Temáticos Clave de {currentLevelInfo.level}:</span>
                 </h4>
-                <div className="flex flex-wrap gap-1.5">
+                <div className="flex flex-wrap gap-1.5 max-h-36 overflow-y-auto pr-1">
                   {currentLevelInfo.coreTopics.map((topic, idx) => (
                     <span
                       key={idx}
@@ -470,25 +548,75 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
             </div>
           </div>
 
-          {/* Acordeón de Lecciones Teóricas Detalladas */}
+          {/* Selector de Clases (1 a 20) y Barra de Búsqueda de Clases */}
+          <div className="bg-white rounded-3xl border border-slate-200 p-4 sm:p-5 shadow-xs space-y-3">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div>
+                <h4 className="text-sm font-bold text-slate-900 flex items-center gap-2">
+                  <BookMarked className="w-4 h-4 text-blue-600" />
+                  <span>Índice Rápido de las 20 Clases Oficiales de {selectedLevel}:</span>
+                </h4>
+                <span className="text-xs text-slate-500">
+                  Selecciona cualquier clase para expandir instantáneamente su desarrollo teórico:
+                </span>
+              </div>
+
+              <div className="relative w-full sm:w-64">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                <input
+                  type="text"
+                  value={lessonSearch}
+                  onChange={(e) => setLessonSearch(e.target.value)}
+                  placeholder="Buscar en las 20 clases..."
+                  className="w-full pl-9 pr-3 py-1.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+            </div>
+
+            {/* Píldoras numeradas de las 20 clases */}
+            <div className="flex items-center gap-1.5 flex-wrap pt-1">
+              {currentLevelInfo.grammarLessons.map((lesson, idx) => {
+                const classNum = idx + 1;
+                const isSelected = expandedLessonId === lesson.id;
+                return (
+                  <button
+                    key={lesson.id}
+                    onClick={() => setExpandedLessonId(lesson.id)}
+                    className={`px-2.5 py-1 rounded-lg text-xs font-mono font-bold transition-all cursor-pointer ${
+                      isSelected
+                        ? 'bg-blue-600 text-white shadow-xs'
+                        : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
+                    }`}
+                    title={lesson.title}
+                  >
+                    C{classNum < 10 ? `0${classNum}` : classNum}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          {/* Acordeón de las 20 Lecciones Teóricas Detalladas */}
           <div className="space-y-3">
             <div className="flex items-center justify-between px-1">
               <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
                 <Layers className="w-4 h-4 text-blue-600" />
-                <span>Lecciones de Gramática y Síntesis Estructurada:</span>
+                <span>Lecciones Desarrolladas ({filteredLessons.length} disponibles):</span>
               </h3>
               <span className="text-xs text-slate-500 font-mono">
-                {currentLevelInfo.grammarLessons.length} lecciones en {currentLevelInfo.level}
+                {currentLevelInfo.grammarLessons.length} clases totales en {currentLevelInfo.level}
               </span>
             </div>
 
-            {currentLevelInfo.grammarLessons.map((lesson) => {
+            {filteredLessons.map((lesson, idx) => {
               const isExpanded = expandedLessonId === lesson.id;
 
               return (
                 <div
                   key={lesson.id}
-                  className="bg-white rounded-3xl border border-slate-200 overflow-hidden shadow-xs transition-all"
+                  className={`bg-white rounded-3xl border transition-all overflow-hidden shadow-xs ${
+                    isExpanded ? 'border-blue-300 ring-2 ring-blue-500/10' : 'border-slate-200'
+                  }`}
                 >
                   <button
                     type="button"
@@ -496,8 +624,8 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                     className="w-full p-4 sm:p-5 flex items-center justify-between gap-4 text-left hover:bg-slate-50/80 transition-colors cursor-pointer"
                   >
                     <div className="flex items-center gap-3">
-                      <div className="w-8 h-8 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-700 font-bold text-xs shrink-0">
-                        {currentLevelInfo.level}
+                      <div className="w-9 h-9 rounded-xl bg-blue-50 border border-blue-200 flex items-center justify-center text-blue-700 font-bold text-xs shrink-0 font-mono">
+                        #{idx + 1}
                       </div>
                       <div>
                         <div className="flex items-center gap-2 flex-wrap">
@@ -531,8 +659,8 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                           Reglas Gramaticales Oficiales:
                         </h5>
                         <ul className="space-y-1.5 text-slate-700 bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
-                          {lesson.rules.map((rule, idx) => (
-                            <li key={idx} className="flex items-start gap-2">
+                          {lesson.rules.map((rule, rIdx) => (
+                            <li key={rIdx} className="flex items-start gap-2">
                               <span className="text-blue-600 font-black">•</span>
                               <span className="leading-relaxed">{rule}</span>
                             </li>
@@ -546,8 +674,8 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                             <span>🇺🇸 Ejemplos en American English:</span>
                           </h6>
                           <ul className="space-y-1 text-xs text-slate-700 font-medium">
-                            {lesson.examplesUS.map((ex, idx) => (
-                              <li key={idx} className="leading-snug">“{ex}”</li>
+                            {lesson.examplesUS.map((ex, exIdx) => (
+                              <li key={exIdx} className="leading-snug">“{ex}”</li>
                             ))}
                           </ul>
                         </div>
@@ -557,41 +685,48 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                             <span>🇬🇧 Ejemplos en British English:</span>
                           </h6>
                           <ul className="space-y-1 text-xs text-slate-700 font-medium">
-                            {lesson.examplesUK.map((ex, idx) => (
-                              <li key={idx} className="leading-snug">“{ex}”</li>
+                            {lesson.examplesUK.map((ex, exIdx) => (
+                              <li key={exIdx} className="leading-snug">“{ex}”</li>
                             ))}
                           </ul>
                         </div>
                       </div>
 
-                      {lesson.commonMistakes.length > 0 && (
-                        <div className="bg-amber-50/70 border border-amber-200 rounded-2xl p-3.5">
-                          <h6 className="font-bold text-xs text-amber-900 flex items-center gap-1.5 mb-1.5">
-                            <Info className="w-3.5 h-3.5 text-amber-600" />
-                            <span>Errores Frecuentes y Trampas en Exámenes:</span>
+                      {lesson.commonMistakes && lesson.commonMistakes.length > 0 && (
+                        <div className="bg-amber-50/60 border border-amber-200/80 rounded-2xl p-3.5">
+                          <h6 className="font-bold text-xs text-amber-900 flex items-center gap-1.5 mb-2">
+                            <XCircle className="w-3.5 h-3.5 text-amber-600" />
+                            <span>Errores Frecuentes y Cómo Evitarlos:</span>
                           </h6>
-                          <ul className="space-y-1 text-xs text-slate-700">
-                            {lesson.commonMistakes.map((mis, idx) => (
-                              <li key={idx} className="flex items-start gap-2">
-                                <span className="text-amber-600 font-bold">⚠️</span>
-                                <span>{mis}</span>
+                          <ul className="space-y-1 text-xs text-amber-950">
+                            {lesson.commonMistakes.map((mistake, mIdx) => (
+                              <li key={mIdx} className="flex items-start gap-1.5">
+                                <span className="text-amber-600 font-bold">⚠</span>
+                                <span>{mistake}</span>
                               </li>
                             ))}
                           </ul>
                         </div>
                       )}
 
-                      <div className="pt-2 flex items-center justify-between text-xs text-slate-500 border-t border-slate-100">
-                        <span className="font-mono text-[11px]">Fuente verificada: Englisch-hilfen.de & Agendaweb.org</span>
-                        <a
-                          href={lesson.referenceLink}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="flex items-center gap-1 text-blue-600 hover:text-blue-800 font-bold hover:underline"
+                      {/* Botón de acción interna (Sin enlaces externos hacia afuera) */}
+                      <div className="flex items-center justify-between pt-2 border-t border-slate-100 flex-wrap gap-2">
+                        <span className="text-[11px] text-slate-500 font-mono flex items-center gap-1.5">
+                          <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                          <span>Contenido 100% nativo integrado en Kuskat</span>
+                        </span>
+
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setSelectedLevel(currentLevelInfo.level);
+                            setActiveMainTab('exam');
+                          }}
+                          className="inline-flex items-center gap-1 text-[11px] font-bold text-blue-700 hover:text-blue-900 bg-blue-50 hover:bg-blue-100 px-3 py-1.5 rounded-lg transition-colors cursor-pointer"
                         >
-                          <span>Ver ejercicios complementarios</span>
-                          <ExternalLink className="w-3 h-3" />
-                        </a>
+                          <Zap className="w-3 h-3" />
+                          <span>Practicar en Simulador Nivel {currentLevelInfo.level}</span>
+                        </button>
                       </div>
                     </div>
                   )}
@@ -599,224 +734,293 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
               );
             })}
           </div>
-
-          {/* Anuncio Patrocinado 2 / 5 (Intermedio en Teoría) */}
-          <AdBanner variant="light" positionLabel="Idiomas • 2/5 Intermedio Teoría" slotId="4241045160_id2" />
         </div>
       )}
 
       {/* ==================================================================== */}
-      {/* PESTAÑA 2: GUÍA COMPARATIVA (AMERICAN vs. BRITISH ENGLISH) */}
+      {/* PESTAÑA 2: DICCIONARIO MAESTRO DE VERBOS (REGULARES E IRREGULARES) */}
       {/* ==================================================================== */}
-      {activeMainTab === 'comparative' && (
+      {activeMainTab === 'verbs' && (
         <div className="space-y-6">
-          {/* Introducción Comparativa */}
+          {/* Header de Verbos */}
           <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs">
-            <h3 className="text-lg sm:text-xl font-bold text-slate-900 flex items-center gap-2">
-              <Globe className="w-5 h-5 text-blue-600" />
-              <span>Análisis Contrastivo Integral: Inglés Americano (US) vs. Inglés Británico (UK)</span>
-            </h3>
-            <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-4xl">
-              Aunque ambas variantes son plenamente inteligibles entre sí, presentan diferencias sistémicas
-              en <strong>ortografía (spelling)</strong>, <strong>léxico cotidiano</strong>, <strong>gramática estructural</strong> y <strong>fonética</strong>.
-              A continuación se presenta el desglose pedagógico verificado según los estándares de Oxford, Cambridge y Webster.
-            </p>
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+              <div>
+                <div className="flex items-center gap-2">
+                  <h3 className="text-lg sm:text-xl font-bold text-slate-900 flex items-center gap-2">
+                    <SpellCheck className="w-5 h-5 text-emerald-600" />
+                    <span>Diccionario de Verbos en Inglés (Todos sus Tiempos y Traducción)</span>
+                  </h3>
+                </div>
+                <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-3xl">
+                  Catálogo exhaustivo de <strong>{ALL_ENGLISH_VERBS.length} verbos</strong> ({IRREGULAR_VERBS.length} irregulares y {REGULAR_VERBS.length} regulares) con sus 5 formas gramaticales: <strong>Infinitive (V1)</strong>, <strong>Past Simple (V2)</strong>, <strong>Past Participle (V3)</strong>, <strong>3ª Persona Singular (-s/-es)</strong>, <strong>Gerund (-ing)</strong> y traducción fiel al español.
+                </p>
+              </div>
+
+              <button
+                type="button"
+                onClick={() => setShowVerbRules(!showVerbRules)}
+                className="px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs flex items-center gap-1.5 transition-colors cursor-pointer self-start sm:self-auto"
+              >
+                <Info className="w-3.5 h-3.5 text-blue-600" />
+                <span>{showVerbRules ? 'Ocultar Reglas Oficiales' : 'Ver Reglas Ortográficas y Fonéticas'}</span>
+              </button>
+            </div>
+
+            {/* Reglas de Verbos (Acordeón desplegable) */}
+            {showVerbRules && (
+              <div className="pt-4 space-y-4 border-b border-slate-100 pb-4">
+                <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                  <h4 className="font-bold text-xs uppercase tracking-wider text-slate-800 mb-2">
+                    Reglas Morfológicas y Fonéticas de los Verbos Regulares:
+                  </h4>
+                  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                    {REGULAR_VERB_RULES.map((rule, idx) => (
+                      <div key={idx} className="bg-white p-3 rounded-xl border border-slate-200 text-xs space-y-1.5 shadow-2xs">
+                        <div className="flex items-center justify-between">
+                          <span className="font-bold text-slate-900">{rule.title}</span>
+                          <span className="text-[9px] font-mono font-bold bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded">
+                            {rule.category}
+                          </span>
+                        </div>
+                        <p className="text-slate-600 text-[11px]">{rule.explanation}</p>
+                        <div className="bg-slate-50 p-2 rounded-lg font-mono text-[10px] space-y-0.5 text-slate-700">
+                          {rule.examples.map((ex, eIdx) => (
+                            <div key={eIdx} className="flex items-center justify-between">
+                              <span><strong>{ex.base}</strong> → {ex.past} {ex.phonetic && <span className="text-emerald-700">[{ex.phonetic}]</span>}</span>
+                              <span className="text-slate-400 font-sans">({ex.translation})</span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {/* Barra de Búsqueda y Filtros de Verbos */}
+            <div className="pt-4 flex flex-col md:flex-row md:items-center justify-between gap-3 flex-wrap">
+              <div className="relative w-full md:w-80">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                <input
+                  type="text"
+                  value={verbSearch}
+                  onChange={(e) => setVerbSearch(e.target.value)}
+                  placeholder="Buscar por verbo (inglés o español)..."
+                  className="w-full pl-9 pr-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-emerald-500"
+                />
+              </div>
+
+              {/* Filtro por Tipo */}
+              <div className="flex items-center gap-1.5 bg-slate-100 p-1 rounded-2xl text-xs font-bold text-slate-600 flex-wrap">
+                <button
+                  type="button"
+                  onClick={() => {
+                    setVerbTypeFilter('all');
+                    setVerbPatternFilter('all');
+                    setVerbPronunciationFilter('all');
+                  }}
+                  className={`px-3 py-1.5 rounded-xl transition-all cursor-pointer ${
+                    verbTypeFilter === 'all'
+                      ? 'bg-white text-slate-900 shadow-xs font-black'
+                      : 'hover:text-slate-900'
+                  }`}
+                >
+                  Todos ({ALL_ENGLISH_VERBS.length})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setVerbTypeFilter('irregular');
+                    setVerbPronunciationFilter('all');
+                  }}
+                  className={`px-3 py-1.5 rounded-xl transition-all cursor-pointer ${
+                    verbTypeFilter === 'irregular'
+                      ? 'bg-purple-600 text-white shadow-xs font-black'
+                      : 'hover:text-slate-900'
+                  }`}
+                >
+                  Irregulares ({IRREGULAR_VERBS.length})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => {
+                    setVerbTypeFilter('regular');
+                    setVerbPatternFilter('all');
+                  }}
+                  className={`px-3 py-1.5 rounded-xl transition-all cursor-pointer ${
+                    verbTypeFilter === 'regular'
+                      ? 'bg-emerald-600 text-white shadow-xs font-black'
+                      : 'hover:text-slate-900'
+                  }`}
+                >
+                  Regulares ({REGULAR_VERBS.length})
+                </button>
+              </div>
+            </div>
+
+            {/* Sub-filtros dinámicos según tipo */}
+            {verbTypeFilter === 'irregular' && (
+              <div className="pt-3 flex items-center gap-1.5 text-xs text-slate-500 flex-wrap">
+                <span className="font-mono text-[11px] text-slate-400">Patrón:</span>
+                {['all', 'A-A-A', 'A-B-B', 'A-B-C', 'A-B-A'].map((pat) => (
+                  <button
+                    key={pat}
+                    type="button"
+                    onClick={() => setVerbPatternFilter(pat)}
+                    className={`px-2.5 py-1 rounded-lg text-xs font-mono transition-all cursor-pointer ${
+                      verbPatternFilter === pat
+                        ? 'bg-purple-100 text-purple-900 font-bold border border-purple-300'
+                        : 'bg-slate-50 hover:bg-slate-100 text-slate-600'
+                    }`}
+                  >
+                    {pat === 'all' ? 'Todos' : pat}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {verbTypeFilter === 'regular' && (
+              <div className="pt-3 flex items-center gap-1.5 text-xs text-slate-500 flex-wrap">
+                <span className="font-mono text-[11px] text-slate-400">Pronunciación -ed:</span>
+                {['all', '/t/', '/d/', '/ɪd/'].map((pron) => (
+                  <button
+                    key={pron}
+                    type="button"
+                    onClick={() => setVerbPronunciationFilter(pron)}
+                    className={`px-2.5 py-1 rounded-lg text-xs font-mono transition-all cursor-pointer ${
+                      verbPronunciationFilter === pron
+                        ? 'bg-emerald-100 text-emerald-900 font-bold border border-emerald-300'
+                        : 'bg-slate-50 hover:bg-slate-100 text-slate-600'
+                    }`}
+                  >
+                    {pron === 'all' ? 'Todas' : `${pron} ${pron === '/t/' ? '(sordo)' : pron === '/d/' ? '(sonoro)' : '(sílaba extra)'}`}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
 
-          {/* 1. Ortografía (Spelling Rules) */}
-          <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-4">
-            <div className="flex items-center justify-between">
-              <div>
-                <h4 className="text-base font-bold text-slate-900 flex items-center gap-2">
-                  <Sparkles className="w-4 h-4 text-purple-600" />
-                  <span>1. Reglas Ortográficas de Diferenciación (Spelling Rules)</span>
-                </h4>
-                <p className="text-xs text-slate-500">Patrones regulares de sufijos y diptongos.</p>
-              </div>
-              <span className="text-xs font-mono bg-purple-50 text-purple-800 px-2 py-1 rounded-lg border border-purple-200 font-bold">
-                {SPELLING_RULES.length} Patrones
-              </span>
+          {/* Tabla de Verbos */}
+          <div className="bg-white rounded-3xl border border-slate-200 shadow-xs overflow-hidden">
+            <div className="p-4 border-b border-slate-100 flex items-center justify-between text-xs text-slate-500 font-mono">
+              <span>Mostrando <strong>{filteredVerbs.length}</strong> verbos encontrados</span>
+              <span>100% de tiempos y formas gramaticales</span>
             </div>
 
             <div className="overflow-x-auto">
               <table className="w-full text-left text-xs sm:text-sm border-collapse">
                 <thead>
-                  <tr className="border-b border-slate-200 bg-slate-50 text-slate-700 font-bold">
-                    <th className="p-3 rounded-l-xl">Patrón</th>
-                    <th className="p-3">🇺🇸 American English (US)</th>
-                    <th className="p-3">🇬🇧 British English (UK)</th>
-                    <th className="p-3 rounded-r-xl">Explicación Lingüística</th>
+                  <tr className="bg-slate-50 text-slate-700 font-bold border-b border-slate-200">
+                    <th className="py-3 px-3.5 sm:px-4">Infinitive (V1)</th>
+                    <th className="py-3 px-3.5 sm:px-4">Past Simple (V2)</th>
+                    <th className="py-3 px-3.5 sm:px-4">Past Participle (V3)</th>
+                    <th className="py-3 px-3.5 sm:px-4">3rd Person (-s/-es)</th>
+                    <th className="py-3 px-3.5 sm:px-4">Gerund (-ing)</th>
+                    <th className="py-3 px-3.5 sm:px-4">Español</th>
+                    <th className="py-3 px-3.5 sm:px-4">Clasificación</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-100">
-                  {SPELLING_RULES.map((rule, idx) => (
-                    <tr key={idx} className="hover:bg-slate-50/80 transition-colors">
-                      <td className="p-3 font-mono font-bold text-purple-900 shrink-0">{rule.pattern}</td>
-                      <td className="p-3 font-semibold text-blue-900">{rule.us}</td>
-                      <td className="p-3 font-semibold text-rose-900">{rule.uk}</td>
-                      <td className="p-3 text-slate-600 text-xs leading-relaxed max-w-md">{rule.explanation}</td>
+                  {filteredVerbs.map((v) => (
+                    <tr key={v.id} className="hover:bg-slate-50/80 transition-colors">
+                      <td className="py-2.5 px-3.5 sm:px-4 font-bold text-slate-900 font-mono">
+                        {v.infinitive}
+                      </td>
+                      <td className="py-2.5 px-3.5 sm:px-4 font-mono text-blue-900 font-semibold">
+                        {v.pastSimple}
+                      </td>
+                      <td className="py-2.5 px-3.5 sm:px-4 font-mono text-purple-900 font-semibold">
+                        {v.pastParticiple}
+                      </td>
+                      <td className="py-2.5 px-3.5 sm:px-4 font-mono text-slate-600">
+                        {v.thirdPersonSingular}
+                      </td>
+                      <td className="py-2.5 px-3.5 sm:px-4 font-mono text-slate-600">
+                        {v.gerund}
+                      </td>
+                      <td className="py-2.5 px-3.5 sm:px-4 font-medium text-slate-800">
+                        {v.spanish}
+                      </td>
+                      <td className="py-2.5 px-3.5 sm:px-4">
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          <span
+                            className={`text-[10px] font-bold px-2 py-0.5 rounded-md ${
+                              v.type === 'irregular'
+                                ? 'bg-purple-100 text-purple-800'
+                                : 'bg-emerald-100 text-emerald-800'
+                            }`}
+                          >
+                            {v.type === 'irregular' ? `Irreg (${v.pattern})` : 'Regular'}
+                          </span>
+                          {v.phoneticEd !== 'irregular' && (
+                            <span className="text-[10px] font-mono font-bold bg-slate-100 text-slate-700 px-1.5 py-0.5 rounded">
+                              {v.phoneticEd}
+                            </span>
+                          )}
+                          {v.notes && (
+                            <span className="text-[10px] text-amber-800 bg-amber-50 px-1.5 py-0.5 rounded border border-amber-200">
+                              {v.notes}
+                            </span>
+                          )}
+                        </div>
+                      </td>
                     </tr>
                   ))}
                 </tbody>
               </table>
             </div>
           </div>
+        </div>
+      )}
 
-          {/* 2. Vocabulario y Léxico */}
-          <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-4">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-              <div>
-                <h4 className="text-base font-bold text-slate-900 flex items-center gap-2">
-                  <BookOpen className="w-4 h-4 text-emerald-600" />
-                  <span>2. Glosario Léxico Esencial: US vs. UK</span>
-                </h4>
-                <p className="text-xs text-slate-500">Palabras con equivalencias totalmente distintas por región.</p>
-              </div>
-
-              {/* Buscador de Vocabulario */}
-              <div className="relative w-full sm:w-64">
-                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
-                <input
-                  type="text"
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Buscar término (ej. flat, car)..."
-                  className="w-full pl-9 pr-3 py-1.5 rounded-xl border border-slate-200 text-xs focus:outline-hidden focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 bg-slate-50"
-                />
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-              {filteredVocabulary.map((item, idx) => (
-                <div
-                  key={idx}
-                  className="bg-slate-50/70 rounded-2xl p-3.5 border border-slate-200/80 hover:border-blue-300 transition-all space-y-1.5"
-                >
-                  <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 block font-mono">
-                    {item.category}
-                  </span>
-                  <div className="flex items-center justify-between text-xs sm:text-sm font-bold">
-                    <span className="text-blue-900">🇺🇸 {item.us}</span>
-                    <span className="text-slate-400 text-xs font-normal">vs</span>
-                    <span className="text-rose-900">🇬🇧 {item.uk}</span>
-                  </div>
-                  <p className="text-xs text-slate-700 font-medium">
-                    <span className="text-slate-500 font-normal">Significado: </span>
-                    {item.spanish}
-                  </p>
-                  <div className="text-[11px] text-slate-500 pt-1 border-t border-slate-200/60 space-y-0.5">
-                    <p className="italic text-slate-600 truncate" title={item.sampleSentenceUS}>
-                      US: “{item.sampleSentenceUS}”
-                    </p>
-                    <p className="italic text-slate-600 truncate" title={item.sampleSentenceUK}>
-                      UK: “{item.sampleSentenceUK}”
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
+      {/* ==================================================================== */}
+      {/* PESTAÑA 3: GUÍA COMPARATIVA ENTRE AMERICAN Y BRITISH ENGLISH */}
+      {/* ==================================================================== */}
+      {activeMainTab === 'comparative' && (
+        <div className="space-y-6">
+          {/* Header Comparativo */}
+          <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs">
+            <h3 className="text-lg sm:text-xl font-bold text-slate-900 flex items-center gap-2">
+              <Layers className="w-5 h-5 text-purple-600" />
+              <span>Diferencias Estructurales: American English (US) vs. British English (UK)</span>
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-4xl leading-relaxed">
+              El inglés presenta dos estándares de prestigio internacional. A continuación se contrastan sus reglas ortográficas sistemáticas, pares de vocabulario cotidiano, distinciones sintácticas y patrones fonéticos fundamentales.
+            </p>
           </div>
 
-          {/* Anuncio Patrocinado 3 / 5 (Intermedio en Comparativa) */}
-          <AdBanner variant="light" positionLabel="Idiomas • 3/5 Intermedio Comparativa" slotId="4241045160_id3" />
-
-          {/* 3. Gramática Estructural */}
+          {/* Sección 1: Reglas Ortográficas (Spelling) */}
           <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-4">
-            <h4 className="text-base font-bold text-slate-900 flex items-center gap-2">
-              <Zap className="w-4 h-4 text-amber-500" />
-              <span>3. Diferencias en Gramática y Sintaxis</span>
-            </h4>
-            <p className="text-xs text-slate-500">
-              Contraste en el uso de tiempos verbales, concordancias colectivas y preposiciones.
-            </p>
-
-            <div className="space-y-4">
-              {GRAMMAR_DISTINCTIONS.map((item, idx) => (
-                <div
-                  key={idx}
-                  className="bg-slate-50 rounded-2xl p-4 sm:p-5 border border-slate-200/80 space-y-3"
-                >
-                  <div className="flex items-center justify-between gap-2 flex-wrap">
-                    <h5 className="font-bold text-sm sm:text-base text-slate-900">{item.title}</h5>
-                    <span className="text-[10px] font-mono bg-blue-100 text-blue-900 px-2 py-0.5 rounded-md font-semibold">
-                      Sintaxis
-                    </span>
-                  </div>
-                  <p className="text-xs text-slate-600">{item.concept}</p>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
-                    <div className="bg-blue-50/70 border border-blue-200/80 rounded-xl p-3">
-                      <strong className="block text-blue-900 font-bold mb-1">🇺🇸 Norma en American English:</strong>
-                      <p className="text-slate-700 leading-relaxed mb-2">{item.ruleUS}</p>
-                      <div className="bg-white p-2 rounded-lg border border-blue-100 font-mono text-[11px] text-blue-950">
-                        {item.exampleUS}
-                      </div>
-                    </div>
-
-                    <div className="bg-rose-50/70 border border-rose-200/80 rounded-xl p-3">
-                      <strong className="block text-rose-900 font-bold mb-1">🇬🇧 Norma en British English:</strong>
-                      <p className="text-slate-700 leading-relaxed mb-2">{item.ruleUK}</p>
-                      <div className="bg-white p-2 rounded-lg border border-rose-100 font-mono text-[11px] text-rose-950">
-                        {item.exampleUK}
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="bg-amber-50/60 border border-amber-200/80 rounded-xl p-3 text-xs text-amber-950 flex items-start gap-2">
-                    <Info className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
-                    <div>
-                      <strong className="font-bold">Impacto en Exámenes Internacionales: </strong>
-                      <span>{item.pedagogicalNote}</span>
-                    </div>
-                  </div>
-                </div>
-              ))}
+            <div className="flex items-center justify-between pb-3 border-b border-slate-100">
+              <h4 className="font-bold text-base text-slate-900 flex items-center gap-2">
+                <Sparkles className="w-4 h-4 text-amber-500" />
+                <span>1. Reglas Ortográficas Sistemáticas (Spelling Patterns)</span>
+              </h4>
+              <span className="text-xs font-mono text-slate-400">5 Patrones Clave</span>
             </div>
-          </div>
-
-          {/* 4. Fonética y Pronunciación */}
-          <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-4">
-            <h4 className="text-base font-bold text-slate-900 flex items-center gap-2">
-              <Volume2 className="w-4 h-4 text-indigo-600" />
-              <span>4. Guía Fonética y Fonológica (Pronunciation Differences)</span>
-            </h4>
-            <p className="text-xs text-slate-500">
-              Roticidad, golpe alveolar (Flapped T), vocales abiertas y patrones de acentuación.
-            </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {PHONETIC_DISTINCTIONS.map((phon, idx) => (
-                <div key={idx} className="bg-slate-50 rounded-2xl p-4 border border-slate-200/80 space-y-2.5">
-                  <h5 className="font-bold text-sm text-slate-900 flex items-center justify-between">
-                    <span>{phon.topic}</span>
-                    <span className="text-[10px] font-mono text-indigo-700 bg-indigo-50 px-2 py-0.5 rounded-md border border-indigo-200">
-                      Fonética
-                    </span>
-                  </h5>
-                  <p className="text-xs text-slate-600 font-medium">{phon.feature}</p>
-
-                  <div className="space-y-1.5 text-xs">
-                    <div className="bg-blue-50/50 p-2.5 rounded-xl border border-blue-100 text-slate-700">
-                      <strong className="text-blue-900 font-bold block mb-0.5">🇺🇸 General American (US):</strong>
-                      <p>{phon.usBehavior}</p>
-                    </div>
-
-                    <div className="bg-rose-50/50 p-2.5 rounded-xl border border-rose-100 text-slate-700">
-                      <strong className="text-rose-900 font-bold block mb-0.5">🇬🇧 Received Pronunciation (UK):</strong>
-                      <p>{phon.ukBehavior}</p>
+              {SPELLING_RULES.map((rule, idx) => (
+                <div key={idx} className="bg-slate-50 rounded-2xl p-4 border border-slate-200/80 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="font-bold text-sm text-slate-900">{rule.pattern}</span>
+                    <div className="flex items-center gap-1.5 text-xs font-mono font-bold">
+                      <span className="bg-blue-100 text-blue-900 px-2 py-0.5 rounded">US: {rule.us}</span>
+                      <span className="bg-rose-100 text-rose-900 px-2 py-0.5 rounded">UK: {rule.uk}</span>
                     </div>
                   </div>
-
+                  <p className="text-xs text-slate-600 leading-relaxed">{rule.explanation}</p>
                   <div className="pt-2 border-t border-slate-200/60">
-                    <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-1">
-                      Ejemplos de Transcripción Fonética (IPA):
-                    </span>
-                    <div className="space-y-1">
-                      {phon.examples.map((ex, eIdx) => (
-                        <div key={eIdx} className="bg-white p-2 rounded-lg border border-slate-200 flex items-center justify-between text-xs">
-                          <span className="font-bold text-slate-900">{ex.word}</span>
-                          <span className="font-mono text-blue-700">US: {ex.usIpa}</span>
-                          <span className="font-mono text-rose-700">UK: {ex.ukIpa}</span>
+                    <span className="text-[10px] uppercase font-bold text-slate-400 block mb-1">Ejemplos:</span>
+                    <div className="space-y-1 font-mono text-xs">
+                      {rule.examples.map((ex, exIdx) => (
+                        <div key={exIdx} className="flex items-center justify-between bg-white px-2.5 py-1 rounded-lg border border-slate-200/50">
+                          <span className="text-blue-700 font-bold">{ex.us}</span>
+                          <span className="text-slate-400">vs</span>
+                          <span className="text-rose-700 font-bold">{ex.uk}</span>
+                          <span className="text-slate-500 text-[11px] font-sans">({ex.translation})</span>
                         </div>
                       ))}
                     </div>
@@ -825,11 +1029,149 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
               ))}
             </div>
           </div>
+
+          {/* Sección 2: Vocabulario Cotidiano */}
+          <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-slate-100">
+              <div>
+                <h4 className="font-bold text-base text-slate-900 flex items-center gap-2">
+                  <Globe className="w-4 h-4 text-blue-600" />
+                  <span>2. Vocabulario Cotidiano Contrastado (Lexical Pairs)</span>
+                </h4>
+                <p className="text-xs text-slate-500">Mismo significado, términos completamente diferentes en US y UK:</p>
+              </div>
+
+              <div className="relative w-full sm:w-64">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                <input
+                  type="text"
+                  value={searchQuery}
+                  onChange={(e) => setSearchQuery(e.target.value)}
+                  placeholder="Filtrar vocabulario..."
+                  className="w-full pl-9 pr-3 py-1.5 bg-slate-50 border border-slate-200 rounded-xl text-xs text-slate-800 placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+              {filteredVocabulary.map((pair, idx) => (
+                <div key={idx} className="bg-slate-50 rounded-2xl p-3.5 border border-slate-200/80 space-y-2">
+                  <div className="flex items-center justify-between">
+                    <span className="text-[10px] font-bold uppercase tracking-wider text-slate-400 font-mono">
+                      {pair.category}
+                    </span>
+                    <span className="text-xs font-bold text-slate-900 bg-white px-2 py-0.5 rounded-md border border-slate-200 shadow-2xs">
+                      {pair.spanish}
+                    </span>
+                  </div>
+
+                  <div className="grid grid-cols-2 gap-2 pt-1">
+                    <div className="bg-blue-50/70 p-2 rounded-xl border border-blue-200/70">
+                      <span className="text-[9.5px] font-bold text-blue-800 block">🇺🇸 US:</span>
+                      <strong className="text-sm text-blue-950 font-bold block">{pair.us}</strong>
+                      <p className="text-[10px] text-slate-600 mt-1 italic leading-tight line-clamp-2">“{pair.sampleSentenceUS}”</p>
+                    </div>
+
+                    <div className="bg-rose-50/70 p-2 rounded-xl border border-rose-200/70">
+                      <span className="text-[9.5px] font-bold text-rose-800 block">🇬🇧 UK:</span>
+                      <strong className="text-sm text-rose-950 font-bold block">{pair.uk}</strong>
+                      <p className="text-[10px] text-slate-600 mt-1 italic leading-tight line-clamp-2">“{pair.sampleSentenceUK}”</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Sección 3: Distinciones Gramaticales */}
+          <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-4">
+            <div className="pb-3 border-b border-slate-100">
+              <h4 className="font-bold text-base text-slate-900 flex items-center gap-2">
+                <Layers className="w-4 h-4 text-emerald-600" />
+                <span>3. Distinciones Gramaticales y Sintácticas Cruciales</span>
+              </h4>
+            </div>
+
+            <div className="space-y-3">
+              {GRAMMAR_DISTINCTIONS.map((gd, idx) => (
+                <div key={idx} className="bg-slate-50 rounded-2xl p-4 border border-slate-200/80 space-y-3">
+                  <div className="flex items-center justify-between flex-wrap gap-2">
+                    <h5 className="font-bold text-sm text-slate-900">{gd.title}</h5>
+                    <span className="text-xs text-slate-500 font-medium">{gd.concept}</span>
+                  </div>
+
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+                    <div className="bg-white p-3 rounded-xl border border-slate-200">
+                      <span className="font-bold text-blue-700 block mb-1">🇺🇸 Norma Estadounidense (US):</span>
+                      <p className="text-slate-700 leading-relaxed">{gd.ruleUS}</p>
+                      <div className="mt-2 bg-blue-50/60 p-2 rounded-lg font-mono text-[11px] text-blue-900">
+                        {gd.exampleUS}
+                      </div>
+                    </div>
+
+                    <div className="bg-white p-3 rounded-xl border border-slate-200">
+                      <span className="font-bold text-rose-700 block mb-1">🇬🇧 Norma Británica (UK):</span>
+                      <p className="text-slate-700 leading-relaxed">{gd.ruleUK}</p>
+                      <div className="mt-2 bg-rose-50/60 p-2 rounded-lg font-mono text-[11px] text-rose-900">
+                        {gd.exampleUK}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="bg-amber-50/80 border border-amber-200 rounded-xl p-2.5 text-xs text-amber-900 font-medium">
+                    💡 <strong>Nota Pedagógica:</strong> {gd.pedagogicalNote}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Sección 4: Fonética y Pronunciación */}
+          <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-4">
+            <div className="pb-3 border-b border-slate-100">
+              <h4 className="font-bold text-base text-slate-900 flex items-center gap-2">
+                <Volume2 className="w-4 h-4 text-cyan-600" />
+                <span>4. Fonética y Patrones de Pronunciación (General American vs. RP)</span>
+              </h4>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {PHONETIC_DISTINCTIONS.map((pd, idx) => (
+                <div key={idx} className="bg-slate-50 rounded-2xl p-4 border border-slate-200/80 space-y-2.5">
+                  <div>
+                    <span className="font-bold text-sm text-slate-900 block">{pd.topic}</span>
+                    <span className="text-xs text-slate-500 font-medium">{pd.feature}</span>
+                  </div>
+
+                  <div className="space-y-1.5 text-xs">
+                    <div className="bg-white p-2.5 rounded-xl border border-slate-200">
+                      <strong className="text-blue-700">🇺🇸 US: </strong>
+                      <span className="text-slate-700">{pd.usBehavior}</span>
+                    </div>
+                    <div className="bg-white p-2.5 rounded-xl border border-slate-200">
+                      <strong className="text-rose-700">🇬🇧 UK: </strong>
+                      <span className="text-slate-700">{pd.ukBehavior}</span>
+                    </div>
+                  </div>
+
+                  <div className="pt-2 border-t border-slate-200/60 font-mono text-xs space-y-1">
+                    {pd.examples.map((ex, eIdx) => (
+                      <div key={eIdx} className="bg-white px-3 py-1.5 rounded-lg border border-slate-200 flex items-center justify-between flex-wrap gap-1">
+                        <span className="font-bold text-slate-900">{ex.word}:</span>
+                        <span className="text-blue-700">US {ex.usIpa}</span>
+                        <span className="text-rose-700">UK {ex.ukIpa}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       )}
 
       {/* ==================================================================== */}
-      {/* PESTAÑA 3: MODO EXAMEN DE SELECCIÓN MÚLTIPLE (A1 A C2) */}
+      {/* PESTAÑA 4: SIMULADOR DE EXAMEN (50 PREGUNTAS POR NIVEL) */}
       {/* ==================================================================== */}
       {activeMainTab === 'exam' && (
         <div className="space-y-6">
@@ -837,16 +1179,16 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
           <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs">
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
               <div>
-                <div className="flex items-center gap-2">
+                <div className="flex items-center gap-2 flex-wrap">
                   <h3 className="text-lg sm:text-xl font-bold text-slate-900">
                     Simulador Oficial de Selección Múltiple: Nivel {selectedLevel}
                   </h3>
-                  <span className="text-[10px] font-bold bg-amber-100 text-amber-900 px-2 py-0.5 rounded-md border border-amber-200">
-                    Exclusivo Opción Múltiple (A, B, C, D)
+                  <span className="text-[10px] font-bold bg-amber-100 text-amber-900 px-2 py-0.5 rounded-md border border-amber-200 font-mono">
+                    50 Preguntas Oficiales (A, B, C, D)
                   </span>
                 </div>
                 <p className="text-xs sm:text-sm text-slate-600 mt-1">
-                  Evaluaciones pedagógicas rigurosas sin preguntas abiertas ni audio.
+                  Examen estandarizado sin pruebas de audio ni escritura libre.
                   Regla de puntaje Kuskat: <strong>+1 punto por acierto</strong>, <strong>-2 puntos por error</strong>, tope mínimo en <strong>0</strong>.
                 </p>
               </div>
@@ -871,7 +1213,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
             {/* Barra de progreso de preguntas */}
             <div className="pt-4 flex items-center justify-between text-xs text-slate-500 font-medium">
               <span>
-                Pregunta <strong>{examCurrentIndex + 1}</strong> de <strong>{filteredQuestions.length}</strong>
+                Pregunta <strong>{examCurrentIndex + 1}</strong> de <strong>{examQuestions.length}</strong> (Progreso: {Math.round(((Object.keys(examAnswers).length) / (examQuestions.length || 1)) * 100)}%)
               </span>
               <div className="flex items-center gap-2">
                 <button
@@ -885,11 +1227,44 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
               </div>
             </div>
 
-            <div className="w-full h-2 bg-slate-100 rounded-full overflow-hidden mt-2">
+            <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden mt-2">
               <div
                 className="h-full bg-blue-600 transition-all duration-300"
-                style={{ width: `${((examCurrentIndex + 1) / (filteredQuestions.length || 1)) * 100}%` }}
+                style={{ width: `${((examCurrentIndex + 1) / (examQuestions.length || 1)) * 100}%` }}
               />
+            </div>
+
+            {/* Selector interactivo de las 50 preguntas */}
+            <div className="pt-4">
+              <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block mb-2 font-mono">
+                Mapa de Reactivos (50 Preguntas):
+              </span>
+              <div className="grid grid-cols-10 sm:grid-cols-25 gap-1 max-h-24 overflow-y-auto p-1 bg-slate-50 rounded-xl border border-slate-200">
+                {examQuestions.map((q, idx) => {
+                  const ans = examAnswers[q.id];
+                  const isCurrent = idx === examCurrentIndex;
+                  let bg = 'bg-white text-slate-600 border-slate-200';
+                  if (ans) {
+                    bg = ans.isCorrect
+                      ? 'bg-emerald-500 text-white border-emerald-600 font-bold'
+                      : 'bg-rose-500 text-white border-rose-600 font-bold';
+                  } else if (isCurrent) {
+                    bg = 'bg-blue-600 text-white border-blue-700 font-bold ring-2 ring-blue-300';
+                  }
+
+                  return (
+                    <button
+                      key={q.id}
+                      type="button"
+                      onClick={() => handleJumpToQuestion(idx)}
+                      className={`h-6 rounded text-[10px] font-mono border transition-all flex items-center justify-center cursor-pointer ${bg}`}
+                      title={`Pregunta ${idx + 1}: ${q.topic}`}
+                    >
+                      {idx + 1}
+                    </button>
+                  );
+                })}
+              </div>
             </div>
           </div>
 
@@ -900,7 +1275,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
               <div className="flex items-center justify-between gap-2 flex-wrap">
                 <div className="flex items-center gap-2">
                   <span className="text-xs font-mono font-bold text-slate-500 bg-slate-100 px-2.5 py-1 rounded-xl">
-                    Reactivo #{currentQuestion.number}
+                    Pregunta #{examCurrentIndex + 1} de {examQuestions.length}
                   </span>
                   <span className="text-xs font-bold text-blue-700 bg-blue-50 px-2.5 py-1 rounded-xl border border-blue-200">
                     Nivel {currentQuestion.level}
@@ -910,8 +1285,8 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                   </span>
                 </div>
 
-                <span className="text-xs text-slate-400 font-mono">
-                  Tema: {currentQuestion.topic}
+                <span className="text-xs text-slate-500 font-mono">
+                  Tema: <strong>{currentQuestion.topic}</strong>
                 </span>
               </div>
 
@@ -949,19 +1324,15 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                       className={`w-full p-4 rounded-2xl border text-left transition-all flex items-center justify-between gap-3 cursor-pointer ${optionStyle}`}
                     >
                       <div className="flex items-center gap-3">
-                        <div
-                          className={`w-8 h-8 rounded-xl flex items-center justify-center font-black text-sm shrink-0 border ${
-                            isSelected && !isAnswerSubmitted
-                              ? 'bg-blue-600 text-white border-blue-600'
-                              : isAnswerSubmitted && isCorrectKey
-                              ? 'bg-emerald-600 text-white border-emerald-600'
-                              : isAnswerSubmitted && isSelected && !isCorrectKey
-                              ? 'bg-rose-600 text-white border-rose-600'
-                              : 'bg-slate-100 text-slate-700 border-slate-300'
+                        <span
+                          className={`w-7 h-7 rounded-xl flex items-center justify-center font-bold text-xs shrink-0 font-mono ${
+                            isSelected
+                              ? 'bg-blue-600 text-white'
+                              : 'bg-slate-100 text-slate-700'
                           }`}
                         >
                           {opt.key}
-                        </div>
+                        </span>
                         <span className="text-sm sm:text-base">{opt.text}</span>
                       </div>
 
@@ -976,15 +1347,59 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                 })}
               </div>
 
-              {/* Botones de Acción */}
-              <div className="flex items-center justify-between gap-3 pt-3 border-t border-slate-100">
+              {/* Justificación y Retroalimentación Pedagógica al Enviar */}
+              {isAnswerSubmitted && (
+                <div className="bg-slate-50 border border-slate-200 rounded-2xl p-4 sm:p-5 space-y-3 animate-fadeIn">
+                  <div className="flex items-center gap-2">
+                    {selectedOption === currentQuestion.correctAnswer ? (
+                      <span className="text-emerald-700 font-bold text-sm flex items-center gap-1.5">
+                        <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                        ¡Respuesta Correcta! (+1 punto oficial Kuskat)
+                      </span>
+                    ) : (
+                      <span className="text-rose-700 font-bold text-sm flex items-center gap-1.5">
+                        <XCircle className="w-4 h-4 text-rose-600" />
+                        Respuesta Incorrecta (-2 puntos Kuskat)
+                      </span>
+                    )}
+                  </div>
+
+                  <div className="text-xs sm:text-sm text-slate-700 leading-relaxed bg-white p-3.5 rounded-xl border border-slate-200">
+                    <strong className="text-slate-900 block mb-1">Justificación Gramatical Oficial:</strong>
+                    {currentQuestion.explanation}
+                  </div>
+
+                  {currentQuestion.distractorAnalysis && currentQuestion.distractorAnalysis.length > 0 && (
+                    <div className="space-y-1.5 pt-2">
+                      <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block font-mono">
+                        Análisis de Distractores:
+                      </span>
+                      {currentQuestion.distractorAnalysis.map((dist, dIdx) => (
+                        <div key={dIdx} className="text-xs text-slate-600 flex items-start gap-1.5">
+                          <span className="font-mono font-bold text-slate-500">[{dist.option}]:</span>
+                          <span>{dist.reason}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
+
+                  <div className="text-[11px] text-slate-400 font-mono pt-2 border-t border-slate-200 flex items-center justify-between">
+                    <span>Fuente pedagógica: {currentQuestion.referenceSite}</span>
+                    <span className="text-emerald-600 font-bold">100% Nativo en APP-KUSKAT</span>
+                  </div>
+                </div>
+              )}
+
+              {/* Barra de Acciones: Anterior / Enviar / Siguiente */}
+              <div className="flex items-center justify-between pt-4 border-t border-slate-100 flex-wrap gap-2">
                 <button
                   type="button"
                   disabled={examCurrentIndex === 0}
                   onClick={handlePrevQuestion}
-                  className="px-4 py-2 rounded-xl border border-slate-200 text-xs font-bold text-slate-700 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-all cursor-pointer"
+                  className="px-4 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs flex items-center gap-1.5 transition-colors cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed"
                 >
-                  ← Pregunta Anterior
+                  <ArrowLeft className="w-4 h-4" />
+                  <span>Anterior</span>
                 </button>
 
                 {!isAnswerSubmitted ? (
@@ -992,103 +1407,54 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                     type="button"
                     disabled={!selectedOption}
                     onClick={handleSubmitAnswer}
-                    className="px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 disabled:bg-slate-200 disabled:text-slate-400 text-white font-bold text-xs shadow-xs transition-all cursor-pointer"
+                    className="px-6 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs shadow-xs transition-all cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-2"
                   >
-                    Confirmar Respuesta
+                    <span>Confirmar Respuesta</span>
+                    <CheckCircle2 className="w-4 h-4" />
                   </button>
                 ) : (
                   <button
                     type="button"
-                    disabled={examCurrentIndex === filteredQuestions.length - 1}
                     onClick={handleNextQuestion}
-                    className="px-6 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 disabled:bg-slate-200 disabled:text-slate-400 text-white font-bold text-xs shadow-xs transition-all cursor-pointer"
+                    className="px-6 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs shadow-xs transition-all cursor-pointer flex items-center gap-2"
                   >
-                    Siguiente Pregunta →
+                    <span>{examCurrentIndex < examQuestions.length - 1 ? 'Siguiente Pregunta' : 'Ver Resultados del Examen'}</span>
+                    <ArrowRight className="w-4 h-4" />
                   </button>
                 )}
               </div>
-
-              {/* Justificación Pedagógica y Análisis de Distractores */}
-              {isAnswerSubmitted && (
-                <div className="space-y-3 pt-3 border-t border-slate-100 animate-in fade-in duration-300">
-                  <div
-                    className={`p-4 sm:p-5 rounded-2xl border ${
-                      selectedOption === currentQuestion.correctAnswer
-                        ? 'bg-emerald-50/70 border-emerald-200 text-emerald-950'
-                        : 'bg-rose-50/70 border-rose-200 text-rose-950'
-                    }`}
-                  >
-                    <div className="flex items-center gap-2 mb-1.5">
-                      {selectedOption === currentQuestion.correctAnswer ? (
-                        <>
-                          <CheckCircle2 className="w-5 h-5 text-emerald-600 shrink-0" />
-                          <h5 className="font-bold text-sm text-emerald-900">
-                            ¡Respuesta Correcta! (+1 punto oficial Kuskat)
-                          </h5>
-                        </>
-                      ) : (
-                        <>
-                          <XCircle className="w-5 h-5 text-rose-600 shrink-0" />
-                          <h5 className="font-bold text-sm text-rose-900">
-                            Respuesta Incorrecta (-2 puntos oficial Kuskat)
-                          </h5>
-                        </>
-                      )}
-                    </div>
-                    <p className="text-xs sm:text-sm leading-relaxed text-slate-800">
-                      <strong>Explicación: </strong>
-                      {currentQuestion.explanation}
-                    </p>
-                  </div>
-
-                  {currentQuestion.distractorAnalysis && currentQuestion.distractorAnalysis.length > 0 && (
-                    <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200 text-xs space-y-2">
-                      <span className="block font-bold uppercase tracking-wider text-slate-700">
-                        Análisis Detallado de Opciones y Distractores:
-                      </span>
-                      <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                        {currentQuestion.distractorAnalysis.map((d, idx) => (
-                          <div key={idx} className="bg-white p-2.5 rounded-xl border border-slate-200/80">
-                            <span className="font-bold text-slate-900 block mb-0.5">Opción {d.option}:</span>
-                            <span className="text-slate-600">{d.reason}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-
-                  <div className="text-[11px] text-slate-400 font-mono text-right">
-                    Referencia pedagógica: {currentQuestion.referenceSite}
-                  </div>
-                </div>
-              )}
             </div>
           ) : (
-            <div className="bg-white rounded-3xl border border-slate-200 p-8 text-center shadow-xs">
-              <p className="text-sm font-bold text-slate-700">
-                No hay reactivos disponibles para el nivel {selectedLevel} con la variante seleccionada.
+            <div className="bg-white rounded-3xl border border-slate-200 p-8 text-center space-y-4">
+              <Award className="w-12 h-12 text-amber-500 mx-auto" />
+              <h4 className="text-lg font-bold text-slate-900">¡Examen de 50 Preguntas Completado!</h4>
+              <p className="text-sm text-slate-600 max-w-md mx-auto">
+                Has completado la evaluación del Nivel {selectedLevel}. Obtuviste {examScore.correct} aciertos y {examScore.incorrect} errores para un puntaje final de <strong>{kuskatPoints} puntos Kuskat</strong>.
               </p>
+              <button
+                type="button"
+                onClick={handleResetExam}
+                className="px-6 py-2.5 rounded-2xl bg-blue-600 text-white font-bold text-xs shadow-xs hover:bg-blue-700 cursor-pointer"
+              >
+                Volver a Rendir el Simulador
+              </button>
             </div>
           )}
-
-          {/* Anuncio Patrocinado 4 / 5 (Inferior en Examen) */}
-          <AdBanner variant="light" positionLabel="Idiomas • 4/5 Inferior Examen" slotId="4241045160_id4" />
         </div>
       )}
 
       {/* ==================================================================== */}
-      {/* PESTAÑA 4: FUENTES Y REFERENCIAS METODOLÓGICAS */}
+      {/* PESTAÑA 5: FUENTES Y REFERENCIAS METODOLÓGICAS (100% NATIVO EN KUSKAT) */}
       {/* ==================================================================== */}
       {activeMainTab === 'references' && (
         <div className="space-y-6">
           <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs">
             <h3 className="text-lg sm:text-xl font-bold text-slate-900 flex items-center gap-2">
-              <ExternalLink className="w-5 h-5 text-blue-600" />
-              <span>Fuentes Bibliográficas y Referencias Pedagógicas</span>
+              <Library className="w-5 h-5 text-blue-600" />
+              <span>Fuentes Bibliográficas y Metodología Pedagógica</span>
             </h3>
-            <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-4xl">
-              El contenido teórico y los reactivos de evaluación de la sección de <strong>IDIOMAS (Inglés)</strong> de la plataforma KUSKAT
-              han sido adaptados rigurosamente a partir de los portales de referencia lingüística internacional especificados:
+            <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-4xl leading-relaxed">
+              El contenido teórico y las 300 preguntas oficiales de evaluación de la sección de <strong>IDIOMAS (Inglés)</strong> de KUSKAT han sido adaptados de manera <strong>100% nativa y autosuficiente dentro del proyecto</strong> a partir de los portales de referencia lingüística internacional:
             </p>
           </div>
 
@@ -1101,24 +1467,25 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                 </div>
                 <h4 className="font-bold text-base text-slate-900">Englisch-hilfen.de</h4>
                 <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                  Referencia alemana líder mundial en explicaciones gramaticales exhaustivas, reglas de ortografía británica vs. estadounidense, tablas morfológicas y ejercicios clasificados.
+                  Referente mundial en explicaciones gramaticales exhaustivas, reglas de ortografía británica vs. estadounidense, tablas morfológicas y ejercicios clasificados.
                 </p>
                 <div className="mt-3 space-y-1 text-xs text-slate-500 font-medium">
-                  <p>• Gramática por niveles A1 a C2</p>
-                  <p>• Tablas de verbos irregulares y preposiciones</p>
+                  <p>• Gramática completa por niveles A1 a C2</p>
+                  <p>• Catálogo exhaustivo de verbos regulares e irregulares</p>
                   <p>• Diferencias American vs. British English</p>
                 </div>
               </div>
 
-              <a
-                href="https://www.englisch-hilfen.de/en/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full py-2.5 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-800 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
-              >
-                <span>Visitar Englisch-hilfen.de</span>
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
+              <div className="pt-2">
+                <button
+                  type="button"
+                  onClick={() => setActiveMainTab('theory')}
+                  className="w-full py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer shadow-xs"
+                >
+                  <BookOpen className="w-3.5 h-3.5" />
+                  <span>Explorar las 120 Clases del MCER</span>
+                </button>
+              </div>
             </div>
 
             {/* Fuente 2: Englishteststore.net */}
@@ -1132,21 +1499,22 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                   Banco de reactivos de opción múltiple estructurados para preparación de exámenes de proficiencia internacional (TOEFL, IELTS, Cambridge, SAT y TOEIC).
                 </p>
                 <div className="mt-3 space-y-1 text-xs text-slate-500 font-medium">
-                  <p>• Tests estandarizados A1-C2 de 4 opciones</p>
+                  <p>• Tests estandarizados A1-C2 de 4 opciones (A, B, C, D)</p>
                   <p>• Análisis de comprensión lectora y sintaxis</p>
                   <p>• Métricas de acierto y justificaciones</p>
                 </div>
               </div>
 
-              <a
-                href="https://englishteststore.net/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full py-2.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
-              >
-                <span>Visitar Englishteststore.net</span>
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
+              <div className="pt-2">
+                <button
+                  type="button"
+                  onClick={() => setActiveMainTab('exam')}
+                  className="w-full py-2.5 rounded-xl bg-amber-600 hover:bg-amber-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer shadow-xs"
+                >
+                  <Award className="w-3.5 h-3.5" />
+                  <span>Tomar Simulador (50 Preguntas por Nivel)</span>
+                </button>
+              </div>
             </div>
 
             {/* Fuente 3: Agendaweb.org */}
@@ -1157,7 +1525,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                 </div>
                 <h4 className="font-bold text-base text-slate-900">Agendaweb.org</h4>
                 <p className="text-xs text-slate-600 mt-1 leading-relaxed">
-                  Índice educativo con syllabus de lecciones interactivas clasificadas por competencias del MCER, cubriendo desde verbos elementales hasta inversiones avanzadas.
+                  Índice pedagógico con syllabus de lecciones interactivas clasificadas por competencias del MCER, cubriendo desde verbos elementales hasta inversiones avanzadas.
                 </p>
                 <div className="mt-3 space-y-1 text-xs text-slate-500 font-medium">
                   <p>• Ejercicios interactivos por tema gramatical</p>
@@ -1166,24 +1534,31 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                 </div>
               </div>
 
-              <a
-                href="https://agendaweb.org/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full py-2.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-900 font-bold text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer"
-              >
-                <span>Visitar Agendaweb.org</span>
-                <ExternalLink className="w-3.5 h-3.5" />
-              </a>
+              <div className="pt-2">
+                <button
+                  type="button"
+                  onClick={() => setActiveMainTab('verbs')}
+                  className="w-full py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-colors cursor-pointer shadow-xs"
+                >
+                  <Sparkles className="w-3.5 h-3.5" />
+                  <span>Abrir Catálogo de Verbos</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
       )}
 
       {/* ==================================================================== */}
-      {/* ANUNCIO PATROCINADO 5 / 5 (Inferior Global en Idiomas) */}
+      {/* 5 ANUNCIOS PATROCINADOS INFERIORES GLOBALES EN IDIOMAS */}
       {/* ==================================================================== */}
-      <AdBanner variant="light" positionLabel="Idiomas • 5/5 Inferior Global" slotId="4241045160_id5" />
+      <div className="pt-4 space-y-4">
+        <AdBanner positionLabel="Idiomas - Inferior 1" />
+        <AdBanner positionLabel="Idiomas - Inferior 2" />
+        <AdBanner positionLabel="Idiomas - Inferior 3" />
+        <AdBanner positionLabel="Idiomas - Inferior 4" />
+        <AdBanner positionLabel="Idiomas - Inferior 5" />
+      </div>
     </div>
   );
 }
