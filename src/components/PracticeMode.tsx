@@ -1095,7 +1095,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 >
                   <div className="flex items-center justify-between">
                     <Globe className="w-4 h-4 text-emerald-200" />
-                    <span className="text-[10px] font-mono opacity-80">600 Q</span>
+                    <span className="text-[10px] font-mono opacity-80">2,400 Q</span>
                   </div>
                   <div className="pt-2">
                     <span className="font-bold text-xs block">Idiomas • Inglés</span>
@@ -1180,8 +1180,8 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               <label className="block text-xs font-bold text-slate-700 uppercase tracking-wider">
                 4. Cantidad de Reactivos para el Test:
               </label>
-              <div className="grid grid-cols-3 sm:grid-cols-6 gap-2">
-                {[5, 10, 20, 30, 50, 100].map((num) => (
+              <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-8 gap-2">
+                {[5, 10, 20, 30, 50, 100, 200, 400].map((num) => (
                   <button
                     key={num}
                     type="button"
@@ -1194,7 +1194,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   >
                     <span>{num}</span>
                     <span className="block text-[9px] font-normal opacity-70">
-                      {num === 5 ? 'Express' : num === 50 ? 'Real UES' : 'reactivos'}
+                      {num === 5 ? 'Express' : num === 50 ? 'Real UES' : num === 200 ? 'Extenso' : num === 400 ? 'Completo ⭐' : 'reactivos'}
                     </span>
                   </button>
                 ))}

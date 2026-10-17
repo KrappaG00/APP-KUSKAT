@@ -275,8 +275,12 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
   const [verbPronunciationFilter, setVerbPronunciationFilter] = useState<string>('all');
   const [showVerbRules, setShowVerbRules] = useState<boolean>(false);
 
-  // Estados del Modo Examen (Selección Múltiple o Verdadero/Falso: 400 preguntas por nivel)
+  // Estados del Menú y Modo Examen (Selección Múltiple o Verdadero/Falso: hasta 400 preguntas por nivel o 2,400 total)
   const [examEvalMode, setExamEvalMode] = useState<EvaluationMode>('multiple_choice');
+  const [examSelectedLevel, setExamSelectedLevel] = useState<'ALL' | CEFRLevel>('A1');
+  const [examSelectedTopic, setExamSelectedTopic] = useState<string>('ALL');
+  const [examQuestionCount, setExamQuestionCount] = useState<number | 'ALL'>(400);
+  const [customQuestionCountInput, setCustomQuestionCountInput] = useState<string>('400');
   const [examCurrentIndex, setExamCurrentIndex] = useState<number>(0);
   const [selectedOption, setSelectedOption] = useState<'A' | 'B' | 'C' | 'D' | 'VERDADERO' | 'FALSO' | null>(null);
   const [isAnswerSubmitted, setIsAnswerSubmitted] = useState<boolean>(false);
@@ -284,22 +288,49 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
   const [examScore, setExamScore] = useState<{ correct: number; incorrect: number }>({ correct: 0, incorrect: 0 });
   const [isExamCompleted, setIsExamCompleted] = useState<boolean>(false);
 
-  // Manejador para cambiar de idioma activo
-  const handleSelectLanguage = (langId: string) => {
-    setSelectedLanguageId(langId);
-    if (langId !== 'english') {
-      setSelectedVariant('ALL');
-    }
+  // Manejador de reinicio del examen
+  const handleResetExam = () => {
     setExamCurrentIndex(0);
     setSelectedOption(null);
     setIsAnswerSubmitted(false);
     setExamAnswers({});
     setExamScore({ correct: 0, incorrect: 0 });
     setIsExamCompleted(false);
+  };
+
+  // Manejador para cambiar de idioma activo
+  const handleSelectLanguage = (langId: string) => {
+    setSelectedLanguageId(langId);
+    if (langId !== 'english') {
+      setSelectedVariant('ALL');
+    }
+    setExamSelectedTopic('ALL');
+    handleResetExam();
     setExpandedLessonId(null);
     setLessonSearch('');
     setVerbSearch('');
     setSelectedLevel('A1');
+    setExamSelectedLevel('A1');
+  };
+
+  const handleExamLevelChange = (lvl: 'ALL' | CEFRLevel) => {
+    setExamSelectedLevel(lvl);
+    if (lvl !== 'ALL') {
+      setSelectedLevel(lvl);
+    }
+    setExamSelectedTopic('ALL');
+    handleResetExam();
+  };
+
+  const handleExamTopicChange = (topic: string) => {
+    setExamSelectedTopic(topic);
+    handleResetExam();
+  };
+
+  const handleExamCountChange = (count: number | 'ALL') => {
+    setExamQuestionCount(count);
+    setCustomQuestionCountInput(count === 'ALL' ? '' : String(count));
+    handleResetExam();
   };
 
   const currentLanguage = useMemo(() => {
@@ -331,12 +362,56 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
     return getLanguageQuestionsBank(selectedLanguageId);
   }, [selectedLanguageId]);
 
-  // Preguntas del examen: EXACTAMENTE las 400 preguntas del nivel seleccionado
+  // Lista de temas / áreas temáticas disponibles para el nivel seleccionado en el examen
+  const availableExamTopics = useMemo(() => {
+    const pool = examSelectedLevel === 'ALL'
+      ? currentQuestions
+      : currentQuestions.filter((q) => q.level === examSelectedLevel);
+    const topicCounts = new Map<string, number>();
+    pool.forEach((q) => {
+      if (q.topic) {
+        topicCounts.set(q.topic, (topicCounts.get(q.topic) || 0) + 1);
+      }
+    });
+    return Array.from(topicCounts.entries()).map(([topic, count]) => ({ topic, count }));
+  }, [currentQuestions, examSelectedLevel]);
+
+  // Universo filtrado de preguntas según idioma, nivel, tema y variante
+  const examPool = useMemo(() => {
+    let pool = currentQuestions;
+    if (examSelectedLevel !== 'ALL') {
+      pool = pool.filter((q) => q.level === examSelectedLevel);
+    }
+    if (examSelectedTopic !== 'ALL') {
+      pool = pool.filter((q) => q.topic === examSelectedTopic);
+    }
+    if (selectedLanguageId === 'english' && selectedVariant !== 'ALL') {
+      pool = pool.filter((q) => q.variant === 'ALL' || q.variant === selectedVariant);
+    }
+    return pool;
+  }, [currentQuestions, examSelectedLevel, examSelectedTopic, selectedLanguageId, selectedVariant]);
+
+  // Preguntas finales limitadas por el número de preguntas seleccionado (10, 25, 50, 100, 200, 400, o ALL)
   const examQuestions = useMemo(() => {
-    return currentQuestions.filter((q) => q.level === selectedLevel);
-  }, [currentQuestions, selectedLevel]);
+    if (examQuestionCount === 'ALL') {
+      return examPool;
+    }
+    const count = typeof examQuestionCount === 'number' ? examQuestionCount : 400;
+    return examPool.slice(0, count);
+  }, [examPool, examQuestionCount]);
 
   const currentQuestion: LanguageQuestion | undefined = examQuestions[examCurrentIndex];
+
+  const handleApplyCustomCount = () => {
+    const parsed = parseInt(customQuestionCountInput, 10);
+    if (!isNaN(parsed) && parsed > 0) {
+      const maxCount = examPool.length || 2400;
+      const clamped = Math.min(parsed, maxCount);
+      setExamQuestionCount(clamped);
+      setCustomQuestionCountInput(String(clamped));
+      handleResetExam();
+    }
+  };
 
   const currentComparative = useMemo(() => {
     return getLanguageComparative(selectedLanguageId);
@@ -465,15 +540,6 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
         setIsAnswerSubmitted(false);
       }
     }
-  };
-
-  const handleResetExam = () => {
-    setExamCurrentIndex(0);
-    setSelectedOption(null);
-    setIsAnswerSubmitted(false);
-    setExamAnswers({});
-    setExamScore({ correct: 0, incorrect: 0 });
-    setIsExamCompleted(false);
   };
 
   // Cálculo de puntaje oficial Kuskat (+1 acierto, -2 error, mínimo 0)
@@ -642,7 +708,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
               <Award className="w-4 h-4 text-amber-500" />
               <span>Simulador de Examen</span>
               <span className="text-[9px] bg-amber-100 text-amber-800 px-1.5 py-0.2 rounded-md font-mono">
-                50 Preguntas
+                {examQuestionCount === 'ALL' ? 'Todas' : `${examQuestionCount} Q`}
               </span>
             </button>
 
@@ -721,9 +787,9 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                   type="button"
                   onClick={() => {
                     setSelectedLevel(lvl);
-                    setExamCurrentIndex(0);
-                    setSelectedOption(null);
-                    setIsAnswerSubmitted(false);
+                    setExamSelectedLevel(lvl);
+                    setExamSelectedTopic('ALL');
+                    handleResetExam();
                     setExpandedLessonId(`${lvl.toLowerCase()}_lesson_01`);
                   }}
                   className={`p-2.5 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
@@ -744,7 +810,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                   </div>
                   <div className="pt-1.5">
                     <span className="font-bold text-[11px] block truncate">{info.nameSpanish}</span>
-                    <span className="text-[9.5px] opacity-70 block truncate">20 Clases • 50 Q</span>
+                    <span className="text-[9.5px] opacity-70 block truncate">20 Clases • 400 Q</span>
                   </div>
                 </button>
               );
@@ -797,11 +863,15 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                 </button>
 
                 <button
-                  onClick={() => setActiveMainTab('exam')}
+                  onClick={() => {
+                    setExamSelectedLevel(currentLevelInfo.level);
+                    setExamSelectedTopic('ALL');
+                    setActiveMainTab('exam');
+                  }}
                   className="px-4 py-2.5 rounded-2xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-xs flex items-center gap-2 shadow-xs transition-all cursor-pointer"
                 >
                   <Award className="w-4 h-4" />
-                  <span>Simulador (50 Preguntas {currentLevelInfo.level})</span>
+                  <span>Simulador Oficial ({examQuestionCount === 'ALL' ? '400' : examQuestionCount} Preguntas • Nivel {currentLevelInfo.level})</span>
                 </button>
               </div>
             </div>
@@ -1585,25 +1655,246 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
       {/* ==================================================================== */}
       {activeMainTab === 'exam' && (
         <div className="space-y-6">
-          {/* Tarjeta de Control del Examen */}
-          <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-100">
+          {/* ================================================================ */}
+          {/* MENÚ DE CONFIGURACIÓN INTERACTIVO DEL SIMULADOR DE IDIOMAS */}
+          {/* ================================================================ */}
+          <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-7 shadow-xs space-y-6">
+            <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4 pb-4 border-b border-slate-100">
               <div>
-                <div className="flex items-center gap-2 flex-wrap">
-                  <h3 className="text-lg sm:text-xl font-bold text-slate-900">
-                    Simulador Oficial de Selección Múltiple: Nivel {selectedLevel}
+                <div className="flex items-center gap-2.5 flex-wrap">
+                  <span className="text-2xl">⚙️</span>
+                  <h3 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight font-caslon">
+                    Menú de Configuración del Simulador
                   </h3>
-                  <span className="text-[10px] font-bold bg-amber-100 text-amber-900 px-2 py-0.5 rounded-md border border-amber-200 font-mono">
-                    {examQuestions.length || 400} Preguntas Oficiales (A, B, C, D)
+                  <span className="text-xs font-bold bg-amber-100 text-amber-900 px-3 py-1 rounded-full border border-amber-200 font-mono">
+                    {examQuestions.length} Reactivos Activos
                   </span>
                 </div>
-                <p className="text-xs sm:text-sm text-slate-600 mt-1">
-                  Examen estandarizado sin pruebas de audio ni escritura libre.
-                  Regla de puntaje Kuskat: <strong>+1 punto por acierto</strong>, <strong>-2 puntos por error</strong>, tope mínimo en <strong>0</strong>.
+                <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-3xl">
+                  Personaliza tu sesión de entrenamiento: selecciona el <strong>idioma</strong>, <strong>área o nivel MCER</strong>, la <strong>cantidad de preguntas</strong> (hasta 400 por nivel o banco completo de 2,400) y la <strong>modalidad</strong> de evaluación.
                 </p>
+              </div>
 
-                {/* Selector de Modo de Evaluación (Opción Múltiple vs Verdadero/Falso) */}
-                <div className="flex items-center gap-1.5 mt-3 bg-slate-100 p-1 rounded-xl border border-slate-200 inline-flex flex-wrap">
+              {/* Marcador de Puntaje en Vivo */}
+              <div className="flex items-center gap-2.5 bg-slate-900 text-white px-4 py-2.5 rounded-2xl self-start lg:self-auto shadow-xs shrink-0">
+                <div className="text-center px-2 border-r border-slate-700">
+                  <span className="block text-[9px] font-mono uppercase text-slate-400">Puntaje</span>
+                  <span className="text-base font-black text-amber-400 font-mono">{kuskatPoints} pts</span>
+                </div>
+                <div className="text-center px-2 border-r border-slate-700">
+                  <span className="block text-[9px] font-mono uppercase text-emerald-400">Aciertos</span>
+                  <span className="text-base font-bold text-emerald-400 font-mono">+{examScore.correct}</span>
+                </div>
+                <div className="text-center px-2">
+                  <span className="block text-[9px] font-mono uppercase text-rose-400">Errores</span>
+                  <span className="text-base font-bold text-rose-400 font-mono">-{examScore.incorrect}</span>
+                </div>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+              {/* 1. SELECCIÓN DE IDIOMA */}
+              <div className="space-y-2">
+                <label className="text-xs font-bold uppercase tracking-wider text-slate-700 flex items-center justify-between">
+                  <span className="flex items-center gap-1.5">
+                    <Globe className="w-4 h-4 text-blue-600" />
+                    1. Idioma ({LANGUAGES_CATALOG.length} Disponibles):
+                  </span>
+                  <span className="text-[11px] font-mono font-normal text-blue-700">
+                    Activo: {currentLanguage.name} ({currentQuestions.length} Q)
+                  </span>
+                </label>
+                <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+                  {LANGUAGES_CATALOG.map((lang) => {
+                    const isSelected = selectedLanguageId === lang.id;
+                    const isAvailable = lang.status === 'active';
+                    return (
+                      <button
+                        key={lang.id}
+                        type="button"
+                        disabled={!isAvailable}
+                        onClick={() => handleSelectLanguage(lang.id)}
+                        className={`p-2.5 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
+                          isSelected
+                            ? 'bg-slate-900 text-white border-slate-900 shadow-xs ring-2 ring-blue-500/30'
+                            : isAvailable
+                            ? 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                            : 'bg-slate-50/50 border-slate-100 text-slate-400 opacity-50 cursor-not-allowed'
+                        }`}
+                      >
+                        <div className="flex items-center justify-between">
+                          <span className="text-lg">{lang.flag}</span>
+                          <span className="text-[9px] font-mono px-1 rounded bg-slate-200/50 text-slate-600">
+                            2,400 Q
+                          </span>
+                        </div>
+                        <div className="pt-1">
+                          <span className="font-bold text-xs block truncate">{lang.name}</span>
+                          <span className="text-[9.5px] opacity-70 block truncate">{lang.nativeName}</span>
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
+
+              {/* 2. NIVEL MCER Y ÁREA TEMÁTICA */}
+              <div className="space-y-4">
+                <div className="space-y-2">
+                  <label className="text-xs font-bold uppercase tracking-wider text-slate-700 flex items-center justify-between">
+                    <span className="flex items-center gap-1.5">
+                      <BookOpen className="w-4 h-4 text-indigo-600" />
+                      2. Nivel del Marco Común (MCER / CEFR):
+                    </span>
+                    <span className="text-[11px] font-mono font-normal text-indigo-700">
+                      {examSelectedLevel === 'ALL' ? 'Todos los Niveles (2,400 Q)' : `Nivel ${examSelectedLevel} (400 Q)`}
+                    </span>
+                  </label>
+                  <div className="grid grid-cols-4 sm:grid-cols-7 gap-1.5">
+                    <button
+                      type="button"
+                      onClick={() => handleExamLevelChange('ALL')}
+                      className={`py-2 px-1 text-xs font-bold rounded-xl border text-center transition-all cursor-pointer ${
+                        examSelectedLevel === 'ALL'
+                          ? 'bg-indigo-700 border-indigo-700 text-white shadow-xs'
+                          : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                      }`}
+                    >
+                      <span>TODOS</span>
+                      <span className="block text-[8.5px] opacity-70 font-mono">2,400 Q</span>
+                    </button>
+                    {(['A1', 'A2', 'B1', 'B2', 'C1', 'C2'] as CEFRLevel[]).map((lvl) => (
+                      <button
+                        key={lvl}
+                        type="button"
+                        onClick={() => handleExamLevelChange(lvl)}
+                        className={`py-2 px-1 text-xs font-bold rounded-xl border text-center transition-all cursor-pointer ${
+                          examSelectedLevel === lvl
+                            ? 'bg-slate-900 border-slate-900 text-white shadow-xs'
+                            : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                        }`}
+                      >
+                        <span>{lvl}</span>
+                        <span className="block text-[8.5px] opacity-70 font-mono">400 Q</span>
+                      </button>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Selector de Área Temática / Tópico específico */}
+                <div className="space-y-2">
+                  <label className="text-xs font-bold uppercase tracking-wider text-slate-700 flex items-center justify-between">
+                    <span className="flex items-center gap-1.5">
+                      <Filter className="w-4 h-4 text-emerald-600" />
+                      Área Temática / Eje Curricular:
+                    </span>
+                    <span className="text-[11px] font-mono font-normal text-slate-500">
+                      {availableExamTopics.length} Temas disponibles
+                    </span>
+                  </label>
+                  <select
+                    value={examSelectedTopic}
+                    onChange={(e) => handleExamTopicChange(e.target.value)}
+                    className="w-full text-xs font-medium bg-slate-50 border border-slate-300 rounded-xl px-3 py-2.5 text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-blue-500 cursor-pointer"
+                  >
+                    <option value="ALL">
+                      🌐 Todas las áreas temáticas ({examPool.length} reactivos en este filtro)
+                    </option>
+                    {availableExamTopics.map(({ topic, count }) => (
+                      <option key={topic} value={topic}>
+                        {topic} ({count} reactivos)
+                      </option>
+                    ))}
+                  </select>
+                </div>
+              </div>
+            </div>
+
+            {/* 3. NÚMERO DE PREGUNTAS (CON LA OPCIÓN DESTACADA DE 400 PREGUNTAS) */}
+            <div className="pt-4 border-t border-slate-100 space-y-3">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+                <label className="text-xs font-bold uppercase tracking-wider text-slate-700 flex items-center gap-1.5">
+                  <Award className="w-4 h-4 text-amber-500" />
+                  3. Cantidad de Reactivos para el Examen:
+                </label>
+                <span className="text-xs text-amber-900 bg-amber-50 px-2.5 py-0.5 rounded-full border border-amber-200 font-medium">
+                  Seleccionado: <strong>{examQuestionCount === 'ALL' ? `Todas (${examPool.length})` : `${examQuestionCount} preguntas`}</strong>
+                </span>
+              </div>
+
+              {/* Botones de Selección Rápida */}
+              <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-7 gap-2">
+                {[
+                  { count: 10, label: '10 Q', desc: 'Rápido' },
+                  { count: 25, label: '25 Q', desc: 'Estándar' },
+                  { count: 50, label: '50 Q', desc: 'Test Parcial' },
+                  { count: 100, label: '100 Q', desc: 'Extenso' },
+                  { count: 200, label: '200 Q', desc: 'Medio Banco' },
+                  { count: 400, label: '400 Q', desc: 'Banco Completo ⭐', highlight: true },
+                  { count: 'ALL', label: 'TODAS', desc: `Todo (${examPool.length} Q)` },
+                ].map(({ count, label, desc, highlight }) => {
+                  const isSelected = examQuestionCount === count;
+                  return (
+                    <button
+                      key={String(count)}
+                      type="button"
+                      onClick={() => handleExamCountChange(count as number | 'ALL')}
+                      className={`py-2.5 px-2 rounded-2xl border transition-all cursor-pointer text-center flex flex-col justify-between ${
+                        isSelected
+                          ? highlight
+                            ? 'bg-amber-500 border-amber-600 text-slate-950 font-black shadow-md ring-2 ring-amber-400'
+                            : 'bg-slate-900 border-slate-900 text-white font-bold shadow-xs'
+                          : highlight
+                          ? 'bg-amber-50 border-amber-300 text-amber-900 hover:bg-amber-100 font-bold'
+                          : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                      }`}
+                    >
+                      <div className="flex items-center justify-center gap-1">
+                        <span className="text-xs font-black">{label}</span>
+                        {highlight && <Sparkles className="w-3 h-3 text-amber-600" />}
+                      </div>
+                      <span className="block text-[9px] font-normal opacity-80 mt-0.5">
+                        {desc}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+
+              {/* Input para número personalizado si el usuario lo prefiere */}
+              <div className="flex items-center gap-2 pt-1 flex-wrap">
+                <span className="text-[11px] text-slate-500 font-medium">O escribe una cantidad personalizada:</span>
+                <div className="flex items-center gap-1.5">
+                  <input
+                    type="number"
+                    min={1}
+                    max={examPool.length || 2400}
+                    value={customQuestionCountInput}
+                    onChange={(e) => setCustomQuestionCountInput(e.target.value)}
+                    className="w-24 text-xs font-mono bg-slate-50 border border-slate-300 rounded-xl px-2.5 py-1.5 text-slate-800 focus:outline-hidden focus:ring-2 focus:ring-blue-500"
+                    placeholder="Ej: 400"
+                  />
+                  <button
+                    type="button"
+                    onClick={handleApplyCustomCount}
+                    className="px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-slate-900 text-white text-xs font-bold transition-all cursor-pointer"
+                  >
+                    Aplicar
+                  </button>
+                </div>
+                <span className="text-[10px] text-slate-400">
+                  (Máximo disponible en este filtro: {examPool.length} reactivos)
+                </span>
+              </div>
+            </div>
+
+            {/* 4. MODALIDAD DE EVALUACIÓN Y REINICIO */}
+            <div className="pt-4 border-t border-slate-100 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+              <div className="space-y-1.5">
+                <label className="text-xs font-bold uppercase tracking-wider text-slate-700 block">
+                  4. Modalidad de Evaluación:
+                </label>
+                <div className="flex items-center gap-1.5 bg-slate-100 p-1 rounded-xl border border-slate-200 inline-flex flex-wrap">
                   <button
                     type="button"
                     onClick={() => {
@@ -1638,77 +1929,72 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                 </div>
               </div>
 
-              {/* Marcador de Puntaje en Vivo */}
-              <div className="flex items-center gap-2.5 bg-slate-900 text-white px-4 py-2.5 rounded-2xl self-start sm:self-auto shadow-xs">
-                <div className="text-center px-2 border-r border-slate-700">
-                  <span className="block text-[9px] font-mono uppercase text-slate-400">Puntaje</span>
-                  <span className="text-base font-black text-amber-400 font-mono">{kuskatPoints} pts</span>
-                </div>
-                <div className="text-center px-2 border-r border-slate-700">
-                  <span className="block text-[9px] font-mono uppercase text-emerald-400">Aciertos</span>
-                  <span className="text-base font-bold text-emerald-400 font-mono">+{examScore.correct}</span>
-                </div>
-                <div className="text-center px-2">
-                  <span className="block text-[9px] font-mono uppercase text-rose-400">Errores</span>
-                  <span className="text-base font-bold text-rose-400 font-mono">-{examScore.incorrect}</span>
-                </div>
-              </div>
-            </div>
-
-            {/* Barra de progreso de preguntas */}
-            <div className="pt-4 flex items-center justify-between text-xs text-slate-500 font-medium">
-              <span>
-                Pregunta <strong>{examCurrentIndex + 1}</strong> de <strong>{examQuestions.length}</strong> (Progreso: {Math.round(((Object.keys(examAnswers).length) / (examQuestions.length || 1)) * 100)}%)
-              </span>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 self-start sm:self-auto">
                 <button
                   type="button"
                   onClick={handleResetExam}
-                  className="flex items-center gap-1 hover:text-slate-900 transition-colors cursor-pointer text-xs"
+                  className="px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs flex items-center gap-1.5 transition-colors cursor-pointer"
                 >
                   <RotateCcw className="w-3.5 h-3.5" />
-                  <span>Reiniciar Test</span>
+                  <span>Reiniciar Examen</span>
                 </button>
               </div>
             </div>
 
-            <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden mt-2">
-              <div
-                className="h-full bg-blue-600 transition-all duration-300"
-                style={{ width: `${((examCurrentIndex + 1) / (examQuestions.length || 1)) * 100}%` }}
-              />
-            </div>
+            {/* BARRA DE PROGRESO Y MAPA DE REACTIVOS */}
+            <div className="pt-2 border-t border-slate-100">
+              <div className="flex items-center justify-between text-xs text-slate-500 font-medium">
+                <span>
+                  Reactivo <strong>{examCurrentIndex + 1}</strong> de <strong>{examQuestions.length}</strong> (Progreso: {Math.round(((Object.keys(examAnswers).length) / (examQuestions.length || 1)) * 100)}%)
+                </span>
+                <span className="text-[11px] font-mono text-slate-600">
+                  {currentLanguage.flag} {currentLanguage.name} • {examSelectedLevel === 'ALL' ? 'Todos' : `Nivel ${examSelectedLevel}`} • {examEvalMode === 'true_false' ? 'V/F' : 'Opción Múltiple'}
+                </span>
+              </div>
 
-            {/* Selector interactivo de las 400 preguntas */}
-            <div className="pt-4">
-              <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 block mb-2 font-mono">
-                Mapa de Reactivos ({examQuestions.length} Preguntas):
-              </span>
-              <div className="grid grid-cols-10 sm:grid-cols-20 md:grid-cols-25 gap-1 max-h-36 overflow-y-auto p-1.5 bg-slate-50 rounded-xl border border-slate-200 touch-scroll">
-                {examQuestions.map((q, idx) => {
-                  const ans = examAnswers[q.id];
-                  const isCurrent = idx === examCurrentIndex;
-                  let bg = 'bg-white text-slate-600 border-slate-200';
-                  if (ans) {
-                    bg = ans.isCorrect
-                      ? 'bg-emerald-500 text-white border-emerald-600 font-bold'
-                      : 'bg-rose-500 text-white border-rose-600 font-bold';
-                  } else if (isCurrent) {
-                    bg = 'bg-blue-600 text-white border-blue-700 font-bold ring-2 ring-blue-300';
-                  }
+              <div className="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden mt-2">
+                <div
+                  className="h-full bg-blue-600 transition-all duration-300"
+                  style={{ width: `${((examCurrentIndex + 1) / (examQuestions.length || 1)) * 100}%` }}
+                />
+              </div>
 
-                  return (
-                    <button
-                      key={q.id}
-                      type="button"
-                      onClick={() => handleJumpToQuestion(idx)}
-                      className={`h-6 rounded text-[10px] font-mono border transition-all flex items-center justify-center cursor-pointer ${bg}`}
-                      title={`Pregunta ${idx + 1}: ${q.topic}`}
-                    >
-                      {idx + 1}
-                    </button>
-                  );
-                })}
+              {/* Selector interactivo de las preguntas */}
+              <div className="pt-4">
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400 font-mono">
+                    Mapa de Reactivos ({examQuestions.length} Preguntas configuradas):
+                  </span>
+                  <span className="text-[10px] text-slate-400">
+                    Haz clic en cualquier número para ir directo a esa pregunta
+                  </span>
+                </div>
+                <div className="grid grid-cols-10 sm:grid-cols-20 md:grid-cols-25 gap-1 max-h-36 overflow-y-auto p-1.5 bg-slate-50 rounded-xl border border-slate-200 touch-scroll">
+                  {examQuestions.map((q, idx) => {
+                    const ans = examAnswers[q.id];
+                    const isCurrent = idx === examCurrentIndex;
+                    let bg = 'bg-white text-slate-600 border-slate-200';
+                    if (ans) {
+                      bg = ans.isCorrect
+                        ? 'bg-emerald-500 text-white border-emerald-600 font-bold'
+                        : 'bg-rose-500 text-white border-rose-600 font-bold';
+                    } else if (isCurrent) {
+                      bg = 'bg-blue-600 text-white border-blue-700 font-bold ring-2 ring-blue-300';
+                    }
+
+                    return (
+                      <button
+                        key={q.id}
+                        type="button"
+                        onClick={() => handleJumpToQuestion(idx)}
+                        className={`h-6 rounded text-[10px] font-mono border transition-all flex items-center justify-center cursor-pointer ${bg}`}
+                        title={`Pregunta ${idx + 1}: ${q.topic}`}
+                      >
+                        {idx + 1}
+                      </button>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </div>
@@ -2030,12 +2316,32 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                 )}
               </div>
             </div>
+          ) : examQuestions.length === 0 ? (
+            <div className="bg-white rounded-3xl border border-slate-200 p-8 text-center space-y-4">
+              <HelpCircle className="w-12 h-12 text-slate-400 mx-auto" />
+              <h4 className="text-lg font-bold text-slate-900">No se encontraron reactivos con estos filtros</h4>
+              <p className="text-sm text-slate-600 max-w-md mx-auto">
+                No hay reactivos que coincidan con la combinación seleccionada ({currentLanguage.name} • {examSelectedLevel === 'ALL' ? 'Todos los niveles' : `Nivel ${examSelectedLevel}`} • {examSelectedTopic}).
+              </p>
+              <button
+                type="button"
+                onClick={() => {
+                  setExamSelectedTopic('ALL');
+                  setExamSelectedLevel('ALL');
+                  setExamQuestionCount(400);
+                  handleResetExam();
+                }}
+                className="px-6 py-2.5 rounded-2xl bg-blue-600 text-white font-bold text-xs shadow-xs hover:bg-blue-700 cursor-pointer"
+              >
+                Restablecer Filtros
+              </button>
+            </div>
           ) : (
             <div className="bg-white rounded-3xl border border-slate-200 p-8 text-center space-y-4">
               <Award className="w-12 h-12 text-amber-500 mx-auto" />
               <h4 className="text-lg font-bold text-slate-900">¡Examen de {examQuestions.length} Preguntas Completado!</h4>
               <p className="text-sm text-slate-600 max-w-md mx-auto">
-                Has completado la evaluación del Nivel {selectedLevel}. Obtuviste {examScore.correct} aciertos y {examScore.incorrect} errores para un puntaje final de <strong>{kuskatPoints} puntos Kuskat</strong>.
+                Has completado la evaluación de <strong>{currentLanguage.name}</strong> ({examSelectedLevel === 'ALL' ? 'Todos los niveles' : `Nivel ${examSelectedLevel}`}). Obtuviste {examScore.correct} aciertos y {examScore.incorrect} errores para un puntaje final de <strong>{kuskatPoints} puntos Kuskat</strong>.
               </p>
               <button
                 type="button"
