@@ -41,6 +41,8 @@ import { getCategoryTheory } from '../data/categoryTheoryData';
 import { CategoryTheoryView } from './CategoryTheoryView';
 import { convertToTrueFalse } from '../utils/trueFalseHelper';
 import { MathText, escapeHtml } from '../utils/mathRenderer';
+import { useLanguage } from '../i18n';
+import { LearnSpanishQuestionPanel } from './LearnSpanishBanner';
 export { MathText };
 
 interface CategoryHierarchyViewerProps {
@@ -54,6 +56,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
   onExportLatexWithQuestions,
   showToast,
 }) => {
+  const { translateQuestion } = useLanguage();
   // Estado de la Malla y Currículo
   const [subjects, setSubjects] = useState<SubjectMeta[]>([]);
   const [loadingCurriculum, setLoadingCurriculum] = useState<boolean>(true);
@@ -1544,6 +1547,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                                 {!isCollapsed && (
                                   <div className="p-4 sm:p-6 space-y-5">
                                     {sec.questions.map((q) => {
+                                      const tq = translateQuestion(q);
                                       const selectedKey = userSelectedOptions[q.id];
                                       const isAnswered = selectedKey !== undefined;
                                       const tf = convertToTrueFalse(q);
@@ -1577,10 +1581,10 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                                                 {q.institution}
                                               </span>
                                               <span className="font-semibold text-slate-600 bg-slate-100 px-2 py-0.5 rounded-md text-[11px]">
-                                                {q.subject}
+                                                {tq.subject}
                                               </span>
                                               <span className="text-slate-400 font-medium text-[11px] hidden sm:inline">
-                                                • {q.topic}
+                                                • {tq.topic}
                                               </span>
                                               {q.level && (
                                                 <span
@@ -1610,9 +1614,15 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                                             </button>
                                           </div>
 
+                                          {/* Panel Bilingüe / Modo Aprender Español y Aviso de Fallback */}
+                                          <LearnSpanishQuestionPanel
+                                            question={q}
+                                            showExplanation={isAnswered || showSolution}
+                                          />
+
                                           {/* Enunciado con KaTeX */}
                                           <div className="text-slate-900 text-sm sm:text-base leading-relaxed">
-                                            <MathText text={q.statement} />
+                                            <MathText text={tq.statement} />
                                           </div>
 
                                           {/* Opciones de Respuesta (Opción Múltiple vs Verdadero o Falso) */}

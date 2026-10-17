@@ -62,6 +62,7 @@ import LanguageBasicsGenericView from './LanguageBasicsGenericView';
 import LanguageVocabularyGenericView from './LanguageVocabularyGenericView';
 import { getLanguageTheory } from '../data/categoryTheoryData';
 import { CategoryTheoryView } from './CategoryTheoryView';
+import { LanguageSwitcher } from './LanguageSwitcher';
 
 interface LanguageReferenceSource {
   code: string;
@@ -565,6 +566,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
               <span className="text-xs font-bold bg-blue-100 text-blue-800 px-3 py-1 rounded-full border border-blue-200 font-mono">
                 MCER • CEFR A1 a C2
               </span>
+              <LanguageSwitcher variant="compact" />
             </div>
             <p className="text-xs sm:text-sm text-slate-600 mt-2 max-w-3xl leading-relaxed">
               Currículo pedagógico completo de <strong>{currentLanguage.name}</strong> ({currentLanguage.nativeName}):{' '}

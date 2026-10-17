@@ -69,12 +69,13 @@ const LegalModal = React.lazy(() =>
 );
 
 import { KaTeXMath, escapeHtml } from './utils/mathRenderer';
+import { useTranslation } from './i18n';
+import { LanguageSwitcher } from './components/LanguageSwitcher';
 export { KaTeXMath };
-
-
 
 // ============================================================================
 export default function App() {
+  const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<'motionsites3d' | 'categories' | 'practice' | 'latex' | 'languages'>(() => {
     try {
       if (typeof window !== 'undefined' && window.location.search) {
@@ -330,13 +331,16 @@ export default function App() {
                 </span>
               </div>
               <p className="text-[10px] sm:text-[11px] text-slate-500 font-medium truncate hidden xs:block sm:block">
-                Preparación para la aprobación de exámenes de Centroamérica
+                {t('app.subtitle')}
               </p>
             </div>
           </div>
 
           {/* Navegación y Perfil: versión escritorio completa */}
           <div className="hidden md:flex items-center gap-2 flex-wrap justify-end shrink-0">
+            {/* Selector de idioma intercultural (7 lenguas + Modo Aprender Español) */}
+            <LanguageSwitcher variant="compact" />
+
             {/* Botón de Ficha del Desarrollador */}
             <button
               onClick={() => setIsDevModalOpen(true)}
@@ -353,7 +357,7 @@ export default function App() {
                   }}
                 />
               </div>
-              <span className="hidden lg:inline">Creador:</span>
+              <span className="hidden lg:inline">{t('nav.creator')}:</span>
               <span className="font-bold text-slate-900">Yeferson E. Perez</span>
             </button>
 
@@ -364,8 +368,7 @@ export default function App() {
               title="Abrir tutorial y guía interactiva de KUSKAT"
             >
               <HelpCircle className="w-3.5 h-3.5 text-blue-600" />
-              <span className="hidden lg:inline">Guía</span>
-              <span>Tutorial</span>
+              <span>{t('nav.tutorial')}</span>
             </button>
 
             {/* Vistas Principales (Tabs) */}
@@ -380,7 +383,7 @@ export default function App() {
                 title="Entrar al portal 3D interactivo con mapa de El Salvador"
               >
                 <Sparkles className="w-3.5 h-3.5 text-amber-500 animate-pulse" />
-                <span>Portal 3D</span>
+                <span>{t('nav.portal3d')}</span>
               </button>
               <button
                 onClick={() => setActiveTab('categories')}
@@ -391,7 +394,7 @@ export default function App() {
                 }`}
               >
                 <FolderTree className="w-3.5 h-3.5 text-blue-600" />
-                <span>Categorías</span>
+                <span>{t('nav.categories')}</span>
               </button>
               <button
                 onClick={() => {
@@ -405,7 +408,7 @@ export default function App() {
                 }`}
               >
                 <Award className="w-3.5 h-3.5 text-amber-500" />
-                <span>Simulador</span>
+                <span>{t('nav.simulator')}</span>
               </button>
               <button
                 onClick={() => setActiveTab('latex')}
@@ -416,7 +419,7 @@ export default function App() {
                 }`}
               >
                 <FileCode className="w-3.5 h-3.5" />
-                <span>LaTeX</span>
+                <span>{t('nav.latex')}</span>
               </button>
               <button
                 onClick={() => setActiveTab('languages')}
@@ -428,7 +431,7 @@ export default function App() {
                 title="Aprender Idiomas: 7 Lenguas (A1 a C2)"
               >
                 <Languages className="w-3.5 h-3.5 text-emerald-600" />
-                <span>Idiomas</span>
+                <span>{t('nav.languages')}</span>
               </button>
             </nav>
 
@@ -449,18 +452,19 @@ export default function App() {
                   <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
                 </span>
               ) : (
-                <span>Cuenta</span>
+                <span>{t('nav.account')}</span>
               )}
             </button>
           </div>
 
-          {/* Navegación móvil rápida en cabecera: botón cuenta + tutorial */}
+          {/* Navegación móvil rápida en cabecera: selector idioma + cuenta + tutorial */}
           <div className="flex md:hidden items-center gap-1.5 shrink-0">
+            <LanguageSwitcher variant="compact" showLearnSpanishToggle={true} />
             <button
               onClick={() => setIsTutorialOpen(true)}
               className="p-2 rounded-xl border border-blue-200 bg-blue-50 text-blue-900 text-xs font-bold cursor-pointer"
               title="Abrir tutorial"
-              aria-label="Tutorial"
+              aria-label={t('nav.tutorial')}
             >
               <HelpCircle className="w-4 h-4 text-blue-600" />
             </button>
@@ -471,11 +475,11 @@ export default function App() {
                   ? 'border-emerald-300 bg-emerald-50 text-emerald-900'
                   : 'border-blue-300 bg-blue-50 text-blue-900'
               }`}
-              title={currentUser ? currentUser.username : 'Cuenta'}
+              title={currentUser ? currentUser.username : t('nav.account')}
             >
               <UserCheck className="w-4 h-4 text-blue-600" />
               <span className="truncate max-w-[70px] text-[11px]">
-                {currentUser ? currentUser.username : 'Cuenta'}
+                {currentUser ? currentUser.username : t('nav.account')}
               </span>
             </button>
           </div>
@@ -770,7 +774,7 @@ export default function App() {
           }`}
         >
           <Sparkles className="w-4 h-4 text-amber-500" />
-          <span className="truncate">Portal 3D</span>
+          <span className="truncate">{t('nav.portal3d')}</span>
         </button>
 
         <button
@@ -780,7 +784,7 @@ export default function App() {
           }`}
         >
           <FolderTree className="w-4 h-4" />
-          <span className="truncate">Categorías</span>
+          <span className="truncate">{t('nav.categories')}</span>
         </button>
 
         <button
@@ -793,7 +797,7 @@ export default function App() {
           }`}
         >
           <Award className="w-4 h-4" />
-          <span className="truncate">Simulador</span>
+          <span className="truncate">{t('nav.simulator')}</span>
         </button>
 
         <button
@@ -803,7 +807,7 @@ export default function App() {
           }`}
         >
           <Languages className="w-4 h-4 text-emerald-600" />
-          <span className="truncate">Idiomas</span>
+          <span className="truncate">{t('nav.languages')}</span>
         </button>
 
         <button
@@ -813,7 +817,7 @@ export default function App() {
           }`}
         >
           <FileCode className="w-4 h-4" />
-          <span className="truncate">LaTeX</span>
+          <span className="truncate">{t('nav.latex')}</span>
         </button>
 
         <button
@@ -824,7 +828,7 @@ export default function App() {
           title="Ver mi cuenta y exámenes realizados"
         >
           <UserCheck className="w-4 h-4 text-blue-600" />
-          <span className="truncate">{currentUser ? 'Perfil' : 'Cuenta'}</span>
+          <span className="truncate">{currentUser ? currentUser.username : t('nav.account')}</span>
         </button>
 
         <button
@@ -833,7 +837,7 @@ export default function App() {
           title="Ver tutorial de bienvenida"
         >
           <HelpCircle className="w-4 h-4 text-blue-600" />
-          <span className="truncate">Tutorial</span>
+          <span className="truncate">{t('nav.tutorial')}</span>
         </button>
 
         <button
@@ -843,7 +847,7 @@ export default function App() {
           <div className="w-4 h-4 rounded-full overflow-hidden border border-amber-400 shrink-0">
             <img src="/yeferson_perez.jpg" alt="Creador" className="w-full h-full object-cover" />
           </div>
-          <span className="truncate">Creador</span>
+          <span className="truncate">{t('nav.creator')}</span>
         </button>
       </nav>
 

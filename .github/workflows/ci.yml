@@ -1,0 +1,45 @@
+name: KUSKAT — CI de Calidad, Banco y Sistema Multilingüe (i18n)
+
+on:
+  push:
+    branches:
+      - main
+      - pruebas-piloto
+      - 'feat/**'
+  pull_request:
+    branches:
+      - main
+      - pruebas-piloto
+
+jobs:
+  verify-and-test:
+    name: Typecheck, Validate Bank, Validate i18n, Unit Tests & Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: TypeScript Strict Typecheck
+        run: npm run typecheck
+
+      - name: Validate Question Bank Integrity
+        run: npm run validate:bank
+
+      - name: Validate Multilingual i18n Coverage (>= 90% UI Keys)
+        run: npm run validate:i18n
+
+      - name: Run Unit & Accessibility Tests (Vitest)
+        run: npm test
+
+      - name: Build Production Bundle
+        run: npm run build

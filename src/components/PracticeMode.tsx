@@ -44,6 +44,8 @@ import { LeaderboardSection } from './LeaderboardSection';
 import { AdBanner } from './AdBanner';
 import { saveExamResult } from '../services/statsService';
 import { getCurrentUser } from '../services/authService';
+import { useLanguage } from '../i18n';
+import { LearnSpanishQuestionPanel } from './LearnSpanishBanner';
 
 interface PracticeModeProps {
   initialQuestions?: Question[] | null;
@@ -62,6 +64,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
   onOpenAccountModal,
   showToast,
 }) => {
+  const { translateQuestion } = useLanguage();
   // Malla curricular para el configurador
   const [subjects, setSubjects] = useState<SubjectMeta[]>([]);
   const [loadingCurriculum, setLoadingCurriculum] = useState<boolean>(true);
@@ -1584,9 +1587,15 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
               </button>
             </div>
 
+            {/* Panel Bilingüe / Modo Aprender Español y Aviso de Fallback */}
+            <LearnSpanishQuestionPanel
+              question={currentQ}
+              showExplanation={tutorMode && isAnswered}
+            />
+
             {/* Enunciado con KaTeX */}
             <div className="text-slate-900 text-base sm:text-lg leading-relaxed">
-              <MathText text={currentQ.statement} />
+              <MathText text={translateQuestion(currentQ).statement} />
             </div>
 
             {/* Opciones de Evaluación (Opción Múltiple vs Verdadero o Falso) */}
@@ -2149,9 +2158,12 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 </span>
               </div>
 
+              {/* Panel Bilingüe / Modo Aprender Español en Solucionario */}
+              <LearnSpanishQuestionPanel question={q} showExplanation={true} />
+
               {/* Enunciado */}
               <div className="text-slate-900 text-sm sm:text-base leading-relaxed">
-                <MathText text={q.statement} />
+                <MathText text={translateQuestion(q).statement} />
               </div>
 
               {/* Opciones o Proposición V/F */}

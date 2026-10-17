@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { DepartmentData } from './data/departmentsData';
+import { DepartmentData, DEPARTMENTS_DATA } from './data/departmentsData';
 import { ParticleLoader } from './ParticleLoader';
 import { ElSalvadorMap3D } from './ElSalvadorMap3D';
 import { DepartmentSidePanel } from './DepartmentSidePanel';
@@ -10,6 +10,8 @@ import { CallToActionFinal3D } from './CallToActionFinal3D';
 import { CustomCursor3D } from './CustomCursor3D';
 import { FloatingParticlesBackground } from './FloatingParticlesBackground';
 import { AdBanner } from '../AdBanner';
+import { LanguageSwitcher } from '../LanguageSwitcher';
+import { useTranslation } from '../../i18n';
 import { Institution } from '../../data';
 import {
   Layers,
@@ -17,6 +19,9 @@ import {
   Phone,
   Instagram,
   Rocket,
+  Grid,
+  Box,
+  MapPin,
 } from 'lucide-react';
 
 interface MotionSitesPortalProps {
@@ -28,6 +33,9 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
   onEnterSimulator,
   onOpenCategories,
 }) => {
+  const { t } = useTranslation();
+  const [is2DAccessibleMode, setIs2DAccessibleMode] = useState<boolean>(false);
+
   // Estado del loader inicial de partículas 3D (persistido en localStorage para no repetir atrasos)
   const [showLoader, setShowLoader] = useState<boolean>(() => {
     try {
@@ -172,26 +180,49 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                 </span>
               </div>
               <p className="font-caslon text-[11px] text-slate-500 font-medium hidden sm:block">
-                Preparación para la aprobacion de examenes de Centro America
+                {t('app.subtitle')}
               </p>
             </div>
           </div>
 
-          {/* Navegación y Botones de Acción */}
-          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+          {/* Navegación, Selector de Idioma y Botones de Acción */}
+          <div className="flex items-center gap-2 sm:gap-2.5 shrink-0 flex-wrap justify-end">
+            <LanguageSwitcher variant="compact" />
+
+            <button
+              type="button"
+              onClick={() => setIs2DAccessibleMode((prev) => !prev)}
+              aria-pressed={is2DAccessibleMode}
+              className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-2 rounded-xl bg-amber-50 hover:bg-amber-100 border border-amber-300 text-amber-900 font-caslon text-xs font-bold transition-colors cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600"
+            >
+              {is2DAccessibleMode ? (
+                <>
+                  <Box className="w-3.5 h-3.5 text-amber-700" />
+                  <span className="hidden md:inline">{t('app.enable3D')}</span>
+                  <span className="md:hidden">3D</span>
+                </>
+              ) : (
+                <>
+                  <Grid className="w-3.5 h-3.5 text-amber-700" />
+                  <span className="hidden md:inline">{t('app.skip3D')}</span>
+                  <span className="md:hidden">2D</span>
+                </>
+              )}
+            </button>
+
             <button
               onClick={onOpenCategories}
               className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-2 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-700 font-caslon text-xs font-semibold tracking-micro uppercase transition-colors cursor-pointer"
             >
               <Layers className="w-3.5 h-3.5 text-blue-600" />
-              <span>Categorías</span>
+              <span>{t('nav.categories')}</span>
             </button>
 
             <button
               onClick={() => triggerStudyTransition()}
               className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-caslon text-xs sm:text-sm font-bold tracking-micro uppercase transition-all shadow-sm hover:shadow-md cursor-pointer whitespace-nowrap"
             >
-              <span>Simulador</span>
+              <span>{t('nav.simulator')}</span>
               <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white" />
             </button>
           </div>
@@ -204,13 +235,92 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
       </div>
 
       {/* ==================================================================== */}
-      {/* 3. HERO SECTION CON MAPA 3D DE EL SALVADOR */}
+      {/* 3. HERO SECTION CON MAPA 3D O ALTERNATIVA 2D ACCESIBLE (WCAG 2.2 AA) */}
       {/* ==================================================================== */}
-      <section className="relative">
-        <ElSalvadorMap3D
-          onSelectDepartment={(dept) => setSelectedDept(dept)}
-          selectedDepartmentId={selectedDept?.id}
-        />
+      <section className="relative" aria-label={t('portal3d.title')}>
+        {is2DAccessibleMode ? (
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-4">
+                <div>
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200 mb-2">
+                    <MapPin className="w-3.5 h-3.5" />
+                    <span>{t('portal3d.badge')}</span>
+                  </span>
+                  <h2 className="font-montenegrin text-2xl sm:text-3xl font-black text-slate-900">
+                    {t('portal3d.accessibleGridTitle')}
+                  </h2>
+                  <p className="text-xs sm:text-sm text-slate-600 mt-1">
+                    {t('portal3d.subtitle')}
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setIs2DAccessibleMode(false)}
+                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-900 text-white text-xs font-bold hover:bg-slate-800 cursor-pointer shrink-0"
+                >
+                  <Box className="w-4 h-4 text-amber-400" />
+                  <span>{t('app.enable3D')}</span>
+                </button>
+              </div>
+
+              <div
+                role="list"
+                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5"
+              >
+                {DEPARTMENTS_DATA.map((dept) => {
+                  const isSelected = selectedDept?.id === dept.id;
+                  return (
+                    <button
+                      key={dept.id}
+                      type="button"
+                      role="listitem"
+                      aria-label={t('portal3d.selectDepartment', { dept: dept.name })}
+                      onClick={() => setSelectedDept(dept)}
+                      className={`p-4 rounded-2xl border text-left transition-all cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 ${
+                        isSelected
+                          ? 'bg-blue-600 text-white border-blue-600 shadow-md'
+                          : 'bg-slate-50/90 hover:bg-blue-50/60 text-slate-900 border-slate-200'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between gap-2 mb-1.5">
+                        <span className="font-bold text-sm">{dept.name}</span>
+                        <span
+                          className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase ${
+                            isSelected
+                              ? 'bg-white/20 text-white'
+                              : 'bg-blue-100 text-blue-800'
+                          }`}
+                        >
+                          {dept.region}
+                        </span>
+                      </div>
+                      <p
+                        className={`text-xs mb-2 ${
+                          isSelected ? 'text-blue-100' : 'text-slate-600'
+                        }`}
+                      >
+                        {t('portal3d.capital')}: <strong>{dept.capital}</strong>
+                      </p>
+                      <p
+                        className={`text-[11px] line-clamp-2 ${
+                          isSelected ? 'text-blue-50' : 'text-slate-500'
+                        }`}
+                      >
+                        {dept.featuredSubject} • {dept.bestCategory}
+                      </p>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        ) : (
+          <ElSalvadorMap3D
+            onSelectDepartment={(dept) => setSelectedDept(dept)}
+            selectedDepartmentId={selectedDept?.id}
+          />
+        )}
       </section>
 
       {/* ==================================================================== */}

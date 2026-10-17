@@ -14,6 +14,7 @@ import {
   Scale
 } from 'lucide-react';
 import { TutorialStep } from '../types';
+import { LanguageSwitcher } from './LanguageSwitcher';
 
 interface OnboardingTutorialProps {
   isOpen: boolean;
@@ -257,6 +258,11 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
 
         {/* Contenido del Paso */}
         <div className="p-5 sm:p-7 space-y-4 text-xs sm:text-sm leading-relaxed overflow-y-auto max-h-[60vh] touch-scroll">
+          {currentStep === 0 && (
+            <div className="p-3.5 rounded-2xl bg-blue-50/70 border border-blue-200/80 space-y-2">
+              <LanguageSwitcher variant="inline-pills" showLearnSpanishToggle={true} />
+            </div>
+          )}
           <p className="text-slate-600 font-medium leading-relaxed">{step.description}</p>
 
           <div className="bg-slate-50 rounded-2xl border border-slate-200 p-4 space-y-2.5">

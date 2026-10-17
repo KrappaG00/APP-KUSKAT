@@ -1,0 +1,549 @@
+{
+  "generatedAt": "2026-10-17T19:48:36.339Z",
+  "repository": "KrappaG00/APP-KUSKAT",
+  "branch": "pruebas-piloto",
+  "baseLocale": "es",
+  "fallbackLocale": "es",
+  "totalSupportedLanguages": 7,
+  "totalUiKeysPerLanguage": 117,
+  "totalMasterBankQuestions": 34440,
+  "status": "PASSED",
+  "summary": {
+    "es": {
+      "uiCoveragePercent": 100,
+      "bankCoveragePercent": 100
+    },
+    "nahuat": {
+      "uiCoveragePercent": 100,
+      "bankCoveragePercent": 73
+    },
+    "lenca": {
+      "uiCoveragePercent": 100,
+      "bankCoveragePercent": 73
+    },
+    "kakawira": {
+      "uiCoveragePercent": 100,
+      "bankCoveragePercent": 73
+    },
+    "en": {
+      "uiCoveragePercent": 100,
+      "bankCoveragePercent": 95.29
+    },
+    "ar": {
+      "uiCoveragePercent": 100,
+      "bankCoveragePercent": 84.57
+    },
+    "zh": {
+      "uiCoveragePercent": 100,
+      "bankCoveragePercent": 84.57
+    }
+  },
+  "locales": {
+    "es": {
+      "code": "es",
+      "name": "Español",
+      "nativeName": "Español",
+      "dir": "ltr",
+      "isIndigenous": false,
+      "uiKeysTotal": 117,
+      "uiKeysCovered": 117,
+      "uiCoveragePercent": 100,
+      "missingKeys": [],
+      "emptyKeys": [],
+      "placeholderMismatches": [],
+      "bankAverageCoveragePercent": 100,
+      "categories": {
+        "UES": {
+          "categoryName": "Admisión Universidad de El Salvador (UES)",
+          "totalQuestions": 7500,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        },
+        "ESCALAFON": {
+          "categoryName": "Ascenso Escalafón Docente MINED",
+          "totalQuestions": 3300,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        },
+        "AVANZO": {
+          "categoryName": "Prueba Nacional AVANZO MINED",
+          "totalQuestions": 3000,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        },
+        "ASD": {
+          "categoryName": "Academia Sabatina Departamental (Jóvenes Talento)",
+          "totalQuestions": 2190,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        },
+        "ENA": {
+          "categoryName": "Escuela Nacional de Agricultura (ENA)",
+          "totalQuestions": 1400,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        },
+        "ANSP": {
+          "categoryName": "Academia Nacional de Seguridad Pública (ANSP)",
+          "totalQuestions": 250,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        },
+        "IDIOMAS": {
+          "categoryName": "Escuela de Idiomas Kuskat (MCER A1-C2)",
+          "totalQuestions": 16800,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        }
+      }
+    },
+    "nahuat": {
+      "code": "nahuat",
+      "name": "Náhuat",
+      "nativeName": "Náhuat",
+      "dir": "ltr",
+      "isIndigenous": true,
+      "uiKeysTotal": 117,
+      "uiKeysCovered": 117,
+      "uiCoveragePercent": 100,
+      "missingKeys": [],
+      "emptyKeys": [],
+      "placeholderMismatches": [],
+      "bankAverageCoveragePercent": 73,
+      "categories": {
+        "UES": {
+          "categoryName": "Admisión Universidad de El Salvador (UES)",
+          "totalQuestions": 7500,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ESCALAFON": {
+          "categoryName": "Ascenso Escalafón Docente MINED",
+          "totalQuestions": 3300,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "AVANZO": {
+          "categoryName": "Prueba Nacional AVANZO MINED",
+          "totalQuestions": 3000,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ASD": {
+          "categoryName": "Academia Sabatina Departamental (Jóvenes Talento)",
+          "totalQuestions": 2190,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ENA": {
+          "categoryName": "Escuela Nacional de Agricultura (ENA)",
+          "totalQuestions": 1400,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ANSP": {
+          "categoryName": "Academia Nacional de Seguridad Pública (ANSP)",
+          "totalQuestions": 250,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "IDIOMAS": {
+          "categoryName": "Escuela de Idiomas Kuskat (MCER A1-C2)",
+          "totalQuestions": 16800,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        }
+      }
+    },
+    "lenca": {
+      "code": "lenca",
+      "name": "Lenca",
+      "nativeName": "Lenca",
+      "dir": "ltr",
+      "isIndigenous": true,
+      "uiKeysTotal": 117,
+      "uiKeysCovered": 117,
+      "uiCoveragePercent": 100,
+      "missingKeys": [],
+      "emptyKeys": [],
+      "placeholderMismatches": [],
+      "bankAverageCoveragePercent": 73,
+      "categories": {
+        "UES": {
+          "categoryName": "Admisión Universidad de El Salvador (UES)",
+          "totalQuestions": 7500,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ESCALAFON": {
+          "categoryName": "Ascenso Escalafón Docente MINED",
+          "totalQuestions": 3300,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "AVANZO": {
+          "categoryName": "Prueba Nacional AVANZO MINED",
+          "totalQuestions": 3000,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ASD": {
+          "categoryName": "Academia Sabatina Departamental (Jóvenes Talento)",
+          "totalQuestions": 2190,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ENA": {
+          "categoryName": "Escuela Nacional de Agricultura (ENA)",
+          "totalQuestions": 1400,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ANSP": {
+          "categoryName": "Academia Nacional de Seguridad Pública (ANSP)",
+          "totalQuestions": 250,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "IDIOMAS": {
+          "categoryName": "Escuela de Idiomas Kuskat (MCER A1-C2)",
+          "totalQuestions": 16800,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        }
+      }
+    },
+    "kakawira": {
+      "code": "kakawira",
+      "name": "Kakawira",
+      "nativeName": "Kakawira",
+      "dir": "ltr",
+      "isIndigenous": true,
+      "uiKeysTotal": 117,
+      "uiKeysCovered": 117,
+      "uiCoveragePercent": 100,
+      "missingKeys": [],
+      "emptyKeys": [],
+      "placeholderMismatches": [],
+      "bankAverageCoveragePercent": 73,
+      "categories": {
+        "UES": {
+          "categoryName": "Admisión Universidad de El Salvador (UES)",
+          "totalQuestions": 7500,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ESCALAFON": {
+          "categoryName": "Ascenso Escalafón Docente MINED",
+          "totalQuestions": 3300,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "AVANZO": {
+          "categoryName": "Prueba Nacional AVANZO MINED",
+          "totalQuestions": 3000,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ASD": {
+          "categoryName": "Academia Sabatina Departamental (Jóvenes Talento)",
+          "totalQuestions": 2190,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ENA": {
+          "categoryName": "Escuela Nacional de Agricultura (ENA)",
+          "totalQuestions": 1400,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ANSP": {
+          "categoryName": "Academia Nacional de Seguridad Pública (ANSP)",
+          "totalQuestions": 250,
+          "interculturalCoveragePercent": 68.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 31.5,
+          "fallbackNoticeEnabled": true
+        },
+        "IDIOMAS": {
+          "categoryName": "Escuela de Idiomas Kuskat (MCER A1-C2)",
+          "totalQuestions": 16800,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        }
+      }
+    },
+    "en": {
+      "code": "en",
+      "name": "Inglés",
+      "nativeName": "English",
+      "dir": "ltr",
+      "isIndigenous": false,
+      "uiKeysTotal": 117,
+      "uiKeysCovered": 117,
+      "uiCoveragePercent": 100,
+      "missingKeys": [],
+      "emptyKeys": [],
+      "placeholderMismatches": [],
+      "bankAverageCoveragePercent": 95.29,
+      "categories": {
+        "UES": {
+          "categoryName": "Admisión Universidad de El Salvador (UES)",
+          "totalQuestions": 7500,
+          "interculturalCoveragePercent": 94.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 5.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ESCALAFON": {
+          "categoryName": "Ascenso Escalafón Docente MINED",
+          "totalQuestions": 3300,
+          "interculturalCoveragePercent": 94.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 5.5,
+          "fallbackNoticeEnabled": true
+        },
+        "AVANZO": {
+          "categoryName": "Prueba Nacional AVANZO MINED",
+          "totalQuestions": 3000,
+          "interculturalCoveragePercent": 94.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 5.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ASD": {
+          "categoryName": "Academia Sabatina Departamental (Jóvenes Talento)",
+          "totalQuestions": 2190,
+          "interculturalCoveragePercent": 94.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 5.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ENA": {
+          "categoryName": "Escuela Nacional de Agricultura (ENA)",
+          "totalQuestions": 1400,
+          "interculturalCoveragePercent": 94.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 5.5,
+          "fallbackNoticeEnabled": true
+        },
+        "ANSP": {
+          "categoryName": "Academia Nacional de Seguridad Pública (ANSP)",
+          "totalQuestions": 250,
+          "interculturalCoveragePercent": 94.5,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 5.5,
+          "fallbackNoticeEnabled": true
+        },
+        "IDIOMAS": {
+          "categoryName": "Escuela de Idiomas Kuskat (MCER A1-C2)",
+          "totalQuestions": 16800,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        }
+      }
+    },
+    "ar": {
+      "code": "ar",
+      "name": "Árabe",
+      "nativeName": "العربية",
+      "dir": "rtl",
+      "isIndigenous": false,
+      "uiKeysTotal": 117,
+      "uiKeysCovered": 117,
+      "uiCoveragePercent": 100,
+      "missingKeys": [],
+      "emptyKeys": [],
+      "placeholderMismatches": [],
+      "bankAverageCoveragePercent": 84.57,
+      "categories": {
+        "UES": {
+          "categoryName": "Admisión Universidad de El Salvador (UES)",
+          "totalQuestions": 7500,
+          "interculturalCoveragePercent": 82,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 18,
+          "fallbackNoticeEnabled": true
+        },
+        "ESCALAFON": {
+          "categoryName": "Ascenso Escalafón Docente MINED",
+          "totalQuestions": 3300,
+          "interculturalCoveragePercent": 82,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 18,
+          "fallbackNoticeEnabled": true
+        },
+        "AVANZO": {
+          "categoryName": "Prueba Nacional AVANZO MINED",
+          "totalQuestions": 3000,
+          "interculturalCoveragePercent": 82,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 18,
+          "fallbackNoticeEnabled": true
+        },
+        "ASD": {
+          "categoryName": "Academia Sabatina Departamental (Jóvenes Talento)",
+          "totalQuestions": 2190,
+          "interculturalCoveragePercent": 82,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 18,
+          "fallbackNoticeEnabled": true
+        },
+        "ENA": {
+          "categoryName": "Escuela Nacional de Agricultura (ENA)",
+          "totalQuestions": 1400,
+          "interculturalCoveragePercent": 82,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 18,
+          "fallbackNoticeEnabled": true
+        },
+        "ANSP": {
+          "categoryName": "Academia Nacional de Seguridad Pública (ANSP)",
+          "totalQuestions": 250,
+          "interculturalCoveragePercent": 82,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 18,
+          "fallbackNoticeEnabled": true
+        },
+        "IDIOMAS": {
+          "categoryName": "Escuela de Idiomas Kuskat (MCER A1-C2)",
+          "totalQuestions": 16800,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        }
+      }
+    },
+    "zh": {
+      "code": "zh",
+      "name": "Mandarín",
+      "nativeName": "中文",
+      "dir": "ltr",
+      "isIndigenous": false,
+      "uiKeysTotal": 117,
+      "uiKeysCovered": 117,
+      "uiCoveragePercent": 100,
+      "missingKeys": [],
+      "emptyKeys": [],
+      "placeholderMismatches": [],
+      "bankAverageCoveragePercent": 84.57,
+      "categories": {
+        "UES": {
+          "categoryName": "Admisión Universidad de El Salvador (UES)",
+          "totalQuestions": 7500,
+          "interculturalCoveragePercent": 82,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 18,
+          "fallbackNoticeEnabled": true
+        },
+        "ESCALAFON": {
+          "categoryName": "Ascenso Escalafón Docente MINED",
+          "totalQuestions": 3300,
+          "interculturalCoveragePercent": 82,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 18,
+          "fallbackNoticeEnabled": true
+        },
+        "AVANZO": {
+          "categoryName": "Prueba Nacional AVANZO MINED",
+          "totalQuestions": 3000,
+          "interculturalCoveragePercent": 82,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 18,
+          "fallbackNoticeEnabled": true
+        },
+        "ASD": {
+          "categoryName": "Academia Sabatina Departamental (Jóvenes Talento)",
+          "totalQuestions": 2190,
+          "interculturalCoveragePercent": 82,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 18,
+          "fallbackNoticeEnabled": true
+        },
+        "ENA": {
+          "categoryName": "Escuela Nacional de Agricultura (ENA)",
+          "totalQuestions": 1400,
+          "interculturalCoveragePercent": 82,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 18,
+          "fallbackNoticeEnabled": true
+        },
+        "ANSP": {
+          "categoryName": "Academia Nacional de Seguridad Pública (ANSP)",
+          "totalQuestions": 250,
+          "interculturalCoveragePercent": 82,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 18,
+          "fallbackNoticeEnabled": true
+        },
+        "IDIOMAS": {
+          "categoryName": "Escuela de Idiomas Kuskat (MCER A1-C2)",
+          "totalQuestions": 16800,
+          "interculturalCoveragePercent": 100,
+          "glossaryCoveragePercent": 100,
+          "spanishFallbackPercent": 0,
+          "fallbackNoticeEnabled": true
+        }
+      }
+    }
+  },
+  "errors": [],
+  "warnings": []
+}

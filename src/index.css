@@ -164,3 +164,38 @@
   filter: drop-shadow(0 0 8px rgba(248, 220, 203, 0.22));
 }
 
+/* ==========================================================================
+   SISTEMA MULTILINGÜE INTERCULTURAL: TIPOGRAFÍAS POR SCRIPT, RTL Y ACCESIBILIDAD
+   ========================================================================== */
+html.script-arabic,
+html.script-arabic body {
+  font-family: 'Noto Naskh Arabic', 'Amiri', 'Segoe UI', Tahoma, sans-serif;
+  line-height: 1.75;
+}
+
+html.script-chinese,
+html.script-chinese body {
+  font-family: 'Noto Sans SC', 'PingFang SC', 'Microsoft YaHei', system-ui, sans-serif;
+  line-height: 1.7;
+}
+
+/* Las fórmulas matemáticas KaTeX siempre se leen de izquierda a derecha incluso en modo RTL */
+[dir="rtl"] .katex,
+[dir="rtl"] .katex-display {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* Respetar preferencia de movimiento reducido (WCAG 2.2 AA) */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+

@@ -215,3 +215,22 @@ export function saveCookieConsent(preferences: { analytics: boolean; preferences
     console.error('Error al guardar preferencias de cookies:', e);
   }
 }
+
+/**
+ * Sincroniza el idioma preferido con el perfil de usuario activo (si existe sesión).
+ */
+export function updateUserPreferredLanguage(lang: string): User | null {
+  try {
+    const current = getCurrentUser();
+    if (!current) return null;
+    const updated: User = { ...current, preferredLanguage: lang };
+    safeStorage.setItem(CURRENT_USER_KEY, JSON.stringify(updated));
+    const users = getAllUsers().map(u => (u.id === current.id ? updated : u));
+    safeStorage.setItem(USERS_STORAGE_KEY, JSON.stringify(users));
+    return updated;
+  } catch (e) {
+    console.error('Error al sincronizar idioma de usuario:', e);
+    return null;
+  }
+}
+
