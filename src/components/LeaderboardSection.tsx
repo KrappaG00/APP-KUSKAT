@@ -118,11 +118,11 @@ export const LeaderboardSection: React.FC<LeaderboardSectionProps> = ({
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <div>
-              <h3 className="text-base font-bold text-white flex items-center gap-2">
-                <Crown className="w-5 h-5 text-amber-400" />
+              <h3 className="text-base sm:text-lg font-black text-slate-900 flex items-center gap-2">
+                <Crown className="w-5 h-5 text-amber-500" />
                 Líderes Actuales: Top 1 de Cada Institución ({selectedTimeframe})
               </h3>
-              <p className="text-xs text-slate-400">
+              <p className="text-xs sm:text-sm font-medium text-slate-600 mt-0.5">
                 Selecciona cualquier institución para desplegar la tabla completa con el Top 10 detallado.
               </p>
             </div>

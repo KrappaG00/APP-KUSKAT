@@ -43,6 +43,7 @@ import {
 import { AccountModal } from './components/AccountModal';
 import { LegalModal, LegalTab } from './components/LegalModal';
 import { CookieBanner } from './components/CookieBanner';
+import { AdBanner } from './components/AdBanner';
 import { getCurrentUser } from './services/authService';
 import { User } from './types/auth';
 
@@ -181,6 +182,35 @@ export default function App() {
     setCurrentUser(getCurrentUser());
   }, []);
 
+  // Desactiva la restauración automática del scroll para garantizar inicio arriba
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+  }, []);
+
+  // Cada vez que se dirija a otra página o pestaña, siempre aparece en la parte de arriba
+  useEffect(() => {
+    const scrollToTop = () => {
+      try {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        if (document.documentElement) document.documentElement.scrollTop = 0;
+        if (document.body) document.body.scrollTop = 0;
+      } catch {
+        window.scrollTo(0, 0);
+      }
+    };
+
+    scrollToTop();
+    const rafId = requestAnimationFrame(scrollToTop);
+    const timerId = setTimeout(scrollToTop, 50);
+
+    return () => {
+      cancelAnimationFrame(rafId);
+      clearTimeout(timerId);
+    };
+  }, [activeTab]);
+
   const handleOpenLegalModal = (tab: LegalTab = 'terms') => {
     setLegalModalTab(tab);
     setIsLegalModalOpen(true);
@@ -315,7 +345,7 @@ export default function App() {
               En Desarrollo
             </span>
             <span className="font-medium text-slate-200">
-              Trabajando en material de medicina.
+              Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.
             </span>
           </div>
 
@@ -569,6 +599,9 @@ export default function App() {
         {/* ================================================================== */}
         {activeTab === 'latex' && (
           <div className="space-y-6">
+            {/* Anuncio 1 / 5 (LaTeX) */}
+            <AdBanner variant="light" positionLabel="LaTeX • 1/5 Superior" slotId="4241045160_l1" />
+
             <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-4">
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
                 <div>
@@ -673,6 +706,9 @@ export default function App() {
               </div>
             </div>
 
+            {/* Anuncio 2 / 5 (LaTeX) */}
+            <AdBanner variant="light" positionLabel="LaTeX • 2/5 Alcance" slotId="4241045160_l2" />
+
             {/* Visor de Código LaTeX */}
             <div className="bg-slate-950 rounded-3xl border border-slate-800 p-5 shadow-xl text-slate-200 space-y-3">
               <div className="flex items-center justify-between text-xs text-slate-400 border-b border-slate-800 pb-3 font-mono">
@@ -689,6 +725,54 @@ export default function App() {
                 <code>{currentLatexCode}</code>
               </pre>
             </div>
+
+            {/* Anuncio 3 / 5 (LaTeX) */}
+            <AdBanner variant="light" positionLabel="LaTeX • 3/5 Intermedio" slotId="4241045160_l3" />
+
+            {/* Guía Rápida de Compilación */}
+            <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-3">
+              <div className="flex items-center gap-2 font-bold text-slate-900 text-sm">
+                <Sparkles className="w-4 h-4 text-amber-500" />
+                <span>Instrucciones de Compilación del Documento LaTeX</span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1 text-xs">
+                <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100 space-y-1">
+                  <span className="font-bold text-slate-900 block">1. En Overleaf</span>
+                  <p className="text-slate-500 leading-relaxed">
+                    Crea un proyecto en blanco, reemplaza el contenido de main.tex por el código copiado y presiona Recompile (Ctrl + Enter).
+                  </p>
+                </div>
+                <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100 space-y-1">
+                  <span className="font-bold text-slate-900 block">2. En TeX Live / MiKTeX</span>
+                  <p className="text-slate-500 leading-relaxed">
+                    Descarga el archivo .tex y compila con el motor pdflatex o xelatex para obtener el documento tipográfico listo para imprimir.
+                  </p>
+                </div>
+                <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100 space-y-1">
+                  <span className="font-bold text-slate-900 block">3. Paquetes Incluidos</span>
+                  <p className="text-slate-500 leading-relaxed">
+                    Incluye amsmath, amssymb, geometry, babel con soporte en español y solucionario con justificaciones pedagógicas completas.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Anuncio 4 / 5 (LaTeX) */}
+            <AdBanner variant="light" positionLabel="LaTeX • 4/5 Código" slotId="4241045160_l4" />
+
+            {/* Panel de Resumen Técnico */}
+            <div className="bg-slate-50 rounded-3xl border border-slate-200 p-4 sm:p-5 text-xs text-slate-600 flex flex-col sm:flex-row items-center justify-between gap-3">
+              <div className="flex items-center gap-2">
+                <Check className="w-4 h-4 text-emerald-600 shrink-0" />
+                <span>Documento estandarizado bajo normas tipográficas de la comunidad matemática y científica.</span>
+              </div>
+              <span className="font-mono text-[11px] text-slate-500 bg-white px-2.5 py-1 rounded-lg border border-slate-200 shrink-0">
+                UTF-8 • TeX Live 2026 Compatible
+              </span>
+            </div>
+
+            {/* Anuncio 5 / 5 (LaTeX) */}
+            <AdBanner variant="light" positionLabel="LaTeX • 5/5 Inferior" slotId="4241045160_l5" />
           </div>
         )}
       </main>
@@ -971,7 +1055,7 @@ export default function App() {
               </p>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-50 text-blue-800 font-semibold border border-blue-200 text-[11px]">
                 <Rocket className="w-3.5 h-3.5 text-blue-600 shrink-0" />
-                <span>Trabajando en material de medicina.</span>
+                <span>Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.</span>
               </div>
             </div>
 

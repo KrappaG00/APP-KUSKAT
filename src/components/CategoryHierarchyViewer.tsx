@@ -37,6 +37,7 @@ import katex from 'katex';
 import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel } from '../types';
 import { fetchUnifiedCurriculum, fetchSubtopicQuestions } from '../services/bancoService';
 import { QUESTIONS_DATA } from '../data';
+import { AdBanner } from './AdBanner';
 
 // Componente KaTeX Math integrado
 interface KaTeXMathProps {
@@ -207,6 +208,23 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       isMounted = false;
     };
   }, []);
+
+  // Cada vez que se seleccione otra categoría, materia o tema, aparece en la parte de arriba
+  useEffect(() => {
+    const scrollToTop = () => {
+      try {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        if (document.documentElement) document.documentElement.scrollTop = 0;
+        if (document.body) document.body.scrollTop = 0;
+      } catch {
+        window.scrollTo(0, 0);
+      }
+    };
+
+    scrollToTop();
+    const rafId = requestAnimationFrame(scrollToTop);
+    return () => cancelAnimationFrame(rafId);
+  }, [selectedInst, selectedSubjectId, selectedSubtopicId]);
 
   // Cargar preguntas según la selección activa
   useEffect(() => {
@@ -733,6 +751,9 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
         </div>
       </div>
 
+      {/* Anuncio 1 / 5 (Categorías) */}
+      <AdBanner variant="light" positionLabel="Categorías • 1/5 Superior" slotId="4241045160_c1" />
+
       {/* Botón flotante para abrir el menú en dispositivos móviles */}
       <div className="lg:hidden flex items-center justify-between bg-white p-3.5 rounded-2xl border border-slate-200 shadow-xs">
         <button
@@ -1189,6 +1210,11 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               <span>Ver {displayedQuestions.length} preguntas seleccionadas</span>
             </button>
           </div>
+
+          {/* Anuncio 2 / 5 (Categorías) */}
+          <div className="pt-2 border-t border-slate-100">
+            <AdBanner variant="light" positionLabel="Categorías • 2/5 Filtros" slotId="4241045160_c2" />
+          </div>
         </aside>
 
         {/* ================================================================== */}
@@ -1347,6 +1373,9 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               </div>
             </div>
           </div>
+
+          {/* Anuncio 3 / 5 (Categorías) */}
+          <AdBanner variant="light" positionLabel="Categorías • 3/5 Explorador" slotId="4241045160_c3" />
 
           {/* ================================================================ */}
           {/* LISTADO DE PREGUNTAS AGRUPADAS POR SECCIÓN, TEMA, MATERIA Y TIPO */}
@@ -1717,8 +1746,14 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               ))}
             </div>
           )}
+
+          {/* Anuncio 4 / 5 (Categorías) */}
+          <AdBanner variant="light" positionLabel="Categorías • 4/5 Reactivos" slotId="4241045160_c4" />
         </section>
       </div>
+
+      {/* Anuncio 5 / 5 (Categorías) */}
+      <AdBanner variant="light" positionLabel="Categorías • 5/5 Inferior" slotId="4241045160_c5" />
     </div>
   );
 };

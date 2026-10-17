@@ -39,6 +39,7 @@ import {
 } from '../services/bancoService';
 import { MathText } from './CategoryHierarchyViewer';
 import { LeaderboardSection } from './LeaderboardSection';
+import { AdBanner } from './AdBanner';
 import { saveExamResult } from '../services/statsService';
 import { getCurrentUser } from '../services/authService';
 
@@ -172,6 +173,23 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
       isMounted = false;
     };
   }, []);
+
+  // Cada vez que se cambie de pantalla en el simulador (configurador, examen, resultados) o de reactivo, aparece en la parte de arriba
+  useEffect(() => {
+    const scrollToTop = () => {
+      try {
+        window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+        if (document.documentElement) document.documentElement.scrollTop = 0;
+        if (document.body) document.body.scrollTop = 0;
+      } catch {
+        window.scrollTo(0, 0);
+      }
+    };
+
+    scrollToTop();
+    const rafId = requestAnimationFrame(scrollToTop);
+    return () => cancelAnimationFrame(rafId);
+  }, [quizActive, quizFinished, currentIndex]);
 
   // Si se reciben preguntas iniciales (ej. desde Categorías), configurar examen inmediatamente
   useEffect(() => {
@@ -851,6 +869,9 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
   if (!quizActive) {
     return (
       <div className="max-w-4xl mx-auto space-y-8">
+        {/* 1 Anuncio Arriba del Simulador */}
+        <AdBanner variant="light" positionLabel="Simulador • 1 Arriba" slotId="4241045160_s_top" />
+
         <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-9 shadow-xs space-y-6">
           {/* Cabecera */}
           <div className="text-center space-y-2.5">
@@ -1290,8 +1311,51 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
           </div>
         </div>
 
+        {/* Anuncio 1 / 5 Abajo del Simulador */}
+        <AdBanner variant="light" positionLabel="Simulador • 1/5 Inferior" slotId="4241045160_s_b1" />
+
         {/* Tabla de Estadísticas y Top 10 KUSKAT */}
-        <LeaderboardSection onOpenAccountModal={onOpenAccountModal} />
+        <div className="space-y-4">
+          <LeaderboardSection onOpenAccountModal={onOpenAccountModal} />
+        </div>
+
+        {/* Anuncio 2 / 5 Abajo del Simulador */}
+        <AdBanner variant="light" positionLabel="Simulador • 2/5 Inferior" slotId="4241045160_s_b2" />
+
+        {/* Panel Informativo: Reglas del Sistema de Evaluación KUSKAT */}
+        <div className="bg-white border border-slate-200 rounded-3xl p-5 sm:p-6 shadow-xs space-y-3">
+          <div className="flex items-center gap-2 font-bold text-slate-900 text-sm">
+            <Sparkles className="w-4 h-4 text-amber-500" />
+            <span>Reglas y Metodología del Simulador Maestro KUSKAT</span>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1 text-xs">
+            <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100 space-y-1">
+              <span className="font-bold text-emerald-700 block">✓ Aciertos (+1 pt)</span>
+              <p className="text-slate-500 leading-relaxed">
+                Cada pregunta respondida correctamente suma +1 punto a tu historial y ranking.
+              </p>
+            </div>
+            <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100 space-y-1">
+              <span className="font-bold text-rose-700 block">✗ Errores (-2 pts)</span>
+              <p className="text-slate-500 leading-relaxed">
+                Cada respuesta errónea descuenta -2 puntos. El límite mínimo acumulable es 0 puntos.
+              </p>
+            </div>
+            <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100 space-y-1">
+              <span className="font-bold text-blue-700 block">📅 Ciclos de Clasificación</span>
+              <p className="text-slate-500 leading-relaxed">
+                Ranking Diario, Mensual, Trimestral, Semestral y Anual. El ciclo anual se reinicia el 31 de diciembre.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Anuncios 3, 4 y 5 Abajo del Simulador */}
+        <div className="space-y-3">
+          <AdBanner variant="light" positionLabel="Simulador • 3/5 Inferior" slotId="4241045160_s_b3" />
+          <AdBanner variant="light" positionLabel="Simulador • 4/5 Inferior" slotId="4241045160_s_b4" />
+          <AdBanner variant="light" positionLabel="Simulador • 5/5 Inferior" slotId="4241045160_s_b5" />
+        </div>
       </div>
     );
   }
@@ -1307,6 +1371,13 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
 
     return (
       <div className="max-w-3xl mx-auto space-y-5 animate-fade-in">
+        {/* 1 Anuncio Arriba del Simulador */}
+        <AdBanner
+          variant="light"
+          positionLabel="Simulador Examen • 1 Arriba"
+          slotId="4241045160_se_top"
+        />
+
         {/* Barra de Estado y Progreso */}
         <div className="bg-white border border-slate-200 rounded-2xl p-4 shadow-xs space-y-3">
           <div className="flex items-center justify-between gap-3 flex-wrap">
@@ -1538,6 +1609,35 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
             </div>
           </div>
         )}
+
+        {/* 5 Anuncios Abajo del Simulador */}
+        <div className="space-y-3 pt-2">
+          <AdBanner
+            variant="light"
+            positionLabel="Simulador Examen • 1/5 Inferior"
+            slotId="4241045160_se_b1"
+          />
+          <AdBanner
+            variant="light"
+            positionLabel="Simulador Examen • 2/5 Inferior"
+            slotId="4241045160_se_b2"
+          />
+          <AdBanner
+            variant="light"
+            positionLabel="Simulador Examen • 3/5 Inferior"
+            slotId="4241045160_se_b3"
+          />
+          <AdBanner
+            variant="light"
+            positionLabel="Simulador Examen • 4/5 Inferior"
+            slotId="4241045160_se_b4"
+          />
+          <AdBanner
+            variant="light"
+            positionLabel="Simulador Examen • 5/5 Inferior"
+            slotId="4241045160_se_b5"
+          />
+        </div>
       </div>
     );
   }
@@ -1547,6 +1647,13 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
   // ==========================================================================
   return (
     <div className="max-w-3xl mx-auto space-y-6 animate-fade-in">
+      {/* 1 Anuncio Arriba de Resultados */}
+      <AdBanner
+        variant="light"
+        positionLabel="Simulador Resultados • 1 Arriba"
+        slotId="4241045160_sr_top"
+      />
+
       {/* Tarjeta de Calificación y Desempeño */}
       <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-9 shadow-xs space-y-6 text-center">
         <div
@@ -1896,6 +2003,35 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
 
       {/* Tabla de Estadísticas y Top 10 KUSKAT */}
       <LeaderboardSection onOpenAccountModal={onOpenAccountModal} />
+
+      {/* 5 Anuncios Abajo de Resultados */}
+      <div className="space-y-3 pt-2">
+        <AdBanner
+          variant="light"
+          positionLabel="Simulador Resultados • 1/5 Inferior"
+          slotId="4241045160_sr_b1"
+        />
+        <AdBanner
+          variant="light"
+          positionLabel="Simulador Resultados • 2/5 Inferior"
+          slotId="4241045160_sr_b2"
+        />
+        <AdBanner
+          variant="light"
+          positionLabel="Simulador Resultados • 3/5 Inferior"
+          slotId="4241045160_sr_b3"
+        />
+        <AdBanner
+          variant="light"
+          positionLabel="Simulador Resultados • 4/5 Inferior"
+          slotId="4241045160_sr_b4"
+        />
+        <AdBanner
+          variant="light"
+          positionLabel="Simulador Resultados • 5/5 Inferior"
+          slotId="4241045160_sr_b5"
+        />
+      </div>
     </div>
   );
 };
