@@ -9,7 +9,9 @@ import {
   ArrowLeft,
   X,
   Languages,
-  Printer
+  Printer,
+  BookOpen,
+  Scale
 } from 'lucide-react';
 import { TutorialStep } from '../types';
 
@@ -38,62 +40,62 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
   },
   {
     step: 2,
-    title: 'Categorías, Temario y Secciones Cerradas por Defecto',
-    subtitle: 'Navegación fluida y carga optimizada para estudiar sin demoras',
-    badge: 'Paso 2 de 6 • Malla Curricular',
+    title: 'Categorías, Malla Curricular & Teoría Oficial APA 7.ª Edición',
+    subtitle: 'Fundamentación pedagógica rigurosa (≥500 palabras por materia) y navegación fluida',
+    badge: 'Paso 2 de 6 • Malla & Teoría APA',
     description:
-      'El temario se organiza jerárquicamente por Tipo de Institución, Materia, Tema y Sección. Todas las secciones aparecen cerradas por defecto para que la página cargue de inmediato y tú despliegues solo lo que necesitas estudiar.',
+      'El temario se organiza jerárquicamente por Institución, Materia, Tema y Sección. Todas las categorías cuentan con módulos teóricos exhaustivos de mínimo 500 palabras explicando el porqué epistemológico, ejemplos resueltos paso a paso y referencias bibliográficas académicas en formato APA 7.ª Edición.',
     bulletPoints: [
-      '📂 Secciones cerradas por defecto: Despliega únicamente la sección de tu interés o pulsa "Expandir Todo" con un solo clic.',
-      '🌱 Nivel Básico: Conceptos elementales, definiciones fundamentales y ejemplos introductorios.',
-      '⚙️ Nivel Intermedio: Procedimientos paso a paso, propiedades analíticas, algoritmos y fórmulas aplicadas.',
-      '🎯 Nivel Admisión: Reactivos integradores con el rigor, estructura y estándar real de la prueba oficial.',
-      '🔍 Buscador Inteligente: Filtra al instante por palabras clave, términos científicos o fórmulas KaTeX.',
+      '📖 Teoría Académica Exhaustiva (≥500 palabras): Cada materia y categoría integra fundamentación pedagógica completa con desarrollo epistemológico y justificación detallada.',
+      '📚 Referencias Bibliográficas APA 7.ª Edición: Citas y fuentes formales oficiales (MINED, UES, RAE, Duden, Cambridge, etc.) para consulta y rigor académico.',
+      '📂 Secciones cerradas por defecto: Optimización de rendimiento para carga ultra rápida; despliega solo el tema que deseas estudiar.',
+      '🌱 Niveles Pedagógicos (Básico, Intermedio y Admisión): Progresión didáctica desde conceptos elementales hasta reactivos integradores de alta dificultad.',
+      '🔍 Buscador Inteligente Instantáneo: Filtra preguntas y conceptos en tiempo real por palabras clave, áreas temáticas o fórmulas KaTeX.',
     ],
   },
   {
     step: 3,
-    title: 'Escuela de Idiomas Kuskat: 7 Lenguas & Rescate Cultural',
-    subtitle: '840 clases exhaustivas (≥500 palabras), 16,800 reactivos (400 por nivel), audio nativo y flashcards 3D',
-    badge: 'Paso 3 de 6 • Idiomas Multilingüe',
+    title: 'Escuela de Idiomas Kuskat: 7 Lenguas & Menú de hasta 400 Preguntas',
+    subtitle: '840 clases (≥500 palabras), 16,800 reactivos (400 por nivel), simulador con selector de idioma, área y conteo',
+    badge: 'Paso 3 de 6 • Idiomas & Simulador',
     description:
-      'Aprende y domina 7 idiomas estructurados bajo el estándar internacional MCER/CEFR (A1 a C2), diseñados especialmente desde la perspectiva lingüística del español de El Salvador, integrando lenguas originarias y globales.',
+      'Aprende y domina 7 idiomas estructurados bajo el estándar internacional MCER/CEFR (A1 a C2), con selector interactivo para elegir la lengua, el área temática y el número de reactivos (desde 10 hasta las 400 preguntas completas por nivel o banco íntegro).',
     bulletPoints: [
-      '🗣️ 7 Idiomas Disponibles: Inglés (US vs. UK), Náhuat Pipil (Witzapan/IRIN), Lenca Potón, Kakawira (Cacaopera), Alemán (DACH), Árabe (Fus\'ha y Levantino) y Mandarín (Pǔtōnghuà con Hanzi y Pinyin).',
-      '📚 840 Clases Teóricas Rigurosas: 120 lecciones completas por idioma (20 por nivel A1-C2) con más de 500 palabras de contenido pedagógico, diálogos culturales, tablas gramaticales y ejercicios resueltos.',
-      '📝 Simulador Multilingüe (16,800 Reactivos): 2,400 preguntas oficiales por idioma (400 por nivel) con explicaciones gramaticales detalladas y sistema de puntuación oficial +1 / -2.',
-      '🔢 Fundamentos y Conversores Numéricos en Vivo: Conversores interactivos decimales, vigesimales náhuat, decenas invertidas en alemán, numeración árabe y caracteres Hanzi en tiempo real.',
-      '🔊 Pronunciación con Audio y Flashcards 3D: Abecedarios fonéticos, catálogo de colores, objetos cotidianos con síntesis de voz Web Speech API, verbos esenciales y tarjetas de memoria con volteo tridimensional.',
+      '🗣️ 7 Idiomas Activos: Inglés (US vs. UK), Náhuat Pipil (Witzapan), Lenca Potón, Kakawira (Cacaopera), Alemán (DACH), Árabe (Fus\'ha y Levantino) y Mandarín (Pǔtōnghuà con Hanzi y Pinyin).',
+      '⚙️ Menú de Configuración de Examen: Selecciona tu lengua, nivel MCER (A1-C2), área temática y cantidad de reactivos: 10, 25, 50, 100, 200, 400 (Banco Completo ⭐), TODAS o cantidad personalizada.',
+      '📚 840 Clases Teóricas Rigurosas: 120 lecciones completas por idioma (20 por nivel A1-C2) con más de 500 palabras de contenido, diálogos culturales y citas APA 7.ª Edición.',
+      '📝 16,800 Reactivos Multilingües: 2,400 preguntas oficiales por idioma (400 por nivel) evaluables en Opción Múltiple (A-D) o Verdadero/Falso (V/F) con mapa interactivo de navegación.',
+      '🔊 Audio Nativo, Flashcards 3D y Conversores: Síntesis de voz Web Speech API, tarjetas 3D interactivas, diccionarios de verbos y conversores numéricos en vivo.',
     ],
   },
   {
     step: 4,
-    title: 'Cuentas Nativas, KaTeX y Doble Consentimiento',
-    subtitle: 'Inicia sesión sin intermediarios externos y con estricta minimización de datos',
-    badge: 'Paso 4 de 6 • Cuentas & KaTeX',
+    title: 'Evaluación en Verdadero o Falso (V/F), KaTeX & Cuentas Nativas',
+    subtitle: 'Doble modalidad evaluativa en todas las preguntas, renderizado matemático y privacidad estricta',
+    badge: 'Paso 4 de 6 • V/F, KaTeX & Cuentas',
     description:
-      'Crea tu cuenta de estudiante nativa directamente en KUSKAT con solo usuario y contraseña (sin Google ni Facebook). Todas las expresiones científicas se renderizan en tipografía KaTeX nítida y legible.',
+      'Personaliza tu método de estudio alternando en cualquier momento entre Opción Múltiple (A–D) y Verdadero o Falso (V/F) para todas las 34,440 preguntas del proyecto. Además, cuentas nativas seguras con KaTeX de alta precisión.',
     bulletPoints: [
-      '👤 Cuenta Nativa sin Intermediarios: Regístrate con tu usuario y contraseña cifrada con SHA-256 localmente en tu navegador.',
-      '🔒 Minimización de Datos: Solo se solicita usuario, correo y clave. Cero recopilación de fotos o datos innecesarios.',
-      '📝 Dos Casillas Separadas: Consentimiento explícito e independiente para Términos de Uso y Política de Privacidad con auditoría.',
-      '📐 Tipografía KaTeX Profesional: Fracciones, integrales, matrices, vectores y reacciones químicas de alta resolución.',
-      '🎓 Modo Tutor Inmediato: Actívalo en el simulador para recibir la explicación y solución KaTeX al momento de responder.',
+      '⚖️ Modo Verdadero o Falso (V/F) Global: Evalúate en V/F en cualquier examen, materia o idioma con proposiciones generadas dinámicamente.',
+      '🎯 Opción Múltiple Tradicional (A–D): Cuatro alternativas con distractores pedagógicos calibrados y justificación oficial.',
+      '👤 Cuentas Nativas con SHA-256: Sin intermediarios externos (sin Google ni Facebook); contraseñas cifradas localmente en el navegador.',
+      '📝 Doble Consentimiento Explícito: Casillas independientes para Términos de Uso y Política de Privacidad auditada.',
+      '📐 Tipografía KaTeX Profesional: Renderizado perfecto de fórmulas matemáticas, matrices, vectores y ecuaciones químicas.',
     ],
   },
   {
     step: 5,
-    title: 'Simulador de Examen y Tabla Top 1 / Top 10 Nacional',
-    subtitle: 'Cronómetro oficial, puntuación +1 / -2 y ranking con reinicio anual',
-    badge: 'Paso 5 de 6 • Simulador & Ranking',
+    title: 'Simulador Maestro, Remediación Inmediata & Ranking Top 1 / 10',
+    subtitle: 'Práctica personalizada hasta 400 preguntas, refuerzo de errores y ranking nacional',
+    badge: 'Paso 5 de 6 • Simulador & Refuerzo',
     description:
-      'Ponte a prueba en condiciones reales de examen. Al final de la sección encontrarás la tabla de clasificación nacional con puntuación oficial KUSKAT y filtros por periodos académicos.',
+      'Configura simulacros desde 5 hasta 400 preguntas por área o nivel. Si fallas una pregunta, el solucionario te permite activar de inmediato un reactivo equivalente para reforzar ese tema específico.',
     bulletPoints: [
-      '⏱️ Temporizador y Modo Táctil: Elige 1.0 min, 1.5 min por pregunta o práctica libre con interfaz 100% web responsive.',
-      '🏆 Puntuación Oficial: +1 punto por cada acierto, -2 puntos por cada error, con tope mínimo en 0 (sin saldo negativo).',
-      '👑 Líderes Top 1 Inicial: Antes de interactuar con la tabla, se exhibe el Top 1 de cada una de las convocatorias institucionales.',
-      '📊 Tabla Top 10 Interactiva: Filtra por periodos Diario, Mensual, Trimestral, Semestral y Anual.',
-      '🔄 Ciclo Anual (1 Ene - 31 Dic): El ranking anual inicia el 1 de enero y se reinicia automáticamente cada 31 de diciembre.',
+      '🔄 Remediación Pedagógica en Solucionario: Ante cualquier error, practica al instante con una pregunta similar equivalente del mismo subtema.',
+      '⏱️ Temporizador Flexible y Modo Tutor: Elige 1.0 min, 1.5 min por reactivo o modo sin tiempo, con retroalimentación inmediata opcional.',
+      '🏆 Puntuación Oficial KUSKAT: +1 punto por cada acierto, -2 puntos por cada error, con tope mínimo en 0 (cero saldo negativo).',
+      '👑 Salón de Honor Top 1 & Top 10: Clasificación nacional por convocatoria con filtros Diario, Mensual, Trimestral, Semestral y Anual.',
+      '📅 Ciclo Anual Automático: El ranking nacional se renueva de forma transparente cada 31 de diciembre a medianoche.',
     ],
   },
   {
@@ -102,10 +104,11 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
     subtitle: 'Boleta de notas 100% en memoria, cero archivos en la nube y normativas de El Salvador',
     badge: 'Paso 6 de 6 • Exámenes & Legal',
     description:
-      'En el apartado "CUENTA" puedes consultar todos tus exámenes realizados guardados en formato de texto. Genera boletas oficiales en PDF sin almacenar ningún archivo temporal en la nube.',
+      'En el apartado "CUENTA" puedes consultar todos tus exámenes realizados guardados en formato de texto. Genera boletas oficiales en PDF y exporta a LaTeX sin almacenar ningún archivo temporal en la nube.',
     bulletPoints: [
       '📋 Historial de Exámenes Realizados: Revisa en "CUENTA" tus evaluaciones anteriores con aciertos, errores, fecha y puntaje.',
       '🖨️ Imprimir / Exportar a PDF: Emite al instante tu boleta oficial y solucionario para imprimir o descargar en PDF en tu navegador.',
+      '📄 Exportador LaTeX Completo: Genera código fuente TeX profesional con formato de admisión listo para Overleaf.',
       '🛡️ Cero Documentos en la Nube: Todo se genera en la memoria de tu dispositivo; al salir no queda ningún archivo temporal en servidores.',
       '⚖️ Cumplimiento Legal Salvadoreño: Respaldado por la Constitución de El Salvador (Arts. 53-54), Ley de Comercio Electrónico y Delitos Informáticos.',
       '💬 Canales de Contacto: Conéctate con el creador Yeferson E. Perez por WhatsApp (+503 7943 9901) e Instagram (@Kuskat.es).',
@@ -118,11 +121,11 @@ const getStepIcon = (stepNum: number) => {
     case 1:
       return <GraduationCap className="w-5 h-5 text-amber-300" />;
     case 2:
-      return <Layers className="w-5 h-5 text-blue-300" />;
+      return <BookOpen className="w-5 h-5 text-blue-300" />;
     case 3:
       return <Languages className="w-5 h-5 text-emerald-300" />;
     case 4:
-      return <Shield className="w-5 h-5 text-indigo-300" />;
+      return <Scale className="w-5 h-5 text-indigo-300" />;
     case 5:
       return <Award className="w-5 h-5 text-amber-300" />;
     case 6:

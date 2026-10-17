@@ -73,6 +73,33 @@ describe('Tutorial de Onboarding Interactivo (6 Pasos y Persistencia)', () => {
     expect(allBulletText).toContain('400');
   });
 
+  it('el paso de malla curricular detalla la teoría oficial de ≥500 palabras y formato APA 7.ª Edición', () => {
+    const theoryStep = TUTORIAL_STEPS.find((s) => s.step === 2);
+    expect(theoryStep).toBeDefined();
+    expect(theoryStep?.title).toContain('APA 7.ª Edición');
+    const text = (theoryStep?.description || '') + ' ' + (theoryStep?.bulletPoints.join(' ') || '');
+    expect(text).toContain('500');
+    expect(text).toContain('APA 7');
+  });
+
+  it('el paso evaluativo destaca la modalidad de Verdadero o Falso (V/F) y Opción Múltiple (A-D)', () => {
+    const evalStep = TUTORIAL_STEPS.find((s) => s.step === 4);
+    expect(evalStep).toBeDefined();
+    expect(evalStep?.title).toContain('Verdadero o Falso');
+    const text = (evalStep?.description || '') + ' ' + (evalStep?.bulletPoints.join(' ') || '');
+    expect(text).toContain('Verdadero o Falso');
+    expect(text).toContain('V/F');
+    expect(text).toContain('Opción Múltiple');
+  });
+
+  it('el paso del simulador incluye la remediación pedagógica inmediata ante errores', () => {
+    const simStep = TUTORIAL_STEPS.find((s) => s.step === 5);
+    expect(simStep).toBeDefined();
+    expect(simStep?.title).toContain('Remediación Inmediata');
+    const text = (simStep?.description || '') + ' ' + (simStep?.bulletPoints.join(' ') || '');
+    expect(text.toLowerCase()).toContain('remediación pedagógica');
+  });
+
   it('respeta la preferencia de persistencia en localStorage cuando el usuario marca no volver a mostrar', () => {
     const STORAGE_KEY = 'kuskat_tutorial_never_show';
     expect(localStorage.getItem(STORAGE_KEY)).toBeNull();
