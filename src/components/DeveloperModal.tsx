@@ -3,8 +3,7 @@ import {
   X,
   MessageCircle,
   Instagram,
-  Sparkles,
-  Rocket,
+  Compass,
   CheckCircle2,
   BookOpen,
   GraduationCap,
@@ -23,28 +22,28 @@ export const DeveloperModal: React.FC<DeveloperModalProps> = ({ isOpen, onClose 
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-900/60 backdrop-blur-sm animate-fade-in"
+      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-[#0B1B3D]/70 backdrop-blur-xs animate-fade-in"
       onClick={onClose}
     >
       <div
-        className="bg-white rounded-3xl border border-slate-200 shadow-2xl max-w-lg w-full max-h-[92vh] flex flex-col overflow-hidden relative animate-scale-up"
+        className="bg-[#FAF9F5] rounded-xl border border-[#D5D3C7] shadow-corporate-elevated max-w-lg w-full max-h-[92vh] flex flex-col overflow-hidden relative animate-scale-up"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Modal Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-3.5 right-3.5 p-2 text-slate-400 hover:text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-full transition-colors cursor-pointer z-10"
+          className="absolute top-4 right-4 p-1.5 text-white/70 hover:text-white bg-white/10 hover:bg-white/20 rounded-md transition-colors cursor-pointer z-20"
           aria-label="Cerrar modal"
         >
-          <X className="w-5 h-5" />
+          <X className="w-4 h-4" />
         </button>
 
-        {/* Header Banner */}
-        <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 p-5 sm:p-7 text-white text-center relative overflow-hidden shrink-0">
+        {/* Header Banner - Corporate Sovereign Navy */}
+        <div className="bg-[#0B1B3D] border-b border-[#1A2E5A] p-6 text-white text-center relative overflow-hidden shrink-0">
           <div className="relative z-10 flex flex-col items-center">
             {/* Logo and Developer Avatar */}
-            <div className="flex items-center justify-center gap-3 sm:gap-4 mb-3">
-              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-white/10 p-2 border border-white/20 backdrop-blur-md flex items-center justify-center shadow-lg">
+            <div className="flex items-center justify-center gap-3.5 mb-3.5">
+              <div className="w-14 h-14 rounded-lg bg-[#07132B] p-2 border border-[#C59B27]/40 flex items-center justify-center shadow-sm">
                 <img
                   src="/kuskat_logo.png"
                   alt="Logo KUSKAT"
@@ -52,7 +51,7 @@ export const DeveloperModal: React.FC<DeveloperModalProps> = ({ isOpen, onClose 
                 />
               </div>
 
-              <div className="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl overflow-hidden border-2 border-amber-400 shadow-lg shrink-0">
+              <div className="w-14 h-14 rounded-lg overflow-hidden border border-[#C59B27] shadow-sm shrink-0 bg-[#07132B]">
                 <img
                   src="/yeferson_perez.jpg"
                   alt="Yeferson E. Perez - Desarrollador KUSKAT"
@@ -61,47 +60,46 @@ export const DeveloperModal: React.FC<DeveloperModalProps> = ({ isOpen, onClose 
               </div>
             </div>
 
-            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-400/20 text-amber-300 text-xs font-bold border border-amber-400/30 mb-1">
-              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-              <span>Desarrollador & Creador</span>
+            <div className="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-[#132A5C] text-[#C59B27] text-[11px] font-semibold font-mono-exam uppercase tracking-wider border border-[#C59B27]/30 mb-1.5">
+              <span>Fundador & Desarrollador</span>
             </div>
 
-            <h3 className="text-xl sm:text-2xl font-extrabold tracking-tight">
+            <h3 className="text-xl sm:text-2xl font-editorial font-bold tracking-tight text-white">
               Yeferson E. Perez
             </h3>
-            <p className="text-xs text-slate-300 font-medium">
-              Fundador & Desarrollador del Proyecto KUSKAT
+            <p className="text-xs text-[#CBD5E1] font-sans-ui mt-0.5">
+              Dirección Académica & Plataforma Tecnológica KUSKAT
             </p>
           </div>
         </div>
 
-        {/* Content Body - Scrollable on mobile */}
-        <div className="p-5 sm:p-7 space-y-4 sm:space-y-5 text-slate-700 overflow-y-auto touch-scroll flex-1">
-          {/* Biography & Academic Profile of Yeferson E. Perez */}
-          <div className="bg-gradient-to-br from-slate-50 to-blue-50/40 p-4 sm:p-5 rounded-2xl border border-slate-200/90 text-xs sm:text-sm space-y-3">
-            <h4 className="font-extrabold text-slate-900 flex items-center gap-2 text-xs uppercase tracking-wider">
-              <UserCheck className="w-4 h-4 text-blue-600" />
-              <span>Perfil Académico & Biografía</span>
+        {/* Content Body - Scrollable */}
+        <div className="p-5 sm:p-6 space-y-4 text-[#111625] overflow-y-auto touch-scroll flex-1 font-sans-ui">
+          {/* Biography & Academic Profile */}
+          <div className="bg-white p-4 rounded-lg border border-[#E5E3D8] shadow-corporate-subtle space-y-3">
+            <h4 className="font-mono-exam text-[11px] font-bold text-[#475569] uppercase tracking-wider flex items-center gap-2">
+              <UserCheck className="w-3.5 h-3.5 text-[#0B1B3D]" />
+              <span>Perfil Académico & Formación</span>
             </h4>
 
-            <div className="space-y-2.5">
-              <div className="flex items-start gap-2.5 bg-white p-2.5 rounded-xl border border-slate-200/80 shadow-2xs">
-                <GraduationCap className="w-4 h-4 text-blue-600 shrink-0 mt-0.5" />
-                <p className="text-xs text-slate-800 leading-snug font-medium">
+            <div className="space-y-2">
+              <div className="flex items-start gap-2.5 p-2 rounded-md bg-[#FAF9F5] border border-[#E5E3D8]">
+                <GraduationCap className="w-4 h-4 text-[#0B1B3D] shrink-0 mt-0.5" />
+                <p className="text-xs text-[#1E293B] leading-snug font-medium">
                   <strong>Estudiante de Ciencias Computacionales y Ciencias Médicas, proximamente :).</strong>
                 </p>
               </div>
 
-              <div className="flex items-start gap-2.5 bg-white p-2.5 rounded-xl border border-slate-200/80 shadow-2xs">
-                <Award className="w-4 h-4 text-amber-600 shrink-0 mt-0.5" />
-                <p className="text-xs text-slate-800 leading-snug font-medium">
+              <div className="flex items-start gap-2.5 p-2 rounded-md bg-[#FAF9F5] border border-[#E5E3D8]">
+                <Award className="w-4 h-4 text-[#C59B27] shrink-0 mt-0.5" />
+                <p className="text-xs text-[#1E293B] leading-snug font-medium">
                   <strong>Exalumno de Jóvenes Talento - ASD Morazán.</strong>
                 </p>
               </div>
 
-              <div className="flex items-start gap-2.5 bg-white p-2.5 rounded-xl border border-slate-200/80 shadow-2xs">
-                <School className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-                <p className="text-xs text-slate-800 leading-snug font-medium">
+              <div className="flex items-start gap-2.5 p-2 rounded-md bg-[#FAF9F5] border border-[#E5E3D8]">
+                <School className="w-4 h-4 text-[#9E472A] shrink-0 mt-0.5" />
+                <p className="text-xs text-[#1E293B] leading-snug font-medium">
                   <strong>Educación media cursada en CECEM.</strong>
                 </p>
               </div>
@@ -109,86 +107,65 @@ export const DeveloperModal: React.FC<DeveloperModalProps> = ({ isOpen, onClose 
           </div>
 
           {/* About KUSKAT */}
-          <div className="bg-slate-50 p-4 rounded-2xl border border-slate-200/80 text-xs sm:text-sm leading-relaxed space-y-2">
-            <h4 className="font-extrabold text-slate-900 flex items-center gap-2">
-              <BookOpen className="w-4 h-4 text-blue-600" />
+          <div className="bg-[#F4F3ED] p-4 rounded-lg border border-[#E5E3D8] text-xs leading-relaxed space-y-1.5">
+            <h4 className="font-mono-exam text-[11px] font-bold text-[#475569] uppercase tracking-wider flex items-center gap-1.5">
+              <BookOpen className="w-3.5 h-3.5 text-[#0B1B3D]" />
               <span>Sobre el Proyecto KUSKAT</span>
             </h4>
-            <p className="text-slate-600 text-xs leading-relaxed">
+            <p className="text-[#334155] leading-relaxed">
               <strong>KUSKAT</strong> es una plataforma salvadoreña de preparación académica integral diseñada para maximizar el desempeño en pruebas de admisión universitaria (UES) y de la Academia Nacional de Seguridad Pública (ANSP).
             </p>
           </div>
 
-          {/* Working in progress */}
-          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-4 rounded-2xl border border-blue-200/80">
+          {/* Institutional Agenda & R&D */}
+          <div className="bg-white p-4 rounded-lg border border-[#E5E3D8] shadow-corporate-subtle">
             <div className="flex items-start gap-3">
-              <div className="p-2 bg-blue-600 text-white rounded-xl shrink-0 mt-0.5 shadow-xs">
-                <Rocket className="w-4 h-4" />
+              <div className="p-2 bg-[#0B1B3D] text-[#C59B27] rounded-md shrink-0 mt-0.5">
+                <Compass className="w-4 h-4" />
               </div>
               <div className="space-y-1">
-                <p className="text-xs font-bold text-blue-950 uppercase tracking-wider">
-                  Próximos Lanzamientos en Desarrollo:
+                <p className="text-[11px] font-bold font-mono-exam text-[#0B1B3D] uppercase tracking-wider">
+                  Agenda de Investigación & Desarrollo:
                 </p>
-                <p className="text-xs font-semibold text-blue-800 leading-snug">
-                  Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.
+                <p className="text-xs text-[#475569] leading-snug">
+                  Trabajando en material de medicina. Los anuncios que contiene la página representan un apoyo económico directo para sustentar los estudios universitarios del desarrollador.
                 </p>
-                <div className="pt-1 flex flex-wrap gap-2 text-[11px] font-medium text-blue-700">
-                  <span className="inline-flex items-center gap-1 bg-white px-2 py-0.5 rounded-md border border-blue-200 shadow-2xs">
-                    <CheckCircle2 className="w-3 h-3 text-emerald-600" /> Prueba AVANZO
+                <div className="pt-1.5 flex flex-wrap gap-2 text-[11px] font-mono-exam">
+                  <span className="inline-flex items-center gap-1 bg-[#FAF9F5] text-[#0B1B3D] px-2 py-0.5 rounded border border-[#E5E3D8]">
+                    <CheckCircle2 className="w-3 h-3 text-[#1E7E34]" /> Prueba AVANZO
                   </span>
-                  <span className="inline-flex items-center gap-1 bg-white px-2 py-0.5 rounded-md border border-blue-200 shadow-2xs">
-                    <CheckCircle2 className="w-3 h-3 text-emerald-600" /> Material de Medicina
+                  <span className="inline-flex items-center gap-1 bg-[#FAF9F5] text-[#0B1B3D] px-2 py-0.5 rounded border border-[#E5E3D8]">
+                    <CheckCircle2 className="w-3 h-3 text-[#1E7E34]" /> Material de Medicina
                   </span>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Contact Channels */}
-          <div className="space-y-2.5 pt-1">
-            <h4 className="text-xs font-bold text-slate-500 uppercase tracking-wider">
-              Canales de Comunicación & WhatsApp:
+          {/* Official Communication Channels */}
+          <div className="space-y-2 pt-1">
+            <h4 className="text-[11px] font-bold font-mono-exam text-[#64748B] uppercase tracking-wider">
+              Canales Oficiales de Comunicación:
             </h4>
 
-            {/* Business WhatsApp - KUSKAT */}
+            {/* Business WhatsApp - KUSKAT (Mandatory +503 7657 4463 preserved) */}
             <a
               href="https://wa.me/50376574463?text=Hola%20KUSKAT,%20estoy%20estudiando%20desde%20tu%20app%20de%20estudio%20:)"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between p-3 rounded-2xl bg-emerald-50 hover:bg-emerald-100/80 border border-emerald-200 text-emerald-950 transition-all text-xs sm:text-sm font-semibold group cursor-pointer"
+              className="flex items-center justify-between p-3 rounded-lg bg-white hover:bg-[#FAF9F5] border border-[#E5E3D8] hover:border-[#1E7E34] text-[#111625] transition-all text-xs font-semibold group cursor-pointer shadow-corporate-subtle"
             >
               <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-emerald-600 text-white flex items-center justify-center shadow-xs group-hover:scale-105 transition-transform">
-                  <MessageCircle className="w-5 h-5" />
+                <div className="w-8 h-8 rounded-md bg-[#1E7E34] text-white flex items-center justify-center shrink-0">
+                  <MessageCircle className="w-4 h-4" />
                 </div>
                 <div>
-                  <span className="block font-bold">WhatsApp KUSKAT (Negocio)</span>
-                  <span className="text-xs text-emerald-800 font-mono font-medium">+503 7657 4463</span>
+                  <span className="block font-bold text-xs">WhatsApp KUSKAT (Oficial)</span>
+                  <span className="text-xs text-[#1E7E34] font-mono-exam">+503 7657 4463</span>
                 </div>
               </div>
-              <span className="text-[11px] font-bold bg-white text-emerald-700 px-2.5 py-1 rounded-xl shadow-2xs border border-emerald-200 shrink-0">
-                Estudiantes
-              </span>
-            </a>
-
-            {/* Personal WhatsApp - Yeferson Perez */}
-            <a
-              href="https://wa.me/50379439901?text=Hola%20Yeferson%20Perez,%20paso%20a%20saludar,%20estoy%20en%20la%20app%20de%20estudio%20:)"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center justify-between p-3 rounded-2xl bg-blue-50 hover:bg-blue-100/80 border border-blue-200 text-blue-950 transition-all text-xs sm:text-sm font-semibold group cursor-pointer"
-            >
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center shadow-xs group-hover:scale-105 transition-transform">
-                  <MessageCircle className="w-5 h-5" />
-                </div>
-                <div>
-                  <span className="block font-bold">WhatsApp Personal (Yeferson E. Perez)</span>
-                  <span className="text-xs text-blue-800 font-mono font-medium">+503 7943 9901</span>
-                </div>
-              </div>
-              <span className="text-[11px] font-bold bg-white text-blue-700 px-2.5 py-1 rounded-xl shadow-2xs border border-blue-200 shrink-0">
-                Saludar
+              <span className="text-[11px] font-bold font-mono-exam bg-[#F4F3ED] text-[#1E7E34] px-2 py-0.5 rounded border border-[#E5E3D8] shrink-0">
+                Atención Estudiantil
               </span>
             </a>
 
@@ -197,18 +174,18 @@ export const DeveloperModal: React.FC<DeveloperModalProps> = ({ isOpen, onClose 
               href="https://instagram.com/Kuskat.es"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-between p-3 rounded-2xl bg-gradient-to-r from-pink-50 via-purple-50 to-pink-50 hover:bg-pink-100/80 border border-pink-200 text-slate-900 transition-all text-xs sm:text-sm font-semibold group cursor-pointer"
+              className="flex items-center justify-between p-3 rounded-lg bg-white hover:bg-[#FAF9F5] border border-[#E5E3D8] hover:border-[#C59B27] text-[#111625] transition-all text-xs font-semibold group cursor-pointer shadow-corporate-subtle"
             >
               <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-amber-500 via-pink-600 to-purple-600 text-white flex items-center justify-center shadow-xs group-hover:scale-105 transition-transform">
-                  <Instagram className="w-5 h-5" />
+                <div className="w-8 h-8 rounded-md bg-[#0B1B3D] text-[#C59B27] flex items-center justify-center shrink-0">
+                  <Instagram className="w-4 h-4" />
                 </div>
                 <div>
-                  <span className="block font-bold">Instagram Oficial</span>
-                  <span className="text-xs text-pink-700 font-medium">@Kuskat.es</span>
+                  <span className="block font-bold text-xs">Instagram Institucional</span>
+                  <span className="text-xs text-[#64748B] font-mono-exam">@Kuskat.es</span>
                 </div>
               </div>
-              <span className="text-[11px] font-bold bg-white text-pink-700 px-2.5 py-1 rounded-xl shadow-2xs border border-pink-200 shrink-0">
+              <span className="text-[11px] font-bold font-mono-exam bg-[#F4F3ED] text-[#0B1B3D] px-2 py-0.5 rounded border border-[#E5E3D8] shrink-0">
                 Seguir
               </span>
             </a>
@@ -216,8 +193,8 @@ export const DeveloperModal: React.FC<DeveloperModalProps> = ({ isOpen, onClose 
         </div>
 
         {/* Modal Footer */}
-        <div className="bg-slate-50 px-6 py-4 border-t border-slate-200 text-center text-xs text-slate-500">
-          <span>KUSKAT © 2026 • Todos los derechos reservados</span>
+        <div className="bg-[#F2F1EA] px-6 py-3 border-t border-[#E5E3D8] text-center text-xs text-[#64748B] font-mono-exam">
+          <span>KUSKAT © 2026 • Plataforma Académica Soberana</span>
         </div>
       </div>
     </div>

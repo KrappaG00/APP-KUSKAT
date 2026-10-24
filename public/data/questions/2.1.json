@@ -625,23 +625,23 @@
       },
       {
         "key": "B",
-        "text": "gato"
+        "text": "árbol"
       },
       {
         "key": "C",
-        "text": "perro"
+        "text": "mesa"
       },
       {
         "key": "D",
-        "text": "ratón"
+        "text": "lápiz"
       },
       {
         "key": "E",
-        "text": "conejo"
+        "text": "cántaro"
       },
       {
         "key": "F",
-        "text": "hámster"
+        "text": "música"
       }
     ],
     "correctAnswer": "A",
@@ -661,23 +661,23 @@
       },
       {
         "key": "B",
-        "text": "ratón"
+        "text": "árbol"
       },
       {
         "key": "C",
-        "text": "ratón"
+        "text": "mesa"
       },
       {
         "key": "D",
-        "text": "ratón"
+        "text": "lápiz"
       },
       {
         "key": "E",
-        "text": "ratón"
+        "text": "cántaro"
       },
       {
         "key": "F",
-        "text": "ratón"
+        "text": "música"
       }
     ],
     "correctAnswer": "A",
@@ -1309,23 +1309,23 @@
       },
       {
         "key": "B",
-        "text": "temblor"
+        "text": "árbol"
       },
       {
         "key": "C",
-        "text": "temblor"
+        "text": "mesa"
       },
       {
         "key": "D",
-        "text": "temblor"
+        "text": "lápiz"
       },
       {
         "key": "E",
-        "text": "temblor"
+        "text": "cántaro"
       },
       {
         "key": "F",
-        "text": "temblor"
+        "text": "música"
       }
     ],
     "correctAnswer": "A",
@@ -4337,19 +4337,19 @@
       },
       {
         "key": "C",
-        "text": "El niño"
+        "text": "Ell niño"
       },
       {
         "key": "D",
-        "text": "Él niño"
+        "text": "El ninio"
       },
       {
         "key": "E",
-        "text": "El niño"
+        "text": "Los niño"
       },
       {
         "key": "F",
-        "text": "Él niño"
+        "text": "Lo niño"
       }
     ],
     "correctAnswer": "A",
@@ -4373,19 +4373,19 @@
       },
       {
         "key": "C",
-        "text": "Mi casa"
+        "text": "Mis casa"
       },
       {
         "key": "D",
-        "text": "Mí casa"
+        "text": "Me casa"
       },
       {
         "key": "E",
-        "text": "Mi casa"
+        "text": "La mi casa"
       },
       {
         "key": "F",
-        "text": "Mí casa"
+        "text": "Le casa"
       }
     ],
     "correctAnswer": "A",
@@ -4409,19 +4409,19 @@
       },
       {
         "key": "C",
-        "text": "Tu libro"
+        "text": "Ti libro"
       },
       {
         "key": "D",
-        "text": "Tú libro"
+        "text": "Tus libro"
       },
       {
         "key": "E",
-        "text": "Tu libro"
+        "text": "El tu libro"
       },
       {
         "key": "F",
-        "text": "Tú libro"
+        "text": "Te libro"
       }
     ],
     "correctAnswer": "A",
@@ -4437,7 +4437,7 @@
     "options": [
       {
         "key": "A",
-        "text": "El te"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -4445,19 +4445,19 @@
       },
       {
         "key": "C",
-        "text": "El te"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "El té"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "El te"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "El té"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "B",
@@ -4477,23 +4477,23 @@
       },
       {
         "key": "B",
-        "text": "Mí"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Mi"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mí"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Mi"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mí"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4513,23 +4513,23 @@
       },
       {
         "key": "B",
-        "text": "Se"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Se"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Se"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4549,23 +4549,23 @@
       },
       {
         "key": "B",
-        "text": "De"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Dé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "De"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Dé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "De"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4585,23 +4585,23 @@
       },
       {
         "key": "B",
-        "text": "Mas"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Más"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mas"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Más"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mas"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4621,23 +4621,23 @@
       },
       {
         "key": "B",
-        "text": "Si"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Si"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Si"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4657,23 +4657,23 @@
       },
       {
         "key": "B",
-        "text": "Aun"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Aún"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Aun"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Aún"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Aun"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4693,23 +4693,23 @@
       },
       {
         "key": "B",
-        "text": "El"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Él"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "El"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Él"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "El"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4729,23 +4729,23 @@
       },
       {
         "key": "B",
-        "text": "Tu"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Tú"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Tu"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Tú"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Tu"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4765,23 +4765,23 @@
       },
       {
         "key": "B",
-        "text": "Mi"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Mí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mi"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Mí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mi"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4801,23 +4801,23 @@
       },
       {
         "key": "B",
-        "text": "Se"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Se"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Se"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4837,23 +4837,23 @@
       },
       {
         "key": "B",
-        "text": "De"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Dé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "De"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Dé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "De"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4873,23 +4873,23 @@
       },
       {
         "key": "B",
-        "text": "Mas"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Más"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mas"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Más"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mas"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4909,23 +4909,23 @@
       },
       {
         "key": "B",
-        "text": "Si"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Si"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Si"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4945,23 +4945,23 @@
       },
       {
         "key": "B",
-        "text": "Aun"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Aún"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Aun"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Aún"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Aun"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -4977,7 +4977,7 @@
     "options": [
       {
         "key": "A",
-        "text": "El"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -4985,19 +4985,19 @@
       },
       {
         "key": "C",
-        "text": "El"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Él"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "El"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Él"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "B",
@@ -5013,7 +5013,7 @@
     "options": [
       {
         "key": "A",
-        "text": "Tu"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -5021,19 +5021,19 @@
       },
       {
         "key": "C",
-        "text": "Tu"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Tú"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Tu"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Tú"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "B",
@@ -5049,7 +5049,7 @@
     "options": [
       {
         "key": "A",
-        "text": "Mi"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -5057,19 +5057,19 @@
       },
       {
         "key": "C",
-        "text": "Mi"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mí"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Mi"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mí"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "B",
@@ -5085,7 +5085,7 @@
     "options": [
       {
         "key": "A",
-        "text": "Se"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -5093,19 +5093,19 @@
       },
       {
         "key": "C",
-        "text": "Se"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Sé"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Se"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Sé"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "B",
@@ -5121,7 +5121,7 @@
     "options": [
       {
         "key": "A",
-        "text": "De"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -5129,19 +5129,19 @@
       },
       {
         "key": "C",
-        "text": "De"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Dé"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "De"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Dé"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "B",
@@ -5157,7 +5157,7 @@
     "options": [
       {
         "key": "A",
-        "text": "Mas"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -5165,19 +5165,19 @@
       },
       {
         "key": "C",
-        "text": "Mas"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Más"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Mas"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Más"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "B",
@@ -5193,7 +5193,7 @@
     "options": [
       {
         "key": "A",
-        "text": "Si"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -5201,19 +5201,19 @@
       },
       {
         "key": "C",
-        "text": "Si"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Sí"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Si"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Sí"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "B",
@@ -5229,7 +5229,7 @@
     "options": [
       {
         "key": "A",
-        "text": "Aun"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -5237,19 +5237,19 @@
       },
       {
         "key": "C",
-        "text": "Aun"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Aún"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Aun"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Aún"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "B",
@@ -5269,23 +5269,23 @@
       },
       {
         "key": "B",
-        "text": "El"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Él"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "El"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Él"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "El"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5305,23 +5305,23 @@
       },
       {
         "key": "B",
-        "text": "Tu"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Tú"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Tu"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Tú"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Tu"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5341,23 +5341,23 @@
       },
       {
         "key": "B",
-        "text": "Mi"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Mí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mi"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Mí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mi"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5377,23 +5377,23 @@
       },
       {
         "key": "B",
-        "text": "Se"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Se"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Se"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5413,23 +5413,23 @@
       },
       {
         "key": "B",
-        "text": "De"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Dé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "De"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Dé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "De"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5449,23 +5449,23 @@
       },
       {
         "key": "B",
-        "text": "Mas"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Más"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mas"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Más"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mas"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5485,23 +5485,23 @@
       },
       {
         "key": "B",
-        "text": "Si"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Si"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Si"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5521,23 +5521,23 @@
       },
       {
         "key": "B",
-        "text": "Aun"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Aún"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Aun"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Aún"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Aun"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5557,23 +5557,23 @@
       },
       {
         "key": "B",
-        "text": "El"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Él"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "El"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Él"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "El"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5593,23 +5593,23 @@
       },
       {
         "key": "B",
-        "text": "Tu"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Tú"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Tu"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Tú"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Tu"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5629,23 +5629,23 @@
       },
       {
         "key": "B",
-        "text": "Mi"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Mí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mi"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Mí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mi"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5665,23 +5665,23 @@
       },
       {
         "key": "B",
-        "text": "Se"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Se"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Se"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5701,23 +5701,23 @@
       },
       {
         "key": "B",
-        "text": "De"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Dé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "De"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Dé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "De"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5737,23 +5737,23 @@
       },
       {
         "key": "B",
-        "text": "Mas"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Más"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mas"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Más"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mas"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5773,23 +5773,23 @@
       },
       {
         "key": "B",
-        "text": "Si"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Si"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Si"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5809,23 +5809,23 @@
       },
       {
         "key": "B",
-        "text": "Aun"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Aún"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Aun"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Aún"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Aun"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5845,23 +5845,23 @@
       },
       {
         "key": "B",
-        "text": "El"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Él"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "El"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Él"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "El"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5881,23 +5881,23 @@
       },
       {
         "key": "B",
-        "text": "Tu"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Tú"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Tu"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Tú"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Tu"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5917,23 +5917,23 @@
       },
       {
         "key": "B",
-        "text": "Mi"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Mí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mi"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Mí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mi"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5953,23 +5953,23 @@
       },
       {
         "key": "B",
-        "text": "Se"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Se"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Se"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -5989,23 +5989,23 @@
       },
       {
         "key": "B",
-        "text": "De"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Dé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "De"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Dé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "De"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6025,23 +6025,23 @@
       },
       {
         "key": "B",
-        "text": "Mas"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Más"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mas"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Más"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mas"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6061,23 +6061,23 @@
       },
       {
         "key": "B",
-        "text": "Si"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Si"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Si"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6097,23 +6097,23 @@
       },
       {
         "key": "B",
-        "text": "Aun"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Aún"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Aun"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Aún"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Aun ---"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6133,23 +6133,23 @@
       },
       {
         "key": "B",
-        "text": "Aun"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Aún"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Aun"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Aún"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Aun"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6169,23 +6169,23 @@
       },
       {
         "key": "B",
-        "text": "Solo"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sólo"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Solo"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sólo"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Solo"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6205,23 +6205,23 @@
       },
       {
         "key": "B",
-        "text": "Este"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Éste"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Este"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Éste"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Este"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6241,23 +6241,23 @@
       },
       {
         "key": "B",
-        "text": "Aquel"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Aquél"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Aquel"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Aquél"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Aquel"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6277,23 +6277,23 @@
       },
       {
         "key": "B",
-        "text": "De"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Dé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "De"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Dé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "De"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6313,23 +6313,23 @@
       },
       {
         "key": "B",
-        "text": "Se"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Se"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Se"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6349,23 +6349,23 @@
       },
       {
         "key": "B",
-        "text": "Te"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Té"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Te"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Té"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Te"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6385,23 +6385,23 @@
       },
       {
         "key": "B",
-        "text": "Mas"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Más"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mas"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Más"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mas"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6421,23 +6421,23 @@
       },
       {
         "key": "B",
-        "text": "Si"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Si"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Si"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6457,23 +6457,23 @@
       },
       {
         "key": "B",
-        "text": "Mi"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Mí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mi"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Mí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mi"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6493,23 +6493,23 @@
       },
       {
         "key": "B",
-        "text": "Tu"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Tú"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Tu"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Tú"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Tu"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6529,23 +6529,23 @@
       },
       {
         "key": "B",
-        "text": "El"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Él"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "El"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Él"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "El"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6565,23 +6565,23 @@
       },
       {
         "key": "B",
-        "text": "Aun"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Aún"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Aun"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Aún"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Aun"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6601,23 +6601,23 @@
       },
       {
         "key": "B",
-        "text": "Solo"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sólo"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Solo"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sólo"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Solo"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6637,23 +6637,23 @@
       },
       {
         "key": "B",
-        "text": "Este"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Éste"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Este"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Éste"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Este"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6673,23 +6673,23 @@
       },
       {
         "key": "B",
-        "text": "Aquel"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Aquél"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Aquel"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Aquél"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Aquel"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6709,23 +6709,23 @@
       },
       {
         "key": "B",
-        "text": "De"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Dé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "De"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Dé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "De"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6745,23 +6745,23 @@
       },
       {
         "key": "B",
-        "text": "Se"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Se"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Se"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6781,23 +6781,23 @@
       },
       {
         "key": "B",
-        "text": "Te"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Té"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Te"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Té"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Te"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6817,23 +6817,23 @@
       },
       {
         "key": "B",
-        "text": "Mas"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Más"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mas"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Más"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mas"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6853,23 +6853,23 @@
       },
       {
         "key": "B",
-        "text": "Si"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Si"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Si"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6889,23 +6889,23 @@
       },
       {
         "key": "B",
-        "text": "Mi"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Mí"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Mi"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Mí"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Mi"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6925,23 +6925,23 @@
       },
       {
         "key": "B",
-        "text": "Tu"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Tú"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Tu"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Tú"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Tu"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6961,23 +6961,23 @@
       },
       {
         "key": "B",
-        "text": "El"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Él"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "El"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Él"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "El"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -6997,23 +6997,23 @@
       },
       {
         "key": "B",
-        "text": "Aun"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Aún"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Aun"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Aún"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Aun"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -7033,23 +7033,23 @@
       },
       {
         "key": "B",
-        "text": "Solo"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sólo"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Solo"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sólo"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Solo"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -7069,23 +7069,23 @@
       },
       {
         "key": "B",
-        "text": "Este"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Éste"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Este"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Éste"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Este"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -7105,23 +7105,23 @@
       },
       {
         "key": "B",
-        "text": "Aquel"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Aquél"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Aquel"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Aquél"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Aquel"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -7141,23 +7141,23 @@
       },
       {
         "key": "B",
-        "text": "De"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Dé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "De"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Dé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "De"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -7177,23 +7177,23 @@
       },
       {
         "key": "B",
-        "text": "Se"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "Sé"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "Se"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "Sé"
+        "text": "No existe solución"
       },
       {
         "key": "F",
-        "text": "Se ---"
+        "text": "Infinito"
       }
     ],
     "correctAnswer": "A",
@@ -7245,7 +7245,7 @@
       },
       {
         "key": "C",
-        "text": "Ues"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -7525,7 +7525,7 @@
       },
       {
         "key": "C",
-        "text": "Ues"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -7805,7 +7805,7 @@
       },
       {
         "key": "C",
-        "text": "Ues"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -8085,7 +8085,7 @@
       },
       {
         "key": "C",
-        "text": "Ues"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -8365,7 +8365,7 @@
       },
       {
         "key": "C",
-        "text": "Ues"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -8613,7 +8613,7 @@
       },
       {
         "key": "B",
-        "text": "No quiero café, si no chocolate caliente"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -8641,7 +8641,7 @@
       },
       {
         "key": "B",
-        "text": "por qué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -8649,7 +8649,7 @@
       },
       {
         "key": "D",
-        "text": "por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -8669,7 +8669,7 @@
       },
       {
         "key": "B",
-        "text": "Porqué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -8677,7 +8677,7 @@
       },
       {
         "key": "D",
-        "text": "Por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -8701,11 +8701,11 @@
       },
       {
         "key": "C",
-        "text": "porqué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
-        "text": "por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -8841,11 +8841,11 @@
       },
       {
         "key": "C",
-        "text": "a sí mismo"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
-        "text": "asi mismo"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -8893,7 +8893,7 @@
       },
       {
         "key": "B",
-        "text": "No quiero café, si no chocolate caliente"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -8921,7 +8921,7 @@
       },
       {
         "key": "B",
-        "text": "por qué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -8929,7 +8929,7 @@
       },
       {
         "key": "D",
-        "text": "por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -8949,7 +8949,7 @@
       },
       {
         "key": "B",
-        "text": "Porqué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -8957,7 +8957,7 @@
       },
       {
         "key": "D",
-        "text": "Por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -8981,11 +8981,11 @@
       },
       {
         "key": "C",
-        "text": "porqué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
-        "text": "por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9121,11 +9121,11 @@
       },
       {
         "key": "C",
-        "text": "a sí mismo"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
-        "text": "asi mismo"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9173,7 +9173,7 @@
       },
       {
         "key": "B",
-        "text": "No quiero café, si no chocolate caliente"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -9201,7 +9201,7 @@
       },
       {
         "key": "B",
-        "text": "por qué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -9209,7 +9209,7 @@
       },
       {
         "key": "D",
-        "text": "por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9229,7 +9229,7 @@
       },
       {
         "key": "B",
-        "text": "Porqué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -9237,7 +9237,7 @@
       },
       {
         "key": "D",
-        "text": "Por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9261,11 +9261,11 @@
       },
       {
         "key": "C",
-        "text": "porqué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
-        "text": "por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9401,11 +9401,11 @@
       },
       {
         "key": "C",
-        "text": "a sí mismo"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
-        "text": "asi mismo"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9453,7 +9453,7 @@
       },
       {
         "key": "B",
-        "text": "No quiero café, si no chocolate caliente"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -9481,7 +9481,7 @@
       },
       {
         "key": "B",
-        "text": "por qué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -9489,7 +9489,7 @@
       },
       {
         "key": "D",
-        "text": "por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9509,7 +9509,7 @@
       },
       {
         "key": "B",
-        "text": "Porqué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -9517,7 +9517,7 @@
       },
       {
         "key": "D",
-        "text": "Por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9541,11 +9541,11 @@
       },
       {
         "key": "C",
-        "text": "porqué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
-        "text": "por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9681,11 +9681,11 @@
       },
       {
         "key": "C",
-        "text": "a sí mismo"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
-        "text": "asi mismo"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9733,7 +9733,7 @@
       },
       {
         "key": "B",
-        "text": "No quiero café, si no chocolate caliente"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -9761,7 +9761,7 @@
       },
       {
         "key": "B",
-        "text": "por qué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -9769,7 +9769,7 @@
       },
       {
         "key": "D",
-        "text": "por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9789,7 +9789,7 @@
       },
       {
         "key": "B",
-        "text": "Porqué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -9797,7 +9797,7 @@
       },
       {
         "key": "D",
-        "text": "Por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9821,11 +9821,11 @@
       },
       {
         "key": "C",
-        "text": "porqué"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
-        "text": "por que"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",
@@ -9961,11 +9961,11 @@
       },
       {
         "key": "C",
-        "text": "a sí mismo"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
-        "text": "asi mismo"
+        "text": "Indeterminado"
       }
     ],
     "correctAnswer": "A",

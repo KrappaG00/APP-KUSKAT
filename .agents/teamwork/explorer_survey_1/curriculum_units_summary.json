@@ -1,0 +1,829 @@
+{
+  "1_grado_tomo1": [],
+  "1_grado_tomo2": [],
+  "2_grado_tomo1": [
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Conozcamos los números hasta 1, 000 .............................................................................. 7",
+      "lessons": [
+        "Lección 1: Conozcamos los números hasta 200 ......................................................................... 8",
+        "Lección 2: Aprendamos sobre números de tres cifras y la unidad de millar .................... 16",
+        "Lección 3: Preparémonos para la suma y la resta ................................................................... 26",
+        "Lección 4: Utilicemos la recta numérica con números de tres cifras ....................................... 35",
+        "Lección 5: Comparemos números de tres cifras y conozcamos más números ordinales 40"
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "title": "Unidad 2: Aprendamos más sobre la suma ....................................................................................... 47",
+      "lessons": [
+        "Lección 1: Recordemos la forma de sumar ................................................................................ 48",
+        "Lección 2: Sumemos números hasta de dos cifras llevando .................................................. 54",
+        "Lección 3: Reconozcamos características de la suma ............................................................... 65",
+        "Lección 4: Sumemos números hasta de tres cifras sin llevar y llevando ............................. 68"
+      ]
+    },
+    {
+      "unitNumber": 3,
+      "title": "Unidad 3: Conozcamos ﬁ guras y cuerpos geométricos .................................................................... 85",
+      "lessons": [
+        "Lección 1: Aprendamos sobre ﬁ guras planas .............................................................................. 86",
+        "Lección 2: Conozcamos cuerpos geométricos ............................................................................. 93"
+      ]
+    },
+    {
+      "unitNumber": 4,
+      "title": "Unidad 4: Aprendamos más sobre la resta ........................................................................................ 99",
+      "lessons": [
+        "Lección 1: Recordemos la forma de restar .................................................................................. 100",
+        "Lección 2: Restemos números hasta de dos cifras prestando ................................................ 106",
+        "Lección 3: Restemos números hasta de tres cifras sin prestar y prestando una vez ....... 116",
+        "Lección 4: Restemos números hasta de tres cifras prestando dos o tres veces ................. 133",
+        "Lección 5: Realicemos sumas y restas relacionándolas con una gráﬁ ca de cinta ........... 145"
+      ]
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 1. Completa según corresponda.",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 2. Lee en voz alta los números del Comprende.",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 2. Lee en voz alta los números del Comprende.",
+      "lessons": []
+    }
+  ],
+  "2_grado_tomo2": [
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5: Comencemos a multiplicar .................................................................................................. 7",
+      "lessons": [
+        "Lección 1: Conozcamos la multiplicación ..................................................................................... 8",
+        "Lección 2: Conozcamos las tablas de multiplicar del 2, 3, 4 y 5 ............................................ 13"
+      ]
+    },
+    {
+      "unitNumber": 6,
+      "title": "Unidad 6: Conozcamos medidas de longitud .................................................................................... 35",
+      "lessons": [
+        "Lección  1: Conozcamos unidades de medida de longitud .................................................... 36",
+        "Lección 2: Sumemos y restemos longitudes ................................................................................ 44"
+      ]
+    },
+    {
+      "unitNumber": 7,
+      "title": "Unidad 7: Sigamos multiplicando ......................................................................................................... 47",
+      "lessons": [
+        "Lección 1: Conozcamos las tablas de multiplicar del 1, 6, 7, 8, 9 y 10 .................................. 48",
+        "Lección 2: Utilicemos la multiplicación ....................................................................................... 74"
+      ]
+    },
+    {
+      "unitNumber": 8,
+      "title": "Unidad 8: Conozcamos medidas de peso y capacidad ................................................................... 87",
+      "lessons": [
+        "Lección 1: Comparemos el peso de objetos ................................................................................. 88",
+        "Lección 2: Comparemos la capacidad de recipientes ............................................................. 94"
+      ]
+    },
+    {
+      "unitNumber": 9,
+      "title": "Unidad 9: Apliquemos la Matemática ................................................................................................. 99",
+      "lessons": [
+        "Lección 1: Conozcamos formas de medir el tiempo ................................................................. 100",
+        "Lección 2: Organicemos datos ........................................................................................................ 108",
+        "Lección 3: Conozcamos los billetes ................................................................................................. 111",
+        "Lección 4: Practiquemos el cálculo de operaciones .................................................................. 117"
+      ]
+    },
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5: Observa la imagen de arriba y completa.",
+      "lessons": []
+    },
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5: Observa cada dibujo y escribe el PO de la mulƟ plicación con su resultado.",
+      "lessons": []
+    },
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5En cada subibaja hay 2 niños. Completa los        .: Aumenta de _____ en _____ .",
+      "lessons": []
+    }
+  ],
+  "3_grado": [
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Números hasta 10,000 ............................... 07",
+      "lessons": [
+        "Lección 1: Números hasta 10, 000  ..................................... 08",
+        "Lección 2: Descomposición y composición de números",
+        "Lección 3: Comparación de números de cuatro cifras 16",
+        "Lección 4: Aproximación de números de cuatro cifras 21"
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "title": "Unidad 2: Suma y resta de números hasta de",
+      "lessons": [
+        "Lección 1: Suma de números de hasta cuatro cifras sin",
+        "Lección 2: Suma de números de hasta cuatro cifras",
+        "Lección 3: Suma de tres números de hasta cuatro",
+        "Lección 4: Resta de números de hasta cuatro cifras sin",
+        "Lección 5: Resta de números de hasta cuatro cifras"
+      ]
+    },
+    {
+      "unitNumber": 3,
+      "title": "Unidad 3: Ángulos, líneas, círculos y esferas ............. 47",
+      "lessons": [
+        "Lección 1: Líneas rectas perpendiculares y paralelas .... 48",
+        "Lección 2: El círculo y la esfera ............................................ 55"
+      ]
+    },
+    {
+      "unitNumber": 4,
+      "title": "Unidad 4: Multiplicación ............................................... 61",
+      "lessons": [
+        "Lección 1: Fijación de las tablas de multiplicar ............... 62",
+        "Lección 2: Multiplicación de decenas, centenas y",
+        "Lección 3: Multiplicación de números de dos cifras por",
+        "Lección 4: Multiplicación de números de tres cifras por"
+      ]
+    },
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5: Figuras planas y cuerpos",
+      "lessons": [
+        "Lección 1: El Triángulo ................................................. 84",
+        "Lección 2: El rectángulo y el cuadrado .................. 88",
+        "Lección 3: Cálculo del perímetro de un",
+        "Lección 4: El prisma rectangular y el cubo ........... 93"
+      ]
+    },
+    {
+      "unitNumber": 6,
+      "title": "Unidad 6: División y comparación ....................... 95",
+      "lessons": [
+        "Lección 1: División sin residuo .................................... 96",
+        "Lección 2: División con residuo .................................. 105",
+        "Lección 3: Uso de la gráﬁ ca de cinta en la"
+      ]
+    },
+    {
+      "unitNumber": 7,
+      "title": "Unidad 7: Aplicaciones matemáticas ................. 125",
+      "lessons": [
+        "Lección 1: Unidades de medida de longitud ......... 126",
+        "Lección 2: Unidades de medida de capacidad .... 133",
+        "Lección 3: Unidades de medida de peso ................ 136",
+        "Lección 4: Unidades de medida de tiempo .......... 138"
+      ]
+    },
+    {
+      "unitNumber": 8,
+      "title": "Unidad 8: Fracciones .................................................. 143",
+      "lessons": [
+        "Lección 1: Representación de cantidades",
+        "Lección 2: La fracción .................................................. 146",
+        "Lección 3: Representación de una fracción en la"
+      ]
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: UM C D U Se escribe:",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 1. Escribe con cuántas veces 100 se forman los siguientes números:",
+      "lessons": []
+    }
+  ],
+  "4_grado": [
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Números y operaciones de suma y",
+      "lessons": [
+        "Lección 1: Números hasta un millón  ................................. 8",
+        "Lección 2: Descomposición y composición  ...................... 10",
+        "Lección 3: Representación de números en la recta",
+        "Lección 4: Comparación y aproximación de números",
+        "Lección 5: Suma y resta de números naturales  ............. 17"
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "title": "Unidad 2: Figuras y cuerpos geométricos ................. 21",
+      "lessons": [
+        "Lección 1: Ángulos  .................................................................. 22",
+        "Lección 2: Triángulos  ............................................................. 30",
+        "Lección 3: Cuadriláteros  ....................................................... 33",
+        "Lección 4: Elementos de los sólidos geométricos  ......... 46"
+      ]
+    },
+    {
+      "unitNumber": 3,
+      "title": "Unidad 3: Multiplicación de números naturales ..... 49",
+      "lessons": [
+        "Lección 1: Multiplicación por números de una cifra  ..... 50",
+        "Lección 2: Multiplicación por decenas y centenas",
+        "Lección 3: Multiplicación por números de dos o tres"
+      ]
+    },
+    {
+      "unitNumber": 4,
+      "title": "Unidad 4: Números decimales ..................................... 65",
+      "lessons": [
+        "Lección 1: Décimas, centésimas y milésimas  .................... 66",
+        "Lección 2: Representación de números decimales  ........ 76"
+      ]
+    },
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5: División ................................................... 81",
+      "lessons": [
+        "Lección 1: Divisiones entre números de una cifra . 82",
+        "Lección 2: Aplicaciones de la multiplicación y la",
+        "Lección 3: Divisiones entre números de dos cifras. 105",
+        "Lección 4: Operaciones combinadas  ...................... 109"
+      ]
+    },
+    {
+      "unitNumber": 6,
+      "title": "Unidad 6: Área de cuadrados y rectángulos ... 117",
+      "lessons": [
+        "Lección 1: Áreas de cuadrados y rectángulos  ...... 118"
+      ]
+    },
+    {
+      "unitNumber": 7,
+      "title": "Unidad 7: Operaciones con números decimales  131",
+      "lessons": [
+        "Lección 1: El sistema de los números decimales ... 132",
+        "Lección 2: Suma de números decimales  ............... 138",
+        "Lección 3: Resta de números decimales  ................ 143"
+      ]
+    },
+    {
+      "unitNumber": 8,
+      "title": "Unidad 8: Fracciones .............................................. 149",
+      "lessons": [
+        "Lección 1: Tipos de fracciones  ................................... 150",
+        "Lección 2: Fracciones equivalentes  ......................... 159",
+        "Lección 3: Suma de fracciones homogéneas ......... 163",
+        "Lección 4: Resta de fracciones homogéneas  ........ 169",
+        "Lección 5: Operaciones combinadas con"
+      ]
+    },
+    {
+      "unitNumber": 9,
+      "title": "Unidad 9: Medida y representación de datos .. 181",
+      "lessons": [
+        "Lección 1: Unidades no métricas  .............................. 182",
+        "Lección 2: Cálculo del tiempo ................................... 185",
+        "Lección 3: Tablas de doble entrada  ....................... 186",
+        "Lección 4: Pictogramas  .............................................. 189"
+      ]
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 1.2 Números hasta 1, 000, 000",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 2.2 El sistema decimal de los números",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 3.1 Números en la recta numérica",
+      "lessons": []
+    }
+  ],
+  "5_grado": [
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Divisibilidad, múltiplos y divisores ....    7",
+      "lessons": [
+        "Lección 1: Divisibilidad  .................................................     8",
+        "Lección 2: Múltiplos  ......................................................    12",
+        "Lección 3: Divisores  .......................................................    16",
+        "Lección 4: Múltiplos del año y numeración maya   22"
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "title": "Unidad 2: Ángulos y polígonos ..............................  25",
+      "lessons": [
+        "Lección 1: Polígonos regulares  ...................................   26",
+        "Lección 2: Suma de ángulos internos de un",
+        "Lección 3: Ángulos  ........................................................   34"
+      ]
+    },
+    {
+      "unitNumber": 3,
+      "title": "Unidad 3: Multiplicación y división de",
+      "lessons": [
+        "Lección 1: Multiplicación de números decimales",
+        "Lección 2: División de números decimales entre"
+      ]
+    },
+    {
+      "unitNumber": 4,
+      "title": "Unidad 4: Gráﬁ ca de líneas ...................................   61",
+      "lessons": [
+        "Lección 1: Gráﬁ ca de líneas  ........................................   62"
+      ]
+    },
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5: Multiplicación y división de",
+      "lessons": [
+        "Lección 1: Multiplicación de números decimales",
+        "Lección 2: División de números decimales entre",
+        "Lección 3: Cantidad a comparar, base y veces",
+        "Lección 4: Operaciones combinadas con"
+      ]
+    },
+    {
+      "unitNumber": 6,
+      "title": "Unidad 6",
+      "lessons": [
+        "Lección 1: Cantidad por unidad  ............................... 100"
+      ]
+    },
+    {
+      "unitNumber": 7,
+      "title": "Unidad 7: Equivalencia de monedas y",
+      "lessons": [
+        "Lección 1: Equivalencia de monedas  .....................   110",
+        "Lección 2: Elaboración de presupuestos  ...............   112"
+      ]
+    },
+    {
+      "unitNumber": 8,
+      "title": "Unidad 8: Área de triángulos y cuadriláteros ..  117",
+      "lessons": [
+        "Lección 1: Área de triángulos y cuadriláteros ........   118"
+      ]
+    },
+    {
+      "unitNumber": 9,
+      "title": "Unidad 9",
+      "lessons": [
+        "Lección 1: Medidas de longitud  ................................  128",
+        "Lección 2: Medidas de peso  ......................................  132"
+      ]
+    },
+    {
+      "unitNumber": 10,
+      "title": "Unidad 10: Fracciones ............................................... 137",
+      "lessons": [
+        "Lección 1: Fracciones equivalentes  ...........................  138",
+        "Lección 2: Suma de fracciones heterogéneas  .......  146",
+        "Lección 3: Resta de fracciones heterogéneas  .......  153",
+        "Lección 4: Expresión de fracciones como números",
+        "Lección 5: Operaciones combinadas  .......................  167"
+      ]
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 1.2 Números pares e impares",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 1. Escribe cuáles de los siguientes números son divisibles por 3:",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Los múlƟ plos de números que coinciden se llaman múlƟ plos comunes.",
+      "lessons": []
+    }
+  ],
+  "6_grado": [
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Operaciones con fracciones ................ 7",
+      "lessons": [
+        "Lección 1: Multiplicación de fracciones y números",
+        "Lección 2: División  de fracciones y números",
+        "Lección 3: Multiplicación de fracciones .................... 19"
+      ]
+    },
+    {
+      "unitNumber": 2,
+      "title": "Unidad 2: Cantidades variables y números",
+      "lessons": [
+        "Lección 1: Cantidades variables ................................. 32",
+        "Lección 2: Números romanos ..................................... 42"
+      ]
+    },
+    {
+      "unitNumber": 3,
+      "title": "Unidad 3: División de fracciones y operaciones",
+      "lessons": [
+        "Lección 1: División de fracción con fracción ............ 48",
+        "Lección 2: Operaciones combinadas ........................ 57"
+      ]
+    },
+    {
+      "unitNumber": 4,
+      "title": "Unidad 4: Razones y porcentajes ......................... 65",
+      "lessons": [
+        "Lección 1: Razones .......................................................... 66",
+        "Lección 2: Porcentajes .................................................. 75"
+      ]
+    },
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5: Proporcionalidad .................................. 87",
+      "lessons": [
+        "Lección 1: Proporciones ................................................. 88",
+        "Lección 2: Proporcionalidad directa ......................... 101",
+        "Lección 3: Proporcionalidad inversa ........................ 109"
+      ]
+    },
+    {
+      "unitNumber": 6,
+      "title": "Unidad 6: Longitud de una circunferencia  y",
+      "lessons": [
+        "Lección 1: Longitud de la circunferencia .................. 118",
+        "Lección 2: Área del círculo ........................................... 121"
+      ]
+    },
+    {
+      "unitNumber": 7,
+      "title": "Unidad 7: Análisis de datos ................................... 129",
+      "lessons": [
+        "Lección 1: Media aritmética ....................................... 130",
+        "Lección 2: Moda y mediana ...................................... 137"
+      ]
+    },
+    {
+      "unitNumber": 8,
+      "title": "Unidad 8: Volumen de cubos y prismas",
+      "lessons": [
+        "Lección 1: Volumen de cubos y prismas"
+      ]
+    },
+    {
+      "unitNumber": 9,
+      "title": "Unidad 9: Conversión de otros sistemas al",
+      "lessons": [
+        "Lección 1: Conversiones ................................................ 154"
+      ]
+    },
+    {
+      "unitNumber": 10,
+      "title": "Unidad 10: Traslaciones, simetrías",
+      "lessons": [
+        "Lección 1: Traslaciones y simetrías ............................. 158",
+        "Lección 2: Simetría puntual ....................................... 165",
+        "Lección 3: Simetría de ﬁ guras planas y polígonos"
+      ]
+    },
+    {
+      "unitNumber": 11,
+      "title": "Unidad 11: Formas de contar y ordenar objetos  173",
+      "lessons": [
+        "Lección 1: Formas de ordenar los objetos ............... 174",
+        "Lección 2: Probabilidad .............................................. 179"
+      ]
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Las gráﬁ cas de doble recta numérica se usan para representar la relaci ón entre dos canƟ dades que",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Simpliﬁ ca hasta su mínima expresión la siguiente mulƟ plicación:",
+      "lessons": []
+    }
+  ],
+  "7_grado": [
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Números positivos, negativos y el cero ..........................................       1",
+      "lessons": []
+    },
+    {
+      "unitNumber": 2,
+      "title": "Unidad 2: Suma y resta de números",
+      "lessons": []
+    },
+    {
+      "unitNumber": 3,
+      "title": "Unidad 3: Multiplicación y división de números",
+      "lessons": []
+    },
+    {
+      "unitNumber": 4,
+      "title": "Unidad 4: Comunicación con símbolos .............................................................     53",
+      "lessons": []
+    },
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5: Ecuaciones de primer grado ............................................................     87",
+      "lessons": []
+    },
+    {
+      "unitNumber": 6,
+      "title": "Unidad 6: Proporcionalidad directa e inversa ................................................    113",
+      "lessons": []
+    },
+    {
+      "unitNumber": 7,
+      "title": "Unidad 7: Gráfica de faja y circular ...................................................................   139",
+      "lessons": []
+    },
+    {
+      "unitNumber": 8,
+      "title": "Unidad 8: Figuras planas y construcción",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Para medir la temperatura se toma 0° C como el punto de referencia. Temperaturas por arriba de 0° C",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 1.3 Diferencia de una cantidad respecto a otra cantidad de referencia",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 2.1 Comparación de números positivos y  negativos",
+      "lessons": []
+    }
+  ],
+  "8_grado": [
+    {
+      "unitNumber": 4,
+      "title": "unidad 4 de este libro se representa de la siguiente manera:",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Operaciones algebraicas ................................................................       1",
+      "lessons": []
+    },
+    {
+      "unitNumber": 2,
+      "title": "Unidad 2: Sistemas de ecuaciones de primer",
+      "lessons": []
+    },
+    {
+      "unitNumber": 3,
+      "title": "Unidad 3: Función lineal ....................................................................................     43",
+      "lessons": []
+    },
+    {
+      "unitNumber": 4,
+      "title": "Unidad 4: Paralelismo y ángulos de un polígono .......................................    91",
+      "lessons": []
+    },
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5: Criterios de congruencia de triángulos ......................................    105",
+      "lessons": []
+    },
+    {
+      "unitNumber": 6,
+      "title": "Unidad 6: Características de los triángulos y cuadriláteros .....................     115",
+      "lessons": []
+    },
+    {
+      "unitNumber": 7,
+      "title": "Unidad 7: Área y volumen de sólidos geométricos ....................................   141",
+      "lessons": []
+    },
+    {
+      "unitNumber": 8,
+      "title": "Unidad 8: Organización y análisis de datos estadísticos ...........................    161",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 3",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 5",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 7",
+      "lessons": []
+    }
+  ],
+  "9_grado": [
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Multiplicación de polinomios .........................................................       1",
+      "lessons": []
+    },
+    {
+      "unitNumber": 2,
+      "title": "Unidad 2: Raíz cuadrada ...................................................................................     33",
+      "lessons": []
+    },
+    {
+      "unitNumber": 3,
+      "title": "Unidad 3: Ecuación cuadrática .........................................................................       57",
+      "lessons": []
+    },
+    {
+      "unitNumber": 4,
+      "title": "Unidad 4: Función cuadrática de la forma y = ax2 + c .............................     79",
+      "lessons": []
+    },
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5: Figuras semejantes ..........................................................................     97",
+      "lessons": []
+    },
+    {
+      "unitNumber": 6,
+      "title": "Unidad 6: Teorema de Pitágoras ....................................................................      127",
+      "lessons": []
+    },
+    {
+      "unitNumber": 7,
+      "title": "Unidad 7: Ángulo inscrito y central .................................................................    143",
+      "lessons": []
+    },
+    {
+      "unitNumber": 8,
+      "title": "Unidad 8: Medidas de dispersión .....................................................................    159",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Encuentra de dos formas diferentes el área del rectángulo formado por las siguientes piezas.",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Desarrolla el producto: (x + 2)(xy + y + 1).",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 1. Dibuja el rectángulo formado por las siguientes expresiones algebraicas y encuentra el área que re -",
+      "lessons": []
+    }
+  ],
+  "1_bach": [
+    {
+      "unitNumber": 1,
+      "title": "de la lección 1 de la unidad 1 de este libro se representa de la siguiente manera:",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Números reales ....................................................................................",
+      "lessons": []
+    },
+    {
+      "unitNumber": 2,
+      "title": "Unidad 2: Operaciones con polinomios y números complejos ...................",
+      "lessons": []
+    },
+    {
+      "unitNumber": 3,
+      "title": "Unidad 3: Desigualdades .....................................................................................",
+      "lessons": []
+    },
+    {
+      "unitNumber": 4,
+      "title": "Unidad 4: Funciones reales  .................................................................................",
+      "lessons": []
+    },
+    {
+      "unitNumber": 6,
+      "title": "Unidad 6: Identidades y ecuaciones trigonométricas  ...............................",
+      "lessons": []
+    },
+    {
+      "unitNumber": 7,
+      "title": "Unidad 7: Vectores y números complejos ......................................................",
+      "lessons": []
+    },
+    {
+      "unitNumber": 8,
+      "title": "Unidad 8: Estadística descriptiva .....................................................................",
+      "lessons": []
+    },
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5: Resolución de triángulos oblicuángulos  .....................................",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: a)",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: roblemas",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: roblemas",
+      "lessons": []
+    }
+  ],
+  "2_bach": [
+    {
+      "unitNumber": 1,
+      "title": "de la lección 1 de la unidad 1 de este libro se representa de la siguiente manera:",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: Ecuaciones  .........................................................................................         7",
+      "lessons": []
+    },
+    {
+      "unitNumber": 2,
+      "title": "Unidad 2: Línea recta  ........................................................................................       19",
+      "lessons": []
+    },
+    {
+      "unitNumber": 3,
+      "title": "Unidad 3: Secciones cónicas  .............................................................................      49",
+      "lessons": []
+    },
+    {
+      "unitNumber": 4,
+      "title": "Unidad 4: Funciones trascendentales I  ..........................................................       95",
+      "lessons": []
+    },
+    {
+      "unitNumber": 5,
+      "title": "Unidad 5: Funciones trascendentales II  ........................................................      119",
+      "lessons": []
+    },
+    {
+      "unitNumber": 6,
+      "title": "Unidad 6: Sucesiones aritméticas y geométricas  ......................................      161",
+      "lessons": []
+    },
+    {
+      "unitNumber": 7,
+      "title": "Unidad 7: Métodos de conteo  ........................................................................      177",
+      "lessons": []
+    },
+    {
+      "unitNumber": 8,
+      "title": "Unidad 8: Probabilidad  ...................................................................................    205",
+      "lessons": []
+    },
+    {
+      "unitNumber": 2,
+      "title": "De la Unidad 2 de Primer: año de bachillerato se",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 1.2 Ecuaciones bicuadráticas, parte 2",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 1.4 Ecuaciones radicales, parte 2",
+      "lessons": []
+    },
+    {
+      "unitNumber": 1,
+      "title": "Unidad 1: 1.6 Mínimo común múltiplo de polinomios*",
+      "lessons": []
+    }
+  ]
+}

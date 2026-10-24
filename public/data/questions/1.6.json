@@ -529,7 +529,7 @@
       },
       {
         "key": "E",
-        "text": "60°"
+        "text": "61"
       },
       {
         "key": "F",
@@ -733,7 +733,7 @@
       },
       {
         "key": "B",
-        "text": "90°"
+        "text": "91"
       },
       {
         "key": "C",
@@ -769,7 +769,7 @@
       },
       {
         "key": "B",
-        "text": "90°"
+        "text": "91"
       },
       {
         "key": "C",
@@ -817,7 +817,7 @@
       },
       {
         "key": "E",
-        "text": "60°"
+        "text": "61"
       },
       {
         "key": "F",
@@ -965,7 +965,7 @@
       },
       {
         "key": "F",
-        "text": "8"
+        "text": "9"
       }
     ],
     "correctAnswer": "D",
@@ -1093,7 +1093,7 @@
       },
       {
         "key": "B",
-        "text": "90°"
+        "text": "91"
       },
       {
         "key": "C",
@@ -1141,7 +1141,7 @@
       },
       {
         "key": "E",
-        "text": "60°"
+        "text": "61"
       },
       {
         "key": "F",
@@ -1561,7 +1561,7 @@
       },
       {
         "key": "B",
-        "text": "10"
+        "text": "11"
       },
       {
         "key": "C",
@@ -1677,7 +1677,7 @@
       },
       {
         "key": "D",
-        "text": "15"
+        "text": "16"
       },
       {
         "key": "E",
@@ -1717,7 +1717,7 @@
       },
       {
         "key": "E",
-        "text": "25"
+        "text": "26"
       },
       {
         "key": "F",
@@ -1817,7 +1817,7 @@
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "13"
       },
       {
         "key": "D",
@@ -1857,7 +1857,7 @@
       },
       {
         "key": "D",
-        "text": "15"
+        "text": "16"
       },
       {
         "key": "E",
@@ -1889,7 +1889,7 @@
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "13"
       },
       {
         "key": "D",
@@ -2753,7 +2753,7 @@
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "13"
       },
       {
         "key": "D",
@@ -2793,7 +2793,7 @@
       },
       {
         "key": "D",
-        "text": "15"
+        "text": "16"
       },
       {
         "key": "E",
@@ -2861,7 +2861,7 @@
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "13"
       },
       {
         "key": "D",
@@ -3225,7 +3225,7 @@
       },
       {
         "key": "D",
-        "text": "15"
+        "text": "16"
       },
       {
         "key": "E",
@@ -3305,7 +3305,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "1"
       }
     ],
     "correctAnswer": "B",
@@ -3341,7 +3341,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "-1"
       }
     ],
     "correctAnswer": "C",
@@ -3413,7 +3413,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "1"
       }
     ],
     "correctAnswer": "B",
@@ -3449,7 +3449,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "-1"
       }
     ],
     "correctAnswer": "C",
@@ -3649,7 +3649,7 @@
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "2"
       },
       {
         "key": "C",
@@ -3665,11 +3665,11 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "-2"
       }
     ],
     "correctAnswer": "D",
-    "explanation": "1."
+    "explanation": "Por definición trigonométrica de ángulos notables, tan(45°) = sen(45°)/cos(45°) = 1."
   },
   {
     "id": "1.6_q103",
@@ -3773,7 +3773,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "D",
@@ -3809,11 +3809,11 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0."
+    "explanation": "En la circunferencia unitaria, la ordenada del punto correspondiente a 0° es 0, por lo que sen(0°) = 0."
   },
   {
     "id": "1.6_q107",
@@ -3845,11 +3845,11 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "1."
+    "explanation": "En la circunferencia unitaria, la abscisa del punto a 0° es 1, por lo que cos(0°) = 1."
   },
   {
     "id": "1.6_q108",
@@ -3881,11 +3881,11 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0."
+    "explanation": "La tangente es el cociente seno entre coseno: tan(0°) = sen(0°)/cos(0°) = 0/1 = 0."
   },
   {
     "id": "1.6_q109",
@@ -3917,11 +3917,11 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "1."
+    "explanation": "En el círculo trigonométrico, a 90° la ordenada alcanza su valor máximo positivo: sen(90°) = 1."
   },
   {
     "id": "1.6_q110",
@@ -3953,11 +3953,11 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0."
+    "explanation": "En el círculo trigonométrico, a 90° la coordenada horizontal es nula: cos(90°) = 0."
   },
   {
     "id": "1.6_q111",
@@ -4025,11 +4025,11 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0."
+    "explanation": "A 180° el punto sobre el círculo unitario se sitúa en (-1, 0), por lo que sen(180°) = 0."
   },
   {
     "id": "1.6_q113",
@@ -4061,7 +4061,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "C",
@@ -4097,11 +4097,11 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "0."
+    "explanation": "Por definición de tangente: tan(180°) = sen(180°)/cos(180°) = 0/(-1) = 0."
   },
   {
     "id": "1.6_q115",
@@ -4565,7 +4565,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "B",
@@ -4781,7 +4781,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "1"
       }
     ],
     "correctAnswer": "B",
@@ -4817,7 +4817,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "1"
       }
     ],
     "correctAnswer": "B",
@@ -4889,7 +4889,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "D",
@@ -4925,7 +4925,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "1"
       }
     ],
     "correctAnswer": "B",
@@ -4961,7 +4961,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "-1"
       }
     ],
     "correctAnswer": "C",
@@ -4977,11 +4977,11 @@
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "2"
       },
       {
         "key": "C",
@@ -5069,7 +5069,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "D",
@@ -5105,7 +5105,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "1"
       }
     ],
     "correctAnswer": "B",
@@ -5141,7 +5141,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "1"
       }
     ],
     "correctAnswer": "B",
@@ -5177,7 +5177,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "2"
       }
     ],
     "correctAnswer": "D",
@@ -5213,7 +5213,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "1"
       }
     ],
     "correctAnswer": "B",
@@ -5249,7 +5249,7 @@
       },
       {
         "key": "F",
-        "text": "0"
+        "text": "-1"
       }
     ],
     "correctAnswer": "C",
@@ -5313,7 +5313,7 @@
       },
       {
         "key": "D",
-        "text": "\\(-\\frac{1}{2}\\)"
+        "text": "\\(\\frac{2}{2}\\)"
       },
       {
         "key": "E",
@@ -5389,7 +5389,7 @@
       },
       {
         "key": "E",
-        "text": "\\(-\\frac{\\sqrt{3}}{2}\\)"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",
@@ -5421,7 +5421,7 @@
       },
       {
         "key": "D",
-        "text": "\\(-\\frac{1}{2}\\)"
+        "text": "\\(\\frac{2}{2}\\)"
       },
       {
         "key": "E",
@@ -5461,7 +5461,7 @@
       },
       {
         "key": "E",
-        "text": "\\(-\\frac{\\sqrt{3}}{2}\\)"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",
@@ -5497,7 +5497,7 @@
       },
       {
         "key": "E",
-        "text": "\\(-\\frac{\\sqrt{3}}{2}\\)"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",
@@ -5529,7 +5529,7 @@
       },
       {
         "key": "D",
-        "text": "\\(-\\frac{1}{2}\\)"
+        "text": "\\(\\frac{2}{2}\\)"
       },
       {
         "key": "E",
@@ -5569,7 +5569,7 @@
       },
       {
         "key": "E",
-        "text": "\\(-\\frac{\\sqrt{3}}{2}\\)"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",
@@ -5637,7 +5637,7 @@
       },
       {
         "key": "D",
-        "text": "\\(-\\frac{1}{2}\\)"
+        "text": "\\(\\frac{2}{2}\\)"
       },
       {
         "key": "E",
@@ -5813,7 +5813,7 @@
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "2"
       },
       {
         "key": "D",
@@ -5821,11 +5821,11 @@
       },
       {
         "key": "E",
-        "text": "2"
+        "text": "1"
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "0"
       }
     ],
     "correctAnswer": "A",
@@ -6273,7 +6273,7 @@
     "options": [
       {
         "key": "A",
-        "text": "30°"
+        "text": "31"
       },
       {
         "key": "B",
@@ -6317,7 +6317,7 @@
       },
       {
         "key": "C",
-        "text": "60°"
+        "text": "61"
       },
       {
         "key": "D",
@@ -6349,7 +6349,7 @@
       },
       {
         "key": "B",
-        "text": "45°"
+        "text": "46"
       },
       {
         "key": "C",
@@ -6389,7 +6389,7 @@
       },
       {
         "key": "C",
-        "text": "60°"
+        "text": "61"
       },
       {
         "key": "D",
@@ -6417,7 +6417,7 @@
     "options": [
       {
         "key": "A",
-        "text": "30°"
+        "text": "31"
       },
       {
         "key": "B",
@@ -6457,7 +6457,7 @@
       },
       {
         "key": "B",
-        "text": "45°"
+        "text": "46"
       },
       {
         "key": "C",
@@ -6493,7 +6493,7 @@
       },
       {
         "key": "B",
-        "text": "45°"
+        "text": "46"
       },
       {
         "key": "C",
@@ -6533,7 +6533,7 @@
       },
       {
         "key": "C",
-        "text": "60°"
+        "text": "61"
       },
       {
         "key": "D",
@@ -6561,7 +6561,7 @@
     "options": [
       {
         "key": "A",
-        "text": "30°"
+        "text": "31"
       },
       {
         "key": "B",
@@ -6645,7 +6645,7 @@
       },
       {
         "key": "D",
-        "text": "90°"
+        "text": "91"
       },
       {
         "key": "E",
@@ -6681,7 +6681,7 @@
       },
       {
         "key": "D",
-        "text": "90°"
+        "text": "91"
       },
       {
         "key": "E",
@@ -6757,7 +6757,7 @@
       },
       {
         "key": "E",
-        "text": "180°"
+        "text": "181"
       },
       {
         "key": "F",
@@ -7105,27 +7105,27 @@
       },
       {
         "key": "B",
-        "text": "4"
+        "text": "5 m"
       },
       {
         "key": "C",
-        "text": "3"
+        "text": "8 m"
       },
       {
         "key": "D",
-        "text": "10"
+        "text": "15 m"
       },
       {
         "key": "E",
-        "text": "2"
+        "text": "12 m"
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "20 m"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "20*sen(30)=10."
+    "explanation": "La altura del poste es h = 20 \\cdot \\sen(30°) = 20 \\cdot 0.5 = 10\\text{ m}."
   },
   {
     "id": "1.6_q199",

@@ -6416,7 +6416,7 @@
       },
       {
         "key": "B",
-        "text": "$2$"
+        "text": "$3$"
       },
       {
         "key": "C",
@@ -6424,7 +6424,7 @@
       },
       {
         "key": "D",
-        "text": "$3$"
+        "text": "$4$"
       }
     ],
     "correctAnswer": "A",
@@ -6548,11 +6548,11 @@
       },
       {
         "key": "C",
-        "text": "$2$"
+        "text": "$1$"
       },
       {
         "key": "D",
-        "text": "$1$"
+        "text": "$0$"
       }
     ],
     "correctAnswer": "A",
@@ -6676,11 +6676,11 @@
       },
       {
         "key": "C",
-        "text": "$2$"
+        "text": "$3$"
       },
       {
         "key": "D",
-        "text": "$3$"
+        "text": "$4$"
       }
     ],
     "correctAnswer": "A",
@@ -6796,7 +6796,7 @@
     "options": [
       {
         "key": "A",
-        "text": "$2$"
+        "text": "$3$"
       },
       {
         "key": "B",
@@ -6808,7 +6808,7 @@
       },
       {
         "key": "D",
-        "text": "$3$"
+        "text": "$4$"
       }
     ],
     "correctAnswer": "C",
@@ -6924,11 +6924,11 @@
     "options": [
       {
         "key": "A",
-        "text": "$2$"
+        "text": "$3$"
       },
       {
         "key": "B",
-        "text": "$3$"
+        "text": "$4$"
       },
       {
         "key": "C",
@@ -7056,11 +7056,11 @@
       },
       {
         "key": "B",
-        "text": "$2$"
+        "text": "$3$"
       },
       {
         "key": "C",
-        "text": "$3$"
+        "text": "$4$"
       },
       {
         "key": "D",
@@ -7188,11 +7188,11 @@
       },
       {
         "key": "C",
-        "text": "$2$"
+        "text": "$3$"
       },
       {
         "key": "D",
-        "text": "$3$"
+        "text": "$4$"
       }
     ],
     "correctAnswer": "A",
@@ -7320,7 +7320,7 @@
       },
       {
         "key": "D",
-        "text": "$2$"
+        "text": "$4$"
       }
     ],
     "correctAnswer": "A",
@@ -7440,7 +7440,7 @@
       },
       {
         "key": "B",
-        "text": "$2$"
+        "text": "$3$"
       },
       {
         "key": "C",
@@ -7448,7 +7448,7 @@
       },
       {
         "key": "D",
-        "text": "$3$"
+        "text": "$4$"
       }
     ],
     "correctAnswer": "C",
@@ -7564,11 +7564,11 @@
     "options": [
       {
         "key": "A",
-        "text": "$2$"
+        "text": "$3$"
       },
       {
         "key": "B",
-        "text": "$3$"
+        "text": "$4$"
       },
       {
         "key": "C",
@@ -7788,7 +7788,7 @@
     "options": [
       {
         "key": "A",
-        "text": "Pendiente $m = 4$ e intercepto $(0, 0)$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -8052,7 +8052,7 @@
       },
       {
         "key": "C",
-        "text": "Pendiente $m = 2$ e intercepto $(0, 0)$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -8300,7 +8300,7 @@
     "options": [
       {
         "key": "A",
-        "text": "Pendiente $m = 5$ e intercepto $(0, 0)$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -8340,7 +8340,7 @@
       },
       {
         "key": "C",
-        "text": "Pendiente $m = 1$ e intercepto $(0, 1)$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -8364,7 +8364,7 @@
     "options": [
       {
         "key": "A",
-        "text": "Pendiente $m = 2$ e intercepto $(0, 2)$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -8400,7 +8400,7 @@
       },
       {
         "key": "B",
-        "text": "Pendiente $m = 3$ e intercepto $(0, 3)$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -8440,7 +8440,7 @@
       },
       {
         "key": "D",
-        "text": "Pendiente $m = 4$ e intercepto $(0, 4)$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -8560,7 +8560,7 @@
       },
       {
         "key": "B",
-        "text": "Pendiente $m = 3$ e intercepto $(0, 0)$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -8824,7 +8824,7 @@
       },
       {
         "key": "D",
-        "text": "Pendiente $m = 1$ e intercepto $(0, 0)$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -15384,7 +15384,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 8$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -15416,7 +15416,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 9$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -15448,7 +15448,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 10$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -15476,7 +15476,7 @@
       },
       {
         "key": "C",
-        "text": "$\\bar{x} = 11$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -15512,7 +15512,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 12$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -15540,7 +15540,7 @@
       },
       {
         "key": "C",
-        "text": "$\\bar{x} = 13$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -15568,7 +15568,7 @@
       },
       {
         "key": "B",
-        "text": "$\\bar{x} = 8$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -15608,7 +15608,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 9$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -15632,7 +15632,7 @@
       },
       {
         "key": "B",
-        "text": "$\\bar{x} = 10$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -15672,7 +15672,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 11$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -15704,7 +15704,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 12$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -15728,7 +15728,7 @@
       },
       {
         "key": "B",
-        "text": "$\\bar{x} = 13$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -15768,7 +15768,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 8$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -15800,7 +15800,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 9$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -15832,7 +15832,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 10$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -15864,7 +15864,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 11$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -15896,7 +15896,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 12$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -15920,7 +15920,7 @@
       },
       {
         "key": "B",
-        "text": "$\\bar{x} = 13$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -15956,7 +15956,7 @@
       },
       {
         "key": "C",
-        "text": "$\\bar{x} = 8$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -15992,7 +15992,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 9$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -16020,7 +16020,7 @@
       },
       {
         "key": "C",
-        "text": "$\\bar{x} = 10$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -16056,7 +16056,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 11$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -16088,7 +16088,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 12$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -16112,7 +16112,7 @@
       },
       {
         "key": "B",
-        "text": "$\\bar{x} = 13$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -16152,7 +16152,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 8$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -16184,7 +16184,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 9$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -16216,7 +16216,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 10$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -16248,7 +16248,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 11$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -16280,7 +16280,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 12$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -16308,7 +16308,7 @@
       },
       {
         "key": "C",
-        "text": "$\\bar{x} = 13$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -16344,7 +16344,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 8$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -16376,7 +16376,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 9$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -16400,7 +16400,7 @@
       },
       {
         "key": "B",
-        "text": "$\\bar{x} = 10$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -16440,7 +16440,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 11$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -16472,7 +16472,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 12$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -16500,7 +16500,7 @@
       },
       {
         "key": "C",
-        "text": "$\\bar{x} = 13$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -16536,7 +16536,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 8$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",
@@ -16568,7 +16568,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 9$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -16592,7 +16592,7 @@
       },
       {
         "key": "B",
-        "text": "$\\bar{x} = 10$"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -16632,7 +16632,7 @@
       },
       {
         "key": "D",
-        "text": "$\\bar{x} = 11$"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "C",

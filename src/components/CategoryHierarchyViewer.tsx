@@ -233,7 +233,11 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           const results = await Promise.all(promises);
           pool = results.flat();
         }
-        // 8. Si se eligió UES completa
+        // 8. Si se eligió IDIOMAS completa
+        else if (selectedInst === 'INGLES') {
+          pool = await fetchSubtopicQuestions('INGLES', 'all');
+        }
+        // 9. Si se eligió UES completa
         else if (selectedInst === 'UES') {
           // Cargamos la primera materia como vista principal para evitar sobrecargar 7500 reactivos simultáneos
           const uesMat = subjects.find((s) => s.id === 'matematicas') || subjects.find((s) => s.institution === 'UES');
@@ -595,18 +599,18 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       {/* ==================================================================== */}
       {/* 1. ENCABEZADO Y RESUMEN GENERAL DE CATEGORÍAS */}
       {/* ==================================================================== */}
-      <div className="bg-gradient-to-r from-slate-900 via-indigo-950 to-blue-950 rounded-3xl p-6 sm:p-8 text-white shadow-xl relative overflow-hidden">
-        <div className="relative z-10 space-y-3">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-bold border border-blue-400/30">
-            <FolderTree className="w-3.5 h-3.5 text-blue-400" />
+      <div className="bg-[#0B1B3D] border border-[#1A2E5A] rounded-xl p-6 sm:p-8 text-white shadow-corporate-card relative overflow-hidden">
+        <div className="relative z-10 space-y-3 font-sans-ui">
+          <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded bg-[#132A5C] text-[#C59B27] text-xs font-semibold font-mono-exam uppercase tracking-wider border border-[#C59B27]/30">
+            <FolderTree className="w-3.5 h-3.5 text-[#C59B27]" />
             <span>Malla Curricular & Navegador Maestro de Categorías</span>
           </div>
 
-          <h2 className="text-xl sm:text-3xl font-black tracking-tight">
+          <h2 className="text-2xl sm:text-3xl font-editorial font-bold tracking-tight text-white">
             Menú de Preguntas por Sección, Tema, Materia y Tipo
           </h2>
 
-          <p className="text-xs sm:text-sm text-slate-300 w-full text-justify leading-relaxed">
+          <p className="text-xs sm:text-sm text-[#CBD5E1] w-full text-justify leading-relaxed">
             Explora las <strong className="text-white">34,440 preguntas oficiales</strong> organizadas
             jerárquicamente: selecciona entre <strong className="text-white">UES</strong> (Admisión Universitaria),{' '}
             <strong className="text-white">ESCALAFÓN DOCENTE</strong> (Ascenso al Nivel Uno 2026 MINED),{' '}
@@ -618,39 +622,39 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
             unidad temática o desglose por sección.
           </p>
 
-          {/* Estadísticas Clave */}
-          <div className="pt-2 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 gap-2 sm:gap-3 text-xs">
-            <div className="bg-white/10 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-white/10">
-              <span className="text-[10px] text-slate-400 uppercase tracking-wider block font-bold">Total Reactivos</span>
-              <span className="text-lg font-black text-white">34,440</span>
+          {/* Estadísticas Clave en Formato Ledger */}
+          <div className="pt-2 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-4 xl:grid-cols-8 gap-2 sm:gap-2.5 text-xs font-mono-exam">
+            <div className="bg-[#07132B] px-3.5 py-2.5 rounded-lg border border-[#C59B27]/40 shadow-xs">
+              <span className="text-[10px] text-[#C59B27] uppercase tracking-wider block font-bold">Total Reactivos</span>
+              <span className="text-lg font-bold text-white">34,440</span>
             </div>
-            <div className="bg-blue-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-blue-400/20">
-              <span className="text-[10px] text-blue-300 uppercase tracking-wider block font-bold">Tipo UES</span>
-              <span className="text-lg font-black text-blue-200">7,500</span>
+            <div className="bg-[#07132B] px-3.5 py-2.5 rounded-lg border border-[#1E3A70]/60 shadow-xs">
+              <span className="text-[10px] text-[#94A3B8] uppercase tracking-wider block font-bold">Tipo UES</span>
+              <span className="text-lg font-bold text-[#E2E8F0]">7,500</span>
             </div>
-            <div className="bg-purple-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-purple-400/20">
-              <span className="text-[10px] text-purple-300 uppercase tracking-wider block font-bold">Escalafón</span>
-              <span className="text-lg font-black text-purple-200">3,300</span>
+            <div className="bg-[#07132B] px-3.5 py-2.5 rounded-lg border border-[#1E3A70]/60 shadow-xs">
+              <span className="text-[10px] text-[#94A3B8] uppercase tracking-wider block font-bold">Escalafón</span>
+              <span className="text-lg font-bold text-[#E2E8F0]">3,300</span>
             </div>
-            <div className="bg-amber-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-amber-400/20">
-              <span className="text-[10px] text-amber-300 uppercase tracking-wider block font-bold">Tipo AVANZO</span>
-              <span className="text-lg font-black text-amber-200">3,000</span>
+            <div className="bg-[#07132B] px-3.5 py-2.5 rounded-lg border border-[#1E3A70]/60 shadow-xs">
+              <span className="text-[10px] text-[#94A3B8] uppercase tracking-wider block font-bold">Tipo AVANZO</span>
+              <span className="text-lg font-bold text-[#E2E8F0]">3,000</span>
             </div>
-            <div className="bg-emerald-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-emerald-400/20">
-              <span className="text-[10px] text-emerald-300 uppercase tracking-wider block font-bold">Tipo ASD</span>
-              <span className="text-lg font-black text-emerald-200">2,190</span>
+            <div className="bg-[#07132B] px-3.5 py-2.5 rounded-lg border border-[#1E3A70]/60 shadow-xs">
+              <span className="text-[10px] text-[#94A3B8] uppercase tracking-wider block font-bold">Tipo ASD</span>
+              <span className="text-lg font-bold text-[#E2E8F0]">2,190</span>
             </div>
-            <div className="bg-teal-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-teal-400/20">
-              <span className="text-[10px] text-teal-300 uppercase tracking-wider block font-bold">Tipo ENA</span>
-              <span className="text-lg font-black text-teal-200">1,400</span>
+            <div className="bg-[#07132B] px-3.5 py-2.5 rounded-lg border border-[#1E3A70]/60 shadow-xs">
+              <span className="text-[10px] text-[#94A3B8] uppercase tracking-wider block font-bold">Tipo ENA</span>
+              <span className="text-lg font-bold text-[#E2E8F0]">1,400</span>
             </div>
-            <div className="bg-indigo-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-indigo-400/20">
-              <span className="text-[10px] text-indigo-300 uppercase tracking-wider block font-bold">Tipo ANSP</span>
-              <span className="text-lg font-black text-indigo-200">250</span>
+            <div className="bg-[#07132B] px-3.5 py-2.5 rounded-lg border border-[#1E3A70]/60 shadow-xs">
+              <span className="text-[10px] text-[#94A3B8] uppercase tracking-wider block font-bold">Tipo ANSP</span>
+              <span className="text-lg font-bold text-[#E2E8F0]">250</span>
             </div>
-            <div className="bg-emerald-600/20 backdrop-blur-md px-3.5 py-2.5 rounded-2xl border border-emerald-400/20">
-              <span className="text-[10px] text-emerald-300 uppercase tracking-wider block font-bold">7 Idiomas</span>
-              <span className="text-lg font-black text-emerald-200">16,800</span>
+            <div className="bg-[#07132B] px-3.5 py-2.5 rounded-lg border border-[#1E3A70]/60 shadow-xs">
+              <span className="text-[10px] text-[#94A3B8] uppercase tracking-wider block font-bold">7 Idiomas</span>
+              <span className="text-lg font-bold text-[#E2E8F0]">16,800</span>
             </div>
           </div>
         </div>
@@ -659,8 +663,8 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       {/* Anuncio 1 / 5 (Categorías) */}
       <AdBanner variant="light" positionLabel="Categorías • 1/5 Superior" slotId="4241045160_c1" />
 
-      {/* Botón flotante para abrir el menú en dispositivos móviles */}
-      <div className="lg:hidden flex items-center justify-between bg-white p-3 rounded-2xl border border-slate-200 shadow-xs sticky top-16 z-30">
+      {/* Botón flotante para abrir el menú en dispositivos móviles (sincronizado con altura del header) */}
+      <div className="lg:hidden flex items-center justify-between bg-white p-3 rounded-2xl border border-slate-200 shadow-xs sticky top-20 sm:top-24 z-20">
         <button
           onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           className="flex items-center gap-2 text-xs font-bold text-slate-800 bg-slate-100 hover:bg-slate-200 px-4 py-2.5 rounded-xl transition-all cursor-pointer w-full justify-center min-h-[44px]"
@@ -688,9 +692,9 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
         <aside
           className={`${
             isMobileMenuOpen
-              ? 'fixed inset-x-2 sm:inset-x-6 top-16 bottom-4 z-50 shadow-2xl rounded-3xl border border-slate-300 animate-scale-up'
+              ? 'fixed inset-x-2 sm:inset-x-6 top-20 sm:top-24 bottom-4 z-50 shadow-corporate-elevated rounded-xl border border-[#D5D3C7] animate-scale-up'
               : 'hidden'
-          } lg:block lg:static lg:z-auto lg:col-span-4 bg-white rounded-3xl border border-slate-200 p-4 sm:p-5 shadow-xs space-y-4 sm:space-y-5 lg:sticky lg:top-20 max-h-[85vh] overflow-y-auto touch-scroll`}
+          } lg:block lg:static lg:z-auto lg:col-span-4 bg-white rounded-xl border border-[#E5E3D8] p-4 sm:p-5 shadow-corporate-subtle space-y-4 sm:space-y-5 lg:sticky lg:top-24 max-h-[85vh] overflow-y-auto touch-scroll`}
         >
           {/* Cabecera del Menú */}
           <div className="flex items-center justify-between pb-3 border-b border-slate-100">
@@ -1158,7 +1162,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
         {/* ================================================================== */}
         <section className="lg:col-span-8 space-y-6">
           {/* Barra de Búsqueda y Acciones Rápidas */}
-          <div className="bg-white rounded-3xl border border-slate-200 p-4 sm:p-5 shadow-xs space-y-3">
+          <div className="bg-white rounded-xl border border-[#E5E3D8] p-4 sm:p-5 shadow-corporate-subtle space-y-3">
             <div className="flex flex-col sm:flex-row items-center justify-between gap-3">
               {/* Breadcrumb de Ruta de Selección */}
               <div className="flex items-center gap-1.5 text-xs text-slate-600 flex-wrap w-full sm:w-auto">
@@ -1363,20 +1367,20 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           {/* LISTADO DE PREGUNTAS AGRUPADAS POR SECCIÓN, TEMA, MATERIA Y TIPO */}
           {/* ================================================================ */}
           {loadingQuestions ? (
-            <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center space-y-3">
-              <div className="w-8 h-8 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mx-auto" />
-              <p className="text-sm font-bold text-slate-800">Cargando preguntas de la categoría seleccionada...</p>
-              <p className="text-xs text-slate-400">Extrayendo reactivos, claves y fórmulas KaTeX</p>
+            <div className="bg-white rounded-xl border border-[#E5E3D8] p-12 text-center space-y-3 shadow-corporate-subtle">
+              <div className="w-8 h-8 border-4 border-[#0B1B3D] border-t-transparent rounded-full animate-spin mx-auto" />
+              <p className="text-sm font-bold text-[#111625] font-editorial">Cargando preguntas de la categoría seleccionada...</p>
+              <p className="text-xs text-[#64748B] font-mono-exam">Extrayendo reactivos, claves y fórmulas KaTeX</p>
             </div>
           ) : displayedQuestions.length === 0 ? (
-            <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center space-y-3">
-              <p className="text-base font-bold text-slate-800">No se encontraron preguntas en esta selección</p>
-              <p className="text-xs text-slate-500">
+            <div className="bg-white rounded-xl border border-[#E5E3D8] p-12 text-center space-y-3 shadow-corporate-subtle">
+              <p className="text-base font-bold text-[#111625] font-editorial">No se encontraron preguntas en esta selección</p>
+              <p className="text-xs text-[#64748B]">
                 Prueba restableciendo los filtros o ampliando los términos de búsqueda.
               </p>
               <button
                 onClick={handleSelectAllCategories}
-                className="px-4 py-2 text-xs font-semibold bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl cursor-pointer"
+                className="px-4 py-2 text-xs font-semibold bg-[#F4F3ED] hover:bg-[#EAE8DD] text-[#111625] rounded-lg border border-[#E5E3D8] cursor-pointer transition-colors"
               >
                 Ver Todas las Categorías
               </button>
@@ -1386,39 +1390,25 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
               {groupedHierarchy.map((instGroup) => (
                 <div key={instGroup.institution} className="space-y-6">
                   {/* Encabezado Nivel 1: TIPO (UES, AVANZO, ASD, ENA O ANSP) */}
-                  <div
-                    className={`p-4 rounded-2xl border text-white flex items-center justify-between shadow-xs ${
-                      instGroup.institution === 'UES'
-                        ? 'bg-gradient-to-r from-blue-700 to-indigo-800 border-blue-600'
-                        : instGroup.institution === 'ESCALAFON'
-                        ? 'bg-gradient-to-r from-purple-800 to-indigo-900 border-purple-700'
-                        : instGroup.institution === 'AVANZO'
-                        ? 'bg-gradient-to-r from-amber-600 to-orange-700 border-amber-500'
-                        : instGroup.institution === 'ENA'
-                        ? 'bg-gradient-to-r from-emerald-600 to-green-700 border-emerald-500'
-                        : instGroup.institution === 'ANSP'
-                        ? 'bg-gradient-to-r from-indigo-800 to-purple-900 border-indigo-700'
-                        : 'bg-gradient-to-r from-emerald-700 to-teal-800 border-emerald-600'
-                    }`}
-                  >
+                  <div className="p-4 rounded-xl border border-[#1A2E5A] bg-[#0B1B3D] text-white flex items-center justify-between shadow-corporate-subtle">
                     <div className="flex items-center gap-2.5">
-                      <div className="w-8 h-8 rounded-xl bg-white/20 backdrop-blur-md flex items-center justify-center font-black">
+                      <div className="w-8 h-8 rounded-lg bg-[#07132B] border border-[#C59B27]/40 text-[#C59B27] flex items-center justify-center font-bold">
                         {instGroup.institution === 'UES' ? (
-                          <GraduationCap className="w-4 h-4 text-white" />
+                          <GraduationCap className="w-4 h-4 text-[#C59B27]" />
                         ) : instGroup.institution === 'ESCALAFON' ? (
-                          <Award className="w-4 h-4 text-white" />
+                          <Award className="w-4 h-4 text-[#C59B27]" />
                         ) : instGroup.institution === 'AVANZO' ? (
-                          <BookOpen className="w-4 h-4 text-white" />
+                          <BookOpen className="w-4 h-4 text-[#C59B27]" />
                         ) : instGroup.institution === 'ENA' ? (
-                          <Sprout className="w-4 h-4 text-white" />
+                          <Sprout className="w-4 h-4 text-[#C59B27]" />
                         ) : instGroup.institution === 'ANSP' ? (
-                          <Shield className="w-4 h-4 text-white" />
+                          <Shield className="w-4 h-4 text-[#C59B27]" />
                         ) : (
-                          <Award className="w-4 h-4 text-white" />
+                          <Award className="w-4 h-4 text-[#C59B27]" />
                         )}
                       </div>
                       <div>
-                        <h3 className="text-base sm:text-lg font-black tracking-tight">
+                        <h3 className="text-base sm:text-lg font-editorial font-bold tracking-tight text-white">
                           {instGroup.institution === 'UES'
                             ? 'Universidad de El Salvador (UES) — Admisión Universitaria'
                             : instGroup.institution === 'ESCALAFON'
@@ -1484,22 +1474,22 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
                             return (
                               <div
                                 key={sec.sectionTitle}
-                                className="bg-white rounded-3xl border border-slate-200/90 shadow-xs overflow-hidden transition-all"
+                                className="bg-white rounded-xl border border-[#E5E3D8] shadow-corporate-subtle overflow-hidden transition-all"
                               >
                                 {/* Cabecera de la Sección (Accordion) */}
                                 <div
                                   onClick={() => toggleCollapseSection(secKey)}
-                                  className="p-4 sm:p-5 bg-gradient-to-r from-slate-50 to-white hover:bg-slate-100/60 border-b border-slate-100 flex items-center justify-between gap-3 cursor-pointer select-none transition-colors"
+                                  className="p-4 sm:p-5 bg-[#FAF9F5] hover:bg-[#F4F3ED] border-b border-[#E5E3D8] flex items-center justify-between gap-3 cursor-pointer select-none transition-colors"
                                 >
                                   <div className="flex items-center gap-2.5 flex-1 min-w-0">
-                                    <div className="w-7 h-7 rounded-lg bg-slate-900 text-white flex items-center justify-center shrink-0">
+                                    <div className="w-7 h-7 rounded-md bg-[#0B1B3D] text-[#C59B27] flex items-center justify-center shrink-0">
                                       <FolderTree className="w-3.5 h-3.5" />
                                     </div>
                                     <div className="min-w-0">
-                                      <h5 className="text-xs sm:text-sm font-bold text-slate-900 truncate">
+                                      <h5 className="text-xs sm:text-sm font-bold text-[#111625] truncate">
                                         {sec.sectionTitle}
                                       </h5>
-                                      <p className="text-[11px] text-slate-500 font-medium">
+                                      <p className="text-[11px] text-[#64748B] font-mono-exam font-medium">
                                         Sección con {sec.questions.length} preguntas de opción múltiple
                                       </p>
                                     </div>

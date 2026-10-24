@@ -49,7 +49,7 @@
       },
       {
         "key": "B",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "C",
@@ -333,7 +333,7 @@
     "options": [
       {
         "key": "A",
-        "text": "-5"
+        "text": "-4"
       },
       {
         "key": "B",
@@ -485,11 +485,11 @@
       },
       {
         "key": "C",
-        "text": "1"
+        "text": "2"
       },
       {
         "key": "D",
-        "text": "2"
+        "text": "3"
       },
       {
         "key": "E",
@@ -573,7 +573,7 @@
       }
     ],
     "correctAnswer": "B",
-    "explanation": "7."
+    "explanation": "Los desplazamientos hacia la derecha sobre la recta numérica representan números reales positivos, por lo que la coordenada es 7."
   },
   {
     "id": "1.2_q17",
@@ -645,7 +645,7 @@
       }
     ],
     "correctAnswer": "D",
-    "explanation": "3."
+    "explanation": "En la recta real el valor mayor se ubica más a la derecha; comparando los valores dados, el mayor es 3."
   },
   {
     "id": "1.2_q19",
@@ -809,11 +809,11 @@
       },
       {
         "key": "C",
-        "text": "1"
+        "text": "2"
       },
       {
         "key": "D",
-        "text": "2"
+        "text": "3"
       },
       {
         "key": "E",
@@ -1165,7 +1165,7 @@
       },
       {
         "key": "B",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "C",
@@ -1825,7 +1825,7 @@
       },
       {
         "key": "E",
-        "text": "-2"
+        "text": "-1"
       },
       {
         "key": "F",
@@ -1857,7 +1857,7 @@
       },
       {
         "key": "D",
-        "text": "4"
+        "text": "5"
       },
       {
         "key": "E",
@@ -1937,7 +1937,7 @@
       },
       {
         "key": "F",
-        "text": "-4"
+        "text": "-3"
       }
     ],
     "correctAnswer": "B",
@@ -1961,7 +1961,7 @@
       },
       {
         "key": "C",
-        "text": "2"
+        "text": "3"
       },
       {
         "key": "D",
@@ -1989,7 +1989,7 @@
     "options": [
       {
         "key": "A",
-        "text": "-5"
+        "text": "-4"
       },
       {
         "key": "B",
@@ -2009,7 +2009,7 @@
       },
       {
         "key": "F",
-        "text": "-4"
+        "text": "-3"
       }
     ],
     "correctAnswer": "B",
@@ -2533,7 +2533,7 @@
       },
       {
         "key": "B",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "C",
@@ -2605,7 +2605,7 @@
       },
       {
         "key": "B",
-        "text": "3"
+        "text": "4"
       },
       {
         "key": "C",
@@ -2641,7 +2641,7 @@
       },
       {
         "key": "B",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "C",
@@ -2865,7 +2865,7 @@
       },
       {
         "key": "D",
-        "text": "-1"
+        "text": "0"
       },
       {
         "key": "E",
@@ -2941,7 +2941,7 @@
       },
       {
         "key": "E",
-        "text": "-2"
+        "text": "-3"
       },
       {
         "key": "F",
@@ -2997,7 +2997,7 @@
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "B",
@@ -3121,7 +3121,7 @@
       },
       {
         "key": "E",
-        "text": "-2"
+        "text": "-3"
       },
       {
         "key": "F",
@@ -3161,7 +3161,7 @@
       },
       {
         "key": "F",
-        "text": "2"
+        "text": "1"
       }
     ],
     "correctAnswer": "B",
@@ -3177,7 +3177,7 @@
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "B",
@@ -3773,7 +3773,7 @@
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "3"
       }
     ],
     "correctAnswer": "A",
@@ -3809,7 +3809,7 @@
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "3"
       }
     ],
     "correctAnswer": "A",
@@ -4381,11 +4381,11 @@
       },
       {
         "key": "E",
-        "text": "0"
+        "text": "2"
       },
       {
         "key": "F",
-        "text": "-1"
+        "text": "-2"
       }
     ],
     "correctAnswer": "B",
@@ -4413,7 +4413,7 @@
       },
       {
         "key": "D",
-        "text": "1"
+        "text": "2"
       },
       {
         "key": "E",
@@ -4421,7 +4421,7 @@
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "3"
       }
     ],
     "correctAnswer": "B",
@@ -4493,7 +4493,7 @@
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "3"
       }
     ],
     "correctAnswer": "B",
@@ -4777,11 +4777,11 @@
       },
       {
         "key": "E",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "3"
       }
     ],
     "correctAnswer": "A",
@@ -4997,7 +4997,7 @@
       },
       {
         "key": "F",
-        "text": "-1"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
@@ -5105,7 +5105,7 @@
       },
       {
         "key": "F",
-        "text": "-1"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
@@ -5209,11 +5209,11 @@
       },
       {
         "key": "E",
-        "text": "1"
+        "text": "3"
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "-1"
       }
     ],
     "correctAnswer": "A",
@@ -5465,7 +5465,7 @@
       },
       {
         "key": "F",
-        "text": "-1"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
@@ -5493,15 +5493,15 @@
       },
       {
         "key": "D",
-        "text": "1"
+        "text": "2"
       },
       {
         "key": "E",
-        "text": "1"
+        "text": "3"
       },
       {
         "key": "F",
-        "text": "-1"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
@@ -5537,7 +5537,7 @@
       },
       {
         "key": "F",
-        "text": "-1"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
@@ -5745,15 +5745,15 @@
       },
       {
         "key": "D",
-        "text": "1"
+        "text": "2"
       },
       {
         "key": "E",
-        "text": "1"
+        "text": "3"
       },
       {
         "key": "F",
-        "text": "-1"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
@@ -5817,11 +5817,11 @@
       },
       {
         "key": "D",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "E",
-        "text": "1"
+        "text": "3"
       },
       {
         "key": "F",
@@ -6005,7 +6005,7 @@
       },
       {
         "key": "F",
-        "text": "-1"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
@@ -6033,15 +6033,15 @@
       },
       {
         "key": "D",
-        "text": "1"
+        "text": "2"
       },
       {
         "key": "E",
-        "text": "1"
+        "text": "3"
       },
       {
         "key": "F",
-        "text": "-1"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
@@ -6077,7 +6077,7 @@
       },
       {
         "key": "F",
-        "text": "-1"
+        "text": "-2"
       }
     ],
     "correctAnswer": "A",
@@ -6325,7 +6325,7 @@
       },
       {
         "key": "E",
-        "text": "1"
+        "text": "3"
       },
       {
         "key": "F",
@@ -6569,7 +6569,7 @@
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "-1"
       },
       {
         "key": "D",
@@ -6581,7 +6581,7 @@
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
@@ -6617,7 +6617,7 @@
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
@@ -6785,7 +6785,7 @@
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "-1"
       },
       {
         "key": "D",
@@ -6797,7 +6797,7 @@
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
@@ -7001,7 +7001,7 @@
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "-1"
       },
       {
         "key": "D",
@@ -7013,7 +7013,7 @@
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
@@ -7053,7 +7053,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "4."
+    "explanation": "La distancia al origen está dada por el valor absoluto: |-4| = 4, que es igual a |4| = 4."
   },
   {
     "id": "1.2_q197",
@@ -7113,11 +7113,11 @@
       },
       {
         "key": "D",
-        "text": "10"
+        "text": "11"
       },
       {
         "key": "E",
-        "text": "-10"
+        "text": "-9"
       },
       {
         "key": "F",

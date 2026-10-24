@@ -13,6 +13,7 @@ import {
   HelpCircle,
 } from 'lucide-react';
 import { getLanguageVocabulary, LANGUAGES_CATALOG } from '../data/languages/languagesRegistry';
+import { playAudioSpeech } from '../utils/audioSpeechHelper';
 
 interface LanguageVocabularyGenericViewProps {
   languageId: string;
@@ -27,18 +28,9 @@ export default function LanguageVocabularyGenericView({ languageId }: LanguageVo
   const [flashcardMode, setFlashcardMode] = useState<boolean>(false);
   const [revealedIds, setRevealedIds] = useState<Record<string, boolean>>({});
 
-  // Sintetizador de voz nativo Web Speech API
+  // Sintetizador de voz nativo Web Speech API robusto
   const speakText = (text: string) => {
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      if (languageId === 'german') utterance.lang = 'de-DE';
-      else if (languageId === 'arabic') utterance.lang = 'ar-SA';
-      else if (languageId === 'mandarin') utterance.lang = 'zh-CN';
-      else utterance.lang = 'es-SV';
-      utterance.rate = 0.85;
-      window.speechSynthesis.speak(utterance);
-    }
+    playAudioSpeech(text, languageId);
   };
 
   const categories = useMemo(() => {

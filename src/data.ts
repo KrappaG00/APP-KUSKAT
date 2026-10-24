@@ -602,7 +602,7 @@ ${sanitize(q.statement)}
 \\begin{center}
 \\small
 \\textbf{KUSKAT © 2026 • Todos los derechos reservados} \\\\
-Contacto oficial: +503 7657 4463 • Instagram: @Kuskat.es
+Contacto oficial: WhatsApp +503 7657 4463 • Instagram: @Kuskat.es
 \\end{center}
 
 \\end{document}
@@ -610,3 +610,137 @@ Contacto oficial: +503 7657 4463 • Instagram: @Kuskat.es
 
   return tex;
 }
+
+/**
+ * Genera una Hoja de Respuestas de Burbujas Ópticas (OMR) y Plantilla Perforable en LaTeX
+ * Especial para docentes de centros escolares e institutos públicos de El Salvador
+ */
+export function generateOmrSheetLatex(questionCount: number = 50, title: string = 'Evaluación Institucional'): string {
+  const count = Math.min(Math.max(questionCount, 10), 100);
+
+  return `\\documentclass[10pt,letterpaper]{article}
+\\usepackage[utf8]{inputenc}
+\\usepackage[spanish]{babel}
+\\usepackage{geometry}
+\\usepackage{multicol}
+\\usepackage{xcolor}
+\\usepackage{tcolorbox}
+\\usepackage{tikz}
+
+\\geometry{top=1.5cm,bottom=1.5cm,left=1.5cm,right=1.5cm}
+\\setlength{\\parindent}{0pt}
+
+% Marcas ópticas en las cuatro esquinas (Fiducials)
+\\newcommand{\\omrCornerMarker}{\\rule{5mm}{5mm}}
+\\newcommand{\\bubble}[1]{\\tikz[baseline=-0.6ex]\\node[circle,draw=black!80,thick,inner sep=0pt,minimum size=4.2mm,font=\\bfseries\\sffamily\\scriptsize]{#1};}
+
+\\begin{document}
+\\pagestyle{empty}
+
+% Marcas de alineación superior
+\\noindent\\omrCornerMarker\\hfill\\textbf{\\sffamily\\large KUSKAT OMR SYSTEM • REPÚBLICA DE EL SALVADOR}\\hfill\\omrCornerMarker
+
+\\vspace{0.4cm}
+
+% Encabezado Institucional
+\\begin{tcolorbox}[colback=white,colframe=black!75,arc=1mm,boxrule=0.8pt]
+\\sffamily\\small
+\\textbf{CENTRO EDUCATIVO:} \\hrulefill \\\\[0.25cm]
+\\textbf{ESTUDIANTE:} \\hrulefill \\quad \\textbf{FECHA:} \\underline{\\hspace{2.5cm}} \\\\[0.25cm]
+\\textbf{ASIGNATURA:} ${title} \\hfill \\textbf{GRADO / SECCIÓN:} \\underline{\\hspace{2cm}}
+\\end{tcolorbox}
+
+\\vspace{0.2cm}
+
+% Bloque de NIE (Número de Identificación Estudiantil - 8 dígitos)
+\\begin{minipage}[t]{0.36\\textwidth}
+\\begin{tcolorbox}[colback=gray!5,colframe=black!60,arc=1mm,title=\\sffamily\\bfseries\\scriptsize CUADRÍCULA DE NIE (8 DÍGITOS),boxrule=0.6pt]
+\\scriptsize\\sffamily
+Escriba y rellene cada dígito de su NIE: \\\\[0.15cm]
+\\centering
+\\begin{tabular}{|c|c|c|c|c|c|c|c|}
+\\hline
+\\rule{0pt}{10pt} & & & & & & & \\\\
+\\hline
+\\bubble{0}&\\bubble{0}&\\bubble{0}&\\bubble{0}&\\bubble{0}&\\bubble{0}&\\bubble{0}&\\bubble{0} \\\\
+\\bubble{1}&\\bubble{1}&\\bubble{1}&\\bubble{1}&\\bubble{1}&\\bubble{1}&\\bubble{1}&\\bubble{1} \\\\
+\\bubble{2}&\\bubble{2}&\\bubble{2}&\\bubble{2}&\\bubble{2}&\\bubble{2}&\\bubble{2}&\\bubble{2} \\\\
+\\bubble{3}&\\bubble{3}&\\bubble{3}&\\bubble{3}&\\bubble{3}&\\bubble{3}&\\bubble{3}&\\bubble{3} \\\\
+\\bubble{4}&\\bubble{4}&\\bubble{4}&\\bubble{4}&\\bubble{4}&\\bubble{4}&\\bubble{4}&\\bubble{4} \\\\
+\\bubble{5}&\\bubble{5}&\\bubble{5}&\\bubble{5}&\\bubble{5}&\\bubble{5}&\\bubble{5}&\\bubble{5} \\\\
+\\bubble{6}&\\bubble{6}&\\bubble{6}&\\bubble{6}&\\bubble{6}&\\bubble{6}&\\bubble{6}&\\bubble{6} \\\\
+\\bubble{7}&\\bubble{7}&\\bubble{7}&\\bubble{7}&\\bubble{7}&\\bubble{7}&\\bubble{7}&\\bubble{7} \\\\
+\\bubble{8}&\\bubble{8}&\\bubble{8}&\\bubble{8}&\\bubble{8}&\\bubble{8}&\\bubble{8}&\\bubble{8} \\\\
+\\bubble{9}&\\bubble{9}&\\bubble{9}&\\bubble{9}&\\bubble{9}&\\bubble{9}&\\bubble{9}&\\bubble{9} \\\\
+\\hline
+\\end{tabular}
+\\end{tcolorbox}
+\\end{minipage}
+\\hfill
+% Instrucciones de Relleno Óptico
+\\begin{minipage}[t]{0.60\\textwidth}
+\\begin{tcolorbox}[colback=blue!3,colframe=blue!70!black,arc=1mm,title=\\sffamily\\bfseries\\scriptsize INSTRUCCIONES DE LLENADO,boxrule=0.6pt]
+\\sffamily\\scriptsize
+1. Utilice lápiz de grafito No. 2 o bolígrafo negro. \\\\
+2. Rellene completamente el círculo correspondiente a su respuesta. \\\\
+3. No use corrector líquido ni haga marcas fuera del círculo. \\\\
+4. Ejemplo correcto: \\tikz[baseline=-0.6ex]\\node[circle,fill=black,draw=black,thick,inner sep=0pt,minimum size=4.2mm,text=white,font=\\bfseries\\sffamily\\scriptsize]{A}; \\quad Incorrecto: \\tikz[baseline=-0.6ex]\\node[circle,draw=black,thick,inner sep=0pt,minimum size=4.2mm,font=\\bfseries\\sffamily\\scriptsize]{$\\times$}; o \\tikz[baseline=-0.6ex]\\node[circle,draw=black,thick,inner sep=0pt,minimum size=4.2mm,font=\\bfseries\\sffamily\\scriptsize]{$\\checkmark$};
+\\end{tcolorbox}
+
+\\vspace{0.2cm}
+\\begin{tcolorbox}[colback=yellow!5,colframe=orange!80!black,arc=1mm,title=\\sffamily\\bfseries\\scriptsize CONTROL INSTITUCIONAL,boxrule=0.6pt]
+\\sffamily\\scriptsize
+\\textbf{Total de Reactivos:} ${count} \\quad \\textbf{Puntaje Máximo:} 10.0 \\\\
+\\textbf{Firma del Docente Evaluador:} \\hrulefill
+\\end{tcolorbox}
+\\end{minipage}
+
+\\vspace{0.4cm}
+
+% Rejilla de Burbujas de Respuestas (Hasta 100 reactivos en 2 o 4 columnas)
+\\begin{tcolorbox}[colback=white,colframe=black!80,arc=1mm,title=\\sffamily\\bfseries\\scriptsize MATRIZ DE RESPUESTAS (1 A ${count}),boxrule=0.8pt]
+\\begin{multicols}{${count > 50 ? 4 : 2}}
+\\sffamily\\footnotesize
+\\begin{enumerate}[leftmargin=1.8em,itemsep=3pt]
+${Array.from({ length: count }, (_, i) => `\\item \\bubble{A} \\bubble{B} \\bubble{C} \\bubble{D}`).join('\n')}
+\\end{enumerate}
+\\end{multicols}
+\\end{tcolorbox}
+
+\\vfill
+
+% Marcas ópticas inferiores y pie institucional
+\\noindent\\omrCornerMarker\\hfill\\textbf{\\sffamily\\scriptsize HOJA OFICIAL OMR • KUSKAT © 2026 • WHATSAPP: +503 7657 4463}\\hfill\\omrCornerMarker
+
+% =========================================================================
+% PÁGINA 2: PLANTILLA PERFORABLE PARA CALIFICACIÓN RÁPIDA DEL DOCENTE
+% =========================================================================
+\\newpage
+\\noindent\\omrCornerMarker\\hfill\\textbf{\\sffamily\\large PLANTILLA PERFORABLE DEL DOCENTE (CORRECCIÓN RÁPIDA)}\\hfill\\omrCornerMarker
+
+\\vspace{0.4cm}
+\\begin{tcolorbox}[colback=yellow!10,colframe=orange!80!black,arc=1mm]
+\\sffamily\\small
+\\textbf{GUÍA DE USO PARA EL DOCENTE:} \\\\
+1. Imprima esta página en papel opalina o cartulina blanca. \\\\
+2. Perfore con un sacabocados circular únicamente las burbujas correspondientes a las respuestas correctas de la clave oficial. \\\\
+3. Para calificar, superponga esta plantilla sobre la hoja del estudiante: las marcas que coincidan con las perforaciones son las respuestas correctas. Permite evaluar cada examen en menos de 5 segundos.
+\\end{tcolorbox}
+
+\\vspace{0.4cm}
+\\begin{tcolorbox}[colback=white,colframe=black!80,arc=1mm,title=\\sffamily\\bfseries\\scriptsize MATRIZ PERFORABLE DE CLAVE (1 A ${count}),boxrule=0.8pt]
+\\begin{multicols}{${count > 50 ? 4 : 2}}
+\\sffamily\\footnotesize
+\\begin{enumerate}[leftmargin=1.8em,itemsep=3pt]
+${Array.from({ length: count }, (_, i) => `\\item \\bubble{A} \\bubble{B} \\bubble{C} \\bubble{D}`).join('\n')}
+\\end{enumerate}
+\\end{multicols}
+\\end{tcolorbox}
+
+\\vfill
+\\noindent\\omrCornerMarker\\hfill\\textbf{\\sffamily\\scriptsize PLANTILLA MAESTRA DOCENTE • KUSKAT 2026}\\hfill\\omrCornerMarker
+
+\\end{document}
+`;
+}
+

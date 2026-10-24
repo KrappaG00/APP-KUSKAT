@@ -1,0 +1,854 @@
+{
+  "01_Primer_Grado": {
+    "files": [
+      "1.° grado_Números y formas, tomo 1.pdf",
+      "1.° grado_Números y formas, tomo 2.pdf"
+    ],
+    "books": {
+      "1.° grado_Números y formas, tomo 1.pdf": {
+        "pages": 226,
+        "outline": [
+          "Secciones del LT (páginas iniciales)",
+          "1.°Números y formas P1-1-16",
+          "1.°Números y formas P2-17-32",
+          "1.°Números y formas P3-33-50",
+          "1.°Números y formas P4-49-64",
+          "1.°Números y formas P5-65-80",
+          "1.°Números y formas P6-81-98",
+          "1.°Números y formas P4-099-160",
+          "1.°Números y formas P4-161-224"
+        ],
+        "toc_snippet": ""
+      },
+      "1.° grado_Números y formas, tomo 2.pdf": {
+        "pages": 130,
+        "outline": [
+          "LT1°_T2_C1",
+          "LT1°_T2_C2",
+          "LT1°_T2_C3",
+          "LT1°_T2_C4",
+          "LT1°_T2_C5",
+          "LT1°_T2_C6",
+          "LT1°_T2_C7",
+          "LT1°_T2_C8"
+        ],
+        "toc_snippet": ""
+      }
+    }
+  },
+  "02_Segundo_Grado": {
+    "files": [
+      "Guía metodológica 2.° grado, tomo 1.pdf",
+      "Guía metodológica 2.° grado, tomo 2.pdf",
+      "Libro de texto 2.° grado_Tomo 1.pdf",
+      "Libro de texto 2.° grado_Tomo 2.pdf",
+      "Programa de estudio de segundo y tercer grado.pdf"
+    ],
+    "books": {
+      "Guía metodológica 2.° grado, tomo 1.pdf": {
+        "pages": 292,
+        "outline": [
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "2° GM Portada - Tomo 1.pdf",
+          "Página en blanco",
+          "2° GM Portada - Tomo 1.pdf",
+          "Página en blanco"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 2.° grado, tomo 2.pdf": {
+        "pages": 244,
+        "outline": [
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco"
+        ],
+        "toc_snippet": ""
+      },
+      "Libro de texto 2.° grado_Tomo 1.pdf": {
+        "pages": 164,
+        "outline": [
+          "LT2°-Páginas iniciales Tomo 1",
+          "LT2°U1",
+          "LT2°U2",
+          "LT2°U3",
+          "LT2°U4",
+          "LT2°-Recortables Tomo 1",
+          "LT2°-Contraportada Tomo 1",
+          "LT2°U1_pág41",
+          "LT2°U1_pág31",
+          "LT Páginas iniciales_4 - 2.° Tomo 1",
+          "LT Páginas iniciales_7- 2.° Tomo 1"
+        ],
+        "toc_snippet": ""
+      },
+      "Libro de texto 2.° grado_Tomo 2.pdf": {
+        "pages": 164,
+        "outline": [
+          "LT2°-Páginas iniciales Tomo 2",
+          "LT2°U5",
+          "LT2°U6",
+          "LT2°U7",
+          "LT2°U8",
+          "LT2°U9",
+          "LT2°-Recortables Tomo 2",
+          "LT2°-Contraportada Tomo 2",
+          "LT2°U6_pág37",
+          "LT2°U6_pág38",
+          "LT2°U6_pág55",
+          "LT2°-Recortables Tomo 2_pág153-160",
+          "LT Páginas iniciales - 2.° Tomo 2_3-5",
+          "LT Páginas iniciales - 2.° Tomo 2_7"
+        ],
+        "toc_snippet": ""
+      },
+      "Programa de estudio de segundo y tercer grado.pdf": {
+        "pages": 78,
+        "outline": [],
+        "toc_snippet": "\n--- Page 6 ---\n6\nÍndice\nI. Introducción del programa de estudio de\n Matemática para segundo y tercer grado ...... 1\nII. Plan de estudio de Matemática para segundo \ny tercer grado de Educación Básica  ........... 5\nIII. Presentación de la asignatura\n ..................................................................... 6\nComponentes curriculares  .................................................................  1\na. Competencias de unidad........................................................... 1\nb. Contenidos................................................................................ 1\nb.1 Contenidos procedimentales ............................................\nb.2 Contenidos actitudinales ..................................................\n1 \n2\nc. Evaluación................................................................................. 2\nDescripción y presentación del formato de una unidad didáctica..... 2\nEnfoque de la asignatura: Resolución de problemas  ........................... 6\nCompetencias transversales a desarrollar ........................................... 6\na. Razonamiento lógico matemático ............................................. 6\nb. Comunicación con lenguaje matemático .................................. 6\nc. Aplicación de la Matemática al entorno .................................... 6\nEjes transversales ............................................................................... 5\nIV. Lineamientos metodológicos.....................  9\n V. Lineamientos de eva\n--- Page 7 ---\n1\nEl programa de estudio de Matemática para segundo y tercer \ngrado de Educación Básica presenta una propuesta curricular \nque responde a las interrogantes que todo docente se hace al \nplanificar sus clases.\nEste programa de estudio está diseñado a partir de componentes \ncurriculares y se desarrolla en el siguiente orden:\n• Descripción de las competencias y el enfoque que orienta el \ndesarrollo de la asignatura.\n• Presentación de los bloques de contenido que responden a los \nobjetivos de la asignatura y permiten estructurar las unidades \ndidácticas.\n• El componente de metodología ofrece recomendaciones \nespecíficas que perfilan una secuencia didáctica. Describe \ncómo formular proyectos en función del aprendizaje de \ncompetencias.\n• La evaluación se desarrolla por medio de sugerencias y criterios \naplicables a las funciones de la evaluación: diagnóstica, \nformativa y sumativa.\nFinalmente, se presentan de manera articulada las competencias \nde unidad, contenidos e indicadores de logro por unidad didáctica \nen cuadros similares a los formatos del plan de unidad. Aunque el \nprograma de estudio desarrolle los componentes curriculares, no \npuede resolver situaciones particulares de cada aula; por lo tanto, \nse debe desarrollar de manera flexible y contextualizada.\nComponentes curriculares\na. Competencias de unidad. Están estructuradas en función del \nlogro del conocimiento, por ello se formulan de modo que \norientan a una acción. Posteriormente se en"
+      }
+    }
+  },
+  "03_Tercer_Grado": {
+    "files": [
+      "Cuaderno de ejercicios 3.° grado.pdf",
+      "Guía metodológica 3.° grado, tomo 2.pdf",
+      "Libro de texto 3.° grado.pdf"
+    ],
+    "books": {
+      "Cuaderno de ejercicios 3.° grado.pdf": {
+        "pages": 244,
+        "outline": [
+          "CE3 Páginas iniciales_1-3",
+          "3U4_carta_79",
+          "3U9_carta_177",
+          "3U10_carta_198-200"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 3.° grado, tomo 2.pdf": {
+        "pages": 222,
+        "outline": [
+          "3° GM Portada - Tomo 2.pdf",
+          "Página en blanco",
+          "3° GM Portada - Tomo 2.pdf",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Pág blancas.pdf",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Pág blancas.pdf",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Pág blancas.pdf",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Pág blancas.pdf"
+        ],
+        "toc_snippet": ""
+      },
+      "Libro de texto 3.° grado.pdf": {
+        "pages": 196,
+        "outline": [
+          "LT3°-Páginas iniciales",
+          "LT3°U1",
+          "LT3°U2",
+          "LT3°U3",
+          "LT3°U4",
+          "LT3°U5",
+          "LT3°U6",
+          "LT3°U7",
+          "LT3°U8",
+          "LT3°U9",
+          "LT3°U10",
+          "LT3°-Recortables",
+          "LT3°-Contraportada",
+          "LT3°U5_pág90",
+          "LT3°U5_pág94",
+          "LT3°U1",
+          "LT3°U2_pág30",
+          "LT3°U2_pág38",
+          "LT3°U3_pág52",
+          "LT3°U4_pág77",
+          "LT3°U2_pág44",
+          "LT3°-Recortables_pág184",
+          "LT3°-Recortables_pág187",
+          "LT Páginas iniciales - 3.°_3-5",
+          "LT Páginas iniciales - 3.°_7",
+          "LT3°U10_167"
+        ],
+        "toc_snippet": ""
+      }
+    }
+  },
+  "04_Cuarto_Grado": {
+    "files": [
+      "Cuaderno de ejercicios 4.° grado.pdf",
+      "Guía metodológica 4.° grado, tomo 1.pdf",
+      "Guía metodológica 4.° grado, tomo 2.pdf",
+      "Libro de texto 4.° grado.pdf"
+    ],
+    "books": {
+      "Cuaderno de ejercicios 4.° grado.pdf": {
+        "pages": 227,
+        "outline": [
+          "CE4 Páginas iniciales_1-3",
+          "4° U3 CE_carta_57",
+          "autoevaluacion de los trimestres_192-194"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 4.° grado, tomo 1.pdf": {
+        "pages": 276,
+        "outline": [
+          "portada-4°-tomo-1",
+          "contraportada-4°-tomo1",
+          "GM4°-Páginas iniciales (web)",
+          "GM4°-Páginas iniciales"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 4.° grado, tomo 2.pdf": {
+        "pages": 188,
+        "outline": [
+          "contraportada-4°-tomo-2",
+          "portada-4°-tomo-2"
+        ],
+        "toc_snippet": ""
+      },
+      "Libro de texto 4.° grado.pdf": {
+        "pages": 196,
+        "outline": [
+          "LT4°-Páginas iniciales",
+          "LT4°U1",
+          "LT4°U2",
+          "LT4°U3",
+          "LT4°U4",
+          "LT4°U5",
+          "LT4°U6",
+          "LT4°U7",
+          "LT4°U8",
+          "LT4°U9",
+          "LT4°-Contraportada",
+          "LT4°U4_pág73",
+          "LT4°U4_pág74",
+          "LT4°U6_pág119",
+          "LT4° Páginas iniciales_actualizado_3-5",
+          "LT4° Páginas iniciales_actualizado_7",
+          "LT4°U2_25",
+          "LT4° Páginas iniciales_actualizado_4"
+        ],
+        "toc_snippet": ""
+      }
+    }
+  },
+  "05_Quinto_Grado": {
+    "files": [
+      "Cuaderno de ejercicios 5.° grado.pdf",
+      "Guía metodológica 5.° grado, tomo 1.pdf",
+      "Guía metodológica 5.° grado, tomo 2.pdf",
+      "Libro de texto 5.° grado.pdf"
+    ],
+    "books": {
+      "Cuaderno de ejercicios 5.° grado.pdf": {
+        "pages": 243,
+        "outline": [
+          "CE5 Páginas iniciales_3-5",
+          "CE5° U2_27",
+          "CE5° Autoevaluaciones_204-206"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 5.° grado, tomo 1.pdf": {
+        "pages": 244,
+        "outline": [
+          "portada-5°-tomo-1",
+          "GM5°-Páginas iniciales",
+          "GM5°U1"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 5.° grado, tomo 2.pdf": {
+        "pages": 244,
+        "outline": [
+          "portada-5°-tomo-2",
+          "contraportada-5°-tomo-2",
+          "pag 4",
+          "11-25"
+        ],
+        "toc_snippet": ""
+      },
+      "Libro de texto 5.° grado.pdf": {
+        "pages": 196,
+        "outline": [
+          "LT5°-Páginas iniciales",
+          "LT5°U1",
+          "LT5°U2",
+          "LT5°U3",
+          "LT5°U4",
+          "LT5°U5",
+          "LT5°U6",
+          "LT5°U7",
+          "LT5°U8",
+          "LT5°U9",
+          "LT5°U10",
+          "LT5°U11",
+          "LT5°U12",
+          "LT5°-Contraportada",
+          "LT5°U4_pág71-72",
+          "LT5°U4_pág69",
+          "LT5°U5_pág98",
+          "LT5°U11_pág179",
+          "LT5° Páginas iniciales_3-5",
+          "LT5° Páginas iniciales_7",
+          "LT5°U1_10",
+          "LT5° Páginas iniciales_4"
+        ],
+        "toc_snippet": ""
+      }
+    }
+  },
+  "06_Sexto_Grado": {
+    "files": [
+      "Cuaderno de ejercicios 6.° grado.pdf",
+      "Guía metodológica 6.° grado, tomo 1.pdf",
+      "Guía metodológica 6.° grado, tomo 2.pdf",
+      "Libro de texto 6.° grado.pdf"
+    ],
+    "books": {
+      "Cuaderno de ejercicios 6.° grado.pdf": {
+        "pages": 228,
+        "outline": [
+          "CE6 Páginas iniciales_3-5",
+          "CE6° U2_43",
+          "CE6° U5_119",
+          "CE6° U7_138",
+          "CE6° U7_140",
+          "CE6° Autoevaluaciones_196-198"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 6.° grado, tomo 1.pdf": {
+        "pages": 228,
+        "outline": [
+          "portada-6°-tomo-1",
+          "GM6°-Páginas iniciales"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 6.° grado, tomo 2.pdf": {
+        "pages": 260,
+        "outline": [
+          "portada-6°-tomo-2",
+          "53-23",
+          "53"
+        ],
+        "toc_snippet": ""
+      },
+      "Libro de texto 6.° grado.pdf": {
+        "pages": 196,
+        "outline": [
+          "LT6°-Páginas iniciales",
+          "LT6°U1",
+          "LT6°U2",
+          "LT6°U3",
+          "LT6°U4",
+          "LT6°U5",
+          "LT6°U6",
+          "LT6°U7",
+          "LT6°U8",
+          "LT6°U9",
+          "LT6°U10",
+          "LT6°U11",
+          "LT6ºU12",
+          "LT6°-Contraportada",
+          "LT6°U4_pág86",
+          "LT6°U5_pág90",
+          "LT6° Páginas iniciales_3-5",
+          "LT6° Páginas iniciales_7",
+          "LT6°U1_18",
+          "LT6°U2_43",
+          "LT6° Páginas iniciales_4"
+        ],
+        "toc_snippet": ""
+      }
+    }
+  },
+  "07_Septimo_Grado": {
+    "files": [
+      "Cuaderno de ejercicios 7.° grado.pdf",
+      "Guía metodológica 7.° grado, tomo 1.pdf",
+      "Guía metodológica 7.° grado, tomo 2.pdf",
+      "Libro de texto 7.° grado.pdf"
+    ],
+    "books": {
+      "Cuaderno de ejercicios 7.° grado.pdf": {
+        "pages": 259,
+        "outline": [
+          "CE7 Páginas iniciales_actualizado_2-4",
+          "CE7°U3_58",
+          "CE7°U5_99",
+          "CE7°U6_136",
+          "CE7°U6_152",
+          "CE7°U7_171",
+          "CE7°U8_205",
+          "CE7°-Páginas finales-_208-210",
+          "CE7°U4_73",
+          "CE7°U5_122"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 7.° grado, tomo 1.pdf": {
+        "pages": 244,
+        "outline": [
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 7.° grado, tomo 2.pdf": {
+        "pages": 252,
+        "outline": [
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco"
+        ],
+        "toc_snippet": ""
+      },
+      "Libro de texto 7.° grado.pdf": {
+        "pages": 197,
+        "outline": [
+          "Página en blanco",
+          "LT7 Páginas iniciales_actualizado_2-4",
+          "LT7 Páginas iniciales_actualizado_2-4",
+          "LT7.° U4_53",
+          "LT7.° U5_87",
+          "LT7.° U5_112"
+        ],
+        "toc_snippet": ""
+      }
+    }
+  },
+  "08_Octavo_Grado": {
+    "files": [
+      "Cuaderno de ejercicios 8.° grado.pdf",
+      "Guía metodológica 8.° grado, tomo 1.pdf",
+      "Guía metodológica 8.° grado, tomo 2.pdf",
+      "Libro de texto 8.° grado.pdf"
+    ],
+    "books": {
+      "Cuaderno de ejercicios 8.° grado.pdf": {
+        "pages": 228,
+        "outline": [
+          "CE8 Páginas iniciales_actualizado_2-4",
+          "CE8°U2_28",
+          "CE8°U2_46",
+          "CE8°U3_81",
+          "CE8°U3_83",
+          "CE8°U3_84",
+          "CE8°U3_86",
+          "CE8°U5_117",
+          "CE8°U6_135",
+          "CE8°U6_138",
+          "CE8°U6_139",
+          "CE8°U8_173",
+          "CE8°U8_179",
+          "CE8°U8_188",
+          "CE8°-Páginas finales_190-192",
+          "CE8°U3_87",
+          "CE8°U4_96",
+          "CE8°U6_146"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 8.° grado, tomo 1.pdf": {
+        "pages": 276,
+        "outline": [
+          "GM8°-Páginas iniciales -Tom I",
+          "contraportada-8°-tomo-1",
+          "contraportada-8°-tomo-1"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 8.° grado, tomo 2.pdf": {
+        "pages": 222,
+        "outline": [
+          "8° GM Portada - Tomo 2.pdf",
+          "Página en blanco",
+          "8° GM Portada - Tomo 2.pdf",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco"
+        ],
+        "toc_snippet": ""
+      },
+      "Libro de texto 8.° grado.pdf": {
+        "pages": 197,
+        "outline": [
+          "Página en blanco",
+          "LT8 Páginas iniciales_actualizado_2-4",
+          "LT8°U3_50",
+          "LT8°U3_54",
+          "LT8°U3_73",
+          "LT8°U3_78",
+          "LT8°U3_86",
+          "LT8°U4_95",
+          "LT8°U8_162",
+          "LT8°U8_179",
+          "LT8°U8_182",
+          "LT8°U8_165",
+          "LT8°U8_178"
+        ],
+        "toc_snippet": ""
+      }
+    }
+  },
+  "09_Noveno_Grado": {
+    "files": [
+      "Cuaderno de ejercicios 9.° grado.pdf",
+      "Guía metodológica 9.° grado, tomo 1.pdf",
+      "Guía metodológica 9.° grado, tomo 2.pdf",
+      "Libro de texto 9.° grado.pdf"
+    ],
+    "books": {
+      "Cuaderno de ejercicios 9.° grado.pdf": {
+        "pages": 228,
+        "outline": [
+          "CE9 Páginas iniciales_actualizado_2-4",
+          "CE9°U2_33",
+          "CE9°U2_56",
+          "CE9°U3_59",
+          "CE9°U3_62",
+          "CE9°U3_75",
+          "CE9°U3_76",
+          "CE9°U3_77",
+          "CE9°U3_79",
+          "CE9°U4_81",
+          "CE9°U5_127",
+          "CE9°U6_129",
+          "CE9°U6_130",
+          "CE9°U6_133",
+          "CE9°U6_145",
+          "CE9°U6_146",
+          "CE9°U8_165",
+          "CE9°U8_169",
+          "CE9°-Páginas finales_187",
+          "CE9°-Páginas finales_188-190",
+          "CE9°U8_185"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 9.° grado, tomo 1.pdf": {
+        "pages": 260,
+        "outline": [
+          "PORTADA T1 9.°",
+          "contraportada-9°-tomo-1",
+          "PORTADA T1 9.°",
+          "contraportada-9°-tomo-1",
+          "GM9°-25",
+          "GM9°-4"
+        ],
+        "toc_snippet": ""
+      },
+      "Guía metodológica 9.° grado, tomo 2.pdf": {
+        "pages": 218,
+        "outline": [
+          "9° GM Portada - Tomo 2.pdf",
+          "Página en blanco",
+          "9° GM Portada - Tomo 2.pdf",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco",
+          "Página en blanco"
+        ],
+        "toc_snippet": ""
+      },
+      "Libro de texto 9.° grado.pdf": {
+        "pages": 197,
+        "outline": [
+          "Página en blanco",
+          "LT9 Páginas iniciales_actualizado_2-4",
+          "LT9°U1_6",
+          "LT9°U2_33",
+          "LT9°U3_57",
+          "LT9°U4_79",
+          "LT9°U4_84",
+          "LT9°U6_127",
+          "LT9°U8_159"
+        ],
+        "toc_snippet": ""
+      }
+    }
+  },
+  "10_Primer_Ano_Bachillerato": {
+    "files": [
+      "Libro de texto 1.° año de bachillerato.pdf",
+      "Sugerencia metodológica 1.° año de bachillerato, tomo 1.pdf"
+    ],
+    "books": {
+      "Libro de texto 1.° año de bachillerato.pdf": {
+        "pages": 228,
+        "outline": [
+          "LT1°-Páginas iniciales_3-5",
+          "LT1°U1_14",
+          "LT1°U8_210",
+          "LT1°U8_215",
+          "LT1°-Páginas iniciales_6"
+        ],
+        "toc_snippet": ""
+      },
+      "Sugerencia metodológica 1.° año de bachillerato, tomo 1.pdf": {
+        "pages": 292,
+        "outline": [
+          "PORTADAS T1 1.° AÑO",
+          "contraportada-1.° año -tomo-1",
+          "SM1°-Páginas iniciales T1 (web)",
+          "SM1°-Páginas iniciales T1 (web)"
+        ],
+        "toc_snippet": ""
+      }
+    }
+  },
+  "11_Segundo_Ano_Bachillerato": {
+    "files": [
+      "Libro de texto 2.° año de bachillerato.pdf",
+      "Sugerencia metodológica 2.° año de bachillerato, tomo 1.pdf"
+    ],
+    "books": {
+      "Libro de texto 2.° año de bachillerato.pdf": {
+        "pages": 228,
+        "outline": [
+          "LT11 Páginas iniciales_3-5",
+          "LT2°U1_8",
+          "LT2°U1_9",
+          "LT2°U1_10",
+          "LT2°U2_19",
+          "LT2°U2_23",
+          "LT2°U2_24",
+          "LT2°U2_25",
+          "LT2°U3_60",
+          "LT2°U3_61",
+          "LT2°U4_105",
+          "LT2°U5_123",
+          "LT2°U7_190",
+          "LT2°U8_207",
+          "LT2°U8_208",
+          "LT2°U8_213",
+          "LT2°U8_220"
+        ],
+        "toc_snippet": ""
+      },
+      "Sugerencia metodológica 2.° año de bachillerato, tomo 1.pdf": {
+        "pages": 292,
+        "outline": [
+          "PORTADA 2.° AÑO T1",
+          "contraportada-2.° año -tomo-1",
+          "SM2°-Páginas iniciales T1",
+          "SM2°-4"
+        ],
+        "toc_snippet": ""
+      }
+    }
+  }
+}

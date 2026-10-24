@@ -359,7 +359,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                   className="flex items-center gap-2 text-slate-600 hover:text-pink-700 transition-colors"
                 >
                   <Instagram className="w-3.5 h-3.5 text-pink-600" />
-                  <span>Instagram: @Kuskat.es</span>
+                  <span>Instagram Oficial: @Kuskat.es</span>
                 </a>
               </div>
             </div>

@@ -189,7 +189,7 @@
     "options": [
       {
         "key": "A",
-        "text": "8"
+        "text": "9"
       },
       {
         "key": "B",
@@ -345,7 +345,7 @@
       },
       {
         "key": "D",
-        "text": "5"
+        "text": "6"
       },
       {
         "key": "E",
@@ -381,7 +381,7 @@
       },
       {
         "key": "D",
-        "text": "5"
+        "text": "6"
       },
       {
         "key": "E",
@@ -597,7 +597,7 @@
       },
       {
         "key": "D",
-        "text": "5"
+        "text": "6"
       },
       {
         "key": "E",
@@ -633,7 +633,7 @@
       },
       {
         "key": "D",
-        "text": "5"
+        "text": "6"
       },
       {
         "key": "E",
@@ -1113,7 +1113,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2."
+    "explanation": "Restando los polinomios término a término: P(x) - Q(x) = (x^2 + 1) - (x^2 - 1) = x^2 + 1 - x^2 + 1 = 2."
   },
   {
     "id": "1.5_q32",
@@ -1381,7 +1381,7 @@
       },
       {
         "key": "B",
-        "text": "11"
+        "text": "12"
       },
       {
         "key": "C",
@@ -3109,7 +3109,7 @@
       },
       {
         "key": "B",
-        "text": "16x"
+        "text": "17"
       },
       {
         "key": "C",
@@ -3581,7 +3581,7 @@
       },
       {
         "key": "C",
-        "text": "(x+1)^2"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -3661,7 +3661,7 @@
       },
       {
         "key": "E",
-        "text": "(x+3)(x-3)"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",
@@ -6573,7 +6573,7 @@
       },
       {
         "key": "D",
-        "text": "x = -2"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "E",
@@ -6793,7 +6793,7 @@
       },
       {
         "key": "E",
-        "text": "x = 0"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",
@@ -7393,7 +7393,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Resolviendo por eliminación o determinantes, se verifica x = 1, y = 2, z = 3."
+    "explanation": "Resolviendo el sistema lineal por determinantes se obtiene x = 1 (con y = 2, z = 3). Por lo tanto el valor de x es 1."
   },
   {
     "id": "1.5_q208",
@@ -7673,7 +7673,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Resolviendo por eliminación o determinantes, se verifica x = 1, y = 2, z = 3."
+    "explanation": "Resolviendo el sistema lineal por determinantes se obtiene x = 1 (con y = 2, z = 3). Por lo tanto el valor de x es 1."
   },
   {
     "id": "1.5_q218",
@@ -7953,7 +7953,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Resolviendo por eliminación o determinantes, se verifica x = 1, y = 2, z = 3."
+    "explanation": "Resolviendo el sistema lineal por determinantes se obtiene x = 1 (con y = 2, z = 3). Por lo tanto el valor de x es 1."
   },
   {
     "id": "1.5_q228",
@@ -8233,7 +8233,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Resolviendo por eliminación o determinantes, se verifica x = 1, y = 2, z = 3."
+    "explanation": "Resolviendo el sistema lineal por determinantes se obtiene x = 1 (con y = 2, z = 3). Por lo tanto el valor de x es 1."
   },
   {
     "id": "1.5_q238",
@@ -8513,7 +8513,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Resolviendo por eliminación o determinantes, se verifica x = 1, y = 2, z = 3."
+    "explanation": "Resolviendo el sistema lineal por determinantes se obtiene x = 1 (con y = 2, z = 3). Por lo tanto el valor de x es 1."
   },
   {
     "id": "1.5_q248",

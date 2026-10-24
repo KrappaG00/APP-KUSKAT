@@ -15,584 +15,584 @@
 import { LanguageQuestion, CEFRLevel } from './englishData';
 
 const RAW_LENCA_BANK: any[] = [
-  {
+    {
     "id": "lenca_q_a1_001",
     "number": 1,
     "level": "A1",
     "variant": "ALL",
     "topic": "Saludos y Cortesía en Lenca Potón",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Saludos y Cortesía en Lenca Potón'?",
+    "statement": "¿Cuál es la fórmula tradicional de saludo de 'Buenos días' en Lenca Potón de El Salvador?",
     "options": [
       {
         "key": "A",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Kualkat tun"
       },
       {
         "key": "B",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Kualkat ti"
       },
       {
         "key": "C",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Kualkat tekit"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Timu-itasket musta"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "explanation": "'Kualkat tun' es el saludo matutino tradicional en la variante Lenca Potón de Guatajiagua y Chilanga.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_002",
     "number": 2,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Pronombres Personales en Lenca Potón",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Pronombres Personales en Lenca Potón'?",
+    "topic": "Saludos y Cortesía en Lenca Potón",
+    "statement": "¿Cuál es la fórmula tradicional para decir 'Buenas tardes / noches' en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Kualkat tun"
       },
       {
         "key": "B",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Kualkat ti"
       },
       {
         "key": "C",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Kualkat apas"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Ne takat"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "explanation": "'Kualkat ti' es la fórmula empleada al declinar el sol y durante la noche en las comunidades lencas de Morazán.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_003",
     "number": 3,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Estructura de la Oración Básica SOV",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Estructura de la Oración Básica SOV'?",
+    "topic": "Saludos y Cortesía en Lenca Potón",
+    "statement": "¿Qué expresión se utiliza en Lenca Potón para felicitar una labor o desear '¡Buen trabajo!'?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Kualkat tekit!"
       },
       {
         "key": "B",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Kualkat tun"
       },
       {
         "key": "C",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Kualkat ti"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "U li am"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "A",
+    "explanation": "'Kualkat tekit!' reconoce el esfuerzo comunitario en la milpa, el barro o el hogar.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_004",
     "number": 4,
     "level": "A1",
     "variant": "ALL",
-    "topic": "El Sustantivo y la Posesión en Lenca",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'El Sustantivo y la Posesión en Lenca'?",
+    "topic": "Saludos y Cortesía en Lenca Potón",
+    "statement": "¿Cómo se dice 'Hasta luego / Nos vemos mañana' en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Timu-itasket musta"
       },
       {
         "key": "B",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Kualkat tun"
       },
       {
         "key": "C",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Kualkat ti"
       },
       {
         "key": "D",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Eta pe"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "A",
+    "explanation": "'Timu-itasket musta' es la despedida tradicional comunitaria en Guatajiagua.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_005",
     "number": 5,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Adjetivos y Modificadores en Lenca",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Adjetivos y Modificadores en Lenca'?",
+    "topic": "Territorio y Comunidad Lenca",
+    "statement": "¿En qué departamento de El Salvador se asientan las históricas comunidades Lencas de Guatajiagua, Chilanga y Sensembra?",
     "options": [
       {
         "key": "A",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Morazán"
       },
       {
         "key": "B",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Sonsonate"
       },
       {
         "key": "C",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Ahuachapán"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Santa Ana"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "explanation": "El departamento de Morazán constituye el corazón territorial y cultural de la herencia Lenca Potón salvadoreña.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_006",
     "number": 6,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Partículas Interrogativas: Ne, Kani, Tay",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Partículas Interrogativas: Ne, Kani, Tay'?",
+    "topic": "Patrimonio Cultural Lenca Potón",
+    "statement": "¿Qué célebre arte ancestral distingue internacionalmente a la comunidad Lenca de Guatajiagua en Morazán?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "La alfarería de barro negro teñida con tinte natural de semilla de zacate"
       },
       {
         "key": "B",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "El tallado de mármol blanco"
       },
       {
         "key": "C",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "La orfebrería de plata fundida"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "El soplado de vidrio veneciano"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "A",
+    "explanation": "La alfarería negra de Guatajiagua, moldeada a mano y cocida con zacate de carbón, es un patrimonio cultural único de El Salvador.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_007",
     "number": 7,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Números Lencas del 1 al 10",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Números Lencas del 1 al 10'?",
+    "topic": "Sintaxis y Estructura Oracional Lenca",
+    "statement": "¿Cuál es el orden sintáctico canónico fundamental de una oración transitiva en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Sujeto - Objeto - Verbo (SOV, el verbo va al final de la oración)"
       },
       {
         "key": "B",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Verbo - Sujeto - Objeto (VSO)"
       },
       {
         "key": "C",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Verbo - Objeto - Sujeto (VOS)"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Objeto - Verbo - Sujeto (OVS)"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "A",
+    "explanation": "El Lenca Potón es una lengua de orden canónico SOV: el predicado verbal se sitúa sistemáticamente al final.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_008",
     "number": 8,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Colores Tradicionales Lencas",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Colores Tradicionales Lencas'?",
+    "topic": "Sintaxis y Estructura Oracional Lenca",
+    "statement": "En la oración lenca 'U li am', siguiendo el orden canónico SOV, ¿cuál es su traducción al español?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Yo bebo agua (literalmente: Yo agua bebo)"
       },
       {
         "key": "B",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Tú compras leña en el mercado"
       },
       {
         "key": "C",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "El río corre veloz por la colina"
       },
       {
         "key": "D",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Nosotros sembramos maíz"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "A",
+    "explanation": "'U' (yo) + 'li' (agua) + 'am' (beber/comer) ejemplifica la sintaxis Sujeto + Objeto + Verbo del Lenca.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_009",
     "number": 9,
     "level": "A1",
     "variant": "ALL",
-    "topic": "La Familia y Parentesco en Guatajiagua",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'La Familia y Parentesco en Guatajiagua'?",
+    "topic": "Posposiciones Espaciales en Lenca",
+    "statement": "¿Cómo se expresan las relaciones espaciales y de lugar en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Mediante posposiciones que se colocan DESPUÉS del sustantivo (ejemplo: masun-pan = sobre la casa)"
       },
       {
         "key": "B",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Únicamente con preposiciones del español"
       },
       {
         "key": "C",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Con artículos indefinidos invariables"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "No se pueden expresar relaciones de lugar"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "explanation": "El Lenca Potón utiliza posposiciones sufijadas al nombre en lugar de preposiciones antepuestas.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_010",
     "number": 10,
     "level": "A1",
     "variant": "ALL",
-    "topic": "La Alfarería Negra de Guatajiagua",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'La Alfarería Negra de Guatajiagua'?",
+    "topic": "Números Ancestrales en Lenca Potón",
+    "statement": "¿Cómo se dice el número uno (1) en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Eta"
       },
       {
         "key": "B",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Pe"
       },
       {
         "key": "C",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Lagwa"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Eria"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "A",
+    "explanation": "'Eta' es el número uno (1) en el sistema de conteo Lenca Potón.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_011",
     "number": 11,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Espacios del Hogar y el Terreno Campesino",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Espacios del Hogar y el Terreno Campesino'?",
+    "topic": "Números Ancestrales en Lenca Potón",
+    "statement": "¿Cómo se dice el número dos (2) en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Eta"
       },
       {
         "key": "B",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Pe"
       },
       {
         "key": "C",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Lagwa"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Saye"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "B",
+    "explanation": "'Pe' es el número dos (2) en Lenca Potón.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_012",
     "number": 12,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Alimentos Tradicionales y Cultivos de Oriente",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Alimentos Tradicionales y Cultivos de Oriente'?",
+    "topic": "Números Ancestrales en Lenca Potón",
+    "statement": "¿Cómo se dice el número tres (3) en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Eta"
       },
       {
         "key": "B",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Pe"
       },
       {
         "key": "C",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Lagwa"
       },
       {
         "key": "D",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Eria"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "C",
+    "explanation": "'Lagwa' es el número tres (3) en Lenca Potón.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_013",
     "number": 13,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Fauna de Morazán y los Cerros Orientales",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Fauna de Morazán y los Cerros Orientales'?",
+    "topic": "Números Ancestrales en Lenca Potón",
+    "statement": "¿Cómo se dice el número cuatro (4) en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Eria"
       },
       {
         "key": "B",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Saye"
       },
       {
         "key": "C",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Eta"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Pe"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "explanation": "'Eria' es el número cuatro (4) en Lenca Potón.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_014",
     "number": 14,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Expresiones de Tiempo y Calendario",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Expresiones de Tiempo y Calendario'?",
+    "topic": "Números Ancestrales en Lenca Potón",
+    "statement": "¿Cómo se dice el número cinco (5) en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Saye"
       },
       {
         "key": "B",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Eria"
       },
       {
         "key": "C",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Lagwa"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Eta"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "A",
+    "explanation": "'Saye' es el número cinco (5) en Lenca Potón.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_015",
     "number": 15,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Posposiciones Espaciales en Lenca",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Posposiciones Espaciales en Lenca'?",
+    "topic": "Léxico Cotidiano en Lenca Potón",
+    "statement": "¿Qué significa la palabra 'Masun' en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Casa / Hogar / Choza"
       },
       {
         "key": "B",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Río grande"
       },
       {
         "key": "C",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Árbol frutal"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Camino real"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "A",
+    "explanation": "'Masun' es la vivienda o casa en el léxico Lenca Potón.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_016",
     "number": 16,
     "level": "A1",
     "variant": "ALL",
-    "topic": "La Negación en Lenca: Partícula Ta y Mas",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'La Negación en Lenca: Partícula Ta y Mas'?",
+    "topic": "Léxico Cotidiano en Lenca Potón",
+    "statement": "¿Qué significa la palabra 'Li' en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Agua / Río"
       },
       {
         "key": "B",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Fuego"
       },
       {
         "key": "C",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Tierra"
       },
       {
         "key": "D",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Piedra"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "A",
+    "explanation": "'Li' designa al agua y a los ríos en la lengua Lenca Potón.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_017",
     "number": 17,
     "level": "A1",
     "variant": "ALL",
-    "topic": "El Plural de los Sustantivos en Lenca",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'El Plural de los Sustantivos en Lenca'?",
+    "topic": "Léxico Cotidiano en Lenca Potón",
+    "statement": "¿Qué significa la palabra 'Tisin' en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Fuego / Fogón de alfarería"
       },
       {
         "key": "B",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Viento del norte"
       },
       {
         "key": "C",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Semilla de frijol"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Cántaro vacío"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "explanation": "'Tisin' es el fuego o fogón, esencial para la quema y cocción de la alfarería en Guatajiagua.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_018",
     "number": 18,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Verbos de Movimiento: Lem (ir) y Tsi (venir)",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Verbos de Movimiento: Lem (ir) y Tsi (venir)'?",
+    "topic": "Léxico Cotidiano en Lenca Potón",
+    "statement": "¿Qué significa la palabra 'Seran' en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Negro (como el color del barro cocido tradicional)"
       },
       {
         "key": "B",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Blanco como la cal"
       },
       {
         "key": "C",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Rojo encendido"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Verde de montaña"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "A",
+    "explanation": "'Seran' alude al color negro característico de las piezas de barro de Guatajiagua.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_019",
     "number": 19,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Toponimia Lenca en El Salvador",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Toponimia Lenca en El Salvador'?",
+    "topic": "Léxico Cotidiano en Lenca Potón",
+    "statement": "¿Qué significa la palabra 'Apas' en Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "Vasija, olla o tinaja de barro"
       },
       {
         "key": "B",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "Petate de tule"
       },
       {
         "key": "C",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "Cuchillo de piedra"
       },
       {
         "key": "D",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "Mazorca de maíz"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "A",
+    "explanation": "'Apas' es la vasija o cántaro de barro tradicional moldeado por las artesanas lencas.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
-  {
+    {
     "id": "lenca_q_a1_020",
     "number": 20,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Integración y Conversación Comunitaria",
-    "statement": "En la gramática de la lengua Lenca (Potón de El Salvador), ¿cuál es un rasgo característico de 'Integración y Conversación Comunitaria'?",
+    "topic": "Posesión en Lenca Potón",
+    "statement": "¿Cuáles son los prefijos posesivos directos en la lengua Lenca Potón?",
     "options": [
       {
         "key": "A",
-        "text": "Uso estricto de tonos musicales como en el sudeste asiático."
+        "text": "u- (mi), man- (tu), ina- (su)"
       },
       {
         "key": "B",
-        "text": "Orden sintáctico obligatorio Verbo-Sujeto-Objeto con declinación de 12 casos latinos."
+        "text": "nu-, mu-, i-"
       },
       {
         "key": "C",
-        "text": "Total ausencia de pronombres de persona."
+        "text": "my-, your-, his-"
       },
       {
         "key": "D",
-        "text": "Uso de morfología aglutinante con posposiciones locativas y sistema numérico de base decimal."
+        "text": "yo-, tú-, él-"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El lenca potón salvadoreño se caracteriza por su morfología de posposiciones y conteo decimal ancestral.",
+    "correctAnswer": "A",
+    "explanation": "Los prefijos posesivos 'u-', 'man-' e 'ina-' se adhieren directamente al sustantivo poseído sin artículos adicionales.",
     "referenceSite": "Comunidad Indígena de Guatajiagua / UES / Consuelo Roque"
   },
   {

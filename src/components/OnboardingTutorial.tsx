@@ -106,12 +106,18 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
     description:
       'En el apartado "CUENTA" puedes consultar todos tus exámenes realizados guardados en formato de texto. Genera boletas oficiales en PDF y exporta a LaTeX sin almacenar ningún archivo temporal en la nube.',
     bulletPoints: [
+<<<<<<< Updated upstream
       '📋 Historial de Exámenes Realizados: Revisa en "CUENTA" tus evaluaciones anteriores con aciertos, errores, fecha y puntaje.',
       '🖨️ Imprimir / Exportar a PDF: Emite al instante tu boleta oficial y solucionario para imprimir o descargar en PDF en tu navegador.',
       '📄 Exportador LaTeX Completo: Genera código fuente TeX profesional con formato de admisión listo para Overleaf.',
       '🛡️ Cero Documentos en la Nube: Todo se genera en la memoria de tu dispositivo; al salir no queda ningún archivo temporal en servidores.',
+=======
+      '⚡ Rendimiento Optimizado (Lazy Loading): Los bancos de preguntas y diccionarios de idioma se cargan bajo demanda sin inflar el bundle inicial.',
+      '📱 Diseño Web Responsivo y Accesible (WCAG 2.2 AA): Menú drawer de navegación en móviles, navegación por teclado (Flechas, Enter, Escape), foco visible y respeto a prefers-reduced-motion.',
+      '📋 Historial en "CUENTA" e Impresión a PDF / LaTeX: Emite al instante tu boleta oficial, solucionario en PDF o código fuente TeX para Overleaf sin subir archivos a la nube.',
+>>>>>>> Stashed changes
       '⚖️ Cumplimiento Legal Salvadoreño: Respaldado por la Constitución de El Salvador (Arts. 53-54), Ley de Comercio Electrónico y Delitos Informáticos.',
-      '💬 Canales de Contacto: Conéctate con el creador Yeferson E. Perez por WhatsApp (+503 7943 9901) e Instagram (@Kuskat.es).',
+      '💬 Canales de Contacto: Conéctate con la comunidad KUSKAT vía WhatsApp (+503 7657 4463) e Instagram (@Kuskat.es).',
     ],
   },
 ];
@@ -192,28 +198,33 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
       onClick={handleSkip}
     >
       <div
-        className="bg-white rounded-3xl border border-slate-200 shadow-2xl max-w-xl w-full overflow-hidden flex flex-col relative text-slate-800"
+        className="bg-[#FAF9F5] rounded-xl border border-[#D5D3C7] shadow-corporate-elevated max-w-xl w-full overflow-hidden flex flex-col relative text-[#111625]"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Cabecera del Tutorial con Progreso y Marca KUSKAT */}
-        <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 p-5 sm:p-6 text-white relative">
+        <div className="bg-[#0B1B3D] border-b border-[#1A2E5A] p-5 sm:p-6 text-white relative">
           <div className="flex items-center justify-between gap-3 mb-2.5">
             <div className="flex items-center gap-2">
-              <div className="w-6 h-6 rounded-lg bg-white p-0.5 flex items-center justify-center shrink-0 shadow-2xs">
+              <div className="w-6 h-6 rounded bg-[#07132B] p-0.5 border border-[#C59B27]/40 flex items-center justify-center shrink-0 shadow-xs">
                 <img src="/kuskat_logo.png" alt="KUSKAT" className="w-full h-full object-contain" />
               </div>
+<<<<<<< Updated upstream
               <span className="font-montenegrin text-xs tracking-wider uppercase text-blue-200 font-bold">
                 KUSKAT • Guía Tutorial Oficial
+=======
+              <span className="font-mono-exam text-xs tracking-wider uppercase text-[#CBD5E1] font-bold">
+                {t('tutorial.welcomeTitle')}
+>>>>>>> Stashed changes
               </span>
             </div>
 
             <div className="flex items-center gap-2">
-              <span className="px-2.5 py-0.5 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-[10px] sm:text-xs font-bold uppercase tracking-wider font-caslon">
+              <span className="px-2 py-0.5 rounded bg-[#132A5C] text-[#C59B27] border border-[#C59B27]/30 text-[10px] sm:text-xs font-semibold uppercase tracking-wider font-mono-exam">
                 {step.badge}
               </span>
               <button
                 onClick={handleSkip}
-                className="p-1.5 rounded-full bg-white/10 hover:bg-white/20 text-slate-200 transition-colors cursor-pointer"
+                className="p-1 rounded bg-white/10 hover:bg-white/20 text-[#CBD5E1] transition-colors cursor-pointer"
                 aria-label="Cerrar u omitir tutorial"
                 title="Omitir tutorial (Esc)"
               >
@@ -223,14 +234,14 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
           </div>
 
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-white/10 border border-white/20 flex items-center justify-center shrink-0 shadow-inner">
+            <div className="w-10 h-10 rounded-lg bg-[#07132B] border border-[#C59B27]/40 text-[#C59B27] flex items-center justify-center shrink-0 shadow-xs">
               {getStepIcon(step.step)}
             </div>
             <div>
-              <h3 id="tutorial-modal-title" className="text-lg sm:text-xl font-black tracking-tight text-white font-montenegrin leading-tight">
+              <h3 id="tutorial-modal-title" className="text-lg sm:text-xl font-editorial font-bold tracking-tight text-white leading-tight">
                 {step.title}
               </h3>
-              <p className="text-xs sm:text-sm text-slate-300 font-medium pt-0.5 font-caslon">{step.subtitle}</p>
+              <p className="text-xs sm:text-sm text-[#CBD5E1] font-sans-ui pt-0.5">{step.subtitle}</p>
             </div>
           </div>
 
@@ -242,12 +253,12 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
                 type="button"
                 onClick={() => setCurrentStep(idx)}
                 title={`Ir al Paso ${idx + 1}: ${stepItem.title}`}
-                className={`h-2 flex-1 rounded-full transition-all duration-300 cursor-pointer ${
+                className={`h-1.5 flex-1 rounded-full transition-all duration-300 cursor-pointer ${
                   idx === currentStep
-                    ? 'bg-amber-400 ring-2 ring-amber-400/50 scale-y-110 shadow-xs'
+                    ? 'bg-[#C59B27] ring-1 ring-[#C59B27]/50 shadow-xs'
                     : idx < currentStep
-                    ? 'bg-blue-400 hover:bg-blue-300'
-                    : 'bg-white/20 hover:bg-white/40'
+                    ? 'bg-[#1E3A70]'
+                    : 'bg-white/20 hover:bg-white/30'
                 }`}
                 aria-label={`Paso ${idx + 1}`}
               />
@@ -256,17 +267,36 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
         </div>
 
         {/* Contenido del Paso */}
+<<<<<<< Updated upstream
         <div className="p-5 sm:p-7 space-y-4 text-xs sm:text-sm leading-relaxed overflow-y-auto max-h-[60vh] touch-scroll">
           <p className="text-slate-600 font-medium leading-relaxed">{step.description}</p>
+=======
+        <div className="p-5 sm:p-6 space-y-4 text-xs sm:text-sm leading-relaxed overflow-y-auto max-h-[60vh] touch-scroll font-sans-ui">
+          {/* Selector de idioma intercultural integrado en el tutorial */}
+          <div className="p-3.5 rounded-lg bg-white border border-[#E5E3D8] shadow-corporate-subtle space-y-2">
+            <div className="flex items-center justify-between gap-2 flex-wrap">
+              <span className="text-[11px] font-bold font-mono-exam text-[#0B1B3D] uppercase tracking-wider flex items-center gap-1.5">
+                <Globe className="w-3.5 h-3.5 text-[#0B1B3D]" />
+                {t('tutorial.chooseLanguageStep')}
+              </span>
+              <span className="text-[10px] font-mono-exam font-bold px-2 py-0.5 rounded bg-[#FAF9F5] text-[#0B1B3D] border border-[#E5E3D8]">
+                {languageMeta.nativeName} ({languageMeta.dir.toUpperCase()})
+              </span>
+            </div>
+            <LanguageSwitcher variant="inline-pills" showLearnSpanishToggle={true} />
+          </div>
 
-          <div className="bg-slate-50 rounded-2xl border border-slate-200 p-4 space-y-2.5">
-            <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider block">
+          <p className="text-[#334155] leading-relaxed">{step.description}</p>
+>>>>>>> Stashed changes
+
+          <div className="bg-white rounded-lg border border-[#E5E3D8] p-4 space-y-2 shadow-corporate-subtle">
+            <span className="text-[11px] font-bold font-mono-exam text-[#64748B] uppercase tracking-wider block">
               Puntos clave a recordar:
             </span>
-            <ul className="space-y-2 text-slate-700">
+            <ul className="space-y-1.5 text-[#334155]">
               {step.bulletPoints.map((point, idx) => (
                 <li key={idx} className="flex items-start gap-2">
-                  <span className="mt-0.5 shrink-0 text-slate-900">•</span>
+                  <span className="mt-0.5 shrink-0 text-[#0B1B3D] font-bold">•</span>
                   <span>{point}</span>
                 </li>
               ))}
@@ -275,27 +305,27 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
         </div>
 
         {/* Pie del Tutorial con Controles */}
-        <div className="bg-slate-50 px-5 sm:px-7 py-4 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+        <div className="bg-[#F2F1EA] px-5 sm:px-6 py-3.5 border-t border-[#E5E3D8] flex flex-col sm:flex-row items-center justify-between gap-3 text-xs font-sans-ui">
           {/* Casilla: No volver a mostrar */}
-          <label className="flex items-center gap-2 cursor-pointer select-none text-slate-600 hover:text-slate-900 font-medium">
+          <label className="flex items-center gap-2 cursor-pointer select-none text-[#475569] hover:text-[#111625] font-medium">
             <input
               type="checkbox"
               checked={dontShowAgain}
               onChange={(e) => setDontShowAgain(e.target.checked)}
-              className="w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500 cursor-pointer"
+              className="w-4 h-4 text-[#0B1B3D] rounded border-[#CBD5E1] focus:ring-[#0B1B3D] cursor-pointer"
             />
             <span>No volver a mostrar este tutorial</span>
           </label>
 
           {/* Botones de Navegación */}
           <div className="flex items-center gap-2 w-full sm:w-auto justify-end">
-            <span className="text-[11px] font-bold text-slate-400 font-mono hidden sm:inline mr-1">
+            <span className="text-[11px] font-bold text-[#64748B] font-mono-exam hidden sm:inline mr-1">
               Paso {currentStep + 1} de {TUTORIAL_STEPS.length}
             </span>
 
             <button
               onClick={handleSkip}
-              className="px-3 py-2 text-slate-500 hover:text-slate-800 font-semibold rounded-xl hover:bg-slate-200/60 transition-colors cursor-pointer"
+              className="px-3 py-1.5 text-[#64748B] hover:text-[#111625] font-semibold rounded-lg hover:bg-[#EAE8DD] transition-colors cursor-pointer"
             >
               Omitir
             </button>
@@ -303,7 +333,7 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
             {!isFirstStep && (
               <button
                 onClick={handlePrev}
-                className="flex items-center gap-1 px-3 py-2 text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 font-bold rounded-xl transition-colors cursor-pointer shadow-2xs"
+                className="flex items-center gap-1 px-3 py-1.5 text-[#111625] bg-white border border-[#E5E3D8] hover:bg-[#FAF9F5] font-semibold rounded-lg transition-colors cursor-pointer shadow-corporate-subtle"
               >
                 <ArrowLeft className="w-3.5 h-3.5" />
                 <span>Anterior</span>
@@ -312,7 +342,7 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
 
             <button
               onClick={handleNext}
-              className="flex items-center gap-1.5 px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 font-bold rounded-xl shadow-sm transition-all cursor-pointer"
+              className="flex items-center gap-1.5 px-4 py-1.5 text-[#FAF9F5] bg-[#0B1B3D] hover:bg-[#132A5C] border border-[#1A2E5A] font-bold rounded-lg shadow-corporate-subtle transition-all cursor-pointer"
             >
               <span>{isLastStep ? 'Comenzar a estudiar' : 'Siguiente'}</span>
               <ArrowRight className="w-3.5 h-3.5" />

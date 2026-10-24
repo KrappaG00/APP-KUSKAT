@@ -9,6 +9,7 @@ export interface CookiePreferences {
   necessary: boolean;
   analytics: boolean;
   preferences: boolean;
+  ads?: boolean;
   timestamp: string;
 }
 
@@ -202,15 +203,28 @@ export function getCookieConsent(): CookiePreferences | null {
   }
 }
 
-export function saveCookieConsent(preferences: { analytics: boolean; preferences: boolean }): void {
+export function saveCookieConsent(preferences: { analytics: boolean; preferences: boolean; ads?: boolean }): void {
   try {
+    const adsAccepted = preferences.ads ?? preferences.analytics;
     const record: CookiePreferences = {
       necessary: true, // Siempre necesarias
       analytics: preferences.analytics,
       preferences: preferences.preferences,
+      ads: adsAccepted,
       timestamp: new Date().toISOString()
     };
     safeStorage.setItem(COOKIE_CONSENT_KEY, JSON.stringify(record));
+
+    if (typeof window !== 'undefined' && typeof (window as unknown as { gtag?: (...args: unknown[]) => void }).gtag === 'function') {
+      const adsState = adsAccepted ? 'granted' : 'denied';
+      const analyticsState = preferences.analytics ? 'granted' : 'denied';
+      (window as unknown as { gtag: (...args: unknown[]) => void }).gtag('consent', 'update', {
+        ad_storage: adsState,
+        ad_user_data: adsState,
+        ad_personalization: adsState,
+        analytics_storage: analyticsState
+      });
+    }
   } catch (e) {
     console.error('Error al guardar preferencias de cookies:', e);
   }

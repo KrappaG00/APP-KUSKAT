@@ -118,7 +118,7 @@ export class ErrorBoundary extends Component<ErrorBoundaryProps, ErrorBoundarySt
                 Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.
               </p>
               <p className="text-[11px] text-slate-500">
-                Soporte directo vía WhatsApp: <a href="https://wa.me/50376574463" className="text-emerald-600 font-bold hover:underline">+503 7657 4463</a> • Instagram: @Kuskat.es
+                Soporte directo vía WhatsApp: <a href="https://wa.me/50376574463" target="_blank" rel="noopener noreferrer" className="text-emerald-600 font-bold hover:underline">+503 7657 4463</a> • Instagram: <a href="https://instagram.com/Kuskat.es" target="_blank" rel="noopener noreferrer" className="text-pink-600 font-bold hover:underline">@Kuskat.es</a>
               </p>
             </div>
 

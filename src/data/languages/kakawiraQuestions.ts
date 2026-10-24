@@ -15,439 +15,439 @@
 import { LanguageQuestion, CEFRLevel } from './englishData';
 
 const RAW_KAKAWIRA_BANK: any[] = [
-  {
+    {
     "id": "kakawira_q_a1_001",
     "number": 1,
     "level": "A1",
     "variant": "ALL",
     "topic": "Saludos y Cortesía en Kakawira",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "statement": "¿Cuál es el saludo tradicional de 'Buen día' en el idioma Kakawira de Cacaopera, Morazán?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "Wali tunal"
       },
       {
         "key": "B",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "Wali taywa"
       },
       {
         "key": "C",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Wali tekit"
       },
       {
         "key": "D",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Yam li am"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "explanation": "'Wali tunal' es el saludo tradicional matutino en la lengua Kakawira de Cacaopera.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_002",
     "number": 2,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Pronombres Personales en Kakawira",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Saludos y Cortesía en Kakawira",
+    "statement": "¿Cuál es el saludo tradicional de 'Buena noche' en el idioma Kakawira?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "Wali tunal"
       },
       {
         "key": "B",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "Wali taywa"
       },
       {
         "key": "C",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Wali asun"
       },
       {
         "key": "D",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Timu-itasket"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "explanation": "'Wali taywa' se pronuncia al caer la noche en Cacaopera.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_003",
     "number": 3,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Estructura Básica de la Oración en Cacaopera",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Saludos y Cortesía en Kakawira",
+    "statement": "¿Qué saludo de reverencia se utiliza para dirigirse con respeto a un mayor o padre de familia ('Buenos días señor/padre')?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "Wali tunal nu-yau"
       },
       {
         "key": "B",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Wali tekit"
       },
       {
         "key": "C",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "Ai pe lagwa"
       },
       {
         "key": "D",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Yam asun"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "correctAnswer": "A",
+    "explanation": "'Wali tunal nu-yau' denota profundo respeto filial y comunitario hacia los ancianos de Cacaopera.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_004",
     "number": 4,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Sustantivos Fundamentales del Hogar Kakawira",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Filiación Lingüística del Kakawira",
+    "statement": "¿A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)"
       },
       {
         "key": "B",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "A la familia Maya-Quiché de Guatemala"
       },
       {
         "key": "C",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "A la familia Uto-Azteca de México"
       },
       {
         "key": "D",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "A la familia Indoeuropea"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "correctAnswer": "A",
+    "explanation": "El Kakawira de Cacaopera es el único representante en El Salvador del tronco lingüístico Misumalpa.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_005",
     "number": 5,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Adjetivos y Calificadores en Kakawira",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Territorio y Comunidad Kakawira",
+    "statement": "¿En qué municipio y departamento de El Salvador tiene su asiento histórico el pueblo originario Kakawira?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "Cacaopera, departamento de Morazán"
       },
       {
         "key": "B",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "Izalco, departamento de Sonsonate"
       },
       {
         "key": "C",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Panchimalco, departamento de San Salvador"
       },
       {
         "key": "D",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Tacuba, departamento de Ahuachapán"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "explanation": "Cacaopera, bañado por el río Torola en Morazán, es la cuna y bastión cultural del pueblo Kakawira.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_006",
     "number": 6,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Preguntas e Interrogativos en Cacaopera",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Danzas Ceremoniales Kakawiras",
+    "statement": "¿Cuál es la danza ceremonial más emblemática del pueblo Kakawira de Cacaopera?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "La Danza de los Emplumados"
       },
       {
         "key": "B",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "El Torito Pinto de San Miguel"
       },
       {
         "key": "C",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Los Historiantes de San Antonio Abad"
       },
       {
         "key": "D",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Los Moros y Cristianos de Panchimalco"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "correctAnswer": "A",
+    "explanation": "La Danza de los Emplumados de Cacaopera es un rito ancestral preservado de generación en generación con profunda solemnidad.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_007",
     "number": 7,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Números Kakawira del 1 al 10",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Indumentaria Sagrada de Cacaopera",
+    "statement": "¿Qué elemento distintivo corona el tocado de los danzantes emplumados de Cacaopera?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "Plumas de guacamaya (wirika), espejos relucientes y cintas multicolores"
       },
       {
         "key": "B",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Sombreros de palma tejidos"
       },
       {
         "key": "C",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "Cascos de metal labrado"
       },
       {
         "key": "D",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Coronas de flores de izote"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "correctAnswer": "A",
+    "explanation": "El tocado ceremonial con plumas de guacamaya y espejuelos refleja la cosmovisión y el tributo a las aves sagradas.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_008",
     "number": 8,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Colores Tradicionales Kakawira",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Sintaxis en Idioma Kakawira",
+    "statement": "¿Cuál es el orden sintáctico canónico en el idioma Kakawira?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "Sujeto - Objeto - Verbo (SOV)"
       },
       {
         "key": "B",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Verbo - Sujeto - Objeto (VSO)"
       },
       {
         "key": "C",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Verbo - Objeto - Sujeto (VOS)"
       },
       {
         "key": "D",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "Objeto - Verbo - Sujeto (OVS)"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "correctAnswer": "A",
+    "explanation": "Al igual que el Lenca, el Kakawira sitúa el verbo al final de la oración (Sujeto - Objeto - Verbo).",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_009",
     "number": 9,
     "level": "A1",
     "variant": "ALL",
-    "topic": "La Danza de los Emplumados de Cacaopera",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Posesión en Idioma Kakawira",
+    "statement": "¿Cuáles son los prefijos posesivos personales en el idioma Kakawira?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "yam- (mi), man- (tu), an- (su)"
       },
       {
         "key": "B",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "nu-, mu-, i-"
       },
       {
         "key": "C",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "u-, man-, ina-"
       },
       {
         "key": "D",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "naja, taja, yaja"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "explanation": "En Kakawira, 'yam-' indica primera persona singular poseedora (ej. yam-asun = mi casa).",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_010",
     "number": 10,
     "level": "A1",
     "variant": "ALL",
-    "topic": "La Familia y Parentesco en Cacaopera",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Léxico Cotidiano en Kakawira",
+    "statement": "¿Qué significa la palabra 'Asun' en idioma Kakawira?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "Casa / Hogar"
       },
       {
         "key": "B",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "Río Torola"
       },
       {
         "key": "C",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Fuego"
       },
       {
         "key": "D",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Montaña"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "correctAnswer": "A",
+    "explanation": "'Asun' designa la casa o el hogar familiar en Kakawira.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_011",
     "number": 11,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Espacios del Hogar y el Terreno Campesino",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Léxico Cotidiano en Kakawira",
+    "statement": "¿Qué significa el término sagrado 'Wirika' en Cacaopera?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "Guacamaya / Plumas ceremoniales"
       },
       {
         "key": "B",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Piedra de moler"
       },
       {
         "key": "C",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "Semilla de frijol"
       },
       {
         "key": "D",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Tambor de cuero"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "correctAnswer": "A",
+    "explanation": "'Wirika' evoca la guacamaya, cuyas plumas ornamentan los tocados sagrados de la danza.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_012",
     "number": 12,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Alimentos Sagrados de Morazán Oriental",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Léxico Cotidiano en Kakawira",
+    "statement": "¿Qué significa la palabra 'Wapa' en idioma Kakawira?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "Fuego / Llama"
       },
       {
         "key": "B",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Agua de manantial"
       },
       {
         "key": "C",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Cielo estrellado"
       },
       {
         "key": "D",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "Sombra fresca"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "correctAnswer": "A",
+    "explanation": "'Wapa' representa el fuego y el calor vivo en el léxico Kakawira.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_013",
     "number": 13,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Fauna y Aves Sagradas de Morazán",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Números Ancestrales en Kakawira",
+    "statement": "¿Cómo se dice el número uno (1) en Kakawira?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "Ai"
       },
       {
         "key": "B",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "Pe"
       },
       {
         "key": "C",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Lagwa"
       },
       {
         "key": "D",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Tatka"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "explanation": "'Ai' es el numeral uno (1) en Kakawira.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_014",
     "number": 14,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Expresiones de Tiempo y Fases del Día",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Números Ancestrales en Kakawira",
+    "statement": "¿Cómo se dice el número dos (2) en Kakawira?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "Pe"
       },
       {
         "key": "B",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "Ai"
       },
       {
         "key": "C",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Lagwa"
       },
       {
         "key": "D",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Saye"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "correctAnswer": "A",
+    "explanation": "'Pe' es el numeral dos (2) en Kakawira.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
-  {
+    {
     "id": "kakawira_q_a1_015",
     "number": 15,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Posposiciones Espaciales en Kakawira",
-    "statement": "A qué familia lingüística pertenece el idioma Kakawira (Cacaopera de Morazán, El Salvador)?",
+    "topic": "Museo y Memoria en Cacaopera",
+    "statement": "¿Cómo se llama el célebre museo comunitario de Cacaopera que preserva la memoria y vestigios Kakawiras?",
     "options": [
       {
         "key": "A",
-        "text": "A la familia Maya-Quiché de las tierras altas."
+        "text": "Museo Comunitario Winakirika"
       },
       {
         "key": "B",
-        "text": "A la familia Uto-Azteca septentrional."
+        "text": "Museo David J. Guzmán"
       },
       {
         "key": "C",
-        "text": "A la familia Misumalpa (emparentada con el Matagalpa y Sumo de Centroamérica)."
+        "text": "Museo de la Palabra y la Imagen"
       },
       {
         "key": "D",
-        "text": "A las lenguas indoeuropeas germánicas."
+        "text": "Museo Forma"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "El kakawira de Cacaopera, Morazán, constituye el enclave más meridional de la familia lingüística Misumalpa.",
+    "correctAnswer": "A",
+    "explanation": "'Winakirika' ('nuestra gente' o 'nuestros ancestros') es el museo comunitario de Cacaopera que custodia los tocados y memoria de la etnia.",
     "referenceSite": "Asociación de Desarrollo Indígena Kakawira (ADIK) / Cacaopera"
   },
   {

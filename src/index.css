@@ -8,13 +8,17 @@
     -webkit-tap-highlight-color: transparent;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    font-family: 'Libre Caslon Condensed', 'Caslon', Georgia, serif;
-    letter-spacing: 0.015em;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #FAF9F5;
+    color: #111625;
+    letter-spacing: -0.011em;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montenegrin Gothic One', 'Bodoni MT', 'Didot', 'Playfair Display', Georgia, serif;
-    font-weight: 400;
+    font-family: 'Playfair Display', 'Montenegrin Gothic One', 'Bodoni MT', Georgia, serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    color: #0B1B3D;
   }
 
   /* Responsive image & table safety */
@@ -29,6 +33,47 @@
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
+}
+
+/* ==========================================================================
+   IDENTIDAD GRÁFICA CORPORATIVA KUSKAT (SISTEMA VISUAL ANTI-AI)
+   ========================================================================== */
+.font-editorial {
+  font-family: 'Playfair Display', 'Libre Caslon Condensed', Georgia, serif;
+  letter-spacing: -0.02em;
+}
+
+.font-sans-ui {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+.font-mono-exam {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.shadow-corporate-subtle {
+  box-shadow: 0 1px 2px 0 rgba(15, 23, 42, 0.04), 0 1px 3px 0 rgba(15, 23, 42, 0.03);
+}
+
+.shadow-corporate-card {
+  box-shadow: 0 1px 3px 0 rgba(15, 23, 42, 0.03), 0 6px 18px -2px rgba(15, 23, 42, 0.04);
+}
+
+.shadow-corporate-elevated {
+  box-shadow: 0 4px 6px -1px rgba(15, 23, 42, 0.03), 0 16px 32px -4px rgba(15, 23, 42, 0.06);
+}
+
+.border-hairline {
+  border-color: #E5E3D8;
+}
+
+/* Normalización de escala de curvatura (Eliminación de bordes burbuja de IA) */
+.rounded-3xl {
+  border-radius: 0.875rem !important; /* 14px en lugar de 24-32px */
+}
+
+.rounded-2xl {
+  border-radius: 0.75rem !important;  /* 12px en lugar de 16-20px */
 }
 
 /* Custom scrollbars */

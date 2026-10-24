@@ -15,875 +15,875 @@
 import { LanguageQuestion, CEFRLevel } from './englishData';
 
 const RAW_NAHUAT_BANK: any[] = [
-  {
+    {
     "id": "nahuat_q_a1_001",
     "number": 1,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Saludos, Cortesía y Presentaciones en Náhuat",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Saludos, Cortesía y Presentaciones en Náhuat'?",
+    "topic": "Saludos y Fórmulas de Cortesía",
+    "statement": "¿Cómo se dice 'Buenos días' en Náhuat Pipil de El Salvador?",
     "options": [
       {
         "key": "A",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Yejyek tunal (o Yek tunal)"
       },
       {
         "key": "B",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Yejyek tiutak"
       },
       {
         "key": "C",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Yejyek taywa"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Ken tinemi"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Saludos, Cortesía y Presentaciones en Náhuat' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "explanation": "'Yejyek tunal' (o 'Yek tunal') es la fórmula tradicional náhuat para desear un buen día o saludar por la mañana (literalmente 'buen sol' o 'buen día').",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_002",
     "number": 2,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Pronombres Personales Absolutos en Náhuat",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Pronombres Personales Absolutos en Náhuat'?",
+    "topic": "Saludos y Fórmulas de Cortesía",
+    "statement": "¿Cómo se dice 'Buenas tardes' en Náhuat Pipil de El Salvador?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Yejyek tunal"
       },
       {
         "key": "B",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Yejyek tiutak (o Yek tiutak)"
       },
       {
         "key": "C",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Yejyek taywa"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Timonamikitze"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Pronombres Personales Absolutos en Náhuat' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "explanation": "'Yejyek tiutak' combina 'yejyek' (bueno/hermoso) con 'tiutak' (la tarde), siendo el saludo de rigor tras el mediodía.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_003",
     "number": 3,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Prefijos de Sujeto en el Presente Verbal",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Prefijos de Sujeto en el Presente Verbal'?",
+    "topic": "Saludos y Fórmulas de Cortesía",
+    "statement": "¿Cómo se dice 'Buenas noches' en Náhuat Pipil de El Salvador?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Yejyek tunal"
       },
       {
         "key": "B",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Yejyek tiutak"
       },
       {
         "key": "C",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Yejyek taywa (o Yek taywa)"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Nikan nian"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Prefijos de Sujeto en el Presente Verbal' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "explanation": "'Yejyek taywa' es el saludo utilizado al caer la noche y durante la oscuridad ('taywa').",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_004",
     "number": 4,
     "level": "A1",
     "variant": "ALL",
-    "topic": "El Sustantivo Absolutivo y sus Terminaciones",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'El Sustantivo Absolutivo y sus Terminaciones'?",
+    "topic": "Saludos y Fórmulas de Cortesía",
+    "statement": "¿Cómo se formula la pregunta '¿Cómo estás?' o '¿Cómo te va?' en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "¿Ken mutukay?"
       },
       {
         "key": "B",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "¿Ken tinemi?"
       },
       {
         "key": "C",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "¿Kan tiyawi?"
       },
       {
         "key": "D",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "¿Tay tikchiwa?"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'El Sustantivo Absolutivo y sus Terminaciones' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "B",
+    "explanation": "'¿Ken tinemi?' proviene del interrogativo 'ken' (cómo) y el verbo flexionado 'ti-nemi' (tú estás / tú vives).",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_005",
     "number": 5,
     "level": "A1",
     "variant": "ALL",
-    "topic": "La Posesión Nominal: Prefijos Posesivos",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'La Posesión Nominal: Prefijos Posesivos'?",
+    "topic": "Saludos y Fórmulas de Cortesía",
+    "statement": "¿Cómo se responde 'Estoy bien' a un saludo en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Ninemi yek"
       },
       {
         "key": "B",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Inte yek"
       },
       {
         "key": "C",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Naja ni-yawi"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Tejemet tinemit"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'La Posesión Nominal: Prefijos Posesivos' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "explanation": "'Ninemi yek' se compone del prefijo de sujeto de primera persona 'ni-', la raíz verbal 'nemi' (vivir/estar) y el adverbio 'yek' (bien).",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_006",
     "number": 6,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Adjetivos Descriptivos y Calificativos",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Adjetivos Descriptivos y Calificativos'?",
+    "topic": "Saludos y Fórmulas de Cortesía",
+    "statement": "Si un hablante de Náhuat te dice 'Tlaxtlawi' o 'Tlazohkamati', ¿qué te está expresando?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Muchas gracias"
       },
       {
         "key": "B",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Adiós para siempre"
       },
       {
         "key": "C",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Perdóneme usted"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Buen provecho"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Adjetivos Descriptivos y Calificativos' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "A",
+    "explanation": "'Tlaxtlawi' y 'Tlazohkamati' son expresiones tradicionales de agradecimiento y cortesía en el Náhuat Pipil.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_007",
     "number": 7,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Oraciones Ecuativas y Copulativas",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Oraciones Ecuativas y Copulativas'?",
+    "topic": "Saludos y Fórmulas de Cortesía",
+    "statement": "¿Cómo se pregunta '¿Cómo te llamas?' a otra persona en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "¿Ken nutukay?"
       },
       {
         "key": "B",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "¿Ken itukay?"
       },
       {
         "key": "C",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "¿Ken mutukay?"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "¿Kan mutukay?"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Oraciones Ecuativas y Copulativas' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "explanation": "'¿Ken mutukay?' combina el interrogativo 'ken' (cómo) con el sustantivo poseído de segunda persona 'mu-tukay' (tu nombre).",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_008",
     "number": 8,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Interrogativos Fundamentales en Náhuat",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Interrogativos Fundamentales en Náhuat'?",
+    "topic": "Saludos y Fórmulas de Cortesía",
+    "statement": "Para responder a una presentación diciendo 'Mi nombre es María', ¿cuál es la estructura correcta?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Nutukay María"
       },
       {
         "key": "B",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Mutukay María"
       },
       {
         "key": "C",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Itukay María"
       },
       {
         "key": "D",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Tutukay María"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Interrogativos Fundamentales en Náhuat' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "A",
+    "explanation": "'Nu-tukay' lleva el prefijo posesivo de primera persona singular 'nu-' (mi), dando 'Mi nombre es...'.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_009",
     "number": 9,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Números Vigesimales del 1 al 10",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Números Vigesimales del 1 al 10'?",
+    "topic": "Saludos y Fórmulas de Cortesía",
+    "statement": "¿Cómo se dice 'Hasta luego / Nos veremos' al despedirse en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Timonamikitze (o Timu-itasket musta)"
       },
       {
         "key": "B",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Yejyek tunal"
       },
       {
         "key": "C",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Yejyek taywa"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Ken tinemi"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Números Vigesimales del 1 al 10' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "explanation": "'Timonamikitze' es la despedida comunitaria tradicional que augura un nuevo encuentro ('nos volveremos a encontrar').",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_010",
     "number": 10,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Colores Tradicionales y Cosmovisión Pipil",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Colores Tradicionales y Cosmovisión Pipil'?",
+    "topic": "Comunidades y Territorio Náhuat",
+    "statement": "¿En qué municipios del occidente de El Salvador se concentra la comunidad histórica de hablantes de Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Santo Domingo de Guzmán (Witzapan), Cuisnahuat, Nahuizalco e Izalco"
       },
       {
         "key": "B",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Guatajiagua, Chilanga y Perquín"
       },
       {
         "key": "C",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "La Unión, Conchagua e Intipucá"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "San Francisco Gotera y Jocoro"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Colores Tradicionales y Cosmovisión Pipil' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "A",
+    "explanation": "El departamento de Sonsonate (particularmente Witzapan, Cuisnahuat, Nahuizalco e Izalco) y Ahuachapán resguardan la herencia viva de los nawataketzani.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_011",
     "number": 11,
     "level": "A1",
     "variant": "ALL",
-    "topic": "La Familia y el Parentesco Comunitario",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'La Familia y el Parentesco Comunitario'?",
+    "topic": "Pronombres Personales Absolutos en Náhuat",
+    "statement": "¿Cuál es el pronombre personal para 'Yo' en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Naja (o Naha)"
       },
       {
         "key": "B",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Taja"
       },
       {
         "key": "C",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Yaja"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Tejemet"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'La Familia y el Parentesco Comunitario' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "A",
+    "explanation": "'Naja' (o 'Naha') es el pronombre independiente de primera persona singular en Náhuat.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_012",
     "number": 12,
     "level": "A1",
     "variant": "ALL",
-    "topic": "La Casa, el Solar y Espacios Domésticos",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'La Casa, el Solar y Espacios Domésticos'?",
+    "topic": "Pronombres Personales Absolutos en Náhuat",
+    "statement": "¿Cuál es el pronombre personal para 'Tú / Vos' en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Naja"
       },
       {
         "key": "B",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Taja"
       },
       {
         "key": "C",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Yaja"
       },
       {
         "key": "D",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Anmejemet"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'La Casa, el Solar y Espacios Domésticos' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "B",
+    "explanation": "'Taja' es el pronombre de segunda persona singular ('tú' o 'vos' en el habla salvadoreña).",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_013",
     "number": 13,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Alimentos Sagrados de Cuscatlán: El Maíz y la Milpa",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Alimentos Sagrados de Cuscatlán: El Maíz y la Milpa'?",
+    "topic": "Pronombres Personales Absolutos en Náhuat",
+    "statement": "¿Cuál es el pronombre de tercera persona singular ('Él / Ella') en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Naja"
       },
       {
         "key": "B",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Taja"
       },
       {
         "key": "C",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Yaja"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Yejemet"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Alimentos Sagrados de Cuscatlán: El Maíz y la Milpa' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "C",
+    "explanation": "'Yaja' se utiliza indistintamente para 'él' o 'ella', dado que el náhuat no posee distinción de género gramatical.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_014",
     "number": 14,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Animales de la Región y Fauna de Sonsonate",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Animales de la Región y Fauna de Sonsonate'?",
+    "topic": "Pronombres Personales Absolutos en Náhuat",
+    "statement": "¿Cuál es el pronombre personal para 'Nosotros / Nosotras' en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Tejemet"
       },
       {
         "key": "B",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Anmejemet"
       },
       {
         "key": "C",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Yejemet"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Naja"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Animales de la Región y Fauna de Sonsonate' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "A",
+    "explanation": "'Tejemet' es el pronombre plural inclusivo/exclusivo para la primera persona del plural ('nosotros').",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_015",
     "number": 15,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Expresiones de Tiempo y Partículas Cotidianas",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Expresiones de Tiempo y Partículas Cotidianas'?",
+    "topic": "Pronombres Personales Absolutos en Náhuat",
+    "statement": "¿Cuál es el pronombre personal para 'Ustedes' en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Tejemet"
       },
       {
         "key": "B",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Anmejemet"
       },
       {
         "key": "C",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Yejemet"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Taja"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Expresiones de Tiempo y Partículas Cotidianas' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "B",
+    "explanation": "'Anmejemet' representa la segunda persona del plural ('ustedes').",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_016",
     "number": 16,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Posposiciones Espaciales Básicas",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Posposiciones Espaciales Básicas'?",
+    "topic": "Pronombres Personales Absolutos en Náhuat",
+    "statement": "¿Cuál es el pronombre personal para 'Ellos / Ellas' en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Tejemet"
       },
       {
         "key": "B",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Anmejemet"
       },
       {
         "key": "C",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Yejemet"
       },
       {
         "key": "D",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Yaja"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Posposiciones Espaciales Básicas' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "C",
+    "explanation": "'Yejemet' corresponde a la tercera persona del plural ('ellos' o 'ellas').",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_017",
     "number": 17,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Negación Básica en Náhuat: Inte y Tesu",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Negación Básica en Náhuat: Inte y Tesu'?",
+    "topic": "Prefijos de Sujeto en el Presente Verbal",
+    "statement": "¿Cuál es el prefijo verbal obligatorio de primera persona singular ('yo') en tiempo presente?",
     "options": [
       {
         "key": "A",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "ni- (ejemplo: ni-taketza = yo hablo; ni-yawi = yo voy)"
       },
       {
         "key": "B",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "ti- (tú / nosotros)"
       },
       {
         "key": "C",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "shi- (imperativo)"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "ki- (objeto transitivo)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Negación Básica en Náhuat: Inte y Tesu' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "explanation": "En náhuat, el prefijo 'ni-' se antepone a la raíz verbal para indicar que el sujeto es 'yo' (primera persona singular).",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_018",
     "number": 18,
     "level": "A1",
     "variant": "ALL",
-    "topic": "El Plural de los Sustantivos Animados e Inanimados",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'El Plural de los Sustantivos Animados e Inanimados'?",
+    "topic": "Prefijos de Sujeto en el Presente Verbal",
+    "statement": "¿Cuál es el prefijo verbal de segunda persona singular ('tú / vos') en tiempo presente?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "ni-"
       },
       {
         "key": "B",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "ti- (ejemplo: ti-taketza = tú hablas; ti-kwa = tú comes)"
       },
       {
         "key": "C",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "shi-"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "an-"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'El Plural de los Sustantivos Animados e Inanimados' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "explanation": "'ti-' marca la segunda persona singular (tú/vos) en los verbos del náhuat.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_019",
     "number": 19,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Verbos de Movimiento: Yawi (ir) y Witz (venir)",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Verbos de Movimiento: Yawi (ir) y Witz (venir)'?",
+    "topic": "Prefijos de Sujeto en el Presente Verbal",
+    "statement": "¿Qué prefijo verbal se utiliza para dar una orden o mandato (imperativo) en Náhuat?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "ni-"
       },
       {
         "key": "B",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "ti-"
       },
       {
         "key": "C",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "shi- (ejemplo: shi-takwa = ¡come!; shi-kaki = ¡escucha!)"
       },
       {
         "key": "D",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "mu-"
       }
     ],
     "correctAnswer": "C",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Verbos de Movimiento: Yawi (ir) y Witz (venir)' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "explanation": "'shi-' es el prefijo imperativo y exhortativo en Náhuat Pipil para ordenar o pedir una acción.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_020",
     "number": 20,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Integración y Conversación Básica en Sonsonate",
-    "statement": "En la gramática del Náhuat Pipil de El Salvador, ¿cuál es el principio morfológico fundamental de 'Integración y Conversación Básica en Sonsonate'?",
+    "topic": "Prefijos de Sujeto en el Presente Verbal",
+    "statement": "En la frase en náhuat 'Naja ni-yawi ka kal', ¿cuál es su significado en español salvadoreño?",
     "options": [
       {
         "key": "A",
-        "text": "Utiliza exactamente las mismas terminaciones desinenciales del español salvadoreño."
+        "text": "Yo voy a la casa"
       },
       {
         "key": "B",
-        "text": "Es un elemento libre invariable que nunca se une a la raíz léxica."
+        "text": "Tú vienes de la casa"
       },
       {
         "key": "C",
-        "text": "Se utiliza únicamente en el lenguaje ritual y carece de uso en la conversación diaria."
+        "text": "Ella duerme en la casa"
       },
       {
         "key": "D",
-        "text": "Exige la afijación precisa de morfemas prefijados y sufijados con estricta concordancia de persona y número."
+        "text": "Nosotros salimos del río"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "El náhuat es una lengua aglutinante y polisintética donde 'Integración y Conversación Básica en Sonsonate' opera mediante concatenación regular de afijos.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "A",
+    "explanation": "'Naja' (yo) + 'ni-yawi' (yo voy) + 'ka kal' (a la casa) se traduce exactamente como 'Yo voy a la casa'.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_021",
     "number": 21,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Saludos, Cortesía y Presentaciones en Náhuat",
-    "statement": "¿Cuál es el prefijo de sujeto de primera persona singular ('yo') en náhuat al conjugar respecto a 'Saludos, Cortesía y Presentaciones en Náhuat'?",
+    "topic": "La Posesión Nominal: Prefijos Posesivos",
+    "statement": "¿Cuál es el prefijo posesivo de primera persona singular ('mi') en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "ni- (ejemplo: ni-taketza = yo hablo; ni-yawi = yo voy)"
+        "text": "nu- (ejemplo: nu-kal = mi casa; nu-chucho = mi perro)"
       },
       {
         "key": "B",
-        "text": "ti- (segunda persona singular o primera plural inclusiva)"
+        "text": "mu- (tu)"
       },
       {
         "key": "C",
-        "text": "shi- (prefijo exhortativo e imperativo)"
+        "text": "i- (su)"
       },
       {
         "key": "D",
-        "text": "ki- (prefijo de objeto directo transitivo)"
+        "text": "tu- (nuestro)"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En náhuat, 'ni-' es el prefijo obligatorio de sujeto de primera persona singular en tiempo presente.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "explanation": "'nu-' se antepone a la raíz nominal para expresar pertenencia de primera persona ('mi').",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_022",
     "number": 22,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Pronombres Personales Absolutos en Náhuat",
-    "statement": "¿Cuál es el prefijo de sujeto de primera persona singular ('yo') en náhuat al conjugar respecto a 'Pronombres Personales Absolutos en Náhuat'?",
+    "topic": "La Posesión Nominal: Prefijos Posesivos",
+    "statement": "¿Qué ocurre con el sufijo absolutivo (-t, -ti) de palabras como 'kalat' (casa) al poseerse (ejemplo: 'nu-kal')?",
     "options": [
       {
         "key": "A",
-        "text": "ti- (segunda persona singular o primera plural inclusiva)"
+        "text": "Se duplica al final para dar énfasis"
       },
       {
         "key": "B",
-        "text": "ni- (ejemplo: ni-taketza = yo hablo; ni-yawi = yo voy)"
+        "text": "Se suprime por completo al añadirse el prefijo posesivo (kalat -> nu-kal)"
       },
       {
         "key": "C",
-        "text": "shi- (prefijo exhortativo e imperativo)"
+        "text": "Permanece sin cambios obligatorios"
       },
       {
         "key": "D",
-        "text": "ki- (prefijo de objeto directo transitivo)"
+        "text": "Se convierte en terminación plural"
       }
     ],
     "correctAnswer": "B",
-    "explanation": "En náhuat, 'ni-' es el prefijo obligatorio de sujeto de primera persona singular en tiempo presente.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "explanation": "Una regla clave de la morfología náhuat es que el sufijo absolutivo cae al incorporarse un prefijo de posesión.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_023",
     "number": 23,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Prefijos de Sujeto en el Presente Verbal",
-    "statement": "¿Cuál es el prefijo de sujeto de primera persona singular ('yo') en náhuat al conjugar respecto a 'Prefijos de Sujeto en el Presente Verbal'?",
+    "topic": "Números y Cuantificadores Ancestrales",
+    "statement": "¿Cómo se dice el número uno (1) en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "ti- (segunda persona singular o primera plural inclusiva)"
+        "text": "Se"
       },
       {
         "key": "B",
-        "text": "shi- (prefijo exhortativo e imperativo)"
+        "text": "Ume"
       },
       {
         "key": "C",
-        "text": "ni- (ejemplo: ni-taketza = yo hablo; ni-yawi = yo voy)"
+        "text": "Yey"
       },
       {
         "key": "D",
-        "text": "ki- (prefijo de objeto directo transitivo)"
+        "text": "Nawi"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "En náhuat, 'ni-' es el prefijo obligatorio de sujeto de primera persona singular en tiempo presente.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "A",
+    "explanation": "'Se' representa el número uno (1) en el sistema vigesimal tradicional del Náhuat.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_024",
     "number": 24,
     "level": "A1",
     "variant": "ALL",
-    "topic": "El Sustantivo Absolutivo y sus Terminaciones",
-    "statement": "¿Cuál es el prefijo de sujeto de primera persona singular ('yo') en náhuat al conjugar respecto a 'El Sustantivo Absolutivo y sus Terminaciones'?",
+    "topic": "Números y Cuantificadores Ancestrales",
+    "statement": "¿Cómo se dice el número dos (2) en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "ti- (segunda persona singular o primera plural inclusiva)"
+        "text": "Se"
       },
       {
         "key": "B",
-        "text": "shi- (prefijo exhortativo e imperativo)"
+        "text": "Ume"
       },
       {
         "key": "C",
-        "text": "ki- (prefijo de objeto directo transitivo)"
+        "text": "Yey"
       },
       {
         "key": "D",
-        "text": "ni- (ejemplo: ni-taketza = yo hablo; ni-yawi = yo voy)"
+        "text": "Makwil"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "En náhuat, 'ni-' es el prefijo obligatorio de sujeto de primera persona singular en tiempo presente.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "B",
+    "explanation": "'Ume' representa el número dos (2) en Náhuat.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_025",
     "number": 25,
     "level": "A1",
     "variant": "ALL",
-    "topic": "La Posesión Nominal: Prefijos Posesivos",
-    "statement": "¿Cuál es el prefijo de sujeto de primera persona singular ('yo') en náhuat al conjugar respecto a 'La Posesión Nominal: Prefijos Posesivos'?",
+    "topic": "Números y Cuantificadores Ancestrales",
+    "statement": "¿Cómo se dice el número tres (3) en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "ni- (ejemplo: ni-taketza = yo hablo; ni-yawi = yo voy)"
+        "text": "Se"
       },
       {
         "key": "B",
-        "text": "ti- (segunda persona singular o primera plural inclusiva)"
+        "text": "Ume"
       },
       {
         "key": "C",
-        "text": "shi- (prefijo exhortativo e imperativo)"
+        "text": "Yey"
       },
       {
         "key": "D",
-        "text": "ki- (prefijo de objeto directo transitivo)"
+        "text": "Nawi"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "En náhuat, 'ni-' es el prefijo obligatorio de sujeto de primera persona singular en tiempo presente.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "C",
+    "explanation": "'Yey' representa el número tres (3) en Náhuat.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_026",
     "number": 26,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Adjetivos Descriptivos y Calificativos",
-    "statement": "¿Cuál es el prefijo de sujeto de primera persona singular ('yo') en náhuat al conjugar respecto a 'Adjetivos Descriptivos y Calificativos'?",
+    "topic": "Números y Cuantificadores Ancestrales",
+    "statement": "¿Cómo se dice el número cuatro (4) en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "ti- (segunda persona singular o primera plural inclusiva)"
+        "text": "Nawi"
       },
       {
         "key": "B",
-        "text": "ni- (ejemplo: ni-taketza = yo hablo; ni-yawi = yo voy)"
+        "text": "Makwil"
       },
       {
         "key": "C",
-        "text": "shi- (prefijo exhortativo e imperativo)"
+        "text": "Chikwasen"
       },
       {
         "key": "D",
-        "text": "ki- (prefijo de objeto directo transitivo)"
+        "text": "Ume"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "En náhuat, 'ni-' es el prefijo obligatorio de sujeto de primera persona singular en tiempo presente.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "A",
+    "explanation": "'Nawi' representa el número cuatro (4), vinculado a los cuatro rumbos cósmicos ancestrales.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_027",
     "number": 27,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Oraciones Ecuativas y Copulativas",
-    "statement": "¿Cuál es el prefijo de sujeto de primera persona singular ('yo') en náhuat al conjugar respecto a 'Oraciones Ecuativas y Copulativas'?",
+    "topic": "Números y Cuantificadores Ancestrales",
+    "statement": "¿Cómo se dice el número cinco (5) en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "ti- (segunda persona singular o primera plural inclusiva)"
+        "text": "Nawi"
       },
       {
         "key": "B",
-        "text": "shi- (prefijo exhortativo e imperativo)"
+        "text": "Makwil"
       },
       {
         "key": "C",
-        "text": "ni- (ejemplo: ni-taketza = yo hablo; ni-yawi = yo voy)"
+        "text": "Majtakti"
       },
       {
         "key": "D",
-        "text": "ki- (prefijo de objeto directo transitivo)"
+        "text": "Chikume"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "En náhuat, 'ni-' es el prefijo obligatorio de sujeto de primera persona singular en tiempo presente.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "B",
+    "explanation": "'Makwil' representa el número cinco (5), asociado morfológicamente a los cinco dedos de la mano.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_028",
     "number": 28,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Interrogativos Fundamentales en Náhuat",
-    "statement": "¿Cuál es el prefijo de sujeto de primera persona singular ('yo') en náhuat al conjugar respecto a 'Interrogativos Fundamentales en Náhuat'?",
+    "topic": "Vocabulario de la Naturaleza y la Vida Cotidiana",
+    "statement": "¿Qué significa la palabra 'At' en Náhuat Pipil (presente en topónimos como Ateos o Atiquizaya)?",
     "options": [
       {
         "key": "A",
-        "text": "ti- (segunda persona singular o primera plural inclusiva)"
+        "text": "Agua"
       },
       {
         "key": "B",
-        "text": "shi- (prefijo exhortativo e imperativo)"
+        "text": "Fuego"
       },
       {
         "key": "C",
-        "text": "ki- (prefijo de objeto directo transitivo)"
+        "text": "Tierra"
       },
       {
         "key": "D",
-        "text": "ni- (ejemplo: ni-taketza = yo hablo; ni-yawi = yo voy)"
+        "text": "Viento"
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "En náhuat, 'ni-' es el prefijo obligatorio de sujeto de primera persona singular en tiempo presente.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "A",
+    "explanation": "'At' significa agua, un elemento sagrado de la cosmovisión y raíz de innumerables topónimos cuscatlecos.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_029",
     "number": 29,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Números Vigesimales del 1 al 10",
-    "statement": "¿Cuál es el prefijo de sujeto de primera persona singular ('yo') en náhuat al conjugar respecto a 'Números Vigesimales del 1 al 10'?",
+    "topic": "Vocabulario de la Naturaleza y la Vida Cotidiana",
+    "statement": "¿Qué significa la palabra 'Tunal' en Náhuat Pipil?",
     "options": [
       {
         "key": "A",
-        "text": "ni- (ejemplo: ni-taketza = yo hablo; ni-yawi = yo voy)"
+        "text": "Sol / Día / Destino y calor de vida"
       },
       {
         "key": "B",
-        "text": "ti- (segunda persona singular o primera plural inclusiva)"
+        "text": "Río crecido"
       },
       {
         "key": "C",
-        "text": "shi- (prefijo exhortativo e imperativo)"
+        "text": "Flor silvestre"
       },
       {
         "key": "D",
-        "text": "ki- (prefijo de objeto directo transitivo)"
+        "text": "Pájaro de monte"
       }
     ],
     "correctAnswer": "A",
-    "explanation": "En náhuat, 'ni-' es el prefijo obligatorio de sujeto de primera persona singular en tiempo presente.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "explanation": "'Tunal' significa el sol y el día, y simboliza en la cosmovisión pipil la energía y destino que alumbra la existencia.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
-  {
+    {
     "id": "nahuat_q_a1_030",
     "number": 30,
     "level": "A1",
     "variant": "ALL",
-    "topic": "Colores Tradicionales y Cosmovisión Pipil",
-    "statement": "¿Cuál es el prefijo de sujeto de primera persona singular ('yo') en náhuat al conjugar respecto a 'Colores Tradicionales y Cosmovisión Pipil'?",
+    "topic": "Vocabulario de la Naturaleza y la Vida Cotidiana",
+    "statement": "¿Qué significa la palabra 'Petat' en Náhuat Pipil (de donde proviene el salvadoreñismo 'petate')?",
     "options": [
       {
         "key": "A",
-        "text": "ti- (segunda persona singular o primera plural inclusiva)"
+        "text": "Estera tradicional tejida de tule o palma"
       },
       {
         "key": "B",
-        "text": "ni- (ejemplo: ni-taketza = yo hablo; ni-yawi = yo voy)"
+        "text": "Comal de barro cocido"
       },
       {
         "key": "C",
-        "text": "shi- (prefijo exhortativo e imperativo)"
+        "text": "Huacal de morro"
       },
       {
         "key": "D",
-        "text": "ki- (prefijo de objeto directo transitivo)"
+        "text": "Cántaro para agua"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "En náhuat, 'ni-' es el prefijo obligatorio de sujeto de primera persona singular en tiempo presente.",
-    "referenceSite": "IRIN / MINED Cuna Náhuat de El Salvador"
+    "correctAnswer": "A",
+    "explanation": "'Petat' es la estera tejida para descansar, incorporada al español de El Salvador como 'petate'.",
+    "referenceSite": "IRIN / MINED Cuna Náhuat de Witzapan"
   },
   {
     "id": "nahuat_q_a1_031",

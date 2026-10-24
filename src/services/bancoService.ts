@@ -1276,27 +1276,27 @@ export async function fetchQuestionsDetailed(
     } else if (category === 'INGLES') {
       const loadLangBank = async (target?: string) => {
         const t = (target || '').toLowerCase();
-        if (t.startsWith('nahuat_')) {
+        if (t.startsWith('nahuat_') || t === 'nahuat') {
           const mod = await import('../data/languages/nahuatData');
           return { lang: 'nahuat', prefix: 'nahuat_', bank: mod.NAHUAT_QUESTIONS_BANK, name: 'Náhuat Pipil' };
         }
-        if (t.startsWith('lenca_')) {
+        if (t.startsWith('lenca_') || t === 'lenca') {
           const mod = await import('../data/languages/lencaData');
           return { lang: 'lenca', prefix: 'lenca_', bank: mod.LENCA_QUESTIONS_BANK, name: 'Lenca Potón' };
         }
-        if (t.startsWith('kakawira_')) {
+        if (t.startsWith('kakawira_') || t === 'kakawira') {
           const mod = await import('../data/languages/kakawiraData');
           return { lang: 'kakawira', prefix: 'kakawira_', bank: mod.KAKAWIRA_QUESTIONS_BANK, name: 'Kakawira' };
         }
-        if (t.startsWith('german_') || t.startsWith('aleman_')) {
+        if (t.startsWith('german_') || t.startsWith('aleman_') || t === 'german' || t === 'aleman') {
           const mod = await import('../data/languages/germanData');
           return { lang: 'german', prefix: 'german_', bank: mod.GERMAN_QUESTIONS_BANK, name: 'Alemán' };
         }
-        if (t.startsWith('arabic_') || t.startsWith('arabe_')) {
+        if (t.startsWith('arabic_') || t.startsWith('arabe_') || t === 'arabic' || t === 'arabe') {
           const mod = await import('../data/languages/arabicData');
           return { lang: 'arabic', prefix: 'arabic_', bank: mod.ARABIC_QUESTIONS_BANK, name: 'Árabe' };
         }
-        if (t.startsWith('mandarin_') || t.startsWith('chino_')) {
+        if (t.startsWith('mandarin_') || t.startsWith('chino_') || t === 'mandarin' || t === 'chino') {
           const mod = await import('../data/languages/mandarinData');
           return { lang: 'mandarin', prefix: 'mandarin_', bank: mod.MANDARIN_QUESTIONS_BANK, name: 'Mandarín' };
         }
@@ -1346,11 +1346,17 @@ export async function fetchQuestionsDetailed(
       } else {
         const { prefix, bank, name } = await loadLangBank(targetId);
         const mapped = bank.map((q) => mapQuestion(q, prefix, name));
-        const lvl = targetId.toLowerCase().replace(prefix, '').toUpperCase();
-        const filtered = mapped.filter(
-          (q) => q.subtopicId === targetId || q.statement.includes(lvl) || q.subject.includes(lvl) || q.sectionTitle?.includes(lvl)
-        );
-        questions = filtered.length > 0 ? filtered : mapped;
+        const normalizedTarget = targetId.toLowerCase().trim();
+        const wholeLangs = ['nahuat', 'lenca', 'kakawira', 'german', 'aleman', 'arabic', 'arabe', 'mandarin', 'chino', 'english', 'ingles'];
+        if (wholeLangs.includes(normalizedTarget) || normalizedTarget === prefix.replace('_', '')) {
+          questions = mapped;
+        } else {
+          const lvl = normalizedTarget.replace(prefix, '').toUpperCase();
+          const filtered = mapped.filter(
+            (q) => q.subtopicId === targetId || q.id.toLowerCase().includes(normalizedTarget) || (lvl.length === 2 && (q as any).level === lvl)
+          );
+          questions = filtered.length > 0 ? filtered : mapped;
+        }
       }
     } else {
       // UES
@@ -2268,8 +2274,9 @@ export async function fetchDynamicQuizPool(params: {
   sectionTitle?: string; // 'ALL' or specific section title
   level?: PedagogicalLevel | 'ALL';
   count: number;
+  languageId?: string; // Idioma específico (ej. 'nahuat', 'mandarin', 'lenca', etc.)
 }): Promise<Question[]> {
-  const { category, subjectId, subtopicId, sectionTitle, level, count } = params;
+  const { category, subjectId, subtopicId, sectionTitle, level, count, languageId } = params;
 
   let pool: Question[] = [];
 
@@ -2463,10 +2470,13 @@ export async function fetchDynamicQuizPool(params: {
     }
     // 6. IDIOMAS & INGLÉS INTERNACIONAL (A1-C2)
     else if (category === 'INGLES') {
+      const activeLang = languageId && languageId !== 'ALL' ? languageId.toLowerCase() : null;
       if (subtopicId !== 'ALL') {
         pool = await fetchSubtopicQuestions('INGLES', subtopicId);
       } else if (subjectId !== 'ALL') {
         pool = await fetchSubtopicQuestions('INGLES', subjectId);
+      } else if (activeLang) {
+        pool = await fetchSubtopicQuestions('INGLES', activeLang);
       } else {
         pool = await fetchSubtopicQuestions('INGLES', 'all');
       }

@@ -197,7 +197,7 @@
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "-1"
       },
       {
         "key": "D",
@@ -489,7 +489,7 @@
       },
       {
         "key": "D",
-        "text": "10"
+        "text": "11"
       },
       {
         "key": "E",
@@ -549,7 +549,7 @@
     "options": [
       {
         "key": "A",
-        "text": "x"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "B",
@@ -621,7 +621,7 @@
     "options": [
       {
         "key": "A",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "B",
@@ -629,7 +629,7 @@
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "-1"
       },
       {
         "key": "D",
@@ -1025,7 +1025,7 @@
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "-1"
       },
       {
         "key": "D",
@@ -1641,7 +1641,7 @@
       },
       {
         "key": "D",
-        "text": "15"
+        "text": "16"
       },
       {
         "key": "E",
@@ -1677,7 +1677,7 @@
       },
       {
         "key": "D",
-        "text": "15"
+        "text": "16"
       },
       {
         "key": "E",
@@ -1817,7 +1817,7 @@
       },
       {
         "key": "C",
-        "text": "Desigualdad triangular"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -1861,7 +1861,7 @@
       },
       {
         "key": "E",
-        "text": "Simetría"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",
@@ -2797,11 +2797,11 @@
       },
       {
         "key": "E",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
@@ -2833,11 +2833,11 @@
       },
       {
         "key": "E",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
@@ -2869,11 +2869,11 @@
       },
       {
         "key": "E",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
@@ -3329,7 +3329,7 @@
       },
       {
         "key": "C",
-        "text": "x = 0"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -3697,7 +3697,7 @@
       },
       {
         "key": "E",
-        "text": "x = -2"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",
@@ -4057,7 +4057,7 @@
       },
       {
         "key": "E",
-        "text": "x = -2"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",
@@ -4093,7 +4093,7 @@
       },
       {
         "key": "E",
-        "text": "x = -2"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",
@@ -4129,7 +4129,7 @@
       },
       {
         "key": "E",
-        "text": "x = -2"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",
@@ -4373,7 +4373,7 @@
       },
       {
         "key": "C",
-        "text": "x = 0"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -4409,7 +4409,7 @@
       },
       {
         "key": "C",
-        "text": "x = 0"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -4517,7 +4517,7 @@
       },
       {
         "key": "C",
-        "text": "x = 0"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -4769,7 +4769,7 @@
       },
       {
         "key": "C",
-        "text": "x = 0"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -4921,7 +4921,7 @@
       },
       {
         "key": "E",
-        "text": "x = -2"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",
@@ -5205,7 +5205,7 @@
       },
       {
         "key": "D",
-        "text": "x = 2"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "E",
@@ -5237,7 +5237,7 @@
       },
       {
         "key": "C",
-        "text": "x = 0"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -5345,7 +5345,7 @@
       },
       {
         "key": "C",
-        "text": "x = 0"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
@@ -6289,7 +6289,7 @@
       },
       {
         "key": "E",
-        "text": "x = 0"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "F",

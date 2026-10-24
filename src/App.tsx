@@ -33,6 +33,12 @@ import {
   Scale,
   Languages,
   Globe,
+  Activity,
+  Sun,
+  FileText,
+  Brain,
+  Compass,
+  Stethoscope,
 } from 'lucide-react';
 import {
   Institution,
@@ -40,10 +46,12 @@ import {
   QUESTIONS_DATA,
   SUBJECTS_BY_INSTITUTION,
   generateLatexDocument,
+  generateOmrSheetLatex,
 } from './data';
 import type { LegalTab } from './components/LegalModal';
 import { CookieBanner } from './components/CookieBanner';
 import { AdBanner } from './components/AdBanner';
+import { LateralAdRails } from './components/LateralAdRails';
 import { getCurrentUser } from './services/authService';
 import { User } from './types/auth';
 
@@ -67,20 +75,137 @@ const AccountModal = React.lazy(() =>
 const LegalModal = React.lazy(() =>
   import('./components/LegalModal').then((m) => ({ default: m.LegalModal }))
 );
+const CentralAmericaMap = React.lazy(() => import('./components/CentralAmericaMap'));
+const PatrioticHistoryView = React.lazy(() => import('./components/PatrioticHistoryView'));
+const DriverLicenseView = React.lazy(() => import('./components/DriverLicenseView'));
+const AcademicReinforcementView = React.lazy(() => import('./components/AcademicReinforcementView'));
+const TechnicalCoursesView = React.lazy(() => import('./components/TechnicalCoursesView'));
+const NotaryExamView = React.lazy(() => import('./components/NotaryExamView'));
+const ConstitutionLawView = React.lazy(() => import('./components/ConstitutionLawView'));
+const ResidentadoMedicoView = React.lazy(() => import('./components/ResidentadoMedicoView'));
+const CsspHealthView = React.lazy(() => import('./components/CsspHealthView'));
+const AnspAscensoView = React.lazy(() => import('./components/AnspAscensoView'));
+const OralLitigationSimulatorView = React.lazy(() => import('./components/OralLitigationSimulatorView'));
+const InteractiveFormulaLab = React.lazy(() => import('./components/InteractiveFormulaLab'));
+const OnePageCheatSheetsView = React.lazy(() =>
+  import('./components/OnePageCheatSheetsView').then((m) => ({ default: m.OnePageCheatSheetsView }))
+);
+const JovenesTalentoView = React.lazy(() =>
+  import('./components/JovenesTalentoView').then((m) => ({ default: m.JovenesTalentoView }))
+);
+const ComplianceFinancialView = React.lazy(() =>
+  import('./components/ComplianceFinancialView').then((m) => ({ default: m.ComplianceFinancialView }))
+);
+const SigetSolarView = React.lazy(() =>
+  import('./components/SigetSolarView').then((m) => ({ default: m.SigetSolarView }))
+);
+const DerechoAdministrativoView = React.lazy(() =>
+  import('./components/DerechoAdministrativoView').then((m) => ({ default: m.DerechoAdministrativoView }))
+);
+const SaludPrimariaView = React.lazy(() =>
+  import('./components/SaludPrimariaView').then((m) => ({ default: m.SaludPrimariaView }))
+);
+const IngenieriaCienciasView = React.lazy(() =>
+  import('./components/IngenieriaCienciasView').then((m) => ({ default: m.IngenieriaCienciasView }))
+);
+const FlashcardModal = React.lazy(() => import('./components/FlashcardModal'));
+const SmartErrorNotebookModal = React.lazy(() => import('./components/SmartErrorNotebookModal'));
 
 import { KaTeXMath, escapeHtml } from './utils/mathRenderer';
 export { KaTeXMath };
 
+<<<<<<< Updated upstream
 
 
 // ============================================================================
 export default function App() {
   const [activeTab, setActiveTab] = useState<'motionsites3d' | 'categories' | 'practice' | 'latex' | 'languages'>(() => {
+=======
+const ALL_VALID_TABS: AppPageTab[] = [
+  'motionsites3d',
+  'central-america',
+  'patriotic-history',
+  'driver-license',
+  'academic-reinforcement',
+  'technical-courses',
+  'notary-exam',
+  'ansp-ascenso',
+  'constitution',
+  'residentado-medico',
+  'cssp-health',
+  'oral-litigation',
+  'formula-lab',
+  'one-page-sheets',
+  'jovenes-talento',
+  'compliance-financial',
+  'siget-solar',
+  'derecho-administrativo',
+  'salud-primaria',
+  'ingenieria-ciencias',
+  'categories',
+  'practice',
+  'languages',
+  'latex',
+];
+
+const TAB_URL_ALIASES: Record<string, AppPageTab> = {
+  refuerzo: 'academic-reinforcement',
+  simulator: 'practice',
+  'cursos-tecnicos': 'technical-courses',
+  medicina: 'residentado-medico',
+  notariado: 'notary-exam',
+  cssp: 'cssp-health',
+  'compliance-aml': 'compliance-financial',
+  lenguas: 'languages',
+};
+
+const TAB_SEO_TITLES: Record<AppPageTab, string> = {
+  motionsites3d: 'KUSKAT | Plataforma Salvadoreña de Excelencia Académica y Científica (kuskates.com)',
+  'academic-reinforcement': 'Refuerzo Curricular Oficial MINED-ESMATE (1° Grado a Bachillerato) | KUSKAT',
+  practice: 'Simulador Oficial de Exámenes (UES, AVANZO, Escalafón, ANSP, ENA) | KUSKAT',
+  categories: 'Categorías y Bancos de Preguntas Oficiales de El Salvador | KUSKAT',
+  'technical-courses': 'Cursos Técnicos Vocacionales INCAF (400 Horas • Normativa Salvadoreña) | KUSKAT',
+  languages: 'Escuela de Idiomas y Rescate Ancestral (Náhuat, Lenca, Kakawira, Inglés) | KUSKAT',
+  'residentado-medico': 'Residentado Médico ENAR y Casos Clínicos Hospitalarios | KUSKAT',
+  'notary-exam': 'Examen de Suficiencia Notarial CSJ El Salvador | KUSKAT',
+  'derecho-administrativo': 'Derecho Administrativo (LPA) y Firma Electrónica | KUSKAT',
+  'ingenieria-ciencias': 'Métodos Cuantitativos y Ciencias de Ingeniería | KUSKAT',
+  'salud-primaria': 'Atención Primaria MINSAL y Farmacovigilancia DNM | KUSKAT',
+  'cssp-health': 'Juntas de Vigilancia del Consejo Superior de Salud Pública (CSSP) | KUSKAT',
+  'ansp-ascenso': 'Simulador de Ascenso Policial ANSP El Salvador | KUSKAT',
+  'compliance-financial': 'Cumplimiento Financiero AML (UIF/FGR) y Seguros SSF | KUSKAT',
+  constitution: 'Casoteca Constitucional y Jurisprudencia CSJ | KUSKAT',
+  'oral-litigation': 'Simulador de Litigación Oral y Audiencias | KUSKAT',
+  'siget-solar': 'Normativa Eléctrica SIGET y Sistemas Fotovoltaicos | KUSKAT',
+  'jovenes-talento': 'Programa Jóvenes Talento y Olimpiadas Científicas | KUSKAT',
+  'formula-lab': 'Laboratorio Interactivo de Fórmulas Científicas | KUSKAT',
+  'one-page-sheets': 'Hojas Mnemotécnicas de 1 Página y Fórmulas | KUSKAT',
+  'driver-license': 'Simulador de Examen de Conducir VMT El Salvador | KUSKAT',
+  'patriotic-history': 'Historia Patria y Cultura de El Salvador | KUSKAT',
+  'central-america': 'Atlas Interactivo de Centroamérica | KUSKAT',
+  latex: 'Generador Tipográfico LaTeX y Hojas OMR | KUSKAT',
+};
+
+function resolveTabFromParam(rawParam: string | null): AppPageTab | null {
+  if (!rawParam) return null;
+  const cleaned = rawParam.trim().toLowerCase();
+  if (ALL_VALID_TABS.includes(cleaned as AppPageTab)) {
+    return cleaned as AppPageTab;
+  }
+  return TAB_URL_ALIASES[cleaned] || null;
+}
+
+// ============================================================================
+export default function App() {
+  const { t } = useTranslation();
+  const [activeTab, setActiveTab] = useState<AppPageTab>(() => {
+>>>>>>> Stashed changes
     try {
       if (typeof window !== 'undefined' && window.location.search) {
         const param = new URLSearchParams(window.location.search).get('tab');
-        if (param === 'categories' || param === 'practice' || param === 'latex' || param === 'languages' || param === 'motionsites3d') {
-          return param;
+        const resolved = resolveTabFromParam(param);
+        if (resolved) {
+          return resolved;
         }
       }
     } catch {
@@ -89,6 +214,8 @@ export default function App() {
     return 'motionsites3d';
   });
   const [isDevModalOpen, setIsDevModalOpen] = useState<boolean>(false);
+  const [isFlashcardsModalOpen, setIsFlashcardsModalOpen] = useState<boolean>(false);
+  const [isSmartErrorNotebookOpen, setIsSmartErrorNotebookOpen] = useState<boolean>(false);
   const [toastMessage, setToastMessage] = useState<string | null>(null);
 
   // Estados de Cuentas Nativas, Exámenes y Marco Legal
@@ -109,6 +236,7 @@ export default function App() {
   }, []);
 
   // Cada vez que se dirija a otra página o pestaña, siempre aparece en la parte de arriba
+  // y sincroniza el <title> y <link rel="canonical"> con https://kuskates.com
   useEffect(() => {
     const scrollToTop = () => {
       try {
@@ -124,11 +252,89 @@ export default function App() {
     const rafId = requestAnimationFrame(scrollToTop);
     const timerId = setTimeout(scrollToTop, 50);
 
+    try {
+      if (typeof document !== 'undefined') {
+        document.title = TAB_SEO_TITLES[activeTab] || TAB_SEO_TITLES.motionsites3d;
+        const canonicalEl = document.querySelector('link[rel="canonical"]');
+        if (canonicalEl) {
+          const canonicalHref =
+            activeTab === 'motionsites3d'
+              ? 'https://kuskates.com/'
+              : `https://kuskates.com/?tab=${activeTab}`;
+          canonicalEl.setAttribute('href', canonicalHref);
+        }
+      }
+    } catch {
+      // ignore in non-DOM test environments
+    }
+
     return () => {
       cancelAnimationFrame(rafId);
       clearTimeout(timerId);
     };
   }, [activeTab]);
+
+  const [isExamRunning, setIsExamRunning] = useState<boolean>(false);
+
+  const handleSelectTab = (tab: AppPageTab) => {
+    if (isExamRunning && tab !== activeTab) {
+      const confirmLeave = window.confirm(
+        'Tienes una evaluación activa en el simulador. Si cambias de sección perderás el progreso no guardado. ¿Deseas salir?'
+      );
+      if (!confirmLeave) return;
+      setIsExamRunning(false);
+    }
+    if (tab === 'practice') {
+      setQuizQuestions([]);
+    }
+    setActiveTab(tab);
+    try {
+      if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href);
+        url.searchParams.set('tab', tab);
+        window.history.pushState({ tab }, '', url.toString());
+      }
+    } catch {
+      // fallback
+    }
+  };
+
+  useEffect(() => {
+    const handlePopState = (e: PopStateEvent) => {
+      const rawParam = new URLSearchParams(window.location.search).get('tab');
+      const tabFromUrl = resolveTabFromParam(rawParam) || 'motionsites3d';
+      const targetTab = (e.state?.tab && resolveTabFromParam(e.state.tab)) || tabFromUrl;
+      if (ALL_VALID_TABS.includes(targetTab)) {
+        if (isExamRunning) {
+          const confirmLeave = window.confirm(
+            'Tienes una evaluación activa en el simulador. Si regresas perderás tu progreso no guardado. ¿Deseas salir?'
+          );
+          if (!confirmLeave) {
+            const currentUrl = new URL(window.location.href);
+            currentUrl.searchParams.set('tab', activeTab);
+            window.history.pushState({ tab: activeTab }, '', currentUrl.toString());
+            return;
+          }
+          setIsExamRunning(false);
+        }
+        setActiveTab(targetTab);
+      }
+    };
+
+    window.addEventListener('popstate', handlePopState);
+    return () => window.removeEventListener('popstate', handlePopState);
+  }, [isExamRunning, activeTab]);
+
+  useEffect(() => {
+    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+      if (isExamRunning) {
+        e.preventDefault();
+        e.returnValue = '';
+      }
+    };
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload);
+  }, [isExamRunning]);
 
   const handleOpenLegalModal = (tab: LegalTab = 'terms') => {
     setLegalModalTab(tab);
@@ -160,9 +366,11 @@ export default function App() {
 
   // Preguntas seleccionadas para enviar al simulador (desde Categorías)
   const [quizQuestions, setQuizQuestions] = useState<Question[]>([]);
+  const [practiceInitialCategory, setPracticeInitialCategory] = useState<'ALL' | Institution | undefined>(undefined);
+  const [practiceInitialLanguage, setPracticeInitialLanguage] = useState<'ALL' | 'ingles' | 'nahuat' | 'lenca' | 'kakawira' | 'german' | 'arabic' | 'mandarin' | undefined>(undefined);
 
   // Estado para el exportador LaTeX
-  const [latexScope, setLatexScope] = useState<'ALL' | 'UES' | 'ESCALAFON' | 'AVANZO' | 'ASD' | 'ENA' | 'ANSP' | 'INGLES' | 'custom'>('ALL');
+  const [latexScope, setLatexScope] = useState<'ALL' | 'UES' | 'ESCALAFON' | 'AVANZO' | 'ASD' | 'ENA' | 'ANSP' | 'INGLES' | 'custom' | 'OMR_50' | 'OMR_100'>('ALL');
   const [latexCustomQuestions, setLatexCustomQuestions] = useState<Question[] | null>(null);
   const [latexCustomTitle, setLatexCustomTitle] = useState<string | null>(null);
   const [copiedLatex, setCopiedLatex] = useState<boolean>(false);
@@ -177,6 +385,13 @@ export default function App() {
   const currentLatexCode = useMemo(() => {
     let targetQuestions = QUESTIONS_DATA;
     let docTitle = 'Compilación Completa Kuskat (UES, ESCALAFÓN, AVANZO, ASD, ENA, ANSP & IDIOMAS)';
+
+    if (latexScope === 'OMR_50') {
+      return generateOmrSheetLatex(50, 'Evaluación Institucional KUSKAT (50 Ítems)');
+    }
+    if (latexScope === 'OMR_100') {
+      return generateOmrSheetLatex(100, 'Evaluación Institucional KUSKAT (100 Ítems)');
+    }
 
     if (latexScope === 'custom' && latexCustomQuestions && latexCustomQuestions.length > 0) {
       targetQuestions = latexCustomQuestions;
@@ -244,22 +459,33 @@ export default function App() {
       >
         <MotionSitesPortal
           onEnterSimulator={() => {
-            setQuizQuestions([]);
-            setActiveTab('practice');
+            handleSelectTab('practice');
           }}
           onOpenCategories={() => {
+<<<<<<< Updated upstream
             setActiveTab('categories');
           }}
+=======
+            handleSelectTab('categories');
+          }}
+          onSelectTab={handleSelectTab}
+          onOpenAccountModal={() => setIsAccountModalOpen(true)}
+          onOpenTutorial={() => setIsTutorialOpen(true)}
+          onOpenDevModal={() => setIsDevModalOpen(true)}
+          onOpenLegalModal={handleOpenLegalModal}
+          currentUser={currentUser}
+>>>>>>> Stashed changes
         />
       </React.Suspense>
     );
   }
 
   return (
-    <div className="min-h-screen bg-slate-100 flex flex-col font-caslon text-slate-800">
+    <div className="min-h-screen bg-slate-100 flex flex-col font-caslon text-slate-800 overflow-x-clip">
       {/* ==================================================================== */}
       {/* 1. CINTILLO SUPERIOR DE INFORMACIÓN Y CONTACTO */}
       {/* ==================================================================== */}
+<<<<<<< Updated upstream
       <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 text-white text-[10px] sm:text-xs py-2 px-3 sm:px-6 lg:px-8 border-b border-blue-900/50">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1.5 sm:gap-2">
           <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap justify-center sm:justify-start">
@@ -481,11 +707,25 @@ export default function App() {
           </div>
         </div>
       </header>
+=======
+      <HeaderNavbar
+        activeTab={activeTab}
+        onSelectTab={handleSelectTab}
+        onOpenAccountModal={() => setIsAccountModalOpen(true)}
+        onOpenTutorial={() => setIsTutorialOpen(true)}
+        onOpenDevModal={() => setIsDevModalOpen(true)}
+        onOpenLegalModal={handleOpenLegalModal}
+        onOpenFlashcards={() => setIsFlashcardsModalOpen(true)}
+        onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+        currentUser={currentUser}
+      />
+>>>>>>> Stashed changes
 
       {/* ==================================================================== */}
       {/* 3. CONTENIDO PRINCIPAL SEGÚN PESTAÑA ACTIVA */}
       {/* ==================================================================== */}
-      <main className="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-6 pb-24 md:pb-12">
+      <main className="flex-1 w-full mx-auto px-2 sm:px-4 lg:px-6 xl:px-8 py-4 sm:py-6 pb-12">
+        <LateralAdRails activeTab={activeTab}>
         {/* ================================================================== */}
         {/* VISTA 0: MENÚ JERÁRQUICO POR SECCIÓN, TEMA, MATERIA Y TIPO */}
         {/* ================================================================== */}
@@ -503,14 +743,14 @@ export default function App() {
             <CategoryHierarchyViewer
               onStartPracticeWithQuestions={(questions) => {
                 setQuizQuestions(questions);
-                setActiveTab('practice');
+                handleSelectTab('practice');
                 showToast(`Simulador iniciado con ${questions.length} preguntas de la sección.`);
               }}
               onExportLatexWithQuestions={(questions, title) => {
                 setLatexCustomQuestions(questions);
                 setLatexCustomTitle(title);
                 setLatexScope('custom');
-                setActiveTab('latex');
+                handleSelectTab('latex');
                 showToast(`Exportador LaTeX preparado para: ${title}`);
               }}
               showToast={showToast}
@@ -534,6 +774,8 @@ export default function App() {
           >
             <PracticeMode
               initialQuestions={quizQuestions.length > 0 ? quizQuestions : null}
+              initialCategory={practiceInitialCategory}
+              initialLanguageFilter={practiceInitialLanguage}
               initialTitle={
                 quizQuestions.length > 0
                   ? `Simulacro Personalizado (${quizQuestions.length} reactivos)`
@@ -543,11 +785,12 @@ export default function App() {
                 setLatexCustomQuestions(questions);
                 setLatexCustomTitle(title);
                 setLatexScope('custom');
-                setActiveTab('latex');
+                handleSelectTab('latex');
                 showToast(`Exportador LaTeX preparado para: ${title}`);
               }}
-              onBackToCategories={() => setActiveTab('categories')}
+              onBackToCategories={() => handleSelectTab('categories')}
               onOpenAccountModal={() => setIsAccountModalOpen(true)}
+              onQuizActiveChange={setIsExamRunning}
               showToast={showToast}
             />
           </React.Suspense>
@@ -661,6 +904,22 @@ export default function App() {
                   >
                     ANSP
                   </button>
+                  <button
+                    onClick={() => setLatexScope('OMR_50')}
+                    className={`px-3 py-1 rounded-lg transition-all cursor-pointer shrink-0 font-bold flex items-center gap-1 ${
+                      latexScope === 'OMR_50' ? 'bg-[#C59B27] text-[#0B1B3D] shadow-xs' : 'text-amber-700 bg-amber-50 hover:bg-amber-100'
+                    }`}
+                  >
+                    <span>Hoja OMR (50 ítems)</span>
+                  </button>
+                  <button
+                    onClick={() => setLatexScope('OMR_100')}
+                    className={`px-3 py-1 rounded-lg transition-all cursor-pointer shrink-0 font-bold flex items-center gap-1 ${
+                      latexScope === 'OMR_100' ? 'bg-[#C59B27] text-[#0B1B3D] shadow-xs' : 'text-amber-700 bg-amber-50 hover:bg-amber-100'
+                    }`}
+                  >
+                    <span>Hoja OMR (100 ítems)</span>
+                  </button>
                 </div>
               </div>
             </div>
@@ -750,16 +1009,397 @@ export default function App() {
             }
           >
             <LanguagesView
-              onEnterSimulatorWithCategory={() => {
+              onEnterSimulatorWithCategory={(cat, langId) => {
                 setQuizQuestions([]);
-                setActiveTab('practice');
+                setPracticeInitialCategory(cat);
+                if (langId) {
+                  const mapped = langId === 'english' ? 'ingles' : langId;
+                  setPracticeInitialLanguage(mapped as any);
+                }
+                handleSelectTab('practice');
+                showToast(`Iniciando Simulador Global de Idiomas...`);
               }}
             />
           </React.Suspense>
         )}
+
+        {/* ================================================================== */}
+        {/* VISTA 5: MAPA INTERACTIVO DE CENTROAMÉRICA & EL SALVADOR          */}
+        {/* ================================================================== */}
+        {activeTab === 'central-america' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Globe className="w-6 h-6 text-white" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Mapa de Centroamérica...</p>
+              </div>
+            }
+          >
+            <CentralAmericaMap />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 6: SÍMBOLOS PATRIOS E HISTORIAL DE PRESIDENTES DE EL SALVADOR */}
+        {/* ================================================================== */}
+        {activeTab === 'patriotic-history' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Award className="w-6 h-6 text-white" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Símbolos Patrios e Historia...</p>
+              </div>
+            }
+          >
+            <PatrioticHistoryView />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 7: LICENCIAS DE CONDUCIR (TEÓRICO Y PSICOLÓGICO)             */}
+        {/* ================================================================== */}
+        {activeTab === 'driver-license' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Award className="w-6 h-6 text-white" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Módulo de Licencias de Conducir...</p>
+              </div>
+            }
+          >
+            <DriverLicenseView />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 8: REFUERZO ACADÉMICO (1° A 9° GRADO Y 1°-2° BACHILLERATO)   */}
+        {/* ================================================================== */}
+        {activeTab === 'academic-reinforcement' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <GraduationCap className="w-6 h-6 text-white" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Refuerzo Académico Escolar...</p>
+              </div>
+            }
+          >
+            <AcademicReinforcementView />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 9: CURSOS TÉCNICOS Y OFICIOS PRÁCTICOS                      */}
+        {/* ================================================================== */}
+        {activeTab === 'technical-courses' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-amber-600 flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Award className="w-6 h-6 text-white" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Cursos Técnicos y Oficios...</p>
+              </div>
+            }
+          >
+            <TechnicalCoursesView />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 10: PREPARACIÓN PARA EL EXAMEN DE NOTARIO CSJ               */}
+        {/* ================================================================== */}
+        {activeTab === 'notary-exam' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-slate-800 flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Scale className="w-6 h-6 text-white" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Examen de Notariado...</p>
+              </div>
+            }
+          >
+            <NotaryExamView />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA: ASCENSOS POLICIALES ANSP / PNC                              */}
+        {/* ================================================================== */}
+        {activeTab === 'ansp-ascenso' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#0B1B3D] flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Shield className="w-6 h-6 text-[#C59B27]" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Módulo de Ascensos Policiales ANSP...</p>
+              </div>
+            }
+          >
+            <AnspAscensoView
+              onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+              showToast={showToast}
+            />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 11: CONSTITUCIÓN Y DERECHO PÚBLICO / PRIVADO                 */}
+        {/* ================================================================== */}
+        {activeTab === 'constitution' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-blue-700 flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Scale className="w-6 h-6 text-white" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Constitución y Derecho...</p>
+              </div>
+            }
+          >
+            <ConstitutionLawView />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 12: RESIDENTADO MÉDICO ENAR (POSGRADO & ESPECIALIDADES)     */}
+        {/* ================================================================== */}
+        {activeTab === 'residentado-medico' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#0B1B3D] flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <BookOpen className="w-6 h-6 text-[#C59B27]" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Residentado Médico ENAR...</p>
+              </div>
+            }
+          >
+            <ResidentadoMedicoView
+              onOpenFlashcards={() => setIsFlashcardsModalOpen(true)}
+              onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+              showToast={showToast}
+            />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 13: HABILITACIÓN EN SALUD CSSP (5 JUNTAS DE VIGILANCIA)     */}
+        {/* ================================================================== */}
+        {activeTab === 'cssp-health' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#0B1B3D] flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Activity className="w-6 h-6 text-[#1E7E34]" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Habilitación en Salud CSSP...</p>
+              </div>
+            }
+          >
+            <CsspHealthView
+              onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+              showToast={showToast}
+            />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 14: LITIGACIÓN ORAL PENAL & SIMULADOR DE OBJECIONES (PRPN)   */}
+        {/* ================================================================== */}
+        {activeTab === 'oral-litigation' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#0B1B3D] flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Scale className="w-6 h-6 text-[#9E472A]" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Taller de Litigación Oral...</p>
+              </div>
+            }
+          >
+            <OralLitigationSimulatorView
+              onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+              showToast={showToast}
+            />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 15: LABORATORIO DE FÓRMULAS INTERACTIVO                    */}
+        {/* ================================================================== */}
+        {activeTab === 'formula-lab' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-amber-600 flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Rocket className="w-6 h-6 text-white" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Laboratorio de Fórmulas Interactivo...</p>
+              </div>
+            }
+          >
+            <InteractiveFormulaLab />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 16: HOJAS MNEMOTÉCNICAS (1 PÁG. LATEX)                      */}
+        {/* ================================================================== */}
+        {activeTab === 'one-page-sheets' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#0B1B3D] flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <FileText className="w-6 h-6 text-[#C59B27]" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Hojas Mnemotécnicas (1 Pág. LaTeX)...</p>
+              </div>
+            }
+          >
+            <OnePageCheatSheetsView showToast={showToast} />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 17: PROGRAMA JÓVENES TALENTO UES / MINED                     */}
+        {/* ================================================================== */}
+        {activeTab === 'jovenes-talento' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#0B1B3D] flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Brain className="w-6 h-6 text-[#C59B27]" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Jóvenes Talento UES / MINED...</p>
+              </div>
+            }
+          >
+            <JovenesTalentoView
+              onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+              showToast={showToast}
+            />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 18: CUMPLIMIENTO AML & SEGUROS MERCANTILES (SSF / UIF)       */}
+        {/* ================================================================== */}
+        {activeTab === 'compliance-financial' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#0B1B3D] flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Shield className="w-6 h-6 text-[#C59B27]" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Cumplimiento AML & Seguros SSF...</p>
+              </div>
+            }
+          >
+            <ComplianceFinancialView
+              onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+              showToast={showToast}
+            />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 19: ENERGÍA SOLAR FOTOVOLTAICA & ELECTRICIDAD SIGET         */}
+        {/* ================================================================== */}
+        {activeTab === 'siget-solar' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#0B1B3D] flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Sun className="w-6 h-6 text-[#C59B27]" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Energía Solar & Electricidad SIGET...</p>
+              </div>
+            }
+          >
+            <SigetSolarView
+              onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+              showToast={showToast}
+            />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 20: DERECHO ADMINISTRATIVO (LPA) & FIRMA ELECTRÓNICA         */}
+        {/* ================================================================== */}
+        {activeTab === 'derecho-administrativo' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#0B1B3D] flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Scale className="w-6 h-6 text-[#C59B27]" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Derecho Administrativo (LPA)...</p>
+              </div>
+            }
+          >
+            <DerechoAdministrativoView
+              onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+              showToast={showToast}
+            />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 21: ATENCIÓN PRIMARIA & FARMACOVIGILANCIA MINSAL/SRS        */}
+        {/* ================================================================== */}
+        {activeTab === 'salud-primaria' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#0B1B3D] flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Stethoscope className="w-6 h-6 text-[#1E7E34]" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Atención Primaria & Farmacovigilancia...</p>
+              </div>
+            }
+          >
+            <SaludPrimariaView
+              onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+              showToast={showToast}
+            />
+          </React.Suspense>
+        )}
+
+        {/* ================================================================== */}
+        {/* VISTA 22: CIENCIAS DE INGENIERÍA & MÉTODOS CUANTITATIVOS          */}
+        {/* ================================================================== */}
+        {activeTab === 'ingenieria-ciencias' && (
+          <React.Suspense
+            fallback={
+              <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+                <div className="w-10 h-10 rounded-xl bg-[#0B1B3D] flex items-center justify-center mx-auto mb-3 animate-pulse">
+                  <Compass className="w-6 h-6 text-[#C59B27]" />
+                </div>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Ciencias de Ingeniería & Métodos Cuantitativos...</p>
+              </div>
+            }
+          >
+            <IngenieriaCienciasView
+              onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+              showToast={showToast}
+            />
+          </React.Suspense>
+        )}
+        </LateralAdRails>
       </main>
 
       {/* ==================================================================== */}
+<<<<<<< Updated upstream
       {/* 4. BARRA DE NAVEGACIÓN INFERIOR PARA MÓVILES (PWA STYLE) */}
       {/* ==================================================================== */}
       <nav className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-lg border-t border-slate-200 px-1.5 py-1 pb-[calc(0.4rem+env(safe-area-inset-bottom,0px))] flex items-center justify-between overflow-x-auto scrollbar-none touch-scroll shadow-xl gap-1">
@@ -848,6 +1488,8 @@ export default function App() {
       </nav>
 
       {/* ==================================================================== */}
+=======
+>>>>>>> Stashed changes
       {/* 4.5 TUTORIAL DE BIENVENIDA O GUÍA INTERACTIVA (OPCIONAL) */}
       {/* ==================================================================== */}
       {isTutorialOpen && (
@@ -940,46 +1582,24 @@ export default function App() {
                 <h4 className="font-bold text-slate-500 uppercase tracking-wider text-xs">
                   Canales Oficiales de Comunicación:
                 </h4>
-
-                {/* WhatsApp KUSKAT */}
+                {/* WhatsApp Negocio KUSKAT */}
                 <a
                   href="https://wa.me/50376574463?text=Hola%20KUSKAT,%20estoy%20estudiando%20desde%20tu%20app%20de%20estudio%20:)"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center justify-between p-3 rounded-2xl bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-emerald-950 font-semibold transition-all group"
+                  className="flex items-center justify-between p-3 rounded-2xl bg-emerald-50 hover:bg-emerald-100/80 border border-emerald-200 text-emerald-950 transition-all text-xs sm:text-sm font-semibold group cursor-pointer"
                 >
                   <div className="flex items-center gap-3">
-                    <div className="w-9 h-9 rounded-xl bg-emerald-600 text-white flex items-center justify-center">
+                    <div className="w-9 h-9 rounded-xl bg-emerald-600 text-white flex items-center justify-center shadow-xs group-hover:scale-105 transition-transform">
                       <MessageCircle className="w-5 h-5" />
                     </div>
                     <div>
-                      <span className="block font-bold">WhatsApp KUSKAT (Negocio)</span>
-                      <span className="text-xs text-emerald-800 font-mono">+503 7657 4463</span>
+                      <span className="block font-bold">WhatsApp KUSKAT (Oficial)</span>
+                      <span className="text-xs text-emerald-800 font-mono font-medium">+503 7657 4463</span>
                     </div>
                   </div>
-                  <span className="text-[11px] font-bold bg-white text-emerald-700 px-2.5 py-1 rounded-xl shadow-2xs border border-emerald-200">
+                  <span className="text-[11px] font-bold bg-white text-emerald-700 px-2.5 py-1 rounded-xl shadow-2xs border border-emerald-200 shrink-0">
                     Estudiantes
-                  </span>
-                </a>
-
-                {/* WhatsApp Personal */}
-                <a
-                  href="https://wa.me/50379439901?text=Hola%20Yeferson%20Perez,%20paso%20a%20saludar,%20estoy%20en%20la%20app%20de%20estudio%20:)"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center justify-between p-3 rounded-2xl bg-blue-50 hover:bg-blue-100 border border-blue-200 text-blue-950 font-semibold transition-all group"
-                >
-                  <div className="flex items-center gap-3">
-                    <div className="w-9 h-9 rounded-xl bg-blue-600 text-white flex items-center justify-center">
-                      <MessageCircle className="w-5 h-5" />
-                    </div>
-                    <div>
-                      <span className="block font-bold">WhatsApp Personal (Yeferson)</span>
-                      <span className="text-xs text-blue-800 font-mono">+503 7943 9901</span>
-                    </div>
-                  </div>
-                  <span className="text-[11px] font-bold bg-white text-blue-700 px-2.5 py-1 rounded-xl shadow-2xs border border-blue-200">
-                    Saludar
                   </span>
                 </a>
 
@@ -1101,23 +1721,8 @@ export default function App() {
                     <MessageCircle className="w-4 h-4" />
                   </div>
                   <div className="text-[11px]">
-                    <span className="block font-semibold">WhatsApp KUSKAT (Negocio):</span>
+                    <span className="block font-semibold">WhatsApp KUSKAT (Oficial):</span>
                     <strong className="font-mono text-slate-900">+503 7657 4463</strong>
-                  </div>
-                </a>
-
-                <a
-                  href="https://wa.me/50379439901?text=Hola%20Yeferson%20Perez,%20paso%20a%20saludar,%20estoy%20en%20la%20app%20de%20estudio%20:)"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2.5 p-2 rounded-xl hover:bg-blue-50 text-slate-700 hover:text-blue-800 transition-colors font-medium border border-transparent hover:border-blue-200"
-                >
-                  <div className="w-7 h-7 rounded-lg bg-blue-600 text-white flex items-center justify-center shrink-0">
-                    <MessageCircle className="w-4 h-4" />
-                  </div>
-                  <div className="text-[11px]">
-                    <span className="block font-semibold">WhatsApp Personal (Yeferson):</span>
-                    <strong className="font-mono text-slate-900">+503 7943 9901</strong>
                   </div>
                 </a>
 
@@ -1224,6 +1829,30 @@ export default function App() {
             isOpen={isLegalModalOpen}
             onClose={() => setIsLegalModalOpen(false)}
             initialTab={legalModalTab}
+          />
+        </React.Suspense>
+      )}
+
+      {/* ==================================================================== */}
+      {/* 9.5 FLASHCARDS NEMOTÉCNICAS INTELIGENTES (FSRS v4.5) */}
+      {/* ==================================================================== */}
+      {isFlashcardsModalOpen && (
+        <React.Suspense fallback={null}>
+          <FlashcardModal
+            isOpen={isFlashcardsModalOpen}
+            onClose={() => setIsFlashcardsModalOpen(false)}
+          />
+        </React.Suspense>
+      )}
+
+      {/* ==================================================================== */}
+      {/* 9.6 CUADERNO INTELIGENTE DE ERRORES Y REMEDIACIÓN DELIBERADA FSRS    */}
+      {/* ==================================================================== */}
+      {isSmartErrorNotebookOpen && (
+        <React.Suspense fallback={null}>
+          <SmartErrorNotebookModal
+            isOpen={isSmartErrorNotebookOpen}
+            onClose={() => setIsSmartErrorNotebookOpen(false)}
           />
         </React.Suspense>
       )}

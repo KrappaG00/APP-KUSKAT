@@ -229,7 +229,7 @@
       },
       {
         "key": "B",
-        "text": "8"
+        "text": "9"
       },
       {
         "key": "C",
@@ -421,7 +421,7 @@
       },
       {
         "key": "E",
-        "text": "5"
+        "text": "6"
       },
       {
         "key": "F",
@@ -849,7 +849,7 @@
       },
       {
         "key": "D",
-        "text": "7"
+        "text": "6"
       },
       {
         "key": "E",
@@ -893,7 +893,7 @@
       },
       {
         "key": "F",
-        "text": "10"
+        "text": "11"
       }
     ],
     "correctAnswer": "A",
@@ -1605,7 +1605,7 @@
       },
       {
         "key": "D",
-        "text": "-2"
+        "text": "-1"
       },
       {
         "key": "E",
@@ -1649,7 +1649,7 @@
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
@@ -1721,7 +1721,7 @@
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
@@ -1753,11 +1753,11 @@
       },
       {
         "key": "E",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "2"
       }
     ],
     "correctAnswer": "B",
@@ -1789,11 +1789,11 @@
       },
       {
         "key": "E",
-        "text": "0"
+        "text": "1"
       },
       {
         "key": "F",
-        "text": "1"
+        "text": "2"
       }
     ],
     "correctAnswer": "A",
@@ -1929,7 +1929,7 @@
       },
       {
         "key": "D",
-        "text": "-2"
+        "text": "-1"
       },
       {
         "key": "E",
@@ -2541,7 +2541,7 @@
       },
       {
         "key": "D",
-        "text": "-2"
+        "text": "-1"
       },
       {
         "key": "E",
@@ -3113,7 +3113,7 @@
       },
       {
         "key": "C",
-        "text": "4"
+        "text": "5"
       },
       {
         "key": "D",
@@ -3145,11 +3145,11 @@
       },
       {
         "key": "B",
-        "text": "3"
+        "text": "4"
       },
       {
         "key": "C",
-        "text": "4"
+        "text": "5"
       },
       {
         "key": "D",
@@ -3273,7 +3273,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2."
+    "explanation": "Despejando y en la forma pendiente-intercepto: -2y = -4x + 8 => y = 2x - 4, por lo que la pendiente es m = 2."
   },
   {
     "id": "1.7_q92",
@@ -3309,7 +3309,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2."
+    "explanation": "Haciendo x = 0 en la ecuación: 2(0) + 3y = 6 => 3y = 6 => y = 2."
   },
   {
     "id": "1.7_q93",
@@ -3345,7 +3345,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3."
+    "explanation": "Haciendo y = 0 en la ecuación: 2x + 3(0) = 6 => 2x = 6 => x = 3."
   },
   {
     "id": "1.7_q94",
@@ -3545,7 +3545,7 @@
       },
       {
         "key": "C",
-        "text": "4"
+        "text": "5"
       },
       {
         "key": "D",
@@ -4261,19 +4261,19 @@
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "x = 1"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "x = 0"
       },
       {
         "key": "D",
-        "text": "2"
+        "text": "x = -2"
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "x = -1"
       },
       {
         "key": "F",
@@ -4281,7 +4281,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x=2."
+    "explanation": "El eje de simetría de una parábola es x = -b/(2a) = -(-4)/(2 \\cdot 1) = 2, es decir la recta x = 2."
   },
   {
     "id": "1.7_q120",
@@ -4333,19 +4333,19 @@
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "x = 1"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "x = 0"
       },
       {
         "key": "D",
-        "text": "2"
+        "text": "x = 4"
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "x = -1"
       },
       {
         "key": "F",
@@ -4353,7 +4353,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x=2."
+    "explanation": "El eje de simetría es x = -(-8)/(2 \\cdot 2) = 2, correspondiente a la recta x = 2."
   },
   {
     "id": "1.7_q122",
@@ -4549,7 +4549,7 @@
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "2"
       },
       {
         "key": "C",
@@ -4557,7 +4557,7 @@
       },
       {
         "key": "D",
-        "text": "2"
+        "text": "3"
       },
       {
         "key": "E",
@@ -4589,7 +4589,7 @@
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "-1"
       },
       {
         "key": "D",
@@ -4597,7 +4597,7 @@
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "-2"
       },
       {
         "key": "F",
@@ -4697,7 +4697,7 @@
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "-1"
       },
       {
         "key": "D",
@@ -4705,7 +4705,7 @@
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "-2"
       },
       {
         "key": "F",
@@ -4733,7 +4733,7 @@
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "-1"
       },
       {
         "key": "D",
@@ -4741,7 +4741,7 @@
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "-2"
       },
       {
         "key": "F",
@@ -4805,7 +4805,7 @@
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "-1"
       },
       {
         "key": "D",
@@ -4813,7 +4813,7 @@
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "-2"
       },
       {
         "key": "F",
@@ -5273,7 +5273,7 @@
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "-1"
       },
       {
         "key": "D",
@@ -5281,7 +5281,7 @@
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "-2"
       },
       {
         "key": "F",
@@ -5317,7 +5317,7 @@
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "-2"
       },
       {
         "key": "F",
@@ -5713,7 +5713,7 @@
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "-2"
       },
       {
         "key": "F",
@@ -5777,7 +5777,7 @@
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "-1"
       },
       {
         "key": "D",
@@ -5785,7 +5785,7 @@
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "-2"
       },
       {
         "key": "F",
@@ -5821,7 +5821,7 @@
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "-2"
       },
       {
         "key": "F",
@@ -5881,19 +5881,19 @@
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "x = 1"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "x = 0"
       },
       {
         "key": "D",
-        "text": "2"
+        "text": "x = 3"
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "x = -1"
       },
       {
         "key": "F",
@@ -5901,7 +5901,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x=2."
+    "explanation": "La parábola tiene vértice en x = 2, siendo simétrica respecto a la recta x = 2."
   },
   {
     "id": "1.7_q165",
@@ -5953,19 +5953,19 @@
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "x = 1"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "x = 0"
       },
       {
         "key": "D",
-        "text": "2"
+        "text": "x = -2"
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "x = -1"
       },
       {
         "key": "F",
@@ -5973,7 +5973,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x=2."
+    "explanation": "El eje de simetría es x = -(-8)/(2 \\cdot 2) = 2, correspondiente a la recta x = 2."
   },
   {
     "id": "1.7_q167",
@@ -5989,19 +5989,19 @@
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "y \\geq 1"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "y \\geq 0"
       },
       {
         "key": "D",
-        "text": "2"
+        "text": "y \\geq 2"
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "y \\leq -1"
       },
       {
         "key": "F",
@@ -6009,7 +6009,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "y >= -1."
+    "explanation": "El vértice está en x = 2, f(2) = 2^2 - 4(2) + 3 = -1. Al abrir hacia arriba, el rango es y \\geq -1."
   },
   {
     "id": "1.7_q168",
@@ -6061,19 +6061,19 @@
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "y \\geq 1"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "y > 0"
       },
       {
         "key": "D",
-        "text": "2"
+        "text": "y \\geq 2"
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "y \\leq -1"
       },
       {
         "key": "F",
@@ -6081,7 +6081,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "y >= 0."
+    "explanation": "La función se expresa como f(x) = (x+1)^2 \\geq 0, luego el rango es y \\geq 0."
   },
   {
     "id": "1.7_q170",
@@ -6097,19 +6097,19 @@
       },
       {
         "key": "B",
-        "text": "1"
+        "text": "y \\geq 1"
       },
       {
         "key": "C",
-        "text": "0"
+        "text": "y \\geq 0"
       },
       {
         "key": "D",
-        "text": "2"
+        "text": "y \\geq 2"
       },
       {
         "key": "E",
-        "text": "-1"
+        "text": "y \\leq 1"
       },
       {
         "key": "F",
@@ -6117,7 +6117,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "y >= -1."
+    "explanation": "Vértice en x = 1, f(1) = 2 - 4 + 1 = -1. Como a > 0, el rango es y \\geq -1."
   },
   {
     "id": "1.7_q171",
@@ -6457,7 +6457,7 @@
       },
       {
         "key": "B",
-        "text": "2x+1"
+        "text": "3"
       },
       {
         "key": "C",
@@ -6693,7 +6693,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x."
+    "explanation": "Componiendo las funciones: (f o g)(x) = f(g(x)) = f(x - 2) = (x - 2) + 2 = x."
   },
   {
     "id": "1.7_q187",
@@ -6729,7 +6729,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x."
+    "explanation": "Componiendo las funciones: (f o g)(x) = f(g(x)) = f(x/2) = 2(x/2) = x."
   },
   {
     "id": "1.7_q188",
@@ -6765,7 +6765,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "x."
+    "explanation": "Para x >= 0: (f o g)(x) = f(\\sqrt{x}) = (\\sqrt{x})^2 = x."
   },
   {
     "id": "1.7_q189",
@@ -7033,7 +7033,7 @@
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "3"
       },
       {
         "key": "C",
@@ -7053,7 +7053,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2."
+    "explanation": "Igualando f(x) = 3: 2x - 1 = 3 => 2x = 4 => x = 2."
   },
   {
     "id": "1.7_q197",
@@ -7069,7 +7069,7 @@
       },
       {
         "key": "B",
-        "text": "2"
+        "text": "3"
       },
       {
         "key": "C",
@@ -7089,7 +7089,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "2."
+    "explanation": "Igualando f(x) = 8: 3x + 2 = 8 => 3x = 6 => x = 2."
   },
   {
     "id": "1.7_q198",
@@ -7149,7 +7149,7 @@
       },
       {
         "key": "D",
-        "text": "\\(x^2\\)"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "E",
@@ -7197,7 +7197,7 @@
       }
     ],
     "correctAnswer": "A",
-    "explanation": "3."
+    "explanation": "Igualando x^2 = 9 con x >= 0 obtenemos x = 3."
   },
   {
     "id": "1.7_q201",

@@ -1361,7 +1361,7 @@
       },
       {
         "key": "F",
-        "text": "Dos nombres para dos taxones"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -1849,11 +1849,11 @@
       },
       {
         "key": "B",
-        "text": "*homo sapiens*"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "*Homo Sapiens*"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
@@ -1861,11 +1861,11 @@
       },
       {
         "key": "E",
-        "text": "homo Sapiens"
+        "text": "No está definido en los reales"
       },
       {
         "key": "F",
-        "text": "Homo Sapiens"
+        "text": "No existe solución"
       }
     ],
     "correctAnswer": "A",
@@ -1957,19 +1957,19 @@
       },
       {
         "key": "B",
-        "text": "*E. Coli*"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
-        "text": "*e. coli*"
+        "text": "Indeterminado"
       },
       {
         "key": "D",
-        "text": "*E. Coli*"
+        "text": "No está definido en los reales"
       },
       {
         "key": "E",
-        "text": "*E.Coli*"
+        "text": "No existe solución"
       },
       {
         "key": "F",
@@ -2177,11 +2177,11 @@
       },
       {
         "key": "C",
-        "text": "género especie subespecie"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "D",
-        "text": "Género especie subespecie"
+        "text": "Indeterminado"
       },
       {
         "key": "E",
@@ -2189,7 +2189,7 @@
       },
       {
         "key": "F",
-        "text": "género Especie subespecie"
+        "text": "No está definido en los reales"
       }
     ],
     "correctAnswer": "A",

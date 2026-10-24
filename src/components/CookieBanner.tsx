@@ -11,6 +11,7 @@ export const CookieBanner: React.FC<CookieBannerProps> = ({ onOpenLegalModal }) 
   const [showCustomize, setShowCustomize] = useState(false);
   const [analyticsEnabled, setAnalyticsEnabled] = useState(true);
   const [preferencesEnabled, setPreferencesEnabled] = useState(true);
+  const [adsEnabled, setAdsEnabled] = useState(true);
 
   useEffect(() => {
     const existing = getCookieConsent();
@@ -22,19 +23,20 @@ export const CookieBanner: React.FC<CookieBannerProps> = ({ onOpenLegalModal }) 
   if (!showBanner) return null;
 
   const handleAcceptAll = () => {
-    saveCookieConsent({ analytics: true, preferences: true });
+    saveCookieConsent({ analytics: true, preferences: true, ads: true });
     setShowBanner(false);
   };
 
   const handleOnlyNecessary = () => {
-    saveCookieConsent({ analytics: false, preferences: false });
+    saveCookieConsent({ analytics: false, preferences: false, ads: false });
     setShowBanner(false);
   };
 
   const handleSaveCustom = () => {
     saveCookieConsent({
       analytics: analyticsEnabled,
-      preferences: preferencesEnabled
+      preferences: preferencesEnabled,
+      ads: adsEnabled
     });
     setShowBanner(false);
   };
@@ -52,13 +54,13 @@ export const CookieBanner: React.FC<CookieBannerProps> = ({ onOpenLegalModal }) 
           </div>
           <div className="space-y-1">
             <h4 className="text-sm font-semibold text-white flex items-center gap-2">
-              Privacidad y Cookies en KUSKAT
+              Privacidad, Cookies y Acceso 100% Gratuito en KUSKAT
               <span className="text-[10px] px-1.5 py-0.5 rounded bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 font-medium">
-                Solo texto • Cero rastreo invasivo
+                Google Consent Mode v2 • Educación Libre
               </span>
             </h4>
             <p className="text-xs text-slate-300 leading-relaxed">
-              Utilizamos cookies técnicas necesarias para mantener tu sesión de simulador y resguardar tus respuestas. No empleamos cookies publicitarias ni compartimos tu información con terceros. Puedes consultar nuestra{' '}
+              Utilizamos cookies técnicas necesarias para tu sesión de simulador y anuncios no intrusivos de Google AdSense que financian el acceso 100% gratuito a todos los simuladores y libros MINED sin cobrarte suscripciones ni membresías. Puedes consultar nuestra{' '}
               <button
                 type="button"
                 onClick={() => onOpenLegalModal('cookies')}
@@ -66,7 +68,7 @@ export const CookieBanner: React.FC<CookieBannerProps> = ({ onOpenLegalModal }) 
               >
                 Política de Cookies
               </button>{' '}
-              o personalizar tus preferencias.
+              o personalizar tus preferencias de privacidad.
             </p>
           </div>
         </div>
@@ -101,7 +103,7 @@ export const CookieBanner: React.FC<CookieBannerProps> = ({ onOpenLegalModal }) 
 
       {/* Modal / Panel de Personalización Desplegable */}
       {showCustomize && (
-        <div className="max-w-6xl mx-auto mt-3 pt-3 border-t border-slate-800 text-xs grid grid-cols-1 md:grid-cols-3 gap-3">
+        <div className="max-w-6xl mx-auto mt-3 pt-3 border-t border-slate-800 text-xs grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           <div className="p-2.5 rounded-lg bg-slate-800/60 border border-slate-700/60 flex items-center justify-between">
             <div>
               <p className="font-semibold text-white">Cookies Necesarias</p>
@@ -115,13 +117,29 @@ export const CookieBanner: React.FC<CookieBannerProps> = ({ onOpenLegalModal }) 
           <div className="p-2.5 rounded-lg bg-slate-800/60 border border-slate-700/60 flex items-center justify-between">
             <div>
               <p className="font-semibold text-white">Preferencias Visuales</p>
-              <p className="text-[11px] text-slate-400">Recordar categorías y temas</p>
+              <p className="text-[11px] text-slate-400">Recordar categorías e idioma</p>
             </div>
             <label className="relative inline-flex items-center cursor-pointer">
               <input
                 type="checkbox"
                 checked={preferencesEnabled}
                 onChange={e => setPreferencesEnabled(e.target.checked)}
+                className="sr-only peer"
+              />
+              <div className="w-8 h-4 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-3 after:w-3 after:transition-all peer-checked:bg-blue-600"></div>
+            </label>
+          </div>
+
+          <div className="p-2.5 rounded-lg bg-slate-800/60 border border-slate-700/60 flex items-center justify-between">
+            <div>
+              <p className="font-semibold text-white">Publicidad Educativa (AdSense)</p>
+              <p className="text-[11px] text-slate-400">Sostiene la gratuidad de KUSKAT</p>
+            </div>
+            <label className="relative inline-flex items-center cursor-pointer">
+              <input
+                type="checkbox"
+                checked={adsEnabled}
+                onChange={e => setAdsEnabled(e.target.checked)}
                 className="sr-only peer"
               />
               <div className="w-8 h-4 bg-slate-700 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-3 after:w-3 after:transition-all peer-checked:bg-blue-600"></div>

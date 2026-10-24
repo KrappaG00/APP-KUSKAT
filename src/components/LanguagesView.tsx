@@ -62,6 +62,11 @@ import LanguageBasicsGenericView from './LanguageBasicsGenericView';
 import LanguageVocabularyGenericView from './LanguageVocabularyGenericView';
 import { getLanguageTheory } from '../data/categoryTheoryData';
 import { CategoryTheoryView } from './CategoryTheoryView';
+<<<<<<< Updated upstream
+=======
+import { LanguageSwitcher } from './LanguageSwitcher';
+import { playAudioSpeech } from '../utils/audioSpeechHelper';
+>>>>>>> Stashed changes
 
 interface LanguageReferenceSource {
   code: string;
@@ -242,7 +247,7 @@ const LANGUAGE_REFERENCES: Record<string, LanguageReferencesConfig> = {
 };
 
 interface LanguagesViewProps {
-  onEnterSimulatorWithCategory?: (category: 'INGLES') => void;
+  onEnterSimulatorWithCategory?: (category: 'INGLES', languageId?: string) => void;
 }
 
 export default function LanguagesView({ onEnterSimulatorWithCategory }: LanguagesViewProps) {
@@ -257,6 +262,10 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
 
   // Nivel del MCER / CEFR activo
   const [selectedLevel, setSelectedLevel] = useState<CEFRLevel>('A1');
+
+  // Modo de Inmersión Total para niveles intermedios y avanzados (B1, B2, C1, C2)
+  const [immersionMode, setImmersionMode] = useState<boolean>(true);
+  const isEnglishImmersion = selectedLanguageId === 'english' && ['B1', 'B2', 'C1', 'C2'].includes(selectedLevel);
 
   // Filtro de búsqueda en vocabulario comparativo
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -961,14 +970,34 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
 
           {/* Acordeón de las 20 Lecciones Teóricas Detalladas */}
           <div className="space-y-3">
-            <div className="flex items-center justify-between px-1">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 px-1">
               <h3 className="text-base font-bold text-slate-900 flex items-center gap-2">
                 <Layers className="w-4 h-4 text-blue-600" />
-                <span>Lecciones Desarrolladas ({filteredLessons.length} disponibles):</span>
+                <span>
+                  {isEnglishImmersion
+                    ? `Master Lessons (${filteredLessons.length} available):`
+                    : `Lecciones Desarrolladas (${filteredLessons.length} disponibles):`}
+                </span>
               </h3>
-              <span className="text-xs text-slate-500 font-mono">
-                {currentLevelInfo.grammarLessons.length} clases totales en {currentLevelInfo.level}
-              </span>
+              <div className="flex items-center gap-2">
+                {isEnglishImmersion && (
+                  <button
+                    type="button"
+                    onClick={() => setImmersionMode(!immersionMode)}
+                    className={`px-2.5 py-1 rounded-xl text-xs font-bold transition-all border cursor-pointer ${
+                      immersionMode
+                        ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
+                        : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-50'
+                    }`}
+                    title="Alternar entre inmersión 100% en inglés y soporte bilingüe"
+                  >
+                    {immersionMode ? '🇬🇧 English Immersion (Active)' : '🇪🇸 Bilingual Support'}
+                  </button>
+                )}
+                <span className="text-xs text-slate-500 font-mono">
+                  {currentLevelInfo.grammarLessons.length} {isEnglishImmersion ? 'classes in' : 'clases totales en'} {currentLevelInfo.level}
+                </span>
+              </div>
             </div>
 
             {filteredLessons.map((lesson, idx) => {
@@ -999,7 +1028,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                           </span>
                           <span className="text-[10px] font-bold bg-blue-50 text-blue-700 px-2 py-0.5 rounded-md border border-blue-200 font-mono flex items-center gap-1">
                             <BookOpen className="w-3 h-3 text-blue-600" />
-                            {words.toLocaleString()} palabras (≥500 ✓)
+                            {words.toLocaleString()} {isEnglishImmersion ? 'words (≥500 ✓)' : 'palabras (≥500 ✓)'}
                           </span>
                         </div>
                         <p className="text-xs text-slate-500 mt-0.5 line-clamp-1">{lesson.summary}</p>
@@ -1018,7 +1047,11 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                         <div className="bg-slate-50/90 border border-slate-200 rounded-2xl p-4 sm:p-5 space-y-2">
                           <h5 className="font-bold text-xs uppercase tracking-wider text-slate-800 flex items-center gap-2">
                             <FileText className="w-4 h-4 text-blue-600" />
-                            <span>Teoría Gramatical Profunda y Análisis Lingüístico:</span>
+                            <span>
+                              {isEnglishImmersion
+                                ? 'In-Depth Grammatical Theory & Linguistic Analysis:'
+                                : 'Teoría Gramatical Profunda y Análisis Lingüístico:'}
+                            </span>
                           </h5>
                           <div className="text-xs sm:text-sm text-slate-700 leading-relaxed space-y-2.5 text-justify">
                             {lesson.detailedExplanation.split('\n\n').map((paragraph, pIdx) => (
@@ -1032,7 +1065,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                       {lesson.formula && (
                         <div className="bg-blue-50/70 border border-blue-200 rounded-2xl p-3 sm:p-4 text-blue-950 font-mono">
                           <span className="block text-[10px] font-bold uppercase tracking-wider text-blue-700 mb-1 font-sans">
-                            Estructura Sintáctica / Fórmula:
+                            {isEnglishImmersion ? 'Syntactic Structure / Formula:' : 'Estructura Sintáctica / Fórmula:'}
                           </span>
                           <strong>{lesson.formula}</strong>
                         </div>
@@ -1041,7 +1074,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                       {/* Reglas Gramaticales */}
                       <div className="space-y-2">
                         <h5 className="font-bold text-xs uppercase tracking-wider text-slate-700">
-                          Reglas Gramaticales Oficiales:
+                          {isEnglishImmersion ? 'Official Grammatical Rules:' : 'Reglas Gramaticales Oficiales:'}
                         </h5>
                         <ul className="space-y-1.5 text-slate-700 bg-slate-50 p-4 rounded-2xl border border-slate-200/80">
                           {lesson.rules.map((rule, rIdx) => (
@@ -1053,55 +1086,105 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                         </ul>
                       </div>
 
-                      {/* Ejemplos Contrastados US vs. UK */}
+                      {/* Ejemplos Contrastados US vs. UK con Audio */}
                       <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                         <div className="bg-emerald-50/60 border border-emerald-200/80 rounded-2xl p-3.5">
-                          <h6 className="font-bold text-xs text-emerald-900 flex items-center gap-1.5 mb-2">
+                          <h6 className="font-bold text-xs text-emerald-900 flex items-center justify-between mb-2">
                             <span>
                               {selectedLanguageId === 'english'
-                                ? '🇺🇸 Ejemplos en American English:'
+                                ? (isEnglishImmersion ? '🇺🇸 American English Key Examples:' : '🇺🇸 Ejemplos en American English:')
                                 : `📖 Ejemplos Clave en ${currentLanguage.name}:`}
                             </span>
                           </h6>
-                          <ul className="space-y-1.5 text-xs text-slate-700 font-medium">
-                            {lesson.examplesUS.map((ex, exIdx) => (
-                              <li key={exIdx} className="leading-snug">“{ex}”</li>
-                            ))}
+                          <ul className="space-y-2 text-xs text-slate-700 font-medium">
+                            {lesson.examplesUS.map((ex, exIdx) => {
+                              const displayEx = (isEnglishImmersion && immersionMode) ? ex.replace(/\s*\([^)]+\)$/, '') : ex;
+                              const cleanForSpeech = ex.replace(/\s*\([^)]+\)$/, '');
+                              return (
+                                <li key={exIdx} className="flex items-start justify-between gap-2 leading-snug bg-white/70 p-2 rounded-xl border border-emerald-100">
+                                  <span>“{displayEx}”</span>
+                                  <button
+                                    type="button"
+                                    onClick={() => playAudioSpeech(cleanForSpeech, selectedLanguageId === 'english' ? 'en-US' : selectedLanguageId)}
+                                    className="text-emerald-700 hover:text-emerald-900 p-1 rounded-md hover:bg-emerald-100 transition-colors shrink-0 cursor-pointer"
+                                    title="Escuchar audio"
+                                  >
+                                    <Volume2 className="w-3.5 h-3.5" />
+                                  </button>
+                                </li>
+                              );
+                            })}
                           </ul>
                         </div>
 
                         <div className="bg-rose-50/60 border border-rose-200/80 rounded-2xl p-3.5">
-                          <h6 className="font-bold text-xs text-rose-900 flex items-center gap-1.5 mb-2">
+                          <h6 className="font-bold text-xs text-rose-900 flex items-center justify-between mb-2">
                             <span>
                               {selectedLanguageId === 'english'
-                                ? '🇬🇧 Ejemplos en British English:'
+                                ? (isEnglishImmersion ? '🇬🇧 British English Key Examples:' : '🇬🇧 Ejemplos en British English:')
                                 : '🇸🇻 Traducción y Explicación en Español Salvadoreño:'}
                             </span>
                           </h6>
-                          <ul className="space-y-1.5 text-xs text-slate-700 font-medium">
-                            {lesson.examplesUK.map((ex, exIdx) => (
-                              <li key={exIdx} className="leading-snug">“{ex}”</li>
-                            ))}
+                          <ul className="space-y-2 text-xs text-slate-700 font-medium">
+                            {lesson.examplesUK.map((ex, exIdx) => {
+                              const displayEx = (isEnglishImmersion && immersionMode) ? ex.replace(/\s*\([^)]+\)$/, '') : ex;
+                              const cleanForSpeech = ex.replace(/\s*\([^)]+\)$/, '');
+                              return (
+                                <li key={exIdx} className="flex items-start justify-between gap-2 leading-snug bg-white/70 p-2 rounded-xl border border-rose-100">
+                                  <span>“{displayEx}”</span>
+                                  <button
+                                    type="button"
+                                    onClick={() => playAudioSpeech(cleanForSpeech, selectedLanguageId === 'english' ? 'en-GB' : 'es-SV')}
+                                    className="text-rose-700 hover:text-rose-900 p-1 rounded-md hover:bg-rose-100 transition-colors shrink-0 cursor-pointer"
+                                    title="Escuchar audio"
+                                  >
+                                    <Volume2 className="w-3.5 h-3.5" />
+                                  </button>
+                                </li>
+                              );
+                            })}
                           </ul>
                         </div>
                       </div>
 
-                      {/* Diálogo Práctico Contextualizado */}
+                      {/* Diálogo Práctico Contextualizado con Audio y Soporte de Inmersión */}
                       {lesson.practicalDialogue && lesson.practicalDialogue.length > 0 && (
                         <div className="bg-indigo-50/60 border border-indigo-200/80 rounded-2xl p-4 space-y-3">
-                          <h6 className="font-bold text-xs text-indigo-950 flex items-center gap-2">
-                            <MessageSquare className="w-4 h-4 text-indigo-600" />
-                            <span>Diálogo Práctico Contextualizado:</span>
-                          </h6>
+                          <div className="flex items-center justify-between">
+                            <h6 className="font-bold text-xs text-indigo-950 flex items-center gap-2">
+                              <MessageSquare className="w-4 h-4 text-indigo-600" />
+                              <span>{isEnglishImmersion ? 'Contextualized Practical Dialogue:' : 'Diálogo Práctico Contextualizado:'}</span>
+                            </h6>
+                            {isEnglishImmersion && (
+                              <span className="text-[10px] font-bold bg-indigo-100 text-indigo-800 px-2 py-0.5 rounded-full border border-indigo-200">
+                                🇬🇧 Pure English Immersion
+                              </span>
+                            )}
+                          </div>
                           <div className="space-y-2">
                             {lesson.practicalDialogue.map((turn, dIdx) => (
                               <div key={dIdx} className="bg-white/80 border border-indigo-100 rounded-xl p-2.5 sm:p-3 text-xs">
-                                <div className="flex items-center gap-1.5 font-bold text-indigo-900 mb-1">
-                                  <span className="w-2 h-2 rounded-full bg-indigo-500"></span>
-                                  <span>{turn.speaker}:</span>
+                                <div className="flex items-center justify-between gap-1.5 font-bold text-indigo-900 mb-1">
+                                  <div className="flex items-center gap-1.5">
+                                    <span className="w-2 h-2 rounded-full bg-indigo-500"></span>
+                                    <span>{turn.speaker}:</span>
+                                  </div>
+                                  <button
+                                    type="button"
+                                    onClick={() => {
+                                      const isUK = turn.speaker.toLowerCase().includes('uk') || turn.speaker.toLowerCase().includes('emma') || turn.speaker.toLowerCase().includes('charlotte');
+                                      playAudioSpeech(turn.text, selectedLanguageId === 'english' ? (isUK ? 'en-GB' : 'en-US') : selectedLanguageId);
+                                    }}
+                                    className="text-indigo-600 hover:text-indigo-900 p-1 rounded-md hover:bg-indigo-100 transition-colors cursor-pointer"
+                                    title="Escuchar audio"
+                                  >
+                                    <Volume2 className="w-3.5 h-3.5" />
+                                  </button>
                                 </div>
                                 <p className="text-slate-900 font-medium italic pl-3.5">“{turn.text}”</p>
-                                <p className="text-slate-500 text-[11px] mt-0.5 pl-3.5">({turn.translation})</p>
+                                {(!isEnglishImmersion || !immersionMode) && (
+                                  <p className="text-slate-500 text-[11px] mt-0.5 pl-3.5">({turn.translation})</p>
+                                )}
                               </div>
                             ))}
                           </div>
@@ -1113,7 +1196,7 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                         <div className="bg-amber-50/60 border border-amber-200/80 rounded-2xl p-3.5">
                           <h6 className="font-bold text-xs text-amber-900 flex items-center gap-1.5 mb-2">
                             <XCircle className="w-3.5 h-3.5 text-amber-600" />
-                            <span>Errores Frecuentes y Cómo Evitarlos:</span>
+                            <span>{isEnglishImmersion ? 'Common Mistakes & How to Avoid Them:' : 'Errores Frecuentes y Cómo Evitarlos:'}</span>
                           </h6>
                           <ul className="space-y-1.5 text-xs text-amber-950">
                             {lesson.commonMistakes.map((mistake, mIdx) => (
@@ -1672,6 +1755,19 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                 <p className="text-xs sm:text-sm text-slate-600 mt-1 max-w-3xl">
                   Personaliza tu sesión de entrenamiento: selecciona el <strong>idioma</strong>, <strong>área o nivel MCER</strong>, la <strong>cantidad de preguntas</strong> (hasta 400 por nivel o banco completo de 2,400) y la <strong>modalidad</strong> de evaluación.
                 </p>
+                {onEnterSimulatorWithCategory && (
+                  <div className="mt-2.5">
+                    <button
+                      type="button"
+                      onClick={() => onEnterSimulatorWithCategory('INGLES', selectedLanguageId)}
+                      className="inline-flex items-center gap-1.5 py-1.5 px-3 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-bold transition-all shadow-xs cursor-pointer"
+                      title={`Abrir ${currentLanguage.name} en el Simulador Global con cronómetro y solucionario`}
+                    >
+                      <Zap className="w-3.5 h-3.5" />
+                      <span>Abrir {currentLanguage.name} en Simulador Global</span>
+                    </button>
+                  </div>
+                )}
               </div>
 
               {/* Marcador de Puntaje en Vivo */}

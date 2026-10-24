@@ -1424,7 +1424,7 @@
       },
       {
         "key": "B",
-        "text": "CL"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -1464,7 +1464,7 @@
       },
       {
         "key": "D",
-        "text": "CD"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -1496,7 +1496,7 @@
       },
       {
         "key": "D",
-        "text": "CM"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -1744,7 +1744,7 @@
       },
       {
         "key": "B",
-        "text": "CL"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -1776,7 +1776,7 @@
       },
       {
         "key": "B",
-        "text": "CD"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -1816,7 +1816,7 @@
       },
       {
         "key": "D",
-        "text": "CM"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -2064,7 +2064,7 @@
       },
       {
         "key": "B",
-        "text": "CL"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -2096,7 +2096,7 @@
       },
       {
         "key": "B",
-        "text": "CD"
+        "text": "Ninguna de las anteriores"
       },
       {
         "key": "C",
@@ -2136,7 +2136,7 @@
       },
       {
         "key": "D",
-        "text": "CM"
+        "text": "Ninguna de las anteriores"
       }
     ],
     "correctAnswer": "A",
@@ -3664,7 +3664,7 @@
       },
       {
         "key": "B",
-        "text": "$\\$85.00$"
+        "text": "$86$"
       },
       {
         "key": "C",
@@ -3728,7 +3728,7 @@
       },
       {
         "key": "B",
-        "text": "$\\$95.00$"
+        "text": "$96$"
       },
       {
         "key": "C",
@@ -3992,7 +3992,7 @@
       },
       {
         "key": "D",
-        "text": "$\\$75.00$"
+        "text": "$76$"
       }
     ],
     "correctAnswer": "A",
@@ -4304,7 +4304,7 @@
       },
       {
         "key": "B",
-        "text": "$\\$85.00$"
+        "text": "$86$"
       },
       {
         "key": "C",
@@ -4376,7 +4376,7 @@
       },
       {
         "key": "D",
-        "text": "$\\$95.00$"
+        "text": "$96$"
       }
     ],
     "correctAnswer": "C",
@@ -4624,7 +4624,7 @@
       },
       {
         "key": "B",
-        "text": "$\\$75.00$"
+        "text": "$76$"
       },
       {
         "key": "C",
@@ -4952,7 +4952,7 @@
       },
       {
         "key": "D",
-        "text": "$\\$85.00$"
+        "text": "$86$"
       }
     ],
     "correctAnswer": "C",
@@ -6452,7 +6452,7 @@
       },
       {
         "key": "C",
-        "text": "$50.24\\text{ m}$"
+        "text": "$51.24$"
       },
       {
         "key": "D",
@@ -6604,7 +6604,7 @@
     "options": [
       {
         "key": "A",
-        "text": "$12.56\\text{ m}$"
+        "text": "$13.56$"
       },
       {
         "key": "B",
@@ -6680,7 +6680,7 @@
       },
       {
         "key": "D",
-        "text": "$50.24\\text{ m}$"
+        "text": "$51.24$"
       }
     ],
     "correctAnswer": "C",
@@ -6832,7 +6832,7 @@
       },
       {
         "key": "B",
-        "text": "$12.56\\text{ m}$"
+        "text": "$13.56$"
       },
       {
         "key": "C",
@@ -6896,7 +6896,7 @@
       },
       {
         "key": "B",
-        "text": "$50.24\\text{ m}$"
+        "text": "$51.24$"
       },
       {
         "key": "C",
@@ -7052,7 +7052,7 @@
     "options": [
       {
         "key": "A",
-        "text": "$12.56\\text{ m}$"
+        "text": "$13.56$"
       },
       {
         "key": "B",
@@ -7128,7 +7128,7 @@
       },
       {
         "key": "D",
-        "text": "$50.24\\text{ m}$"
+        "text": "$51.24$"
       }
     ],
     "correctAnswer": "C",
@@ -7288,7 +7288,7 @@
       },
       {
         "key": "D",
-        "text": "$12.56\\text{ m}$"
+        "text": "$13.56$"
       }
     ],
     "correctAnswer": "A",
@@ -7344,7 +7344,7 @@
       },
       {
         "key": "B",
-        "text": "$50.24\\text{ m}$"
+        "text": "$51.24$"
       },
       {
         "key": "C",
@@ -7504,7 +7504,7 @@
       },
       {
         "key": "B",
-        "text": "$12.56\\text{ m}$"
+        "text": "$13.56$"
       },
       {
         "key": "C",
@@ -7572,7 +7572,7 @@
       },
       {
         "key": "C",
-        "text": "$50.24\\text{ m}$"
+        "text": "$51.24$"
       },
       {
         "key": "D",

@@ -15,6 +15,7 @@ import {
   RotateCcw,
 } from 'lucide-react';
 import { getLanguageBasics, LANGUAGES_CATALOG } from '../data/languages/languagesRegistry';
+import { playAudioSpeech } from '../utils/audioSpeechHelper';
 
 interface LanguageBasicsGenericViewProps {
   languageId: string;
@@ -28,18 +29,9 @@ export default function LanguageBasicsGenericView({ languageId }: LanguageBasics
   const [searchTerm, setSearchTerm] = useState<string>('');
   const [converterInput, setConverterInput] = useState<number>(12);
 
-  // Sintetizador de voz Web Speech API
+  // Sintetizador de voz Web Speech API robusto
   const speakText = (text: string) => {
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      if (languageId === 'german') utterance.lang = 'de-DE';
-      else if (languageId === 'arabic') utterance.lang = 'ar-SA';
-      else if (languageId === 'mandarin') utterance.lang = 'zh-CN';
-      else utterance.lang = 'es-SV'; // Para náhuat, lenca y kakawira usamos fonética
-      utterance.rate = 0.85;
-      window.speechSynthesis.speak(utterance);
-    }
+    playAudioSpeech(text, languageId);
   };
 
   if (!basicsData) {

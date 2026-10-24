@@ -25,6 +25,7 @@ import {
   fetchTop10000Words
 } from '../data/languages/englishTop10kData';
 import { VariantType } from '../data/languages/englishData';
+import { playAudioSpeech } from '../utils/audioSpeechHelper';
 
 interface EnglishTop10kViewProps {
   variant: VariantType;
@@ -65,15 +66,9 @@ export default function EnglishTop10kView({ variant }: EnglishTop10kViewProps) {
     };
   }, []);
 
-  // Pronunciación de voz nativa
+  // Pronunciación de voz nativa robusta
   const speakText = (text: string) => {
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = variant === 'UK' ? 'en-GB' : 'en-US';
-      utterance.rate = 0.85;
-      window.speechSynthesis.speak(utterance);
-    }
+    playAudioSpeech(text, variant === 'UK' ? 'en-GB' : 'en-US');
   };
 
   // Extraer lista única de categorías gramaticales

@@ -19,13 +19,29 @@ export const INSTITUTIONS_LIST: { id: Institution; name: string }[] = [
   { id: 'INGLES', name: 'Idiomas & Inglés Internacional (A1-C2)' }
 ];
 
+export type ScoringMode = 'strict' | 'standard' | 'direct';
+
 /**
- * Regla de puntaje oficial KUSKAT:
- * Por cada respuesta correcta: +1 punto.
- * Por cada respuesta equivocada: -2 puntos.
- * El tope más bajo es 0 (no se permiten puntajes negativos).
+ * Regla de puntaje KUSKAT:
+ * - 'strict' (Clásico KUSKAT): +1 por acierto, -2 por error, tope en 0.
+ * - 'standard' (Psicométrico / Estandarizado SAT/UES): Aciertos - (Errores / (k - 1)), tope en 0.
+ * - 'direct' (Sin penalización): +1 por acierto, 0 por error.
  */
-export function calculateScorePoints(correct: number, incorrect: number): number {
+export function calculateScorePoints(
+  correct: number,
+  incorrect: number,
+  mode: ScoringMode = 'strict',
+  optionsCount = 4
+): number {
+  if (mode === 'direct') {
+    return Math.max(0, correct);
+  }
+  if (mode === 'standard') {
+    const k = Math.max(2, optionsCount);
+    const penaltyPerError = 1 / (k - 1);
+    const points = correct - incorrect * penaltyPerError;
+    return Math.max(0, Math.round(points * 100) / 100);
+  }
   const points = (correct * 1) - (incorrect * 2);
   return Math.max(0, points);
 }

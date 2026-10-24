@@ -27,6 +27,7 @@ import {
   EverydayObject
 } from '../data/languages/englishBasicsData';
 import { VariantType } from '../data/languages/englishData';
+import { playAudioSpeech } from '../utils/audioSpeechHelper';
 
 interface EnglishBasicsViewProps {
   variant: VariantType;
@@ -36,15 +37,9 @@ export default function EnglishBasicsView({ variant }: EnglishBasicsViewProps) {
   // Pestaña activa en Fundamentos: alphabet | numbers | colors | objects
   const [activeTab, setActiveTab] = useState<'alphabet' | 'numbers' | 'colors' | 'objects'>('alphabet');
 
-  // Sintetizador de voz nativo Web Speech API
+  // Sintetizador de voz nativo Web Speech API robusto
   const speakText = (text: string) => {
-    if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
-      window.speechSynthesis.cancel();
-      const utterance = new SpeechSynthesisUtterance(text);
-      utterance.lang = variant === 'UK' ? 'en-GB' : 'en-US';
-      utterance.rate = 0.85;
-      window.speechSynthesis.speak(utterance);
-    }
+    playAudioSpeech(text, variant === 'UK' ? 'en-GB' : 'en-US');
   };
 
   // =========================================================================

@@ -1,0 +1,18 @@
+# KUSKAT - Plataforma Salvadoreña de Excelencia Académica y Científica (kuskates.com)
+# Políticas de rastreo para motores de búsqueda y verificadores de calidad publicitaria
+
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+Disallow: /data/*.tex
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: *
+Allow: /
+Disallow: /data/*.tex
+
+Sitemap: https://kuskates.com/sitemap.xml

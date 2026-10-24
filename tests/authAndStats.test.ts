@@ -3,7 +3,7 @@ import { calculateScorePoints, isDateInTimeframe, getLeaderboard, getTopOnePerIn
 import { registerUser, loginUser, getCurrentUser, logoutUser, hashPassword } from '../src/services/authService';
 
 describe('Servicio de Puntuación KUSKAT (+1 por acierto, -2 por error, tope 0)', () => {
-  it('otorga +1 por cada acierto y -2 por cada error', () => {
+  it('otorga +1 por cada acierto y -2 por cada error en modo estricto por defecto', () => {
     // 10 correctas (10) - 2 equivocadas (4) = 6 puntos
     expect(calculateScorePoints(10, 2)).toBe(6);
   });
@@ -19,6 +19,15 @@ describe('Servicio de Puntuación KUSKAT (+1 por acierto, -2 por error, tope 0)'
 
   it('calcula correctamente exámenes perfectos', () => {
     expect(calculateScorePoints(100, 0)).toBe(100);
+  });
+
+  it('calcula puntaje psicométrico estándar con corrección por azar (1/3 por error para 4 opciones)', () => {
+    // 60 correctas, 40 errores -> 60 - 40/3 = 60 - 13.33 = 46.67 puntos
+    expect(calculateScorePoints(60, 40, 'standard', 4)).toBe(46.67);
+  });
+
+  it('calcula puntaje en modo directo sin penalización', () => {
+    expect(calculateScorePoints(75, 25, 'direct')).toBe(75);
   });
 });
 

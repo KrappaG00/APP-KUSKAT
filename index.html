@@ -3,20 +3,92 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>KUSKAT - By YEFERSON E. PEREZ</title>
-    <meta name="description" content="KUSKAT: Plataforma académica de bancos de preguntas, simuladores interactivos y exportador LaTeX para admisión universitaria (UES) y Academia Nacional de Seguridad Pública (ANSP)." />
+    <title>KUSKAT - By YEFERSON E. PEREZ | Plataforma Salvadoreña de Excelencia Académica y Científica</title>
+    <meta name="description" content="KUSKAT: Plataforma académica de acceso libre financiada exclusivamente mediante publicidad no intrusiva. Simuladores interactivos oficiales (UES, AVANZO, Escalafón Docente, ANSP, ENA), Refuerzo Curricular MINED-ESMATE (1° Grado a Bachillerato) paso a paso, cursos técnicos INCAF y rescate de lenguas ancestrales (Náhuat, Lenca, Kakawira)." />
+    <meta name="keywords" content="KUSKAT, El Salvador, MINED, ESMATE, AVANZO, admisión UES, Escalafón Docente, ANSP, ENA, cursos técnicos INCAF, Náhuat, Lenca, Kakawira, simuladores de examen" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <link rel="canonical" href="https://kuskates.com/" />
+
+    <!-- Open Graph / Social SEO -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_SV" />
+    <meta property="og:site_name" content="KUSKAT El Salvador" />
+    <meta property="og:title" content="KUSKAT - Plataforma Salvadoreña de Excelencia Académica y Científica" />
+    <meta property="og:description" content="Acceso 100% gratuito a simuladores de admisión (UES, AVANZO, Escalafón, ANSP), refuerzo escolar MINED-ESMATE paso a paso y formación técnica vocacional." />
+    <meta property="og:url" content="https://kuskates.com/" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="KUSKAT - Plataforma Educativa de El Salvador" />
+    <meta name="twitter:description" content="Refuerzo curricular MINED, simuladores oficiales de admisión y rescate lingüístico ancestral 100% gratuito." />
+
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="image" href="/kuskat_logo.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Montenegrin+Gothic+One&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Montenegrin+Gothic+One&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Google Consent Mode v2 Default Configuration (Pre-AdSense) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      (function() {
+        var savedConsent = null;
+        try {
+          var raw = localStorage.getItem('kuskat_cookie_consent_v1');
+          if (raw) savedConsent = JSON.parse(raw);
+        } catch (e) {}
+        var adsGranted = savedConsent && savedConsent.ads === true ? 'granted' : 'denied';
+        var analyticsGranted = savedConsent && savedConsent.analytics === true ? 'granted' : 'denied';
+        gtag('consent', 'default', {
+          'ad_storage': adsGranted,
+          'ad_user_data': adsGranted,
+          'ad_personalization': adsGranted,
+          'analytics_storage': analyticsGranted,
+          'functionality_storage': 'granted',
+          'security_storage': 'granted',
+          'wait_for_update': 500
+        });
+      })();
+    </script>
+
     <!-- Google AdSense Oficial KUSKAT -->
+    <meta name="google-adsense-account" content="ca-pub-4241045160320459" />
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4241045160320459"
      crossorigin="anonymous"></script>
+
+    <!-- JSON-LD Structured Data for Educational SEO -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "EducationalOrganization",
+            "@id": "https://kuskates.com/#organization",
+            "name": "KUSKAT - Plataforma Salvadoreña de Excelencia Académica y Científica",
+            "url": "https://kuskates.com/",
+            "areaServed": {
+              "@type": "Country",
+              "name": "El Salvador"
+            },
+            "knowsLanguage": ["es", "ppl", "len", "ccr", "en", "ar", "zh"],
+            "description": "Plataforma educativa de acceso libre financiada exclusivamente mediante publicidad no intrusiva para el refuerzo curricular MINED-ESMATE, exámenes de admisión (UES, AVANZO, ANSP, ENA, Escalafón) y cursos técnicos vocacionales."
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://kuskates.com/#website",
+            "url": "https://kuskates.com/",
+            "name": "KUSKAT El Salvador",
+            "publisher": {
+              "@id": "https://kuskates.com/#organization"
+            },
+            "inLanguage": "es-SV"
+          }
+        ]
+      }
+    </script>
   </head>
-  <body class="bg-slate-50 text-slate-900 antialiased font-caslon">
+  <body class="bg-[#FAF9F5] text-[#111625] antialiased selection:bg-[#0B1B3D] selection:text-white">
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

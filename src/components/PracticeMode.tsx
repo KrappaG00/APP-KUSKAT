@@ -30,6 +30,7 @@ import {
   ShieldCheck,
   Globe,
   Scale,
+  Brain,
 } from 'lucide-react';
 import { Institution, Question, SubjectMeta, SubtopicMeta, PedagogicalLevel, EvaluationMode } from '../types';
 import {
@@ -43,32 +44,44 @@ import { convertToTrueFalse, TrueFalseItem } from '../utils/trueFalseHelper';
 import { LeaderboardSection } from './LeaderboardSection';
 import { AdBanner } from './AdBanner';
 import { saveExamResult } from '../services/statsService';
+import { logQuestionError } from '../services/errorLogService';
+import { SmartErrorNotebookModal } from './SmartErrorNotebookModal';
 import { getCurrentUser } from '../services/authService';
 
 interface PracticeModeProps {
   initialQuestions?: Question[] | null;
   initialTitle?: string | null;
+  initialCategory?: 'ALL' | Institution;
+  initialLanguageFilter?: 'ALL' | 'ingles' | 'nahuat' | 'lenca' | 'kakawira' | 'german' | 'arabic' | 'mandarin';
   onExportLatex?: (questions: Question[], title: string) => void;
   onBackToCategories?: () => void;
   onOpenAccountModal?: () => void;
+  onQuizActiveChange?: (isActive: boolean) => void;
   showToast: (msg: string) => void;
 }
 
 export const PracticeMode: React.FC<PracticeModeProps> = ({
   initialQuestions,
   initialTitle,
+  initialCategory,
+  initialLanguageFilter,
   onExportLatex,
   onBackToCategories,
   onOpenAccountModal,
+  onQuizActiveChange,
   showToast,
 }) => {
+<<<<<<< Updated upstream
+=======
+  const { translateQuestion, t } = useLanguage();
+>>>>>>> Stashed changes
   // Malla curricular para el configurador
   const [subjects, setSubjects] = useState<SubjectMeta[]>([]);
   const [loadingCurriculum, setLoadingCurriculum] = useState<boolean>(true);
 
   // Filtros del configurador de tests
-  const [selectedCategory, setSelectedCategory] = useState<'ALL' | Institution>('ALL');
-  const [selectedLanguageFilter, setSelectedLanguageFilter] = useState<'ALL' | 'ingles' | 'nahuat' | 'lenca' | 'kakawira' | 'german' | 'arabic' | 'mandarin'>('ALL');
+  const [selectedCategory, setSelectedCategory] = useState<'ALL' | Institution>(initialCategory || 'ALL');
+  const [selectedLanguageFilter, setSelectedLanguageFilter] = useState<'ALL' | 'ingles' | 'nahuat' | 'lenca' | 'kakawira' | 'german' | 'arabic' | 'mandarin'>(initialLanguageFilter || 'ALL');
   const [selectedSubjectId, setSelectedSubjectId] = useState<string>('ALL');
   const [selectedSubtopicId, setSelectedSubtopicId] = useState<string>('ALL');
   const [selectedSectionTitle, setSelectedSectionTitle] = useState<string>('ALL');
@@ -95,6 +108,12 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
   const [quizFinished, setQuizFinished] = useState<boolean>(false);
   const [secondsRemaining, setSecondsRemaining] = useState<number>(0);
   const [totalExamSeconds, setTotalExamSeconds] = useState<number>(0);
+  const [isErrorNotebookOpen, setIsErrorNotebookOpen] = useState<boolean>(false);
+
+  // Notificar al componente superior si hay un examen en progreso
+  useEffect(() => {
+    onQuizActiveChange?.(quizActive && !quizFinished);
+  }, [quizActive, quizFinished, onQuizActiveChange]);
 
   // Carga de currículo al montar
   useEffect(() => {
@@ -210,6 +229,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         sectionTitle: selectedSectionTitle !== 'ALL' ? selectedSectionTitle : undefined,
         level: selectedLevel !== 'ALL' ? selectedLevel : undefined,
         count: questionCount,
+        languageId: selectedCategory === 'INGLES' ? selectedLanguageFilter : undefined,
       });
 
       if (pool.length === 0) {
@@ -310,8 +330,34 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
       if (!confirmSubmit) return;
     }
 
+    // Registrar automáticamente errores en el Cuaderno Inteligente
+    let loggedCount = 0;
+    quizQuestions.forEach((q, idx) => {
+      const userAns = userAnswers[idx];
+      if (userAns !== q.correctAnswer) {
+        const optionsMap: Record<string, string> = {};
+        q.options.forEach((opt) => {
+          optionsMap[opt.key] = opt.text;
+        });
+        logQuestionError({
+          questionId: q.id,
+          questionText: q.statement,
+          categoryKey: q.institution ? `${q.institution} • ${q.subject || ''}` : 'Simulador General',
+          selectedAnswer: userAns || '(Sin contestar)',
+          correctAnswer: q.correctAnswer,
+          options: optionsMap,
+          explanation: q.explanation || 'Explicación oficial no provista.',
+        });
+        loggedCount++;
+      }
+    });
+
     setQuizFinished(true);
-    showToast('Examen calificado exitosamente.');
+    if (loggedCount > 0) {
+      showToast(`Examen calificado. Se registraron ${loggedCount} reactivo(s) en tu Cuaderno de Errores para remediación.`);
+    } else {
+      showToast('¡Felicidades! Examen perfecto, 100% de aciertos.');
+    }
   };
 
   // Alternar reactivo similar para remediación
@@ -841,22 +887,22 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         {/* 1 Anuncio Arriba del Simulador */}
         <AdBanner variant="light" positionLabel="Simulador • 1 Arriba" slotId="4241045160_s_top" />
 
-        <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-9 shadow-xs space-y-6">
+        <div className="bg-white border border-[#E5E3D8] rounded-xl p-6 sm:p-9 shadow-corporate-card space-y-6">
           {/* Cabecera */}
-          <div className="text-center space-y-2.5">
-            <div className="w-16 h-16 rounded-2xl bg-gradient-to-tr from-amber-500 via-orange-500 to-amber-600 text-white flex items-center justify-center mx-auto shadow-md shadow-amber-500/20">
-              <Award className="w-8 h-8" />
+          <div className="text-center space-y-2.5 font-sans-ui">
+            <div className="w-14 h-14 rounded-lg bg-[#0B1B3D] border border-[#C59B27]/40 text-[#C59B27] flex items-center justify-center mx-auto shadow-corporate-subtle">
+              <Award className="w-7 h-7 text-[#C59B27]" />
             </div>
-            <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+            <h2 className="text-2xl sm:text-3xl font-editorial font-bold text-[#111625] tracking-tight">
               Simulador Maestro de Tests KUSKAT
             </h2>
-            <p className="text-xs sm:text-sm text-slate-500 max-w-lg mx-auto leading-relaxed">
-              Genera exámenes de evaluación aleatorios sobre el banco maestro de <strong className="text-slate-800">34,440 preguntas</strong>.
+            <p className="text-xs sm:text-sm text-[#475569] max-w-lg mx-auto leading-relaxed">
+              Genera exámenes de evaluación aleatorios sobre el banco maestro de <strong className="text-[#0B1B3D] font-bold">34,440 preguntas</strong>.
               Configura por tipo institucional, materia académica, unidad temática o sección.
             </p>
           </div>
 
-          <div className="space-y-5 pt-2 border-t border-slate-100">
+          <div className="space-y-5 pt-2 border-t border-[#E5E3D8]">
             {/* ============================================================ */}
             {/* 1. SELECTOR DE CATEGORÍA / TIPO INSTITUCIONAL */}
             {/* ============================================================ */}
@@ -1383,17 +1429,17 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
             <button
               onClick={handleStartGeneratedQuiz}
               disabled={loadingPool}
-              className="w-full py-4 bg-gradient-to-r from-blue-600 via-indigo-600 to-blue-700 hover:from-blue-700 hover:to-indigo-800 text-white font-extrabold rounded-2xl shadow-lg shadow-blue-500/25 transition-all flex items-center justify-center gap-2.5 text-sm sm:text-base cursor-pointer disabled:opacity-60"
+              className="w-full py-4 bg-[#0B1B3D] hover:bg-[#132A5C] text-[#FAF9F5] font-bold rounded-lg border border-[#1A2E5A] shadow-corporate-card transition-all flex items-center justify-center gap-2.5 text-sm sm:text-base cursor-pointer disabled:opacity-60 font-sans-ui"
             >
               {loadingPool ? (
                 <>
-                  <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
-                  <span>Extrayendo reactivos de la base de 7,750 preguntas...</span>
+                  <div className="w-4 h-4 border-2 border-[#C59B27] border-t-transparent rounded-full animate-spin" />
+                  <span className="font-mono-exam text-xs sm:text-sm">Extrayendo reactivos de la base de 34,440 preguntas...</span>
                 </>
               ) : (
                 <>
-                  <Play className="w-4 h-4 fill-white" />
-                  <span>Comenzar Simulador ({questionCount} Reactivos)</span>
+                  <Play className="w-4 h-4 fill-[#C59B27] text-[#C59B27]" />
+                  <span className="tracking-wide">{t('simulator.startExam')} ({questionCount})</span>
                 </>
               )}
             </button>
@@ -1412,27 +1458,27 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         <AdBanner variant="light" positionLabel="Simulador • 2/5 Inferior" slotId="4241045160_s_b2" />
 
         {/* Panel Informativo: Reglas del Sistema de Evaluación KUSKAT */}
-        <div className="bg-white border border-slate-200 rounded-3xl p-5 sm:p-6 shadow-xs space-y-3">
-          <div className="flex items-center gap-2 font-bold text-slate-900 text-sm">
-            <Sparkles className="w-4 h-4 text-amber-500" />
-            <span>Reglas y Metodología del Simulador Maestro KUSKAT</span>
+        <div className="bg-white border border-[#E5E3D8] rounded-xl p-5 sm:p-6 shadow-corporate-subtle space-y-3 font-sans-ui">
+          <div className="flex items-center gap-2 font-bold text-[#111625] text-sm">
+            <ShieldCheck className="w-4 h-4 text-[#0B1B3D]" />
+            <span className="font-editorial font-bold">Reglamento y Metodología del Simulador Maestro KUSKAT</span>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-1 text-xs">
-            <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100 space-y-1">
-              <span className="font-bold text-emerald-700 block">✓ Aciertos (+1 pt)</span>
-              <p className="text-slate-500 leading-relaxed">
-                Cada pregunta respondida correctamente suma +1 punto a tu historial y ranking.
+            <div className="p-3.5 bg-[#FAF9F5] rounded-lg border border-[#E5E3D8] space-y-1">
+              <span className="font-mono-exam font-bold text-[#1E7E34] text-xs block">Acierto Oficial (+1.0 pt)</span>
+              <p className="text-[#475569] leading-relaxed">
+                Cada pregunta respondida correctamente suma +1 punto a tu historial y ranking oficial.
               </p>
             </div>
-            <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100 space-y-1">
-              <span className="font-bold text-rose-700 block">✗ Errores (-2 pts)</span>
-              <p className="text-slate-500 leading-relaxed">
+            <div className="p-3.5 bg-[#FAF9F5] rounded-lg border border-[#E5E3D8] space-y-1">
+              <span className="font-mono-exam font-bold text-[#9E472A] text-xs block">Penalización por Error (-2.0 pts)</span>
+              <p className="text-[#475569] leading-relaxed">
                 Cada respuesta errónea descuenta -2 puntos. El límite mínimo acumulable es 0 puntos.
               </p>
             </div>
-            <div className="p-3 bg-slate-50 rounded-2xl border border-slate-100 space-y-1">
-              <span className="font-bold text-blue-700 block">📅 Ciclos de Clasificación</span>
-              <p className="text-slate-500 leading-relaxed">
+            <div className="p-3.5 bg-[#FAF9F5] rounded-lg border border-[#E5E3D8] space-y-1">
+              <span className="font-mono-exam font-bold text-[#0B1B3D] text-xs block">Ciclos de Baremo Institucional</span>
+              <p className="text-[#475569] leading-relaxed">
                 Ranking Diario, Mensual, Trimestral, Semestral y Anual. El ciclo anual se reinicia el 31 de diciembre.
               </p>
             </div>
@@ -1527,38 +1573,38 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 onClick={handleFinishQuiz}
                 className="px-3.5 py-1.5 text-xs font-bold text-white bg-rose-600 hover:bg-rose-700 rounded-xl shadow-xs transition-colors cursor-pointer"
               >
-                Entregar Test
+                {t('simulator.submitExam')}
               </button>
             </div>
           </div>
 
           {/* Barra de Progreso */}
-          <div className="w-full bg-slate-100 rounded-full h-2 overflow-hidden">
+          <div className="w-full bg-[#E5E3D8] rounded-full h-1.5 overflow-hidden">
             <div
-              className="bg-gradient-to-r from-blue-600 to-indigo-600 h-full rounded-full transition-all duration-300"
+              className="bg-[#0B1B3D] h-full rounded-full transition-all duration-300"
               style={{ width: `${Math.round(((currentIndex + 1) / quizQuestions.length) * 100)}%` }}
             />
           </div>
         </div>
 
-        {/* Tarjeta de la Pregunta Activa */}
+        {/* Tarjeta de la Pregunta Activa (Diseño de Cuadernillo Oficial de Admisión) */}
         {currentQ && (
-          <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-8 shadow-xs space-y-6">
+          <div className="bg-white border border-[#E5E3D8] rounded-xl p-6 sm:p-8 shadow-corporate-card space-y-6 font-sans-ui">
             {/* Metadatos y Marcado */}
-            <div className="flex items-center justify-between border-b border-slate-100 pb-3 text-xs gap-2">
-              <div className="flex items-center gap-2 flex-wrap text-slate-600">
-                <span className="font-bold text-slate-900 bg-slate-100 px-2 py-0.5 rounded-md">
+            <div className="flex items-center justify-between border-b border-[#EAE8DD] pb-3 text-xs gap-2">
+              <div className="flex items-center gap-2 flex-wrap text-[#5C6578]">
+                <span className="font-mono font-bold text-[#0B1B3D] bg-[#F4F3ED] px-2 py-0.5 rounded border border-[#E2E0D5]">
                   [{currentQ.institution}] {currentQ.subject}
                 </span>
-                <span className="hidden sm:inline">• {currentQ.topic}</span>
+                <span className="hidden sm:inline text-[#718096]">• {currentQ.topic}</span>
                 {currentQ.level && (
                   <span
-                    className={`text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-wider ${
+                    className={`text-[9.5px] font-mono font-bold px-2 py-0.5 rounded uppercase tracking-wider border ${
                       currentQ.level === 'basico'
-                        ? 'bg-emerald-100 text-emerald-800'
+                        ? 'bg-[#EBF7EE] text-[#1A7338] border-[#CCEBD4]'
                         : currentQ.level === 'intermedio'
-                        ? 'bg-blue-100 text-blue-800'
-                        : 'bg-purple-100 text-purple-800'
+                        ? 'bg-[#EBF3FC] text-[#1A5699] border-[#CCE0F7]'
+                        : 'bg-[#F5EDFC] text-[#692999] border-[#E4CEF7]'
                     }`}
                   >
                     {currentQ.level === 'basico'
@@ -1572,21 +1618,26 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
 
               <button
                 onClick={() => toggleMarkQuestion(currentIndex)}
-                className={`flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold transition-colors cursor-pointer ${
+                className={`flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-semibold transition-colors cursor-pointer border ${
                   isMarked
-                    ? 'bg-amber-100 text-amber-800 font-bold'
-                    : 'bg-slate-50 text-slate-500 hover:bg-slate-100'
+                    ? 'bg-[#FEF7EC] text-[#946200] border-[#F8DCAB] font-bold'
+                    : 'bg-[#FAF9F5] text-[#5C6578] border-[#E5E3D8] hover:bg-white hover:text-[#0B1B3D]'
                 }`}
                 title="Marcar pregunta para revisar luego"
               >
-                <Bookmark className={`w-3.5 h-3.5 ${isMarked ? 'fill-amber-600 text-amber-600' : ''}`} />
-                <span>{isMarked ? 'Marcada' : 'Marcar'}</span>
+                <Bookmark className={`w-3.5 h-3.5 ${isMarked ? 'fill-[#C59B27] text-[#C59B27]' : ''}`} />
+                <span>{isMarked ? t('simulator.marked') : t('simulator.markReview')}</span>
               </button>
             </div>
 
             {/* Enunciado con KaTeX */}
+<<<<<<< Updated upstream
             <div className="text-slate-900 text-base sm:text-lg leading-relaxed">
               <MathText text={currentQ.statement} />
+=======
+            <div className="text-[#111625] text-base sm:text-lg leading-relaxed font-normal">
+              <MathText text={translateQuestion(currentQ).statement} />
+>>>>>>> Stashed changes
             </div>
 
             {/* Opciones de Evaluación (Opción Múltiple vs Verdadero o Falso) */}
@@ -1599,62 +1650,62 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 return (
                   <div className="space-y-4 pt-1">
                     {/* Caja de Proposición destacada con KaTeX */}
-                    <div className="p-4 sm:p-5 rounded-2xl bg-indigo-50/70 border-2 border-indigo-200/90 space-y-2.5">
+                    <div className="p-4 sm:p-5 rounded-lg bg-[#FAF9F5] border border-[#E5E3D8] space-y-2.5">
                       <div className="flex items-center justify-between gap-2 flex-wrap text-xs">
-                        <span className="font-extrabold text-indigo-950 uppercase tracking-wider flex items-center gap-1.5">
-                          <Scale className="w-4 h-4 text-indigo-600" />
+                        <span className="font-bold text-[#0B1B3D] uppercase tracking-wider font-mono flex items-center gap-1.5">
+                          <Scale className="w-4 h-4 text-[#0B1B3D]" />
                           Proposición para Evaluar:
                         </span>
-                        <span className="text-[11px] font-semibold text-indigo-700 bg-white/90 px-2.5 py-0.5 rounded-full border border-indigo-200">
+                        <span className="text-[11px] font-medium text-[#5C6578] bg-white px-2.5 py-0.5 rounded border border-[#E2E0D5]">
                           Determina si el siguiente enunciado es Verdadero o Falso
                         </span>
                       </div>
-                      <div className="text-slate-900 text-base sm:text-lg font-medium leading-relaxed bg-white/95 p-4 rounded-xl border border-indigo-100 shadow-2xs">
+                      <div className="text-[#111625] text-base sm:text-lg font-medium leading-relaxed bg-white p-4 rounded-md border border-[#E5E3D8] shadow-corporate-subtle">
                         <MathText text={tf.presentedOptionText} />
                       </div>
                     </div>
 
                     {/* Botones de Selección Verdadero / Falso */}
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-1">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
                       {/* Botón VERDADERO */}
                       {(() => {
                         const isPicked = userPick === 'VERDADERO';
                         const isRight = expected === 'VERDADERO';
-                        let btnClass = 'bg-slate-50/80 border-slate-200 text-slate-800 hover:border-emerald-300 hover:bg-emerald-50/40';
+                        let btnClass = 'bg-white border-[#E5E3D8] text-[#111625] hover:border-[#0B1B3D] hover:bg-[#FAF9F5]';
 
                         if (tutorMode && isAnswered) {
                           if (isRight) {
-                            btnClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-400/30 shadow-xs';
+                            btnClass = 'bg-[#EBF7EE] border-[#1A7338] text-[#0E4F24] font-bold';
                           } else if (isPicked) {
-                            btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                            btnClass = 'bg-[#FCE8E6] border-[#C5221F] text-[#8C1515]';
                           } else {
-                            btnClass = 'bg-slate-50/40 border-slate-200 text-slate-400 opacity-60';
+                            btnClass = 'bg-[#FAF9F5] border-[#E5E3D8] text-[#8F99AD] opacity-60';
                           }
                         } else if (isPicked) {
-                          btnClass = 'bg-emerald-50 border-emerald-600 text-emerald-950 font-bold ring-2 ring-emerald-500/30 shadow-xs';
+                          btnClass = 'bg-[#F8F7F2] border-[#0B1B3D] text-[#0B1B3D] font-bold ring-1 ring-[#0B1B3D]';
                         }
 
                         return (
                           <button
                             type="button"
                             onClick={() => handleSelectOption('VERDADERO')}
-                            className={`p-4 rounded-2xl border-2 text-left transition-all flex items-center gap-3.5 cursor-pointer min-h-[58px] ${btnClass}`}
+                            className={`p-3.5 rounded-lg border text-left transition-all flex items-center gap-3 cursor-pointer min-h-[52px] shadow-corporate-subtle ${btnClass}`}
                           >
                             <span
-                              className={`w-9 h-9 rounded-xl font-bold flex items-center justify-center shrink-0 text-sm ${
+                              className={`w-7 h-7 rounded font-mono font-bold flex items-center justify-center shrink-0 text-xs border ${
                                 isPicked
-                                  ? 'bg-emerald-600 text-white'
-                                  : 'bg-emerald-100 text-emerald-800'
+                                  ? 'bg-[#0B1B3D] text-white border-[#0B1B3D]'
+                                  : 'bg-[#FAF9F5] text-[#1A7338] border-[#CCEBD4]'
                               }`}
                             >
                               ✓
                             </span>
                             <div className="flex-1">
-                              <span className="block text-base font-extrabold text-emerald-950">
+                              <span className="block text-sm font-bold">
                                 VERDADERO
                               </span>
-                              <span className="text-xs text-slate-500 font-normal">
-                                La afirmación planteada es correcta
+                              <span className="text-[11px] text-[#5C6578]">
+                                La proposición es académicamente válida
                               </span>
                             </div>
                           </button>
@@ -1665,41 +1716,41 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                       {(() => {
                         const isPicked = userPick === 'FALSO';
                         const isRight = expected === 'FALSO';
-                        let btnClass = 'bg-slate-50/80 border-slate-200 text-slate-800 hover:border-rose-300 hover:bg-rose-50/40';
+                        let btnClass = 'bg-white border-[#E5E3D8] text-[#111625] hover:border-[#0B1B3D] hover:bg-[#FAF9F5]';
 
                         if (tutorMode && isAnswered) {
                           if (isRight) {
-                            btnClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-bold ring-2 ring-emerald-400/30 shadow-xs';
+                            btnClass = 'bg-[#EBF7EE] border-[#1A7338] text-[#0E4F24] font-bold';
                           } else if (isPicked) {
-                            btnClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                            btnClass = 'bg-[#FCE8E6] border-[#C5221F] text-[#8C1515]';
                           } else {
-                            btnClass = 'bg-slate-50/40 border-slate-200 text-slate-400 opacity-60';
+                            btnClass = 'bg-[#FAF9F5] border-[#E5E3D8] text-[#8F99AD] opacity-60';
                           }
                         } else if (isPicked) {
-                          btnClass = 'bg-rose-50 border-rose-600 text-rose-950 font-bold ring-2 ring-rose-500/30 shadow-xs';
+                          btnClass = 'bg-[#F8F7F2] border-[#0B1B3D] text-[#0B1B3D] font-bold ring-1 ring-[#0B1B3D]';
                         }
 
                         return (
                           <button
                             type="button"
                             onClick={() => handleSelectOption('FALSO')}
-                            className={`p-4 rounded-2xl border-2 text-left transition-all flex items-center gap-3.5 cursor-pointer min-h-[58px] ${btnClass}`}
+                            className={`p-3.5 rounded-lg border text-left transition-all flex items-center gap-3 cursor-pointer min-h-[52px] shadow-corporate-subtle ${btnClass}`}
                           >
                             <span
-                              className={`w-9 h-9 rounded-xl font-bold flex items-center justify-center shrink-0 text-sm ${
+                              className={`w-7 h-7 rounded font-mono font-bold flex items-center justify-center shrink-0 text-xs border ${
                                 isPicked
-                                  ? 'bg-rose-600 text-white'
-                                  : 'bg-rose-100 text-rose-800'
+                                  ? 'bg-[#0B1B3D] text-white border-[#0B1B3D]'
+                                  : 'bg-[#FAF9F5] text-[#C5221F] border-[#FAD2CF]'
                               }`}
                             >
                               ✕
                             </span>
                             <div className="flex-1">
-                              <span className="block text-base font-extrabold text-rose-950">
+                              <span className="block text-sm font-bold">
                                 FALSO
                               </span>
-                              <span className="text-xs text-slate-500 font-normal">
-                                La afirmación planteada es incorrecta
+                              <span className="text-[11px] text-[#5C6578]">
+                                La proposición es refutable o incorrecta
                               </span>
                             </div>
                           </button>
@@ -1710,45 +1761,45 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 );
               })()
             ) : (
-              /* Opciones estándar A-D */
+              /* Opciones estándar A-D formato Examen de Estado */
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
                 {currentQ.options.map((opt) => {
                   const isSelected = userAnswers[currentIndex] === opt.key;
                   const isRight = currentQ.correctAnswer === opt.key;
 
-                  let optClass = 'bg-slate-50 border-slate-200 text-slate-800 hover:bg-slate-100';
+                  let optClass = 'bg-white border-[#E5E3D8] text-[#111625] hover:border-[#0B1B3D]/70 hover:bg-[#FAF9F5]';
 
                   // Si está en Modo Tutor y ya respondió esta pregunta
                   if (tutorMode && isAnswered) {
                     if (isRight) {
-                      optClass = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-semibold';
+                      optClass = 'bg-[#EBF7EE] border-[#1A7338] text-[#0E4F24] font-semibold';
                     } else if (isSelected) {
-                      optClass = 'bg-rose-50 border-rose-400 text-rose-950';
+                      optClass = 'bg-[#FCE8E6] border-[#C5221F] text-[#8C1515]';
                     } else {
-                      optClass = 'bg-slate-50/50 border-slate-200 text-slate-400 opacity-60';
+                      optClass = 'bg-[#FAF9F5] border-[#E5E3D8] text-[#8F99AD] opacity-60';
                     }
                   } else if (isSelected) {
-                    optClass = 'bg-blue-50 border-blue-600 text-blue-950 font-medium ring-2 ring-blue-500/20';
+                    optClass = 'bg-[#F8F7F2] border-[#0B1B3D] text-[#0B1B3D] font-medium ring-1 ring-[#0B1B3D]';
                   }
 
                   return (
                     <button
                       key={opt.key}
                       onClick={() => handleSelectOption(opt.key)}
-                      className={`p-3.5 rounded-xl border text-sm text-left transition-all flex items-start gap-3 cursor-pointer min-h-[44px] ${optClass}`}
+                      className={`p-3.5 rounded-lg border text-sm text-left transition-all flex items-start gap-3 cursor-pointer min-h-[48px] shadow-corporate-subtle ${optClass}`}
                     >
                       <span
-                        className={`w-6 h-6 rounded-lg font-mono text-xs font-bold flex items-center justify-center shrink-0 ${
+                        className={`w-7 h-7 rounded font-mono text-xs font-bold flex items-center justify-center shrink-0 border ${
                           tutorMode && isAnswered && isRight
-                            ? 'bg-emerald-600 text-white'
+                            ? 'bg-[#1A7338] text-white border-[#1A7338]'
                             : isSelected
-                            ? 'bg-blue-600 text-white'
-                            : 'bg-white border border-slate-300 text-slate-700'
+                            ? 'bg-[#0B1B3D] text-white border-[#0B1B3D]'
+                            : 'bg-[#FAF9F5] border-[#D5D3C8] text-[#0B1B3D]'
                         }`}
                       >
                         {opt.key}
                       </span>
-                      <div className="flex-1 break-words pt-0.5 leading-snug">
+                      <div className="flex-1 break-words pt-0.5 leading-relaxed text-[13.5px]">
                         <MathText text={opt.text} />
                       </div>
                     </button>
@@ -1823,7 +1874,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                 className="flex items-center gap-1.5 px-4 py-2.5 text-xs font-bold text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-xl disabled:opacity-40 cursor-pointer"
               >
                 <ArrowLeft className="w-4 h-4" />
-                <span>Anterior</span>
+                <span>{t('simulator.prevQuestion')}</span>
               </button>
 
               <div className="text-xs text-slate-400 font-medium">
@@ -1835,7 +1886,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   onClick={() => setCurrentIndex((i) => Math.min(quizQuestions.length - 1, i + 1))}
                   className="flex items-center gap-1.5 px-4 py-2.5 text-xs font-bold text-white bg-slate-900 hover:bg-slate-800 rounded-xl shadow-xs cursor-pointer"
                 >
-                  <span>Siguiente</span>
+                  <span>{t('simulator.nextQuestion')}</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
               ) : (
@@ -1843,7 +1894,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   onClick={handleFinishQuiz}
                   className="flex items-center gap-1.5 px-4 py-2.5 text-xs font-bold text-white bg-emerald-600 hover:bg-emerald-700 rounded-xl shadow-xs cursor-pointer"
                 >
-                  <span>Entregar Examen</span>
+                  <span>{t('simulator.submitExam')}</span>
                   <CheckCircle2 className="w-4 h-4" />
                 </button>
               )}
@@ -1929,66 +1980,81 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         slotId="4241045160_sr_top"
       />
 
-      {/* Tarjeta de Calificación y Desempeño */}
-      <div className="bg-white border border-slate-200 rounded-3xl p-6 sm:p-9 shadow-xs space-y-6 text-center">
-        <div
-          className={`w-20 h-20 rounded-3xl flex items-center justify-center mx-auto shadow-lg ${
-            percentage >= 70
-              ? 'bg-gradient-to-tr from-emerald-500 to-teal-600 text-white shadow-emerald-500/20'
-              : 'bg-gradient-to-tr from-rose-500 to-red-600 text-white shadow-rose-500/20'
-          }`}
-        >
-          <Award className="w-10 h-10" />
+      {/* Boleta Oficial de Rendimiento Académico KUSKAT */}
+      <div className="bg-white border border-[#E5E3D8] rounded-xl p-6 sm:p-9 shadow-corporate-card space-y-6 text-center font-sans-ui">
+        {/* Encabezado Oficial con Folio Institucional */}
+        <div className="flex items-center justify-between border-b border-[#EAE8DD] pb-4 text-left">
+          <div className="flex items-center gap-3">
+            <div className="w-11 h-11 rounded-lg bg-[#0B1B3D] text-[#C59B27] flex items-center justify-center font-editorial font-bold text-xl border border-[#1A2E5A] shadow-corporate-subtle shrink-0">
+              K
+            </div>
+            <div>
+              <span className="text-[10px] uppercase font-bold tracking-[0.14em] text-[#5C6578] font-mono block">
+                República de El Salvador · Sistema KUSKAT
+              </span>
+              <h2 className="text-base sm:text-lg font-bold text-[#0B1B3D] tracking-tight font-editorial">
+                Boleta Oficial de Rendimiento Académico
+              </h2>
+            </div>
+          </div>
+          <div className="text-right hidden sm:block">
+            <span className="text-[10px] font-mono text-[#5C6578] uppercase block">Folio de Prueba</span>
+            <span className="text-xs font-mono font-bold text-[#0B1B3D]">
+              KSK-{Math.abs(quizQuestions.length * 1024 + Math.round(percentage)).toString(16).toUpperCase()}
+            </span>
+          </div>
         </div>
 
-        <div className="space-y-1">
-          <span
-            className={`text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full ${
-              percentage >= 70
-                ? 'bg-emerald-100 text-emerald-800'
-                : 'bg-rose-100 text-rose-800'
-            }`}
-          >
-            {percentage >= 70 ? '🎉 Examen Aprobado' : '⚠️ Resultado por Mejorar'}
-          </span>
-          <h3 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight pt-1">
+        <div className="space-y-1.5 pt-1">
+          <div className="inline-flex items-center gap-2">
+            {percentage >= 70 ? (
+              <span className="text-[#137333] bg-[#E6F4EA] border border-[#CEEAD6] px-3 py-0.5 rounded text-xs font-mono font-bold uppercase tracking-wider">
+                Condición: Aprobado Satisfactorio
+              </span>
+            ) : (
+              <span className="text-[#C5221F] bg-[#FCE8E6] border border-[#FAD2CF] px-3 py-0.5 rounded text-xs font-mono font-bold uppercase tracking-wider">
+                Condición: Requiere Nivelación
+              </span>
+            )}
+          </div>
+          <h3 className="text-2xl sm:text-3xl font-black text-[#0B1B3D] tracking-tight pt-1 font-editorial">
             {quizTitle}
           </h3>
-          <p className="text-xs sm:text-sm text-slate-500">
+          <p className="text-xs sm:text-sm text-[#5C6578] max-w-xl mx-auto">
             {percentage >= 70
-              ? 'Has demostrado dominio sobre las preguntas evaluadas de este simulacro.'
-              : 'Revisa las justificaciones y refuerza los temas en el Menú de Categorías.'}
+              ? 'El sustentante ha demostrado dominio solvente en las competencias de esta prueba estandarizada.'
+              : 'Se sugiere revisar el solucionario justificado y reforzar los ejes temáticos en el Menú de Categorías.'}
           </p>
         </div>
 
-        {/* Panel de Métricas */}
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2 border-t border-slate-100 text-left">
-          <div className="bg-slate-50 p-3.5 rounded-2xl border border-slate-200">
-            <span className="text-[10px] text-slate-400 font-bold uppercase block">Calificación (0–10)</span>
+        {/* Panel de Métricas Tabulares */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2 text-left">
+          <div className="bg-[#FAF9F5] p-3.5 rounded-lg border border-[#E5E3D8]">
+            <span className="text-[10px] text-[#5C6578] font-bold uppercase tracking-wider block font-mono">Calificación (0–10)</span>
             <span
-              className={`text-2xl font-black ${
-                percentage >= 70 ? 'text-emerald-600' : 'text-rose-600'
+              className={`text-2xl font-black font-mono ${
+                percentage >= 70 ? 'text-[#0B1B3D]' : 'text-[#C5221F]'
               }`}
             >
               {finalGrade}
             </span>
           </div>
 
-          <div className="bg-slate-50 p-3.5 rounded-2xl border border-slate-200">
-            <span className="text-[10px] text-slate-400 font-bold uppercase block">Porcentaje</span>
-            <span className="text-2xl font-black text-slate-900">{percentage}%</span>
+          <div className="bg-[#FAF9F5] p-3.5 rounded-lg border border-[#E5E3D8]">
+            <span className="text-[10px] text-[#5C6578] font-bold uppercase tracking-wider block font-mono">Dominio (%)</span>
+            <span className="text-2xl font-black text-[#0B1B3D] font-mono">{percentage}%</span>
           </div>
 
-          <div className="bg-slate-50 p-3.5 rounded-2xl border border-slate-200">
-            <span className="text-[10px] text-slate-400 font-bold uppercase block">Aciertos</span>
-            <span className="text-2xl font-black text-emerald-600">
+          <div className="bg-[#FAF9F5] p-3.5 rounded-lg border border-[#E5E3D8]">
+            <span className="text-[10px] text-[#5C6578] font-bold uppercase tracking-wider block font-mono">{t('simulator.correct')}</span>
+            <span className="text-2xl font-black text-[#137333] font-mono">
               {correctCount} / {quizQuestions.length}
             </span>
           </div>
 
-          <div className="bg-slate-50 p-3.5 rounded-2xl border border-slate-200">
-            <span className="text-[10px] text-slate-400 font-bold uppercase block">Fallos / Vacías</span>
-            <span className="text-2xl font-black text-rose-600">
+          <div className="bg-[#FAF9F5] p-3.5 rounded-lg border border-[#E5E3D8]">
+            <span className="text-[10px] text-[#5C6578] font-bold uppercase tracking-wider block font-mono">{t('simulator.incorrect')}</span>
+            <span className="text-2xl font-black text-[#C5221F] font-mono">
               {incorrectCount + unansweredCount}
             </span>
           </div>
@@ -1996,23 +2062,23 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
 
         {/* Desglose por Materia */}
         {subjectBreakdown.length > 1 && (
-          <div className="text-left space-y-2 pt-2 border-t border-slate-100">
-            <span className="text-xs font-bold text-slate-700 uppercase tracking-wider block">
-              Desempeño por Materia:
+          <div className="text-left space-y-2 pt-2 border-t border-[#EAE8DD]">
+            <span className="text-xs font-bold text-[#0B1B3D] uppercase tracking-wider block font-mono">
+              Desglose Oficial por Asignatura:
             </span>
-            <div className="space-y-2">
+            <div className="space-y-1.5">
               {subjectBreakdown.map((sb) => (
-                <div key={sb.name} className="flex items-center justify-between text-xs bg-slate-50 p-2.5 rounded-xl border border-slate-200/80">
-                  <span className="font-semibold text-slate-800">{sb.name}</span>
+                <div key={sb.name} className="flex items-center justify-between text-xs bg-[#FAF9F5] p-2.5 rounded-lg border border-[#E5E3D8]">
+                  <span className="font-semibold text-[#111625]">{sb.name}</span>
                   <div className="flex items-center gap-3">
-                    <span className="text-slate-500 font-mono">
-                      {sb.correct} de {sb.total}
+                    <span className="text-[#5C6578] font-mono">
+                      {sb.correct} / {sb.total}
                     </span>
                     <span
-                      className={`font-bold px-2 py-0.5 rounded text-[11px] ${
+                      className={`font-mono font-bold px-2 py-0.5 rounded text-[11px] border ${
                         sb.pct >= 70
-                          ? 'bg-emerald-100 text-emerald-800'
-                          : 'bg-rose-100 text-rose-800'
+                          ? 'bg-[#E6F4EA] text-[#137333] border-[#CEEAD6]'
+                          : 'bg-[#FCE8E6] text-[#C5221F] border-[#FAD2CF]'
                       }`}
                     >
                       {sb.pct}%
@@ -2026,26 +2092,37 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
 
         {/* Botones de Acción */}
         <div className="grid grid-cols-1 sm:flex sm:flex-wrap sm:justify-center items-center gap-2.5 sm:gap-3 pt-2">
+          {incorrectCount + unansweredCount > 0 && (
+            <button
+              onClick={() => setIsErrorNotebookOpen(true)}
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-[#FAF9F5] hover:bg-[#F2F1EA] text-[#0B1B3D] font-bold text-xs rounded-lg border border-[#C59B27] shadow-corporate-subtle transition-colors cursor-pointer min-h-[42px]"
+              title="Abrir el Cuaderno Inteligente de Errores y practicar la remediación"
+            >
+              <Brain className="w-3.5 h-3.5 text-[#C59B27]" />
+              <span>Abrir Cuaderno de Errores ({incorrectCount + unansweredCount})</span>
+            </button>
+          )}
+
           <button
             onClick={handleRetrySameQuiz}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-800 font-bold text-xs rounded-xl transition-colors cursor-pointer min-h-[44px]"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-white hover:bg-[#FAF9F5] text-[#0B1B3D] font-bold text-xs rounded-lg border border-[#E5E3D8] shadow-corporate-subtle transition-colors cursor-pointer min-h-[42px]"
           >
-            <RotateCcw className="w-3.5 h-3.5" />
-            <span>Repetir Mismo Test</span>
+            <RotateCcw className="w-3.5 h-3.5 text-[#5C6578]" />
+            <span>{t('simulator.retryExam')}</span>
           </button>
 
           <button
             onClick={handleNewTestConfig}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs rounded-xl shadow-xs transition-colors cursor-pointer min-h-[44px]"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-[#0B1B3D] hover:bg-[#132A5C] text-white font-bold text-xs rounded-lg shadow-corporate-subtle transition-colors cursor-pointer min-h-[42px]"
           >
             <SlidersHorizontal className="w-3.5 h-3.5" />
-            <span>Configurar Nuevo Test</span>
+            <span>{t('simulator.newConfiguration')}</span>
           </button>
 
           <button
             onClick={handlePrintPdfReport}
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs rounded-xl shadow-xs transition-colors cursor-pointer min-h-[44px]"
-            title="Imprimir o Guardar en PDF el reporte oficial y solucionario"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-2.5 bg-[#137333] hover:bg-[#0E5C28] text-white font-bold text-xs rounded-lg shadow-corporate-subtle transition-colors cursor-pointer min-h-[42px]"
+            title="Imprimir o Guardar en PDF la boleta oficial y solucionario"
           >
             <Printer className="w-3.5 h-3.5" />
             <span>Imprimir / Exportar a PDF</span>
@@ -2234,9 +2311,9 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   <button
                     type="button"
                     onClick={() => handleToggleRemediation(q, idx)}
-                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-bold text-amber-900 bg-amber-100 hover:bg-amber-200 border border-amber-300 shadow-2xs transition-all cursor-pointer"
+                    className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold text-[#0B1B3D] bg-[#F4F3ED] hover:bg-[#EAE8DD] border border-[#E5E3D8] shadow-corporate-subtle transition-all cursor-pointer font-mono-exam"
                   >
-                    <Target className="w-3.5 h-3.5 text-amber-700" />
+                    <Target className="w-3.5 h-3.5 text-[#C59B27]" />
                     <span>
                       {activeRemediationIdx === idx
                         ? 'Ocultar reactivo similar'
@@ -2245,13 +2322,13 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
                   </button>
 
                   {activeRemediationIdx === idx && remediationQuestion && (
-                    <div className="mt-3 p-4 bg-gradient-to-br from-amber-50 to-orange-50 rounded-2xl border-2 border-amber-300 space-y-3 animate-fade-in text-left">
+                    <div className="mt-3 p-4 bg-[#FAF9F5] rounded-xl border border-[#C59B27] space-y-3 animate-fade-in text-left shadow-corporate-subtle font-sans-ui">
                       <div className="flex items-center justify-between text-xs flex-wrap gap-2">
-                        <div className="flex items-center gap-1.5 font-bold text-amber-950">
-                          <Sparkles className="w-4 h-4 text-amber-600" />
-                          <span>Reactivo de Remediación Inmediata</span>
+                        <div className="flex items-center gap-1.5 font-bold text-[#0B1B3D]">
+                          <Target className="w-4 h-4 text-[#9E472A]" />
+                          <span className="font-editorial text-sm font-bold">Reactivo de Nivelación & Refuerzo Académico</span>
                         </div>
-                        <span className="text-[10px] font-mono bg-white px-2 py-0.5 rounded border border-amber-200 text-amber-800">
+                        <span className="text-[10px] font-mono-exam bg-white px-2 py-0.5 rounded border border-[#E5E3D8] text-[#475569]">
                           {remediationQuestion.id} • {remediationQuestion.level || 'nivel equivalente'}
                         </span>
                       </div>
@@ -2417,6 +2494,12 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
           slotId="4241045160_sr_b5"
         />
       </div>
+
+      {/* Modal del Cuaderno Inteligente de Errores */}
+      <SmartErrorNotebookModal
+        isOpen={isErrorNotebookOpen}
+        onClose={() => setIsErrorNotebookOpen(false)}
+      />
     </div>
   );
 };
