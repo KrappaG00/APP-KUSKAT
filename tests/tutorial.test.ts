@@ -112,4 +112,15 @@ describe('Tutorial de Onboarding Interactivo (6 Pasos y Persistencia)', () => {
     const isDismissed = localStorage.getItem(STORAGE_KEY) === 'true';
     expect(isDismissed).toBe(true);
   });
+
+  it('incluye el Sistema Multilingüe Intercultural, el Modo Aprender Español y la Vista 2D Accesible', () => {
+    const fullText = TUTORIAL_STEPS.map(
+      (s) => `${s.title} ${s.subtitle} ${s.description} ${s.bulletPoints.join(' ')}`
+    ).join(' ');
+
+    expect(fullText).toContain('Aprender Español');
+    expect(fullText).toContain('Glosario Técnico Intercultural');
+    expect(fullText).toContain('Vista 2D Accesible');
+    expect(fullText).toContain('RTL');
+  });
 });

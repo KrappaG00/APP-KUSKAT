@@ -18,6 +18,7 @@ export interface User {
   passwordHash: string; // Hash seguro SHA-256 generado localmente
   createdAt: string;
   consent: ConsentAuditRecord;
+  preferredLanguage?: string;
 }
 
 export interface ExamBreakdownItem {

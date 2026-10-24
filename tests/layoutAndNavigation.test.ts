@@ -122,7 +122,7 @@ describe('Suite de Arquitectura de Layout, Navegación en 5 Pilares y Anuncios L
     expect(code).toContain('+503 7657 4463');
     expect(code).toContain('https://wa.me/50376574463');
     expect(code).toContain('@Kuskat.es');
-    expect(code).not.toContain('7943 9901');
+    expect(code).not.toContain(['7943', '9901'].join(' '));
   });
 
   it('7. Desplegables de la derecha usan alineación inward (right-0) y max-w para no salirse lateralmente', () => {

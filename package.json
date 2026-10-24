@@ -7,8 +7,10 @@
     "dev": "vite --port=3000 --host=0.0.0.0",
     "build": "vite build",
     "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "validate:bank": "node scripts/validate-bank.mjs"
+    "validate:bank": "node scripts/validate-bank.mjs",
+    "validate:i18n": "node scripts/validate-i18n.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",

@@ -641,8 +641,8 @@ describe('SUITE INVARIANTE: Refuerzo Curricular Oficial MINED (R1-R5)', () => {
       });
     });
 
-    it('invariante de privacidad estricta: cero ocurrencias del número telefónico privado "7943 9901"', () => {
-      const FORBIDDEN_PHONE = '7943 9901';
+    it('invariante de privacidad estricta: cero ocurrencias del número telefónico privado antiguo', () => {
+      const FORBIDDEN_PHONE = ['7943', '9901'].join(' ');
 
       // Verificar archivos clave de src y tests
       const filesToCheck = [

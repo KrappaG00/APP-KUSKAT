@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { DepartmentData } from './data/departmentsData';
+import { DepartmentData, DEPARTMENTS_DATA } from './data/departmentsData';
 import { ParticleLoader } from './ParticleLoader';
 import { ElSalvadorMap3D } from './ElSalvadorMap3D';
 import { DepartmentSidePanel } from './DepartmentSidePanel';
@@ -10,24 +10,47 @@ import { CallToActionFinal3D } from './CallToActionFinal3D';
 import { CustomCursor3D } from './CustomCursor3D';
 import { FloatingParticlesBackground } from './FloatingParticlesBackground';
 import { AdBanner } from '../AdBanner';
+import { LanguageSwitcher } from '../LanguageSwitcher';
+import { useTranslation } from '../../i18n';
 import { Institution } from '../../data';
+import { HeaderNavbar, AppPageTab } from '../HeaderNavbar';
+import { User } from '../../types/auth';
+import type { LegalTab } from '../LegalModal';
 import {
   Layers,
   ArrowRight,
   Phone,
   Instagram,
   Rocket,
+  Grid,
+  Box,
+  MapPin,
 } from 'lucide-react';
 
 interface MotionSitesPortalProps {
   onEnterSimulator: (institution?: Institution) => void;
   onOpenCategories: () => void;
+  onSelectTab?: (tab: AppPageTab) => void;
+  onOpenAccountModal?: () => void;
+  onOpenTutorial?: () => void;
+  onOpenDevModal?: () => void;
+  onOpenLegalModal?: (tab?: LegalTab) => void;
+  currentUser?: User | null;
 }
 
 export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
   onEnterSimulator,
   onOpenCategories,
+  onSelectTab,
+  onOpenAccountModal,
+  onOpenTutorial,
+  onOpenDevModal,
+  onOpenLegalModal,
+  currentUser,
 }) => {
+  const { t } = useTranslation();
+  const [is2DAccessibleMode, setIs2DAccessibleMode] = useState<boolean>(false);
+
   // Estado del loader inicial de partículas 3D (persistido en localStorage para no repetir atrasos)
   const [showLoader, setShowLoader] = useState<boolean>(() => {
     try {
@@ -105,98 +128,27 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
       )}
 
       {/* ==================================================================== */}
-      {/* 1. CINTILLO SUPERIOR (MISMA PALETA DE LAS OTRAS PÁGINAS) */}
+      {/* 2. ENCABEZADO PRINCIPAL (HEADER CON MENÚ COMPLETO DE TODAS LAS PÁGINAS) */}
       {/* ==================================================================== */}
-      <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 text-white text-[10px] sm:text-xs py-2 px-3 sm:px-6 lg:px-8 border-b border-blue-900/50">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1.5 sm:gap-2">
-          <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap justify-center sm:justify-start">
-            <span className="px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-300 font-bold border border-amber-400/30 text-[9px] sm:text-[10px] uppercase tracking-wider animate-pulse shrink-0">
-              En Desarrollo
-            </span>
-            <span className="font-medium text-slate-200">
-              Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.
-            </span>
-          </div>
-
-          <div className="flex items-center gap-2.5 sm:gap-3 text-slate-300 font-medium text-[10px] sm:text-xs shrink-0">
-            <a
-              href="https://wa.me/50376574463?text=Hola%20KUSKAT,%20estoy%20estudiando%20desde%20tu%20app%20de%20estudio%20:)"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-emerald-400 flex items-center gap-1 transition-colors"
-              title="WhatsApp KUSKAT: +503 7657 4463"
-            >
-              <span className="text-emerald-400 font-bold">WhatsApp KUSKAT:</span>
-              <span className="font-mono">+503 7657 4463</span>
-            </a>
-            <span className="text-slate-600 hidden sm:inline">•</span>
-            <a
-              href="https://instagram.com/Kuskat.es"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-pink-400 flex items-center gap-1 transition-colors"
-              title="Instagram: @Kuskat.es"
-            >
-              <span className="text-pink-400 font-bold">Instagram:</span>
-              <span>@Kuskat.es</span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      {/* ==================================================================== */}
-      {/* 2. ENCABEZADO PRINCIPAL (HEADER CON LOGO ORIGINAL DE KUSKAT) */}
-      {/* ==================================================================== */}
-      <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-4">
-          {/* Logo Original KUSKAT y Título */}
-          <div className="flex items-center gap-3">
-            <div
-              className="w-10 h-10 sm:w-11 sm:h-11 rounded-2xl bg-white border border-slate-200 shadow-sm flex items-center justify-center p-1 shrink-0 overflow-hidden cursor-pointer"
-              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            >
-              <img
-                src="/kuskat_logo.png"
-                alt="Logo KUSKAT"
-                className="w-full h-full object-contain"
-              />
-            </div>
-
-            <div>
-              <div className="flex items-center gap-2">
-                <h1 className="font-montenegrin text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-                  KUSKAT
-                </h1>
-                <span className="text-[10px] sm:text-xs font-bold text-blue-700 bg-blue-50 px-2 py-0.5 rounded-md border border-blue-200 font-caslon">
-                  Portal 3D
-                </span>
-              </div>
-              <p className="font-caslon text-[11px] text-slate-500 font-medium hidden sm:block">
-                Preparación para la aprobacion de examenes de Centro America
-              </p>
-            </div>
-          </div>
-
-          {/* Navegación y Botones de Acción */}
-          <div className="flex items-center gap-2 sm:gap-3 shrink-0">
-            <button
-              onClick={onOpenCategories}
-              className="inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-3.5 py-2 rounded-xl bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-700 font-caslon text-xs font-semibold tracking-micro uppercase transition-colors cursor-pointer"
-            >
-              <Layers className="w-3.5 h-3.5 text-blue-600" />
-              <span>Categorías</span>
-            </button>
-
-            <button
-              onClick={() => triggerStudyTransition()}
-              className="inline-flex items-center gap-1.5 sm:gap-2 px-3 sm:px-5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-caslon text-xs sm:text-sm font-bold tracking-micro uppercase transition-all shadow-sm hover:shadow-md cursor-pointer whitespace-nowrap"
-            >
-              <span>Simulador</span>
-              <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-white" />
-            </button>
-          </div>
-        </div>
-      </header>
+      <HeaderNavbar
+        activeTab="motionsites3d"
+        onSelectTab={(tab) => {
+          if (tab === 'practice') {
+            triggerStudyTransition();
+          } else if (tab === 'categories') {
+            onOpenCategories();
+          } else if (onSelectTab) {
+            onSelectTab(tab);
+          }
+        }}
+        onOpenAccountModal={() => (onOpenAccountModal ? onOpenAccountModal() : undefined)}
+        onOpenTutorial={() => (onOpenTutorial ? onOpenTutorial() : undefined)}
+        onOpenDevModal={() => (onOpenDevModal ? onOpenDevModal() : undefined)}
+        onOpenLegalModal={(tab) => (onOpenLegalModal ? onOpenLegalModal(tab) : undefined)}
+        currentUser={currentUser || null}
+        is2DAccessibleMode={is2DAccessibleMode}
+        onToggle2DAccessible={() => setIs2DAccessibleMode((prev) => !prev)}
+      />
 
       {/* Anuncio 1 / 5 (Portal 3D) */}
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-3">
@@ -204,13 +156,92 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
       </div>
 
       {/* ==================================================================== */}
-      {/* 3. HERO SECTION CON MAPA 3D DE EL SALVADOR */}
+      {/* 3. HERO SECTION CON MAPA 3D O ALTERNATIVA 2D ACCESIBLE (WCAG 2.2 AA) */}
       {/* ==================================================================== */}
-      <section className="relative">
-        <ElSalvadorMap3D
-          onSelectDepartment={(dept) => setSelectedDept(dept)}
-          selectedDepartmentId={selectedDept?.id}
-        />
+      <section className="relative" aria-label={t('portal3d.title')}>
+        {is2DAccessibleMode ? (
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-sm space-y-6">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-4">
+                <div>
+                  <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200 mb-2">
+                    <MapPin className="w-3.5 h-3.5" />
+                    <span>{t('portal3d.badge')}</span>
+                  </span>
+                  <h2 className="font-montenegrin text-2xl sm:text-3xl font-black text-slate-900">
+                    {t('portal3d.accessibleGridTitle')}
+                  </h2>
+                  <p className="text-xs sm:text-sm text-slate-600 mt-1">
+                    {t('portal3d.subtitle')}
+                  </p>
+                </div>
+                <button
+                  type="button"
+                  onClick={() => setIs2DAccessibleMode(false)}
+                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-slate-900 text-white text-xs font-bold hover:bg-slate-800 cursor-pointer shrink-0"
+                >
+                  <Box className="w-4 h-4 text-amber-400" />
+                  <span>{t('app.enable3D')}</span>
+                </button>
+              </div>
+
+              <div
+                role="list"
+                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3.5"
+              >
+                {DEPARTMENTS_DATA.map((dept) => {
+                  const isSelected = selectedDept?.id === dept.id;
+                  return (
+                    <button
+                      key={dept.id}
+                      type="button"
+                      role="listitem"
+                      aria-label={t('portal3d.selectDepartment', { dept: dept.name })}
+                      onClick={() => setSelectedDept(dept)}
+                      className={`p-4 rounded-2xl border text-left transition-all cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-blue-600 ${
+                        isSelected
+                          ? 'bg-blue-600 text-white border-blue-600 shadow-md'
+                          : 'bg-slate-50/90 hover:bg-blue-50/60 text-slate-900 border-slate-200'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between gap-2 mb-1.5">
+                        <span className="font-bold text-sm">{dept.name}</span>
+                        <span
+                          className={`px-2 py-0.5 rounded text-[10px] font-bold uppercase ${
+                            isSelected
+                              ? 'bg-white/20 text-white'
+                              : 'bg-blue-100 text-blue-800'
+                          }`}
+                        >
+                          {dept.region}
+                        </span>
+                      </div>
+                      <p
+                        className={`text-xs mb-2 ${
+                          isSelected ? 'text-blue-100' : 'text-slate-600'
+                        }`}
+                      >
+                        {t('portal3d.capital')}: <strong>{dept.capital}</strong>
+                      </p>
+                      <p
+                        className={`text-[11px] line-clamp-2 ${
+                          isSelected ? 'text-blue-50' : 'text-slate-500'
+                        }`}
+                      >
+                        {dept.featuredSubject} • {dept.bestCategory}
+                      </p>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        ) : (
+          <ElSalvadorMap3D
+            onSelectDepartment={(dept) => setSelectedDept(dept)}
+            selectedDepartmentId={selectedDept?.id}
+          />
+        )}
       </section>
 
       {/* ==================================================================== */}
