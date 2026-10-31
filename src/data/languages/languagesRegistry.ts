@@ -27,6 +27,9 @@ import {
   ALL_ENGLISH_VERBS,
 } from './englishData';
 
+import { CommunicativeUnit } from './types';
+export * from './types';
+
 import {
   NAHUAT_CURRICULUM,
   NAHUAT_QUESTIONS_BANK,
@@ -40,6 +43,7 @@ import {
   NAHUAT_COLORS_DATA,
   NAHUAT_OBJECTS_CATEGORIES,
   NAHUAT_VOCABULARY_CORPUS,
+  NAHUAT_COMMUNICATIVE_UNITS,
   numberToNahuatWords,
 } from './nahuatData';
 
@@ -56,6 +60,7 @@ import {
   LENCA_COLORS_DATA,
   LENCA_OBJECTS_CATEGORIES,
   LENCA_VOCABULARY_CORPUS,
+  LENCA_COMMUNICATIVE_UNITS,
   numberToLencaWords,
 } from './lencaData';
 
@@ -72,6 +77,7 @@ import {
   KAKAWIRA_COLORS_DATA,
   KAKAWIRA_OBJECTS_CATEGORIES,
   KAKAWIRA_VOCABULARY_CORPUS,
+  KAKAWIRA_COMMUNICATIVE_UNITS,
   numberToKakawiraWords,
 } from './kakawiraData';
 
@@ -104,6 +110,7 @@ import {
   ARABIC_COLORS_DATA,
   ARABIC_OBJECTS_CATEGORIES,
   ARABIC_VOCABULARY_CORPUS,
+  ARABIC_COMMUNICATIVE_UNITS,
   numberToArabicWords,
 } from './arabicData';
 
@@ -120,6 +127,7 @@ import {
   MANDARIN_COLORS_DATA,
   MANDARIN_OBJECTS_CATEGORIES,
   MANDARIN_VOCABULARY_CORPUS,
+  MANDARIN_COMMUNICATIVE_UNITS,
   numberToMandarinWords,
 } from './mandarinData';
 
@@ -385,6 +393,7 @@ export function getLanguageComparative(languageId: string) {
         vocabularyPairs: NAHUAT_VOCABULARY_PAIRS,
         grammarDistinctions: NAHUAT_GRAMMAR_DISTINCTIONS,
         phoneticDistinctions: NAHUAT_PHONETIC_DISTINCTIONS,
+        communicativeUnits: NAHUAT_COMMUNICATIVE_UNITS,
       };
     case 'lenca':
       return {
@@ -393,6 +402,7 @@ export function getLanguageComparative(languageId: string) {
         vocabularyPairs: LENCA_VOCABULARY_PAIRS,
         grammarDistinctions: LENCA_GRAMMAR_DISTINCTIONS,
         phoneticDistinctions: LENCA_PHONETIC_DISTINCTIONS,
+        communicativeUnits: LENCA_COMMUNICATIVE_UNITS,
       };
     case 'kakawira':
       return {
@@ -401,6 +411,7 @@ export function getLanguageComparative(languageId: string) {
         vocabularyPairs: KAKAWIRA_VOCABULARY_PAIRS,
         grammarDistinctions: KAKAWIRA_GRAMMAR_DISTINCTIONS,
         phoneticDistinctions: KAKAWIRA_PHONETIC_DISTINCTIONS,
+        communicativeUnits: KAKAWIRA_COMMUNICATIVE_UNITS,
       };
     case 'german':
       return {
@@ -409,6 +420,7 @@ export function getLanguageComparative(languageId: string) {
         vocabularyPairs: GERMAN_VOCABULARY_PAIRS,
         grammarDistinctions: GERMAN_GRAMMAR_DISTINCTIONS,
         phoneticDistinctions: GERMAN_PHONETIC_DISTINCTIONS,
+        communicativeUnits: [] as CommunicativeUnit[],
       };
     case 'arabic':
       return {
@@ -417,6 +429,7 @@ export function getLanguageComparative(languageId: string) {
         vocabularyPairs: ARABIC_VOCABULARY_PAIRS,
         grammarDistinctions: ARABIC_GRAMMAR_DISTINCTIONS,
         phoneticDistinctions: ARABIC_PHONETIC_DISTINCTIONS,
+        communicativeUnits: ARABIC_COMMUNICATIVE_UNITS,
       };
     case 'mandarin':
       return {
@@ -425,6 +438,7 @@ export function getLanguageComparative(languageId: string) {
         vocabularyPairs: MANDARIN_VOCABULARY_PAIRS,
         grammarDistinctions: MANDARIN_GRAMMAR_DISTINCTIONS,
         phoneticDistinctions: MANDARIN_PHONETIC_DISTINCTIONS,
+        communicativeUnits: MANDARIN_COMMUNICATIVE_UNITS,
       };
     case 'english':
     default:
@@ -434,7 +448,28 @@ export function getLanguageComparative(languageId: string) {
         vocabularyPairs: VOCABULARY_PAIRS,
         grammarDistinctions: GRAMMAR_DISTINCTIONS,
         phoneticDistinctions: PHONETIC_DISTINCTIONS,
+        communicativeUnits: [] as CommunicativeUnit[],
       };
+  }
+}
+
+/**
+ * Retorna las unidades comunicativas estructuradas según el idioma seleccionado.
+ */
+export function getLanguageCommunicativeUnits(languageId: string): CommunicativeUnit[] {
+  switch (languageId) {
+    case 'nahuat':
+      return NAHUAT_COMMUNICATIVE_UNITS;
+    case 'lenca':
+      return LENCA_COMMUNICATIVE_UNITS;
+    case 'kakawira':
+      return KAKAWIRA_COMMUNICATIVE_UNITS;
+    case 'arabic':
+      return ARABIC_COMMUNICATIVE_UNITS;
+    case 'mandarin':
+      return MANDARIN_COMMUNICATIVE_UNITS;
+    default:
+      return [];
   }
 }
 

@@ -112,6 +112,8 @@ export const NAHUAT_CURRICULUM: Record<CEFRLevel, LevelCurriculumInfo> = {
   }
 };
 
+export * from './nahuatCommunicativeData';
+
 export const NAHUAT_SPELLING_RULES: SpellingRule[] = [
   {
     pattern: 'Uso de K en lugar de C y QU',
@@ -128,11 +130,44 @@ export const NAHUAT_SPELLING_RULES: SpellingRule[] = [
     pattern: 'Evolución de TL a T en Náhuat Pipil',
     us: 'Náhuat de El Salvador (takat, at, tlet)',
     uk: 'Náhuatl Mexicano Central (tlacatl, atl, tletl)',
-    explanation: 'El rasgo diagnóstico fundamental del náhuat pipil salvadoreño es la evolución del fonema /tɬ/ a /t/ simple.',
+    explanation: 'El rasgo diagnóstico fundamental del náhuat pipil salvadoreño es la evolución del fonema africado lateral /tɬ/ a oclusiva /t/ simple.',
     examples: [
       { us: 'takat', uk: 'tlacatl', translation: 'hombre' },
       { us: 'at', uk: 'atl', translation: 'agua' },
       { us: 'tamal', uk: 'tamalli', translation: 'tamal' }
+    ]
+  },
+  {
+    pattern: 'Uso de W en lugar de HU o GU',
+    us: 'Norma Fonémica IRIN (wan, witz, wey)',
+    uk: 'Ortografía Colonial (huan, huitz, guey)',
+    explanation: 'El grafema W representa de forma unívoca la aproximante labiovelar sonora /w/, prescindiendo de los dígrafos hispanizantes coloniales hu- y gu-.',
+    examples: [
+      { us: 'wan', uk: 'huan', translation: 'y / con' },
+      { us: 'witz', uk: 'huitz', translation: 'viene' },
+      { us: 'wey', uk: 'guey', translation: 'grande' }
+    ]
+  },
+  {
+    pattern: 'Elisión de Vocales Débiles en Posesivos',
+    us: 'Forma Elidida ante Vocal (n-at, m-at, i-kal)',
+    uk: 'Forma Plena ante Consonante (nu-kal, mu-takat, tu-chan)',
+    explanation: 'Cuando el prefijo posesivo (nu-, mu-) precede a una raíz nominal iniciada por vocal, la vocal débil del prefijo se elide para evitar hiatos.',
+    examples: [
+      { us: 'n-at', uk: 'nu-at (incorrecto)', translation: 'mi agua' },
+      { us: 'm-at', uk: 'mu-at (incorrecto)', translation: 'tu agua' },
+      { us: 'i-kal', uk: 'i-kal', translation: 'su casa de él/ella' }
+    ]
+  },
+  {
+    pattern: 'Marcador de Plural Nominal en -met y -ket',
+    us: 'Sustantivos Humanos Pluralizados (takamet, siwāmet)',
+    uk: 'Forma Singular Absolutiva (takat, siwat)',
+    explanation: 'Los sustantivos que designan seres humanos animados forman el plural sustituyendo el sufijo absolutivo -t por el colectivo -met o -ket.',
+    examples: [
+      { us: 'takamet', uk: 'takat', translation: 'hombres / hombre' },
+      { us: 'siwamet', uk: 'siwat', translation: 'mujeres / mujer' },
+      { us: 'konejket', uk: 'konejt', translation: 'niños / niño' }
     ]
   }
 ];
@@ -140,7 +175,11 @@ export const NAHUAT_SPELLING_RULES: SpellingRule[] = [
 export const NAHUAT_VOCABULARY_PAIRS: VocabularyPair[] = [
   { category: 'Dialectos Pipiles', us: 'Witzapan (Santo Domingo)', uk: 'Cuisnahuat / Izalco', spanish: 'Buenos días', sampleSentenceUS: 'Yejyek tunal nu-kniw.', sampleSentenceUK: 'Yejyek tunal nu-tatan.' },
   { category: 'Dialectos Pipiles', us: 'k-ita (lo mira)', uk: 'k-itztuk (lo está viendo)', spanish: 'Ver / Mirar', sampleSentenceUS: 'Ni-k-ita ne xuchit.', sampleSentenceUK: 'Ni-k-itztuk ne xuchit.' },
-  { category: 'Dialectos Pipiles', us: 'chucho (perro)', uk: 'itzkwintli (perro tradicional)', spanish: 'Perro', sampleSentenceUS: 'Ne chucho kuchi tik petat.', sampleSentenceUK: 'Ne itzkwintli kuchi tik petat.' }
+  { category: 'Dialectos Pipiles', us: 'chucho (perro)', uk: 'itzkwintli (perro tradicional)', spanish: 'Perro', sampleSentenceUS: 'Ne chucho kuchi tik petat.', sampleSentenceUK: 'Ne itzkwintli kuchi tik petat.' },
+  { category: 'Botánica y Milpa', us: 'sinti (maíz en mazorca)', uk: 'elut (elote / maíz tierno)', spanish: 'Estados del maíz', sampleSentenceUS: 'Kipia miak sinti.', sampleSentenceUK: 'Ni-k-kwa elut tasujtli.' },
+  { category: 'Parentesco Familiar', us: 'kunew (hijo de mujer)', uk: 'piltzin (hijo de varón)', spanish: 'Hijos en la familia', sampleSentenceUS: 'Ne siwat kipia se kunew.', sampleSentenceUK: 'Ne takat kipalewia piltzin.' },
+  { category: 'Alimentos Tradicionales', us: 'atut (atol de maíz)', uk: 'tamal (tamal de masa)', spanish: 'Preparaciones de maíz', sampleSentenceUS: 'Yejyek ne atut.', sampleSentenceUK: 'Taja ti-k-chiwa tamal.' },
+  { category: 'Tiempo y Cosmos', us: 'tunal (sol / día / calor)', uk: 'tiutak (tarde / atardecer)', spanish: 'Momentos solares', sampleSentenceUS: 'Yejyek tunal tinemi.', sampleSentenceUK: 'Tik tiutak n-yawi chan.' }
 ];
 
 export const NAHUAT_GRAMMAR_DISTINCTIONS: GrammarDistinction[] = [
@@ -152,6 +191,33 @@ export const NAHUAT_GRAMMAR_DISTINCTIONS: GrammarDistinction[] = [
     exampleUS: 'Naha ni-taketza nawat.',
     exampleUK: 'Yo hablo náhuat.',
     pedagogicalNote: 'Nunca digas solamente *taketza para decir yo hablo, porque significa él o ella habla.'
+  },
+  {
+    title: 'El Sufijo Absolutivo Nominal (-t, -ti, -in)',
+    concept: 'Los sustantivos en forma no poseída portan obligatoriamente una marca absolutiva que se pierde al incorporar un posesivo.',
+    ruleUS: 'Forma absolutiva libre: Takat (hombre), at (agua), kal (casa).',
+    ruleUK: 'Forma poseída: Nu-taka-w (mi hombre), n-a-w (mi agua), nu-kal (mi casa).',
+    exampleUS: 'Ne takat k-ita ne at.',
+    exampleUK: 'El hombre mira el agua.',
+    pedagogicalNote: 'Al poseer un sustantivo terminado en absolutivo -t, este sufijo desaparece y se añade el sufijo poseído -w si termina en vocal.'
+  },
+  {
+    title: 'El Pretérito Perfecto en -ki y Truncamiento Verbal',
+    concept: 'Los verbos intransitivos de Clase I forman el pasado mediante el sufijo -ki, mientras que los transitivos truncan su vocal temática.',
+    ruleUS: 'Intransitivo: Ne takat nemi-ki (El hombre vivió).',
+    ruleUK: 'Transitivo con truncamiento: Ni-k-chiw (Yo lo hice, de chiwa).',
+    exampleUS: 'Yaja kuchi-ki se tunal.',
+    exampleUK: 'Él durmió todo el día.',
+    pedagogicalNote: 'La distinción de clases verbales determina si el pasado se marca por adición de -ki o por pérdida vocálica final.'
+  },
+  {
+    title: 'Prefijos de Objeto Transitivo ki- y kin-',
+    concept: 'En todo verbo transitivo es imperativo incorporar el prefijo de objeto paciente que concuerda en número.',
+    ruleUS: 'ki- (objeto singular de 3ª persona) / kin- (objeto plural de 3ª persona).',
+    ruleUK: 'Español: Los pronombres de objeto clíticos son independientes (lo, los).',
+    exampleUS: 'Ni-kin-ita ne takamet.',
+    exampleUK: 'Yo veo a los hombres.',
+    pedagogicalNote: 'Decir *Ni-ita ne takamet es agramatical en náhuat; el prefijo -kin- debe preceder siempre a la raíz verbal.'
   }
 ];
 
@@ -162,7 +228,35 @@ export const NAHUAT_PHONETIC_DISTINCTIONS: PhoneticDistinction[] = [
     usBehavior: 'Shushuknak (/ʃu.ʃuk.nak/ = verde): fricativa postalveolar.',
     ukBehavior: 'Sinti (/sin.ti/ = maíz): fricativa alveolar dental.',
     examples: [
-      { word: 'shuchit', usIpa: '/ˈʃu.tʃit/', ukIpa: '/ˈsu.tʃit/ (error)', audioNote: 'Pronunciar con sonido sh del inglés en shine.' }
+      { word: 'shuchit', usIpa: '/ˈʃu.tʃit/', ukIpa: '/ˈsu.tʃit/ (error)', audioNote: 'Pronunciar con sonido sh del inglés en shine.' },
+      { word: 'se', usIpa: '/se/', ukIpa: '/ʃe/ (error)', audioNote: 'Pronunciar con s limpia española.' }
+    ]
+  },
+  {
+    topic: 'La Africada Ts /ts/ vs Africada Ch /tʃ/',
+    feature: 'Diferenciación entre africada alveolar sorda y postalveolar sorda.',
+    usBehavior: 'Tsikitzin (/tsi.kiˈtsin/ = pequeñito): ápico-alveolar.',
+    ukBehavior: 'Chucho (/ˈtʃu.tʃo/ = perro): palatoalveolar.',
+    examples: [
+      { word: 'tsuntekun', usIpa: '/tsun.teˈkun/', ukIpa: '/tʃun.teˈkun/ (error)', audioNote: 'Articular como la zz italiana o tz en náhuat clásico.' }
+    ]
+  },
+  {
+    topic: 'La Aproximante Labiovelar W /w/ frente a V fricativa',
+    feature: 'El náhuat carece absolutamente de consonante labiodental /v/.',
+    usBehavior: 'Wey (/wej/ = grande): semivocal labiovelar pura.',
+    ukBehavior: 'Pronunciación hispanizante con fricativa labiodental /v/.',
+    examples: [
+      { word: 'witz', usIpa: '/wits/', ukIpa: '/vits/ (error)', audioNote: 'Pronunciar como la u semivocal española en huevo o water en inglés.' }
+    ]
+  },
+  {
+    topic: 'Oclusiva Glotal o Saltillo de Cierre Silábico',
+    feature: 'Cierre glotal breve que marca límites morfológicos enfáticos.',
+    usBehavior: 'Ajpawa (/aʔˈpa.wa/ = guisa / hierve): corte glótico sonoro.',
+    ukBehavior: 'Pronunciación relajada sin oclusión.',
+    examples: [
+      { word: 'ajpawa', usIpa: '/aʔˈpa.wa/', ukIpa: '/a.pa.wa/ (error)', audioNote: 'Pausa o corte laríngeo perceptible en Santo Domingo de Guzmán.' }
     ]
   }
 ];

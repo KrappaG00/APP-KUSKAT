@@ -1,0 +1,2226 @@
+[
+  {
+    "gradeId": "1-grado",
+    "gradeName": "1° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade01PrimerGrado.ts",
+    "unitNumber": 1,
+    "unitId": "mined-mat-1g-u01",
+    "unitTitle": "Conozcamos los conceptos básicos y los números del 0 al 10",
+    "tomo": 1,
+    "summary": "Orientación espacial, conteo, números cardinales del 0 al 10, números ordinales y descomposición.",
+    "lessonsVar": "u1Lessons1G",
+    "hasStaticQuestions": true,
+    "questionsVar": "u1Questions1G",
+    "lessons": [
+      {
+        "id": "mined-mat-1g-u01-l01",
+        "number": "1.1",
+        "title": "Conteo y escritura de los números del 1 al 5",
+        "raw_words": 98
+      },
+      {
+        "id": "mined-mat-1g-u01-l02",
+        "number": "1.2",
+        "title": "El número 0 y su significado",
+        "raw_words": 86
+      },
+      {
+        "id": "mined-mat-1g-u01-l03",
+        "number": "1.3",
+        "title": "Composición y descomposición de números hasta 10",
+        "raw_words": 83
+      },
+      {
+        "id": "mined-mat-1g-u01-l04",
+        "number": "1.4",
+        "title": "Los números ordinales hasta el 10.°",
+        "raw_words": 109
+      }
+    ]
+  },
+  {
+    "gradeId": "1-grado",
+    "gradeName": "1° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade01PrimerGrado.ts",
+    "unitNumber": 2,
+    "unitId": "mined-mat-1g-u02",
+    "unitTitle": "Sumemos y restemos de forma horizontal con números del 0 al 10",
+    "tomo": 1,
+    "summary": "Sentido de la adición y sustracción horizontal, uso del cero.",
+    "lessonsVar": "u2Lessons1G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1g-u02-l01",
+        "number": "2.1",
+        "title": "Sentido de la suma horizontal hasta 10",
+        "raw_words": 68
+      }
+    ]
+  },
+  {
+    "gradeId": "1-grado",
+    "gradeName": "1° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade01PrimerGrado.ts",
+    "unitNumber": 3,
+    "unitId": "mined-mat-1g-u03",
+    "unitTitle": "Conozcamos los números del 11 al 20 y valor posicional",
+    "tomo": 1,
+    "summary": "Conteo del 11 al 20, decenas y unidades, recta numérica.",
+    "lessonsVar": "u3Lessons1G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1g-u03-l01",
+        "number": "3.1",
+        "title": "Conozcamos la decena y los números del 11 al 20",
+        "raw_words": 69
+      }
+    ]
+  },
+  {
+    "gradeId": "1-grado",
+    "gradeName": "1° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade01PrimerGrado.ts",
+    "unitNumber": 4,
+    "unitId": "mined-mat-1g-u04",
+    "unitTitle": "Sumemos y restemos de forma horizontal con números hasta el 20",
+    "tomo": 1,
+    "summary": "Adición sin llevar y sustracción sin prestar con minuendos hasta 19.",
+    "lessonsVar": "u4Lessons1G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1g-u04-l01",
+        "number": "4.1",
+        "title": "Sumas y restas sin llevar hasta 20",
+        "raw_words": 71
+      }
+    ]
+  },
+  {
+    "gradeId": "1-grado",
+    "gradeName": "1° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade01PrimerGrado.ts",
+    "unitNumber": 5,
+    "unitId": "mined-mat-1g-u05",
+    "unitTitle": "Conozcamos los números hasta 100",
+    "tomo": 2,
+    "summary": "Agrupación de 10 en 10, decenas completas y la centena (100).",
+    "lessonsVar": "u5Lessons1G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1g-u05-l01",
+        "number": "5.1",
+        "title": "Conozcamos los números hasta 100 y la centena",
+        "raw_words": 53
+      }
+    ]
+  },
+  {
+    "gradeId": "1-grado",
+    "gradeName": "1° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade01PrimerGrado.ts",
+    "unitNumber": 6,
+    "unitId": "mined-mat-1g-u06",
+    "unitTitle": "Aprendamos a medir longitudes y comparar",
+    "tomo": 2,
+    "summary": "Comparación directa e indirecta de objetos y medidas no estandarizadas.",
+    "lessonsVar": "u6Lessons1G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1g-u06-l01",
+        "number": "6.1",
+        "title": "Comparación directa e indirecta de longitudes",
+        "raw_words": 82
+      }
+    ]
+  },
+  {
+    "gradeId": "1-grado",
+    "gradeName": "1° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade01PrimerGrado.ts",
+    "unitNumber": 7,
+    "unitId": "mined-mat-1g-u07",
+    "unitTitle": "Identifiquemos figuras y líneas",
+    "tomo": 2,
+    "summary": "Líneas rectas y curvas, superficies planas y figuras geométricas básicas.",
+    "lessonsVar": "u7Lessons1G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1g-u07-l01",
+        "number": "7.1",
+        "title": "Identificación de figuras planas y líneas rectas",
+        "raw_words": 74
+      }
+    ]
+  },
+  {
+    "gradeId": "1-grado",
+    "gradeName": "1° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade01PrimerGrado.ts",
+    "unitNumber": 8,
+    "unitId": "mined-mat-1g-u08",
+    "unitTitle": "Conozcamos el tiempo y la moneda",
+    "tomo": 2,
+    "summary": "El reloj analógico, horas en punto, monedas de centavos y billete de 1 dólar.",
+    "lessonsVar": "u8Lessons1G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1g-u08-l01",
+        "number": "8.1",
+        "title": "Lectura del reloj analógico y monedas de curso legal",
+        "raw_words": 83
+      }
+    ]
+  },
+  {
+    "gradeId": "2-grado",
+    "gradeName": "2° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade02SegundoGrado.ts",
+    "unitNumber": 1,
+    "unitId": "mined-mat-2g-u01",
+    "unitTitle": "Conozcamos los números hasta 1,000",
+    "tomo": 1,
+    "summary": "Lectura y escritura hasta 1,000, valor posicional (C, D, U), unidad de millar y números ordinales hasta el 20°.",
+    "lessonsVar": "u1Lessons2G",
+    "hasStaticQuestions": true,
+    "questionsVar": "u1Questions2G",
+    "lessons": [
+      {
+        "id": "mined-mat-2g-u01-l01",
+        "number": "1.1",
+        "title": "Conozcamos los números hasta 200 y la centena",
+        "raw_words": 90
+      },
+      {
+        "id": "mined-mat-2g-u01-l02",
+        "number": "1.2",
+        "title": "Números de tres cifras y la unidad de millar",
+        "raw_words": 92
+      }
+    ]
+  },
+  {
+    "gradeId": "2-grado",
+    "gradeName": "2° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade02SegundoGrado.ts",
+    "unitNumber": 2,
+    "unitId": "mined-mat-2g-u02",
+    "unitTitle": "Aprendamos más sobre la suma",
+    "tomo": 1,
+    "summary": "Suma vertical llevando a las decenas y centenas.",
+    "lessonsVar": "u2Lessons2G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2g-u02-l01",
+        "number": "2.1",
+        "title": "Suma vertical llevando a las decenas",
+        "raw_words": 86
+      }
+    ]
+  },
+  {
+    "gradeId": "2-grado",
+    "gradeName": "2° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade02SegundoGrado.ts",
+    "unitNumber": 3,
+    "unitId": "mined-mat-2g-u03",
+    "unitTitle": "Conozcamos figuras y cuerpos geométricos",
+    "tomo": 1,
+    "summary": "Figuras planas y cuerpos geométricos tridimensionales.",
+    "lessonsVar": "u3Lessons2G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2g-u03-l01",
+        "number": "3.1",
+        "title": "Figuras planas: rectángulos, cuadrados y triángulos",
+        "raw_words": 75
+      }
+    ]
+  },
+  {
+    "gradeId": "2-grado",
+    "gradeName": "2° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade02SegundoGrado.ts",
+    "unitNumber": 4,
+    "unitId": "mined-mat-2g-u04",
+    "unitTitle": "Aprendamos más sobre la resta",
+    "tomo": 1,
+    "summary": "Resta vertical prestando a las decenas y centenas.",
+    "lessonsVar": "u4Lessons2G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2g-u04-l01",
+        "number": "4.1",
+        "title": "Resta vertical prestando de las decenas",
+        "raw_words": 87
+      }
+    ]
+  },
+  {
+    "gradeId": "2-grado",
+    "gradeName": "2° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade02SegundoGrado.ts",
+    "unitNumber": 5,
+    "unitId": "mined-mat-2g-u05",
+    "unitTitle": "Comencemos a multiplicar",
+    "tomo": 2,
+    "summary": "Sentido de la multiplicación y tablas del 2, 3, 4 y 5.",
+    "lessonsVar": "u5Lessons2G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2g-u05-l01",
+        "number": "5.1",
+        "title": "Sentido de la multiplicación y tablas del 2, 3, 4 y 5",
+        "raw_words": 72
+      }
+    ]
+  },
+  {
+    "gradeId": "2-grado",
+    "gradeName": "2° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade02SegundoGrado.ts",
+    "unitNumber": 6,
+    "unitId": "mined-mat-2g-u06",
+    "unitTitle": "Conozcamos medidas de longitud",
+    "tomo": 2,
+    "summary": "El centímetro y uso de la regla graduada.",
+    "lessonsVar": "u6Lessons2G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2g-u06-l01",
+        "number": "6.1",
+        "title": "El centímetro y el uso de la regla graduada",
+        "raw_words": 58
+      }
+    ]
+  },
+  {
+    "gradeId": "2-grado",
+    "gradeName": "2° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade02SegundoGrado.ts",
+    "unitNumber": 7,
+    "unitId": "mined-mat-2g-u07",
+    "unitTitle": "Sigamos multiplicando",
+    "tomo": 2,
+    "summary": "Tablas del 6 al 10 y propiedad conmutativa.",
+    "lessonsVar": "u7Lessons2G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2g-u07-l01",
+        "number": "7.1",
+        "title": "Tablas de multiplicar del 6, 7, 8, 9 y 10",
+        "raw_words": 51
+      }
+    ]
+  },
+  {
+    "gradeId": "2-grado",
+    "gradeName": "2° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade02SegundoGrado.ts",
+    "unitNumber": 8,
+    "unitId": "mined-mat-2g-u08",
+    "unitTitle": "Conozcamos medidas de peso y capacidad",
+    "tomo": 2,
+    "summary": "La libra y el litro en situaciones cotidianas.",
+    "lessonsVar": "u8Lessons2G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2g-u08-l01",
+        "number": "8.1",
+        "title": "La libra y el litro en la vida cotidiana",
+        "raw_words": 71
+      }
+    ]
+  },
+  {
+    "gradeId": "2-grado",
+    "gradeName": "2° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade02SegundoGrado.ts",
+    "unitNumber": 9,
+    "unitId": "mined-mat-2g-u09",
+    "unitTitle": "Apliquemos la Matemática",
+    "tomo": 2,
+    "summary": "Reloj de agujas, calendario, dinero y gráficas de barras.",
+    "lessonsVar": "u9Lessons2G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2g-u09-l01",
+        "number": "9.1",
+        "title": "El reloj de agujas con horas y minutos",
+        "raw_words": 70
+      }
+    ]
+  },
+  {
+    "gradeId": "3-grado",
+    "gradeName": "3° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade03TercerGrado.ts",
+    "unitNumber": 1,
+    "unitId": "mined-mat-3g-u01",
+    "unitTitle": "Números hasta 10,000",
+    "tomo": 1,
+    "summary": "Lectura y escritura hasta 10,000, valor posicional, comparación en recta numérica y redondeo.",
+    "lessonsVar": "u1Lessons3G",
+    "hasStaticQuestions": true,
+    "questionsVar": "u1Questions3G",
+    "lessons": [
+      {
+        "id": "mined-mat-3g-u01-l01",
+        "number": "1.1",
+        "title": "Lectura y escritura de números hasta 10,000",
+        "raw_words": 79
+      },
+      {
+        "id": "mined-mat-3g-u01-l02",
+        "number": "1.2",
+        "title": "Aproximación y comparación en la recta numérica",
+        "raw_words": 89
+      }
+    ]
+  },
+  {
+    "gradeId": "3-grado",
+    "gradeName": "3° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade03TercerGrado.ts",
+    "unitNumber": 2,
+    "unitId": "mined-mat-3g-u02",
+    "unitTitle": "Suma y resta de números hasta de cuatro cifras",
+    "tomo": 1,
+    "summary": "Suma y resta vertical con múltiples llevadas y préstamos.",
+    "lessonsVar": "u2Lessons3G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-3g-u02-l01",
+        "number": "2.1",
+        "title": "Suma vertical de números de hasta cuatro cifras llevando",
+        "raw_words": 88
+      }
+    ]
+  },
+  {
+    "gradeId": "3-grado",
+    "gradeName": "3° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade03TercerGrado.ts",
+    "unitNumber": 3,
+    "unitId": "mined-mat-3g-u03",
+    "unitTitle": "Ángulos, líneas, círculos y esferas",
+    "tomo": 1,
+    "summary": "Rectas perpendiculares, paralelas, ángulos rectos y círculo.",
+    "lessonsVar": "u3Lessons3G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-3g-u03-l01",
+        "number": "3.1",
+        "title": "Ángulos rectos, agudos y obtusos",
+        "raw_words": 74
+      }
+    ]
+  },
+  {
+    "gradeId": "3-grado",
+    "gradeName": "3° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade03TercerGrado.ts",
+    "unitNumber": 4,
+    "unitId": "mined-mat-3g-u04",
+    "unitTitle": "Multiplicación",
+    "tomo": 1,
+    "summary": "Multiplicación de factores de 2 y 3 cifras por 1 cifra en vertical.",
+    "lessonsVar": "u4Lessons3G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-3g-u04-l01",
+        "number": "4.1",
+        "title": "Multiplicación de números de dos y tres cifras por una cifra",
+        "raw_words": 85
+      }
+    ]
+  },
+  {
+    "gradeId": "3-grado",
+    "gradeName": "3° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade03TercerGrado.ts",
+    "unitNumber": 5,
+    "unitId": "mined-mat-3g-u05",
+    "unitTitle": "Figuras planas y cuerpos geométricos",
+    "tomo": 1,
+    "summary": "Clasificación de triángulos y cálculo del perímetro.",
+    "lessonsVar": "u5Lessons3G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-3g-u05-l01",
+        "number": "5.1",
+        "title": "Triángulos y cálculo del perímetro",
+        "raw_words": 61
+      }
+    ]
+  },
+  {
+    "gradeId": "3-grado",
+    "gradeName": "3° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade03TercerGrado.ts",
+    "unitNumber": 6,
+    "unitId": "mined-mat-3g-u06",
+    "unitTitle": "División y comparación",
+    "tomo": 2,
+    "summary": "Sentido de la división con residuo: D = d*q + r.",
+    "lessonsVar": "u6Lessons3G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-3g-u06-l01",
+        "number": "6.1",
+        "title": "División con residuo y algoritmo de reparto",
+        "raw_words": 67
+      }
+    ]
+  },
+  {
+    "gradeId": "3-grado",
+    "gradeName": "3° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade03TercerGrado.ts",
+    "unitNumber": 7,
+    "unitId": "mined-mat-3g-u07",
+    "unitTitle": "Aplicaciones matemáticas",
+    "tomo": 2,
+    "summary": "El metro, kilómetro, gramo, kilogramo y tiempo.",
+    "lessonsVar": "u7Lessons3G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-3g-u07-l01",
+        "number": "7.1",
+        "title": "El metro y el kilómetro",
+        "raw_words": 51
+      }
+    ]
+  },
+  {
+    "gradeId": "3-grado",
+    "gradeName": "3° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade03TercerGrado.ts",
+    "unitNumber": 8,
+    "unitId": "mined-mat-3g-u08",
+    "unitTitle": "Fracciones",
+    "tomo": 2,
+    "summary": "Concepto de fracción, numerador, denominador y recta.",
+    "lessonsVar": "u8Lessons3G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-3g-u08-l01",
+        "number": "8.1",
+        "title": "Concepto de fracción y partes de la unidad",
+        "raw_words": 68
+      }
+    ]
+  },
+  {
+    "gradeId": "3-grado",
+    "gradeName": "3° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade03TercerGrado.ts",
+    "unitNumber": 9,
+    "unitId": "mined-mat-3g-u09",
+    "unitTitle": "Monedas y gráfica de barras",
+    "tomo": 2,
+    "summary": "Operaciones con dinero y gráficas con escala.",
+    "lessonsVar": "u9Lessons3G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-3g-u09-l01",
+        "number": "9.1",
+        "title": "Monedas y gráficas de barras con escala",
+        "raw_words": 68
+      }
+    ]
+  },
+  {
+    "gradeId": "3-grado",
+    "gradeName": "3° Grado",
+    "gradeCycle": "Primer Ciclo de Básica",
+    "file": "grade03TercerGrado.ts",
+    "unitNumber": 10,
+    "unitId": "mined-mat-3g-u10",
+    "unitTitle": "Operaciones combinadas",
+    "tomo": 2,
+    "summary": "Jerarquía con paréntesis y resolución combinada.",
+    "lessonsVar": "u10Lessons3G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-3g-u10-l01",
+        "number": "10.1",
+        "title": "Jerarquía de operaciones combinadas con paréntesis",
+        "raw_words": 53
+      }
+    ]
+  },
+  {
+    "gradeId": "4-grado",
+    "gradeName": "4° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade04CuartoGrado.ts",
+    "unitNumber": 1,
+    "unitId": "mined-mat-4g-u01",
+    "unitTitle": "Números y operaciones de suma y resta",
+    "tomo": 1,
+    "summary": "Números hasta 1,000,000, descomposición decimal, aproximación y suma/resta de grandes cantidades.",
+    "lessonsVar": "u1Lessons4G",
+    "hasStaticQuestions": true,
+    "questionsVar": "u1Questions4G",
+    "lessons": [
+      {
+        "id": "mined-mat-4g-u01-l01",
+        "number": "1.1",
+        "title": "Números hasta un millón y valor posicional",
+        "raw_words": 88
+      }
+    ]
+  },
+  {
+    "gradeId": "4-grado",
+    "gradeName": "4° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade04CuartoGrado.ts",
+    "unitNumber": 2,
+    "unitId": "mined-mat-4g-u02",
+    "unitTitle": "Figuras y cuerpos geométricos",
+    "tomo": 1,
+    "summary": "Medición de ángulos y clasificación de triángulos y cuadriláteros.",
+    "lessonsVar": "u2Lessons4G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-4g-u02-l01",
+        "number": "2.1",
+        "title": "Clasificación de triángulos por sus lados y ángulos",
+        "raw_words": 74
+      }
+    ]
+  },
+  {
+    "gradeId": "4-grado",
+    "gradeName": "4° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade04CuartoGrado.ts",
+    "unitNumber": 3,
+    "unitId": "mined-mat-4g-u03",
+    "unitTitle": "Multiplicación de números naturales",
+    "tomo": 1,
+    "summary": "Algoritmo de la multiplicación de varias cifras.",
+    "lessonsVar": "u3Lessons4G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-4g-u03-l01",
+        "number": "3.1",
+        "title": "Multiplicación de factores de varias cifras",
+        "raw_words": 16
+      }
+    ]
+  },
+  {
+    "gradeId": "4-grado",
+    "gradeName": "4° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade04CuartoGrado.ts",
+    "unitNumber": 4,
+    "unitId": "mined-mat-4g-u04",
+    "unitTitle": "Números decimales",
+    "tomo": 1,
+    "summary": "Décimas, centésimas y milésimas en la recta numérica.",
+    "lessonsVar": "u4Lessons4G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-4g-u04-l01",
+        "number": "4.1",
+        "title": "Números decimales: décimas, centésimas y milésimas",
+        "raw_words": 72
+      }
+    ]
+  },
+  {
+    "gradeId": "4-grado",
+    "gradeName": "4° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade04CuartoGrado.ts",
+    "unitNumber": 5,
+    "unitId": "mined-mat-4g-u05",
+    "unitTitle": "División",
+    "tomo": 1,
+    "summary": "División larga entre números de dos cifras.",
+    "lessonsVar": "u5Lessons4G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-4g-u05-l01",
+        "number": "5.1",
+        "title": "Algoritmo de la división larga entre números de dos cifras",
+        "raw_words": 83
+      }
+    ]
+  },
+  {
+    "gradeId": "4-grado",
+    "gradeName": "4° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade04CuartoGrado.ts",
+    "unitNumber": 6,
+    "unitId": "mined-mat-4g-u06",
+    "unitTitle": "Área de cuadrados y rectángulos",
+    "tomo": 2,
+    "summary": "Unidades cm² y m², fórmulas A = l² y A = b * h.",
+    "lessonsVar": "u6Lessons4G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-4g-u06-l01",
+        "number": "6.1",
+        "title": "Área de cuadrados y rectángulos",
+        "raw_words": 64
+      }
+    ]
+  },
+  {
+    "gradeId": "4-grado",
+    "gradeName": "4° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade04CuartoGrado.ts",
+    "unitNumber": 7,
+    "unitId": "mined-mat-4g-u07",
+    "unitTitle": "Operaciones con números decimales",
+    "tomo": 2,
+    "summary": "Suma y resta vertical con alineación del punto decimal.",
+    "lessonsVar": "u7Lessons4G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-4g-u07-l01",
+        "number": "7.1",
+        "title": "Suma y resta vertical de números decimales",
+        "raw_words": 71
+      }
+    ]
+  },
+  {
+    "gradeId": "4-grado",
+    "gradeName": "4° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade04CuartoGrado.ts",
+    "unitNumber": 8,
+    "unitId": "mined-mat-4g-u08",
+    "unitTitle": "Fracciones",
+    "tomo": 2,
+    "summary": "Fracciones propias, impropias, mixtas y suma homogénea.",
+    "lessonsVar": "u8Lessons4G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-4g-u08-l01",
+        "number": "8.1",
+        "title": "Fracciones propias, impropias y mixtas",
+        "raw_words": 67
+      }
+    ]
+  },
+  {
+    "gradeId": "4-grado",
+    "gradeName": "4° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade04CuartoGrado.ts",
+    "unitNumber": 9,
+    "unitId": "mined-mat-4g-u09",
+    "unitTitle": "Medida y representación de datos",
+    "tomo": 2,
+    "summary": "Tablas de doble entrada y pictogramas con escala.",
+    "lessonsVar": "u9Lessons4G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-4g-u09-l01",
+        "number": "9.1",
+        "title": "Tablas de doble entrada y pictogramas",
+        "raw_words": 88
+      }
+    ]
+  },
+  {
+    "gradeId": "5-grado",
+    "gradeName": "5° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade05QuintoGrado.ts",
+    "unitNumber": 1,
+    "unitId": "mined-mat-5g-u01",
+    "unitTitle": "Divisibilidad, múltiplos y divisores",
+    "tomo": 1,
+    "summary": "Primos y compuestos, criterios de divisibilidad (2, 3, 5, 10), MCM y MCD por descomposición.",
+    "lessonsVar": "u1Lessons5G",
+    "hasStaticQuestions": true,
+    "questionsVar": "u1Questions5G",
+    "lessons": [
+      {
+        "id": "mined-mat-5g-u01-l01",
+        "number": "1.1",
+        "title": "Números primos y números compuestos",
+        "raw_words": 111
+      },
+      {
+        "id": "mined-mat-5g-u01-l02",
+        "number": "1.2",
+        "title": "Criterios de divisibilidad por 2, 3, 5 y 10",
+        "raw_words": 99
+      }
+    ]
+  },
+  {
+    "gradeId": "5-grado",
+    "gradeName": "5° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade05QuintoGrado.ts",
+    "unitNumber": 2,
+    "unitId": "mined-mat-5g-u02",
+    "unitTitle": "Ángulos y polígonos",
+    "tomo": 1,
+    "summary": "Suma de ángulos internos Si = (n-2)*180° y polígonos regulares.",
+    "lessonsVar": "u2Lessons5G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-5g-u02-l01",
+        "number": "2.1",
+        "title": "Suma de los ángulos internos de un polígono",
+        "raw_words": 62
+      }
+    ]
+  },
+  {
+    "gradeId": "5-grado",
+    "gradeName": "5° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade05QuintoGrado.ts",
+    "unitNumber": 3,
+    "unitId": "mined-mat-5g-u03",
+    "unitTitle": "Multiplicación y división de números decimales por números naturales",
+    "tomo": 1,
+    "summary": "Algoritmos y manejo del punto decimal.",
+    "lessonsVar": "u3Lessons5G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-5g-u03-l01",
+        "number": "3.1",
+        "title": "Multiplicación de decimales por números naturales",
+        "raw_words": 32
+      }
+    ]
+  },
+  {
+    "gradeId": "5-grado",
+    "gradeName": "5° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade05QuintoGrado.ts",
+    "unitNumber": 4,
+    "unitId": "mined-mat-5g-u04",
+    "unitTitle": "Gráfica de líneas",
+    "tomo": 1,
+    "summary": "Representación de cambios en el tiempo y tendencias.",
+    "lessonsVar": "u4Lessons5G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-5g-u04-l01",
+        "number": "4.1",
+        "title": "Lectura e interpretación de gráficas de líneas",
+        "raw_words": 90
+      }
+    ]
+  },
+  {
+    "gradeId": "5-grado",
+    "gradeName": "5° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade05QuintoGrado.ts",
+    "unitNumber": 5,
+    "unitId": "mined-mat-5g-u05",
+    "unitTitle": "Multiplicación y división de números decimales por números decimales",
+    "tomo": 1,
+    "summary": "Regla del número de cifras decimales.",
+    "lessonsVar": "u5Lessons5G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-5g-u05-l01",
+        "number": "5.1",
+        "title": "Multiplicación de números decimales por decimales",
+        "raw_words": 79
+      }
+    ]
+  },
+  {
+    "gradeId": "5-grado",
+    "gradeName": "5° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade05QuintoGrado.ts",
+    "unitNumber": 6,
+    "unitId": "mined-mat-5g-u06",
+    "unitTitle": "Cantidad por unidad",
+    "tomo": 2,
+    "summary": "Densidad poblacional y rapidez v = d/t.",
+    "lessonsVar": "u6Lessons5G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-5g-u06-l01",
+        "number": "6.1",
+        "title": "Cantidad por unidad, densidad poblacional y rapidez",
+        "raw_words": 64
+      }
+    ]
+  },
+  {
+    "gradeId": "5-grado",
+    "gradeName": "5° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade05QuintoGrado.ts",
+    "unitNumber": 7,
+    "unitId": "mined-mat-5g-u07",
+    "unitTitle": "Equivalencia de monedas y elaboración de presupuestos",
+    "tomo": 2,
+    "summary": "Ingresos, egresos, saldo y ahorro planificado.",
+    "lessonsVar": "u7Lessons5G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-5g-u07-l01",
+        "number": "7.1",
+        "title": "Presupuestos familiares y equivalencia monetaria",
+        "raw_words": 58
+      }
+    ]
+  },
+  {
+    "gradeId": "5-grado",
+    "gradeName": "5° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade05QuintoGrado.ts",
+    "unitNumber": 8,
+    "unitId": "mined-mat-5g-u08",
+    "unitTitle": "Área de triángulos y cuadriláteros",
+    "tomo": 2,
+    "summary": "Áreas de paralelogramo, triángulo, rombo y trapecio.",
+    "lessonsVar": "u8Lessons5G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-5g-u08-l01",
+        "number": "8.1",
+        "title": "Áreas de paralelogramos, triángulos y trapecios",
+        "raw_words": 64
+      }
+    ]
+  },
+  {
+    "gradeId": "5-grado",
+    "gradeName": "5° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade05QuintoGrado.ts",
+    "unitNumber": 9,
+    "unitId": "mined-mat-5g-u09",
+    "unitTitle": "Unidades de medida en el sistema inglés",
+    "tomo": 2,
+    "summary": "Pulgada, pie, yarda, vara, libra, arroba y quintal.",
+    "lessonsVar": "u9Lessons5G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-5g-u09-l01",
+        "number": "9.1",
+        "title": "Unidades de medida en el sistema inglés y tradicionales",
+        "raw_words": 49
+      }
+    ]
+  },
+  {
+    "gradeId": "5-grado",
+    "gradeName": "5° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade05QuintoGrado.ts",
+    "unitNumber": 10,
+    "unitId": "mined-mat-5g-u10",
+    "unitTitle": "Fracciones",
+    "tomo": 2,
+    "summary": "Homogeneización con MCM y operaciones heterogéneas.",
+    "lessonsVar": "u10Lessons5G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-5g-u10-l01",
+        "number": "10.1",
+        "title": "Suma y resta de fracciones heterogéneas con MCM",
+        "raw_words": 58
+      }
+    ]
+  },
+  {
+    "gradeId": "6-grado",
+    "gradeName": "6° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade06SextoGrado.ts",
+    "unitNumber": 1,
+    "unitId": "mined-mat-6g-u01",
+    "unitTitle": "Operaciones con fracciones",
+    "tomo": 1,
+    "summary": "Multiplicación de fracciones, simplificación previa y números recíprocos.",
+    "lessonsVar": "u1Lessons6G",
+    "hasStaticQuestions": true,
+    "questionsVar": "u1Questions6G",
+    "lessons": [
+      {
+        "id": "mined-mat-6g-u01-l01",
+        "number": "1.1",
+        "title": "Multiplicación de fracción por fracción y simplificación previa",
+        "raw_words": 87
+      },
+      {
+        "id": "mined-mat-6g-u01-l02",
+        "number": "1.2",
+        "title": "El número recíproco y sus propiedades",
+        "raw_words": 62
+      }
+    ]
+  },
+  {
+    "gradeId": "6-grado",
+    "gradeName": "6° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade06SextoGrado.ts",
+    "unitNumber": 2,
+    "unitId": "mined-mat-6g-u02",
+    "unitTitle": "Cantidades variables y números romanos",
+    "tomo": 1,
+    "summary": "Expresiones algebraicas elementales y numeración romana.",
+    "lessonsVar": "u2Lessons6G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-6g-u02-l01",
+        "number": "2.1",
+        "title": "Cantidades variables y uso de símbolos en álgebra temprana",
+        "raw_words": 16
+      }
+    ]
+  },
+  {
+    "gradeId": "6-grado",
+    "gradeName": "6° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade06SextoGrado.ts",
+    "unitNumber": 3,
+    "unitId": "mined-mat-6g-u03",
+    "unitTitle": "División de fracciones y operaciones combinadas",
+    "tomo": 1,
+    "summary": "División por recíproco y operaciones mixtas.",
+    "lessonsVar": "u3Lessons6G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-6g-u03-l01",
+        "number": "3.1",
+        "title": "División de fracciones como multiplicación por el recíproco",
+        "raw_words": 72
+      }
+    ]
+  },
+  {
+    "gradeId": "6-grado",
+    "gradeName": "6° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade06SextoGrado.ts",
+    "unitNumber": 4,
+    "unitId": "mined-mat-6g-u04",
+    "unitTitle": "Razones y porcentajes",
+    "tomo": 1,
+    "summary": "Cálculo de razones, porcentaje y tasa del IVA (13%).",
+    "lessonsVar": "u4Lessons6G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-6g-u04-l01",
+        "number": "4.1",
+        "title": "Razones, porcentajes y cálculo del IVA (13%) en El Salvador",
+        "raw_words": 22
+      }
+    ]
+  },
+  {
+    "gradeId": "6-grado",
+    "gradeName": "6° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade06SextoGrado.ts",
+    "unitNumber": 5,
+    "unitId": "mined-mat-6g-u05",
+    "unitTitle": "Proporcionalidad",
+    "tomo": 1,
+    "summary": "Proporcionalidad directa (y = kx) e inversa en gráficas y tablas.",
+    "lessonsVar": "u5Lessons6G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-6g-u05-l01",
+        "number": "5.1",
+        "title": "Proporcionalidad directa e inversa",
+        "raw_words": 26
+      }
+    ]
+  },
+  {
+    "gradeId": "6-grado",
+    "gradeName": "6° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade06SextoGrado.ts",
+    "unitNumber": 6,
+    "unitId": "mined-mat-6g-u06",
+    "unitTitle": "Longitud de una circunferencia y área del círculo",
+    "tomo": 2,
+    "summary": "El número pi, C = 2*pi*r y A = pi*r².",
+    "lessonsVar": "u6Lessons6G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-6g-u06-l01",
+        "number": "6.1",
+        "title": "Longitud de la circunferencia y área del círculo",
+        "raw_words": 87
+      }
+    ]
+  },
+  {
+    "gradeId": "6-grado",
+    "gradeName": "6° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade06SextoGrado.ts",
+    "unitNumber": 7,
+    "unitId": "mined-mat-6g-u07",
+    "unitTitle": "Análisis de datos",
+    "tomo": 2,
+    "summary": "Media aritmética, moda y mediana para datos no agrupados.",
+    "lessonsVar": "u7Lessons6G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-6g-u07-l01",
+        "number": "7.1",
+        "title": "Medidas de tendencia central: media aritmética, moda y mediana",
+        "raw_words": 97
+      }
+    ]
+  },
+  {
+    "gradeId": "6-grado",
+    "gradeName": "6° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade06SextoGrado.ts",
+    "unitNumber": 8,
+    "unitId": "mined-mat-6g-u08",
+    "unitTitle": "Volumen de cubos y prismas rectangulares",
+    "tomo": 2,
+    "summary": "Unidades cm³ y m³, fórmula V = Ab * h.",
+    "lessonsVar": "u8Lessons6G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-6g-u08-l01",
+        "number": "8.1",
+        "title": "Volumen de cubos y prismas rectangulares",
+        "raw_words": 71
+      }
+    ]
+  },
+  {
+    "gradeId": "6-grado",
+    "gradeName": "6° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade06SextoGrado.ts",
+    "unitNumber": 9,
+    "unitId": "mined-mat-6g-u09",
+    "unitTitle": "Conversión de otros sistemas al sistema internacional",
+    "tomo": 2,
+    "summary": "Medidas agrarias tradicionales: varas cuadradas y manzanas.",
+    "lessonsVar": "u9Lessons6G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-6g-u09-l01",
+        "number": "9.1",
+        "title": "Conversión de unidades tradicionales al Sistema Internacional",
+        "raw_words": 57
+      }
+    ]
+  },
+  {
+    "gradeId": "6-grado",
+    "gradeName": "6° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade06SextoGrado.ts",
+    "unitNumber": 10,
+    "unitId": "mined-mat-6g-u10",
+    "unitTitle": "Traslaciones, simetrías y rotaciones",
+    "tomo": 2,
+    "summary": "Simetría axial, simetría puntual y traslaciones.",
+    "lessonsVar": "u10Lessons6G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-6g-u10-l01",
+        "number": "10.1",
+        "title": "Simetría axial y simetría puntual",
+        "raw_words": 87
+      }
+    ]
+  },
+  {
+    "gradeId": "6-grado",
+    "gradeName": "6° Grado",
+    "gradeCycle": "Segundo Ciclo de Básica",
+    "file": "grade06SextoGrado.ts",
+    "unitNumber": 11,
+    "unitId": "mined-mat-6g-u11",
+    "unitTitle": "Formas de contar y ordenar objetos",
+    "tomo": 2,
+    "summary": "Diagramas de árbol, permutaciones y probabilidad de Laplace.",
+    "lessonsVar": "u11Lessons6G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-6g-u11-l01",
+        "number": "11.1",
+        "title": "Diagramas de árbol y probabilidad clásica",
+        "raw_words": 62
+      }
+    ]
+  },
+  {
+    "gradeId": "7-grado",
+    "gradeName": "7° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade07SeptimoGrado.ts",
+    "unitNumber": 1,
+    "unitId": "mined-mat-7g-u01",
+    "unitTitle": "Números positivos, negativos y el cero",
+    "tomo": 1,
+    "summary": "Números relativos, recta numérica, valor absoluto y orden en Z.",
+    "lessonsVar": "u1Lessons7G",
+    "hasStaticQuestions": true,
+    "questionsVar": "u1Questions7G",
+    "lessons": [
+      {
+        "id": "mined-mat-7g-u01-l01",
+        "number": "1.1",
+        "title": "Posición relativa con respecto a un punto de referencia",
+        "raw_words": 113
+      },
+      {
+        "id": "mined-mat-7g-u01-l02",
+        "number": "1.2",
+        "title": "Valor absoluto y relación de orden en los números enteros",
+        "raw_words": 94
+      }
+    ]
+  },
+  {
+    "gradeId": "7-grado",
+    "gradeName": "7° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade07SeptimoGrado.ts",
+    "unitNumber": 2,
+    "unitId": "mined-mat-7g-u02",
+    "unitTitle": "Suma y resta de números positivos, negativos y el cero",
+    "tomo": 1,
+    "summary": "Operaciones aditivas con signos y supresión de paréntesis.",
+    "lessonsVar": "u2Lessons7G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-7g-u02-l01",
+        "number": "2.1",
+        "title": "Suma y resta de números con igual y diferente signo",
+        "raw_words": 58
+      }
+    ]
+  },
+  {
+    "gradeId": "7-grado",
+    "gradeName": "7° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade07SeptimoGrado.ts",
+    "unitNumber": 3,
+    "unitId": "mined-mat-7g-u03",
+    "unitTitle": "Multiplicación y división de números positivos, negativos y el cero",
+    "tomo": 1,
+    "summary": "Ley de los signos y potencias de enteros.",
+    "lessonsVar": "u3Lessons7G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-7g-u03-l01",
+        "number": "3.1",
+        "title": "Multiplicación y división con la Ley de Signos",
+        "raw_words": 41
+      }
+    ]
+  },
+  {
+    "gradeId": "7-grado",
+    "gradeName": "7° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade07SeptimoGrado.ts",
+    "unitNumber": 4,
+    "unitId": "mined-mat-7g-u04",
+    "unitTitle": "Comunicación con símbolos",
+    "tomo": 1,
+    "summary": "Variables, términos semejantes y valor numérico.",
+    "lessonsVar": "u4Lessons7G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-7g-u04-l01",
+        "number": "4.1",
+        "title": "Comunicación con símbolos y expresiones algebraicas",
+        "raw_words": 64
+      }
+    ]
+  },
+  {
+    "gradeId": "7-grado",
+    "gradeName": "7° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade07SeptimoGrado.ts",
+    "unitNumber": 5,
+    "unitId": "mined-mat-7g-u05",
+    "unitTitle": "Ecuaciones de primer grado",
+    "tomo": 2,
+    "summary": "Propiedades de la igualdad y transposición de términos ax+b=c.",
+    "lessonsVar": "u5Lessons7G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-7g-u05-l01",
+        "number": "5.1",
+        "title": "Resolución de ecuaciones lineales de primer grado ax + b = c",
+        "raw_words": 66
+      }
+    ]
+  },
+  {
+    "gradeId": "7-grado",
+    "gradeName": "7° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade07SeptimoGrado.ts",
+    "unitNumber": 6,
+    "unitId": "mined-mat-7g-u06",
+    "unitTitle": "Proporcionalidad directa e inversa",
+    "tomo": 2,
+    "summary": "Gráficas en el plano cartesiano y constantes de proporcionalidad.",
+    "lessonsVar": "u6Lessons7G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-7g-u06-l01",
+        "number": "6.1",
+        "title": "Proporcionalidad directa e inversa en el plano cartesiano",
+        "raw_words": 62
+      }
+    ]
+  },
+  {
+    "gradeId": "7-grado",
+    "gradeName": "7° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade07SeptimoGrado.ts",
+    "unitNumber": 7,
+    "unitId": "mined-mat-7g-u07",
+    "unitTitle": "Gráfica de faja y circular",
+    "tomo": 2,
+    "summary": "Distribución porcentual y cálculo de sectores en 360°.",
+    "lessonsVar": "u7Lessons7G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-7g-u07-l01",
+        "number": "7.1",
+        "title": "Gráficas de faja y circulares",
+        "raw_words": 72
+      }
+    ]
+  },
+  {
+    "gradeId": "7-grado",
+    "gradeName": "7° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade07SeptimoGrado.ts",
+    "unitNumber": 8,
+    "unitId": "mined-mat-7g-u08",
+    "unitTitle": "Figuras planas y construcción de cuerpos geométricos",
+    "tomo": 2,
+    "summary": "Mediatriz, bisectriz y poliedros regulares.",
+    "lessonsVar": "u8Lessons7G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-7g-u08-l01",
+        "number": "8.1",
+        "title": "Construcción geométrica con compás: mediatriz y bisectriz",
+        "raw_words": 104
+      }
+    ]
+  },
+  {
+    "gradeId": "8-grado",
+    "gradeName": "8° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade08OctavoGrado.ts",
+    "unitNumber": 1,
+    "unitId": "mined-mat-8g-u01",
+    "unitTitle": "Operaciones algebraicas",
+    "tomo": 1,
+    "summary": "Monomios, polinomios, grado, suma/resta, multiplicación y valor numérico.",
+    "lessonsVar": "u1Lessons8G",
+    "hasStaticQuestions": true,
+    "questionsVar": "u1Questions8G",
+    "lessons": [
+      {
+        "id": "mined-mat-8g-u01-l01",
+        "number": "1.1",
+        "title": "Monomios, polinomios y grado absoluto",
+        "raw_words": 124
+      },
+      {
+        "id": "mined-mat-8g-u01-l02",
+        "number": "1.2",
+        "title": "Multiplicación de monomio por polinomio y binomio por binomio",
+        "raw_words": 67
+      }
+    ]
+  },
+  {
+    "gradeId": "8-grado",
+    "gradeName": "8° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade08OctavoGrado.ts",
+    "unitNumber": 2,
+    "unitId": "mined-mat-8g-u02",
+    "unitTitle": "Sistemas de ecuaciones de primer grado con dos incógnitas",
+    "tomo": 1,
+    "summary": "Métodos de reducción, sustitución e igualación para sistemas 2x2.",
+    "lessonsVar": "u2Lessons8G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-8g-u02-l01",
+        "number": "2.1",
+        "title": "Sistemas de ecuaciones 2x2 por el método de reducción",
+        "raw_words": 111
+      }
+    ]
+  },
+  {
+    "gradeId": "8-grado",
+    "gradeName": "8° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade08OctavoGrado.ts",
+    "unitNumber": 3,
+    "unitId": "mined-mat-8g-u03",
+    "unitTitle": "Función lineal",
+    "tomo": 1,
+    "summary": "Pendiente m, intercepto b, forma y = mx + b y gráficas.",
+    "lessonsVar": "u3Lessons8G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-8g-u03-l01",
+        "number": "3.1",
+        "title": "Función lineal y forma pendiente-intercepto y = mx + b",
+        "raw_words": 101
+      }
+    ]
+  },
+  {
+    "gradeId": "8-grado",
+    "gradeName": "8° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade08OctavoGrado.ts",
+    "unitNumber": 4,
+    "unitId": "mined-mat-8g-u04",
+    "unitTitle": "Paralelismo y ángulos de un polígono",
+    "tomo": 1,
+    "summary": "Ángulos alternos internos y suma Si = (n-2)*180°.",
+    "lessonsVar": "u4Lessons8G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-8g-u04-l01",
+        "number": "4.1",
+        "title": "Ángulos alternos internos y suma de ángulos de un polígono",
+        "raw_words": 75
+      }
+    ]
+  },
+  {
+    "gradeId": "8-grado",
+    "gradeName": "8° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade08OctavoGrado.ts",
+    "unitNumber": 5,
+    "unitId": "mined-mat-8g-u05",
+    "unitTitle": "Criterios de congruencia de triángulos",
+    "tomo": 2,
+    "summary": "Criterios formales LLL, LAL y ALA con demostraciones.",
+    "lessonsVar": "u5Lessons8G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-8g-u05-l01",
+        "number": "5.1",
+        "title": "Criterios de congruencia de triángulos (LLL, LAL, ALA)",
+        "raw_words": 93
+      }
+    ]
+  },
+  {
+    "gradeId": "8-grado",
+    "gradeName": "8° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade08OctavoGrado.ts",
+    "unitNumber": 6,
+    "unitId": "mined-mat-8g-u06",
+    "unitTitle": "Características de los triángulos y cuadriláteros",
+    "tomo": 2,
+    "summary": "Propiedades del triángulo isósceles y paralelogramos.",
+    "lessonsVar": "u6Lessons8G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-8g-u06-l01",
+        "number": "6.1",
+        "title": "Propiedades del triángulo isósceles y paralelogramos",
+        "raw_words": 101
+      }
+    ]
+  },
+  {
+    "gradeId": "8-grado",
+    "gradeName": "8° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade08OctavoGrado.ts",
+    "unitNumber": 7,
+    "unitId": "mined-mat-8g-u07",
+    "unitTitle": "Área y volumen de sólidos geométricos",
+    "tomo": 2,
+    "summary": "Volúmenes de cilindros, conos y esferas.",
+    "lessonsVar": "u7Lessons8G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-8g-u07-l01",
+        "number": "7.1",
+        "title": "Volumen de conos, cilindros y esferas",
+        "raw_words": 85
+      }
+    ]
+  },
+  {
+    "gradeId": "8-grado",
+    "gradeName": "8° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade08OctavoGrado.ts",
+    "unitNumber": 8,
+    "unitId": "mined-mat-8g-u08",
+    "unitTitle": "Organización y análisis de datos estadísticos",
+    "tomo": 2,
+    "summary": "Tablas de frecuencias agrupadas e histogramas.",
+    "lessonsVar": "u8Lessons8G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-8g-u08-l01",
+        "number": "8.1",
+        "title": "Organización de datos en tablas de frecuencia e histogramas",
+        "raw_words": 91
+      }
+    ]
+  },
+  {
+    "gradeId": "9-grado",
+    "gradeName": "9° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade09NovenoGrado.ts",
+    "unitNumber": 1,
+    "unitId": "mined-mat-9g-u01",
+    "unitTitle": "Multiplicación de polinomios y productos notables",
+    "tomo": 1,
+    "summary": "Productos notables, factor común, trinomio cuadrado perfecto y diferencia de cuadrados.",
+    "lessonsVar": "u1Lessons9G",
+    "hasStaticQuestions": true,
+    "questionsVar": "u1Questions9G",
+    "lessons": [
+      {
+        "id": "mined-mat-9g-u01-l01",
+        "number": "1.1",
+        "title": "Productos notables: producto de binomios con término común",
+        "raw_words": 65
+      },
+      {
+        "id": "mined-mat-9g-u01-l02",
+        "number": "1.2",
+        "title": "Cuadrado de un binomio y diferencia de cuadrados",
+        "raw_words": 57
+      }
+    ]
+  },
+  {
+    "gradeId": "9-grado",
+    "gradeName": "9° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade09NovenoGrado.ts",
+    "unitNumber": 2,
+    "unitId": "mined-mat-9g-u02",
+    "unitTitle": "Raíz cuadrada y números reales",
+    "tomo": 1,
+    "summary": "Radicales, simplificación sqrt(a²b) = a*sqrt(b) y racionalización.",
+    "lessonsVar": "u2Lessons9G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-9g-u02-l01",
+        "number": "2.1",
+        "title": "Raíz cuadrada, números irracionales y racionalización",
+        "raw_words": 68
+      }
+    ]
+  },
+  {
+    "gradeId": "9-grado",
+    "gradeName": "9° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade09NovenoGrado.ts",
+    "unitNumber": 3,
+    "unitId": "mined-mat-9g-u03",
+    "unitTitle": "Ecuación cuadrática",
+    "tomo": 1,
+    "summary": "Fórmula general, completación de cuadrados y análisis del discriminante.",
+    "lessonsVar": "u3Lessons9G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-9g-u03-l01",
+        "number": "3.1",
+        "title": "Fórmula general de la ecuación cuadrática ax² + bx + c = 0",
+        "raw_words": 96
+      }
+    ]
+  },
+  {
+    "gradeId": "9-grado",
+    "gradeName": "9° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade09NovenoGrado.ts",
+    "unitNumber": 4,
+    "unitId": "mined-mat-9g-u04",
+    "unitTitle": "Función cuadrática de la forma y = ax² + c",
+    "tomo": 1,
+    "summary": "Parábola con vértice (0, c), concavidad y traslaciones.",
+    "lessonsVar": "u4Lessons9G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-9g-u04-l01",
+        "number": "4.1",
+        "title": "Función cuadrática de la forma y = ax² + c",
+        "raw_words": 91
+      }
+    ]
+  },
+  {
+    "gradeId": "9-grado",
+    "gradeName": "9° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade09NovenoGrado.ts",
+    "unitNumber": 5,
+    "unitId": "mined-mat-9g-u05",
+    "unitTitle": "Figuras semejantes",
+    "tomo": 2,
+    "summary": "Criterios de semejanza de triángulos y Teorema de Tales.",
+    "lessonsVar": "u5Lessons9G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-9g-u05-l01",
+        "number": "5.1",
+        "title": "Criterios de semejanza de triángulos y Teorema de Tales",
+        "raw_words": 106
+      }
+    ]
+  },
+  {
+    "gradeId": "9-grado",
+    "gradeName": "9° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade09NovenoGrado.ts",
+    "unitNumber": 6,
+    "unitId": "mined-mat-9g-u06",
+    "unitTitle": "Teorema de Pitágoras",
+    "tomo": 2,
+    "summary": "Demostración a² + b² = c² y aplicaciones en distancias.",
+    "lessonsVar": "u6Lessons9G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-9g-u06-l01",
+        "number": "6.1",
+        "title": "El Teorema de Pitágoras y aplicaciones en el espacio",
+        "raw_words": 102
+      }
+    ]
+  },
+  {
+    "gradeId": "9-grado",
+    "gradeName": "9° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade09NovenoGrado.ts",
+    "unitNumber": 7,
+    "unitId": "mined-mat-9g-u07",
+    "unitTitle": "Ángulo inscrito y central en circunferencias",
+    "tomo": 2,
+    "summary": "Teorema del ángulo central (theta = 2*alpha) y cuadriláteros cíclicos.",
+    "lessonsVar": "u7Lessons9G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-9g-u07-l01",
+        "number": "7.1",
+        "title": "Ángulo inscrito y ángulo central en circunferencias",
+        "raw_words": 107
+      }
+    ]
+  },
+  {
+    "gradeId": "9-grado",
+    "gradeName": "9° Grado",
+    "gradeCycle": "Tercer Ciclo de Básica",
+    "file": "grade09NovenoGrado.ts",
+    "unitNumber": 8,
+    "unitId": "mined-mat-9g-u08",
+    "unitTitle": "Medidas de dispersión",
+    "tomo": 2,
+    "summary": "Rango, varianza y desviación típica sigma.",
+    "lessonsVar": "u8Lessons9G",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-9g-u08-l01",
+        "number": "8.1",
+        "title": "Medidas de dispersión: varianza y desviación típica",
+        "raw_words": 106
+      }
+    ]
+  },
+  {
+    "gradeId": "1-bachillerato",
+    "gradeName": "1° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade10PrimerBach.ts",
+    "unitNumber": 1,
+    "unitId": "mined-mat-1b-u01",
+    "unitTitle": "Números reales",
+    "tomo": 1,
+    "summary": "Raíces n-ésimas, exponentes racionales, racionalización con conjugados e intervalos reales.",
+    "lessonsVar": "u1Lessons1B",
+    "hasStaticQuestions": true,
+    "questionsVar": "u1Questions1B",
+    "lessons": [
+      {
+        "id": "mined-mat-1b-u01-l01",
+        "number": "1.1",
+        "title": "Propiedades de las raíces n-ésimas y exponentes racionales",
+        "raw_words": 68
+      },
+      {
+        "id": "mined-mat-1b-u01-l02",
+        "number": "1.2",
+        "title": "Racionalización con binomios conjugados e intervalos en R",
+        "raw_words": 86
+      }
+    ]
+  },
+  {
+    "gradeId": "1-bachillerato",
+    "gradeName": "1° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade10PrimerBach.ts",
+    "unitNumber": 2,
+    "unitId": "mined-mat-1b-u02",
+    "unitTitle": "Operaciones con polinomios y números complejos",
+    "tomo": 1,
+    "summary": "División sintética, Teorema del Residuo y cuerpo de los complejos C.",
+    "lessonsVar": "u2Lessons1B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1b-u02-l01",
+        "number": "2.1",
+        "title": "División sintética (Regla de Ruffini) y números complejos",
+        "raw_words": 88
+      }
+    ]
+  },
+  {
+    "gradeId": "1-bachillerato",
+    "gradeName": "1° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade10PrimerBach.ts",
+    "unitNumber": 3,
+    "unitId": "mined-mat-1b-u03",
+    "unitTitle": "Desigualdades",
+    "tomo": 1,
+    "summary": "Desigualdades lineales dobles y cuadráticas con cuadro de signos.",
+    "lessonsVar": "u3Lessons1B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1b-u03-l01",
+        "number": "3.1",
+        "title": "Desigualdades cuadráticas mediante cuadro de variación de signos",
+        "raw_words": 96
+      }
+    ]
+  },
+  {
+    "gradeId": "1-bachillerato",
+    "gradeName": "1° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade10PrimerBach.ts",
+    "unitNumber": 4,
+    "unitId": "mined-mat-1b-u04",
+    "unitTitle": "Funciones reales",
+    "tomo": 1,
+    "summary": "Dominio, rango, traslaciones f(x)=a(x-h)²+k e inyectividad.",
+    "lessonsVar": "u4Lessons1B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1b-u04-l01",
+        "number": "4.1",
+        "title": "Funciones reales, dominio, rango y traslaciones f(x) = a(x - h)² + k",
+        "raw_words": 102
+      }
+    ]
+  },
+  {
+    "gradeId": "1-bachillerato",
+    "gradeName": "1° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade10PrimerBach.ts",
+    "unitNumber": 5,
+    "unitId": "mined-mat-1b-u05",
+    "unitTitle": "Resolución de triángulos oblicuángulos",
+    "tomo": 2,
+    "summary": "Leyes de Senos y Cosenos en problemas trigonométricos.",
+    "lessonsVar": "u5Lessons1B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1b-u05-l01",
+        "number": "5.1",
+        "title": "Resolución de triángulos oblicuángulos: Ley de Senos y Ley de Cosenos",
+        "raw_words": 86
+      }
+    ]
+  },
+  {
+    "gradeId": "1-bachillerato",
+    "gradeName": "1° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade10PrimerBach.ts",
+    "unitNumber": 6,
+    "unitId": "mined-mat-1b-u06",
+    "unitTitle": "Identidades y ecuaciones trigonométricas",
+    "tomo": 2,
+    "summary": "Identidades pitagóricas, ángulo doble y ecuaciones angulares.",
+    "lessonsVar": "u6Lessons1B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1b-u06-l01",
+        "number": "6.1",
+        "title": "Identidades trigonométricas fundamentales y fórmulas de ángulo doble",
+        "raw_words": 85
+      }
+    ]
+  },
+  {
+    "gradeId": "1-bachillerato",
+    "gradeName": "1° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade10PrimerBach.ts",
+    "unitNumber": 7,
+    "unitId": "mined-mat-1b-u07",
+    "unitTitle": "Vectores y números complejos",
+    "tomo": 2,
+    "summary": "Magnitud, producto escalar u·v, forma polar y De Moivre.",
+    "lessonsVar": "u7Lessons1B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1b-u07-l01",
+        "number": "7.1",
+        "title": "Vectores en R² y producto escalar (producto punto)",
+        "raw_words": 63
+      }
+    ]
+  },
+  {
+    "gradeId": "1-bachillerato",
+    "gradeName": "1° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade10PrimerBach.ts",
+    "unitNumber": 8,
+    "unitId": "mined-mat-1b-u08",
+    "unitTitle": "Estadística descriptiva",
+    "tomo": 2,
+    "summary": "Muestreo, cuartiles, percentiles y diagramas de caja (box-plot).",
+    "lessonsVar": "u8Lessons1B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-1b-u08-l01",
+        "number": "8.1",
+        "title": "Medidas de posición: cuartiles, percentiles y diagrama de caja (Box Plot)",
+        "raw_words": 101
+      }
+    ]
+  },
+  {
+    "gradeId": "2-bachillerato",
+    "gradeName": "2° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade11SegundoBach.ts",
+    "unitNumber": 1,
+    "unitId": "mined-mat-2b-u01",
+    "unitTitle": "Ecuaciones",
+    "tomo": 1,
+    "summary": "Ecuaciones bicuadráticas, ecuaciones con radicales, ecuaciones racionales y sistemas no lineales.",
+    "lessonsVar": "u1Lessons2B",
+    "hasStaticQuestions": true,
+    "questionsVar": "u1Questions2B",
+    "lessons": [
+      {
+        "id": "mined-mat-2b-u01-l01",
+        "number": "1.1",
+        "title": "Ecuaciones bicuadráticas de la forma ax⁴ + bx² + c = 0",
+        "raw_words": 103
+      },
+      {
+        "id": "mined-mat-2b-u01-l02",
+        "number": "1.2",
+        "title": "Ecuaciones con radicales y soluciones extrañas",
+        "raw_words": 128
+      }
+    ]
+  },
+  {
+    "gradeId": "2-bachillerato",
+    "gradeName": "2° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade11SegundoBach.ts",
+    "unitNumber": 2,
+    "unitId": "mined-mat-2b-u02",
+    "unitTitle": "Línea recta",
+    "tomo": 1,
+    "summary": "Distancia euclidiana, punto medio, ecuación punto-pendiente y distancia punto-recta.",
+    "lessonsVar": "u2Lessons2B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2b-u02-l01",
+        "number": "2.1",
+        "title": "Línea recta: distancia euclidiana, punto medio y forma punto-pendiente",
+        "raw_words": 109
+      }
+    ]
+  },
+  {
+    "gradeId": "2-bachillerato",
+    "gradeName": "2° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade11SegundoBach.ts",
+    "unitNumber": 3,
+    "unitId": "mined-mat-2b-u03",
+    "unitTitle": "Secciones cónicas",
+    "tomo": 1,
+    "summary": "Parábola, circunferencia, elipse e hipérbola con sus elementos geométricos y asíntotas.",
+    "lessonsVar": "u3Lessons2B",
+    "hasStaticQuestions": true,
+    "questionsVar": "u3Questions2B",
+    "lessons": [
+      {
+        "id": "mined-mat-2b-u03-l01",
+        "number": "3.1",
+        "title": "La parábola: foco, directriz y ecuación canónica",
+        "raw_words": 110
+      },
+      {
+        "id": "mined-mat-2b-u03-l02",
+        "number": "3.2",
+        "title": "La circunferencia: ecuación ordinaria y forma general",
+        "raw_words": 81
+      },
+      {
+        "id": "mined-mat-2b-u03-l03",
+        "number": "3.3",
+        "title": "La elipse: focos, semiejes y excentricidad",
+        "raw_words": 95
+      },
+      {
+        "id": "mined-mat-2b-u03-l04",
+        "number": "3.4",
+        "title": "La hipérbola: asíntotas y focos",
+        "raw_words": 91
+      }
+    ]
+  },
+  {
+    "gradeId": "2-bachillerato",
+    "gradeName": "2° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade11SegundoBach.ts",
+    "unitNumber": 4,
+    "unitId": "mined-mat-2b-u04",
+    "unitTitle": "Funciones trascendentales I",
+    "tomo": 1,
+    "summary": "Función exponencial f(x) = a^x, propiedades y aplicaciones.",
+    "lessonsVar": "u4Lessons2B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2b-u04-l01",
+        "number": "4.1",
+        "title": "Funciones trascendentales I: función exponencial f(x) = a^x",
+        "raw_words": 97
+      }
+    ]
+  },
+  {
+    "gradeId": "2-bachillerato",
+    "gradeName": "2° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade11SegundoBach.ts",
+    "unitNumber": 5,
+    "unitId": "mined-mat-2b-u05",
+    "unitTitle": "Funciones trascendentales II",
+    "tomo": 2,
+    "summary": "Función logarítmica, propiedades y ecuaciones logarítmicas.",
+    "lessonsVar": "u5Lessons2B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2b-u05-l01",
+        "number": "5.1",
+        "title": "Funciones trascendentales II: logaritmos y función inversa",
+        "raw_words": 60
+      }
+    ]
+  },
+  {
+    "gradeId": "2-bachillerato",
+    "gradeName": "2° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade11SegundoBach.ts",
+    "unitNumber": 6,
+    "unitId": "mined-mat-2b-u06",
+    "unitTitle": "Sucesiones aritméticas y geométricas",
+    "tomo": 2,
+    "summary": "Término general a_n, sumas finitas Sn y series geométricas infinitas.",
+    "lessonsVar": "u6Lessons2B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2b-u06-l01",
+        "number": "6.1",
+        "title": "Sucesiones aritméticas, geométricas y series infinitas",
+        "raw_words": 55
+      }
+    ]
+  },
+  {
+    "gradeId": "2-bachillerato",
+    "gradeName": "2° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade11SegundoBach.ts",
+    "unitNumber": 7,
+    "unitId": "mined-mat-2b-u07",
+    "unitTitle": "Métodos de conteo",
+    "tomo": 2,
+    "summary": "Permutaciones, combinaciones y Teorema del Binomio de Newton.",
+    "lessonsVar": "u7Lessons2B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2b-u07-l01",
+        "number": "7.1",
+        "title": "Métodos de conteo: permutaciones, combinaciones y Teorema del Binomio",
+        "raw_words": 74
+      }
+    ]
+  },
+  {
+    "gradeId": "2-bachillerato",
+    "gradeName": "2° Bachillerato",
+    "gradeCycle": "Educación Media",
+    "file": "grade11SegundoBach.ts",
+    "unitNumber": 8,
+    "unitId": "mined-mat-2b-u08",
+    "unitTitle": "Probabilidad",
+    "tomo": 2,
+    "summary": "Axiomas de Kolmogorov, probabilidad condicional y Teorema de Bayes.",
+    "lessonsVar": "u8Lessons2B",
+    "hasStaticQuestions": false,
+    "questionsVar": null,
+    "lessons": [
+      {
+        "id": "mined-mat-2b-u08-l01",
+        "number": "8.1",
+        "title": "Probabilidad condicional, eventos independientes y Teorema de Bayes",
+        "raw_words": 130
+      }
+    ]
+  }
+]

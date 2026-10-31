@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import {
   Flag,
   Shield,
@@ -18,477 +18,181 @@ import {
   BookOpen,
   Calendar,
   Layers,
+  Clock,
+  Award,
+  HelpCircle,
+  RotateCcw,
+  ArrowRight,
+  ArrowLeft,
+  Check,
+  X,
+  Landmark,
 } from 'lucide-react';
 
-export interface PatrioticSymbol {
-  id: string;
-  name: string;
-  scientificOrOfficialName?: string;
-  category: 'emblema' | 'himno' | 'flora' | 'fauna' | 'oracion';
-  yearOfficialized: string;
-  decree: string;
-  meaning: string;
-  detailedHistory: string;
-  civicDetails: string[];
-  icon: string;
-}
+import {
+  PatrioticSymbol,
+  PATRIOTIC_SYMBOLS,
+  PresidentRecord,
+  HISTORICAL_PRESIDENTS,
+  PatrioticThematicUnit,
+  PATRIOTIC_THEMATIC_UNITS,
+  PatrioticQuestion,
+  PATRIOTIC_QUESTIONS,
+} from '../data/patrioticHistory';
 
-export const PATRIOTIC_SYMBOLS: PatrioticSymbol[] = [
-  {
-    id: 'bandera',
-    name: 'La Bandera Nacional',
-    category: 'emblema',
-    yearOfficialized: '1912',
-    decree: 'Decreto Legislativo del 17 de mayo de 1912 (Presidencia del Dr. Manuel Enrique Araujo)',
-    meaning: 'Compuesta por tres franjas horizontales del mismo ancho: dos azules cobalto en los extremos y una blanca en el centro.',
-    detailedHistory: 'Inspirada en el pabellón de las Provincias Unidas del Centro de América creado por Manuel José Arce en 1822. El color azul simboliza los dos océanos que abrazan a Centroamérica (el Pacífico y el Atlántico) y el cielo diáfano de la patria. El color blanco representa la paz, la pureza de ideales y la concordia nacional. Existen tres versiones oficiales: la Magna (con el Escudo de Armas al centro, para edificios públicos y embajadas), la de uso oficial con la leyenda dorada "DIOS UNIÓN LIBERTAD", y la de la marina mercante.',
-    civicDetails: [
-      'Proporciones oficiales: 3.35 metros de largo por 1.89 metros de ancho para pabellones oficiales.',
-      'Franja superior azul: Océano Atlántico y el cielo patrio.',
-      'Franja central blanca: La paz, la pureza y el anhelo de concordia social.',
-      'Franja inferior azul: Océano Pacífico y la proyección continental.',
-      'Día de la Bandera Salvadoreña: Se conmemora cada 1 de septiembre al inicio del mes cívico.',
-    ],
-    icon: '🇸🇻',
-  },
-  {
-    id: 'escudo',
-    name: 'El Escudo Nacional de Armas',
-    category: 'emblema',
-    yearOfficialized: '1912',
-    decree: 'Diseñado por el insigne calígrafo salvadoreño Rafael Barraza Rodríguez; adoptado por Decreto del 17 de mayo de 1912.',
-    meaning: 'Emblema triangular equilátero que condensa los ideales republicanos de Libertad, Igualdad y Fraternidad.',
-    detailedHistory: 'Su composición heráldica comprende: un triángulo dorado equilátero símbolo de la igualdad de todos los ciudadanos ante la ley; en su base, una cordillera de cinco volcanes bañada por dos mares, representando las cinco repúblicas hermanas de Centroamérica. Sobre la cordillera descansa un arcoíris de esperanza y un gorro frigio que irradia rayos de luz con la fecha "15 DE SEPTIEMBRE DE 1821" (gloriosa independencia centroamericana). En torno al triángulo, la leyenda "REPÚBLICA DE EL SALVADOR EN LA AMÉRICA CENTRAL" en letras de oro. Dos ramas de laurel entrelazadas con un lazo azul y blanco con 14 gajos representan los 14 departamentos de la República.',
-    civicDetails: [
-      'Triángulo equilátero: Los tres poderes del Estado y la igualdad ante la ley.',
-      '5 Volcanes en cordillera: Las 5 repúblicas centroamericanas (Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica).',
-      'Gorro frigio rojo con rayos: Emblema universal de la libertad y soberanía popular.',
-      'Arcoíris: Símbolo de paz, pacto constitucional y esperanza perdurable.',
-      '14 Gajos de laurel: Los 14 departamentos que componen la soberanía territorial salvadoreña.',
-      'Lema nacional: "DIOS UNIÓN LIBERTAD" en la base del lazo tricolor.',
-    ],
-    icon: '🛡️',
-  },
-  {
-    id: 'himno',
-    name: 'El Himno Nacional de El Salvador',
-    category: 'himno',
-    yearOfficialized: '1879 / 1953',
-    decree: 'Letra escrita por el General Juan José Cañas; música compuesta por el Maestro Juan Aberle. Oficializado formalmente por Decreto N.° 1231 de 1953.',
-    meaning: 'Canto cívico marcial de alta elocuencia poética que exalta la soberanía, la dignidad humana y el rechazo a la tiranía.',
-    detailedHistory: 'Fue estrenado solemnemente el 15 de septiembre de 1879 en el antiguo Palacio Nacional de San Salvador por una compañía de ópera. Su lírica cívica fue elogiada en la década de 1930 por autoridades internacionales como uno de los himnos más bellos y poéticos del mundo. Consta de un coro sublime y tres estrofas que exhortan a la patria a defender la paz y el progreso moral sin derramar sangre fratricida.',
-    civicDetails: [
-      'Coro principal: "Saludemos la patria orgullosos / de hijos suyos podernos llamar / y juremos la vida animosos / sin descanso a su bien consagrar."',
-      'Primera estrofa: Reivindica la paz fecunda: "De la paz en la dicha suprema / siempre noble soñó El Salvador / fue obtenerla su eterno problema / conservarla es su gloria mayor."',
-      'Segunda estrofa: Condena la tiranía: "Todos son elocuente recuerdo / de virtud, de valor y lealtad / desde el día que audaz la patria / proclamó su feliz libertad."',
-      'Tercera estrofa: Alianza cívica y progreso: "Libertad es su dogma, es su guía / que mil veces logró defender / y otras tantas de audaz tiranía / rechazar el odioso poder."',
-    ],
-    icon: '🎵',
-  },
-  {
-    id: 'ave',
-    name: 'El Torogoz (Ave Nacional)',
-    scientificOrOfficialName: 'Eumomota superciliosa',
-    category: 'fauna',
-    yearOfficialized: '1999',
-    decree: 'Declarado Ave Nacional por Decreto Legislativo N.° 735 del 21 de octubre de 1999.',
-    meaning: 'Símbolo sublime de la libertad salvadoreña, ya que no tolera el cautiverio y perece si se le priva del vuelo libre.',
-    detailedHistory: 'Conocido también como talapo en algunas zonas del oriente salvadoreño. Se distingue por su plumaje policromático con intensos tonos turquesa, verde esmeralda y naranja cálido, coronado por dos plumas alargadas en su cola que rematan en forma de péndulo o raqueta. Anida en taludes de tierra, laderas volcánicas y barrancos, alimentándose de pequeños insectos y frutos silvestres. Su monogamia estricta y protección parental representan la lealtad familiar salvadoreña.',
-    civicDetails: [
-      'Nombre científico: Eumomota superciliosa (orden Coraciiformes).',
-      'Significado cívico: Inadaptabilidad al cautiverio (emblema de autodeterminación ciudadana).',
-      'Morfología distintiva: Cola de péndulo con cañón desnudo y espátulas terminales azuladas.',
-      'Hábitat en El Salvador: Zonas boscosas, parques nacionales como El Imposible y Montecristo.',
-    ],
-    icon: '🦜',
-  },
-  {
-    id: 'flor',
-    name: 'La Flor de Izote (Flor Nacional)',
-    scientificOrOfficialName: 'Yucca elephantipes / Yucca guatemalensis',
-    category: 'flora',
-    yearOfficialized: '1939',
-    decree: 'Declarada Flor Nacional de El Salvador por Decreto Ejecutivo el 21 de diciembre de 1939.',
-    meaning: 'Representa la laboriosidad del pueblo salvadoreño, la fecundidad de la tierra volcánica y la riqueza de la cocina autóctona.',
-    detailedHistory: 'Planta de la familia de las agaváceas que florece profusamente entre marzo y mayo con majestuosos racimos cónicos de flores blancas acampanadas. Además de su belleza botánica, sus flores forman parte intrínseca de la gastronomía salvadoreña (guisadas en pipián, con huevo o en ensalada), mientras que de sus hojas fibrosas se han elaborado tradicionalmente cuerdas y artesanías de gran resistencia.',
-    civicDetails: [
-      'Nombre científico: Yucca elephantipes.',
-      'Simbología agrícola: Resistencia a sequías y arraigo en cerros y volcanes salvadoreños.',
-      'Uso nutricional y culinario: Fuente rica en vitamina C, minerales y tradición culinaria prehispánica.',
-      'Aspecto visual: Campánulas blancas cerosas que se abren anunciando la llegada del invierno y la siembra.',
-    ],
-    icon: '🌼',
-  },
-  {
-    id: 'arboles',
-    name: 'El Maquilíshuat y el Árbol de Bálsamo (Árboles Nacionales)',
-    scientificOrOfficialName: 'Tabebuia rosea / Myroxylon balsamum',
-    category: 'flora',
-    yearOfficialized: '1939',
-    decree: 'Declarados Árboles Nacionales por Decreto Ejecutivo el 1 de septiembre de 1939.',
-    meaning: 'Representan la belleza botánica paisajística y la medicina tradicional de exportación histórica salvadoreña.',
-    detailedHistory: 'El Maquilíshuat (Tabebuia rosea) deslumbra en la estación seca cuando bota sus hojas y se cubre enteramente de deslumbrantes flores rosadas y violáceas, madera noble y sombra generosa. El Árbol de Bálsamo (Myroxylon balsamum), endémico de la legendaria Cordillera del Bálsamo en Sonsonate y La Libertad, produce una resina aromática curativa medicinal empleada desde tiempos precolombinos por médicos indígenas (titici) y codiciada en Europa y el Vaticano para santos óleos.',
-    civicDetails: [
-      'Maquilíshuat: Floración rosada de ensueño y madera preciosa apta para ebanistería.',
-      'Bálsamo de El Salvador: Resina aromática con denominación de origen protegida históricamente.',
-      'Cordillera del Bálsamo: Zona comprendida entre San Julián, Cuisnahuat, Teotepeque y Chiltiupán.',
-      'Conmemoración: Día del Árbol Nacional cada 28 de junio.',
-    ],
-    icon: '🌳',
-  },
-  {
-    id: 'oracion',
-    name: 'La Oración a la Bandera Salvadoreña',
-    category: 'oracion',
-    yearOfficialized: '1916',
-    decree: 'Compuesta en 1916 por el ilustre sabio salvadoreño Dr. David J. Guzmán.',
-    meaning: 'Plegaria cívica consagrada a exaltar el amor a la tierra natal, el valor del trabajo y el deber ciudadano.',
-    detailedHistory: 'El Dr. David J. Guzmán, médico, arqueólogo, escritor y fundador del Museo Nacional de Antropología (MUNA), compuso esta pieza oratoria con una profunda devoción por la geografía salvadoreña, sus volcanes, ríos y cafetales. Es recitada diariamente en todos los centros educativos de parvularia, básica y media de El Salvador.',
-    civicDetails: [
-      'Texto inicial: "Dios te salve, Patria mía, en tu seno hemos nacido y amado; eres el aire que respiramos, la tierra que nos sustenta, la familia que amamos..."',
-      'Valores cívicos promovidos: Fidelidad inquebrantable a las instituciones democráticas, veneración a los próceres de 1811 y 1821, y fraternidad hacia los pueblos del mundo.',
-    ],
-    icon: '📜',
-  },
-];
+// Re-export for full backward compatibility
+export type {
+  PatrioticSymbol,
+  PresidentRecord,
+  PatrioticThematicUnit,
+  PatrioticQuestion,
+};
 
-export interface PresidentRecord {
-  id: string;
-  name: string;
-  period: string;
-  years: string;
-  type: 'Constitucional' | 'Cívico-Militar' | 'De Facto' | 'Provisional';
-  context: string;
-  pros: string[];
-  cons: string[];
-}
+export {
+  PATRIOTIC_SYMBOLS,
+  HISTORICAL_PRESIDENTS,
+  PATRIOTIC_THEMATIC_UNITS,
+  PATRIOTIC_QUESTIONS,
+};
 
-export const HISTORICAL_PRESIDENTS: PresidentRecord[] = [
-  {
-    id: 'manuel-enrique-araujo',
-    name: 'Dr. Manuel Enrique Araujo',
-    period: '1 de marzo de 1911 – 9 de febrero de 1913',
-    years: '1911 - 1913',
-    type: 'Constitucional',
-    context: 'Médico distinguido y estadista progresista. Su administración buscó modernizar el Estado salvadoreño antes de ser trágicamente asesinado en el Parque Bolívar (actual Plaza Barrios).',
-    pros: [
-      'Creó la Guardia Nacional (1912) para garantizar la seguridad rural y el orden en el campo.',
-      'Promulgó la primera Ley de Accidentes de Trabajo en la historia nacional, pionera en derechos laborales.',
-      'Oficializó la actual Bandera y Escudo Nacionales mediante decreto de 1912.',
-      'Impulsó fuertemente la educación médica, construyendo el emblemático Pabellón Araujo del Hospital Rosales.',
-      'Estableció el saneamiento de las finanzas públicas y redujo la deuda soberana extranjera.',
-    ],
-    cons: [
-      'La creación de la Guardia Nacional derivó con el tiempo en una fuerza de represión contra movimientos campesinos.',
-      'A pesar de sus reformas sociales, mantuvo intacta la estructura oligárquica de concentración de la tierra.',
-    ],
-  },
-  {
-    id: 'dinastia-melendez-quinonez',
-    name: 'Dinastía Meléndez-Quiñónez (Carlos Meléndez, Jorge Meléndez, Alfonso Quiñónez)',
-    period: '1913 – 1927',
-    years: '1913 - 1927',
-    type: 'Constitucional',
-    context: 'Período de catorce años donde tres miembros de la misma familia se alternaron en el solio presidencial salvadoreño, respaldados por la Liga Roja.',
-    pros: [
-      'Preservó la neutralidad de El Salvador durante la Primera Guerra Mundial (1914-1918).',
-      'Expansión de la red de telégrafos, líneas ferroviarias y carreteras nacionales.',
-      'Modernización urbana de la capital San Salvador tras el destructivo terremoto de 1917 provocado por la erupción del volcán San Salvador.',
-    ],
-    cons: [
-      'Consolidación de un régimen dinástico y clientelar sin alternancia real en el poder.',
-      'Uso de la "Liga Roja" como grupo de choque para coaccionar el voto popular e intimidar a la oposición.',
-      'Persecución de intelectuales, dirigentes obreros y federaciones sindicales nacientes.',
-    ],
-  },
-  {
-    id: 'pio-romero-bosque',
-    name: 'Dr. Pío Romero Bosque',
-    period: '1 de marzo de 1927 – 1 de marzo de 1931',
-    years: '1927 - 1931',
-    type: 'Constitucional',
-    context: 'Conocido como el "Pequeño Padre de la Democracia Salvadoreña", rompió con la dinastía que lo había designado e inauguró un período de amplias libertades civiles.',
-    pros: [
-      'Garantizó la primera elección presidencial auténticamente libre, competitiva y limpia en enero de 1931.',
-      'Restableció la libertad de prensa irrestricta y permitió la organización legal de gremios sindicales.',
-      'Rechazó la reelección presidencial y entregó el mando de acuerdo a la Constitución al ganador Arturo Araujo.',
-    ],
-    cons: [
-      'Le tocó enfrentar el desplome económico global provocado por el Crack de Wall Street de 1929, que pulverizó las exportaciones de café.',
-      'No logró canalizar reformas estructurales agrarias urgentes, dejando una alta efervescencia social reprimida.',
-    ],
-  },
-  {
-    id: 'maximiliano-hernandez-martinez',
-    name: 'Gral. Maximiliano Hernández Martínez',
-    period: '4 de diciembre de 1931 – 9 de mayo de 1944',
-    years: '1931 - 1944',
-    type: 'De Facto',
-    context: 'Llegó al poder tras el golpe de Estado a Arturo Araujo en 1931. Instauró el martinismo, un régimen autoritario que gobernó con mano dura durante trece años.',
-    pros: [
-      'Fundó el Banco Central de Reserva (BCR) en 1934 y el Banco Hipotecario de El Salvador en 1935.',
-      'Promulgó la Ley de Moratoria de Deudas que salvó de la ruina a miles de pequeños y medianos caficultores salvadoreños.',
-      'Construcción de obras viales de envergadura nacional: la Carretera Panamericana y el Puente de Oro sobre el Río Lempa.',
-      'Mantuvo la estabilidad cambiaria del colón a 2.50 por dólar estadounidense y canceló la deuda externa nacional en 1938.',
-      'Creó el Fondo Social de Mejoramiento Social para reparto de pequeños solares campesinos.',
-    ],
-    cons: [
-      'Ordenó la sangrienta masacre campesina e indígena de enero de 1932, con saldo de decenas de miles de víctimas, etnocidio que casi extingue el idioma náhuat.',
-      'Dictadura personalista prolongada mediante sucesivas reformas constitucionales a su medida.',
-      'Persecución implacable, fusilamiento y tortura de disidentes políticos y militares rebeldes.',
-      'Fue finalmente derrocado por la histórica "Huelga de Brazos Caídos" popular y estudiantil en mayo de 1944.',
-    ],
-  },
-  {
-    id: 'oscar-osorio',
-    name: 'Tte. Cnel. Óscar Osorio (Revolución del 48)',
-    period: '14 de septiembre de 1950 – 14 de septiembre de 1956',
-    years: '1950 - 1956',
-    type: 'Constitucional',
-    context: 'Figura insignia de la modernización estatal salvadoreña, favorecido por los precios históricos del "boom del café" en la posguerra.',
-    pros: [
-      'Fundó el Instituto Salvadoreño del Seguro Social (ISSS) para brindar cobertura de salud y pensiones a la clase trabajadora.',
-      'Creó el Instituto de Vivienda Urbana (IVU) para construir colonias y apartamentos accesibles a familias obreras.',
-      'Construyó la Presa Hidroeléctrica 5 de Noviembre sobre el Río Lempa (CEL), iniciando la electrificación nacional.',
-      'Edificó el Puerto de Acajutla y la Carretera del Litoral, abriendo el sur del país a la agricultura y el comercio.',
-      'Promulgó la Constitución progresista de 1950 con amplios capítulos sobre derechos sociales y laborales.',
-    ],
-    cons: [
-      'Aprobó la severa "Ley de Defensa del Orden Democrático y Constitucional" para reprimir y encarcelar a líderes sindicales opositores.',
-      'El modelo de bienestar social se circunscribió fundamentalmente a la población urbana, desatendiendo el campesinado rural.',
-    ],
-  },
-  {
-    id: 'jose-maria-lemus',
-    name: 'Tte. Cnel. José María Lemus',
-    period: '14 de septiembre de 1956 – 26 de octubre de 1960',
-    years: '1956 - 1960',
-    type: 'Constitucional',
-    context: 'Inició su mandato con un programa de apertura democrática pero terminó cercado por la crisis económica y el descontento universitario.',
-    pros: [
-      'Derogó leyes represivas iniciales y decretó amnistía general permitiendo el retorno de exiliados políticos.',
-      'Fomentó obras de infraestructura de salud y educación: Hospital de Maternidad y cientos de escuelas primarias.',
-      'Fomentó la integración económica regional centroamericana preliminar.',
-    ],
-    cons: [
-      'Caída brusca de los precios del café que causó déficit fiscal y desempleo masivo.',
-      'Su gobierno recurrió al estado de sitio y a la violencia policial, culminando en la violenta invasión armada de la Universidad de El Salvador en 1960, lo que aceleró su derrocamiento mediante golpe de Estado.',
-    ],
-  },
-  {
-    id: 'julio-adalberto-rivera',
-    name: 'Cnel. Julio Adalberto Rivera (PCN)',
-    period: '1 de julio de 1962 – 1 de julio de 1967',
-    years: '1962 - 1967',
-    type: 'Constitucional',
-    context: 'Gobernó en el marco de la "Alianza para el Progreso" impulsada por el presidente estadounidense John F. Kennedy.',
-    pros: [
-      'Gran expansión industrial nacional al amparo del floreciente Mercado Común Centroamericano (MCCA).',
-      'Creación de la Administración Nacional de Acueductos y Alcantarillados (ANDA) para dotar de agua potable a las urbes.',
-      'Introdujo el sistema de representación proporcional que permitió a la oposición legislativa (PDC y MNR) obtener curules parlamentarias.',
-      'Fijó el primer salario mínimo legal para los trabajadores agrícolas del campo.',
-    ],
-    cons: [
-      'Creación de la Organización Democrática Nacionalista (ORDEN), red paramilitar de vigilancia rural acusada de violaciones a los derechos humanos.',
-      'Consolidación del Partido de Conciliación Nacional (PCN) como maquinaria oficial de control estatal.',
-    ],
-  },
-  {
-    id: 'fidel-sanchez-hernandez',
-    name: 'Gral. Fidel Sánchez Hernández',
-    period: '1 de julio de 1967 – 1 de julio de 1972',
-    years: '1967 - 1972',
-    type: 'Constitucional',
-    context: 'Mandatario durante la coyuntura del conflicto bélico con Honduras de julio de 1969 ("Guerra de las 100 Horas").',
-    pros: [
-      'Conducción militar y unificación patriótica salvadoreña durante el conflicto con Honduras en julio de 1969.',
-      'Convocó al Primer Congreso Nacional de Reforma Agraria (1970) para discutir la distribución de la tierra.',
-      'Inició el primer gran programa de Televisión Educativa en las escuelas públicas salvadoreñas.',
-    ],
-    cons: [
-      'Colapso definitivo del Mercado Común Centroamericano (MCCA) tras la guerra con Honduras.',
-      'Crisis socioeconómica provocada por el retorno forzado de más de 100,000 salvadoreños expulsados de territorio hondureño.',
-      'Oposición cerrada de los grandes terratenientes que impidió cualquier avance de reforma agraria.',
-    ],
-  },
-  {
-    id: 'arturo-armando-molina',
-    name: 'Cnel. Arturo Armando Molina',
-    period: '1 de julio de 1972 – 1 de julio de 1977',
-    years: '1972 - 1977',
-    type: 'Constitucional',
-    context: 'Gobernó durante una época de altos ingresos fiscales por bonanza cafetalera y aguda confrontación sociopolítica.',
-    pros: [
-      'Construcción de colosales obras de infraestructura: Presa Hidroeléctrica Cerrón Grande, Aeropuerto Internacional de El Salvador en Comalapa y la Central Geotérmica de Ahuachapán.',
-      'Construcción del moderno Hospital Nacional de Niños Benjamín Bloom.',
-      'Edificación de centros turísticos icónicos (Hotel de Montaña Cerro Verde, Turicentro Sihuatehuacán, Costa del Sol).',
-    ],
-    cons: [
-      'Llegó al poder tras las elecciones presidenciales de febrero de 1972 calificadas unánimemente como fraudulentas por la oposición de la UNO.',
-      'Intervención militar con tanques de la Universidad de El Salvador (UES) en julio de 1972 y persecución de catedráticos.',
-      'La Masacre estudiantil del 30 de julio de 1975 sobre el puente de la 25 Avenida Norte.',
-      'El fracaso y marcha atrás forzada de su proyecto de "Transformación Agraria" en 1976 ante la presión frontal de la ANEP.',
-    ],
-  },
-  {
-    id: 'carlos-humberto-romero',
-    name: 'Gral. Carlos Humberto Romero',
-    period: '1 de julio de 1977 – 15 de octubre de 1979',
-    years: '1977 - 1979',
-    type: 'Constitucional',
-    context: 'Último militar de la dinastía ininterrumpida del PCN. Su mandato coincidió con la antesala directa del conflicto armado interno.',
-    pros: [
-      'Intentó mantener el financiamiento a obras viales e infraestructura hospitalaria en el interior de la república.',
-    ],
-    cons: [
-      'Aprobación de la controvertida "Ley de Defensa y Garantía del Orden Público", que criminalizó la huelga y la protesta social.',
-      'Aumento exponencial de ejecuciones extrajudiciales, desapariciones forzadas de catequistas y sindicalistas.',
-      'Severo aislamiento internacional por violaciones a derechos humanos reportadas por la CIDH.',
-      'Derrocado incruentamente el 15 de octubre de 1979 por el golpe de la Juventud Militar que instauró la Junta Revolucionaria de Gobierno.',
-    ],
-  },
-  {
-    id: 'jose-napoleon-duarte',
-    name: 'Ing. José Napoleón Duarte (PDC)',
-    period: '1 de junio de 1984 – 1 de junio de 1989',
-    years: '1984 - 1989',
-    type: 'Constitucional',
-    context: 'Primer presidente civil electo por sufragio directo en más de 50 años, gobernando en el clímax de la guerra civil salvadoreña.',
-    pros: [
-      'Inició los históricos primeros acercamientos directos de diálogo con la insurgencia (La Palma, Chalatenango en 1984 y Ayagualo).',
-      'Canalizó masiva ayuda internacional humanitaria para socorrer a la población tras el devastador terremoto de San Salvador del 10 de octubre de 1986.',
-      'Consolidación institucional de la naciente Constitución de la República de 1983.',
-    ],
-    cons: [
-      'La guerra civil continuó desangrando al país sin lograr un acuerdo de cese al fuego durante su administración.',
-      'Graves señalamientos de corrupción administrativa y desvío de ayuda económica internacional en ministerios clave.',
-      'Fuerte deterioro del poder adquisitivo y crisis inflacionaria.',
-    ],
-  },
-  {
-    id: 'alfredo-cristiani',
-    name: 'Lic. Alfredo Cristiani Burkard (ARENA)',
-    period: '1 de junio de 1989 – 1 de junio de 1994',
-    years: '1989 - 1994',
-    type: 'Constitucional',
-    context: 'Encabezó la negociación estatal que culminó con el fin formal de los 12 años del conflicto armado en el país.',
-    pros: [
-      'Firma de los históricos Acuerdos de Paz de Chapultepec el 16 de enero de 1992, poniendo fin a la guerra civil.',
-      'Creación de nuevas instituciones democráticas fundamentales: la Policía Nacional Civil (PNC) desmilitarizada, la Academia Nacional de Seguridad Pública (ANSP) y la Procuraduría para la Defensa de los Derechos Humanos (PDDH).',
-      'Reinserción de las fuerzas guerrilleras al marco civil y democrático electoral como partido político.',
-    ],
-    cons: [
-      'Implementación del modelo neoliberal: privatización de la banca estatal, comercio exterior de café y azúcar, con acusaciones de concentración financiera.',
-      'Ocurrencia de la Masacre de los sacerdotes jesuitas de la UCA y sus colaboradoras en noviembre de 1989 durante la ofensiva "Hasta el Tope".',
-      'Promulgación de la Ley de Amnistía General de 1993 que frenó la investigación de crímenes de lesa humanidad documentados por la Comisión de la Verdad.',
-    ],
-  },
-  {
-    id: 'armando-calderon-sol',
-    name: 'Dr. Armando Calderón Sol (ARENA)',
-    period: '1 de junio de 1994 – 1 de junio de 1999',
-    years: '1994 - 1999',
-    type: 'Constitucional',
-    context: 'Primer gobierno del período de posguerra plena, enfocado en modernización del Estado y privatizaciones de servicios públicos.',
-    pros: [
-      'Conclusión de los programas pendientes de desmovilización militar y policial pactados en Chapultepec.',
-      'Ampliación y modernización de la red vial nacional, pavimentando carreteras troncales y caminos rurales.',
-      'Atracción de inversión extranjera en el sector maquila y zonas francas industriales.',
-    ],
-    cons: [
-      'Aumento del Impuesto al Valor Agregado (IVA) del 10% al 13%, encareciendo la canasta básica familiar.',
-      'Privatización de la distribución eléctrica y de la telefonía estatal (ANTEL), con fuerte debate por tarifas al consumidor.',
-      'Cierre y desmantelamiento de empresas e instituciones de soporte alimentario como el Instituto Regulador de Abastecimientos (IRA).',
-    ],
-  },
-  {
-    id: 'francisco-flores',
-    name: 'Lic. Francisco Flores Pérez (ARENA)',
-    period: '1 de junio de 1999 – 1 de junio de 2004',
-    years: '1999 - 2004',
-    type: 'Constitucional',
-    context: 'Enfrentó los devastadores terremotos de enero y febrero de 2001 y lideró cambios monetarios trascendentales.',
-    pros: [
-      'Negociación e impulso del Tratado de Libre Comercio entre Centroamérica, República Dominicana y Estados Unidos (CAFTA-DR).',
-      'Gestión internacional eficiente de auxilio financiero y de reconstrucción de emergencia tras los terremotos de 2001.',
-      'Modernización tecnológica del sistema tributario aduanero.',
-    ],
-    cons: [
-      'Promulgación de la Ley de Integración Monetaria (2001) que dolarizó la economía eliminando el curso del colón salvadoreño, encareciendo el costo de vida y anulando la política monetaria soberana.',
-      'Aparición de planes de seguridad de mano dura sin atacar las causas estructurales de la violencia social.',
-      'Fue procesado judicialmente en 2014 por el destino de más de $15 millones de dólares donados por el gobierno de Taiwán para damnificados de los terremotos.',
-    ],
-  },
-  {
-    id: 'elias-antonio-saca',
-    name: 'Elías Antonio Saca González (ARENA)',
-    period: '1 de junio de 2004 – 1 de junio de 2009',
-    years: '2004 - 2009',
-    type: 'Constitucional',
-    context: 'Periodista radial y empresario que promovió un estilo populista centrado en subsidios focalizados.',
-    pros: [
-      'Creación del programa "Red Solidaria" (posteriormente Comunidades Solidarias) otorgando subsidios monetarios condicionados en los municipios de mayor pobreza extrema.',
-      'Creación del programa del vaso de leche y uniformes escolares para estudiantes de escuelas públicas.',
-      'Fuerte promoción de la marca país turística "El Salvador: Impresionante".',
-    ],
-    cons: [
-      'Desvío comprobado de más de $300 millones de dólares de la cuenta de gastos reservados de la Presidencia hacia cuentas privadas.',
-      'Fue procesado y condenado penalmente en juicio abreviado por los delitos de peculado y lavado de dinero.',
-      'Incremento sostenido de las tasas de homicidios y extorsiones en el territorio nacional.',
-    ],
-  },
-  {
-    id: 'mauricio-funes',
-    name: 'Carlos Mauricio Funes Cartagena (FMLN)',
-    period: '1 de junio de 2009 – 1 de junio de 2014',
-    years: '2009 - 2014',
-    type: 'Constitucional',
-    context: 'Primer presidente de izquierda en la historia republicana de El Salvador, tras dos décadas continuas de gobiernos de ARENA.',
-    pros: [
-      'Institucionalizó la entrega universal de paquetes escolares, calzado y uniformes a más de un millón de estudiantes del sistema público.',
-      'Creación del modelo pionero "Ciudad Mujer" brindando atención médica, psicológica y productiva integral.',
-      'Implementó la Pensión Básica Universal para adultos mayores en municipios vulnerables.',
-      'Eliminación de las cuotas "voluntarias" en hospitales públicos garantizando gratuidad médica de consulta.',
-    ],
-    cons: [
-      'Aprobación y respaldo tras bambalinas a la controvertida "Tregua entre Pandillas" (2012-2013) que concedió beneficios a cabecillas en penales.',
-      'Múltiples órdenes de captura judicial por presunta malversación de más de $351 millones de fondos públicos durante su gestión; obtuvo asilo y nacionalidad en Nicaragua para eludir la extradición.',
-    ],
-  },
-  {
-    id: 'salvador-sanchez-ceren',
-    name: 'Salvador Sánchez Cerén (FMLN)',
-    period: '1 de junio de 2014 – 1 de junio de 2019',
-    years: '2014 - 2019',
-    type: 'Constitucional',
-    context: 'Excomandante guerrillero y firmante de los Acuerdos de Paz, último gobernante del FMLN antes de la alternancia política de 2019.',
-    pros: [
-      'Aprobación de la histórica Ley de Prohibición de la Minería Metálica en El Salvador (2017), pionera en el mundo para proteger cuencas hídricas.',
-      'Continuidad de los programas de paquetes escolares y entrega de computadoras ("Un Niño, Una Niña, Una Computadora").',
-      'Apertura de relaciones diplomáticas con la República Popular China en agosto de 2018.',
-      'Ampliación de los programas de erradicación del analfabetismo en decenas de municipios.',
-    ],
-    cons: [
-      'Grave crisis de liquidez y endeudamiento de las finanzas estatales que llevó al país a un impago temporal de pensiones en 2017.',
-      'Altas tasas de criminalidad y violencia en los años 2014-2016 con picos críticos de inseguridad ciudadana.',
-      'Requerido por la justicia salvadoreña por presunto peculado y lavado de dinero derivado del uso de la partida de gastos reservados de la Presidencia; al igual que su antecesor, obtuvo nacionalidad nicaragüense.',
-    ],
-  },
-];
+type ActiveTab = 'curriculum' | 'symbols' | 'presidents' | 'quiz';
 
 export const PatrioticHistoryView: React.FC = () => {
-  const [activeTab, setActiveTab] = useState<'symbols' | 'presidents'>('symbols');
+  const [activeTab, setActiveTab] = useState<ActiveTab>('curriculum');
+
+  // Curriculum State
+  const [selectedUnitId, setSelectedUnitId] = useState<string>(PATRIOTIC_THEMATIC_UNITS[0].id);
+  const [expandedCaseId, setExpandedCaseId] = useState<string | null>(
+    PATRIOTIC_THEMATIC_UNITS[0].solvedCaseStudies[0]?.id || null
+  );
+
+  // Symbols State
   const [selectedSymbolId, setSelectedSymbolId] = useState<string>('bandera');
+
+  // Presidents State
   const [presidentSearch, setPresidentSearch] = useState<string>('');
   const [expandedPresidentId, setExpandedPresidentId] = useState<string | null>('manuel-enrique-araujo');
 
-  const selectedSymbol = PATRIOTIC_SYMBOLS.find((s) => s.id === selectedSymbolId) || PATRIOTIC_SYMBOLS[0];
+  // Quiz State
+  const [quizQuestionsCount, setQuizQuestionsCount] = useState<number>(20);
+  const [quizSelectedUnitFilter, setQuizSelectedUnitFilter] = useState<string>('all');
+  const [quizStarted, setQuizStarted] = useState<boolean>(false);
+  const [quizFinished, setQuizFinished] = useState<boolean>(false);
+  const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
+  const [userAnswers, setUserAnswers] = useState<Record<number, number>>({});
+  const [quizSecondsElapsed, setQuizSecondsElapsed] = useState<number>(0);
 
-  const filteredPresidents = HISTORICAL_PRESIDENTS.filter((p) => {
-    if (!presidentSearch.trim()) return true;
+  // Current Unit
+  const currentUnit = useMemo(() => {
+    return PATRIOTIC_THEMATIC_UNITS.find((u) => u.id === selectedUnitId) || PATRIOTIC_THEMATIC_UNITS[0];
+  }, [selectedUnitId]);
+
+  // Selected Symbol
+  const selectedSymbol = useMemo(() => {
+    return PATRIOTIC_SYMBOLS.find((s) => s.id === selectedSymbolId) || PATRIOTIC_SYMBOLS[0];
+  }, [selectedSymbolId]);
+
+  // Filtered Presidents
+  const filteredPresidents = useMemo(() => {
+    if (!presidentSearch.trim()) return HISTORICAL_PRESIDENTS;
     const q = presidentSearch.toLowerCase();
-    return p.name.toLowerCase().includes(q) || p.years.includes(q) || p.context.toLowerCase().includes(q);
-  });
+    return HISTORICAL_PRESIDENTS.filter(
+      (p) =>
+        p.name.toLowerCase().includes(q) ||
+        p.years.includes(q) ||
+        p.context.toLowerCase().includes(q)
+    );
+  }, [presidentSearch]);
+
+  // Active Quiz Question Set
+  const activeQuizQuestions = useMemo(() => {
+    let pool = PATRIOTIC_QUESTIONS;
+    if (quizSelectedUnitFilter !== 'all') {
+      pool = pool.filter((q) => q.thematicUnitId === quizSelectedUnitFilter);
+    }
+    return pool.slice(0, Math.min(quizQuestionsCount, pool.length));
+  }, [quizSelectedUnitFilter, quizQuestionsCount]);
+
+  // Quiz Timer
+  useEffect(() => {
+    let timer: any = null;
+    if (quizStarted && !quizFinished) {
+      timer = setInterval(() => {
+        setQuizSecondsElapsed((prev) => prev + 1);
+      }, 1000);
+    }
+    return () => {
+      if (timer) clearInterval(timer);
+    };
+  }, [quizStarted, quizFinished]);
+
+  // Quiz Actions
+  const handleStartQuiz = () => {
+    setUserAnswers({});
+    setCurrentQuestionIndex(0);
+    setQuizSecondsElapsed(0);
+    setQuizFinished(false);
+    setQuizStarted(true);
+  };
+
+  const handleSelectAnswer = (optionIndex: number) => {
+    if (quizFinished) return;
+    setUserAnswers((prev) => ({
+      ...prev,
+      [currentQuestionIndex]: optionIndex,
+    }));
+  };
+
+  const handleFinishQuiz = () => {
+    setQuizFinished(true);
+  };
+
+  const handleResetQuiz = () => {
+    setQuizStarted(false);
+    setQuizFinished(false);
+    setUserAnswers({});
+    setCurrentQuestionIndex(0);
+    setQuizSecondsElapsed(0);
+  };
+
+  // Score Calculation (Salvadoran Scale 0.0 - 10.0)
+  const quizResults = useMemo(() => {
+    if (!activeQuizQuestions.length) return { correct: 0, total: 0, grade: '0.0', pct: 0 };
+    let correct = 0;
+    activeQuizQuestions.forEach((q, idx) => {
+      if (userAnswers[idx] === q.correctAnswer) {
+        correct++;
+      }
+    });
+    const total = activeQuizQuestions.length;
+    const gradeVal = (correct / total) * 10;
+    const grade = gradeVal.toFixed(1);
+    const pct = Math.round((correct / total) * 100);
+    return { correct, total, grade, pct };
+  }, [activeQuizQuestions, userAnswers]);
+
+  const formatTime = (totalSeconds: number) => {
+    const mins = Math.floor(totalSeconds / 60);
+    const secs = totalSeconds % 60;
+    return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+  };
+
+  const getUnitIcon = (unitId: string) => {
+    switch (unitId) {
+      case 'unit-precolombino':
+        return <Landmark className="w-4 h-4 text-amber-500" />;
+      case 'unit-independencia':
+        return <Scroll className="w-4 h-4 text-blue-500" />;
+      case 'unit-republica-moderna':
+        return <History className="w-4 h-4 text-emerald-500" />;
+      case 'unit-simbolos-valores':
+        return <Shield className="w-4 h-4 text-purple-500" />;
+      case 'unit-patrimonio-literatura':
+        return <BookOpen className="w-4 h-4 text-rose-500" />;
+      default:
+        return <Sparkles className="w-4 h-4 text-blue-500" />;
+    }
+  };
 
   return (
     <div className="space-y-6">
@@ -498,50 +202,289 @@ export const PatrioticHistoryView: React.FC = () => {
         <div className="relative z-10 space-y-4">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 text-xs font-bold border border-blue-500/30">
             <Flag className="w-3.5 h-3.5 text-amber-400" />
-            <span>Identidad Nacional • Historia Republicana</span>
+            <span>Identidad Nacional • Historia Cuscatleca • Civismo y Democracia</span>
           </div>
 
           <h2 className="text-2xl sm:text-3xl font-black tracking-tight font-montenegrin">
-            Símbolos Patrios e Historial de Presidentes de El Salvador
+            Historia Patria, Civismo y Cultura Cuscatleca
           </h2>
           <p className="text-slate-300 text-xs sm:text-sm max-w-3xl leading-relaxed">
-            Profundiza en la simbología cívica oficial de la República de El Salvador y recorre el análisis
-            histórico objetivo de las gestiones presidenciales constitucionales y republicanas (pros y contras),
-            fomentando el pensamiento crítico cívico en el marco de la Constitución y la historia patria.
+            Explora el plan curricular modular con rigor historiográfico: desde los pueblos originarios precolombinos y las
+            gestas libertarias de 1811 y 1821, hasta la república moderna cafetalera, los Acuerdos de Paz de 1992, los símbolos
+            patrios oficiales y la excelsa literatura cuscatleca.
           </p>
 
-          {/* Selector de Pestaña Principal */}
+          {/* Selector de Pestaña Principal (4 Pestañas) */}
           <div className="pt-2 flex flex-wrap items-center gap-2.5">
             <button
               type="button"
+              onClick={() => setActiveTab('curriculum')}
+              className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-2 ${
+                activeTab === 'curriculum'
+                  ? 'bg-blue-600 text-white shadow-md'
+                  : 'bg-white/10 text-slate-300 hover:bg-white/20'
+              }`}
+            >
+              <BookOpen className="w-4 h-4 text-sky-300" />
+              <span>Unidades Curriculares ({PATRIOTIC_THEMATIC_UNITS.length})</span>
+            </button>
+
+            <button
+              type="button"
               onClick={() => setActiveTab('symbols')}
-              className={`px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-2 ${
+              className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-2 ${
                 activeTab === 'symbols'
                   ? 'bg-blue-600 text-white shadow-md'
                   : 'bg-white/10 text-slate-300 hover:bg-white/20'
               }`}
             >
               <Shield className="w-4 h-4 text-amber-300" />
-              <span>Símbolos Patrios Oficiales ({PATRIOTIC_SYMBOLS.length})</span>
+              <span>Símbolos Patrios ({PATRIOTIC_SYMBOLS.length})</span>
             </button>
 
             <button
               type="button"
               onClick={() => setActiveTab('presidents')}
-              className={`px-4 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-2 ${
+              className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-2 ${
                 activeTab === 'presidents'
                   ? 'bg-amber-400 text-slate-950 shadow-md font-black'
                   : 'bg-white/10 text-amber-300 hover:bg-white/20 border border-amber-400/30'
               }`}
             >
               <History className="w-4 h-4 text-amber-500" />
-              <span>Historial Presidencial (Pros & Contras)</span>
+              <span>Historial Presidencial ({HISTORICAL_PRESIDENTS.length})</span>
+            </button>
+
+            <button
+              type="button"
+              onClick={() => setActiveTab('quiz')}
+              className={`px-4 py-2.5 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-2 ${
+                activeTab === 'quiz'
+                  ? 'bg-emerald-500 text-slate-950 shadow-md font-black'
+                  : 'bg-white/10 text-emerald-300 hover:bg-white/20 border border-emerald-400/30'
+              }`}
+            >
+              <Award className="w-4 h-4 text-emerald-400" />
+              <span>Simulador de Evaluación ({PATRIOTIC_QUESTIONS.length} preguntas)</span>
             </button>
           </div>
         </div>
       </div>
 
-      {/* PESTAÑA 1: SÍMBOLOS PATRIOS */}
+      {/* PESTAÑA 1: PLAN CURRICULAR MODULAR */}
+      {activeTab === 'curriculum' && (
+        <div className="space-y-6">
+          {/* Selector de Unidades Temáticas */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+            {PATRIOTIC_THEMATIC_UNITS.map((unit, uIdx) => {
+              const isSelected = selectedUnitId === unit.id;
+              return (
+                <button
+                  key={unit.id}
+                  type="button"
+                  onClick={() => {
+                    setSelectedUnitId(unit.id);
+                    setExpandedCaseId(unit.solvedCaseStudies[0]?.id || null);
+                  }}
+                  className={`p-3.5 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between gap-2 ${
+                    isSelected
+                      ? 'bg-blue-50/90 border-blue-600 shadow-sm ring-2 ring-blue-500/20'
+                      : 'bg-white border-slate-200/90 hover:bg-slate-50'
+                  }`}
+                >
+                  <div className="flex items-center justify-between w-full">
+                    <span className="text-[10px] font-mono font-bold bg-slate-100 text-slate-700 px-2 py-0.5 rounded-md">
+                      Unidad {uIdx + 1}
+                    </span>
+                    {getUnitIcon(unit.id)}
+                  </div>
+                  <div>
+                    <h4 className="text-xs font-black text-slate-900 leading-snug line-clamp-2">
+                      {unit.title}
+                    </h4>
+                    <span className="text-[10px] font-mono text-slate-500 block mt-1">
+                      {unit.period}
+                    </span>
+                  </div>
+                  <div className="text-[10px] text-blue-700 font-bold flex items-center gap-1 pt-1 border-t border-slate-100">
+                    <span>{unit.solvedCaseStudies.length} Casos Resueltos</span>
+                  </div>
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Detalle de la Unidad Seleccionada */}
+          <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-xs space-y-8">
+            {/* Cabecera de la Unidad */}
+            <div className="pb-6 border-b border-slate-100 space-y-3">
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className="text-xs font-mono font-bold bg-blue-100 text-blue-900 px-3 py-1 rounded-full border border-blue-200">
+                  Período: {currentUnit.period}
+                </span>
+                <span className="text-xs font-bold bg-amber-50 text-amber-900 px-3 py-1 rounded-full border border-amber-200">
+                  5 Casos de Estudio Resueltos
+                </span>
+                <span className="text-xs font-mono text-slate-500">
+                  {currentUnit.substantiveAnalysis.trim().split(/\s+/).length} palabras sustantivas
+                </span>
+              </div>
+              <h3 className="text-xl sm:text-3xl font-black text-slate-900 font-montenegrin">
+                {currentUnit.title}
+              </h3>
+              <p className="text-xs sm:text-sm text-slate-600 font-medium leading-relaxed">
+                {currentUnit.subtitle}
+              </p>
+            </div>
+
+            {/* Análisis Sustantivo Riguroso */}
+            <div className="space-y-4">
+              <h4 className="text-xs font-black uppercase tracking-wider text-slate-700 flex items-center gap-2 font-mono">
+                <BookOpen className="w-4 h-4 text-blue-600" />
+                <span>Análisis Teórico e Historiográfico Sustantivo:</span>
+              </h4>
+
+              <div className="bg-slate-50/80 rounded-2xl p-5 sm:p-7 border border-slate-200/80 space-y-4 text-xs sm:text-sm text-slate-800 leading-relaxed text-justify">
+                {currentUnit.substantiveAnalysis.split('\n\n').map((paragraph, pIdx) => (
+                  <p key={pIdx} className="leading-relaxed">
+                    {paragraph.trim()}
+                  </p>
+                ))}
+              </div>
+            </div>
+
+            {/* Línea de Tiempo de Hitos Históricos Clave */}
+            <div className="space-y-4">
+              <h4 className="text-xs font-black uppercase tracking-wider text-slate-700 flex items-center gap-2 font-mono">
+                <Calendar className="w-4 h-4 text-amber-600" />
+                <span>Hitos Cronológicos y Trascendencia Cívica:</span>
+              </h4>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                {currentUnit.keyMilestones.map((milestone, mIdx) => (
+                  <div
+                    key={mIdx}
+                    className="p-4 rounded-2xl bg-white border border-slate-200 shadow-2xs space-y-1.5"
+                  >
+                    <div className="flex items-center justify-between">
+                      <span className="text-xs font-mono font-black text-blue-700 bg-blue-50 px-2 py-0.5 rounded-md border border-blue-100">
+                        {milestone.year}
+                      </span>
+                    </div>
+                    <h5 className="font-extrabold text-xs text-slate-900 leading-snug">
+                      {milestone.event}
+                    </h5>
+                    <p className="text-[11px] text-slate-600 leading-relaxed">
+                      {milestone.significance}
+                    </p>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Casos Prácticos e Histórico-Cívicos Resueltos */}
+            <div className="space-y-4 pt-4 border-t border-slate-100">
+              <div className="flex items-center justify-between flex-wrap gap-2">
+                <h4 className="text-xs font-black uppercase tracking-wider text-slate-700 flex items-center gap-2 font-mono">
+                  <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                  <span>Casos Prácticos e Historiográficos Resueltos ({currentUnit.solvedCaseStudies.length}):</span>
+                </h4>
+                <span className="text-[11px] text-slate-500">
+                  Haz clic en cada caso para expandir el dilema cívico y su resolución
+                </span>
+              </div>
+
+              <div className="space-y-3">
+                {currentUnit.solvedCaseStudies.map((caseStudy, cIdx) => {
+                  const isExpanded = expandedCaseId === caseStudy.id;
+                  return (
+                    <div
+                      key={caseStudy.id}
+                      className={`rounded-2xl border transition-all overflow-hidden ${
+                        isExpanded
+                          ? 'bg-white border-blue-300 ring-2 ring-blue-500/10 shadow-sm'
+                          : 'bg-slate-50/70 border-slate-200 hover:bg-slate-100/70'
+                      }`}
+                    >
+                      <button
+                        type="button"
+                        onClick={() => setExpandedCaseId(isExpanded ? null : caseStudy.id)}
+                        className="w-full p-4 sm:p-5 flex items-center justify-between gap-4 text-left cursor-pointer"
+                      >
+                        <div className="flex items-center gap-3">
+                          <div className="w-8 h-8 rounded-xl bg-blue-100 text-blue-900 font-mono font-black text-xs flex items-center justify-center shrink-0">
+                            C{cIdx + 1}
+                          </div>
+                          <div>
+                            <h5 className="font-extrabold text-xs sm:text-sm text-slate-900">
+                              {caseStudy.title}
+                            </h5>
+                            <span className="text-[10px] font-mono text-slate-500">
+                              ID: {caseStudy.id}
+                            </span>
+                          </div>
+                        </div>
+
+                        <div className="w-7 h-7 rounded-full bg-white border border-slate-200 flex items-center justify-center text-slate-600 shrink-0">
+                          {isExpanded ? <ChevronUp className="w-4 h-4" /> : <ChevronDown className="w-4 h-4" />}
+                        </div>
+                      </button>
+
+                      {isExpanded && (
+                        <div className="p-4 sm:p-6 pt-0 border-t border-slate-100 space-y-4 text-xs sm:text-sm">
+                          {/* Contexto Histórico */}
+                          <div className="space-y-1">
+                            <span className="text-[10px] font-bold uppercase tracking-wider text-slate-500 font-mono block">
+                              1. Contexto Histórico:
+                            </span>
+                            <p className="text-xs text-slate-700 leading-relaxed bg-slate-50 p-3.5 rounded-xl border border-slate-200/80">
+                              {caseStudy.historicalContext}
+                            </p>
+                          </div>
+
+                          {/* Dilema o Asunto Cívico */}
+                          <div className="bg-amber-50/70 border border-amber-200 rounded-xl p-3.5 space-y-1 text-xs">
+                            <span className="font-bold uppercase tracking-wider text-[10px] text-amber-900 font-mono flex items-center gap-1.5">
+                              <AlertTriangle className="w-3.5 h-3.5 text-amber-600" />
+                              <span>2. Dilema o Problema Histórico-Cívico:</span>
+                            </span>
+                            <p className="text-amber-950 font-medium leading-relaxed">
+                              {caseStudy.dilemmaOrIssue}
+                            </p>
+                          </div>
+
+                          {/* Análisis Historiográfico Fundamentado */}
+                          <div className="space-y-1">
+                            <span className="text-[10px] font-bold uppercase tracking-wider text-blue-900 font-mono block">
+                              3. Análisis Historiográfico y Evidencia Documental:
+                            </span>
+                            <p className="text-xs text-slate-800 leading-relaxed bg-blue-50/50 p-3.5 rounded-xl border border-blue-200/60 text-justify">
+                              {caseStudy.historiographicalAnalysis}
+                            </p>
+                          </div>
+
+                          {/* Trascendencia y Reflexión Cívica */}
+                          <div className="bg-emerald-50/80 border border-emerald-200 rounded-xl p-3.5 space-y-1 text-xs">
+                            <span className="font-bold uppercase tracking-wider text-[10px] text-emerald-950 font-mono flex items-center gap-1.5">
+                              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-600" />
+                              <span>4. Trascendencia Cívica y Relevancia Democrática Contemporánea:</span>
+                            </span>
+                            <p className="text-emerald-950 font-medium leading-relaxed">
+                              {caseStudy.civicSignificance}
+                            </p>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* PESTAÑA 2: SÍMBOLOS PATRIOS OFICIALES */}
       {activeTab === 'symbols' && (
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
           {/* Menú de Selección de Símbolos */}
@@ -633,7 +576,7 @@ export const PatrioticHistoryView: React.FC = () => {
         </div>
       )}
 
-      {/* PESTAÑA 2: HISTORIAL DE PRESIDENTES CON PROS Y CONTRAS */}
+      {/* PESTAÑA 3: HISTORIAL DE PRESIDENTES CON PROS Y CONTRAS */}
       {activeTab === 'presidents' && (
         <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-7 shadow-xs space-y-6">
           <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 border-b border-slate-100">
@@ -745,6 +688,319 @@ export const PatrioticHistoryView: React.FC = () => {
               );
             })}
           </div>
+        </div>
+      )}
+
+      {/* PESTAÑA 4: SIMULADOR DE EVALUACIÓN CÍVICA E HISTÓRICA */}
+      {activeTab === 'quiz' && (
+        <div className="bg-white rounded-3xl border border-slate-200 p-6 sm:p-8 shadow-xs space-y-6">
+          {!quizStarted ? (
+            /* Pantalla Inicial de Configuración del Examen */
+            <div className="max-w-2xl mx-auto text-center space-y-6 py-6">
+              <div className="w-16 h-16 rounded-3xl bg-emerald-100 text-emerald-800 flex items-center justify-center mx-auto shadow-inner">
+                <Award className="w-8 h-8 text-emerald-600" />
+              </div>
+
+              <div className="space-y-2">
+                <h3 className="text-2xl sm:text-3xl font-black text-slate-900 font-montenegrin">
+                  Simulador de Evaluación de Historia Patria y Civismo
+                </h3>
+                <p className="text-xs sm:text-sm text-slate-600 leading-relaxed max-w-xl mx-auto">
+                  Pon a prueba tus conocimientos sobre la era precolombina, la independencia centroamericana, la historia
+                  republicana contemporánea, los símbolos patrios y el patrimonio literario salvadoreño.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-left max-w-lg mx-auto bg-slate-50 p-5 rounded-2xl border border-slate-200/90">
+                <div className="space-y-1.5">
+                  <label className="text-xs font-bold text-slate-700 block font-mono">
+                    Cantidad de Preguntas:
+                  </label>
+                  <select
+                    value={quizQuestionsCount}
+                    onChange={(e) => setQuizQuestionsCount(Number(e.target.value))}
+                    className="w-full text-xs font-medium bg-white border border-slate-300 rounded-xl p-2.5 focus:ring-2 focus:ring-blue-500"
+                  >
+                    <option value={10}>10 Preguntas (Rápido)</option>
+                    <option value={20}>20 Preguntas (Estándar)</option>
+                    <option value={35}>35 Preguntas (Avanzado)</option>
+                    <option value={55}>55 Preguntas (Banco Completo)</option>
+                  </select>
+                </div>
+
+                <div className="space-y-1.5">
+                  <label className="text-xs font-bold text-slate-700 block font-mono">
+                    Filtro por Unidad:
+                  </label>
+                  <select
+                    value={quizSelectedUnitFilter}
+                    onChange={(e) => setQuizSelectedUnitFilter(e.target.value)}
+                    className="w-full text-xs font-medium bg-white border border-slate-300 rounded-xl p-2.5 focus:ring-2 focus:ring-blue-500"
+                  >
+                    <option value="all">Todas las Unidades (Global)</option>
+                    <option value="unit-precolombino">U1: Era Precolombina</option>
+                    <option value="unit-independencia">U2: Independencia & Federación</option>
+                    <option value="unit-republica-moderna">U3: República Moderna</option>
+                    <option value="unit-simbolos-valores">U4: Símbolos & Valores Cívicos</option>
+                    <option value="unit-patrimonio-literatura">U5: Patrimonio & Literatura</option>
+                  </select>
+                </div>
+              </div>
+
+              <div className="pt-2">
+                <button
+                  type="button"
+                  onClick={handleStartQuiz}
+                  className="px-8 py-3.5 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-sm shadow-md transition-all cursor-pointer inline-flex items-center gap-2"
+                >
+                  <Sparkles className="w-4 h-4 text-amber-300" />
+                  <span>Comenzar Evaluación ({activeQuizQuestions.length} Preguntas)</span>
+                </button>
+              </div>
+            </div>
+          ) : !quizFinished ? (
+            /* Pantalla del Examen Activo */
+            <div className="space-y-6 max-w-3xl mx-auto">
+              {/* Barra Superior con Progreso y Temporizador */}
+              <div className="flex items-center justify-between pb-4 border-b border-slate-100 flex-wrap gap-3">
+                <div className="flex items-center gap-2">
+                  <span className="text-xs font-mono font-bold bg-blue-100 text-blue-900 px-3 py-1 rounded-full">
+                    Pregunta {currentQuestionIndex + 1} de {activeQuizQuestions.length}
+                  </span>
+                  <span className="text-xs text-slate-500">
+                    Respondidas: {Object.keys(userAnswers).length} / {activeQuizQuestions.length}
+                  </span>
+                </div>
+
+                <div className="flex items-center gap-2 font-mono text-xs font-bold bg-slate-100 px-3 py-1 rounded-full text-slate-700">
+                  <Clock className="w-3.5 h-3.5 text-blue-600" />
+                  <span>Tiempo: {formatTime(quizSecondsElapsed)}</span>
+                </div>
+              </div>
+
+              {/* Pregunta Actual */}
+              {activeQuizQuestions[currentQuestionIndex] && (
+                <div className="space-y-6">
+                  <div className="space-y-2">
+                    <span className="text-[10px] font-mono font-bold uppercase tracking-wider text-blue-700 bg-blue-50 px-2 py-0.5 rounded-md border border-blue-100">
+                      ID: {activeQuizQuestions[currentQuestionIndex].id}
+                    </span>
+                    <h4 className="text-base sm:text-lg font-bold text-slate-900 leading-snug">
+                      {activeQuizQuestions[currentQuestionIndex].question}
+                    </h4>
+                  </div>
+
+                  {/* Opciones A, B, C, D */}
+                  <div className="space-y-2.5">
+                    {activeQuizQuestions[currentQuestionIndex].options.map((option, optIdx) => {
+                      const isSelected = userAnswers[currentQuestionIndex] === optIdx;
+                      const letter = String.fromCharCode(65 + optIdx);
+                      return (
+                        <button
+                          key={optIdx}
+                          type="button"
+                          onClick={() => handleSelectAnswer(optIdx)}
+                          className={`w-full p-4 rounded-2xl border text-left transition-all cursor-pointer flex items-center gap-3.5 ${
+                            isSelected
+                              ? 'bg-blue-50 border-blue-600 text-blue-950 font-bold ring-2 ring-blue-500/20 shadow-xs'
+                              : 'bg-white border-slate-200/90 hover:bg-slate-50 text-slate-700'
+                          }`}
+                        >
+                          <div
+                            className={`w-7 h-7 rounded-lg font-mono font-bold text-xs flex items-center justify-center shrink-0 ${
+                              isSelected
+                                ? 'bg-blue-600 text-white'
+                                : 'bg-slate-100 text-slate-700'
+                            }`}
+                          >
+                            {letter}
+                          </div>
+                          <span className="text-xs sm:text-sm leading-relaxed">{option}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+
+                  {/* Navegación entre Preguntas */}
+                  <div className="pt-4 flex items-center justify-between border-t border-slate-100 flex-wrap gap-2">
+                    <button
+                      type="button"
+                      disabled={currentQuestionIndex === 0}
+                      onClick={() => setCurrentQuestionIndex((prev) => Math.max(0, prev - 1))}
+                      className="px-4 py-2 rounded-xl border border-slate-200 text-xs font-bold text-slate-700 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed flex items-center gap-1.5 cursor-pointer"
+                    >
+                      <ArrowLeft className="w-3.5 h-3.5" />
+                      <span>Anterior</span>
+                    </button>
+
+                    <div className="flex items-center gap-2">
+                      {currentQuestionIndex < activeQuizQuestions.length - 1 ? (
+                        <button
+                          type="button"
+                          onClick={() => setCurrentQuestionIndex((prev) => prev + 1)}
+                          className="px-5 py-2 rounded-xl bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold flex items-center gap-1.5 cursor-pointer"
+                        >
+                          <span>Siguiente</span>
+                          <ArrowRight className="w-3.5 h-3.5" />
+                        </button>
+                      ) : (
+                        <button
+                          type="button"
+                          onClick={handleFinishQuiz}
+                          className="px-6 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold flex items-center gap-1.5 cursor-pointer shadow-sm"
+                        >
+                          <Check className="w-3.5 h-3.5" />
+                          <span>Finalizar y Calificar</span>
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              )}
+            </div>
+          ) : (
+            /* Pantalla de Resultados y Calificación Oficial */
+            <div className="space-y-8 max-w-3xl mx-auto">
+              <div className="text-center space-y-4 bg-gradient-to-br from-slate-900 to-blue-950 p-6 sm:p-8 rounded-3xl text-white shadow-md">
+                <span className="text-xs font-mono font-bold uppercase tracking-wider text-amber-300 bg-amber-400/20 px-3 py-1 rounded-full border border-amber-400/30">
+                  Calificación Oficial del Examen
+                </span>
+
+                <div className="flex items-center justify-center gap-2 pt-2">
+                  <span className="text-5xl sm:text-6xl font-black text-amber-400 font-montenegrin">
+                    {quizResults.grade}
+                  </span>
+                  <span className="text-2xl text-slate-400 font-bold">/ 10.0</span>
+                </div>
+
+                <p className="text-xs sm:text-sm text-slate-300 max-w-md mx-auto">
+                  {Number(quizResults.grade) >= 8.0
+                    ? '¡Excelente dominio de la Historia Patria y el Civismo de El Salvador!'
+                    : Number(quizResults.grade) >= 6.0
+                    ? 'Aprobado. Buen conocimiento cívico, con áreas de oportunidad para repasar.'
+                    : 'Necesitas repasar las unidades temáticas para afianzar los conceptos fundamentales.'}
+                </p>
+
+                <div className="flex items-center justify-center gap-6 pt-2 text-xs font-mono">
+                  <div>
+                    <span className="text-slate-400 block">Aciertos</span>
+                    <span className="text-base font-bold text-emerald-400">
+                      {quizResults.correct} / {quizResults.total}
+                    </span>
+                  </div>
+                  <div>
+                    <span className="text-slate-400 block">Porcentaje</span>
+                    <span className="text-base font-bold text-sky-400">{quizResults.pct}%</span>
+                  </div>
+                  <div>
+                    <span className="text-slate-400 block">Tiempo</span>
+                    <span className="text-base font-bold text-amber-300">
+                      {formatTime(quizSecondsElapsed)}
+                    </span>
+                  </div>
+                </div>
+
+                <div className="pt-2">
+                  <button
+                    type="button"
+                    onClick={handleResetQuiz}
+                    className="px-6 py-2.5 rounded-xl bg-white/20 hover:bg-white/30 text-white text-xs font-bold inline-flex items-center gap-2 cursor-pointer transition-colors"
+                  >
+                    <RotateCcw className="w-3.5 h-3.5 text-amber-300" />
+                    <span>Realizar Nueva Evaluación</span>
+                  </button>
+                </div>
+              </div>
+
+              {/* Revisión Detallada Pregunta por Pregunta */}
+              <div className="space-y-4">
+                <h4 className="text-xs font-bold uppercase tracking-wider text-slate-700 flex items-center gap-1.5 font-mono">
+                  <CheckCircle2 className="w-4 h-4 text-blue-600" />
+                  <span>Revisión Detallada de Respuestas y Justificaciones:</span>
+                </h4>
+
+                <div className="space-y-3">
+                  {activeQuizQuestions.map((q, idx) => {
+                    const selected = userAnswers[idx];
+                    const isCorrect = selected === q.correctAnswer;
+                    return (
+                      <div
+                        key={q.id}
+                        className={`p-4 sm:p-5 rounded-2xl border transition-all ${
+                          isCorrect
+                            ? 'bg-emerald-50/50 border-emerald-200'
+                            : 'bg-rose-50/50 border-rose-200'
+                        }`}
+                      >
+                        <div className="flex items-start justify-between gap-3">
+                          <div className="space-y-1 flex-1">
+                            <div className="flex items-center gap-2 flex-wrap">
+                              <span
+                                className={`text-[10px] font-mono font-bold px-2 py-0.5 rounded-md ${
+                                  isCorrect
+                                    ? 'bg-emerald-200/70 text-emerald-900'
+                                    : 'bg-rose-200/70 text-rose-900'
+                                }`}
+                              >
+                                Pregunta {idx + 1} • {isCorrect ? 'Correcta' : 'Incorrecta'}
+                              </span>
+                              <span className="text-[10px] font-mono text-slate-500">ID: {q.id}</span>
+                            </div>
+                            <h5 className="font-bold text-xs sm:text-sm text-slate-900 mt-1">
+                              {q.question}
+                            </h5>
+                          </div>
+
+                          <div
+                            className={`w-7 h-7 rounded-full flex items-center justify-center shrink-0 ${
+                              isCorrect
+                                ? 'bg-emerald-500 text-white'
+                                : 'bg-rose-500 text-white'
+                            }`}
+                          >
+                            {isCorrect ? <Check className="w-4 h-4" /> : <X className="w-4 h-4" />}
+                          </div>
+                        </div>
+
+                        {/* Comparación de Opciones */}
+                        <div className="mt-3 text-xs space-y-1.5">
+                          <p className="text-slate-700">
+                            <span className="font-bold">Tu respuesta: </span>
+                            {selected !== undefined ? (
+                              <span>
+                                {String.fromCharCode(65 + selected)}. {q.options[selected]}
+                              </span>
+                            ) : (
+                              <span className="italic text-slate-400">Sin responder</span>
+                            )}
+                          </p>
+
+                          {!isCorrect && (
+                            <p className="text-emerald-900 font-medium">
+                              <span className="font-bold">Respuesta correcta: </span>
+                              {String.fromCharCode(65 + q.correctAnswer)}. {q.options[q.correctAnswer]}
+                            </p>
+                          )}
+                        </div>
+
+                        {/* Explicación y Referencia Histórica */}
+                        <div className="mt-3 pt-3 border-t border-slate-200/60 text-xs space-y-1">
+                          <p className="text-slate-800 leading-relaxed font-medium">
+                            <span className="font-bold text-slate-900">Explicación: </span>
+                            {q.explanation}
+                          </p>
+                          <p className="text-[11px] text-slate-500 font-mono">
+                            <span className="font-bold">Referencia: </span>
+                            {q.historicalReference}
+                          </p>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          )}
         </div>
       )}
     </div>

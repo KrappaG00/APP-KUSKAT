@@ -381,6 +381,18 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
     });
   }, [loadedQuestions, selectedInst, selectedSectionTitle, selectedSubtopicId, activeSubtopic, questionSearchQuery, selectedLevel]);
 
+  // Google AdSense Policy Compliance: variables de control de contenido sustantivo
+  const filteredCategories = filteredSubjects;
+  const hasSubstantiveCategoryContent =
+    !loadingQuestions &&
+    filteredCategories.length > 0 &&
+    (displayedQuestions.length > 0 || Boolean(currentCategoryTheory?.detailedTheory));
+
+  const categoryContentSnippet =
+    currentCategoryTheory?.detailedTheory ||
+    displayedQuestions.slice(0, 3).map((q) => q.statement).join(' ') ||
+    '';
+
   // Agrupación Jerárquica: Tipo -> Materia -> Tema -> Sección
   const groupedHierarchy = useMemo(() => {
     const groups: {
@@ -664,7 +676,16 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       </div>
 
       {/* Anuncio 1 / 5 (Categorías) */}
-      <AdBanner variant="light" positionLabel="Categorías • 1/5 Superior" slotId="4241045160_c1" />
+      <AdBanner
+        variant="light"
+        positionLabel="Categorías • 1/5 Superior"
+        slotId="4241045160_c1"
+        hasPublisherContent={hasSubstantiveCategoryContent}
+        isLoading={loadingQuestions}
+        isEmpty={filteredCategories.length === 0}
+        minSubstantiveWords={20}
+        contentSnippet={categoryContentSnippet}
+      />
 
       {/* Botón flotante para abrir el menú en dispositivos móviles (sincronizado con altura del header) */}
       <div className="lg:hidden flex items-center justify-between bg-white p-3 rounded-2xl border border-slate-200 shadow-xs sticky top-20 sm:top-24 z-20">
@@ -1156,7 +1177,16 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
 
           {/* Anuncio 2 / 5 (Categorías) */}
           <div className="pt-2 border-t border-slate-100">
-            <AdBanner variant="light" positionLabel="Categorías • 2/5 Filtros" slotId="4241045160_c2" />
+            <AdBanner
+              variant="light"
+              positionLabel="Categorías • 2/5 Filtros"
+              slotId="4241045160_c2"
+              hasPublisherContent={hasSubstantiveCategoryContent}
+              isLoading={loadingQuestions}
+              isEmpty={filteredCategories.length === 0}
+              minSubstantiveWords={20}
+              contentSnippet={categoryContentSnippet}
+            />
           </div>
         </aside>
 
@@ -1364,7 +1394,16 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           />
 
           {/* Anuncio 3 / 5 (Categorías) */}
-          <AdBanner variant="light" positionLabel="Categorías • 3/5 Explorador" slotId="4241045160_c3" />
+          <AdBanner
+            variant="light"
+            positionLabel="Categorías • 3/5 Explorador"
+            slotId="4241045160_c3"
+            hasPublisherContent={hasSubstantiveCategoryContent}
+            isLoading={loadingQuestions}
+            isEmpty={filteredCategories.length === 0}
+            minSubstantiveWords={20}
+            contentSnippet={categoryContentSnippet}
+          />
 
           {/* ================================================================ */}
           {/* LISTADO DE PREGUNTAS AGRUPADAS POR SECCIÓN, TEMA, MATERIA Y TIPO */}
@@ -1871,12 +1910,30 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           )}
 
           {/* Anuncio 4 / 5 (Categorías) */}
-          <AdBanner variant="light" positionLabel="Categorías • 4/5 Reactivos" slotId="4241045160_c4" />
+          <AdBanner
+            variant="light"
+            positionLabel="Categorías • 4/5 Reactivos"
+            slotId="4241045160_c4"
+            hasPublisherContent={hasSubstantiveCategoryContent}
+            isLoading={loadingQuestions}
+            isEmpty={filteredCategories.length === 0}
+            minSubstantiveWords={20}
+            contentSnippet={categoryContentSnippet}
+          />
         </section>
       </div>
 
       {/* Anuncio 5 / 5 (Categorías) */}
-      <AdBanner variant="light" positionLabel="Categorías • 5/5 Inferior" slotId="4241045160_c5" />
+      <AdBanner
+        variant="light"
+        positionLabel="Categorías • 5/5 Inferior"
+        slotId="4241045160_c5"
+        hasPublisherContent={hasSubstantiveCategoryContent}
+        isLoading={loadingQuestions}
+        isEmpty={filteredCategories.length === 0}
+        minSubstantiveWords={20}
+        contentSnippet={categoryContentSnippet}
+      />
     </div>
   );
 };

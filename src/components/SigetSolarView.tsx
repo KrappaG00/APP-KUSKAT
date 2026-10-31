@@ -17,12 +17,20 @@ import {
   CheckSquare,
   Flame,
   Info,
+  BookOpen,
+  Calculator,
+  Search,
+  ChevronDown,
+  ChevronUp,
 } from 'lucide-react';
 import {
   SIGET_SECTORS,
   SIGET_SOLAR_QUESTIONS,
   SOLAR_INTERCONNECTION_CHECKLIST,
+  SIGET_THEMATIC_UNITS,
   SigetSolarQuestion,
+  SigetThematicUnit,
+  SolvedEngineeringCalculation,
 } from '../data/sigetSolarData';
 import { logQuestionError } from '../services/errorLogService';
 import { issueCertificate, AcademicCertificate } from '../services/certificateService';
@@ -34,13 +42,30 @@ interface SigetSolarViewProps {
   showToast?: (msg: string) => void;
 }
 
-type ActiveTab = 'simulator' | 'checklist' | 'categories';
+type ActiveTab =
+  | 'thematic-units'
+  | 'engineering-calculations'
+  | 'simulator'
+  | 'checklist'
+  | 'categories';
 
 export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
   onOpenErrorNotebook,
   showToast,
 }) => {
-  const [activeTab, setActiveTab] = useState<ActiveTab>('simulator');
+  const [activeTab, setActiveTab] = useState<ActiveTab>('thematic-units');
+
+  // Estado para Pestaña 1: Unidades Técnicas & Normativa
+  const [selectedUnitId, setSelectedUnitId] = useState<string>(
+    SIGET_THEMATIC_UNITS[0]?.id || 'unit-1-ntcogd-medicion-neta'
+  );
+
+  // Estado para Pestaña 2: Memorias de Cálculo
+  const [calcFilterUnit, setCalcFilterUnit] = useState<string>('all');
+  const [calcSearchQuery, setCalcSearchQuery] = useState<string>('');
+  const [expandedCalc, setExpandedCalc] = useState<Record<string, boolean>>({});
+
+  // Estado para Pestaña 3: Simulador de Examen
   const [selectedSector, setSelectedSector] = useState<string>('all');
   const [isExamMode, setIsExamMode] = useState<boolean>(false);
   const [examStarted, setExamStarted] = useState<boolean>(false);
@@ -56,6 +81,34 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
   const [issuedCert, setIssuedCert] = useState<AcademicCertificate | null>(null);
   const [isCertModalOpen, setIsCertModalOpen] = useState<boolean>(false);
 
+  // Unidad técnica activa seleccionada
+  const activeUnit = useMemo<SigetThematicUnit>(() => {
+    return (
+      SIGET_THEMATIC_UNITS.find((u) => u.id === selectedUnitId) ||
+      SIGET_THEMATIC_UNITS[0]
+    );
+  }, [selectedUnitId]);
+
+  // Todas las 25 memorias de cálculo consolidadas
+  const allCalculations = useMemo<SolvedEngineeringCalculation[]>(() => {
+    return SIGET_THEMATIC_UNITS.flatMap((u) => u.solvedCalculations);
+  }, []);
+
+  // Memorias de cálculo filtradas
+  const filteredCalculations = useMemo(() => {
+    return allCalculations.filter((c) => {
+      const matchesUnit =
+        calcFilterUnit === 'all' || c.unitId === calcFilterUnit;
+      const matchesQuery =
+        !calcSearchQuery.trim() ||
+        c.title.toLowerCase().includes(calcSearchQuery.toLowerCase()) ||
+        c.problemStatement.toLowerCase().includes(calcSearchQuery.toLowerCase()) ||
+        c.numericalResult.toLowerCase().includes(calcSearchQuery.toLowerCase());
+      return matchesUnit && matchesQuery;
+    });
+  }, [allCalculations, calcFilterUnit, calcSearchQuery]);
+
+  // Preguntas filtradas para el simulador
   const filteredQuestions = useMemo(() => {
     if (selectedSector === 'all') return SIGET_SOLAR_QUESTIONS;
     return SIGET_SOLAR_QUESTIONS.filter((q) => q.category === selectedSector);
@@ -104,6 +157,10 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
 
   const handleToggleRationale = (qId: string) => {
     setExpandedRationale((prev) => ({ ...prev, [qId]: !prev[qId] }));
+  };
+
+  const handleToggleCalc = (cId: string) => {
+    setExpandedCalc((prev) => ({ ...prev, [cId]: !prev[cId] }));
   };
 
   const handleToggleStep = (stepId: string) => {
@@ -164,21 +221,21 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div>
-              <div className="flex items-center gap-2 mb-2">
+              <div className="flex items-center gap-2 mb-2 flex-wrap">
                 <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-[#C59B27]/20 text-[#FAF9F5] border border-[#C59B27]/40 tracking-wide">
                   <Sun className="w-3.5 h-3.5 text-[#C59B27]" />
                   República de El Salvador · SIGET & CNE
                 </span>
-                <span className="text-xs text-amber-200/80 font-mono">
-                  NTCOGD Acuerdo 343-E-2016 · NEC Art. 690
+                <span className="text-xs text-amber-200/90 font-mono">
+                  NTCOGD Acuerdo N° 343-E-2016 · NEC 690 · IEEE 1547
                 </span>
               </div>
               <h1 className="text-2xl sm:text-3xl font-serif font-bold text-[#FAF9F5] tracking-tight">
-                Energía Solar Fotovoltaica & Acreditación Eléctrica SIGET
+                Ingeniería Solar Fotovoltaica & Acreditación Eléctrica SIGET
               </h1>
-              <p className="mt-1 text-sm text-slate-200 max-w-2xl font-sans">
-                Simulador técnico, memoria de interconexión con distribuidoras (AES / DELSUR), 
-                protecciones anti-isla IEEE 1547, Rapid Shutdown y categorización de electricistas.
+              <p className="mt-1 text-sm text-slate-200 max-w-3xl font-sans leading-relaxed">
+                Marco normativo de generación distribuida con AES y DELSUR, 5 unidades técnicas sustantivas, 
+                25 memorias de cálculo de ingeniería resueltas paso a paso y simulador con 52 reactivos interactivos.
               </p>
             </div>
 
@@ -195,40 +252,62 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
             </div>
           </div>
 
-          {/* NAVEGACIÓN ENTRE SECCIONES DE LA VISTA */}
+          {/* NAVEGACIÓN ENTRE LAS SECCIONES PRINCIPALES */}
           <div className="mt-6 flex flex-wrap gap-2 border-t border-white/10 pt-4">
+            <button
+              onClick={() => setActiveTab('thematic-units')}
+              className={`px-4 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 transition-all ${
+                activeTab === 'thematic-units'
+                  ? 'bg-[#C59B27] text-slate-900 shadow-md font-bold'
+                  : 'bg-white/10 text-white hover:bg-white/20'
+              }`}
+            >
+              <BookOpen className="w-4 h-4" />
+              1. Unidades Técnicas & Normativa (5)
+            </button>
+            <button
+              onClick={() => setActiveTab('engineering-calculations')}
+              className={`px-4 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 transition-all ${
+                activeTab === 'engineering-calculations'
+                  ? 'bg-[#C59B27] text-slate-900 shadow-md font-bold'
+                  : 'bg-white/10 text-white hover:bg-white/20'
+              }`}
+            >
+              <Calculator className="w-4 h-4" />
+              2. Memorias de Cálculo (25)
+            </button>
             <button
               onClick={() => setActiveTab('simulator')}
               className={`px-4 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 transition-all ${
                 activeTab === 'simulator'
-                  ? 'bg-[#C59B27] text-slate-900 shadow-md'
+                  ? 'bg-[#C59B27] text-slate-900 shadow-md font-bold'
                   : 'bg-white/10 text-white hover:bg-white/20'
               }`}
             >
               <Zap className="w-4 h-4" />
-              Simulador de Examen Técnico SIGET
+              3. Simulador de Acreditación (52)
             </button>
             <button
               onClick={() => setActiveTab('checklist')}
-              className={`px-4 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 transition-all ${
+              className={`px-3.5 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 transition-all ${
                 activeTab === 'checklist'
-                  ? 'bg-[#C59B27] text-slate-900 shadow-md'
+                  ? 'bg-[#C59B27] text-slate-900 shadow-md font-bold'
                   : 'bg-white/10 text-white hover:bg-white/20'
               }`}
             >
               <CheckSquare className="w-4 h-4" />
-              Checklist de Interconexión (AES / DELSUR)
+              Checklist Interconexión
             </button>
             <button
               onClick={() => setActiveTab('categories')}
-              className={`px-4 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 transition-all ${
+              className={`px-3.5 py-2 rounded-lg text-xs font-semibold flex items-center gap-2 transition-all ${
                 activeTab === 'categories'
-                  ? 'bg-[#C59B27] text-slate-900 shadow-md'
+                  ? 'bg-[#C59B27] text-slate-900 shadow-md font-bold'
                   : 'bg-white/10 text-white hover:bg-white/20'
               }`}
             >
               <FileText className="w-4 h-4" />
-              Categorías de Electricistas & NEC 690
+              Categorías SIGET
             </button>
           </div>
         </div>
@@ -237,7 +316,370 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
       {/* CONTENIDO PRINCIPAL */}
       <main className="max-w-6xl mx-auto px-4 sm:px-6 pt-6">
         {/* ========================================================================= */}
-        {/* PESTAÑA 1: SIMULADOR DE EXAMEN TÉCNICO */}
+        {/* PESTAÑA 1: UNIDADES TÉCNICAS & NORMATIVA SUSTANTIVA */}
+        {/* ========================================================================= */}
+        {activeTab === 'thematic-units' && (
+          <div className="space-y-6">
+            {/* SELECTOR DE LAS 5 UNIDADES */}
+            <div className="bg-white rounded-xl p-4 border border-[#E5E3D8] shadow-sm">
+              <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-2">
+                Seleccione la Unidad Temática de Estudio:
+              </span>
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2">
+                {SIGET_THEMATIC_UNITS.map((u) => {
+                  const isSelected = u.id === selectedUnitId;
+                  return (
+                    <button
+                      key={u.id}
+                      onClick={() => setSelectedUnitId(u.id)}
+                      className={`text-left p-3 rounded-lg border text-xs transition-all flex flex-col justify-between ${
+                        isSelected
+                          ? 'bg-[#0B1B3D] border-[#0B1B3D] text-white shadow-md'
+                          : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between mb-1">
+                        <span
+                          className={`font-mono font-bold px-1.5 py-0.5 rounded text-[10px] ${
+                            isSelected
+                              ? 'bg-[#C59B27] text-slate-900'
+                              : 'bg-slate-200 text-slate-800'
+                          }`}
+                        >
+                          Unidad {u.unitNumber}
+                        </span>
+                        <span className="text-[10px] text-amber-500 font-bold">
+                          5 Cálculos
+                        </span>
+                      </div>
+                      <span className="font-bold line-clamp-2 leading-snug">
+                        {u.title}
+                      </span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+
+            {/* DETALLE COMPLETO DE LA UNIDAD SELECCIONADA */}
+            <article className="bg-white rounded-xl border border-[#E5E3D8] shadow-sm p-6 sm:p-8">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200 pb-4 mb-6">
+                <div>
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-[#C59B27]/20 text-[#0B1B3D] border border-[#C59B27]/40">
+                      Unidad {activeUnit.unitNumber} de 5
+                    </span>
+                    <span className="text-xs text-slate-500 font-mono">
+                      Categoría: {activeUnit.normativeCategory}
+                    </span>
+                  </div>
+                  <h2 className="text-xl sm:text-2xl font-serif font-bold text-slate-900">
+                    {activeUnit.title}
+                  </h2>
+                  <p className="text-xs sm:text-sm text-slate-600 mt-1">
+                    {activeUnit.shortDescription}
+                  </p>
+                </div>
+                <div className="flex items-center gap-2 shrink-0">
+                  <AudioSpeechButton
+                    id={`speech-unit-${activeUnit.id}`}
+                    textToSpeak={`Unidad ${activeUnit.unitNumber}: ${activeUnit.title}. ${activeUnit.substantiveTheory}`}
+                    label="Escuchar lección técnica"
+                  />
+                  <button
+                    onClick={() => {
+                      setCalcFilterUnit(activeUnit.id);
+                      setActiveTab('engineering-calculations');
+                    }}
+                    className="px-3.5 py-1.5 bg-[#0B1B3D] hover:bg-[#122B5E] text-white text-xs font-semibold rounded-lg shadow-sm flex items-center gap-1.5 transition-all"
+                  >
+                    <Calculator className="w-3.5 h-3.5 text-[#C59B27]" />
+                    Ver 5 Cálculos
+                  </button>
+                </div>
+              </div>
+
+              {/* MARCO TEÓRICO SUSTANTIVO (>= 500 PALABRAS) */}
+              <div className="prose prose-slate max-w-none text-slate-700 leading-relaxed text-sm sm:text-base space-y-4 font-sans">
+                {activeUnit.substantiveTheory.split('\n\n').map((paragraph, pIdx) => (
+                  <p key={pIdx} className="text-justify leading-relaxed">
+                    {paragraph}
+                  </p>
+                ))}
+              </div>
+
+              {/* REFERENCIAS NORMATIVAS Y LEGALES CLAVE */}
+              <div className="mt-8 pt-6 border-t border-slate-200">
+                <h3 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-3 flex items-center gap-1.5">
+                  <Shield className="w-4 h-4 text-[#C59B27]" />
+                  Referencias Normativas y Regulatorias Obligatorias:
+                </h3>
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-2.5">
+                  {activeUnit.keyRegulatoryReferences.map((ref, rIdx) => (
+                    <li
+                      key={rIdx}
+                      className="text-xs bg-slate-50 border border-slate-200 p-3 rounded-lg text-slate-800 flex items-start gap-2.5"
+                    >
+                      <span className="w-2 h-2 rounded-full bg-[#C59B27] mt-1 shrink-0" />
+                      <span className="leading-snug">{ref}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+
+              {/* ENLACE DIRECTO A LAS MEMORIAS DE CÁLCULO DE ESTA UNIDAD */}
+              <div className="mt-6 p-4 rounded-xl bg-amber-50 border border-amber-200 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div className="flex items-center gap-3">
+                  <Calculator className="w-5 h-5 text-amber-700 shrink-0" />
+                  <div>
+                    <h4 className="text-xs font-bold text-slate-900">
+                      Memorias de Cálculo Resueltas para esta Unidad ({activeUnit.solvedCalculations.length})
+                    </h4>
+                    <p className="text-[11px] text-slate-600">
+                      Ejercicios reales de diseño electromecánico contextualizados en proyectos de El Salvador.
+                    </p>
+                  </div>
+                </div>
+                <button
+                  onClick={() => {
+                    setCalcFilterUnit(activeUnit.id);
+                    setActiveTab('engineering-calculations');
+                  }}
+                  className="px-4 py-2 bg-[#0B1B3D] text-white text-xs font-bold rounded-lg hover:bg-[#122B5E] transition-all flex items-center justify-center gap-1.5 shrink-0"
+                >
+                  Examinar Cálculos Paso a Paso
+                  <ArrowRight className="w-3.5 h-3.5 text-[#C59B27]" />
+                </button>
+              </div>
+            </article>
+          </div>
+        )}
+
+        {/* ========================================================================= */}
+        {/* PESTAÑA 2: MEMORIAS DE CÁLCULO DE INGENIERÍA (25 CÁLCULOS PASO A PASO) */}
+        {/* ========================================================================= */}
+        {activeTab === 'engineering-calculations' && (
+          <div className="space-y-6">
+            {/* BARRA DE FILTROS Y BÚSQUEDA */}
+            <div className="bg-white rounded-xl p-4 border border-[#E5E3D8] shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
+              <div className="flex items-center gap-2 overflow-x-auto pb-1 md:pb-0">
+                <span className="text-xs font-bold text-slate-500 uppercase tracking-wider flex items-center gap-1">
+                  <Filter className="w-3.5 h-3.5" />
+                  Filtrar:
+                </span>
+                <button
+                  onClick={() => setCalcFilterUnit('all')}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition-all ${
+                    calcFilterUnit === 'all'
+                      ? 'bg-[#0B1B3D] text-white shadow-sm font-bold'
+                      : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
+                  }`}
+                >
+                  Todas (25 Cálculos)
+                </button>
+                {SIGET_THEMATIC_UNITS.map((u) => (
+                  <button
+                    key={u.id}
+                    onClick={() => setCalcFilterUnit(u.id)}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition-all ${
+                      calcFilterUnit === u.id
+                        ? 'bg-[#0B1B3D] text-white shadow-sm font-bold'
+                        : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
+                    }`}
+                  >
+                    Unidad {u.unitNumber} ({u.solvedCalculations.length})
+                  </button>
+                ))}
+              </div>
+
+              {/* BUSCADOR */}
+              <div className="relative min-w-[240px]">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-2.5" />
+                <input
+                  type="text"
+                  placeholder="Buscar cálculo (ej. ampacidad, tierra, litio)..."
+                  value={calcSearchQuery}
+                  onChange={(e) => setCalcSearchQuery(e.target.value)}
+                  className="w-full pl-9 pr-3 py-1.5 text-xs rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-[#0B1B3D] text-slate-800"
+                />
+              </div>
+            </div>
+
+            {/* LISTADO DE MEMORIAS DE CÁLCULO */}
+            <div className="space-y-6">
+              {filteredCalculations.length === 0 ? (
+                <div className="bg-white rounded-xl p-8 text-center text-slate-500 border border-slate-200">
+                  <AlertTriangle className="w-8 h-8 text-amber-500 mx-auto mb-2" />
+                  <p className="text-sm font-semibold">
+                    No se encontraron memorias de cálculo con los filtros seleccionados.
+                  </p>
+                  <button
+                    onClick={() => {
+                      setCalcFilterUnit('all');
+                      setCalcSearchQuery('');
+                    }}
+                    className="mt-3 px-4 py-1.5 text-xs font-bold bg-[#0B1B3D] text-white rounded-lg shadow-sm"
+                  >
+                    Restablecer Filtros
+                  </button>
+                </div>
+              ) : (
+                filteredCalculations.map((calc, cIdx) => {
+                  const isExpanded = expandedCalc[calc.id] !== false; // Abierto por defecto
+                  const parentUnit = SIGET_THEMATIC_UNITS.find(
+                    (u) => u.id === calc.unitId
+                  );
+
+                  return (
+                    <article
+                      key={calc.id}
+                      className="bg-white rounded-xl border border-[#E5E3D8] shadow-sm overflow-hidden transition-all hover:border-[#C59B27]/50"
+                    >
+                      {/* ENCABEZADO DEL CÁLCULO */}
+                      <header
+                        onClick={() => handleToggleCalc(calc.id)}
+                        className="p-5 cursor-pointer flex items-start justify-between gap-4 bg-gradient-to-r from-slate-50/80 to-white hover:bg-slate-100/60 transition-colors"
+                      >
+                        <div className="flex items-start gap-3">
+                          <span className="w-7 h-7 rounded-full bg-[#0B1B3D] text-[#FAF9F5] text-xs font-bold flex items-center justify-center shrink-0 mt-0.5">
+                            {cIdx + 1}
+                          </span>
+                          <div>
+                            <div className="flex items-center gap-2 flex-wrap mb-1">
+                              <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-900 border border-amber-200">
+                                Unidad {parentUnit?.unitNumber || '1'} · Memoria de Diseño
+                              </span>
+                              <span className="text-[11px] font-mono text-slate-500">
+                                {calc.id}
+                              </span>
+                            </div>
+                            <h3 className="text-base font-bold text-slate-900 leading-snug">
+                              {calc.title}
+                            </h3>
+                          </div>
+                        </div>
+
+                        <div className="flex items-center gap-2 shrink-0">
+                          <AudioSpeechButton
+                            id={`speech-calc-${calc.id}`}
+                            textToSpeak={`${calc.title}. Planteamiento del problema: ${calc.problemStatement}. Resultado numérico: ${calc.numericalResult}. Dictamen de ingeniería: ${calc.practicalEngineeringJudgment}`}
+                            label="Escuchar memoria de cálculo"
+                          />
+                          <button className="text-slate-500 hover:text-slate-800 p-1">
+                            {isExpanded ? (
+                              <ChevronUp className="w-5 h-5" />
+                            ) : (
+                              <ChevronDown className="w-5 h-5" />
+                            )}
+                          </button>
+                        </div>
+                      </header>
+
+                      {/* CUERPO EXPANDIDO DEL CÁLCULO */}
+                      {isExpanded && (
+                        <div className="p-5 sm:p-6 border-t border-slate-200 space-y-5">
+                          {/* PLANTEAMIENTO DEL PROBLEMA */}
+                          <div>
+                            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5 flex items-center gap-1.5">
+                              <FileText className="w-3.5 h-3.5 text-[#0B1B3D]" />
+                              Planteamiento del Problema en El Salvador:
+                            </h4>
+                            <p className="text-xs sm:text-sm text-slate-700 leading-relaxed bg-slate-50 p-3.5 rounded-lg border border-slate-200 font-sans">
+                              {calc.problemStatement}
+                            </p>
+                          </div>
+
+                          {/* PARÁMETROS DE DISEÑO Y FÓRMULAS */}
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            {/* PARÁMETROS DE DISEÑO */}
+                            <div className="bg-slate-50 p-3.5 rounded-lg border border-slate-200">
+                              <h4 className="text-[11px] font-bold uppercase tracking-wider text-slate-600 mb-2 flex items-center gap-1">
+                                <Info className="w-3.5 h-3.5 text-blue-600" />
+                                Parámetros de Diseño:
+                              </h4>
+                              <dl className="space-y-1.5 text-xs">
+                                {Object.entries(calc.designParameters).map(
+                                  ([k, v]) => (
+                                    <div
+                                      key={k}
+                                      className="flex items-start justify-between gap-2 border-b border-slate-200/60 pb-1"
+                                    >
+                                      <dt className="text-slate-600 font-medium">{k}:</dt>
+                                      <dd className="font-mono font-bold text-slate-900 text-right">
+                                        {v}
+                                      </dd>
+                                    </div>
+                                  )
+                                )}
+                              </dl>
+                            </div>
+
+                            {/* FÓRMULAS DE INGENIERÍA */}
+                            <div className="bg-slate-50 p-3.5 rounded-lg border border-slate-200">
+                              <h4 className="text-[11px] font-bold uppercase tracking-wider text-slate-600 mb-2 flex items-center gap-1">
+                                <Flame className="w-3.5 h-3.5 text-amber-600" />
+                                Fórmulas y Modelos Analíticos:
+                              </h4>
+                              <ul className="space-y-1.5 text-xs font-mono">
+                                {calc.engineeringFormulas.map((formula, fIdx) => (
+                                  <li
+                                    key={fIdx}
+                                    className="p-1.5 rounded bg-white border border-slate-200 text-slate-800"
+                                  >
+                                    {formula}
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          </div>
+
+                          {/* SUSTITUCIÓN PASO A PASO */}
+                          <div>
+                            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-1.5 flex items-center gap-1.5">
+                              <Calculator className="w-3.5 h-3.5 text-emerald-600" />
+                              Desarrollo y Sustitución Algebraica Paso a Paso:
+                            </h4>
+                            <pre className="text-xs font-mono bg-slate-900 text-emerald-400 p-4 rounded-lg overflow-x-auto whitespace-pre-wrap leading-relaxed shadow-inner">
+                              {calc.stepByStepSubstitution}
+                            </pre>
+                          </div>
+
+                          {/* RESULTADO NUMÉRICO Y DICTAMEN DE INGENIERÍA */}
+                          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            {/* RESULTADO NUMÉRICO */}
+                            <div className="p-4 rounded-lg bg-emerald-50 border border-emerald-300 text-emerald-950">
+                              <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-800 mb-1 flex items-center gap-1">
+                                <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                                Resultado Numérico con Unidades:
+                              </h4>
+                              <p className="text-sm font-bold font-mono mt-1 text-emerald-900">
+                                {calc.numericalResult}
+                              </p>
+                            </div>
+
+                            {/* DICTAMEN PRÁCTICO DE INGENIERÍA */}
+                            <div className="p-4 rounded-lg bg-amber-50 border border-amber-300 text-amber-950">
+                              <h4 className="text-xs font-bold uppercase tracking-wider text-amber-800 mb-1 flex items-center gap-1">
+                                <Award className="w-4 h-4 text-amber-600" />
+                                Criterio y Dictamen de Ingeniería en Campo:
+                              </h4>
+                              <p className="text-xs text-amber-900 leading-relaxed font-sans">
+                                {calc.practicalEngineeringJudgment}
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                    </article>
+                  );
+                })
+              )}
+            </div>
+          </div>
+        )}
+
+        {/* ========================================================================= */}
+        {/* PESTAÑA 3: SIMULADOR DE ACREDITACIÓN SIGET (52 REACTIVOS) */}
         {/* ========================================================================= */}
         {activeTab === 'simulator' && (
           <div>
@@ -257,7 +699,7 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
                     }}
                     className={`px-3 py-1.5 rounded-lg text-xs font-medium whitespace-nowrap transition-all ${
                       selectedSector === sec.id
-                        ? 'bg-[#0B1B3D] text-white shadow-sm'
+                        ? 'bg-[#0B1B3D] text-white shadow-sm font-bold'
                         : 'bg-slate-100 hover:bg-slate-200 text-slate-700'
                     }`}
                   >
@@ -278,7 +720,7 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
                     }}
                     className="w-4 h-4 text-[#0B1B3D] rounded border-slate-300 focus:ring-[#0B1B3D]"
                   />
-                  <span>Modo Examen Cronometrado (30m)</span>
+                  <span>Modo Examen Oficial (30 min)</span>
                 </label>
 
                 {isExamMode && !examStarted && (
@@ -309,7 +751,7 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
                 </h3>
                 <p className="text-xs text-slate-600 mt-1 max-w-lg mx-auto">
                   Este simulador evalúa conocimientos normativos de la NTCOGD (Acuerdo 343-E-2016),
-                  dimensionamiento continuo según Código NEC Art. 690 (1.56 × Isc),
+                  dimensionamiento continuo según Código NEC Art. 690 (1.56 x Isc),
                   tiempos de protección anti-isla (&le; 2.0 s) y categorías de electricistas.
                   Requiere nota mínima de 8.0/10.0 para emisión de diploma con QR.
                 </p>
@@ -337,7 +779,7 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
                       className="bg-white rounded-xl border border-[#E5E3D8] shadow-sm p-5 transition-all hover:border-[#C59B27]/50"
                     >
                       <div className="flex items-start justify-between gap-3 mb-3">
-                        <div className="flex items-center gap-2">
+                        <div className="flex items-center gap-2 flex-wrap">
                           <span className="w-6 h-6 rounded-full bg-slate-100 text-[#0B1B3D] text-xs font-bold flex items-center justify-center">
                             {idx + 1}
                           </span>
@@ -369,14 +811,17 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
 
                           if (showFeedback) {
                             if (optKey === q.correctAnswer) {
-                              btnStyle = 'bg-emerald-50 border-emerald-500 text-emerald-950 font-medium ring-1 ring-emerald-500';
+                              btnStyle =
+                                'bg-emerald-50 border-emerald-500 text-emerald-950 font-medium ring-1 ring-emerald-500';
                             } else if (isOptionSelected && !isCorrect) {
                               btnStyle = 'bg-rose-50 border-rose-400 text-rose-950';
                             } else {
-                              btnStyle = 'bg-slate-50/60 border-slate-200 text-slate-400';
+                              btnStyle =
+                                'bg-slate-50/60 border-slate-200 text-slate-400';
                             }
                           } else if (isOptionSelected) {
-                            btnStyle = 'bg-[#0B1B3D] border-[#0B1B3D] text-white font-medium shadow-sm';
+                            btnStyle =
+                              'bg-[#0B1B3D] border-[#0B1B3D] text-white font-medium shadow-sm';
                           }
 
                           return (
@@ -400,56 +845,83 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
                                 <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 ml-1" />
                               )}
                               {showFeedback && isOptionSelected && !isCorrect && (
-                                <XCircle className="w-4 h-4 text-rose-600 shrink-0 ml-1" />
+                                <XCircle className="w-4 h-4 text-rose-500 shrink-0 ml-1" />
                               )}
                             </button>
                           );
                         })}
                       </div>
 
-                      {/* FEEDBACK Y JUSTIFICACIÓN TÉCNICA */}
+                      {/* RETROALIMENTACIÓN TÉCNICA DETALLADA */}
                       {showFeedback && (
-                        <div className="mt-3 pt-3 border-t border-slate-100">
-                          <div className="flex items-center justify-between mb-2">
-                            <span className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                        <div className="mt-4 pt-4 border-t border-slate-200 space-y-3">
+                          <div
+                            className={`p-3 rounded-lg border text-xs leading-relaxed ${
+                              isCorrect
+                                ? 'bg-emerald-50/60 border-emerald-200 text-emerald-950'
+                                : 'bg-rose-50/60 border-rose-200 text-rose-950'
+                            }`}
+                          >
+                            <div className="flex items-center gap-1.5 font-bold mb-1">
                               {isCorrect ? (
-                                <Check className="w-3.5 h-3.5 text-emerald-600" />
+                                <>
+                                  <CheckCircle2 className="w-4 h-4 text-emerald-600" />
+                                  <span>¡Respuesta Correcta!</span>
+                                </>
                               ) : (
-                                <AlertTriangle className="w-3.5 h-3.5 text-rose-600" />
+                                <>
+                                  <XCircle className="w-4 h-4 text-rose-600" />
+                                  <span>
+                                    Respuesta Incorrecta. La opción válida es la{' '}
+                                    <strong className="underline">
+                                      {q.correctAnswer}
+                                    </strong>
+                                    .
+                                  </span>
+                                </>
                               )}
-                              Dictamen Técnico Normativo:
-                            </span>
-                            <button
-                              onClick={() => handleToggleRationale(q.id)}
-                              className="text-xs text-[#0B1B3D] hover:underline flex items-center gap-1"
-                            >
-                              <HelpCircle className="w-3 h-3 text-[#C59B27]" />
-                              {expandedRationale[q.id] ? 'Ocultar distractor' : 'Ver análisis de opciones'}
-                            </button>
+                            </div>
+                            <p className="mt-1 text-slate-700">{q.explanation}</p>
+                            <div className="mt-2 text-[11px] font-mono text-slate-500 border-t border-slate-200 pt-1.5">
+                              <strong>Base Técnica/Legal:</strong> {q.technicalBasis}
+                            </div>
                           </div>
 
-                          <p className="text-xs text-slate-700 bg-slate-50 p-3 rounded-lg border border-slate-200 leading-relaxed font-sans">
-                            {q.explanation}
-                          </p>
+                          {/* BOTÓN PARA EXPANDIR JUSTIFICACIÓN DE DISTRACTORES */}
+                          {q.distractorRationale && (
+                            <div>
+                              <button
+                                onClick={() => handleToggleRationale(q.id)}
+                                className="text-xs text-[#0B1B3D] hover:text-[#C59B27] font-semibold flex items-center gap-1 transition-colors"
+                              >
+                                <HelpCircle className="w-3.5 h-3.5" />
+                                {expandedRationale[q.id]
+                                  ? 'Ocultar análisis de distractores'
+                                  : 'Ver por qué son falsas las otras opciones'}
+                              </button>
 
-                          <div className="mt-2 text-[11px] text-slate-500 font-mono">
-                            <span className="font-semibold text-slate-700">Base Normativa:</span> {q.technicalBasis}
-                          </div>
-
-                          {expandedRationale[q.id] && q.distractorRationale && (
-                            <div className="mt-2.5 p-2.5 bg-amber-50/60 rounded-lg border border-amber-200/70 text-[11px] space-y-1">
-                              <span className="font-bold text-amber-900 block mb-1">
-                                Desglose de Respuestas:
-                              </span>
-                              {(['A', 'B', 'C', 'D'] as const).map((k) => {
-                                const rat = q.distractorRationale[k];
-                                if (!rat) return null;
-                                return (
-                                  <div key={k} className="text-slate-600">
-                                    <span className="font-semibold text-slate-800">Opción {k}:</span> {rat}
-                                  </div>
-                                );
-                              })}
+                              {expandedRationale[q.id] && (
+                                <div className="mt-2 grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs bg-slate-50 p-3 rounded-lg border border-slate-200">
+                                  {(['A', 'B', 'C', 'D'] as const).map(
+                                    (optKey) => {
+                                      const rat = q.distractorRationale[optKey];
+                                      if (!rat) return null;
+                                      return (
+                                        <div
+                                          key={optKey}
+                                          className={`p-2 rounded border text-[11px] leading-snug ${
+                                            optKey === q.correctAnswer
+                                              ? 'bg-emerald-50 border-emerald-200 text-emerald-900 font-medium'
+                                              : 'bg-white border-slate-200 text-slate-600'
+                                          }`}
+                                        >
+                                          <strong>Opción {optKey}:</strong> {rat}
+                                        </div>
+                                      );
+                                    }
+                                  )}
+                                </div>
+                              )}
                             </div>
                           )}
                         </div>
@@ -458,95 +930,92 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
                   );
                 })}
 
-                {/* BOTÓN CALIFICAR EN MODO EXAMEN */}
-                {isExamMode && examStarted && !examSubmitted && (
-                  <div className="sticky bottom-4 bg-white/95 backdrop-blur-sm p-4 rounded-xl border-2 border-[#C59B27] shadow-xl flex items-center justify-between">
-                    <div>
-                      <div className="text-xs font-bold text-slate-900">
-                        Preguntas Respondidas: {Object.keys(userAnswers).length} de {filteredQuestions.length}
-                      </div>
-                      <div className="text-[11px] text-slate-500">
-                        Tiempo restante: {formatTimer(secondsLeft)}
-                      </div>
-                    </div>
-                    <button
-                      onClick={() => setExamSubmitted(true)}
-                      className="px-5 py-2.5 bg-[#0B1B3D] hover:bg-[#122B5E] text-white text-xs font-bold rounded-lg shadow flex items-center gap-1.5"
-                    >
-                      Entregar y Calificar Prueba
-                      <Check className="w-4 h-4 text-[#C59B27]" />
-                    </button>
-                  </div>
-                )}
-
-                {/* RESULTADOS AL ENTREGAR */}
-                {examSubmitted && (
-                  <div className="bg-white rounded-xl border-2 border-[#C59B27] p-6 shadow-md text-center mt-6">
-                    <Award className="w-10 h-10 text-[#C59B27] mx-auto mb-2" />
-                    <h3 className="text-lg font-serif font-bold text-slate-900">
-                      Resultado de la Evaluación Técnica SIGET
-                    </h3>
-                    <div className="text-3xl font-bold font-mono text-[#0B1B3D] my-2">
-                      {examStats.score} <span className="text-sm text-slate-500">/ 10.0</span>
-                    </div>
-                    <p className="text-xs text-slate-600 max-w-md mx-auto">
-                      Respuestas acertadas: {examStats.correct} de {examStats.total}. 
-                      {examStats.isPassed ? (
-                        <span className="text-emerald-700 font-bold block mt-1">
-                          ¡APROBADO! Cumple con los criterios técnicos para acreditación fotovoltaica.
-                        </span>
-                      ) : (
-                        <span className="text-rose-700 font-bold block mt-1">
-                          NO APROBADO (Mínimo requerido: 8.0/10.0). Las fallas han sido enviadas a tu Cuaderno de Errores FSRS.
-                        </span>
-                      )}
-                    </p>
-
-                    <div className="mt-5 flex flex-wrap justify-center gap-3">
-                      {examStats.isPassed && (
-                        <button
-                          onClick={handleGenerateCertificate}
-                          className="px-4 py-2 bg-[#C59B27] hover:bg-[#B38A20] text-slate-900 text-xs font-bold rounded-lg shadow flex items-center gap-1.5"
+                {/* BOTÓN DE CALIFICACIÓN O REINICIO */}
+                <div className="bg-white rounded-xl p-5 border border-[#E5E3D8] shadow-sm flex flex-col sm:flex-row items-center justify-between gap-4">
+                  <div className="text-xs text-slate-600">
+                    Respondidas:{' '}
+                    <strong className="text-slate-900">
+                      {examStats.answered} de {examStats.total}
+                    </strong>
+                    {examSubmitted && (
+                      <span className="ml-3">
+                        Aciertos:{' '}
+                        <strong className="text-emerald-700">
+                          {examStats.correct}
+                        </strong>{' '}
+                        · Calificación:{' '}
+                        <strong
+                          className={
+                            examStats.isPassed
+                              ? 'text-emerald-600'
+                              : 'text-rose-600'
+                          }
                         >
-                          <Award className="w-4 h-4" />
-                          Generar Certificado Oficial con QR
+                          {examStats.score}/10.0
+                        </strong>
+                      </span>
+                    )}
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    {isExamMode && !examSubmitted && (
+                      <button
+                        onClick={() => setExamSubmitted(true)}
+                        className="px-5 py-2 bg-[#0B1B3D] hover:bg-[#122B5E] text-white text-xs font-bold rounded-lg shadow-sm transition-all"
+                      >
+                        Enviar y Calificar Examen
+                      </button>
+                    )}
+
+                    {examSubmitted && (
+                      <>
+                        <button
+                          onClick={handleReset}
+                          className="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold rounded-lg transition-all flex items-center gap-1.5"
+                        >
+                          <RotateCcw className="w-3.5 h-3.5" />
+                          Reintentar Examen
                         </button>
-                      )}
+
+                        {examStats.isPassed && (
+                          <button
+                            onClick={handleGenerateCertificate}
+                            className="px-4 py-2 bg-[#C59B27] hover:bg-[#b08920] text-slate-900 text-xs font-bold rounded-lg shadow-md transition-all flex items-center gap-1.5"
+                          >
+                            <Award className="w-4 h-4" />
+                            Emitir Certificado con QR
+                          </button>
+                        )}
+                      </>
+                    )}
+
+                    {!isExamMode && (
                       <button
                         onClick={handleReset}
-                        className="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-medium rounded-lg flex items-center gap-1.5"
+                        className="px-4 py-2 bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold rounded-lg transition-all flex items-center gap-1.5"
                       >
                         <RotateCcw className="w-3.5 h-3.5" />
-                        Reiniciar Simulador
+                        Limpiar Respuestas
                       </button>
-                    </div>
+                    )}
                   </div>
-                )}
+                </div>
               </div>
             )}
           </div>
         )}
 
         {/* ========================================================================= */}
-        {/* PESTAÑA 2: CHECKLIST DE INTERCONEXIÓN (AES / DELSUR) */}
+        {/* PESTAÑA 4: CHECKLIST DE INTERCONEXIÓN (AES / DELSUR) */}
         {/* ========================================================================= */}
         {activeTab === 'checklist' && (
           <div className="space-y-6">
             <div className="bg-white rounded-xl p-5 border border-[#E5E3D8] shadow-sm">
-              <div className="flex items-center gap-2 mb-2">
-                <span className="px-2.5 py-0.5 rounded-full text-xs font-bold bg-amber-100 text-amber-900 border border-amber-300">
-                  AES El Salvador & DELSUR
-                </span>
-                <span className="text-xs text-slate-500 font-mono">
-                  Tramitología de Generación Distribuida (UGD)
-                </span>
-              </div>
               <h2 className="text-lg font-serif font-bold text-slate-900">
-                Flujo Crítico de Interconexión y Medición Neta
+                Checklist Oficial de Interconexión UGD (AES El Salvador & DELSUR)
               </h2>
-              <p className="text-xs text-slate-600 mt-1 max-w-3xl leading-relaxed">
-                Este checklist interactivo resume el protocolo paso a paso exigido por las empresas 
-                distribuidoras en El Salvador (CAESS, CLESA, EEO, DEUSEM y DELSUR) y supervisado por la SIGET 
+              <p className="text-xs text-slate-600 mt-1 leading-relaxed">
+                Pasos y requerimientos mandatorios según el Acuerdo SIGET 343-E-2016 (NTCOGD)
                 para autorizar e interconectar sistemas fotovoltaicos con inyección a la red eléctrica.
               </p>
             </div>
@@ -625,7 +1094,7 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
         )}
 
         {/* ========================================================================= */}
-        {/* PESTAÑA 3: CATEGORÍAS DE ELECTRICISTAS & NEC 690 */}
+        {/* PESTAÑA 5: CATEGORÍAS DE ELECTRICISTAS & NEC 690 */}
         {/* ========================================================================= */}
         {activeTab === 'categories' && (
           <div className="space-y-6">
@@ -734,8 +1203,8 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
                   <span className="font-bold text-[#0B1B3D] block mb-1">
                     Factor de Continuidad (690.8)
                   </span>
-                  Imax = 1.25 × Isc. Con sobredimensionamiento de protección del 125%:
-                  In &ge; 1.56 × Isc.
+                  Imax = 1.25 x Isc. Con sobredimensionamiento de protección del 125%:
+                  In &ge; 1.56 x Isc.
                 </div>
                 <div className="p-3 bg-slate-50 rounded-lg border border-slate-200">
                   <span className="font-bold text-[#0B1B3D] block mb-1">

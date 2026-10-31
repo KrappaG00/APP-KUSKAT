@@ -1,25 +1,96 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
-interface AdBannerProps {
+export interface AdBannerProps {
   slotId?: string;
   className?: string;
   variant?: 'light' | 'dark';
   positionLabel?: string;
+  /**
+   * Google AdSense Policy Compliance & Content Guard Props:
+   * Protege contra la colocación de anuncios en pantallas sin contenido sustantivo,
+   * estados de carga (loading), búsquedas vacías, errores o modales sin valor editorial.
+   */
+  hasPublisherContent?: boolean;
+  isLoading?: boolean;
+  isEmpty?: boolean;
+  minSubstantiveWords?: number;
+  contentSnippet?: string;
 }
 
 /**
+ * Cuenta palabras sustantivas excluyendo marcado KaTeX, etiquetas HTML y caracteres no textuales.
+ */
+export const countSubstantiveWords = (text?: string): number => {
+  if (!text || typeof text !== 'string') return 0;
+  const clean = text
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\$\$[\s\S]*?\$\$/g, ' ')
+    .replace(/\$[^$]*?\$/g, ' ')
+    .replace(/\\[a-zA-Z]+/g, ' ')
+    .replace(/[^\w\sáéíóúüñÁÉÍÓÚÜÑ]/g, ' ')
+    .trim();
+  if (!clean) return 0;
+  const words = clean.split(/\s+/).filter((w) => w.length > 1);
+  return words.length;
+};
+
+/**
  * AdBanner — Componente de anuncio horizontal delgado y no invasivo para Google AdSense
- * Diseñado específicamente para no obstruir la experiencia de estudio en KUSKAT.
+ * Equipado con compuertas de seguridad pedagógica y cumplimiento de directrices de AdSense
+ * (Inventory Value: No Content & Low-Value Content Guard).
  */
 export const AdBanner: React.FC<AdBannerProps> = ({
   slotId = '4241045160',
   className = '',
   variant = 'light',
   positionLabel,
+  hasPublisherContent = true,
+  isLoading = false,
+  isEmpty = false,
+  minSubstantiveWords = 15,
+  contentSnippet,
 }) => {
+  const containerRef = useRef<HTMLElement | null>(null);
   const adRef = useRef<HTMLModElement | null>(null);
+  const [isSuppressedByDom, setIsSuppressedByDom] = useState(false);
+
+  // 1. Evaluación preventiva de compuertas de contenido sustantivo
+  const wordCount = contentSnippet !== undefined ? countSubstantiveWords(contentSnippet) : 0;
+  const isBelowWordThreshold = contentSnippet !== undefined && wordCount < minSubstantiveWords;
+
+  const isGuardedOut =
+    isLoading === true ||
+    isEmpty === true ||
+    hasPublisherContent === false ||
+    isBelowWordThreshold ||
+    isSuppressedByDom;
 
   useEffect(() => {
+    // Si la compuerta rechaza el renderizado, NUNCA empujar anuncio a adsbygoogle
+    if (isGuardedOut) {
+      return;
+    }
+
+    // 2. Verificación programática en el DOM:
+    // Asegurar que el anuncio jamás se monte en modales puros, alertas, resultados vacíos o contenedores ocultos
+    const container = containerRef.current;
+    if (container && typeof window !== 'undefined') {
+      const isInsideModal = Boolean(
+        container.closest(
+          '[role="dialog"], [role="alert"], [aria-modal="true"], .modal, .modal-overlay, [data-is-modal="true"]'
+        )
+      );
+      const isInsideEmptyState = Boolean(
+        container.closest('[data-empty-state="true"], [data-empty="true"], .empty-state')
+      );
+      const isHidden = container.offsetParent === null && container.offsetWidth === 0 && container.offsetHeight === 0;
+
+      if (isInsideModal || isInsideEmptyState || isHidden) {
+        setIsSuppressedByDom(true);
+        return;
+      }
+    }
+
     try {
       if (typeof window !== 'undefined') {
         // @ts-ignore
@@ -28,12 +99,18 @@ export const AdBanner: React.FC<AdBannerProps> = ({
     } catch {
       // Silencioso ante bloqueadores de anuncios o entornos de desarrollo local
     }
-  }, []);
+  }, [isGuardedOut]);
+
+  // Si no hay contenido sustantivo o las compuertas están activadas, retornar null
+  if (isGuardedOut) {
+    return null;
+  }
 
   const isDark = variant === 'dark';
 
   return (
     <aside
+      ref={containerRef}
       role="complementary"
       aria-label="Publicidad patrocinada por Google Ads"
       data-position={positionLabel}

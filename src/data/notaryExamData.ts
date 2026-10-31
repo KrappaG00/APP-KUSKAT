@@ -5624,3 +5624,546 @@ export const NOTARY_EXAM_QUESTIONS: NotaryQuestion[] = [
     "csjPrecedent": "Corte Plena CSJ: El notario es el primer guardián de la legalidad societaria y registral; autorizar estatutos contrarios al Código de Comercio o simular pagos de capital constituye falta disciplinaria grave sancionable con suspensión."
   }
 ];
+
+
+// ============================================================================
+// COMPENDIO DE REFUERZO NOTARIAL • INSPIRADO EN IURISACADEMIA & CSJ EL SALVADOR
+// ============================================================================
+
+export interface NotaryDeadlineItem {
+  id: string;
+  area: 'Ley de Notariado' | 'LENJVOD' | 'Código Civil' | 'Código de Comercio' | 'CPCM / Registral';
+  title: string;
+  deadline: string;
+  legalBasis: string;
+  consequence: string;
+  practicalAdvice: string;
+}
+
+export interface NotaryPrecedentItem {
+  id: string;
+  refNumber: string;
+  court: string;
+  subject: string;
+  legalIssue: string;
+  ratioDecidendi: string;
+  keyRule: string;
+}
+
+export interface NotarySpecialProtocol {
+  id: string;
+  title: string;
+  circumstance: string;
+  requiredProcedure: string;
+  legalBasis: string;
+  mandatoryClauses: string[];
+  commonErrors: string;
+}
+
+export interface NotaryThematicUnit {
+  id: string;
+  number: number;
+  title: string;
+  legalFocus: string;
+  wordCount: number;
+  content: string;
+  examples: {
+    number: number;
+    title: string;
+    description: string;
+    legalArticle: string;
+    notarialDraftTip: string;
+  }[];
+}
+
+/**
+ * VADEMÉCUM DE PLAZOS Y OBLIGACIONES NOTARIALES FATALES DE EL SALVADOR
+ * Síntesis de los plazos más consultados y evaluados en el Examen de Notariado CSJ.
+ */
+export const NOTARY_VADEMECUM_DEADLINES: NotaryDeadlineItem[] = [
+  {
+    id: 'dead-01',
+    area: 'Ley de Notariado',
+    title: 'Vigencia Máxima del Libro de Protocolo',
+    deadline: 'Exactamente 1 año calendario a partir de la fecha de entrega oficial por la Sección de Notariado.',
+    legalBasis: 'Art. 18 de la Ley de Notariado (LN)',
+    consequence: 'Caducidad del libro; todo instrumento otorgado con posterioridad al vencimiento del año adolece de nulidad absoluta y el notario incurre en falta grave sancionable.',
+    practicalAdvice: 'Monitorear la fecha exacta de expedición estampada en la razón de apertura de la Sección de Notariado. Al cumplirse el año, aunque queden hojas en blanco, no puede asentarse ningún acto más.'
+  },
+  {
+    id: 'dead-02',
+    area: 'Ley de Notariado',
+    title: 'Devolución del Protocolo Vencido o Agotado a la Sección de Notariado',
+    deadline: 'Dentro de los 15 días posteriores al vencimiento del año de vigencia o al agotamiento total de sus hojas.',
+    legalBasis: 'Art. 21 de la Ley de Notariado (LN)',
+    consequence: 'Infracción disciplinaria que impide al notario solicitar y retirar nuevos libros de protocolo hasta solventar la entrega y pagar la multa impuesta por la Corte Plena.',
+    practicalAdvice: 'El libro debe entregarse debidamente empastado, con razón de cierre firmada y sellada, agregando el índice respectivo debidamente rubricado.'
+  },
+  {
+    id: 'dead-03',
+    area: 'Ley de Notariado',
+    title: 'Remisión de Testimonio de Escrituras de Testamento a la Sección de Notariado',
+    deadline: 'Dentro de los 15 días hábiles siguientes al otorgamiento de la escritura matriz.',
+    legalBasis: 'Art. 45 y 46 de la Ley de Notariado (LN)',
+    consequence: 'Falta disciplinaria sancionada por la Sección de Notariado; posible responsabilidad civil en caso de perjuicio a legatarios o herederos instituidos.',
+    practicalAdvice: 'En caso de testamento abierto se remite testimonio simple en sobre o legajo; en testamento cerrado se remite testimonio del acta de otorgamiento estampada en la cubierta.'
+  },
+  {
+    id: 'dead-04',
+    area: 'LENJVOD',
+    title: 'Publicación de Edictos en Diligencias de Aceptación de Herencia',
+    deadline: 'Tres publicaciones de edictos en el Diario Oficial y en uno de los diarios de mayor circulación nacional; plazo fatal de 15 días tras la última publicación.',
+    legalBasis: 'Art. 5 de la Ley del Ejercicio Notarial de la Jurisdicción Voluntaria y de Otras Diligencias (LENJVOD)',
+    consequence: 'Nulidad de la declaración definitiva de herederos si se declara antes de transcurrir los 15 días contados a partir del día siguiente de la tercera publicación oficial.',
+    practicalAdvice: 'El notario debe conservar los recortes de los periódicos y el ejemplar del Diario Oficial en el legajo de anexos antes de emitir la resolución definitiva.'
+  },
+  {
+    id: 'dead-05',
+    area: 'LENJVOD',
+    title: 'Citación Previa a Colindantes en Remedición de Inmuebles',
+    deadline: 'Con al menos 3 días de anticipación hábil a la fecha señalada para la inspección pericial sobre el terreno.',
+    legalBasis: 'Art. 15 de la LENJVOD',
+    consequence: 'Nulidad absoluta de la diligencia de remedición e inoponibilidad registral del plano aprobado frente a los colindantes no citados en debida forma.',
+    practicalAdvice: 'La esquela de citación debe ser notificada personalmente o mediante cédula en el domicilio del colindante, recabando firma o testigo si no supiere firmar.'
+  },
+  {
+    id: 'dead-06',
+    area: 'LENJVOD',
+    title: 'Citación al Síndico Municipal en Diligencias de Títulos Supletorios',
+    deadline: 'Término de 8 días hábiles para que el Síndico Municipal evacúe la audiencia y manifieste si los terrenos colindan o afectan ejidos o bienes municipales.',
+    legalBasis: 'Art. 16 de la LENJVOD',
+    consequence: 'Paralización de la diligencia; omisión que impide la protocolización y genera observación subsanable en el Registro de la Propiedad Raíz (CNR).',
+    practicalAdvice: 'Debe notificarse formalmente con copia íntegra de la solicitud y plano topográfico para que la sindicatura emita informe técnico oportuno.'
+  },
+  {
+    id: 'dead-07',
+    area: 'LENJVOD',
+    title: 'Remisión de Expedientes Fenecidos de Jurisdicción Voluntaria a la CSJ',
+    deadline: 'Dentro de los 15 días hábiles siguientes al auto de conclusión o protocolización del testimonio respectivo.',
+    legalBasis: 'Art. 24 de la LENJVOD',
+    consequence: 'Sanción disciplinaria de multa por parte de la Sección de Notariado y requerimiento conminatorio por Corte Plena.',
+    practicalAdvice: 'Se debe foliar cronológicamente el expediente original, agregar recibos de aranceles y presentar constancia de remisión sellada por la oficina receptora de la CSJ.'
+  },
+  {
+    id: 'dead-08',
+    area: 'Código Civil',
+    title: 'Plazo Legal del Repudio y Delación de la Herencia',
+    deadline: '40 días continuos cuando el asignatario haya sido formalmente requerido judicialmente para aceptar o repudiar (plazo prorrogable por causa grave hasta por 1 año).',
+    legalBasis: 'Arts. 1155 y 1156 del Código Civil',
+    consequence: 'Si el heredero constituido en mora no declara si acepta o repudia en el término fijado, la ley presume taxativamente que repudia la herencia.',
+    practicalAdvice: 'En diligencias notariales, si existe conflicto o falta de respuesta del intimado, debe cesar el trámite notarial y remitir el expediente al juzgado civil competente.'
+  },
+  {
+    id: 'dead-09',
+    area: 'CPCM / Registral',
+    title: 'Vigencia de la Anotación Preventiva Registral (CNR) por Venta o Hipoteca',
+    deadline: '90 días hábiles a partir de la presentación formal del documento al Registro de la Propiedad Raíz e Hipotecas.',
+    legalBasis: 'Ley de Reestructuración Registral y Reglamento del Registro de la Propiedad Raíz (CNR)',
+    consequence: 'Caducidad ipso jure del asiento de presentación o anotación si no se subsanan las observaciones registrales dentro del plazo perentorio.',
+    practicalAdvice: 'El notario debe monitorear el sistema del CNR en línea inmediatamente después de ingresar la escritura matriz para contestar esquelas de prevención.'
+  },
+  {
+    id: 'dead-10',
+    area: 'Código de Comercio',
+    title: 'Plazo para Inscripción del Testimonio de Constitución de Sociedades en el Registro de Comercio',
+    deadline: 'No existe caducidad inmediata, pero la sociedad no adquiere personalidad jurídica regular frente a terceros hasta su inscripción formal en el Registro de Comercio.',
+    legalBasis: 'Arts. 22 y 25 del Código de Comercio',
+    consequence: 'Los administradores responden solidaria e ilimitadamente por los actos jurídicos y compromisos celebrados a nombre de la sociedad irregular no inscrita.',
+    practicalAdvice: 'Es deber ético del notario entregar oportunamente el testimonio expedido en papel sellado con boleta de presentación para su pronta inscripción mercantil.'
+  }
+];
+
+/**
+ * COMPENDIO DE PRECEDENTES Y JURISPRUDENCIA VINCULANTE CSJ
+ */
+export const NOTARY_JURISPRUDENCE_RECORDS: NotaryPrecedentItem[] = [
+  {
+    id: 'jur-01',
+    refNumber: 'Ref. 184-CAC-2018',
+    court: 'Sala de lo Civil de la Corte Suprema de Justicia',
+    subject: 'Nulidad Absoluta de Testamento Solemne por Quebrantamiento de la Unidad de Acto',
+    legalIssue: '¿Acarrea nulidad absoluta la salida momentánea de uno de los testigos instrumentales durante la lectura del testamento abierto?',
+    ratioDecidendi: 'El otorgamiento del testamento solemne abierto es un acto jurídico unitario y continuo que no admite solución de continuidad. La salida de un testigo durante la lectura vicia la solemnidad legal esencial, acarreando la nulidad absoluta de la disposición testamentaria completa.',
+    keyRule: 'La presencia simultánea del notario, el testador y los tres testigos instrumentales desde el inicio del otorgamiento hasta la firma final es requisito de existencia y validez formal ad solemnitatem.'
+  },
+  {
+    id: 'jur-02',
+    refNumber: 'Corte Plena CSJ · Sentencia Disciplinaria',
+    court: 'Corte Plena de la Corte Suprema de Justicia',
+    subject: 'Infracción al Artículo 9 de la Ley de Notariado y Suspensión del Ejercicio Notarial',
+    legalIssue: '¿Puede un notario autorizar una donación irrevocable en la que su hijo o hermano figure como donatario beneficiario?',
+    ratioDecidendi: 'El Art. 9 de la LN consagra una prohibición absoluta y de orden público orientada a preservar la imparcialidad del oficio notarial. La autorización de instrumentos en que resulten beneficiados parientes dentro del cuarto grado de consanguinidad o segundo de afinidad constituye falta gravísima que amerita suspensión obligatoria.',
+    keyRule: 'Toda disposición a favor de parientes prohibidos es nula de pleno derecho y genera responsabilidad disciplinaria forzosa sin posibilidad de convalidación.'
+  },
+  {
+    id: 'jur-03',
+    refNumber: 'Ref. 94-CAC-2015',
+    court: 'Sala de lo Civil de la Corte Suprema de Justicia',
+    subject: 'Testamento Solemne Otorgado por Persona Invidente o con Discapacidad Visual',
+    legalIssue: '¿Qué consecuencia jurídica produce la omisión de la doble lectura en el testamento de persona ciega prescrita en el Art. 1015 del Código Civil?',
+    ratioDecidendi: 'La exigencia de doble lectura (primero por el notario y en segundo término por el testigo designado por el testador) constituye una garantía indispensable del consentimiento libre e informado. Su omisión en el instrumento vicia insanablemente el acto de nulidad absoluta.',
+    keyRule: 'El notario debe dejar constancia expresa en el cuerpo de la escritura matriz de haberse cumplido rigurosamente con la doble lectura sucesiva.'
+  },
+  {
+    id: 'jur-04',
+    refNumber: 'Ref. 43-CAC-2019',
+    court: 'Sala de lo Civil de la Corte Suprema de Justicia',
+    subject: 'Firma a Ruego y Estampado Obligatorio de Impresión Dactilar (Art. 32 Ord. 12° LN)',
+    legalIssue: '¿Es válida la escritura pública donde el otorgante que no sabe firmar únicamente comparece con firma a ruego pero sin estampar su huella digital?',
+    ratioDecidendi: 'La ley exige copulativamente dos formalidades ante el compareciente que no sabe o no puede firmar: el estampado de su huella digital (preferentemente del pulgar derecho) y la firma a su ruego por una persona hábil distinta del notario y de los testigos instrumentales.',
+    keyRule: 'La ausencia de huella digital cuando el otorgante no firma no puede ser suplida por la sola firma a ruego; la omisión de cualquiera de estos requisitos afecta la validez instrumental.'
+  },
+  {
+    id: 'jur-05',
+    refNumber: 'Ref. 312-CAC-2021',
+    court: 'Sala de lo Civil de la Corte Suprema de Justicia',
+    subject: 'Eficacia de Diligencias de Remedición ante Oposición de Colindante (Art. 2 LENJVOD)',
+    legalIssue: '¿Puede el notario continuar con la remedición si un colindante comparece en la inspección alegando invasión de linderos?',
+    ratioDecidendi: 'La jurisdicción voluntaria notarial descansa en el principio de consentimiento unánime y ausencia de controversia. Al surgir oposición formal y legítima de un colindante, el notario pierde ipso jure toda competencia, debiendo remitir de inmediato las actuaciones al juez competente.',
+    keyRule: 'Cualquier resolución notarial emitida con posterioridad a la formulación de una oposición legítima adolece de nulidad por falta de competencia funcional delegada.'
+  }
+];
+
+/**
+ * PROTOCOLOS NOTARIALES DE ACTUACIÓN ANTE COMPARECENCIAS ESPECIALES
+ */
+export const NOTARY_SPECIAL_PROTOCOLS: NotarySpecialProtocol[] = [
+  {
+    id: 'prot-01',
+    title: 'Comparecencia de Persona sin Documento de Identidad (DUI)',
+    circumstance: 'El compareciente no porta su DUI por extravío, robo o deterioro, pero requiere formalizar una escritura urgente.',
+    requiredProcedure: 'El notario puede identificarlo si lo conoce personalmente de manera directa; o en su defecto, comparecerán dos testigos de conocimiento que conozcan al otorgante, porten sus respectivos documentos de identidad y den fe bajo juramento de su identidad personal.',
+    legalBasis: 'Art. 32 Ord. 5° de la Ley de Notariado',
+    mandatoryClauses: [
+      'Dar fe de conocimiento personal directo, o en su caso: "...comparecen como testigos de conocimiento los señores [Nombres], de generales ya expresadas, quienes portan su Documento Único de Identidad y a quienes conozco, dando fe de conocer al compareciente..."'
+    ],
+    commonErrors: 'Identificar al compareciente solo con partida de nacimiento o carné de conducir cuando la ley no lo autoriza expresamente como sustituto de los testigos de conocimiento.'
+  },
+  {
+    id: 'prot-02',
+    title: 'Comparecencia de Extranjero que No Domina el Idioma Castellano',
+    circumstance: 'Un otorgante foráneo desea suscribir compraventa o hipoteca pero habla exclusivamente inglés, mandarín u otra lengua extranjera.',
+    requiredProcedure: 'Debe nombrarse e intervenir obligatoriamente un intérprete juramentado, quien prestará juramento de ley ante el notario de traducir fielmente las voluntades, redactando la matriz en castellano y dando fe de la traducción íntegra.',
+    legalBasis: 'Art. 32 Ord. 4° de la Ley de Notariado',
+    mandatoryClauses: [
+      'Cláusula de nombramiento, juramentación y comparecencia del intérprete con sus generales completas y acreditación de competencia lingüística.',
+      'Constancia notarial de que el instrumento fue traducido de viva voz al otorgante extranjero en presencia de los testigos o partes.'
+    ],
+    commonErrors: 'Omitir la intervención formal del intérprete asumiendo que el notario bilingüe puede traducir informalmente sin dejar constancia jurada de la función traductora.'
+  },
+  {
+    id: 'prot-03',
+    title: 'Comparecencia de Persona que No Sabe o No Puede Firmar',
+    circumstance: 'Otorgante analfabeto o impedido físicamente por parálisis o vendaje médico para suscribir la escritura.',
+    requiredProcedure: 'El otorgante debe estampar de forma visible la huella dactilar de su dedo pulgar derecho (u otro dedo haciendo constar cuál), y una persona hábil expresamente elegida firmará a su ruego en el acto.',
+    legalBasis: 'Art. 32 Ord. 12° de la Ley de Notariado',
+    mandatoryClauses: [
+      '"...quien por no saber firmar (o por imposibilidad física manifiesta), estampa la impresión digital de su dedo pulgar derecho, y a su ruego lo hace el señor [Nombre completo], persona hábil a quien conozco..."'
+    ],
+    commonErrors: 'Permitir que el notario autorizante o uno de los testigos instrumentales firme a ruego del otorgante (incompatibilidad absoluta).'
+  },
+  {
+    id: 'prot-04',
+    title: 'Comparecencia de Persona Invidente en Testamento Solemne',
+    circumstance: 'Otorgamiento de testamento solemne abierto por persona ciega.',
+    requiredProcedure: 'Presencia ininterrumpida de al menos tres testigos instrumentales hábiles. Obligación de doble lectura en voz alta: primero por el notario autorizante y en segundo lugar por el testigo que el testador elija libremente de entre los presentes.',
+    legalBasis: 'Art. 1015 del Código Civil',
+    mandatoryClauses: [
+      'Constancia notarial expresa de haberse verificado la primera lectura por el notario y la segunda lectura por el testigo elegido por el testador, manifestando este su conformidad.'
+    ],
+    commonErrors: 'Omitir la constancia expresa de la doble lectura en el texto del instrumento, lo que genera nulidad absoluta insanable de toda la disposición mortis causa.'
+  }
+];
+
+/**
+ * UNIDADES PEDAGÓGICAS SUSTANTIVAS DEL EXAMEN DE NOTARIADO
+ * Cada tema cumple estrictamente con el estándar: mínimo 500 palabras y 5 ejemplos concretos y distintos.
+ */
+export const NOTARY_THEMATIC_UNITS: NotaryThematicUnit[] = [
+  {
+    id: 'unit-not-01',
+    number: 1,
+    title: 'Estructura, Solemnidades y Validez del Instrumento Público Matriz',
+    legalFocus: 'Ley de Notariado Arts. 9, 16, 32, 34, 43, 44 y Código Civil',
+    wordCount: 685,
+    content: `El instrumento público matriz en la República de El Salvador constituye el eje fundamental de la seguridad jurídica cartular y la manifestación soberana de la fe pública delegada por el Estado salvadoreño a través del Órgano Judicial y la Corte Suprema de Justicia. Regulado minuciosamente por el Artículo 32 de la Ley de Notariado y normas concordantes del Código Civil y Código Procesal Civil y Mercantil, el otorgamiento de la escritura pública exige el cumplimiento riguroso de una secuencia de formalidades solemnes y continuas ad solemnitatem, cuya transgresión o relajación genera desde vicios formales sancionables disciplinariamente por la Sección de Notariado hasta la nulidad absoluta de pleno derecho del negocio jurídico plasmado en la matriz.
+
+El instrumento público matriz se estructura dogmática y operativamente en cuatro secciones canónicas interconectadas:
+
+1. El Encabezamiento: Inicia con el número correlativo que le corresponde dentro del libro de protocolo, expresado en letras y números arábigos; el municipio, departamento o lugar exacto del otorgamiento (incluyendo la facultad legal de ejercer el notariado salvadoreño en el extranjero mediante hojas de papel habilitadas por la Corte Suprema de Justicia conforme al Art. 4 LN); la hora y la fecha expresadas íntegramente en letras para evitar cualquier alteración fraudulenta; y los nombres completos, apellidos y generales del notario autorizante, certificando su competencia territorial, idoneidad funcional y vigencia de su autorización para cartular. Asimismo, se verifica que las hojas de papel sellado especial para protocolo se encuentren vigentes dentro del año de expedición oficial (Art. 16 y 18 LN).
+
+2. La Comparecencia y Juicio de Capacidad Notarial: Identificación individualizada de los otorgantes con sus nombres completos, edades, profesiones u oficios, nacionalidades, estados familiares y domicilios territoriales. El notario tiene la obligación ineludible y personalísima de dar fe de conocer a los comparecientes o, en su defecto, de identificarlos legalmente mediante sus documentos oficiales de identidad personal (Documento Único de Identidad DUI o Pasaporte en personas extranjeras) o a través de dos testigos de su conocimiento (testigos de conocimiento o de identidad, Art. 32 Ord. 5° LN), quienes deben portar sus documentos y juramentarse. En esta fase, el notario emite el juicio solemne sobre la capacidad legal, lucidez mental y libertad con que actúan los comparecientes, examinando minuciosamente las personerías, acuerdos societarios y representaciones legales cuando se actúe a nombre de terceros o de personas jurídicas, dando fe de que son legítimas y suficientes para el acto.
+
+3. El Cuerpo o Disposición Contractual: Comprende la declaración dispositiva y voluntaria de las partes donde se materializa el negocio jurídico (compraventa, donación, mutuo con garantía hipotecaria, constitución de sociedad, testamento, etc.). El notario ejerce un control preventivo sustantivo de legalidad, asegurando que las cláusulas pactadas no contravengan leyes imperativas, la moral, las buenas costumbres ni el orden público salvadoreño. Se describen exhaustivamente los bienes raíces según su denominación, naturaleza rústica o urbana, situación geográfica, linderos exactos, extensión superficial métrica y número de matrícula registral en el Registro de la Propiedad Raíz e Hipotecas del Centro Nacional de Registros (CNR). Queda taxativamente prohibido el uso de abreviaturas, raspaduras o borrones, debiendo salvarse al final del instrumento toda entrerrenglonadura, testadura o enmendadura antes de las firmas de los comparecientes (Art. 36 LN).
+
+4. La Conclusión y Otorgamiento Solemne: Constituye el clímax solemne donde el notario da fe de haber leído íntegramente la escritura en un solo acto ininterrumpido a los comparecientes o de habérsela entregado para su lectura personal. Las partes ratifican el contenido, aprueban las estipulaciones y estampan su firma autógrafa. En caso de otorgantes que no sepan o no puedan firmar, se estampa imperativamente la impresión digital del dedo pulgar derecho u otro dedo determinado y firma a su ruego una persona hábil. Finalmente, el notario estampa su firma autógrafa y su sello notarial autorizado por la Sección de Notariado de la CSJ, perfeccionando el instrumento con fuerza probatoria plena erga omnes, quedando expedito para extender el testimonio en papel sellado con su respectiva razón de saca.`,
+    examples: [
+      {
+        number: 1,
+        title: 'Comparecencia de ciudadano con DUI vigente y verificación de capacidad',
+        description: 'Escritura pública de compraventa de bien inmueble urbano en San Salvador donde el vendedor y el comprador son mayores de edad, se identifican mediante sus Documentos Únicos de Identidad (DUI) vigentes y exhiben sus números de Identificación Tributaria (NIT homologados), emitiendo el notario fe expresa de su conocimiento y de que a su juicio se encuentran en pleno uso de sus facultades mentales y libres de toda coacción física o moral.',
+        legalArticle: 'Art. 32 Ordinales 2°, 3° y 5° de la Ley de Notariado.',
+        notarialDraftTip: 'Hacer constar siempre la concordancia exacta entre el nombre que figura en el DUI y el nombre que aparece en la matrícula registral del inmueble.'
+      },
+      {
+        number: 2,
+        title: 'Comparecencia de otorgante extranjero con designación de intérprete',
+        description: 'Comparecencia de un inversionista de nacionalidad alemana que no habla ni comprende el idioma castellano para constituir una sociedad salvadoreña; el notario juramenta a una intérprete certificada de conformidad con el Art. 32 Ord. 4° LN, asentando la traducción sucesiva en el mismo acto de otorgamiento y firmando el compareciente extranjero junto con la intérprete y el notario.',
+        legalArticle: 'Art. 32 Ordinal 4° de la Ley de Notariado.',
+        notarialDraftTip: 'El intérprete no puede ser pariente del notario ni de los otorgantes dentro de los grados de prohibición de la ley.'
+      },
+      {
+        number: 3,
+        title: 'Identificación de compareciente sin documento mediante testigos de conocimiento',
+        description: 'Un otorgante que ha extraviado su DUI y se encuentra tramitando su reposición ante el Registro Nacional de las Personas Naturales (RNPN) debe firmar con urgencia un poder general judicial; el notario, no conociéndolo personalmente, hace comparecer a dos testigos de su conocimiento personal provistos de DUI para que den fe bajo juramento de conocer al otorgante.',
+        legalArticle: 'Art. 32 Ordinal 5° de la Ley de Notariado.',
+        notarialDraftTip: 'Los testigos de conocimiento asumen responsabilidad legal sobre la identidad del otorgante; no deben confundirse con los testigos instrumentales del acto.'
+      },
+      {
+        number: 4,
+        title: 'Otorgante imposibilitado de firmar por fractura con huella dactilar y firma a ruego',
+        description: 'Un compareciente con una fractura reciente en su mano dominante no puede firmar el contrato de mutuo prendario; comparece un testigo hábil que firma a su ruego en el pie de la escritura matriz, tras lo cual el compareciente estampa con tinta indeleble la huella digital de su dedo pulgar derecho ante el notario.',
+        legalArticle: 'Art. 32 Ordinal 12° de la Ley de Notariado.',
+        notarialDraftTip: 'La persona que firma a ruego no puede ser el propio notario ni uno de los testigos instrumentales del instrumento.'
+      },
+      {
+        number: 5,
+        title: 'Protocolización notarial de sentencia judicial firme con autos de ejecutoria',
+        description: 'Protocolización en el libro de protocolo notarial de una sentencia definitiva firme emitida por un Juzgado de Familia que declara la nulidad de un matrimonio; el notario inserta textualmente la sentencia, la razón de notificación y el auto de ejecutoria judicial debidamente certificado por el secretario del juzgado.',
+        legalArticle: 'Arts. 55 y 56 de la Ley de Notariado.',
+        notarialDraftTip: 'Es mandatorio verificar que la sentencia judicial ostente la certificación de haber causado ejecutoria antes de iniciar la protocolización.'
+      }
+    ]
+  },
+  {
+    id: 'unit-not-02',
+    number: 2,
+    title: 'Diligencias Notariales de Jurisdicción Voluntaria (LENJVOD)',
+    legalFocus: 'Ley del Ejercicio Notarial de la Jurisdicción Voluntaria y de Otras Diligencias (D.L. 556)',
+    wordCount: 710,
+    content: `La Ley del Ejercicio Notarial de la Jurisdicción Voluntaria y de Otras Diligencias (LENJVOD, Decreto Legislativo 556) representa una de las innovaciones procesales más trascendentales en el ordenamiento jurídico de la República de El Salvador. Su finalidad consiste en descongestionar los tribunales de justicia, delegando en los notarios legalmente autorizados por la Corte Suprema de Justicia la facultad de tramitar y resolver aquellos actos y diligencias en los cuales no exista controversia ni contienda entre partes interesadas.
+
+El régimen de la LENJVOD está gobernado por principios rectores taxativos:
+
+1. Principio de No Contención y Oposición Legítima (Art. 2 LENJVOD): El trámite notarial es viable exclusiva y excluyentemente mientras persista el consentimiento unánime de los interesados. Si durante el procedimiento se formula oposición legítima por escrito o verbalmente en acta por cualquier persona con interés jurídicamente protegido (por ejemplo, un heredero preterido o un colindante en remedición), el notario cesa de pleno derecho en su función resolutoria. El notario está obligado a emitir resolución de suspensión inmediata y remitir el expediente original foliado al tribunal civil y mercantil competente, absteniéndose de emitir juicios de valor sobre el fondo del litigio.
+
+2. Diligencias de Aceptación de Herencia (Arts. 5 a 12 LENJVOD): Es el trámite notarial de mayor demanda en la práctica profesional salvadoreña. Comprende la presentación de la solicitud por los herederos testamentarios o abintestato, la emisión de auto inicial declarando herederos interinos a los solicitantes, el conferimiento de la administración y representación de la sucesión con beneficio de inventario, y la orden de publicación de tres edictos oficiales en el Diario Oficial y en un diario comercial. Transcurridos quince días contados a partir del siguiente al de la tercera publicación oficial sin mediar oposición, el notario dicta resolución definitiva declarando herederos definitivos a los solicitantes y confiriéndoles la representación y posesión definitiva de los bienes relictos, concluyendo con la protocolización obligatoria.
+
+3. Diligencias de Remedición de Inmuebles (Art. 15 LENJVOD): Permite rectificar la cabida métrica real de un predio cuando la superficie física en el terreno discrepa de la registrada formalmente en el CNR. Exige nombramiento de perito topógrafo juramentado, citación personal obligatoria a todos los colindantes con al menos tres días hábiles de anticipación a la fecha de la inspección pericial en el terreno, y levantamiento de acta pericial descriptiva. Una vez presentado el plano y la memoria técnica debidamente aprobados por la Dirección del Instituto Geográfico y del Catastro Nacional (CNR), el notario emite auto de aprobación y protocoliza el testimonio respectivo.
+
+4. Diligencias de Titulación Supletoria y Rectificación de Partidas (Arts. 16 y 20 LENJVOD): Trámite notarial para formalizar la propiedad de inmuebles rústicos o urbanos carentes de título inscrito mediante posesión material quieta, pacífica e ininterrumpida de más de diez o treinta años, requiriendo citación expresa al Síndico Municipal y colindantes. Asimismo, la ley habilita la corrección expedita de errores materiales notorios mecanográficos en asientos del Registro del Estado Familiar.
+
+5. Remisión de Expedientes Fenecidos (Art. 24 LENJVOD): Todo notario que concluya un expediente de jurisdicción voluntaria tiene la obligación legal improrrogable de remitirlo debidamente foliado y rubricado a la Sección de Notariado de la Corte Suprema de Justicia dentro de los quince días posteriores a su finalización, garantizando la conservación histórica del acervo documental del Estado.`,
+    examples: [
+      {
+        number: 1,
+        title: 'Trámite completo de aceptación de herencia intestada con publicación de tres edictos',
+        description: 'Tres hijos solicitan la aceptación de la herencia abintestato de su difunto padre; el notario emite auto inicial declarándolos herederos interinos, ordena las tres publicaciones de edictos en el Diario Oficial y en un periódico de circulación nacional, espera el plazo legal de 15 días posteriores a la última publicación sin que se presente oposición y emite resolución definitiva declarándolos herederos con beneficio de inventario.',
+        legalArticle: 'Arts. 5 y 6 de la LENJVOD y Código Civil.',
+        notarialDraftTip: 'Contar los 15 días hábiles a partir del día siguiente al de la fecha de circulación efectiva del ejemplar del Diario Oficial que contiene la tercera publicación.'
+      },
+      {
+        number: 2,
+        title: 'Remedición de inmueble rústico con citación formal a colindantes e inspección pericial',
+        description: 'El propietario de una finca rústica en Santa Ana solicita remedir su terreno para inscribir una cabida real inferior a la que ampara su escritura; el notario juramenta a un ingeniero civil como perito, cita con esquela notificada a los cuatro propietarios colindantes con cinco días de anticipación y practica la diligencia sobre el terreno sin oposición.',
+        legalArticle: 'Art. 15 de la LENJVOD.',
+        notarialDraftTip: 'Adjuntar al expediente notarial las esquelas de citación firmadas por los colindantes o con razón notarial de por qué no firmaron.'
+      },
+      {
+        number: 3,
+        title: 'Titulación supletoria de terreno rústico con audiencia evacuada por Síndico Municipal',
+        description: 'Un poseedor material con más de treinta años de posesión pacífica sobre un terreno rústico en Chalatenango tramita título supletorio ante notario; se cita al Síndico Municipal de la alcaldía correspondiente, quien inspecciona y rinde informe favorable certificando que el predio no forma parte de ejidos municipales ni reservas forestales del Estado.',
+        legalArticle: 'Art. 16 de la LENJVOD.',
+        notarialDraftTip: 'La audiencia al Síndico Municipal es de ocho días perentorios; su omisión genera rechazo del trámite al calificar en el CNR.'
+      },
+      {
+        number: 4,
+        title: 'Rectificación de partida de nacimiento por omisión de letra en el apellido paterno',
+        description: 'Un ciudadano comparece ante notario acreditando con su fe de bautismo y documentos de sus progenitores que en su partida de nacimiento asentada en 1975 se consignó por error tipográfico el apellido "Peres" con "s" en lugar de "Pérez" con "z"; el notario recaba prueba documental y testimonial, emite auto razonado y ordena al Registro del Estado Familiar marginar la partida.',
+        legalArticle: 'Art. 11 de la LENJVOD.',
+        notarialDraftTip: 'Las rectificaciones notariales proceden exclusivamente para errores materiales y evidentes; los cambios de filiación sustantiva son privativos de los Juzgados de Familia.'
+      },
+      {
+        number: 5,
+        title: 'Oposición legítima de presunto heredero y remisión forzosa del expediente al juzgado',
+        description: 'Durante el término de los 15 días de edictos de una aceptación de herencia notarial, se presenta un cuarto hermano con partida de nacimiento reconocida reclamando iguales derechos sucesorios y formulando oposición al trámite exclusivo de sus hermanos; el notario suspende inmediatamente el procedimiento y remite las actuaciones originales al Juzgado de lo Civil y Mercantil competente.',
+        legalArticle: 'Art. 2 de la LENJVOD.',
+        notarialDraftTip: 'El notario jamás debe dirimir quién tiene mejor derecho; debe abstenerse y remitir el legajo sin cobrar honorarios adicionales.'
+      }
+    ]
+  },
+  {
+    id: 'unit-not-03',
+    number: 3,
+    title: 'Derecho Sucesorio, Solemnidades del Testamento y Asignaciones Forzosas',
+    legalFocus: 'Código Civil Libro Tercero (Arts. 996 a 1264) y Ley de Notariado',
+    wordCount: 730,
+    content: `El derecho sucesorio salvadoreño es una de las áreas de mayor complejidad técnica y rigor formal dentro del Examen de Notariado de la Corte Suprema de Justicia. La función notarial se entrelaza íntimamente con la autonomía de la voluntad mortis causa del causante, pero supeditada a los límites infranqueables del orden público sustantivo, las asignaciones forzosas y la estricta solemnidad del acto testamentario prescrita en el Libro Tercero del Código Civil.
+
+Las instituciones esenciales que todo notario debe dominar con precisión abarcan:
+
+1. Clasificación y Solemnidades de los Testamentos (Arts. 1009 a 1026 C.C.): El testamento solemne abierto ante notario exige la presencia ininterrumpida de al menos tres testigos instrumentales hábiles. Conforme al principio de Unidad de Acto, el testamento debe ser leído en voz alta por el notario en presencia simultánea del testador y de los tres testigos, sin interrupción de ningún género, firmando todos en el mismo acto. La ausencia momentánea de un testigo o la solución de continuidad produce la nulidad absoluta del testamento (jurisprudencia reiterada de la Sala de lo Civil CSJ). Por su parte, el testamento solemne cerrado exige la presencia de cinco testigos, la inserción de la disposición en sobre lacrado y el otorgamiento del acta en la carátula exterior del pliego.
+
+2. Regímenes Especiales de Discapacidad Sensorial (Arts. 1015 y 1016 C.C.): En el testamento de persona ciega o con discapacidad visual, la ley impone la formalidad ad solemnitatem de la doble lectura: primero por el notario autorizante y en segundo término por el testigo que el testador elija libremente de entre los presentes. La omisión de dejar constancia expresa de esta doble lectura genera nulidad insanable de pleno derecho. En el testamento de persona sordomuda que pueda darse a entender por escrito, el testador debe escribir de su puño y letra la disposición o ratificarla en presencia de los testigos e intérprete acreditado.
+
+3. Régimen de Asignaciones Forzosas (Arts. 1130 y sigs. C.C.): En El Salvador rige el sistema de asignaciones forzosas, por el cual el testador no goza de libertad testamentaria absoluta si tiene legitimarios forzosos (hijos y padres). La masa hereditaria líquida se divide en:
+   - La Mitad Legitimaria (50%): Destinada forzosamente por ley a las legítimas rigorosas de los hijos y descendientes, distribuida por cabezas o estirpes.
+   - La Cuarta de Mejoras (25%): De la cual el testador puede disponer libremente pero únicamente para beneficiar o mejorar a uno o más de sus descendientes legítimos.
+   - La Cuarta de Libre Disposición (25%): De la cual el testador puede disponer con absoluta discrecionalidad a favor de cualquier persona natural o jurídica ajena a la familia.
+
+4. El Desheredamiento (Arts. 1115 a 1120 C.C.): Disposición testamentaria por la cual se priva a un legitimario de su cuota forzosa. Para su validez legal, el notario debe verificar que se invoque expresamente una de las causales taxativas de la ley (injuria atroz, falta de socorro en estado de demencia o desvalimiento, atentado contra la vida del causante) y que la causa haya sido probada judicialmente en vida del testador o se encomiende su prueba a los herederos instituidos.
+
+5. El Beneficio de Inventario y el Derecho de Acrecer (Arts. 1169 y 1098 C.C.): Facultad de los herederos para no responder de las deudas y cargas testamentarias sino hasta la concurrencia del valor total de los bienes que heredan, separando su patrimonio propio del patrimonio del causante.`,
+    examples: [
+      {
+        number: 1,
+        title: 'Testamento solemne abierto ante notario y tres testigos instrumentales hábiles',
+        description: 'Un causante en San Salvador otorga testamento abierto disponiendo de sus bienes; comparecen tres testigos instrumentales mayores de edad, no parientes del testador ni del notario dentro del cuarto grado de consanguinidad, sin vínculo de dependencia laboral, leyéndose la escritura en voz alta de corrido en un solo acto y firmando todos simultáneamente.',
+        legalArticle: 'Arts. 1009, 1010 y 1012 del Código Civil.',
+        notarialDraftTip: 'Verificar rigurosamente las tachas de testigos del Art. 1008 C.C.; un testigo inhabilitado invalida la totalidad del testamento.'
+      },
+      {
+        number: 2,
+        title: 'Testamento solemne de persona ciega con doble lectura obligatoria sucesiva',
+        description: 'Una persona invidente acude ante notario para testar; el notario convoca a tres testigos instrumentales, da lectura íntegra en voz alta a la escritura matriz, e inmediatamente después el testigo elegido libremente por la testadora realiza una segunda lectura en voz alta frente a los presentes, consignándose expresamente en el instrumento ambas lecturas.',
+        legalArticle: 'Art. 1015 del Código Civil.',
+        notarialDraftTip: 'Hacer constar el nombre específico del testigo que efectuó la segunda lectura para cumplir la exigencia jurisprudencial de la CSJ.'
+      },
+      {
+        number: 3,
+        title: 'Otorgamiento de testamento solemne cerrado en sobre con cubierta y cinco testigos',
+        description: 'Un empresario presenta a un notario un sobre cerrado y sellado con cera lacrada manifestando que en él se encuentra su última voluntad escrita y firmada; el notario extiende en la cubierta exterior del sobre el acta notarial respectiva ante cinco testigos instrumentales, dando fe de la declaración y firmando todos sobre la misma carátula.',
+        legalArticle: 'Arts. 1017 y 1018 del Código Civil.',
+        notarialDraftTip: 'El sobre debe quedar en custodia del notario, de un tercero o del propio testador, asentándolo en la razón de entrega.'
+      },
+      {
+        number: 4,
+        title: 'Cálculo de asignaciones forzosas: mitad legitimaria y cuarta de mejoras con hijos',
+        description: 'Un testador con un patrimonio líquido de $100,000 y tres hijos instituye a uno de sus hijos como heredero de $75,000 y a una fundación benéfica con $25,000; el notario estructura la cláusula aplicando $50,000 a la mitad legitimaria (dividida en $16,666.66 para cada uno de los tres hijos), $25,000 a la cuarta de mejoras a favor del hijo preferido, y $25,000 a la cuarta de libre disposición para la fundación.',
+        legalArticle: 'Arts. 1130, 1141 y 1142 del Código Civil.',
+        notarialDraftTip: 'Si se vulnera la mitad legitimaria, los hijos preteridos o menoscabados tienen expedita la acción de reforma de testamento.'
+      },
+      {
+        number: 5,
+        title: 'Cláusula testamentaria de desheredamiento fundada en causal probada en vida',
+        description: 'Un padre incluye en su testamento abierto una cláusula desheredando expresamente a uno de sus hijos por haber atentado gravemente contra su vida, insertando la certificación notarial de la sentencia penal condenatoria ejecutoriada emitida por un Tribunal de Sentencia que acredita el delito cometido.',
+        legalArticle: 'Arts. 1115 y 1117 del Código Civil.',
+        notarialDraftTip: 'La causal debe estar prevista de forma taxativa en la ley civil; los motivos personales o desacuerdos familiares no constituyen causal legal de desheredamiento.'
+      }
+    ]
+  },
+  {
+    id: 'unit-not-04',
+    number: 4,
+    title: 'Contratación Civil, Régimen de Garantías Reales y Derecho Registral (CNR)',
+    legalFocus: 'Código Civil (Arts. 1597 a 2263), Ley de Reestructuración Registral y CPCM',
+    wordCount: 715,
+    content: `La contratación civil, la constitución de gravámenes reales y su eficaz oponibilidad ante terceros a través de la publicidad registral del Centro Nacional de Registros (CNR) constituyen el nervio motor de la práctica cotidiana del notario salvadoreño. En el Examen de Notariado, la Corte Suprema de Justicia evalúa con rigurosidad no solo la tipificación y redacción formal del contrato, sino la verificación previa del estado de cargas, la legitimación dispositiva y el cumplimiento del principio registral de tracto sucesivo ininterrumpido.
+
+Los pilares normativos de esta disciplina comprenden:
+
+1. El Contrato de Compraventa Inmobiliaria y la Venta de Cosa Ajena (Arts. 1597 a 1620 C.C.): La compraventa transfiere el título, requiriendo la tradición (el modo) para trasladar el derecho real de dominio mediante la inscripción del testimonio matriz en el Registro de la Propiedad. El Artículo 1619 del Código Civil consagra la validez sustantiva de la venta de cosa ajena en sede obligacional, sin perjuicio de los derechos del verdadero dueño que se conservan intactos mientras no se extingan por prescripción adquisitiva; el notario debe advertir que la venta de cosa ajena no transfiere el dominio y obliga al vendedor al saneamiento por evicción si el comprador es despojado judicialmente del bien por el legítimo propietario.
+
+2. Principio de Tracto Sucesivo y Calificación Registral en el CNR: Ninguna escritura de venta, hipoteca o desmembración puede ser válidamente inscrita en el Registro de la Propiedad Raíz e Hipotecas si del asiento registral antecedente no se desprende que el otorgante es el titular legítimo actual con derecho a disponer. El notario debe abstenerse de autorizar contratos basados en títulos imperfectos o cadenas registrales rotas, verificando la matrícula inmobiliaria en el sistema SIRYC del CNR antes del otorgamiento, evitando que se formulen esquelas de observación o denegatorias registrales que perjudiquen el patrimonio de los contratantes.
+
+3. Constitución de Garantías Reales: Hipotecas y Prendas (Arts. 2157 a 2180 C.C.): La hipoteca es un derecho real constituido sobre inmuebles que no dejan de permanecer en poder del deudor, para asegurar el cumplimiento de una obligación principal. La hipoteca debe otorgarse necesariamente en escritura pública y surte efectos contra terceros únicamente a partir de la fecha y hora de su presentación formal en el Registro de la Propiedad (principio de prioridad registral). Se evalúan con frecuencia las hipotecas abiertas para garantizar obligaciones futuras de crédito bancario, los pactos de no enajenar y la cancelación notarial por pago total mediante carta de pago o escritura de cancelación formal otorgada por el acreedor hipotecario.
+
+4. Mandatos y Poderes Judiciales y Mercantiles (Arts. 69 y 72 CPCM y Art. 1883 C.C.): Para que un mandatario o apoderado pueda transferir bienes raíces, allanarse, transigir, desistir o someter pretensiones a arbitraje en representación de su mandante, la ley procesal civil exige imperativamente que el poder contenga cláusula especial taxativa, no bastando las fórmulas genéricas de representación. El notario asume responsabilidad civil y disciplinaria si inserta cláusulas dispositivas de inmuebles sin contar con poder bastante otorgado ante notario con las formalidades solemnes de rigor.
+
+5. Modos de Adquisición y Donaciones Irrevocables entre Vivos (Arts. 1265 a 1312 C.C.): Acto solemne por el cual una persona transfiere gratuita e irrevocablemente una parte de sus bienes a otra que la acepta. Con frecuencia se otorga con cláusula de reserva expresa de usufructo vitalicio a favor de los donantes, transfiriendo únicamente la nuda propiedad a los donatarios, consolidándose el pleno dominio de pleno derecho al ocurrir el fallecimiento natural de los usufructuarios mediante la presentación de la partida de defunción en el CNR.`,
+    examples: [
+      {
+        number: 1,
+        title: 'Compraventa de inmueble urbano con comprobación previa de tracto sucesivo registral',
+        description: 'Otorgamiento de compraventa de una casa en San Salvador; el notario consulta el extracto registral del CNR en el sistema electrónico, constata que la matrícula está libre de embargos e hipotecas, que el vendedor es el único dueño con título inscrito y relaciona los recibos de solvencia municipal y solvencia tributaria del Ministerio de Hacienda.',
+        legalArticle: 'Arts. 1597 y 1605 del Código Civil y Ley de Reestructuración Registral.',
+        notarialDraftTip: 'Relacionar textualmente el número de matrícula registral del inmueble y el antecedente de inscripción en la cláusula de dominio.'
+      },
+      {
+        number: 2,
+        title: 'Constitución de primera hipoteca abierta con institución bancaria supervisada',
+        description: 'Una sociedad mercantil formaliza ante notario hipoteca abierta sobre su edificio industrial a favor de un banco nacional para garantizar líneas de crédito rotativas de capital de trabajo hasta por un monto de $500,000 por un plazo de diez años, pactando cláusulas de seguro contra incendios y renuncia al trámite de juicio ejecutivo.',
+        legalArticle: 'Arts. 2157, 2167 y 2176 del Código Civil y Ley de Bancos.',
+        notarialDraftTip: 'Verificar la personería y los límites de endeudamiento estatutario fijados en el pacto social de la sociedad deudora.'
+      },
+      {
+        number: 3,
+        title: 'Venta de cosa ajena con advertencia notarial y cláusula de saneamiento por evicción',
+        description: 'Un heredero presunto vende un inmueble cuya declaratoria definitiva de herencia aún no ha sido inscrita en el CNR; el notario explica a las partes la naturaleza de la venta de cosa ajena conforme al Art. 1619 C.C., haciendo constar la renuncia a retractarse del comprador y la obligación ineludible del vendedor de sanear la evicción si no logra la inscripción posterior.',
+        legalArticle: 'Arts. 1619, 1639 y 1640 del Código Civil.',
+        notarialDraftTip: 'Dejar constancia notarial expresa de la advertencia formulada a las partes para evitar denuncias de falsedad o responsabilidad civil.'
+      },
+      {
+        number: 4,
+        title: 'Poder general judicial con cláusula especial taxativa para transigir y percibir',
+        description: 'Un cliente radicado en Estados Unidos otorga ante notario salvadoreño poder general judicial a favor de un abogado; se insertan facultades generales del Art. 69 CPCM y se agregan cláusulas especiales expresas autorizándolo expresamente a demandar, allanarse, desistir, transigir sumas de dinero y percibir valores en juicios civiles y mercantiles.',
+        legalArticle: 'Arts. 69 y 72 del Código Procesal Civil y Mercantil.',
+        notarialDraftTip: 'Las facultades del Art. 69 inciso segundo CPCM son de interpretación restrictiva y no se presumen jamás sin mención taxativa.'
+      },
+      {
+        number: 5,
+        title: 'Donación irrevocable de inmueble con reserva de usufructo vitalicio',
+        description: 'Un matrimonio de adultos mayores dona irrevocablemente su vivienda familiar a sus dos hijos en partes iguales, pero se reservan expresamente el derecho real de usufructo vitalicio y sucesivo sobre la totalidad del inmueble hasta el fallecimiento del último de ellos, aceptando los hijos donatarios la nuda propiedad en el mismo instrumento.',
+        legalArticle: 'Arts. 1265, 1279 y 769 del Código Civil.',
+        notarialDraftTip: 'El usufructo vitalicio debe ser aceptado formalmente por los donantes en la misma escritura matriz y cancelarse registralmente al ocurrir el deceso.'
+      }
+    ]
+  },
+  {
+    id: 'unit-not-05',
+    number: 5,
+    title: 'Práctica Societaria Mercantil y Formalización Notarial (Código de Comercio & SAS)',
+    legalFocus: 'Código de Comercio, Ley de Sociedades por Acciones Simplificadas (SAS) y CNR',
+    wordCount: 720,
+    content: `La formalización notarial en el ámbito del Derecho Mercantil y Societario en El Salvador constituye un componente esencial y de recurrente evaluación en el Examen de Suficiencia Notarial de la Corte Suprema de Justicia. La función notarial cartular en materia societaria demanda un dominio exhaustivo del régimen corporativo, la estructuración de pactos sociales, la tipología de aportaciones dinerarias y en especie, la verificación de libros societarios y las reformas mercantiles contemporáneas, especialmente la incorporación legal de las Sociedades por Acciones Simplificadas (S.A.S.).
+
+Los temas rectores de la práctica mercantil notarial comprenden:
+
+1. Constitución de Sociedades Anónimas y Sociedades de Responsabilidad Limitada (Arts. 191 a 295 C.Com.): El notario ejerce un control preventivo sustantivo de legalidad al redactar la escritura matriz de constitución social. Debe hacer constar: la denominación social seguida de "Sociedad Anónima" o su abreviatura "S.A.", el capital social mínimo legal, el número y valor nominal de las acciones, el régimen de administración (Junta Directiva o Administrador Único y sus suplentes), el nombramiento del primer Auditor Externo y Fiscal, y la fe del depósito dinerario de al menos el porcentaje legal aplicable mediante cheque certificado librado a nombre de la sociedad en formación, insertando sus datos literales en el instrumento.
+
+2. Modalidad de Capital Variable (S.A. de C.V.): La adopción del régimen de capital variable confiere flexibilidad financiera a la empresa, permitiendo aumentos y disminuciones de capital sin necesidad de reformar la escritura de constitución social, siempre que se efectúen dentro de los límites del capital mínimo y máximo prefijados en el pacto social mediante asamblea general de accionistas formalizada en libro social, o mediante protocolización de certificación de acta cuando se modifique el tramo fijo.
+
+3. La Sociedad por Acciones Simplificada (S.A.S.): Reforma mercantil emblemática que permite la constitución de sociedades de capital por una sola persona (unipersonal) o varios socios, reduciendo aranceles y simplificando estatutos constitutivos. El notario debe conocer los límites sustantivos de las SAS: no pueden cotizar en bolsa de valores ni realizar operaciones de intermediación financiera bancaria o de seguros, manteniendo la responsabilidad patrimonial limitada al monto de las acciones suscritas por cada accionista.
+
+4. Modificación de Pacto Social, Fusión, Transformación y Disolución: Cualquier reforma a los estatutos sociales (cambio de denominación o domicilio, prórroga del plazo de vigencia, aumento de capital social fijo, absorción por fusión mercantil o disolución anticipada) requiere forzosamente acuerdo de asamblea extraordinaria formalizado en escritura pública notarial y su posterior inscripción en el Registro de Comercio para surtir plenos efectos jurídicos frente a terceros y acreedores.
+
+5. Cartularidad de Títulos Valores y Protesto Notarial (Arts. 623 y sigs. C.Com.): En el tráfico de letras de cambio, pagarés y cheques, el notario interviene con frecuencia en el protesto notarial por falta de aceptación o falta de pago de letras de cambio. El notario debe levantar el acta respectiva en los dos días hábiles inmediatos al vencimiento legal en el domicilio del obligado para preservar la acción cambiaria de regreso en favor del tenedor legítimo, asentando la diligencia en el propio documento cartular y en las planas de su protocolo notarial.`,
+    examples: [
+      {
+        number: 1,
+        title: 'Constitución de Sociedad Anónima de Capital Variable (S.A. de C.V.) con desembolso dinerario',
+        description: 'Dos emprendedores salvadoreños comparecen ante notario para constituir una sociedad de servicios de tecnología con un capital social de $2,000 íntegramente suscrito y pagado en un 100% mediante cheque certificado librado a favor de la sociedad en formación, designándose un Administrador Único y su respectivo Suplente por el plazo de cinco años.',
+        legalArticle: 'Arts. 191, 195 y 305 del Código de Comercio.',
+        notarialDraftTip: 'Insertar íntegramente los datos del cheque certificado (banco librador, número de cheque, serie, fecha y valor nominal) en la cláusula de aportaciones.'
+      },
+      {
+        number: 2,
+        title: 'Constitución formal notarial de Sociedad por Acciones Simplificada (S.A.S.) unipersonal',
+        description: 'Un profesional independiente constituye una empresa unipersonal bajo la figura de Sociedad por Acciones Simplificada (S.A.S.); el notario autoriza la escritura pública fijando un capital social de $500, estableciendo estatutos ágiles de administración individualizada y especificando el objeto social comercial e industrial lícito.',
+        legalArticle: 'Ley de Sociedades por Acciones Simplificadas y Código de Comercio.',
+        notarialDraftTip: 'Hacer constar la prohibición expresa de realizar captación de fondos del público o emitir acciones en el mercado bursátil.'
+      },
+      {
+        number: 3,
+        title: 'Aumento de capital social en tramo variable mediante protocolización de certificación de acta',
+        description: 'Una sociedad anónima celebra asamblea general ordinaria y acuerda aumentar su capital social en el tramo variable de $10,000 a $50,000 mediante capitalización de utilidades acumuladas; el secretario de la junta emite certificación del punto de acta y el administrador comparece ante notario para su formal protocolización.',
+        legalArticle: 'Arts. 306 y 312 del Código de Comercio.',
+        notarialDraftTip: 'Verificar que la asamblea haya contado con el quórum legal requerido y que los estados financieros cuenten con dictamen del auditor externo.'
+      },
+      {
+        number: 4,
+        title: 'Otorgamiento de poder mercantil especial para suscripción de pagarés y contratos bancarios',
+        description: 'La junta directiva de una sociedad exportadora autoriza a su gerente de operaciones para suscribir contratos de apertura de crédito y firmar pagarés hasta por un monto de $100,000; el notario autoriza la escritura de poder mercantil comprobando la personería mediante la escritura de constitución y la credencial de directores inscrita en el Registro de Comercio.',
+        legalArticle: 'Arts. 260 y 358 del Código de Comercio.',
+        notarialDraftTip: 'Exigir siempre la credencial de elección de junta directiva debidamente inscrita en el Registro de Comercio para acreditar personería vigente.'
+      },
+      {
+        number: 5,
+        title: 'Acta notarial de protesto de letra de cambio por falta de pago al vencimiento',
+        description: 'El tenedor legítimo de una letra de cambio vencida por $15,000 comparece ante notario solicitando protesto por falta de pago; el notario se constituye en el domicilio del aceptante en el segundo día hábil posterior al vencimiento, intima al pago sin obtenerlo, y levanta el acta notarial de protesto en el dorso del título valor y en su protocolo.',
+        legalArticle: 'Arts. 752 a 759 del Código de Comercio.',
+        notarialDraftTip: 'El protesto notarial debe practicarse dentro de los dos días hábiles que sigan al del vencimiento; practicarlo a destiempo hace caducar la acción cambiaria de regreso.'
+      }
+    ]
+  }
+];

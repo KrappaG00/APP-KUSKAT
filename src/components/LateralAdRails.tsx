@@ -1,25 +1,83 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import type { AppPageTab } from './HeaderNavbar';
+import { countSubstantiveWords } from './AdBanner';
 
 export interface LateralAdRailsProps {
   activeTab: AppPageTab;
   children: React.ReactNode;
+  /**
+   * Google AdSense Policy Compliance & Content Guard Props:
+   * Evita montar rieles laterales publicitarios en pantallas sin contenido sustantivo,
+   * estados de carga o búsquedas vacías.
+   */
+  hasPublisherContent?: boolean;
+  isLoading?: boolean;
+  isEmpty?: boolean;
+  minSubstantiveWords?: number;
+  contentSnippet?: string;
 }
 
 interface SideRailAdProps {
   side: 'left' | 'right';
   slotId: string;
+  hasPublisherContent?: boolean;
+  isLoading?: boolean;
+  isEmpty?: boolean;
+  minSubstantiveWords?: number;
+  contentSnippet?: string;
 }
 
 /**
  * SideRailAd — Componente de anuncio vertical (Skyscraper) para rieles laterales en PC y laptops.
  * Cumple estrictamente con las políticas de Google AdSense (ca-pub-4241045160320459)
- * y mantiene la leyenda oficial requerida.
+ * e incorpora compuertas de seguridad pedagógica.
  */
-const SideRailAd: React.FC<SideRailAdProps> = ({ side, slotId }) => {
+const SideRailAd: React.FC<SideRailAdProps> = ({
+  side,
+  slotId,
+  hasPublisherContent = true,
+  isLoading = false,
+  isEmpty = false,
+  minSubstantiveWords = 15,
+  contentSnippet,
+}) => {
+  const containerRef = useRef<HTMLElement | null>(null);
   const adRef = useRef<HTMLModElement | null>(null);
+  const [isSuppressedByDom, setIsSuppressedByDom] = useState(false);
+
+  const wordCount = contentSnippet !== undefined ? countSubstantiveWords(contentSnippet) : 0;
+  const isBelowWordThreshold = contentSnippet !== undefined && wordCount < minSubstantiveWords;
+
+  const isGuardedOut =
+    isLoading === true ||
+    isEmpty === true ||
+    hasPublisherContent === false ||
+    isBelowWordThreshold ||
+    isSuppressedByDom;
 
   useEffect(() => {
+    if (isGuardedOut) {
+      return;
+    }
+
+    const container = containerRef.current;
+    if (container && typeof window !== 'undefined') {
+      const isInsideModal = Boolean(
+        container.closest(
+          '[role="dialog"], [role="alert"], [aria-modal="true"], .modal, .modal-overlay, [data-is-modal="true"]'
+        )
+      );
+      const isInsideEmptyState = Boolean(
+        container.closest('[data-empty-state="true"], [data-empty="true"], .empty-state')
+      );
+      const isHidden = container.offsetParent === null && container.offsetWidth === 0 && container.offsetHeight === 0;
+
+      if (isInsideModal || isInsideEmptyState || isHidden) {
+        setIsSuppressedByDom(true);
+        return;
+      }
+    }
+
     try {
       if (typeof window !== 'undefined') {
         // @ts-ignore
@@ -28,10 +86,15 @@ const SideRailAd: React.FC<SideRailAdProps> = ({ side, slotId }) => {
     } catch {
       // Silencioso ante bloqueadores de anuncios o entornos offline de desarrollo
     }
-  }, []);
+  }, [isGuardedOut]);
+
+  if (isGuardedOut) {
+    return null;
+  }
 
   return (
     <aside
+      ref={containerRef}
       role="complementary"
       aria-label={`Publicidad patrocinada lateral ${side === 'left' ? 'izquierda' : 'derecha'}`}
       className="w-full flex flex-col items-center select-none"
@@ -86,35 +149,59 @@ const SideRailAd: React.FC<SideRailAdProps> = ({ side, slotId }) => {
 };
 
 /**
- * LateralAdRails — Envoltorio de layout para PC/Laptop.
+ * LateralAdRails — Envoltorio de layout para PC/Laptop con compuertas de contenido AdSense.
  * 
  * Reglas de Arquitectura:
  * 1. En la página 'categories' (CATEGORÍAS): NO se montan rieles laterales, devolviendo
  *    únicamente el contenido central para preservar el diseño nativo y cumplir con la
  *    solicitud expresa del usuario.
- * 2. En las demás páginas y en pantallas de PC/Laptop (xl+): Muestra columnas publicitarias
+ * 2. Si la compuerta de contenido editorial detecta estado de carga, contenido vacío o falta
+ *    de texto sustantivo, no monta rieles laterales para cumplir directrices de Google AdSense.
+ * 3. En las demás páginas y en pantallas de PC/Laptop (xl+): Muestra columnas publicitarias
  *    laterales exteriores flotantes (sticky), manteniendo la línea central de estudio
  *    completamente despejada e ininterrumpida.
- * 3. En pantallas móviles y tablets (< xl): Se ocultan los rieles para otorgar el 100%
+ * 4. En pantallas móviles y tablets (< xl): Se ocultan los rieles para otorgar el 100%
  *    del ancho al contenido pedagógico.
  */
-export const LateralAdRails: React.FC<LateralAdRailsProps> = ({ activeTab, children }) => {
+export const LateralAdRails: React.FC<LateralAdRailsProps> = ({
+  activeTab,
+  children,
+  hasPublisherContent = true,
+  isLoading = false,
+  isEmpty = false,
+  minSubstantiveWords = 15,
+  contentSnippet,
+}) => {
   // EXCEPCIÓN ESTRICTA: La página 'categories' no lleva anuncios laterales
   const isCategoriesPage = activeTab === 'categories';
 
-  if (isCategoriesPage) {
-    return (
-      <div className="w-full flex-1 min-w-0">
-        {children}
-      </div>
-    );
+  // Verificación de compuertas
+  const wordCount = contentSnippet !== undefined ? countSubstantiveWords(contentSnippet) : 0;
+  const isBelowWordThreshold = contentSnippet !== undefined && wordCount < minSubstantiveWords;
+  const shouldSuppressRails =
+    isCategoriesPage ||
+    isLoading === true ||
+    isEmpty === true ||
+    hasPublisherContent === false ||
+    isBelowWordThreshold;
+
+  if (shouldSuppressRails) {
+    return <div className="w-full flex-1 min-w-0">{children}</div>;
   }
 
   return (
     <div className="w-full max-w-full overflow-hidden flex justify-center items-start gap-3 xl:gap-4 2xl:gap-6 min-w-0">
       {/* Riel Lateral Izquierdo (PC / Laptop xl+) */}
       <div className="hidden xl:flex flex-col items-center w-32 2xl:w-40 shrink-0 sticky top-28 z-10 self-start pt-2">
-        <SideRailAd side="left" slotId="4241045160_rail_l" />
+        <SideRailAd
+          side="left"
+          slotId="4241045160_rail_l"
+          hasPublisherContent={hasPublisherContent}
+          isLoading={isLoading}
+          isEmpty={isEmpty}
+          minSubstantiveWords={minSubstantiveWords}
+          contentSnippet={contentSnippet}
+        />
       </div>
 
       {/* Contenedor Central de Estudio (Línea Principal Limpia) */}
@@ -124,7 +211,15 @@ export const LateralAdRails: React.FC<LateralAdRailsProps> = ({ activeTab, child
 
       {/* Riel Lateral Derecho (PC / Laptop xl+) */}
       <div className="hidden xl:flex flex-col items-center w-32 2xl:w-40 shrink-0 sticky top-28 z-10 self-start pt-2">
-        <SideRailAd side="right" slotId="4241045160_rail_r" />
+        <SideRailAd
+          side="right"
+          slotId="4241045160_rail_r"
+          hasPublisherContent={hasPublisherContent}
+          isLoading={isLoading}
+          isEmpty={isEmpty}
+          minSubstantiveWords={minSubstantiveWords}
+          contentSnippet={contentSnippet}
+        />
       </div>
     </div>
   );

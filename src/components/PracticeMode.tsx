@@ -1510,6 +1510,9 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
           variant="light"
           positionLabel="Simulador Examen • 1 Arriba"
           slotId="4241045160_se_top"
+          hasPublisherContent={Boolean(currentQ && currentQ.statement)}
+          contentSnippet={currentQ?.statement || ''}
+          minSubstantiveWords={10}
         />
 
         {/* Barra de Estado y Progreso */}
@@ -1936,34 +1939,31 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
           </div>
         )}
 
-        {/* 5 Anuncios Abajo del Simulador */}
-        <div className="space-y-3 pt-2">
-          <AdBanner
-            variant="light"
-            positionLabel="Simulador Examen • 1/5 Inferior"
-            slotId="4241045160_se_b1"
-          />
-          <AdBanner
-            variant="light"
-            positionLabel="Simulador Examen • 2/5 Inferior"
-            slotId="4241045160_se_b2"
-          />
-          <AdBanner
-            variant="light"
-            positionLabel="Simulador Examen • 3/5 Inferior"
-            slotId="4241045160_se_b3"
-          />
-          <AdBanner
-            variant="light"
-            positionLabel="Simulador Examen • 4/5 Inferior"
-            slotId="4241045160_se_b4"
-          />
-          <AdBanner
-            variant="light"
-            positionLabel="Simulador Examen • 5/5 Inferior"
-            slotId="4241045160_se_b5"
-          />
-        </div>
+        {/* Desapilamiento de anuncios conforme a directrices de densidad publicitaria de Google AdSense */}
+        {/* Rotación contextual única entre los 5 slots autorizados ('4241045160_se_b1', '4241045160_se_b2', '4241045160_se_b3', '4241045160_se_b4', '4241045160_se_b5') */}
+        {(() => {
+          const examBottomSlots = [
+            { slotId: '4241045160_se_b1', label: 'Simulador Examen • 1/5 Inferior' },
+            { slotId: '4241045160_se_b2', label: 'Simulador Examen • 2/5 Inferior' },
+            { slotId: '4241045160_se_b3', label: 'Simulador Examen • 3/5 Inferior' },
+            { slotId: '4241045160_se_b4', label: 'Simulador Examen • 4/5 Inferior' },
+            { slotId: '4241045160_se_b5', label: 'Simulador Examen • 5/5 Inferior' },
+          ];
+          const activeSlot = examBottomSlots[currentIndex % examBottomSlots.length];
+          const questionSnippet = `${currentQ?.statement || ''} ${currentQ?.topic || ''} ${(currentQ?.options || []).map((o) => o.text).join(' ')}`;
+          return (
+            <div className="pt-2">
+              <AdBanner
+                variant="light"
+                positionLabel={activeSlot.label}
+                slotId={activeSlot.slotId}
+                hasPublisherContent={Boolean(currentQ && currentQ.statement)}
+                contentSnippet={questionSnippet}
+                minSubstantiveWords={10}
+              />
+            </div>
+          );
+        })()}
       </div>
     );
   }

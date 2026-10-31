@@ -112,23 +112,73 @@ export const KAKAWIRA_CURRICULUM: Record<CEFRLevel, LevelCurriculumInfo> = {
   }
 };
 
+export * from './kakawiraCommunicativeData';
+
 export const KAKAWIRA_SPELLING_RULES: SpellingRule[] = [
   {
-    pattern: 'Grafemas del Alfabeto Kakawira',
+    pattern: 'Grafemas del Alfabeto Kakawira ADIK',
     us: 'Norma ADIK Cacaopera (burbur, wirika, asun)',
-    uk: 'Grafías Coloniales Hispanizadas',
-    explanation: 'El alfabeto oficial impulsado por la Asociación de Desarrollo Indígena Kakawira preserva los fonemas puros de la lengua.',
+    uk: 'Grafías Coloniales Hispanizadas (bulbul, huirica, azun)',
+    explanation: 'El alfabeto unificado por la Asociación de Desarrollo Indígena Kakawira preserva los fonemas puros de la lengua sin distorsiones hispánicas.',
     examples: [
-      { us: 'wirika', uk: 'huirica', translation: 'guacamaya' },
-      { us: 'burbur', uk: 'bulbul', translation: 'blanco' }
+      { us: 'wirika', uk: 'huirica', translation: 'guacamaya / ave silvestre' },
+      { us: 'burbur', uk: 'bulbul', translation: 'blanco' },
+      { us: 'asun', uk: 'azun', translation: 'gracias / gratitud' }
+    ]
+  },
+  {
+    pattern: 'Preservación de Oclusivas Sonoras (B, D, G)',
+    us: 'Kakawira Misumalpan (dumi, binikuna, gueta)',
+    uk: 'Familias Sordas como el Náhuat (carece de d, b, g)',
+    explanation: 'A diferencia de las lenguas uto-aztecas mesoamericanas, el Kakawira posee fonemas oclusivos sonoros distintivos /b/, /d/, /g/.',
+    examples: [
+      { us: 'dumi', uk: 'tumi (error)', translation: 'día / sol' },
+      { us: 'binikuna', uk: 'pinikuna (error)', translation: 'hijo / niño' },
+      { us: 'gueta', uk: 'kueta (error)', translation: 'faena comunal' }
+    ]
+  },
+  {
+    pattern: 'Sufijación Posposicional Espacial (-ba, -ra, -ri)',
+    us: 'Posposición Aglutinada (u-ba, yar-ba, man-ri)',
+    uk: 'Preposición Analítica Libre',
+    explanation: 'Las coordenadas locativas y benefactivas se adosan directamente al final de la raíz sustantiva o pronominal.',
+    examples: [
+      { us: 'u-ba', uk: 'en la casa', translation: 'en / dentro de la casa' },
+      { us: 'yar-ba', uk: 'en la tierra', translation: 'en la tierra / suelo' },
+      { us: 'man-ri', uk: 'para ti', translation: 'hacia ti / para ti' }
+    ]
+  },
+  {
+    pattern: 'Plural Colectivo Misumalpan en -kuna',
+    us: 'Sufijo Colectivo de Linaje (alau-kuna, kuka-kuna)',
+    uk: 'Singular de Base (alau, kuka)',
+    explanation: 'La marca de pluralización nominal general en la familia Misumalpa se realiza mediante el sufijo colectivo -kuna.',
+    examples: [
+      { us: 'alaukuna', uk: 'alau', translation: 'hermanos / hermano' },
+      { us: 'kukakuna', uk: 'kuka', translation: 'abuelos / abuelo' },
+      { us: 'walaukuna', uk: 'walau', translation: 'hermanas / hermana' }
+    ]
+  },
+  {
+    pattern: 'Estativo Descriptivo en -ki',
+    us: 'Sufijo de Estado (yam-ki, pura-ki)',
+    uk: 'Raíz Libre (yam, pura)',
+    explanation: 'Para predicar una condición temporal o cualidad estativa, la raíz adjetival adopta el sufijo derivativo -ki.',
+    examples: [
+      { us: 'yamki', uk: 'yam', translation: 'está bien / se encuentra bien' },
+      { us: 'puraki', uk: 'pura', translation: 'está seco / limpio' }
     ]
   }
 ];
 
 export const KAKAWIRA_VOCABULARY_PAIRS: VocabularyPair[] = [
   { category: 'Términos de Cacaopera', us: 'Cacaopera Tradicional', uk: 'Tronco Misumalpa', spanish: 'Agua del río', sampleSentenceUS: 'Yam li am tik Cacaopera.', sampleSentenceUK: 'Apik li am tik río Torola.' },
-  { category: 'Términos de Cacaopera', us: 'wirika (guacamaya)', uk: 'tocado de plumas', spanish: 'Plumas sagradas', sampleSentenceUS: 'Wali wirika plumas.', sampleSentenceUK: 'Danza ka plumas.' },
-  { category: 'Términos de Cacaopera', us: 'wapa (fuego del hogar)', uk: 'taltikpak (tierra sagrada)', spanish: 'Elementos del cosmos', sampleSentenceUS: 'Puk ne wapa tik asun.', sampleSentenceUK: 'Yar ne taltikpak pal Morazán.' }
+  { category: 'Términos de Cacaopera', us: 'wirika (guacamaya / ave)', uk: 'tocado de plumas ritual', spanish: 'Plumas sagradas', sampleSentenceUS: 'Wali wirika plumas.', sampleSentenceUK: 'Danza ka plumas.' },
+  { category: 'Términos de Cacaopera', us: 'wapa (fuego del hogar)', uk: 'taltikpak (tierra sagrada)', spanish: 'Elementos del cosmos', sampleSentenceUS: 'Puk ne wapa tik asun.', sampleSentenceUK: 'Yar ne taltikpak pal Morazán.' },
+  { category: 'Parentesco Familiar', us: 'tata (padre / venerable)', uk: 'nana (madre / protectora)', spanish: 'Padres del linaje', sampleSentenceUS: 'I-tata yar yapa.', sampleSentenceUK: 'I-nana kuyu tamal yapa.' },
+  { category: 'Danza Ceremonial', us: 'wali (danzante ritual)', uk: 'tumpa (penacho y tambor)', spanish: 'Elementos de la Danza', sampleSentenceUS: 'Wali wara atrio-ba.', sampleSentenceUK: 'Tumpa son daira yam.' },
+  { category: 'Agricultura Ancestral', us: 'kuyu (maíz de milpa)', uk: 'muti (frijol negro)', spanish: 'Granos de subsistencia', sampleSentenceUS: 'Kuyu amba yar-ba wara.', sampleSentenceUK: 'Muti pura daira yam.' },
+  { category: 'Toponimia e Hidrografía', us: 'Li Torola (río Torola sagrado)', uk: 'yar cerro (monte tutelar)', spanish: 'Entorno geográfico', sampleSentenceUS: 'Li Torola amba wara.', sampleSentenceUK: 'Yar cerro wirika guarda.' }
 ];
 
 export const KAKAWIRA_GRAMMAR_DISTINCTIONS: GrammarDistinction[] = [
@@ -140,6 +190,33 @@ export const KAKAWIRA_GRAMMAR_DISTINCTIONS: GrammarDistinction[] = [
     exampleUS: 'Yam wirika ita.',
     exampleUK: 'Yo veo la guacamaya.',
     pedagogicalNote: 'Respeta el orden SOV para preservar la sintaxis ancestral de Cacaopera.'
+  },
+  {
+    title: 'Prefijos Posesivos Inalienables i-, ma-, a- y ura-',
+    concept: 'La relación de pertenencia íntima se codifica mediante prefijos pronominales inalienables fijos.',
+    ruleUS: 'i- (mi), ma- (tu), a- (su de él/ella), ura- (nuestro).',
+    ruleUK: 'Español: Determinantes posesivos libres antepuestos.',
+    exampleUS: 'Ura-winakirika yar yam yapa.',
+    exampleUK: 'Nuestra comunidad cuida la tierra con amor.',
+    pedagogicalNote: 'Los prefijos posesivos se adhieren directamente a la raíz sin partícula intermedia.'
+  },
+  {
+    title: 'Construcción Auxiliar Causativa con yapa',
+    concept: 'El verbo yapa (hacer / cultivar / propiciar) funciona como auxiliar causativo para generar acciones activas.',
+    ruleUS: 'Sustantivo + yapa (ej. fuego yapa = encender fuego; daño yapa = perjudicar).',
+    ruleUK: 'Español: Verbos simples independientes (encender, bañar, cultivar).',
+    exampleUS: 'Yar yapa kuyu yam.',
+    exampleUK: 'La tierra hace crecer bien el maíz.',
+    pedagogicalNote: 'Yapa es la raíz verbal más productiva del léxico de acción en Cacaopera.'
+  },
+  {
+    title: 'Ausencia de Género Gramatical Arbitrario',
+    concept: 'Los sustantivos inanimados no poseen género masculino o femenino; solo los seres animados diferencian sexo mediante calificadores.',
+    ruleUS: 'Binikuna alau (hijo varón) / binikuna walau (hija mujer).',
+    ruleUK: 'Español: Género intrínseco obligatorio en todo sustantivo (la mesa, el libro).',
+    exampleUS: 'Li am yam ki.',
+    exampleUK: 'El agua fresca está buena.',
+    pedagogicalNote: 'No busques marcas de género en objetos inertes o plantas en lengua Kakawira.'
   }
 ];
 
@@ -150,7 +227,35 @@ export const KAKAWIRA_PHONETIC_DISTINCTIONS: PhoneticDistinction[] = [
     usBehavior: 'Wirika (/wiˈri.ka/ = guacamaya).',
     ukBehavior: 'Wapa (/ˈwa.pa/ = fuego).',
     examples: [
-      { word: 'wirika', usIpa: '/wiˈri.ka/', ukIpa: '/wi.ri.ka/', audioNote: 'Pronunciación ceremonial de Cacaopera.' }
+      { word: 'wirika', usIpa: '/wiˈri.ka/', ukIpa: '/wi.ri.ka/', audioNote: 'Pronunciación ceremonial de Cacaopera.' },
+      { word: 'wali', usIpa: '/ˈwa.li/', ukIpa: '/va.li/ (error)', audioNote: 'Aproximante labiovelar limpia sin roce labiodental.' }
+    ]
+  },
+  {
+    topic: 'Oclusiva Sonora B /b/ frente a P sorda',
+    feature: 'Contraste de sonoridad oclusiva bilabial en raíces primarias.',
+    usBehavior: 'Burbur (/buɾˈbuɾ/ = blanco): oclusiva sonora.',
+    ukBehavior: 'Pojna (/pojˈna/ = tres): oclusiva sorda bilabial.',
+    examples: [
+      { word: 'binikuna', usIpa: '/bi.niˈku.na/', ukIpa: '/pi.ni.ku.na/ (error)', audioNote: 'Sonoridad bilabial plena al inicio de palabra.' }
+    ]
+  },
+  {
+    topic: 'La Líquida Vibrante Simple R /ɾ/ en Cacaopera',
+    feature: 'Sonido suave alveolar simple en grupos silábicos.',
+    usBehavior: 'Yar (/jaɾ/ = tierra): toque suave apical.',
+    ukBehavior: 'Pronunciación ensordecida o gutural.',
+    examples: [
+      { word: 'tarka', usIpa: '/ˈtaɾ.ka/', ukIpa: '/ta.ka/ (error)', audioNote: 'Vibrante alveolar simple claramente perceptible ante oclusiva velar.' }
+    ]
+  },
+  {
+    topic: 'Acentuación Predominantemente Paroxítona (Llana)',
+    feature: 'La mayoría de bisílabos y polisílabos llevan el golpe de voz en la penúltima sílaba.',
+    usBehavior: 'Dumi (/ˈdu.mi/), Kuyu (/ˈku.ju/): acento en penúltima sílaba.',
+    ukBehavior: 'Agudización artificial hispánica (*dumí, *kuyú).',
+    examples: [
+      { word: 'kuyu', usIpa: '/ˈku.ju/', ukIpa: '/kuˈju/ (error)', audioNote: 'Pronunciar con acentuación serena en la primera sílaba.' }
     ]
   }
 ];

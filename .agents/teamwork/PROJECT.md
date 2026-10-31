@@ -1,76 +1,72 @@
-# Project: APP-KUSKAT Specialized Modules Expansion & Densification
+# Project: APP-KUSKAT Sparse Areas Reinforcement & AdSense Policy Remediation
 
 ## Architecture
-APP-KUSKAT provides specialized professional examination, jurisprudence, and simulation modules tailored to Salvadoran regulatory, medical, and legal frameworks. These specialized modules are decoupled from the 17,640 base question bank in `public/data/` and reside in `src/data/`, feeding specialized interactive UI components with audio synthesis, FSRS error logging, and dynamic assessment:
-
-- **Medical & Health Track (`src/data/`)**:
-  - `csspHealthData.ts`: 25 comprehensive items across 5 Juntas (JVPM, JVPO, JVPE, JVPQF, JVPPS) with bioética, consentimiento informado, farmacovigilancia, BPD, and Ley Crecer Juntos Art. 16. Consumed by `CsspHealthView.tsx`.
-  - `residentadoBranchingCases.ts`: 4 major trunk clinical branches (Medicina Interna, Pediatría, Gineco-Obstetricia [Código Naranja Zuspan], Cirugía General/Trauma [ATLS 10ª ed, Choque IV, MTP 1:1:1, TXA, Damage Control]). Consumed by `ResidentadoMedicoView.tsx`.
-- **Legal & Judicial Track (`src/data/`)**:
-  - `notaryExamData.ts`: 20 comprehensive questions covering testamentos, protocolizaciones, testigos de conocimiento (Art. 32 LN), LENJVOD (herencia, remedición), poderes especiales Art. 69 CPCM, sociedades mercantiles, y nulidades absolutas Sala de lo Civil/Corte Plena. Re-exported and consumed by `NotaryExamView.tsx`.
-  - `constitucionalJurisprudenciaData.ts`: 10 landmark Constitutional Chamber rulings with ratio decidendi and dogmatic quizzes covering Arts. 86/231 Cn., Hábeas Corpus detención y carcelario, Amparo medicamentos Art. 65 Cn., LAIP transparencia, y decretos ejecutivos. Consumed by `ConstitutionLawView.tsx`.
-- **Security & Financial Compliance Track (`src/data/`)**:
-  - `anspAscensoData.ts`: 18 comprehensive reactivos (6 Cabo, 6 Sargento, 6 Oficial) covering ITOP, flagrancia, cadena de custodia, LEIV, LEIT, FGR, régimen disciplinario, y estándares ONU/Corte IDH. Consumed by `AnspAscensoView.tsx`.
-  - `complianceAmlData.ts`: 16 questions (8 AML, 8 Seguros) covering pitufeo, DDI offshore/fideicomisos, APNFD, regla proporcional de infraseguro (Art. 1383 C.Com.), sobreseguro, y fianzas públicas. Consumed by `ComplianceFinancialView.tsx`.
-- **Verification & Invariant Gate**:
-  - Automated Vitest test suites in `tests/`.
-  - Base question bank validation intact at 17,640 (`scripts/validate-bank.mjs`).
-  - Multi-language UI shell coverage 100% across 7 locales (`scripts/validate-i18n.mjs`).
-  - TypeScript zero static errors (`tsc --noEmit`).
-  - Zero private contact phone occurrences (`git grep "7943 9901"` = 0).
-  - Production build clean (`npm run build`).
+- **VMT Driver License Module**: `src/data/driverLicense/` provides dedicated modular curriculum data (8 units, >= 500 words each, 40 solved cases), 50+ questions, 24+ signs, consumed by `src/components/DriverLicenseView.tsx`.
+- **Patriotic History & Civics Module**: `src/data/patrioticHistory/` provides dedicated modular curriculum data (5 units, >= 500 words each, 25 solved cases), 50-60 questions, symbols, and presidents, consumed by `src/components/PatrioticHistoryView.tsx`.
+- **Language School (Indigenous & Low-Resource)**: `src/data/languages/` provides authentic verified vocabulary (120-250 entries each), contrastive grammar, and communicative guides for Náhuat, Lenca, Kakawira, Mandarin, and Arabic, eliminating synthetic placeholder tokens.
+- **Google AdSense Policy Compliance & Content Guards**:
+  - `src/components/AdBanner.tsx` and `src/components/LateralAdRails.tsx` enforce substantive content guards (suppressing ads on loading states, empty search/filter results, alerts, modals, and thin pages).
+  - Remediation of ad stacking in `PracticeMode.tsx` and loading state ads in `CategoryHierarchyViewer.tsx`.
+  - Static semantic crawlable markup in `index.html` (>3,500 words of authentic educational curriculum) and Schema.org `@type: "Course"` JSON-LD metadata for `Mediapartners-Google` and search crawlers.
+  - Verification of `sitemap.xml`, `robots.txt`, and `ads.txt`.
+- **Automated Verification & Compliance Gate**: `tests/sparseModulesAndAdCompliance.test.ts` programmatically validates R4 content standards (>= 500 words, >= 5 solved cases per topic without boilerplate) and AdSense content guards.
 
 ## Feature Inventory
+Every requirement and feature from the survey is inventoried and assigned to a milestone:
+
 | # | Feature | Description | Milestone | Source |
 |---|---------|-------------|-----------|--------|
-| 1 | CSSP Health Expansion (25 items) | 5 questions per Junta (JVPM, JVPO, JVPE, JVPQF, JVPPS) with bioética, consentimiento, farmacovigilancia, BPD, and Ley Crecer Juntos Art. 16 | M1 | Survey |
-| 2 | Residentado Caso 3: Gineco-Obstetricia | Código Naranja: Preeclampsia severa / eclampsia inminente, Zuspan IV, sulfato de Mg 20%, ROT/FR/diuresis, gluconato de calcio 10%, labetalol/hidralazina | M2 | Survey |
-| 3 | Residentado Caso 4: Cirugía / Trauma | Politraumatizado con Choque Hemorrágico Grado IV, ATLS 10ª ed, MTP 1:1:1, TXA 1g <3h, laparotomía control de daños con packing y second look | M2 | Survey |
-| 4 | Residentado Selector Grid Update | Adjust grid in `ResidentadoMedicoView.tsx` to `sm:grid-cols-2 lg:grid-cols-4` | M2 | Survey |
-| 5 | Notary Exam Data Extraction & Expansion (20 items) | Decouple data to `notaryExamData.ts`, expand to 20 items with testamentos (Arts. 1009-1017 CC), protocolizaciones, Art. 32 LN, LENJVOD, Art. 69 CPCM, sociedades, nulidades | M3 | Survey |
-| 6 | Casoteca Constitucional Expansion (10 sentencias) | Expand `constitucionalJurisprudenciaData.ts` to 10 sentencias with ratio decidendi and dogmatic quizzes covering emergency decrees, prison conditions, LAIP, taxes | M4 | Survey |
-| 7 | Ascenso Policial ANSP Expansion (18 reactivos) | Expand `anspAscensoData.ts` to 18 reactivos (6 Cabo, 6 Sargento, 6 Oficial) with ITOP, flagrancia, cadena de custodia, LEIV, LEIT, FGR, Ley Carrera Policial | M5 | Survey |
-| 8 | Cumplimiento AML & Seguros SSF (16 preguntas) | Expand `complianceAmlData.ts` to 16 preguntas (8 AML, 8 Seguros) with smurfing, DDI offshore, APNFD, infraseguro (Art. 1383 C.Com.), sobreseguro, fianzas | M6 | Survey |
-| 9 | Automated Test Suites & Invariant Verification | Implement unit tests for all 6 modules, verify typecheck, test suites, bank count (17,640), i18n, build, and phone scan | M7 | Survey |
+| 1 | VMT Curriculum Data | 8 structured thematic units based on Reglamento General de Tránsito and VMT standards (>=500 words/unit) | M1 | ORIGINAL_REQUEST R1, R4 |
+| 2 | VMT Solved Cases | 40 concrete, distinct practical traffic case analyses (5 per unit) with legal and technical resolutions | M1 | ORIGINAL_REQUEST R1, R4 |
+| 3 | VMT Question Bank & Signs | 50+ high-yield interactive questions and 24+ official road signs with SIECA codes | M1 | ORIGINAL_REQUEST R1 |
+| 4 | DriverLicenseView Integration | 4-mode UI (Curriculum Study, Practical Cases, Sign Catalog, 30-Question Official Timed Simulator) | M1 | ORIGINAL_REQUEST R1 |
+| 5 | Historia Patria Curriculum | 5 structured thematic units (Precolombino, Independencia, República Moderna, Símbolos/Valores, Patrimonio/Literatura) (>=500 words/unit) | M2 | ORIGINAL_REQUEST R2, R4 |
+| 6 | Historia Patria Solved Cases | 25 distinct historical-civic case studies (5 per unit) with constitutional and historiographical analysis | M2 | ORIGINAL_REQUEST R2, R4 |
+| 7 | Historia Patria Question Bank | 50-60 high-yield questions with 4 options and distractor rationales, preserving symbols and presidents | M2 | ORIGINAL_REQUEST R2 |
+| 8 | PatrioticHistoryView Integration | 4-tab UI (Curriculum Reader, Symbols, Presidents, Timed Exam Simulator 0.0-10.0) | M2 | ORIGINAL_REQUEST R2 |
+| 9 | Low-Resource Languages Sanitization | Elimination of synthetic tokens (`lenca_word_X`, `kaka_root_X`, suffix loops) and replacement with authentic lexicons | M3 | ORIGINAL_REQUEST R3 |
+| 10 | Low-Resource Languages Expansion | Expand Náhuat, Lenca, Kakawira, Mandarin, Arabic to 120-250 authentic words, contrastive grammar & communicative units | M3 | ORIGINAL_REQUEST R3, R4 |
+| 11 | AdBanner Content Guards | Bulletproof props/state guards in `AdBanner` and `LateralAdRails` preventing rendering when content is absent/loading/empty | M4 | ORIGINAL_REQUEST R5 |
+| 12 | Screen Ad Violations Fix | Fix loading state ad in `CategoryHierarchyViewer.tsx` and destack 5 consecutive ads in `PracticeMode.tsx` | M4 | ORIGINAL_REQUEST R5 |
+| 13 | Crawlable Presence & JSON-LD | Static semantic educational HTML in `index.html` (>3,500 words), Schema.org Course JSON-LD, `sitemap.xml`, `robots.txt`, `ads.txt` | M4 | ORIGINAL_REQUEST R5 |
+| 14 | Automated Compliance Suite | Vitest suite verifying >=500 substantive words, >=5 cases per topic, and AdBanner suppression behavior | M5 | ORIGINAL_REQUEST R4, R5, R6 |
+| 15 | Platform Integrity Certification | npm run typecheck, npm run build, 100% vitest pass (43+ suites, 711+ tests), zero regressions, zero paywalls | M5 | ORIGINAL_REQUEST R6 |
+| 16 | Independent Review & Audit Gate | Reviewers, Challengers and Forensic Auditor verify genuine logic, authentic data, and AdSense compliance | M6 | System Prompt Gate |
 
 ## Milestones
 | # | Name | Scope | Dependencies | Status |
 |---|------|-------|-------------|--------|
-| M1 | CSSP Health Data Expansion | `src/data/csspHealthData.ts` (25 items across 5 Juntas) | Survey complete | **DONE** |
-| M2 | Residentado Branching Cases | `src/data/residentadoBranchingCases.ts` (4 cases) & `ResidentadoMedicoView.tsx` | Survey complete | **DONE** |
-| M3 | Notary Exam Expansion | `src/data/notaryExamData.ts` (20 items) & `NotaryExamView.tsx` | Survey complete | **DONE** |
-| M4 | Casoteca Constitucional Expansion | `src/data/constitucionalJurisprudenciaData.ts` (10 sentencias) | Survey complete | **DONE** |
-| M5 | Ascenso Policial ANSP Expansion | `src/data/anspAscensoData.ts` (18 reactivos: 6 Cabo, 6 Sargento, 6 Oficial) | Survey complete | **DONE** |
-| M6 | Cumplimiento AML & Seguros SSF | `src/data/complianceAmlData.ts` (16 preguntas: 8 AML, 8 Seguros) | Survey complete | **DONE** |
-| M7 | Automated Unit Tests & Invariant Gate | Dedicated Vitest tests + full verification pipeline | M1-M6 | **DONE** |
-
-## Code Layout & Write Boundaries
-To ensure strict isolation between concurrent workers:
-- **Worker Medical (M1, M2)**:
-  - Exclusive write ownership: `src/data/csspHealthData.ts`, `src/data/residentadoBranchingCases.ts`, `src/components/ResidentadoMedicoView.tsx`, `tests/medicalModules.test.ts`.
-- **Worker Legal (M3, M4)**:
-  - Exclusive write ownership: `src/data/notaryExamData.ts`, `src/components/NotaryExamView.tsx`, `src/data/constitucionalJurisprudenciaData.ts`, `tests/legalModules.test.ts`.
-- **Worker Security & Compliance (M5, M6)**:
-  - Exclusive write ownership: `src/data/anspAscensoData.ts`, `src/data/complianceAmlData.ts`, `tests/securityCompliance.test.ts`.
+| M0 | Survey & Codebase Exploration | Comprehensive inspection by 3 parallel Explorers (VMT, History, Languages & AdSense) | None | DONE |
+| M1 | Licencia de Conducir VMT Reinforcement | Create `src/data/driverLicense/` (8 units, 40 cases, 50+ questions, 24+ signs) and upgrade `DriverLicenseView.tsx` | M0 | PLANNED |
+| M2 | Historia Patria & Civismo Reinforcement | Create `src/data/patrioticHistory/` (5 units, 25 cases, 50-60 questions) and upgrade `PatrioticHistoryView.tsx` | M0 | PLANNED |
+| M3 | Indigenous & Low-Resource Languages | Sanitize and expand Náhuat, Lenca, Kakawira, Mandarin, Arabic in `src/data/languages/` | M0 | PLANNED |
+| M4 | Google AdSense Remediation & Crawlable Assets | Guard `AdBanner`/`LateralAdRails`, fix screen violations, enrich `index.html`, JSON-LD, `sitemap.xml`, `robots.txt`, `ads.txt` | M0 | PLANNED |
+| M5 | Automated Compliance Test Suite | Implement `tests/sparseModulesAndAdCompliance.test.ts` verifying R4 and R5, run full verification (typecheck, tests, build) | M1, M2, M3, M4 | PLANNED |
+| M6 | Independent Review & Forensic Audit Gate | Reviewers, Challengers, and Forensic Auditor verification and gate sign-off | M5 | PLANNED |
 
 ## Interface Contracts
-- **`CsspQuestion`**:
-  - `id: string` (`cssp-jvpm-01`..`05`, `cssp-jvpo-01`..`05`, `cssp-jvpe-01`..`05`, `cssp-jvpqf-01`..`05`, `cssp-jvpps-01`..`05`)
-  - `juntaId: 'jvpm' | 'jvpo' | 'jvpe' | 'jvpqf' | 'jvpps'`
-  - `options: Record<string, string>` with keys `'A' | 'B' | 'C' | 'D'`
-  - `correctAnswer: 'A' | 'B' | 'C' | 'D'`
-- **`BranchingCaseScenario`**:
-  - Exactly 4 cases: `Medicina Interna`, `Pediatría`, `Gineco-Obstetricia`, `Cirugía`
-  - Each case has $\ge 3$ stages with `vitals`, `options` (exactly 1 optimal), `minsalProtocolRef`.
-- **`NotaryQuestion`**:
-  - `id: string` (`not-01`..`not-20`)
-  - `options: { key: string; text: string }[]` with keys `'A' | 'B' | 'C' | 'D'`
-  - `correctKey: string`
-- **`ConstitutionalRulingCase`**:
-  - Exactly 10 sentencias: `id`, `refNumber`, `year`, `rulingType`, `title`, `constitutionalArticles`, `factsSummary`, `ratioDecidendi`, `practicalImpact`, `legalQuiz`.
-- **`AnspQuestion`**:
-  - Exactly 18 items: 6 `Cabo`, 6 `Sargento`, 6 `Oficial`
-  - `options: { key: string; text: string }[]`, `correctAnswer: 'A' | 'B' | 'C' | 'D'`.
-- **`ComplianceQuestion`**:
-  - Exactly 16 items: 8 `AML`, 8 `Seguros`
-  - `options: { A: string; B: string; C: string; D: string }`, `correctAnswer: 'A' | 'B' | 'C' | 'D'`.
+### `src/data/driverLicense/types.ts`
+- `DriverUnit`: `{ id: string; title: string; subtitle: string; icon: string; substantiveTheory: string; practicalCases: PracticalTrafficCase[] }`
+- `PracticalTrafficCase`: `{ id: string; title: string; scenario: string; legalReference: string; analysis: string; resolvedOutcome: string }`
+- `DriverQuestion`: `{ id: string; question: string; options: string[]; correctAnswer: number; explanation: string; category: string; legalReference?: string }`
+- `RoadSign`: `{ id: string; name: string; category: 'reglamentaria' | 'preventiva' | 'informativa'; description: string; meaning: string; siecaCode: string; iconSvg: string }`
+
+### `src/data/patrioticHistory/types.ts`
+- `PatrioticThematicUnit`: `{ id: string; title: string; period: string; subtitle: string; substantiveAnalysis: string; solvedCaseStudies: SolvedHistoricalCaseStudy[]; keyMilestones: { year: string; event: string; significance: string }[] }`
+- `SolvedHistoricalCaseStudy`: `{ id: string; title: string; historicalContext: string; dilemmaOrIssue: string; historiographicalAnalysis: string; civicSignificance: string }`
+- `PatrioticQuestion`: `{ id: string; question: string; options: string[]; correctAnswer: number; explanation: string; thematicUnitId: string; historicalReference: string }`
+
+### `src/data/languages/types.ts`
+- `LanguageVocabulary`: `{ id: string; word: string; translation: string; phonetic?: string; category: string; exampleSentence?: string; exampleTranslation?: string }`
+- `LanguageGrammar`: `{ spellingRules: any[]; pairDistinctions: any[]; communicativeUnits: { id: string; title: string; substantiveGuide: string; solvedDialogues: { id: string; scenario: string; dialogue: string; grammaticalBreakdown: string }[] }[] }`
+
+### `src/components/AdBanner.tsx`
+- Props: `slot?: string; format?: string; responsive?: boolean; className?: string; minSubstantiveWords?: number; hasPublisherContent?: boolean; isLoading?: boolean; isEmpty?: boolean;`
+- Safety: If `isLoading === true` OR `isEmpty === true` OR `hasPublisherContent === false` -> render `null` and do not invoke `adsbygoogle.push`.
+
+## Code Layout & Write Boundaries
+- `src/data/driverLicense/*` & `src/components/DriverLicenseView.tsx` -> Owned exclusively by Worker M1.
+- `src/data/patrioticHistory/*` & `src/components/PatrioticHistoryView.tsx` -> Owned exclusively by Worker M2.
+- `src/data/languages/*` -> Owned exclusively by Worker M3.
+- `src/components/AdBanner.tsx`, `src/components/LateralAdRails.tsx`, `src/components/PracticeMode.tsx`, `src/components/CategoryHierarchyViewer.tsx`, `index.html`, `public/sitemap.xml`, `public/robots.txt`, `public/ads.txt` -> Owned exclusively by Worker M4.
+- `tests/*` -> Owned exclusively by Worker M5 / Test Writers.

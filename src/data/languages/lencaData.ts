@@ -112,15 +112,61 @@ export const LENCA_CURRICULUM: Record<CEFRLevel, LevelCurriculumInfo> = {
   }
 };
 
+export * from './lencaCommunicativeData';
+
 export const LENCA_SPELLING_RULES: SpellingRule[] = [
   {
     pattern: 'Uso de SH en Lenca Potón',
     us: 'Norma Guatajiagua (shi-pel, seran, shushuk)',
-    uk: 'Grafías Coloniales o Hispanizadas',
-    explanation: 'El dígrafo sh representa la fricativa postalveolar /ʃ/, crucial para diferenciar términos y mandatos.',
+    uk: 'Grafías Coloniales o Hispanizadas (xipel, celan, chuchuc)',
+    explanation: 'El dígrafo sh representa la fricativa postalveolar /ʃ/, crucial para diferenciar términos patrimoniales y mandatos imperativos.',
     examples: [
       { us: 'shi-pel', uk: 'xipel', translation: '¡trabaja!' },
-      { us: 'seran', uk: 'celan', translation: 'negro' }
+      { us: 'seran', uk: 'celan', translation: 'negro' },
+      { us: 'shushuk', uk: 'chuchuc', translation: 'verde / fresco' }
+    ]
+  },
+  {
+    pattern: 'Consonantes Oclusivas K, T y P Invariables',
+    us: 'Grafía Estandarizada Potón (kualkat, tuku, pe)',
+    uk: 'Grafías Hispanizadas con C/QU (cualcat, tucu, que)',
+    explanation: 'Se utiliza sistemáticamente K para la oclusiva velar sorda /k/, evitando la alternancia colonial c/qu.',
+    examples: [
+      { us: 'kualkat', uk: 'cualcat', translation: 'bueno / hermoso' },
+      { us: 'tuku', uk: 'tucu', translation: 'blanco / puro' },
+      { us: 'kuku', uk: 'cucu', translation: 'fuego / leña' }
+    ]
+  },
+  {
+    pattern: 'Ausencia de Fricativas Dentales y F en Raíces Nativas',
+    us: 'Raíces Fonémicas Puras (peli, wata, siri)',
+    uk: 'Interferencias Castellanas (feli, fata, firi)',
+    explanation: 'El sistema fonológico Lenca Potón carece originalmente de los fonemas /f/ y /θ/, resolviendo préstamos mediante /p/ o /w/.',
+    examples: [
+      { us: 'peli', uk: 'feli (error)', translation: 'perro de campo' },
+      { us: 'wata', uk: 'fata (error)', translation: 'casa comunal' }
+    ]
+  },
+  {
+    pattern: 'Posposiciones Locativas Aglutinadas (-ba, -ti)',
+    us: 'Sufijación Espacial Directa (u-ba, li-ba, tepet-ti)',
+    uk: 'Separación Preposicional Analítica',
+    explanation: 'Las relaciones espaciales no se expresan con preposiciones aisladas, sino mediante clíticos y posposiciones unidas a la base nominal.',
+    examples: [
+      { us: 'u-ba', uk: 'en la casa', translation: 'dentro de la casa' },
+      { us: 'li-ba', uk: 'en el río', translation: 'en el agua / río' },
+      { us: 'tepet-ti', uk: 'hacia el cerro', translation: 'en el cerro' }
+    ]
+  },
+  {
+    pattern: 'Pluralización Colectiva con -kuna',
+    us: 'Colectivo Nominal Potón (apas-kuna, shutu-kuna)',
+    uk: 'Forma Base Singular (apas, shutu)',
+    explanation: 'Para enfatizar la pluralidad de objetos o seres emparentados, se sufija la partícula colectiva -kuna.',
+    examples: [
+      { us: 'apas-kuna', uk: 'apas', translation: 'cántaros de barro / cántaro' },
+      { us: 'shutu-kuna', uk: 'shutu', translation: 'ollas / olla' },
+      { us: 'kuka-kuna', uk: 'kuka', translation: 'abuelos / abuelo' }
     ]
   }
 ];
@@ -128,7 +174,11 @@ export const LENCA_SPELLING_RULES: SpellingRule[] = [
 export const LENCA_VOCABULARY_PAIRS: VocabularyPair[] = [
   { category: 'Dialectos Lencas', us: 'Guatajiagua (Morazán)', uk: 'Chilanga (Morazán)', spanish: 'Agua fresca', sampleSentenceUS: 'U li am tik Guatajiagua.', sampleSentenceUK: 'U li am tik Chilanga.' },
   { category: 'Dialectos Lencas', us: 'seran apas (vasija negra)', uk: 'tuku apas (vasija clara)', spanish: 'Vasija de barro', sampleSentenceUS: 'Kichiwa seran apas.', sampleSentenceUK: 'Kichiwa tuku apas.' },
-  { category: 'Dialectos Lencas', us: 'sinti (maíz)', uk: 'masan (venado)', spanish: 'Alimentos del campo', sampleSentenceUS: 'U sinti pi tik milpa.', sampleSentenceUK: 'U masan itak tik tepet.' }
+  { category: 'Dialectos Lencas', us: 'sinti (maíz)', uk: 'masan (venado)', spanish: 'Alimentos del campo', sampleSentenceUS: 'U sinti pi tik milpa.', sampleSentenceUK: 'U masan itak tik tepet.' },
+  { category: 'Alfarería Tradicional', us: 'comal (disco de barro)', uk: 'apas (tinaja para agua)', spanish: 'Utensilios de cocina', sampleSentenceUS: 'Seran comal pal tortilla.', sampleSentenceUK: 'Apas li amba guarda.' },
+  { category: 'Parentesco y Familia', us: 'tata (padre / señor)', uk: 'nana (madre / señora)', spanish: 'Padres del hogar', sampleSentenceUS: 'Tata u-ba wara.', sampleSentenceUK: 'Nana seran apas chiwa.' },
+  { category: 'Geografía y Montaña', us: 'tepet (cerro tutelar)', uk: 'li (agua de manantial)', spanish: 'Naturaleza sagrada', sampleSentenceUS: 'Cacahuatique tepet wey.', sampleSentenceUK: 'Li am manantial wara.' },
+  { category: 'Cromática Tradicional', us: 'seran (negro brillante)', uk: 'susun (verde monte)', spanish: 'Colores ceremoniales', sampleSentenceUS: 'Seran apas pulido yam.', sampleSentenceUK: 'Susun wirika tepet-ba.' }
 ];
 
 export const LENCA_GRAMMAR_DISTINCTIONS: GrammarDistinction[] = [
@@ -140,6 +190,33 @@ export const LENCA_GRAMMAR_DISTINCTIONS: GrammarDistinction[] = [
     exampleUS: 'U seran comal chiwa.',
     exampleUK: 'Yo hago el comal negro.',
     pedagogicalNote: 'Nunca coloques el verbo antes del objeto en Lenca Potón.'
+  },
+  {
+    title: 'Posposiciones en Lugar de Preposiciones',
+    concept: 'Las relaciones directivas, ablativas y locativas se sitúan después del sustantivo que rigen.',
+    ruleUS: 'Lenca: Tepet-ba (cerro-en) / Li-ra (agua-hacia).',
+    ruleUK: 'Español: En el cerro / Hacia el agua.',
+    exampleUS: 'U wara u-ba.',
+    exampleUK: 'Yo voy a la casa.',
+    pedagogicalNote: 'La inversión preposicional es la huella sintáctica más robusta de las lenguas de la familia Lenca.'
+  },
+  {
+    title: 'Prefijos Posesivos Inalienables u- y a-',
+    concept: 'Los sustantivos de parentesco y partes del cuerpo requieren un prefijo obligatorio de posesión.',
+    ruleUS: 'u-tata (mi padre), a-nana (su madre de él/ella).',
+    ruleUK: 'Español: Mi padre, su madre (determinantes posesivos libres).',
+    exampleUS: 'U-tata pel kichiwa.',
+    exampleUK: 'Mi padre trabaja la milpa.',
+    pedagogicalNote: 'Omitir el prefijo en términos de parentesco deshumaniza el sustantivo en Lenca.'
+  },
+  {
+    title: 'Morfología Aglutinante de Aspecto y Modo',
+    concept: 'Los verbos incorporan sufijos de continuidad y mandato de forma secuencial.',
+    ruleUS: 'Raíz + Marcador aspectual + Desinencia de persona.',
+    ruleUK: 'Español: Conjugación flexiva fusionada (am-ó, cant-arás).',
+    exampleUS: 'Shi-pel (imperativo: ¡trabaja tú!).',
+    exampleUK: '¡Trabaja!',
+    pedagogicalNote: 'El prefijo shi- marca mandato directo enfático en Guatajiagua.'
   }
 ];
 
@@ -150,7 +227,35 @@ export const LENCA_PHONETIC_DISTINCTIONS: PhoneticDistinction[] = [
     usBehavior: 'Kualkat (/ˈkʷal.kat/ = bueno / hermoso).',
     ukBehavior: 'Pronunciación hispanizada con c débil.',
     examples: [
-      { word: 'kualkat', usIpa: '/ˈkʷal.kat/', ukIpa: '/kwal.kat/', audioNote: 'Pronunciación tradicional de Guatajiagua.' }
+      { word: 'kualkat', usIpa: '/ˈkʷal.kat/', ukIpa: '/kwal.kat/', audioNote: 'Pronunciación tradicional de Guatajiagua.' },
+      { word: 'kuku', usIpa: '/ˈku.ku/', ukIpa: '/ku.ku/', audioNote: 'Oclusiva velar limpia sorda.' }
+    ]
+  },
+  {
+    topic: 'Fricativa Postalveolar Sh /ʃ/ vs Alveolar S /s/',
+    feature: 'Oposición fonológica entre sibilantes en verbos y nombres.',
+    usBehavior: 'Shi-pel (/ʃiˈpel/ = ¡trabaja!): articulación palatal.',
+    ukBehavior: 'Seran (/seˈɾan/ = negro): sibilante alveolar pura.',
+    examples: [
+      { word: 'shushuk', usIpa: '/ʃuˈʃuk/', ukIpa: '/suˈsuk/ (error)', audioNote: 'Pronunciar con sonido sh palatal bien definido.' }
+    ]
+  },
+  {
+    topic: 'Vibrante Simple R /ɾ/ Intervocálica',
+    feature: 'Articulación vibrante simple alveolar sin fricción áspera.',
+    usBehavior: 'Seran (/seˈɾan/ = negro): vibrante suave de un solo toque.',
+    ukBehavior: 'Pronunciación hispanizante exagerada como rr múltiple.',
+    examples: [
+      { word: 'seran', usIpa: '/seˈɾan/', ukIpa: '/seˈran/ (error)', audioNote: 'Un solo toque apical contra los alvéolos superiores.' }
+    ]
+  },
+  {
+    topic: 'Vocalismo de Cinco Timbres Puros (a, e, i, o, u)',
+    feature: 'Las vocales lencas son estables y no sufren diptongación espontánea.',
+    usBehavior: 'Tuku (/ˈtu.ku/ = blanco): vocales cerradas homogéneas.',
+    ukBehavior: 'Diptongación o relajación vocálica.',
+    examples: [
+      { word: 'apas', usIpa: '/ˈa.pas/', ukIpa: '/ˈa.pas/', audioNote: 'Vocal abierta anterior clara en ambas sílabas.' }
     ]
   }
 ];

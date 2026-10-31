@@ -119,16 +119,61 @@ export const ARABIC_CURRICULUM: Record<CEFRLevel, LevelCurriculumInfo> = {
   }
 };
 
+export * from './arabicCommunicativeData';
+
 export const ARABIC_SPELLING_RULES: SpellingRule[] = [
   {
     pattern: 'Asimilación con Letras Solares vs Lunares',
     us: 'Letras Solares (Ash-Shams, As-Salam, An-Nur)',
     uk: 'Letras Lunares (Al-Qamar, Al-Kitab, Al-Bayt)',
-    explanation: 'Con letras solares, la L del artículo Al- se asimila fonéticamente geminando la primera consonante; con letras lunares, la L se pronuncia de forma limpia.',
+    explanation: 'Con letras solares (14 letras dentales/alveolares/coronales), la L del artículo Al- se asimila fonéticamente geminando la primera consonante con shaddah; con letras lunares, la L se pronuncia de forma limpia con sukūn.',
     examples: [
-      { us: 'ash-shams', uk: 'al-shams (error)', translation: 'el sol' },
-      { us: 'al-qamar', uk: 'al-qamar', translation: 'la luna' },
+      { us: 'ash-shams (الشَّمْس)', uk: 'al-shams (error)', translation: 'el sol' },
+      { us: 'al-qamar (القَمَر)', uk: 'al-qamar', translation: 'la luna' },
       { us: 'as-salamu \'alaykum', uk: 'al-salamu (error)', translation: 'la paz sea con vosotros' }
+    ]
+  },
+  {
+    pattern: 'Ta Marbuta (ة) vs Ta Maftuha (ت)',
+    us: 'Ta Marbuta Nominal Femenina (مدينة madīnah, جامعة jāmiʿah)',
+    uk: 'Ta Maftuha de Raíz o Verbo (بيت bayt, كتبت katabat)',
+    explanation: 'La Ta Marbuta (ة) es un sufijo exclusivo de sustantivos y adjetivos femeninos que se pronuncia como "ah" en pausa y como "t" en estado constructo o vocalizado.',
+    examples: [
+      { us: 'madīnah (مدينة)', uk: 'madīnat (en Idāfah: مدينة القدس)', translation: 'ciudad / ciudad de Jerusalén' },
+      { us: 'bayt (بَيْت)', uk: 'bayt', translation: 'casa' },
+      { us: 'shajarah (شَجَرَة)', uk: 'shajarah', translation: 'árbol' }
+    ]
+  },
+  {
+    pattern: 'Ortografía de la Hamza (ء, أ, إ, ؤ, ئ)',
+    us: 'Asiento según Jerarquía Vocálica (kasrah > ḍammah > fatḥah > sukūn)',
+    uk: 'Hamza Aislada sobre la Línea (سماء, ماء)',
+    explanation: 'La posición de la hamza media depende de la vocal más fuerte entre la propia y la precedente: kasrah impone ya (ئ), ḍammah impone waw (ؤ), fatḥah impone alif (أ).',
+    examples: [
+      { us: 'suʾāl (سُؤَال)', uk: 'su-al', translation: 'pregunta' },
+      { us: 'raʾīs (رَئِيس)', uk: 'ra-is', translation: 'presidente / líder' },
+      { us: 'qirāʾah (قِرَاءَة)', uk: 'qira-ah', translation: 'lectura' }
+    ]
+  },
+  {
+    pattern: 'Alif Maqsura (ى) frente a Ya (ي)',
+    us: 'Alif Maqsura Etimológica (إلى, على, مستشفى)',
+    uk: 'Ya con Puntos Diacríticos Inferiores (في, أخي, كتابي)',
+    explanation: 'El grafema ى representa una vocal /aː/ larga final derivada etimológicamente de una raíz con semiconsonante débil, y se escribe sin los dos puntos de la ya.',
+    examples: [
+      { us: 'ilā (إِلَى)', uk: 'ili (error)', translation: 'hacia / a' },
+      { us: 'fī (فِي)', uk: 'fī', translation: 'en / dentro de' },
+      { us: 'mustashfā (مُسْتَشْفَى)', uk: 'mustashfi (error)', translation: 'hospital' }
+    ]
+  },
+  {
+    pattern: 'Tanwīn o Nunación de Indefinición (-un, -an, -in)',
+    us: 'Caso Indefinido (كِتَابٌ kitābun, كِتَاباً kitāban, كِتَابٍ kitābin)',
+    uk: 'Estado Determinado con Al- (الكِتَابُ al-kitābu)',
+    explanation: 'El tanwīn indica que el sustantivo es indefinido; en acusativo (-an) requiere habitualmente un alif de soporte ortográfico ortopédico.',
+    examples: [
+      { us: 'shukran (شُكْراً)', uk: 'shukran con alif de tanwīn', translation: 'gracias (caso acusativo adverbial)' },
+      { us: 'ahlan (أَهْلاً)', uk: 'ahlan con alif', translation: 'bienvenido' }
     ]
   }
 ];
@@ -136,7 +181,11 @@ export const ARABIC_SPELLING_RULES: SpellingRule[] = [
 export const ARABIC_VOCABULARY_PAIRS: VocabularyPair[] = [
   { category: 'Variantes Árabes', us: 'Árabe Estándar Moderno (Fus\'ha)', uk: 'Dialecto Levantino / Palestino', spanish: '¿Cómo estás?', sampleSentenceUS: 'Kayfa haluka al-yawm?', sampleSentenceUK: 'Kif halak il-yom?' },
   { category: 'Variantes Árabes', us: 'Madha turid? (¿Qué quieres?)', uk: 'Shu biddak? (¿Qué quieres?)', spanish: '¿Qué deseas?', sampleSentenceUS: 'Madha turid an tashrab?', sampleSentenceUK: 'Shu biddak tishrab?' },
-  { category: 'Herencia en El Salvador', us: 'Kibbeh / Kubba', uk: 'Kibbeh salvadoreño', spanish: 'Kibbeh de carne y trigo bulgur', sampleSentenceUS: 'Al-kibbeh ta\'am taqlidiyy.', sampleSentenceUK: 'Kibbeh tradicional en San Salvador.' }
+  { category: 'Herencia en El Salvador', us: 'Kibbeh / Kubba', uk: 'Kibbeh salvadoreño', spanish: 'Kibbeh de carne y trigo bulgur', sampleSentenceUS: 'Al-kibbeh ta\'am taqlidiyy.', sampleSentenceUK: 'Kibbeh tradicional en San Salvador.' },
+  { category: 'Gastronomía Tradicional', us: 'waraq \'inab (hojas de parra rellenas)', uk: 'khubz \'arabiyy (pan pita)', spanish: 'Alimentos levantinos', sampleSentenceUS: 'Waraq al-\'inab ladhidh.', sampleSentenceUK: 'Khubz \'arabiyy fī l-ma\'idah.' },
+  { category: 'Léxico Comercial', us: 'kam si\'ru hadha? (¿cuál es el precio?)', uk: 'bi-kam hadha? (¿a cuánto está?)', spanish: 'Preguntando costos', sampleSentenceUS: 'Kam si\'ru hadha al-qamisi?', sampleSentenceUK: 'Bi-kam hadha al-kitabu?' },
+  { category: 'Parentesco Familiar', us: '\'amm (tío paterno)', uk: 'khal (tío materno)', spanish: 'Tíos en árabe', sampleSentenceUS: '\'Ammī yusāfiru ghadan.', sampleSentenceUK: 'Khālī ya\'īshu fī San Salvador.' },
+  { category: 'Cortesía y Hospitalidad', us: 'tafaddal (sírvase usted masc.)', uk: 'tafaddalī (sírvase usted fem.)', spanish: 'Pase adelante / tome', sampleSentenceUS: 'Tafaddal bi-l-julūs ya sayyidī.', sampleSentenceUK: 'Tafaddalī bi-l-qahwah ya ustādhah.' }
 ];
 
 export const ARABIC_GRAMMAR_DISTINCTIONS: GrammarDistinction[] = [
@@ -148,6 +197,33 @@ export const ARABIC_GRAMMAR_DISTINCTIONS: GrammarDistinction[] = [
     exampleUS: 'Al-bayt kabir. (La casa es grande).',
     exampleUK: 'La casa es grande.',
     pedagogicalNote: 'Nunca intentes conjugar un verbo ser en oraciones atributivas presentes en árabe.'
+  },
+  {
+    title: 'La Construcción Genitiva Idāfah (إضافة)',
+    concept: 'Dos sustantivos se yuxtaponen directamente sin preposición para indicar posesión o relación íntima.',
+    ruleUS: 'Primer elemento (poseído, sin Al-) + Segundo elemento (poseedor en caso genitivo).',
+    ruleUK: 'Español: La casa DE la abuela (requiere preposición de).',
+    exampleUS: 'Baytu l-jadd (بَيْتُ الجَدِّ, la casa del abuelo).',
+    exampleUK: 'La casa del abuelo.',
+    pedagogicalNote: 'El primer sustantivo jamás lleva artículo Al- ni tanwīn en una Idāfah legítima.'
+  },
+  {
+    title: 'El Número Dual (المثنى) en Nombres y Verbos',
+    concept: 'El árabe cuenta con una categoría morfológica obligatoria y productiva para exactamente dos entidades.',
+    ruleUS: 'Sufijo -ān (nominativo kitābān) / -ayn (acusativo/genitivo kitābayn).',
+    ruleUK: 'Español: Numeral dos + sustantivo en plural (dos libros).',
+    exampleUS: 'ʿIndī kitābāni thnān. (Tengo exactamente dos libros).',
+    exampleUK: 'Tengo dos libros.',
+    pedagogicalNote: 'Utilizar plural para dos personas o cosas es un error morfológico grave en árabe estándar.'
+  },
+  {
+    title: 'Concordancia de Plural No Humano con Femenino Singular',
+    concept: 'Todo sustantivo plural que no designe seres humanos racionales concierta gramaticalmente en femenino singular.',
+    ruleUS: 'Plural inanimado + Adjetivo/Verbo en femenino singular (السيارات سريعة).',
+    ruleUK: 'Español: Concordancia en plural femenino (los coches son rápidos).',
+    exampleUS: 'Al-kutubu jadīdah. (Los libros son nuevos, lit. "los libros es nueva").',
+    exampleUK: 'Los libros son nuevos.',
+    pedagogicalNote: 'Esta regla rige para adjetivos, pronombres relativos, demostrativos y verbos referidos a cosas, plantas o animales.'
   }
 ];
 
@@ -158,7 +234,35 @@ export const ARABIC_PHONETIC_DISTINCTIONS: PhoneticDistinction[] = [
     usBehavior: '\'Arabiyya (/ʕa.ra.bij.ja/ = árabe): sonido faríngeo auténtico.',
     ukBehavior: 'Pronunciación hispánica errónea como simple vocal "a".',
     examples: [
-      { word: '\'Ayn (ع)', usIpa: '/ʕajn/', ukIpa: '/ajn/ (error)', audioNote: 'Apretar suavemente la base de la garganta como tragando agua.' }
+      { word: '\'Ayn (ع)', usIpa: '/ʕajn/', ukIpa: '/ajn/ (error)', audioNote: 'Apretar suavemente la base de la garganta como tragando agua.' },
+      { word: '\'Alī (علي)', usIpa: '/ʕaˈliː/', ukIpa: '/aˈli/ (error)', audioNote: 'Oclusión faríngea sonora clara y vibrante.' }
+    ]
+  },
+  {
+    topic: 'La Oclusiva Uvular Sorda Qaf (ق)',
+    feature: 'Oclusión sorda producida por el contacto del dorso posterior lingual con la úvula.',
+    usBehavior: 'Qalam (/qalam/ = pluma/bolígrafo): timbre uvular hondo.',
+    ukBehavior: 'Confusión con la oclusiva velar común K /k/.',
+    examples: [
+      { word: 'Qalb vs Kalb', usIpa: '/qalb/ (corazón) vs /kalb/ (perro)', ukIpa: '/kalb/ indistinto', audioNote: 'Qaf articula en la campanilla; Kaf articula en el velo del paladar.' }
+    ]
+  },
+  {
+    topic: 'Consonantes Enfáticas o Faringalizadas (ص, ض, ط, ظ)',
+    feature: 'Velarización secundaria que ensancha la cavidad bucal y oscurece las vocales adyacentes.',
+    usBehavior: 'Ṭālib (/tˤaːlib/ = estudiante): T enfática que transforma la \'a\' en timbre posterior [ɑ].',
+    ukBehavior: 'Pronunciación simple como t, s, d dentales planas.',
+    examples: [
+      { word: 'Sayf vs Ṣayf', usIpa: '/sajf/ (espada) vs /sˤajf/ (verano)', ukIpa: '/sajf/ indistinto', audioNote: 'Ṣad ensancha la boca oscureciendo el diptongo.' }
+    ]
+  },
+  {
+    topic: 'La Fricativa Faríngea Sorda Ḥa (ح) frente a Kha (خ)',
+    feature: 'Ḥa es un suspiro puro profundo en la faringe sin fricción velar áspera.',
+    usBehavior: 'Ḥalīb (/ħaliːb/ = leche): fricativa faríngea limpia semejante a limpiar un cristal con el aliento.',
+    ukBehavior: 'Pronunciación como la J española áspera velar /x/.',
+    examples: [
+      { word: 'Ḥalwā (حلوى)', usIpa: '/ˈħalwaː/', ukIpa: '/ˈxalwa/ (error)', audioNote: 'Fricación suave en la faringe media, no en la garganta superior.' }
     ]
   }
 ];

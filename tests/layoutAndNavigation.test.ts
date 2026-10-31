@@ -15,8 +15,7 @@ describe('Suite de Arquitectura de Layout, Navegación en 5 Pilares y Anuncios L
 
     // Regla de negocio solicitada por el usuario
     expect(code).toContain("const isCategoriesPage = activeTab === 'categories';");
-    expect(code).toContain('if (isCategoriesPage) {');
-    expect(code).toContain('return (');
+    expect(code).toContain('if (shouldSuppressRails) {');
     expect(code).toContain('{children}');
 
     // Verificación de slots y AdSense oficial en los rieles laterales
