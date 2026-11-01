@@ -211,7 +211,7 @@ describe('Adversarial Challenge: Google AdSense Guards & Crawlable Assets', () =
       // Extract all AdBanner JSX instances
       const bannerMatches = code.match(/<AdBanner[\s\S]*?\/>/g);
       expect(bannerMatches).not.toBeNull();
-      expect(bannerMatches!.length).toBe(5);
+      expect(bannerMatches!.length).toBe(3);
 
       bannerMatches!.forEach((banner) => {
         expect(banner).toContain('isLoading={loadingQuestions}');
@@ -241,13 +241,13 @@ describe('Adversarial Challenge: Google AdSense Guards & Crawlable Assets', () =
       // Report empirical finding: Are there stacked ads in PracticeMode?
       // Google AdSense policies explicitly state: "Publishers may not place ads in a stacked format
       // (consecutive ad units without substantive editorial content separating them)."
-      // We document this empirical observation:
+      // We document that ad stacking has been eradicated to comply with Google policies and the 2-3 ad rule:
       expect({
         hasStackingInConfig,
         hasStackingInResults,
       }).toEqual({
-        hasStackingInConfig: true,
-        hasStackingInResults: true,
+        hasStackingInConfig: false,
+        hasStackingInResults: false,
       });
     });
   });

@@ -503,32 +503,35 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
       {/* ==================================================================== */}
       {/* 1. CINTILLO SUPERIOR INFORMATIVO INSTITUCIONAL */}
       {/* ==================================================================== */}
-      <div className="bg-[#0B1B3D] text-[#E2E8F0] text-[10px] sm:text-xs py-1.5 px-3 sm:px-6 lg:px-8 border-b border-[#1A2E5A] font-sans-ui">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1.5 sm:gap-2">
-          <div className="flex items-center gap-1.5 sm:gap-2 flex-wrap justify-center sm:justify-start">
-            <span className="px-2.5 py-0.5 rounded bg-[#132A5C] text-[#C59B27] font-bold border border-[#C59B27]/30 text-[9px] sm:text-[10px] uppercase tracking-wider shrink-0 font-mono">
+      <div className="bg-[#0B1B3D] text-[#E2E8F0] text-[10px] sm:text-xs py-1 sm:py-1.5 px-2.5 sm:px-6 lg:px-8 border-b border-[#1A2E5A] font-sans-ui">
+        <div className="max-w-7xl mx-auto flex items-center justify-between gap-1.5 sm:gap-2">
+          <div className="flex items-center gap-1.5 sm:gap-2 min-w-0">
+            <span className="px-2 py-0.5 rounded bg-[#132A5C] text-[#C59B27] font-bold border border-[#C59B27]/30 text-[8.5px] sm:text-[10px] uppercase tracking-wider shrink-0 font-mono">
               Plataforma Oficial
             </span>
-            <span className="font-medium text-[#CBD5E1]">
+            <span className="font-medium text-[#CBD5E1] truncate hidden sm:inline">
               KUSKAT: Sistema Académico Intercultural y Banco Maestro de Evaluación.
             </span>
+            <span className="font-medium text-[#CBD5E1] truncate inline sm:hidden text-[10px]">
+              KUSKAT Académico
+            </span>
             {!isOnline && (
-              <span className="px-2 py-0.5 rounded bg-amber-500/20 text-amber-300 font-bold border border-amber-500/30 text-[9px] uppercase tracking-wider shrink-0 font-mono flex items-center gap-1">
-                <WifiOff className="w-3 h-3 text-amber-400" />
-                <span>Offline DB Activo</span>
+              <span className="px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 font-bold border border-amber-500/30 text-[8px] sm:text-[9px] uppercase tracking-wider shrink-0 font-mono flex items-center gap-1">
+                <WifiOff className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-amber-400" />
+                <span>Offline</span>
               </span>
             )}
           </div>
 
-          <div className="flex items-center gap-2.5 sm:gap-3 text-[#94A3B8] font-medium text-[10px] sm:text-xs shrink-0">
+          <div className="flex items-center gap-2 sm:gap-3 text-[#94A3B8] font-medium text-[9.5px] sm:text-xs shrink-0">
             <a
               href="https://wa.me/50376574463?text=Hola%20KUSKAT,%20estoy%20estudiando%20desde%20tu%20app%20de%20estudio%20:)"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-emerald-300 flex items-center gap-1.5 transition-colors"
+              className="hover:text-emerald-300 flex items-center gap-1 transition-colors"
               title="WhatsApp KUSKAT: +503 7657 4463"
             >
-              <span className="text-[#34D399] font-bold font-mono">WhatsApp:</span>
+              <span className="text-[#34D399] font-bold font-mono">WA:</span>
               <span className="font-mono text-[#F1F5F9]">+503 7657 4463</span>
             </a>
             <span className="text-[#334155] hidden sm:inline">•</span>
@@ -536,10 +539,10 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
               href="https://instagram.com/Kuskat.es"
               target="_blank"
               rel="noopener noreferrer"
-              className="hover:text-[#F472B6] flex items-center gap-1 transition-colors"
+              className="hidden sm:flex hover:text-[#F472B6] items-center gap-1 transition-colors"
               title="Instagram: @Kuskat.es"
             >
-              <span className="text-[#F472B6] font-bold">Instagram:</span>
+              <span className="text-[#F472B6] font-bold">IG:</span>
               <span className="text-[#F1F5F9]">@Kuskat.es</span>
             </a>
             <span className="text-[#334155] hidden md:inline">•</span>
@@ -563,10 +566,10 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
           {/* Logo y Nombre del Proyecto */}
           <div
             onClick={() => navigateTo('motionsites3d')}
-            className="flex items-center gap-2 sm:gap-3 min-w-0 cursor-pointer select-none group shrink-0"
+            className="flex items-center gap-1.5 sm:gap-2.5 min-w-0 cursor-pointer select-none group shrink-0"
             title="Ir al Portal 3D Principal"
           >
-            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#FAF9F5] border border-[#E5E3D8] shadow-corporate-subtle flex items-center justify-center p-1.5 shrink-0 overflow-hidden group-hover:border-[#0B1B3D] transition-colors">
+            <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-[#FAF9F5] border border-[#E5E3D8] shadow-corporate-subtle flex items-center justify-center p-1 sm:p-1.5 shrink-0 overflow-hidden group-hover:border-[#0B1B3D] transition-colors">
               <img
                 src="/kuskat_logo.png"
                 alt="Logo KUSKAT"
@@ -574,11 +577,11 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
               />
             </div>
             <div className="min-w-0">
-              <div className="flex items-center gap-1.5 sm:gap-2">
-                <span className="text-xl sm:text-2xl font-black text-[#0B1B3D] tracking-tight font-editorial truncate group-hover:text-[#132A5C] transition-colors">
+              <div className="flex items-center gap-1 sm:gap-1.5">
+                <span className="text-lg sm:text-2xl font-black text-[#0B1B3D] tracking-tight font-editorial truncate group-hover:text-[#132A5C] transition-colors">
                   KUSKAT
                 </span>
-                <span className="text-[9px] sm:text-[10px] font-bold text-[#0B1B3D] bg-[#F4F3ED] px-1.5 sm:px-2 py-0.5 rounded border border-[#E2E0D5] shrink-0 font-mono uppercase tracking-wider">
+                <span className="hidden sm:inline-block text-[9px] sm:text-[10px] font-bold text-[#0B1B3D] bg-[#F4F3ED] px-1.5 sm:px-2 py-0.5 rounded border border-[#E2E0D5] shrink-0 font-mono uppercase tracking-wider">
                   Académico
                 </span>
               </div>
@@ -744,25 +747,13 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
           {/* ================================================================ */}
           {/* CABECERA MÓVIL Y TABLET (< lg)                                   */}
           {/* ================================================================ */}
-          <div className="flex lg:hidden items-center gap-1.5 shrink-0">
-            {/* Alternar 2D/3D si aplica en móvil */}
-            {onToggle2DAccessible && activeTab === 'motionsites3d' && (
-              <button
-                type="button"
-                onClick={onToggle2DAccessible}
-                className="p-2 rounded-xl border border-amber-300 bg-amber-50 text-amber-900 text-xs font-bold cursor-pointer"
-                title="Alternar 2D / 3D"
-              >
-                {is2DAccessibleMode ? <Box className="w-4 h-4" /> : <Grid className="w-4 h-4" />}
-              </button>
-            )}
-
+          <div className="flex lg:hidden items-center gap-1 sm:gap-2 shrink-0">
             <LanguageSwitcher variant="compact" />
 
             <button
               type="button"
               onClick={onOpenAccountModal}
-              className={`p-2 rounded-xl border text-xs font-bold cursor-pointer transition-colors ${
+              className={`p-1.5 sm:p-2 rounded-xl border text-xs font-bold cursor-pointer transition-colors shrink-0 ${
                 currentUser
                   ? 'border-emerald-300 bg-emerald-50 text-emerald-900'
                   : 'border-slate-300 bg-slate-50 text-slate-800'
@@ -770,26 +761,26 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
               title={currentUser ? currentUser.username : t('nav.account')}
               aria-label={t('nav.account')}
             >
-              <UserCheck className="w-4 h-4 text-blue-600" />
+              <UserCheck className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-blue-600" />
             </button>
 
-            {/* Botón de Menú Móvil */}
+            {/* Botón de Menú Móvil - SIEMPRE VISIBLE Y ADAPTABLE */}
             <button
               type="button"
               onClick={() => setIsMobileMenuOpen((prev) => !prev)}
-              className="flex items-center gap-1.5 px-3 py-2 rounded-xl bg-[#0B1B3D] text-white font-bold text-xs cursor-pointer shadow-corporate-subtle focus-visible:outline-none"
+              className="flex items-center gap-1 sm:gap-1.5 px-2.5 sm:px-3 py-1.5 sm:py-2 rounded-xl bg-[#0B1B3D] text-white font-bold text-xs cursor-pointer shadow-corporate-subtle shrink-0 focus-visible:outline-none"
               aria-label="Abrir menú de navegación"
               aria-expanded={isMobileMenuOpen}
             >
               {isMobileMenuOpen ? (
                 <>
-                  <X className="w-4 h-4 text-amber-400" />
-                  <span>Cerrar</span>
+                  <X className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400" />
+                  <span className="text-[11px] sm:text-xs">Cerrar</span>
                 </>
               ) : (
                 <>
-                  <Menu className="w-4 h-4 text-amber-400" />
-                  <span>Menú</span>
+                  <Menu className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-amber-400" />
+                  <span className="text-[11px] sm:text-xs">Menú</span>
                 </>
               )}
             </button>

@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import fs from 'node:fs';
 import path from 'node:path';
 
-describe('Verificación de Integración de Google AdSense y 5 Anuncios por Página', () => {
+describe('Verificación de Integración de Google AdSense y Regla de 2 a 3 Anuncios por Página', () => {
   const rootDir = process.cwd();
   const indexHtmlPath = path.join(rootDir, 'index.html');
   const adBannerPath = path.join(rootDir, 'src', 'components', 'AdBanner.tsx');
@@ -27,44 +27,66 @@ describe('Verificación de Integración de Google AdSense y 5 Anuncios por Pági
     expect(code).toContain('ANUNCIO PATROCINADO POR GOOGLE ADS');
   });
 
-  it('Página 1 (Portal 3D): contiene exactamente 5 anuncios AdBanner horizontales', () => {
+  it('Página 1 (Portal 3D): cumple con la regla de 2 a 3 anuncios (exactamente 3 anuncios)', () => {
     expect(fs.existsSync(portalPath)).toBe(true);
     const code = fs.readFileSync(portalPath, 'utf-8');
     const matches = code.match(/<AdBanner\b/g);
     expect(matches).not.toBeNull();
-    expect(matches!.length).toBe(5);
+    expect(matches!.length).toBeGreaterThanOrEqual(2);
+    expect(matches!.length).toBeLessThanOrEqual(3);
+    expect(matches!.length).toBe(3);
   });
 
-  it('Página 2 (Categorías): contiene exactamente 5 anuncios AdBanner horizontales', () => {
+  it('Página 2 (Categorías): cumple con la regla de 2 a 3 anuncios (exactamente 3 anuncios)', () => {
     expect(fs.existsSync(categoriesPath)).toBe(true);
     const code = fs.readFileSync(categoriesPath, 'utf-8');
     const matches = code.match(/<AdBanner\b/g);
     expect(matches).not.toBeNull();
-    expect(matches!.length).toBe(5);
+    expect(matches!.length).toBeGreaterThanOrEqual(2);
+    expect(matches!.length).toBeLessThanOrEqual(3);
+    expect(matches!.length).toBe(3);
   });
 
-  it('Página 3 (Simulador): contiene 1 anuncio arriba y 5 anuncios abajo del simulador', () => {
+  it('Página 3 (Simulador): contiene entre 2 y 3 anuncios según la pantalla (1 arriba y 1-2 abajo)', () => {
     expect(fs.existsSync(practicePath)).toBe(true);
     const code = fs.readFileSync(practicePath, 'utf-8');
-    // Verificación de la pantalla de examen activo (solicitud explícita del usuario)
+    // Verificación de la pantalla de examen activo
     expect(code).toContain('4241045160_se_top');
     expect(code).toContain('Simulador Examen • 1 Arriba');
-    expect(code).toContain('4241045160_se_b1');
-    expect(code).toContain('4241045160_se_b2');
-    expect(code).toContain('4241045160_se_b3');
-    expect(code).toContain('4241045160_se_b4');
-    expect(code).toContain('4241045160_se_b5');
     // Verificación de la pantalla de configuración inicial
     expect(code).toContain('4241045160_s_top');
     expect(code).toContain('4241045160_s_b1');
-    expect(code).toContain('4241045160_s_b5');
+    expect(code).toContain('4241045160_s_b2');
+    // Verificación de la pantalla de resultados
+    expect(code).toContain('4241045160_sr_top');
+    expect(code).toContain('4241045160_sr_b1');
+    expect(code).toContain('4241045160_sr_b2');
   });
 
-  it('Página 4 (LaTeX): contiene exactamente 5 anuncios AdBanner horizontales', () => {
+  it('Página 4 (LaTeX): cumple con la regla de 2 a 3 anuncios (exactamente 3 anuncios)', () => {
     expect(fs.existsSync(appTsxPath)).toBe(true);
     const code = fs.readFileSync(appTsxPath, 'utf-8');
-    const matches = code.match(/<AdBanner\b/g);
+    // Contar anuncios en la sección de LaTeX
+    const latexSection = code.substring(
+      code.indexOf("activeTab === 'latex'"),
+      code.indexOf("activeTab === 'languages'")
+    );
+    const matches = latexSection.match(/<AdBanner\b/g);
     expect(matches).not.toBeNull();
-    expect(matches!.length).toBe(5);
+    expect(matches!.length).toBeGreaterThanOrEqual(2);
+    expect(matches!.length).toBeLessThanOrEqual(3);
+    expect(matches!.length).toBe(3);
+  });
+
+  it('Todas las demás páginas independientes están cubiertas con StandalonePageWrapper (2 anuncios por página)', () => {
+    expect(fs.existsSync(appTsxPath)).toBe(true);
+    const code = fs.readFileSync(appTsxPath, 'utf-8');
+    expect(code).toContain('StandalonePageWrapper');
+    expect(code).toContain('1/2 Superior');
+    expect(code).toContain('2/2 Inferior');
+    expect(code).toContain('<StandalonePageWrapper tab="notary-exam">');
+    expect(code).toContain('<StandalonePageWrapper tab="driver-license">');
+    expect(code).toContain('<StandalonePageWrapper tab="academic-reinforcement">');
+    expect(code).toContain('<StandalonePageWrapper tab="technical-courses">');
   });
 });

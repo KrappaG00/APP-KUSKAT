@@ -73,7 +73,7 @@ export const NotaryExamView: React.FC = () => {
   const [searchPrecedent, setSearchPrecedent] = useState<string>('');
 
   // =========================================================================
-  // ESTADO: PESTAÑA 3 (MODO ESTUDIO INTERACTIVO - FEEDBACK INMEDIATO ESTILO IURISACADEMIA)
+  // ESTADO: PESTAÑA 3 (MODO ESTUDIO INTERACTIVO - FEEDBACK INMEDIATO CSJ)
   // =========================================================================
   const [studyCategory, setStudyCategory] = useState<string>('all');
   const [studySearchQuery, setStudySearchQuery] = useState<string>('');
@@ -134,7 +134,7 @@ export const NotaryExamView: React.FC = () => {
       pool = NOTARY_EXAM_QUESTIONS.filter((q) => q.category === simConfig.category);
     }
 
-    // Barajar aleatoriamente como en IurisAcademia / CSJ
+    // Barajar aleatoriamente según metodología CSJ
     const shuffled = [...pool].sort(() => Math.random() - 0.5);
     const selected = shuffled.slice(0, Math.min(simConfig.count, pool.length));
 
@@ -237,7 +237,7 @@ export const NotaryExamView: React.FC = () => {
 
   // Copiar fundamento jurídico
   const handleCopyLegalBasis = (q: NotaryQuestion) => {
-    const textToCopy = `Caso Notarial: ${q.topic}\nBase Legal: ${q.legalBasis}\nFundamentación: ${q.explanation}\nPrecedente CSJ: ${q.csjPrecedent || 'N/A'}\nFuente: KUSKAT & IurisAcademia`;
+    const textToCopy = `Caso Notarial: ${q.topic}\nBase Legal: ${q.legalBasis}\nFundamentación: ${q.explanation}\nPrecedente CSJ: ${q.csjPrecedent || 'N/A'}\nFuente: KUSKAT · CSJ El Salvador`;
     navigator.clipboard.writeText(textToCopy);
     setCopiedQuestionId(q.id);
     setTimeout(() => setCopiedQuestionId(null), 2500);
@@ -278,7 +278,7 @@ export const NotaryExamView: React.FC = () => {
   return (
     <div className="space-y-6 max-w-5xl mx-auto font-sans-ui text-[#111625]">
       {/* ==================================================================== */}
-      {/* 1. BANNER PRINCIPAL CORPORATIVO CSJ & INSPIRACIÓN IURISACADEMIA */}
+      {/* 1. BANNER PRINCIPAL CORPORATIVO CSJ */}
       {/* ==================================================================== */}
       <div className="bg-[#0B1B3D] border border-[#1A2E5A] rounded-2xl p-6 sm:p-8 text-white shadow-corporate-card relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-bl from-[#C59B27]/10 via-transparent to-transparent pointer-events-none" />
@@ -300,35 +300,35 @@ export const NotaryExamView: React.FC = () => {
               Examen de Suficiencia Notarial de El Salvador
             </h1>
             <p className="text-xs sm:text-sm text-[#CBD5E1] max-w-3xl leading-relaxed mt-1.5">
-              Plataforma integral de preparación para la autorización del ejercicio notarial, inspirada en las mejores
-              prácticas pedagógicas de <strong>IurisAcademia (IurisCaeli)</strong> y en las resoluciones vinculantes de
+              Plataforma integral de preparación para la autorización del ejercicio notarial, apegada a los
+              lineamientos de evaluación de la <strong>Corte Suprema de Justicia (CSJ)</strong> y en las resoluciones vinculantes de
               la <strong>Sala de lo Civil</strong> y <strong>Corte Plena de la CSJ</strong>.
             </p>
           </div>
 
-          {/* Caja Informativa de Recurso Aliado: IurisAcademia */}
+          {/* Caja Informativa Institucional: CSJ Sección del Notariado */}
           <div className="bg-[#132A5C]/80 border border-[#C59B27]/30 rounded-xl p-3 sm:p-4 text-xs text-[#E2E8F0] flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-inner">
             <div className="flex items-start gap-2.5">
               <Sparkles className="w-4 h-4 text-[#C59B27] shrink-0 mt-0.5" />
               <div>
                 <strong className="text-[#FAF9F5] font-semibold block">
-                  Metodología de Estudio & Práctica Notarial:
+                  Metodología de Estudio & Práctica Notarial CSJ:
                 </strong>
                 <span>
-                  Reforzado con la estructura temática de <strong>IurisAcademia</strong> (modo estudio con fundamento inmediato
+                  Reforzado con la estructura temática oficial de la <strong>Corte Suprema de Justicia</strong> (modo estudio con fundamento inmediato
                   y modo simulacro cronometrado real CSJ).
                 </span>
               </div>
             </div>
 
             <a
-              href="https://examen-notariado.iuriscaeli.com/"
+              href="https://www.csj.gob.sv"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#C59B27] hover:bg-[#D4AF37] text-[#07132B] font-bold text-xs transition-colors shrink-0 font-mono-exam"
-              title="Abrir IurisAcademia en nueva pestaña"
+              title="Abrir Portal Oficial CSJ en nueva pestaña"
             >
-              <span>Visitar IurisAcademia</span>
+              <span>Portal Oficial CSJ</span>
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
           </div>
@@ -673,7 +673,7 @@ export const NotaryExamView: React.FC = () => {
       )}
 
       {/* ==================================================================== */}
-      {/* PESTAÑA 3: MODO ESTUDIO INTERACTIVO (FEEDBACK INMEDIATO ESTILO IURISACADEMIA) */}
+      {/* PESTAÑA 3: MODO ESTUDIO INTERACTIVO (FEEDBACK INMEDIATO CSJ) */}
       {/* ==================================================================== */}
       {activeTab === 'interactive-study' && (
         <div className="space-y-6">
@@ -861,7 +861,7 @@ export const NotaryExamView: React.FC = () => {
                     })}
                   </div>
 
-                  {/* Retroalimentación Inmediata al responder (Estilo IurisAcademia) */}
+                  {/* Retroalimentación Inmediata al responder (Metodología Oficial CSJ) */}
                   {isAnswered && (
                     <div
                       className={`mt-3 p-4 rounded-xl border text-xs space-y-2.5 animate-fade-in ${
@@ -1301,7 +1301,7 @@ export const NotaryExamView: React.FC = () => {
                     </div>
                   </div>
 
-                  {/* Desglose Diagnóstico por Ramas del Derecho (Estilo IurisAcademia) */}
+                  {/* Desglose Diagnóstico por Ramas del Derecho (Metodología Oficial CSJ) */}
                   <div className="bg-[#FAF9F5] p-4 sm:p-5 rounded-xl border border-[#E5E3D8] space-y-3">
                     <strong className="font-editorial text-sm font-bold text-[#0B1B3D] block">
                       Diagnóstico de Dominio por Ramas Evaluadas:

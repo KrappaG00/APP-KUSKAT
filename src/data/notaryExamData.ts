@@ -5627,7 +5627,7 @@ export const NOTARY_EXAM_QUESTIONS: NotaryQuestion[] = [
 
 
 // ============================================================================
-// COMPENDIO DE REFUERZO NOTARIAL • INSPIRADO EN IURISACADEMIA & CSJ EL SALVADOR
+// COMPENDIO DE REFUERZO NOTARIAL • CORTE SUPREMA DE JUSTICIA (CSJ) EL SALVADOR
 // ============================================================================
 
 export interface NotaryDeadlineItem {

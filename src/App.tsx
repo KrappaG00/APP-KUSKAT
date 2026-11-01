@@ -192,6 +192,19 @@ function resolveTabFromParam(rawParam: string | null): AppPageTab | null {
 }
 
 // ============================================================================
+interface StandalonePageWrapperProps {
+  tab: AppPageTab;
+  children: React.ReactNode;
+}
+
+const StandalonePageWrapper: React.FC<StandalonePageWrapperProps> = ({ tab, children }) => (
+  <div className="space-y-6">
+    <AdBanner variant="light" positionLabel={`${tab} • 1/2 Superior`} slotId={`4241045160_${tab.replace(/-/g, '_')}_top`} />
+    {children}
+    <AdBanner variant="light" positionLabel={`${tab} • 2/2 Inferior`} slotId={`4241045160_${tab.replace(/-/g, '_')}_bottom`} />
+  </div>
+);
+
 export default function App() {
   const { t } = useTranslation();
   const [activeTab, setActiveTab] = useState<AppPageTab>(() => {
@@ -568,7 +581,7 @@ export default function App() {
         {activeTab === 'latex' && (
           <div className="space-y-6">
             {/* Anuncio 1 / 5 (LaTeX) */}
-            <AdBanner variant="light" positionLabel="LaTeX • 1/5 Superior" slotId="4241045160_l1" />
+            <AdBanner variant="light" positionLabel="LaTeX • 1/3 Superior" slotId="4241045160_l1" />
 
             <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-4">
               <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
@@ -690,9 +703,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* Anuncio 2 / 5 (LaTeX) */}
-            <AdBanner variant="light" positionLabel="LaTeX • 2/5 Alcance" slotId="4241045160_l2" />
-
             {/* Visor de Código LaTeX */}
             <div className="bg-slate-950 rounded-3xl border border-slate-800 p-5 shadow-xl text-slate-200 space-y-3">
               <div className="flex items-center justify-between text-xs text-slate-400 border-b border-slate-800 pb-3 font-mono">
@@ -711,7 +721,7 @@ export default function App() {
             </div>
 
             {/* Anuncio 3 / 5 (LaTeX) */}
-            <AdBanner variant="light" positionLabel="LaTeX • 3/5 Intermedio" slotId="4241045160_l3" />
+            <AdBanner variant="light" positionLabel="LaTeX • 2/3 Intermedio" slotId="4241045160_l3" />
 
             {/* Guía Rápida de Compilación */}
             <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-3">
@@ -741,9 +751,6 @@ export default function App() {
               </div>
             </div>
 
-            {/* Anuncio 4 / 5 (LaTeX) */}
-            <AdBanner variant="light" positionLabel="LaTeX • 4/5 Código" slotId="4241045160_l4" />
-
             {/* Panel de Resumen Técnico */}
             <div className="bg-slate-50 rounded-3xl border border-slate-200 p-4 sm:p-5 text-xs text-slate-600 flex flex-col sm:flex-row items-center justify-between gap-3">
               <div className="flex items-center gap-2">
@@ -756,7 +763,7 @@ export default function App() {
             </div>
 
             {/* Anuncio 5 / 5 (LaTeX) */}
-            <AdBanner variant="light" positionLabel="LaTeX • 5/5 Inferior" slotId="4241045160_l5" />
+            <AdBanner variant="light" positionLabel="LaTeX • 3/3 Inferior" slotId="4241045160_l5" />
           </div>
         )}
 
@@ -793,6 +800,7 @@ export default function App() {
         {/* VISTA 5: MAPA INTERACTIVO DE CENTROAMÉRICA & EL SALVADOR          */}
         {/* ================================================================== */}
         {activeTab === 'central-america' && (
+          <StandalonePageWrapper tab="central-america">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -805,12 +813,14 @@ export default function App() {
           >
             <CentralAmericaMap />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 6: SÍMBOLOS PATRIOS E HISTORIAL DE PRESIDENTES DE EL SALVADOR */}
         {/* ================================================================== */}
         {activeTab === 'patriotic-history' && (
+          <StandalonePageWrapper tab="patriotic-history">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -823,12 +833,14 @@ export default function App() {
           >
             <PatrioticHistoryView />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 7: LICENCIAS DE CONDUCIR (TEÓRICO Y PSICOLÓGICO)             */}
         {/* ================================================================== */}
         {activeTab === 'driver-license' && (
+          <StandalonePageWrapper tab="driver-license">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -841,12 +853,14 @@ export default function App() {
           >
             <DriverLicenseView />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 8: REFUERZO ACADÉMICO (1° A 9° GRADO Y 1°-2° BACHILLERATO)   */}
         {/* ================================================================== */}
         {activeTab === 'academic-reinforcement' && (
+          <StandalonePageWrapper tab="academic-reinforcement">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -859,12 +873,14 @@ export default function App() {
           >
             <AcademicReinforcementView />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 9: CURSOS TÉCNICOS Y OFICIOS PRÁCTICOS                      */}
         {/* ================================================================== */}
         {activeTab === 'technical-courses' && (
+          <StandalonePageWrapper tab="technical-courses">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -877,12 +893,14 @@ export default function App() {
           >
             <TechnicalCoursesView />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 10: PREPARACIÓN PARA EL EXAMEN DE NOTARIO CSJ               */}
         {/* ================================================================== */}
         {activeTab === 'notary-exam' && (
+          <StandalonePageWrapper tab="notary-exam">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -895,12 +913,14 @@ export default function App() {
           >
             <NotaryExamView />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA: ASCENSOS POLICIALES ANSP / PNC                              */}
         {/* ================================================================== */}
         {activeTab === 'ansp-ascenso' && (
+          <StandalonePageWrapper tab="ansp-ascenso">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -916,12 +936,14 @@ export default function App() {
               showToast={showToast}
             />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 11: CONSTITUCIÓN Y DERECHO PÚBLICO / PRIVADO                 */}
         {/* ================================================================== */}
         {activeTab === 'constitution' && (
+          <StandalonePageWrapper tab="constitution">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -934,12 +956,14 @@ export default function App() {
           >
             <ConstitutionLawView />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 12: RESIDENTADO MÉDICO ENAR (POSGRADO & ESPECIALIDADES)     */}
         {/* ================================================================== */}
         {activeTab === 'residentado-medico' && (
+          <StandalonePageWrapper tab="residentado-medico">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -956,12 +980,14 @@ export default function App() {
               showToast={showToast}
             />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 13: HABILITACIÓN EN SALUD CSSP (5 JUNTAS DE VIGILANCIA)     */}
         {/* ================================================================== */}
         {activeTab === 'cssp-health' && (
+          <StandalonePageWrapper tab="cssp-health">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -977,12 +1003,14 @@ export default function App() {
               showToast={showToast}
             />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 14: LITIGACIÓN ORAL PENAL & SIMULADOR DE OBJECIONES (PRPN)   */}
         {/* ================================================================== */}
         {activeTab === 'oral-litigation' && (
+          <StandalonePageWrapper tab="oral-litigation">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -998,12 +1026,14 @@ export default function App() {
               showToast={showToast}
             />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 15: LABORATORIO DE FÓRMULAS INTERACTIVO                    */}
         {/* ================================================================== */}
         {activeTab === 'formula-lab' && (
+          <StandalonePageWrapper tab="formula-lab">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -1016,12 +1046,14 @@ export default function App() {
           >
             <InteractiveFormulaLab />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 16: HOJAS MNEMOTÉCNICAS (1 PÁG. LATEX)                      */}
         {/* ================================================================== */}
         {activeTab === 'one-page-sheets' && (
+          <StandalonePageWrapper tab="one-page-sheets">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -1034,12 +1066,14 @@ export default function App() {
           >
             <OnePageCheatSheetsView showToast={showToast} />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 17: PROGRAMA JÓVENES TALENTO UES / MINED                     */}
         {/* ================================================================== */}
         {activeTab === 'jovenes-talento' && (
+          <StandalonePageWrapper tab="jovenes-talento">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -1055,12 +1089,14 @@ export default function App() {
               showToast={showToast}
             />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 18: CUMPLIMIENTO AML & SEGUROS MERCANTILES (SSF / UIF)       */}
         {/* ================================================================== */}
         {activeTab === 'compliance-financial' && (
+          <StandalonePageWrapper tab="compliance-financial">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -1076,12 +1112,14 @@ export default function App() {
               showToast={showToast}
             />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 19: ENERGÍA SOLAR FOTOVOLTAICA & ELECTRICIDAD SIGET         */}
         {/* ================================================================== */}
         {activeTab === 'siget-solar' && (
+          <StandalonePageWrapper tab="siget-solar">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -1097,12 +1135,14 @@ export default function App() {
               showToast={showToast}
             />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 20: DERECHO ADMINISTRATIVO (LPA) & FIRMA ELECTRÓNICA         */}
         {/* ================================================================== */}
         {activeTab === 'derecho-administrativo' && (
+          <StandalonePageWrapper tab="derecho-administrativo">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -1118,12 +1158,14 @@ export default function App() {
               showToast={showToast}
             />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 21: ATENCIÓN PRIMARIA & FARMACOVIGILANCIA MINSAL/SRS        */}
         {/* ================================================================== */}
         {activeTab === 'salud-primaria' && (
+          <StandalonePageWrapper tab="salud-primaria">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -1139,12 +1181,14 @@ export default function App() {
               showToast={showToast}
             />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
 
         {/* ================================================================== */}
         {/* VISTA 22: CIENCIAS DE INGENIERÍA & MÉTODOS CUANTITATIVOS          */}
         {/* ================================================================== */}
         {activeTab === 'ingenieria-ciencias' && (
+          <StandalonePageWrapper tab="ingenieria-ciencias">
           <React.Suspense
             fallback={
               <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
@@ -1160,6 +1204,7 @@ export default function App() {
               showToast={showToast}
             />
           </React.Suspense>
+          </StandalonePageWrapper>
         )}
         </LateralAdRails>
       </main>

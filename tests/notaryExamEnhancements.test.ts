@@ -8,7 +8,7 @@ import {
 } from '../src/data/notaryExamData';
 import { NOTARY_SUBCATEGORIES } from '../src/components/NotaryExamView';
 
-describe('Examen del Notariado - Refuerzo IurisAcademia', () => {
+describe('Examen del Notariado - Refuerzo CSJ Notariado', () => {
   describe('Invariantes Base y Banco de 200 Reactivos', () => {
     it('mantiene exactamente 200 preguntas en NOTARY_EXAM_QUESTIONS', () => {
       expect(NOTARY_EXAM_QUESTIONS).toHaveLength(200);

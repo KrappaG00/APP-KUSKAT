@@ -678,7 +678,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
       {/* Anuncio 1 / 5 (Categorías) */}
       <AdBanner
         variant="light"
-        positionLabel="Categorías • 1/5 Superior"
+        positionLabel="Categorías • 1/3 Superior"
         slotId="4241045160_c1"
         hasPublisherContent={hasSubstantiveCategoryContent}
         isLoading={loadingQuestions}
@@ -1179,7 +1179,7 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
           <div className="pt-2 border-t border-slate-100">
             <AdBanner
               variant="light"
-              positionLabel="Categorías • 2/5 Filtros"
+              positionLabel="Categorías • 2/3 Intermedio"
               slotId="4241045160_c2"
               hasPublisherContent={hasSubstantiveCategoryContent}
               isLoading={loadingQuestions}
@@ -1393,17 +1393,6 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
             defaultExpanded={selectedInst !== 'ALL'}
           />
 
-          {/* Anuncio 3 / 5 (Categorías) */}
-          <AdBanner
-            variant="light"
-            positionLabel="Categorías • 3/5 Explorador"
-            slotId="4241045160_c3"
-            hasPublisherContent={hasSubstantiveCategoryContent}
-            isLoading={loadingQuestions}
-            isEmpty={filteredCategories.length === 0}
-            minSubstantiveWords={20}
-            contentSnippet={categoryContentSnippet}
-          />
 
           {/* ================================================================ */}
           {/* LISTADO DE PREGUNTAS AGRUPADAS POR SECCIÓN, TEMA, MATERIA Y TIPO */}
@@ -1909,24 +1898,13 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
             </div>
           )}
 
-          {/* Anuncio 4 / 5 (Categorías) */}
-          <AdBanner
-            variant="light"
-            positionLabel="Categorías • 4/5 Reactivos"
-            slotId="4241045160_c4"
-            hasPublisherContent={hasSubstantiveCategoryContent}
-            isLoading={loadingQuestions}
-            isEmpty={filteredCategories.length === 0}
-            minSubstantiveWords={20}
-            contentSnippet={categoryContentSnippet}
-          />
         </section>
       </div>
 
-      {/* Anuncio 5 / 5 (Categorías) */}
+      {/* Anuncio 3 / 3 (Categorías) */}
       <AdBanner
         variant="light"
-        positionLabel="Categorías • 5/5 Inferior"
+        positionLabel="Categorías • 3/3 Inferior"
         slotId="4241045160_c5"
         hasPublisherContent={hasSubstantiveCategoryContent}
         isLoading={loadingQuestions}

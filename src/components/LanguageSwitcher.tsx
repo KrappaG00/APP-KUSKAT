@@ -240,13 +240,13 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
         aria-expanded={isOpen}
         aria-label={`${t('switcher.label')}: ${languageMeta.nativeName}`}
         onClick={() => setIsOpen((prev) => !prev)}
-        className="inline-flex items-center gap-1.5 px-2.5 py-1.5 min-h-[38px] rounded-xl bg-slate-800/90 hover:bg-slate-700/90 text-white border border-slate-600/80 text-xs font-bold transition-all cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
+        className="inline-flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-1 sm:py-1.5 min-h-[34px] sm:min-h-[38px] rounded-xl bg-slate-800/90 hover:bg-slate-700/90 text-white border border-slate-600/80 text-xs font-bold transition-all cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 shrink-0"
       >
         <Globe className="w-3.5 h-3.5 text-amber-400 shrink-0" />
         <span className="px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 font-mono text-[10px] font-extrabold">
           {languageMeta.monogram}
         </span>
-        <span className="max-w-[96px] sm:max-w-[120px] truncate">{languageMeta.nativeName}</span>
+        <span className="hidden sm:inline max-w-[96px] sm:max-w-[120px] truncate">{languageMeta.nativeName}</span>
         <ChevronDown
           className={`w-3.5 h-3.5 text-slate-300 transition-transform ${
             isOpen ? 'rotate-180' : ''
@@ -258,7 +258,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
         <div
           role="listbox"
           aria-label={t('switcher.label')}
-          className="absolute right-0 top-full mt-2 w-72 sm:w-80 rounded-2xl bg-slate-900 border border-slate-700 shadow-2xl p-2 z-50 text-white"
+          className="absolute right-0 top-full mt-2 w-72 sm:w-80 max-w-[calc(100vw-1.5rem)] rounded-2xl bg-slate-900 border border-slate-700 shadow-2xl p-2 z-50 text-white"
         >
           <div className="px-3 py-2 border-b border-slate-800 flex items-center justify-between">
             <span className="text-[11px] font-bold uppercase tracking-wider text-slate-400">

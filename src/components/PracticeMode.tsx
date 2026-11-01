@@ -1446,7 +1446,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         </div>
 
         {/* Anuncio 1 / 5 Abajo del Simulador */}
-        <AdBanner variant="light" positionLabel="Simulador • 1/5 Inferior" slotId="4241045160_s_b1" />
+        <AdBanner variant="light" positionLabel="Simulador • 1/2 Inferior" slotId="4241045160_s_b1" />
 
         {/* Tabla de Estadísticas y Top 10 KUSKAT */}
         <div className="space-y-4">
@@ -1454,7 +1454,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         </div>
 
         {/* Anuncio 2 / 5 Abajo del Simulador */}
-        <AdBanner variant="light" positionLabel="Simulador • 2/5 Inferior" slotId="4241045160_s_b2" />
+        <AdBanner variant="light" positionLabel="Simulador • 2/2 Inferior" slotId="4241045160_s_b2" />
 
         {/* Panel Informativo: Reglas del Sistema de Evaluación KUSKAT */}
         <div className="bg-white border border-[#E5E3D8] rounded-xl p-5 sm:p-6 shadow-corporate-subtle space-y-3 font-sans-ui">
@@ -1484,12 +1484,6 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
           </div>
         </div>
 
-        {/* Anuncios 3, 4 y 5 Abajo del Simulador */}
-        <div className="space-y-3">
-          <AdBanner variant="light" positionLabel="Simulador • 3/5 Inferior" slotId="4241045160_s_b3" />
-          <AdBanner variant="light" positionLabel="Simulador • 4/5 Inferior" slotId="4241045160_s_b4" />
-          <AdBanner variant="light" positionLabel="Simulador • 5/5 Inferior" slotId="4241045160_s_b5" />
-        </div>
       </div>
     );
   }
@@ -2469,32 +2463,17 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
       {/* Tabla de Estadísticas y Top 10 KUSKAT */}
       <LeaderboardSection onOpenAccountModal={onOpenAccountModal} />
 
-      {/* 5 Anuncios Abajo de Resultados */}
+      {/* 2 Anuncios Abajo de Resultados */}
       <div className="space-y-3 pt-2">
         <AdBanner
           variant="light"
-          positionLabel="Simulador Resultados • 1/5 Inferior"
+          positionLabel="Simulador Resultados • 1/2 Inferior"
           slotId="4241045160_sr_b1"
         />
         <AdBanner
           variant="light"
-          positionLabel="Simulador Resultados • 2/5 Inferior"
+          positionLabel="Simulador Resultados • 2/2 Inferior"
           slotId="4241045160_sr_b2"
-        />
-        <AdBanner
-          variant="light"
-          positionLabel="Simulador Resultados • 3/5 Inferior"
-          slotId="4241045160_sr_b3"
-        />
-        <AdBanner
-          variant="light"
-          positionLabel="Simulador Resultados • 4/5 Inferior"
-          slotId="4241045160_sr_b4"
-        />
-        <AdBanner
-          variant="light"
-          positionLabel="Simulador Resultados • 5/5 Inferior"
-          slotId="4241045160_sr_b5"
         />
       </div>
 
