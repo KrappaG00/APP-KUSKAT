@@ -11,10 +11,8 @@ import {
   Printer,
   BookOpen,
   Scale,
-  Globe,
 } from 'lucide-react';
 import { TutorialStep } from '../types';
-import { LanguageSwitcher } from './LanguageSwitcher';
 import { useTranslation } from '../i18n';
 
 interface OnboardingTutorialProps {
@@ -25,14 +23,14 @@ interface OnboardingTutorialProps {
 export const TUTORIAL_STEPS: TutorialStep[] = [
   {
     step: 1,
-    title: 'Elige tu Idioma Intercultural, Institución, Materia & Portal de Inicio',
-    subtitle: 'Sistema multilingüe en 7 lenguas, accesibilidad WCAG 2.2 AA y 34,440 preguntas oficiales',
-    badge: 'Paso 1 de 6 • Idioma, Convocatorias & Inicio',
+    title: 'Portal de Inicio, Institución, Convocatorias & 23 Áreas de Estudio',
+    subtitle: '41,080 reactivos verificados (17,640 del banco base) en 23 áreas, 100% gratuito',
+    badge: 'Paso 1 de 6 • Inicio & Convocatorias',
     description:
-      'KUSKAT (creado por Yeferson E. Perez) integra un Sistema Multilingüe Intercultural persistente (Español, Náhuat, Lenca, Kakawira, English, العربية con soporte RTL y 中文) junto a un banco maestro de 34,440 preguntas de selección múltiple y un Portal de Inicio con presentación del equipo KUSKAT.',
+      'KUSKAT (fundado por Yeferson E. Perez) reúne en un solo lugar 41,080 reactivos verificados: 17,640 del banco base de admisión, 16,800 de la Escuela de Idiomas, 4,850 del refuerzo MINED-ESMATE y 1,790 de habilitaciones en Derecho, Salud y Técnica. Desde el Portal de Inicio accedes directamente a cada una de las 23 áreas.',
     bulletPoints: [
-      '🌐 Selector de Idioma Intercultural (kuskat.lang): Cambia sin recargar la página entre Español, Náhuat, Lenca, Kakawira, Inglés, Árabe (RTL) y Mandarín desde la cabecera, el Portal de Inicio o este tutorial.',
-      '🏛️ Portal de Inicio (con Vista 2D Accesible): Conoce al equipo de desarrollo, los cursos destacados y las estadísticas del proyecto.',
+      '🏛️ Portal de Inicio (Vista 2D Accesible): Presentación del fundador, estadísticas 2D del proyecto y catálogo de las 23 áreas con su botón de Acceso Directo.',
+      '🌐 Idioma de la plataforma: Puedes cambiarlo cuando quieras desde el botón de idioma en la cabecera superior.',
       '🎓 Admisión UES (7,500 reactivos): Matemática, Física, Química, Biología, Ciencias Sociales y Lenguaje.',
       '📜 Escalafón Docente (3,300 reactivos): Ascenso al Nivel Uno 2026 MINED en Formación General y 10 Especialidades.',
       '📘 Prueba AVANZO (3,000 reactivos): Bachillerato MINED en Precálculo, Ciudadanía y Valores, Ciencia y Tecnología, Lengua e Inglés.',
@@ -76,7 +74,7 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
     subtitle: 'Doble modalidad evaluativa global, fórmulas matemáticas con aislamiento LTR/RTL y privacidad estricta',
     badge: 'Paso 4 de 6 • V/F, KaTeX & Cuentas',
     description:
-      'Personaliza tu método de estudio alternando en cualquier momento entre Opción Múltiple (A–D) y Verdadero o Falso (V/F) para todas las 34,440 preguntas del proyecto. Además, cuentas nativas seguras con sincronización de idioma y renderizado KaTeX con caché LRU.',
+      'Personaliza tu método de estudio alternando en cualquier momento entre Opción Múltiple (A–D) y Verdadero o Falso (V/F) para todas las preguntas del proyecto. Además, cuentas nativas seguras con sincronización de idioma y renderizado KaTeX con caché LRU.',
     bulletPoints: [
       '⚖️ Modo Verdadero o Falso (V/F) Global: Evalúate en V/F en cualquier examen, materia o idioma con proposiciones generadas dinámicamente.',
       '🎯 Opción Múltiple Tradicional (A–D): Cuatro alternativas con distractores pedagógicos calibrados y justificación oficial bilingüe.',
@@ -191,49 +189,48 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
       aria-modal="true"
       aria-labelledby="tutorial-modal-title"
       dir={languageMeta.dir}
-      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-900/65 backdrop-blur-sm animate-fade-in"
+      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-slate-900/65 backdrop-blur-sm animate-fade-in"
       onClick={handleSkip}
     >
       <div
-        className="bg-white rounded-3xl border border-slate-200 shadow-2xl max-w-xl w-full overflow-hidden flex flex-col relative text-slate-800"
+        className="bg-white rounded-t-3xl sm:rounded-3xl border border-slate-200 shadow-2xl max-w-xl w-full max-h-[100dvh] sm:max-h-[90vh] overflow-hidden flex flex-col relative text-slate-800"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Cabecera del Tutorial con Progreso y Marca KUSKAT */}
-        <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 p-5 sm:p-6 text-white relative">
-          <div className="flex items-center justify-between gap-3 mb-2.5">
-            <div className="flex items-center gap-2">
+        <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 p-4 sm:p-6 text-white relative shrink-0">
+          <div className="flex items-start justify-between gap-2 mb-2.5">
+            <div className="flex items-center gap-2 min-w-0 flex-1">
               <div className="w-6 h-6 rounded-lg bg-white p-0.5 flex items-center justify-center shrink-0 shadow-2xs">
                 <img src="/kuskat_logo.png" alt="KUSKAT" className="w-full h-full object-contain" />
               </div>
-              <span className="font-montenegrin text-xs tracking-wider uppercase text-blue-200 font-bold">
+              <span className="font-montenegrin text-[11px] sm:text-xs tracking-wider uppercase text-blue-200 font-bold truncate">
                 {t('tutorial.welcomeTitle')}
               </span>
             </div>
 
-            <div className="flex items-center gap-2">
-              <span className="px-2.5 py-0.5 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-[10px] sm:text-xs font-bold uppercase tracking-wider font-caslon">
-                {step.badge}
-              </span>
-              <button
-                onClick={handleSkip}
-                className="p-1.5 rounded-full bg-white/10 hover:bg-white/20 text-slate-200 transition-colors cursor-pointer"
-                aria-label="Cerrar u omitir tutorial"
-                title="Omitir tutorial (Esc)"
-              >
-                <X className="w-4 h-4" />
-              </button>
-            </div>
+            <button
+              onClick={handleSkip}
+              className="p-1.5 rounded-full bg-white/10 hover:bg-white/20 text-slate-200 transition-colors cursor-pointer shrink-0"
+              aria-label="Cerrar u omitir tutorial"
+              title="Omitir tutorial (Esc)"
+            >
+              <X className="w-4 h-4" />
+            </button>
           </div>
 
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-white/10 border border-white/20 flex items-center justify-center shrink-0 shadow-inner">
+          <span className="inline-block mb-3 px-2.5 py-0.5 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/30 text-[10px] sm:text-xs font-bold uppercase tracking-wider font-caslon max-w-full truncate">
+            {step.badge}
+          </span>
+
+          <div className="flex items-start gap-3">
+            <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-2xl bg-white/10 border border-white/20 flex items-center justify-center shrink-0 shadow-inner">
               {getStepIcon(step.step)}
             </div>
-            <div>
-              <h3 id="tutorial-modal-title" className="text-lg sm:text-xl font-black tracking-tight text-white font-montenegrin leading-tight">
+            <div className="min-w-0 flex-1">
+              <h3 id="tutorial-modal-title" className="text-base sm:text-xl font-black tracking-tight text-white font-montenegrin leading-tight break-words">
                 {step.title}
               </h3>
-              <p className="text-xs sm:text-sm text-slate-300 font-medium pt-0.5 font-caslon">{step.subtitle}</p>
+              <p className="text-[11px] sm:text-sm text-slate-300 font-medium pt-1 font-caslon leading-snug">{step.subtitle}</p>
             </div>
           </div>
 
@@ -259,24 +256,10 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
         </div>
 
         {/* Contenido del Paso */}
-        <div className="p-5 sm:p-7 space-y-4 text-xs sm:text-sm leading-relaxed overflow-y-auto max-h-[60vh] touch-scroll">
-          {/* Selector de idioma intercultural integrado en el tutorial */}
-          <div className="p-3.5 rounded-2xl bg-gradient-to-r from-blue-50/90 via-indigo-50/60 to-emerald-50/70 border border-blue-200/80 space-y-2">
-            <div className="flex items-center justify-between gap-2 flex-wrap">
-              <span className="text-[11px] font-extrabold text-blue-950 uppercase tracking-wider flex items-center gap-1.5">
-                <Globe className="w-3.5 h-3.5 text-blue-600" />
-                {t('tutorial.chooseLanguageStep')}
-              </span>
-              <span className="text-[10px] font-mono font-bold px-2 py-0.5 rounded-full bg-white text-blue-800 border border-blue-200">
-                {languageMeta.nativeName} ({languageMeta.dir.toUpperCase()})
-              </span>
-            </div>
-            <LanguageSwitcher variant="inline-pills" showLearnSpanishToggle={true} />
-          </div>
-
+        <div className="flex-1 min-h-0 p-4 sm:p-7 space-y-4 text-xs sm:text-sm leading-relaxed overflow-y-auto touch-scroll">
           <p className="text-slate-600 font-medium leading-relaxed">{step.description}</p>
 
-          <div className="bg-slate-50 rounded-2xl border border-slate-200 p-4 space-y-2.5">
+          <div className="bg-slate-50 rounded-2xl border border-slate-200 p-3.5 sm:p-4 space-y-2.5">
             <span className="text-[11px] font-bold text-slate-500 uppercase tracking-wider block">
               Puntos clave a recordar:
             </span>
@@ -284,7 +267,7 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
               {step.bulletPoints.map((point, idx) => (
                 <li key={idx} className="flex items-start gap-2">
                   <span className="mt-0.5 shrink-0 text-slate-900">•</span>
-                  <span>{point}</span>
+                  <span className="min-w-0 break-words">{point}</span>
                 </li>
               ))}
             </ul>
@@ -292,48 +275,51 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
         </div>
 
         {/* Pie del Tutorial con Controles */}
-        <div className="bg-slate-50 px-5 sm:px-7 py-4 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+        <div className="bg-slate-50 px-4 sm:px-7 py-3 sm:py-4 pb-[max(0.75rem,env(safe-area-inset-bottom))] border-t border-slate-200 flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-2.5 sm:gap-3 text-xs shrink-0">
           {/* Casilla: No volver a mostrar */}
           <label className="flex items-center gap-2 cursor-pointer select-none text-slate-600 hover:text-slate-900 font-medium">
             <input
               type="checkbox"
               checked={dontShowAgain}
               onChange={(e) => setDontShowAgain(e.target.checked)}
-              className="w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500 cursor-pointer"
+              className="w-4 h-4 text-blue-600 rounded border-slate-300 focus:ring-blue-500 cursor-pointer shrink-0"
             />
             <span>No volver a mostrar este tutorial</span>
           </label>
 
           {/* Botones de Navegación */}
-          <div className="flex items-center gap-2 w-full sm:w-auto justify-end">
-            <span className="text-[11px] font-bold text-slate-400 font-mono hidden sm:inline mr-1">
+          <div className="flex items-center gap-2 w-full sm:w-auto">
+            <span className="text-[11px] font-bold text-slate-400 font-mono hidden sm:inline mr-1 whitespace-nowrap">
               Paso {currentStep + 1} de {TUTORIAL_STEPS.length}
             </span>
 
             <button
               onClick={handleSkip}
-              className="px-3 py-2 text-slate-500 hover:text-slate-800 font-semibold rounded-xl hover:bg-slate-200/60 transition-colors cursor-pointer"
+              className="px-3 py-2 text-slate-500 hover:text-slate-800 font-semibold rounded-xl hover:bg-slate-200/60 transition-colors cursor-pointer whitespace-nowrap shrink-0"
             >
               {t('tutorial.skip')}
             </button>
 
-            {!isFirstStep && (
-              <button
-                onClick={handlePrev}
-                className="flex items-center gap-1 px-3 py-2 text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 font-bold rounded-xl transition-colors cursor-pointer shadow-2xs"
-              >
-                <ArrowLeft className="w-3.5 h-3.5" />
-                <span>{t('tutorial.prev')}</span>
-              </button>
-            )}
+            <div className="flex items-center gap-2 ml-auto">
+              {!isFirstStep && (
+                <button
+                  onClick={handlePrev}
+                  className="flex items-center gap-1 px-3 py-2 text-slate-700 bg-white border border-slate-300 hover:bg-slate-100 font-bold rounded-xl transition-colors cursor-pointer shadow-2xs whitespace-nowrap"
+                  aria-label={t('tutorial.prev')}
+                >
+                  <ArrowLeft className="w-3.5 h-3.5 shrink-0" />
+                  <span className="hidden min-[380px]:inline">{t('tutorial.prev')}</span>
+                </button>
+              )}
 
-            <button
-              onClick={handleNext}
-              className="flex items-center gap-1.5 px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 font-bold rounded-xl shadow-sm transition-all cursor-pointer"
-            >
-              <span>{isLastStep ? t('tutorial.finish') : t('tutorial.next')}</span>
-              <ArrowRight className="w-3.5 h-3.5" />
-            </button>
+              <button
+                onClick={handleNext}
+                className="flex items-center gap-1.5 px-4 py-2 text-white bg-blue-600 hover:bg-blue-700 font-bold rounded-xl shadow-sm transition-all cursor-pointer whitespace-nowrap"
+              >
+                <span>{isLastStep ? t('tutorial.finish') : t('tutorial.next')}</span>
+                <ArrowRight className="w-3.5 h-3.5 shrink-0" />
+              </button>
+            </div>
           </div>
         </div>
       </div>

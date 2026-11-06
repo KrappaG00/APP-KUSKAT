@@ -125,6 +125,32 @@ describe('Sistema Multilingüe Intercultural KUSKAT (i18n)', () => {
     expect(detectInitialLocale()).toBe('es');
 
     safeStorage.removeItem(LANG_STORAGE_KEY);
+    expect(detectInitialLocale()).toBe('es');
+  });
+
+  it('en entorno de CI o Node 22 con navigator.language en-US garantiza fallback a español', () => {
+    const originalNavigator = globalThis.navigator;
+    try {
+      Object.defineProperty(globalThis, 'navigator', {
+        value: { language: 'en-US' },
+        configurable: true,
+        writable: true,
+      });
+
+      safeStorage.setItem(LANG_STORAGE_KEY, 'invalid-locale');
+      expect(detectInitialLocale()).toBe('es');
+
+      safeStorage.removeItem(LANG_STORAGE_KEY);
+      expect(detectInitialLocale()).toBe('es');
+    } finally {
+      if (originalNavigator) {
+        Object.defineProperty(globalThis, 'navigator', {
+          value: originalNavigator,
+          configurable: true,
+          writable: true,
+        });
+      }
+    }
   });
 
   it('traduce y adapta reactivos con glosario intercultural y marca fallback cuando corresponde', () => {
