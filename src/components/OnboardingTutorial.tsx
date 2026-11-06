@@ -25,14 +25,14 @@ interface OnboardingTutorialProps {
 export const TUTORIAL_STEPS: TutorialStep[] = [
   {
     step: 1,
-    title: 'Elige tu Idioma Intercultural, Institución, Materia & Portal 3D / 2D',
+    title: 'Elige tu Idioma Intercultural, Institución, Materia & Portal de Inicio',
     subtitle: 'Sistema multilingüe en 7 lenguas, accesibilidad WCAG 2.2 AA y 34,440 preguntas oficiales',
-    badge: 'Paso 1 de 6 • Idioma, Convocatorias & 3D',
+    badge: 'Paso 1 de 6 • Idioma, Convocatorias & Inicio',
     description:
-      'KUSKAT (creado por Yeferson E. Perez) integra un Sistema Multilingüe Intercultural persistente (Español, Náhuat, Lenca, Kakawira, English, العربية con soporte RTL y 中文) junto a un banco maestro de 34,440 preguntas de selección múltiple y un Portal 3D con alternativa 2D accesible.',
+      'KUSKAT (creado por Yeferson E. Perez) integra un Sistema Multilingüe Intercultural persistente (Español, Náhuat, Lenca, Kakawira, English, العربية con soporte RTL y 中文) junto a un banco maestro de 34,440 preguntas de selección múltiple y un Portal de Inicio con presentación del equipo KUSKAT.',
     bulletPoints: [
-      '🌐 Selector de Idioma Intercultural (kuskat.lang): Cambia sin recargar la página entre Español, Náhuat, Lenca, Kakawira, Inglés, Árabe (RTL) y Mandarín desde la cabecera, el Portal 3D o este tutorial.',
-      '♿ Portal 3D + Vista 2D Accesible: Explora el mapa interactivo 3D de El Salvador o activa el botón "Saltar experiencia 3D (Vista 2D accesible)" para navegar por teclado los 14 departamentos.',
+      '🌐 Selector de Idioma Intercultural (kuskat.lang): Cambia sin recargar la página entre Español, Náhuat, Lenca, Kakawira, Inglés, Árabe (RTL) y Mandarín desde la cabecera, el Portal de Inicio o este tutorial.',
+      '🏛️ Portal de Inicio (con Vista 2D Accesible): Conoce al equipo de desarrollo, los cursos destacados y las estadísticas del proyecto.',
       '🎓 Admisión UES (7,500 reactivos): Matemática, Física, Química, Biología, Ciencias Sociales y Lenguaje.',
       '📜 Escalafón Docente (3,300 reactivos): Ascenso al Nivel Uno 2026 MINED en Formación General y 10 Especialidades.',
       '📘 Prueba AVANZO (3,000 reactivos): Bachillerato MINED en Precálculo, Ciudadanía y Valores, Ciencia y Tecnología, Lengua e Inglés.',

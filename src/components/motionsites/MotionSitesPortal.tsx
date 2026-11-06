@@ -6,7 +6,7 @@ import { AboutUs3D } from './AboutUs3D';
 import { CallToActionFinal3D } from './CallToActionFinal3D';
 import { CustomCursor3D } from './CustomCursor3D';
 import { FloatingParticlesBackground } from './FloatingParticlesBackground';
-import { AdBanner } from '../AdBanner';
+
 import { useTranslation } from '../../i18n';
 import { Institution } from '../../data';
 import { HeaderNavbar, AppPageTab } from '../HeaderNavbar';
@@ -15,7 +15,6 @@ import type { LegalTab } from '../LegalModal';
 import {
   Rocket,
   Users,
-  UserCheck,
 } from 'lucide-react';
 
 interface MotionSitesPortalProps {
@@ -135,41 +134,36 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
         currentUser={currentUser || null}
       />
 
-      {/* Anuncio 1 / 3 (Portal 3D • Superior) */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 pt-3">
-        <AdBanner variant="light" positionLabel="Portal 3D • 1/3 Superior" slotId="4241045160_p1" />
-      </div>
 
       {/* ==================================================================== */}
-      {/* 2. PRESENTACIÓN DEL EQUIPO DEL PROYECTO KUSKAT (5 ESPACIOS)        */}
+      {/* 2. PRESENTACIÓN DEL FUNDADOR DEL PROYECTO KUSKAT                    */}
       {/* ==================================================================== */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12" aria-label="Presentación del Equipo KUSKAT">
-        <div className="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-8 lg:p-10 shadow-corporate-subtle space-y-8">
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12" aria-label="Portal de Inicio - Fundador KUSKAT">
+        <div className="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-8 lg:p-10 shadow-corporate-subtle space-y-6 sm:space-y-8">
           {/* Encabezado de la Sección */}
-          <div className="text-center max-w-3xl mx-auto space-y-2.5">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200/80">
+          <div className="text-center max-w-2xl mx-auto space-y-2.5">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200/80 shadow-2xs">
               <Users className="w-3.5 h-3.5 text-blue-600" />
-              <span>Equipo Multidisciplinario KUSKAT</span>
+              <span>Dirección & Fundador KUSKAT</span>
             </div>
             <h2 className="font-montenegrin text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight">
-              Presentación del Equipo
+              Presentación del Fundador
             </h2>
-            <p className="text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Profesionales, educadores y colaboradores comprometidos con la transformación pedagógica, el acceso abierto a la educación superior y la excelencia académica en El Salvador.
+            <p className="font-caslon text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Liderazgo pedagógico y tecnológico comprometido con la democratización educativa, el acceso abierto a la educación superior y la excelencia académica en El Salvador.
             </p>
           </div>
 
-          {/* Grilla de 5 Espacios del Equipo */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4 sm:gap-5">
-            {/* Espacio 1: Fundador */}
-            <div className="bg-gradient-to-b from-[#FAF9F5] to-white rounded-2xl border-2 border-[#C59B27]/40 p-5 shadow-corporate-subtle flex flex-col items-center text-center relative overflow-hidden group hover:border-[#0B1B3D] transition-all">
-              <div className="absolute top-2.5 right-2.5">
-                <span className="px-2 py-0.5 rounded-md bg-[#0B1B3D] text-[#C59B27] text-[9.5px] font-mono font-bold uppercase tracking-wider border border-[#C59B27]/30">
+          {/* Tarjeta Exclusiva del Fundador: Yeferson E. Perez */}
+          <div className="max-w-lg mx-auto w-full">
+            <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-[#C59B27]/40 p-6 sm:p-8 shadow-corporate-subtle flex flex-col items-center text-center relative overflow-hidden group hover:border-[#0B1B3D] transition-all duration-300">
+              <div className="absolute top-3.5 right-3.5">
+                <span className="px-2.5 py-1 rounded-md bg-[#0B1B3D] text-[#C59B27] text-[10px] font-mono font-bold uppercase tracking-wider border border-[#C59B27]/30 shadow-2xs">
                   Fundador
                 </span>
               </div>
 
-              <div className="w-24 h-24 rounded-2xl overflow-hidden border-2 border-[#C59B27] shadow-md mb-3.5 bg-slate-100 shrink-0 mt-3 group-hover:scale-105 transition-transform">
+              <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl overflow-hidden border-2 border-[#C59B27] shadow-md mb-4 bg-slate-100 shrink-0 mt-2 group-hover:scale-105 transition-transform duration-300">
                 <img
                   src="/yeferson_perez.jpg"
                   alt="Yeferson E. Perez - Fundador KUSKAT"
@@ -177,106 +171,19 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                 />
               </div>
 
-              <h3 className="font-editorial text-lg font-bold text-[#0B1B3D]">
+              <h3 className="font-editorial text-xl sm:text-2xl font-bold text-[#0B1B3D] tracking-tight">
                 Yeferson E. Perez
               </h3>
-              <p className="text-xs font-semibold text-blue-700 mt-0.5">
+              <p className="text-xs sm:text-sm font-semibold text-blue-700 mt-1">
                 Fundador & Desarrollador Principal
               </p>
-              <p className="text-[11px] text-slate-600 mt-2 leading-relaxed">
-                Dirección general del proyecto, desarrollo de la plataforma tecnológica y arquitectura pedagógica de KUSKAT.
+              <p className="font-caslon text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed max-w-md">
+                Dirección general del proyecto, desarrollo integral de la plataforma tecnológica y arquitectura pedagógica de KUSKAT para El Salvador.
               </p>
-            </div>
 
-            {/* Espacio 2: Colaborador */}
-            <div className="bg-slate-50/70 rounded-2xl border-2 border-dashed border-slate-300 p-5 flex flex-col items-center text-center justify-between min-h-[260px] hover:bg-slate-50 transition-colors">
-              <div className="w-full flex justify-end">
-                <span className="px-2 py-0.5 rounded-md bg-slate-200 text-slate-600 text-[9px] font-mono font-semibold uppercase">
-                  Espacio 2
-                </span>
-              </div>
-              <div className="flex flex-col items-center my-auto space-y-3">
-                <div className="w-20 h-20 rounded-2xl bg-slate-200/80 border border-slate-300 flex items-center justify-center text-slate-400">
-                  <UserCheck className="w-8 h-8 text-slate-400" />
-                </div>
-                <div className="space-y-1">
-                  <h4 className="text-xs font-bold text-slate-700">Persona Colaboradora</h4>
-                  <p className="text-[11px] text-slate-500 italic leading-snug px-2">
-                    Esperando aprobación para el uso de imagen de la persona colaboradora.
-                  </p>
-                </div>
-              </div>
-              <div className="w-full pt-2 border-t border-slate-200/60 text-[10px] text-slate-400 font-mono">
-                KUSKAT Colaboración
-              </div>
-            </div>
-
-            {/* Espacio 3: Colaborador */}
-            <div className="bg-slate-50/70 rounded-2xl border-2 border-dashed border-slate-300 p-5 flex flex-col items-center text-center justify-between min-h-[260px] hover:bg-slate-50 transition-colors">
-              <div className="w-full flex justify-end">
-                <span className="px-2 py-0.5 rounded-md bg-slate-200 text-slate-600 text-[9px] font-mono font-semibold uppercase">
-                  Espacio 3
-                </span>
-              </div>
-              <div className="flex flex-col items-center my-auto space-y-3">
-                <div className="w-20 h-20 rounded-2xl bg-slate-200/80 border border-slate-300 flex items-center justify-center text-slate-400">
-                  <UserCheck className="w-8 h-8 text-slate-400" />
-                </div>
-                <div className="space-y-1">
-                  <h4 className="text-xs font-bold text-slate-700">Persona Colaboradora</h4>
-                  <p className="text-[11px] text-slate-500 italic leading-snug px-2">
-                    Esperando aprobación para el uso de imagen de la persona colaboradora.
-                  </p>
-                </div>
-              </div>
-              <div className="w-full pt-2 border-t border-slate-200/60 text-[10px] text-slate-400 font-mono">
-                KUSKAT Colaboración
-              </div>
-            </div>
-
-            {/* Espacio 4: Colaborador */}
-            <div className="bg-slate-50/70 rounded-2xl border-2 border-dashed border-slate-300 p-5 flex flex-col items-center text-center justify-between min-h-[260px] hover:bg-slate-50 transition-colors">
-              <div className="w-full flex justify-end">
-                <span className="px-2 py-0.5 rounded-md bg-slate-200 text-slate-600 text-[9px] font-mono font-semibold uppercase">
-                  Espacio 4
-                </span>
-              </div>
-              <div className="flex flex-col items-center my-auto space-y-3">
-                <div className="w-20 h-20 rounded-2xl bg-slate-200/80 border border-slate-300 flex items-center justify-center text-slate-400">
-                  <UserCheck className="w-8 h-8 text-slate-400" />
-                </div>
-                <div className="space-y-1">
-                  <h4 className="text-xs font-bold text-slate-700">Persona Colaboradora</h4>
-                  <p className="text-[11px] text-slate-500 italic leading-snug px-2">
-                    Esperando aprobación para el uso de imagen de la persona colaboradora.
-                  </p>
-                </div>
-              </div>
-              <div className="w-full pt-2 border-t border-slate-200/60 text-[10px] text-slate-400 font-mono">
-                KUSKAT Colaboración
-              </div>
-            </div>
-
-            {/* Espacio 5: Colaborador */}
-            <div className="bg-slate-50/70 rounded-2xl border-2 border-dashed border-slate-300 p-5 flex flex-col items-center text-center justify-between min-h-[260px] hover:bg-slate-50 transition-colors">
-              <div className="w-full flex justify-end">
-                <span className="px-2 py-0.5 rounded-md bg-slate-200 text-slate-600 text-[9px] font-mono font-semibold uppercase">
-                  Espacio 5
-                </span>
-              </div>
-              <div className="flex flex-col items-center my-auto space-y-3">
-                <div className="w-20 h-20 rounded-2xl bg-slate-200/80 border border-slate-300 flex items-center justify-center text-slate-400">
-                  <UserCheck className="w-8 h-8 text-slate-400" />
-                </div>
-                <div className="space-y-1">
-                  <h4 className="text-xs font-bold text-slate-700">Persona Colaboradora</h4>
-                  <p className="text-[11px] text-slate-500 italic leading-snug px-2">
-                    Esperando aprobación para el uso de imagen de la persona colaboradora.
-                  </p>
-                </div>
-              </div>
-              <div className="w-full pt-2 border-t border-slate-200/60 text-[10px] text-slate-400 font-mono">
-                KUSKAT Colaboración
+              <div className="mt-5 pt-4 border-t border-slate-200/70 w-full flex items-center justify-center gap-2 text-[11px] font-mono text-slate-500">
+                <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block animate-pulse" />
+                <span>KUSKAT • Educación Superior Abierta</span>
               </div>
             </div>
           </div>
@@ -286,12 +193,19 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
       {/* ==================================================================== */}
       {/* 3. CURSOS DESTACADOS */}
       {/* ==================================================================== */}
-      <Courses3DSection onEnroll={(inst) => triggerStudyTransition(inst)} />
+      <Courses3DSection
+        onEnroll={(inst) => triggerStudyTransition(inst)}
+        onSelectTab={(tab) => {
+          if (tab === 'practice') {
+            triggerStudyTransition();
+          } else if (tab === 'categories') {
+            onOpenCategories();
+          } else if (onSelectTab) {
+            onSelectTab(tab);
+          }
+        }}
+      />
 
-      {/* Anuncio 2 / 3 (Portal 3D • Intermedio) */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2">
-        <AdBanner variant="light" positionLabel="Portal 3D • 2/3 Intermedio" slotId="4241045160_p2" />
-      </div>
 
       {/* ==================================================================== */}
       {/* 4. LOGROS Y ESTADÍSTICAS */}
@@ -308,10 +222,6 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
       {/* ==================================================================== */}
       <CallToActionFinal3D onStartJourney={() => triggerStudyTransition()} />
 
-      {/* Anuncio 3 / 3 (Portal 3D • Inferior) */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3">
-        <AdBanner variant="light" positionLabel="Portal 3D • 3/3 Inferior" slotId="4241045160_p3" />
-      </div>
 
       {/* ==================================================================== */}
       {/* 7. PIE DE PÁGINA */}

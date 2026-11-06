@@ -83,9 +83,17 @@ export const AdBanner: React.FC<AdBannerProps> = ({
       const isInsideEmptyState = Boolean(
         container.closest('[data-empty-state="true"], [data-empty="true"], .empty-state')
       );
+      const isInsideLoading = Boolean(
+        container.closest('[data-loading="true"], .animate-pulse')
+      );
       const isHidden = container.offsetParent === null && container.offsetWidth === 0 && container.offsetHeight === 0;
 
-      if (isInsideModal || isInsideEmptyState || isHidden) {
+      // Evaluar si la página en su totalidad aún no tiene contenido sustantivo (>50 palabras)
+      const pageText = typeof document !== 'undefined' && document.body ? document.body.innerText || '' : '';
+      const totalWords = countSubstantiveWords(pageText);
+      const isPageUnderpopulated = totalWords < 50;
+
+      if (isInsideModal || isInsideEmptyState || isInsideLoading || isHidden || isPageUnderpopulated) {
         setIsSuppressedByDom(true);
         return;
       }

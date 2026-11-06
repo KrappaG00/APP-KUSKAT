@@ -213,7 +213,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
   return (
     <div
       ref={containerRef}
-      className={`relative inline-flex items-center gap-1.5 ${className}`}
+      className={`relative inline-flex items-center gap-1.5 shrink-0 ${className}`}
       onKeyDown={handleKeyDown}
     >
       {/* Botón rápido de Modo Aprender Español cuando el idioma no es Español */}
@@ -223,7 +223,7 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
           onClick={toggleLearnSpanishMode}
           aria-pressed={learnSpanishMode}
           title={t('switcher.learnSpanishDesc')}
-          className={`hidden xl:inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl text-[11px] font-bold transition-all cursor-pointer border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400 ${
+          className={`hidden xl:inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl text-[11px] font-bold transition-all cursor-pointer border focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400 shrink-0 ${
             learnSpanishMode
               ? 'bg-emerald-500 text-slate-950 border-emerald-400 shadow-sm'
               : 'bg-slate-800/90 text-emerald-300 border-emerald-500/30 hover:bg-slate-800'
@@ -240,15 +240,15 @@ export const LanguageSwitcher: React.FC<LanguageSwitcherProps> = ({
         aria-expanded={isOpen}
         aria-label={`${t('switcher.label')}: ${languageMeta.nativeName}`}
         onClick={() => setIsOpen((prev) => !prev)}
-        className="inline-flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-1 sm:py-1.5 min-h-[34px] sm:min-h-[38px] rounded-xl bg-slate-800/90 hover:bg-slate-700/90 text-white border border-slate-600/80 text-xs font-bold transition-all cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 shrink-0"
+        className="inline-flex items-center gap-1 sm:gap-1.5 px-2 sm:px-2.5 py-1 sm:py-1.5 min-h-[34px] sm:min-h-[38px] rounded-xl bg-slate-800/90 hover:bg-slate-700/90 text-white border border-slate-600/80 text-xs font-bold transition-all cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 shrink-0 whitespace-nowrap"
       >
         <Globe className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-        <span className="px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 font-mono text-[10px] font-extrabold">
+        <span className="px-1.5 py-0.5 rounded bg-amber-500/20 text-amber-300 font-mono text-[10px] font-extrabold shrink-0">
           {languageMeta.monogram}
         </span>
-        <span className="hidden sm:inline max-w-[96px] sm:max-w-[120px] truncate">{languageMeta.nativeName}</span>
+        <span className="hidden sm:inline max-w-[80px] lg:max-w-[70px] xl:max-w-[110px] truncate">{languageMeta.nativeName}</span>
         <ChevronDown
-          className={`w-3.5 h-3.5 text-slate-300 transition-transform ${
+          className={`w-3.5 h-3.5 text-slate-300 transition-transform shrink-0 ${
             isOpen ? 'rotate-180' : ''
           }`}
         />

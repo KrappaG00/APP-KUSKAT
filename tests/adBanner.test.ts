@@ -27,14 +27,11 @@ describe('Verificación de Integración de Google AdSense y Regla de 2 a 3 Anunc
     expect(code).toContain('ANUNCIO PATROCINADO POR GOOGLE ADS');
   });
 
-  it('Página 1 (Portal 3D): cumple con la regla de 2 a 3 anuncios (exactamente 3 anuncios)', () => {
+  it('Página 1 (Portal de Inicio): no contiene ningún anuncio (solicitud expresa del usuario: 0 anuncios)', () => {
     expect(fs.existsSync(portalPath)).toBe(true);
     const code = fs.readFileSync(portalPath, 'utf-8');
     const matches = code.match(/<AdBanner\b/g);
-    expect(matches).not.toBeNull();
-    expect(matches!.length).toBeGreaterThanOrEqual(2);
-    expect(matches!.length).toBeLessThanOrEqual(3);
-    expect(matches!.length).toBe(3);
+    expect(matches).toBeNull();
   });
 
   it('Página 2 (Categorías): cumple con la regla de 2 a 3 anuncios (exactamente 3 anuncios)', () => {

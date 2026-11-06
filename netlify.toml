@@ -1,0 +1,19 @@
+# ==============================================================================
+# KUSKAT — Netlify Configuration
+# Configuración oficial de despliegue, Edge Functions y Geo-bloqueo
+# ==============================================================================
+
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+# Edge Function para filtrado geográfico preventivo
+[[edge_functions]]
+  path = "/*"
+  function = "geo-block"
+
+# Fallback SPA routing para rutas cliente
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

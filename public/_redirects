@@ -1,0 +1,19 @@
+# ==============================================================================
+# KUSKAT — Netlify Geo-Redirection & Whitelist Policy
+# Permite exclusivamente: Todo América, El Caribe, España, Portugal, Francia,
+# Alemania, Suiza, Italia, Rumania y Australia. Resto del mundo: 403 Forbidden.
+# ==============================================================================
+
+# 1. Archivos estáticos indispensables y endpoints de verificación
+/ads.txt              /ads.txt              200
+/robots.txt           /robots.txt           200
+/sitemap.xml          /sitemap.xml          200
+/favicon.png          /favicon.png          200
+/kuskat_logo.png      /kuskat_logo.png      200
+/geo-blocked.html     /geo-blocked.html     200
+
+# 2. Acceso permitido a países autorizados (América, Caribe, España, Portugal, Francia, Alemania, Suiza, Italia, Rumania, Australia)
+/*    /index.html    200    Country=us,ca,mx,gl,bm,pm,sv,gt,hn,ni,cr,pa,bz,cu,do,ht,pr,jm,bs,tt,bb,lc,vc,gd,ag,dm,kn,cw,aw,sx,ky,tc,vg,vi,mq,gp,ai,ms,bl,mf,bq,co,ve,ec,pe,bo,cl,ar,uy,py,br,gy,sr,gf,fk,es,pt,fr,de,ch,it,ro,au
+
+# 3. Resto del mundo bloqueado automáticamente con 403 Forbidden
+/*    /geo-blocked.html    403!

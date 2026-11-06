@@ -212,9 +212,9 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
         {
           id: 'motionsites3d',
           title: t('nav.portal3d'),
-          subtitle: 'Portal interactivo 3D y 2D de los 14 departamentos salvadoreños',
+          subtitle: 'Portal de bienvenida y presentación del equipo KUSKAT',
           icon: <Sparkles className="w-4 h-4 text-[#C59B27]" />,
-          badge: '3D / 2D',
+          badge: 'Inicio',
           badgeColor: 'bg-[#F4F3ED] text-[#1E293B] border-[#E2E0D5]',
           action: () => navigateTo('motionsites3d'),
           isActive: activeTab === 'motionsites3d',
@@ -567,7 +567,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
           <div
             onClick={() => navigateTo('motionsites3d')}
             className="flex items-center gap-1.5 sm:gap-2.5 min-w-0 cursor-pointer select-none group shrink-0"
-            title="Ir al Portal 3D Principal"
+            title="Ir al Portal de Inicio"
           >
             <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-xl bg-[#FAF9F5] border border-[#E5E3D8] shadow-corporate-subtle flex items-center justify-center p-1 sm:p-1.5 shrink-0 overflow-hidden group-hover:border-[#0B1B3D] transition-colors">
               <img
@@ -596,7 +596,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
           {/* ================================================================ */}
           <div
             ref={navContainerRef}
-            className="hidden lg:flex items-center gap-1.5 xl:gap-2 min-w-0"
+            className="hidden lg:flex items-center gap-1.5 xl:gap-2 shrink-0"
           >
             <nav
               aria-label="Navegación principal por pilares académicos"
@@ -701,7 +701,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
               <button
                 type="button"
                 onClick={onToggle2DAccessible}
-                className="flex items-center gap-1 px-2 py-1.5 rounded-lg border border-amber-300 bg-amber-50 hover:bg-amber-100 text-amber-900 text-xs font-bold transition-all cursor-pointer shadow-2xs"
+                className="flex items-center gap-1 px-2 py-1.5 rounded-lg border border-amber-300 bg-amber-50 hover:bg-amber-100 text-amber-900 text-xs font-bold transition-all cursor-pointer shadow-2xs shrink-0"
                 title="Alternar entre mapa interactivo 3D y vista accesible 2D"
               >
                 {is2DAccessibleMode ? (
@@ -718,37 +718,40 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
               </button>
             )}
 
-            {/* Selector de Idioma Intercultural */}
-            <LanguageSwitcher variant="compact" />
+            {/* Controles de Acción (Idioma y Cuenta) agrupados con shrink-0 para evitar cualquier solapamiento */}
+            <div className="flex items-center gap-1.5 xl:gap-2 shrink-0">
+              {/* Selector de Idioma Intercultural */}
+              <LanguageSwitcher variant="compact" className="shrink-0" />
 
-            {/* Botón de Cuenta */}
-            <button
-              type="button"
-              onClick={onOpenAccountModal}
-              className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border text-xs font-bold transition-all cursor-pointer shadow-2xs ${
-                currentUser
-                  ? 'border-emerald-300 bg-emerald-50 text-emerald-900 hover:bg-emerald-100'
-                  : 'border-[#0B1B3D]/30 bg-[#FAF9F5] text-[#0B1B3D] hover:bg-[#F2F1EA]'
-              }`}
-              title={currentUser ? `Cuenta activa: ${currentUser.username}` : 'Iniciar sesión o ver notas'}
-            >
-              <UserCheck className="w-3.5 h-3.5 text-blue-600" />
-              {currentUser ? (
-                <span className="flex items-center gap-1">
-                  <span className="truncate max-w-[80px]">{currentUser.username}</span>
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
-                </span>
-              ) : (
-                <span>{t('nav.account')}</span>
-              )}
-            </button>
+              {/* Botón de Cuenta */}
+              <button
+                type="button"
+                onClick={onOpenAccountModal}
+                className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border text-xs font-bold transition-all cursor-pointer shadow-2xs shrink-0 whitespace-nowrap ${
+                  currentUser
+                    ? 'border-emerald-300 bg-emerald-50 text-emerald-900 hover:bg-emerald-100'
+                    : 'border-[#0B1B3D]/30 bg-[#FAF9F5] text-[#0B1B3D] hover:bg-[#F2F1EA]'
+                }`}
+                title={currentUser ? `Cuenta activa: ${currentUser.username}` : 'Iniciar sesión o ver notas'}
+              >
+                <UserCheck className="w-3.5 h-3.5 text-blue-600 shrink-0" />
+                {currentUser ? (
+                  <span className="flex items-center gap-1 shrink-0">
+                    <span className="truncate max-w-[80px]">{currentUser.username}</span>
+                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse shrink-0" />
+                  </span>
+                ) : (
+                  <span className="shrink-0">{t('nav.account')}</span>
+                )}
+              </button>
+            </div>
           </div>
 
           {/* ================================================================ */}
           {/* CABECERA MÓVIL Y TABLET (< lg)                                   */}
           {/* ================================================================ */}
           <div className="flex lg:hidden items-center gap-1 sm:gap-2 shrink-0">
-            <LanguageSwitcher variant="compact" />
+            <LanguageSwitcher variant="compact" className="shrink-0" />
 
             <button
               type="button"
@@ -761,7 +764,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
               title={currentUser ? currentUser.username : t('nav.account')}
               aria-label={t('nav.account')}
             >
-              <UserCheck className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-blue-600" />
+              <UserCheck className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-blue-600 shrink-0" />
             </button>
 
             {/* Botón de Menú Móvil - SIEMPRE VISIBLE Y ADAPTABLE */}
