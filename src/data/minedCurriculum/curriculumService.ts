@@ -5,6 +5,8 @@ import {
   CurriculumUnit,
   GradeCurriculumData,
   GradeLevelId,
+  MinedOfficialResource,
+  MinedResourceDocType,
   PscerLesson,
   SubjectCurriculum,
   SubjectId,
@@ -21,23 +23,44 @@ import { GRADE_08_DATA } from './grades/grade08OctavoGrado';
 import { GRADE_09_DATA } from './grades/grade09NovenoGrado';
 import { GRADE_10_DATA } from './grades/grade10PrimerBach';
 import { GRADE_11_DATA } from './grades/grade11SegundoBach';
-import { generate50UnitQuestions, QuestionArchetype } from './grades/gradeHelpers';
+import { generate50UnitQuestions, QuestionArchetype, SUBJECT_CODE_MAP } from './grades/gradeHelpers';
+import { getAdditionalSubjectsForGrade, getMultiSubjectUnitQuestions } from './multiSubjectCurriculum';
+import {
+
+  getAllMinedResources,
+  getPrimeraInfanciaArticulationResources,
+  getResourcesByGrade,
+  getResourcesByGradeAndSubject,
+} from './minedResourcesManifest';
+
+function enrichGradeWithMultiSubjectAndResources(baseGrade: GradeCurriculumData): GradeCurriculumData {
+  const mathSubjects = baseGrade.subjects.map((subj) => ({
+    ...subj,
+    resources: getResourcesByGradeAndSubject(baseGrade.id, subj.id),
+  }));
+  const additionalSubjects = getAdditionalSubjectsForGrade(baseGrade.id);
+  return {
+    ...baseGrade,
+    subjects: [...mathSubjects, ...additionalSubjects],
+    resources: getResourcesByGrade(baseGrade.id),
+  };
+}
 
 /**
- * Registro de los 11 grados con sus datos curriculares detallados
+ * Registro de los 11 grados con sus datos curriculares detallados (7 asignaturas oficiales MINED y recursos descargables)
  */
 export const ALL_GRADES_DATA: Record<GradeLevelId, GradeCurriculumData> = {
-  '1-grado': GRADE_01_DATA,
-  '2-grado': GRADE_02_DATA,
-  '3-grado': GRADE_03_DATA,
-  '4-grado': GRADE_04_DATA,
-  '5-grado': GRADE_05_DATA,
-  '6-grado': GRADE_06_DATA,
-  '7-grado': GRADE_07_DATA,
-  '8-grado': GRADE_08_DATA,
-  '9-grado': GRADE_09_DATA,
-  '1-bachillerato': GRADE_10_DATA,
-  '2-bachillerato': GRADE_11_DATA,
+  '1-grado': enrichGradeWithMultiSubjectAndResources(GRADE_01_DATA),
+  '2-grado': enrichGradeWithMultiSubjectAndResources(GRADE_02_DATA),
+  '3-grado': enrichGradeWithMultiSubjectAndResources(GRADE_03_DATA),
+  '4-grado': enrichGradeWithMultiSubjectAndResources(GRADE_04_DATA),
+  '5-grado': enrichGradeWithMultiSubjectAndResources(GRADE_05_DATA),
+  '6-grado': enrichGradeWithMultiSubjectAndResources(GRADE_06_DATA),
+  '7-grado': enrichGradeWithMultiSubjectAndResources(GRADE_07_DATA),
+  '8-grado': enrichGradeWithMultiSubjectAndResources(GRADE_08_DATA),
+  '9-grado': enrichGradeWithMultiSubjectAndResources(GRADE_09_DATA),
+  '1-bachillerato': enrichGradeWithMultiSubjectAndResources(GRADE_10_DATA),
+  '2-bachillerato': enrichGradeWithMultiSubjectAndResources(GRADE_11_DATA),
 };
 
 /**
@@ -66,14 +89,39 @@ export function getSubject(
 }
 
 /**
- * Retorna una unidad curricular específica por su identificador
+ * Retorna los recursos oficiales descargables del MINED filtrados por grado, asignatura y tipo de documento
+ */
+export function getGradeOfficialResources(
+  gradeId: GradeLevelId,
+  subjectId?: SubjectId | 'ALL',
+  docType?: MinedResourceDocType | 'ALL'
+): MinedOfficialResource[] {
+  const base =
+    !subjectId || subjectId === 'ALL'
+      ? getResourcesByGrade(gradeId)
+      : getResourcesByGradeAndSubject(gradeId, subjectId);
+  if (!docType || docType === 'ALL') return base;
+  return base.filter((r) => r.docType === docType);
+}
+
+/**
+ * Retorna una unidad curricular específica por su identificador (canónico o legado)
  */
 export function getUnit(gradeId: GradeLevelId, unitId: string): CurriculumUnit | undefined {
   const grade = getGradeDetail(gradeId);
   if (!grade) return undefined;
 
+  let normalizedId = unitId;
+  const legacyMatch = unitId.match(/^(?:[1-9]-grado|[12]-bachillerato)-([a-z]+)-u0?([12])$/i);
+  if (legacyMatch) {
+    const slug = legacyMatch[1].toLowerCase();
+    const num = legacyMatch[2];
+    const sg = gradeId.replace('-grado', 'g').replace('-bachillerato', 'b');
+    normalizedId = `mined-${slug}-${sg}-u0${num}`;
+  }
+
   for (const subject of grade.subjects) {
-    const unit = subject.units.find((u) => u.id === unitId);
+    const unit = subject.units.find((u) => u.id === unitId || u.id === normalizedId);
     if (unit) return unit;
   }
   return undefined;
@@ -91,11 +139,27 @@ export function getUnitLessons(gradeId: GradeLevelId, unitId: string): PscerLess
  * Generador contextual de respaldo para unidades que no poseen banco estático predefinido,
  * garantizando que CUALQUIER unidad seleccionada pueda iniciar un simulador de 50 preguntas.
  */
-function buildFallback50Questions(unit: CurriculumUnit, gradeId: GradeLevelId): UnitQuestion[] {
+export function buildFallback50Questions(
+  unit: CurriculumUnit,
+  gradeId: GradeLevelId,
+  subjectIdOverride?: SubjectId
+): UnitQuestion[] {
   const gradeCode = gradeId.replace('-grado', 'G').replace('-bachillerato', 'B').toUpperCase();
-  const bookName = gradeId.includes('bachillerato')
-    ? `MINED ESMATE ${gradeId === '1-bachillerato' ? '1°' : '2°'} Bachillerato`
-    : `MINED ESMATE ${gradeId.charAt(0)}° Grado`;
+  const subjectId: SubjectId = subjectIdOverride || unit.subjectId || 'matematica-esmate';
+  const subjectCode = SUBJECT_CODE_MAP[subjectId] || 'MAT';
+  const gradeDisplay = gradeId.includes('bachillerato')
+    ? `${gradeId === '1-bachillerato' ? '1°' : '2°'} Bachillerato`
+    : `${gradeId.charAt(0)}° Grado`;
+  const subjectBookLabel: Record<SubjectId, string> = {
+    'matematica-esmate': 'MINED ESMATE',
+    'lenguaje-eslengua': 'MINED ESLENGUA',
+    'ciencia-tecnologia': 'MINED Ciencia y Tecnología',
+    'ciudadania-valores': 'MINED Ciudadanía y Valores',
+    'educacion-artistica': 'MINED Educación Artística',
+    'educacion-fisica': 'MINED Educación Física',
+    'educacion-financiera': 'MINED Educación Financiera',
+  };
+  const bookName = `${subjectBookLabel[subjectId] || 'MINED ESMATE'} ${gradeDisplay}`;
 
   const fallbackArchetypes: QuestionArchetype[] = [
     {
@@ -178,7 +242,9 @@ function buildFallback50Questions(unit: CurriculumUnit, gradeId: GradeLevelId): 
     unit.unitNumber,
     unit.title,
     bookName,
-    fallbackArchetypes
+    fallbackArchetypes,
+    subjectId,
+    subjectCode
   );
 }
 
@@ -194,9 +260,16 @@ export function getUnitQuestions(gradeId: GradeLevelId, unitId: string): UnitQue
     return unit.questions;
   }
 
+  // Si pertenece a una asignatura multi-materia oficial MINED, genera su banco específico de 50 reactivos
+  const multiSubjectQuestions = getMultiSubjectUnitQuestions(gradeId, unitId);
+  if (multiSubjectQuestions && multiSubjectQuestions.length >= 50) {
+    return multiSubjectQuestions;
+  }
+
   // Genera dinámicamente un banco evaluativo robusto de 50 reactivos para garantizar la cobertura total
   return buildFallback50Questions(unit, gradeId);
 }
+
 
 /**
  * Retorna todas las unidades que cuentan con banco evaluativo formal
@@ -223,18 +296,28 @@ export function getEvaluatedUnits(): { gradeId: GradeLevelId; gradeName: string;
 }
 
 /**
- * Retorna todas las unidades oficiales de todos los grados
+ * Retorna las unidades oficiales de todos los grados.
+ * Por compatibilidad con el contrato de auditoría ESMATE (97 unidades base), cuando se invoca
+ * sin argumentos retorna las unidades de Matemática (ESMATE). Si se pasa `{ includeAllSubjects: true }`
+ * o un `subjectId` específico, retorna las unidades correspondientes a todas las asignaturas o la asignatura indicada.
  */
-export function getAllUnits(): { gradeId: GradeLevelId; gradeName: string; unit: CurriculumUnit }[] {
-  const result: { gradeId: GradeLevelId; gradeName: string; unit: CurriculumUnit }[] = [];
+export function getAllUnits(options?: {
+  includeAllSubjects?: boolean;
+  subjectId?: SubjectId;
+}): { gradeId: GradeLevelId; gradeName: string; subjectId: SubjectId; unit: CurriculumUnit }[] {
+  const result: { gradeId: GradeLevelId; gradeName: string; subjectId: SubjectId; unit: CurriculumUnit }[] = [];
+  const includeAll = options?.includeAllSubjects === true;
+  const targetSubjectId: SubjectId = options?.subjectId || 'matematica-esmate';
 
   for (const gradeId of Object.keys(ALL_GRADES_DATA) as GradeLevelId[]) {
     const grade = ALL_GRADES_DATA[gradeId];
     for (const subject of grade.subjects) {
+      if (!includeAll && subject.id !== targetSubjectId) continue;
       for (const unit of subject.units) {
         result.push({
           gradeId,
           gradeName: grade.name,
+          subjectId: subject.id,
           unit,
         });
       }
@@ -243,6 +326,19 @@ export function getAllUnits(): { gradeId: GradeLevelId; gradeName: string; unit:
 
   return result;
 }
+
+/**
+ * Retorna absolutamente todas las unidades curriculares de las 7 asignaturas oficiales MINED en los 11 grados (97 ESMATE + 132 multi-asignatura = 229 unidades)
+ */
+export function getAllMultiSubjectUnits(): {
+  gradeId: GradeLevelId;
+  gradeName: string;
+  subjectId: SubjectId;
+  unit: CurriculumUnit;
+}[] {
+  return getAllUnits({ includeAllSubjects: true });
+}
+
 
 /**
  * Motor de búsqueda global en tiempo real a través de todo el currículo MINED
@@ -345,6 +441,9 @@ export const curriculumService = {
   getGrades,
   getGradeDetail,
   getSubject,
+  getGradeOfficialResources,
+  getAllMinedResources,
+  getPrimeraInfanciaArticulationResources,
   getUnit,
   getUnitLessons,
   getUnitQuestions,
@@ -352,8 +451,10 @@ export const curriculumService = {
   searchCurriculum,
   getEvaluatedUnits,
   getAllUnits,
+  getAllMultiSubjectUnits,
   getUniversalQuestionsForUnit: getUnitQuestions,
 };
 
 export default curriculumService;
+
 

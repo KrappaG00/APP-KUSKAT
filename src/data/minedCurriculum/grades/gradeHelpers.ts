@@ -4,10 +4,21 @@ import {
   GradeLevelId,
   PscerLesson,
   PscerResuelveItem,
+  SubjectCode,
   SubjectId,
   TomoNumber,
   UnitQuestion,
 } from '../types';
+
+export const SUBJECT_CODE_MAP: Record<SubjectId, SubjectCode> = {
+  'matematica-esmate': 'MAT',
+  'lenguaje-eslengua': 'LEN',
+  'ciencia-tecnologia': 'CIE',
+  'ciudadania-valores': 'CIU',
+  'educacion-artistica': 'ART',
+  'educacion-fisica': 'EDF',
+  'educacion-financiera': 'FIN',
+};
 
 /**
  * Genera un valor numérico determinista a partir de un identificador de lección o unidad
@@ -119,6 +130,7 @@ export interface QuestionArchetype {
     options: [string, string, string, string];
     correctAnswer: AnswerOptionKey;
     explanation: string;
+    distractorRationales?: Record<AnswerOptionKey, string>;
   };
 }
 
@@ -180,6 +192,33 @@ function balanceQuestionOptions(
   };
 }
 
+function buildBalancedDistractorRationales(
+  balancedOptions: [string, string, string, string],
+  correctKey: AnswerOptionKey,
+  explanation: string,
+  unitTitle: string
+): Record<AnswerOptionKey, string> {
+  const keys: AnswerOptionKey[] = ['A', 'B', 'C', 'D'];
+  const distractorReasons = [
+    'Incurre en una omisión procedimental al no verificar las condiciones completas del planteamiento oficial.',
+    'Confunde la relación conceptual principal de la unidad con una propiedad secundaria o inversa.',
+    'Aplica un criterio parcial sin completar la comprobación analítica exigida por el programa del MINED.',
+  ];
+  const rationales = {} as Record<AnswerOptionKey, string>;
+  let dIdx = 0;
+  for (let i = 0; i < 4; i++) {
+    const k = keys[i];
+    const optText = balancedOptions[i];
+    if (k === correctKey) {
+      rationales[k] = `Opción fundamentada (${optText}): ${explanation}`;
+    } else {
+      rationales[k] = `Distractor incorrecto (${optText} en "${unitTitle}"): ${distractorReasons[dIdx % distractorReasons.length]}`;
+      dIdx++;
+    }
+  }
+  return rationales;
+}
+
 export function generate50UnitQuestions(
   unitId: string,
   gradeId: GradeLevelId,
@@ -187,7 +226,9 @@ export function generate50UnitQuestions(
   unitNum: number,
   unitTitle: string,
   bookRef: string,
-  archetypes: QuestionArchetype[]
+  archetypes: QuestionArchetype[],
+  subjectId: SubjectId = 'matematica-esmate',
+  subjectCode: SubjectCode = SUBJECT_CODE_MAP[subjectId] || 'MAT'
 ): UnitQuestion[] {
   const questions: UnitQuestion[] = [];
   const uStr = unitNum < 10 ? `0${unitNum}` : `${unitNum}`;
@@ -200,20 +241,28 @@ export function generate50UnitQuestions(
     const arch = archetypes[aIdx];
     for (let v = 0; v < variationsPerArch && qCount <= totalNeeded; v++) {
       const qNumStr = qCount < 10 ? `00${qCount}` : qCount < 100 ? `0${qCount}` : `${qCount}`;
-      const id = `MINED-MAT-${gradeCode}-U${uStr}-Q${qNumStr}`;
+      const id = `MINED-${subjectCode}-${gradeCode}-U${uStr}-Q${qNumStr}`;
       const gen = arch.generate(v + 1, qCount);
       const distinctOptions = ensureDistinctOptions(gen.options, gen.correctAnswer);
       const balanced = balanceQuestionOptions(distinctOptions, gen.correctAnswer, qCount);
+      const rationales = buildBalancedDistractorRationales(
+        balanced.options,
+        balanced.correctAnswer,
+        gen.explanation,
+        unitTitle
+      );
       questions.push({
         id,
         unitId,
         gradeId,
-        subjectId: 'matematica-esmate',
+        subjectId,
         statement: gen.statement,
         options: balanced.options,
         correctAnswer: balanced.correctAnswer,
         explanation: gen.explanation,
         officialBookRef: `${bookRef}, Unidad ${unitNum}: ${unitTitle}`,
+        distractorRationale: rationales,
+        distractorRationales: rationales,
       });
       qCount++;
     }
@@ -223,21 +272,29 @@ export function generate50UnitQuestions(
     const qCountCurrent = questions.length + 1;
     const qNumStr =
       qCountCurrent < 10 ? `00${qCountCurrent}` : qCountCurrent < 100 ? `0${qCountCurrent}` : `${qCountCurrent}`;
-    const id = `MINED-MAT-${gradeCode}-U${uStr}-Q${qNumStr}`;
+    const id = `MINED-${subjectCode}-${gradeCode}-U${uStr}-Q${qNumStr}`;
     const arch = archetypes[qCountCurrent % archetypes.length];
     const gen = arch.generate(qCountCurrent, qCountCurrent);
     const distinctOptions = ensureDistinctOptions(gen.options, gen.correctAnswer);
     const balanced = balanceQuestionOptions(distinctOptions, gen.correctAnswer, qCountCurrent);
+    const rationales = buildBalancedDistractorRationales(
+      balanced.options,
+      balanced.correctAnswer,
+      gen.explanation,
+      unitTitle
+    );
     questions.push({
       id,
       unitId,
       gradeId,
-      subjectId: 'matematica-esmate',
+      subjectId,
       statement: gen.statement,
       options: balanced.options,
       correctAnswer: balanced.correctAnswer,
       explanation: gen.explanation,
       officialBookRef: `${bookRef}, Unidad ${unitNum}: ${unitTitle}`,
+      distractorRationale: rationales,
+      distractorRationales: rationales,
     });
   }
 
@@ -258,13 +315,14 @@ export function createCurriculumUnit(
   competencies: string[],
   lessons: PscerLesson[],
   questions: UnitQuestion[] = [],
-  isEvaluated: boolean = questions.length >= 50
+  isEvaluated: boolean = questions.length >= 50,
+  subjectId: SubjectId = 'matematica-esmate'
 ): CurriculumUnit {
   return {
     id,
     unitNumber,
     title,
-    subjectId: 'matematica-esmate',
+    subjectId,
     gradeId,
     tomo,
     summary,

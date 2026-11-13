@@ -30,3 +30,6 @@ export { GRADE_09_DATA } from './grades/grade09NovenoGrado';
 export { GRADE_10_DATA } from './grades/grade10PrimerBach';
 export { GRADE_11_DATA } from './grades/grade11SegundoBach';
 export * from './grades/gradeHelpers';
+export * from './minedResourcesManifest';
+export * from './multiSubjectCurriculum';
+

@@ -6,6 +6,11 @@ import {
   Atom,
   Globe2,
   HeartHandshake,
+  Palette,
+  Activity,
+  Landmark,
+  Download,
+  Library,
   Search,
   Filter,
   Sparkles,
@@ -35,11 +40,16 @@ import {
   getGrades,
   getGradeDetail,
   getSubject,
+  getGradeOfficialResources,
   getUnit,
   getUnitLessons,
   getUnitQuestions,
   searchCurriculum,
 } from '../data/minedCurriculum/curriculumService';
+import {
+  getAllMinedResources,
+  getPrimeraInfanciaArticulationResources,
+} from '../data/minedCurriculum/minedResourcesManifest';
 import { MINED_CATALOG, MINED_SUBJECT_METADATA } from '../data/minedCurriculum/catalog';
 import type {
   GradeLevelId,
@@ -51,7 +61,10 @@ import type {
   UnitQuestion,
   CycleId,
   CurriculumSearchResult,
+  MinedOfficialResource,
+  MinedResourceDocType,
 } from '../data/minedCurriculum/types';
+
 
 export interface SubjectModule {
   id: string;
@@ -589,7 +602,28 @@ const SUBJECT_CONFIG: { id: SubjectId; name: string; icon: React.FC<{ className?
   { id: 'lenguaje-eslengua', name: 'Lengua y Literatura (ESLENGUA)', icon: BookOpen, emoji: '📖' },
   { id: 'ciencia-tecnologia', name: 'Ciencia y Tecnología', icon: Atom, emoji: '🔬' },
   { id: 'ciudadania-valores', name: 'Ciudadanía y Valores', icon: HeartHandshake, emoji: '🤝' },
+  { id: 'educacion-artistica', name: 'Educación Artística (Artes)', icon: Palette, emoji: '🎨' },
+  { id: 'educacion-fisica', name: 'Educación Física', icon: Activity, emoji: '🏃' },
+  { id: 'educacion-financiera', name: 'Finanzas y Economía', icon: Landmark, emoji: '🏦' },
 ];
+
+const DOC_TYPE_FILTERS: { id: MinedResourceDocType | 'ALL'; label: string }[] = [
+  { id: 'ALL', label: 'Todos los Documentos' },
+  { id: 'Libro de Texto', label: 'Libro de Texto' },
+  { id: 'Cuaderno de Ejercicios', label: 'Cuaderno de Ejercicios' },
+  { id: 'Guía Metodológica', label: 'Guía Metodológica' },
+  { id: 'Programa de Estudio', label: 'Programa de Estudio' },
+  { id: 'Cuadernillo', label: 'Cuadernillo' },
+  { id: 'Infografía', label: 'Infografía' },
+];
+
+function formatFileSize(bytes: number | null): string {
+  if (!bytes || bytes <= 0) return 'N/D';
+  if (bytes >= 1024 * 1024) {
+    return `${(bytes / (1024 * 1024)).toFixed(1)} MB`;
+  }
+  return `${Math.round(bytes / 1024)} KB`;
+}
 
 export const AcademicReinforcementView: React.FC = () => {
   // Navegación Curricular
@@ -601,6 +635,11 @@ export const AcademicReinforcementView: React.FC = () => {
   const [activeLessonId, setActiveLessonId] = useState<string | null>(null);
   const [revealedHints, setRevealedHints] = useState<Record<string, boolean>>({});
   const [revealedAnswers, setRevealedAnswers] = useState<Record<string, boolean>>({});
+
+  // Biblioteca Oficial Descargable MINED
+  const [selectedDocType, setSelectedDocType] = useState<MinedResourceDocType | 'ALL'>('ALL');
+  const [showAllGradeResources, setShowAllGradeResources] = useState<boolean>(false);
+  const [showPrimeraInfanciaOnly, setShowPrimeraInfanciaOnly] = useState<boolean>(false);
 
   // Búsqueda en tiempo real
   const [searchQuery, setSearchQuery] = useState<string>('');
@@ -640,6 +679,27 @@ export const AcademicReinforcementView: React.FC = () => {
     return currentSubject.units.filter((u) => u.tomo === selectedTomo);
   }, [currentSubject, selectedTomo]);
 
+  // Recursos oficiales descargables MINED para el grado y asignatura activos
+  const officialResourcesForView = useMemo(() => {
+    if (selectedGradeId === '1-grado' && showPrimeraInfanciaOnly) {
+      return getGradeOfficialResources('1-grado', 'ALL', selectedDocType).filter(
+        (r) => r.isArticulationPrimeraInfancia
+      );
+    }
+
+    const subjectHasResources =
+      getGradeOfficialResources(selectedGradeId, selectedSubjectId, 'ALL').length > 0;
+    const effectiveSubject: SubjectId | 'ALL' =
+      showAllGradeResources || !subjectHasResources ? 'ALL' : selectedSubjectId;
+
+    return getGradeOfficialResources(selectedGradeId, effectiveSubject, selectedDocType);
+  }, [selectedGradeId, selectedSubjectId, selectedDocType, showAllGradeResources, showPrimeraInfanciaOnly]);
+
+
+  const totalGradeResourcesCount = useMemo(() => {
+    return getGradeOfficialResources(selectedGradeId, 'ALL', 'ALL').length;
+  }, [selectedGradeId]);
+
   // Verificar si la materia cuenta con ambos tomos
   const hasMultipleTomos = useMemo(() => {
     if (!currentSubject) return false;
@@ -647,6 +707,7 @@ export const AcademicReinforcementView: React.FC = () => {
     const hasT2 = currentSubject.units.some((u) => u.tomo === 2);
     return hasT1 && hasT2;
   }, [currentSubject]);
+
 
   // Manejo de búsqueda en tiempo real
   useEffect(() => {
@@ -662,6 +723,12 @@ export const AcademicReinforcementView: React.FC = () => {
   // Manejo de cambio de grado
   const handleSelectGrade = (gradeId: GradeLevelId) => {
     setSelectedGradeId(gradeId);
+    setSelectedTomo(0);
+    setActiveLessonId(null);
+    setShowPrimeraInfanciaOnly(false);
+    setSimulatorOpen(false);
+    setSimPage(1);
+    setSimTimeRemaining(null);
     const cycle = CYCLES_CONFIG.find((c) => c.grades.some((g) => g.id === gradeId));
     if (cycle) {
       setSelectedCycleId(cycle.id);
@@ -781,12 +848,11 @@ export const AcademicReinforcementView: React.FC = () => {
     }));
   };
 
-  // Reintentar solo errores
+  // Reintentar solo errores (preservando simQuestionCount para sesiones posteriores)
   const handleRetryErrorsOnly = () => {
     const errorQuestions = questionsInSimulator.filter((q) => simAnswers[q.id] !== q.correctAnswer);
     if (errorQuestions.length === 0) return;
     setActiveSimQuestions(errorQuestions);
-    setSimQuestionCount(Math.min(errorQuestions.length, 50) as 10 | 25 | 50);
     setSimAnswers({});
     setSimSubmitted(false);
     setSimPage(1);
@@ -926,6 +992,11 @@ export const AcademicReinforcementView: React.FC = () => {
                   onClick={() => {
                     setSelectedSubjectId(subj.id);
                     setSelectedTomo(0);
+                    setActiveLessonId(null);
+                    setShowPrimeraInfanciaOnly(false);
+                    setSimulatorOpen(false);
+                    setSimPage(1);
+                    setSimTimeRemaining(null);
                     const detail = getGradeDetail(selectedGradeId);
                     const s = detail?.subjects.find((sub) => sub.id === subj.id);
                     if (s && s.units.length > 0) {
@@ -1037,9 +1108,158 @@ export const AcademicReinforcementView: React.FC = () => {
       </div>
 
       {/* =========================================================================
+          PILAR 2.5: BIBLIOTECA OFICIAL DESCARGABLE MINED (LIBROS, CUADERNOS, GUÍAS Y PROGRAMAS)
+         ========================================================================= */}
+      <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-4">
+        <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
+          <div className="space-y-1">
+            <div className="flex items-center gap-2 flex-wrap">
+              <Library className="w-4 h-4 text-blue-600" />
+              <h3 className="text-sm sm:text-base font-black text-slate-900">
+                Biblioteca Oficial Descargable MINED ({currentGradeDetail.name})
+              </h3>
+              <span className="text-[11px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
+                {officialResourcesForView.length} de {totalGradeResourcesCount} Documentos Oficiales
+              </span>
+            </div>
+            <p className="text-xs text-slate-600">
+              Libros de Texto, Cuadernos de Ejercicios, Guías Metodológicas, Programas de Estudio e Infografías oficiales del portal{' '}
+              <span className="font-mono font-semibold text-blue-700">mined.gob.sv</span> clasificados por año escolar y asignatura.
+            </p>
+          </div>
+
+          <div className="flex items-center gap-2 flex-wrap">
+            {selectedGradeId === '1-grado' && (
+              <button
+                type="button"
+                onClick={() => setShowPrimeraInfanciaOnly((prev) => !prev)}
+                className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer border ${
+                  showPrimeraInfanciaOnly
+                    ? 'bg-purple-600 text-white border-purple-700 shadow-2xs'
+                    : 'bg-purple-50 text-purple-800 border-purple-200 hover:bg-purple-100'
+                }`}
+              >
+                🌱 Articulación Primera Infancia / Parvularia (19)
+              </button>
+            )}
+            <button
+              type="button"
+              onClick={() => setShowAllGradeResources((prev) => !prev)}
+              className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all cursor-pointer border ${
+                showAllGradeResources
+                  ? 'bg-slate-900 text-white border-slate-950'
+                  : 'bg-slate-100 text-slate-700 border-slate-200 hover:bg-slate-200'
+              }`}
+            >
+              {showAllGradeResources
+                ? `Ver solo ${currentSubject.shortName || currentSubject.name}`
+                : `Ver todas las asignaturas de ${currentGradeDetail.name} (${totalGradeResourcesCount})`}
+            </button>
+          </div>
+        </div>
+
+        {/* Filtros por Tipo de Documento Oficial */}
+        <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none pt-1 border-t border-slate-100">
+          <Filter className="w-3.5 h-3.5 text-slate-400 shrink-0 mr-1" />
+          {DOC_TYPE_FILTERS.map((df) => {
+            const active = selectedDocType === df.id;
+            return (
+              <button
+                key={df.id}
+                type="button"
+                onClick={() => setSelectedDocType(df.id)}
+                className={`px-3 py-1 rounded-xl text-[11px] font-bold whitespace-nowrap transition-all cursor-pointer ${
+                  active
+                    ? 'bg-blue-600 text-white shadow-2xs'
+                    : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
+                }`}
+              >
+                {df.label}
+              </button>
+            );
+          })}
+        </div>
+
+        {/* Cuadrícula de Documentos Oficiales MINED */}
+        {officialResourcesForView.length === 0 ? (
+          <div className="p-4 rounded-2xl bg-slate-50 border border-slate-200 text-xs text-slate-600 flex items-center justify-between flex-wrap gap-2">
+            <span>
+              No hay documentos del tipo <strong>{selectedDocType}</strong> exclusivamente para esta vista filtrada.
+            </span>
+            <button
+              type="button"
+              onClick={() => {
+                setSelectedDocType('ALL');
+                setShowAllGradeResources(true);
+                setShowPrimeraInfanciaOnly(false);
+              }}
+              className="px-3 py-1 rounded-lg bg-blue-600 text-white font-bold hover:bg-blue-700 cursor-pointer"
+            >
+              Mostrar todos los documentos de {currentGradeDetail.name}
+            </button>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-h-96 overflow-y-auto pr-1">
+            {officialResourcesForView.map((doc) => (
+              <div
+                key={doc.id}
+                className="p-3.5 rounded-2xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-blue-300 hover:shadow-xs transition-all flex flex-col justify-between gap-2.5"
+              >
+                <div className="space-y-1.5">
+                  <div className="flex items-center justify-between gap-1.5 flex-wrap">
+                    <span className="px-2 py-0.5 rounded-md bg-blue-100 text-blue-900 font-bold text-[10px]">
+                      {doc.docType}
+                    </span>
+                    <span className="px-2 py-0.5 rounded-md bg-slate-200/80 text-slate-700 font-mono text-[10px]">
+                      {doc.materiaOriginal}
+                    </span>
+                  </div>
+                  <h4 className="text-xs font-extrabold text-slate-900 leading-snug line-clamp-2">
+                    {doc.title}
+                  </h4>
+                  <div className="flex items-center gap-2 flex-wrap text-[10px] text-slate-500 font-mono">
+                    <span>🎓 {doc.gradoOriginal}</span>
+                    {doc.pageCount && <span>• {doc.pageCount} págs.</span>}
+                    {doc.sizeFormatted && <span>• {doc.sizeFormatted}</span>}
+                  </div>
+                </div>
+
+                <div className="pt-2 border-t border-slate-200/70 flex items-center justify-between gap-2">
+                  <span className="text-[10px] font-mono text-slate-500 truncate">
+                    {doc.sha256 ? `SHA256: ${doc.sha256.slice(0, 10)}…` : 'Enlace Oficial MINED'}
+                  </span>
+                  {doc.status === 'success' ? (
+                    <a
+                      href={doc.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-2.5 py-1 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-[11px] inline-flex items-center gap-1 shrink-0 transition-colors"
+                    >
+                      <Download className="w-3 h-3" />
+                      <span>Abrir PDF Oficial</span>
+                      <ExternalLink className="w-2.5 h-2.5 opacity-80" />
+                    </a>
+                  ) : (
+                    <span
+                      title="Enlace roto en el servidor de origen del MINED (HTTP 404 documentado)"
+                      className="px-2 py-1 rounded-lg bg-amber-100 text-amber-800 font-bold text-[10px] shrink-0"
+                    >
+                      No disponible en MINED (404)
+                    </span>
+                  )}
+                </div>
+
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      {/* =========================================================================
           PILAR 3 & 4: ACORDEÓN DE UNIDADES Y VISOR DE LECCIONES P-S-C-E-R
          ========================================================================= */}
       <div className="space-y-4">
+
         <div className="flex items-center justify-between px-1">
           <div className="flex items-center gap-2">
             <span className="text-xl">📚</span>
@@ -1152,7 +1372,9 @@ export const AcademicReinforcementView: React.FC = () => {
 
                         <div className="space-y-3">
                           {unit.lessons.map((lesson) => {
-                            const isLessonActive = activeLessonId === lesson.id || unit.lessons.length === 1;
+                            const isLessonActive =
+                              activeLessonId === lesson.id ||
+                              (unit.lessons.length === 1 && activeLessonId !== `collapsed:${lesson.id}`);
 
                             return (
                               <div
@@ -1161,7 +1383,9 @@ export const AcademicReinforcementView: React.FC = () => {
                               >
                                 <button
                                   type="button"
-                                  onClick={() => setActiveLessonId(isLessonActive ? null : lesson.id)}
+                                  onClick={() =>
+                                    setActiveLessonId(isLessonActive ? `collapsed:${lesson.id}` : lesson.id)
+                                  }
                                   className="w-full p-4 flex items-center justify-between gap-3 text-left hover:bg-slate-50 transition-colors cursor-pointer"
                                 >
                                   <div className="flex items-center gap-3">
@@ -1677,6 +1901,34 @@ export const AcademicReinforcementView: React.FC = () => {
                             <KaTeXRenderer content={q.explanation} />
                           </div>
 
+                          {q.distractorRationales && (
+                            <div className="bg-white/90 p-2.5 rounded-lg border border-slate-200 space-y-1">
+                              <strong className="block text-[10px] text-slate-600 uppercase tracking-wider">
+                                Análisis de Opciones y Distractores:
+                              </strong>
+                              <div className="grid grid-cols-1 gap-1 text-[11px]">
+                                {(['A', 'B', 'C', 'D'] as AnswerOptionKey[]).map((rKey) => {
+                                  const rText = q.distractorRationales?.[rKey];
+                                  if (!rText) return null;
+                                  const isRight = rKey === q.correctAnswer;
+                                  return (
+                                    <div
+                                      key={rKey}
+                                      className={`px-2 py-1 rounded ${
+                                        isRight
+                                          ? 'bg-emerald-50 text-emerald-900 font-semibold'
+                                          : 'bg-slate-50 text-slate-700'
+                                      }`}
+                                    >
+                                      <span className="font-mono font-bold mr-1">[{rKey}]</span>
+                                      <KaTeXRenderer content={rText} />
+                                    </div>
+                                  );
+                                })}
+                              </div>
+                            </div>
+                          )}
+
                           <div className="text-[11px] text-slate-600 font-mono flex items-center gap-1">
                             <BookOpen className="w-3.5 h-3.5 text-blue-700 shrink-0" />
                             <span><strong>Fundamento:</strong> {q.officialBookRef}</span>
@@ -1686,6 +1938,7 @@ export const AcademicReinforcementView: React.FC = () => {
                     </div>
                   );
                 })}
+
               </div>
             </div>
 

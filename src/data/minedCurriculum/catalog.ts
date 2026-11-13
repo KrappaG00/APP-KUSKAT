@@ -39,13 +39,44 @@ export const MINED_SUBJECT_METADATA: Record<
     badgeColor: 'bg-rose-100 text-rose-800 dark:bg-rose-900/60 dark:text-rose-300',
     summary: 'Derechos humanos, Constitución y convivencia democrática.',
   },
+  'educacion-artistica': {
+    name: 'Educación Artística (Artes)',
+    icon: 'Palette',
+    color: 'border-purple-300 bg-purple-50/60 dark:bg-purple-950/20 dark:border-purple-800',
+    badgeColor: 'bg-purple-100 text-purple-800 dark:bg-purple-900/60 dark:text-purple-300',
+    summary: 'Expresión plástica, musical, artes escénicas y patrimonio cultural.',
+  },
+  'educacion-fisica': {
+    name: 'Desarrollo Corporal y Educación Física',
+    icon: 'Activity',
+    color: 'border-cyan-300 bg-cyan-50/60 dark:bg-cyan-950/20 dark:border-cyan-800',
+    badgeColor: 'bg-cyan-100 text-cyan-800 dark:bg-cyan-900/60 dark:text-cyan-300',
+    summary: 'Condición física saludable, motricidad, deporte escolar y juego limpio.',
+  },
+  'educacion-financiera': {
+    name: 'Educación Financiera (Finanzas y Economía)',
+    icon: 'Landmark',
+    color: 'border-teal-300 bg-teal-50/60 dark:bg-teal-950/20 dark:border-teal-800',
+    badgeColor: 'bg-teal-100 text-teal-800 dark:bg-teal-900/60 dark:text-teal-300',
+    summary: 'Presupuesto familiar, ahorro, crédito responsable y sistema financiero.',
+  },
 };
 
 type UDef = [number, string, 1 | 2, string, string[], number?, boolean?];
 
+const CATALOG_SUBJECT_SLUG: Record<SubjectId, string> = {
+  'matematica-esmate': 'mat',
+  'lenguaje-eslengua': 'len',
+  'ciencia-tecnologia': 'cie',
+  'ciudadania-valores': 'ciu',
+  'educacion-artistica': 'art',
+  'educacion-fisica': 'edf',
+  'educacion-financiera': 'fin',
+};
+
 function bU(g: GradeLevelId, s: SubjectId, defs: UDef[]): CatalogUnitItem[] {
   const sg = g.replace('-grado', 'g').replace('-bachillerato', 'b');
-  const ss = s === 'matematica-esmate' ? 'mat' : s === 'lenguaje-eslengua' ? 'len' : s === 'ciencia-tecnologia' ? 'cie' : 'ciu';
+  const ss = CATALOG_SUBJECT_SLUG[s] || 'mat';
   return defs.map(([n, title, tomo, summary, comps, lc = 3, ev = false]) => ({
     id: `mined-${ss}-${sg}-u${n < 10 ? '0' : ''}${n}`,
     unitNumber: n,
@@ -69,18 +100,31 @@ function bS(g: GradeLevelId, s: SubjectId, defs: UDef[]): CatalogSubjectItem {
 
 const cSec = (g: GradeLevelId) => [
   bS(g, 'lenguaje-eslengua', [
-    [1, 'Comprensión lectora y textos', 1, 'Análisis de textos y vocabulario.', ['Aplica lectura comprensiva'], 3],
-    [2, 'Producción escrita y gramática', 2, 'Ortografía y redacción formal.', ['Produce textos coherentes'], 3],
+    [1, 'Comprensión lectora, tipologías textuales y coherencia discursiva', 1, 'Análisis de textos, lectoescritura y vocabulario.', ['Aplica lectura comprensiva'], 1, true],
+    [2, 'Producción escrita, argumentación y literatura salvadoreña', 2, 'Ortografía, redacción formal y tradición literaria.', ['Produce textos coherentes'], 1, true],
   ]),
   bS(g, 'ciencia-tecnologia', [
-    [1, 'Materia, energía y entorno', 1, 'Fenómenos físicos y químicos.', ['Aplica indagación científica'], 2],
-    [2, 'Seres vivos y medio ambiente', 2, 'Ecosistemas y salud ambiental.', ['Comprende sistemas biológicos'], 2],
+    [1, 'Indagación científica, propiedades de la materia y energía', 1, 'Fenómenos físicos, químicos y medición en el SI.', ['Aplica indagación científica'], 1, true],
+    [2, 'Sistemas biológicos, ecosistemas y sostenibilidad ambiental', 2, 'Célula, redes tróficas y gestión ambiental en El Salvador.', ['Comprende sistemas biológicos'], 1, true],
   ]),
   bS(g, 'ciudadania-valores', [
-    [1, 'Derechos y convivencia escolar', 1, 'Normas cívicas y derechos.', ['Aplica convivencia armónica'], 2],
-    [2, 'Identidad y cultura ciudadana', 2, 'Valores patrios y democracia.', ['Ejerce ciudadanía activa'], 2],
+    [1, 'Identidad cultural, convivencia democrática y Derechos Humanos', 1, 'Normas cívicas, Constitución y cultura de paz.', ['Aplica convivencia armónica'], 1, true],
+    [2, 'Geografía humana, desarrollo sostenible e integración centroamericana', 2, 'Valores democráticos, SICA y desarrollo territorial.', ['Ejerce ciudadanía activa'], 1, true],
+  ]),
+  bS(g, 'educacion-artistica', [
+    [1, 'Lenguajes artísticos, percepción estética y expresión plástica', 1, 'Composición visual, armonía cromática y patrimonio.', ['Aplica expresión plástica'], 1, true],
+    [2, 'Expresión musical, artes escénicas y creación colectiva', 2, 'Métrica musical, teatro escolar y danza.', ['Participa en creación artística'], 1, true],
+  ]),
+  bS(g, 'educacion-fisica', [
+    [1, 'Condición física saludable, motricidad y fisiología del ejercicio', 1, 'Capacidades físicas, frecuencia cardíaca e higiene postural.', ['Regula su esfuerzo físico'], 1, true],
+    [2, 'Juegos cooperativos, iniciación deportiva y juego limpio', 2, 'Táctica colectiva, deporte escolar e inclusión.', ['Practica el juego limpio'], 1, true],
+  ]),
+  bS(g, 'educacion-financiera', [
+    [1, 'Presupuesto familiar, ahorro programado y consumo responsable', 1, 'Ingresos, gastos, ahorro y costo de oportunidad.', ['Elabora presupuestos familiares'], 1, true],
+    [2, 'Sistema financiero salvadoreño, crédito responsable e interés', 2, 'Interés simple/compuesto, BCR, SSF y ciberseguridad.', ['Toma decisiones financieras responsables'], 1, true],
   ]),
 ];
+
 
 export const MINED_CATALOG: CatalogGradeItem[] = [
   {
@@ -89,8 +133,8 @@ export const MINED_CATALOG: CatalogGradeItem[] = [
     cycle: 'Primer Ciclo de Básica',
     cycleId: 'primer-ciclo',
     description: 'Noción numérica del 0 al 100, suma, resta y figuras (Números y Formas T1 y T2).',
-    subjectCount: 4,
-    totalUnits: 14,
+    subjectCount: 7,
+    totalUnits: 20,
     subjects: [
       bS('1-grado', 'matematica-esmate', [
         [1, 'Conozcamos los conceptos básicos y los números del 0 al 10', 1, 'Orientación y conteo del 0 al 10.', ['Identifica cardinales del 0 al 10'], 4, true],
@@ -111,8 +155,8 @@ export const MINED_CATALOG: CatalogGradeItem[] = [
     cycle: 'Primer Ciclo de Básica',
     cycleId: 'primer-ciclo',
     description: 'Números hasta 1,000, sumas/restas llevando/prestando y multiplicación inicial (ESMATE T1 y T2).',
-    subjectCount: 4,
-    totalUnits: 15,
+    subjectCount: 7,
+    totalUnits: 21,
     subjects: [
       bS('2-grado', 'matematica-esmate', [
         [1, 'Conozcamos los números hasta 1,000', 1, 'Centenas y valor posicional.', ['Escribe números de 3 cifras'], 5, true],
@@ -134,8 +178,8 @@ export const MINED_CATALOG: CatalogGradeItem[] = [
     cycle: 'Primer Ciclo de Básica',
     cycleId: 'primer-ciclo',
     description: 'Números hasta 10,000, multiplicación vertical, división con residuo, fracciones y geometría.',
-    subjectCount: 4,
-    totalUnits: 16,
+    subjectCount: 7,
+    totalUnits: 22,
     subjects: [
       bS('3-grado', 'matematica-esmate', [
         [1, 'Números hasta 10,000', 1, 'Valor posicional hasta UM.', ['Lee números de 4 cifras'], 4, true],
@@ -158,8 +202,8 @@ export const MINED_CATALOG: CatalogGradeItem[] = [
     cycle: 'Segundo Ciclo de Básica',
     cycleId: 'segundo-ciclo',
     description: 'Números hasta 1,000,000, división larga, decimales, área de cuadrados y fracciones equivalentes.',
-    subjectCount: 4,
-    totalUnits: 15,
+    subjectCount: 7,
+    totalUnits: 21,
     subjects: [
       bS('4-grado', 'matematica-esmate', [
         [1, 'Números y operaciones de suma y resta', 1, 'Decimal hasta 1,000,000.', ['Opera hasta un millón'], 5, true],
@@ -181,8 +225,8 @@ export const MINED_CATALOG: CatalogGradeItem[] = [
     cycle: 'Segundo Ciclo de Básica',
     cycleId: 'segundo-ciclo',
     description: 'Divisibilidad (MCM/MCD), decimales por decimales, ángulos en polígonos, áreas y fracciones heterogéneas.',
-    subjectCount: 4,
-    totalUnits: 16,
+    subjectCount: 7,
+    totalUnits: 22,
     subjects: [
       bS('5-grado', 'matematica-esmate', [
         [1, 'Divisibilidad, múltiplos y divisores', 1, 'Primos, MCM y MCD.', ['Calcula MCM y MCD'], 4, true],
@@ -205,8 +249,8 @@ export const MINED_CATALOG: CatalogGradeItem[] = [
     cycle: 'Segundo Ciclo de Básica',
     cycleId: 'segundo-ciclo',
     description: 'Operaciones con fracciones, variables, razones y porcentajes (IVA 13%), proporcionalidad, círculo y volumen.',
-    subjectCount: 4,
-    totalUnits: 17,
+    subjectCount: 7,
+    totalUnits: 23,
     subjects: [
       bS('6-grado', 'matematica-esmate', [
         [1, 'Operaciones con fracciones', 1, 'Multiplicación y recíproco.', ['Multiplica fracciones'], 3, true],
@@ -230,8 +274,8 @@ export const MINED_CATALOG: CatalogGradeItem[] = [
     cycle: 'Tercer Ciclo de Básica',
     cycleId: 'tercer-ciclo',
     description: 'Números con signo, álgebra con símbolos, ecuaciones lineales de 1° grado y proporcionalidad.',
-    subjectCount: 4,
-    totalUnits: 14,
+    subjectCount: 7,
+    totalUnits: 20,
     subjects: [
       bS('7-grado', 'matematica-esmate', [
         [1, 'Números positivos, negativos y el cero', 1, 'Valor absoluto y orden en Z.', ['Ordena enteros en recta'], 4, true],
@@ -252,8 +296,8 @@ export const MINED_CATALOG: CatalogGradeItem[] = [
     cycle: 'Tercer Ciclo de Básica',
     cycleId: 'tercer-ciclo',
     description: 'Polinomios, sistemas 2x2, función lineal (y = mx + b), congruencia de triángulos y sólidos.',
-    subjectCount: 4,
-    totalUnits: 14,
+    subjectCount: 7,
+    totalUnits: 20,
     subjects: [
       bS('8-grado', 'matematica-esmate', [
         [1, 'Operaciones algebraicas', 1, 'Polinomios y multiplicación.', ['Opera expresiones algebraicas'], 4, true],
@@ -274,8 +318,8 @@ export const MINED_CATALOG: CatalogGradeItem[] = [
     cycle: 'Tercer Ciclo de Básica',
     cycleId: 'tercer-ciclo',
     description: 'Productos notables, factorización, raíces cuadradas, ecuaciones cuadráticas, Pitágoras y dispersión.',
-    subjectCount: 4,
-    totalUnits: 14,
+    subjectCount: 7,
+    totalUnits: 20,
     subjects: [
       bS('9-grado', 'matematica-esmate', [
         [1, 'Multiplicación de polinomios y productos notables', 1, 'Binomios y factorización.', ['Factoriza trinomios'], 4, true],
@@ -296,8 +340,8 @@ export const MINED_CATALOG: CatalogGradeItem[] = [
     cycle: 'Educación Media',
     cycleId: 'educacion-media',
     description: 'Números reales, polinomios y complejos, desigualdades, funciones, triángulos oblicuángulos, vectores y estadística.',
-    subjectCount: 4,
-    totalUnits: 14,
+    subjectCount: 7,
+    totalUnits: 20,
     subjects: [
       bS('1-bachillerato', 'matematica-esmate', [
         [1, 'Números reales', 1, 'Radicales e intervalos.', ['Opera números irracionales'], 4, true],
@@ -318,8 +362,8 @@ export const MINED_CATALOG: CatalogGradeItem[] = [
     cycle: 'Educación Media',
     cycleId: 'educacion-media',
     description: 'Ecuaciones bicuadráticas, geometría analítica de recta y cónicas, funciones trascendentales, sucesiones y probabilidad (AVANZO/UES).',
-    subjectCount: 4,
-    totalUnits: 14,
+    subjectCount: 7,
+    totalUnits: 20,
     subjects: [
       bS('2-bachillerato', 'matematica-esmate', [
         [1, 'Ecuaciones', 1, 'Bicuadráticas y radicales.', ['Resuelve ecuaciones avanzadas'], 4, true],

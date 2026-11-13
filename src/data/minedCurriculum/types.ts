@@ -27,7 +27,41 @@ export type SubjectId =
   | 'matematica-esmate'
   | 'lenguaje-eslengua'
   | 'ciencia-tecnologia'
-  | 'ciudadania-valores';
+  | 'ciudadania-valores'
+  | 'educacion-artistica'
+  | 'educacion-fisica'
+  | 'educacion-financiera';
+
+export type SubjectCode = 'MAT' | 'LEN' | 'CIE' | 'CIU' | 'ART' | 'EDF' | 'FIN';
+
+export type MinedResourceDocType =
+  | 'Libro de Texto'
+  | 'Cuaderno de Ejercicios'
+  | 'Guía Metodológica'
+  | 'Programa de Estudio'
+  | 'Cuadernillo'
+  | 'Infografía';
+
+export interface MinedOfficialResource {
+  id: string;
+  title: string;
+  filename: string;
+  url: string;
+  materiaOriginal: string;
+  gradoOriginal: string;
+  localPath: string | null;
+  sizeBytes: number;
+  sizeFormatted: string;
+  pageCount?: number;
+  docType: MinedResourceDocType;
+  status: 'success' | 'error';
+  sha256: string | null;
+  errorMessage?: string | null;
+  gradeIds: GradeLevelId[];
+  subjectIds: SubjectId[];
+  cycleId: CycleId;
+  isArticulationPrimeraInfancia?: boolean;
+}
 
 export type TomoNumber = 1 | 2;
 
@@ -76,6 +110,7 @@ export interface UnitQuestion {
   correctAnswer: AnswerOptionKey;
   explanation: string; // Justificación pedagógica y desarrollo paso a paso
   officialBookRef: string; // Referencia oficial al libro de texto MINED
+  distractorRationale?: Record<AnswerOptionKey, string>;
   distractorRationales?: Record<AnswerOptionKey, string>;
 }
 
@@ -103,12 +138,15 @@ export interface CurriculumUnit {
 export interface SubjectCurriculum {
   id: SubjectId;
   name: string; // "Matemática (ESMATE)", "Lengua y Literatura (ESLENGUA)", etc.
+  shortName?: string;
   icon: string; // Identificador o emoji representativo
   color: string; // Clases Tailwind para bordes y fondos
   badgeColor: string; // Clases Tailwind para badges
   summary: string;
   units: CurriculumUnit[];
+  resources?: MinedOfficialResource[];
 }
+
 
 /**
  * Datos curriculares completos de un grado escolar
@@ -120,6 +158,7 @@ export interface GradeCurriculumData {
   cycleId: CycleId;
   description: string;
   subjects: SubjectCurriculum[];
+  resources?: MinedOfficialResource[];
 }
 
 // -------------------------------------------------------------
@@ -149,6 +188,7 @@ export interface CatalogSubjectItem {
   summary: string;
   unitCount: number;
   units: CatalogUnitItem[];
+  resources?: MinedOfficialResource[];
 }
 
 export interface CatalogGradeItem {
