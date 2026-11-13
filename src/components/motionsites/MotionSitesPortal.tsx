@@ -136,62 +136,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
 
 
       {/* ==================================================================== */}
-      {/* 2. PRESENTACIÓN DEL FUNDADOR DEL PROYECTO KUSKAT                    */}
-      {/* ==================================================================== */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12" aria-label="Portal de Inicio - Fundador KUSKAT">
-        <div className="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-8 lg:p-10 shadow-corporate-subtle space-y-6 sm:space-y-8">
-          {/* Encabezado de la Sección */}
-          <div className="text-center max-w-2xl mx-auto space-y-2.5">
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200/80 shadow-2xs">
-              <Users className="w-3.5 h-3.5 text-blue-600" />
-              <span>Dirección & Fundador KUSKAT</span>
-            </div>
-            <h2 className="font-montenegrin text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight">
-              Presentación del Fundador
-            </h2>
-            <p className="font-caslon text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Liderazgo pedagógico y tecnológico comprometido con la democratización educativa, el acceso abierto a la educación superior y la excelencia académica en El Salvador.
-            </p>
-          </div>
-
-          {/* Tarjeta Exclusiva del Fundador: Yeferson E. Perez */}
-          <div className="max-w-lg mx-auto w-full">
-            <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-[#C59B27]/40 p-6 sm:p-8 shadow-corporate-subtle flex flex-col items-center text-center relative overflow-hidden group hover:border-[#0B1B3D] transition-all duration-300">
-              <div className="absolute top-3.5 right-3.5">
-                <span className="px-2.5 py-1 rounded-md bg-[#0B1B3D] text-[#C59B27] text-[10px] font-mono font-bold uppercase tracking-wider border border-[#C59B27]/30 shadow-2xs">
-                  Fundador
-                </span>
-              </div>
-
-              <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl overflow-hidden border-2 border-[#C59B27] shadow-md mb-4 bg-slate-100 shrink-0 mt-2 group-hover:scale-105 transition-transform duration-300">
-                <img
-                  src="/yeferson_perez.jpg"
-                  alt="Yeferson E. Perez - Fundador KUSKAT"
-                  className="w-full h-full object-cover"
-                />
-              </div>
-
-              <h3 className="font-editorial text-xl sm:text-2xl font-bold text-[#0B1B3D] tracking-tight">
-                Yeferson E. Perez
-              </h3>
-              <p className="text-xs sm:text-sm font-semibold text-blue-700 mt-1">
-                Fundador & Desarrollador Principal
-              </p>
-              <p className="font-caslon text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed max-w-md">
-                Dirección general del proyecto, desarrollo integral de la plataforma tecnológica y arquitectura pedagógica de KUSKAT para El Salvador.
-              </p>
-
-              <div className="mt-5 pt-4 border-t border-slate-200/70 w-full flex items-center justify-center gap-2 text-[11px] font-mono text-slate-500">
-                <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block animate-pulse" />
-                <span>KUSKAT • Educación Superior Abierta</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ==================================================================== */}
-      {/* 3. CURSOS DESTACADOS */}
+      {/* 2. CURSOS DESTACADOS */}
       {/* ==================================================================== */}
       <Courses3DSection
         onEnroll={(inst) => triggerStudyTransition(inst)}
@@ -208,20 +153,235 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
 
 
       {/* ==================================================================== */}
-      {/* 4. LOGROS Y ESTADÍSTICAS */}
+      {/* 3. LOGROS Y ESTADÍSTICAS */}
       {/* ==================================================================== */}
       <StatsAndCharts3D />
 
       {/* ==================================================================== */}
-      {/* 5. SOBRE NOSOTROS */}
+      {/* 4. SOBRE NOSOTROS */}
       {/* ==================================================================== */}
       <AboutUs3D onLearnMoreAction={onOpenCategories} />
 
       {/* ==================================================================== */}
-      {/* 6. CALL TO ACTION FINAL */}
+      {/* 5. CALL TO ACTION FINAL */}
       {/* ==================================================================== */}
       <CallToActionFinal3D onStartJourney={() => triggerStudyTransition()} />
 
+      {/* ==================================================================== */}
+      {/* 6. DIRECCIÓN Y EQUIPO ACADÉMICO KUSKAT (FONDO DE LA PÁGINA)        */}
+      {/* ==================================================================== */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12" aria-label="Portal de Inicio - Dirección y Equipo Académico KUSKAT">
+        <div className="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-8 lg:p-10 shadow-corporate-subtle space-y-6 sm:space-y-8">
+          {/* Encabezado de la Sección */}
+          <div className="text-center max-w-2xl mx-auto space-y-2.5">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200/80 shadow-2xs">
+              <Users className="w-3.5 h-3.5 text-blue-600" />
+              <span>Dirección & Equipo Académico KUSKAT</span>
+            </div>
+            <h2 className="font-montenegrin text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight">
+              Presentación del Equipo
+            </h2>
+            <p className="font-caslon text-xs sm:text-sm text-slate-600 leading-relaxed">
+              Liderazgo pedagógico, científico y tecnológico comprometido con la democratización educativa, el acceso abierto a la educación superior y la excelencia académica en El Salvador.
+            </p>
+          </div>
+
+          {/* Tarjetas del Equipo: Yeferson E. Perez (Fundador) y Asesores Educativos y Creativos */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto w-full">
+            {/* Tarjeta del Fundador: Yeferson E. Perez */}
+            <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-[#C59B27]/40 p-6 shadow-corporate-subtle flex flex-col items-center text-center relative overflow-hidden group hover:border-[#0B1B3D] transition-all duration-300">
+              <div className="absolute top-3.5 right-3.5">
+                <span className="px-2.5 py-1 rounded-md bg-[#0B1B3D] text-[#C59B27] text-[10px] font-mono font-bold uppercase tracking-wider border border-[#C59B27]/30 shadow-2xs">
+                  Fundador
+                </span>
+              </div>
+
+              <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl overflow-hidden border-2 border-[#C59B27] shadow-md mb-4 bg-slate-100 shrink-0 mt-2 group-hover:scale-105 transition-transform duration-300">
+                <img
+                  src="/yeferson_perez.jpg"
+                  alt="Yeferson E. Perez - Fundador KUSKAT"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <h3 className="font-editorial text-xl font-bold text-[#0B1B3D] tracking-tight">
+                Yeferson E. Perez
+              </h3>
+              <p className="text-xs sm:text-sm font-semibold text-blue-700 mt-1">
+                Fundador & Desarrollador Principal
+              </p>
+              <p className="font-caslon text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed max-w-xs">
+                Dirección general del proyecto, desarrollo integral de la plataforma tecnológica y arquitectura pedagógica de KUSKAT para El Salvador.
+              </p>
+
+              <div className="mt-auto pt-5 border-t border-slate-200/70 w-full flex items-center justify-center gap-2 text-[11px] font-mono text-slate-500">
+                <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block animate-pulse" />
+                <span>KUSKAT • Educación Superior Abierta</span>
+              </div>
+            </div>
+
+            {/* Tarjeta de Mayra Romero */}
+            <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-emerald-600/30 p-6 shadow-corporate-subtle flex flex-col items-center text-center relative overflow-hidden group hover:border-emerald-700 transition-all duration-300">
+              <div className="absolute top-3.5 right-3.5">
+                <span className="px-2.5 py-1 rounded-md bg-emerald-800 text-emerald-100 text-[10px] font-mono font-bold uppercase tracking-wider border border-emerald-600/40 shadow-2xs">
+                  Asesoría
+                </span>
+              </div>
+
+              <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl overflow-hidden border-2 border-emerald-600/50 shadow-md mb-4 bg-slate-100 shrink-0 mt-2 group-hover:scale-105 transition-transform duration-300">
+                <img
+                  src="/mayra_romero.jpg"
+                  alt="Mayra Romero - Asesora Educativa KUSKAT"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <h3 className="font-editorial text-xl font-bold text-[#0B1B3D] tracking-tight">
+                Mayra Romero
+              </h3>
+              <p className="text-xs sm:text-sm font-semibold text-emerald-700 mt-1">
+                Asesora Educativa
+              </p>
+              <p className="font-caslon text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed max-w-xs">
+                Bióloga e Investigadora. Asesoría curricular, revisión de rigor científico y orientación pedagógica en ciencias biológicas y formativas.
+              </p>
+
+              <div className="mt-auto pt-5 border-t border-slate-200/70 w-full flex items-center justify-center gap-2 text-[11px] font-mono text-slate-500">
+                <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block animate-pulse" />
+                <span>KUSKAT • Rigor Científico & Pedagógico</span>
+              </div>
+            </div>
+
+            {/* Tarjeta de Milena Maeda */}
+            <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-cyan-600/30 p-6 shadow-corporate-subtle flex flex-col items-center text-center relative overflow-hidden group hover:border-cyan-700 transition-all duration-300">
+              <div className="absolute top-3.5 right-3.5">
+                <span className="px-2.5 py-1 rounded-md bg-cyan-900 text-cyan-100 text-[10px] font-mono font-bold uppercase tracking-wider border border-cyan-600/40 shadow-2xs">
+                  Ciencias Médicas
+                </span>
+              </div>
+
+              <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl overflow-hidden border-2 border-cyan-600/50 shadow-md mb-4 bg-slate-100 shrink-0 mt-2 group-hover:scale-105 transition-transform duration-300">
+                <img
+                  src="/milena_maeda.jpg"
+                  alt="Milena Maeda - Asesora Educativa en Ciencias Médicas"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <h3 className="font-editorial text-xl font-bold text-[#0B1B3D] tracking-tight">
+                Milena Maeda
+              </h3>
+              <p className="text-xs sm:text-sm font-semibold text-cyan-700 mt-1">
+                Asesora Educativa
+              </p>
+              <p className="font-caslon text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed max-w-xs">
+                Radióloga y Educadora. Especialista en Ciencias Médicas, aseguramiento de rigor formativo, imagenología diagnóstica y bioética asistencial.
+              </p>
+
+              <div className="mt-auto pt-5 border-t border-slate-200/70 w-full flex items-center justify-center gap-2 text-[11px] font-mono text-slate-500">
+                <span className="w-2 h-2 rounded-full bg-cyan-500 inline-block animate-pulse" />
+                <span>KUSKAT • Salud & Ciencias Médicas</span>
+              </div>
+            </div>
+
+            {/* Tarjeta de Juan Interiano */}
+            <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-amber-600/30 p-6 shadow-corporate-subtle flex flex-col items-center text-center relative overflow-hidden group hover:border-amber-700 transition-all duration-300">
+              <div className="absolute top-3.5 right-3.5">
+                <span className="px-2.5 py-1 rounded-md bg-amber-900 text-amber-100 text-[10px] font-mono font-bold uppercase tracking-wider border border-amber-600/40 shadow-2xs">
+                  Flexibilidad Ed.
+                </span>
+              </div>
+
+              <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl overflow-hidden border-2 border-amber-600/50 shadow-md mb-4 bg-slate-100 shrink-0 mt-2 group-hover:scale-105 transition-transform duration-300">
+                <img
+                  src="/juan_interiano.jpg"
+                  alt="Juan Interiano - Asesor de Flexibilidad Educativa"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <h3 className="font-editorial text-xl font-bold text-[#0B1B3D] tracking-tight">
+                Juan Interiano
+              </h3>
+              <p className="text-xs sm:text-sm font-semibold text-amber-700 mt-1">
+                Asesor de Flexibilidad Educativa
+              </p>
+              <p className="font-caslon text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed max-w-xs">
+                Economista Retirado y Ex-Viceministro de Educación (1982). Asesoría en políticas de flexibilidad formativa, inclusión educativa y planeación institucional.
+              </p>
+
+              <div className="mt-auto pt-5 border-t border-slate-200/70 w-full flex items-center justify-center gap-2 text-[11px] font-mono text-slate-500">
+                <span className="w-2 h-2 rounded-full bg-amber-500 inline-block animate-pulse" />
+                <span>KUSKAT • Políticas Educativas & Estado</span>
+              </div>
+            </div>
+
+            {/* Tarjeta de Amílcar Ruiz */}
+            <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-violet-600/30 p-6 shadow-corporate-subtle flex flex-col items-center text-center relative overflow-hidden group hover:border-violet-700 transition-all duration-300">
+              <div className="absolute top-3.5 right-3.5">
+                <span className="px-2.5 py-1 rounded-md bg-violet-900 text-violet-100 text-[10px] font-mono font-bold uppercase tracking-wider border border-violet-600/40 shadow-2xs">
+                  Diseño & 3D
+                </span>
+              </div>
+
+              <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl overflow-hidden border-2 border-violet-600/50 shadow-md mb-4 bg-slate-100 shrink-0 mt-2 group-hover:scale-105 transition-transform duration-300">
+                <img
+                  src="/amilcar_ruiz.jpg"
+                  alt="Amílcar Ruiz - Asesor Creativo"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <h3 className="font-editorial text-xl font-bold text-[#0B1B3D] tracking-tight">
+                Amílcar Ruiz
+              </h3>
+              <p className="text-xs sm:text-sm font-semibold text-violet-700 mt-1">
+                Asesor Creativo
+              </p>
+              <p className="font-caslon text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed max-w-xs">
+                Diseñador creativo multidisciplinario. Especialista en diseño gráfico, digital y 3D, identidad visual interactiva y dirección de arte.
+              </p>
+
+              <div className="mt-auto pt-5 border-t border-slate-200/70 w-full flex items-center justify-center gap-2 text-[11px] font-mono text-slate-500">
+                <span className="w-2 h-2 rounded-full bg-violet-500 inline-block animate-pulse" />
+                <span>KUSKAT • Diseño Gráfico & 3D</span>
+              </div>
+            </div>
+
+            {/* Tarjeta de Daniel Siciliano */}
+            <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-blue-600/30 p-6 shadow-corporate-subtle flex flex-col items-center text-center relative overflow-hidden group hover:border-blue-700 transition-all duration-300">
+              <div className="absolute top-3.5 right-3.5">
+                <span className="px-2.5 py-1 rounded-md bg-blue-900 text-blue-100 text-[10px] font-mono font-bold uppercase tracking-wider border border-blue-600/40 shadow-2xs">
+                  MINED
+                </span>
+              </div>
+
+              <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl overflow-hidden border-2 border-blue-600/50 shadow-md mb-4 bg-slate-100 shrink-0 mt-2 group-hover:scale-105 transition-transform duration-300">
+                <img
+                  src="/daniel_siciliano.jpg"
+                  alt="Daniel Siciliano - Asesor Educativo KUSKAT"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              <h3 className="font-editorial text-xl font-bold text-[#0B1B3D] tracking-tight">
+                Daniel Siciliano
+              </h3>
+              <p className="text-xs sm:text-sm font-semibold text-blue-700 mt-1">
+                Asesor Educativo
+              </p>
+              <p className="font-caslon text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed max-w-xs">
+                Técnico del Ministerio de Educación. Asesoría técnica curricular, alineación pedagógica nacional y seguimiento normativo del sistema educativo salvadoreño.
+              </p>
+
+              <div className="mt-auto pt-5 border-t border-slate-200/70 w-full flex items-center justify-center gap-2 text-[11px] font-mono text-slate-500">
+                <span className="w-2 h-2 rounded-full bg-blue-500 inline-block animate-pulse" />
+                <span>KUSKAT • Alineación Curricular Oficial</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
       {/* ==================================================================== */}
       {/* 7. PIE DE PÁGINA */}

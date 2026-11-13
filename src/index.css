@@ -8,14 +8,14 @@
     -webkit-tap-highlight-color: transparent;
     -webkit-text-size-adjust: 100%;
     text-size-adjust: 100%;
-    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    font-family: 'Tinos', Georgia, Cambria, 'Times New Roman', Times, serif;
     background-color: #FAF9F5;
     color: #111625;
     letter-spacing: -0.011em;
   }
 
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', 'Montenegrin Gothic One', 'Bodoni MT', Georgia, serif;
+    font-family: 'Tinos', Georgia, Cambria, 'Times New Roman', Times, serif;
     font-weight: 700;
     letter-spacing: -0.02em;
     color: #0B1B3D;
@@ -39,12 +39,12 @@
    IDENTIDAD GRÁFICA CORPORATIVA KUSKAT (SISTEMA VISUAL ANTI-AI)
    ========================================================================== */
 .font-editorial {
-  font-family: 'Playfair Display', 'Libre Caslon Condensed', Georgia, serif;
+  font-family: 'Tinos', Georgia, Cambria, 'Times New Roman', Times, serif;
   letter-spacing: -0.02em;
 }
 
 .font-sans-ui {
-  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  font-family: 'Tinos', Georgia, Cambria, 'Times New Roman', Times, serif;
 }
 
 .font-mono-exam {
