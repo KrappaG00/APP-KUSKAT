@@ -6,6 +6,11 @@ export interface LateralAdRailsProps {
   activeTab: AppPageTab;
   children: React.ReactNode;
   /**
+   * Conteo de anuncios principales ya renderizados en la vista central.
+   * Si es >= 2, se suprimen los rieles para cumplir estrictamente con la Regla 2 (2 <= anuncios <= 3).
+   */
+  mainAdsCount?: number;
+  /**
    * Google AdSense Policy Compliance & Content Guard Props:
    * Evita montar rieles laterales publicitarios en pantallas sin contenido sustantivo,
    * estados de carga o búsquedas vacías.
@@ -76,6 +81,15 @@ const SideRailAd: React.FC<SideRailAdProps> = ({
         setIsSuppressedByDom(true);
         return;
       }
+
+      // Evaluar en tiempo de ejecución si ya existen 2 o más anuncios principales en la vista para no superar el límite de 3
+      if (typeof document !== 'undefined') {
+        const existingAds = document.querySelectorAll('[data-ad-component="kuskat-horizontal-ad"]');
+        if (existingAds.length >= 2) {
+          setIsSuppressedByDom(true);
+          return;
+        }
+      }
     }
 
     try {
@@ -122,7 +136,7 @@ const SideRailAd: React.FC<SideRailAdProps> = ({
             className="adsbygoogle"
             style={{ display: 'block', width: '100%', minHeight: '500px' }}
             data-ad-client="ca-pub-4241045160320459"
-            data-ad-slot={slotId}
+            {...(slotId && /^\d{10}$/.test(slotId.trim()) ? { 'data-ad-slot': slotId.trim() } : slotId && slotId.endsWith('_test') ? { 'data-ad-slot': slotId } : {})}
             data-ad-format="vertical"
             data-full-width-responsive="false"
           />
@@ -166,6 +180,7 @@ const SideRailAd: React.FC<SideRailAdProps> = ({
 export const LateralAdRails: React.FC<LateralAdRailsProps> = ({
   activeTab,
   children,
+  mainAdsCount,
   hasPublisherContent = true,
   isLoading = false,
   isEmpty = false,
@@ -174,12 +189,17 @@ export const LateralAdRails: React.FC<LateralAdRailsProps> = ({
 }) => {
   // EXCEPCIÓN ESTRICTA: La página 'categories' no lleva anuncios laterales
   const isCategoriesPage = activeTab === 'categories';
+  const isPortalPage = activeTab === 'motionsites3d';
+  // Regla 2 de AGENTS.md (2 <= anuncios <= 3): evitar colocar rieles si ya hay 2 o más anuncios principales en la vista
+  const hasTwoOrMoreMainAds = Boolean(mainAdsCount !== undefined && mainAdsCount >= 2);
 
   // Verificación de compuertas
   const wordCount = contentSnippet !== undefined ? countSubstantiveWords(contentSnippet) : 0;
   const isBelowWordThreshold = contentSnippet !== undefined && wordCount < minSubstantiveWords;
   const shouldSuppressRails =
     isCategoriesPage ||
+    isPortalPage ||
+    hasTwoOrMoreMainAds ||
     isLoading === true ||
     isEmpty === true ||
     hasPublisherContent === false ||

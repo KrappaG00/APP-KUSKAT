@@ -40,9 +40,30 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
 }) => {
   const { t } = useTranslation();
 
+  // Detección de rastreadores web (Googlebot, AdsBot, AdSense, etc.) o enlaces profundos con ?tab=
+  const shouldSkipLoader = (): boolean => {
+    if (typeof window === 'undefined') return true;
+    try {
+      const ua = navigator.userAgent || '';
+      const isBot =
+        /(Googlebot|Mediapartners-Google|AdsBot-Google|Google-Adwords|FeedFetcher-Google|bot|crawler|spider|headlesschrome)/i.test(
+          ua
+        );
+      const params = new URLSearchParams(window.location.search);
+      const tabParam = params.get('tab');
+      const isDeepLink = Boolean(tabParam && tabParam !== 'motionsites3d');
+      return isBot || isDeepLink;
+    } catch {
+      return false;
+    }
+  };
+
   // Estado del loader inicial de partículas 3D (persistido en localStorage para no repetir atrasos)
   const [showLoader, setShowLoader] = useState<boolean>(() => {
     try {
+      if (shouldSkipLoader()) {
+        return false;
+      }
       return localStorage.getItem('kuskat_3d_loader_seen') !== 'true';
     } catch {
       return false;

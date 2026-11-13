@@ -564,8 +564,12 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
       <header className="sticky top-0 z-40 bg-white/98 backdrop-blur-md border-b border-[#E5E3D8] shadow-corporate-subtle font-sans-ui">
         <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-2 flex items-center justify-between gap-2 sm:gap-4">
           {/* Logo y Nombre del Proyecto */}
-          <div
-            onClick={() => navigateTo('motionsites3d')}
+          <a
+            href="/?tab=motionsites3d"
+            onClick={(e) => {
+              e.preventDefault();
+              navigateTo('motionsites3d');
+            }}
             className="flex items-center gap-1.5 sm:gap-2.5 min-w-0 cursor-pointer select-none group shrink-0"
             title="Ir al Portal de Inicio"
           >
@@ -589,7 +593,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
                 {t('app.subtitle')}
               </p>
             </div>
-          </div>
+          </a>
 
           {/* ================================================================ */}
           {/* NAVEGACIÓN EN ESCRITORIO / LAPTOP: 5 PILARES ACADÉMICOS (Z-50)   */}
@@ -658,10 +662,13 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
 
                         <div className="space-y-1 pt-1">
                           {pillar.items.map((item) => (
-                            <button
+                            <a
                               key={item.id}
-                              type="button"
-                              onClick={item.action}
+                              href={`/?tab=${item.id}`}
+                              onClick={(e) => {
+                                e.preventDefault();
+                                item.action();
+                              }}
                               className={`w-full text-left p-2.5 rounded-xl border transition-all cursor-pointer flex items-start gap-2.5 ${
                                 item.isActive
                                   ? 'bg-[#F4F3ED] border-[#0B1B3D] text-[#0B1B3D] font-bold shadow-corporate-subtle'
@@ -686,7 +693,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
                                   {item.subtitle}
                                 </p>
                               </div>
-                            </button>
+                            </a>
                           ))}
                         </div>
                       </div>
@@ -847,10 +854,13 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
 
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                       {currentPillar.items.map((item) => (
-                        <button
+                        <a
                           key={item.id}
-                          type="button"
-                          onClick={item.action}
+                          href={`/?tab=${item.id}`}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            item.action();
+                          }}
                           className={`w-full text-left p-3 rounded-xl border transition-all cursor-pointer flex items-start gap-3 min-h-[54px] ${
                             item.isActive
                               ? 'bg-[#F4F3ED] border-[#0B1B3D] text-[#0B1B3D] font-bold shadow-corporate-subtle'
@@ -875,7 +885,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
                               {item.subtitle}
                             </p>
                           </div>
-                        </button>
+                        </a>
                       ))}
                     </div>
                   </div>

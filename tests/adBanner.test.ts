@@ -1,6 +1,9 @@
 import { describe, it, expect } from 'vitest';
 import fs from 'node:fs';
 import path from 'node:path';
+import React from 'react';
+import { renderToStaticMarkup } from 'react-dom/server';
+import { AdBanner, countSubstantiveWords } from '../src/components/AdBanner';
 
 describe('Verificación de Integración de Google AdSense y Regla de 2 a 3 Anuncios por Página', () => {
   const rootDir = process.cwd();
@@ -85,5 +88,56 @@ describe('Verificación de Integración de Google AdSense y Regla de 2 a 3 Anunc
     expect(code).toContain('<StandalonePageWrapper tab="driver-license">');
     expect(code).toContain('<StandalonePageWrapper tab="academic-reinforcement">');
     expect(code).toContain('<StandalonePageWrapper tab="technical-courses">');
+  });
+
+  it('AdBanner omite data-ad-slot para IDs no numéricos (evitando TagError en adsbygoogle.js) y lo incluye para cadenas numéricas de 10 dígitos o _test', () => {
+    // 1. Slot ID alfanumérico no numérico (ej. "4241045160_s_top") -> NO debe incluir data-ad-slot
+    const htmlAlpha = renderToStaticMarkup(
+      React.createElement(AdBanner, {
+        slotId: '4241045160_s_top',
+        hasPublisherContent: true,
+      })
+    );
+    expect(htmlAlpha).toContain('class="adsbygoogle"');
+    expect(htmlAlpha).toContain('data-ad-client="ca-pub-4241045160320459"');
+    expect(htmlAlpha).not.toContain('data-ad-slot=');
+
+    // 2. Slot ID numérico oficial de 10 dígitos (ej. "1234567890") -> SÍ debe incluir data-ad-slot="1234567890"
+    const htmlNumeric = renderToStaticMarkup(
+      React.createElement(AdBanner, {
+        slotId: '1234567890',
+        hasPublisherContent: true,
+      })
+    );
+    expect(htmlNumeric).toContain('data-ad-slot="1234567890"');
+
+    // 3. Slot ID de test con sufijo _test (ej. "banner_unit_test") -> SÍ debe incluir data-ad-slot
+    const htmlTest = renderToStaticMarkup(
+      React.createElement(AdBanner, {
+        slotId: 'banner_unit_test',
+        hasPublisherContent: true,
+      })
+    );
+    expect(htmlTest).toContain('data-ad-slot="banner_unit_test"');
+  });
+
+  it('InteractiveFormulaLab cuenta con marco teórico sustantivo >500 palabras y cita exclusivamente instituciones oficiales autorizadas', () => {
+    const labPath = path.join(rootDir, 'src', 'components', 'InteractiveFormulaLab.tsx');
+    expect(fs.existsSync(labPath)).toBe(true);
+    const code = fs.readFileSync(labPath, 'utf-8');
+
+    // Extraer sección del marco teórico
+    const start = code.indexOf('MARCO TEÓRICO');
+    const end = code.indexOf('Selector de Pestañas');
+    expect(start).toBeGreaterThan(-1);
+    expect(end).toBeGreaterThan(start);
+
+    const section = code.substring(start, end);
+    const substantiveWords = countSubstantiveWords(section);
+
+    expect(substantiveWords).toBeGreaterThan(500);
+    expect(code).toContain('MINSAL');
+    expect(code).toContain('MINED');
+    expect(code).toContain('OPS/OMS');
   });
 });

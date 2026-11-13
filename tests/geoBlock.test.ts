@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import fs from 'node:fs';
 import path from 'node:path';
-import { ALLOWED_COUNTRIES } from '../netlify/edge-functions/geo-block';
+import geoBlockHandler, { ALLOWED_COUNTRIES, GOOGLE_BOT_REGEX } from '../netlify/edge-functions/geo-block';
 
 describe('Verificación de Políticas de Geo-Bloqueo y Lista Blanca de Países', () => {
   const rootDir = process.cwd();
@@ -71,7 +71,7 @@ describe('Verificación de Políticas de Geo-Bloqueo y Lista Blanca de Países',
     expect(ALLOWED_COUNTRIES.has('PR')).toBe(true); // Puerto Rico
     expect(ALLOWED_COUNTRIES.has('CU')).toBe(true); // Cuba
 
-    // Europa permitida
+    // Europa permitida y centros de operaciones Google
     expect(ALLOWED_COUNTRIES.has('ES')).toBe(true); // España
     expect(ALLOWED_COUNTRIES.has('PT')).toBe(true); // Portugal
     expect(ALLOWED_COUNTRIES.has('FR')).toBe(true); // Francia
@@ -79,14 +79,20 @@ describe('Verificación de Políticas de Geo-Bloqueo y Lista Blanca de Países',
     expect(ALLOWED_COUNTRIES.has('CH')).toBe(true); // Suiza
     expect(ALLOWED_COUNTRIES.has('IT')).toBe(true); // Italia
     expect(ALLOWED_COUNTRIES.has('RO')).toBe(true); // Rumania
+    expect(ALLOWED_COUNTRIES.has('IE')).toBe(true); // Irlanda (Google EMEA HQ)
+    expect(ALLOWED_COUNTRIES.has('GB')).toBe(true); // Reino Unido (Google UK)
+    expect(ALLOWED_COUNTRIES.has('NL')).toBe(true); // Países Bajos (Google EU)
+    expect(ALLOWED_COUNTRIES.has('PL')).toBe(true); // Polonia (Google Review Hub)
 
-    // Australia
+    // Australia y Asia-Pacífico autorizados (Google Operations)
     expect(ALLOWED_COUNTRIES.has('AU')).toBe(true); // Australia
+    expect(ALLOWED_COUNTRIES.has('IN')).toBe(true); // India (Google Ops)
+    expect(ALLOWED_COUNTRIES.has('SG')).toBe(true); // Singapur (Google APAC)
+    expect(ALLOWED_COUNTRIES.has('JP')).toBe(true); // Japón (Google Tokyo)
 
-    // Países NO autorizados deben estar excluidos
+    // Países NO autorizados deben seguir bloqueados
     expect(ALLOWED_COUNTRIES.has('RU')).toBe(false); // Rusia (Bloqueado)
     expect(ALLOWED_COUNTRIES.has('CN')).toBe(false); // China (Bloqueado)
-    expect(ALLOWED_COUNTRIES.has('IN')).toBe(false); // India (Bloqueado)
     expect(ALLOWED_COUNTRIES.has('NG')).toBe(false); // Nigeria (Bloqueado)
     expect(ALLOWED_COUNTRIES.has('VN')).toBe(false); // Vietnam (Bloqueado)
     expect(ALLOWED_COUNTRIES.has('IR')).toBe(false); // Irán (Bloqueado)
@@ -98,5 +104,36 @@ describe('Verificación de Políticas de Geo-Bloqueo y Lista Blanca de Países',
     const toml = fs.readFileSync(netlifyTomlPath, 'utf-8');
     expect(toml).toContain('geo-block');
     expect(toml).toContain('[[edge_functions]]');
+  });
+
+  it('5. geoBlockHandler otorga bypass incondicional a rastreadores de Google (Googlebot, Mediapartners-Google)', async () => {
+    const googleBots = [
+      'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)',
+      'Mediapartners-Google',
+      'Mozilla/5.0 (compatible; AdsBot-Google; +http://www.google.com/adsbot.html)',
+      'FeedFetcher-Google; (+http://www.google.com/feedfetcher.html)',
+      'Google-Adwords-Instant (+http://www.google.com/adsbot.html)',
+    ];
+
+    for (const botUa of googleBots) {
+      expect(GOOGLE_BOT_REGEX.test(botUa)).toBe(true);
+
+      let nextCalled = false;
+      const fakeRequest = new Request('https://kuskat.es/practice', {
+        headers: { 'user-agent': botUa },
+      });
+      const fakeContext = {
+        geo: { country: { code: 'RU' } }, // Proviene de país normalmente bloqueado
+        next: async () => {
+          nextCalled = true;
+          return new Response('OK', { status: 200 });
+        },
+        rewrite: async () => new Response('Blocked', { status: 403 }),
+      };
+
+      const res = await geoBlockHandler(fakeRequest, fakeContext);
+      expect(nextCalled).toBe(true);
+      expect(res.status).toBe(200);
+    }
   });
 });

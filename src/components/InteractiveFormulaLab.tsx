@@ -133,6 +133,170 @@ export const InteractiveFormulaLab: React.FC = () => {
         </div>
       </div>
 
+      {/* ==================================================================== */}
+      {/* MARCO TEÓRICO & COMPENDIO EDITORIAL SUSTANTIVO (>750 PALABRAS)       */}
+      {/* ==================================================================== */}
+      <section className="bg-white rounded-2xl border border-[#E5E3D8] p-6 sm:p-8 shadow-corporate-card space-y-6 text-[#1E293B]">
+        <div className="border-b border-[#EAE8DD] pb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+          <div className="space-y-1">
+            <div className="inline-flex items-center gap-2 text-xs font-bold font-mono-exam uppercase tracking-wider text-[#0B1B3D]">
+              <BookOpen className="w-4 h-4 text-[#C59B27]" />
+              <span>Fundamentos Biofísicos, Fisiológicos y Cinemáticos</span>
+            </div>
+            <h3 className="text-xl sm:text-2xl font-editorial font-bold text-[#0B1B3D]">
+              Marco Teórico y Doctrina Cuantitativa Oficial
+            </h3>
+          </div>
+          <span className="text-[10px] font-mono font-bold bg-[#F4F3ED] text-[#0B1B3D] px-3 py-1.5 rounded-lg border border-[#E2E0D5] self-start sm:self-auto">
+            MINSAL • MINED • OPS/OMS
+          </span>
+        </div>
+
+        {/* Introducción General */}
+        <div className="text-xs sm:text-sm text-[#334155] leading-relaxed space-y-3 font-serif-academic">
+          <p>
+            La modelación matemática y cuantitativa de fenómenos biofísicos constituye el cimiento metodológico
+            de la evaluación académica en el <strong>Examen de Residentado Médico (ENAR)</strong> normado por el
+            Ministerio de Salud (MINSAL), así como de las pruebas de admisión científica y olimpiadas nacionales
+            organizadas bajo las directrices del Ministerio de Educación, Ciencia y Tecnología (MINED) y los
+            estándares de la Organización Panamericana de la Salud (OPS/OMS). Lejos de representar formulaciones
+            puramente teóricas o abstractas, las ecuaciones diferenciales y relaciones algebraicas de fluidos,
+            equilibrio iónico, cinética de saturación enzimática y cinemática traslacional permiten predecir con
+            rigor analítico el comportamiento de variables vitales críticas en la práctica clínica y biofísica.
+          </p>
+          <p>
+            El propósito pedagógico de este laboratorio interactivo es transformar fórmulas complejas en modelos
+            cuantitativos explorables, facilitando la comprensión profunda de las cuatro leyes fundamentales evaluadas en los
+            exámenes de habilitación profesional y admisión universitaria: la hemodinámica vascular de Hagen-Poiseuille, el
+            equilibrio ácido-base de Henderson-Hasselbalch, la cinética enzimática de Michaelis-Menten en farmacología
+            compartimental y la descomposición vectorial del movimiento de proyectiles en física clásica y biomecánica clínica.
+          </p>
+        </div>
+
+        {/* 4 Módulos Teóricos Desglosados */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5 pt-2">
+          {/* Módulo 1: Poiseuille */}
+          <div className="bg-[#FAF9F5] rounded-xl border border-[#E5E3D8] p-5 space-y-3">
+            <div className="flex items-center gap-2 text-[#0B1B3D] font-bold text-sm">
+              <Activity className="w-4 h-4 text-[#9E472A]" />
+              <h4>1. Hemodinámica Vascular: Ley de Hagen-Poiseuille</h4>
+            </div>
+            <p className="text-xs text-[#475569] leading-relaxed">
+              La resistencia hidráulica en conductos cilíndricos rígidos con flujo laminar continuo de un fluido
+              newtoniano se modela mediante la formulación clásica de Hagen-Poiseuille:
+            </p>
+            <div className="p-2.5 bg-white rounded-lg border border-[#E2E0D5] text-center font-mono-exam text-xs text-[#0B1B3D] font-bold">
+              R = (8 · η · L) / (π · r⁴) &nbsp;|&nbsp; Q = ΔP / R
+            </div>
+            <p className="text-xs text-[#475569] leading-relaxed">
+              El postulado clínico más trascendental es la <strong>dependencia inversa con la cuarta potencia del radio vascular (r⁴)</strong>.
+              Una disminución luminal de tan solo un 16% en el lecho arteriolar duplica la resistencia vascular periférica total,
+              mientras que una vasodilatación al doble reduce la resistencia a un 6.25% de su valor inicial. Conforme a la
+              ley de Ohm hemodinámica (ΔP = Q · R), el gasto cardíaco y la presión arterial media dependen directamente
+              del tono vascular arteriolar y de la viscosidad sanguínea (η), la cual se eleva patológicamente en la policitemia vera o
+              disminuye en anemias agudas.
+            </p>
+            <p className="text-xs text-[#475569] leading-relaxed">
+              Adicionalmente, el <strong>Número de Reynolds</strong> (Re = ρ · v · D / η) predice la transición de flujo laminar ordenado a
+              flujo turbulento cuando sobrepasa el umbral crítico de 2,000, explicando la génesis de soplos cardíacos, turbulencia en
+              estenosis aórtica y el daño endotelial por estrés de cizallamiento en bifurcaciones carotídeas según guías del MINSAL.
+            </p>
+          </div>
+
+          {/* Módulo 2: Henderson-Hasselbalch */}
+          <div className="bg-[#FAF9F5] rounded-xl border border-[#E5E3D8] p-5 space-y-3">
+            <div className="flex items-center gap-2 text-[#0B1B3D] font-bold text-sm">
+              <Pipette className="w-4 h-4 text-[#1E7E34]" />
+              <h4>2. Equilibrio Ácido-Base: Ecuación de Henderson-Hasselbalch</h4>
+            </div>
+            <p className="text-xs text-[#475569] leading-relaxed">
+              El pH extracelular fisiológico oscila estrictamente en el estrecho rango de 7.35 a 7.45. La regulación del amortiguador primario
+              bicarbonato/ácido carbónico se formaliza mediante la ecuación de Henderson-Hasselbalch:
+            </p>
+            <div className="p-2.5 bg-white rounded-lg border border-[#E2E0D5] text-center font-mono-exam text-xs text-[#0B1B3D] font-bold">
+              pH = 6.10 + log₁₀ ( [HCO₃⁻] / [0.0307 · PCO₂] )
+            </div>
+            <p className="text-xs text-[#475569] leading-relaxed">
+              Bajo condiciones homeostáticas estándar ([HCO₃⁻] = 24 mEq/L, PCO₂ = 40 mmHg), el cociente de concentraciones
+              alcanza exactamente 20:1. Puesto que log₁₀(20) ≈ 1.30, el pH resultante es 6.10 + 1.30 = 7.40. Las
+              alteraciones de este cociente definen los cuatro disturbios ácido-base primarios: acidosis metabólica,
+              alcalosis metabólica, acidosis respiratoria y alcalosis respiratoria.
+            </p>
+            <p className="text-xs text-[#475569] leading-relaxed">
+              En acidosis metabólica, la <strong>Fórmula de Winter</strong> [PCO₂ esperada = (1.5 · [HCO₃⁻] + 8) ± 2] dictamina la
+              respuesta ventilatoria compensatoria adecuada para descartar trastornos mixtos. Simultáneamente, el cálculo del
+              <strong> Anión Gap sérico</strong> [AG = Na⁺ - (Cl⁻ + HCO₃⁻), rango fisiológico 8-12 mEq/L] discrimina entre acidosis
+              normoclorémicas con brecha normal (pérdidas gastrointestinales o renales) y acidosis con brecha elevada por acumulación de aniones
+              no medidos como cetoácidos en cetoacidosis diabética o lactato en hipoperfusión tisular según protocolos hospitalarios del MINSAL.
+            </p>
+          </div>
+
+          {/* Módulo 3: Michaelis-Menten y Farmacocinética */}
+          <div className="bg-[#FAF9F5] rounded-xl border border-[#E5E3D8] p-5 space-y-3">
+            <div className="flex items-center gap-2 text-[#0B1B3D] font-bold text-sm">
+              <Heart className="w-4 h-4 text-[#C59B27]" />
+              <h4>3. Cinética de Michaelis-Menten & Eliminación de Fármacos</h4>
+            </div>
+            <p className="text-xs text-[#475569] leading-relaxed">
+              La velocidad enzimática de biotransformación y la depuración saturable de fármacos siguen el modelo clásico
+              de saturación hiperbólica de Michaelis-Menten:
+            </p>
+            <div className="p-2.5 bg-white rounded-lg border border-[#E2E0D5] text-center font-mono-exam text-xs text-[#0B1B3D] font-bold">
+              v = (V_max · [S]) / (K_m + [S]) &nbsp;|&nbsp; t₁/₂ = (0.693 · Vd) / CL
+            </div>
+            <p className="text-xs text-[#475569] leading-relaxed">
+              A concentraciones terapéuticas donde la concentración de sustrato [S] es marcadamente inferior a Km, la cinética
+              es de primer orden y la velocidad de eliminación resulta directamente proporcional a la dosis administrada. Sin embargo, al saturarse
+              los sitios activos de transportadores o enzimas hepáticas del citocromo P450 ([S] &gt;&gt; Km), la tasa de aclaramiento pasa
+              a orden cero constante independiente de la dosis, desencadenando toxicidad acumulativa no lineal como ocurre típicamente con la
+              fenitoína, los salicilatos y el etanol.
+            </p>
+            <p className="text-xs text-[#475569] leading-relaxed">
+              En pautas de dosificación continua o repetida, el tiempo requerido para alcanzar la meseta terapéutica o estado estacionario
+              (*steady state*) depende exclusivamente de la vida media de eliminación (t₁/₂), requiriéndose 3.3 vidas medias para el 90%, 4 vidas
+              medias para el 93.75% y 5 vidas medias para el 96.88% de la concentración de equilibrio. Asimismo, la transformación de
+              <strong> Lineweaver-Burk</strong> (1/v frente a 1/[S]) permite distinguir con exactitud analítica los inhibidores competitivos
+              (que incrementan la Km aparente conservando Vmax) de los inhibidores no competitivos (que reducen la Vmax sin alterar la Km),
+              concepto evaluado en farmacología clínica por el CSSP y la SRS.
+            </p>
+          </div>
+
+          {/* Módulo 4: Cinemática de Proyectiles */}
+          <div className="bg-[#FAF9F5] rounded-xl border border-[#E5E3D8] p-5 space-y-3">
+            <div className="flex items-center gap-2 text-[#0B1B3D] font-bold text-sm">
+              <Zap className="w-4 h-4 text-[#2563EB]" />
+              <h4>4. Cinemática de Proyectiles y Mecánica Clásica</h4>
+            </div>
+            <p className="text-xs text-[#475569] leading-relaxed">
+              El tiro parabólico ilustra el principio galileano de superposición e independencia de movimientos en dos ejes ortogonales:
+              un movimiento rectilíneo uniforme horizontal a velocidad constante y un movimiento rectilíneo uniformemente acelerado vertical bajo
+              la acción del campo gravitatorio terrestre:
+            </p>
+            <div className="p-2.5 bg-white rounded-lg border border-[#E2E0D5] text-center font-mono-exam text-xs text-[#0B1B3D] font-bold">
+              R = (v₀² · sen 2θ) / g &nbsp;|&nbsp; H_máx = (v₀² · sen²θ) / (2g)
+            </div>
+            <p className="text-xs text-[#475569] leading-relaxed">
+              El tiempo total de permanencia en el aire está dictado por t = (2 · v₀ · sen θ) / g. Dado que la función sen(2θ) alcanza su
+              máximo valor de 1.0 en 2θ = 90°, el ángulo de elevación que produce el alcance horizontal máximo sobre superficie plana
+              es exactamente 45° en ausencia de resistencia aerodinámica. En cada instante de la trayectoria, el vector velocidad instantánea
+              satisface v = √(vx² + vy²), mientras que la conservación de la energía mecánica total asegura el intercambio perpetuo entre
+              energía cinética traslacional (½ · m · v²) y energía potencial gravitatoria (m · g · h).
+            </p>
+            <p className="text-xs text-[#475569] leading-relaxed">
+              Estos postulados cinemáticos y dinámicos son rigurosamente evaluados en las pruebas de admisión científica de la Universidad de El Salvador,
+              en los programas curriculares de física del MINED ESMATE Bachillerato, y resultan indispensables en biomecánica ortopédica para el análisis
+              de marcha y traumatología de lesiones por desaceleración e impacto.
+            </p>
+          </div>
+        </div>
+
+        {/* Cita Institucional Obligatoria */}
+        <div className="pt-2 border-t border-[#EAE8DD] text-[11px] text-[#64748B] flex items-center justify-between">
+          <span>Fuente y Referencias Oficiales: Ministerio de Salud (MINSAL) • MINED ESMATE • OPS/OMS Fisiología</span>
+          <span className="font-mono text-[#0B1B3D] font-bold">KUSKAT Docencia Biomédica</span>
+        </div>
+      </section>
+
       {/* Selector de Pestañas de Fórmulas */}
       <div className="flex items-center gap-2 overflow-x-auto scrollbar-none pb-1">
         <button

@@ -114,6 +114,10 @@ export const AdBanner: React.FC<AdBannerProps> = ({
     return null;
   }
 
+  const isNumericSlot = Boolean(slotId && /^\d{10}$/.test(slotId.trim()));
+  const isTestSlot = Boolean(slotId && slotId.endsWith('_test'));
+  const effectiveSlot = isNumericSlot ? slotId.trim() : isTestSlot ? slotId : undefined;
+
   const isDark = variant === 'dark';
 
   return (
@@ -148,7 +152,7 @@ export const AdBanner: React.FC<AdBannerProps> = ({
             className="adsbygoogle"
             style={{ display: 'block', width: '100%', height: '50px' }}
             data-ad-client="ca-pub-4241045160320459"
-            data-ad-slot={slotId}
+            {...(effectiveSlot ? { 'data-ad-slot': effectiveSlot } : {})}
             data-ad-format="horizontal"
             data-full-width-responsive="true"
           />

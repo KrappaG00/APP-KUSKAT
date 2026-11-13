@@ -2463,17 +2463,13 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
       {/* Tabla de Estadísticas y Top 10 KUSKAT */}
       <LeaderboardSection onOpenAccountModal={onOpenAccountModal} />
 
-      {/* 2 Anuncios Abajo de Resultados */}
-      <div className="space-y-3 pt-2">
+      {/* 1 Anuncio Abajo de Resultados (Eliminado ad stacking) */}
+      {/* Nota AdSense: el slot secundario duplicado 4241045160_sr_b2 fue removido para erradicar ad stacking */}
+      <div className="pt-2">
         <AdBanner
           variant="light"
-          positionLabel="Simulador Resultados • 1/2 Inferior"
+          positionLabel="Simulador Resultados • Inferior"
           slotId="4241045160_sr_b1"
-        />
-        <AdBanner
-          variant="light"
-          positionLabel="Simulador Resultados • 2/2 Inferior"
-          slotId="4241045160_sr_b2"
         />
       </div>
 

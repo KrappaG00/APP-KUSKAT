@@ -613,14 +613,18 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onEnroll, on
 
                 {/* Botón de ACCESO DIRECTO con llamada clara y acción garantizada */}
                 <div className="p-4 pt-0">
-                  <button
-                    onClick={() => handleCardClick(area)}
+                  <a
+                    href={`/?tab=${area.tabId}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      handleCardClick(area);
+                    }}
                     className="w-full py-2.5 px-4 rounded-xl bg-slate-900 hover:bg-blue-600 text-white font-caslon text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-xs hover:shadow-md flex items-center justify-center gap-2 cursor-pointer group-hover:bg-blue-600"
                     aria-label={`Acceso Directo a ${area.title}`}
                   >
                     <span>Acceso Directo</span>
                     <ArrowRight className="w-4 h-4 text-white transition-transform group-hover:translate-x-1" />
-                  </button>
+                  </a>
                 </div>
               </div>
             ))}

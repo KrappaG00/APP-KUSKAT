@@ -2562,11 +2562,10 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
       })()}
 
       {/* ==================================================================== */}
-      {/* 2 ANUNCIOS PATROCINADOS INFERIORES GLOBALES EN IDIOMAS */}
+      {/* 1 ANUNCIO PATROCINADO INFERIOR GLOBAL EN IDIOMAS (Sin Ad Stacking)  */}
       {/* ==================================================================== */}
-      <div className="pt-4 space-y-4">
-        <AdBanner positionLabel="Idiomas - Inferior 1" />
-        <AdBanner positionLabel="Idiomas - Inferior 2" />
+      <div className="pt-4">
+        <AdBanner positionLabel="Idiomas - Inferior" />
       </div>
     </div>
   );

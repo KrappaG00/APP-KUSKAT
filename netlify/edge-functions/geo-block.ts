@@ -13,6 +13,9 @@ interface NetlifyContext {
   rewrite: (url: string) => Promise<Response>;
 }
 
+export const GOOGLE_BOT_REGEX =
+  /(Googlebot|Mediapartners-Google|AdsBot-Google|Google-Adwords|FeedFetcher-Google)/i;
+
 export const ALLOWED_COUNTRIES = new Set([
   // Norteamérica
   'US', 'CA', 'MX', 'GL', 'BM', 'PM',
@@ -23,10 +26,10 @@ export const ALLOWED_COUNTRIES = new Set([
   'CW', 'AW', 'SX', 'KY', 'TC', 'VG', 'VI', 'MQ', 'GP', 'AI', 'MS', 'BL', 'MF', 'BQ',
   // Sudamérica
   'CO', 'VE', 'EC', 'PE', 'BO', 'CL', 'AR', 'UY', 'PY', 'BR', 'GY', 'SR', 'GF', 'FK',
-  // Europa autorizada
-  'ES', 'PT', 'FR', 'DE', 'CH', 'IT', 'RO',
-  // Oceanía
-  'AU',
+  // Europa autorizada y centros de revisión / operaciones Google
+  'ES', 'PT', 'FR', 'DE', 'CH', 'IT', 'RO', 'IE', 'GB', 'NL', 'PL',
+  // Oceanía y centros Google Asia-Pacífico
+  'AU', 'IN', 'SG', 'JP',
 ]);
 
 const STATIC_FILE_EXTENSIONS = [
@@ -35,6 +38,12 @@ const STATIC_FILE_EXTENSIONS = [
 ];
 
 export default async function geoBlockHandler(request: Request, context: NetlifyContext) {
+  // 0. Bypass incondicional para rastreadores e indexadores oficiales de Google (AdSense, AdsBot, Googlebot)
+  const userAgent = request.headers.get('user-agent') || '';
+  if (GOOGLE_BOT_REGEX.test(userAgent)) {
+    return context.next();
+  }
+
   const url = new URL(request.url);
 
   // 1. Siempre permitir verificación de motores de búsqueda, sitemaps y ads.txt

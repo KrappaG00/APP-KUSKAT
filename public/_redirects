@@ -12,8 +12,8 @@
 /kuskat_logo.png      /kuskat_logo.png      200
 /geo-blocked.html     /geo-blocked.html     200
 
-# 2. Acceso permitido a países autorizados (América, Caribe, España, Portugal, Francia, Alemania, Suiza, Italia, Rumania, Australia)
-/*    /index.html    200    Country=us,ca,mx,gl,bm,pm,sv,gt,hn,ni,cr,pa,bz,cu,do,ht,pr,jm,bs,tt,bb,lc,vc,gd,ag,dm,kn,cw,aw,sx,ky,tc,vg,vi,mq,gp,ai,ms,bl,mf,bq,co,ve,ec,pe,bo,cl,ar,uy,py,br,gy,sr,gf,fk,es,pt,fr,de,ch,it,ro,au
+# 2. Acceso permitido a países autorizados (América, Caribe, España, Portugal, Francia, Alemania, Suiza, Italia, Rumania, Australia, Irlanda, Reino Unido, Países Bajos, Polonia, India, Singapur, Japón)
+/*    /index.html    200    Country=us,ca,mx,gl,bm,pm,sv,gt,hn,ni,cr,pa,bz,cu,do,ht,pr,jm,bs,tt,bb,lc,vc,gd,ag,dm,kn,cw,aw,sx,ky,tc,vg,vi,mq,gp,ai,ms,bl,mf,bq,co,ve,ec,pe,bo,cl,ar,uy,py,br,gy,sr,gf,fk,es,pt,fr,de,ch,it,ro,au,ie,gb,nl,pl,in,sg,jp
 
 # 3. Resto del mundo bloqueado automáticamente con 403 Forbidden
 /*    /geo-blocked.html    403!
