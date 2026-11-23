@@ -560,7 +560,7 @@ El control de constitucionalidad en El Salvador opera a través de un modelo dua
 2. Control Concentrado o Abstracto (Arts. 174 y 183 Cn.): Atribuido con exclusividad a la Sala de lo Constitucional de la Corte Suprema de Justicia para declarar la invalidez de leyes con efectos erga omnes a través de los procesos de Inconstitucionalidad, Amparo y Hábeas Corpus.
 3. Bloque de Constitucionalidad y Control de Convencionalidad (Art. 144 Cn.): En virtud del principio monista moderado consagrado en el Art. 144 de la Constitución, los tratados internacionales de derechos humanos ratificados por El Salvador ostentan jerarquía supralegal superior a cualquier ley secundaria ordinaria. Conforme a la doctrina vinculante de la Sala de lo Constitucional, los derechos y garantías consagrados en la Convención Americana sobre Derechos Humanos (Pacto de San José) forman parte del bloque de constitucionalidad, obligando a los jueces ordinarios a ejercer de oficio el control de convencionalidad difuso frente a leyes internas incompatibles.
 4. Principios Hermenéuticos Constitucionales: La interpretación de la Carta Magna salvadoreña se rige por los cánones de unidad de la Constitución, concordancia práctica (armonización de bienes jurídicos constitucionales en tensión sin anular ninguno de ellos), eficacia integradora y el principio pro-libertate o favor constitutionis.
-5. Cláusulas Pétreas y Límites Materiales a la Reforma (Art. 248 inc. 4° Cn.): El ordenamiento salvadoreño distingue con nitidez entre el poder constituyente originario y el poder constituyente derivado o reformador. El Art. 248 inc. 4° prohíbe de forma taxativa e inderogable modificar la forma republicana, democrática y representativa de gobierno, el territorio de la República y el principio de alternabilidad en el ejercicio de la Presidencia de la República.
+5. Cláusulas Pétreas y Reforma Constitucional Vigente (Art. 248 Cn., reforma D.L. N.° 197/2025): El ordenamiento salvadoreño distingue entre el poder constituyente originario y el poder constituyente derivado o reformador. El Art. 248 inc. 4° prohíbe modificar la forma republicana, democrática y representativa de gobierno, el territorio de la República y el principio de alternabilidad en la Presidencia. Asimismo, la reforma constitucional al Art. 248 (D.L. N.° 197/2025) incorporó un mecanismo de ratificación legislativa dentro de la misma legislatura con mayoría calificada, en armonía con la reestructuración orgánica del Estado (Asamblea Legislativa integrada por 60 diputaciones y organización territorial de 44 municipios con 262 distritos).
 6. Régimen de Excepción y Garantías Inderogables (Arts. 29 a 31 Cn.): En situaciones de extrema anomalía institucional (guerra, rebelión, catástrofe pública o graves perturbaciones al orden público), la Asamblea Legislativa puede suspender de forma temporal ciertas libertades (entrada y salida del territorio, libertad de expresión, asociación e inviolabilidad de correspondencia), pero jamás podrá suspenderse el derecho a la vida, la integridad física, la prohibición de tortura ni la garantía judicial del proceso de Hábeas Corpus para verificar la legalidad material de la privación de libertad.`,
     entries: [
       {
@@ -652,7 +652,7 @@ El control de constitucionalidad en El Salvador opera a través de un modelo dua
 Principios rectores del sistema penal salvadoreño:
 1. Principio de Culpabilidad (Art. 4 Pn): La pena no puede superar la medida de la culpabilidad del autor. Se prohíbe taxativamente la responsabilidad objetiva; nadie puede ser sancionado penalmente por el simple resultado fortuito o sin la concurrencia probada de dolo (conocimiento y voluntad de realizar el tipo) o culpa (inobservancia del deber objetivo de cuidado).
 2. Principio de Lesividad o Exclusiva Protección de Bienes Jurídicos (Art. 3 Pn): El derecho penal solo interviene cuando una conducta exteriorizada lesiona o pone efectivamente en peligro concreto un bien jurídico fundamental (la vida, la libertad, el patrimonio, la salud pública). Se descarta el derecho penal de autor o moralizante; solo se juzgan actos y hechos materiales.
-3. Principio de Proporcionalidad y Humanidad de las Penas (Art. 27 Cn.): La Constitución salvadoreña prohíbe de forma taxativa las penas de muerte (salvo traición militar en guerra extranjera), la prisión perpetua y las penas crueles, infamantes o degradantes. Conforme al Art. 27 inc. 3° Cn., las instituciones penitenciarias tienen una finalidad eminentemente preventiva, educativa y de reinserción social de los condenados.
+3. Principio de Proporcionalidad y Régimen de Penas Vigente (Art. 27 Cn. y D.L. N.° 537/2026): Conforme a las reformas constitucionales al Art. 27 Cn. y a la reforma penal mediante D.L. N.° 537/2026 (Art. 45 CP), el sistema punitivo salvadoreño incorporó la pena de prisión perpetua para delitos de extrema gravedad, manteniendo la prohibición absoluta de tortura, tratos crueles o degradantes y la prisión por deudas. Asimismo, la reforma al Art. 147-E CP instauró la Cero Tolerancia al alcohol al volante (penas de 2 a 5 años para particulares y 5 a 10 años para transporte colectivo o carga, con restricción de conciliación). Conforme al Art. 27 inc. 3° Cn., los centros penitenciarios procuran la readaptación y prevención de los delitos.
 4. Teoría Estratificada del Delito y Causas de Justificación: En la dogmática penal salvadoreña, el delito es una acción u omisión humana típica, antijurídica y culpable. La antijuridicidad se excluye mediante causas de justificación legítimas (Art. 27 Pn): legítima defensa (concurrencia de agresión ilegítima, necesidad racional del medio empleado y falta de provocación suficiente), estado de necesidad justificante (salvaguarda de un bien mayor sacrificando uno menor) y cumplimiento de un deber legal o ejercicio legítimo de un derecho.
 5. Formas de Autoría y Participación Criminal (Arts. 32 a 37 Pn): El ordenamiento penal sanciona de modo diferenciado la autoría directa (quien realiza por sí el verbo típico rector), la coautoría (quienes ejecutan conjuntamente el hecho con condominio funcional y plan acordado), la autoría mediata (quien se sirve de otro como instrumento inculpable o inimputable), la instigación (quien determina directamente a otro a delinquir) y la complicidad necesaria o no necesaria (quien presta auxilio previo o concomitante).
 6. Causas de Inculpabilidad e Inimputabilidad (Arts. 27 y 28 Pn): Se excluye la culpabilidad cuando el agente actúa bajo miedo insuperable de un mal igual o mayor, error de prohibición invencible (creencia fundada e insuperable de que la conducta es lícita) o inimputabilidad por minoría de edad o enajenación mental sobrevenida, correspondiendo en este último caso medidas de seguridad curativas que jamás podrán superar la duración máxima de la pena de prisión prevista para el delito.
@@ -671,10 +671,10 @@ Principios rectores del sistema penal salvadoreño:
         analyticalCommentary: 'Garantía del Juez Natural y prohibición de retroactividad penal perjudicial. Protege al ciudadano frente a la persecución política retrospectiva o la creación ad-hoc de comisiones juzgadoras extraordinarias.',
       },
       {
-        articleRef: 'Art. 27 de la Constitución de la República',
-        literalText: 'Sólo podrá imponerse la pena de muerte en los casos previstos por las leyes militares durante el estado de guerra internacional. Se prohíbe la prisión por deudas, las penas perpetuas, las infamantes, las proscriptivas y toda especie de tormento. El Estado organizará los centros penitenciarios con el objeto de corregir a los delincuentes, educarlos y formarles hábitos de trabajo, procurando su readaptación y la prevención de los delitos.',
-        simplifiedText: 'Límites a las Penas y Fin Readaptador: Se prohíben las torturas, las cadenas perpetuas y las cárceles por deudas de dinero. Las prisiones deben reeducar y resocializar a los internos mediante el trabajo y el estudio, no destruirlos.',
-        analyticalCommentary: 'Fija los estándares humanitarios de la sanción penal. La Sala de lo Constitucional declaró en base a este artículo el Estado de Cosas Inconstitucional por hacinamiento severo en recintos de detención.',
+        articleRef: 'Art. 27 de la Constitución de la República (y reforma D.L. N.° 537/2026 al Art. 45 CP)',
+        literalText: 'Sólo podrá imponerse la pena de muerte en los casos previstos por las leyes militares durante el estado de guerra internacional. Se prohíbe la prisión por deudas, las penas infamantes, las proscriptivas y toda especie de tormento. El Estado organizará los centros penitenciarios con el objeto de corregir a los delincuentes, educarlos y formarles hábitos de trabajo, procurando su readaptación y la prevención de los delitos.',
+        simplifiedText: 'Límites a las Penas y Fin Readaptador: Se prohíben las torturas y la prisión por deudas de dinero. Con las reformas constitucionales y el D.L. N.° 537/2026 (Art. 45 CP), se incorporó la prisión perpetua para delitos de extrema gravedad, manteniendo la obligación penitenciaria de prevenir el delito.',
+        analyticalCommentary: 'Fija los estándares del sistema punitivo salvadoreño y la finalidad preventiva y readaptadora de los centros penitenciarios, armonizados con la reforma al Art. 45 del Código Penal (D.L. N.° 537/2026).',
       },
     ],
     solvedCases: [
@@ -742,7 +742,7 @@ Principios rectores del sistema penal salvadoreño:
     badgeColor: 'bg-indigo-100 text-indigo-900 border-indigo-200',
     summary: 'Conjunto de principios y normas formales que disciplinan la tutela judicial efectiva, el debido proceso, la inmediación probatoria y la ejecución forzosa ante los tribunales salvadoreños.',
     doctrinalBasis: 'Garantía del debido proceso legal (due process of law), contradicción, igualdad de armas, congruencia judicial y prohibición del doble juzgamiento (non bis in idem).',
-    substantiveAnalysis: `El Derecho Procesal constituye el vehículo instrumental a través del cual cobran vida y eficacia los derechos materiales tutelados por el ordenamiento jurídico. En El Salvador, la codificación procesal moderna se consolida a través de dos grandes cuerpos normativos: el Código Procesal Civil y Mercantil (CPCM, D.L. 711) y el Código Procesal Penal (PrPn, D.L. 733). Ambos ordenamientos abandonaron el vetusto sistema escriturario, inquisitivo y secreto del siglo XIX para abrazar el modelo por audiencias orales, presidido por los principios rectores de inmediación, concentración, contradicción, publicidad y celeridad procesal.
+    substantiveAnalysis: `El Derecho Procesal constituye el vehículo instrumental a través del cual cobran vida y eficacia los derechos materiales tutelados por el ordenamiento jurídico. En El Salvador, la codificación procesal moderna se consolida a través de dos grandes cuerpos normativos: el Código Procesal Civil y Mercantil (CPCM, D.L. 712) y el Código Procesal Penal (PrPn, D.L. 733, actualizado mediante D.L. N.° 534/2026 en materia de imprescriptibilidad de la acción penal y agilización procedimental). Ambos ordenamientos abandonaron el vetusto sistema escriturario, inquisitivo y secreto del siglo XIX para abrazar el modelo por audiencias orales, presidido por los principios rectores de inmediación, concentración, contradicción, publicidad y celeridad procesal.
 
 El núcleo constitucional de la materia procesal reside en el Art. 11 de la Constitución: ninguna persona puede ser privada de su vida, libertad, propiedad o posesión sin haber sido previamente oída y vencida en juicio justo con arreglo a las leyes preexistentes. De este mandato supremo derivan las siguientes garantías esenciales:
 1. Derecho a la Tutela Judicial Efectiva (Art. 2 y 11 Cn.): Acceso libre a los tribunales sin obstáculos formalistas injustificados (pro actione), derecho a obtener una resolución de fondo motivada en derecho y derecho a la ejecución efectiva de lo juzgado.
@@ -1231,7 +1231,7 @@ Marco constitucional económico:
 3. Límites a la Usura y Tutela de los Deudores (Art. 101 Cn. y Ley Contra la Usura): El orden económico responde a principios de justicia social. Se prohíben los intereses usurarios o anatocismos desproporcionados en operaciones de crédito bancario o mercantil.
 
 Régimen Societario y Gobierno Corporativo:
-- Clasificación de Sociedades Mercantiles (Arts. 18 a 305 C.Com.): El Código de Comercio distingue las sociedades de personas (Nombre Colectivo, Comandita Simple y Responsabilidad Limitada S. de R.L.) y las sociedades de capitales (Sociedad Anónima S.A., Comandita por Acciones y la moderna Sociedad por Acciones Simplificada S.A.S. introducida por la reforma de 2024 para agilizar el emprendimiento unipersonal con registro mercantil digital acelerado).
+- Clasificación de Sociedades Mercantiles (Arts. 18 a 305-A y sigs. C.Com.): El Código de Comercio distingue las sociedades de personas (Nombre Colectivo, Comandita Simple y Responsabilidad Limitada S. de R.L.) y las sociedades de capitales (Sociedad Anónima S.A., Comandita por Acciones y la moderna Sociedad por Acciones Simplificada S.A.S., incorporada en el Capítulo VIII-Bis por D.L. N.° 905, constituible desde un solo accionista mediante formularios especiales del Registro de Comercio del CNR sin escritura pública, con capital mínimo de $1.00 USD y gratuidad arancelaria prorrogada hasta el 31 de diciembre de 2027). Adicionalmente, el marco mercantil y tecnológico se fortaleció con la Ley de Propiedad Intelectual / ISPI (D.L. 66/2024), la Ley de Ciberseguridad (D.L. 143/2024) y la Ley para la Protección de Datos Personales (D.L. 144/2024).
 - Órganos de Gobierno en la Sociedad Anónima: La Junta General de Accionistas como máxima autoridad soberana de decisión ordinaria y extraordinaria; la administración societaria unipersonal (Administrador Único) o colegiada (Junta Directiva) con estricto deber fiduciario de diligencia y lealtad; y la vigilancia fiscal y contable obligatoria depositada en el Auditor Externo nombrado anualmente.
 
 Títulos Valores, Contratación Mercantil y Tutela Cambiaria:
@@ -1509,3 +1509,459 @@ Ejes dogmáticos rectores del sistema de familia salvadoreño:
   },
 ];
 
+
+export interface LegalBranchQuestion {
+  id: string;
+  branchId: string;
+  branchLabel: string;
+  topic: string;
+  legalBasis: string;
+  statement: string;
+  options: Record<'A' | 'B' | 'C' | 'D', string>;
+  correctAnswer: 'A' | 'B' | 'C' | 'D';
+  explanation: string;
+  distractorRationale: Record<'A' | 'B' | 'C' | 'D', string>;
+}
+
+export const LEGAL_BRANCH_QUIZ_QUESTIONS: LegalBranchQuestion[] = [
+  {
+    id: 'jus-sv-01',
+    branchId: 'constitucional',
+    branchLabel: 'Constitucional & Municipal',
+    topic: 'Reforma Constitucional Art. 248 Cn. (D.L. N.° 197/2025)',
+    legalBasis: 'Constitución de la República, Art. 248 (reforma D.L. N.° 197/2025).',
+    statement: 'Conforme a la reforma constitucional al Art. 248 Cn. aprobada mediante D.L. N.° 197/2025, ¿qué innovación procesal se introdujo para la ratificación de reformas a la Constitución?',
+    options: {
+      A: 'Exige obligatoriamente un referéndum municipal en los 44 municipios antes de publicar cualquier decreto.',
+      B: 'Habilita que una reforma constitucional aprobada pueda ser ratificada dentro de la misma legislatura mediante votación de mayoría calificada.',
+      C: 'Traslada la facultad exclusiva de reformar la Constitución a la Sala de lo Contencioso Administrativo.',
+      D: 'Elimina la intervención de la Asamblea Legislativa y la sustituye por decreto ejecutivo.'
+    },
+    correctAnswer: 'B',
+    explanation: 'El D.L. N.° 197/2025 reformó el Art. 248 Cn. permitiendo que la ratificación de reformas constitucionales pueda realizarse dentro de la misma legislatura con mayoría calificada, agilizando el procedimiento constituyente derivado.',
+    distractorRationale: {
+      A: 'La Constitución salvadoreña no exige referéndum municipal previo para validar reformas al texto constitucional.',
+      B: 'El D.L. N.° 197/2025 modificó el Art. 248 Cn. precisamente para permitir la ratificación dentro de la misma legislatura por mayoría calificada.',
+      C: 'La Sala de lo Contencioso Administrativo controla actos administrativos, careciendo de potestad constituyente.',
+      D: 'El Órgano Ejecutivo no tiene potestad para reformar la Constitución por vía de decreto.'
+    }
+  },
+  {
+    id: 'jus-sv-02',
+    branchId: 'constitucional',
+    branchLabel: 'Constitucional & Municipal',
+    topic: 'Reestructuración Municipal y Composición Legislativa (2024–2026)',
+    legalBasis: 'Código Electoral (reforma 60 diputados) y Ley Especial para la Reestructuración Municipal (D.L. N.° 762).',
+    statement: 'Según las reformas electorales y municipales vigentes en El Salvador para el período 2024–2027, ¿cómo quedaron integrados la Asamblea Legislativa y los gobiernos locales?',
+    options: {
+      A: '84 diputaciones propietarias y 262 alcaldías autónomas independientes.',
+      B: '60 diputaciones propietarias y 44 municipios integrados por 262 distritos.',
+      C: '100 diputaciones nacionales y 14 gobernaciones departamentales electas.',
+      D: '50 diputaciones y 14 municipios únicos sin distritos administrativos.'
+    },
+    correctAnswer: 'B',
+    explanation: 'Las reformas al Código Electoral redujeron la Asamblea Legislativa a 60 diputados propietarios, y la Ley Especial para la Reestructuración Municipal organizó el territorio en 44 municipios compuestos por 262 distritos.',
+    distractorRationale: {
+      A: 'La conformación de 84 diputados y 262 municipios autónomos quedó derogada con las reformas vigentes desde 2024.',
+      B: 'Refleja exactamente la integración vigente de 60 diputaciones y 44 municipios con 262 distritos.',
+      C: 'El sistema salvadoreño no contempla 100 curules ni gobernaciones electas por sufragio.',
+      D: 'Los antiguos municipios se convirtieron en 262 distritos agrupados dentro de los 44 nuevos municipios.'
+    }
+  },
+  {
+    id: 'jus-sv-03',
+    branchId: 'penal',
+    branchLabel: 'Penal',
+    topic: 'Prisión Perpetua en el Código Penal (D.L. N.° 537/2026)',
+    legalBasis: 'Código Penal, Art. 45 (reforma D.L. N.° 537/2026) y Art. 27 Cn.',
+    statement: '¿Qué modificación fundamental incorporó el Decreto Legislativo N.° 537/2026 al catálogo de penas principales del Art. 45 del Código Penal salvadoreño?',
+    options: {
+      A: 'Sustituyó toda pena privativa de libertad por multas administrativas.',
+      B: 'Incorporó la pena de prisión perpetua para delitos de extrema gravedad.',
+      C: 'Redujo la pena máxima de prisión a un tope absoluto de 15 años.',
+      D: 'Instauró la prisión por deudas civiles y mercantiles.'
+    },
+    correctAnswer: 'B',
+    explanation: 'Mediante el D.L. N.° 537/2026 se reformó el Art. 45 del Código Penal para incorporar la pena de prisión perpetua como sanción principal aplicable a delitos de extrema gravedad.',
+    distractorRationale: {
+      A: 'El sistema penal mantiene la prisión como pena principal para delitos graves.',
+      B: 'El D.L. N.° 537/2026 introdujo formalmente la prisión perpetua en el Art. 45 CP.',
+      C: 'Lejos de reducir el tope punitivo a 15 años, la reforma de 2026 amplió la severidad penal hasta la prisión perpetua.',
+      D: 'La prohibición de prisión por deudas permanece vigente en el Art. 27 de la Constitución.'
+    }
+  },
+  {
+    id: 'jus-sv-04',
+    branchId: 'penal',
+    branchLabel: 'Penal',
+    topic: 'Conducción Peligrosa bajo Cero Tolerancia (Art. 147-E CP)',
+    legalBasis: 'Código Penal, Art. 147-E (reforma dic. 2024) y Ley de Transporte Terrestre.',
+    statement: 'Bajo la reforma vigente de Cero Tolerancia al Art. 147-E del Código Penal, ¿cuál es la escala de penas de prisión para el delito de Conducción Peligrosa?',
+    options: {
+      A: 'Multa de $57.14 sin pena de prisión cuando el nivel es menor a 100 mg/dl.',
+      B: 'De 2 a 5 años de prisión para conductores particulares y de 5 a 10 años para conductores de transporte colectivo o carga, con restricción de conciliación.',
+      C: 'Únicamente trabajo de utilidad pública de 10 a 30 días.',
+      D: 'De 1 a 3 años solo si ocurre fallecimiento de terceros.'
+    },
+    correctAnswer: 'B',
+    explanation: 'La reforma vigente al Art. 147-E CP eliminó los rangos de tolerancia previos e impuso penas de 2 a 5 años de prisión a particulares y de 5 a 10 años a motoristas de transporte colectivo o carga, restringiendo la conciliación.',
+    distractorRationale: {
+      A: 'Los umbrales de 0–49 y 50–99 mg/dl y la multa de $57.14 fueron derogados por la reforma de Cero Tolerancia.',
+      B: 'Corresponde exactamente a los marcos penales vigentes del Art. 147-E CP para particulares y transporte colectivo/carga.',
+      C: 'El delito de Conducción Peligrosa conlleva pena privativa de libertad formal, no mera labor comunitaria.',
+      D: 'Es un delito de peligro abstracto que se consuma por conducir con cualquier nivel positivo de alcohol sin requerir siniestro.'
+    }
+  },
+  {
+    id: 'jus-sv-05',
+    branchId: 'procesal',
+    branchLabel: 'Procesal Penal',
+    topic: 'Reforma Procesal Penal D.L. N.° 534/2026',
+    legalBasis: 'Código Procesal Penal (reforma D.L. N.° 534/2026).',
+    statement: '¿Cuál fue uno de los ejes centrales de la reforma al Código Procesal Penal aprobada mediante D.L. N.° 534/2026?',
+    options: {
+      A: 'Ampliar los supuestos de imprescriptibilidad de la acción penal y actualizar trámites procedimentales en delitos graves.',
+      B: 'Eliminar la intervención de la Fiscalía General de la República en delitos de acción pública.',
+      C: 'Restablecer el proceso penal escrito y secreto del siglo XIX.',
+      D: 'Suprimir el control judicial de la cadena de custodia.'
+    },
+    correctAnswer: 'A',
+    explanation: 'El D.L. N.° 534/2026 reformó el Código Procesal Penal para ampliar los supuestos de imprescriptibilidad de la acción penal en delitos graves y agilizar etapas procedimentales.',
+    distractorRationale: {
+      A: 'Sintetiza fielmente el contenido de la reforma procesal penal introducida por el D.L. N.° 534/2026.',
+      B: 'La FGR conserva el monopolio constitucional de la acción penal pública conforme al Art. 193 Cn.',
+      C: 'El sistema procesal penal salvadoreño se mantiene oral, público y adversarial.',
+      D: 'Las reglas de cadena de custodia de los Arts. 250–252 PrPn siguen plenamente vigentes.'
+    }
+  },
+  {
+    id: 'jus-sv-06',
+    branchId: 'procesal',
+    branchLabel: 'Procesal Civil y Mercantil',
+    topic: 'Estructura del Proceso Común en el CPCM',
+    legalBasis: 'Código Procesal Civil y Mercantil, Arts. 239, 290 y 402.',
+    statement: 'En el proceso declarativo común regulado por el Código Procesal Civil y Mercantil (CPCM), ¿cuáles son las dos audiencias orales principales en que se desarrolla el debate y la prueba?',
+    options: {
+      A: 'Audiencia Inicial y Audiencia de Vista Pública.',
+      B: 'Audiencia Preparatoria y Audiencia Probatoria.',
+      C: 'Audiencia de Conciliación Municipal y Audiencia de Casación.',
+      D: 'Audiencia de Imputación y Audiencia de Sentencia Familiar.'
+    },
+    correctAnswer: 'B',
+    explanation: 'El CPCM estructura el proceso común en torno a la Audiencia Preparatoria (saneamiento, fijación del objeto del debate y proposición de prueba) y la Audiencia Probatoria (práctica de prueba y alegatos finales).',
+    distractorRationale: {
+      A: 'La Audiencia Inicial y Vista Pública pertenecen al proceso penal, no al proceso común civil y mercantil.',
+      B: 'Son las dos audiencias cardinales del proceso declarativo común en el CPCM.',
+      C: 'No existen esas denominaciones en la estructura del proceso declarativo común civil.',
+      D: 'La Audiencia de Sentencia corresponde a la Ley Procesal de Familia.'
+    }
+  },
+  {
+    id: 'jus-sv-07',
+    branchId: 'familia',
+    branchLabel: 'Familia & Niñez',
+    topic: 'Centros de Atención a la Primera Infancia (CAPI) - Ley Crecer Juntos',
+    legalBasis: 'Ley Crecer Juntos (D.L. N.° 431), Art. 137 y reformas 2024–2025.',
+    statement: 'Conforme a la Ley Crecer Juntos (D.L. N.° 431 y reformas al Art. 137), ¿qué institución ejerce la rectoría del Sistema Nacional de Protección Integral y autoriza los Centros de Atención a la Primera Infancia (CAPI)?',
+    options: {
+      A: 'El antiguo Instituto Salvadoreño para el Desarrollo Integral de la Niñez y la Adolescencia (ISNA).',
+      B: 'El Consejo Nacional de la Primera Infancia, Niñez y Adolescencia (CONAPINA).',
+      C: 'La Superintendencia General de Electricidad y Telecomunicaciones (SIGET).',
+      D: 'El Registro Nacional de las Personas Naturales (RNPN).'
+    },
+    correctAnswer: 'B',
+    explanation: 'La Ley Crecer Juntos creó el CONAPINA como ente rector del sistema de protección integral, encargado de autorizar, supervisar y regular los CAPI conforme al Art. 137.',
+    distractorRationale: {
+      A: 'El ISNA y el CONNA fueron sustituidos e integrados en el CONAPINA por la Ley Crecer Juntos.',
+      B: 'El CONAPINA es la autoridad rectora competente para la autorización y supervisión de los CAPI.',
+      C: 'SIGET regula electricidad y telecomunicaciones, sin competencia en primera infancia.',
+      D: 'El RNPN administra el registro de identidad y DUI, no la protección integral de niñez.'
+    }
+  },
+  {
+    id: 'jus-sv-08',
+    branchId: 'familia',
+    branchLabel: 'Familia & Niñez',
+    topic: 'Régimen Patrimonial Supletorio del Matrimonio',
+    legalBasis: 'Código de Familia (D.L. N.° 677), Arts. 41, 42 y 62.',
+    statement: 'Si dos contrayentes celebran matrimonio civil en El Salvador sin manifestar expresamente qué régimen patrimonial eligen en las capitulaciones matrimoniales, ¿qué régimen aplica supletoriamente la ley?',
+    options: {
+      A: 'Separación absoluta de bienes.',
+      B: 'Comunidad diferida.',
+      C: 'Sociedad colectiva mercantil.',
+      D: 'Fideicomiso familiar irrevocable.'
+    },
+    correctAnswer: 'B',
+    explanation: 'Según el Art. 42 del Código de Familia, a falta de elección expresa entre separación de bienes o participación en las ganancias, el matrimonio queda sujeto al régimen supletorio de comunidad diferida.',
+    distractorRationale: {
+      A: 'La separación de bienes requiere manifestación expresa de los contrayentes o sentencia judicial.',
+      B: 'La comunidad diferida opera por ministerio de ley como régimen supletorio ante silencio de los contrayentes.',
+      C: 'Es una figura societaria mercantil ajena a los regímenes patrimoniales del matrimonio.',
+      D: 'El fideicomiso es un contrato mercantil bancario, no un régimen patrimonial conyugal.'
+    }
+  },
+  {
+    id: 'jus-sv-09',
+    branchId: 'mercantil',
+    branchLabel: 'Mercantil & Sociedades',
+    topic: 'Sociedades por Acciones Simplificadas (S.A.S.) - D.L. N.° 905',
+    legalBasis: 'Código de Comercio, Capítulo VIII-Bis (Arts. 305-A y sigs., D.L. N.° 905) y prórroga al 31 dic. 2027.',
+    statement: 'De acuerdo con el Capítulo VIII-Bis del Código de Comercio (D.L. N.° 905), ¿cómo se constituye una Sociedad por Acciones Simplificada (S.A.S.) en El Salvador?',
+    options: {
+      A: 'Exclusivamente mediante escritura pública ante notario con un capital mínimo de $2,000 USD y al menos dos socios.',
+      B: 'Desde un solo accionista mediante formularios especiales del Registro de Comercio (CNR) sin necesidad de escritura pública, con capital mínimo de $1.00 USD y gratuidad arancelaria prorrogada hasta el 31 de diciembre de 2027.',
+      C: 'Únicamente por decreto legislativo aprobado por la Asamblea Legislativa.',
+      D: 'Mediante autorización previa de la Superintendencia de Competencia con capital mínimo de $50,000 USD.'
+    },
+    correctAnswer: 'B',
+    explanation: 'El D.L. N.° 905 incorporó la S.A.S. al Código de Comercio (Arts. 305-A y sigs.), permitiendo su constitución unipersonal o pluripersonal mediante formularios del Registro de Comercio (CNR) sin escritura pública, desde $1.00 USD de capital y con prórroga de gratuidad arancelaria al 31 de diciembre de 2027.',
+    distractorRationale: {
+      A: 'Esos requisitos corresponden a la Sociedad Anónima tradicional (Art. 195 C.Com.), no a la S.A.S.',
+      B: 'Describe con exactitud los requisitos y beneficios vigentes de las S.A.S. en el Código de Comercio.',
+      C: 'Las sociedades mercantiles privadas se inscriben ante el CNR, sin requerir decreto legislativo.',
+      D: 'No existe ese requisito de capital ni autorización previa de Competencia para constituir una S.A.S.'
+    }
+  },
+  {
+    id: 'jus-sv-10',
+    branchId: 'mercantil',
+    branchLabel: 'Mercantil & Propiedad Intelectual',
+    topic: 'Ley de Propiedad Intelectual y Creación del ISPI (D.L. N.° 66/2024)',
+    legalBasis: 'Ley de Propiedad Intelectual (D.L. N.° 66/2024).',
+    statement: '¿Qué entidad técnica adscrita al CNR fue creada por la Ley de Propiedad Intelectual (D.L. N.° 66/2024) para unificar el registro y tutela de marcas, patentes y derechos de autor?',
+    options: {
+      A: 'El Instituto Salvadoreño de la Propiedad Intelectual (ISPI).',
+      B: 'La Dirección Nacional de Medicamentos (DNM).',
+      C: 'El Instituto Salvadoreño de Pensiones (ISP).',
+      D: 'La Comisión Nacional de Activos Digitales (CNAD).'
+    },
+    correctAnswer: 'A',
+    explanation: 'El D.L. N.° 66/2024 promulgó la nueva Ley de Propiedad Intelectual y creó el Instituto Salvadoreño de la Propiedad Intelectual (ISPI) dentro del CNR para unificar propiedad industrial y derechos de autor.',
+    distractorRationale: {
+      A: 'El ISPI es el organismo creado por el D.L. N.° 66/2024 para administrar la propiedad intelectual.',
+      B: 'La antigua DNM fue absorbida por la Superintendencia de Regulación Sanitaria (SRS) en materia sanitaria.',
+      C: 'El ISP administra y regula el sistema previsional de pensiones.',
+      D: 'La CNAD supervisa exclusivamente las emisiones de activos digitales bajo la LEAD.'
+    }
+  },
+  {
+    id: 'jus-sv-11',
+    branchId: 'mercantil',
+    branchLabel: 'Mercantil & Tecnología',
+    topic: 'Ciberseguridad y Protección de Datos Personales (D.L. 143 y 144/2024)',
+    legalBasis: 'Ley de Ciberseguridad (D.L. N.° 143/2024) y Ley para la Protección de Datos Personales (D.L. N.° 144/2024).',
+    statement: '¿Qué derechos fundamentales de los titulares sobre su información personal consagra la Ley para la Protección de Datos Personales (D.L. N.° 144/2024) junto con la creación de la Agencia de Ciberseguridad del Estado (D.L. N.° 143/2024)?',
+    options: {
+      A: 'La libre venta comercial de bases de datos biométricas sin consentimiento del ciudadano.',
+      B: 'Los derechos ARCO-P (Acceso, Rectificación, Cancelación, Oposición y Portabilidad) y el principio de consentimiento informado.',
+      C: 'La prohibición total de usar firma electrónica en contratos mercantiles.',
+      D: 'La exoneración de reportar incidentes cibernéticos en infraestructuras críticas.'
+    },
+    correctAnswer: 'B',
+    explanation: 'La Ley para la Protección de Datos Personales (D.L. 144/2024) garantiza a los titulares los derechos ARCO-P y exige licitud y consentimiento en el tratamiento de datos, complementada por la Agencia de Ciberseguridad del Estado (D.L. 143/2024).',
+    distractorRationale: {
+      A: 'La comercialización no consentida de datos personales y biométricos está prohibida y sancionada.',
+      B: 'Los derechos ARCO-P constituyen el núcleo de tutela del titular de datos en el D.L. N.° 144/2024.',
+      C: 'La Ley de Firma Electrónica promueve y valida el uso de documentos y firmas electrónicas.',
+      D: 'El D.L. N.° 143/2024 impone el deber obligatorio de reportar incidentes en infraestructuras críticas.'
+    }
+  },
+  {
+    id: 'jus-sv-12',
+    branchId: 'mercantil',
+    branchLabel: 'Mercantil & Financiero',
+    topic: 'Prevención de Lavado de Dinero y Activos (UIF-FGR)',
+    legalBasis: 'Ley Contra el Lavado de Dinero y de Activos, Arts. 2 y 9.',
+    statement: '¿Ante qué autoridad deben remitir los sujetos obligados los Reportes de Operaciones Sospechosas (ROS) conforme a la Ley Contra el Lavado de Dinero y de Activos?',
+    options: {
+      A: 'Ante la Unidad de Investigación Financiera (UIF) de la Fiscalía General de la República.',
+      B: 'Ante el Tribunal Supremo Electoral.',
+      C: 'Ante el Viceministerio de Transporte.',
+      D: 'Ante la Administración Nacional de Acueductos y Alcantarillados (ANDA).'
+    },
+    correctAnswer: 'A',
+    explanation: 'La UIF-FGR es la autoridad nacional receptora y analizadora de los Reportes de Operaciones Sospechosas (ROS) y reportes de transacciones en efectivo emitidos por sujetos obligados.',
+    distractorRationale: {
+      A: 'La UIF-FGR centraliza la inteligencia financiera antilavado en El Salvador.',
+      B: 'El TSE solo tiene competencia electoral.',
+      C: 'El VMT regula el tránsito y transporte terrestre.',
+      D: 'ANDA presta el servicio público de agua potable y alcantarillado.'
+    }
+  },
+  {
+    id: 'jus-sv-13',
+    branchId: 'civil',
+    branchLabel: 'Civil & Notarial',
+    topic: 'Jurisdicción Voluntaria ante Notario (LENJVOD)',
+    legalBasis: 'Ley del Ejercicio Notarial de la Jurisdicción Voluntaria y de Otras Diligencias, Arts. 1–5.',
+    statement: '¿En qué supuesto debe el notario suspender inmediatamente las diligencias de jurisdicción voluntaria y remitir el expediente al juez competente?',
+    options: {
+      A: 'Cuando los interesados presentan partida de nacimiento reciente.',
+      B: 'Cuando surge oposición o contención de parte, o se encuentran involucrados intereses de personas incapaces o menores no representados conforme a ley.',
+      C: 'Cuando el inmueble objeto de remedición mide más de mil metros cuadrados.',
+      D: 'Cuando el trámite se realiza en el departamento de San Salvador.'
+    },
+    correctAnswer: 'B',
+    explanation: 'La jurisdicción voluntaria notarial exige ausencia absoluta de contención y plena capacidad de los solicitantes; ante oposición o conflicto contencioso, el notario pierde competencia y debe remitir las diligencias al juez.',
+    distractorRationale: {
+      A: 'La presentación de certificaciones registrales vigentes es un requisito ordinario del trámite.',
+      B: 'La contención u oposición convierte el asunto en litigioso, reservado exclusivamente al Órgano Judicial.',
+      C: 'La extensión superficial del inmueble no excluye la competencia notarial en remediciones.',
+      D: 'Los notarios salvadoreños tienen competencia territorial en toda la República.'
+    }
+  },
+  {
+    id: 'jus-sv-14',
+    branchId: 'laboral',
+    branchLabel: 'Laboral & Seguridad Social',
+    topic: 'Indemnización por Despido Injusto (Art. 58 C.T.)',
+    legalBasis: 'Código de Trabajo, Art. 58.',
+    statement: 'Según el Art. 58 del Código de Trabajo de El Salvador, cuando un trabajador contratado por tiempo indefinido es despedido sin causa justificada, ¿cómo se calcula su indemnización básica?',
+    options: {
+      A: 'Equivalente al salario básico de 30 días por cada año de servicio y proporcionalmente por fracciones de año.',
+      B: 'Equivalente a un día de salario por cada año trabajado.',
+      C: 'Únicamente el pago de aguinaldo pendiente sin indemnización.',
+      D: 'Un monto fijo único de $100.00 sin importar la antigüedad.'
+    },
+    correctAnswer: 'A',
+    explanation: 'El Art. 58 del Código de Trabajo reconoce el derecho a recibir una indemnización equivalente al salario básico de treinta días por cada año de servicio y proporcional por fracciones, con base en el tope legal aplicable.',
+    distractorRationale: {
+      A: 'Corresponde a la fórmula legal de indemnización por despido injustificado del Art. 58 C.T.',
+      B: 'Un día por año no cubre la compensación mínima establecida en el Código de Trabajo.',
+      C: 'Las vacaciones y aguinaldos proporcionales son prestaciones adicionales, no sustituyen la indemnización.',
+      D: 'La ley calcula la indemnización en función del salario y la antigüedad, nunca como suma fija de $100.'
+    }
+  },
+  {
+    id: 'jus-sv-15',
+    branchId: 'laboral',
+    branchLabel: 'Laboral & Previsión',
+    topic: 'Ley General de Prevención de Riesgos en los Lugares de Trabajo (D.L. 254)',
+    legalBasis: 'LGPRLT (D.L. N.° 254) y Reglamento D.E. N.° 86.',
+    statement: 'De acuerdo con la Ley General de Prevención de Riesgos en los Lugares de Trabajo (D.L. 254), ¿qué obligación recae sobre los centros de trabajo con 15 o más trabajadores respecto a la organización interna de seguridad?',
+    options: {
+      A: 'Conformar un Comité de Seguridad y Salud Ocupacional integrado paritariamente por representantes patronales y trabajadores.',
+      B: 'Cobrar a los empleados el costo total del Equipo de Protección Personal (EPP).',
+      C: 'Eliminar las salidas de emergencia para evitar hurtos.',
+      D: 'Sustituir los exámenes médicos ocupacionales por declaraciones juradas.'
+    },
+    correctAnswer: 'A',
+    explanation: 'La LGPRLT (D.L. 254) exige la conformación de Comités de Seguridad y Salud Ocupacional en lugares de trabajo con 15 o más personas, además de la provisión gratuita de EPP por el empleador.',
+    distractorRationale: {
+      A: 'La conformación paritaria del Comité es una exigencia central de la LGPRLT supervisada por el MTPS.',
+      B: 'El empleador está obligado a suministrar el EPP gratuitamente, prohibiéndose trasladar su costo al trabajador.',
+      C: 'Bloquear o eliminar salidas de emergencia constituye una infracción grave de seguridad ocupacional.',
+      D: 'Los protocolos médicos ocupacionales no pueden sustituirse por declaraciones juradas.'
+    }
+  },
+  {
+    id: 'jus-sv-16',
+    branchId: 'administrativo',
+    branchLabel: 'Administrativo',
+    topic: 'Agotamiento de la Vía Administrativa y Plazo Contencioso (LPA / LJCA)',
+    legalBasis: 'Ley de Procedimientos Administrativos (LPA) y LJCA, Art. 25.',
+    statement: 'Una vez agotada la vía administrativa conforme a la LPA, ¿de qué plazo dispone el administrado para interponer la demanda ante la Jurisdicción Contencioso Administrativa según la LJCA?',
+    options: {
+      A: '5 días calendario.',
+      B: '60 días hábiles contados desde el día siguiente a la notificación del acto que agota la vía.',
+      C: '10 años naturales.',
+      D: '24 horas improrrogables.'
+    },
+    correctAnswer: 'B',
+    explanation: 'El Art. 25 de la LJCA establece un plazo perentorio de 60 días hábiles contados a partir del día siguiente al de la notificación del acto administrativo definitivo que agota la vía administrativa.',
+    distractorRationale: {
+      A: 'Cinco días es un plazo propio de recursos administrativos internos, no de la acción contenciosa.',
+      B: 'Es el plazo legal ordinario establecido en el Art. 25 de la LJCA para deducir pretensiones contencioso-administrativas.',
+      C: 'Diez años corresponde a prescripción civil ordinaria, inaplicable al contencioso administrativo.',
+      D: 'No existe un plazo de caducidad de 24 horas en la LJCA.'
+    }
+  },
+  {
+    id: 'jus-sv-17',
+    branchId: 'tributario',
+    branchLabel: 'Tributario & Aduanero',
+    topic: 'Reforma ISR 2024 sobre Capitales del Exterior y Remesas',
+    legalBasis: 'Ley de Impuesto sobre la Renta (reforma 2024) y Código Tributario.',
+    statement: '¿Qué tratamiento fiscal estableció la reforma de 2024 a la Ley de Impuesto sobre la Renta (LISR) respecto a las remesas familiares y los ingresos provenientes de inversiones o transferencias de capital del exterior?',
+    options: {
+      A: 'Les impuso una tasa punitiva del 40% de retención en la fuente.',
+      B: 'Los declaró exentos / excluidos del pago del Impuesto sobre la Renta para incentivar la atracción de inversiones y proteger las remesas.',
+      C: 'Los gravó con el 13% de IVA adicional cada vez que ingresan al sistema bancario.',
+      D: 'Prohibió recibir transferencias internacionales superiores a $500.'
+    },
+    correctAnswer: 'B',
+    explanation: 'La reforma aprobada en 2024 a la LISR excluyó del gravamen del Impuesto sobre la Renta los ingresos provenientes de transferencias de capital, remesas familiares e inversiones recibidas del extranjero.',
+    distractorRationale: {
+      A: 'La reforma eliminó el gravamen en lugar de aumentar la tasa.',
+      B: 'Refleja exactamente el objetivo y contenido de la reforma fiscal de 2024 a la LISR.',
+      C: 'Las remesas familiares y transferencias de capital no están gravadas con IVA.',
+      D: 'El sistema financiero salvadoreño no prohíbe transferencias superiores a $500.'
+    }
+  },
+  {
+    id: 'jus-sv-18',
+    branchId: 'tributario',
+    branchLabel: 'Tributario & Aduanero',
+    topic: 'Jerarquía del Derecho Comunitario Aduanero (CAUCA / RECAUCA)',
+    legalBasis: 'Constitución Art. 144; CAUCA y RECAUCA (SICA / SIECA).',
+    statement: 'En caso de conflicto normativo entre una disposición reglamentaria interna ordinaria y una norma del Código Aduanero Uniforme Centroamericano (CAUCA), ¿qué norma prevalece en El Salvador?',
+    options: {
+      A: 'Prevalece el reglamento interno por ser posterior.',
+      B: 'Prevalece el CAUCA en virtud de la jerarquía supralegal de los tratados internacionales consagrada en el Art. 144 Cn.',
+      C: 'Prevalece la ordenanza municipal del puerto de entrada.',
+      D: 'Ambas normas quedan anuladas automáticamente.'
+    },
+    correctAnswer: 'B',
+    explanation: 'Conforme al Art. 144 de la Constitución, los tratados internacionales vigentes tienen fuerza de ley y prevalecen sobre las leyes secundarias y reglamentos en caso de conflicto.',
+    distractorRationale: {
+      A: 'Un reglamento interno jamás puede prevalecer sobre un tratado o instrumento comunitario regional vigente.',
+      B: 'El Art. 144 Cn. otorga supremacía aplicativa al tratado regional (CAUCA) frente a la normativa secundaria interna.',
+      C: 'Las municipalidades carecen de competencia en materia aduanera nacional.',
+      D: 'El conflicto normativo se resuelve por jerarquía constitucional, no por anulación mutua.'
+    }
+  },
+  {
+    id: 'jus-sv-19',
+    branchId: 'administrativo',
+    branchLabel: 'Sanitario & Regulación',
+    topic: 'Superintendencia de Regulación Sanitaria (SRS) - D.L. N.° 1018/2024',
+    legalBasis: 'Ley de Regulación Sanitaria (D.L. N.° 1018/2024).',
+    statement: '¿Qué institución asumió en El Salvador las competencias regulatorias de medicamentos, farmacovigilancia, alimentos y dispositivos médicos tras absorber a la antigua DNM?',
+    options: {
+      A: 'La Superintendencia de Regulación Sanitaria (SRS).',
+      B: 'La Dirección General de Energía, Hidrocarburos y Minas.',
+      C: 'El Instituto Nacional de Capacitación y Formación (INCAF).',
+      D: 'La Corte de Cuentas de la República.'
+    },
+    correctAnswer: 'A',
+    explanation: 'La Ley de Regulación Sanitaria (D.L. N.° 1018/2024) creó la Superintendencia de Regulación Sanitaria (SRS) como autoridad única que absorbió a la antigua DNM y centralizó el control sanitario.',
+    distractorRationale: {
+      A: 'La SRS es la autoridad vigente competente en registro sanitario, farmacovigilancia y tecnovigilancia.',
+      B: 'Esta dirección regula hidrocarburos, energía y minería, no productos farmacéuticos.',
+      C: 'El INCAF rectora la formación técnica profesional.',
+      D: 'La Corte de Cuentas fiscaliza los fondos públicos del Estado.'
+    }
+  },
+  {
+    id: 'jus-sv-20',
+    branchId: 'administrativo',
+    branchLabel: 'Transporte & Energía',
+    topic: 'Multas de Tránsito Vigentes y Fiscalización Electrónica (D.L. N.° 185/2025)',
+    legalBasis: 'Ley de Transporte Terrestre (reforma dic. 2024 y D.L. N.° 185/2025) y Ley General de Electricidad (D.L. 843).',
+    statement: 'Conforme a las reformas vigentes a la Ley de Transporte Terrestre (D.L. N.° 185/2025), ¿cuáles son los montos actualizados de las multas administrativas para faltas leves, graves y muy graves, y qué mecanismo de control se implementó?',
+    options: {
+      A: 'Multas de $11.43, $34.29 y $57.14 con notificación únicamente en papel.',
+      B: 'Multas de $50.00 (leves), $100.00 (graves) y $150.00 (muy graves), respaldadas por fiscalización electrónica automatizada (fotomultas).',
+      C: 'Multas únicas de $500.00 para cualquier infracción sin distinción.',
+      D: 'Supresión total de multas económicas en carreteras.'
+    },
+    correctAnswer: 'B',
+    explanation: 'Las reformas vigentes a la Ley de Transporte Terrestre actualizaron los montos de las esquelas a $50.00 (leves), $100.00 (graves) y $150.00 (muy graves), e implementaron el sistema de fotomultas y fiscalización electrónica (D.L. N.° 185/2025).',
+    distractorRationale: {
+      A: 'Los montos históricos en colones convertidos ($11.43, $34.29 y $57.14) fueron derogados por las reformas 2024–2025.',
+      B: 'Corresponde exactamente a la escala vigente de multas y al régimen de fiscalización electrónica.',
+      C: 'La ley clasifica las infracciones en leves, graves y muy graves con montos diferenciados.',
+      D: 'Las sanciones económicas continúan vigentes y se fortalecieron con el control electrónico.'
+    }
+  }
+];

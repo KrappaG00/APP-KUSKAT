@@ -28,6 +28,7 @@ import { issueCertificate, AcademicCertificate } from '../services/certificateSe
 import { CertificateModal } from './CertificateModal';
 import { AudioSpeechButton } from './AudioSpeechButton';
 import { ModulePaginationBar } from './ModulePaginationBar';
+import { KaTeXMath } from '../utils/mathRenderer';
 
 interface ComplianceFinancialViewProps {
   onOpenErrorNotebook?: () => void;
@@ -376,8 +377,8 @@ export const ComplianceFinancialView: React.FC<ComplianceFinancialViewProps> = (
               </div>
 
               {/* Enunciado */}
-              <div className="text-xs sm:text-sm font-medium text-[#111625] leading-relaxed">
-                {q.statement}
+              <div className="text-xs sm:text-sm font-medium text-[#111625] leading-relaxed min-w-0 break-words">
+                <KaTeXMath text={q.statement} />
               </div>
 
               {/* Opciones */}
@@ -406,7 +407,9 @@ export const ComplianceFinancialView: React.FC<ComplianceFinancialViewProps> = (
                       <span className="w-6 h-6 rounded-md bg-[#FAF9F5] border border-[#E5E3D8] flex items-center justify-center font-mono-exam font-bold text-xs shrink-0 text-[#0B1B3D]">
                         {key}
                       </span>
-                      <span className="flex-1">{text}</span>
+                      <span className="flex-1 min-w-0 break-words">
+                        <KaTeXMath text={text} />
+                      </span>
                       {showFeedback && isAnswered && isOptionCorrect && (
                         <Check className="w-4 h-4 text-[#1E7E34] shrink-0 mt-0.5" />
                       )}
@@ -423,8 +426,8 @@ export const ComplianceFinancialView: React.FC<ComplianceFinancialViewProps> = (
                       <Scale className="w-3.5 h-3.5 text-[#C59B27]" />
                       <span>Fundamento Legal y Criterio Técnico:</span>
                     </div>
-                    <p className="text-[#334155] leading-relaxed">
-                      {q.explanation}
+                    <p className="text-[#334155] leading-relaxed min-w-0 break-words">
+                      <KaTeXMath text={q.explanation} />
                     </p>
                   </div>
 

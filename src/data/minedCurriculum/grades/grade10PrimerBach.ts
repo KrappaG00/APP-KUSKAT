@@ -262,7 +262,7 @@ const u3Lessons1B = [
     'Intervalo solución cuadrático: $(x + 1)(x - 4) < 0$ tiene solución en el intervalo abierto $(-1, 4)$.',
     [
       { exercise: 'Resuelve la desigualdad cuadrática: x² - 4x - 5 ≤ 0', hint: 'Factoriza como (x - 5)(x + 1) ≤ 0 y analiza el signo entre raíces.', answer: '[-1, 5]' },
-      { exercise: 'Encuentra el conjunto solución de la desigualdad con valor absoluto: |x + 3| > 4', hint: 'Aplica la propiedad |u| > a <=> u < -a ó u > a.', answer: '(-∞, -7) ∪ (1, ∞)' },
+      { exercise: 'Encuentra el conjunto solución de la desigualdad con valor absoluto: |x + 3| > 4', hint: 'Aplica la propiedad |u| > a ≤> u < -a ó u > a.', answer: '(-∞, -7) ∪ (1, ∞)' },
       { exercise: 'Resuelve la desigualdad racional: (x - 3) / (x - 6) ≤ 0', hint: 'El punto crítico x = 6 debe quedar abierto por anular el denominador.', answer: '[3, 6)' }
     ],
     [
@@ -358,7 +358,7 @@ const u7Lessons1B = [
     'Producto escalar ortogonal: si $\\vec{u} = (2, 3)$ y $\\vec{v} = (-3, 2)$, entonces $\\vec{u} \\cdot \\vec{v} = 2(-3) + 3(2) = 0$.',
     [
       { exercise: 'Calcula la magnitud euclidiana del vector v = (8, -15)', hint: '||v|| = √(8² + (-15)²) = √(64 + 225) = √289.', answer: '17' },
-      { exercise: 'Si u = (3, k) y v = (4, -6), halla el valor de k para que u y v sean ortogonales.', hint: 'Plantea u · v = 0 <=> 3(4) + k(-6) = 0.', answer: 'k = 2' },
+      { exercise: 'Si u = (3, k) y v = (4, -6), halla el valor de k para que u y v sean ortogonales.', hint: 'Plantea u · v = 0 ≤> 3(4) + k(-6) = 0.', answer: 'k = 2' },
       { exercise: 'Multiplica el vector a = (3, -2) por el escalar c = -4', hint: 'Multiplica cada componente escalarmente: (-4 · 3, -4 · -2).', answer: '(-12, 8)' }
     ],
     [

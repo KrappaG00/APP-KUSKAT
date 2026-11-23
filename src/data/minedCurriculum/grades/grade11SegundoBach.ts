@@ -438,7 +438,7 @@ const u3Lessons2B = [
     'Una **parábola** es el conjunto de puntos del plano que equidistan de un punto fijo llamado **foco ($F$)** y de una recta fija llamada **directriz ($d$)**. La distancia del vértice al foco es el parámetro focal $p$. Ecuaciones canónicas con vértice en el origen $V(0, 0)$: 1. **Eje horizontal (eje $x$)**: $y^2 = 4px$, foco $F(p, 0)$, directriz $x = -p$. Abre a la derecha si $p > 0$ o a la izquierda si $p < 0$. 2. **Eje vertical (eje $y$)**: $x^2 = 4py$, foco $F(0, p)$, directriz $y = -p$. Abre hacia arriba si $p > 0$ o hacia abajo si $p < 0$. Longitud del lado recto: $LR = |4p|$. Trasladada a $V(h, k)$: $(y - k)^2 = 4p(x - h)$ o $(x - h)^2 = 4p(y - k)$.',
     'Ecuación canónica de parábola horizontal: $y^2 = 12x$ tiene foco $F(3, 0)$ y directriz $x = -3$.',
     [
-      { exercise: 'Halla el foco y la directriz de la parábola: x² = 12y', hint: '4p = 12 => p = 3. Al ser x², es una parábola vertical con foco en el eje y.', answer: 'Foco: (0, 3), Directriz: y = -3' },
+      { exercise: 'Halla el foco y la directriz de la parábola: x² = 12y', hint: '4p = 12 ⇒ p = 3. Al ser x², es una parábola vertical con foco en el eje y.', answer: 'Foco: (0, 3), Directriz: y = -3' },
       { exercise: 'Deduce la ecuación de la parábola con vértice en V(0, 0) y foco en F(-5, 0)', hint: 'Eje horizontal, parámetro p = -5, ecuación y² = 4px.', answer: 'y² = -20x' },
       { exercise: '¿Cuál es la longitud del lado recto de la parábola y² = -28x?', hint: 'El lado recto es el valor absoluto LR = |4p|.', answer: '28 unidades' }
     ],
@@ -461,7 +461,7 @@ const u3Lessons2B = [
     [
       { exercise: 'Halla la ecuación ordinaria de la circunferencia con centro C(-1, 5) y radio r = 4', hint: '(x - (-1))² + (y - 5)² = 4².', answer: '(x + 1)² + (y - 5)² = 16' },
       { exercise: 'Encuentra el centro y el radio de la circunferencia: x² + y² - 10x - 6y + 9 = 0', hint: 'Completa cuadrados en x y en y: (x - 5)² + (y - 3)² = 25 + 9 - 9 = 25.', answer: 'Centro: (5, 3), Radio: 5' },
-      { exercise: '¿Cuál es la ecuación general de la circunferencia con C(0, 2) y r = 3?', hint: 'x² + (y - 2)² = 9 <=> x² + y² - 4y - 5 = 0.', answer: 'x² + y² - 4y - 5 = 0' }
+      { exercise: '¿Cuál es la ecuación general de la circunferencia con C(0, 2) y r = 3?', hint: 'x² + (y - 2)² = 9 ≤> x² + y² - 4y - 5 = 0.', answer: 'x² + y² - 4y - 5 = 0' }
     ],
     [
       'Ejemplo 1 (Circunferencia canónica con centro en el origen): Hallar la ecuación general de la circunferencia con centro en el origen $C(0, 0)$ y radio $r = 6$. Paso 1: Escribimos la ecuación canónica en el origen: $x^2 + y^2 = r^2$. Paso 2: Sustituimos el radio: $x^2 + y^2 = 6^2 = 36$. Paso 3: Igualamos a cero para obtener la forma general: $x^2 + y^2 - 36 = 0$. Solución: La ecuación general es $x^2 + y^2 - 36 = 0$.',
@@ -527,7 +527,7 @@ const u4Lessons2B = [
     [
       { exercise: 'Resuelve la ecuación exponencial igualando bases: 2^(3x - 5) = 16', hint: '16 = 2⁴, iguala exponentes 3x - 5 = 4.', answer: 'x = 3' },
       { exercise: 'Halla el rango de la función trasladada: f(x) = 3^x - 2', hint: 'La asíntota horizontal se desplaza dos unidades abajo a y = -2.', answer: '(-2, ∞)' },
-      { exercise: 'Resuelve la ecuación exponencial: 9^x = 27', hint: 'Expresa en base tres: (3²)^x = 3³ <=> 3^(2x) = 3³.', answer: 'x = 3/2 = 1.5' }
+      { exercise: 'Resuelve la ecuación exponencial: 9^x = 27', hint: 'Expresa en base tres: (3²)^x = 3³ ≤> 3^(2x) = 3³.', answer: 'x = 3/2 = 1.5' }
     ],
     [
       'Ejemplo 1 (Ecuación exponencial con base entera): Resolver la ecuación exponencial $3^{2x - 1} = 27$. Paso 1: Expresamos el miembro derecho de la igualdad como una potencia de base tres: $27 = 3^3$. Paso 2: Reescribimos la ecuación igualando potencias que poseen la misma base: $3^{2x - 1} = 3^3$. Paso 3: Por la propiedad de inyectividad de las funciones exponenciales, igualamos algebraicamente los exponentes: $2x - 1 = 3 \\implies 2x = 4 \\implies x = 2$. Solución: La solución real de la ecuación exponencial es $x = 2$.',
@@ -550,7 +550,7 @@ const u5Lessons2B = [
     'Definición de logaritmo: $\\log_a(x) = y \\iff a^y = x$, donde $\\log_2(32) = 5$ pues $2^5 = 32$.',
     [
       { exercise: 'Calcula el valor numérico: log₁₀(10,000) + log₃(81)', hint: '10⁴ = 10000 y 3⁴ = 81.', answer: '4 + 4 = 8' },
-      { exercise: 'Resuelve la ecuación logarítmica: log₂(x + 6) - log₂(x) = 1', hint: 'Condensa: log₂((x + 6)/x) = 1 <=> (x + 6)/x = 2.', answer: 'x = 6' },
+      { exercise: 'Resuelve la ecuación logarítmica: log₂(x + 6) - log₂(x) = 1', hint: 'Condensa: log₂((x + 6)/x) = 1 ≤> (x + 6)/x = 2.', answer: 'x = 6' },
       { exercise: 'Aplica la fórmula de cambio de base para expresar log₂(10) con logaritmos decimales', hint: 'log₂(10) = log₁₀(10) / log₁₀(2) = 1 / log₁₀(2).', answer: '1 / log₁₀(2) ≈ 3.3219' }
     ],
     [

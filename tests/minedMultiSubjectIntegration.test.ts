@@ -1,4 +1,6 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, vi, beforeEach } from 'vitest';
+import fs from 'node:fs';
+import path from 'node:path';
 import React from 'react';
 import { renderToStaticMarkup } from 'react-dom/server';
 import katex from 'katex';
@@ -26,6 +28,13 @@ import {
 } from '../src/data/minedCurriculum';
 import { countSubstantiveLessonWords } from './curriculumR4Compliance.test';
 import { AcademicReinforcementView } from '../src/components/AcademicReinforcementView';
+import {
+  getMinedTextIndex,
+  loadMinedTextDocument,
+  searchInMinedTextDocument,
+  clearMinedTextCache,
+  type MinedTextDocument,
+} from '../src/services/minedTextService';
 
 const verifiedKaTeXCache = new Set<string>();
 
@@ -388,7 +397,7 @@ describe('MINED Multi-Subject Curriculum & Official Resources Integration', () =
       expect(artesResults.some((r) => r.subjectId === 'educacion-artistica')).toBe(true);
     });
 
-    it('renders AcademicReinforcementView with all 7 subject tabs and the Biblioteca Oficial Descargable MINED', () => {
+    it('renders AcademicReinforcementView with all 7 subject tabs and the Biblioteca Textual Oficial MINED', () => {
       const html = renderToStaticMarkup(React.createElement(AcademicReinforcementView));
       expect(html).toContain('Refuerzo Académico (1° a 9° Grado y Bachillerato)');
       expect(html).toContain('Matemática (ESMATE)');
@@ -398,8 +407,117 @@ describe('MINED Multi-Subject Curriculum & Official Resources Integration', () =
       expect(html).toContain('Educación Artística (Artes)');
       expect(html).toContain('Educación Física');
       expect(html).toContain('Finanzas y Economía');
-      expect(html).toContain('Biblioteca Oficial Descargable MINED');
-      expect(html).toContain('Abrir PDF Oficial');
+      expect(html).toContain('Biblioteca Textual Oficial MINED');
+      expect(html).toContain('Leer Contenido Oficial');
+      expect(html).not.toContain('Abrir PDF Oficial');
+    });
+  });
+
+  describe('6. Mined Textual Library Integrity (public/mined-texts & minedTextService)', () => {
+    const MINED_TEXTS_DIR = path.resolve(__dirname, '../public/mined-texts');
+    const MINED_MEDIA_DIR = path.join(MINED_TEXTS_DIR, 'media');
+
+    beforeEach(() => {
+      clearMinedTextCache();
+      vi.restoreAllMocks();
+    });
+
+    it('contains valid public/mined-texts/index.json with all 98 resources and corresponding JSON files', () => {
+      const indexPath = path.join(MINED_TEXTS_DIR, 'index.json');
+      expect(fs.existsSync(indexPath)).toBe(true);
+
+      const indexData = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
+      expect(indexData.totalResources).toBe(98);
+      expect(Array.isArray(indexData.resources)).toBe(true);
+      expect(indexData.resources.length).toBe(98);
+
+      const validCoverages = new Set(['full', 'partial', 'image', 'unavailable']);
+      for (const entry of indexData.resources) {
+        expect(entry.id).toMatch(/^mined-res-\d{3}$/);
+        expect(validCoverages.has(entry.textCoverage)).toBe(true);
+        const docPath = path.join(MINED_TEXTS_DIR, `${entry.id}.json`);
+        expect(fs.existsSync(docPath), `Falta archivo textual ${entry.id}.json`).toBe(true);
+      }
+
+      expect(indexData.summary.image).toBe(2);
+      expect(indexData.summary.unavailable).toBeGreaterThanOrEqual(1);
+    });
+
+    it('contains both Primera Infancia JPEG infographics in public/mined-texts/media/', () => {
+      const img1 = path.join(MINED_MEDIA_DIR, 'mensaje-institucional-1.jpeg');
+      const img2 = path.join(MINED_MEDIA_DIR, 'mensaje-institucional-2.jpeg');
+
+      expect(fs.existsSync(img1)).toBe(true);
+      expect(fs.existsSync(img2)).toBe(true);
+      expect(fs.statSync(img1).size).toBeGreaterThan(1000);
+      expect(fs.statSync(img2).size).toBeGreaterThan(1000);
+    });
+
+    it('minedTextService loads index/documents with cache and searches accents-insensitively', async () => {
+      const indexPath = path.join(MINED_TEXTS_DIR, 'index.json');
+      const realIndexJson = JSON.parse(fs.readFileSync(indexPath, 'utf-8'));
+      const firstFullEntry = realIndexJson.resources.find(
+        (r: { textCoverage: string }) => r.textCoverage === 'full'
+      );
+      expect(firstFullEntry).toBeDefined();
+
+      const realDocJson: MinedTextDocument = JSON.parse(
+        fs.readFileSync(path.join(MINED_TEXTS_DIR, `${firstFullEntry.id}.json`), 'utf-8')
+      );
+
+      const fetchMock = vi.fn(async (input: RequestInfo | URL) => {
+        const url = String(input);
+        if (url.endsWith('/mined-texts/index.json')) {
+          return new Response(JSON.stringify(realIndexJson), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' },
+          });
+        }
+        if (url.endsWith(`/mined-texts/${firstFullEntry.id}.json`)) {
+          return new Response(JSON.stringify(realDocJson), {
+            status: 200,
+            headers: { 'Content-Type': 'application/json' },
+          });
+        }
+        return new Response('Not Found', { status: 404 });
+      });
+
+      vi.stubGlobal('fetch', fetchMock);
+
+      const idx1 = await getMinedTextIndex();
+      const idx2 = await getMinedTextIndex();
+      expect(idx1.totalResources).toBe(98);
+      expect(idx2).toBe(idx1);
+
+      const doc1 = await loadMinedTextDocument(firstFullEntry.id);
+      const doc2 = await loadMinedTextDocument(firstFullEntry.id);
+      expect(doc1.id).toBe(firstFullEntry.id);
+      expect(doc1.pages.length).toBeGreaterThan(0);
+      expect(doc2).toBe(doc1);
+      // Only 2 fetches total (index + 1 document) due to in-memory cache
+      expect(fetchMock).toHaveBeenCalledTimes(2);
+
+      // Search inside document
+      const sampleDoc: MinedTextDocument = {
+        ...doc1,
+        pages: [
+          {
+            pageNumber: 1,
+            text: 'Educación Básica y Matemática para El Salvador.',
+            charCount: 47,
+          },
+          {
+            pageNumber: 2,
+            text: 'Comunicación y lectura comprensiva.',
+            charCount: 35,
+          },
+        ],
+      };
+      const matches = searchInMinedTextDocument(sampleDoc, 'educacion');
+      expect(matches.length).toBe(1);
+      expect(matches[0].pageNumber).toBe(1);
+      expect(matches[0].matchCount).toBe(1);
+      expect(searchInMinedTextDocument(sampleDoc, 'a').length).toBe(0);
     });
   });
 });

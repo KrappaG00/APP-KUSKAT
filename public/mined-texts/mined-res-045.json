@@ -1,0 +1,691 @@
+{
+  "id": "mined-res-045",
+  "title": "Cuaderno de Trabajo Ciencia y Tecnología 3.° Grado",
+  "filename": "Cuaderno de trabajo 3.° grado.pdf",
+  "docType": "Cuaderno de Ejercicios",
+  "materiaOriginal": "Ciencia y Tecnología",
+  "gradoOriginal": "3.° Grado",
+  "officialUrl": "https://www.mined.gob.sv/materiales/2026/CIENCIA_Y_TECNOLOGIA/3. Cuadernos de trabajo/Cuaderno de trabajo 3.° grado.pdf",
+  "status": "success",
+  "textCoverage": "full",
+  "totalPages": 82,
+  "extractedPages": 82,
+  "coverageRatio": 1.0,
+  "totalChars": 49295,
+  "sectionCount": 37,
+  "mediaUrl": null,
+  "notice": null,
+  "sections": [
+    {
+      "id": "sec-001",
+      "title": "Unidad 5",
+      "startPage": 4,
+      "endPage": 4,
+      "level": 1
+    },
+    {
+      "id": "sec-002",
+      "title": "Unidad 1",
+      "startPage": 5,
+      "endPage": 7,
+      "level": 1
+    },
+    {
+      "id": "sec-003",
+      "title": "Semana 1",
+      "startPage": 8,
+      "endPage": 9,
+      "level": 1
+    },
+    {
+      "id": "sec-004",
+      "title": "Unidad 1Semana 2",
+      "startPage": 10,
+      "endPage": 11,
+      "level": 1
+    },
+    {
+      "id": "sec-005",
+      "title": "Semana 3",
+      "startPage": 12,
+      "endPage": 13,
+      "level": 1
+    },
+    {
+      "id": "sec-006",
+      "title": "Semana 4",
+      "startPage": 14,
+      "endPage": 15,
+      "level": 1
+    },
+    {
+      "id": "sec-007",
+      "title": "Semana 5",
+      "startPage": 16,
+      "endPage": 17,
+      "level": 1
+    },
+    {
+      "id": "sec-008",
+      "title": "Unidad 2",
+      "startPage": 18,
+      "endPage": 19,
+      "level": 1
+    },
+    {
+      "id": "sec-009",
+      "title": "Unidad 2Semana 6",
+      "startPage": 20,
+      "endPage": 21,
+      "level": 1
+    },
+    {
+      "id": "sec-010",
+      "title": "Unidad 2Semana 7",
+      "startPage": 22,
+      "endPage": 23,
+      "level": 1
+    },
+    {
+      "id": "sec-011",
+      "title": "Semana 8",
+      "startPage": 24,
+      "endPage": 25,
+      "level": 1
+    },
+    {
+      "id": "sec-012",
+      "title": "Semana 9",
+      "startPage": 26,
+      "endPage": 27,
+      "level": 1
+    },
+    {
+      "id": "sec-013",
+      "title": "Unidad 2Semana 10",
+      "startPage": 28,
+      "endPage": 29,
+      "level": 1
+    },
+    {
+      "id": "sec-014",
+      "title": "Unidad 2Semana 11",
+      "startPage": 30,
+      "endPage": 31,
+      "level": 1
+    },
+    {
+      "id": "sec-015",
+      "title": "Unidad 3",
+      "startPage": 32,
+      "endPage": 33,
+      "level": 1
+    },
+    {
+      "id": "sec-016",
+      "title": "Semana 12",
+      "startPage": 34,
+      "endPage": 35,
+      "level": 1
+    },
+    {
+      "id": "sec-017",
+      "title": "Semana 13",
+      "startPage": 36,
+      "endPage": 37,
+      "level": 1
+    },
+    {
+      "id": "sec-018",
+      "title": "Semana 14",
+      "startPage": 38,
+      "endPage": 39,
+      "level": 1
+    },
+    {
+      "id": "sec-019",
+      "title": "Unidad 3Semana 15",
+      "startPage": 40,
+      "endPage": 41,
+      "level": 1
+    },
+    {
+      "id": "sec-020",
+      "title": "Semana 16",
+      "startPage": 42,
+      "endPage": 43,
+      "level": 1
+    },
+    {
+      "id": "sec-021",
+      "title": "Unidad 4",
+      "startPage": 44,
+      "endPage": 45,
+      "level": 1
+    },
+    {
+      "id": "sec-022",
+      "title": "Semana 17",
+      "startPage": 46,
+      "endPage": 47,
+      "level": 1
+    },
+    {
+      "id": "sec-023",
+      "title": "Semana 18",
+      "startPage": 48,
+      "endPage": 49,
+      "level": 1
+    },
+    {
+      "id": "sec-024",
+      "title": "Semana 19",
+      "startPage": 50,
+      "endPage": 51,
+      "level": 1
+    },
+    {
+      "id": "sec-025",
+      "title": "Semana 20",
+      "startPage": 52,
+      "endPage": 53,
+      "level": 1
+    },
+    {
+      "id": "sec-026",
+      "title": "Semana 21",
+      "startPage": 54,
+      "endPage": 57,
+      "level": 1
+    },
+    {
+      "id": "sec-027",
+      "title": "Semana 22",
+      "startPage": 58,
+      "endPage": 59,
+      "level": 1
+    },
+    {
+      "id": "sec-028",
+      "title": "Semana 23",
+      "startPage": 60,
+      "endPage": 61,
+      "level": 1
+    },
+    {
+      "id": "sec-029",
+      "title": "Semana 24",
+      "startPage": 62,
+      "endPage": 63,
+      "level": 1
+    },
+    {
+      "id": "sec-030",
+      "title": "Semana 25",
+      "startPage": 64,
+      "endPage": 65,
+      "level": 1
+    },
+    {
+      "id": "sec-031",
+      "title": "Semana 26",
+      "startPage": 66,
+      "endPage": 67,
+      "level": 1
+    },
+    {
+      "id": "sec-032",
+      "title": "Semana 27",
+      "startPage": 68,
+      "endPage": 69,
+      "level": 1
+    },
+    {
+      "id": "sec-033",
+      "title": "Unidad 6",
+      "startPage": 70,
+      "endPage": 71,
+      "level": 1
+    },
+    {
+      "id": "sec-034",
+      "title": "Unidad 1Semana 28 71",
+      "startPage": 72,
+      "endPage": 73,
+      "level": 1
+    },
+    {
+      "id": "sec-035",
+      "title": "Semana 30",
+      "startPage": 74,
+      "endPage": 75,
+      "level": 1
+    },
+    {
+      "id": "sec-036",
+      "title": "Semana 31",
+      "startPage": 76,
+      "endPage": 79,
+      "level": 1
+    },
+    {
+      "id": "sec-037",
+      "title": "Semana 32",
+      "startPage": 80,
+      "endPage": 82,
+      "level": 1
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Ciencia y Tecnología Cuaderno de trabajo 3 2 3 Ciencia y TecnologíaCuaderno de trabajo",
+      "charCount": 86
+    },
+    {
+      "pageNumber": 2,
+      "text": "Este cuaderno pertenece a: ________________________________________ Ciencia y Tecnología Cuaderno de trabajo 3 2 3 Ciencia y TecnologíaCuaderno de trabajo",
+      "charCount": 154
+    },
+    {
+      "pageNumber": 3,
+      "text": "Segunda edición, Ministerio de Educación, Ciencia y Tecnología, San Salvador, El Salvador, 2022.\n\nTercera reimpresión 2025.\n\nDerechos reservados. Prohibida su venta y su reproducción con fines comerciales por cualquier medio, sin previa autorización del MINEDUCYT .\n\nEdición Tonatiuh Eddie M. Orantes Ramos Martha Alicia Artiga Hernández Orlando Leonel Castillo Henríquez Óscar Mauricio Olmedo Martínez Autoría Xochilt María Pocasangre Orellana Jorge Alfredo Ávila Moreno Flor de María López Hernández Huilhuinic Ángel Orantes Ramos Omar Antonio Rodríguez Alas Vilma Guadalupe Mártir Ramírez Katherine Michelle Hernández Vásquez Corrección de textos Carlos Eduardo Ruiz Serrano Jefe del Departamento de Materiales Educativos Julio Adolfo Castellanos Diseño editorial y diagramación Sara Elizabeth Ortiz Márquez Elmer Rodolfo Urquía Peña Boanerges Antonio Sigüenza Santos Ilustraciones Jacqueline Rebeca López Ernesto Escobar Corrección de textos Salvador Orlando Reyes Castañeda Imágenes Departamento de Ciencias Naturales Shutterstock\n\n372.357 045\n\nC569 Ciencia y tecnología 3: cuaderno de trabajo / Xochilt María Pocasangre Orellana, Jorge Alfredo Ávila Moreno, Flor de María slv López Hernández, Huilhuinic Angel Orantes Ramos, Omar Antonio Rodríguez Alas, Vilma Guadalupe Mártir Ramírez, Katherine Michelle Hernández Vásquez; corrección de textos Salvador Orlando Reyes Castañeda; edición Tonatiuh Eddie M. Orantes Ramos, Martha Alicia Artiga Hernández, Orlando Leonel Castillo Henríquez, Oscar Mauricio Olmedo Martínez; diseño editorial y diagramación Sara Elizabeth Ortiz Marquez, Elmer Rodolfo Urquía Peña, Boanerges Antonio Sigüenza Santos; Ilustraciones Jacqueline Rebeca López, Ernesto Escobar.–– 2.a ed.–– San Salvador, El Salv. : Ministerio de Educación, Ciencia y Tecnología, 2022.\n\n80 p. : il. ; 28 cm.\n\nISBN: 978-99983-56-59-7 <Impreso>\n\n1. Ciencias–Libros de texto. 2. Ciencia y Tecnología–Libros de\n\ntexto. 3. Educación primaria–Enseñanza. I. Pocasangre Orellana, Xochilt María, 1983– cout. II. Título.\n\nBINA/jmh Edgar Eliseo Alvarenga F.\n\nViceministro de Educación y de Ciencia y Tecnología, ad honorem Edgard Ernesto Ábrego Cruz Director General de Educación Wilfredo Alexander Granados Paz Director de Currículo y Materiales Educativos Karla Edith Trigueros Capitán y Doctora Ministra de Educación, Ciencia y Tecnología Marcela Isabel Hernández González Directora de Educación Primaria, en funciones Tonatiuh Eddie M. Orantes Ramos Jefe del Departamento de Ciencia y Tecnología",
+      "charCount": 2497
+    },
+    {
+      "pageNumber": 4,
+      "text": "Eje integrador: Organización Los animales\n\nUnidad 5\n\nEn esta unidad aprenderemos a:\n\nReconocer las características que comparten los animales y registrar su desarrollo.\n\nClasiﬁcar formas de desplazamiento, nutrición e intercambio de gases en los animales.\n\nClasiﬁcar a los animales en grupos y describir sus características distintivas.\n\nIdentiﬁcar el equipo utilizado para observar muestras microscópicas.\n\nDuración de la Unidad: 6 semanas Nombre y número de la unidad.\n\nPerspectiva de las temáticas.\n\nAprendizajes que alcanzarás al desarrollar la unidad.\n\nTiempo estimado que dedicarás a la unidad.\n\nPresentan la siguiente información:\n\nEn tu cuaderno de trabajo para tercer grado encontrarás todo listo y ordenado para responder a las preguntas, tomar apuntes y colocar los resultados de las prácticas planteadas en tu libro de texto.\n\nConoce tu Cuaderno de trabajo Entradas de unidadA Te permiten llevar un registro ordenado de procedimientos, respuestas y resultados.Espacios de trabajoB Tu cuaderno está enlazado con tu libro. Las flechas circulares te indican la página exacta para regresar al libro. Los puntos te indican el momento de la semana te encuentras.\n\n1. Notas y respuestas\n\nEncontrarás ejemplos y espacios en blanco para anotar.\n\n2. Resultados\n\nNo necesitas elaborar tablas ni cuadrículas.\n\nYa estarán listas para ti.\n\np.\n\n10 Tus amigos también te acompañan.\n\nUnidad 5\n\n57 Creatividad\n\nSemana 22\n\nB. Simetría animal\n\n3. Completa el cuadro referente a las figuras de tu libro\n\nde texto.\n\nC. Ejes corporales del ser humano\n\n3. Completa los recuadros indicando a qué parte del cuerpo corresponde\n\nsegún el plano corporal.\n\nDescripciones:\n\nPlano frontal. Divide al cuerpo en:\n\nParte dorsal: Donde se encuentra la espalda.\n\nParte ventral: Donde se encuentra el abdomen.\n\nPlano sagital. Divide al cuerpo en:\n\nMitad izquierda, mitad derecha.\n\nPlano transversal. Divide al cuerpo en:\n\nParte anterior: Donde se encuentra la cabeza.\n\nParte posterior: Donde se encuentran los pies.\n\nMosca Estrella de mar Esponja de mar Animal ¿Cuántas partes similares observas?\n\n¿Es simétrico o asimétrico?\n\np.\n\n132 Plano frontal Plano sagital Plano transversal\n\np.\n\n133 3 46 Indagación\n\nA. Buscando flores y frutos\n\n3. Anota las características de la flor y del fruto llenando los siguientes cuadros. Puedes hacerlo con más plantas si tu docente así lo indica.\n\nForma Tamaño Color Olor Textura Características Flor Fruto\n\nB. Las flores bebés\n\n3. Responde:\n\na. ¿Qué hay dentro?\n\nb. ¿Se parece a algún órgano vegetal de los que ya conocemos?\n\n¿Cuál?\n\nc. ¿Qué función crees que tiene esta estructura?\n\nC. Escudriñando frutos\n\n3. Responde:\n\na. ¿Qué hay dentro?\n\nb. ¿Para qué crees que sirven esas estructuras que hay dentro de la\n\nplanta?\n\nc. ¿Qué piensas que pasaría si las sembramos en la tierra?\n\np.\n\n108\n\np.\n\n108 La flor y el fruto\n\nUnidad 5\n\n57 Creatividad\n\nSemana 22\n\nB. Simetría animal\n\n3. Completa el cuadro referente a las figuras de tu libro\n\nde texto.\n\nC. Ejes corporales del ser humano\n\n3. Completa los recuadros indicando a qué parte del cuerpo corresponde\n\nsegún el plano corporal.\n\nDescripciones:\n\nPlano frontal. Divide al cuerpo en:\n\nParte dorsal: Donde se encuentra la espalda.\n\nParte ventral: Donde se encuentra el abdomen.\n\nPlano sagital. Divide al cuerpo en:\n\nMitad izquierda, mitad derecha.\n\nPlano transversal. Divide al cuerpo en:\n\nParte anterior: Donde se encuentra la cabeza.\n\nParte posterior: Donde se encuentran los pies.\n\nMosca Estrella de mar Esponja de mar Animal ¿Cuántas partes similares observas?\n\n¿Es simétrico o asimétrico?\n\np.\n\n132 Plano frontal Plano sagital Plano transversal\n\np.\n\n133",
+      "charCount": 3611
+    },
+    {
+      "pageNumber": 5,
+      "text": "4 Índice\n\nUnidad 1\n\nMedidas y fuerzas 5\n\nSemana 1: Instrumentos de medición 6\n\nSemana 2: Continuemos midiendo 8\n\nSemana 3: Experimentando fuerzas 10\n\nSemana 4: Fuerza invisible 12\n\nSemana 5: La fuerza que nos mueve 14\n\nEvaluación 16\n\nUnidad 5\n\nLos animales 55\n\nSemana 22: Ejes corporales 56\n\nSemana 23: Etapas del desarrollo 58\n\nSemana 24: Características de los animales 61\n\nSemana 25: Animales invertebrados (parte 1) 63\n\nSemana 26: Animales invertebrados (parte 2) 65\n\nSemana 27: Animales vertebrados 67\n\nEvaluación 68\n\nUnidad 3\n\nEl agua 31\n\nSemana 12: Conozcamos la hidrósfera 32\n\nSemana 13: Las curiosidades del agua 34\n\nSemana 14: Características del agua 36\n\nSemana 15: El agua como medio de vida 38\n\nSemana 16: ¡Me gusta el agua limpia! 40\n\nUnidad 4\n\nLas plantas 43\n\nSemana 17: Los órganos vegetales 44\n\nSemana 18: La flor y el fruto 46\n\nSemana 19: Los grupos de plantas 49\n\nSemana 20: Tropismos 51\n\nSemana 21: Nastias 53\n\nUnidad 2\n\nInteracciones terrestres 17\n\nSemana 6 Cambios físicos y químicos 18\n\nSemana 7: Conociendo las mezclas 20\n\nSemana 8: Las rocas y sus características 22\n\nSemana 9: El ciclo de las rocas y los vol-canes 24\n\nSemana 10: Conozcamos el interior de la Tierra 26\n\nSemana 11: La atmósfera y los seres vivos 28\n\nContenido avanzado 30\n\nUnidad 6\n\nLos microorganismos 69\n\nSemana 28: ¿Qué es una infección? 70\n\nSemana 29: ¿Qué es la desinfección? 72\n\nSemana 30: Clasificando microorganismos 73\n\nSemana 31: Importancia de losmicroorganismos 75\n\nSemana 32: Guardando mis alimentos 78",
+      "charCount": 1507
+    },
+    {
+      "pageNumber": 6,
+      "text": "Eje integrador: Tecnología Medidas y fuerzas\n\nUnidad 1\n\nEn esta unidad aprenderemos a:\n\nSeleccionar el instrumento más apropiado para una medición.\n\nComparar el comportamiento de fuerzas a distancia y de contacto.\n\nRealizar experimentos de fuerza.\n\nComunicar nuestras observaciones sobre la relación entre fuerza y movimiento.\n\nDuración de la Unidad: 5 semanas",
+      "charCount": 360
+    },
+    {
+      "pageNumber": 7,
+      "text": "6 Indagación\n\nA. Las cantidades en los productos\n\n2. Coloca las cantidades que observas en las viñetas de los\n\nproductos.\n\nB. Midiendo objetos pequeños\n\n2. Anota el valor como resultado de tu medición.\n\n3. Ahora que ya realizamos la medición de la nota adhesiva, midamos\n\nuna página de papel bond y anotemos el dato.\n\nC. Midiendo objetos grandes\n\na. ¿Qué maneras de realizar la medición se te ocurrieron?\n\np.\n\n9\n\np.\n\n10\n\np.\n\n9 Producto Cantidad Instrumentos de medición Creatividad",
+      "charCount": 481
+    },
+    {
+      "pageNumber": 8,
+      "text": "7\n\nUnidad 1\n\nComunicación\n\nSemana 1\n\nb. Visita una unidad de salud o utiliza una báscula de piso, y escribe el\n\nvalor que obtengas.\n\na. Si quieres conocer el valor de tu masa, ¿cuál de los instrumentos que ves a continuación utilizarías?\n\nc. ¿Con qué instrumento de medición crees que se han obtenido los\n\nvalores numéricos que aparecen en las viñetas de los productos?\n\n(A) Báscula de piso. (B) Báscula de alimentos. (C) Balanza de dos brazos.\n\np.\n\n11\n\np.\n\n12",
+      "charCount": 460
+    },
+    {
+      "pageNumber": 9,
+      "text": "8 Indagación Continuemos midiendo\n\nA. Diversidad de instrumentos de medición\n\n1. Lista todos los instrumentos de medición que conoces.\n\n2. Responde las siguientes preguntas:\n\na. ¿Cuál de los tres termómetros estás más acostumbrado a ver?\n\nb. ¿Has utilizado alguno de ellos? Sí No\n\nc. Cuando has pasado consulta médica, ¿con cuál de ellos te toman el dato de tu temperatura?\n\n3. Comenta con tus compañeros las respuestas a las preguntas planteadas y discutan las siguientes interrogantes:\n\nd. ¿Cuál termómetro consideras más confiable?\n\ne. ¿Cuál es el más incómodo?\n\nf. ¿Cuál es el más rápido?\n\nB. Midiendo una página\n\n1. Mira el ejemplo de tu libro de texto.\n\na. ¿Cómo crees que podríamos hacer para medir el grosor de\n\nuna página de papel bond?\n\nCreatividad\n\np.\n\n14\n\np.\n\n13\n\np.\n\n13",
+      "charCount": 782
+    },
+    {
+      "pageNumber": 10,
+      "text": "9\n\nUnidad 1Semana 2\n\n2. Aplica la estrategia de doblar la página.\n\nb. ¿Cuál ha sido el resultado?\n\n4. Uso del pie de rey.\n\nc. ¿Conoces otros instrumentos de medición para medir longitudes o distancias? Sí No ¿Cuáles?\n\nC. Midiendo la masa\n\n2. Ayuda a Carlos.\n\na. ¿Cuál es tu recomendación para Carlos?\n\nb. ¿Cuál de los siguientes instrumentos de medición utilizarías para medir la cucharada de sal? Báscula de piso Báscula clínica Báscula de cocina\n\n3. ¿Cuál de todos los tipos de balanza que hemos estado viendo utilizarías para medir cada uno de los siguientes objetos?\n\nUna manzana:\n\nUn gato:\n\nArroz:\n\nD. Tarea\n\na. ¿El instrumento de medición se ve dañado? Sí No\n\nb. ¿Te parece que es un instrumento reciente o antiguo?\n\nc. ¿Se aprecian todos los números y marcas de su escala? Sí No\n\nd. ¿Consideras que es un instrumento de medición confiable? Sí No\n\np.\n\n15\n\np.\n\n15\n\np.\n\n16 Comunicación\n\np.\n\n17",
+      "charCount": 897
+    },
+    {
+      "pageNumber": 11,
+      "text": "10 Indagación Experimentando fuerzas\n\nA. Competencia de fuerza\n\n3. Descansa un poco del juego y piensa en lo que ha ocurrido respondiendo a las siguientes preguntas:\n\na. ¿Por qué razón elegiste a los compañeros de tu equipo?\n\nb. ¿Qué estrategia seguiste para considerar que podías ganar?\n\nc. Luego de hacer toda esta dinámica, ¿qué es la fuerza para ti?\n\nAhora volvamos a intentar, pero esta vez el salón se dividirá en dos equipos, el A y el\n\nB. Cada equipo\n\ndebe seleccionar a 3 compañeros para competir ¿A quiénes elegirás?\n\np.\n\n18\n\nB. Empujar y halar\n\n1. ¿En qué otro juego recuerdas que has hecho las acciones de empujar y halar?\n\n2. Trata de listar todos los juegos que conozcas donde tengas que\n\nhacer una acción de empujar y otra de halar.\n\nCreatividad\n\np.\n\n19\n\np.\n\n19",
+      "charCount": 776
+    },
+    {
+      "pageNumber": 12,
+      "text": "Unidad 1\n\n11\n\nSemana 3\n\nUnidad 1\n\np.\n\n21\n\nC. Unidos por la fuerza\n\nResponde a las siguientes preguntas.\n\na. ¿Cómo les resultó separar los libros cuando tomaron cada una un extremo de cada libro?\n\nb. ¿Cómo resultó intentándolo con más personas?",
+      "charCount": 243
+    },
+    {
+      "pageNumber": 13,
+      "text": "12 Indagación Fuerza invisible\n\n2. Intenta contestar las preguntas de cada caso.\n\na. ¿Cuál es la fuerza que\n\nhace que la persona vaya hacia abajo?\n\nc. ¿En qué dirección\n\ncaen?\n\nd. ¿Hacia abajo o hacia\n\narriba?\n\ne. ¿Por qué no se caen?\n\nf. ¿Cuáles son las fuerzas\n\nque permiten sostenerlos?\n\nB. Observando lo invisible\n\n2. Responde:\n\na. ¿Qué ocurrió?\n\nb. ¿Sucedió lo mismo con los imanes de tus compañeros?\n\nc. ¿Todos los imanes se ven iguales ahora?\n\np.\n\n23\n\np.\n\n24 Creatividad",
+      "charCount": 477
+    },
+    {
+      "pageNumber": 14,
+      "text": "Unidad 1\n\n13\n\nSemana 4\n\nUnidad 1\n\nC. Objetos que flotan\n\na. ¿Qué ocurrió?\n\nb. ¿Por qué el clip queda suspendido en el aire?\n\nc. ¿Qué evita que se adhiera al imán?\n\nd. ¿Qué es más fuerte, la gravedad o el magnetismo?\n\ne. Haz un esquema del experimento.\n\nf. ¿Qué características deben tener los demás objetos?\n\np.\n\n25\n\np.\n\n25\n\np.\n\n25",
+      "charCount": 331
+    },
+    {
+      "pageNumber": 15,
+      "text": "14 Indagación La fuerza que nos mueve Observa las siguientes imágenes y responde:\n\na. ¿A cuál objeto crees que hay que aplicarle más fuerza para que se\n\npueda mover?\n\nEn esta imagen los tres objetos están balanceados.\n\nb. ¿Crees que las esferas se están moviendo?\n\nc. ¿Qué hay que hacer para que los objetos estén desequilibrados?\n\np.\n\n28\n\np.\n\n28",
+      "charCount": 346
+    },
+    {
+      "pageNumber": 16,
+      "text": "Unidad 1\n\n15 Creatividad\n\nSemana 5\n\n¿Te fue fácil mantenerlo balanceado?A. Mantener el equilibrio\n\nB. Catapulta\n\na. ¿Por qué se logra mantener balanceado?\n\nb. ¿Qué ocurre si le quitamos uno de los ganchos?\n\nc. Si la paleta fuera más larga, ¿se mantuviera en equilibrio?\n\na. Para que el objeto llegue más lejos, ¿se debe aplicar más o menos fuerza?\n\nb. ¿Cómo crees que llegaría más lejos el objeto lanzado?\n\nObjetos identificados Comunicación\n\np.\n\n29\n\np.\n\n30",
+      "charCount": 457
+    },
+    {
+      "pageNumber": 17,
+      "text": "16 Evaluación\n\n1. Utilizando una cinta métrica, realiza las siguientes mediciones:\n\na. Mide la estatura de uno de tus compañeros (recuerda dejar tu respuesta en centímetros).\n\nb. ¿Fue difícil realizar la medición? Sí: No:\n\nc. ¿Cómo crees que sería más fácil medir a tu compañero?\n\n2. De la imagen de tu libro de texto, responde lo siguiente:\n\na. ¿Cuál es el valor numérico de la medida?\n\nb. ¿Cuál es la unidad de medida?\n\nc. ¿Cómo se llama el instrumento de medición?\n\n3. Utilizando diferentes imanes, intenta sostener una página de papel\n\nsobre una puerta de metal. Luego, responde:\n\na. ¿Todos los imanes logran sostener el papel? Sí: No:\n\nb. Si ahora colocamos dos páginas de papel ¿las pueden sostener?\n\nc. ¿Cuál es el límite de páginas de papel que puede soportar cada\n\nimán que has utilizado?\n\np.\n\n35\n\np.\n\n35",
+      "charCount": 813
+    },
+    {
+      "pageNumber": 18,
+      "text": "Eje integrador: Interacciones Interacciones terrestres\n\nUnidad 2\n\nEn esta unidad aprenderemos a:\n\nIdentiﬁcar los cambios físicos y químicos de la materia.\n\nIdentiﬁcar y experimentar con los diferentes tipos de mezclas y sus métodos de separación.\n\nConocer los procesos geológicos externos e internos de la Tierra.\n\nComprender la importancia de la atmósfera para la vida terrestre.\n\nDuración de la Unidad: 6 semanas",
+      "charCount": 414
+    },
+    {
+      "pageNumber": 19,
+      "text": "18 Indagación Cambios físicos y químicos\n\na. ¿Por qué ocurren esos cambios?\n\nb. ¿Los cambios ocurren de manera natural?\n\nc. ¿Puedo observar todos los cambios?\n\nd. ¿Son todos los cambios de la misma naturaleza?\n\nCreatividad\n\nA. Identificando cambios\n\nB. Cambiando la materia\n\nObserva atentamente las acciones que tu docente realiza y anota las características.\n\np.\n\n38\n\np.\n\n39\n\np.\n\n39\n\na. ¿Cambia el tamaño del hielo?\n\nb. ¿Hay agua en el vaso? ¿Por qué?\n\nc. ¿Cambia su tamaño? ¿Por qué?\n\nd. ¿Vuelve a su forma inicial al desinflarlo?\n\ne. ¿Qué cambios sufrió el papel?\n\nf. ¿Puede volver a su forma original?\n\na. ¿Qué cambios ocurren en el huevo?\n\nb. ¿Qué ocurre con el cerillo?\n\nc. ¿Qué cambios observas?\n\nd. ¿Puede volver a su estado inicial?",
+      "charCount": 741
+    },
+    {
+      "pageNumber": 20,
+      "text": "19\n\nUnidad 2Semana 6\n\nC. Objetos cambiantes\n\nD. ¿Cambio químico o físico?\n\nIdentifica los cambios\n\nE. Exploremos nuestro centro educativo\n\nBusca cambios físicos y químicos, reversibles e irreversibles.\n\np.\n\n41\n\np.\n\n42\n\np.\n\n42 Dibuja tres señales que representan que ha ocurrido un cambio químico.\n\nCambios químicos Cambios físicos Cambios químicos Cambios físicos Comunicación",
+      "charCount": 376
+    },
+    {
+      "pageNumber": 21,
+      "text": "20\n\na. ¿Cómo le puedo llamar a la combinación de agua y sal?\n\nb. ¿Por qué no es un cambio químico?\n\np.\n\n43\n\np.\n\n45\n\nA. Formando mezclas\n\na. ¿Qué le ocurre a la sal?\n\nb. ¿Se combinan el agua y el polvo para refresco?\n\nc. ¿Puedes combinar el agua y la arena?\n\nd. ¿Se combinan los materiales? ¿Se pueden separar?\n\nB. Clasificando mezclas\n\nPasta dental y agua Colorante de comida y agua Agua y aceite Agua y hojas Mezcla Observación Clasificación\n\np.\n\n44 Indagación Conociendo las mezclas Creatividad",
+      "charCount": 496
+    },
+    {
+      "pageNumber": 22,
+      "text": "21\n\nUnidad 2Semana 7\n\np.\n\n45\n\na. Pero ¿cómo separamos las mezclas homogéneas?\n\nC. ¿Cómo podemos separar las mezclas?\n\na. Escribe las características de la mezcla elaborada.\n\nb. ¿Cómo eliminarías el agua de los trozos de madera?\n\nc. ¿Qué componentes separaste con el imán?\n\nMétodo de separación Componente de la mezcla separado\n\n7. Dibuja la representación de las mezclas elaboradas.\n\np.\n\n45\n\np.\n\n46\n\np.\n\n47\n\nD. Identificando métodos\n\nCompleta la tabla.\n\nComunicación",
+      "charCount": 466
+    },
+    {
+      "pageNumber": 23,
+      "text": "22\n\nA. Las rocas\n\n2. Anota las características de las rocas.\n\n3. Define qué es una roca.\n\na. ¿Crees que la hoja de la libreta y el lápiz están hechos de rocas?\n\nColor Granos Características Cobre Granito Carbón\n\np.\n\n48 Creatividad\n\nB. ¿De qué están hechos los objetos?\n\n1. Completa la tabla con las características y utilidades de los objetos que observaste.\n\n2. Propiedades de las rocas.\n\nComo material cementante. Caliza y arcillas Material de relleno y secado. Silicatos Proporciona dureza y flexibilidad. Calcita Brinda un color grisáceo y una menor dureza. Grafito Varillas de hierro Lápices Juguete de silicón Pared de cemento Propiedad Roca o mineral Producto Objetos\n\np.\n\n49 Indagación Las rocas y sus características",
+      "charCount": 725
+    },
+    {
+      "pageNumber": 24,
+      "text": "Unidad 2\n\n23\n\nC. Utilidades de las rocas\n\nIdentifica los usos y completa la tabla.\n\nD. Afloramientos rocosos\n\na. ¿Crees que alguno de los lugares observados los puedes llamar como afloramientos?\n\nb. ¿Qué puedes observar en esos sitios?\n\nc. ¿Qué afloramientos conoces? Márcalos con una X.\n\nSedimentarias Formados por la fragmentación, acumulación y compactación de rocas y materia orgánica.\n\nÍgneas Rocas con cristales de grano grueso a fino, formados a temperaturas elevadas.\n\nMetamórficas Rocas formadas en límites de placas tectónicas, algunas con bandas claras y oscuras alternadas.\n\nBasalto Gneis Coquina Clasificación Características Roca (3) Afloramiento (4)\n\n2. Anota las características de las rocas.\n\n3. Clasifica las rocas.\n\n4. Asocia las rocas con los afloramientos que ya identificaste.\n\nUtilizadas para revestir edificios, decorar y hacer esculturas. Ornamental Utilizadas como fuentes de energía. Energético Utilizadas en productos para la construcción. Industrial Montañas Fondo oceánico Playa Riberas de ríos Volcanes Zona de fallas Actividades Uso Roca\n\np.\n\n50\n\np.\n\n51\n\nSemana 8",
+      "charCount": 1095
+    },
+    {
+      "pageNumber": 25,
+      "text": "24 Indagación El ciclo de las rocas y los volcanes\n\nA. Procesos geológicos y el ciclo de las rocas\n\na. ¿Cómo describirías lo que observaste?\n\nb. Ordena las etapas del proceso colocando un número del 1 al 5 en la columna de la derecha.\n\nc. Traza una línea para relacionar lo que observaste con los procesos del ciclo de las rocas.\n\n6. Identifica los procesos de formación de rocas y los tipos de rocas que se forman: Un crayón se derritió por la acción de una fuente de calor creciente, en este caso varias velas.\n\nPor la acción de soplar, los fragmentos de crayón fueron movilizados.\n\nCada fragmento de crayón se comprimió, y deformó en menor o mayor medida, en correspondencia con la acción creciente de presionar con el libro.\n\nEl primer crayón fue triturado, con lo que se obtuvieron fragmentos diminutos de este. Finalmente, la masa derretida resultante se solidificó con la acción del hielo.\n\nMeteorización y erosión. Rocas sedimentarias Fusión y solidificación. Rocas ígneas Deformación y compactación por aumento de presión. Rocas metamórficas Meteorización Cuando los fragmentos fueron movilizados al soplar sobre ellos.\n\nDeformación Ocurrió cuando se comprimió el crayón con los libros.\n\nErosión Cuando el crayón se derritió por el calentamiento de la vela, y luego se solidificó por la acción del hielo. Fusión Reflejado en la fragmentación del crayón.\n\nProceso Literal Roca formada Literal\n\np.\n\n53",
+      "charCount": 1408
+    },
+    {
+      "pageNumber": 26,
+      "text": "Unidad 2\n\n25 Creatividad\n\nB. Tipos de volcanes y sus productos\n\n4. Asocia los volcanes con las siguientes descripciones.\n\nMiel Arena Material Descripción Comportamiento Altura considerable, formado por múltiples capas de lava y tefra, exhibe la forma de un cono.\n\nFormados por explosiones que destruyeron la parte central del volcán, formando una depresión o hundimiento. Menor altura, formados por acumulación de lava.\n\nCaracterísticas Tipo Simulación Figura A Figura B Figura C Figura D A y D A y B B y C B y D\n\np.\n\n54\n\np.\n\n56\n\na. Describe los que has formado\n\nb. Identifica cuál de esos volcanes fue\n\nrepresentado y sus productos.\n\nc. ¿Por qué existen volcanes con diferente forma?\n\nC. Tipos de erupciones\n\n2. Identifica el tipo de actividad de cada volcán y describe cada tipo de erupción.\n\n3. ¿Cuáles de las erupciones tienen comportamiento similar? Márcalas con una X.\n\n2. Describe los materiales y su comportamiento.\n\nSemana 9",
+      "charCount": 933
+    },
+    {
+      "pageNumber": 27,
+      "text": "26 Indagación Conozcamos el interior de la Tierra\n\na. ¿Qué crees que hay en el interior de\n\nnuestro planeta? Márcalo con una X.\n\nRocas Aire Mar Magma Diamante Grafito\n\nb. ¿Crees que las rocas nos brindan información sobre el interior de la Tierra?\n\np.\n\n58 Continentes Océano Nubes Gases Montañas Rocas\n\nc. Describe los minerales en la siguiente tabla.\n\nRoca Capas Granito Corteza oceánica Basalto Corteza continental\n\nd. ¿Crees que tienen algo en común ambos minerales? Ten en cuenta que ambos contienen carbono.\n\ne. Describe el meteorito.\n\nf. ¿Crees que la Tierra está formada por las mismas sustancias que los meteoritos?\n\ng. ¿Qué encuentras en la superficie terrestre del planeta? Márcalos con una X.\n\nh. Indica en qué corteza afloran el basalto y el granito. p. 59",
+      "charCount": 768
+    },
+    {
+      "pageNumber": 28,
+      "text": "27\n\nUnidad 2Semana 10\n\np.\n\n61\n\nA. Estructura de la Tierra\n\n4. Describe lo que observaste.\n\na. ¿Crees que alguno de estos materiales flotará en alguno de los líquidos?\n\n5. Compara ambas clasificaciones.\n\nCompleta afirmando (V) o rechazando (F) la información a continuación:\n\n• El núcleo es la capa más profunda y se divide en dos, según su composición.\n\n• La astenósfera y mesósfera conforman el manto.\n\nComunicación Capas según sus propiedades físicas Capas según su composición\n\nB. Estructura interna de la Tierra\n\nCreatividad\n\nb. Ilustra las capas observadas en el\n\nexperimento.",
+      "charCount": 581
+    },
+    {
+      "pageNumber": 29,
+      "text": "28\n\nA. Una capa protectora\n\n1. Describe lo que observas:\n\na. ¿Crees que hay algo más que no puedas ver?\n\nConsidera que ya describiste lo que sí lograste observar.\n\nb. ¿Has escuchado que en el cielo hay gases?\n\np.\n\n63\n\np.\n\n64 Creatividad\n\nB. Componentes de la atmósfera\n\na. ¿Se encuentran los tres vasos llenos? Completa la tabla con verdadero (v) o falso (f).\n\n1 2 3 El vaso se llenó con agua El vaso no se llenó con agua Vasos Respuesta Demostración Respuesta\n\nb. ¿Qué observaste en la demostración? Márcalo con una X.\n\n4. Describe qué le sucede a la vela y al agua cuando se coloca el vaso.\n\n2. Describe el halo solar.\n\nc. ¿Piensas que solo hay gases en la\n\natmósfera?\n\nIndagación La atmósfera y los seres vivos",
+      "charCount": 713
+    },
+    {
+      "pageNumber": 30,
+      "text": "29\n\nUnidad 2Semana 11\n\n5. Explica, cuál es la importancia de la atmósfera para los seres vivos, según lo que observas a tu alrededor y toma en cuenta que:\n\n• El oxígeno lo utilizamos para respirar.\n\n• Las plantas son necesarias para alimentarnos.\n\n• El agua mantiene la vida y el desarrollo de nuestras actividades.\n\n• La atmósfera es esencial para distribuir el calor en la Tierra.\n\np.\n\n67\n\np.\n\n65 Comunicación\n\nC. Un repaso por la atmósfera\n\n1. Representa la capa de la atmósfera que se te asignó con ilustraciones o dibujos.\n\n3. Traza líneas para unir las descripciones con la capa correspondiente.\n\nMesósferaEn esta capa se desintegran los meteoritos, se producen las auroras y permite la comunicación. EstratósferaTransición al espacio.\n\nTermósferaSin nubes, actúa como filtro o capa protectora ante los rayos solares dañinos. Exósfera Tropósfera Capa en la que se generan la lluvia, el viento, regula la temperatura y concentra la mayor parte del oxígeno.\n\nEn esta capa ocurre la lluvia de meteoritos.",
+      "charCount": 1007
+    },
+    {
+      "pageNumber": 31,
+      "text": "30 Actividad avanzada\n\nA. Volcanes submarinos\n\nUn volcán se forma cuando el magma asciende desde el interior de la Tierra hacia la superficie en forma de lava, la cual se acumula con cada erupción formando una estructura volcánica. El magma puede ascender por debajo de la corteza continental y de los océanos.\n\nPon atención al experimento que desarrollará tu docente, para el cual utilizará:\n\n• Un frasco pequeño con un agujero en la tapadera.\n\n• Agua caliente y agua fría.\n\n• Colorante líquido.\n\n• Un recipiente transparente.\n\nLlena el frasco con agua caliente y vierte el colorante hasta mezclarlo, luego tápalo y colócalo sobre el recipiente, el cual llenas de agua hasta cubrir el frasco.\n\n1. Describe lo que observaste:\n\n(1) Ascenso de magma bajo el mar.\n\n(2) Ascenso de agua caliente.\n\nAl igual que cuando el magma asciende por debajo del mar, así ascendió el agua caliente en el experimento. De hecho, el agua caliente representa el magma y podemos ver cómo por diferencia de densidad entre los materiales más calientes y fríos, se produce un proceso de ascenso, lo que explica la aparición de lava en los océanos.\n\n2. ¿Qué esperarías que se forme al ascender el magma?\n\n3. Advierte de la existencia de volcanes submarinos a tus compañeros.\n\n(3) Formación de volcanes submarinos.",
+      "charCount": 1287
+    },
+    {
+      "pageNumber": 32,
+      "text": "En esta unidad aprenderemos a:\n\nDescribir las principales características de los componentes de la hidrósfera terrestre: ríos, lagos, océanos, glaciares y acuíferos.\n\nReconocer la importancia de cada uno para los seres vivos.\n\nIdentiﬁcar propiedades físicas y químicas del agua.\n\nExplorar las soluciones, suspensiones y coloides.\n\nExperimentar con tratamientos para mejorar la calidad del agua.\n\nEje integrador: Sistemas El agua\n\nUnidad 3\n\nDuración de la Unidad: 5 semanas",
+      "charCount": 472
+    },
+    {
+      "pageNumber": 33,
+      "text": "32\n\nA. Componentes de la hidrósfera\n\n1. ¿Qué forma tenía el cuerpo de agua?\n\na. ¿Cómo es el agua? ¿Es salada o no?\n\nb. ¿Qué color es el agua?\n\nc. ¿Cómo se mueve el agua en ese lugar?\n\nd. ¿Había plantas? ¿Cómo son?\n\ne. ¿Había animales cerca? ¿Cuáles?\n\nf. ¿Qué hacían las personas con el agua del lugar?\n\nCreatividad\n\nB. Modelo de lago o río\n\n5. Escribe tus observaciones y conclusiones sobre el experimento.\n\nC. ¿Cómo afecta la lluvia a los ríos?\n\n5. Escribe tus observaciones y conclusiones sobre el experimento.\n\np.\n\n72\n\np.\n\n73\n\np.\n\n74 Indagación Conozcamos la hidrósfera",
+      "charCount": 572
+    },
+    {
+      "pageNumber": 34,
+      "text": "33\n\nUnidad 3\n\nComunicación\n\nSemana 12\n\nD. Características de los ríos\n\n1. Responde:\n\na. ¿Qué cosas caracterizan a este cuerpo de gua?\n\nE. Características de un lago y una laguna\n\n1. Escribe otras características para identificar un lago o laguna:\n\nF. Otros cuerpos de agua\n\np.\n\n75\n\np.\n\n76 Río Lago Océano Playa Humedal Glaciar\n\n1. Realiza un dibujo de cada componente de la hidrósfera:",
+      "charCount": 385
+    },
+    {
+      "pageNumber": 35,
+      "text": "34 Escribe cómo crees que llega el agua hasta la parte interior del suelo, la que forma los pozos.\n\nEscribe tus conclusiones sobre el experimento: modelo de acuífero.\n\nB. Acuífero en condiciones de sequía\n\n5. Escribe tus conclusiones sobre el experimento: acuífero en condiciones de sequía. ¿Te has preguntado cómo llega el agua hasta el interior de la Tierra?\n\nCreatividad\n\nA. Modelo de acuífero\n\n7. Esquema del experimento: modelo de acuífero.\n\np.\n\n77\n\np.\n\n79\n\np.\n\n80 Las curiosidades del agua Indagación",
+      "charCount": 506
+    },
+    {
+      "pageNumber": 36,
+      "text": "35\n\nSemana 13\n\nUnidad 3\n\nComunicación\n\np.\n\n81 Realiza un dibujo sobre lo que comprendiste que es ciclo del agua, retomando estos conceptos: evaporación, lluvia e infiltración.\n\nCompleta el cuadro de las características de los componentes de la hidrósfera.\n\nRío Lago Océano Glaciar Acuífero Pozo Descripción Características Ejemplo",
+      "charCount": 330
+    },
+    {
+      "pageNumber": 37,
+      "text": "36 Indagación A continuación, escribe las respuestas que comentaste con tus compañeros acerca de las propiedades del agua:\n\na. ¿Qué sabor tiene el agua que bebes en casa?\n\nb. ¿Qué color es el agua limpia?\n\nc. ¿Tiene olor el agua que tomas?\n\nd. ¿Puedes distinguir entre el agua limpia y la sucia? ¿Cómo?\n\nRealiza un dibujo del agua que tenía una apariencia extraña:\n\nEscribe algunas causas por las cuales el agua podría haber cambiado:\n\nPropiedades del agua\n\np.\n\n82",
+      "charCount": 464
+    },
+    {
+      "pageNumber": 38,
+      "text": "Unidad 3\n\n37 Creatividad\n\nSemana 14\n\nA. Solubilidad de las sustancias en agua\n\n4. Completa el cuadro del experimento:\n\np.\n\n83\n\np.\n\n84 Sí se disolvió No se disolvió Sal Azúcar Trozo de jabón Trozo de carbón Tierra o arena Sustancia (otras) Solubilidad en agua\n\n5. Esquema del experimento.\n\n6. Clasificación de las sustancias:\n\n• Soluciones:\n\n• Mezclas heterogéneas :\n\nC. ¿Cuánta agua necesita una planta?\n\n6. Conclusiones sobre la cantidad de agua que necesitan las plantas. La falta y el exceso:\n\np.\n\n85",
+      "charCount": 503
+    },
+    {
+      "pageNumber": 39,
+      "text": "38\n\nB. Soluciones en la naturaleza\n\n3. Listado de las soluciones encontradas en la expedición:\n\n6. Conclusiones del experimento:\n\np.\n\n88\n\np.\n\n89\n\np.\n\n88\n\na. ¿Cómo hacen los peces para poder\n\nrespirar dentro del agua?\n\nb. Las plantas que están en el agua, ¿cómo viven sin tener tierra en sus raíces?\n\nCreatividad\n\nA. Identificación de la concentración de las soluciones\n\n5. Dibuja un esquema del experimento.\n\n7. Definiciones de los tipos de soluciones\n\nInsaturada: Saturada: Sobresaturada:\n\nNombre Estado de agregación Componentes El agua como medio de vida Indagación\n\np.\n\n87",
+      "charCount": 576
+    },
+    {
+      "pageNumber": 40,
+      "text": "39\n\nUnidad 3Semana 15\n\nCaracterísticas de las soluciones observadas en el experimento:\n\nC. Soluciones elaboradas por personas\n\nD. ¿Son soluciones?\n\na. ¿Qué ocurre con el haz de luz en la mezcla que contiene fécula de maíz?\n\nb. ¿Es esta mezcla una solución?\n\nNombre Estado de agregación Color Olor Componentes Jabón Agua jabonosa Soda Soda diluida\n\n7. Esquema del experimento realizado y características de cada uno:\n\np.\n\n91\n\np.\n\n90\n\np.\n\n91 Enlista ejemplos de disoluciones, coloides y suspensiones.\n\nComunicación",
+      "charCount": 512
+    },
+    {
+      "pageNumber": 41,
+      "text": "40 Indagación Después de observar las imágenes sobre sitios con agua sucia, contesta:\n\na. ¿Quisieras visitar los lugares que se muestran en las imágenes?\n\nb. ¿Te gustaría bañarte en alguno de esos sitios?\n\nc. ¿Cuáles crees que son las causas de cada situación?\n\nd. ¿Crees que esa agua puede utilizarse para realizar alguna actividad?\n\nRealiza un esquema de cómo podría limpiarse el agua, para poder utilizarla en otras actividades.\n\nEscribe dos ejemplos de otros usos del agua en los que creas que no se requiere una calidad tan alta como para el consumo humano.\n\n1.\n\n2.\n\np.\n\n92\n\np.\n\n93 ¡Me gusta el agua limpia!",
+      "charCount": 612
+    },
+    {
+      "pageNumber": 42,
+      "text": "Unidad 3\n\n41 Creatividad\n\nSemana 16\n\nA. Formas de limpiar el agua\n\nMétodo 1. Decantación Método 2. Filtración Realiza un esquema o describe el proceso de la mejor forma para limpiar cada muestra. Agua+jabón Agua+arena Agua+aceite Agua+jabón Agua+arena Agua+aceite ¿Funcionó este método? – Sí - No ¿Funcionó este método? – Sí - No ¿Qué apariencia tiene el agua después de utilizar el método?\n\n¿Qué apariencia tiene el agua después de utilizar el método?\n\nMuestra Muestra\n\np.\n\n94 Agua+jabón Agua+arena Agua+aceite",
+      "charCount": 511
+    },
+    {
+      "pageNumber": 43,
+      "text": "42 Comunicación\n\nB. Uso adecuado del agua\n\n3. Completa el esquema con los nombres de las etapas.\n\np.\n\n97",
+      "charCount": 104
+    },
+    {
+      "pageNumber": 44,
+      "text": "Eje integrador: Organización Las plantas\n\nUnidad 4\n\nEn esta unidad aprenderemos a:\n\nReconocer los órganos de las plantas con semilla y sus funciones.\n\nElaborar un catálogo de las plantas de tu comunidad.\n\nDistinguir entre las plantas con semilla y las plantas sin semilla.\n\nExperimentar con los fenómenos de tropismos y nastias.\n\nDuración de la Unidad: 5 semanas",
+      "charCount": 362
+    },
+    {
+      "pageNumber": 45,
+      "text": "44 Indagación Los órganos vegetales\n\nB. Dibujo de una planta\n\n3. Dibuja la planta que más te haya gustado y escribe el nombre de\n\nlos órganos vegetales.\n\np.\n\n103\n\n5. Llena el cuadro comparativo.\n\na. ¿Hay algún órgano que no pudiste observar?\n\nb. ¿Cuál órgano es?\n\nc. ¿Por qué piensas que no lo pudiste observar?\n\nHoja Órgano Características, semejanzas y diferencias",
+      "charCount": 366
+    },
+    {
+      "pageNumber": 46,
+      "text": "45\n\nUnidad 4\n\nSemana 17\n\np.\n\n104\n\np.\n\n105 Sistema del vástago Tallo y raíces Sistema de órganos Órganos que lo componen Semejanzas Diferencias\n\nC. Sistema de órganos en las plantas\n\n1. Llena el cuadro.\n\np.\n\n103 Creatividad\n\nD. ¿Para qué sirven las hojas?\n\na. ¿Qué sucedió?\n\nb. ¿Existe diferencia entre lo que ocurrió en la planta que estaba\n\nbajo el Sol, y la que estaba bajo la sombra? Explica.\n\nE. Tallo vs raíz\n\na. ¿Hacia dónde ha viajado el agua?\n\nb. ¿Qué partes de la planta crees que absorbieron y transportaron\n\nel agua?\n\nc. ¿En qué se parecen el tallo y las raíces? ¿En qué se diferencian?",
+      "charCount": 597
+    },
+    {
+      "pageNumber": 47,
+      "text": "46 Indagación\n\nA. Buscando flores y frutos\n\n3. Anota las características de la flor y del fruto llenando los siguientes cuadros. Puedes hacerlo con más plantas si tu docente así lo indica.\n\nForma Tamaño Color Olor Textura Características Flor Fruto\n\nB. Las flores bebés\n\n3. Responde:\n\na. ¿Qué hay dentro?\n\nb. ¿Se parece a algún órgano vegetal de los que ya conocemos?\n\n¿Cuál?\n\nc. ¿Qué función crees que tiene esta estructura?\n\nC. Escudriñando frutos\n\n3. Responde:\n\na. ¿Qué hay dentro?\n\nb. ¿Para qué crees que sirven esas estructuras que hay dentro de la\n\nplanta?\n\nc. ¿Qué piensas que pasaría si las sembramos en la tierra?\n\np.\n\n108\n\np.\n\n108 La flor y el fruto",
+      "charCount": 659
+    },
+    {
+      "pageNumber": 48,
+      "text": "47 Creatividad\n\nSemana 18\n\nUnidad 4\n\nD. Conociendo las estructuras de las flores\n\n2. Estructuras con forma de hojas:\n\na. ¿Cuántos tipos de estructuras en forma de hojitas hay?\n\nb. ¿Cómo se llaman?\n\nc. ¿De qué colores son?\n\n3. Estructuras en forma de filamentos:\n\nd. ¿Cuántos tipos de estructuras en forma de filamentos hay?\n\ne. ¿Cómo se llaman?\n\nf. ¿Qué características tienen?\n\ng. ¿Cuántos logras contar de cada tipo?\n\nFlor 1:\n\nFlor 2:\n\nFlor 3:\n\n4. El filamento más robusto:\n\nh. ¿En qué se diferencia del resto de filamentos?\n\ni. ¿Desde qué parte de la flor surge este?\n\n5. Dibuja las estructuras de la flor: p.\n\n109",
+      "charCount": 617
+    },
+    {
+      "pageNumber": 49,
+      "text": "48 Anota sus características\n\nE. ¿Qué fue primero: la flor o el fruto?\n\n2. Capullos florales:\n\na. ¿Qué piensas que saldrá del capullo floral?\n\nPétalo Estructura floral Características\n\n3. Pistilo:\n\nb. ¿Qué piensas que hay dentro del pistilo?\n\n4. Fruto:\n\nc. ¿Qué hay dentro del fruto?\n\nd. ¿Se parece lo que hay dentro de cada uno? ¿Por qué?\n\n6. Observaciones de una semana después:\n\ne. ¿Cuál crees que surgió primero: la flor o el fruto? ¿Por qué?\n\nF. Dibujo de la flor, el fruto y la semilla\n\nEscribe las funciones de la flor, el fruto y la semilla.\n\nComunicación Flor Fruto Semilla Órgano Función\n\np.\n\n110\n\np.\n\n110\n\np.\n\n111",
+      "charCount": 624
+    },
+    {
+      "pageNumber": 50,
+      "text": "49 Los grupos de plantas Unidad 4\n\nSemana 19\n\nA. Búsqueda de briofitas\n\na. ¿De qué está formada esa capa verde? ¿Qué crees que son?\n\nb. ¿Qué órganos vegetales logras identificar?\n\nc. ¿Qué órganos vegetales no logras ver?\n\nd. ¿Qué crees que es esa cápsula en ese filamento que sobresale?\n\ne. ¿Qué función crees que tiene?\n\nB. Búsqueda de helechos\n\na. ¿Qué órganos logras identificar?\n\nb. ¿En qué se diferencia de otras plantas que hemos visto anteriormente?\n\nC. Búsqueda de gimnospermas\n\na. ¿Qué estructuras logras identificar?\n\nb. ¿Qué características tiene el estróbilo?\n\np.\n\n113\n\np.\n\n113\n\np.\n\n113\n\nD. Búsqueda de esporangios\n\n2. Observa en el microscopio y responde.\n\na. ¿Qué forma tiene el esporangio?\n\nb. ¿Qué hay dentro del esporangio?\n\np.\n\n114 Creatividad Indagación",
+      "charCount": 772
+    },
+    {
+      "pageNumber": 51,
+      "text": "50\n\nE. Esporada de helechos\n\na. Qué hay en la página de papel?\n\nb. ¿Qué función crees que tiene lo que estamos viendo?\n\nc. ¿Qué pasaría si ponemos todo ese polvo en la tierra?\n\nd. ¿Qué otro tipo de organismos crees que se reproducen con las\n\nestructuras observadas?\n\nF. ¿El estróbilo es un fruto?\n\na. ¿Has logrado encontrar las estructuras que tiene una flor?\n\nb. ¿El estróbilo es una flor? ¿Por qué?\n\nc. ¿Qué hay dentro del tomate?\n\nd. ¿Qué hay dentro del estróbilo?\n\ne. ¿Es el estróbilo un fruto? ¿Por qué?\n\nf. ¿Es el estróbilo una estructura diferente a la flor y al fruto?\n\n¿Por qué?\n\np.\n\n115\n\np.\n\n116",
+      "charCount": 605
+    },
+    {
+      "pageNumber": 52,
+      "text": "51\n\nUnidad 4\n\nSemana 20\n\nTropismos\n\nA. ¿Hacia dónde va la planta?\n\n1. Arrancando el zacate.\n\na. ¿Cuál costó más arrancar del suelo?\n\n2. Medición de tallos y raíces.\n\n• Longitud de tallo de planta 1\n\n• Longitud de raíz de planta 1\n\n• Longitud de tallo de planta 2\n\n• Longitud de raíz de planta 2\n\nb. ¿Por qué fue más difícil arrancar uno que el otro?\n\nc. ¿En que direcciones han crecido los órganos de las plantas?\n\nB. El baile del girasol\n\na. ¿Qué ha ocurrido con el girasol?\n\nb. ¿Qué ha estado siguiendo el girasol?\n\np.\n\n118\n\np.\n\n118\n\nC. El abrazo del frijol\n\na. ¿Qué comportamiento ha tenido el frijol?\n\nb. ¿A qué tipo de estímulo crees que ha respondido?\n\nCreatividad\n\np.\n\n119 Indagación",
+      "charCount": 690
+    },
+    {
+      "pageNumber": 53,
+      "text": "52 Especie de planta Tropismo Descripción del tropismo\n\nD. Yo voy donde quiero\n\na. ¿Hacia dónde creció la planta que estaba de lado?\n\nb. ¿En qué se parecen las formas en que se comportaron las plantas de ambas macetas?\n\nE. Tengo sed\n\na. ¿Han crecido de la misma manera ambas plantas?\n\nb. ¿Qué ha pasado?\n\nc. ¿En qué dirección ha crecido cada una?\n\nd. ¿Qué piensas que han estado buscando las raíces?\n\nF. A cazar tropismos\n\nComunicación\n\np.\n\n121\n\np.\n\n120\n\np.\n\n120",
+      "charCount": 462
+    },
+    {
+      "pageNumber": 54,
+      "text": "53\n\nUnidad 4\n\nSemana 21\n\np.\n\n124 Nastias\n\nA. En busca de Mimosa, la tímida\n\na. ¿Qué le ha pasado a la planta?\n\nb. ¿Ha respondido de manera rápida o lenta?\n\nc. ¿Has podido grabar lo que ha ocurrido? ¿Por qué?\n\nd. ¿A qué estímulo crees que ha respondido?\n\ne. ¿Crees que lo ocurrido es un tropismo? ¿Por qué?\n\nf. ¿Ha sido fácil o difícil arrancarla?\n\ng. ¿Para qué crees que le servirá esta respuesta a la planta?\n\np.\n\n123\n\nB. La planta carnívora\n\na. ¿Qué comportamiento ha ocurrido en la planta?\n\nb. ¿A qué estímulo piensas que ha respondido la planta?\n\nc. ¿Hemos podido filmar el suceso?\n\nd. ¿Para qué crees que hace esto la planta?\n\nCreatividad Indagación",
+      "charCount": 654
+    },
+    {
+      "pageNumber": 55,
+      "text": "54 Comunicación Tropismo Nastia Tipo de respuesta Tipo de estímulo Duración de la respuesta Dirección de la respuesta\n\nC. Tropismos vs nastias\n\nCuadro comparativo de diferencias entre tigmotropismos y sismonastias.\n\np.\n\n125",
+      "charCount": 223
+    },
+    {
+      "pageNumber": 56,
+      "text": "Eje integrador: Organización Los animales\n\nUnidad 5\n\nEn esta unidad aprenderemos a:\n\nReconocer las características que comparten los animales y registrar su desarrollo.\n\nClasiﬁcar formas de desplazamiento, nutrición e intercambio de gases en los animales.\n\nClasiﬁcar a los animales en grupos y describir sus características distintivas.\n\nIdentiﬁcar el equipo utilizado para observar muestras microscópicas.\n\nDuración de la Unidad: 6 semanas",
+      "charCount": 440
+    },
+    {
+      "pageNumber": 57,
+      "text": "56 Indagación Ejes corporales\n\nA. Descubriendo la simetría\n\n2. Completa las figuras siguiendo la cuadrícula de apoyo como en el ejemplo 1.\n\np.\n\n130",
+      "charCount": 147
+    },
+    {
+      "pageNumber": 58,
+      "text": "Unidad 5\n\n57 Creatividad\n\nSemana 22\n\nB. Simetría animal\n\n3. Completa el cuadro referente a las figuras de tu libro\n\nde texto.\n\nC. Ejes corporales del ser humano\n\n3. Completa los recuadros indicando a qué parte del cuerpo corresponde\n\nsegún el plano corporal.\n\nDescripciones:\n\nPlano frontal. Divide al cuerpo en:\n\nParte dorsal: Donde se encuentra la espalda.\n\nParte ventral: Donde se encuentra el abdomen.\n\nPlano sagital. Divide al cuerpo en:\n\nMitad izquierda, mitad derecha.\n\nPlano transversal. Divide al cuerpo en:\n\nParte anterior: Donde se encuentra la cabeza.\n\nParte posterior: Donde se encuentran los pies.\n\nMosca Estrella de mar Esponja de mar Animal ¿Cuántas partes similares observas? ¿Es simétrico o asimétrico?\n\np.\n\n132 Plano frontal Plano sagital Plano transversal\n\np.\n\n133",
+      "charCount": 783
+    },
+    {
+      "pageNumber": 59,
+      "text": "58 Dibujemos las etapas del zancudo.\n\nAquí trabajaremos nuestro reporte.\n\nCreatividad\n\nA. Ciclo de vida del zancudo\n\n2. Dibuja en cada círculo las etapas del desarrollo del zancudo y nombra cada una (huevo, larva, pupa, adulto).\n\nB. Crecimiento de larvas de zancudo\n\n6. El reporte escolar contiene los siguientes apartados que deberás ir llenando. Indagación Etapas del desarrollo\n\na. Describe en qué consiste la actividad:\n\nb. Lista los materiales utilizados:\n\nc. Explica el procedimiento:\n\np.\n\n135",
+      "charCount": 499
+    },
+    {
+      "pageNumber": 60,
+      "text": "Unidad 5\n\n59\n\nSemana 23\n\n1 2 3 4 5 6 7 8 9 10 Días Número de larvas Número de pupas Número de adultos NÚMERO DE PUPAS (O DE ADULTOS) 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 1 2 3 4 5 6 7 9 DÍAS 10 11 12 13 14 158\n\nd. Tabla de resultados.\n\ne. Haz un gráfico de barra con tus resultados.",
+      "charCount": 283
+    },
+    {
+      "pageNumber": 61,
+      "text": "60\n\nC. Metamorfosis\n\n2. Dibuja cada etapa del desarrollo de la mariposa en el orden que consideres apropiado.\n\n3. Describe brevemente cómo crees que ocurren los cambios.\n\nf. Escribe tus ideas sobre cómo evitar la proliferación del zancudo.\n\np.\n\n136\n\np.\n\n137",
+      "charCount": 257
+    },
+    {
+      "pageNumber": 62,
+      "text": "Unidad 5\n\n61\n\nSemana 24\n\nA. Observando a los animales\n\n3. Anota los resultados de tu observación.\n\nCaracterísticas de los animales Araña Sí, usa las patas Trepa los árboles Hueco de un árbol Es la respuesta a variaciones en la intensidad de la luz.\n\nEstímulos táctiles (como vibraciones).\n\nEstímulos como el agua.\n\nVariaciones en la temperatura.\n\nAnimal ¿Se mueve? ¿Qué utiliza para moverse?\n\nDescripción ¿Cómo se desplaza?\n\nTipo de taxismo ¿Dónde vive?\n\nEjemplo Completemos nuestra actividad.\n\nCreatividad\n\nB. Clasificando taxismos\n\n2. Lee la descripción de la izquierda y escribe a cuál tipo de taxismo corresponde, luego explica brevemente cada ejemplo de las imágenes mostradas en tu libro de texto.\n\np.\n\n141\n\np.\n\n140 Indagación",
+      "charCount": 732
+    },
+    {
+      "pageNumber": 63,
+      "text": "62\n\nC. Tipos de alimentación\n\n1. Explica brevemente cuál es la diferencia entre la forma de ali -\n\nmentación entre plantas y animales.\n\nPlantas Animales Colibrí Herbívoro Lengua larga para succionar el néctar de las flores.\n\nAnimal Tipo de alimentación Estructuras para capturar oingerir alimentos\n\n2. Clasifica los siguientes animales según el tipo de alimentación (herbívoro, carnívoro, omnívoro) y menciona qué estructuras corporales crees que les facilitan capturar e ingerir sus alimentos.\n\np.\n\n141\n\np.\n\n141",
+      "charCount": 512
+    },
+    {
+      "pageNumber": 64,
+      "text": "Unidad 5\n\n63\n\nSemana 25\n\na. ¿Cómo describirías a un animal invertebrado y a uno vertebrado?\n\nb. Piensa en los lugares cercanos a tu casa y menciona los sitios posibles donde habitan animales invertebrados.\n\nc. Escribe los animales invertebrados que conozcas:\n\nB. Indagando sobre invertebrados\n\n2. Responde sobre lo que conoces acerca de los animales invertebrados.\n\nAnimales invertebrados (parte 1) Creatividad\n\nC. Observando animales invertebrados\n\n3. Dibuja lo que observas en el microscopio o la lupa, tomando\n\ncomo ejemplo el esquema de tu libro de texto.\n\np.\n\n146 Indagación",
+      "charCount": 579
+    },
+    {
+      "pageNumber": 65,
+      "text": "64\n\nE. Identificando poríferos y cnidarios\n\nEn el siguiente dibujo identifica y colorea a las esponjas y cnidarios.\n\nComunicación\n\np.\n\n146\n\np.\n\n150",
+      "charCount": 147
+    },
+    {
+      "pageNumber": 66,
+      "text": "65\n\nUnidad 5\n\nSemana 26\n\nA. Agrupando invertebrados\n\n3. Traslada el nombre del animal que se presenta en tu libro\n\nde texto, según posea las siguientes características:\n\nAnimales invertebrados (parte 2) Cucaracha Artrópodos:\n\ntienen patas Moluscos:\n\ntienen una concha protectora Equinodermos:\n\ntienen púas o espinas Creatividad\n\nB. Buscando invertebrados\n\n3. Esquematiza algunos invertebrados, auxiliándote\n\ndel ejemplo mostrado en tu libro de texto.\n\np.\n\n152\n\np.\n\n153 Indagación",
+      "charCount": 479
+    },
+    {
+      "pageNumber": 67,
+      "text": "66\n\nD. Sopa de letras\n\n1. Busca en la sopa de letras el nombre de los equinodermos\n\nmostrados en tu libro de texto.\n\nD Q I V X K O P G W P Q P N E N W D X F J G A L L E T A U F J S X V H R B K I O D Y G P J M M X J L Z F R A G S J I E I L J S D R D E G B A J Y O G K O C E G P Q P J Y M U V X G E S T R E L L A I O T T T M I I S S J D L I S E R I Z O Q T N L I R I O R P X O P Q D C W Q C L Y H S U C S F C C U F L Y A L N U K W Z M S A Q P V T J M D Z N P E P I N O M W N Z U K T M M P K K N V K M P G C F X\n\nE. Historia sobre los invertebrados\n\n1. Escribe una breve historia sobre los grupos de animales invertebrados que hemos estudiado en estas dos lecciones.\n\nComunicación\n\np.\n\n154\n\np.\n\n154",
+      "charCount": 695
+    },
+    {
+      "pageNumber": 68,
+      "text": "67\n\nUnidad 5\n\nSemana 27\n\nA. Características de los animales vertebrados\n\n3. Completa las características de los animales mostrados\n\nen tu libro de texto.\n\nAnimales vertebrados Animal ¿Cómo se mueve? ¿Dónde vive? Terrestre/Acuático Creatividad\n\nB. Clave dicotómica\n\n3. Escribe tus resultados en la siguiente tabla:\n\nCulebra Se arrastra Terrestre Veamos qué tal utilizamos una clave dicotómica.\n\nGrupo Listado de animales Peces Anfibios Reptiles Aves Mamíferos\n\np.\n\n155 Indagación\n\np.\n\n156",
+      "charCount": 487
+    },
+    {
+      "pageNumber": 69,
+      "text": "68 Evaluación Invertebrados 1 2 3 4 5 76 8 9 10 Verticales\n\n2. Invertebrados marinos de cuerpo cubierto de púas o espinas.\n\n6. Invertebrado que presenta una coro -\n\nna con cilios.\n\n8. Es un gusano anélido beneficioso para\n\nel suelo.\n\nHorizontales\n\n1. Es un ejemplo de platelminto parásito.\n\n3. Invertebrados de cuerpo blando con\n\nuna concha protectora.\n\n4. Son los gusanos más abundantes del\n\nplaneta.\n\n5. Son invertebrados sencillos con cuer -\n\npo formado por poros o agujeros.\n\n7. Es un cnidario con cuerpo gelatinoso.\n\n9. Invertebrados con cuerpo articulado.\n\n10. Es un cnidario con cuerpo calcificado.",
+      "charCount": 605
+    },
+    {
+      "pageNumber": 70,
+      "text": "En esta unidad aprenderemos a:\n\nExplicar los conceptos de infección y enfermedad.\n\nReconocer la apariencia de microorganismos al microscopio.\n\nReconocer sustancias con acción desinfectante.\n\nPreparar un cultivo microbiano.\n\nDescribir las características distintivas de hongos, protozoos y bacterias.\n\nReconocer alimentos transformados por microorganismos.\n\nEje integrador: Interacciones Los microorganismos\n\nUnidad 6\n\nDuración de la Unidad: 5 semanas",
+      "charCount": 450
+    },
+    {
+      "pageNumber": 71,
+      "text": "70 Indagación ¿Qué es una infección?\n\nA. ¿Qué son los síntomas?\n\nCompleta el cuadro con lo solicitado en la actividad.\n\nB. ¿Qué hay en el agua?\n\n3. Dibuja y describe lo observado en cada muestra.\n\np.\n\n164 Síntomas de tus compañeros Síntomas tuyos Actividades antes de presentar los síntomas Muestra 1 Muestra 2 Muestra 3\n\np.\n\n164",
+      "charCount": 329
+    },
+    {
+      "pageNumber": 72,
+      "text": "71\n\nUnidad 1Semana 28 71\n\nUnidad 6\n\nC. ¿Cómo son los patógenos?\n\nEscribe las características del agente patógeno seleccionado, y dibuja el diseño de tu modelo en el cuadro.\n\nD. ¿Cómo funcionan los patógenos?\n\nEscribe el ciclo de vida del patógeno. Puedes hacer un dibujo para ilustrarlo.\n\nCaracterísticas del patógeno Dibujo del modelo Nombre del patógeno:\n\nCaracterísticas:\n\nComunicación Creatividad\n\np.\n\n166",
+      "charCount": 409
+    },
+    {
+      "pageNumber": 73,
+      "text": "72\n\np.\n\n171 Qué es la desinfección Si los microorganismos son tan pequeños, ¿tendrán menos células en su cuerpo?\n\nC. Eliminando patógenos\n\n3. ¿Qué efecto produce la sustancia seleccionada en los agentes\n\npatógenos?\n\nComunicación Indagación Creatividad\n\nA. ¿Cómo funcionan los desinfectantes?\n\na. ¿Fue posible retirar el aceite o grasa de tus manos solo con agua?\n\nb. Si el aceite o grasa hubiese sido la cubierta de los patógenos, ¿qué\n\nle habría pasado al utilizar jabón y agua?\n\nc. ¿Por qué el agua con jabón es eficiente para desinfectar?\n\nB. Hábitos que nos ayudan a prevenir enfermedades\n\n1. Lista de hábitos que la gente suele seguir para prevenir enfermedades:\n\n2. ¿Qué sustancias se utilizan para mantener la higiene de tu cuerpo y\n\nhogar?\n\np.\n\n171\n\np.\n\n167",
+      "charCount": 765
+    },
+    {
+      "pageNumber": 74,
+      "text": "73\n\nUnidad 6\n\nSemana 30\n\nA. Vida bajo el agua\n\n5. Dibuja lo observado en cada muestra.\n\nB. ¿La lejía desinfecta?\n\n9. Dibuja lo observado en cada muestra.\n\na. ¿Se observan microorganismos?\n\nb. ¿Qué efecto tuvo la lejía sobre los microorganismos?\n\nClasificando microorganismos Creatividad Muestra 1 Muestra 2 Muestra 3 Muestra 1 Muestra 2 Muestra 3 Indagación\n\np.\n\n172\n\np.\n\n177",
+      "charCount": 375
+    },
+    {
+      "pageNumber": 75,
+      "text": "74 Comunicación\n\nC. Limpiando el agua\n\na. ¿Qué sustancias para limpiar o purificar el agua conoces?\n\nb. ¿Cómo se utilizan?\n\nc. ¿Dónde pueden obtenerse?\n\nd. ¿Cuál es la sustancia más utilizada para purificar el agua?\n\ne. ¿Cómo podríamos poner a prueba la eficacia de dicha sustancia\n\ncontra los microorganismos?\n\np.\n\n177",
+      "charCount": 319
+    },
+    {
+      "pageNumber": 76,
+      "text": "75 Indagación\n\nUnidad 6\n\nSemana 31\n\nA. Tortillas descompuestas\n\n4. Dibuja lo observado en la muestra de tortilla en descomposición.\n\nResponde:\n\n5. ¿Cuál muestra tenía mayor cantidad de microorganismos? ¿Por\n\nqué?\n\nImportancia de los microorganismos Muestra 1 Muestra 2 Muestra 3\n\np.\n\n178",
+      "charCount": 287
+    },
+    {
+      "pageNumber": 77,
+      "text": "76\n\np.\n\n179\n\nB. Observando mi entorno\n\n1. Enlista todos los objetos presentes en el salón.\n\nTodos los objetos del salón Objetos de fácil descomposición Objetos de difícil descomposición\n\na. ¿A qué se podría deber la «fácil descomposición» de los objetos?\n\nb. ¿Existen alimentos de difícil descomposición? ¿A qué podría deberse?",
+      "charCount": 327
+    },
+    {
+      "pageNumber": 78,
+      "text": "77\n\nUnidad 6\n\nSemana 31\n\na. ¿Qué condiciones favorecieron más el desarrollo de microorganis -\n\nmos en la tortilla?\n\nb. ¿Cómo podría favorecerse la descomposición de los alimentos?\n\nC. Exponiendo tortillas\n\n3. Dibuja lo observado:\n\nMuestra 1 Muestra 2 Muestra 3\n\nD. ¿Microorganismos que cocinan?\n\nResponde:\n\n1. ¿Qué alimentos son elaborados con ayuda de los microorganismos?\n\n2. Lista de alimentos transformados por microorganismos más consumidos en sus hogares:\n\nComunicación Creatividad\n\np.\n\n181",
+      "charCount": 496
+    },
+    {
+      "pageNumber": 79,
+      "text": "78\n\nA. Alimentos de diferente descomposición\n\n1. Enlista los alimentos\n\nGuardando mis alimentos\n\nB. ¿Cómo podemos frenar la putrefacción de los alimentos de fácil descomposición?\n\n1. Lista de los principales alimentos perecederos que consumes en tu hogar.\n\n2. Principales estrategias que siguen en tu hogar para preservar dichos alimentos.\n\n3. ¿Qué condiciones ambientales del alimento varían en cada estrategia?\n\nCreatividad Indagación\n\np.\n\n184\n\np.\n\n182\n\n2. ¿Qué características tienen en común los alimentos que se descompo -\n\nnen rápidamente? Elabora un listado.\n\n3. ¿Qué características tienen en común los alimentos que se descompo -\n\nnen lentamente?\n\nAlimentos de descomposición rápida Alimentos de descomposición lenta.",
+      "charCount": 726
+    },
+    {
+      "pageNumber": 80,
+      "text": "79\n\nUnidad 6\n\nComunicación\n\nSemana 32\n\nC. Comparación de preservantes\n\n7. Responde las siguientes preguntas:\n\na. ¿Cuál tratamiento generó mayor proliferación de microorganismos? ¿Por qué?\n\nb. ¿Cuáles tratamientos generaron menor proliferación de microorganismos? ¿Por qué?\n\nD. Ilustremos nuestras experiencias\n\n2. Escribe ordenadamente el procedimiento seguido durante la actividad: comparación de preservantes.\n\np.\n\n185\n\n1.",
+      "charCount": 424
+    },
+    {
+      "pageNumber": 81,
+      "text": "80\n\n4. Escribe los resultados obtenidos.\n\n3. Ilustra los pasos con dibujos representativos.\n\n5. Discutan con el equipo el porqué de los resultados y escriban las conclusiones del experimento.",
+      "charCount": 191
+    },
+    {
+      "pageNumber": 82,
+      "text": "Ciencia y Tecnología Cuaderno de trabajo 3 2 3 Ciencia y TecnologíaCuaderno de trabajo",
+      "charCount": 86
+    }
+  ]
+}

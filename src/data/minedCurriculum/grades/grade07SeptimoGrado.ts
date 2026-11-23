@@ -276,8 +276,8 @@ const u5Lessons7G = [
     'Una **ecuación de primer grado** con una incógnita es una igualdad matemática en la que la variable tiene exponente uno ($1$). Su forma canónica general es:\n$$ax + b = c \\qquad (a \\neq 0)$$\nPara resolverla se aplican las **propiedades de la igualdad**:\n1. Si se suma o resta la misma cantidad a ambos miembros, la igualdad se mantiene:\n$$ax + b = c \\implies ax = c - b$$\n2. Si se multiplica o divide ambos miembros por un número distinto de cero, la igualdad se conserva:\n$$ax = c - b \\implies x = \\frac{c - b}{a}$$\nEl procedimiento operativo de pasar un término de un miembro al otro con la operación inversa se denomina **transposición de términos**.',
     'Para resolver $5x - 8 = 22$: sumamos 8 a ambos miembros: $5x = 22 + 8 = 30$. Dividimos entre 5: $x = 30 / 5 = 6$. Verificación: $5(6) - 8 = 30 - 8 = 22$.',
     [
-      { exercise: 'Resuelve la ecuación lineal de primer grado: 6x - 14 = 28', hint: 'Transpón -14 sumando al segundo miembro y luego divide entre 6.', answer: '6x = 42 => x = 7' },
-      { exercise: 'Encuentra el valor de x en la ecuación con términos en ambos miembros: 5x + 7 = 2x + 25', hint: 'Agrupa los términos con x a la izquierda y las constantes a la derecha.', answer: '5x - 2x = 25 - 7 => 3x = 18 => x = 6' }
+      { exercise: 'Resuelve la ecuación lineal de primer grado: 6x - 14 = 28', hint: 'Transpón -14 sumando al segundo miembro y luego divide entre 6.', answer: '6x = 42 ⇒ x = 7' },
+      { exercise: 'Encuentra el valor de x en la ecuación con términos en ambos miembros: 5x + 7 = 2x + 25', hint: 'Agrupa los términos con x a la izquierda y las constantes a la derecha.', answer: '5x - 2x = 25 - 7 ⇒ 3x = 18 ⇒ x = 6' }
     ],
     [
       'Ejemplo 1 (Ecuación lineal con transposición directa de constantes): Resolver la ecuación $4x + 15 = 47$. Paso 1: Restamos $15$ en ambos miembros para aislar el término con la incógnita: $4x = 47 - 15$. Paso 2: Realizamos la sustracción: $4x = 32$. Paso 3: Dividimos ambos miembros entre el coeficiente $4$: $x = \\frac{32}{4} = 8$. Solución: La raíz de la ecuación es $x = 8$.',

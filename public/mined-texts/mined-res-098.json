@@ -1,0 +1,417 @@
+{
+  "id": "mined-res-098",
+  "title": "Guía para la Familia: Orientaciones de Lectoescritura en Primera Infancia y 1.° Grado",
+  "filename": "Lectoescritura_Orientaciones para la familia.pdf",
+  "docType": "Cuadernillo",
+  "materiaOriginal": "Educación Inicial y Parvularia",
+  "gradoOriginal": "Primera Infancia",
+  "officialUrl": "https://www.mined.gob.sv/materiales/pi/Lectoescritura_Orientaciones para la familia.pdf",
+  "status": "success",
+  "textCoverage": "partial",
+  "totalPages": 72,
+  "extractedPages": 10,
+  "coverageRatio": 0.1389,
+  "totalChars": 2630,
+  "sectionCount": 5,
+  "mediaUrl": null,
+  "notice": "Documento híbrido/ilustrado del MINED: se extrajo texto digital en 10 de 72 páginas (14%). Las páginas sin texto corresponden a láminas o ilustraciones escaneadas.",
+  "sections": [
+    {
+      "id": "sec-001",
+      "title": "Bloque 1: Páginas 1–15",
+      "startPage": 1,
+      "endPage": 15,
+      "level": 1
+    },
+    {
+      "id": "sec-002",
+      "title": "Bloque 2: Páginas 16–30",
+      "startPage": 16,
+      "endPage": 30,
+      "level": 1
+    },
+    {
+      "id": "sec-003",
+      "title": "Bloque 3: Páginas 31–45",
+      "startPage": 31,
+      "endPage": 45,
+      "level": 1
+    },
+    {
+      "id": "sec-004",
+      "title": "Bloque 4: Páginas 46–60",
+      "startPage": 46,
+      "endPage": 60,
+      "level": 1
+    },
+    {
+      "id": "sec-005",
+      "title": "Bloque 5: Páginas 61–72",
+      "startPage": 61,
+      "endPage": 72,
+      "level": 1
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Lectoescritura Orientaciones para la familia",
+      "charCount": 44
+    },
+    {
+      "pageNumber": 2,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 3,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 4,
+      "text": "Karla Edith Trigueros Mayor y Doctora Ministra de Educación, Ciencia y Tecnología Edgar Eliseo Alvarenga F.\n\nViceministro de Educación y de Ciencia y Tecnología Edgard Ernesto Ábrego Cruz Director General de Educación Wilfredo Alexander Granados Paz Director de Currículo y Materiales Educativos Marcela Isabel Hernández González Directora de Educación Primaria Salomón Bernabé Pineda Alfaro Gerente Curricular para el Desarrollo y el Aprendizaje de la Primera Infancia",
+      "charCount": 469
+    },
+    {
+      "pageNumber": 5,
+      "text": "Lectoescritura Orientaciones para la familia",
+      "charCount": 44
+    },
+    {
+      "pageNumber": 6,
+      "text": "Estimadas familias:\n\nEs un gusto para mí presentarles esta guía diseñada con el propósito de acompañar a sus hijos en el aprendizaje de la lectoescritura.\n\nLos docentes en el aula como ustedes en el hogar son pilares fundamentales para orientar a nuestros niños en el descubrimiento del mundo de las letras.\n\nCada palabra aprendida será una llave que les permitirá comprender más, descubrir el mundo y comunicarse mejor.\n\nConfío plenamente en que les darán conﬁ anza y motivación a sus hijos para realizar las actividades y ejercicios que este material propone.\n\nTambién los animo a que la experiencia de leer y escribir sea divertida: jueguen con las palabras, inventen historias, canten rimas o dramaticen cuentos.\n\nEstas actividades fomentarán el amor por la lectoescritura y llenarán de alegría la vida familiar, ayudando a que sus hijos crezcan felices y aprendan mejor.\n\nAtentamente, Karla Edith Trigueros Mayor y Doctora Ministra de Educación, Ciencia y Tecnología",
+      "charCount": 971
+    },
+    {
+      "pageNumber": 7,
+      "text": "65 8 9 15 15 19 24 27 28 31 36 48 52 57 60 60 61 62 64 37 38 40 44 7",
+      "charCount": 68
+    },
+    {
+      "pageNumber": 8,
+      "text": "6",
+      "charCount": 1
+    },
+    {
+      "pageNumber": 9,
+      "text": "7",
+      "charCount": 1
+    },
+    {
+      "pageNumber": 10,
+      "text": "1. Leer y escribir\n\nen familia 8",
+      "charCount": 32
+    },
+    {
+      "pageNumber": 11,
+      "text": "9",
+      "charCount": 1
+    },
+    {
+      "pageNumber": 12,
+      "text": "10",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 13,
+      "text": "11",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 14,
+      "text": "12",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 15,
+      "text": "13",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 16,
+      "text": "14",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 17,
+      "text": "15",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 18,
+      "text": "16",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 19,
+      "text": "Reconocen y escriben las primeras letras, como las de su nombre.\n\n1515",
+      "charCount": 70
+    },
+    {
+      "pageNumber": 20,
+      "text": "18",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 21,
+      "text": "19",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 22,
+      "text": "20",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 23,
+      "text": "21",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 24,
+      "text": "22",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 25,
+      "text": "23",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 26,
+      "text": "24",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 27,
+      "text": "25",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 28,
+      "text": "26",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 29,
+      "text": "27",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 30,
+      "text": "28",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 31,
+      "text": "29",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 32,
+      "text": "30",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 33,
+      "text": "31",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 34,
+      "text": "32",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 35,
+      "text": "33",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 36,
+      "text": "Paseo por el parque\n\n• ¿Por qué crees\n\nque en esa área solo juegan niños menores de 10 años?\n\n• Está bonito el jardín\n\ndel parque, ¿cómo lo podrían mejorar?\n\n• ¿Qué más te gustaría\n\nque tuviera este parque?\n\n34",
+      "charCount": 210
+    },
+    {
+      "pageNumber": 37,
+      "text": "Caminar y observar el entorno\n\n• ¿Te gusta cómo se miran las nubes en el\n\ncielo? ¿Por qué?\n\n• ¿De qué crees que están hechas las nubes?\n\n• Busca una nube que tenga ﬁ gura de animal.\n\n• ¿Qué otras ﬁ guras miras?\n\n• Jugar “Veo, veo”\n\n• Observar y conversar sobre los colores de\n\nlas ﬂ ores, las hojas y los objetos.\n\n33",
+      "charCount": 317
+    },
+    {
+      "pageNumber": 38,
+      "text": "36",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 39,
+      "text": "37",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 40,
+      "text": "38",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 41,
+      "text": "39",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 42,
+      "text": "40",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 43,
+      "text": "41",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 44,
+      "text": "42",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 45,
+      "text": "43",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 46,
+      "text": "44",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 47,
+      "text": "45",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 48,
+      "text": "46",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 49,
+      "text": "47",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 50,
+      "text": "48",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 51,
+      "text": "49",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 52,
+      "text": "50",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 53,
+      "text": "51",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 54,
+      "text": "52",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 55,
+      "text": "53",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 56,
+      "text": "54",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 57,
+      "text": "55",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 58,
+      "text": "56",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 59,
+      "text": "57",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 60,
+      "text": "58",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 61,
+      "text": "59",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 62,
+      "text": "60",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 63,
+      "text": "61",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 64,
+      "text": "62",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 65,
+      "text": "63",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 66,
+      "text": "64",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 67,
+      "text": "65",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 68,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 69,
+      "text": "Lectoescritura Orientaciones para la familia Se terminó de imprimir en el mes de enero de 2026, en los talleres de Impresos Múltiples S.A. de C.V.\n\nCalle El Progreso # 18, Parque Industrial Santa Elena 2, Antiguo Cuscatlán, La Libertad Este, La Libertad, El Salvador.\n\nTiraje: 192,000 ejemplares.",
+      "charCount": 296
+    },
+    {
+      "pageNumber": 70,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 71,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 72,
+      "text": "",
+      "charCount": 0
+    }
+  ]
+}

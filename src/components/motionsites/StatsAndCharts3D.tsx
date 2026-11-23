@@ -164,8 +164,8 @@ export const StatsAndCharts3D: React.FC = () => {
     },
     {
       id: 'asd',
-      name: 'Jóvenes Talento',
-      shortName: 'ASD Talento',
+      name: 'ASD MINED',
+      shortName: 'ASD MINED',
       fullName: 'Academia Sabatina Departamental ASD',
       value: 2190,
       percentage: 12.4,

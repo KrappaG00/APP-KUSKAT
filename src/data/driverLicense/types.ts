@@ -1,7 +1,8 @@
 /**
  * Definiciones de Tipos del Módulo Oficial de Licencia de Conducir VMT & Seguridad Vial
- * Basado en la Ley de Transporte Terrestre, Tránsito y Seguridad Vial,
- * Reglamento General de Tránsito (DE 86), Código Penal (Art. 147-E) y Manual SIECA.
+ * Basado en la Ley de Transporte Terrestre, Tránsito y Seguridad Vial (D.L. 477),
+ * Reglamento General de Tránsito y Seguridad Vial (D.E. 61), Reglamento de Transporte
+ * Terrestre de Carga (D.E. 23), Código Penal (Art. 147-E) y Manual SIECA.
  */
 
 export interface PracticalTrafficCase {
@@ -30,16 +31,25 @@ export interface DriverQuestion {
   correctAnswer: number; // 0: A, 1: B, 2: C, 3: D
   correctKey: string; // 'A' | 'B' | 'C' | 'D'
   explanation: string;
+  distractorRationale: Record<string, string>;
   category: 'teorico' | 'psicologico';
   topic: string;
   legalReference?: string;
+  signId?: string;
 }
+
+export type RoadSignCategory =
+  | 'reglamentaria'
+  | 'preventiva'
+  | 'informativa'
+  | 'obras'
+  | 'horizontal';
 
 export interface RoadSign {
   id: string;
   name: string;
-  category: 'reglamentaria' | 'preventiva' | 'informativa';
-  type: 'reglamentaria' | 'preventiva' | 'informativa'; // Alias retrocompatible
+  category: RoadSignCategory;
+  type: RoadSignCategory; // Alias retrocompatible
   description: string;
   meaning: string;
   rule: string; // Alias retrocompatible

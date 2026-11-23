@@ -1,0 +1,481 @@
+{
+  "id": "mined-res-046",
+  "title": "Cuaderno de Trabajo Ciencia y Tecnología 4.° Grado",
+  "filename": "Cuaderno de trabajo 4.° grado.pdf",
+  "docType": "Cuaderno de Ejercicios",
+  "materiaOriginal": "Ciencia y Tecnología",
+  "gradoOriginal": "4.° Grado",
+  "officialUrl": "https://www.mined.gob.sv/materiales/2026/CIENCIA_Y_TECNOLOGIA/3. Cuadernos de trabajo/Cuaderno de trabajo 4.° grado.pdf",
+  "status": "success",
+  "textCoverage": "full",
+  "totalPages": 82,
+  "extractedPages": 81,
+  "coverageRatio": 0.9878,
+  "totalChars": 50301,
+  "sectionCount": 7,
+  "mediaUrl": null,
+  "notice": null,
+  "sections": [
+    {
+      "id": "sec-001",
+      "title": "Portada Ciencia 4 CT",
+      "startPage": 1,
+      "endPage": 1,
+      "level": 1
+    },
+    {
+      "id": "sec-002",
+      "title": "Ciencias4_CT_P01_001-016",
+      "startPage": 2,
+      "endPage": 17,
+      "level": 1
+    },
+    {
+      "id": "sec-003",
+      "title": "Ciencias4_CT_P02-017-032",
+      "startPage": 18,
+      "endPage": 33,
+      "level": 1
+    },
+    {
+      "id": "sec-004",
+      "title": "Ciencias4_CT_P03-033-048",
+      "startPage": 34,
+      "endPage": 49,
+      "level": 1
+    },
+    {
+      "id": "sec-005",
+      "title": "Ciencias4_CT_P04-049-064",
+      "startPage": 50,
+      "endPage": 65,
+      "level": 1
+    },
+    {
+      "id": "sec-006",
+      "title": "Ciencias4_CT_P05_065-080",
+      "startPage": 66,
+      "endPage": 81,
+      "level": 1
+    },
+    {
+      "id": "sec-007",
+      "title": "Contra Ciencia 4 CT",
+      "startPage": 82,
+      "endPage": 82,
+      "level": 1
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "La Tierra 4 Ciencia y Tecnología Cuaderno de trabajo 4Ciencia y TecnologíaCuaderno de trabajo",
+      "charCount": 93
+    },
+    {
+      "pageNumber": 2,
+      "text": "Edición Orlando Leonel Castillo Henríquez Jorge Alfredo Ávila Moreno Tonatiuh Eddie M. Orantes Ramos Xochilt María Pocasangre Orellana Autoría Elizabeth Melany Murillo Torres Omar Antonio Rodríguez Alas Óscar Armando Aguilar Ayala Flor de María López Hernández Nathalie Carmelina Galicia Shul Xochilt María Pocasangre Orellana Alejandra Ileana Delgado Menjívar William Alexander Larín Escobar Diseño editorial y diagramación Sara Elizabeth Ortiz Marquez Elmer Rodolfo Urquía Peña Boanerges Antonio Sigüenza Santos Segunda edición, Ministerio de Educación, Ciencia y Tecnología, San Salvador, El Salvador, 2022.\n\nTercera reimpresión 2025.\n\nDerechos reservados. Prohibida su venta y su reproducción con fines comerciales por cualquier medio, sin previa autorización del MINEDUCYT .\n\nKarla Edith Trigueros Capitán y Doctora Ministra de Educación, Ciencia y Tecnología Edgar Eliseo Alvarenga F.\n\nViceministro de Educación y de Ciencia y Tecnología, ad honorem Edgard Ernesto Ábrego Cruz Director General de Educación Wilfredo Alexander Granados Paz Director de Currículo y Materiales Educativos Marcela Isabel Hernández González Directora de Educación Primaria, en funciones Tonatiuh Eddie M. Orantes Ramos Jefe del Departamento de Ciencia y Tecnología Jefe del Departamento de Materiales Educativos Julio Adolfo Castellanos Corrección de textos Carlos Eduardo Ruiz Serrano Ilustraciones Jacqueline Rebeca López Imágenes Shutterstock\n\n372.357 045\n\nC569 Ciencia y tecnología 4 : cuaderno de trabajo / Elizabeth Melany Murillo Torres, Omar Antonio Rodríguez Alas, Óscar Armando Aguilar Ayala, Flor de María López Hernández, Nathalie Carmelina Galicia Shul, Xochilt María Pocasangre Orellana, Alejandra Ileana Delgado Menjivar, William Alexander Larín Escobar ; corrección de textos Josué Marcelo Chacón González ; edición Orlando Leonel Castillo Henriquez, Jorge Alfredo Ávila Moreno, Tonatiuh Eddie M. Orantes Ramos, Xochilt María Pocasangre Orellana ; diseño editorial y diagramación Sara Elizabeth Ortiz Marquez, Elmer Rodolfo Urquía Peña, Boanerges Antonio Sigüenza Santos ; ilus - traciones Jacqueline Rebeca López. -- 2. a ed. -- San Salvador, El Salv. :\n\nMinisterio de Educación Ciencia y Tecnología, 2022.\n\n80 p. : il. ; 28 cm ISBN: 978-99983-56-60-3 (impreso)\n\n1. Ciencias-Libros de texto. 2 . Ciencia y tecnología-Libros de texto. 3.\n\nEducación primaria-Enseñanza. I. Murillo Torres, Elizabeth Melany, 1990-, couat. II. Título.\n\nBINA/jmh",
+      "charCount": 2441
+    },
+    {
+      "pageNumber": 3,
+      "text": "La Tierra 4 Ciencia y Tecnología Cuaderno de trabajo 4Ciencia y TecnologíaCuaderno de trabajo Este cuaderno pertenece a: ________________________________________",
+      "charCount": 161
+    },
+    {
+      "pageNumber": 4,
+      "text": "Te permiten llevar un registro ordenado de procedimientos, respuestas y resultados.\n\n1. Notas y respuestas\n\nEncontrarás ejemplos y espacios en blanco para anotar.\n\n8 Indagación\n\nA. Palancas en nuestro cuerpo\n\n2. ¿En qué lugares consideras que se encuentran el fulcro, la potencia y la resistencia en la cabeza?\n\n4. ¿En qué lugares consideras que se encuentran el fulcro, la potencia y la resistencia en la pierna?\n\n6. ¿En qué lugares consideras que se encuentran el fulcro, la potencia y la resistencia en el brazo?\n\nB. Hagamos una palanca\n\n7. Responde.\n\na. ¿Se te hizo fácil levantar los libros con una sola mano o con\n\ndos dedos?\n\nb. ¿En dónde estaba ubicado el tapón cuando se te hizo fácil\n\nlevantar los libros? ¿Por qué se te hizo más fácil en ese punto?\n\nCreatividad\n\np.\n\n14\n\np.\n\n13 Uso de la palanca 32\n\nA. Clasificando componentes bióticos y abióticos\n\n2. Traslada el nombre de la figura de tu libro de texto que corresponde a componentes bióticos o abióticos.\n\nCreatividad\n\nB. Recorriendo mi ecosistema\n\n3. Realiza tus anotaciones en el siguiente cuadro:\n\np.\n\n73 Indagación Seres vivos: ¿Cómo viven?\n\np.\n\n72 Componentes bióticos Componentes abióticos ¿Qué tipo de animales encuentras?\n\n¿Qué tipo de plantas encuentras?\n\n¿Tierra seca o húmeda?\n\n¿Hay piedras?\n\n¿Agua cerca?\n\n¿Hay luz o sombra?\n\n¿Calor o frío?\n\n¿Hace viento?\n\n¿Hay nubes o está despejado?\n\nCaracterísticas Descripción\n\n2. Resultados\n\nNo necesitas elaborar tablas ni cuadrículas.\n\nYa estarán listas para ti.\n\nEn esta unidad aprenderemos a:\n\nClasiﬁcar las máquinas simples, a partir de sus deﬁniciones clásicas.\n\nIdentiﬁcar las palancas de diferente clase en dispositivos cotidianos.\n\nIdentiﬁcar los tipos de máquinas simples dentro de máquinas complejas.\n\nConstruir una máquina compleja.\n\nIdentiﬁcar las fuentes de energía en objetos tecnológicos de uso diario.\n\nRelacionar entre la forma de energía empleada por un dispositivo y su utilidad.\n\nCalcular las transformaciones de en electrodomésticos y el cuerpo humano.\n\nEje integrador: Tecnología Máquinas y energía\n\nUnidad 1\n\nDuración de la Unidad: 5 semanas Nombre y número de la unidad.\n\nPerspectiva de las temáticas.\n\nAprendizajes que alcanzarás al desarrollar la unidad.\n\nTiempo estimado que dedicarás a la unidad.\n\nPresentan la siguiente información:\n\nEn tu cuaderno de trabajo de cuarto grado encontrarás: experimentos, recorridos de campo, instrucciones para la construcción de objetos, curiosidades, juegos y una gran diversidad de actividades que potenciarán tus habilidades científicas y tecnológicas.\n\nConoce tu cuaderno de trabajo Entradas de unidad Espacios de trabajo B A\n\np.\n\n13\n\np.\n\n72 Tus amigos también te acompañan.\n\n32\n\nA. Clasificando componentes bióticos y abióticos\n\n2. Traslada el nombre de la figura de tu libro de texto que corresponde a componentes bióticos o abióticos.\n\nCreatividad\n\nB. Recorriendo mi ecosistema\n\n3. Realiza tus anotaciones en el siguiente cuadro:\n\np.\n\n73 Indagación Seres vivos: ¿Cómo viven?\n\np.\n\n72 Componentes bióticos Componentes abióticos ¿Qué tipo de animales encuentras?\n\n¿Qué tipo de plantas encuentras?\n\n¿Tierra seca o húmeda?\n\n¿Hay piedras?\n\n¿Agua cerca?\n\n¿Hay luz o sombra?\n\n¿Calor o frío?\n\n¿Hace viento?\n\n¿Hay nubes o está despejado?\n\nCaracterísticas Descripción Tu cuaderno está enlazado con tu libro. Las flechas circulares te indican la página exacta para regresar al libro. Los puntos de colores te indican en qué momento de la semana te encuentras.\n\n3",
+      "charCount": 3435
+    },
+    {
+      "pageNumber": 5,
+      "text": "4 Índice\n\nUnidad 1\n\nMáquinas y energía 5\n\nSemana 1: Tipos de máquinas simples 6\n\nSemana 2: Uso de la palanca 8\n\nSemana 3: ¿Qué son las máquinas complejas? 10\n\nSemana 4: Tecnología que nos rodea 12\n\nSemana 5: Transformación de la energía 14\n\nUnidad 5\n\nCuerpo humano: materia y energía 57\n\nSemana 23: El sistema digestivo 58\n\nSemana 24: El sistema respiratorio 61\n\nSemana 25: El sistema circulatorio 63\n\nSemana 26: La circulación 65\n\nSemana 27: Sistema excretor 67\n\nUnidad 3\n\nNaturaleza y sus interacciones 31\n\nSemana 12: Seres vivos: ¿Cómo viven? 32\n\nSemana 13: Ecosistemas 34\n\nSemana 14: Interacciones ecológicas 37\n\nSemana 15: ¡Ahí viene la lluvia! 39\n\nSemana 16: ¡La Tierra se mueve! 41\n\nSemana 17: Prevengamos riesgos 43\n\nUnidad 4\n\nSistema solar 45\n\nSemana 18: El Sol 46\n\nSemana 19: La Luna 48\n\nSemana 20: La Tierra 50\n\nSemana 21: Eclipses y planetas 52\n\nSemana 22: Satélites y asteroides 54\n\nUnidad 2\n\nNutrición 17\n\nSemana 6: ¿Cómo están constituidos los alimentos? 18\n\nSemana 7: La importancia del valor nutriti-vo de los alimentos 20\n\nSemana 8: ¿Qué tan saludable nosalimentamos? 22\n\nSemana 9: Las medidas del cuerpohumano 26\n\nSemana 10: Aprendo a producir alimentos 27\n\nSemana 11: ¿De dónde vienen mis alimentos? 29\n\nUnidad 6\n\nCuerpo humano:\n\nmovimiento e interacciones 69\n\nSemana 28: Los huesos y músculos de nues-tro cuerpo 70\n\nSemana 29: Movimiento y soporte 72\n\nSemana 30: Nuestro sistema sensorial 74\n\nSemana 31: La importancia del sistema nervioso 76\n\nSemana 32: Cambios biológicos 78",
+      "charCount": 1497
+    },
+    {
+      "pageNumber": 6,
+      "text": "En esta unidad aprenderemos a:\n\nClasiﬁcar las máquinas simples, a partir de sus deﬁniciones clásicas.\n\nIdentiﬁcar las palancas de diferente clase en dispositivos cotidianos.\n\nIdentiﬁcar los tipos de máquinas simples dentro de máquinas complejas.\n\nConstruir una máquina compleja.\n\nIdentiﬁcar las fuentes de energía en objetos tecnológicos de uso diario.\n\nRelacionar entre la forma de energía empleada por un dispositivo y su utilidad.\n\nCalcular las transformaciones de energía en electrodomésticos y el cuerpo humano.\n\nEje integrador: Tecnología Máquinas y energía\n\nUnidad 1\n\nDuración de la Unidad: 5 semanas",
+      "charCount": 607
+    },
+    {
+      "pageNumber": 7,
+      "text": "Indagación 6\n\nA. Cortando papel\n\n3. Responde.\n\na. ¿Quién se tardó menos tiempo en cortar las tres figuras?\n\nb. ¿Quién realizó mejores cortes?\n\np.\n\n8\n\nB. El balancín\n\n3. Coloca 3 monedas en cada extremo del cartón y escribe lo que observas.\n\n4. Contesta.\n\na. ¿Qué es lo que observas?\n\n5. Mueve las mismas monedas otros 3 cm y responde las preguntas.\n\na. ¿Qué es lo que observas?\n\nb. ¿A qué se debe que bajen más las monedas que no se han movido de lugar?\n\nCreatividad\n\np.\n\n9 Tipos de máquinas simples",
+      "charCount": 499
+    },
+    {
+      "pageNumber": 8,
+      "text": "7\n\nUnidad 1Semana 1\n\nC. El plano inclinado\n\n3. Contesta.\n\na. ¿Cuándo te cuesta más rodar el carrito con 6 libros, 4 libros, 3 libros o 2 libros?\n\nb. ¿Cuándo te cuesta menos rodar el carrito con 6 libros, 4 libros, 3 libros o 2 libros?\n\nc. ¿A qué se debe esto?\n\nD. Fichas informativas\n\nPuedes hacer aquí tu primera ficha de máquina simple:\n\nEsquema: Tipo de máquina simple:\n\nSe compone de:\n\np.\n\n10\n\np.\n\n12 Comunicación",
+      "charCount": 417
+    },
+    {
+      "pageNumber": 9,
+      "text": "Indagación 8\n\nA. Palancas en nuestro cuerpo\n\n2. ¿En qué lugares consideras que se encuentran el fulcro, la potencia y la resistencia en la cabeza?\n\n4. ¿En qué lugares consideras que se encuentran el fulcro, la po -\n\ntencia y la resistencia en la pierna?\n\n6. ¿En qué lugares consideras que se encuentran el fulcro, la potencia y la resistencia en el brazo?\n\nB. Hagamos una palanca\n\n7. Responde.\n\na. ¿Se te hizo fácil levantar los libros con una sola mano o con\n\ndos dedos?\n\nb. ¿En dónde estaba ubicado el tapón cuando se te hizo fácil\n\nlevantar los libros? ¿Por qué se te hizo más fácil en ese punto?\n\nCreatividad\n\np.\n\n14\n\np.\n\n13 Uso de la palanca",
+      "charCount": 646
+    },
+    {
+      "pageNumber": 10,
+      "text": "9\n\nUnidad 1Semana 2\n\nC. Catapulta\n\n6. Responde.\n\na. ¿Dónde están ubicadas las partes de la palanca?\n\nb. ¿Al mover la paleta hacia afuera las bolitas llegan más lejos o\n\nmás cerca?\n\nc. ¿Al mover la paleta hacia adentro las bolitas llegan más lejos o\n\nmás cerca?\n\nD. Tipos de palancas\n\n2. Responde.\n\na. ¿Qué tipo de palancas son las máquinas de las imágenes?\n\np.\n\n15\n\np.\n\n17 Comunicación",
+      "charCount": 385
+    },
+    {
+      "pageNumber": 11,
+      "text": "Indagación 10\n\nA. Identificación de máquinas simples\n\n1. De las siguientes imágenes identifica las máquinas simples que la\n\nconforman.\n\n2. Menciona qué trabajos podemos realizar con estas máquinas.\n\n4. Para que estas máquinas funcionen ¿que tipo de energía necesi -\n\ntan mecánica (movida por una persona), o eléctrica (movida por electricidad)?\n\n¿Qué son las máquinas complejas?\n\nB. Rueda de la fortuna\n\n30. Contesta.\n\na. ¿Es necesaria más de una máquina simple para construir la\n\nrueda de la fortuna?\n\nb. Menciona un tipo de máquina simple que está presente en la\n\nrueda de la fortuna.\n\nCreatividad\n\np.\n\n18\n\np.\n\n21",
+      "charCount": 615
+    },
+    {
+      "pageNumber": 12,
+      "text": "11\n\nUnidad 1\n\nComunicación\n\nSemana 3\n\nC. Representación de máquinas complejas\n\n1. Dibuja 3 máquinas complejas.\n\n2. Menciona 2 máquinas simples que conforman cada máquina compleja que dibu - jaste.\n\nMáquina compleja Máquina compleja Máquina compleja Máquinas energéticas Máquina compleja Máquinas simples que la componen:\n\nMáquinas simples que la componen:\n\nMáquinas simples que la componen:\n\nD. Identificación de máquinas complejas\n\n1. Identifica en qué grupo según el tipo de energía para su funcionamiento, se en - cuentran las máquinas compuestas de las siguientes imágenes.\n\np.\n\n22\n\np.\n\n22",
+      "charCount": 593
+    },
+    {
+      "pageNumber": 13,
+      "text": "12 Indagación\n\nA. Ventajas y desventajas de la tecnología\n\nListado de ventajas y desventajas de la tecnología digital:\n\nB. Clasifica según los tipos de tecnología\n\n2. Clasifica las máquinas de tu libro de texto según el tipo de energía\n\ncon la que funcionan.\n\nTecnología que nos rodea Ventajas Desventajas Tipo de tecnología Máquinas Fija Flexible Blanda Dura Limpia\n\np.\n\n23\n\np.\n\n23",
+      "charCount": 382
+    },
+    {
+      "pageNumber": 14,
+      "text": "Unidad 1\n\n13 Creatividad\n\nSemana 4\n\nUnidad 1\n\nC. Clasifica aparatos tecnológicos\n\nD. ¿Qué necesito?\n\n2. Para cada imagen indica qué aparato tecnológico soluciona la\n\nnecesidad.\n\nCabello mojado:\n\nEnviar mensaje:\n\nLavar ropa sucia:\n\nCortar césped:\n\nGuardar alimentos:\n\nCortar el cabello:\n\nE. Aparatos tecnológicos\n\n2. Puedes dibujar aquí.\n\nTipo de energía Máquinas Eléctricas Hidráulicas Térmicas\n\np.\n\n24\n\np.\n\n26\n\np.\n\n26",
+      "charCount": 418
+    },
+    {
+      "pageNumber": 15,
+      "text": "Indagación 14\n\nA. Transformación de la energía calorífica\n\n6. Contesta:\n\na. ¿Por qué se mueve el espiral?\n\nb. ¿Qué transformación de energía se presenta?\n\nB. Batería de frutas\n\n5. Contesta.\n\na. ¿Por qué se enciende el led?\n\nb. ¿Cuánto es el mínimo de frutas que pueden hacer que el led\n\nencienda?\n\nC. Generemos calor\n\n4. Contesta.\n\na. ¿Qué transformaciones de energía ocurren?\n\nTransformación de la energía\n\np.\n\n28 Creatividad\n\np.\n\n29\n\np.\n\n30",
+      "charCount": 442
+    },
+    {
+      "pageNumber": 16,
+      "text": "15\n\nUnidad 1\n\nSemana 5\n\nD. Evitar un consumo excesivo de energía eléctrica\n\n1. Haz un listado de tres acciones que puedes hacer para evitar un consumo excesivo de energía eléctrica en tu hogar.\n\nE. Calculemos el consumo eléctrico\n\n1. Resuelve los siguientes problemas:\n\na. Calcula el consumo y costo de un foco de 100 W que permanece encendido 6 horas por 5 días.\n\n.\n\np.\n\n30\n\np.\n\n31",
+      "charCount": 382
+    },
+    {
+      "pageNumber": 17,
+      "text": "16\n\nb. Calcula el consumo y costo de un ventilador de 50 W que permanece encendido 8 horas por 9 días.\n\np.\n\n31",
+      "charCount": 110
+    },
+    {
+      "pageNumber": 18,
+      "text": "Eje integrador: Energía Nutrición\n\nUnidad 2\n\nEn esta unidad aprenderemos a:\n\nClasiﬁcar los nutrientes en las categorías de macronutriente y micronutriente.\n\nRelacionar la cantidad de alimento necesaria según requerimientos nutricionales.\n\nComparar el gasto con la obtención de la energía contenida en la dieta diaria.\n\nElaborar un menú tomando en cuenta los requerimientos nutricionales de una persona.\n\nIdentiﬁcar métodos de preparación y almacenamiento adecuado de alimentos.\n\nRealizar mediciones cuantitativas de variables útiles para conocer el estado nutricional del ser humano.\n\nDuración de la Unidad: 6 semanas",
+      "charCount": 617
+    },
+    {
+      "pageNumber": 19,
+      "text": "18\n\nA. ¡Analicemos alimentos!\n\nObservaciones:\n\nCreatividad\n\nB. Juguemos bingo nutricional\n\nEspacio para el docente.\n\n¿Cómo están constituidos los alimentos?\n\nIndagación Registra tus observaciones y responde la pregunta.\n\nReporta tu combinación de los alimentos que marcaste.\n\na. ¿Se forman nuevos materiales o sustancias?\n\nTipo de combinación de bingo nutricional obtenida Alimentos que lograste marcar\n\np.\n\n38\n\np.\n\n42",
+      "charCount": 418
+    },
+    {
+      "pageNumber": 20,
+      "text": "19\n\nUnidad 2\n\nComunicación\n\nSemana 6\n\nC. Investiguemos el tipo de nutriente\n\nInvestiga y registra en tu cuaderno de trabajo.\n\nAlimento/Dibujo Tipo de nutriente ¿Para qué sirve?\n\nAlimento/Dibujo Tipo de nutriente ¿Para qué sirve?\n\nAlimento/Dibujo Tipo de nutriente ¿Para qué sirve?\n\np.\n\n42",
+      "charCount": 288
+    },
+    {
+      "pageNumber": 21,
+      "text": "20\n\nA. La energía de los alimentos\n\nCálculos para conocer la energía de los alimentos.\n\nCreatividad Indagación Registra los datos en el cuadro.\n\nRealiza los cálculos y reporta la respuesta en la tabla anterior.\n\nAlimento Temperatura inicial Temperatura final Kilocalorías\n\np.\n\n43\n\np.\n\n44 La importancia del valor nutritivo de los alimentos\n\na. ¿Cómo crees que se puede medir el valor nutricional de los ali -\n\nmentos?",
+      "charCount": 417
+    },
+    {
+      "pageNumber": 22,
+      "text": "Unidad 2\n\n21\n\nSemana 7\n\nB. ¡Cuánta energía necesitamos de los alimentos!\n\nProcedimiento 1:\n\n¿Qué alimento aporta más energía al cuerpo?\n\n¿Cuántas kilocalorías nos aporta?\n\nAlimento Porciones por envase kcal Alimento Porciones por envase kcal Alimento que aporta más energía al cuerpo:\n\nProcedimiento 2:\n\nAlimentos en casa Alimento que aporta más energía al cuerpo:\n\np.\n\n45",
+      "charCount": 372
+    },
+    {
+      "pageNumber": 23,
+      "text": "22\n\nC. Investiguemos si comemos saludable\n\na. ¿Cuánta actividad física crees que debes de realizar para que -\n\nmar las kilocalorías del típico refrigerio y cuánta para quemar 200 kcal?\n\nComparemos las kilocalorías de los alimentos.\n\nTípico refrigerio Refrigerio de 200 kcal Cereales, granos y raíces Huevos, leche y derivados Verduras y frutas Aves, res, pescado, menudos Aceites y azúcares Comunicación Indagación\n\nA. Clasifiquemos nuestros alimentos\n\np.\n\n46\n\np.\n\n48 ¿Qué tan saludable nos alimentamos?",
+      "charCount": 503
+    },
+    {
+      "pageNumber": 24,
+      "text": "Unidad 2\n\n23\n\nSemana 8\n\nRecorta y pega para formar un plato saludable Brócoli Mango LECHE Leche LECHE Yuca LECHE Sandía LECHE Pescado LECHE Zanahoria LECHE Tortilla Guineo Frijoles Arvejas Papas Pimiento Huevos Ejotes Carne Papaya Garbanzo Lechuga Soya Naranja Pan Pollo Pasta Berenjena",
+      "charCount": 286
+    },
+    {
+      "pageNumber": 25,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 26,
+      "text": "Unidad 2\n\n25 Creatividad\n\nSemana 8\n\nC. El plato de comida\n\nD. Propuestas de plato saludable\n\nDesayuno Refrigerio Almuerzo Refrigerio Cena\n\np.\n\n49\n\np.\n\n50 CEREALES VERDURAS Y FRUTASMUCHAS SUFICIENTES COMBINA POCOS LEGUMBRES Y ALIMENTO DE ORIGEN ANIM AL",
+      "charCount": 251
+    },
+    {
+      "pageNumber": 27,
+      "text": "26\n\nSemana 9\n\nA. Trata de responder la siguiente pregunta\n\na. ¿Cómo podrías medir a un estudiante de tu clase, para determinar si es más bajo o alto?\n\nb. ¿Cómo realizarías las medidas para saber si un estudiante es más\n\ncorpulento o delgado?\n\nIndagación Creatividad\n\nB. Aprendamos a medir el cuerpo humano\n\nNombre Altura Masa corporal IMC Las medidas del cuerpo humano\n\np.\n\n52\n\np.\n\n53",
+      "charCount": 384
+    },
+    {
+      "pageNumber": 28,
+      "text": "27\n\nUnidad 2\n\nIndagaciónSemana 10 Elabora un listado de los alimentos que consumiste ayer y clasifícalos en origen animal y origen vegetal.\n\nAlimentos consumidos:\n\nOrigen de los alimentos:\n\na. ¿De dónde vienen tus alimentos?\n\nb. ¿Cómo llegan ahí?\n\nc. ¿Qué pasaría si las tiendas se quedaran sin alimentos que vender?\n\nDesayuno Cena Aprendo a producir alimentos\n\np.\n\n58\n\np.\n\n58",
+      "charCount": 376
+    },
+    {
+      "pageNumber": 29,
+      "text": "28 Elabora un esquema sobre la actividad que realizaste para cultivar alguna planta y anota la importancia que tiene realizar esta actividad en tu cultivo.\n\nA. Usos de las plantas\n\n3. Puedes hacer tu dibujo aquí:\n\nC. Mi cultivo\n\nNombres de plantas alimenticias Nombres de plantas medicinales\n\np.\n\n60\n\np.\n\n62 Creatividad Comunicación",
+      "charCount": 332
+    },
+    {
+      "pageNumber": 30,
+      "text": "Unidad 2\n\n29\n\nSemana 11\n\nOrigen de los alimentos que se consumen en casa.\n\nInvestiguemos un poco más:\n\nA. Cadena de suministro\n\nEsquema de cadena de suministro de un alimento del mercado local:\n\nTipos de alimentos Dónde se compran De qué país vienen País de origen de los alimentos empacados Frutas:\n\nVegetales:\n\nProductos empacados:\n\np.\n\n63\n\np.\n\n63\n\np.\n\n64 ¿De dónde vienen mis alimentos?\n\nIndagación Creatividad",
+      "charCount": 413
+    },
+    {
+      "pageNumber": 31,
+      "text": "30 Esquema de cadena de suministro de alimento de un lugar lejano (importado) Observaciones y conclusiones sobre el experimento de cadenas de suministro:\n\nB. Los alimentos exóticos son comunes actualmente\n\nEncuesta a tres personas adultas sobre los alimentos extranjeros:\n\nResultados de la encuesta sobre alimentos extranjeros:\n\nPregunta Persona 1 Persona 2 Persona 3 Conoce alimentos extranjeros Mencione 5 ejemplos Dónde puede comprar estos alimentos Comida china Sushi Gallo pinto Tacos Curry\n\np.\n\n65\n\np.\n\n67 Comunicación",
+      "charCount": 524
+    },
+    {
+      "pageNumber": 32,
+      "text": "En esta unidad aprenderemos a:\n\nIndagar los conceptos de interacciones biológicas, condiciones ambientales y requerimientos ecológicos.\n\nClasiﬁcar los componentes bióticos y abióticos del ecosistema y caracterizar los niveles de organización ecológica.\n\nReconocer los tipos de ecosistemas y formaciones vegetales de El Salvador y representar las interacciones ecológicas y cadenas tróﬁcas de ecosistemas acuáticos y terrestres.\n\nIndagar sobre los conceptos de hábitat y nicho ecológico.\n\nIndagar sobre la diversidad de fenómenos naturales de tipo hidrometeorológico.\n\nExplicar el origen y comportamiento de ciclones y tormentas.\n\nDescribir las características de los climas tropicales.\n\nIndagar y simular diversidad de fenómenos geológicos y recopilar principales eventos geológicos en la sociedad salvadoreña.\n\nIdentiﬁcar amenazas naturales y antrópicas comunes en El Salvador e indagar sobre los conceptos de vulnerabilidad y capacidad.\n\nReconocer los principales riesgos en El Salvador y practicar un simulacro de emergencia.\n\nEje integrador: Interacciones Naturaleza y sus interacciones\n\nUnidad 3\n\nDuración de la Unidad: 6 semanas",
+      "charCount": 1134
+    },
+    {
+      "pageNumber": 33,
+      "text": "32\n\nA. Clasificando componentes bióticos y abióticos\n\n2. Traslada el nombre de la figura de tu libro de texto que corresponde a componentes bióticos o abióticos.\n\nCreatividad\n\nB. Recorriendo mi ecosistema\n\n3. Realiza tus anotaciones en el siguiente cuadro: p. 73\n\nIndagación Seres vivos: ¿Cómo viven?\n\np.\n\n72 Componentes bióticos Componentes abióticos ¿Qué tipo de animales encuentras?\n\n¿Qué tipo de plantas encuentras?\n\n¿Tierra seca o húmeda?\n\n¿Hay piedras?\n\n¿Agua cerca?\n\n¿Hay luz o sombra?\n\n¿Calor o frío?\n\n¿Hace viento?\n\n¿Hay nubes o está despejado?\n\nCaracterísticas Descripción",
+      "charCount": 582
+    },
+    {
+      "pageNumber": 34,
+      "text": "33\n\nUnidad 3Semana 12\n\nAquí anotaremos nuestros datos.\n\nC. ¿Tierra húmeda o seca?\n\n6. Registra tus datos en la siguiente tabla:\n\n1ª vez 2ª vez 3ª vez 1ª vez 2ª vez 3ª vez Repeticiones Repeticiones Observaciones Observaciones\n\nD. ¿Oscuridad o luz?\n\n6. Registra tus datos en la siguiente tabla:\n\np.\n\n74\n\np.\n\n75\n\np.\n\n76\n\nE. Infografía\n\nTítulo:\n\nComunicación",
+      "charCount": 354
+    },
+    {
+      "pageNumber": 35,
+      "text": "34 Ecosistemas Indagación\n\nA. Identificando especies\n\n3. Enumera los tipos de peces que observas en tu libro de texto y descríbelos en el siguiente cuadro: Aquí puedes hacer tus anotaciones.\n\np.\n\n77 1 1 Pez de color azul con una mancha amarilla 2 3 4 5 6 No. ¿Cuántos hay? Descripción Creatividad\n\nB. Especies de mi comunidad\n\n3. Enumera las especies de plantas y animales que conozcas y ela -\n\nbora un dibujo de la especie que más te guste.\n\nDibujo\n\np.\n\n78",
+      "charCount": 457
+    },
+    {
+      "pageNumber": 36,
+      "text": "Unidad 3\n\n35\n\nSemana 13\n\nC. Identificando niveles de organización ecológica\n\n2. Dibuja en los círculos la figura correcta que corresponda a cada\n\nnivel, según la descripción de tu libro de texto.\n\nD. Identificando formaciones vegetales\n\n2. Menciona las condiciones que observas en las imágenes y escribe los tipos de organismos que crees que pueden habitar en cada sitio.\n\np.\n\n79 1 Mangle 2 Pino y roble 3 Morro No. Tipo de árbol dominante Características\n\np.\n\n79",
+      "charCount": 463
+    },
+    {
+      "pageNumber": 37,
+      "text": "36 Comunicación\n\nE. Ecosistema de tu comunidad\n\n2. Realiza el dibujo de un ecosistema de tu comunidad.\n\nBeneficios del ecosistema:\n\nAcciones que perjudican al ecosistema:\n\nPosibles acciones para prevenir daños:\n\np.\n\n80",
+      "charCount": 218
+    },
+    {
+      "pageNumber": 38,
+      "text": "Unidad 3\n\n37\n\nSemana 14\n\nB. Reconociendo un hábitat\n\n2. Observa el lugar donde se encuentra cada organismo y completa lo que se indica en la tabla.\n\nIndagación Interacciones ecológicas\n\nA. Identificando interacciones\n\n2. Completa la última columna explicando con tus palabras cómo\n\nse encuentran interactuando las especies de las imágenes mostradas en tu libro de texto.\n\np.\n\n81\n\np.\n\n82 1 Rana Mosca 2 Abeja Planta con flor 3 Ser humano Garrapata Hormiga En un hormiguero sobre la tierra Sí Tritura las hojas Caracoles, es-carabajos. No.\n\nOrganismo Especie 1 ¿Dónde vive?\n\n¿Cómo crees que se alimenta?\n\n¿Qué come?\n\n¿Con qué organismo está interactuando?\n\nEspecie 2 ¿Se desplaza?\n\nSí/No Explicación Creatividad",
+      "charCount": 709
+    },
+    {
+      "pageNumber": 39,
+      "text": "38\n\nD. Reconociendo el nicho ecológico\n\n2. Identifica el nicho ecológico de cada especie y descríbelo en el\n\nsiguiente cuadro:\n\np.\n\n84 Planta Productor Hace fotosíntesis y sirve de alimento a las especies herbívoras como el conejo. Conejo Zorro Puma Hongos Especie Nicho ecológico ¿Es productor, consumidor o descomponer?\n\n¿De qué se alimenta? ¿Realiza fotosíntesis, es herbívoro, carnívoro?",
+      "charCount": 391
+    },
+    {
+      "pageNumber": 40,
+      "text": "39\n\nUnidad 3\n\nIndagaciónSemana 15 ¡Ahí viene la lluvia!\n\nA. Pronóstico del clima\n\nResponde.\n\na. Haz un listado de los fenómenos atmosféricos que conoces:\n\nb. Para ti, ¿qué son las nubes?\n\nc. ¿Cómo crees que se forma una tormenta?\n\nd. ¿Cómo crees que se genera el viento?\n\nB. Meteorología\n\n1. ¿Cómo crees que se pueden medir los fenómenos atmosféricos, por ejemplo la lluvia?\n\n2. ¿Conoces algún instrumento usado en meteorología? ¿Cuáles?\n\n3. ¿Por qué monitorear los fenómenos atmosféricos?\n\np.\n\n87\n\np.\n\n88",
+      "charCount": 505
+    },
+    {
+      "pageNumber": 41,
+      "text": "40 Creatividad\n\nC. Nube en una botella\n\nInvestiga sobre la escala Saffir-Simpson para ciclones tropicales. Anota las características importantes de cada clasificación.\n\na. ¿Qué sucedió?\n\nb. ¿Cómo explicas lo ocurrido?\n\nD. Pluviómetro casero\n\n4. ¿Cuánta cantidad de lluvia recolectó tu pluviómetro?\n\nE. La veleta\n\na. ¿Cuál es la dirección del viento?\n\nb. ¿Qué utilidad tiene medir la dirección del viento?\n\nComunicación\n\np.\n\n89\n\np.\n\n89\n\np.\n\n90\n\np.\n\n91",
+      "charCount": 450
+    },
+    {
+      "pageNumber": 42,
+      "text": "41\n\nUnidad 3\n\nIndagaciónSemana 16 ¡La Tierra se mueve!\n\nA. Nuestro país se mueve\n\na. ¿Alguna vez has sentido un temblor?\n\nb. ¿Cómo describirías este fenómeno?\n\n3. Escribe tus experiencias sobre algún sismo, ¿qué sentiste? ¿Dónde\n\nestabas? ¿Qué hiciste?\n\nB. Volcanes activos de El Salvador\n\n1. ¿Cómo definirías un volcán?\n\n2. ¿Sabes cuál es el volcán más cercano a tu comunidad?\n\nLista los nombres de los volcanes que conozcas.\n\n3. ¿Alguna vez has visto o sentido alguna señal de actividad volcá -\n\nnica? ¿Cuál?\n\np.\n\n92\n\np.\n\n92",
+      "charCount": 526
+    },
+    {
+      "pageNumber": 43,
+      "text": "42\n\nC. Olas gigantes\n\n1. ¿Para ti qué son los tsunamis?\n\n2. ¿De qué tamaño crees que pueden llegar a ser las olas gigantes de un tsunami?\n\nF. Revisando la historia\n\nD. El rompecabezas de la Tierra\n\n4. ¿Cómo crees que describe este experimento al movimiento de las placas tectónicas?\n\nE. ¡Mi propio volcán!\n\na. ¿Cómo explicas lo que ha ocurrido?\n\nb. ¿Crees que sería similar la forma de erupcionar de un volcán real?\n\np.\n\n92\n\np.\n\n93\n\np.\n\n94\n\np.\n\n96 Creatividad Comunicación Elabora una “tabla histórica” como la siguiente:\n\nAñoEvento Tipo de fenómeno Descripción del evento",
+      "charCount": 572
+    },
+    {
+      "pageNumber": 44,
+      "text": "43\n\nUnidad 3\n\nIndagaciónSemana 17 Prevengamos riesgos\n\nA. De fenómenos a riesgos\n\n1. ¿Para ti qué es un riesgo?\n\n2. ¿Qué pasaría si cayera una tormenta muy fuerte?\n\n3. ¿Qué crees que pasaría si ocurriera un sismo muy intenso?\n\n4. ¿Alguna vez has estado en una situación de emergencia? ¿Cuál?\n\n5. ¿Qué riesgos observas cerca de tu centro educativo y comuni -\n\ndad?\n\nB. ¿Por qué ocurren las inundaciones?\n\n1. ¿Por qué crees que en El Salvador somos tan vulnerables a sufrir\n\ninundaciones?\n\n2. ¿Crees que las personas tenemos alguna responsabilidad en las\n\ninundaciones? ¿Por qué?\n\np.\n\n97\n\np.\n\n97",
+      "charCount": 593
+    },
+    {
+      "pageNumber": 45,
+      "text": "44 Causas naturales: Causas antrópicas:\n\nCausas naturales: Causas antrópicas:\n\nIncendios forestales Derrumbes o deslizamientos de tierra\n\nC. Los bosques en peligro\n\n1. ¿En qué meses ocurrieron más incendios forestales? ¿Por qué crees que es así?\n\n2. En qué meses se registraron menos incendios forestales? ¿Cuál consideras que es la razón?\n\n3. ¿Cuáles crees que pueden ser las causas de los incendios forestales?\n\nD. Amenaza, vulnerabilidad y capacidad\n\n1. ¿Cuál crees que es la amenaza? ¿Por qué?\n\n2. ¿Cuál crees que es la vulnerabilidad? ¿Por qué?\n\n3. ¿Quién crees que está mejor preparado? ¿Cuál es la capacidad de cada uno?\n\np.\n\n98\n\np.\n\n99 Comunicación Identifica las causas naturales y/o antrópicas que provocan las siguientes amenazas:\n\np.\n\n100",
+      "charCount": 750
+    },
+    {
+      "pageNumber": 46,
+      "text": "Eje integrador: Organización Sistema solar\n\nUnidad 4\n\nEn esta unidad aprenderemos a:\n\nDescribir los diferentes modelos del sistema solar.\n\nExplicar la estructura del Sol.\n\nEntender las propiedades físicas de la Luna, su interacción con la Tierra, sus fases y las hipótesis de su formación.\n\nComprender e identiﬁcar los diferentes movimientos que realiza la Tierra.\n\nRepresentar la interacción entre la Tierra, el Sol y la Luna para generar eclipses.\n\nDescribir las principales características físicas y químicas de los planetas del sistema solar.\n\nExplicar la diferencia entre satélite natural, satélite artiﬁcial y asteroides, reconociendo que algunos de ellos se encuentran en el sistema solar.\n\nDuración de la Unidad: 5 semanas",
+      "charCount": 730
+    },
+    {
+      "pageNumber": 47,
+      "text": "46 Indagación\n\nA. ¿Qué forma tiene la órbita terrestre?\n\n¿Es circular o tendrá otra forma?\n\n3. Lee las indicaciones de tu libro de texto y haz el dibujo en el espacio de abajo:\n\np.\n\n106 El Sol\n\n8. Responde las siguientes preguntas.\n\na. Para un observador ubicado en el Sol, ¿el Sol se mueve alrededor de la Tierra, o es la Tierra la que se mueve alrededor del Sol?\n\nb. ¿Qué nombre recibe la órbita de la Tierra alrededor del Sol?\n\nc. ¿Cómo se llama al movimiento de la Tierra alrededor del Sol? ¿Cuánto dura, en días, aproximadamente en completar una vuelta (período orbital)?\n\nMovimiento de:\n\nEl período orbital es de:\n\np.\n\n106",
+      "charCount": 628
+    },
+    {
+      "pageNumber": 48,
+      "text": "47 Creatividad\n\nSemana 18\n\nUnidad 4\n\n¿Pueden chocar los planetas del sistema solar en sus órbitas actuales?\n\n2. Completa la tercera columna.\n\nActividades adicionales\n\na. Al recorrer las distancias en círculo, ¿quedaron alineados nuevamente?\n\nb. ¿Cómo afecta a la rapidez y órbita de los planetas su distancia con respecto al Sol?\"\n\nPlaneta Distancia promedio respecto al Sol en UA Distancia medida en pasos al Sol Mercurio 0.4 1 Venus 0.7 Tierra 1 Marte 1.5 Júpiter 5.2 Saturno 9.5 Urano 19 Neptuno 30\n\np.\n\n109\n\nC. Un sistema solar dinámico",
+      "charCount": 540
+    },
+    {
+      "pageNumber": 49,
+      "text": "48 La Luna Indagación\n\nA. Modelo a escala entre la Tierra y la Luna\n\na. ¿Qué tan grande consideras a la Luna comparada con la Tierra? ¿Cuántas\n\ncaben?\n\nb. ¿Qué tan lejos colocarías el globo terráqueo (Tierra) de un segundo objeto (Luna)? Expresa la distancia en centímetros (cm).\n\n5. Responde.\n\nc. Si 380 mil km es la distancia promedio que hay entre la Tierra y la Luna medida desde sus centros, y el diámetro de la Tierra es de 13 mil km, subraya la expresión verdadera:\n\n1. Movimiento de:\n\n2. El período orbital es de:\n\nd. ¿Cuántos planetas Tierra pueden caber entre la distancia que separa los centros de la Tierra y de la Luna? Para calcular el resultado, efectúa el cociente (distan - cia Tierra-Luna) ÷ (diámetro de la Tierra). Obtén estos valores del literal anterior a.\n\nCreatividad\n\np.\n\n111\n\np.\n\n111\n\n2. Responde:\n\n¿Por qué observamos la Luna, sin que esta emita luz?\n\nB. Características de la Luna\n\np.\n\n112 Haz dos puntos (uno representa la Tierra y el otro la Luna) y en medio de ellos, dibuja la cantidad de planetas Tierra que calculaste.",
+      "charCount": 1052
+    },
+    {
+      "pageNumber": 50,
+      "text": "Unidad 4\n\n49\n\nSemana 19\n\n¿Cuáles son las temperaturas máximas y mínimas de la Luna, en qué condiciones lo logra?\n\nC. Estructura interna de la Luna\n\n2. Con la información dada, escribe el nombre de cada una de las partes de la estructura interna de la Luna.\n\nD. ¿Cómo se forman las fases de la Luna?\n\na. ¿Cómo se forman las fases de la Luna?\n\n7. Dibuja todas las fases que observaste en la esfera.\n\n8. Completa la siguiente tabla:\n\nFase de la Luna Posición del Sol, la Tierra y la Luna\n\np.\n\n112\n\np.\n\n113\n\np.\n\n114\n\np.\n\n114",
+      "charCount": 520
+    },
+    {
+      "pageNumber": 51,
+      "text": "50 La Tierra Indagación\n\nB. Movimientos de la Tierra\n\n¿Cómo afectan los diferentes movimientos de la Tierra en nuestro día a día?\n\np.\n\n117 ¿Qué forma crees que tiene la Tierra?\n\n¿De qué crees que se compone principalmente la Tierra?\n\n¿Cómo crees que es la órbita de la Tierra?\n\n¿Sabes qué es un equinoccio y un solsticio, y qué los provoca?\n\nA parte de la rotación y la traslación, podrías escribir otro tipo de movimiento que realiza la Tierra:\n\nA. Lluvia de ideas\n\nEscribe la definición de precesión y nutación, a la que llegaste con tus compañeros:\n\nCreatividad\n\np.\n\n116",
+      "charCount": 573
+    },
+    {
+      "pageNumber": 52,
+      "text": "Unidad 4\n\n51\n\nSemana 20\n\na. ¿Cómo se le llama a este movimiento?\n\nb. ¿Qué movimientos son los que observas ahora?\n\nc. Explica qué movimiento crea el día y la noche cuando la Tierra gira sobre su eje.\n\nExplica qué movimiento crea los cambios de estación (en los hemisferios norte y sur) cuando la Tierra completa una órbita del Sol.\n\n9. ¿Cómo se debería mover el globo para representar los dos movimientos restantes, precesión y nutación? Explica.\n\nC. Estaciones del año\n\n¿Por qué nosotros no tenemos todas las estaciones del año?\n\n¿Qué estaciones o épocas tenemos acá?\n\n¿Sabes cuando inician y cuando terminan esas épocas?\n\nD. Dibuja los movimientos de la Tierra\n\np.\n\n118\n\np.\n\n119\n\np.\n\n119",
+      "charCount": 689
+    },
+    {
+      "pageNumber": 53,
+      "text": "52 Indagación Eclipses y planetas ¿Qué tan grandes o pequeños son los demás planetas?\n\nA. Preguntas de inicio\n\na. ¿Qué es un eclipse?\n\nb. ¿Qué tipos de eclipse conoces?\n\nc. ¿Por qué se producen los eclipses de Sol y Luna?\n\nd. ¿Por qué no se presentan a cada momento los eclipses?\n\ne. ¿Cómo podrías representar un eclipse lunar y un eclipse solar en un dibujo?\n\np.\n\n121",
+      "charCount": 368
+    },
+    {
+      "pageNumber": 54,
+      "text": "Unidad 4\n\n53\n\nSemana 21\n\nf. ¿Es posible que se produzcan eclipses en otros lugares del sistema solar?\n\ng. ¿Cuántos planetas del sistema solar conoces?\n\nh. ¿Tienes idea de qué tan grande es el Sol comparado con el más grande de los planetas?\n\nB. Eclipses\n\n2. ¿Cómo va cambiando la nitidez y el tamaño de la sombra proyectada al alejar la linterna?\n\n4. Anota lo observado.\n\na. Anota qué observas si te colocas detrás de la Tierra, observando en dirección al Sol.\n\nC. Tamaño y composición de los planetas en el sistema solar\n\na. ¿Qué frutas escogiste para representar a los planetas?\n\nb. ¿Consideras válido utilizar objetos sólidos para representar los planetas en nuestro sistema solar?\n\nD. Eclipses inventados\n\n4. ¿Cómo será la duración de los eclipses producidos por el satélite 1 comparada con la de los producidos por el satélite 2? ¿Mayor o menor? ¿Por qué?\n\np.\n\n121\n\np.\n\n122\n\np.\n\n123\n\np.\n\n124 Creatividad",
+      "charCount": 908
+    },
+    {
+      "pageNumber": 55,
+      "text": "54 Indagación Satélites y asteroides ¿Puede un planeta tener más de una Luna? Si tu respuesta es afirmativa menciona un planeta.\n\n¿Cuáles son los planetas que tienen satélites naturales?\n\n¿Qué has escuchado sobre el «Cometa Halley»?\n\nA. ¿Los conoces?\n\n1. ¿Son exclusivos de los planetas los satélites de nuestro sistema solar?\n\n2. ¿Cuál es la diferencia entre un asteroide y un cometa?\n\n3. ¿Por qué los asteroides no son considerados planetas?\n\n4. ¿De qué lugar provienen los cometas?\n\np.\n\n126",
+      "charCount": 493
+    },
+    {
+      "pageNumber": 56,
+      "text": "Unidad 4\n\n55\n\nSemana 22\n\n5. ¿Cuál es la relación entre las lluvias de estrellas y las órbitas de los cometas?\n\nCreatividad\n\nB. Modelaje de asteroides\n\na. ¿Por qué existen estos astros más pequeños en el sistema solar?\n\nb. ¿Qué forma tienen? ¿Son todos esféricos? ¿Es importante que estén o no esféricos?\n\nc. ¿Las rocas grandes se forman por unión de rocas más pequeñas?\n\nd. ¿Dónde debe ir dicho cinturón? ¿Entre qué planetas?\n\ne. ¿Dónde irá el segundo?\n\nf. ¿Es esto correcto?\n\np.\n\n127\n\np.\n\n128",
+      "charCount": 493
+    },
+    {
+      "pageNumber": 57,
+      "text": "56\n\n11. Dibuja el diagrama del sistema solar.\n\nC. Cuerpos celestes del sistema solar\n\nEscribe una breve descripción y características de las imágenes mostradas de la actividad C, en el libro de texto. Eje integrador: Sistemas Cuerpo humano:\n\nMateria y energía\n\nUnidad 5\n\nEn esta unidad aprenderemos a:\n\nReconocer los procesos de incorporación y circulación de los nutrientes y del oxígeno a través del cuerpo humano.\n\nTrabajar con modelos de los sistemas del cuerpo humano.\n\nApreciar la importancia del sistema excretor en la regulación de nuestro organismo.\n\nDuración de la Unidad: 5 semanas\n\np.\n\n128\n\np.\n\n129",
+      "charCount": 610
+    },
+    {
+      "pageNumber": 58,
+      "text": "Eje integrador: Sistemas Cuerpo humano:\n\nMateria y energía\n\nUnidad 5\n\nEn esta unidad aprenderemos a:\n\nReconocer los procesos de incorporación y circulación de los nutrientes y del oxígeno a través del cuerpo humano.\n\nTrabajar con modelos de los sistemas del cuerpo humano.\n\nApreciar la importancia del sistema excretor en la regulación de nuestro organismo.\n\nDuración de la Unidad: 5 semanas",
+      "charCount": 391
+    },
+    {
+      "pageNumber": 59,
+      "text": "Indagación 58\n\n4. Toma nota de lo sucedido.\n\nA. Los vagones del alimento\n\nB. Modelo del sistema digestivo\n\n7. Contesta la pregunta sobre el modelo del sistema digestivo:\n\na. ¿Qué nombres tienen los órganos del sistema digestivo?\n\na. ¿Qué órganos del sistema digestivo conoce el grupo?\n\nb. ¿Por qué lugares crees que pasó el alimento?\n\nc. ¿Qué ocurrió con el alimento en la boca?\n\nd. ¿Qué consistencia crees que tiene el alimento cuando llega al estómago?\n\ne. ¿Hacia dónde crees que llega el alimento cuándo ya nos sentimos llenos?\n\nCreatividad El sistema digestivo Parte del cuerpo ¿Qué creo que pasó? Comentarios de mi equipo Ej. Boca Los dientes molieron el alimento. También se llenó de saliva.\n\np.\n\n134",
+      "charCount": 706
+    },
+    {
+      "pageNumber": 60,
+      "text": "59\n\nSemana 23\n\nUnidad 5\n\n59 Cómo hacer el papel maché El papel maché es una técnica que consiste en utilizar pasta de papel para elaborar artículos decorativos, modelos de estructuras y mode - los de objetos de la naturaleza. Veamos por medio de una serie de pasos cómo funciona esta tecnología.\n\nPaso 1.\n\nBusca en tu casa papel periódico que ya no ocupes, y, con tu mano, corta en pedazos 4 hojas. Agrega 2 litros de agua y deja reposar por 24 horas.\n\nPaso 2.\n\nDespués de las 24 horas, coloca la mezcla en el lavadero y empieza a restregar el papel como que estuvieras lavando ropa, hasta quedar bien desmenuzado como masilla en sopa. Este paso también se puede hacer con una batidora.\n\nPaso 3.\n\nUtilizando un colador, cuela esta masilla hasta que elimines la mayor parte de agua posible.\n\nPaso 4.\n\nMezcla la masilla con dos cucharadas de pegamento y amásala bien. Cuando esté bien mezclada agrégale una cucharada más de pegamento y vuelve a mezclar. Ahora ya tienes lista la masa de pasta de papel maché para que hagas tus modelos. Si no la quieres usar inmediatamente debes guardarla en el refrigerador dentro de una bolsa plástica. La cantidad de ingredientes que hemos utilizado son para 150 g de masa de papel maché. Si quieres hacer más solo multiplica las cantidades de ingredientes. Por ejemplo, si quisieras hacer 600 g de papel maché, multiplica por 4 las cantidades.\n\n• Papel periódico.\n\n• Agua.\n\n• Pegamento.\n\n• Colador.\n\nMateriales:\n\nPaso 1. Paso 3.Paso 2. Paso 4.",
+      "charCount": 1478
+    },
+    {
+      "pageNumber": 61,
+      "text": "60\n\nC. La digestión en la boca\n\na. ¿Qué estructuras de la boca hacen una función similar a la que hiciste con la cuchara y el guineo?\n\nb. ¿Qué hizo la saliva en el guineo triturado?\n\nc. ¿Qué trozos de guineo cambiaron de color?\n\n¿Por qué crees que sucede?\n\nd. ¿Qué trozos de guineo mantuvieron el mismo color que el del yodo?\n\n¿Por qué crees que sucede?\n\ne. Hubo diferencia entre el guineo entero con saliva y el guineo triturado con saliva? ¿Qué relación crees que tiene lo triturado del alimento con la acción de la saliva?\n\nD. La digestión en el estómago\n\na. ¿Qué ocurrió en las gomitas que estaban troceadas?\n\nb. ¿Qué ocurrió en las gomitas que estaban enteras?\n\nc. ¿En qué parte del sistema digestivo crees que el alimento es troceado?\n\nd. ¿Qué crees que hizo el vinagre en las gomitas troceada?\n\ne. ¿Crees que es importante masticar bien los alimentos?\n\n¿Por qué?\n\np.\n\n136\n\np.\n\n137",
+      "charCount": 887
+    },
+    {
+      "pageNumber": 62,
+      "text": "Indagación 61\n\nUnidad 5\n\nSemana 24\n\nA. Inspirar y espirar\n\na. ¿Por qué es distinto el aire que entra al cuerpo del que sale del cuerpo?\n\nb. ¿Qué sustancia crees que entró cuando tomamos el aire?\n\nc. ¿Qué sustancia crees que salió cuando expulsamos el aire?\n\nd. Anota lo que sucedió con el espejo cuando inspiraste y espiraste sobre él. Movimiento respiratorio Lo que sucedió en el espejo Inspiración Espiración El sistema respiratorio\n\nB. Modelo del sistema respiratorio\n\na. ¿Qué nombres tienen los órganos del sistema respiratorio?\n\nCreatividad\n\np.\n\n140\n\np.\n\n139",
+      "charCount": 563
+    },
+    {
+      "pageNumber": 63,
+      "text": "62\n\nC. Funcionamiento de los pulmones\n\na. ¿Qué sucede cuando halas el globo de la base?\n\nb. ¿A qué movimiento respiratorio se parece?\n\nD. Cuánto aire hay en los pulmones\n\n6. Medidas del nivel:\n\na. ¿Por qué crees que hay diferencia en el volumen de agua desplazada cuando se ha hecho ejercicio?\n\nEstado del cuerpo Medida del nivel de agua En reposo Tras haber hecho ejercicio\n\nc. ¿En qué crees que se parece el inflamiento de los globos con el comportamiento de los pulmones durante la inspiración?\n\nd. Qué sucede cuando empujas el globo de la base?\n\ne. ¿A qué movimiento respiratorio se parece?\n\nf. ¿En qué crees que se parece el desinflamiento de los globos con el comportamiento de los pulmones durante la espiración?\n\np.\n\n141\n\np.\n\n142",
+      "charCount": 737
+    },
+    {
+      "pageNumber": 64,
+      "text": "Indagación 63\n\nUnidad 5\n\nSemana 25\n\nA. La carrera de la sangre\n\nb. ¿Qué diferencia hubo en el latido del corazón cuando estabas sentado y después de dar la vuelta a la cancha?\n\nc. ¿Por qué se dio la diferencia?\n\nEl sistema circulatorio\n\nB. Modelo del sistema circulatorio\n\na. ¿Qué nombres tienen los órganos del sistema circulatorio?\n\nC. Modelo del corazón\n\n2. ¿Cuáles de los vasos sanguíneos señalados son venas y cuáles\n\nson arterias?\n\nCreatividad\n\np.\n\n145\n\np.\n\n146 En reposo Tras el ejercicio Frecuencia del pulso Vaso sanguíneo Arteria o vena\n\np.\n\n144",
+      "charCount": 555
+    },
+    {
+      "pageNumber": 65,
+      "text": "64\n\n3. Nombra las partes del corazón en la imagen.\n\nPresionar/ dejar de presionar Lo que sucede Movimiento cardiaco que representa\n\nD. Funcionamiento del corazón\n\na. ¿Qué sustancia de nuestro cuerpo crees que actúa como el líquido rojo que sale de la pajilla?\n\nb. ¿Qué órgano del sistema circulatorio actúa como el tarro con lí -\n\nquido rojo?\n\nA B C D E F G H A H B G CF DE\n\np.\n\n146\n\np.\n\n147",
+      "charCount": 391
+    },
+    {
+      "pageNumber": 66,
+      "text": "65 Indagación\n\nUnidad 5\n\nSemana 26\n\nA. Identificando arterias y venas\n\nLa circulación\n\np.\n\n149 Alumno Mi compañero dice ¿Es arteria o es vena?\n\nAlumno 1 Vaso sanguíneo que sale desde el estómago hasta el corazón.\n\nVaso sanguíneo que se divide en vénulas.\n\nAlumno 2 Vaso sanguíneo que va desde el corazón hasta el hígado.\n\nVaso sanguíneo que lleva generalmente sangre desoxigenada.\n\nAlumno 3 Vaso sanguíneo que se divide en arteriolas.\n\nSe llama aorta y lleva sangre oxigenada desde el corazón al cuerpo.\n\nAlumno 4 Vaso sanguíneo que tiene válvulas.\n\nVaso sanguíneo que lleva generalmente sangre oxigenada.\n\nAlumno 5 Vaso sanguíneo que lleva sangre que proviene de la sístole del corazón.\n\nVaso sanguíneo que llena de sangre al corazón durante la diástole.",
+      "charCount": 755
+    },
+    {
+      "pageNumber": 67,
+      "text": "66\n\nUnidad 1\n\nB. ¿Quién envía la sangre de regreso al corazón?\n\na. ¿En qué te puedes fijar para saber si una persona está dormida y no muerta?\n\nC. El trabajo del corazón y de los pulmones\n\na. ¿Por qué crees que en la imagen los capilares que llegan a los órganos se representan tanto de azul como de rojo?\n\nD. Intercambio de gases\n\na. ¿Qué le ocurrió al líquido cuando pasó de la botella \"A\" a la botella \"B\"?\n\nb. ¿Qué órgano crees que representa a la botella \"A\"?\n\nc. ¿Qué órgano crees que representa a la botella \"B\"?\n\nd. ¿Qué conjunto de órganos crees que representa a la botella \"C\"?\n\nb. ¿Según la lección del sistema respiratorio cómo se llaman esos movimientos?\n\nc. ¿Qué sustancias son transportadas con ayuda de esos movimientos?\n\nd. ¿Ya has sentido un hormigueo en tus pies y piernas cuando has estado mucho tiempo en una misma posición?\n\ne. ¿A qué crees que se debe?\n\nf. ¿Qué sustancia crees que no está circulando de una manera adecuada?\n\ng. ¿De qué manera logras solucionar ese hormigueo?\n\nh. Partiendo de lo que hemos visto, ¿qué movimientos crees que ayudan a las venas en el transporte de la sangre desde los órganos del cuerpo hasta el corazón?\n\np.\n\n150\n\np.\n\n151\n\np.\n\n152 Creatividad",
+      "charCount": 1198
+    },
+    {
+      "pageNumber": 68,
+      "text": "67 Indagación\n\nUnidad 5\n\nSemana 27\n\nA. ¡A tomar agua!\n\nCaracterísticas del agua Características de la orina\n\na. ¿Qué diferencias hay entre el agua que tomamos y la orina que hemos\n\nproducido?\n\nb. ¿A qué se debe que la orina sea tan diferente del agua que hemos consumido?\n\nc. ¿Por qué la orina tiene un olor diferente al agua?\n\nd. ¿Qué crees que da el aspecto, color y olor a la orina?\n\nEl sistema excretor Color Olor Color Olor\n\np.\n\n155",
+      "charCount": 437
+    },
+    {
+      "pageNumber": 69,
+      "text": "68 Creatividad\n\nB. Modelo del sistema excretor\n\na. ¿Qué nombres tienen los órganos del sistema excretor?\n\nC. Los limpiadores de la sangre\n\na. ¿Qué ha ocurrido con lo que sale por la manguera?\n\nb. ¿Por qué crees que sucedió el cambio?\n\nc. ¿Qué ocurrió con la arena?\n\nd. ¿Hacia dónde crees que llegan los residuos de nuestro cuerpo?\n\ne. ¿Qué crees que sucede con las sustancias residuales de la sangre?\n\n7. Llena el cuadro.\n\nCaracterísticas Agua que entróen la botella Agua que salióde la botella Color Presencia de arena Olor\n\np.\n\n156\n\np.\n\n157",
+      "charCount": 542
+    },
+    {
+      "pageNumber": 70,
+      "text": "En esta unidad aprenderemos a:\n\nEjempliﬁcar estructuras musculares, óseas y articulaciones en el cuerpo humano.\n\nElaborar un modelo de la contracción muscular para generar movimiento.\n\nDesarrollar un experimento para evidenciar la percepción sensorial del cuerpo humano.\n\nExplicar las funciones, importancia y cuidados del sistema nervioso.\n\nDescribir la estructura del sistema reproductor femenino y masculino.\n\nExplicar la importancia y cuidados del sistema reproductor.\n\nEje integrador: Sistemas\n\nUnidad 6\n\nCuerpo humano:\n\nMovimiento e interacciones Duración de la Unidad: 5 semanas",
+      "charCount": 585
+    },
+    {
+      "pageNumber": 71,
+      "text": "70 Indagación\n\nB. Observando radiografías\n\n1. ¿Cuáles son las ventajas y desventajas de contar con equipo de\n\nrayos X?\n\n2. ¿Qué pasaría si no existieran estos tipos de exámenes?\n\nA. Conociendo tu cuerpo\n\n1. Dibuja lo que percibiste bajo la piel: como los brazos, cara y los demás huesos de tu cuerpo. Luego observa la imagen del esqueleto que tu docente te mostrará y compara el dibujo que has hecho, escribe los huesos que pudiste identificar.\n\n2. ¿Cuál es el sistema que está representado en el dibujo?\n\n3. ¿Por qué es importante el sistema musculoesquelético para el cuerpo?\n\np.\n\n164\n\np.\n\n165 Los huesos y músculos de nuestro cuerpo Contesta las siguientes preguntas.",
+      "charCount": 670
+    },
+    {
+      "pageNumber": 72,
+      "text": "Unidad 6\n\nCreatividad 71Semana 28\n\nC. Conociendo los principales huesos y articulaciones del\n\ncuerpo\n\na. Escribe los huesos principales del cuerpo humano.\n\nb. Escribe las principales articulaciones del cuerpo.\n\nD. Modelo muscular\n\na. ¿Qué papel crees que utiliza cada pieza del modelo?\n\nb. ¿Cómo se relacionan los músculos y los huesos cuando levantas un\n\nobjeto pesado?\n\nE. Las articulaciones de nuestro cuerpo\n\nAhora discute con tus compañeros de clase y respondan las siguientes preguntas.\n\na. ¿Cuáles son las funciones de los huesos? ¿Y de las articulaciones?\n\nb. ¿Por qué son importantes las articulaciones?\n\np.\n\n166\n\np.\n\n167\n\np.\n\n168 Comunicación Responde las siguientes preguntas.",
+      "charCount": 687
+    },
+    {
+      "pageNumber": 73,
+      "text": "Indagación 72\n\nA. La función de los huesos\n\nConversa con tus compañeros de clase, y completen las siguientes preguntas:\n\na. Menciona dos ejemplos de protección.\n\nb. ¿Qué órganos creen que se encuentran en el tórax y en la\n\ncabeza?\n\nB. Modelo de esqueleto\n\na. ¿Cuál es el hueso más largo del cuerpo humano?\n\nb. ¿Y el más plano?\n\nc. ¿Cuáles son las partes del cuerpo que permiten caminar?\n\nd. Explica qué permite realizar el movimiento.\n\nHuesos protectores Función Órgano que protege Creatividad Movimiento y soporte\n\np.\n\n169\n\np.\n\n170",
+      "charCount": 532
+    },
+    {
+      "pageNumber": 74,
+      "text": "73\n\nUnidad 6Semana 29\n\nC. Soporte y movimiento\n\nCompleta el cuadro siguiente:\n\nD. Movimientos del cuerpo\n\nCompleta el siguiente cuadro según el ejemplo:\n\nE. Actividad física\n\nCompleta el cuadro con la información de los estudiantes de 4.° Grado. Luego lee y analiza la información y responde las siguientes preguntas.\n\n1. ¿Cuántos niños realizan actividad física?\n\n2. ¿Cuál es el ejercicio más practicado por los estudiantes de tu grado?\n\nFunción del sistema muscular Función del sistema esquelético Actividad Física Niños Niñas Movimiento Músculos que participan Huesos que participan Articulaciones que participan Jugar fútbol.\n\nNatación Correr Andar en bicicleta.\n\nSin actividad.\n\nSaltar con la cuerda.\n\nCorrer Estirar las extremidades superiores.\n\np.\n\n171\n\np.\n\n172\n\np.\n\n173 Comunicación",
+      "charCount": 790
+    },
+    {
+      "pageNumber": 75,
+      "text": "74 Indagación\n\nA. Estimulando los sentidos\n\na. Escribe el nombre de los animales que escuchas en la pista.\n\nb. ¿Qué pasaría si no tuviéramos el sentido de la vista?\n\nc. ¿Qué sentidos se ven afectados cuando te resfrías?\n\nd. ¿Cuáles son las texturas que te han parecido más agradables al tacto?\n\nSabores Amargo Salado Ácido Dulce Umami Comida Olor agradable Olor desagradable Objetos Descripción Limón Sal Chocolate Café Cilantro Carao Canela Cebolla Plastilina Algodón Cuerda Tela Completa los siguientes cuadros según la respuesta del compañero, luego revísala para saber si está en lo correcto.\n\nNuestro sistema sensorial\n\np.\n\n174",
+      "charCount": 632
+    },
+    {
+      "pageNumber": 76,
+      "text": "75\n\nUnidad 6Semana 30\n\nD. Modelo del sistema sensorial del gusto\n\na. ¿Cuál es la función del sentido del gusto?\n\nb. ¿Que son las papilas gustativas?\n\nc. La lengua es capaz de percibir 5 sabores básicos ¿Cuáles son?\n\nEstudiantes del 4º grado Amargo Salado Ácido Dulce Umami Niños Niñas\n\nE. Muestra tus resultados\n\nCon los datos del sentido del gusto de todos tus compañeros completa el cuadro y gráfica.\n\nComunicación Amargo ÁcidoSalado 30 25 20 15 10 5 0 Dulce Umami Sabores Números de niños\n\np.\n\n177\n\np.\n\n178 Creatividad",
+      "charCount": 521
+    },
+    {
+      "pageNumber": 77,
+      "text": "76 Indagación\n\nA. Imaginando una situación\n\na. ¿Qué sistema es el que te permite estar alerta?\n\nb. ¿Cómo reconocen el ruido de los vehículos?\n\nB. Observando tomografías\n\na. Escribe las partes principales del cerebro humano.\n\nResponde las siguientes preguntas.\n\nLa importancia del sistema nervioso\n\nb. ¿Cuál es la función del sistema nervioso?\n\nc. El sistema nervioso presenta dos partes principales, ¿cuáles son?\n\np.\n\n179\n\np.\n\n180",
+      "charCount": 430
+    },
+    {
+      "pageNumber": 78,
+      "text": "77\n\nUnidad 6Semana 31\n\nC. Modelos del sistema nervioso\n\n6. Escribe las funciones de los diferentes órganos en el siguiente cuadro.\n\nD. Modelo de neurona\n\n6. Es hora de ejercitar las neu -\n\nronas, busca las palabras cerebro, neuronas, señales, respuestas, encéfalo, impulsos, médula espinal, control, nervios, órganos y tejidos.\n\nCompleta la sopa de letras a continuación.\n\nÓrganos Funciones Cerebro Médula espinal Nervios\n\nE. Cuidados del sistema nervioso\n\n5. Escribe un listado de los cuidados del sistema nervioso.\n\np.\n\n181\n\np.\n\n182\n\np.\n\n183 O A Í R S N O S S O O A S N N O L E S O I N P E C E E E R P I R B M S T S N O B N E N S L U A A M D O M P L R T S E I Ó S T A P E R S R L E S I A I Í O C T Ñ R Ñ P E U O O E S E R D A E M R A E O E G N D V E B N O N A B I O U A Y J S N O A I O E S A A B L O M N L E A I T S L V N R O T T E S L C P Ñ O A U D B R S G E O E R E A E A O U I S A N O I E L C N E S D E E S C N L O E E N S R S J O O D N J C R R R T S O N V D E E V U B O I M Ñ Í S N A R O O S O S M É D U L A E S P I N A L O S Q O Ó L L V C O B C S L O E F N S L N A R E I D L S Q Z N O S O S E P E R N E I E U S M I M E B I O L O G Í A T L A A L C A S N E S S L E N C É F A L O L L A O E O C E R E B R O N S A Í N A N V L E A O E E P V L F A N E R V I O S G C Comunicación Creatividad",
+      "charCount": 1290
+    },
+    {
+      "pageNumber": 79,
+      "text": "78 Indagación\n\nA. Caracteres primarios y secundarios\n\n2. Escribe los caracteres primarios y segundarios del sexo masculino y femenino en el siguiente cuadro.\n\nB. Cambios en la pubertad\n\nEscribe los cambios físicos que se presentan en la pubertad señalados en el siguiente esquema.\n\nCambios biológicos Caracteres Sexo masculino Sexo femenino Primarios Secundarios\n\np.\n\n184\n\np.\n\n185",
+      "charCount": 380
+    },
+    {
+      "pageNumber": 80,
+      "text": "79\n\nUnidad 6\n\nSemana 32\n\nC. Aparato reproductor masculino\n\nBusca en la sopa de letras los nombres de las principales estructuras del sistema repro - ductor masculino.\n\nD. Aparato reproductor femenino\n\nBusca en la sopa de letras los nombres de las principales estructuras del sistema repro - ductor femenino.\n\np.\n\n185\n\np.\n\n186 C O N D U C T O D E F E R E N T E P R O S T A T A Q W E R T Y U I O P A S D F G H J K L Ñ Z X C V B N M Q E T E S T Í C U L O T Y U P I V E S I C U L A S E M I N A L E S P T N U R E T R A M L K O P U N I E P I D I D I M O Z X C V B N E M R S U O A U I T L F O H E V I Z P U Q Z T G S G I N C H C Q D B G Q A E O Q C M S F R O F J G Z O A R U X W M T A V Z A P K Z K V O U I T J F A R W L X O C U E L L O U H R J G T O Y J C W O E A C A I Y O I M P Q K K K U G H C O C V D R P I D V Y R Y S I S Y U H R I W O K O S J D O I U L U J Y U J E F O G V B A L O H N Q Q Z C J Y U B G A V S P L V A G I N A T T W I A Q D B M V Y U L S M B",
+      "charCount": 955
+    },
+    {
+      "pageNumber": 81,
+      "text": "80\n\nF. Funciones de los sistemas reproductores\n\nEscribe el nombre de la estructura del sistema reproductor masculino o femenino según la función que corresponda. Estructura Función Recibe y permite el desarrollo de un nuevo ser.\n\nEncargado de la formación de ovocitos.\n\nTransporta el esperma desde el epidídimo hasta el pene.\n\nConducto por donde sale el semen y la orina.\n\nGlándulas que producen espermatozoides.\n\nTransportan el ovocito desde el ovario al útero.\n\nCreatividad\n\np.\n\n187",
+      "charCount": 484
+    },
+    {
+      "pageNumber": 82,
+      "text": "La Tierra 4 Ciencia y Tecnología Cuaderno de trabajo 4Ciencia y TecnologíaCuaderno de trabajo",
+      "charCount": 93
+    }
+  ]
+}

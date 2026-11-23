@@ -73,7 +73,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Instructivo UIF-FGR para la Prevención del Lavado de Dinero; Recomendación 24 GAFI.",
     "distractorRationale": {
       "A": "El 5% aplica en ciertas jurisdicciones bursátiles para eventos relevantes, pero el umbral de UBO en El Salvador es del 10%.",
-      "B": "Respuesta correcta. En El Salvador el umbral legal para determinar la titularidad real de UBO es del 10% o control final.",
+      "B": "Fundamento normativo (Instructivo UIF-FGR para la Prevención del Lavado de Dinero; Recomendación 24 GAFI): La normativa salvadoreña de la UIF-FGR y las regulaciones de la SSF establecen el umbral del 10% del capital social o derechos de voto en personas jurídicas para la identificación y verificación del… — A partir del 10% del capital accionario o derechos de voto, o quien ejerza el control efectivo final.",
       "C": "Exigir el 51% permitiría estructurar sociedades en participaciones menores para ocultar a los dueños reales del capital ilícito.",
       "D": "El 25% es el estándar mínimo de algunas normas internacionales europeas, pero la regulación salvadoreña adopta el criterio más riguroso del 10%."
     }
@@ -95,7 +95,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 13 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador.",
     "distractorRationale": {
       "A": "Notificar al cliente frustraría la investigación penal y permitiría la fuga de capitales o destrucción de evidencias.",
-      "B": "Respuesta correcta. La prohibición de revelación (anti-tipping-off) es estricta y acarrea sanción privativa de libertad.",
+      "B": "Fundamento normativo (Art. 13 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador): El artículo 13 de la Ley Contra el Lavado de Dinero y de Activos (LCLDA) prohíbe terminantemente poner en conocimiento de cualquier persona, especialmente del investigado, que se ha remitido o se remitirá un ROS a la UIF — Prohibición absoluta de revelación o alerta (\"Tipping-off\"), bajo responsabilidad penal de prisión para quien…",
       "C": "La confidencialidad del ROS es permanente e indelegable; nunca se notifica al cliente que fue objeto de reporte.",
       "D": "El Oficial de Cumplimiento goza de autonomía funcional y tiene prohibido alertar a la directiva del cliente sospechoso."
     }
@@ -117,7 +117,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR.",
     "distractorRationale": {
       "A": "No existe prohibición legal de apertura; la ley exige gestión reforzada del riesgo.",
-      "B": "Respuesta correcta. Exige aprobación de alta gerencia, debida diligencia reforzada y seguimiento riguroso de origen de fondos.",
+      "B": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR): Las PEP no tienen prohibido operar en el sistema financiero, pero los sujetos obligados deben aplicar Debida Diligencia Ampliada (EDD), identificar el origen de fondos y riqueza, monitorear… — Se debe aplicar Debida Diligencia Reforzada (EDD), obtener aprobación de la alta gerencia y determinar el…",
       "C": "El riesgo de corrupción y peculado exige debida diligencia reforzada, jamás simplificada.",
       "D": "La condición de PEP persiste por al menos 2 años posteriores al cese de funciones o mientras conserve influencia política real."
     }
@@ -138,7 +138,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "La LCLDA y el Instructivo UIF establecen el Reporte de Operaciones en Efectivo (ROE) para depósitos, retiros o transferencias en efectivo que igualen o superen los diez mil dólares de los Estados Unidos de América ($10,000.00 USD) de forma individual o acumulada en el mes.",
     "legalBasis": "Art. 9-B de la Ley Contra el Lavado de Dinero y de Activos (LCLDA).",
     "distractorRationale": {
-      "A": "Respuesta correcta. El límite legal del ROE sistemático en El Salvador es de $10,000.00 USD en efectivo.",
+      "A": "Fundamento normativo (Art. 9-B de la Ley Contra el Lavado de Dinero y de Activos (LCLDA)): La LCLDA y el Instructivo UIF establecen el Reporte de Operaciones en Efectivo (ROE) para depósitos, retiros o transferencias en efectivo que igualen o superen los diez mil dólares de los Estados… — Transacciones individuales o acumuladas iguales o superiores a $10,000.00 USD (o su equivalente en otras…",
       "B": "$50,000 USD excede con creces el límite legal y dejaría sin control transacciones bancarias masivas.",
       "C": "$2,500 USD puede ser un umbral de debida diligencia simplificada en ciertos emisores de remesas, pero el ROE legal es de $10,000 USD.",
       "D": "El ROE es un reporte objetivo obligatorio mensual, independiente del análisis de sospecha del ROS."
@@ -161,7 +161,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 9, 9-B, 10 y 13 de la Ley Contra el Lavado de Dinero y de Activos (LCLDA); Instructivo UIF-FGR; Tipologías GAFI/GAFIC.",
     "distractorRationale": {
       "A": "El análisis de cumplimiento no evalúa transacciones aisladas; la suma acumulada supera ampliamente el umbral y evidencia intencionalidad de elusión.",
-      "B": "Respuesta correcta. Identifica con precisión la tipología de pitufeo/estructuración y el deber legal de consolidar y reportar mediante ROS a la UIF.",
+      "B": "Fundamento normativo (Arts. 9, 9-B, 10 y 13 de la Ley Contra el Lavado de Dinero y de Activos (LCLDA); Instructivo UIF-FGR; Tipologías GAFI/GAFIC): El pitufeo o estructuración (smurfing) es una tipología clásica tipificada por GAFI y la UIF-FGR consistente en dividir grandes sumas de dinero en múltiples transacciones inferiores al umbral de… — Corresponde a la tipología de \"Pitufeo\" o Estructuración (Smurfing), diseñada para eludir el Reporte de…",
       "C": "La estructuración transaccional en el sistema bancario no constituye una figura tributaria lícita sino un indicio grave de lavado de activos.",
       "D": "Advertir al cliente configura el delito de infidencia o tipping-off castigado con pena de prisión bajo el Art. 13 de la LCLDA."
     }
@@ -183,7 +183,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Normas Técnicas para la Gestión del Riesgo de Lavado de Dinero y de Activos (NRP-08) de la SSF; Arts. 10 y 11 Instructivo UIF-FGR.",
     "distractorRationale": {
       "A": "La debida diligencia ordinaria o simplificada es totalmente ilegal e insuficiente frente a esquemas societarios complejos y opacos de alto riesgo.",
-      "B": "Respuesta correcta. Contempla la identificación del UBO, auditoría del origen de riqueza, autorización de alta gerencia y monitoreo transaccional.",
+      "B": "Fundamento normativo (Normas Técnicas para la Gestión del Riesgo de Lavado de Dinero y de Activos (NRP-08) de la SSF; Arts. 10 y 11 Instructivo UIF-FGR): Las Normas Técnicas NRP-08 de la SSF y las directrices del GAFI exigen medidas de Debida Diligencia Intensificada (DDI) en clientes de alto riesgo, tales como estructuras offshore, vehículos fiduciarios y personas vinculadas a PEPs — Aplicar Debida Diligencia Intensificada (DDI): descorrer el velo corporativo hasta identificar…",
       "C": "La normativa salvadoreña no prohíbe operar con vehículos fiduciarios u offshore extranjeros, pero condiciona su aceptación a una rigurosa DDI.",
       "D": "Una simple declaración jurada sin respaldo probatorio no exime al sujeto obligado de su deber de verificar documentalmente el origen del patrimonio."
     }
@@ -205,7 +205,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 22 y 23 GAFI.",
     "distractorRationale": {
       "A": "Esa descripción corresponde a las instituciones del sistema financiero tradicional, no a las APNFD que son precisamente el sector no financiero.",
-      "B": "Respuesta correcta. Enumera con precisión los sectores de las APNFD y los deberes preventivos exigidos por el Art. 9-A de la LCLDA.",
+      "B": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 22 y 23 GAFI): El Art. 9-A de la LCLDA incorporó formalmente a las APNFD al catálogo de sujetos obligados salvadoreños: empresas de bienes raíces, venta de vehículos, metales preciosos, casas de empeño, y… — Comercializadoras de bienes raíces, importadoras y vendedoras de vehículos, comerciantes de metales y piedras…",
       "C": "Los pequeños comercios al por menor no están categorizados como APNFD salvo que comercien específicamente con metales preciosos, vehículos o bienes raíces.",
       "D": "Los partidos políticos tienen regulaciones específicas bajo el Código Electoral, pero no agotan la definición técnica de APNFD del Art. 9-A LCLDA."
     }
@@ -227,7 +227,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 4 de la Ley Contra el Lavado de Dinero y de Activos (LCLDA); Arts. 3, 4, 6 y 7 de la Ley Especial de Extinción de Dominio y de la Administración de los Bienes de Origen o Destinación Ilícita (LEDAB).",
     "distractorRationale": {
       "A": "Es una tesis superada: el lavado de activos es dogmáticamente un delito autónomo y la extinción de dominio opera de forma independiente de la sede penal.",
-      "B": "Respuesta correcta. Plantea con exactitud doctrinaria la autonomía sustantiva del Art. 4 LCLDA y la naturaleza real patrimonial de la LEDAB.",
+      "B": "Fundamento normativo (Art. 4 de la Ley Contra el Lavado de Dinero y de Activos (LCLDA); Arts. 3, 4, 6 y 7 de la Ley Especial de Extinción de Dominio y de la Administración de los Bienes de Origen o Destinación Ilícita (LEDAB)): La jurisprudencia penal salvadoreña y el Art. 4 de la LCLDA consagran la plena autonomía del delito de lavado de dinero respecto al delito precedente: no se requiere condena previa por el delito generador — El delito de Lavado de Dinero (Art. 4 LCLDA) es una figura delictiva AUTÓNOMA que no exige condena penal…",
       "C": "La LEDAB tiene aplicación retrospectiva sobre bienes de origen ilícito, pues el ordenamiento no reconoce derechos adquiridos sobre capital fraudulento.",
       "D": "El enriquecimiento ilícito e injustificado genera la pérdida del derecho de dominio sin compensación alguna a favor del Estado salvadoreño."
     }
@@ -249,7 +249,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado): La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia…",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
       "D": "El cargo de Oficial de Cumplimiento en entidades financieras es a tiempo completo y con equipo técnico dedicado."
     }
@@ -271,8 +271,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado.",
     "distractorRationale": {
       "A": "Ignorar la falta de actividad comercial y justificación contable frente a millones de dólares es negligencia inexcusable.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Constituye un error contable menor que se subsana otorgando un plazo de 6 años para presentar…\" contraviene Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado, ya que la alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado.",
+      "C": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado): La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo…",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
   },
@@ -293,9 +293,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Define con rigor procesal el estándar de la carga dinámica de la prueba sobre el patrimonio injustificado.",
+      "B": "La opción \"La carga de la prueba recae exclusivamente sobre la municipalidad del domicilio donde se…\" contraviene Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado, ya que la alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado.",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado): La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y…"
     }
   },
   {
@@ -314,8 +314,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado. De no subsanarse documentalmente en el plazo reglamentario, el banco debe calificar la operación como sospechosa e informar mediante ROS a la UIF.",
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
+      "A": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado): La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de…",
+      "B": "La opción \"Aceptar el dinero en efectivo con gusto y cobrar una comisión extra en efectivo para guardarla…\" contraviene Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado, ya que la alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado.",
       "C": "Aconsejar el pitufeo o estructuración constituye una inducción directa a un delito financiero.",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
@@ -337,7 +337,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado): La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin…",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
       "D": "La demora en el congelamiento de activos terroristas genera sanciones internacionales y responsabilidad penal estatal."
     }
@@ -359,8 +359,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado.",
     "distractorRationale": {
       "A": "La Travel Rule es un estándar regulatorio antilavado para mitigar el anonimato cripto, no un beneficio de viáticos.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Prohibición absoluta de usar computadoras portátiles o teléfonos celulares fuera del…\" contraviene Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado, ya que la alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado.",
+      "C": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado): La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de…",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
   },
@@ -381,9 +381,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Consagra la prohibición de conflictos de interés, la autonomía funcional y dependencia de junta directiva.",
+      "B": "La opción \"Solo está prohibido si el Oficial de Cumplimiento es pariente en cuarto grado de…\" contraviene Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado, ya que la alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado.",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado): La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia… (Criterio aml-15-D)."
     }
   },
   {
@@ -402,8 +402,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado. De no subsanarse documentalmente en el plazo reglamentario, el banco debe calificar la operación como sospechosa e informar mediante ROS a la UIF.",
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
+      "A": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado): La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo… (Criterio aml-16-A).",
+      "B": "La opción \"Corresponde a una exitosa inversión de capital de riesgo startup que debe premiarse con una…\" contraviene Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado, ya que la alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado.",
       "C": "La ausencia total de sustento fiscal y mercantil no es un error menor sino una simulación corporativa ilícita.",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
@@ -425,7 +425,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado): La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y… (Criterio aml-17-B).",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
       "D": "La extinción de dominio es un proceso eminentemente judicial sustentado en pruebas científicas, contables y documentales."
     }
@@ -447,8 +447,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado.",
     "distractorRationale": {
       "A": "Aceptar efectivo masivo injustificado configura complicidad o coautoría en el delito de lavado de dinero.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Recomendar al comprador que reparta el dinero en efectivo entre 200 amigos para que hagan…\" contraviene Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado, ya que la alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado.",
+      "C": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado): La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de… (Criterio aml-18-C).",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
   },
@@ -469,9 +469,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Congelamiento inmediato sin demora, aviso urgente a la UIF y aseguramiento de fondos.",
+      "B": "La opción \"Publicar una felicitación en las redes sociales de la institución financiera para celebrar la…\" contraviene Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado, ya que la alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado.",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado): La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin… (Criterio aml-19-D)."
     }
   },
   {
@@ -490,8 +490,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado. De no subsanarse documentalmente en el plazo reglamentario, el banco debe calificar la operación como sospechosa e informar mediante ROS a la UIF.",
     "legalBasis": "Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
+      "A": "Fundamento normativo (Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado): La alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de… (Criterio aml-20-A).",
+      "B": "La opción \"Obligación de pagarle pasajes aéreos y hospedaje de lujo a los directivos del exchange cada…\" contraviene Normas Técnicas NRP-08 de la SSF; Instructivo UIF-FGR para Prevención de Lavado, ya que la alteración sustancial del perfil transaccional sin justificación económica coherente activa de inmediato el análisis intensificado.",
       "C": "No tiene relación con el uso de equipos electrónicos personales de los empleados.",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
@@ -513,7 +513,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia…",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
       "D": "El cargo de Oficial de Cumplimiento en entidades financieras es a tiempo completo y con equipo técnico dedicado."
     }
@@ -535,8 +535,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
       "A": "Ignorar la falta de actividad comercial y justificación contable frente a millones de dólares es negligencia inexcusable.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Constituye un error contable menor que se subsana otorgando un plazo de 6 años para presentar…\" contraviene Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF, ya que el comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado.",
+      "C": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo…",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
   },
@@ -557,9 +557,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Define con rigor procesal el estándar de la carga dinámica de la prueba sobre el patrimonio injustificado.",
+      "B": "La opción \"La carga de la prueba recae exclusivamente sobre la municipalidad del domicilio donde se…\" contraviene Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF, ya que el comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado.",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y…"
     }
   },
   {
@@ -578,8 +578,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado. El sujeto obligado debe suspender las transacciones, exigir certificados de origen legítimo del metal y enviar un Reporte de Operación Sospechosa a la UIF.",
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
+      "A": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de…",
+      "B": "La opción \"Aceptar el dinero en efectivo con gusto y cobrar una comisión extra en efectivo para guardarla…\" contraviene Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF, ya que el comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado.",
       "C": "Aconsejar el pitufeo o estructuración constituye una inducción directa a un delito financiero.",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
@@ -601,7 +601,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin…",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
       "D": "La demora en el congelamiento de activos terroristas genera sanciones internacionales y responsabilidad penal estatal."
     }
@@ -623,8 +623,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
       "A": "La Travel Rule es un estándar regulatorio antilavado para mitigar el anonimato cripto, no un beneficio de viáticos.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Prohibición absoluta de usar computadoras portátiles o teléfonos celulares fuera del…\" contraviene Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF, ya que el comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado.",
+      "C": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de…",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
   },
@@ -645,9 +645,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Consagra la prohibición de conflictos de interés, la autonomía funcional y dependencia de junta directiva.",
+      "B": "La opción \"Solo está prohibido si el Oficial de Cumplimiento es pariente en cuarto grado de…\" contraviene Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF, ya que el comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado.",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia… (Criterio aml-27-D)."
     }
   },
   {
@@ -666,8 +666,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado. El sujeto obligado debe suspender las transacciones, exigir certificados de origen legítimo del metal y enviar un Reporte de Operación Sospechosa a la UIF.",
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
+      "A": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo… (Criterio aml-28-A).",
+      "B": "La opción \"Corresponde a una exitosa inversión de capital de riesgo startup que debe premiarse con una…\" contraviene Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF, ya que el comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado.",
       "C": "La ausencia total de sustento fiscal y mercantil no es un error menor sino una simulación corporativa ilícita.",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
@@ -689,7 +689,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y… (Criterio aml-29-B).",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
       "D": "La extinción de dominio es un proceso eminentemente judicial sustentado en pruebas científicas, contables y documentales."
     }
@@ -711,8 +711,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
       "A": "Aceptar efectivo masivo injustificado configura complicidad o coautoría en el delito de lavado de dinero.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Recomendar al comprador que reparta el dinero en efectivo entre 200 amigos para que hagan…\" contraviene Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF, ya que el comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado.",
+      "C": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de… (Criterio aml-30-C).",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
   },
@@ -733,9 +733,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Congelamiento inmediato sin demora, aviso urgente a la UIF y aseguramiento de fondos.",
+      "B": "La opción \"Publicar una felicitación en las redes sociales de la institución financiera para celebrar la…\" contraviene Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF, ya que el comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado.",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin… (Criterio aml-31-D)."
     }
   },
   {
@@ -754,8 +754,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado. El sujeto obligado debe suspender las transacciones, exigir certificados de origen legítimo del metal y enviar un Reporte de Operación Sospechosa a la UIF.",
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
+      "A": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de… (Criterio aml-32-A).",
+      "B": "La opción \"Obligación de pagarle pasajes aéreos y hospedaje de lujo a los directivos del exchange cada…\" contraviene Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF, ya que el comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado.",
       "C": "No tiene relación con el uso de equipos electrónicos personales de los empleados.",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
@@ -777,7 +777,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia… (Criterio aml-33-B).",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
       "D": "El cargo de Oficial de Cumplimiento en entidades financieras es a tiempo completo y con equipo técnico dedicado."
     }
@@ -799,8 +799,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
       "A": "Ignorar la falta de actividad comercial y justificación contable frente a millones de dólares es negligencia inexcusable.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Constituye un error contable menor que se subsana otorgando un plazo de 6 años para presentar…\" contraviene Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF, ya que el comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado (Criterio aml-34-B).",
+      "C": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo… (Criterio aml-34-C).",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
   },
@@ -821,9 +821,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Define con rigor procesal el estándar de la carga dinámica de la prueba sobre el patrimonio injustificado.",
+      "B": "La opción \"La carga de la prueba recae exclusivamente sobre la municipalidad del domicilio donde se…\" contraviene Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF, ya que el comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado (Criterio aml-35-B).",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Art. 9-A de la Ley Contra el Lavado de Dinero y de Activos; Guía de APNFDs para Joyerías y Metales Preciosos UIF): El comercio de metales preciosos es un canal vulnerable de blanqueo de capitales de la minería ilegal o crimen organizado — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y… (Criterio aml-35-D)."
     }
   },
   {
@@ -842,8 +842,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR, además de sanciones personales e inhabilitación a los miembros de la Junta Directiva.",
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
+      "A": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de…",
+      "B": "La opción \"Aceptar el dinero en efectivo con gusto y cobrar una comisión extra en efectivo para guardarla…\" contraviene Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero, ya que el incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,…",
       "C": "Aconsejar el pitufeo o estructuración constituye una inducción directa a un delito financiero.",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
@@ -865,7 +865,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin…",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
       "D": "La demora en el congelamiento de activos terroristas genera sanciones internacionales y responsabilidad penal estatal."
     }
@@ -887,8 +887,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
       "A": "La Travel Rule es un estándar regulatorio antilavado para mitigar el anonimato cripto, no un beneficio de viáticos.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Prohibición absoluta de usar computadoras portátiles o teléfonos celulares fuera del…\" contraviene Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero, ya que el incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,…",
+      "C": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de…",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
   },
@@ -909,9 +909,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Consagra la prohibición de conflictos de interés, la autonomía funcional y dependencia de junta directiva.",
+      "B": "La opción \"Solo está prohibido si el Oficial de Cumplimiento es pariente en cuarto grado de…\" contraviene Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero, ya que el incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,…",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia…"
     }
   },
   {
@@ -930,8 +930,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR, además de sanciones personales e inhabilitación a los miembros de la Junta Directiva.",
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
+      "A": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo…",
+      "B": "La opción \"Corresponde a una exitosa inversión de capital de riesgo startup que debe premiarse con una…\" contraviene Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero, ya que el incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,…",
       "C": "La ausencia total de sustento fiscal y mercantil no es un error menor sino una simulación corporativa ilícita.",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
@@ -953,7 +953,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y…",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
       "D": "La extinción de dominio es un proceso eminentemente judicial sustentado en pruebas científicas, contables y documentales."
     }
@@ -975,8 +975,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
       "A": "Aceptar efectivo masivo injustificado configura complicidad o coautoría en el delito de lavado de dinero.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Recomendar al comprador que reparta el dinero en efectivo entre 200 amigos para que hagan…\" contraviene Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero, ya que el incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,…",
+      "C": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de… (Criterio aml-42-C).",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
   },
@@ -997,9 +997,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Congelamiento inmediato sin demora, aviso urgente a la UIF y aseguramiento de fondos.",
+      "B": "La opción \"Publicar una felicitación en las redes sociales de la institución financiera para celebrar la…\" contraviene Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero, ya que el incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,…",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin… (Criterio aml-43-D)."
     }
   },
   {
@@ -1018,8 +1018,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR, además de sanciones personales e inhabilitación a los miembros de la Junta Directiva.",
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
+      "A": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de… (Criterio aml-44-A).",
+      "B": "La opción \"Obligación de pagarle pasajes aéreos y hospedaje de lujo a los directivos del exchange cada…\" contraviene Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero, ya que el incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,…",
       "C": "No tiene relación con el uso de equipos electrónicos personales de los empleados.",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
@@ -1041,7 +1041,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia… (Criterio aml-45-B).",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
       "D": "El cargo de Oficial de Cumplimiento en entidades financieras es a tiempo completo y con equipo técnico dedicado."
     }
@@ -1063,8 +1063,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
       "A": "Ignorar la falta de actividad comercial y justificación contable frente a millones de dólares es negligencia inexcusable.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Constituye un error contable menor que se subsana otorgando un plazo de 6 años para presentar…\" contraviene Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero, ya que el incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,…",
+      "C": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo… (Criterio aml-46-C).",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
   },
@@ -1085,9 +1085,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Define con rigor procesal el estándar de la carga dinámica de la prueba sobre el patrimonio injustificado.",
+      "B": "La opción \"La carga de la prueba recae exclusivamente sobre la municipalidad del domicilio donde se…\" contraviene Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero, ya que el incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,…",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y… (Criterio aml-47-D)."
     }
   },
   {
@@ -1106,8 +1106,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR, además de sanciones personales e inhabilitación a los miembros de la Junta Directiva.",
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
+      "A": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de… (Criterio aml-48-A).",
+      "B": "La opción \"Aceptar el dinero en efectivo con gusto y cobrar una comisión extra en efectivo para guardarla…\" contraviene Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero, ya que el incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… (Criterio aml-48-B).",
       "C": "Aconsejar el pitufeo o estructuración constituye una inducción directa a un delito financiero.",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
@@ -1129,7 +1129,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin… (Criterio aml-49-B).",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
       "D": "La demora en el congelamiento de activos terroristas genera sanciones internacionales y responsabilidad penal estatal."
     }
@@ -1151,8 +1151,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero.",
     "distractorRationale": {
       "A": "La Travel Rule es un estándar regulatorio antilavado para mitigar el anonimato cripto, no un beneficio de viáticos.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Prohibición absoluta de usar computadoras portátiles o teléfonos celulares fuera del…\" contraviene Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero, ya que el incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… (Criterio aml-50-B).",
+      "C": "Fundamento normativo (Ley Contra el Lavado de Dinero y de Activos (Arts. 15 y 16); Ley de Supervisión y Regulación del Sistema Financiero): El incumplimiento deliberado o negligente de las obligaciones de prevención, registro, capacitación y reporte sistemático (ROE) acarrea multas pecuniarias millonarias impuestas por la SSF y la FGR,… — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de… (Criterio aml-50-C).",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
   },
@@ -1173,9 +1173,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Consagra la prohibición de conflictos de interés, la autonomía funcional y dependencia de junta directiva.",
+      "B": "La opción \"Solo está prohibido si el Oficial de Cumplimiento es pariente en cuarto grado de…\" contraviene Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras, ya que el uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión.",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia…"
     }
   },
   {
@@ -1194,8 +1194,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión. Procede la consolidación transaccional y reporte ROS a la UIF.",
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
+      "A": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo…",
+      "B": "La opción \"Corresponde a una exitosa inversión de capital de riesgo startup que debe premiarse con una…\" contraviene Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras, ya que el uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión.",
       "C": "La ausencia total de sustento fiscal y mercantil no es un error menor sino una simulación corporativa ilícita.",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
@@ -1217,7 +1217,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y…",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
       "D": "La extinción de dominio es un proceso eminentemente judicial sustentado en pruebas científicas, contables y documentales."
     }
@@ -1239,8 +1239,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
       "A": "Aceptar efectivo masivo injustificado configura complicidad o coautoría en el delito de lavado de dinero.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Recomendar al comprador que reparta el dinero en efectivo entre 200 amigos para que hagan…\" contraviene Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras, ya que el uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión.",
+      "C": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de…",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
   },
@@ -1261,9 +1261,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Congelamiento inmediato sin demora, aviso urgente a la UIF y aseguramiento de fondos.",
+      "B": "La opción \"Publicar una felicitación en las redes sociales de la institución financiera para celebrar la…\" contraviene Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras, ya que el uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión.",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin…"
     }
   },
   {
@@ -1282,8 +1282,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión. Procede la consolidación transaccional y reporte ROS a la UIF.",
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
+      "A": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de…",
+      "B": "La opción \"Obligación de pagarle pasajes aéreos y hospedaje de lujo a los directivos del exchange cada…\" contraviene Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras, ya que el uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión.",
       "C": "No tiene relación con el uso de equipos electrónicos personales de los empleados.",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
@@ -1305,7 +1305,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia… (Criterio aml-57-B).",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
       "D": "El cargo de Oficial de Cumplimiento en entidades financieras es a tiempo completo y con equipo técnico dedicado."
     }
@@ -1327,8 +1327,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
       "A": "Ignorar la falta de actividad comercial y justificación contable frente a millones de dólares es negligencia inexcusable.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Constituye un error contable menor que se subsana otorgando un plazo de 6 años para presentar…\" contraviene Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras, ya que el uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión.",
+      "C": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo… (Criterio aml-58-C).",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
   },
@@ -1349,9 +1349,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Define con rigor procesal el estándar de la carga dinámica de la prueba sobre el patrimonio injustificado.",
+      "B": "La opción \"La carga de la prueba recae exclusivamente sobre la municipalidad del domicilio donde se…\" contraviene Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras, ya que el uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión.",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y… (Criterio aml-59-D)."
     }
   },
   {
@@ -1370,8 +1370,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión. Procede la consolidación transaccional y reporte ROS a la UIF.",
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
+      "A": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de… (Criterio aml-60-A).",
+      "B": "La opción \"Aceptar el dinero en efectivo con gusto y cobrar una comisión extra en efectivo para guardarla…\" contraviene Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras, ya que el uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión.",
       "C": "Aconsejar el pitufeo o estructuración constituye una inducción directa a un delito financiero.",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
@@ -1393,7 +1393,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin… (Criterio aml-61-B).",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
       "D": "La demora en el congelamiento de activos terroristas genera sanciones internacionales y responsabilidad penal estatal."
     }
@@ -1415,8 +1415,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
       "A": "La Travel Rule es un estándar regulatorio antilavado para mitigar el anonimato cripto, no un beneficio de viáticos.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Prohibición absoluta de usar computadoras portátiles o teléfonos celulares fuera del…\" contraviene Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras, ya que el uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión.",
+      "C": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de… (Criterio aml-62-C).",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
   },
@@ -1437,9 +1437,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Consagra la prohibición de conflictos de interés, la autonomía funcional y dependencia de junta directiva.",
+      "B": "La opción \"Solo está prohibido si el Oficial de Cumplimiento es pariente en cuarto grado de…\" contraviene Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras, ya que el uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión (Criterio aml-63-B).",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia… (Criterio aml-63-D)."
     }
   },
   {
@@ -1458,8 +1458,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión. Procede la consolidación transaccional y reporte ROS a la UIF.",
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
+      "A": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo… (Criterio aml-64-A).",
+      "B": "La opción \"Corresponde a una exitosa inversión de capital de riesgo startup que debe premiarse con una…\" contraviene Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras, ya que el uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión (Criterio aml-64-B).",
       "C": "La ausencia total de sustento fiscal y mercantil no es un error menor sino una simulación corporativa ilícita.",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
@@ -1481,7 +1481,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Instructivo UIF-FGR para Empresas de Transferencia de Fondos; Estándares GAFI sobre Mulas Financieras): El uso de remesas fraccionadas y multiplicidad de ordenantes extranjeros hacia un único beneficiario local es indicativo de la tipología de \"Mulas de Dinero\" o recaudación de fondos ilícitos del narcotráfico o extorsión — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y… (Criterio aml-65-B).",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
       "D": "La extinción de dominio es un proceso eminentemente judicial sustentado en pruebas científicas, contables y documentales."
     }
@@ -1503,8 +1503,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
       "A": "Aceptar efectivo masivo injustificado configura complicidad o coautoría en el delito de lavado de dinero.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Recomendar al comprador que reparta el dinero en efectivo entre 200 amigos para que hagan…\" contraviene Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal, ya que la sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros…",
+      "C": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de…",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
   },
@@ -1525,9 +1525,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Congelamiento inmediato sin demora, aviso urgente a la UIF y aseguramiento de fondos.",
+      "B": "La opción \"Publicar una felicitación en las redes sociales de la institución financiera para celebrar la…\" contraviene Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal, ya que la sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros…",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin…"
     }
   },
   {
@@ -1546,8 +1546,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros aparentemente legítimos, amparados en mercancías con valores artificialmente inflados.",
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
+      "A": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de…",
+      "B": "La opción \"Obligación de pagarle pasajes aéreos y hospedaje de lujo a los directivos del exchange cada…\" contraviene Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal, ya que la sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros…",
       "C": "No tiene relación con el uso de equipos electrónicos personales de los empleados.",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
@@ -1569,7 +1569,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia…",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
       "D": "El cargo de Oficial de Cumplimiento en entidades financieras es a tiempo completo y con equipo técnico dedicado."
     }
@@ -1591,8 +1591,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
       "A": "Ignorar la falta de actividad comercial y justificación contable frente a millones de dólares es negligencia inexcusable.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Constituye un error contable menor que se subsana otorgando un plazo de 6 años para presentar…\" contraviene Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal, ya que la sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros…",
+      "C": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo…",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
   },
@@ -1613,9 +1613,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Define con rigor procesal el estándar de la carga dinámica de la prueba sobre el patrimonio injustificado.",
+      "B": "La opción \"La carga de la prueba recae exclusivamente sobre la municipalidad del domicilio donde se…\" contraviene Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal, ya que la sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros…",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y…"
     }
   },
   {
@@ -1634,8 +1634,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros aparentemente legítimos, amparados en mercancías con valores artificialmente inflados.",
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
+      "A": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de… (Criterio aml-72-A).",
+      "B": "La opción \"Aceptar el dinero en efectivo con gusto y cobrar una comisión extra en efectivo para guardarla…\" contraviene Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal, ya que la sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros…",
       "C": "Aconsejar el pitufeo o estructuración constituye una inducción directa a un delito financiero.",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
@@ -1657,7 +1657,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin… (Criterio aml-73-B).",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
       "D": "La demora en el congelamiento de activos terroristas genera sanciones internacionales y responsabilidad penal estatal."
     }
@@ -1679,8 +1679,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
       "A": "La Travel Rule es un estándar regulatorio antilavado para mitigar el anonimato cripto, no un beneficio de viáticos.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Prohibición absoluta de usar computadoras portátiles o teléfonos celulares fuera del…\" contraviene Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal, ya que la sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros…",
+      "C": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de… (Criterio aml-74-C).",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
   },
@@ -1701,9 +1701,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Consagra la prohibición de conflictos de interés, la autonomía funcional y dependencia de junta directiva.",
+      "B": "La opción \"Solo está prohibido si el Oficial de Cumplimiento es pariente en cuarto grado de…\" contraviene Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal, ya que la sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros…",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia… (Criterio aml-75-D)."
     }
   },
   {
@@ -1722,8 +1722,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros aparentemente legítimos, amparados en mercancías con valores artificialmente inflados.",
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
+      "A": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo… (Criterio aml-76-A).",
+      "B": "La opción \"Corresponde a una exitosa inversión de capital de riesgo startup que debe premiarse con una…\" contraviene Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal, ya que la sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros…",
       "C": "La ausencia total de sustento fiscal y mercantil no es un error menor sino una simulación corporativa ilícita.",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
@@ -1745,7 +1745,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y… (Criterio aml-77-B).",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
       "D": "La extinción de dominio es un proceso eminentemente judicial sustentado en pruebas científicas, contables y documentales."
     }
@@ -1767,8 +1767,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
       "A": "Aceptar efectivo masivo injustificado configura complicidad o coautoría en el delito de lavado de dinero.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Recomendar al comprador que reparta el dinero en efectivo entre 200 amigos para que hagan…\" contraviene Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal, ya que la sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… (Criterio aml-78-B).",
+      "C": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de… (Criterio aml-78-C).",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
   },
@@ -1789,9 +1789,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Congelamiento inmediato sin demora, aviso urgente a la UIF y aseguramiento de fondos.",
+      "B": "La opción \"Publicar una felicitación en las redes sociales de la institución financiera para celebrar la…\" contraviene Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal, ya que la sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… (Criterio aml-79-B).",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin… (Criterio aml-79-D)."
     }
   },
   {
@@ -1810,8 +1810,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros aparentemente legítimos, amparados en mercancías con valores artificialmente inflados.",
     "legalBasis": "Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
+      "A": "Fundamento normativo (Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal): La sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de… (Criterio aml-80-A).",
+      "B": "La opción \"Obligación de pagarle pasajes aéreos y hospedaje de lujo a los directivos del exchange cada…\" contraviene Guía de GAFI sobre Blanqueo de Capitales Basado en el Comercio (TBML); Art. 4 LCLDA; Código Penal, ya que la sobrefacturación masiva de importaciones es el mecanismo predilecto del TBML (Trade-Based Money Laundering): permite transferir sumas exorbitantes de dinero ilícito a través de pagos aduaneros… (Criterio aml-80-B).",
       "C": "No tiene relación con el uso de equipos electrónicos personales de los empleados.",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
@@ -1833,7 +1833,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia…",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
       "D": "El cargo de Oficial de Cumplimiento en entidades financieras es a tiempo completo y con equipo técnico dedicado."
     }
@@ -1855,8 +1855,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Ignorar la falta de actividad comercial y justificación contable frente a millones de dólares es negligencia inexcusable.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Constituye un error contable menor que se subsana otorgando un plazo de 6 años para presentar…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de…",
+      "C": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo…",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
   },
@@ -1877,9 +1877,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Define con rigor procesal el estándar de la carga dinámica de la prueba sobre el patrimonio injustificado.",
+      "B": "La opción \"La carga de la prueba recae exclusivamente sobre la municipalidad del domicilio donde se…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de…",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y…"
     }
   },
   {
@@ -1898,8 +1898,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de transacciones por un plazo mínimo de cinco años (ampliable reglamentariamente a diez años por la SSF) a partir del cese de la relación contractual.",
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
+      "A": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de…",
+      "B": "La opción \"Aceptar el dinero en efectivo con gusto y cobrar una comisión extra en efectivo para guardarla…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de…",
       "C": "Aconsejar el pitufeo o estructuración constituye una inducción directa a un delito financiero.",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
@@ -1921,7 +1921,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin…",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
       "D": "La demora en el congelamiento de activos terroristas genera sanciones internacionales y responsabilidad penal estatal."
     }
@@ -1943,8 +1943,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "La Travel Rule es un estándar regulatorio antilavado para mitigar el anonimato cripto, no un beneficio de viáticos.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Prohibición absoluta de usar computadoras portátiles o teléfonos celulares fuera del…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de…",
+      "C": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de…",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
   },
@@ -1965,9 +1965,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Consagra la prohibición de conflictos de interés, la autonomía funcional y dependencia de junta directiva.",
+      "B": "La opción \"Solo está prohibido si el Oficial de Cumplimiento es pariente en cuarto grado de…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de…",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia… (Criterio aml-87-D)."
     }
   },
   {
@@ -1986,8 +1986,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de transacciones por un plazo mínimo de cinco años (ampliable reglamentariamente a diez años por la SSF) a partir del cese de la relación contractual.",
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
+      "A": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo… (Criterio aml-88-A).",
+      "B": "La opción \"Corresponde a una exitosa inversión de capital de riesgo startup que debe premiarse con una…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de…",
       "C": "La ausencia total de sustento fiscal y mercantil no es un error menor sino una simulación corporativa ilícita.",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
@@ -2009,7 +2009,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y… (Criterio aml-89-B).",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
       "D": "La extinción de dominio es un proceso eminentemente judicial sustentado en pruebas científicas, contables y documentales."
     }
@@ -2031,8 +2031,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Aceptar efectivo masivo injustificado configura complicidad o coautoría en el delito de lavado de dinero.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Recomendar al comprador que reparta el dinero en efectivo entre 200 amigos para que hagan…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de…",
+      "C": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de… (Criterio aml-90-C).",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
   },
@@ -2053,9 +2053,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Congelamiento inmediato sin demora, aviso urgente a la UIF y aseguramiento de fondos.",
+      "B": "La opción \"Publicar una felicitación en las redes sociales de la institución financiera para celebrar la…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de…",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin… (Criterio aml-91-D)."
     }
   },
   {
@@ -2074,8 +2074,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de transacciones por un plazo mínimo de cinco años (ampliable reglamentariamente a diez años por la SSF) a partir del cese de la relación contractual.",
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
+      "A": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de… (Criterio aml-92-A).",
+      "B": "La opción \"Obligación de pagarle pasajes aéreos y hospedaje de lujo a los directivos del exchange cada…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de…",
       "C": "No tiene relación con el uso de equipos electrónicos personales de los empleados.",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
@@ -2097,7 +2097,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia… (Criterio aml-93-B).",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
       "D": "El cargo de Oficial de Cumplimiento en entidades financieras es a tiempo completo y con equipo técnico dedicado."
     }
@@ -2119,8 +2119,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Ignorar la falta de actividad comercial y justificación contable frente a millones de dólares es negligencia inexcusable.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Constituye un error contable menor que se subsana otorgando un plazo de 6 años para presentar…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… (Criterio aml-94-B).",
+      "C": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo… (Criterio aml-94-C).",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
   },
@@ -2141,9 +2141,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Ignora la naturaleza autónoma de la LEDAB; la falta de acreditación del origen lícito acarrea la extinción del dominio.",
-      "B": "Respuesta correcta. Define con rigor procesal el estándar de la carga dinámica de la prueba sobre el patrimonio injustificado.",
+      "B": "La opción \"La carga de la prueba recae exclusivamente sobre la municipalidad del domicilio donde se…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… (Criterio aml-95-B).",
       "C": "Las alcaldías no son parte procesal ni tienen facultades de extinción de dominio patrimonial.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Bajo la LEDAB opera la carga dinámica de la prueba: una vez que la FGR demuestra indicios razonables y… (Criterio aml-95-D)."
     }
   },
   {
@@ -2162,8 +2162,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de transacciones por un plazo mínimo de cinco años (ampliable reglamentariamente a diez años por la SSF) a partir del cese de la relación contractual.",
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Rechazo de efectivo masivo no trazable, bancarización obligatoria, identificación de UBO y ROS a la UIF.",
+      "A": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Rechazar la operación en efectivo bajo esa modalidad por representar un riesgo extremo e inaceptable de… (Criterio aml-96-A).",
+      "B": "La opción \"Aceptar el dinero en efectivo con gusto y cobrar una comisión extra en efectivo para guardarla…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… (Criterio aml-96-B).",
       "C": "Aconsejar el pitufeo o estructuración constituye una inducción directa a un delito financiero.",
       "D": "La extorsión o amenaza es un delito penal grave y vulnera frontalmente la ética del oficial o agente."
     }
@@ -2185,7 +2185,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Facilitar la entrega o fuga de fondos a terroristas designados constituye el delito de Financiamiento del Terrorismo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la LCLDA y directrices UIF.",
+      "B": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Proceder al congelamiento preventivo inmediato de los fondos y activos del individuo sin demora (sin… (Criterio aml-97-B).",
       "C": "La divulgación pública irresponsable atenta contra la seguridad nacional y la confidencialidad operativa.",
       "D": "La demora en el congelamiento de activos terroristas genera sanciones internacionales y responsabilidad penal estatal."
     }
@@ -2207,8 +2207,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "La Travel Rule es un estándar regulatorio antilavado para mitigar el anonimato cripto, no un beneficio de viáticos.",
-      "B": "Respuesta correcta. Recopilación, verificación y transmisión segura de datos del originador y beneficiario entre intermediarios.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y estándar internacional aplicable.",
+      "B": "La opción \"Prohibición absoluta de usar computadoras portátiles o teléfonos celulares fuera del…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… (Criterio aml-98-B).",
+      "C": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Obligación del proveedor de servicios de activos virtuales de origen de recopilar, verificar y transmitir de… (Criterio aml-98-C).",
       "D": "El anonimato absoluto en transferencias financieras está expresamente proscrito por la normativa antilavado."
     }
   },
@@ -2229,9 +2229,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
       "A": "Mezclar funciones de captación de clientes con control de riesgos elimina la independencia e incrementa exponencialmente el riesgo moral.",
-      "B": "Respuesta correcta. Consagra la prohibición de conflictos de interés, la autonomía funcional y dependencia de junta directiva.",
+      "B": "La opción \"Solo está prohibido si el Oficial de Cumplimiento es pariente en cuarto grado de…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… (Criterio aml-99-B).",
       "C": "La incompatibilidad es funcional y objetiva respecto a las áreas de negocio, no meramente de parentesco.",
-      "D": "Respuesta correcta. Medida preventiva fundada en los manuales de cumplimiento."
+      "D": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Existe incompatibilidad absoluta: el Oficial de Cumplimiento debe gozar de total autonomía e independencia… (Criterio aml-99-D)."
     }
   },
   {
@@ -2250,8 +2250,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de transacciones por un plazo mínimo de cinco años (ampliable reglamentariamente a diez años por la SSF) a partir del cese de la relación contractual.",
     "legalBasis": "Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa aplicable y doctrina de prevención de lavado.",
-      "B": "Respuesta correcta. Identifica la tipología de sociedad de papel y el deber ineludible de reportar mediante ROS a la UIF.",
+      "A": "Fundamento normativo (Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI): El Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… — Se configura la tipología de \"Empresa Fachada o Sociedad de Papel (Shell Company)\", utilizada como vehículo… (Criterio aml-100-A).",
+      "B": "La opción \"Corresponde a una exitosa inversión de capital de riesgo startup que debe premiarse con una…\" contraviene Art. 12 Ley Contra el Lavado de Dinero y de Activos (LCLDA) de El Salvador; Recomendación 11 GAFI, ya que el Art. 12 de la LCLDA dispone expresamente que los sujetos obligados deben conservar todos los registros de identificación de clientes, expedientes de debida diligencia y respaldos documentales de… (Criterio aml-100-B).",
       "C": "La ausencia total de sustento fiscal y mercantil no es un error menor sino una simulación corporativa ilícita.",
       "D": "Facilitar retiros masivos en efectivo de fondos injustificados constituye complicidad penal directa en lavado de dinero."
     }
@@ -2273,7 +2273,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1380 y 1381 Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "Permitir indemnizaciones superiores al daño real constituiría sobreseguro ilícito y fomentaría el fraude o dolo.",
-      "B": "Respuesta correcta. El seguro mercantil de cosas es de estricta indemnización para resarcir el menoscabo real sufrido.",
+      "B": "Fundamento normativo (Art. 1380 y 1381 Código de Comercio de El Salvador): El artículo 1380 del Código de Comercio salvadoreño establece expresamente que el seguro contra daños es un contrato de mera indemnización; por tanto, el asegurado no puede pretender una suma… — El contrato de seguro contra daños es estrictamente de indemnización y jamás puede convertirse para el…",
       "C": "La sanción punitiva no existe en la indemnización contractual de seguros salvadoreña.",
       "D": "El asegurador cubre el 100% del daño amparado hasta el límite de la suma asegurada, deduciendo únicamente el deducible pactado."
     }
@@ -2295,7 +2295,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1391 y 1393 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "La aseguradora no pierde el derecho; la subrogación legal existe precisamente para impedir el enriquecimiento o liberación injustificada del causante.",
-      "B": "Respuesta correcta. La aseguradora se subroga automáticamente por disposición de la ley mercantil al pagar el siniestro.",
+      "B": "Fundamento normativo (Arts. 1391 y 1393 del Código de Comercio de El Salvador): El artículo 1391 y 1393 del Código de Comercio consagran la figura de la subrogación legal: la empresa de seguros que paga la indemnización se subroga de pleno derecho en los derechos y acciones que… — Se subroga por ministerio de ley (ope legis) hasta el monto de la indemnización pagada, en todos los derechos…",
       "C": "La aseguradora ejerce la acción en nombre propio por subrogación, liberando al asegurado de litigar.",
       "D": "La subrogación opera contra cualquier tercero responsable civilmente, con o sin fianza previa."
     }
@@ -2317,7 +2317,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley de Compras Públicas de El Salvador; Código de Comercio (Arts. 1539-1550).",
     "distractorRationale": {
       "A": "Esa es la fianza de cumplimiento de contrato o de pago de pasivos laborales.",
-      "B": "Respuesta correcta. Garantiza el sostenimiento irrestricto de la oferta y la formalización contractual oportuna.",
+      "B": "Fundamento normativo (Ley de Compras Públicas de El Salvador; Código de Comercio (Arts. 1539-1550)): La Fianza de Mantenimiento de Oferta asegura la seriedad de la propuesta licitada: si el oferente adjudicado se niega a firmar el contrato o retira su oferta intempestivamente, la entidad pública… — Garantizar que el oferente mantendrá las condiciones y precios de su propuesta durante el plazo legal y…",
       "C": "La cobertura de vicios ocultos se garantiza mediante la Fianza de Buena Obra.",
       "D": "Las fianzas son instrumentos de garantía indemnizatoria, no de financiamiento crediticio."
     }
@@ -2339,7 +2339,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1362 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "Seis meses es un plazo de prescripción para reclamos de transporte marítimo de mercancías, no del contrato de seguro.",
-      "B": "Respuesta correcta. El plazo de prescripción general mercantil en seguros salvadoreño es de dos años.",
+      "B": "Fundamento normativo (Art. 1362 del Código de Comercio de El Salvador): El artículo 1362 del Código de Comercio de El Salvador dispone que todas las acciones que se deriven de un contrato de seguro prescribirán en dos años, contados desde la fecha del acontecimiento que… — Dos años contados a partir de la fecha del acontecimiento que les dio origen.",
       "C": "Los diez años del Código Civil quedan desplazados por la norma especial mercantil de dos años.",
       "D": "Cinco años no es el plazo general en el régimen asegurador salvadoreño."
     }
@@ -2361,7 +2361,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1383 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "Ignora la regla proporcional mercantil; pagar los $40,000 enteros trataría la póliza como seguro a primer riesgo absoluto, lo cual requiere pacto expreso.",
-      "B": "Respuesta correcta. Aplica rigurosamente la fórmula legal de prorrateo del Art. 1383 C.Com.",
+      "B": "Fundamento normativo (Art. 1383 del Código de Comercio de El Salvador): El artículo 1383 del Código de Comercio consagra la Regla Proporcional en el infraseguro: si la suma asegurada es inferior al valor real de la cosa asegurada al momento del siniestro, el asegurador… — $20,000.00 USD, conforme a la regla proporcional: Indemnización = (Daño Sufrido × Suma Asegurada) / Valor…",
       "C": "La suma asegurada es el límite máximo para pérdidas totales, nunca se liquida completa ante daños parciales.",
       "D": "El infraseguro no anula el contrato; simplemente sujeta la indemnización al porcentaje efectivamente cubierto."
     }
@@ -2383,7 +2383,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1381 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "Vulnera frontalmente el principio de indemnización del Art. 1380 C.Com.; el sobreseguro doloso jamás genera derecho al pago fraudulento.",
-      "B": "Respuesta correcta. Refleja fielmente la sanción de nulidad absoluta y la retención de primas consagrada en el Art. 1381 C.Com.",
+      "B": "Fundamento normativo (Art. 1381 del Código de Comercio de El Salvador): El artículo 1381 del Código de Comercio establece que cuando la suma asegurada supera notablemente el valor real del interés asegurable por dolo o mala fe del asegurado, el contrato es nulo de nulidad absoluta — El contrato de seguro es nulo de nulidad absoluta y el asegurador queda libre de toda obligación…",
       "C": "La reducción de suma y devolución de primas solo aplica en el sobreseguro de buena fe (sin dolo); mediando dolo opera la nulidad y sanción.",
       "D": "La SSF ejerce supervisión técnica y administrativa prudencial, no sustituye la jurisdicción mercantil sancionatoria ante fraudes."
     }
@@ -2405,7 +2405,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1475 y 1481 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "La exclusión perpetua del suicidio es contraria a la ley salvadoreña; el Art. 1481 C.Com. limita la exoneración a los primeros dos años.",
-      "B": "Respuesta correcta. Define con exactitud la ventana temporal de dos años de exoneración legal y la posterior incontestabilidad.",
+      "B": "Fundamento normativo (Arts. 1475 y 1481 del Código de Comercio de El Salvador): El artículo 1481 del Código de Comercio de El Salvador dispone que el suicidio voluntario del asegurado exime a la empresa de seguros del pago de la suma contratada si ocurre dentro de los dos años… — La compañía aseguradora queda legalmente exenta de pagar la suma asegurada si el suicidio del asegurado…",
       "C": "Pagar el suicidio inmediato incentivaría el fraude letal y desnaturalizaría el principio de aleatoriedad del riesgo asegurador.",
       "D": "Las cartas o justificaciones privadas carecen de relevancia frente al término legal perentorio de dos años establecido en el Código de Comercio."
     }
@@ -2427,7 +2427,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley de Compras Públicas de El Salvador; Arts. 1539 a 1550 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "No son intercambiables ni alternativas; cada una cauciona riesgos, etapas y montos jurídicos enteramente diferenciados.",
-      "B": "Respuesta correcta. Diferencia con precisión las tres figuras: amortización de adelanto, fiel ejecución contractual y garantía post-recepción de vicios ocultos.",
+      "B": "Fundamento normativo (Ley de Compras Públicas de El Salvador; Arts. 1539 a 1550 del Código de Comercio de El Salvador): En el régimen de compras públicas salvadoreño y las normas de fianzas mercantiles (Arts. 1539-1550 C.Com.), cada garantía tutela una fase distinta del contrato: la Fianza de Anticipo precave el… — La Fianza de Anticipo garantiza el 100% de los fondos monetarios adelantados al contratista para inicio de…",
       "C": "La garantía previa a la licitación es la de sostenimiento de oferta, no la de buena obra que es estrictamente post-constructiva.",
       "D": "Las fianzas mercantiles son emitidas por instituciones afianzadoras y compañías de seguros autorizadas por la SSF, no por el BCR."
     }
@@ -2449,7 +2449,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF): Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado…",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
       "D": "El seguro de daños sobre bienes no puede mutar por voluntad unilateral en seguro de vida personal."
     }
@@ -2471,8 +2471,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF.",
     "distractorRationale": {
       "A": "La mala fe y dolo en la declaración anulan el deber de cobertura; pagarlo premiaría el fraude procesal y contractual.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Cobrarle una multa de un dólar y duplicar de por vida la suma asegurada sin costo adicional\" contraviene Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF, ya que los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el…",
+      "C": "Fundamento normativo (Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF): Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta…",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
   },
@@ -2493,9 +2493,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Permite el cobro directo e inmediato a la afianzadora sin persecución previa de bienes del deudor.",
+      "B": "La opción \"La fianza se vuelve nula porque el Código de Comercio prohíbe la renuncia al beneficio de…\" contraviene Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF, ya que los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el…",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF): Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago…"
     }
   },
   {
@@ -2514,8 +2514,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el asegurado retenga una fracción de la pérdida patrimonial sin desnaturalizar la cobertura principal.",
     "legalBasis": "Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
+      "A": "Fundamento normativo (Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF): Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el… — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros…",
+      "B": "La opción \"Financiar las fiestas de fin de año y banquetes corporativos de los accionistas de la…\" contraviene Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF, ya que los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el…",
       "C": "Los fondos de reservas técnicas no sufragan gastos operativos de entidades reguladoras estatales.",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
@@ -2537,7 +2537,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF): Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el… — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el…",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
       "D": "El reaseguro es una herramienta legal y obligatoria de estabilidad prudencial promovida por la SSF."
     }
@@ -2559,8 +2559,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF.",
     "distractorRationale": {
       "A": "El empleador contratante no tiene derecho al beneficio indemnity del seguro de vida de sus trabajadores.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"La aseguradora retiene el 100% del capital y queda exonerada de realizar cualquier desembolso…\" contraviene Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF, ya que los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el…",
+      "C": "Fundamento normativo (Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF): Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el… — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada…",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
   },
@@ -2581,9 +2581,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. El interés asegurable es el presupuesto causal indispensable del seguro de daños bajo el Art. 1353 C.Com.",
+      "B": "La opción \"La aseguradora debe cobrar el triple de prima y transferir la propiedad del edificio al…\" contraviene Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF, ya que los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el…",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF): Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado… (Criterio seg-15-D)."
     }
   },
   {
@@ -2602,8 +2602,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el asegurado retenga una fracción de la pérdida patrimonial sin desnaturalizar la cobertura principal.",
     "legalBasis": "Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
+      "A": "Fundamento normativo (Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF): Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta… (Criterio seg-16-A).",
+      "B": "La opción \"Pagar el 100% de la cuenta médica y felicitar al asegurado por haber ocultado su condición con…\" contraviene Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF, ya que los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el…",
       "C": "No existen multas testimoniales de un dólar ni aumentos de suma como sanción al infractor.",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
@@ -2625,7 +2625,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF): Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago… (Criterio seg-17-B).",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
       "D": "La fianza mercantil no está supeditada al deceso del deudor principal sino a su incumplimiento contractual."
     }
@@ -2647,8 +2647,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF.",
     "distractorRationale": {
       "A": "Las reservas técnicas son pasivos patrimoniales de estricta afectación para pago de siniestros, no gastos suntuarios.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Pagar únicamente los sueldos atrasados del personal de limpieza de la Superintendencia del…\" contraviene Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF, ya que los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el…",
+      "C": "Fundamento normativo (Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF): Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el… — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros… (Criterio seg-18-C).",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
   },
@@ -2669,9 +2669,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Recoge el principio general del Art. 1548 C.Com.: inoponibilidad de acción directa salvo cut-through.",
+      "B": "La opción \"El asegurado original solo puede demandar al reasegurador ante los tribunales de Londres y…\" contraviene Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF, ya que los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el…",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF): Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el… — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el… (Criterio seg-19-D)."
     }
   },
   {
@@ -2690,8 +2690,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el asegurado retenga una fracción de la pérdida patrimonial sin desnaturalizar la cobertura principal.",
     "legalBasis": "Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
+      "A": "Fundamento normativo (Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF): Los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el… — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada… (Criterio seg-20-A).",
+      "B": "La opción \"El dinero del seguro pasa a ser propiedad definitiva del empleador para comprar equipo de…\" contraviene Ley de Sociedades de Seguros; Código de Comercio (Arts. 1380 y 1384); Póliza Estándar de Terremoto SSF, ya que los deducibles y coaseguros en ramos catastróficos son cláusulas de distribución del riesgo reconocidas por la SSF y el Art. 1384 C.Com. Su propósito es mitigar el riesgo moral y asegurar que el…",
       "C": "La aseguradora no puede apropiarse del beneficio devengado por la contingencia cubierta.",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
@@ -2713,7 +2713,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado…",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
       "D": "El seguro de daños sobre bienes no puede mutar por voluntad unilateral en seguro de vida personal."
     }
@@ -2735,8 +2735,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
       "A": "La mala fe y dolo en la declaración anulan el deber de cobertura; pagarlo premiaría el fraude procesal y contractual.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Cobrarle una multa de un dólar y duplicar de por vida la suma asegurada sin costo adicional\" contraviene Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes, ya que el seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por…",
+      "C": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta…",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
   },
@@ -2757,9 +2757,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Permite el cobro directo e inmediato a la afianzadora sin persecución previa de bienes del deudor.",
+      "B": "La opción \"La fianza se vuelve nula porque el Código de Comercio prohíbe la renuncia al beneficio de…\" contraviene Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes, ya que el seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por…",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago…"
     }
   },
   {
@@ -2778,8 +2778,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por todos los intereses salvados y liquidado por la aseguradora bajo las normas marítimas mercantiles.",
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
+      "A": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros…",
+      "B": "La opción \"Financiar las fiestas de fin de año y banquetes corporativos de los accionistas de la…\" contraviene Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes, ya que el seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por…",
       "C": "Los fondos de reservas técnicas no sufragan gastos operativos de entidades reguladoras estatales.",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
@@ -2801,7 +2801,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el…",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
       "D": "El reaseguro es una herramienta legal y obligatoria de estabilidad prudencial promovida por la SSF."
     }
@@ -2823,8 +2823,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
       "A": "El empleador contratante no tiene derecho al beneficio indemnity del seguro de vida de sus trabajadores.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"La aseguradora retiene el 100% del capital y queda exonerada de realizar cualquier desembolso…\" contraviene Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes, ya que el seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por…",
+      "C": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada…",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
   },
@@ -2845,9 +2845,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. El interés asegurable es el presupuesto causal indispensable del seguro de daños bajo el Art. 1353 C.Com.",
+      "B": "La opción \"La aseguradora debe cobrar el triple de prima y transferir la propiedad del edificio al…\" contraviene Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes, ya que el seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por…",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado… (Criterio seg-27-D)."
     }
   },
   {
@@ -2866,8 +2866,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por todos los intereses salvados y liquidado por la aseguradora bajo las normas marítimas mercantiles.",
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
+      "A": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta… (Criterio seg-28-A).",
+      "B": "La opción \"Pagar el 100% de la cuenta médica y felicitar al asegurado por haber ocultado su condición con…\" contraviene Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes, ya que el seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por…",
       "C": "No existen multas testimoniales de un dólar ni aumentos de suma como sanción al infractor.",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
@@ -2889,7 +2889,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago… (Criterio seg-29-B).",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
       "D": "La fianza mercantil no está supeditada al deceso del deudor principal sino a su incumplimiento contractual."
     }
@@ -2911,8 +2911,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
       "A": "Las reservas técnicas son pasivos patrimoniales de estricta afectación para pago de siniestros, no gastos suntuarios.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Pagar únicamente los sueldos atrasados del personal de limpieza de la Superintendencia del…\" contraviene Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes, ya que el seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por…",
+      "C": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros… (Criterio seg-30-C).",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
   },
@@ -2933,9 +2933,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Recoge el principio general del Art. 1548 C.Com.: inoponibilidad de acción directa salvo cut-through.",
+      "B": "La opción \"El asegurado original solo puede demandar al reasegurador ante los tribunales de Londres y…\" contraviene Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes, ya que el seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por…",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el… (Criterio seg-31-D)."
     }
   },
   {
@@ -2954,8 +2954,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por todos los intereses salvados y liquidado por la aseguradora bajo las normas marítimas mercantiles.",
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
+      "A": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada… (Criterio seg-32-A).",
+      "B": "La opción \"El dinero del seguro pasa a ser propiedad definitiva del empleador para comprar equipo de…\" contraviene Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes, ya que el seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por…",
       "C": "La aseguradora no puede apropiarse del beneficio devengado por la contingencia cubierta.",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
@@ -2977,7 +2977,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado… (Criterio seg-33-B).",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
       "D": "El seguro de daños sobre bienes no puede mutar por voluntad unilateral en seguro de vida personal."
     }
@@ -2999,8 +2999,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
       "A": "La mala fe y dolo en la declaración anulan el deber de cobertura; pagarlo premiaría el fraude procesal y contractual.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Cobrarle una multa de un dólar y duplicar de por vida la suma asegurada sin costo adicional\" contraviene Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes, ya que el seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… (Criterio seg-34-B).",
+      "C": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta… (Criterio seg-34-C).",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
   },
@@ -3021,9 +3021,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Permite el cobro directo e inmediato a la afianzadora sin persecución previa de bienes del deudor.",
+      "B": "La opción \"La fianza se vuelve nula porque el Código de Comercio prohíbe la renuncia al beneficio de…\" contraviene Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes, ya que el seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… (Criterio seg-35-B).",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Arts. 1435, 1438 y 1442 del Código de Comercio de El Salvador; Reglas de York-Amberes): El seguro de transporte de mercancías ampara las pérdidas por avería común o gruesa: el daño sacrificado intencionalmente para la salvación común de nave y carga es contribuido proporcionalmente por… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago… (Criterio seg-35-D)."
     }
   },
   {
@@ -3042,8 +3042,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.). Si el beneficiario no formula el reclamo formal dentro del plazo de vigencia o del término adicional expresamente estipulado, la obligación de la afianzadora caduca por ministerio de ley.",
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
+      "A": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros…",
+      "B": "La opción \"Financiar las fiestas de fin de año y banquetes corporativos de los accionistas de la…\" contraviene Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas, ya que las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.).",
       "C": "Los fondos de reservas técnicas no sufragan gastos operativos de entidades reguladoras estatales.",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
@@ -3065,7 +3065,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el…",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
       "D": "El reaseguro es una herramienta legal y obligatoria de estabilidad prudencial promovida por la SSF."
     }
@@ -3087,8 +3087,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
       "A": "El empleador contratante no tiene derecho al beneficio indemnity del seguro de vida de sus trabajadores.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"La aseguradora retiene el 100% del capital y queda exonerada de realizar cualquier desembolso…\" contraviene Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas, ya que las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.).",
+      "C": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada…",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
   },
@@ -3109,9 +3109,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. El interés asegurable es el presupuesto causal indispensable del seguro de daños bajo el Art. 1353 C.Com.",
+      "B": "La opción \"La aseguradora debe cobrar el triple de prima y transferir la propiedad del edificio al…\" contraviene Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas, ya que las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.).",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado…"
     }
   },
   {
@@ -3130,8 +3130,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.). Si el beneficiario no formula el reclamo formal dentro del plazo de vigencia o del término adicional expresamente estipulado, la obligación de la afianzadora caduca por ministerio de ley.",
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
+      "A": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta…",
+      "B": "La opción \"Pagar el 100% de la cuenta médica y felicitar al asegurado por haber ocultado su condición con…\" contraviene Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas, ya que las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.).",
       "C": "No existen multas testimoniales de un dólar ni aumentos de suma como sanción al infractor.",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
@@ -3153,7 +3153,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago…",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
       "D": "La fianza mercantil no está supeditada al deceso del deudor principal sino a su incumplimiento contractual."
     }
@@ -3175,8 +3175,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
       "A": "Las reservas técnicas son pasivos patrimoniales de estricta afectación para pago de siniestros, no gastos suntuarios.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Pagar únicamente los sueldos atrasados del personal de limpieza de la Superintendencia del…\" contraviene Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas, ya que las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.).",
+      "C": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros… (Criterio seg-42-C).",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
   },
@@ -3197,9 +3197,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Recoge el principio general del Art. 1548 C.Com.: inoponibilidad de acción directa salvo cut-through.",
+      "B": "La opción \"El asegurado original solo puede demandar al reasegurador ante los tribunales de Londres y…\" contraviene Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas, ya que las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.).",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el… (Criterio seg-43-D)."
     }
   },
   {
@@ -3218,8 +3218,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.). Si el beneficiario no formula el reclamo formal dentro del plazo de vigencia o del término adicional expresamente estipulado, la obligación de la afianzadora caduca por ministerio de ley.",
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
+      "A": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada… (Criterio seg-44-A).",
+      "B": "La opción \"El dinero del seguro pasa a ser propiedad definitiva del empleador para comprar equipo de…\" contraviene Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas, ya que las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.).",
       "C": "La aseguradora no puede apropiarse del beneficio devengado por la contingencia cubierta.",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
@@ -3241,7 +3241,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado… (Criterio seg-45-B).",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
       "D": "El seguro de daños sobre bienes no puede mutar por voluntad unilateral en seguro de vida personal."
     }
@@ -3263,8 +3263,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
       "A": "La mala fe y dolo en la declaración anulan el deber de cobertura; pagarlo premiaría el fraude procesal y contractual.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Cobrarle una multa de un dólar y duplicar de por vida la suma asegurada sin costo adicional\" contraviene Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas, ya que las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.).",
+      "C": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta… (Criterio seg-46-C).",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
   },
@@ -3285,9 +3285,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Permite el cobro directo e inmediato a la afianzadora sin persecución previa de bienes del deudor.",
+      "B": "La opción \"La fianza se vuelve nula porque el Código de Comercio prohíbe la renuncia al beneficio de…\" contraviene Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas, ya que las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.).",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago… (Criterio seg-47-D)."
     }
   },
   {
@@ -3306,8 +3306,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.). Si el beneficiario no formula el reclamo formal dentro del plazo de vigencia o del término adicional expresamente estipulado, la obligación de la afianzadora caduca por ministerio de ley.",
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
+      "A": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros… (Criterio seg-48-A).",
+      "B": "La opción \"Financiar las fiestas de fin de año y banquetes corporativos de los accionistas de la…\" contraviene Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas, ya que las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) (Criterio seg-48-B).",
       "C": "Los fondos de reservas técnicas no sufragan gastos operativos de entidades reguladoras estatales.",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
@@ -3329,7 +3329,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el… (Criterio seg-49-B).",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
       "D": "El reaseguro es una herramienta legal y obligatoria de estabilidad prudencial promovida por la SSF."
     }
@@ -3351,8 +3351,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas.",
     "distractorRationale": {
       "A": "El empleador contratante no tiene derecho al beneficio indemnity del seguro de vida de sus trabajadores.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"La aseguradora retiene el 100% del capital y queda exonerada de realizar cualquier desembolso…\" contraviene Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas, ya que las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) (Criterio seg-50-B).",
+      "C": "Fundamento normativo (Art. 1545 del Código de Comercio de El Salvador; Ley de Compras Públicas): Las fianzas mercantiles están sujetas a plazos fatales de caducidad fijados en la póliza y la ley (Art. 1545 C.Com.) — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada… (Criterio seg-50-C).",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
   },
@@ -3373,9 +3373,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. El interés asegurable es el presupuesto causal indispensable del seguro de daños bajo el Art. 1353 C.Com.",
+      "B": "La opción \"La aseguradora debe cobrar el triple de prima y transferir la propiedad del edificio al…\" contraviene Arts. 1458 y 1459 del Código de Comercio de El Salvador, ya que en los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre…",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado…"
     }
   },
   {
@@ -3394,8 +3394,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre cualquier otro acreedor del asegurado, debiendo la aseguradora pagar directamente al tercero afectado para extinguir el daño.",
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
+      "A": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta…",
+      "B": "La opción \"Pagar el 100% de la cuenta médica y felicitar al asegurado por haber ocultado su condición con…\" contraviene Arts. 1458 y 1459 del Código de Comercio de El Salvador, ya que en los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre…",
       "C": "No existen multas testimoniales de un dólar ni aumentos de suma como sanción al infractor.",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
@@ -3417,7 +3417,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago…",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
       "D": "La fianza mercantil no está supeditada al deceso del deudor principal sino a su incumplimiento contractual."
     }
@@ -3439,8 +3439,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "Las reservas técnicas son pasivos patrimoniales de estricta afectación para pago de siniestros, no gastos suntuarios.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Pagar únicamente los sueldos atrasados del personal de limpieza de la Superintendencia del…\" contraviene Arts. 1458 y 1459 del Código de Comercio de El Salvador, ya que en los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre…",
+      "C": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros…",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
   },
@@ -3461,9 +3461,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Recoge el principio general del Art. 1548 C.Com.: inoponibilidad de acción directa salvo cut-through.",
+      "B": "La opción \"El asegurado original solo puede demandar al reasegurador ante los tribunales de Londres y…\" contraviene Arts. 1458 y 1459 del Código de Comercio de El Salvador, ya que en los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre…",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el…"
     }
   },
   {
@@ -3482,8 +3482,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre cualquier otro acreedor del asegurado, debiendo la aseguradora pagar directamente al tercero afectado para extinguir el daño.",
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
+      "A": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada…",
+      "B": "La opción \"El dinero del seguro pasa a ser propiedad definitiva del empleador para comprar equipo de…\" contraviene Arts. 1458 y 1459 del Código de Comercio de El Salvador, ya que en los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre…",
       "C": "La aseguradora no puede apropiarse del beneficio devengado por la contingencia cubierta.",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
@@ -3505,7 +3505,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado… (Criterio seg-57-B).",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
       "D": "El seguro de daños sobre bienes no puede mutar por voluntad unilateral en seguro de vida personal."
     }
@@ -3527,8 +3527,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "La mala fe y dolo en la declaración anulan el deber de cobertura; pagarlo premiaría el fraude procesal y contractual.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Cobrarle una multa de un dólar y duplicar de por vida la suma asegurada sin costo adicional\" contraviene Arts. 1458 y 1459 del Código de Comercio de El Salvador, ya que en los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre…",
+      "C": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta… (Criterio seg-58-C).",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
   },
@@ -3549,9 +3549,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Permite el cobro directo e inmediato a la afianzadora sin persecución previa de bienes del deudor.",
+      "B": "La opción \"La fianza se vuelve nula porque el Código de Comercio prohíbe la renuncia al beneficio de…\" contraviene Arts. 1458 y 1459 del Código de Comercio de El Salvador, ya que en los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre…",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago… (Criterio seg-59-D)."
     }
   },
   {
@@ -3570,8 +3570,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre cualquier otro acreedor del asegurado, debiendo la aseguradora pagar directamente al tercero afectado para extinguir el daño.",
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
+      "A": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros… (Criterio seg-60-A).",
+      "B": "La opción \"Financiar las fiestas de fin de año y banquetes corporativos de los accionistas de la…\" contraviene Arts. 1458 y 1459 del Código de Comercio de El Salvador, ya que en los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre…",
       "C": "Los fondos de reservas técnicas no sufragan gastos operativos de entidades reguladoras estatales.",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
@@ -3593,7 +3593,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el… (Criterio seg-61-B).",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
       "D": "El reaseguro es una herramienta legal y obligatoria de estabilidad prudencial promovida por la SSF."
     }
@@ -3615,8 +3615,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "El empleador contratante no tiene derecho al beneficio indemnity del seguro de vida de sus trabajadores.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"La aseguradora retiene el 100% del capital y queda exonerada de realizar cualquier desembolso…\" contraviene Arts. 1458 y 1459 del Código de Comercio de El Salvador, ya que en los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre…",
+      "C": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada… (Criterio seg-62-C).",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
   },
@@ -3637,9 +3637,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. El interés asegurable es el presupuesto causal indispensable del seguro de daños bajo el Art. 1353 C.Com.",
+      "B": "La opción \"La aseguradora debe cobrar el triple de prima y transferir la propiedad del edificio al…\" contraviene Arts. 1458 y 1459 del Código de Comercio de El Salvador, ya que en los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… (Criterio seg-63-B).",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado… (Criterio seg-63-D)."
     }
   },
   {
@@ -3658,8 +3658,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre cualquier otro acreedor del asegurado, debiendo la aseguradora pagar directamente al tercero afectado para extinguir el daño.",
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
+      "A": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta… (Criterio seg-64-A).",
+      "B": "La opción \"Pagar el 100% de la cuenta médica y felicitar al asegurado por haber ocultado su condición con…\" contraviene Arts. 1458 y 1459 del Código de Comercio de El Salvador, ya que en los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… (Criterio seg-64-B).",
       "C": "No existen multas testimoniales de un dólar ni aumentos de suma como sanción al infractor.",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
@@ -3681,7 +3681,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1458 y 1459 del Código de Comercio de El Salvador.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Arts. 1458 y 1459 del Código de Comercio de El Salvador): En los seguros de responsabilidad civil, el Art. 1458 C.Com. consagra el privilegio legal del tercero damnificado: el crédito de la víctima sobre la indemnización goza de preferencia absoluta sobre… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago… (Criterio seg-65-B).",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
       "D": "La fianza mercantil no está supeditada al deceso del deudor principal sino a su incumplimiento contractual."
     }
@@ -3703,8 +3703,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
       "A": "Las reservas técnicas son pasivos patrimoniales de estricta afectación para pago de siniestros, no gastos suntuarios.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Pagar únicamente los sueldos atrasados del personal de limpieza de la Superintendencia del…\" contraviene Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos, ya que bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente…",
+      "C": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros…",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
   },
@@ -3725,9 +3725,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Recoge el principio general del Art. 1548 C.Com.: inoponibilidad de acción directa salvo cut-through.",
+      "B": "La opción \"El asegurado original solo puede demandar al reasegurador ante los tribunales de Londres y…\" contraviene Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos, ya que bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente…",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el…"
     }
   },
   {
@@ -3746,8 +3746,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente ($20,000 USD) es entregado íntegramente a los beneficiarios secundarios o herederos del deudor.",
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
+      "A": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada…",
+      "B": "La opción \"El dinero del seguro pasa a ser propiedad definitiva del empleador para comprar equipo de…\" contraviene Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos, ya que bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente…",
       "C": "La aseguradora no puede apropiarse del beneficio devengado por la contingencia cubierta.",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
@@ -3769,7 +3769,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado…",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
       "D": "El seguro de daños sobre bienes no puede mutar por voluntad unilateral en seguro de vida personal."
     }
@@ -3791,8 +3791,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
       "A": "La mala fe y dolo en la declaración anulan el deber de cobertura; pagarlo premiaría el fraude procesal y contractual.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Cobrarle una multa de un dólar y duplicar de por vida la suma asegurada sin costo adicional\" contraviene Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos, ya que bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente…",
+      "C": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta…",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
   },
@@ -3813,9 +3813,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Permite el cobro directo e inmediato a la afianzadora sin persecución previa de bienes del deudor.",
+      "B": "La opción \"La fianza se vuelve nula porque el Código de Comercio prohíbe la renuncia al beneficio de…\" contraviene Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos, ya que bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente…",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago…"
     }
   },
   {
@@ -3834,8 +3834,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente ($20,000 USD) es entregado íntegramente a los beneficiarios secundarios o herederos del deudor.",
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
+      "A": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros… (Criterio seg-72-A).",
+      "B": "La opción \"Financiar las fiestas de fin de año y banquetes corporativos de los accionistas de la…\" contraviene Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos, ya que bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente…",
       "C": "Los fondos de reservas técnicas no sufragan gastos operativos de entidades reguladoras estatales.",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
@@ -3857,7 +3857,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el… (Criterio seg-73-B).",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
       "D": "El reaseguro es una herramienta legal y obligatoria de estabilidad prudencial promovida por la SSF."
     }
@@ -3879,8 +3879,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
       "A": "El empleador contratante no tiene derecho al beneficio indemnity del seguro de vida de sus trabajadores.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"La aseguradora retiene el 100% del capital y queda exonerada de realizar cualquier desembolso…\" contraviene Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos, ya que bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente…",
+      "C": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada… (Criterio seg-74-C).",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
   },
@@ -3901,9 +3901,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. El interés asegurable es el presupuesto causal indispensable del seguro de daños bajo el Art. 1353 C.Com.",
+      "B": "La opción \"La aseguradora debe cobrar el triple de prima y transferir la propiedad del edificio al…\" contraviene Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos, ya que bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente…",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado… (Criterio seg-75-D)."
     }
   },
   {
@@ -3922,8 +3922,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente ($20,000 USD) es entregado íntegramente a los beneficiarios secundarios o herederos del deudor.",
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
+      "A": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta… (Criterio seg-76-A).",
+      "B": "La opción \"Pagar el 100% de la cuenta médica y felicitar al asegurado por haber ocultado su condición con…\" contraviene Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos, ya que bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente…",
       "C": "No existen multas testimoniales de un dólar ni aumentos de suma como sanción al infractor.",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
@@ -3945,7 +3945,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago… (Criterio seg-77-B).",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
       "D": "La fianza mercantil no está supeditada al deceso del deudor principal sino a su incumplimiento contractual."
     }
@@ -3967,8 +3967,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
       "A": "Las reservas técnicas son pasivos patrimoniales de estricta afectación para pago de siniestros, no gastos suntuarios.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Pagar únicamente los sueldos atrasados del personal de limpieza de la Superintendencia del…\" contraviene Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos, ya que bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… (Criterio seg-78-B).",
+      "C": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros… (Criterio seg-78-C).",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
   },
@@ -3989,9 +3989,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Recoge el principio general del Art. 1548 C.Com.: inoponibilidad de acción directa salvo cut-through.",
+      "B": "La opción \"El asegurado original solo puede demandar al reasegurador ante los tribunales de Londres y…\" contraviene Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos, ya que bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… (Criterio seg-79-B).",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el… (Criterio seg-79-D)."
     }
   },
   {
@@ -4010,8 +4010,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente ($20,000 USD) es entregado íntegramente a los beneficiarios secundarios o herederos del deudor.",
     "legalBasis": "Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
+      "A": "Fundamento normativo (Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos): Bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada… (Criterio seg-80-A).",
+      "B": "La opción \"El dinero del seguro pasa a ser propiedad definitiva del empleador para comprar equipo de…\" contraviene Arts. 1358 y 1359 del Código de Comercio de El Salvador; Ley de Bancos, ya que bajo la cesión preferencial de derechos, la aseguradora liquida con prioridad absoluta el saldo insoluto de la deuda ($60,000 USD) al banco para cancelar la hipoteca, y el excedente neto remanente… (Criterio seg-80-B).",
       "C": "La aseguradora no puede apropiarse del beneficio devengado por la contingencia cubierta.",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
@@ -4033,7 +4033,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado…",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
       "D": "El seguro de daños sobre bienes no puede mutar por voluntad unilateral en seguro de vida personal."
     }
@@ -4055,8 +4055,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "La mala fe y dolo en la declaración anulan el deber de cobertura; pagarlo premiaría el fraude procesal y contractual.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Cobrarle una multa de un dólar y duplicar de por vida la suma asegurada sin costo adicional\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no…",
+      "C": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta…",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
   },
@@ -4077,9 +4077,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Permite el cobro directo e inmediato a la afianzadora sin persecución previa de bienes del deudor.",
+      "B": "La opción \"La fianza se vuelve nula porque el Código de Comercio prohíbe la renuncia al beneficio de…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no…",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago…"
     }
   },
   {
@@ -4098,8 +4098,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no puestas cuando vulneran la igualdad procesal del asegurado, manteniéndose expedita la vía jurisdiccional ordinaria ante los Juzgados de lo Mercantil.",
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
+      "A": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros…",
+      "B": "La opción \"Financiar las fiestas de fin de año y banquetes corporativos de los accionistas de la…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no…",
       "C": "Los fondos de reservas técnicas no sufragan gastos operativos de entidades reguladoras estatales.",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
@@ -4121,7 +4121,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el…",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
       "D": "El reaseguro es una herramienta legal y obligatoria de estabilidad prudencial promovida por la SSF."
     }
@@ -4143,8 +4143,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "El empleador contratante no tiene derecho al beneficio indemnity del seguro de vida de sus trabajadores.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"La aseguradora retiene el 100% del capital y queda exonerada de realizar cualquier desembolso…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no…",
+      "C": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada…",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
   },
@@ -4165,9 +4165,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. El interés asegurable es el presupuesto causal indispensable del seguro de daños bajo el Art. 1353 C.Com.",
+      "B": "La opción \"La aseguradora debe cobrar el triple de prima y transferir la propiedad del edificio al…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no…",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado… (Criterio seg-87-D)."
     }
   },
   {
@@ -4186,8 +4186,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no puestas cuando vulneran la igualdad procesal del asegurado, manteniéndose expedita la vía jurisdiccional ordinaria ante los Juzgados de lo Mercantil.",
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
+      "A": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta… (Criterio seg-88-A).",
+      "B": "La opción \"Pagar el 100% de la cuenta médica y felicitar al asegurado por haber ocultado su condición con…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no…",
       "C": "No existen multas testimoniales de un dólar ni aumentos de suma como sanción al infractor.",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
@@ -4209,7 +4209,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago… (Criterio seg-89-B).",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
       "D": "La fianza mercantil no está supeditada al deceso del deudor principal sino a su incumplimiento contractual."
     }
@@ -4231,8 +4231,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "Las reservas técnicas son pasivos patrimoniales de estricta afectación para pago de siniestros, no gastos suntuarios.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Pagar únicamente los sueldos atrasados del personal de limpieza de la Superintendencia del…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no…",
+      "C": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros… (Criterio seg-90-C).",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
   },
@@ -4253,9 +4253,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Recoge el principio general del Art. 1548 C.Com.: inoponibilidad de acción directa salvo cut-through.",
+      "B": "La opción \"El asegurado original solo puede demandar al reasegurador ante los tribunales de Londres y…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no…",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el… (Criterio seg-91-D)."
     }
   },
   {
@@ -4274,8 +4274,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no puestas cuando vulneran la igualdad procesal del asegurado, manteniéndose expedita la vía jurisdiccional ordinaria ante los Juzgados de lo Mercantil.",
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
+      "A": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada… (Criterio seg-92-A).",
+      "B": "La opción \"El dinero del seguro pasa a ser propiedad definitiva del empleador para comprar equipo de…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no…",
       "C": "La aseguradora no puede apropiarse del beneficio devengado por la contingencia cubierta.",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
@@ -4297,7 +4297,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado… (Criterio seg-93-B).",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
       "D": "El seguro de daños sobre bienes no puede mutar por voluntad unilateral en seguro de vida personal."
     }
@@ -4319,8 +4319,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "La mala fe y dolo en la declaración anulan el deber de cobertura; pagarlo premiaría el fraude procesal y contractual.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"Cobrarle una multa de un dólar y duplicar de por vida la suma asegurada sin costo adicional\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… (Criterio seg-94-B).",
+      "C": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta… (Criterio seg-94-C).",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }
   },
@@ -4341,9 +4341,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "Esa es la consecuencia de la excusión plena; la renuncia al beneficio existe precisamente para evitar juicios previos dilatorios.",
-      "B": "Respuesta correcta. Permite el cobro directo e inmediato a la afianzadora sin persecución previa de bienes del deudor.",
+      "B": "La opción \"La fianza se vuelve nula porque el Código de Comercio prohíbe la renuncia al beneficio de…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… (Criterio seg-95-B).",
       "C": "El derecho mercantil salvadoreño autoriza plenamente la renuncia de excusión en contratos de fianza corporativa.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — La renuncia expresa al beneficio de excusión faculta al acreedor beneficiario (MOP) a requerir el pago… (Criterio seg-95-D)."
     }
   },
   {
@@ -4362,8 +4362,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no puestas cuando vulneran la igualdad procesal del asegurado, manteniéndose expedita la vía jurisdiccional ordinaria ante los Juzgados de lo Mercantil.",
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Define con exactitud técnica la naturaleza y finalidad actuarial de la provisión IBNR.",
+      "A": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — Constituir un fondo actuarial prudencial obligatorio para respaldar financieramente aquellos siniestros… (Criterio seg-96-A).",
+      "B": "La opción \"Financiar las fiestas de fin de año y banquetes corporativos de los accionistas de la…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… (Criterio seg-96-B).",
       "C": "Los fondos de reservas técnicas no sufragan gastos operativos de entidades reguladoras estatales.",
       "D": "La IBNR fortalece la solvencia de la aseguradora para honrar coberturas, nunca para eludirlas."
     }
@@ -4385,7 +4385,7 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "El reaseguro es una transferencia mercantil de riesgos financieros entre aseguradores, ajeno a mandatos penales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado al Código de Comercio salvadoreño.",
+      "B": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — El contrato de reaseguro vincula exclusivamente a la aseguradora directa con el reasegurador; por tanto, el… (Criterio seg-97-B).",
       "C": "La jurisdicción para el reclamo del asegurado es la fijada en la póliza directa ante tribunales salvadoreños.",
       "D": "El reaseguro es una herramienta legal y obligatoria de estabilidad prudencial promovida por la SSF."
     }
@@ -4407,8 +4407,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "El empleador contratante no tiene derecho al beneficio indemnity del seguro de vida de sus trabajadores.",
-      "B": "Respuesta correcta. La ley mercantil transfiere la indemnización a los herederos legítimos en ausencia de beneficiario.",
-      "C": "Respuesta correcta. Aplica la garantía regulatoria y legal del régimen asegurador.",
+      "B": "La opción \"La aseguradora retiene el 100% del capital y queda exonerada de realizar cualquier desembolso…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… (Criterio seg-98-B).",
+      "C": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — A falta de designación testamentaria o contractual de beneficiario, el importe de la suma asegurada… (Criterio seg-98-C).",
       "D": "El pago del seguro exige acreditación jurídica sucesoria formal y fehaciente."
     }
   },
@@ -4429,9 +4429,9 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
       "A": "El pago de primas no subsana la ausencia de causa lícita e interés asegurable exigido por el ordenamiento mercantil.",
-      "B": "Respuesta correcta. El interés asegurable es el presupuesto causal indispensable del seguro de daños bajo el Art. 1353 C.Com.",
+      "B": "La opción \"La aseguradora debe cobrar el triple de prima y transferir la propiedad del edificio al…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… (Criterio seg-99-B).",
       "C": "Las compañías aseguradoras carecen de potestades para transferir la propiedad de inmuebles ajenos.",
-      "D": "Respuesta correcta. Fundamento normativo congruente con las directrices de la SSF."
+      "D": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — El contrato de seguro contra daños es nulo si en el momento de su celebración o del siniestro, el asegurado… (Criterio seg-99-D)."
     }
   },
   {
@@ -4450,8 +4450,8 @@ export const COMPLIANCE_QUESTIONS: ComplianceQuestion[] = [
     "explanation": "Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no puestas cuando vulneran la igualdad procesal del asegurado, manteniéndose expedita la vía jurisdiccional ordinaria ante los Juzgados de lo Mercantil.",
     "legalBasis": "Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con la normativa mercantil de seguros y criterios de la SSF.",
-      "B": "Respuesta correcta. Libera al asegurador por reticencia y falsa declaración de circunstancias esenciales del riesgo.",
+      "A": "Fundamento normativo (Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje): Las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… — Rescindir el contrato de seguro o quedar liberada de toda obligación de pago por reticencia o inexacta… (Criterio seg-100-A).",
+      "B": "La opción \"Pagar el 100% de la cuenta médica y felicitar al asegurado por haber ocultado su condición con…\" contraviene Art. 1361 Código de Comercio de El Salvador; Ley de Conciliación, Mediación y Arbitraje, ya que las cláusulas que impongan arbitrajes forzosos o limiten de forma abusiva el derecho de acceso a la justicia ordinaria mercantil garantizado por el Art. 1361 C.Com. y la Constitución se tienen por no… (Criterio seg-100-B).",
       "C": "No existen multas testimoniales de un dólar ni aumentos de suma como sanción al infractor.",
       "D": "La edad del asegurado no convalida el fraude por omisión premeditada de preexistencias médicas críticas."
     }

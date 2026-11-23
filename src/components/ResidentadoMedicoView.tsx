@@ -50,20 +50,29 @@ import { logQuestionError } from '../services/errorLogService';
 import { issueCertificate, AcademicCertificate } from '../services/certificateService';
 import { CertificateModal } from './CertificateModal';
 import { AudioSpeechButton } from './AudioSpeechButton';
+import { KaTeXMath } from '../utils/mathRenderer';
 
 interface ResidentadoMedicoViewProps {
+  initialTabMode?: 'thematic_units' | 'solved_cases' | 'simulator' | 'branching_cases';
   onOpenFlashcards?: (category?: string) => void;
   showToast?: (msg: string) => void;
   onOpenErrorNotebook?: () => void;
 }
 
 export const ResidentadoMedicoView: React.FC<ResidentadoMedicoViewProps> = ({
+  initialTabMode = 'thematic_units',
   onOpenFlashcards,
   showToast,
   onOpenErrorNotebook,
 }) => {
   // Navigation mode: 3 primary tabs + shock room view
-  const [activeTabMode, setActiveTabMode] = useState<'thematic_units' | 'solved_cases' | 'simulator' | 'branching_cases'>('thematic_units');
+  const [activeTabMode, setActiveTabMode] = useState<'thematic_units' | 'solved_cases' | 'simulator' | 'branching_cases'>(initialTabMode);
+
+  useEffect(() => {
+    if (initialTabMode) {
+      setActiveTabMode(initialTabMode);
+    }
+  }, [initialTabMode]);
 
   // ==========================================
   // TAB 1: UNIDADES TEMÁTICAS ESPECIALIZADAS
@@ -919,8 +928,8 @@ export const ResidentadoMedicoView: React.FC<ResidentadoMedicoViewProps> = ({
 
                   {/* Viñeta Clínica */}
                   <div className="text-sm text-[#111625] leading-relaxed font-sans-ui bg-[#FAF9F5]/50 p-4 rounded-lg border border-[#EAE8DD]">
-                    <p className="font-medium text-[#1E293B]">
-                      {q.clinicalVignette}
+                    <p className="font-medium text-[#1E293B] min-w-0 break-words">
+                      <KaTeXMath text={q.clinicalVignette} />
                     </p>
                   </div>
 
@@ -960,7 +969,9 @@ export const ResidentadoMedicoView: React.FC<ResidentadoMedicoViewProps> = ({
                           }`}>
                             {opt.key}
                           </span>
-                          <span className="flex-1 leading-snug">{opt.text}</span>
+                          <span className="flex-1 leading-snug min-w-0 break-words">
+                            <KaTeXMath text={opt.text} />
+                          </span>
                         </button>
                       );
                     })}
@@ -1004,8 +1015,8 @@ export const ResidentadoMedicoView: React.FC<ResidentadoMedicoViewProps> = ({
                         <span className="font-mono-exam font-bold text-[#0B1B3D] block">
                           Fundamento Clínico y Fisiopatológico:
                         </span>
-                        <p className="text-[#334155] leading-relaxed">
-                          {q.explanation}
+                        <p className="text-[#334155] leading-relaxed min-w-0 break-words">
+                          <KaTeXMath text={q.explanation} />
                         </p>
                       </div>
 
@@ -1015,8 +1026,8 @@ export const ResidentadoMedicoView: React.FC<ResidentadoMedicoViewProps> = ({
                           <Sparkles className="w-3.5 h-3.5 text-[#C59B27]" />
                           <span>Perla Clínica de Examen (High-Yield Takeaway):</span>
                         </div>
-                        <p className="leading-snug text-[#1E293B]">
-                          {q.keyTakeaway}
+                        <p className="leading-snug text-[#1E293B] min-w-0 break-words">
+                          <KaTeXMath text={q.keyTakeaway} />
                         </p>
                       </div>
 

@@ -28,12 +28,18 @@ import {
   INCONSTITUCIONALIDAD_STEP_GUIDE,
   INCONSTITUCIONALIDAD_RESOLVED_WORKSHOP_CASE,
   CONSTITUTION_LAW_BRANCHES,
+  LEGAL_BRANCH_QUIZ_QUESTIONS,
   LawBranch,
   LawArticleEntry,
   ConstitutionalBranchSolvedCase,
   ProceduralStepGuide,
   ProceduralWorkshopCase,
 } from '../data/constitucionalJurisprudenciaData';
+import {
+  SALVADORAN_LAW_FAMILIES,
+  SALVADORAN_LAWS_COMPENDIUM,
+  SalvadoranLawFamilyId,
+} from '../data/salvadoranLawsCompendium';
 import { AudioSpeechButton } from './AudioSpeechButton';
 
 // Re-export types for backward compatibility
@@ -41,8 +47,17 @@ export type { LawBranch, LawArticleEntry, ConstitutionalBranchSolvedCase };
 export { CONSTITUTION_LAW_BRANCHES };
 
 export const ConstitutionLawView: React.FC = () => {
-  // Navigation Tabs: 'branches' | 'casoteca' | 'talleres'
-  const [subTab, setSubTab] = useState<'branches' | 'casoteca' | 'talleres'>('branches');
+  // Navigation Tabs: 'branches' | 'compendio' | 'simulador' | 'casoteca' | 'talleres'
+  const [subTab, setSubTab] = useState<'branches' | 'compendio' | 'simulador' | 'casoteca' | 'talleres'>('branches');
+
+  // Compendio State
+  const [compendioFamilyFilter, setCompendioFamilyFilter] = useState<'all' | SalvadoranLawFamilyId>('all');
+  const [compendioSearch, setCompendioSearch] = useState<string>('');
+  const [expandedLawId, setExpandedLawId] = useState<string | null>('law-cn-1983');
+
+  // Simulador Jurídico State
+  const [simBranchFilter, setSimBranchFilter] = useState<string>('all');
+  const [simAnswers, setSimAnswers] = useState<Record<string, 'A' | 'B' | 'C' | 'D'>>({});
 
   // Workshop Sub-Tab
   const [workshopTab, setWorkshopTab] = useState<'amparo' | 'habeas-corpus' | 'inconstitucionalidad'>('amparo');
@@ -94,6 +109,37 @@ export const ConstitutionLawView: React.FC = () => {
       CONSTITUTION_LAW_BRANCHES[0]
     );
   }, [selectedBranchId]);
+
+  // Filtered Compendio Laws
+  const filteredCompendioLaws = useMemo(() => {
+    const q = compendioSearch.toLowerCase().trim();
+    return SALVADORAN_LAWS_COMPENDIUM.filter((law) => {
+      const matchesFamily = compendioFamilyFilter === 'all' || law.familyId === compendioFamilyFilter;
+      if (!q) return matchesFamily;
+      const matchesText =
+        law.title.toLowerCase().includes(q) ||
+        law.shortCode.toLowerCase().includes(q) ||
+        law.decree.toLowerCase().includes(q) ||
+        law.lastReform.toLowerCase().includes(q) ||
+        law.synthesis.toLowerCase().includes(q) ||
+        law.keyArticles.some((a) => a.toLowerCase().includes(q));
+      return matchesFamily && matchesText;
+    });
+  }, [compendioFamilyFilter, compendioSearch]);
+
+  // Filtered Simulador Questions
+  const filteredSimQuestions = useMemo(() => {
+    if (simBranchFilter === 'all') return LEGAL_BRANCH_QUIZ_QUESTIONS;
+    return LEGAL_BRANCH_QUIZ_QUESTIONS.filter((q) => q.branchId === simBranchFilter);
+  }, [simBranchFilter]);
+
+  const simBranchesList = useMemo(() => {
+    const map = new Map<string, string>();
+    LEGAL_BRANCH_QUIZ_QUESTIONS.forEach((q) => {
+      if (!map.has(q.branchId)) map.set(q.branchId, q.branchLabel);
+    });
+    return Array.from(map.entries());
+  }, []);
 
   const handleQuizOption = (caseId: string, optionKey: string) => {
     if (quizAnswers[caseId]) return;
@@ -168,6 +214,30 @@ export const ConstitutionLawView: React.FC = () => {
             >
               <BookOpen className="w-4 h-4" />
               <span>10 Ramas del Derecho & 50 Casos Resueltos</span>
+            </button>
+
+            <button
+              onClick={() => setSubTab('compendio')}
+              className={`px-4 py-2 rounded-lg font-bold transition-all cursor-pointer flex items-center gap-2 border ${
+                subTab === 'compendio'
+                  ? 'bg-[#C59B27] text-[#07132B] border-[#C59B27] shadow-md'
+                  : 'bg-[#07132B] text-[#CBD5E1] border-[#1E3A70] hover:bg-[#132A5C]'
+              }`}
+            >
+              <Scale className="w-4 h-4" />
+              <span>Compendio de Leyes Vigentes (El Salvador)</span>
+            </button>
+
+            <button
+              onClick={() => setSubTab('simulador')}
+              className={`px-4 py-2 rounded-lg font-bold transition-all cursor-pointer flex items-center gap-2 border ${
+                subTab === 'simulador'
+                  ? 'bg-[#C59B27] text-[#07132B] border-[#C59B27] shadow-md'
+                  : 'bg-[#07132B] text-[#CBD5E1] border-[#1E3A70] hover:bg-[#132A5C]'
+              }`}
+            >
+              <HelpCircle className="w-4 h-4" />
+              <span>Simulador Jurídico ({LEGAL_BRANCH_QUIZ_QUESTIONS.length})</span>
             </button>
 
             <button
@@ -948,6 +1018,279 @@ export const ConstitutionLawView: React.FC = () => {
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* ==================================================================== */}
+      {/* PESTAÑA: COMPENDIO DE LEYES VIGENTES (EL SALVADOR)                   */}
+      {/* ==================================================================== */}
+      {subTab === 'compendio' && (
+        <div className="space-y-6 animate-fade-in">
+          <div className="bg-white rounded-2xl border border-[#E5E3D8] p-4 sm:p-5 shadow-corporate-subtle space-y-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div>
+                <h3 className="text-lg font-editorial font-bold text-[#0B1B3D]">
+                  Compendio Integral de Códigos y Leyes Vigentes de El Salvador (2024–2026)
+                </h3>
+                <p className="text-xs text-[#475569]">
+                  {SALVADORAN_LAWS_COMPENDIUM.length} cuerpos normativos clasificados en {SALVADORAN_LAW_FAMILIES.length} familias jurídicas con reformas verificadas.
+                </p>
+              </div>
+              <div className="relative w-full sm:w-80">
+                <Search className="w-4 h-4 text-slate-400 absolute left-3 top-1/2 -translate-y-1/2" />
+                <input
+                  type="text"
+                  value={compendioSearch}
+                  onChange={(e) => setCompendioSearch(e.target.value)}
+                  placeholder="Buscar ley, decreto (ej. D.L. 905, 537/2026)..."
+                  className="w-full pl-9 pr-3 py-2 text-xs bg-white border border-[#E5E3D8] rounded-xl focus:outline-hidden focus:ring-2 focus:ring-[#0B1B3D] font-medium"
+                />
+              </div>
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={() => setCompendioFamilyFilter('all')}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold font-mono-exam transition-all cursor-pointer ${
+                  compendioFamilyFilter === 'all'
+                    ? 'bg-[#0B1B3D] text-[#FAF9F5]'
+                    : 'bg-[#FAF9F5] text-slate-700 border border-[#E5E3D8] hover:bg-slate-100'
+                }`}
+              >
+                Todas ({SALVADORAN_LAWS_COMPENDIUM.length})
+              </button>
+              {SALVADORAN_LAW_FAMILIES.map((fam) => {
+                const count = SALVADORAN_LAWS_COMPENDIUM.filter((l) => l.familyId === fam.id).length;
+                return (
+                  <button
+                    key={fam.id}
+                    type="button"
+                    onClick={() => setCompendioFamilyFilter(fam.id)}
+                    className={`px-3 py-1.5 rounded-lg text-xs font-bold font-mono-exam transition-all cursor-pointer ${
+                      compendioFamilyFilter === fam.id
+                        ? 'bg-[#0B1B3D] text-[#C59B27]'
+                        : 'bg-[#FAF9F5] text-slate-700 border border-[#E5E3D8] hover:bg-slate-100'
+                    }`}
+                  >
+                    {fam.shortName} ({count})
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+
+          <div className="space-y-3">
+            {filteredCompendioLaws.length === 0 ? (
+              <div className="bg-white rounded-2xl border border-[#E5E3D8] p-8 text-center text-xs text-slate-500">
+                No se encontraron leyes o decretos que coincidan con "{compendioSearch}".
+              </div>
+            ) : (
+              filteredCompendioLaws.map((law) => {
+                const isExpanded = expandedLawId === law.id;
+                const familyMeta = SALVADORAN_LAW_FAMILIES.find((f) => f.id === law.familyId);
+                return (
+                  <div
+                    key={law.id}
+                    className="bg-white rounded-2xl border border-[#E5E3D8] shadow-corporate-subtle overflow-hidden"
+                  >
+                    <button
+                      type="button"
+                      onClick={() => setExpandedLawId(isExpanded ? null : law.id)}
+                      className="w-full p-4 sm:p-5 text-left flex items-start justify-between gap-4 hover:bg-[#FAF9F5] transition-colors cursor-pointer"
+                    >
+                      <div className="space-y-1.5">
+                        <div className="flex items-center gap-2 flex-wrap">
+                          <span className="px-2 py-0.5 rounded-md text-[10px] font-mono-exam font-bold bg-[#0B1B3D] text-[#C59B27]">
+                            {law.shortCode}
+                          </span>
+                          <span
+                            className={`px-2 py-0.5 rounded-md text-[10px] font-mono-exam font-bold ${
+                              law.status === 'Reformada 2024–2026'
+                                ? 'bg-amber-100 text-amber-900 border border-amber-200'
+                                : 'bg-emerald-100 text-emerald-900 border border-emerald-200'
+                            }`}
+                          >
+                            {law.status}
+                          </span>
+                          {familyMeta && (
+                            <span className="text-[11px] font-mono-exam text-slate-500">
+                              {familyMeta.shortName}
+                            </span>
+                          )}
+                        </div>
+                        <h4 className="text-sm sm:text-base font-editorial font-bold text-[#0B1B3D]">
+                          {law.title}
+                        </h4>
+                        <p className="text-xs text-slate-600">
+                          <strong>Decreto:</strong> {law.decree} · <strong>Última reforma:</strong> {law.lastReform}
+                        </p>
+                      </div>
+                      <span className="text-slate-400 shrink-0 mt-1">
+                        {isExpanded ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
+                      </span>
+                    </button>
+
+                    {isExpanded && (
+                      <div className="px-4 sm:px-5 pb-5 pt-2 border-t border-[#E5E3D8] bg-[#FAF9F5]/60 space-y-3 text-xs">
+                        <div>
+                          <span className="font-mono-exam font-bold text-[#0B1B3D] block mb-1">
+                            SÍNTESIS DOCTRINARIA Y VIGENCIA:
+                          </span>
+                          <p className="text-[#334155] leading-relaxed">{law.synthesis}</p>
+                        </div>
+                        <div>
+                          <span className="font-mono-exam font-bold text-[#0B1B3D] block mb-1">
+                            ARTÍCULOS Y DISPOSICIONES CLAVE:
+                          </span>
+                          <ul className="list-disc pl-5 space-y-1 text-[#334155]">
+                            {law.keyArticles.map((art, idx) => (
+                              <li key={idx}>{art}</li>
+                            ))}
+                          </ul>
+                        </div>
+                        <div className="text-[11px] font-mono-exam text-[#0B1B3D] bg-white px-3 py-2 rounded-lg border border-[#E5E3D8]">
+                          <strong>Fuente Oficial:</strong> {law.officialSource}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                );
+              })
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* ==================================================================== */}
+      {/* PESTAÑA: SIMULADOR JURÍDICO INTEGRAL                                 */}
+      {/* ==================================================================== */}
+      {subTab === 'simulador' && (
+        <div className="space-y-6 animate-fade-in">
+          <div className="bg-white rounded-2xl border border-[#E5E3D8] p-4 sm:p-5 shadow-corporate-subtle space-y-3">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2">
+              <div>
+                <h3 className="text-lg font-editorial font-bold text-[#0B1B3D]">
+                  Simulador Jurídico Integral — Legislación Vigente de El Salvador (2024–2026)
+                </h3>
+                <p className="text-xs text-[#475569]">
+                  Evalúa tu dominio de las reformas constitucionales, penales, familiares, mercantiles y tecnológicas vigentes.
+                </p>
+              </div>
+              <button
+                type="button"
+                onClick={() => setSimAnswers({})}
+                className="px-3 py-1.5 rounded-lg text-xs font-mono-exam font-bold bg-[#FAF9F5] border border-[#E5E3D8] text-[#0B1B3D] hover:bg-slate-100 cursor-pointer self-start"
+              >
+                Reiniciar respuestas
+              </button>
+            </div>
+
+            <div className="flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={() => setSimBranchFilter('all')}
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold font-mono-exam cursor-pointer ${
+                  simBranchFilter === 'all'
+                    ? 'bg-[#0B1B3D] text-[#FAF9F5]'
+                    : 'bg-[#FAF9F5] text-slate-700 border border-[#E5E3D8]'
+                }`}
+              >
+                Todas las Ramas ({LEGAL_BRANCH_QUIZ_QUESTIONS.length})
+              </button>
+              {simBranchesList.map(([bId, bLabel]) => (
+                <button
+                  key={bId}
+                  type="button"
+                  onClick={() => setSimBranchFilter(bId)}
+                  className={`px-3 py-1.5 rounded-lg text-xs font-bold font-mono-exam cursor-pointer ${
+                    simBranchFilter === bId
+                      ? 'bg-[#0B1B3D] text-[#C59B27]'
+                      : 'bg-[#FAF9F5] text-slate-700 border border-[#E5E3D8]'
+                  }`}
+                >
+                  {bLabel}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          <div className="space-y-4">
+            {filteredSimQuestions.map((q, idx) => {
+              const selected = simAnswers[q.id];
+              const isAnswered = Boolean(selected);
+              const isCorrect = selected === q.correctAnswer;
+
+              return (
+                <div
+                  key={q.id}
+                  className="bg-white rounded-2xl border border-[#E5E3D8] p-4 sm:p-5 shadow-corporate-subtle space-y-3"
+                >
+                  <div className="flex items-center justify-between gap-2 flex-wrap">
+                    <span className="text-[11px] font-mono-exam font-bold px-2.5 py-0.5 rounded-md bg-[#0B1B3D] text-[#C59B27]">
+                      {q.branchLabel} · #{idx + 1}
+                    </span>
+                    <span className="text-[11px] font-mono-exam text-slate-500">{q.topic}</span>
+                  </div>
+
+                  <p className="text-sm font-semibold text-[#0B1B3D] leading-snug">{q.statement}</p>
+
+                  <div className="grid grid-cols-1 gap-2">
+                    {(['A', 'B', 'C', 'D'] as const).map((optKey) => {
+                      const isThisSelected = selected === optKey;
+                      const isThisCorrect = q.correctAnswer === optKey;
+                      let btnStyle = 'bg-[#FAF9F5] border-[#E5E3D8] text-[#1E293B] hover:bg-slate-100';
+                      if (isAnswered) {
+                        if (isThisCorrect) {
+                          btnStyle = 'bg-emerald-50 border-emerald-400 text-emerald-950 font-semibold';
+                        } else if (isThisSelected) {
+                          btnStyle = 'bg-rose-50 border-rose-400 text-rose-950';
+                        } else {
+                          btnStyle = 'bg-slate-50 border-slate-200 text-slate-500';
+                        }
+                      }
+
+                      return (
+                        <button
+                          key={optKey}
+                          type="button"
+                          disabled={isAnswered}
+                          onClick={() => setSimAnswers((prev) => ({ ...prev, [q.id]: optKey }))}
+                          className={`p-3 rounded-xl border text-left text-xs transition-all flex items-start gap-2.5 ${isAnswered ? 'cursor-default' : 'cursor-pointer'} ${btnStyle}`}
+                        >
+                          <span className="font-mono-exam font-bold shrink-0">{optKey}.</span>
+                          <span>{q.options[optKey]}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+
+                  {isAnswered && (
+                    <div
+                      className={`p-3.5 rounded-xl border text-xs space-y-2 ${
+                        isCorrect
+                          ? 'bg-emerald-50/70 border-emerald-300 text-emerald-950'
+                          : 'bg-amber-50/70 border-amber-300 text-amber-950'
+                      }`}
+                    >
+                      <div className="font-bold font-mono-exam">
+                        {isCorrect
+                          ? `✓ Correcto (${q.correctAnswer})`
+                          : `✕ Respuesta correcta: ${q.correctAnswer}`}
+                      </div>
+                      <p className="leading-relaxed">{q.explanation}</p>
+                      <p className="text-[11px] font-mono-exam opacity-90">
+                        <strong>Fundamento:</strong> {q.legalBasis}
+                      </p>
+                      <p className="text-[11px] italic opacity-90">
+                        <strong>Análisis de tu opción ({selected}):</strong> {q.distractorRationale[selected]}
+                      </p>
+                    </div>
+                  )}
+                </div>
+              );
+            })}
           </div>
         </div>
       )}

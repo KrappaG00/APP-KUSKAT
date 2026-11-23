@@ -102,7 +102,7 @@ export const DENGUE_TRIAGE_ALGORITHM: DengueTriageStep[] = [
     clinicalCriteria: [
       'Presencia de al menos uno de los siguientes signos de alarma:',
       '• Dolor abdominal intenso y continuo o dolor a la palpación',
-      '• Vómitos persistentes (>= 3 en 1 hora o 4 en 6 horas)',
+      '• Vómitos persistentes (≥ 3 en 1 hora o 4 en 6 horas)',
       '• Acumulación clínica de líquidos (ascitis, derrame pleural, edema pericárdico)',
       '• Sangrado activo de mucosas (epistaxis, gingivorragia, metrorragia)',
       '• Letargia, somnolencia extrema o irritabilidad',
@@ -121,11 +121,11 @@ export const DENGUE_TRIAGE_ALGORITHM: DengueTriageStep[] = [
     title: 'Dengue Grave (Emergencia Médica Vital - Choque en UCI)',
     clinicalCriteria: [
       'Extravasación severa de plasma que conduce a Choque Hipovolémico por Dengue:',
-      '• Presión de pulso diferencial convergente (<= 20 mmHg, ej. 90/75 mmHg)',
+      '• Presión de pulso diferencial convergente (≤ 20 mmHg, ej. 90/75 mmHg)',
       '• Frialdad periférica, llenado capilar lento (> 2 segundos), pulso filiforme',
       '• Dificultad respiratoria por derrame pleural masivo o ascitis a tensión',
       '• Sangrado clínicamente grave (hemorragia digestiva masiva)',
-      '• Daño orgánico severo: AST o ALT >= 1000 UI/L, encefalopatía, miocarditis o fallo renal agudo',
+      '• Daño orgánico severo: AST o ALT ≥ 1000 UI/L, encefalopatía, miocarditis o fallo renal agudo',
     ],
     immediateTherapy:
       'Expansión hemodinámica inmediata con bolos de cristaloides de 10 a 20 mL/kg en 15 a 30 minutos. Si no responde al primer o segundo bolo, evaluar uso de coloides o soporte inotrópico y transfusión de hemoderivados si hay hemorragia grave demostrada.',
@@ -189,7 +189,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalArea": "Identificación de Choque por Dengue (Presión de Pulso Convergente)",
     "statement": "Durante la evaluación de un adolescente de 14 años en la sala de observación de una UCSF con sospecha de dengue en su 5° día de evolución, el personal de enfermería reporta los siguientes signos vitales: Frecuencia Cardíaca: 125 lpm (taquicardia), Frecuencia Respiratoria: 26 rpm, Presión Arterial: 90/75 mmHg, extremidades frías y llenado capilar de 4 segundos. ¿Cómo se interpreta clínicamente este parámetro hemodinámico?",
     "options": {
-      "A": "Paciente en Choque Hipovolémico por Dengue (Grupo C) evidenciado por presión de pulso diferencial convergente (<= 20 mmHg: 90 - 75 = 15 mmHg) y perfusión deficiente, requiriendo bolos inmediatos de cristaloides a 10-20 mL/kg.",
+      "A": "Paciente en Choque Hipovolémico por Dengue (Grupo C) evidenciado por presión de pulso diferencial convergente (≤ 20 mmHg: 90 - 75 = 15 mmHg) y perfusión deficiente, requiriendo bolos inmediatos de cristaloides a 10-20 mL/kg.",
       "B": "Paciente estable en Grupo A que solo requiere descanso y un vaso de agua antes de enviarlo a su casa.",
       "C": "Paciente con hipertensión arterial secundaria que requiere diuréticos intravenosos inmediatos.",
       "D": "Parámetros completamente normales y esperados para un adolescente deportista."
@@ -198,7 +198,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalExplanation": "En el dengue, el choque compensado temprano se manifiesta de forma clásica por una presión de pulso convergente (diferencia entre presión sistólica y diastólica menor o igual a 20 mmHg; en este caso 90 - 75 = 15 mmHg). Esto se debe a vasoconstricción periférica refleja compensatoria (que eleva la diastólica) ante la caída masiva del volumen intravascular. Junto al llenado capilar lento (> 2 s) y taquicardia, clasifica al paciente en Grupo C (Dengue Grave) y exige reanimación con bolos endovenosos inmediatos de cristaloides.",
     "officialGuidelineRef": "Lineamientos Técnicos del Dengue, MINSAL, Criterios de Choque Grupo C.",
     "distractorRationale": {
-      "A": "Correcto. La presión de pulso <= 20 mmHg y la frialdad periférica definen el choque por dengue.",
+      "A": "Correcto. La presión de pulso ≤ 20 mmHg y la frialdad periférica definen el choque por dengue.",
       "B": "Enviar a casa a este paciente resultaría en colapso cardiovascular irreversible y muerte.",
       "C": "Administrar diuréticos profundizaría la hipovolemia acelerando el paro cardíaco.",
       "D": "La taquicardia y la presión convergente son inequívocamente patológicas."
@@ -263,7 +263,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "Restricción hídrica absoluta por vía oral y parenteral para no forzar los riñones."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "El esquema normado para dengue Grupo B con signos de alarma dicta iniciar con cristaloides isotónicos (Lactato Ringer o SSN 0.9%) a 5-7 mL/kg/h por 2-4 horas. Si el paciente mejora clínicamente y la diuresis es >= 1 mL/kg/h, se reduce a 3-5 mL/kg/h por 2-4 horas y luego a 2-3 mL/kg/h por 24-48 horas. Siempre deben evitarse las soluciones hipotónicas.",
+    "clinicalExplanation": "El esquema normado para dengue Grupo B con signos de alarma dicta iniciar con cristaloides isotónicos (Lactato Ringer o SSN 0.9%) a 5-7 mL/kg/h por 2-4 horas. Si el paciente mejora clínicamente y la diuresis es ≥ 1 mL/kg/h, se reduce a 3-5 mL/kg/h por 2-4 horas y luego a 2-3 mL/kg/h por 24-48 horas. Siempre deben evitarse las soluciones hipotónicas.",
     "officialGuidelineRef": "Lineamientos Técnicos para la Prevención y Tratamiento del Dengue, MINSAL, Esquema de Fluidoterapia Grupo B.",
     "distractorRationale": {
       "A": "Correcto. Infusión reglada de cristaloides a 5-7 mL/kg/h para compensar la fuga plasmática.",
@@ -307,10 +307,10 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "El hematocrito no tiene ninguna correlación con la fuga de plasma en dengue."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "El hematocrito es el biomarcador indirecto por excelencia del volumen intravascular en dengue. Una elevación >= 20% sobre el hematocrito basal indica extravasación plasmática activa grave. Por ejemplo, en un niño cuyo basal es 35%, un hematocrito >= 42% confirma hemoconcentración crítica y necesidad de ajuste intensivo de fluidos.",
+    "clinicalExplanation": "El hematocrito es el biomarcador indirecto por excelencia del volumen intravascular en dengue. Una elevación ≥ 20% sobre el hematocrito basal indica extravasación plasmática activa grave. Por ejemplo, en un niño cuyo basal es 35%, un hematocrito ≥ 42% confirma hemoconcentración crítica y necesidad de ajuste intensivo de fluidos.",
     "officialGuidelineRef": "Guía Clínica de Dengue, MINSAL / OPS, Monitorización Laboratorial.",
     "distractorRationale": {
-      "A": "Correcto. El incremento >= 20% es el estándar internacional de hemoconcentración por dengue.",
+      "A": "Correcto. El incremento ≥ 20% es el estándar internacional de hemoconcentración por dengue.",
       "B": "Variación dentro del error analítico habitual.",
       "C": "Umbral insuficiente para definir extravasación grave.",
       "D": "El hematocrito es fundamental para monitorizar la fluidoterapia en dengue."
@@ -419,10 +419,10 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "Solo la fosfatasa alcalina define dengue grave si supera 100 UI/L."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "El dengue puede causar hepatitis aguda por replicación viral directa en hepatocitos y células de Kupffer, así como por choque e hipoperfusión. La definición de Dengue Grave por daño orgánico severo estipula una elevación de AST (TGO) o ALT (TGP) >= 1,000 UI/L, lo cual se asocia a insuficiencia hepática aguda y coagulopatía.",
+    "clinicalExplanation": "El dengue puede causar hepatitis aguda por replicación viral directa en hepatocitos y células de Kupffer, así como por choque e hipoperfusión. La definición de Dengue Grave por daño orgánico severo estipula una elevación de AST (TGO) o ALT (TGP) ≥ 1,000 UI/L, lo cual se asocia a insuficiencia hepática aguda y coagulopatía.",
     "officialGuidelineRef": "Lineamientos Técnicos del Dengue, MINSAL, Criterios de Daño Severo a Órganos.",
     "distractorRationale": {
-      "A": "Correcto. Transaminasas >= 1000 UI/L es el criterio cuantitativo oficial de daño hepático grave.",
+      "A": "Correcto. Transaminasas ≥ 1000 UI/L es el criterio cuantitativo oficial de daño hepático grave.",
       "B": "Elevaciones leves a moderadas (< 5 veces el límite superior) son muy comunes y no definen dengue grave.",
       "C": "Valores normales o limítrofes.",
       "D": "La fosfatasa alcalina no es el marcador de daño necroinflamatorio hepatocelular en dengue."
@@ -811,16 +811,16 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalArea": "Criterios Diagnósticos Confirmatorios de Hipertensión Arterial",
     "statement": "De acuerdo con la Guía Clínica de Diagnóstico y Tratamiento de la Hipertensión Arterial en el Primer Nivel de Atención del MINSAL, ¿cuál de los siguientes criterios confirma el diagnóstico de HTA en un paciente adulto en la consulta ambulatoria?",
     "options": {
-      "A": "Cifras de Presión Arterial Sistólica >= 140 mmHg y/o Presión Arterial Diastólica >= 90 mmHg registradas en al menos dos consultas médicas separadas por 1 a 2 semanas, con técnica estandarizada.",
+      "A": "Cifras de Presión Arterial Sistólica ≥ 140 mmHg y/o Presión Arterial Diastólica ≥ 90 mmHg registradas en al menos dos consultas médicas separadas por 1 a 2 semanas, con técnica estandarizada.",
       "B": "Una sola toma de PA de 135/85 mmHg tras subir apresuradamente las escaleras de la UCSF.",
       "C": "Tener antecedente familiar de hipertensión aunque las tomas actuales de PA sean de 115/75 mmHg.",
       "D": "Un único registro de PA sistólica de 125 mmHg con frecuencia cardíaca de 70 lpm."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "El diagnóstico de HTA exige corroborar la persistencia de la elevación tensional (PAS >= 140 mmHg y/o PAD >= 90 mmHg) en al menos dos ocasiones distintas separadas por 1 a 2 semanas, utilizando un esfigmomanómetro calibrado y técnica adecuada (paciente sentado, reposo previo de 5 min, vejiga vacía, manguito apropiado). La excepción es la crisis hipertensiva o PA inicial >= 180/110 mmHg con daño de órgano diana, donde se diagnostica de inmediato.",
+    "clinicalExplanation": "El diagnóstico de HTA exige corroborar la persistencia de la elevación tensional (PAS ≥ 140 mmHg y/o PAD ≥ 90 mmHg) en al menos dos ocasiones distintas separadas por 1 a 2 semanas, utilizando un esfigmomanómetro calibrado y técnica adecuada (paciente sentado, reposo previo de 5 min, vejiga vacía, manguito apropiado). La excepción es la crisis hipertensiva o PA inicial ≥ 180/110 mmHg con daño de órgano diana, donde se diagnostica de inmediato.",
     "officialGuidelineRef": "Guía Clínica de Diagnóstico y Tratamiento de la Hipertensión Arterial en el Primer Nivel de Atención, MINSAL.",
     "distractorRationale": {
-      "A": "Correcto. La confirmación en al menos dos consultas separadas con cifras >= 140/90 mmHg es el estándar normado.",
+      "A": "Correcto. La confirmación en al menos dos consultas separadas con cifras ≥ 140/90 mmHg es el estándar normado.",
       "B": "Una toma aislada tras ejercicio no cumple los criterios diagnósticos y refleja respuesta fisiológica.",
       "C": "El antecedente familiar es un factor de riesgo cardiovascular, no un criterio diagnóstico.",
       "D": "Cifras dentro del rango de presión arterial normal-elevada."
@@ -862,7 +862,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "Tomografía por emisión de positrones (PET-CT) de cuerpo entero."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "El electrocardiograma de 12 derivaciones es el estudio inicial costo-efectivo indispensable en todo paciente hipertenso. Permite evaluar repercusión a órgano diana (hipertrofia ventricular izquierda mediante el índice de Sokolow-Lyon: onda S en V1 + onda R en V5 o V6 >= 35 mm), así como descartar isquemia silente, sobrecarga sistólica o trastornos de conducción.",
+    "clinicalExplanation": "El electrocardiograma de 12 derivaciones es el estudio inicial costo-efectivo indispensable en todo paciente hipertenso. Permite evaluar repercusión a órgano diana (hipertrofia ventricular izquierda mediante el índice de Sokolow-Lyon: onda S en V1 + onda R en V5 o V6 ≥ 35 mm), así como descartar isquemia silente, sobrecarga sistólica o trastornos de conducción.",
     "officialGuidelineRef": "Guía Clínica de Diagnóstico de HTA en Atención Primaria, MINSAL.",
     "distractorRationale": {
       "A": "Correcto. El ECG es accesible, no invasivo y detecta hipertrofia ventricular y cardiopatía hipertensiva.",
@@ -884,13 +884,13 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "Hipotensión Ortostática Grave que requiere expansores plasmáticos inmediatos."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "Las guías clínicas clasifican la PA en: Normal (< 120/80 mmHg), Elevada (120-129/< 80 mmHg), HTA Estadio 1 (130-139 / 80-89 mmHg) e HTA Estadio 2 (>= 140 / >= 90 mmHg). En Estadio 1, la conducta inicial en pacientes de bajo riesgo cardiovascular incluye cambios terapéuticos en el estilo de vida durante 3 a 6 meses; si el riesgo cardiovascular es alto o no hay meta, se añade farmacoterapia.",
+    "clinicalExplanation": "Las guías clínicas clasifican la PA en: Normal (< 120/80 mmHg), Elevada (120-129/< 80 mmHg), HTA Estadio 1 (130-139 / 80-89 mmHg) e HTA Estadio 2 (≥ 140 / ≥ 90 mmHg). En Estadio 1, la conducta inicial en pacientes de bajo riesgo cardiovascular incluye cambios terapéuticos en el estilo de vida durante 3 a 6 meses; si el riesgo cardiovascular es alto o no hay meta, se añade farmacoterapia.",
     "officialGuidelineRef": "Guía Clínica de Hipertensión Arterial, MINSAL, Clasificación.",
     "distractorRationale": {
       "A": "Correcto. Cifras entre 130-139 sistólica y 80-89 diastólica corresponden a HTA Estadio 1.",
       "B": "Presión óptima es < 120/80 mmHg.",
       "C": "Emergencia hipertensiva se define con cifras > 180/120 con daño agudo de órgano diana.",
-      "D": "Hipotensión ortostática es una caída de >= 20 mmHg sistólica o >= 10 mmHg diastólica al ponerse de pie."
+      "D": "Hipotensión ortostática es una caída de ≥ 20 mmHg sistólica o ≥ 10 mmHg diastólica al ponerse de pie."
     }
   },
   {
@@ -1100,7 +1100,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalArea": "Hipertensión Sistólica Aislada en el Adulto Mayor",
     "statement": "En un paciente de 75 años con registro de PA en 155/75 mmHg, ¿cómo se denomina este fenotipo clínico y cuál es su principal mecanismo fisiopatológico subyacente?",
     "options": {
-      "A": "Hipertensión Sistólica Aislada (PAS >= 140 con PAD < 90 mmHg), producida por el envejecimiento vascular, aterosclerosis y pérdida de la distensibilidad elástica de la aorta y grandes arterias.",
+      "A": "Hipertensión Sistólica Aislada (PAS ≥ 140 con PAD < 90 mmHg), producida por el envejecimiento vascular, aterosclerosis y pérdida de la distensibilidad elástica de la aorta y grandes arterias.",
       "B": "Hipertensión Diastólica Secundaria por feocromocitoma.",
       "C": "Hipotensión Sistólica Fisiológica sin ninguna relevancia clínica.",
       "D": "Valores enteramente ideales para una persona mayor que no ameritan ninguna intervención."
@@ -1112,7 +1112,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "A": "Correcto. La rigidez arterial aórtica senil explica la hipertensión sistólica aislada.",
       "B": "La presión diastólica está en 75 mmHg (< 90), descartando HTA diastólica.",
       "C": "La presión sistólica está muy elevada (155 mmHg), no hipotensa.",
-      "D": "La PAS >= 140 duplica el riesgo de accidente cerebrovascular e infarto en ancianos."
+      "D": "La PAS ≥ 140 duplica el riesgo de accidente cerebrovascular e infarto en ancianos."
     }
   },
   {
@@ -1150,7 +1150,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "Hipertensión que ocurre únicamente los fines de semana durante las comidas familiares."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "La Hipertensión Enmascarada u oculta se define por cifras normales en el consultorio (< 140/90 mmHg) pero cifras hipertensivas fuera del entorno médico (MAPA diurno >= 135/85 mmHg o AMPA en casa). Se asocia a un riesgo cardiovascular casi idéntico al de la hipertensión sostenida y suele pasar desapercibida si no se sospecha ante daño a órgano blanco no explicado.",
+    "clinicalExplanation": "La Hipertensión Enmascarada u oculta se define por cifras normales en el consultorio (< 140/90 mmHg) pero cifras hipertensivas fuera del entorno médico (MAPA diurno ≥ 135/85 mmHg o AMPA en casa). Se asocia a un riesgo cardiovascular casi idéntico al de la hipertensión sostenida y suele pasar desapercibida si no se sospecha ante daño a órgano blanco no explicado.",
     "officialGuidelineRef": "Guía Clínica de Diagnóstico de HTA, MINSAL.",
     "distractorRationale": {
       "A": "Correcto. Normal en la clínica y elevada en el ambiente habitual define la hipertensión enmascarada.",
@@ -1299,13 +1299,13 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalArea": "Definición de Hipertensión Arterial Resistente",
     "statement": "¿Cuál es la definición clínica estricta de HIPERTENSIÓN ARTERIAL RESISTENTE o REFRACTARIA según las guías del MINSAL?",
     "options": {
-      "A": "Cifras de PA que se mantienen por encima de las metas terapéuticas (>= 140/90 mmHg) a pesar del uso simultáneo de 3 fármacos antihipertensivos de diferentes clases a dosis óptimas (uno de los cuales debe ser obligatoriamente un diurético), o pacientes que requieren 4 o más fármacos para alcanzar la meta.",
+      "A": "Cifras de PA que se mantienen por encima de las metas terapéuticas (≥ 140/90 mmHg) a pesar del uso simultáneo de 3 fármacos antihipertensivos de diferentes clases a dosis óptimas (uno de los cuales debe ser obligatoriamente un diurético), o pacientes que requieren 4 o más fármacos para alcanzar la meta.",
       "B": "Pacientes que se niegan a tomar los medicamentos por motivos religiosos.",
       "C": "Pacientes con PA de 135/85 mmHg que toman únicamente medio comprimido de Enalapril de 5 mg al mes.",
       "D": "Pacientes cuya presión arterial no baja tras haber trotado 100 metros en la playa."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "La HTA resistente se define formalmente como la falta de control tensional (PA >= 140/90 mmHg) a pesar de adherencia confirmada a un esquema de al menos tres fármacos antihipertensivos de familias distintas a dosis máximas toleradas, incluyendo un diurético (típicamente IECA/ARA-II + BCC + tiazida). Exige descartar pseudorresistencia (mala técnica, adherencia deficiente, bata blanca) e investigar HTA secundaria.",
+    "clinicalExplanation": "La HTA resistente se define formalmente como la falta de control tensional (PA ≥ 140/90 mmHg) a pesar de adherencia confirmada a un esquema de al menos tres fármacos antihipertensivos de familias distintas a dosis máximas toleradas, incluyendo un diurético (típicamente IECA/ARA-II + BCC + tiazida). Exige descartar pseudorresistencia (mala técnica, adherencia deficiente, bata blanca) e investigar HTA secundaria.",
     "officialGuidelineRef": "Guía de Hipertensión Arterial Resistente, MINSAL.",
     "distractorRationale": {
       "A": "Correcto. Tres fármacos a dosis plenas incluyendo un diurético define la HTA resistente.",
@@ -1433,16 +1433,16 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalArea": "Criterios Electrocardiográficos de Hipertrofia Ventricular Izquierda",
     "statement": "En la lectura del electrocardiograma de un paciente hipertenso crónico, ¿cuál es el cálculo del Índice de Sokolow-Lyon que confirma hipertrofia ventricular izquierda (HVI)?",
     "options": {
-      "A": "Amplitud de la onda S en derivación V1 + amplitud de la onda R en derivación V5 o V6 >= 35 mm (3.5 mV).",
+      "A": "Amplitud de la onda S en derivación V1 + amplitud de la onda R en derivación V5 o V6 ≥ 35 mm (3.5 mV).",
       "B": "Amplitud de la onda P en DII mayor a 2.5 mm.",
       "C": "Duración del intervalo PR menor a 0.12 segundos.",
       "D": "Presencia de onda Q en todas las derivaciones sin voltaje alguno."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "El índice de Sokolow-Lyon es uno de los criterios electrocardiográficos de voltaje más utilizados para el tamizaje de HVI en atención primaria. Se calcula sumando la profundidad de la onda S en V1 y la altura de la onda R en V5 o V6 (la que sea mayor). Un valor >= 35 mm (en mayores de 35 años) confirma sobrecarga y crecimiento ventricular izquierdo por HTA crónica.",
+    "clinicalExplanation": "El índice de Sokolow-Lyon es uno de los criterios electrocardiográficos de voltaje más utilizados para el tamizaje de HVI en atención primaria. Se calcula sumando la profundidad de la onda S en V1 y la altura de la onda R en V5 o V6 (la que sea mayor). Un valor ≥ 35 mm (en mayores de 35 años) confirma sobrecarga y crecimiento ventricular izquierdo por HTA crónica.",
     "officialGuidelineRef": "Guía de Diagnóstico Electrocardiográfico en Atención Primaria, MINSAL.",
     "distractorRationale": {
-      "A": "Correcto. S en V1 + R en V5/V6 >= 35 mm es el criterio canónico de Sokolow-Lyon.",
+      "A": "Correcto. S en V1 + R en V5/V6 ≥ 35 mm es el criterio canónico de Sokolow-Lyon.",
       "B": "Criterio de crecimiento auricular derecho (P pulmonale).",
       "C": "Criterio de conducción AV acelerada o preexcitación (Síndrome de Wolff-Parkinson-White).",
       "D": "Patrón de necrosis transmural difusa o mala técnica de calibración."
@@ -1477,18 +1477,18 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalArea": "Criterios Diagnósticos Confirmatorios de Diabetes Tipo 2",
     "statement": "De acuerdo con la Guía Clínica Oficial para la Atención Integral de la Diabetes Mellitus Tipo 2 del MINSAL, ¿cuál de los siguientes hallazgos de laboratorio confirma el diagnóstico de diabetes en un paciente asintomático en una consulta de tamizaje?",
     "options": {
-      "A": "Glucemia plasmática en ayunas >= 126 mg/dL confirmada en dos días diferentes.",
+      "A": "Glucemia plasmática en ayunas ≥ 126 mg/dL confirmada en dos días diferentes.",
       "B": "Glucemia capilar casual al azar de 105 mg/dL en una sola toma.",
       "C": "Hemoglobina glucosilada (HbA1c) de 5.8% estandarizada por NGSP.",
       "D": "Glucemia plasmática a las 2 horas post-carga de 75 g de glucosa de 135 mg/dL."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "Los criterios diagnósticos universales adoptados por el MINSAL estipulan: 1) Glucemia plasmática en ayunas >= 126 mg/dL (confirmada con una segunda prueba en día distinto si no hay crisis hiperglucémica franca); 2) Glucemia a las 2 horas de una curva de tolerancia oral a la glucosa con 75 g >= 200 mg/dL; 3) HbA1c >= 6.5%; o 4) Síntomas clásicos de hiperglucemia (poliuria, polidipsia, pérdida de peso) más glucemia al azar >= 200 mg/dL.",
+    "clinicalExplanation": "Los criterios diagnósticos universales adoptados por el MINSAL estipulan: 1) Glucemia plasmática en ayunas ≥ 126 mg/dL (confirmada con una segunda prueba en día distinto si no hay crisis hiperglucémica franca); 2) Glucemia a las 2 horas de una curva de tolerancia oral a la glucosa con 75 g ≥ 200 mg/dL; 3) HbA1c ≥ 6.5%; o 4) Síntomas clásicos de hiperglucemia (poliuria, polidipsia, pérdida de peso) más glucemia al azar ≥ 200 mg/dL.",
     "officialGuidelineRef": "Guía Clínica de Diabetes Mellitus Tipo 2, MINSAL.",
     "distractorRationale": {
-      "A": "Correcto. Glucemia en ayunas >= 126 mg/dL repetida en dos ocasiones confirma el diagnóstico.",
+      "A": "Correcto. Glucemia en ayunas ≥ 126 mg/dL repetida en dos ocasiones confirma el diagnóstico.",
       "B": "105 mg/dL en ayunas representa glucemia alterada en ayunas (prediabetes), no diabetes.",
-      "C": "5.8% está en el rango de prediabetes (5.7% a 6.4%); el punto de corte diagnóstico de diabetes es >= 6.5%.",
+      "C": "5.8% está en el rango de prediabetes (5.7% a 6.4%); el punto de corte diagnóstico de diabetes es ≥ 6.5%.",
       "D": "135 mg/dL a las 2 horas es normal (< 140 mg/dL)."
     }
   },
@@ -1772,7 +1772,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "Presencia exclusiva de sobrepeso sin ninguna elevación de glucosa."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "La presencia de síntomas catabólicos (pérdida de peso rápida, polidipsia, poliuria intensa), cetonuria o niveles muy elevados de hiperglucemia (glucemia >= 300 mg/dL o HbA1c >= 10.0%) denota un déficit severo de secreción endógena de insulina por glucotoxicidad en las células beta. En este escenario, los antidiabéticos orales son ineficaces y es obligatorio iniciar insulinoterapia de rescate.",
+    "clinicalExplanation": "La presencia de síntomas catabólicos (pérdida de peso rápida, polidipsia, poliuria intensa), cetonuria o niveles muy elevados de hiperglucemia (glucemia ≥ 300 mg/dL o HbA1c ≥ 10.0%) denota un déficit severo de secreción endógena de insulina por glucotoxicidad en las células beta. En este escenario, los antidiabéticos orales son ineficaces y es obligatorio iniciar insulinoterapia de rescate.",
     "officialGuidelineRef": "Guía Clínica para la Atención Integral de la DM2, MINSAL, Criterios de Insulinización.",
     "distractorRationale": {
       "A": "Correcto. Cifras extremas con catabolismo y HbA1c > 10% exigen insulinización inmediata.",
@@ -2053,16 +2053,16 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "vignette": "Gestante de 26 semanas de embarazo, sin antecedentes de diabetes previa, asiste a su control prenatal en la UCSF y se le realiza la Prueba de Tolerancia Oral a la Glucosa (PTOG) con carga de 75 gramos en ayunas según el protocolo en un paso.",
     "statement": "¿Cuál de los siguientes puntos de corte de glucemia plasmática (ayuno, 1 hora o 2 horas) basta con que esté alterado para confirmar el diagnóstico de Diabetes Gestacional según el MINSAL?",
     "options": {
-      "A": "Ayunas >= 92 mg/dL, a la hora >= 180 mg/dL, o a las 2 horas >= 153 mg/dL (un solo valor alterado confirma el diagnóstico).",
-      "B": "Ayunas >= 250 mg/dL exclusivamente con cetonuria en las tres tomas.",
+      "A": "Ayunas ≥ 92 mg/dL, a la hora ≥ 180 mg/dL, o a las 2 horas ≥ 153 mg/dL (un solo valor alterado confirma el diagnóstico).",
+      "B": "Ayunas ≥ 250 mg/dL exclusivamente con cetonuria en las tres tomas.",
       "C": "Los tres valores deben superar 300 mg/dL simultáneamente.",
       "D": "Solo se confirma si el feto ya pesa más de 5 kilogramos en el ultrasonido."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "El tamizaje universal de Diabetes Gestacional se realiza entre las semanas 24 y 28 de amenorrea mediante la PTOG con 75 g de glucosa en ayunas (criterios IADPSG / OMS adoptados por el MINSAL). Los umbrales diagnósticos son: Ayuno >= 92 mg/dL, 1 hora >= 180 mg/dL, 2 horas >= 153 mg/dL. Basta con que uno solo de estos tres valores alcance o supere el umbral para establecer el diagnóstico y prevenir macrosomía y distocia de hombros.",
+    "clinicalExplanation": "El tamizaje universal de Diabetes Gestacional se realiza entre las semanas 24 y 28 de amenorrea mediante la PTOG con 75 g de glucosa en ayunas (criterios IADPSG / OMS adoptados por el MINSAL). Los umbrales diagnósticos son: Ayuno ≥ 92 mg/dL, 1 hora ≥ 180 mg/dL, 2 horas ≥ 153 mg/dL. Basta con que uno solo de estos tres valores alcance o supere el umbral para establecer el diagnóstico y prevenir macrosomía y distocia de hombros.",
     "officialGuidelineRef": "Guía de Diagnóstico y Manejo de la Diabetes Gestacional, MINSAL.",
     "distractorRationale": {
-      "A": "Correcto. Ayuno >= 92, 1h >= 180 o 2h >= 153 mg/dL con un solo valor alterado confirma diabetes gestacional.",
+      "A": "Correcto. Ayuno ≥ 92, 1h ≥ 180 o 2h ≥ 153 mg/dL con un solo valor alterado confirma diabetes gestacional.",
       "B": "Valores propios de cetoacidosis descompensada, no umbrales de tamizaje gestacional.",
       "C": "Exigir tres valores tan extremos dejaría al 99% de las diabéticas gestacionales sin tratamiento.",
       "D": "La macrosomía fetal es una complicación tardía evitable, no un criterio diagnóstico de laboratorio."
@@ -2141,13 +2141,13 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalArea": "Criterios de Taquipnea según Grupo Etario en Neumonía Pediátrica",
     "statement": "De acuerdo con la estrategia de Atención Integrada a las Enfermedades Prevalentes de la Infancia (AIEPI) adoptada por el MINSAL y la OMS, ¿cuáles son los puntos de corte de FRECUENCIA RESPIRATORIA que definen taquipnea (respiración rápida) para el diagnóstico clínico de Neumonía en menores de 5 años?",
     "options": {
-      "A": "< 2 meses: >= 60 rpm; de 2 a 11 meses: >= 50 rpm; de 12 meses a 4 años: >= 40 rpm; de 5 años o más: >= 30 rpm.",
-      "B": "En todas las edades pediátricas se define exclusivamente con FR >= 100 rpm.",
-      "C": "< 2 meses: >= 20 rpm; de 2 a 11 meses: >= 15 rpm.",
+      "A": "< 2 meses: ≥ 60 rpm; de 2 a 11 meses: ≥ 50 rpm; de 12 meses a 4 años: ≥ 40 rpm; de 5 años o más: ≥ 30 rpm.",
+      "B": "En todas las edades pediátricas se define exclusivamente con FR ≥ 100 rpm.",
+      "C": "< 2 meses: ≥ 20 rpm; de 2 a 11 meses: ≥ 15 rpm.",
       "D": "La frecuencia respiratoria no tiene ninguna relación con el diagnóstico de neumonía en niños."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "En el primer nivel de atención donde la radiografía de tórax no siempre está disponible de inmediato, la taquipnea es el signo clínico con mayor sensibilidad y especificidad para el diagnóstico de neumonía en pediatría. Los umbrales estandarizados según maduración del centro respiratorio son: < 2 meses: >= 60 rpm; 2-11 meses: >= 50 rpm; 1-4 años: >= 40 rpm; y >= 5 años: >= 30 rpm (contada durante un minuto completo con el niño tranquilo y sin fiebre extrema).",
+    "clinicalExplanation": "En el primer nivel de atención donde la radiografía de tórax no siempre está disponible de inmediato, la taquipnea es el signo clínico con mayor sensibilidad y especificidad para el diagnóstico de neumonía en pediatría. Los umbrales estandarizados según maduración del centro respiratorio son: < 2 meses: ≥ 60 rpm; 2-11 meses: ≥ 50 rpm; 1-4 años: ≥ 40 rpm; y ≥ 5 años: ≥ 30 rpm (contada durante un minuto completo con el niño tranquilo y sin fiebre extrema).",
     "officialGuidelineRef": "Lineamientos Técnicos para la Prevención y Control de las IRAS y Manual AIEPI, MINSAL / OPS.",
     "distractorRationale": {
       "A": "Correcto. Umbrales canónicos de AIEPI/MINSAL para definir respiración rápida según edad.",
@@ -2185,16 +2185,16 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalArea": "Estratificación de Neumonía en Adultos: Escala CURB-65",
     "statement": "En la evaluación de un adulto con Neumonía Adquirida en la Comunidad (NAC) en la UCSF, ¿cuáles son los 5 parámetros que componen la escala pronóstica de severidad CURB-65 para decidir el manejo ambulatorio versus internamiento hospitalario?",
     "options": {
-      "A": "C: Confusión mental aguda; U: Urea sérica > 19 mg/dL (BUN > 20 mg/dL); R: Frecuencia Respiratoria >= 30 rpm; B: Presión Arterial baja (PAS < 90 mmHg o PAD <= 60 mmHg); y 65: Edad >= 65 años (1 punto por cada ítem presente).",
+      "A": "C: Confusión mental aguda; U: Urea sérica > 19 mg/dL (BUN > 20 mg/dL); R: Frecuencia Respiratoria ≥ 30 rpm; B: Presión Arterial baja (PAS < 90 mmHg o PAD ≤ 60 mmHg); y 65: Edad ≥ 65 años (1 punto por cada ítem presente).",
       "B": "C: Color de ojos; U: Uso de anteojos; R: Reflejos rotulianos; B: Braquidactilia; 65: Talla mayor a 65 centímetros.",
       "C": "C: Conteo plaquetario; U: Uricosuria; R: Ritmo cardíaco; B: Bilirrubina; 65: Peso corporal mayor a 65 kg.",
       "D": "La escala CURB-65 solo evalúa el costo del medicamento en dólares."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "La escala CURB-65 (o su variante clínica CRB-65 en atención primaria donde no se dispone de urea inmediata) es la herramienta validada recomendada por el MINSAL para estratificar la mortalidad a 30 días en NAC: 0-1 punto: bajo riesgo, manejo ambulatorio; 2 puntos: riesgo intermedio, hospitalización en sala general; >= 3 puntos: alto riesgo de muerte, considerar ingreso a cuidados intensivos.",
+    "clinicalExplanation": "La escala CURB-65 (o su variante clínica CRB-65 en atención primaria donde no se dispone de urea inmediata) es la herramienta validada recomendada por el MINSAL para estratificar la mortalidad a 30 días en NAC: 0-1 punto: bajo riesgo, manejo ambulatorio; 2 puntos: riesgo intermedio, hospitalización en sala general; ≥ 3 puntos: alto riesgo de muerte, considerar ingreso a cuidados intensivos.",
     "officialGuidelineRef": "Guía Clínica de Diagnóstico y Tratamiento de la Neumonía Adquirida en la Comunidad, MINSAL.",
     "distractorRationale": {
-      "A": "Correcto. Confusión, Urea, Respiración, Presión baja y Edad >= 65 años definen el acrónimo CURB-65.",
+      "A": "Correcto. Confusión, Urea, Respiración, Presión baja y Edad ≥ 65 años definen el acrónimo CURB-65.",
       "B": "Distractor absurdo sin pertinencia clínica.",
       "C": "Parámetros ajenos a la escala CURB-65.",
       "D": "La escala evalúa predicción de mortalidad clínica, no variables financieras."
@@ -2280,7 +2280,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "Escala de Alvarado para sospecha de apendicitis aguda."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "La Escala de Westley es el instrumento estandarizado para evaluar la gravedad del crup. Pondera cinco variables: 1) Estridor (0: ninguno; 1: con agitación; 2: en reposo); 2) Tiraje (0 a 3); 3) Ventilación/entrada de aire (0 a 2); 4) Cianosis (0 a 5); y 5) Nivel de conciencia (0 a 5). Puntuaciones <= 2 indican crup leve; 3-7 moderado; y >= 8 severo con riesgo de obstrucción total.",
+    "clinicalExplanation": "La Escala de Westley es el instrumento estandarizado para evaluar la gravedad del crup. Pondera cinco variables: 1) Estridor (0: ninguno; 1: con agitación; 2: en reposo); 2) Tiraje (0 a 3); 3) Ventilación/entrada de aire (0 a 2); 4) Cianosis (0 a 5); y 5) Nivel de conciencia (0 a 5). Puntuaciones ≤ 2 indican crup leve; 3-7 moderado; y ≥ 8 severo con riesgo de obstrucción total.",
     "officialGuidelineRef": "Guía Clínica de Urgencias Respiratorias Pediátricas, MINSAL, Escala de Westley.",
     "distractorRationale": {
       "A": "Correcto. La escala de Westley es la herramienta universalmente validada para crup.",
@@ -2503,7 +2503,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "Los criterios de Centor solo evalúan si el paciente tiene caries dentales."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "Los criterios de Centor / McIsaac permiten racionalizar el uso de antibióticos en faringoamigdalitis aguda, la cual es viral en más del 70% de los casos. La presencia de exudado amigdalino, adenopatías cervicales anteriores sensibles, fiebre > 38 °C y ausencia de tos otorga puntos que justifican prueba rápida/cultivo o inicio de tratamiento empírico con penicilina si el puntaje es >= 3-4.",
+    "clinicalExplanation": "Los criterios de Centor / McIsaac permiten racionalizar el uso de antibióticos en faringoamigdalitis aguda, la cual es viral en más del 70% de los casos. La presencia de exudado amigdalino, adenopatías cervicales anteriores sensibles, fiebre > 38 °C y ausencia de tos otorga puntos que justifican prueba rápida/cultivo o inicio de tratamiento empírico con penicilina si el puntaje es ≥ 3-4.",
     "officialGuidelineRef": "Lineamientos Técnicos para el Abordaje de Faringoamigdalitis Aguda, MINSAL.",
     "distractorRationale": {
       "A": "Correcto. Exudado, adenopatía dolorosa anterior, fiebre y ausencia de tos son los criterios de Centor.",
@@ -2570,7 +2570,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "Presencia de estornudos aislados al entrar en contacto con perfumes fuertes."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "La gran mayoría de las rinosinusitis inician como virales y resuelven espontáneamente en 7 a 10 días. Los criterios diagnósticos para sospechar sobreinfección bacteriana e iniciar antibióticos son: 1) Síntomas persistentes > 10 días sin evidencia de mejoría clínica; 2) Inicio severo con fiebre alta (>= 39 °C) y rinorrea purulenta por 3-4 días consecutivos; o 3) \"Doble empeoramiento\" (empeoramiento clínico brusco tras una mejoría inicial de 5-6 días).",
+    "clinicalExplanation": "La gran mayoría de las rinosinusitis inician como virales y resuelven espontáneamente en 7 a 10 días. Los criterios diagnósticos para sospechar sobreinfección bacteriana e iniciar antibióticos son: 1) Síntomas persistentes > 10 días sin evidencia de mejoría clínica; 2) Inicio severo con fiebre alta (≥ 39 °C) y rinorrea purulenta por 3-4 días consecutivos; o 3) \"Doble empeoramiento\" (empeoramiento clínico brusco tras una mejoría inicial de 5-6 días).",
     "officialGuidelineRef": "Guía Clínica para el Manejo de Rinosinusitis Aguda, MINSAL.",
     "distractorRationale": {
       "A": "Correcto. Duración > 10 días sin mejoría o patrón de doble empeoramiento define la sinusitis bacteriana.",
@@ -2748,7 +2748,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "Solo se administra oxígeno si la saturación cae por debajo del 10%."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "La pulsioximetría es el quinto signo vital. Según los estándares del MINSAL y la OMS, una SatO2 <= 92% (o <= 90% en algunas guías) define hipoxemia clínicamente significativa, indicando la administración inmediata de oxígeno mediante cánula nasal (1 a 3 L/min) o mascarilla con reservorio para mantener metas de saturación entre 94% y 98% (o 88-92% en pacientes con riesgo de insuficiencia hipercápnica/EPOC).",
+    "clinicalExplanation": "La pulsioximetría es el quinto signo vital. Según los estándares del MINSAL y la OMS, una SatO2 ≤ 92% (o ≤ 90% en algunas guías) define hipoxemia clínicamente significativa, indicando la administración inmediata de oxígeno mediante cánula nasal (1 a 3 L/min) o mascarilla con reservorio para mantener metas de saturación entre 94% y 98% (o 88-92% en pacientes con riesgo de insuficiencia hipercápnica/EPOC).",
     "officialGuidelineRef": "Lineamientos Técnicos para la Oxigenoterapia y Manejo de IRAS Graves, MINSAL.",
     "distractorRationale": {
       "A": "Correcto. SatO2 < 90-92% define hipoxemia que exige soporte inmediato de oxigenoterapia.",
@@ -2921,16 +2921,16 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalArea": "Preeclampsia con Criterios de Severidad: Criterios Diagnósticos",
     "statement": "¿Cuál de los siguientes hallazgos clínicos o laboratoriales en una gestante de 32 semanas clasifica su cuadro como PREECLAMPSIA CON CRITERIOS DE SEVERIDAD (Código Naranja) requiriendo hospitalización inmediata?",
     "options": {
-      "A": "Presión Arterial Sistólica >= 160 mmHg y/o Presión Diastólica >= 110 mmHg, cefalea pulsátil refractaria a analgésicos, escotomas centellantes (visión borrosa), epigastralgia o dolor en hipocondrio derecho, trombocitopenia (< 100,000/uL) o creatinina sérica > 1.1 mg/dL.",
+      "A": "Presión Arterial Sistólica ≥ 160 mmHg y/o Presión Diastólica ≥ 110 mmHg, cefalea pulsátil refractaria a analgésicos, escotomas centellantes (visión borrosa), epigastralgia o dolor en hipocondrio derecho, trombocitopenia (< 100,000/uL) o creatinina sérica > 1.1 mg/dL.",
       "B": "Edema maleolar bilateral leve al final de la jornada laboral con PA de 110/70 mmHg.",
       "C": "Presión arterial de 125/80 mmHg con náuseas matutinas leves en semana 8.",
       "D": "Frecuencia cardíaca fetal de 140 lpm sin contracciones uterinas."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "La preeclampsia severa es un síndrome multisistémico vasoespástico endotelial. Los criterios de severidad indican disfunción inminente de órganos diana: cifras graves de PA (>= 160/110), síntomas premonitorios de eclampsia del SNC (cefalea intensa, escotomas, hiperreflexia), dolor en hipocondrio derecho (isquemia hepática / distensión de la cápsula de Glisson), síndrome HELLP (plaquetas < 100,000, transaminasas elevadas, hemólisis microangiopática) o insuficiencia renal.",
+    "clinicalExplanation": "La preeclampsia severa es un síndrome multisistémico vasoespástico endotelial. Los criterios de severidad indican disfunción inminente de órganos diana: cifras graves de PA (≥ 160/110), síntomas premonitorios de eclampsia del SNC (cefalea intensa, escotomas, hiperreflexia), dolor en hipocondrio derecho (isquemia hepática / distensión de la cápsula de Glisson), síndrome HELLP (plaquetas < 100,000, transaminasas elevadas, hemólisis microangiopática) o insuficiencia renal.",
     "officialGuidelineRef": "Guía Clínica de Manejo de los Trastornos Hipertensivos del Embarazo, MINSAL.",
     "distractorRationale": {
-      "A": "Correcto. PA >= 160/110, síntomas neurológicos, epigastralgia y trombocitopenia definen preeclampsia severa.",
+      "A": "Correcto. PA ≥ 160/110, síntomas neurológicos, epigastralgia y trombocitopenia definen preeclampsia severa.",
       "B": "El edema maleolar dependiente es un hallazgo fisiológico frecuente en el embarazo normal.",
       "C": "Presión normal y náuseas fisiológicas del primer trimestre.",
       "D": "Frecuencia cardíaca fetal normal (rango 110-160 lpm)."
@@ -2965,7 +2965,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalArea": "Monitoreo de Toxicidad por Sulfato de Magnesio y Antídoto",
     "statement": "Durante la infusión de Sulfato de Magnesio en una paciente con preeclampsia severa, ¿cuáles son los 3 parámetros clínicos que deben vigilarse estrictamente a la cabecera, y cuál es el antídoto específico que debe estar inmediatamente disponible si se sospecha toxicidad?",
     "options": {
-      "A": "Reflejos osteotendinosos rotulianos presentes, Frecuencia Respiratoria >= 12 a 14 rpm, y Diuresis horaria > 30 mL/hora (por sonda Foley); y el antídoto específico es el Gluconato de Calcio al 10% (1 gramo IV lento en 3 a 5 minutos).",
+      "A": "Reflejos osteotendinosos rotulianos presentes, Frecuencia Respiratoria ≥ 12 a 14 rpm, y Diuresis horaria > 30 mL/hora (por sonda Foley); y el antídoto específico es el Gluconato de Calcio al 10% (1 gramo IV lento en 3 a 5 minutos).",
       "B": "Reflejo corneal, diámetro pupilar y color de uñas; y el antídoto es la naloxona.",
       "C": "Glicemia capilar y amilasa; y el antídoto es la atropina.",
       "D": "No se requiere ningún monitoreo porque el sulfato de magnesio no tiene ninguna toxicidad."
@@ -2993,7 +2993,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "Presencia de loquios serosos normales a los 10 días del puerperio."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "El Código Rojo Obstétrico estandariza la respuesta inmediata del equipo multidisciplinario ante la Hemorragia Posparto (primera causa de muerte materna evitable en la región). Se define por la pérdida hemática > 500 mL en parto vaginal o > 1,000 mL en cesárea, o el descenso del hematocrito >= 10%, o cualquier pérdida de volumen que induzca hipotensión, taquicardia o alteración de la perfusión periférica.",
+    "clinicalExplanation": "El Código Rojo Obstétrico estandariza la respuesta inmediata del equipo multidisciplinario ante la Hemorragia Posparto (primera causa de muerte materna evitable en la región). Se define por la pérdida hemática > 500 mL en parto vaginal o > 1,000 mL en cesárea, o el descenso del hematocrito ≥ 10%, o cualquier pérdida de volumen que induzca hipotensión, taquicardia o alteración de la perfusión periférica.",
     "officialGuidelineRef": "Guía Técnica para la Atención del Código Rojo Obstétrico: Hemorragia Posparto, MINSAL.",
     "distractorRationale": {
       "A": "Correcto. > 500 mL vaginal, > 1000 mL cesárea o inestabilidad hemodinámica activa el Código Rojo.",
@@ -3434,7 +3434,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "No se debe evaluar la salud mental materna para no alarmar a la familia."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "La depresión posparto afecta al 15-20% de las puérperas y repercute negativamente en el vínculo afectivo materno-filial, la lactancia y el neurodesarrollo infantil. La Escala de Edimburgo (EPDS) consta de 10 preguntas sencillas autoadministradas; una puntuación >= 10-12 puntos identifica a madres con alto riesgo de trastorno depresivo mayor que requieren evaluación psicológica/psiquiátrica, atención prioritaria y descarte de ideación suicida (pregunta 10).",
+    "clinicalExplanation": "La depresión posparto afecta al 15-20% de las puérperas y repercute negativamente en el vínculo afectivo materno-filial, la lactancia y el neurodesarrollo infantil. La Escala de Edimburgo (EPDS) consta de 10 preguntas sencillas autoadministradas; una puntuación ≥ 10-12 puntos identifica a madres con alto riesgo de trastorno depresivo mayor que requieren evaluación psicológica/psiquiátrica, atención prioritaria y descarte de ideación suicida (pregunta 10).",
     "officialGuidelineRef": "Lineamientos Técnicos para la Atención de la Salud Mental Perinatal, MINSAL.",
     "distractorRationale": {
       "A": "Correcto. La Escala de Edimburgo (EPDS) es el estándar internacional de tamizaje de depresión posparto.",
@@ -3523,7 +3523,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "Calcular el porcentaje de descuento del impuesto al valor agregado (IVA) aplicable al medicamento."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "El Algoritmo de Naranjo es una herramienta epidemiológica y clínica estandarizada consistente en 10 preguntas con respuestas ponderadas (-1, 0, +1, +2) que evalúan aspectos como: secuencia temporal, reaparición al readministrar el fármaco (rechallenge), desaparición al suspenderlo (dechallenge), causas alternativas no medicamentosas y niveles plasmáticos. La puntuación total clasifica la relación causal en: Dudosa (<= 0), Posible (1-4), Probable (5-8) o Definida (>= 9).",
+    "clinicalExplanation": "El Algoritmo de Naranjo es una herramienta epidemiológica y clínica estandarizada consistente en 10 preguntas con respuestas ponderadas (-1, 0, +1, +2) que evalúan aspectos como: secuencia temporal, reaparición al readministrar el fármaco (rechallenge), desaparición al suspenderlo (dechallenge), causas alternativas no medicamentosas y niveles plasmáticos. La puntuación total clasifica la relación causal en: Dudosa (≤ 0), Posible (1-4), Probable (5-8) o Definida (≥ 9).",
     "officialGuidelineRef": "Guía Metodológica para la Notificación y Análisis de Causalidad de RAM, SRS/DNM.",
     "distractorRationale": {
       "A": "Correcto. El Algoritmo de Naranjo categoriza objetivamente el grado de imputabilidad causal de una RAM.",
@@ -3847,16 +3847,16 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalArea": "Categorías de Imputabilidad según Puntaje Total de Naranjo",
     "statement": "Al sumar el puntaje obtenido en las 10 preguntas del Algoritmo de Naranjo, ¿cuáles son los 4 rangos cuantitativos oficiales que definen la categoría de causalidad de la sospecha de RAM?",
     "options": {
-      "A": ">= 9 puntos: DEFINIDA; de 5 a 8 puntos: PROBABLE; de 1 a 4 puntos: POSIBLE; y <= 0 puntos: DUDOSA.",
-      "B": ">= 50 puntos: Segura; de 20 a 49: Dudosa; menos de 20: Falsa.",
+      "A": "≥ 9 puntos: DEFINIDA; de 5 a 8 puntos: PROBABLE; de 1 a 4 puntos: POSIBLE; y ≤ 0 puntos: DUDOSA.",
+      "B": "≥ 50 puntos: Segura; de 20 a 49: Dudosa; menos de 20: Falsa.",
       "C": "Todo puntaje par es Aprobado y todo puntaje impar es Rechazado.",
       "D": "Naranjo no tiene categorías y solo emite un porcentaje de 0% a 100% de culpa médica."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "El puntaje acumulado en el Algoritmo de Naranjo clasifica el grado de imputabilidad en 4 categorías universales: 1) DEFINIDA (>= 9 puntos): relación causal indudable con rechallenge positivo y exclusión de otras causas; 2) PROBABLE (5 a 8 puntos): alta verosimilitud temporal y respuesta favorable a la suspensión sin causa alternativa obvia; 3) POSIBLE (1 a 4 puntos): secuencia compatible pero con posibles causas alternativas; 4) DUDOSA (<= 0 puntos): relación improbable o explicada enteramente por otros factores.",
+    "clinicalExplanation": "El puntaje acumulado en el Algoritmo de Naranjo clasifica el grado de imputabilidad en 4 categorías universales: 1) DEFINIDA (≥ 9 puntos): relación causal indudable con rechallenge positivo y exclusión de otras causas; 2) PROBABLE (5 a 8 puntos): alta verosimilitud temporal y respuesta favorable a la suspensión sin causa alternativa obvia; 3) POSIBLE (1 a 4 puntos): secuencia compatible pero con posibles causas alternativas; 4) DUDOSA (≤ 0 puntos): relación improbable o explicada enteramente por otros factores.",
     "officialGuidelineRef": "Guía Metodológica para el Análisis de Causalidad de RAM, SRS/DNM.",
     "distractorRationale": {
-      "A": "Correcto. >=9 Definida, 5-8 Probable, 1-4 Posible, <=0 Dudosa son las cuatro categorías canónicas de Naranjo.",
+      "A": "Correcto. ≥9 Definida, 5-8 Probable, 1-4 Posible, ≤0 Dudosa son las cuatro categorías canónicas de Naranjo.",
       "B": "Escala numérica inexistente.",
       "C": "Criterio arbitrario sin fundamento científico.",
       "D": "Naranjo evalúa imputabilidad farmacológica, no culpa o responsabilidad médico-legal."
@@ -3985,7 +3985,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
       "D": "El cambio de logotipo comercial de un laboratorio farmacéutico."
     },
     "correctAnswer": "A",
-    "clinicalExplanation": "Según la OMS, una señal en farmacovigilancia es la información notificada sobre una posible relación causal entre un acontecimiento adverso y un fármaco, siendo la relación desconocida o incompletamente documentada previamente. El análisis de desproporcionalidad (PRR >= 2 con chi-cuadrado >= 4 y al menos 3 casos) identifica si un par fármaco-evento se reporta con una frecuencia significativamente mayor a la esperada respecto al resto de la base de datos.",
+    "clinicalExplanation": "Según la OMS, una señal en farmacovigilancia es la información notificada sobre una posible relación causal entre un acontecimiento adverso y un fármaco, siendo la relación desconocida o incompletamente documentada previamente. El análisis de desproporcionalidad (PRR ≥ 2 con chi-cuadrado ≥ 4 y al menos 3 casos) identifica si un par fármaco-evento se reporta con una frecuencia significativamente mayor a la esperada respecto al resto de la base de datos.",
     "officialGuidelineRef": "Guía para la Gestión de Señales de Farmacovigilancia, SRS / OMS.",
     "distractorRationale": {
       "A": "Correcto. Información de relación causal nueva detectada por algoritmos de desproporcionalidad (PRR/ROR).",
@@ -4133,7 +4133,7 @@ export const SALUD_PRIMARIA_QUESTIONS: SaludPrimariaQuestion[] = [
     "clinicalArea": "Síndrome DRESS: Criterios Diagnósticos de RegiSCAR",
     "statement": "¿Cuál es la tétrada clínica y de laboratorio que define al Síndrome DRESS (Drug Reaction with Eosinophilia and Systemic Symptoms) inducido por medicamentos?",
     "options": {
-      "A": "Erupción cutánea maculopapular confluente extensa (exantema morbiliforme > 50% SCT) con edema facial, fiebre alta persistente (> 38.5 °C), linfadenopatías múltiples en al menos dos cadenas ganglionares, y alteraciones hematológicas (eosinofilia marcada >= 1,500/uL y/o linfocitosis atípica) con compromiso de órganos internos (hepatitis, nefritis o miocarditis).",
+      "A": "Erupción cutánea maculopapular confluente extensa (exantema morbiliforme > 50% SCT) con edema facial, fiebre alta persistente (> 38.5 °C), linfadenopatías múltiples en al menos dos cadenas ganglionares, y alteraciones hematológicas (eosinofilia marcada ≥ 1,500/uL y/o linfocitosis atípica) con compromiso de órganos internos (hepatitis, nefritis o miocarditis).",
       "B": "Caries dental múltiple con dolor en las encías sin fiebre.",
       "C": "Uña encarnada en el primer dedo del pie derecho sin erupción en la piel.",
       "D": "Pérdida de la memoria a corto plazo tras un examen de matemáticas."

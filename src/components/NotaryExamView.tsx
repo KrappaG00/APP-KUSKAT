@@ -56,9 +56,21 @@ export const NOTARY_SUBCATEGORIES = [
   { id: 'mercantil', name: 'Mercantil', icon: '🏢' },
 ];
 
-export const NotaryExamView: React.FC = () => {
+export interface NotaryExamViewProps {
+  initialTab?: 'study-units' | 'jurisprudence' | 'interactive-study' | 'simulator';
+}
+
+export const NotaryExamView: React.FC<NotaryExamViewProps> = ({
+  initialTab = 'interactive-study',
+}) => {
   // Pestaña principal activa
-  const [activeTab, setActiveTab] = useState<'study-units' | 'jurisprudence' | 'interactive-study' | 'simulator'>('interactive-study');
+  const [activeTab, setActiveTab] = useState<'study-units' | 'jurisprudence' | 'interactive-study' | 'simulator'>(initialTab);
+
+  useEffect(() => {
+    if (initialTab) {
+      setActiveTab(initialTab);
+    }
+  }, [initialTab]);
 
   // =========================================================================
   // ESTADO: PESTAÑA 1 (EJES SUSTANTIVOS & VADEMÉCUM)

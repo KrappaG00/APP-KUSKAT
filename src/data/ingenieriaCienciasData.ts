@@ -73,37 +73,37 @@ export const INGENIERIA_FORMULAS: FormulaReferenceCard[] = [
   {
     category: 'Álgebra Lineal',
     title: 'Determinante de Escalar por Matriz Cuadrada de Orden n',
-    formulaKatex: '\\det(k \\cdot A) = k^n \\cdot \\det(A)',
+    formulaKatex: '$\\det(k \\cdot A) = k^n \\cdot \\det(A)$',
     explanation: 'Multiplicar una matriz de tamaño n x n por un escalar k multiplica cada una de sus n filas por k, factorizándose k elevado a la n del determinante.',
   },
   {
     category: 'Álgebra Lineal',
     title: 'Multiplicatividad del Determinante',
-    formulaKatex: '\\det(A \\cdot B) = \\det(A) \\cdot \\det(B)',
+    formulaKatex: '$\\det(A \\cdot B) = \\det(A) \\cdot \\det(B)$',
     explanation: 'El determinante del producto de dos matrices cuadradas del mismo orden es igual al producto algebraico de sus respectivos determinantes.',
   },
   {
     category: 'Trigonometría',
     title: 'Identidad del Coseno del Ángulo Doble',
-    formulaKatex: '\\cos(2\\theta) = \\cos^2\\theta - \\sin^2\\theta = 2\\cos^2\\theta - 1 = 1 - 2\\sin^2\\theta',
+    formulaKatex: '$\\cos(2\\theta) = \\cos^2\\theta - \\sin^2\\theta = 2\\cos^2\\theta - 1 = 1 - 2\\sin^2\\theta$',
     explanation: 'Transformación fundamental para linealizar potencias pares trigonométricas en cálculo integral y análisis de ondas armónicas.',
   },
   {
     category: 'Geometría Analítica',
     title: 'Discriminante de la Ecuación General de Segundo Grado',
-    formulaKatex: '\\Delta = B^2 - 4AC',
+    formulaKatex: '$\\Delta = B^2 - 4AC$',
     explanation: 'Para Ax^2 + Bxy + Cy^2 + Dx + Ey + F = 0: si Delta < 0 es Elipse/Circunferencia, si Delta = 0 es Parábola, si Delta > 0 es Hipérbola.',
   },
   {
     category: 'Física Vectorial',
     title: 'Segunda Condición de Equilibrio (Rotacional)',
-    formulaKatex: '\\sum \\vec{\\tau}_O = \\sum (\\vec{r} \\times \\vec{F}) = \\vec{0}',
+    formulaKatex: '$\\sum \\vec{\\tau}_O = \\sum (\\vec{r} \\times \\vec{F}) = \\vec{0}$',
     explanation: 'Para que un cuerpo rígido no tenga aceleración angular, la suma vectorial de momentos de fuerza o torques respecto a cualquier punto fijo debe ser cero.',
   },
   {
     category: 'Física Vectorial',
     title: 'Teorema del Trabajo y la Energía Cinética',
-    formulaKatex: 'W_{\\text{neto}} = \\Delta E_k = \\frac{1}{2}m v_f^2 - \\frac{1}{2}m v_i^2',
+    formulaKatex: '$W_{\\text{neto}} = \\Delta E_k = \\frac{1}{2}m v_f^2 - \\frac{1}{2}m v_i^2$',
     explanation: 'El trabajo mecánico realizado por todas las fuerzas que actúan sobre una partícula es exactamente igual al cambio neto en su energía cinética.',
   },
 ];
@@ -237,7 +237,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Partir de la definición de matriz antisimétrica: A^T = -A.",
       "Aplicar la propiedad del determinante de la transpuesta: det(A^T) = det(A).",
       "Aplicar la propiedad de multiplicación por escalar k = -1 en orden n = 5: det(-A) = (-1)^5 · det(A) = -det(A).",
-      "Igualar: det(A) = -det(A) ==> 2·det(A) = 0 ==> det(A) = 0."
+      "Igualar: det(A) = -det(A) ⇒ 2·det(A) = 0 ⇒ det(A) = 0."
     ],
     "distractorRationale": {
       "A": "Correcto. (-1)^5 = -1 obliga a que det(A) = -det(A), por tanto det(A) = 0.",
@@ -372,7 +372,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Plantear el sistema homogéneo: -x + 2y = 0 y 2x - 4y = 0.",
       "Observar que la segunda ecuación es redundante (-2 veces la primera).",
       "Despejar x en función de y: x = 2y.",
-      "Fijar parámetro y = 1 ==> vector propio v = (2, 1)^T."
+      "Fijar parámetro y = 1 ⇒ vector propio v = (2, 1)^T."
     ],
     "distractorRationale": {
       "A": "Correcto. Cumple A·(2, 1)^T = (12, 6)^T = 6·(2, 1)^T.",
@@ -590,7 +590,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Multiplicar escalar (11/25) por vector u: (11/25) · (3, 4) = (33/25, 44/25)."
     ],
     "distractorRationale": {
-      "A": "Correcto. (11/25) * (3, 4) = (33/25, 44/25).",
+      "A": "Correcto. (11/25) · (3, 4) = (33/25, 44/25).",
       "B": "Error al dividir entre la norma ||u|| = 5 en lugar de ||u||^2 = 25 y proyectar sobre v.",
       "C": "Vector unitario en dirección de u sin considerar la magnitud de la proyección.",
       "D": "Error al multiplicar el escalar por el vector v en vez de u."
@@ -642,8 +642,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Partir de la ecuación de autovalor: P·v = λ·v con v ≠ 0.",
       "Aplicar P nuevamente: P^2·v = λ^2·v.",
       "Usar la hipótesis de idempotencia P^2 = P: P·v = λ^2·v.",
-      "Restar: λ^2·v - λ·v = 0 ==> (λ^2 - λ)·v = 0.",
-      "Como v ≠ 0, λ(λ - 1) = 0 ==> λ = 0 o λ = 1."
+      "Restar: λ^2·v - λ·v = 0 ⇒ (λ^2 - λ)·v = 0.",
+      "Como v ≠ 0, λ(λ - 1) = 0 ⇒ λ = 0 o λ = 1."
     ],
     "distractorRationale": {
       "A": "Correcto. λ(λ - 1) = 0 obliga a que los autovalores sean estrictamente 0 o 1.",
@@ -668,7 +668,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "Si $N\\vec{v} = \\lambda\\vec{v}$, entonces $N^k\\vec{v} = \\lambda^k\\vec{v}$. Como $N^k = 0$, tenemos $\\lambda^k\\vec{v} = \\vec{0}$, lo que implica $\\lambda^k = 0 \\implies \\lambda = 0$. Como todos los autovalores son cero, $\\det(N) = \\prod \\lambda_i = 0$ y $\\text{tr}(N) = \\sum \\lambda_i = 0$. Además, una matriz nilpotente no nula jamás es diagonalizable, pues su única forma diagonalizable sería la matriz nula.",
     "stepByStepDerivation": [
       "Ecuación de autovalores: N^k·v = λ^k·v = 0.",
-      "Concluir que todo autovalor satisface λ^k = 0 ==> λ = 0.",
+      "Concluir que todo autovalor satisface λ^k = 0 ⇒ λ = 0.",
       "det(N) = producto de autovalores = 0.",
       "tr(N) = suma de autovalores = 0."
     ],
@@ -698,7 +698,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "F_3 - 3F_1 = (0, 0, 1 | 1).",
       "F_3 - F_2 = (0, 0, 0 | 0).",
       "Rango matriz coeficientes = 2; Rango matriz aumentada = 2.",
-      "Número de incógnitas = 3 ==> Grados de libertad = 3 - 2 = 1."
+      "Número de incógnitas = 3 ⇒ Grados de libertad = 3 - 2 = 1."
     ],
     "distractorRationale": {
       "A": "Correcto. Rango 2 con 3 variables deja exactamente 1 variable libre.",
@@ -723,9 +723,9 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "Para que el sistema tenga infinitas soluciones (compatible indeterminado), el rango de la matriz de coeficientes debe ser igual al rango de la matriz aumentada y menor que 2: $\\text{rg}(A) = \\text{rg}(A|b) < 2$. Calculamos $\\det(A) = 1(k) - 1(2) = k - 2$. Si $k = 2$, la segunda ecuación se convierte en $2x + 2y = 4$, que es equivalente a $x + y = 2$ al dividir entre 2. Así, $\\text{rg}(A) = \\text{rg}(A|b) = 1 < 2$, generando infinitas soluciones.",
     "stepByStepDerivation": [
       "Calcular det(A) = k - 2.",
-      "Para infinitas soluciones se requiere det(A) = 0 ==> k = 2.",
+      "Para infinitas soluciones se requiere det(A) = 0 ⇒ k = 2.",
       "Verificar compatibilidad para k = 2: 2x + 2y = 4 es múltiplo de x + y = 2.",
-      "Rango(A) = Rango(A|b) = 1 < 2 ==> Infinitas soluciones."
+      "Rango(A) = Rango(A|b) = 1 < 2 ⇒ Infinitas soluciones."
     ],
     "distractorRationale": {
       "A": "Correcto. k = 2 hace que ambas ecuaciones sean linealmente dependientes.",
@@ -752,7 +752,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Multiplicar la primera ecuación por 2: 2x + 2y = 4.",
       "Restar con la segunda ecuación (2x + 2y = k): 0 = k - 4.",
       "Si k ≠ 4, la igualdad es falsa (0 = valor no nulo).",
-      "Por Rouché-Frobenius, rg(A) = 1 y rg(A|b) = 2 ==> Incompatible para k ≠ 4."
+      "Por Rouché-Frobenius, rg(A) = 1 y rg(A|b) = 2 ⇒ Incompatible para k ≠ 4."
     ],
     "distractorRationale": {
       "A": "Correcto. Para cualquier k ≠ 4 las rectas son paralelas no coincidentes.",
@@ -831,8 +831,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "Calculamos el determinante: $\\det(T) = (0)(0) - (1)(1) = -1$. El valor absoluto $|\\det(T)| = |-1| = 1$ indica que el factor de escala de áreas es 1 (las áreas se conservan exactamente). El signo negativo ($-1$) indica que la transformación es un operador ortogonal impropio que invierte la orientación (quiralidad) del plano, característica intrínseca de toda reflexión.",
     "stepByStepDerivation": [
       "Calcular det(T) = 0·0 - 1·1 = -1.",
-      "Analizar magnitud: |det(T)| = 1 ==> preserva áreas.",
-      "Analizar signo: det(T) < 0 ==> invierte orientación de bases.",
+      "Analizar magnitud: |det(T)| = 1 ⇒ preserva áreas.",
+      "Analizar signo: det(T) < 0 ⇒ invierte orientación de bases.",
       "Concluir que toda reflexión tiene determinante -1."
     ],
     "distractorRationale": {
@@ -914,7 +914,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Calcular producto: 4 · (-3) = -12."
     ],
     "distractorRationale": {
-      "A": "Correcto. det(A) * det(B) = 4 * (-3) = -12.",
+      "A": "Correcto. det(A) · det(B) = 4 · (-3) = -12.",
       "B": "Error al sumar los determinantes (4 + (-3) = 1) en vez de multiplicarlos.",
       "C": "Error al restar con valor absoluto (4 - (-3) = 7).",
       "D": "Error en la combinación aritmética."
@@ -937,8 +937,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "stepByStepDerivation": [
       "Plantear la ecuación vectorial c_1·(1, 1) + c_2·(1, -1) = (4, 2).",
       "Sistema: c_1 + c_2 = 4 y c_1 - c_2 = 2.",
-      "Sumar ecuaciones: 2·c_1 = 6 ==> c_1 = 3.",
-      "Restar ecuaciones: 2·c_2 = 2 ==> c_2 = 1.",
+      "Sumar ecuaciones: 2·c_1 = 6 ⇒ c_1 = 3.",
+      "Restar ecuaciones: 2·c_2 = 2 ⇒ c_2 = 1.",
       "Coordenadas: (3, 1)."
     ],
     "distractorRationale": {
@@ -992,10 +992,10 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "stepByStepDerivation": [
       "Calcular diferencia coordenada a coordenada: (2-1, 0-2, 2-0, 1-(-1)) = (1, -2, 2, 2).",
       "Elevar cada diferencia al cuadrado: 1^2 + (-2)^2 + 2^2 + 2^2 = 1 + 4 + 4 + 4 = 13.",
-      "Extraer raíz cuadrada: d = sqrt(13)."
+      "Extraer raíz cuadrada: d = √(13)."
     ],
     "distractorRationale": {
-      "A": "Correcto. sqrt(1 + 4 + 4 + 4) = sqrt(13).",
+      "A": "Correcto. √(1 + 4 + 4 + 4) = √(13).",
       "B": "Error al restar 1 - (-1) obteniendo 0 en vez de 2.",
       "C": "Error aritmético al redondear o sumar de forma errónea.",
       "D": "Omisión de las componentes espaciales intermedias."
@@ -1210,7 +1210,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "v^* A v = λ · (v^* v) = λ · ||v||^2.",
       "Aplicar conjugada transpuesta a la expresión escalar: (v^* A v)^* = v^* A^* v.",
       "Usar A^* = A: v^* A v = λ_conjugado · ||v||^2.",
-      "Igualar: λ = λ_conjugado ==> λ ∈ R (todos los autovalores son reales)."
+      "Igualar: λ = λ_conjugado ⇒ λ ∈ R (todos los autovalores son reales)."
     ],
     "distractorRationale": {
       "A": "Correcto. Teorema fundamental: los autovalores de matrices hermitianas son siempre reales.",
@@ -1261,7 +1261,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "La matriz $A$ tiene tamaño $4 \\times 7$. El rango máximo posible es $\\text{rg}(A) \\le \\min(4, 7) = 4$. Por el Teorema del Rango y la Nulidad: $\\text{nulidad}(A) = n - \\text{rg}(A) = 7 - \\text{rg}(A) \\ge 7 - 4 = 3$. Como la nulidad es al menos 3 ($> 0$), el espacio nulo contiene vectores no nulos, garantizando infinitas soluciones con al menos 3 variables libres.",
     "stepByStepDerivation": [
-      "Matriz A de tamaño 4x7 ==> n = 7 incógnitas, m = 4 ecuaciones.",
+      "Matriz A de tamaño 4x7 ⇒ n = 7 incógnitas, m = 4 ecuaciones.",
       "Rango máximo rg(A) ≤ 4.",
       "Nulidad = 7 - rg(A) ≥ 7 - 4 = 3.",
       "Como nulidad ≥ 3 > 0, existen infinitas soluciones no triviales."
@@ -1368,7 +1368,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "La matriz $P = \\hat{u} \\hat{u}^T$ proyecta cualquier vector sobre el subespacio unidimensional generado por $\\hat{u}$, por lo que su imagen tiene dimensión 1 y $\\text{rg}(P) = 1$. Utilizando la propiedad cíclica de la traza: $\\text{tr}(P) = \\text{tr}(\\hat{u} \\hat{u}^T) = \\text{tr}(\\hat{u}^T \\hat{u}) = \\text{tr}(\\|\\hat{u}\\|^2) = 1$, ya que $\\hat{u}$ es un vector unitario.",
     "stepByStepDerivation": [
-      "La imagen de P es span{u}, subespacio de dimensión 1 ==> rango = 1.",
+      "La imagen de P es span{u}, subespacio de dimensión 1 ⇒ rango = 1.",
       "Aplicar propiedad cíclica de la traza: tr(u · u^T) = tr(u^T · u).",
       "u^T · u es el escalar ||u||^2 = 1.",
       "Por lo tanto, tr(P) = 1."
@@ -1396,14 +1396,14 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "La operación elemental $F_i \\to F_i + c F_j$ equivale a multiplicar $A$ por la izquierda por una matriz elemental de corte $E_{ij}(c)$, cuyo determinante es 1 (matriz triangular con unos en la diagonal). Por la multiplicatividad del determinante: $\\det(E_{ij}(c) A) = \\det(E_{ij}(c)) \\cdot \\det(A) = 1 \\cdot \\det(A) = \\det(A)$.",
     "stepByStepDerivation": [
       "Representar la operación elemental mediante matriz E.",
-      "E es triangular con diagonal compuesta por unos ==> det(E) = 1.",
+      "E es triangular con diagonal compuesta por unos ⇒ det(E) = 1.",
       "det(E · A) = det(E) · det(A) = 1 · det(A) = det(A).",
       "El determinante permanece invariable."
     ],
     "distractorRationale": {
       "A": "Correcto. Esta operación preserva el volumen orientado y el valor del determinante.",
-      "B": "Multiplicar por c ocurre cuando se escala una fila por c (F_i -> c*F_i), no al sumar un múltiplo.",
-      "C": "Cambiar de signo ocurre al permutar dos filas entre sí (F_i <-> F_j).",
+      "B": "Multiplicar por c ocurre cuando se escala una fila por c (F_i → c*F_i), no al sumar un múltiplo.",
+      "C": "Cambiar de signo ocurre al permutar dos filas entre sí (F_i < → F_j).",
       "D": "Solo sería cero si las filas fuesen idénticas o proporcionales previamente."
     }
   },
@@ -1448,9 +1448,9 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "Como $\\text{rg}(A) = n - 1$, el determinante es $\\det(A) = 0$. Por la relación fundamental $A \\cdot \\text{adj}(A) = \\det(A) I = 0$, cada columna de $\\text{adj}(A)$ pertenece al espacio nulo $\\ker(A)$. Por el Teorema del Rango y la Nulidad, $\\text{dim}(\\ker A) = n - \\text{rg}(A) = n - (n - 1) = 1$. Así, $\\text{rg}(\\text{adj}(A)) \\le 1$. Además, al ser $\\text{rg}(A) = n - 1$, existe al menos un menor de orden $n - 1$ no nulo, lo que implica que $\\text{adj}(A) \\neq 0$. Al ser no nula y tener rango $\\le 1$, concluimos rigurosamente que $\\text{rg}(\\text{adj}(A)) = 1$.",
     "stepByStepDerivation": [
       "rg(A) = n - 1 implica det(A) = 0.",
-      "A · adj(A) = 0 ==> columnas de adj(A) están en ker(A).",
-      "dim(ker(A)) = n - (n - 1) = 1 ==> rg(adj(A)) ≤ 1.",
-      "Al tener rango n - 1, existe al menos un cofactor no nulo ==> adj(A) ≠ 0.",
+      "A · adj(A) = 0 ⇒ columnas de adj(A) están en ker(A).",
+      "dim(ker(A)) = n - (n - 1) = 1 ⇒ rg(adj(A)) ≤ 1.",
+      "Al tener rango n - 1, existe al menos un cofactor no nulo ⇒ adj(A) ≠ 0.",
       "Una matriz no nula con rango ≤ 1 tiene exactamente rango 1."
     ],
     "distractorRationale": {
@@ -1477,7 +1477,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "stepByStepDerivation": [
       "Identificar la fórmula: sin(2θ) = 2·sin(θ)·cos(θ).",
       "Calcular cos(θ) usando cos^2(θ) = 1 - sin^2(θ) = 1 - 9/25 = 16/25.",
-      "En el cuadrante II, cos(θ) < 0 ==> cos(θ) = -4/5.",
+      "En el cuadrante II, cos(θ) < 0 ⇒ cos(θ) = -4/5.",
       "Multiplicar: 2 · (3/5) · (-4/5) = -24/25."
     ],
     "distractorRationale": {
@@ -1537,7 +1537,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "distractorRationale": {
       "A": "Correcto. 2(1/9) - 1 = 2/9 - 9/9 = -7/9.",
       "B": "Error al invertir el signo de la resta (1 - 2/9 = 7/9).",
-      "C": "Error al multiplicar linealmente 2 * (-1/3) = -2/3.",
+      "C": "Error al multiplicar linealmente 2 · (-1/3) = -2/3.",
       "D": "Error al no restar 1 tras elevar al cuadrado."
     }
   },
@@ -1584,8 +1584,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "stepByStepDerivation": [
       "Aplicar la identidad: sec^2(θ) = 1 + tan^2(θ).",
       "Sustituir tan(θ) = 2: sec^2(θ) = 1 + 4 = 5.",
-      "Determinar el signo en el Cuadrante III: cos(θ) < 0 ==> sec(θ) < 0.",
-      "Concluir sec(θ) = -sqrt(5)."
+      "Determinar el signo en el Cuadrante III: cos(θ) < 0 ⇒ sec(θ) < 0.",
+      "Concluir sec(θ) = -√(5)."
     ],
     "distractorRationale": {
       "A": "Correcto. sec^2 = 5 y en el Cuadrante III la secante es negativa.",
@@ -1612,7 +1612,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Aplicar la identidad cot^2(θ) = csc^2(θ) - 1.",
       "Calcular csc^2(θ) = 169/144.",
       "Restar 1: 169/144 - 144/144 = 25/144.",
-      "En el Cuadrante IV, cot(θ) < 0 ==> cot(θ) = -5/12."
+      "En el Cuadrante IV, cot(θ) < 0 ⇒ cot(θ) = -5/12."
     ],
     "distractorRationale": {
       "A": "Correcto. cot^2 = 25/144 y signo negativo en el Cuadrante IV.",
@@ -1692,7 +1692,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Numerador: 1/2 + 1/3 = 5/6.",
       "Denominador: 1 - (1/2)(1/3) = 1 - 1/6 = 5/6.",
       "Cociente: (5/6) / (5/6) = 1.",
-      "Concluir: tan(α + β) = 1 ==> α + β = 45°."
+      "Concluir: tan(α + β) = 1 ⇒ α + β = 45°."
     ],
     "distractorRationale": {
       "A": "Correcto. Identidad clásica de Euler: arctan(1/2) + arctan(1/3) = pi/4.",
@@ -1904,13 +1904,13 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "La fórmula del ángulo mitad para el seno es $\\sin\\left(\\frac{\\theta}{2}\\right) = \\sqrt{\\frac{1 - \\cos\\theta}{2}}$ (signo positivo porque $0 < \\frac{\\theta}{2} < \\frac{\\pi}{4}$). Sustituyendo $\\cos\\theta = \\frac{7}{25}$: $1 - \\frac{7}{25} = \\frac{18}{25}$. Dividiendo entre 2: $\\frac{18/25}{2} = \\frac{9}{25}$. Extrayendo la raíz cuadrada: $\\sin\\left(\\frac{\\theta}{2}\\right) = \\sqrt{\\frac{9}{25}} = \\frac{3}{5}$.",
     "stepByStepDerivation": [
-      "Fórmula: sin(θ/2) = sqrt((1 - cos θ) / 2).",
+      "Fórmula: sin(θ/2) = √((1 - cos θ) / 2).",
       "Calcular 1 - cos(θ) = 1 - 7/25 = 18/25.",
       "Dividir entre 2: (18/25) / 2 = 9/25.",
-      "Extraer raíz: sqrt(9/25) = 3/5."
+      "Extraer raíz: √(9/25) = 3/5."
     ],
     "distractorRationale": {
-      "A": "Correcto. sqrt((1 - 7/25) / 2) = sqrt(9/25) = 3/5.",
+      "A": "Correcto. √((1 - 7/25) / 2) = √(9/25) = 3/5.",
       "B": "4/5 corresponde a cos(θ/2).",
       "C": "Error al olvidar extraer la raíz cuadrada final.",
       "D": "Error en la simplificación algebraica."
@@ -1931,13 +1931,13 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "La fórmula del ángulo mitad para el coseno es $\\cos\\left(\\frac{\\theta}{2}\\right) = \\sqrt{\\frac{1 + \\cos\\theta}{2}}$. Sustituyendo $\\cos\\theta = \\frac{7}{25}$: $1 + \\frac{7}{25} = \\frac{32}{25}$. Dividiendo entre 2: $\\frac{32/25}{2} = \\frac{16}{25}$. Extrayendo la raíz: $\\cos\\left(\\frac{\\theta}{2}\\right) = \\sqrt{\\frac{16}{25}} = \\frac{4}{5}$.",
     "stepByStepDerivation": [
-      "Fórmula: cos(θ/2) = sqrt((1 + cos θ) / 2).",
+      "Fórmula: cos(θ/2) = √((1 + cos θ) / 2).",
       "Calcular 1 + 7/25 = 32/25.",
       "Dividir entre 2: (32/25) / 2 = 16/25.",
-      "Extraer raíz: sqrt(16/25) = 4/5."
+      "Extraer raíz: √(16/25) = 4/5."
     ],
     "distractorRationale": {
-      "A": "Correcto. sqrt((1 + 7/25) / 2) = sqrt(16/25) = 4/5.",
+      "A": "Correcto. √((1 + 7/25) / 2) = √(16/25) = 4/5.",
       "B": "Corresponde a sin(θ/2).",
       "C": "Falta extraer la raíz cuadrada.",
       "D": "24/25 es el valor de sin(θ), no de cos(θ/2)."
@@ -1992,7 +1992,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     ],
     "distractorRationale": {
       "A": "Correcto. Soluciones exactas en el intervalo [0, 2pi).",
-      "B": "Corresponde a sin(x) = sqrt(3)/2 o cos(x) = 1/2.",
+      "B": "Corresponde a sin(x) = √(3)/2 o cos(x) = 1/2.",
       "C": "Corresponde a sin(x) = -1/2 (cuadrantes III y IV).",
       "D": "Solución incompleta; omite la raíz del segundo cuadrante."
     }
@@ -2012,15 +2012,15 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "Despejando: $\\tan(x) = -\\frac{1}{\\sqrt{3}} = -\\frac{\\sqrt{3}}{3}$. El ángulo de referencia es $\\theta_{ref} = \\frac{\\pi}{6}$ ($30^\\circ$). La tangente es negativa en los cuadrantes II y IV. En el cuadrante II: $x_1 = \\pi - \\frac{\\pi}{6} = \\frac{5\\pi}{6}$. En el cuadrante IV: $x_2 = 2\\pi - \\frac{\\pi}{6} = \\frac{11\\pi}{6}$.",
     "stepByStepDerivation": [
-      "Despejar tan(x) = -1/sqrt(3).",
-      "Ángulo de referencia: arctan(1/sqrt(3)) = π/6.",
+      "Despejar tan(x) = -1/√(3).",
+      "Ángulo de referencia: arctan(1/√(3)) = π/6.",
       "Cuadrante II: x = π - π/6 = 5π/6.",
       "Cuadrante IV: x = 2π - π/6 = 11π/6."
     ],
     "distractorRationale": {
       "A": "Correcto. Raíces en cuadrantes II y IV donde la tangente es negativa.",
-      "B": "Corresponde a tan(x) = +1/sqrt(3) (cuadrantes I y III).",
-      "C": "Corresponde a tan(x) = -sqrt(3).",
+      "B": "Corresponde a tan(x) = +1/√(3) (cuadrantes I y III).",
+      "C": "Corresponde a tan(x) = -√(3).",
       "D": "Corresponde a tan(x) = -1."
     }
   },
@@ -2040,8 +2040,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "Haciendo el cambio de variable $u = \\cos(x)$, la ecuación es $2u^2 - u - 1 = 0$. Factorizando: $(2u + 1)(u - 1) = 0$. Obtenemos dos casos: 1) $u = 1 \\implies \\cos(x) = 1 \\implies x = 0$. 2) $u = -\\frac{1}{2} \\implies \\cos(x) = -\\frac{1}{2}$. El coseno es negativo en los cuadrantes II y III: $x = \\pi - \\frac{\\pi}{3} = \\frac{2\\pi}{3}$ y $x = \\pi + \\frac{\\pi}{3} = \\frac{4\\pi}{3}$. El conjunto solución es $\\{0, \\frac{2\\pi}{3}, \\frac{4\\pi}{3}\\}$.",
     "stepByStepDerivation": [
       "Factorizar: (2·cos x + 1)(cos x - 1) = 0.",
-      "Caso 1: cos(x) = 1 ==> x = 0 en [0, 2π).",
-      "Caso 2: cos(x) = -1/2 ==> x = 2π/3 y x = 4π/3.",
+      "Caso 1: cos(x) = 1 ⇒ x = 0 en [0, 2π).",
+      "Caso 2: cos(x) = -1/2 ⇒ x = 2π/3 y x = 4π/3.",
       "Conjunto total: {0, 2π/3, 4π/3}."
     ],
     "distractorRationale": {
@@ -2068,8 +2068,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "stepByStepDerivation": [
       "Identidad: sin(2x) = 2·sin(x)·cos(x).",
       "Factor común: cos(x) · (2·sin(x) - 1) = 0.",
-      "Rama 1: cos(x) = 0 ==> x = π/2, 3π/2.",
-      "Rama 2: sin(x) = 1/2 ==> x = π/6, 5π/6.",
+      "Rama 1: cos(x) = 0 ⇒ x = π/2, 3π/2.",
+      "Rama 2: sin(x) = 1/2 ⇒ x = π/6, 5π/6.",
       "Total de soluciones únicas: 4."
     ],
     "distractorRationale": {
@@ -2098,8 +2098,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Simplificar: -2·sin^2(x) + 3·sin(x) - 1 = 0.",
       "Reordenar: 2·sin^2(x) - 3·sin(x) + 1 = 0.",
       "Factorizar: (2·sin(x) - 1)(sin(x) - 1) = 0.",
-      "sin(x) = 1/2 ==> x = π/6, 5π/6.",
-      "sin(x) = 1 ==> x = π/2."
+      "sin(x) = 1/2 ⇒ x = π/6, 5π/6.",
+      "sin(x) = 1 ⇒ x = π/2."
     ],
     "distractorRationale": {
       "A": "Correcto. Exactamente tres raíces: pi/6, pi/2 y 5pi/6.",
@@ -2124,12 +2124,12 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "Toda combinación $A\\sin(\\omega t) + B\\cos(\\omega t)$ equivale a $R\\sin(\\omega t + \\phi)$, donde $R = \\sqrt{A^2 + B^2}$ y $\\tan\\phi = \\frac{B}{A}$ (con $\\phi$ en el cuadrante adecuado según los signos de $A$ y $B$). Con $A = 3$ y $B = 4$: $R = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$. El ángulo de fase es $\\phi = \\arctan(4/3) \\approx 0.927\\text{ rad}$ ($53.13^\\circ$).",
     "stepByStepDerivation": [
       "Identificar coeficientes: A = 3, B = 4.",
-      "Calcular amplitud resultante: R = sqrt(A^2 + B^2) = sqrt(9 + 16) = 5.",
-      "Calcular fase: tan(phi) = B / A = 4 / 3 ==> phi = arctan(4/3).",
+      "Calcular amplitud resultante: R = √(A^2 + B^2) = √(9 + 16) = 5.",
+      "Calcular fase: tan(phi) = B / A = 4 / 3 ⇒ phi = arctan(4/3).",
       "Función resultante: f(t) = 5·sin(2t + arctan(4/3))."
     ],
     "distractorRationale": {
-      "A": "Correcto. R = sqrt(3^2 + 4^2) = 5 y phi = arctan(4/3).",
+      "A": "Correcto. R = √(3^2 + 4^2) = 5 y phi = arctan(4/3).",
       "B": "Error común al sumar aritméticamente las amplitudes 3 + 4 = 7 (interferencia destructiva ignorada).",
       "C": "Resta de amplitudes |3 - 4| = 1.",
       "D": "Confundir el cuadrado de la amplitud R^2 = 25 con la amplitud R = 5."
@@ -2151,13 +2151,13 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "Por la Ley de los Senos: $\\frac{a}{\\sin A} = \\frac{b}{\\sin B} \\implies b = a \\frac{\\sin B}{\\sin A}$. Sustituyendo: $\\sin(45^\\circ) = \\frac{\\sqrt{2}}{2}$ y $\\sin(60^\\circ) = \\frac{\\sqrt{3}}{2}$. Por lo tanto: $b = (10\\sqrt{2}) \\cdot \\frac{\\sqrt{3}/2}{\\sqrt{2}/2} = (10\\sqrt{2}) \\cdot \\frac{\\sqrt{3}}{\\sqrt{2}} = 10\\sqrt{3}\\text{ m}$.",
     "stepByStepDerivation": [
       "Aplicar Ley de Senos: b = a · sin(B) / sin(A).",
-      "Sustituir a = 10·sqrt(2), sin(60°) = sqrt(3)/2, sin(45°) = sqrt(2)/2.",
-      "El factor 1/2 se cancela: b = 10·sqrt(2) · (sqrt(3) / sqrt(2)).",
-      "El factor sqrt(2) se cancela: b = 10·sqrt(3) m."
+      "Sustituir a = 10·√(2), sin(60°) = √(3)/2, sin(45°) = √(2)/2.",
+      "El factor 1/2 se cancela: b = 10·√(2) · (√(3) / √(2)).",
+      "El factor √(2) se cancela: b = 10·√(3) m."
     ],
     "distractorRationale": {
-      "A": "Correcto. b = 10*sqrt(3) m.",
-      "B": "Error al multiplicar sqrt(2) * sqrt(3) sin simplificar el denominador.",
+      "A": "Correcto. b = 10*√(3) m.",
+      "B": "Error al multiplicar √(2) · √(3) sin simplificar el denominador.",
       "C": "Aproximación tosca sin rigor algebraico radical.",
       "D": "Error al dividir entre 2 dos veces."
     }
@@ -2180,10 +2180,10 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Fórmula: c^2 = a^2 + b^2 - 2ab·cos(C).",
       "Calcular a^2 + b^2 = 25 + 64 = 89.",
       "Calcular 2ab·cos(60°) = 2(5)(8)(0.5) = 40.",
-      "Restar: c^2 = 89 - 40 = 49 ==> c = 7 cm."
+      "Restar: c^2 = 89 - 40 = 49 ⇒ c = 7 cm."
     ],
     "distractorRationale": {
-      "A": "Correcto. c^2 = 89 - 40 = 49 ==> c = 7 cm.",
+      "A": "Correcto. c^2 = 89 - 40 = 49 ⇒ c = 7 cm.",
       "B": "Error al omitir el término de corrección angular -2ab cos(C).",
       "C": "Estimación incorrecta.",
       "D": "Resta lineal de lados 8 - 5 = 3 cm."
@@ -2213,7 +2213,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "distractorRationale": {
       "A": "Correcto. cos(C) = -1/2 corresponde exactamente a 120°.",
       "B": "60° corresponde a cos(C) = +1/2, olvidando el signo negativo.",
-      "C": "150° corresponde a cos(C) = -sqrt(3)/2.",
+      "C": "150° corresponde a cos(C) = -√3/2.",
       "D": "Si fuese 90°, satisfaría Pitágoras 3^2 + 5^2 = 34 ≠ 49."
     }
   },
@@ -2239,7 +2239,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     ],
     "distractorRationale": {
       "A": "Correcto. a = 4 < h = 5 hace imposible la formación de un triángulo.",
-      "B": "Para 1 solución se requiere a = h o a >= b.",
+      "B": "Para 1 solución se requiere a = h o a ≥ b.",
       "C": "Para 2 soluciones se requiere h < a < b.",
       "D": "El sistema está sobredefinido y es geométricamente inconsistente."
     }
@@ -2292,7 +2292,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Criterio LLA: cuando a ≥ b, solo se forma 1 triángulo."
     ],
     "distractorRationale": {
-      "A": "Correcto. a >= b siempre produce una única solución geométrica.",
+      "A": "Correcto. a ≥ b siempre produce una única solución geométrica.",
       "B": "Para 2 soluciones es estrictamente necesario que a < b.",
       "C": "Como a > h, la existencia de solución está garantizada.",
       "D": "La geometría euclidiana plana no admite 3 soluciones para LLA."
@@ -2319,9 +2319,9 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Área = 30 · 0.5 = 15 m^2."
     ],
     "distractorRationale": {
-      "A": "Correcto. (1/2) * 6 * 10 * (1/2) = 15 m^2.",
+      "A": "Correcto. (1/2) · 6 × 10 · (1/2) = 15 m^2.",
       "B": "Error al olvidar multiplicar por el factor 1/2 de la fórmula triangular.",
-      "C": "Error al utilizar cos(30°) = sqrt(3)/2 en lugar de sin(30°).",
+      "C": "Error al utilizar cos(30°) = √(3)/2 en lugar de sin(30°).",
       "D": "Producto directo de lados sin considerar ángulo ni geometría triangular."
     }
   },
@@ -2343,10 +2343,10 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Calcular semiperímetro: s = (5 + 6 + 7)/2 = 9.",
       "Calcular diferencias: (s - a) = 4, (s - b) = 3, (s - c) = 2.",
       "Producto radicando: 9 · 4 · 3 · 2 = 216.",
-      "Simplificar radical: sqrt(216) = sqrt(36 · 6) = 6·sqrt(6)."
+      "Simplificar radical: √(216) = √(36 · 6) = 6·√(6)."
     ],
     "distractorRationale": {
-      "A": "Correcto. sqrt(9 * 4 * 3 * 2) = sqrt(216) = 6*sqrt(6).",
+      "A": "Correcto. √(9 × 4 · 3 × 2) = √(216) = 6*√(6).",
       "B": "Error en la descomposición en factores primos del radicando.",
       "C": "Aproximación decimal que no refleja el valor algebraico exacto.",
       "D": "Error aritmético al calcular el producto bajo la raíz."
@@ -2419,10 +2419,10 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "Sea $\\theta = \\arccos(x)$, lo que implica $\\cos\\theta = x$ con $\\theta \\in [0, \\pi]$. En este intervalo, $\\sin\\theta \\ge 0$. Por la identidad pitagórica, $\\sin\\theta = \\sqrt{1 - \\cos^2\\theta} = \\sqrt{1 - x^2}$. Sustituyendo $\\theta$: $\\sin(\\arccos(x)) = \\sqrt{1 - x^2}$.",
     "stepByStepDerivation": [
-      "Sea θ = arccos(x) ==> cos(θ) = x con θ ∈ [0, π].",
+      "Sea θ = arccos(x) ⇒ cos(θ) = x con θ ∈ [0, π].",
       "En [0, π], sin(θ) ≥ 0.",
-      "Por Pitágoras: sin(θ) = sqrt(1 - cos^2(θ)).",
-      "Sustituir cos(θ) = x: sin(arccos(x)) = sqrt(1 - x^2)."
+      "Por Pitágoras: sin(θ) = √(1 - cos^2(θ)).",
+      "Sustituir cos(θ) = x: sin(arccos(x)) = √(1 - x^2)."
     ],
     "distractorRationale": {
       "A": "Correcto. Identidad analítica universal para x en [-1, 1].",
@@ -2446,9 +2446,9 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "Sea $\\theta = \\arcsin(3/5)$. Entonces $\\sin\\theta = \\frac{3}{5}$ en el primer cuadrante. En un triángulo rectángulo con cateto opuesto 3 e hipotenusa 5, el cateto adyacente es $\\sqrt{5^2 - 3^2} = \\sqrt{25 - 9} = 4$. Por definición de tangente: $\\tan\\theta = \\frac{\\text{cateto opuesto}}{\\text{cateto adyacente}} = \\frac{3}{4}$.",
     "stepByStepDerivation": [
-      "Sea θ = arcsin(3/5) ==> sin(θ) = 3/5.",
+      "Sea θ = arcsin(3/5) ⇒ sin(θ) = 3/5.",
       "Cateto opuesto = 3, Hipotenusa = 5.",
-      "Cateto adyacente = sqrt(5^2 - 3^2) = 4.",
+      "Cateto adyacente = √(5^2 - 3^2) = 4.",
       "tan(θ) = Opuesto / Adyacente = 3/4."
     ],
     "distractorRationale": {
@@ -2473,9 +2473,9 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "Sea $\\theta = \\arctan(4/3) \\implies \\tan\\theta = \\frac{4}{3}$. En un triángulo rectángulo, el cateto opuesto es 4 y el cateto adyacente es 3. La hipotenusa es $\\sqrt{3^2 + 4^2} = 5$. Por lo tanto: $\\cos\\theta = \\frac{\\text{cateto adyacente}}{\\text{hipotenusa}} = \\frac{3}{5}$.",
     "stepByStepDerivation": [
-      "Sea θ = arctan(4/3) ==> tan(θ) = 4/3.",
+      "Sea θ = arctan(4/3) ⇒ tan(θ) = 4/3.",
       "Cateto adyacente = 3, cateto opuesto = 4.",
-      "Hipotenusa = sqrt(3^2 + 4^2) = 5.",
+      "Hipotenusa = √(3^2 + 4^2) = 5.",
       "cos(θ) = Adyacente / Hipotenusa = 3/5."
     ],
     "distractorRationale": {
@@ -2500,7 +2500,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "Sea $\\alpha = \\arcsin(x) \\implies \\sin\\alpha = x$, con $\\alpha \\in [-\\pi/2, \\pi/2]$. Por la identidad de cofunciones, $\\cos(\\pi/2 - \\alpha) = \\sin\\alpha = x$. Como $\\alpha \\in [-\\pi/2, \\pi/2]$, se tiene que $\\pi/2 - \\alpha \\in [0, \\pi]$, que coincide con el rango principal de la función arcocoseno. Por lo tanto, $\\arccos(x) = \\frac{\\pi}{2} - \\alpha = \\frac{\\pi}{2} - \\arcsin(x) \\implies \\arcsin(x) + \\arccos(x) = \\frac{\\pi}{2}$.",
     "stepByStepDerivation": [
-      "Sea α = arcsin(x) ==> sin(α) = x.",
+      "Sea α = arcsin(x) ⇒ sin(α) = x.",
       "Usar cofunción: cos(π/2 - α) = sin(α) = x.",
       "Por definición de función inversa: arccos(x) = π/2 - α.",
       "Sumar α: arcsin(x) + arccos(x) = π/2."
@@ -2529,7 +2529,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "stepByStepDerivation": [
       "arctan(1) = π/4.",
       "Para x = 2 e y = 3 con x·y > 1: arctan(2) + arctan(3) = π + arctan((2+3)/(1-6)).",
-      "arctan(-1) = -π/4 ==> π - π/4 = 3π/4.",
+      "arctan(-1) = -π/4 ⇒ π - π/4 = 3π/4.",
       "Sumar los tres términos: π/4 + 3π/4 = π."
     ],
     "distractorRationale": {
@@ -2588,7 +2588,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "distractorRationale": {
       "A": "Correcto. 2pi/3 (120°) y 4pi/3 (240°).",
       "B": "Corresponde a sec(x) = +2 (cuadrantes I y IV).",
-      "C": "Corresponde a cos(x) = -sqrt(3)/2.",
+      "C": "Corresponde a cos(x) = -√(3)/2.",
       "D": "sec(pi) = -1, no -2."
     }
   },
@@ -2607,14 +2607,14 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "Extrayendo raíz cuadrada a ambos miembros: $\\cot(x) = \\pm\\sqrt{3} \\iff \\tan(x) = \\pm\\frac{1}{\\sqrt{3}}$. En el intervalo $(0, \\pi)$: 1) $\\tan(x) = \\frac{1}{\\sqrt{3}} \\implies x = \\frac{\\pi}{6}$ (primer cuadrante). 2) $\\tan(x) = -\\frac{1}{\\sqrt{3}} \\implies x = \\pi - \\frac{\\pi}{6} = \\frac{5\\pi}{6}$ (segundo cuadrante).",
     "stepByStepDerivation": [
-      "cot^2(x) = 3 ==> cot(x) = ±sqrt(3).",
-      "Equivale a tan(x) = ±1/sqrt(3).",
+      "cot^2(x) = 3 ⇒ cot(x) = ±√(3).",
+      "Equivale a tan(x) = ±1/√(3).",
       "En (0, π): x_1 = π/6 y x_2 = 5π/6."
     ],
     "distractorRationale": {
       "A": "Correcto. pi/6 y 5pi/6 en el intervalo abierto (0, pi).",
       "B": "Corresponde a cot^2(x) = 1/3 (tan^2(x) = 3).",
-      "C": "Solución incompleta al omitir la raíz negativa -sqrt(3).",
+      "C": "Solución incompleta al omitir la raíz negativa -√(3).",
       "D": "Corresponde a cot^2(x) = 1."
     }
   },
@@ -2685,15 +2685,15 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "El módulo de $z = 1 + i$ es $r = \\sqrt{1^2 + 1^2} = \\sqrt{2}$, y su argumento es $\\theta = \\frac{\\pi}{4}$. En forma polar: $z = \\sqrt{2} \\left(\\cos\\frac{\\pi}{4} + i\\sin\\frac{\\pi}{4}\\right)$. Por el Teorema de De Moivre: $z^8 = (\\sqrt{2})^8 \\left[\\cos\\left(8 \\cdot \\frac{\\pi}{4}\\right) + i\\sin\\left(8 \\cdot \\frac{\\pi}{4}\\right)\\right] = 2^4 [\\cos(2\\pi) + i\\sin(2\\pi)] = 16(1 + 0i) = 16$.",
     "stepByStepDerivation": [
-      "Módulo: r = sqrt(1^2 + 1^2) = sqrt(2).",
+      "Módulo: r = √(1^2 + 1^2) = √(2).",
       "Argumento: θ = arctan(1/1) = π/4.",
-      "Aplicar De Moivre a la potencia 8: r^8 = (sqrt(2))^8 = 2^4 = 16.",
+      "Aplicar De Moivre a la potencia 8: r^8 = (√(2))^8 = 2^4 = 16.",
       "Argumento multiplicado: 8 · (π/4) = 2π.",
       "cos(2π) + i·sin(2π) = 1 + 0i = 1.",
       "Resultado: 16 · 1 = 16."
     ],
     "distractorRationale": {
-      "A": "Correcto. (sqrt(2))^8 * (cos 2pi + i sin 2pi) = 16 * 1 = 16.",
+      "A": "Correcto. (√(2))^8 · (cos 2pi + i sin 2pi) = 16 × 1 = 16.",
       "B": "Error al asumir que el resultado conserva componente imaginaria (sin(2pi) = 0).",
       "C": "Error de signo en el coseno de 2pi.",
       "D": "Confusión entre el exponente 8 y el módulo."
@@ -2715,9 +2715,9 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "Sumando las tres raíces: $1 + \\left(-\\frac{1}{2} + i\\frac{\\sqrt{3}}{2}\\right) + \\left(-\\frac{1}{2} - i\\frac{\\sqrt{3}}{2}\\right) = 1 - \\frac{1}{2} - \\frac{1}{2} + i\\left(\\frac{\\sqrt{3}}{2} - \\frac{\\sqrt{3}}{2}\\right) = 0$. Por el Teorema Fundamental del Álgebra y las propiedades de las raíces $n$-ésimas de la unidad, los afijos dividen la circunferencia unitaria $|z| = 1$ en tres arcos iguales de $120^\\circ$ ($2\\pi/3$), constituyendo los vértices de un triángulo equilátero perfecto centrado en el origen.",
     "stepByStepDerivation": [
       "Sumar partes reales: 1 - 0.5 - 0.5 = 0.",
-      "Sumar partes imaginarias: sqrt(3)/2 - sqrt(3)/2 = 0.",
+      "Sumar partes imaginarias: √(3)/2 - √(3)/2 = 0.",
       "Suma total = 0.",
-      "Ángulos: 0°, 120°, 240° ==> polígono regular de 3 lados (triángulo equilátero)."
+      "Ángulos: 0°, 120°, 240° ⇒ polígono regular de 3 lados (triángulo equilátero)."
     ],
     "distractorRationale": {
       "A": "Correcto. Suma nula y triángulo equilátero en el plano complejo.",
@@ -2800,7 +2800,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Despejar cos(t) = x / 3.",
       "Despejar sin(t) = y / 2.",
       "Aplicar identidad pitagórica: cos^2(t) + sin^2(t) = 1.",
-      "Sustituir: (x/3)^2 + (y/2)^2 = 1 ==> x^2/9 + y^2/4 = 1.",
+      "Sustituir: (x/3)^2 + (y/2)^2 = 1 ⇒ x^2/9 + y^2/4 = 1.",
       "Concluir que describe una elipse horizontal."
     ],
     "distractorRationale": {
@@ -2826,7 +2826,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "Como $25 > 9$, el eje mayor es horizontal coincidente con el eje $x$, con $a^2 = 25 \\implies a = 5$ y $b^2 = 9 \\implies b = 3$. La relación fundamental de la elipse es $a^2 = b^2 + c^2 \\implies c = \\sqrt{a^2 - b^2} = \\sqrt{25 - 9} = \\sqrt{16} = 4$. Los focos se ubican sobre el eje mayor en $(\\pm c, 0) = (\\pm 4, 0)$. La excentricidad es la razón $e = \\frac{c}{a} = \\frac{4}{5} = 0.8 < 1$.",
     "stepByStepDerivation": [
       "Identificar semiejes: a = 5, b = 3.",
-      "Calcular semidistancia focal: c = sqrt(a^2 - b^2) = sqrt(25 - 9) = 4.",
+      "Calcular semidistancia focal: c = √(a^2 - b^2) = √(25 - 9) = 4.",
       "Ubicación de focos en eje mayor horizontal: F1(-4, 0) y F2(4, 0).",
       "Calcular excentricidad: e = c / a = 4 / 5 = 0.8."
     ],
@@ -2882,10 +2882,10 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Agrupar términos: (x^2 - 6x) + (y^2 + 8y) = 11.",
       "Completar cuadrados: (x - 3)^2 - 9 + (y + 4)^2 - 16 = 11.",
       "Sumar constantes: (x - 3)^2 + (y + 4)^2 = 11 + 9 + 16 = 36.",
-      "Extraer centro (3, -4) y radio r = sqrt(36) = 6."
+      "Extraer centro (3, -4) y radio r = √(36) = 6."
     ],
     "distractorRationale": {
-      "A": "Correcto. C(3, -4) y r = sqrt(36) = 6.",
+      "A": "Correcto. C(3, -4) y r = √(36) = 6.",
       "B": "Error de signos en las coordenadas del centro.",
       "C": "Error al tomar r^2 = 36 en lugar de extraer la raíz cuadrada r = 6.",
       "D": "Error al tomar directamente los coeficientes lineales D y E."
@@ -2909,7 +2909,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Pendiente del radio vector OP: m_r = 4 / 3.",
       "Pendiente perpendicular de la tangente: m_t = -1 / (4/3) = -3/4.",
       "Ecuación punto-pendiente: y - 4 = (-3/4)(x - 3).",
-      "Desarrollar: 4(y - 4) = -3(x - 3) ==> 4y - 16 = -3x + 9 ==> 3x + 4y - 25 = 0."
+      "Desarrollar: 4(y - 4) = -3(x - 3) ⇒ 4y - 16 = -3x + 9 ⇒ 3x + 4y - 25 = 0."
     ],
     "distractorRationale": {
       "A": "Correcto. 3x + 4y - 25 = 0.",
@@ -2933,15 +2933,15 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "La distancia desde el centro $(0, 0)$ de la circunferencia a la recta tangente $x - y + k = 0$ debe ser exactamente igual al radio $r = \\sqrt{8} = 2\\sqrt{2}$. La fórmula de distancia de un punto a una recta es: $d = \\frac{|Ax_0 + By_0 + C|}{\\sqrt{A^2 + B^2}} = \\frac{|0 - 0 + k|}{\\sqrt{1^2 + (-1)^2}} = \\frac{|k|}{\\sqrt{2}}$. Igualando al radio: $\\frac{|k|}{\\sqrt{2}} = \\sqrt{8} \\implies |k| = \\sqrt{2} \\cdot \\sqrt{8} = \\sqrt{16} = 4 \\implies k = \\pm 4$.",
     "stepByStepDerivation": [
-      "Identificar centro C(0, 0) y radio r = sqrt(8).",
+      "Identificar centro C(0, 0) y radio r = √(8).",
       "Escribir la recta en forma general: x - y + k = 0.",
-      "Distancia de (0, 0) a la recta: d = |k| / sqrt(1^2 + (-1)^2) = |k| / sqrt(2).",
-      "Condición de tangencia d = r: |k| / sqrt(2) = sqrt(8).",
-      "Despejar: |k| = sqrt(16) = 4 ==> k = ±4."
+      "Distancia de (0, 0) a la recta: d = |k| / √(1^2 + (-1)^2) = |k| / √(2).",
+      "Condición de tangencia d = r: |k| / √(2) = √(8).",
+      "Despejar: |k| = √(16) = 4 ⇒ k = ±4."
     ],
     "distractorRationale": {
-      "A": "Correcto. |k| = sqrt(2)*sqrt(8) = 4 ==> k = ±4.",
-      "B": "Confusión al igualar k directamente al radio r = 2*sqrt(2).",
+      "A": "Correcto. |k| = √(2)*√(8) = 4 ⇒ k = ±4.",
+      "B": "Confusión al igualar k directamente al radio r = 2*√(2).",
       "C": "Error al multiplicar por 2 sin extraer la raíz cuadrada.",
       "D": "Error en el despeje algebraico."
     }
@@ -2962,7 +2962,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "La forma canónica de una parábola horizontal con vértice en el origen abierta hacia la derecha es $y^2 = 4px$. Igualando coeficientes: $4p = 12 \\implies p = 3$. Como el eje focal coincide con el eje $x$, el foco se localiza en $(p, 0) = (3, 0)$. La directriz es la recta vertical $x = -p \\implies x = -3$. La longitud del lado recto es $LR = |4p| = 12$.",
     "stepByStepDerivation": [
       "Comparar y^2 = 12x con y^2 = 4px.",
-      "4p = 12 ==> parámetro focal p = 3.",
+      "4p = 12 ⇒ parámetro focal p = 3.",
       "Foco sobre el eje x: F(p, 0) = (3, 0).",
       "Directriz perpendicular al eje: x = -p = -3.",
       "Longitud del lado recto: LR = 4p = 12."
@@ -2990,7 +2990,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "La ecuación ordinaria es $(x - h)^2 = 4p(y - k)$, con vértice $V(h, k) = (2, 3)$. Igualando coeficientes: $4p = -8 \\implies p = -2$. Al ser $p < 0$, la parábola se abre hacia abajo a lo largo del eje vertical $x = 2$. Las coordenadas del foco son $F(h, k + p) = (2, 3 + (-2)) = (2, 1)$. La ecuación de la directriz horizontal es $y = k - p = 3 - (-2) = 5$.",
     "stepByStepDerivation": [
       "Identificar vértice: (h, k) = (2, 3).",
-      "4p = -8 ==> p = -2 (abre hacia abajo).",
+      "4p = -8 ⇒ p = -2 (abre hacia abajo).",
       "Foco: (h, k + p) = (2, 3 - 2) = (2, 1).",
       "Directriz: y = k - p = 3 - (-2) = 5."
     ],
@@ -3017,7 +3017,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "La forma es $(y - k)^2 = 4p(x - h)$. El vértice es $V(h, k) = (2, -1)$. Como $4p = 16$, tenemos $p = 4$. Dado que la parábola es horizontal y abre hacia la derecha ($p > 0$), el foco se desplaza $p$ unidades a la derecha del vértice: $F(h + p, k) = (2 + 4, -1) = (6, -1)$.",
     "stepByStepDerivation": [
       "Vértice: V(2, -1).",
-      "4p = 16 ==> p = 4.",
+      "4p = 16 ⇒ p = 4.",
       "Parábola horizontal que abre hacia la derecha.",
       "Foco: (h + p, k) = (2 + 4, -1) = (6, -1)."
     ],
@@ -3069,7 +3069,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "Derivando implícitamente respecto a $x$: $2y \\frac{dy}{dx} = 8 \\implies \\frac{dy}{dx} = \\frac{8}{2y} = \\frac{4}{y}$. En el punto $(2, 4)$, la pendiente de la recta tangente es $m = \\frac{4}{4} = 1$. Utilizando la ecuación punto-pendiente: $y - 4 = 1(x - 2) \\implies y - 4 = x - 2 \\implies x - y + 2 = 0$. (Alternativamente, por desdoblamiento: $y_0 y = 4(x + x_0) \\implies 4y = 4(x + 2) \\implies y = x + 2 \\implies x - y + 2 = 0$).",
     "stepByStepDerivation": [
-      "Derivada implícita: 2y·y' = 8 ==> y' = 4/y.",
+      "Derivada implícita: 2y·y' = 8 ⇒ y' = 4/y.",
       "Evaluar en y = 4: pendiente m = 4 / 4 = 1.",
       "Ecuación de la recta: y - 4 = 1 · (x - 2).",
       "Forma general: x - y + 2 = 0."
@@ -3124,10 +3124,10 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "El denominador mayor es 25 y se ubica bajo el término $y$, lo que indica que el eje mayor es vertical paralelo al eje $y$. Por tanto: $a^2 = 25 \\implies a = 5$, $b^2 = 9 \\implies b = 3$. El centro es $C(h, k) = (1, 2)$. La distancia focal es $c = \\sqrt{a^2 - b^2} = \\sqrt{25 - 9} = \\sqrt{16} = 4$. Los focos se ubican sobre la recta vertical $x = 1$ sumando y restando $c$ a la ordenada del centro: $F_1(1, 2 + 4) = (1, 6)$ y $F_2(1, 2 - 4) = (1, -2)$.",
     "stepByStepDerivation": [
       "Centro C(1, 2).",
-      "a^2 = 25 (a = 5) bajo y ==> eje mayor vertical.",
+      "a^2 = 25 (a = 5) bajo y ⇒ eje mayor vertical.",
       "b^2 = 9 (b = 3).",
-      "c = sqrt(25 - 9) = 4.",
-      "Focos: (h, k ± c) = (1, 2 ± 4) ==> (1, 6) y (1, -2)."
+      "c = √(25 - 9) = 4.",
+      "Focos: (h, k ± c) = (1, 2 ± 4) ⇒ (1, 6) y (1, -2)."
     ],
     "distractorRationale": {
       "A": "Correcto. Focos en (1, 6) y (1, -2).",
@@ -3152,8 +3152,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "Dividimos toda la ecuación entre 144 para obtener la forma canónica: $\\frac{9x^2}{144} + \\frac{16y^2}{144} = 1 \\implies \\frac{x^2}{16} + \\frac{y^2}{9} = 1$. Así, $a^2 = 16 \\implies a = 4$ (semieje mayor), y $b^2 = 9 \\implies b = 3$ (semieje menor). Las longitudes de los ejes completos son: eje mayor $= 2a = 2(4) = 8$, y eje menor $= 2b = 2(3) = 6$.",
     "stepByStepDerivation": [
       "Dividir entre 144: x^2 / 16 + y^2 / 9 = 1.",
-      "Semieje mayor a = sqrt(16) = 4.",
-      "Semieje menor b = sqrt(9) = 3.",
+      "Semieje mayor a = √(16) = 4.",
+      "Semieje menor b = √(9) = 3.",
       "Longitud eje mayor = 2a = 8.",
       "Longitud eje menor = 2b = 6."
     ],
@@ -3180,7 +3180,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "La excentricidad de una elipse mide el grado de achatamiento respecto a la circunferencia y se define como $e = \\frac{c}{a}$. Dado que $c = \\sqrt{a^2 - b^2}$, sustituyendo tenemos $e = \\frac{\\sqrt{a^2 - b^2}}{a} = \\sqrt{1 - \\frac{b^2}{a^2}}$. Como $a > b > 0$, el radicando $1 - \\frac{b^2}{a^2}$ está estrictamente entre 0 y 1, por lo que $0 < e < 1$. (Si $e = 0$, los ejes son iguales $a = b$ y se tiene una circunferencia).",
     "stepByStepDerivation": [
       "Definición: e = c / a.",
-      "Sustituir c = sqrt(a^2 - b^2): e = sqrt(1 - (b/a)^2).",
+      "Sustituir c = √(a^2 - b^2): e = √(1 - (b/a)^2).",
       "Como 0 < b < a, se tiene 0 < (b/a)^2 < 1.",
       "Por lo tanto, 0 < e < 1 para toda elipse."
     ],
@@ -3259,8 +3259,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "Por la definición focal de la elipse: $d(P, F_1) + d(P, F_2) = 2a$. Aquí $2a = 10 \\implies a = 5$. La distancia entre los focos es $2c = 3 - (-3) = 6 \\implies c = 3$. En la elipse se cumple $b^2 = a^2 - c^2 = 5^2 - 3^2 = 25 - 9 = 16$. Como los focos yacen sobre el eje $x$, la ecuación es $\\frac{x^2}{a^2} + \\frac{y^2}{b^2} = 1 \\implies \\frac{x^2}{25} + \\frac{y^2}{16} = 1$.",
     "stepByStepDerivation": [
-      "2a = 10 ==> a = 5 ==> a^2 = 25.",
-      "Focos en (±3, 0) ==> c = 3 ==> c^2 = 9.",
+      "2a = 10 ⇒ a = 5 ⇒ a^2 = 25.",
+      "Focos en (±3, 0) ⇒ c = 3 ⇒ c^2 = 9.",
       "Calcular b^2 = a^2 - c^2 = 25 - 9 = 16.",
       "Ecuación ordinaria: x^2 / 25 + y^2 / 16 = 1."
     ],
@@ -3286,9 +3286,9 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "La ecuación canónica con término positivo en $x$ corresponde a una hipérbola horizontal: $a^2 = 16 \\implies a = 4$, luego los vértices están en $(\\pm a, 0) = (\\pm 4, 0)$. En la hipérbola, la relación fundamental es $c^2 = a^2 + b^2 = 16 + 9 = 25 \\implies c = 5$. Los focos se ubican en $(\\pm c, 0) = (\\pm 5, 0)$.",
     "stepByStepDerivation": [
-      "Semieje real a = sqrt(16) = 4 ==> Vértices (±4, 0).",
-      "Semieje imaginario b = sqrt(9) = 3.",
-      "Semidistancia focal: c = sqrt(a^2 + b^2) = sqrt(16 + 9) = 5.",
+      "Semieje real a = √(16) = 4 ⇒ Vértices (±4, 0).",
+      "Semieje imaginario b = √(9) = 3.",
+      "Semidistancia focal: c = √(a^2 + b^2) = √(16 + 9) = 5.",
       "Focos: (±c, 0) = (±5, 0)."
     ],
     "distractorRationale": {
@@ -3313,9 +3313,9 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "El término positivo es $y^2$, lo que indica que el eje transversal es vertical coincidente con el eje $y$. Por tanto: $a^2 = 36 \\implies a = 6$ y $b^2 = 64 \\implies b = 8$. La semidistancia focal es $c = \\sqrt{a^2 + b^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$. Los focos se ubican en el eje vertical: $(0, \\pm c) = (0, \\pm 10)$.",
     "stepByStepDerivation": [
-      "Término positivo en y^2 ==> hipérbola vertical.",
+      "Término positivo en y^2 ⇒ hipérbola vertical.",
       "a^2 = 36, b^2 = 64.",
-      "c = sqrt(36 + 64) = sqrt(100) = 10.",
+      "c = √(36 + 64) = √(100) = 10.",
       "Focos sobre el eje y: (0, ±10)."
     ],
     "distractorRationale": {
@@ -3341,7 +3341,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "La excentricidad se define como $e = \\frac{c}{a}$. Con $a^2 = 16 \\implies a = 4$ y $b^2 = 9 \\implies b = 3$: $c = \\sqrt{a^2 + b^2} = \\sqrt{16 + 9} = 5$. Por lo tanto: $e = \\frac{5}{4} = 1.25 > 1$.",
     "stepByStepDerivation": [
       "a = 4.",
-      "c = sqrt(16 + 9) = 5.",
+      "c = √(16 + 9) = 5.",
       "e = c / a = 5 / 4 = 1.25.",
       "Confirmar e > 1 característico de hipérbolas."
     ],
@@ -3349,7 +3349,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "A": "Correcto. e = 5/4 = 1.25 > 1.",
       "B": "e = 4/5 < 1 corresponde a la elipse con los mismos semiejes.",
       "C": "Relación b/a, no c/a.",
-      "D": "sqrt(2) corresponde a hipérbolas equiláteras (a = b)."
+      "D": "√(2) corresponde a hipérbolas equiláteras (a = b)."
     }
   },
   {
@@ -3422,15 +3422,15 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "Si $a = b$, la semidistancia focal es $c = \\sqrt{a^2 + a^2} = \\sqrt{2a^2} = a\\sqrt{2}$. La excentricidad es $e = \\frac{c}{a} = \\frac{a\\sqrt{2}}{a} = \\sqrt{2} \\approx 1.414$. Las pendientes de sus asíntotas son $m_1 = \\frac{b}{a} = 1$ y $m_2 = -\\frac{b}{a} = -1$. Como $m_1 \\cdot m_2 = (1)(-1) = -1$, las asíntotas son estrictamente perpendiculares entre sí.",
     "stepByStepDerivation": [
       "Condición equilátera: a = b.",
-      "c = sqrt(a^2 + a^2) = a·sqrt(2).",
-      "Excentricidad: e = c / a = sqrt(2).",
+      "c = √(a^2 + a^2) = a·√(2).",
+      "Excentricidad: e = c / a = √(2).",
       "Pendientes de asíntotas: m = ± b/a = ± 1.",
-      "Producto de pendientes = -1 ==> asíntotas perpendiculares."
+      "Producto de pendientes = -1 ⇒ asíntotas perpendiculares."
     ],
     "distractorRationale": {
-      "A": "Correcto. e = sqrt(2) y asíntotas ortogonales a 90°.",
+      "A": "Correcto. e = √(2) y asíntotas ortogonales a 90°.",
       "B": "e = 1 corresponde a la parábola, no a una hipérbola.",
-      "C": "e = 2 requeriría c = 2a (b = a*sqrt(3)).",
+      "C": "e = 2 requeriría c = 2a (b = a*√(3)).",
       "D": "e < 1 es imposible en cualquier hipérbola."
     }
   },
@@ -3449,9 +3449,9 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "La ecuación canónica de la hipérbola equilátera $x'^2 - y'^2 = 2k$, al aplicarle una rotación de ejes de $\\theta = 45^\\circ$ ($x' = \\frac{x - y}{\\sqrt{2}}$, $y' = \\frac{x + y}{\\sqrt{2}}$), se transforma en: $\\frac{(x - y)^2}{2} - \\frac{(x + y)^2}{2} = 2k \\implies \\frac{-4xy}{2} = 2k \\implies xy = -k$ (o rotando $-45^\\circ$ da $xy = k$). Sus ramas se ubican en los cuadrantes I y III con asíntotas sobre los ejes $x$ e $y$.",
     "stepByStepDerivation": [
-      "Partir de la rotación de ejes a 45°: x' = (x + y)/sqrt(2), y' = (y - x)/sqrt(2).",
+      "Partir de la rotación de ejes a 45°: x' = (x + y)/√(2), y' = (y - x)/√(2).",
       "Sustituir en x'^2 - y'^2 = a^2.",
-      "El desarrollo algebraico produce el término mixto 2xy = a^2 ==> xy = k.",
+      "El desarrollo algebraico produce el término mixto 2xy = a^2 ⇒ xy = k.",
       "Concluir que xy = k es una hipérbola equilátera con los ejes coordenados como asíntotas."
     ],
     "distractorRationale": {
@@ -3476,8 +3476,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "La definición geométrica de la hipérbola establece $|d(P, F_1) - d(P, F_2)| = 2a$. Por tanto, $2a = 8 \\implies a = 4 \\implies a^2 = 16$. La distancia entre focos es $2c = 5 - (-5) = 10 \\implies c = 5 \\implies c^2 = 25$. En la hipérbola: $b^2 = c^2 - a^2 = 25 - 16 = 9$. Al estar los focos sobre el eje $x$, la ecuación es $\\frac{x^2}{16} - \\frac{y^2}{9} = 1$.",
     "stepByStepDerivation": [
-      "2a = 8 ==> a = 4 ==> a^2 = 16.",
-      "c = 5 ==> c^2 = 25.",
+      "2a = 8 ⇒ a = 4 ⇒ a^2 = 16.",
+      "c = 5 ⇒ c^2 = 25.",
       "b^2 = c^2 - a^2 = 25 - 16 = 9.",
       "Ecuación canónica: x^2 / 16 - y^2 / 9 = 1."
     ],
@@ -3530,14 +3530,14 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "La fórmula universal para el ángulo de rotación $\\theta$ es $\\cot(2\\theta) = \\frac{A - C}{B}$. Para la ecuación dada: $A = 1$, $B = 2\\sqrt{3}$, $C = 3$. Sustituyendo: $\\cot(2\\theta) = \\frac{1 - 3}{2\\sqrt{3}} = \\frac{-2}{2\\sqrt{3}} = -\\frac{1}{\\sqrt{3}}$. Como $\\cot(2\\theta) = -\\frac{1}{\\sqrt{3}} \\implies \\tan(2\\theta) = -\\sqrt{3}$. El ángulo en el segundo cuadrante es $2\\theta = 180^\\circ - 60^\\circ = 120^\\circ$. Dividiendo entre 2: $\\theta = 60^\\circ = \\frac{\\pi}{3}\\text{ rad}$.",
     "stepByStepDerivation": [
-      "Identificar coeficientes: A = 1, B = 2·sqrt(3), C = 3.",
-      "cot(2θ) = (A - C) / B = (1 - 3) / (2·sqrt(3)) = -1 / sqrt(3).",
-      "tan(2θ) = -sqrt(3) ==> 2θ = 120°.",
+      "Identificar coeficientes: A = 1, B = 2·√(3), C = 3.",
+      "cot(2θ) = (A - C) / B = (1 - 3) / (2·√(3)) = -1 / √(3).",
+      "tan(2θ) = -√(3) ⇒ 2θ = 120°.",
       "θ = 120° / 2 = 60° (π/3 rad)."
     ],
     "distractorRationale": {
-      "A": "Correcto. 2θ = 120° ==> θ = 60°.",
-      "B": "30° correspondería a tan(2θ) = +1/sqrt(3) (2θ = 60°).",
+      "A": "Correcto. 2θ = 120° ⇒ θ = 60°.",
+      "B": "30° correspondería a tan(2θ) = +1/√3 (2θ = 60°).",
       "C": "45° aplica cuando A = C (cot 2θ = 0).",
       "D": "Rotación ortogonal que no elimina el término cruzado."
     }
@@ -3560,7 +3560,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Matriz cuadrática M = [[A, B/2], [B/2, C]].",
       "Una rotación aplica semejanza ortogonal: M' = R^T · M · R.",
       "Invariante 1: Traza tr(M) = A + C.",
-      "Invariante 2: Determinante det(M) = AC - B^2/4 ==> B^2 - 4AC es invariante."
+      "Invariante 2: Determinante det(M) = AC - B^2/4 ⇒ B^2 - 4AC es invariante."
     ],
     "distractorRationale": {
       "A": "Correcto. A + C y B^2 - 4AC son invariantes ortogonales demostrados.",
@@ -3719,9 +3719,9 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "La forma canónica polar de una cónica con foco en el origen es $r = \\frac{e d}{1 + e\\cos\\theta}$. Comparando con $r = \\frac{10}{1 + \\cos\\theta}$, el coeficiente del término $\\cos\\theta$ en el denominador es exactamente $1$, lo que implica $e = 1$. Toda cónica con excentricidad $e = 1$ es una parábola. Además, $e d = 10 \\implies d = 10$, donde $x = 10$ es la directriz vertical.",
     "stepByStepDerivation": [
       "Forma polar estándar: r = ed / (1 + e·cos θ).",
-      "El denominador tiene 1 + 1·cos(θ) ==> excentricidad e = 1.",
+      "El denominador tiene 1 + 1·cos(θ) ⇒ excentricidad e = 1.",
       "e = 1 define rigurosamente a una parábola.",
-      "ed = 10 ==> distancia a directriz d = 10."
+      "ed = 10 ⇒ distancia a directriz d = 10."
     ],
     "distractorRationale": {
       "A": "Correcto. e = 1 identifica a una parábola.",
@@ -3798,15 +3798,15 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "El área de una elipse con semiejes $a$ y $b$ viene dada por la fórmula $\\text{Área} = \\pi a b$. Para la elipse dada: $a^2 = 16 \\implies a = 4$, y $b^2 = 9 \\implies b = 3$. Sustituyendo los semiejes: $\\text{Área} = \\pi (4)(3) = 12\\pi\\text{ u}^2$.",
     "stepByStepDerivation": [
-      "Semieje mayor a = sqrt(16) = 4.",
-      "Semieje menor b = sqrt(9) = 3.",
+      "Semieje mayor a = √(16) = 4.",
+      "Semieje menor b = √(9) = 3.",
       "Fórmula de área: Área = π · a · b.",
       "Calcular: π · 4 · 3 = 12π."
     ],
     "distractorRationale": {
-      "A": "Correcto. pi * 4 * 3 = 12*pi.",
+      "A": "Correcto. pi · 4 × 3 = 12*pi.",
       "B": "Error al sumar los cuadrados (16 + 9 = 25).",
-      "C": "Error al multiplicar a^2 * b^2 = 16 * 9 = 144.",
+      "C": "Error al multiplicar a^2 · b^2 = 16 × 9 = 144.",
       "D": "Error al sumar los semiejes (4 + 3 = 7)."
     }
   },
@@ -3825,7 +3825,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "Derivamos implícitamente respecto a $x$: $2x + 8y \\frac{dy}{dx} = 0 \\implies \\frac{dy}{dx} = -\\frac{2x}{8y} = -\\frac{x}{4y}$. Evaluando en el punto $(2, 1)$, la pendiente de la recta tangente es $m_t = -\\frac{2}{4(1)} = -\\frac{1}{2}$. La recta normal es perpendicular a la tangente, por lo que su pendiente satisface $m_n = -\\frac{1}{m_t} = -\\frac{1}{-1/2} = 2$.",
     "stepByStepDerivation": [
-      "Derivada implícita: 2x + 8y·y' = 0 ==> y' = -x / (4y).",
+      "Derivada implícita: 2x + 8y·y' = 0 ⇒ y' = -x / (4y).",
       "Pendiente tangente en (2, 1): m_t = -2 / 4 = -1/2.",
       "Pendiente normal perpendicular: m_n = -1 / m_t = 2."
     ],
@@ -3904,7 +3904,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "La circunferencia es el caso límite de una elipse donde los dos focos coinciden con el centro geométrico ($c = 0$) y los semiejes son iguales ($a = b = r$). Por tanto, la excentricidad es estrictamente: $e = \\frac{c}{a} = \\frac{0}{r} = 0$.",
     "stepByStepDerivation": [
-      "En la circunferencia los focos coinciden con el centro ==> c = 0.",
+      "En la circunferencia los focos coinciden con el centro ⇒ c = 0.",
       "Excentricidad e = c / a = 0 / r = 0."
     ],
     "distractorRationale": {
@@ -3932,7 +3932,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Distancia del centro a la directriz: d_D = a / e = a^2 / c.",
       "Distancia del centro al foco: d_F = c.",
       "Distancia foco-directriz: d_D - d_F = a^2 / c - c = (a^2 - c^2) / c.",
-      "Sustituir a^2 - c^2 = b^2 ==> distancia = b^2 / c."
+      "Sustituir a^2 - c^2 = b^2 ⇒ distancia = b^2 / c."
     ],
     "distractorRationale": {
       "A": "Correcto. b^2 / c.",
@@ -4009,8 +4009,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "El centro de simetría de una cónica con centro satisface el sistema de derivadas parciales igualadas a cero: $\\frac{\\partial F}{\\partial x} = 4x + 4y - 8 = 0 \\implies x + y = 2$. La segunda derivada parcial es: $\\frac{\\partial F}{\\partial y} = 4x + 6y - 10 = 0 \\implies 2x + 3y = 5$. Multiplicando la primera ecuación por 2 y restando: $(2x + 3y) - (2x + 2y) = 5 - 4 \\implies y = 1$. Sustituyendo en la primera ecuación: $x + 1 = 2 \\implies x = 1$. El centro es $(1, 1)$.",
     "stepByStepDerivation": [
-      "Derivada respecto a x: dF/dx = 4x + 4y - 8 = 0 ==> x + y = 2.",
-      "Derivada respecto a y: dF/dy = 4x + 6y - 10 = 0 ==> 2x + 3y = 5.",
+      "Derivada respecto a x: dF/dx = 4x + 4y - 8 = 0 ⇒ x + y = 2.",
+      "Derivada respecto a y: dF/dy = 4x + 6y - 10 = 0 ⇒ 2x + 3y = 5.",
       "Resolver sistema lineal: y = 1 y x = 1.",
       "Centro de la cónica: (1, 1)."
     ],
@@ -4037,9 +4037,9 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "La definición foco-directriz unificada (Pappus de Alejandría) establece que la constante de proporcionalidad es la excentricidad $e$. Si $e < 1$, el punto está más cerca del foco que de la directriz, formando una curva cerrada (elipse). Si $e = 1$, la distancia al foco es exactamente igual a la distancia a la directriz (parábola). Si $e > 1$, la distancia al foco supera a la de la directriz, abriéndose en dos ramas infinitas (hipérbola).",
     "stepByStepDerivation": [
       "Razón focal d(P, F) / d(P, D) = e.",
-      "Criterio 1: e < 1 ==> Elipse.",
-      "Criterio 2: e = 1 ==> Parábola.",
-      "Criterio 3: e > 1 ==> Hipérbola."
+      "Criterio 1: e < 1 ⇒ Elipse.",
+      "Criterio 2: e = 1 ⇒ Parábola.",
+      "Criterio 3: e > 1 ⇒ Hipérbola."
     ],
     "distractorRationale": {
       "A": "Correcto. Clasificación analítica universal según Pappus.",
@@ -4069,7 +4069,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "y_1 · y_2 = -4p^2."
     ],
     "distractorRationale": {
-      "A": "Correcto. y_1 * y_2 = -4p^2.",
+      "A": "Correcto. y_1 · y_2 = -4p^2.",
       "B": "Error de signo en el término constante de la ecuación cuadrática.",
       "C": "Falta el factor 4 en la relación focal.",
       "D": "Solo sería 0 si la cuerda pasase por el vértice."
@@ -4120,7 +4120,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "stepByStepDerivation": [
       "Construir la matriz simétrica asociada 3x3.",
       "Calcular su determinante Δ_3.",
-      "Teorema: La cónica es degenerada <=> det(M_3x3) = 0."
+      "Teorema: La cónica es degenerada ≤> det(M_3x3) = 0."
     ],
     "distractorRationale": {
       "A": "Correcto. det M = 0 es la condición analítica universal de degeneración.",
@@ -4174,7 +4174,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Pivote en apoyo A: anular el torque de la fuerza reactiva R_A.",
       "Torque horario de la carga: tau_P = -1200 N · 2 m = -2400 N·m.",
       "Torque antihorario del apoyo B: tau_B = +R_B · 6 m.",
-      "Equilibrio: -2400 + 6·R_B = 0 ==> R_B = 2400 / 6 = 400 N."
+      "Equilibrio: -2400 + 6·R_B = 0 ⇒ R_B = 2400 / 6 = 400 N."
     ],
     "distractorRationale": {
       "A": "Correcto. R_B = 400 N (y R_A = 800 N).",
@@ -4204,11 +4204,11 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Fuerza de fricción fk = 0.2 · 42.44 = 8.49 N.",
       "Trabajo disipado por fricción: W = -8.49 · 10 = -84.9 J.",
       "Energía cinética final: Ek = 245 - 84.9 = 160.1 J.",
-      "Velocidad final: v_f = sqrt(2 · 160.1 / 5) = sqrt(64.04) ≈ 8.0 m/s."
+      "Velocidad final: v_f = √(2 · 160.1 / 5) = √(64.04) ≈ 8.0 m/s."
     ],
     "distractorRationale": {
       "A": "Correcto. Calculado rigurosamente mediante balance de trabajo-energía: v_f ≈ 8.0 m/s.",
-      "B": "9.9 m/s sería la velocidad sin fricción (sqrt(2*9.8*5) = sqrt(98) ≈ 9.9 m/s).",
+      "B": "9.9 m/s sería la velocidad sin fricción (√(2*9.8*5) = √(98) ≈ 9.9 m/s).",
       "C": "Subestimación del trabajo motor del peso.",
       "D": "Sobreestimación que viola la conservación de energía."
     }
@@ -4229,13 +4229,13 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "La identidad fundamental de los cosenos directores de cualquier vector no nulo en tres dimensiones establece: $\\cos^2\\alpha + \\cos^2\\beta + \\cos^2\\gamma = 1$. Sustituyendo los valores conocidos: $\\cos(60^\\circ) = \\frac{1}{2} \\implies \\cos^2(60^\\circ) = \\frac{1}{4}$; $\\cos(45^\\circ) = \\frac{\\sqrt{2}}{2} \\implies \\cos^2(45^\\circ) = \\frac{1}{2} = \\frac{2}{4}$. Sumando: $\\frac{1}{4} + \\frac{2}{4} + \\cos^2\\gamma = 1 \\implies \\frac{3}{4} + \\cos^2\\gamma = 1 \\implies \\cos^2\\gamma = \\frac{1}{4}$. Al ser $\\gamma$ un ángulo agudo, $\\cos\\gamma = +\\frac{1}{2} \\implies \\gamma = 60^\\circ$.",
     "stepByStepDerivation": [
       "Identidad: cos^2(α) + cos^2(β) + cos^2(γ) = 1.",
-      "cos(60°) = 1/2 ==> cos^2(60°) = 1/4.",
-      "cos(45°) = 1/sqrt(2) ==> cos^2(45°) = 1/2 = 2/4.",
-      "1/4 + 2/4 + cos^2(γ) = 1 ==> cos^2(γ) = 1/4.",
-      "Como γ es agudo: cos(γ) = 1/2 ==> γ = 60°."
+      "cos(60°) = 1/2 ⇒ cos^2(60°) = 1/4.",
+      "cos(45°) = 1/√(2) ⇒ cos^2(45°) = 1/2 = 2/4.",
+      "1/4 + 2/4 + cos^2(γ) = 1 ⇒ cos^2(γ) = 1/4.",
+      "Como γ es agudo: cos(γ) = 1/2 ⇒ γ = 60°."
     ],
     "distractorRationale": {
-      "A": "Correcto. cos^2(γ) = 1 - 3/4 = 1/4 ==> γ = 60°.",
+      "A": "Correcto. cos^2(γ) = 1 - 3/4 = 1/4 ⇒ γ = 60°.",
       "B": "Error al asumir que dos ángulos son iguales a 45° (daría suma 1/4 + 1/2 + 1/2 = 5/4 > 1).",
       "C": "cos^2(30°) = 3/4 daría una suma total de 6/4 > 1.",
       "D": "cos(90°) = 0 daría suma 3/4 ≠ 1."
@@ -4257,8 +4257,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "El producto escalar de dos vectores se relaciona con sus normas mediante $\\vec{F}_1 \\cdot \\vec{F}_2 = \\|\\vec{F}_1\\| \\|\\vec{F}_2\\| \\cos\\theta$. Calculamos el producto escalar: $\\vec{F}_1 \\cdot \\vec{F}_2 = (2)(1) + (-1)(2) + (2)(2) = 2 - 2 + 4 = 4\\text{ N}^2$. Las normas de los vectores son: $\\|\\vec{F}_1\\| = \\sqrt{2^2 + (-1)^2 + 2^2} = \\sqrt{4 + 1 + 4} = \\sqrt{9} = 3\\text{ N}$, y $\\|\\vec{F}_2\\| = \\sqrt{1^2 + 2^2 + 2^2} = \\sqrt{1 + 4 + 4} = 3\\text{ N}$. Por lo tanto: $\\cos\\theta = \\frac{4}{3 \\cdot 3} = \\frac{4}{9}$.",
     "stepByStepDerivation": [
       "Producto escalar: 2(1) + (-1)(2) + 2(2) = 2 - 2 + 4 = 4.",
-      "Norma ||F_1|| = sqrt(4 + 1 + 4) = 3.",
-      "Norma ||F_2|| = sqrt(1 + 4 + 4) = 3.",
+      "Norma ||F_1|| = √(4 + 1 + 4) = 3.",
+      "Norma ||F_2|| = √(1 + 4 + 4) = 3.",
       "cos(θ) = (F_1 · F_2) / (||F_1|| · ||F_2||) = 4 / (3 · 3) = 4/9."
     ],
     "distractorRationale": {
@@ -4310,7 +4310,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "El área de un paralelogramo sustentado por dos vectores es igual a la magnitud de su producto vectorial: $\\text{Área} = \\|\\vec{A} \\times \\vec{B}\\|$. Evaluamos el producto cruz: $\\vec{A} \\times \\vec{B} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ 4 & 1 & 0 \\\\ 1 & 3 & 0 \\end{vmatrix} = \\hat{k}(4(3) - 1(1)) = 11\\hat{k}$. La magnitud es $\\|11\\hat{k}\\| = 11\\text{ u}^2$.",
     "stepByStepDerivation": [
-      "Componentes z de ambos vectores son cero ==> el producto cruz solo tiene componente k.",
+      "Componentes z de ambos vectores son cero ⇒ el producto cruz solo tiene componente k.",
       "k = (4)(3) - (1)(1) = 12 - 1 = 11.",
       "Área = ||(0, 0, 11)|| = 11 u^2."
     ],
@@ -4365,14 +4365,14 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "stepByStepDerivation": [
       "Peso W = 10 · 9.8 = 98 N.",
       "Equilibrio vertical: 2·T·sin(45°) = W.",
-      "2·T·(sqrt(2)/2) = 98 ==> T·sqrt(2) = 98.",
-      "T = 98 / sqrt(2) = 49·sqrt(2) ≈ 69.3 N."
+      "2·T·(√(2)/2) = 98 ⇒ T·√(2) = 98.",
+      "T = 98 / √(2) = 49·√(2) ≈ 69.3 N."
     ],
     "distractorRationale": {
-      "A": "Correcto. T = 49*sqrt(2) N ≈ 69.3 N.",
+      "A": "Correcto. T = 49*√(2) N ≈ 69.3 N.",
       "B": "98 N sería la tensión si un solo cable vertical soportase todo el peso.",
       "C": "49 N sería la tensión si los cables fuesen paralelos verticales (98/2 = 49 N).",
-      "D": "Error al multiplicar por sqrt(2) en vez de dividir."
+      "D": "Error al multiplicar por √(2) en vez de dividir."
     }
   },
   {
@@ -4422,7 +4422,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Torque: tau = F · d = 50 · 0.4 = 20 N·m."
     ],
     "distractorRationale": {
-      "A": "Correcto. tau = 50 * 0.4 = 20 N*m.",
+      "A": "Correcto. tau = 50 × 0.4 = 20 N*m.",
       "B": "Error al dividir en lugar de multiplicar (50 / 0.4 = 125).",
       "C": "Error al multiplicar por 4 en vez de 0.4.",
       "D": "Error en la posición del punto decimal."
@@ -4578,8 +4578,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "stepByStepDerivation": [
       "Nodo con dos barras no colineales y sin carga externa: sum F_x = 0, sum F_y = 0.",
       "Elegir eje y perpendicular a la barra 1.",
-      "sum F_y = F_2 · sin(θ) = 0 ==> como θ ≠ 0, F_2 = 0.",
-      "sum F_x = F_1 + F_2 · cos(θ) = 0 ==> F_1 = 0.",
+      "sum F_y = F_2 · sin(θ) = 0 ⇒ como θ ≠ 0, F_2 = 0.",
+      "sum F_x = F_1 + F_2 · cos(θ) = 0 ⇒ F_1 = 0.",
       "Ambos miembros tienen fuerza axial nula."
     ],
     "distractorRationale": {
@@ -4738,7 +4738,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "formalSolution": "En un plano inclinado sin rozamiento, la única fuerza con componente a lo largo del plano es la componente tangencial del peso: $P_x = mg\\sin\\theta$. Aplicando la Segunda Ley de Newton a lo largo del plano: $\\sum F_x = m a \\implies mg\\sin\\theta = m a \\implies a = g\\sin\\theta$. Como $\\theta = 30^\\circ$: $a = (9.8)\\sin(30^\\circ) = 9.8(0.5) = 4.90\\text{ m/s}^2$. La aceleración es totalmente independiente de la masa del cuerpo.",
     "stepByStepDerivation": [
       "Fuerza neta a lo largo del plano: F = m·g·sin(θ).",
-      "Segunda Ley: m·a = m·g·sin(θ) ==> a = g·sin(θ).",
+      "Segunda Ley: m·a = m·g·sin(θ) ⇒ a = g·sin(θ).",
       "Sustituir: a = 9.8 · sin(30°) = 9.8 · 0.5 = 4.90 m/s^2."
     ],
     "distractorRationale": {
@@ -4766,10 +4766,10 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Equilibrio en eje y: N = m·g·cos(θ).",
       "Equilibrio en eje x para movimiento inminente: m·g·sin(θ) = f_s_max = μ_s·N.",
       "Sustituir N: m·g·sin(θ) = μ_s·m·g·cos(θ).",
-      "Despejar: μ_s = tan(θ) = tan(30°) = sqrt(3)/3 ≈ 0.577."
+      "Despejar: μ_s = tan(θ) = tan(30°) = √(3)/3 ≈ 0.577."
     ],
     "distractorRationale": {
-      "A": "Correcto. mu_s = tan(theta) = sqrt(3)/3 ≈ 0.577.",
+      "A": "Correcto. mu_s = tan(theta) = √(3)/3 ≈ 0.577.",
       "B": "Confusión al usar sin(30°) en lugar de la tangente.",
       "C": "Confusión con cos(30°).",
       "D": "mu_s = 1 requeriría un ángulo de reposo de 45°."
@@ -4795,7 +4795,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Fuerza mínima horizontal: F = f_s_max = 78.4 N."
     ],
     "distractorRationale": {
-      "A": "Correcto. F = mu_s * m * g = 0.4 * 196 = 78.4 N.",
+      "A": "Correcto. F = mu_s · m * g = 0.4 × 196 = 78.4 N.",
       "B": "196 N es el peso total del cajón, no la fuerza de fricción horizontal.",
       "C": "Error al multiplicar por 0.25.",
       "D": "Error al multiplicar masa por mu_s ignorando la aceleración de gravedad g."
@@ -4818,11 +4818,11 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "stepByStepDerivation": [
       "La fuerza que acelera a A es f_s = m_A · a.",
       "Condición de no deslizamiento: f_s ≤ μ_s · m_A · g.",
-      "m_A · a_max = μ_s · m_A · g ==> a_max = μ_s · g.",
+      "m_A · a_max = μ_s · m_A · g ⇒ a_max = μ_s · g.",
       "Calcular: a_max = 0.3 · 9.8 = 2.94 m/s^2."
     ],
     "distractorRationale": {
-      "A": "Correcto. a_max = mu_s * g = 0.3 * 9.8 = 2.94 m/s^2.",
+      "A": "Correcto. a_max = mu_s · g = 0.3 × 9.8 = 2.94 m/s^2.",
       "B": "Aceleración de gravedad completa.",
       "C": "Error al dividir entre la masa total de 3 kg.",
       "D": "Error al multiplicar por 2."
@@ -4898,11 +4898,11 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Equilibrio vertical: N·cos(θ) = m·g.",
       "Dinámica radial: N·sin(θ) = m·v^2 / R.",
       "Cociente: tan(θ) = v^2 / (g·R).",
-      "Despejar v: v = sqrt(g · R · tan θ) = sqrt(9.8 · 100 · 0.4) = sqrt(392) ≈ 19.8 m/s."
+      "Despejar v: v = √(g · R · tan θ) = √(9.8 · 100 · 0.4) = √(392) ≈ 19.8 m/s."
     ],
     "distractorRationale": {
-      "A": "Correcto. v = sqrt(9.8 * 100 * 0.4) = sqrt(392) ≈ 19.8 m/s.",
-      "B": "Error al multiplicar R * tan(θ) sin involucrar g ni extraer la raíz cuadrada.",
+      "A": "Correcto. v = √(9.8 × 100 · 0.4) = √(392) ≈ 19.8 m/s.",
+      "B": "Error al multiplicar R · tan(θ) sin involucrar g ni extraer la raíz cuadrada.",
       "C": "Valor coincidente con la aceleración g.",
       "D": "Aproximación errónea."
     }
@@ -4924,10 +4924,10 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "stepByStepDerivation": [
       "Fuerza centrípeta máxima provista por fricción: m·v^2 / R = μ_s · m · g.",
       "La masa se cancela: v^2 = μ_s · g · R.",
-      "v_max = sqrt(0.8 · 9.8 · 50) = sqrt(392) ≈ 19.8 m/s."
+      "v_max = √(0.8 · 9.8 · 50) = √(392) ≈ 19.8 m/s."
     ],
     "distractorRationale": {
-      "A": "Correcto. sqrt(0.8 * 9.8 * 50) = sqrt(392) ≈ 19.8 m/s.",
+      "A": "Correcto. √(0.8 × 9.8 · 50) = √(392) ≈ 19.8 m/s.",
       "B": "Error al omitir la aceleración gravitatoria g en la raíz.",
       "C": "Estimación que no concuerda con la física del neumático.",
       "D": "Error en el producto bajo la raíz cuadrada."
@@ -5036,7 +5036,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "distractorRationale": {
       "A": "Correcto. 49 J - 9 J = 40 J.",
       "B": "Error al elevar al cuadrado la diferencia (7 - 3)^2 = 16 J / 2.",
-      "C": "Error al no elevar al cuadrado las velocidades (1/2 * 2 * (7-3)^2 = 16 J).",
+      "C": "Error al no elevar al cuadrado las velocidades (1/2 × 2 · (7-3)^2 = 16 J).",
       "D": "Error al sumar las energías (49 + 9 = 58 J)."
     }
   },
@@ -5057,11 +5057,11 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "stepByStepDerivation": [
       "Altura descendida: h = L·(1 - cos 60°) = 2 · (1 - 0.5) = 1 m.",
       "Conservación de energía: (1/2)·m·v^2 = m·g·h.",
-      "v = sqrt(2·g·h) = sqrt(2 · 9.8 · 1) = sqrt(19.6) ≈ 4.43 m/s."
+      "v = √(2·g·h) = √(2 · 9.8 · 1) = √(19.6) ≈ 4.43 m/s."
     ],
     "distractorRationale": {
-      "A": "Correcto. v = sqrt(2 * 9.8 * 1) = sqrt(19.6) ≈ 4.43 m/s.",
-      "B": "6.26 m/s correspondería a soltar el péndulo desde la horizontal h = L = 2 m (sqrt(2*9.8*2) ≈ 6.26 m/s).",
+      "A": "Correcto. v = √(2 × 9.8 · 1) = √(19.6) ≈ 4.43 m/s.",
+      "B": "6.26 m/s correspondería a soltar el péndulo desde la horizontal h = L = 2 m (√(2*9.8*2) ≈ 6.26 m/s).",
       "C": "Error al no involucrar el factor 2 en la raíz cuadrada.",
       "D": "Confusión con la aceleración de gravedad."
     }
@@ -5081,10 +5081,10 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "En la parte más alta del rizo (altura $2R$), las fuerzas verticales son el peso y la normal dirigida hacia abajo: $N + mg = \\frac{m v_{\\text{cima}}^2}{R}$. La condición crítica para no despegarse es $N \\ge 0$, lo que exige una rapidez mínima en la cima de $v_{\\text{cima}}^2 = g R$. Por conservación de energía entre el punto de partida (altura $h$) y la cúspide (altura $2R$): $mgh = mg(2R) + \\frac{1}{2}m v_{\\text{cima}}^2 \\implies gh = 2gR + \\frac{1}{2}gR = 2.5 gR \\implies h_{\\min} = 2.5 R$.",
     "stepByStepDerivation": [
-      "En la cúspide, condición normal N ≥ 0: m·g = m·v^2 / R ==> v_cima^2 = g·R.",
+      "En la cúspide, condición normal N ≥ 0: m·g = m·v^2 / R ⇒ v_cima^2 = g·R.",
       "Energía en el punto de lanzamiento: E = m·g·h.",
       "Energía en la cúspide: E = m·g·(2R) + (1/2)·m·(g·R) = 2.5·m·g·R.",
-      "Igualar energías: m·g·h = 2.5·m·g·R ==> h_min = 2.5 R."
+      "Igualar energías: m·g·h = 2.5·m·g·R ⇒ h_min = 2.5 R."
     ],
     "distractorRationale": {
       "A": "Correcto. h_min = 2.5 R (5R/2) deducción clásica del loop-the-loop.",
@@ -5108,12 +5108,12 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "Fase 2 (oscilación): La energía mecánica se conserva tras el choque. La rapidez del conjunto inmediatamente después del impacto es $V = \\sqrt{2gh} = \\sqrt{2(9.8)(0.05)} = \\sqrt{0.98} \\approx 0.9899\\text{ m/s} \\approx 0.99\\text{ m/s}$. Fase 1 (choque inelástico): La cantidad de movimiento se conserva durante el impacto: $m v_0 = (m + M)V \\implies v_0 = \\frac{m + M}{m} V$. La masa combinada es $m + M = 0.02 + 1.98 = 2.00\\text{ kg}$. Sustituyendo: $v_0 = \\left(\\frac{2.00}{0.02}\\right)(0.99) = 100(0.99) = 99.0\\text{ m/s}$.",
     "stepByStepDerivation": [
-      "Velocidad combinada post-impacto: V = sqrt(2·g·h) = sqrt(2 · 9.8 · 0.05) = sqrt(0.98) ≈ 0.99 m/s.",
+      "Velocidad combinada post-impacto: V = √(2·g·h) = √(2 · 9.8 · 0.05) = √(0.98) ≈ 0.99 m/s.",
       "Conservación de momentum: m·v_0 = (m + M)·V.",
       "Despejar v_0: v_0 = ((0.02 + 1.98) / 0.02) · 0.99 = (2.0 / 0.02) · 0.99 = 100 · 0.99 = 99.0 m/s."
     ],
     "distractorRationale": {
-      "A": "Correcto. v_0 = 100 * 0.99 = 99.0 m/s.",
+      "A": "Correcto. v_0 = 100 × 0.99 = 99.0 m/s.",
       "B": "0.99 m/s es la velocidad combinada del bloque y la bala inmediatamente después del choque.",
       "C": "Error al duplicar indebidamente la masa.",
       "D": "Error al dividir entre 2."
@@ -5139,8 +5139,8 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Convertir a kilovatios: 19600 / 1000 = 19.6 kW."
     ],
     "distractorRationale": {
-      "A": "Correcto. P = 7840 * 2.5 = 19600 W = 19.6 kW.",
-      "B": "Error al no involucrar la aceleración de gravedad g (800 * 2.5 = 2000 W = 2 kW).",
+      "A": "Correcto. P = 7840 × 2.5 = 19600 W = 19.6 kW.",
+      "B": "Error al no involucrar la aceleración de gravedad g (800 × 2.5 = 2000 W = 2 kW).",
       "C": "Error al duplicar la potencia.",
       "D": "7.84 kW es la fuerza dividida entre 1000 sin multiplicar por la velocidad."
     }
@@ -5191,7 +5191,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     ],
     "distractorRationale": {
       "A": "Correcto. F = 2.1 / 0.005 = 420 N.",
-      "B": "Error común al restar las rapideces (20 - 15 = 5 m/s) ignorando el cambio vectorial de sentido (0.06 * 5 / 0.005 = 60 N).",
+      "B": "Error común al restar las rapideces (20 - 15 = 5 m/s) ignorando el cambio vectorial de sentido (0.06 × 5 / 0.005 = 60 N).",
       "C": "Error al no duplicar el intervalo de cambio de signo.",
       "D": "Error en la división decimal."
     }
@@ -5211,10 +5211,10 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "En un choque elástico frontal entre dos cuerpos de masas idénticas ($m_A = m_B = m$), las leyes de conservación de la cantidad de movimiento ($m v_A + 0 = m v_A' + m v_B'$) y de conservación de la energía cinética mecánica ($\\frac{1}{2}m v_A^2 = \\frac{1}{2}m v_A'^2 + \\frac{1}{2}m v_B'^2$) tienen como solución única física el intercambio completo de velocidades: la esfera incidente $A$ se detiene por completo ($v_A' = 0\\text{ m/s}$) y transfiere el 100% de su cantidad de movimiento y energía cinética a la esfera $B$ ($v_B' = 6\\text{ m/s}$).",
     "stepByStepDerivation": [
-      "Conservación de momentum: m·v_A = m·v_A' + m·v_B' ==> v_A = v_A' + v_B'.",
+      "Conservación de momentum: m·v_A = m·v_A' + m·v_B' ⇒ v_A = v_A' + v_B'.",
       "Coeficiente de restitución e = 1: v_B' - v_A' = v_A.",
-      "Sumar ecuaciones: 2·v_B' = 2·v_A ==> v_B' = v_A = 6 m/s.",
-      "Restar ecuaciones: 2·v_A' = 0 ==> v_A' = 0 m/s."
+      "Sumar ecuaciones: 2·v_B' = 2·v_A ⇒ v_B' = v_A = 6 m/s.",
+      "Restar ecuaciones: 2·v_A' = 0 ⇒ v_A' = 0 m/s."
     ],
     "distractorRationale": {
       "A": "Correcto. Intercambio clásico de velocidades en choque elástico de masas iguales.",
@@ -5265,16 +5265,16 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "La rapidez con la que llega al suelo en caída libre es $v_0 = \\sqrt{2gh_0}$. Por definición de coeficiente de restitución contra una superficie fija masiva: $v_1 = e v_0 = e\\sqrt{2gh_0}$. La altura alcanzada tras el rebote es $h_1 = \\frac{v_1^2}{2g} = \\frac{(e\\sqrt{2gh_0})^2}{2g} = \\frac{e^2 (2gh_0)}{2g} = e^2 h_0$. Sustituyendo $e = 0.5$ y $h_0 = 4\\text{ m}$: $h_1 = (0.5)^2 (4) = (0.25)(4) = 1.0\\text{ m}$.",
     "stepByStepDerivation": [
-      "Velocidad de llegada: v_0 = sqrt(2gh_0).",
+      "Velocidad de llegada: v_0 = √(2gh_0).",
       "Velocidad de rebote: v_1 = e · v_0.",
       "Altura de rebote: h_1 = v_1^2 / (2g) = e^2 · h_0.",
       "Sustituir: h_1 = (0.5)^2 · 4 = 0.25 · 4 = 1.0 m."
     ],
     "distractorRationale": {
-      "A": "Correcto. h_1 = e^2 * h_0 = 0.25 * 4 = 1.0 m.",
-      "B": "Error común al multiplicar linealmente por e en vez de e^2 (0.5 * 4 = 2 m).",
+      "A": "Correcto. h_1 = e^2 · h_0 = 0.25 × 4 = 1.0 m.",
+      "B": "Error común al multiplicar linealmente por e en vez de e^2 (0.5 × 4 = 2 m).",
       "C": "Error al elevar al cubo.",
-      "D": "Corresponde al segundo rebote h_2 = e^4 * h_0 = 0.25 m."
+      "D": "Corresponde al segundo rebote h_2 = e^4 · h_0 = 0.25 m."
     }
   },
   {
@@ -5295,7 +5295,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Conservación vectorial de momentum: p = p_A' + p_B'.",
       "Cuadrado de la norma: p^2 = p_A'^2 + p_B'^2 + 2(p_A' · p_B').",
       "Conservación de energía cinética con masas iguales: p^2 = p_A'^2 + p_B'^2.",
-      "Restar ambas ecuaciones: 2(p_A' · p_B') = 0 ==> p_A' · p_B' = 0.",
+      "Restar ambas ecuaciones: 2(p_A' · p_B') = 0 ⇒ p_A' · p_B' = 0.",
       "Los vectores velocidad finales forman un ángulo recto de 90°."
     ],
     "distractorRationale": {
@@ -5320,7 +5320,7 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "La frecuencia angular de un oscilador armónico simple masa-resorte es $\\omega = \\sqrt{\\frac{k}{m}}$. Sustituyendo valores: $\\omega = \\sqrt{\\frac{200\\text{ N/m}}{2\\text{ kg}}} = \\sqrt{100} = 10\\text{ rad/s}$. El periodo de oscilación es el tiempo necesario para un ciclo completo: $T = \\frac{2\\pi}{\\omega} = \\frac{2\\pi}{10} = \\frac{\\pi}{5} \\approx 0.6283\\text{ s}$.",
     "stepByStepDerivation": [
-      "Frecuencia angular: omega = sqrt(k / m) = sqrt(200 / 2) = sqrt(100) = 10 rad/s.",
+      "Frecuencia angular: omega = √(k / m) = √(200 / 2) = √(100) = 10 rad/s.",
       "Periodo: T = 2π / omega = 2π / 10 = π/5 ≈ 0.628 s."
     ],
     "distractorRationale": {
@@ -5345,9 +5345,9 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
     "correctAnswer": "A",
     "formalSolution": "Para pequeñas oscilaciones, la ecuación diferencial del péndulo se linealiza mediante la aproximación $\\sin\\theta \\approx \\theta$, resultando en un Movimiento Armónico Simple con periodo $T = 2\\pi \\sqrt{\\frac{L}{g}}$. Sustituyendo los valores dados: $T = 2\\pi \\sqrt{\\frac{0.98\\text{ m}}{9.8\\text{ m/s}^2}} = 2\\pi \\sqrt{0.1} \\approx 2(3.1416)(0.3162) \\approx 1.987\\text{ s} \\approx 2.0\\text{ s}$ (denominado técnicamente péndulo de segundos, cuyo semiperiodo es 1 segundo).",
     "stepByStepDerivation": [
-      "Fórmula: T = 2π · sqrt(L / g).",
+      "Fórmula: T = 2π · √(L / g).",
       "Cociente L / g = 0.98 / 9.8 = 0.1.",
-      "T = 2π · sqrt(0.1) ≈ 2 · 3.14159 · 0.316228 ≈ 1.987 s."
+      "T = 2π · √(0.1) ≈ 2 · 3.14159 · 0.316228 ≈ 1.987 s."
     ],
     "distractorRationale": {
       "A": "Correcto. T ≈ 2.0 s (péndulo que bate segundos).",
@@ -5374,11 +5374,11 @@ export const INGENIERIA_QUESTIONS: EngineeringMathQuestion[] = [
       "Energía total en la superficie: E = (1/2)m·v_esc^2 - G·M·m / R.",
       "Condición de escape en el infinito: E_infinito = 0.",
       "Igualar a cero: (1/2)m·v_esc^2 = G·M·m / R.",
-      "Despejar v_esc: v_esc = sqrt(2·G·M / R)."
+      "Despejar v_esc: v_esc = √(2·G·M / R)."
     ],
     "distractorRationale": {
-      "A": "Correcto. v_esc = sqrt(2GM / R).",
-      "B": "sqrt(GM / R) es la velocidad orbital de un satélite en órbita circular rasante.",
+      "A": "Correcto. v_esc = √(2GM / R).",
+      "B": "√(GM / R) es la velocidad orbital de un satélite en órbita circular rasante.",
       "C": "Esa es la fórmula de aceleración gravitatoria multiplicada por 2.",
       "D": "Factor 2 invertido en el divisor."
     }

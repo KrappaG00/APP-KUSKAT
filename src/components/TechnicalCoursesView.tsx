@@ -1064,7 +1064,9 @@ export const TechnicalCoursesView: React.FC = () => {
                         <KaTeXRenderer content={form.expression || form.formula || ''} />
                       </div>
 
-                      <p className="text-xs text-slate-300 leading-relaxed">{form.description}</p>
+                      <p className="text-xs text-slate-300 leading-relaxed min-w-0 break-words">
+                        <KaTeXRenderer content={form.description} />
+                      </p>
 
                       {/* Tabla de Variables */}
                       {form.variables && form.variables.length > 0 && (
@@ -1076,12 +1078,14 @@ export const TechnicalCoursesView: React.FC = () => {
                             {form.variables.map((v, vIdx) => (
                               <div
                                 key={vIdx}
-                                className="bg-slate-800/80 px-2.5 py-1.5 rounded-lg border border-slate-700/60 flex items-center justify-between text-xs"
+                                className="bg-slate-800/80 px-2.5 py-1.5 rounded-lg border border-slate-700/60 flex items-center justify-between gap-2 text-xs min-w-0"
                               >
-                                <span className="font-mono font-bold text-amber-300">{v.symbol}</span>
-                                <span className="text-slate-300 text-[11px] truncate mx-2">{v.meaning}</span>
-                                <span className="font-mono text-[10px] text-blue-300 bg-blue-950/60 px-1.5 py-0.5 rounded border border-blue-800/50">
-                                  {v.unit}
+                                <span className="font-mono font-bold text-amber-300 shrink-0">
+                                  <KaTeXRenderer content={v.symbol} />
+                                </span>
+                                <span className="text-slate-300 text-[11px] truncate mx-1 min-w-0">{v.meaning}</span>
+                                <span className="font-mono text-[10px] text-blue-300 bg-blue-950/60 px-1.5 py-0.5 rounded border border-blue-800/50 shrink-0">
+                                  <KaTeXRenderer content={v.unit} />
                                 </span>
                               </div>
                             ))}
@@ -1090,17 +1094,18 @@ export const TechnicalCoursesView: React.FC = () => {
                       )}
 
                       {/* Ejemplo Práctico de Taller */}
-                      <div className="bg-slate-800/90 p-3.5 rounded-xl border border-slate-700 space-y-1.5 text-xs">
+                      <div className="bg-slate-800/90 p-3.5 rounded-xl border border-slate-700 space-y-1.5 text-xs min-w-0">
                         <span className="text-[10px] font-mono font-bold text-emerald-400 uppercase flex items-center gap-1.5">
                           <CheckCircle2 className="w-3 h-3 text-emerald-400" />
                           <span>Ejemplo Numérico Real de Taller:</span>
                         </span>
-                        <p className="text-slate-200 leading-relaxed text-[11.5px]">
-                          {form.practicalExample || form.example}
+                        <p className="text-slate-200 leading-relaxed text-[11.5px] min-w-0 break-words">
+                          <KaTeXRenderer content={form.practicalExample || form.example || ''} />
                         </p>
                         {form.practicalApplication && (
-                          <p className="text-[11px] text-slate-400 pt-1 border-t border-slate-700/60">
-                            <strong>Aplicación Práctica:</strong> {form.practicalApplication}
+                          <p className="text-[11px] text-slate-400 pt-1 border-t border-slate-700/60 min-w-0 break-words">
+                            <strong>Aplicación Práctica:</strong>{' '}
+                            <KaTeXRenderer content={form.practicalApplication} />
                           </p>
                         )}
                       </div>
@@ -1266,8 +1271,8 @@ export const TechnicalCoursesView: React.FC = () => {
                           )}
                         </div>
 
-                        <p className="text-xs sm:text-sm font-bold text-slate-900 leading-relaxed">
-                          {q.statement || q.question}
+                        <p className="text-xs sm:text-sm font-bold text-slate-900 leading-relaxed min-w-0 break-words">
+                          <KaTeXRenderer content={q.statement || q.question || ''} />
                         </p>
 
                         {/* Opciones A, B, C, D */}
@@ -1310,7 +1315,9 @@ export const TechnicalCoursesView: React.FC = () => {
                                 >
                                   {key}
                                 </span>
-                                <span className="leading-relaxed flex-1">{optionText}</span>
+                                <span className="leading-relaxed flex-1 min-w-0 break-words">
+                                  <KaTeXRenderer content={optionText} />
+                                </span>
                               </button>
                             );
                           })}
@@ -1338,8 +1345,8 @@ export const TechnicalCoursesView: React.FC = () => {
                               </span>
                             </div>
 
-                            <p className="text-slate-700 leading-relaxed text-[11.5px]">
-                              {q.explanation}
+                            <p className="text-slate-700 leading-relaxed text-[11.5px] min-w-0 break-words">
+                              <KaTeXRenderer content={q.explanation} />
                             </p>
 
                             <div className="pt-1.5 border-t border-slate-200/60 flex items-start gap-1.5 text-[11px] text-slate-600 font-mono">

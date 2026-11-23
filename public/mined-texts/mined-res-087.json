@@ -1,0 +1,1114 @@
+{
+  "id": "mined-res-087",
+  "title": "Libro de Texto Oficial: 1.° Grado Comunicación y Lectoescritura",
+  "filename": "1.° grado_Comunicación.pdf",
+  "docType": "Libro de Texto",
+  "materiaOriginal": "Educación Inicial y Parvularia",
+  "gradoOriginal": "1.° Grado",
+  "officialUrl": "https://www.mined.gob.sv/materiales/pi/1.° grado_Comunicación.pdf",
+  "status": "success",
+  "textCoverage": "full",
+  "totalPages": 196,
+  "extractedPages": 175,
+  "coverageRatio": 0.8929,
+  "totalChars": 93078,
+  "sectionCount": 16,
+  "mediaUrl": null,
+  "notice": null,
+  "sections": [
+    {
+      "id": "sec-001",
+      "title": "portada",
+      "startPage": 1,
+      "endPage": 1,
+      "level": 1
+    },
+    {
+      "id": "sec-002",
+      "title": "Página en blanco",
+      "startPage": 2,
+      "endPage": 2,
+      "level": 1
+    },
+    {
+      "id": "sec-003",
+      "title": "len-1°-pag1-16",
+      "startPage": 3,
+      "endPage": 18,
+      "level": 1
+    },
+    {
+      "id": "sec-004",
+      "title": "len-1°-pag17-32",
+      "startPage": 19,
+      "endPage": 34,
+      "level": 1
+    },
+    {
+      "id": "sec-005",
+      "title": "len-1°-pag33-48",
+      "startPage": 35,
+      "endPage": 50,
+      "level": 1
+    },
+    {
+      "id": "sec-006",
+      "title": "len-1°-pag49-64",
+      "startPage": 51,
+      "endPage": 66,
+      "level": 1
+    },
+    {
+      "id": "sec-007",
+      "title": "len-1°-pag65-80",
+      "startPage": 67,
+      "endPage": 82,
+      "level": 1
+    },
+    {
+      "id": "sec-008",
+      "title": "len-1°-pag81-96",
+      "startPage": 83,
+      "endPage": 98,
+      "level": 1
+    },
+    {
+      "id": "sec-009",
+      "title": "len-1°-pag97-112",
+      "startPage": 99,
+      "endPage": 114,
+      "level": 1
+    },
+    {
+      "id": "sec-010",
+      "title": "len-1°-pag113-128",
+      "startPage": 115,
+      "endPage": 130,
+      "level": 1
+    },
+    {
+      "id": "sec-011",
+      "title": "len-1°-pag129-144",
+      "startPage": 131,
+      "endPage": 146,
+      "level": 1
+    },
+    {
+      "id": "sec-012",
+      "title": "len-1°-pag145-160",
+      "startPage": 147,
+      "endPage": 162,
+      "level": 1
+    },
+    {
+      "id": "sec-013",
+      "title": "len-1°-pag161-176",
+      "startPage": 163,
+      "endPage": 178,
+      "level": 1
+    },
+    {
+      "id": "sec-014",
+      "title": "len_pag_177-192",
+      "startPage": 179,
+      "endPage": 194,
+      "level": 1
+    },
+    {
+      "id": "sec-015",
+      "title": "Página en blanco",
+      "startPage": 195,
+      "endPage": 195,
+      "level": 1
+    },
+    {
+      "id": "sec-016",
+      "title": "contra",
+      "startPage": 196,
+      "endPage": 196,
+      "level": 1
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Comunicación Comunicación 1 Libro de texto",
+      "charCount": 42
+    },
+    {
+      "pageNumber": 2,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 3,
+      "text": "Este libro pertenece a: ________________________________________ Comunicación",
+      "charCount": 77
+    },
+    {
+      "pageNumber": 4,
+      "text": "Edición Alondra del Río Umanzor Velásquez Autoría Karen Merary Molina de Barahona Flor Elisa Baires Quezada Corrección de textos Salvador Orlando Reyes Castañeda Jefe del Departamento de Materiales Educativos Julio Adolfo Castellanos Diseño editorial y diagramación Judith Samanta Romero de Ciudad Real Diseño de portada Ernesto Escobar Imágenes Shutterstock Karla Edith Trigueros Mayor y Doctora Ministra de Educación, Ciencia y Tecnología Edgar Eliseo Alvarenga F.\n\nViceministro de Educación y de Ciencia y Tecnología Edgard Ernesto Ábrego Cruz Director General de Educación Wilfredo Alexander Granados Paz Director de Currículo y Materiales Educativos Marcela Isabel Hernández González Directora de Educación Primaria, en funciones Salomón Bernabé Pineda Alfaro Gerente Curricular para el Desarrollo de los Aprendizajes de la Primera Infancia Tercera edición, Ministerio de Educación, San Salvador, El Salvador, 2025.\n\nDerechos reservados. Prohibida su venta y su reproducción con fines comerciales por cualquier medio, sin previa autorización del Ministerio de Educación, Ciencia y Tecnología.\n\nISBN en trámite",
+      "charCount": 1114
+    },
+    {
+      "pageNumber": 5,
+      "text": "Estimado estudiante:\n\nEste libro ha sido elaborado para acompañarte en tu formación escolar . Contiene lecturas y actividades que despertarán tu interés, reforzarán tus aprendizajes y te ayudarán a desarrollar nuevas habilidades de forma clara y entretenida.\n\nA través de la reforma educativa Mi Nueva Escuela, estamos impulsando una educación de calidad que te brinde las condiciones necesarias para crecer y aprender, dentro de un ambiente seguro, ordenado y respetuoso, donde la convivencia escolar es tan importante como los aprendizajes que adquieres en cada etapa.\n\nEn sus páginas encontrarás el fascinante mundo de los textos literarios y no literarios, con el propósito de que puedas expresar de manera efectiva tus ideas y emociones en situaciones reales y variadas. Cada tema es una oportunidad para descubrir nuevas ideas y poner en práctica tus habilidades. Estos materiales han sido pensados para motivarte a aprender con entusiasmo y ayudarte a alcanzar los mejores resultados en tu vida escolar .\n\nSin embargo, recuerda también que los valores son la base para alcanzar el éxito: mantén la disciplina, muestra respeto hacia tus compañeros y docentes, cumple siempre con las normas de orden y convivencia, y cultiva la cortesía en todo momento. Eso abrirá muchas puertas en tu camino.\n\nEstoy segura de que tu esfuerzo constante dará frutos y que cada paso en tu aprendizaje será una semilla para tu futuro y para el futuro de El Salvador .\n\nKarla Trigueros Mayor y Doctora Ministra de Educación, Ciencia y Tecnología",
+      "charCount": 1530
+    },
+    {
+      "pageNumber": 6,
+      "text": "Conoce tu libro En tu libro de Primer Grado encontrarás juegos, canciones, poemas, cuentos, fábulas y una diversidad de actividades que te ayudarán en tus aprendizajes y potenciarán tus habilidades. Entradas 34 El Hada de los Dientes En el País de las Hadas, cada hadita tenía que practicar sus poderes, pero había una pequeña hada que no se esforzaba y por eso la Reina de las Hadas fue a hablar con ella:\n\n―No es suficiente con que sepas volar o hacerte invisible ―le dijo―.\n\nDeberías practicar más tus poderes mágicos.\n\nLa reina de las hadas se quedó pensando.\n\n―Te daré entonces una misión especial ―le contestó―. Serás la encargada de vigilar a los niños mientras crecen. Deberás estar muy atenta porque cuando se les caiga un diente, tú lo recogerás y lo colocarás en el cielo. De esa forma se convertirá en una blanca estrella.\n\nDesde entonces, el Hada de los Dientes recoge esos dientecitos y por eso el cielo está poblado de miles de estrellas.\n\nCuento alemán º A leer mis primeros cuentos.\n\nº A leer nombres.\n\nº A dibujar mi cuento favorito.\n\nHabía una vez…Había una vez…\n\n¿Qué aprenderé?\n\nTítulo Principales aprendizajes Texto de lectura inicial 4",
+      "charCount": 1158
+    },
+    {
+      "pageNumber": 7,
+      "text": "5 3 ¡Me expreso!\n\n40\n\n1. Observo las imágenes y leo con ayuda de mi docente.\n\n2. Pego en mi cuaderno la tabla y las tarjetas de la hoja de recortables de la página 163.\n\n3. Dibujo objetos.\n\nla abeja las abejas el zapato los zapatos Las palabras la y las acompañan a los sustantivos femeninos (la abeja, las abejas) y las palabras el y los acompañan a los sustantivos masculinos (el zapato, los zapatos).\n\nCuando los sustantivos se refieren a una persona, animal u objeto están en singular (abeja, zapato); cuando se refieren a más de uno, están en plural (abejas, zapatos).\n\nEn los cuentos que conocemos hay sustantivos en singular, en plural, masculinos y femeninos:\n\nSingular Plural ¡Me expreso!\n\n2 ¡Me gusta leer!\n\n38 Antes de la lectura\n\n1. Leo el título y comento.\n\nº ¿Qué cosas pueden hacerse con pepinos?\n\nº ¿Por qué se llama así el cuento?\n\nDurante la lectura\n\n2. Respondo.\n\nº ¿Qué estaba pensando el campesino?\n\nº ¿Logrará cortar los pepinos?\n\nDespués de la lectura\n\n3. Converso.\n\nº ¿Qué opino sobre los deseos del campesino?\n\nº ¿Por qué aparece un nombre al final del cuento?\n\nEl campesino y los pepinos Un campesino fue a buscar pepinos mientras pensaba:\n\n―Si me llevo un saco entero de pepinos, los venderé y con el dinero compraré una gallina.\n\nLa gallina pondrá huevos y nacerán pollitos. Criaré los pollitos, los venderé y compraré una lechoncita. Cuando crezca, tendrá crías; las venderé y me compraré una yegua, que me dará potros. Los alimentaré, los venderé y compraré una huerta.\n\nSembraré pepinos, pero no permitiré que me roben. Pondré unos guardias muy severos, para que vigilen los pepinos. Y, de vez en cuando, me daré una vueltecita por allí y les gritaré:\n\n¡Eh, amigos, vigilen con más atención!\n\nEl campesino se olvidó de que estaba en un huerto ajeno y dijo esas palabras en voz muy alta.\n\nLos guardias de la huerta, al escucharlo, se acercaron a él y le dieron algunos consejos.\n\nLeón Tolstoi (Adaptación) ¡Me divierto!1 36\n\n1. Ayudo a Amanda a encontrar su pez.\n\n2. Ayudo a los niños a encontrar sus peces.\n\n¡Me divierto!\n\n4 Practico lo aprendido 42\n\n1. Coloreo solo las palabras\n\nque aparecen en el cuento.\n\n2. Converso con mis\n\ncompañeros.\n\nº ¿Qué hace María junto a su familia?\n\nº ¿Qué hace cada integrante de la familia para el almuerzo?\n\nº ¿Qué nombres le pondría a la mamá y al papá de María?\n\nº ¿Cuál es mi comida favorita?\n\nº ¿Cuál es mi postre favorito?\n\nº ¿En qué ayudo para elaborar la comida en mi casa?\n\nLa mona María La mona María almuerza junto a su mamá, su papá y su hermano Pepe.\n\nPepe ayuda a poner la mesa para todos, mamá prepara una rica ensalada de pepinos y papá un delicioso jugo de mandarinas.\n\nA todos les gusta comer de postre manzanas, melón y miel.\n\nLa mona María disfruta siempre sus almuerzos. María ama mucho a su mamá, a su papá y a su hermano Pepe.\n\nTodos muy felices, se aman y almuerzan en casa todos los días.\n\ncocina mamá papá mandarinas Adaptación melón miel CarlosMaría cocospepinos perasmanzanas PPrraaccttiiccoo lloo aapprreennddiiddooPractico lo aprendido",
+      "charCount": 3030
+    },
+    {
+      "pageNumber": 8,
+      "text": "Adivina, adivinador…\n\n¡Me divierto! ............................................. 10 ¡Me gusta leer! ........................................ 12 ¡Me expreso! ............................................ 22 Practico lo aprendido ............................. 23 Vamos a cantar ¡Me divierto! ............................................. 76 ¡Me gusta leer! ........................................ 78 ¡Me expreso! ............................................ 87 Practico lo aprendido ............................. 90 Sonidos y palabras ¡Me divierto! ............................................. 26 ¡Me gusta leer! ........................................ 28 ¡Me expreso! ............................................ 30 Practico lo aprendido ............................. 32 Había una vez…\n\n¡Me divierto! ............................................. 36 ¡Me gusta leer! ........................................ 37 ¡Me expreso! ............................................ 40 Practico lo aprendido ............................. 42 Historietas divertidas ¡Me divierto! ............................................. 46 ¡Me gusta leer! ........................................ 48 ¡Me expreso! ............................................ 55 Practico lo aprendido ............................. 59 El mundo de las fábulas ¡Me divierto! ............................................. 62 ¡Me gusta leer! ........................................ 64 ¡Me expreso! ............................................ 70 Practico lo aprendido ............................. 72 6 Índice",
+      "charCount": 1561
+    },
+    {
+      "pageNumber": 9,
+      "text": "Mis cuentos favoritos ¡Me divierto! ............................................. 94 ¡Me gusta leer! ........................................ 96 ¡Me expreso! ............................................ 111 Practico lo aprendido ............................. 117 Vamos a leer ¡Me divierto! ............................................. 122 ¡Me gusta leer! ........................................ 124 ¡Me expreso! ............................................ 133 Practico lo aprendido ............................. 135 Leamos poesía ¡Me divierto! ............................................. 138 ¡Me gusta leer! ........................................ 141 ¡Me expreso! ............................................ 150 Practico lo aprendido ............................. 157 7 Recortables Palabras .................................................... 161 Tabla de nombres ....................................... 163 Historietas .................................................... 165 Oraciones ................................................... 167 Imágenes 1 .................................................. 169 Imágenes 2 ................................................. 171 Rompecabezas ......................................... 173 Mis primeros textos .................................... 177 Invento una historieta ............................... 179 Imágenes 3 ................................................ 183 Máscara ................................................... 185 Máscara ................................................... 187 Peces ........................................................ 189 Peces ........................................................ 191",
+      "charCount": 1687
+    },
+    {
+      "pageNumber": 10,
+      "text": "¿Qué aprenderé?\n\nº A expresar y escuchar atentamente trabalenguas y adivinanzas.\n\nº A participar en actividades de animación y disfrute de la lectura.\n\nº A adoptar una postura cómoda para dibujar y escribir.\n\nº A expresar datos y gustos personales.\n\nAdivina, Adivina, adivinador…adivinador…",
+      "charCount": 290
+    },
+    {
+      "pageNumber": 11,
+      "text": "Mi escuela Hoy fue mi primer día de clases.\n\nLlegué a tiempo a mi escuela.\n\nEn la escuela conocí a mis compañeros y a mi docente.\n\nDije mi nombre y me gustó conocer el nombre de los demás.\n\nSaludamos, cantamos, reímos.\n\nA la salida regresé a casa.\n\nEsperaré un nuevo día.\n\nMe gusta mi escuela.\n\nLuna de Junio [Adaptación]",
+      "charCount": 321
+    },
+    {
+      "pageNumber": 12,
+      "text": "10\n\n1. Canto junto a mi docente.\n\n2. Coloreo la vaca.\n\nTengo una vaca lechera, no es una vaca cualquiera, me da leche condensada, para toda la semana, tolón, tolón, tolón, tolón.\n\nUn cencerro le he comprado, y a mi vaca le ha gustado, se pasea por el prado, mata moscas con el rabo, tolón, tolón, tolón, tolón.\n\nTengo una vaca lechera, no es una vaca cualquiera, me da leche merengada, ¡ay, qué vaca tan salada!\n\nTolón, tolón, tolón, tolón.\n\nFernando García Morcillo muuu ¡Me divierto!\n\nMi vaca lechera",
+      "charCount": 502
+    },
+    {
+      "pageNumber": 13,
+      "text": "11\n\n3. Adivino a partir de las imágenes, ¿qué será?\n\n4. Pinto con huellitas de color la respuesta correcta a la adivinanza.\n\nDe siempre estoy en la En mí, tu y reposas y de",
+      "charCount": 172
+    },
+    {
+      "pageNumber": 14,
+      "text": "12 ¡Me gusta leer!\n\nAntes de la lectura\n\n1. Observo las imágenes y comento.\n\nº ¿Ya he jugado a las adivinanzas?\n\nº ¿De qué se tratarán las adivinanzas?\n\nDurante la lectura\n\n2. Comento después de responder cada adivinanza.\n\nº ¿Por qué se dice que la piña tiene corona?\n\nº ¿En qué lugares permanecen los murciélagos durante el día?\n\nº ¿Qué palabras conozco que rimen con coco?\n\nº ¿Cuál es mi fruta verde favorita?\n\nDespués de la lectura\n\n3. Uno con una línea cada adivinanza con su imagen.\n\nAdivinemos…\n\nTengo escamas y no soy pez, tengo corona y no soy rey, soy una fruta. ¿Quién soy?\n\nVuelo de noche, duermo de día, y nunca verás plumas en el ala mía.\n\nCielo arriba, cielo abajo y una laguna en medio.\n\nBlanca por dentro, verde por fuera si quieres que lo diga, espera.",
+      "charCount": 769
+    },
+    {
+      "pageNumber": 15,
+      "text": "13 Antes de la lectura\n\n1. Comparto un trabalenguas que conozca.\n\nLa gallina pinta Yo tengo una gallina pinta, piririnca, piriranca, rubia y titiblanca.\n\nEsta gallina tiene unos pollitos pintos, piririncos, piririrancos, rubios y titiblancos.\n\nSi esta gallina no fuera pinta, piririnca, piriranca, rubia y titiblanca, no tendría los pollitos pintos, piririncos, pirirancos y titiblancos.\n\nVerónica Labrador Durante la lectura\n\n2. Comento en pares.\n\nº ¿Cómo era la gallina?\n\nº ¿Cómo eran sus pollitos?\n\nDespués de la lectura\n\n3. Describo si he visitado una granja o tengo gallinas y pollitos en casa.\n\ncoc - coc - coc",
+      "charCount": 616
+    },
+    {
+      "pageNumber": 16,
+      "text": "14\n\n1. Leo las imágenes con sus palabras.\n\nPersonas Alimentos mamá sopa comer dormir papá pan bebé pollo Acciones beber",
+      "charCount": 119
+    },
+    {
+      "pageNumber": 17,
+      "text": "15\n\n2. Recorto las palabras que se encuentran en la página 161. Las asocio con\n\nsus iguales.\n\n3. Leo con mi docente las oraciones y dibujo.\n\nmamá papá bebé sopa pan pollo come bebe y\n\n• Mamá toma sopa.\n\n• Papá come pollo y toma\n\nsopa.\n\n• El bebé come puré\n\nde papa.",
+      "charCount": 265
+    },
+    {
+      "pageNumber": 18,
+      "text": "16\n\n1. Observo la imagen y comento si cuidan de los libros y los cuadernos.\n\n2. Miro las partes del libro.\n\n3. Encierro en un círculo la imagen donde se observa que el niño cuida de\n\nsus libros y cuadernos.\n\n4. Converso con otro compañero, ¿cómo cuidaremos nuestros libros y\n\ncuadernos?\n\n5. Comparto mis consejos con la clase y mi docente.\n\npáginas cubierta",
+      "charCount": 357
+    },
+    {
+      "pageNumber": 19,
+      "text": "17\n\n1. Observo las imágenes.\n\nPara escribir tomo en cuenta los siguientes consejos:\n\n2. Observo la forma en que debo tomar el lápiz para escribir.\n\nEl otro brazo sirve de apoyo Me he sentado con la espalda recta.\n\nMis libros y cuadernos se encuentran ordenados.\n\nHe revisado la manera en que tomo el lápiz.\n\nPies apoyados en el suelo Espalda recta\n\n3. Leo con ayuda de mi docente la información de los recuadros y marco\n\nlas que cumplo.\n\nFormas de sostener el lápiz Mano izquierda Mano derecha\n\n4. Reviso la manera de sentarme y tomar el lápiz para escribir.\n\n5. Adopto una postura cómoda para dibujar y escribir.",
+      "charCount": 613
+    },
+    {
+      "pageNumber": 20,
+      "text": "18 Antes de la lectura\n\n1. Converso sobre los animales de la granja.\n\nº ¿Qué animales viven en ese lugar?\n\nUn día en la granja La con mugidos le dijo al que el estaba bañándose en el .\n\nSentada la ha puesto un .\n\nEl va a visitar al .",
+      "charCount": 233
+    },
+    {
+      "pageNumber": 21,
+      "text": "19 Sentada la ha puesto un .\n\nDurante la lectura\n\n2. Converso en equipo.\n\nº ¿Qué animales participan en el texto?\n\nº ¿Qué le sucedía al cerdo?\n\nº ¿Quién cuida de los animales de la granja?\n\nDespués de la lectura\n\n3. Uno con una línea las imágenes y las palabras.\n\ncaballo cerdo gallina vaca pollo",
+      "charCount": 296
+    },
+    {
+      "pageNumber": 22,
+      "text": "20 Antes de la lectura\n\n1. Comento. ¿Me gustan los días de lluvia? ¿Por qué?\n\nIsabel A Isabel le gustan mucho los días de .\n\nEsos días cambia sus por sus porque no se llenarán de Isabel llega muy limpia a sus clases, aunque sea tiempo de .\n\ncuando vaya de camino a la .",
+      "charCount": 269
+    },
+    {
+      "pageNumber": 23,
+      "text": "21 Durante la lectura\n\n2. Respondo las preguntas.\n\nº ¿Cómo se llama la niña del texto?\n\nº ¿Qué le gusta a la niña?\n\nº ¿Por qué se cambia los zapatos?\n\nDespués de la lectura\n\n3. Me dibujo en un día de lluvia.\n\n21",
+      "charCount": 211
+    },
+    {
+      "pageNumber": 24,
+      "text": "22\n\n1. Escribo y dibujo mis datos personales.\n\nEsta es mi huella dactilar:Mi color favorito es:\n\nMi comida favorita es: Esta es mi familia:\n\nMi nombre es:\n\nTengo ____ años.\n\n2. Comparto la información con la clase.\n\n22 ¡Me expreso!",
+      "charCount": 231
+    },
+    {
+      "pageNumber": 25,
+      "text": "23\n\n1. Observo la imagen y escribo.\n\n2. Escribo mi nombre.\n\nPractico lo aprendidoPractico lo aprendido 23",
+      "charCount": 105
+    },
+    {
+      "pageNumber": 26,
+      "text": "º A identificar las cinco vocales por su forma y sonido.\n\nº A reconocer las vocales en mi nombre.\n\nSonidos y palabrasSonidos y palabras ¿Qué aprenderé?",
+      "charCount": 151
+    },
+    {
+      "pageNumber": 27,
+      "text": "Cantemos Con saltos y brincos del brazo vienen las cinco vocales ¿sabes cuáles son?\n\na, e, i, o, u Adivinemos...\n\n¿Cuál de las flores las cinco vocales lleva en su nombre?\n\nLa orquídea Adaptación",
+      "charCount": 195
+    },
+    {
+      "pageNumber": 28,
+      "text": "26\n\n1. Canto con mi docente.\n\n2. Converso en pares.\n\nº ¿Cuáles son las cinco vocales?\n\nº ¿Qué nombre de animal empieza con la letra a?\n\nº ¿Qué vocales lleva mi nombre?\n\nLa risa de las vocales El palacio, el palacio, del rey Número Non, se engalana, se engalana, con una linda reunión.\n\nLas vocales, las vocales, son invitadas de honor y el rey cuenta chistes blancos y uno que otro de color, para que vean sus invitados que hoy está de buen humor.\n\nAsí se ríe la a: ja, ja, ja, ja.\n\nAsí se ríe la e: je, je, je, je.\n\nPero ríe más la i, porque se parece a mí: ji, ji, ji, ji.\n\nAsí se ríe la o: jo, jo, jo, jo.\n\nPero no ríe la u.\n\n¿Por qué no ríe la u?\n\nPorque se aburre más que tú.\n\nAdaptación ¡Me divierto!",
+      "charCount": 706
+    },
+    {
+      "pageNumber": 29,
+      "text": "27\n\n3. Subrayo la o en la rima y coloreo.\n\nSalió la o, salió la o y nunca más volvió.\n\nFue a comer tamal y se engordó.\n\n4. Imito los sonidos.\n\nquiquiriquíiiiiiiiiiiih Tic, tac, tic, tacCroac, croac, croac",
+      "charCount": 204
+    },
+    {
+      "pageNumber": 30,
+      "text": "28 Antes de la lectura\n\n1. Comento la imagen.\n\nº ¿De qué se tratará la lectura?\n\nº ¿Alguna vez hemos hecho burbujas de jabón?\n\nDurante la lectura\n\n2. Respondo.\n\nº ¿Cómo suenan las pompas de jabón?\n\nº ¿Hacia dónde van?\n\nDespués de la lectura\n\n3. Encierro en círculos de colores\n\nlas vocales que encuentro.\n\nPompas de jabón Pim, pom, pim, pom, pom ¡qué bonito suenan las pompas de jabón!\n\nBurbujitas de colores, burbujitas de cristal, van bailando por los aires melodías sin igual.\n\nCinco grandes tres pequeñas burbujitas de cristal suben, bajan, se menean con su traje celofán.\n\nPim, pom pim, pom, pom, ¡qué bonito suenan las pompas de jabón!\n\nJorgelina Cerritos a e i o u ¡Me gusta leer!",
+      "charCount": 687
+    },
+    {
+      "pageNumber": 31,
+      "text": "29\n\n1. Menciono el nombre de los animales.\n\npío pío beeeauuuu croa croa oink oink cua cua\n\n2. Imito el sonido que hace cada animal.\n\n3. Dibujo un animal e imito su sonido.",
+      "charCount": 171
+    },
+    {
+      "pageNumber": 32,
+      "text": "30\n\n1. Observo las imágenes y leo las palabras con ayuda de mi docente.\n\n2. Comento con mi docente.\n\nº ¿Qué hace el niño de la imagen?\n\nº ¿Por qué son importantes las listas?\n\n3. Agrego a la lista un alimento que me gusta\n\ny escribo su nombre en la libreta.\n\n4. Decido sobre qué escribiré mi lista, con ayuda de mi docente.\n\n¿Sobre qué escribiré mi lista?\n\nJuguetes Comida Cuentos favoritos Otros: _____________________________________ sandía guineos leche frijoles aguacates ¡Me expreso!",
+      "charCount": 488
+    },
+    {
+      "pageNumber": 33,
+      "text": "31\n\n5. Dibujo tres elementos en mi lista.\n\n6. Comento, ¿cuál de todas las cosas de mi lista es más importante?",
+      "charCount": 110
+    },
+    {
+      "pageNumber": 34,
+      "text": "32\n\n1. Leo el texto.\n\nMi amiga Ana De la rama de un árbol salta una rata que quiere comerse a Ana. En mi toallita de lana escondo a mi amiga Ana. Ella viene cada mañana a jugar en mi jardín, sus flores favoritas son las rosas y las margaritas.\n\nAna quiere que conozca a sus amigos Elia, Úrsula, Idalia y Omar. Pero olvidaba contarles que Ana es una abeja que tiene dos alas, dos antenas, seis patas y vive en una colmena.\n\n2. Escribo con la ayuda de mi docente los nombres de los amigos de Ana.\n\n3. Marco con una X lo que más le gusta a Ana y escribo su nombre.\n\nPractico lo aprendidoPractico lo aprendido",
+      "charCount": 605
+    },
+    {
+      "pageNumber": 35,
+      "text": "33\n\n4. Uno la imagen con la palabra. Sigo el ejemplo.\n\n5. Escribo mi nombre e identifico las vocales con la ayuda mi docente.\n\nuva estrella ojo imán ala oso",
+      "charCount": 156
+    },
+    {
+      "pageNumber": 36,
+      "text": "34 º A leer mis primeros cuentos.\n\nº A leer nombres.\n\nº A dibujar mi cuento favorito.\n\nHabía una vez…Había una vez…\n\n¿Qué aprenderé?",
+      "charCount": 132
+    },
+    {
+      "pageNumber": 37,
+      "text": "El Hada de los Dientes En el País de las Hadas, cada hadita tenía que practicar sus poderes, pero había una pequeña hada que no se esforzaba y por eso la Reina de las Hadas fue a hablar con ella:\n\n―No es suficiente con que sepas volar o hacerte invisible ―le dijo―.\n\nDeberías practicar más tus poderes mágicos.\n\nLa reina de las hadas se quedó pensando.\n\n―Te daré entonces una misión especial ―le contestó―. Serás la encargada de vigilar a los niños mientras crecen. Deberás estar muy atenta porque cuando se les caiga un diente, tú lo recogerás y lo colocarás en el cielo. De esa forma se convertirá en una blanca estrella.\n\nDesde entonces, el Hada de los Dientes recoge esos dientecitos y por eso el cielo está poblado de miles de estrellas.\n\nCuento alemán",
+      "charCount": 757
+    },
+    {
+      "pageNumber": 38,
+      "text": "36\n\n1. Ayudo a Amanda a encontrar su pez.\n\n2. Ayudo a los niños a encontrar sus peces.\n\n¡Me divierto!",
+      "charCount": 101
+    },
+    {
+      "pageNumber": 39,
+      "text": "37 Los tres pollitos Una vez en el gallinero, la mamá gallina, esposa del gallo Quiquiriquí puso tres .\n\nLos tres pollitos nacieron y eran todos, todos igualitos.\n\nLa mamá gallina se había confundido y no sabía reconocer a sus pollitos.\n\nEl papá gallo le recomendó ponerle a cada pollito un listón.\n\nEntonces la mamá gallina le puso al primer pollito un listón al segundo pollito un listón y cuando vio a su tercer pollito ¡sorpresa! era una pollita y le puso un listón .\n\nMamá gallina estaba muy feliz con papá gallo y sus pollitos.\n\nVioleta Olivares Antes de la lectura\n\n1. Observo la imagen y\n\ncomento.\n\nº ¿De qué se tratará el cuento?\n\nº ¿Alguna vez he visto gallinas, gallos y pollitos cerca de mi casa?\n\nDurante la lectura\n\n2. Respondo.\n\nº ¿Cuántos pollitos nacieron?\n\nº ¿Qué le recomendó papá gallo?\n\nDespués de la lectura\n\n3. Comento: ¿Alguna vez me\n\nhe confundido al mencionar a personas de mi familia o mi escuela?\n\n¿Cómo hago para recordar los nombres de mis nuevos amigos?\n\n¡Me gusta leer!",
+      "charCount": 1001
+    },
+    {
+      "pageNumber": 40,
+      "text": "38 Antes de la lectura\n\n1. Leo el título y comento.\n\nº ¿Qué cosas pueden hacerse con pepinos?\n\nº ¿Por qué se llama así el cuento?\n\nDurante la lectura\n\n2. Respondo.\n\nº ¿Qué estaba pensando el campesino?\n\nº ¿Logrará cortar los pepinos?\n\nDespués de la lectura\n\n3. Converso.\n\nº ¿Qué opino sobre los deseos del campesino?\n\nº ¿Por qué aparece un nombre al final del cuento?\n\nEl campesino y los pepinos Un campesino fue a buscar pepinos mientras pensaba:\n\n―Si me llevo un saco entero de pepinos, los venderé y con el dinero compraré una gallina.\n\nLa gallina pondrá huevos y nacerán pollitos. Criaré los pollitos, los venderé y compraré una lechoncita. Cuando crezca, tendrá crías; las venderé y me compraré una yegua, que me dará potros. Los alimentaré, los venderé y compraré una huerta.\n\nSembraré pepinos, pero no permitiré que me roben. Pondré unos guardias muy severos, para que vigilen los pepinos. Y, de vez en cuando, me daré una vueltecita por allí y les gritaré:\n\n¡Eh, amigos, vigilen con más atención!\n\nEl campesino se olvidó de que estaba en un huerto ajeno y dijo esas palabras en voz muy alta.\n\nLos guardias de la huerta, al escucharlo, se acercaron a él y le dieron algunos consejos.\n\nLeón Tolstoi (Adaptación)",
+      "charCount": 1217
+    },
+    {
+      "pageNumber": 41,
+      "text": "39 Antes de la lectura\n\n1. Escucho el título y comento.\n\nº ¿De qué imagino que trata el cuento?\n\nDurante la lectura\n\n2. Respondo.\n\nº ¿Qué creo que hará para solucionar el problema el inventor?\n\nDespués de la lectura\n\n3. Identifico en el cuento el\n\nnombre del autor.\n\n4. Dibujo a una vaca del cuento.\n\nLas vacas que dan leche con sabor Bueno, hay muchos científicos que han quedado traumatizados desde niños intentando lograr esto, hasta que llegó Hans Fritz Chucrut para solucionar este problema. […] Alimentó a una vaca solo con chocolate, pero no dio resultado y quedó super acelerada, la pobre. A otra le dio kilos de azúcar, pero solo le salieron caries. A otra la llenó de manjar hasta que se volvió vegetariana de puro odio al manjar.\n\n―¿Será algo de la mente?― pensó el inventor.\n\nEntonces pintó a una vaca de color frutilla, pero nada. Después pintó a una amarilla ―por la vainilla, no por el plátano―, pero tampoco.\n\nSubió una vaca a un helicóptero, para ver si daba leche batida.\n\nPero no. La pobre vaca se mareó y nada más. La leche salió normalita y el pobre animal no pudo pararse durante dos días. Fue entonces que las vacas se organizaron para protestar, porque estaban aburridas de los abusos del profesor. Y desde ese día declararon una huelga y dieron pura leche en polvo.\n\nEsteban Cabezas",
+      "charCount": 1307
+    },
+    {
+      "pageNumber": 42,
+      "text": "40\n\n1. Observo las imágenes y leo con ayuda de mi docente.\n\n2. Pego en mi cuaderno la tabla y las tarjetas de la hoja de recortables de la página 163.\n\n3. Dibujo objetos.\n\nla abeja las abejas el zapato los zapatos Las palabras la y las acompañan a los sustantivos femeninos (la abeja, las abejas) y las palabras el y los acompañan a los sustantivos masculinos (el zapato, los zapatos).\n\nCuando los sustantivos se refieren a una persona, animal u objeto están en singular (abeja, zapato); cuando se refieren a más de uno, están en plural (abejas, zapatos).\n\nEn los cuentos que conocemos hay sustantivos en singular, en plural, masculinos y femeninos:\n\nSingular Plural ¡Me expreso!",
+      "charCount": 679
+    },
+    {
+      "pageNumber": 43,
+      "text": "41\n\n4. Dibujo mi cuento favorito.",
+      "charCount": 33
+    },
+    {
+      "pageNumber": 44,
+      "text": "42\n\n1. Coloreo solo las palabras\n\nque aparecen en el cuento.\n\n2. Converso con mis compañeros.\n\nº ¿Qué hace María junto a su familia?\n\nº ¿Qué hace cada integrante de la familia para el almuerzo?\n\nº ¿Qué nombres le pondría a la mamá y al papá de María?\n\nº ¿Cuál es mi comida favorita?\n\nº ¿Cuál es mi postre favorito?\n\nº ¿En qué ayudo para elaborar la comida en mi casa?\n\nLa mona María La mona María almuerza junto a su mamá, su papá y su hermano Pepe.\n\nPepe ayuda a poner la mesa para todos, mamá prepara una rica ensalada de pepinos y papá un delicioso jugo de mandarinas.\n\nA todos les gusta comer de postre manzanas, melón y miel.\n\nLa mona María disfruta siempre sus almuerzos. María ama mucho a su mamá, a su papá y a su hermano Pepe.\n\nTodos muy felices, se aman y almuerzan en casa todos los días.\n\ncocina mamá papá mandarinas Adaptación melón miel CarlosMaría cocospepinos perasmanzanas Practico lo aprendidoPractico lo aprendido",
+      "charCount": 932
+    },
+    {
+      "pageNumber": 45,
+      "text": "43\n\n3. Dibujo la familia de la mona María.\n\n4. Dibujo mi comida favorita.",
+      "charCount": 73
+    },
+    {
+      "pageNumber": 46,
+      "text": "º A leer historietas divertidas.\n\nº A crear historietas con imaginación.\n\nHistorietas divertidas Historietas divertidas ¿Qué aprenderé?",
+      "charCount": 135
+    },
+    {
+      "pageNumber": 47,
+      "text": "45 ¡Me divertiré! ¡Leo mis historietas favoritas!",
+      "charCount": 49
+    },
+    {
+      "pageNumber": 48,
+      "text": "46\n\n1. Imagino que me encuentro en una misión muy especial para salvar al\n\nplaneta y ahora soy un «superhéroe». ¿Cómo me gustaría ayudar?\n\n2. Marco con una X una misión que me gustaría realizar.\n\n3. Encuentro mi traje favorito de superhéroe y lo encierro en un círculo.\n\nMe encuentro listo o lista, ahora sigo el camino que me lleva hasta mi misión.\n\n4. Uno las oraciones con la imagen.\n\nº El océano se encuentra muy sucio.\n\nº El gato se subió al árbol y no puede bajar solo.\n\nº La abuela necesita ayuda para cruzar la calle.\n\n¡Me divierto!",
+      "charCount": 540
+    },
+    {
+      "pageNumber": 49,
+      "text": "47 º ¿Qué poder me gustaría tener si fuera un «superhéroe»?\n\nº ¿Creo que la misión que elegí la puedo hacer, aunque no fuera un superhéroe? ¿Por qué?\n\n5. Converso en pares.\n\n6. Leo con mi docente.\n\n7. Converso en equipo.\n\nº Según la historieta ¿cómo es y qué le gusta hacer a Daniel?\n\nº ¿Cómo se logra una meta?\n\nº Menciono el nombre de superhéroes que conozco.\n\nHéroes por el Universo Daniel dormía en su cama y soñaba con ser un superhéroe.\n\nLe encantaba pensar en el universo.\n\nSe imaginaba como el héroe que salvaba el planeta, de unos villanos desconocidos.\n\nEstudiaba todos los días, leía y su meta era sacar las mejores notas.\n\nEra un niño amistoso y le encantaba el fútbol.\n\nEn su clase aprendía sobre ciencia y física.\n\n―¡Anota, Samuel!\n\n―¡La energía es importante!\n\n47 ¡Quisiera ser interplanetario!",
+      "charCount": 809
+    },
+    {
+      "pageNumber": 50,
+      "text": "48 Antes de la lectura\n\n1. Observo y marco qué tipo de texto leeré.\n\ncuento adivinanza historieta Luis es un héroe, ¡salvó a mi gato!\n\nTu gato es todo aventurero.\n\nNo, solo evité que se perdiera.\n\nSí. Luis lo rescató.\n\nMamá, Luis salvó al gato de Tania.\n\nSí, Tania debe estar contenta.\n\nMi gato está en casa, gracias a ti.\n\nMe gusta cuidar de las mascotas.\n\nDurante la lectura\n\n2. Rodeo al niño que salvó al gato.\n\n3. ¿Por qué los niños piensan que el gato es aventurero?\n\nDespués de la lectura\n\n4. Converso en equipo.\n\n¿Qué historietas conozco?\n\n¡Me gusta leer!",
+      "charCount": 562
+    },
+    {
+      "pageNumber": 51,
+      "text": "49 Para conocer sobre historietas hay que observar la secuencia de las imágenes o leer lo que dicen los personajes.\n\nCuando la historieta no tiene texto, basta con observar detenidamente la secuencia de las imágenes.\n\nTítulo: ___________________________ Antes de la lectura\n\n1. Observo la historieta\n\ny comento.\n\nº ¿Qué debo hacer para comprender esta historieta?\n\nDurante la lectura\n\n2. Respondo.\n\nº ¿Quién es la protagonista de la historieta?\n\nDespués de la lectura\n\n3. Converso en equipo.\n\nº ¿De qué trató la historieta?\n\n4. Recorto las imágenes de la página 165 y los pego en mi cuaderno, formando la secuencia de imágenes de las dos historietas.\n\n5. Coloco el título a cada una de las historietas.\n\nSofía y Natalia están contentas porque irán de vacaciones...\n\nA todos los niños les encanta nadar y compartir.\n\nA Natalia pasar tiempo con sus amigos.\n\nNatalia está contenta porque pronto estará abierta la piscina.\n\nº ¿Qué título le pondría a esta historieta?\n\n49 ¡Qué bien, la piscina!",
+      "charCount": 990
+    },
+    {
+      "pageNumber": 52,
+      "text": "50\n\n1. Observo la historieta.\n\n2. Converso con mi docente.\n\n• Al principio, ¿qué expresa el rostro del oso?\n\n• ¿Qué habrá pensado el oso al ver una mariposa?\n\n• ¿Qué sucedió al final de la historieta?\n\n3. Leo y comento con mi docente.\n\n• ¿Para qué está leyendo Gusanín?\n\n• ¿Por qué Gusanín se comió el libro?\n\n• ¿Qué le pasó a Gusanín?\n\n• ¿Qué debe hacer Gusanín para llenarse de conocimiento?\n\nGusanín ¡Ay, mi pancita!, espero que sí funcione…ñam, ñam…\n\nTendré examen de Sociales mañana.\n\n«Si quieres triunfar, llénate de conocimiento».\n\n¡Eso haré!",
+      "charCount": 549
+    },
+    {
+      "pageNumber": 53,
+      "text": "51\n\n4. Observo las imágenes. Escucho el diálogo que lee mi docente y comento.\n\n5. Leo las oraciones con mi docente.\n\n6. Recorto las imágenes de la página 163 y las pego según corresponde.\n\nLa semana pasada nos dio tos.\n\nDame pan y miel.\n\nEse asno no me da miedo.\n\nToda la espuma se salió.\n\nEstamos empatados.\n\nDaniel me dio todos los dados.\n\n¡Mamá, mami!\n\nMe duele mucho un diente.\n\nMi niña, te dije que no comieras tantos dulces. Ahora tendremos que hacer una visita al dentista.",
+      "charCount": 480
+    },
+    {
+      "pageNumber": 54,
+      "text": "52\n\n7. Escucho y comento la información que lee mi docente.\n\n8. Leo con mi docente y comento.\n\nº ¿Qué conozco sobre los dinosaurios?\n\nLos huevos de dinosaurio medían entre 30 y 60 centímetros y los depositaban en nidos. Después de unos seis meses nacían los bebés dinosaurios midiendo menos de un metro.\n\nLos museos de dinosaurios son interesantes para niños y adultos. Si los visitamos podemos saber que los dinosaurios vivían en todas partes, hasta en los desiertos.\n\nAlgunos dinosaurios podían reemplazar los dientes desgastados. Se cree que cambiaban de dientes unas tres veces al año.\n\n9. Converso con mis compañeros.\n\nº ¿Qué más me gustaría saber de los dinosaurios?",
+      "charCount": 672
+    },
+    {
+      "pageNumber": 55,
+      "text": "53\n\n10. Observo y comento de qué trata el diálogo.\n\n11. Escucho y respondo.\n\n¡Don Tomás nos está esperando!\n\nTenemos que llegar temprano.\n\n¡Apúrate!\n\nOro parece plata no es quien no lo adivine que lo intente otra vez.\n\nSoy bonito por delante y algo feo por detrás, me transformo a cada instante ya que imito a los demás.\n\n─¿Cuál es el animal que más dientes tiene?",
+      "charCount": 364
+    },
+    {
+      "pageNumber": 56,
+      "text": "54\n\n12. Leo con mi docente la historieta.\n\n13. Converso en equipo.\n\n14. Dibujo el último diente que se me cayó.\n\nEl ratoncito Pérez Creo que daré un paseo.\n\n¡Encontré un quesito sabroso!\n\nMi pancita está contenta.\n\nAhora a trabajar...\n\n¡Terminé!\n\nEste es el último diente.\n\nº ¿Qué he escuchado sobre el ratoncito Pérez?\n\nº ¿Alguna vez he colocado un diente bajo mi almohada?\n\n¿Qué pasó con ese diente?\n\nº ¿Creo que los ratones solo comen queso?\n\nº ¿Qué más creo que les gustará comer?",
+      "charCount": 484
+    },
+    {
+      "pageNumber": 57,
+      "text": "55\n\n1. Observo las imágenes y leo con ayuda de mi docente.\n\nmanita Carlitos tiburoncillo llavecita Me encontré este lapicito en el piso.\n\nLeí el cuento del hombrecillo del bosque.\n\nMi tía tiene un carrito nuevo.\n\n¡Nos encanta ir a la escuelita!\n\n¿Me das un besito de despedida?\n\nLa abuelita sabe muchos cuentos.\n\nESCUELA ¡Me expreso!",
+      "charCount": 333
+    },
+    {
+      "pageNumber": 58,
+      "text": "56\n\n2. Recorto las tarjetas de la página 169 y las pego según corresponde.\n\n3. Escribo con mi docente el diminutivo a cada imagen.\n\nmonoeloteAna sapomuelapapá Danielmesapapeles",
+      "charCount": 176
+    },
+    {
+      "pageNumber": 59,
+      "text": "57\n\n4. Observo las imágenes e invento lo que dicen los personajes.\n\n5. Escribo cada historieta, con ayuda de mi docente.\n\nº Escribo lo que dice cada personaje en el espacio correspondiente.\n\nº Uso palabras diminutivas.\n\nTítulo: ___________________________________",
+      "charCount": 263
+    },
+    {
+      "pageNumber": 60,
+      "text": "58\n\n6. Leo las historietas que hice e invento un título.\n\n7. Escribo el título de cada historieta en el lugar que corresponde.\n\n8. Intercambio mis historietas con un compañero.\n\n9. Anoto las palabras diminutivas que utilicé en mis historietas.\n\nTítulo:_____________________________",
+      "charCount": 281
+    },
+    {
+      "pageNumber": 61,
+      "text": "59\n\n1. Observo la historieta y respondo, ¿qué creo que pasó?\n\nº Dibujo los diálogos con mi docente.\n\nTítulo______________________ Practico lo aprendidoPractico lo aprendido\n\n2. Dibujo el final de la historieta.",
+      "charCount": 210
+    },
+    {
+      "pageNumber": 62,
+      "text": "60 El mundo de las El mundo de las fábulasfábulas º A leer y a comprender fábulas con sus enseñanzas y valores.\n\n¿Qué aprenderé?",
+      "charCount": 128
+    },
+    {
+      "pageNumber": 63,
+      "text": "61 El león y el ratón Un pequeño ratón, que nunca había visto un león, un día estuvo frente a uno. Como era primera vez que lo veía, sintió miedo y decidió alejarse.\n\nCuando lo vio por segunda vez, el ratón aún sintió miedo; sin embargo, esta sensación de temor fue mucho menor que antes, tomó sus precauciones y consideró que sería bueno entablar una conversación con el león.\n\nMoraleja: entre más conozcas algo, te será más familiar y menos temible.\n\nAdaptación",
+      "charCount": 463
+    },
+    {
+      "pageNumber": 64,
+      "text": "62\n\n1. Miro la imagen, ¿qué historia me recuerda? Expreso a mi clase.\n\n2. Coloreo a mi gusto.\n\n3. Leo con ayuda de mi docente los textos y los uno con las imágenes.\n\n―¿Hacemos una carrera y verás como te gano?\n\n― Bien, si tú quieres.\n\n¡Hurra! ¡La tortuguita es la campeona!\n\nLe llevo mucha ventaja, me dormiré un rato.\n\n―Ja… ja… ja… voy ganado― dijo confiada la liebre.\n\n¡Me divierto!",
+      "charCount": 384
+    },
+    {
+      "pageNumber": 65,
+      "text": "63\n\n4. Coloreo el recuadro con la respuesta correcta.\n\n¿Cuál es el nombre de la fábula?\n\n5. Comento, ¿qué aprendí de la fábula «La liebre y la tortuga»?\n\n¿La tortuga era veloz?\n\n¿Cómo se comportaba la liebre?\n\n¿Qué hizo la liebre mientras la tortuguita avanzaba?\n\n¿Qué hizo la tortuguita mientras la liebre dormía?\n\n¿Cómo se comportaba la tortuguita?\n\nEl gato con botas El ratón y el león La liebre y la tortuga cariñosa vanidosa burlona comer dormir platicar caminar correr dormir con desesperación con tranquilidad con esfuerzo sí no 63",
+      "charCount": 538
+    },
+    {
+      "pageNumber": 66,
+      "text": "64 La lechera En una pequeña granja vivía una joven con su familia. La muchacha siempre estaba trabajando y ayudando a sus ancianos padres.\n\nUna mañana, cuando acababa de ordeñar a la única vaca que tenían, se dirigió con su cántaro de leche hacia el pueblo, para vender la que había conseguido sacar.\n\nCon el cántaro en la cabeza, se puso en marcha hacia el mercado y, por el camino, la joven comenzó a imaginar lo que podría hacer con el dinero que iban a darle por toda aquella leche:\n\n―Con el dinero que me den por la leche fresca, voy a comprar una docena de huevos. Con los huevos criaré pollitos y los alimentaré con grano fino para que crezcan sanos y fuertes… Después, los cambiaré por un cerdito. Lo cuidaré y alimentaré tan bien, que pronto se hará un gran cerdo. Entonces, lo venderé y compraré una ternera, que pastará libre por el prado y pronto me dará una gran cantidad de leche. Tendré tanta, que podré venderla y ganar un montón de dinero… Con el dinero…\n\nLa lechera estaba tan inmersa en sus pensamientos que no se dio cuenta de que había una enorme piedra en el camino y, casi cuando llegaba al pueblo, tropezó. El cántaro se rompió y derramó toda la leche que quería vender.\n\n¡Pobre muchacha! ¡Cómo se lamentaba!\n\n―Tantos sueños e ilusiones que había puesto en vender la leche y, por no estar atenta al camino, ahora todo se ha perdido―lloraba la lechera.\n\nDe vuelta a su hogar, con los ojos rojos de tanto llorar, la muchacha pensó:\n\n―Esto me ha pasado por querer demasiadas cosas y ahora me he quedado sin nada que vender.\n\nDe ahora en adelante iré pasito a pasito.\n\nMoraleja:\n\nAntes de soñar con lo que quieres conseguir en el futuro, asegura bien el presente y, poco a poco, irás alcanzando tus metas. Pero recuerda: los que tanto sueñan con lo que el futuro les puede traer difícilmente disfrutarán de lo que el presente les está dando ya.\n\nFelix María de Samaniego ¡Me gusta leer!",
+      "charCount": 1907
+    },
+    {
+      "pageNumber": 67,
+      "text": "65 Antes de la lectura\n\n1. Observo el título y la imagen.\n\n2. Comento.\n\nº ¿En qué lugares se puede comprar leche?\n\nº ¿Qué hace una lechera?\n\nDurante la lectura\n\n3. Respondo.\n\nº ¿Cómo creo que se siente la lechera? ¿Qué haría yo con el dinero de la venta de la leche?\n\nDespués de la lectura\n\n4. Converso en equipo.\n\nº ¿Qué pienso sobre lo que le sucedió a la lechera?\n\nº ¿Qué significa lo que aparece al final de la narración en letras azules?\n\n5. Coloreo la imagen.\n\n6. Digo qué animales\n\nimaginaba la lechera.\n\n65",
+      "charCount": 514
+    },
+    {
+      "pageNumber": 68,
+      "text": "66 Había una vez una familia de ratones que vivía en la despensa de una casa, pero temiendo siempre los ataques de un enorme gato, los ratones no querían salir.\n\nYa fuera de día o de noche este terrible enemigo los tenía vigilados.\n\nUn buen día decidieron poner fin al problema, por lo que celebraron una asamblea a petición del jefe de los ratones, que era el más viejo de todos.\n\nEl jefe de los ratones dijo a los presentes:\n\n―Los he reunido para que entre todos encontremos una solución.\n\n¡No podemos vivir así!\n\n―¡Pido la palabra! ― Dijo un ratoncito muy atento―. Atemos un cascabel al gato, y así sabremos en todo momento por dónde anda. El sonido nos pondrá en alerta y podremos escapar a tiempo.\n\nTan interesante propuesta fue aceptada por todos los roedores entre grandes aplausos y felicidad.\n\nCon el cascabel estarían salvados, porque su campanilleo avisaría de la llegada del enemigo con el tiempo para ponerse a salvo.\n\n―¡Silencio! ― Gritó el ratón jefe, para luego decir: ―Queda pendiente una cuestión importante: ¿Quién de todos le pondrá el cascabel al gato?\n\nAl oír esto, los ratoncitos se quedaron callados, muy callados, ¡Nos gusta leer!\n\nporque no podían contestar a aquella pregunta. De pronto todos comenzaron a sentir miedo.\n\nY todos, absolutamente todos, corrieron de nuevo a sus cuevas, hambrientos y tristes.\n\nMoraleja: es más fácil proponer ideas que llevarlas a cabo.\n\nAdaptación El congreso de los ratones Antes de la lectura\n\n1. Observo el título y la imagen.\n\n2. Comento con mi docente.\n\nº Si congreso significa reunión, ¿cuál podría ser la razón por la que se reúnen los ratones?\n\nDurante la lectura\n\n3. Respondo.\n\nº ¿Cuál fue la solución que propusieron los ratones?",
+      "charCount": 1698
+    },
+    {
+      "pageNumber": 69,
+      "text": "67 Después de la lectura\n\n4. Señalo y comento ¿de qué trató la fábula?\n\n5. Identifico y comento ¿cómo trataba el gato a los ratones?\n\n6. Sugiero en equipo.\n\nOtras soluciones para los problemas de los ratones.\n\n67",
+      "charCount": 212
+    },
+    {
+      "pageNumber": 70,
+      "text": "68\n\n1. Escucho la fábula que lee mi docente.\n\nLos dos amigos y el oso Felices iban dos amigos por el camino hasta que de repente apareció un oso feroz. Uno se ocultó fácilmente en un árbol; el otro, a punto de ser atrapado, se tiró al suelo, fingiéndose muerto.\n\nAcercó la fiera su hocico, oliéndole por todas partes, pero el hombre contenía su respiración. Cuando se fue el oso, el hombre escondido en el árbol bajó y preguntó a su compañero en forma de broma qué le había dicho el oso al oído.\n\n—Que no viaje, en el futuro, con amigos que\n\nhuyen ante el peligro— le respondió.\n\nEsopo Moraleja: la verdadera amistad se comprueba en los momentos de peligro.\n\nDurante la lectura\n\n2. Converso.\n\nº A partir de la historia, ¿dónde se encontraban los amigos?\n\nº ¿Qué les sucedió a los dos amigos?\n\nº ¿Qué conozco sobre la vida de los osos?\n\nDespués de la lectura º ¿Qué cambios le haría a la historia?\n\nº ¿Qué recomendaría a las personas que visitan los bosques?\n\nAntes de la lectura º A partir del dibujo, ¿de qué tratará la fábula?",
+      "charCount": 1028
+    },
+    {
+      "pageNumber": 71,
+      "text": "69 º Recorto las imágenes de la página 171 y las pego según corresponde.\n\n3. Leo las oraciones en voz alta.\n\n4. Repaso y leo con mi docente.\n\nº Mi tía Daniela fue a las lomas el lunes de la semana pasada. Su familia no fue, pues todos tenían tos. Daniela tomó lindas fotos y las puso en mi teléfono.\n\nº Fausto y Fátima desfilaron en el estadio. Después del desfile, sus papás los felicitaron.\n\nFelipe me lee una fábula.\n\nMi familia fue de paseo.\n\nTu pelo es diferente al mío.\n\nFuimos a la fiesta de Fidel.\n\nEl elefantito está afuera.\n\nDiana tiene síntomas de tifoidea.",
+      "charCount": 568
+    },
+    {
+      "pageNumber": 72,
+      "text": "70 El perro y la carne Vadeaba un perro el río llevando en su hocico un sabroso pedazo de carne. Vio su propio reflejo en el agua del río y creyó que aquel reflejo era en realidad otro perro que llevaba un trozo de carne mayor que el suyo.\n\nPensó un rato y deseando adueñarse del pedazo ajeno, soltó el suyo para arrebatar el trozo a su supuesto compadre.\n\nPero el resultado fue que se quedó sin el ajeno porque no existía, solo era un reflejo, y sin el otro, el verdadero, porque se lo llevó la corriente.\n\nMoraleja: nunca codicies el bien ajeno, pues puedes perder lo que ya has adquirido con tu esfuerzo.\n\nEsopo Durante la lectura\n\n2. Converso.\n\nº ¿Qué creyó el perro al ver su reflejo?\n\nº ¿Por qué soltó su pedazo de carne?\n\nº Con ayuda de mi docente busco el significado de las palabras que no conozco.\n\nDespués de la lectura\n\n3. Respondo en mi cuaderno.\n\nº ¿Cómo se sintió el perro al perder su carne?\n\nº Comento con mis compañeros lo que aprendí de la fábula.\n\nAntes de la lectura\n\n1. Escucho la fábula que lee mi docente.\n\nº A partir del título, ¿de qué tratará la fábula?\n\n¡Me expreso!",
+      "charCount": 1094
+    },
+    {
+      "pageNumber": 73,
+      "text": "71 La tortuga y los patos\n\n—¡Cuánto me gustaría viajar y ver el mundo!\n\nPero camino tan despacito que no llegaré muy lejos —decía la tortuga.\n\nDos patos la oyeron y le dijeron:\n\n—Inventaremos un aparatito para que puedas\n\nviajar.\n\nTomaron un palito y, entre los dos, lo sostuvieron con el pico.\n\nLa tortuga se prendió del palo con la boca y los patos remontaron vuelo y la llevaron por el aire. ¡Pudo ver las copas de los árboles y los techos de las casas! Se sintió poderosa e importante y empezó a gritar:\n\n—¡Soy la reina de las tortugas! ¡Miren cómo vuelo! ¡Miren có… o… o…!\n\nPero, al abrir la boca, tuvo que soltar el palito y ¡pataplúm! cayó en el pasto y se dio un gran porrazo, tan grande que estuvo dos días quejándose:\n\n—¡Ay, ay, ay, ay! ¡Por creerme la reina de las tortugas, ahora soy la reina de los chichones!\n\nLa vanidad y la temeridad a menudo conducen a la desgracia.\n\nEsopo Antes de la lectura\n\n1. Leo la fábula con ayuda de mi docente.\n\nº A partir del dibujo y el título, ¿de qué tratará la fábula?\n\nDurante la lectura\n\n2. Converso.\n\nº ¿Qué quiere hacer la tortuga?\n\nº ¿Por qué la tortuga piensa que no puede llegar muy lejos?\n\nº ¿Quiénes y con qué ayudaron a lograr el deseo de la tortuga?\n\nDespués de la lectura º ¿Qué es lo más divertido de la fábula?\n\nº ¿Qué consejos le daría a la tortuga?\n\nº Comento con mis compañeros qué aprendí de la fábula.",
+      "charCount": 1368
+    },
+    {
+      "pageNumber": 74,
+      "text": "72\n\n1. Leo con mi docente la siguiente fábula.\n\n2. Rodeo la enseñanza que nos deja la fábula.\n\nA los niños que dicen mentiras les va muy bien.\n\nNadie les cree a los mentirosos, ni siquiera cuando dicen la verdad.\n\nEl pastor mentiroso Había una vez un joven pastor que estaba cuidando a su rebaño en el monte.\n\nUn día decidió divertirse asustando a las personas del pueblo y comenzó a gritar: —¡El lobo! ¡Viene el lobo! ¡Socorro! ¡El lobo se come a mis ovejas!\n\nLas personas del pueblo se asustaron, dejaron de hacer sus tareas y corrieron a ayudarle. Cuando vieron que no era cierto y que el niño estaba riéndose y burlándose; todos volvieron a sus trabajos. Poco tiempo después, el joven volvió a hacer lo mismo y nuevamente los aldeanos llegaron corriendo, sin embargo se dieron cuenta que solo lo hacía para reírse de ellos.\n\nPero, sucedió que un día entró un lobo de verdad al corral y empezó a comerse a las ovejas, esta vez el joven muy asustado corrió en busca de ayuda gritando: —¡El lobo! ¡El lobo! —gritó— ¡Un lobo ataca mi rebaño!\n\n¡Socorro!\n\nPero, por más que gritaba, los aldeanos no se movieron, pues pensaron que era otra de sus bromas y así fue como el joven pastor perdió a todas sus ovejitas.\n\nEsopo\n\n3. Ordeno las palabras y las escribo en el orden correspondiente.\n\nburro toma agua barril.\n\nEl de su Practico lo aprendidoPractico lo aprendido",
+      "charCount": 1362
+    },
+    {
+      "pageNumber": 75,
+      "text": "73\n\n4. Ordeno las imágenes y narro una fábula a partir de ellas.",
+      "charCount": 64
+    },
+    {
+      "pageNumber": 76,
+      "text": "º A leer rondas y canciones.\n\nVamos a cantarVamos a cantar ¿Qué aprenderé?",
+      "charCount": 74
+    },
+    {
+      "pageNumber": 77,
+      "text": "Canción para vestirse A levantarse, ―dijo la rana, mientras espiaba por la ventana.\n\nTira con tirita y ojal con botón.\n\nUn pajarito que está en la cama busca el zapato bajo la rama [...] Tira con tirita y ojal con botón.\n\nUna gallina muerta de risa se pone el gorro y la camisa Tira con tirita y ojal con botón.\n\nMaría Elena Walsh Adaptación",
+      "charCount": 341
+    },
+    {
+      "pageNumber": 78,
+      "text": "76\n\n1. Leo con ayuda de mi docente las palabras y las uno con el dibujo\n\ncorrespondiente.\n\ngota quince bosque guitarra queso guineo gato barquito gusano ¡Me divierto!",
+      "charCount": 166
+    },
+    {
+      "pageNumber": 79,
+      "text": "77\n\n3. Leo con ayuda de mi docente.\n\nCucú, cantaba la rana Cucú, cantaba la rana cucú, debajo del agua.\n\nLa luna para mirarse busca espejitos de plata.\n\nCucú, pasó un caballero cucú, con capa y sombrero.\n\n―¿Qué quiere el hombre nocturno?\n\n―Quiero un caballo de fuego.\n\nCucú, pasó la señora, cucú, con traje de cola.\n\nVa por rocío y silencio, a ver al Papa de Roma.\n\n2. Observo la imagen.\n\nº ¿De qué se tratará el poema?\n\n4. Comento con mi docente.\n\nº ¿Qué hace la luna para mirarse?\n\nº ¿Qué llevaba puesto el caballero?\n\nº ¿Cómo era el traje de la señora?\n\n5. Canto la ronda con mis\n\ncompañeros y docentes.\n\nCucú, pasó el alguacil, cucú, con llave y candil.\n\nEl duende de los viajeros le ofrece un grano de anís...\n\nClaudia Lars",
+      "charCount": 728
+    },
+    {
+      "pageNumber": 80,
+      "text": "78 Juguemos en el bosque mientras el lobo no está.\n\nJuguemos en el bosque mientras el lobo no está.\n\n¿Lobo estás?\n\n¡Me estoy poniendo el saco!\n\nJuguemos en el bosque Juguemos en el bosque mientras el lobo no está.\n\nJuguemos en el bosque mientras el lobo no está.\n\n¿Lobo estás?\n\n¡Me estoy poniendo los pantalones!\n\nJuguemos en el bosque mientras el lobo no está.\n\nJuguemos en el bosque mientras el lobo no está.\n\n¿Lobo estás?\n\n¡Me estoy poniendo la camisa!\n\n¡Me gusta leer!\n\nAntes de la lectura\n\n1. Observo la imagen y comento.\n\nº ¿De qué tratará la ronda?\n\nº ¿Alguna vez he cantado esta ronda?\n\nº ¿Dónde me gusta jugar?",
+      "charCount": 619
+    },
+    {
+      "pageNumber": 81,
+      "text": "79 Durante la lectura\n\n2. Respondo.\n\nº ¿Qué le falta ponerse al lobo?\n\nº ¿Qué hará el lobo cuando salga?\n\nJuguemos en el bosque mientras el lobo no está.\n\nJuguemos en el bosque mientras el lobo no está.\n\n¿Lobo estás?\n\nRonda popular: juego infantil, tomándose de las manos se forma un círculo, girando y entonando una canción al mismo tiempo. Estas se transmiten de generación en generación oralmente.\n\nDespués de la lectura\n\n3. Dibujo la última prenda de\n\nvestir que se puso el lobo.\n\n¡Sí, y ya salgo para comérmelos!\n\nRonda popular Juguemos en el bosque mientras el lobo no está.\n\nJuguemos en el bosque mientras el lobo no está.\n\n¿Lobo estás?\n\n¡Me estoy poniendo el sombrero!",
+      "charCount": 676
+    },
+    {
+      "pageNumber": 82,
+      "text": "80\n\n7. Marco con una X el cuento que\n\nme hizo recordar la ronda.\n\n8. Respondo.\n\nº ¿Cuál es el sonido que emiten los lobos?\n\nº ¿De qué se alimentan los lobos?\n\nº ¿Dónde habitan?\n\n4. Comento ¿para qué se estaba\n\ncambiando el Lobo?\n\n5. Comento como me gustaría que\n\nel Lobo dijera al final.\n\n6. Dibujo el lobo con todas las\n\nprendas que se puso.\n\ndormir comer Sí, y ya salgo para jugar.\n\nSí, y ya salgo para viajar.\n\nSí, y ya salgo para cantar.\n\npasear",
+      "charCount": 449
+    },
+    {
+      "pageNumber": 83,
+      "text": "81 Nanuk, el esquimal «Nanuk, el esquimal, sale a pasear.\n\nPachín, pachín, pachín, pachán.\n\nSube en su trineo, pero algo va a pasar, ¿qué?, ¿qué?, ¿qué?, ¿qué va a pasar?»\n\n¡Qué niebla!, no veo, me voy a parar.\n\n¡Sí, sí, sí! Me voy a parar.\n\n¡Un oso polar!, me voy a escapar.\n\n¡Sí, sí, sí! Me voy a escapar.\n\n¡Un gran precipicio!, tengo que girar.\n\n¡Sí, sí, sí! Tengo que girar.\n\n¡Un bloque de hielo!, me ha hecho volcar ¡Sí, sí, sí! Me voy a volcar.\n\nCanción popular esquimal Antes de la lectura\n\n1. Observo la imagen y comento.\n\nº ¿De qué tratará esta canción?\n\nº ¿Alguna vez he escuchado esta canción?\n\nDurante la lectura\n\n2. Respondo y marco.\n\nº ¿Cómo se llama el esquimal?",
+      "charCount": 677
+    },
+    {
+      "pageNumber": 84,
+      "text": "82 º ¿En qué sale a pasear Nanuk?\n\nº ¿Qué se encontró Nanuk cuando salió a pasear?\n\nDespués de la lectura\n\n3. Comento.\n\nº ¿De quién se habla en la canción?\n\nº ¿Dónde viven los esquimales?\n\nº ¿Qué le pasó a Nanuk el esquimal?",
+      "charCount": 224
+    },
+    {
+      "pageNumber": 85,
+      "text": "83\n\n1. Observo la imagen y comento con mis compañeros.\n\n¿De qué tratará está canción? ¿Alguna vez he escuchado está canción?\n\nYo tenía un perrito Yo tenía un perrito que Pardito se llamaba, lo puse en la bañera para ver si nadaba.\n\nSe bebió toda el agua y se comió el jabón.\n\nCuando abrió la boca, ¿sabes qué pasó?\n\n¡De pompas irisadas el baño llenó!\n\nCanción popular\n\n2. Canto la canción «Yo tenía un perrito», con mi docente.\n\n3. Comento y coloreo.\n\nº ¿Cómo se llamaba el perrito?\n\nº ¿Para qué lo pusieron en la bañera?\n\nº ¿Qué comió Pardito?",
+      "charCount": 544
+    },
+    {
+      "pageNumber": 86,
+      "text": "84\n\n4. Converso con mis compañeros.\n\nº ¿He jugado a hacer pompas?\n\nº ¿Alguna vez he tenido un perrito u otra mascota?\n\nº ¿Cuido y baño a mi mascota?\n\n5. Dibujo la mascota que me gustaría tener.",
+      "charCount": 193
+    },
+    {
+      "pageNumber": 87,
+      "text": "85\n\n1. Observo la imagen y comento con mis compañeros.\n\nº ¿Había escuchado antes esta canción?\n\nº Si conozco la canción la canto con mi docente y mis compañeros.\n\nº ¿Tengo una botella de agua? ¿Qué color es?\n\nDiez botellas verdes Diez botellas verdes saltando en la pared.\n\nDiez botellas verdes saltando en la pared.\n\nSi una llegara a caer, habría nueve botellas saltando en la pared.\n\n(…) Dos botellas verdes saltando en la pared.\n\nDos botellas verdes saltando en la pared.\n\nSi una llegara a caer, habría _____ botella saltando en la pared…\n\nCanción popular",
+      "charCount": 558
+    },
+    {
+      "pageNumber": 88,
+      "text": "86\n\n1. Escucho y repito la canción.\n\nPingüinos, a bailar ¡Pingüinos, listos!\n\n¡A bailar!\n\n¿Has visto alguna vez a un pingüino bailar?\n\nSi me miras bien, ¡un pingüino verás!\n\n¡Pingüinos, listos! ¡A bailar!\n\n¡Mano derecha!\n\n¿Has visto alguna vez a un pingüino bailar?\n\nSi me miras bien, ¡un pingüino verás!\n\n¡Pie derecho!\n\n¡Pie izquierdo!\n\n¿Has visto alguna vez a un pingüino bailar?\n\nSi me miras bien, ¡un pingüino verás!\n\n¡Pingüinos, listos! ¡A bailar!\n\n¡Mano derecha!\n\n¡Mano izquierda!\n\n¡Pie derecho!\n\n¡Pie izquierdo!\n\n¡Mueve cabeza!\n\n¿Has visto alguna vez a un pingüino bailar?\n\nSi me miras bien, ¡un pingüino verás!\n\nPinkfong y KizCastle\n\n2. Converso, ¿dónde viven los pingüinos?, ¿de qué se alimentan?",
+      "charCount": 705
+    },
+    {
+      "pageNumber": 89,
+      "text": "87\n\n1. Canto las canciones con mi docente.\n\n3. Dibujo el personaje de la canción que más me gustó y escribo su\n\nnombre.\n\nMargarita tiene un gato Uno, dos, tres y cuatro.\n\nMargarita tiene un gato con las orejas de trapo y los ojos de cristal.\n\n¡Bingo!\n\nHabía una vez un granjero.\n\nBingo se llamaba su perro.\n\n¡Bingo! ¡Bingo! ¡Bingo!\n\n¡Qué nombre más divertido!\n\nPajarito que cantas Pajarito que cantas en la laguna, no despiertes al niño que está en la cuna.\n\nCanción popular\n\n2. Comento con mi docente.\n\nº ¿Cuál canción me gustó más?\n\nº Menciono canciones que hablen sobre animales.\n\nº Comparto una canción que conozco.\n\n¡Me expreso!",
+      "charCount": 633
+    },
+    {
+      "pageNumber": 90,
+      "text": "88\n\n1. Canto la canción.\n\nCinco guisantes Cinco guisantes metidos en una vaina.\n\nCreció el uno, creció el dos.\n\n¿Y con los otros qué pasó?\n\nQue crecieron y crecieron y crecieron sin parar, ¡Hasta que la vaina llegó a reventar!\n\n2. Comento con mis compañeros.\n\nº Los guisantes y los frijoles son legumbres, ¿qué otras legumbres conozco?\n\n3. Observo las imágenes y escribo una oración.\n\nFrijoles Lentejas Guisantes",
+      "charCount": 412
+    },
+    {
+      "pageNumber": 91,
+      "text": "89\n\n4. Observo las imágenes y escribo sus nombres, usando el, la, las y los.",
+      "charCount": 76
+    },
+    {
+      "pageNumber": 92,
+      "text": "90\n\n1. Observo el dibujo y leo con ayuda de mi docente.\n\n2. Respondo y marco con una X.\n\n• ¿Quién iba levantándose las enaguas?\n\n• ¿Qué llevaba la hormiga?\n\nEl Chorrito Allá, en la fuente, había un chorrito; se hacía grandote, se hacía chiquito.\n\nEstaba de mal humor, pobre chorrito, tenía calor.\n\nEstaba de mal humor, pobre chorrito, tenía calor.\n\nAhí va la hormiga, con su paraguas, y levantándose las enaguas, porque el chorrito la salpicó, y sus chapitas le despintó.\n\nPorque el chorrito la salpicó, y sus chapitas le despintó.\n\nCri Cri Practico lo aprendidoPractico lo aprendido",
+      "charCount": 583
+    },
+    {
+      "pageNumber": 93,
+      "text": "91\n\n3. Leo y dibujo lo que hace falta para completar la canción.\n\n4. Marco con una X en «sí» si la oración es correcta y en «no» si la oración es incorrecta.\n\nAllá, en la fuente, había un ; se hacía grandote, se hacía chiquito. Estaba de , pobre chorrito, tenía .\n\nEl chorrito estaba de buen humor porque tenía calor.\n\nLa hormiga llevaba un paraguas.\n\nEl chorrito le despintó las chapitas a la hormiga.\n\nsí no",
+      "charCount": 409
+    },
+    {
+      "pageNumber": 94,
+      "text": "92 º A expresar las ideas importantes.\n\nº A comprender textos instruccionales.\n\nº A organizar la información de los textos.\n\nMis cuentos favoritosMis cuentos favoritos ¿Qué aprenderé?",
+      "charCount": 183
+    },
+    {
+      "pageNumber": 95,
+      "text": "93 El gato con botas Érase una vez... un viejo molinero que, al morir, repartió sus escasas posesiones entre sus tres hijos. Al pequeño sólo le correspondió un gato.\n\nEl gato le propone salir de la miseria desplegando su inteligencia. Se calza unas botas para caminar, se cuelga un saco al hombro para guardar el botín, y sale a cazar. Cada pieza que cobra se la ofrece al rey de la comarca, en nombre de su amo «El Marqués de Carabás».\n\nUn día, conocedor de que el rey va a salir a pasear con su hermosa hija, finge que su amo se está ahogando y que unos ladrones le han robado la ropa.\n\nEl rey manda a socorrerlo y le da unos ricos vestidos suyos para cubrirse.\n\nEl hijo de un molinero se convierte en dueño del castillo, se casa con la hija del rey y todos encuentran la felicidad.\n\nCuentos de Mamá Oca",
+      "charCount": 805
+    },
+    {
+      "pageNumber": 96,
+      "text": "94\n\n1. Observo las imágenes y encuentro las diferencias.\n\n2. Comparo con un compañero las diferencias.\n\n3. Marco las diferencias con una X.\n\n4. Leo el cuento con ayuda de mi docente.\n\nLa granja del abuelo Una vez en la granja, Karina pudo ver todos los animales que el abuelo tenía y descubrió los sonidos que cada uno hacía.\n\nHabía algunas gallinas que le saludaban con un ruidoso coc, coc, coc. Al entrar al gallinero, Karina descubrió que las gallinas habían puesto huevos.\n\nJunto a las gallinas había un perro. El perro era café y le encantaba jugar a la pelota. El abuelo llevó a Karina al establo y allí vieron vacas, caballos y ovejas.\n\nAdemás, también había un lindo gatito con el que Karina jugaba. A Karina también le encantaban las flores.\n\nAdaptación ¡Me divierto!",
+      "charCount": 776
+    },
+    {
+      "pageNumber": 97,
+      "text": "95\n\n5. Observo y marco con X los animales del recuadro que aparecen en el\n\ncuento.\n\n6. Ayudo a Karina a llegar a las flores.",
+      "charCount": 124
+    },
+    {
+      "pageNumber": 98,
+      "text": "96 muchas ganas de comérsela, pero no se atrevió porque unos leñadores andaban por ahí cerca.\n\nÉl le preguntó a dónde iba. La pobre niña, que no sabía que era peligroso detenerse a hablar con un lobo, le dijo:\n\n―Voy a ver a mi abuela, y le llevo una torta y un tarrito de mantequilla que mi madre le envía.\n\n―¿Vive muy lejos? ―le pregunto el lobo.\n\n―¡Oh, sí! ―dijo Caperucita Roja,\n\n— más allá del molino que se ve\n\nallá lejos, en la primera casita del pueblo.\n\n―Pues bien ―dijo el lobo―, yo también quiero ir a verla; yo iré por este camino, y tú por aquel, y veremos quién llega primero.\n\nEl lobo partió corriendo a toda velocidad por el camino que era más corto y la niña se fue por el más largo. Poco tardó el lobo en llegar a casa de la abuela; golpea: Toc, toc.\n\n―¿Quién es? ―preguntó la abuelita ―Es su nieta, Caperucita Roja ―dijo el lobo, disfrazando la voz, Antes de la lectura\n\n1. Observo la imagen y comento.\n\nº ¿De qué tratará la lectura?\n\nCaperucita Roja Había una vez una niñita en un pueblo, la más gentil que jamás se hubiera visto; su madre la quería mucho y su abuela mucho más. La abuela le había mandado hacer una caperucita roja y desde entonces todos la llamaban Caperucita Roja.\n\nUn día su madre, habiendo cocinado unos pasteles, le dijo.\n\n―Anda a ver cómo está tu abuela, pues me dicen que ha estado enferma; llévale un pastel y este tarrito de mantequilla.\n\nAl pasar por un bosque, se encontró con el lobo, que tuvo ¡Me gusta leer!",
+      "charCount": 1457
+    },
+    {
+      "pageNumber": 99,
+      "text": "97\n\n3. Observo los dibujos y marco los\n\ncuentos que he leído.\n\n4. Converso sobre otros cuentos\n\nque conozco.\n\n�e� PINOCHO Caperucita ROJA Durante la lectura\n\n2. Respondo.\n\nº ¿Cómo llamaban a la niña de la que habla el cuento? ¿Por qué?\n\nº ¿Qué había cocinado la madre de la niña?\n\nº ¿A dónde se dirigía la niña?\n\n5. Marco con una X los\n\nalimentos que llevaba en la canasta.\n\npastel galletas tarro de mantequilla le traigo un pastel y un tarrito de mantequilla que mi madre le envía.\n\nLa abuela, que estaba en cama porque no se sentía bien, le gritó:\n\n―Empuja la puerta.\n\nEl lobo abrió y se arrojó sobre la abuelita y se la comió.",
+      "charCount": 629
+    },
+    {
+      "pageNumber": 100,
+      "text": "98 El lobo esperó a Caperucita Roja, quien, un rato después, llegó a golpear la puerta: Toc, toc.\n\n―¿Quién es? ―Preguntó el lobo.\n\nCaperucita Roja, al oír la ronca voz del lobo, primero se asustó, pero creyendo que su abuela estaba resfriada, contestó:\n\n―Es su nieta, Caperucita Roja, le traigo un pastel y un tarrito de mantequilla que mi madre le envía.\n\nEl lobo le gritó, suavizando un poco la voz:\n\n―Empuja la puerta.\n\nLa niña vio diferente a la abuela y dijo:\n\n―Abuela, ¡qué brazos tan grandes tienes!\n\n―Son para abrazarte mejor, hija mía.\n\n―Abuela, ¡qué orejas tan grandes tienes!\n\n―Son para oírte mejor, hija mía.\n\n―Abuela, ¡qué ojos tan grandes tienes!\n\n―Son para verte mejor, hija mía.\n\n―Abuela, ¡qué dientes tan grandes tiene!\n\n―¡Para comerte mejor!\n\nY diciendo estas palabras, este lobo hambriento se abalanzó sobre Caperucita Roja y se la comió.\n\n6. Comento con mi docente y\n\ncompañeros.\n\nº ¿Con quién se encontró en el bosque Caperucita Roja?\n\nDespués de la lectura lobo gato oso",
+      "charCount": 992
+    },
+    {
+      "pageNumber": 101,
+      "text": "99\n\n8. Comento con mi docente.\n\nº¿Por qué era peligroso el lobo?\n\nº¿Creo que es buena idea hablar con personas desconocidas?\n\nº¿Con quién puedo compartir mi información personal?\n\n9. Marco el nombre de los cuentos\n\nque conozco.\n\nº Los tres cerditos _____________ º Las habichuelas mágicas ___________________ º El soldadito de plomo _______ º El gato con botas _______\n\n11. Uno la imagen de los\n\nprotagonistas del cuento con su nombre.\n\n7. Dibujo, ¿cómo imagino al lobo\n\ndisfrazado de abuelita?\n\n10. Escribo el nombre del cuento.\n\nlobo Caperucita Roja Abuelita\n\n12. Pido a mi familia que me lean\n\nun cuento que ellos recuerden de su infancia.",
+      "charCount": 642
+    },
+    {
+      "pageNumber": 102,
+      "text": "100 No más jaulas\n\n1. Leo el cuento con ayuda de mi docente.\n\nUn día, Julia y Juan visitaron el circo, pero al finalizar la visita, los niños estaban tristes. Julia dijo a su familia:\n\n―Los animales salvajes que «trabajan en los circos» han sufrido mucho maltrato. Jirafas, leones, monos, jaguares y osos han sido empujados a aprender piruetas por medio de golpes y castigos.\n\nJuan, afirmó: ―Sí, los han alejado de sus familias.\n\n―Es cierto, hijos míos ―dijo el papá―. Han tenido que vivir en lugares ajenos a su hogar. Y a viajar en camiones, encerrados en jaulas, soportando temperaturas muy bajas o muy altas. Vayamos al circo a ver payasos y trapecistas, pero dejemos en paz a los animales. ¡No son juguetes!\n\nAsí que se organizaron en la ciudad y pidieron libertad para todos los animales del circo. Sus voces fueron escuchadas y los regresaron a su hogar.\n\nAdaptación",
+      "charCount": 873
+    },
+    {
+      "pageNumber": 103,
+      "text": "101\n\n2. Repito con mi docente las onomatopeyas.\n\n3. Coloreo el círculo del león que vive en su hábitat.\n\n4. Converso con mis compañeros.\n\nº ¿Qué me hacen sentir estas imágenes?\n\nº ¿Cuál es mi opinión sobre los circos?\n\nº ¿Estoy de acuerdo con tener animales en jaulas?\n\n5. Emito el sonido que hacen los leones.\n\nja, ja, ja jo, jo, jo je, je, je ji, ji, ji ju, ju, ju",
+      "charCount": 366
+    },
+    {
+      "pageNumber": 104,
+      "text": "102\n\n1. Leo el cuento con ayuda de mi docente.\n\nEl gigante egoísta Había una vez un jardín que pertenecía a un gigante.\n\nAprovechando que el gigante se había ido a pasar una temporada con su amigo, el ogro, los niños iban a jugar al jardín. Pero un día el gigante regresó y los descubrió.\n\n―¿Qué hacen en mi jardín? ―gritó el gigante, enfurecido―. ¡Fuera de mi jardín!\n\nEl gigante levantó un muro y puso una verja para evitar que los niños volvieran por allí.\n\nCuando la primavera volvió, toda la región se llenó de pájaros, geranios y girasoles.\n\n―La primavera no ha querido venir a mi jardín―, se lamentaba el gigante.",
+      "charCount": 620
+    },
+    {
+      "pageNumber": 105,
+      "text": "103\n\n2. Comento, ¿cómo era el gigante?, ¿qué aprendió el gigante?\n\n3. Ilustro el cuento con tres escenas: inicio, nudo y final.\n\n4. Comparto mis ilustraciones con otro compañero.\n\nUna mañana el gigante oyó en el jardín el canto de un pájaro. Él se acercó a la ventana y se llenó de alegría.\n\nLos niños, que se habían colado por un agujero del muro, se habían subido a las ramas de los árboles y jugaban. Solo un niño que no había conseguido subir a ningún árbol lloraba. El gigante sintió compasión por el niño y bajó para ayudarle.\n\nInicio Nudo Final Mientras bajaba las escaleras pensaba:\n\n―¡Qué egoísta he sido! Ahora comprendo por qué la primavera no quería venir a mi jardín. Derribaré el muro y dejaré que los niños vengan a jugar y a comer gelatina que con gusto les prepararé.\n\nOscar Wilde Adaptación",
+      "charCount": 808
+    },
+    {
+      "pageNumber": 106,
+      "text": "104\n\n5. Leo con ayuda de mi docente y uno cada palabra con su dibujo.\n\ngirasol gelatina ángel genio gemelas",
+      "charCount": 107
+    },
+    {
+      "pageNumber": 107,
+      "text": "105\n\n1. Leo el cuento con ayuda de mi docente.\n\nLas habichuelas mágicas Juanito vivía con su mamá en una cabaña en el bosque. La situación familiar era horrible, porque no tenían qué comer.\n\nLa mamá envío a Juanito a la ciudad, para que allí intentase vender la única vaca que poseían.\n\nEl niño llevaba atado con una cuerda al animal y se encontró con un hombre que llevaba un saquito de habichuelas.\n\n—Son maravillosas —explicó aquel\n\nhombre—. Si te gustan, te las daré a cambio de la vaca.\n\nAsí lo hizo y volvió muy contento a su casa. La mamá, disgustada al ver la tontería del muchacho, cogió las habichuelas y las arrojó al patio. Después se puso a llorar.\n\nCuando se levantó Juanito al día siguiente, fue grande su sorpresa al ver que las habichuelas habían crecido tanto durante la noche, que las ramas se perdían de vista.\n\nSe puso Juanito a trepar por la planta, y sube que sube, llegó a un país desconocido. Entró en un castillo y vio a un malvado gigante que tenía una gallina que ponía un huevo de oro, cada vez que él se lo mandaba.\n\nEsperó a que el gigante se durmiera, tomó a la gallina y escapó con ella. Llegó a casa, la madre se puso muy contenta. Y así fueron vendiendo los huevos de oro, y con su producto vivieron tranquilos mucho tiempo…\n\nHans Christian Andersen",
+      "charCount": 1284
+    },
+    {
+      "pageNumber": 108,
+      "text": "106\n\n2. Escucho la lectura y marco las palabras que mencionan en el cuento.\n\n3. Converso con mi docente y compañeros sobre las palabras que no\n\nconozco.\n\n4. Dibujo y escribo lo que más me gustó del cuento.",
+      "charCount": 205
+    },
+    {
+      "pageNumber": 109,
+      "text": "107 Había una vez un viejo carpintero llamado Gepeto.\n\nÉl hizo con sus manos un hermoso muñeco de madera. A quien bautizó con el nombre de Pinocho.\n\nLa noche en que terminó de tallarlo, deseó que Pinocho fuera un niño de verdad. Luego, apareció el Hada Azul y le dio vida al muñeco.\n\nSi el títere hiciera el bien, algún día se convertiría en un niño de verdad.\n\n—Escucha, Pinocho, siempre\n\ndebes hablar con la verdad. Si mentiras dices, la nariz te crecerá\n\n—dijo el Hada Azul.\n\nPepe Grillo era el amiguito de Pinocho. Gepeto se sentía muy feliz de tener a Pinocho en casa.\n\n—Papá, nunca más estarás solo\n\n—decía Pinocho —, pero quiero ir\n\na la escuela como todos los chicos del pueblo.\n\nEntonces, Gepeto vendió su chaqueta y las chancletas que tenía para que a Pinocho no le faltara nada en la escuela.\n\nCierto día, Pinocho vendió la mochila y sus libros a un muchacho para poder ir al circo de criaturas mágicas. Él se divirtió viendo a los gimnastas y seres de otros planetas.\n\nAl llegar a casa, Gepeto preguntó:\n\n—¿Cómo te fue hoy? ¿Qué has\n\nhecho con tu mochila?\n\n—Papaíto, un chico me la robó.\n\nY la nariz le creció y creció…\n\n—Pinocho, dime la verdad ya sé\n\nque estás mintiendo.\n\nAl pobre títere no le quedó más remedio que decir la verdad.\n\nGepeto tenía frío porque la chaqueta que había vendido era la única que tenía.\n\n—Papito, lánzame a la chimenea\n\npara que puedas calentarte.\n\nY lloró como un niño arrepentido.\n\nEntonces, el Hada azul le dio otra oportunidad y la nariz achicó. Y a la escuela bien portadito volvió.\n\nCarlo Collodi Adaptación Pinocho\n\n1. Leo con ayuda de mi docente.\n\n2. Comento con mis compañeros, ¿de qué tratará el cuento?",
+      "charCount": 1654
+    },
+    {
+      "pageNumber": 110,
+      "text": "108\n\n3. Escribo los números del 1 al 4 según el orden del cuento.\n\n4. Comento con mis compañeros qué aprendí del cuento.\n\nº ¿Alguna vez he mentido? ¿Cómo me sentí?\n\nº ¿Qué consejo le daría a Pinocho?",
+      "charCount": 199
+    },
+    {
+      "pageNumber": 111,
+      "text": "109 ¿Quién es el más útil?\n\n1. Leo el cuento con ayuda de mi docente.\n\n2. Comento a partir del título y los dibujos, ¿de qué trata el cuento?\n\n3. Comento, ¿por qué discutían los\n\nanimales?, ¿qué les diría para que no discutan?\n\n4. Propongo diferentes finales para\n\nel cuento.\n\nEstaban el gallo y las gallinas discutiendo quién de ellos era más útil para la granja.\n\n―Nosotras le damos huevos y polluelos ―dijeron las gallinas―.\n\nCon ellos puede alimentarse él y su familia, y el resto, los vende en el mercado.\n\n―Pero yo ―razonó el gallo― lo despierto todos los días y si no lo hiciera, el granjero se dormiría y no les traería la comida, así que no habría ni huevos, ni polluelos, ni gallinas.\n\nSiguieron discutiendo hasta que llegó el amanecer sin que el gallo despertara al granjero. El buen hombre se despertó ya muy avanzada la mañana sin entender por qué el gallo no había hecho su trabajo ni las gallinas habían puesto un solo huevo.\n\nPensó que sus animales ya estaban viejos y agotados, y los vendió…\n\nLuis Tomás Melgar",
+      "charCount": 1027
+    },
+    {
+      "pageNumber": 112,
+      "text": "110\n\n5. Coloreo los dibujos de los animales que aparecen en el cuento.\n\n6. Leo con ayuda de mi docente.\n\n7. Observo las imágenes y marco con X la que no pertenece a la granja.\n\nLa cuida a los El se moja con la La come .\n\n.\n\n.",
+      "charCount": 225
+    },
+    {
+      "pageNumber": 113,
+      "text": "111 ¡Buenos días!\n\n¡Por favor!\n\n¿Qué tal estás?\n\n¡Hola!\n\n¡Gracias!\n\n¡Buenas tardes!\n\n¡Buenos días!\n\n¿Cómo estás?\n\nMuy bien ¡Gracias!\n\n¡Qué gusto verte!\n\n¡Hasta pronto!\n\n1. Converso con mi docente sobre las formas de saludar y las normas de\n\ncortesía.\n\n2. Observo los diálogos y los practico con mis compañeros.\n\n3. Propongo diálogos diferentes.\n\n¡Me expreso!",
+      "charCount": 358
+    },
+    {
+      "pageNumber": 114,
+      "text": "112\n\n4. Converso con un compañero sobre lo que observo en las imágenes.\n\n5. Comento con mi docente lo que conversamos.",
+      "charCount": 118
+    },
+    {
+      "pageNumber": 115,
+      "text": "113\n\n6. Leo con ayuda de mi docente las palabras de la caja mágica.\n\n7. Marco con una X las acciones que representan un diálogo.\n\n8. Converso sobre las imágenes y explico por qué algunas no son diálogos.\n\nCaja de palabras mágicas:\n\n¡Hola!, ¿qué tal? ¡Buenos días! ¡Buenas tardes!\n\n¡Buenas noches! Con permiso… ¡Lo siento!\n\n¡Saludos! ¡Gracias! Disculpa ¡Por favor! ¡Hasta pronto!\n\nRecuerda que el rostro, los movimientos de manos y el tono de voz también comunican algo.",
+      "charCount": 469
+    },
+    {
+      "pageNumber": 116,
+      "text": "114\n\n1. Observo y leo con ayuda de mi docente.\n\nCómo hacer un teatrín Materiales:\n\nº Una caja mediana de zapatos o galletas º Papel lustre rojo º Papel lustre verde º Cartoncillo º Colores º Pegamento º Cinta adhesiva º Tijera º Palillos largos o pajillas Paso a paso:\n\n1. Dibujar los escenarios en el\n\ncartoncillo.\n\n2. Por ejemplo: el bosque y la\n\ncasa de la abuelita.\n\n3. Cortar una cara de la caja.\n\n4. Forrar el interior de la caja con\n\nel papel verde.\n\n5. Cubrir la parte superior de la\n\ncaja con el papel rojo.\n\n6. Dibujar en el cartoncillo, los\n\npersonajes del cuento.\n\n7. Recortar y pegar con cinta\n\nadhesiva los personajes sobre los palillos o pajillas.\n\n8. Usar el teatrín elaborado para\n\npresentar un cuento.",
+      "charCount": 719
+    },
+    {
+      "pageNumber": 117,
+      "text": "115\n\n4. Escribo las acciones con ayuda de mi docente.\n\n5. Recorto las imágenes de la página 183. Elijo una y explico a mi docente\n\ncómo se realiza esa acción.\n\n2. Leo con ayuda de mi docente.\n\n3. Observo las siguientes imágenes y las uno con las acciones.\n\nUn texto instructivo es el que indica los pasos a seguir para realizar un juego, una receta de cocina, una tarea u otra actividad.\n\nCada paso es una acción que se debe realizar.\n\ncomer escribir jugar",
+      "charCount": 456
+    },
+    {
+      "pageNumber": 118,
+      "text": "116 Jugar, comer y escribir son palabras que indican acciones.\n\n7. Organizo un equipo para decidir qué cuento realizaremos en el teatrín.\n\n6. Leo la siguiente información con ayuda de mi docente.\n\n8. Elaboro el teatrín en equipo con el apoyo de un familiar.\n\n9. Planeo sobre qué objeto me gustaría escribir las instrucciones de uso.\n\nDibujo el objeto.",
+      "charCount": 351
+    },
+    {
+      "pageNumber": 119,
+      "text": "117\n\n2. Pienso y escribo un nombre para el cuento.\n\nPractico lo aprendidoPractico lo aprendido\n\n3. Recorto la imagen de la página 185 y elaboro una máscara de «cerdito».\n\n4. Hago un diálogo con un compañero, usando mi máscara.\n\n1. Imagino lo que sucede en el siguiente cuento, ordeno las imágenes del\n\n1 al 6. ¿Qué pasó primero? ¿Qué pasó después? ¿Qué pasó al final?",
+      "charCount": 367
+    },
+    {
+      "pageNumber": 120,
+      "text": "118 ¿Quiénes son los personajes del cuento?\n\n¿Qué ocurre al inicio de la historia?\n\n¿Qué ocurre en el nudo de la historia?\n\n¿Cómo finaliza la historia?\n\n5. Leo con ayuda de mi docente y uno con las imágenes que corresponde.\n\n6. Pienso y escribo un nombre para el lobo y cada uno de los cerditos.",
+      "charCount": 295
+    },
+    {
+      "pageNumber": 121,
+      "text": "119 Lucas bebe jugo de naranja.\n\nSofía come una rica ensalada.\n\nDiego y Elisa leen un cuento.\n\n9. Expreso una oración para cada imagen.\n\n8. Leo las oraciones y las uno con la imagen correcta.\n\n7. Escribo el nombre de mi cuento favorito y lo comento con mi docente y\n\ncompañeros.",
+      "charCount": 278
+    },
+    {
+      "pageNumber": 122,
+      "text": "Vamos a leerVamos a leer º A identificar las partes que estructuran un cuento.\n\nº A crear cuentos organizando una secuencia de acciones.\n\n¿Qué aprenderé?",
+      "charCount": 153
+    },
+    {
+      "pageNumber": 123,
+      "text": "121 Para ser un buen pirata Para ser un buen pirata y no meter la pata necesitamos un garfio y una pierna de buen palo, sombrero de bucanero que no nos quitaremos ni en diciembre, ni en enero, parche en el ojo y un barbón rojo.\n\nUna cacatúa o dos loros, mil canciones de mares de piratas singulares.\n\nEstrella Montenegro",
+      "charCount": 320
+    },
+    {
+      "pageNumber": 124,
+      "text": "122\n\n1. Selecciono un cuento o fábula de las siguientes imágenes.\n\n2. Converso con mis compañeros sobre qué trata.\n\n3. Organizo con mi equipo una pequeña obra teatral.\n\n4. Escribo el nombre del cuento o fábula que seleccioné.\n\nLos tres cerditos El pastorcito mentiroso Caperucita Roja La liebre y la tortuga ¡Me divierto!",
+      "charCount": 321
+    },
+    {
+      "pageNumber": 125,
+      "text": "123\n\n5. Escribo el nombre del personaje que haré en la obra. Lo practico con\n\nmis compañeros.\n\n6. Leo con ayuda de mi docente; escucho los nombres de personas y\n\nlugares y encierro en un círculo las mayúsculas y los puntos que señale mi docente.\n\nUn día de paseo al Museo de Historia Natural Lucía estaba muy contenta porque llegó el día en que podría salir de paseo junto a sus hermanos Juan, María y Tomás. Todos estaban muy felices ya que irían a conocer al Museo de Historia Natural.\n\nLos niños se levantaron muy temprano para bañarse y alistarse, se pusieron la mejor ropa que tenían; sus padres, Juana y Pedro, también se prepararon porque habían planeado el viaje con mucho entusiasmo. Los padres les dijeron que debían llevar puestos zapatos tenis para poder caminar con comodidad dentro del Museo.\n\nLa familia salió muy feliz a tomar un taxi cerca de la calle Gerardo Barrios; después de treinta minutos de viaje, llegaron al lugar tan esperado. Al llegar las personas del lugar, les dieron las indicaciones y comenzaron a recorrer todo el lugar; viendo todas las exhibiciones de rocas, animales y ecosistemas. Toda la familia disfrutó mucho del paseo.\n\nAdaptación\n\n7. Dibujo y coloreo la forma en que imagino un museo.",
+      "charCount": 1228
+    },
+    {
+      "pageNumber": 126,
+      "text": "124 Del agua soy, tierra y aire. Cuando de andar me canso, vuelo o nado, ¿quién soy?\n\nSoy un animal que vive en la selva. Me gusta saltar de rama en rama y rascarme la cabeza; también me gusta comer guineos. ¿Quién soy?\n\nVivo en el mar, sin ser pez y soy siempre juguetón. Nunca me baño en el Rin, pues soy el mismo del fin.\n\nDe cierto animal di el nombre: es quien cuida la casa, quien avisa si alguien pasa. Y es fiel amigo de todos.\n\nAntes de la lectura\n\n1. Observo y comento los dibujos.\n\n2. Leo las adivinanzas con ayuda de mi docente.\n\nDurante la lectura\n\n3. Respondo cada adivinanza.\n\n4. Uno el dibujo que representa la respuesta de la adivinanza.\n\nDespués de la lectura\n\n5. Invento otras adivinanzas de animales y las comparto con mis\n\ncompañeros.\n\n¡Me gusta leer!",
+      "charCount": 772
+    },
+    {
+      "pageNumber": 127,
+      "text": "125 Antes de la lectura\n\n1. Observo el título del cuento y\n\nlos dibujos.\n\n2. Comento, ¿de qué creo que\n\ntratará el cuento?\n\nPájaro Amarillo Antes de nacer ya eran diferentes.\n\nTambién tenían algo en común.\n\nPájaro Amarillo no podía volar con sus pequeñas alas.\n\nPájaro Amarillo era muy habilidoso. Con sus pequeñas alas conseguía arreglar cualquier cosa. También creaba nuevos inventos. Lo que más le gustaba era compartir sus inventos.\n\n—¡Buen viaje!\n\n—Te mandaremos una postal—\n\ndijo Picapinos.\n\nQuienes podían volar, poco a poco, se fueron marchando a otros lugares.\n\nTodas las semanas, Teo el cartero le traía el correo.\n\nPájaro Amarillo recibía postales desde lugares muy lejanos. Así descubrió que en el mundo había otros pájaros que tampoco podían volar.\n\nUn día, Pájaro Amarillo se puso triste.\n\n—¿Qué te pasa? —le preguntó\n\nTeo.\n\n— Me gustaría poder volar para\n\nconocer estos lugares —dijo Pájaro Amarillo.\n\nTeo tuvo una idea...\n\nbuitre cacatúa pato mandarín picapino albatros tucán",
+      "charCount": 991
+    },
+    {
+      "pageNumber": 128,
+      "text": "126 Y a la mañana siguiente.\n\n—¡Buen viaje!\n\n—Te mandaré una postal.\n\nPájaro Amarillo atravesó un mar.\n\nLlegó a un desierto donde conoció a dos avestruces.\n\nUna de ellas quería volar.\n\nColaborando, adaptaron el invento para poder volar.\n\nAvestruz voló y el invento con Gallina compartió.\n\nGallina voló y el invento con Kiwi compartió.\n\nKiwi voló y el invento con Pingüino compartió.\n\nHasta el otro Polo, Pingüino voló y el invento con Osa Polar compartió.\n\nAsí fue como Osa Polar se mudó al Polo Sur.\n\nPara entonces, Pájaro Amarillo había dado una vuelta al mundo.\n\n—¿Por qué no inventas algo para poder volar? Yo te ayudo a fabricarlo\n\n—dijo Teo.\n\nPasaron todo el día… y toda la noche trabajando.",
+      "charCount": 697
+    },
+    {
+      "pageNumber": 129,
+      "text": "127 De todos los lugares que visitó hubo uno que fue el que más le gustó.\n\nEn este lugar Pájaro Amarillo se quedó a vivir y una postal a su amigo Teo se puso a escribir.\n\nQuerido Teo:\n\nGracias a nuestro invento he podido viajar por todo el mundo. Ahora, vivo en un lugar muy bonito donde disfruto mucho con mis nuevas amigas y amigos.\n\nCompartir nuestro invento ha sido muy útil. Avestruz pudo cumplir su sueño, Gallina se liberó y Kiwi descubrió lugares diferentes. Pingüino lo compartió con Osa Polar para ayudarla a encontrar un nuevo hogar.\n\nEspero que vengas pronto a visitarnos.\n\nTe quiere. Tu amigo Pájaro Amarillo.\n\nOlga de Dios Durante la lectura\n\n3. Respondo.\n\nº ¿Qué pasó al inicio del cuento?\n\nº ¿Qué no podía hacer Pájaro Amarillo?\n\nº ¿Qué podía hacer Pájaro Amarillo con sus alas?\n\nDespués de la lectura\n\n4. Respondo.\n\nº ¿Qué pudo inventar Pájaro Amarillo?\n\nº ¿A qué lugares viajó?\n\nº ¿Qué animales conoció Pájaro Amarillo?\n\n5. Comento con mi familia el cuento que leímos hoy.",
+      "charCount": 990
+    },
+    {
+      "pageNumber": 130,
+      "text": "128\n\n1. Comento, a partir del título, ¿de qué tratará el cuento?\n\n2. Leo el cuento con ayuda de mi docente.\n\nCuenta la leyenda que hace muchos años, en un bello país llamado El Salvador, existía una playa cuyas partículas de conchas la hacían diferente al resto: sus arenas eran gruesas y nacaradas, en lugar de ser grises y finas.\n\nCierto día de verano, un pelícano viajero sobrevoló la zona y, después de un rato, se detuvo a descansar. Mientras descansaba, les contó a las gaviotas del lugar historias sobre las bellas playas doradas que vio brillar bajo el sol.\n\nLa arena lo escuchó atenta y deseó, con todo su corazón de espuma ser tan hermosa como aquellas playas de las que hablaba el pelícano viajero.\n\nEl padre sol, viendo lo que sucedía, decidió hacerle un regalo especial a la playa.\n\nUn día en que el calor era muy intenso tiró uno de sus rayos especiales sobre la costa.\n\nEl rayo cayó con rapidez y se deshizo en millones de pedacitos.\n\nCosta del Sol Al principio no parecía haber diferencia, pero cuando el sol del mediodía se mostró, la arena brilló sonriendo con alegres destellos de luz… Y es por ese brillo tan especial que en El Salvador llamamos a esa playa «Costa del Sol», pues el sol se encuentra en el cielo y en la playa a la vez.\n\nGuadalupe Castellanos\n\n3. Dibujo una playa que conozco.\n\n4. Converso sobre la playa que\n\ndibujé.",
+      "charCount": 1353
+    },
+    {
+      "pageNumber": 131,
+      "text": "129 Doña Karina Japón China Nueva York\n\n1. Leo el poema con ayuda de mi docente.\n\n2. Dibujo lo que trajo doña Karina de cada viaje.\n\n3. Escribo lo que dibujé.\n\nEs una señora un poco rara, pero muy fina.\n\nNada en su piscina como una sardina.\n\nLe gusta aparecer en las revistas del corazón.\n\nSe apunta a cualquier reunión si va la televisión.\n\nCuando viaja al extranjero trae vacío su monedero.\n\nSus compras son alucinantes:\n\nnadie vio nada así antes.\n\nCuando fue a Japón, no se trajo un ordenador, sino un acordeón.\n\nCuando fue a Nueva York, no se trajo ropa, sino un jamón.\n\nY cuando fue a China, no se trajo un kimono, sino una mandolina.\n\nAna Serna Vara",
+      "charCount": 655
+    },
+    {
+      "pageNumber": 132,
+      "text": "130\n\n1. Leo el cuento con ayuda de mi docente.\n\n2. Comento, ¿de qué creo que tratará el cuento?\n\nLuciérnagas «—Abra la caja, niña. No vale nada mi regalito, pero tiene su gracia…\n\nEmpujé la frágil gaveta y lancé un grito de júbilo. Allí, moviéndose como esmeraldas vivas, un puñado de luciérnagas encendía y apagaba sus luces verdes y menudas.\n\nAbracé a Cruz, dos o tres veces, le alboroté el áspero cabello, le di un beso en la oreja y hasta pude tocarle la panza de sapo…»\n\nCuando Líber, la mamá de Azul, terminó de leer aquel bello cuento de Claudia Lars, ambas quedaron en silencio.\n\nAzul estaba deslumbrada, muy quieta; por primera vez en su vida la atrapaba la magia del asombro.\n\nLíber, cautivada también por la magia que brotaba de Azul, sonreía dulcemente al ver como brillaban en los ojos de Azul unas lucecitas fosforescentes (…) Era un lindo enjambre de luciérnagas que inundaron de luz verde esmeralda la sala, los dormitorios, y hasta la cocina. Emocionadas, Líber y Azul se abrazaron y lloraron de alegría…\n\nAntes de acostarse, Líber le dijo a Azul:\n\n—Hija, yo jamás había visto algo\n\nasí… Es un milagro de la poesía…\n\n—Sí, mamá, pero yo tengo miedo\n\nde tanta luciérnaga… siento que me están diciendo algo que no entiendo…\n\n—Es cierto, son misteriosas, pero\n\ncon la luz de la esperanza.\n\n—Mamá… ¿Y por qué no le\n\ncontamos esto a Mixtli?\n\n—Buena idea… mañana es su\n\ncumpleaños y estamos invitadas a su casa.",
+      "charCount": 1421
+    },
+    {
+      "pageNumber": 133,
+      "text": "131\n\n3. Expreso lo que más me gustó del\n\ncuento.\n\n4. Recuerdo los nombres de los personajes y los comento con mis\n\ncompañeros. ¿Cuál me gustó más y cuál me gustó menos?\n\n5. Comento con mi docente, ¿Cómo son las luciérnagas?\n\n6. Imagino uno de los personajes, lo\n\ndibujo y escribo su nombre.\n\n—Cierto… ¿y yo qué le voy a\n\nregalar…?\n\nAl día siguiente, llegaron a casa de Mixtli. Lo primero que vieron fue una nube oscura encima del techo. Azul preguntó:\n\n—Mami… ¿Y esa nube oscura?\n\n—No te preocupes… todas las\n\ncasas tienen su nube oscura, así como también tienen nubes de luz.\n\nAntes de que tocaran el timbre, Mixtli abrió la puerta y las invitó a pasar.\n\n—Mix…, ¿y esa nube que está allá\n\nafuera?\n\n—Es una señal… pero solo pueden\n\nver quienes tengan los ojos llenitos de amor y asombro.\n\n—Pues, de algo mágico y\n\nasombroso queremos hablarte…\n\n—Aprovechemos que ahora que\n\ntodos los primos y primas estamos aquí. Voy a llamarlos —expresó Mixtli.\n\n—¡Ya sé qué le voy a regalar a Mixtli\n\n—le dijo Azul a su mamá.\n\nCuando Mixtli regresó, la acompañaban Nekti, Brisa, Andy, Gabito, Gaby, Naye y Selvamaría; y también Tato, Tito, Rigel y Gabito…\n\nLíber y Azul narraron la experiencia del día anterior… Como pedían más detalles, Azul dijo:\n\n—Las luciérnagas comenzaron a\n\nsalir de mis ojos cuando mi mamá leía este pedacito del cuento…\n\nMientras Azul leía, la casa se llenó de luciérnagas… Inundaron toda la casa… Salieron al patio y se lanzaron sobre la nube oscura, que se retorcía como sí le hicieran cosquillas… Azul aprovechó y gritó:\n\n—¡¡¡Mixtli… este es mi regalo!!!\n\nRicardo Castrorrivas",
+      "charCount": 1589
+    },
+    {
+      "pageNumber": 134,
+      "text": "132\n\n1. Coloreo y uno cada dibujo con la palabra correspondiente.\n\n2. Leo las oraciones con ayuda de mi docente.\n\nº Lorenzo y Zacarías comen rojas.\n\nº Liza pesca un dorado.\n\nº La está feliz.\n\nº Zeus es un piel roja.\n\nº Zoila toma el para escribir su nombre.\n\nMixtli excavadora xilófono taxi avestruz zíper buzón saxofón",
+      "charCount": 319
+    },
+    {
+      "pageNumber": 135,
+      "text": "133 Kevin está de cumpleaños ¡es momento de celebrar! Su familia muy contenta le prepara una sorpresa para festejar…\n\n1. Leo el inicio del cuento con ayuda de mi\n\ndocente.\n\n2. Escribo con ayuda de mi docente un título para el cuento.\n\n3. Imagino y expreso el nudo o problema y el final del cuento.\n\n4. Dibujo el cuento que inventé.\n\n¡Me expreso!",
+      "charCount": 345
+    },
+    {
+      "pageNumber": 136,
+      "text": "134\n\n5. Leo los textos con ayuda de mi docente y los uno con la imagen correcta. A Xavier le encanta cocinar platillos exóticos para sus amigos extranjeros.\n\nA Zeus le gusta ir al bosque a explorar. Lleva su mochila, su cantimplora y su lupa.\n\nHabía una vez una niña llamada Zulma. Le encantaba fotografiar los bosques.\n\nCierto día, Kimberly visitó a su abuela Ximena. Ellas pasearon por el parque y se divirtieron mucho.",
+      "charCount": 421
+    },
+    {
+      "pageNumber": 137,
+      "text": "135\n\n1. Leo la siguiente adivinanza con ayuda de mi docente.\n\n2. Creo una nueva adivinanza y dibujo la solución.\n\n4. Narro una historia usando las imágenes.\n\nMe pateas y no me quejo, me cepillas si me mancho y con mi hermano gemelo bajo tu cama descanso.\n\n3. Escribo la solución. ___________________________________________________ Practico lo aprendidoPractico lo aprendido kiwi playa papaya rayo Karina manzana",
+      "charCount": 412
+    },
+    {
+      "pageNumber": 138,
+      "text": "º A comprender y expresar poemas.\n\nLeamos poesía Leamos poesía ¿Qué aprenderé?",
+      "charCount": 78
+    },
+    {
+      "pageNumber": 139,
+      "text": "137 El nido Es porque un pajarito de la montaña ha hecho, en el hueco de un árbol, su nido matinal, que el árbol amanece con música en el pecho, como que si tuviera corazón musical.\n\nSi el dulce pajarito por entre el hueco asoma, para beber rocío, para beber aroma, el árbol de la sierra me da la sensación de que se le ha salido, cantando, el corazón.\n\nAlfredo Espino",
+      "charCount": 368
+    },
+    {
+      "pageNumber": 140,
+      "text": "138\n\n1. Recorto los peces de la página 195 y los pego en el mar.\n\n2. Leo el poema con ayuda de mi docente.\n\nPeces de papel En lo profundo del mar, cuatro peces de papel van juntitos a la escuela, porque quieren aprender.\n\nUn barco lleno de libros, navega para traer mil historias escondidas que pronto podrán leer.\n\nIsabel Bermejo ¡Me divierto!",
+      "charCount": 344
+    },
+    {
+      "pageNumber": 141,
+      "text": "139\n\n3. Leo la adivinanza y dibujo la respuesta.\n\nº Gris y blanco es mi color, tengo tres filas de dientes puntiagudos, me llaman el rey del gran océano. ¿Quién es?\n\n4. Leo la adivinanza y escribo la respuesta.\n\nº Es la reina de los mares, su dentadura es muy buena y por no ir nunca vacía siempre dicen que va llena. ¿Quién es?\n\n5. Marco con una X la respuesta.\n\nº En el agua siempre vivo, azul es mi color, tengo amigos grandes y pequeños, nado muy veloz. ¿Quién soy?\n\npulpo delfín tiburón cerdo pez león gato",
+      "charCount": 511
+    },
+    {
+      "pageNumber": 142,
+      "text": "140\n\n7. Observo y describo lo que más me gusta de la playa.\n\nº Vivo en el mar sin ser pez, tengo huesos y no espinas, como pulpo, sardinas, cangrejos y calamares, salto y salto sin fin, porque soy un…\n\ndelfín pez medusa\n\n6. Leo la adivinanza y escribo una oración con la respuesta.",
+      "charCount": 281
+    },
+    {
+      "pageNumber": 143,
+      "text": "141 Después de la lectura\n\n3. Comento lo que más me\n\ngustó del poema.\n\nDurante la lectura\n\n2. Respondo.\n\nº ¿Cómo se viste el invierno?\n\nº ¿De qué se llena el parque y la calle?\n\nº ¿Qué hace el sol?\n\nAntes de la lectura\n\n1. Observo la imagen y\n\ncomento.\n\nº ¿De qué tratará la lectura?\n\nº ¿Cómo sé cuándo es invierno?\n\nLlega el invierno El señor invierno se viste de lluvia, se pone el abrigo porque tiembla de frío.\n\nSe va a la montaña, se mete en el río, y el parque y la calle se llenan de frío.\n\n¡Me gusta leer!\n\nSe encuentra la lluvia llorando, llorando, y también el viento que viene soplando.\n\n¡Ven, amigo sol!\n\nGrita en el camino, pero el sol no viene porque se ha dormido.\n\nMarisol Perales",
+      "charCount": 696
+    },
+    {
+      "pageNumber": 144,
+      "text": "142 Antes de la lectura\n\n1. Observo la imagen y comento.\n\nº ¿De qué tratará el poema?\n\nDurante la lectura\n\n2. Respondo.\n\nº ¿Qué animales del poema conozco.\n\nº Observo las imágenes de los animales.\n\nDespués de la lectura\n\n3. Dibujo cómo me imagino al\n\nwansifeo.\n\nSerá el wansifeo, que tiene tres alas, patas de avestruz, cuello de jirafa, cola de caballo, cabeza de vaca y un cuerpo de cerdo cubierto de escamas.\n\nCarlos Reviejo A falta de pan…\n\nCon la uve doble, ¡qué letra más rara!, animal no encuentro que con ella vaya.\n\nPor eso, uno invento que pueda llevarla.\n\nkiwi wapití º Converso sobre animales extraños que conozco.",
+      "charCount": 626
+    },
+    {
+      "pageNumber": 145,
+      "text": "143 Después de la lectura\n\n3. Dibujo un león y su corona.\n\nAntes de la lectura\n\n1. Observo la imagen y comento.\n\nº ¿De qué tratará la lectura?\n\nº ¿Cómo son los leones?\n\nDurante la lectura\n\n2. Respondo.\n\nº ¿Cómo se ve el león?\n\nº ¿Dónde vive el león?\n\nº ¿Qué hace el león?\n\nEl león calvo Hubo un león en la selva que se hizo famoso pronto, porque nació sin melena y sin un pelo de tonto.\n\nY creían en la selva que estaría acomplejado, pero siempre estaba alegre rugiendo de lado a lado.\n\nComo el león era calvo todos así lo llamaron y por ser un gran ejemplo como rey lo proclamaron.\n\nAdaptación",
+      "charCount": 594
+    },
+    {
+      "pageNumber": 146,
+      "text": "144 Después de la lectura\n\n3. Explico en qué se relaciona la\n\nimagen con el poema.\n\n4. Comento, ¿Me he subido a un\n\ncarrusel?\n\nAntes de la lectura\n\n1. Observo la imagen y comento.\n\nº ¿De qué tratará la lectura?\n\nº ¿Qué es un corcel?\n\nDurante la lectura\n\n2. Respondo.\n\nº ¿Cómo estaba el aire?\n\nº ¿Dónde está el caballo?\n\nº ¿De qué está hecho el caballo?\n\nPegasos, lindos pegasos Yo conocí siendo niño, la alegría de dar vueltas sobre un corcel colorado, en una noche de fiesta.\n\nEn el aire polvoriento chispeaban las candelas, y la noche azul ardía toda sembrada de estrellas.\n\n¡Alegrías infantiles que cuestan una moneda de cobre, lindos pegasos, caballitos de madera!\n\nAntonio Machado",
+      "charCount": 685
+    },
+    {
+      "pageNumber": 147,
+      "text": "145\n\n1. Escucho los poemas que leerá mi docente.\n\n2. Converso con mi docente y compañeros.\n\nº ¿Cómo son las fiestas de mi pueblo o ciudad?\n\nº ¿Qué diferencias noté cuando mi docente leyó cada poema?\n\n3. Respondo y marco con una X.\n\nSorbete o pastel\n\n— Ojitos saltones, boquita de miel, ¿qué quieres, mi niña, sorbete o pastel?\n\nMaura Echeverría sorbete pastel Granito de trigo ¡Arriba, mi niño, subamos la cuesta, porque la montaña hoy está de fiesta!\n\nMaura Echeverría",
+      "charCount": 469
+    },
+    {
+      "pageNumber": 148,
+      "text": "146\n\n1. Leo con ayuda de mi docente el siguiente poema.\n\n2. Converso con mi docente.\n\nº ¿Dónde viven los caballitos de mar?\n\nº ¿Cómo me imagino que son los caballitos de mar?\n\n3. Juego con mis compañeros «A la víbora de la mar».\n\nA la víbora, víbora…\n\nCaballito marino, caballito de sal, Con brida de canciones te logro sujetar.\n\n¿En dónde llora y llora la niña tempestad?\n\n¿En dónde crece, rojo, el árbol de coral?\n\nIremos galopando ―rataplán, rataplán―, caballo de los tumbos que sabes galopar.\n\n¡Qué praderas de espuma!\n\n¡Qué montañas de sal!\n\n¡Qué gigante y qué azul la víbora de la mar!\n\nClaudia Lars",
+      "charCount": 605
+    },
+    {
+      "pageNumber": 149,
+      "text": "147\n\n4. Leo con ayuda de mi docente el siguiente poema y descubro las palabras que terminan con sonido parecido.\n\n5. Comento con mis compañeros lo que más me gustó del poema.\n\n6. Realizo las actividades con mi docente y compañeros.\n\nº Damos palmadas o zapateamos por cada sílaba que leamos.\n\nº Contamos las palabras de cada verso del poema.\n\nEl patio El patio de mi casa es un verde lugar, con un olor muy fino, mojado y vegetal.\n\nPequeñas mariposas de rara calidad, en las mañanas tibias lo saben visitar.\n\nClaudia Lars El patio de mi casa Pequeñas mariposas es un verde lugar, de rara calidad, con un olor muy fino, en las mañanas tibias mojado y vegetal. lo saben visitar.",
+      "charCount": 675
+    },
+    {
+      "pageNumber": 150,
+      "text": "148\n\n3. Realizo los gestos que expresan las emociones del poema\n\n4. Comparto, ¿Qué me gustó más del poema «Canción»?\n\n1. Escucho el poema que lee mi docente.\n\n2. Escucho las preguntas y coloreo las imágenes que aparecen en el\n\npoema.\n\nº ¿Con qué juega la niña?\n\nº ¿Qué parecen las manos de la niña?\n\nº ¿Conozco qué son do, re, mi, fa, si, la, sol?\n\nCanción (A Martita en su piano de juguete) La niña juega en su piano ensayando una canción:\n\nDo, re, mi, fa, si, la, sol...\n\n¿Cuándo aprendo la lección?\n\nSobre las teclas del piano\n\n—manecitas de azahar—\n\nparecen dos mariposas en actitud de volar.\n\nAntonia Portillo de Galindo Adaptación",
+      "charCount": 636
+    },
+    {
+      "pageNumber": 151,
+      "text": "149\n\n4. Comento la siguiente imagen.\n\n5. Pregunto a mi familia cuándo me salió mi primer diente y lo comento con\n\nmi docente.\n\n1. Leo el siguiente poema.\n\n2. Converso con mi docente y compañeros.\n\nº ¿De qué trata el poema?\n\n3. Declamo el poema con mi docente.\n\nTu primer diente Como un granito de arroz asoma tu primer diente:\n\n¡Qué bonito luces, niño, cuando me miras, sonriente!\n\nLa perla que te ha brotado llena mi alma de embeleso, y al sentirme tan dichosa...\n\n¡tus lindas mejillas, beso!\n\nSara Palma de Jule",
+      "charCount": 513
+    },
+    {
+      "pageNumber": 152,
+      "text": "150\n\n1. Escucho y repito el poema.\n\n2. Expreso una oración para cada imagen.\n\n3. Escribo el nombre de cada imagen.\n\n4. Comento con mi docente lo que escribí.\n\nManchitas La vaquita Manchitas, sueña con volar, agita sus patitas para practicar y el vuelo poder alzar.\n\nAdaptación ¡Me expreso!",
+      "charCount": 289
+    },
+    {
+      "pageNumber": 153,
+      "text": "151\n\n1. Observo las imágenes y con ayuda de mi docente leo las palabras.\n\nº Comento con mi docente cuál palabra es más larga y cuál es la más corta.\n\nº Expreso una oración para cada imagen.\n\n2. Elijo una palabra y con ayuda de mi docente escribo una oración.\n\ncráneo secretaria escritorio micrófono crucero cruz clavo clima bicicleta cliente chancleta triciclo",
+      "charCount": 360
+    },
+    {
+      "pageNumber": 154,
+      "text": "152\n\n1. Escucho y repito el poema.\n\nº Comento con mi docente cómo es un tigre.\n\n4. Describo lo que veo en las imágenes.\n\nº ¿Qué emociones observo?\n\nº ¿Qué les habrá pasado para sentirse así?\n\nº ¿Alguna vez me he sentido así? ¿Por qué?\n\n2. Comento con mi docente.\n\nº ¿Cómo era el tigre?\n\nº ¿Qué le pasaba al tigre?\n\n3. Escribo un nombre para el tigre gruñón.\n\n5. Escribo los nombres de las emociones.\n\nUn tigre gruñón Grecia gritó al ver al tigre gruñón.\n\nGregorio respondió:\n\n—No te preocupes, tiene gripe\n\ny te defiendo yo.\n\nAdaptación",
+      "charCount": 536
+    },
+    {
+      "pageNumber": 155,
+      "text": "153\n\n1. Observo y comento.\n\nº ¿Cuáles imágenes conozco?\n\nº ¿Cuáles palabras inician con el mismo sonido?\n\nº ¿Cuáles palabras terminan con el mismo sonido?\n\ngladiador globos glaciar iglesia Gladis iglú bloques Blanca biblioteca blusa tableta pueblo",
+      "charCount": 247
+    },
+    {
+      "pageNumber": 156,
+      "text": "154 tiene el cabello largo.\n\nEl niño fue a la .\n\nMi es muy grande.\n\nEl se está descongelando.\n\nLos son de colores.\n\n2. Leo las oraciones.\n\n_____________________________ tiene el cabello largo.\n\nEl niño fue a la ____________________________________.\n\nMi _________________________________ es muy grande.\n\nEl __________________________ se está descongelando.\n\nLos __________________________________ son de colores.\n\n3. Completo las oraciones con la ayuda de mi docente.\n\n4. Leo con ayuda de mi docente.\n\nglaciar Gladis globos biblioteca pueblo",
+      "charCount": 540
+    },
+    {
+      "pageNumber": 157,
+      "text": "155\n\n1. Observo la imagen y comento.\n\nº ¿Sobre qué tratará el poema?\n\nº Leo el poema con ayuda de mi docente.\n\n2. Comento con mi docente.\n\nº ¿Qué me gustó más del poema?\n\n3. Escribo el nombre de dos amigos.\n\n4. Expreso una oración para cada imagen.\n\nEl abrazo de mi amigo hoy echo de menos, se ha ido lejos, no está conmigo.\n\nTardes de juegos abrazos y sueños e l a b r a z o d e m i a m i g o echo de menos.\n\nAnónimo\n\nAbrazos cabra coliflor libro",
+      "charCount": 447
+    },
+    {
+      "pageNumber": 158,
+      "text": "156\n\n1. Observo y comento.\n\nº ¿De qué tratará la lectura?\n\nº Leo la lectura con ayuda de mi docente.\n\n2. Comento con mi docente y compañeros.\n\nº ¿Qué palabras del poema no conozco?\n\nº Imagino, ¿Qué animales serán Andrea y Draco?\n\n3. Dibujo a Andrea y Draco.\n\n4. Elijo una imagen y escribo una oración con ayuda de mi docente.\n\nAndrea y Draco Andrea y Draco surcan los cielos de madrugada, los amigos que suelen volar, solo juntos suelen andar.\n\nAdaptación",
+      "charCount": 455
+    },
+    {
+      "pageNumber": 159,
+      "text": "157\n\n1. Leo con ayuda de mi docente.\n\nPractico lo aprendidoPractico lo aprendido Llega la primavera Los dragones y dragonas al llegar la primavera salen de la Dragonera.\n\nRecogen flores salvajes, se dan un baño en el río y se ponen bonitos trajes.\n\nCantan, bailan, ríen, juegan, celebran una gran fiesta y luego duermen la siesta.\n\nEl más joven de los dragones un fuego debe encender cuando empieza a anochecer.\n\nEl dragón estrenará, emocionado y contento, unas llamas de su aliento.\n\nAlrededor de la hoguera se sientan todos en corro y aplauden a su cachorro.\n\nDisfrutan de las estrellas y del abrazo del cielo tumbados ahí en el suelo.\n\nLos dragones agradecen así de esta manera que llegó la primavera.\n\nNuria Diez Crespo\n\n2. Comento con mi docente y\n\ncompañeros.\n\n• ¿Cómo me imagino a los\n\ndragones?\n\n• ¿De qué habla el poema?\n\n• ¿Qué palabras del poema no\n\nhe entendido?\n\n3. Escribo cuatro palabras del poema\n\nque riman.",
+      "charCount": 924
+    },
+    {
+      "pageNumber": 160,
+      "text": "158\n\n4. Invento una historia sobre las imágenes con mis compañeros.\n\n5. Expreso lo que más me gustó a mi docente y compañeros.\n\n6. Comento todo lo que aprendí a mi docente y compañeros.\n\n7. Coloreo la imagen que explica cómo me siento y escribo el nombre de la\n\nemoción.\n\n¡Felicidades, lo has logrado! ¡Date un abrazo!\n\nlibro cocodrilo tigre postres globos estrella niña bicicleta",
+      "charCount": 380
+    },
+    {
+      "pageNumber": 161,
+      "text": "Recortables 159159",
+      "charCount": 18
+    },
+    {
+      "pageNumber": 162,
+      "text": "160",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 163,
+      "text": "161 161 Páginas de recorte mamá papá bebé sopa pan pollo come bebe y Recortables para la página 15 Palabras",
+      "charCount": 107
+    },
+    {
+      "pageNumber": 164,
+      "text": "162",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 165,
+      "text": "163 163 Páginas de recorte Tabla de nombres Recortables para la página 40 Sustantivos femeninos en plural elote uvas limones pies pelota flores estrella elefante Sustantivos femeninos en singular Sustantivos masculinos en plural Sustantivos masculinos en singular",
+      "charCount": 263
+    },
+    {
+      "pageNumber": 166,
+      "text": "164",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 167,
+      "text": "165 165 Páginas de recorte Recortables para la página 49 Historietas",
+      "charCount": 68
+    },
+    {
+      "pageNumber": 168,
+      "text": "166",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 169,
+      "text": "167 167 Páginas de recorte Recortables para la página 51 Oraciones",
+      "charCount": 66
+    },
+    {
+      "pageNumber": 170,
+      "text": "168",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 171,
+      "text": "169 169 Páginas de recorte Recortables para la página 56 Imágenes 1",
+      "charCount": 67
+    },
+    {
+      "pageNumber": 172,
+      "text": "170",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 173,
+      "text": "171 171 Páginas de recorte Recortables para la página 69 3 UNIDAD Leer divertidoes Imágenes 2",
+      "charCount": 93
+    },
+    {
+      "pageNumber": 174,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 175,
+      "text": "pájaro Sara Marco árbol 173173 Rompecabezas",
+      "charCount": 43
+    },
+    {
+      "pageNumber": 176,
+      "text": "174",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 177,
+      "text": "175 175 Páginas de recorte pájaro Sara Marco árbol",
+      "charCount": 50
+    },
+    {
+      "pageNumber": 178,
+      "text": "176",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 179,
+      "text": "177 177 Páginas de recorte Escribo mis datos personales.\n\nMis primeros textos Hola, soy _______________.\n\nYo tengo___________ años.\n\nMe encanta jugar con ________________________.\n\nMi cuento favorito es ________________________.\n\nMi comida favorita es ________________________.\n\nMe gusta visitar a ________.\n\nCuando crezca quiero ser como __________________.\n\nHola, soy _______________.\n\nYo tengo___________ años.\n\nMe encanta jugar con ________________________.\n\nMi cuento favorito es ________________________.\n\nMi comida favorita es ________________________.\n\nMe gusta visitar a ________.\n\nCuando crezca quiero ser como __________________.",
+      "charCount": 640
+    },
+    {
+      "pageNumber": 180,
+      "text": "178",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 181,
+      "text": "179 179 Páginas de recorte Invento una historieta. Recorto los personajes y los globos.",
+      "charCount": 87
+    },
+    {
+      "pageNumber": 182,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 183,
+      "text": "181181",
+      "charCount": 6
+    },
+    {
+      "pageNumber": 184,
+      "text": "182",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 185,
+      "text": "183 183 Páginas de recorte Recortables para la página 115",
+      "charCount": 57
+    },
+    {
+      "pageNumber": 186,
+      "text": "184",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 187,
+      "text": "185 185 Páginas de recorte Recortables para la página 117",
+      "charCount": 57
+    },
+    {
+      "pageNumber": 188,
+      "text": "186",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 189,
+      "text": "187 187 Páginas de recorte Recortables para la página 117",
+      "charCount": 57
+    },
+    {
+      "pageNumber": 190,
+      "text": "188",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 191,
+      "text": "189 189 Páginas de recorte Recortables para la página 138",
+      "charCount": 57
+    },
+    {
+      "pageNumber": 192,
+      "text": "190",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 193,
+      "text": "191 191 Páginas de recorte Recortables para la página 138",
+      "charCount": 57
+    },
+    {
+      "pageNumber": 194,
+      "text": "192",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 195,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 196,
+      "text": "Comunicación Comunicación 1 Libro de texto",
+      "charCount": 42
+    }
+  ]
+}

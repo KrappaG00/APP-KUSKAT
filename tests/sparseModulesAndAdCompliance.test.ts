@@ -124,10 +124,10 @@ describe('M5 Automated Compliance & Platform Integrity Test Suite', () => {
   // SUITE A: LICENCIA DE CONDUCIR VMT & SEGURIDAD VIAL (R1 & R4)
   // =========================================================================
   describe('Suite A (R1 & R4): Licencia de Conducir VMT & Seguridad Vial', () => {
-    it('contiene exactamente 8 unidades temáticas oficiales del Reglamento de Tránsito y VMT', () => {
+    it('contiene exactamente 9 unidades temáticas oficiales del Reglamento de Tránsito, Carga y VMT', () => {
       expect(DRIVER_CURRICULUM_UNITS).toBeDefined();
       expect(Array.isArray(DRIVER_CURRICULUM_UNITS)).toBe(true);
-      expect(DRIVER_CURRICULUM_UNITS.length).toBe(8);
+      expect(DRIVER_CURRICULUM_UNITS.length).toBe(9);
 
       const expectedUnitIds = [
         'u1-marco-legal',
@@ -138,6 +138,7 @@ describe('M5 Automated Compliance & Platform Integrity Test Suite', () => {
         'u6-seguridad-vehicular',
         'u7-alcoholemia-delito',
         'u8-accidentologia-fonat',
+        'u9-carga-pesada-cabezales',
       ];
 
       const actualUnitIds = DRIVER_CURRICULUM_UNITS.map((u) => u.id);
@@ -181,10 +182,10 @@ describe('M5 Automated Compliance & Platform Integrity Test Suite', () => {
       expect(totalSubstantiveWords).toBeGreaterThanOrEqual(5000);
     });
 
-    it('cada unidad contiene al menos 5 casos prácticos de tránsito resueltos (total >= 40 casos)', () => {
+    it('cada unidad contiene al menos 5 casos prácticos de tránsito resueltos (total >= 45 casos)', () => {
       const allCases = getAllPracticalTrafficCases();
-      expect(allCases.length).toBeGreaterThanOrEqual(40);
-      expect(allCases.length).toBe(40);
+      expect(allCases.length).toBeGreaterThanOrEqual(45);
+      expect(allCases.length).toBe(45);
 
       const caseIds = new Set<string>();
 
@@ -228,9 +229,10 @@ describe('M5 Automated Compliance & Platform Integrity Test Suite', () => {
       });
     });
 
-    it('el banco de preguntas oficial de tránsito contiene >= 50 preguntas balanceadas con 4 opciones', () => {
-      expect(DRIVER_QUESTIONS.length).toBeGreaterThanOrEqual(50);
-      expect(DRIVER_QUESTIONS.length).toBe(56);
+    it('el banco de preguntas oficial de tránsito contiene >= 500 preguntas (>= 350 teóricas, >= 150 psicológicas) balanceadas con 4 opciones', () => {
+      expect(DRIVER_QUESTIONS.length).toBeGreaterThanOrEqual(500);
+      expect(DRIVER_QUESTIONS.filter((q) => q.category === 'teorico').length).toBeGreaterThanOrEqual(350);
+      expect(DRIVER_QUESTIONS.filter((q) => q.category === 'psicologico').length).toBeGreaterThanOrEqual(150);
 
       const optionCounts = { 0: 0, 1: 0, 2: 0, 3: 0 };
       const uniqueIds = new Set<string>();
@@ -291,8 +293,7 @@ describe('M5 Automated Compliance & Platform Integrity Test Suite', () => {
     });
 
     it('el catálogo de señales oficiales de tránsito contiene >= 24 señales con códigos SIECA e iconos SVG', () => {
-      expect(OFFICIAL_ROAD_SIGNS.length).toBeGreaterThanOrEqual(24);
-      expect(OFFICIAL_ROAD_SIGNS.length).toBe(27);
+      expect(OFFICIAL_ROAD_SIGNS.length).toBeGreaterThanOrEqual(100);
 
       const categories = new Set(OFFICIAL_ROAD_SIGNS.map((s) => s.category || s.type));
       expect(categories.has('reglamentaria')).toBe(true);
@@ -875,7 +876,7 @@ describe('M5 Automated Compliance & Platform Integrity Test Suite', () => {
       it('ningún caso práctico de tránsito ni caso histórico comparte textos o escenarios duplicados', () => {
         const allTrafficCases = getAllPracticalTrafficCases();
         const trafficScenarios = new Set(allTrafficCases.map((c) => c.scenario.trim().toLowerCase()));
-        expect(trafficScenarios.size, 'Los 40 casos de tránsito deben tener escenarios distintos').toBe(40);
+        expect(trafficScenarios.size, 'Los 45 casos de tránsito deben tener escenarios distintos').toBe(45);
 
         const patrioticDilemmas = new Set(ALL_PATRIOTIC_CASE_STUDIES.map((c) => c.dilemmaOrIssue.trim().toLowerCase()));
         expect(patrioticDilemmas.size, 'Los 25 casos históricos deben tener dilemas distintos').toBe(25);

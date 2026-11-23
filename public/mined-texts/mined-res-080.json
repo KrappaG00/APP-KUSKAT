@@ -1,0 +1,34 @@
+{
+  "id": "mined-res-080",
+  "title": "Mensaje Institucional 1: Articulación Primera Infancia y 1.° Grado (MINED)",
+  "filename": "MENSAJE INSTITUCIONAL 1.jpeg",
+  "docType": "Infografía",
+  "materiaOriginal": "Educación Inicial y Parvularia",
+  "gradoOriginal": "Primera Infancia",
+  "officialUrl": "https://www.mined.gob.sv/materiales/pi/MENSAJE INSTITUCIONAL 1.jpeg",
+  "status": "success",
+  "textCoverage": "image",
+  "totalPages": 1,
+  "extractedPages": 0,
+  "coverageRatio": 0.0,
+  "totalChars": 0,
+  "sectionCount": 1,
+  "mediaUrl": "/mined-texts/media/mensaje-institucional-1.jpeg",
+  "notice": "Infografía oficial del MINED integrada como recurso visual de alta resolución.",
+  "sections": [
+    {
+      "id": "sec-001",
+      "title": "Mensaje Institucional 1: Articulación Primera Infancia y 1.° Grado (MINED)",
+      "startPage": 1,
+      "endPage": 1,
+      "level": 1
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Infografía institucional oficial del Ministerio de Educación (MINED): Mensaje Institucional 1: Articulación Primera Infancia y 1.° Grado (MINED).",
+      "charCount": 0
+    }
+  ]
+}

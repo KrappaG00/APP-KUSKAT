@@ -458,9 +458,11 @@ export const CsspHealthView: React.FC<CsspHealthViewProps> = ({
                         Análisis de Opciones Erróneas:
                       </span>
                       {Object.entries(q.distractorRationale).map(([dKey, dReason]) => (
-                        <div key={dKey} className="flex items-start gap-1.5">
-                          <strong className="font-mono-exam text-[#9E472A]">({dKey}):</strong>
-                          <span>{dReason}</span>
+                        <div key={dKey} className="flex items-start gap-1.5 min-w-0">
+                          <strong className="font-mono-exam text-[#9E472A] shrink-0">({dKey}):</strong>
+                          <span className="min-w-0 break-words">
+                            <KaTeXMath text={dReason} />
+                          </span>
                         </div>
                       ))}
                     </div>

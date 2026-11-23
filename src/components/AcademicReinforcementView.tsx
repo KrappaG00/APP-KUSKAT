@@ -9,13 +9,14 @@ import {
   Palette,
   Activity,
   Landmark,
-  Download,
   Library,
   Search,
   Filter,
   Sparkles,
   ChevronDown,
   ChevronUp,
+  ChevronLeft,
+  ChevronRight,
   Layers,
   Award,
   CheckCircle2,
@@ -32,10 +33,18 @@ import {
   FileText,
   BarChart3,
   BookmarkCheck,
-  ExternalLink,
+  Image as ImageIcon,
+  ListOrdered,
 } from 'lucide-react';
 import { KaTeXRenderer } from './KaTeXRenderer';
 import { ModulePaginationBar } from './ModulePaginationBar';
+import {
+  getMinedTextIndex,
+  loadMinedTextDocument,
+  searchInMinedTextDocument,
+  type MinedTextDocument,
+  type MinedTextIndexEntry,
+} from '../services/minedTextService';
 import {
   getGrades,
   getGradeDetail,
@@ -625,7 +634,13 @@ function formatFileSize(bytes: number | null): string {
   return `${Math.round(bytes / 1024)} KB`;
 }
 
-export const AcademicReinforcementView: React.FC = () => {
+export interface AcademicReinforcementViewProps {
+  initialMode?: 'study' | 'test';
+}
+
+export const AcademicReinforcementView: React.FC<AcademicReinforcementViewProps> = ({
+  initialMode = 'study',
+}) => {
   // Navegación Curricular
   const [selectedCycleId, setSelectedCycleId] = useState<CycleId>('educacion-media');
   const [selectedGradeId, setSelectedGradeId] = useState<GradeLevelId>('2-bachillerato');
@@ -636,19 +651,136 @@ export const AcademicReinforcementView: React.FC = () => {
   const [revealedHints, setRevealedHints] = useState<Record<string, boolean>>({});
   const [revealedAnswers, setRevealedAnswers] = useState<Record<string, boolean>>({});
 
-  // Biblioteca Oficial Descargable MINED
+  // Biblioteca Textual Oficial MINED (Integrada)
   const [selectedDocType, setSelectedDocType] = useState<MinedResourceDocType | 'ALL'>('ALL');
   const [showAllGradeResources, setShowAllGradeResources] = useState<boolean>(false);
   const [showPrimeraInfanciaOnly, setShowPrimeraInfanciaOnly] = useState<boolean>(false);
+  const [minedTextIndexMap, setMinedTextIndexMap] = useState<Record<string, MinedTextIndexEntry>>({});
+  const [activeReaderResource, setActiveReaderResource] = useState<MinedOfficialResource | null>(null);
+  const [readerDoc, setReaderDoc] = useState<MinedTextDocument | null>(null);
+  const [readerLoading, setReaderLoading] = useState<boolean>(false);
+  const [readerError, setReaderError] = useState<string | null>(null);
+  const [readerPage, setReaderPage] = useState<number>(1);
+  const [readerPageInput, setReaderPageInput] = useState<string>('1');
+  const [readerSearchQuery, setReaderSearchQuery] = useState<string>('');
+  const [readerFontSize, setReaderFontSize] = useState<'sm' | 'base' | 'lg' | 'xl'>('base');
+  const readerPanelRef = useRef<HTMLDivElement | null>(null);
+  const readerRequestIdRef = useRef<number>(0);
+
+  useEffect(() => {
+    let cancelled = false;
+    getMinedTextIndex()
+      .then((idx) => {
+        if (cancelled) return;
+        const map: Record<string, MinedTextIndexEntry> = {};
+        for (const item of idx.resources) {
+          map[item.id] = item;
+        }
+        setMinedTextIndexMap(map);
+      })
+      .catch(() => {
+        // En entorno SSR o si aún no se carga el índice, el lector carga bajo demanda al abrir
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  const handleOpenMinedReader = async (resource: MinedOfficialResource) => {
+    const requestId = ++readerRequestIdRef.current;
+    setActiveReaderResource(resource);
+    setReaderLoading(true);
+    setReaderError(null);
+    setReaderPage(1);
+    setReaderPageInput('1');
+    setReaderSearchQuery('');
+
+    setTimeout(() => {
+      readerPanelRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 60);
+
+    try {
+      const doc = await loadMinedTextDocument(resource.id);
+      if (readerRequestIdRef.current !== requestId) return;
+      setReaderDoc(doc);
+    } catch (err) {
+      if (readerRequestIdRef.current !== requestId) return;
+      setReaderDoc(null);
+      setReaderError(
+        err instanceof Error
+          ? err.message
+          : 'No se pudo cargar el contenido textual oficial del MINED.'
+      );
+    } finally {
+      if (readerRequestIdRef.current === requestId) {
+        setReaderLoading(false);
+      }
+    }
+  };
+
+  const handleCloseMinedReader = () => {
+    readerRequestIdRef.current += 1;
+    setActiveReaderResource(null);
+    setReaderDoc(null);
+    setReaderLoading(false);
+    setReaderError(null);
+    setReaderSearchQuery('');
+  };
+
+  const goToReaderPage = (targetPage: number) => {
+    if (!readerDoc || readerDoc.pages.length === 0) return;
+    const clamped = Math.max(1, Math.min(targetPage, readerDoc.pages.length));
+    setReaderPage(clamped);
+    setReaderPageInput(String(clamped));
+  };
+
+  const readerSearchMatches = useMemo(() => {
+    if (!readerDoc || readerSearchQuery.trim().length < 2) return [];
+    return searchInMinedTextDocument(readerDoc, readerSearchQuery);
+  }, [readerDoc, readerSearchQuery]);
+
+  const currentReaderPageObj = useMemo(() => {
+    if (!readerDoc || readerDoc.pages.length === 0) return null;
+    return readerDoc.pages[Math.max(0, Math.min(readerPage - 1, readerDoc.pages.length - 1))] || null;
+  }, [readerDoc, readerPage]);
+
+  const currentReaderSectionId = useMemo(() => {
+    if (!readerDoc || readerDoc.sections.length === 0) return '';
+    const found = readerDoc.sections.find(
+      (sec) => readerPage >= sec.startPage && readerPage <= sec.endPage
+    );
+    return found ? found.id : readerDoc.sections[0].id;
+  }, [readerDoc, readerPage]);
+
+  const decreaseReaderFont = () => {
+    setReaderFontSize((prev) =>
+      prev === 'xl' ? 'lg' : prev === 'lg' ? 'base' : prev === 'base' ? 'sm' : 'sm'
+    );
+  };
+
+  const increaseReaderFont = () => {
+    setReaderFontSize((prev) =>
+      prev === 'sm' ? 'base' : prev === 'base' ? 'lg' : prev === 'lg' ? 'xl' : 'xl'
+    );
+  };
 
   // Búsqueda en tiempo real
   const [searchQuery, setSearchQuery] = useState<string>('');
   const [searchResults, setSearchResults] = useState<CurriculumSearchResult[]>([]);
 
   // Simulador de 50 Preguntas por Unidad
-  const [simulatorOpen, setSimulatorOpen] = useState<boolean>(false);
-  const [activeSimUnit, setActiveSimUnit] = useState<CurriculumUnit | null>(null);
-  const [activeSimQuestions, setActiveSimQuestions] = useState<UnitQuestion[]>([]);
+  const initialSimUnit = useMemo(() => {
+    if (initialMode !== 'test') return null;
+    const detail = getGradeDetail('2-bachillerato');
+    const subj = detail?.subjects.find((s) => s.id === 'matematica-esmate') || detail?.subjects[0];
+    return subj?.units[0] || null;
+  }, []);
+
+  const [simulatorOpen, setSimulatorOpen] = useState<boolean>(() => initialMode === 'test' && initialSimUnit !== null);
+  const [activeSimUnit, setActiveSimUnit] = useState<CurriculumUnit | null>(() => initialSimUnit);
+  const [activeSimQuestions, setActiveSimQuestions] = useState<UnitQuestion[]>(() =>
+    initialMode === 'test' && initialSimUnit ? getUnitQuestions('2-bachillerato', initialSimUnit.id) : []
+  );
   const [simQuestionCount, setSimQuestionCount] = useState<10 | 25 | 50>(50);
   const [simTimerConfig, setSimTimerConfig] = useState<number | null>(null); // null = sin límite, 60s, 90s
   const [simMode, setSimMode] = useState<'tutor' | 'exam'>('tutor');
@@ -769,6 +901,17 @@ export const AcademicReinforcementView: React.FC = () => {
     }
     setSimulatorOpen(true);
   };
+
+  useEffect(() => {
+    if (initialMode === 'test') {
+      const targetUnit = filteredUnits[0] || currentSubject?.units[0];
+      if (targetUnit && (!simulatorOpen || activeSimUnit?.id !== targetUnit.id)) {
+        handleOpenSimulator(targetUnit);
+      }
+    } else if (initialMode === 'study') {
+      setSimulatorOpen(false);
+    }
+  }, [initialMode]);
 
   // Temporizador regresivo en simulador
   useEffect(() => {
@@ -1108,23 +1251,23 @@ export const AcademicReinforcementView: React.FC = () => {
       </div>
 
       {/* =========================================================================
-          PILAR 2.5: BIBLIOTECA OFICIAL DESCARGABLE MINED (LIBROS, CUADERNOS, GUÍAS Y PROGRAMAS)
+          PILAR 2.5: BIBLIOTECA TEXTUAL OFICIAL MINED (INTEGRADA EN LA PÁGINA)
          ========================================================================= */}
-      <div className="bg-white rounded-3xl border border-slate-200 p-5 sm:p-6 shadow-xs space-y-4">
+      <div className="bg-white rounded-3xl border border-slate-200 p-4 sm:p-6 shadow-xs space-y-4 min-w-0">
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-3">
           <div className="space-y-1">
             <div className="flex items-center gap-2 flex-wrap">
-              <Library className="w-4 h-4 text-blue-600" />
+              <Library className="w-4 h-4 text-blue-600 shrink-0" />
               <h3 className="text-sm sm:text-base font-black text-slate-900">
-                Biblioteca Oficial Descargable MINED ({currentGradeDetail.name})
+                Biblioteca Textual Oficial MINED (Integrada) — {currentGradeDetail.name}
               </h3>
               <span className="text-[11px] font-mono font-bold px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800">
-                {officialResourcesForView.length} de {totalGradeResourcesCount} Documentos Oficiales
+                {officialResourcesForView.length} de {totalGradeResourcesCount} Materiales Oficiales
               </span>
             </div>
             <p className="text-xs text-slate-600">
-              Libros de Texto, Cuadernos de Ejercicios, Guías Metodológicas, Programas de Estudio e Infografías oficiales del portal{' '}
-              <span className="font-mono font-semibold text-blue-700">mined.gob.sv</span> clasificados por año escolar y asignatura.
+              Libros de Texto, Cuadernos de Ejercicios, Guías Metodológicas, Programas de Estudio e Infografías oficiales integrados directamente como texto estructurado para leer dentro de esta página (sin descargar PDFs).{' '}
+              <span className="font-semibold text-slate-700">Fuente oficial: MINED (mined.gob.sv).</span>
             </p>
           </div>
 
@@ -1200,57 +1343,371 @@ export const AcademicReinforcementView: React.FC = () => {
           </div>
         ) : (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 max-h-96 overflow-y-auto pr-1">
-            {officialResourcesForView.map((doc) => (
-              <div
-                key={doc.id}
-                className="p-3.5 rounded-2xl border border-slate-200 bg-slate-50/70 hover:bg-white hover:border-blue-300 hover:shadow-xs transition-all flex flex-col justify-between gap-2.5"
-              >
-                <div className="space-y-1.5">
-                  <div className="flex items-center justify-between gap-1.5 flex-wrap">
-                    <span className="px-2 py-0.5 rounded-md bg-blue-100 text-blue-900 font-bold text-[10px]">
-                      {doc.docType}
-                    </span>
-                    <span className="px-2 py-0.5 rounded-md bg-slate-200/80 text-slate-700 font-mono text-[10px]">
-                      {doc.materiaOriginal}
-                    </span>
+            {officialResourcesForView.map((doc) => {
+              const isInfografia = doc.docType === 'Infografía';
+              const isActiveInReader = activeReaderResource?.id === doc.id;
+              const indexMeta = minedTextIndexMap[doc.id];
+
+              return (
+                <div
+                  key={doc.id}
+                  className={`p-3.5 rounded-2xl border transition-all flex flex-col justify-between gap-2.5 ${
+                    isActiveInReader
+                      ? 'border-blue-500 bg-blue-50/50 shadow-xs'
+                      : 'border-slate-200 bg-slate-50/70 hover:bg-white hover:border-blue-300 hover:shadow-xs'
+                  }`}
+                >
+                  <div className="space-y-1.5">
+                    <div className="flex items-center justify-between gap-1.5 flex-wrap">
+                      <span className="px-2 py-0.5 rounded-md bg-blue-100 text-blue-900 font-bold text-[10px]">
+                        {doc.docType}
+                      </span>
+                      <span className="px-2 py-0.5 rounded-md bg-slate-200/80 text-slate-700 font-mono text-[10px]">
+                        {doc.materiaOriginal}
+                      </span>
+                    </div>
+                    <h4 className="text-xs font-extrabold text-slate-900 leading-snug line-clamp-2">
+                      {doc.title}
+                    </h4>
+                    <div className="flex items-center gap-2 flex-wrap text-[10px] text-slate-500 font-mono">
+                      <span>🎓 {doc.gradoOriginal}</span>
+                      {(indexMeta?.totalPages || doc.pageCount) ? (
+                        <span>• {indexMeta?.totalPages || doc.pageCount} págs.</span>
+                      ) : null}
+                      {indexMeta?.textCoverage === 'partial' && (
+                        <span className="px-1.5 py-0.5 rounded bg-amber-100 text-amber-800 font-sans font-semibold">
+                          Texto parcial
+                        </span>
+                      )}
+                      {indexMeta?.textCoverage === 'unavailable' && (
+                        <span className="px-1.5 py-0.5 rounded bg-slate-200 text-slate-700 font-sans font-semibold">
+                          No disponible (404)
+                        </span>
+                      )}
+                    </div>
                   </div>
-                  <h4 className="text-xs font-extrabold text-slate-900 leading-snug line-clamp-2">
-                    {doc.title}
-                  </h4>
-                  <div className="flex items-center gap-2 flex-wrap text-[10px] text-slate-500 font-mono">
-                    <span>🎓 {doc.gradoOriginal}</span>
-                    {doc.pageCount && <span>• {doc.pageCount} págs.</span>}
-                    {doc.sizeFormatted && <span>• {doc.sizeFormatted}</span>}
+
+                  <div className="pt-2 border-t border-slate-200/70 flex items-center justify-between gap-2">
+                    <span className="text-[10px] font-medium text-slate-500 truncate">
+                      Fuente oficial: MINED
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => handleOpenMinedReader(doc)}
+                      className={`px-2.5 py-1.5 rounded-lg font-bold text-[11px] inline-flex items-center gap-1 shrink-0 transition-colors cursor-pointer ${
+                        isActiveInReader
+                          ? 'bg-slate-900 text-white'
+                          : isInfografia
+                          ? 'bg-purple-600 hover:bg-purple-700 text-white'
+                          : 'bg-blue-600 hover:bg-blue-700 text-white'
+                      }`}
+                    >
+                      {isInfografia ? (
+                        <>
+                          <ImageIcon className="w-3 h-3" />
+                          <span>Ver Infografía</span>
+                        </>
+                      ) : (
+                        <>
+                          <BookOpen className="w-3 h-3" />
+                          <span>Leer Contenido Oficial</span>
+                        </>
+                      )}
+                    </button>
                   </div>
                 </div>
+              );
+            })}
+          </div>
+        )}
 
-                <div className="pt-2 border-t border-slate-200/70 flex items-center justify-between gap-2">
-                  <span className="text-[10px] font-mono text-slate-500 truncate">
-                    {doc.sha256 ? `SHA256: ${doc.sha256.slice(0, 10)}…` : 'Enlace Oficial MINED'}
+        {/* =====================================================================
+            LECTOR TEXTUAL ESTRUCTURADO INLINE (DENTRO DE LA PÁGINA)
+           ===================================================================== */}
+        {activeReaderResource && (
+          <div
+            ref={readerPanelRef}
+            className="mt-4 rounded-2xl border-2 border-blue-200 bg-slate-50/70 p-3 sm:p-5 space-y-4 min-w-0"
+          >
+            {/* Cabecera del Lector */}
+            <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-3 pb-3 border-b border-slate-200">
+              <div className="space-y-1 min-w-0">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="px-2 py-0.5 rounded-md bg-blue-600 text-white text-[10px] font-bold uppercase tracking-wide">
+                    {activeReaderResource.docType}
                   </span>
-                  {doc.status === 'success' ? (
-                    <a
-                      href={doc.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="px-2.5 py-1 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-bold text-[11px] inline-flex items-center gap-1 shrink-0 transition-colors"
-                    >
-                      <Download className="w-3 h-3" />
-                      <span>Abrir PDF Oficial</span>
-                      <ExternalLink className="w-2.5 h-2.5 opacity-80" />
-                    </a>
-                  ) : (
-                    <span
-                      title="Enlace roto en el servidor de origen del MINED (HTTP 404 documentado)"
-                      className="px-2 py-1 rounded-lg bg-amber-100 text-amber-800 font-bold text-[10px] shrink-0"
-                    >
-                      No disponible en MINED (404)
-                    </span>
-                  )}
+                  <span className="px-2 py-0.5 rounded-md bg-slate-200 text-slate-700 text-[10px] font-mono">
+                    {activeReaderResource.materiaOriginal} • {activeReaderResource.gradoOriginal}
+                  </span>
+                  <span className="text-[10px] text-slate-500 font-medium">
+                    Fuente oficial: MINED
+                  </span>
                 </div>
-
+                <h4 className="text-sm sm:text-base font-black text-slate-900 leading-snug break-words">
+                  {activeReaderResource.title}
+                </h4>
               </div>
-            ))}
+
+              <div className="flex items-center gap-1.5 shrink-0 flex-wrap">
+                {readerDoc && readerDoc.textCoverage !== 'image' && readerDoc.textCoverage !== 'unavailable' && (
+                  <div className="inline-flex items-center rounded-lg border border-slate-300 bg-white overflow-hidden">
+                    <button
+                      type="button"
+                      onClick={decreaseReaderFont}
+                      aria-label="Reducir tamaño de letra"
+                      className="px-2 py-1 text-xs font-bold text-slate-700 hover:bg-slate-100 cursor-pointer border-r border-slate-200"
+                    >
+                      A-
+                    </button>
+                    <button
+                      type="button"
+                      onClick={increaseReaderFont}
+                      aria-label="Aumentar tamaño de letra"
+                      className="px-2 py-1 text-xs font-bold text-slate-700 hover:bg-slate-100 cursor-pointer"
+                    >
+                      A+
+                    </button>
+                  </div>
+                )}
+                <button
+                  type="button"
+                  onClick={handleCloseMinedReader}
+                  className="px-2.5 py-1 rounded-lg bg-slate-200 hover:bg-slate-300 text-slate-800 text-xs font-bold inline-flex items-center gap-1 cursor-pointer"
+                >
+                  <X className="w-3.5 h-3.5" />
+                  <span>Cerrar</span>
+                </button>
+              </div>
+            </div>
+
+            {/* Estado de Carga */}
+            {readerLoading && (
+              <div className="py-10 text-center space-y-2">
+                <div className="inline-block w-6 h-6 border-2 border-blue-600 border-t-transparent rounded-full animate-spin" />
+                <p className="text-xs font-semibold text-slate-600">
+                  Cargando contenido textual oficial del MINED…
+                </p>
+              </div>
+            )}
+
+            {/* Estado de Error */}
+            {!readerLoading && readerError && (
+              <div className="p-4 rounded-xl bg-red-50 border border-red-200 text-xs text-red-800 flex items-start gap-2">
+                <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5 text-red-600" />
+                <div>
+                  <p className="font-bold">No se pudo abrir el contenido en el lector.</p>
+                  <p className="mt-0.5">{readerError}</p>
+                </div>
+              </div>
+            )}
+
+            {/* Contenido Cargado */}
+            {!readerLoading && !readerError && readerDoc && (
+              <div className="space-y-4 min-w-0">
+                {/* Aviso Institucional para cobertura parcial o no disponible */}
+                {readerDoc.notice && (
+                  <div
+                    className={`p-3 rounded-xl border text-xs flex items-start gap-2 ${
+                      readerDoc.textCoverage === 'unavailable'
+                        ? 'bg-amber-50 border-amber-200 text-amber-900'
+                        : readerDoc.textCoverage === 'partial'
+                        ? 'bg-blue-50 border-blue-200 text-blue-900'
+                        : 'bg-purple-50 border-purple-200 text-purple-900'
+                    }`}
+                  >
+                    <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" />
+                    <span>{readerDoc.notice}</span>
+                  </div>
+                )}
+
+                {/* Caso Infografía JPEG */}
+                {readerDoc.textCoverage === 'image' && readerDoc.mediaUrl && (
+                  <div className="bg-white rounded-2xl border border-slate-200 p-3 sm:p-4 text-center space-y-2">
+                    <img
+                      src={readerDoc.mediaUrl}
+                      alt={readerDoc.title}
+                      className="w-full max-w-3xl mx-auto rounded-xl border border-slate-200 shadow-xs object-contain"
+                    />
+                    <p className="text-[11px] text-slate-500">
+                      Infografía institucional oficial • Fuente oficial: MINED
+                    </p>
+                  </div>
+                )}
+
+                {/* Caso Documento Textual (full o partial) */}
+                {(readerDoc.textCoverage === 'full' || readerDoc.textCoverage === 'partial') &&
+                  readerDoc.pages.length > 0 && (
+                    <div className="space-y-3 min-w-0">
+                      {/* Controles de Navegación: Capítulos + Buscador Interno */}
+                      <div className="grid grid-cols-1 lg:grid-cols-2 gap-2.5 bg-white p-3 rounded-xl border border-slate-200">
+                        {/* Selector de capítulos / secciones */}
+                        <div className="flex items-center gap-2 min-w-0">
+                          <ListOrdered className="w-4 h-4 text-blue-600 shrink-0" />
+                          <label htmlFor="mined-reader-section" className="sr-only">
+                            Seleccionar capítulo o sección
+                          </label>
+                          <select
+                            id="mined-reader-section"
+                            value={currentReaderSectionId}
+                            onChange={(e) => {
+                              const sec = readerDoc.sections.find((s) => s.id === e.target.value);
+                              if (sec) goToReaderPage(sec.startPage);
+                            }}
+                            className="w-full min-w-0 text-xs font-semibold text-slate-800 bg-slate-50 border border-slate-300 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          >
+                            {readerDoc.sections.map((sec) => (
+                              <option key={sec.id} value={sec.id}>
+                                {sec.title} (Pág. {sec.startPage}–{sec.endPage})
+                              </option>
+                            ))}
+                          </select>
+                        </div>
+
+                        {/* Buscador interno del documento */}
+                        <div className="relative flex items-center min-w-0">
+                          <Search className="w-3.5 h-3.5 text-slate-400 absolute left-2.5 pointer-events-none" />
+                          <input
+                            type="text"
+                            value={readerSearchQuery}
+                            onChange={(e) => setReaderSearchQuery(e.target.value)}
+                            placeholder="Buscar dentro de este documento…"
+                            className="w-full min-w-0 pl-8 pr-8 py-1.5 text-xs bg-slate-50 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                          />
+                          {readerSearchQuery && (
+                            <button
+                              type="button"
+                              onClick={() => setReaderSearchQuery('')}
+                              aria-label="Limpiar búsqueda en documento"
+                              className="absolute right-2 text-slate-400 hover:text-slate-600 cursor-pointer"
+                            >
+                              <X className="w-3.5 h-3.5" />
+                            </button>
+                          )}
+                        </div>
+                      </div>
+
+                      {/* Resultados de búsqueda interna */}
+                      {readerSearchQuery.trim().length >= 2 && (
+                        <div className="bg-white rounded-xl border border-blue-200 p-3 space-y-2">
+                          <div className="text-[11px] font-bold text-blue-900">
+                            {readerSearchMatches.length === 0
+                              ? `Sin coincidencias para "${readerSearchQuery.trim()}"`
+                              : `${readerSearchMatches.length} página(s) con coincidencias:`}
+                          </div>
+                          {readerSearchMatches.length > 0 && (
+                            <div className="max-h-40 overflow-y-auto space-y-1.5 pr-1">
+                              {readerSearchMatches.slice(0, 25).map((m) => (
+                                <button
+                                  key={m.pageNumber}
+                                  type="button"
+                                  onClick={() => goToReaderPage(m.pageNumber)}
+                                  className={`w-full text-left p-2 rounded-lg border text-xs transition-colors cursor-pointer ${
+                                    readerPage === m.pageNumber
+                                      ? 'bg-blue-50 border-blue-400'
+                                      : 'bg-slate-50 border-slate-200 hover:bg-blue-50/50'
+                                  }`}
+                                >
+                                  <div className="flex items-center justify-between gap-2 font-bold text-blue-800 text-[11px]">
+                                    <span>Página {m.pageNumber}</span>
+                                    <span>{m.matchCount} coincidencia(s)</span>
+                                  </div>
+                                  <p className="text-[11px] text-slate-600 line-clamp-2 mt-0.5">
+                                    {m.snippet}
+                                  </p>
+                                </button>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      )}
+
+                      {/* Barra de Paginación Superior */}
+                      <div className="flex flex-wrap items-center justify-between gap-2 bg-white px-3 py-2 rounded-xl border border-slate-200">
+                        <div className="flex items-center gap-1.5">
+                          <button
+                            type="button"
+                            disabled={readerPage <= 1}
+                            onClick={() => goToReaderPage(readerPage - 1)}
+                            className="px-2.5 py-1 rounded-lg border border-slate-300 bg-slate-50 hover:bg-slate-100 disabled:opacity-40 text-xs font-bold inline-flex items-center gap-1 cursor-pointer disabled:cursor-not-allowed"
+                          >
+                            <ChevronLeft className="w-3.5 h-3.5" />
+                            <span>Anterior</span>
+                          </button>
+                          <button
+                            type="button"
+                            disabled={readerPage >= readerDoc.pages.length}
+                            onClick={() => goToReaderPage(readerPage + 1)}
+                            className="px-2.5 py-1 rounded-lg border border-slate-300 bg-slate-50 hover:bg-slate-100 disabled:opacity-40 text-xs font-bold inline-flex items-center gap-1 cursor-pointer disabled:cursor-not-allowed"
+                          >
+                            <span>Siguiente</span>
+                            <ChevronRight className="w-3.5 h-3.5" />
+                          </button>
+                        </div>
+
+                        <form
+                          onSubmit={(e) => {
+                            e.preventDefault();
+                            const parsed = parseInt(readerPageInput, 10);
+                            if (!Number.isNaN(parsed)) {
+                              goToReaderPage(parsed);
+                            }
+                          }}
+                          className="flex items-center gap-1.5 text-xs text-slate-600"
+                        >
+                          <span>Página</span>
+                          <input
+                            type="number"
+                            min={1}
+                            max={readerDoc.pages.length}
+                            value={readerPageInput}
+                            onChange={(e) => setReaderPageInput(e.target.value)}
+                            aria-label="Número de página"
+                            className="w-14 px-1.5 py-0.5 text-center font-mono font-bold border border-slate-300 rounded-md bg-slate-50"
+                          />
+                          <span className="font-mono">de {readerDoc.pages.length}</span>
+                          <button
+                            type="submit"
+                            className="px-2 py-0.5 rounded-md bg-blue-600 hover:bg-blue-700 text-white font-bold text-[11px] cursor-pointer"
+                          >
+                            Ir
+                          </button>
+                        </form>
+                      </div>
+
+                      {/* Cuerpo de Texto de la Página Actual */}
+                      <div className="bg-white rounded-2xl border border-slate-200 p-4 sm:p-6 shadow-2xs min-h-[220px]">
+                        {currentReaderPageObj && currentReaderPageObj.text.trim().length >= 20 ? (
+                          <div
+                            className={`space-y-3 text-slate-800 leading-relaxed break-words ${
+                              readerFontSize === 'sm'
+                                ? 'text-xs sm:text-sm'
+                                : readerFontSize === 'lg'
+                                ? 'text-base sm:text-lg'
+                                : readerFontSize === 'xl'
+                                ? 'text-lg sm:text-xl'
+                                : 'text-sm sm:text-base'
+                            }`}
+                          >
+                            {currentReaderPageObj.text.split(/\n{2,}/).map((para, pIdx) => (
+                              <p key={pIdx}>{para}</p>
+                            ))}
+                          </div>
+                        ) : (
+                          <div className="py-8 text-center space-y-2 text-xs text-slate-500">
+                            <FileText className="w-6 h-6 mx-auto text-slate-400" />
+                            <p className="font-semibold text-slate-700">
+                              Página {readerPage} sin texto digital seleccionable
+                            </p>
+                            <p>
+                              Esta página corresponde a una portada, lámina visual o ilustración gráfica dentro del material oficial del MINED.
+                            </p>
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                  )}
+              </div>
+            )}
           </div>
         )}
       </div>

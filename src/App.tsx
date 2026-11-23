@@ -107,12 +107,6 @@ import { AdBanner } from './components/AdBanner';
 
 import { LateralAdRails } from './components/LateralAdRails';
 
-import { getCurrentUser } from './services/authService';
-
-import { User } from './types/auth';
-
-
-
 // Componentes con carga diferida (lazy loading) para acelerar el inicio
 
 const CategoryHierarchyViewer = React.lazy(() =>
@@ -140,12 +134,6 @@ const MotionSitesPortal = React.lazy(() =>
 );
 
 const LanguagesView = React.lazy(() => import('./components/LanguagesView'));
-
-const AccountModal = React.lazy(() =>
-
-  import('./components/AccountModal').then((m) => ({ default: m.AccountModal }))
-
-);
 
 const LegalModal = React.lazy(() =>
 
@@ -233,7 +221,9 @@ import { useTranslation } from './i18n';
 
 import { LanguageSwitcher } from './components/LanguageSwitcher';
 
-import { HeaderNavbar, AppPageTab } from './components/HeaderNavbar';
+import { HeaderNavbar, AppPageTab } from './components/HeaderNavbar';
+import type { PortalNavigationTarget } from './components/motionsites/Courses3DSection';
+import type { LanguageMainTab } from './components/LanguagesView';
 
 
 
@@ -349,7 +339,7 @@ const TAB_SEO_TITLES: Record<AppPageTab, string> = {
 
   'siget-solar': 'Normativa Eléctrica SIGET y Sistemas Fotovoltaicos | KUSKAT',
 
-  'jovenes-talento': 'Programa Jóvenes Talento y Olimpiadas Científicas | KUSKAT',
+  'jovenes-talento': 'ASD MINED | Programa de Olimpiadas Científicas | KUSKAT',
 
   'formula-lab': 'Laboratorio Interactivo de Fórmulas Científicas | KUSKAT',
 
@@ -507,21 +497,9 @@ export default function App() {
 
   // Estados de Cuentas Nativas, Exámenes y Marco Legal
 
-  const [currentUser, setCurrentUser] = useState<User | null>(null);
-
-  const [isAccountModalOpen, setIsAccountModalOpen] = useState<boolean>(false);
-
   const [isLegalModalOpen, setIsLegalModalOpen] = useState<boolean>(false);
 
   const [legalModalTab, setLegalModalTab] = useState<LegalTab>('terms');
-
-
-
-  useEffect(() => {
-
-    setCurrentUser(getCurrentUser());
-
-  }, []);
 
 
 
@@ -617,7 +595,57 @@ export default function App() {
 
 
 
-  const [isExamRunning, setIsExamRunning] = useState<boolean>(false);
+  const [isExamRunning, setIsExamRunning] = useState<boolean>(false);
+
+  // Estados iniciales para navegación directa desde el Portal de Inicio (Estudiar / Hacer el Test)
+  const [categoriesInitialInst, setCategoriesInitialInst] = useState<'ALL' | Institution>('ALL');
+  const [jovenesTalentoInitialTab, setJovenesTalentoInitialTab] = useState<'theory' | 'drills'>('theory');
+  const [anspInitialExamMode, setAnspInitialExamMode] = useState<boolean>(false);
+  const [academicInitialMode, setAcademicInitialMode] = useState<'study' | 'test'>('study');
+  const [notaryInitialTab, setNotaryInitialTab] = useState<'study-units' | 'jurisprudence' | 'interactive-study' | 'simulator'>('interactive-study');
+  const [residentadoInitialTabMode, setResidentadoInitialTabMode] = useState<'thematic_units' | 'solved_cases' | 'simulator' | 'branching_cases'>('thematic_units');
+  const [driverInitialSubTab, setDriverInitialSubTab] = useState<'study' | 'cases' | 'signs' | 'quiz'>('study');
+  const [languagesInitialId, setLanguagesInitialId] = useState<string>('english');
+  const [languagesInitialMainTab, setLanguagesInitialMainTab] = useState<LanguageMainTab>('theory');
+  const [formulaLabInitialMode, setFormulaLabInitialMode] = useState<'lab' | 'test'>('lab');
+
+  const handleNavigateFromPortal = (target: PortalNavigationTarget) => {
+    switch (target.tab) {
+      case 'categories':
+        setCategoriesInitialInst(target.institution);
+        break;
+      case 'practice':
+        setPracticeInitialCategory(target.institution);
+        setQuizQuestions([]);
+        break;
+      case 'jovenes-talento':
+        setJovenesTalentoInitialTab(target.jovenesTalentoTab);
+        break;
+      case 'ansp-ascenso':
+        setAnspInitialExamMode(target.anspExamMode);
+        break;
+      case 'academic-reinforcement':
+        setAcademicInitialMode(target.academicMode);
+        break;
+      case 'notary-exam':
+        setNotaryInitialTab(target.notaryTab);
+        break;
+      case 'residentado-medico':
+        setResidentadoInitialTabMode(target.residentadoTab);
+        break;
+      case 'driver-license':
+        setDriverInitialSubTab(target.driverSubTab);
+        break;
+      case 'languages':
+        setLanguagesInitialId(target.languageId);
+        setLanguagesInitialMainTab(target.languageMainTab);
+        break;
+      case 'formula-lab':
+        setFormulaLabInitialMode(target.formulaLabMode);
+        break;
+    }
+    handleSelectTab(target.tab);
+  };
 
 
 
@@ -985,7 +1013,7 @@ export default function App() {
 
         <MotionSitesPortal
 
-          onEnterSimulator={() => {
+          onEnterSimulator={(inst) => { if (inst) setPracticeInitialCategory(inst);
 
             handleSelectTab('practice');
 
@@ -997,17 +1025,15 @@ export default function App() {
 
           }}
 
-          onSelectTab={handleSelectTab}
-
-          onOpenAccountModal={() => setIsAccountModalOpen(true)}
+          onSelectTab={handleSelectTab}
+
+          onNavigateArea={handleNavigateFromPortal}
 
           onOpenTutorial={() => setIsTutorialOpen(true)}
 
           onOpenDevModal={() => setIsDevModalOpen(true)}
 
           onOpenLegalModal={handleOpenLegalModal}
-
-          currentUser={currentUser}
 
         />
 
@@ -1035,8 +1061,6 @@ export default function App() {
 
         onSelectTab={handleSelectTab}
 
-        onOpenAccountModal={() => setIsAccountModalOpen(true)}
-
         onOpenTutorial={() => setIsTutorialOpen(true)}
 
         onOpenDevModal={() => setIsDevModalOpen(true)}
@@ -1046,8 +1070,6 @@ export default function App() {
         onOpenFlashcards={() => setIsFlashcardsModalOpen(true)}
 
         onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
-
-        currentUser={currentUser}
 
       />
 
@@ -1091,7 +1113,7 @@ export default function App() {
 
           >
 
-            <CategoryHierarchyViewer
+            <CategoryHierarchyViewer initialInst={categoriesInitialInst}
 
               onStartPracticeWithQuestions={(questions) => {
 
@@ -1188,8 +1210,6 @@ export default function App() {
               }}
 
               onBackToCategories={() => handleSelectTab('categories')}
-
-              onOpenAccountModal={() => setIsAccountModalOpen(true)}
 
               onQuizActiveChange={setIsExamRunning}
 
@@ -1615,7 +1635,7 @@ export default function App() {
 
           >
 
-            <LanguagesView
+            <LanguagesView initialLanguageId={languagesInitialId} initialMainTab={languagesInitialMainTab}
 
               onEnterSimulatorWithCategory={(cat, langId) => {
 
@@ -1755,7 +1775,7 @@ export default function App() {
 
           >
 
-            <DriverLicenseView />
+            <DriverLicenseView initialSubTab={driverInitialSubTab} />
 
           </React.Suspense>
 
@@ -1795,7 +1815,7 @@ export default function App() {
 
           >
 
-            <AcademicReinforcementView />
+            <AcademicReinforcementView initialMode={academicInitialMode} />
 
           </React.Suspense>
 
@@ -1875,7 +1895,7 @@ export default function App() {
 
           >
 
-            <NotaryExamView />
+            <NotaryExamView initialTab={notaryInitialTab} />
 
           </React.Suspense>
 
@@ -1915,7 +1935,7 @@ export default function App() {
 
           >
 
-            <AnspAscensoView
+            <AnspAscensoView initialExamMode={anspInitialExamMode}
 
               onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
 
@@ -2001,7 +2021,7 @@ export default function App() {
 
           >
 
-            <ResidentadoMedicoView
+            <ResidentadoMedicoView initialTabMode={residentadoInitialTabMode}
 
               onOpenFlashcards={() => setIsFlashcardsModalOpen(true)}
 
@@ -2141,7 +2161,7 @@ export default function App() {
 
           >
 
-            <InteractiveFormulaLab />
+            <InteractiveFormulaLab initialMode={formulaLabInitialMode} />
 
           </React.Suspense>
 
@@ -2213,7 +2233,7 @@ export default function App() {
 
                 </div>
 
-                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Jóvenes Talento UES / MINED...</p>
+                <p className="font-caslon text-sm font-semibold text-slate-700">Cargando ASD MINED...</p>
 
               </div>
 
@@ -2221,7 +2241,7 @@ export default function App() {
 
           >
 
-            <JovenesTalentoView
+            <JovenesTalentoView initialTab={jovenesTalentoInitialTab}
 
               onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
 
@@ -3110,26 +3130,6 @@ export default function App() {
       {/* 8. MODAL DE CUENTA (INICIAR SESIÓN, CREAR CUENTA, EXÁMENES REALIZADOS) */}
 
       {/* ==================================================================== */}
-
-      {isAccountModalOpen && (
-
-        <React.Suspense fallback={null}>
-
-          <AccountModal
-
-            isOpen={isAccountModalOpen}
-
-            onClose={() => setIsAccountModalOpen(false)}
-
-            onOpenLegalModal={handleOpenLegalModal}
-
-            onUserChanged={setCurrentUser}
-
-          />
-
-        </React.Suspense>
-
-      )}
 
 
 

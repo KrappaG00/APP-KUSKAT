@@ -383,7 +383,7 @@ export const GRADE_04_DATA: GradeCurriculumData = {
         createCurriculumUnit('mined-mat-4g-u03', 3, 'Multiplicación de números naturales', '4-grado', 1, 'Algoritmo de la multiplicación de varias cifras.', ['Multiplica en forma vertical'], u3Lessons4G),
         createCurriculumUnit('mined-mat-4g-u04', 4, 'Números decimales', '4-grado', 1, 'Décimas, centésimas y milésimas en la recta numérica.', ['Ubica decimales en la recta'], u4Lessons4G),
         createCurriculumUnit('mined-mat-4g-u05', 5, 'División', '4-grado', 1, 'División larga entre números de dos cifras.', ['Aplica división larga'], u5Lessons4G),
-        createCurriculumUnit('mined-mat-4g-u06', 6, 'Área de cuadrados y rectángulos', '4-grado', 2, 'Unidades cm² y m², fórmulas A = l² y A = b * h.', ['Calcula áreas de superficies planas'], u6Lessons4G),
+        createCurriculumUnit('mined-mat-4g-u06', 6, 'Área de cuadrados y rectángulos', '4-grado', 2, 'Unidades cm² y m², fórmulas A = l² y A = b · h.', ['Calcula áreas de superficies planas'], u6Lessons4G),
         createCurriculumUnit('mined-mat-4g-u07', 7, 'Operaciones con números decimales', '4-grado', 2, 'Suma y resta vertical con alineación del punto decimal.', ['Opera decimales con precisión'], u7Lessons4G),
         createCurriculumUnit('mined-mat-4g-u08', 8, 'Fracciones', '4-grado', 2, 'Fracciones propias, impropias, mixtas y suma homogénea.', ['Convierte fracciones a mixtos'], u8Lessons4G),
         createCurriculumUnit('mined-mat-4g-u09', 9, 'Medida y representación de datos', '4-grado', 2, 'Tablas de doble entrada y pictogramas con escala.', ['Interpreta datos estadísticos'], u9Lessons4G),

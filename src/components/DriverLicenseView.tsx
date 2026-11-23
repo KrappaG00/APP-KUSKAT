@@ -29,6 +29,8 @@ import {
 import {
   DRIVER_CURRICULUM_UNITS,
   DRIVER_QUESTIONS,
+  DRIVER_THEORY_QUESTIONS,
+  DRIVER_PSYCHOLOGICAL_QUESTIONS,
   OFFICIAL_ROAD_SIGNS,
   generateOfficialVmtExam,
   getAllPracticalTrafficCases,
@@ -36,7 +38,10 @@ import {
   PracticalTrafficCase,
   DriverQuestion,
   RoadSign,
+  RoadSignCategory,
+  VmtExamMode,
 } from '../data/driverLicense';
+import { ModulePaginationBar } from './ModulePaginationBar';
 
 // Re-exportación retrocompatible de tipos y colecciones para consumidores externos y tests
 export { DRIVER_QUESTIONS, OFFICIAL_ROAD_SIGNS };
@@ -44,8 +49,20 @@ export type { DriverQuestion, RoadSign, DriverUnit, PracticalTrafficCase };
 
 type SubTab = 'study' | 'cases' | 'signs' | 'quiz';
 
-export const DriverLicenseView: React.FC = () => {
-  const [activeSubTab, setActiveSubTab] = useState<SubTab>('study');
+export interface DriverLicenseViewProps {
+  initialSubTab?: SubTab;
+}
+
+export const DriverLicenseView: React.FC<DriverLicenseViewProps> = ({
+  initialSubTab = 'study',
+}) => {
+  const [activeSubTab, setActiveSubTab] = useState<SubTab>(initialSubTab);
+
+  useEffect(() => {
+    if (initialSubTab) {
+      setActiveSubTab(initialSubTab);
+    }
+  }, [initialSubTab]);
 
   // Estado del lector de unidades curriculares
   const [selectedUnitId, setSelectedUnitId] = useState<string>(DRIVER_CURRICULUM_UNITS[0].id);
@@ -83,7 +100,7 @@ export const DriverLicenseView: React.FC = () => {
 
   const filteredCases = useMemo(() => {
     return allCases.filter(c => {
-      const matchesUnit = caseUnitFilter === 'all' || c.id.startsWith(`tc-${caseUnitFilter.replace('u', 'u')}`);
+      const matchesUnit = caseUnitFilter === 'all' || c.id.startsWith(`tc-${caseUnitFilter}-`);
       if (!matchesUnit) return false;
 
       if (!caseSearchQuery.trim()) return true;
@@ -99,8 +116,12 @@ export const DriverLicenseView: React.FC = () => {
   }, [allCases, caseUnitFilter, caseSearchQuery]);
 
   // Estado del catálogo de señales viales
-  const [signFilter, setSignFilter] = useState<'all' | 'reglamentaria' | 'preventiva' | 'informativa'>('all');
+  const [signFilter, setSignFilter] = useState<'all' | RoadSignCategory>('all');
   const [signSearchQuery, setSignSearchQuery] = useState<string>('');
+
+  const signById = useMemo(() => {
+    return new Map(OFFICIAL_ROAD_SIGNS.map((s) => [s.id, s]));
+  }, []);
 
   const filteredSigns = useMemo(() => {
     return OFFICIAL_ROAD_SIGNS.filter(sign => {
@@ -119,9 +140,11 @@ export const DriverLicenseView: React.FC = () => {
   }, [signFilter, signSearchQuery]);
 
   // Estado del simulador de evaluación VMT
-  const [examType, setExamType] = useState<'official30' | 'all56'>('official30');
+  const ITEMS_PER_PAGE = 25;
+  const [examType, setExamType] = useState<VmtExamMode>('official30');
   const [activeCategory, setActiveCategory] = useState<'all' | 'teorico' | 'psicologico'>('all');
-  const [quizQuestions, setQuizQuestions] = useState<DriverQuestion[]>(() => generateOfficialVmtExam(30));
+  const [quizQuestions, setQuizQuestions] = useState<DriverQuestion[]>(() => generateOfficialVmtExam(30, 'official30'));
+  const [currentPage, setCurrentPage] = useState<number>(1);
   const [userAnswers, setUserAnswers] = useState<Record<string, string>>({});
   const [showResults, setShowResults] = useState<boolean>(false);
 
@@ -150,7 +173,10 @@ export const DriverLicenseView: React.FC = () => {
   }, [timerRunning, secondsRemaining, showResults]);
 
   const handleStartTimedExam = () => {
-    const examSet = generateOfficialVmtExam(30);
+    const examSet = generateOfficialVmtExam(30, 'official30');
+    setExamType('official30');
+    setActiveCategory('all');
+    setCurrentPage(1);
     setQuizQuestions(examSet);
     setIsTimedExam(true);
     setSecondsRemaining(30 * 60);
@@ -160,13 +186,11 @@ export const DriverLicenseView: React.FC = () => {
     setActiveSubTab('quiz');
   };
 
-  const handleSwitchExamMode = (mode: 'official30' | 'all56') => {
+  const handleSwitchExamMode = (mode: VmtExamMode) => {
     setExamType(mode);
-    if (mode === 'official30') {
-      setQuizQuestions(generateOfficialVmtExam(30));
-    } else {
-      setQuizQuestions(DRIVER_QUESTIONS);
-    }
+    setActiveCategory('all');
+    setCurrentPage(1);
+    setQuizQuestions(generateOfficialVmtExam(mode === 'official30' ? 30 : undefined, mode));
     setUserAnswers({});
     setShowResults(false);
     setTimerRunning(false);
@@ -179,6 +203,16 @@ export const DriverLicenseView: React.FC = () => {
     return quizQuestions.filter(q => q.category === activeCategory);
   }, [quizQuestions, activeCategory]);
 
+  const isExtensiveMode = examType !== 'official30' || filteredQuizQuestions.length > 30;
+  const totalPages = Math.max(1, Math.ceil(filteredQuizQuestions.length / ITEMS_PER_PAGE));
+  const safePage = Math.min(Math.max(1, currentPage), totalPages);
+
+  const paginatedQuizQuestions = useMemo(() => {
+    if (!isExtensiveMode) return filteredQuizQuestions;
+    const start = (safePage - 1) * ITEMS_PER_PAGE;
+    return filteredQuizQuestions.slice(start, start + ITEMS_PER_PAGE);
+  }, [filteredQuizQuestions, isExtensiveMode, safePage]);
+
   const handleSelectOption = (questionId: string, optionKey: string) => {
     if (showResults) return;
     setUserAnswers(prev => ({ ...prev, [questionId]: optionKey }));
@@ -188,10 +222,10 @@ export const DriverLicenseView: React.FC = () => {
     setUserAnswers({});
     setShowResults(false);
     setTimerRunning(false);
+    setIsTimedExam(false);
     setSecondsRemaining(30 * 60);
-    if (examType === 'official30') {
-      setQuizQuestions(generateOfficialVmtExam(30));
-    }
+    setCurrentPage(1);
+    setQuizQuestions(generateOfficialVmtExam(examType === 'official30' ? 30 : undefined, examType));
   };
 
   // Cálculo de notas y métricas oficiales VMT
@@ -247,7 +281,7 @@ export const DriverLicenseView: React.FC = () => {
           <div className="flex flex-wrap items-center justify-between gap-2">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#132A5C] text-[#C59B27] text-xs font-semibold font-mono-exam uppercase tracking-wider border border-[#C59B27]/30 shadow-xs">
               <Car className="w-3.5 h-3.5 text-[#C59B27]" />
-              <span>VMT • SERTRACEN • Academia Nacional de Tránsito y Seguridad Vial</span>
+              <span>VMT • Organismo Evaluador Autorizado • Academia Nacional de Tránsito y Seguridad Vial</span>
             </div>
             <div className="flex items-center gap-2 text-xs font-mono-exam text-[#94A3B8]">
               <span>Progreso:</span>
@@ -262,7 +296,7 @@ export const DriverLicenseView: React.FC = () => {
           </h2>
           <p className="text-[#CBD5E1] text-xs sm:text-sm max-w-3xl leading-relaxed">
             Plataforma oficial integral para aspirantes a licencias de conducir en El Salvador (Juvenil, Particular, Liviana, Pesada, Pesada T y Motocicleta).
-            Abarca la Ley de Transporte Terrestre (DL 477), Reglamento General de Tránsito (DE 86), Art. 147-E del Código Penal, Ley FONAT, 40 casos prácticos y simulador oficial de 30 preguntas.
+            Abarca la Ley de Transporte Terrestre (DL 477), Reglamento General de Tránsito (DE 61), Reglamento de Transporte de Carga (DE 23), Art. 147-E del Código Penal, Ley FONAT, {allCases.length} casos prácticos y simulador oficial de 30 preguntas.
           </p>
 
           {/* Barra de Navegación de 4 Modos */}
@@ -272,6 +306,7 @@ export const DriverLicenseView: React.FC = () => {
               onClick={() => {
                 setActiveSubTab('study');
                 setIsTimedExam(false);
+                setTimerRunning(false);
               }}
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-2 font-mono-exam ${
                 activeSubTab === 'study'
@@ -280,7 +315,7 @@ export const DriverLicenseView: React.FC = () => {
               }`}
             >
               <BookOpen className="w-4 h-4 text-[#C59B27]" />
-              <span>1. Manual Curricular (8 Unidades)</span>
+              <span>1. Manual Curricular ({DRIVER_CURRICULUM_UNITS.length} Unidades)</span>
             </button>
 
             <button
@@ -288,6 +323,7 @@ export const DriverLicenseView: React.FC = () => {
               onClick={() => {
                 setActiveSubTab('cases');
                 setIsTimedExam(false);
+                setTimerRunning(false);
               }}
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-2 font-mono-exam ${
                 activeSubTab === 'cases'
@@ -296,7 +332,7 @@ export const DriverLicenseView: React.FC = () => {
               }`}
             >
               <Scale className="w-4 h-4 text-[#C59B27]" />
-              <span>2. Casos Prácticos Resueltos (40)</span>
+              <span>2. Casos Prácticos Resueltos ({allCases.length})</span>
             </button>
 
             <button
@@ -304,6 +340,7 @@ export const DriverLicenseView: React.FC = () => {
               onClick={() => {
                 setActiveSubTab('signs');
                 setIsTimedExam(false);
+                setTimerRunning(false);
               }}
               className={`px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer flex items-center gap-2 font-mono-exam ${
                 activeSubTab === 'signs'
@@ -312,7 +349,7 @@ export const DriverLicenseView: React.FC = () => {
               }`}
             >
               <Compass className="w-4 h-4 text-[#C59B27]" />
-              <span>3. Catálogo de Señales SIECA (27)</span>
+              <span>3. Catálogo de Señales SIECA ({OFFICIAL_ROAD_SIGNS.length})</span>
             </button>
 
             <button
@@ -332,7 +369,7 @@ export const DriverLicenseView: React.FC = () => {
       </div>
 
       {/* ==================================================================== */}
-      {/* MODO 1: LECTOR CURRICULAR DE 8 UNIDADES (ESTUDIO PROFUNDO) */}
+      {/* MODO 1: LECTOR CURRICULAR DE 9 UNIDADES (ESTUDIO PROFUNDO) */}
       {/* ==================================================================== */}
       {activeSubTab === 'study' && (
         <div className="space-y-6">
@@ -411,13 +448,13 @@ export const DriverLicenseView: React.FC = () => {
 
                 <button
                   onClick={() => {
-                    setCaseUnitFilter(activeUnit.id.replace('u', 'u'));
+                    setCaseUnitFilter(activeUnit.id.split('-')[0]);
                     setActiveSubTab('cases');
                   }}
                   className="px-3.5 py-2 rounded-xl text-xs font-mono-exam font-bold bg-[#0B1B3D] hover:bg-[#132A5C] text-white transition-all cursor-pointer flex items-center gap-1.5 shadow-xs"
                 >
                   <Scale className="w-3.5 h-3.5 text-[#C59B27]" />
-                  <span>Ver 5 Casos ({activeUnit.practicalCases.length})</span>
+                  <span>Ver {activeUnit.practicalCases.length} Casos</span>
                 </button>
               </div>
             </div>
@@ -459,7 +496,7 @@ export const DriverLicenseView: React.FC = () => {
       )}
 
       {/* ==================================================================== */}
-      {/* MODO 2: CASOS PRÁCTICOS RESUELTOS (40 CASOS) */}
+      {/* MODO 2: CASOS PRÁCTICOS RESUELTOS */}
       {/* ==================================================================== */}
       {activeSubTab === 'cases' && (
         <div className="space-y-6">
@@ -583,7 +620,7 @@ export const DriverLicenseView: React.FC = () => {
       )}
 
       {/* ==================================================================== */}
-      {/* MODO 3: CATÁLOGO OFICIAL DE SEÑALIZACIÓN SIECA (27 SEÑALES) */}
+      {/* MODO 3: CATÁLOGO OFICIAL DE SEÑALIZACIÓN SIECA */}
       {/* ==================================================================== */}
       {activeSubTab === 'signs' && (
         <div className="space-y-6">
@@ -608,7 +645,7 @@ export const DriverLicenseView: React.FC = () => {
                     : 'bg-[#FAF9F5] text-[#475569] border border-[#E5E3D8]'
                 }`}
               >
-                Reglamentarias (9)
+                Reglamentarias ({OFFICIAL_ROAD_SIGNS.filter(s => s.category === 'reglamentaria').length})
               </button>
               <button
                 onClick={() => setSignFilter('preventiva')}
@@ -618,7 +655,7 @@ export const DriverLicenseView: React.FC = () => {
                     : 'bg-[#FAF9F5] text-[#475569] border border-[#E5E3D8]'
                 }`}
               >
-                Preventivas (9)
+                Preventivas ({OFFICIAL_ROAD_SIGNS.filter(s => s.category === 'preventiva').length})
               </button>
               <button
                 onClick={() => setSignFilter('informativa')}
@@ -628,7 +665,27 @@ export const DriverLicenseView: React.FC = () => {
                     : 'bg-[#FAF9F5] text-[#475569] border border-[#E5E3D8]'
                 }`}
               >
-                Informativas (9)
+                Informativas ({OFFICIAL_ROAD_SIGNS.filter(s => s.category === 'informativa').length})
+              </button>
+              <button
+                onClick={() => setSignFilter('obras')}
+                className={`px-3 py-1.5 rounded-lg font-bold transition-all cursor-pointer ${
+                  signFilter === 'obras'
+                    ? 'bg-[#EA580C] text-white'
+                    : 'bg-[#FAF9F5] text-[#475569] border border-[#E5E3D8]'
+                }`}
+              >
+                Obras ({OFFICIAL_ROAD_SIGNS.filter(s => s.category === 'obras').length})
+              </button>
+              <button
+                onClick={() => setSignFilter('horizontal')}
+                className={`px-3 py-1.5 rounded-lg font-bold transition-all cursor-pointer ${
+                  signFilter === 'horizontal'
+                    ? 'bg-[#334155] text-white'
+                    : 'bg-[#FAF9F5] text-[#475569] border border-[#E5E3D8]'
+                }`}
+              >
+                Horizontal ({OFFICIAL_ROAD_SIGNS.filter(s => s.category === 'horizontal').length})
               </button>
             </div>
 
@@ -653,11 +710,11 @@ export const DriverLicenseView: React.FC = () => {
               >
                 <div className="flex items-start gap-3.5">
                   <div
-                    className="shrink-0 p-2 bg-[#FAF9F5] rounded-xl border border-[#E5E3D8] flex items-center justify-center shadow-xs"
+                    className="shrink-0 p-2.5 bg-[#FAF9F5] rounded-xl border border-[#E5E3D8] flex items-center justify-center shadow-xs [&>svg]:w-16 [&>svg]:h-16 sm:[&>svg]:w-20 sm:[&>svg]:h-20"
                     dangerouslySetInnerHTML={{ __html: sign.iconSvg }}
                   />
-                  <div className="space-y-0.5">
-                    <div className="flex items-center gap-1.5">
+                  <div className="space-y-0.5 min-w-0">
+                    <div className="flex flex-wrap items-center gap-1.5">
                       <span className="font-mono-exam text-[10px] font-bold bg-[#0B1B3D] text-[#FAF9F5] px-2 py-0.5 rounded">
                         {sign.siecaCode}
                       </span>
@@ -666,7 +723,11 @@ export const DriverLicenseView: React.FC = () => {
                           ? 'bg-red-50 text-red-700'
                           : sign.category === 'preventiva'
                           ? 'bg-amber-50 text-amber-700'
-                          : 'bg-blue-50 text-blue-700'
+                          : sign.category === 'informativa'
+                          ? 'bg-blue-50 text-blue-700'
+                          : sign.category === 'obras'
+                          ? 'bg-orange-50 text-orange-700'
+                          : 'bg-slate-100 text-slate-700'
                       }`}>
                         {sign.category}
                       </span>
@@ -695,74 +756,107 @@ export const DriverLicenseView: React.FC = () => {
       {activeSubTab === 'quiz' && (
         <div className="space-y-6">
           {/* Barra de Control del Examen */}
-          <div className="bg-white p-4 rounded-2xl border border-[#E5E3D8] shadow-corporate-subtle flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-            <div className="flex items-center gap-2 flex-wrap text-xs font-mono-exam">
-              <button
-                onClick={() => handleSwitchExamMode('official30')}
-                className={`px-3 py-1.5 rounded-lg font-bold transition-all cursor-pointer ${
-                  examType === 'official30'
-                    ? 'bg-[#0B1B3D] text-white shadow-xs'
-                    : 'bg-[#FAF9F5] text-[#475569] border border-[#E5E3D8]'
-                }`}
-              >
-                Examen Oficial VMT (30)
-              </button>
-              <button
-                onClick={() => handleSwitchExamMode('all56')}
-                className={`px-3 py-1.5 rounded-lg font-bold transition-all cursor-pointer ${
-                  examType === 'all56'
-                    ? 'bg-[#0B1B3D] text-white shadow-xs'
-                    : 'bg-[#FAF9F5] text-[#475569] border border-[#E5E3D8]'
-                }`}
-              >
-                Banco Completo ({DRIVER_QUESTIONS.length})
-              </button>
-
-              <span className="text-[#CBD5E1]">|</span>
-
-              <button
-                onClick={() => setActiveCategory('all')}
-                className={`px-2.5 py-1 rounded-md font-bold cursor-pointer ${
-                  activeCategory === 'all' ? 'bg-[#132A5C] text-[#C59B27]' : 'text-[#64748B]'
-                }`}
-              >
-                Todas
-              </button>
-              <button
-                onClick={() => setActiveCategory('teorico')}
-                className={`px-2.5 py-1 rounded-md font-bold cursor-pointer ${
-                  activeCategory === 'teorico' ? 'bg-[#132A5C] text-[#C59B27]' : 'text-[#64748B]'
-                }`}
-              >
-                Teórico
-              </button>
-              <button
-                onClick={() => setActiveCategory('psicologico')}
-                className={`px-2.5 py-1 rounded-md font-bold cursor-pointer ${
-                  activeCategory === 'psicologico' ? 'bg-[#132A5C] text-[#C59B27]' : 'text-[#64748B]'
-                }`}
-              >
-                Psicológico
-              </button>
-            </div>
-
-            <div className="flex items-center gap-2">
-              {!isTimedExam ? (
+          <div className="bg-white p-3 sm:p-4 rounded-2xl border border-[#E5E3D8] shadow-corporate-subtle flex flex-col gap-3">
+            <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-3">
+              <div className="flex items-center gap-2 flex-wrap text-xs font-mono-exam">
                 <button
-                  onClick={handleStartTimedExam}
-                  className="px-3.5 py-2 rounded-xl text-xs font-bold bg-[#9E472A] hover:bg-[#853a22] text-white font-mono-exam flex items-center gap-1.5 shadow-xs cursor-pointer"
+                  type="button"
+                  onClick={() => handleSwitchExamMode('official30')}
+                  className={`px-3 py-1.5 rounded-lg font-bold transition-all cursor-pointer ${
+                    examType === 'official30'
+                      ? 'bg-[#0B1B3D] text-white shadow-xs'
+                      : 'bg-[#FAF9F5] text-[#475569] border border-[#E5E3D8]'
+                  }`}
                 >
-                  <Clock className="w-3.5 h-3.5" />
-                  <span>Iniciar Examen Oficial (30 Min)</span>
+                  Simulador Oficial VMT (30 / 30 min)
                 </button>
-              ) : (
-                <div className="flex items-center gap-2 bg-[#FAF9F5] px-3.5 py-1.5 rounded-xl border border-[#C59B27] font-mono-exam text-xs shadow-xs">
-                  <Clock className="w-4 h-4 text-[#9E472A] animate-pulse" />
-                  <span className="font-bold text-[#0B1B3D]">Tiempo Restante:</span>
-                  <span className="font-black text-sm text-[#9E472A]">{formatTimer(secondsRemaining)}</span>
-                </div>
-              )}
+                <button
+                  type="button"
+                  onClick={() => handleSwitchExamMode('teorico350')}
+                  className={`px-3 py-1.5 rounded-lg font-bold transition-all cursor-pointer ${
+                    examType === 'teorico350'
+                      ? 'bg-[#0B1B3D] text-white shadow-xs'
+                      : 'bg-[#FAF9F5] text-[#475569] border border-[#E5E3D8]'
+                  }`}
+                >
+                  Teórico Completo ({DRIVER_THEORY_QUESTIONS.length})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleSwitchExamMode('psicologico150')}
+                  className={`px-3 py-1.5 rounded-lg font-bold transition-all cursor-pointer ${
+                    examType === 'psicologico150'
+                      ? 'bg-[#0B1B3D] text-white shadow-xs'
+                      : 'bg-[#FAF9F5] text-[#475569] border border-[#E5E3D8]'
+                  }`}
+                >
+                  Psicológico Completo ({DRIVER_PSYCHOLOGICAL_QUESTIONS.length})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleSwitchExamMode('all500')}
+                  className={`px-3 py-1.5 rounded-lg font-bold transition-all cursor-pointer ${
+                    examType === 'all500'
+                      ? 'bg-[#0B1B3D] text-white shadow-xs'
+                      : 'bg-[#FAF9F5] text-[#475569] border border-[#E5E3D8]'
+                  }`}
+                >
+                  Banco Completo ({DRIVER_QUESTIONS.length}+)
+                </button>
+              </div>
+
+              <div className="flex items-center gap-2 shrink-0">
+                {!isTimedExam ? (
+                  <button
+                    type="button"
+                    onClick={handleStartTimedExam}
+                    className="px-3.5 py-2 rounded-xl text-xs font-bold bg-[#9E472A] hover:bg-[#853a22] text-white font-mono-exam flex items-center gap-1.5 shadow-xs cursor-pointer"
+                  >
+                    <Clock className="w-3.5 h-3.5" />
+                    <span>Iniciar Examen Oficial (30 Min)</span>
+                  </button>
+                ) : (
+                  <div className="flex items-center gap-2 bg-[#FAF9F5] px-3.5 py-1.5 rounded-xl border border-[#C59B27] font-mono-exam text-xs shadow-xs">
+                    <Clock className="w-4 h-4 text-[#9E472A] animate-pulse" />
+                    <span className="font-bold text-[#0B1B3D]">Tiempo Restante:</span>
+                    <span className="font-black text-sm text-[#9E472A]">{formatTimer(secondsRemaining)}</span>
+                  </div>
+                )}
+              </div>
             </div>
+
+            {(examType === 'official30' || examType === 'all500') && (
+              <div className="flex items-center gap-2 flex-wrap text-xs font-mono-exam pt-2 border-t border-[#EAE8DD]">
+                <span className="text-[11px] text-[#64748B] font-semibold">Filtrar bloque:</span>
+                <button
+                  type="button"
+                  onClick={() => { setActiveCategory('all'); setCurrentPage(1); }}
+                  className={`px-2.5 py-1 rounded-md font-bold cursor-pointer ${
+                    activeCategory === 'all' ? 'bg-[#132A5C] text-[#C59B27]' : 'text-[#64748B]'
+                  }`}
+                >
+                  Todas
+                </button>
+                <button
+                  type="button"
+                  onClick={() => { setActiveCategory('teorico'); setCurrentPage(1); }}
+                  className={`px-2.5 py-1 rounded-md font-bold cursor-pointer ${
+                    activeCategory === 'teorico' ? 'bg-[#132A5C] text-[#C59B27]' : 'text-[#64748B]'
+                  }`}
+                >
+                  Teórico
+                </button>
+                <button
+                  type="button"
+                  onClick={() => { setActiveCategory('psicologico'); setCurrentPage(1); }}
+                  className={`px-2.5 py-1 rounded-md font-bold cursor-pointer ${
+                    activeCategory === 'psicologico' ? 'bg-[#132A5C] text-[#C59B27]' : 'text-[#64748B]'
+                  }`}
+                >
+                  Psicológico
+                </button>
+              </div>
+            )}
           </div>
 
           {/* Tarjeta de Boleta de Resultados */}
@@ -771,7 +865,7 @@ export const DriverLicenseView: React.FC = () => {
               <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
                 <h4 className="font-editorial text-xl font-bold text-[#111625] flex items-center gap-2">
                   <Award className="w-6 h-6 text-[#C59B27]" />
-                  Boleta Oficial de Resultados • VMT / SERTRACEN
+                  Boleta Oficial de Resultados • VMT / Organismo Evaluador Autorizado
                 </h4>
                 <span className={`px-3 py-1 rounded-full text-xs font-mono-exam font-bold uppercase shadow-xs ${
                   isPassingScore ? 'bg-[#1E7E34] text-white' : 'bg-[#9E472A] text-white'
@@ -803,9 +897,22 @@ export const DriverLicenseView: React.FC = () => {
             </div>
           )}
 
+          {/* Paginación Superior en Modos Extensos (25 reactivos/página) */}
+          {isExtensiveMode && filteredQuizQuestions.length > ITEMS_PER_PAGE && (
+            <ModulePaginationBar
+              currentPage={safePage}
+              totalPages={totalPages}
+              totalItems={filteredQuizQuestions.length}
+              itemsPerPage={ITEMS_PER_PAGE}
+              onPageChange={setCurrentPage}
+              itemLabel="reactivos"
+            />
+          )}
+
           {/* Listado de Preguntas Interactivas */}
           <div className="space-y-4">
-            {filteredQuizQuestions.map((q, idx) => {
+            {paginatedQuizQuestions.map((q, idx) => {
+              const displayIndex = (isExtensiveMode ? (safePage - 1) * ITEMS_PER_PAGE : 0) + idx + 1;
               const selectedKey = userAnswers[q.id];
               return (
                 <div
@@ -814,16 +921,27 @@ export const DriverLicenseView: React.FC = () => {
                 >
                   <div className="flex flex-wrap items-center justify-between text-xs pb-2 border-b border-[#EAE8DD] gap-2">
                     <span className="font-mono-exam font-bold text-[#0B1B3D]">
-                      Pregunta {idx + 1} de {filteredQuizQuestions.length} • {q.topic}
+                      Pregunta {displayIndex} de {filteredQuizQuestions.length} • {q.topic}
                     </span>
                     <span className="text-[10px] font-mono-exam bg-[#FAF9F5] px-2 py-0.5 rounded border border-[#E5E3D8] text-[#64748B] uppercase">
                       {q.category}
                     </span>
                   </div>
 
-                  <p className="text-sm sm:text-base font-semibold text-[#111625] leading-relaxed">
-                    {q.question || q.statement}
-                  </p>
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-4">
+                    {q.signId && signById.get(q.signId) && (
+                      <div
+                        role="img"
+                        className="shrink-0 self-start sm:self-center p-2.5 bg-[#FAF9F5] rounded-xl border border-[#E5E3D8] flex items-center justify-center shadow-xs [&>svg]:w-16 [&>svg]:h-16 sm:[&>svg]:w-20 sm:[&>svg]:h-20"
+                        title={signById.get(q.signId)!.name}
+                        aria-label={`Señal vial: ${signById.get(q.signId)!.name}`}
+                        dangerouslySetInnerHTML={{ __html: signById.get(q.signId)!.iconSvg }}
+                      />
+                    )}
+                    <p className="text-sm sm:text-base font-semibold text-[#111625] leading-relaxed flex-1">
+                      {q.question || q.statement}
+                    </p>
+                  </div>
 
                   <div className="space-y-2 pt-1">
                     {q.options.map((optText, optIdx) => {
@@ -863,12 +981,38 @@ export const DriverLicenseView: React.FC = () => {
                   </div>
 
                   {showResults && (
-                    <div className="mt-3 p-3.5 rounded-xl bg-[#FAF9F5] border border-[#E5E3D8] text-xs text-[#334155] space-y-1.5 font-sans-ui">
+                    <div className="mt-3 p-3.5 rounded-xl bg-[#FAF9F5] border border-[#E5E3D8] text-xs text-[#334155] space-y-2.5 font-sans-ui">
                       <div className="flex items-center gap-1.5 font-bold text-[#0B1B3D] font-mono-exam">
                         <HelpCircle className="w-4 h-4 text-[#C59B27]" />
                         <span>Fundamentación Legal y Técnica Oficial:</span>
                       </div>
                       <p className="leading-relaxed pl-5 text-[#475569]">{q.explanation}</p>
+                      {q.distractorRationale && (
+                        <div className="pl-5 pt-1 space-y-1">
+                          <span className="text-[11px] font-mono-exam font-bold text-[#0B1B3D] block">
+                            Análisis de Opciones (A–D):
+                          </span>
+                          <div className="grid grid-cols-1 gap-1">
+                            {(['A', 'B', 'C', 'D'] as const).map((optKey) => {
+                              const rationale = q.distractorRationale?.[optKey];
+                              if (!rationale) return null;
+                              const isRight = optKey === q.correctKey;
+                              return (
+                                <div
+                                  key={optKey}
+                                  className={`text-[11px] px-2.5 py-1.5 rounded-lg border ${
+                                    isRight
+                                      ? 'bg-emerald-50/70 border-emerald-200 text-emerald-900'
+                                      : 'bg-white border-[#E5E3D8] text-[#475569]'
+                                  }`}
+                                >
+                                  <strong className="font-mono-exam">{optKey}:</strong> {rationale}
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      )}
                       {q.legalReference && (
                         <div className="pl-5 pt-1 text-[11px] font-mono-exam text-[#0B1B3D]">
                           <strong>Artículo de Referencia:</strong> {q.legalReference}
@@ -881,8 +1025,20 @@ export const DriverLicenseView: React.FC = () => {
             })}
           </div>
 
+          {/* Paginación Inferior en Modos Extensos (25 reactivos/página) */}
+          {isExtensiveMode && filteredQuizQuestions.length > ITEMS_PER_PAGE && (
+            <ModulePaginationBar
+              currentPage={safePage}
+              totalPages={totalPages}
+              totalItems={filteredQuizQuestions.length}
+              itemsPerPage={ITEMS_PER_PAGE}
+              onPageChange={setCurrentPage}
+              itemLabel="reactivos"
+            />
+          )}
+
           {/* Botones de Acción */}
-          <div className="flex items-center justify-between pt-2">
+          <div className="flex flex-wrap items-center justify-between gap-2 pt-2">
             <button
               onClick={handleResetQuiz}
               className="px-4 py-2.5 rounded-xl border border-[#E5E3D8] text-xs font-bold text-[#475569] hover:bg-[#FAF9F5] transition-colors flex items-center gap-1.5 cursor-pointer font-mono-exam"
@@ -906,7 +1062,9 @@ export const DriverLicenseView: React.FC = () => {
               <button
                 onClick={() => {
                   handleResetQuiz();
-                  window.scrollTo({ top: 0, behavior: 'smooth' });
+                  if (typeof window !== 'undefined' && typeof window.scrollTo === 'function') {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                  }
                 }}
                 className="px-6 py-2.5 rounded-xl bg-[#0B1B3D] hover:bg-[#132A5C] text-[#FAF9F5] text-xs font-bold transition-all shadow-corporate-card flex items-center gap-2 cursor-pointer font-mono-exam"
               >

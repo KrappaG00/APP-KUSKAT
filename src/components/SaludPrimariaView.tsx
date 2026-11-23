@@ -29,6 +29,7 @@ import { issueCertificate, AcademicCertificate } from '../services/certificateSe
 import { CertificateModal } from './CertificateModal';
 import { AudioSpeechButton } from './AudioSpeechButton';
 import { ModulePaginationBar } from './ModulePaginationBar';
+import { KaTeXMath } from '../utils/mathRenderer';
 
 export const PRIMARY_CARE_SECTORS = [
   { id: 'all', name: 'Todos los Temas Clínicos', icon: '🩺' },
@@ -401,14 +402,14 @@ export const SaludPrimariaView: React.FC<SaludPrimariaViewProps> = ({
 
                       {/* VIÑETA CLÍNICA */}
                       {q.vignette && (
-                        <div className="bg-slate-50 border-l-4 border-[#0B1B3D] p-3.5 rounded-r-lg mb-3 text-xs leading-relaxed text-slate-700 font-sans">
+                        <div className="bg-slate-50 border-l-4 border-[#0B1B3D] p-3.5 rounded-r-lg mb-3 text-xs leading-relaxed text-slate-700 font-sans min-w-0 break-words">
                           <strong className="text-slate-900 block mb-1">Caso Clínico:</strong>
-                          {q.vignette}
+                          <KaTeXMath text={q.vignette} />
                         </div>
                       )}
 
-                      <h4 className="text-sm font-semibold text-slate-900 mb-4 leading-relaxed font-sans">
-                        {q.statement}
+                      <h4 className="text-sm font-semibold text-slate-900 mb-4 leading-relaxed font-sans min-w-0 break-words">
+                        <KaTeXMath text={q.statement} />
                       </h4>
 
                       {/* OPCIONES */}
@@ -448,7 +449,9 @@ export const SaludPrimariaView: React.FC<SaludPrimariaViewProps> = ({
                               >
                                 {optKey}
                               </span>
-                              <span className="flex-1 leading-snug">{optText}</span>
+                              <span className="flex-1 leading-snug min-w-0 break-words">
+                                <KaTeXMath text={optText} />
+                              </span>
                               {showFeedback && optKey === q.correctAnswer && (
                                 <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 ml-1" />
                               )}
@@ -481,8 +484,8 @@ export const SaludPrimariaView: React.FC<SaludPrimariaViewProps> = ({
                             </button>
                           </div>
 
-                          <p className="text-xs text-slate-700 bg-slate-50 p-3 rounded-lg border border-slate-200 leading-relaxed font-sans">
-                            {q.clinicalExplanation}
+                          <p className="text-xs text-slate-700 bg-slate-50 p-3 rounded-lg border border-slate-200 leading-relaxed font-sans min-w-0 break-words">
+                            <KaTeXMath text={q.clinicalExplanation} />
                           </p>
 
                           <div className="mt-2 text-[11px] text-slate-500 font-mono">
@@ -498,8 +501,9 @@ export const SaludPrimariaView: React.FC<SaludPrimariaViewProps> = ({
                                 const rat = q.distractorRationale[k];
                                 if (!rat) return null;
                                 return (
-                                  <div key={k} className="text-slate-600">
-                                    <span className="font-semibold text-slate-800">Opción {k}:</span> {rat}
+                                  <div key={k} className="text-slate-600 min-w-0 break-words">
+                                    <span className="font-semibold text-slate-800">Opción {k}:</span>{' '}
+                                    <KaTeXMath text={rat} />
                                   </div>
                                 );
                               })}

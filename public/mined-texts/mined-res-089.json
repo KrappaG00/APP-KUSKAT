@@ -1,0 +1,1215 @@
+{
+  "id": "mined-res-089",
+  "title": "Libro de Texto Oficial: 1.° Grado Números y Formas - Tomo 1 (Matemática)",
+  "filename": "1.° grado_Números y formas, tomo 1.pdf",
+  "docType": "Libro de Texto",
+  "materiaOriginal": "Educación Inicial y Parvularia",
+  "gradoOriginal": "1.° Grado",
+  "officialUrl": "https://www.mined.gob.sv/materiales/pi/1.° grado_Números y formas, tomo 1.pdf",
+  "status": "success",
+  "textCoverage": "full",
+  "totalPages": 226,
+  "extractedPages": 214,
+  "coverageRatio": 0.9469,
+  "totalChars": 115990,
+  "sectionCount": 9,
+  "mediaUrl": null,
+  "notice": null,
+  "sections": [
+    {
+      "id": "sec-001",
+      "title": "Secciones del LT (páginas iniciales)",
+      "startPage": 2,
+      "endPage": 9,
+      "level": 1
+    },
+    {
+      "id": "sec-002",
+      "title": "1.°Números y formas P1-1-16",
+      "startPage": 10,
+      "endPage": 17,
+      "level": 1
+    },
+    {
+      "id": "sec-003",
+      "title": "1.°Números y formas P2-17-32",
+      "startPage": 18,
+      "endPage": 33,
+      "level": 1
+    },
+    {
+      "id": "sec-004",
+      "title": "1.°Números y formas P3-33-50",
+      "startPage": 34,
+      "endPage": 49,
+      "level": 1
+    },
+    {
+      "id": "sec-005",
+      "title": "1.°Números y formas P4-49-64",
+      "startPage": 50,
+      "endPage": 65,
+      "level": 1
+    },
+    {
+      "id": "sec-006",
+      "title": "1.°Números y formas P5-65-80",
+      "startPage": 66,
+      "endPage": 81,
+      "level": 1
+    },
+    {
+      "id": "sec-007",
+      "title": "1.°Números y formas P6-81-98",
+      "startPage": 82,
+      "endPage": 99,
+      "level": 1
+    },
+    {
+      "id": "sec-008",
+      "title": "1.°Números y formas P4-099-160",
+      "startPage": 100,
+      "endPage": 161,
+      "level": 1
+    },
+    {
+      "id": "sec-009",
+      "title": "1.°Números y formas P4-161-224",
+      "startPage": 162,
+      "endPage": 226,
+      "level": 1
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "1 Libro de texto Tomo 1 Números y Formas Números y Formas Tomo 1",
+      "charCount": 64
+    },
+    {
+      "pageNumber": 2,
+      "text": "Tomo 1 Primer grado Números y formas",
+      "charCount": 36
+    },
+    {
+      "pageNumber": 3,
+      "text": "Tercera edición, Ministerio de Educación, San Salvador, El Salvador, 2025.\n\nDerechos reservados. Prohibida su venta y su reproducción con fines comerciales por cualquier medio, sin previa autorización del Ministerio de Educación, Ciencia y Tecnología.\n\nEquipo autoral Inés Eugenia Palacios Vicente Marcela Guadalupe Guevara de Serrano Corrección de textos Alondra del Río Umanzor Rafael Pineda Zacarías Jefe del Departamento de Materiales Educativos Julio Adolfo Castellanos Diseño editorial y diagramación Judith Samanta Romero de Ciudad Real Francisco René Burgos Álvarez Patricia Damaris Rodríguez de Salmerón Edgardo Josué Molina Claros Elmer Rodolfo Urquía Peña Diseño de portada Ernesto Escobar Imágenes Shutterstock Karla Edith Trigueros Mayor y Doctora Ministra de Educación, Ciencia y Tecnología Edgard Ernesto Ábrego Cruz Director General de Educación Edgar Eliseo Alvarenga F.\n\nViceministro de Educación y de Ciencia y Tecnología Marcela Isabel Hernández González Directora de Educación Primaria, en funciones Salomón Bernabé Pineda Alfaro Gerente Curricular para el Desarrollo y Aprendizaje de la Primera Infancia Wilfredo Alexander Granados Paz Director de Currículo y Materiales Educativos",
+      "charCount": 1203
+    },
+    {
+      "pageNumber": 4,
+      "text": "Querido estudiante:\n\nInicias tu Primer Grado, ¡qué alegría! Muchas felicidades y desde ya te deseo muchos éxitos en tu año escolar.\n\nEl libro que está en tus manos ha sido elaborado con mucha dedicación para que aprendas de forma divertida sobre los números, las formas, las secuencias, los patrones y la lógica. En sus páginas encontrarás retos muy interesantes para que desarrolles tu creatividad y razonamiento, pero no tienes que preocuparte por esto.\n\nTus docentes y tu familia te apoyarán en todo lo que necesites para que las matemáticas te resulten fáciles y entretenidas.\n\nEspero que disfrutes aprendiendo, que pongas entusiasmo en cada reto y que compartas con respeto y alegría tus logros con tu familia y tus maestros.\n\nCon cariño:\n\nKarla Edith Trigueros Mayor y Doctora Ministra de Educación, Ciencia y Tecnología",
+      "charCount": 826
+    },
+    {
+      "pageNumber": 5,
+      "text": "Secciones En tu libro de Primer Grado encontrarás: juegos, experimentos, cuentos y una diversidad de actividades que te ayudarán en tus aprendizajes y potenciarán tus habilidades.\n\nBloque y título Con ayuda de tu docente, obtendrás nuevos conocimientos Reforzarás tus conocimientos Practicarás en casa lo aprendido en la escuela CONOCE TU LIBROConoce tu libro 23 Busco objetos, los ordeno en una fila y digo su posición.\n\nPractico en casa Conozco los números ordinales Recorto las tarjetas 1.° 2.° 3.° con números de la página 181.\n\nEscucho y sigo las indicaciones de mi docente:\n\n¿Qué diferencia ves entre estos números y los números cardinales?\n\nDescubro\n\n1.° 5.°3.° 7.° 9.°2.° 6.°4.° 8.° 10.°\n\n➊ Formamos equipos de hasta 10 integrantes.\n\n➋ Repartimos las tarjetas que recortamos.\n\n➌ Formamos una fila según nuestra tarjeta, así:\n\nLos números que se utilizan para indicar orden se llaman ordinales. Al igual que los números cardinales, los representamos con símbolos:\n\nEscribo la posición de cada flor, de izquierda a derecha, y leo los números ordinales.\n\nResuelvo Primero Sexto Segundo Séptimo Tercero Octavo Cuarto Noveno Quinto Décimo\n\n1.°\n\n6.°\n\n2.°\n\n7.°\n\n3.°\n\n8.°\n\n4.°\n\n9.°\n\n5.°\n\n10.°\n\n1.°\n\nNumerosNumeros veintitrés Descubrirás mientras juegas y experimentas En esta sección encontrás juegos, cuentos, experimentos y muchas actividades para aprender mientras te diviertes.",
+      "charCount": 1381
+    },
+    {
+      "pageNumber": 6,
+      "text": "En esta sección encontrarás situaciones similares a las de la actividad inicial.\n\nRecuerda que reunir o agrupar es sumar.\n\n¿Cómo escribirías los números del 0 al 20 de mayor a menor?\n\n¿Cuál fue la sorpresa que encontró la tía María al abrir la puerta?\n\n67sesenta y siete Escucho y sigo las indicaciones de mi docente:\n\n1. Formamos los mismos equipos en la actividad anterior.\n\n2. Formamos una fila según el orden en que llegamos a la meta.\n\n3. Manteniendo los lugares, damos media vuelta.\n\n1.° 2.° 3.° 4.° 5.° 6.°\n\nResuelvo Practico en casa La posición que ocupa un objeto o persona en una fila depende de si se ordena de izquierda a derecha o de derecha a izquierda.\n\n1. Encierro en un círculo el 7.° pájaro de derecha a izquierda.\n\nDe izquierda a derecha\n\n2. Encierro en un círculo el 3.° pájaro de izquierda a derecha.\n\n1. Coloreo de amarillo el 5.° caracol, de derecha a izquierda.\n\n2. Coloreo de azul el 8.° caracol, de izquierda a derecha.\n\n¿Qué pasaría si...?\n\n¿Qué lugar ocupan ahora en la fila?\n\nDe derecha a izquierda R: Hay 4 conejos.\n\n¿Qué pasaría si...?\n\nEn esta sección podrás desafiar tus habilidades y conocimientos.\n\nEl ícono indica que dispondrás de un espacio para compartir tus ideas con tus compañeros.\n\nNuestra amiga te dará pistas y más información para que continúes aprendiendo.\n\nEn estos recuadros puedes completar lo que se te indica escribiendo dentro de ellos.\n\nSi encuentras un texto de color gris en los recuadros punteados u otros espacios, te invitamos a repintarlos.\n\nDesafío Discusión grupal ¿Sabías que...?/Pista Recuadros punteados Texto de color gris",
+      "charCount": 1588
+    },
+    {
+      "pageNumber": 7,
+      "text": "Números del cero al diez Conozco los números del cero al diez ........................................................... 10 Conozco los números ordinales ...................................................................... 23 Ordeno los números del cero al diez ............................................................. 24 Formo los números del 4 al 10 .......................................................................... 26 Sumo agrupando .............................................................................................. 34 Sumo agregando .............................................................................................. 36 Sumo el número 10 ........................................................................................... 38 Sumo cero a un número ................................................................................... 40 Resto quitando o eliminando ........................................................................... 42 Resto separando ............................................................................................... 44 Resto comparando ........................................................................................... 46 Restas con cero ................................................................................................. 48 Sumo tres números ............................................................................................ 50 Resto tres números ............................................................................................ 52 Sumo y resto números ....................................................................................... 54 Números del once al veinte Conozco los números del once al quince ...................................................... 58 Conozco los números del dieciséis al veinte .................................................. 62 Conozco más números ordinales ..................................................................... 66 Diferencio un número ordinal de un número cardinal .................................. 68 Ordeno los números del once al veinte ...........................................................70 Conozco la recta numérica ............................................................................. 72 Sumas con totales hasta 20 ............................................................................. 74 Restas con minuendo hasta 19 ........................................................................ 84 Sumo tres números ............................................................................................. 92 Resto tres números ............................................................................................. 94 Sumo y resto números ....................................................................................... 96 indiceIndice",
+      "charCount": 2867
+    },
+    {
+      "pageNumber": 8,
+      "text": "Números hasta el cien Formamos los números hasta el 100 ............................................................... 100 Leo y escribo números hasta 100 .................................................................... 110 Conozco otra manera de formar números .................................................... 112 Utilizo unidades y decenas ............................................................................... 113 Formo el número 100 con decenas ............................................................... 115 Ubico números en la recta numérica .............................................................. 116 Comparo dos números ..................................................................................... 118 Ordeno números hasta el 100 ........................................................................ 120 Sumo decenas con decenas y unidades ....................................................... 122 Sumo con totales hasta 100, de forma vertical ............................................. 126 Resto decenas ................................................................................................... 130 Resto con minuendo hasta 99, de forma vertical ......................................... 132 Encuentro el número que falta en la suma y resta ........................................ 138 Formo cantidades con monedas .................................................................... 140 Formo cantidades con billetes ......................................................................... 142 Contemos Cuento de dos en dos ....................................................................................... 144 Cuento de cinco en cinco ............................................................................... 146 Cuento de tres en tres y de cuatro en cuatro ................................................ 148 Cuento de diez en diez ..................................................................................... 150 Cuento de seis en seis y de siete en siete ........................................................ 151 Cuento de ocho en ocho y de nueve en nueve ........................................... 153 Sumo el número 2 varias veces ....................................................................... 155 Sumo el número 3 varias veces ........................................................................ 157 Sumo el mismo número varias veces ............................................................... 159 Anexos y recortables ............................................................................... 161",
+      "charCount": 2615
+    },
+    {
+      "pageNumber": 9,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 10,
+      "text": "1 Numeros del cero al diez Numeros del cero al diez 99 22 66 11 1010 00 55",
+      "charCount": 74
+    },
+    {
+      "pageNumber": 11,
+      "text": "10 ¿Cuántos animales hay de cada tipo?\n\n➊ Coloco las tapitas en los animales del mismo tipo para contarlos.\n\n➋ Coloreo los círculos para representar las cantidades.\n\ndíez Conozco los números uno, dos y tres R: Hay un pájaro.\n\nR: Hay dos ranas.\n\nR: Hay tres mariposas.\n\nDescubro NumerosNumeros",
+      "charCount": 292
+    },
+    {
+      "pageNumber": 12,
+      "text": "11 Resuelvo Practico en casa Busco objetos y:\n\nLa cantidad la podemos representar con marcas y símbolos.\n\nonce uno 1 uno 2dos 3tres uno dos dos tres tres Cuento Dibujo y cuento Coloreo Coloreo Escribo y leo Escribo y leo Hago lo que se me indica:",
+      "charCount": 246
+    },
+    {
+      "pageNumber": 13,
+      "text": "12 ¿Cuántos animales hay de cada tipo?\n\n➊ Coloco las tapitas en los animales del mismo tipo para contarlos.\n\nConozco los números cuatro y cinco ➋ Coloreo los círculos para representar las cantidades.\n\nR: Hay cuatro monos.\n\nR: Hay cinco tortugas.\n\nObservo NumerosNumeros doce",
+      "charCount": 274
+    },
+    {
+      "pageNumber": 14,
+      "text": "13 Resuelvo Practico en casa Busco objetos y:\n\nLa cantidad la podemos representar con marcas y símbolos.\n\ncuatro cuatro cinco cinco Cuento Dibujo y cuento Escribo y leo Escribo y leo 4cuatro 5 cinco trece Hago lo que se me indica:\n\nColoreo Coloreo",
+      "charCount": 247
+    },
+    {
+      "pageNumber": 15,
+      "text": "14 ¿Cuántos patos y mangos hay?\n\n➊ Coloco las tapitas en los elementos del mismo tipo para contarlos.\n\nConozco los números seis y siete ➋ Coloreo los círculos para representar las cantidades.\n\nR: Hay seis patos.\n\nR: Hay siete mangos.\n\nObservo NumerosNumeros catorce",
+      "charCount": 265
+    },
+    {
+      "pageNumber": 16,
+      "text": "15 Resuelvo Practico en casa Busco objetos y:\n\nLa cantidad la podemos representar con marcas y símbolos.\n\nseis siete Cuento Dibujo y cuento Coloreo Coloreo Escribo y leo Escribo y leo 6seis 7 siete seis siete quince Hago lo que se me indica:",
+      "charCount": 241
+    },
+    {
+      "pageNumber": 17,
+      "text": "16 ¿Cuántas mariposas y flores hay?\n\n➊ Coloco las tapitas en los elementos del mismo tipo para contarlos.\n\nConozco los números ocho y nueve ➋ Coloreo los círculos para representar las cantidades.\n\nR: Hay ocho mariposas.\n\nR: Hay nueve flores.\n\nObservo NumerosNumeroS dieciséis",
+      "charCount": 275
+    },
+    {
+      "pageNumber": 18,
+      "text": "17 Practico en casa Busco objetos y:\n\nLa cantidad la podemos representar con marcas y símbolos.\n\nocho nueve Dibujo y cuento Coloreo Escribo y leo 8 ocho 9 nueve ocho nueve diecisiete Resuelvo Cuento Coloreo Escribo y leo Hago lo que se me indica:",
+      "charCount": 246
+    },
+    {
+      "pageNumber": 19,
+      "text": "18 ¿Cuántos pollos hay?\n\n➊ Coloco las tapitas en los pollos para contarlos.\n\nConozco el número diez ➋ Coloreo los círculos para representar las cantidades.\n\nR: Hay diez pollos.\n\nObservo La cantidad la podemos representar con marcas y símbolos. Para representar el número diez utilizamos todas las marcas.\n\n10 diez NumerosNumeros dieciocho",
+      "charCount": 338
+    },
+    {
+      "pageNumber": 20,
+      "text": "19 Resuelvo Practico en casa Busco objetos y:\n\ndiez diez Cuento Dibujo y cuento Coloreo Coloreo Escribo y leo Escribo y leo diecinueve Hago lo que se me indica:",
+      "charCount": 160
+    },
+    {
+      "pageNumber": 21,
+      "text": "20 Conozco el número cero Escucho el siguiente relato:\n\nEn la granja del tío Juan y la tía María hay tres pollos. Todas las noches los pollos comen maicillo y después se van a dormir al corral. Una noche los pollos estaban comiendo cuando se escuchó un fuerte ruido.\n\n— ¿Qué fue eso? — dijo uno de los pollos.\n\n— No lo sé — dijeron los otros dos pollos.\n\n— ¡Iré a investigar! — dijo el primer pollo y muy valiente se fue a investigar. Luego de un rato, el segundo pollo salió detrás del primero y minutos después corrió el tercer pollo gritando:\n\n— ¡No me dejen, no me dejen, yo también\n\nquiero investigar! —.\n\nA las ocho de la noche, la tía María fue al corral a darle las buenas noches a los pollos, ¡pero vaya sorpresa la que se llevó al abrir la puerta del corral!\n\n¿Cuál fue la sorpresa que encontró la tía María al abrir la puerta?\n\n¿Cuántos pollos encontró la tía María al llegar al corral?\n\nEscucho atentamente Si no hay ningún pollo, decimos que hay cero pollos.\n\nPara representar el número cero la ficha con marcas la dejamos vacía.0 cero\n\n1. Escribo cuántas flores hay\n\nen cada florero.\n\n2. Escribo cuántos hongos hay\n\nen cada cesta.\n\nResuelvo NumerosNumeros veinte",
+      "charCount": 1176
+    },
+    {
+      "pageNumber": 22,
+      "text": "21 Preparo los siguientes materiales:\n\nEscucho y sigo las indicaciones de mi docente:\n\n¿Obtuviste el mismo resultado que tus compañeros?\n\n➊ Utilizamos las cajas para construir puestos de venta.\n\n➋ Colocamos, en cada puesto, un tipo de alimento para vender.\n\n➌ Tomamos turnos para comprar y vender alimentos.\n\nAlimentos diversos Lápiz Cajas Me divierto Los números que se utilizan para contar se llaman cardinales.\n\n¡A comprar!\n\nTiendita ➍ Dibujo en los siguientes espacios los productos que encontré en los puestos de venta. Luego, escribo la cantidad que había de cada uno.\n\nProducto Producto¿Cuántos habían? ¿Cuántos habían?\n\n5 NumerosNumeros veintiuno",
+      "charCount": 654
+    },
+    {
+      "pageNumber": 23,
+      "text": "22 Cuento, coloreo y escribo el número de elementos de cada tipo.\n\nBusco objetos y los cuento.\n\nResuelvo Practico en casa veintidós",
+      "charCount": 131
+    },
+    {
+      "pageNumber": 24,
+      "text": "23 Busco objetos, los ordeno en una fila y digo su posición.\n\nPractico en casa Conozco los números ordinales Recorto las tarjetas 1.° 2.° 3.° con números de la página 181.\n\nEscucho y sigo las indicaciones de mi docente:\n\n¿Qué diferencia ves entre estos números y los números cardinales?\n\nDescubro\n\n1.° 5.°3.° 7.° 9.°2.° 6.°4.° 8.° 10.°\n\n➊ Formamos equipos de hasta 10 integrantes.\n\n➋ Repartimos las tarjetas que recortamos.\n\n➌ Formamos una fila según nuestra tarjeta, así:\n\nLos números que se utilizan para indicar orden se llaman ordinales. Al igual que los números cardinales, los representamos con símbolos:\n\nEscribo la posición de cada flor, de izquierda a derecha, y leo los números ordinales.\n\nResuelvo Primero Sexto Segundo Séptimo Tercero Octavo Cuarto Noveno Quinto Décimo\n\n1.°\n\n6.°\n\n2.°\n\n7.°\n\n3.°\n\n8.°\n\n4.°\n\n9.°\n\n5.°\n\n10.°\n\n1.°\n\nNumerosNumeros veintitrés",
+      "charCount": 864
+    },
+    {
+      "pageNumber": 25,
+      "text": "24 Ordeno los números del cero al diez Recorto las tarjetas con números de las páginas 165 y 167.\n\nEscucho y sigo las indicaciones de mi docente.\n\nExperimento ➊ Formamos equipos de 3 o 4 integrantes.\n\n➋ Tomamos las tarjetas con los osos de peluche y las ordenamos , iniciando con la tarjeta con menos osos y finalizando con la que tiene más osos.\n\n➍ Hacemos lo mismo con las tarjetas con números, iniciando con el número menor y terminando con el número mayor.\n\n➌ Tomamos las tarjetas con las fichas de marcas y las ordenamos, iniciando con la tarjeta con menos marcas y finalizando con la que tiene más marcas.\n\n➎ Compartimos nuestros resultados con nuestros compañeros.\n\n1 = 2 = R: 1 es menor que 2.\n\nPara comparar dos números, podemos comparar la cantidad que representa cada uno. Un número es mayor que otro si representa una cantidad más grande. Un número es menor que otro si representa una cantidad más pequeña.\n\nPor ejemplo: ¿1 es mayor o menor que 2?\n\nORDENOrden veinticuatro 0 1 95",
+      "charCount": 991
+    },
+    {
+      "pageNumber": 26,
+      "text": "25 ¿Cómo ordenarías los tres tipos de tarjetas, comenzando con el número o cantidad mayor y terminando con el número o cantidad menor?\n\n0, , , 3, 4, 5, , 7, , 9, .\n\n, 9, , 7, 6, 5, , 3, , 1, .\n\n10 9 Ayudo al búho a completar los números del 0 al 10 de menor a mayor y de mayor a menor.\n\nLos números del 0 al 10, de menor a mayor, son:\n\nLos números del 0 al 10, de mayor a menor, son:\n\n1. Represento los números del 0 al 10, de menor a mayor.\n\n2. Completo los números del 0 al 10, ordenados de mayor a menor.\n\n2. Completo los números del 0 al 10, ordenados de menor a mayor.\n\nResuelvo Practico en casa\n\n1. Represento los números del 0 al 10, de mayor a menor.\n\n10 0 veinticinco 0 10 10",
+      "charCount": 684
+    },
+    {
+      "pageNumber": 27,
+      "text": "26 Formo el número 44 ➊ Leo y comprendo. Hay 4 dulces en cada depósito. Los verdes son de pera y los celestes de menta.\n\n➋ Completo contando la cantidad de dulces de cada sabor.\n\na.\n\ny y y\n\na. b. c.\n\nb. c.\n\nDescubro COMPOSICIONComposicion 1 3 El número 4 lo obtenemos con:\n\nEl número 2 se obtiene con: El número 3 se obtiene con:\n\n1 y 3 2 y 2 3 y 1 1 y 1 1 y 2 2 y 1 Adivina el número En pares, tomamos 4 chibolas cada uno y hacemos lo siguiente:\n\n➊ Escondo en una de mis manos algunas chibolas.\n\n➋ Muestro a mi compañero las que me quedaron en la otra mano.\n\n➌ Mi compañero debe adivinar cuántas chibolas están escondidas, si acierta obtiene 1 punto.\n\n➍ Cambio de turno. Mi compañero esconderá las chibolas y yo adivinaré.\n\n¡Gana quien tenga más puntos!\n\nMe divierto Juego con mis familiares “Adivina el número”.\n\nPractico en casa veintiséis",
+      "charCount": 842
+    },
+    {
+      "pageNumber": 28,
+      "text": "27 Formo el número 55 Recorto las tarjetas de la página 169 que indique mi docente.\n\nEn pares nos divertimos formando el número 5.\n\n➊ Leo y comprendo. Hay 5 dulces en cada depósito.\n\n➋ Completo contando la cantidad de dulces de cada color.\n\ny y y y\n\na.\n\nc.\n\nb.\n\nd.\n\nDescubro 1 4 El número 5 lo obtenemos con:\n\n2 y 3 3 y 2 4 y 11 y 4 ¡Gana quien tenga más puntos!\n\nMe divierto Me divierto con mis familiares formando el número 5 utilizando las tarjetas.\n\nPractico en casa ➊ Tomo una tarjeta y se la muestro a mi compañero.\n\n➋ Mi compañero elige una tarjeta para formar el número 5 con mi tarjeta. Si acierta ganará un punto.\n\n➍ Repetimos los pasos hasta que ya no queden tarjetas.\n\n➌ Ahora mi compañero muestra una tarjeta y yo debo formar el 5 con una de mis tarjetas.\n\nveintisiete COMPOSICIONComposicion 22 22",
+      "charCount": 810
+    },
+    {
+      "pageNumber": 29,
+      "text": "28 Formo el número 66 ➊ Leo y comprendo. Cada niña y niño tiene 6 globos.\n\n➋ Completo los espacios contando cuántos globos tiene de cada color.\n\nDescubro COMPOSICIONComposicion y y y 1 5 y y\n\na. b. c.\n\nd. e.\n\nEl número 6 lo obtenemos con:\n\n1 y 5 2 y 4 4 y 2 5 y 1 3 y 3 ➊ Tomo una tarjeta y se la muestro a mi compañero.\n\n➋ Mi compañero elige una tarjeta para formar el número 6 con mi tarjeta. Si acierta ganará un punto.\n\n➌ Ahora mi compañero muestra una tarjeta y yo debo formar el número 6 con una de mis tarjetas.\n\n➍ Repetimos los pasos hasta que ya no queden tarjetas.\n\n¡Gana quien tenga más puntos!\n\nMe divierto Me divierto con mis familiares formando el número 6 utilizando las tarjetas.\n\nPractico en casa Recorto las tarjetas de la página 169 y junto con las que ya había recortado, me divierto formando el número 6 con un compañero.\n\nveintiocho 55",
+      "charCount": 857
+    },
+    {
+      "pageNumber": 30,
+      "text": "29 Formo el número 77 ➊ Leo y comprendo. Cada niña y niño tiene 7 globos.\n\n➋ Completo los espacios contando cuántos globos tiene de cada color.\n\nDescubro y yy y 1 6 y y\n\na. b. c.\n\nd. e f.\n\nEl número 7 lo obtenemos con:\n\n1 y 6 4 y 3 2 y 5 5 y 2 3 y 4 6 y 1 ➊ Preparo un dado.\n\n➋ Tiro el dado y observo que la cara que queda arriba junto con la que queda abajo forman el número 7.\n\n➌ De forma individual o en pares, tiramos el dado varias veces y adivinamos la cantidad de puntos que queda abajo al lanzarlo.\n\nMe divierto Me divierto con mis familiares formando el número 7 utilizando un dado.\n\nPractico en casa Hago lo siguiente:\n\nveintinueve Si no tienes un dado, recorta la figura de la página 171 y con ayuda de tu docente arma un dado.\n\nCOMPOSICIONComposicion",
+      "charCount": 762
+    },
+    {
+      "pageNumber": 31,
+      "text": "30 y Formo el número 88 ➊ Leo y comprendo. María tiene 8 botones en total. Esconde algunos bajo un recipiente.\n\n➋ Completo contando los que quedan fuera y los que están escondidos.\n\nDescubro COMPOSICIONComposicion y yforman forman y y y y y 2 4\n\na.\n\nf.\n\n1. 1.\n\n4 52. 2.\n\nc.\n\nb.\n\ng.\n\nd. e.\n\nEl número 8 lo obtenemos con:\n\n1 y 7 6 y 2 3 y 5 4 y 4 5 y 3 2 y 6 7 y 1 Practico en casa. Completo:Resuelvo. Completo:\n\ny yforman 8 forman 8 treinta y1 7",
+      "charCount": 444
+    },
+    {
+      "pageNumber": 32,
+      "text": "31 Formo el número 99 ➊ Leo y comprendo. María tiene 9 botones en total. Esconde algunos bajo un recipiente.\n\n➋ Completo contando los que quedan fuera y los que están escondidos.\n\nDescubro\n\na.\n\ne.\n\nb.\n\nf.\n\nc. d.\n\ng. h.\n\nEl número 9 lo obtenemos con:\n\n1 y 8 4 y 5 2 y 7 5 y 4 7 y 2 3 y 6 6 y 3 8 y 1 Practico en casa. Completo:\n\n➊ Uno de los dos muestra una tarjeta.\n\n➋ El otro muestra una tarjeta de tal manera que las figuras o números formen el número 9. Si acierta, gana un punto.\n\n➌ Tomamos turnos hasta que no queden tarjetas y gana quien tenga más puntos.\n\nMe divierto Me divierto formando el número 9 con mi familia.\n\nPractico en casa Recorto las tarjetas de las páginas 173 y 175, y con un compañero hacemos lo siguiente:\n\ntreinta y uno 88 COMPOSICIONComposicion y y y y y y y y 1 8",
+      "charCount": 790
+    },
+    {
+      "pageNumber": 33,
+      "text": "32 Formo el número 1010 ➊ Leo y comprendo. Antonio lanza 10 tapitas a una caja. Algunas caen adentro y otras afuera.\n\n➋ Completo contando las tapitas que quedan fuera y las que están adentro.\n\nDescubro COMPOSICIONComposicion 1 y 9 3 y 7 5 y 5 7 y 3 2 y 8 4 y 6 6 y 4 8 y 2 9 y 1 y y y y y y y y y 1\n\na.\n\nd.\n\ng.\n\nb.\n\ne.\n\nh.\n\nc.\n\nf.\n\ni.\n\nEl número 10 lo obtenemos con:\n\ntreinta y dos",
+      "charCount": 381
+    },
+    {
+      "pageNumber": 34,
+      "text": "33treinta y tres\n\n1. Uno con una línea las tarjetas que forman el número 10.\n\n2. Recorto las tarjetas de la página 177 y con un compañero\n\nhacemos lo siguiente:\n\na. Uno de los dos muestra una tarjeta.\n\nb. El otro muestra una tarjeta de tal manera que los números formen\n\nel número 10. Si acierta, gana un punto.\n\nc. Tomamos turnos hasta que no queden tarjetas y gana quien tenga\n\nmás puntos.\n\nResuelvo 1 9 Practico en casa Tomo 10 objetos, semillas o tapitas y los separo en 2 grupos, luego cuento la cantidad que hay en uno de los grupos e intento adivinar la cantidad que hay en el otro.\n\n¡Repite esta actividad las veces que desees!\n\n44 55",
+      "charCount": 642
+    },
+    {
+      "pageNumber": 35,
+      "text": "34 treinta y cuatro Sumo agrupandosumaSuma Leo y comprendo.\n\nDescubro Ana tiene 3 manzanas.\n\nmanzanas.\n\n¿Cuántas manzanas tienen entre los dos?\n\nCarlos tiene 2 manzanas.\n\n➊ Represento las 3 manzanas de Ana y las 2 manzanas de Carlos con tapitas.\n\n➋ Uno los dos grupos de tapitas. ¡El resultado es la cantidad de manzanas que tienen entre los dos!\n\nRespuesta (R):\n\nComparo mi respuesta con la de mis compañeros.\n\nRepresento:\n\nLeo: tres más dos es igual a cinco Al reunir las manzanas de Ana y Carlos estamos agrupando.\n\nLa acción de agrupar la podemos representar por medio de una operación llamada suma. La suma la representamos por medio de símbolos.\n\nPor ejemplo:\n\nEl signo + se lee “más” y el signo = se lee “es igual a”.\n\nAl resultado de una suma se le llama “total”.\n\n3 2 5+ =",
+      "charCount": 781
+    },
+    {
+      "pageNumber": 36,
+      "text": "35treinta y cinco ➊ Dibujo dos grupos de objetos.\n\n➋ Dibujo el resultado después de reunir los dos grupos de objetos.\n\n➌ Escribo una operación que represente la acción que acabo de hacer.\n\nRecuerda que reunir o agrupar es sumar.\n\n2 1 3\n\n1. Encuentro el número total\n\nde flores.\n\n2. Encuentro el número total de\n\ngalletas.\n\n2. Encuentro el total de cada suma.\n\n1 + 4 =\n\nc. 2 + 3 = d. 4 + 2 = e. 6 + 3 =\n\n5 + 3 = Resuelvo R: Hay flores. R: Hay galletas.\n\na. b.\n\nPractico en casa Busco diferentes objetos y hago lo siguiente.\n\nGrupo 11 Grupo 22 + = Operación:",
+      "charCount": 556
+    },
+    {
+      "pageNumber": 37,
+      "text": "36 treinta y seis Sumo agregandosumaSuma Leo y comprendo.\n\nDescubro Julia tiene 4 crayones. José le regaló 1 crayón.\n\n¿Cuántos crayones tiene ahora Julia?\n\nOperación a realizar:\n\nR: Tiene crayones.\n\n➊ Represento los 4 crayones de Julia y el crayón de José con tapitas.\n\n➋ Coloco la tapita, representando el crayón de José, con las otras 4 tapitas. ¡El resultado es la cantidad de crayones que tiene Julia!\n\nComparo mi respuesta con la de mis compañeros.\n\nEscribo el PO:\n\nLeo: cuatro más uno es igual a cinco Cuando José regaló un crayón a Julia, José está agregando crayones.\n\nLa acción de agregar también la podemos representar por medio de la suma. Para representar la operación que vamos a realizar escribiremos PO antes de ella. PO significa: Planteamiento de la Operación.\n\nPor ejemplo:\n\nA las cantidades que sumamos les llamamos sumandos.\n\n4 1 5 + =",
+      "charCount": 855
+    },
+    {
+      "pageNumber": 38,
+      "text": "37treinta y siete\n\n1. Encuentro el número total\n\nde tazas.\n\n2. Encuentro el número total de\n\npiñas.\n\n2. Encuentro el total de cada suma.\n\n1 + 2 =\n\nc. 2 + 2 = d. 1 + 8 = e. 1 + 1 =\n\n5 + 2 = Resuelvo R: Hay tazas. R: Hay piñas.\n\na. b.\n\n➊ Dibujo dos grupos de objetos.\n\n➋ Dibujo el resultado después de agregar el Grupo 2 al Grupo 1.\n\n➌ Escribo una operación que represente la acción que acabo de hacer.\n\nRecuerda que agregares sumar.\n\nPractico en casa Busco diferentes objetos y hago lo siguiente.\n\nGrupo 11 Grupo 22 + = Operación:",
+      "charCount": 529
+    },
+    {
+      "pageNumber": 39,
+      "text": "38 sumaSuma Escucho y sigo las indicaciones de mi docente:\n\n➊ Formamos equipos de 4 o 5 integrantes.\n\n➋ Utilizando las tarjetas y buscamos parejas de números que al sumarlos el total sea 10.\n\n➌ Listamos en el pliego de papel las operaciones cuyo total fue 10.\n\n➎ Utilizando todos los aportes, escribimos en la pizarra todas las sumas cuyo total es el número 10.\n\n➍ Compartimos con nuestros compañeros nuestro resultado.\n\n1. 5 + 5 = 10\n\n2.\n\n¿10?+ = Sumo el número 1010 Preparo los siguientes materiales:\n\nTarjetas de la página 185 Plumones Pliego de papel Experimento Números que suman 1010\n\n1. 5 + 5 5 + 5\n\n2.\n\nPueden utilizar como apoyo las tapitas para representar las sumas.\n\ntreinta y ocho 2 2 5 1 3",
+      "charCount": 703
+    },
+    {
+      "pageNumber": 40,
+      "text": "39 Encierro de un mismo color los números que suman 10.\n\nPractico en casa\n\n1. 2 + = 10 2. 6 + = 10\n\n3. 9 + = 10 4. 3 + = 10\n\n5. 8 + = 10 6. 5 + = 10\n\nUno con una línea las tarjetas que suman 10.\n\nDescubro el número que falta.\n\nResuelvo Desafío 1 25 4 5 3 6 8 7 9 1 2 3 4 5 6 7 8 9 treinta y nueve",
+      "charCount": 296
+    },
+    {
+      "pageNumber": 41,
+      "text": "40 sumaSuma Sumo cero a un número Preparo los siguientes materiales:\n\nEscucho y sigo las indicaciones de mi docente.\n\nCesta 3 pelotas Me divierto ➊ Formamos equipos de 4 integrantes.\n\n➋ Elegimos en qué orden tiraremos las pelotas y anotamos los nombres en la tabla de abajo.\n\n➌ Ronda 1: Por turnos, tiramos las pelotas de una en una a la cesta y en la tabla de abajo anotamos cuántas encestamos.\n\n➍ Ronda 2: Por turnos lanzamos de nuevo y anotamos cuántas pelotas encestamos.\n\nNombre Ronda 11 + = Ronda 22 Total cuarenta",
+      "charCount": 520
+    },
+    {
+      "pageNumber": 42,
+      "text": "41 ➎ En la tabla, escribimos el total de pelotas que logramos encestar. Recuerden que reunir, agrupar y agregar es sumar.\n\nPuedes utilizar tus tapitas para representar las cantidades.\n\n¡Gana quien logre encestar más pelotas!\n\n¡Gana quien logre encestar más pelotas!\n\nAl sumar, si uno de los dos sumandos es cero (0), el total es igual al otro sumando.\n\n3 0 3 Encuentro el total de cada suma.\n\nResuelvo\n\n1. 0 + 2 = 2. 1 + 0 = 3. 0 + 5 =\n\n4. 6 + 0 = 5. 0 + 3 = 6. 0 + 0 =\n\nRepito la actividad inicial con un familiar o amigo. Tengo en cuenta que:\n\n• Puedo utilizar un número distinto de pelotas.\n\n• Recuerdo anotar el número de pelotas que encestamos en cada\n\nronda.\n\nPractico en casa cuarenta y uno + =",
+      "charCount": 701
+    },
+    {
+      "pageNumber": 43,
+      "text": "42 Resto quitando o eliminando Leo y comprendo. José tenía 5 manzanas y le regaló 2 manzanas a su amigo.\n\nDescubro restaResta cuarenta y dos ¿Cuántas manzanas le quedaron a José?\n\n➊ Represento las 5 manzanas iniciales con tapitas.\n\n➋ Aparto 2 tapitas. ¡El resultado es la cantidad de manzanas que le quedaron a José!\n\nR: Quedaron manzanas.\n\nComparo mi respuesta con la de mis compañeros.\n\nPO:\n\nLeo: cinco menos dos es igual a tres Al apartar las manzanas que regaló José estamos quitando.\n\nLa acción de quitar o eliminar la podemos representar por medio de una operación llamada resta. Al igual que la suma, la resta la representamos por medio de símbolos.\n\nPor ejemplo:\n\nEl signo ― se lee “menos” y al resultado de una resta se le llama “diferencia”.\n\n5 2 3 − =",
+      "charCount": 762
+    },
+    {
+      "pageNumber": 44,
+      "text": "43cuarenta y tres 3 1\n\n1. Leo y respondo . ¿Cuántas\n\nranas quedaron en la arena?\n\n2. Leo y respondo. ¿Cuántas\n\nflores quedaron sin marchitar?\n\n3. Encuentro la diferencia de cada resta.\n\nResuelvo R: Quedaron ranas. R: Quedaron flores.\n\na. 4 − 2 = b. 2 − 1 = c. 6 − 3 =\n\nd. 9 − 5 = e. 8 − 7 = f. 5 − 1 =\n\n➊ Dibujo un grupo de hasta 9 objetos.\n\n➋ Dibujo el resultado después de quitar algunos objetos.\n\n➌ Escribo una operación que represente la acción que acabo de hacer.\n\nOperación: Recuerda que quitar o eliminar es restar.\n\nPractico en casa Busco diferentes objetos y hago lo siguiente:\n\n− =",
+      "charCount": 591
+    },
+    {
+      "pageNumber": 45,
+      "text": "44 Resto separando Leo y comprendo. Hay 6 vasos: 4 vasos tienen jugo de naranja y los demás fresco de coco.\n\nDescubro restaResta ¿Cuántos vasos tienen fresco de coco?\n\nPO:\n\nR: Tienen vasos.\n\n➊ Represento los 6 vasos iniciales con tapitas.\n\n➋ Separo las 4 tapitas que representan los vasos con jugo de naranja.\n\n¡Las tapitas que quedan es la cantidad de vasos con fresco de coco!\n\nComparo mi respuesta con la de mis compañeros.\n\nPO:\n\nLeo: seis menos cuatro es igual a dos Al formar dos grupos de vasos (los que tienen jugo de naranja y los que tienen fresco de coco) estamos separando.\n\nLa acción de separar también la podemos representar por medio de la resta.\n\nRecordemos que representamos la operación que haremos, escribiendo PO antes de ella.\n\nPor ejemplo:\n\nLa cantidad a la que le quitamos se llama minuendo, mientras que la cantidad que quitamos se llama sustraendo.\n\n6 4 2 coco naranja cuarenta y cuatro − =",
+      "charCount": 914
+    },
+    {
+      "pageNumber": 46,
+      "text": "45\n\n2. Encuentro la diferencia de cada resta.\n\nResuelvo R: Hay mariposas. R: Hay paletas.\n\na. 3 − 2 = b. 6 − 5 = c. 4 − 1 =\n\nd. 8 − 5 = e. 9 − 7 = f. 2 − 1 =\n\n➊ Dibujo un grupo de hasta 9 objetos.\n\n➋ Dibujo el resultado después de separar los objetos en dos grupos.\n\n➌ Escribo una operación que represente la acción de encontrar el número de objetos que tiene el Grupo 2.\n\nOperación: Recuerda que separar es restar.\n\nPractico en casa Busco diferentes objetos y hago lo siguiente:\n\nGrupo 11 Grupo 22\n\n1. Leo y respondo. Hay 3 mariposas:\n\n1 morada y las demás amarillas.\n\n¿Cuántas mariposas amarillas hay?\n\n2. Leo y respondo. Hay 9 paletas:\n\n2 son de limón y las demás de fresa. ¿Cuántas paletas de fresa hay?\n\ncuarenta y cinco − =",
+      "charCount": 729
+    },
+    {
+      "pageNumber": 47,
+      "text": "46 Resto comparando Leo y comprendo. Hay 5 manzanas y 3 bananos.\n\nDescubro restaResta ¿Cuántas manzanas hay más que bananos?\n\nPO:\n\nR: Hay manzanas más.\n\n➊ Represento las 5 manzanas y los 3 bananos con tapitas.\n\n➋ Formo parejas juntando una tapita de manzana con una tapita de banano. Formé parejas. ¡Las tapitas que sobran es la cantidad de manzanas más que hay!\n\nComparo mi respuesta con la de mis compañeros.\n\nPO:\n\nLeo: cinco menos tres es igual a dos Tienen pareja Sobran Al comparar dos cantidades, podemos identificar la diferencia entre ellas.\n\nLa acción de encontrar la diferencia entre dos cantidades también la podemos representar por medio de la resta.\n\nPor ejemplo:\n\n5 3 2 cuarenta y seis − =",
+      "charCount": 703
+    },
+    {
+      "pageNumber": 48,
+      "text": "47 Corto las naranjas y manzanas de la página 181 y contesto la siguiente pregunta: ¿Cuántas naranjas hay más que manzanas?\n\nPega las figuras aquí.\n\nLeo y respondo.\n\nR: Hay naranjas más.PO:\n\n5 4\n\n1. ¿Cuántos osos hay más\n\nque conejos?\n\n3. ¿Cuánto barcos hay más\n\nque aviones?\n\n2. ¿Cuántos dulces hay más que\n\npaletas?\n\n4. ¿Cuántas abejas hay más que\n\nflores?\n\nResuelvo R: Hay oso más.\n\nR: Hay barcos más.\n\nR: Hay dulces más.\n\nR: Hay abejas más.\n\ncuarenta y siete Practico en casa − =",
+      "charCount": 483
+    },
+    {
+      "pageNumber": 49,
+      "text": "48 restaResta Restas con cero Preparo los siguientes materiales:\n\nEscucho y sigo las indicaciones de mi docente.\n\nSi cae afuera de los círculos pierde 33 puntos Hojas de papel de colores\n\nPelotas de papel Tijera Me divierto ➊ Formamos equipos de 4 integrantes.\n\n➋ Cortamos tres círculos de papel de distinto tamaño y color, y los pegamos en el suelo uno sobre otro.\n\n➌ Elegimos en qué orden vamos a tirar las bolas de papel.\n\n➎ Al inicio tendremos 3 puntos cada uno. Perderemos puntos dependiendo de dónde caiga la bola de papel.\n\n➍ Por turnos, tiramos las bolas de papel a los círculos.\n\nPierde 22 puntos Pierde 11 punto Pierde 00 puntos cuarenta y ocho",
+      "charCount": 654
+    },
+    {
+      "pageNumber": 50,
+      "text": "49 uno ➏ A continuación, anotamos nuestro nombre, cuántos puntos perdimos y cuántos puntos nos quedaron.\n\nNombre Inicio Perdidos Quedaron 3 Recuerden que quitar o eliminar es restar.¡Gana a quien le quedaron más puntos!\n\nCuando restamos cero (0) a un número, la diferencia es igual al minuendo.\n\nCuando el minuendo y el sustraendo son iguales, la diferencia es cero (0).\n\n3 3 0 3 3 0 Encuentro la diferencia de cada resta.\n\nResuelvo\n\n1. 4 - 2 = 2. 4 - 4 = 3. 4 - 0 =\n\n1. 8 - 0 = 2. 8 - 5 = 3. 8 - 8 =\n\nPractico en casa Encuentro la diferencia de cada resta.\n\ncuarenta y nueve − = − − = =",
+      "charCount": 587
+    },
+    {
+      "pageNumber": 51,
+      "text": "50 uno Sumo tres números de una cifrasumaSuma Leo y comprendo.\n\nDescubro Había 3 naranjas en una canasta.\n\nAna agregó 2 naranjas.\n\nAntonio agregó 4 naranjas.\n\n¿Cuántas naranjas hay ahora en la canasta?\n\nPO:\n\nR: Hay naranjas.\n\n➊ Represento las 3 naranjas iniciales con tapitas.\n\n➋ Agrego 2 tapitas, que representan las 2 naranjas que agregó Ana.\n\nTengo tapitas.\n\n➌ Agrego 4 tapitas, que representan las naranjas que agregó Antonio.\n\n¡El resultado es la cantidad de naranjas que hay en la canasta!\n\nComparo mi respuesta con la de mis compañeros.\n\nPO:\n\nLa suma de tres números la operamos en orden, de izquierda a derecha.\n\nCuando sumamos tres cantidades, la operación la escribimos en un solo PO.\n\nPor ejemplo:\n\n3 3 2 4 Había 3 naranjas en una canasta.\n\nAna agregó 2 naranjas.\n\nAntonio agregó 4 naranjas.\n\n3 + 2 = 5 5 + 4 = 9 cincuenta + +",
+      "charCount": 837
+    },
+    {
+      "pageNumber": 52,
+      "text": "51 Antonio agregó 4 naranjas.\n\ncincuenta y uno Había 3 patos en el lago, ¿Cuántos patos hay en total?\n\nllegaron 2 patos; llegó 1 pato más.\n\nR: Hay patos.\n\nResuelvo Practico en casa Busco diferentes objetos y hago lo siguiente.\n\n1. Leo y respondo.\n\n2. Encuentro el total de cada suma.\n\n➊ Dibujo tres grupos de objetos.\n\n➋ Escribo la operación que representa la acción de reunir los tres grupos y el total de objetos que tengo.\n\nGrupo 1 Grupo 2 Grupo 3 PO:\n\nPO: Total:\n\na. 5 + 2 + 3 = b. 2 + 3 + 4 = c. 5 + 1 + 0 =",
+      "charCount": 512
+    },
+    {
+      "pageNumber": 53,
+      "text": "52 cincuenta y dos Resto tres números de una cifra Descubro Leo y comprendo.\n\n¿Cuántos caballos quedan en el establo?\n\n➊ Represento los 7 caballos iniciales con tapitas.\n\n➋ Quito 2 tapitas, que representan los 2 caballos que se fueron primero.\n\nTengo tapitas.\n\n➌ Quito 3 tapitas, que representan los 3 caballos que se fueron después.\n\n¡La cantidad restante es el número de caballos que quedan en el establo!\n\nPO:\n\nRecordemos que la acción de quitar la podemos representar por medio de la resta. Cuando restamos tres cantidades, la operación también la escribimos en un solo PO.\n\nComparo mi respuesta con la de mis compañeros.\n\n7 2 3− − RESTARESTA Había 7 caballos en un establo.\n\nHabía 7 caballos en un establo.\n\nSe fueron 2 caballos.\n\nSe fueron 2 caballos.\n\nSe fueron 3 caballos más.\n\nSe fueron 3 caballos más.\n\nPO:\n\nR: Quedan caballos.\n\n7 5 2 La resta de tres números la operamos en orden, de izquierda a derecha.\n\n7 − 2 = 5 − 3 =",
+      "charCount": 932
+    },
+    {
+      "pageNumber": 54,
+      "text": "53cincuenta y tres Resuelvo Practico en casa Leo y respondo.\n\n1. Leo y respondo.\n\nPO:\n\nPuedes dibujar la situación presentada en el espacio en blanco y utilizar tus tapitas.\n\nPuedes utilizar tus tapitas para representar las ovejas.\n\nHabía 8 ovejas en un corral, Había 8 pelotas en una cesta, se fueron 3 ovejas; se desinfló 1 pelota; se fueron 4 ovejas más.\n\nse desinflaron 4 pelotas más.\n\n¿Cuántas ovejas quedaron en el corral?\n\n¿Cuántas pelotas infladas quedaron en la cesta?\n\nR: Quedó oveja.\n\nR: Quedaron pelotas.\n\n2. Encuentro la diferencia de cada resta.\n\nPO:\n\na. 9 − 1 − 3 = b. 7 − 2 − 2 = c. 6 − 4 − 0 =",
+      "charCount": 610
+    },
+    {
+      "pageNumber": 55,
+      "text": "54 Sumo y resto números de una cifra Leo y comprendo.\n\nSUMA Y RESTASUMA Y RESTA Descubro Había 5 globos. Se inflaron 3 globos más.\n\nSe reventaron 4 globos.\n\n¿Cuántos globos quedan?\n\n➊ Represento los 5 globos iniciales con tapitas.\n\n➋ Agrego 3 tapitas, que representan los 3 globos que se inflaron.\n\nTengo tapitas.\n\n➌ Quito 4 tapitas, que representan los 4 globos que se reventaron. ¡La cantidad restante es el número de globos que quedan!\n\nComparo mi respuesta con la de mis compañeros.\n\nPO:\n\nR: Quedan globos.\n\ncincuenta y cuatro PO:\n\nRecordemos que la acción de agregar la podemos representar por medio de la suma y la acción de quitar por medio de la resta. Cuando sumamos y restamos cantidades, la operación la escribimos en un solo PO.\n\n5 3 4+ − Había 5 globos. Se inflaron 3 globos. Se reventaron 4 globos.\n\n5 8 4 Cuando sumamos y restamos cantidades operamos en orden, de izquierda a derecha.\n\n5 + 3 = 8 − 4 =",
+      "charCount": 916
+    },
+    {
+      "pageNumber": 56,
+      "text": "55 Leo y respondo.\n\nPractico en casa Resuelvo\n\n1. Leo y respondo.\n\nMaría tenía 4 mangos.\n\nCompró 2 mangos más.\n\nLe regaló 3 mangos a Luisa.\n\n¿Cuántos mangos le quedan a María?\n\nR: Le quedan mangos.\n\n2. Encuentro el resultado de cada operación.\n\nPO:\n\na. 8 − 4 + 6 = b. 2 + 6 − 5 = c. 6 − 3 + 2 =\n\ncincuenta y cinco PO:\n\nPuedes dibujar la situación presentada en el espacio en blanco y utilizar tus tapitas.\n\nHabía 1 perro en un parque, llegaron 3 perros; se fueron 2 perros del parque.\n\n¿Cuántos perros quedan en el parque?\n\nR: Quedan perros.",
+      "charCount": 541
+    },
+    {
+      "pageNumber": 57,
+      "text": "56 cincuenta y seis",
+      "charCount": 19
+    },
+    {
+      "pageNumber": 58,
+      "text": "57 Numeros del once al veinte Numeros del once al veinte 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20",
+      "charCount": 107
+    },
+    {
+      "pageNumber": 59,
+      "text": "58 Conozco los números del once al quince Descubro ¿Cuántos animales y frutas hay de cada tipo?\n\n➊ Coloco las tapitas en los animales y frutas del mismo tipo para contarlos.\n\n➋ Recorto las tiras de 10 de la página 179 y las pego con ayuda de mi docente.\n\n➌ Traslado las tapitas que he colocado sobre cada tipo de animales y frutas a mis tiras de 10.\n\nNumerosNumeros cincuenta y ocho",
+      "charCount": 382
+    },
+    {
+      "pageNumber": 60,
+      "text": "59cincuenta y nueve ➍ Coloreo los círculos para representar las cantidades.\n\nCuenta y colorea los círculos como lo hiciste con las tarjetas con marcas.\n\nComparo mi respuesta con la de mis compañeros.",
+      "charCount": 199
+    },
+    {
+      "pageNumber": 61,
+      "text": "60 sesenta La cantidad también la podemos representar con tapitas en tiras de 10 y símbolos.\n\nObservemos que para representar estos números la primera tira de 10 se encuentra completa.\n\n1. 2.\n\nCuento los elementos y escribo el número correspondiente en el recuadro.\n\nResuelvo 11 once 13 trece 15 quince 12 doce 14 catorce Para contar, puedes tachar en tu libro el elemento que ya contaste con tu tira de 10 y tus tapitas.\n\n✗ ✗ ✗ ✗ ✗ ✗",
+      "charCount": 434
+    },
+    {
+      "pageNumber": 62,
+      "text": "61sesenta y uno\n\n3.\n\na.\n\n4.\n\nb.\n\n5.\n\nc.\n\n2. Busco objetos y los cuento, utilizando mis tiras de 10 y mis tapitas.\n\n1. Cuento los objetos y escribo el número correspondiente en el recuadro.\n\nPractico en casa",
+      "charCount": 206
+    },
+    {
+      "pageNumber": 63,
+      "text": "62 sesenta y dos Descubro ¿Cuántos invitados y objetos de cada tipo hay?\n\n➊ Coloco las tapitas en los elementos del mismo tipo para contarlos.\n\n➋ Traslado las tapitas que he colocado sobre cada tipo de elementos a mis tiras de 10.\n\nConozco los números del dieciséis al veinte NumerosNumeros",
+      "charCount": 290
+    },
+    {
+      "pageNumber": 64,
+      "text": "63sesenta y tres ➌ Coloreo los círculos para representar las cantidades.\n\nComparo mi respuesta con la de mis compañeros.",
+      "charCount": 120
+    },
+    {
+      "pageNumber": 65,
+      "text": "64 sesenta y cuatro La cantidad también la podemos representar con tapitas en tiras de 10 y símbolos.\n\nObservemos que para representar estos números, la primera tira de 10 también se encuentra completa.\n\n1. 2.\n\nCuento los objetos y escribo el número correspondiente en el recuadro.\n\nResuelvo 16 dieciséis 18 dieciocho 20 veinte 17 diecisiete 19 diecinueve Recuerda que puedes tachar el objeto que ya contaste.",
+      "charCount": 409
+    },
+    {
+      "pageNumber": 66,
+      "text": "65sesenta y cinco\n\n3.\n\na.\n\n4.\n\nb.\n\n5.\n\nc.\n\n2. Busco objetos y los cuento, utilizando mis tiras de 10 y mis\n\ntapitas.\n\n1. Cuento los objetos y escribo el número correspondiente en el recuadro.\n\nPractico en casa",
+      "charCount": 209
+    },
+    {
+      "pageNumber": 67,
+      "text": "66 sesenta y seis Conozco más números ordinales ➊ Formamos equipos.\n\n➋ Repartimos las tarjetas en blanco.\n\n➌ Marcamos el lugar de inicio de la carrera y la meta, utilizando el tirro.\n\n➍ Hacemos una carrera y anotamos en la tarjeta el lugar en el que llegamos a la meta.\n\nMe divierto Preparo los siguientes materiales:\n\nEscucho y sigo las indicaciones de mi docente:\n\nTarjetas en blanco Plumones Tirro ¿Cómo representarían la posición de quien tuvo el lugar 12 en la carrera?\n\n¿Escribieron las posiciones de la misma forma que otros equipos?\n\nRecorta las tarjetas de las páginas 181 y 183. Juega en pares a decir el nombre del número ordinal o cómo se escribe.\n\n11.°\n\ndécimo primero\n\n12.°\n\ndécimo segundo\n\n13.°\n\ndécimo tercero\n\n14.°\n\ndécimo cuarto\n\n15.°\n\ndécimo quinto\n\n16.°\n\ndécimo sexto\n\n17.°\n\ndécimo séptimo\n\n18.°\n\ndécimo octavo\n\n19.°\n\ndécimo noveno\n\n20.°\n\nvigésimo NumerosNumeros Recuerden que para indicar orden se utilizan los números ordinales.\n\n8.°",
+      "charCount": 955
+    },
+    {
+      "pageNumber": 68,
+      "text": "67sesenta y siete Escucho y sigo las indicaciones de mi docente:\n\n➊ Mantenemos los mismos equipos de la actividad anterior.\n\n➋ Formamos una fila según el orden en que llegamos a la meta.\n\n➌ Manteniendo los lugares, damos media vuelta.\n\n1.° 2.° 3.° 4.° 5.° 6.°\n\nResuelvo Practico en casa La posición que ocupa un objeto o persona en una fila depende de si se ordena de izquierda a derecha o de derecha a izquierda.\n\n1. Encierro en un círculo el 7.° pájaro de derecha a izquierda.\n\nDe izquierda a derecha\n\n2. Encierro en un círculo el 3.° pato de izquierda a derecha.\n\n1. Coloreo de amarillo el 5.° caracol, de derecha a izquierda.\n\n2. Coloreo de azul el 8.° caracol, de izquierda a derecha.\n\n¿Qué pasaría si...?\n\n¿Qué lugar ocupan ahora en la fila?\n\nDe derecha a izquierda",
+      "charCount": 771
+    },
+    {
+      "pageNumber": 69,
+      "text": "68 sesenta y ocho Diferencio un número ordinal de un número cardinal Descubro Observo los osos y respondo las preguntas.\n\n1. De izquierda a derecha, ¿cuántos osos hay hasta el oso azul?\n\na. Coloco tapitas sobre los osos, iniciando por el verde hasta llegar al\n\nazul.\n\nb. Cuento la cantidad de tapitas. ¡Ese es el número de osos que hay\n\nhasta el azul!\n\n2. De izquierda a derecha, ¿en qué posición está el oso azul?\n\n• Escribo la posición que cada oso ocupa en la fila, iniciando por el\n\nverde, hasta llegar al azul.\n\n➊ Los números cardinales representan cantidad.\n\n➋ Los números ordinales representan posición.\n\nComparo mis respuestas con las de mis compañeros.\n\nNumerosNumeros R: Está en lugar.\n\nHay cuatro ( 44) osos hasta el oso azul.\n\n4.°\n\nDe izquierda a derecha, el oso azul es el cuarto (4.°4.°).\n\nRecordemos que los números ordinales siempre llevan el signo (. °) después del número.\n\nR: Hay osos.\n\nDe izquierda a derecha",
+      "charCount": 928
+    },
+    {
+      "pageNumber": 70,
+      "text": "69\n\na. Desde la izquierda, ¿cuántas mariposas hay hasta la azul?\n\na. Encierro de color verde los primeros cinco instrumentos.\n\nb. Marco con una X el 5.° instrumento.\n\nb. De izquierda a derecha, ¿en qué lugar está la mariposa azul?\n\nResuelvo Practico en casa Hago lo que se me pide.\n\n1. Observo las mariposas y respondo las preguntas.\n\nR: Hay mariposas.\n\nR: Está en lugar.\n\n2. De derecha a izquierda:\n\n1. Dibujo objetos en los recuadros grandes.\n\n2. Encierro de color azul el segundo (2.°) objeto de derecha a izquierda.\n\nsesenta y nueve De izquierda a derecha De derecha a izquierda De derecha a izquierda",
+      "charCount": 605
+    },
+    {
+      "pageNumber": 71,
+      "text": "70 Ordeno los números del once al veinteordenorden Formamos dos equipos y cada equipo prepara los siguientes materiales:\n\nMe divierto Escucho y sigo las indicaciones de mi docente:\n\nTarjetas de la página 187 Caja pequeña ➌ Un integrante de cada equipo deberá correr a pegar la tarjeta en la pizarra.\n\nmenor mayor ➋ A ciegas, por turnos, sacamos tarjetas hasta que nos salga la del número 1111.\n\n➍ Sacaremos tarjetas y las pegaremos en la pizarra hasta que queden ordenadas de menor a mayor.\n\n➊ Cada equipo, mete a su caja las tarjetas con números.\n\nsetenta Pueden utilizar la representación con tapitas de los números si necesitan ayuda.\n\n¡Gana el equipo que ordene las tarjetas primero!\n\n¿Qué pasaría si ordenan los números del 11 al 20 de mayor a menor?\n\n¿Cuál es el primero? ¿Y el último?",
+      "charCount": 791
+    },
+    {
+      "pageNumber": 72,
+      "text": "71\n\n1. Escribo los números que faltan, ordenados de mayor a menor.\n\n2. Escribo los números que faltan, ordenados de menor a mayor.\n\nPractico en casa Ayudo al búho a completar los números del 11 al 20 de menor a mayor y de mayor a menor.\n\nLos números del 11 al 20, de menor a mayor, son:\n\n11, , , 14, 15, 16, , 18, , 20.\n\nLos números del 11 al 20, de mayor a menor, son:\n\n, 19, , 17, 16, 15, , 13, , 11.\n\nLos números del 0 al 20, ordenados de menor a mayor, son:\n\n0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.\n\nResuelvo\n\n1. Escribo los números que faltan, ordenados de menor a mayor.\n\n2. Escribo los números del 0 al 20, de mayor a menor.\n\na.\n\na.\n\nb.\n\nb.\n\nsetenta y uno Puedes practicar el orden de los números utilizando tus tarjetas.\n\n12 15 16 11 20 0 4 5",
+      "charCount": 784
+    },
+    {
+      "pageNumber": 73,
+      "text": "72 21 Conozco la recta numérica Completo los números que faltan en la siguiente recta.\n\nCreo Preparo los siguientes materiales:\n\nEscucho y sigo las indicaciones de mi docente.\n\nTarjetas con números del 0 al 20 (páginas 185 y 187) ¿Qué haré?\n\n¿Cómo lo haré?\n\n¿Obtuviste el mismo resultado que tus compañeros?\n\n¿Qué te llama la atención de esta recta con números?\n\nORDENORDEN 0 0 0 0 1 1 1 1 4 19 2 5 136 10 14 16 20 ➊ Ubico la primera casilla vacía en la recta.\n\n➌ ¿Qué número sigue después de este? Utilizo mis tarjetas para encontrarlo.\n\n➎ Repito los pasos anteriores hasta llenar todas las casillas vacías.\n\n➍ Escribo el número en la casilla en blanco.\n\n➋ Ubico el número más cercano a la casilla del paso anterior.\n\nsetenta y dos 2 sigue después de 1.",
+      "charCount": 754
+    },
+    {
+      "pageNumber": 74,
+      "text": "73setenta y tres 6 1 13 3 A la línea recta donde se ubican los números ordenados de menor a mayor le llamamos recta numérica.\n\nCada número se coloca bajo una línea.\n\nObserva que cada cinco números, iniciando en 0, la línea es un poco más larga.\n\n0 1 3 4 7 11 15 192 5 9 13 176 10 14 188 12 16 20 Resuelvo\n\n1. Ubico los números del 0 al 20 en la recta numérica.\n\n2. Completo cada recta numérica, iniciando en el número indicado.\n\na.\n\nc.\n\nb.\n\nd.\n\nRecuerda que en la recta numérica los números se ordenan de menor a mayor.\n\nUtilizo mis tarjetas con números del 0 al 20 para ordenarlos en la recta numérica.\n\nPractico en casa",
+      "charCount": 621
+    },
+    {
+      "pageNumber": 75,
+      "text": "74 Sumo 1010 y otro número Descubro Leo y comprendo. Julia tiene 10 crayones y su hermana tiene 4 crayones.\n\nSUMASUMA Para sumar 10 y otro número utilizamos la composición. Por ejemplo, utilizando la tira de 10 y las tapitas:\n\nCrayones de Julia y forman Crayones de la hermana setenta y cuatro ¿Cuántos crayones tienen entre las dos?\n\n➊ Represento los 10 crayones de Julia y los 4 crayones de la hermana con tapitas en la tira de 10.\n\n➋ Compongo 10 y 4, con lo que obtengo el número . ¡Ese es el número de crayones que tienen entre las dos!\n\nComparo mi respuesta con la de mis compañeros.\n\nPO:\n\nR: Tienen crayones.\n\n10 10 4 4 14 14 + =",
+      "charCount": 635
+    },
+    {
+      "pageNumber": 76,
+      "text": "75setenta y cinco Practico en casa Resuelvo\n\n1. Encuentro el número total\n\nde carros.\n\n1. Encuentro el número total\n\nde pasteles.\n\n2. Encuentro el número total\n\nde tomates.\n\n2. Encuentro el número total\n\nde estrellas.\n\nR: Hay carros.\n\nR: Hay pasteles.\n\nR: Tienen bananos.\n\nR: Hay tomates.\n\nR: Hay estrellas.\n\n3. Leo y respondo. Mario tiene 10 bananos y Karla tiene 8 bananos.\n\n¿Cuántos bananos tienen en total?\n\n3. Encuentro el total de cada suma.\n\nPO:\n\nPO:\n\nPO:\n\nPO:\n\nPO:\n\na. 10 + 7 = b. 1 + 10 = c. 10 + 9 =",
+      "charCount": 509
+    },
+    {
+      "pageNumber": 77,
+      "text": "76 setenta y seis Descubro Leo y comprendo. José tiene 12 pollitos de lana y su hermana le regala 3 más.\n\n¿Cuántos pollitos de lana tiene en total José? PO:\n\n➊ Represento los 12 pollitos de José con tapitas en las tiras de 10.\n\n➊ Descomponemos el número de dos cifras en 10 y otro número.\n\n➋ Sumamos los números distintos de 10.\n\n➌ Sumamos el resultado con 10.\n\n➋ Descompongo el 12 como 10 y .\n\n➌ Agrego las 3 tapitas al número distinto de 10.\n\n➍ Uno las tapitas que tengo con las otras 10. ¡Ese es el número de pollitos de lana que tiene José!\n\nSumo un número de dos cifras y otro de una cifra sumasuma R: Tiene pollitos de lana. Comparo mi respuesta con la de mis compañeros.\n\nPara sumar un número de dos cifras y otro de una cifra, seguimos estos pasos:\n\n2 + 3 = 10 + 5 = 10 102 5 15",
+      "charCount": 786
+    },
+    {
+      "pageNumber": 78,
+      "text": "77setenta y siete ➊ Descomponemos el 13 en 3 y 10.\n\n➋ Sumamos el 6 con el 3.\n\n➌ Sumamos el resultado con 10.\n\n1. Encuentro el número total de abejas.\n\n2. Encuentro el total de cada suma.\n\n1. 11 + 7 = 2. 3 + 13 =\n\nEncuentro el total de cada suma.\n\nPractico en casa ¿Cómo operamos la suma 6 + 13?\n\n¿Qué pasaría si...?\n\n6 + 3 = 9 + 10 =3 910 10 19 Resuelvo R: Hay abejas.PO:\n\na. 14 + 3 = b. 5 + 12 =",
+      "charCount": 396
+    },
+    {
+      "pageNumber": 79,
+      "text": "78 setenta y ocho Descubro Leo y comprendo. Kevin tiene 9 paquetes de galletas de chocolate y 3 de vainilla.\n\n¿Cuántos paquetes de galletas tiene kevin en total?\n\n➊ Represento los 9 paquetes de galletas de chocolate y los 3 paquetes de galletas de vainilla con tapitas en las tiras de 10.\n\n➋ Descompongo el 3 como 1 y .\n\n➌ Agrego 1 tapita a 9 para completar la tira de 10.\n\n➍ Agrego las tapitas restantes a 10. ¡Ese es el número de paquetes de galletas que tiene Kevin!\n\nSumo nueve y otro númerosumasuma PO:\n\nR: Tiene paquetes. Comparo mi respuesta con la de mis compañeros.\n\nPara sumar un número de una cifra a nueve, seguimos estos pasos:\n\n➊ Descomponemos el número distinto de 9 en 1 y otro número.\n\n➋ Sumamos el 9 con el 1 para formar 10.\n\n➌ Sumamos 10 y el número restante.\n\n10 121 2 23 = 9 + 1 = 10 + 2 =y",
+      "charCount": 811
+    },
+    {
+      "pageNumber": 80,
+      "text": "79\n\n1. Encuentro el total de cada\n\nsuma.\n\n1. Encuentro el número total de\n\ncajas.\n\n2. Leo y respondo. Julia tenía 9\n\nperas y compró 5. ¿Cuántas peras tiene en total?\n\n2. Encuentro el total de la suma.\n\nPractico en casa Resuelvo R: Tiene peras.\n\nSi los dos sumandos son 9, puedes descomponer cualquiera.\n\nPO:\n\n➊ Descomponemos el 4 en 3 y 1.\n\n➋ Sumamos el 1 con el 9 para formar 10.\n\n➌ Sumamos el 3 con el 10.\n\n¿Cómo operamos la suma 4 + 9?\n\n¿Qué pasaría si...?\n\n1 + 9 =4 = 3 + 10 = 3 31 10 13y\n\na. 9 + 6 =\n\nb. 8 + 9 =\n\nR: Hay cajas.\n\nPO:\n\n9 + 9 = setenta y nueve",
+      "charCount": 561
+    },
+    {
+      "pageNumber": 81,
+      "text": "80 ochenta Descubro Leo y comprendo. Alejandra tiene 8 flores y compra otras 4 flores.\n\n¿Cuántas flores tiene Alejandra en total?\n\n➊ Represento las 8 flores iniciales de Alejandra y las 4 que compró con tapitas en las tiras de 10.\n\n➋ Descompongo el 4 como 2 y .\n\n➌ Agrego 2 tapitas a 8 para completar la tira de 10.\n\n➍ Agrego las tapitas restantes a 10. ¡Ese es el número de flores que tiene Alejandra!\n\nSumo ocho y otro númerosumasuma PO:\n\nR: Tiene flores. Comparo mi respuesta con la de mis compañeros.\n\nPara sumar un número de una cifra a ocho, seguimos estos pasos:\n\n➊ Descomponemos el número distinto de 8 en 2 y otro número.\n\n➋ Sumamos el 8 con el 2 para formar 10.\n\n➌ Sumamos 10 y el número restante.\n\n10 122 2 24 = 8 + 2 = 10 + 2 =y",
+      "charCount": 740
+    },
+    {
+      "pageNumber": 82,
+      "text": "81ochenta y uno Practico en casa ➊ Descomponemos el 3 en 1 y 2.\n\n➋ Sumamos el 2 con el 8 para formar 10.\n\n➌ Sumamos el 1 con el 10.\n\n¿Cómo operamos la suma 3 + 8?\n\n¿Qué pasaría si...?\n\n2 + 8 =3 = 1 + 10 = 1 12 10 11y Resuelvo\n\n1. Encuentro el total de cada\n\nsuma.\n\n1. Encuentro el número total\n\nde fresas.\n\n2. Leo y respondo. Una gallina\n\npone 8 huevos y otra gallina pone otros 8 huevos. ¿Cuántos huevos pusieron en total?\n\n2. Encuentro el total de la suma.\n\nR: Pusieron huevos.\n\nR: Hay fresas.\n\nPO:\n\nPO:\n\na. 6 + 8 =\n\nb. 8 + 5 =\n\n8 + 7 =",
+      "charCount": 538
+    },
+    {
+      "pageNumber": 83,
+      "text": "82 ochenta y dos Sumo siete o seis y otro número Leo y comprendo. En una panadería un día hornearon en la mañana 7 pasteles y en la tarde 5 pasteles más.\n\nDescubro Mañana Tarde ¿Cuántos pasteles hornearon en total?\n\n➊ Represento los 7 pasteles de la mañana y los 5 de la tarde con tapitas en las tiras de 10.\n\n➋ Descompongo el 5 como 3 y .\n\n➌ Agrego 3 tapitas a 7 para completar la tira de 10.\n\n➍ Agrego las tapitas restantes a 10. ¡Ese es el número de pasteles que hornearon en total!\n\nPO:\n\nR: Hornearon pasteles.\n\nComparo mi respuesta con la de mis compañeros.\n\nPara sumar dos números de una cifra, seguimos estos pasos:\n\n➊ Descomponemos el número menor para poder formar 10 con el otro sumando.\n\n➋ Sumamos los dos números que forman 10.\n\n➌ Sumamos 10 y el número restante.\n\n10 123 2 25 = 7 + 3 = 10 + 2 =y sumasuma",
+      "charCount": 817
+    },
+    {
+      "pageNumber": 84,
+      "text": "83ochenta y tres Resuelvo Practico en casa Si en lugar de 7 pasteles se hubiesen horneado 6, ¿cuántos pasteles hubiesen horneado en total?\n\nPara saber cómo descomponer el número menor observamos cuántas tapitas le faltan a la tira de 10 para completarse.\n\n1. Encuentro el total de cada\n\nsuma.\n\n1. Encuentro el número total\n\nde pollos.\n\n2. Leo y respondo. Juan recogió\n\n7 manzanas y su hermana otras 8 manzanas. ¿Cuántas manzanas recogieron en total?\n\n2. Encuentro el total de la suma.\n\na. 5 + 7 =\n\nb. 6 + 6 =\n\nPO:\n\nPO:\n\nR: Recogieron manzanas.\n\nR: Hay pollos.\n\n5 + 6 =",
+      "charCount": 568
+    },
+    {
+      "pageNumber": 85,
+      "text": "84 Resto un número a 1010 Descubro Leo y comprendo. En una tienda hay 10 camisas y se venden 8 camisas.\n\nComparo mi respuesta con la de mis compañeros.\n\nRESTARESTA Para restarle un número a 10 seguimos estos pasos:\n\n➊ Descomponemos al 10 en el sustraendo y otro número.\n\n➋ Restamos la cantidad que indica el sustraendo.\n\nLa cantidad que nos queda es la diferencia.\n\nochenta y cuatro ¿Cuántas camisas quedan?\n\n➊ Represento las 10 camisas iniciales con tapitas.\n\n➋ Descompongo el 10 en 8 y .\n\n➌ Quito 8 tapitas, que representan las camisas que vendieron. ¡La cantidad restante es el número de camisas que quedan en la tienda!\n\nPO:\n\nR: Quedan camisas.\n\n10 − 8 = 2 2 8",
+      "charCount": 664
+    },
+    {
+      "pageNumber": 86,
+      "text": "85 Resuelvo Practico en casa\n\n3. Encuentro la diferencia de cada resta.\n\nR: Hay conejos. R: Hay mangos más.\n\nochenta y cinco\n\n1. Leo y respondo. Hay 10\n\nconejos: 6 de ellos son cafés y los demás blancos. ¿Cuántos conejos blancos hay?\n\n2. Leo y respondo. Hay 10\n\nmangos y 3 manzanas.\n\n¿Cuántos mangos hay más que manzanas?\n\n10 6− −= =\n\na. 10 − 1 = b. 10 − 4 = c. 10 − 9 =\n\nd. 10 − 7 = e. 10 − 2 = f. 10 − 5 =\n\n1. Leo y respondo. Hay 10 flores\n\ny se regalan 5. ¿Cuántas flores quedan?\n\n2. Encuentro la diferencia de\n\ncada resta.\n\nR: Quedan flores.\n\na. 10 − 2 =\n\nb. 10 − 6 =\n\nc. 10 − 8 =\n\nd. 10 − 3 =",
+      "charCount": 597
+    },
+    {
+      "pageNumber": 87,
+      "text": "86 Resto un número de una cifra a uno de dos cifras Leo y comprendo. Carlos tenía 19 chibolas y le vendió 7 a su hermano.\n\n¿Cuántas chibolas le quedan a Carlos?\n\n➊ Represento las 19 chibolas iniciales con tapitas en las tiras de 10.\n\nochenta y seis PO:\n\n➋ Descompongo el 19 como 10 y .\n\n➌ Quito 7 al número distinto de 10. Me quedan tapitas.\n\n➍ Agrego las tapitas restantes a 10 . ¡Ese es el número de chibolas que le quedan a Carlos!\n\nR: Quedan chibolas. Comparo mi respuesta con la de mis compañeros.\n\nPara restar un número de una cifra a uno de dos cifras, seguimos estos pasos:\n\n➊ Descomponemos el minuendo en 10 y otro número.\n\n➋ Restamos el sustraendo al número distinto de 10.\n\n➌ Sumamos la cantidad que queda a 10.\n\n10 10 129 29 − 7 = 10 + 2 = RESTARESTA Descubro",
+      "charCount": 771
+    },
+    {
+      "pageNumber": 88,
+      "text": "87 Encuentro la diferencia de cada resta.\n\nPractico en casa Resuelvo\n\n1. Encuentro la diferencia de cada resta.\n\n2. Leo y respondo. Jorge infla 15 globos y se le revientan 3. ¿Cuántos\n\nglobos quedaron?\n\nochenta y siete ➊ Descomponemos el 16 en 10 y 6.\n\n➋ Restamos el sustraendo a 6.\n\n➌ Sumamos la cantidad que queda a 10.\n\n¿Cómo operamos la resta 16 − 6?\n\n¿Qué pasaría si...?\n\n6 − 6 = 10 + 0 =10 106 0 10\n\na. 12 − 1 = b. 15 − 4 =\n\nc. 16 − 4 = d. 18 − 8 =\n\nPO:\n\nR: Quedaron globos.\n\n1. 15 − 2 = 2. 18 − 6 = 3. 15 − 5 =",
+      "charCount": 517
+    },
+    {
+      "pageNumber": 89,
+      "text": "88 Resto 99 a un número de dos cifras Resolveremos el siguiente problema:\n\nEscucho y sigo las indicaciones de mi docente.\n\n¿Qué haremos?\n\n¿Cómo lo haremos?\n\nTapitas Tiras de 10 Preparo los siguientes materiales:\n\n➊ Formamos equipos de 4 integrantes.\n\n➌ Escribimos el PO.\n\n➎ Compartimos nuestros resultados con nuestros compañeros.\n\na. Descomponemos el 15 como 10 y 5.\n\nb. Nos preguntamos y discutimos: ¿Es posible restar 99 tapitas a las 55\n\ntapitas de la descomposición? y ¿Podemos restarle esas 99 tapitas a 1010?\n\nc. Restamos las 9 tapitas.\n\nd. Escribimos el resultado.\n\n➍ Intentamos resolver el problema. Representamos los 15 huevos con las tapitas en las tiras de 10. Seguimos estos pasos:\n\n➋ Leemos el problema con ayuda de nuestro docente.\n\nochenta y ocho Experimento Marcelo tiene 15 huevos y utiliza 9 para preparar un pastel. ¿Cuántos huevos le quedan?\n\nPO:\n\nrestaresta R: Quedan huevos.",
+      "charCount": 897
+    },
+    {
+      "pageNumber": 90,
+      "text": "89ochenta y nueve Al restar 9 a un número de dos cifras seguimos estos pasos:\n\n➊ Descomponemos el minuendo en 10 y otro número.\n\n➋ Restamos el valor del sustraendo a 10.\n\n➌ Sumamos las dos cantidades que quedan.\n\n10 1 65 510 − 9 = 1 + 5 = Leo y respondo. Hay 17 maracas y 9 tambores.\n\n¿Cuántas maracas hay más que tambores?\n\nPractico en casa Resuelvo Encuentro la diferencia de cada resta.\n\n1. 11 − 9 = 2. 16 − 9 =\n\n3. 14 − 9 = 4. 18 − 9 =\n\nPO:\n\nR: Hay maracas más.",
+      "charCount": 465
+    },
+    {
+      "pageNumber": 91,
+      "text": "90 Resto un número de una cifra a uno de dos cifras, parte 22 Descubro Leo y comprendo. Beatriz tenía 12 globos y le regaló 4 a su amigo. ¿Cuántos globos le quedan?\n\nAl restar un número de una cifra a uno de dos cifras, si la cifra de la derecha del número de dos cifras es menor que el sustraendo, seguimos estos pasos:\n\nnoventa ➊ Represento los 12 globos iniciales con tapitas en las tiras de 10.\n\n➋ Descompongo el 12 como 10 y .\n\n➍ Reúno los dos grupos de tapitas que quedaron. ¡Ese es el número de globos que le quedan a Beatriz!\n\n➌ Como el otro número es menor que 4, resto las 4 tapitas a 10.\n\nMe quedan tapitas.\n\nComparo mi respuesta con la de mis compañeros.\n\nPO:\n\nR: Quedan globos.\n\n➊ Descomponemos el minuendo en 10 y otro número.\n\n➋ Si el otro número es menor que el sustraendo, restamos la cantidad a 10.\n\n➌ Sumamos las dos cantidades que quedan.\n\n10 6 82 210 − 4 = 6 + 2 = RESTARESTA",
+      "charCount": 896
+    },
+    {
+      "pageNumber": 92,
+      "text": "91noventa y uno Encuentro la diferencia de cada resta.\n\nPractico en casa\n\n1. 15 − 8 = 2. 12 − 6 = 3. 15 − 10 =\n\nResuelvo\n\n1. Encuentro la diferencia de cada resta.\n\na. 15 − 6 = b. 12 − 5 =\n\nc. 11 − 3 = d. 13 − 10 =\n\n2. Leo y respondo. Hay 16 trompos y 9 yoyos.\n\n¿Cuántos trompos hay más que yoyos?\n\nPO:\n\nR: Hay trompos más.\n\n➊ Descomponemos el 16 en 10 y 6.\n\n➋ Como 10 es mayor que 6, restamos el sustraendo a 10.\n\n➌ Sumamos la cantidad que queda a 6.\n\n¿Cómo operamos la resta 16 − 10?\n\n¿Qué pasaría si...?\n\n10 − 10 = 0 + 6 =10 06 6 6",
+      "charCount": 534
+    },
+    {
+      "pageNumber": 93,
+      "text": "92 noventa y dos Descubro Leo y comprendo. Javier ahorró 7 dólares para ir a la feria. Su mamá le dio 4 dólares y su papá le dio 5 dólares más.\n\n¿Cuántos dólares tiene en total?\n\nTengo tapitas.\n\nPO:\n\n➊ Represento los 7 dólares iniciales con tapitas en la tira de 10.\n\n➊ Javier ahorró 7 dólares.\n\n➋ Su mamá le dio 4dólares.\n\n➌ Su papá le dio 5 dólares.\n\n➋ Agrego 4 tapitas, que representan los 4 dólares que le dio su mamá.\n\n➌ Agrego 5 tapitas, que representan los 5 dólares que le dio su papá. ¡El resultado es la cantidad de dólares que Javier tiene en total!\n\nSumo tres números de una cifra R: Tiene dólares.\n\nComparo mi respuesta con la de mis compañeros.\n\nPara sumar tres números operamos en orden, de izquierda a derecha.\n\n7 + 4 = 11 + 5 =7 11 16 sumasuma",
+      "charCount": 760
+    },
+    {
+      "pageNumber": 94,
+      "text": "93noventa y tres ➊ Representamos las cantidades.\n\n➋ Sumamos 8 y 2, que forman 10.\n\n➌ Sumamos 10 y el número restante.\n\nEncuentro el total de cada suma.\n\na. 7 + 5 + 4 =\n\nb. 6 + 4 + 9 =\n\n1. Encuentro el total de cada\n\nsuma.\n\n2. Leo y respondo. Mario tiene\n\n8 chibolas, Juan tiene 4 y Francisco 2. ¿Cuántas chibolas tienen en total?\n\nPractico en casa ¿Cómo operamos la suma 4 + 2 + 8?\n\nAl sumar tres números, si dos de ellos suman 10, los operamos primero y luego sumamos el número restante.\n\n¿Qué pasaría si...?\n\n8 + 2 = 10 + 4 =4 2 108 4 14 Resuelvo R: Tienen chibolas.\n\nPO:\n\n1. 3 + 8 + 4 = 2. 5 + 5 + 6 =\n\n3. 9 + 2 + 5 = 4. 2 + 3 + 8 =",
+      "charCount": 635
+    },
+    {
+      "pageNumber": 95,
+      "text": "94 noventa y cuatro Descubro Leo y comprendo. En una escuela había 15 pelotas de fútbol. Se pinchan 8 pelotas y se pierden 2. ¿Cuántas pelotas buenas quedan?\n\n➊ Represento las 15 pelotas iniciales con tapitas en las tiras de 10.\n\n➋ Quito 8 tapitas, que representan las 8 pelotas que se pincharon, a 15.\n\nMe quedan tapitas.\n\n➌ Quito 2 tapitas, que representan las 2 pelotas que se perdieron, a la diferencia de la resta del paso anterior. ¡El resultado es el número de pelotas que quedan en la escuela!\n\nResto tres números PO:\n\nR: Quedan pelotas.\n\nComparo mi respuesta con la de mis compañeros.\n\nPara restar tres números operamos en orden, de izquierda a derecha.\n\n➊ En una escuela habían 15 pelotas.\n\n➋ Se pinchan 8 pelotas.\n\n➌ Se pierden 2 pelotas.\n\n15 7 515 − 8 = 7 − 2 = RESTARESTA Recuerda que puedes descomponer el 15 como 10 y .",
+      "charCount": 834
+    },
+    {
+      "pageNumber": 96,
+      "text": "95\n\n1. Encuentro la diferencia de cada resta.\n\n2. Leo y respondo. Sandra tiene 14 calcomanías. Pega 7 calcomanías\n\nen un cuaderno y 3 en un libro. ¿Cuántas calcomanías le quedan sin pegar?\n\nPractico en casa R: Quedan calcomanías.\n\nPO:\n\nnoventa y cinco Resuelvo Encuentro la diferencia de cada resta.\n\n1. 19 − 1 − 3 = 2. 18 − 2 − 4 =\n\na. 15 − 7 − 6 = b. 16 − 7 − 3 =\n\n3. 17 − 9 − 4 = 4. 16 − 2 − 0 =",
+      "charCount": 398
+    },
+    {
+      "pageNumber": 97,
+      "text": "96 noventa y seis Descubro Leo y comprendo. Juan tenía 11 chibolas. Al jugar con sus amigos ganó 2 chibolas y luego perdió 7.\n\n¿Cuántas chibolas le quedaron?\n\n➊ Represento las 11 chibolas iniciales con tapitas en las tiras de 10.\n\n➋ Agrego 2 tapitas, que representan las 2 chibolas que ganó.\n\nTengo tapitas.\n\n➌ Quito 7 tapitas, que representan las 7 chibolas que perdió. ¡El resultado es la cantidad de chibolas que le quedaron a Juan!\n\nSumo y resto números PO:\n\nR: Le quedaron chibolas.\n\nComparo mi respuesta con la de mis compañeros.\n\nCuando sumamos y restamos cantidades, escribimos la operación en un solo PO y operamos en orden, de izquierda a derecha.\n\n➊ Juan tenía 11 chibolas.\n\n➋ Jugando ganó 2 chibolas.\n\n➌ Jugando perdió 7 chibolas.\n\n11 13 611 + 2 = 13 − 7 = Tenía Ganó Perdió SUMA Y RESTASUMA Y RESTA",
+      "charCount": 811
+    },
+    {
+      "pageNumber": 98,
+      "text": "97noventa y siete Practico en casa ➊ Representamos el número 13.\n\n➋ Restamos 9 a 13. ➌ Sumamos 2 al número restante.\n\n¿Cómo desarrollamos la operación 13 − 9 + 2?\n\n13 − 9 = 4 + 2 =13 4 6 Resuelvo Encuentro el resultado de cada operación.\n\n1. Encuentro el resultado de\n\ncada operación.\n\n2. Leo y respondo. Mario tenía\n\n15 libros de cuentos. Prestó 3 libros y luego le regalaron 5.\n\n¿Cuántos libros de cuentos tiene ahora?\n\nR: Tiene libros.\n\nPO:\n\n1. 18 + 1 − 4 = 2. 12 + 0 − 5 =\n\n3. 17 − 9 + 5 = 4. 12 − 7 + 3 =\n\na. 14 + 5 − 7 =\n\nb. 11 − 7 + 4 =\n\n¿Qué pasaría si...?",
+      "charCount": 564
+    },
+    {
+      "pageNumber": 99,
+      "text": "98 noventa y ocho",
+      "charCount": 17
+    },
+    {
+      "pageNumber": 100,
+      "text": "99 Numeros hasta el cien Numeros hasta el cien 10 20 30 40 50 60 70 80 90 100",
+      "charCount": 77
+    },
+    {
+      "pageNumber": 101,
+      "text": "100 R: Se pueden formar grupos.\n\nR: Sobran manzanas.\n\nConozco los azulejos Descubro Observo las manzanas y respondo las preguntas.\n\n1. ¿Cuántos grupos de 10 se pueden formar?\n\na. Represento cada manzana con una tapita.\n\nb. Formo grupos de 10 tapitas cada uno.\n\nc. Cuento el número de grupos de 10 tapitas.\n\n2. Después de formar los grupos de 10, ¿cuántas manzanas sobran?\n\n• Cuento las tapitas que quedaron fuera de los grupos de 10.\n\nNumerosNumeros Comparo mi respuesta con la de mis compañeros.\n\nTambién podemos representar la cantidad con azulejos.\n\nCada casilla de la tira de 10 la podemos representar por medio de un azulejo suelto.\n\nPodemos representar, la tira de 10 completa, por medio de un azulejo de 10.\n\nPodemos colocar los azulejos en una tabla.\n\nColocamos las tiras de 10 en la casilla amarilla y los azulejos sueltos en la casilla celeste.\n\n16 cien",
+      "charCount": 863
+    },
+    {
+      "pageNumber": 102,
+      "text": "101ciento uno Resuelvo Practico en casa Escribo el número que representan los siguientes azulejos.\n\nEscribo el número que representan los siguientes azulejos.\n\n¿Cómo representamos al número 5 y al número 10 con azulejos?\n\n• Para el número 5, colocamos\n\ncinco azulejos sueltos en la casilla celeste y ninguno en la amarilla.\n\n• Para el número 10, colocamos\n\nun azulejo de 10 en la casilla amarilla y ninguno en la celeste.\n\n¿Qué pasaría si...?\n\n1.\n\n1.\n\n4.\n\n2.\n\n2.\n\n5.\n\n3.\n\n3. 4.\n\n6.",
+      "charCount": 481
+    },
+    {
+      "pageNumber": 103,
+      "text": "102 ciento dos Cuento grupos de 1010 Descubro Observo las mariposas. Para encontrar la cantidad de mariposas sigo los pasos:\n\nAzulejos de 10 Cantidad de azulejos de 10 Cantidad de azulejos sueltos Azulejos sueltos ➊ Recorto los azulejos de las páginas 189 y 191 y la tabla de la página 193.\n\n➋ Represento cada grupo de 10 mariposas con un azulejo de 10 y los coloco en la casilla amarilla.\n\n➌ Represento las mariposas que sobraron con azulejos sueltos y las coloco en la casilla azul.\n\n➍ Completo y escribo la cantidad de azulejos de cada tipo en la tabla (sigo las flechas).\n\nPodemos representar los grupos de 10 mariposas, utilizando los azulejos y organizarlos en una tabla.\n\ncuarenta Comparo con mis compañeros.\n\nR: Hay mariposas.\n\nNumerosNumeros 4 0 40",
+      "charCount": 757
+    },
+    {
+      "pageNumber": 104,
+      "text": "103ciento tres Podemos formar nuevos números al hacer grupos de 10.\n\ndiez veinte treinta cuarenta cincuenta sesenta setenta ochenta noventa Resuelvo Practico en casa Recorto las tarjetas de memoria de las páginas 195 y 197, y busco la representación de cantidad, símbolo y nombre de cada número.\n\n1. Cuento los objetos y escribo el número correspondiente.\n\n2. Encuentro el número representado por los azulejos.\n\na. b. c.\n\na. b. c.\n\n60 70 80 90 10 30 5020 40 Sesenta 1 2 3 4 5 9876 0 0 0 0 0 0000",
+      "charCount": 495
+    },
+    {
+      "pageNumber": 105,
+      "text": "104 Conozco los números del veintiuno al veintinueve Leo y respondo: ¿Cuántos borradores hay?\n\nDescubro ➊ Formo y encierro grupos de 10 borradores.\n\n➋ Represento los grupos de 10 y los borradores sueltos con azulejos.\n\n➌ Cuento la cantidad de azulejos de 10.\n\nHay azulejos de 10.\n\n➍ Cuento la cantidad de azulejos sueltos.\n\nHay azulejos sueltos.\n\nComparo mi respuesta con la de mis compañeros.R: Hay borradores.\n\nLas cantidades las podemos representar con azulejos y símbolos.\n\nPara representar estos números, colocamos dos azulejos de 10 en la casilla amarilla.\n\nNumerosNumeros veintiuno veinticuatro veintisiete veintidós veinticinco veintiocho veintitrés veintiséis veintinueve 21 24 27 22 25 28 23 26 29 2 2 2 2 2 2 2 2 2 1 4 7 2 5 8 3 6 9 ciento cuatro",
+      "charCount": 757
+    },
+    {
+      "pageNumber": 106,
+      "text": "105 Escribo el número que representan los siguientes azulejos.\n\nPractico en casa Resuelvo ¿Cómo escribirías y nombrarías la siguiente cantidad? ¡Compara tu respuesta con la de tus compañeros!\n\nEscribo el número que representan los siguientes azulejos.\n\n1.\n\n1.\n\n4.\n\n2.\n\n2.\n\n5.\n\n3.\n\n3. 4.\n\nciento cinco",
+      "charCount": 300
+    },
+    {
+      "pageNumber": 107,
+      "text": "106 Cuento hasta noventa y nueve Descubro ➊ Formo y encierro grupos de 10 tomates.\n\n➋ Represento los grupos de 10 y los tomates sueltos con azulejos.\n\n➌ Cuento la cantidad de azulejos de 10.\n\nHay azulejos de 10.\n\n➍ Cuento la cantidad de azulejos sueltos.\n\nHay azulejos sueltos.\n\n➊ Formamos grupos de 10 y agrupamos los elementos que quedan sueltos.\n\n➋ Representamos la cantidad utilizando azulejos.\n\n➌ Contamos los azulejos de 10 y los azulejos sueltos.\n\n➍ Formamos el número nombrando cada casilla por separado, agregando “y” en medio.\n\nNumerosNumeros Comparo mi respuesta con la de mis compañeros.R: Hay tomates.\n\nLeo y respondo: ¿Cuántos tomates hay?\n\nEn general, para nombrar números mayores que 10, seguimos estos pasos:\n\ncincuenta y seis 5 6 ciento seis",
+      "charCount": 759
+    },
+    {
+      "pageNumber": 108,
+      "text": "107 Resuelvo\n\n1. Escribo el número que representan los siguientes azulejos.\n\n2. Formamos pares y utilizamos las tarjetas de las páginas\n\n203 y 205, nos turnamos para sacar una tarjeta y pedir al compañero que diga el nombre de ese número.\n\na. b. c.\n\n83 Pueden comprobar sus respuestas en el Anexo 11 (páginas 162 y 163).\n\nPractica nombrar números, utilizando las tarjetas.\n\n1. Cuento los objetos y escribo el número correspondiente.\n\n2. Escribo el número que representan los siguientes azulejos.\n\nPractico en casa\n\na. b. c.\n\na. b. c.\n\nciento siete",
+      "charCount": 547
+    },
+    {
+      "pageNumber": 109,
+      "text": "108 Conozco el número cien Descubro Parte 11:\n\nObservo y respondo: ¿Cuántas estrellas hay?\n\nParte 22:\n\nSe agregó una estrella a la colección. Observa la imagen y responde:\n\n¿Cuántas estrellas hay? ¡Intenta formar y nombrar el número junto a tus compañeros!\n\nNumerosNumeros ➊ Formo y encierro grupos de 10 estrellas.\n\n➋ Represento los grupos de 10 y las estrellas sueltas con azulejos.\n\n➌ Cuento la cantidad de azulejos de 10.\n\nHay azulejos de 10.\n\n➍ Cuento la cantidad de azulejos sueltos.\n\nHay azulejos sueltos.\n\nComparo mi respuesta con la de mis compañeros.R: Hay estrellas.\n\n10 grupos de 10 elementos forma el número cien (100100). Este número lo representamos con un azulejo de 100100.\n\nEl azulejo de 100 lo colocamos en la casilla roja.\n\n= = 1 azulejo de 100 100 azulejos sueltos10 azulejos de 10 1 0 0 cien 100 ciento ocho",
+      "charCount": 829
+    },
+    {
+      "pageNumber": 110,
+      "text": "109 R: Hay botes de pintura.\n\nR: Hay pastelitos.\n\nR: Hay cerezas.\n\nResuelvo Leo y respondo. Hay 9 cajas con 10 botes de pintura, una caja con 9 y una pintura más, ¿cuántos botes de pintura hay en total?\n\nLeo y respondo en el recuadro correspondiente.\n\n1. ¿Cuántos pastelitos hay?\n\n2. En cada racimo hay 10 cerezas. ¿Cuántas cerezas hay en total?\n\nPractico en casa ciento nueve 1010 1010 1010 1010 1010 1010 1010 1010 1010 99",
+      "charCount": 424
+    },
+    {
+      "pageNumber": 111,
+      "text": "110 NumerosNumeros Leo y escribo números hasta 100100 Construyo Completo la tabla con los números del 0 al 100.\n\n0 10 30 50 90 93 96 70 31 51 91 94 97 99 81 85 61 63 64 66 52 82 86 88 72 74 75 77 79 33 43 56 4745 58 4942 55 44 57 35 36 38 68 39 69 21 22 24 26 27 29 13 14 15 17 18 1 6 8 932 4 Recuerda que el número en azul representa los azulejos sueltos y el número en amarillo los azulejos de 10.\n\nciento diez",
+      "charCount": 412
+    },
+    {
+      "pageNumber": 112,
+      "text": "111 2 34 73 89 31 37 93 11 62 64 17 56 54 7 84 43 Escribo los números que faltan.\n\nPractico en casa 21 52 22 53 30 Puedes practicar la lectura de los números con las tarjetas o jugando la lotería de los números con tu familia o amigos.\n\nMe divierto ¡La lotería de los números!\n\n¡Gana quien complete primero su cartón!\n\nPreparo los siguientes materiales:\n\nEscucho y sigo las indicaciones de mi docente.\n\nCartones de las páginas 199 y 201 Tarjetas de números de las páginas 203 y 205 Frijoles 0 1 2 ➊ Formamos equipos de hasta 5 integrantes.\n\n➍ En cada turno, sacamos una tarjeta de la bolsa y colocamos un frijol en el número que salga, si se encuentra en el cartón.\n\n➌ Colocamos las tarjetas de números en una bolsa.\n\n➋ Elegimos a alguien que saque los números y los demás tomamos cada uno un cartón.\n\n2.\n\n1.\n\nciento once 0 1 2 2 34 73 89 31 37 93 11 62 64 17 56 54 7 84 43",
+      "charCount": 873
+    },
+    {
+      "pageNumber": 113,
+      "text": "112 Descubro Observo y completo para encontrar la cantidad total de dulces:\n\n➊ Represento los grupos de 10 y los dulces sueltos con azulejos.\n\n➋ Cuento la cantidad de azulejos de 10.\n\nHay azulejos de 10.\n\nEs decir, hay dulces amarillos.\n\n➌ Cuento la cantidad de azulejos sueltos.\n\nHay azulejos sueltos.\n\nEs decir, hay dulces azules.\n\n➍ Completo: en total hay dulces.\n\nConozco otra manera de formar números COMPOSICIONCOMPOSICION Podemos formar cantidades a partir de los grupos de 10 y los elementos sueltos.\n\nCon azulejos Así, 36 se representa por:\n\ny Cada dulce se representa por:\n\nLos grupos de 10 por:\n\nPodemos descomponer cantidades en grupos de 10 y elementos sueltos.\n\n30 36 6 40 1 60 9 30 36 6 28 94 30 6 3 6 Resuelvo Formo los números y los leo. Leo el número y lo descompongo.\n\n1. 1. 2. 2.\n\nPractico en casa ciento doce",
+      "charCount": 829
+    },
+    {
+      "pageNumber": 114,
+      "text": "113 Descubro Sigo los pasos para descubrir la opción que representa la cantidad de dulces.\n\n➊ Represento los grupos de 10 y los dulces sueltos con azulejos.\n\n➋ Cuento la cantidad de azulejos de 10.\n\nHay azulejos de 10.\n\n➌ Cuento la cantidad de azulejos sueltos.\n\nHay azulejos sueltos.\n\n➍ Encierro la opción que representa la cantidad de dulces.\n\nUtilizo unidades y decenasCOMPOSICIONCOMPOSICION ¿Por qué es esa la representación correcta?\n\nLa Unidad es un azulejo suelto.\n\nAsí, 23 lo representamos como:\n\nTambién lo podemos representar como:\n\nLa Decena es un azulejo de 10, que equivale a una tira.\n\na. b.\n\n3 22 3 2 D 3 U 22 Decenas 33 Unidades 2 Decenas 3 Unidades 23 ciento trece",
+      "charCount": 681
+    },
+    {
+      "pageNumber": 115,
+      "text": "114 ¿Conoces la tabla de valor posicional?\n\nLa tabla de valor posicional sirve para ubicar números a partir del valor de sus unidades y decenas.\n\nAsí, 23 ubicado en la tabla de valor posicional queda como:\n\n1. Formo el número, según corresponda.\n\n2. Represento utilizando la tabla de valor posicional.\n\nResuelvo Decenas Unidades D U Si el valor de las unidades es 0, sí se coloca.\n\nSi el valor de las decenas es 0, no se coloca.\n\nD UD U D U 52 5023 9 03 9 D U 59 D U 65 D U 42 D U 40 D U 8\n\na.\n\na.\n\n2.\n\nb.\n\nb.\n\n3.\n\nc.\n\nc. 5 decenas 2 unidades\n\n4 decenas 8 unidades 6 decenas 0 unidades Formo o descompongo los números, según corresponda.\n\nPractico en casa\n\n1. 8 decenas 6 unidades\n\nciento catorce",
+      "charCount": 696
+    },
+    {
+      "pageNumber": 116,
+      "text": "115 Escribo el número que falta.\n\nResuelvo Escribo el número que falta.\n\nPractico en casa Descubro Observo los dos grupos de botones, en cada caso completo lo que se pide para conocer el número total de botones.\n\nFormo el número 100100 con decenasCOMPOSICIONCOMPOSICION ➊ Encierro los grupos de 10 botones.\n\n➋ Hay grupos de 10 botones.\n\n➌ Hay botones, que son decenas.\n\n➊ Encierro los grupos de 10 botones.\n\n➋ Hay grupos de 10 botones.\n\n➌ Hay botones, que son decenas.\n\nCompleto: decenas y decenas son decenas.\n\n¿Qué número se forma con 10 decenas?\n\n10 decenas forman el número 100. El número 100 lo podemos formar de muchas maneras.\n\n70 7 decenas 5 decenas 3 decenas 5 decenas 30 100 100 40 60 100 100 20 30\n\n1.\n\n2. 2.\n\n1.\n\nciento quince Puedes utilizar tus azulejos.",
+      "charCount": 768
+    },
+    {
+      "pageNumber": 117,
+      "text": "116 OrdenOrden Descubro Sigo los pasos para ubicar el número 37 en la recta numérica:\n\nUbico números en la recta numérica 0 10 20 30 40 50 ➊ Descompongo:\n\n➋ Ubico la cantidad que indican las decenas en la recta numérica. Lo encierro con un círculo de color verde.\n\n➌ Cuento desde el círculo verde, hacia la derecha, el número que indican las unidades y en esa posición escribo el número 37.\n\n37 Si necesitas apoyo, puedes utilizar tus azulejos de decena y unidad.\n\nComparo mi respuesta con la de mis compañeros.\n\nPara ubicar un número en la recta numérica seguimos estos pasos:\n\nTambién podemos utilizar los azulejos.\n\nObservemos que hay 10 espacios entre el 30 y el 40.\n\n= =37 30 7 y y Decenas Unidades 3377 = 330 y 77 ➊ Descomponemos el número en decenas completas y unidades.\n\n➋ Ubicamos el valor que indican las decenas en la recta numérica.\n\n➌ Avanzamos hacia la derecha tantas posiciones como indiquen las unidades.\n\n0 10 20 30 40 50 60 70 80 90 100 30 31 32 3334 35 3637 38 3940 ciento dieciséis",
+      "charCount": 1002
+    },
+    {
+      "pageNumber": 118,
+      "text": "117 0 10 20 30 40 50 60 70 80 90 100 Me divierto ¡El juego de los sapos!\n\n¿Cómo lo haremos?\n\n¡Gana el equipo que ubique todos los números primero!\n\nUbicaremos los siguientes números en la recta numérica:\n\n3737 = 33 decenas (30) y 77 unidades Escucho y sigo las indicaciones de mi docente:\n\n28 36 635 44 91 ➊ Formamos equipos de hasta 10 integrantes.\n\n➌ Descomponemos el número a ubicar en decenas completas y unidades.\n\n➋ Un miembro del equipo se coloca en el número 0 de la recta numérica.\n\n➍ Como un sapo, quien está sobre el 0, salta de 10 en 10, hasta el número que indican las decenas.\n\n➏ Encerramos el número que hemos ubicado.\n\n➎ Luego salta de 1 en 1 tantas veces como indiquen las unidades.\n\n0 10 20 30 40 50 0 10 20 30 40 50 30 31 32 33 34 35 3637 38 39 40 30 31 32 33 34 35 36 37 38 3940 Observo la recta numérica y escribo el número que señala cada flecha.\n\nPractico en casa Puedes descomponer los números en decenas completas y unidades.\n\nciento diecisiete",
+      "charCount": 969
+    },
+    {
+      "pageNumber": 119,
+      "text": "118 OrdenOrden Descubro Sigo los pasos para descubrir cuál número es mayor: 4242 o 37.37.\n\nComparo dos números ➊ Represento con azulejos los dos números.\n\n➋ Identifico el número que tiene más azulejos de 10, es decir, más decenas.\n\n➌ Completo:\n\nes mayor que .\n\nNúmero con mayor cantidad de decenas Número con menor cantidad de decenas Comparamos dos números observando sus decenas y unidades. Para ello, seguimos estos pasos:\n\n➊ Comparamos las decenas. El número mayor será el que tenga mayor cantidad de decenas.\n\n➋ Si tienen la misma cantidad de decenas, comparamos las unidades. El número mayor será el que tenga mayor cantidad de unidades.\n\nPor ejemplo, comparemos los números 27 y 21:\n\nCon azulejos Entonces, 42 es mayor que\n\n37.\n\n42 37 Entonces, 27 es que 21.\n\nSon expresiones equivalentes:\n\n• 2727 es mayor que 2121\n\n• 2121 es menor que 2727\n\nD U 27 D U 21 2 27 1 iguales 7 es mayor que 1 4 es mayor que 3 ciento dieciocho",
+      "charCount": 929
+    },
+    {
+      "pageNumber": 120,
+      "text": "119 Comparamos los números 31 y 51.\n\n¿Qué pasaría si...?\n\nD U 31 D U 51 3 51 1 3 es menor que 5 Entonces, 31 es que 51.\n\nRecordemos siempre comparar primero la cantidad de decenas de los dos números. Solo si tienen la misma cantidad de decenas debemos comparar las unidades.\n\nComparo cada par de números y completo las casillas en blanco, escribiendo los números que corresponden en cada caso.\n\n1.\n\n1.\n\n3. 58 y 23\n\n3. 57 y 84\n\n2.\n\n2.\n\n4. 91 y 95\n\n4. 49 y 41\n\nResuelvo es mayor que .\n\nes mayor que .\n\nes mayor que .\n\nes menor que .\n\nes menor que .\n\nes menor que .\n\nes menor que .\n\nes mayor que .\n\nComparo cada par de números y completo las casillas en blanco, escribiendo los números que corresponden en cada caso.\n\nPractico en casa ciento diecinueve",
+      "charCount": 749
+    },
+    {
+      "pageNumber": 121,
+      "text": "120 Ordeno números hasta 100100 Preparo los siguientes materiales:\n\nExperimento ORDENORDEN Flechas de papel Plumones Recta numérica ¿Qué haremos?\n\n¿Cómo lo haremos?\n\n¡Gana el equipo que ubique todos los números primero!\n\nEn equipos ordenaremos los siguientes números utilizando la recta numérica.\n\nEscucho y sigo las indicaciones de mi docente.\n\n96 7453 85 ➊ Dividimos el grupo en dos equipos.\n\n➌ Escribimos los números de menor a mayor.\n\n➋ En equipos, ubicamos en nuestra recta numérica los cuatro números utilizando las flechas.\n\n➍ Escribimos los números de mayor a menor.\n\n0 10 20 30 40 50 60 70 80 90 100 0 10 20 30 40 50 60 70 80 90 100 Los números de menor a mayor son: _____, ____, ____, ____.\n\nLos números de mayor a menor son: _____, ____, ____, ____.\n\n5353 9696 Si necesitas apoyo utiliza las tarjetas con números o los azulejos para comparar los números.\n\nciento veinte",
+      "charCount": 880
+    },
+    {
+      "pageNumber": 122,
+      "text": "121 En la recta numérica los números se encuentran ordenados de menor a mayor.\n\nSi ubicamos dos números en la recta numérica, el que se encuentra más a la derecha es el mayor de los dos.\n\nPor ejemplo:\n\nEntonces, podemos utilizar la recta numérica para comparar y ordenar los números.\n\nNúmero menor Número mayor 0 10 20 30 40 50 60 70 80 90 100 Ubico los siguientes números en la recta numérica. Luego, los ordeno de menor a mayor.\n\nUbico los siguientes números en la recta numérica. Luego, los ordeno de mayor a menor.\n\nLos números de menor a mayor son: , , , , , .\n\nLos números de mayor a menor son: , , , .\n\nResuelvo 0 10 20 30 40 50 60 70 80 90 100 0 10 20 30 40 50 60 70 80 90 100 43 72 84 89 9917 39 56 57 78 Practico en casa ciento veintiuno",
+      "charCount": 747
+    },
+    {
+      "pageNumber": 123,
+      "text": "122 Sumo decenas con decenas Descubro Leo y comprendo. Antonio tiene 30 lápices de colores y Julia tiene 20.\n\n¿Cuántos lápices de colores tienen entre los dos?\n\nSUMASUMA 10 lápices 10 lápices 10 lápices 10 lápices 10 lápices 10 lápices 10 lápices 10 lápices 10 lápices 10 lápices ➊ Represento los 30 lápices de colores de Antonio y los 20 de Julia con azulejos de 10.\n\n➋ Uno los azulejos de Antonio con los de Julia.\n\n➌ Cuento los azulejos de 10 y completo:\n\nPO:\n\nEn total hay azulejos de 10 , es decir decenas que son lápices de colores.\n\nR: Tienen lápices de colores.\n\nComparo mi respuesta con la de mis compañeros.\n\nPara sumar grupos de 10 elementos, podemos utilizar los azulejos de 10 o las decenas.\n\nUtilizamos azulejos de 10: Utilizamos decenas:\n\ndecenas decenas decenas 10 lápices 10 lápices 10 lápices 10 lápices 10 lápices 10 lápices 10 lápices 10 lápices 10 lápices 10 lápices 30 320 2+ += = ciento veintidós",
+      "charCount": 919
+    },
+    {
+      "pageNumber": 124,
+      "text": "123 PO:\n\nPO:\n\nR: Tiene nances.\n\nR: Tiene chibolas.\n\nPara sumar grupos de 10, seguimos estos pasos:\n\n➊ Contamos la cantidad de decenas completas en cada sumando.\n\n➋ Sumamos la cantidad de decenas.\n\n➌ Convertimos las decenas en unidades.\n\ndecenas decenas decenas decenas decenas decenas decenas decenas decenas decenas decenas decenas decenas decenas decenas 30 3 20 2 50 5 + + = = ➊ ➋ ➌\n\n1. Encuentro el total de cada suma.\n\n2. Leo y respondo. María tiene una bolsa con 20 nances y otra con 10\n\nnances. ¿Cuántos nances tiene en total?\n\n2. Leo y respondo. Santiago tiene 20 chibolas verdes y 20 chibolas\n\nazules. ¿Cuántas chibolas tiene en total?\n\n40 + 30 = 10 + 20 = 70 + 20 = 50 + 40 = 60 + 40 = 80 + 20 =\n\n1. Encuentro el total de cada suma.\n\nResuelvo Practico en casa\n\na.\n\na.\n\nc.\n\nc.\n\nb.\n\nb.\n\nciento veintitrés",
+      "charCount": 812
+    },
+    {
+      "pageNumber": 125,
+      "text": "124 Sumo unidades a números de dos cifras Descubro Leo y comprendo. Carlos tenía 32 crayones y su mamá le dio 5 crayones más.\n\nSUMASUMA 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones ¿Cuántos crayones tiene ahora?\n\n➊ Represento los 32 crayones de Carlos con azulejos de decena y unidad.\n\n➋ Agrego 5 azulejos de unidad. ¡El resultado es la cantidad de crayones que tiene Carlos!\n\nPO:\n\nR: Tiene crayones.\n\nComparo mi respuesta con la de mis compañeros.\n\nPara sumar un número de dos cifras y uno de una cifra, descomponemos el número de dos cifras en decenas y unidades, y sumamos unidades con unidades.\n\n10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 32➊ ➋ ➌decenas decenas unidades unidadesunidades unidades unidades unidades 2 35 7+ = ciento veinticuatro",
+      "charCount": 876
+    },
+    {
+      "pageNumber": 126,
+      "text": "125 Resuelvo\n\n1. Encuentro el total de cada suma.\n\n2. Leo y respondo. Alejandra tiene 20 globos y su hermano 5 globos.\n\n¿Cuántos globos tienen en total?\n\na. 11 + 2 =\n\nc. 30 + 5 =\n\nb. 83 + 4 =\n\nd. 42 + 6 =\n\nPO:\n\nPO:\n\nR: Tienen globos.\n\nR: Hay personas.\n\n1. Encuentro el total de cada suma.\n\n2. Leo y respondo. En una fiesta hay 53 personas y después llegan 4\n\npersonas más. ¿Cuántas personas hay en la fiesta?\n\nPractico en casa\n\na. 54 + 3 =\n\nb. 90 + 9 =\n\nc. 76 + 2 =\n\nd. 65 + 4 =\n\nciento veinticinco",
+      "charCount": 498
+    },
+    {
+      "pageNumber": 127,
+      "text": "126 Sumo de forma vertical Descubro Leo y comprendo. Para los juegos deportivos se inscribieron 28 niñas y 11 niños.\n\nSUMASUMA ¿Cuántas personas hay inscritas?\n\n➊ Represento las 28 niñas y los 11 niños con azulejos de decena y unidad.\n\n➋ Reúno todos los azulejos de unidad.\n\nTengo azulejos de unidad.\n\n➌ Reúno todos los azulejos de decena.\n\nTengo azulejos de decena.\n\n➍ Compongo el número con las unidades y decenas. ¡El resultado es la cantidad de personas que hay inscritas para los juegos deportivos!\n\nPO:\n\nR: Hay personas inscritas.\n\nComparo mi respuesta con la de mis compañeros.\n\nPara sumar números de dos cifras utilizamos la tabla de valores y los azulejos, sumando unidades con unidades y decenas con decenas.\n\n28 11decenas decenas D 3 U 9 unidades unidades decenas unidadesdecena unidaddecenas unidades 2 81 1+ += = ciento veintiséis",
+      "charCount": 843
+    },
+    {
+      "pageNumber": 128,
+      "text": "127 Esta forma de sumar se llama suma vertical. Para sumar de forma vertical seguimos estos pasos:\n\n➊ Escribimos los sumandos colocando unidades bajo unidades y decenas bajo decenas.\n\n➋ Trazamos el signo de suma y la línea que separa los sumandos del resultado.\n\n➌ Sumamos unidades con unidades.\n\n➍ Sumamos decenas con decenas.\n\nD U 2 8 + 1 1 3 9 D U 2 5 + 3 4 D U 4 3 + 2 5 D U D U D U + D U D U ➊ ➋ ➌➍ Resuelvo\n\n1. Encuentro el total de cada suma.\n\na. 25 + 34 = b. 12 + 61 = c. 83 + 10 =\n\n1. 43 + 25 = 2. 42 + 32 = 3. 15 + 20 =\n\n2. Leo y respondo. En un granero tienen 33 costales de maíz y llevan 14\n\ncostales más. ¿Cuántos costales hay en total?\n\nPO:\n\nR: Hay costales.\n\nEncuentro el total de cada suma.\n\nPractico en casa ciento veintisiete",
+      "charCount": 743
+    },
+    {
+      "pageNumber": 129,
+      "text": "128 Sumo un número de una cifra con un número de dos cifras Descubro Leo y comprendo. Hay 3 patos en el agua y 54 patos en la grama. ¿Cuántos patos hay en total?\n\nSUMASUMA ➊ Represento los 3 patos en el agua y los 54 patos en la grama con azulejos de decena y unidad.\n\n➋ Reúno todos los azulejos de unidad. Tengo azulejos de unidad.\n\n➌ Reúno todos los azulejos de decena. Tengo azulejos de decena.\n\n➍ Compongo el número con las unidades y decenas. ¡El resultado es la cantidad de patos que hay en total!\n\nPO:\n\nR: Hay patos. Comparo mi respuesta con la de mis compañeros.\n\n¿Cómo desarrollarías la operación de forma vertical?\n\nPara sumar un número de una cifra con uno de dos cifras, podemos utilizar los azulejos y la tabla de valores.\n\n3 54decenas decenas D 5 U 7 unidades Recuerda que los números del 0 al 9 tienen 0 decenas. unidades decena unidadesdecenas unidadesdecenas unidades 0 35 4+ += = ciento veintiocho",
+      "charCount": 915
+    },
+    {
+      "pageNumber": 130,
+      "text": "129 Para sumar un número de una cifra con uno de dos cifras en forma vertical, seguimos estos pasos:\n\n➊ Escribimos los sumandos colocando unidades bajo unidades y decenas bajo decenas.\n\n➋ Sumamos unidades con unidades.\n\n➌ Agregamos la cantidad de decenas del número de dos cifras.\n\nD U 3 + 5 4 5 7 D U 5 + 5 2 D U 4 3 + 4 D U D U D U D U D U ➊ ➋➌ Resuelvo\n\n1. Encuentro el total de cada suma.\n\na. 5 + 52 = b. 7 + 22 = c. 90 + 8 =\n\n1. 43 + 4 = 2. 6 + 81 = 3. 2 + 47 =\n\n2. Leo y respondo. En un establo hay 13 caballos y en el corral hay 5\n\ncaballos más. ¿Cuántos caballos hay en total?\n\nPO:\n\nR: Hay caballos.\n\n1. Encuentro el total de cada suma.\n\nPractico en casa ciento veintinueve",
+      "charCount": 681
+    },
+    {
+      "pageNumber": 131,
+      "text": "130 Resto decenas Descubro Leo y comprendo. Andrea tenía 60 crayones y le regaló 20 a su hermano.\n\nRESTARESTA ➊ Represento los 60 crayones iniciales utilizando azulejos de 10.\n\n➋ Quito los azulejos que representan los crayones que regaló.\n\n➌ Cuento los azulejos de 10 que quedan y completo:\n\nQuedan azulejos de 10, es decir decenas que son crayones.\n\nPO:\n\nR: Quedan crayones.\n\nPara restar grupos con 10 elementos, podemos utilizar los azulejos de 10 o las decenas.\n\n¿Cuántos crayones le quedan?\n\nComparo mi respuesta con la de mis compañeros.\n\nUtilizamos azulejos de 1010: Utilizamos decenas:\n\ndecenas decenas decenas 60 620 2− −= = ciento treinta 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones 10 crayones",
+      "charCount": 935
+    },
+    {
+      "pageNumber": 132,
+      "text": "131 PO:\n\nPO:\n\nR: Quedaron manzanas.\n\nR: Quedaron huevos.\n\nPara restar grupos de 10, seguimos estos pasos:\n\n➊ Contamos la cantidad de decenas completas en el minuendo y sustraendo.\n\n➋ Restamos la cantidad de decenas que indica el sustraendo.\n\n➌ Convertimos las decenas en unidades.\n\ndecenas decenas decenas decenas decenas decenas decenas decenas decenas decenas decenas decenas decenas decenas decenas 60 6 20 2 40 4 − − = = ➊ ➋ ➌\n\n1. Encuentro la diferencia de cada resta.\n\n2. Leo y respondo. Carmen tiene 50 manzanas y vende 20. ¿Cuántas\n\nmanzanas le quedaron?\n\n2. Leo y respondo. En la tienda hay 30 huevos y\n\nvendieron 20. ¿Cuántos huevos quedaron?\n\n60 − 40 = 90 − 30 = 30 − 20 = 80 − 50 = 70 − 50 = 40 − 30 =\n\n1. Encuentro la diferencia de cada resta.\n\nResuelvo Practico en casa\n\na.\n\na.\n\nc.\n\nc.\n\nb.\n\nb.\n\nciento treinta y uno",
+      "charCount": 829
+    },
+    {
+      "pageNumber": 133,
+      "text": "132 57 34 decenas decenas D U unidades unidades decenas unidadesdecenas unidadesdecenas unidades 5 73 4− −= = Resto de forma vertical Descubro Leo y comprendo. Gabriela tenía 57 flores y vendió 34.\n\n¿Cuántas flores le quedaron?\n\nPO:\n\n➊ Represento los 57 flores iniciales con azulejos de decena y unidad.\n\nTengo azulejos de decena y azulejos de unidad.\n\n➋ Quito los azulejos que representan las 34 flores vendidas:\n\na. Quito 4 azulejos de unidad de los 7 que tengo.\n\nQuedan azulejos de unidad.\n\nb. Quito 3 azulejos de decena de los 5 que tengo.\n\nQuedan azulejos de decena.\n\n➌ Compongo el número con las unidades y decenas. ¡El resultado es la cantidad de flores que le quedaron a Gabriela!\n\nR: Quedaron flores.\n\nPara restar números de dos cifras utilizamos la tabla de valores y los azulejos, restando unidades con unidades y decenas con decenas.\n\nComparo mi respuesta con la de mis compañeros.\n\nTenía Vendió 2 3 RESTARESTA ciento treinta y dos",
+      "charCount": 943
+    },
+    {
+      "pageNumber": 134,
+      "text": "133 Esta forma de restar se llama resta vertical. Para restar de forma vertical seguimos estos pasos:\n\n➊ Escribimos el minuendo y sustraendo, colocando unidades bajo unidades y decenas bajo decenas.\n\n➋ Trazamos el signo de resta y la línea que separa los sumandos el resultado.\n\n➌ Restamos unidades con unidades.\n\n➍ Restamos decenas con decenas.\n\nD U 5 7 − 3 4 2 3 D U 2 7 − 1 5 D U 9 6 − 3 1 D U D U − D U − D U D U Resuelvo\n\n1. Encuentro la diferencia de cada resta.\n\na. 27 − 15 = b. 68 − 37 = c. 58 − 23 =\n\n1. 96 − 31 = 2. 84 − 12 = 3. 36 − 11 =\n\n2. Leo y respondo. En un granero hay 36 costales de maíz y se sacan 14\n\ncostales. ¿Cuántos costales quedaron en el granero?\n\nPO:\n\nR: Quedaron costales.\n\nEncuentro la diferencia de cada resta.\n\nPractico en casa ➊ ➋ ➌➍ ciento treinta y tres",
+      "charCount": 788
+    },
+    {
+      "pageNumber": 135,
+      "text": "134 26 5 decenas decenas D U unidades unidades decenas unidadesdecenas unidadesdecenas unidades 2 60 5− −= = Resto unidades a un número de dos cifras Descubro Leo y comprendo. Antonio tiene 26 aviones de juguete y pierde 5 aviones. ¿Cuántos aviones le quedaron?\n\nPO:\n\n➊ Represento los 26 aviones de juguete con azulejos de decena y unidad.\n\nTengo azulejos de decena y azulejos de unidad.\n\n➋ Quito los azulejos que representan los 5 aviones perdidos:\n\nQuedan azulejos de decena y azulejos de unidad.\n\n➌ Compongo el número con las unidades y decenas. ¡El resultado es la cantidad de aviones de juguete que le quedaron a Antonio!\n\nR: Quedaron aviones.\n\nPara restar un minimo de una cifra a uno de dos cifras, podemos utilizar la resta vertical.\n\nComparo mi respuesta con la de mis compañeros.\n\n12 RESTARESTA Recuerda que los números del 0 al 9 tienen 0 decenas.\n\nciento treinta y cuatro",
+      "charCount": 883
+    },
+    {
+      "pageNumber": 136,
+      "text": "135 Para restar un número de dos cifras con uno de una cifra en forma vertical seguimos estos pasos:\n\n➊ Escribimos el minuendo y sustraendo, colocando unidades bajo unidades y decenas bajo decenas.\n\n➋ Restamos unidades con unidades.\n\n➌ Escribimos la misma cantidad de decenas del número de dos cifras.\n\nD U 2 6 − 5 2 1 D U 3 8 − 5 D U 8 4 − 3 D U D U − D U − D U D U Resuelvo\n\n1. Encuentro la diferencia de cada resta.\n\na. 38 − 5 = b. 43 − 2 = c. 58 − 8 =\n\n1. 84 − 3 = 2. 28 − 4 = 3. 75 − 1 =\n\n2. Beatriz tiene una caja con 19 galletas. Junto a su familia se comen 7\n\ngalletas. ¿Cuántas galletas le quedan?\n\nPO:\n\nR: Quedan galletas.\n\nEncuentro la diferencia de cada resta.\n\nPractico en casa ➊ ➋➌ ciento treinta y cinco",
+      "charCount": 718
+    },
+    {
+      "pageNumber": 137,
+      "text": "136 36 32 decenas decenas D U unidades unidades decenas unidadesdecenas unidadesdecenas unidades 3 63 2− −= = Resto números con decenas iguales Descubro Leo y comprendo. En el mercado hay 36 sacos de naranjas y durante el día vendieron 32.\n\n¿Cuántos sacos de naranjas quedaron?\n\nPO:\n\n➊ Represento los 36 sacos de naranjas con azulejos de decena y unidad.\n\nTengo azulejos de decena y azulejos de unidad.\n\n➋ Quito los azulejos que representan los 32 sacos de naranjas vendidos:\n\na. Quito 2 azulejos de unidad de los 6 que tengo.\n\nQuedan azulejos de unidad.\n\nb. Quito 3 azulejos de decena de los 3 que tengo.\n\nQuedan azulejos de decena.\n\n➌ Compongo el número con las unidades y decenas. ¡El resultado es la cantidad de sacos de naranjas que quedaron!\n\nR: Quedaron sacos.\n\nPara restar dos números de dos cifras con la misma cantidad de decenas, podemos utilizar la resta vertical.\n\nComparo mi respuesta con la de mis compañeros.\n\n4 RESTARESTA ciento treinta y seis",
+      "charCount": 960
+    },
+    {
+      "pageNumber": 138,
+      "text": "137 Para restar dos números de dos cifras con la misma cantidad de decenas en forma vertical, seguimos estos pasos:\n\n➊ Escribimos el minuendo y sustraendo, colocando unidades bajo unidades y decenas bajo decenas.\n\n➋ Restamos unidades con unidades.\n\n➌ Restamos decenas con decenas.\n\nComo el resultado son 0 decenas, no lo escribimos en la tabla de valores.\n\nD U 7 7 − 7 2 D U D U 3 7 − 3 4 D U − D U D U − D U D U D U Resuelvo Encuentro la diferencia de cada resta.\n\n1. 77 − 72 = 2. 68 − 63 = 3. 89 − 85 =\n\n4. 37 − 17 = 5. 40 − 10 = 6. 34 − 20 =\n\n1. 37 − 34 = 2. 23 − 22 = 3. 28 − 18 =\n\nEncuentro la diferencia de cada resta.\n\nPractico en casa D U 3 6 − 3 2 4 ➊ ➋➌ ciento treinta y siete",
+      "charCount": 686
+    },
+    {
+      "pageNumber": 139,
+      "text": "138 Encuentro el número que falta en la suma Descubro Preparo los siguientes materiales:\n\nEscucho y sigo las indicaciones de mi docente.\n\nTapitas, semillas u otro material para contar Azulejos Tarjetas de suma de la página 211 Caja pequeña ➊ Formamos equipos de hasta 4 integrantes.\n\n➌ En cada turno, uno de los miembros del equipo saca una tarjeta y la muestra. Los demás deben encontrar el número que falta.\n\n➍ Verificamos realizando la suma.\n\n➋ Colocamos las tarjetas de suma en en la caja.\n\nPuedes utilizar tapitas, semillas o azujejos para encontrar el número que falta.\n\nSi en una suma se desconoce un sumando, realizamos lo siguiente:\n\n➊ Elegimos un número menor que el total.\n\n➋ Sumamos el número del paso anterior con el sumando que se conoce.\n\n➌ Si el resultado coincide con el total, ¡encontramos el número desconocido! Sino, probamos con otro número.\n\nResuelvo Encuentro el número que debe ir en cada recuadro.\n\n1. 9 + = 18 2. + 11 = 13 3. 4 + = 17\n\n1. 2 + = 17 2. + 14 = 19 3. 5 + = 18\n\nEncuentro el número que debe ir en cada recuadro.\n\nPractico en casa sumasuma ciento treinta y ocho",
+      "charCount": 1098
+    },
+    {
+      "pageNumber": 140,
+      "text": "139 Encuentro el número que falta en la resta Descubro Preparo los siguientes materiales:\n\nEscucho y sigo las indicaciones de mi docente.\n\nTapitas, semillas u otro material para contar Azulejos Tarjetas de resta de la página 211 Caja pequeña ➊ Formamos equipos de hasta 4 integrantes.\n\n➌ En cada turno, uno de los miembros del equipo saca una tarjeta y la muestra. Los demás deben encontrar el número que falta.\n\n➍ Verificamos realizando la resta.\n\n➋ Colocamos las tarjetas de resta en la caja.\n\nSi en una resta falta el minuendo:\n\n➊ Elegimos un número mayor que el sustraendo.\n\n➋ Restamos al número del paso anterior el sustraendo conocido.\n\nSi en una resta falta el sustraendo:\n\n➊ Elegimos un número menor que el minuendo.\n\n➋ Restamos el número del paso anterior al minuendo conocido.\n\n➌ Si el resultado coincide con la diferencia, ¡encontramos el número desconocido! Sino, probamos con otro número.\n\nResuelvo Practico en casa Encuentro el número que debe ir en cada recuadro.\n\nEncuentro el número que debe ir en cada recuadro.\n\n1. 17 − = 10 2. − 3 = 11 3. 18 − = 12\n\n1. 18 − = 13 2. − 4 = 9 3. 16 − = 12\n\nRESTARESTA ciento treinta y nueve",
+      "charCount": 1141
+    },
+    {
+      "pageNumber": 141,
+      "text": "140 Formo cantidades con monedas Descubro Leo y comprendo. Ana y Miguel quieren comprar una paleta de 30 centavos. Ayúdalos a seleccionar las monedas a utilizar.\n\nRecuerda que hay 5 monedas de diferente valor.\n\nAdemás, tienen distintas características como: el color, el tamaño y el valor.\n\nUna cantidad de dinero la podemos formar con monedas de distinto valor. Por ejemplo, para formar 30 centavos algunas formas son:\n\n• Una moneda de 25 centavos y una de 5 centavos\n\n• 3 monedas de 10 centavos\n\n• 2 monedas de 10 centavos y 2 monedas de 5 centavos\n\n1 centavo 5 centavos 10 centavos 25 centavos 1 dólar ➊ Recorto las monedas que están en las páginas 213 a 215.\n\n➋ Selecciono las monedas de manera que formen 30 centavos.\n\n➌ Muestro a mi docente las monedas que seleccioné.\n\n➍ Comparto con mis compañeros las monedas que seleccioné.\n\nResuelvo\n\n1. Marco con ✗ las monedas para formar 50 centavos.\n\n2. Utilizo las monedas y formo la cantidad que indique mi docente.\n\n2. Utilizo las monedas y practico formar cantidades de dinero.\n\n1. Marco con ✗ las monedas para formar 40 centavos.\n\nPractico en casa DINERODINERO ciento cuarenta",
+      "charCount": 1128
+    },
+    {
+      "pageNumber": 142,
+      "text": "141 Formo 11 dólar utilizando monedas de 11, , 55, , 1010, , 2525 centavos Descubro Leo y comprendo. Juan y Ana saben que 1 dólar se forma con 100 centavos.\n\nMarco con una ✗ las monedas que pueden seleccionar para formar 1 dólar.\n\nMonedas de Juan Monedas de Ana Algunas maneras de formar 1 dólar son:\n\nResuelvo\n\n1. Marco con ✗ monedas que forman 1 dólar.\n\nUtilizo las monedas de la clase anterior y practico formar 1 dólar con mis familiares.\n\nPractico en casa\n\n2. Utilizo las monedas de la clase anterior y formo un dólar con mis\n\ncompañeros.\n\nDINERODINERO ciento cuarenta y uno 1 4 2 3",
+      "charCount": 587
+    },
+    {
+      "pageNumber": 143,
+      "text": "142 Formo cantidades con billetes Descubro Leo y comprendo. Mariana quiere comprar una bicicleta cuyo precio es de 25 dólares. Ayúdala a seleccionar los billetes que puede utilizar.\n\n¿Sabías que también existen billetes para formar cantidad de dinero?\n\n• Para representar simbólicamente una cantidad en dólares\n\ncolocamos el símbolo $ antes de la cantidad a expresar.\n\nPor ejemplo, 25 dólares se representa simbólicamente como $2525.\n\n• Podemos formar una misma cantidad combinando billetes de\n\ndiferentes maneras. Algunas maneras para formar $25 son:\n\na. 1 billete de $20 y 1 billete de $5\n\nb. 2 billetes de $10 y 1 billete de $5\n\nc. 1 billete de $10 y 3 billetes de $5\n\n• Todos los billetes\n\ntienen el mismo tamaño.\n\n• Un dólar lo puedes\n\nencontrar en moneda o billete.\n\n1 dólar 20 dólares 5 dólares 50 dólares 10 dólares 100 dólares Resuelvo\n\n1. Marco con ✗ billetes que forman $17.\n\nUtilizo los billetes y practico a formar cantidades de dinero con mis familiares.\n\nPractico en casa\n\n2. Utilizo los billetes que recorté y formo la cantidad que indique mi\n\ndocente.\n\n➊ Recorto los billetes que están en las páginas 217 a 221.\n\n➋ Selecciono los billetes de manera que formen 25 dólares.\n\n➌ Muestro a mi docente los billetes seleccionados.\n\n➍ Comparto con mis compañeros los billetes que seleccioné.\n\nciento cuarenta y dos DINERODINERO",
+      "charCount": 1336
+    },
+    {
+      "pageNumber": 144,
+      "text": "143 ContemosContemos",
+      "charCount": 20
+    },
+    {
+      "pageNumber": 145,
+      "text": "144 El día de Pascua es el preferido por los pequeños conejos, quienes salen de sus madrigueras, toman sus cestas y saltan, saltan, saltan buscando huevos de chocolate. Mientras tanto, en el Valle de los chocolates, los duendes preparan los huevos para la llegada de los conejos.\n\n—¡Allí vienen! — gritó uno de los duendes, al ver a lo lejos una nube de\n\norejas largas y colas esponjosas. Seis pequeños conejos se acercaban, rebotando alegremente.\n\nPasó el primer conejo, levantó su pequeña cesta y el duende puso en ella dos huevos de chocolate. Se acercó el segundo conejo, levantó su pequeña cesta y el duende puso en ella dos huevos de chocolate. Así siguieron hasta que los seis conejos tuvieron cada uno dos huevos de chocolate en su cesta.\n\nUna vez terminada su encomienda, dieron media vuelta y boing, boing, boing, regresaron a su madriguera, contentos y con las cestas llenas.\n\nCuento de dos en dosCONTEOCONTEO Escucho atentamente Escucho el siguiente relato:\n\n¿Cuántos huevos de chocolate llevaron en total los seis conejos?\n\nCuando hay varios grupos de 2 objetos y los queremos contar, es más conveniente contar de 22 en 22, en vez de contar cada uno de los objetos. Por ejemplo, para contar los huevos de los conejos:\n\nEn total, los seis conejos tienen 1212 huevos de chocolate.\n\nLos números de 2 en 2 hasta el 20 son:\n\n0, 2, 4, 6, 8, 10, 12, 14, 16, 18 y 20.\n\nObservemos que la cifra de la unidades de estos números son 0, 2, 4, 6 u 8.\n\n2 2 22 2 2 2 4 6 8 10 12 ciento cuarenta y cuatro",
+      "charCount": 1500
+    },
+    {
+      "pageNumber": 146,
+      "text": "145 Resuelvo\n\n1. Completo la secuencia escribiendo los números que faltan.\n\n2. Escribo el número total de objetos que hay en cada caso.\n\nSi inicia en 1, marco todas las casillas sobre las que saltará.\n\na. b.\n\na. b.\n\na.\n\nb.\n\n0 64 4 86 6 14 R: Hay calcetines.\n\nR: Hay cerezas.\n\nEl conejo Orejón solo hace saltos de 2 en 2 casillas.\n\nEscribe los números de 2 en 2 hasta 100. ¡Compara tu respuesta con la de tus compañeros!\n\n1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 0 2\n\n1. Escribo los números de 2 en 2, iniciando en cero.\n\n2. Escribo los números de 2 en 2, iniciando en el número indicado.\n\n3. Completo la secuencia escribiendo los números que faltan.\n\nPractico en casa 12 2\n\na. b. 2 4 4 108\n\nciento cuarenta y cinco",
+      "charCount": 715
+    },
+    {
+      "pageNumber": 147,
+      "text": "146 Cuento de cinco en cinco Experimento Preparo los siguientes materiales:\n\nCONTEOCONTEO Pliegos de papel Pintura de colores Plumones Escucho y sigo las indicaciones de mi docente.\n\n➊ Formamos equipos de hasta 10 integrantes.\n\n➌ Contamos cuántos dedos hay en total y escribimos la cantidad correspondiente.\n\n➋ Pintamos nuestras dos manos y colocamos las huellas en el papel, una a la par de la otra.\n\n➍ Comentamos a nuestros compañeros los pasos que seguimos para contar el número total de dedos.\n\nSi hay grupos de cinco objetos los podemos contar de 55 en 55.\n\nPor ejemplo, para contar los dedos de las manos:\n\nEn total, hay 3030 dedos.\n\n5 5 55 5 5 5 10 15 20 25 30 ciento cuarenta y seis",
+      "charCount": 690
+    },
+    {
+      "pageNumber": 148,
+      "text": "147 Los números de 5 en 5, desde 0 hasta 100 son:\n\n0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100.\n\nObservemos que la cifra de las unidades de los números de cinco en cinco es siempre 0 o 5.\n\nResuelvo\n\n1. Uno los puntos contando de 5\n\nen 5.\n\n2. Escribo los números de 5 en 5, iniciando en el número indicado.\n\n5 10 15 20 25 30 35 40 45 5060 65 55 70 75 80 85 90 95 100 a.\n\nb.\n\n4 65 50 Ayudo al ratón a encontrar el camino hacia el queso, siguiendo los números de 5 en 5.\n\nPractico en casa 5 47 98 96 49 94 29 10 81 41 6 57 99 38 15 20 25 11 36 1 23 44 69 17 37 19 30 3 33 71 24 56 65 48 62 26 35 61 28 73 46 43 42 16 50 45 40 52 87 2 4 7 9 13 55 18 21 19 14 12 8 22 32 51 60 65 54 59 58 53 39 23 63 68 74 70 76 90 95 100 72 27 64 77 91 75 80 85 29 66 78 92 97 1 8 31 67 79 93 0 3 44 ciento cuarenta y siete",
+      "charCount": 841
+    },
+    {
+      "pageNumber": 149,
+      "text": "148 Preparo los siguientes materiales:\n\nMe divierto Cuento de tres en tres y de cuatro en cuatro conteoConteo Serpiente de números Plumones o yeso rojo y azul Escucho y sigo las indicaciones de mi docente.\n\n➊ Dividimos el grupo en dos equipos. Un equipo tomará el número 3 y el otro el 4.\n\n➌ Cada equipo hará una fila y tomaremos turnos para saltar y marcar los números de la serpiente: el equipo del número 3 marcarán cada 3 casillas y los del número 4 lo harán cada 4 casillas.\n\n➋ El equipo del número 3 tomará el plumón o yeso rojo, y su marca será un .\n\nEl equipo del número 4 tomará el plumón o yeso azul, y su marca será una ✗.\n\n➍ El primero de cada fila marcará el número 0. El siguiente de la fila saltará 3 o 4 casillas a partir de la marca anterior, según corresponda, y colocará la marca de su equipo.\n\n34 Se finaliza cuando no hayan casillas para saltar.\n\nNo olviden marcar la casilla donde cayeron con la huella de su equipo.\n\nObserven las marcas en la tabla de números. ¿Hay alguna característica que llame su atención?\n\nciento cuarenta y ocho",
+      "charCount": 1057
+    },
+    {
+      "pageNumber": 150,
+      "text": "149 Ayudo al búho a completar los números de 3 en 3 y de 4 en 4 hasta 100.\n\nLos números de 3 en 3, desde 0 hasta 100 son:\n\n0, 3, , 9, , 15, 18, 21, 24, , 30, , , 39, 42, , 48, 51, 54, 57, 60, , 66, 69, 72, , 78, 81, 84, , 90, 93, 96, .\n\nLos números de 4 en 4, desde 0 hasta 100 son:\n\n, 4, 8, , 16, 20, 24, , 32, 36, , , 48, 52, 56, , 64, 68, , 76, 80, 84, 88, , 96, .\n\nObservemos que los números 0, 12, 24, 36, 48, 60, 72, 84 y 96 se encuentran en los dos listados.\n\nUtilizo la tabla de la página 223, en equipos, tomamos turnos para indicar a los demás un número de inicio y si deben hacer conteo de 3 en 3 o de 4 en 4. Cada uno debe marcar los números en su tabla.\n\nEjemplo:\n\nMe divierto Inicien en 8 y cuenten de 4 en 4 .\n\n0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 ✗ ✗ ✗ ✗ ✗ ✗ ✗ ✗ Pido a un familiar o amigo que me diga un número de inicio para cada literal y continúo la secuencia de números de 3 en 3 o de 4 en 4.\n\nPractico en casa\n\na. b.\n\na. b.\n\n1. De 3 en 3:\n\n2. De 4 en 4:\n\nInicio Inicio Inicio Inicio ciento cuarenta y nueve",
+      "charCount": 1101
+    },
+    {
+      "pageNumber": 151,
+      "text": "150 Cuento de diez en diez Descubro En la tabla de números, iniciando en 0, cuento y coloreo cada 10 números.\n\nCONTEOCONTEO 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 59 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 Comparo mi respuesta con la de mis compañeros.\n\n¿Qué características observas?\n\nAyudo al búho a completar los números de 10 en 10 hasta 100.\n\nLos números de 10 en 10, desde 0 hasta 100 son:\n\n0, , , 30, 40, 50, , 70, , 90, .\n\nObservemos que todos los números terminan en .\n\nResuelvo Escribo los números de 10 en 10, iniciando en el número indicado.\n\n1. 2.\n\n3. 4.\n\n20 10 50 60 ciento cincuenta",
+      "charCount": 809
+    },
+    {
+      "pageNumber": 152,
+      "text": "151 Cuento de seis en seis y de siete en siete Descubro En la tabla de números, iniciando en 0:\n\n• cuento y coloreo cada 6 números.\n\n• cuento y marco con una ✗ cada 7 números.\n\nCONTEOCONTEO 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 59 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 Comparo mi respuesta con la de mis compañeros.\n\n¿Qué características observas?\n\nAyudo al búho a completar los números de 6 en 6 y de 7 en 7 hasta 100.\n\nLos números de 6 en 6, desde 0 hasta 100 son:\n\n0, 6, , 18, , 30, 36, , 48, , 60, , , 78, 84, , 96.\n\nLos números de 7 en 7, desde 0 hasta 100 son:\n\n, 7, 14, 21, , 35, 42, 49 , , 63, 70, , , 91, 98.\n\nObservemos que los números 0, y se encuentran en los dos listados.\n\nciento cincuenta y uno ✗",
+      "charCount": 926
+    },
+    {
+      "pageNumber": 153,
+      "text": "152 Resuelvo\n\n1. Escribo los números que faltan, iniciando en el número indicado.\n\n2. Observo y escribo los números que faltan.\n\na. b.\n\na. b.\n\na. b.\n\na. b.\n\n6 42 54 60 7 49 63 36 36 42 60 56 21 42 De 6 en 6:\n\nDe 6 en 6:\n\nDe 7 en 7:\n\nDe 7 en 7:\n\nPido a un familiar o amigo que me diga un número de inicio para cada literal y continúo la secuencia de números de 6 en 6 o de 7 en 7.\n\nPractico en casa\n\na. b.\n\na. b.\n\n1. De 6 en 6:\n\n2. De 7 en 7:\n\nInicio Inicio Inicio Inicio ciento cincuenta y dos",
+      "charCount": 493
+    },
+    {
+      "pageNumber": 154,
+      "text": "153 Cuento de ocho en ocho y de nueve en nueve Descubro En la tabla de números, iniciando en 0:\n\n• cuento y coloreo cada 8 números.\n\n• cuento y marco con una ✗ cada 9 números.\n\nCONTEOCONTEO 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 59 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 ¿Qué características observas?\n\nAyudo al búho a completar los números de 8 en 8 y de 9 en 9 hasta 100.\n\nLos números de 8 en 8, desde 0 hasta 100 son:\n\n0, 8, , 24, , 40, 48, , 64, 72, , 88, .\n\nLos números de 9 en 9, desde 0 hasta 100 son:\n\n, 9, 18, , 36, 45, 54 , , 72, 81, , .\n\nObservemos que los números y se encuentran en los dos listados.\n\nComparo mi respuesta con la de mis compañeros.\n\nObserva que los números de 9 en 9 tienen una curiosidad:\n\n09, 18, 27, 36, 45, 54 , 63, 72, 81, 90 La cifra de las unidades disminuye mientras que la de las decenas aumenta.\n\nciento cincuenta y tres ✗",
+      "charCount": 1074
+    },
+    {
+      "pageNumber": 155,
+      "text": "154 Resuelvo\n\n1. Escribo los números que faltan, iniciando en el número indicado.\n\nObservo y escribo los números que faltan.\n\na. b.\n\na. b.\n\na. b.\n\na. b.\n\n16 13 21 27 6 42 56 237 31 45 1 19 De 8 en 8:\n\nDe 8 en 8:\n\nDe 9 en 9:\n\nDe 9 en 9:\n\n1. Escribo los números que faltan, iniciando en el número indicado.\n\nPractico en casa\n\na. De 8 en 8: b. De 9 en 9:\n\na. De 8 en 8: b. De 9 en 9:\n\n2. Pido a un familiar o amigo que me diga un número de inicio para\n\ncada literal y continúo la secuencia.\n\nciento cincuenta y cuatro 8 18 Inicio Inicio",
+      "charCount": 533
+    },
+    {
+      "pageNumber": 156,
+      "text": "155 Sumo el número 22 varias veces Descubro Observo los siguientes pollos.\n\nCONTEOCONTEO ¿Cuántos pollos hay en total?\n\nRepresento con tapitas:\n\n➊ La primera pareja de pollos. Tengo tapitas.\n\n➋ La segunda pareja de pollos y las uno con la primera.\n\nTengo tapitas.\n\n➌ La tercera pareja de pollos y las uno con las primeras dos.\n\nTengo tapitas.\n\n➍ La cuarta pareja de pollos y las uno con las anteriores.\n\nTengo tapitas.\n\n➎ La última pareja de pollos y las uno con las anteriores.\n\nR: Hay pollos.\n\nComparo mi respuesta con la de mis compañeros.\n\nRecordemos que cuando reunimos elementos de varios grupos en uno solo estamos sumando.\n\nCuando tenemos varias parejas de elementos y queremos saber cuántos elementos hay en total utilizamos el conteo de 22 en 22.\n\nEn total hay pollos.\n\nPO 2 2 2 2 2+ + + + 2 2 22 2 =++++ 2 4 ciento cincuenta y cinco",
+      "charCount": 843
+    },
+    {
+      "pageNumber": 157,
+      "text": "156\n\na.\n\nb.\n\nResuelvo\n\n1. Completo el total de objetos, sumando el número 2 varias veces.\n\n2. Calculo el total, sumando el número 2 varias veces.\n\n2. Calculo el total, sumando el número 2 varias veces.\n\na.\n\nb.\n\na. 2 + 2 =\n\nb. 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 =\n\nc. 2 + 2 + 2 =\n\na. 2 + 2 + 2 + 2 + 2 =\n\nb. 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 =\n\n+ + + + + + + + + + = = = = + + + + + + + + + + + + +\n\n1. Encuentro el total de objetos, sumando el número 2 varias veces.\n\nPractico en casa ciento cincuenta y seis",
+      "charCount": 507
+    },
+    {
+      "pageNumber": 158,
+      "text": "157 Sumo el número 33 varias veces Descubro Observo las siguientes cestas con tomates.\n\nCONTEOCONTEO Represento con tapitas:\n\n➊ Los 3 tomates de la primera cesta.\n\nTengo tapitas.\n\n➋ Los 3 tomates de la segunda cesta y las uno con las primeras.\n\nTengo tapitas.\n\n➌ Los 3 tomates de la tercera cesta y las uno con las anteriores.\n\nTengo tapitas.\n\n➍ Los tomates de la cuarta cesta y las uno con las anteriores.\n\nR: Hay tomates.\n\nComparo mi respuesta con la de mis compañeros.\n\nAl igual que con el conteo de 2 en 2, utilizamos el conteo de 3 en 3 para encontrar el total cuando agrupamos o reunimos varios grupos de 3 elementos.\n\nEn total hay tomates.\n\n3 33 3 =+++ 3 9 PO:\n\nciento cincuenta y siete ¿Cuántos tomates hay en total?",
+      "charCount": 724
+    },
+    {
+      "pageNumber": 159,
+      "text": "158 ciento cincuenta y ocho\n\na.\n\nb.\n\na.\n\nb.\n\nResuelvo\n\n1. Encuentro el total de objetos, sumando el número 3 varias veces.\n\n2. Calculo el total, sumando el número 3 varias veces.\n\n2. Calculo el total, sumando el número 3 varias veces.\n\na. 3 + 3 =\n\nb. 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 =\n\nc. 3 + 3 + 3 + 3 + 3 + 3 + 3 =\n\na. 3 + 3 + 3 + 3 + 3 =\n\nb. 3 + 3 + 3 + 3 + 3 + 3 + 3 + 3 =\n\n+ + + + + + ++ + + = = = = + + + + + ++ +\n\n1. Encuentro el total de objetos, sumando el número 3 varias veces.\n\nPractico en casa",
+      "charCount": 512
+    },
+    {
+      "pageNumber": 160,
+      "text": "159 Sumo el mismo número varias vecesNumerosNumeros Experimento Preparo los siguientes materiales:\n\nObjetos diversos Cestas o recipientes Pliegos de papel y plumones 2 Dados Escucho y sigo las indicaciones de mi docente.\n\n➊ Formamos equipos de cinco o seis integrantes.\n\n➌ Formamos los grupos de objetos y colocamos cada grupo en una cesta o recipiente.\n\n➎ Compartimos el proceso seguido y nuestros resultados con nuestros compañeros.\n\n➋ Tiramos los dados dos veces:\n\n• En la primera vez la suma indicará la cantidad de\n\nelementos de cada grupo.\n\n• En la segunda vez la suma indicará la cantidad de\n\ngrupos a formar.\n\nSi sale el número 1111 o 1212, volvemos a tirar el dado.\n\n➍ En el pliego de papel, escribimos el PO que nos ayudará a encontrar el número total de objetos y luego calculamos y escribimos el total. Comprobamos el resultado contando los objetos de uno en uno.\n\n¡Pueden repetir el procedimiento las veces que quieran, con diversos objetos!\n\nPO: 3 + 3 R: Hay 6 bloques.\n\nciento cincuenta y nueve",
+      "charCount": 1009
+    },
+    {
+      "pageNumber": 161,
+      "text": "160 ciento sesenta Cuando tenemos varios grupos con la misma cantidad de objetos y queremos contarlos, utilizamos el conteo de tanto en tanto.\n\nPor ejemplo, cuenta el número de bloques y encuentra el total:\n\n6 66 =++ 6 En total hay bloques de construcción.\n\nResuelvo Calculo el total, sumando el número correspondiente varias veces.\n\n1. 5 + 5 + 5 + 5 + 5 + 5 + 5 + 5 =\n\n2. 7 + 7 + 7 + 7 =\n\n3. 8 + 8 + 8 + 8 + 8 + 8 =\n\n4. 9 + 9 + 9 =\n\na.\n\nb.\n\n2. Formo grupos con igual cantidad de objetos y encuentro el total\n\nsumando el mismo número varias veces.\n\n+ + + ++ + = =+ +\n\n1. Escribo el total de objetos, sumando el mismo número varias veces.\n\nPractico en casa",
+      "charCount": 655
+    },
+    {
+      "pageNumber": 162,
+      "text": "161 Anexos y recortes Anexos y recortes",
+      "charCount": 39
+    },
+    {
+      "pageNumber": 163,
+      "text": "162 Anexo 11 ciento sesenta y dos Los números del cero al cien son los siguientes:\n\n0 cero 1 uno 2 dos 3 tres 4 cuatro 5 cinco 6 seis 7 siete 8 ocho 9 nueve 10 diez 11 once 12 doce 13 trece 14 catorce 15 quince 16 dieciséis 17 diecisiete 18 dieciocho 19 diecinueve 20 veinte 21 veintiuno 22 veintidós 23 veintitrés 24 veinticuatro 25 veinticinco 26 veintiséis 27 veintisiete 28 veintiocho 29 veintinueve 30 treinta 31 treinta y uno 32 treinta y dos 33 treinta y tres 34 treinta y cuatro 35 treinta y cinco 36 treinta y seis 37 treinta y siete 38 treinta y ocho 39 treinta y nueve 40 cuarenta 41 cuarenta y uno 42 cuarenta y dos 43 cuarenta y tres 44 cuarenta y cuatro 45 cuarenta y cinco 46 cuarenta y seis 47 cuarenta y siete 48 cuarenta y ocho 49 cuarenta y nueve 50 cincuenta 51 cincuenta y uno 52 cincuenta y dos 53 cincuenta y tres 54 cincuenta y cuatro 55 cincuenta y cinco 56 cincuenta y seis 57 cincuenta y siete 58 cincuenta y ocho 59 cincuenta y nueve",
+      "charCount": 961
+    },
+    {
+      "pageNumber": 164,
+      "text": "Anexo 11 163ciento sesenta y tres 60 sesenta 61 sesenta y uno 62 sesenta y dos 63 sesenta y tres 64 sesenta y cuatro 65 sesenta y cinco 66 sesenta y seis 67 sesenta y siete 68 sesenta y ocho 69 sesenta y nueve 70 setenta 71 setenta y uno 72 setenta y dos 73 setenta y tres 74 setenta y cuatro 75 setenta y cinco 76 setenta y seis 77 setenta y siete 78 setenta y ocho 79 setenta y nueve 80 ochenta 81 ochenta y uno 82 ochenta y dos 83 ochenta y tres 84 ochenta y cuatro 85 ochenta y cinco 86 ochenta y seis 87 ochenta y siete 88 ochenta y ocho 89 ochenta y nueve\n\n90 noventa 91 noventa y uno 92 noventa y dos 93 noventa y tres 94 noventa y cuatro 95 noventa y cinco 96 noventa y seis 97 noventa y siete 98 noventa y ocho 99 noventa y nueve 100 cien",
+      "charCount": 747
+    },
+    {
+      "pageNumber": 165,
+      "text": "164 ciento sesenta y cuatro",
+      "charCount": 27
+    },
+    {
+      "pageNumber": 166,
+      "text": "Recortables 165 1 9 5 3 7 2 10 6 4 8 Tarjetas con números ciento sesenta y cinco",
+      "charCount": 80
+    },
+    {
+      "pageNumber": 167,
+      "text": "166 ciento sesenta y seis",
+      "charCount": 25
+    },
+    {
+      "pageNumber": 168,
+      "text": "Recortables 167 Tarjetas con números 0 ciento sesenta y siete",
+      "charCount": 61
+    },
+    {
+      "pageNumber": 169,
+      "text": "168 ciento sesenta y ocho",
+      "charCount": 25
+    },
+    {
+      "pageNumber": 170,
+      "text": "Recortables 169 11 33 22 Formación del 55 y el 66 44 55 ciento sesenta y nueve",
+      "charCount": 78
+    },
+    {
+      "pageNumber": 171,
+      "text": "170 ciento setenta",
+      "charCount": 18
+    },
+    {
+      "pageNumber": 172,
+      "text": "Recortables 171 Formación del 77 ciento setenta y uno",
+      "charCount": 53
+    },
+    {
+      "pageNumber": 173,
+      "text": "172 ciento setenta y dos",
+      "charCount": 24
+    },
+    {
+      "pageNumber": 174,
+      "text": "Recortables 173 3322 11 44 Formación del 99 ciento setenta y tres",
+      "charCount": 65
+    },
+    {
+      "pageNumber": 175,
+      "text": "174 ciento setenta y cuatro",
+      "charCount": 27
+    },
+    {
+      "pageNumber": 176,
+      "text": "Recortables 175 55 66 77 88 Formación del 99 ciento setenta y cinco",
+      "charCount": 67
+    },
+    {
+      "pageNumber": 177,
+      "text": "176 ciento setenta y seis",
+      "charCount": 25
+    },
+    {
+      "pageNumber": 178,
+      "text": "Recortables 177 11 44 77 22 55 88 33 66 99 Formación del 1010 ciento setenta y siete",
+      "charCount": 84
+    },
+    {
+      "pageNumber": 179,
+      "text": "178 ciento setenta y ocho",
+      "charCount": 25
+    },
+    {
+      "pageNumber": 180,
+      "text": "Recortables 179 Pegar Pegar Tiras de 1010 ciento setenta y nueve",
+      "charCount": 64
+    },
+    {
+      "pageNumber": 181,
+      "text": "180 ciento ochenta",
+      "charCount": 18
+    },
+    {
+      "pageNumber": 182,
+      "text": "Recortables 181\n\n1.°\n\nciento ochenta y uno\n\n2.°\n\n6.°\n\n3.°\n\n7.°\n\n9.°\n\n4.°\n\n8.°\n\n10.°\n\n5.°",
+      "charCount": 88
+    },
+    {
+      "pageNumber": 183,
+      "text": "182 Cuarto Tercero Segundo OctavoDécimo Sexto Primero SéptimoNoveno Quinto Recortables ciento ochenta y dos",
+      "charCount": 107
+    },
+    {
+      "pageNumber": 184,
+      "text": "Recortables 183\n\n11.° 12.° 13.° 14.°\n\n15.°\n\n19.°\n\n16.°\n\n20.°\n\n17.° 18.°\n\nNúmeros ordinales ciento ochenta y tres",
+      "charCount": 112
+    },
+    {
+      "pageNumber": 185,
+      "text": "184 Décimo cuarto Décimo octavo Décimo tercero Décimo séptimo Décimo segundo Décimo sextoVigésimo Décimo primero Décimo quinto Décimo noveno Recortables ciento ocheta y cuatro",
+      "charCount": 175
+    },
+    {
+      "pageNumber": 186,
+      "text": "Recortables 185 0 8 4 2 6 1 9 10 5 3 7 Tarjetas con números ciento ochenta y cinco",
+      "charCount": 82
+    },
+    {
+      "pageNumber": 187,
+      "text": "186 Recortables ciento ochenta y seis",
+      "charCount": 37
+    },
+    {
+      "pageNumber": 188,
+      "text": "Recortables 187 11 12 13 14 15 19 16 20 17 18 Tarjetas con números ciento ochenta y siete",
+      "charCount": 89
+    },
+    {
+      "pageNumber": 189,
+      "text": "188 Recortables ciento ochenta y ocho",
+      "charCount": 37
+    },
+    {
+      "pageNumber": 190,
+      "text": "Recortables 189 Azulejos ciento ochenta y nueve",
+      "charCount": 47
+    },
+    {
+      "pageNumber": 191,
+      "text": "190 ciento noventa",
+      "charCount": 18
+    },
+    {
+      "pageNumber": 192,
+      "text": "Recortables 191 Azulejos ciento noventa y uno",
+      "charCount": 45
+    },
+    {
+      "pageNumber": 193,
+      "text": "192 ciento noventa y dos",
+      "charCount": 24
+    },
+    {
+      "pageNumber": 194,
+      "text": "Recortables 193 Tabla para azulejos ciento noventa y tres",
+      "charCount": 57
+    },
+    {
+      "pageNumber": 195,
+      "text": "194 ciento noventa y cuatro",
+      "charCount": 27
+    },
+    {
+      "pageNumber": 196,
+      "text": "Recortables 195 10 20 30 40 50 90 60 70 80 Diez Veinte Treinta Cuarenta Cincuenta Setenta Memoria ciento noventa y cinco",
+      "charCount": 120
+    },
+    {
+      "pageNumber": 197,
+      "text": "196 ciento noventa y seis",
+      "charCount": 25
+    },
+    {
+      "pageNumber": 198,
+      "text": "Recortables 197 Sesenta Ochenta Noventa Memoria ciento noventa y siete",
+      "charCount": 70
+    },
+    {
+      "pageNumber": 199,
+      "text": "198 ciento noventa y ocho",
+      "charCount": 25
+    },
+    {
+      "pageNumber": 200,
+      "text": "Recortables 199 39 81 100 26 12 60 84 24 67 23 94 40 89 28 2 4 66 43 70 30 82 40 38 42 56 20 11 36 33 98 16 7 ciento noventa y nueve Cartones de lotería",
+      "charCount": 152
+    },
+    {
+      "pageNumber": 201,
+      "text": "200 doscientos",
+      "charCount": 14
+    },
+    {
+      "pageNumber": 202,
+      "text": "Recortables 201 2 34 73 89 31 37 93 11 62 64 17 56 54 7 84 43 62 46 50 72 83 96 11 2 49 3 100 55 42 16 31 91 doscientos uno Cartones de lotería",
+      "charCount": 143
+    },
+    {
+      "pageNumber": 203,
+      "text": "202 doscientos dos",
+      "charCount": 18
+    },
+    {
+      "pageNumber": 204,
+      "text": "Recortables 203 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 Fichas lotería doscientos tres",
+      "charCount": 204
+    },
+    {
+      "pageNumber": 205,
+      "text": "204 doscientos cuatro",
+      "charCount": 21
+    },
+    {
+      "pageNumber": 206,
+      "text": "Recortables 205 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 Fichas lotería doscientos cinco",
+      "charCount": 183
+    },
+    {
+      "pageNumber": 207,
+      "text": "206 doscientos seis",
+      "charCount": 19
+    },
+    {
+      "pageNumber": 208,
+      "text": "Recortables 207 Azulejos doscientos siete",
+      "charCount": 41
+    },
+    {
+      "pageNumber": 209,
+      "text": "208 doscientos ocho",
+      "charCount": 19
+    },
+    {
+      "pageNumber": 210,
+      "text": "Recortables 209 Azulejos doscientos nueve",
+      "charCount": 41
+    },
+    {
+      "pageNumber": 211,
+      "text": "210 doscientos diez",
+      "charCount": 19
+    },
+    {
+      "pageNumber": 212,
+      "text": "Recortables 211 6 + = 19 12 − = 2 3 + = 16 18 − = 12 8 + = 18 15 − = 10 + 11 = 19 − 3 = 15 + 14 = 17 − 10 = 9 + 10 = 15 − 11 = 2 Tarjetas de suma Tarjetas de resta doscientos once",
+      "charCount": 179
+    },
+    {
+      "pageNumber": 213,
+      "text": "212 doscientos doce",
+      "charCount": 19
+    },
+    {
+      "pageNumber": 214,
+      "text": "Recortables 213 Monedas doscientos trece",
+      "charCount": 40
+    },
+    {
+      "pageNumber": 215,
+      "text": "214 Recortables doscientos catorce",
+      "charCount": 34
+    },
+    {
+      "pageNumber": 216,
+      "text": "Recortables 215 Monedas doscientos quince",
+      "charCount": 41
+    },
+    {
+      "pageNumber": 217,
+      "text": "216 doscientos dieciséis",
+      "charCount": 24
+    },
+    {
+      "pageNumber": 218,
+      "text": "Recortables 217 Billetes doscientos diecisiete",
+      "charCount": 46
+    },
+    {
+      "pageNumber": 219,
+      "text": "218 doscientos dieciocho",
+      "charCount": 24
+    },
+    {
+      "pageNumber": 220,
+      "text": "Recortables 219 Billetes doscientos diecinueve",
+      "charCount": 46
+    },
+    {
+      "pageNumber": 221,
+      "text": "220 doscientos veinte",
+      "charCount": 21
+    },
+    {
+      "pageNumber": 222,
+      "text": "Recortables 221 Billetes doscientos veintiuno",
+      "charCount": 45
+    },
+    {
+      "pageNumber": 223,
+      "text": "222 doscientos veintidos",
+      "charCount": 24
+    },
+    {
+      "pageNumber": 224,
+      "text": "Recortables 223 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 Tabla con números doscientos veintitres",
+      "charCount": 349
+    },
+    {
+      "pageNumber": 225,
+      "text": "224 doscientos veinticuatro",
+      "charCount": 27
+    },
+    {
+      "pageNumber": 226,
+      "text": "1 Libro de texto Tomo 1 Números y Formas Números y Formas Tomo 1",
+      "charCount": 64
+    }
+  ]
+}

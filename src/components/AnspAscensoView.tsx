@@ -28,20 +28,29 @@ import { issueCertificate, AcademicCertificate } from '../services/certificateSe
 import { AudioSpeechButton } from './AudioSpeechButton';
 import { CertificateModal } from './CertificateModal';
 import { ModulePaginationBar } from './ModulePaginationBar';
+import { KaTeXMath } from '../utils/mathRenderer';
 
 interface AnspAscensoViewProps {
+  initialExamMode?: boolean;
   onOpenErrorNotebook?: () => void;
   showToast?: (msg: string) => void;
 }
 
 export const AnspAscensoView: React.FC<AnspAscensoViewProps> = ({
+  initialExamMode = false,
   onOpenErrorNotebook,
   showToast,
 }) => {
   const [selectedRankId, setSelectedRankId] = useState<string>('all');
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [itemsPerPage, setItemsPerPage] = useState<number>(10);
-  const [isExamMode, setIsExamMode] = useState<boolean>(false);
+  const [isExamMode, setIsExamMode] = useState<boolean>(initialExamMode);
+
+  useEffect(() => {
+    if (initialExamMode !== undefined) {
+      setIsExamMode(initialExamMode);
+    }
+  }, [initialExamMode]);
   const [examStarted, setExamStarted] = useState<boolean>(false);
   const [examSubmitted, setExamSubmitted] = useState<boolean>(false);
   const [secondsLeft, setSecondsLeft] = useState<number>(30 * 60);
@@ -402,8 +411,8 @@ export const AnspAscensoView: React.FC<AnspAscensoViewProps> = ({
               </div>
 
               {/* Enunciado */}
-              <p className="text-sm sm:text-base font-medium text-[#111625] leading-relaxed">
-                {q.statement}
+              <p className="text-sm sm:text-base font-medium text-[#111625] leading-relaxed min-w-0 break-words">
+                <KaTeXMath text={q.statement} />
               </p>
 
               {/* Opciones A-D */}
@@ -433,7 +442,9 @@ export const AnspAscensoView: React.FC<AnspAscensoViewProps> = ({
                       <span className="w-6 h-6 rounded bg-slate-100 border border-slate-300 font-mono-exam font-bold text-xs flex items-center justify-center shrink-0">
                         {opt.key}
                       </span>
-                      <span className="text-xs sm:text-sm leading-relaxed">{opt.text}</span>
+                      <span className="text-xs sm:text-sm leading-relaxed min-w-0 break-words">
+                        <KaTeXMath text={opt.text} />
+                      </span>
                     </button>
                   );
                 })}
@@ -473,16 +484,20 @@ export const AnspAscensoView: React.FC<AnspAscensoViewProps> = ({
                         <span className="text-[#64748B] text-[11px]">{q.legalBasis}</span>
                       </div>
 
-                      <p className="text-[#334155] leading-relaxed">{q.explanation}</p>
+                      <p className="text-[#334155] leading-relaxed min-w-0 break-words">
+                        <KaTeXMath text={q.explanation} />
+                      </p>
 
                       <div className="space-y-1.5 pt-2 border-t border-[#EAE8DD]">
                         <span className="font-mono-exam font-bold text-[#64748B] uppercase text-[10px] block">
                           ¿Por qué los otros distractores son incorrectos?:
                         </span>
                         {Object.entries(q.distractorRationale).map(([k, reason]) => (
-                          <div key={k} className="flex items-start gap-1.5 text-[11.5px] text-[#475569]">
+                          <div key={k} className="flex items-start gap-1.5 text-[11.5px] text-[#475569] min-w-0">
                             <strong className="text-[#0B1B3D] font-mono-exam shrink-0">({k}):</strong>
-                            <span>{reason}</span>
+                            <span className="min-w-0 break-words">
+                              <KaTeXMath text={reason} />
+                            </span>
                           </div>
                         ))}
                       </div>

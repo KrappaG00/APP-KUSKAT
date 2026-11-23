@@ -64,7 +64,7 @@ export const CSSP_JUNTAS: CsspJuntaMeta[] = [
     shortName: 'JVPQF',
     profession: 'Química y Farmacia',
     icon: '💊',
-    description: 'Buenas Prácticas de Manufactura (BPM/BPA), farmacovigilancia DNM y control de psicotrópicos.',
+    description: 'Buenas Prácticas de Manufactura (BPM/BPA), farmacovigilancia ante la Superintendencia de Regulación Sanitaria (SRS) y control de psicotrópicos.',
     legalCode: 'Ley de Medicamentos y Código de Salud',
   },
   {
@@ -87,7 +87,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "legalBasis": "Código de Salud de El Salvador, Art. 40 y Código Penal, Art. 146.",
     "statement": "Según el Código de Salud de El Salvador, ¿cuál de los siguientes actos constituye una infracción muy grave sancionable con suspensión del ejercicio profesional médico?",
     "options": {
-      "A": "Prescribir medicamentos genéricos de calidad comprobada aprobados por la DNM.",
+      "A": "Prescribir medicamentos genéricos de calidad comprobada aprobados por la Superintendencia de Regulación Sanitaria (SRS).",
       "B": "Ejercer la profesión médica o realizar procedimientos quirúrgicos especializados amparado únicamente en título de médico general sin acreditación de la especialidad ante la JVPM.",
       "C": "Remitir al paciente a un especialista de segundo nivel cuando el cuadro sobrepasa la capacidad resolutiva.",
       "D": "Solicitar consentimiento informado por escrito antes de una intervención quirúrgica mayor programada."
@@ -759,7 +759,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas; y Ley de Medicamentos de El Salvador.",
     "statement": "Al prescribir opioides mayores (como Morfina o Fentanilo) para el control del dolor oncológico severo, ¿cuál es el instrumento médico y legal obligatorio que debe utilizar el médico facultado en El Salvador?",
     "options": {
-      "A": "El Recetario Oficial de Sustancias Controladas y Estupefacientes foliado y autorizado por la Dirección Nacional de Medicamentos (Superintendencia de Regulación Sanitaria - SRS), cumpliendo los datos de posología en letras y números, diagnóstico y retención en farmacia.",
+      "A": "El Recetario Oficial de Sustancias Controladas y Estupefacientes foliado y autorizado por la Superintendencia de Regulación Sanitaria (SRS), cumpliendo los datos de posología en letras y números, diagnóstico y retención en farmacia.",
       "B": "Un trozo de papel en blanco sin membrete ni firma.",
       "C": "Un mensaje de texto por teléfono celular sin código de verificación.",
       "D": "Los opioides mayores se venden sin necesidad de receta médica en los mercados populares."
@@ -770,7 +770,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
       "C": "Las sustancias controladas de la Lista I y II exigen recetario oficial físico con medidas de seguridad no clonables.",
       "D": "La venta de estupefacientes fuera de farmacias autorizadas y sin receta constituye tráfico ilícito de drogas sancionado con penas graves de prisión."
     },
-    "explanation": "Los estupefacientes y opioides mayores están sujetos a fiscalización internacional y nacional estricta para evitar desvíos al tráfico ilícito y adicción. En El Salvador, solo pueden prescribirse mediante el talonario oficial foliado de recetas de estupefacientes emitido por la SRS/DNM, con consignación de la dosis en letras y números, firma y sello del médico, quedando la receta retenida y registrada en el libro oficial de la farmacia."
+    "explanation": "Los estupefacientes y opioides mayores están sujetos a fiscalización internacional y nacional estricta para evitar desvíos al tráfico ilícito y adicción. En El Salvador, solo pueden prescribirse mediante el talonario oficial foliado de recetas de estupefacientes emitido por la SRS, con consignación de la dosis en letras y números, firma y sello del médico, quedando la receta retenida y registrada en el libro oficial de la farmacia."
   },
   {
     "id": "cssp-jvpm-34",
@@ -1344,7 +1344,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpo",
     "juntaName": "Junta de Vigilancia de la Profesión Odontológica",
     "area": "Riesgo de Metahemoglobinemia por Anestésicos Tópicos y Locales",
-    "legalBasis": "Alerta Sanitaria de la DNM y Manual de Anestesia Odontológica de la JVPO.",
+    "legalBasis": "Alerta Sanitaria de la SRS y Manual de Anestesia Odontológica de la JVPO.",
     "statement": "Tras la aplicación extensa y desmedida de gel tópico de Benzocaína al 20% en la mucosa oral de un lactante para aliviar síntomas de dentición, el paciente presenta cianosis labial y acra que no mejora con oxígeno suplementario, cefalea, taquicardia y fatiga extrema (Metahemoglobinemia inducida por benzocaína). ¿Cuál es el antídoto específico endovenoso?",
     "options": {
       "A": "Atropina sulfato 1 mg IV directo.",
@@ -1563,7 +1563,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
       "D": "Puede delegar la prescripción al asistente dental sin supervisión."
     },
     "correctAnswer": "B",
-    "explanation": "El cirujano dentista debidamente inscrito ante la JVPO está legalmente facultado por el Código de Salud para prescribir medicamentos inherentes al ámbito de su competencia (como analgésicos opioides menores para dolor postquirúrgico severo), debiendo cumplir con los requisitos formales de receta médica, sello profesional y control normativo de la DNM.",
+    "explanation": "El cirujano dentista debidamente inscrito ante la JVPO está legalmente facultado por el Código de Salud para prescribir medicamentos inherentes al ámbito de su competencia (como analgésicos opioides menores para dolor postquirúrgico severo), debiendo cumplir con los requisitos formales de receta médica, sello profesional y control normativo de la SRS.",
     "distractorRationale": {
       "A": "Las recetas médicas informales en papel común sin identificación no son válidas ni dispensables bajo la Ley de Medicamentos.",
       "C": "El profesional de la odontología tiene potestad legal de prescripción farmacológica en el área estomatológica conforme al Código de Salud.",
@@ -2608,7 +2608,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "statement": "Un cliente se presenta a una farmacia privada solicitando Clonazepam 2 mg tabletas (benzodiacepina). Como regente farmacéutico, ¿cuál es el requisito legal estricto para su dispensación?",
     "options": {
       "A": "Dispensar libremente de venta libre si el cliente manifiesta insomnio severo.",
-      "B": "Exigir receta médica especial controlada (recetario oficial de la DNM), verificar la firma y sello de JVPM del médico, retener la receta para el libro de control y asentar el registro en el balance de psicotrópicos.",
+      "B": "Exigir receta médica especial controlada (recetario oficial de la SRS), verificar la firma y sello de JVPM del médico, retener la receta para el libro de control y asentar el registro en el balance de psicotrópicos.",
       "C": "Aceptar una fotocopia de receta médica de hace 6 meses.",
       "D": "Vender las tabletas sueltas en una bolsa sin empaque primario ni número de lote."
     },
@@ -2625,20 +2625,20 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Farmacovigilancia y Reporte Obligatorio de RAM",
-    "legalBasis": "Reglamento de Farmacovigilancia de El Salvador (DNM) y Centro Nacional de Farmacovigilancia (CNFV).",
-    "statement": "En una farmacia comunitaria u hospitalaria, el profesional químico farmacéutico detecta que tres pacientes que recibieron un antibiótico de un lote específico presentaron síndrome de Stevens-Johnson grave y choque anafiláctico. De acuerdo con la normativa nacional de Farmacovigilancia de la DNM, ¿cuál es el procedimiento y plazo oficial de reporte?",
+    "legalBasis": "Reglamento de Farmacovigilancia de El Salvador (SRS, antes DNM) y Centro Nacional de Farmacovigilancia (CNFV).",
+    "statement": "En una farmacia comunitaria u hospitalaria, el profesional químico farmacéutico detecta que tres pacientes que recibieron un antibiótico de un lote específico presentaron síndrome de Stevens-Johnson grave y choque anafiláctico. De acuerdo con la normativa nacional de Farmacovigilancia de la SRS, ¿cuál es el procedimiento y plazo oficial de reporte?",
     "options": {
       "A": "Ocultar el evento para no afectar las ventas del laboratorio fabricante.",
-      "B": "Notificar de forma obligatoria e inmediata al Centro Nacional de Farmacovigilancia (CNFV) de la DNM mediante el formulario oficial de sospecha de Reacción Adversa a Medicamentos (RAM) grave dentro de un plazo máximo no mayor a 72 horas (o inmediatamente si causa muerte), y poner en cuarentena preventiva el lote afectado.",
+      "B": "Notificar de forma obligatoria e inmediata al Centro Nacional de Farmacovigilancia (CNFV) de la SRS mediante el formulario oficial de sospecha de Reacción Adversa a Medicamentos (RAM) grave dentro de un plazo máximo no mayor a 72 horas (o inmediatamente si causa muerte), y poner en cuarentena preventiva el lote afectado.",
       "C": "Esperar a que termine el año fiscal para consolidar el reporte en la memoria anual de labores.",
       "D": "Pedir a los pacientes que redacten una queja en el libro de reclamos de la Defensoría del Consumidor sin avisar a la autoridad sanitaria."
     },
     "correctAnswer": "B",
-    "explanation": "El Reglamento de Farmacovigilancia de El Salvador exige a los profesionales de la salud y titulares de registro reportar las reacciones adversas graves o inesperadas al CNFV de la DNM en un lapso perentorio que no exceda las 72 horas (o de inmediato en casos fatales), adoptando medidas cautelares como la cuarentena del lote para salvaguardar la salud pública.",
+    "explanation": "El Reglamento de Farmacovigilancia de El Salvador exige a los profesionales de la salud y titulares de registro reportar las reacciones adversas graves o inesperadas al CNFV de la SRS en un lapso perentorio que no exceda las 72 horas (o de inmediato en casos fatales), adoptando medidas cautelares como la cuarentena del lote para salvaguardar la salud pública.",
     "distractorRationale": {
       "A": "El encubrimiento de eventos adversos graves a medicamentos constituye una violación flagrante a la Ley de Medicamentos y al Código Penal.",
       "C": "Las RAM graves con riesgo vital demandan intervención sanitaria inmediata para evitar más víctimas mediante alertas nacionales o retiros de mercado.",
-      "D": "La farmacovigilancia es competencia técnica sanitaria exclusiva de la DNM y no se sustituye por trámites de consumo comercial."
+      "D": "La farmacovigilancia es competencia técnica sanitaria exclusiva de la SRS y no se sustituye por trámites de consumo comercial."
     }
   },
   {
@@ -2646,7 +2646,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Buenas Prácticas de Almacenamiento (BPA) y Cadena de Frío",
-    "legalBasis": "Norma Técnica de Buenas Prácticas de Almacenamiento (BPA) de Productos Farmacéuticos (DNM / CSSP).",
+    "legalBasis": "Norma Técnica de Buenas Prácticas de Almacenamiento (BPA) de Productos Farmacéuticos (SRS / CSSP).",
     "statement": "En el almacén de una distribuidora farmacéutica o droguería, ¿cuál es el rango de temperatura mandatorio para garantizar la estabilidad y potencia de medicamentos biológicos termolábiles (como insulinas y vacunas) bajo régimen de cadena de frío estricta?",
     "options": {
       "A": "Entre +2.0 °C y +8.0 °C, con registro termográfico continuo dos veces al día mediante termohigrómetros calibrados y plan de contingencia eléctrica.",
@@ -2655,7 +2655,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
       "D": "Cualquier temperatura siempre que el empaque secundario permanezca sellado con cinta adhesiva."
     },
     "correctAnswer": "A",
-    "explanation": "La Norma Técnica de BPA de la DNM y los estándares internacionales de la OMS exigen que los productos termolábiles refrigerados se conserven ininterrumpidamente entre +2 °C y +8 °C. La congelación desnaturaliza las proteínas de la insulina y vacunas, provocando pérdida irreversible de su actividad biológica.",
+    "explanation": "La Norma Técnica de BPA de la SRS y los estándares internacionales de la OMS exigen que los productos termolábiles refrigerados se conserven ininterrumpidamente entre +2 °C y +8 °C. La congelación desnaturaliza las proteínas de la insulina y vacunas, provocando pérdida irreversible de su actividad biológica.",
     "distractorRationale": {
       "B": "La congelación de insulinas rompe la estructura cuaternaria proteica y precipita los adyuvantes de las vacunas, anulando su eficacia y provocando abscesos.",
       "C": "A temperatura de 15 °C a 25 °C se acelera la degradación hidrolítica de las formulaciones biológicas termolábiles.",
@@ -2667,16 +2667,16 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Bioequivalencia, Intercambiabilidad y Medicamentos de Estrecho Margen Terapéutico",
-    "legalBasis": "Ley de Medicamentos de El Salvador, Arts. 56 al 62 y Reglamento de Bioequivalencia (DNM).",
-    "statement": "Un paciente epiléptico acude a la farmacia con receta de Carbamazepina 200 mg del laboratorio innovador con el que se encuentra perfectamente controlado y sin convulsiones. El dispensador sugiere sustituir libremente el fármaco por otra marca no bioequivalente más económica. ¿Cuál es el criterio técnico-regulatorio emitido por la DNM y la JVPQF?",
+    "legalBasis": "Ley de Medicamentos de El Salvador, Arts. 56 al 62 y Reglamento de Bioequivalencia (SRS).",
+    "statement": "Un paciente epiléptico acude a la farmacia con receta de Carbamazepina 200 mg del laboratorio innovador con el que se encuentra perfectamente controlado y sin convulsiones. El dispensador sugiere sustituir libremente el fármaco por otra marca no bioequivalente más económica. ¿Cuál es el criterio técnico-regulatorio emitido por la SRS y la JVPQF?",
     "options": {
-      "A": "Está prohibida la sustitución automática sin autorización médica expresa en fármacos de Estrecho Margen Terapéutico (como carbamazepina, fenitoína, litio, digoxina), salvo que cuenten con certificación oficial de bioequivalencia in vivo emitida por la DNM.",
+      "A": "Está prohibida la sustitución automática sin autorización médica expresa en fármacos de Estrecho Margen Terapéutico (como carbamazepina, fenitoína, litio, digoxina), salvo que cuenten con certificación oficial de bioequivalencia in vivo emitida por la SRS.",
       "B": "Cualquier medicamento genérico puede sustituirse libremente sin importar si es de estrecho margen terapéutico o si carece de estudios de biodisponibilidad.",
       "C": "La sustitución es obligatoria por ley aun en contra del criterio del médico especialista tratante.",
       "D": "El dependiente de farmacia puede duplicar la dosis a su criterio para compensar posibles diferencias de absorción."
     },
     "correctAnswer": "A",
-    "explanation": "Los fármacos de estrecho margen terapéutico (NTI, por sus siglas en inglés) presentan pequeñas diferencias plasmáticas que pueden desencadenar toxicidad severa o fallo terapéutico (reaparición de crisis convulsivas). La Ley de Medicamentos y la DNM prohíben su intercambio libre en farmacia a menos que exista acreditación formal de bioequivalencia demostrada in vivo.",
+    "explanation": "Los fármacos de estrecho margen terapéutico (NTI, por sus siglas en inglés) presentan pequeñas diferencias plasmáticas que pueden desencadenar toxicidad severa o fallo terapéutico (reaparición de crisis convulsivas). La Ley de Medicamentos y la SRS prohíben su intercambio libre en farmacia a menos que exista acreditación formal de bioequivalencia demostrada in vivo.",
     "distractorRationale": {
       "B": "Sustituir medicamentos de estrecho rango terapéutico sin pruebas de bioequivalencia comprobadas genera crisis epilépticas o intoxicaciones graves.",
       "C": "La Ley de Medicamentos respeta la autonomía técnica de prescripción médica en medicamentos con riesgo farmacocinético crítico.",
@@ -2688,16 +2688,16 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Buenas Prácticas de Dispensación (BPD) y Medicamentos Vencidos",
-    "legalBasis": "Código de Salud de El Salvador, Art. 102; y Reglamento de Establecimientos Farmacéuticos (DNM).",
+    "legalBasis": "Código de Salud de El Salvador, Art. 102; y Reglamento de Establecimientos Farmacéuticos (SRS).",
     "statement": "Durante la auditoría interna mensual de una farmacia, el regente químico farmacéutico encuentra un lote de antibióticos inyectables cuya fecha de caducidad expiró hace dos semanas. Conforme al Código de Salud y las Buenas Prácticas de Almacenamiento y Dispensación, ¿cuál es la disposición técnica inmediata?",
     "options": {
-      "A": "Retirar inmediatamente los productos del área de venta, trasladarlos a la zona de Cuarentena debidamente rotulada y bajo llave, registrarlos en el libro de bajas y proceder a su destrucción supervisada conforme al acta sanitaria oficial de la DNM.",
+      "A": "Retirar inmediatamente los productos del área de venta, trasladarlos a la zona de Cuarentena debidamente rotulada y bajo llave, registrarlos en el libro de bajas y proceder a su destrucción supervisada conforme al acta sanitaria oficial de la SRS.",
       "B": "Ofrecerlos en liquidación o descuento del 50% a los clientes para recuperar los costos de inversión.",
       "C": "Reetiquetar con una nueva fecha de vencimiento otorgando un \"período de gracia\" de 6 meses.",
       "D": "Donarlos a una clínica comunal rural sin informar que están vencidos."
     },
     "correctAnswer": "A",
-    "explanation": "El Art. 102 del Código de Salud y las regulaciones de la DNM tipifican como infracción muy grave la tenencia o comercialización de medicamentos vencidos. El regente farmacéutico debe aislarlos en el área de cuarentena, levantar acta de desecho y coordinar su destrucción certificada para evitar su circulación ilícita.",
+    "explanation": "El Art. 102 del Código de Salud y las regulaciones de la SRS tipifican como infracción muy grave la tenencia o comercialización de medicamentos vencidos. El regente farmacéutico debe aislarlos en el área de cuarentena, levantar acta de desecho y coordinar su destrucción certificada para evitar su circulación ilícita.",
     "distractorRationale": {
       "B": "Comercializar productos farmacéuticos vencidos pone en riesgo la vida del consumidor y constituye delito contra la salud pública en el Código Penal.",
       "C": "La adulteración de fechas de vencimiento o reetiquetado fraudulento constituye falsificación de medicamentos, penada con prisión.",
@@ -2718,10 +2718,10 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
       "D": "La regencia farmacéutica puede ser ejercida por cualquier bachiller que haya cursado química en secundaria."
     },
     "correctAnswer": "B",
-    "explanation": "La Ley de Medicamentos (Arts. 23-28) y las regulaciones de la JVPQF/DNM establecen la obligatoriedad de la presencia física del profesional Químico Farmacéutico regente durante el horario de operación del establecimiento sanitario, respondiendo administrativamente y penalmente de la legalidad y calidad de los productos.",
+    "explanation": "La Ley de Medicamentos (Arts. 23-28) y las regulaciones de la JVPQF/SRS establecen la obligatoriedad de la presencia física del profesional Químico Farmacéutico regente durante el horario de operación del establecimiento sanitario, respondiendo administrativamente y penalmente de la legalidad y calidad de los productos.",
     "distractorRationale": {
       "A": "La figura de la \"regencia nominal o de alquiler de firma\" sin presencia física es una falta gravísima sancionable con suspensión profesional.",
-      "C": "Operar un establecimiento farmacéutico sin regencia habilitada constituye clausura inmediata del local y multa por la DNM.",
+      "C": "Operar un establecimiento farmacéutico sin regencia habilitada constituye clausura inmediata del local y multa por la SRS.",
       "D": "Solo los profesionales graduados con título universitario en Química y Farmacia e inscritos ante la JVPQF pueden ejercer la regencia."
     }
   },
@@ -2731,7 +2731,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Registro Sanitario de Medicamentos y Vigencia Legal",
     "legalBasis": "Ley de Medicamentos de El Salvador, Arts. 31 al 38 y Reglamento General.",
-    "statement": "En El Salvador, todo medicamento que se comercialice o distribuya en el territorio nacional debe contar con Registro Sanitario otorgado por la Dirección Nacional de Medicamentos (DNM). ¿Cuál es el período de vigencia legal de dicho registro sanitario?",
+    "statement": "En El Salvador, todo medicamento que se comercialice o distribuya en el territorio nacional debe contar con Registro Sanitario otorgado por la Superintendencia de Regulación Sanitaria (SRS). ¿Cuál es el período de vigencia legal de dicho registro sanitario?",
     "options": {
       "A": "Vigencia de 1 año con renovación mensual.",
       "B": "Vigencia de 5 años, renovable previa solicitud y cumplimiento de los requisitos de calidad, seguridad y eficacia establecidos en la normativa técnica.",
@@ -2739,7 +2739,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
       "D": "Vigencia de 25 años sin necesidad de inspección analítica."
     },
     "correctAnswer": "B",
-    "explanation": "El Art. 38 de la Ley de Medicamentos dispone que el Registro Sanitario de productos farmacéuticos tiene una vigencia legal de 5 años contados a partir de su emisión, sujeto a renovación periódica y vigilancia post-comercialización por parte del laboratorio de control de calidad de la DNM.",
+    "explanation": "El Art. 38 de la Ley de Medicamentos dispone que el Registro Sanitario de productos farmacéuticos tiene una vigencia legal de 5 años contados a partir de su emisión, sujeto a renovación periódica y vigilancia post-comercialización por parte del laboratorio de control de calidad de la SRS.",
     "distractorRationale": {
       "A": "Un año es un plazo excesivamente corto incompatible con los procesos regulatorios industriales.",
       "C": "Ningún registro sanitario farmacéutico es perpetuo; la evidencia científica y perfiles de seguridad evolucionan continuamente.",
@@ -2793,8 +2793,8 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Condiciones de Ensayos de Estabilidad: Zona Climática IVb",
-    "legalBasis": "Guía de Estudios de Estabilidad de Medicamentos de la DNM y Guías ICH Q1A.",
-    "statement": "De acuerdo con la clasificación climática internacional de la OMS y las regulaciones de la DNM para El Salvador y la región centroamericana, ¿cuáles son las condiciones ambientales normativas para los estudios de estabilidad a largo plazo (vida útil)?",
+    "legalBasis": "Guía de Estudios de Estabilidad de Medicamentos de la SRS y Guías ICH Q1A.",
+    "statement": "De acuerdo con la clasificación climática internacional de la OMS y las regulaciones de la SRS para El Salvador y la región centroamericana, ¿cuáles son las condiciones ambientales normativas para los estudios de estabilidad a largo plazo (vida útil)?",
     "options": {
       "A": "Zona Climática I: 21 °C y 45% de Humedad Relativa (clima templado).",
       "B": "Zona Climática IVb: 30 °C ± 2 °C y 75% ± 5% de Humedad Relativa (clima cálido y muy húmedo).",
@@ -2835,7 +2835,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Clasificación de Reacciones Adversas a Medicamentos (Rawlins y Thompson)",
-    "legalBasis": "Guía de Farmacovigilancia del Centro Nacional de Farmacovigilancia (CNFV) y DNM.",
+    "legalBasis": "Guía de Farmacovigilancia del Centro Nacional de Farmacovigilancia (CNFV) y SRS.",
     "statement": "Un paciente hipertenso tratado con Enalapril presenta tos seca, persistente y no productiva mediada por la acumulación de bradicinina pulmonar, la cual desaparece al retirar el fármaco. Conforme a la clasificación de Rawlins y Thompson de RAM, ¿cómo se clasifica esta reacción?",
     "options": {
       "A": "Reacción Tipo A (Augmented / Aumentada): es una reacción predecible basada en el mecanismo farmacológico del medicamento y dosis-dependiente.",
@@ -2877,7 +2877,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Algoritmo de Naranjo para Evaluación de Causalidad de RAM",
-    "legalBasis": "Guía Nacional de Farmacovigilancia del CNFV y DNM.",
+    "legalBasis": "Guía Nacional de Farmacovigilancia del CNFV y SRS.",
     "statement": "Al aplicar el Algoritmo de Naranjo en la evaluación pericial de una sospecha de Reacción Adversa a Medicamentos (RAM) en un hospital, el cálculo final arroja una puntuación de 10 puntos. ¿Cuál es la categoría de causalidad oficial?",
     "options": {
       "A": "Causalidad Dudosa o Improbable (Doubtful).",
@@ -2919,11 +2919,11 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Gestión Ambiental y Destrucción Segura de Medicamentos Vencidos",
-    "legalBasis": "Ley del Medio Ambiente, Reglamento Especial en Materia de Sustancias Peligrosas y Normativa DNM.",
+    "legalBasis": "Ley del Medio Ambiente, Reglamento Especial en Materia de Sustancias Peligrosas y Normativa SRS.",
     "statement": "Al coordinar la destrucción oficial de un lote de medicamentos citostáticos y antibióticos vencidos dados de baja en una distribuidora farmacéutica, ¿cuál es el procedimiento ambiental y técnicamente autorizado?",
     "options": {
       "A": "Arrojarlos por el inodoro o alcantarillado sanitario hacia los ríos locales.",
-      "B": "Contratar a una empresa gestora de desechos peligrosos debidamente autorizada por el MARN y la DNM para su tratamiento térmico mediante Incineración de Alta Temperatura (> 1,000 °C con lavado de gases) o encapsulamiento en celdas de confinamiento de seguridad, levantando el Acta Sanitaria de Destrucción oficial con presencia de inspector de la DNM.",
+      "B": "Contratar a una empresa gestora de desechos peligrosos debidamente autorizada por el MARN y la SRS para su tratamiento térmico mediante Incineración de Alta Temperatura (> 1,000 °C con lavado de gases) o encapsulamiento en celdas de confinamiento de seguridad, levantando el Acta Sanitaria de Destrucción oficial con presencia de inspector de la SRS.",
       "C": "Triturarlos con un martillo y enterrarlos en el jardín de la casa del químico farmacéutico.",
       "D": "Regalarlos a recicladores informales para que vendan el cartón y el vidrio."
     },
@@ -2940,11 +2940,11 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Farmacovigilancia de Vacunas: Eventos Supuestamente Atribuibles a la Inmunización (ESAVI)",
-    "legalBasis": "Manual de Vigilancia Epidemiológica de ESAVI de la DNM y MINSAL.",
+    "legalBasis": "Manual de Vigilancia Epidemiológica de ESAVI de la SRS y MINSAL.",
     "statement": "Tras la administración de una vacuna en un centro de salud, un lactante presenta anafilaxia severa y choque a los 20 minutos de la vacunación. Conforme al sistema nacional de farmacovigilancia, ¿cuál es la categoría del evento y el plazo máximo perentorio para la notificación oficial?",
     "options": {
       "A": "Es un ESAVI Leve que puede notificarse 6 meses después en un informe consolidado.",
-      "B": "Es un ESAVI Grave (Evento Supuestamente Atribuible a la Vacunación o Inmunización con amenaza a la vida), el cual debe notificarse de forma inmediata en un plazo no mayor a 24 horas a través de la ficha epidemiológica oficial ante la DNM y el Sistema de Vigilancia del MINSAL.",
+      "B": "Es un ESAVI Grave (Evento Supuestamente Atribuible a la Vacunación o Inmunización con amenaza a la vida), el cual debe notificarse de forma inmediata en un plazo no mayor a 24 horas a través de la ficha epidemiológica oficial ante la SRS y el Sistema de Vigilancia del MINSAL.",
       "C": "No debe notificarse para no alarmar a los padres de familia ni generar dudas sobre las vacunas.",
       "D": "Es un problema de los fabricantes que no concierne al profesional de salud local."
     },
@@ -2965,12 +2965,12 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "statement": "En la inspección técnica del empaque secundario (caja externa) de un producto farmacéutico comercializado en El Salvador, ¿cuál de los siguientes datos es de obligatorio cumplimiento legal según el RTCA de Etiquetado y la Ley de Medicamentos?",
     "options": {
       "A": "Fotografía a color de los accionistas principales del laboratorio fabricante.",
-      "B": "Nombre comercial (si aplica), Denominación Común Internacional (DCI / nombre genérico), concentración del principio activo, forma farmacéutica, fórmula cuali-cuantitativa por unidad posológica, número de Registro Sanitario de El Salvador emitido por la DNM, número de lote, fecha de vencimiento, condiciones de almacenamiento y el Precio Máximo de Venta al Público (PVP).",
+      "B": "Nombre comercial (si aplica), Denominación Común Internacional (DCI / nombre genérico), concentración del principio activo, forma farmacéutica, fórmula cuali-cuantitativa por unidad posológica, número de Registro Sanitario de El Salvador emitido por la SRS, número de lote, fecha de vencimiento, condiciones de almacenamiento y el Precio Máximo de Venta al Público (PVP).",
       "C": "Horóscopo y consejos astrológicos del fabricante.",
       "D": "La firma manuscrita original del presidente del CSSP en cada caja individual."
     },
     "correctAnswer": "B",
-    "explanation": "El RTCA de etiquetado y la Ley de Medicamentos salvadoreña determinan de forma rigurosa los elementos informativos indispensables en el empaque primario y secundario: DCI, concentración, lote, caducidad, registro sanitario de la DNM, vía de administración, precauciones y el precio máximo regulado (PVP fijado por ley).",
+    "explanation": "El RTCA de etiquetado y la Ley de Medicamentos salvadoreña determinan de forma rigurosa los elementos informativos indispensables en el empaque primario y secundario: DCI, concentración, lote, caducidad, registro sanitario de la SRS, vía de administración, precauciones y el precio máximo regulado (PVP fijado por ley).",
     "distractorRationale": {
       "A": "Los datos societarios de accionistas son irrelevantes para la información sanitaria del medicamento.",
       "C": "La inclusión de elementos esotéricos o publicitarios engañosos está prohibida por la normativa sanitaria.",
@@ -2982,7 +2982,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Regulación de Medicamentos Biológicos y Biocomparables",
-    "legalBasis": "Reglamento de Productos Biológicos y Biotecnológicos de la DNM.",
+    "legalBasis": "Reglamento de Productos Biológicos y Biotecnológicos de la SRS.",
     "statement": "En relación con los Medicamentos Biológicos y Productos Bioterapéuticos Similares (Biocomparables o Biosimilares), ¿cuál de las siguientes aseveraciones técnicas es correcta?",
     "options": {
       "A": "Un biocomparable se sintetiza químicamente de forma idéntica a una molécula pequeña como la aspirina.",
@@ -2994,7 +2994,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "explanation": "A diferencia de los fármacos químicos de síntesis donde se obtienen copias exactas mediante química sintética, los biológicos son proteínas complejas producidas por organismos vivos. No existen \"genéricos biológicos\"; se habla de \"biocomparables\", los cuales deben demostrar similitud estrecha en calidad, seguridad, eficacia y perfil de inmunogenicidad.",
     "distractorRationale": {
       "A": "Los biológicos son proteínas gigantescas plegadas producidas biotecnológicamente, no moléculas sintetizables por síntesis química elemental.",
-      "C": "Comercializar biológicos sin ejercicio de comparabilidad acreditado ante la DNM viola la Ley de Medicamentos y expone a reacciones autoinmunes graves.",
+      "C": "Comercializar biológicos sin ejercicio de comparabilidad acreditado ante la SRS viola la Ley de Medicamentos y expone a reacciones autoinmunes graves.",
       "D": "Las proteínas biológicas son termolábiles y muy susceptibles a agregación y desnaturalización si se rompe la cadena de frío."
     }
   },
@@ -3003,19 +3003,19 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Control y Dispensación de Estupefacientes en Hospitales",
-    "legalBasis": "Reglamento para el Control de Estupefacientes, Psicotrópicos y Sustancias Agregadas de la DNM.",
+    "legalBasis": "Reglamento para el Control de Estupefacientes, Psicotrópicos y Sustancias Agregadas de la SRS.",
     "statement": "En la farmacia hospitalaria, un médico de turno solicita Morphina 10 mg/ml ampollas para el alivio del dolor oncológico de un paciente hospitalizado. ¿Cuál es la exigencia de control de sustancias controladas que debe verificar el químico farmacéutico antes de entregar las ampollas?",
     "options": {
       "A": "Entregar las ampollas libremente por pedido verbal sin receta ni firma.",
-      "B": "Exigir la receta oficial de estupefacientes (recetario oficial en triplicado emitido por la DNM) debidamente llenada con el nombre del paciente, número de expediente, dosis exacta prescrita, firma y sello del médico con número de JVPM, rebajar el stock en el Libro de Control de Estupefacientes foliado por la JVPQF y conservar los casquillos/ampollas vacías según política institucional.",
+      "B": "Exigir la receta oficial de estupefacientes (recetario oficial en triplicado emitido por la SRS) debidamente llenada con el nombre del paciente, número de expediente, dosis exacta prescrita, firma y sello del médico con número de JVPM, rebajar el stock en el Libro de Control de Estupefacientes foliado por la JVPQF y conservar los casquillos/ampollas vacías según política institucional.",
       "C": "Aceptar una orden enviada por correo electrónico sin firma ni sello.",
       "D": "Hacer que el paciente acuda personalmente a pie a la farmacia con dolor intolerable a recoger las ampollas."
     },
     "correctAnswer": "B",
-    "explanation": "La morfina es un estupefaciente sujeto a la Convención Única de Estupefacientes de 1961 y regulaciones salvadoreñas de la DNM. Su dispensación exige receta oficial controlada por triplicado, verificación del prescriptor facultado, descargo contable inmediato en el libro oficial foliado y custodia bajo llave en caja de seguridad con acceso exclusivo del farmacéutico.",
+    "explanation": "La morfina es un estupefaciente sujeto a la Convención Única de Estupefacientes de 1961 y regulaciones salvadoreñas de la SRS. Su dispensación exige receta oficial controlada por triplicado, verificación del prescriptor facultado, descargo contable inmediato en el libro oficial foliado y custodia bajo llave en caja de seguridad con acceso exclusivo del farmacéutico.",
     "distractorRationale": {
       "A": "Dispensar estupefacientes sin receta oficial controlada constituye el delito de tráfico ilícito de drogas sancionado con penas de prisión.",
-      "C": "Las órdenes informales o digitales no autorizadas por la plataforma oficial de la DNM carecen de validez legal para estupefacientes.",
+      "C": "Las órdenes informales o digitales no autorizadas por la plataforma oficial de la SRS carecen de validez legal para estupefacientes.",
       "D": "La administración hospitalaria se realiza a través del personal de enfermería autorizado, no forzando la marcha del paciente postrado."
     }
   },
@@ -3024,7 +3024,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Seguridad en Gases Medicinales y Especificaciones de Calidad",
-    "legalBasis": "Norma Técnica de Gases Medicinales de la DNM y Farmacopea Oficial.",
+    "legalBasis": "Norma Técnica de Gases Medicinales de la SRS y Farmacopea Oficial.",
     "statement": "En relación con el Oxígeno Medicinal gaseoso suministrado en cilindros para soporte respiratorio en centros asistenciales, ¿cuáles son las especificaciones de pureza farmacopeica y código de color reglamentario del cilindro en El Salvador?",
     "options": {
       "A": "Pureza no menor al 99.5% de $O_2$ (v/v) y el cilindro debe identificarse reglamentariamente con el color Verde (cuerpo o gollete) según la norma técnica oficial.",
@@ -3033,7 +3033,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
       "D": "Pureza del 50% mezclado con monóxido de carbono."
     },
     "correctAnswer": "A",
-    "explanation": "El oxígeno medicinal es un medicamento regulado por la DNM que debe cumplir con una pureza analítica mínima de 99.5% según Farmacopea Oficial. Para evitar errores fatales de conexión en gases clínicos, el código de identificación cromática estandarizado para cilindros de oxígeno medicinal es el color Verde.",
+    "explanation": "El oxígeno medicinal es un medicamento regulado por la SRS que debe cumplir con una pureza analítica mínima de 99.5% según Farmacopea Oficial. Para evitar errores fatales de conexión en gases clínicos, el código de identificación cromática estandarizado para cilindros de oxígeno medicinal es el color Verde.",
     "distractorRationale": {
       "B": "Una pureza de 10% causaría anoxia mortal; el color negro carbón identifica otros gases industriales.",
       "C": "Usar tanques de gas combustible para oxígeno medicinal genera explosiones térmicas violentas y contaminación por hidrocarburos.",
@@ -3049,12 +3049,12 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "statement": "Durante una inspección técnica en una droguería, el químico farmacéutico detecta un lote de tabletas que presentan rebordes irregulares, tipografía borrosa en el blíster, ausencia de número de lote troquelado y principio activo ausente en la prueba analítica (Medicamento Falsificado). ¿Cuál es la obligación legal y sanitaria del profesional?",
     "options": {
       "A": "Vender las tabletas a mitad de precio en el mercado informal para no reportar pérdidas económicas.",
-      "B": "Inmovilizar de inmediato el producto en cuarentena, levantar acta técnica detallada y notificar de forma urgente a la Dirección Nacional de Medicamentos (DNM) y a la Fiscalía General de la República (FGR) para iniciar la investigación penal correspondiente por delitos contra la salud pública.",
+      "B": "Inmovilizar de inmediato el producto en cuarentena, levantar acta técnica detallada y notificar de forma urgente a la Superintendencia de Regulación Sanitaria (SRS) y a la Fiscalía General de la República (FGR) para iniciar la investigación penal correspondiente por delitos contra la salud pública.",
       "C": "Triturar el lote y guardarlo en el casillero de los empleados.",
       "D": "Ignorar el hallazgo y culpar a los transportistas."
     },
     "correctAnswer": "B",
-    "explanation": "La falsificación y adulteración de medicamentos atenta directamente contra la vida colectiva y constituye un delito penal tipificado en el Código Penal salvadoreño (Art. 274) y Ley de Medicamentos. El profesional está obligado a inmovilizar cautelarmente el lote y activar la alerta ante la DNM y la FGR.",
+    "explanation": "La falsificación y adulteración de medicamentos atenta directamente contra la vida colectiva y constituye un delito penal tipificado en el Código Penal salvadoreño (Art. 274) y Ley de Medicamentos. El profesional está obligado a inmovilizar cautelarmente el lote y activar la alerta ante la SRS y la FGR.",
     "distractorRationale": {
       "A": "Comercializar productos falsificados convierte al profesional en coautor del delito de comercio ilícito de fármacos.",
       "C": "Ocultar evidencia delictiva en casilleros constituye complicidad y encubrimiento punible.",
@@ -3066,19 +3066,19 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Control de Precios de Medicamentos y Precio Máximo al Público (PVP)",
-    "legalBasis": "Ley de Medicamentos de El Salvador, Arts. 56 al 60 y Unidad de Precios de la DNM.",
+    "legalBasis": "Ley de Medicamentos de El Salvador, Arts. 56 al 60 y Unidad de Precios de la SRS.",
     "statement": "La Ley de Medicamentos de El Salvador establece un régimen de regulación económica sobre el mercado farmacéutico para garantizar la accesibilidad de la población. ¿Cómo se determina el Precio Máximo de Venta al Público (PVP) y qué sanción acarrea su incumplimiento?",
     "options": {
       "A": "Cada farmacia fija el precio que desee libremente según la cara del cliente.",
-      "B": "El PVP es fijado oficialmente por la Dirección Nacional de Medicamentos (DNM) con base en una canasta de precios de referencia internacional; su comercialización por encima del precio regulado constituye una infracción muy grave sujeta a multas severas y clausura.",
+      "B": "El PVP es fijado oficialmente por la Superintendencia de Regulación Sanitaria (SRS) con base en una canasta de precios de referencia internacional; su comercialización por encima del precio regulado constituye una infracción muy grave sujeta a multas severas y clausura.",
       "C": "El precio es fijado por el Fondo Monetario Internacional en euros sin intervención del Estado salvadoreño.",
       "D": "Los medicamentos son siempre gratuitos en todos los establecimientos privados."
     },
     "correctAnswer": "B",
-    "explanation": "La Ley de Medicamentos introdujo la regulación de precios mediante una metodología de precios de referencia de países comparadores de la región. Todo medicamento debe rotular su PVP regulado, y cobrar por encima de dicha cifra es una infracción perseguida por la DNM y la Defensoría del Consumidor.",
+    "explanation": "La Ley de Medicamentos introdujo la regulación de precios mediante una metodología de precios de referencia de países comparadores de la región. Todo medicamento debe rotular su PVP regulado, y cobrar por encima de dicha cifra es una infracción perseguida por la SRS y la Defensoría del Consumidor.",
     "distractorRationale": {
       "A": "El mercado de medicamentos en El Salvador no opera bajo libre fijación arbitraria de precios sin tope legal.",
-      "C": "La competencia de fijación de precios corresponde legalmente y con carácter soberano a la DNM salvadoreña.",
+      "C": "La competencia de fijación de precios corresponde legalmente y con carácter soberano a la SRS salvadoreña.",
       "D": "Las farmacias privadas son comercios autorizados que venden productos, pero regulados bajo precios tope máximos."
     }
   },
@@ -3087,8 +3087,8 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Clasificación de Retiro de Productos del Mercado (Recall)",
-    "legalBasis": "Reglamento y Procedimiento de Retiro de Mercado de Productos Farmacéuticos de la DNM.",
-    "statement": "La DNM ordena el retiro inmediato del mercado nacional de un lote de colirio oftálmico tras confirmarse contaminación microbiológica intrínseca con Pseudomonas aeruginosa que ya ha provocado ceguera y endoftalmitis en varios pacientes. Conforme a las directrices de Farmacovigilancia, ¿qué tipo de retiro de mercado corresponde?",
+    "legalBasis": "Reglamento y Procedimiento de Retiro de Mercado de Productos Farmacéuticos de la SRS.",
+    "statement": "La SRS ordena el retiro inmediato del mercado nacional de un lote de colirio oftálmico tras confirmarse contaminación microbiológica intrínseca con Pseudomonas aeruginosa que ya ha provocado ceguera y endoftalmitis en varios pacientes. Conforme a las directrices de Farmacovigilancia, ¿qué tipo de retiro de mercado corresponde?",
     "options": {
       "A": "Retiro de Mercado Clase I: situación en la cual existe una probabilidad razonable de que el uso o exposición al producto cause consecuencias adversas graves para la salud o la muerte.",
       "B": "Retiro de Mercado Clase III: cuando el defecto es meramente tipográfico en el código de barras y no afecta la salud.",
@@ -3108,7 +3108,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Publicidad de Medicamentos de Prescripción y Muestras Médicas",
-    "legalBasis": "Ley de Medicamentos de El Salvador, Arts. 70 al 76 y Reglamento de Publicidad de la DNM.",
+    "legalBasis": "Ley de Medicamentos de El Salvador, Arts. 70 al 76 y Reglamento de Publicidad de la SRS.",
     "statement": "En relación con la publicidad y promoción de medicamentos que requieren receta médica (medicamentos éticos o de prescripción), ¿cuál es la prohibición legal taxativa impuesta por la Ley de Medicamentos?",
     "options": {
       "A": "Se permite publicitar antibióticos y psicotrópicos en carteles luminosos, radio, televisión y redes masivas para inducir al público a comprarlos.",
@@ -3121,7 +3121,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "distractorRationale": {
       "A": "Publicitar fármacos éticos en televisión promueve la automedicación y resistencia antimicrobiana, estando estrictamente prohibido.",
       "C": "Entregar fármacos en promociones comerciales viola las normas de dispensación farmacéutica y seguridad.",
-      "D": "La DNM cuenta con una Unidad de Monitoreo de Publicidad que sanciona activamente la publicidad no autorizada."
+      "D": "La SRS cuenta con una Unidad de Monitoreo de Publicidad que sanciona activamente la publicidad no autorizada."
     }
   },
   {
@@ -3150,7 +3150,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Buenas Prácticas de Dispensación y Prevención de Errores por Nombres LASA",
-    "legalBasis": "Guía de Buenas Prácticas de Dispensación de la JVPQF y Alerta LASA de la DNM.",
+    "legalBasis": "Guía de Buenas Prácticas de Dispensación de la JVPQF y Alerta LASA de la SRS.",
     "statement": "En la farmacia se reciben prescripciones con medicamentos cuyos nombres poseen similitud fonética u ortográfica (\"Look-Alike / Sound-Alike\" - LASA), tales como Cefotaxima vs Cefazolina, o Hidroxicina vs Hidralazina. ¿Qué estrategia técnica de seguridad farmacéutica debe implementar el regente en el almacenamiento y dispensación?",
     "options": {
       "A": "Colocar todos los medicamentos con nombres parecidos en la misma gaveta sin orden alfabético.",
@@ -3234,16 +3234,16 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Tecnovigilancia de Dispositivos Médicos y Reactivos de Diagnóstico",
-    "legalBasis": "Reglamento de Tecnovigilancia de El Salvador (DNM) y Lineamientos de la JVPQF.",
-    "statement": "En un hospital se detecta que un lote de catéteres intravenosos presenta defecto de manufactura con rotura espontánea de la punta plástica intravascular al momento de retirarlos en 4 pacientes. Conforme a la normativa nacional de Tecnovigilancia de la DNM, ¿cuál es la conducta que debe liderar el farmacéutico de tecnovigilancia?",
+    "legalBasis": "Reglamento de Tecnovigilancia de El Salvador (SRS) y Lineamientos de la JVPQF.",
+    "statement": "En un hospital se detecta que un lote de catéteres intravenosos presenta defecto de manufactura con rotura espontánea de la punta plástica intravascular al momento de retirarlos en 4 pacientes. Conforme a la normativa nacional de Tecnovigilancia de la SRS, ¿cuál es la conducta que debe liderar el farmacéutico de tecnovigilancia?",
     "options": {
       "A": "Arrojar los catéteres rotos a la basura y no decir nada para evitar litigios con el proveedor.",
-      "B": "Notificar de inmediato el Incidente Adverso Grave ante la Unidad de Tecnovigilancia de la DNM mediante el formato oficial, inmovilizar cautelarmente todas las unidades del lote en el hospital, solicitar al proveedor el análisis de causa raíz y emitir alerta interna para protección de los usuarios.",
+      "B": "Notificar de inmediato el Incidente Adverso Grave ante la Unidad de Tecnovigilancia de la SRS mediante el formato oficial, inmovilizar cautelarmente todas las unidades del lote en el hospital, solicitar al proveedor el análisis de causa raíz y emitir alerta interna para protección de los usuarios.",
       "C": "Intentar pegar las puntas plásticas de los catéteres con pegamento industrial y reutilizarlos.",
       "D": "Exigir al paciente que compre su propio pegamento para reconstruir el catéter en su vena."
     },
     "correctAnswer": "B",
-    "explanation": "La tecnovigilancia vigila la seguridad de los dispositivos médicos en el mercado post-comercialización. Un incidente con potencial de daño severo (como embolia de cuerpo extraño por rotura de catéter) exige reporte perentorio a la DNM, cuarentena institucional de las existencias y retiro preventivo de mercado coordinado por la autoridad sanitaria.",
+    "explanation": "La tecnovigilancia vigila la seguridad de los dispositivos médicos en el mercado post-comercialización. Un incidente con potencial de daño severo (como embolia de cuerpo extraño por rotura de catéter) exige reporte perentorio a la SRS, cuarentena institucional de las existencias y retiro preventivo de mercado coordinado por la autoridad sanitaria.",
     "distractorRationale": {
       "A": "Omitir la notificación de un fallo recurrente de un dispositivo médico expone a más pacientes a embolias intravasculares.",
       "C": "Reutilizar o reparar catéteres con adhesivos cáusticos es una falta grave que provoca septicemia e intoxicación química.",
@@ -3255,7 +3255,7 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Validación de Métodos Analíticos según ICH Q2(R1)",
-    "legalBasis": "Guía de Validación de Métodos Analíticos de la DNM y Guías Internacionales ICH Q2(R1).",
+    "legalBasis": "Guía de Validación de Métodos Analíticos de la SRS y Guías Internacionales ICH Q2(R1).",
     "statement": "Al validar un método analítico por HPLC para la cuantificación del principio activo en un producto terminado farmacéutico, ¿cuál es el parámetro que evalúa el grado de concordancia entre los resultados analíticos individuales al aplicar repetidamente el método sobre múltiples tomas de una muestra homogénea bajo condiciones prescritas?",
     "options": {
       "A": "Linealidad matemática.",
@@ -3339,16 +3339,16 @@ export const CSSP_QUESTIONS_DATA: CsspQuestion[] = [
     "juntaId": "jvpqf",
     "juntaName": "Junta de Vigilancia de la Profesión Químico-Farmacéutica",
     "area": "Manejo de Sustancias Precursoras de Drogas y Ley Reguladora",
-    "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas de El Salvador y Control de Precursores Químicos de la DNM.",
+    "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas de El Salvador y Control de Precursores Químicos de la SRS.",
     "statement": "Un laboratorio químico o distribuidora maneja sustancias químicas catalogadas como Precursores Químicos y Sustancias Químicas Esenciales (como Ácido Sulfúrico, Ácido Clorhídrico, Acetona, Pseudoefedrina o Permanganato de Potasio). ¿Cuál es la exigencia de fiscalización administrativa ante el Estado salvadoreño?",
     "options": {
       "A": "Vender libremente a cualquier persona particular en efectivo sin solicitar identificación ni registro.",
-      "B": "Estar inscrito en el Registro Nacional de Precursores Químicos de la DNM, llevar libros foliados de movimientos de inventario con balance mensual de entradas y salidas justificadas, y exigir a los compradores la licencia de usuario final calificado para prevenir el desvío ilícito hacia la producción de narcóticos.",
+      "B": "Estar inscrito en el Registro Nacional de Precursores Químicos de la SRS, llevar libros foliados de movimientos de inventario con balance mensual de entradas y salidas justificadas, y exigir a los compradores la licencia de usuario final calificado para prevenir el desvío ilícito hacia la producción de narcóticos.",
       "C": "Tirar los excedentes al río para no tener que declararlos en el inventario.",
       "D": "Comercializarlos exclusivamente en puestos informales callejeros."
     },
     "correctAnswer": "B",
-    "explanation": "Los precursores y sustancias químicas esenciales son susceptibles de desvío hacia la manufactura clandestina de cocaína, heroína o metanfetaminas. La legislación salvadoreña impone controles rigurosos de trazabilidad, cuotas anuales autorizadas por la DNM y reporte periódico de existencias y transacciones comerciales.",
+    "explanation": "Los precursores y sustancias químicas esenciales son susceptibles de desvío hacia la manufactura clandestina de cocaína, heroína o metanfetaminas. La legislación salvadoreña impone controles rigurosos de trazabilidad, cuotas anuales autorizadas por la SRS y reporte periódico de existencias y transacciones comerciales.",
     "distractorRationale": {
       "A": "La venta clandestina o sin verificación de usuario final calificado constituye delito de facilitación de precursores penado con prisión.",
       "C": "Deshacerse de precursores en fuentes hídricas constituye delito de contaminación ambiental y desobediencia a la fiscalización de narcóticos.",

@@ -1,45 +1,51 @@
 import React, { useState, useMemo } from 'react';
 import {
   GraduationCap,
-  Layers,
   BookOpen,
   Brain,
   Scale,
   Stethoscope,
-  Activity,
   Shield,
-  FileText,
-  Gavel,
-  HeartPulse,
-  Wrench,
-  Sun,
-  Compass,
   FlaskConical,
   Car,
   Globe2,
-  Flag,
-  Grid,
   Search,
-  ArrowRight,
   Filter,
   Sparkles,
   CheckCircle2,
   Bookmark,
+  Award,
+  Sprout,
+  ClipboardCheck,
 } from 'lucide-react';
 import { Institution } from '../../data';
 import { AppPageTab } from '../HeaderNavbar';
 
 export type PillarCategory =
   | 'all'
-  | 'admision'
-  | 'legal-health'
-  | 'tech-science'
-  | 'languages-civic'
-  | 'tools';
+  | 'admision-educacion'
+  | 'profesional-vial'
+  | 'idiomas'
+  | 'ciencias';
+
+export type PortalNavigationTarget =
+  | { tab: 'categories'; institution: Institution }
+  | { tab: 'practice'; institution: Institution }
+  | { tab: 'jovenes-talento'; jovenesTalentoTab: 'theory' | 'drills' }
+  | { tab: 'ansp-ascenso'; anspExamMode: boolean }
+  | { tab: 'academic-reinforcement'; academicMode: 'study' | 'test' }
+  | { tab: 'notary-exam'; notaryTab: 'study-units' | 'jurisprudence' | 'interactive-study' | 'simulator' }
+  | { tab: 'residentado-medico'; residentadoTab: 'thematic_units' | 'solved_cases' | 'simulator' | 'branching_cases' }
+  | { tab: 'driver-license'; driverSubTab: 'study' | 'cases' | 'signs' | 'quiz' }
+  | {
+      tab: 'languages';
+      languageId: string;
+      languageMainTab: 'theory' | 'basics' | 'vocabulary10k' | 'verbs' | 'comparative' | 'exam' | 'references';
+    }
+  | { tab: 'formula-lab'; formulaLabMode: 'lab' | 'test' };
 
 export interface ProjectAreaItem {
   id: string;
-  tabId: AppPageTab;
   title: string;
   pillar: PillarCategory;
   institutionAuthority: string;
@@ -49,364 +55,360 @@ export interface ProjectAreaItem {
   icon: React.ReactNode;
   gradient: string;
   accentBorder: string;
-  institution?: Institution;
+  studyTarget: PortalNavigationTarget;
+  testTarget: PortalNavigationTarget;
+  studyTab: AppPageTab;
+  testTab: AppPageTab;
 }
 
 export interface Courses3DSectionProps {
-  onEnroll?: (institution: Institution) => void;
-  onSelectTab: (tab: AppPageTab) => void;
+  onNavigateArea?: (target: PortalNavigationTarget) => void;
 }
 
-export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onEnroll, onSelectTab }) => {
+export const AREAS_CATALOG: ProjectAreaItem[] = [
+  // ========================================================================
+  // PILAR 1: ADMISIÓN Y EDUCACIÓN (6 ÁREAS)
+  // ========================================================================
+  {
+    id: 'area-ues',
+    title: 'UES',
+    pillar: 'admision-educacion',
+    institutionAuthority: 'Universidad de El Salvador (UES)',
+    metricBadge: '7,500 Reactivos Oficiales',
+    featureTag: 'Fase I & Fase II • 25 Subtemas',
+    description:
+      'Preparación integral para el Examen de Admisión de la Universidad de El Salvador en Matemática, Ciencias Naturales, Estudios Sociales y Lenguaje y Literatura con solucionarios en KaTeX.',
+    icon: <GraduationCap className="w-5 h-5 text-white" />,
+    gradient: 'from-blue-700 via-indigo-700 to-blue-800',
+    accentBorder: 'border-blue-500/30',
+    studyTarget: { tab: 'categories', institution: 'UES' },
+    testTarget: { tab: 'practice', institution: 'UES' },
+    studyTab: 'categories',
+    testTab: 'practice',
+  },
+  {
+    id: 'area-avanzo',
+    title: 'AVANZO',
+    pillar: 'admision-educacion',
+    institutionAuthority: 'MINED • Prueba Nacional',
+    metricBadge: '3,000 Reactivos Oficiales',
+    featureTag: '5 Áreas de Bachillerato',
+    description:
+      'Banco estructurado y simulador cronometrado para la Prueba Nacional AVANZO de Educación Media en Matemática, Lenguaje, Ciencias Naturales, Estudios Sociales e Inglés.',
+    icon: <BookOpen className="w-5 h-5 text-white" />,
+    gradient: 'from-indigo-700 via-purple-700 to-indigo-800',
+    accentBorder: 'border-indigo-500/30',
+    studyTarget: { tab: 'categories', institution: 'AVANZO' },
+    testTarget: { tab: 'practice', institution: 'AVANZO' },
+    studyTab: 'categories',
+    testTab: 'practice',
+  },
+  {
+    id: 'area-mined',
+    title: 'MINED',
+    pillar: 'admision-educacion',
+    institutionAuthority: 'MINED • ESMATE & ESLENGUA',
+    metricBadge: '97 Unidades • 112 Lecciones',
+    featureTag: '1.° Grado a 2.° Bachillerato',
+    description:
+      'Refuerzo escolar oficial del Ministerio de Educación con libros de texto, teoría sustantiva, 560 casos prácticos resueltos paso a paso y simuladores por unidad.',
+    icon: <BookOpen className="w-5 h-5 text-white" />,
+    gradient: 'from-sky-700 via-blue-700 to-indigo-800',
+    accentBorder: 'border-sky-500/30',
+    studyTarget: { tab: 'academic-reinforcement', academicMode: 'study' },
+    testTarget: { tab: 'academic-reinforcement', academicMode: 'test' },
+    studyTab: 'academic-reinforcement',
+    testTab: 'academic-reinforcement',
+  },
+  {
+    id: 'area-ena',
+    title: 'ENA',
+    pillar: 'admision-educacion',
+    institutionAuthority: 'Escuela Nacional de Agricultura',
+    metricBadge: '1,400 Reactivos Oficiales',
+    featureTag: '4 Asignaturas Agropecuarias',
+    description:
+      'Entrenamiento especializado para el examen de admisión de la ENA en Ciencias Agrícolas, Biología, Matemática y Lenguaje técnico orientado al sector agropecuario.',
+    icon: <Sprout className="w-5 h-5 text-white" />,
+    gradient: 'from-emerald-700 via-teal-700 to-emerald-800',
+    accentBorder: 'border-emerald-500/30',
+    studyTarget: { tab: 'categories', institution: 'ENA' },
+    testTarget: { tab: 'practice', institution: 'ENA' },
+    studyTab: 'categories',
+    testTab: 'practice',
+  },
+  {
+    id: 'area-escalafon',
+    title: 'ESCALAFON',
+    pillar: 'admision-educacion',
+    institutionAuthority: 'MINED • Escalafón Magisterial',
+    metricBadge: '3,300 Reactivos Oficiales',
+    featureTag: '11 Especialidades Docentes',
+    description:
+      'Preparación oficial para la evaluación del Escalafón Docente Nivel 1 del MINED: didáctica, legislación educativa salvadoreña y especialidades curriculares de aula.',
+    icon: <Award className="w-5 h-5 text-white" />,
+    gradient: 'from-teal-700 via-cyan-800 to-slate-900',
+    accentBorder: 'border-teal-500/30',
+    studyTarget: { tab: 'categories', institution: 'ESCALAFON' },
+    testTarget: { tab: 'practice', institution: 'ESCALAFON' },
+    studyTab: 'categories',
+    testTab: 'practice',
+  },
+  {
+    id: 'area-asd-mined',
+    title: 'ASD MINED',
+    pillar: 'admision-educacion',
+    institutionAuthority: 'MINED • UES ASD • Olimpiadas',
+    metricBadge: '2,190 Reactivos Olímpicos',
+    featureTag: 'Academias Sabatinas Departamentales',
+    description:
+      'Programa ASD MINED para Academias Sabatinas Departamentales y olimpiadas científicas en Matemática, Física, Química, Biología e Informática con demostraciones formales.',
+    icon: <Brain className="w-5 h-5 text-white" />,
+    gradient: 'from-amber-600 via-orange-600 to-amber-700',
+    accentBorder: 'border-amber-500/30',
+    studyTarget: { tab: 'jovenes-talento', jovenesTalentoTab: 'theory' },
+    testTarget: { tab: 'practice', institution: 'ASD' },
+    studyTab: 'jovenes-talento',
+    testTab: 'practice',
+  },
+
+  // ========================================================================
+  // PILAR 2: PROFESIONAL Y VIAL (5 ÁREAS)
+  // ========================================================================
+  {
+    id: 'area-ansp',
+    title: 'ANSP',
+    pillar: 'profesional-vial',
+    institutionAuthority: 'Academia Nacional de Seguridad Pública',
+    metricBadge: '250 Reactivos Culturales',
+    featureTag: 'Ingreso Nivel Básico PNC',
+    description:
+      'Banco oficial de preparación para la prueba cultural y de conocimientos generales de ingreso a la Academia Nacional de Seguridad Pública (ANSP).',
+    icon: <Shield className="w-5 h-5 text-white" />,
+    gradient: 'from-slate-800 via-blue-900 to-slate-900',
+    accentBorder: 'border-blue-500/30',
+    studyTarget: { tab: 'categories', institution: 'ANSP' },
+    testTarget: { tab: 'practice', institution: 'ANSP' },
+    studyTab: 'categories',
+    testTab: 'practice',
+  },
+  {
+    id: 'area-ascensos-pnc',
+    title: 'ASCENSOS PNC',
+    pillar: 'profesional-vial',
+    institutionAuthority: 'PNC • ANSP • Tribunal de Ascensos',
+    metricBadge: 'Cabos, Sargentos y Oficiales',
+    featureTag: 'Ley Orgánica PNC & PrPn',
+    description:
+      'Concursos de ascenso policial de la PNC conforme a la Ley de la Carrera Policial, Derechos Humanos, Código Procesal Penal, criminalística y protocolos tácticos.',
+    icon: <Shield className="w-5 h-5 text-white" />,
+    gradient: 'from-slate-900 via-blue-950 to-slate-900',
+    accentBorder: 'border-blue-500/30',
+    studyTarget: { tab: 'ansp-ascenso', anspExamMode: false },
+    testTarget: { tab: 'ansp-ascenso', anspExamMode: true },
+    studyTab: 'ansp-ascenso',
+    testTab: 'ansp-ascenso',
+  },
+  {
+    id: 'area-notariado-csj',
+    title: 'NOTARIADO CSJ',
+    pillar: 'profesional-vial',
+    institutionAuthority: 'Corte Suprema de Justicia (CSJ)',
+    metricBadge: '200 Casos Prácticos Oficiales',
+    featureTag: 'Ley del Notariado & Sala Civil',
+    description:
+      'Habilitación de la función notarial ante la CSJ: escrituras matrices, actas, testamentos, LENJVOD, nulidades civiles, jurisprudencia y vademécum de plazos.',
+    icon: <Scale className="w-5 h-5 text-white" />,
+    gradient: 'from-slate-800 via-slate-900 to-blue-950',
+    accentBorder: 'border-slate-500/30',
+    studyTarget: { tab: 'notary-exam', notaryTab: 'study-units' },
+    testTarget: { tab: 'notary-exam', notaryTab: 'simulator' },
+    studyTab: 'notary-exam',
+    testTab: 'notary-exam',
+  },
+  {
+    id: 'area-enar',
+    title: 'ENAR',
+    pillar: 'profesional-vial',
+    institutionAuthority: 'MINSAL • UES Posgrados Médicos',
+    metricBadge: '6 Especialidades Troncales',
+    featureTag: 'Casos Clínicos & Simulador',
+    description:
+      'Examen Nacional de Aspirantes a Residentados Médicos (ENAR) en Medicina Interna, Cirugía, Pediatría, Gineco-Obstetricia, Psiquiatría y Anestesiología.',
+    icon: <Stethoscope className="w-5 h-5 text-white" />,
+    gradient: 'from-blue-900 via-teal-900 to-slate-900',
+    accentBorder: 'border-teal-500/30',
+    studyTarget: { tab: 'residentado-medico', residentadoTab: 'thematic_units' },
+    testTarget: { tab: 'residentado-medico', residentadoTab: 'simulator' },
+    studyTab: 'residentado-medico',
+    testTab: 'residentado-medico',
+  },
+  {
+    id: 'area-vmt',
+    title: 'VMT',
+    pillar: 'profesional-vial',
+    institutionAuthority: 'Viceministerio de Transporte (VMT)',
+    metricBadge: 'Teórico & Señales Viales',
+    featureTag: 'Reglamento de Tránsito',
+    description:
+      'Preparación oficial para licencias de conducir Particular, Liviana, Pesada y Motocicleta: unidades normativas, señales de tránsito y simulador teórico VMT.',
+    icon: <Car className="w-5 h-5 text-white" />,
+    gradient: 'from-blue-800 via-sky-800 to-slate-900',
+    accentBorder: 'border-sky-500/30',
+    studyTarget: { tab: 'driver-license', driverSubTab: 'study' },
+    testTarget: { tab: 'driver-license', driverSubTab: 'quiz' },
+    studyTab: 'driver-license',
+    testTab: 'driver-license',
+  },
+
+  // ========================================================================
+  // PILAR 3: IDIOMAS (7 ÁREAS)
+  // ========================================================================
+  {
+    id: 'area-ingles',
+    title: 'INGLES',
+    pillar: 'idiomas',
+    institutionAuthority: 'MCER / CEFR • US & UK',
+    metricBadge: '120 Clases • 2,400 Reactivos',
+    featureTag: 'Niveles A1 - C2 • Comparativo',
+    description:
+      'Programa completo de Inglés Americano (US) y Británico (UK) alineado al MCER (A1 a C2) con gramática, verbos, vocabulario y simulador de 2,400 preguntas.',
+    icon: <Globe2 className="w-5 h-5 text-white" />,
+    gradient: 'from-blue-700 via-indigo-800 to-slate-900',
+    accentBorder: 'border-blue-500/30',
+    studyTarget: { tab: 'languages', languageId: 'english', languageMainTab: 'theory' },
+    testTarget: { tab: 'languages', languageId: 'english', languageMainTab: 'exam' },
+    studyTab: 'languages',
+    testTab: 'languages',
+  },
+  {
+    id: 'area-aleman',
+    title: 'ALEMÁN',
+    pillar: 'idiomas',
+    institutionAuthority: 'MCER • Goethe-Institut & DACH',
+    metricBadge: '120 Clases • 2,400 Reactivos',
+    featureTag: 'Niveles A1 - C2 • Hochdeutsch',
+    description:
+      'Formación estructurada en Alemán estándar (Hochdeutsch) con declinaciones, sintaxis V2, variantes DACH y banco evaluativo de 2,400 reactivos por nivel.',
+    icon: <Globe2 className="w-5 h-5 text-white" />,
+    gradient: 'from-amber-700 via-red-900 to-slate-900',
+    accentBorder: 'border-amber-500/30',
+    studyTarget: { tab: 'languages', languageId: 'german', languageMainTab: 'theory' },
+    testTarget: { tab: 'languages', languageId: 'german', languageMainTab: 'exam' },
+    studyTab: 'languages',
+    testTab: 'languages',
+  },
+  {
+    id: 'area-arabe',
+    title: 'ÁRABE',
+    pillar: 'idiomas',
+    institutionAuthority: 'ALECSO • Fus’ha & Levantino',
+    metricBadge: '120 Clases • 2,400 Reactivos',
+    featureTag: 'Caligrafía & Raíces Triconsonánticas',
+    description:
+      'Estudio del Árabe Estándar Moderno (Fus’ha) y contraste con el dialecto palestino-levantino de El Salvador, incluyendo alifato y examen de 2,400 preguntas.',
+    icon: <Globe2 className="w-5 h-5 text-white" />,
+    gradient: 'from-emerald-800 via-teal-900 to-slate-900',
+    accentBorder: 'border-emerald-500/30',
+    studyTarget: { tab: 'languages', languageId: 'arabic', languageMainTab: 'theory' },
+    testTarget: { tab: 'languages', languageId: 'arabic', languageMainTab: 'exam' },
+    studyTab: 'languages',
+    testTab: 'languages',
+  },
+  {
+    id: 'area-mandarin',
+    title: 'MANDARIN',
+    pillar: 'idiomas',
+    institutionAuthority: 'HSK 3.0 • Pǔtōnghuà',
+    metricBadge: '120 Clases • 2,400 Reactivos',
+    featureTag: 'Pinyin, Tonos & Caracteres Hanzi',
+    description:
+      'Curso progresivo de Chino Mandarín estándar (HSK 1 a HSK 6) con sistema tonal, clasificadores de medida, escritura Hanzi y simulador completo de evaluación.',
+    icon: <Globe2 className="w-5 h-5 text-white" />,
+    gradient: 'from-rose-800 via-red-900 to-slate-900',
+    accentBorder: 'border-rose-500/30',
+    studyTarget: { tab: 'languages', languageId: 'mandarin', languageMainTab: 'theory' },
+    testTarget: { tab: 'languages', languageId: 'mandarin', languageMainTab: 'exam' },
+    studyTab: 'languages',
+    testTab: 'languages',
+  },
+  {
+    id: 'area-nahuat',
+    title: 'NÁHUAT',
+    pillar: 'idiomas',
+    institutionAuthority: 'MINED • Lengua Originaria Pipil',
+    metricBadge: '120 Clases • 2,400 Reactivos',
+    featureTag: 'Witzapan & Cuisnahuat (A1 - C2)',
+    description:
+      'Preservación y enseñanza sistemática del Náhuat Pipil de El Salvador con norma ortográfica unificada, morfología aglutinante, verbos y banco evaluativo.',
+    icon: <Globe2 className="w-5 h-5 text-white" />,
+    gradient: 'from-teal-700 via-emerald-800 to-slate-900',
+    accentBorder: 'border-teal-500/30',
+    studyTarget: { tab: 'languages', languageId: 'nahuat', languageMainTab: 'theory' },
+    testTarget: { tab: 'languages', languageId: 'nahuat', languageMainTab: 'exam' },
+    studyTab: 'languages',
+    testTab: 'languages',
+  },
+  {
+    id: 'area-lenca',
+    title: 'LENCA',
+    pillar: 'idiomas',
+    institutionAuthority: 'Patrimonio Lingüístico • Morazán',
+    metricBadge: '120 Clases • 2,400 Reactivos',
+    featureTag: 'Potón de Guatajiagua & Chilanga',
+    description:
+      'Módulo de revitalización del Lenca Potón del oriente salvadoreño: estructura SOV, léxico cultural del barro negro, gramática comparada y examen por niveles.',
+    icon: <Globe2 className="w-5 h-5 text-white" />,
+    gradient: 'from-cyan-800 via-blue-900 to-slate-900',
+    accentBorder: 'border-cyan-500/30',
+    studyTarget: { tab: 'languages', languageId: 'lenca', languageMainTab: 'theory' },
+    testTarget: { tab: 'languages', languageId: 'lenca', languageMainTab: 'exam' },
+    studyTab: 'languages',
+    testTab: 'languages',
+  },
+  {
+    id: 'area-kakawira',
+    title: 'KAKAWIRA',
+    pillar: 'idiomas',
+    institutionAuthority: 'Familia Misumalpa • Cacaopera',
+    metricBadge: '120 Clases • 2,400 Reactivos',
+    featureTag: 'Cacaopera Tradicional (Morazán)',
+    description:
+      'Formación lingüística en Kakawira (Cacaopera) de la familia Misumalpa: fonología, toponimia sagrada, tradición oral de Morazán y simulador de 2,400 reactivos.',
+    icon: <Globe2 className="w-5 h-5 text-white" />,
+    gradient: 'from-indigo-800 via-violet-900 to-slate-900',
+    accentBorder: 'border-indigo-500/30',
+    studyTarget: { tab: 'languages', languageId: 'kakawira', languageMainTab: 'theory' },
+    testTarget: { tab: 'languages', languageId: 'kakawira', languageMainTab: 'exam' },
+    studyTab: 'languages',
+    testTab: 'languages',
+  },
+
+  // ========================================================================
+  // PILAR 4: CIENCIAS (1 ÁREA)
+  // ========================================================================
+  {
+    id: 'area-laboratorio-formulas',
+    title: 'LABORATORIO DE FORMULAS',
+    pillar: 'ciencias',
+    institutionAuthority: 'MINED • MINSAL • OPS/OMS',
+    metricBadge: '4 Simuladores + Test KaTeX',
+    featureTag: 'Poiseuille, pH, Cinética & Física',
+    description:
+      'Entorno cuantitativo interactivo con sliders dinámicos para Ley de Poiseuille, Henderson-Hasselbalch, farmacocinética y tiro parabólico, más Test de Fórmulas.',
+    icon: <FlaskConical className="w-5 h-5 text-white" />,
+    gradient: 'from-violet-800 via-purple-900 to-slate-900',
+    accentBorder: 'border-violet-500/30',
+    studyTarget: { tab: 'formula-lab', formulaLabMode: 'lab' },
+    testTarget: { tab: 'formula-lab', formulaLabMode: 'test' },
+    studyTab: 'formula-lab',
+    testTab: 'formula-lab',
+  },
+];
+
+export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onNavigateArea }) => {
   const [activePillar, setActivePillar] = useState<PillarCategory>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
-
-  const AREAS_CATALOG: ProjectAreaItem[] = [
-    // ------------------------------------------------------------------------
-    // PILAR 1: ADMISIÓN & PRUEBAS NACIONALES (4 MÓDULOS)
-    // ------------------------------------------------------------------------
-    {
-      id: 'practice-simulator',
-      tabId: 'practice',
-      title: 'Simulador Maestro de Admisión',
-      pillar: 'admision',
-      institutionAuthority: 'UES • MINED • ENA',
-      metricBadge: '17,640 Base • 41,080 Total',
-      featureTag: 'Cronómetro Real & Solucionario',
-      description:
-        'Simulador oficial de exámenes para ingreso universitario UES (Fase I y II), Escalafón Docente Magisterial, Prueba Nacional AVANZO y Escuela Nacional de Agricultura (ENA), con retroalimentación inmediata y justificaciones en KaTeX.',
-      icon: <GraduationCap className="w-5 h-5 text-white" />,
-      gradient: 'from-blue-700 via-indigo-700 to-blue-800',
-      accentBorder: 'border-blue-500/30',
-      institution: 'UES',
-    },
-    {
-      id: 'categories-explorer',
-      tabId: 'categories',
-      title: 'Malla Curricular & Categorías',
-      pillar: 'admision',
-      institutionAuthority: 'MINED • UES • CSJ',
-      metricBadge: '18 Categorías Jerárquicas',
-      featureTag: 'Doctrina APA 7.ª & Casoteca',
-      description:
-        'Explorador temático estructurado por institución y materia. Cada unidad cuenta con desarrollo teórico sustantivo de más de 500 palabras, citas en formato APA 7.ª Edición y casuística aplicada para fundamentar cada respuesta.',
-      icon: <Layers className="w-5 h-5 text-white" />,
-      gradient: 'from-indigo-700 via-purple-700 to-indigo-800',
-      accentBorder: 'border-indigo-500/30',
-    },
-    {
-      id: 'academic-reinforcement',
-      tabId: 'academic-reinforcement',
-      title: 'Refuerzo Escolar MINED-ESMATE',
-      pillar: 'admision',
-      institutionAuthority: 'MINED • ESMATE • El Salvador',
-      metricBadge: '97 Unidades • 112 Lecciones',
-      featureTag: '560 Casos Prácticos Resueltos',
-      description:
-        'Currículo nacional de Matemática y Ciencias Naturales desde 1.° Grado de Básica hasta 2.° año de Bachillerato. Cada lección profundiza conceptos clave con glosario técnico y 5 problemas demostrados paso a paso con fórmulas.',
-      icon: <BookOpen className="w-5 h-5 text-white" />,
-      gradient: 'from-sky-700 via-blue-700 to-indigo-800',
-      accentBorder: 'border-sky-500/30',
-    },
-    {
-      id: 'jovenes-talento',
-      tabId: 'jovenes-talento',
-      title: 'Programa Jóvenes Talento & Olimpiadas',
-      pillar: 'admision',
-      institutionAuthority: 'MINED • UES ASD • ONM',
-      metricBadge: '2,190 Problemas Desafiantes',
-      featureTag: 'Formato Olímpico Demostrativo',
-      description:
-        'Entrenamiento científico de élite para las Academias Sabatinas Departamentales (ASD) y competencias olímpicas en Matemática, Física, Química, Biología e Informática, con metodologías de demostración matemática y rigor formal.',
-      icon: <Brain className="w-5 h-5 text-white" />,
-      gradient: 'from-amber-600 via-orange-600 to-amber-700',
-      accentBorder: 'border-amber-500/30',
-      institution: 'ASD',
-    },
-
-    // ------------------------------------------------------------------------
-    // PILAR 2: HABILITACIÓN PROFESIONAL & LEYES (9 MÓDULOS)
-    // ------------------------------------------------------------------------
-    {
-      id: 'notary-exam',
-      tabId: 'notary-exam',
-      title: 'Examen de Suficiencia Notarial CSJ',
-      pillar: 'legal-health',
-      institutionAuthority: 'Corte Suprema de Justicia (CSJ)',
-      metricBadge: '200 Casos Prácticos Oficiales',
-      featureTag: 'Jurisprudencia Sala de lo Civil',
-      description:
-        'Preparación integral para la habilitación de la función notarial en El Salvador: escrituras matrices, poderes especiales, actas notariales, nulidades del Código Civil, doctrina registral y vademécum de plazos de la Ley del Notariado.',
-      icon: <Scale className="w-5 h-5 text-white" />,
-      gradient: 'from-slate-800 via-slate-900 to-blue-950',
-      accentBorder: 'border-slate-500/30',
-    },
-    {
-      id: 'residentado-medico',
-      tabId: 'residentado-medico',
-      title: 'Residentado Médico ENAR',
-      pillar: 'legal-health',
-      institutionAuthority: 'MINSAL • UES Posgrados Médicos',
-      metricBadge: '6 Especialidades Troncales',
-      featureTag: 'Casos Clínicos & Flashcards',
-      description:
-        'Examen Nacional de Aspirantes a Residentados Médicos (ENAR) en Medicina Interna, Cirugía General, Pediatría, Gineco-Obstetricia, Psiquiatría y Anestesiología, con diagnósticos diferenciales y vademécum farmacológico.',
-      icon: <Stethoscope className="w-5 h-5 text-white" />,
-      gradient: 'from-blue-900 via-teal-900 to-slate-900',
-      accentBorder: 'border-teal-500/30',
-    },
-    {
-      id: 'cssp-health',
-      tabId: 'cssp-health',
-      title: 'Profesiones de la Salud CSSP',
-      pillar: 'legal-health',
-      institutionAuthority: 'Consejo Superior de Salud Pública',
-      metricBadge: '7 Juntas de Vigilancia',
-      featureTag: 'Código de Salud & Deontología',
-      description:
-        'Habilitación deontológica y técnico-jurídica para las Juntas de Vigilancia Médica, Odontológica, Químico-Farmacéutica, Enfermería, Psicología, Laboratorio Clínico y Veterinaria, bajo el Código de Salud y su régimen disciplinario.',
-      icon: <Activity className="w-5 h-5 text-white" />,
-      gradient: 'from-emerald-800 via-teal-800 to-slate-900',
-      accentBorder: 'border-emerald-500/30',
-    },
-    {
-      id: 'ansp-ascenso',
-      tabId: 'ansp-ascenso',
-      title: 'Ascensos Policiales PNC / ANSP',
-      pillar: 'legal-health',
-      institutionAuthority: 'PNC • ANSP • Tribunal de Ascensos',
-      metricBadge: 'Cabos, Sargentos y Oficiales',
-      featureTag: 'Ley Orgánica PNC & PrPn',
-      description:
-        'Preparación para los concursos de ascenso de la Policía Nacional Civil conforme a la Ley de la Carrera Policial, Derechos Humanos, legislación penal salvadoreña, criminalística forense y protocolos de intervención táctica.',
-      icon: <Shield className="w-5 h-5 text-white" />,
-      gradient: 'from-slate-900 via-blue-950 to-slate-900',
-      accentBorder: 'border-blue-500/30',
-      institution: 'ANSP',
-    },
-    {
-      id: 'derecho-administrativo',
-      tabId: 'derecho-administrativo',
-      title: 'Derecho Administrativo LPA & Firma Digital',
-      pillar: 'legal-health',
-      institutionAuthority: 'LPA • MINEC • Sala Contencioso',
-      metricBadge: 'Ley de Procedimientos Administrativos',
-      featureTag: 'Silencio Administrativo & Plazos',
-      description:
-        'Especialización práctica en la LPA: actos administrativos regulares e irregulares, cómputo de plazos procesales en días hábiles, recursos de reconsideración y apelación, régimen sancionador y validez probatoria de la firma electrónica.',
-      icon: <FileText className="w-5 h-5 text-white" />,
-      gradient: 'from-blue-800 via-indigo-900 to-slate-900',
-      accentBorder: 'border-indigo-500/30',
-    },
-    {
-      id: 'constitution',
-      tabId: 'constitution',
-      title: 'Constitución y Ramas del Derecho',
-      pillar: 'legal-health',
-      institutionAuthority: 'CSJ • Sala de lo Constitucional',
-      metricBadge: '274 Artículos Comentados',
-      featureTag: 'Garantías y Amparo Constitucional',
-      description:
-        'Doctrina integral de la Carta Magna de 1983: derechos fundamentales, hábeas corpus, hábeas data, procesos de amparo e inconstitucionalidad, división de poderes del Estado salvadoreño y principios rectores del Derecho Civil y Mercantil.',
-      icon: <Scale className="w-5 h-5 text-white" />,
-      gradient: 'from-blue-900 via-slate-900 to-indigo-950',
-      accentBorder: 'border-blue-500/30',
-    },
-    {
-      id: 'oral-litigation',
-      tabId: 'oral-litigation',
-      title: 'Litigación Oral Penal & Objeciones',
-      pillar: 'legal-health',
-      institutionAuthority: 'Código Procesal Penal (PrPn)',
-      metricBadge: 'Arts. 209-212 PrPn en Acción',
-      featureTag: 'Simulador en Sala de Audiencias',
-      description:
-        'Taller interactivo de técnicas de litigación en vista pública penal: formulación de teoría del caso, interrogatorio directo, contrainterrogatorio y simulador cronometrado de objeciones a preguntas capciosas, sugestivas e impertinentes.',
-      icon: <Gavel className="w-5 h-5 text-white" />,
-      gradient: 'from-rose-900 via-red-950 to-slate-900',
-      accentBorder: 'border-rose-500/30',
-    },
-    {
-      id: 'compliance-financial',
-      tabId: 'compliance-financial',
-      title: 'Cumplimiento AML & Seguros SSF',
-      pillar: 'legal-health',
-      institutionAuthority: 'UIF-FGR • SSF • BCR',
-      metricBadge: 'LCLDA & Supervisión Financiera',
-      featureTag: 'Prevención AML/CFT & Pólizas',
-      description:
-        'Marco normativo salvadoreño contra el lavado de dinero y activos: debida diligencia ampliada de clientes, reporte de operaciones sospechosas (ROS), funciones del Oficial de Cumplimiento e intermediación de seguros supervisada por la SSF.',
-      icon: <Shield className="w-5 h-5 text-white" />,
-      gradient: 'from-cyan-900 via-blue-900 to-slate-900',
-      accentBorder: 'border-cyan-500/30',
-    },
-    {
-      id: 'salud-primaria',
-      tabId: 'salud-primaria',
-      title: 'Atención Primaria & Farmacovigilancia',
-      pillar: 'legal-health',
-      institutionAuthority: 'MINSAL • SRS / DNM • OPS',
-      metricBadge: 'Guías Clínicas & Algoritmo Naranjo',
-      featureTag: 'Dengue, HTA, DM2 & Vacunación',
-      description:
-        'Guías clínicas nacionales del MINSAL para el primer nivel de atención: detección y manejo de Dengue, Diabetes Mellitus Tipo 2 e Hipertensión, esquemas de vacunación regular y algoritmo de imputabilidad de RAM de la Superintendencia Sanitaria.',
-      icon: <HeartPulse className="w-5 h-5 text-white" />,
-      gradient: 'from-teal-900 via-emerald-900 to-slate-900',
-      accentBorder: 'border-emerald-500/30',
-    },
-
-    // ------------------------------------------------------------------------
-    // PILAR 3: FORMACIÓN TÉCNICA & CIENCIAS (5 MÓDULOS)
-    // ------------------------------------------------------------------------
-    {
-      id: 'technical-courses',
-      tabId: 'technical-courses',
-      title: '10 Cursos Técnicos Vocacionales INCAF',
-      pillar: 'tech-science',
-      institutionAuthority: 'INCAF (Ex-INSAFORP) • 400h',
-      metricBadge: '10 Especialidades Técnicas',
-      featureTag: 'Talleres Prácticos & Tareas',
-      description:
-        'Capacitación técnica en áreas de alta demanda industrial: Electricidad Residencial e Industrial, Mecánica Automotriz, Soldadura por Arco Eléctrico (Norma AWS), Refrigeración HVAC, Fontanería, Gastronomía y Seguridad Ocupacional.',
-      icon: <Wrench className="w-5 h-5 text-white" />,
-      gradient: 'from-amber-700 via-orange-800 to-slate-900',
-      accentBorder: 'border-amber-500/30',
-    },
-    {
-      id: 'siget-solar',
-      tabId: 'siget-solar',
-      title: 'Energía Solar & Electricidad SIGET',
-      pillar: 'tech-science',
-      institutionAuthority: 'SIGET • CNE • NEC 690',
-      metricBadge: 'NTCOGD Acuerdo 343-E',
-      featureTag: 'Generación Distribuida & Red',
-      description:
-        'Normativa salvadoreña de conexión de centrales fotovoltaicas a la red de distribución eléctrica: cálculo de caída de tensión, protecciones anti-isla, inversores interactivos, diagramas unifilares y certificación de electricistas.',
-      icon: <Sun className="w-5 h-5 text-white" />,
-      gradient: 'from-yellow-700 via-amber-800 to-slate-900',
-      accentBorder: 'border-yellow-500/30',
-    },
-    {
-      id: 'ingenieria-ciencias',
-      tabId: 'ingenieria-ciencias',
-      title: 'Ciencias de Ingeniería & Cuantitativas',
-      pillar: 'tech-science',
-      institutionAuthority: 'UES Facultades de Ingeniería',
-      metricBadge: 'Modelado Matemático KaTeX',
-      featureTag: 'Álgebra Matricial & Estática',
-      description:
-        'Fundamentos matemáticos y físicos para ingenierías: Álgebra Lineal aplicada, Geometría Analítica, Trigonometría, Estática de cuerpos rígidos y Dinámica newtoniana con demostraciones completas renderizadas con KaTeX.',
-      icon: <Compass className="w-5 h-5 text-white" />,
-      gradient: 'from-indigo-800 via-blue-900 to-slate-900',
-      accentBorder: 'border-indigo-500/30',
-    },
-    {
-      id: 'formula-lab',
-      tabId: 'formula-lab',
-      title: 'Laboratorio Interactivo de Fórmulas',
-      pillar: 'tech-science',
-      institutionAuthority: 'Física • Química • Medicina',
-      metricBadge: 'Simuladores con Sliders Dinámicos',
-      featureTag: 'Cálculo de Variables en Tiempo Real',
-      description:
-        'Entorno de experimentación cuantitativa: Ley de Poiseuille (resistencia vascular y flujo laminar), Ecuación de Henderson-Hasselbalch (equilibrio ácido-base), Cinemática de tiro parabólico y Circuitos Eléctricos con Ley de Ohm.',
-      icon: <FlaskConical className="w-5 h-5 text-white" />,
-      gradient: 'from-violet-800 via-purple-900 to-slate-900',
-      accentBorder: 'border-violet-500/30',
-    },
-    {
-      id: 'driver-license',
-      tabId: 'driver-license',
-      title: 'Licencias de Conducir VMT',
-      pillar: 'tech-science',
-      institutionAuthority: 'Viceministerio de Transporte (VMT)',
-      metricBadge: 'Examen Teórico & Psicológico',
-      featureTag: 'Reglamento de Tránsito & Señales',
-      description:
-        'Preparación oficial para aspirantes a licencias de conducir Particular, Liviana, Pesada o Motocicleta: simulador del examen teórico VMT, catálogo interactivo de señales de tránsito y módulo de evaluación psicológica vial.',
-      icon: <Car className="w-5 h-5 text-white" />,
-      gradient: 'from-blue-800 via-sky-800 to-slate-900',
-      accentBorder: 'border-sky-500/30',
-    },
-
-    // ------------------------------------------------------------------------
-    // PILAR 4: IDIOMAS & CULTURA CÍVICA (3 MÓDULOS)
-    // ------------------------------------------------------------------------
-    {
-      id: 'languages-school',
-      tabId: 'languages',
-      title: 'Escuela de Idiomas Kuskat',
-      pillar: 'languages-civic',
-      institutionAuthority: 'MCER / CEFR • Lenguas Originarias',
-      metricBadge: '7 Lenguas • 840 Clases',
-      featureTag: 'Audio Nativo & Gramática Progresiva',
-      description:
-        'Formación lingüística integral: preservación de lenguas ancestrales salvadoreñas (Náhuat Pipil, Lenca Potón, Kakawira Cacaopera), e idiomas globales de alta demanda (Inglés US/UK niveles A1-C2, Alemán, Mandarín estándar y Árabe).',
-      icon: <Globe2 className="w-5 h-5 text-white" />,
-      gradient: 'from-emerald-700 via-teal-800 to-slate-900',
-      accentBorder: 'border-teal-500/30',
-    },
-    {
-      id: 'patriotic-history',
-      tabId: 'patriotic-history',
-      title: 'Símbolos Patrios e Historia de El Salvador',
-      pillar: 'languages-civic',
-      institutionAuthority: 'Ministerio de Cultura • Archivo Nacional',
-      metricBadge: 'Símbolos & Mandatos Presidenciales',
-      featureTag: 'Historia Constitucional Salvadoreña',
-      description:
-        'Compendio cívico e histórico de la nación: significado, leyes y protocolo de los Símbolos Patrios salvadoreños, y registro cronológico documentado de todos los presidentes de la República desde la Independencia de 1821 hasta la actualidad.',
-      icon: <Flag className="w-5 h-5 text-white" />,
-      gradient: 'from-blue-700 via-indigo-800 to-slate-900',
-      accentBorder: 'border-blue-500/30',
-    },
-    {
-      id: 'central-america',
-      tabId: 'central-america',
-      title: 'Atlas Geopolítico de Centroamérica',
-      pillar: 'languages-civic',
-      institutionAuthority: 'SICA • SIECA • CEPAL',
-      metricBadge: '7 Naciones del Istmo',
-      featureTag: 'Cartografía & Datos Socioeconómicos',
-      description:
-        'Explorador interactivo de los países del Sistema de la Integración Centroamericana (SICA): geografía física, división departamental y provincial, estadísticas macroeconómicas, tratados comerciales y dinámica geopolítica regional.',
-      icon: <Layers className="w-5 h-5 text-white" />,
-      gradient: 'from-cyan-800 via-blue-900 to-slate-900',
-      accentBorder: 'border-cyan-500/30',
-    },
-
-    // ------------------------------------------------------------------------
-    // PILAR 5: HERRAMIENTAS DE SÍNTESIS & OMR (2 MÓDULOS)
-    // ------------------------------------------------------------------------
-    {
-      id: 'one-page-sheets',
-      tabId: 'one-page-sheets',
-      title: 'Hojas Mnemotécnicas de 1 Página',
-      pillar: 'tools',
-      institutionAuthority: 'Síntesis Académica KUSKAT',
-      metricBadge: 'Cheat Sheets de Alta Densidad',
-      featureTag: 'Repaso Rápido Pre-Examen',
-      description:
-        'Hojas de referencia rápida ultra-densas para repaso exprés: vademécum de plazos notariales y procesales, fórmulas matemáticas y físicas fundamentales, criterios clínicos diagnósticos y cuadros sinópticos de alta retención mnémica.',
-      icon: <FileText className="w-5 h-5 text-white" />,
-      gradient: 'from-amber-700 via-slate-800 to-slate-900',
-      accentBorder: 'border-amber-500/30',
-    },
-    {
-      id: 'latex-export',
-      tabId: 'latex',
-      title: 'Exportador LaTeX & Hojas OMR',
-      pillar: 'tools',
-      institutionAuthority: 'Tipografía Científica TeX / OMR',
-      metricBadge: 'Plantillas OMR (50 y 100 reactivos)',
-      featureTag: 'Código .tex Listo para Compilar',
-      description:
-        'Herramienta de composición tipográfica para exportar cualquier banco o examen en código fuente LaTeX estándar compatible con Overleaf y TeX Live, además de plantillas OMR calibradas con cuadrícula para evaluación óptica masiva.',
-      icon: <Grid className="w-5 h-5 text-white" />,
-      gradient: 'from-slate-800 via-indigo-950 to-slate-950',
-      accentBorder: 'border-slate-500/30',
-    },
-  ];
 
   // Filtrado reactivo por pilar y por término de búsqueda
   const filteredAreas = useMemo(() => {
@@ -428,39 +430,33 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onEnroll, on
   }, [activePillar, searchQuery]);
 
   const PILLAR_TABS: { id: PillarCategory; label: string; count: number }[] = [
-    { id: 'all', label: 'Todas las Áreas', count: AREAS_CATALOG.length },
+    { id: 'all', label: `Todas (${AREAS_CATALOG.length})`, count: AREAS_CATALOG.length },
     {
-      id: 'admision',
-      label: 'Admisión & Escolar',
-      count: AREAS_CATALOG.filter((a) => a.pillar === 'admision').length,
+      id: 'admision-educacion',
+      label: 'Admisión y Educación',
+      count: AREAS_CATALOG.filter((a) => a.pillar === 'admision-educacion').length,
     },
     {
-      id: 'legal-health',
-      label: 'Leyes & Salud',
-      count: AREAS_CATALOG.filter((a) => a.pillar === 'legal-health').length,
+      id: 'profesional-vial',
+      label: 'Profesional y Vial',
+      count: AREAS_CATALOG.filter((a) => a.pillar === 'profesional-vial').length,
     },
     {
-      id: 'tech-science',
-      label: 'Técnica & Ciencias',
-      count: AREAS_CATALOG.filter((a) => a.pillar === 'tech-science').length,
+      id: 'idiomas',
+      label: 'Idiomas',
+      count: AREAS_CATALOG.filter((a) => a.pillar === 'idiomas').length,
     },
     {
-      id: 'languages-civic',
-      label: 'Idiomas & Cívica',
-      count: AREAS_CATALOG.filter((a) => a.pillar === 'languages-civic').length,
-    },
-    {
-      id: 'tools',
-      label: 'Herramientas',
-      count: AREAS_CATALOG.filter((a) => a.pillar === 'tools').length,
+      id: 'ciencias',
+      label: 'Ciencias',
+      count: AREAS_CATALOG.filter((a) => a.pillar === 'ciencias').length,
     },
   ];
 
-  const handleCardClick = (area: ProjectAreaItem) => {
-    if (area.institution && onEnroll) {
-      onEnroll(area.institution);
+  const handleAction = (target: PortalNavigationTarget) => {
+    if (onNavigateArea) {
+      onNavigateArea(target);
     }
-    onSelectTab(area.tabId);
   };
 
   return (
@@ -469,7 +465,7 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onEnroll, on
       className="py-10 sm:py-16 bg-slate-50 relative overflow-hidden border-b border-slate-200"
       aria-label="Catálogo Maestro de Áreas de Estudio y Evaluación de KUSKAT"
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-8 sm:space-y-12">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 relative z-10 space-y-8 sm:space-y-12">
         {/* Encabezado Principal de la Sección */}
         <div className="text-center max-w-4xl mx-auto space-y-3">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100/70 border border-blue-200 text-blue-800 text-xs font-bold uppercase tracking-wider shadow-2xs">
@@ -482,8 +478,8 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onEnroll, on
           </h2>
 
           <p className="font-caslon text-sm sm:text-base lg:text-lg text-slate-600 leading-relaxed max-w-3xl mx-auto">
-            Explora las <strong>23 áreas especializadas</strong> del proyecto. Cada módulo incluye bancos verificados,
-            marcos normativos oficiales salvadoreños, fundamentación teórica rigurosa y su respectivo acceso directo.
+            Explora las <strong>19 áreas especializadas</strong> del portal. Cada tarjeta ofrece acceso directo para{' '}
+            <strong>Estudiar</strong> la teoría y malla curricular o para <strong>Hacer el Test</strong> de forma inmediata.
           </p>
         </div>
 
@@ -497,12 +493,13 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onEnroll, on
                 type="text"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                placeholder="Buscar por área, materia, ley o temática (ej. Notariado, ESMATE, LPA, Fórmulas, Inglés)..."
-                className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-xs sm:text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all"
+                placeholder="Buscar por área (ej. UES, AVANZO, ASD MINED, ENAR, VMT, Náhuat, Fórmulas)..."
+                className="w-full pl-10 pr-8 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-xs sm:text-sm text-slate-900 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all"
                 aria-label="Buscar área de estudio"
               />
               {searchQuery && (
                 <button
+                  type="button"
                   onClick={() => setSearchQuery('')}
                   className="absolute right-3 top-1/2 -translate-y-1/2 text-xs font-bold text-slate-400 hover:text-slate-600 cursor-pointer"
                   title="Limpiar búsqueda"
@@ -531,6 +528,7 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onEnroll, on
               return (
                 <button
                   key={p.id}
+                  type="button"
                   onClick={() => setActivePillar(p.id)}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer flex items-center gap-1.5 border ${
                     isActive
@@ -539,30 +537,33 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onEnroll, on
                   }`}
                 >
                   <span>{p.label}</span>
-                  <span
-                    className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono font-bold ${
-                      isActive ? 'bg-white/20 text-white' : 'bg-slate-200 text-slate-700'
-                    }`}
-                  >
-                    {p.count}
-                  </span>
+                  {p.id !== 'all' && (
+                    <span
+                      className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono font-bold ${
+                        isActive ? 'bg-white/20 text-white' : 'bg-slate-200 text-slate-700'
+                      }`}
+                    >
+                      {p.count}
+                    </span>
+                  )}
                 </button>
               );
             })}
           </div>
         </div>
 
-        {/* Cuadrícula de las 23 Tarjetas */}
+        {/* Cuadrícula de las 19 Tarjetas */}
         {filteredAreas.length === 0 ? (
-          <div className="bg-white rounded-3xl border border-dashed border-slate-300 p-12 text-center space-y-3">
+          <div className="bg-white rounded-3xl border border-dashed border-slate-300 p-10 text-center space-y-3">
             <Bookmark className="w-10 h-10 text-slate-300 mx-auto" />
             <h3 className="font-montenegrin text-lg font-bold text-slate-700">
               No se encontraron áreas con "{searchQuery}"
             </h3>
             <p className="text-xs text-slate-500 max-w-md mx-auto">
-              Intenta con otro término o selecciona "Todas las Áreas" en el selector superior para ver el catálogo completo.
+              Intenta con otro término o selecciona "Todas (19)" en el selector superior para ver el catálogo completo.
             </p>
             <button
+              type="button"
               onClick={() => {
                 setSearchQuery('');
                 setActivePillar('all');
@@ -581,11 +582,11 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onEnroll, on
               >
                 {/* Cabecera con degradado visual representativo */}
                 <div className={`bg-gradient-to-r ${area.gradient} p-4 sm:p-5 text-white relative`}>
-                  <div className="flex items-center justify-between gap-2.5 mb-2.5">
+                  <div className="flex items-center justify-between gap-2 mb-2.5">
                     <div className="p-2 rounded-xl bg-white/15 backdrop-blur-xs border border-white/20 shadow-2xs shrink-0">
                       {area.icon}
                     </div>
-                    <span className="text-[10px] sm:text-xs font-bold text-white tracking-wider uppercase bg-black/25 px-2.5 py-1 rounded-full border border-white/20 shadow-2xs truncate max-w-[160px] sm:max-w-none shrink-0">
+                    <span className="text-[10px] sm:text-xs font-bold text-white tracking-wider uppercase bg-black/25 px-2.5 py-1 rounded-full border border-white/20 shadow-2xs truncate max-w-[170px] sm:max-w-none shrink-0">
                       {area.metricBadge}
                     </span>
                   </div>
@@ -594,7 +595,7 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onEnroll, on
                     {area.institutionAuthority}
                   </span>
 
-                  <h3 className="font-montenegrin text-base sm:text-xl text-white font-black tracking-tight leading-snug break-words">
+                  <h3 className="font-montenegrin text-lg sm:text-xl text-white font-black tracking-tight leading-snug break-words">
                     {area.title}
                   </h3>
 
@@ -611,19 +612,31 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onEnroll, on
                   </p>
                 </div>
 
-                {/* Botón de ACCESO DIRECTO con llamada clara y acción garantizada */}
-                <div className="p-4 pt-0">
+                {/* Dos botones de acceso directo: Estudiar y Hacer el Test (responsive desde 320px) */}
+                <div className="p-4 pt-0 grid grid-cols-1 min-[340px]:grid-cols-2 gap-2">
                   <a
-                    href={`/?tab=${area.tabId}`}
+                    href={`/?tab=${area.studyTab}`}
                     onClick={(e) => {
                       e.preventDefault();
-                      handleCardClick(area);
+                      handleAction(area.studyTarget);
                     }}
-                    className="w-full py-2.5 px-4 rounded-xl bg-slate-900 hover:bg-blue-600 text-white font-caslon text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-xs hover:shadow-md flex items-center justify-center gap-2 cursor-pointer group-hover:bg-blue-600"
-                    aria-label={`Acceso Directo a ${area.title}`}
+                    className="w-full py-2.5 px-3 rounded-xl bg-slate-900 hover:bg-blue-700 text-white font-caslon text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-xs hover:shadow-md flex items-center justify-center gap-1.5 cursor-pointer"
+                    aria-label={`Estudiar ${area.title}`}
                   >
-                    <span>Acceso Directo</span>
-                    <ArrowRight className="w-4 h-4 text-white transition-transform group-hover:translate-x-1" />
+                    <BookOpen className="w-3.5 h-3.5 text-white shrink-0" />
+                    <span>Estudiar</span>
+                  </a>
+                  <a
+                    href={`/?tab=${area.testTab}`}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      handleAction(area.testTarget);
+                    }}
+                    className="w-full py-2.5 px-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-caslon text-xs font-bold uppercase tracking-wider transition-all duration-200 shadow-xs hover:shadow-md flex items-center justify-center gap-1.5 cursor-pointer"
+                    aria-label={`Hacer el Test de ${area.title}`}
+                  >
+                    <ClipboardCheck className="w-3.5 h-3.5 text-white shrink-0" />
+                    <span>Hacer el Test</span>
                   </a>
                 </div>
               </div>

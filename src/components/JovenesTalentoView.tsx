@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Trophy,
   Lightbulb,
@@ -35,15 +35,23 @@ import { CertificateModal } from './CertificateModal';
 import { AudioSpeechButton } from './AudioSpeechButton';
 
 interface JovenesTalentoViewProps {
+  initialTab?: 'theory' | 'drills';
   onOpenErrorNotebook?: () => void;
   showToast?: (msg: string) => void;
 }
 
 export const JovenesTalentoView: React.FC<JovenesTalentoViewProps> = ({
+  initialTab = 'theory',
   onOpenErrorNotebook,
   showToast,
 }) => {
-  const [activeTab, setActiveTab] = useState<'theory' | 'drills'>('theory');
+  const [activeTab, setActiveTab] = useState<'theory' | 'drills'>(initialTab);
+
+  useEffect(() => {
+    if (initialTab) {
+      setActiveTab(initialTab);
+    }
+  }, [initialTab]);
   const [selectedDiscipline, setSelectedDiscipline] = useState<string>('all');
   const [unlockedHints, setUnlockedHints] = useState<Record<string, number>>({});
   const [showSolution, setShowSolution] = useState<Record<string, boolean>>({});
@@ -598,9 +606,11 @@ export const JovenesTalentoView: React.FC<JovenesTalentoViewProps> = ({
                               Por qué fallan los otros distractores:
                             </span>
                             {Object.entries(prob.distractorRationale).map(([k, reason]) => (
-                              <div key={k} className="flex items-start gap-1.5 text-slate-700">
-                                <strong className="font-mono-exam text-[#9E472A]">({k}):</strong>
-                                <span>{reason}</span>
+                              <div key={k} className="flex items-start gap-1.5 text-slate-700 min-w-0">
+                                <strong className="font-mono-exam text-[#9E472A] shrink-0">({k}):</strong>
+                                <span className="min-w-0 break-words">
+                                  <KaTeXMath text={reason} />
+                                </span>
                               </div>
                             ))}
                           </div>

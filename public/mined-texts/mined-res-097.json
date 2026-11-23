@@ -1,0 +1,812 @@
+{
+  "id": "mined-res-097",
+  "title": "Fundamento Metodológico: Aprendizaje de la Lectoescritura desde la Ciencia de la Lectura",
+  "filename": "Aprendizaje de la Lectoescritura desde la Ciencia de la Lectura.pdf",
+  "docType": "Cuadernillo",
+  "materiaOriginal": "Educación Inicial y Parvularia",
+  "gradoOriginal": "Primera Infancia",
+  "officialUrl": "https://www.mined.gob.sv/materiales/pi/Aprendizaje de la Lectoescritura desde la Ciencia de la Lectura.pdf",
+  "status": "success",
+  "textCoverage": "partial",
+  "totalPages": 144,
+  "extractedPages": 6,
+  "coverageRatio": 0.0417,
+  "totalChars": 1574,
+  "sectionCount": 10,
+  "mediaUrl": null,
+  "notice": "Documento híbrido/ilustrado del MINED: se extrajo texto digital en 6 de 144 páginas (4%). Las páginas sin texto corresponden a láminas o ilustraciones escaneadas.",
+  "sections": [
+    {
+      "id": "sec-001",
+      "title": "Bloque 1: Páginas 1–15",
+      "startPage": 1,
+      "endPage": 15,
+      "level": 1
+    },
+    {
+      "id": "sec-002",
+      "title": "Bloque 2: Páginas 16–30",
+      "startPage": 16,
+      "endPage": 30,
+      "level": 1
+    },
+    {
+      "id": "sec-003",
+      "title": "Bloque 3: Páginas 31–45",
+      "startPage": 31,
+      "endPage": 45,
+      "level": 1
+    },
+    {
+      "id": "sec-004",
+      "title": "Bloque 4: Páginas 46–60",
+      "startPage": 46,
+      "endPage": 60,
+      "level": 1
+    },
+    {
+      "id": "sec-005",
+      "title": "Bloque 5: Páginas 61–75",
+      "startPage": 61,
+      "endPage": 75,
+      "level": 1
+    },
+    {
+      "id": "sec-006",
+      "title": "Bloque 6: Páginas 76–90",
+      "startPage": 76,
+      "endPage": 90,
+      "level": 1
+    },
+    {
+      "id": "sec-007",
+      "title": "Bloque 7: Páginas 91–105",
+      "startPage": 91,
+      "endPage": 105,
+      "level": 1
+    },
+    {
+      "id": "sec-008",
+      "title": "Bloque 8: Páginas 106–120",
+      "startPage": 106,
+      "endPage": 120,
+      "level": 1
+    },
+    {
+      "id": "sec-009",
+      "title": "Bloque 9: Páginas 121–135",
+      "startPage": 121,
+      "endPage": 135,
+      "level": 1
+    },
+    {
+      "id": "sec-010",
+      "title": "Bloque 10: Páginas 136–144",
+      "startPage": 136,
+      "endPage": 144,
+      "level": 1
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "Aprendizaje de la Lectoescritura desde la Ciencia de la Lectura Docentes",
+      "charCount": 72
+    },
+    {
+      "pageNumber": 2,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 3,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 4,
+      "text": "Mayor y Doctora",
+      "charCount": 15
+    },
+    {
+      "pageNumber": 5,
+      "text": "Aprendizaje de la Lectoescritura desde la Ciencia de la Lectura Docentes",
+      "charCount": 72
+    },
+    {
+      "pageNumber": 6,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 7,
+      "text": "Mayor y Doctora",
+      "charCount": 15
+    },
+    {
+      "pageNumber": 8,
+      "text": "6",
+      "charCount": 1
+    },
+    {
+      "pageNumber": 9,
+      "text": "7",
+      "charCount": 1
+    },
+    {
+      "pageNumber": 10,
+      "text": "Aprendizaje de la Lectoescritura desde la Ciencia de la Lectura Libro para docentes 8",
+      "charCount": 85
+    },
+    {
+      "pageNumber": 11,
+      "text": "Es común que al ingresar al sistema educativo algunos niños aún no hayan desarrollado ciertas habilidades lingüísticas, lo que reﬂ eja las diferentes capacidades, experiencias e intereses. Sin embargo, un aspecto común entre ellos es que aprenden a través del juego, disfrutando y participando en actividades que favorecen su desarrollo integral y que les permiten tomar decisiones so bre aspectos que les afectan directamente.\n\n9",
+      "charCount": 430
+    },
+    {
+      "pageNumber": 12,
+      "text": "10",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 13,
+      "text": "11",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 14,
+      "text": "12",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 15,
+      "text": "13",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 16,
+      "text": "14",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 17,
+      "text": "15",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 18,
+      "text": "16",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 19,
+      "text": "17",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 20,
+      "text": "18",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 21,
+      "text": "19",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 22,
+      "text": "20",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 23,
+      "text": "21",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 24,
+      "text": "22",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 25,
+      "text": "23",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 26,
+      "text": "24",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 27,
+      "text": "25",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 28,
+      "text": "26",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 29,
+      "text": "27",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 30,
+      "text": "28",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 31,
+      "text": "29",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 32,
+      "text": "30",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 33,
+      "text": "31",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 34,
+      "text": "32",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 35,
+      "text": "33",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 36,
+      "text": "34",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 37,
+      "text": "35",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 38,
+      "text": "36",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 39,
+      "text": "37",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 40,
+      "text": "38",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 41,
+      "text": "39",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 42,
+      "text": "40",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 43,
+      "text": "41",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 44,
+      "text": "42",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 45,
+      "text": "43",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 46,
+      "text": "44",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 47,
+      "text": "45",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 48,
+      "text": "46",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 49,
+      "text": "47",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 50,
+      "text": "48",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 51,
+      "text": "49",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 52,
+      "text": "Sin embargo, este documento centra su atención en la transición del entorno familiar a la escuela y de la Educación Parvularia al Primer Grado de la Educación Primaria, identiﬁcando para ello características especíﬁcas como las que se mencionan a continuación: 50",
+      "charCount": 263
+    },
+    {
+      "pageNumber": 53,
+      "text": "51",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 54,
+      "text": "52",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 55,
+      "text": "53",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 56,
+      "text": "54",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 57,
+      "text": "55",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 58,
+      "text": "56",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 59,
+      "text": "57",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 60,
+      "text": "58",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 61,
+      "text": "59",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 62,
+      "text": "60",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 63,
+      "text": "61",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 64,
+      "text": "62",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 65,
+      "text": "63",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 66,
+      "text": "64",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 67,
+      "text": "65",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 68,
+      "text": "66",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 69,
+      "text": "67",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 70,
+      "text": "68",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 71,
+      "text": "69",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 72,
+      "text": "70",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 73,
+      "text": "71",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 74,
+      "text": "72",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 75,
+      "text": "73",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 76,
+      "text": "74",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 77,
+      "text": "75",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 78,
+      "text": "76",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 79,
+      "text": "77",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 80,
+      "text": "78",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 81,
+      "text": "79",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 82,
+      "text": "80",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 83,
+      "text": "81",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 84,
+      "text": "82",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 85,
+      "text": "83",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 86,
+      "text": "84",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 87,
+      "text": "85",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 88,
+      "text": "86",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 89,
+      "text": "87",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 90,
+      "text": "88",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 91,
+      "text": "89",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 92,
+      "text": "90",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 93,
+      "text": "91",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 94,
+      "text": "92",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 95,
+      "text": "93",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 96,
+      "text": "94",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 97,
+      "text": "95",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 98,
+      "text": "96",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 99,
+      "text": "97",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 100,
+      "text": "98",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 101,
+      "text": "99",
+      "charCount": 2
+    },
+    {
+      "pageNumber": 102,
+      "text": "100",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 103,
+      "text": "101",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 104,
+      "text": "102",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 105,
+      "text": "103",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 106,
+      "text": "104",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 107,
+      "text": "105",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 108,
+      "text": "106",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 109,
+      "text": "107",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 110,
+      "text": "108",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 111,
+      "text": "109",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 112,
+      "text": "110",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 113,
+      "text": "111",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 114,
+      "text": "112",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 115,
+      "text": "113",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 116,
+      "text": "114",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 117,
+      "text": "115",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 118,
+      "text": "116",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 119,
+      "text": "117",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 120,
+      "text": "118",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 121,
+      "text": "119",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 122,
+      "text": "120",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 123,
+      "text": "121",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 124,
+      "text": "122",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 125,
+      "text": "123",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 126,
+      "text": "124",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 127,
+      "text": "125",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 128,
+      "text": "126",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 129,
+      "text": "127",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 130,
+      "text": "128",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 131,
+      "text": "129",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 132,
+      "text": "130",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 133,
+      "text": "131",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 134,
+      "text": "132",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 135,
+      "text": "133",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 136,
+      "text": "134",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 137,
+      "text": "135",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 138,
+      "text": "136",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 139,
+      "text": "137",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 140,
+      "text": "138",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 141,
+      "text": "Aprendizaje de la Lectoescritura desde la Ciencia de la Lectura Docentes Se terminó de imprimir en el mes de febrero de 2026, en los talleres de Impresos Múltiples S.A. de C.V.\n\nCalle El Progreso # 18, Parque Industrial Santa Elena 2, Antiguo Cuscatlán, La Libertad Este, La Libertad, El Salvador.\n\nTiraje: 16,000 ejemplares.",
+      "charCount": 325
+    },
+    {
+      "pageNumber": 142,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 143,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 144,
+      "text": "",
+      "charCount": 0
+    }
+  ]
+}

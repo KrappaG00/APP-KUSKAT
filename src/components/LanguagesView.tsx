@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from 'react';
+import React, { useEffect, useMemo, useState } from 'react';
 import {
   ArrowLeft,
   ArrowRight,
@@ -243,16 +243,39 @@ const LANGUAGE_REFERENCES: Record<string, LanguageReferencesConfig> = {
   },
 };
 
+export type LanguageMainTab = 'theory' | 'basics' | 'vocabulary10k' | 'verbs' | 'comparative' | 'exam' | 'references';
+
 interface LanguagesViewProps {
+  initialLanguageId?: string;
+  initialMainTab?: LanguageMainTab;
   onEnterSimulatorWithCategory?: (category: 'INGLES', languageId?: string) => void;
 }
 
-export default function LanguagesView({ onEnterSimulatorWithCategory }: LanguagesViewProps) {
+export default function LanguagesView({
+  initialLanguageId = 'english',
+  initialMainTab = 'theory',
+  onEnterSimulatorWithCategory,
+}: LanguagesViewProps) {
   // Estado del idioma activo (por defecto 'english')
-  const [selectedLanguageId, setSelectedLanguageId] = useState<string>('english');
+  const [selectedLanguageId, setSelectedLanguageId] = useState<string>(initialLanguageId);
 
   // Pestaña principal dentro de Idiomas
-  const [activeMainTab, setActiveMainTab] = useState<'theory' | 'basics' | 'vocabulary10k' | 'verbs' | 'comparative' | 'exam' | 'references'>('theory');
+  const [activeMainTab, setActiveMainTab] = useState<LanguageMainTab>(initialMainTab);
+
+  useEffect(() => {
+    if (initialLanguageId) {
+      setSelectedLanguageId(initialLanguageId);
+      if (initialLanguageId !== 'english') {
+        setSelectedVariant('ALL');
+      }
+    }
+  }, [initialLanguageId]);
+
+  useEffect(() => {
+    if (initialMainTab) {
+      setActiveMainTab(initialMainTab);
+    }
+  }, [initialMainTab]);
 
   // Variante lingüística (US, UK, ALL)
   const [selectedVariant, setSelectedVariant] = useState<VariantType>('ALL');
@@ -583,29 +606,20 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
           <div className="flex items-center gap-1.5 bg-slate-50 p-1.5 rounded-2xl border border-slate-200 self-stretch sm:self-auto overflow-x-auto scrollbar-none touch-scroll flex-nowrap sm:flex-wrap max-w-full">
             {LANGUAGES_CATALOG.map((lang) => {
               const isSelected = selectedLanguageId === lang.id;
-              const isAvailable = lang.status === 'active';
 
               return (
                 <button
                   key={lang.id}
-                  disabled={!isAvailable}
                   onClick={() => handleSelectLanguage(lang.id)}
                   className={`flex items-center gap-2 px-3 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer shrink-0 ${
                     isSelected
                       ? 'bg-slate-900 text-white shadow-xs'
-                      : isAvailable
-                      ? 'text-slate-600 hover:text-slate-900 hover:bg-slate-200/60'
-                      : 'text-slate-400 opacity-50 cursor-not-allowed'
+                      : 'text-slate-600 hover:text-slate-900 hover:bg-slate-200/60'
                   }`}
-                  title={isAvailable ? `Aprender ${lang.name}` : `${lang.name} (Próximamente)`}
+                  title={`Aprender ${lang.name}`}
                 >
                   <span className="text-sm">{lang.flag}</span>
                   <span>{lang.name}</span>
-                  {!isAvailable && (
-                    <span className="text-[9px] font-semibold bg-slate-200 text-slate-600 px-1.5 py-0.5 rounded-md">
-                      Pronto
-                    </span>
-                  )}
                 </button>
               );
             })}
@@ -1800,19 +1814,15 @@ export default function LanguagesView({ onEnterSimulatorWithCategory }: Language
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
                   {LANGUAGES_CATALOG.map((lang) => {
                     const isSelected = selectedLanguageId === lang.id;
-                    const isAvailable = lang.status === 'active';
                     return (
                       <button
                         key={lang.id}
                         type="button"
-                        disabled={!isAvailable}
                         onClick={() => handleSelectLanguage(lang.id)}
                         className={`p-2.5 rounded-2xl border text-left transition-all cursor-pointer flex flex-col justify-between ${
                           isSelected
                             ? 'bg-slate-900 text-white border-slate-900 shadow-xs ring-2 ring-blue-500/30'
-                            : isAvailable
-                            ? 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
-                            : 'bg-slate-50/50 border-slate-100 text-slate-400 opacity-50 cursor-not-allowed'
+                            : 'bg-slate-50 border-slate-200 text-slate-700 hover:bg-slate-100'
                         }`}
                       >
                         <div className="flex items-center justify-between">

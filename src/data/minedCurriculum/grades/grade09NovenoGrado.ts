@@ -272,8 +272,8 @@ const u3Lessons9G = [
     'Cualquier ecuación de segundo grado con una incógnita en su forma canónica:\n$$ax^2 + bx + c = 0 \\qquad (a \\neq 0)$$\nse resuelve universalmente mediante la **fórmula cuadrática general**:\n$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$\nEl término subradical $\\Delta = b^2 - 4ac$ se denomina **discriminante** e indica la naturaleza de las soluciones:\n1. Si $\\Delta > 0$: la ecuación tiene **dos soluciones reales distintas**:\n$$x_1 = \\frac{-b + \\sqrt{\\Delta}}{2a}, \\qquad x_2 = \\frac{-b - \\sqrt{\\Delta}}{2a}$$\n2. Si $\\Delta = 0$: la ecuación tiene **una solución real única (raíz doble)**:\n$$x_1 = x_2 = -\\frac{b}{2a}$$\n3. Si $\\Delta < 0$: la ecuación **no tiene solución en el conjunto de los números reales** (posee dos raíces complejas conjugadas en $\\mathbb{C}$).',
     'Para resolver $x^2 - 6x + 9 = 0$: $a=1, b=-6, c=9$. $\\Delta = (-6)^2 - 4(1)(9) = 36 - 36 = 0$. Raíz única: $x = \\frac{-(-6)}{2(1)} = \\frac{6}{2} = 3$.',
     [
-      { exercise: 'Calcula el discriminante y resuelve por fórmula general: x² - 5x + 6 = 0', hint: 'a = 1, b = -5, c = 6. Δ = (-5)² - 4(1)(6) = 25 - 24 = 1.', answer: 'x = (5 ± 1)/2 => x1 = 3, x2 = 2' },
-      { exercise: 'Resuelve la ecuación cuadrática: 2x² + 3x - 5 = 0', hint: 'Δ = 3² - 4(2)(-5) = 9 + 40 = 49; √49 = 7.', answer: 'x = (-3 ± 7)/4 => x1 = 1, x2 = -2.5 (-5/2)' },
+      { exercise: 'Calcula el discriminante y resuelve por fórmula general: x² - 5x + 6 = 0', hint: 'a = 1, b = -5, c = 6. Δ = (-5)² - 4(1)(6) = 25 - 24 = 1.', answer: 'x = (5 ± 1)/2 ⇒ x1 = 3, x2 = 2' },
+      { exercise: 'Resuelve la ecuación cuadrática: 2x² + 3x - 5 = 0', hint: 'Δ = 3² - 4(2)(-5) = 9 + 40 = 49; √49 = 7.', answer: 'x = (-3 ± 7)/4 ⇒ x1 = 1, x2 = -2.5 (-5/2)' },
       { exercise: 'Determina si la ecuación 3x² - 2x + 4 = 0 tiene soluciones reales analizando su discriminante.', hint: 'Calcula Δ = b² - 4ac.', answer: 'Δ = (-2)² - 4(3)(4) = 4 - 48 = -44 < 0; no tiene soluciones reales.' }
     ],
     [
@@ -433,7 +433,7 @@ export const GRADE_09_DATA: GradeCurriculumData = {
           u1Questions9G,
           true
         ),
-        createCurriculumUnit('mined-mat-9g-u02', 2, 'Raíz cuadrada y números reales', '9-grado', 1, 'Radicales, simplificación sqrt(a²b) = a*sqrt(b) y racionalización.', ['Opera y racionaliza radicales'], u2Lessons9G),
+        createCurriculumUnit('mined-mat-9g-u02', 2, 'Raíz cuadrada y números reales', '9-grado', 1, 'Radicales, simplificación √(a²b) = a*√(b) y racionalización.', ['Opera y racionaliza radicales'], u2Lessons9G),
         createCurriculumUnit('mined-mat-9g-u03', 3, 'Ecuación cuadrática', '9-grado', 1, 'Fórmula general, completación de cuadrados y análisis del discriminante.', ['Resuelve ecuaciones de segundo grado'], u3Lessons9G),
         createCurriculumUnit('mined-mat-9g-u04', 4, 'Función cuadrática de la forma y = ax² + c', '9-grado', 1, 'Parábola con vértice (0, c), concavidad y traslaciones.', ['Grafica funciones cuadráticas'], u4Lessons9G),
         createCurriculumUnit('mined-mat-9g-u05', 5, 'Figuras semejantes', '9-grado', 2, 'Criterios de semejanza de triángulos y Teorema de Tales.', ['Aplica proporciones en semejanza'], u5Lessons9G),

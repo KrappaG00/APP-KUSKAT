@@ -475,7 +475,9 @@ export const IngenieriaCienciasView: React.FC<IngenieriaCienciasViewProps> = ({
                                   <span className="w-4 h-4 rounded-full bg-amber-200 text-amber-900 text-[10px] font-bold flex items-center justify-center shrink-0 mt-0.5">
                                     {sIdx + 1}
                                   </span>
-                                  <span className="leading-relaxed">{s}</span>
+                                  <span className="leading-relaxed min-w-0 break-words">
+                                    <KaTeXMath text={s} />
+                                  </span>
                                 </div>
                               ))}
                             </div>
@@ -491,8 +493,9 @@ export const IngenieriaCienciasView: React.FC<IngenieriaCienciasViewProps> = ({
                                 const rat = q.distractorRationale[k];
                                 if (!rat) return null;
                                 return (
-                                  <div key={k} className="text-slate-600">
-                                    <span className="font-semibold text-slate-800">Opción {k}:</span> {rat}
+                                  <div key={k} className="text-slate-600 min-w-0 break-words">
+                                    <span className="font-semibold text-slate-800">Opción {k}:</span>{' '}
+                                    <KaTeXMath text={rat} />
                                   </div>
                                 );
                               })}
@@ -614,10 +617,12 @@ export const IngenieriaCienciasView: React.FC<IngenieriaCienciasViewProps> = ({
                     </span>
                   </div>
                   <h3 className="text-sm font-bold text-slate-900">{f.title}</h3>
-                  <div className="p-3 bg-slate-50 rounded-lg border border-slate-200 text-center my-2">
+                  <div className="p-3 bg-slate-50 rounded-lg border border-slate-200 text-center my-2 overflow-x-auto">
                     <KaTeXMath text={f.formulaKatex} />
                   </div>
-                  <p className="text-xs text-slate-600 leading-relaxed">{f.explanation}</p>
+                  <p className="text-xs text-slate-600 leading-relaxed min-w-0 break-words">
+                    <KaTeXMath text={f.explanation} />
+                  </p>
                 </div>
               ))}
             </div>

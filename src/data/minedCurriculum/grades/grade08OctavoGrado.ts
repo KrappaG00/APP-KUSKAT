@@ -222,9 +222,9 @@ const u2Lessons8G = [
     'Un **sistema de ecuaciones de primer grado con dos incógnitas** ($2 \\times 2$) tiene la forma general:\n$$\\begin{cases} a_1 x + b_1 y = c_1 \\\\ a_2 x + b_2 y = c_2 \\end{cases}$$\nEl **método de reducción** (o eliminación por suma y resta) sigue la siguiente secuencia analítica:\n1. Se eligen factores adecuados para multiplicar una o ambas ecuaciones, de modo que los coeficientes de una de las incógnitas resulten números opuestos ($k$ y $-k$).\n2. Se suman miembro a miembro las ecuaciones transformadas para anular esa incógnita, obteniendo una ecuación lineal con una sola incógnita.\n3. Se resuelve la ecuación lineal de una incógnita para hallar su valor numérico.\n4. Se sustituye el valor hallado en cualquiera de las ecuaciones originales para calcular la otra incógnita.\n5. Se comprueba la pareja solución $(x, y)$ sustituyendo en ambas ecuaciones del sistema original.',
     'Para resolver $x + y = 12$ y $x - y = 4$: sumamos directamente las dos ecuaciones: $2x = 16 \\implies x = 8$. Sustituimos en la primera: $8 + y = 12 \\implies y = 4$. La solución es $(8, 4)$.',
     [
-      { exercise: 'Resuelve por el método de reducción el sistema: 2x + 3y = 13; 2x - y = 5', hint: 'Resta la segunda ecuación de la primera para eliminar 2x directamente.', answer: '4y = 8 => y = 2, luego 2x - 2 = 5 => 2x = 7 => x = 3.5' },
-      { exercise: 'Encuentra la solución del sistema: 3x + 2y = 19; 5x - 3y = 6', hint: 'Multiplica la primera por 3 y la segunda por 2 para eliminar y.', answer: '9x + 6y = 57 y 10x - 6y = 12 => 19x = 69 => x = 3.63... o bien valores enteros.' },
-      { exercise: 'La suma de dos números es 45 y su diferencia es 15. Modela y halla los números.', hint: 'Plantea x + y = 45 y x - y = 15.', answer: '2x = 60 => x = 30; y = 15.' }
+      { exercise: 'Resuelve por el método de reducción el sistema: 2x + 3y = 13; 2x - y = 5', hint: 'Resta la segunda ecuación de la primera para eliminar 2x directamente.', answer: '4y = 8 ⇒ y = 2, luego 2x - 2 = 5 ⇒ 2x = 7 ⇒ x = 3.5' },
+      { exercise: 'Encuentra la solución del sistema: 3x + 2y = 19; 5x - 3y = 6', hint: 'Multiplica la primera por 3 y la segunda por 2 para eliminar y.', answer: '9x + 6y = 57 y 10x - 6y = 12 ⇒ 19x = 69 ⇒ x = 3.63... o bien valores enteros.' },
+      { exercise: 'La suma de dos números es 45 y su diferencia es 15. Modela y halla los números.', hint: 'Plantea x + y = 45 y x - y = 15.', answer: '2x = 60 ⇒ x = 30; y = 15.' }
     ],
     [
       'Ejemplo 1 (Reducción directa cuando los coeficientes son opuestos): Resolver el sistema lineal: $4x + 3y = 22$ y $5x - 3y = 14$. Paso 1: Notamos que la variable $y$ tiene coeficientes opuestos $+3$ y $-3$. Paso 2: Sumamos ambas ecuaciones directamente: $(4x + 5x) + (3y - 3y) = 22 + 14 \\implies 9x = 36$. Paso 3: Despejamos $x = \\frac{36}{9} = 4$. Paso 4: Sustituimos en la primera ecuación: $4(4) + 3y = 22 \\implies 16 + 3y = 22 \\implies 3y = 6 \\implies y = 2$. Solución: La solución es el par ordenado $(4, 2)$.',
@@ -248,7 +248,7 @@ const u3Lessons8G = [
     [
       { exercise: 'Calcula la pendiente de la recta que pasa por los puntos A(2, 5) y B(6, 17).', hint: 'Aplica la fórmula m = (y2 - y1) / (x2 - x1).', answer: 'm = (17 - 5) / (6 - 2) = 12 / 4 = 3' },
       { exercise: 'Escribe la ecuación de la recta cuya pendiente es -4 y corta al eje y en el punto (0, 7).', hint: 'Sustituye m = -4 y b = 7 en y = mx + b.', answer: 'y = -4x + 7' },
-      { exercise: 'Determina las coordenadas del intercepto con el eje x para la recta y = 3x - 12.', hint: 'Haz y = 0 y despeja x.', answer: '3x - 12 = 0 => 3x = 12 => x = 4; punto (4, 0)' }
+      { exercise: 'Determina las coordenadas del intercepto con el eje x para la recta y = 3x - 12.', hint: 'Haz y = 0 y despeja x.', answer: '3x - 12 = 0 ⇒ 3x = 12 ⇒ x = 4; punto (4, 0)' }
     ],
     [
       'Ejemplo 1 (Cálculo de pendiente y ecuación a partir de dos puntos): Determinar la ecuación de la recta que pasa por $P_1(1, 4)$ y $P_2(3, 10)$. Paso 1: Calculamos la pendiente $m$: $m = \\frac{10 - 4}{3 - 1} = \\frac{6}{2} = 3$. Paso 2: Utilizamos la forma punto-pendiente: $y - 4 = 3(x - 1)$. Paso 3: Desarrollamos y despejamos $y$: $y = 3x - 3 + 4 \\implies y = 3x + 1$. Solución: La pendiente es $m = 3$ y la ecuación de la función es $y = 3x + 1$.',
@@ -272,7 +272,7 @@ const u4Lessons8G = [
     [
       { exercise: 'Si dos rectas paralelas son cortadas por una secante y un ángulo mide 115°, ¿cuánto mide su ángulo alterno interno y su conjugado interno?', hint: 'Alterno interno es igual (115°); conjugado interno es suplementario (180° - 115°).', answer: 'Alterno interno = 115°, conjugado interno = 65°' },
       { exercise: 'Calcula la suma de los ángulos internos de un decágono (polígono de 10 lados).', hint: 'Aplica Si = 180° x (10 - 2).', answer: '180° x 8 = 1,440°' },
-      { exercise: '¿Cuántos lados tiene un polígono regular cuyos ángulos internos suman 1,800°?', hint: 'Iguala 180°(n - 2) = 1,800° y despeja n.', answer: 'n - 2 = 10 => n = 12 lados (dodecágono)' }
+      { exercise: '¿Cuántos lados tiene un polígono regular cuyos ángulos internos suman 1,800°?', hint: 'Iguala 180°(n - 2) = 1,800° y despeja n.', answer: 'n - 2 = 10 ⇒ n = 12 lados (dodecágono)' }
     ],
     [
       'Ejemplo 1 (Cálculo de ángulos complementarios y suplementarios con paralelas): Dos rectas paralelas cortadas por una transversal forman ángulos alternos internos expresados como $(3x + 10^\\circ)$ y $(5x - 30^\\circ)$. Determinar el valor de $x$ y de los ángulos. Paso 1: Como son alternos internos, son congruentes: $3x + 10 = 5x - 30$. Paso 2: Resolvemos la ecuación: $10 + 30 = 5x - 3x \\implies 40 = 2x \\implies x = 20^\\circ$. Paso 3: Evaluamos: $3(20) + 10 = 70^\\circ$. Solución: La incógnita es $x = 20^\\circ$ y cada ángulo mide $70^\\circ$.',
@@ -342,9 +342,9 @@ const u7Lessons8G = [
     'Los **cuerpos de revolución** se generan al girar una figura plana alrededor de un eje. Sus volúmenes oficiales en ESMATE son:\n1. **Cilindro circular recto** (giro de un rectángulo):\n$$V_{\\text{cilindro}} = A_b \\times h = \\pi r^2 h$$\nÁrea total: $A_T = 2\\pi r h + 2\\pi r^2 = 2\\pi r(h + r)$.\n2. **Cono circular recto** (giro de un triángulo rectángulo):\n$$V_{\\text{cono}} = \\frac{1}{3} A_b \\times h = \\frac{1}{3} \\pi r^2 h$$\nLa generatriz $g$, el radio $r$ y la altura $h$ cumplen el teorema de Pitágoras: $g^2 = r^2 + h^2$.\n3. **Esfera** (giro de un semicírculo):\n$$V_{\\text{esfera}} = \\frac{4}{3} \\pi r^3$$\nÁrea superficial esférica: $A_{\\text{esfera}} = 4\\pi r^2$.\nEquivalencia métrica fundamental: $1\\text{ litro} = 1,000\\text{ cm}^3 = 0.001\\text{ m}^3$, y $1\\text{ m}^3 = 1,000\\text{ litros}$.',
     'Para un cono con radio $r = 4\\text{ cm}$ y altura $h = 9\\text{ cm}$: $V = \\frac{1}{3}\\pi(4^2)(9) = \\frac{1}{3}\\pi(16)(9) = 48\\pi \\approx 150.8\\text{ cm}^3$.',
     [
-      { exercise: 'Calcula el volumen de un cilindro metálico que tiene 5 cm de radio y 12 cm de altura (usa pi ≈ 3.1416).', hint: 'Aplica V = pi * r² * h.', answer: 'V = 3.1416 * 25 * 12 = 942.48 cm³' },
+      { exercise: 'Calcula el volumen de un cilindro metálico que tiene 5 cm de radio y 12 cm de altura (usa pi ≈ 3.1416).', hint: 'Aplica V = pi · r² · h.', answer: 'V = 3.1416 × 25 · 12 = 942.48 cm³' },
       { exercise: 'Si un cilindro tiene un volumen de 120 cm³, ¿cuál es el volumen de un cono que tiene su misma base y misma altura?', hint: 'El cono tiene exactamente un tercio del volumen del cilindro.', answer: '120 / 3 = 40 cm³' },
-      { exercise: 'Calcula el volumen de una esfera cuyo radio mide 6 cm en términos de pi.', hint: 'V = (4/3) * pi * 6³ = (4/3) * pi * 216.', answer: 'V = 288*pi cm³ (aprox 904.78 cm³)' }
+      { exercise: 'Calcula el volumen de una esfera cuyo radio mide 6 cm en términos de pi.', hint: 'V = (4/3) · pi · 6³ = (4/3) · pi · 216.', answer: 'V = 288*pi cm³ (aprox 904.78 cm³)' }
     ],
     [
       'Ejemplo 1 (Cálculo del volumen de un cono dada su generatriz y radio): Un cono tiene radio $r = 6\\text{ cm}$ y generatriz $g = 10\\text{ cm}$. Calcular su volumen. Paso 1: Hallamos la altura $h$ aplicando el teorema de Pitágoras: $h = \\sqrt{g^2 - r^2} = \\sqrt{10^2 - 6^2} = \\sqrt{64} = 8\\text{ cm}$. Paso 2: Aplicamos la fórmula del cono: $V = \\frac{1}{3}\\pi r^2 h = \\frac{1}{3}\\pi(6^2)(8)$. Paso 3: Multiplicamos: $\\frac{1}{3}\\pi(36)(8) = 96\\pi \\approx 301.59\\text{ cm}^3$. Solución: El volumen del cono es $96\\pi\\text{ cm}^3$ ($301.59\\text{ cm}^3$).',

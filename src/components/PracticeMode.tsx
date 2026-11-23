@@ -41,7 +41,6 @@ import {
 } from '../services/bancoService';
 import { MathText, renderMathToString, escapeHtml } from '../utils/mathRenderer';
 import { convertToTrueFalse, TrueFalseItem } from '../utils/trueFalseHelper';
-import { LeaderboardSection } from './LeaderboardSection';
 import { AdBanner } from './AdBanner';
 import { saveExamResult } from '../services/statsService';
 import { logQuestionError } from '../services/errorLogService';
@@ -57,7 +56,6 @@ interface PracticeModeProps {
   initialLanguageFilter?: 'ALL' | 'ingles' | 'nahuat' | 'lenca' | 'kakawira' | 'german' | 'arabic' | 'mandarin';
   onExportLatex?: (questions: Question[], title: string) => void;
   onBackToCategories?: () => void;
-  onOpenAccountModal?: () => void;
   onQuizActiveChange?: (isActive: boolean) => void;
   showToast: (msg: string) => void;
 }
@@ -69,7 +67,6 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
   initialLanguageFilter,
   onExportLatex,
   onBackToCategories,
-  onOpenAccountModal,
   onQuizActiveChange,
   showToast,
 }) => {
@@ -1448,14 +1445,6 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         {/* Anuncio 1 / 5 Abajo del Simulador */}
         <AdBanner variant="light" positionLabel="Simulador • 1/2 Inferior" slotId="4241045160_s_b1" />
 
-        {/* Tabla de Estadísticas y Top 10 KUSKAT */}
-        <div className="space-y-4">
-          <LeaderboardSection onOpenAccountModal={onOpenAccountModal} />
-        </div>
-
-        {/* Anuncio 2 / 5 Abajo del Simulador */}
-        <AdBanner variant="light" positionLabel="Simulador • 2/2 Inferior" slotId="4241045160_s_b2" />
-
         {/* Panel Informativo: Reglas del Sistema de Evaluación KUSKAT */}
         <div className="bg-white border border-[#E5E3D8] rounded-xl p-5 sm:p-6 shadow-corporate-subtle space-y-3 font-sans-ui">
           <div className="flex items-center gap-2 font-bold text-[#111625] text-sm">
@@ -1483,6 +1472,9 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
             </div>
           </div>
         </div>
+
+        {/* Anuncio 2 / 5 Abajo del Simulador */}
+        <AdBanner variant="light" positionLabel="Simulador • 2/2 Inferior" slotId="4241045160_s_b2" />
 
       </div>
     );
@@ -2459,9 +2451,6 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
           );
         })}
       </div>
-
-      {/* Tabla de Estadísticas y Top 10 KUSKAT */}
-      <LeaderboardSection onOpenAccountModal={onOpenAccountModal} />
 
       {/* 1 Anuncio Abajo de Resultados (Eliminado ad stacking) */}
       {/* Nota AdSense: el slot secundario duplicado 4241045160_sr_b2 fue removido para erradicar ad stacking */}

@@ -66,13 +66,13 @@ export type AppPageTab =
 export interface HeaderNavbarProps {
   activeTab: AppPageTab;
   onSelectTab: (tab: AppPageTab) => void;
-  onOpenAccountModal: () => void;
+  onOpenAccountModal?: () => void;
   onOpenTutorial: () => void;
   onOpenDevModal: () => void;
   onOpenLegalModal: (tab?: LegalTab) => void;
   onOpenFlashcards?: () => void;
   onOpenErrorNotebook?: () => void;
-  currentUser: User | null;
+  currentUser?: User | null;
   is2DAccessibleMode?: boolean;
   onToggle2DAccessible?: () => void;
 }
@@ -105,7 +105,6 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
   onOpenLegalModal,
   onOpenFlashcards,
   onOpenErrorNotebook,
-  currentUser,
   is2DAccessibleMode,
   onToggle2DAccessible,
 }) => {
@@ -201,7 +200,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
         },
         {
           id: 'jovenes-talento',
-          title: 'Jóvenes Talento UES / MINED',
+          title: 'ASD MINED',
           subtitle: 'Olimpiadas Nacionales ONM (Matemática, Física, Química, Biología)',
           icon: <Brain className="w-4 h-4 text-[#C59B27]" />,
           badge: 'Olimpiadas ONM',
@@ -376,7 +375,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
         {
           id: 'driver-license',
           title: 'Licencias de Conducir (VMT)',
-          subtitle: 'Examen Teórico (VMT/SERTRACEN) y Psicológico de manejo defensivo',
+          subtitle: 'Examen Teórico (VMT / Organismo Evaluador Autorizado) y Psicológico de manejo defensivo',
           icon: <Car className="w-4 h-4 text-[#0B1B3D]" />,
           badge: 'VMT / Tránsito',
           badgeColor: 'bg-[#F4F3ED] text-[#1E293B] border-[#E2E0D5]',
@@ -725,32 +724,9 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
               </button>
             )}
 
-            {/* Controles de Acción (Idioma y Cuenta) agrupados con shrink-0 para evitar cualquier solapamiento */}
+            {/* Selector de Idioma Intercultural */}
             <div className="flex items-center gap-1.5 xl:gap-2 shrink-0">
-              {/* Selector de Idioma Intercultural */}
               <LanguageSwitcher variant="compact" className="shrink-0" />
-
-              {/* Botón de Cuenta */}
-              <button
-                type="button"
-                onClick={onOpenAccountModal}
-                className={`flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl border text-xs font-bold transition-all cursor-pointer shadow-2xs shrink-0 whitespace-nowrap ${
-                  currentUser
-                    ? 'border-emerald-300 bg-emerald-50 text-emerald-900 hover:bg-emerald-100'
-                    : 'border-[#0B1B3D]/30 bg-[#FAF9F5] text-[#0B1B3D] hover:bg-[#F2F1EA]'
-                }`}
-                title={currentUser ? `Cuenta activa: ${currentUser.username}` : 'Iniciar sesión o ver notas'}
-              >
-                <UserCheck className="w-3.5 h-3.5 text-blue-600 shrink-0" />
-                {currentUser ? (
-                  <span className="flex items-center gap-1 shrink-0">
-                    <span className="truncate max-w-[80px]">{currentUser.username}</span>
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse shrink-0" />
-                  </span>
-                ) : (
-                  <span className="shrink-0">{t('nav.account')}</span>
-                )}
-              </button>
             </div>
           </div>
 
@@ -759,20 +735,6 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
           {/* ================================================================ */}
           <div className="flex lg:hidden items-center gap-1 sm:gap-2 shrink-0">
             <LanguageSwitcher variant="compact" className="shrink-0" />
-
-            <button
-              type="button"
-              onClick={onOpenAccountModal}
-              className={`p-1.5 sm:p-2 rounded-xl border text-xs font-bold cursor-pointer transition-colors shrink-0 ${
-                currentUser
-                  ? 'border-emerald-300 bg-emerald-50 text-emerald-900'
-                  : 'border-slate-300 bg-slate-50 text-slate-800'
-              }`}
-              title={currentUser ? currentUser.username : t('nav.account')}
-              aria-label={t('nav.account')}
-            >
-              <UserCheck className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-blue-600 shrink-0" />
-            </button>
 
             {/* Botón de Menú Móvil - SIEMPRE VISIBLE Y ADAPTABLE */}
             <button

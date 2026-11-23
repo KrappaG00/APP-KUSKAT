@@ -36,6 +36,7 @@ import { logQuestionError } from '../services/errorLogService';
 import { issueCertificate, AcademicCertificate } from '../services/certificateService';
 import { CertificateModal } from './CertificateModal';
 import { AudioSpeechButton } from './AudioSpeechButton';
+import { KaTeXMath } from '../utils/mathRenderer';
 
 interface SigetSolarViewProps {
   onOpenErrorNotebook?: () => void;
@@ -797,8 +798,8 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
                         />
                       </div>
 
-                      <h4 className="text-sm font-semibold text-slate-900 mb-4 leading-relaxed font-sans">
-                        {q.statement}
+                      <h4 className="text-sm font-semibold text-slate-900 mb-4 leading-relaxed font-sans min-w-0 break-words">
+                        <KaTeXMath text={q.statement} />
                       </h4>
 
                       {/* OPCIONES */}
@@ -840,7 +841,9 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
                               >
                                 {optKey}
                               </span>
-                              <span className="flex-1 leading-snug">{optText}</span>
+                              <span className="flex-1 leading-snug min-w-0 break-words">
+                                <KaTeXMath text={optText} />
+                              </span>
                               {showFeedback && optKey === q.correctAnswer && (
                                 <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0 ml-1" />
                               )}
@@ -881,7 +884,9 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
                                 </>
                               )}
                             </div>
-                            <p className="mt-1 text-slate-700">{q.explanation}</p>
+                            <p className="mt-1 text-slate-700 min-w-0 break-words">
+                              <KaTeXMath text={q.explanation} />
+                            </p>
                             <div className="mt-2 text-[11px] font-mono text-slate-500 border-t border-slate-200 pt-1.5">
                               <strong>Base Técnica/Legal:</strong> {q.technicalBasis}
                             </div>
@@ -909,13 +914,13 @@ export const SigetSolarView: React.FC<SigetSolarViewProps> = ({
                                       return (
                                         <div
                                           key={optKey}
-                                          className={`p-2 rounded border text-[11px] leading-snug ${
+                                          className={`p-2 rounded border text-[11px] leading-snug min-w-0 break-words ${
                                             optKey === q.correctAnswer
                                               ? 'bg-emerald-50 border-emerald-200 text-emerald-900 font-medium'
                                               : 'bg-white border-slate-200 text-slate-600'
                                           }`}
                                         >
-                                          <strong>Opción {optKey}:</strong> {rat}
+                                          <strong>Opción {optKey}:</strong> <KaTeXMath text={rat} />
                                         </div>
                                       );
                                     }

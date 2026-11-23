@@ -46,12 +46,14 @@ import { LearnSpanishQuestionPanel } from './LearnSpanishBanner';
 export { MathText };
 
 interface CategoryHierarchyViewerProps {
+  initialInst?: 'ALL' | Institution;
   onStartPracticeWithQuestions?: (questions: Question[]) => void;
   onExportLatexWithQuestions?: (questions: Question[], title: string) => void;
   showToast: (msg: string) => void;
 }
 
 export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = ({
+  initialInst = 'ALL',
   onStartPracticeWithQuestions,
   onExportLatexWithQuestions,
   showToast,
@@ -62,10 +64,19 @@ export const CategoryHierarchyViewer: React.FC<CategoryHierarchyViewerProps> = (
   const [loadingCurriculum, setLoadingCurriculum] = useState<boolean>(true);
 
   // Estados de Selección Jerárquica
-  const [selectedInst, setSelectedInst] = useState<'ALL' | Institution>('ALL');
+  const [selectedInst, setSelectedInst] = useState<'ALL' | Institution>(initialInst);
   const [selectedSubjectId, setSelectedSubjectId] = useState<string>('ALL');
   const [selectedSubtopicId, setSelectedSubtopicId] = useState<string>('ALL');
   const [selectedSectionTitle, setSelectedSectionTitle] = useState<string>('ALL');
+
+  useEffect(() => {
+    if (initialInst !== undefined) {
+      setSelectedInst(initialInst);
+      setSelectedSubjectId('ALL');
+      setSelectedSubtopicId('ALL');
+      setSelectedSectionTitle('ALL');
+    }
+  }, [initialInst]);
 
   // Filtros de búsqueda y controles de menú
   const [menuSearchQuery, setMenuSearchQuery] = useState<string>('');

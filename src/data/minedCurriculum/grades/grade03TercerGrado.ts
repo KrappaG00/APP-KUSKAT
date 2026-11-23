@@ -181,7 +181,7 @@ const u1Lessons3G = [
     'Reglas de redondeo a la unidad de millar y comparación ordinal en la recta.',
     [
       { exercise: 'Aproxima 4,320 a la unidad de millar más cercana.', hint: 'Centena 3 < 5.', answer: '4,000' },
-      { exercise: 'Aproxima 6,750 a la unidad de millar más cercana.', hint: 'Centena 7 >= 5.', answer: '7,000' },
+      { exercise: 'Aproxima 6,750 a la unidad de millar más cercana.', hint: 'Centena 7 ≥ 5.', answer: '7,000' },
     ],
     [
       'Paso 1: Aproximamos el número 4,320 a la unidad de millar más cercana examinando su centena. Paso 2: La cifra de las centenas es 3; como 3 es menor que 5 ($3 < 5$), redondeamos hacia abajo. Solución: 4,320 se aproxima a 4,000 unidades de millar exactas.',

@@ -1,0 +1,916 @@
+{
+  "id": "mined-res-006",
+  "title": "Libro de Texto Comunicación 2.° Grado - Tomo 2 (ESLENGUA)",
+  "filename": "Libro de texto 2.° grado_tomo 2.pdf",
+  "docType": "Libro de Texto",
+  "materiaOriginal": "Lengua y Literatura",
+  "gradoOriginal": "2.° Grado",
+  "officialUrl": "https://www.mined.gob.sv/materiales/2026/LENGUAJE/Libro de texto 2.° grado_tomo 2.pdf",
+  "status": "success",
+  "textCoverage": "full",
+  "totalPages": 162,
+  "extractedPages": 161,
+  "coverageRatio": 0.9938,
+  "totalChars": 128006,
+  "sectionCount": 12,
+  "mediaUrl": null,
+  "notice": null,
+  "sections": [
+    {
+      "id": "sec-001",
+      "title": "portada",
+      "startPage": 1,
+      "endPage": 1,
+      "level": 1
+    },
+    {
+      "id": "sec-002",
+      "title": "LT-2°-pliego-1-16-2025",
+      "startPage": 2,
+      "endPage": 17,
+      "level": 1
+    },
+    {
+      "id": "sec-003",
+      "title": "LT-2°-pliego-17-32-2025",
+      "startPage": 18,
+      "endPage": 33,
+      "level": 1
+    },
+    {
+      "id": "sec-004",
+      "title": "LT-2°-pliego-33-48-cambio-2025",
+      "startPage": 34,
+      "endPage": 49,
+      "level": 1
+    },
+    {
+      "id": "sec-005",
+      "title": "LT-2°-pliego-49-64-2025",
+      "startPage": 50,
+      "endPage": 65,
+      "level": 1
+    },
+    {
+      "id": "sec-006",
+      "title": "LT-2°-pliego-65-80-cambio-2025",
+      "startPage": 66,
+      "endPage": 81,
+      "level": 1
+    },
+    {
+      "id": "sec-007",
+      "title": "LT-2°-pliego-81-96-2025",
+      "startPage": 82,
+      "endPage": 97,
+      "level": 1
+    },
+    {
+      "id": "sec-008",
+      "title": "LT-2°-pliego-97-112-cambio-2025",
+      "startPage": 98,
+      "endPage": 113,
+      "level": 1
+    },
+    {
+      "id": "sec-009",
+      "title": "LT-2°-pliego-113-128-2025",
+      "startPage": 114,
+      "endPage": 129,
+      "level": 1
+    },
+    {
+      "id": "sec-010",
+      "title": "LT-2°-pliego-129-144-2025",
+      "startPage": 130,
+      "endPage": 145,
+      "level": 1
+    },
+    {
+      "id": "sec-011",
+      "title": "LT-2°-pliego-145-160-2025",
+      "startPage": 146,
+      "endPage": 161,
+      "level": 1
+    },
+    {
+      "id": "sec-012",
+      "title": "contre-portada",
+      "startPage": 162,
+      "endPage": 162,
+      "level": 1
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "2Comunicación Comunicación Libro de texto Tomo 2 Tomo 2",
+      "charCount": 55
+    },
+    {
+      "pageNumber": 2,
+      "text": "2Comunicación Libro de texto Tomo 2 Tomo 2 Comunicación Este libro pertenece a: ________________________________________",
+      "charCount": 120
+    },
+    {
+      "pageNumber": 3,
+      "text": "Edición Francisco Antonio García Francisca del Carmen Alfaro Villanueva Autoría Alondra del Río Umanzor Velásquez Alma Gladys Girón de Santillana Corrección de textos Carlos Eduardo Ruiz Serrano Jefe del Departamento de Materiales Educativos Julio Adolfo Castellanos Diseño editorial y diagramación Judith Samanta Romero de Ciudad Real\n\nIlustraciones Patricia Damaris Rodríguez Romero Diseño de portada Ernesto Escobar Imágenes Shutterstock\n\n372. 604 5\n\nU48L Girón de Santillana, Alma Gladys , 1969 -- Lenguaje 2 : libro de texto, tomo 2 / [et.al.] . -- 2.a ed. – San slv Salvador, El Salv. : Ministerio de Educación, Ciencia y Tecnología (MINED) ; 2022.\n\n160 p. ; il. ; 28 cm ISBN: 978-99983-56-43-6 <impreso>\n\n1. Lenguaje-Libros de texto-Enseñanza. 2. Lingüística-Enseñanza.\n\n3. Educación primaria-El Salvador-Libros de texto. I. Umanzor Velásquez Alondra del Rio, 1985-, cout. II. Título. BINA/jmh Segunda edición, Ministerio de Educación, San Salvador, El Salvador, 2022.\n\nTercera reimpresión 2025.\n\nDerechos reservados. Prohibida su venta y su reproducción con fines comerciales por cualquier medio, sin previa autorización del Ministerio de Educación, Ciencia y Tecnología.\n\nCoordinación editorial Esmeralda Cristabel Ramos Alvarado Karla Edith Trigueros Capitán y Doctora Ministra de Educación, Ciencia y Tecnología Edgar Eliseo Alvarenga F.\n\nViceministro de Educación y de Ciencia y Tecnología, ad honorem Edgard Ernesto Ábrego Cruz Director General de Educación Wilfredo Alexander Granados Paz Director de Currículo y Materiales Educativos Marcela Isabel Hernández González Directora de Educación Primaria, en funciones Marlene Elizabeth Rodas Rosales Coordinadora del Departamento de Lenguaje",
+      "charCount": 1702
+    },
+    {
+      "pageNumber": 4,
+      "text": "Estimado estudiante:\n\nEste libro ha sido elaborado para acompañarte en tu formación escolar . Contiene lecturas y actividades que despertarán tu interés, reforzarán tus aprendizajes y te ayudarán a desarrollar nuevas habilidades de forma clara y entretenida.\n\nA través de la reforma educativa Mi Nueva Escuela, estamos impulsando una educación de calidad que te brinde las condiciones necesarias para crecer y aprender, dentro de un ambiente seguro, ordenado y respetuoso, donde la convivencia escolar es tan importante como los aprendizajes que adquieres en cada etapa.\n\nEn sus páginas encontrarás el fascinante mundo de los textos literarios y no literarios, con el propósito de que puedas expresar de manera efectiva tus ideas y emociones en situaciones reales y variadas. Cada tema es una oportunidad para descubrir nuevas ideas y poner en práctica tus habilidades. Estos materiales han sido pensados para motivarte a aprender con entusiasmo y ayudarte a alcanzar los mejores resultados en tu vida escolar .\n\nSin embargo, recuerda también que los valores son la base para alcanzar el éxito: mantén la disciplina, muestra respeto hacia tus compañeros y docentes, cumple siempre con las normas de orden y convivencia, y cultiva la cortesía en todo momento. Eso abrirá muchas puertas en tu camino.\n\nEstoy segura de que tu esfuerzo constante dará frutos y que cada paso en tu aprendizaje será una semilla para tu futuro y para el futuro de El Salvador .\n\nKarla Edith Trigueros Capitán y Doctora Ministra de Educación, Ciencia y Tecnología",
+      "charCount": 1538
+    },
+    {
+      "pageNumber": 5,
+      "text": "Cada unidad se divide en cuatro semanas y en cada una transitarás por los diferentes momentos:\n\nAnticipación. Las actividades de este momento de la secuencia servirán para que actives tus conocimientos previos de las temáticas que estudiarás.\n\n38 39\n\nUnidad 3Unidad 3Unidad 6\n\n1. Actividad con docente\n\nObservamos la imagen y leemos el diálogo.\n\nConversamos sobre qué trata el diálogo.\n\n3. Actividad en pares\n\nLeemos en voz alta la conversación.\n\n2. Actividad individual\n\nSubrayo la respuesta correcta.\n\nVerifico mis respuestas.\n\nCorrijo si es necesario.\n\nRespondemos.\n\nCompartimos las respuestas con la clase.\n\nOpinamos sobre la respuesta de los demás.\n\na. ¿Qué información comparte Kenia con Juan?\n\nb. ¿Cómo nos comunicamos los seres humanos?\n\nc. ¿Por qué son importantes las plantas?\n\nLos exploradores Hola Juan. ¿Sabías que las plantas también se comunican entre ellas?\n\nKenia, ¿cómo se comunican las plantas entre ellas?\n\n¡Oh! Eso no lo sabía, Kenia. ¡Wow, asombroso!\n\nEllas envían señales por aire o bajo tierra y comparten hongos para evitar que los insectos las dañen.\n\nSí, Juan.\n\n¡Las plantas son impresionantes!\n\n• Bosque • Playa • Escuela\n\n• Comen • Conversan\n\n• Cantan\n\na. ¿Dónde se encuentran los niños?\n\nb. ¿Qué están haciendo?\n\nemana 1 Anticipación 78 Título: El árbol del parque Autora: Yanett Mora Tres personajes:\n\n1. Andrés (niño de 8 años)\n\n2. Jessica (niña de 7 años)\n\n3. Abuela (señora de 68 años)\n\nComentamos a nuestra maestra o maestro alguna palabra que no hemos comprendido.\n\nEl texto dramático: Elementos\n\n2. Actividad con docente\n\nLeemos en voz alta el texto dramático.\n\nAMBIENTACIÓN. Parque de la ciudad.\n\nINTRODUCCIÓN. ANDRÉS Y JESSICA jugaban en el parque como siempre alrededor de su árbol favorito. Era el árbol más grande de todo el parque, estaba lleno de hojas y tenía unas ramas muy fuertes de donde les gustaba guindarse y hacer como monitos.\n\nANDRÉS. —¡Mírame Jessica! Soy un mono travieso.\n\nJESSICA. —(Haciendo sonidos de mono). ¡Mírame a mí, soy el monito más fuerte de todo el parque!\n\nANDRÉS. —Por cierto, Jessica, ¿qué haremos con los desperdicios de la merienda que dejamos al lado del árbol?\n\nJESSICA. —Déjalos ahí, Andrés, no le prestes atención, el cesto de basura está muy lejos de aquí.\n\nANDRÉS. —¡Está bien!\n\nAcotación. JESSICA y ANDRÉS continuaron jugando.\n\nEl árbol del parque ACTO I Construcción El texto dramático: Elementos ¿Qué significa…?¿Qué significa…?\n\nGuindarse.\n\nColgarse en lo alto.\n\nMerienda. Refrigerio que puede comerse a media mañana o media tarde.\n\nActividades para desarrollar las temáticas a estudiar.\n\nConstrucción. Encontrarás teoría, lecturas relacionadas con la temática y actividades para que desarrolles la comprensión lectora y apliques la teoría.\n\nTema en estudio.\n\nLecturas.\n\n36 37 En esta unidad aprenderás a...\n\nMi producto de unidad: Una historieta con texto\n\na. Demostrar respeto a los demás en conversaciones de interés, utilizando el lenguaje verbal y no verbal.\n\nb. Identificar los elementos de una historieta.\n\nc. Comparar elementos de una historieta con diálogos y de una historieta sin diálogos.\n\nd. Identificar la sílaba tónica en palabras que lee y escribe.\n\ne. Producir historietas con diálogos o sin texto sobre temas de interés personal. La historieta será evaluada así:\n\n• Tiene tres viñetas o más.\n\n• Corresponden los globos a cada dibujo.\n\n• Contiene bocadillos con diálogos o con onomatopeyas.\n\n• Presenta dibujos adecuados para los diálogos\n\nAprendizajes que alcanzarás al desarrollar la unidad.\n\nCriterios para evaluar tu producción escrita.\n\nEstán diseñadas para proporcionarte la siguiente información:\n\nEste libro es un recurso que te ayudará a desarrollar habilidades para comunicar tus ideas de manera efectiva y te orientará en el análisis y la producción de textos. En cada unidad encontrarás:\n\nConoce tu libro de texto Entradas de unidad Momentos de la semana 2 1 Iconografía Te guiará en el desarrollo de las actividades.\n\nAnticipación Construcción Consolidación Practicolo aprendido en casaActividad 4",
+      "charCount": 4012
+    },
+    {
+      "pageNumber": 6,
+      "text": "Producción textual 21\n\nUnidad 3Unidad 3Unidad 5\n\nTextualización Escribo en mi cuaderno algunas ideas para completar los versos para que tengan sentido y conserven la rima. Uso imágenes sensoriales.\n\nEscribo dos bombas a partir de lo planificado.\n\nVerifico que mis bombas estén bien escritas: inician con mayúscula, finalizan con un punto y utilizan un lenguaje claro.\n\nComparto con la clase a través del medio que indique mi docente.\n\nCriterios Logrado En proceso1. Poseen palabras que riman al final de los versos.\n\n2. Presentan palabras que mantienen el sentido\n\ndel texto.\n\n3. Poseen imágenes sensoriales.\n\n4. Presenta un uso adecuado de la ortografía.\n\n__________________________________ __________________________________ __________________________________ __________________________________ _________________________________ __________________________________ __________________________________ __________________________________ __________________________________ _________________________________ Revisión Publicación Actividad en casa\n\n• Leo en voz alta las bombas a un familiar.\n\nEvaluación emana 2 Orientaciones para que desarrolles cada etapa del proceso de escritura.\n\nIndicador de la producción principal de la unidad.\n\n21\n\nUnidad 3Unidad 3Unidad 5\n\nTextualización Escribo en mi cuaderno algunas ideas para completar los versos para que tengan sentido y conserven la rima. Uso imágenes sensoriales.\n\nEscribo dos bombas a partir de lo planificado.\n\nVerifico que mis bombas estén bien escritas: inician con mayúscula, finalizan con un punto y utilizan un lenguaje claro.\n\nComparto con la clase a través del medio que indique mi docente.\n\nCriterios Logrado En proceso\n\n1. Poseen palabras que riman al final de los versos.\n\n2. Presentan palabras que mantienen el sentido\n\ndel texto.\n\n3. Poseen imágenes sensoriales.\n\n4. Presenta un uso adecuado de la ortografía.\n\n__________________________________ __________________________________ __________________________________ __________________________________ _________________________________ __________________________________ __________________________________ __________________________________ __________________________________ _________________________________ Revisión Publicación Actividad en casa\n\n• Leo en voz alta las bombas a un familiar.\n\nEvaluación emana 2 Criterios para evaluar tu producción textual.\n\nConsolidación. En este momento de la secuencia encontrarás actividades que te ayudarán a practicar y a reafirmar los aprendizajes de la semana.\n\n14 15\n\nUnidad 3Unidad 3Unidad 5\n\n5. Actividad en pares\n\nSubrayamos la opción correcta.\n\na. Son textos cortos y con rima que suelen pronunciarse en las fiestas y\n\nreuniones.\n\n▪ imágenes ▪ bombas ▪ cuentos\n\nb. Son las líneas cortas con que se escriben las bombas.\n\n▪ rima ▪ bombas ▪ versos\n\nc. Es la repetición de sonidos al final de un verso.\n\n▪ imágenes ▪ rima ▪ versos\n\nd. Son expresiones que estimulan los sentidos:\n\n▪ imágenes ▪ rima ▪ versos Escribimos 3 palabras que rimen por cada imagen.\n\nIdentificamos la imagen sensorial con que se relaciona cada texto y unimos con el sentido que corresponde.\n\nComparamos nuestro trabajo con el de otros pares y corregimos si es necesario.\n\nActividad en casa\n\n• Escribo la bomba que más me guste de las páginas 12 y 13. La leo\n\nen voz alta a los miembros de mi familia.\n\nTu corazón es más dulce que la misma chirimoya; pero a mí me hace llorar cual si fuera de cebolla.\n\nPor esos cerros, silbando, de tarde me gusta andar, que oiga el viento silbador que yo también sé silbar.\n\nColores y más colores, colores te doy mi niña.\n\nPara que pintes el jugo de la naranja y la piña.\n\nUna niña en un baile se sujetaba un zapatito de raso que le apretaba.\n\nUn recuerdo me pediste y al jardín me fui a buscar estas flores olorosas que demuestran mi amistad.\n\nemana 1 Consolidación ¿Qué significa…?¿Qué significa…?\n\nChirimoya.\n\nGuanaba.\n\nZapatito de raso.\n\nZapato forrado con tela.\n\nActividades de aplicación.\n\n34\n\nc. Subrayo la parte que evoca el sentido del oído y respondo.\n\nMostramos el trabajo al docente y corregimos si es necesario.\n\nCompartimos con nuestro docente.\n\n1. Actividad en pares\n\nLeemos las bombas y resolvemos.\n\nEn los carriles del viento se deshizo una flor.\n\nSi a ti te causa tristeza, a mí me causa dolor.\n\nEn el fondo de la mar suspiraba un pez espada y en un suspiro decía:\n\n«Amor con amor se paga».\n\nQuiero ser perla fina de tus pulidos aretes para darme una vueltita y morderte los cachetes.\n\nSegún el compadre Ambrosio las puertas y las ventanas; andaban por ahí diciendo que ellas son primas hermanas.\n\nDos patitos en el agua, no se pueden ahogar; dos amigos que se quieren no se pueden olvidar Las horas que tiene el día las he repartido así:\n\nnueve soñando contigo y quince pensando en ti.\n\nMe mandaron no sé dónde, a buscar no sé qué rosa; y me volví no sé cuándo, trayendo no sé qué cosa.\n\nEvoca el sentido del oído porque Quiero ser _______________________________________________________________ de tus __________________________________________________________________ para ____________________________________________________________________ y _______________________________________________________________________\n\n2. Actividad individual\n\nResuelvo.\n\nb. Subrayo el sujeto y rodeo el verbo en las siguientes oraciones.\n\nc. Escribo dos características de los audiolibros:\n\nd. Planifico y elaboro el croquis de la habitación donde duermo.\n\nMuestro el trabajo a mi docente y corrijo si es necesario.\n\nMi familia vive en Usulután.\n\nMañana mis amigos tendrán una fiesta.\n\nVinieron temprano, Josué y Paty.\n\nLa basura contamina el agua, el suelo y el aire.\n\nMargarita cuida sus libros y cuadernos.\n\n1.\n\n2.\n\na. Relacionamos las palabras que riman.\n\na. Escribo la palabra que corresponde a cada ilustración.\n\nPractico lo aprendido 35\n\nUnidad 5\n\nActividades de práctica.\n\nLectura.\n\n4 3 5 En cada unidad encontrarás un proceso principal de escritura a desarrollar.\n\nDispondrás de instrumentos para evaluar tu producción textual y autoevaluar tu desempeño en la unidad.\n\nPractico lo aprendido Al final de cada unidad te presentamos textos relacionados con las temáticas para que practiques los aprendizajes logrados.\n\nEvaluación Secciones especiales\n\nTe proporcionarán información sobre autores, léxico, datos curiosos, recordatorios y enlaces a sitios web.\n\n¿Qué significa…?¿Qué significa…?\n\n¿Sabías que…?¿Sabías que…?\n\nRecuerda...Recuerda...\n\nEn la web...En la web...\n\nConoce a...Conoce a...\n\n5",
+      "charCount": 6470
+    },
+    {
+      "pageNumber": 7,
+      "text": "Índice\n\nSemana 1\n\nBombas: Verso y rima ………………………………\n\nImágenes sensoriales en las bombas …\n\nSemana 2\n\nUso de y ..…..…..…..…..…..…..…..…..….\n\nProducto: Bombas con rima ……………\n\nEvaluación …………………………………\n\nSemana 3\n\nOración simple: Sujeto y predicado …\n\nLa elaboración de un croquis …………\n\nSemana 4\n\nLos audiolibros ……………………………\n\nPractico lo aprendido ....…..…..…..…..…\n\n11 13 17 19 21 23 26 32 34\n\nUnidad 5. Escucho textos\n\nConoce tu libro de texto ……………..… 4 40 42 48 53 60 65 68 72\n\nSemana 1\n\nEl diálogo ...................................................\n\nLa historieta: Elementos y recursos ……\n\nSemana 2\n\nLa historieta con texto y muda .............\n\nLa sílaba tónica: Palabras agudas y graves ………………………………………\n\nSemana 3\n\nProducto: Historietas mudas o con texto Evaluación …......…......…......…......……\n\nSemana 4\n\nLa separación de palabras en sílabas Practico lo aprendido ....…..…..…..…..…\n\nUnidad 6. Invento historietas\n\nTomo II 6",
+      "charCount": 928
+    },
+    {
+      "pageNumber": 8,
+      "text": "Semana 1\n\nEl texto dramático: Elementos …………\n\nLa dramatización …………………………\n\nSemana 2\n\nAdverbios de tiempo: Ayer, hoy y mañana ...................................................\n\nSinónimos y antónimos ............................\n\nSemana 3\n\nLa correspondencia familiar ......….….…\n\nLa coma enumerativa ....…....…....…...\n\nSemana 4\n\nEl intercambio de correspondencia …\n\nProducto: Carteles informativos …...\n\nEvaluación …..…..…..…..…..…..…..….....\n\nUnidad 7. Elaboro carteles\n\n78 81 92 96 102 105 110 112 115\n\nUnidad 8. Escribo etiquetas\n\nSemana 1\n\nLa fábula: Elementos …………………\n\nLa personificación ..……..……..……..…\n\nSemana 2\n\nPalabras que terminan en –illo , -illa ....\n\nLa creación de personajes de fábula ...\n\nLas señales del entorno ...........................\n\nSemana 3\n\nProducto: Una etiqueta de producto ...\n\nEvaluación ................................................\n\nSemana 4\n\nEl uso de v en palabras que terminan en\n\n–ívora, -ívoro .............................................\n\nTipos de noticias .......................................\n\nPractico lo aprendido ............................\n\nReferencias ...............................................\n\n124 127 131 132 134 140 143 149 151 156 158 7",
+      "charCount": 1202
+    },
+    {
+      "pageNumber": 9,
+      "text": "8 En esta unidad aprenderás a...\n\na. Leer y escuchar bombas de la tradición oral.\n\nb. Identificar los versos, la rima y las imágenes en bombas.\n\nc. Planificar y producir croquis.\n\nd. Escuchar y comprender audiolibros.\n\ne. Identificar las características de los audiolibros.",
+      "charCount": 273
+    },
+    {
+      "pageNumber": 10,
+      "text": "9\n\nUnidad 3Unidad 3Unidad 5\n\nMi producto de unidad: Escritura de bombas La escritura de bombas será evaluada así:\n\n• Posee palabras que riman al final de los versos.\n\n• Presenta palabras que mantienen el sentido del texto.\n\n• Posee imágenes sensoriales.\n\n• Presenta un uso adecuado de la ortografía.",
+      "charCount": 299
+    },
+    {
+      "pageNumber": 11,
+      "text": "10\n\n1. Actividad en pares\n\nRelacionamos las imágenes cuyos nombres terminan con sonidos similares.\n\nMencionamos dos palabras que relacionamos.\n\nCorregimos si es necesario.\n\nPensamos en más palabras que terminen en los mismos sonidos y las expresamos en voz alta a nuestro docente.\n\nAnticipación",
+      "charCount": 294
+    },
+    {
+      "pageNumber": 12,
+      "text": "11\n\nUnidad 3Unidad 3Unidad 5\n\n2. Actividad con docente\n\nBombas: Verso y rima Analizamos la información.\n\nLas bombas son textos cortos que algunas veces tienen palabras divertidas y suelen pronunciarse en fiestas o reuniones. Se escriben en líneas cortas llamadas versos y tienen rima. La rima es la repetición de sonidos al final de los versos. Ejemplos:\n\nRevisamos nuestro trabajo a partir de la información que analizamos.\n\nColoreamos solo las características de las bombas.\n\nEste torito que traigo, lo traigo desde Jicalapa y lo vengo manteniendo con cascaritas de papa.\n\nEn el cielo, las estrellas; en el campo, las espinas.\n\nEn el centro de tu pecho una pulga te camina.\n\n4 versos Los versos 2 y 4 riman.\n\nPalabras divertidas Son textos largos.\n\nSe escriben en verso.\n\nSon palabras divertidas.\n\nNo hay que decirlas.\n\nSon textos cortos.\n\nTienen rima.\n\nNo tienen rima.\n\nSe dicen en fiestas.\n\nSon palabras aburridas.\n\nemana 1 Construcción",
+      "charCount": 940
+    },
+    {
+      "pageNumber": 13,
+      "text": "12 Desarrollamos.\n\na. Numeramos los versos de cada bomba.\n\nb. Relacionamos las palabras que riman al final de cada verso.\n\nc. Escribimos dos bombas con letra ligada en el cuaderno.\n\nComparamos nuestro trabajo con otro par.\n\nTírame la luna, tírame el limón, tírame las llaves de tu corazón.\n\nHe mandado hacer una pila de calicanto y marfil, para que te pases bañando todo marzo y todo abril.\n\nSi el sol del cielo cayera y al caer se quebrara, sin duda de sol sirvieran los dos ojos de tu cara.\n\nSeñora, véndame un pan porque aquí vengo en ayunas; que yo después se lo pago cuando la rana eche plumas.\n\nSi yo fuera un superhéroe te llevaría volando, pero como no lo soy, te acompaño caminando.\n\n3. Actividad en pares\n\nLeemos los textos en voz alta.\n\n¿Sabías que…?¿Sabías que…?\n\nLas bombas suelen transmitirse de generación en generación, por lo que la mayoría de las veces se desconoce su autor.",
+      "charCount": 893
+    },
+    {
+      "pageNumber": 14,
+      "text": "13\n\nUnidad 3Unidad 3Unidad 5\n\nIdentificamos las imágenes sensoriales en las siguientes bombas.\n\nIdentificamos con qué sentido se relacionan las dos bombas.\n\nComparamos nuestro trabajo con la clase y corregimos si es necesario.\n\nLeemos en voz alta.\n\n4. Actividad con docente\n\nImágenes sensoriales en las bombas Leemos y explicamos con nuestras palabras.\n\nLas imágenes sensoriales son expresiones que se relacionan con los sentidos:\n\nel oído, la vista, el tacto, el olfato y el gusto.\n\nSe utilizan en las bombas para ayudar a imaginar lo que se dice.\n\nA las tres de la mañana empecé a escuchar un grillo:\n\nandaba muy ocupado afilando su cuchillo.\n\nLa Luna sale de noche el Sol lo hace de día, es por eso que la Luna siempre anda la cara fría.\n\nSe relaciona con la vista: a esta hora, hay oscuridad.\n\nSe relaciona con la vista:\n\nclaridad, oscuridad.\n\nSe relaciona con el oído: el sonido del grillo y el del afilado.\n\nSe relaciona con el tacto:\n\nsensación de frío.\n\nSe relaciona con la vista: la Luna tiene cara.\n\nCuánta naranja madura, cuánto limón en el suelo; cuánta muchacha bonita, cuánto galán sin sombrero.\n\nDe la peña nace el agua y del agua, el caracol.\n\nDe los ojos de mi niño nacen los rayos de sol.\n\nemana 1",
+      "charCount": 1215
+    },
+    {
+      "pageNumber": 15,
+      "text": "14\n\n5. Actividad en pares\n\nSubrayamos la opción correcta.\n\na. Son textos cortos y con rima que suelen pronunciarse en las fiestas y\n\nreuniones.\n\n▪ Imágenes ▪ Bombas ▪ Cuentos\n\nb. Son las líneas cortas con que se escriben las bombas.\n\n▪ Rima ▪ Bombas ▪ Versos\n\nc. Es la repetición de sonidos al final de un verso.\n\n▪ Imágenes ▪ Rima ▪ Versos\n\nd. Son expresiones que estimulan los sentidos:\n\n▪ Imágenes ▪ Rima ▪ Versos Escribimos 3 palabras que rimen por cada imagen.\n\nConsolidación",
+      "charCount": 480
+    },
+    {
+      "pageNumber": 16,
+      "text": "15\n\nUnidad 3Unidad 3Unidad 5\n\nIdentificamos la imagen sensorial con que se relaciona cada texto y unimos con el sentido que corresponde.\n\nComparamos nuestro trabajo con el de otros pares y corregimos si es necesario.\n\nActividad en casa\n\n• Escribo la bomba que más me guste de las páginas 12 y 13. La leo\n\nen voz alta a los miembros de mi familia.\n\nTu corazón es más dulce que la misma chirimoya; pero a mí me hace llorar cual si fuera de cebolla.\n\nPor esos cerros, silbando, de tarde me gusta andar, que oiga el viento silbador que yo también sé silbar.\n\nColores y más colores, colores te doy mi niña.\n\nPara que pintes el jugo de la naranja y la piña.\n\nUna niña en un baile se sujetaba un zapatito de raso que le apretaba.\n\nUn recuerdo me pediste y al jardín me fui a buscar estas flores olorosas que demuestran mi amistad.\n\nemana 1 ¿Qué significa…?¿Qué significa…?\n\nChirimoya.\n\nGuanaba.\n\nZapatito de raso.\n\nZapato forrado con tela.",
+      "charCount": 932
+    },
+    {
+      "pageNumber": 17,
+      "text": "16\n\na. Mencionamos el nombre de cada imagen y decimos qué sonidos similares\n\ntienen.\n\nb. Leemos en voz alta a partir del sonido de las letras.\n\nc. Indagamos el significado de las palabras que no conocemos.\n\nVerificamos nuestro trabajo con nuestro docente.\n\n1. Actividad en pares\n\nColoreamos y conversamos sobre lo que sabemos de las ilustraciones.\n\nParaguay Eloy virrey Uruguay buey fray ¡caray! Bombay ¡uy!\n\ndoy ley maguey ¡ay! convoy estoy Sidney voy Monterrey muy soy ¡hey! mamey hay Anticipación\n\nUnidad 3Producto",
+      "charCount": 517
+    },
+    {
+      "pageNumber": 18,
+      "text": "17\n\nUnidad 3Unidad 3Unidad 5\n\nCompletamos con las palabras que nos dictan.\n\nRevisamos nuestro trabajo apoyándonos en las reglas estudiadas. Corregimos si es necesario.\n\nSe escribe y al final de palabra, después de las vocales a, e, o y u. Ejemplos:\n\nHay palabras terminadas con y en bombas y otros textos.\n\n2. Actividad con docente\n\nLeemos la información y revisamos los ejemplos.\n\nPensando en que me dejaste, lloro tanto y tan de veras, que la gente de mi casa, ¡ay!, se imagina que hay goteras.\n\nEn el cielo _____ un lucero que me llama la atención y en la tierra una mujer que _____ me robó el corazón.\n\nQuisiera ser _____ o vaca o alguito así mejor para bañarme _____ noche cuando hay mucho calor.\n\nAhí en el cerro pelón cantando estaba el jilguero que en la inmensidad del mundo no _____ amor como el primero.\n\n_____ como el pájaro cuervo, en las cumbres me mantengo; los amores que me diste…\n\n¡ _____, no sé dónde los tengo!\n\nbuey Eloy Uruguay Uso de y emana 2 Construcción ¿Sabías que…?¿Sabías que…?\n\nCuando una palabra termina con sonido igual que mamey, muy, Paraguay o convoy, pero tiene tilde no se escribe con y: oí, ahí, leí.",
+      "charCount": 1138
+    },
+    {
+      "pageNumber": 19,
+      "text": "18 Comparamos nuestro trabajo con la clase.\n\na. Marcamos con X todos los versos\n\nque se repiten.\n\nb. Colocamos un en los versos que\n\ndicen cómo ha venido.\n\nc. Rodeamos el verso final de cada\n\nestrofa.\n\nd. Relacionamos las palabras que\n\nriman en cada bomba.\n\nDesde mi tierra he venido arrastrando mi tanate, solo por venir a verte, canillitas de zanate.\n\nDesde mi tierra he venido, pasando ríos y puentes; solo por venir a verte, colochitos en la frente.\n\nDesde mi tierra he venido arrastrando mi camisa, solo por venir a verte, al salir de la misa.\n\nDesde mi tierra he venido navegando en una astilla, solo por venir a verte, palomita de Castilla.\n\n3. Actividad con docente\n\nLeemos las bombas en voz alta y analizamos la comparación.\n\n- El primer verso de cada bomba\n\nse repite.\n\n- El segundo verso describe cómo\n\nha venido.\n\n- El cuarto verso contiene una\n\nexpresión ingeniosa que explica lo que vino a ver.\n\n- La última palabra del segundo y\n\nel cuarto verso tienen rima.\n\n- Todos los versos son cortos.\n\nDesde mi tierra he venido arrastrando este zapato; solo por venir a verte que tienes ojos de gato.\n\nDesde mi tierra he venido montado en una carreta, solo por venir a verte, mi adorada nieta.\n\nUnidad 3Producto\n\nLeemos las bombas y resolvemos.",
+      "charCount": 1249
+    },
+    {
+      "pageNumber": 20,
+      "text": "19\n\nUnidad 3Unidad 3Unidad 5\n\nAnalizamos los pasos para producir versos en una bomba y pedimos explicación de lo que no comprendamos.\n\nCompletamos las bombas a partir de los pasos anteriores.\n\nCompartimos nuestro trabajo con otro par.\n\n4. Actividad en pares\n\nLeemos en voz alta.\n\nPara producir versos en una bomba se pueden seguir estos pasos:\n\na. Seleccionamos una bomba que nos guste.\n\nb. La leemos varias veces para comprender su significado e identificar la\n\nrima en el segundo y cuarto verso.\n\nc. Decidimos qué partes de la bomba seleccionada vamos a conservar.\n\nd. Pensamos en maneras de completar los versos para que tengan sentido\n\ny conserven la rima.\n\ne. Completamos la bomba con las palabras que hemos pensado.\n\nf. La leemos varias veces para verificar si tiene sentido y rima.\n\ng. Hacemos los ajustes y correcciones necesarios.\n\nh. Publicamos la versión final de la nueva bomba.\n\nAnoche estaba la suerte sentada en un frijolar comiendo vainillas secas para empezar a engordar.\n\nAnoche estaba ________________ sentad__ en ____________________ comiendo _____________________ para __________________________ Anoche estaba ________________ sentad__ en ____________________ comiendo _____________________ para __________________________ Anoche estaba ________________ sentad__ en ____________________ comiendo _____________________ para __________________________ Desde mi tierra he venido solo por venir a verte Producto: Bombas con rima emana 2",
+      "charCount": 1453
+    },
+    {
+      "pageNumber": 21,
+      "text": "20\n\n5. Actividad individual\n\nResuelvo.\n\nPlanificación\n\na. Leo varias veces las siguientes bombas.\n\nAyer pasé por tu casa me tiraste un limón.\n\nYa no me tires otro, porque me hiciste un chichón.\n\nAyer pasé por tu casa y me tiraste una flor…\n\nLa próxima vez que pase, ¡sin maceta por favor!\n\nAyer pasé por tu casa, me tiraste una iguana.\n\nLe compré una manzana pensando que era vegetariana.\n\nAyer pasé por tu casa, me tiraste una rata.\n\nYo la tomé de la cola pensando que era tu gata.\n\nb. Subrayo los versos que se repiten y las palabras que riman.\n\nc. Copio las palabras que voy a conservar.\n\nd. Repaso el uso de las imágenes sensoriales.\n\nSon expresiones que evocan los sentidos: el oído, la vista, el tacto, el olfato y el gusto.\n\nEs como la amapola, moradita cuando nace; Es como el marquesote, que en la boca se deshace.\n\nEvoca la vista Evoca el gusto Consolidación\n\nUnidad 3Producto",
+      "charCount": 886
+    },
+    {
+      "pageNumber": 22,
+      "text": "21\n\nUnidad 3Unidad 3Unidad 5\n\nTextualización Escribo en mi cuaderno algunas ideas para completar los versos para que tengan sentido y conserven la rima. Uso imágenes sensoriales.\n\nEscribo dos bombas a partir de lo planificado.\n\nVerifico que mis bombas estén bien escritas: inician con mayúscula, finalizan con un punto y utilizan un lenguaje claro.\n\nComparto con la clase a través del medio que indique mi docente.\n\nCriterios Logrado En proceso\n\n1. Poseen palabras que riman al final de los versos.\n\n2. Presentan palabras que mantienen el sentido\n\ndel texto.\n\n3. Poseen imágenes sensoriales.\n\n4. Presenta un uso adecuado de la ortografía.\n\n__________________________________ __________________________________ __________________________________ __________________________________ _________________________________ __________________________________ __________________________________ __________________________________ __________________________________ _________________________________ Revisión Publicación Actividad en casa\n\n• Leo en voz alta las bombas a un familiar.\n\nEvaluación emana 2",
+      "charCount": 1091
+    },
+    {
+      "pageNumber": 23,
+      "text": "22 Comparamos nuestro trabajo con el de otros pares. Corregimos si es necesario.\n\na. Observamos lo que hacen las personas y nos fijamos en los lugares.\n\nb. Anotamos lo que vimos en nuestro recorrido, según corresponda.\n\nMostramos nuestras anotaciones al docente.\n\n1. Actividad en pares\n\nRodeamos las palabras que expresan las acciones de las imágenes.\n\nLas personas que había y lo que hacían Los lugares que había y cómo eran V U E L A N I D L D I E L P T M C J S U S C A C D O B U E E C O M E Ó N R E T R A R C R N R U G E M B R H P I N T A N E L E E M R Q J N T Y U D S I A U A E A U\n\n2. Actividad con docente\n\nRecorremos nuestro centro educativo.\n\nAnticipación",
+      "charCount": 663
+    },
+    {
+      "pageNumber": 24,
+      "text": "23\n\nUnidad 3Unidad 3Unidad 5\n\na. Marcamos con una X las expresiones que se refieren a personas.\n\nb. Colocamos un en las expresiones sobre animales o plantas.\n\nc. Coloreamos el globo de texto que se refiere a lugares.\n\nMostramos el trabajo a nuestro docente.\n\nOración simple: Sujeto y predicado Asdrúbal, Gloria, Gabriel, Blanquita, Katy y Francisco hicieron un recorrido por el centro educativo con el profesor Pablo. Ellos se fijaron mucho en las personas que allí había y en los objetos y lugares por los que pasaron.\n\nCuando regresaron al aula, cada niño expresó lo que más le interesó en el recorrido. Esto fue lo que dijeron:\n\n3. Actividad en pares\n\nLeemos en voz alta y resolvemos.\n\nUn recorrido interesante Dos aves anidaron allá.\n\nUna maestra salió de la dirección.\n\nLas plantas lucen bien.\n\nMi escuela está muy bonita.\n\nEl profe caminó rápido.\n\nLos pasillos son amplios.\n\nemana 3 Construcción",
+      "charCount": 901
+    },
+    {
+      "pageNumber": 25,
+      "text": "24 Las oraciones pueden tener más palabras, pero en el sujeto encontraremos un sustantivo y en el predicado siempre habrá un verbo:\n\n• El valiente Firulais ladra toda la noche.\n\n• Tiene hambre mi hermanita.\n\n• Don Jorge compró fósforos en el mercado.\n\n4. Actividad con docente\n\nAnalizamos la información.\n\nformada por Ejemplo es una expresión con sentido completo Es la persona, animal, cosa o lugar de la que se habla en una oración; generalmente tiene un sustantivo.\n\nLa palabra «Firulais»\n\nes sustantivo.\n\nFirulais ladra.\n\nsujeto + predicado Inician con mayúscula y terminan con punto.\n\nLa palabra «ladra»\n\nes un verbo.\n\nEs lo que se dice del sujeto y siempre tiene un verbo.\n\nLa oración sujeto predicado sujeto predicado sujeto predicado predicado sujeto ¿Sabías que…?¿Sabías que…?\n\nLos verbos son palabras que generalmente indican acción.\n\nSe pueden encontrar con las terminaciones\n\n-ar, -er e -ir, como caminar, vender o salir; o en sus derivados:\n\ncaminaremos, vendieron y saliste.",
+      "charCount": 988
+    },
+    {
+      "pageNumber": 26,
+      "text": "25\n\nUnidad 3Unidad 3Unidad 5\n\nElaboramos tres oraciones con sujeto y predicado. Seleccionamos entre los siguientes sustantivos y verbos y añadimos más palabras.\n\nMostramos las oraciones a nuestro docente.\n\nVerificamos nuestro trabajo con otros equipos.\n\nResolvemos.\n\na. Escribimos dos oraciones en el\n\ncuaderno a partir de la imagen.\n\nb. Subrayamos el sujeto y el predicado.\n\nc. Rodeamos el sustantivo del sujeto y\n\nsubrayamos el verbo.\n\nComparamos nuestras oraciones con las de otros pares. Corregimos si es necesario.\n\n1 2 3 Sustantivos Verbos casa Patricio peces tronco teléfono enfermera plato arrancó sonará vende está escribe crecía volvió\n\n5. Actividad en equipo\n\nSubrayamos el sujeto y el predicado. Rodeamos el sustantivo del sujeto y marcamos el verbo con .\n\n• Las plantas purifican el aire. • Se rompió la silla nueva.\n\n• El Sol ilumina la montaña. • Hizo sopa de res mi papá.\n\n• Compró un auto mi tía. • Mis amigas vinieron de visita.\n\n6. Actividad en pares\n\nemana 3",
+      "charCount": 978
+    },
+    {
+      "pageNumber": 27,
+      "text": "26\n\na. ¿Para qué sirve la ilustración anterior y cómo se llama?\n\nb. ¿Cuántos grados tiene la escuela?\n\nc. ¿Dónde queda la biblioteca?\n\nd. ¿Dónde está ubicada la dirección?\n\ne. ¿Qué otro lugar agregaríamos como parte del croquis de esta escuela?\n\nf. ¿Por qué es importante conocer nuestra escuela?\n\n7. Actividad en equipo\n\nObservamos la ilustración.\n\nCompartimos las respuestas con la clase.\n\nConversamos sobre lo siguiente y resolvemos en el cuaderno.\n\nLa elaboración de un croquis",
+      "charCount": 481
+    },
+    {
+      "pageNumber": 28,
+      "text": "27\n\nUnidad 3Unidad 3Unidad 5\n\n8. Actividad con docente\n\nCompartimos las respuestas con la clase.\n\nLeemos la información sobre el croquis.\n\nEs el dibujo o imagen de un lugar y sirve para ubicarse en un espacio. Es un dibujo que se hace con líneas y que también puede elaborarse sin usar regla ni tomar medidas.\n\nSe puede hacer un croquis de la vivienda, la escuela y la comunidad.\n\nEn este dibujo ubicamos cada espacio por su nombre.\n\nEl croquis Respondemos.\n\na. ¿Qué es un croquis?\n\nb. ¿Para qué sirve un croquis?\n\nc. ¿De qué podemos hacer un croquis?\n\nd. Si dibujáramos un croquis de una vivienda, ¿qué espacios ubicaríamos?\n\ne. Si dibujáramos un croquis sobre nuestra comunidad, ¿qué espacios\n\nubicaríamos?\n\nf. ¿De qué otro lugar podríamos elaborar un croquis?\n\nemana 3",
+      "charCount": 771
+    },
+    {
+      "pageNumber": 29,
+      "text": "28 Desarrollamos lo siguiente para elaborar un croquis.\n\na. Recorremos de forma ordenada nuestro centro escolar.\n\nb. Anotamos la información que se nos pide a continuación.\n\n9. Actividad en equipo\n\nComentamos con la clase lo que aprendimos en esta actividad.\n\n• ¿Cuántos grados hay en mi escuela?\n\n• ¿Dónde se ubica la oficina de dirección?\n\n• ¿Dónde están ubicados los baños?\n\n• ¿Cuenta con biblioteca? ¿Dónde se ubica?\n\n• ¿Cuenta con orientación escolar o consejería escolar? ¿Dónde se ubica?\n\n• ¿Qué actividades se realizan en el patio?\n\n• ¿Con qué otros espacios cuenta nuestra escuela?\n\n• ¿Qué otros espacios nos gustarían que tuviera nuestra escuela?\n\nConsolidación",
+      "charCount": 671
+    },
+    {
+      "pageNumber": 30,
+      "text": "29\n\nUnidad 3Unidad 3Unidad 5\n\nActividad en casa\n\n• Comparto con mi familia el croquis elaborado en clase.\n\n• Converso sobre los aprendizajes que he logrado durante la\n\nsemana.\n\n10. Actividad individual\n\nRespondo las preguntas en mi cuaderno.\n\na. ¿Cuántos cuartos tiene mi vivienda?\n\nb. ¿Cuántos baños?\n\nc. ¿Dónde se ubica la cocina?\n\nd. ¿Dónde se ubica el comedor?\n\ne. ¿Qué otros espacios posee mi vivienda?\n\nElaboro el croquis de mi vivienda en el siguiente espacio.\n\nVerifico la ubicación de cada espacio de mi vivienda.\n\nMuestro a mi docente el croquis que elaboré.\n\nCorrijo y elaboro el croquis para presentarlo a la clase en una hoja suelta.\n\nComparto mi trabajo con otro compañero.\n\nemana 3",
+      "charCount": 696
+    },
+    {
+      "pageNumber": 31,
+      "text": "30 Respondemos.\n\nPersonaje\n\n1. Soldado naipe\n\n2. Tortuga\n\n3. El joven inventor\n\n4. Rapunzel\n\n5. El pirata\n\nTexto Alicia en el país de las maravillas (novela) La tortuga y la liebre(fábula) El coleccionista de estrellas (cuento) Rapunzel (cuento) La canción del pirata (poema)\n\n1. Actividad en pares\n\nObservamos la ilustración.\n\na. ¿Cuáles textos de la ilustración conocemos?\n\nb. ¿Qué hacen el niño de la escalera y la niña del libro?\n\nEscribimos el número en la ilustración, según corresponda.\n\nComparamos nuestras respuestas con otro par y conversamos sobre los textos que más nos gustan.\n\nAnticipación",
+      "charCount": 603
+    },
+    {
+      "pageNumber": 32,
+      "text": "31\n\nUnidad 3Unidad 3Unidad 5\n\nConversamos con nuestro docente, ¿quiénes son los personajes?\n\n¿qué mensaje nos deja el cuento?\n\n2. Actividad en pares\n\nLeemos el cuento y escuchamos el audiolibro con ayuda de nuestro docente.\n\nMuchos túneles y un problema Adaptación Como cada mañana el Topo Tito se levantó, se aseó, desayunó, se lavó los dientes y se preparó para salir de su madriguera para dar una vuelta. Entonces descubrió que una piedra enorme tapaba la única salida que había en su casa.\n\n—¡Qué gran piedra! —dijo sorprendido— Tendré que\n\ncavar otra salida.\n\nEl topo apartó su armario ropero. Cuando no llevaba ni un minuto sacando tierra, se topó con una raíz enorme.\n\n—Qué grande esta raíz, tendré que cavar en otro lugar.\n\nEl topo regresó a su madriguera y empezó a cavar un agujero debajo de la alfombra.\n\nPero empezó a hundirse en la tierra y cayó en un lago de aguas subterráneas.\n\n—Qué gran lago— gritó ahogándose el topo que no sabía nadar. Con un\n\nesfuerzo enorme logró volver a su guarida.\n\nAl verlo tan agobiado la hormiga Artiga se ofreció para ayudarle.\n\n—¡Llamaré a mis amigas y juntas te apartaremos la piedra!\n\nPara agradecerles el Topo hizo una fiesta en su casa.\n\nemana 4 En la web...En la web...\n\nBusca el audiolibro «Sobre el Topo Tito».\n\nhttps://bit.ly/3sCKayr",
+      "charCount": 1287
+    },
+    {
+      "pageNumber": 33,
+      "text": "32 Los audiolibros\n\n3. Actividad en equipo\n\nAnalizamos la información.\n\nLos audiolibros son grabaciones de libros ya existentes en las que se puede escuchar su contenido completo. Permiten desarrollar la comprensión oral y brindan la oportunidad de conocer el contenido de los libros mientras se camina o se realizan otras actividades. También son muy útiles para las personas con discapacidad visual, o que no pueden sostener un libro en sus manos. Hay audiolibros gratuitos y de pago.\n\nMarcamos con X solo las características que corresponden al audiolibro.\n\nLeemos el inicio de «Nasredín y la lluvia» y escuchamos el audiocuento.\n\nComparamos nuestras respuestas con otros equipos.\n\nhttps://cutt.ly/CQWvBtI Nasredín y la lluvia Libro impreso Audiolibro Hace mucho, mucho tiempo vivió en la India un chico llamado Nasredín.\n\nAunque en apariencia era un chico como todos los demás, su inteligencia llamaba la atención.\n\nAllá donde iba todos le reconocían y admiraban su sabiduría.\n\nNasredín y la lluvia En:\n\nPara invidentes. Se escucha. Comprensión oral.\n\nHay gratuitos. Hay de pago. Se lee.\n\nPermite concentrase. Está impreso. Está grabado.\n\nConstrucción En la web...En la web...\n\nBusca audiolibros gratuitos escribiendo el nombre del texto que te interesa, la palabra «gratis» y finalmente: mp3, wma o aac.\n\n(Adaptación del cuento popular de la India)",
+      "charCount": 1353
+    },
+    {
+      "pageNumber": 34,
+      "text": "4. Actividad en equipo\n\nSeleccionamos un cuento en uno de estos sitios de audiolibros gratuitos.\n\na. Escuchamos el cuento del audiolibro.\n\nSi no tenemos acceso a audiolibros, seleccionamos un cuento de las unidades anteriores, lo leemos y narramos a otros equipos.\n\nb. Preparamos apoyos visuales (dibujos, objetos o disfraces).\n\nAutoevaluación Coloreo tres estrellas si lo he logrado, dos estrellas si puedo hacerlo pero debo mejorar y una estrella si necesito practicar más.\n\nLeo y escucho bombas de la tradición oral.\n\nPlanifico y produzco croquis.\n\nEscribo oraciones con sujeto y predicado.\n\nEscucho y comprendo audiolibros.\n\n5. Actividad con docente\n\nDesarrollamos.\n\na. Organizamos un festival de narración de cuentos.\n\nb. Invitamos a otros miembros de la comunidad educativa\n\na escuchar los cuentos.\n\nc. Explicamos a los invitados qué es un audiolibro.\n\nd. Narramos en voz alta el cuento que nos correspondió.\n\nEscuchamos los comentarios de nuestro docente.\n\nEnlaces para diferentes cuentos:\n\n1. https://bit.ly\n\n2. adbl.co/3s5w2kP\n\n3. bit.ly/45uSnXp\n\nemana 4 33\n\nUnidad 5\n\nConsolidación",
+      "charCount": 1091
+    },
+    {
+      "pageNumber": 35,
+      "text": "34\n\nc. Subrayo la parte que evoca el sentido del oído y respondo.\n\nEscribimos una bomba a partir de lo siguiente.\n\nMostramos el trabajo al docente y corregimos si es necesario.\n\n1. Actividad en pares\n\nLeemos las bombas y resolvemos.\n\nEn los carriles del viento se deshizo una flor.\n\nSi a ti te causa tristeza, a mí me causa dolor.\n\nEn el fondo de la mar suspiraba un pez espada y en un suspiro decía:\n\n«Amor con amor se paga».\n\nEn la vida hay seis pilares que tú los debes seguir, siembra siempre el respeto y en tu vida sé feliz.\n\nSegún el compadre Ambrosio las puertas y las ventanas; andaban por ahí diciendo que ellas son primas hermanas.\n\nDos patitos en el agua, no se pueden ahogar; dos amigos que se quieren no se pueden olvidar.\n\nLas horas que tiene el día las he repartido así:\n\nnueve soñando contigo y quince pensando en ti.\n\nMe mandaron no sé dónde, a buscar no sé qué rosa; y me volví no sé cuándo, trayendo no sé qué cosa.\n\nEvoca el sentido del oído porque Quiero ser _______________________________________________________________ de tus __________________________________________________________________ para ____________________________________________________________________ y _______________________________________________________________________\n\na. Relacionamos las palabras que riman.\n\nPractico lo aprendido",
+      "charCount": 1330
+    },
+    {
+      "pageNumber": 36,
+      "text": "2. Actividad individual\n\nResuelvo.\n\nb. Subrayo el sujeto y rodeo el verbo en las siguientes oraciones.\n\nc. Escribo dos características de los audiolibros:\n\nd. Planifico y elaboro el croquis de la habitación donde duermo.\n\nMuestro el trabajo a mi docente y corrijo si es necesario.\n\nMi familia vive en Usulután.\n\nMañana mis amigos tendrán una fiesta.\n\nVinieron temprano, Josué y Paty.\n\nLa basura contamina el agua, el suelo y el aire.\n\nMargarita cuida sus libros y cuadernos.\n\n1. 2.\n\na. Escribo la palabra que corresponde a cada ilustración.\n\n35\n\nUnidad 5",
+      "charCount": 554
+    },
+    {
+      "pageNumber": 37,
+      "text": "36 En esta unidad aprenderás a...\n\na. Demostrar respeto a los demás en conversaciones de interés, utilizando el lenguaje verbal y no verbal.\n\nb. Identificar los elementos de una historieta.\n\nc. Comparar elementos de una historieta con diálogos y de una historieta sin diálogos.\n\nd. Identificar la sílaba tónica en palabras que lee y escribe.\n\ne. Producir historietas con diálogos o sin texto sobre temas de interés personal.",
+      "charCount": 424
+    },
+    {
+      "pageNumber": 38,
+      "text": "37\n\nUnidad 3Unidad 3Unidad 6\n\nMi producto de unidad: Una historieta con texto La historieta será evaluada así:\n\n• Tiene tres viñetas o más.\n\n• Corresponden los globos a cada dibujo.\n\n• Contiene bocadillos con diálogos o con onomatopeyas.\n\n• Presenta dibujos adecuados para los diálogos.",
+      "charCount": 286
+    },
+    {
+      "pageNumber": 39,
+      "text": "38\n\n1. Actividad con docente\n\nObservamos la imagen y leemos el diálogo.\n\nConversamos sobre qué trata el diálogo.\n\n2. Actividad individual\n\nSubrayo la respuesta correcta.\n\nVerifico mis respuestas.\n\nCorrijo si es necesario.\n\nLos exploradores Hola, Juan. ¿Sabías que las plantas también se comunican entre ellas? ¡Oh! Eso no lo sabía, Kenia.\n\n• Bosque • Playa • Escuela\n\n• Comen • Conversan • Cantan\n\na. ¿Dónde se encuentran los niños?\n\nb. ¿Qué están haciendo?\n\nAnticipación",
+      "charCount": 471
+    },
+    {
+      "pageNumber": 40,
+      "text": "39\n\nUnidad 3Unidad 3Unidad 6\n\n3. Actividad en pares\n\nLeemos en voz alta la conversación.\n\nRespondemos.\n\nCompartimos las respuestas con la clase.\n\nOpinamos sobre la respuesta de los demás.\n\na. ¿Qué información comparte Kenia con Juan?\n\nb. ¿Cómo nos comunicamos los seres humanos?\n\nc. ¿Por qué son importantes las plantas?\n\nKenia, ¿cómo se comunican las plantas entre ellas?\n\n¡Wow, asombroso!\n\nEllas envían señales por aire o bajo tierra y comparten hongos para evitar que los insectos las dañen.\n\nSí, Juan.\n\n¡Las plantas son impresionantes!\n\nemana 1",
+      "charCount": 548
+    },
+    {
+      "pageNumber": 41,
+      "text": "40\n\n4. Actividad con docente\n\nObservamos las imágenes y leemos los diálogos.\n\nRespondemos y compartimos nuestro trabajo.\n\ne. Escribimos el diálogo entre Daniel y Alejandra en el cuaderno en letra\n\nligada.\n\nf. Escribimos el diálogo entre Pablo y Kati en el cuaderno en letra desligada.\n\na. ¿Qué opinamos sobre el comportamiento de Daniel y Alejandra?\n\nb. ¿Qué tipo de lenguaje usaron Daniel y Alejandra para comunicarse?\n\nc. ¿Qué opinamos sobre el comportamiento de Pablo y Kati?\n\nd. ¿Cómo resolveríamos la situación de Pablo y Kati?\n\n• Daniel y Alejandra • Pablo y Kati\n\nBuenos días, Alejandra.\n\n¿Cómo estás?\n\nPor favor, dámelo; es mío.\n\nNiña, dame ese peluche.\n\nHola, buenos días, Daniel.\n\nEstoy muy bien, gracias.\n\nEl diálogo Construcción",
+      "charCount": 740
+    },
+    {
+      "pageNumber": 42,
+      "text": "41\n\nUnidad 3Unidad 3Unidad 6\n\n5. Actividad individual\n\nResuelvo.\n\na. Escribo un diálogo para las niñas del siguiente dibujo.\n\nb. Utilizo palabras de cortesía para resolver el conflicto.\n\nRespondo.\n\na. ¿Qué palabras de cortesía utilicé?\n\nb. ¿Por qué es importante la cortesía con los demás?\n\nComparto el diálogo y las respuestas con mi docente y con la clase.\n\nemana 1 Recuarda...Recuerda…\n\nPara dialogar con los demás, siempre debemos utilizar un lenguaje adecuado y respetuoso de acuerdo con lo que deseamos comunicar.\n\n¿Qué significa…?\n\nDiálogo. Plática entre dos o más personas sobre una situación.\n\nCortesía. Expresión con que se manifiesta atención o respeto a alguien.\n\n¿Qué significa…?",
+      "charCount": 692
+    },
+    {
+      "pageNumber": 43,
+      "text": "42\n\n6. Actividad con docente\n\nObservamos y leemos la historieta de «Chuchi y Pelusa».\n\nLa historieta: Elementos y recursos Respondemos.\n\nMostramos nuestro trabajo al docente.\n\na. ¿De qué trata la historieta?\n\nb. ¿Quiénes son los personajes de la historieta?\n\nc. ¿Por qué creemos que le gusta la Navidad?\n\nd. ¿Cuál celebración del año nos gusta más? ¿Por qué?\n\nMe encanta la navidad y me preparo desde septiembre.\n\nPelusa, ¿también te encanta la navidad?\n\n¡No!\n\n¿Sabías que…?¿Sabías que…?\n\nLas historietas son narraciones que se forman por la secuencia de dibujos en los que se pueden incluir sonidos onomatopéyicos como el maullido del gato (miau) y diálogos breves.",
+      "charCount": 666
+    },
+    {
+      "pageNumber": 44,
+      "text": "43\n\nUnidad 3Unidad 3Unidad 6\n\nEscribimos los elementos de la historieta en los espacios del esquema.\n\nElementos Descripción Globo o bocadillo. Espacio donde los personajes expresan lo que piensan o sienten sobre algo dentro de la historia.\n\nViñeta. Cada cuadro que contiene un momento de la historieta de manera secuenciada u ordenada.\n\nDibujos. Son los personajes que dan vida a la historia; pueden ser personas, animales o cosas.\n\nEscribimos en nuestros cuadernos y lo comentamos con la clase.\n\na. ¿Qué hemos aprendido?\n\nb. ¿Qué haremos con el nuevo aprendizaje?\n\n7. Actividad en equipo\n\nEnlazamos los elementos de la historieta con la descripción que corresponde.\n\nElementos emana 1",
+      "charCount": 685
+    },
+    {
+      "pageNumber": 45,
+      "text": "44\n\n8. Actividad en pares\n\nResolvemos y socializamos.\n\nb. Socializamos con los demás nuestra historieta.\n\nc. Elaboramos una historieta similar en el cuaderno.\n\nd. Leemos a nuestro docente y compañeros.\n\nBigotes, Rabito y Parlanchín ¡Es hora de correr!\n\nYo quiero correr y jugar con la pelota.\n\nYo me quedo como siempre observándolos desde aquí.\n\nAni y sus amigos\n\na. Leemos la historieta e inventamos nuevos diálogos para Ani y sus amigos. Yo quiero jugar con mi bollo de lana.\n\nConsolidación",
+      "charCount": 492
+    },
+    {
+      "pageNumber": 46,
+      "text": "45\n\nUnidad 3Unidad 3Unidad 6\n\n9. Actividad individual\n\nLeo e identifico los elementos de la historieta de Dulce Hogar.\n\nAgrego texto a los globos o bocadillos vacíos.\n\nActividad en casa\n\n• Recorto una historieta infantil de un periódico y la pego en mi\n\ncuaderno.\n\nDulce hogar Ah, qué agradable es poder descansar…\n\nMe encanta regar las plantas. Esto me relaja.\n\nResuelvo.\n\n¿Qué actividades realizan los personajes de la historieta?\n\nComparto con mi docente el trabajo realizado.\n\nEscucho sugerencias y corrijo si es necesario.\n\nemana 1",
+      "charCount": 536
+    },
+    {
+      "pageNumber": 47,
+      "text": "46\n\n1. Actividad con docente\n\nObservamos la historieta. Conversamos de qué trata.\n\nRespondemos.\n\na. ¿Qué cuenta la historieta anterior?\n\nb. ¿Cuáles onomatopeyas encontramos en las viñetas? Repitámoslas.\n\nc. ¿Cuáles son las acciones que realiza Bety?\n\nd. ¿Qué hacemos nosotros al levantarnos?\n\nVerificamos nuestras respuestas con el docente.\n\nShc… shc…\n\nGlú, glú, glú Ommm¡¡¡Ahhh!!!\n\nBety despierta Fiu, fiu, fiu… muack Ommm Hmmm…\n\nAnticipación ¿Sabías que…?¿Sabías que…?\n\nLas onomatopeyas son palabras que imitan los sonidos de animales, cosas o acciones como la acción de tomar agua: ¡glu, glu, glu!\n\nO el aullido de un lobo: ¡auuu!.",
+      "charCount": 634
+    },
+    {
+      "pageNumber": 48,
+      "text": "47\n\nUnidad 3Unidad 3Unidad 6\n\n2. Actividad en pares\n\nLeemos y repetimos las onomatopeyas, ¿qué quieren decirnos?\n\nEscribimos otras onomatopeyas que conocemos o hemos visto en historietas.\n\nSocializamos con los demás pares las onomatopeyas que escribimos.\n\nCompartimos con nuestro docente.\n\nEscuchamos las sugerencias de nuestro docente.\n\nemana 2",
+      "charCount": 345
+    },
+    {
+      "pageNumber": 49,
+      "text": "48\n\n3. Actividad en pares\n\nLeemos en voz alta la historieta y comentamos qué personaje nos agrada más.\n\n4. Actividad individual\n\nDibujo y escribo mi superpoder.\n\nLa historieta con texto y muda Leo en voz alta a la clase cuál es mi superpoder.\n\nEscucho sugerencias de mi docente y compañeros.\n\nYo soy tan valiente que no le temo a la matemática.\n\nMi poder es la danza.\n\nYo tengo el escudo del saber científico.\n\nMi poder es maullar como los gatos, je, je, je.\n\nLos niños poderosos Construcción",
+      "charCount": 492
+    },
+    {
+      "pageNumber": 50,
+      "text": "49\n\nUnidad 3Unidad 3Unidad 6\n\nRespondemos.\n\na. ¿Cómo son los personajes?\n\nb. ¿Qué están haciendo los personajes?\n\nc. ¿Qué sucedió en la viñeta 2?\n\nd. ¿Qué expresiones hacen los personajes?\n\ne. ¿Cómo terminó la historieta en la viñeta 3?\n\nf. Explicamos con nuestras palabras lo que dice el ¿Sabías que...?\n\nExplicamos en qué se diferencia una historieta con texto de una historieta muda.\n\nCompartimos la respuesta con nuestro docente. Corregimos si es necesario.\n\n5. Actividad con docente\n\nObservamos la historieta «UH-OH».\n\n1 3 2 emana 2 ¿Sabías que…?¿Sabías que…?\n\nLa historieta muda o sin texto es la que se comprende con ver la secuencia de dibujos porque los gestos y expresiones también comunican.",
+      "charCount": 702
+    },
+    {
+      "pageNumber": 51,
+      "text": "50\n\n6. Actividad con docente\n\nObservamos y leemos las historietas.\n\nEl bosque Vida verde Respondemos.\n\na. ¿Qué nos cuenta la historieta muda sobre los animales?\n\nb. ¿Por qué la entendemos si no tiene texto? Explicamos.\n\nRespondemos.\n\na. ¿Por qué se llama «Vida verde»?\n\n¡No debes tirar eso al suelo!\n\nHola Manuel.\n\n¿Qué haces?\n\n¡Tienes razón, Manuel! ¡Nunca más lo volveré a hacer!\n\nPAPEL PLASTICOBIO PAPEL PLASTICOBIO PAPEL PLASTICOBIO PAPEL PLASTICOBIO Amiguitos, siempre debemos botar la basura en su lugar.",
+      "charCount": 510
+    },
+    {
+      "pageNumber": 52,
+      "text": "51\n\nUnidad 3Unidad 3Unidad 6\n\nb. Escribimos las similitudes y diferencias de una historieta con texto y la historieta muda.\n\nSocializamos en clase las diferencias y similitudes que encontramos en las historietas.\n\nEscuchamos las participaciones de los demás.\n\nSimilitudes Diferencias emana 2",
+      "charCount": 291
+    },
+    {
+      "pageNumber": 53,
+      "text": "52\n\nb. Leemos los diálogos.\n\nResolvemos.\n\na. Coloreamos los dibujos.\n\nCompartimos las respuestas con nuestro docente.\n\nCorregimos si es necesario.\n\n7. Actividad en pares\n\nLeemos sobre el tipo de información que podemos encontrar en los globos de las historietas.\n\n¡Amo el chocolate!\n\nc. Encierro en un círculo a la niña que está pensando.\n\nd. ¿Sobre qué están hablando los otros niños?\n\ndiálogovoz baja gritopensamiento Chicos, vean, puedo mantener el equilibrio y comer.\n\nHmmm…\n\nDelicioso.",
+      "charCount": 490
+    },
+    {
+      "pageNumber": 54,
+      "text": "53\n\nUnidad 3Unidad 3Unidad 6\n\nRecordemos que las palabras se componen por sílabas y estas se forman con las consonantes y las vocales. Por eso, la sílaba tónica es donde recae la mayor fuerza de voz en las palabras.\n\nLeemos el siguiente ejemplo.\n\nEl corazón del perrito late pom, pom. Dulce terrón de azúcar.\n\nPreguntamos al docente si tenemos dudas sobre el tema.\n\nEscuchamos la participación de compañeros. Tomamos apuntes de lo que indique nuestro docente.\n\nLa palabra corazón es aguda porque lleva la mayor fuerza de voz en la última sílaba y se coloca la tilde.\n\nLa sílaba tónica: Palabras agudas y graves\n\n8. Actividad con docente\n\nAyudemos a Súper Chuchín a encontrar palabras agudas y graves en la sopa de letras.\n\naguda última sílaba tónica co ra zón grave penúltima sílaba tónica a zú car Separación de sílabas Separación de sílabas m e l ó n á s n e e l n l o ó t b g n t n e t e á r b o l l v o l c á n m r u t n r c r á t e r emana 2 ¿Sabías que…?¿Sabías que…?\n\nLas palabras agudas llevan la mayor fuerza de voz en la última sílaba y se tildan cuando terminan en n, s o vocal.",
+      "charCount": 1089
+    },
+    {
+      "pageNumber": 55,
+      "text": "54\n\n9. Actividad en pares\n\nResolvemos.\n\nd. Escribimos palabras agudas y graves que estén en nuestro entorno.\n\nCuando sabemos identificar la sílaba tónica en las palabras, podemos pronunciarlas sin dificultad y, al escribirlas, sabemos cuándo tildarlas y cuándo no.\n\nGrave (penúltima sílaba tónica) Aguda (última sílaba tónica) Tipo de palabra por su acento Agudas Graves\n\na. Separamos en sílabas las palabras que encontramos en la sopa de letras.\n\nb. Identificamos la sílaba tónica, coloreándola del color que nos guste.\n\nc. Escribimos las palabras en la siguiente tabla.\n\nCompartimos nuestras respuestas con la clase.\n\n¿Sabías que…?¿Sabías que…?\n\nLas palabras graves llevan la mayor fuerza de voz en la penúltima sílaba.\n\nY se tildan cuando terminan en cualquier consonante, excepto n, s o vocal.",
+      "charCount": 797
+    },
+    {
+      "pageNumber": 56,
+      "text": "55\n\nUnidad 3Unidad 3Unidad 6\n\n10. Actividad en equipo\n\nLeemos las historietas en voz alta y resolvemos en el cuaderno.\n\nPin Pon es un muñeco, con cuerpo de algodón.\n\nHoy aprenderemos una canción.\n\n¿Cuál?\n\nYo quiero jugar fútbol.\n\nSe lava la carita con agua y jabón.\n\nSe desenreda el pelo, con peine de marfil…\n\n¡Sí, cantemos!\n\na. ¿De qué trata cada historieta?\n\nb. ¿Quiénes son los personajes?\n\nc. Identificamos y subrayamos todas las palabras agudas y graves.\n\nemana 2 Consolidación",
+      "charCount": 483
+    },
+    {
+      "pageNumber": 57,
+      "text": "56 Resolvemos.\n\nLeemos la historieta en voz alta.\n\nSe lava la camisa, se plancha el pantalón.\n\nCuando va a la calle parece un gran señor.\n\na. ¿Cuál canción cantan los niños?\n\nb. ¿Quién está pensando hacer otra actividad y qué quiere hacer?\n\nCuando va a la escuela no sabe la lección, la maestra lo riñe a mi pobre Pin Pon…\n\n¿Sabías que…?¿Sabías que…?\n\nPodemos escuchar la canción de la historieta explorando el siguiente enlace.\n\nhttps://bit.ly/2UBpQRr",
+      "charCount": 452
+    },
+    {
+      "pageNumber": 58,
+      "text": "57\n\nUnidad 3Unidad 3Unidad 6\n\nVerificamos nuestras respuestas con el docente.\n\nActividad en casa\n\n• Busco historietas mudas en el periódico y comparto su contenido\n\ncon mi familia.\n\nc. ¿Qué nos gusta más de la canción?\n\nd. ¿Qué nos gustaría cantar con nuestra docente?\n\ne. Buscamos y recortamos otras historietas e identificamos las palabras\n\nagudas y graves. Pegamos las historietas en el siguiente espacio.\n\nemana 2",
+      "charCount": 417
+    },
+    {
+      "pageNumber": 59,
+      "text": "58\n\n1. Actividad en pares\n\nConversamos, ¿qué necesitamos hacer para elaborar una historieta muda o con texto?\n\nHagamos una lista de ideas.\n\nLeemos en voz alta las ideas que escribimos.\n\nEscuchamos la explicación de nuestro docente.\n\nAclaramos dudas.\n\n1 3 2 4 5 Anticipación\n\nUnidad 3Producto",
+      "charCount": 291
+    },
+    {
+      "pageNumber": 60,
+      "text": "59\n\nUnidad 3Unidad 3Unidad 6\n\n2. Actividad pares\n\nSeleccionamos el tipo de historieta que inventaremos. Marco con una X.\n\nCompartimos nuestras respuestas con nuestro docente.\n\nComparto la planificación con mi docente.\n\nEscucho sugerencias de mejora.\n\nCorrijo si es necesario.\n\na. Pienso en la historieta que deseo elaborar.\n\nb. Escribo mis ideas en el siguiente espacio.\n\nHistorieta con texto Historieta muda 1 2\n\n3. Actividad individual\n\nPlanifico la escritura de mi historieta.\n\nPlanificación emana 3",
+      "charCount": 502
+    },
+    {
+      "pageNumber": 61,
+      "text": "60\n\n4. Actividad con docente\n\nLeemos la información y comentamos.\n\nRespondemos de forma oral.\n\n¿Qué diferencia hay entre el uso de los signos de exclamación y los signos de interrogación?\n\nSeleccionamos una historieta del periódico y marcamos los signos de interrogación y exclamación. Recortamos y pegamos en el cuaderno.\n\nProducto: Historietas mudas o con texto Los signos de exclamación en las historietas y otros textos sirven para expresar lo siguiente:\n\nEn nuestro idioma, si utilizamos los signos de exclamación o admiración, siempre debemos colocarlos al inicio y al final de la oración o frase.\n\nEjemplos:\n\ntristeza alegría sorpresa Los signos de interrogación los utilizamos cuando preguntamos algo.\n\nY siempre debemos escribirlo al inicio y al final de la oración. Ejemplo:\n\n¿Qué día es hoy? ¿Cuál es tu color favorito?\n\nBrrr… ¡Qué frío hace!\n\n¡Ay! ¡Qué dolor de muela!\n\n¡Qué día más hermoso!\n\nUnidad 3Producto\n\nConstrucción ¿Sabías que…?¿Sabías que…?\n\nEn muchas historietas utilizan estos signos de exclamación que pueden significar duda o sorpresa.",
+      "charCount": 1061
+    },
+    {
+      "pageNumber": 62,
+      "text": "61\n\nUnidad 3Unidad 3Unidad 6\n\n5. Actividad individual\n\nComparto mi trabajo con mi docente.\n\nEscucho sugerencias de mejora.\n\nCorrijo si es necesario.\n\nElaboro paso a paso una historieta con texto o una que sea muda.\n\n• Dibujos o recortes.\n\n• Sonidos onomatopéyicos.\n\n• Tres viñetas con dibujos que narren una historia.\n\n1Viñeta 2Viñeta 3Viñeta Textualización Mi historieta debe tener:\n\nemana 3 Recuarda...Recuerda…\n\nLos gestos y ademanes también comunican.",
+      "charCount": 455
+    },
+    {
+      "pageNumber": 63,
+      "text": "62 Hago los globos o bocadillos con diálogos o sonidos onomatopéyicos.\n\nRecuerdo que la forma del globo también comunica.\n\n6. Actividad individual\n\n1Viñeta 2Viñeta 3Viñeta\n\nUnidad 3Producto",
+      "charCount": 189
+    },
+    {
+      "pageNumber": 64,
+      "text": "63\n\nUnidad 3Unidad 3Unidad 6\n\nDibujo mi historieta completa aquí.\n\nTítulo Comparto el borrador con mi docente. Corrijo si es necesario.\n\nemana 3",
+      "charCount": 144
+    },
+    {
+      "pageNumber": 65,
+      "text": "64\n\na. Incorporamos los elementos que le hagan falta a la historieta.\n\nb. Corregimos la ortografía en nuestros diálogos, utilizando lo siguiente.\n\nCompartimos nuestro trabajo con el docente.\n\nEscuchamos sugerencias de mejora y corregimos si es necesario.\n\nEscribimos un comentario a nuestro par destacando su trabajo.\n\n7. Actividad en pares\n\nOrtografía Agregado Falta agregar Nombres propios con inicial mayúscula.\n\nTilde en palabras agudas.\n\nTildes en palabras graves.\n\nSignos de interrogación o exclamación de apertura y de cierre Revisión Nombre del autor: Nombre de quien revisó:\n\nRevisamos la historieta de nuestro par.\n\nUnidad 3Producto\n\nConsolidación",
+      "charCount": 657
+    },
+    {
+      "pageNumber": 66,
+      "text": "65\n\nUnidad 3Unidad 3Unidad 6\n\nElijo un lugar del aula para mostrar a todos mi historieta completa.\n\nActividad en casa\n\n• Muestro a mi familia la historieta elaborada en clase.\n\n• Converso sobre su contenido.\n\nPublicación\n\n1. Tiene tres viñetas.\n\n2. Corresponden los globos a cada dibujo.\n\n3. Contiene globos de texto o bocadillos con\n\ndiálogos o con onomatopeyas.\n\n4. Presenta dibujos adecuados para los diálogos.\n\n8. Actividad individual\n\nComparto.\n\nEscribo cómo me he sentido al hacer la actividad.\n\nCriterios Logrado En proceso Evaluación emana 3",
+      "charCount": 549
+    },
+    {
+      "pageNumber": 67,
+      "text": "66\n\n1. Actividad en pares\n\nOrdenamos las sílabas, formamos palabras y las escribimos en el espacio correspondiente.\n\nbo vi ta to bo to llo ta glo ñe tex di rie ca his Anticipación",
+      "charCount": 179
+    },
+    {
+      "pageNumber": 68,
+      "text": "67\n\nUnidad 3Unidad 3Unidad 6\n\nSocializamos y verificamos las respuestas con los demás equipos.\n\nEscribimos oraciones con las palabras encontradas.\n\ndi jo bu diá golo ele to men to pen samien\n\n•\n\n•\n\n•\n\n•\n\n•\n\no pe ma ya no to emana 4",
+      "charCount": 231
+    },
+    {
+      "pageNumber": 69,
+      "text": "68\n\n2. Actividad con docente\n\nLeemos la información y comentamos.\n\nLa separación de palabras en sílabas Las sílabas se forman con las consonantes y las vocales.\n\nCuando escribimos un texto o una historieta y en el espacio no cabe la palabra completa, la cortamos en sílabas.\n\nObservemos el ejemplo:\n\nLeemos la historieta de la página 50, seleccionamos 6 palabras y las separamos en sílabas.\n\nVerificamos nuestras respuestas. Corregimos si es necesario.\n\nPalabras Sílabas Listo, ya me lavé las manos.\n\n¡Oh!, no me he lavado las manos.\n\nConstrucción ¿Sabías que…?¿Sabías que…?\n\nLas sílabas que contienen una vocal débil (i, u) y una fuerte, (a, e, o) no se separan, por lo que forman una sílaba. Ejemplos:\n\nAi-re Cie-lo Tie-rra",
+      "charCount": 725
+    },
+    {
+      "pageNumber": 70,
+      "text": "69\n\nUnidad 3Unidad 3Unidad 6\n\n3. Actividad en equipo\n\nLeemos la historieta de la página 55 y 56.\n\nPalabras Sílabas Clasificación\n\n1.\n\n2.\n\n3.\n\n4.\n\n5.\n\n6.\n\n7.\n\n8.\n\n9.\n\nVerifico mi trabajo con mi docente.\n\nCorrijo si es necesario.\n\nAclaro dudas con mi docente.\n\na. Seleccionamos 9 palabras.\n\nb. Separamos cada palabra en sílabas.\n\nc. Circulamos la sílaba tónica y clasificamos por su acento en aguda o\n\ngrave.\n\nemana 4 Consolidación",
+      "charCount": 429
+    },
+    {
+      "pageNumber": 71,
+      "text": "70\n\n4. Actividad individual\n\nResuelvo.\n\nd. Busco en el periódico una historieta, la pego aquí y verifico si hay cortes de palabras en sílabas.\n\nPalabras Sílabas Clasificación\n\n1.\n\n2.\n\n3.\n\n4.\n\n5.\n\na. Leo la historieta de la página 48.\n\nb. Selecciono 5 palabras y las separo en sílabas.\n\nc. Identifico si la palabra es aguda o es grave.",
+      "charCount": 334
+    },
+    {
+      "pageNumber": 72,
+      "text": "71\n\nUnidad 3Unidad 3Unidad 6\n\nAutoevaluación Coloreo tres estrellas si lo he logrado, dos si puedo hacerlo, pero debo mejorar, y una si debo practicar más.\n\nRespeto a los demás en conversaciones de interés, utilizando el lenguaje verbal y no verbal.\n\nIdentifico los elementos de una historieta.\n\nComparo elementos de una historieta con diálogos de una historieta sin diálogos.\n\nIdentifico la sílaba tónica en palabras que leo y escribo.\n\nProduzco historietas con diálogos o sin texto sobre temas de interés personal.\n\ne. Recorto cinco palabras del periódico, las separo en sílabas y formo\n\nnuevas palabras.\n\nPresento mi trabajo a mi docente.\n\nEscucho observaciones y corrijo si es necesario.\n\nemana 4",
+      "charCount": 700
+    },
+    {
+      "pageNumber": 73,
+      "text": "72 Verificamos nuestras respuestas con el docente.\n\n1. Actividad en pares\n\nOrdenamos la historieta muda numerando las acciones de uno a cuatro.\n\nEl pequeño Olaf Practico lo aprendido",
+      "charCount": 182
+    },
+    {
+      "pageNumber": 74,
+      "text": "73\n\nUnidad 3Unidad 3Unidad 6\n\n2. Actividad individual\n\nInvento un diálogo para la historieta anterior y lo comparto con mis compañeros.\n\nComparto mis respuestas con el docente. Corrijo si es necesario.\n\nEscribo una lista de palabras, las separo en sílabas e identifico la sílaba tónica y clasifico la palabra.\n\n1 3 2 4 Palabras Sílabas Clasificación\n\n1.\n\n2.\n\n3.\n\n4.",
+      "charCount": 365
+    },
+    {
+      "pageNumber": 75,
+      "text": "74 En esta unidad aprenderás a...\n\na. Explicar la finalidad del texto dramático e identificar algunos de sus elementos: personajes, diálogos y acotaciones.\n\nb. Dramatizar textos infantiles breves representando a un personaje.\n\nc. Reconocer y utilizar los adverbios de tiempo: ayer, hoy y mañana.\n\nd. Escribir cartas, mensajes de texto o de correo electrónico atendiendo a sus características.\n\ne. Elaborar y publicar carteles informativos.",
+      "charCount": 439
+    },
+    {
+      "pageNumber": 76,
+      "text": "75\n\nUnidad 3Unidad 3Unidad 6\n\nMi producto de unidad: Carteles informativos El cartel informativo será evaluado así:\n\n• Utiliza textos breves.\n\n• Emplea imágenes atractivas.\n\n• Comunica con claridad el mensaje.\n\n• Muestra ortografía correcta.",
+      "charCount": 241
+    },
+    {
+      "pageNumber": 77,
+      "text": "76\n\n1. Actividad con docente\n\nObservamos la imagen.\n\nRealizamos los siguientes juegos.\n\n«Conviértanse en pelota. Enróllense y rueden hechos bolita. Rueda en el piso, pequeña bolita roja, quédate muy quietecita y muy pequeñita. Ahora, ¡hazte gigante! Cuando yo diga ¡ya!, ¡crece! Hazte grande como gigante.\n\nAlto, más alto; estírate hacia arriba y camina con grandes pasos; imagina que eres un gran gigante. Avanza a grandes pasos».\n\nChico como una pelota (se repite), grande como un gigante (se repite) ¿Qué cosas son pequeñas? ¿Qué cosas son grandes?\n\nPequeño como una piedrita, grande como una montaña.\n\nPequeño como una manzana, grande como un árbol.\n\n«Háganse muy pequeñitos, rueden hechos bolita. Cuando yo diga ¡ya!, ¡Háganse grandes, muy grandes, crezcan sobre las puntas de sus pies; vamos!»\n\nDorothy G. Singer y Jerome L. Singer Pequeño como una pelota, grande como un gigante Anticipación",
+      "charCount": 898
+    },
+    {
+      "pageNumber": 78,
+      "text": "Ejercitemos la fantasía. ¡Vamos a pensar! ¡Usemos nuestras manos!\n\nClavar un clavo Batir chocolate Tocar una trompeta Hacer una taza Cortar el pan con cuchillo Cortar papel con tijeras Hacer una tienda de campaña Dar cuerda a un reloj Botar una pelota Lanzar una pelota Los pies pueden transmitir el estado de ánimo de las personas. Practiquemos caminar:\n\na. Rápidamente por el salón: significa\n\nprisa y alegría.\n\nb. Lentamente y arrastrando los pies:\n\nsignifica cansancio y tristeza.\n\nc. A grandes zancadas: significa\n\npasos de gigante.\n\nd. Sobre las puntas: significa bailar.\n\ne. Hacia un lado y otro: significa «no\n\nsé qué hacer» o ¿debería hacer esto o no?.\n\nDorothy G. Singer y Jerome\n\nL. Singer\n\nFantasía con los pies Las manos son especiales Comentamos.\n\na. ¿Cómo nos sentimos al realizar\n\nlos juegos?\n\nb. ¿Cuál juego nos gustó más?\n\nc. ¿Qué otros juegos conocemos?\n\nPracticamos repetir el juego las veces que lo deseemos en casa con nuestra familia.\n\nemana 1\n\nUnidad 3Unidad 3Unidad 7\n\n77",
+      "charCount": 996
+    },
+    {
+      "pageNumber": 79,
+      "text": "78 Título: El árbol del parque Autora: Yanett Mora Tres personajes:\n\n1. Andrés (niño de 8 años)\n\n2. Jessica (niña de 7 años)\n\n3. Abuela (señora de 68 años)\n\nComentamos a nuestro maestro alguna palabra que no hemos compren - dido.\n\nEl texto dramático: Elementos\n\n2. Actividad con docente\n\nLeemos en voz alta el texto dramático.\n\nAmbientAción. Parque de la ciudad.\n\nintroducción. Andrés y jessicA jugaban en el parque como siempre alrededor de su árbol favorito. Era el árbol más grande de todo el parque, estaba lleno de hojas y tenía unas ramas muy fuertes de donde les gustaba guindarse y hacer como monitos.\n\nAndrés. —¡Mírame Jessica! Soy un mono travieso.\n\njessicA. —(Haciendo sonidos de mono). ¡Mírame a mí, soy el monito más fuerte de todo el parque!\n\nAndrés. —Por cierto, Jessica, ¿qué haremos con los desperdicios de la merienda que dejamos al lado del árbol?\n\njessicA. —Déjalos ahí, Andrés, no le prestes atención, el cesto de basura está muy lejos de aquí.\n\nAndrés. —¡Está bien!\n\nAcotación. jessicA y Andrés continuaron jugando.\n\nEl árbol del parque Acto I Construcción ¿Qué significa…?¿Qué significa…?\n\nGuindarse.\n\nColgarse en lo alto.\n\nMerienda. Refrigerio que puede comerse a media mañana o media tarde.",
+      "charCount": 1215
+    },
+    {
+      "pageNumber": 80,
+      "text": "Socializamos nuestras respuestas con la clase.\n\nRespondemos las preguntas sobre el texto dramático.\n\na. ¿Cuál es el título del texto?\n\nb. ¿De qué trata el texto?\n\nc. ¿Cuál es la actitud que deberían tener Jessica y Andrés?\n\nd. ¿Qué diferencia notamos entre el texto leído y los cuentos de las unidades anteriores?\n\ne. ¿Qué creemos que pasará después? Escribimos y dibujamos la respuesta.\n\n__________________________________________________ __________________________________________________ __________________________________________________ __________________________________________________ __________________________________________________ __________________________________________________ __________________________________________________ __________________________________________________ __________________________________________________ __________________________________________________ __________________________________________________ __________________________________________________ __________________________________________________ __________________________________________________ emana 1\n\nUnidad 3Unidad 3Unidad 7\n\n79",
+      "charCount": 1140
+    },
+    {
+      "pageNumber": 81,
+      "text": "80\n\n3. Actividad con docente\n\nLeemos la información del organizador gráfico y la tabla.\n\nActos. Son las divisiones o partes de la historia y cada una tiene un comienzo y un final.\n\nEscenas. Marca la entrada o salida de los personajes. En cada cambio de cuadro se baja y sube el telón del escenario.\n\nResolvemos oralmente.\n\na. ¿Quién es la autora de «El árbol del parque»?\n\nb. ¿Qué acto hemos leído en la página 78?\n\nc. ¿De qué hablan los personajes?\n\nd. ¿Quiénes son los lectores del texto?\n\ne. Mencionamos la acotación del texto de la página 78.\n\nSituación comunicativa del texto dramático Dramaturgo Persona que escribe el texto.\n\nMensaje Qué dice la obra de teatro.\n\nPersona que lee el texto.\n\nLector Elementos del texto dramático Diálogos. Conversaciones entre los personajes.\n\nAcotaciones. Son todas las instrucciones aparte de los diálogos en el texto teatral.",
+      "charCount": 866
+    },
+    {
+      "pageNumber": 82,
+      "text": "81\n\nUnidad 3Unidad 3Unidad 7\n\n4. Actividad en equipo\n\nLa dramatización Leemos en voz alta los diálogos y elegimos el rol de un personaje para ensayar y aprendernos los diálogos.\n\nResolvemos.\n\na. Identificamos y escribimos los elementos del texto dramático.\n\nb. Rodeamos con amarillo las acotaciones.\n\nAmbientAción: pArque de lA ciudAd.\n\nintroducción: JessicA y A ndrés jugaban en el árbol como cada tarde.\n\nJessicA. —Andrés, me parece que este árbol está un poco sucio.\n\nAndrés. —Sí, está algo sucio. ¡Pero no creo que toda esta basura la hayamos acumulado solo nosotros!\n\nJessicA. —Tal vez deberíamos recogerla.\n\nAndrés. —¡No Jessica! Que la recojan los demás, por lo que se ve, es demasiada basura, no debemos ser los únicos que vienen a este árbol.\n\nAcotación. Mientras Andrés y JessicA seguían jugando, la abuela de Andrés. Se acercaba al árbol a supervisarlos.\n\nJessicA. —¡Mira Andrés, es tu abuelita!\n\nActo II Andrés. —¡Hola abuelita, bienvenida a nuestro árbol!\n\nAbuelA. —¡Hola, chicos!\n\nAndrés. —Abuelita, ¿nos trajiste alguna merienda deliciosa para compartir?\n\nAcotación. De pronto se escuchó un crujido.\n\nTodos se quedaron callados. Era la rama desde donde estaba guindado Andrés.\n\nJessicA. —Oh, por Dios, ¿qué es ese ruido?\n\nAcotación. La rama se rompió y Andrés cayó al suelo. JessicA se reía.\n\nAndrés. —¡La rama se ha roto!, pero ¿por qué?, ¿qué ha pasado?\n\nc. Respondemos oralmente, ¿qué le habrá pasado a la rama del árbol?\n\nemana 1 ¿Sabías que…?¿Sabías que…?\n\nLa dramatización es la puesta en escena de un texto dramático.\n\nLos personajes cobran vida a través de los actores.",
+      "charCount": 1592
+    },
+    {
+      "pageNumber": 83,
+      "text": "82 AbuelA. —Andrés, ¿te encuentras bien?, ¿te duele algo?\n\nAndrés. —Sí, abuelita, estoy bien, no me he lastimado.\n\nSolo quisiera saber por qué se rompió la rama. ¡Era mi favorita de todas las ramas que tiene el árbol! ¡Era la más fuerte!\n\nAbuelA. —Mmm… Yo creo saber qué sucedió.\n\nJessicA. —( Bajando de la rama). ¿Por qué abuelita?, ¿qué sucedió?\n\nAbuelA. —Me parece que este árbol, aunque lo vean grande y fuerte, ya no aguanta tanta basura.\n\nAndrés. —¿Y qué tiene que ver la basura con el árbol?\n\nAbuelA. —La contaminación es el problema más grande que sufre el planeta tierra. Estos desperdicios que están aquí acumulados le hacen mucho daño al árbol.\n\nJessicA. —No sabía que podíamos causarle tanto daño a la naturaleza con nuestros desperdicios.\n\nAbuelA. — ¿Por qué en vez de lanzar sus desperdicios en los cestos de basura, los dejan aquí acumulados?\n\nAndrés. —¡No son solo nuestros desperdicios, también hay desperdicios de otras personas! Además, ¡el cesto nos queda muy lejos!\n\nAbuelA. —Niños, estos desperdicios no solo causan contaminación, también producen plagas que transmiten enfermedades a las personas. Salvar a la naturaleza y las plantas, solo depende de nosotros.\n\nJessicA. —¿Por eso la rama del árbol se desprendió?\n\nAbuelA. —Si Jessica, aunque no lo veas a simple vista en el árbol, todo esto le hace daño.\n\n¿Acaso no les da el mal olor? Ese mal olor es la descomposición de todos los desperdicios, obstaculizando el oxígeno y haciendo que las raíces del árbol lo absorban. […] Yanett Mora Conversamos.\n\na. ¿Qué respuesta dimos sobre la rama del árbol en la página 81?\n\nb. ¿Cómo se diferencia con lo ocurrido?\n\nContinuamos la lectura.\n\n¿Sabías que…?¿Sabías que…?\n\nEl teatro consiste en la representación o actuación frente al público. Usando el habla, gestos, la mímica, la danza, la música, vestuario, maquillaje y otras cosas.",
+      "charCount": 1851
+    },
+    {
+      "pageNumber": 84,
+      "text": "83\n\nUnidad 3Unidad 3Unidad 7\n\n5. Actividad en equipo\n\nLeemos la parte final del texto dramático y respondemos.\n\nAndrés. —¡Jessica, agarremos toda esta basura y llevémosla al bote!\n\nJessicA.—¡Sí, Andrés!\n\nAcotación. JessicA y Andrés recogieron toda la basura del árbol y la llevaron al bote. De regreso se sientan en el árbol junto con su abuela.\n\nAndrés.—Jessica, a partir de mañana estaremos atentos a que el árbol permanezca limpio. ¡Y también podríamos correr la voz en el parque para que entre todos cuidemos nuestros espacios y no contaminemos!\n\nJessicA. —¡Es una idea genial!\n\nAbuelA. —Oh, chicos, por poco olvidaba darles su merienda.\n\nLa abuela saca unos deliciosos panes con mantequilla de maní y una limonada, todos empiezan a comer. De pronto, una manzana cae sobre la cabeza de Andrés.\n\nAndrés. —(Tocándose la cabeza). ¡OUCH!\n\nJessicA. —(Entre risas). ¡Mira abuela! ¡El árbol le ha lanzado una manzana en la cabeza a Andrés!\n\nAbuelA. —Ja, ja, ja. Sí, Jessica, ¡Seguro se la lanzó en señal de agradecimiento!\n\nAndrés. —(Pegándole un gran mordisco a la manzana). ¡Esta manzana no se ve del todo mal! MMM, a decir verdad. ¡Está muy jugosa!\n\nJessicA. —¡Dame un poco, Andrés, yo también quiero probarla!\n\nAbuelA. —La naturaleza es sabia, nos regala cada día retratos de lo que es la verdadera belleza. Y como dice el dicho: «Trata de dejar el mundo en mejores condiciones de las que tenía cuando llegaste a él».\n\nYante Mora\n\na. ¿Por qué la basura afecto al árbol?\n\nb. ¿Cómo creemos que finalizará la historia?\n\nVerificamos con nuestro docente si hemos comprendido el vocabulario.\n\nAclaramos dudas sobre la historia o la dramatización.\n\nemana 1",
+      "charCount": 1650
+    },
+    {
+      "pageNumber": 85,
+      "text": "84 Respondemos.\n\nSocializamos en clase nuestras respuestas.\n\na. ¿Qué hicieron los niños para que el ambiente del árbol mejorara?\n\nb. ¿Cuál es el mensaje que nos deja el texto dramático?\n\nc. ¿Qué podemos hacer para cuidar la naturaleza?\n\n6. Actividad con docente\n\nEscuchamos la explicación sobre la representación teatral.\n\nLa dramatización de un texto breve requiere:\n\nConocer el texto dramático a representar.\n\nElegir los personajes.\n\nMemorizar los diálogos de cada acto o escena.\n\nEnsayar por partes para que no sea tan difícil la puesta en escena.\n\nTomar en cuenta las acotaciones para cada acto.\n\nPreparar el vestuario y la utilería para el escenario de acuerdo con el texto dramático.",
+      "charCount": 689
+    },
+    {
+      "pageNumber": 86,
+      "text": "85\n\nUnidad 3Unidad 3Unidad 7\n\n(Se abre el telón, vemos en escena la rama de un árbol, la luna en el cielo y un pequeño búho apoyado en la rama).\n\npequeño búho. —¡Uuh, uuh!\n\n(Pequeña pausa). ¡Uuh, uuh!\n\nlunA. —Calla, o despertarás a todo el mundo.\n\n(Pequeña pausa).\n\npequeño búho. —¡Uuh, uuh!\n\nlunA. —¡Calla!\n\npequeño búho. —Pero es que me he perdido y tengo miedo.\n\nlunA. —Los búhos no temen a la noche.\n\npequeño búho. —¡Yo sí, yo sí! ¡Uuh, uuh!\n\n(Oímos a otro búho que se acerca).\n\nlunA. —Parece que alguien te responde.\n\npequeño búho. —¡Bieeen!\n\n(Tan contento se pone que casi se cae de la rama).\n\nlunA. —¡Cuidado, pequeño!\n\npequeño búho. —¡Ay!\n\n7. Actividad en equipo\n\nLeemos el texto dramático en voz alta, intermedia y baja, de acuerdo a los diálogos.\n\nRepresentamos un acto, tomando en cuenta las orientaciones de la actividad 8.\n\nPersonajes:\n\nPequeño Búho Luna Búho grande Cuervo Pequeña Bruja Autora: Isabel Tapiador Acto I emana 1 Consolidación",
+      "charCount": 953
+    },
+    {
+      "pageNumber": 87,
+      "text": "86 (Entra un búho, por lo menos el doble de grande que nuestro pequeño búho. Se posa en la rama. Pausa).\n\nbúho GrAnde. —Vaya, no te había visto antes.\n\npequeño búho. —Es que no vivo por aquí.\n\nbúho GrAnde. —¿Y cómo has llegado tú solo?\n\npequeño búho. —Es que me caí de la escoba.\n\nbúho GrAnde. —¡No digas mentiras, pequeño!\n\nVoy a buscar a tu madre, no debe andar lejos.\n\n(búho GrAnde sale volando de escena).\n\npequeño búho. —¡Uuh, uuh! ¡Uuh, uuh!\n\nlunA. —¡Tranquilo buhíto! ¿Por qué has dicho eso de la escoba?\n\npequeño búho. —¡Porque es verdad, no es mentira! ¡Uuh, uuh!\n\n(Oímos el graznido de un pájaro que se acerca, parece enfadado).\n\nlunA. —¡Oh, oooh!\n\n(Entra en escena un cuervo, aletea alrededor de PEQUEÑO BÚHO).\n\ncuervo. —¡Ya está bien, qué escándalo es este!\n\npequeño búho. —Me he perdido.\n\ncuervo.—¿Y por eso tienes que despertar a mis polluelos?\n\npequeño búho.— Me caí de la escoba.\n\ncuervo.—¡Y encima con mentiras! ¡Voy a buscar a tu madre, te vas a enterar de lo que es bueno!\n\n(Sale el cuervo).\n\npequeño búho.—¡No es mentira! ¡Uuh, uuh!\n\nlunA. —Ya ves que no todo el mundo es amable, pequeño.\n\npequeño búho.—¿Qué puedo hacer?\n\nlunA. —¡Un momento, estoy viendo algo a lo lejos!\n\npequeño búho. —¿Qué es?, ¿qué es?\n\nlunA. — ¡Alguien te busca! ¡Ahora entiendo lo de la escoba!\n\npequeño búho. —¡Si me busca, a lo mejor me encuentra!\n\nlunA. —Voy a enviarle un rayo de luz de luna, para que se oriente.\n\n(Un rayo de luz recorre la escena, rodea al buhíto, que se ríe como si le hiciera cosquillas, y sale lanzado fuera de escena).\n\npequeño búho. —¿Qué pasa ahora?\n\nlunA. —Un momento, paciencia.\n\npequeño búho. —¿Y ahora, qué pasa?\n\nlunA. —¡Lo ha visto, lo ha visto, viene hacia aquí!\n\nActo II",
+      "charCount": 1701
+    },
+    {
+      "pageNumber": 88,
+      "text": "87\n\nUnidad 3Unidad 3Unidad 7\n\npequeño búho. —¡Bieeen!\n\n(Entra en escena el rayo de luz, que desaparece «dentro» de la luna.\n\nA continuación vemos la silueta de una brujita volando en su escoba).\n\npequeñA bruJA.— ¡Que se aparte todo el mundo, voy a aterrizaaaar!\n\n(Desaparece de escena, oímos un gran porrazo).\n\npequeño búho. —¡Me ha encontrado, me ha encontrado!\n\npequeñA bruJA. —(Off). ¡Qué porrazo!\n\npequeño búho. —¡Estoy aquí!\n\npequeñA bruJA. —(Off). ¡Pequeña Bruja, sale de la cama y se sube a la rama!\n\n(Aparece la brujita en la rama, al lado de su PEQUEÑO BÚHO).\n\npequeñA bruJA. —¡Buhito!\n\npequeño búho. —¡Uuh!\n\n(Se abrazan).\n\npequeñA bruJA. —Te caíste por mi culpa, giré muy rápido.\n\npequeño búho. —¡Uuh!\n\nlunA.— Así que este es tu búho, pequeña bruja.\n\npequeñA bruJA. —¡Mi búho Nicolás, al que yo quiero más!\n\npequeño búho. —¡Uuh, uuh!\n\npequeñA bruJA. —Gracias por el rayo de luz, no sabía dónde buscar.\n\nActo III emana 1",
+      "charCount": 929
+    },
+    {
+      "pageNumber": 89,
+      "text": "88 lunA. —¡Un placer, brujita buena!\n\npequeñA bruJA. —¡Ábrete, ábrete, tapa de cacerola!\n\n¡La brujita y su búho, vuelan en su escoba!\n\n(Desaparecen ambos, al instante vemos la silueta de pequeñA bruJA volando en su escoba, en el hombro lleva a su pequeño búho.) pequeño búho. —¡Uuh, uuh!\n\nlunA. —¡Hasta pronto, buhito!\n\n(Salen de escena, volando en su escoba).\n\nlunA. —Creo que esto ha sido todo. ¡Ah, no! ¡Falta una última cosa!\n\n(De la Luna sale un rayo de luz, que juguetea por la escena y finalmente, forma la palabra «FIN»). (Se cierra el telón).\n\nRespondemos en el cuaderno y socializamos con la clase.\n\na. ¿Qué nos pareció la obra teatral?\n\nb. ¿Qué le pasó al Pequeño Búho?\n\nc. ¿Por qué debía ser cuidado el Pequeño Búho?\n\nd. ¿Cómo le ayudó la luna?\n\ne. ¿Qué nos pareció la obra teatral?\n\nf. ¿Qué personaje nos gustó más?\n\n8. Actividad en equipo\n\nSeleccionamos una obra de teatro para representar en el aula.\n\nLos personajes pueden ser compañeros o miembros de la familia.\n\nRespondemos.\n\na. Escribimos el título del texto que representaremos.\n\nb. ¿Cuántos participantes se necesitan para nuestra obra?",
+      "charCount": 1108
+    },
+    {
+      "pageNumber": 90,
+      "text": "89\n\nUnidad 3Unidad 3Unidad 7\n\n• Elaboro mi disfraz con papel reciclado o bolsas.\n\nf. Elaboramos un resumen del texto.\n\nd. ¿Por qué seleccionamos este texto?\n\ne. ¿Qué necesitamos para la escenografía y el vestuario?\n\nCompartimos con la clase lo que aprendimos haciendo la obra de teatro.\n\nActividad en casa\n\n• Ensayo el personaje y el diálogo que me corresponde para la\n\nrepresentación del acto seleccionado en equipo.\n\nc. ¿Quiénes son los personajes?\n\nemana 1",
+      "charCount": 459
+    },
+    {
+      "pageNumber": 91,
+      "text": "90 Comprobamos si lo hicimos bien.\n\nResolvemos.\n\na. Encerramos la imagen con la palabra que corresponde a la noche.\n\n1. Actividad con docente\n\nLeemos.\n\nAl búho lo visitó un ratón ayer.\n\nDía Noche Tarde La mamá del búho dormirá todo el día mañana.\n\nBuhito se mojó hoy bajo la lluvia.\n\nb. Leemos el texto y enlazamos las imágenes correspondientes a cada\n\noración.\n\nBuhito no puede dormir; ha perdido la noción del tiempo.\n\nAyudémoslo.\n\nAnticipación",
+      "charCount": 446
+    },
+    {
+      "pageNumber": 92,
+      "text": "91\n\nUnidad 3Unidad 3Unidad 7\n\nc. Escribimos las actividades de la niña según el tiempo. ¿Qué hace en la\n\nmañana? ¿Qué hace en el día? ¿Qué hace al mediodía? ¿Qué hace en la noche?\n\nSocializamos las respuestas que escribimos y conversamos sobre lo que nos gusta hacer en el día, en la tarde y en la noche.\n\nemana 2",
+      "charCount": 313
+    },
+    {
+      "pageNumber": 93,
+      "text": "92\n\n2. Actividad en equipo\n\nLeemos el texto en voz alta y subrayamos las palabras que nos indican el tiempo.\n\n(A JuAnitA le encanta leer obras de teatro, pero a lucio le fascina más actuar frente a los demás.) Ayer, JuAnitA leyó una obra basada en el cuento de «La Cenicienta» y lucio no dudó en proponerle algo.\n\nlucio. —¿Qué te parece si hacemos una nueva versión del cuento y lo dramatizamos?\n\nJuAnitA. —Eso sí, debemos elaborar los diálogos, acotaciones y los disfraces.\n\nlucio. —Todo esto nos tomará trabajar muchos días, por eso comencemos hoy.\n\nJuAnitA. —Sí, continuaremos mañana, hasta lograr una gran obra para presentarla frente a nuestras amistades y familiares.\n\nlucio. —Invitemos a más amiguitos para que nos ayuden a preparar la obra y no nos cueste tanto, entre más participan más nos divertiremos.\n\nJuAnitA. —¡Buena idea, Lucio!\n\nAdverbios de tiempo: Ayer, hoy y mañana Juanita y Lucio Construcción",
+      "charCount": 914
+    },
+    {
+      "pageNumber": 94,
+      "text": "93\n\nUnidad 3Unidad 3Unidad 7\n\nResolvemos.\n\nSocializamos nuestras respuestas.\n\nLas palabras ayer, hoy y mañana son las que nos indican el tiempo de una acción.\n\nAyer. Significa que la acción se realizó un día anterior.\n\nHoy o ahora. Significa que la acción se realiza en el presente; es decir, en el mismo momento que se menciona.\n\nMañana. Significa que la acción se realizará en el futuro; es decir, un día después.\n\na. ¿Qué leyó Juanita?\n\nb. ¿Qué propuso hacer Lucio?\n\nc. ¿Qué necesitan para representar el cuento?\n\nd. Escribimos las palabras que nos indicaron el tiempo.\n\ne. ¿Qué nos gustó más de la historia?\n\n3. Actividad con docente\n\nLeemos la siguiente información.\n\nemana 2",
+      "charCount": 680
+    },
+    {
+      "pageNumber": 95,
+      "text": "94 Completamos los diálogos de los cuentos con los adverbios que hacen falta.\n\nDijo la maestra: «________________ que es martes, ensalada de frutas haremos. Entera o en partes, toda la compartiremos».\n\nLevantó la mano Ramón: —Yo traeré un melón.\n\nSe paró Sofía: —Yo traeré la sandía.\n\nGritó Soraya: —¿Está bien una papaya?\n\nDesde atrás, dijo Teresa: —¡Yo las fresas y las cerezas!\n\nY agregó Karina: —Señor, ¡____________mismo corto las mandarinas!\n\nMañana, ayer y ahora Mañana, ayer y ahora Madre, pero_____ no ha llovido, yo quiero seguir aquí.\n\nNo mi pequeño hijo, ______ nos iremos, quiero protegerte.\n\nQuerido Bambi, _______ hubo mucha lluvia en el bosque, tendremos que marcharnos.\n\nComprobamos con los demás si respondimos bien los diálogos.\n\nAmílcar Zea",
+      "charCount": 760
+    },
+    {
+      "pageNumber": 96,
+      "text": "95\n\nUnidad 3Unidad 3Unidad 7\n\n4. Actividad en pares\n\nCompletamos las siguientes frases con la palabra que indica el tiempo de la acción (hoy, ayer, mañana).\n\nReescribimos las oraciones en letra ligada.\n\nSocializamos nuestras respuestas.\n\n__________Juan hace la lista de amigos que invitará a su fiesta.\n\n___________Martita se quedó leyendo un poema.\n\nJulio está feliz porque ____________ irá a casa de sus abuelitos.\n\nemana 2",
+      "charCount": 425
+    },
+    {
+      "pageNumber": 97,
+      "text": "96\n\n5. Actividad con docente\n\nLeemos la información y comentamos.\n\nCompartimos otros ejemplos con la clase. Preguntamos al docente si tenemos dudas sobre las palabras sinónimas y antónimas.\n\nSinónimos Lavar: enjuagar, limpiar, higienizar.\n\nSonreír: alegrar, reír, carcajear.\n\nReluciente: brillante, radiante.\n\nAntónimos Lavar: ensuciar, manchar.\n\nSonreír: llorar, sollozar, entristecer.\n\nReluciente: sucio, opaco.\n\nEscribimos el texto en el cuaderno y cambiamos las palabras destacadas por sus sinónimos.\n\nSinónimos y antónimos Lucio y Juanita están escribiendo el diálogo para la adaptación del cuento de «La Cenicienta», pero quieren cambiar algunas palabras. Para hacer los cambios necesitan sinónimos que son palabras que pueden sustituir a otras porque tienen el mismo significado. Y los antónimos son palabras que poseen un significado opuesto a otra.\n\nLa Cenicienta Ratón. —¿Ahora a dormir, Cenicienta?\n\nCenicienta. —(Cenicienta sonrió). Todavía no ratoncito. Primero se deben lavar la cara y los dientes. Cuando estén limpios y relucientes, les daré las buenas noches a todos.\n\nAdaptación",
+      "charCount": 1096
+    },
+    {
+      "pageNumber": 98,
+      "text": "97\n\nUnidad 3Unidad 3Unidad 7\n\n6. Actividad en pares\n\nVerificamos las respuestas en un diccionario y socializamos con los demás.\n\nEscribimos la palabra antónima a cada dibujo.\n\nemana 2",
+      "charCount": 183
+    },
+    {
+      "pageNumber": 99,
+      "text": "98 Leemos el texto dramático en voz alta y agregamos los adverbios que corresponden: ayer, mañana, hoy.\n\n7. Actividad en equipo\n\nComprobamos las respuestas en clase y resolvemos nuestras dudas.\n\nEscribimos la palabra antónima que corresponde.\n\nCeniCienta. —Me gusta ayudar a mis hermanastras, pero me gustaría tener la vida de___________.\n\nRatonCito. —Cuando recuperes tu casa podrás hacer lo que desees.\n\nCeniCienta. —Mis manos están adoloridas de tanto barrer y trapear.\n\nRatonCito.—Te ayudaremos todos los animalitos del bosque. No te preocupes; ______________estarán todos aquí.\n\nCeniCienta. —Muchas gracias, esto me pone muy contenta…\n\nRatonCito. —¿Irás ________a la fiesta del palacio?\n\nCenicienta. —No, ¿cuál fiesta?, yo no tengo un vestido bonito y zapatillas hermosas para ir.\n\nAdaptación Consolidación Bonito Hermoso Contento",
+      "charCount": 835
+    },
+    {
+      "pageNumber": 100,
+      "text": "99\n\nUnidad 3Unidad 3Unidad 7\n\nComparto en clase la tarea que hice.\n\nActividad en casa\n\n• Escribo un listado de cinco palabras y agrego, sinónimos y\n\nantónimos.\n\nPalabra con significado Palabra sinónima Palabra antónima\n\n1.\n\n2.\n\n3.\n\n4.\n\n5.\n\n8. Actividad individual\n\nEscribo las palabras antónimas que corresponden a cada dibujo.\n\nemana 2",
+      "charCount": 336
+    },
+    {
+      "pageNumber": 101,
+      "text": "100\n\n1. Actividad con docente\n\nLeemos en voz alta el texto «Fernanda y la abuela Fina».\n\n(FeRnanda es una niña fuerte y feliz. Su nombre significa valiente y pacificadora.\n\nella tiene lindos colochos color café, carita redonda y ojos almendrados.\n\nA ella le encanta cocinar y comer con papá Felipe y mamá CaRolina.\n\nHoy es una fecha especial, cumple años la abuela Fina.\n\nPero, debido a la pandemia mundial no pueden ir a casa de la abuela.\n\nAsí que muy tempranito, FeRnanda tomó el teléfono, marcó el número que le dictó mamá.\n\nEl teléfono sonó y sonó ring, ring, ring.) abuela. —¡Aló! ¡Buenos días! ¿Quién habla?\n\nFeRnanda. —Soy yo, Fernanda. ¡Feliz cumpleaños abuelita Fina!\n\nabuela. —Mi querida Fernandita, ya casi no escucho, pero qué feliz me siento al saber de ti.\n\nFeRnanda. —Mamá, la abuela no escucha bien, ¿qué podemos hacer?\n\nMaMá CaRolina. —La abuela escribe hermosas cartas, quizá pueda escribirte.\n\nComo por arte de magia, la abuela respondió a la solicitud de CAROLINA.\n\nFernanda y la abuela Fina Anticipación",
+      "charCount": 1025
+    },
+    {
+      "pageNumber": 102,
+      "text": "101\n\nUnidad 3Unidad 3Unidad 7\n\nabuela. —Fernanda, te escribiré unas cartitas. Y las mandaré por correo para que estemos siempre en comunicación. Te contaré las cosas interesantes que hago.\n\nFeRnanda. —Abuelita Fina, ya puedo leer y escribir. Le prometo mandar mensajitos y fotos por el teléfono móvil de papá.\n\nabuela. —Entonces, yo también tendré que aprender a usar esos nuevos teléfonos.\n\n(Las dos se tiraron fuertes carcajadas de felicidad, asumiendo el reto que cada una había confesado).\n\nRespondemos.\n\nSocializamos con los demás nuestras respuestas en forma oral.\n\na. ¿Cómo se llama la niña ¿Cómo es ella?\n\nb. ¿Qué le gusta hacer a Fernada con su familia?\n\nc. ¿Qué fecha es importante para Fernanda?\n\nd. ¿Qué cosas podrían interesarle a la abuelita Fina?\n\ne. ¿Qué palabras del texto son nuevas para nosotros? Buscamos en el\n\ndiccionario.\n\nf. ¿Qué es una carta?\n\ng. ¿Alguna vez hemos recibido una carta familiar?\n\nh. ¿Alguna vez hemos enviado mensajes por teléfono?\n\nemana 3",
+      "charCount": 980
+    },
+    {
+      "pageNumber": 103,
+      "text": "102 San Miguel, 12 de septiembre de 2021 Querida Fernanda:\n\nEspero que hayas tenido un fin de semana muy agradable al lado de tu mamá y papá.\n\nEl motivo por el cual te escribo es para comentarte que ayer miré tu vídeo donde dramatizaste el cuento de «Hansel y Gretel».\n\nTe felicito por tu excelente actuación.\n\nTe admiro por los diálogos que aprendiste.\n\nEsto es todo lo que tenía para decirte.\n\nTe animo a que continúes esforzándote.\n\nSaluda a tus padres de mi parte.\n\nCon amor, abuela Fina.\n\nLugar y fecha Mensaje (cuerpo) Saludo Despedida Firma\n\n2. Actividad con docente\n\nLeemos la información y comentamos.\n\nLa correspondencia familiar Construcción",
+      "charCount": 652
+    },
+    {
+      "pageNumber": 104,
+      "text": "103\n\nUnidad 3Unidad 3Unidad 7\n\nResolvemos.\n\nComentamos con los demás las respuestas de nuestra actividad.\n\na. ¿Qué tipo de texto leímos? Subrayamos la respuesta correcta.\n\n• Una noticia • Una carta • Un cuento\n\nb. ¿Cuándo se escribió el texto?\n\nc. ¿Quién es el remitente del texto?\n\nd. ¿Cuál es el mensaje?\n\nd. ¿Quién es el destinatario del mensaje?\n\nf. ¿Qué tipo de lenguaje se utiliza en el texto?\n\nSubrayamos la respuesta.\n\n• complicado • sencillo • divertido\n\nemana 3 ¿Sabías que…?¿Sabías que…?\n\nLas cartas son textos que se escriben a familiares o amistades para comunicar algo importante con muestras de afecto y cortesía.\n\n¿Qué significa…?¿Qué significa…?\n\nRemitente. Es la persona (emisor) que escribe la carta.\n\nDestinatario. Es la persona a quien va dirigida la carta",
+      "charCount": 777
+    },
+    {
+      "pageNumber": 105,
+      "text": "104\n\n3. Actividad con docente\n\nLeemos el texto y comparamos con la carta de la abuela.\n\nRespondemos de forma oral.\n\na. ¿A quién nos gustaría escribir una carta?\n\nb. ¿En qué se parece este texto a la carta?\n\nc. ¿Qué tipo de texto es?\n\nd. ¿Cómo se usa el correo electrónico para enviar mensajes?\n\nComentamos nuestra respuesta.\n\nPara Asunto Abuelita Fina fina@gmail.com 14 de septiembre de 2021 Querida abuelita:\n\nEspero que se encuentre muy bien al lado del abuelito José.\n\nMuchas gracias por ver mi dramatización. Le cuento que me tocó ensayar varios días antes con mis compañeros y familia. Hoy estamos preparando otro texto dramático para un festival de teatro que haremos pasado mañana. Espero que usted pueda llegar a vernos al teatro de la escuela.\n\nCuídese mucho, hasta pronto abuelita.\n\nUn abrazo de Fernanda.\n\nAgradecimiento A",
+      "charCount": 833
+    },
+    {
+      "pageNumber": 106,
+      "text": "105\n\nUnidad 3Unidad 3Unidad 7\n\nLeemos la información.\n\nLa coma enumerativa (,) es un signo de puntuación que debemos utilizar cuando escribimos y separamos una serie de palabras o elementos que pertenecen a la misma clase de palabras. Asimismo, cuando se lee deben hacerse pequeñas pausas entre las palabras que se enumeran.\n\nEjemplo:\n\nJuan come sandías, zanahorias, berenjenas y peras.\n\nTío le cuento que ayer hice varias tareas con mi papá.\n\nYo ayudé a limpiar la casa a ordenar mi cuarto a lavar platos a regar las plantas y alimenté al perrito.\n\nHoy acompañé a mi mamá al mercado y compramos muchas verduras y frutas. Mis verduras y frutas favoritas son las papas el brócoli las berenjenas los pepinos y los mangos.\n\nPara Asunto A\n\n4. Actividad con docente\n\nLeemos y colocamos las comas que hacen falta en el mensaje de correo.\n\nLa coma enumerativa Fernanda está escribiendo un nuevo correo electrónico para su tío que está fuera del país. Pero no sabe dónde colocar las comas en el cuerpo del texto.\n\nemana 3 Comentamos con la clase la importancia de la coma enumerativa.",
+      "charCount": 1076
+    },
+    {
+      "pageNumber": 107,
+      "text": "106\n\n5. Actividad en pares\n\nCompletamos las oraciones con la coma enumerativa que haga falta.\n\nUtilizamos las palabras de los recuadros que correspondan. Seguimos el ejemplo.\n\nEscribimos tres oraciones usando la coma en enumeraciones.\n\nSocializamos la actividad con la clase.\n\nAlmorzaremos pollo asado, arroz, ensalada y tortillas.\n\n1. Ayer cené____________________ ________________y un rico chocolate.\n\n2. La sopa de pollo lleva ___________________ _________________________\n\n_________________ y cilantro.\n\n3. En la semana siempre como ___________________ ___________________\n\n_____________ _____________y cereales.\n\n4. Fui al nuevo restaurante con _________________ _____________________\n\n______________________ y Yanira.",
+      "charCount": 723
+    },
+    {
+      "pageNumber": 108,
+      "text": "107\n\nUnidad 3Unidad 3Unidad 7\n\nAgrego las comas que hagan falta en el mensaje de texto.\n\nSocializo en clase las respuestas de la actividad.\n\n6. Actividad individual\n\nCompleto las partes de la silueta de la carta.\n\nSan Miguel, 12 de septiembre de 2021 Querida Fernanda:\n\nEspero que hayas tenido un fin de semana muy agradable al lado de tu mamá y papá.\n\nEl motivo por el cual te escribo es para comentarte que ayer miré tu vídeo donde dramatizaste el cuento de «Hansel y Gretel».\n\nTe felicito por tu excelente actuación. Te admiro por los diálogos que aprendiste.\n\nEsto es todo lo que tenía para decirte. Te animo a que continúes esforzándote.\n\nSaluda a tus padres de mi parte.\n\nCon amor, abuela Fina.\n\nQuerido hijo:\n\nHoy debes ir al mercado y necesito que compres las frutas que necesitamos para el coctel que haremos mañana.\n\nPor favor, compra guineos melones piña sandías y manzanas.\n\nGracias Actividad en casa\n\n• Investigo si en casa guardamos cartas recibidas de otros familiares.\n\nemana 3 Consolidación",
+      "charCount": 1007
+    },
+    {
+      "pageNumber": 109,
+      "text": "108\n\n1. Actividad con docente\n\nRealizamos el juego «El cartero trajo cartas para…».\n\nSeguimos el paso a paso.\n\n2. Actividad con docente\n\nPreparamos la escritura de una carta.\n\nDe esta manera podemos continuar el juego hasta que todos cambien de lugar y sean líderes.\n\na. Formamos un círculo con sillas y todos tomamos\n\nasiento.\n\nb. Nuestro docente iniciará el juego como líder, se\n\npondrá en el centro del círculo de pie y dirá: «El cartero trajo cartas para los que traen zapatos negros».\n\nc. Entonces, todos los que llevan zapatos negros\n\nse cambian de silla. Evitamos pasarnos a la silla contigua. Cuando todos estemos sentados, quien se quede sin silla será el nuevo líder y dirá: «El cartero trajo cartas para los que llevan camisa o blusa blanca».\n\nd. Todos cambian de lugar sin repetir asiento. Quien\n\nse queda de pie será el nuevo líder y dirá: «El cartero trajo cartas para los que llevan falda o pantalón azul».\n\na. Escribimos nuestro nombre completo y dirección\n\nen un papel.\n\nNombre:\n\nDirección:\n\nAnticipación\n\nUnidad 3Producto\n\n¿Sabías que…?¿Sabías que…?\n\nCartero. Persona que tiene el oficio de entregar las cartas y los paquetes del correo.",
+      "charCount": 1155
+    },
+    {
+      "pageNumber": 110,
+      "text": "109\n\nUnidad 3Unidad 3Unidad 7\n\nb. Doblamos el papel y lo introducimos en la caja\n\nque haya preparado el docente.\n\nc. Tomamos otro papelito y leemos en secreto el\n\nnombre del compañero que nos haya salido para realizar la próxima actividad que dirá el docente.\n\nd. Escribiremos una carta al compañero que nos\n\nhaya salido en el papel.\n\ne. Elaboramos dos buzones para colocarlos en el\n\naula de clases, donde depositaremos las cartas cuando las tengamos listas.\n\nf. Preparamos una o dos páginas rayadas para\n\nescribir la carta.\n\nPlanificamos.\n\n¿Qué queremos contar a nuestro compañero?\n\ng. Necesitamos un sobre para guardar la carta. Este lo podemos elaborar\n\nnosotros, parecido al siguiente:\n\nemana 4 ¿Qué significa…?¿Qué significa…?\n\nBuzón.\n\n1. Caja con\n\nabertura donde se depositan las cartas que se envían al correo.\n\n2. Depósito digital\n\nen el que se almacenan y organizan los mensajes de correo electrónico recibidos por un usuario.",
+      "charCount": 935
+    },
+    {
+      "pageNumber": 111,
+      "text": "110\n\n3. Actividad con docente\n\nLeemos.\n\nHoy en día, las personas envían correos electrónicos o mensajes en redes sociales de manera virtual. Hace muchos años, cuando no había mensajería electrónica, las personas acostumbraban a escribir cartas a mano y las enviaban por el correo de la ciudad.\n\nLa correspondencia o mensajería es un comunicado que una persona (emisor) envía a otra (receptor). Estos se pueden transmitir de forma oral o de forma escrita, por medio de notas, recados en papel o en dispositivos electrónicos. Estos últimos permiten una comunicación inmediata y en tiempo real con otras personas.\n\nb. ¿Qué tipo de mensajería se acostumbra enviar en mi familia?\n\nCompartimos la respuesta con nuestro docente.\n\nResolvemos.\n\na. Unimos el dibujo con el tipo de mensajería que corresponde.\n\nMensaje de texto Correo electrónico Cartas por correo Feliz cumpleaños Te deseo lo mejor en este día.\n\nEl intercambio de correspondencia\n\nUnidad 3Producto\n\nConstrucción",
+      "charCount": 968
+    },
+    {
+      "pageNumber": 112,
+      "text": "111\n\nUnidad 3Unidad 3Unidad 7\n\n4. Actividad con equipo\n\nLeemos la información sobre la correspondencia familiar.\n\nIdentificamos y enlazamos la intención comunicativa de la carta familiar al que pertenecen los mensajes.\n\nCompartimos con los demás lo que hicimos.\n\nPrimo, te escribo esta carta para informarte que mañana llegaré a la fiesta de graduación de mi sobrino…\n\nCondolencias Motivo especial Felicitación Saúl, lamento mucho la pérdida de mi tío Juan. Recibe mis condolencias sinceras…\n\nUna carta familiar es un texto de comunicación escrita, en el cual dos o más personas pueden mantenerse informadas sobre asuntos familiares como visitas por motivos especiales, saludos por cumpleaños, aniversarios o para dar las condolencias por alguna pérdida familiar.\n\nEn la carta utilizamos un lenguaje sencillo para que nuestro mensaje sea comprensible para los demás.\n\n…Espero que sigas cumpliendo muchos años más.\n\nMe guardas pastel…\n\nLa carta familiar emana 4",
+      "charCount": 960
+    },
+    {
+      "pageNumber": 113,
+      "text": "112\n\n5. Actividad individual\n\nObservo la siguiente imagen.\n\nComparto las respuestas con la clase.\n\nEscucho la explicación de mi docente.\n\nRespondo.\n\nProducto: Carteles informativos\n\na. ¿Qué tipo de texto es el anterior? ¿De qué trata?\n\nb. ¿Alguna vez te has comunicado mediante el lenguaje de señas?\n\nc. ¿Consideras que el tamaño de las imágenes y las letras es el adecuado?\n\nUnidad 3Producto",
+      "charCount": 392
+    },
+    {
+      "pageNumber": 114,
+      "text": "6. Actividad individual\n\nLeo la siguiente información.\n\nComento con mi docente, ¿qué me parece el cartel?, ¿es llamativo?\n\nExplico por qué.\n\nObservo el siguiente cartel informativo y uno con sus partes correspondientes.\n\nEl centro escolar convoca al El centro escolar convoca al Primer Festival de talentos musicalesPrimer Festival de talentos musicales Día: 12 de agostoDía: 12 de agosto Hora: de 7:00 a 5:00 pmHora: de 7:00 a 5:00 pm Pide más información a tu docente. Pide más información a tu docente.\n\nSon presentaciones visuales que combinan texto breve con imágenes grandes y llamativas.\n\nSu función es dar información precisa y breve sobre un tema.\n\nSu estructura es:\n\n• Título\n\n• Imágenes\n\n• Información\n\n• Fecha o autor del mensaje\n\nLos carteles informativos emana 4\n\nUnidad 3Unidad 3Unidad 7\n\n113 ConvocatoriaConvocatoria",
+      "charCount": 832
+    },
+    {
+      "pageNumber": 115,
+      "text": "114\n\n7. Actividad en pares\n\nPlanificamos la elaboración de nuestro cartel.\n\nElaboramos un borrador de nuestro cartel y lo socializamos.\n\nRespondemos.\n\nPlanificación Textualización\n\na. ¿Sobre qué haremos nuestro cartel?\n\nb. ¿Qué información llevará?\n\nc. ¿Qué imágenes utilizaremos?\n\nConsolidación\n\nUnidad 3Producto",
+      "charCount": 313
+    },
+    {
+      "pageNumber": 116,
+      "text": "8. Actividad en pares\n\nRevisamos nuestro cartel.\n\nVerificamos que no haya repetición de palabras y tenga título.\n\nRevisamos que el texto sea breve y claro, con imágenes atractivas.\n\nCompartimos nuestro cartel con la clase.\n\nComento en clase, ¿qué me pareció la actividad de elaborar un cartel informativo?\n\nRevisión Publicación Autoevaluación Coloreo tres estrellas si lo he logrado, dos si puedo hacerlo, pero debo mejorar y una estrella si debo practicar más.\n\nIdentifico los elementos de un texto dramático.\n\nUtilizo la coma enumerativa en textos que escribo.\n\nIdentifico los elementos de una carta.\n\nElaboro carteles informativos de temas de interés.\n\n1. Utiliza textos breves.\n\n2. Emplea imágenes atractivas.\n\n3. Comunica con claridad el mensaje.\n\n4. Utiliza ortografía correcta.\n\nCriterios Logrado En proceso Evaluación emana 4\n\nUnidad 3Unidad 3Unidad 7\n\n115",
+      "charCount": 864
+    },
+    {
+      "pageNumber": 117,
+      "text": "116\n\n1. Actividad en pares\n\nLeemos en voz alta el texto dramático. Cambiamos en el cuaderno las palabras en negrita por sinónimos y antónimos.\n\nCompletamos el texto con los adverbios de tiempo que hacen falta.\n\nVerificamos las respuestas con nuestro docente.\n\nCorregimos si es necesario.\n\nEl oso cansado\n\nEl teatro va a empezar. Ya se levanta el telón. No hay nadie en el escenario, solo árboles que están juntos y apretados; en filas, como si fueran soldados. Unos pasos adelante se alzan el más grande de todos.\n\nEs un árbol solitario, que parece el capitán. «Zum…zum…zum…». ¿Qué es eso que se está oyendo? ¡Son abejas! Y en lo alto de una rama del gran árbol están fabricando miel. ¡Atención!, que ahora llega el Señor Oso al escenario, entrando por la derecha. Es muy fuerte, ¡es enorme!; pero parece cansado.\n\nSeñor oSo. —He cruzado el bosque entero. Necesito descansar.\n\nDe repente el Señor Oso descubre el árbol grande que está solo y apartado, y se dirige hacia él con los ojos muy alegres.\n\nSeñor oSo. —Es el lugar ideal para dormir una siesta. Su sombra es ancha, fresca y espesa…\n\nConcha López Narváez y Rafael Salmerón ________ es un día soleado.\n\n____________ llovió toda la tarde.\n\n________________ estará nublado y con mucho viento.\n\nPractico lo aprendido",
+      "charCount": 1270
+    },
+    {
+      "pageNumber": 118,
+      "text": "Completo los mensajes con las comas que hacen falta.\n\nComparto mis respuestas.\n\n2. Actividad individual\n\nEscribo las partes de la carta y la intención comunicativa de las cartas familiares.\n\n2 4 1 No olvides apagar las luces cerrar las ventanas y las puertas.\n\nMe gusta comer mango zapote melón sandía pera y guineos.\n\nMañana debo terminar las tareas regar las plantas, doblar la ropa y bañar al perro.\n\nEscribí cartas para Lupe José Nancy Ceci Diego Pati y Juan.\n\n3\n\nUnidad 3Unidad 3Unidad 7\n\n117",
+      "charCount": 497
+    },
+    {
+      "pageNumber": 119,
+      "text": "118 En esta unidad aprenderás a...\n\na. Crear personajes como animales u objetos que hablan a partir de la lectura de fábulas y de la imaginación.\n\nb. Observar señales del entorno interpretando su mensaje.\n\nc. Crear etiquetas de productos alimenticios y de limpieza.\n\nd. Leer e interpretar noticias deportivas, ambientales y científicas.",
+      "charCount": 336
+    },
+    {
+      "pageNumber": 120,
+      "text": "119\n\nUnidad 3Unidad 3Unidad 8\n\nMi producto de unidad: Una etiqueta de productos Las etiquetas de productos serán evaluadas así:\n\n• Presenta todos los apartados de una etiqueta.\n\n• Detalla los componentes del producto.\n\n• Contiene una redacción clara y libre de errores.",
+      "charCount": 269
+    },
+    {
+      "pageNumber": 121,
+      "text": "120\n\n1. Actividad con docente\n\nObservamos la imagen y respondemos de forma oral.\n\nCompartimos en voz alta lo que escribimos en el diálogo.\n\nEscribimos el diálogo que imaginamos.\n\na. ¿Qué animales son?\n\nb. ¿Cómo son físicamente?\n\nc. ¿En qué lugar se encuentran?\n\nd. Imaginamos lo que dice la rana al buey.\n\nAnticipación",
+      "charCount": 318
+    },
+    {
+      "pageNumber": 122,
+      "text": "121\n\nUnidad 3Unidad 3Unidad 8\n\n2. Actividad en pares\n\nLeemos la historia en voz alta y resolvemos.\n\nSocializamos con la clase.\n\n5 La rana que quiso hincharse como un buey Vio cierta rana a un buey, y le pareció bien su gordura. La pobre no era mayor que un huevo de gallina, y quiso, envidiosa, hincharse hasta igualar en tamaño al fornido animal.\n\n—Miren, hermanas —decía a sus compañeras—, ¿es bastante? ¿No soy\n\naún tan grande como él?\n\n—No.\n\n—¿Y ahora?\n\n—Tampoco.\n\n—¿Ya lo logré?\n\n—¡Aún estás muy lejos!\n\nHacemos una pausa y observamos la ilustración.\n\nEscribimos lo que creemos que pasará.\n\nemana 1",
+      "charCount": 603
+    },
+    {
+      "pageNumber": 123,
+      "text": "122 Respondemos.\n\na. ¿Qué le sucedió a la rana?\n\nb. ¿Acertamos con nuestra predicción? Explico.\n\nc. ¿Qué opinamos sobre la rana que se comparó con el buey?\n\nd. ¿Cómo se comportaron las compañeras de la rana?\n\ne. ¿Qué consejo debieron darle?\n\nf. Explicamos la enseñanza de la historia.\n\nh. ¿Qué otro final sugerimos? Ilustramos en el cuaderno.\n\nSocializamos nuestras respuestas con la clase.\n\nContinuamos con la lectura.\n\nY el bichuelo infeliz se hinchó tanto, que reventó.\n\nMoraleja: no hay que compararse con la apariencia de los demás; hay que aceptarse tal como uno es.\n\nLa Fontaine",
+      "charCount": 585
+    },
+    {
+      "pageNumber": 124,
+      "text": "123\n\nUnidad 3Unidad 3Unidad 8\n\n3. Actividad con docente\n\nLeemos la fábula.\n\nLa cigarra y la hormiga Era un caluroso verano y estaba la cigarra cantando felizmente debajo de un árbol. No tenía ganas de trabajar, solo quería disfrutar del sol y cantar y cantar. Así pasaba los días.\n\nUna mañana pasó por allí una hormiga que llevaba a cuestas un enorme grano de trigo. La cigarra se burló de ella y le dijo:\n\n―¿Adónde vas con tanto peso? ¡Con el buen día que hace! Se está mucho mejor aquí, a la sombra, cantando y jugando. Deja todo y ven a divertirte ―le dijo riendo la cigarra.\n\nLa hormiga no hizo caso y siguió su camino silenciosa y fatigada y así pasó todo el verano trabajando y almacenando provisiones para el invierno. Cada vez que veía a la cigarra, esta se reía y le cantaba alguna canción burlona:\n\n―¡Qué risa me dan las hormigas cuando van a trabajar! ¡Qué risa me dan las hormigas porque no pueden jugar!\n\nAsí pasó el verano y llegó el frío. Entonces, la hormiga se metió en su hormiguero calentita, con comida suficiente para pasar todo el invierno y se dedicó a jugar y a descansar.\n\nSin embargo, la cigarra no tenía casa ni comida y estaba helada de frío.\n\nA partir de entonces, la cigarra aprendió a no reírse de nadie y a trabajar para tener reservas en las épocas más difíciles.\n\nAdaptación Conversamos con nuestro docente, ¿quiénes son los personajes?, ¿qué mensaje nos deja la narración?\n\nemana 1",
+      "charCount": 1416
+    },
+    {
+      "pageNumber": 125,
+      "text": "124\n\n4. Actividad en pares\n\nLeemos en voz alta la fábula «La zorra y la cigüeña».\n\nResolvemos.\n\nLa zorra y la cigüeña Cuentan que una zorra invitó a cenar a su vecina la cigüeña. Le sirvió sopa en un plato llano, y la pobre cigüeña no pudo tomar nada con su largo pico.\n\nEntonces la cigüeña invitó a comer a la zorra. Le sirvió un delicioso guiso de carne en una vasija alta.\n\n—Vecina, así no alcanzo a comer\n\nnada —se quejó la zorra.\n\n—¿De verdad? Pues entonces\n\ndisfrutarás de mi cena tanto como yo disfruté de la tuya.\n\nMoraleja: No hagas a los demás lo que no te gustaría que te hicieran a ti.\n\nEsopo\n\na. ¿Dónde se desarrolla la narración «La zorra y la cigüeña»?\n\nb. ¿Cómo se comportan los personajes?\n\nc. ¿Cuál es la enseñanza que nos deja la lectura?\n\nSocializamos con los demás lo que aprendimos de la lectura.\n\nLa fábula: Elementos Construcción",
+      "charCount": 853
+    },
+    {
+      "pageNumber": 126,
+      "text": "125\n\nUnidad 3Unidad 3Unidad 8\n\n5. Actividad en pares\n\nBusquemos en el estanque de la rana, las palabras que nos ayudarán a definir qué es una fábula.\n\nRespondemos, ¿qué es una fábula? Utilizamos las palabras que encontramos en el estanque.\n\nComprobamos con nuestro docente.\n\nmoraleja enseñanza breve verso una prosa narración con emana 1",
+      "charCount": 337
+    },
+    {
+      "pageNumber": 127,
+      "text": "126\n\n6. Actividad con docente\n\nLeemos y relacionamos la imagen con la definición.\n\nLa fábula La fábula puede desarrollarse durante el día o la noche, en cualquier época del año.\n\nPuede desarrollarse en cualquier lugar:\n\nuna casa, la ciudad, el bosque, entre otros.\n\nLos personajes pueden ser personas, animales con actitudes humanas u objetos que cobran vida en la historia.\n\nRespondemos.\n\na. ¿En qué lugares puede desarrollarse la fábula?\n\nb. ¿Quiénes pueden ser los personajes?\n\nc. ¿En qué tiempo se desarrolla la fábula?\n\nResolvemos nuestras dudas con nuestro docente.",
+      "charCount": 571
+    },
+    {
+      "pageNumber": 128,
+      "text": "127\n\nUnidad 3Unidad 3Unidad 8\n\n7. Actividad con docente\n\nLeemos en voz alta la información.\n\nResolvemos.\n\nLa personificación Es un recurso que se utiliza en cuentos, fábulas y poemas para atribuirle cualidades humanas a animales u objetos.\n\nEjemplo: los personajes como la rana y sus compañeras actuaban como seres humanos. La rana se comunicaba y se quería parecer al buey. Las compañeras se burlaban de ella.\n\nLa personificación o prosopopeya\n\na. Encerramos en un círculo las características que definen a la zorra.\n\nb. Encerramos en un círculo las características que definen a la cigüeña.\n\nSocializamos con la clase nuestras respuestas.\n\nDesatenta Amable Grosera Compasiva Atenta Amigable Divertida Vengativa Servicial Rencorosa emana 1",
+      "charCount": 740
+    },
+    {
+      "pageNumber": 129,
+      "text": "128\n\n8. Actividad en equipo\n\nLeemos las fábulas.\n\nSocializamos lo que aprendimos con los demás.\n\nEn casa de un cerrajero entró la Serpiente un día, y la insensata mordía una Lima de acero.\n\nLe dijo la Lima: —El mal, será para ti; ¿Cómo me harás daño, que hago polvos el metal?\n\nMoraleja:\n\nQuien daña a otras personas se lastima a ella misma.\n\nLa serpiente y la lima El pajarito y la campana En el punto más alto de la torre de Don Rúa, se detiene un pájaro y piensa: — Soy el pájaro rey de la ciudad; ningún otro canto interrumpe el mío; estoy en la cumbre, y debo empezar a cantar para que mi armonía llegue a miles de oídos…\n\nEn eso, el son de la campana inunda el aire.\n\nDavid Escobar Galindo Samaniego (adaptación) Explicamos oralmente y en el cuaderno en qué consiste la personificación, con ejemplos de «La serpiente y la lima» o «El pajarito y la campana».\n\n¿Qué significa…?¿Qué significa…?\n\nLima. Herramienta de acero para desgastar y alisar los metales.\n\nCerrajero. Persona que hace o repara cerraduras, llaves, candados y otras cosas de hierro.",
+      "charCount": 1054
+    },
+    {
+      "pageNumber": 130,
+      "text": "129\n\nUnidad 3Unidad 3Unidad 8\n\n9. Actividad individual\n\nLeo y resuelvo.\n\nEstaba un señor cuervo posado en un árbol y tenía en el pico un queso.\n\nAtraído por el tufillo, el señor zorro le habló en estos o parecidos términos:\n\n—¡Buenos días, caballero cuervo! ¡Gallardo y hermoso eres en verdad! Si\n\nel canto corresponde a la pluma, te digo que entre los huéspedes de este bosque tú eres el Ave Fénix.\n\nEl cuervo, al oír esto, no cabía en la piel de gozo, y para hacer alarde de su magnífica voz, abrió el pico, dejando caer la presa. La tomó el zorro y le dijo: —Aprende, señor mío, que el adulador vive siempre a costas del que le El cuervo y el zorro Actividad en casa\n\n• Leo en voz alta a mi familia las fábulas estudiadas esta semana.\n\n• Escribo en mi cuaderno, la moraleja de «El pajarito y la campana»\n\ny «El cuervo y el zorro».\n\nRespondemos.\n\nComparto con la clase mis respuestas.\n\natiende; la lección es provechosa; bien vale un queso.\n\nEl cuervo, enfadado, juró, aunque algo tarde, que no caería más en la trampa.\n\nLa Fontaine emana 1 Consolidación\n\na. ¿Cómo engañó el zorro al lobo?\n\nb. ¿Cuál es la enseñanza de la fábula?\n\nc. Explico cuál es la personificación en la fábula.",
+      "charCount": 1184
+    },
+    {
+      "pageNumber": 131,
+      "text": "130\n\n1. Actividad con docente\n\nObservamos las imágenes y leemos las palabras.\n\nRespondemos oralmente qué tienen en común las palabras.\n\n2. Actividad con docente\n\nObservamos las imágenes. Respondemos qué significan las siguientes señales del entorno.\n\nSocializamos con la clase lo que observamos.\n\narmadillo castillo zorrillo sillaardillasombrilla Anticipación",
+      "charCount": 359
+    },
+    {
+      "pageNumber": 132,
+      "text": "131\n\nUnidad 3Unidad 3Unidad 8\n\n3. Actividad en equipo\n\nLeemos y subrayamos en el texto las palabras terminadas en -illo e -illa.\n\nPalabras que terminan en -illo, -illa La lechera Juanita, con su cantarillo de leche, bien puesto a la cabeza sobre el cojinete, pensaba llegar sin obstáculo a la ciudad. Caminaba a paso largo, ligera y con falda de vuelos, pues solo se había puesto, para estar más ágil, el refajillo y las sandalias.\n\nAsí equipada, revolvía en su imaginación lo que sacaría de la leche y la manera de emplearlo. Compraba un centenar de huevos, hacía tres polladas; con su asiduo cuidado, todo iba bien.\n\n—Cosa fácil es —decía—, criar los polluelos alrededor\n\nde la casa; por muy lista que ande la raposa, me dejará bastantes para comprar un cerdo. Engordarlo es cuestión de un poco de salvado. Cuando lo compré ya era bastante grande; al revenderlo, me valdrá muy buen dinero. Y ¿quién me impedirá, valiéndome tanto, meter en el establo una buena vaca con su becerrillo, y verlo triscar en medio del rebaño?\n\nAl decir esto, Juanita brinca también, llena de gozo.\n\nCae el cántaro y se derrama la leche. ¡Adiós vaca y becerro! ¡Adiós cochino! ¡Adiós polluelos!\n\nLa dueña de tantos bienes, mirando con ojos afligidos su fortuna por los suelos…\n\nLa Fontaine Socializamos lo que encontramos y comentamos qué enseñanza nos dejó la historia de la lechera.\n\nemana 2 Construcción ¿Sabías que…?¿Sabías que…?\n\nLas palabras terminadas en\n\n-illa e -illo por\n\nlo general se escriben con ll.\n\nEjemplo: costilla, dedillo, entre otras.",
+      "charCount": 1533
+    },
+    {
+      "pageNumber": 133,
+      "text": "132\n\n4. Actividad con docente\n\nLeemos la fábula y subrayamos las palabras que describen a los personajes.\n\nLa creación de personajes de fábula Bondad de lo sencillo La lámpara de noche, desde su pantalla pulida y resplandeciente, se dirigió a la vieja almohada de algodón, diciéndole más o menos lo siguiente:\n\n—Yo soy tan útil a mi dueño que todos los días, unos momentos antes de\n\ndormirse, se acerca a mi radiante claridad para leer siquiera una página de su libro favorito…Esa devoción diaria me llena de orgullo…\n\nY la almohada, sin abandonar su suave actitud, le respondió:\n\n—Pues, después de que usted se apaga, mi dueño descansa en mí su\n\ncabeza, y así lo acompaño noche tras noche…\n\nDavid Escobar Galindo (adaptación) Describimos los personajes y los comentamos con la clase.\n\nRecordemos que los personajes de fábula deben enseñarnos algo; un personaje puede resaltar cualidades positivas y el otro puede resaltar cualidades negativas.",
+      "charCount": 944
+    },
+    {
+      "pageNumber": 134,
+      "text": "133\n\nUnidad 3Unidad 3Unidad 8\n\nDescribimos a los dos personajes, atribuyéndoles características humanas.\n\nSocializamos con los demás los personajes que elaboramos y compartimos sus enseñanzas.\n\n5. Actividad en pares\n\nPlanificamos la creación de dos personajes para fábula; pueden ser animales u objetos. Primero los dibujamos.\n\nPersonaje 1 Personaje 2 Descripción del personaje 1 Descripción del personaje 2 Textualización emana 2 Recuerda...Recuerda…\n\nTomamos en cuenta características físicas y cualidades morales.",
+      "charCount": 516
+    },
+    {
+      "pageNumber": 135,
+      "text": "134\n\n6. Actividad con docente\n\nLeemos.\n\nLas señales del entorno El señor zorro ha viajado en el tiempo, ha llegado a la ciudad y ve muchas señales que no sabe para qué sirven.\n\nEncerramos en un círculo todas las señales que identificamos.\n\nLeemos y socializamos sobre los tipos de señales y para qué sirven.\n\nSeñales reglamentarias Señales preventivas Señales informativas Indican vías de acceso y prohibiciones.\n\nAdvierten la existencia de peligros de la naturaleza antes de llegar a ellos.\n\nGuían el camino a seguir y muestran lugares que se pueden encontrar más adelante.",
+      "charCount": 574
+    },
+    {
+      "pageNumber": 136,
+      "text": "135\n\nUnidad 3Unidad 3Unidad 8\n\nConversamos sobre las señales que conocemos en nuestro entorno.\n\nLeemos y socializamos los propósitos de las señalizaciones.\n\n7. Actividad en pares\n\nEnlazamos las señales con el significado que corresponde.\n\nGasolinera Zona escolar Prohibido pitar Hospital No bicicletas Semáforo H emana 2 Informar Prevenir Prohibir Proporcionan datos sobre nombres o direcciones para identificar lugares y servicios, etc. Se identifican porque son de color azul con fondo blanco.\n\nAdvierten que existen algunas situaciones peligrosas para las personas y se identifican por el color amarillo.\n\nInforman a las personas sobre lo que no está permitido hacer y se identifican por el color rojo.",
+      "charCount": 705
+    },
+    {
+      "pageNumber": 137,
+      "text": "136\n\na. Describo y dibujo un personaje de fábula; puede ser un animal.\n\n8. Actividad individual\n\nPlanifico.\n\na. Reviso que las características sean breves, pero que describan lo\n\nsuficiente a nuestro personaje.\n\nb. Verifico que no se repitan palabras y utilizo sinónimos.\n\nc. Reviso que las palabras estén bien escritas.\n\nPublico.\n\na. Socializo con la clase los personajes que dibujamos y describimos.\n\nb. Converso sobre ellos y las enseñanzas que nos dejan sobre el uso de las\n\nseñales del entorno.\n\nReviso.\n\nPersonaje Describo al personaje 1 Consolidación",
+      "charCount": 557
+    },
+    {
+      "pageNumber": 138,
+      "text": "137\n\nUnidad 3Unidad 3Unidad 8\n\nSocializo con la clase mis respuestas.\n\n9. Actividad en pares\n\nInvestigamos y escribimos el propósito de las siguientes señales.\n\nActividad en casa\n\n• Elaboro una señal preventiva y otra informativa. Las coloco en\n\ncasa donde sea necesario. Tomo evidencia de las señales hechas para llevar a la próxima clase.\n\n• Converso en clase sobre las señales que elaboré y la importancia\n\nde tomarlas en cuenta.\n\n• Buscamos empaques o etiquetas de productos de alimentos y de\n\nlimpieza para presentarlos en la próxima clase.\n\nPropósito:\n\nPropósito:\n\nPropósito:\n\nemana 2",
+      "charCount": 590
+    },
+    {
+      "pageNumber": 139,
+      "text": "138\n\n1. Actividad con docente\n\nLeemos.\n\nSocializamos nuestras respuestas con la clase.\n\nJuanita la lechera, ha viajado en el tiempo y ha descubierto otros mercados. Ella quiere saber dónde hacemos nuestras compras y en qué nos fijamos a la hora de elegir nuestros productos.\n\nConversamos y respondemos.\n\n¿Dónde adquirimos los alimentos? ¿Qué revisamos en los productos?\n\nMarcamos con X el lugar que frecuentamos con la familia.\n\nEl mercadito Huerto comunitario El supermercado Anticipación\n\nUnidad 3Producto",
+      "charCount": 507
+    },
+    {
+      "pageNumber": 140,
+      "text": "139\n\nUnidad 3Unidad 3Unidad 8\n\nJuanita quiere vender leche en el supermercado, pero la debe pasteurizar y empacar.\n\n¿Qué debe llevar el empaque de la leche? ________________________________ Leemos y respondemos.\n\nObservamos la información que debe contener una etiqueta.\n\nBuscamos en el centro escolar etiquetas de productos y verificamos si contienen todos los datos necesarios en la etiqueta.\n\nEscribimos las partes de la etiqueta que dicta mi docente.\n\nParte frontal Lateral derecho Parte posterior emana 3 DATOS TRADICIONALES Cantidad por porción %Valor diario Total grasa 15% Grasa totales 9% Grasa trans 10% Colesterol 8% Sodio 3% Total Carbohidratos 20% Fibra de dieta 3% Azúcar 5% Proteína 9%",
+      "charCount": 700
+    },
+    {
+      "pageNumber": 141,
+      "text": "140 Producto: Una etiqueta de producto Unimos las partes de la etiqueta con la información que corresponde.\n\nSocializamos nuestras respuestas con la clase.\n\nAgregamos las instrucciones de conservación del producto y el lugar de elaboración.\n\n2. Actividad en pares\n\nLeemos.\n\nA Juanita le han encantado las galletas empaquetadas, pero estas no contienen toda la información necesaria.\n\nIngredientes Jugo Acidul Nombre del producto Azúcar, agua, fresa y melón Fecha de elaboración El Salvador Íconos 17/12/2023 País de fabricación Construcción\n\nUnidad 3Producto",
+      "charCount": 558
+    },
+    {
+      "pageNumber": 142,
+      "text": "141\n\nUnidad 3Unidad 3Unidad 8\n\nReflexionamos sobre los alimentos que consumimos.\n\na. ¿Consumimos alimentos saludables? ¿Por qué?\n\nb. ¿Consumimos alimentos poco saludables? ¿Por qué?\n\nSocializamos en clase lo que investigamos sobre el contenido de los productos.\n\n3. Actividad en equipo\n\nInvestigamos y escribimos los ingredientes de los productos y marcamos cuál es saludable.\n\nYogur Ingredientes:\n\nBebida con soda Ingredientes:\n\nFrituras Ingredientes:\n\nfresa Soda Refresco emana 3",
+      "charCount": 481
+    },
+    {
+      "pageNumber": 143,
+      "text": "142 Verificamos con los demás lo que identificamos y escribimos.\n\nRecolectamos etiquetas de productos de alimentos y de limpieza, y los pegamos en el cuaderno.\n\nSocializamos en la clase las etiquetas que recolectamos.\n\nLos productos de limpieza también contienen etiquetas que siempre debemos leer antes de comprar y usar.\n\n• Nombre del producto\n\n• Ingredientes\n\n• Instrucciones de uso y conservación\n\n• Fecha de elaboración y vencimiento\n\n• País de origen\n\n• Advertencias\n\nIdentificamos y escribimos los nombres en cada etiqueta del producto de limpieza.\n\n4. Actividad en pares\n\nLeemos la información.\n\nAntibacterial Con hidratantes Hecho en El Salvador Descargue en sus manos, mójelas según necesite, masajee por 15 segundos, enjuague y seque las manos.\n\nAgua, sodio lauret sulfato, glicerina, acido cítrico, fragancia.\n\nPara uso externo únicamente.\n\nCuando use este producto evite el contacto con los ojos; en caso de contacto, enjuague con abundante agua.Deja sus manos suaves y frescas\n\nF. 27/05/21\n\nV.27/05/24\n\nUnidad 3Producto",
+      "charCount": 1033
+    },
+    {
+      "pageNumber": 144,
+      "text": "143\n\nUnidad 3Unidad 3Unidad 8\n\nEscribimos en el siguiente espacio la etiqueta, completando los elementos.\n\n5. Actividad en pares\n\nElaboramos etiquetas de productos.\n\nPlaneamos la escritura de una etiqueta ya sea de alimento o un producto de limpieza.\n\nNombre: Instrucciones de conservación o de uso:\n\nElementos de la etiqueta Ingredientes:\n\nFecha: País de origen: Ícono:\n\nTextualización Planificación Revisión Leemos nuevamente lo que escribimos para verificar que no falten elementos que contiene la etiqueta de un producto.\n\nemana 3",
+      "charCount": 534
+    },
+    {
+      "pageNumber": 145,
+      "text": "144\n\n6. Actividad individual\n\nSelecciono una etiqueta de las que traje de casa y escribo lo que corresponde.\n\nReviso si escribí bien todas las palabras de la etiqueta.\n\nNombre: Tabla nutricional:\n\nIngredientes:\n\nFecha:\n\nPaís de origen:\n\nÍcono:\n\nConsolidación\n\nUnidad 3Producto",
+      "charCount": 276
+    },
+    {
+      "pageNumber": 146,
+      "text": "145\n\nUnidad 3Unidad 3Unidad 8\n\n7. Actividad individual\n\nSelecciono un producto y escribo la etiqueta correspondiente.\n\nActividad en casa\n\n• Busco y recorto en periódicos noticias deportivas o de ciencias.\n\nNombre: Tabla nutricional:\n\nIngredientes:\n\nFecha:\n\nPaís de origen:\n\nÍcono:\n\nEvaluación Marcamos con una X según corresponda.\n\nCriterios Logrado En proceso Presenta todos los apartados de una etiqueta.\n\nDetalla los componentes del producto.\n\nContiene una redacción clara y libre de errores.\n\nSocializamos con los demás la etiqueta que elaboramos.\n\nemana 3",
+      "charCount": 560
+    },
+    {
+      "pageNumber": 147,
+      "text": "146\n\n1. Actividad con docente\n\nLeemos la noticia. Respondemos de qué trata.\n\nComentamos qué estará afectando la vida de los pingüinos. Y continuamos con la lectura.\n\nTítular Entradilla Periodista Fecha Contenido de abril se celebra el Día Mundial de los Pingüinos, el cual busca desarrollar y llevar a cabo medidas que resulten efectivas para combatir las amenazas que invaden a esta especie animal.\n\nLos pingüinos son un Día Mundial de los Pingüinos: al menos 10 de 18 especies están amenazadas El cambio climático afecta de forma significativa a al menos un 33 % de la avifauna, y los pingüinos no se escapan de ello.\n\npor Rocío Martínez\n\n25 de abril de 2021 En DeVida Con la intención de aumentar la conciencia sobre la preservación, protección y cuidado de estas especies, cada 25 grupo de aves marinas a las que se les imposibilita volar, y que tienen hasta 18 diferentes especies, que de acuerdo a National Geographic, 10 de ellas se encuentran en amenaza, y 5 han sido catalogadas como «en peligro».\n\nAnticipación ¿Sabías que…?¿Sabías que…?\n\nLa noticia narra un hecho real y responde a las preguntas qué, cómo, quién, cuándo y por qué sucedió.",
+      "charCount": 1150
+    },
+    {
+      "pageNumber": 148,
+      "text": "147\n\nUnidad 3Unidad 3Unidad 8\n\nConversamos y respondemos.\n\na. ¿A quién está dirigida la noticia?\n\nb. ¿Quién escribió la noticia?\n\nEl calentamiento global, la contaminación de los océanos, la expansión de las especies invasoras y la sobrepesca, son parte de las situaciones que afectan al desarrollo de los pingüinos.\n\nEl cambio climático afecta de forma significativa a al menos un 33 % de la avifauna. La organización internacional Birdlife ha alertado sobre la situación de algunas especies, como el pingüino de las Galápagos, ya que pese a tener un poco más de 1200 ejemplares, podría acercarse a estar en peligro de extinción debido al aumento de temperatura…\n\nEsta iniciativa internacional Nombre del periódico fue ideada para concienciar a la humanidad sobre la importancia de proteger a estas aves, cuya población ha disminuido drásticamente en el último siglo.\n\nDiario El Salvador SEO/ emana 4 ¿Qué significa…?¿Qué significa…?\n\nAvifauna.\n\nConjunto de aves de un país o región.\n\nGalápagos. Reserva marina del Ecuador.\n\nConcienciar. Hacer que alguien sea consciente sobre algo.",
+      "charCount": 1083
+    },
+    {
+      "pageNumber": 149,
+      "text": "148\n\nc. ¿Qué se celebra el 25 de abril?\n\nd. ¿Qué son los pingüinos?\n\ne. ¿Qué está afectando la vida de los pingüinos?\n\nf. ¿Cómo podemos ayudar a los pingüinos para que no desaparezcan?\n\nDibujemos nuestra respuesta.\n\ng. ¿Cuál es el mensaje de la noticia?\n\nSocializamos nuestras respuestas con la clase.",
+      "charCount": 301
+    },
+    {
+      "pageNumber": 150,
+      "text": "149\n\nUnidad 3Unidad 3Unidad 8\n\nEl uso de v en palabras que terminan en -ívora, -ívoro\n\n2. Actividad en equipo\n\nLeemos la noticia y marcamos las palabras terminadas en -ívoro e -ívora.\n\nComentamos cuáles animales herbívoros conocemos.\n\nLos animales herbívoros, no los depredadores, se podrían estar enfrentando al mayor riesgo de extinción entre mamíferos, aves y reptiles, según un nuevo estudio en más de 44.000 especies vivas y extintas.\n\nLos hallazgos, publicados en la revista Science Advances , sugieren que los herbívoros han sufrido constantemente la mayor amenaza de extinción en la actualidad, el pasado reciente y el Pleistoceno tardío, más que las especies de cualquier otra posición en la red alimentaria...\n\nClarín Si bien los científicos hasta ahora se preocupaban más por la pérdida de los depredadores, una nueva investigación indica lo contrario.\n\n06/08/2020 13:28\n\n• Clarín.com\n\n• Internacional\n\nActualizado al 06/08/2020 13:28 Los animales herbívoros se pueden estar enfrentando al mayor riesgo de extinción entre todas las especies emana 4 Construcción ¿Sabías que…?¿Sabías que…?\n\nLas palabras que terminan en – ívoro o\n\n–ívora siempre se\n\nescriben con v.\n\nEsta terminación hace referencia a la alimentación de los seres vivos.\n\n¿Qué significa…?¿Qué significa…?\n\nHerbívoro.\n\nQue se alimenta de hierbas.",
+      "charCount": 1322
+    },
+    {
+      "pageNumber": 151,
+      "text": "150\n\n3. Actividad en pares\n\nRecordamos a los personajes de las fábulas que leímos.\n\nSocializamos y verificamos con nuestro docente las respuestas.\n\nCarnívoro Se alimenta de carne, insectos, reptiles, pequeños mamíferos y aves.\n\nHerbívoro Se alimenta de plantas.\n\nOmnívoro Se alimenta de toda sustancia orgánica (insectos, huevos, roedores y plantas).\n\nLa rana La cigüeña El buey En la vida real estos animales tienen diferentes dietas alimenticias y de acuerdo a lo que comen reciben un nombre. Seleccionamos de qué se alimentan.",
+      "charCount": 529
+    },
+    {
+      "pageNumber": 152,
+      "text": "151\n\nUnidad 3Unidad 3Unidad 8\n\n• Deporte • Ciencia o medioambiente\n\nTipos de noticias\n\n4. Actividad individual\n\nSubrayo la respuesta a la pregunta: ¿cuáles son los temas de las noticias que leí esta semana?\n\n5. Actividad con docente\n\nLeemos en voz alta y comentamos lo aprendido.\n\nLas noticias nos informan de acontecimientos que ocurrieron recientemente y, de acuerdo al contenido que abordan, tienen un propósito o mensaje específico. El emisor es quien escribe la noticia (el periodista) y el receptor es quien lee la noticia (los lectores). Y el canal de comunicación es el periódico impreso o digital.\n\nSocializamos sobre el tipo de noticias que nos llaman la atención.\n\nCompletamos los cuadros con el tipo de noticia que corresponde.\n\nInforman sobre problemas que afectan al planeta donde vivimos.\n\nCuentan sobre temas científicos, como el descubrimiento de algo o la creación de un nuevo medicamento para curar alguna enfermedad.\n\nInforman sobre el resultado de algún evento deportivo de una ciudad o país.\n\nemana 4",
+      "charCount": 1022
+    },
+    {
+      "pageNumber": 153,
+      "text": "152\n\n6. Actividad con docente\n\nLeemos la noticia y encerramos en un círculo quién la escribió.\n\nSalvadoreños ganan medalla de oro en el Clasificatorio Panamericano de Natación Los salvadoreños han destacado con la comunidad internacional, pues el evento deportivo se desarrolló en Clermont, Florida.\n\npor Rocío Martínez 2 de mayo de 2021 En DeDeportes Se trata de los salvadoreños Marcelo Acosta y Celina Márquez, quienes fueron coronados con medallas de oro la tarde de este domingo 2 de mayo.\n\nLos reconocimientos fueron otorgados en el Clasificatorio Panamericano de Natación, realizado en Clermont, Florida.\n\nAcosta ganó medalla de oro en los 1500 metros libres, con un tiempo de 15:22; y Márquez se coronó realizando los 200 metros dorso en un 2:14.\n\nDiario El Salvador Resolvemos en el cuaderno y comentamos.\n\na. ¿Qué ocurrió?, ¿dónde y cómo?\n\nb. ¿De quién se habla en la noticia?\n\nc. ¿Cuál es el propósito de la noticia?",
+      "charCount": 927
+    },
+    {
+      "pageNumber": 154,
+      "text": "153\n\nUnidad 3Unidad 3Unidad 8\n\nDía de la Tierra: la importancia de cuidar el ecosistema en el que vivimos El objetivo es recordar a la población del cuidado de todos los ecosistemas que hay sobre la tierra, y de los seres que la habitan por Iván Barahona 22 de abril de 2021 En DeVida Este 22 de abril se celebra el Día Internacional de la Tierra. El impulsor de esta conmemoración fue el senador y activista estadounidense Gaylord Nelson, quien buscó crear conciencia sobre los grandes problemas del mundo: la sobrepoblación, la contaminación y la importancia de la conservación de la biodiversidad.\n\nLa fecha fue escogida debido a que, en ese entonces, en Estados Unidos, la semana del 19 al 25 de abril no coincidía con exámenes o vacaciones en las universidades (ni tampoco con celebraciones religiosas), así que podía ser el momento ideal para que tanto maestros como estudiantes se encontraran en torno a esta importante conmemoración.\n\nEl objetivo es recordar a la población del cuidado de todos los ecosistemas que hay sobre la tierra, y de los seres que la habitan.\n\nDiario El Salvador\n\n7. Actividad individual\n\nLeo la noticia y respondo las preguntas.\n\nemana 4 Consolidación",
+      "charCount": 1184
+    },
+    {
+      "pageNumber": 155,
+      "text": "154\n\na. ¿Qué fecha se celebra el día de la Tierra?\n\nb. ¿Quién impulsó la celebración?\n\nc. Según la noticia, ¿cuáles son los grandes problemas del mundo?\n\nd. ¿Qué puedo hacer para cuidar la Tierra?\n\ne. Completo el esquema.\n\nSocializamos y verificamos con nuestro docente las respuestas.\n\nEmisor Mensaje de la noticia Receptor o destinatario Canal",
+      "charCount": 345
+    },
+    {
+      "pageNumber": 156,
+      "text": "155\n\nUnidad 3Unidad 3Unidad 8\n\n• Identifico las características de un personaje\n\nde fábula.\n\n• Escribo sobre personajes de fábula con sus\n\ncaracterísticas.\n\n• Explico la prosopopeya o personificación.\n\n• Escribo etiquetas de productos con todos\n\nsus elementos.\n\n• Analizo noticias deportivas o científicas.\n\nAutoevaluación Coloreo 3 estrellas si lo he logrado, 2 si puedo hacerlo, pero debo mejorar, y una estrella si debo practicar más.\n\nInvestigo, recorto y pego una noticia deportiva, sobre el medioambiente o temas científicos.\n\nemana 4",
+      "charCount": 540
+    },
+    {
+      "pageNumber": 157,
+      "text": "156 Actividad en equipo Jugamos «Serpientes y escaleras».\n\nElementos Instrucciones.\n\nLanzamos un dado por turnos y según el número que caiga, avanzamos en las casillas. Quien cae en la cola de una víbora debe volver a donde está la cabeza y responder una pregunta sorpresa.\n\nQuien cae en la escalera puede adelantarse cruzándola, y responde otra pregunta. Quien llega primero a la meta cambia de rol y puede continuar leyéndoles las preguntas a los demás participantes.\n\n• Tablero\n\n• Semillas o corcholatas\n\n• Un dado\n\n• Preguntas\n\nPractico lo aprendido",
+      "charCount": 553
+    },
+    {
+      "pageNumber": 158,
+      "text": "157\n\nUnidad 3Unidad 3Unidad 8\n\nTranscribimos las preguntas en páginas de colores; recortamos y doblamos para que sean preguntas sorpresa.\n\nPreguntas:\n\n• ¿En qué consiste una fábula?\n\n• Menciona el título de una fábula que leíste.\n\n• Menciona un ejemplo de personificación.\n\n• ¿Por qué es importante leer la etiqueta de productos?\n\n• Menciona una palabra terminada en -illo o -illa.\n\n• ¿Cuál es el propósito de leer noticias deportivas o de temas científicos?\n\n• Menciona una palabra terminada en –ívoro o –ívora.\n\nAgregamos más preguntas.\n\nComentamos y socializamos con los demás cómo nos fue en el juego y qué nos gustó del juego y de la unidad 8.",
+      "charCount": 648
+    },
+    {
+      "pageNumber": 159,
+      "text": "158 Fuentes en línea Barreda, O. (2018). Texto dramático. Representación teatral. Talleres de Lenguaje y Comunicación. México.\n\nLópez, N, y SaLmeróN, r. (2009). El oso cansado. Alfaguara. México.\n\nmaSSOta, O. (1982). La historieta en el mundo moderno. Barcelona. Editorial Paidós.\n\nmiNiSteriO de educacióN (2007). Lenguaje, Colección Cipotas y Cipotes. San Salvador.\n\n— (s.f). Habilidades comunicativas I. ESMA, San Salvador.\n\n— (s.f). Habilidades comunicativas II. ESMA, San Salvador.\n\nQuiNtaNaL, J; mirafLOreS, e. (2008). Educación Primaria: Orientaciones y recursos metodológicos para una enseñanza de calidad. Madrid: Editorial CCS. reaL academia eSpañOLa (2010). Ortografía escolar de la lengua española. Asociación de la lengua española. España.\n\nSiNger, d. y SiNger, J. (2001). Trabajando con la imaginación. Juegos y actividades para fomentar el juego imaginativo en niños pequeños. México. Editorial Trillas.\n\nzea, a. (2009). Ensalada de frutas. Guatemala, Piedra Santa.\n\nautOreS VariOS (S.f.). Obras de teatro cortas para niños. En línea: https://cutt.ly/jWYVMGA Barraza mOLiNa, e. (2006). La historieta y su uso como material didáctico para la ense - ñanza de la historia en el aula. Perspectiva Educacional, Formación de Profesores, núm. 47, 2006, pp. 73-97. Pontificia Universidad Católica de Valparaíso Viña del Mar, Chile.\n\ncOLOríN cOLOradO (2020). El comic para niños. En línea: https://cutt.ly/cWYBbvP de La fONtaiNe, J. (S.f). Fábulas. Biblioteca Digital. México. En línea: En línea:\n\nhttps://cutt.ly/RWYNw6H didO, J. (2010). Teoría de la fábula. En línea: https://cutt.ly/CRD4mq1 https://cutt.ly/vRD85K1 JuNta de aNdaLucía (S.f.). El comic. En línea: https://cutt.ly/vWYV8E0 miNiSteriO de cuLtura (2017). Leer es mi cuento. Fábulas de Samaniego. Colombia. En línea: https://cutt.ly/AWYNoO8 ruiz, r. (2009). El teatro infantil. Innovación y Experiencias Educativas. No. 15. En línea: https://cutt.ly/ZWYVGW2 Referencias",
+      "charCount": 1937
+    },
+    {
+      "pageNumber": 160,
+      "text": "159\n\nUnidad 3Unidad 3Unidad 8\n\nPara:Para:\n\nDocenteDocente ______________________________ FechaFecha ________________________________ Por aprender a leer escritos literarios, interpretar textos Por aprender a leer escritos literarios, interpretar textos orales, hacer dramatizaciones, crear historietas y elaborar orales, hacer dramatizaciones, crear historietas y elaborar carteles informativos en Segundo grado.carteles informativos en Segundo grado.",
+      "charCount": 451
+    },
+    {
+      "pageNumber": 161,
+      "text": "160",
+      "charCount": 3
+    },
+    {
+      "pageNumber": 162,
+      "text": "2Comunicación Comunicación Libro de texto Tomo 1 Tomo 2",
+      "charCount": 55
+    }
+  ]
+}

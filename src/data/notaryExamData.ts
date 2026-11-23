@@ -4535,8 +4535,8 @@ export const NOTARY_EXAM_QUESTIONS: NotaryQuestion[] = [
     "id": "not-162",
     "category": "mercantil",
     "topic": "Sociedad por Acciones Simplificada (S.A.S.) y Régimen Especial",
-    "legalBasis": "Reformas al Código de Comercio y Ley de Sociedades por Acciones Simplificadas",
-    "statement": "Con las reformas mercantiles que crearon la Sociedad por Acciones Simplificada (S.A.S.) en El Salvador, ¿cuál es la principal flexibilización en su constitución?",
+    "legalBasis": "Código de Comercio, Capítulo VIII-Bis (Arts. 305-A y sigs., incorporado por D.L. N.° 905) y prórroga arancelaria hasta el 31 de diciembre de 2027",
+    "statement": "Con la incorporación de las Sociedades por Acciones Simplificadas (S.A.S.) al Código de Comercio de El Salvador (D.L. N.° 905, Capítulo VIII-Bis, Arts. 305-A y sigs.), ¿cuál es la principal flexibilización en su constitución y capital mínimo?",
     "options": [
       {
         "key": "A",
@@ -4544,7 +4544,7 @@ export const NOTARY_EXAM_QUESTIONS: NotaryQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Puede constituirse por una sola persona (unipersonal) o varias personas naturales o jurídicas mediante documento privado con certificación notarial de firmas o en escritura pública, sin exigir el capital mínimo fundacional de dos mil dólares."
+        "text": "Puede constituirse desde un solo accionista (unipersonal) o varios mediante formularios especiales del Registro de Comercio (CNR) sin necesidad de escritura pública, con capital mínimo de $1.00 USD y gratuidad arancelaria prorrogada hasta el 31 de diciembre de 2027."
       },
       {
         "key": "C",
@@ -4556,8 +4556,8 @@ export const NOTARY_EXAM_QUESTIONS: NotaryQuestion[] = [
       }
     ],
     "correctKey": "B",
-    "explanation": "La Ley de Sociedades por Acciones Simplificadas modernizó el régimen societario salvadoreño: permite la S.A.S. unipersonal o pluripersonal, se formaliza por documento privado autenticado o escritura matriz y no impone el capital mínimo rígido de $2,000 USD, agilizando el emprendimiento formal.",
-    "csjPrecedent": "Criterio Registral CNR: Las Sociedades por Acciones Simplificadas (S.A.S.) se inscriben en el Registro de Comercio mediante documento privado autenticado notarialmente o instrumento público."
+    "explanation": "El D.L. N.° 905 incorporó la Sociedad por Acciones Simplificada (S.A.S.) al Código de Comercio (Capítulo VIII-Bis, Arts. 305-A y sigs.): permite constituirla desde un solo accionista mediante formularios especiales del Registro de Comercio (CNR) sin necesidad de escritura pública, con un capital mínimo de $1.00 USD y prórroga de gratuidad arancelaria vigente hasta el 31 de diciembre de 2027.",
+    "csjPrecedent": "Criterio Registral CNR: Conforme al Capítulo VIII-Bis del Código de Comercio (D.L. N.° 905), las S.A.S. se constituyen e inscriben en el Registro de Comercio mediante formularios especiales del CNR sin requerir escritura pública, con capital mínimo de $1.00 USD."
   },
   {
     "id": "not-163",
@@ -6113,7 +6113,7 @@ Los pilares normativos de esta disciplina comprenden:
     id: 'unit-not-05',
     number: 5,
     title: 'Práctica Societaria Mercantil y Formalización Notarial (Código de Comercio & SAS)',
-    legalFocus: 'Código de Comercio, Ley de Sociedades por Acciones Simplificadas (SAS) y CNR',
+    legalFocus: 'Código de Comercio (incl. Capítulo VIII-Bis S.A.S., D.L. N.° 905) y Registro de Comercio (CNR)',
     wordCount: 720,
     content: `La formalización notarial en el ámbito del Derecho Mercantil y Societario en El Salvador constituye un componente esencial y de recurrente evaluación en el Examen de Suficiencia Notarial de la Corte Suprema de Justicia. La función notarial cartular en materia societaria demanda un dominio exhaustivo del régimen corporativo, la estructuración de pactos sociales, la tipología de aportaciones dinerarias y en especie, la verificación de libros societarios y las reformas mercantiles contemporáneas, especialmente la incorporación legal de las Sociedades por Acciones Simplificadas (S.A.S.).
 
@@ -6123,7 +6123,7 @@ Los temas rectores de la práctica mercantil notarial comprenden:
 
 2. Modalidad de Capital Variable (S.A. de C.V.): La adopción del régimen de capital variable confiere flexibilidad financiera a la empresa, permitiendo aumentos y disminuciones de capital sin necesidad de reformar la escritura de constitución social, siempre que se efectúen dentro de los límites del capital mínimo y máximo prefijados en el pacto social mediante asamblea general de accionistas formalizada en libro social, o mediante protocolización de certificación de acta cuando se modifique el tramo fijo.
 
-3. La Sociedad por Acciones Simplificada (S.A.S.): Reforma mercantil emblemática que permite la constitución de sociedades de capital por una sola persona (unipersonal) o varios socios, reduciendo aranceles y simplificando estatutos constitutivos. El notario debe conocer los límites sustantivos de las SAS: no pueden cotizar en bolsa de valores ni realizar operaciones de intermediación financiera bancaria o de seguros, manteniendo la responsabilidad patrimonial limitada al monto de las acciones suscritas por cada accionista.
+3. La Sociedad por Acciones Simplificada (S.A.S.): Incorporada al Código de Comercio mediante D.L. N.° 905 (Capítulo VIII-Bis, Arts. 305-A y sigs.), permite la constitución de sociedades de capital desde un solo accionista (unipersonal) o varios socios mediante formularios especiales del Registro de Comercio (CNR) sin necesidad de escritura pública, con un capital mínimo de $1.00 USD y prórroga de gratuidad arancelaria vigente hasta el 31 de diciembre de 2027. El notario debe conocer además sus límites sustantivos: no pueden cotizar en bolsa de valores ni realizar operaciones de intermediación financiera bancaria o de seguros, manteniendo la responsabilidad patrimonial limitada al monto de las acciones suscritas por cada accionista.
 
 4. Modificación de Pacto Social, Fusión, Transformación y Disolución: Cualquier reforma a los estatutos sociales (cambio de denominación o domicilio, prórroga del plazo de vigencia, aumento de capital social fijo, absorción por fusión mercantil o disolución anticipada) requiere forzosamente acuerdo de asamblea extraordinaria formalizado en escritura pública notarial y su posterior inscripción en el Registro de Comercio para surtir plenos efectos jurídicos frente a terceros y acreedores.
 
@@ -6138,9 +6138,9 @@ Los temas rectores de la práctica mercantil notarial comprenden:
       },
       {
         number: 2,
-        title: 'Constitución formal notarial de Sociedad por Acciones Simplificada (S.A.S.) unipersonal',
-        description: 'Un profesional independiente constituye una empresa unipersonal bajo la figura de Sociedad por Acciones Simplificada (S.A.S.); el notario autoriza la escritura pública fijando un capital social de $500, estableciendo estatutos ágiles de administración individualizada y especificando el objeto social comercial e industrial lícito.',
-        legalArticle: 'Ley de Sociedades por Acciones Simplificadas y Código de Comercio.',
+        title: 'Constitución simplificada de Sociedad por Acciones Simplificada (S.A.S.) unipersonal ante el Registro de Comercio',
+        description: 'Un profesional independiente constituye una empresa unipersonal bajo la figura de Sociedad por Acciones Simplificada (S.A.S.) utilizando los formularios especiales del Registro de Comercio (CNR) sin necesidad de escritura pública, fijando un capital social mínimo desde $1.00 USD (o $500.00 USD), estableciendo administración individualizada, especificando el objeto social lícito y acogiéndose a la prórroga de gratuidad arancelaria vigente hasta el 31 de diciembre de 2027.',
+        legalArticle: 'Código de Comercio, Capítulo VIII-Bis (Arts. 305-A y sigs., incorporado por D.L. N.° 905).',
         notarialDraftTip: 'Hacer constar la prohibición expresa de realizar captación de fondos del público o emitir acciones en el mercado bursátil.'
       },
       {

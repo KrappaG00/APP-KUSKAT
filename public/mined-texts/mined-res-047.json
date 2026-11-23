@@ -1,0 +1,691 @@
+{
+  "id": "mined-res-047",
+  "title": "Cuaderno de Trabajo Ciencia y Tecnología 5.° Grado",
+  "filename": "Cuaderno de trabajo 5.° grado.pdf",
+  "docType": "Cuaderno de Ejercicios",
+  "materiaOriginal": "Ciencia y Tecnología",
+  "gradoOriginal": "5.° Grado",
+  "officialUrl": "https://www.mined.gob.sv/materiales/2026/CIENCIA_Y_TECNOLOGIA/3. Cuadernos de trabajo/Cuaderno de trabajo 5.° grado.pdf",
+  "status": "success",
+  "textCoverage": "full",
+  "totalPages": 82,
+  "extractedPages": 81,
+  "coverageRatio": 0.9878,
+  "totalChars": 60275,
+  "sectionCount": 37,
+  "mediaUrl": null,
+  "notice": null,
+  "sections": [
+    {
+      "id": "sec-001",
+      "title": "Unidad 1",
+      "startPage": 4,
+      "endPage": 4,
+      "level": 1
+    },
+    {
+      "id": "sec-002",
+      "title": "Semana 1: Mediciones con distintas magnitudes físicas 6",
+      "startPage": 5,
+      "endPage": 7,
+      "level": 1
+    },
+    {
+      "id": "sec-003",
+      "title": "Semana 1",
+      "startPage": 8,
+      "endPage": 9,
+      "level": 1
+    },
+    {
+      "id": "sec-004",
+      "title": "Semana 2",
+      "startPage": 10,
+      "endPage": 11,
+      "level": 1
+    },
+    {
+      "id": "sec-005",
+      "title": "Semana 3",
+      "startPage": 12,
+      "endPage": 13,
+      "level": 1
+    },
+    {
+      "id": "sec-006",
+      "title": "Semana 4",
+      "startPage": 14,
+      "endPage": 15,
+      "level": 1
+    },
+    {
+      "id": "sec-007",
+      "title": "Semana 5",
+      "startPage": 16,
+      "endPage": 17,
+      "level": 1
+    },
+    {
+      "id": "sec-008",
+      "title": "Unidad 2",
+      "startPage": 18,
+      "endPage": 19,
+      "level": 1
+    },
+    {
+      "id": "sec-009",
+      "title": "Semana 6",
+      "startPage": 20,
+      "endPage": 21,
+      "level": 1
+    },
+    {
+      "id": "sec-010",
+      "title": "Semana 7",
+      "startPage": 22,
+      "endPage": 23,
+      "level": 1
+    },
+    {
+      "id": "sec-011",
+      "title": "Semana 8",
+      "startPage": 24,
+      "endPage": 25,
+      "level": 1
+    },
+    {
+      "id": "sec-012",
+      "title": "Semana 9",
+      "startPage": 26,
+      "endPage": 27,
+      "level": 1
+    },
+    {
+      "id": "sec-013",
+      "title": "Semana 10",
+      "startPage": 28,
+      "endPage": 29,
+      "level": 1
+    },
+    {
+      "id": "sec-014",
+      "title": "Semana 11",
+      "startPage": 30,
+      "endPage": 31,
+      "level": 1
+    },
+    {
+      "id": "sec-015",
+      "title": "Unidad 3",
+      "startPage": 32,
+      "endPage": 33,
+      "level": 1
+    },
+    {
+      "id": "sec-016",
+      "title": "Semana 12",
+      "startPage": 34,
+      "endPage": 35,
+      "level": 1
+    },
+    {
+      "id": "sec-017",
+      "title": "Unidad 3Semana 13",
+      "startPage": 36,
+      "endPage": 37,
+      "level": 1
+    },
+    {
+      "id": "sec-018",
+      "title": "Semana 14",
+      "startPage": 38,
+      "endPage": 41,
+      "level": 1
+    },
+    {
+      "id": "sec-019",
+      "title": "Semana 15",
+      "startPage": 42,
+      "endPage": 43,
+      "level": 1
+    },
+    {
+      "id": "sec-020",
+      "title": "Unidad 4",
+      "startPage": 44,
+      "endPage": 45,
+      "level": 1
+    },
+    {
+      "id": "sec-021",
+      "title": "Semana 17",
+      "startPage": 46,
+      "endPage": 47,
+      "level": 1
+    },
+    {
+      "id": "sec-022",
+      "title": "Semana 18",
+      "startPage": 48,
+      "endPage": 49,
+      "level": 1
+    },
+    {
+      "id": "sec-023",
+      "title": "Semana 19",
+      "startPage": 50,
+      "endPage": 51,
+      "level": 1
+    },
+    {
+      "id": "sec-024",
+      "title": "Unidad 4Escribamos fórmulas químicas",
+      "startPage": 52,
+      "endPage": 53,
+      "level": 1
+    },
+    {
+      "id": "sec-025",
+      "title": "Unidad 5",
+      "startPage": 54,
+      "endPage": 55,
+      "level": 1
+    },
+    {
+      "id": "sec-026",
+      "title": "Semana 21",
+      "startPage": 56,
+      "endPage": 57,
+      "level": 1
+    },
+    {
+      "id": "sec-027",
+      "title": "Semana 22",
+      "startPage": 58,
+      "endPage": 59,
+      "level": 1
+    },
+    {
+      "id": "sec-028",
+      "title": "Semana 23",
+      "startPage": 60,
+      "endPage": 63,
+      "level": 1
+    },
+    {
+      "id": "sec-029",
+      "title": "Semana 25",
+      "startPage": 64,
+      "endPage": 65,
+      "level": 1
+    },
+    {
+      "id": "sec-030",
+      "title": "Unidad 6",
+      "startPage": 66,
+      "endPage": 67,
+      "level": 1
+    },
+    {
+      "id": "sec-031",
+      "title": "Semana 26",
+      "startPage": 68,
+      "endPage": 69,
+      "level": 1
+    },
+    {
+      "id": "sec-032",
+      "title": "Unidad 6Semana 27",
+      "startPage": 70,
+      "endPage": 71,
+      "level": 1
+    },
+    {
+      "id": "sec-033",
+      "title": "Semana 28",
+      "startPage": 72,
+      "endPage": 73,
+      "level": 1
+    },
+    {
+      "id": "sec-034",
+      "title": "Semana 29",
+      "startPage": 74,
+      "endPage": 75,
+      "level": 1
+    },
+    {
+      "id": "sec-035",
+      "title": "Unidad 6Semana 30",
+      "startPage": 76,
+      "endPage": 77,
+      "level": 1
+    },
+    {
+      "id": "sec-036",
+      "title": "Unidad 6Semana 31",
+      "startPage": 78,
+      "endPage": 79,
+      "level": 1
+    },
+    {
+      "id": "sec-037",
+      "title": "Semana 32",
+      "startPage": 80,
+      "endPage": 82,
+      "level": 1
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "5 5 TELURIO Te (52) Ciencia y TecnologíaCuaderno de trabajo Cuaderno de trabajo Ciencia y Tecnología",
+      "charCount": 100
+    },
+    {
+      "pageNumber": 2,
+      "text": "Este cuaderno pertenece a: ________________________________________ 5 TELURIO Te (52) Ciencia y Tecnología Cuaderno de trabajo 5Ciencia y TecnologíaCuaderno de trabajo",
+      "charCount": 167
+    },
+    {
+      "pageNumber": 3,
+      "text": "Segunda edición, Ministerio de Educación, Ciencia y Tecnología, San Salvador, El Salvador, 2022.\n\nTercera reimpresión 2025.\n\nDerechos reservados. Prohibida su venta y su reproducción con fines comerciales por cualquier medio, sin previa autorización del MINEDUCYT .\n\nEdición Martha Alicia Artiga Hernández Jorge Alfredo Ávila Moreno Óscar Mauricio Olmedo Martínez Autoría Oscar Armando Aguilar Ayala Nathalie Carmelina Galicia Shul Adela Melissa Martínez de Guirola Katherine Michelle Hernández Vásquez Óscar Mauricio Olmedo Martínez William Alexander Larín Escobar Corrección de textos Carlos Eduardo Ruiz Serrano Jefe del Departamento de Materiales Educativos Julio Adolfo Castellanos Diseño editorial y diagramación Sara Elizabeth Ortiz Marquez Elmer Rodolfo Urquía Peña Boanerges Antonio Sigüenza Santos Ilustración general Ernesto Escobar Jacqueline Rebeca López\n\n372.357 045\n\nC569 Ciencia y tecnología 5: cuaderno de trabajo / Oscar Armando Aguilar Ayala, Nathalie Carmelina Galicia Shul, Adela Melissa Martínez de slv Guirola, Katherine MIchelle Hernández Vásquez, Oscar Mauricio Olmedo Martínez, William Alexander Larín Escobar; corrección de textos Marisol Torres; Ana Esmeralda Cárdenas; edición Martha Alicia Artiga Hernández, Jorge Alfredo Ávila Moreno, Oscar Mauricio Olmedo Martínez; diseño editorial y diagramación Sara Elizabeth Ortiz Marquez, Elmer Rodolfo Urquía Peña, Boanerges Antonio Sigüenza Santos; Ilustraciones Ernesto Escobar, Jacqueline Rebeca López, .–– 2.a ed.–– San Salvador, El Salv. :\n\nMinisterio de Educación, Ciencia y Tecnología, 2022.\n\n80 p. : il. ; 28 cm.\n\nISBN: 978-99983-56-61-0 <Impreso>\n\n1. Ciencias–Libros de texto. 2. Ciencia y Tecnología–Libros de\n\ntexto. 3. Educación primaria–Enseñanza. I. Aguilar Ayala, Oscar Armando, 1987– cout. II. Título.\n\nBINA/jmh Edgar Eliseo Alvarenga F.\n\nViceministro de Educación y de Ciencia y Tecnología, ad honorem Edgard Ernesto Ábrego Cruz Director General de Educación Wilfredo Alexander Granados Paz Director de Currículo y Materiales Educativos Karla Edith Trigueros Capitán y Doctora Ministra de Educación, Ciencia y Tecnología Marcela Isabel Hernández González Directora de Educación Primaria, en funciones Tonatiuh Eddie M. Orantes Ramos Jefe del Departamento de Ciencia y Tecnología",
+      "charCount": 2267
+    },
+    {
+      "pageNumber": 4,
+      "text": "En esta unidad aprenderemos a:\n\nMedir directamente magnitudes físicas en las unidades del SI.\n\nCalcular magnitudes físicas derivadas a partir de unidades fundamentales del SI.\n\nUsar cifras signiﬁcativas, técnicas de redondeo y notación cientíﬁca.\n\nComparar entre precisión y exactitud de un instrumento de medida.\n\nIdentiﬁcar fuentes de error al utilizar instrumentos de medición.\n\nEje integrador: Organización Magnitudes físicas\n\nUnidad 1\n\nDuración de la Unidad: 5 semanas Nombre y número de la unidad.\n\nPerspectiva de las temáticas.\n\nAprendizajes que alcanzarás al desarrollar la unidad.\n\nTiempo estimado que dedicarás a la unidad.\n\nPresentan la siguiente información:\n\nEn tu cuaderno de trabajo para quinto grado encontrarás todo listo y ordenado para responder a las preguntas, tomar apuntes y colocar los resultados de las prácticas planteadas en tu libro de texto.\n\nConoce tu Cuaderno de trabajo Entradas de unidadA Te permiten llevar un registro ordenado de procedimientos, respuestas y resultados.Espacios de trabajo B Tu cuaderno está enlazado con tu libro. Las flechas circulares te indican la página exacta para regresar al libro. Los puntos te indican el momento de la semana te encuentras.\n\n1. Notas y respuestas\n\nEncontrarás ejemplos y espacios en blanco para anotar.\n\n2. Resultados\n\nNo necesitas elaborar tablas ni cuadrículas.\n\nYa estarán listas para ti.\n\np.\n\n24 Tus amigos también te acompañan.\n\nUnidad 5\n\n57 Creatividad\n\nSemana 22\n\nB. Simetría animal\n\n3. Completa el cuadro referente a las figuras de tu libro\n\nde texto.\n\nC. Ejes corporales del ser humano\n\n3. Completa los recuadros indicando a qué parte del cuerpo corresponde\n\nsegún el plano corporal.\n\nDescripciones:\n\nPlano frontal. Divide al cuerpo en:\n\nParte dorsal: Donde se encuentra la espalda.\n\nParte ventral: Donde se encuentra el abdomen.\n\nPlano sagital. Divide al cuerpo en:\n\nMitad izquierda, mitad derecha.\n\nPlano transversal. Divide al cuerpo en:\n\nParte anterior: Donde se encuentra la cabeza.\n\nParte posterior: Donde se encuentran los pies.\n\nMosca Estrella de mar Esponja de mar Animal ¿Cuántas partes similares observas?\n\n¿Es simétrico o asimétrico?\n\np.\n\n132 Plano frontal Plano sagital Plano transversal\n\np.\n\n133 3\n\nUnidad 1\n\n11Semana 3\n\nD. Notación científica\n\nCompleta el cuadro.\n\nb. 3.95 1 4.198 1 12.17 5\n\nRedondeado es:\n\nc. 18.94 3 12.713 5 Redondeado es:\n\nd. 36.72 4 4.5 5 Redondeado es:\n\np.\n\n21 Notación decimal Notación científica 500 2.8 3 105 43 000 000 5.21 3 1023\n\n0.000 003 1\n\n0.000 501\n\nComunicación 12 Indagación Creatividad\n\nA. Conversión de unidades de longitud\n\n3. Convierte las unidades con las que mediste el diámetro\n\ndel tapón (centímetros) a metros.\n\nB. Conversión unidades de volumen\n\n2. Convierte tus resultados a metros cúbicos (m\n\n3).\n\nC. Conversión de unidades de velocidad\n\n2. Convierte tus resultados a\n\nm s2 .\n\nMétodos de conversión\n\np.\n\n24\n\np.\n\n24\n\np.\n\n24",
+      "charCount": 2872
+    },
+    {
+      "pageNumber": 5,
+      "text": "4 Índice\n\nUnidad 1\n\nMagnitudes Físicas 5\n\nSemana 1: Mediciones con distintas magnitudes físicas 6\n\nSemana 2: Cálculo de magnitudes físicas derivadas 8\n\nSemana 3: Expresiones numéricas 10\n\nSemana 4: Métodos de conversión 12\n\nSemana 5: Métodos de precisión, exacti-tud y cálculo de error 14\n\nUnidad 5\n\nCiencias del espacio 53\n\nSemana 21: Big Bang 54\n\nSemana 22: Formación del sistema solar 57\n\nSemana 23: Evolución estelar 59\n\nSemana 24: Misiones espaciales 61\n\nSemana 25: Formación de la Tierra 63\n\nUnidad 3\n\nEstructura atómica 31\n\nSemana 12: ¿De qué está hecho todo lo que nos rodea? 32\n\nSemana 13: Cargas eléctricas y la estructura de la materia 35\n\nSemana 14: El núcleo del átomo 37\n\nSemana 15: ¿Dónde está el electrón? 40\n\nSemana 16: Distribución de electrones en el átomo 42\n\nUnidad 4\n\nTabla periódica. 43\n\nSemana 17: Lenguaje universal de la ciencia 44\n\nSemana 18: Organizando los elementos 47\n\nSemana 19: Propiedades periódicas 49\n\nSemana 20: Escribamos fórmulas químicas 51\n\nUnidad 2\n\nMecánica 17\n\nSemana 6 Magnitudes físicas del movi-miento (parte 1) 18\n\nSemana 7: Magnitudes físicas del movimiento (parte 2) 20\n\nSemana 8: Fuerza para trasladar y torque para rotar (parte 1) 22\n\nSemana 9: Fuerza para trasladar y torque para rotar (parte 2) 24\n\nSemana 10: Energía mecánica y su conser-vación (parte 1) 26\n\nSemana 11: Energía mecánica y su conser-vación (parte 2) 28\n\nUnidad 6\n\nCiencias de la Tierra 65\n\nSemana 26: El tiempo geológico 66\n\nSemana 27: Descubriendo los fósiles 68\n\nSemana 28: La tectónica de placas 70\n\nSemana 29: Actividad sísmica y volcánica 72\n\nSemana 30: Formación y características de los suelos 74\n\nSemana 31: Erosión de los suelos 76\n\nSemana 32: Uso de los suelos 78",
+      "charCount": 1694
+    },
+    {
+      "pageNumber": 6,
+      "text": "En esta unidad aprenderemos a:\n\nMedir directamente magnitudes físicas en las unidades del SI.\n\nCalcular magnitudes físicas derivadas a partir de unidades fundamentales del SI.\n\nUsar cifras signiﬁcativas, técnicas de redondeo y notación cientíﬁca.\n\nComparar entre precisión y exactitud de un instrumento de medida.\n\nIdentiﬁcar fuentes de error al utilizar instrumentos de medición.\n\nEje integrador: Organización Magnitudes físicas\n\nUnidad 1\n\nDuración de la Unidad: 5 semanas",
+      "charCount": 473
+    },
+    {
+      "pageNumber": 7,
+      "text": "6 Indagación\n\n3. Tabla de productos:\n\nA. Las unidades que nos rodean\n\n6. Registro.\n\na. Aproximadamente, ¿cuántas veces cabe el contenido de la botella de 1 L en la botella de 1 gal?\n\nb. ¿Hay unidades de medida más pequeñas que otras? Sí No\n\nSi es así, ¿cuál es la más pequeña y la más grande que encontraste?\n\nc. Si todas las unidades vistas cuantifican una misma magnitud, ¿por qué crees que usamos diferentes unidades? ¿Piensas que es adecuado?\n\np.\n\n9\n\n5. Anota los tiempos. Tiempo 1: Tiempo 2:\n\na. ¿El tiempo medido por ti y tu pareja fue el mismo? Sí No\n\nCreatividad\n\np.\n\n10 Mediciones con distintas magnitudes físicas Producto Cantidad de líquido Unidad de medida Producto Veces que cabe el líquido en la botella de 1 L Ej. Jugo 350 mililitro (ml) Ej. Jugo 2 veces\n\na. ¿Qué magnitud cuantifican las unidades que encontraste?\n\nB. Medición de magnitudes fundamentales",
+      "charCount": 870
+    },
+    {
+      "pageNumber": 8,
+      "text": "Unidad 1\n\n7\n\n7. Medidas.\n\nTemperatura 1: Temperatura 2:\n\na. ¿La temperatura que mediste con el termómetro tiene unidades del SI? Sí No\n\nb. ¿Qué unidad es?\n\nc. ¿Cuál es la temperatura corporal normal?\n\nd. ¿Está tu temperatura y la de tu compañero en ese rango?\n\nSí No\n\n10. Anota.\n\nMedida 1: Medida 2:\n\nSemana 1\n\nb. ¿Por qué crees que fueron diferentes?\n\nC. Medición de magnitudes derivadas\n\n3. Medida de la densidad del agua:\n\n6. Medida de la densidad del aceite:\n\n7. Mezcla de agua y aceite.\n\na. ¿Qué líquido flota sobre el otro?\n\nb. ¿Por qué piensas que sucede esto?\n\np.\n\n10\n\np.\n\n12",
+      "charCount": 583
+    },
+    {
+      "pageNumber": 9,
+      "text": "8 Indagación\n\nCalcula su volumen con la fórmula V 5 altura 3 ancho 3 largo\n\n5. Responde:\n\na. ¿Qué figura geométrica tiene un dado?\n\nb. Qué figura geométrica tiene la caja?\n\nc. ¿Crees que es posible calcular el volumen del dado midiendo únicamente una de sus aristas? Sí No:\n\n¿Por qué?\n\nA. Calculemos el volumen\n\n1. Arista 1: Arista 2: Arista 3:\n\n2. Calcula el volumen del dado utilizando la fórmula V 5 L3, o lo que es igual: V 5 altura 3 ancho 3 largo\n\nB. Cálculo de la rapidez\n\n4. Calcula la rapidez del carrito con la fórmula, .\n\nExpresa la distancia en centímetros y el tiempo en segundos.\n\nCreatividad\n\np.\n\n14 Cálculo de magnitudes físicas derivadas\n\n4. Alto: Ancho: Largo:\n\nv 5 dt\n\np.\n\n13\n\np.\n\n13",
+      "charCount": 702
+    },
+    {
+      "pageNumber": 10,
+      "text": "Unidad 1\n\n9\n\nSemana 2\n\nC. Cálculo de la densidad\n\n4. Anota las medidas.\n\nMasa (en g): Volumen (en ml):\n\nCalcula la densidad con la fórmula Vmt =\n\nD. Cálculo de la aceleración de la gravedad\n\n4. Medidas. Altura: Tiempo:\n\nCalcula la aceleración de la gravedad.\n\n8. Anota las medidas. Altura: Tiempo:\n\na. Calcula la aceleración de la gravedad.\n\nb. ¿El valor calculado en las dos experiencias fue similar? ¿Por qué?\n\n7. Anota las medidas. Masa: Volumen:\n\nCalcula la densidad.\n\na. Al comparar la densidad del agua que obtuviste en la lección anterior, ¿es similar? Sí: No:\n\np.\n\n15\n\np.\n\n16\n\np.\n\n15",
+      "charCount": 591
+    },
+    {
+      "pageNumber": 11,
+      "text": "10 Indagación\n\nA. Identifiquemos magnitudes físicas\n\n2. Completa la tabla.\n\na. ¿Cómo determinaste que un adjetivo es cuantificable?\n\nb. ¿Qué tienen en común los adjetivos cualitativos?\n\nExpresiones numéricas\n\nB. Mediciones con cifras significativas\n\n4. Anota tus medidas.\n\nC. Redondeo\n\n2. Redondea las siguientes operaciones de manera correcta:\n\na. 23.467 1 124.2 1 5.84 5 Redondeado es:\n\nCreatividad\n\np.\n\n18\n\np.\n\n20 Nombre Adjetivos cuantificables Adjetivos cualitativos Objeto a medir Cinta métrica Regla Ej. Raúl Altura 1.7 m Amable Cinta de zapatos Libro Cifras significativas",
+      "charCount": 580
+    },
+    {
+      "pageNumber": 12,
+      "text": "Unidad 1\n\n11\n\nSemana 3\n\nD. Notación científica\n\n2. Completa el cuadro.\n\nb. 3.95 1 4.198 1 12.17 5 Redondeado es:\n\nc. 18.94 3 12.713 5 Redondeado es:\n\nd. 36.72 4 4.5 5 Redondeado es:\n\np.\n\n22 Notación decimal Notación científica 500 2 3 105 43 000 000 5 3 1023\n\n0.000 003 1\n\n0.000 501\n\nComunicación\n\np.\n\n21",
+      "charCount": 304
+    },
+    {
+      "pageNumber": 13,
+      "text": "12 Indagación Creatividad\n\nA. Conversión de unidades de longitud\n\n3. Convierte los centímetros a metros.\n\nB. Conversión unidades de volumen\n\n2. Convierte tus resultados a metros cúbicos (m3).\n\nC. Conversión de unidades de rapidez\n\n2. Convierte tus resultados a ms .\n\nMétodos de conversión\n\np.\n\n24\n\np.\n\n24\n\np.\n\n24",
+      "charCount": 312
+    },
+    {
+      "pageNumber": 14,
+      "text": "Unidad 1\n\n13\n\nD. Conversión de unidades de densidad\n\n2. Convierte las unidades al SI.\n\nE. Conversión de unidades de temperatura\n\n3. Convierte los grados Celsius a grados Fahrenheit y a kelvin.\n\na. ¿Cuál de estas unidades de temperatura pertenece al SI?\n\nSemana 4\n\nUnidad 1\n\np.\n\n25\n\np.\n\n26",
+      "charCount": 288
+    },
+    {
+      "pageNumber": 15,
+      "text": "14 Indagación\n\nA. Tiro al blanco\n\n6. Registra y responde:\n\na. ¿Cuál representa exactitud baja y precisión alta?\n\nFigura A: Figura B: Figura C:\n\nb. ¿Cuál representa exactitud y precisión alta?\n\nFigura A: Figura B: Figura C:\n\nc. ¿Cuál representa exactitud alta y precisión baja?\n\nFigura A: Figura B: Figura C:\n\nd. ¿Cuál se parece más al registro de tus lanzamientos?\n\nFigura A: Figura B: Figura C:\n\ne. ¿Cómo fueron tus tiros en cuanto a precisión y exactitud?\n\nB. Midamos\n\n2. Medidas del libro con su error.\n\n3. Medidas de la pizarra con su error.\n\nMétodos de precisión, exactitud y cálculo de error\n\np.\n\n28 Creatividad\n\np.\n\n30\n\np.\n\n30 Instrumento Menor división del instrumento base 5 a ∆a altura 5 h ∆h Instrumento Menor división del instrumento base 5 a ∆a altura 5 h ∆h Regla de un metro Regla Cinta de coser Regla de un metro Regla Cinta de coser",
+      "charCount": 849
+    },
+    {
+      "pageNumber": 16,
+      "text": "15\n\nUnidad 1\n\nC. Calcula áreas considerando el error\n\n2. Calcula el área del tapón sin olvidar las reglas para el cálculo del\n\nerror.\n\n5. Medidas de la cancha con su error.\n\n4. Medidas de la puerta con su error.\n\nPuedes efectuar cálculos aquí:\n\nPuedes efectuar cálculos aquí:\n\nSemana 5\n\np.\n\n30\n\np.\n\n30\n\np.\n\n31 Instrumento Menor división del instrumento base 5 a ∆a altura 5 h ∆h Instrumento Menor división del instrumento base 5 a ∆a altura 5 h ∆h Regla de un metro Cinta de coser Regla de un metro Regla Cinta de coser",
+      "charCount": 519
+    },
+    {
+      "pageNumber": 17,
+      "text": "16\n\n3. Toma las medidas de la actividad anterior y calcula las áreas del libro, la pizarra, la puerta y la cancha, agregándoles el cálculo del error.\n\np.\n\n31",
+      "charCount": 157
+    },
+    {
+      "pageNumber": 18,
+      "text": "Eje integrador: Energía Mecánica\n\nUnidad 2\n\nEn esta unidad aprenderemos a:\n\nDeterminar la posición de un objeto con respecto a un marco de referencia.\n\nIdentiﬁcar una magnitud escalar de una vectorial.\n\nDiferenciar los movimientos rectilíneo uniforme y circular uniforme.\n\nIdentiﬁcar la energía potencial gravitatoria, la energía cinética y la energía potencial elástica en los objetos.\n\nExperimentar las leyes del movimiento del Newton.\n\nExplicar las diferencias entre los conceptos desplazamiento, trayectoria y distancia recorrida; y entre rapidez y velocidad.\n\nExperimentar las transformaciones de la energía cinética, la energía potencial gravitatoria y la energía potencial elástica.\n\nDuración de la Unidad: 6 semanas",
+      "charCount": 723
+    },
+    {
+      "pageNumber": 19,
+      "text": "18\n\nA. ¿Dónde está el objeto secreto?\n\n2. Escribe tres maneras de decir dónde está tu objeto secreto y léeselas a tres personas.\n\na. ¿Cómo le indicarías la\n\nubicación del dinosaurio a alguien que no está viendo?\n\nb. ¿Cómo indicarías la posición del tambor?\n\nc. ¿Y el control de videojuego?\n\nCreatividad\n\nB. La posición de los juguetes con respecto al carrito\n\nMagnitudes físicas del movimiento. Parte 1 Indagación Objeto Descripción Coordenadas Notación Barco Maracas Trompeta Avión\n\np.\n\n38\n\np.\n\n40\n\np.\n\n41\n\n3. Anota la descripción, coordenadas y notación para los objetos.",
+      "charCount": 573
+    },
+    {
+      "pageNumber": 20,
+      "text": "19\n\nUnidad 2\n\nC. ¿Cuáles son mis coordenadas en la superficie terrestre?\n\n4. Escribe las coordenadas de tu escuela y de otro lugar del mapa de El Salvador. Recuerda, puedes consultar Internet para comparar las lecturas del mapa. Escuela: Lugar:\n\na. Grafica las posiciones de cada objeto. Para ello, pon un punto y traza una flecha.\n\np.\n\n42\n\nSemana 6\n\nComunicación x-x y\n\n-y\n\n0 100 200-100-200 100 200\n\n-100\n\nx-x y\n\n-y\n\n0 100 200-100-200 100 200\n\n-100\n\nx-x y\n\n-y\n\n0 100 200-100-200 100 200\n\n-100\n\nx-x y\n\n-y\n\n0 100 200-100-200 100 200\n\n-100\n\nTrompeta Barco Avión Maracas",
+      "charCount": 568
+    },
+    {
+      "pageNumber": 21,
+      "text": "20\n\nB. La caída de la gota de agua en aceite\n\na ¿Cuál es el objeto en estudio?\n\nb ¿Qué distancia, en cm, tienen las marcas de la escala del eje Y?\n\nCreatividad Indagación Si un vehículo viaja en línea recta hacia la derecha a una velocidad m sv î...\n\nSi un ron ron gira en sentido antihorario en un círculo con eje fijo, a una velocidad angular de + 5 vueltas por segundo ...\n\n…se mantienen constantes: la rapidez 2 ms , y el vector +î. Por tanto, el objeto se mueve con movimiento rectilíneo uniforme (MRU).\n\n…se mantienen constantes: la rapidez angular 5 vueltass y el vector + k. Por tanto, el objeto se mueve con movimiento circular uniforme (MCU).\n\nDistancia (m) Tiempo (s) Velocidad Rapidez Dirección 2 1 2 ÷ 1 = +î 4 2 4 ÷ 2 = +î 8 4 8 ÷ 4 = +î 16 8 16 ÷ = 2 +î 16 ÷ 16 = 2 +î ÷ = 2 +î Distancia angular (vueltas) Tiempo (s) Velocidad angular Rapidez Dirección 5 1 5 ÷ 1 = + k 15 3 15 ÷ 3 = + k 45 9 45 ÷ 9 = + k 135 27 135 ÷ = 5 + k 81 ÷ 81 = 5 + k\n\np.\n\n44\n\np.\n\n44 Magnitudes físicas del movimiento. Parte 2\n\nA. ¿Cuáles son las cantidades uniformes en el MRU y MCU?\n\n1. Completa la información. Comienza primero por las tablas.\n\n÷ 1 3 4 2",
+      "charCount": 1146
+    },
+    {
+      "pageNumber": 22,
+      "text": "Unidad 2\n\n21\n\nSemana 7\n\nLa dirección de la velocidad es +ĵ porque el eje Y apunta hacia abajo.\n\np.\n\n45\n\nC. Experimentando el movimiento circular uniforme\n\n4. Registra el tiempo de rotación.\n\n6. Haz dos ensayos dejando caer una gota y completa la\n\ntabla.\n\nNúmero de vueltas Tiempo (s) Intento Numero de vueltas Tiempo (s) 1 1 15 2 10 3 20 ∆y =v\n\n5.00 cm ĵ Ensayo 1 Ensayo 2\n\n∆t (s) v ( )v ms Velocidad de caída\n\np.\n\n46\n\np.\n\n46\n\n5. Completa la tabla al contar el número de vueltas que rueda el objeto\n\ncircular para los siguientes tiempos:\n\nCalcula las revoluciones por minuto (rpm) con los datos obtenidos.",
+      "charCount": 605
+    },
+    {
+      "pageNumber": 23,
+      "text": "22 Indagación\n\n5. Responde:\n\na. ¿Cuál de los siguientes es el objeto de interés? La pinza para tender ropa, la ficha o el vaso.\n\nb. ¿Qué porcentajes se obtienen de los siguientes resultados? 1. El objeto sin voltearse cae al vaso y 2. El objeto se voltea al caer en el vaso.\n\nA. En búsqueda de una propiedad de la materia\n\nFuerza para trasladar y torque para rotar. Parte 1 Creatividad\n\nB. Fuerzas balanceadas y no balanceadas sobre un objeto\n\n5. Grafica en el sistema de coordenadas la dirección y el sentido, luego escribe el ángulo entre las fuerzas, las cuales tienen igual magnitud. Completa la tabla.\n\n7. Grafica en el sistema de coordenadas la dirección y el sentido, luego escribe el ángulo que forma las fuerzas de igual magnitud. Completa la tabla. Nombre del participante Describe la dirección y el sentido (+ î, - î, + ĵ, - ĵ ) de cada fuerza ( Fv ) Nombre del participante Describe la dirección y el sentido (+ î, - î ) de cada fuerza ( Fv ) F1v1:\n\nF1v2:\n\nF1v3:\n\nF1v4:\n\nF1v1:\n\nF1v2:\n\nEje Y (N) 0 Eje X (N) 0\n\np.\n\n49\n\np.\n\n49\n\np.\n\n49",
+      "charCount": 1044
+    },
+    {
+      "pageNumber": 24,
+      "text": "Unidad 2\n\n23\n\nSemana 8\n\n9. ¿Por qué es imposible mantener en reposo la botella cuando se hala con una cuerda?\n\n11. Completa los espacios en blanco de las oraciones con los términos: «igual», «aceleración», «mayor» o «fuerza».\n\na. Cuanto sea la masa de un objeto, debo aplicar mayor para\n\nmoverlo a aceleración.\n\nb. Para objetos de igual masa, debo aplicar fuerza para\n\nmoverlos a mayor .\n\nC. En sus marcas, listos: ¡fuera!\n\nD. Un par inseparable de fuerzas\n\n7. Responde todo lo que observas acerca de la inclinación del corcho usando los términos: «vertical», «hacia adelante», «hacia atrás» y «hacia mí: el centro de la circunferencia». Puedes usar más de un término.\n\na. En reposo (v 0=v v), ¿qué orientación tiene el corcho?\n\nb. ¿Cuáles son los tres movimientos del corcho?\n\nc. ¿Cuáles son los tres movimientos del corcho?\n\nd. ¿Hacia dónde se mueve el corcho?\n\n9. Responde lo que se te indica.\n\na. ¿Qué fuerza provoca el movimiento de el globo?\n\nb. ¿Qué fuerza provoca el movimiento de ese aire?\n\nc. Dibuja el globo (1) y el aire saliendo de ella (2) y con flechas representa las fuerzas.\n\np.\n\n50\n\np.\n\n51\n\np.\n\n52",
+      "charCount": 1115
+    },
+    {
+      "pageNumber": 25,
+      "text": "24 Punto Distancia (cm) Opinión del voluntario o voluntaria A B C\n\n5. Escribe los valores de las tres distancias horizontales medidas desde el eje de rotación de la hoja de la puerta hasta los puntos de aplicación A, B y C de la fuerza. Escribe todas las magnitudes físicas que afectan la opinión del voluntario o voluntaria.\n\nSi para los tres casos se cumplen estos dos supuestos de la puerta: 1) tiene reposo inicial y 2) recibe el mismo cambio de velocidad angular por unidad de tiempo, escribe: «menor», «mayor» o «indiferente» en los espacios en blanco de las afirmaciones.\n\n- A menor distancia desde el eje de rotación de la puerta, es la fuerza aplicada.\n\n- A distancia desde el eje de rotación de la puerta, es menor la fuerza aplicada.\n\nA. ¿Qué tan fácil o difícil es abrir o cerrar una puerta?\n\nFuerza para trasladar y torque para rotar. Parte 2 Creatividad\n\nB. ¿Podrías equilibrar las monedas sobre la regla?\n\na. ¿Debajo de cuál marca de la regla quedó el lápiz?\n\nb. Distancia desde el eje de rotación hasta los centros de las monedas:\n\nr1 moneda =\n\nc. Distancia entre el centro de la moneda y el eje de rotación de la regla:\n\nd. Distancia a la cual quedó el grupo de dos centavos respecto al eje de rotación:\n\nSustituye los valores en la expresión (P1 moneda) (r1 moneda) (P2 moneda) (r2 moneda):\n\np.\n\n55 Indagación\n\np.\n\n54",
+      "charCount": 1335
+    },
+    {
+      "pageNumber": 26,
+      "text": "Unidad 2\n\n25\n\nSemana 9\n\nC. Para rotar objetos, no hay nada mejor que el torque\n\nD. ¿Cómo esparcirías el agua de un huacal sin tocarla?\n\n7. Subraya la respuesta correcta.\n\n¿Qué magnitud física genera el movimiento rotativo del rociador?\n\nVelocidad angular - Distancia - Torque - Fuerza centrífuga.\n\nLee el siguiente texto y haz un diagrama de cómo lo imaginas.\n\n4. Completa la información que se indica.\n\na. Los literales A, B, C y D representan las situaciones ilustradas en el libro de texto. Escribe en los espacios en blanco «Movimiento de traslación» o «Movimiento de rotación» donde lo hayas observado.\n\nA:\n\nB:\n\nC:\n\nD:\n\nb. Dibuja en tu cuaderno, la flecha (haz una similar a las diseñadas abajo) que describe la dirección del movimiento de traslación o de rotación. Para el movimiento de rotación, traza una recta perpendicular al cuaderno en el punto de tu dedo.\n\nUsa la regla de la mano derecha para dibujar el vector torque sobre el eje de rotación.\n\nc. Dibuja con cuidado cada fuerza (oriéntala bien: ←,↑,→,↓) exactamente en los puntos del cuaderno donde la aplicaste y luego traza una línea recta punteada que prolongue la dirección de la fuerza hasta llegar al borde del cuaderno.\n\n«Mientras rota el rociador, el agua del huacal entra por los orificios de la parte inferior, y debido a la inercia del agua, esta es empujada hacia arriba por la pendiente dentro de la pajilla hasta que sale por los orificios superiores de las esquinas del rociador».\n\np.\n\n56\n\np.\n\n57",
+      "charCount": 1476
+    },
+    {
+      "pageNumber": 27,
+      "text": "26\n\nA. Descubriendo una propiedad más de algunos materiales\n\n2. ¿Cuántos centímetros se estira el resorte por cada peso que se cuelga? Completa la información de la tabla. (Se usó la densidad del agua a 4 ºC: 1 gcm3) Si el peso de 5 N está en reposo y lo haces oscilar, ¿qué valor de elongación final tendrá el resorte cuando no haya oscilación?\n\nSegún lo que has observado del resorte, ¿en qué se pueden parecer una pelota y un resorte cuando reciben una deformación?\n\nIndagación Creatividad\n\nB. ¿Creías que los resortes tenían una apariencia única?\n\n11. Escribe el valor de la velocidad inicial del objeto: = 0vi ,v ms = 0viv ms . Justifica tu elección.\n\nVolumen de agua Masa de agua m s2 ↓Peso = masa × 9.8 Elongación o estiramiento (↓) 0 mL 0 kg ms2 ↓0 kg × 9.8 = 0 N 0 cm 500 mL 0.5 kg ms2 ↓0.5 kg × 9.8 = 5 N hacia abajo 1000 mL (1 L) 1 kg 1500 mL (1.5 L) 1.5 kg 2000 mL (2 L) 2 kg Energía mecánica y su conservación. Parte 1\n\np.\n\n59",
+      "charCount": 939
+    },
+    {
+      "pageNumber": 28,
+      "text": "Unidad 2\n\n27\n\nSemana 10\n\nMasa Cantidad de pares de hules instalados Elongación adicional del hule Distancia recorrida del objeto 1 1\n\n1.0 cm\n\n1.0 cm\n\n1.0 cm\n\n1 1\n\n3.0 cm\n\n3.0 cm\n\n3.0 cm\n\n1 2\n\n1.0 cm\n\n1.0 cm\n\n1.0 cm\n\n1 2\n\n3.0 cm\n\n3.0 cm\n\n3.0 cm\n\nCompleta la tabla según el número del paso en que te encuentres.\n\n2. Haz los diagramas de energía de las actividades A y B de esta clase.\n\nEsquema de la actividad A: Esquema de la actividad B ¿Por qué en las elongaciones de 3.0 cm el objeto recorre menor distancia en una de ellas?\n\np.\n\n62\n\nC. Un método para rastrear la transferencia de energía entre objetos\n\nComunicación\n\np.\n\n61",
+      "charCount": 626
+    },
+    {
+      "pageNumber": 29,
+      "text": "28\n\nA. ¿Almacenan alguna energía los objetos que se hallan a cualquier altura\n\ndel suelo?\n\nB. El mejor lanzador de la clase\n\n2. Altura de la mesa:\n\n5. ¿Qué sucederá cuando la roca grande golpee la lata? ¿Qué sucederá cuando la roca pequeña golpee la lata?\n\n7. ¿Cuál de las rocas impacta en la lata con mayor energía cinética? ¿La roca de mayor o menor masa?\n\n¿La respuesta anterior la razonaste porque una de las rocas tiene mayor masa o porque una de las rocas impacta con mayor velocidad sobre la lata? De preferencia escoge solo una opción, no las dos.\n\nPon a prueba tu estrategia de lanzamientos de pelotas de pimpón para hacerlas entrar a un recipiente desde diferentes distancias. Utiliza la energía que tiene tu lanzador de proyectiles y trata de no fallar.\n\nTu docente dispondrá de algunos huacales o recipientes ubicados en diversas posiciones alrededor de tu equipo. Pueden hacer un sistema de puntaje.\n\nAhora que ya eres un experto lanzador, responde: ¿Por qué es cero la energía cinética de la pelota de pimpón si alcanza su altura máxima?\n\np.\n\n64 Energía mecánica y su conservación. Parte 2 Indagación Creatividad",
+      "charCount": 1126
+    },
+    {
+      "pageNumber": 30,
+      "text": "Unidad 2\n\n29\n\nSemana 11\n\nC. ¿Quién va más lejos?\n\nMide la masa y la altura de la pelota al detenerse, y encuentra el siguiente valor EPG = masa de una pelota × aceleración de la gravedad × altura.\n\nCompleta la información de las canicas pequeña y grande en la tabla.\n\na. ¿Cuánto vale la energía potencial gravitatoria de la canica grande antes de descender?\n\nEn la siguiente afirmación, escribe en los espacios en blanco: «energía potencial gravitatoria» o «energía cinética». Durante el descenso, la de la canica va disminuyendo, y simultáneamente la de la canica va aumentando.\n\nb. ¿Qué valor tiene la energía cinética de la canica pequeña antes de golpear el vaso?\n\nCanica pequeña Altura vertical Distancia que recorre el vaso Canica grande Altura vertical Distancia que recorre el vaso\n\np.\n\n65\n\np.\n\n66",
+      "charCount": 805
+    },
+    {
+      "pageNumber": 31,
+      "text": "30 Comunicación Encuentra los valores de la energía cinética y potencial donde se te indica.\n\nD. Un vistazo más de cerca a la energía mecánica\n\np.\n\n682. Haz el diagrama de energía de la actividad B. El mejor lanzador de la clase. Altura máxima 2 m Altura 1 m Energía cinética = ?\n\n0.5 kgAltura\n\n0 m EC(3) EPG(3) EC(1) EPG(1)EC(2) EPG(2) = 5 J(?) = 9.8 2 1 2 3 (a) (?) (?) (b) (?)(?) (c) (d) (e) (f)",
+      "charCount": 398
+    },
+    {
+      "pageNumber": 32,
+      "text": "En esta unidad aprenderemos a:\n\nInterpretar la estructura del átomo y el posicionamiento de partículas subatómicas.\n\nDeterminar los números atómico y másico.\n\nEjempliﬁcar la formación de iones monoatómicos.\n\nDeﬁnir qué es un isótopo y cuáles son sus aplicaciones.\n\nRepresentar una estructura atómica con su conjunto de números cuánticos.\n\nRepresentar distintos tipos de conﬁguraciones electrónicas.\n\nEje integrador: Interacciones Estructura atómica\n\nUnidad 3\n\nDuración de la Unidad: 5 semanas",
+      "charCount": 492
+    },
+    {
+      "pageNumber": 33,
+      "text": "32\n\nA. Desafío con el papel\n\na. ¿Se puede seguir partiendo más los trozos de papel?\n\nb. ¿Crees que se podría partir en porciones tan pequeñas que ya no puedas\n\nver?\n\nc. ¿Cuántos átomos crees que hay en el\n\ntrozo más pequeño de papel?\n\nd. ¿Cómo imaginas que son los átomos?\n\ne. ¿Cómo crees que están constituidos los\n\nátomos?\n\nCreatividad\n\nB. Construye un átomo\n\nPega en cada celda el círculo del color correspondiente:\n\nIndagación\n\np.\n\n72 Protón Electrón Neutrón ¿De qué está hecho todo lo que nos rodea?\n\nModelo de átomo 1\n\np.\n\n73",
+      "charCount": 531
+    },
+    {
+      "pageNumber": 34,
+      "text": "Unidad 3\n\n33\n\nSemana 12\n\nCon las mismas rueditas de papel, pega cada color según corresponda en la imagen del modelo de átomo 2.\n\nAyúdame a comparar los modelos de átomo.\n\nModelo de átomo 2 Electrones (Amarillo) Protones (Rojo) Neutrones (Azul) Color Partícula subatómica Posición en el modelo Amarillo Rojo Azul Color Partícula subatómica Posición en el modelo Amarillo Rojo Azul Modelo de átomo 1 Modelo de átomo 2\n\np.\n\n73",
+      "charCount": 424
+    },
+    {
+      "pageNumber": 35,
+      "text": "34 ¿Qué átomo es?\n\nC. Identifica átomos\n\nÁtomo:\n\nSímbolo:\n\nep+ n0\n\np.\n\n75 Protón Electrón Neutrón\n\na. ¿Por que las partículas subatómicas le dan identidad al átomo?\n\nModelo de átomo 3",
+      "charCount": 183
+    },
+    {
+      "pageNumber": 36,
+      "text": "35\n\nUnidad 3Semana 13\n\nD. Calculando número másico y atómico\n\nCompleta el cuadro, puedes ayudarte de la tabla periódica.\n\nA. ¡Virutas voladoras!\n\nObservaciones:\n\na. ¿Por qué crees que se da este fenómeno?\n\nNo. Átomo Símbolo Z A n0 e- p+ 1 Na 11 23 2 Cloro 17 20 3 40 21 19 4 Carbono 6 12 6 5 F 9 19 6 Calcio Ca 40 7 Berilio Be 9 4 8 16 38\n\np.\n\n76\n\np.\n\n78 Indagación Cargas eléctricas y la estructura de la materia Anota tus observaciones. B. Moviendo la bolita sin tocarla Observaciones paso 1:\n\nObservaciones paso 2:\n\np.\n\n79",
+      "charCount": 525
+    },
+    {
+      "pageNumber": 37,
+      "text": "36\n\nC. Identifiquemos tipos de electrización\n\nD. ¡Contemos partículas subatómicas!\n\na. ¿Qué sucedió?\n\nb. ¿Qué fenómeno ocurre en el experimento?\n\nResponde las preguntas.\n\nCreatividad Átomo 1 Átomo 2 Átomo 3 n0: 4 n0: 4 n0: 4 p+: p+: p+:\n\ne-: e-: e-:\n\n¿Qué tipo de partícula hay más?\n\n¿Qué tipo de partícula hay más?\n\n¿Qué tipo de partícula hay más?\n\nTipo de carga: ¿Qué carga tiene? ¿Qué carga tiene?\n\np.\n\n79\n\np.\n\n80\n\np.\n\n80",
+      "charCount": 424
+    },
+    {
+      "pageNumber": 38,
+      "text": "37\n\nUnidad 3\n\nSodio Boro Berilio Flúor n0: 12 n0: 6 n0: 5 n0: 10 p+: 11 p+: 5 p+: 4 p+: 9 e-: e-: e-: e-:\n\nTipo de carga: Tipo de carga: Tipo de carga: Tipo de carga:\n\nTipo de ion: Tipo de ion: Tipo de ion: Tipo de ion:\n\nSemana 14\n\nE. ¡Clasifiquemos los tipos de iones!\n\nObserva cada par de imágenes. Cuenta los electrones y predice cuál carga es la que predomina, ¿positiva o negativa? y qué tipo de ion es, ¿catión o anión?\n\nIndagación El núcleo del átomo\n\nA. Representemos los neutrones en el núcleo\n\nColorea en cada celda el círculo del color correspondiente:\n\nProtón Primer par Electrón Segundo par Neutrón\n\np.\n\n81",
+      "charCount": 619
+    },
+    {
+      "pageNumber": 39,
+      "text": "38 1H 1H 1H 10Ne 10Ne 10Ne 5 B 5 B Representación Representación Representación p+ p+ p+ ee- en0 n0 n0 Nombre Nombre Nombre ¿Qué partículas subatómicas cambian su valor?\n\n¿Qué partículas subatómicas cambian su valor?\n\n¿Qué partículas subatómicas cambian su valor?\n\nÁtomo de hidrógeno ep+ ep+ n° en° n° p+ K L núcleo nº ee- ee- ee- ee- p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ ee- nº nº nº nºnº nº nº Átomo de neón K L núcleo nº nº ee- ee- ee- ee- p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ ee- nº nº nº nºnº nº nº K L núcleo nº nº nº ee- ee- ee- ee- p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ ee- nº nº nº nºnº nº nº ep+ ep+ n° en° n° p+ Átomo de hidrógeno ee- ee- enº nº nº nºnº p+ p+ p+ p+ p+ ee- ee- enº nº nº nº nºnº p+ p+ p+ p+ p+ Átomo de boro ee- ee- ee- nºnº nº p+ p+ p+ nº nº p+ p+p+nº ee- ee- ee- nºnº nº p+ p+ p+ nº nº p+ p+p+nº nº ee- ee- ee- nºnº nº p+ p+ p+ nº nº p+ p+p+nº nº nº Átomo de carbono K L núcleo nº ee- ee- ee- ee- p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ ee- nº nº nº nºnº nº nº Átomo de neón K L núcleo nº nº ee- ee- ee- ee- p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ ee- nº nº nº nºnº nº nº K L núcleo nº nº nº ee- ee- ee- ee- p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ ee- nº nº nº nºnº nº nº ep+ ep+ n° en° n° p+ Átomo de hidrógeno ee- ee- enº nº nº nºnº p+ p+ p+ p+ p+ ee- ee- enº nº nº nº nºnº p+ p+ p+ p+ p+ Átomo de boro ee- ee- ee- nºnº nº p+ p+ p+ nº nº p+ p+p+nº ee- ee- ee- nºnº nº p+ p+ p+ nº nº p+ p+p+nº nº ee- ee- ee- nºnº nº p+ p+ p+ nº nº p+ p+p+nº nº nº Átomo de carbono Átomo de hidrógeno Átomo de neón Átomo de boro 1 2 3 20 21 22 10 10",
+      "charCount": 1528
+    },
+    {
+      "pageNumber": 40,
+      "text": "Unidad 3\n\n39\n\nSemana 14\n\n6 C 6 C 6 C Representación p+ e- n0 Nombre ¿Qué partículas subatómicas cambian su valor?\n\nK L núcleo nº ee- ee- ee- ee- p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ ee- nº nº nº nºnº nº nº Átomo de neón K L núcleo nº nº ee- ee- ee- ee- p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ ee- nº nº nº nºnº nº nº K L núcleo nº nº nº ee- ee- ee- ee- p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ p+ ee- nº nº nº nºnº nº nº ep+ ep+ n° en° n° p+ Átomo de hidrógeno ee- ee- enº nº nº nºnº p+ p+ p+ p+ p+ ee- ee- enº nº nº nº nºnº p+ p+ p+ p+ p+ Átomo de boro ee- ee- ee- nº nº nº nº nº p+ p+ p+ p+ p+ p+ nº ee- ee- ee- nº nº nº p+p+ p+ nº nº p+ p+ p+ nº nº ee- ee- ee- nº nº nº nº nº p+ p+ p+ p+ p+ p+ nº nº nº Átomo de carbono\n\na. ¿Qué los diferencia entre uno y otro?\n\nC. Calculemos masas atómicas relativas\n\n29Cu 62.930 69.15 % 29Cu 64.928 30.85 % 14Si 27.976 92.23 % 14Si 28.976 4.67 % 14Si 29.973 3.10 % Isótopo Isótopo Masa atómica Masa atómica % abundancia % abundancia Masa atómica relativa Masa atómica relativa\n\np.\n\n83\n\np.\n\n85 Creatividad Átomo de carbono 12 13 14 63 28 29 30 65",
+      "charCount": 1062
+    },
+    {
+      "pageNumber": 41,
+      "text": "40 Indagación ¿Dónde está el electrón?\n\nCompleta el cuadro.\n\nA. Las primeras coordenadas\n\nUbica las partes del átomo que corresponden a los datos para localizar a una persona.\n\nMunicipio principal (n) Colonia secundario (l) Calle magnético (ml) En el departamento En el átomo Número cuántico\n\nB. Observa, analiza y compara\n\nEscribe qué característica tienen en común el edificio con el modelo de átomo.\n\n¿Qué tiene en común el átomo con el hotel?\n\nObservación: Observación:\n\nC. Número cuántico magnético del nivel 4\n\nAhora hazlo tú, con el nivel 4, llena el recuadro.\n\nn = 4 s 1 orbital p 3 orbitales d 5 orbitales f 7 orbitales Número principal (n) Número secundario (l) Número magnético (ml)subnivel N° de orbitales\n\np.\n\n88\n\np.\n\n89\n\np.\n\n90\n\np.\n\n90\n\nD. ¡Responde!\n\na. ¿Podrían convivir dos partículas cargadas negativamente?",
+      "charCount": 825
+    },
+    {
+      "pageNumber": 42,
+      "text": "Unidad 3\n\n41 Creatividad\n\nSemana 15\n\n1. n = 5\n\n2. n = 6\n\n3. n = 7\n\nNúmero principal (n) Número principal (n) Número principal (n) Número secundario (l) Número secundario (l) Número secundario (l) Número magnético (ml) Número magnético (ml) Número magnético (ml)\n\nE. Encontrando los números cuánticos\n\nEn grupo deduzcan los números cuánticos secundario y magnético para n = 5, n = 6 y n = 7.\n\np.\n\n91",
+      "charCount": 398
+    },
+    {
+      "pageNumber": 43,
+      "text": "42 Creatividad\n\nB. Desarrolla configuraciones electrónicas\n\nExpresa las configuraciones electrónicas usando el diagrama de Moeller y también el diagrama de orbitales.\n\nFlúor = 9F Boro = 5B Magnesio = 12Mg Calcio = 20Ca Cloro = 17Cl 1s2 2s2 2p6 3s1 Elemento:\n\n1s2 2s2 2p6 3s23p1 Elemento:\n\n1s2 2s2 2p6 3s23p2 Elemento:\n\n1s2 2s2 2p6 Elemento:\n\n1s2 2s2 2p6 3s23p6 4s1 Elemento:\n\nÁtomo Configuración electrónica Z Configuración electrónica Configuración electrónica con diagrama de orbitales Configuración electrónica con diagrama de orbitales Para las siguientes configuraciones electrónicas identifica el elemento al que corresponden y luego expresa la configuración por diagrama de orbitales.\n\np.\n\n95 Distribución de electrones en el átomo",
+      "charCount": 738
+    },
+    {
+      "pageNumber": 44,
+      "text": "Eje integrador: Organización Tabla periódica\n\nUnidad 4\n\nEn esta unidad aprenderemos a:\n\nElaborar una línea de tiempo del proceso de construcción de la tabla periódica.\n\nRepresentar gráﬁcamente la tabla periódica actual empleando las aplicaciones industriales de los elementos químicos.\n\nDescribir los criterios de organización presentes en la tabla periódica actual.\n\nInterpretar las propiedades periódicas de los elementos químicos.\n\nReconocer los principios que llevan a la formulación química.\n\nInterpretar la interacción de los iones para la deducción de fórmulas químicas.\n\nReconocer los números de oxidación.\n\nCERIO Ce (58) TELURIO Te (52) MOLIBDENO Mo (42) ESTRONCIO Sr (38) WOLFRAMIO W (74) Duración de la Unidad: 4 semanas",
+      "charCount": 731
+    },
+    {
+      "pageNumber": 45,
+      "text": "44\n\nA. ¿Qué diferencias encuentras?\n\na. ¿De qué se compone la materia?\n\nb. ¿De qué se trata la imagen?\n\nc. ¿Así se comporta la materia? ¿Por qué?\n\n3. Elementos químicos identificados:\n\nd. ¿Sabes cuántos elementos químicos\n\nexisten?\n\ne. ¿Dónde podemos encontrar información sobre ellos?\n\nf. ¿De qué se componen los elementos?\n\nCreatividad Indagación\n\np.\n\n102 Lenguaje universal de la ciencia\n\nB. Línea de tiempo de la Tabla Periódica\n\nLi K Ca Ba Fe Ni\n\n6.94 39.10 40.08 137.53 55.84 58.69\n\nP Sb S Te Ci I\n\n30.974 121.76 32.06 127.6 35.45 126.9\n\nParte I.\n\nArma la plantilla de las triadas de Döbereiner\n\np.\n\n103 Li\n\n6.94\n\n/uni041A\n\n39.1\n\nC/uni0430\n\n40.078\n\nBa\n\n137.33\n\nP\n\n30.974\n\nS\n\n32.06\n\nCl\n\n35.45\n\nSb\n\n121.76\n\nTe\n\n127.6\n\nI\n\n126.9\n\nFe\n\n55.845\n\nNa\n\n22.99\n\nBr\n\n79.904\n\nCo\n\n58.933\n\nSr\n\n87.62\n\nSe\n\n78.96\n\nAs\n\n74.922\n\nNi\n\n58.693\n\n1. Calcula la masa atómica promedio.",
+      "charCount": 861
+    },
+    {
+      "pageNumber": 46,
+      "text": "45\n\nUnidad 4\n\nSemana 17\n\nParte II. Confecciona la hélice telúrica de Chancourtois.\n\np.\n\n104 H 1 L1 6.9 Be N B 10.5 C 12.0 O 16.0 F N2 23.0 Mg P A1 27.0 S1 28.0 S\n\n24.3\n\nC1 K 39.1 Ca Mn Cr 52.0 T1 47.9 55.0 Fe\n\nParte III. Organiza las octavas sugeridas por Newlands H Li Be B C N F O Na Mg Al Si P S Cl K Ca Plantilla 1",
+      "charCount": 318
+    },
+    {
+      "pageNumber": 47,
+      "text": "46\n\na. ¿Cuál es el avance\n\nque ocurrió respecto a los modelos anteriores?\n\nb. ¿Por qué fue importante dejar espacios\n\nen la Tabla Periódica?\n\na. Identifica si hay alguna relación entre\n\neste modelo y el de Chancourtois.\n\nb. Identifica el elemento con propiedades\n\nsemejantes al nitrógeno (N).\n\nc. ¿Por qué consideras que se dejaron de\n\nusar las octavas?\n\nParte IV. Arma la tabla según las masas atómicas de Mendeléiev.\n\n1. Describe las propiedades físicas del galio (Ga), escandio (Sc) y holmio (Ho).\n\np.\n\n105\n\np.\n\n105\n\np.\n\n106\n\n2. Ubica los elementos en los huecos correspondientes.\n\nSc\n\n44.956\n\n1.008\n\n6.941\n\n22.990\n\n39.098\n\n84.468 87.62 88.906\n\n47.88 50.942 51.996 54.938 55.933 58.933\n\n200.59 204.383\n\n58.693 63.546 65.39\n\n26.982\n\n10.811 12.011 14.007 15.999\n\n32.066\n\n18.998\n\n35.45330.974\n\n74.922\n\n118.71 121.760 127.6\n\n78.09 79.904\n\n126.904\n\n207.2 208.980\n\n28.086\n\n112.411\n\n196.967\n\n107.868106.42\n\n195.08192.22\n\n102.906101.07\n\n190.23\n\n95.94\n\n183.85\n\n140.115 140.908\n\n231.036 237.048\n\n162.50 167.26\n\n92.906\n\n108.948\n\n91.224\n\n137.327\n\n40.078\n\n24.305\n\n9.012\n\nGa\n\n69.723\n\nHo\n\n164.93\n\nComunicación\n\na. ¿Qué relación hay entre los elementos químicos y la vida diaria?\n\nb. Indica los elementos químicos que se pueden encontrar en nuestro cuerpo.",
+      "charCount": 1243
+    },
+    {
+      "pageNumber": 48,
+      "text": "Indagación\n\nUnidad 4\n\nSemana 18\n\nOrganizando los elementos\n\na. ¿Qué semejanzas podría tener la Tabla\n\nPeriódica y un calendario?\n\nb. Señala qué diferencias notas entre la\n\nTabla Periódica y el calendario.\n\nc. ¿Qué actividades de tu vida diaria se repiten en intervalos regulares de tiempo?\n\nd. Indica cuál podría ser la característica\n\nque comparten los elementos que se encuentran en la misma fila o columna.\n\ne. ¿Por qué crees que se le llama periódica a la tabla de los elementos?\n\np.\n\n107\n\np.\n\n108 47 Creatividad\n\na. ¿Cómo ordenarías estos elementos químicos?\n\n7N 47A 16S 38Sr 1H 29C 3Li 79A 12M\n\nb. ¿Qué colores te han resultado?\n\nc. ¿Cuál es el estado físico de los elementos metálicos?\n\nd. ¿Cuáles elementos difieren de los demás respecto al estado de agregación?\n\ne. Observa, ¿hay más metales que no metales?\n\nA. La Tabla Periódica es un rompecabezas\n\n1 2 2 3 1 4\n\np.\n\n108",
+      "charCount": 880
+    },
+    {
+      "pageNumber": 49,
+      "text": "48\n\n2. ¿Qué color tienes?\n\nCompleta las configuraciones electrónicas.\n\nB. Armemos la Tabla Periódica\n\na.\n\nb.\n\nc.\n\nd.\n\ne.\n\nf.\n\np.\n\n109\n\np.\n\n110 H1 56 72 88 104 57 89 1\n\nC. Configuración electrónica de átomos neutros\n\n1 2 3 1 4",
+      "charCount": 225
+    },
+    {
+      "pageNumber": 50,
+      "text": "49\n\nUnidad 4\n\nc. ¿Cómo aumentan los niveles de energía en un grupo?\n\nB. Si te vas, cambio mi tamaño (radio iónico)\n\na. ¿Qué sucedió con el átomo cuando cada estudiante cambiaba de lugar?\n\nb. ¿Cómo se afecta el radio del átomo?\n\nPropiedades periódicas\n\nA. La distancia nos separa (radio atómico)\n\nActividades Periódicas Diaria Semanal Mensual\n\np.\n\n113\n\np.\n\n113\n\np.\n\n114\n\na. ¿Existe algún tipo de tendencia en la\n\nubicación de estas bolas?\n\nb. ¿Y respecto al tamaño?\n\nc. ¿Qué indica el incremento de tamaño?\n\nd. ¿Como incrementa el tamaño en los\n\nperiodos y grupos?\n\n49 Creatividad\n\na. Al aumentarse los electrones externos en\n\nun periodo, ¿cuál será su relación con el núcleo atómico?\n\nb. Los electrones ubicados en niveles de\n\nenergía cada vez más altos ¿están cerca o lejos del núcleo atómico?\n\n1. Indica con flechas como incrementa\n\nel radio atómico en un grupo y en un periodo.\n\nIndagación\n\nSemana 19",
+      "charCount": 903
+    },
+    {
+      "pageNumber": 51,
+      "text": "50\n\nc. ¿Qué modificaciones sufre el átomo al ganar o perder electrones?\n\nd. ¿Cómo es el tamaño del radio iónico de un catión en comparación con su átomo neutro? ¿Y el de un anión?\n\nC. Sácame (electroafinidad y energía de ionización)\n\na. A mayor atracción núcleo-electrón, ¿será más o menos difícil quitar un electrón al átomo?\n\nb. Si hay menos cantidad de niveles de energía, ¿los electrones sentirás más o menos fuerza de atracción hacia el núcleo?\n\nc. ¿Cómo es la atracción del núcleo por los electrones externos?\n\nd. Si en un periodo incrementan los electrones, ¿también los protones?\n\np.\n\n114\n\ne. Indica con flechas cómo aumenta la\n\nelectroafinidad y energía de ionización en un grupo y periodo.\n\np.\n\n115\n\nD. Déjalos que vengan a mí (electronegatividad)\n\na. Si un átomo tiene un alto «gusto» por\n\nlos electrones, ¿tendrá una alta fuerza para atraer a sus propios electrones?\n\nb. Según tu respuesta anterior, ¿será difícil\n\nsacarle los electrones?\n\nc. ¿Tendrá una alta fuerza para atraer a\n\nelectrones de otro átomo?\n\nd. Indica con flechas cómo aumenta la\n\nelectronegatividad en un grupo y periodo.",
+      "charCount": 1101
+    },
+    {
+      "pageNumber": 52,
+      "text": "51 Indagación\n\nUnidad 4Escribamos fórmulas químicas\n\na. ¿Cuáles elementos químicos aparecen en el párrafo anterior?\n\nb. ¿Se hallan solos o combinados con otros?\n\nc. ¿Qué utilidades tiene el H2O en nuestra vida?\n\nd. ¿Podemos emplear el H 2O2 para las mismas utilidades que ofrece el H 2O? ¿Por qué?\n\ne. ¿Qué sustancias que posean los mismos elementos, tienen propiedades distintas?\n\n51\n\np.\n\n117\n\np.\n\n118\n\np.\n\n117\n\na. ¿Cuáles son las fórmulas químicas de\n\nlas tres sustancias que usamos?\n\nb. ¿Cuáles elementos las conforman?\n\nc. ¿Las sustancias tienen propiedades distintas?\n\nCreatividad\n\nB. Ayudemos a la investigadora\n\n1. Completa la tabla.\n\nH2O (agua) H2SO4 (ácido sulfúrico) SO2 (dióxido de azufre) H2O2 (peróxido de hidrógeno) Fórmula química Elementos químicos Cantidad de átomos\n\nSemana 20\n\nA. ¿Cuál es la fórmula química?",
+      "charCount": 827
+    },
+    {
+      "pageNumber": 53,
+      "text": "52\n\nD. Escribamos nuestra primera fórmula\n\n3. Escribe los símbolos de los iones sodio y azufre.\n\n4. Anota los símbolos a manera de fórmula, poniendo primero el catión.\n\n5. ¿cuánta carga positiva y negativa tiene cada ion?\n\n6. Escribe la fórmula química para cada par de elementos.\n\na. b. c.\n\na. ¿Cuál de estas sustancias tiene el mayor número de átomos de oxígeno?\n\n2.\n\n3.\n\na.\n\nc.\n\nb.\n\nd.\n\ne.\n\np.\n\n119\n\np.\n\n120\n\np.\n\n121\n\np.\n\n121\n\nC. Examinemos la Tabla Periódica\n\nComunicación\n\nE. Escribamos fórmulas químicas\n\nFórmula química Elementos químicos Cantidad de átomos Fórmula 3D",
+      "charCount": 575
+    },
+    {
+      "pageNumber": 54,
+      "text": "Eje integrador: Sistemas Ciencias del espacio\n\nUnidad 5\n\nEn esta unidad aprenderemos a:\n\nExplicar los argumentos que sostienen la hipótesis de .\n\nEjempliﬁcar escalas de tiempo y distancias astronómicas con referencias conocidas.\n\nElaborar un modelo de la formación del sistema solar.\n\nCaracterizar los tipos de galaxias según su tamaño y forma.\n\nExplicar la interacción entre nebulosas y estrellas.\n\nClasiﬁcar las estrellas según el momento de su evolución.\n\nExponer alguna misión de exploración del sistema solar.\n\nExplicar la formación de la corteza terrestre.\n\nExplicar qué es el campo magnético de la Tierra.\n\nDuración de la Unidad: 5 semanas",
+      "charCount": 646
+    },
+    {
+      "pageNumber": 55,
+      "text": "54 Indagación Color Longitud de onda (nm) Dibuja la longitud de onda. Escala: 100 nm = 1 cm.\n\nAzul Verde Rojo\n\np.\n\n127 Big Bang Consulta el espectro electromagnético que aparece en la sección de comunicación.\n\nA. Desplazamiento hacia el rojo y desplazamiento hacia el azul\n\n6. Responde a las preguntas según tus observaciones.\n\nEscenario 1: Fuente de luz «Galaxia 1, +3/4 c» alejándose de la Tierra.\n\ng. ¿Qué color percibe la luz el observador «Tierra»?\n\nh. ¿Qué color percibe la luz la persona que sostiene la linterna? (Pista: es el color que cubre el cuerpo de la linterna).\n\nEscenario 2: Fuente de luz «Galaxia 2, a -3/4 c» acercándose a la Tierra.\n\ni. ¿Qué color percibe la luz el observador «Tierra»?\n\nj. ¿Qué color percibe la luz la persona que sostiene la linterna? (Pista: es el color del cuerpo de la linterna).\n\nEscenario 3: Fuente de luz estática «Galaxia 3, en reposo» respecto a la Tierra.\n\nk. ¿Qué color percibe la luz el observador «Tierra»?\n\nl. ¿Qué color percibe la luz la persona que sostiene la lámpara? (Pista: es el color del cuerpo de la linterna).\n\nm. ¿Qué tienen en común todos los observadores que perciben la luz de color verde?\n\n*Para llenar la siguiente tabla necesitas consultar la figura del espectro electromagné - tico que aparece en la página 130 de tu libro de texto.",
+      "charCount": 1302
+    },
+    {
+      "pageNumber": 56,
+      "text": "55 Creatividad\n\nUnidad 5\n\nB. Una evidencia física de la teoría del Big Bang\n\n8. Responde a las preguntas según tus observaciones.\n\na. Si los puntos representan galaxias, ¿cómo se comportan las distancias a medida que se expande el globo?\n\nb. ¿Por qué crees que esto es así?\n\nc. ¿Qué tanto (doble, triple, cuádruple, etc.) se alejan las galaxias cuando se duplicó el diámetro del globo?\n\nd. ¿Qué significa la ley de Hubble, rapidez = [70 (km/s)/Mpc] x distancia?\n\nC. Calendario del tiempo\n\n2. Representa los 13 800 millones de años (13 800 Ma) de historia del Universo como fechas en un calendario:\n\nEnero 1 Big Bang.\n\n5 Nacen las primeras estrellas.\n\n20 Se forman las primeras galaxias.\n\nMarzo 31 Se forma la Vía Láctea.\n\nSeptiembre 30 Se forma el Sistema Solar – El Sol, los planetas, asteroi-des y satélites. Diciembre 20 Primeros vertebrados.\n\n21 Las algas son las únicas plantas.\n\n22 Primeros signos de plantas y animales terrestres.\n\n23 Primeros insectos y arañas.\n\n24 Dominan los anfibios.\n\n26 Aparecen reptiles parecidos a los mamíferos.\n\n27 Dinosaurios abundantes, aparecen las primeras aves.\n\n30 Dinosaurios extintos, aumento de la diversidad de mamíferos de todo tipo.\n\n31 23:50 Aparecen humanos anatómicamente modernos.\n\np.\n\n128\n\np.\n\n128\n\nSemana 21",
+      "charCount": 1259
+    },
+    {
+      "pageNumber": 57,
+      "text": "56 Comunicación\n\nD. Tabla de distancia y rapidez\n\nE. Representación de la expansión de un universo bidimensional\n\n5. Grafica ambos grupos de puntos en el plano cartesiano, escribe los nombres, distancias al origen y rapidez correspondientes.\n\nGlobo del tamaño de un puño (pasos 4 y 5) Globo duplica el diámetro (paso 6) Puntos Distancia 1 Rapidez 1 Distancia 2 Rapidez 2 X 2 000 Mpc 140 000 km/s 6 000 Mpc 420 000 km/s A B C D E F G\n\np.\n\n130 Y X 1 1\n\n-2\n\n-1-2-3-4-5-6-7-8-9-10\n\n-3\n\n-4\n\n-5\n\n-6\n\n-7\n\n-8\n\n-9\n\n-10\n\n2 3 4 5 6 7 8 9 10 2 3 4 5 6 7 8 9 10\n\n1. Escribe los resultados de los pasos 4, 5 y 6 de la actividad B en la siguiente tabla.\n\np.\n\n128",
+      "charCount": 647
+    },
+    {
+      "pageNumber": 58,
+      "text": "Unidad 5\n\n57 Creatividad\n\nSemana 22\n\nB. Cómo construir un planeta\n\na. Hipótesis de investigación:\n\nC. Formación del sistema solar\n\n3. Complementa la tabla del proceso de formación del sistema solar auxiliándote de las imágenes de tu libro de texto. Eras Letra Duración (años) Descripción Era de la Nebulosa pre-solar 0 Era de la proto estrella 1 millón Era de los asteroides --- 3 millones Formación de grandes asteroides de has-ta 200 km de diámetro. Era del gigante gaseoso --- 10 millones Finaliza la formación rápida de Júpiter y Saturno. Era del nacimiento solar 50 millones Era planetesimal 51 millones Era T-Tauri 80 millones Era de los gigantes de hielo --- 90 millones Formación de Urano y Neptuno.\n\nEra de los planetas rocosos 100 millones Era tardía de los bombardeos intensos --- 600 millones La migración de Júpiter interrumpe el cinturón de asteroides enviando grandes asteroides a impactar superficies planetarias en el sistema solar interior.\n\np.\n\n134\n\np.\n\n132 Formación del sistema solar",
+      "charCount": 1004
+    },
+    {
+      "pageNumber": 59,
+      "text": "58\n\nD. Analiza\n\na. ¿Cómo era el sistema solar antes de que se formara el Sol?\n\nb. ¿Cómo empezó el proceso de formación del Sol?\n\nc. ¿Por qué se iluminó el Sol?\n\nd. ¿De dónde vienen los planetas de nuestro sistema solar?\n\ne. Explica el proceso de acreción, según lo realizado en la actividad «Acreción».\n\nf. ¿Cómo se considera que será el fin de nuestro sistema solar?\n\np.\n\n134",
+      "charCount": 376
+    },
+    {
+      "pageNumber": 60,
+      "text": "Unidad 5\n\n59 Creatividad\n\np.\n\n137\n\nB. Haz tu propia nebulosa\n\na. Hipótesis de trabajo:\n\n8. Contesta las siguientes preguntas:\n\nb. ¿Qué es una nebulosa?\n\nc. ¿Cómo se crean las estrellas en el interior de las nebulosas?\n\nd. ¿Dónde están las nebulosas?\n\ne. ¿Cómo sabemos la apariencia de las nebulosas?\n\nSemana 23\n\nEvolución estelar\n\np.\n\n137",
+      "charCount": 338
+    },
+    {
+      "pageNumber": 61,
+      "text": "60\n\nD. Evolución estelar\n\na. Lee atentamente la siguiente información:\n\nLas estrellas surgen a partir de inmensas nubes de gas interestelar, llamadas nebulosas, que se va agrupando como consecuencia de la atracción gravitatoria entre sus partículas. A medida que el tiempo transcurre, la masa se concentra y se calienta, hasta el momento en que se inicia una reacción nuclear transformando hidrógeno en helio.\n\nLas estrellas queman su combustible durante millones de años convirtiendo al hidrógeno y al helio en elementos más pesados. Y, dependiendo de la cantidad de masa que la conforme y su composición química, puede tomar uno de varios caminos evolutivos.\n\nb. Escribe el proceso de la evolución estelar.\n\nc. Escribe el nombre de cada proceso en la imagen.\n\np.\n\n139",
+      "charCount": 769
+    },
+    {
+      "pageNumber": 62,
+      "text": "61\n\nUnidad 5\n\nIndagaciónSemana 24 Misiones espaciales\n\nA. Reconociendo instrumentos astronómicos\n\n2. Describe los instrumentos brevemente y analiza ¿para qué propósito crees que fue creado?\n\n1. Satélite\n\n• Descripción:\n\n• Propósito:\n\n2. Sonda espacial\n\n• Descripción:\n\n• Propósito:\n\n3. Telescopio espacial\n\n• Descripción:\n\n• Propósito:\n\n4. Estación Espacial Internacional\n\n• Descripción:\n\n• Propósito:\n\np.\n\n141",
+      "charCount": 410
+    },
+    {
+      "pageNumber": 63,
+      "text": "62 Creatividad\n\nB. Construcción de cohete espacial\n\nAnaliza: ¿de qué manera ayuda la exploración del espacio al desarrollo de la humanidad?\n\na. Hipótesis de trabajo:\n\n12. Con toda la información vista en esta lección, completa el cuadro sobre las características de los diferentes instrumentos utilizados para la exploración espacial. Instrumento Características Satélite Sonda espacial Lanzador espacial y cohete Telescopio espacial Nave espacial tripulada Estación espacial\n\np.\n\n142\n\np.\n\n143",
+      "charCount": 493
+    },
+    {
+      "pageNumber": 64,
+      "text": "Unidad 5\n\n63 Creatividad\n\nSemana 25\n\nB. Campo magnético de la Tierra\n\n4. Responde\n\na. ¿Qué sucede cuando el viento solar se acerca a la magnetósfera terrestre?\n\n6. Dibuja el modelo de los efectos del viento solar en la magnetósfera de la Tierra.\n\nC. Teorías de la formación de la corteza\n\nPlanteamiento del problema:\n\nAnaliza: ¿Por qué la Tierra tiene todas sus capas tan precisamente delimitadas?\n\na. Hipótesis de trabajo:\n\np.\n\n148\n\np.\n\n147 Formación de la Tierra",
+      "charCount": 464
+    },
+    {
+      "pageNumber": 65,
+      "text": "64 Comunicación\n\nD. Hipótesis de la formación de la Tierra\n\n1. Con la información brindada, realiza un cuadro comparativo de las tres\n\nhipótesis de la formación de la corteza terrestre, utilizando tus propias palabras.\n\n2. ¿Cuál hipótesis crees que es más acertada?\n\np.\n\n150 Acreción heterogénea Modelo de impacto Modelo terrestre",
+      "charCount": 330
+    },
+    {
+      "pageNumber": 66,
+      "text": "En esta unidad aprenderemos a:\n\nCategorizar el tiempo geológico en eones, eras y periodos.\n\nExplicar la formación de los fósiles y reconocerlos en El Salvador.\n\nIdentiﬁcar los eventos que se relacionan con la actividad tectónica.\n\nExplicar las causas de la actividad volcánica en El Salvador.\n\nExplicar qué es la deriva continental e identiﬁcar los bordes de las placas tectónicas.\n\nReconocer los procesos que generan a los suelos, sus características físicas y ejempliﬁcar su estructura.\n\nAnalizar los cambios de cobertura y el uso del suelo en El Salvador.\n\nEje integrador: Organización\n\nUnidad 6\n\nCiencias de la Tierra Duración de la Unidad: 7 semanas",
+      "charCount": 654
+    },
+    {
+      "pageNumber": 67,
+      "text": "66\n\nB. La Historia de la Tierra\n\n2. Ordena los acontecimientos según su ocurrencia y completa la tabla.\n\nEl tiempo geológico\n\nA. La Datación relativa\n\na. ¿Puedes indicar cuál es la edad de cada miembro de la familia?\n\np.\n\n154\n\np.\n\n155\n\np.\n\n156 Creatividad\n\nC. Unidades de la escala del tiempo geológico\n\n2. Categoriza de los siguientes acontecimientos divisiones de la escala del tiempo geológico.\n\nAcontecimientos Orden de aparición Características Acontecimientos Edad División Formación de la Tierra Concentración de la vida en el mar Aparición de reptiles Aparición de mamíferos Formación de la Tierra 4 500 Ma Aparece la bacteria más antigua conocida 3 500 Ma Aparición de peces primitivos 500 Ma La mayor extinción que se ha dado 248 Ma Aparecen los dinosaurios 225 Ma Un asteroide cae sobre la Tierra 65 Ma Primeros homínidos (primates parecidos a los humanos) 4 Ma Indagación",
+      "charCount": 883
+    },
+    {
+      "pageNumber": 68,
+      "text": "67\n\nUnidad 6\n\nD. El tiempo geológico\n\n2. Completa:\n\np.\n\n157\n\np.\n\n158\n\na. ¿Qué características observas en la clasificación de los anteriores sucesos?\n\n3. Dibuja un reloj geológico completando la siguiente tabla, e ilústralos creativamente. Hora Años (Ma) Hora Años (Ma) 12 a.m. 07 a.m.\n\n01 a.m. 08 a.m.\n\n02 a.m. 09 a.m.\n\n03 a.m. 10 a.m.\n\n04 a.m. 11 a.m.\n\n05 a.m. 12 p.m.\n\n06 a.m.\n\nEvento: Hora: Evento: Hora:\n\nComunicación Eventos Años (Ma) Eón Era Periodo Formación de la Tierra 4 500 Aparecen las bacterias más antiguas conocidas 3 500 Aparición de peces primitivos 500 La mayor extinción que se ha dado 248 Aparecen los dinosaurios 225 Un asteroide cae sobre la Tierra 65 Primeros homínidos (primates parecidos a los humanos) 1\n\nSemana 26",
+      "charCount": 741
+    },
+    {
+      "pageNumber": 69,
+      "text": "68 Descubriendo los fósiles\n\nA. Réplica de un fósil\n\na. ¿Qué forma se obtuvo?\n\n2. Ordena las etapas del proceso de formación del fósil de dinosaurio.\n\nIndagación\n\n3. Explica cómo se ha formado el fósil.\n\nEtapa de la fosilización Orden Muerte y acumulación del cadáver Enterramiento y diagénesis Descomposición de las partes blandas Erosión y desenterramiento\n\np.\n\n159\n\np.\n\n160 Creatividad\n\nB. Datación de fósiles\n\n1. Puedes dibujar aquí:\n\n2. Explica lo que observaste.\n\na. ¿Qué estrato es más joven?\n\nb. ¿Qué principio has aplicado?",
+      "charCount": 532
+    },
+    {
+      "pageNumber": 70,
+      "text": "69\n\nUnidad 6Semana 27\n\nExtinción Tipo de extinción 440 Ma 360 Ma 250 Ma 210 Ma\n\n65.5 Ma\n\np.\n\n162\n\np.\n\n163 Perezoso gigante Fósil Dictyota Mastodonte Fósil de molares Algas Fósil de una columna\n\nC. Fósiles en El Salvador\n\n1. Traza una línea entre las partes de los fósiles que corresponden a su respectivo ejemplar.\n\nComunicación\n\nD. La extinción\n\n1. Completa la tabla indicando si cada\n\nevento listado fue una extinción masiva o puntual.\n\np.\n\n161\n\n2. Explica qué es una extinción.\n\nE. Las extinciones en la historia de la Tierra\n\n1. Elabora e ilustran una escala de tiempo en la que ubiques las principales extinciones de la tabla anterior y la principal explosión de biodiversidad.",
+      "charCount": 682
+    },
+    {
+      "pageNumber": 71,
+      "text": "70\n\nb. Elabora una ilustración de la\n\nunión de los continentes.\n\nLa tectónica de placas\n\nA. La corteza móvil\n\na. ¿Los continentes encajan como piezas de un rompecabezas? Explica\n\ntu respuesta\n\nB. Conexiones entre continentes\n\na. ¿Crees que existió alguna conexión continental?\n\nb. ¿Esperarías que las rocas de los continentes encajantes sean del mismo tipo y tengan edades similares? De un ejemplo según lo estudiado\n\np.\n\n164\n\np.\n\n165\n\np.\n\n166 Creatividad\n\nC. Un supercontinente\n\na. Explica con tus palabras qué es la\n\nderiva continental.\n\nIndagación",
+      "charCount": 550
+    },
+    {
+      "pageNumber": 72,
+      "text": "71\n\nUnidad 6\n\np.\n\n167\n\np.\n\n168\n\nD. Movimientos de las placas tectónicas\n\na. En el dispositivo, que representa la banda sin fin.\n\nb. Explica qué observaste con el modelo de las placas tectónicas.\n\nc. Explica por qué se separó Pangea.\n\nComunicación\n\nE. Límite de placas y tectónica de Centroamérica\n\n1. Reconoce y explica los tipos de límites que se representaron en el modelo.\n\n2. Observa las placas tectónicas en el siguiente mapamundi:\n\na. ¿Cuáles son las placas que se identifican en Centroamérica?\n\nb. ¿Qué tipo de límites de placas se\n\nreconocen?\n\nECUADOR ECUADOR PLACA EUROASIÁTICA PLACA NORTEAMERICANA PLACA DEL PACÍFICO PLACA DEL PACÍFICO PLACA SUDAMERICANA PLACA AFRICANA PLACA AUSTRALIANA PLACA ANTÁRTICA PLACA NORTEAMERICANA PLACA DE NAZCA PLACA INDIA PLACA ARÁBIGA PLACA FILIPINA PLACA DE SCOTIA PLACA DEL CARIBE PLACA DE COCOS PLACA DE JUAN DE FUCA Separación de placas Choque de placas Desplazamiento lateral de placas\n\nSemana 28",
+      "charCount": 942
+    },
+    {
+      "pageNumber": 73,
+      "text": "72\n\nB. Características de los sismos\n\n2. Describe lo que has reconocido.\n\na. Qué relación tiene la magnitud con la intensidad\n\nb. Qué tipo de desastres pueden ocasionar los sismos\n\nC. Las escalas de medición\n\n2. Ilustra o dibuja.\n\nActividad sísmica y volcánica\n\nA. Actividad sísmica mundial\n\na. ¿Qué puedes decir sobre la ubicación de los sismos?\n\nb. ¿En qué tipo de límites ocurren esos sismos?\n\nc. ¿Qué puedes decir de la actividad sísmica en nuestro territorio?\n\nd. ¿Qué tipos de sismos reconoces en el país?\n\nIndagación\n\np.\n\n169\n\np.\n\n170\n\np.\n\n171 Creatividad",
+      "charCount": 562
+    },
+    {
+      "pageNumber": 74,
+      "text": "73\n\nUnidad 6\n\np.\n\n172\n\nD. Sismos precursores y réplicas\n\n2. Describe lo que observaste.\n\nTiempo Descripción A B C Comunicación\n\nE. Actividad volcánica de El Salvador\n\n¿Cómo se relaciona la sismicidad con los volcanes en el país?\n\na. ¿Qué tipo de límite de placa se ubica en las costas salvadoreñas?\n\nF. Premonitores de erupciones\n\n2. Explica lo que ocurre antes de la erupción e indica qué tipo de parámetro de monitoreo aumentó.\n\n3. Identifica en qué fase de la erupción se deben aplicar las siguientes medidas. Medida preventiva Fase Utilizar mascarillas o pañuelos húmedos para protegerse de ceniza volcánica.\n\nDisponer de un botiquín de primeros auxilios.\n\nAcudir a centros de atención médica si es necesario.\n\nEstablecer rutas de evacuación ante una emergencia.\n\nPermanecer en sitios seguros y estar pendiente de los avisos emitidos.\n\nSi es necesario desalojar la casa y ser evacuado.\n\np.\n\n173\n\np.\n\n173\n\nSemana 29",
+      "charCount": 918
+    },
+    {
+      "pageNumber": 75,
+      "text": "74 Indagación Formación y características de los suelos\n\nA. El suelo y sus propiedades\n\n3. Marca con una X si observaste algunos de esos componentes y menciona cuáles fueron.\n\nB. Procesos geológicos externos\n\n2. Describe cada uno de los procesos que observaste en las imágenes\n\n7. Anota lo que observaste durante la demostración.\n\nMateria orgánica Materia mineral Figura A Figura B Figura C Figura D Gelifracción Expansión térmica Actividad vegetal Lajeamiento Restos de seres vivos, excremento, madera, y tallos u hojas secas, hongos Fragmentos de rocas y minerales Cuando el agua se congela se expande, ejerciendo presión sobre la roca, lo cual termina fragmentándola.\n\nEl calentamiento de una roca produce expansión y el enfriamiento produce contracción, eso hace que las rocas se fragmenten. Las raíces vegetales crecen entre las fracturas de las rocas en busca de nutrientes, por lo que conforme crecen están van fragmentado las rocas.\n\nOcurre por la descompresión causada cuando el material ubicado por encima de la roca se remueve, quedando está expuesta en superficie, con lo cual la roca se expande y se fragmenta en capas delgadas o lajas.\n\np.\n\n174\n\n3. Asocia los procesos observados con las siguientes descripciones, colocando su literal.\n\n4. Describe las figuras E y F.\n\nFigura E Figura F\n\np.\n\n175",
+      "charCount": 1309
+    },
+    {
+      "pageNumber": 76,
+      "text": "75\n\nUnidad 6Semana 30\n\nC. Perfil de suelo y formación\n\n2. Completa el perfil de suelo\n\nHorizonte 0 cm 30 cm 60 cm 91 cm 121 cm 152 cm 185 cm\n\n4. Ordena las etapas de formación de los suelos\n\nFormación del suelo Orden Meteorización de la roca Materia orgánica y descomposición Formación de horizontes El suelo sustenta la vegetación, materia orgánica y mineral\n\n5. Explica con tus palabras cómo se estructura el suelo según el orden que estableciste y cómo interviene el proceso de meteorización con la formación de este.\n\np.\n\n176 Creatividad Comunicación\n\nD. Tipos de suelos\n\n6. Completa la tabla con la información obtenida del experimento.\n\nPorcentajes de suelo Muestra A Muestra B Arena Limo Arcilla Tipo de suelo\n\np.\n\n178",
+      "charCount": 725
+    },
+    {
+      "pageNumber": 77,
+      "text": "76 Indagación Erosión de los suelos\n\nA. Agentes erosivos\n\n1. ¿Qué puedes reconocer en las imágenes?\n\na. ¿Crees que el agua y el viento pueden transportar partículas de un lugar a otro? Explícalo con un ejemplo.\n\np.\n\n179 Creatividad\n\nB. Erosión natural\n\n6. Completa la siguiente tabla con la información que obtuviste del experimento:\n\na. ¿Cuál suelo es el más resistente a la erosión?\n\nb. ¿Qué le sucede al suelo desnudo?\n\nPregunta Botella 1:Hojas Botella 2:Desnudo Botella 3:Vegetación ¿Cuál es la cantidad de agua recuperada?\n\nColor y claridad del agua captada (turbidez):\n\n¿Se observan partículas de suelo suspendidas?\n\nComparativamente, ¿cuán rápido viaja el agua en cada botella?\n\np.\n\n180",
+      "charCount": 693
+    },
+    {
+      "pageNumber": 78,
+      "text": "77\n\nUnidad 6Semana 31\n\np.\n\n183\n\nC. Erosión antrópica\n\na. ¿Cómo han afectado los cambios que realizaste al proceso de erosión de los suelos? Explica los efectos que ocasionó tu intervención.\n\nComunicación\n\nD. Los suelos de El Salvador\n\nTipo de suelo Ubicación Aluviales Andisoles Grumosoles Halomórficos Latosoles arcillosos ácidos Latosoles arcillo-rojizos Litosoles Regosoles\n\np.\n\n181\n\n6.\n\n8. Completa la tabla.",
+      "charCount": 412
+    },
+    {
+      "pageNumber": 79,
+      "text": "78 Indagación Uso de los suelos\n\nA. Usos del suelo y elementos condicionantes\n\na. ¿Qué identificas en cada una de ellas?\n\nb. ¿Qué tienen en común?\n\n2. Asocia los elementos físicos que aparecen en tu lección con su respectiva descripción. Elementos condicionantes Elemento físico Tipo de textura, características y propiedades, capacidad de retención de agua.\n\nTemperatura, lluvia, evaporación durante el año, grado de humedad.\n\nLa pendiente, y altitud.\n\np.\n\n184\n\np.\n\n185 Creatividad\n\nB. Usos de suelo en El Salvador\n\nIdentifica los usos de suelo que se observan en nuestra comunidad.\n\nLocalidad:\n\nDepartamento o municipio Usos",
+      "charCount": 626
+    },
+    {
+      "pageNumber": 80,
+      "text": "79\n\nUnidad 6\n\nComunicación\n\nSemana 32\n\nD. Cambios en el uso de suelo de El Salvador\n\n7. Anota en la siguiente tabla, los usos en el municipio de San Francisco Gotera. Luego compáralos con los datos de uso de 1974.\n\nC. Uso potencial del suelo en El Salvador\n\n5. Identifica el uso de suelo, el uso potencial y la cobertura vegetal que se observan en tu comunidad.\n\nLocalidad:\n\n¿Qué has identificado?\n\nCobertura de suelo Capacidad de uso Uso actual San Francisco Gotera, Morazán Uso 1974 Uso actual Uso potencial Vegetación Más del 50 % es cultivo de Café\n\n8. Analiza los posibles cambios en el uso desde ese año hasta la actualidad, y responde: ¿es correcto el uso actual?\n\np.\n\n187\n\np.\n\n188",
+      "charCount": 688
+    },
+    {
+      "pageNumber": 81,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 82,
+      "text": "5 5 TELURIO Te (52) Ciencia y TecnologíaCuaderno de trabajo Cuaderno de trabajo Ciencia y Tecnología",
+      "charCount": 100
+    }
+  ]
+}

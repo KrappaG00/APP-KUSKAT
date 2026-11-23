@@ -94,7 +94,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 323 y 324 del Código Procesal Penal de El Salvador.",
     "distractorRationale": {
       "A": "La orden administrativa de detención es facultad privativa de la Fiscalía General de la República (Art. 193 Ord. 3° Cn. y Art. 325 PrPn), no del Jefe de Puesto policial.",
-      "B": "Respuesta correcta. La inmediatez de la persecución material ininterrumpida consolida la detención en flagrancia.",
+      "B": "Fundamento normativo (Arts. 323 y 324 del Código Procesal Penal de El Salvador): El Art. 323 y 324 del Código Procesal Penal tipifican la flagrancia no solo en el momento mismo de cometer el delito, sino cuando el autor es perseguido inmediatamente después de consumarlo por la… — Detención en flagrancia material por persecución ininterrumpida conforme al Art. 323 y 324 PrPn.",
       "C": "La retención policial sin lectura de derechos vulnera el Art. 82 PrPn y genera responsabilidad penal y disciplinaria.",
       "D": "El plazo perentorio constitucional para remitir al detenido a las autoridades judiciales a través de la FGR es de 72 horas (Art. 13 Cn.)."
     }
@@ -128,7 +128,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 191, 192, 250 a 252 del Código Procesal Penal y Manual de Procedimientos ITOP de la PNC.",
     "distractorRationale": {
       "A": "Manipular casquillos sin guantes y sin previa fijación fotográfica/planimétrica destruye huellas dactilares y contamina la evidencia balística.",
-      "B": "Respuesta correcta. El acordonamiento y aseguramiento riguroso garantiza la indemnidad probatoria del lugar.",
+      "B": "Fundamento normativo (Arts. 191, 192, 250 a 252 del Código Procesal Penal y Manual de Procedimientos ITOP de la PNC): La preservación estricta de la escena es el pilar de la investigación criminal (Arts. 191, 192 y 250 PrPn) — Preservar, acordonar y asegurar perimétricamente el lugar de los hechos con cinta policial, impidiendo el…",
       "C": "Mover el cadáver sin orden fiscal o judicial constituye delito de Fraude Procesal (Art. 306 Código Penal).",
       "D": "Las diligencias policiales deben documentarse estrictamente en acta para tener validez y control fiscal."
     }
@@ -158,11 +158,11 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Conforme al Art. 147-E del Código Penal y la Ley de Transporte Terrestre, Tránsito y Seguridad Vial, superar el límite normativo de alcohol al volante constituye delito de peligro abstracto (Conducción Peligrosa), obligando a la detención en flagrancia del conductor, retiro de licencia e inmovilización/remisión del vehículo.",
-    "legalBasis": "Art. 147-E del Código Penal y Ley de Transporte Terrestre, Tránsito y Seguridad Vial de El Salvador.",
+    "explanation": "Conforme al Art. 147-E del Código Penal (reforma de Cero Tolerancia) y la Ley de Transporte Terrestre, Tránsito y Seguridad Vial (incluyendo D.L. N.° 185/2025), cualquier nivel positivo de alcohol al volante constituye delito de peligro abstracto (Conducción Peligrosa, sancionado con 2 a 5 años de prisión para particulares y 5 a 10 años para transporte colectivo o carga), obligando a la detención en flagrancia del conductor, multa muy grave ($150.00), retiro de licencia e inmovilización/remisión del vehículo.",
+    "legalBasis": "Art. 147-E del Código Penal (reforma Cero Tolerancia) y Ley de Transporte Terrestre, Tránsito y Seguridad Vial de El Salvador (D.L. N.° 185/2025).",
     "distractorRationale": {
-      "A": "Un nivel de 135 mg/dl supera el umbral administrativo y constituye delito penal obligatorio de flagrancia; omitirlo configuraría Incumplimiento de Deberes.",
-      "B": "Respuesta correcta. Procede la detención formal con lectura de derechos y remisión a las autoridades correspondientes.",
+      "A": "Bajo el régimen vigente de Cero Tolerancia, cualquier nivel positivo de alcohol (y con mayor razón 135 mg/dl) configura delito penal obligatorio de flagrancia sin derecho a conciliación ni continuación de marcha; omitirlo configuraría Incumplimiento de Deberes.",
+      "B": "Fundamento normativo (Art. 147-E del Código Penal (reforma Cero Tolerancia) y Ley de Transporte Terrestre, Tránsito y Seguridad Vial de El Salvador (D.L. N.° 185/2025)): Conforme al Art. 147-E del Código Penal (reforma de Cero Tolerancia) y la Ley de Transporte Terrestre, Tránsito y Seguridad Vial (incluyendo D.L. N.° 185/2025), cualquier nivel positivo de alcohol al… — Proceder a la detención en flagrancia por el delito de Conducción Peligrosa de Vehículos de Motor (Art. 147-E…",
       "C": "La policía no puede resolver extrajudicialmente delitos penales perseguibles de oficio.",
       "D": "Es un procedimiento completamente ilegal y arbitrario."
     }
@@ -196,7 +196,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 250, 251 y 252 del Código Procesal Penal de El Salvador; Manual de Cadena de Custodia DPTC-PNC.",
     "distractorRationale": {
       "A": "Introducir objetos en el ánima del cañón raya el estriado balístico, alterando irreversiblemente las marcas de identidad pericial del arma.",
-      "B": "Respuesta correcta. Cumple con la fijación, medidas de seguridad de descarga, preservación dactiloscópica y embalaje reglamentario.",
+      "B": "Fundamento normativo (Arts. 250, 251 y 252 del Código Procesal Penal de El Salvador; Manual de Cadena de Custodia DPTC-PNC): El Manual de Procedimientos ITOP y los Arts. 250-251 PrPn exigen fijación fotográfica previa con testigo métrico, uso de guantes, manipulación por zonas de menor contacto dactilar, descarga… — Manipular el arma con guantes de nitrilo tomándola por el guardamonte o bordes estriados de las cachas,…",
       "C": "Limpiar el arma destruye huellas dactilares latentes y posibles muestras biológicas o de pólvora.",
       "D": "Mezclar indicios balísticos produce contaminación cruzada y vulnera la trazabilidad individual exigida por la cadena de custodia."
     }
@@ -230,7 +230,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 48, 49, 50 y 53 de la Ley de Responsabilidad Penal Juvenil (LRPJ) de El Salvador.",
     "distractorRationale": {
       "A": "Recluir a un menor con personas adultas constituye una violación grave a la LRPJ, a la Ley Crecer Juntos y a la Convención sobre los Derechos del Niño.",
-      "B": "Respuesta correcta. Asegura la separación de adultos, asistencia legal de la PGR, aviso fiscal y respeto de plazos procesales juveniles.",
+      "B": "Fundamento normativo (Arts. 48, 49, 50 y 53 de la Ley de Responsabilidad Penal Juvenil (LRPJ) de El Salvador): La Ley de Responsabilidad Penal Juvenil (Arts. 48, 49 y 53 LRPJ) y tratados internacionales de protección integral de la niñez prohíben taxativamente recluir a menores con adultos, imponen el aviso… — Notificar de inmediato la privación de libertad a la FGR (Unidad Penal Juvenil) y a la Procuraduría General…",
       "C": "Todo interrogatorio a un menor sin asistencia letrada técnica es nulo de pleno derecho y vulnera el debido proceso (Art. 12 Cn.).",
       "D": "La policía carece de facultades jurisdiccionales sancionatorias en materia penal de menores; la acción es pública y privativa de la FGR."
     }
@@ -264,7 +264,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 20 de la Constitución de la República; Arts. 55, 57 y 58 de la Ley Especial Integral para una Vida Libre de Violencia para las Mujeres (LEIV).",
     "distractorRationale": {
       "A": "Esperar una orden judicial mientras una persona está sufriendo agresión inminente configura delito de Omisión del Deber de Socorro e Incumplimiento de Deberes.",
-      "B": "Respuesta correcta. La Constitución autoriza el ingreso urgente para salvar vidas y la LEIV prohíbe taxativamente la conciliación.",
+      "B": "Fundamento normativo (Art. 20 de la Constitución de la República; Arts. 55, 57 y 58 de la Ley Especial Integral para una Vida Libre de Violencia para las Mujeres (LEIV)): El Art. 20 Cn. establece como excepción expresa a la inviolabilidad de morada el deber de socorrer a víctimas de delitos o cuando la vida de una persona corra peligro inminente — Ingresar de inmediato a la morada mediante la excepción constitucional de auxilio urgente a personas en…",
       "C": "La LEIV prohíbe de manera terminante y expresa la mediación y conciliación en situaciones de violencia hacia las mujeres.",
       "D": "Es una táctica dilatoria e irresponsable que pone en peligro mortal a la víctima atrapada con su agresor."
     }
@@ -298,9 +298,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn.",
     "distractorRationale": {
       "A": "El uso desmedido de fuerza física sin resistencia activa vulnera el principio de proporcionalidad y los estándares de derechos humanos.",
-      "B": "Respuesta correcta. Aplica la técnica reglamentaria de triángulo táctico, posición de control, registro exterior y lectura de derechos.",
+      "B": "La opción \"Exigir al ciudadano desnudarse completamente en la vía pública frente a transeúntes antes de…\" contraviene Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn, ya que la tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de…",
       "C": "El despojo forzoso de prendas en vía pública constituye vejación arbitraria y violación grave al Art. 19 inc. 2° PrPn y derechos humanos.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn): La tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de… — Ordenar al sujeto adoptar posición de seguridad (manos visibles sobre la nuca o pared, piernas separadas y…"
     }
   },
   {
@@ -331,8 +331,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de herramientas y armas con cadena de custodia e informe técnico pericial.",
     "legalBasis": "Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Cumple con el secado a temperatura ambiente, embalaje en papel kraft, etiquetado y precinto inviolable.",
+      "A": "Fundamento normativo (Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn): La tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de… — Fijar fotográficamente la prenda con testigo métrico, dejar secar la muestra a temperatura ambiente protegida…",
+      "B": "La opción \"Introducir inmediatamente la prenda húmeda dentro de una bolsa plástica transparente cerrada…\" contraviene Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn, ya que la tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de…",
       "C": "Lavar la evidencia destruye y diluye los fluidos corporales, constituyendo negligencia pericial o fraude procesal.",
       "D": "Entregar la evidencia a la víctima destruye la cadena de custodia y la pureza probatoria del proceso."
     }
@@ -366,7 +366,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn.",
     "distractorRationale": {
       "A": "Atender sin cobertura bajo fuego genera más bajas policiales y la gasa simple es inútil frente a un choque hipovolémico arterial agudo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn): La tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de… — Suprimir la amenaza armada enemiga, ordenar al herido ponerse a cubierto o extraerlo a zona segura y colocar…",
       "C": "Una acción absurda y letal que provocaría asfixia inmediata del funcionario herido.",
       "D": "Los servicios civiles de emergencia médica no ingresan a zonas calientes no aseguradas; el primer respondiente policial debe detener el sangrado."
     }
@@ -400,8 +400,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn.",
     "distractorRationale": {
       "A": "Diferir la lectura de derechos vulnera de forma flagrante el debido proceso y acarrea nulidad procesal absoluta.",
-      "B": "Respuesta correcta. La garantía opera in situ al consumar la aprehensión, documentándose fielmente en el acta.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"La lectura de derechos no es obligatoria para la PNC si el delito involucra vehículos robados…\" contraviene Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn, ya que la tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de…",
+      "C": "Fundamento normativo (Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn): La tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de… — En el acto mismo de la privación de libertad o inmediatamente después de asegurar físicamente al sospechoso,…",
       "D": "La información de derechos es un deber imperativo de oficio de la policía, no un trámite notarial rogado."
     }
   },
@@ -434,9 +434,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn.",
     "distractorRationale": {
       "A": "Permitir circular a un automotor con llantas lisas y sin papeles atenta contra la seguridad colectiva y tipifica omisión de deberes.",
-      "B": "Respuesta correcta. Inmovilización preventiva, sanciones reglamentarias, peritaje de chasis/placas e inventario formal de bienes.",
+      "B": "La opción \"Vender la carga del camión en la orilla de la carretera para pagar la multa en efectivo de…\" contraviene Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn, ya que la tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de…",
       "C": "La apropiación o venta de bienes retenidos constituye delito grave de Peculado o Concusión.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn): La tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de… — Imponer las esquelas de infracción administrativa correspondientes por llantas lisas, placas alteradas y…"
     }
   },
   {
@@ -467,8 +467,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de herramientas y armas con cadena de custodia e informe técnico pericial.",
     "legalBasis": "Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Captura en flagrancia por desobediencia a medidas judiciales, incautación del arma blanca y protección integral.",
+      "A": "Fundamento normativo (Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn): La tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de… — Desarmar y neutralizar al agresor salvaguardando la vida de la víctima y los agentes, proceder a su detención…",
+      "B": "La opción \"Pedir al agresor que se calme y proponer a la víctima que le prepare la cena para…\" contraviene Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn, ya que la tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de…",
       "C": "Negarse a prestar auxilio ante medidas judiciales vigentes constituye Incumplimiento de Deberes y Denegación de Auxilio.",
       "D": "Las autoridades policiales carecen de competencia para imponer multas monetarias en materia de violencia intrafamiliar."
     }
@@ -502,7 +502,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn.",
     "distractorRationale": {
       "A": "El uso desmedido de fuerza física sin resistencia activa vulnera el principio de proporcionalidad y los estándares de derechos humanos.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn): La tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de… — Ordenar al sujeto adoptar posición de seguridad (manos visibles sobre la nuca o pared, piernas separadas y… (Criterio pnc-cabo-013-B).",
       "C": "El despojo forzoso de prendas en vía pública constituye vejación arbitraria y violación grave al Art. 19 inc. 2° PrPn y derechos humanos.",
       "D": "Omitir el registro ante indicios vehementes de portación de armas vulnera el deber de prevención y seguridad de la patrulla."
     }
@@ -536,8 +536,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn.",
     "distractorRationale": {
       "A": "El plástico y el calor aceleran la putrefacción y la degradación enzimática del ADN, invalidando la prueba pericial biológica.",
-      "B": "Respuesta correcta. Cumple con el secado a temperatura ambiente, embalaje en papel kraft, etiquetado y precinto inviolable.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Lavar la prenda con agua destilada y jabón neutro en el lugar para aislar la mancha biológica…\" contraviene Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn, ya que la tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de…",
+      "C": "Fundamento normativo (Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn): La tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de… — Fijar fotográficamente la prenda con testigo métrico, dejar secar la muestra a temperatura ambiente protegida… (Criterio pnc-cabo-014-C).",
       "D": "Entregar la evidencia a la víctima destruye la cadena de custodia y la pureza probatoria del proceso."
     }
   },
@@ -570,9 +570,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn.",
     "distractorRationale": {
       "A": "Atender sin cobertura bajo fuego genera más bajas policiales y la gasa simple es inútil frente a un choque hipovolémico arterial agudo.",
-      "B": "Respuesta correcta. Control de fuego, cobertura táctica, torniquete arterial proximal efectivo y registro del tiempo transcurrido.",
+      "B": "La opción \"Aplicar un torniquete con una cuerda metálica apretada al cuello del agente para reducir el…\" contraviene Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn, ya que la tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de…",
       "C": "Una acción absurda y letal que provocaría asfixia inmediata del funcionario herido.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Ley Forestal; Art. 261 Código Penal (Depredación de Bosques); Art. 346-B CP; Art. 323 PrPn): La tala no autorizada en áreas protegidas y la tenencia de armas de fuego ilegales constituyen delitos flagrantes que obligan a la aprehensión física de los sospechosos, la incautación de… — Suprimir la amenaza armada enemiga, ordenar al herido ponerse a cubierto o extraerlo a zona segura y colocar… (Criterio pnc-cabo-015-D)."
     }
   },
   {
@@ -603,8 +603,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles. Deben manipularse exclusivamente con guantes de nitrilo tomándolos por los bordes internos o la base sin fricción, embalarse en cajas de cartón con soporte inmovilizador para que nada roce las paredes exteriores.",
     "legalBasis": "Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. La garantía opera in situ al consumar la aprehensión, documentándose fielmente en el acta.",
+      "A": "Fundamento normativo (Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía)): Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles — En el acto mismo de la privación de libertad o inmediatamente después de asegurar físicamente al sospechoso,…",
+      "B": "La opción \"Únicamente 70 horas después, minutos antes de que el detenido sea presentado ante el Juez de…\" contraviene Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía), ya que los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles.",
       "C": "Los derechos constitucionales son universales y aplican a cualquier tipo de delito sin excepción.",
       "D": "La información de derechos es un deber imperativo de oficio de la policía, no un trámite notarial rogado."
     }
@@ -638,7 +638,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía).",
     "distractorRationale": {
       "A": "Permitir circular a un automotor con llantas lisas y sin papeles atenta contra la seguridad colectiva y tipifica omisión de deberes.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía)): Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles — Imponer las esquelas de infracción administrativa correspondientes por llantas lisas, placas alteradas y…",
       "C": "La apropiación o venta de bienes retenidos constituye delito grave de Peculado o Concusión.",
       "D": "El DUI no es retenible administrativamente por infracciones de tránsito vehicular."
     }
@@ -672,8 +672,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía).",
     "distractorRationale": {
       "A": "Fomentar la reconciliación en un contexto de violencia feminicida es ilegal, prohibido expresamente por la LEIV y pone en peligro mortal a la víctima.",
-      "B": "Respuesta correcta. Captura en flagrancia por desobediencia a medidas judiciales, incautación del arma blanca y protección integral.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Informar a la mujer que la policía no interviene en pleitos matrimoniales y sugerirle que…\" contraviene Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía), ya que los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles.",
+      "C": "Fundamento normativo (Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía)): Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles — Desarmar y neutralizar al agresor salvaguardando la vida de la víctima y los agentes, proceder a su detención…",
       "D": "Las autoridades policiales carecen de competencia para imponer multas monetarias en materia de violencia intrafamiliar."
     }
   },
@@ -706,9 +706,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía).",
     "distractorRationale": {
       "A": "El uso desmedido de fuerza física sin resistencia activa vulnera el principio de proporcionalidad y los estándares de derechos humanos.",
-      "B": "Respuesta correcta. Aplica la técnica reglamentaria de triángulo táctico, posición de control, registro exterior y lectura de derechos.",
+      "B": "La opción \"Exigir al ciudadano desnudarse completamente en la vía pública frente a transeúntes antes de…\" contraviene Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía), ya que los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles.",
       "C": "El despojo forzoso de prendas en vía pública constituye vejación arbitraria y violación grave al Art. 19 inc. 2° PrPn y derechos humanos.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía)): Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles — Ordenar al sujeto adoptar posición de seguridad (manos visibles sobre la nuca o pared, piernas separadas y…"
     }
   },
   {
@@ -739,8 +739,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles. Deben manipularse exclusivamente con guantes de nitrilo tomándolos por los bordes internos o la base sin fricción, embalarse en cajas de cartón con soporte inmovilizador para que nada roce las paredes exteriores.",
     "legalBasis": "Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Cumple con el secado a temperatura ambiente, embalaje en papel kraft, etiquetado y precinto inviolable.",
+      "A": "Fundamento normativo (Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía)): Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles — Fijar fotográficamente la prenda con testigo métrico, dejar secar la muestra a temperatura ambiente protegida…",
+      "B": "La opción \"Introducir inmediatamente la prenda húmeda dentro de una bolsa plástica transparente cerrada…\" contraviene Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía), ya que los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles.",
       "C": "Lavar la evidencia destruye y diluye los fluidos corporales, constituyendo negligencia pericial o fraude procesal.",
       "D": "Entregar la evidencia a la víctima destruye la cadena de custodia y la pureza probatoria del proceso."
     }
@@ -774,7 +774,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía).",
     "distractorRationale": {
       "A": "Atender sin cobertura bajo fuego genera más bajas policiales y la gasa simple es inútil frente a un choque hipovolémico arterial agudo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía)): Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles — Suprimir la amenaza armada enemiga, ordenar al herido ponerse a cubierto o extraerlo a zona segura y colocar…",
       "C": "Una acción absurda y letal que provocaría asfixia inmediata del funcionario herido.",
       "D": "Los servicios civiles de emergencia médica no ingresan a zonas calientes no aseguradas; el primer respondiente policial debe detener el sangrado."
     }
@@ -808,8 +808,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía).",
     "distractorRationale": {
       "A": "Diferir la lectura de derechos vulnera de forma flagrante el debido proceso y acarrea nulidad procesal absoluta.",
-      "B": "Respuesta correcta. La garantía opera in situ al consumar la aprehensión, documentándose fielmente en el acta.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"La lectura de derechos no es obligatoria para la PNC si el delito involucra vehículos robados…\" contraviene Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía), ya que los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles.",
+      "C": "Fundamento normativo (Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía)): Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles — En el acto mismo de la privación de libertad o inmediatamente después de asegurar físicamente al sospechoso,… (Criterio pnc-cabo-022-C).",
       "D": "La información de derechos es un deber imperativo de oficio de la policía, no un trámite notarial rogado."
     }
   },
@@ -842,9 +842,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía).",
     "distractorRationale": {
       "A": "Permitir circular a un automotor con llantas lisas y sin papeles atenta contra la seguridad colectiva y tipifica omisión de deberes.",
-      "B": "Respuesta correcta. Inmovilización preventiva, sanciones reglamentarias, peritaje de chasis/placas e inventario formal de bienes.",
+      "B": "La opción \"Vender la carga del camión en la orilla de la carretera para pagar la multa en efectivo de…\" contraviene Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía), ya que los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles.",
       "C": "La apropiación o venta de bienes retenidos constituye delito grave de Peculado o Concusión.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía)): Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles — Imponer las esquelas de infracción administrativa correspondientes por llantas lisas, placas alteradas y… (Criterio pnc-cabo-023-D)."
     }
   },
   {
@@ -875,8 +875,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles. Deben manipularse exclusivamente con guantes de nitrilo tomándolos por los bordes internos o la base sin fricción, embalarse en cajas de cartón con soporte inmovilizador para que nada roce las paredes exteriores.",
     "legalBasis": "Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Captura en flagrancia por desobediencia a medidas judiciales, incautación del arma blanca y protección integral.",
+      "A": "Fundamento normativo (Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía)): Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles — Desarmar y neutralizar al agresor salvaguardando la vida de la víctima y los agentes, proceder a su detención… (Criterio pnc-cabo-024-A).",
+      "B": "La opción \"Pedir al agresor que se calme y proponer a la víctima que le prepare la cena para…\" contraviene Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía), ya que los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles.",
       "C": "Negarse a prestar auxilio ante medidas judiciales vigentes constituye Incumplimiento de Deberes y Denegación de Auxilio.",
       "D": "Las autoridades policiales carecen de competencia para imponer multas monetarias en materia de violencia intrafamiliar."
     }
@@ -910,7 +910,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía).",
     "distractorRationale": {
       "A": "El uso desmedido de fuerza física sin resistencia activa vulnera el principio de proporcionalidad y los estándares de derechos humanos.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 250 y 251 PrPn; Manual de Criminalística DPTC-PNC (Sección Dactiloscopía)): Los objetos con superficies pulidas no porosas como el vidrio albergan huellas dactilares latentes sumamente frágiles — Ordenar al sujeto adoptar posición de seguridad (manos visibles sobre la nuca o pared, piernas separadas y… (Criterio pnc-cabo-025-B).",
       "C": "El despojo forzoso de prendas en vía pública constituye vejación arbitraria y violación grave al Art. 19 inc. 2° PrPn y derechos humanos.",
       "D": "Omitir el registro ante indicios vehementes de portación de armas vulnera el deber de prevención y seguridad de la patrulla."
     }
@@ -944,8 +944,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador.",
     "distractorRationale": {
       "A": "El plástico y el calor aceleran la putrefacción y la degradación enzimática del ADN, invalidando la prueba pericial biológica.",
-      "B": "Respuesta correcta. Cumple con el secado a temperatura ambiente, embalaje en papel kraft, etiquetado y precinto inviolable.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Lavar la prenda con agua destilada y jabón neutro en el lugar para aislar la mancha biológica…\" contraviene Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador, ya que el reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías…",
+      "C": "Fundamento normativo (Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador): El reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías… — Fijar fotográficamente la prenda con testigo métrico, dejar secar la muestra a temperatura ambiente protegida…",
       "D": "Entregar la evidencia a la víctima destruye la cadena de custodia y la pureza probatoria del proceso."
     }
   },
@@ -978,9 +978,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador.",
     "distractorRationale": {
       "A": "Atender sin cobertura bajo fuego genera más bajas policiales y la gasa simple es inútil frente a un choque hipovolémico arterial agudo.",
-      "B": "Respuesta correcta. Control de fuego, cobertura táctica, torniquete arterial proximal efectivo y registro del tiempo transcurrido.",
+      "B": "La opción \"Aplicar un torniquete con una cuerda metálica apretada al cuello del agente para reducir el…\" contraviene Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador, ya que el reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías…",
       "C": "Una acción absurda y letal que provocaría asfixia inmediata del funcionario herido.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador): El reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías… — Suprimir la amenaza armada enemiga, ordenar al herido ponerse a cubierto o extraerlo a zona segura y colocar…"
     }
   },
   {
@@ -1011,8 +1011,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías semejantes, en condiciones de imparcialidad, sin inducir la respuesta y levantando acta circunstanciada que servirá como indicio para solicitar la rueda de personas judicial formal.",
     "legalBasis": "Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. La garantía opera in situ al consumar la aprehensión, documentándose fielmente en el acta.",
+      "A": "Fundamento normativo (Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador): El reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías… — En el acto mismo de la privación de libertad o inmediatamente después de asegurar físicamente al sospechoso,…",
+      "B": "La opción \"Únicamente 70 horas después, minutos antes de que el detenido sea presentado ante el Juez de…\" contraviene Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador, ya que el reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías…",
       "C": "Los derechos constitucionales son universales y aplican a cualquier tipo de delito sin excepción.",
       "D": "La información de derechos es un deber imperativo de oficio de la policía, no un trámite notarial rogado."
     }
@@ -1046,7 +1046,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador.",
     "distractorRationale": {
       "A": "Permitir circular a un automotor con llantas lisas y sin papeles atenta contra la seguridad colectiva y tipifica omisión de deberes.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador): El reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías… — Imponer las esquelas de infracción administrativa correspondientes por llantas lisas, placas alteradas y…",
       "C": "La apropiación o venta de bienes retenidos constituye delito grave de Peculado o Concusión.",
       "D": "El DUI no es retenible administrativamente por infracciones de tránsito vehicular."
     }
@@ -1080,8 +1080,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador.",
     "distractorRationale": {
       "A": "Fomentar la reconciliación en un contexto de violencia feminicida es ilegal, prohibido expresamente por la LEIV y pone en peligro mortal a la víctima.",
-      "B": "Respuesta correcta. Captura en flagrancia por desobediencia a medidas judiciales, incautación del arma blanca y protección integral.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Informar a la mujer que la policía no interviene en pleitos matrimoniales y sugerirle que…\" contraviene Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador, ya que el reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías…",
+      "C": "Fundamento normativo (Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador): El reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías… — Desarmar y neutralizar al agresor salvaguardando la vida de la víctima y los agentes, proceder a su detención…",
       "D": "Las autoridades policiales carecen de competencia para imponer multas monetarias en materia de violencia intrafamiliar."
     }
   },
@@ -1114,9 +1114,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador.",
     "distractorRationale": {
       "A": "El uso desmedido de fuerza física sin resistencia activa vulnera el principio de proporcionalidad y los estándares de derechos humanos.",
-      "B": "Respuesta correcta. Aplica la técnica reglamentaria de triángulo táctico, posición de control, registro exterior y lectura de derechos.",
+      "B": "La opción \"Exigir al ciudadano desnudarse completamente en la vía pública frente a transeúntes antes de…\" contraviene Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador, ya que el reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías…",
       "C": "El despojo forzoso de prendas en vía pública constituye vejación arbitraria y violación grave al Art. 19 inc. 2° PrPn y derechos humanos.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador): El reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías… — Ordenar al sujeto adoptar posición de seguridad (manos visibles sobre la nuca o pared, piernas separadas y…"
     }
   },
   {
@@ -1147,8 +1147,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías semejantes, en condiciones de imparcialidad, sin inducir la respuesta y levantando acta circunstanciada que servirá como indicio para solicitar la rueda de personas judicial formal.",
     "legalBasis": "Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Cumple con el secado a temperatura ambiente, embalaje en papel kraft, etiquetado y precinto inviolable.",
+      "A": "Fundamento normativo (Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador): El reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías… — Fijar fotográficamente la prenda con testigo métrico, dejar secar la muestra a temperatura ambiente protegida… (Criterio pnc-cabo-032-A).",
+      "B": "La opción \"Introducir inmediatamente la prenda húmeda dentro de una bolsa plástica transparente cerrada…\" contraviene Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador, ya que el reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías…",
       "C": "Lavar la evidencia destruye y diluye los fluidos corporales, constituyendo negligencia pericial o fraude procesal.",
       "D": "Entregar la evidencia a la víctima destruye la cadena de custodia y la pureza probatoria del proceso."
     }
@@ -1182,7 +1182,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador.",
     "distractorRationale": {
       "A": "Atender sin cobertura bajo fuego genera más bajas policiales y la gasa simple es inútil frente a un choque hipovolémico arterial agudo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador): El reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías… — Suprimir la amenaza armada enemiga, ordenar al herido ponerse a cubierto o extraerlo a zona segura y colocar… (Criterio pnc-cabo-033-B).",
       "C": "Una acción absurda y letal que provocaría asfixia inmediata del funcionario herido.",
       "D": "Los servicios civiles de emergencia médica no ingresan a zonas calientes no aseguradas; el primer respondiente policial debe detener el sangrado."
     }
@@ -1216,8 +1216,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador.",
     "distractorRationale": {
       "A": "Diferir la lectura de derechos vulnera de forma flagrante el debido proceso y acarrea nulidad procesal absoluta.",
-      "B": "Respuesta correcta. La garantía opera in situ al consumar la aprehensión, documentándose fielmente en el acta.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"La lectura de derechos no es obligatoria para la PNC si el delito involucra vehículos robados…\" contraviene Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador, ya que el reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías…",
+      "C": "Fundamento normativo (Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador): El reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías… — En el acto mismo de la privación de libertad o inmediatamente después de asegurar físicamente al sospechoso,… (Criterio pnc-cabo-034-C).",
       "D": "La información de derechos es un deber imperativo de oficio de la policía, no un trámite notarial rogado."
     }
   },
@@ -1250,9 +1250,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador.",
     "distractorRationale": {
       "A": "Permitir circular a un automotor con llantas lisas y sin papeles atenta contra la seguridad colectiva y tipifica omisión de deberes.",
-      "B": "Respuesta correcta. Inmovilización preventiva, sanciones reglamentarias, peritaje de chasis/placas e inventario formal de bienes.",
+      "B": "La opción \"Vender la carga del camión en la orilla de la carretera para pagar la multa en efectivo de…\" contraviene Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador, ya que el reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías…",
       "C": "La apropiación o venta de bienes retenidos constituye delito grave de Peculado o Concusión.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 253, 257 y 279 del Código Procesal Penal de El Salvador): El reconocimiento por fotografías en sede policial es una medida investigativa urgente que exige mostrar a la víctima un grupo de no menos de cuatro a seis fotografías de personas con fisonomías… — Imponer las esquelas de infracción administrativa correspondientes por llantas lisas, placas alteradas y… (Criterio pnc-cabo-035-D)."
     }
   },
   {
@@ -1283,8 +1283,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe establecer un perímetro de seguridad mínimo de 100 a 300 metros, evacuar a la población civil a cubierto y convocar de urgencia al equipo de desactivación de la División de Armas y Explosivos (DAE).",
     "legalBasis": "Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Captura en flagrancia por desobediencia a medidas judiciales, incautación del arma blanca y protección integral.",
+      "A": "Fundamento normativo (Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn): Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe… — Desarmar y neutralizar al agresor salvaguardando la vida de la víctima y los agentes, proceder a su detención…",
+      "B": "La opción \"Pedir al agresor que se calme y proponer a la víctima que le prepare la cena para…\" contraviene Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn, ya que ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe…",
       "C": "Negarse a prestar auxilio ante medidas judiciales vigentes constituye Incumplimiento de Deberes y Denegación de Auxilio.",
       "D": "Las autoridades policiales carecen de competencia para imponer multas monetarias en materia de violencia intrafamiliar."
     }
@@ -1318,7 +1318,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn.",
     "distractorRationale": {
       "A": "El uso desmedido de fuerza física sin resistencia activa vulnera el principio de proporcionalidad y los estándares de derechos humanos.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn): Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe… — Ordenar al sujeto adoptar posición de seguridad (manos visibles sobre la nuca o pared, piernas separadas y…",
       "C": "El despojo forzoso de prendas en vía pública constituye vejación arbitraria y violación grave al Art. 19 inc. 2° PrPn y derechos humanos.",
       "D": "Omitir el registro ante indicios vehementes de portación de armas vulnera el deber de prevención y seguridad de la patrulla."
     }
@@ -1352,8 +1352,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn.",
     "distractorRationale": {
       "A": "El plástico y el calor aceleran la putrefacción y la degradación enzimática del ADN, invalidando la prueba pericial biológica.",
-      "B": "Respuesta correcta. Cumple con el secado a temperatura ambiente, embalaje en papel kraft, etiquetado y precinto inviolable.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Lavar la prenda con agua destilada y jabón neutro en el lugar para aislar la mancha biológica…\" contraviene Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn, ya que ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe…",
+      "C": "Fundamento normativo (Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn): Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe… — Fijar fotográficamente la prenda con testigo métrico, dejar secar la muestra a temperatura ambiente protegida…",
       "D": "Entregar la evidencia a la víctima destruye la cadena de custodia y la pureza probatoria del proceso."
     }
   },
@@ -1386,9 +1386,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn.",
     "distractorRationale": {
       "A": "Atender sin cobertura bajo fuego genera más bajas policiales y la gasa simple es inútil frente a un choque hipovolémico arterial agudo.",
-      "B": "Respuesta correcta. Control de fuego, cobertura táctica, torniquete arterial proximal efectivo y registro del tiempo transcurrido.",
+      "B": "La opción \"Aplicar un torniquete con una cuerda metálica apretada al cuello del agente para reducir el…\" contraviene Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn, ya que ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe…",
       "C": "Una acción absurda y letal que provocaría asfixia inmediata del funcionario herido.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn): Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe… — Suprimir la amenaza armada enemiga, ordenar al herido ponerse a cubierto o extraerlo a zona segura y colocar…"
     }
   },
   {
@@ -1419,8 +1419,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe establecer un perímetro de seguridad mínimo de 100 a 300 metros, evacuar a la población civil a cubierto y convocar de urgencia al equipo de desactivación de la División de Armas y Explosivos (DAE).",
     "legalBasis": "Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. La garantía opera in situ al consumar la aprehensión, documentándose fielmente en el acta.",
+      "A": "Fundamento normativo (Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn): Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe… — En el acto mismo de la privación de libertad o inmediatamente después de asegurar físicamente al sospechoso,…",
+      "B": "La opción \"Únicamente 70 horas después, minutos antes de que el detenido sea presentado ante el Juez de…\" contraviene Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn, ya que ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe…",
       "C": "Los derechos constitucionales son universales y aplican a cualquier tipo de delito sin excepción.",
       "D": "La información de derechos es un deber imperativo de oficio de la policía, no un trámite notarial rogado."
     }
@@ -1454,7 +1454,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn.",
     "distractorRationale": {
       "A": "Permitir circular a un automotor con llantas lisas y sin papeles atenta contra la seguridad colectiva y tipifica omisión de deberes.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn): Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe… — Imponer las esquelas de infracción administrativa correspondientes por llantas lisas, placas alteradas y…",
       "C": "La apropiación o venta de bienes retenidos constituye delito grave de Peculado o Concusión.",
       "D": "El DUI no es retenible administrativamente por infracciones de tránsito vehicular."
     }
@@ -1488,8 +1488,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn.",
     "distractorRationale": {
       "A": "Fomentar la reconciliación en un contexto de violencia feminicida es ilegal, prohibido expresamente por la LEIV y pone en peligro mortal a la víctima.",
-      "B": "Respuesta correcta. Captura en flagrancia por desobediencia a medidas judiciales, incautación del arma blanca y protección integral.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Informar a la mujer que la policía no interviene en pleitos matrimoniales y sugerirle que…\" contraviene Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn, ya que ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe…",
+      "C": "Fundamento normativo (Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn): Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe… — Desarmar y neutralizar al agresor salvaguardando la vida de la víctima y los agentes, proceder a su detención… (Criterio pnc-cabo-042-C).",
       "D": "Las autoridades policiales carecen de competencia para imponer multas monetarias en materia de violencia intrafamiliar."
     }
   },
@@ -1522,9 +1522,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn.",
     "distractorRationale": {
       "A": "El uso desmedido de fuerza física sin resistencia activa vulnera el principio de proporcionalidad y los estándares de derechos humanos.",
-      "B": "Respuesta correcta. Aplica la técnica reglamentaria de triángulo táctico, posición de control, registro exterior y lectura de derechos.",
+      "B": "La opción \"Exigir al ciudadano desnudarse completamente en la vía pública frente a transeúntes antes de…\" contraviene Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn, ya que ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe…",
       "C": "El despojo forzoso de prendas en vía pública constituye vejación arbitraria y violación grave al Art. 19 inc. 2° PrPn y derechos humanos.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn): Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe… — Ordenar al sujeto adoptar posición de seguridad (manos visibles sobre la nuca o pared, piernas separadas y… (Criterio pnc-cabo-043-D)."
     }
   },
   {
@@ -1555,8 +1555,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe establecer un perímetro de seguridad mínimo de 100 a 300 metros, evacuar a la población civil a cubierto y convocar de urgencia al equipo de desactivación de la División de Armas y Explosivos (DAE).",
     "legalBasis": "Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Cumple con el secado a temperatura ambiente, embalaje en papel kraft, etiquetado y precinto inviolable.",
+      "A": "Fundamento normativo (Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn): Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe… — Fijar fotográficamente la prenda con testigo métrico, dejar secar la muestra a temperatura ambiente protegida… (Criterio pnc-cabo-044-A).",
+      "B": "La opción \"Introducir inmediatamente la prenda húmeda dentro de una bolsa plástica transparente cerrada…\" contraviene Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn, ya que ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe…",
       "C": "Lavar la evidencia destruye y diluye los fluidos corporales, constituyendo negligencia pericial o fraude procesal.",
       "D": "Entregar la evidencia a la víctima destruye la cadena de custodia y la pureza probatoria del proceso."
     }
@@ -1590,7 +1590,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn.",
     "distractorRationale": {
       "A": "Atender sin cobertura bajo fuego genera más bajas policiales y la gasa simple es inútil frente a un choque hipovolémico arterial agudo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Protocolo de Seguridad contra Amenazas de Explosivos de la División de Armas y Explosivos (DAE-PNC); Arts. 191 PrPn): Ante sospecha fundada de un artefacto explosivo improvisado (AEI), el primer respondiente policial tiene prohibido tocar, mover, abrir o transmitir por radiofrecuencia a corta distancia; debe… — Suprimir la amenaza armada enemiga, ordenar al herido ponerse a cubierto o extraerlo a zona segura y colocar… (Criterio pnc-cabo-045-B).",
       "C": "Una acción absurda y letal que provocaría asfixia inmediata del funcionario herido.",
       "D": "Los servicios civiles de emergencia médica no ingresan a zonas calientes no aseguradas; el primer respondiente policial debe detener el sangrado."
     }
@@ -1624,8 +1624,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas).",
     "distractorRationale": {
       "A": "Diferir la lectura de derechos vulnera de forma flagrante el debido proceso y acarrea nulidad procesal absoluta.",
-      "B": "Respuesta correcta. La garantía opera in situ al consumar la aprehensión, documentándose fielmente en el acta.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"La lectura de derechos no es obligatoria para la PNC si el delito involucra vehículos robados…\" contraviene Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas), ya que bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico…",
+      "C": "Fundamento normativo (Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas)): Bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico… — En el acto mismo de la privación de libertad o inmediatamente después de asegurar físicamente al sospechoso,…",
       "D": "La información de derechos es un deber imperativo de oficio de la policía, no un trámite notarial rogado."
     }
   },
@@ -1658,9 +1658,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas).",
     "distractorRationale": {
       "A": "Permitir circular a un automotor con llantas lisas y sin papeles atenta contra la seguridad colectiva y tipifica omisión de deberes.",
-      "B": "Respuesta correcta. Inmovilización preventiva, sanciones reglamentarias, peritaje de chasis/placas e inventario formal de bienes.",
+      "B": "La opción \"Vender la carga del camión en la orilla de la carretera para pagar la multa en efectivo de…\" contraviene Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas), ya que bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico…",
       "C": "La apropiación o venta de bienes retenidos constituye delito grave de Peculado o Concusión.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas)): Bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico… — Imponer las esquelas de infracción administrativa correspondientes por llantas lisas, placas alteradas y…"
     }
   },
   {
@@ -1691,8 +1691,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico hospitalario urgente, dar aviso de oficio e inmediato al CONAPINA y a la FGR para el inicio de medidas de protección y procesar penalmente a los progenitores o cuidadores por abandono y maltrato.",
     "legalBasis": "Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Captura en flagrancia por desobediencia a medidas judiciales, incautación del arma blanca y protección integral.",
+      "A": "Fundamento normativo (Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas)): Bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico… — Desarmar y neutralizar al agresor salvaguardando la vida de la víctima y los agentes, proceder a su detención…",
+      "B": "La opción \"Pedir al agresor que se calme y proponer a la víctima que le prepare la cena para…\" contraviene Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas), ya que bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico…",
       "C": "Negarse a prestar auxilio ante medidas judiciales vigentes constituye Incumplimiento de Deberes y Denegación de Auxilio.",
       "D": "Las autoridades policiales carecen de competencia para imponer multas monetarias en materia de violencia intrafamiliar."
     }
@@ -1726,7 +1726,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas).",
     "distractorRationale": {
       "A": "El uso desmedido de fuerza física sin resistencia activa vulnera el principio de proporcionalidad y los estándares de derechos humanos.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas)): Bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico… — Ordenar al sujeto adoptar posición de seguridad (manos visibles sobre la nuca o pared, piernas separadas y…",
       "C": "El despojo forzoso de prendas en vía pública constituye vejación arbitraria y violación grave al Art. 19 inc. 2° PrPn y derechos humanos.",
       "D": "Omitir el registro ante indicios vehementes de portación de armas vulnera el deber de prevención y seguridad de la patrulla."
     }
@@ -1760,8 +1760,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas).",
     "distractorRationale": {
       "A": "El plástico y el calor aceleran la putrefacción y la degradación enzimática del ADN, invalidando la prueba pericial biológica.",
-      "B": "Respuesta correcta. Cumple con el secado a temperatura ambiente, embalaje en papel kraft, etiquetado y precinto inviolable.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Lavar la prenda con agua destilada y jabón neutro en el lugar para aislar la mancha biológica…\" contraviene Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas), ya que bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico…",
+      "C": "Fundamento normativo (Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas)): Bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico… — Fijar fotográficamente la prenda con testigo métrico, dejar secar la muestra a temperatura ambiente protegida…",
       "D": "Entregar la evidencia a la víctima destruye la cadena de custodia y la pureza probatoria del proceso."
     }
   },
@@ -1794,9 +1794,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas).",
     "distractorRationale": {
       "A": "Atender sin cobertura bajo fuego genera más bajas policiales y la gasa simple es inútil frente a un choque hipovolémico arterial agudo.",
-      "B": "Respuesta correcta. Control de fuego, cobertura táctica, torniquete arterial proximal efectivo y registro del tiempo transcurrido.",
+      "B": "La opción \"Aplicar un torniquete con una cuerda metálica apretada al cuello del agente para reducir el…\" contraviene Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas), ya que bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico…",
       "C": "Una acción absurda y letal que provocaría asfixia inmediata del funcionario herido.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas)): Bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico… — Suprimir la amenaza armada enemiga, ordenar al herido ponerse a cubierto o extraerlo a zona segura y colocar…"
     }
   },
   {
@@ -1827,8 +1827,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico hospitalario urgente, dar aviso de oficio e inmediato al CONAPINA y a la FGR para el inicio de medidas de protección y procesar penalmente a los progenitores o cuidadores por abandono y maltrato.",
     "legalBasis": "Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. La garantía opera in situ al consumar la aprehensión, documentándose fielmente en el acta.",
+      "A": "Fundamento normativo (Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas)): Bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico… — En el acto mismo de la privación de libertad o inmediatamente después de asegurar físicamente al sospechoso,… (Criterio pnc-cabo-052-A).",
+      "B": "La opción \"Únicamente 70 horas después, minutos antes de que el detenido sea presentado ante el Juez de…\" contraviene Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas), ya que bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico…",
       "C": "Los derechos constitucionales son universales y aplican a cualquier tipo de delito sin excepción.",
       "D": "La información de derechos es un deber imperativo de oficio de la policía, no un trámite notarial rogado."
     }
@@ -1862,7 +1862,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas).",
     "distractorRationale": {
       "A": "Permitir circular a un automotor con llantas lisas y sin papeles atenta contra la seguridad colectiva y tipifica omisión de deberes.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas)): Bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico… — Imponer las esquelas de infracción administrativa correspondientes por llantas lisas, placas alteradas y… (Criterio pnc-cabo-053-B).",
       "C": "La apropiación o venta de bienes retenidos constituye delito grave de Peculado o Concusión.",
       "D": "El DUI no es retenible administrativamente por infracciones de tránsito vehicular."
     }
@@ -1896,8 +1896,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas).",
     "distractorRationale": {
       "A": "Fomentar la reconciliación en un contexto de violencia feminicida es ilegal, prohibido expresamente por la LEIV y pone en peligro mortal a la víctima.",
-      "B": "Respuesta correcta. Captura en flagrancia por desobediencia a medidas judiciales, incautación del arma blanca y protección integral.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Informar a la mujer que la policía no interviene en pleitos matrimoniales y sugerirle que…\" contraviene Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas), ya que bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico…",
+      "C": "Fundamento normativo (Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas)): Bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico… — Desarmar y neutralizar al agresor salvaguardando la vida de la víctima y los agentes, proceder a su detención… (Criterio pnc-cabo-054-C).",
       "D": "Las autoridades policiales carecen de competencia para imponer multas monetarias en materia de violencia intrafamiliar."
     }
   },
@@ -1930,9 +1930,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas).",
     "distractorRationale": {
       "A": "El uso desmedido de fuerza física sin resistencia activa vulnera el principio de proporcionalidad y los estándares de derechos humanos.",
-      "B": "Respuesta correcta. Aplica la técnica reglamentaria de triángulo táctico, posición de control, registro exterior y lectura de derechos.",
+      "B": "La opción \"Exigir al ciudadano desnudarse completamente en la vía pública frente a transeúntes antes de…\" contraviene Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas), ya que bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico…",
       "C": "El despojo forzoso de prendas en vía pública constituye vejación arbitraria y violación grave al Art. 19 inc. 2° PrPn y derechos humanos.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 16, 17, 115 y 118 de la Ley Crecer Juntos; Arts. 199 Código Penal (Abandono y Desamparo de Personas)): Bajo la doctrina de protección integral y la Ley Crecer Juntos, los funcionarios policiales deben resguardar de inmediato a los infantes en un entorno seguro y cálido, coordinar auxilio médico… — Ordenar al sujeto adoptar posición de seguridad (manos visibles sobre la nuca o pared, piernas separadas y… (Criterio pnc-cabo-055-D)."
     }
   },
   {
@@ -1963,8 +1963,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad inmediata del delito perseguido, el mando policial debe priorizar la vida humana, mantener el rastreo a distancia mediante enlace radial, monitoreo de cámaras de videovigilancia y cierres de contención perimétricos adelante.",
     "legalBasis": "Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Cumple con el secado a temperatura ambiente, embalaje en papel kraft, etiquetado y precinto inviolable.",
+      "A": "Fundamento normativo (Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad): En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad… — Fijar fotográficamente la prenda con testigo métrico, dejar secar la muestra a temperatura ambiente protegida…",
+      "B": "La opción \"Introducir inmediatamente la prenda húmeda dentro de una bolsa plástica transparente cerrada…\" contraviene Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad, ya que en persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad…",
       "C": "Lavar la evidencia destruye y diluye los fluidos corporales, constituyendo negligencia pericial o fraude procesal.",
       "D": "Entregar la evidencia a la víctima destruye la cadena de custodia y la pureza probatoria del proceso."
     }
@@ -1998,7 +1998,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad.",
     "distractorRationale": {
       "A": "Atender sin cobertura bajo fuego genera más bajas policiales y la gasa simple es inútil frente a un choque hipovolémico arterial agudo.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad): En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad… — Suprimir la amenaza armada enemiga, ordenar al herido ponerse a cubierto o extraerlo a zona segura y colocar…",
       "C": "Una acción absurda y letal que provocaría asfixia inmediata del funcionario herido.",
       "D": "Los servicios civiles de emergencia médica no ingresan a zonas calientes no aseguradas; el primer respondiente policial debe detener el sangrado."
     }
@@ -2032,8 +2032,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad.",
     "distractorRationale": {
       "A": "Diferir la lectura de derechos vulnera de forma flagrante el debido proceso y acarrea nulidad procesal absoluta.",
-      "B": "Respuesta correcta. La garantía opera in situ al consumar la aprehensión, documentándose fielmente en el acta.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"La lectura de derechos no es obligatoria para la PNC si el delito involucra vehículos robados…\" contraviene Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad, ya que en persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad…",
+      "C": "Fundamento normativo (Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad): En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad… — En el acto mismo de la privación de libertad o inmediatamente después de asegurar físicamente al sospechoso,…",
       "D": "La información de derechos es un deber imperativo de oficio de la policía, no un trámite notarial rogado."
     }
   },
@@ -2066,9 +2066,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad.",
     "distractorRationale": {
       "A": "Permitir circular a un automotor con llantas lisas y sin papeles atenta contra la seguridad colectiva y tipifica omisión de deberes.",
-      "B": "Respuesta correcta. Inmovilización preventiva, sanciones reglamentarias, peritaje de chasis/placas e inventario formal de bienes.",
+      "B": "La opción \"Vender la carga del camión en la orilla de la carretera para pagar la multa en efectivo de…\" contraviene Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad, ya que en persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad…",
       "C": "La apropiación o venta de bienes retenidos constituye delito grave de Peculado o Concusión.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad): En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad… — Imponer las esquelas de infracción administrativa correspondientes por llantas lisas, placas alteradas y…"
     }
   },
   {
@@ -2099,8 +2099,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad inmediata del delito perseguido, el mando policial debe priorizar la vida humana, mantener el rastreo a distancia mediante enlace radial, monitoreo de cámaras de videovigilancia y cierres de contención perimétricos adelante.",
     "legalBasis": "Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Captura en flagrancia por desobediencia a medidas judiciales, incautación del arma blanca y protección integral.",
+      "A": "Fundamento normativo (Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad): En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad… — Desarmar y neutralizar al agresor salvaguardando la vida de la víctima y los agentes, proceder a su detención…",
+      "B": "La opción \"Pedir al agresor que se calme y proponer a la víctima que le prepare la cena para…\" contraviene Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad, ya que en persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad…",
       "C": "Negarse a prestar auxilio ante medidas judiciales vigentes constituye Incumplimiento de Deberes y Denegación de Auxilio.",
       "D": "Las autoridades policiales carecen de competencia para imponer multas monetarias en materia de violencia intrafamiliar."
     }
@@ -2134,7 +2134,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad.",
     "distractorRationale": {
       "A": "El uso desmedido de fuerza física sin resistencia activa vulnera el principio de proporcionalidad y los estándares de derechos humanos.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad): En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad… — Ordenar al sujeto adoptar posición de seguridad (manos visibles sobre la nuca o pared, piernas separadas y…",
       "C": "El despojo forzoso de prendas en vía pública constituye vejación arbitraria y violación grave al Art. 19 inc. 2° PrPn y derechos humanos.",
       "D": "Omitir el registro ante indicios vehementes de portación de armas vulnera el deber de prevención y seguridad de la patrulla."
     }
@@ -2168,8 +2168,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad.",
     "distractorRationale": {
       "A": "El plástico y el calor aceleran la putrefacción y la degradación enzimática del ADN, invalidando la prueba pericial biológica.",
-      "B": "Respuesta correcta. Cumple con el secado a temperatura ambiente, embalaje en papel kraft, etiquetado y precinto inviolable.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Lavar la prenda con agua destilada y jabón neutro en el lugar para aislar la mancha biológica…\" contraviene Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad, ya que en persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad…",
+      "C": "Fundamento normativo (Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad): En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad… — Fijar fotográficamente la prenda con testigo métrico, dejar secar la muestra a temperatura ambiente protegida… (Criterio pnc-cabo-062-C).",
       "D": "Entregar la evidencia a la víctima destruye la cadena de custodia y la pureza probatoria del proceso."
     }
   },
@@ -2202,9 +2202,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad.",
     "distractorRationale": {
       "A": "Atender sin cobertura bajo fuego genera más bajas policiales y la gasa simple es inútil frente a un choque hipovolémico arterial agudo.",
-      "B": "Respuesta correcta. Control de fuego, cobertura táctica, torniquete arterial proximal efectivo y registro del tiempo transcurrido.",
+      "B": "La opción \"Aplicar un torniquete con una cuerda metálica apretada al cuello del agente para reducir el…\" contraviene Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad, ya que en persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad…",
       "C": "Una acción absurda y letal que provocaría asfixia inmediata del funcionario herido.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad): En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad… — Suprimir la amenaza armada enemiga, ordenar al herido ponerse a cubierto o extraerlo a zona segura y colocar… (Criterio pnc-cabo-063-D)."
     }
   },
   {
@@ -2235,8 +2235,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad inmediata del delito perseguido, el mando policial debe priorizar la vida humana, mantener el rastreo a distancia mediante enlace radial, monitoreo de cámaras de videovigilancia y cierres de contención perimétricos adelante.",
     "legalBasis": "Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. La garantía opera in situ al consumar la aprehensión, documentándose fielmente en el acta.",
+      "A": "Fundamento normativo (Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad): En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad… — En el acto mismo de la privación de libertad o inmediatamente después de asegurar físicamente al sospechoso,… (Criterio pnc-cabo-064-A).",
+      "B": "La opción \"Únicamente 70 horas después, minutos antes de que el detenido sea presentado ante el Juez de…\" contraviene Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad, ya que en persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad…",
       "C": "Los derechos constitucionales son universales y aplican a cualquier tipo de delito sin excepción.",
       "D": "La información de derechos es un deber imperativo de oficio de la policía, no un trámite notarial rogado."
     }
@@ -2270,7 +2270,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad.",
     "distractorRationale": {
       "A": "Permitir circular a un automotor con llantas lisas y sin papeles atenta contra la seguridad colectiva y tipifica omisión de deberes.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad): En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad… — Imponer las esquelas de infracción administrativa correspondientes por llantas lisas, placas alteradas y… (Criterio pnc-cabo-065-B).",
       "C": "La apropiación o venta de bienes retenidos constituye delito grave de Peculado o Concusión.",
       "D": "El DUI no es retenible administrativamente por infracciones de tránsito vehicular."
     }
@@ -2304,8 +2304,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad.",
     "distractorRationale": {
       "A": "Fomentar la reconciliación en un contexto de violencia feminicida es ilegal, prohibido expresamente por la LEIV y pone en peligro mortal a la víctima.",
-      "B": "Respuesta correcta. Captura en flagrancia por desobediencia a medidas judiciales, incautación del arma blanca y protección integral.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Informar a la mujer que la policía no interviene en pleitos matrimoniales y sugerirle que…\" contraviene Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad, ya que en persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad…",
+      "C": "Fundamento normativo (Reglamento de Tránsito y Seguridad Vial; Manual de Patrullas Policiales PNC; Principios de Necesidad y Proporcionalidad): En persecuciones vehiculares urbanas rige el principio de ponderación del riesgo: si el peligro potencial que la persecución genera para la vida de transeúntes inocentes sobrepasa la gravedad… — Desarmar y neutralizar al agresor salvaguardando la vida de la víctima y los agentes, proceder a su detención… (Criterio pnc-cabo-066-C).",
       "D": "Las autoridades policiales carecen de competencia para imponer multas monetarias en materia de violencia intrafamiliar."
     }
   },
@@ -2338,7 +2338,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de la Carrera Policial de El Salvador (Sección de Faltas Disciplinarias y Sanciones).",
     "distractorRationale": {
       "A": "El abandono de servicio con uniforme y ebriedad no es falta leve; encubre un grave riesgo a la seguridad pública y desprestigio institucional.",
-      "B": "Respuesta correcta. La gravedad de la conducta amerita el procedimiento de falta muy grave ante el órgano disciplinario competente.",
+      "B": "Fundamento normativo (Ley de la Carrera Policial de El Salvador (Sección de Faltas Disciplinarias y Sanciones)): La Ley de la Carrera Policial tipifica como Faltas Muy Graves el abandono del servicio asignado y la ingestión de bebidas alcohólicas o estupefacientes vistiendo el uniforme o insignias policiales o… — Falta muy grave por abandono del servicio e ingerir bebidas alcohólicas vistiendo prendas del uniforme…",
       "C": "El personal de la PNC se rige por su régimen estatutario especial (Ley de la Carrera Policial), no por el Código de Trabajo común.",
       "D": "Las faltas graves y muy graves tienen plazos de prescripción más amplios y exigen investigación rigurosa."
     }
@@ -2372,7 +2372,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 20 de la Constitución de la República y Arts. 195 a 198 del Código Procesal Penal.",
     "distractorRationale": {
       "A": "Ningún mando policial posee potestad constitucional para ordenar allanamientos a morada por sí solo sin orden judicial previa.",
-      "B": "Respuesta correcta. La reserva judicial garantiza la legalidad de la intromisión en el domicilio.",
+      "B": "Fundamento normativo (Art. 20 de la Constitución de la República y Arts. 195 a 198 del Código Procesal Penal): El Art. 20 de la Constitución salvadoreña consagra la inviolabilidad de la morada — Mediante orden judicial de allanamiento fundamentada emitida por el Juez de Paz o de Instrucción competente a…",
       "C": "Los alcaldes municipales no tienen facultades judiciales penales ni procesales.",
       "D": "El horario no exime del requisito ineludible de la orden judicial de allanamiento."
     }
@@ -2406,7 +2406,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 56 a 65 de la Ley de la Carrera Policial de El Salvador; Ley de la Inspectoría General de Seguridad Pública.",
     "distractorRationale": {
       "A": "El arresto disciplinario de facto sin proceso administrativo previo viola el derecho constitucional de defensa y presunción de inocencia (Arts. 11 y 12 Cn.).",
-      "B": "Respuesta correcta. Cumple con el deber de documentar, remitir al tribunal disciplinario competente e informar a la Inspectoría General respetando garantías.",
+      "B": "Fundamento normativo (Arts. 56 a 65 de la Ley de la Carrera Policial de El Salvador; Ley de la Inspectoría General de Seguridad Pública): La Ley de la Carrera Policial establece que ante conductas que configuren faltas graves o muy graves (como desatención deliberada a la ciudadanía, trato vejatorio o incumplimiento de deberes), el… — Elaborar de inmediato el informe circunstanciado de los hechos, remitirlo a la Unidad de Investigación…",
       "C": "Las denuncias ciudadanas contra servidores policiales no requieren acta notarial para ser investigadas de oficio.",
       "D": "La omisión de reporte disciplinario por parte del mando constituye a su vez una falta grave de encubrimiento e incumplimiento de deberes."
     }
@@ -2440,7 +2440,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Manual de Procedimientos de Armería de la PNC; Arts. 271 PrPn y Arts. 306 y 346-B del Código Penal de El Salvador.",
     "distractorRationale": {
       "A": "La demora y la informalidad ante la pérdida de un arma de guerra institucional constituye negligencia grave y complicidad procesal.",
-      "B": "Respuesta correcta. Congela la escena documental, inmoviliza personal para indagación y activa formalmente los canales penales y disciplinarios.",
+      "B": "Fundamento normativo (Manual de Procedimientos de Armería de la PNC; Arts. 271 PrPn y Arts. 306 y 346-B del Código Penal de El Salvador): El extravío o sustracción de armas de fuego y municiones institucionales representa un grave peligro para la seguridad nacional y un delito penal — No recibir el puesto de armería, asegurar y congelar de inmediato el libro de control y bitácoras, ordenar la…",
       "C": "Alterar o reponer ilícitamente pertrechos institucionales constituye delito de fraude procesal y encubrimiento.",
       "D": "Asentar hechos falsos en libros oficiales configura el delito de Falsedad Documental Agravada (Art. 284 CP)."
     }
@@ -2474,7 +2474,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 271, 273 y 276 del Código Procesal Penal de El Salvador.",
     "distractorRationale": {
       "A": "La inacción policial ante indicios volátiles vulnera el Art. 271 PrPn y provoca la pérdida irremediable de evidencia probatoria.",
-      "B": "Respuesta correcta. Define con exactitud la potestad legal policial para la ejecución autónoma de actos urgentes de comprobación.",
+      "B": "Fundamento normativo (Arts. 271, 273 y 276 del Código Procesal Penal de El Salvador): El Art. 271 PrPn faculta expresamente a la policía a realizar por iniciativa propia los actos urgentes de comprobación destinados a asegurar indicios, auxiliar a víctimas, identificar sospechosos y… — Realizar por iniciativa propia los actos urgentes de comprobación indispensables: auxiliar a posibles…",
       "C": "La intervención de cuentas bancarias requiere estricta autorización judicial por afectar el secreto bancario y garantías patrimoniales.",
       "D": "Los delitos de acción pública como el robo agravado no son transigibles ni susceptibles de convenios privados que eludan la justicia penal."
     }
@@ -2508,7 +2508,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 27 inc. 2° de la Constitución de El Salvador; Reglas Mínimas de la ONU para el Tratamiento de los Reclusos (Reglas Nelson Mandela).",
     "distractorRationale": {
       "A": "La pertenencia a grupos ilícitos no deroga el principio absoluto de prohibición de tortura y tratos crueles, inhumanos o degradantes.",
-      "B": "Respuesta correcta. El mando policial debe ejercer control supervisor para impedir abusos y garantizar el uso regulado y digno de medios coercitivos.",
+      "B": "Fundamento normativo (Art. 27 inc. 2° de la Constitución de El Salvador; Reglas Mínimas de la ONU para el Tratamiento de los Reclusos (Reglas Nelson Mandela)): El Art. 27 de la Constitución prohíbe las penas degradantes, la tortura y los tratos inhumanos — Ordenar de inmediato el cese de dicha práctica abusiva, exigir el empleo exclusivo de esposas o grilletes…",
       "C": "Los medios de sujeción no reglamentarios e improvisados (como cables) están terminantemente prohibidos sin importar la duración.",
       "D": "La seguridad y custodia física de los imputados bajo custodia policial es deber ineludible y directo de los mandos de la PNC."
     }
@@ -2542,9 +2542,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP.",
     "distractorRationale": {
       "A": "Reemplazar libros oficiales clandestinamente constituye fraude y encubrimiento de delitos institucionales.",
-      "B": "Respuesta correcta. Preservación del indicio, denuncia penal obligatoria por falsedad y apertura de expediente de falta muy grave.",
+      "B": "La opción \"Amonestar verbalmente al agente en privado y permitirle colocar cinta adhesiva sobre las…\" contraviene Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP, ya que el Estado ejerce posición de garante absoluto sobre las personas privadas de libertad.",
       "C": "La alteración de documentos oficiales no es subsanable con amonestaciones verbales ni remiendos.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP): El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad — Elaborar acta de constatación fotográfica del estado del libro, congelar y resguardar el libro como indicio…"
     }
   },
   {
@@ -2575,8 +2575,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad. Ante un cuadro médico de urgencia, el supervisor debe ordenar el traslado hospitalario inmediato bajo custodia armada, notificar a Medicina Legal (IML), FGR y sancionar al personal omiso.",
     "legalBasis": "Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Garantiza el cumplimiento estricto del plazo de 72 horas de control judicial y salvaguarda la legalidad.",
+      "A": "Fundamento normativo (Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP): El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad — Ordenar el traslado inmediato y prioritario del detenido y de las actuaciones policiales ante la FGR y el…",
+      "B": "La opción \"Mantener al reo en la subdelegación por cinco días más argumentando sobrecarga de trabajo…\" contraviene Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP, ya que el Estado ejerce posición de garante absoluto sobre las personas privadas de libertad.",
       "C": "Liberar irregularmente a un detenido en flagrancia eludiendo a la FGR tipifica favorecimiento o incumplimiento de deberes.",
       "D": "Adulterar el registro de detención es delito de falsedad material e ideológica con dolo evidente."
     }
@@ -2610,7 +2610,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP.",
     "distractorRationale": {
       "A": "El servicio de seguridad perimetral y atención ciudadana exige alerta permanente y respeto estricto a las normas de porte de uniforme.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP): El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad — Constituye una Falta Grave por negligencia en el servicio y desatención a las normas de porte y presentación…",
       "C": "Las faltas graves no se extinguen en minutos ni son dispensables unilateralmente.",
       "D": "La PNC es un cuerpo estrictamente civil, sin fuero militar ni penas sumarias capitales prohibidas por la Constitución."
     }
@@ -2644,8 +2644,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP.",
     "distractorRationale": {
       "A": "Pagar cartuchos sin justificar los disparos encubre el uso ilícito de fuerza letal y configura encubrimiento e incumplimiento de deberes.",
-      "B": "Respuesta correcta. Inmovilización del arma, fijación pericial de residuos de disparo (GSR), aviso fiscal penal y trámite disciplinario.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Felicitar al agente por usar munición policial para defenderse de animales domésticos\" contraviene Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP, ya que el Estado ejerce posición de garante absoluto sobre las personas privadas de libertad.",
+      "C": "Fundamento normativo (Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP): El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad — Desarmar de inmediato al agente, asegurar el arma de fuego y los casquillos percutidos si fueron recuperados,…",
       "D": "Rellenar munición con cargadores ajenos altera los registros de inventario y viola la trazabilidad balística."
     }
   },
@@ -2678,9 +2678,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP.",
     "distractorRationale": {
       "A": "Entregar a un detenido para que sea linchado constituye delito de Homicidio Agravado en comisión por omisión y falta disciplinaria gravísima.",
-      "B": "Respuesta correcta. Aseguramiento del reo, protección de instalaciones con medios antidisturbios graduados y auxilio táctico de la UMO.",
+      "B": "La opción \"Ordenar a todos los policías disparar ráfagas de fusil ametrallador directamente a la cabeza…\" contraviene Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP, ya que el Estado ejerce posición de garante absoluto sobre las personas privadas de libertad.",
       "C": "El fuego letal indiscriminado sobre una multitud constituye masacre y crimen de lesa humanidad contrario a la Constitución.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP): El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad — Asegurar físicamente al recluso en las áreas más seguras internas de las celdas, ordenar el cierre hermético…"
     }
   },
   {
@@ -2711,8 +2711,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad. Ante un cuadro médico de urgencia, el supervisor debe ordenar el traslado hospitalario inmediato bajo custodia armada, notificar a Medicina Legal (IML), FGR y sancionar al personal omiso.",
     "legalBasis": "Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Control de calidad supervisor: exige individualización fáctica, indicios objetivos y consistencia probatoria.",
+      "A": "Fundamento normativo (Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP): El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad — Exigir a los agentes captores la individualización fáctica precisa y fundamentación probatoria de cada…",
+      "B": "La opción \"Aprobar el acta inmediatamente señalando que en régimen de excepción la policía no necesita…\" contraviene Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP, ya que el Estado ejerce posición de garante absoluto sobre las personas privadas de libertad.",
       "C": "La coacción física y tortura son delitos imprescriptibles prohibidos de manera absoluta por el Art. 31 Cn. y tratados de DDHH.",
       "D": "Actuaciones clandestinas constituyen graves violaciones a los derechos humanos y delitos penales de lesa humanidad."
     }
@@ -2746,7 +2746,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP.",
     "distractorRationale": {
       "A": "Reemplazar libros oficiales clandestinamente constituye fraude y encubrimiento de delitos institucionales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP): El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad — Elaborar acta de constatación fotográfica del estado del libro, congelar y resguardar el libro como indicio… (Criterio pnc-sargento-013-B).",
       "C": "La alteración de documentos oficiales no es subsanable con amonestaciones verbales ni remiendos.",
       "D": "La condición del detenido jamás justifica la comisión de delitos por parte de los funcionarios de policía."
     }
@@ -2780,8 +2780,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP.",
     "distractorRationale": {
       "A": "Prolongar la detención más allá del límite constitucional constituye delito de privación de libertad por funcionario y falta muy grave.",
-      "B": "Respuesta correcta. Garantiza el cumplimiento estricto del plazo de 72 horas de control judicial y salvaguarda la legalidad.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Poner en libertad al reo a las 71 horas sin consultar a la FGR y destruir el acta de captura\" contraviene Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP, ya que el Estado ejerce posición de garante absoluto sobre las personas privadas de libertad.",
+      "C": "Fundamento normativo (Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP): El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad — Ordenar el traslado inmediato y prioritario del detenido y de las actuaciones policiales ante la FGR y el… (Criterio pnc-sargento-014-C).",
       "D": "Adulterar el registro de detención es delito de falsedad material e ideológica con dolo evidente."
     }
   },
@@ -2814,9 +2814,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP.",
     "distractorRationale": {
       "A": "El servicio de seguridad perimetral y atención ciudadana exige alerta permanente y respeto estricto a las normas de porte de uniforme.",
-      "B": "Respuesta correcta. Tipificación precisa como falta grave y canalización formal ante el Tribunal Disciplinario con respeto al derecho de defensa.",
+      "B": "La opción \"Es una falta leve que prescribe a los 10 minutos si los agentes piden disculpas por escrito\" contraviene Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP, ya que el Estado ejerce posición de garante absoluto sobre las personas privadas de libertad.",
       "C": "Las faltas graves no se extinguen en minutos ni son dispensables unilateralmente.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP): El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad — Constituye una Falta Grave por negligencia en el servicio y desatención a las normas de porte y presentación… (Criterio pnc-sargento-015-D)."
     }
   },
   {
@@ -2847,8 +2847,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad. Ante un cuadro médico de urgencia, el supervisor debe ordenar el traslado hospitalario inmediato bajo custodia armada, notificar a Medicina Legal (IML), FGR y sancionar al personal omiso.",
     "legalBasis": "Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Inmovilización del arma, fijación pericial de residuos de disparo (GSR), aviso fiscal penal y trámite disciplinario.",
+      "A": "Fundamento normativo (Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP): El Estado ejerce posición de garante absoluto sobre las personas privadas de libertad — Desarmar de inmediato al agente, asegurar el arma de fuego y los casquillos percutidos si fueron recuperados,… (Criterio pnc-sargento-016-A).",
+      "B": "La opción \"Cobrarle al agente cincuenta centavos de dólar por cada cartucho percutido y archivar el libro…\" contraviene Art. 2 y 65 Cn.; Reglas Nelson Mandela ONU (Reglas 24 a 35); Art. 199 y 321 CP, ya que el Estado ejerce posición de garante absoluto sobre las personas privadas de libertad.",
       "C": "Disparar al aire pone en riesgo la vida de terceros por proyectiles perdidos y viola la doctrina policial de uso de armas.",
       "D": "Rellenar munición con cargadores ajenos altera los registros de inventario y viola la trazabilidad balística."
     }
@@ -2882,7 +2882,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML.",
     "distractorRationale": {
       "A": "Entregar a un detenido para que sea linchado constituye delito de Homicidio Agravado en comisión por omisión y falta disciplinaria gravísima.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML): La exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal… — Asegurar físicamente al recluso en las áreas más seguras internas de las celdas, ordenar el cierre hermético…",
       "C": "El fuego letal indiscriminado sobre una multitud constituye masacre y crimen de lesa humanidad contrario a la Constitución.",
       "D": "El abandono cobarde del servicio y pérdida de armas de fuego acarrea destitución y pena privativa de libertad."
     }
@@ -2916,8 +2916,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML.",
     "distractorRationale": {
       "A": "Afirmar que no se requiere justificación es un error grave; las capturas arbitrarias sin indicios vulneran la legalidad y saturan el sistema judicial.",
-      "B": "Respuesta correcta. Control de calidad supervisor: exige individualización fáctica, indicios objetivos y consistencia probatoria.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Golpear a los detenidos para obligarlos a redactar sus propias actas de autoinculpación\" contraviene Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML, ya que la exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal…",
+      "C": "Fundamento normativo (Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML): La exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal… — Exigir a los agentes captores la individualización fáctica precisa y fundamentación probatoria de cada…",
       "D": "Actuaciones clandestinas constituyen graves violaciones a los derechos humanos y delitos penales de lesa humanidad."
     }
   },
@@ -2950,9 +2950,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML.",
     "distractorRationale": {
       "A": "Reemplazar libros oficiales clandestinamente constituye fraude y encubrimiento de delitos institucionales.",
-      "B": "Respuesta correcta. Preservación del indicio, denuncia penal obligatoria por falsedad y apertura de expediente de falta muy grave.",
+      "B": "La opción \"Amonestar verbalmente al agente en privado y permitirle colocar cinta adhesiva sobre las…\" contraviene Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML, ya que la exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal…",
       "C": "La alteración de documentos oficiales no es subsanable con amonestaciones verbales ni remiendos.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML): La exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal… — Elaborar acta de constatación fotográfica del estado del libro, congelar y resguardar el libro como indicio…"
     }
   },
   {
@@ -2983,8 +2983,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal delegado, prohibiendo excavaciones rústicas que destruyan estratos geológicos o restos.",
     "legalBasis": "Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Garantiza el cumplimiento estricto del plazo de 72 horas de control judicial y salvaguarda la legalidad.",
+      "A": "Fundamento normativo (Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML): La exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal… — Ordenar el traslado inmediato y prioritario del detenido y de las actuaciones policiales ante la FGR y el…",
+      "B": "La opción \"Mantener al reo en la subdelegación por cinco días más argumentando sobrecarga de trabajo…\" contraviene Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML, ya que la exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal…",
       "C": "Liberar irregularmente a un detenido en flagrancia eludiendo a la FGR tipifica favorecimiento o incumplimiento de deberes.",
       "D": "Adulterar el registro de detención es delito de falsedad material e ideológica con dolo evidente."
     }
@@ -3018,7 +3018,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML.",
     "distractorRationale": {
       "A": "El servicio de seguridad perimetral y atención ciudadana exige alerta permanente y respeto estricto a las normas de porte de uniforme.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML): La exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal… — Constituye una Falta Grave por negligencia en el servicio y desatención a las normas de porte y presentación…",
       "C": "Las faltas graves no se extinguen en minutos ni son dispensables unilateralmente.",
       "D": "La PNC es un cuerpo estrictamente civil, sin fuero militar ni penas sumarias capitales prohibidas por la Constitución."
     }
@@ -3052,8 +3052,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML.",
     "distractorRationale": {
       "A": "Pagar cartuchos sin justificar los disparos encubre el uso ilícito de fuerza letal y configura encubrimiento e incumplimiento de deberes.",
-      "B": "Respuesta correcta. Inmovilización del arma, fijación pericial de residuos de disparo (GSR), aviso fiscal penal y trámite disciplinario.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Felicitar al agente por usar munición policial para defenderse de animales domésticos\" contraviene Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML, ya que la exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal…",
+      "C": "Fundamento normativo (Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML): La exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal… — Desarmar de inmediato al agente, asegurar el arma de fuego y los casquillos percutidos si fueron recuperados,…",
       "D": "Rellenar munición con cargadores ajenos altera los registros de inventario y viola la trazabilidad balística."
     }
   },
@@ -3086,9 +3086,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML.",
     "distractorRationale": {
       "A": "Entregar a un detenido para que sea linchado constituye delito de Homicidio Agravado en comisión por omisión y falta disciplinaria gravísima.",
-      "B": "Respuesta correcta. Aseguramiento del reo, protección de instalaciones con medios antidisturbios graduados y auxilio táctico de la UMO.",
+      "B": "La opción \"Ordenar a todos los policías disparar ráfagas de fusil ametrallador directamente a la cabeza…\" contraviene Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML, ya que la exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal…",
       "C": "El fuego letal indiscriminado sobre una multitud constituye masacre y crimen de lesa humanidad contrario a la Constitución.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML): La exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal… — Asegurar físicamente al recluso en las áreas más seguras internas de las celdas, ordenar el cierre hermético… (Criterio pnc-sargento-023-D)."
     }
   },
   {
@@ -3119,8 +3119,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal delegado, prohibiendo excavaciones rústicas que destruyan estratos geológicos o restos.",
     "legalBasis": "Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Control de calidad supervisor: exige individualización fáctica, indicios objetivos y consistencia probatoria.",
+      "A": "Fundamento normativo (Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML): La exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal… — Exigir a los agentes captores la individualización fáctica precisa y fundamentación probatoria de cada… (Criterio pnc-sargento-024-A).",
+      "B": "La opción \"Aprobar el acta inmediatamente señalando que en régimen de excepción la policía no necesita…\" contraviene Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML, ya que la exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal…",
       "C": "La coacción física y tortura son delitos imprescriptibles prohibidos de manera absoluta por el Art. 31 Cn. y tratados de DDHH.",
       "D": "Actuaciones clandestinas constituyen graves violaciones a los derechos humanos y delitos penales de lesa humanidad."
     }
@@ -3154,7 +3154,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML.",
     "distractorRationale": {
       "A": "Reemplazar libros oficiales clandestinamente constituye fraude y encubrimiento de delitos institucionales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML): La exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal… — Elaborar acta de constatación fotográfica del estado del libro, congelar y resguardar el libro como indicio… (Criterio pnc-sargento-025-B).",
       "C": "La alteración de documentos oficiales no es subsanable con amonestaciones verbales ni remiendos.",
       "D": "La condición del detenido jamás justifica la comisión de delitos por parte de los funcionarios de policía."
     }
@@ -3188,8 +3188,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML.",
     "distractorRationale": {
       "A": "Prolongar la detención más allá del límite constitucional constituye delito de privación de libertad por funcionario y falta muy grave.",
-      "B": "Respuesta correcta. Garantiza el cumplimiento estricto del plazo de 72 horas de control judicial y salvaguarda la legalidad.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Poner en libertad al reo a las 71 horas sin consultar a la FGR y destruir el acta de captura\" contraviene Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML, ya que la exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal…",
+      "C": "Fundamento normativo (Arts. 191, 192 y 194 PrPn; Manual de Búsqueda y Recuperación de Restos Óseos FGR/PNC/IML): La exhumación de restos en fosas clandestinas exige peritaje multidisciplinario: antropólogo forense, médico forense del IML, peritos en planimetría y arqueología forense de la DPTC y el fiscal… — Ordenar el traslado inmediato y prioritario del detenido y de las actuaciones policiales ante la FGR y el… (Criterio pnc-sargento-026-C).",
       "D": "Adulterar el registro de detención es delito de falsedad material e ideológica con dolo evidente."
     }
   },
@@ -3222,9 +3222,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias).",
     "distractorRationale": {
       "A": "El servicio de seguridad perimetral y atención ciudadana exige alerta permanente y respeto estricto a las normas de porte de uniforme.",
-      "B": "Respuesta correcta. Tipificación precisa como falta grave y canalización formal ante el Tribunal Disciplinario con respeto al derecho de defensa.",
+      "B": "La opción \"Es una falta leve que prescribe a los 10 minutos si los agentes piden disculpas por escrito\" contraviene Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias), ya que la Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las…",
       "C": "Las faltas graves no se extinguen en minutos ni son dispensables unilateralmente.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias)): La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las… — Constituye una Falta Grave por negligencia en el servicio y desatención a las normas de porte y presentación…"
     }
   },
   {
@@ -3255,8 +3255,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las faltas muy graves, computados desde la comisión del hecho o desde que la autoridad tuvo conocimiento.",
     "legalBasis": "Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Inmovilización del arma, fijación pericial de residuos de disparo (GSR), aviso fiscal penal y trámite disciplinario.",
+      "A": "Fundamento normativo (Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias)): La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las… — Desarmar de inmediato al agente, asegurar el arma de fuego y los casquillos percutidos si fueron recuperados,…",
+      "B": "La opción \"Cobrarle al agente cincuenta centavos de dólar por cada cartucho percutido y archivar el libro…\" contraviene Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias), ya que la Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las…",
       "C": "Disparar al aire pone en riesgo la vida de terceros por proyectiles perdidos y viola la doctrina policial de uso de armas.",
       "D": "Rellenar munición con cargadores ajenos altera los registros de inventario y viola la trazabilidad balística."
     }
@@ -3290,7 +3290,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias).",
     "distractorRationale": {
       "A": "Entregar a un detenido para que sea linchado constituye delito de Homicidio Agravado en comisión por omisión y falta disciplinaria gravísima.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias)): La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las… — Asegurar físicamente al recluso en las áreas más seguras internas de las celdas, ordenar el cierre hermético…",
       "C": "El fuego letal indiscriminado sobre una multitud constituye masacre y crimen de lesa humanidad contrario a la Constitución.",
       "D": "El abandono cobarde del servicio y pérdida de armas de fuego acarrea destitución y pena privativa de libertad."
     }
@@ -3324,8 +3324,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias).",
     "distractorRationale": {
       "A": "Afirmar que no se requiere justificación es un error grave; las capturas arbitrarias sin indicios vulneran la legalidad y saturan el sistema judicial.",
-      "B": "Respuesta correcta. Control de calidad supervisor: exige individualización fáctica, indicios objetivos y consistencia probatoria.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Golpear a los detenidos para obligarlos a redactar sus propias actas de autoinculpación\" contraviene Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias), ya que la Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las…",
+      "C": "Fundamento normativo (Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias)): La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las… — Exigir a los agentes captores la individualización fáctica precisa y fundamentación probatoria de cada…",
       "D": "Actuaciones clandestinas constituyen graves violaciones a los derechos humanos y delitos penales de lesa humanidad."
     }
   },
@@ -3358,9 +3358,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias).",
     "distractorRationale": {
       "A": "Reemplazar libros oficiales clandestinamente constituye fraude y encubrimiento de delitos institucionales.",
-      "B": "Respuesta correcta. Preservación del indicio, denuncia penal obligatoria por falsedad y apertura de expediente de falta muy grave.",
+      "B": "La opción \"Amonestar verbalmente al agente en privado y permitirle colocar cinta adhesiva sobre las…\" contraviene Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias), ya que la Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las…",
       "C": "La alteración de documentos oficiales no es subsanable con amonestaciones verbales ni remiendos.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias)): La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las… — Elaborar acta de constatación fotográfica del estado del libro, congelar y resguardar el libro como indicio…"
     }
   },
   {
@@ -3391,8 +3391,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las faltas muy graves, computados desde la comisión del hecho o desde que la autoridad tuvo conocimiento.",
     "legalBasis": "Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Garantiza el cumplimiento estricto del plazo de 72 horas de control judicial y salvaguarda la legalidad.",
+      "A": "Fundamento normativo (Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias)): La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las… — Ordenar el traslado inmediato y prioritario del detenido y de las actuaciones policiales ante la FGR y el…",
+      "B": "La opción \"Mantener al reo en la subdelegación por cinco días más argumentando sobrecarga de trabajo…\" contraviene Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias), ya que la Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las…",
       "C": "Liberar irregularmente a un detenido en flagrancia eludiendo a la FGR tipifica favorecimiento o incumplimiento de deberes.",
       "D": "Adulterar el registro de detención es delito de falsedad material e ideológica con dolo evidente."
     }
@@ -3426,7 +3426,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias).",
     "distractorRationale": {
       "A": "El servicio de seguridad perimetral y atención ciudadana exige alerta permanente y respeto estricto a las normas de porte de uniforme.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias)): La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las… — Constituye una Falta Grave por negligencia en el servicio y desatención a las normas de porte y presentación… (Criterio pnc-sargento-033-B).",
       "C": "Las faltas graves no se extinguen en minutos ni son dispensables unilateralmente.",
       "D": "La PNC es un cuerpo estrictamente civil, sin fuero militar ni penas sumarias capitales prohibidas por la Constitución."
     }
@@ -3460,8 +3460,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias).",
     "distractorRationale": {
       "A": "Pagar cartuchos sin justificar los disparos encubre el uso ilícito de fuerza letal y configura encubrimiento e incumplimiento de deberes.",
-      "B": "Respuesta correcta. Inmovilización del arma, fijación pericial de residuos de disparo (GSR), aviso fiscal penal y trámite disciplinario.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Felicitar al agente por usar munición policial para defenderse de animales domésticos\" contraviene Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias), ya que la Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las…",
+      "C": "Fundamento normativo (Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias)): La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las… — Desarmar de inmediato al agente, asegurar el arma de fuego y los casquillos percutidos si fueron recuperados,… (Criterio pnc-sargento-034-C).",
       "D": "Rellenar munición con cargadores ajenos altera los registros de inventario y viola la trazabilidad balística."
     }
   },
@@ -3494,9 +3494,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias).",
     "distractorRationale": {
       "A": "Entregar a un detenido para que sea linchado constituye delito de Homicidio Agravado en comisión por omisión y falta disciplinaria gravísima.",
-      "B": "Respuesta correcta. Aseguramiento del reo, protección de instalaciones con medios antidisturbios graduados y auxilio táctico de la UMO.",
+      "B": "La opción \"Ordenar a todos los policías disparar ráfagas de fusil ametrallador directamente a la cabeza…\" contraviene Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias), ya que la Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las…",
       "C": "El fuego letal indiscriminado sobre una multitud constituye masacre y crimen de lesa humanidad contrario a la Constitución.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias)): La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las… — Asegurar físicamente al recluso en las áreas más seguras internas de las celdas, ordenar el cierre hermético… (Criterio pnc-sargento-035-D)."
     }
   },
   {
@@ -3527,8 +3527,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las faltas muy graves, computados desde la comisión del hecho o desde que la autoridad tuvo conocimiento.",
     "legalBasis": "Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Control de calidad supervisor: exige individualización fáctica, indicios objetivos y consistencia probatoria.",
+      "A": "Fundamento normativo (Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias)): La Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las… — Exigir a los agentes captores la individualización fáctica precisa y fundamentación probatoria de cada… (Criterio pnc-sargento-036-A).",
+      "B": "La opción \"Aprobar el acta inmediatamente señalando que en régimen de excepción la policía no necesita…\" contraviene Ley de la Carrera Policial de El Salvador (Capítulo de Prescripción de Faltas y Sanciones Disciplinarias), ya que la Ley de la Carrera Policial establece plazos estrictos de prescripción extintiva de la potestad sancionadora: un mes para las faltas leves, seis meses para las faltas graves y dos años para las…",
       "C": "La coacción física y tortura son delitos imprescriptibles prohibidos de manera absoluta por el Art. 31 Cn. y tratados de DDHH.",
       "D": "Actuaciones clandestinas constituyen graves violaciones a los derechos humanos y delitos penales de lesa humanidad."
     }
@@ -3562,7 +3562,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC.",
     "distractorRationale": {
       "A": "Reemplazar libros oficiales clandestinamente constituye fraude y encubrimiento de delitos institucionales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC): Las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse… — Elaborar acta de constatación fotográfica del estado del libro, congelar y resguardar el libro como indicio…",
       "C": "La alteración de documentos oficiales no es subsanable con amonestaciones verbales ni remiendos.",
       "D": "La condición del detenido jamás justifica la comisión de delitos por parte de los funcionarios de policía."
     }
@@ -3596,8 +3596,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC.",
     "distractorRationale": {
       "A": "Prolongar la detención más allá del límite constitucional constituye delito de privación de libertad por funcionario y falta muy grave.",
-      "B": "Respuesta correcta. Garantiza el cumplimiento estricto del plazo de 72 horas de control judicial y salvaguarda la legalidad.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Poner en libertad al reo a las 71 horas sin consultar a la FGR y destruir el acta de captura\" contraviene Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC, ya que las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse…",
+      "C": "Fundamento normativo (Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC): Las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse… — Ordenar el traslado inmediato y prioritario del detenido y de las actuaciones policiales ante la FGR y el…",
       "D": "Adulterar el registro de detención es delito de falsedad material e ideológica con dolo evidente."
     }
   },
@@ -3630,9 +3630,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC.",
     "distractorRationale": {
       "A": "El servicio de seguridad perimetral y atención ciudadana exige alerta permanente y respeto estricto a las normas de porte de uniforme.",
-      "B": "Respuesta correcta. Tipificación precisa como falta grave y canalización formal ante el Tribunal Disciplinario con respeto al derecho de defensa.",
+      "B": "La opción \"Es una falta leve que prescribe a los 10 minutos si los agentes piden disculpas por escrito\" contraviene Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC, ya que las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse…",
       "C": "Las faltas graves no se extinguen en minutos ni son dispensables unilateralmente.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC): Las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse… — Constituye una Falta Grave por negligencia en el servicio y desatención a las normas de porte y presentación…"
     }
   },
   {
@@ -3663,8 +3663,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse en bolsas de evidencia selladas con cinta de seguridad firmada por los intervinientes y trasladarse a bóvedas de seguridad con acta detallada.",
     "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Inmovilización del arma, fijación pericial de residuos de disparo (GSR), aviso fiscal penal y trámite disciplinario.",
+      "A": "Fundamento normativo (Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC): Las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse… — Desarmar de inmediato al agente, asegurar el arma de fuego y los casquillos percutidos si fueron recuperados,…",
+      "B": "La opción \"Cobrarle al agente cincuenta centavos de dólar por cada cartucho percutido y archivar el libro…\" contraviene Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC, ya que las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse…",
       "C": "Disparar al aire pone en riesgo la vida de terceros por proyectiles perdidos y viola la doctrina policial de uso de armas.",
       "D": "Rellenar munición con cargadores ajenos altera los registros de inventario y viola la trazabilidad balística."
     }
@@ -3698,7 +3698,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC.",
     "distractorRationale": {
       "A": "Entregar a un detenido para que sea linchado constituye delito de Homicidio Agravado en comisión por omisión y falta disciplinaria gravísima.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC): Las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse… — Asegurar físicamente al recluso en las áreas más seguras internas de las celdas, ordenar el cierre hermético…",
       "C": "El fuego letal indiscriminado sobre una multitud constituye masacre y crimen de lesa humanidad contrario a la Constitución.",
       "D": "El abandono cobarde del servicio y pérdida de armas de fuego acarrea destitución y pena privativa de libertad."
     }
@@ -3732,8 +3732,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC.",
     "distractorRationale": {
       "A": "Afirmar que no se requiere justificación es un error grave; las capturas arbitrarias sin indicios vulneran la legalidad y saturan el sistema judicial.",
-      "B": "Respuesta correcta. Control de calidad supervisor: exige individualización fáctica, indicios objetivos y consistencia probatoria.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Golpear a los detenidos para obligarlos a redactar sus propias actas de autoinculpación\" contraviene Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC, ya que las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse…",
+      "C": "Fundamento normativo (Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC): Las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse… — Exigir a los agentes captores la individualización fáctica precisa y fundamentación probatoria de cada…",
       "D": "Actuaciones clandestinas constituyen graves violaciones a los derechos humanos y delitos penales de lesa humanidad."
     }
   },
@@ -3766,9 +3766,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC.",
     "distractorRationale": {
       "A": "Reemplazar libros oficiales clandestinamente constituye fraude y encubrimiento de delitos institucionales.",
-      "B": "Respuesta correcta. Preservación del indicio, denuncia penal obligatoria por falsedad y apertura de expediente de falta muy grave.",
+      "B": "La opción \"Amonestar verbalmente al agente en privado y permitirle colocar cinta adhesiva sobre las…\" contraviene Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC, ya que las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse…",
       "C": "La alteración de documentos oficiales no es subsanable con amonestaciones verbales ni remiendos.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC): Las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse… — Elaborar acta de constatación fotográfica del estado del libro, congelar y resguardar el libro como indicio… (Criterio pnc-sargento-043-D)."
     }
   },
   {
@@ -3799,8 +3799,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse en bolsas de evidencia selladas con cinta de seguridad firmada por los intervinientes y trasladarse a bóvedas de seguridad con acta detallada.",
     "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Garantiza el cumplimiento estricto del plazo de 72 horas de control judicial y salvaguarda la legalidad.",
+      "A": "Fundamento normativo (Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC): Las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse… — Ordenar el traslado inmediato y prioritario del detenido y de las actuaciones policiales ante la FGR y el… (Criterio pnc-sargento-044-A).",
+      "B": "La opción \"Mantener al reo en la subdelegación por cinco días más argumentando sobrecarga de trabajo…\" contraviene Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC, ya que las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse…",
       "C": "Liberar irregularmente a un detenido en flagrancia eludiendo a la FGR tipifica favorecimiento o incumplimiento de deberes.",
       "D": "Adulterar el registro de detención es delito de falsedad material e ideológica con dolo evidente."
     }
@@ -3834,7 +3834,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC.",
     "distractorRationale": {
       "A": "El servicio de seguridad perimetral y atención ciudadana exige alerta permanente y respeto estricto a las normas de porte de uniforme.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC): Las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse… — Constituye una Falta Grave por negligencia en el servicio y desatención a las normas de porte y presentación… (Criterio pnc-sargento-045-B).",
       "C": "Las faltas graves no se extinguen en minutos ni son dispensables unilateralmente.",
       "D": "La PNC es un cuerpo estrictamente civil, sin fuero militar ni penas sumarias capitales prohibidas por la Constitución."
     }
@@ -3868,8 +3868,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC.",
     "distractorRationale": {
       "A": "Pagar cartuchos sin justificar los disparos encubre el uso ilícito de fuerza letal y configura encubrimiento e incumplimiento de deberes.",
-      "B": "Respuesta correcta. Inmovilización del arma, fijación pericial de residuos de disparo (GSR), aviso fiscal penal y trámite disciplinario.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Felicitar al agente por usar munición policial para defenderse de animales domésticos\" contraviene Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC, ya que las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse…",
+      "C": "Fundamento normativo (Ley Reguladora de las Actividades Relativas a las Drogas; Arts. 250-252 PrPn; Protocolo DAN-PNC): Las sustancias estupefacientes incautadas deben ser custodiadas por la División Antinarcóticos (DAN), someterse a pesaje de precisión y prueba de campo in situ frente a testigos o fiscal, embalarse… — Desarmar de inmediato al agente, asegurar el arma de fuego y los casquillos percutidos si fueron recuperados,… (Criterio pnc-sargento-046-C).",
       "D": "Rellenar munición con cargadores ajenos altera los registros de inventario y viola la trazabilidad balística."
     }
   },
@@ -3902,9 +3902,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP).",
     "distractorRationale": {
       "A": "Entregar a un detenido para que sea linchado constituye delito de Homicidio Agravado en comisión por omisión y falta disciplinaria gravísima.",
-      "B": "Respuesta correcta. Aseguramiento del reo, protección de instalaciones con medios antidisturbios graduados y auxilio táctico de la UMO.",
+      "B": "La opción \"Ordenar a todos los policías disparar ráfagas de fusil ametrallador directamente a la cabeza…\" contraviene Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP), ya que el Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones).",
       "C": "El fuego letal indiscriminado sobre una multitud constituye masacre y crimen de lesa humanidad contrario a la Constitución.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP)): El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones) — Asegurar físicamente al recluso en las áreas más seguras internas de las celdas, ordenar el cierre hermético…"
     }
   },
   {
@@ -3935,8 +3935,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones). El derecho a la vida prima de manera absoluta sobre la intimidad domiciliaria en situaciones de peligro inminente.",
     "legalBasis": "Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Control de calidad supervisor: exige individualización fáctica, indicios objetivos y consistencia probatoria.",
+      "A": "Fundamento normativo (Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP)): El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones) — Exigir a los agentes captores la individualización fáctica precisa y fundamentación probatoria de cada…",
+      "B": "La opción \"Aprobar el acta inmediatamente señalando que en régimen de excepción la policía no necesita…\" contraviene Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP), ya que el Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones).",
       "C": "La coacción física y tortura son delitos imprescriptibles prohibidos de manera absoluta por el Art. 31 Cn. y tratados de DDHH.",
       "D": "Actuaciones clandestinas constituyen graves violaciones a los derechos humanos y delitos penales de lesa humanidad."
     }
@@ -3970,7 +3970,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP).",
     "distractorRationale": {
       "A": "Reemplazar libros oficiales clandestinamente constituye fraude y encubrimiento de delitos institucionales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP)): El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones) — Elaborar acta de constatación fotográfica del estado del libro, congelar y resguardar el libro como indicio…",
       "C": "La alteración de documentos oficiales no es subsanable con amonestaciones verbales ni remiendos.",
       "D": "La condición del detenido jamás justifica la comisión de delitos por parte de los funcionarios de policía."
     }
@@ -4004,8 +4004,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP).",
     "distractorRationale": {
       "A": "Prolongar la detención más allá del límite constitucional constituye delito de privación de libertad por funcionario y falta muy grave.",
-      "B": "Respuesta correcta. Garantiza el cumplimiento estricto del plazo de 72 horas de control judicial y salvaguarda la legalidad.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Poner en libertad al reo a las 71 horas sin consultar a la FGR y destruir el acta de captura\" contraviene Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP), ya que el Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones).",
+      "C": "Fundamento normativo (Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP)): El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones) — Ordenar el traslado inmediato y prioritario del detenido y de las actuaciones policiales ante la FGR y el…",
       "D": "Adulterar el registro de detención es delito de falsedad material e ideológica con dolo evidente."
     }
   },
@@ -4038,9 +4038,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP).",
     "distractorRationale": {
       "A": "El servicio de seguridad perimetral y atención ciudadana exige alerta permanente y respeto estricto a las normas de porte de uniforme.",
-      "B": "Respuesta correcta. Tipificación precisa como falta grave y canalización formal ante el Tribunal Disciplinario con respeto al derecho de defensa.",
+      "B": "La opción \"Es una falta leve que prescribe a los 10 minutos si los agentes piden disculpas por escrito\" contraviene Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP), ya que el Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones).",
       "C": "Las faltas graves no se extinguen en minutos ni son dispensables unilateralmente.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP)): El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones) — Constituye una Falta Grave por negligencia en el servicio y desatención a las normas de porte y presentación…"
     }
   },
   {
@@ -4071,8 +4071,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones). El derecho a la vida prima de manera absoluta sobre la intimidad domiciliaria en situaciones de peligro inminente.",
     "legalBasis": "Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Inmovilización del arma, fijación pericial de residuos de disparo (GSR), aviso fiscal penal y trámite disciplinario.",
+      "A": "Fundamento normativo (Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP)): El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones) — Desarmar de inmediato al agente, asegurar el arma de fuego y los casquillos percutidos si fueron recuperados,…",
+      "B": "La opción \"Cobrarle al agente cincuenta centavos de dólar por cada cartucho percutido y archivar el libro…\" contraviene Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP), ya que el Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones).",
       "C": "Disparar al aire pone en riesgo la vida de terceros por proyectiles perdidos y viola la doctrina policial de uso de armas.",
       "D": "Rellenar munición con cargadores ajenos altera los registros de inventario y viola la trazabilidad balística."
     }
@@ -4106,7 +4106,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP).",
     "distractorRationale": {
       "A": "Entregar a un detenido para que sea linchado constituye delito de Homicidio Agravado en comisión por omisión y falta disciplinaria gravísima.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP)): El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones) — Asegurar físicamente al recluso en las áreas más seguras internas de las celdas, ordenar el cierre hermético… (Criterio pnc-sargento-053-B).",
       "C": "El fuego letal indiscriminado sobre una multitud constituye masacre y crimen de lesa humanidad contrario a la Constitución.",
       "D": "El abandono cobarde del servicio y pérdida de armas de fuego acarrea destitución y pena privativa de libertad."
     }
@@ -4140,8 +4140,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP).",
     "distractorRationale": {
       "A": "Afirmar que no se requiere justificación es un error grave; las capturas arbitrarias sin indicios vulneran la legalidad y saturan el sistema judicial.",
-      "B": "Respuesta correcta. Control de calidad supervisor: exige individualización fáctica, indicios objetivos y consistencia probatoria.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Golpear a los detenidos para obligarlos a redactar sus propias actas de autoinculpación\" contraviene Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP), ya que el Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones).",
+      "C": "Fundamento normativo (Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP)): El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones) — Exigir a los agentes captores la individualización fáctica precisa y fundamentación probatoria de cada… (Criterio pnc-sargento-054-C).",
       "D": "Actuaciones clandestinas constituyen graves violaciones a los derechos humanos y delitos penales de lesa humanidad."
     }
   },
@@ -4174,9 +4174,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP).",
     "distractorRationale": {
       "A": "Reemplazar libros oficiales clandestinamente constituye fraude y encubrimiento de delitos institucionales.",
-      "B": "Respuesta correcta. Preservación del indicio, denuncia penal obligatoria por falsedad y apertura de expediente de falta muy grave.",
+      "B": "La opción \"Amonestar verbalmente al agente en privado y permitirle colocar cinta adhesiva sobre las…\" contraviene Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP), ya que el Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones).",
       "C": "La alteración de documentos oficiales no es subsanable con amonestaciones verbales ni remiendos.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP)): El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones) — Elaborar acta de constatación fotográfica del estado del libro, congelar y resguardar el libro como indicio… (Criterio pnc-sargento-055-D)."
     }
   },
   {
@@ -4207,8 +4207,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones). El derecho a la vida prima de manera absoluta sobre la intimidad domiciliaria en situaciones de peligro inminente.",
     "legalBasis": "Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Garantiza el cumplimiento estricto del plazo de 72 horas de control judicial y salvaguarda la legalidad.",
+      "A": "Fundamento normativo (Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP)): El Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones) — Ordenar el traslado inmediato y prioritario del detenido y de las actuaciones policiales ante la FGR y el… (Criterio pnc-sargento-056-A).",
+      "B": "La opción \"Mantener al reo en la subdelegación por cinco días más argumentando sobrecarga de trabajo…\" contraviene Art. 20 inc. 2° de la Constitución de El Salvador; Estado de Necesidad Exculpante (Art. 27 N° 3 CP), ya que el Art. 20 Cn. establece con claridad que se puede ingresar a una morada ajena sin orden judicial para socorrer a víctimas de crímenes o catástrofes (incendios, inundaciones).",
       "C": "Liberar irregularmente a un detenido en flagrancia eludiendo a la FGR tipifica favorecimiento o incumplimiento de deberes.",
       "D": "Adulterar el registro de detención es delito de falsedad material e ideológica con dolo evidente."
     }
@@ -4242,7 +4242,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos.",
     "distractorRationale": {
       "A": "El servicio de seguridad perimetral y atención ciudadana exige alerta permanente y respeto estricto a las normas de porte de uniforme.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos): El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva — Constituye una Falta Grave por negligencia en el servicio y desatención a las normas de porte y presentación…",
       "C": "Las faltas graves no se extinguen en minutos ni son dispensables unilateralmente.",
       "D": "La PNC es un cuerpo estrictamente civil, sin fuero militar ni penas sumarias capitales prohibidas por la Constitución."
     }
@@ -4276,8 +4276,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos.",
     "distractorRationale": {
       "A": "Pagar cartuchos sin justificar los disparos encubre el uso ilícito de fuerza letal y configura encubrimiento e incumplimiento de deberes.",
-      "B": "Respuesta correcta. Inmovilización del arma, fijación pericial de residuos de disparo (GSR), aviso fiscal penal y trámite disciplinario.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Felicitar al agente por usar munición policial para defenderse de animales domésticos\" contraviene Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos, ya que el hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva.",
+      "C": "Fundamento normativo (Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos): El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva — Desarmar de inmediato al agente, asegurar el arma de fuego y los casquillos percutidos si fueron recuperados,…",
       "D": "Rellenar munición con cargadores ajenos altera los registros de inventario y viola la trazabilidad balística."
     }
   },
@@ -4310,9 +4310,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos.",
     "distractorRationale": {
       "A": "Entregar a un detenido para que sea linchado constituye delito de Homicidio Agravado en comisión por omisión y falta disciplinaria gravísima.",
-      "B": "Respuesta correcta. Aseguramiento del reo, protección de instalaciones con medios antidisturbios graduados y auxilio táctico de la UMO.",
+      "B": "La opción \"Ordenar a todos los policías disparar ráfagas de fusil ametrallador directamente a la cabeza…\" contraviene Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos, ya que el hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva.",
       "C": "El fuego letal indiscriminado sobre una multitud constituye masacre y crimen de lesa humanidad contrario a la Constitución.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos): El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva — Asegurar físicamente al recluso en las áreas más seguras internas de las celdas, ordenar el cierre hermético…"
     }
   },
   {
@@ -4343,8 +4343,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva. El Sargento debe reforzar la guardia armada perimetral, reemplazar de inmediato los cerrojos defectuosos, realizar requisas periódicas preventivas y tramitar el traslado urgente del exceso de reclusos ante la Dirección de Centros Penales.",
     "legalBasis": "Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Control de calidad supervisor: exige individualización fáctica, indicios objetivos y consistencia probatoria.",
+      "A": "Fundamento normativo (Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos): El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva — Exigir a los agentes captores la individualización fáctica precisa y fundamentación probatoria de cada…",
+      "B": "La opción \"Aprobar el acta inmediatamente señalando que en régimen de excepción la policía no necesita…\" contraviene Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos, ya que el hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva.",
       "C": "La coacción física y tortura son delitos imprescriptibles prohibidos de manera absoluta por el Art. 31 Cn. y tratados de DDHH.",
       "D": "Actuaciones clandestinas constituyen graves violaciones a los derechos humanos y delitos penales de lesa humanidad."
     }
@@ -4378,7 +4378,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos.",
     "distractorRationale": {
       "A": "Reemplazar libros oficiales clandestinamente constituye fraude y encubrimiento de delitos institucionales.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos): El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva — Elaborar acta de constatación fotográfica del estado del libro, congelar y resguardar el libro como indicio…",
       "C": "La alteración de documentos oficiales no es subsanable con amonestaciones verbales ni remiendos.",
       "D": "La condición del detenido jamás justifica la comisión de delitos por parte de los funcionarios de policía."
     }
@@ -4412,8 +4412,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos.",
     "distractorRationale": {
       "A": "Prolongar la detención más allá del límite constitucional constituye delito de privación de libertad por funcionario y falta muy grave.",
-      "B": "Respuesta correcta. Garantiza el cumplimiento estricto del plazo de 72 horas de control judicial y salvaguarda la legalidad.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Poner en libertad al reo a las 71 horas sin consultar a la FGR y destruir el acta de captura\" contraviene Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos, ya que el hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva.",
+      "C": "Fundamento normativo (Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos): El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva — Ordenar el traslado inmediato y prioritario del detenido y de las actuaciones policiales ante la FGR y el…",
       "D": "Adulterar el registro de detención es delito de falsedad material e ideológica con dolo evidente."
     }
   },
@@ -4446,9 +4446,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos.",
     "distractorRationale": {
       "A": "El servicio de seguridad perimetral y atención ciudadana exige alerta permanente y respeto estricto a las normas de porte de uniforme.",
-      "B": "Respuesta correcta. Tipificación precisa como falta grave y canalización formal ante el Tribunal Disciplinario con respeto al derecho de defensa.",
+      "B": "La opción \"Es una falta leve que prescribe a los 10 minutos si los agentes piden disculpas por escrito\" contraviene Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos, ya que el hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva.",
       "C": "Las faltas graves no se extinguen en minutos ni son dispensables unilateralmente.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos): El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva — Constituye una Falta Grave por negligencia en el servicio y desatención a las normas de porte y presentación… (Criterio pnc-sargento-063-D)."
     }
   },
   {
@@ -4479,8 +4479,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva. El Sargento debe reforzar la guardia armada perimetral, reemplazar de inmediato los cerrojos defectuosos, realizar requisas periódicas preventivas y tramitar el traslado urgente del exceso de reclusos ante la Dirección de Centros Penales.",
     "legalBasis": "Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Inmovilización del arma, fijación pericial de residuos de disparo (GSR), aviso fiscal penal y trámite disciplinario.",
+      "A": "Fundamento normativo (Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos): El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva — Desarmar de inmediato al agente, asegurar el arma de fuego y los casquillos percutidos si fueron recuperados,… (Criterio pnc-sargento-064-A).",
+      "B": "La opción \"Cobrarle al agente cincuenta centavos de dólar por cada cartucho percutido y archivar el libro…\" contraviene Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos, ya que el hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva.",
       "C": "Disparar al aire pone en riesgo la vida de terceros por proyectiles perdidos y viola la doctrina policial de uso de armas.",
       "D": "Rellenar munición con cargadores ajenos altera los registros de inventario y viola la trazabilidad balística."
     }
@@ -4514,7 +4514,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos.",
     "distractorRationale": {
       "A": "Entregar a un detenido para que sea linchado constituye delito de Homicidio Agravado en comisión por omisión y falta disciplinaria gravísima.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos): El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva — Asegurar físicamente al recluso en las áreas más seguras internas de las celdas, ordenar el cierre hermético… (Criterio pnc-sargento-065-B).",
       "C": "El fuego letal indiscriminado sobre una multitud constituye masacre y crimen de lesa humanidad contrario a la Constitución.",
       "D": "El abandono cobarde del servicio y pérdida de armas de fuego acarrea destitución y pena privativa de libertad."
     }
@@ -4548,8 +4548,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos.",
     "distractorRationale": {
       "A": "Afirmar que no se requiere justificación es un error grave; las capturas arbitrarias sin indicios vulneran la legalidad y saturan el sistema judicial.",
-      "B": "Respuesta correcta. Control de calidad supervisor: exige individualización fáctica, indicios objetivos y consistencia probatoria.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Golpear a los detenidos para obligarlos a redactar sus propias actas de autoinculpación\" contraviene Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos, ya que el hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva.",
+      "C": "Fundamento normativo (Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos): El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva — Exigir a los agentes captores la individualización fáctica precisa y fundamentación probatoria de cada… (Criterio pnc-sargento-066-C).",
       "D": "Actuaciones clandestinas constituyen graves violaciones a los derechos humanos y delitos penales de lesa humanidad."
     }
   },
@@ -4582,9 +4582,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos.",
     "distractorRationale": {
       "A": "Reemplazar libros oficiales clandestinamente constituye fraude y encubrimiento de delitos institucionales.",
-      "B": "Respuesta correcta. Preservación del indicio, denuncia penal obligatoria por falsedad y apertura de expediente de falta muy grave.",
+      "B": "La opción \"Amonestar verbalmente al agente en privado y permitirle colocar cinta adhesiva sobre las…\" contraviene Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos, ya que el hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva.",
       "C": "La alteración de documentos oficiales no es subsanable con amonestaciones verbales ni remiendos.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Manual de Seguridad de Instalaciones Policiales PNC; Directrices de Aforos y Derechos Humanos): El hacinamiento crítico y la vulnerabilidad de herrajes generan un riesgo inminente de motín o fuga masiva — Elaborar acta de constatación fotográfica del estado del libro, congelar y resguardar el libro como indicio… (Criterio pnc-sargento-067-D)."
     }
   },
   {
@@ -4616,7 +4616,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 159, 168 Ord. 12° y 211 de la Constitución de la República de El Salvador.",
     "distractorRationale": {
       "A": "La PNC no es militarizada; su creación civil fue uno de los núcleos fundacionales de los Acuerdos de Paz de Chapultepec de 1992.",
-      "B": "Respuesta correcta. Define con exactitud la naturaleza civil de la PNC y la figura constitucional del apoyo temporal de la FAES.",
+      "B": "Fundamento normativo (Arts. 159, 168 Ord. 12° y 211 de la Constitución de la República de El Salvador): El Art. 159 de la Constitución establece con claridad meridiana que la seguridad pública estará a cargo de la Policía Nacional Civil, institución profesional de naturaleza netamente civil — La PNC es un cuerpo profesional, técnico, jerarquizado, disciplinado y estrictamente CIVIL (Art. 159 Cn.); y…",
       "C": "La Fuerza Armada tiene como misión la defensa de la soberanía nacional y la integridad del territorio (Art. 211 Cn.), diferente de la seguridad interna.",
       "D": "La seguridad pública es función indelegable del Estado central, no de las municipalidades."
     }
@@ -4650,7 +4650,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Principios Básicos sobre el Empleo de la Fuerza y Armas de Fuego (ONU 1990) y Manual de Uso de la Fuerza de la PNC.",
     "distractorRationale": {
       "A": "Efectuar disparos al aire está estrictamente prohibido por la doctrina policial y normativas internacionales por el riesgo letal de las balas perdidas.",
-      "B": "Respuesta correcta. El uso progresivo y diferenciado de la fuerza es el mandato universal en seguridad pública.",
+      "B": "Fundamento normativo (Principios Básicos sobre el Empleo de la Fuerza y Armas de Fuego (ONU 1990) y Manual de Uso de la Fuerza de la PNC): Los Principios Básicos de la ONU (Principios 4, 5 y 9) disponen que los funcionarios policiales deben agotar los medios no violentos antes de recurrir a la fuerza — Agotar los medios no violentos (verbalización, distensión) y, de ser estrictamente necesario, utilizar medios…",
       "C": "Las detenciones masivas e indiscriminadas sin causa individualizada violan los Arts. 11 y 12 de la Constitución.",
       "D": "El abandono del servicio y desidia operativa quebranta los deberes de la Ley de la Carrera Policial."
     }
@@ -4684,7 +4684,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 29, 30 y 31 de la Constitución de la República de El Salvador; Art. 27 de la Convención Americana sobre Derechos Humanos.",
     "distractorRationale": {
       "A": "Afirmar que se suspende toda la Constitución es jurídicamente falso; el estado de derecho permanece y existen derechos con cláusula de intangibilidad absoluta.",
-      "B": "Respuesta correcta. Delimita con rigor técnico las garantías que pueden suspenderse y el núcleo duro de derechos inderogables bajo el Art. 31 Cn.",
+      "B": "Fundamento normativo (Arts. 29, 30 y 31 de la Constitución de la República de El Salvador; Art. 27 de la Convención Americana sobre Derechos Humanos): El régimen de excepción en El Salvador es una figura tasada (Art. 29 Cn.) — Únicamente pueden suspenderse las garantías taxativamente autorizadas por el Art. 29 Cn. (libertad de…",
       "C": "La suspensión de garantías es competencia exclusiva de la Asamblea Legislativa (o Consejo de Ministros en receso), jamás de los mandos policiales en el terreno.",
       "D": "La Constitución prohíbe taxativamente la aplicación de fueros militares a civiles (Art. 172 Cn.) y las penas de destierro."
     }
@@ -4718,7 +4718,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Jurisprudencia de la Corte IDH (Caso Montero Aranguren vs. Venezuela; Caso Zambrano Vélez vs. Ecuador); Código de Conducta para Funcionarios Encargados de Hacer Cumplir la Ley (ONU).",
     "distractorRationale": {
       "A": "La doctrina interamericana sostiene que los mandos que planifican y ordenan la operación son garantes directos y asumen responsabilidad penal y de mando.",
-      "B": "Respuesta correcta. Sintetiza los estándares internacionales sobre planificación responsable, minimización de daños y rendición de cuentas.",
+      "B": "Fundamento normativo (Jurisprudencia de la Corte IDH (Caso Montero Aranguren vs. Venezuela; Caso Zambrano Vélez vs. Ecuador); Código de Conducta para Funcionarios Encargados de Hacer Cumplir la Ley (ONU)): La Corte IDH ha sentado doctrina reiterada: la responsabilidad del Estado por el uso de la fuerza no solo se juzga en el instante del disparo, sino en la fase previa de diseño, planificación,… — Los mandos policiales tienen la obligación de diseñar y planificar las operaciones de modo que se minimice al…",
       "C": "Disparar sin advertencia previa ante personas que no representen riesgo inminente de muerte constituye ejecución sumaria o arbitraria.",
       "D": "Las órdenes operativas son objeto de control jurisdiccional pleno ante posibles violaciones a derechos fundamentales."
     }
@@ -4752,7 +4752,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 24 de la Constitución de la República; Arts. 5, 8, 12, 16 y 22 de la Ley Especial para la Intervención de las Telecomunicaciones (LEIT).",
     "distractorRationale": {
       "A": "Ninguna jefatura policial posee atribuciones constitucionales o legales para intervenir telecomunicaciones directamente.",
-      "B": "Respuesta correcta. Refleja fielmente la titularidad exclusiva del FGR, el control judicial de instrucción de San Salvador y la ejecución técnica reglada.",
+      "B": "Fundamento normativo (Art. 24 de la Constitución de la República; Arts. 5, 8, 12, 16 y 22 de la Ley Especial para la Intervención de las Telecomunicaciones (LEIT)): El Art. 24 de la Constitución consagra la inviolabilidad de las comunicaciones y reserva exclusivamente al Fiscal General de la República la iniciativa para solicitar judicialmente la intervención de telecomunicaciones — La intervención únicamente puede ser solicitada por el Fiscal General de la República (o fiscal expresamente…",
       "C": "Las operadoras de telecomunicaciones cometerían delito penal si entregan comunicaciones privadas sin mandamiento judicial previo.",
       "D": "El empleo de software espía sin autorización judicial constituye delito grave y toda evidencia obtenida es nula de nulidad absoluta."
     }
@@ -4786,7 +4786,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 18, 20, 24 y 25 de la Ley de la Carrera Policial; Reglamento General del Tribunal de Ingresos y Ascensos (TIA).",
     "distractorRationale": {
       "A": "Las pruebas físicas o de conocimientos no pueden compensar ni subsanar un impedimento legal derivado de una sanción disciplinaria por falta muy grave.",
-      "B": "Respuesta correcta. El TIA debe hacer cumplir el régimen de idoneidad ética y exclusión por sanciones disciplinarias activas.",
+      "B": "Fundamento normativo (Arts. 18, 20, 24 y 25 de la Ley de la Carrera Policial; Reglamento General del Tribunal de Ingresos y Ascensos (TIA)): La Ley de la Carrera Policial (Arts. 18 a 25) y las directrices del TIA regulan los requisitos de elegibilidad para el ascenso en los diferentes escalafones — Declarar la inadmisión e inhabilitación del postulante para el concurso de ascenso, por no cumplir con el…",
       "C": "No existen ascensos provisionales condicionados frente a impedimentos disciplinarios reglamentarios.",
       "D": "El régimen de la carrera policial es autónomo y especializado; los órganos laborales comunes no intervienen en los concursos del TIA."
     }
@@ -4820,9 +4820,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC).",
     "distractorRationale": {
       "A": "Atacar indiscriminadamente conociendo la presencia de infantes configura un crimen atroz y responsabilidad penal internacional del mando.",
-      "B": "Respuesta correcta. Aplica el principio de precaución táctica, minimización de riesgos colaterales y captura selectiva externa.",
+      "B": "La opción \"Cancelar la persecución penal de por vida y dejar que la red de narcotráfico continúe operando…\" contraviene Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC), ya que el Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la…",
       "C": "La renuncia injustificada a la persecución penal configura denegación de justicia e incumplimiento de deberes constitucionales.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC)): El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la… — Modificar el plan operativo original privilegiando la vigilancia encubierta y la interceptación de los…"
     }
   },
   {
@@ -4853,8 +4853,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la incomunicación arbitraria, facultando a la Sala a ordenar el cese inmediato de vejaciones y deducir responsabilidad penal.",
     "legalBasis": "Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Mando ético y legal: cese inmediato, apertura penal y nulidad radical de la prueba ilícita.",
+      "A": "Fundamento normativo (Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC)): El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la… — Rechazar terminantemente y prohibir la práctica de cualquier método de tortura o trato cruel, inhumano o…",
+      "B": "La opción \"Autorizar la tortura siempre que no queden marcas físicas visibles en el cuerpo del imputado\" contraviene Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC), ya que el Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la…",
       "C": "No existe umbral temporal permisible de tortura en el estado de derecho democrático.",
       "D": "Falsear registros oficiales para encubrir torturas constituye delito grave de falsedad y encubrimiento agravado."
     }
@@ -4888,7 +4888,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC).",
     "distractorRationale": {
       "A": "La huelga o paro en los cuerpos policiales está prohibido por la Constitución (Art. 221 Cn.) y constituye delito de Sedición.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC)): El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la… — Interponer el Recurso de Revisión ante el propio Tribunal de Ingresos y Ascensos (TIA) dentro del plazo…",
       "C": "El personal civil de la PNC no está sujeto a tribunales militares ni a la jerarquía de la Fuerza Armada.",
       "D": "La destrucción de archivos es delito de Infidelidad en la Custodia de Documentos (Art. 334 CP)."
     }
@@ -4922,8 +4922,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC).",
     "distractorRationale": {
       "A": "La infidencia y violación de comunicaciones intervenidas no es falta menor; es delito penal sancionado con privación de libertad.",
-      "B": "Respuesta correcta. Tipificación penal taxativa bajo la LEIT, destitución de la carrera policial y prisión efectiva.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Es una conducta encomiable que amerita una condecoración al mérito policial por transparencia…\" contraviene Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC), ya que el Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la…",
+      "C": "Fundamento normativo (Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC)): El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la… — Constituye el delito de Violación al Deber de Secreto y Reserva de las Telecomunicaciones (Arts. 45 y 46…",
       "D": "El delito se consuma en el momento de la extracción y revelación indebida de la información reservada."
     }
   },
@@ -4956,9 +4956,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC).",
     "distractorRationale": {
       "A": "Permitir que la misma unidad se investigue a sí misma es la negación absoluta de la imparcialidad y favorece la impunidad.",
-      "B": "Respuesta correcta. Recoge fielmente el estándar internacional del Protocolo de Minnesota y sentencias de la Corte IDH.",
+      "B": "La opción \"La Corte IDH prohíbe que el Estado investigue las muertes de sospechosos de delincuencia\" contraviene Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC), ya que el Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la…",
       "C": "El Estado tiene el deber ineludible y reforzado de investigar toda muerte derivada del uso de la fuerza pública.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC)): El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la… — Vulnera el principio de debida diligencia e imparcialidad exigido por la Corte IDH, el cual exige que las…"
     }
   },
   {
@@ -4989,8 +4989,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la incomunicación arbitraria, facultando a la Sala a ordenar el cese inmediato de vejaciones y deducir responsabilidad penal.",
     "legalBasis": "Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Fundamenta con rigor la responsabilidad penal de mando en comisión por omisión bajo el Art. 21 CP.",
+      "A": "Fundamento normativo (Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC)): El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la… — El Oficial es penal y disciplinariamente responsable en calidad de autor por omisión (posición de garante) de…",
+      "B": "La opción \"El Oficial está exento de responsabilidad porque sus manos no tuvieron contacto físico directo…\" contraviene Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC), ya que el Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la…",
       "C": "Atribuir la culpa a las víctimas de tortura es una aberración jurídica y moral.",
       "D": "La responsabilidad de mando vincula a todos los niveles de jerarquía policial con tropa bajo su subordinación efectiva."
     }
@@ -5024,7 +5024,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC).",
     "distractorRationale": {
       "A": "Atacar indiscriminadamente conociendo la presencia de infantes configura un crimen atroz y responsabilidad penal internacional del mando.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC)): El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la… — Modificar el plan operativo original privilegiando la vigilancia encubierta y la interceptación de los… (Criterio pnc-oficial-013-B).",
       "C": "La renuncia injustificada a la persecución penal configura denegación de justicia e incumplimiento de deberes constitucionales.",
       "D": "Divulgar planes operativos e inteligencia pone en riesgo mortal a los agentes y viola el secreto institucional."
     }
@@ -5058,8 +5058,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC).",
     "distractorRationale": {
       "A": "La prohibición de tortura es absoluta; ningún móvil ni ausencia de secuelas externas convalida una violación de ius cogens.",
-      "B": "Respuesta correcta. Mando ético y legal: cese inmediato, apertura penal y nulidad radical de la prueba ilícita.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Permitir que los agentes apliquen asfixia durante un máximo de dos minutos cronometrados\" contraviene Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC), ya que el Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la…",
+      "C": "Fundamento normativo (Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC)): El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la… — Rechazar terminantemente y prohibir la práctica de cualquier método de tortura o trato cruel, inhumano o… (Criterio pnc-oficial-014-C).",
       "D": "Falsear registros oficiales para encubrir torturas constituye delito grave de falsedad y encubrimiento agravado."
     }
   },
@@ -5092,9 +5092,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC).",
     "distractorRationale": {
       "A": "La huelga o paro en los cuerpos policiales está prohibido por la Constitución (Art. 221 Cn.) y constituye delito de Sedición.",
-      "B": "Respuesta correcta. Aplica la vía recursiva reglamentaria: revisión ante TIA y apelación jerárquica ministerial.",
+      "B": "La opción \"Solicitar un juicio sumario penal militar contra los miembros del TIA ante el Estado Mayor de…\" contraviene Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC), ya que el Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la…",
       "C": "El personal civil de la PNC no está sujeto a tribunales militares ni a la jerarquía de la Fuerza Armada.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC)): El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la… — Interponer el Recurso de Revisión ante el propio Tribunal de Ingresos y Ascensos (TIA) dentro del plazo… (Criterio pnc-oficial-015-D)."
     }
   },
   {
@@ -5125,8 +5125,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la incomunicación arbitraria, facultando a la Sala a ordenar el cese inmediato de vejaciones y deducir responsabilidad penal.",
     "legalBasis": "Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Tipificación penal taxativa bajo la LEIT, destitución de la carrera policial y prisión efectiva.",
+      "A": "Fundamento normativo (Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC)): El Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la… — Constituye el delito de Violación al Deber de Secreto y Reserva de las Telecomunicaciones (Arts. 45 y 46… (Criterio pnc-oficial-016-A).",
+      "B": "La opción \"Es una falta leve que se subsana pidiendo disculpas por correo electrónico a la jefatura de la…\" contraviene Arts. 11 y 247 Constitución de la República; Ley de Procedimientos Constitucionales (LPC), ya que el Hábeas Corpus no solo protege contra detenciones ilegales en su origen, sino también en su modalidad correctiva contra condiciones de reclusión crueles, inhumanas o degradantes y contra la…",
       "C": "La divulgación no autorizada de escuchas es un acto ilícito que vulnera la intimidad y destruye el debido proceso.",
       "D": "El delito se consuma en el momento de la extracción y revelación indebida de la información reservada."
     }
@@ -5160,7 +5160,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC.",
     "distractorRationale": {
       "A": "Permitir que la misma unidad se investigue a sí misma es la negación absoluta de la imparcialidad y favorece la impunidad.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC): La fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,… — Vulnera el principio de debida diligencia e imparcialidad exigido por la Corte IDH, el cual exige que las…",
       "C": "El Estado tiene el deber ineludible y reforzado de investigar toda muerte derivada del uso de la fuerza pública.",
       "D": "La investigación penal es función técnico-científica del Estado (FGR y peritos independientes), no de familiares legos."
     }
@@ -5194,8 +5194,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC.",
     "distractorRationale": {
       "A": "La posición de garante impone el deber positivo de actuar; la omisión dolosa del mando genera la misma responsabilidad que la ejecución material.",
-      "B": "Respuesta correcta. Fundamenta con rigor la responsabilidad penal de mando en comisión por omisión bajo el Art. 21 CP.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"La culpa es exclusivamente de los dos sospechosos por haberse dejado capturar\" contraviene Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC, ya que la fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,…",
+      "C": "Fundamento normativo (Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC): La fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,… — El Oficial es penal y disciplinariamente responsable en calidad de autor por omisión (posición de garante) de…",
       "D": "La responsabilidad de mando vincula a todos los niveles de jerarquía policial con tropa bajo su subordinación efectiva."
     }
   },
@@ -5228,9 +5228,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC.",
     "distractorRationale": {
       "A": "Atacar indiscriminadamente conociendo la presencia de infantes configura un crimen atroz y responsabilidad penal internacional del mando.",
-      "B": "Respuesta correcta. Aplica el principio de precaución táctica, minimización de riesgos colaterales y captura selectiva externa.",
+      "B": "La opción \"Cancelar la persecución penal de por vida y dejar que la red de narcotráfico continúe operando…\" contraviene Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC, ya que la fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,…",
       "C": "La renuncia injustificada a la persecución penal configura denegación de justicia e incumplimiento de deberes constitucionales.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC): La fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,… — Modificar el plan operativo original privilegiando la vigilancia encubierta y la interceptación de los…"
     }
   },
   {
@@ -5261,8 +5261,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente, actual e inevitable de muerte o lesiones graves para los rehenes o terceros.",
     "legalBasis": "Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Mando ético y legal: cese inmediato, apertura penal y nulidad radical de la prueba ilícita.",
+      "A": "Fundamento normativo (Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC): La fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,… — Rechazar terminantemente y prohibir la práctica de cualquier método de tortura o trato cruel, inhumano o…",
+      "B": "La opción \"Autorizar la tortura siempre que no queden marcas físicas visibles en el cuerpo del imputado\" contraviene Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC, ya que la fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,…",
       "C": "No existe umbral temporal permisible de tortura en el estado de derecho democrático.",
       "D": "Falsear registros oficiales para encubrir torturas constituye delito grave de falsedad y encubrimiento agravado."
     }
@@ -5296,7 +5296,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC.",
     "distractorRationale": {
       "A": "La huelga o paro en los cuerpos policiales está prohibido por la Constitución (Art. 221 Cn.) y constituye delito de Sedición.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC): La fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,… — Interponer el Recurso de Revisión ante el propio Tribunal de Ingresos y Ascensos (TIA) dentro del plazo…",
       "C": "El personal civil de la PNC no está sujeto a tribunales militares ni a la jerarquía de la Fuerza Armada.",
       "D": "La destrucción de archivos es delito de Infidelidad en la Custodia de Documentos (Art. 334 CP)."
     }
@@ -5330,8 +5330,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC.",
     "distractorRationale": {
       "A": "La infidencia y violación de comunicaciones intervenidas no es falta menor; es delito penal sancionado con privación de libertad.",
-      "B": "Respuesta correcta. Tipificación penal taxativa bajo la LEIT, destitución de la carrera policial y prisión efectiva.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Es una conducta encomiable que amerita una condecoración al mérito policial por transparencia…\" contraviene Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC, ya que la fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,…",
+      "C": "Fundamento normativo (Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC): La fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,… — Constituye el delito de Violación al Deber de Secreto y Reserva de las Telecomunicaciones (Arts. 45 y 46…",
       "D": "El delito se consuma en el momento de la extracción y revelación indebida de la información reservada."
     }
   },
@@ -5364,9 +5364,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC.",
     "distractorRationale": {
       "A": "Permitir que la misma unidad se investigue a sí misma es la negación absoluta de la imparcialidad y favorece la impunidad.",
-      "B": "Respuesta correcta. Recoge fielmente el estándar internacional del Protocolo de Minnesota y sentencias de la Corte IDH.",
+      "B": "La opción \"La Corte IDH prohíbe que el Estado investigue las muertes de sospechosos de delincuencia\" contraviene Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC, ya que la fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,…",
       "C": "El Estado tiene el deber ineludible y reforzado de investigar toda muerte derivada del uso de la fuerza pública.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC): La fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,… — Vulnera el principio de debida diligencia e imparcialidad exigido por la Corte IDH, el cual exige que las… (Criterio pnc-oficial-023-D)."
     }
   },
   {
@@ -5397,8 +5397,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente, actual e inevitable de muerte o lesiones graves para los rehenes o terceros.",
     "legalBasis": "Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Fundamenta con rigor la responsabilidad penal de mando en comisión por omisión bajo el Art. 21 CP.",
+      "A": "Fundamento normativo (Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC): La fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,… — El Oficial es penal y disciplinariamente responsable en calidad de autor por omisión (posición de garante) de… (Criterio pnc-oficial-024-A).",
+      "B": "La opción \"El Oficial está exento de responsabilidad porque sus manos no tuvieron contacto físico directo…\" contraviene Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC, ya que la fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,…",
       "C": "Atribuir la culpa a las víctimas de tortura es una aberración jurídica y moral.",
       "D": "La responsabilidad de mando vincula a todos los niveles de jerarquía policial con tropa bajo su subordinación efectiva."
     }
@@ -5432,7 +5432,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC.",
     "distractorRationale": {
       "A": "Atacar indiscriminadamente conociendo la presencia de infantes configura un crimen atroz y responsabilidad penal internacional del mando.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC): La fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,… — Modificar el plan operativo original privilegiando la vigilancia encubierta y la interceptación de los… (Criterio pnc-oficial-025-B).",
       "C": "La renuncia injustificada a la persecución penal configura denegación de justicia e incumplimiento de deberes constitucionales.",
       "D": "Divulgar planes operativos e inteligencia pone en riesgo mortal a los agentes y viola el secreto institucional."
     }
@@ -5466,8 +5466,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC.",
     "distractorRationale": {
       "A": "La prohibición de tortura es absoluta; ningún móvil ni ausencia de secuelas externas convalida una violación de ius cogens.",
-      "B": "Respuesta correcta. Mando ético y legal: cese inmediato, apertura penal y nulidad radical de la prueba ilícita.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Permitir que los agentes apliquen asfixia durante un máximo de dos minutos cronometrados\" contraviene Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC, ya que la fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,…",
+      "C": "Fundamento normativo (Principios Básicos de la ONU sobre Uso de la Fuerza; Protocolo de Negociación y Francotiradores PNC): La fuerza letal mediante tirador de precisión solo puede ser autorizada por el mando táctico superior cuando se han agotado o resultan inviables las vías no violentas y existe una amenaza inminente,… — Rechazar terminantemente y prohibir la práctica de cualquier método de tortura o trato cruel, inhumano o… (Criterio pnc-oficial-026-C).",
       "D": "Falsear registros oficiales para encubrir torturas constituye delito grave de falsedad y encubrimiento agravado."
     }
   },
@@ -5500,9 +5500,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho).",
     "distractorRationale": {
       "A": "La huelga o paro en los cuerpos policiales está prohibido por la Constitución (Art. 221 Cn.) y constituye delito de Sedición.",
-      "B": "Respuesta correcta. Aplica la vía recursiva reglamentaria: revisión ante TIA y apelación jerárquica ministerial.",
+      "B": "La opción \"Solicitar un juicio sumario penal militar contra los miembros del TIA ante el Estado Mayor de…\" contraviene Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho), ya que se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y…",
       "C": "El personal civil de la PNC no está sujeto a tribunales militares ni a la jerarquía de la Fuerza Armada.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho)): Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y… — Interponer el Recurso de Revisión ante el propio Tribunal de Ingresos y Ascensos (TIA) dentro del plazo…"
     }
   },
   {
@@ -5533,8 +5533,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y proceso penal de la FGR por Cohecho Pasivo y Lavado de Dinero con destitución disciplinaria.",
     "legalBasis": "Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Tipificación penal taxativa bajo la LEIT, destitución de la carrera policial y prisión efectiva.",
+      "A": "Fundamento normativo (Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho)): Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y… — Constituye el delito de Violación al Deber de Secreto y Reserva de las Telecomunicaciones (Arts. 45 y 46…",
+      "B": "La opción \"Es una falta leve que se subsana pidiendo disculpas por correo electrónico a la jefatura de la…\" contraviene Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho), ya que se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y…",
       "C": "La divulgación no autorizada de escuchas es un acto ilícito que vulnera la intimidad y destruye el debido proceso.",
       "D": "El delito se consuma en el momento de la extracción y revelación indebida de la información reservada."
     }
@@ -5568,7 +5568,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho).",
     "distractorRationale": {
       "A": "Permitir que la misma unidad se investigue a sí misma es la negación absoluta de la imparcialidad y favorece la impunidad.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho)): Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y… — Vulnera el principio de debida diligencia e imparcialidad exigido por la Corte IDH, el cual exige que las…",
       "C": "El Estado tiene el deber ineludible y reforzado de investigar toda muerte derivada del uso de la fuerza pública.",
       "D": "La investigación penal es función técnico-científica del Estado (FGR y peritos independientes), no de familiares legos."
     }
@@ -5602,8 +5602,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho).",
     "distractorRationale": {
       "A": "La posición de garante impone el deber positivo de actuar; la omisión dolosa del mando genera la misma responsabilidad que la ejecución material.",
-      "B": "Respuesta correcta. Fundamenta con rigor la responsabilidad penal de mando en comisión por omisión bajo el Art. 21 CP.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"La culpa es exclusivamente de los dos sospechosos por haberse dejado capturar\" contraviene Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho), ya que se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y…",
+      "C": "Fundamento normativo (Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho)): Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y… — El Oficial es penal y disciplinariamente responsable en calidad de autor por omisión (posición de garante) de…",
       "D": "La responsabilidad de mando vincula a todos los niveles de jerarquía policial con tropa bajo su subordinación efectiva."
     }
   },
@@ -5636,9 +5636,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho).",
     "distractorRationale": {
       "A": "Atacar indiscriminadamente conociendo la presencia de infantes configura un crimen atroz y responsabilidad penal internacional del mando.",
-      "B": "Respuesta correcta. Aplica el principio de precaución táctica, minimización de riesgos colaterales y captura selectiva externa.",
+      "B": "La opción \"Cancelar la persecución penal de por vida y dejar que la red de narcotráfico continúe operando…\" contraviene Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho), ya que se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y…",
       "C": "La renuncia injustificada a la persecución penal configura denegación de justicia e incumplimiento de deberes constitucionales.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho)): Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y… — Modificar el plan operativo original privilegiando la vigilancia encubierta y la interceptación de los…"
     }
   },
   {
@@ -5669,8 +5669,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y proceso penal de la FGR por Cohecho Pasivo y Lavado de Dinero con destitución disciplinaria.",
     "legalBasis": "Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Mando ético y legal: cese inmediato, apertura penal y nulidad radical de la prueba ilícita.",
+      "A": "Fundamento normativo (Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho)): Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y… — Rechazar terminantemente y prohibir la práctica de cualquier método de tortura o trato cruel, inhumano o…",
+      "B": "La opción \"Autorizar la tortura siempre que no queden marcas físicas visibles en el cuerpo del imputado\" contraviene Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho), ya que se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y…",
       "C": "No existe umbral temporal permisible de tortura en el estado de derecho democrático.",
       "D": "Falsear registros oficiales para encubrir torturas constituye delito grave de falsedad y encubrimiento agravado."
     }
@@ -5704,7 +5704,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho).",
     "distractorRationale": {
       "A": "La huelga o paro en los cuerpos policiales está prohibido por la Constitución (Art. 221 Cn.) y constituye delito de Sedición.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho)): Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y… — Interponer el Recurso de Revisión ante el propio Tribunal de Ingresos y Ascensos (TIA) dentro del plazo… (Criterio pnc-oficial-033-B).",
       "C": "El personal civil de la PNC no está sujeto a tribunales militares ni a la jerarquía de la Fuerza Armada.",
       "D": "La destrucción de archivos es delito de Infidelidad en la Custodia de Documentos (Art. 334 CP)."
     }
@@ -5738,8 +5738,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho).",
     "distractorRationale": {
       "A": "La infidencia y violación de comunicaciones intervenidas no es falta menor; es delito penal sancionado con privación de libertad.",
-      "B": "Respuesta correcta. Tipificación penal taxativa bajo la LEIT, destitución de la carrera policial y prisión efectiva.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Es una conducta encomiable que amerita una condecoración al mérito policial por transparencia…\" contraviene Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho), ya que se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y…",
+      "C": "Fundamento normativo (Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho)): Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y… — Constituye el delito de Violación al Deber de Secreto y Reserva de las Telecomunicaciones (Arts. 45 y 46… (Criterio pnc-oficial-034-C).",
       "D": "El delito se consuma en el momento de la extracción y revelación indebida de la información reservada."
     }
   },
@@ -5772,9 +5772,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho).",
     "distractorRationale": {
       "A": "Permitir que la misma unidad se investigue a sí misma es la negación absoluta de la imparcialidad y favorece la impunidad.",
-      "B": "Respuesta correcta. Recoge fielmente el estándar internacional del Protocolo de Minnesota y sentencias de la Corte IDH.",
+      "B": "La opción \"La Corte IDH prohíbe que el Estado investigue las muertes de sospechosos de delincuencia\" contraviene Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho), ya que se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y…",
       "C": "El Estado tiene el deber ineludible y reforzado de investigar toda muerte derivada del uso de la fuerza pública.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho)): Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y… — Vulnera el principio de debida diligencia e imparcialidad exigido por la Corte IDH, el cual exige que las… (Criterio pnc-oficial-035-D)."
     }
   },
   {
@@ -5805,8 +5805,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y proceso penal de la FGR por Cohecho Pasivo y Lavado de Dinero con destitución disciplinaria.",
     "legalBasis": "Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho).",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Fundamenta con rigor la responsabilidad penal de mando en comisión por omisión bajo el Art. 21 CP.",
+      "A": "Fundamento normativo (Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho)): Se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y… — El Oficial es penal y disciplinariamente responsable en calidad de autor por omisión (posición de garante) de… (Criterio pnc-oficial-036-A).",
+      "B": "La opción \"El Oficial está exento de responsabilidad porque sus manos no tuvieron contacto físico directo…\" contraviene Ley de Ética Gubernamental; Ley sobre el Enriquecimiento Ilícito de Funcionarios Públicos; Art. 328 CP (Cohecho), ya que se configuran responsabilidades en tres vías concurrentes: sanción ética administrativa por el TEG, juicio civil de enriquecimiento ilícito ante la Cámara de lo Civil con restitución patrimonial y…",
       "C": "Atribuir la culpa a las víctimas de tortura es una aberración jurídica y moral.",
       "D": "La responsabilidad de mando vincula a todos los niveles de jerarquía policial con tropa bajo su subordinación efectiva."
     }
@@ -5840,7 +5840,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn.",
     "distractorRationale": {
       "A": "Atacar indiscriminadamente conociendo la presencia de infantes configura un crimen atroz y responsabilidad penal internacional del mando.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn): La ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz… — Modificar el plan operativo original privilegiando la vigilancia encubierta y la interceptación de los…",
       "C": "La renuncia injustificada a la persecución penal configura denegación de justicia e incumplimiento de deberes constitucionales.",
       "D": "Divulgar planes operativos e inteligencia pone en riesgo mortal a los agentes y viola el secreto institucional."
     }
@@ -5874,8 +5874,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn.",
     "distractorRationale": {
       "A": "La prohibición de tortura es absoluta; ningún móvil ni ausencia de secuelas externas convalida una violación de ius cogens.",
-      "B": "Respuesta correcta. Mando ético y legal: cese inmediato, apertura penal y nulidad radical de la prueba ilícita.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Permitir que los agentes apliquen asfixia durante un máximo de dos minutos cronometrados\" contraviene Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn, ya que la ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz…",
+      "C": "Fundamento normativo (Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn): La ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz… — Rechazar terminantemente y prohibir la práctica de cualquier método de tortura o trato cruel, inhumano o…",
       "D": "Falsear registros oficiales para encubrir torturas constituye delito grave de falsedad y encubrimiento agravado."
     }
   },
@@ -5908,9 +5908,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn.",
     "distractorRationale": {
       "A": "La huelga o paro en los cuerpos policiales está prohibido por la Constitución (Art. 221 Cn.) y constituye delito de Sedición.",
-      "B": "Respuesta correcta. Aplica la vía recursiva reglamentaria: revisión ante TIA y apelación jerárquica ministerial.",
+      "B": "La opción \"Solicitar un juicio sumario penal militar contra los miembros del TIA ante el Estado Mayor de…\" contraviene Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn, ya que la ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz…",
       "C": "El personal civil de la PNC no está sujeto a tribunales militares ni a la jerarquía de la Fuerza Armada.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn): La ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz… — Interponer el Recurso de Revisión ante el propio Tribunal de Ingresos y Ascensos (TIA) dentro del plazo…"
     }
   },
   {
@@ -5941,8 +5941,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz y biombos en sede judicial para preservar el anonimato visual y acústico del testigo.",
     "legalBasis": "Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Tipificación penal taxativa bajo la LEIT, destitución de la carrera policial y prisión efectiva.",
+      "A": "Fundamento normativo (Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn): La ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz… — Constituye el delito de Violación al Deber de Secreto y Reserva de las Telecomunicaciones (Arts. 45 y 46…",
+      "B": "La opción \"Es una falta leve que se subsana pidiendo disculpas por correo electrónico a la jefatura de la…\" contraviene Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn, ya que la ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz…",
       "C": "La divulgación no autorizada de escuchas es un acto ilícito que vulnera la intimidad y destruye el debido proceso.",
       "D": "El delito se consuma en el momento de la extracción y revelación indebida de la información reservada."
     }
@@ -5976,7 +5976,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn.",
     "distractorRationale": {
       "A": "Permitir que la misma unidad se investigue a sí misma es la negación absoluta de la imparcialidad y favorece la impunidad.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn): La ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz… — Vulnera el principio de debida diligencia e imparcialidad exigido por la Corte IDH, el cual exige que las…",
       "C": "El Estado tiene el deber ineludible y reforzado de investigar toda muerte derivada del uso de la fuerza pública.",
       "D": "La investigación penal es función técnico-científica del Estado (FGR y peritos independientes), no de familiares legos."
     }
@@ -6010,8 +6010,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn.",
     "distractorRationale": {
       "A": "La posición de garante impone el deber positivo de actuar; la omisión dolosa del mando genera la misma responsabilidad que la ejecución material.",
-      "B": "Respuesta correcta. Fundamenta con rigor la responsabilidad penal de mando en comisión por omisión bajo el Art. 21 CP.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"La culpa es exclusivamente de los dos sospechosos por haberse dejado capturar\" contraviene Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn, ya que la ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz…",
+      "C": "Fundamento normativo (Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn): La ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz… — El Oficial es penal y disciplinariamente responsable en calidad de autor por omisión (posición de garante) de…",
       "D": "La responsabilidad de mando vincula a todos los niveles de jerarquía policial con tropa bajo su subordinación efectiva."
     }
   },
@@ -6044,9 +6044,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn.",
     "distractorRationale": {
       "A": "Atacar indiscriminadamente conociendo la presencia de infantes configura un crimen atroz y responsabilidad penal internacional del mando.",
-      "B": "Respuesta correcta. Aplica el principio de precaución táctica, minimización de riesgos colaterales y captura selectiva externa.",
+      "B": "La opción \"Cancelar la persecución penal de por vida y dejar que la red de narcotráfico continúe operando…\" contraviene Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn, ya que la ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz…",
       "C": "La renuncia injustificada a la persecución penal configura denegación de justicia e incumplimiento de deberes constitucionales.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn): La ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz… — Modificar el plan operativo original privilegiando la vigilancia encubierta y la interceptación de los… (Criterio pnc-oficial-043-D)."
     }
   },
   {
@@ -6077,8 +6077,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz y biombos en sede judicial para preservar el anonimato visual y acústico del testigo.",
     "legalBasis": "Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Mando ético y legal: cese inmediato, apertura penal y nulidad radical de la prueba ilícita.",
+      "A": "Fundamento normativo (Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn): La ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz… — Rechazar terminantemente y prohibir la práctica de cualquier método de tortura o trato cruel, inhumano o… (Criterio pnc-oficial-044-A).",
+      "B": "La opción \"Autorizar la tortura siempre que no queden marcas físicas visibles en el cuerpo del imputado\" contraviene Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn, ya que la ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz…",
       "C": "No existe umbral temporal permisible de tortura en el estado de derecho democrático.",
       "D": "Falsear registros oficiales para encubrir torturas constituye delito grave de falsedad y encubrimiento agravado."
     }
@@ -6112,7 +6112,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn.",
     "distractorRationale": {
       "A": "La huelga o paro en los cuerpos policiales está prohibido por la Constitución (Art. 221 Cn.) y constituye delito de Sedición.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn): La ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz… — Interponer el Recurso de Revisión ante el propio Tribunal de Ingresos y Ascensos (TIA) dentro del plazo… (Criterio pnc-oficial-045-B).",
       "C": "El personal civil de la PNC no está sujeto a tribunales militares ni a la jerarquía de la Fuerza Armada.",
       "D": "La destrucción de archivos es delito de Infidelidad en la Custodia de Documentos (Art. 334 CP)."
     }
@@ -6146,8 +6146,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn.",
     "distractorRationale": {
       "A": "La infidencia y violación de comunicaciones intervenidas no es falta menor; es delito penal sancionado con privación de libertad.",
-      "B": "Respuesta correcta. Tipificación penal taxativa bajo la LEIT, destitución de la carrera policial y prisión efectiva.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Es una conducta encomiable que amerita una condecoración al mérito policial por transparencia…\" contraviene Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn, ya que la ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz…",
+      "C": "Fundamento normativo (Arts. 10 a 20 Ley Especial para la Protección de Víctimas y Testigos; Arts. 211-A PrPn): La ley faculta medidas de protección de emergencia y ordinarias: cambio de identidad física o documental, custodia policial personal permanente, reubicación territorial, uso de distorsionador de voz… — Constituye el delito de Violación al Deber de Secreto y Reserva de las Telecomunicaciones (Arts. 45 y 46… (Criterio pnc-oficial-046-C).",
       "D": "El delito se consuma en el momento de la extracción y revelación indebida de la información reservada."
     }
   },
@@ -6180,9 +6180,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC.",
     "distractorRationale": {
       "A": "Permitir que la misma unidad se investigue a sí misma es la negación absoluta de la imparcialidad y favorece la impunidad.",
-      "B": "Respuesta correcta. Recoge fielmente el estándar internacional del Protocolo de Minnesota y sentencias de la Corte IDH.",
+      "B": "La opción \"La Corte IDH prohíbe que el Estado investigue las muertes de sospechosos de delincuencia\" contraviene Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC, ya que la custodia de fondos incautados es de estricta responsabilidad patrimonial y legal.",
       "C": "El Estado tiene el deber ineludible y reforzado de investigar toda muerte derivada del uso de la fuerza pública.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC): La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal — Vulnera el principio de debida diligencia e imparcialidad exigido por la Corte IDH, el cual exige que las…"
     }
   },
   {
@@ -6213,8 +6213,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal. El Oficial jefe debe intervenir y clausurar la oficina de resguardo, denunciar el faltante a la FGR para iniciar investigación por Peculado, solicitar peritaje contable y ordenar la suspensión provisional de los encargados.",
     "legalBasis": "Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Fundamenta con rigor la responsabilidad penal de mando en comisión por omisión bajo el Art. 21 CP.",
+      "A": "Fundamento normativo (Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC): La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal — El Oficial es penal y disciplinariamente responsable en calidad de autor por omisión (posición de garante) de…",
+      "B": "La opción \"El Oficial está exento de responsabilidad porque sus manos no tuvieron contacto físico directo…\" contraviene Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC, ya que la custodia de fondos incautados es de estricta responsabilidad patrimonial y legal.",
       "C": "Atribuir la culpa a las víctimas de tortura es una aberración jurídica y moral.",
       "D": "La responsabilidad de mando vincula a todos los niveles de jerarquía policial con tropa bajo su subordinación efectiva."
     }
@@ -6248,7 +6248,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC.",
     "distractorRationale": {
       "A": "Atacar indiscriminadamente conociendo la presencia de infantes configura un crimen atroz y responsabilidad penal internacional del mando.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC): La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal — Modificar el plan operativo original privilegiando la vigilancia encubierta y la interceptación de los…",
       "C": "La renuncia injustificada a la persecución penal configura denegación de justicia e incumplimiento de deberes constitucionales.",
       "D": "Divulgar planes operativos e inteligencia pone en riesgo mortal a los agentes y viola el secreto institucional."
     }
@@ -6282,8 +6282,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC.",
     "distractorRationale": {
       "A": "La prohibición de tortura es absoluta; ningún móvil ni ausencia de secuelas externas convalida una violación de ius cogens.",
-      "B": "Respuesta correcta. Mando ético y legal: cese inmediato, apertura penal y nulidad radical de la prueba ilícita.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Permitir que los agentes apliquen asfixia durante un máximo de dos minutos cronometrados\" contraviene Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC, ya que la custodia de fondos incautados es de estricta responsabilidad patrimonial y legal.",
+      "C": "Fundamento normativo (Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC): La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal — Rechazar terminantemente y prohibir la práctica de cualquier método de tortura o trato cruel, inhumano o…",
       "D": "Falsear registros oficiales para encubrir torturas constituye delito grave de falsedad y encubrimiento agravado."
     }
   },
@@ -6316,9 +6316,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC.",
     "distractorRationale": {
       "A": "La huelga o paro en los cuerpos policiales está prohibido por la Constitución (Art. 221 Cn.) y constituye delito de Sedición.",
-      "B": "Respuesta correcta. Aplica la vía recursiva reglamentaria: revisión ante TIA y apelación jerárquica ministerial.",
+      "B": "La opción \"Solicitar un juicio sumario penal militar contra los miembros del TIA ante el Estado Mayor de…\" contraviene Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC, ya que la custodia de fondos incautados es de estricta responsabilidad patrimonial y legal.",
       "C": "El personal civil de la PNC no está sujeto a tribunales militares ni a la jerarquía de la Fuerza Armada.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC): La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal — Interponer el Recurso de Revisión ante el propio Tribunal de Ingresos y Ascensos (TIA) dentro del plazo…"
     }
   },
   {
@@ -6349,8 +6349,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal. El Oficial jefe debe intervenir y clausurar la oficina de resguardo, denunciar el faltante a la FGR para iniciar investigación por Peculado, solicitar peritaje contable y ordenar la suspensión provisional de los encargados.",
     "legalBasis": "Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Tipificación penal taxativa bajo la LEIT, destitución de la carrera policial y prisión efectiva.",
+      "A": "Fundamento normativo (Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC): La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal — Constituye el delito de Violación al Deber de Secreto y Reserva de las Telecomunicaciones (Arts. 45 y 46…",
+      "B": "La opción \"Es una falta leve que se subsana pidiendo disculpas por correo electrónico a la jefatura de la…\" contraviene Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC, ya que la custodia de fondos incautados es de estricta responsabilidad patrimonial y legal.",
       "C": "La divulgación no autorizada de escuchas es un acto ilícito que vulnera la intimidad y destruye el debido proceso.",
       "D": "El delito se consuma en el momento de la extracción y revelación indebida de la información reservada."
     }
@@ -6384,7 +6384,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC.",
     "distractorRationale": {
       "A": "Permitir que la misma unidad se investigue a sí misma es la negación absoluta de la imparcialidad y favorece la impunidad.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC): La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal — Vulnera el principio de debida diligencia e imparcialidad exigido por la Corte IDH, el cual exige que las… (Criterio pnc-oficial-053-B).",
       "C": "El Estado tiene el deber ineludible y reforzado de investigar toda muerte derivada del uso de la fuerza pública.",
       "D": "La investigación penal es función técnico-científica del Estado (FGR y peritos independientes), no de familiares legos."
     }
@@ -6418,8 +6418,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC.",
     "distractorRationale": {
       "A": "La posición de garante impone el deber positivo de actuar; la omisión dolosa del mando genera la misma responsabilidad que la ejecución material.",
-      "B": "Respuesta correcta. Fundamenta con rigor la responsabilidad penal de mando en comisión por omisión bajo el Art. 21 CP.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"La culpa es exclusivamente de los dos sospechosos por haberse dejado capturar\" contraviene Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC, ya que la custodia de fondos incautados es de estricta responsabilidad patrimonial y legal.",
+      "C": "Fundamento normativo (Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC): La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal — El Oficial es penal y disciplinariamente responsable en calidad de autor por omisión (posición de garante) de… (Criterio pnc-oficial-054-C).",
       "D": "La responsabilidad de mando vincula a todos los niveles de jerarquía policial con tropa bajo su subordinación efectiva."
     }
   },
@@ -6452,9 +6452,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC.",
     "distractorRationale": {
       "A": "Atacar indiscriminadamente conociendo la presencia de infantes configura un crimen atroz y responsabilidad penal internacional del mando.",
-      "B": "Respuesta correcta. Aplica el principio de precaución táctica, minimización de riesgos colaterales y captura selectiva externa.",
+      "B": "La opción \"Cancelar la persecución penal de por vida y dejar que la red de narcotráfico continúe operando…\" contraviene Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC, ya que la custodia de fondos incautados es de estricta responsabilidad patrimonial y legal.",
       "C": "La renuncia injustificada a la persecución penal configura denegación de justicia e incumplimiento de deberes constitucionales.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC): La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal — Modificar el plan operativo original privilegiando la vigilancia encubierta y la interceptación de los… (Criterio pnc-oficial-055-D)."
     }
   },
   {
@@ -6485,8 +6485,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal. El Oficial jefe debe intervenir y clausurar la oficina de resguardo, denunciar el faltante a la FGR para iniciar investigación por Peculado, solicitar peritaje contable y ordenar la suspensión provisional de los encargados.",
     "legalBasis": "Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Mando ético y legal: cese inmediato, apertura penal y nulidad radical de la prueba ilícita.",
+      "A": "Fundamento normativo (Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC): La custodia de fondos incautados es de estricta responsabilidad patrimonial y legal — Rechazar terminantemente y prohibir la práctica de cualquier método de tortura o trato cruel, inhumano o… (Criterio pnc-oficial-056-A).",
+      "B": "La opción \"Autorizar la tortura siempre que no queden marcas físicas visibles en el cuerpo del imputado\" contraviene Arts. 271 PrPn; Arts. 325 y 326 Código Penal (Peculado por Culpa o Dolo); Ley Orgánica de la PNC, ya que la custodia de fondos incautados es de estricta responsabilidad patrimonial y legal.",
       "C": "No existe umbral temporal permisible de tortura en el estado de derecho democrático.",
       "D": "Falsear registros oficiales para encubrir torturas constituye delito grave de falsedad y encubrimiento agravado."
     }
@@ -6520,7 +6520,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC.",
     "distractorRationale": {
       "A": "La huelga o paro en los cuerpos policiales está prohibido por la Constitución (Art. 221 Cn.) y constituye delito de Sedición.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC): El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez — Interponer el Recurso de Revisión ante el propio Tribunal de Ingresos y Ascensos (TIA) dentro del plazo…",
       "C": "El personal civil de la PNC no está sujeto a tribunales militares ni a la jerarquía de la Fuerza Armada.",
       "D": "La destrucción de archivos es delito de Infidelidad en la Custodia de Documentos (Art. 334 CP)."
     }
@@ -6554,8 +6554,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC.",
     "distractorRationale": {
       "A": "La infidencia y violación de comunicaciones intervenidas no es falta menor; es delito penal sancionado con privación de libertad.",
-      "B": "Respuesta correcta. Tipificación penal taxativa bajo la LEIT, destitución de la carrera policial y prisión efectiva.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Es una conducta encomiable que amerita una condecoración al mérito policial por transparencia…\" contraviene Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC, ya que el modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez.",
+      "C": "Fundamento normativo (Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC): El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez — Constituye el delito de Violación al Deber de Secreto y Reserva de las Telecomunicaciones (Arts. 45 y 46…",
       "D": "El delito se consuma en el momento de la extracción y revelación indebida de la información reservada."
     }
   },
@@ -6588,9 +6588,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC.",
     "distractorRationale": {
       "A": "Permitir que la misma unidad se investigue a sí misma es la negación absoluta de la imparcialidad y favorece la impunidad.",
-      "B": "Respuesta correcta. Recoge fielmente el estándar internacional del Protocolo de Minnesota y sentencias de la Corte IDH.",
+      "B": "La opción \"La Corte IDH prohíbe que el Estado investigue las muertes de sospechosos de delincuencia\" contraviene Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC, ya que el modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez.",
       "C": "El Estado tiene el deber ineludible y reforzado de investigar toda muerte derivada del uso de la fuerza pública.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC): El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez — Vulnera el principio de debida diligencia e imparcialidad exigido por la Corte IDH, el cual exige que las…"
     }
   },
   {
@@ -6621,8 +6621,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez. Los registros masivos e indiscriminados a estudiantes sin causa fundada estigmatizan a la infancia y vulneran la intimidad personal; deben privilegiarse patrullajes perimétricos externos preventivos.",
     "legalBasis": "Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Fundamenta con rigor la responsabilidad penal de mando en comisión por omisión bajo el Art. 21 CP.",
+      "A": "Fundamento normativo (Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC): El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez — El Oficial es penal y disciplinariamente responsable en calidad de autor por omisión (posición de garante) de…",
+      "B": "La opción \"El Oficial está exento de responsabilidad porque sus manos no tuvieron contacto físico directo…\" contraviene Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC, ya que el modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez.",
       "C": "Atribuir la culpa a las víctimas de tortura es una aberración jurídica y moral.",
       "D": "La responsabilidad de mando vincula a todos los niveles de jerarquía policial con tropa bajo su subordinación efectiva."
     }
@@ -6656,7 +6656,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC.",
     "distractorRationale": {
       "A": "Atacar indiscriminadamente conociendo la presencia de infantes configura un crimen atroz y responsabilidad penal internacional del mando.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC): El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez — Modificar el plan operativo original privilegiando la vigilancia encubierta y la interceptación de los…",
       "C": "La renuncia injustificada a la persecución penal configura denegación de justicia e incumplimiento de deberes constitucionales.",
       "D": "Divulgar planes operativos e inteligencia pone en riesgo mortal a los agentes y viola el secreto institucional."
     }
@@ -6690,8 +6690,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC.",
     "distractorRationale": {
       "A": "La prohibición de tortura es absoluta; ningún móvil ni ausencia de secuelas externas convalida una violación de ius cogens.",
-      "B": "Respuesta correcta. Mando ético y legal: cese inmediato, apertura penal y nulidad radical de la prueba ilícita.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"Permitir que los agentes apliquen asfixia durante un máximo de dos minutos cronometrados\" contraviene Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC, ya que el modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez.",
+      "C": "Fundamento normativo (Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC): El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez — Rechazar terminantemente y prohibir la práctica de cualquier método de tortura o trato cruel, inhumano o…",
       "D": "Falsear registros oficiales para encubrir torturas constituye delito grave de falsedad y encubrimiento agravado."
     }
   },
@@ -6724,9 +6724,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC.",
     "distractorRationale": {
       "A": "La huelga o paro en los cuerpos policiales está prohibido por la Constitución (Art. 221 Cn.) y constituye delito de Sedición.",
-      "B": "Respuesta correcta. Aplica la vía recursiva reglamentaria: revisión ante TIA y apelación jerárquica ministerial.",
+      "B": "La opción \"Solicitar un juicio sumario penal militar contra los miembros del TIA ante el Estado Mayor de…\" contraviene Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC, ya que el modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez.",
       "C": "El personal civil de la PNC no está sujeto a tribunales militares ni a la jerarquía de la Fuerza Armada.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC): El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez — Interponer el Recurso de Revisión ante el propio Tribunal de Ingresos y Ascensos (TIA) dentro del plazo… (Criterio pnc-oficial-063-D)."
     }
   },
   {
@@ -6757,8 +6757,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "explanation": "El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez. Los registros masivos e indiscriminados a estudiantes sin causa fundada estigmatizan a la infancia y vulneran la intimidad personal; deben privilegiarse patrullajes perimétricos externos preventivos.",
     "legalBasis": "Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC.",
     "distractorRationale": {
-      "A": "Respuesta correcta. Cumple con todos los estándares tácticos y normativos exigidos.",
-      "B": "Respuesta correcta. Tipificación penal taxativa bajo la LEIT, destitución de la carrera policial y prisión efectiva.",
+      "A": "Fundamento normativo (Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC): El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez — Constituye el delito de Violación al Deber de Secreto y Reserva de las Telecomunicaciones (Arts. 45 y 46… (Criterio pnc-oficial-064-A).",
+      "B": "La opción \"Es una falta leve que se subsana pidiendo disculpas por correo electrónico a la jefatura de la…\" contraviene Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC, ya que el modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez.",
       "C": "La divulgación no autorizada de escuchas es un acto ilícito que vulnera la intimidad y destruye el debido proceso.",
       "D": "El delito se consuma en el momento de la extracción y revelación indebida de la información reservada."
     }
@@ -6792,7 +6792,7 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC.",
     "distractorRationale": {
       "A": "Permitir que la misma unidad se investigue a sí misma es la negación absoluta de la imparcialidad y favorece la impunidad.",
-      "B": "Respuesta correcta. Procedimiento legal y operativo ajustado a la doctrina policial.",
+      "B": "Fundamento normativo (Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC): El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez — Vulnera el principio de debida diligencia e imparcialidad exigido por la Corte IDH, el cual exige que las… (Criterio pnc-oficial-065-B).",
       "C": "El Estado tiene el deber ineludible y reforzado de investigar toda muerte derivada del uso de la fuerza pública.",
       "D": "La investigación penal es función técnico-científica del Estado (FGR y peritos independientes), no de familiares legos."
     }
@@ -6826,8 +6826,8 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC.",
     "distractorRationale": {
       "A": "La posición de garante impone el deber positivo de actuar; la omisión dolosa del mando genera la misma responsabilidad que la ejecución material.",
-      "B": "Respuesta correcta. Fundamenta con rigor la responsabilidad penal de mando en comisión por omisión bajo el Art. 21 CP.",
-      "C": "Respuesta correcta. Aplica la garantía constitucional y procedimental aplicable.",
+      "B": "La opción \"La culpa es exclusivamente de los dos sospechosos por haberse dejado capturar\" contraviene Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC, ya que el modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez.",
+      "C": "Fundamento normativo (Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC): El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez — El Oficial es penal y disciplinariamente responsable en calidad de autor por omisión (posición de garante) de… (Criterio pnc-oficial-066-C).",
       "D": "La responsabilidad de mando vincula a todos los niveles de jerarquía policial con tropa bajo su subordinación efectiva."
     }
   },
@@ -6860,9 +6860,9 @@ export const ANSP_ASCENSO_QUESTIONS: PolicePromotionQuestion[] = [
     "legalBasis": "Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC.",
     "distractorRationale": {
       "A": "Atacar indiscriminadamente conociendo la presencia de infantes configura un crimen atroz y responsabilidad penal internacional del mando.",
-      "B": "Respuesta correcta. Aplica el principio de precaución táctica, minimización de riesgos colaterales y captura selectiva externa.",
+      "B": "La opción \"Cancelar la persecución penal de por vida y dejar que la red de narcotráfico continúe operando…\" contraviene Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC, ya que el modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez.",
       "C": "La renuncia injustificada a la persecución penal configura denegación de justicia e incumplimiento de deberes constitucionales.",
-      "D": "Respuesta correcta. Medida proporcional fundada en los protocolos vigentes."
+      "D": "Fundamento normativo (Art. 2 y 19 Cn.; Ley Crecer Juntos; Manual del Modelo de Policía Comunitaria de la PNC): El modelo de policía comunitaria se fundamenta en la confianza ciudadana y el respeto irrestricto a los derechos de la niñez — Modificar el plan operativo original privilegiando la vigilancia encubierta y la interceptación de los… (Criterio pnc-oficial-067-D)."
     }
   }
 ];

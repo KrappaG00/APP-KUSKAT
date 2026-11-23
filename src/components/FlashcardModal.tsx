@@ -28,6 +28,7 @@ import {
   getStoredFlashcards,
   saveStoredFlashcards,
 } from '../utils/fsrsScheduler';
+import { KaTeXMath } from '../utils/mathRenderer';
 
 interface FlashcardModalProps {
   isOpen: boolean;
@@ -457,33 +458,35 @@ export const FlashcardModal: React.FC<FlashcardModalProps> = ({
                 </div>
 
                 {/* Contenido Frontal o Posterior */}
-                <div className="py-5 flex-1 flex flex-col justify-center">
+                <div className="py-5 flex-1 flex flex-col justify-center min-w-0">
                   {!isFlipped ? (
-                    <div className="space-y-2">
+                    <div className="space-y-2 min-w-0">
                       <span className="text-[10px] font-mono-exam font-bold text-[#9E472A] uppercase tracking-wider block">
                         Pregunta / Enunciado (Haz clic para ver respuesta):
                       </span>
-                      <p className="text-sm sm:text-base font-semibold text-[#111625] leading-relaxed">
-                        {activeCard.front}
+                      <p className="text-sm sm:text-base font-semibold text-[#111625] leading-relaxed min-w-0 break-words">
+                        <KaTeXMath text={activeCard.front} />
                       </p>
                     </div>
                   ) : (
-                    <div className="space-y-3">
+                    <div className="space-y-3 min-w-0">
                       <span className="text-[10px] font-mono-exam font-bold text-[#1E7E34] uppercase tracking-wider block">
                         Respuesta & Fundamento Técnico:
                       </span>
-                      <div className="text-xs sm:text-sm text-[#1E293B] leading-relaxed whitespace-pre-line font-medium">
-                        {activeCard.back}
+                      <div className="text-xs sm:text-sm text-[#1E293B] leading-relaxed whitespace-pre-line font-medium min-w-0 break-words">
+                        <KaTeXMath text={activeCard.back} />
                       </div>
 
                       {activeCard.keyTakeaway && (
-                        <div className="p-2.5 rounded-lg bg-[#FAF9F5] border border-[#C59B27]/40 text-xs text-[#0B1B3D] flex items-start gap-2 mt-2">
+                        <div className="p-2.5 rounded-lg bg-[#FAF9F5] border border-[#C59B27]/40 text-xs text-[#0B1B3D] flex items-start gap-2 mt-2 min-w-0">
                           <Sparkles className="w-4 h-4 text-[#C59B27] shrink-0 mt-0.5" />
-                          <div>
+                          <div className="min-w-0 flex-1">
                             <strong className="block text-[11px] font-mono-exam text-[#9E472A] uppercase">
                               Punto Clave Educativo:
                             </strong>
-                            <span className="text-xs">{activeCard.keyTakeaway}</span>
+                            <span className="text-xs min-w-0 break-words">
+                              <KaTeXMath text={activeCard.keyTakeaway} />
+                            </span>
                           </div>
                         </div>
                       )}

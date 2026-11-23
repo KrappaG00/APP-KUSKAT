@@ -46,7 +46,7 @@ export const CallToActionFinal3D: React.FC<CallToActionFinal3DProps> = ({ onStar
           Tu puerta de entrada a la universidad y al éxito profesional. Más de 17,600 reactivos oficiales listos para tu preparación.
         </p>
         <p className="font-caslon text-xs sm:text-base text-slate-300 tracking-editorial mt-1.5 sm:mt-2 px-2">
-          Preparación con los estándares y temarios del MINED, la UES, ANSP y Jóvenes Talento.
+          Preparación con los estándares y temarios del MINED, la UES, ANSP y ASD MINED.
         </p>
 
         {/* Botón 3D en verde éxito con texto blanco y flotación continua */}

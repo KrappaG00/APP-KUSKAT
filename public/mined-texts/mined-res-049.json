@@ -1,0 +1,945 @@
+{
+  "id": "mined-res-049",
+  "title": "Cuaderno de Trabajo Ciencia y Tecnología 7.° Grado",
+  "filename": "Cuaderno de trabajo 7.° grado.pdf",
+  "docType": "Cuaderno de Ejercicios",
+  "materiaOriginal": "Ciencia y Tecnología",
+  "gradoOriginal": "7.° Grado",
+  "officialUrl": "https://www.mined.gob.sv/materiales/2026/CIENCIA_Y_TECNOLOGIA/3. Cuadernos de trabajo/Cuaderno de trabajo 7.° grado.pdf",
+  "status": "success",
+  "textCoverage": "full",
+  "totalPages": 130,
+  "extractedPages": 129,
+  "coverageRatio": 0.9923,
+  "totalChars": 98020,
+  "sectionCount": 39,
+  "mediaUrl": null,
+  "notice": null,
+  "sections": [
+    {
+      "id": "sec-001",
+      "title": "Unidad 1",
+      "startPage": 4,
+      "endPage": 4,
+      "level": 1
+    },
+    {
+      "id": "sec-002",
+      "title": "Unidad 1. Compuestos inorgánicos 5",
+      "startPage": 5,
+      "endPage": 7,
+      "level": 1
+    },
+    {
+      "id": "sec-003",
+      "title": "Semana 1",
+      "startPage": 8,
+      "endPage": 11,
+      "level": 1
+    },
+    {
+      "id": "sec-004",
+      "title": "Semana 2",
+      "startPage": 12,
+      "endPage": 15,
+      "level": 1
+    },
+    {
+      "id": "sec-005",
+      "title": "Semana 3",
+      "startPage": 16,
+      "endPage": 19,
+      "level": 1
+    },
+    {
+      "id": "sec-006",
+      "title": "Semana 4",
+      "startPage": 20,
+      "endPage": 23,
+      "level": 1
+    },
+    {
+      "id": "sec-007",
+      "title": "Unidad 2",
+      "startPage": 24,
+      "endPage": 25,
+      "level": 1
+    },
+    {
+      "id": "sec-008",
+      "title": "Semana 5",
+      "startPage": 26,
+      "endPage": 27,
+      "level": 1
+    },
+    {
+      "id": "sec-009",
+      "title": "Semana 6",
+      "startPage": 28,
+      "endPage": 31,
+      "level": 1
+    },
+    {
+      "id": "sec-010",
+      "title": "Semana 7",
+      "startPage": 32,
+      "endPage": 33,
+      "level": 1
+    },
+    {
+      "id": "sec-011",
+      "title": "Semana 8",
+      "startPage": 34,
+      "endPage": 37,
+      "level": 1
+    },
+    {
+      "id": "sec-012",
+      "title": "Semana 9",
+      "startPage": 38,
+      "endPage": 41,
+      "level": 1
+    },
+    {
+      "id": "sec-013",
+      "title": "Semana 10",
+      "startPage": 42,
+      "endPage": 45,
+      "level": 1
+    },
+    {
+      "id": "sec-014",
+      "title": "Unidad 3",
+      "startPage": 46,
+      "endPage": 47,
+      "level": 1
+    },
+    {
+      "id": "sec-015",
+      "title": "Semana 11",
+      "startPage": 48,
+      "endPage": 49,
+      "level": 1
+    },
+    {
+      "id": "sec-016",
+      "title": "Semana 12",
+      "startPage": 50,
+      "endPage": 55,
+      "level": 1
+    },
+    {
+      "id": "sec-017",
+      "title": "Semana 13",
+      "startPage": 56,
+      "endPage": 57,
+      "level": 1
+    },
+    {
+      "id": "sec-018",
+      "title": "Semana 14",
+      "startPage": 58,
+      "endPage": 61,
+      "level": 1
+    },
+    {
+      "id": "sec-019",
+      "title": "Unidad 4",
+      "startPage": 62,
+      "endPage": 63,
+      "level": 1
+    },
+    {
+      "id": "sec-020",
+      "title": "Semana 15",
+      "startPage": 64,
+      "endPage": 67,
+      "level": 1
+    },
+    {
+      "id": "sec-021",
+      "title": "Semana 16",
+      "startPage": 68,
+      "endPage": 69,
+      "level": 1
+    },
+    {
+      "id": "sec-022",
+      "title": "Semana 17",
+      "startPage": 70,
+      "endPage": 73,
+      "level": 1
+    },
+    {
+      "id": "sec-023",
+      "title": "Semana 18",
+      "startPage": 74,
+      "endPage": 75,
+      "level": 1
+    },
+    {
+      "id": "sec-024",
+      "title": "Semana 19",
+      "startPage": 76,
+      "endPage": 81,
+      "level": 1
+    },
+    {
+      "id": "sec-025",
+      "title": "Unidad 5",
+      "startPage": 82,
+      "endPage": 83,
+      "level": 1
+    },
+    {
+      "id": "sec-026",
+      "title": "Semana 20",
+      "startPage": 84,
+      "endPage": 85,
+      "level": 1
+    },
+    {
+      "id": "sec-027",
+      "title": "Semana 21",
+      "startPage": 86,
+      "endPage": 89,
+      "level": 1
+    },
+    {
+      "id": "sec-028",
+      "title": "Semana 22",
+      "startPage": 90,
+      "endPage": 93,
+      "level": 1
+    },
+    {
+      "id": "sec-029",
+      "title": "Semana 23",
+      "startPage": 94,
+      "endPage": 95,
+      "level": 1
+    },
+    {
+      "id": "sec-030",
+      "title": "Semana 24",
+      "startPage": 96,
+      "endPage": 99,
+      "level": 1
+    },
+    {
+      "id": "sec-031",
+      "title": "Semana 25",
+      "startPage": 100,
+      "endPage": 103,
+      "level": 1
+    },
+    {
+      "id": "sec-032",
+      "title": "Unidad 6",
+      "startPage": 104,
+      "endPage": 105,
+      "level": 1
+    },
+    {
+      "id": "sec-033",
+      "title": "Semana 26",
+      "startPage": 106,
+      "endPage": 107,
+      "level": 1
+    },
+    {
+      "id": "sec-034",
+      "title": "Semana 27",
+      "startPage": 108,
+      "endPage": 111,
+      "level": 1
+    },
+    {
+      "id": "sec-035",
+      "title": "Semana 28",
+      "startPage": 112,
+      "endPage": 113,
+      "level": 1
+    },
+    {
+      "id": "sec-036",
+      "title": "Semana 29",
+      "startPage": 114,
+      "endPage": 119,
+      "level": 1
+    },
+    {
+      "id": "sec-037",
+      "title": "Semana 30",
+      "startPage": 120,
+      "endPage": 121,
+      "level": 1
+    },
+    {
+      "id": "sec-038",
+      "title": "Semana 31",
+      "startPage": 122,
+      "endPage": 123,
+      "level": 1
+    },
+    {
+      "id": "sec-039",
+      "title": "Semana 32",
+      "startPage": 124,
+      "endPage": 130,
+      "level": 1
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "7Ciencia y Tecnología 7 Cuaderno de trabajo Cuaderno de trabajo Ciencia y Tecnología",
+      "charCount": 84
+    },
+    {
+      "pageNumber": 2,
+      "text": "Este cuaderno pertenece a: ________________________________________ 7Ciencia y Tecnología 7 Cuaderno de trabajo Cuaderno de trabajo Ciencia y Tecnología",
+      "charCount": 152
+    },
+    {
+      "pageNumber": 3,
+      "text": "Edición Nathalie Carmelina Galicia Shul Tonatiuh Eddie M. Orantes Ramos Martha Alicia Artiga Hernández Adela Melissa Martínez de Guirola Orlando Leonel Castillo Henríquez Vilma Guadalupe Mártir Ramírez Autoría Huilhuinic Ángel Orantes Ramos Xochilt María Pocasangre Orellana Carolina Ruiz de Escobar Cesiah Rebeca Quintanilla García Dennis Ulises Lemus Flores Néstor Josué Ramírez Martínez Corrección de textos Carlos Eduardo Ruiz Serrano Primera edición, Ministerio de Educación, Ciencia y Tecnología, San Salvador, El Salvador, 2024.\n\nSegunda reimpresión 2025.\n\nDerechos reservados. Prohibida su venta y su reproducción con fines comerciales por cualquier medio, sin previa autorización del MINEDUCYT .\n\nISBN en trámite Jefe del Departamento de Materiales Educativos Julio Adolfo Castellanos Diseño editorial y diagramación Elmer Rodolfo Urquía Sara Elizabeth Ortiz Márquez Corrección de textos Osvaldo Efraín Hernández Alas Ilustraciones Ernesto Escobar Imágenes Shutterstock Edgar Eliseo Alvarenga F.\n\nViceministro de Educación y de Ciencia y Tecnología, ad honorem Edgard Ernesto Ábrego Cruz Director General de Educación Wilfredo Alexander Granados Paz Director de Currículo y Materiales Educativos Karla Edith Trigueros Capitán y Doctora Ministra de Educación, Ciencia y Tecnología Marcela Isabel Hernández González Directora de Educación Primaria, en funciones Tonatiuh Eddie M. Orantes Ramos Jefe del Departamento de Ciencia y Tecnología",
+      "charCount": 1446
+    },
+    {
+      "pageNumber": 4,
+      "text": "Nombre y número de la unidad.\n\nRecordatorios y apoyos.\n\nIlustraciones.\n\nPerspectiva de las temáticas.\n\nTus amigos siempre te acompañan.\n\nPreguntas y opciones de respuesta.\n\nAprendizajes que alcanzarás al estudiar la unidad.\n\nEspacios para notas y respuestas.\n\nEspacios para graficar .Tiempo.\n\nEn tu Cuaderno de Trabajo encontrarás todo listo y ordenado para tomar apuntes, responder a las preguntas y colocar los resultados de las prácticas planteadas en tu Libro de Texto.\n\nTe permiten llevar un registro ordenado de procedimientos, respuestas y resultados.\n\nTu Cuaderno de Trabajo está enlazado con tu Libro de Texto. Las flechas circulares te indican la página exacta para regresar al libro.\n\nPresentan la siguiente información:\n\n1. Notas y respuestas\n\nEncontrarás ejemplos y espacios para anotar .\n\n2. Resultados\n\nNo necesitas elaborar tablas ni cuadrículas, ya estarán listas para ti.\n\nEspacios de trabajo Entradas de unidad B A\n\np.\n\n146 Conoce tu Cuaderno de Trabajo\n\n• Identificar compuestos inorgánicos binarios como\n\nlos óxidos, hidruros, hidrácidos y sales binarias.\n\n• Identificar compuestos inorgánicos ternarios\n\ncomo los hidróxidos, oxácidos y oxisales.\n\n• Conocer las diferentes aplicaciones y usos cotidianos de los compuestos inorgánicos binarios y ternarios.\n\n• Formular y balancear compuestos inorgánicos binarios y ternarios.\n\n• Aplicar diferentes nomenclaturas químicas para\n\nnombrar los compuestos inorgánicos binarios y ternarios.\n\nCompuestos inorgánicos Eje integrador: organización\n\nUnidad 1\n\nDuración: 4 semanas Roca volcánica con material de óxidos de hierro.\n\nEn esta unidad aprenderemos a:\n\n85 Indagación\n\nUnidad 5\n\nA. Infiltración\n\nB. Capacidad de infiltración\n\n6. Dibuja el nivel alcanzado.\n\n8. Construye una gráfica de comportamiento de tiempo vs. altura del agua.\n\na. ¿Por qué el agua no tardó lo mismo en pasar a\n\ntravés de los diferentes materiales?\n\n5 10 15 20 25 30 35 40 45 50 Tiempo (min) Medición (cm)\n\nSemana 21\n\nAgua subterránea\n\nb. Ordena los materiales del más lento en permitir\n\nel paso del agua al más rápido:\n\nMás rápido Normal Normal Lento No infiltra\n\nc. ¿Ocurre lo mismo con el agua lluvia? Explica.\n\np.\n\n146 22 Evaluación\n\n1. Traslada al paréntesis la letra correspondiente a cada compuesto según sea su función química:\n\n2. Completa la tabla uniendo los cationes y los aniones que se interceptan en cada casilla y escribe la fórmula y el nombre del compuesto inorgánico. Puedes utilizar cualquier sistema de nomenclatura:\n\n3. Observa la siguiente representación de una reacción química. Las esferas claras representan átomos de hi - drógeno y las esferas oscuras, átomos de bromo, ambos gaseosos. Escribe la ecuación balanceada para la reacción, indica qué tipo de producto se formó y nómbralo considerando que es un gas.\n\n4. Escribe la ecuación debidamente balanceada de la reacción planteada para los siguientes casos.\n\na. LiF ( ) Hidruro metálico\n\nb. Mg(OH)2 ( ) Hidruro no metálico\n\nc. KMnO4 ( ) Óxido ácido\n\nd. CO2 ( ) Óxido básico\n\ne H2Te ( ) Hidróxido\n\nf. BaO ( ) Oxácido\n\ng. BeH2 ( ) Sal binaria\n\nh. H3PO4 ( ) Oxisal\n\nEcuación balanceada Tipo de producto Nombre del producto En las erupciones volcánicas, el azufre se combina con el O2 para formar dióxido de azufre.\n\nLuego, el dióxido de azufre reacciona con más O2 del aire hasta formar óxido de azufre (VI).\n\nY cuando este se combina con el agua forma ácido sulfúrico.\n\nEste ácido reacciona con los carbonatos de calcio presentes en el mar y produce sulfato de calcio, agua y CO2.\n\nH - O -2 OH - Cl - O4-2 Zn+2 Cu+2 Al+3 Ni+3 + 14 Indagación Compuestos ternarios: hidróxidos y oxácidos\n\nA. Identifiquemos compuestos de tres elementos\n\n8. Escribe la fórmula de los compuestos formados. Debes escribir primero la especie positiva (catión), luego la negativa (anión) e intercambiar los subíndices; los iones poliatómicos debes escribirlos entre paréntesis cuando haya más de uno, quedando fuera del paréntesis el subíndice.\n\n9. Observa las etiquetas de los empaques de productos e identifica compuestos que posean tres elementos diferentes.\n\np.\n\n23 Sodio OH- Potasio OH- Magnesio OH- Calcio OH- Hierro OH- Anión poliatómico H+ Anión poliatómico H+ Anión poliatómico H+ Anión poliatómico H+ Anión poliatómico H+ H3PO4 (ácido fosfórico) Bebidas gaseosas Saborizante y regulador de acidez Composición:\n\nhidróxido + … Catión Cantidad utilizada Anión Cantidad utilizada Fórmula química Composición:\n\nhidrógeno + … Anión Cantidad utilizada Catión Cantidad utilizada Fórmula química Nombre / fórmula Producto en el que se encuentra Usos Recuerda las reglas para la escritura de las fórmulas químicas vistas en la Semana 20 del Libro de Texto de\n\n5.° grado y considera los siguientes\n\nejemplos:\n\nFe+3 Fe2(SO4)3 SO4–2 Encontrarás preguntas, ejercicios y otras activida - des que pondrán a prueba tus conocimientos.\n\nEvaluacionesC",
+      "charCount": 4830
+    },
+    {
+      "pageNumber": 5,
+      "text": "Unidad 1. Compuestos inorgánicos 5\n\nSemana 1: Conociendo los compuestosinorgánicos 6\n\nSemana 2: Compuestos inorgánicos binarios 10\n\nSemana 3: Compuestos ternarios:hidróxidos y oxácidos 14\n\nSemana 4: Compuestos ternarios: oxisales 19\n\nEvaluación de la unidad 22 Índice\n\nUnidad 2. Genética y evolución 23\n\nSemana 5: Material genético 24\n\nSemana 6: Replicación del ADN 27\n\nSemana 7: Polimorfismo y alelos 31\n\nSemana 8: Genética clásica 33\n\nSemana 9: Mecanismos de evolución 37\n\nSemana 10: Evolución y mejoramiento genético 40\n\nEvaluación de la unidad 43\n\nUnidad 5. Recurso hídrico 81\n\nSemana 20: Hidrósfera 82\n\nSemana 21: Agua subterránea 85\n\nSemana 22: Calidad de agua 89\n\nSemana 23: Conozcamos la atmósfera 92\n\nSemana 24 Observaciones meteorológicas 95\n\nSemana 25 Fenómenos meteorológicos 99\n\nEvaluación de la unidad 102\n\nUnidad 3. Biodiversidad 45\n\nSemana 11: Importancia y niveles de la biodi-versidad 46\n\nSemana 12: Agrupamiento de especies 49\n\nSemana 13: Taxonomía 54\n\nSemana 14: Sistemática y cladística 57\n\nEvaluación de la unidad 60\n\nUnidad 4. Ecología 61\n\nSemana 15: Interacciones ecológicas 62\n\nSemana 16: Ecología de poblaciones 66\n\nSemana 17: Comunidades biológicas 69\n\nSemana 18: Ecosistemas 72\n\nSemana 19: Biogeografía 75\n\nEvaluación de la unidad 79\n\nUnidad 6. Ambiente y energía 103\n\nSemana 26: Recursos y energía 104\n\nSemana 27: Energías no renovables 107\n\nSemana 28: Energías renovables 110\n\nSemana 29: Impacto ambiental 113\n\nSemana 30: Cambio climático 116\n\nSemana 31: Seguridad alimentaria y nutricional 120\n\nSemana 32: Introducción al desarrollo sostenible 123\n\nEvaluación de la unidad 126",
+      "charCount": 1607
+    },
+    {
+      "pageNumber": 6,
+      "text": "• Identificar compuestos inorgánicos binarios como\n\nlos óxidos, hidruros, hidrácidos y sales binarias.\n\n• Identificar compuestos inorgánicos ternarios\n\ncomo los hidróxidos, oxácidos y oxisales.\n\n• Conocer las diferentes aplicaciones y usos cotidianos de los compuestos inorgánicos binarios y ternarios.\n\n• Formular y balancear compuestos inorgánicos binarios y ternarios.\n\n• Aplicar diferentes nomenclaturas químicas para\n\nnombrar los compuestos inorgánicos binarios y ternarios.\n\nCompuestos inorgánicos Eje integrador: organización\n\nUnidad 1\n\nDuración: 4 semanas Roca volcánica con material de óxidos de hierro.\n\nEn esta unidad aprenderemos a:",
+      "charCount": 644
+    },
+    {
+      "pageNumber": 7,
+      "text": "6 Indagación\n\nA. Los átomos y sus interacciones\n\na. Metales representativos: sodio, potasio, magnesio y bario.\n\n11Na:\n\n19K:\n\n12Mg:\n\n56Ba:\n\nb. No metales: nitrógeno, oxígeno, bromo y yodo.\n\n7N:\n\n8O:\n\n35Br:\n\n53I:\n\nc. Metales de transición: escandio, hierro, cobre y oro.\n\n21Sc:\n\n26Fe:\n\n29Cu:\n\n79Au:\n\np.\n\n10\n\np.\n\n11 Conociendo los compuestos inorgánicos Diagrama de Moeller Recuerda que, en general, los metales donan los electrones de su última capa para convertirse en cationes (carga positiva), y los no metales aceptan electrones para convertirse en aniones (carga negativa).\n\n3. Estructura de Lewis.\n\n5. Completa.\n\nB. Conociendo los óxidos\n\nNa K Mg Ba N O Br I Sodio O―2 Magnesio O―2 Hierro O―2 Carbono O―2 Átomo N.° e- a perder Catión que se formará Átomo N.° e- a ganar Anión que se formará Composición:\n\noxígeno + … E. O. positivo Cantidad E. O. del O Cantidad Fórmula química Escritura de un ion Átomo 20Ca: [Ar] 4s2 Catión (ion) Ca+2: [Ar] Átomo 15P: [Ne] 3s23p3 Anión (ion) P-3: [Ar]",
+      "charCount": 991
+    },
+    {
+      "pageNumber": 8,
+      "text": "7\n\nD. Aprendamos a balancear ecuaciones químicas\n\n4. Repite los pasos anteriores para la obtención del óxido Fe2O3.\n\na. Escribe la reacción de formación del óxido de hierro, considerando que el hierro actúa con número de oxidación +3.\n\nb. Cuenta los átomos de cada tipo en reactivos y productos.\n\na. Escribe las observaciones de lo ocurrido en el experimento. ¿Qué les ocurrió a los clavos de hierro?\n\nb. ¿Por qué crees que unas estructuras metálicas se corroen más rápido que otras?\n\nc. ¿Por qué crees que cerca del mar la corrosión de las estructuras metálicas es mayor?\n\nd. ¿Qué maneras conoces para evitar la corrosión en las estructuras metálicas?\n\np.\n\n13\n\np.\n\n13\n\nSemana 1\n\nFe O Fe O Átomos Reactivos Productos Átomos Reactivos Productos Creatividad\n\nC. ¿Qué le pasa al hierro cuando se corroe?\n\n¿Está balanceada la ecuación?\n\nc. Escribe los coeficientes numéricos necesarios para balancear la ecuación y verifica si hay igual cantidad de átomos de un mismo tipo tanto en reactivos como en productos. Fe + O2 → Al balancear una ecuación no debes cambiar los subíndices que aparecen en los compuestos, ya que podrías obtener un compuesto diferente, ¡incluso podría no existir!\n\nUnidad 1",
+      "charCount": 1191
+    },
+    {
+      "pageNumber": 9,
+      "text": "8\n\n5. Balancea las siguientes ecuaciones químicas. Verifica inicialmente qué cantidad de átomos de cada tipo hay en reactivos y productos, escribe los coeficientes numéricos que creas necesario para balancear la ecuación y verifica nuevamente la cantidad de átomos en reactivos y productos.\n\n____ N2 + ____ O2 → ____NO2 ____ P4 + ____ O2 → ____P2O3 ____ MnO2 + ____Zn → ____Mn2O3 + ____ZnO ____ S + ____ O2 → ____SO ____ Al + ____ O2 → ____Al2O3 N N O O P P O O Mn Mn Zn Zn O O S S O O Al Al O O Antes de balancear Después de balancear Átomos Reactivos Productos Átomos Reactivos Productos Antes de balancear Después de balancear Átomos Reactivos Productos Átomos Reactivos Productos Antes de balancear Después de balancear Átomos Reactivos Productos Átomos Reactivos Productos Antes de balancear Después de balancear Átomos Reactivos Productos Átomos Reactivos Productos Antes de balancear Después de balancear Átomos Reactivos Productos Átomos Reactivos Productos\n\np.\n\n13",
+      "charCount": 973
+    },
+    {
+      "pageNumber": 10,
+      "text": "9 P +3 P2O3 Óxido ácido o anhídridos Mg +2 I +1 Sn +1 C +4 Al +3 Ti +4 C +2 P2O3 Anhídrido fosforoso Óxido de fósforo (III) Trióxido de difósforo Pentóxido de dicloro Cl2O5 Óxido de cloro (III) Cl2O3 Óxido de cesio Óxido de cromo (III) Óxido de arsénico (V) Óxido de litio Óxido cúprico Anhídrido cloroso Óxido de bromo (III) Dióxido de manganeso Pentóxido de difósforo Óxido de bario Elemento (M o NM) Número de oxidación Fórmula del óxido Clasificación Óxido N. tradicional N. stock N. sistemática Nombre Fórmula Nombre Fórmula\n\np.\n\n14 Comunicación\n\nE. Identificando óxidos\n\n1. Completa la tabla formulando los óxidos de los elementos que se presentan y clasifícalos según la naturaleza del elemento (M o NM).\n\n3. Aplica las reglas de los sistemas de nomenclatura y nombra los óxidos clasificados en el paso 1.\n\n4. Identifica el sistema de nomenclatura utilizado en los nombres de los óxidos y escribe la fórmula química a partir de estos.\n\nRecuerda que en los óxidos el oxígeno tiene número de oxidación de -2 y el elemento acompañante, estado de oxidación positivo.\n\nSemana 1\n\nUnidad 1",
+      "charCount": 1089
+    },
+    {
+      "pageNumber": 11,
+      "text": "10 Indagación\n\nA. Identificando compuestos binarios a nuestro alrededor\n\n8. Escribe la fórmula de los compuestos binarios (hidrógeno + metal o hidrógeno + no metal) obtenidos.\n\n9. Utiliza los elementos mencionados en los pasos 4 y 6 (a excepción del H) y escribe la fórmula química de compuestos binarios formados por M + NM.\n\n10. Identifica la presencia de compuestos binarios en diversos productos de consumo. Escribe una lista del tipo de compuestos que identifiques.\n\nCompuestos inorgánicos binarios Considera que el enlace que une al hidrógeno con un metal (M) es de carácter iónico por la diferencia de electronegatividad, y la unión de hidrógeno con un no metal (NM) es tipo covalente (Semana 16, Libro de Texto de 6.° grado). Para escribir la fórmula química, primero escribe el símbolo del elemento menos electronegativo y luego el más electronegativo; escribe como subíndice el número de átomos requeridos de cada uno.\n\nSodio H- Potasio H- Magnesio H- Calcio H- Zinc H- Hierro H- Flúor H+ Cloro H+ Azufre H+ Sodio Flúor Potasio Cloro Magnesio Azufre Calcio Nitrógeno Zinc Cloro Hierro Azufre Zinc Azufre NH3 (amoníaco) Productos de limpieza Desengrasar y desinfectar Composición:\n\nhidrógeno + …\n\nE. O. de M o\n\nNM Cantidad utilizada H Cantidad utilizada Fórmula química Metal (M ) No Metal (NM ) Catión Anión Fórmula química Nombre o fórmula Producto en el que se encuentra Usos\n\np.\n\n16",
+      "charCount": 1395
+    },
+    {
+      "pageNumber": 12,
+      "text": "11\n\na. Escribe la ecuación de la reacción entre el zinc y el HCl. ¿Está balanceada?\n\nb. Escribe la ecuación de la reacción entre el hierro y el HCl. Considera al Fe con su estado de oxidación +3.\n\nB. Sinteticemos sales binarias\n\nC. Balanceando ecuaciones químicas\n\n6. Anota tus observaciones y las evidencias de las reacciones.\n\n1. Balancea la ecuación química que representa la reacción del Zn con HCl por el método de tanteo. Zn + HCl → ZnCl2 + H2 Zn(s) + HCl(ac) → Fe(s) + HCl(ac) →\n\n3. Balancea la ecuación química que representa la reacción del Fe con HCl por el método algebraico. Considera que el número de oxidación del Fe es +3.\n\nIdentificar cada compuesto o elemento presente con una variable algebraica (letra).\n\nPlanteamiento de ecuaciones Creatividad\n\np.\n\n18 Zn + HCl Fe + HCl Zn Zn H H Cl Cl Tubo con (A + BC) Observaciones Evidencia Antes de balancear Después de balancear Átomos Reactivos Productos Átomos Reactivos Productos Fe H Cl Elemento Cantidad/ reactantes Cantidad/ productos Igualdad Fe + HCl → FeCl3 + H2 Resolución de ecuaciones Valor arbitrario\n\nSemana 2\n\nUnidad 1",
+      "charCount": 1092
+    },
+    {
+      "pageNumber": 13,
+      "text": "12\n\na. N2(g) + H2(g) → NH3(g)\n\nb. CuO + HCl → CuCl2 + H2O\n\nc. K2S + AlCl3 → KCl + Al2S3\n\nSustituye los valores: Fe(s)+ HCl(ac)→ FeCl3(ac)+ H2(g) Convertir a valores enteros, si es necesario.\n\nFinalmente, verifica que la ecuación haya quedado balanceada:\n\nFe H Cl Después de balancear Átomos Reactivos Productos\n\n4. Utiliza el método de balanceo que consideres más conveniente para balancear las ecuaciones químicas del Libro de Texto y deja evidencia del procedimiento.\n\np.\n\n18 Δ",
+      "charCount": 479
+    },
+    {
+      "pageNumber": 14,
+      "text": "13\n\nD. Identificando compuestos con hidrógeno y sales binarias\n\n2. Utiliza las tres nomenclaturas y nombra los compuestos que se te presentan en el Libro de Texto.\n\n3. Identifica la nomenclatura utilizada en los nombres de los compuestos binarios, descifra la fórmula química que los representa y escríbela.\n\nComunicación\n\np.\n\n150 MgH2 FeBr3 NiH2 AgCl CoH3 AlH3 PdF4 Cr2S3 PbH4 Hidruro de platino (IV) Sulfuro de bario Yoduro de hidrógeno Trihidruro de oro Cloruro de hierro (II) Trifluoruro de galio Hidruro cuproso Ácido sulfhídrico Bromuro de potasio Hidruro N. tradicional N. stock N. sistemática Nombre Clasificación Nomenclatura Fórmula\n\np.\n\n20\n\nSemana 2\n\nUnidad 1",
+      "charCount": 670
+    },
+    {
+      "pageNumber": 15,
+      "text": "14 Indagación Compuestos ternarios: hidróxidos y oxácidos\n\nA. Identifiquemos compuestos de tres elementos\n\n8. Escribe la fórmula de los compuestos formados. Debes escribir primero la especie positiva (catión), luego la negativa (anión) e intercambiar los subíndices; los iones poliatómicos debes escribirlos entre paréntesis cuando haya más de uno, quedando fuera del paréntesis el subíndice.\n\n9. Observa las etiquetas de los empaques de productos e identifica compuestos que posean tres elementos diferentes.\n\np.\n\n23 Sodio OH- Potasio OH- Magnesio OH- Calcio OH- Hierro OH- Anión poliatómico H+ Anión poliatómico H+ Anión poliatómico H+ Anión poliatómico H+ Anión poliatómico H+ H3PO4 (ácido fosfórico) Bebidas gaseosas Saborizante y regulador de acidez Composición:\n\nhidróxido + … Catión Cantidad utilizada Anión Cantidad utilizada Fórmula química Composición:\n\nhidrógeno + … Anión Cantidad utilizada Catión Cantidad utilizada Fórmula química Nombre / fórmula Producto en el que se encuentra Usos Recuerda las reglas para la escritura de las fórmulas químicas vistas en la Semana 20 del Libro de Texto de\n\n5.° grado y considera los siguientes\n\nejemplos:\n\nFe+3 Fe2(SO4)3 SO4–2",
+      "charCount": 1177
+    },
+    {
+      "pageNumber": 16,
+      "text": "Creatividad 15\n\nB. Conozcamos los compuestos ternarios\n\nC. Fabriquemos hidróxidos y oxácidos\n\n2. Anota tus observaciones sobre lo que ocurre al poner en contacto el trozo pequeño de cinta de magnesio con la llama.\n\n4. Escribe la reacción química balanceada, el nombre del óxido obtenido y clasifícalo como ácido o básico.\n\nNombre del producto: Tipo de óxido:\n\n6. Agrega dentro del tubo un indicador ácido-base. Anota las observaciones.\n\nTipo de solución:\n\n7. Plantea la reacción ocurrida dentro del tubo de ensayo y responde.\n\nEcuación química entre el óxido y el agua balanceada:\n\nTipo de producto formado:\n\n11. Anota las observaciones y clasifica el producto obtenido.\n\nTipo de producto obtenido:\n\n12. Plantea la reacción química, balancéala, si es necesario, y responde.\n\nTipo de óxido o anhídrido: Tipo de producto formado: p. 24\n\nN.° de oxidación\n\nElementos Cargas\n\nN.° de oxidación\n\nElementos Cargas H2 SO4 HMnO4 H2 HO4 O4 = 0 = 0 S Mn\n\nN.° de oxidación del azufre (S): N.° de oxidación del manganeso (Mn):\n\np.\n\n24 Cl0 – Cl03 Ilustrar a Carlos y colocar en la pizarra: □ □ □ y abajo en otra línea□ □ □−\n\n–\n\nPara formular los aniones de ácidos oxácidos, el subíndice que está después del oxígeno no se debe modificar porque cambiarías el compuesto. Por ejemplo, ClO- es diferente a ClO3-, ya que en ambos el cloro actúa con distinto estado de oxidación.\n\nPuedes comparar tus resultados con otro experimento escaneando el siguiente código QR:\n\nhttps://qrs.ly/5vfrtbp\n\nSemana 3\n\nUnidad 1",
+      "charCount": 1490
+    },
+    {
+      "pageNumber": 17,
+      "text": "Comunicación 16\n\nD. Identificando nomenclaturas\n\nE. Juguemos dominó inorgánico\n\n2. Identifica el tipo de nomenclatura utilizada en los compuestos de la tabla.\n\n3. Escribe las fórmulas químicas que corresponden a los nombres de los compuestos que se te presentan.\n\n7. Ahora asocia nombre y fórmulas de los compuestos que están en las fichas de dominó y completa. CuOH Hidróxido de cobre (I) Pb(OH)4 Hidróxido plúmbico H2SO3 Trioxosulfato (IV) de hidrógeno HNO3 Ácido nítrico Ácido carbónico Dihidróxido de níquel Ácido dioxonítrico (III) Hidróxido de magnesio Ácido hipobromoso Hidróxido de bario Tetraoxosulfato (VI) de hidrógeno Hidróxido de plomo (II) Ácido fosfórico H3PO4 Ácido H+ Trihidróxido de hierro Fe(OH)3 Base o hidróxido OH- Fórmula química Nombre Tipo de nomenclatura Nombre Fórmula química Nombre Fórmula química Nombre del compuesto Fórmula correspondiente Grupo funcional Función química",
+      "charCount": 903
+    },
+    {
+      "pageNumber": 18,
+      "text": "17 H2SO4 H2SO4 H2SO4 H2SO4 HClO4 HClO4 HClO4 HClO4 Ga(OH)3 Ga(OH)3 Ga(OH)3 Ga(OH)3 Ga(OH)3 HNO3 HNO3 HNO3 HNO3 Cu(OH)2 Cu(OH)2 Cu(OH)2 Cu(OH)2 Cu(OH)2 NaOH NaOH NaOH Ácido nítrico Ácido nítrico Ácido nítrico Ácido nítrico Ácido sulfúrico Ácido sulfúrico Ácido perclórico Ácido perclórico Ácido perclórico Ácido perclórico Ácido sulfúrico Ácido sulfúrico Hidróxido de sodio Hidróxido de sodio Hidróxido de sodio Hidróxido de sodio Hidróxido de cobre (II) Hidróxido de sodio Hidróxido de galio Hidróxido de galio Hidróxido de galio Hidróxido de cobre Hidróxido de cobre\n\nSemana 3\n\nUnidad 1",
+      "charCount": 587
+    },
+    {
+      "pageNumber": 19,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 20,
+      "text": "19 Indagación Compuestos ternarios: oxisales\n\nA. Mezclando hidróxidos con ácidos oxácidos\n\n6. Anota las fórmulas de los compuestos formados. Para ello, escribe primero el símbolo del catión y después, el símbolo del anión enlazado.\n\n7. Lee las viñetas de los envases de productos de uso cotidiano (como alimentos, productos de limpieza, medicamentos, etc.) e identifica la presencia de este tipo de compuestos ternarios.\n\na. ¿Cuáles son los compuestos ternarios de donde provienen los iones utilizados en los numerales anteriores?\n\nCatión Cantidad utilizada Anión poliatómico Cantidad utilizada Fórmula química Catión Cantidad utilizada Fórmula química Recuerda que para escribir una fórmula química debes escribir primero la parte positiva y luego la negativa. Si las cargas son iguales se simplifican. Por ejemplo:\n\nCaCrO4, formado por los iones Ca+2 y CrO4-.\n\np.\n\n29\n\nSemana 4\n\nUnidad 1",
+      "charCount": 889
+    },
+    {
+      "pageNumber": 21,
+      "text": "Creatividad 20\n\nB. ¿Cómo reaccionan las oxisales?\n\n2. Anota tus observaciones al agregar los 2 mL de solución de NaOH.\n\n4. Plantea la ecuación balanceada que representa la reacción del CuSO4 y el NaOH. Considera que la reacción es de doble desplazamiento.\n\nCuSO4(ac) + NaOH(ac) →\n\nEvidencia observada:\n\nOxisal:\n\n6. Observa, y si la reacción es muy lenta, puedes acelerarla agregando unos granos de NaCl (sal común).\n\n7. Plantea la ecuación balanceada que representa la reacción del CuSO4 y el aluminio. Considera que la reacción es de desplazamiento o sustitución.\n\nCuSO4(ac) + Al(s) → Evidencia observada:\n\nOxisal:\n\n11. Adiciona cinco gotas de indicador ácido base a cada tubo de los pasos 9 y 10 y anota el color.\n\na. Tubo con Mg(OH)2 + indicador:\n\nb. Tubo con CaCO3 + indicador:\n\n14. Plantea las ecuaciones balanceadas que representan ambas reacciones.\n\nMg(OH)2 + HCl → ¿Qué tipo de sal fue formada?\n\nEvidencia observada:\n\nCaCO3(ac) + HCl(ac) → Evidencia observada:\n\n¿Qué ocurrió al aproximar la llama del fósforo?\n\np.\n\n30",
+      "charCount": 1025
+    },
+    {
+      "pageNumber": 22,
+      "text": "Comunicación 21Semana 4\n\nD. Formando oxisales\n\n7. El primer jugador debe tirar ambos dados y escribir la fórmula química del compuesto que se forma con los dados y debe escribir el nombre.\n\nNi+2 K+ Fe+3 Ca+2 Pb+3 Al+3 Catión Anión Fórmula de oxisal Nombre del compuesto\n\np.\n\n33\n\nUnidad 1\n\nPlantilla de dado Plantilla de dado",
+      "charCount": 324
+    },
+    {
+      "pageNumber": 23,
+      "text": "22 Evaluación\n\n1. Traslada al paréntesis la letra correspondiente a cada compuesto según sea su función química:\n\n2. Completa la tabla uniendo los cationes y los aniones que se interceptan en cada casilla y escribe la fórmula y el nombre del compuesto inorgánico. Puedes utilizar cualquier sistema de nomenclatura:\n\n3. Observa la siguiente representación de una reacción química. Las esferas claras representan átomos de hi - drógeno y las esferas oscuras, átomos de bromo, ambos gaseosos. Escribe la ecuación balanceada para la reacción, indica qué tipo de producto se formó y nómbralo considerando que es un gas.\n\n4. Escribe la ecuación debidamente balanceada de la reacción planteada para los siguientes casos.\n\na. LiF ( ) Hidruro metálico\n\nb. Mg(OH)2 ( ) Hidruro no metálico\n\nc. KMnO4 ( ) Óxido ácido\n\nd. CO2 ( ) Óxido básico\n\ne H2Te ( ) Hidróxido\n\nf. BaO ( ) Oxácido\n\ng. BeH2 ( ) Sal binaria\n\nh. H3PO4 ( ) Oxisal\n\nEcuación balanceada Tipo de producto Nombre del producto En las erupciones volcánicas, el azufre se combina con el O2 para formar dióxido de azufre.\n\nLuego, el dióxido de azufre reacciona con más O2 del aire hasta formar óxido de azufre (VI).\n\nY cuando este se combina con el agua forma ácido sulfúrico.\n\nEste ácido reacciona con los carbonatos de calcio presentes en el mar y produce sulfato de calcio, agua y CO2.\n\nH - O -2 OH - Cl - SO4-2 Zn+2 Cu+2 Al+3 Ni+3 +",
+      "charCount": 1382
+    },
+    {
+      "pageNumber": 24,
+      "text": "• Reconocer las funciones del material genético.\n\n• Experimentar con técnicas básicas de extracción\n\ny tinción de ácidos nucleicos.\n\n• Explicar el funcionamiento de técnicas básicas\n\npara la extracción y tinción de ácidos nucleicos.\n\n• Identificar sucesos cotidianos que involucran la\n\nreplicación del ADN.\n\n• Representar el proceso de replicación del ADN.\n\n• Diseñar un recurso explicativo acerca del proceso\n\nde replicación del ADN.\n\n• Explicar qué es un alelo.\n\n• Ejemplificar enfermedades humanas causadas\n\npor alelos defectuosos.\n\n• Reconocer la relación entre cromosomas y alelos.\n\n• Resolver cruces hipotéticos empleado las leyes\n\nde Mendel.\n\nGenética y evolución Eje integrador: interacciones\n\nUnidad 2\n\nDuración: 6 semanas En esta unidad aprenderemos a:\n\nPaciente infectado con SARS-CoV-2 en sala de emergencias",
+      "charCount": 820
+    },
+    {
+      "pageNumber": 25,
+      "text": "24 Indagación Material genético\n\nA. Los genes en lo cotidiano\n\nCaso I. ¿En cuántas generaciones se presentó la característica? ¿Podría considerarse heredable? ¿Cuál función del material genético se observa en este caso? ¿Cómo se relaciona la visión con las proteínas? Caso II. ¿En cuántas generaciones se presentó la característica? ¿Significa que es heredable? ¿Cuál es la función del material genético en este caso? ¿Consideras que las proteínas tienen un papel en la inmunidad? ¿Cuál? Caso III. ¿En qué individuos está presente la característica de inmunidad? ¿Es una característica heredable? ¿Cuál es la función del material genético en este caso? ¿Consideras que las proteínas tienen un papel en la inmunidad? ¿Cuál?\n\nCaso IV. ¿Las bacterias tienen material genético? Si alguna bacteria presenta un gen de resistencia, ¿podrían sus descendientes heredar dicha característica? ¿Cuál es la función del material genético y de las proteínas en este caso?\n\np.\n\n38",
+      "charCount": 964
+    },
+    {
+      "pageNumber": 26,
+      "text": "Creatividad 25\n\na. ¿Los frutos son la única fuente posible del ADN? Argumenta.\n\nb. ¿Qué ocurre con los tejidos y las células al momento de la maceración?\n\nc. ¿Cuál es la función del jabón en la extracción del ADN?\n\nd. ¿Cuál es la función de las sales en la extracción del ADN?\n\ne. ¿Cuál es la función del alcohol etílico frío?\n\nf. ¿Cuál es la función del azul de metileno en el proceso de extracción realizado?\n\nB. Extracción de ADN\n\np.\n\n43\n\nUnidad 2\n\nSemana 5",
+      "charCount": 460
+    },
+    {
+      "pageNumber": 27,
+      "text": "Comunicación 26\n\nC. Métodos de extracción de ADN\n\n2. Pasos comunes entre ambos procesos de extracción de ADN:\n\np.\n\n43\n\na. ¿Cuál es la función de los detergentes en la extracción del ADN?\n\nb. ¿Cuál es la función de las enzimas que degradan proteínas en la extracción del ADN?\n\nc. ¿Por qué el ADN se ubica en la parte superior de la mezcla?\n\nd. Escribe ordenadamente los pasos de la extracción de ADN",
+      "charCount": 398
+    },
+    {
+      "pageNumber": 28,
+      "text": "27 Indagación\n\nA. ¿Para qué sirve la replicación del ADN?\n\nCaso I. Lisa.\n\na. ¿Cómo se llama al proceso en el cual una planta aumenta de tamaño?\n\nb. ¿Qué deberían hacer las células para que una planta aumente de tamaño?\n\nc. ¿Qué sucede con la cantidad de ADN de una célula cuando esta se divide?\n\nd. Explica brevemente cómo piensas que la división celular y la replicación del ADN se relacionan con los izotes que retoñan:\n\np.\n\n44 Replicación del ADN Caso III. Carlos.\n\na. ¿Cómo se llama al proceso por el cual se cierra o repara una herida?\n\nb. ¿Qué deberían hacer las células sanas para reponer las células muertas?\n\nc. ¿Qué sucede con la cantidad de ADN de una célula cuando esta se divide?\n\nd. Explica brevemente cómo piensas que la división celular y la replicación del ADN se relacionan con la regeneración de los tejidos:\n\nCaso IV. Irene.\n\na. ¿Qué es un tumor? ¿De qué está hecho?\n\nb. ¿Cuál crees que es la relación entre el cáncer y los tumores?\n\nc. Explica brevemente cómo la división celular y la replicación del ADN se relacionan con los tumores.\n\nUnidad 2\n\nCaso II. Luis.\n\na. ¿Cómo se llama al proceso en el cual un animal aumenta de tamaño?\n\nb. ¿Qué deberían hacer las células para que un animal aumente de tamaño?\n\nc. ¿Qué sucede con la cantidad de ADN de una célula cuando esta se divide?\n\nd. Explica brevemente cómo piensas que la división celular y la replicación del ADN se relacionan con el crecimiento de los pollos:\n\nSemana 6",
+      "charCount": 1445
+    },
+    {
+      "pageNumber": 29,
+      "text": "Creatividad 28\n\nB. Representando la replicación del ADN\n\nC A G P C T P P P P 1’ 2’ 3’ 4’ 5’ O azúcar c 1’ 2’ 3’ 4’ 5’ O azúcar c 1’ 2’ 3’ 4’ 5’ O azúcar c 1’ 2’ 3’ 4’ 5’ O azúcar c 1’ 2’ 3’ 4’ 5’ O azúcar c Base N Base N Base N Base N Base N Base N Base N Base N Base N C A G P Base N C T P P P P 1’ 2’ 3’ 4’ 5’ O azúcar c 1’ 2’ 3’ 4’ 5’ O azúcar c 1’ 2’ 3’ 4’ 5’ O azúcar c 1’ 2’ 3’ 4’ 5’ O azúcar c 1’ 2’ 3’ 4’ 5’ O azúcar c Plantilla 1. Seis copias. Recorta por las líneas punteadas.",
+      "charCount": 486
+    },
+    {
+      "pageNumber": 30,
+      "text": "29 Plantilla 2. Dieciséis copias. Recorta por las líneas punteadas.\n\nBase N C P 1’ 2’ 3’ 4’ 5’ O azúcar c Base N C P 1’ 2’ 3’ 4’ 5’ O azúcar c Base N T P 1’ 2’ 3’ 4’ 5’ O azúcar c Base N U P 1’ 2’ 3’ 4’ 5’ O azúcar c Base N A P 1’ 2’ 3’ 4’ 5’ O azúcar c base N T P 1’ 2’ 3’ 4’ 5’ O azúcar c Base N G P 1’ 2’ 3’ 4’ 5’ O azúcar c Base N A P 1’ 2’ 3’ 4’ 5’ O azúcar c Base N A P 1’ 2’ 3’ 4’ 5’ O azúcar c Base N G P 1’ 2’ 3’ 4’ 5’ O azúcar c\n\nUnidad 2\n\nSemana 6",
+      "charCount": 458
+    },
+    {
+      "pageNumber": 31,
+      "text": "30 Plantilla 3. Dos copias. Recorta las figuras.\n\nARN Primasa Ligasa Helicasa Topoiso merasa ADN Polimerasa III ADN Polimerasa I Proteína SSB Proteína SSB Proteína SSB",
+      "charCount": 167
+    },
+    {
+      "pageNumber": 32,
+      "text": "31 Indagación\n\nA. Gen y alelo\n\nSituación de Lisa.\n\na. ¿Crees que el color de los frijoles se debe a cambios en el ambiente o a distintos alelos? Por ejemplo, si se cambian las condiciones de crecimiento, ¿cambia el color de los frijoles?\n\nb. ¿Qué significa que frijoles de distintos colores sean de una misma especie?\n\nSituación de Luis.\n\na. ¿Es posible que los pollos fueran víctimas de una enfermedad hereditaria? ¿Por qué?\n\nb. Sabiendo que la inmunidad a enfermedades es una característica controlada por genes, ¿cómo crees que se relacionan los alelos con la inmunidad en este caso de los pollitos?\n\nSituación de Carlos.\n\na. ¿Crees que el color de los granos de maíz se debe a distintos alelos? ¿Por qué?\n\nb. Si el color de los granos de maíz es de origen genético, ¿cómo podría explicarse que haya granos de distinto color en una misma mazorca?\n\nSituación de Irene.\n\na. ¿Crees que los alelos varían de una población a otra? Ejemplifica.\n\nb. ¿Podría haber más de dos alelos para un mismo gen? Explica.\n\nPolimorfismo y alelos\n\np.\n\n50\n\nUnidad 2\n\nSemana 7",
+      "charCount": 1056
+    },
+    {
+      "pageNumber": 33,
+      "text": "Creatividad 32\n\nB. Polimorfismo\n\nC. Enfermedades humanas causadas por alelos defectuosos\n\na. Explica cómo este alelo considerado normal puede incidir en que una persona tenga huesos sanos.\n\nb. Explica qué le sucede a la secuencia del alelo y cómo esto influye en la condición del paciente.\n\nc. Explica qué le sucede a la secuencia del alelo y cómo esto influye en la condición de la persona.\n\nd. Explica qué le sucede a la secuencia del alelo y cómo esto influye en la condición del paciente.\n\nEnfermedad 1. Anemia drepanocítica.\n\nEnfermedad 2. Fibrosis quística.\n\nComunicación\n\np.\n\n55\n\np.\n\n52",
+      "charCount": 593
+    },
+    {
+      "pageNumber": 34,
+      "text": "33 Indagación\n\na. ¿Cuáles de tus características son iguales a las de tus padres (progenitores)?\n\nb. ¿Tus padres se parecen a tus abuelos? ¿En cuáles características?\n\nc. ¿Qué características proceden de la familia o línea de tu padre?\n\nd. ¿Qué características proceden de la familia o línea de tu madre?\n\np.\n\n56\n\nA. ¿A quién te pareces más?\n\nDescribe tus características corporales respecto a las características presentadas.\n\nCamanances: Lóbulo de la oreja:\n\nPico de viuda: Grosor de las cejas:\n\nPartidura (surco) en la barbilla: Separación de las cejas:\n\nCreatividad\n\nB. Juguemos con las leyes mendelianas\n\nParte II. Juguemos Mendelius.\n\nDinámica del juego\n\na. El turno se rota en sentido de las agujas del reloj.\n\nb. Al inicio se barajan las cartas. Se reparten tantas cartas por equipo como se indica en la lista de cruzamientos. Estas cartas conformarán la mano del equipo.\n\nc. Finalizado el reparto, se coloca el resto de cartas en el centro de la mesa.\n\nd. Junto a ellas, se sitúa la primera carta de la parte superior del mazo boca arriba.\n\ne. El equipo, en su turno, toma la carta superior del mazo o, alternativamente, puede optar por tomar la carta que está boca arriba e intercambiarla por una de su mano.\n\nf. El equipo en turno debe verificar si tiene una combinación de cartas en mano necesaria para la realización del cruce solicitado en la ronda correspondiente. Si no la presenta, deberá continuar el turno del siguiente equipo en la rotación.\n\ng. El proceso continúa hasta que un equipo en turno complete el cruce solicitado en la ronda. Una vez un equipo completa el cruce, debe gritar «mendelius», y mostrar sus cartas.\n\nGenética clásica\n\nUnidad 2\n\nSemana 8",
+      "charCount": 1678
+    },
+    {
+      "pageNumber": 35,
+      "text": "34\n\nh. El equipo deberá realizar el o los cuadros de Punnett correspondientes al cruce en la pizarra, y el docente verificará y procederá a contabilizar el puntaje de las cartas utilizadas para completar el cruce..\n\ni. Dicho puntaje se deberá anotar en un marcador en la pizarra al equipo asignado.\n\nj. El juego transcurre hasta completar todos los cruces solicitados en cada ronda.\n\nk. El equipo con mayor puntaje se lleva la victoria.\n\nCuadro de rondas\n\n1.a ronda: Dos cruzamientos de líneas puras con un descendiente 6 cartas por equipo\n\n2.a ronda: Dos cruzamientos de líneas puras con dos descendientes cada uno 8 cartas por equipo\n\n3.a ronda: Dos cruzamientos mixtos (entre un individuo puro y uno híbrido) 8 cartas por equipo\n\n4.a ronda: Un cruzamiento mixto y un cruzamiento entre híbridos 10 cartas por equipo\n\n5.a ronda: Una familia completa con tres generaciones 10 cartas por equipo\n\nCruzamientos de la 1.a ronda Descendiente: Descendiente:\n\nCruzamientos de la 4.a ronda Descendiente: Descendiente:\n\nCruzamientos de la 5.a rondaCruzamientos de la 2.a ronda Descendiente: Descendiente:\n\nCruzamientos de la 3.a ronda Descendiente: Descendiente:\n\nRonda Cartas a entregar\n\np.\n\n60 ♀ ♀ ♀ ♀♀♀ ♀ ♀ ♀ ♀ ♀ ♂ ♂ ♂ ♂♂♂ ♂ ♂ ♂ ♂ ♂",
+      "charCount": 1226
+    },
+    {
+      "pageNumber": 36,
+      "text": "Comunicación 35\n\nC. ¿Mutaciones en humanos?\n\n5. Cariotipo de un hombre sano\n\nSíndrome seleccionado:\n\nNúmero de cromosomas totales:\n\nSexuales:\n\nAutosómicos:\n\nNúmero de cromosomas totales:\n\nSexuales:\n\nAutosómicos:\n\nCaracterísticas de los individuos que padecen el síndrome:\n\nUnidad 2\n\nSemana 8",
+      "charCount": 291
+    },
+    {
+      "pageNumber": 37,
+      "text": "36 Cariotipo del síndrome de Klinefelter Características fenotípicas del síndrome de Klinefelter Cariotipo del síndrome de Down Características fenotípicas del síndrome de Down Cariotipo del síndrome de triple X Características fenotípicas del síndrome de triple X Cariotipo del síndrome de Jakob Características fenotípicas del síndrome de Jakob\n\np.\n\n61\n\n6. Lista las características fenotípicas asociadas al síndrome seleccionado",
+      "charCount": 431
+    },
+    {
+      "pageNumber": 38,
+      "text": "37 Indagación\n\nA. Heterogeneidad de una población\n\n2. Características físicas observables en la clase.\n\nA/a Tamaño de la barbilla Prominente Pequeña B/b Partidura en la barbilla Presente Ausente C/c Vello en los nudillos Presente Ausente D/d Enrollar la lengua en “U” Posible No posible E/e Doblar la lengua Posible No posible F/f Lóbulo de la oreja Libre Pegado J/j Pico de viuda Presente Ausente G/g Lateralidad (mano o pie de preferencia) Derecha Izquierda H/h Pecas Presentes Ausentes I/i Hoyuelos en las mejillas (camanances) Presentes Ausentes K/k Continuidad de las cejas No conectadas Conectadas L/l Cejas Pobladas Finas\n\na. Locus b. Rasgos c. Dominante d. Recesivo e. Fenotipo f. Posible geno-tipo g. Porcentaje de cada fenotipo en la claseDominante Recesivo\n\na. ¿Es siempre el fenotipo dominante el más frecuente en una población? ¿Por qué pasa esto?\n\nb. ¿Crees que estos porcentajes son constantes a través de las generaciones? Justifica tu respuesta.\n\np.\n\n63 Mecanismos de evolución\n\nUnidad 2\n\nSemana 9",
+      "charCount": 1014
+    },
+    {
+      "pageNumber": 39,
+      "text": "Creatividad 38\n\np.\n\n65\n\nB. La importancia de una muestra\n\n4. Comprobación de las frecuencias alélicas con los cruzamientos genéticos posibles.\n\n8. Conteo y cálculo de las frecuencias alélicas de las muestras\n\nC C C CC CC C CC CC C C c c c c C c C C C c C c C c c c c c Dos homocigotos dominantes CC:\n\nHomocigoto CC × homocigoto cc:\n\nHomocigoto cc × heterocigoto Cc:\n\nHomocigoto CC × heterocigoto Cc:\n\nDos heterocigotos Cc:\n\nPara calcular las frecuencias, cuenta el número de alelos C y el de alelos c. Divide cada uno entre el total de ambos alelos.\n\nTotal de alelos en los cruces:\n\nFrecuencia de alelos C:\n\nFrecuencia de alelos c:\n\nDos homocigotos recesivos cc:\n\na. ¿Por qué las frecuencias alélicas no son las mismas en cada muestra?\n\nb. ¿Podrían existir cambios en las frecuencias alélicas en una población a través del tiempo?\n\n1 Población original 2 Muestra 1 (100 frijoles) 3 Muestra 2 (100 frijoles) 4 Muestra 3 (50 frijoles) 5 Muestra 4 (25 frijoles) 6 Muestra 5 (25 frijoles) 7 Muestra 6 (25 frijoles) Población Frijol tipo 1 (Alelo C ) Frijol tipo 2 (alelo c )Número de frijoles Frecuencia Número de frijoles Frecuencia ♀ ♀ ♀ ♀ ♀ ♀♂ ♂ ♂ ♂ ♂ ♂",
+      "charCount": 1152
+    },
+    {
+      "pageNumber": 40,
+      "text": "Comunicación 39\n\nC. Evolución en patógenos\n\n3. Desarrolla las interrogantes:\n\na. ¿Cuál o cuáles de los rasgos mencionados para las poblaciones de neumococos deberían estar controlados por alelos?\n\nb. Considerando que las bacterias viven por tiempos muy cortos, ¿qué permite que las formas R y S sean «interconvertibles»?\n\nc. Al combinar las cepas, ¿se incrementó la biodiversidad en la población final de bacterias? ¿Por qué?\n\nd. Considera la siguiente situación.\n\nEn una subpoblación de las bacterias patógenas ocurre una mutación que les confiere resistencia a la penicilina, pero a su vez disminuye su virulencia, volviéndolas R. Ante estas bacterias, un paciente ingiere penicilina, lo que da como resultado una nueva población de bacterias R. ¿Incrementó o disminuyó la biodiversidad de bacterias? ¿Por qué?\n\ne. ¿Qué crees que tuvo que pasar para que los neumococos tipo II se volvieran virulentos al final del ex - perimento?\n\np.\n\n67\n\nUnidad 2\n\nSemana 9",
+      "charCount": 959
+    },
+    {
+      "pageNumber": 41,
+      "text": "40 Indagación Evolución y mejoramiento genético\n\nA. Eventos de evolución\n\n10. Registro de resultados.\n\n13. Responde.\n\ne. ¿Cuántas generaciones se han simulado durante la actividad?\n\nf. Revisen sus datos de frecuencia alélica. ¿Hay una tendencia de un alelo a imponerse sobre el otro? ¿Por qué creen que pasa esto?\n\ng. ¿Qué pasaría con la tendencia observada en las frecuencias alélicas si reducimos de 20 a 10 la cantidad de frijoles que seleccionamos en cada generación?\n\nh. Según la definición de evolución, ¿estamos ante la simulación de un evento evolutivo? Explica.\n\np.\n\n69 Población 1 (original) 10 50 50 ÷ 100 = 0.5 10 50 50 ÷ 100 = 0.5 Población 2 Población 3 Población 4 Población 5 Población 6 Población 7 Población 8 (opcional) Población 9 (opcional) Población 10 (opcional) Poblaciones Frijoles que representan al alelo Rh+ Frijoles que representan al alelo Rh- Cuenta × 5 Frecuencia Cuenta × 5 Frecuencia",
+      "charCount": 917
+    },
+    {
+      "pageNumber": 42,
+      "text": "Creatividad 41\n\nB. Selección natural y fuerzas de evolución\n\nParte I. Documentación\n\n2. Respondan.\n\na. ¿Cuál es el factor ambiental que ejerció presión sobre las polillas?\n\nb. ¿Qué adaptación mostró la población de polillas ante la presión ambiental?\n\nc. Si la población de polillas no hubiera contado con un alelo que bridara el fenotipo oscuro, explica cómo estas se habrían podido adaptarse a través de los mecanismos de mutación y flujo genético.\n\nParte II. Simulando la selección natural\n\n2. Respondan.\n\na. El siguiente esquema es una representación genealógica. De izquierda a derecha, cada punto representa una de las generaciones de polillas simuladas. Puedes colocar tus registros dentro de las casillas señaladas como «N.° de individuos» y «Fenotipo».\n\nParte II. Simulando la selección natural\n\n13. Respondan.\n\na. ¿Qué fuerzas de evolución se están representando en el ejemplo?\n\nb. ¿Cuántas generaciones hay de distancia entre la población inicial de polillas rojas y la aparición de polillas blancas?\n\nc. ¿Qué pasaría con las polillas sin el ataque de las aves?\n\nd. ¿Crees que alguno de los fenotipos de polillas puede tener una ventaja ante el ataque de las aves? Si es así, ¿cuál?\n\np.\n\n72\n\np.\n\n72 2 4 rojo rojo Nº Individuos Nº Individuos Nº Individuos Nº Individuos Nº Individuos Fenotipo GENERACIONES Fenotipo Fenotipo Fenotipo Fenotipo\n\nUnidad 2\n\nSemana 10",
+      "charCount": 1372
+    },
+    {
+      "pageNumber": 43,
+      "text": "Comunicación 42\n\nC. Mejoramiento genético en plantas\n\n3. Lista de factores ambientales que desafían la agricultura.\n\n5. Resolución del problema.\n\np.\n\n73\n\na. Representa el cruce descrito en el problema.\n\nc. Representa los cromosomas del cruce a y b.\n\nCromosomas del cruce a Cromosomas del cruce b\n\nb. Realiza cruces genéticos entre hijos posibles o\n\nparentales hasta obtener un genotipo estable en el tiempo que presente esta característica (obtener rr).\n\nCruce de una generación 2.\n\nIndividuos:\n\nCruce de una generación 3.\n\nIndividuos:\n\nProporciones genotípicas:\n\nProporciones fenotípicas:\n\nProporciones genotípicas:\n\nProporciones fenotípicas:\n\nProporciones genotípicas:\n\nProporciones fenotípicas:\n\n♀ ♀ ♀♂ ♂ ♂\n\np.\n\n74",
+      "charCount": 717
+    },
+    {
+      "pageNumber": 44,
+      "text": "43 Evaluación\n\n1. ¿Cuáles son las principales funciones del material\n\ngenético?\n\n2. ¿Qué sustancias son necesarias para eliminar la\n\nenvoltura que rodea el material genético en los métodos de extracción de ADN?\n\nResuelve correctamente cada una de las siguientes dificultades y señala la respuesta correcta.\n\na. Reproducir y organizar las estructuras celulares\n\nb. Organizar los cromosomas y la división celular\n\nc. Almacenar y transmitir la información genética\n\nd. Generar ADN y los distintos ARN en el núcleo\n\na. Detergentes\n\nb. Alcohol frío\n\nc. Nitrógeno líquido\n\nd. Sales\n\n3. ¿Cuál es la principal función de la replicación del\n\nADN?\n\na. Evitar las mutaciones\n\nb. Visualizar la información genética\n\nc. Regenerar las células\n\nd. Transmitir la información genética\n\n4. ¿Cuál es la principal tecnología basada en la replicación del ADN?\n\na. Reacción en cadena de la polimerasa\n\nb. Detección mediante anticuerpos\n\nc. Elaboración de cariotipos\n\nd. Secuenciación del ADN\n\n5. Nombre del sitio específico en el cual se aloja físicamente un gen.\n\na. Cromosoma\n\nb. Locus\n\nc. Alelo\n\nd. Cebador\n\n6. ¿Qué es la herencia genética?\n\na. Expresión selectiva de genes\n\nb. Transferencia horizontal de genes\n\nc. Transmisión de alelos durante infecciones\n\nd. Transmisión de genes a la descendencia\n\n7. Es un proceso continuado de cambios en las frecuencias alélicas dentro de las poblaciones a través del tiempo.\n\na. Evolución biológica\n\nb. Amplificación del ADN\n\nc. Reproducción sexual\n\nd. Selección natural\n\n8. Define qué son los cruces genéticos.\n\n9. ¿Qué es un individuo diploide?\n\n10. Observa el esquema. ¿Cómo se relacionan genes\n\ny proteínas?\n\na. Las proteínas provienen de los genes\n\nb. Los genes provienen de las proteínas\n\nc. Las proteínas se heredan a partir de genes\n\nd. Genes y proteínas se heredan juntos\n\nUnidad 2",
+      "charCount": 1812
+    },
+    {
+      "pageNumber": 45,
+      "text": "44\n\n11. Observa el esquema. La transcripción del ADN es\n\nun proceso que permite obtener:\n\na. ADN a partir de ARN\n\nb. Proteínas a partir de ARN\n\nc. ARN a partir de proteínas\n\nd. ARN a partir de ADN\n\n12. ¿Cuál es la función de la sal en la extracción de\n\nADN?\n\na. Retirar moléculas de agua que interactúan con\n\nel ADN\n\nb. Agregar moléculas de agua que interactúan con\n\nel ADN\n\nc. Eliminar las proteínas que interactúan con el\n\nADN\n\nd. Romper las envolturas que rodean y protegen\n\nal ADN\n\n13. ¿Cuál es el ordenamiento del flujo de expresión\n\nde la información genética?\n\na. 1)ARN 2) ADN 3) Proteínas\n\nb. 1) Proteínas 2) ARN 3) ADN\n\nc. 1) ADN 2)ARN 3)Proteínas\n\nd. 1) ADN 2) Proteínas 3) ARN\n\n14. ¿Cuál es la función de la ADN polimerasa III en la\n\nreplicación?\n\n15. Un alelo dominante es aquel que…\n\na. solo se muestra en su forma homocigota\n\nb. se ve enmascarado en forma heterocigota\n\nc. en su forma heterocigota enmascara la presencia del recesivo\n\nd. se expresa con mayor vigor que otros alelos\n\npresentes\n\n16. ¿Las mutaciones son un mecanismo que aumenta\n\nla variabilidad? ¿Por qué?\n\na. No, porque puede reducir la cantidad de loci\n\ndisponibles\n\nb. Sí, porque incrementan los alelos disponibles\n\nc. Sí, porque contrarresta la selección natural\n\nd. No, porque restringe la cantidad de descen -\n\ndientes viables\n\n17. ¿Qué proceso se representa en el esquema?\n\na. Especiación\n\nb. Selección natural\n\nc. Selección sexual\n\nd. Deriva genética\n\n18. ¿Por qué la selección sexual y la recombinación no\n\nse consideran parte de las cuatro grandes fuerzas de evolución?\n\na. Porque afectan solo a organismos diploides\n\nb. Porque afectan solo a organismos con reproducción sexual\n\nc. Debido a que ambas restringen la variabilidad\n\ngenética\n\nd. Debido a que su mecanismo es el azar\n\na. Sintetiza ADN a partir de hebra molde\n\nb. Sintetiza ARN a partir de hebra molde\n\nc. Sintetiza ADN a partir de ARN\n\nd. Sintetiza proteínas a partir de ADN\n\nADN polimerasa ADN polimerasa ADN Enzima Nueva hebra de ADN",
+      "charCount": 1986
+    },
+    {
+      "pageNumber": 46,
+      "text": "• Reconocer organismos de la localidad y sus usos.\n\n• Cuantificar especies presentes en nuestra comunidad.\n\n• Clasificar grupos de seres vivos empleando un sistema de clasificación.\n\n• Plantear criterios de agrupamiento de seres vivos.\n\n• Identificar sistemas de clasificación artificial para el\n\nagrupamiento de especies.\n\n• Reconocer la composición y usos de los nombres\n\ncientíficos.\n\n• Identificar criterios taxonómicos empleados en\n\nlas claves dicotómicas.\n\n• Utilizar plataformas de biodiversidad para obtener información taxonómica o ecológica.\n\n• Explicar el concepto de cladística en relación con\n\nlos agrupamientos.\n\n• Identificar grupos a partir de cladogramas.\n\n• Describir los principales grupos taxonómicos del\n\nsistema de los tres dominios.\n\nBiodiversidad Eje integrador: interacciones\n\nUnidad 3\n\nDuración: 4 semanas En esta unidad aprenderemos a:\n\nTorogoz ( Eumomota superciliosa), ave nacional de El Salvador.",
+      "charCount": 926
+    },
+    {
+      "pageNumber": 47,
+      "text": "46 Indagación Importancia y niveles de la biodiversidad Organismos avistados en tu hogar:\n\n7. Escribe las listas unificadas de fauna y flora de las viviendas de los integrantes del equipo:\n\na. ¿En qué sector de las viviendas hay mayor diversidad de organismos?\n\nb. Los organismos vistos de una misma especie ¿se parecen entre sí? ¿Cuáles especies enlistadas presentan mayor cantidad de diferencias entre individuos?\n\nHabitación personal Toda la casa Toda la casa con patio\n\nA. ¿Con quiénes vivimos?\n\np.\n\n78 Vistos solo en los dormitorios Vistos en casa, excepto en el patio Vistos en casa, incluyendo el patio",
+      "charCount": 609
+    },
+    {
+      "pageNumber": 48,
+      "text": "Creatividad 47\n\nB. ¿De dónde viene nuestra dieta?\n\n3. Lista de especies por sitio:\n\n5. Lista de especies por sitio:\n\n6. Nombre de las variantes preferidas para consumo por especie:\n\n7. Especies que tienen otro uso no alimentario:\n\nEspecie 1: Especie 2: Especie 3: Especie 4: Especie 5:\n\nVariantes: Variantes: Variantes: Variantes: Variantes:\n\nEspecie 1: Especie 2: Especie 3: Especie 4: Especie 5:\n\nVariante preferida:\n\nRazón:\n\nVariante preferida:\n\nRazón:\n\nVariante preferida:\n\nRazón:\n\nVariante preferida:\n\nRazón:\n\nVariante preferida:\n\nRazón:\n\nSitio 1: Sitio 2: Sitio 3: Sitio 4:\n\nUnidad 3\n\np.\n\n79\n\nSemana 11",
+      "charCount": 608
+    },
+    {
+      "pageNumber": 49,
+      "text": "Comunicación 48\n\nC. Cuantificando la biodiversidad\n\n2. Cuadro de frecuencias de las especies seleccionadas.\n\n7. Consolidado de las variantes de especies vegetales.\n\nEspecies Usos Variedades Usos Especies: Sitio 1: Sitio 2: Sitio 3: Sitio 4: TOTAL(Frecuencia) Ej. Aguacate 1 0 1 0 2\n\n8. Responde:\n\na. Una planta que no tenga un uso reconocido ¿es importante? ¿Por qué?\n\nb. Un animal que no tenga un uso reconocido ¿es importante? ¿Por qué?\n\nc. ¿Por qué hay variedades de organismos preferidos para usos específicos?\n\np.\n\n81\n\np.\n\n81",
+      "charCount": 530
+    },
+    {
+      "pageNumber": 50,
+      "text": "49 Indagación\n\na. ¿Qué diferencias encuentras en los grupos formados con la clasificación jerárquica?\n\nA. Clasificación utilitaria de organismos\n\n5. Completa la tabla empleando tus criterios de clasificación para formar grupos de organismos.\n\n6. Jerarquía de los grupos de clasificación:\n\nAgrupamiento de especies Ejemplo: Presencia/ ausencia de pelo Peludos Animales con presencia de pelo en su estado adulto. Perro, gato, cotuza, tarántula, foca. Lampiños Animales con ausencia de pelo en su estado adulto. Serpiente, pez espada, lombriz de tierra, cangrejo, anguila, cocodrilo, concha. Criterio 1:\n\nCriterio 2:\n\nCriterio 3:\n\nCriterio 4:\n\nCriterio 1: Criterio 2: Criterio 3: Integrantes del grupo Grupo G:\n\nGrupo C:\n\nGrupo H:\n\nGrupo A:\n\nGrupo I:\n\nGrupo D:\n\nGrupo J:\n\nGrupo K:\n\nGrupo E:\n\nGrupo L:\n\nGrupo B:\n\nGrupo M:\n\nGrupo F:\n\nGrupo N:\n\nCriterio Grupos Características de los grupos Integrantes de los grupos\n\np.\n\n84\n\np.\n\n84\n\nUnidad 3\n\nSemana 12",
+      "charCount": 947
+    },
+    {
+      "pageNumber": 51,
+      "text": "50\n\n7. Listado de usos por organismo\n\n8. Tabla de clases de uso\n\n9. Sistematización de organismos según su clase de uso. 1 = presente, 0 = ausente. Organismo Usos Organismo Usos Clase de uso Definición Organismo Clase 1: Clase 2: Clase 3: Clase 4: Clase 5: Total",
+      "charCount": 262
+    },
+    {
+      "pageNumber": 52,
+      "text": "51\n\n10. Esquema de clasificación de los organismos propuesta por clase de uso:\n\np.\n\n84 Creatividad\n\nB. Análisis de agrupamiento\n\n2. Desarrolla:\n\na. Completa la tabla con características biológicas que hayas detectado en las seis especies mostradas en la página 86 de tu Libro de Texto. Distingue como «particulares» a aquellas características que solo están presentes en una de las especies.\n\nDebe haber al menos una característica con la que cumplan todas las especies representadas, y al menos una particular por cada especie.\n\nA. Pez\n\n(Acanthurus triostegus)\n\nB. Sapo\n\n(Rhinella marina)\n\nC. Gato zonto\n\n(Herpailurus yagouaroundi)\n\nD. Maquilishuat\n\n(Tabebuia rosea)\n\nE. Percebes\n\n(Pollicipes elegans)\n\nF. Chachalaca\n\n(Ortalis leucogastra) Especie Características generales o compartidas Características particulares\n\nUnidad 3\n\nSemana 12",
+      "charCount": 838
+    },
+    {
+      "pageNumber": 53,
+      "text": "52\n\nb. Completa la matriz binaria como el ejemplo de la página 87 de tu Libro de Texto. Para ello, selecciona seis de las características que determinaste antes, luego rellena las casillas con «1» si la característica está presente en la especie o «0» si está ausente.\n\nc. ¿Cuáles individuos se parecen más entre sí? ¿Por qué?\n\nNombre de la especie:\n\nCaracterísticas Total1. 2. 3. 4. 5. 6.\n\nA.\n\nB.\n\nC.\n\nD.\n\nE.\n\nF.\n\nTotal Comunicación\n\nC. Análisis de grupos externos\n\n3. Lista de individuos y características. Coloca los nombres de los organismos en la primera columna y el cumplimiento respectivo de las características del cuadro.\n\n1.\n\n2.\n\n3.\n\n4.\n\n5.\n\nNombre del individuo/ característica Células eucariotas Células animales Vértebras Cuatro ex-tremidades Glándulas mamarias Total\n\np.\n\n88\n\np.\n\n87",
+      "charCount": 797
+    },
+    {
+      "pageNumber": 54,
+      "text": "53\n\n4. Representación del dendrograma\n\np.\n\n88\n\nUnidad 3\n\nSemana 12",
+      "charCount": 66
+    },
+    {
+      "pageNumber": 55,
+      "text": "Indagación Indagación Creatividad Taxonomía\n\nA. Uso de los nombres científicos\n\na. ¿Conocen algún nombre científico? Escríbanlos como los recuerden.\n\nb. ¿Para qué sirven los nombres científicos?\n\n3. Palabras latinas: annona, citrus, indica, puma, velox, purpurea, falco, sanguineus, salvadorensis, grandis.\n\n4. Completa la tabla como se indica en tu Libro de Texto.\n\nAnadara Ej. grandis Grande X Anadara grandis «casco de burro»\n\nTamarindus De la India «tamarindo»\n\nPeregrinus Halcón «halcón peregrino»\n\nGeococcyx Rápido «correcaminos tropical»\n\nAnnona Púrpura «sincuya»\n\nSinensis Limonero «limonero»\n\nConcolor Puma «puma»\n\nAmaranthus De color de sangre «amaranto»\n\nCherimola Anona «chirimoya»\n\nCedrela De El Salvador «cedro»\n\nPistas Significado de la palabra faltante S A Nombrecientífico Nombre común\n\n5. Nombre de los taxones por cada categoría taxonómica:\n\na. Porites lobata (coral de arrecife):\n\nb. Lobatus galeatus (caracol cambute):\n\nc. Megasoma elephas (escarabajo rinoceronte):\n\nB. Plataformas de biodiversidad\n\np.\n\n90 54",
+      "charCount": 1030
+    },
+    {
+      "pageNumber": 56,
+      "text": "55\n\n4. Características de identificación de las especies usadas por la clave taxonómica.\n\na. Características para identificar ciprés (Cupressus lusitánica)\n\nb. Características para identificar bambú (Bambusa vulgaris)\n\nc. Características para identificar el mango (Mangifera indica)\n\nd. Características para identificar la pascua (Euphorbia pulcherrima)\n\n6. A continuación se presentan cuatro fichas de especies animales junto a sus características. Utilízalas para elaborar una clave dicotómica. Recuerda que puedes buscar sus imágenes o información adicional en el sitio del GBIF: www.gbif.org/es (QR en la página 93 de tu Libro te Texto).\n\nd. Dermophis mexicanus (tepelcúa)\n\ne. Incilius canaliferus (sapo)\n\nf. Iguana iguana (iguana)\n\ng. Epiphyllum crenatum (galán de noche de altura)\n\nh. Sterculia apetala (castaño)\n\ni. Annona glabra (anona de manglar)\n\n6. Sitios de avistamiento:\n\np.\n\n95 Comunicación\n\nC. Categorías taxonómicas\n\np.\n\n95\n\nUnidad 3\n\nSemana 13",
+      "charCount": 960
+    },
+    {
+      "pageNumber": 57,
+      "text": "56 Nombre científico: Buteo magnirostris Características del individuo:\n\nUn aguililla de tamaño mediano ( 35 a 40 cm de longitud), el plumaje puede variar entre grisáceo, café claro y café un tanto rojizo. Sin embargo, la especie puede reconocerse gracias a la combina - ción de su iris ocular amarillento, en contraste con el pico, que es oscuro y de tamaño proporcional - mente grande. El plumaje de la cabeza, de aspecto relativamente uniforme al igual que el pecho; cola generalmente grisácea con tres barras anchas obscuras.\n\nNombre científico: Sarcoramphus papa Características del individuo:\n\nEs un ave carroñera de tamaño mediano (de 70 a 82 cm de longitud total). Tienen los ojos blancos bordeados por un área rojiza. La cola es corta, ancha y de forma cuadrangular en el extremo. La cabeza y la parte superior del cuello son desnudas y tienen colores negro, pardo, rojo, naranja y amarillo. El pico tiene el extremo rojo y la base negra, con verrugas de color amarillento o naranja colocadas por encima. El plumaje del cuerpo es blanco, con algunas áreas grisáceas en el cuello. Las alas y la cola son negras y las patas grisáceas.\n\nNombre científico: Falco sparverius Características del individuo:\n\nEs un ave de entre 25 y 30 cm de longitud y de aspecto esbelto; presenta dimorfismo sexual secundario en la coloración. La cabeza tiene coronilla gris y los lados de la cara son claros con un par de manchas negras verticales muy visibles, una que cruza el ojo y otra ubicada más atrás. El pico es oscuro. La nuca y el dorso del cuerpo son de color café rojizo, al igual que la parte superior de la cola.\n\nEl dorso tiene notorias manchas oscuras que dan aspecto de barrado transversal.\n\nNombre científico: Tyto alba Características del individuo:\n\nEs un ave que mide entre 27 y 40 cm. La cola es corta y con forma un tanto cuadrada en el extremo. Las patas son proporcionalmente largas y no están emplumadas en la parte cercana a las garras.\n\nEl plumaje dorsal es de color leonado, con algunas áreas un poco más grisáceas, y con marcas finas, a manera de ocelos (ojos pequeños) de color blanco y negro, sobre todo en la espalda y en las plumas cobertoras de las alas. La parte media de cada ala suele tener un parche de plumas más rojizas.\n\n7. Elabora acá tu esquema de la clave taxonómica:\n\np.\n\n95",
+      "charCount": 2308
+    },
+    {
+      "pageNumber": 58,
+      "text": "57 Indagación\n\nA. Dendrograma y cladograma\n\nA.\n\n3. Reinos a los que pertenecen los organismos:\n\n4. Responde:\n\na. ¿Cuál es el animal más parecido a Staurotypus salvinii?\n\nb. ¿Cuál es el animal menos parecido a Staurotypus salvinii?\n\nc. ¿Cuál es a planta más parecida a Crax rubra?\n\nd. ¿Cómo determinaste las anteriores relaciones de parentesco?\n\n5. Analiza con atención los árboles filogenéticos A y B, que muestran las relaciones de parentesco entre diferentes especies de plantas. Luego, desarrolla:\n\na. Encierra en un círculo la raíz de ambos árboles.\n\nb. Considerando que ambos árboles representan las relaciones entre las mismas especies, ¿se podría decir que ambos son el mismo árbol o son diferentes? Razona tu respuesta.\n\nSistemática y cladística\n\nUnidad 3\n\nSemana 14",
+      "charCount": 774
+    },
+    {
+      "pageNumber": 59,
+      "text": "58\n\nB.\n\nCreatividad\n\nB. Describiendo todas las formas de vida\n\n4. Completa con tu equipo la información de los cuadros de cada dominio:\n\na. Dominio Bacteria\n\nNúmero estimado de especies:\n\nLista de reinos:\n\nCaracterísticas biológicas: Principales usos:\n\np.\n\n97",
+      "charCount": 259
+    },
+    {
+      "pageNumber": 60,
+      "text": "59\n\nb. Dominio Archaea\n\nc. Dominio Eukarya\n\nNúmero estimado de especies:\n\nLista de reinos:\n\nCaracterísticas biológicas: Principales usos:\n\nNúmero estimado de especies:\n\nLista de reinos:\n\nCaracterísticas biológicas: Principales usos:\n\nReino Fungi Número estimado de especies:\n\nCaracterísticas biológicas: Grupos principales:\n\nReino Plantae Número estimado de especies:\n\nCaracterísticas biológicas: Grupos principales:\n\nReino Animalia Número estimado de especies:\n\nCaracterísticas biológicas: Grupos principales:\n\np.\n\n100 Comunicación\n\nC. Estudiando los reinos de la naturaleza\n\n3. Información de los reinos.\n\nUnidad 3\n\nSemana 14",
+      "charCount": 627
+    },
+    {
+      "pageNumber": 61,
+      "text": "60 Evaluación\n\n1. Escribe qué entiendes por biodiversidad.\n\n2. ¿Los organismos domesticados forman parte de la biodiversidad? Explica.\n\n3. ¿Qué es la diversidad específica?\n\n4. ¿Qué entiendes por agrupamiento en el contexto de la biodiversidad?\n\n5. Explica cuál es la relación entre taxonomía y sistemática.\n\n6. ¿Cuál es la relación entre filogenia y cladística?\n\na. ¿Cuál es el más diverso y por qué?\n\nb. Suponiendo que cada uno de los círculos concéntricos indica una categoría taxonómica, ¿cuántos dominios muestra el esquema y por qué?\n\nc. ¿Cuántos reinos habría?\n\n7. El cladograma circular de la izquierda muestra tres\n\nclados distintos.\n\n8. Subraya cuál es una característica fundamental del dominio Eukarya:\n\na. Células procariotas b. Células eucariotas c. Unicelulares d. Paredes celulares",
+      "charCount": 797
+    },
+    {
+      "pageNumber": 62,
+      "text": "Barra de Santiago, departamentos de Ahuachapán y Sonsonate, El Salvador.\n\n• Identificar tipos de interacciones ecológicas que\n\nocurren en su entorno.\n\n• Describir la estructura y dinámica elemental de\n\nuna población utilizando datos experimentales.\n\n• Identificar las características y componentes básicos de las comunidades biológicas.\n\n• Reconocer la estructura general y las funciones\n\nprincipales de los ecosistemas.\n\n• Identificar contribuciones de la naturaleza a la\n\ngente (NCP) con incidencia en su comunidad.\n\n• Relacionar los conceptos de perturbación y sucesión ecológica.\n\n• Identificar variables utilizadas como criterios para\n\nclasificar biomas.\n\n• Ejemplificar aplicaciones de las unidades biogeográficas.\n\nEcología Eje integrador: interacciones\n\nUnidad 4\n\nDuración: 5 semanas En esta unidad aprenderemos a:",
+      "charCount": 822
+    },
+    {
+      "pageNumber": 63,
+      "text": "62 Indagación Interacciones ecológicas\n\nA. Identificando los componentes del entorno\n\n8. Resuelve:\n\na. Elabora una lista de los elementos que mencionaron en la actividad y clasifícalos en bióticos y abióticos.\n\nb. ¿Cómo se relacionan unos elementos con otros? Describe un ejemplo.\n\nc. ¿Hay alguna modificación en estas relaciones si se elimina o se modifica uno de los elementos con los que está relacionado? Representa un ejemplo.\n\nd. Explica cuál es la importancia de las interrelaciones de los elementos del entorno. Elementos bióticos Elementos abióticos\n\np.\n\n106",
+      "charCount": 567
+    },
+    {
+      "pageNumber": 64,
+      "text": "Creatividad 63\n\nB. Nuestro ecosistema\n\n4. Describe las interacciones observadas en el recorrido, indicando el lugar donde fue observado y con quién se relaciona, además de las ventajas y desventajas, si las hay o no, para cada uno de los individuos. Puedes dibujar o tomar fotografías.\n\np.\n\n108 Organismos Descripción\n\nUnidad 4\n\nSemana 15",
+      "charCount": 338
+    },
+    {
+      "pageNumber": 65,
+      "text": "64\n\nC. Competencia por sobrevivir\n\n6. Llena la ficha de observación experimental realizando esquemas y describiendo tus observaciones.\n\n7. Después de una semana de observación, responde:\n\na. ¿Hubo alguna diferencia en el crecimiento de las plantas de maíz en los experimentos? Explica lo que observaste.\n\nb. ¿Cómo llamarías a la interacción representada en el experimento B? Explica.\n\np.\n\n109\n\np.\n\n108 Fecha de siembra:\n\nDía A 1 2 3 B 1 2 3 Ficha de observación experimental",
+      "charCount": 474
+    },
+    {
+      "pageNumber": 66,
+      "text": "Comunicación 65\n\np.\n\n111\n\nD. Clasificando interacciones ecológicas\n\n1 Perro Garrapata Parasitismo -/+ Interacciones interespecíficas N° Especie 1 Especie 2 Efecto de la interacción Tipo de interacción\n\nUnidad 4\n\nSemana 15",
+      "charCount": 221
+    },
+    {
+      "pageNumber": 67,
+      "text": "66 Indagación\n\nA. Agrupando organismos\n\na. Qué animales son?\n\nb. ¿Cuántos tipos hay?\n\nc. ¿Qué características observaste para identificarlos?\n\nd. Observa tu entorno y trata de agrupar los organismos por sus características.\n\np.\n\n112 Ejemplo: rosa Tallo con espinas, flor de color blanco. 3 Organismo Características Cantidad de individuos observados Ecología de poblaciones",
+      "charCount": 373
+    },
+    {
+      "pageNumber": 68,
+      "text": "Creatividad 67\n\nB. La vida en una colonia\n\nHoja de observaciones Fecha de inicio: Especie de hormiga:\n\nCantidad inicial de hormigas:\n\nFecha Temperatura Humedad N° de individuos muertos Estadios Observaciones\n\np.\n\n116\n\nUnidad 4\n\nSemana 16",
+      "charCount": 237
+    },
+    {
+      "pageNumber": 69,
+      "text": "Comunicación 68\n\nC. Estadística de poblaciones\n\nCon los datos de las observaciones anteriores, calcula las diferentes medidas y estimaciones de la población del hormiguero.\n\n1. Tamaño de la población.\n\n2. Densidad poblacional.\n\n3. Tabla de vida\n\n4. Curva de supervivencia.\n\nHuevos Larvas Pupas Adultos Fase de desarrollo Número de sobrevivientes (i) Número de muertes (d) Tasa de mortalidad (q=d/i) NÚMERO DE INDIVIDUOS ETAPAS\n\np.\n\n117",
+      "charCount": 435
+    },
+    {
+      "pageNumber": 70,
+      "text": "Indagación 69\n\nA. Conjunto de poblaciones\n\nB. Abundancia y riqueza de una comunidad vegetal\n\nComunidades biológicas\n\n1. Observa las siguientes imágenes de tu Libro de Texto y trata de identificar cuántas especies de árboles hay en cada uno de los grupos.\n\n2. Responde:\n\na. ¿Cuántas especies hay?\n\nb. ¿Cuántas poblaciones identificas?\n\nc. Calcula el porcentaje de cada una de las poblaciones.\n\np.\n\n118\n\nd. ¿Cuál población se encuentra en mayor cantidad?\n\nImagen A % Imagen B % Creatividad\n\n1. Croquis del área de estudio de una comunidad vegetal.\n\np.\n\n121\n\nUnidad 4\n\nSemana 17",
+      "charCount": 575
+    },
+    {
+      "pageNumber": 71,
+      "text": "70\n\n4. Registro de especies vegetales.\n\nN° Especies vegetales Número de individuos Densidad Riqueza de especies: Abundancia:\n\np.\n\n121\n\np.\n\n122",
+      "charCount": 142
+    },
+    {
+      "pageNumber": 72,
+      "text": "Comunicación 71\n\nC. Similitud de comunidades\n\n1. Coloca los datos registrados en dos cuadrantes.\n\n3. Coeficiente de Jaccard:\n\na. ¿Hay especies características de alguna comunidad que no se encuentran en otra?\n\nb. ¿Cuál es el grado de similitud de las comunidades? ¿Por qué?\n\np.\n\n122 N° Especies Cantidad de individuos por cuadrante Cuadrante 1 Cuadrante 2\n\nUnidad 4\n\nSemana 17",
+      "charCount": 376
+    },
+    {
+      "pageNumber": 73,
+      "text": "72 Indagación\n\nA. Estructura y funciones de los ecosistemas\n\nEcosistemas\n\n3. Con base en las funciones de los organismos identificados, analicen en un sentido más amplio cuáles son las funciones del ecosistema de la zona verde de la escuela. Anota:\n\n6. Responde:\n\na. Elije una de las funciones del ecosistema de la zona verde y explica con tus palabas en qué consiste.\n\nb. ¿Consideras que las funciones del ecosistema de la zona verde traen algún beneficio para tu escuela? Explica tu respuesta.\n\np.\n\n124",
+      "charCount": 504
+    },
+    {
+      "pageNumber": 74,
+      "text": "Creatividad 73\n\nB. Festival vegetal\n\n4. Contesta:\n\na. Menciona dos beneficios que brindan las plantas a tu comunidad.\n\n1)\n\n2)\n\nb. Menciona dos eventos culturales o religiosos que se desarrollen en tu comunidad donde se utilicen plan - tas.\n\n1)\n\n2)\n\nc. Además de los usos que tienen las plantas en tu comunidad, identifica dos funciones que tienen las plantas en los ecosistemas y cómo esto se traduce en un beneficio para los seres humanos.\n\nFunción de las plantas en los ecosistemas Beneficio para los seres humanos\n\nd. ¿Consideras que las plantas también pueden tener algún efecto negativo sobre las actividades de tu comunidad? Si es así, menciona un ejemplo.\n\np.\n\n126\n\nUnidad 4\n\nSemana 18",
+      "charCount": 692
+    },
+    {
+      "pageNumber": 75,
+      "text": "Comunicación 74\n\n3. Elementos del ecosistema:\n\na. Componentes abióticos\n\nb. Al menos tres productores:\n\n1)\n\n2)\n\n3)\n\nc. Al menos tres consumidores primarios:\n\n1)\n\n2)\n\n3)\n\nd. Al menos tres consumidores secundarios:\n\n1)\n\n2)\n\n3)\n\nC. Las contribuciones del ecosistema\n\n7. Contesta:\n\na. Escribe dos ejemplos específicos de cómo la naturaleza contribuye a la vida cotidiana en tu comunidad. Describe brevemente cómo estas contribuciones afectan la salud, la economía o el bienestar de las personas que viven allí.\n\n1)\n\n2)\n\nb. Escribe dos ejemplos específicos de fenómenos climáticos extremos que hayan tenido un impacto negativo en tu comunidad. ¿Qué problemas han surgido a raíz de estos fenómenos?\n\n1)\n\n2)\n\np.\n\n128",
+      "charCount": 709
+    },
+    {
+      "pageNumber": 76,
+      "text": "75 Indagación\n\nA. Sucesiones ecológicas y perturbaciones\n\nBiogeografía\n\n3. Contesta:\n\na. Considera que el incendio de la imagen de la izquierda ocurrió hace dos años. ¿Cómo crees que ha cambiado el área después de ese tiempo? ¿Cómo crees que se verá dentro de diez años?\n\nb. Identifica y escribe cuatro etapas o pasos por los que crees que pasará ese bosque durante los próximos diez años.\n\n1 2 3 4 1 2 3 4\n\n6. Identifiquen y discutan las etapas similares o diferentes y lleguen a un consenso, como clase, sobre el orden de las etapas:\n\nUnidad 4\n\nSemana 19\n\np.\n\n130",
+      "charCount": 565
+    },
+    {
+      "pageNumber": 77,
+      "text": "76\n\n7. Ahora vuelvan al trabajo en equipo y respondan sobre la imagen de la derecha:\n\na. ¿Consideras que hace cien años ese bosque era igual a como se ve en la imagen? Explica tu respuesta.\n\nb. ¿Qué factores podrían hacer que ese bosque cambie en el futuro?\n\n9. Contesta:\n\nc. Menciona dos ejemplos de perturbaciones de origen natural y dos perturbaciones causadas por el ser humano que podrían hacer que los bosques cambien.\n\nd. Menciona un ejemplo de perturbación que hayas observado en un ecosistema cercano.\n\np.\n\n131 Origen natural Causadas por el ser humano",
+      "charCount": 561
+    },
+    {
+      "pageNumber": 78,
+      "text": "Creatividad 77\n\nB. Creando Biomas. Parte 1\n\nC. Creando Biomas. Parte 2\n\n4. Describe:\n\n3. Luego de que cada grupo presente su trabajo, toda la clase discutirá lo siguiente con la guía del docente y contestarán:\n\na. ¿Cuáles criterios de clasificación fueron más comunes entre los trabajos?\n\nb. ¿Consideran que los criterios de clasificación más comunes son viables de aplicar en los ecosistemas de El Salvador? Expliquen tu respuesta.\n\na. Nombre del bioma\n\nb. Zona del planeta donde se\n\nencuentra\n\nc. Rango de temperatura del\n\nbioma Invierno: Primavera:\n\nVerano: Otoño:\n\nRango de temperatura:\n\nd. Animales que lo habitan\n\ne. Otros criterios de clasificación\n\nCriterio:\n\nDescripción:\n\nCriterio:\n\nDescripción:\n\nCriterio:\n\nDescripción:\n\nComunicación\n\nUnidad 4\n\nSemana 19\n\np.\n\n132",
+      "charCount": 774
+    },
+    {
+      "pageNumber": 79,
+      "text": "78\n\nc. Cuáles biomas son similares? ¿Podrían unificarse en un solo tipo de bioma?\n\nd. ¿Qué podría suceder si las condiciones como la temperatura o la precipitación cambiaran drásti - camente en tu bioma? ¿Cómo se vincula esto con el cambio climático?\n\np.\n\n133\n\nD. Intercambio de especies\n\nContesta:\n\na. ¿Consideras que la especie nueva podría sobrevivir en tu bioma? Justifica tu respuesta.\n\nb. ¿Cuáles crees que son los impactos de introducir especies a nuevos biomas a los que no pertenecen?\n\nc. ¿Crees que hay alguna especie que pueda habitar todos los biomas? Explica tu respuesta.\n\np.\n\n134",
+      "charCount": 594
+    },
+    {
+      "pageNumber": 80,
+      "text": "79 Evaluación\n\n1. ¿Qué entiendes por interacciones?\n\n2. Escribe un ejemplo de cada una de las interacciones siguientes:\n\n3. Describe un ejemplo de población y su estructura.\n\n4. ¿Cuáles son los posibles patrones de distribución de una población?\n\na.\n\nEjemplo:\n\nParasitismo Garrapata + Vaca - Competencia intraespecífica Cooperación Competencia interespecífica Depredación Mutualismo Comensalismo Parasitismo Tipo de interacción Especie 1 Efecto Especie 2 Efecto Comunidad A Comunidad B\n\nb. c.\n\n5. En un bosque, ¿cómo harías para conocer el tipo de arbustos y cuántos hay? Explica.\n\n6. Encuentra el coeficiente de similitud de Jaccard de las siguientes comunidades: Especie Cantidad Cedro 2 Conacaste 1 Caoba 4 Ceiba 1 Almendro 3 Madre cacao 20 Laurel 5 Especie Cantidad Pepeto 9 Conacaste 1 Amate 2 Ceiba 1 Nance 4 Madre cacao 18 Laurel 6 Anona 5\n\nUnidad 4",
+      "charCount": 856
+    },
+    {
+      "pageNumber": 81,
+      "text": "80\n\n7. Escribe un ejemplo de una función de los ecosistemas:\n\n8. Escribe tres ejemplos de contribuciones de la naturaleza a las personas:\n\na.\n\nb.\n\nc.\n\n9. Observa las siguientes imágenes y escribe qué tipo de sucesión representan:\n\n10. Explica la relación entre las perturbaciones y las sucesiones ecológicas.\n\n11. Escribe dos criterios importantes para la clasificación de los biomas.\n\na.\n\nb.\n\n12. Lee, analiza y responde:\n\n«El jacinto de agua (Eichornia crassipes) es una planta acuática flotante que tiene origen en cuerpos de agua de Suramérica, específicamente de las cuencas del río Amazonas y del río de la Plata. Esta planta se ha convertido en una de las especies invasoras más problemáticas en cuerpos de agua dulce alrededor del mundo, incluido El Salvador . Su rápida tasa de reproducción la ha convertido en una amenaza para los cuerpos de agua y las actividades humanas que allí se realizan».\n\nResponde. En el contexto del estudio de los biomas, ¿por qué crees que esta planta ha sido capaz de reproducirse exitosamente en cuerpos de agua de El Salvador, a pesar de no ser una planta nativa?",
+      "charCount": 1104
+    },
+    {
+      "pageNumber": 82,
+      "text": "• Identificar las etapas del ciclo hidrológico inclu -\n\nyendo la intervención antrópica.\n\n• Representar una cuenca hidrográfica.\n\n• Reconocer variaciones en la infiltración y distri -\n\nbución vertical del agua en los suelos.\n\n• Identificar los tipos de acuíferos.\n\n• Identificar las regiones hidrogeológicas del país.\n\n• Identificar y determinar parámetros de calidad\n\ndel agua.\n\n• Identificar las propiedades físicas de la atmósfera.\n\n• Reconocer los principales parámetros que inci -\n\nden en la calidad del aire.\n\n• Explicar la clasificación de la calidad del aire según el Índice Centroamericano de Calidad del Aire (ICCA).\n\n• Utilizar una aplicación para la consulta y registro\n\nde parámetros meteorológicos.\n\n• Describir los parámetros meteorológicos empleados en la clasificación de los ciclones tropicales. Recurso hídrico Eje integrador: sistemas\n\nUnidad 5\n\nDuración: 6 semanas Río Sapo, Perquín, Morazán En esta unidad aprenderemos a:",
+      "charCount": 943
+    },
+    {
+      "pageNumber": 83,
+      "text": "82 Indagación\n\nA. Conozcamos el ciclo hidrológico\n\n1. Completa el esquema del ciclo hidrológico con las palabras faltantes.\n\nVolcanes Glaciares Nivel freático Flujo superficial Agua juvenil\n\n2. Responde las siguientes preguntas sobre algunos procesos del ciclo del agua:\n\np.\n\n140 Hidrósfera\n\n• Escorrentía\n\n• Transpiración\n\n• Evaporación\n\n• Flujo de agua subterránea\n\n• Infiltración\n\n• Precipitación (lluvia)\n\n• Precipitación (nieve)\n\na. ¿Qué elementos contribuyen a la transpiración?\n\nb. ¿En qué regiones se produce la evaporación?\n\nc. ¿De dónde proviene el agua subterránea?\n\nd. ¿En qué consiste el proceso que ocurre antes de la precipitación?",
+      "charCount": 646
+    },
+    {
+      "pageNumber": 84,
+      "text": "83\n\nC. Cuencas hidrográficas\n\n3. Dibuja la cuenca y escribe sus elementos.\n\nB. Ciclo hidrológico y el ser humano\n\na. ¿De dónde proviene el agua que usas en casa y en la escuela?\n\nb. ¿Sabes a dónde va a parar el agua que usas en tu casa y en la escuela?\n\nc. ¿El agua que usas cumple con el ciclo urbano del agua?\n\nd. De las etapas del ciclo urbano del agua, ¿cuál o cuáles es necesario practicar más en nuestro país?\n\na. ¿Qué relación hay entre ríos principales y afluentes?\n\nb. ¿Es posible que en la zona baja de la cuenca se faciliten inundaciones?\n\np.\n\n141 Partes de la cuenca\n\nSemana 20\n\nUnidad 5",
+      "charCount": 599
+    },
+    {
+      "pageNumber": 85,
+      "text": "84 Creatividad\n\n12. Ahora analiza y resuelve lo siguiente:\n\na. Calcula la cantidad de agua que pasa por ese\n\nrío en 24 horas, considerando un caudal constante.\n\nb. Si analizas un río de verdad en la época lluviosa y seca, ¿crees que el caudal será constante o cambiará? Explica.\n\nD. Caudales y volúmenes de cuerpos superficiales\n\nE. Variación de caudal y volumen de cuerpos de agua\n\na. ¿Cómo es la variación anual de su caudal?\n\nb. ¿Por qué en las estaciones más cercanas al punto de desembocadura los caudales son mayores?\n\np.\n\n144\n\n9. Tiempo:\n\n10. Calcula la rapidez promedio del río:\n\n11. Calcula el caudal:\n\np.\n\n143\n\nc. ¿Afectan a las zonas medias y bajas actividades como la contaminación, el desperdicio o la sobreexplotación del agua en zonas altas de la cuenca? Explica.\n\nd. ¿En qué cuenca o región hidrográfica vives? p.\n\n142",
+      "charCount": 834
+    },
+    {
+      "pageNumber": 86,
+      "text": "85 Indagación\n\nA. Infiltración\n\nB. Capacidad de infiltración\n\n6. Dibuja el nivel alcanzado.\n\n8. Construye una gráfica de comportamiento de tiempo vs. altura del agua.\n\na. ¿Por qué el agua no tardó lo mismo en pasar a\n\ntravés de los diferentes materiales?\n\n5 10 15 20 25 30 35 40 45 50 Tiempo (min) Medición (cm)\n\nSemana 21\n\nAgua subterránea\n\nb. Ordena los materiales del más lento en permitir\n\nel paso del agua al más rápido:\n\nMás rápido Normal Normal Lento No infiltra\n\nc. ¿Ocurre lo mismo con el agua lluvia? Explica.\n\np.\n\n146\n\nUnidad 5",
+      "charCount": 538
+    },
+    {
+      "pageNumber": 87,
+      "text": "86\n\na. ¿Fue constante la rapidez con la que se infiltró el agua? Explica.\n\nb. ¿Por qué el agua tardó más en infiltrar a medida transcurrió el tiempo?\n\nc. Explica por qué en algunos suelos la infiltración es más rápida que en otros.\n\na. ¿Cómo influye la textura en la permeabilidad del acuífero?\n\nb. ¿Qué propiedades de los materiales que conforman un acuífero influyen en su capacidad para almacenar y transmitir agua subterránea?\n\nc. En un acuífero con textura predominantemente arcillosa en comparación con uno predominantemente arenoso, ¿cómo varían las propiedades de transmisión del agua y la porosidad?\n\na. ¿En qué capa se acumuló el agua?\n\nb. ¿Qué función está haciendo la capa de arcilla o suelo compacto?\n\nc. ¿De qué manera podría llegar agua hasta las capas inferiores?\n\np.\n\n147 Creatividad\n\nC. Acuíferos\n\nD. Tipos de acuíferos\n\np.\n\n148\n\np.\n\n150\n\n9. Responde:",
+      "charCount": 869
+    },
+    {
+      "pageNumber": 88,
+      "text": "87\n\nE. Acuíferos en El Salvador\n\nF. Revisión al ciclo hidrológico\n\na. ¿Puedes identificar en qué zonas existen los acuíferos con mayor producción?\n\n2. Calcula tu huella hídrica.\n\na. El sitio web se encuentra en inglés, puedes auxiliarte de un traductor o de la guía de tu docente.\n\nb. Según lo que aprendiste en la actividad anterior, ¿puedes identificar la textura de los acuíferos con mayor producción?\n\nc. Escribe qué tipo de acuífero hay en la zona que habitas.\n\nSemana 21\n\nComunicación\n\np.\n\n150\n\nUnidad 5",
+      "charCount": 509
+    },
+    {
+      "pageNumber": 89,
+      "text": "88 ENSAYO RECURSO HÍDRICO La idea central de tu ensayo deberá ser sobre el ciclo hidrológico y la influencia del ser humano en este fenómeno. Titulo Introducción Desarrollo Cierre\n\np.\n\n151",
+      "charCount": 188
+    },
+    {
+      "pageNumber": 90,
+      "text": "89 Indagación Calidad del agua\n\nA. Identificando contaminantes del agua\n\n2. Escribe cada tipo de contaminante del agua.\n\n3. Clasifica cada tipo de contaminante en biológico o fisicoquímico.\n\na. ¿Cuáles de estos contaminantes podrían estar afectando el agua que consumes o el agua de ríos o lagos cercanos a tu lugar de vivienda?\n\np.\n\n152\n\nSemana 22\n\nDiseñar cada elemento con la misma línea grá/f_ica, pero no colocar el nombre, y que no tengan fondo.\n\nEn el caso de los elementos químicos, que queden claros, sus símbolos.\n\nAs Arsénico\n\n74.922\n\n33 Cd Cadmio\n\n112.41\n\n48 Pb Plomo\n\n207.2\n\n82 Hg Mercurio\n\n200.59\n\n80 Biológicos Fisicoquímicos\n\nUnidad 5",
+      "charCount": 650
+    },
+    {
+      "pageNumber": 91,
+      "text": "90 Creatividad\n\nC. Parámetros del índice de calidad del agua\n\na. ¿Cuáles de estos contaminantes crees que afectan el agua que consumes o el agua de ríos o lagos cercanos a tu vivienda?\n\nb. Preliminarmente, ¿te parece que el agua que consumes tiene una excelente calidad? Explica\n\nc. ¿Hay algún río, lago o laguna cerca de donde habitas o estudias? ¿Cómo lo describirías, respecto a su condición actual relacionada a su calidad?\n\na. Anota los cambios que observas cada día.\n\nParte I. Parámetros biológicos\n\np.\n\n153\n\nB. Índice de calidad del agua (ICA)\n\nDía 1 Día 2 Día 3 Día 4",
+      "charCount": 575
+    },
+    {
+      "pageNumber": 92,
+      "text": "91 Comunicación\n\nD. Usos del agua y el índice de calidad del agua\n\nF. Calidad de agua en El Salvador\n\nb. Las burbujas que observas son en su mayoría CO2. ¿Sabes quién las ha producido y por qué?\n\nc. ¿Qué elemento importante han consumido y transformado los productores de CO2?\n\na. ¿Qué observas que quedó retenido en el papel filtro?\n\nb. ¿Qué observas en el fondo del recipiente?\n\na. ¿Cuáles son los usos del agua en la zona donde vives?\n\nb. ¿Conoces algún uso adicional del agua?\n\nc. Usando el mapa del índice de calidad del agua de la página 157, identifica algún cuerpo de agua superficial cercano y escribe su calidad. Incluye si has observado el cuerpo de agua superficial.\n\na. ¿Qué factores están afectando la calidad del agua superficial de El Salvador?\n\nb. ¿Son necesarios más estudios de la calidad del agua subterránea en el país? Explica. Parte II. Parámetros fisicoquímicos\n\np.\n\n155\n\np.\n\n157\n\nSemana 22\n\nUnidad 5",
+      "charCount": 924
+    },
+    {
+      "pageNumber": 93,
+      "text": "92\n\nA. Composición de la atmósfera\n\nConozcamos la atmósfera\n\na. ¿Qué le ocurrió a la vela cuando se tapó y transcurrió el tiempo?\n\nb. ¿Cuál crees que fue el oxidante que estaba generando la combustión?\n\nc. ¿Por qué se apagó la vela?\n\np.\n\n158 Creatividad\n\nC. Funciones de la atmósfera\n\nD. ¿Qué respiramos?\n\na. Al comparar las temperaturas, ¿cuál moneda está más caliente?\n\nb. ¿Qué función hizo el papel aluminio?\n\na. ¿Qué observas en el detector?\n\nb. ¿Sabes de dónde proviene lo que observas en el detector?\n\nTemperatura de la moneda cubierta por papel aluminio Temperatura de la moneda normal\n\np.\n\n160 Indagación",
+      "charCount": 612
+    },
+    {
+      "pageNumber": 94,
+      "text": "93 Comunicación\n\nc. Explica cómo estas situaciones afectan la composición de la atmósfera y la salud de las personas. Es grande la cantidad de humo que emiten los automóviles y autobuses, especialmente aquellos que no están debidamente regulados. Además, en zonas con grandes concentraciones de automóviles y autobuses, también hay un exceso. Esa concentración de gases emitidos son resultado de la combustión, incluyendo gases y partículas, que provienen de la gasolina y el diésel.\n\nEn algunas comunidades, más comúnmente en zonas rurales, hay personas que queman desechos sólidos como plásticos y similares por la ausencia de un sistema de recolección de basura, o simplemente porque acostumbran a quemar los dese - chos.\n\nE. Calidad del aire\n\np.\n\n161\n\na. ¿Cuáles contaminantes existen en tu cercanía?\n\nb. ¿Se puede reducir la producción de esos contaminantes? Explica cómo.\n\nc. ¿Qué impactos están teniendo en la población?\n\nSemana 23\n\np.\n\n162\n\nUnidad 5",
+      "charCount": 957
+    },
+    {
+      "pageNumber": 95,
+      "text": "94\n\nF. Índice de la calidad del aire\n\nCompleta las tablas con los datos de los tres días y anota tus conclusiones sobre la calidad del aire en la capital de nuestro país.\n\n1 2 3 Día Hora Medición Calidad del aire Día Hora Medición Calidad del aire Día Hora Medición Calidad del aire Conclusiones:\n\np.\n\n163 Indice Centroamericano de Calidad de aire ICCA Interpretación Buena No se anticipan impactos a la salud cuando la calidad del aire se encuentra en este rango. Satisfactoria No se anticipan impactos a la salud cuando la calidad del aire se encuentra en este rango. No satisfactoria (dañina a la salud de los grupos sensibles) Los niños y adultos activos, y personas con enfermedades respiratorias como asma, deben evitar los esfuerzos físicos excesivos y prolongados al aire libre.\n\nDaña a la salud Las personas con enfermedades respiratorias como asma, deben evitar todo el esfuerzo al aire libre; especialmente los mayores y los niños deben limitar el esfuerzo prolongado al aire libre.\n\nMuy dañina a la salud Las personas con enfermedades respiratorias como asma, deben evitar todo el esfuerzo al aire libre; especialmente los mayores y los niños deben limitar el esfuerzo prolongado al aire libre.\n\nPeligroso Toda persona debe evitar el esfuerzo al aire libre; personas con enfermedades respiratorias como asma, deben permanecer dentro de sus casas.",
+      "charCount": 1358
+    },
+    {
+      "pageNumber": 96,
+      "text": "95 Indagación Centros de monitoreo nacionales Sitios web meteorológicos Aplicaciones móviles Centros de monitoreo nacionales Sitios web meteorológicos Aplicaciones móviles Observaciones meteorológicas\n\nA. ¿Qué parámetros podemos medir de la atmósfera?\n\nB. Observemos datos meteorológicos\n\n3. Escribe cómo te imaginas que se mide cada una de ellas.\n\na. ¿Cuál es la importancia que cada una de ellas tiene?\n\na. ¿Qué diferencias observas en los datos proporcionados por cada uno?\n\nb. Haz una lista de todos los parámetros meteorológicos que se encuentran en cada lugar que visitaste.\n\np.\n\n164\n\nSemana 24\n\nUnidad 5",
+      "charCount": 610
+    },
+    {
+      "pageNumber": 97,
+      "text": "96 Creatividad\n\nc. ¿Cuál de esos servicios es el más accesible?\n\nd. ¿Por qué los servicios meteorológicos nacionales son los que proporcionan información más exacta y precisa sobre el tiempo atmosférico?\n\nC. Temperatura, humedad, presión atmosférica y vientos\n\n12. Realiza cuatro mediciones y calcula el promedio.\n\n13. Calcula las revoluciones por segundo usando la fórmula:\n\n14. Calcula la rapidez lineal del viento usando la siguiente relación:\n\nEl termino 2π(n°rev) t representa la rapidez angular, una rapidez con la que un objeto rota alrededor de un eje, que a su vez nos permite obtener la rapidez lineal v del viento al multiplicarla por el radio. Parte I. Medición de velocidad de viento\n\n9. Radio:\n\nMedición 1 Medición 2 Medición 3 Medición 4 Promedio n°revmin = ________ rev⁄min n°revs = n°revmin 60 s = _____ rev⁄min v = 2π(n°rev) r t = = rev⁄min\n\np.\n\n165\n\np.\n\n166",
+      "charCount": 876
+    },
+    {
+      "pageNumber": 98,
+      "text": "97 Parte II. Medición de temperatura\n\n3. Registra los datos\n\n1 2 3 Día Hora T medida con el termómetro T consultada Día Hora T medida con el termómetro T consultada Día Hora T medida con el termómetro T consultada\n\na. ¿Cómo varía la temperatura en distintas horas del día?\n\nb. ¿Hubo cambios de temperatura de un día a otro?\n\nc. Respecto a los datos de temperatura consultados ¿hay cambios? ¿a qué crees que se deban?\n\na. ¿A qué crees que se debe la diferencia?\n\np.\n\n167\n\np.\n\n168\n\nD. Precipitación y otras observaciones meteorológicas\n\n5. Realiza las mediciones y luego compara con el mapa de lluvia publicado por el MARN. Medición realizada Dato proporcionado por el MARN\n\nSemana 24\n\nUnidad 5",
+      "charCount": 692
+    },
+    {
+      "pageNumber": 99,
+      "text": "Comunicación 98\n\n5. Elabora la gráfica:\n\n4. Completa la tabla con los datos de cada parámetro.\n\nE. Registro de datos meteorológicos\n\na. ¿En qué períodos la temperatura aumentó más?\n\nb. ¿En qué periodo fue mayor la precipitación registrada?\n\nc. ¿Qué otros parámetros se presentan en la gráfica?\n\nd. ¿Cuáles son las razones por las que ocurren cambios en estos parámetros? Comportamiento de la temperatura Comportamiento de la precipitación Comportamiento de los otros parámetros Relación entre variables\n\np.\n\n169",
+      "charCount": 511
+    },
+    {
+      "pageNumber": 100,
+      "text": "99 Indagación\n\nA. Fenómenos meteorológicos que afectan a El Salvador\n\nFenómenos meteorológicos\n\na. ¿Sabes por qué se le llamó huracán a este sistema meteorológico?\n\nb. ¿Tienes una idea de qué significa que este huracán haya sido categoría 5?\n\nc. ¿Sabes por qué en su centro se forma un «ojo», desde donde rotan los vientos alrededor de él?\n\nd. Escribe qué impactos negativos pueden tener estos sistemas en la población.\n\ne. ¿Conoces algún otro tipo de sistema meteorológico?\n\np.\n\n170\n\nSemana 25\n\nUnidad 5",
+      "charCount": 504
+    },
+    {
+      "pageNumber": 101,
+      "text": "Creatividad 100\n\nC. Formación de ciclones tropicales\n\nD. Clasificación de ciclones tropicales\n\na. ¿Cómo cambió el sistema respecto a su forma, tamaño y trayectoria?\n\nb. ¿Qué pasó con los vientos asociados a medida que fue cambiando?\n\np.\n\n172 Ciclón tropical que alcanzó velocidades de 95 km/h Ciclón tropical que alcanzó velocidades de 180 km/h Ciclón tropical que alcanzó velocidades de 250 km/h Ciclón tropical que alcanzó velocidades de 55 km/h Ciclón tropical que alcanzó velocidades de 120 km/h Ciclón tropical Clasificación\n\np.\n\n173 Depresión tropical 23/agosto Huracán 25/agosto Tormenta tropical 24/agosto Huracán categoría 5 29/agosto",
+      "charCount": 643
+    },
+    {
+      "pageNumber": 102,
+      "text": "Comunicación 101\n\nE. Monitoreo de ciclones tropicales y sus impactos asociados\n\nSemana 25\n\nENSAYO La idea central de tu ensayo deberá ser sobre el ciclo hidrológico y la influencia del ser humano en este fenómeno. Titulo Introducción Desarrollo Cierre\n\np.\n\n175\n\nUnidad 5",
+      "charCount": 270
+    },
+    {
+      "pageNumber": 103,
+      "text": "102 Evaluación\n\n1. Escribe los procesos que ocurren en el ciclo del\n\nagua:\n\n•\n\n•\n\n•\n\n•\n\n•\n\n•\n\n•\n\n2. ¿Cuál es la importancia de las cuencas hidrográficas?\n\n3. ¿Cuáles son las dos características más importantes que definen un acuífero como unidad geológica?\n\na.\n\nb.\n\n4. Escribe fuentes de contaminación del agua superficial y subterránea en El Salvador .\n\n5. Escribe algunas funciones de la atmósfera.\n\n•\n\n•\n\n•\n\n6. ¿Cuáles son las principales fuentes de contaminación del aire?\n\n7 Haz una lista de los parámetros meteorológicos que podemos medir en la atmósfera.\n\n8 Escribe algunos fenómenos meteorológicos de los que aprendiste.\n\n9. ¿Por qué deberíamos prepararnos si nos avisaran\n\nde que un ciclón tropical impactará en la región donde vivimos?",
+      "charCount": 745
+    },
+    {
+      "pageNumber": 104,
+      "text": "Central Hidroeléctrica 3 de febrero, San Miguel.\n\n• Explicar el concepto de recursos naturales y sus características fundamentales.\n\n• Comparar la eficiencia y suministro de diferentes recursos energéticos de uso cotidiano.\n\n• Reconocer la diversidad de procesos que pueden\n\nutilizarse para generar energías renovables.\n\n• Construir un dispositivo para el aprovechamiento de\n\nenergías renovables.\n\n• Comparar los procesos de obtención y aprovechamiento de las energías renovables y no renovables.\n\n• Explicar cuáles son las principales actividades humanas que impactan los ecosistemas naturales de El Salvador .\n\n• Comparar el uso actual y el potencial de los suelos\n\npara producción alimentaria en El Salvador .\n\n• Identificar prácticas comunes que promueven la\n\nsostenibilidad ambiental.\n\nAmbiente y energía Eje integrador: energía\n\nUnidad 6\n\nDuración: 7 semanas En esta unidad aprenderemos a:",
+      "charCount": 895
+    },
+    {
+      "pageNumber": 105,
+      "text": "104 Indagación Recursos y energía\n\nA. Recursos naturales\n\nB. Materia prima de la naturaleza\n\n2. Responde:\n\na. ¿Crees que los recursos existen de manera natural en el planeta o necesitas procesarlos para usarlos?\n\nb. ¿Qué nos provee cada recurso? ¿Nos provee alimento, algún material o energía?\n\nc. ¿Cuál es la importancia de cada recurso?\n\n3. Caracteriza cada recurso natural.\n\np.\n\n180\n\np.\n\n181 Silla de madera Objeto Recurso natural Características del recurso natural Clasificación Natural o modificado Biótico o abiótico ¿Se regenera? Renovable o no renovable",
+      "charCount": 562
+    },
+    {
+      "pageNumber": 106,
+      "text": "Creatividad 105\n\nD. Recursos energéticos\n\n4. Completa la tabla.\n\n2. Clasifica las tarjetas en energías renovables y no renovables.\n\n1 2 3 4 5 6 Equipo Método Tiempo Fuente de energía Fiabilidad de suministro Renovables No renovables\n\na. ¿Cuál método resultó más eficiente? ¿Por qué?\n\nb. ¿Cómo estimarían cuánta energía absorbió el agua que calentaron?\n\nEjemplo:\n\nQ = (100 g) (4.182 J/g °C) (25°C-24°C) Q=418.2 J La energía que absorbe el agua la podemos estimar aplicando la siguiente expresión:\n\nQ = mc ΔT Donde:\n\nQ = transferencia de calor m = masa de la muestra de agua c = calor específico del agua ΔT= Temperatura final – Temperatura inicial\n\np.\n\n183\n\np.\n\n182\n\nSemana 26\n\nUnidad 6",
+      "charCount": 685
+    },
+    {
+      "pageNumber": 107,
+      "text": "Comunicación 106\n\nE. Recursos energéticos de mi comunidad\n\n2. Completa la tabla según los recursos energéticos que utilizas en tu hogar .\n\n3. Utiliza la información de la tabla anterior para realizar tu encuesta. Puedes utilizar este ejemplo:\n\np.\n\n185 Nombre del encuestado:\n\nSexo: Edad:\n\nPreguntas Recurso natural Clasificación ¿Qué utiliza para cocinar en su casa?\n\n¿Cómo seca su ropa?\n\n¿Cuál es su suministro de energía eléctrica?\n\n¿Utiliza autobús para trasladarse a su trabajo?\n\nActividad Recurso energético Renovable o no renovable",
+      "charCount": 537
+    },
+    {
+      "pageNumber": 108,
+      "text": "107 Indagación\n\nA. Usos de la energía no renovable\n\n2. Identifiquen la fuente de energía que se está utilizando.\n\n3. Analicen y respondan:\n\na. ¿Por qué necesitamos fuentes de energía?\n\nb. ¿Qué fuentes de energía utilizaron ustedes y sus familias este día? Enlístalas.\n\nc. ¿Consideran que la demanda humana de combustibles fósiles es elevada y sigue aumentando?\n\nd. ¿Creen que estos recursos son agotables si se sobreexplotan?\n\ne. ¿Consideran que su suministro se puede ver limitado a largo plazo?\n\nEnergías no renovables\n\np.\n\n186\n\nSemana 27\n\nUnidad 6",
+      "charCount": 550
+    },
+    {
+      "pageNumber": 109,
+      "text": "108\n\nB. Energía por combustión\n\nC. Transformación de la energía\n\n8. Responde:\n\na. ¿Qué ha sucedido?\n\nb. ¿Cuál sería el combustible que hemos utilizado?\n\nc. ¿Qué tipo de energía se genera de la combustión?\n\nd. ¿Qué tipo de energía permite el movimiento de la hélice?\n\ne. Esquema:\n\n3. Elabora el esquema.\n\nCreatividad Comunicación\n\np.\n\n191\n\np.\n\n188",
+      "charCount": 346
+    },
+    {
+      "pageNumber": 110,
+      "text": "109\n\n4. Compara la producción de energía eléctrica por combustión con la energía nuclear .\n\np.\n\n191 Energía por combustión Energía nuclear\n\nSemana 27\n\nUnidad 6",
+      "charCount": 159
+    },
+    {
+      "pageNumber": 111,
+      "text": "110 Indagación Energías renovables\n\nA. Energías renovables\n\n2. Responde:\n\na. ¿De dónde proviene la energía?\n\nb. ¿Es necesario transformar esa energía para utilizarla?\n\n3. Lluvia de ideas.\n\n4. Proceso de aprovechamiento de energía.\n\np.\n\n192",
+      "charCount": 239
+    },
+    {
+      "pageNumber": 112,
+      "text": "Creatividad 111\n\nB. Horno solar\n\n8. Tiempo de cocimiento.\n\n9. Responde:\n\na. ¿Se cocinó tu alimento?\n\nb. ¿Cuánto tiempo demoró?\n\nc. ¿Conoces otros dispositivos que funcionen con energía solar?\n\nd. ¿Crees que las condiciones climáticas pueden afectar el suministro de la energía solar?\n\ne. ¿Por qué se considera al Sol como una fuente de energía renovable?\n\n10 min 20 min 30 min 40 min 50 min 60 min Tiempo Observación\n\np.\n\n193\n\np.\n\n195\n\nC. Generador de energía hidroeléctrica\n\n12. Responde:\n\na. ¿Qué ha sucedido?\n\nb. ¿Crees que la energía hidroeléctrica es más beneficiosa que la energía por combustión para producir electricidad? Explica tu respuesta.\n\nc. Investiga los efectos ambientales negativos que generan las centrales hidroeléctricas.\n\nUnidad 6\n\nSemana 28",
+      "charCount": 763
+    },
+    {
+      "pageNumber": 113,
+      "text": "Comunicación 112\n\nD. Comparando energías renovables y no renovables\n\n3. Completa el cuadro.\n\np.\n\n196 Suministro Eficiencia Almacenamiento Aspectos Energías renovables Energías no renovables",
+      "charCount": 189
+    },
+    {
+      "pageNumber": 114,
+      "text": "113 Indagación\n\nA. Impacto antropogénico\n\n3. Analicen y respondan.\n\na. ¿El recurso energético es natural o procesado?\n\nb. ¿Hay alguna modificación en los espacios naturales para la extracción de biomasa?\n\nc. ¿Se generan impactos negativos por el transporte, almacenamiento y distribución de la biomasa?\n\nd. ¿Qué tipos de residuos crees que se generan de la combustión de la biomasa?\n\ne. ¿Consideras que el tipo de fuente energética que eliges consumir puede disminuir el impacto sobre el medioambiente? Explica comparando los impactos entre el uso de la biomasa y la energía hidroeléctrica. Impacto ambiental\n\np.\n\n198 Uso de biomasa Hidroeléctrica\n\nUnidad 6\n\nSemana 29",
+      "charCount": 668
+    },
+    {
+      "pageNumber": 115,
+      "text": "Creatividad 114\n\nB. Contaminación del aire\n\nC. Cambio de uso de suelo\n\n5. Responde:\n\na. ¿Qué ocurre dentro de la botella?\n\nb. ¿Qué crees que representa el fósforo?\n\nc. ¿Qué daños crees que pueden ocasionar los gases que se generan por las industrias o el transporte?\n\n9. Responde:\n\na. Después de regar las muestras de suelo de las dos bandejas, ¿cuál es el aspecto del agua que escurrió?\n\nb. ¿La cantidad de agua que escurrió varió en las dos muestras?\n\nc. ¿Creen que la vegetación ayuda a retener agua y evitar la erosión del suelo?\n\nd. ¿Creen que los contaminantes que utilizamos en los cultivos pueden contaminar los ríos y los lagos?\n\ne. ¿Qué sucedió cuando cubrieron la tierra con el plástico?\n\nf. ¿Es similar a colocar una capa de cemento?\n\ng. ¿Qué pasa cuando cambiamos bosques por urbanizaciones?\n\nh. ¿Qué sucede cuando cambiamos un bosque por un cultivo de caña o por un embalse?\n\np.\n\n199\n\np.\n\n200",
+      "charCount": 906
+    },
+    {
+      "pageNumber": 116,
+      "text": "Comunicación 115\n\nD. ¿Cómo medir el impacto ambiental?\n\n4. Medición del impacto ambiental.\n\n5. Medidas de mitigación y compensación ambiental.\n\np.\n\n203 Ambiente Actividades Σ Preparación del terreno Instalación de turbinas Sistemas naturales Tierra/suelos Agua Atmósfera Calidad Clima Flora Fauna Factores socioculturales Uso del suelo Suministro de energía Paisaje Empleo Redes de servicios Residuos Ponderación del impacto\n\nUnidad 6\n\nSemana 29",
+      "charCount": 445
+    },
+    {
+      "pageNumber": 117,
+      "text": "116 Indagación Cambio climático\n\nA. Efecto invernadero\n\n8. Anota la temperatura según el tiempo que se indica:\n\n9. Responde:\n\na. ¿Qué crees que influyó para que hubiera mayor temperatura en los recipientes?\n\nb. ¿Qué tipo de gas estamos representando en los recipientes A y B?\n\nc. ¿Qué actividades humanas crees que pueden incrementar los gases de efecto invernadero?\n\np.\n\n204 A B Control Ambiental Recipiente 15 min 30 min 45 min 1 h\n\np.\n\n204",
+      "charCount": 442
+    },
+    {
+      "pageNumber": 118,
+      "text": "117Semana 30\n\nB. Cambio climático antropogénico\n\n4. Completa el cuadro:\n\n5. Responde:\n\na. ¿En qué período de la historia se comenzaron a generar grandes emisiones de CO2?\n\nb. ¿Qué actividades generan mayor CO2 en la actualidad?\n\nc. Explica la relación entre la emisión de GEI por actividades humanas y el calentamiento global.\n\np.\n\n205 ¿Cómo se calentaban?\n\n¿Cocinaban?\n\n¿Con qué?\n\n¿Cuál era su medio de transporte?\n\n¿Cómo fabricaban los productos que consumían?\n\nActividades Períodos históricos Prehistoria Edad Antigua Edad Media Edad Moderna Edad Contem-poránea\n\nUnidad 6",
+      "charCount": 574
+    },
+    {
+      "pageNumber": 119,
+      "text": "Creatividad 118\n\nC. Un día sin energía eléctrica\n\n4. Analicen los siguientes aspectos del consumo de energía y las consecuencias de la crisis y planteen posibles soluciones. Producción y suministro de alimentos Servicio de energía eléctrica y agua potable Suministro de gas y transporte Recolección de desechos y saneamiento Comité Consumo de energía Consecuencias Soluciones\n\np.\n\n206",
+      "charCount": 384
+    },
+    {
+      "pageNumber": 120,
+      "text": "119\n\nD. Lluvia ácida\n\n7. ¿Como puede afectar la lluvia ácida a los ecosistemas?\n\n4. Anota tus predicciones y observaciones.\n\nCascarón de huevo Hoja verde Clip Tornillo Objeto Agua Vinagre Predicción Después de 1 día Después de 1 semana Predicción Después de 1 día Después de 1 semana\n\np.\n\n207\n\nUnidad 6\n\nSemana 30",
+      "charCount": 313
+    },
+    {
+      "pageNumber": 121,
+      "text": "120 Indagación Seguridad alimentaria y nutricional\n\nA. Producción alimentaria\n\n6. Realiza una propuesta de una distribución adecuada de las zonas de producción alimentaria según las clases de suelo.\n\np.\n\n211\n\n7. Anota tus conclusiones sobre lo siguiente:\n\na. ¿Creen que es bastante o poco el espacio que se utiliza para la producción de alimentos comparado con otros usos de suelo?\n\nb. ¿Consideran que las áreas para la producción de alimentos (agricultura, ganadería y granjas avícolas) se encuentran distribuidas adecuadamente según la clase de suelo?\n\nc. En caso de no satisfacer los requerimientos de la gente, ¿qué acciones se pueden tomar para el abastecimiento de alimentos de manera oportuna y permanente?\n\nd. ¿Creen que las zonas productivas son vulnerables ante los efectos del cambio climático? Expliquen brevemente.",
+      "charCount": 827
+    },
+    {
+      "pageNumber": 122,
+      "text": "Creatividad 121\n\nB. Rendimiento calórico\n\nC. Producción extensiva\n\n5. Calcula cuánta área debemos cultivar de cada alimento para abastecer a una familia de dos adultos y tres niños durante un año.\n\n2. Calcular la cantidad de hectáreas para producir 18 678 kg al año.\n\n3. ¿Cuál tipo de producción puede ser más eficiente para un país que cuenta con poco territorio como El Salvador?\n\np.\n\n213\n\np.\n\n212\n\nUnidad 6\n\nSemana 31",
+      "charCount": 420
+    },
+    {
+      "pageNumber": 123,
+      "text": "Comunicación 122\n\nD. Cadena de suministro y almacenamiento\n\n4. Completen la información de cada producto.\n\n5. Elabora la cadena de suministro de un producto de la lista anterior .\n\nProducto Fecha de producción Fecha de vencimiento Forma de almacenamien-to (refrigeración, empa-que al vacío, etc.) ¿Tiene preservantes o debe consumirse en corto tiempo?\n\np.\n\n214",
+      "charCount": 360
+    },
+    {
+      "pageNumber": 124,
+      "text": "123 Indagación\n\nA. ¿Por cuánto tiempo puedo seguir?\n\nB. ¿Sostenible o no sostenible?\n\n8. Analiza con tu equipo.\n\na. ¿Podrían realizar esta actividad todo el día, muchos días o para siempre?\n\nb. ¿A qué equipo le duró más el recurso energético?\n\nc. ¿Qué creen que pasaría si usamos los recursos por mucho tiempo hasta agotarlos?\n\n2. Identifica ventajas y desventajas de ese tipo de actividad.\n\n3. Agrupa las actividades en sostenibles y no sostenibles de acuerdo con el impacto en el ambiente Introducción al desarrollo sostenible\n\np.\n\n216\n\np.\n\n217 Agricultura convencional Agricultura alternativa Energía no renovable Energía renovable Actividad Ventajas Desventajas Sostenible No sostenible\n\nUnidad 6\n\nSemana 32",
+      "charCount": 711
+    },
+    {
+      "pageNumber": 125,
+      "text": "Creatividad 124\n\nC. Reduciendo mi impacto\n\n3. Escriban una lista de los recursos naturales y planteen acciones para utilizarlos eficientemente.\n\n5. Propongan medidas para reducir la huella de carbono de los productos alimenticios que consumes diaria - mente.\n\nRecurso natural Uso eficiente o reducir consumo\n\np.\n\n218",
+      "charCount": 316
+    },
+    {
+      "pageNumber": 126,
+      "text": "125\n\nD. Sostenibilidad ambiental\n\nE. Desarrollo sostenible\n\n2. Analicen y respondan:\n\na. ¿Qué fuente de energía provee los porcentajes más altos de energía eléctrica?\n\nb. ¿Cuáles son los beneficios de invertir en fuentes de energía renovables a largo plazo?\n\nc. Tomando en cuenta que la demanda actual de energía en el país es de aproximadamente 1093 MW, ¿consideras que puede autoabastecerse a largo plazo con energías renovables? Explica.\n\n2. Escriban las razones por las que se considera un proyecto sostenible.\n\np.\n\n219 Comunicación\n\nUnidad 6\n\nSemana 32",
+      "charCount": 557
+    },
+    {
+      "pageNumber": 127,
+      "text": "126 Evaluación\n\n1. Investiga y clasifica los recursos naturales en renovables o no renovables y menciona la contribución de la naturaleza a la gente (CNP) (p. ej. Regulación, aprovisionamiento, alimento, belleza escénica). Además, explica brevemente los usos que les damos.\n\n2. Elabora una tabla resumen de los beneficios y los impactos ambientales de los recursos energéticos renovables y no renovables. Recurso natural Clasificación CNP Uso Fuente energética Beneficios Impacto ambiental Agua Sol Suelo Bosques Animales Minerales Petróleo Carbón Gas natural Uranio Combustibles fósiles Hidroeléctrica",
+      "charCount": 602
+    },
+    {
+      "pageNumber": 128,
+      "text": "127\n\n3. Lee el siguiente estudio de caso y describe el impacto ambiental que puede generar al ecosistema. Fuente energética Beneficios Impacto ambiental Energía solar Energía eólica Biomasa Geotermia La extracción de minerales produce una transformación del paisaje por la explotación minera; la acumulación de desechos que contaminan el suelo lleva consigo una regeneración lenta para volver a su estado original y hay riesgo de acidificación de aguas subterráneas y de ríos por el vertido de las aguas contaminadas de los desagües de las minas o del lavado mineral. Luego, durante la fabricación del producto se generan residuos de sustancias por el uso de disolventes, grasas y ácidos; esto puede ocasionar lluvias ácidas por las emisiones de anhídridos sulfúricos, anhídridos de nitrógeno y dióxido de carbono en el proceso de fundición de los metales.\n\nUnidad 6",
+      "charCount": 866
+    },
+    {
+      "pageNumber": 129,
+      "text": "128\n\n4. Lee la información:\n\nInvestiga y responde:\n\na. ¿Cómo funciona la energía nuclear para producir energía eléctrica?\n\nb. ¿Cuáles son las ventajas y las desventajas de la energía nuclear?\n\nVentajas:\n\nDesventajas:\n\n5. Lee el siguiente estudio de caso:\n\nLos seres humanos han inventado todo tipo de formas de generación de energía eléctrica para que sean convenientes, fáciles de adquirir y distribuibles. Una opción de estas fuentes energéticas son los generadores de energía nuclear, que funcionan igual que los generadores de energía eléctrica tradicionales con turbina de vapor, excepto que utilizan la fisión atómica para generar calor en lugar de la combustión de combustibles fósiles.\n\nAlrededor del 75 % de la soya mundial es usada para forraje animal (p. ej., alimento para vacas, cerdos y pollos). El área de tierra cultivada de soya en países sudamericanos creció de 17 millones de hectáreas en 1990 a 46 millones de hectáreas para el 2010, y según proyecciones de la FAO habrá un aumento de 515 millones de toneladas para 2050. Debido a la demanda de este producto han sido deforestadas áreas enormes de bosques, ocasionando pérdida de hábitats para la biodiversidad y amenazando los procesos ecológicos necesarios para la regeneración de los recursos naturales. Analiza, investiga y responde:\n\na. ¿Qué acciones individuales puedes llevar a cabo para reducir este impacto?\n\nb. ¿Qué estrategias se podrían implementar para un desarrollo sostenible para la producción de soya?",
+      "charCount": 1488
+    },
+    {
+      "pageNumber": 130,
+      "text": "7Ciencia y Tecnología 7 Cuaderno de trabajo Cuaderno de trabajo Ciencia y Tecnología",
+      "charCount": 84
+    }
+  ]
+}

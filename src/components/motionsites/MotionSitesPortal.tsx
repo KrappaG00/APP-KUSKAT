@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { ParticleLoader } from './ParticleLoader';
-import { Courses3DSection } from './Courses3DSection';
+import { Courses3DSection, PortalNavigationTarget } from './Courses3DSection';
 import { StatsAndCharts3D } from './StatsAndCharts3D';
 import { AboutUs3D } from './AboutUs3D';
 import { CallToActionFinal3D } from './CallToActionFinal3D';
@@ -21,6 +21,7 @@ interface MotionSitesPortalProps {
   onEnterSimulator: (institution?: Institution) => void;
   onOpenCategories: () => void;
   onSelectTab?: (tab: AppPageTab) => void;
+  onNavigateArea?: (target: PortalNavigationTarget) => void;
   onOpenAccountModal?: () => void;
   onOpenTutorial?: () => void;
   onOpenDevModal?: () => void;
@@ -32,6 +33,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
   onEnterSimulator,
   onOpenCategories,
   onSelectTab,
+  onNavigateArea,
   onOpenAccountModal,
   onOpenTutorial,
   onOpenDevModal,
@@ -81,6 +83,15 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
 
   // Transición 3D de salida
   const [isTransitioning, setIsTransitioning] = useState<boolean>(false);
+  const transitionTimerRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  useEffect(() => {
+    return () => {
+      if (transitionTimerRef.current) {
+        clearTimeout(transitionTimerRef.current);
+      }
+    };
+  }, []);
 
   useEffect(() => {
     const scrollToTop = () => {
@@ -99,6 +110,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
   }, []);
 
   const triggerStudyTransition = (inst?: Institution) => {
+    if (isTransitioning) return;
     try {
       window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
       if (document.documentElement) document.documentElement.scrollTop = 0;
@@ -107,8 +119,33 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
       window.scrollTo(0, 0);
     }
     setIsTransitioning(true);
-    setTimeout(() => {
+    if (transitionTimerRef.current) clearTimeout(transitionTimerRef.current);
+    transitionTimerRef.current = setTimeout(() => {
       onEnterSimulator(inst);
+    }, 450);
+  };
+
+  const triggerPortalTransition = (target: PortalNavigationTarget) => {
+    if (isTransitioning) return;
+    try {
+      window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
+      if (document.documentElement) document.documentElement.scrollTop = 0;
+      if (document.body) document.body.scrollTop = 0;
+    } catch {
+      window.scrollTo(0, 0);
+    }
+    setIsTransitioning(true);
+    if (transitionTimerRef.current) clearTimeout(transitionTimerRef.current);
+    transitionTimerRef.current = setTimeout(() => {
+      if (onNavigateArea) {
+        onNavigateArea(target);
+      } else if (target.tab === 'practice') {
+        onEnterSimulator('institution' in target ? target.institution : undefined);
+      } else if (target.tab === 'categories') {
+        onOpenCategories();
+      } else if (onSelectTab) {
+        onSelectTab(target.tab);
+      }
     }, 450);
   };
 
@@ -148,29 +185,16 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
             onSelectTab(tab);
           }
         }}
-        onOpenAccountModal={() => (onOpenAccountModal ? onOpenAccountModal() : undefined)}
         onOpenTutorial={() => (onOpenTutorial ? onOpenTutorial() : undefined)}
         onOpenDevModal={() => (onOpenDevModal ? onOpenDevModal() : undefined)}
         onOpenLegalModal={(tab) => (onOpenLegalModal ? onOpenLegalModal(tab) : undefined)}
-        currentUser={currentUser || null}
       />
 
 
       {/* ==================================================================== */}
       {/* 2. CURSOS DESTACADOS */}
       {/* ==================================================================== */}
-      <Courses3DSection
-        onEnroll={(inst) => triggerStudyTransition(inst)}
-        onSelectTab={(tab) => {
-          if (tab === 'practice') {
-            triggerStudyTransition();
-          } else if (tab === 'categories') {
-            onOpenCategories();
-          } else if (onSelectTab) {
-            onSelectTab(tab);
-          }
-        }}
-      />
+      <Courses3DSection onNavigateArea={triggerPortalTransition} />
 
 
       {/* ==================================================================== */}
@@ -459,7 +483,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                   onClick={() => triggerStudyTransition('ASD')}
                   className="text-left text-slate-600 hover:text-blue-600 transition-colors cursor-pointer"
                 >
-                  • Jóvenes Talento
+                  • ASD MINED
                 </button>
                 <button
                   onClick={() => triggerStudyTransition('ENA')}

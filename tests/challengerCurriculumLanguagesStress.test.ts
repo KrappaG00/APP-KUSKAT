@@ -164,8 +164,8 @@ describe('CHALLENGER REINFORCEMENT 1: Empirical Rigor & Adversarial Stress Test'
   // 1. SUBSTANTIVE PROSE WORD COUNT AUDIT (ADVERSARIAL >= 500 WORDS)
   // =========================================================================
   describe('1. Adversarial Substantive Prose Word Count Audit (>= 500 words/unit)', () => {
-    it('VMT Driver License: All 8 units strictly exceed 500 raw substantive words', () => {
-      expect(DRIVER_CURRICULUM_UNITS.length).toBe(8);
+    it('VMT Driver License: All 9 units strictly exceed 500 raw substantive words', () => {
+      expect(DRIVER_CURRICULUM_UNITS.length).toBe(9);
       const counts: Record<string, number> = {};
 
       DRIVER_CURRICULUM_UNITS.forEach((unit) => {
@@ -227,9 +227,9 @@ describe('CHALLENGER REINFORCEMENT 1: Empirical Rigor & Adversarial Stress Test'
   // 2. PAIRWISE SEMANTIC UNIQUENESS & NON-TRIVIAL RESOLUTIONS
   // =========================================================================
   describe('2. Practical Cases & Case Studies: Pairwise Uniqueness & Non-Trivial Resolutions', () => {
-    it('VMT Traffic Cases: Pairwise uniqueness check (40 cases, 0 title duplicates, 0 scenario duplicates)', () => {
+    it('VMT Traffic Cases: Pairwise uniqueness check (45 cases, 0 title duplicates, 0 scenario duplicates)', () => {
       const allCases = getAllPracticalTrafficCases();
-      expect(allCases.length).toBe(40);
+      expect(allCases.length).toBe(45);
 
       const titles = new Set<string>();
       const scenarios = new Set<string>();

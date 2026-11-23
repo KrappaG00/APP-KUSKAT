@@ -86,10 +86,10 @@ export const Header: React.FC<HeaderProps> = ({
       {/* Top Announcement & Contact Bar */}
       <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 text-white text-[10px] sm:text-xs py-1.5 px-3 sm:px-6 lg:px-8 border-b border-blue-900/50">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-1.5 sm:gap-2">
-          {/* Working In Progress Notice */}
+          {/* Active Platform Notice */}
           <div className="flex items-center gap-1.5 sm:gap-2 text-center sm:text-left flex-wrap justify-center">
-            <span className="px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-300 font-bold border border-amber-400/30 text-[9px] sm:text-[10px] uppercase tracking-wider animate-pulse shrink-0">
-              En Desarrollo
+            <span className="px-2 py-0.5 rounded-full bg-emerald-400/20 text-emerald-300 font-bold border border-emerald-400/30 text-[9px] sm:text-[10px] uppercase tracking-wider shrink-0">
+              Plataforma Activa
             </span>
             <span className="font-medium text-slate-200 leading-tight">
               Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.

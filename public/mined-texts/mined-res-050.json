@@ -1,0 +1,749 @@
+{
+  "id": "mined-res-050",
+  "title": "Cuaderno de Trabajo Ciencia y Tecnología 8.° Grado",
+  "filename": "Cuaderno de trabajo 8.° grado.pdf",
+  "docType": "Cuaderno de Ejercicios",
+  "materiaOriginal": "Ciencia y Tecnología",
+  "gradoOriginal": "8.° Grado",
+  "officialUrl": "https://www.mined.gob.sv/materiales/2026/CIENCIA_Y_TECNOLOGIA/3. Cuadernos de trabajo/Cuaderno de trabajo 8.° grado.pdf",
+  "status": "success",
+  "textCoverage": "full",
+  "totalPages": 130,
+  "extractedPages": 129,
+  "coverageRatio": 0.9923,
+  "totalChars": 115860,
+  "sectionCount": 11,
+  "mediaUrl": null,
+  "notice": null,
+  "sections": [
+    {
+      "id": "sec-001",
+      "title": "Portada Ciencias 8 CT",
+      "startPage": 1,
+      "endPage": 1,
+      "level": 1
+    },
+    {
+      "id": "sec-002",
+      "title": "Ciencias 8_CT_Pliego 000",
+      "startPage": 2,
+      "endPage": 5,
+      "level": 1
+    },
+    {
+      "id": "sec-003",
+      "title": "Ciencias 8_CT_Pliego 001",
+      "startPage": 6,
+      "endPage": 17,
+      "level": 1
+    },
+    {
+      "id": "sec-004",
+      "title": "Ciencias 8_CT_Pliego 002",
+      "startPage": 18,
+      "endPage": 33,
+      "level": 1
+    },
+    {
+      "id": "sec-005",
+      "title": "Ciencias 8_CT_Pliego 003",
+      "startPage": 34,
+      "endPage": 49,
+      "level": 1
+    },
+    {
+      "id": "sec-006",
+      "title": "Ciencias 8_CT_Pliego 004",
+      "startPage": 50,
+      "endPage": 65,
+      "level": 1
+    },
+    {
+      "id": "sec-007",
+      "title": "Ciencias 8_CT_Pliego 005",
+      "startPage": 66,
+      "endPage": 81,
+      "level": 1
+    },
+    {
+      "id": "sec-008",
+      "title": "Ciencias 8_CT_Pliego 006",
+      "startPage": 82,
+      "endPage": 97,
+      "level": 1
+    },
+    {
+      "id": "sec-009",
+      "title": "Ciencias 8_CT_Pliego 007",
+      "startPage": 98,
+      "endPage": 113,
+      "level": 1
+    },
+    {
+      "id": "sec-010",
+      "title": "Ciencias 8_CT_Pliego 008",
+      "startPage": 114,
+      "endPage": 129,
+      "level": 1
+    },
+    {
+      "id": "sec-011",
+      "title": "Contra Ciencias 8 CT",
+      "startPage": 130,
+      "endPage": 130,
+      "level": 1
+    }
+  ],
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "8Ciencia y Tecnología 8 Cuaderno de Trabajo Ciencia y Tecnología Cuaderno de Trabajo",
+      "charCount": 84
+    },
+    {
+      "pageNumber": 2,
+      "text": "Este cuaderno pertenece a: ________________________________________ 8Ciencia y Tecnología 8 Cuaderno de Trabajo Ciencia y Tecnología Cuaderno de Trabajo",
+      "charCount": 152
+    },
+    {
+      "pageNumber": 3,
+      "text": "Edición Vilma Guadalupe Mártir Ramírez Martha Alicia Artiga Hernández Carolina Ruiz de Escobar Orlando Leonel Castillo Henríquez Jorge Alfredo Ávila Moreno Autoría Xochilt María Pocasangre Orellana Adela Melissa Martínez de Guirola Jessica Vanessa Aguilar Sandoval Óscar Mauricio Olmedo Martínez Edwin Adverdi Pérez Ventura Nathalie Carmelina Galicia Shul Omar Antonio Rodríguez Alas Primera edición, Ministerio de Educación, Ciencia y Tecnología, San Salvador, El Salvador, 2025.\n\nSegunda reimpresión 2025.\n\nDerechos reservados. Prohibida su venta y su reproducción con fines comerciales por cualquier medio, sin previa autorización del MINEDUCYT .\n\nKarla Edith Trigueros Capitán y Doctora Ministra de Educación, Ciencia y Tecnología Edgar Eliseo Alvarenga F.\n\nViceministro de Educación y de Ciencia y Tecnología, ad honorem Edgard Ernesto Ábrego Cruz Director General de Educación\n\nWilfredo Alexander Granados Paz Director de Currículo y Materiales Educativos Gilberto Alexander Motto García Director de Educación Secundaria Tonatiuh Eddie M. Orantes Ramos Jefe del Departamento de Ciencia y Tecnología ISBN en trámite Jefe del Departamento de Materiales Educativos Julio Adolfo Castellanos Diseño editorial y diagramación Elmer Rodolfo Urquía Peña Corrección de textos Osvaldo Hernández Ilustraciones Ernesto Escobar Imágenes Shutterstock",
+      "charCount": 1341
+    },
+    {
+      "pageNumber": 4,
+      "text": "Nombre y número de la unidad.\n\nRecordatorios y apoyos.\n\nIlustraciones.\n\nPerspectiva de las temáticas.\n\nTus amigos siempre te acompañan.\n\nPreguntas y opciones de respuesta.\n\nAprendizajes que alcanzarás al estudiar la unidad.\n\nEspacios para notas y respuestas.\n\nEspacios para graficar .\n\nTiempo.\n\nEn tu Cuaderno de Trabajo encontrarás todo listo y ordenado para tomar apuntes, responder a las preguntas y colocar los resultados de las prácticas planteadas en tu Libro de Texto.\n\nTe permiten llevar un registro ordenado de procedimientos, respuestas y resultados.\n\nTu Cuaderno de Trabajo está enlazado con tu Libro de Texto. Las flechas circulares te indican la página exacta para regresar al libro.\n\nPresentan la siguiente información:\n\n1. Indagación\n\nEncontrarás ejemplos y espacios para anotar .\n\n2. Resultados\n\nNo necesitas elaborar tablas ni cuadrículas, ya estarán listas para ti.\n\nSecuencia de la semana Entradas de unidad B A\n\np.\n\n56 Conoce tu Cuaderno de Trabajo\n\n• Construir y calibrar instrumentos de medición.\n\n• Identificar técnicas de medición de magnitudes\n\nfísicas.\n\n• Interpretar las características de los gráficos.\n\n• Medir las componentes de un vector y saber operar con ellos.\n\n• Identificar experimentalmente las fuerzas actuando sobre objetos y representarlas mediante diagramas de cuerpo libre.\n\n• Resolver problemas empleando las leyes del movimiento de Newton.\n\n• Reconocer el torque como la causa del equilibrio\n\nrotacional.\n\n• Resolver problemas acerca del movimiento rectilíneo y parabólico empleando interpretación de gráficas.\n\n• Calcular magnitudes cinemáticas del movimiento\n\ncircular uniforme a partir de resultados experi - mentales.\n\n• Interpretar el cambio de momento lineal a través\n\nde la experimentación.\n\n• Calcular el momento lineal total.\n\nMecánica Eje integrador: interacciones\n\nUnidad 1\n\nDuración: 5 semanas Puerto de Acajutla, departamento de Sonsonate, El Salvador En esta unidad aprenderemos a:\n\nUnidad 4\n\n77 Indagación\n\nA. Desafío del sorbete, ¡que no se derrita!\n\nPropiedades coligativas de las soluciones\n\n6. Temperatura inicial: Control: °C Experimental: °C Hielo con sal: °C\n\n8. Tiempo para derretirse: Control: min Experimental: min Hielo con sal: min\n\na. Elabora una gráfica de dispersión para representar los datos recopilados en la actividad. En el eje X coloca las temperaturas iniciales (°C) y en el eje Y los tiempos de derretimiento (min) en cada grupo.\n\nb. Dibuja esquemas de los resultados de los tres vasos y escribe qué diferencias notaste en la velocidad de derretimiento entre el grupo «control», el grupo «experimental» y el grupo «hielo con sal».\n\np.\n\n144\n\nSemana 20\n\n23 Evaluación Resuelve las siguientes situaciones según lo indicado.\n\n1. Se ha construido un dinamómetro que puedes observar en la figura de\n\nla derecha.\n\na. Observa su escala de medida e identifica para completar lo siguiente:\n\nUnidad de medida: Apreciación: Rango:\n\nb. ¿Cuánto pesa el objeto en forma cilíndrica?\n\nc. ¿Qué tipo de medida se realiza?\n\nd. ¿Cómo obtendrías la masa del objeto conociendo su peso?\n\nLa puedo obtener\n\ne. Calcula la masa del objeto a partir del peso (considera g = 9.8 m/s2)\n\n2. Considerando que x: posición, v: velocidad, a:\n\naceleración y t: tiempo, analiza y responde:\n\na. ¿Qué representa …?\n\nLa pendiente de la gráfica A:\n\nLa pendiente de la gráfica C:\n\nEl área de la gráfica B:\n\nEl área de la gráfica F:\n\nb. ¿Qué gráficas describen velocidad constante?\n\n3. Observa el vector A\" y mide directamente:\n\na. Magnitud y dirección del vector A\"\n\n|A\"| = cm θ = °\n\nb. Dibuja las componentes vectoriales y mídelas:\n\n|A\"x| = cm |A\"y| = cm\n\nc. Escribe una expresión para A\" en términos de\n\nA\"x y A\"y en el espacio abajo del dibujo.\n\nd. Gráficamente, encuentra el vector resultante\n\nR\" si R\" = −A\"x + A\"y. Mide su magnitud y dirección: |A\"| = cm θ = °\n\n4. Observa la situación presentada. Si existe la fuerza, está actuando sobre el objeto; pon una X. Dibuja el diagrama de cuerpo libre.\n\nD E Fa a t t t a A B Cv v t t t x A\"\n\nA\" = A\"x + A\"y A\" = R\" = −A\"x + A\"y R\" = DCL Fuerza Notación ¿Existe?\n\nNormal F\" N Fricción F\" f x Tensión F\" N Peso F\" g 60 Indagación Mol y número de Avogadro\n\nA. Determinación de un número de objetos sin contarlos\n\n1. Cantidad de frijoles:\n\n2. Masa de la bolsa con una pequeña cantidad de frijoles:\n\n3. Masa de la bolsa llena con frijoles:\n\na. ¿Cuál es el propósito de usar una cantidad pequeña y uniforme de frijoles al principio del experimento?\n\nb. ¿Qué relación existe entre la masa de los frijoles medidos inicialmente y el número de frijoles presentes en la bolsa?\n\nc. ¿Cómo se podría utilizar la masa de los frijoles y la masa total de la bolsa para determinar el número aproximado de frijoles en la bolsa sin contarlos uno por uno?\n\nd. Calcula la cantidad de frijoles en la bolsa llena:\n\ne. ¿Cómo se relaciona esta actividad con el concepto de mol en química?\n\np.\n\n113 ¿Puedes mencionar elementos cotidianos tan diminutos que contarlos resulta una tarea desafiante?\n\nUn ejemplo sería el número de granos de arena en una playa.\n\nContarlos uno por uno sería una tarea gigantesca por su inmensa cantidad.\n\nEncontrarás preguntas, ejercicios y otras activida - des que pondrán a prueba tus conocimientos.\n\nEvaluacionesC",
+      "charCount": 5206
+    },
+    {
+      "pageNumber": 5,
+      "text": "Unidad 1. Mecánica 5\n\nSemana 1: Instrumentos de medición 6\n\nSemana 2: Vectores 9\n\nSemana 3: Movimiento en una y dos dimensiones 13\n\nSemana 4: Movimiento de rotación 17\n\nSemana 5: Momento lineal 20\n\nEvaluación de la unidad 23 Índice\n\nUnidad 2. Energía 25\n\nSemana 6: Teorema del trabajo y la energía cinética 26\n\nSemana 7: Tipos de energía mecánica 29\n\nSemana 8: Principio de conservación de la energía mecánica 32\n\nSemana 9: Potencia mecánica 35\n\nEvaluación de la unidad 38\n\nUnidad 5. Minerales 81\n\nSemana 21: Propiedades de los minerales 82\n\nSemana 22: Estructura de los minerales 85\n\nSemana 23: Minerales en El Salvador 88\n\nEvaluación de la unidad 92\n\nUnidad 3. Ondas mecánicas 39\n\nSemana 10: Energía mecánica en el movimiento armónico simple 40\n\nSemana 11: Medición del movimiento armónico simple 43\n\nSemana 12: Movimiento ondulatorio del sonido en las cuerdas 46\n\nSemana 13: Movimiento ondulatorio del sonido en el aire 50\n\nEvaluación de la unidad 53\n\nUnidad 4. Estequiometría y\n\ndispersiones 55\n\nSemana 14: Unidades físicas de concentración 56\n\nSemana 15: Mol y número de Avogadro 60\n\nSemana 16: Masa molar 65\n\nSemana 17: Unidades químicas de concentra-ción 68\n\nSemana 18: Dispersiones químicas. Parte 1 71\n\nSemana 19: Dispersiones químicas. Parte 2 74\n\nSemana 20: Propiedades coligativas de las soluciones 77\n\nEvaluación de la unidad 80\n\nUnidad 6. Anatomía y fisiología\n\nvegetal 93\n\nSemana 24: Los tejidos vegetales 94\n\nSemana 25: Transporte de sustancias 98\n\nSemana 26: Desarrollo y reproducciónvegetal 101\n\nSemana 27: La hoja y sus funciones 104\n\nEvaluación de la unidad 107\n\nUnidad 7. Anatomía y fisiología\n\nanimal 109\n\nSemana 28: Tipos de tejidos animales 110\n\nSemana 29: Sistema musculoesquelético 113\n\nSemana 30: Sistemas respiratorio ycirculatorio 116\n\nSemana 31: Sistemas digestivos 119\n\nSemana 30: Estructuras y sistemasexcretores 122\n\nEvaluación de la unidad 124",
+      "charCount": 1877
+    },
+    {
+      "pageNumber": 6,
+      "text": "• Construir y calibrar instrumentos de medición.\n\n• Identificar técnicas de medición de magnitudes\n\nfísicas.\n\n• Interpretar las características de los gráficos.\n\n• Medir las componentes de un vector y saber operar con ellos.\n\n• Identificar experimentalmente las fuerzas ac -\n\ntuando sobre objetos y representarlas mediante diagramas de cuerpo libre.\n\n• Resolver problemas empleando las leyes del movimiento de Newton.\n\n• Reconocer el torque como la causa del equilibrio\n\nrotacional.\n\n• Resolver problemas acerca del movimiento rectilíneo y parabólico empleando interpretación de gráficas.\n\n• Calcular magnitudes cinemáticas del movimiento\n\ncircular uniforme a partir de resultados experi - mentales.\n\n• Interpretar el cambio de momento lineal a través\n\nde la experimentación.\n\n• Calcular el momento lineal total.\n\nMecánica Eje integrador: interacciones\n\nUnidad 1\n\nDuración: 5 semanas Puerto de Acajutla, departamento de Sonsonate, El Salvador En esta unidad aprenderemos a:",
+      "charCount": 973
+    },
+    {
+      "pageNumber": 7,
+      "text": "6 Indagación\n\nA. Características de un instrumento de medición\n\n1. Llena el siguiente cuadro con la información solicitada.\n\n2. Evalúa si los dispositivos anteriores cumplen con las características de un instrumento de medición. Si cumple con la característica coloca SÍ. Si no cumple, coloca NO.\n\np.\n\n11 Instrumentos de medición Descripción ¿Es un instrumento de medición?\n\nDescripción ¿Es un instrumento de medición?\n\nBalanza de brazos casera Termoscopio Unidad de medida asociada Apreciación Rango Precisión Exactitud Característica del instrumento de medición Balanza de brazos casera Termoscopio Creatividad\n\nB. Construyendo y calibrando un dinamómetro\n\nParte I. Construcción del dinamómetro\n\na. El dinamómetro nos permitirá medir fuerzas, es decir, pesos. ¿Cuál es la diferencia entre masa y peso?\n\nb. ¿Recuerdas las unidades de medida de la fuerza? ¿Es una unidad básica o derivada? Si es derivada, escríbela en términos de las unidades básicas del SI. p. 12",
+      "charCount": 965
+    },
+    {
+      "pageNumber": 8,
+      "text": "Unidad 1\n\n7Semana 1 Parte II. Calibración del dinamómetro\n\n1. Registra la masa de las 10 monedas y coloca los datos en la siguiente tabla: Parte III. Graduación del dinamómetro\n\n2. Si la graduación del dinamómetro es en decimas de Newton, F = 0.1 N, también puede ser en centésimas, por lo que F = 0.01 N. Según sea la k encontrada, valora en cuál sería más conveniente hacer la graduación. x kF==\n\n3. Haz el cálculo del peso y registra la medición del nuevo objeto en la siguiente tabla:\n\na. Completa la siguiente tabla con lo que se te solicita en los numerales desde el 2 al 4: 1 2 3 4 5 6 7 8 9 10\n\na. Balanza: Fg = mg = b. Dinamómetro: F =\n\n1 2 3 4 5 6 7 8 9 10 No. Moneda m (g) Moneda m (kg) Fg (N) x (cm) x (m)\n\n5. Calcula la pendiente.\n\na xxFF2121gg= -- a = Analiza y responde:\n\nb. ¿A qué corresponde la pendiente\n\ncalculada?\n\nc. Entre «mayor» ha sido el alarga -\n\nmiento de la goma elástica, ¿cómo ha sido el peso colgado de ella?\n\np.\n\n13\n\nc. ¿Las mediciones son casi iguales o difieren entre sí?\n\nd. Si difieren mucho, ¿a qué crees que se deba esa diferencia?\n\ne. ¿Cuál de las dos medidas es directa y cuál es indirecta?\n\nf. Describe con tus palabras qué es una medida directa y una indirecta: p.\n\n13",
+      "charCount": 1210
+    },
+    {
+      "pageNumber": 9,
+      "text": "8 Comunicación\n\nC. Calculando el área bajo la curva en una gráfica\n\n2. Calcula la pendiente de la gráfica rapidez-tiempo e interpreta el resultado. Parte IV. Proporcionalidad directa e inversa\n\n1. Gráfico de peso contra masa 2. Gráfico de rapidez contra tiempo\n\n3. Responde las preguntas respecto a las tres gráficas mostradas en el Libro de Texto:\n\na. ¿Cómo es la pendiente en los tres casos?\n\nb. Para cada gráfica, según tu respuesta anterior, explica cómo es el movimiento del objeto. Gráfico posición-tiempo:\n\nGráfico rapidez-tiempo:\n\nGráfico aceleración-tiempo:\n\nc. Para los gráficos de rapidez-tiempo y aceleración-tiempo, calcula el área bajo la recta e interpreta el resultado. Gráfica rapidez-tiempo:\n\nGráfica aceleración-tiempo:\n\na xxyy ttvv2121 2121= -- = -- =\n\na. Calcula la pendiente:\n\na mmFF2121= -- =\n\nb. Analiza y responde: ¿A qué corresponde la pendiente calculada?\n\nc. Entre mayor es la masa del objeto, ¿cómo es el\n\npeso?\n\nd. Cuanto mayor es la rapidez, ¿cómo es el tiem -\n\npo?\n\ne. Si comparas con la situación de al lado, ¿qué diferencia observas sobre el comportamiento de las variables?\n\np.\n\n16",
+      "charCount": 1116
+    },
+    {
+      "pageNumber": 10,
+      "text": "Unidad 1\n\n9 Indagación Responde:\n\nc. ¿Qué ángulo hay entre la pared o superficie vertical y la mesa o superficie horizontal? °.\n\nd. ¿Qué representa la línea dibujada sobre el plano horizontal?\n\ne. ¿Qué representa la línea dibujada sobre el plano vertical?\n\nf. ¿En qué plano se ubicaría el lápiz? ¿Qué plano sería el plano cartesiano? Explica:\n\nSemana 2\n\nVectores\n\nA. Componentes rectangulares de un vector\n\nB. Medidas directas e indirectas de la dirección de un vector\n\na Ten presente que el ángulo medido con el transportador es el ángulo del lápiz con respecto a la horizontal. Anota las mediciones:\n\nLongitud del lápiz: cm Marca vertical: cm Ángulo: ° Marca horizontal: cm\n\nb. Traslada las mediciones que realizaste en el numeral anterior a la tabla y termina de completarla. Vamos a obtener medidas indirectas del ángulo α medido anteriormente de forma directa. a Traslada las mediciones realizadas anterior - mente reconociendo su naturaleza vectorial para llenar la primera y la segunda columna de la izquierda. Aplica la ecuación utilizada en el ejemplo mostrado en el Libro de Texto y haciendo uso de la calculadora científica para llenar la tercera columna de la tabla.\n\nc. Compara las medidas directa e indirecta de α y de las medidas de Ax y Ay. ¿Son valores parecidos? .\n\nb. Con las medidas directas de α (en la tabla su -\n\nperior) y la magnitud de A , aplica las ecua - ciones que se usaron en el ejemplo mostrado en el Libro de Texto para obtener medidas in - directas de Ax y Ay y completar la tabla de la derecha.\n\n1 cm cm ° 2 cm cm ° 3 cm cm ° 4 cm cm ° ° ° ° ° Marcas verticales Valores de Y Marcas horizontales:Valores de X Ángulo α Medida indirecta de α Ax (cm) Ay (cm) Medida indirecta de α Medidas indirectas de las componentes rectangulares de A Ax (cm) Ay (cm)\n\np.\n\n17\n\np.\n\n18",
+      "charCount": 1800
+    },
+    {
+      "pageNumber": 11,
+      "text": "Creatividad 10\n\nC. Sumando y restando vectores por el método gráfico\n\nParte I. Suma de vectores por el método gráfico.\n\na. Sistemas de coordenadas a escala:\n\nSistema A Sistema B\n\nb. Dibuja a escala los vectores como se te indica en el sistema A; procura ser preciso para hacerlo. Puedes utilizar un color para las componentes y otro para el vector resultante.\n\nc. Dibuja los vectores paralelos como líneas punteadas.\n\nd. Con base en lo realizado, analiza y responde lo siguiente:\n\n• Mide con la regla el vector resultante dibujado en el sistema A y en el sistema B. Anota sus valores en cm, aplicando la escala que hayas elegido.\n\n• ¿Cómo es la magnitud del vector resultante dibujado en el sistema A respecto del B?\n\n• En el Libro de Texto partimos del ejemplo que consideraba A = 12 cm. ¿Los valores medidos coinciden con este valor?\n\n• Escribe vectorialmente a qué es igual la suma de un vector según el ejemplo desarrollado. No olvides incluir las direcciones de las componentes rectangulares.\n\nAA Axy=+ =\n\n• ¿La dirección del vector en el sistema A es la misma que para el sistema B? Mídela con un transportador . Sistema A: A = Sistema B: A = Si hubiésemos sumado algebraicamente las componentes habríamos encontrado: A = (5.8 + 10.5) cm = 16.3 cm.\n\n• Observa la imagen y compara con los gráficos realizados en el numeral 2\n\n¿Coincide el resultado de la suma de las componentes como vectores con el resultado de la suma tomándolos como escalares?\n\n• ¿Qué conclusión obtienes respecto de la suma escalar y la suma vectorial?\n\np.\n\n19 10 10\n\n16.3 cm\n\n61° A A",
+      "charCount": 1561
+    },
+    {
+      "pageNumber": 12,
+      "text": "Unidad 1\n\n11 Parte II. Suma de tres vectores\n\n1. Dibuja los vectores de los desplazamientos por separado, a escala, tanto para los Ejercicios 1 y 2.\n\n2. Para encontrar la distancia y la dirección en las que\n\nel caminante está con respecto al punto de partida, ¿qué operación debe hacerse con los vectores? Escribe la expresión matemática:\n\n• Para el Ejercicio 1, en el numeral 1 identifica y\n\nmide las componentes de los vectores:\n\nA⃗ x A⃗ y B⃗ x B⃗ y C⃗ x C⃗ y\n\n• Suma algebraicamente las componentes en x y\n\nlas compenetres en y:\n\nA⃗ x + B⃗ x + C⃗ x = A⃗ y + B⃗ y + C⃗ y =\n\n• Aplica el método del polígono. Mide la longitud\n\ndel vector resultante ⃗D y su dirección.\n\n| ⃗D| = km i = °\n\n3. Para el Ejercicio 2, ¿en qué difiere la expresión matemática de la suma vectorial? Escríbela:\n\n• En el numeral 1, identifica y mide las componentes rectangulares de los 3 vectores: A⃗ x A⃗ y B⃗ x B⃗ y C⃗ x C⃗ y\n\n• Suma algebraicamente las componentes en x y\n\nlas compenetres en y:\n\nA⃗ x + B⃗ x + C⃗ x = A⃗ y + B⃗ y + C⃗ y =\n\n• En los ejercicios 1 y 2, dibuja con otro color las componentes rectangulares de ⃗D. Mídelas y regístralas: Ejercicio 1. D⃗ x D⃗ y Ejercicio 2. D⃗ x D⃗ y A⃗ B⃗ C⃗ Ej. 1 Ej. 1 Ej. 1Ej. 2 Ej. 2 Ej. 2 No te olvides de etiquetar los vectores.\n\nEjercicio 1 Gráfico de ⃗D = A⃗ + B⃗ + C⃗ Gráfico de ⃗D = −A⃗ + B⃗ + C⃗ Gráfico de ⃗D Gráfico de ⃗D Ejercicio 2\n\nSemana 2\n\n• Aplica el método del polígono y mide:\n\n| ⃗D| = km θ= °",
+      "charCount": 1434
+    },
+    {
+      "pageNumber": 13,
+      "text": "12 Comunicación\n\nE. ¿Cuál es el DCL correcto?\n\nD. Aplicación de fuerzas: diagramas de cuerpo libre\n\n4. Resuelve:\n\na. ¿En qué situación fue más fácil mover la taza, en la primera o en la segunda?\n\nb. En la tercera situación, ¿qué pasa si aplicas demasiada fuerza en el hilo vertical?\n\nc. En cuanto a la facilidad para deslizar la taza, ¿qué percibiste en el segunda y en la tercera situación? Analiza todos los DCL e identifica a cuál ejemplo de los mostrados en el Libro de Texto representa. Recuerda que debes ubicarte en el cuerpo e identificar con qué otros cuerpos interactúa y cómo.\n\n6. Completa la tabla escribiendo el nombre del «objeto» que está realizando la fuerza:\n\np.\n\n21 Situación: Primera: Un hilo horizontal Segunda: Un hilo inclinado Tercera: 2 hilos, uno horizontal y uno vertical Descripción:\n\nFuerza normal Fuerza de fricción Fuerza de tensión Peso Sobre Carlos sentado, ejerce una fuerza perpendicular hacia él.\n\nSobre Luis deslizándose, ejerce una fuerza paralela a él, en dirección contraria al movimiento.\n\nSobre Irene colgada, ejerce una fuerza en dirección contraria al tirón que ella le da.\n\nSobre la bola, Irene y la silla, ejerce una fuerza de atracción.\n\nd. DCL e. DCL de la taza halada en 2, 3 y 42 3 4\n\nF\" g F\" g F\" N F\" f F\" g F\" T F\" g F\" f F\" N F\" T F\" g F\" T F\"\n\nF\" N F\" f F\" g\n\np.\n\n22",
+      "charCount": 1320
+    },
+    {
+      "pageNumber": 14,
+      "text": "Unidad 1\n\n13 Indagación Movimiento en una y dos dimensiones\n\nA. ¿La fuerza causa el movimiento?\n\nParte I. Plano inclinado\n\n8. Completa la tabla con las distancias medidas sobre la superficie horizontal y luego desarrolla: Parte II. Movimiento horizontal y vertical\n\na. Mide las masas de los objetos y calcula el peso: Fg = mg. Toma el valor de g = 9.8 m/s2. Describe el movimiento del vaso sobre la mesa al ir incrementando las monedas.\n\nb. Cuanto mayor es la fuerza aplicada sobre un objeto, ¿la aceleracion es mayor o menor?\n\nc. Si la masa de un objeto al que se le aplica una fuerza, aumenta, ¿cómo es la aceleracion?\n\na. ¿En cuál superficie la moneda llega más lejos? ¿A qué crees que se deba?\n\nb. Mientras la moneda va en movimiento, ¿qué fuerzas actúan sobre ella?\n\nc. ¿Cómo podríamos lograr que la moneda llegue a una distancia más lejana?\n\nd. Si no hubiese fricción y sin ningún obstáculo, ¿cómo sería su movimiento de la moneda?\n\ne. Dibuja un diagrama de cuerpo libre para la moneda sobre la mesa.\n\nPeso de equilibrio Peso de 2 monedas Peso de 3 monedas\n\np.\n\n23\n\nSemana 3\n\nSuperficie de distinta rugosidad Distancia a la que llega la moneda en cm Material de la regla:\n\nTela Papel Objetos en la canasta Masa (g) Peso (N) ¿Cómo es el movimiento del vaso sobre la mesa a medida que se van agregando las monedas? Peso de equilibrio Peso de 2 monedas Peso de 3 monedas Pesode 4 monedas Objetos en el vaso sobre la mesa Masa (g) ¿Cómo es el movimiento del vaso sobre la mesa?",
+      "charCount": 1479
+    },
+    {
+      "pageNumber": 15,
+      "text": "Creatividad 14 ¿Cuánto tendría que valer la fuerza de fricción para que la caja no pudiese ser arrastrada?\n\nCompleta la siguiente frase: Si la caja no es arrastrada su aceleración en x es:\n\nSi la caja está en equilibrio vertical y horizontal, ¿a qué es igual la fuerza neta?\n\n∑F\" x = ∑F\" y = Con base en el DCL mostrado, determina las componentes de la fuerza neta en x: ∑F\" x = Identifica la incógnita y despéjala:\n\nB. Aplicando las leyes de Newton\n\n2. El peso de la caja es igual a 4.0 N, la fuerza normal es igual a 1.0 N\n\n3. El peso de la caja es igual a 4.0 N, la fuerza normal es igual a 4.0 N y existe una fuerza de fricción de 1.0 N. Datos conocidos:\n\nF\" g = −4.0 N � ̂ F\" 5 = 4.0 N � ̂ F\" N = 1.0 N � ̂ F\" 6 = 2.0 N î Utilizando los datos conocidos, realiza el DCL:\n\nF\" 1 = 2.0 N î F\" N = 4.0 N � ̂ F\" 2 = 4.0 N î F\" f = −1.0 N î F\" g = −4.0 N � ̂ Utilizando los datos conocidos, realiza el DCL:\n\nF\" 3 = −2.0 N î F\" N = 4.0 N � ̂ F\" 4 = 4.0 N î F\" f = −1.0 N î F\" g = −4.0 N � ̂\n\np.\n\n25 FN F6 F5 Ff Fg + y + x F\" 5 F\" R F\" 6 F\" 1 F\" R F\" 2 F\" 3 F\" 4 F\" R Situación 3 y DCL Partícula en equilibrio horizontal Situaciones 1 y 2 y DCL Partícula acelerada ¿Cuál es la aceleración de la caja?\n\nCalcula las componentes de la fuerza neta:\n\n∑F\" x = ∑F\" x = Obtén la fuerza neta gráficamente:\n\nCalcula la masa de la caja y su aceleración:\n\n¿Cuál es la aceleración de la caja?\n\nCalcula las componentes de la fuerza neta:\n\n∑F\" x = ∑F\" y = Obtén la fuerza neta gráficamente:\n\nCalcula la masa de la caja y su aceleración:\n\nF1 FN Fg Ff F2 + y + x\n\nFN F3 F4Ff Fg + y + x",
+      "charCount": 1564
+    },
+    {
+      "pageNumber": 16,
+      "text": "Unidad 1\n\n15\n\nC. Dinámica del movimiento rectilíneo uniforme\n\nD. Movimiento parabólico\n\nParte I. Movimiento de una gota de agua en aceite Parte III. Movimiento de dos bloques\n\na. La gota de agua interactúa con:  .\n\nb. Fuerzas que actúan sobre la gota de agua:  .\n\nd. ¿Cómo tendrían que ser entre sí las fuerzas actuando sobre la gota?\n\nParte II. Analizando las gráficas del movimiento de la gota de agua\n\na. ¿Qué tienen en común los gráficos de velocidad contra tiempo?\n\n.\n\nb. ¿Cuál es la rapidez de la gota en cada gráfica?\n\nEn reposo:  . En movimiento:  .\n\nd. ¿Cómo es la aceleración de la gota? Dibuja un gráfico de aceleración\n\ncontra tiempo.  .\n\na. Con base en los DCL mostrados, escribe a qué es igual la fuerza neta en cada bloque y responde:\n\nb. ¿Cómo se encuentra la velocidad de un objeto a partir de un gráfico\n\nde posición contra tiempo?\n\n¿Recuerdas a qué es igual la pendiente de una recta? Si no lo recuerdas, revisa la lección 1 y realiza el cálculo de la velocidad en cm/s. Cálculo de la pendiente:  .\n\nBloque 1 ∑F\" x = ∑F\" y = ∑F\" = Bloque 2 ∑F\" x = ∑F\" y = ∑F\" = ¿Cuál es el estado de movimiento del bloque en X?\n\n.\n\n¿Cuál es el estado de movimiento del bloque en Y?\n\n.\n\n¿Cuál es el estado de movimiento del bloque en X?\n\n.\n\n¿Cuál es el estado de movimiento del bloque en Y?\n\n.\n\nFT Fg2 + y + x FN FTF1 Fg1 + y + x\n\na (m/s2) a (m/s2)\n\n0.4\n\n0.3\n\n0.2\n\n0.1\n\n0 1 2 3 4 5 t (s)\n\n0.4\n\n0.3\n\n0.2\n\n0.1\n\n0 1 2 3 4 5 t (s)\n\nFf Fg + y + x\n\nc. Diagrama de cuerpo libre:\n\nÁngulo α (°) Distancia vertical (cm) Distancia horizontal (cm) Promedio\n\na. Registra las mediciones realizadas.\n\nv (cm/s) 4 3 2 1 0 1 2 3 4 5 t (s) v (cm/s) 4 3 2 1 0 1 2 3 4 5 t (s)",
+      "charCount": 1657
+    },
+    {
+      "pageNumber": 17,
+      "text": "Comunicación 16\n\nE. Cinemática y dinámica del tiro parabólico\n\na. Determina el ángulo inicial γ utilizando el ángulo α de la catapulta.\n\nLa línea perpendicular a la línea punteada forma un ángulo con ella que tiene el valor de: . Con base en la respuesta anterior, determina a qué es igual c + a = .\n\nToma el valor medido de α en la actividad D y determina el ángulo inicial: .\n\nc. A partir del gráfico de la trayectoria parabólica del proyectil mostrada en el Libro de Texto y basándote en los DCL anteriores, completa la tabla:\n\nd. Completa la tabla colocando la ley de Newton que describe los siguientes ejemplos: Fg +x +y+y +x FN Ff Fg\n\nb. Antes de que el proyectil\n\nsalga disparado, este se encuentra apoyado sobre la cuchara. Luego presionamos la catapulta y este sale. Si no consideramos la resistencia del aire, dibuja un DCL en cada momento y describe su estado de movimiento.\n\nDCL: Proyectil sobre la cuchara DCL: Proyectil en el aire Dificultad Respuesta Despreciando la resistencia del aire durante el vuelo, ¿a qué es igual la fuerza neta en x sobre el proyectil?\n\nCon base en tu respuesta anterior, ¿a qué es igual la aceleración en x del proyectil?\n\nCon base en tu respuesta anterior, ¿cómo es la velocidad en x del proyectil?\n\nConsiderando la aceleración de la gravedad constante durante el vuelo, ¿a qué es igual la fuerza neta en y sobre el proyectil? ¿Es una fuerza resultante constante o variable?\n\nCon base en tu respuesta anterior, la aceleración en y del proyectil ¿es constante o variable? Ejemplo Ley de Newton Mientras el proyectil está apoyado sobre la cuchara, la cuchara ejerce una fuerza normal sobre el proyectil que es de igual magnitud a la fuerza que el proyectil ejerce sobre la cuchara.\n\nDurante el vuelo, el proyectil se mueve con una aceleración constante debido a la fuerza que la Tierra ejerce sobre él.\n\nMientras no se presiona la catapulta, el proyectil permanece quieto sobre la cuchara.",
+      "charCount": 1930
+    },
+    {
+      "pageNumber": 18,
+      "text": "17 Indagación Unidad 1 Movimiento de rotación\n\nA. Explorando el equilibrio en el movimiento rotacional\n\nParte I. Experimentando el torque\n\n1. Masa de las monedas: m = kg Peso de las monedas: F\" g = mg = N\n\n5. Registros y preguntas:\n\nParte II. Experimentando el equilibrio rotacional Parte III. Experimentando torques efectivos\n\n4. Resuelve:\n\na. Para las situaciones del paso 2, dibuja y etiqueta la fuerza aplicada F\" y su línea de acción, brazo de palanca d, y sentido de giro de la regla.\n\n4. Desarrolla:\n\na. Dibuja y etiqueta sobre las imágenes la fuerza\n\naplicada a cada manija y el sentido de giro.\n\nb. ¿Cómo es más fácil girar la llave?\n\nc. ¿Cómo sería más fácil girar la llave?\n\nc. Equilibra la regla utilizando cantidades diferentes de monedas en sus lados. Luego, completa la tabla:\n\nb. Para el paso 3, dibuja y etiqueta las fuerzas aplicadas F\" y el sentido de giro de la regla debido al torque por cada fuerza.\n\na. Para las tres situaciones, ¿cómo se comporta el torque?\n\n¿En qué sentido tiende a girar la regla?\n\nb. Recordando que: Torque = Fuerza × Brazo de palanca, calcúlalo para cada caso y colócala en la última columna de la tabla. p.\n\n29\n\np.\n\n29\n\nSemana 4\n\nGiro horario Giro antihorario Giro: Giro:\n\nF F d d /gid00041/gid00078/gid00081/gid00064/gid00081/gid00072/gid00078/gid00034/gid00077/gid00083/gid00072/gid00071/gid00078/gid00081/gid00064/gid00081/gid00072/gid00078 /gid00045/gid00173/gid00077/gid00068/gid00064/gid00045/gid00173/gid00077/gid00068/gid00064/gid00067/gid00068 /gid00064/gid00066/gid00066/gid00072/gid00178/gid00077 Giro Giro F F Posición Distancia mano-monedas Descripción de lo experimentado en cada situación Torque (Nm) Cerca de la mano m En medio m En el otro extremo m Situación Peso del lado izquierdo Distancia al centro Peso del lado derecho Distancia al centro Equilibrio N m N m",
+      "charCount": 1827
+    },
+    {
+      "pageNumber": 19,
+      "text": "Creatividad 18\n\nB. Calculando el torque resultante\n\nParte I. Resultados de la parte II de la actividad A\n\na. Registro. Recuerda que para calcular el peso debes usar F\" g = mg\" , considera g = 9.8 m⁄s2 y la masa debe estar en kilogramos. También recuerda que el brazo de palanca es la distancia desde donde se colocó el peso hasta el pivote y que para considerar la dirección del torque debes colocar el vector unitario (î, � ̂ ó k ̂) y el signo (+ o −) según el sentido de giro.\n\nParte II. Resultados de la parte III de la actividad A\n\n2. Desarrolla:\n\na. Considerando el sentido del giro de la llave, si esta se encontrara en un plano XY, marca la dirección del torque correcta en la imagen de la izquierda.\n\nb. Completa la tabla para calcular el torque neto.\n\nb. Con los datos de τ\"1 y τ\"2 , calcula el torque neto: ∑ τ\" = τ\"1 + τ\"2 = Nm\n\nc. Repite el cálculo anterior para la situación experimentada en el literal a de la parte II de la actividad A. Cálculo del torque neto: ∑ τ\" = τ\"1 + τ\"2 = Nm\n\nd. Responde:\n\nExplica cuáles de las situaciones anteriores representan el equilibrio rotacional ¿Cómo se explica que a pesar de tener brazos de palanca distintos de cada peso colocado el torque neto sea cero?\n\np.\n\n31 î ĵ + +^k ^k ^k ^k Situación: Fuerza en… Peso: Fg Brazo de palanca d Cálculo de τ = (F)(d) τ\"\n\nExtremo izquierdo N m Nm τ\" = Nm Extremo derecho N m Nm τ\" = Nm Extremo izquierdo N m Nm τ\"1 = Nm Extremo derecho N m Nm τ\"2 = Nm Situación: Fuerza en… Fg Brazo de palanca d Cálculo de τ = (F)(d) τ\"\n\nExtremo izquierdo N m Nm τ\"1 = Nm Extremo derecho N m Nm τ\"2 = Nm Brazo de palanca d Cálculo de τ\" Cálculo de ∑ τ\"\n\nA d = m τ\" = Nm ∑ τ\" = Nm B d1 = m d2 = m τ\"1 = Nm τ\"2 = Nm ∑ τ\" = Nm C d1 = m d2 = m τ\"1 = Nm τ\"2 = Nm ∑ τ\" = Nm p.32",
+      "charCount": 1746
+    },
+    {
+      "pageNumber": 20,
+      "text": "19 Unidad 1Unidad 1 Comunicación\n\nC. Cinemática y dinámica del movimiento circular\n\nD. Calculando magnitudes de la cinemática y dinámica del movimiento circular\n\na. ¿Qué tipo de movimiento adquiere la manzana cuando no gira la pelota?\n\nb. ¿Qué fuerza actúa sobre la manzana en la situación anterior?\n\nc. Describe el movimiento de la manzana cuando pones a girar la pelota:\n\nd. ¿A qué que se debe lo que observaste anteriormente?\n\ne. Con base en lo experimentado en los numerales 7 y 8, completa la tabla. Encuentra el promedio sumando los tres tiempos y dividiéndolos por 3: tprom = (t1 + t2 + t3)/3\n\n2. Calcula ω, v y ac para completar la tabla.\n\nf. Si tenemos el tiempo que tarda la pelota en dar 10 vueltas, ¿Cómo podríamos hallar el tiempo que le tomará dar una vuelta (llamado período T)?\n\ng. Conociendo el tiempo que le toma a la pelota dar una vuelta, es decir, recorrer una distancia igual al perímetro de la circunferencia L = 2πr, si la rapidez es constante, ¿cómo podríamos calcularla?\n\nh. Completa la tabla usando el tiempo promedio de la tabla del literal e para luego calcular T y v.\n\np.\n\n33\n\nSemana 4\n\nTiempo (s) Radio (m) Repetición 1 Repetición 2 Repetición 3 Promedio\n\n0.2\n\n0.4\n\n0.6\n\nPelota Radio Tiempo promedio Período Rapidez lineal m (kg) r (m) tprom (s) T (s) v (m/s) m (kg) r (m) tprom (s) T (s) v (m/s)\n\n0.2\n\n0.4\n\n0.6\n\nm (kg) r (m) tprom (s) v (m/s) ω (rad/s) ac (m/s2) Fc (N)\n\n0.2\n\n0.4\n\n0.6\n\nManzana: m = kg Peso Fg = N Pelota: m = kg Peso Fg = N",
+      "charCount": 1472
+    },
+    {
+      "pageNumber": 21,
+      "text": "20 Indagación\n\nA. Comprobando el cambio del momento lineal\n\nParte I. Experimento\n\na. Al golpear cada vez más fuerte las canicas, ¿cuál de ellas incrementaba su rapidez con mayor facilidad?\n\nb. ¿Cuál de las dos canicas requirió una menor fuerza para conseguir derribar la pared de papel?\n\nc. Si ambas canicas fueran impulsadas con la misma fuerza y golpearan la pared a una misma velocidad, apenas suficiente para que una de ellas derribara la pared, ¿cuál de las dos conseguiría derribarla?\n\nd. En las diferentes pruebas para una misma canica (cualquiera) se fue aumentando la fuerza hasta conseguir derribar la pared. ¿Cómo varió la velocidad de la canica al golpear la pared tras cada intento?\n\ne. Llamando «velocidad final» a la velocidad cuando\n\nla canica golpea a la pared, si ambas canicas son impulsadas con la misma fuerza, ¿cómo es la ve - locidad final de la canica pequeña en comparación con la velocidad final de la canica grande cuando derriban la pared?\n\nf. Dibuja los vectores de velocidad final para cada\n\nsituación del esquema de la derecha y analiza el cambio de velocidad cuando se comparan entre sí.\n\nd. Etiqueta las masas y dibuja los vectores de velocidad del ciclista y del carro antes del choque sobre el esquema de la derecha.\n\ne. ¿Quién tiene mayor p\"?\n\nf. Para que el ciclista tenga el mismo p\" que el carro, ¿qué tendría que pasar con su velocidad?\n\ng. Si al inicio parten del reposo, ¿a cuánto es igual p\", de cada móvil? .\n\nParte II. Caso hipotético\n\na. ¿Cuál móvil tiene mayor masa, el carro o la bici -\n\ncleta? . Esta será la masa M.\n\nb. ¿Cuál móvil tiene menor masa, el carro o la bici -\n\ncleta? . Esta será la masa m.\n\nc. ¿A cuál de los dos será más fácil detener?\n\nMomento lineal Bicicleta Vectores de velocidad inicial Carro vi v= Masas de los móviles m M vf v= v==v vf vi– vi 0= vf Canica pequeña Canica grande Vector de : vfVector de :\n\nm M Inicio final vf v=vi 0= Inicio final ∇ vf v= v==v vf vi– vi 0= Inicio final ∇ vf v= v==v vf vi– vi 0= Inicio final ∇ v==v vf vi–∇ ¿Cómo es el cambio de velocidad, mayor o menor?\n\n¿Cómo es el cambio de velocidad, mayor o menor?\n\np.\n\n36",
+      "charCount": 2113
+    },
+    {
+      "pageNumber": 22,
+      "text": "Creatividad 21 Unidad 1\n\nB. Experimentando la relación entre impulso y momento lineal\n\nParte I. Experimenta\n\n3. Responde:\n\na. ¿En cuál situación percibes que el tiempo de con -\n\ntacto (entre la pelota y la mano/raqueta) es mayor?\n\nb. ¿En cuál situación percibes que la pelota adquiere\n\nuna rapidez mayor?\n\nc. Según tu respuesta anterior, dibuja el vector de\n\n«fuerza sobre la pelota» F\" 1 (menor) y F\" 2 (mayor) en cada situación y etiquétalas.\n\nParte II. Calcula\n\n1. De forma similar a lo explicado en la sección Así se calcula…, haz un dibujo que represente la colisión entre la mano-raqueta y la pelota para identificar las variables «Durante» y «Después» de la colisión Considerando los valores de la masa de la pelota m = 0.10 kg y el tiempo de contacto t, plantea cómo utilizar las ecuaciones p\" = mv\" , J\" = F\" t y J\" = ∆p\" = p\"f − p\"i y calcula.\n\n¿Cómo es la fuerza requerida para producir un cambio de momento lineal durante un tiempo prolongado y para otro corto?\n\na. Pelota lanzada por la mano\n\nDurante Después\n\nb. Pelota lanzada por la raqueta\n\nDurante Después v\" i = Parte del reposo v\" f = Está en movimiento v\" i = Parte del reposo v\" f = Está en movimiento\n\na. Pelota lanzada por la mano: t = 0.05 s\n\nImpulso Fuerza\n\nb. Pelota lanzada por la raqueta: t = 0.01 s\n\nImpulso Fuerza\n\nSemana 5",
+      "charCount": 1303
+    },
+    {
+      "pageNumber": 23,
+      "text": "22 Comunicación Parte III. Analiza\n\na. Para aumentar el momento lineal de un objeto, la fuerza aplicada y el tiempo de contacto deben ser:\n\nb. Para un mismo impulso en un choque, para que la fuerza de impacto sea pequeña, el tiempo de contacto debe:\n\nc. Para un mismo impulso en un choque, para que el cambio en el momento lineal ocurra durante un tiempo corto, la fuerza de impacto tiene que:\n\nd. El impulso es igual al momento lineal cuando:\n\nC. Demostrando el principio de conservación del momento lineal\n\nRepresenta los vectores de velocidad «Antes» y «Después» del choque.\n\na. Considerando m1 = m2 = 1.00 kg, calcula el momento lineal total mediante la ecuación (1.13)\n\nb. Dibuja los vectores de v\" y considera m1 = 1.00 kg y m2 = 3.00 kg para calcular p\"tot\n\nc. Dibuja los vectores de v\" y considera m1 = 1.00 kg y m2 = 1.00 kg para calcular p\"tot ¿Cómo es el momento total antes del choque y después del choque del sistema?\n\n¿Qué cambia en el movimiento del choque inelástico con el elástico?\n\n1 2 1 2 1 2 1 2 1 2 1 2 Antes Después Antes Después Antes Después v1−i = 1.00 m/s y v2−i = 0.00 m/s v\"1−f = y v\"2−f = p\"tot−i = m1v\"1−i + m2v\"2−i p\"tot−f = m1v\"1−f + m2v\"2−f v1−i = 1.00 m/s y v2−i = 0.00 m/s v\"1−f = y v\"2−f = p\"tot−i = m1v\"1−i + m2v\"2−i p\"tot−f = m1v\"1−f + m2v\"2−f v1−i = 1.00 m/s y v2−i = 0.00 m/s v\"1−f = y v\"2−f = p\"tot−i = m1v\"1−i + m2v\"2−i p\"tot−f = m1v\"1−f + m2v\"2−f \" + x \" + x \" + x",
+      "charCount": 1408
+    },
+    {
+      "pageNumber": 24,
+      "text": "23 Evaluación Resuelve las siguientes situaciones según lo indicado.\n\n1. Se ha construido un dinamómetro que puedes observar en la figura de\n\nla derecha.\n\na. Observa su escala de medida e identifica para completar lo siguiente:\n\nUnidad de medida: Apreciación: Rango:\n\nb. ¿Cuánto pesa el objeto en forma cilíndrica?\n\nc. ¿Qué tipo de medida se realiza?\n\nd. ¿Cómo obtendrías la masa del objeto conociendo su peso?\n\nLa puedo obtener\n\ne. Calcula la masa del objeto a partir del peso (considera g = 9.8 m/s2)\n\n2. Considerando que x: posición, v: velocidad, a:\n\naceleración y t: tiempo, analiza y responde:\n\na. ¿Qué representa …?\n\nLa pendiente de la gráfica A:\n\nLa pendiente de la gráfica C:\n\nEl área de la gráfica B:\n\nEl área de la gráfica F:\n\nb. ¿Qué gráficas describen velocidad constante?\n\n3. Observa el vector A\" y mide directamente:\n\na. Magnitud y dirección del vector A\"\n\n|A\"| = cm θ = °\n\nb. Dibuja las componentes vectoriales y mídelas:\n\n|A\"x| = cm |A\"y| = cm\n\nc. Escribe una expresión para A\" en términos de\n\nA\"x y A\"y en el espacio abajo del dibujo.\n\nd. Gráficamente, encuentra el vector resultante\n\nR\" si R\" = −A\"x + A\"y. Mide su magnitud y dirección: |A\"| = cm θ = °\n\n4. Observa la situación presentada. Si existe la fuerza, está actuando sobre el objeto; pon una X. Dibuja el diagrama de cuerpo libre.\n\nD E Fa a t t t a A B Cv v t t t x A\"\n\nA\" = A\"x + A\"y A\" = R\" = −A\"x + A\"y R\" = DCL Fuerza Notación ¿Existe?\n\nNormal F\" N Fricción F\" f x Tensión F\" N Peso F\" g",
+      "charCount": 1468
+    },
+    {
+      "pageNumber": 25,
+      "text": "24\n\n5. El peso de la caja anterior es de 100 N. Luis la está halando con\n\nuna fuerza de 50 N, pero no consigue moverla. La caja es muy pesada y hay mucha fricción entre la caja y el suelo. ¿A cuánto es igual la magnitud de la fuerza de fricción?\n\n9. Para la situación mostrada de los niños en el sube y baja, subraya la palabra correcta de las opciones en cada afirmación.\n\na. La magnitud de cada torque resulta ser igual/diferente/cero.\n\nb. El sentido de giro de cada torque es igual/opuesto.\n\nc. El torque neto es mayor/menor/igual a cero y por tanto sí/no hay\n\nrotación.\n\n10. Estás en una plataforma giratoria. Te paras a medio camino entre el eje de rotación y la orilla, mientras tus amigos están en la orilla. En com - paración contigo, subraya la palabra correcta de las opciones en cada afirmación:\n\na. La rapidez angular de mi amigo es mayor/igual/menor .\n\nb. La rapidez tangencial de mi amigo es mayor/igual/menor .\n\n11. Supón que la bola 1 de 1 kg choca con la bola 2 de 2 kg en reposo, moviéndose juntas con una velocidad de 3 m/s. ¿Qué rapidez llevaba la bola 1?\n\n6. Para que la caja se mueva con una aceleración constante de 3\n\nm/s2, ¿cuál debería ser la fuerza que el hombre le aplique?\n\n8. Según el movimiento parabólico de la derecha:\n\na. Observa los vectores y pon la letra de la gráfica\n\nanterior (B, E y F) que corresponda a:\n\nMovimiento horizontal Movimiento vertical\n\nb. Cuando el proyectil sube, su velocidad:\n\nc. Cuando el proyectil baja, su velocidad:\n\n7. Pon la letra de la gráfica que cumple con un:\n\nCaso de velocidad constante Caso de aceleración constante Caso de partícula en equilibrio\n\n3 m 500 N 250 N\n\n1.5 m\n\nB E Fa a t t t v\n\nCálculo:\n\nRespuesta |F\"r| = Respuesta |T\"| = Cálculo:\n\nv\" 1 − i",
+      "charCount": 1724
+    },
+    {
+      "pageNumber": 26,
+      "text": "• Resolver problemas empleando el teorema del\n\ntrabajo y la energía cinética.\n\n• Interpretar los signos matemáticos del trabajo a\n\npartir de la experimentación.\n\n• Experimentar con el momento de inercia objetos\n\ncon movimiento rotacional.\n\n• Calcular la energía total a partir de las energías\n\ncinética y potencial de objetos que trasladan y rotan.\n\n• Experimentar con la ley de conservación de la\n\nenergía mecánica.\n\n• Interpretar las características de las gráficas de\n\nenergía cinética y potencial obtenidas a partir de un experimento.\n\n• Calcular experimentalmente la potencia mecánica de máquinas para la obtención del momento lineal.\n\n• Resolver problemas acerca de la potencia mecánica.\n\nEnergía Eje integrador: energía\n\nUnidad 2\n\nDuración: 4 semanas Playa El Zonte, La Libertad, El Salvador En esta unidad aprenderemos a:",
+      "charCount": 829
+    },
+    {
+      "pageNumber": 27,
+      "text": "26 Indagación\n\nA. Analizando el movimiento en una rampa\n\n1. Diagrama de cuerpo libre de las fuerzas que interactúan en la caja cuando se encuentra en equilibrio.\n\n2. Establece las condiciones de equilibrio y realiza una sumatoria de las fuerzas que interactúan con el objeto para calcular la magnitud de la fuerza que tendrías que superar para desplazar la caja.\n\np.\n\n47 Teorema del trabajo y la energía cinética Recordemos primero cómo se elabora un diagrama de cuerpo libre.",
+      "charCount": 476
+    },
+    {
+      "pageNumber": 28,
+      "text": "Unidad 2\n\nCreatividad 27\n\na. Completa la tabla según lo que indica cada columna.\n\nb. Completa la tabla según lo que indica la columna. Cuando realices las ope - raciones verifica que utilizas las unidades adecuadas; para el cálculo de los cos i, usa la calculadora científica en modo DEG (D), referida a grados sexa - gesimales.\n\nB. Calculando la energía para mover un objeto\n\nc. ¿Por qué cuando el ángulo es de 90°, el trabajo realizado por la fuerza es nulo?\n\np.\n\n48 1 10° 2 20° 3 30° 4 40° 5 50° 6 60° 7 70° 8 80° 9 90° Magnitud del desplazamiento [Δx(m)] Magnitud de la fuerza [F(N)] Trabajo realizado por la fuerza [W(J)] N° Ángulo (i) cos i Magnitud de la fuerza [F(N)] ProductoF cos i Trabajo realizado por la componente horizontal de la fuerza [W(J)]\n\nSemana 6",
+      "charCount": 768
+    },
+    {
+      "pageNumber": 29,
+      "text": "Comunicación 28\n\np.\n\n52\n\nC. Solucionando problemas sobre trabajo y energía cinética\n\n1. Se desea mover una caja hacia la derecha, si se aplicara fuerza de la misma magnitud pero en direcciones diferentes, escribe debajo de cada figura si el trabajo que realizaría dicha fuerza es negativo, positivo o nulo.\n\nLuis tiene que volver a mover la caja del enunciado 1 , que tiene un peso\n\n600.0 N, al cual le coloca un cordel y lo hala para moverla, como podemos ob - servar en la figura de la izquierda. Cuando termina de mover la caja, decide medir la distancia que recorrió y resultó ser de 15.00 m; además, midió la fuerza que aplicó para mover la caja y fue de 200.0 N en la misma dirección del des - plazamiento. Durante el movimiento hubo una fuerza de fricción de 25.0 N y al inicio la caja tenía una rapidez de 1.00 m ⁄ s. ¿Cuál fue el trabajo total realizado cuando Luis termina de mover la caja y la rapidez que alcanzó al final?",
+      "charCount": 934
+    },
+    {
+      "pageNumber": 30,
+      "text": "Unidad 2\n\n29 Indagación Tipos de energía mecánica\n\nA. Analizando el trabajo en el movimiento de rotación\n\n1. Dibuja la circunferencia señalando su centro, la longitud de arco y el desplaza - miento angular .\n\n2. Coloca la fuerza tangencial.\n\n3. Encuentra la expresión para el trabajo.\n\np.\n\n52 El desplazamiento angular (∆i) concuerda en este caso con el ángulo central, como lo conocimos en matemática.\n\nLa longitud de arco o la magnitud del desplazamiento lo calculamos con la siguiente fórmula:\n\n∆x = r∆i Donde r es el radio de la circunferencia.\n\nSemana 7",
+      "charCount": 558
+    },
+    {
+      "pageNumber": 31,
+      "text": "Creatividad 30\n\nB. Experimentando con la energía en el movimiento rotacional y traslacional\n\na. Usa la ecuación 2.11 y calcula la energía potencial para cada una de las cintas adhesivas que se encuentran en la parte más alta del plano inclinado. Considera la magnitud de la aceleración gravitatoria como g = 9.8 m⁄s2 .\n\nb. Usa la ecuación 2.14 y calcula la rapidez que llevan las cintas adhesivas justo antes de interactuar con el suelo.\n\nc. Describe el comportamiento de la energía cinética justo antes de que las cintas adhesivas terminen el descenso por el plano inclinado\n\nc. ¿Qué pasaría con el descenso de las cintas adhesivas si se duplica la altura del plano inclinado?\n\np.\n\n55",
+      "charCount": 685
+    },
+    {
+      "pageNumber": 32,
+      "text": "Unidad 2\n\nComunicación 31\n\na. Toma de referencia el ejemplo 1 y demuestra que la rapidez de traslación del cilindro hueco es igual a vH = 2.4 m⁄s.\n\nb. En una carrera sobre un plano inclinado entre una esfera sólida de 6.0 cm de radio y un cilindro sólido del mismo radio y altura de 8.0 cm, ambos objetos poseen masas similares de 1.3 kg. Si se sueltan a una altura de 30.0 cm del plano inclinado, ¿cuál es el objeto que descendería más rápido por el plano inclinado? Discute con tus compañeros sobre la magnitud de la rapidez traslacional que cada objeto logra al descender del plano inclinado.\n\nSemana 7\n\nC. Calculando la energía de objetos que se desplazan y rotan",
+      "charCount": 667
+    },
+    {
+      "pageNumber": 33,
+      "text": "32 Indagación\n\nA. Analizando la energía mecánica de un objeto en caída libre\n\na. Explica cómo interactúan las fuerzas cuando el objeto se encuentra en el aire. Desprecia la resistencia del aire.\n\nb. Usa la ecuación 2.15 y calcula la altura que alcanza el objeto.\n\nc. Considera la ecuación 2.16 y elabora gráficas de energía para los puntos 1 y 2. Punto 1 Punto 2 Principio de conservación de la energía mecánica\n\np.\n\n59 E = K + Ug E = K + Ug",
+      "charCount": 441
+    },
+    {
+      "pageNumber": 34,
+      "text": "Creatividad 33\n\nB. Experimentando con el movimiento de una canica\n\n2. Registra la medida de la masa de la canica.\n\n3. Registra la medida de la altura del tubo en U.\n\n4. Realiza el cálculo de la energía potencial gravitatoria, usa la ecuación 2.11 y considera g = 9.8 m⁄s2.\n\n7. Efectúa el cálculo de la rapidez de la canica en el punto más bajo empleando la ecuación 2.15, y la energía potencial gravitatoria cuando asciende; considera g = 9.8 m⁄s2.\n\n9. Explica por qué es diferente el ascenso de la canica cuando se cambia la altura de lanzamiento.\n\np.\n\n60 Rapidez: Energía potencial gravitatoria:\n\nSemana 8\n\nUnidad 2",
+      "charCount": 617
+    },
+    {
+      "pageNumber": 35,
+      "text": "Comunicación 34\n\nC. Analizando el trabajo que otras fuerzas realizan\n\n1. Con los datos obtenidos en la actividad B, y utilizando la ecuación 2.21, calcula el trabajo que otras fuerzas realizan sobre la canica en las siguientes situaciones:\n\na. Donde soltaste la canica cuando ambos lados de la manguera se encontraban a la misma altura (puedes tomar de referencia los pasos del 4 al 7 de la actividad B).\n\nb. Donde soltaste la canica cuando ambos lados de la manguera fueron diferentes (puedes tomar de referencia los pasos 8 y 9 de la actividad B).\n\np.\n\n64",
+      "charCount": 557
+    },
+    {
+      "pageNumber": 36,
+      "text": "35 Indagación Potencia mecánica\n\nA. Calculando la rapidez con la que se efectúa trabajo\n\na. Calcula el trabajo que debes efectuar para mover la caja de 10 kg por unas escalares hasta llegar a la altura de 5 m. Puedes apoyarte en las ecuaciones\n\n2.11 y 2.12.\n\nb. Calcula la rapidez con la que realizarías el trabajo anterior en un tiempo de 7 s.\n\nc. Calcula el trabajo que debes efectuar para mover en un único viaje dos cajas de 10 kg cada una por las mismas escalares y altura del literal a. Puedes apoyarte en las ecuaciones 2.11 y 2.12.\n\nd. Calcula el tiempo que tardarías en subir las dos cajas si la rapidez con la que realices el trabajo debe ser igual que en el literal b.\n\np.\n\n65\n\nSemana 9\n\nUnidad 2",
+      "charCount": 707
+    },
+    {
+      "pageNumber": 37,
+      "text": "Creatividad 36\n\nB. Calculando la potencia al levantar un objeto\n\na. Completa la tabla, considerando el orden de las columnas de izquierda a derecha. De la columna 2 hasta la 4, son medidas que realizaste; en la sexta columna, puedes usar la ecuación 2.2 para calcular el trabajo que realizaste para que cada bolsa ascendiera. En la última columna, calcula la potencia usando la ecuación 2.22.\n\nb. Usa la ecuación 2.27 para calcular el momento lineal de cada una de las bolsas justo antes de llegar a la altura máxima. Considera los resultados obtenidos de la masa, tiempo y potencia en la tabla que completaste en el literal anterior .\n\n1 2 3 Bolsa Masa (kg) Altura (m) Fuerza (N) Tiempo (s) Trabajo (J) Potencia (W) Bolsa 1.\n\nBolsa 2.\n\nBolsa 3.\n\np.\n\n67",
+      "charCount": 753
+    },
+    {
+      "pageNumber": 38,
+      "text": "Comunicación 37\n\nC. Resolviendo problemas sobre potencia mecánica\n\n• Luis, que tiene una masa aproximada de 51.0 kg, tarda 2 minutos en subir utilizando las gradas desde la primera planta a la segunda planta de su centro educativo, que se encuentra a una altura de 5.00 m. Él plantea realizar el ascenso en menor tiempo posible, por lo que decide colocar una polea fija y una cuerda, y ahora nota que se tarda 30.0 s en llegar a la segunda planta cuando aplica una fuerza de 500 N. Con la información proporcionada, calcula lo siguiente:\n\na. La potencia mecánica desarrollada cuando Luis sube los 5.00 m usando la\n\npolea.\n\nb. El momento lineal cuando Luis utiliza la polea para ascender .\n\nc. La potencia, si tardara en ascender el mismo tiempo que si utilizara las gra - das.\n\n• Calcula la potencia mecánica y el momento lineal cuando desciendes por un tobogán que tiene una altura de 2.00 m y tardas en llegar al suelo 10.00 s. Recuerda medir tu masa antes de resolver el problema. Compara y discute con tus demás compañeros los resultados.\n\nSemana 9\n\nUnidad 2",
+      "charCount": 1062
+    },
+    {
+      "pageNumber": 39,
+      "text": "38 Evaluación Resuelve correctamente cada una de las siguientes dificultades y señala la respuesta correcta.\n\n1. Observa el siguiente plano inclinado, donde se señala la dirección del movimiento y tiene el diagrama de cuerpo libre del objeto que se mueve.\n\na. FN c. mgseni\n\nb. mg d. mgcosi\n\n2. Una esfera sólida se mueve en un plano inclinado\n\na una altura de 30.0 cm, como se muestra en la figura:\n\n¿Cuál sería la rapidez de la esfera cuando termina de pasar sobre el plano inclinado?\n\na. 20.5 m⁄s c. 420 m⁄s\n\nb. 2.05 m⁄s d. 4.20 m⁄s\n\n3 En un juego de básquetbol, antes de realizar una canasta el balón describe un movimiento parabólico como se muestra en la figura:\n\nEl diagrama de energía que representa el balón que se encuentra encerrado en verde es:\n\na. c.\n\nb. d.\n\n4 En un pozo de 3.00 m de profundidad, se extrae agua usando una cube - ta atada a una cuerda, aplicando una fuerza de\n\n25.0 N.\n\nSi se tarda 5.00 s en subir una cubeta, ¿cuál sería el valor de la potencia mecánica?\n\na. 15.0 W\n\nb. 5.00 W\n\nc. 0.60 W\n\nd. 75.0 W\n\nmgseni mgcosi dirección del movimiento \"FN y = 30.0 cm E = K + Ug E = K + Ug E = K + Ug E = K + Ug",
+      "charCount": 1129
+    },
+    {
+      "pageNumber": 40,
+      "text": "• Reconocer las fuerzas que realizan trabajo sobre\n\nun péndulo simple.\n\n• Identificar las transformaciones de la energía de\n\nun péndulo simple.\n\n• Explicar las características de las gráficas de energía del oscilador armónico simple.\n\n• Medir el período y la amplitud de oscilación de\n\nun péndulo simple.\n\n• Calcular una altura por medio del período de os -\n\ncilación de un péndulo simple.\n\n• Diseñar un experimento para determinar una al -\n\ntura empleando un péndulo simple.\n\n• Identificar el tipo de onda a partir del movimiento de la fuente de vibración.\n\n• Identificar las magnitudes y las condiciones que\n\nhacen cambiar la frecuencia o el tono del sonido producido en cuerdas y en tubos de aire.\n\n• Resolver problemas a partir de gráficas del mo -\n\nvimiento ondulatorio armónico transversal y del longitudinal.\n\nOndas mecánicas Eje integrador: energía\n\nUnidad 3\n\nDuración: 4 semanas En esta unidad aprenderemos a:\n\nBanda El Salvador",
+      "charCount": 937
+    },
+    {
+      "pageNumber": 41,
+      "text": "Indagación 40\n\nA. ¿Es constante la energía mecánica del péndulo?\n\nB. Conservación de la energía mecánica del péndulo simple\n\nParte I. Construcción del péndulo\n\n1. Peso de la masa de 1 libra de alpiste. Expresa la magnitud del peso con tres cifras significativas. F\" g = mg\" =\n\n7. En la posición de equilibrio del péndulo: 8. Altura en 2 desde el suelo, θ = 0°: y2 = cm.\n\nParte II. Identificación de ángulos y alturas\n\n3. Altura en 1 desde el suelo, θ = 40°:\n\ny1 = cm.\n\n4. Altura en 1:\n\nh1 = y1 − y2 = cm − cm h1 = cm = m.\n\n5. Altura en 2:\n\nh2 = cm.\n\nLa tensión de la cuerda.El DCL del péndulo.\n\nEnergía mecánica en el movimiento armónico simple\n\na. Si soltara la lenteja sin empujarla, ¿volverá a tocar el mentón? ¿Por qué?\n\nb. Escribe tu explicación del fenómeno. Relaciona las variables «altura desde la cual se suelta la lenteja del péndulo» y «trabajo realizado por la fuerza de fricción del aire».\n\nc. ¿Escribe el nombre de la energía no mecánica en la que se transforma parte de la energía potencial gravitatoria inicial durante el trayecto de ida y vuelta de la lenteja, después de haber sido liberada? Creatividad\n\np.\n\n77\n\np.\n\n78\n\np.\n\n77 Fg",
+      "charCount": 1148
+    },
+    {
+      "pageNumber": 42,
+      "text": "41 Parte V: Gráfica de energía del péndulo\n\n1. Desplazamientos angulares donde hay valores máximos y mínimos de energía: Parte III. Calculo de energía cinética, potencial y trabajo\n\na. Con respecto al suelo.\n\nEnergía potencial gravitacional, en 1:\n\nUg1 = mgy1 = ( N) ( m) Ug1 = J.\n\nEnergía potencial gravitatoria, en 2:\n\nUg2 = mgy2 = ( N) ( m) Ug2 = J.\n\nCambio de la energía potencial gravitatoria con respecto al suelo:\n\n∆Ug,suelo = Ug2 − Ug1 = J − J ∆Ug,suelo = J.\n\nb. Con respecto a la posición de equilibrio.\n\nEnergía potencial gravitacional, en 1:\n\nUg1 = mgh1 = ( N) ( m) Ug1 = J.\n\nEnergía potencial gravitatoria, en 2:\n\nUg2 = mgh2 = ( N) ( m) Ug2 = J.\n\nVariación de energía potencial gravitacional:\n\n∆Ug,equilibrio = Ug2 − Ug1 = J − J ∆Ug,equilibrio = J.\n\n2. Trabajo realizado por el peso de la lenteja:\n\nWg = −∆Ug = −( J) = J.\n\nParte IV. Fuerzas que realizan trabajo\n\n1. Responde:\n\na. Componente del peso que realiza trabajo:\n\nF\" g x : Sí No .\n\nF\" g y : Sí No .\n\nb. Trabajo de las componentes del peso:\n\nWgx = J.\n\nWgy = J.\n\nTrabajo total:\n\nWtot = WT + Wgx + Wgy Wtot = J + J + J = J.\n\n3. Completa los espacios en blanco.\n\nEn el punto más bajo del péndulo ( θ = ), la lenteja adquiere la máxima velocidad tangencial, en virtud de su energía cinética máxima. Cuando se eleva (2→3), F\" g forma el ángulo con h\" , porque h\" ahora señala hacia arriba porque la lenteja sube. Por esta razón, el signo del trabajo realizado por el peso es entre los des - plazamientos angulares de a . Significa que la energía se transfiere de la energía cinética del péndulo hacia la energía potencial gravitatoria del . Dicho de otro modo, disminuye la cantidad de energía y aumenta la cantidad de energía .\n\np.\n\n79\n\np.\n\n80 Puntos Desplazamiento angular del péndulo Máxima energía potencial gravitatoria Máxima energía cinética Mínima energía potencial gravitatoria Mínima energía cinética 1 2 3 4 5 40° 0° -40° 0° 40°\n\nUnidad 3\n\nSemana 10",
+      "charCount": 1924
+    },
+    {
+      "pageNumber": 43,
+      "text": "42\n\n2. Tabla de energías. Sigue los ejemplos de las primeras dos filas (θ = 40° y θ = 32°) y completa.\n\n3. Gráficas de las energías mecánicas del péndulo.\n\n7. Magnitudes y valores en el eje X: «θ = 0°, Posición de equilibrio»; «θmáx = +40°, Amplitud angular positiva»; «θmáx = −40°, Amplitud angular negativa»; « v⃗tangencial = 0 cm⁄s , Velocidad tangencial nula»; « Ugmín = 0 J , Energía potencial mínima»; «Ug máx = 1.87 J , Energía potencial máxima»; « Kmín = 0 J , Energía cinética mínima»; y «Kmáx = 1.87 J, Energía cinética máxima».\n\na. Energía potencial gravitatoria del sistema contra desplazamiento angular .\n\nb. Energía cinética de la lenteja contra desplazamiento angular .\n\nθ 40° 32° 24° 16° 8° 0° −8° −16° −24° −32° −40° 1 − cos θ h = L(1 − cos θ ) [m] Ug = Fgh [J] K = E − Ug [J]\n\n0.2340 (1.80)(0.2340) = 0.421 (4.45)(0.421) = 1.87 1.87 − 1.87 = 0.00\n\n0.1520 (1.80)(0.1520) = 0.274 (4.45)(0.274) = 1.22 1.87 − 1.22 = 0.66\n\n0.0865\n\n0.0387\n\n0.0097\n\n0.0000\n\n0.0097\n\n0.0387\n\n0.0865\n\n0.1520\n\n0.2340\n\n0.50\n\n-40° -20° 0° 20° 40°\n\n1.00\n\n1.50\n\n2.00\n\nθ Ug[J]\n\n0.50\n\n-40° -20° 0° 20° 40°\n\n1.00\n\n1.50\n\n2.00\n\nK[J] θ",
+      "charCount": 1116
+    },
+    {
+      "pageNumber": 44,
+      "text": "43 Indagación θmax 40° 30° 20° 10° QQ' cm 128.6 A (cm) 128.6 ÷ 2 = 64.3 θmax 40° 30° 20° 10° QQ' cm 128.6 A (cm) 128.6 ÷ 2 = 64.3 θmax s (cm) Cercanía entre el arco y la amplitud, s − A (cm) 40° .2 100 03640 69 8# ccr =^ h 69.8-64.3 =5.5 30° 20° 10° θmax s (cm) Cercanía entre el arco y la amplitud, s − A (cm) 40° .2 100 03640 69 8# ccr =^ h 69.8-64.3 =5.5 30° 20° 10° Medición del movimiento armónico simple\n\nA. ¿Qué tan recta puede ser la trayectoria del péndulo simple?\n\n6. Cálculos del péndulo de longitud L = 100 cm.\n\nLongitudes de las cuerdas QQ'. Usa la ecuación A = QQ'⁄2 para calcular la amplitud (A) del péndulo.QQ'\n\n8. Arco s (mitad del arco 'QQ]. Usa la fórmula: s = 2πL(θmax⁄360°) para calcular la longitud del arco.\n\n9. Cálculos del péndulo de longitud L = 1.80 cm.\n\nLongitudes de las cuerdas QQ'. Usa la ecuación A = QQ'⁄2 para calcular la amplitud (A) del péndulo.QQ' Arco s (mitad del arco 'QQ]. Usa la fórmula: s = 2πL(θmax⁄360°) para calcular la longitud del arco. p.83\n\nUnidad 3\n\nSemana 11",
+      "charCount": 1010
+    },
+    {
+      "pageNumber": 45,
+      "text": "Creatividad 44\n\nB. Leyes del péndulo simple\n\n4. Intervalos de tiempo y período promedio, en\n\nn = 10 oscilaciones (masa de la lenteja m).\n\nLongitud L = 100 cm Tprom = (∆t1 + ∆t2 + ∆t3)⁄3n Tprom = ( + + )/[(3)( )] Tprom = ( )/30 Tprom = s.\n\n5. Intervalos de tiempo y períodos promedios, en\n\nn = 10 osc. (masa de la lenteja m).\n\nLongitud 3L⁄4 = 75 cm Tprom = (∆t1 + ∆t2 + ∆t3)⁄3n Tprom = ( + + )/[(3)( )] Tprom = ( )/ Tprom = s.\n\nLongitud L⁄2 = cm.\n\nTprom = (∆t1 + ∆t2 + ∆t3)⁄3n Tprom = ( + + )/[(3)( )] Tprom = ( )/ Tprom = s.\n\nLongitud L⁄4 = cm.\n\nTprom = (∆t1 + ∆t2 + ∆t3)⁄3n Tprom = ( + + )/[(3)( )] Tprom = ( )/ Tprom = s.\n\n6. Responde:\n\nEl período del péndulo cambia. Sí: . No: .\n\nA mayor (menor) longitud del péndulo, mayor (menor) período de movimiento. Sí: . No: . A mayor (menor) longitud del péndulo, menor (mayor) período de movimiento. Sí: . No: .\n\n8. Intervalos de tiempo y período promedio, en\n\nn = 10 oscilaciones y L = 100 cm.\n\nMasa de la lenteja, m⁄2.\n\nTprom = (∆t1 + ∆t2 + ∆t3)⁄3n Tprom = ( + + )/[(3)( )] Tprom = ( )/ Tprom = s.\n\n10. Intervalos de tiempo y períodos promedios, en\n\nn = 10 oscilaciones y L = 100 cm.\n\nMasa de la lenteja, m⁄4.\n\nTprom = (∆t1 + ∆t2 + ∆t3)⁄3n Tprom = ( + + )/[(3)( )] Tprom = ( )/ Tprom = s.\n\n11. Responde:\n\nEl período del péndulo cambia. Sí: . No: .\n\nA mayor masa de la lenteja, menor período de movimiento. Sí: . No: .\n\nA mayor masa de la lenteja, mayor período de movimiento. Sí: . No: .\n\n15. Intervalos de tiempo y períodos promedios, en\n\nn=10 osc. (masa, m y L = 100 cm).\n\nAmplitud angular, θmax = 5°.\n\nTprom = (∆t1 + ∆t2 + ∆t3)⁄3n Tprom = ( + + )/[(3)( )] Tprom = ( )/ = s.\n\nAmplitud angular, θmax = 15°.\n\n16. Intervalos de tiempo y períodos promedios, en\n\nn=10 osc (masa, m y L = 100 cm).\n\nTprom = (∆t1 + ∆t2 + ∆t3)⁄3n Tprom = ( + + )/[(3)(10)] Tprom = ( )/ = s.\n\np.\n\n84",
+      "charCount": 1821
+    },
+    {
+      "pageNumber": 46,
+      "text": "45\n\nC. Medición de una altura usando el péndulo simple\n\nE. Discusión sobre el uso del péndulo simple para calcular una altura\n\nAmplitud angular, θmax = 20°.\n\nTprom = (∆t1 + ∆t2 + ∆t3)⁄3n Tprom = ( + + )/[(3)(10)] Tprom = ( )/ = s.\n\nAmplitud angular, θmax = 25°.\n\nTprom = (∆t1 + ∆t2 + ∆t3)⁄3n Tprom = ( + + )/[(3)(10)] Tprom = ( )/ = s.\n\n5. Intervalos de tiempo y el primer período prome -\n\ndio, en n = 10 oscilaciones.\n\nTprom 1 = (∆t1 + ∆t2 + ∆t3)⁄3n Tprom 1 = ( + + )/[(3)(10)] Tprom1 = ( )/ = s.\n\n6. Intervalos de tiempo y el segundo y tercer período\n\npromedio, en n = 10 oscilaciones.\n\nTprom 2 = (∆t1 + ∆t2 + ∆t3)⁄3n Tprom 2 = ( + + )/[(3)(10)] Tprom 2 = ( )/ = s.\n\n2. Escribe y discute las ventajas y desventajas al usar un péndulo para medir una altura.\n\n7. Gran promedio del período del péndulo.\n\nTprom = (Tprom 1 + Tprom 2)⁄2 Tprom = ( + )/2 Tprom = ( )/2 = s.\n\n8. Altura calculada: m.\n\nAltura medida: m.\n\n17. Responde:\n\nEl período del péndulo cambia. Sí: . No: .\n\nA mayor amplitud angular, menor período de movimiento. Sí: . No: .\n\nA mayor amplitud angular, mayor período de movimiento. Sí: . No: .\n\n18. Considera las siguientes fórmulas para los cálcu -\n\nlos: T gL2r= y f T1= .\n\np.\n\n85 Comunicación\n\nUnidad 3\n\nSemana 11",
+      "charCount": 1228
+    },
+    {
+      "pageNumber": 47,
+      "text": "Indagación 46\n\nA. La fuente de toda onda\n\nB. El sonido en las cuerdas\n\nParte I. Longitud variable y tensión constante Movimiento ondulatorio del sonido en las cuerdas\n\na. Descripción del fenómeno.\n\nb. Magnitud física que origina el sonido: Golpe: . Fuerza: . Masa: . Aceleración: .\n\nc. Medio físico: Botón (lenteja): . Vidrio: . Aire: .\n\nd. Tipos de energía en que se transforma: Energía sonora: . Energía térmica: . Energía potencial gravitatoria de la copa-Tierra: .\n\nCreatividad\n\n6. Magnitud de la tensión de la cuerda.\n\nT = kg × m⁄s2 = N\n\na. Completa la tabla.\n\nb. Escribe una afirmación general sobre lo que sucede con el tono que escuchas cuando cambias la longitud de la cuerda vibrante conservando la misma tensión sobre la cuerda.\n\nParte II. Longitud constante y tensión variable\n\n3. Calculo de tensión de la cuerda.\n\n5. Longitud de la cuerda.\n\nL = cm\n\nd. Escribe una afirmación general sobre lo que le\n\nsucede al tono cuando se cambia la tensión de la cuerda.\n\nLongitud de la cuerda (cm) Tono relativo del sonido Tensión de la cuerda (N) Tono relativo del sonido T1 = T2 = 2 × = T3 = × = T4 = × =\n\np.\n\n90",
+      "charCount": 1114
+    },
+    {
+      "pageNumber": 48,
+      "text": "47\n\nC. Armónicos en cuerdas\n\na. Masas de las cuerdas.\n\nCuerda delgada, m1 = kg.\n\nCuerda gruesa, m2 = kg.\n\nb. Longitudes de las cuerdas.\n\nCuerda delgada, L1 = m.\n\nCuerda gruesa, L2 = m.\n\nc. Densidad lineal de masa de las cuerdas.\n\nCuerda delgada.\n\nμ1 = m1 ⁄L1 = kg / m μ1 = kg⁄m.\n\nCuerda gruesa, μ2 = m2⁄L2 = kg / m μ2 = kg⁄m.\n\n8. Subraya la respuesta correcta y escribe el valor\n\ncorrespondiente de la densidad lineal de masa en cada ítem:\n\n• Tensiones débiles/intensas en la cuerda hacen\n\nque la rapidez de la onda sea baja.\n\n• El valor más grande/más pequeño de la densi -\n\ndad lineal de masa en la cuerda, cuyo valor es kg⁄m hizo que la rapidez de la onda sea baja.\n\n• Tensiones débiles/elevadas en la cuerda hacen\n\nque la rapidez de la onda sea alta.\n\n• Valores más grandes/más pequeños de la densidad lineal de masa en la cuerda, cuyo valor es kg⁄m, hizo que la rapidez de la onda sea alta.\n\n15. Responde para cada pulso reflejado\n\nPara una frontera o extremo fijo:\n\nPulso incidente.\n\n17. Longitud de la cuerda, L = m.\n\nPulso reflejado.\n\nCorrecto: .\n\nIncorrecto: .\n\nPulso reflejado.\n\nCorrecto: .\n\nIncorrecto: .\n\nPara una frontera o extremo móvil (nudo flojo):\n\nPulso incidente.\n\nPulso reflejado.\n\nCorrecto: .\n\nIncorrecto: .\n\nPulso reflejado.\n\nCorrecto: .\n\nIncorrecto: .\n\np.\n\n92\n\np.\n\n91\n\nUnidad 3\n\nSemana 12",
+      "charCount": 1311
+    },
+    {
+      "pageNumber": 49,
+      "text": "48\n\n18. Completa la tabla:\n\nModos normales de vibración de una cuerda con extremos fijos. Número de λ⁄2 Número de nodos Número de antinodos Comunicación\n\nD. Ondas en cuerdas\n\n3. Resuelve los ejercicios\n\na. A partir de los gráficos y resultados del ejemplo\n\n1 de la sección Así se calcula… de la pág. 94 del Libro de Texto, calcula las siguientes propieda - des de estas dos ondas O1 y O2:\n\nLa rapidez de onda. Solución.\n\nLa amplitud de onda. Solución.\n\nb. Una cuerda muy larga se encuentra fija por un\n\nextremo; el otro extremo está sujeto a un vibrador . Si la onda que se genera tiene una rapidez igual a 10 m/s y su longitud de onda es 40 cm.\n\nCalcula la frecuencia del vibrador .\n\nSolución.\n\ndiapasón λ υ",
+      "charCount": 708
+    },
+    {
+      "pageNumber": 50,
+      "text": "49\n\nc. Dos pulsos de onda mueven en direcciones opuestas a una rapidez de v = 1 cm⁄s. Las amplitudes de los pulsos son iguales. Los pulsos se muestran en t = 0 s.\n\nTraza la onda resultante en t = 1 s, 2 s, 3 s, 4 s, 5 s, 6 s y 7 s.\n\n¿En qué instante de tiempo el pulso resultante tiene la máxima amplitud?\n\n¿Qué valor tiene la máxima amplitud?\n\nd. Una cuerda de guitarra de nailon vibra siguiendo\n\nun patrón de onda estacionaria, como se muestra a continuación.\n\nEscribe la ubicación de los nodos y antinodos arriba de la onda estacionaria.\n\n¿Cuál armónico es? ¿Cómo lo encontraste?\n\n¿Cuál es la longitud de onda, de la onda?\n\nEscribe la coordenada x de los nodos y antinodos en el eje X. Observa que el primer nodo está en xN1 = 0 cm.\n\nY (cm) Y (cm) Y (cm) Y (cm) Y (cm) Y (cm) X (cm) υ υ X (cm) X (cm) X (cm) X (cm) X (cm) Y (cm) X (cm) Y (cm) X (cm) t = 0 s t = 1 s t = 2 s t = 3 s t = 4 s t = 5 s t = 6 s t = 7 s Y (cm) X (cm)\n\nUnidad 3\n\nSemana 12",
+      "charCount": 951
+    },
+    {
+      "pageNumber": 51,
+      "text": "Indagación 50\n\nA. ¿Cómo se propaga el sonido en el aire?\n\nMovimiento ondulatorio del sonido en el aire\n\n3. Responde:\n\na. Dibuja el movimiento que observaste en cada\n\ncuerpo mientras se empujaron. Usa flechas.\n\n6. Basándote en la observación, ¿qué ángulo se forma entre el pulso de la compresión de aire originado desde la base de la botella y la dirección de propagación del pulso? 0° . 90° . 180° .\n\nb. Solicita a otros participantes que mencionen las\n\nmagnitudes físicas que mejor describen las coli - siones que impactaron sus hombros.\n\nc. Describe el movimiento individual de los partici -\n\npantes durante la colisión y la dirección de la propagación del pulso. Considera tu respuesta del literal a.\n\nB. Armónicos en columnas de aire dentro de tubos cilíndricos\n\nCreatividad\n\n2. Longitud de la pajilla: L = cm.\n\n3. Longitud de la pajilla: L⁄2 = cm.\n\n4. Longitud de la pajilla: L⁄4 = cm.\n\n5. Longitud de la pajilla: L⁄8 = cm.\n\na. Efecto que hay en la altura del tono al acortar la\n\nlongitud de un tubo abierto.\n\nb. Efecto que hay en la altura del tono en la transición de un tubo abierto a un tubo cerrado.\n\nc. Efecto que hay en la altura del tono en la transición de un tubo cerrado a un tubo abierto.\n\np.\n\n96\n\np.\n\n97\n\np.\n\n98 Los participantes oscilan durante la colisión mientas la perturbación viaja de izquierda a derecha o viceversa.\n\nd. Efecto que hay en la altura del tono al acortar la longitud de un tubo cerrado.\n\ne. Medio físico qué está vibrando dentro de las pajillas:",
+      "charCount": 1484
+    },
+    {
+      "pageNumber": 52,
+      "text": "51 Comunicación\n\nD. Ondas en el aire\n\na. A partir de los gráficos y resultados del ejemplo 1 del Así se calcula… de la pág. 101 del Libro de Texto, calcula las siguientes propiedades de la onda sonora.\n\n• Rapidez de la onda sonora.\n\n• Amplitud de la variación de presión.\n\n• Frecuencia de la onda sonora. Usa la ecuación 3.4.\n\nb. Calcule la longitud de onda asociada con la nota \"La medio\" (440 Hz) como sonido que viaja a través del aire. Utiliza el valor 340 m/s como la rapidez promedio del sonido en el aire.\n\nc. El oído humano puede oír sonidos de frecuencia comprendidas en el intervalo de 20 Hz a 20 kHz aproximadamente. ¿Cuál es el rango audible expresado en longitudes de onda? Rapidez del sonido, v=340 m⁄s. Solución.\n\nUnidad 3\n\nSemana 13",
+      "charCount": 748
+    },
+    {
+      "pageNumber": 53,
+      "text": "52\n\nd. A partir de la frecuencia fundamental de 240 Hz medida en un tubo cerrado y en otro abierto:\n\n• Calcula la longitud de cada tubo.\n\n• Dibuja en el tubo el modo de vibración de la columna de aire en la frecuencia fundamental.\n\n• Escribe las posiciones de los nodos y antinodos de desplazamiento en el eje X. Tubo cerrado. Tubo abierto.\n\ne. La tráquea de una grulla blanca promedio mide 1.524 m de largo. ¿Cuál es la frecuencia de resonancia fundamental de la tráquea del ave, modelada como un tubo estrecho cerrado por un extremo y a una temperatura de 37 °C? Dibuja la onda estacionaria de esa frecuencia. X (m) Y\n\n0.350\n\nX (m) Y\n\n0.710.350\n\n1.524 m\n\nAbierto Cerrado N A Grulla blanca.",
+      "charCount": 691
+    },
+    {
+      "pageNumber": 54,
+      "text": "53 Evaluación\n\n1. Subraya las siguientes situaciones donde la fuerza\n\nneta es constante:\n\na. Objeto en movimiento armónico simple\n\nb. Objeto en caída libre (no involucra la resisten -\n\ncia del aire).\n\nc. Objeto en caída libre (sí involucra la resistencia\n\ndel aire).\n\n2. El número de ciclos que vibra un diapasón cada\n\nsegundo está relacionado con la característica de la onda sonora:\n\na. Amplitud.\n\nb. Frecuencia.\n\nc. Período.\n\n3. Tres péndulos simples consisten de esferas idénticas de la misma masa, que están conectadas por varillas rígidas, de masa insignificante. El péndulo (b) oscila con sus dos masas juntas\n\n6. En el movimiento armónico simple, si el desplazamiento desde el punto de equilibrio es máximo\n\na. La energía potencial es máxima y la energía ci -\n\nnética es mínima.\n\nb. La energía potencial es mínima y la energía ci -\n\nnética es máxima.\n\nc. Ambas energías tienen el mismo valor .\n\n7. La rapidez de un sonido de 440 Hz es 343 m⁄s en\n\nel aire y 1 530 m⁄s en agua de mar . Las longitudes de onda λ de este sonido en los medios físicos son:\n\n4. Una onda estacionaria se establece en una cuerda\n\nde 120 cm de largo con ambos extremos fijos. La cuerda vibra a 120 Hz en cuatro segmentos cuando se pulsa para tocar . La longitud de onda de ese armónico y la frecuencia fundamental de la cuerda son:\n\n8. Una boya se eleva\n\ncada 5.0 s cuando las crestas de las olas pasan por ella. El período y la frecuencia de estas ondas son\n\n9. Una cuerda de\n\n0.013 kg⁄m de\n\ndensidad lineal se tensa entre dos postes. Se da un pequeño golpe en un extremo y el pulso viaja con rapidez de\n\n5.0 m⁄s.\n\n5. En el ítem 4, el número del armónico del modo\n\nnormal de oscilación en que vibra la cuerda es:\n\nLos dos péndulos con igual período son: y .\n\nEl péndulo con mayor período de oscilación es: .\n\nlongitud de onda,\n\na. 30 cm\n\nb. 60 cm\n\nc. 120 cm\n\nen el aire,\n\na. 151 km\n\nc. 1.3 m\n\nc. 0.78 m\n\nperíodo,\n\na. 0.20 s\n\nc. 10 s\n\nc. 5.0 s\n\na. n = 2\n\nb. n = 3\n\na. 962 N\n\nb. 0.162 N\n\nfrecuencia,\n\na. 30 Hz\n\nb. 60 Hz\n\nc. 120 Hz\n\nen el agua de mar,\n\na. 673 km\n\nb. 3.5 m\n\nc. 0.28 m\n\nfrecuencia,\n\na. 5.0 Hz\n\nb. 0.20 Hz\n\nc. 10 Hz\n\nc. n = 4\n\nd. n = 1\n\nc. 0.325 N\n\nd. 0.065 N\n\nLa magnitud de la tensión que soporta la cuerda es:\n\nL L L L1.5 (a) (b) (c) v",
+      "charCount": 2232
+    },
+    {
+      "pageNumber": 55,
+      "text": "54\n\n10. Dos ondas 1 y 2 se propagan a lo largo de las\n\ncuerdas 1 y 2, respectivamente. A partir de la información dada en los gráficos, las rapideces de las ondas en las cuerdas son:\n\n13. Calcular la longitud de onda de la onda periódica\n\nsi la distancia entre la primera cresta y el tercer valle es de 15 m.\n\n14. Observa la onda original y luego empareja co -\n\nrrectamente la descripción de la derecha con la onda correspondiente trazando una línea.\n\n15. Escribe verdadero (V) o falso (F) sobre las si -\n\nguientes afirmaciones:\n\na. La frecuencia es una medida cuantitativa del\n\ntono.\n\nb. El tono de una nota musical depende del timbre.\n\nc. Escuchas la misma nota musical tocar de una\n\ntrompeta y de un saxofón. Puedes identificarlos porque producen diferentes armónicos.\n\n11. De acuerdo con los resultados del ítem 10, la re -\n\nlación de las rapideces de las ondas en las cuer - das 1 y 2 es:\n\n12. Si se puede considerar que el canal auditivo hu -\n\nmano se parece al tubo de un órgano cerrado por un extremo, que resuena a una frecuencia fundamental de 3 000 Hz, ¿cuál es la longitud del canal auditivo? Utiliza la temperatura corporal normal de 37 °C para determinar la velocidad del sonido dentro del canal auditivo.\n\nY (mm) X (m)\n\n2.0\n\n-2.0\n\n-4.0\n\n-6.0\n\n4.0\n\n6.0\n\nπ0 Onda 1 (0.39, 1) Onda 2 (1.18, -1) (2.36, 6) (0.79, -6) Gráfico desplazamiento (Y) vs. posición (X) π 2 Y (mm) t (s)\n\n2.0\n\n-2.0\n\n-4.0\n\n-6.0\n\n4.0\n\n6.0\n\nπ 2π0 Onda 1 Onda 2 (6.28 , 6) (1.57 , 1) (0,6) (4.71 , -1) Gráfico desplazamiento (Y) vs. tiempo (t) π 2 3π 2 (3.14 , -6) rapidez en 1, v1 =,\n\na. 0.25 m⁄s\n\nc. 4 m⁄s\n\nc. 0.16 mm⁄s\n\na. v1 = v2\n\nc. v1 < v2\n\na. 15 m.\n\nc. 6 m.\n\na. 2.9 cm\n\nc. 5.9 cm.\n\nrapidez en 2, v2 =,\n\na. 0.95 mm⁄s\n\nb. 2 m⁄s\n\nc. 0.50 m⁄s\n\nc. v1 > v2\n\nd. v1 + v2\n\nc. 3 m.\n\nd. 4 m.\n\nc. 11.8 cm\n\nd. 8.8 cm\n\nOnda original.\n\nLa misma longitud de onda y menor amplitud.\n\nLongitud de onda más corta y la misma amplitud.\n\nLongitud de onda más corta, amplitud más pequeña.\n\nCresta 1 Valle 3 X (m) Y (m) 15 m",
+      "charCount": 1986
+    },
+    {
+      "pageNumber": 56,
+      "text": "• Ejecutar cálculos de concentración, gramos y moles de soluto empleando unidades físicas.\n\n• Ejecutar cálculos de concentración, gramos y moles de soluto empleando unidades químicas de concentración.\n\n• Identificar dispersiones químicas en sustancias\n\nde uso cotidiano.\n\n• Clasificar las dispersiones químicas de acuerdo\n\ncon sus propiedades.\n\n• Ejemplificar los diferentes tipos de dispersiones\n\nquímicas y sus aplicaciones.\n\n• Clasificar las soluciones químicas con base en la\n\ncantidad de soluto.\n\n• Identificar los factores que afectan la solubilidad.\n\n• Explicar el comportamiento de las partículas se -\n\ngún los factores que afectan la solubilidad.\n\n• Identificar las propiedades coligativas.\n\n• Evidenciar las propiedades coligativas.\n\nEstequiometría y dispersiones Eje integrador: organización\n\nUnidad 4\n\nDuración: 7 semanas Terrón de azúcar a punto de ser disuelto en una taza de café.\n\nEn esta unidad aprenderemos a:",
+      "charCount": 927
+    },
+    {
+      "pageNumber": 57,
+      "text": "56 Indagación\n\nA. Concentración de las soluciones en la vida diaria\n\na. ¿Por qué es importante saber la concentración de los productos que consumimos?\n\nb. ¿Cómo se puede saber la concentración de un producto si no se cuenta con información en la viñeta?\n\nc. ¿Por qué algunos productos tienen diferentes concentraciones?\n\nd. Dibuja la etiqueta de cualquier producto que refleje su concentración.\n\np.\n\n106 Unidades físicas de concentración",
+      "charCount": 437
+    },
+    {
+      "pageNumber": 58,
+      "text": "Unidad 4\n\nCreatividad 57\n\na. ¿Qué concierne a la masa total de la solución y a la masa del soluto?\n\nb. Explica cómo se calcula el porcentaje de masa (% m/m):\n\nc. Calcula el porcentaje de masa de la salmuera:\n\nd. ¿Qué ocurre con el porcentaje de masa si se adiciona más o menos sal a la solución?\n\ne. ¿Cómo afecta la cantidad de agua al porcentaje de masa de la solución?\n\nB. Porcentaje de masa (% m/m)\n\nC. Porcentaje masa-volumen (% m/v)\n\n1. Volumen del solvente:\n\n2. Masa del soluto:\n\na. Explica cómo se calcula el porcentaje de masa-volumen (% m/v):\n\nb. Calcula el porcentaje de masa-volumen:\n\nc. ¿Cómo puede aplicarse el porcentaje de masa-volumen en la vida diaria?\n\np.\n\n108\n\n1. Masa del beaker:\n\n4. Masa de la solución:\n\n6. Masa del beaker con sal:\n\n7. Masa de la sal:\n\np.\n\n107\n\nSemana 14",
+      "charCount": 793
+    },
+    {
+      "pageNumber": 59,
+      "text": "58\n\nD. Porcentaje de volumen (% v/v)\n\n2. Volumen del soluto:\n\n3. Volumen de la solución:\n\n6. Cálculo del volumen o concentración del néctar de fruta:\n\nConcentración:\n\nVolumen del soluto:\n\nVolumen de la solución:\n\n7. Completa la tabla:\n\na. Explica cómo se calcula el porcentaje de volumen (% v/v):\n\nb. Calcula la concentración de la solución de concentrado de fruta que has preparado:\n\nc. ¿Cómo podría prepararse una solución de jugo al 20 % pero con menos cantidad total de líquido? ¿Y con más cantidad de líquido?\n\nd. Del literal b, ¿qué pasaría con la cantidad de concentrado de frutas que se necesitaría?\n\ne. ¿Cómo se podría hacer una solución de jugo al 50 %?\n\n% m/m % m/v % v/v Unidad física de concentración Cantidad de soluto Total de la solución Concentración de la solución\n\np.\n\n109",
+      "charCount": 791
+    },
+    {
+      "pageNumber": 60,
+      "text": "Unidad 4\n\nComunicación 59\n\np.\n\n111\n\nE. Partes por millón (ppm)\n\na. Dibuja cómo resultan las diluciones hasta alcanzar la de 1:106.\n\nb. ¿Por qué se utiliza una solución concentrada para empezar la actividad?\n\nc. ¿Cómo se calcula la concentración en ppm de la solución del segundo vaso?\n\nd. ¿Qué sucede con la concentración en ppm a medida que se hacen más diluciones?\n\ne. ¿Cómo se calcula la concentración en ppb a partir de la concentración en ppm?\n\nSemana 14",
+      "charCount": 459
+    },
+    {
+      "pageNumber": 61,
+      "text": "60 Indagación Mol y número de Avogadro\n\nA. Determinación de un número de objetos sin contarlos\n\n1. Cantidad de frijoles:\n\n2. Masa de la bolsa con una pequeña cantidad de frijoles:\n\n3. Masa de la bolsa llena con frijoles:\n\na. ¿Cuál es el propósito de usar una cantidad pequeña y uniforme de frijoles al principio del experimento?\n\nb. ¿Qué relación existe entre la masa de los frijoles medidos inicialmente y el número de frijoles presentes en la bolsa?\n\nc. ¿Cómo se podría utilizar la masa de los frijoles y la masa total de la bolsa para determinar el número aproximado de frijoles en la bolsa sin contarlos uno por uno?\n\nd. Calcula la cantidad de frijoles en la bolsa llena:\n\ne. ¿Cómo se relaciona esta actividad con el concepto de mol en química?\n\np.\n\n113 ¿Puedes mencionar elementos cotidianos tan diminutos que contarlos resulta una tarea desafiante?\n\nUn ejemplo sería el número de granos de arena en una playa.\n\nContarlos uno por uno sería una tarea gigantesca por su inmensa cantidad.",
+      "charCount": 990
+    },
+    {
+      "pageNumber": 62,
+      "text": "Unidad 4\n\nCreatividad 61 Has caído en una casilla especial y tienes la oportunidad de avanzar 4 casillas. Te toca responder cuántos iones de cloruro (Cl-) hay en 1.5 mol de cloruro de sodio (NaCl).\n\nCaíste en una casilla que te permite avanzar 2 casillas, pero debes responder correctamente cuántos litros ocupa un mol de gas a condiciones estándar (P = 1 atm y T = 273.15 K).\n\n¿Cuál es la respuesta?\n\nEstás siguiendo una receta para hacer galletas y te pide usar 0.5 mol de bicarbonato de sodio (NaHCO3). ¿Cuántas moléculas de NaHCO3 necesitas para completar la receta?\n\nLanza nuevamente los dados y avanzarás el número que obtengas si respondes correctamente, ¿cuántas partículas hay en 2 mol de átomos de oxígeno (O)?\n\nImagina que tienes una pequeña burbuja de aire con un volumen de 0.001 L. Si esta burbuja contiene 0.00005 mol de dióxido de carbono (CO2), ¿cuántas moléculas de CO2 hay en la burbuja?\n\nConsidera que tienes una cucharada de azúcar que contiene 5.6 × 1022 moléculas de sacarosa (C12H22O11). ¿Cuántos moles de moléculas de sacarosa hay en la cucharada de azúcar?\n\nB. El juego de las conversiones químicas\n\nSemana 15",
+      "charCount": 1135
+    },
+    {
+      "pageNumber": 63,
+      "text": "",
+      "charCount": 0
+    },
+    {
+      "pageNumber": 64,
+      "text": "Unidad 1Unidad 4\n\n63 Unidad 4\n\np.\n\n114\n\nSemana 15",
+      "charCount": 49
+    },
+    {
+      "pageNumber": 65,
+      "text": "Comunicación 64\n\nC. Parejas de moles y átomos\n\np.\n\n117\n\n3.011 × 1024\n\nátomos\n\n1.4452 × 1025\n\nátomos\n\n3.011× 1024\n\nátomos CO2\n\n1.2044 ×1024\n\nátomos\n\n6.022 × 1023\n\nátomos CH4\n\n2.7119 × 1025\n\nátomos\n\n6.022 × 1023\n\nátomos\n\n1.8064 × 1024\n\nátomos\n\n1.2044 × 1024\n\nátomos S H2 C H2 SO4 NaCl C12H22O11\n\n4.4154 × 1024\n\nátomos C6H12O6 CaSO4",
+      "charCount": 329
+    },
+    {
+      "pageNumber": 66,
+      "text": "Unidad 4\n\n65 Indagación\n\nA. Masa molar de un compuesto\n\nCompleta las tablas de acuerdo con las indicaciones que se encuentran en el Libro de Texto:\n\na. ¿Cómo varía la masa molar de un compuesto según los elementos que lo forman y la proporción? Elemento Átomo Masa molar Subtotal × = × = Elemento Átomo Masa molar Subtotal × = × = Elemento Átomo Masa molar Subtotal × = × = × = Elemento Átomo Masa molar Subtotal × = × = × = Elemento Átomo Masa molar Subtotal × = × = × = × = H2SO4 C6H8O6 C2H3ClO2 H2O NO\n\np.\n\n119\n\nSemana 16\n\nMasa molar",
+      "charCount": 536
+    },
+    {
+      "pageNumber": 67,
+      "text": "Creatividad 66\n\nB. Detective de sustancias\n\nCompleta la siguiente tabla a partir de los datos obtenidos:\n\na. Con base en las masas obtenidas de CuSO4 anhidro y H2O, calcula los moles de cada sustancia.\n\nb. Ahora calcula el número de moléculas de agua que se han desprendido:\n\nMasa de la cápsula Masa del CuSO4 . H2O Masa del vidrio de reloj Masa de la cápsula + vidrio de reloj + CuSO4 anhidro Masa del CuSO4 anhidro Masa del agua evaporada Masa Factor de conversión Cantidad de sustancia Masa Factor de conversión Cantidad de sustancia Cantidad de sustancia Número de partículasFactor de conversión\n\np.\n\n121",
+      "charCount": 608
+    },
+    {
+      "pageNumber": 68,
+      "text": "Unidad 4\n\nComunicación 67\n\nC. Desafíos de conversión en química\n\na. Número de átomos de O2 = 3.011 × 1023 átomos de O2.\n\nb. Número de moléculas de H2O = 8.34 × 1023 moléculas de H2O.\n\nc. Número de iones de NaCl = 0.4 moles de iones de NaCl.\n\nSemana 16\n\nMasa Factor de conversión Cantidad de sustancia Número de partículas Factor de conversión Cantidad de sustancia Cantidad de partículas Factor de conversión Masa Cantidad de partículas Factor de conversión Masa Cantidad de partículas Factor de conversión Masa\n\np.\n\n123",
+      "charCount": 520
+    },
+    {
+      "pageNumber": 69,
+      "text": "68 Indagación Unidades químicas de concentración\n\nA. ¡Desafío de concentración química!\n\n7. Completa la tabla y elabora esquemas de las soluciones preparadas.\n\n1 2 3 4 Botella Sabor Color Dulzura Concentración\n\na. Al preparar los refrescos, ¿qué estrategias empleaste para asegurarte de utilizar la cantidad de soluto requerida?\n\nb. Durante la comparación de las propiedades físicas, ¿estableciste alguna correlación entre la concentración y las características de las soluciones diluidas?\n\nc. Si se te pidiera hacer una dilución con una concentración más baja, ¿cómo aplicarías lo aprendido en esta actividad para lograr la nueva concentración deseada?\n\np.\n\n125",
+      "charCount": 662
+    },
+    {
+      "pageNumber": 70,
+      "text": "Unidad 4\n\nCreatividad 69\n\nB. Cálculo de concentraciones químicas\n\n1. Calcula la masa de cada soluto a la concentración indicada:\n\na. Sulfato de magnesio (MgSO4.7H2O).\n\nc. Cloruro de sodio (NaCl).\n\nb. Bicarbonato de sodio (NaHCO3).\n\nd. Bórax (Na2B₄O7.10H₂O).\n\nSemana 17\n\np.\n\n128",
+      "charCount": 277
+    },
+    {
+      "pageNumber": 71,
+      "text": "Comunicación 70\n\nC. Desafíos de concentración en la industria salvadoreña\n\na. Industria farmacéutica - preparación de solución medicinal: una empre -\n\nsa farmacéutica necesita preparar 500 mL de una solución de ibuprofeno (C13H18 O2). La solución debe tener una concentración de 0.1 M. Calcula la cantidad de ibuprofeno necesaria para prepararla.\n\nb. Industria alimentaria - control de acidez en jugos: una fábrica necesita ajus - tar la acidez de un lote de jugo de naranja. Para ello, agrega una solución de carbonato de sodio (Na2CO3) a 0.5 N. Si se usan 200 mL de la solución, ¿cuántos moles de Na2CO3 se añaden?\n\nc. Industria textil - preparación de tintura: una fábrica textil preparará una so - lución de colorante, con 300 kg de solvente. La molalidad de la solución es\n\n0.2 mol/kg y la masa molar del colorante es 250 g/mol. Calcula los kg de\n\ncolorante que se necesitan para preparar la solución.\n\nd. Industria de agroquímicos - mezcla de fungicidas: una empresa de agroquímicos está formulando una mezcla de dos fungicidas (A y B) y se conoce que la fracción molar de A es 0.3. Calcula la fracción molar de B.\n\nEstos ejercicios abordan conceptos relacionados con las unidades químicas de concentración en contextos industriales salvadoreños. Practicar con problemas como estos te ayuda a fortalecer tu comprensión sobre estas unidades de concentración y sus aplicaciones.\n\np.\n\n129",
+      "charCount": 1391
+    },
+    {
+      "pageNumber": 72,
+      "text": "Unidad 4\n\n71 Indagación\n\nA. Explorando dispersiones en pociones mágicas\n\nDispersiones químicas. Parte 1\n\nSemana 18\n\na. Escoge una de las mezclas realizadas; luego, dibuja y describe detalladamente lo que has observado. Incluye cómo se veían las partículas, si se mezclaban o no, y cualquier cambio notorio.\n\nb. Selecciona dos mezclas y compara cómo se comportaron las partículas en cada una. ¿Hubo similitudes o diferencias en las interacciones de las partículas?\n\nc. Propón una sustancia casera adicional que usarías en un experimento para explorar las dispersiones. Describe cómo crees que las partículas de estas sustancias interactuarían con las de otras sustancias.\n\nd. Piensa en un entorno donde las dispersiones químicas sean importantes y describe cómo influyen en la interacción de las partículas en dicho entorno.\n\np.\n\n130",
+      "charCount": 832
+    },
+    {
+      "pageNumber": 73,
+      "text": "Creatividad 72\n\nB. ¡Bienvenidos a «Diorama de partículas»!\n\na. Dibuja una representación visual de cada sección del diorama. Escribe una breve descripción de las características visuales que distingues en cada sección.\n\nb. Elige una de las secciones del diorama y describe cómo se comportan las partículas en esa mezcla.\n\nc. Describe una situación en la que puedas encontrar suspensiones y otra en la que puedas hallar coloides en tu entorno.\n\nd. Diseña un experimento que puedas realizar en el salón de clases para demostrar las diferencias entre suspensiones y coloides utilizando materiales simples.\n\np.\n\n132",
+      "charCount": 611
+    },
+    {
+      "pageNumber": 74,
+      "text": "Unidad 4\n\n73 Comunicación\n\nC. Exploración coloidal con el efecto Tyndall\n\nD. Aplicaciones industriales de las dispersiones químicas\n\na. Completa la tabla con las decisiones de clasificación para cada vaso durante el juego.\n\na. ¿Cómo se utilizan las soluciones para mejorar la eficiencia en los procesos de producción?\n\nb. ¿Cómo influye el uso de coloides en la textura y apariencia de los productos?\n\nc. ¿Qué suspensiones son comunes? Explica cómo se usan y cuál es su impacto en los resultados finales.\n\nb. Describe cómo has empleado el efecto Tyndall\n\npara identificar coloides.\n\nc. Dibuja un diagrama que refleje el efecto Tyndall\n\nen acción durante el juego, etiquetando la fase dispersa y la fase dispersante.\n\np.\n\n135 1 2 3 Vaso Coloide No coloide ¿Acertaste?\n\np.\n\n136\n\nSemana 18",
+      "charCount": 785
+    },
+    {
+      "pageNumber": 75,
+      "text": "74 Indagación Dispersiones químicas. Parte 2\n\nA. De la dilución a la sobresaturación\n\na. Usa las soluciones creadas en el experimento como inspiración para crear una historia corta. Imagina que las soluciones, desde la sobresaturación hasta la insaturación, son personajes y crea la historia ilustrada que muestre cómo evolucionan a lo largo de la narrativa.\n\nb. Completa la tabla para comparar las propiedades de cada una de las soluciones que creaste durante la actividad: sobresaturada, saturada, insaturada y diluida.\n\nSobresaturada Saturada Insaturada Diluida Solución Características\n\np.\n\n138",
+      "charCount": 598
+    },
+    {
+      "pageNumber": 76,
+      "text": "Unidad 4\n\nCreatividad 75\n\nB. ¡La solubilidad en acción!\n\na. ¿Qué observaste cuando arrojaste el dulce en cada uno de los vasos etiquetados como «fría», «caliente» y «ambiente»? ¿Hubo alguna diferencia evidente?\n\nb. ¿Esta actividad sugiere que la temperatura puede aumentar o disminuir la solubilidad de una sustancia en un líquido? Explica tu respuesta.\n\nc. ¿Cómo afectó la agitación a la velocidad de disolución del polvo para refresco?\n\nd. ¿Qué conclusión puedes sacar sobre cómo la superficie de contacto afecta la solubilidad en base a la disolución de las muestras de chocolate en el agua caliente?\n\ne. ¿Qué ocurrió cuando agitaste vigorosamente la bebida gaseosa y luego la destapaste rápidamente para verterla en un vaso?\n\nf. ¿Qué diferencias notaste en la capacidad de las sustancias para disolverse en agua? ¿Cómo podrías explicar estas diferencias basándote en la naturaleza de las sustancias?\n\np.\n\n140\n\nSemana 19",
+      "charCount": 923
+    },
+    {
+      "pageNumber": 77,
+      "text": "Comunicación 76\n\nC. Un viaje molecular a través de la solubilidad\n\na. ¿Qué elementos agregaste para representar los factores que afectan la solubilidad en tu actividad?\n\nb. Crea un diagrama conceptual que explique cómo afectan la temperatura, la presión y la superficie de contacto a la solubilidad de una sustancia en un solvente.\n\nc. Completa el cuadro comparativo de los factores que afectan la solubilidad según el tipo de sustancia (sólida, líquida o gaseosa) en un solvente líquido. Utiliza A para indicar que aumenta la solubilidad, B que la disminuye y N que no se afecta considerablemente.\n\nd. ¿Cuál sería la elección más adecuada entre una cuchara y un tenedor para agitar una solución? Sólido Líquido Gas Sustancia Temperatura Presión Superficie de contacto Agitación\n\np.\n\n143",
+      "charCount": 787
+    },
+    {
+      "pageNumber": 78,
+      "text": "Unidad 4\n\n77 Indagación\n\nA. Desafío del sorbete, ¡que no se derrita!\n\nPropiedades coligativas de las soluciones\n\n6. Temperatura inicial: Control: °C Experimental: °C Hielo con sal: °C\n\n8. Tiempo para derretirse: Control: min Experimental: min Hielo con sal: min\n\na. Elabora una gráfica de dispersión para representar los datos recopilados en la actividad. En el eje X coloca las temperaturas iniciales (°C) y en el eje Y los tiempos de derretimiento (min) en cada grupo.\n\nb. Dibuja esquemas de los resultados de los tres vasos y escribe qué diferencias notaste en la velocidad de derretimiento entre el grupo «control», el grupo «experimental» y el grupo «hielo con sal».\n\np.\n\n144\n\nSemana 20",
+      "charCount": 691
+    },
+    {
+      "pageNumber": 79,
+      "text": "Creatividad 78\n\nB. Propiedades coligativas\n\nParte I. Presión de vapor\n\na. ¿Puedes identificar cuál de las sustancias (agua, alcohol y acetona) se volatilizó en primer lugar para el primer experimento? Explica o hipotetiza este fenómeno.\n\nb. Respecto al segundo experimento, ¿cuál crees que podría ser la razón detrás de las diferencias que notaste en el proceso de evaporación entre la mezcla de alcohol y sal, y el alcohol puro?\n\na. ¿Cómo explicarías ese cambio de temperatura?\n\na. Después de tomar la temperatura inicial del hielo, ¿cómo puedes explicar el cambio en la temperatura después de agregar la sal?\n\nAgua sin sal (antes) Agua con sal (después) Inicio (hielo) Después con sal Experimento Temperatura (°C) Etapa Temperatura (°C) Parte III. Temperatura de congelación En la tabla siguiente anota las temperaturas:\n\nParte II. Punto de ebullición En la siguiente tabla anota las temperaturas:",
+      "charCount": 899
+    },
+    {
+      "pageNumber": 80,
+      "text": "Unidad 4\n\n79 Comunicación\n\nC. Aplicaciones industriales de las propiedades coligativas\n\nParte IV. Presión osmótica\n\na. ¿Qué cambios observaste en el huevo después de sumergirlo en vinagre por tres días y cómo explicarías estos cambios?\n\nb. ¿Qué diferencias notas en el huevo luego de estar 24 h en agua?\n\na. Una fábrica de productos químicos necesita\n\nproducir un anticongelante para autos que tenga un punto de congelación de -40 °C. Conociéndose que la constante crioscópica del agua es de 1.853 °C kg/mol y que se usará etilenglicol (C2H6O2) como soluto, debe de calcular la cantidad de soluto necesaria por cada litro de agua.\n\nb. Una fábrica de caramelos necesita conocer la\n\ntemperatura de ebullición de una solución de azúcar y agua. La empresa tiene un lote de 50 L de solución con una concentración de 92 % g/g.\n\nSemana 20\n\np.\n\n149\n\np.\n\n146",
+      "charCount": 849
+    },
+    {
+      "pageNumber": 81,
+      "text": "80 Evaluación Selecciona la respuesta correcta:\n\n1. ¿Qué unidad se utiliza para expresar la concentración de una solución en masa de soluto por volu - men de solución?\n\na. % v/v c. % m/v\n\nb. ppm d. ppb\n\n2. Un mol es la cantidad de sustancia que…\n\na. Contiene 6.022 × 1023 átomos.\n\nb. Posee 12 átomos de carbono.\n\nc. Libera 8.1416 moléculas.\n\nd. Tiene una masa de 10 g\n\n3. Si posees 18 g de agua (H2O), ¿cuántos moles de\n\nagua tienes?\n\na. 1 mol c. 0.5 mol\n\nb. 2 mol d. 3 mol\n\n4. ¿Cuál es la masa molar del oxígeno (O2)?\n\na. 2 g/mol c. 16 g/mol\n\nb. 32 g/mol d. 64 g/mol\n\n5. Indica qué es un coloide.\n\na. Una mezcla heterogénea donde las partículas\n\nsólidas tienden a sedimentarse.\n\nb. Una mezcla homogénea de diversos solutos y\n\nsolventes.\n\nc. Una mezcla de partículas de tamaño nanométrico que no se sedimenta fácilmente.\n\nd. Una mezcla de partículas sólidas suspendidas\n\nen un líquido.\n\n6. ¿Cuál de las siguientes opciones describe a una\n\nsolución sobresaturada?\n\na. Contiene la máxima cantidad de soluto que\n\npuede disolverse a una temperatura dada.\n\nb. Contiene una pequeña cantidad de soluto en\n\ncomparación con el solvente.\n\nc. Contiene más soluto del que disuelve normal -\n\nmente a una temperatura específica.\n\nd. Contiene una cantidad igual de soluto y sol -\n\nvente al formar la disolución.\n\n7 Si se agrega una determinada cantidad de soluto a un solvente, ¿cómo se verá afectada la presión de vapor de la solución resultante con respecto a la del solvente puro?\n\na. Aumenta c. Disminuye\n\nb. Se mantiene\n\n8 Imagina que tienes una solución de cloruro de sodio (NaCl) en agua. ¿Cómo podrías aumentar la solubilidad del NaCl en esa solución?\n\na. Reduciendo la concentración del soluto.\n\nb. Aumentando la temperatura.\n\nc. Disminuyendo la presión.\n\nd. Agitando la solución.\n\n9. Explica por qué el aumento de la presión incre -\n\nmenta la solubilidad de un gas en un líquido.\n\na. El aumento de la presión aumenta la fuerza de\n\nlas interacciones intermoleculares y eso per - mite que más gas se disuelva.\n\nb. El aumento de la presión reduce la energía ci -\n\nnética de las partículas de gas, lo que facilita su disolución.\n\nc. La presión no afecta las fuerzas intermoleculares en la disolución de gases.\n\nd. El aumento de la presión disminuye la solubilidad de un gas por la mayor agitación molecu - lar .\n\n10. Un científico posee dos soluciones, una con -\n\ntiene cloruro de sodio (NaCl) y otra sacarosa (C12H22O11), ambas en agua. ¿Cuál de las soluciones experimentará un mayor descenso del punto de congelación y por qué?\n\na. La solución de NaCl, a causa de su mayor\n\nmasa molar .\n\nb. La solución de C12H22O11 debido a su mayor\n\ncantidad de partículas en la solución.\n\nc. Ambas soluciones, porque dependen de la\n\ncantidad de soluto disuelto.\n\nd. Ninguna de las soluciones.",
+      "charCount": 2771
+    },
+    {
+      "pageNumber": 82,
+      "text": "• Ejemplificar objetos comunes elaborados a partir\n\nde minerales.\n\n• Caracterizar a los minerales con base en sus propiedades físicas.\n\n• Reconocer combinaciones de elementos quími -\n\ncos que conforman los minerales.\n\n• Explicar el proceso de formación de cristales.\n\n• Determinar el hábito cristalino de un mineral preparado experimentalmente.\n\n• Reconocer las estructuras cristalinas de los minerales.\n\n• Reconocer los minerales presentes según el tipo\n\nde roca.\n\n• Ubicar los yacimientos minerales en El Salvador .\n\n• Argumentar el balance de los impactos de la mi -\n\nnería.\n\nMinerales Eje integrador: organización\n\nUnidad 5\n\nDuración: 3 semanas Cueva de Naica, Chihuahua, México.\n\nEn esta unidad aprenderemos a:",
+      "charCount": 715
+    },
+    {
+      "pageNumber": 83,
+      "text": "82 Indagación\n\nA. Descubramos minerales\n\n3. Registro de observaciones.\n\n4. Completa la tabla.\n\na. ¿Qué crees que es un mineral?\n\n5. Completa la tabla.\n\n6. Escribe la composición y organización de los átomos en cada mineral.\n\nPropiedades de los minerales Ejemplo Homogénea Café rojizo Rugosa Cristales Muestra 1 Muestra 2 Muestra 3 Piso de cerámica Yeso, caliza A B C Yeso Ca(SO4)∙2H2O Calcio, azufre, oxígeno, hidrógeno\n\nRoca Tipo de mezcla Colores Texturas Formas de las fases Roca Tipo de mezcla Colores Texturas Formas de las fases Material u objeto Minerales que constituyen el material u objeto Ejemplo Mineral 1 Mineral 2 Mineral 3 Mineral 4\n\np.\n\n155",
+      "charCount": 656
+    },
+    {
+      "pageNumber": 84,
+      "text": "Unidad 5\n\nCreatividad 83\n\nB. Observatorio de minerales\n\nParte III: Observación de rocas y minerales.\n\n4. Completa la tabla con los colores de las muestras:\n\n5. Completa la tabla con las masas y calcula las densidades:\n\n6. Marca con una X si es mineral o roca para cada muestra:\n\nSemana 21\n\nNombre de la muestra Mesa 1 Color Nombre de la muestra Mesa 2 m V t Nombre de la muestra Mesa 3 Mineral Roca",
+      "charCount": 398
+    },
+    {
+      "pageNumber": 85,
+      "text": "84\n\n7. Completa la tabla con el color de raya para cada muestra:\n\nNombre de la muestra Mesa 4 Color de raya\n\n8. Marca con una X si la muestra es fácil o difícil de rayar:\n\n9. Marca con una X si la muestra transmite o no la luz:\n\nNombre de la muestra Mesa 5 Fácil de rayar Difícil de rayar Nombre de la muestra Mesa 6 Transmite la luz No transmite la luz\n\np.\n\n157",
+      "charCount": 362
+    },
+    {
+      "pageNumber": 86,
+      "text": "Unidad 5\n\n85 Indagación Estructura de los minerales\n\nA. Cristales del mar\n\na. Identifica los factores que intervienen en la formación de estos cristales.\n\nb. ¿En qué momento del proceso experimental ocurre la etapa de nucleación?\n\nc. Identifica en qué momento obtuviste el núcleo en el proceso experimental.\n\nd. Identifica la etapa de crecimiento del cristal.\n\ne. Elabora un esquema del resultado.\n\np.\n\n161 Guarda los cristales y cuídalos, los usarás más adelante.\n\nSemana 22\n\n¡Genial!\n\nSolicita a tu responsable que comparta tus logros.\n\n@educacion_sv @educacion_sv @educacionsv @EducacionSV",
+      "charCount": 592
+    },
+    {
+      "pageNumber": 87,
+      "text": "Creatividad 86\n\nB. Cristales azules\n\na. ¿Qué sucede al disminuir la temperatura de la solución?\n\nb. ¿Cuánto tiempo pasó para que se empezaran a formar cristales en el plato?\n\nc. ¿Cuánto tiempo pasó para que crecieran los cristales en el frasco?\n\nd. ¿Por qué es necesario tanto tiempo para la formación de cristales?\n\ne. ¿Qué sucedería si aceleramos la evaporación del agua?\n\nf. ¿Describe qué forma tienen los cristales que obtuviste?\n\ng. Coloca una imagen o ilustra el resultado.\n\np.\n\n162",
+      "charCount": 488
+    },
+    {
+      "pageNumber": 88,
+      "text": "Unidad 5\n\n87\n\nC. Determinando el hábito de los cristales\n\np.\n\n163\n\n10. Registra tus observaciones.\n\n4. Dibuja e identifica el sistema cristalino que elaboraste o coloca una fotografía. Dibuja o pega la imagen que observas.\n\nDibuja o pega la imagen que observas.\n\nDibuja o pega la imagen que observas.\n\nDibuja o pega la imagen que observas.\n\nCloruro de sodio Fórmula Hábito Bórax Fórmula Hábito Sulfato de Cobre Fórmula Hábito Alumbre Fórmula Hábito Comunicación\n\nD. Sistemas cristalinos\n\np.\n\n166\n\nSemana 22",
+      "charCount": 506
+    },
+    {
+      "pageNumber": 89,
+      "text": "88 Indagación\n\nA. Formación de rocas\n\n1. Responde a partir de tus saberes previos:\n\nB. Minerales presentes en cada tipo de roca\n\n2. Escribe verdadero o falso para las siguientes afirmaciones.\n\nC. Clasifica rocas ígneas\n\n2. Los porcentajes de minerales en una muestra Y recolectada en el campo son los siguientes: Recálculo: Calcula el factor de multiplicación:\n\nMinerales en El Salvador\n\na. ¿Cómo se forman las rocas?\n\nb. ¿Qué es y de qué está compuesto el magma?\n\nc. ¿Cuántos tipos de rocas existen?\n\na. Las rocas plutónicas son llamadas también intrusivas.\n\nb. El mármol y la cuarcita son ejemplos de rocas metamórficas.\n\nc. El yeso se clasifica como roca sedimentaria detrítica.\n\nd. El magma da origen a las rocas ígneas.\n\nCreatividad Plagioclasa Cuarzo Feldespato alcalino Total 30 % 10 % 20 % Plagioclasa (P) Cuarzo (Q) Feldespato alcalino (FA) Total\n\np.\n\n166\n\np.\n\n168",
+      "charCount": 873
+    },
+    {
+      "pageNumber": 90,
+      "text": "Unidad 5\n\n89\n\n3. Traza las líneas en el triángulo equilátero correspondientes a Q, FA y P con el color de tu preferencia para ambas muestras e identifica el punto de intersección.\n\n4. Identifica los componentes intrusivo y extrusivo de las rocas.\n\nExtrusivo: Intrusivo:\n\n5. Haz el recálculo para la muestra Z.\n\na. Los porcentajes de minerales en una muestra Z\n\nrecolectada en el campo son los siguientes:\n\nRecálculo:\n\nCalcula el factor de multiplicación:\n\nSemana 23\n\nPlagioclasa Cuarzo Feldespato alcalino Total 35 % 25 % 20 % Plagioclasa (P) Cuarzo (Q) Feldespato alcalino (FA) Total 10 10 10 100 100 100 0 0 0 20 20 20 30 30 30 40 40 40 50 50 50 60 60 60 70 70 70 80 80 80 90 90 90 Q FA P",
+      "charCount": 690
+    },
+    {
+      "pageNumber": 91,
+      "text": "90\n\nb. Traza las líneas en el triángulo equilátero correspondientes a Q, FA y P con el color de tu preferencia para ambas muestras e identifica el punto de intersección.\n\nc. Identifica los componentes intrusivo y extrusivo de las rocas.\n\nExtrusivo: Intrusivo:\n\nD. Ley de la Minería en El Salvador\n\n1. Ubica al menos cinco canteras y cinco yacimientos metálicos en el mapa.\n\n10 10 10 100 100 100 0 0 0 20 20 20 30 30 30 40 40 40 50 50 50 60 60 60 70 70 70 80 80 80 90 90 90 Q FA P Comunicación\n\np.\n\n169",
+      "charCount": 501
+    },
+    {
+      "pageNumber": 92,
+      "text": "Unidad 5\n\n91\n\n3. Escribe un ensayo.\n\nIntroducción Desarrollo Cierre\n\nSemana 23\n\nEscaneando el código encontrarás la Ley General de Minería Metálica en El Salvador.\n\nhttps://qrs.ly/k1fs16q",
+      "charCount": 187
+    },
+    {
+      "pageNumber": 93,
+      "text": "92 Evaluación\n\n1. Escribe de cuál propiedad de los minerales se trata:\n\na. Se puede presentar rotura aleatoria.\n\nb. Es el aspecto del mineral cuando se le refleja la luz.\n\nc. Muchas veces, para saberlo, hay que rayarlo con un material más duro.\n\nd. Esta propiedad determina el color del polvo fino del mineral.\n\ne. Es la relación entre la masa y el volumen. Los metales tienen más.\n\n2. Escribe V (verdadero) o F (falso):\n\na. Los minerales están compuestos por rocas.\n\nb. Según la escala de Mohs, el mineral más duro es el diamante.\n\nc. La forma correcta de llamar al vidrio es cristal.\n\nd. Los fosfatos son minerales de fósforo y oxígeno.\n\ne. La cristalogénesis es el proceso de formación de un cristal.\n\n3. Investiga un mineral o roca de tu interés y completa la siguiente ficha.\n\nb. Escribe por qué te interesó.\n\na. Imagen del mineral o roca\n\nFórmula química:\n\nClasificación:\n\nColor:\n\nDureza:\n\nRaya:\n\nHábito:\n\nSistema cristalino:\n\nUsos:\n\nPrincipales países productores:",
+      "charCount": 971
+    },
+    {
+      "pageNumber": 94,
+      "text": "• Identificar propiedades físicas o químicas de los\n\nprincipales tejidos vegetales.\n\n• Comparar adaptaciones estructurales de las células vegetales dentro de los tejidos.\n\n• Ejemplificar estructuras vegetales para la con -\n\nducción y el almacenamiento de sustancias.\n\n• Elaborar un catálogo histológico vegetal a partir\n\nde muestras, micrografías o esquemas.\n\n• Ejemplificar variables que inciden en la germina -\n\nción y el crecimiento de plantas.\n\n• Identificar las características y ubicación de las\n\nregiones meristemáticas.\n\n• Efectuar un experimento para evidenciar los procesos de transpiración y fotosíntesis en plantas.\n\n• Explicar con lenguaje científico las principales\n\nfunciones fisiológicas de las hojas.\n\nAnatomía y fisiología vegetal Eje integrador: organización\n\nUnidad 6\n\nDuración: 4 semanas Cardosanto (Argemone sp) En esta unidad aprenderemos a:",
+      "charCount": 864
+    },
+    {
+      "pageNumber": 95,
+      "text": "94 Indagación\n\nA. Potencial hídrico en tejidos vegetales\n\n5. Mide la masa de un trozo de papa y anota el resultado en la tabla.\n\n9. Escribe tus observaciones.\n\n12. Responde:\n\na. ¿Qué cambios han ocurrido en los trozos de papa?\n\nb. ¿Qué trozo de papa tuvo más variación de masa?\n\nc. ¿Cuál tuvo menos variación?\n\nd. ¿A qué se deben los cambios ocurridos? Apóyate con la ilustración de la parte superior .\n\ne. Explica la importancia de este proceso en el funcionamiento biológico de las plantas\n\nExplica por qué cambia el color del yodo:\n\nLos tejidos vegetales 1 0 g 1 2 1 g 2 3 2 g 3 4 3 g 4 5 4 g 5 6 5 g 6 Frasco Azúcar (g) Trozo de papa Masa inicial del trozo de papa (g) Masa final del trozo de papa (g) Hipotónica Hipertónica Isotónica Turgente Flacida Plasmolizada Papa Vegetal 1 Vegetal 2 Sin tintura de yodo Con tintura de yodo\n\np.\n\n176",
+      "charCount": 842
+    },
+    {
+      "pageNumber": 96,
+      "text": "Creatividad 95\n\nB. Reconociendo tejidos meristemáticos y de protección\n\n3. Esquematiza el brote que observas y responde.\n\na. ¿Cómo describirías a un brote?\n\nb. ¿Cuál es la función de los brotes en la planta?\n\nc. ¿De qué tipo de tejido están conformados los brotes? ¿Por qué?\n\n5. Crea esquemas de las estructuras observadas en tallos y hojas y responde.\n\nd. ¿Qué funciones cumple esta superficie externa?\n\ne. Según estas funciones, ¿a qué tipo de tejido pertenecería?\n\nf. Imagina que tu mano es la hoja, ¿cuál es el nombre del tejido que la recubre?\n\np.\n\n177\n\nUnidad 6\n\nSemana 24",
+      "charCount": 578
+    },
+    {
+      "pageNumber": 97,
+      "text": "96\n\nC. Tejidos fundamentales\n\nParte I. Conozcamos los parénquimas Parte II. Colénquima y esclerénquima: los pilares de la planta\n\na. ¿Por qué flotan?\n\nb. ¿Qué características observas?\n\nc. ¿Crees que esta disposición del tejido le ayuda a la planta a flotar?\n\nd. ¿Qué características observas en este corte?\n\ne. ¿Observas diferencias entre los tallos?\n\nf. ¿Cómo crees que sobrevive a ambientes desérticos sin deshidratarse?\n\na. ¿Qué diferencias logras notar en cada uno?\n\n3. Esquematiza los cortes de los tallos.\n\n4. Escribe tres diferencias entre ambos tipos de tejido.\n\nColénquima Esclerénquima\n\np.\n\n179\n\np.\n\n178",
+      "charCount": 614
+    },
+    {
+      "pageNumber": 98,
+      "text": "Comunicación 97\n\nD. Adaptaciones estructurales\n\n3. Elabora un esquema de clasificación de los tejidos vegetales.\n\n4. Completa la tabla.\n\nEl otro tipo de tejido vegetal que nos falta por estudiar es el tejido vascular, que consta de xilema y floema, el cual lo estudiaremos en la siguiente clase.\n\nEpidermis Peridermis Aerénquima Hidrénquima Parénquima amilífero (parénquima de reserva) Colénquima Esclerénquima Tejido Adaptación estructural Función\n\nUnidad 6\n\np.\n\n181 Flor Fruta Brote\n\nSemana 24",
+      "charCount": 495
+    },
+    {
+      "pageNumber": 99,
+      "text": "98 Indagación\n\nA. Xilema y floema: el sistema de transporte de las plantas\n\n4. Anota tus observaciones.\n\nTransporte de sustancias Apio con colorante azul Apio con colorante rojo Muestra Observación inicial Observación final Cambios en el sabor\n\na. ¿Qué sucedió con el agua en ambos vasos?\n\nb. ¿Qué tipo de tejido conductor representa el colorante azul y qué sustancia transporta?\n\nc. ¿Qué notaste al degustar al apio del vaso rojo?\n\nd. ¿Qué tipo de tejido conductor representa el colorante rojo y qué tipo de sustancias transporta?\n\ne. Indica la dirección del transporte de la savia bruta y la savia elaborada en la planta.\n\np.\n\n182",
+      "charCount": 632
+    },
+    {
+      "pageNumber": 100,
+      "text": "Creatividad 99\n\na. ¿Qué color tenían las hojas antes de ponerlas a hervir?\n\nb. ¿Cómo se llama el pigmento en las hojas?\n\nc. ¿Observaste estructuras incoloras en la muestra de hoja decolorada?\n\nd. ¿De qué color eran las estructuras en las muestras de zanahoria y tomate?\n\ne. ¿Qué observaste en la muestra de zanahoria al agregarle lugol?\n\nf. ¿Qué sustancia identificamos con el lugol?\n\ng. ¿Qué otro vegetal también almacena almidón?\n\nh. ¿Qué observaste en el triturado de la semilla?\n\nUnidad 6\n\nB. Estructuras vegetales de almacenamiento\n\n8. Elabora esquemas de lo observado.\n\np.\n\n183\n\nSemana 25",
+      "charCount": 594
+    },
+    {
+      "pageNumber": 101,
+      "text": "Comunicación 100\n\nC. Catálago histológico\n\n1. Compara las características diferenciadoras entre xilema y floema.\n\n3. Escribe el índice del álbum elaborado.\n\nTejido del que se originan el xilema y floema primarios Tejidos que pueden dejar de ser funcionales si hay crecimiento secundario Tejido que origina el crecimiento secundario Tipos celulares constituyentes Sustancias que transportan Características Xilema Floema\n\np.\n\n187",
+      "charCount": 428
+    },
+    {
+      "pageNumber": 102,
+      "text": "101 Indagación\n\nA. Germinación de semillas\n\n5. Registra las observaciones durante una semana.\n\nUnidad 6\n\n1 Luz Papel filtro humedecido 2 Luz Tierra humedecida 3 Oscuridad Papel filtro humedecido 4 Oscuridad Tierra humedecida Bandeja Iluminación Sustrato N.° semillas germinadas N.° semillas sembradas % de germinación\n\n7. Responde:\n\na. ¿Cuál combinación de sustrato e iluminación permitió un mayor porcentaje de germinación? ¿A qué creen que se debió?\n\nb. ¿Por qué es importante el agua en la germinación de la semilla?\n\nc. ¿Conocen especies de plantas cuyas semillas sean de difícil germinación? ¿A qué consideran que se deba?\n\nd. ¿Qué otro factor es importante para la germinación?\n\ne. Comparen los resultados con otros equipos para conocer cuál especie mostró mayor porcentaje de germinación.\n\np.\n\n188 Desarrollo y reproducción vegetal\n\nSemana 26",
+      "charCount": 849
+    },
+    {
+      "pageNumber": 103,
+      "text": "Creatividad 102\n\nB. Identificación de meristemos\n\n3. Esquema de las zonas meristemáticas.\n\nC. Caracterización de regiones meristemáticas\n\n7. Elabora esquemas.\n\n4. Responde:\n\na. ¿Por qué consideras que estas partes de la planta\n\nson zonas meristemáticas?\n\nb. Explica la función de cada una de estas zonas meristemáticas identificadas.\n\nc. ¿Todas las plantas tienen meristemo apical y me -\n\nristemo lateral? Explica.\n\nResponde:\n\na. ¿Por qué se utilizaron partes de la raíz y no de la epidermis?\n\nb. ¿Cómo se encuentran las células en la muestra?\n\nc. ¿Se observan células de mayor tamaño que otras o\n\nen diversas fases?\n\np.\n\n189\n\np.\n\n190",
+      "charCount": 634
+    },
+    {
+      "pageNumber": 104,
+      "text": "103\n\nD. Maduración de frutos\n\n6. Anota la temperatura y la apariencia de los grupos de fruta.\n\n7. Responde:\n\na. ¿Cuál fue la temperatura promedio de cada\n\ngrupo de plátanos?\n\nb. ¿Qué grupo de plátano tuvo una maduración\n\nmás acelerada?\n\nc. ¿Qué efecto tiene la temperatura sobre la ma -\n\nduración de los frutos?\n\nd. ¿Qué efecto causó la manzana madura en el\n\ngrupo de plátanos?\n\ne. ¿Por qué se escogió una manzana madura y no\n\nuna verde?\n\nf. ¿Qué aplicabilidad en la industria alimentaria le\n\ndarías a este procedimiento?\n\np.\n\n191 Día 1 Día 2 Día 3 Día 4 Día 5 Día 6 Día 7 Tiempo Temperatura Aspectos (color, olor, consistencia) Bolsa 1 Bolsa 2 Bolsa 3 Comunicación\n\nE. Semillas viajeras\n\n4. Utiliza de ejemplo la información del cuadro para cada una de las semillas de tu colección. Especie de planta Descripción de la semilla Descripción del fruto Modo de dispersión\n\np.\n\n193\n\nUnidad 6\n\nSemana 26",
+      "charCount": 898
+    },
+    {
+      "pageNumber": 105,
+      "text": "104 Indagación\n\nA. Las hojas y sus funciones\n\n3. Elabora esquemas y describe las formas de las hojas.\n\n4. Elabora esquemas de las muestras.\n\nLa hoja y sus funciones\n\na. ¿Consideras que la forma de las hojas y su disposición en el tallo influyen para recibir luz solar?\n\nb. ¿Cuál es la función principal de las hojas?\n\nc. ¿Observas hojas típicas en las muestras?\n\nd. ¿Identifica otras estructuras parecidas a hojas?\n\ne. ¿Qué función consideras que poseen las hojas modificadas?\n\np.\n\n194",
+      "charCount": 485
+    },
+    {
+      "pageNumber": 106,
+      "text": "Creatividad 105\n\nUnidad 6\n\nB. La luz y la transpiración en las plantas\n\n2. Anota la masa inicial y la masa final de las plantas.\n\nC. Observando la fotosíntesis\n\n1 Iluminación directa 2 Iluminación indirecta 3 Obscuridad Planta Condición Masa inicial Masa final\n\n5. Responde:\n\na. ¿A qué se ha debido el cambio de masa en las plantas?\n\nb. Explica el fenómeno fisiológico que ha ocurrido.\n\nc. ¿Qué relación existe entre la intensidad de la luz y la transpiración?\n\na. Describe lo que está sucediendo.\n\nb. ¿Qué cambios hubo?\n\nc. ¿Por qué ocurrieron tales cambios?\n\nd. Relaciona la exposición de la Elodea a la luz con el fenómeno observado en el experimento.\n\ne. ¿Qué importancia ecológica encuentras en este fenómeno?\n\np.\n\n195\n\np.\n\n196\n\nSemana 27",
+      "charCount": 743
+    },
+    {
+      "pageNumber": 107,
+      "text": "106\n\nD. La respiración vegetal\n\n5. Llena el cuadro.\n\nFrasco con planta Frasco sin planta Condición del frasco Tiempo\n\na. ¿En qué frasco duró menos la vela encendida y por qué?\n\nb. ¿Por qué se escogió un lugar oscuro para realizar el experimento y cómo se sabe que la planta está absorbiendo oxígeno o dióxido de carbono?\n\nc. Observa el esquema y deduce la ecuación de la respiración celular .\n\nd. ¿Por qué se escogió un lugar oscuro para realizar el experimento y cómo se sabe que la planta está absorbiendo oxígeno o dióxido de carbono?\n\np.\n\n197 Comunicación\n\nE. Explicación de la función de las hojas\n\n1. Funciones de los tipos de hoja:\n\nNomófilo Antófilo Hipsófilo Catáfila Cotiledón Tipo de hoja Forma Función Especies botánicas en la que se encuentra\n\np.\n\n198",
+      "charCount": 764
+    },
+    {
+      "pageNumber": 108,
+      "text": "107 Evaluación\n\n1. Considera un escenario donde hay una papa partida a la mitad, a la cual se le ha sacado su interior y ha sido reemplazada por una solución azucarada. El trozo de papa se coloca dentro de un recipiente con agua, sin que esta sobrepase al trozo de papa completamente. La pared de la papa actuaría como una membrana semipermeable.\n\n2. Identifica, señala y describe la función de los tejidos vegetales en el esquema de la planta.\n\n3. Erróneamente se dice que el xilema transporta agua\n\ny el floema transporta alimento; pero técnicamente el primero transporta savia bruta y el segundo, savia elaborada. Ambas están compuestas de agua en gran proporción. Explica cuál sería la limitación fisiológica si el floema en realidad solo transportara alimento sin agua.\n\n¿En qué sentido iría el flujo del agua? ¿Qué tendría mayor potencial hídrico, el agua dentro de la papa o el agua del recipiente?\n\nAgua Recipiente Papa Agua azucarada",
+      "charCount": 942
+    },
+    {
+      "pageNumber": 109,
+      "text": "108\n\n4. Investiga y completa el modo de dispersión de las siguientes plantas.\n\n5. Explica por qué la fotosíntesis es una reacción antagónica a la respiración celular .\n\n6. Con base en los procesos fisiológicos de las plantas que has estudiado en esta unidad, indica las similitudes y diferencias que existen entre las plantas y entre los animales.\n\nCeiba Almendro Mango Amate Limonero Especie de planta Descripción de la semilla Descripción del fruto Modo de dispersión",
+      "charCount": 469
+    },
+    {
+      "pageNumber": 110,
+      "text": "• Identificar las principales características estructurales y funcionales de los tejidos animales fundamentales.\n\n• Explicar con lenguaje científico las características y\n\nfunciones de los tejidos animales fundamentales.\n\n• Identificar las estructuras principales del sistema\n\nmusculoesquelético.\n\n• Explicar con sus palabras cómo se relaciona el intercambio de gases y la circulación.\n\n• Identificar las principales características estructurales de los sistemas digestivos.\n\n• Comparar los procesos de ingestión y digestión\n\nen vertebrados.\n\n• Ejemplificar los procesos generales que realizan\n\nlos sistemas excretores.\n\n• Explicar las funciones principales de los riñones.\n\n• Identificar diferentes mecanismos de excreción\n\nen animales.\n\nAnatomía y fisiología animal Eje integrador: sistemas\n\nUnidad 7\n\nDuración: 5 semanas Rana de ojos rojos Agalychnis callidryas En esta unidad aprenderemos a:",
+      "charCount": 895
+    },
+    {
+      "pageNumber": 111,
+      "text": "110 Indagación\n\nA. Reconociendo tejidos\n\n7. Elaboren esquemas de sus observaciones.\n\nTipos de tejidos animales\n\np.\n\n206",
+      "charCount": 119
+    },
+    {
+      "pageNumber": 112,
+      "text": "Unidad 7\n\n111 Creatividad\n\n10. Responde:\n\na. ¿Qué características tiene la porción más superficial de las muestras?\n\nb. ¿Qué función crees que cumple la piel en las muestras?\n\nc. ¿Cuál es el aspecto de la capa siguiente a la piel y cuál sería su función?\n\nd. ¿Qué función consideran que cumple la capa de grasa?\n\ne. ¿Cómo describirían el músculo y cuál sería su función?\n\nf. ¿Cómo es el aspecto del hueso y qué función cumple?\n\ng. ¿Qué función cumple el cartílago?\n\nB. Observando tejidos\n\n3. Observa al microscopio e ilustra las características de la muestra.\n\nSemana 28\n\np.\n\n206",
+      "charCount": 579
+    },
+    {
+      "pageNumber": 113,
+      "text": "112\n\n6. Observa al microscopio, haz anotaciones e ilustraciones de la capa de grasa.\n\np.\n\n210\n\nD. Cartas informativas\n\n2. Completa el cuadro.\n\nTejido Características Funciones\n\np.\n\n207",
+      "charCount": 184
+    },
+    {
+      "pageNumber": 114,
+      "text": "Unidad 7Unidad 8\n\n113 Indagación Sistema musculoesquelético\n\nA. Observando muestras\n\n7. Esquematiza las diferentes muestras observadas al microscopio y anota sus características.\n\nSemana 29\n\nOrganismo: Organismo:\n\nÓrganos: Órganos:\n\nTejidos: Tejidos:\n\nOrganismo: Organismo:\n\nÓrganos: Órganos:\n\nTejidos: Tejidos:\n\nMuestra 1 (esquema) Muestra 2 (esquema) Muestra 3 (esquema) Muestra 4 (esquema)\n\np.\n\n213",
+      "charCount": 401
+    },
+    {
+      "pageNumber": 115,
+      "text": "Creatividad 114\n\nB. Contracción muscular\n\nParte I. Midiendo los bíceps\n\n6. Anota los resultados y concluye sobre el comportamiento de los músculos del bíceps. Parte II. ¿Quién es más rápido?\n\n8. Anota los resultados y concluye sobre el comportamiento de los músculos de la mano. Parte III. ¿Quién es más fuerte?\n\n7. Anoten los resultados.\n\n1 2 3 4 1 2 3 4 1 2 3 4 Participante Medida sin carga (cm) Medida con carga (cm) Bíceps extendido Bíceps flexionado Bíceps extendido Bíceps flexionado Participante Número de repeticiones 1 min 2 min 3 min 4 min Participante Número de repeticiones (antes de sumergir la mano) Número de repeticiones(después de sumergir la mano) Conclusión:\n\nConclusión:\n\n8. Analiza y concluye sobre el movimiento y la frecuencia de las repeticiones después de cada intervalo de tiempo.\n\np.\n\n215",
+      "charCount": 816
+    },
+    {
+      "pageNumber": 116,
+      "text": "Unidad 7Unidad 8\n\nComunicación 115\n\nC. Brazo artificial\n\n8. Responde:\n\na. ¿Qué músculos usas para mover el brazo?\n\nb. ¿Qué pasa si uno de los músculos se lesiona?\n\nc. ¿Qué tipo de lesiones puede ayudar a restaurar el dispositivo?\n\nd. Investiga con familiares o conocidos que hayan sufrido una lesión cómo fue el proceso de recuperación y cómo era la movilidad de los músculos antes y después de la lesión.\n\ne. Conclusión sobre el uso del dispositivo.\n\np.\n\n217\n\nSemana 29",
+      "charCount": 470
+    },
+    {
+      "pageNumber": 117,
+      "text": "116 Indagación\n\nA. Frecuencia cardíaca y respiratoria\n\n3. Mide la frecuencia cardíaca y respiratoria de los integrantes.\n\nSistemas respiratorio y circulatorio\n\n8. Responde:\n\na. ¿Qué diferencia observaste entre los integrantes cuando estaban en reposo y cuando comenzaron a hacer los ejercicios?\n\nb. ¿Por qué crees que las frecuencias cardíaca y respiratoria aumentan cuando hacemos ejercicio?\n\nc. Por qué es importante conocer los valores normales de las frecuencias cardíaca y respiratoria? 1 2 3 4 Participante Frecuencia cardíaca Frecuencia respiratoria En reposo 5 min 10 min 15 min En reposo 5 min 10 min 15 min\n\np.\n\n218",
+      "charCount": 625
+    },
+    {
+      "pageNumber": 118,
+      "text": "Unidad 7\n\nCreatividad 117\n\nB. Observación de muestras\n\n5. Elabora esquemas de las muestras.\n\nC. Función alveolar\n\n3. Número total de cilindros.\n\na. ¿Cuál figura es más grande?\n\nb. ¿Cómo crees que se relaciona la superficie con el proceso de intercambio gaseoso?\n\nSemana 30\n\np.\n\n219\n\np.\n\n221",
+      "charCount": 290
+    },
+    {
+      "pageNumber": 119,
+      "text": "Comunicación 118\n\nD. Representando el sistema cardiorrespiratorio\n\n9. Completa el cuadro.\n\nPeces Anfibios Reptiles Aves Mamíferos Grupo Número de cavidades Tipo de circulación Esquema del sistema\n\np.\n\n222",
+      "charCount": 204
+    },
+    {
+      "pageNumber": 120,
+      "text": "Unidad 7Unidad 8\n\n119 Indagación\n\nA. Estructura de sistemas digestivos\n\n3. Elabora esquemas.\n\nSemana 31\n\np.\n\n224 Sistemas digestivos",
+      "charCount": 132
+    },
+    {
+      "pageNumber": 121,
+      "text": "120\n\n4. Completa el cuadro.\n\nEsófago Estómago Buche Glándulas:\n\nhígado, vesícula biliar y páncreas Apéndices pilóricos Válvula espiral Estructura digestiva Especie Pez óseo Pez cartilaginoso Anfibio Ave Mamífero herbívoro Humano\n\n5. Resuelve:\n\na. Menciona las principales estructuras digestivas que comparten los vertebrados.\n\nb. ¿Qué diferencias observas en el tamaño de las estructuras digestivas de cada animal?\n\nc. ¿Crees que las estructuras digestivas son diferentes según la dieta de cada grupo de vertebrados?\n\nd. ¿En qué sector del tracto digestivo se lleva a cabo la absorción de nutrientes?\n\np.\n\n225",
+      "charCount": 609
+    },
+    {
+      "pageNumber": 122,
+      "text": "Unidad 7\n\nCreatividad 121\n\n6. Responde:\n\na. ¿Qué acción simulamos al triturar la papa? ¿Se trata de un proceso mecánico o químico?\n\nb. ¿Qué molécula identificamos con el lugol?\n\nc. ¿Creen que las estructuras digestivas son diferentes según la dieta de cada grupo de vertebrados?\n\nSemana 31\n\nB. Digestión mecánica y química\n\n5. Observación.\n\nC. Recorriendo el tracto digestivo\n\n9. Completa:\n\na. Explica brevemente los procesos básicos de la digestión.\n\nb. Llena la información solicitada en la siguiente tabla.\n\nVaso control Vaso con saliva Boca Esófago Estómago Intestino delgado Páncreas Hígado Intestino grueso Órgano Movimiento Líquidos digestivos Descomposición química de alimentos\n\np.\n\n226\n\np.\n\n227",
+      "charCount": 704
+    },
+    {
+      "pageNumber": 123,
+      "text": "122 Indagación\n\nA. Mecanismos de secreción\n\n6. Anota tus observaciones.\n\nEstructuras y sistemas excretores\n\n7. Responde:\n\na. ¿Por qué comenzaste a sudar?\n\nb. ¿Cómo identificamos que había sudor en la palma de la mano?\n\nc. ¿De qué otras partes del cuerpo sudamos?\n\nd. ¿Por qué crees que sudamos?\n\ne. ¿Crees que hay otros animales que sudan? ¿Tendrán otros mecanismos para excretar el sudor u otra sustancia de desecho?\n\nf. ¿Por qué crees que el cuerpo necesita remover sustancias innecesarias, excesivas o dañinas para el organismo?\n\np.\n\n230",
+      "charCount": 540
+    },
+    {
+      "pageNumber": 124,
+      "text": "Unidad 7\n\nCreatividad 123 Peces de agua dulce Peces óseos marinos Peces cartilaginosos (tiburón) Reptiles y aves Mamíferos acuáticos Mamíferos terrestres Anfibios\n\n7. Responde:\n\na. ¿Qué función cumplen los filtros?\n\nb. ¿Por qué utilizamos filtros con malla gruesa y luego con malla fina?\n\nc. ¿Qué representan las rocas y el papel picado?\n\nd. ¿Qué representa el líquido restante después del filtrado?\n\nSemana 32\n\nB. Función renal\n\n6. Anota tus observaciones.\n\nC. Tipos de sistemas excretores\n\n4. Completen la siguiente tabla.\n\nComunicación Grupo de animales Órganos excretores Mecanismos de osmorregulación y excreción\n\np.\n\n232\n\np.\n\n233",
+      "charCount": 635
+    },
+    {
+      "pageNumber": 125,
+      "text": "124 Evaluación\n\n1. Observa y clasifica las siguientes micrografías de los tejidos animales y describe las principales características de sus células",
+      "charCount": 148
+    },
+    {
+      "pageNumber": 126,
+      "text": "125\n\n2. Elabora un cuadro resumen de la clasificación y subclasificación de los tejidos animales y en qué órganos los podemos encontrar .\n\nTejidos animales Tipos Órganos Epitelial Conectivo Muscular Nervioso\n\n3. Explica la función de las siguientes estructuras y elabora una ilustración. Estructura y función Ilustración Huesos Cartílago Ligamentos Tendones",
+      "charCount": 357
+    },
+    {
+      "pageNumber": 127,
+      "text": "126\n\n4. Ejemplifica e ilustra algunas estructuras anatómicas que se conserven del esqueleto entre los grupos de animales vertebrados.\n\n5. Explica el proceso de la contracción muscular .",
+      "charCount": 185
+    },
+    {
+      "pageNumber": 128,
+      "text": "127\n\n6. Explica brevemente la diferencia de los pulmones de los vertebrados en cuanto a la capacidad para el inter - cambio gaseoso.\n\n7. Observa el siguiente esquema y explica brevemente el patrón del flujo sanguíneo. Salamandra Rana Lagarto Ave Parabronquios Pulmón Saco aéreo Saco aéreo Bronquios Alvéolos Mamifero Circulación pulmonar Circulación sistémica AD AI VD VI Pulmones Arteria pulmonar Vena pulmonar Venas sistémicas Arterias sistémicas Lechos capilares sistémicos AD: Aurícula derecha VD: Ventrículo derecho AI: Aurícula izquierda VI: Ventrículo izquierdo",
+      "charCount": 568
+    },
+    {
+      "pageNumber": 129,
+      "text": "128\n\na. Menciona su tipo de dieta y los mecanismos para\n\nobtener su alimento.\n\nb. Investiga por qué existe una diferencia en la longitud del tubo digestivo de las dos especies.\n\n8. Compara los sistemas digestivos de estos dos mamíferos.\n\n9. Explica brevemente las adaptaciones de osmorregulación y excreción en los grupos de vertebrados. Grupo Adaptación Peces de agua dulce Peces óseos marinos Peces cartilaginosos marinos Reptiles y aves acuáticas Mamíferos Esófago Estómago Apéndice Colon Intestino delgado Sistema digestivo de herbívoros Sistema digestivo de carnívoros",
+      "charCount": 573
+    },
+    {
+      "pageNumber": 130,
+      "text": "8Ciencia y Tecnología 8 Cuaderno de Trabajo Ciencia y Tecnología Cuaderno de Trabajo",
+      "charCount": 84
+    }
+  ]
+}
