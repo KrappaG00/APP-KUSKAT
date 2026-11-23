@@ -51,15 +51,19 @@ export const CallToActionFinal3D: React.FC<CallToActionFinal3DProps> = ({ onStar
 
         {/* Botón 3D en verde éxito con texto blanco y flotación continua */}
         <div className="mt-8 sm:mt-10 perspective-800 w-full sm:w-auto flex justify-center">
-          <button
-            onClick={handleClick}
+          <a
+            href="/?tab=practice"
+            onClick={(e) => {
+              e.preventDefault();
+              handleClick();
+            }}
             className={`relative group px-6 sm:px-10 py-3.5 sm:py-5 rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-caslon text-base sm:text-xl font-bold tracking-micro uppercase shadow-2xl border border-emerald-400/40 transition-all duration-300 animate-float-slow cursor-pointer flex items-center justify-center gap-2.5 sm:gap-3 w-full sm:w-auto max-w-sm ${
               isZooming ? 'scale-150 opacity-0 transition-all duration-500' : 'hover:scale-105'
             }`}
           >
             <span className="truncate">Comienza tu viaje educativo</span>
             <ArrowRight className="w-5 h-5 sm:w-6 sm:h-6 text-white transition-transform group-hover:translate-x-1 shrink-0" />
-          </button>
+          </a>
         </div>
 
         {/* Metadatos al pie */}

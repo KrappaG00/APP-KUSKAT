@@ -821,13 +821,13 @@ describe('M5 Automated Compliance & Platform Integrity Test Suite', () => {
     });
 
     describe('5. Verificación de Archivos Estáticos de Rastreo (ads.txt, robots.txt, sitemap.xml)', () => {
-      it('public/ads.txt declara los IDs de editor autorizados de Google AdSense con estado DIRECT', () => {
+      it('public/ads.txt declara únicamente el ID de editor autorizado de Google AdSense con estado DIRECT', () => {
         const adsTxtPath = path.join(rootDir, 'public', 'ads.txt');
         expect(fs.existsSync(adsTxtPath)).toBe(true);
         const content = fs.readFileSync(adsTxtPath, 'utf-8');
 
         expect(content).toContain('pub-4241045160320459');
-        expect(content).toContain('pub-5120531548842494');
+        expect(content).not.toContain('pub-5120531548842494');
         expect(content).toContain('DIRECT');
         expect(content).toContain('f08c47fec0942fa0');
       });

@@ -61,13 +61,17 @@ export const CookieBanner: React.FC<CookieBannerProps> = ({ onOpenLegalModal }) 
             </h4>
             <p className="text-xs text-slate-300 leading-relaxed">
               Utilizamos cookies técnicas necesarias para tu sesión de simulador y anuncios no intrusivos de Google AdSense que financian el acceso 100% gratuito a todos los simuladores y libros MINED sin cobrarte suscripciones ni membresías. Puedes consultar nuestra{' '}
-              <button
-                type="button"
-                onClick={() => onOpenLegalModal('cookies')}
+              <a
+                href="/privacidad.html#cookies"
+                onClick={(e) => {
+                  if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+                  e.preventDefault();
+                  onOpenLegalModal('cookies');
+                }}
                 className="text-blue-400 underline hover:text-blue-300 font-medium inline-block"
               >
                 Política de Cookies
-              </button>{' '}
+              </a>{' '}
               o personalizar tus preferencias de privacidad.
             </p>
           </div>

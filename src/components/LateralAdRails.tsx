@@ -60,6 +60,12 @@ const SideRailAd: React.FC<SideRailAdProps> = ({
     isBelowWordThreshold ||
     isSuppressedByDom;
 
+  const isNumericSlot = Boolean(
+    slotId && /^\d{10}$/.test(slotId.trim()) && slotId.trim() !== '4241045160'
+  );
+  const isTestSlot = Boolean(slotId && slotId.endsWith('_test'));
+  const effectiveSlot = isNumericSlot ? slotId.trim() : isTestSlot ? slotId : undefined;
+
   useEffect(() => {
     if (isGuardedOut) {
       return;
@@ -92,6 +98,10 @@ const SideRailAd: React.FC<SideRailAdProps> = ({
       }
     }
 
+    if (!isNumericSlot) {
+      return;
+    }
+
     try {
       if (typeof window !== 'undefined') {
         // @ts-ignore
@@ -100,7 +110,7 @@ const SideRailAd: React.FC<SideRailAdProps> = ({
     } catch {
       // Silencioso ante bloqueadores de anuncios o entornos offline de desarrollo
     }
-  }, [isGuardedOut]);
+  }, [isGuardedOut, isNumericSlot]);
 
   if (isGuardedOut) {
     return null;
@@ -136,7 +146,7 @@ const SideRailAd: React.FC<SideRailAdProps> = ({
             className="adsbygoogle"
             style={{ display: 'block', width: '100%', minHeight: '500px' }}
             data-ad-client="ca-pub-4241045160320459"
-            {...(slotId && /^\d{10}$/.test(slotId.trim()) ? { 'data-ad-slot': slotId.trim() } : slotId && slotId.endsWith('_test') ? { 'data-ad-slot': slotId } : {})}
+            {...(effectiveSlot ? { 'data-ad-slot': effectiveSlot } : {})}
             data-ad-format="vertical"
             data-full-width-responsive="false"
           />
@@ -187,9 +197,10 @@ export const LateralAdRails: React.FC<LateralAdRailsProps> = ({
   minSubstantiveWords = 15,
   contentSnippet,
 }) => {
-  // EXCEPCIÓN ESTRICTA: La página 'categories' no lleva anuncios laterales
+  // EXCEPCIÓN ESTRICTA: La página 'categories', el Portal de Inicio y la vista utilitaria 'latex' no llevan anuncios laterales
   const isCategoriesPage = activeTab === 'categories';
   const isPortalPage = activeTab === 'motionsites3d';
+  const isLatexPage = activeTab === 'latex';
   // Regla 2 de AGENTS.md (2 <= anuncios <= 3): evitar colocar rieles si ya hay 2 o más anuncios principales en la vista
   const hasTwoOrMoreMainAds = Boolean(mainAdsCount !== undefined && mainAdsCount >= 2);
 
@@ -199,6 +210,7 @@ export const LateralAdRails: React.FC<LateralAdRailsProps> = ({
   const shouldSuppressRails =
     isCategoriesPage ||
     isPortalPage ||
+    isLatexPage ||
     hasTwoOrMoreMainAds ||
     isLoading === true ||
     isEmpty === true ||

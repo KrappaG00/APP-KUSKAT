@@ -1,5 +1,4 @@
-import React, { useEffect, useRef } from 'react';
-import * as THREE from 'three';
+import React from 'react';
 import { Sparkles, ShieldCheck, HeartHandshake } from 'lucide-react';
 
 interface AboutUs3DProps {
@@ -7,213 +6,77 @@ interface AboutUs3DProps {
 }
 
 export const AboutUs3D: React.FC<AboutUs3DProps> = ({ onLearnMoreAction }) => {
-  const logoCanvasRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const container = logoCanvasRef.current;
-    if (!container) return;
-
-    const width = container.clientWidth;
-    const height = container.clientHeight;
-
-    const scene = new THREE.Scene();
-    scene.fog = new THREE.FogExp2(0xf8fafc, 0.002);
-
-    const camera = new THREE.PerspectiveCamera(45, width / height, 1, 1000);
-    camera.position.set(0, 0, 140);
-
-    const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
-    renderer.setSize(width, height);
-    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
-    container.appendChild(renderer.domElement);
-
-    // Iluminación para resaltar el logo original KUSKAT
-    const amb = new THREE.AmbientLight(0xffffff, 1.2);
-    scene.add(amb);
-
-    const pLight1 = new THREE.PointLight(0x2563eb, 2.2, 300);
-    pLight1.position.set(60, 60, 80);
-    scene.add(pLight1);
-
-    const pLight2 = new THREE.PointLight(0xf59e0b, 1.8, 300);
-    pLight2.position.set(-60, -50, 70);
-    scene.add(pLight2);
-
-    // Grupo para el logo original 3D giratorio
-    const logoGroup = new THREE.Group();
-    scene.add(logoGroup);
-
-    // Carga de textura del logo original de KUSKAT (PNG transparente 956x1024)
-    const textureLoader = new THREE.TextureLoader();
-    const textureFront = textureLoader.load('/kuskat_logo.png');
-    textureFront.colorSpace = THREE.SRGBColorSpace;
-
-    // Textura trasera reflejada horizontalmente para lectura idéntica al girar
-    const textureBack = textureLoader.load('/kuskat_logo.png');
-    textureBack.colorSpace = THREE.SRGBColorSpace;
-    textureBack.wrapS = THREE.RepeatWrapping;
-    textureBack.repeat.x = -1;
-    textureBack.offset.x = 1;
-
-    // Dimensiones proporcionales a 956x1024 (aspect ratio ~0.9336)
-    const logoHeight = 78;
-    const logoWidth = logoHeight * (956 / 1024);
-    const logoGeo = new THREE.PlaneGeometry(logoWidth, logoHeight);
-
-    const logoMatFront = new THREE.MeshStandardMaterial({
-      map: textureFront,
-      transparent: true,
-      alphaTest: 0.05,
-      roughness: 0.25,
-      metalness: 0.2,
-      side: THREE.FrontSide,
-    });
-
-    const logoMatBack = new THREE.MeshStandardMaterial({
-      map: textureBack,
-      transparent: true,
-      alphaTest: 0.05,
-      roughness: 0.25,
-      metalness: 0.2,
-      side: THREE.FrontSide,
-    });
-
-    // Cara frontal
-    const frontMesh = new THREE.Mesh(logoGeo, logoMatFront);
-    frontMesh.position.z = 0.6;
-    logoGroup.add(frontMesh);
-
-    // Cara trasera
-    const backMesh = new THREE.Mesh(logoGeo, logoMatBack);
-    backMesh.position.z = -0.6;
-    backMesh.rotation.y = Math.PI;
-    logoGroup.add(backMesh);
-
-    // Partículas orbitales alrededor del logo
-    const orbitCount = 80;
-    const orbitGeo = new THREE.BufferGeometry();
-    const orbitPositions = new Float32Array(orbitCount * 3);
-    for (let i = 0; i < orbitCount; i++) {
-      const theta = (i / orbitCount) * Math.PI * 2;
-      const r = 50 + (Math.random() - 0.5) * 10;
-      orbitPositions[i * 3] = Math.cos(theta) * r;
-      orbitPositions[i * 3 + 1] = Math.sin(theta) * r;
-      orbitPositions[i * 3 + 2] = (Math.random() - 0.5) * 16;
-    }
-    orbitGeo.setAttribute('position', new THREE.BufferAttribute(orbitPositions, 3));
-    const orbitMat = new THREE.PointsMaterial({
-      size: 3.5,
-      color: 0x2563eb,
-      transparent: true,
-      opacity: 0.6,
-    });
-    const orbitPoints = new THREE.Points(orbitGeo, orbitMat);
-    logoGroup.add(orbitPoints);
-
-    let animId: number;
-    let clock = new THREE.Clock();
-    let isDragging = false;
-    let prevPointerX = 0;
-    let manualRotY = 0;
-    let velocityY = 0;
-
-    const onPointerDown = (e: PointerEvent) => {
-      isDragging = true;
-      prevPointerX = e.clientX;
-      velocityY = 0;
-    };
-
-    const onPointerMove = (e: PointerEvent) => {
-      if (!isDragging) return;
-      const deltaX = e.clientX - prevPointerX;
-      prevPointerX = e.clientX;
-      manualRotY += deltaX * 0.01;
-      velocityY = deltaX * 0.005;
-    };
-
-    const onPointerUp = () => {
-      isDragging = false;
-    };
-
-    container.addEventListener('pointerdown', onPointerDown);
-    window.addEventListener('pointermove', onPointerMove);
-    window.addEventListener('pointerup', onPointerUp);
-
-    const animate = () => {
-      const elapsed = clock.getElapsedTime();
-
-      if (!isDragging) {
-        velocityY *= 0.95;
-        manualRotY += velocityY;
-      }
-
-      logoGroup.rotation.y = elapsed * 0.6 + manualRotY;
-      logoGroup.rotation.x = Math.sin(elapsed * 0.4) * 0.12;
-      orbitPoints.rotation.z = -elapsed * 0.8;
-
-      renderer.render(scene, camera);
-      if (isVisible) {
-        animId = requestAnimationFrame(animate);
-      } else {
-        animId = 0;
-      }
-    };
-
-    let isVisible = true;
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        const wasVisible = isVisible;
-        isVisible = entry.isIntersecting;
-        if (isVisible && !wasVisible && !animId) {
-          animate();
-        }
-      },
-      { threshold: 0.05 }
-    );
-    observer.observe(container);
-
-    animate();
-
-    const handleResize = () => {
-      if (!container) return;
-      const w = container.clientWidth;
-      const h = container.clientHeight;
-      camera.aspect = w / h;
-      camera.updateProjectionMatrix();
-      renderer.setSize(w, h);
-    };
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      observer.disconnect();
-      window.removeEventListener('resize', handleResize);
-      container.removeEventListener('pointerdown', onPointerDown);
-      window.removeEventListener('pointermove', onPointerMove);
-      window.removeEventListener('pointerup', onPointerUp);
-      cancelAnimationFrame(animId);
-      logoGeo.dispose();
-      logoMatFront.dispose();
-      logoMatBack.dispose();
-      textureFront.dispose();
-      textureBack.dispose();
-      orbitGeo.dispose();
-      orbitMat.dispose();
-      renderer.dispose();
-      if (renderer.domElement.parentNode) {
-        renderer.domElement.parentNode.removeChild(renderer.domElement);
-      }
-    };
-  }, []);
-
   return (
     <section className="py-14 sm:py-24 bg-slate-50 relative overflow-hidden border-b border-slate-200">
+      <style>{`
+        @keyframes kuskatLogoSpin3D {
+          0% { transform: rotateX(6deg) rotateY(0deg); }
+          50% { transform: rotateX(-6deg) rotateY(180deg); }
+          100% { transform: rotateX(6deg) rotateY(360deg); }
+        }
+        .kuskat-3d-stage {
+          perspective: 900px;
+        }
+        .kuskat-3d-spinner {
+          transform-style: preserve-3d;
+          animation: kuskatLogoSpin3D 12s linear infinite;
+          will-change: transform;
+        }
+        .kuskat-3d-spinner:hover {
+          animation-play-state: paused;
+        }
+        .kuskat-3d-face {
+          backface-visibility: hidden;
+          -webkit-backface-visibility: hidden;
+        }
+        .kuskat-3d-face-back {
+          transform: rotateY(180deg);
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .kuskat-3d-spinner {
+            animation: none;
+          }
+        }
+      `}</style>
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-          {/* Logo 3D girando sobre fondo blanco/slate */}
+          {/* Logo 3D girando con CSS 3D sobre fondo blanco/slate */}
           <div className="lg:col-span-5 flex flex-col items-center justify-center">
-            <div className="relative w-full max-w-[340px] sm:max-w-[380px] h-[300px] sm:h-[400px] rounded-3xl bg-white border border-slate-200 shadow-sm flex items-center justify-center overflow-hidden">
-              <div ref={logoCanvasRef} className="absolute inset-0 w-full h-full cursor-grab active:cursor-grabbing" />
+            <div className="relative w-full max-w-[340px] sm:max-w-[380px] h-[300px] sm:h-[400px] rounded-3xl bg-white border border-slate-200 shadow-sm flex items-center justify-center overflow-hidden kuskat-3d-stage">
+              {/* Halo ambiental sutil */}
+              <div
+                aria-hidden="true"
+                className="absolute w-56 h-56 rounded-full bg-gradient-to-tr from-blue-100/70 via-transparent to-amber-100/60 blur-2xl pointer-events-none"
+              />
+              {/* Anillo orbital decorativo */}
+              <div
+                aria-hidden="true"
+                className="absolute w-64 h-64 sm:w-72 sm:h-72 rounded-full border border-dashed border-blue-200/70 pointer-events-none"
+              />
+              <div className="relative w-44 h-48 sm:w-52 sm:h-56 kuskat-3d-spinner">
+                <div className="absolute inset-0 flex items-center justify-center kuskat-3d-face">
+                  <img
+                    src="/kuskat_logo.png"
+                    alt="Emblema 3D KUSKAT"
+                    width={208}
+                    height={224}
+                    decoding="async"
+                    className="w-full h-full object-contain drop-shadow-md select-none"
+                  />
+                </div>
+                <div className="absolute inset-0 flex items-center justify-center kuskat-3d-face kuskat-3d-face-back">
+                  <img
+                    src="/kuskat_logo.png"
+                    alt=""
+                    aria-hidden="true"
+                    width={208}
+                    height={224}
+                    decoding="async"
+                    className="w-full h-full object-contain drop-shadow-md select-none"
+                  />
+                </div>
+              </div>
             </div>
           </div>
 
@@ -272,6 +135,8 @@ export const AboutUs3D: React.FC<AboutUs3DProps> = ({ onLearnMoreAction }) => {
                   <img
                     src="/kuskat_logo.png"
                     alt="Logo KUSKAT"
+                    width={24}
+                    height={24}
                     className="w-full h-full object-contain"
                   />
                 </div>

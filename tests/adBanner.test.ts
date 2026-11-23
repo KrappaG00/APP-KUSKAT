@@ -47,35 +47,36 @@ describe('Verificación de Integración de Google AdSense y Regla de 2 a 3 Anunc
     expect(matches!.length).toBe(3);
   });
 
-  it('Página 3 (Simulador): contiene entre 2 y 3 anuncios según la pantalla (1 arriba y 1-2 abajo)', () => {
+  it('Página 3 (Simulador): contiene máximo 2 anuncios por pantalla (1 arriba y 1 abajo después del reglamento)', () => {
     expect(fs.existsSync(practicePath)).toBe(true);
     const code = fs.readFileSync(practicePath, 'utf-8');
     // Verificación de la pantalla de examen activo
     expect(code).toContain('4241045160_se_top');
     expect(code).toContain('Simulador Examen • 1 Arriba');
-    // Verificación de la pantalla de configuración inicial
+    // Verificación de la pantalla de configuración inicial (máximo 2 anuncios)
     expect(code).toContain('4241045160_s_top');
     expect(code).toContain('4241045160_s_b1');
-    expect(code).toContain('4241045160_s_b2');
+    expect(code).not.toContain('4241045160_s_b2');
     // Verificación de la pantalla de resultados
     expect(code).toContain('4241045160_sr_top');
     expect(code).toContain('4241045160_sr_b1');
-    expect(code).toContain('4241045160_sr_b2');
   });
 
-  it('Página 4 (LaTeX): cumple con la regla de 2 a 3 anuncios (exactamente 3 anuncios)', () => {
+  it('Página 4 (LaTeX): vista utilitaria pura sin banners publicitarios', () => {
     expect(fs.existsSync(appTsxPath)).toBe(true);
     const code = fs.readFileSync(appTsxPath, 'utf-8');
-    // Contar anuncios en la sección de LaTeX
     const latexSection = code.substring(
       code.indexOf("activeTab === 'latex'"),
       code.indexOf("activeTab === 'languages'")
     );
     const matches = latexSection.match(/<AdBanner\b/g);
-    expect(matches).not.toBeNull();
-    expect(matches!.length).toBeGreaterThanOrEqual(2);
-    expect(matches!.length).toBeLessThanOrEqual(3);
-    expect(matches!.length).toBe(3);
+    expect(matches).toBeNull();
+
+    const latexViewCode = fs.readFileSync(
+      path.join(rootDir, 'src', 'components', 'LatexExportView.tsx'),
+      'utf-8'
+    );
+    expect(latexViewCode.match(/<AdBanner\b/g)).toBeNull();
   });
 
   it('Todas las demás páginas independientes están cubiertas con StandalonePageWrapper (2 anuncios por página)', () => {
@@ -101,6 +102,15 @@ describe('Verificación de Integración de Google AdSense y Regla de 2 a 3 Anunc
     expect(htmlAlpha).toContain('class="adsbygoogle"');
     expect(htmlAlpha).toContain('data-ad-client="ca-pub-4241045160320459"');
     expect(htmlAlpha).not.toContain('data-ad-slot=');
+
+    // 1b. Prefijo del Publisher ID ("4241045160") -> NO debe tratarse como data-ad-slot real
+    const htmlPubPrefix = renderToStaticMarkup(
+      React.createElement(AdBanner, {
+        slotId: '4241045160',
+        hasPublisherContent: true,
+      })
+    );
+    expect(htmlPubPrefix).not.toContain('data-ad-slot=');
 
     // 2. Slot ID numérico oficial de 10 dígitos (ej. "1234567890") -> SÍ debe incluir data-ad-slot="1234567890"
     const htmlNumeric = renderToStaticMarkup(

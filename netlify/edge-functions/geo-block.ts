@@ -1,6 +1,7 @@
 // Netlify Edge Function: geo-block.ts
-// Filtra el tráfico geográfico en el Edge antes de procesar cualquier activo o script.
-// Región permitida: Todo América, El Caribe, España, Portugal, Francia, Alemania, Suiza, Italia, Rumania y Australia.
+// Acceso global abierto para usuarios, revisores humanos y rastreadores de Google AdSense (sin HTTP 403).
+// Además, enruta peticiones HTML con ?tab=<ruta> hacia su versión pre-renderizada estática en /routes/<tab>.html
+// para entregar canonical único, metadatos SEO y contenido editorial sustantivo antes de hidratar React.
 
 interface NetlifyContext {
   geo?: {
@@ -16,68 +17,84 @@ interface NetlifyContext {
 export const GOOGLE_BOT_REGEX =
   /(Googlebot|Mediapartners-Google|AdsBot-Google|Google-Adwords|FeedFetcher-Google)/i;
 
-export const ALLOWED_COUNTRIES = new Set([
-  // Norteamérica
-  'US', 'CA', 'MX', 'GL', 'BM', 'PM',
-  // Centroamérica
-  'SV', 'GT', 'HN', 'NI', 'CR', 'PA', 'BZ',
-  // El Caribe
-  'CU', 'DO', 'HT', 'PR', 'JM', 'BS', 'TT', 'BB', 'LC', 'VC', 'GD', 'AG', 'DM', 'KN',
-  'CW', 'AW', 'SX', 'KY', 'TC', 'VG', 'VI', 'MQ', 'GP', 'AI', 'MS', 'BL', 'MF', 'BQ',
-  // Sudamérica
-  'CO', 'VE', 'EC', 'PE', 'BO', 'CL', 'AR', 'UY', 'PY', 'BR', 'GY', 'SR', 'GF', 'FK',
-  // Europa autorizada y centros de revisión / operaciones Google
-  'ES', 'PT', 'FR', 'DE', 'CH', 'IT', 'RO', 'IE', 'GB', 'NL', 'PL',
-  // Oceanía y centros Google Asia-Pacífico
-  'AU', 'IN', 'SG', 'JP',
+export const PRERENDERED_TABS = new Set([
+  'academic-reinforcement',
+  'practice',
+  'categories',
+  'driver-license',
+  'patriotic-history',
+  'languages',
+  'technical-courses',
+  'residentado-medico',
+  'notary-exam',
+  'derecho-administrativo',
+  'ingenieria-ciencias',
+  'salud-primaria',
+  'cssp-health',
+  'ansp-ascenso',
+  'compliance-financial',
+  'constitution',
+  'oral-litigation',
+  'siget-solar',
+  'jovenes-talento',
+  'formula-lab',
+  'one-page-sheets',
+  'central-america',
+  'latex',
 ]);
+
+export const TAB_URL_ALIASES: Record<string, string> = {
+  refuerzo: 'academic-reinforcement',
+  simulator: 'practice',
+  'cursos-tecnicos': 'technical-courses',
+  medicina: 'residentado-medico',
+  notariado: 'notary-exam',
+  cssp: 'cssp-health',
+  'compliance-aml': 'compliance-financial',
+  lenguas: 'languages',
+};
 
 const STATIC_FILE_EXTENSIONS = [
   '.png', '.jpg', '.jpeg', '.svg', '.ico', '.webp',
-  '.css', '.js', '.woff', '.woff2', '.ttf', '.json', '.txt', '.xml',
+  '.css', '.js', '.woff', '.woff2', '.ttf', '.json', '.txt', '.xml', '.html',
 ];
 
-export default async function geoBlockHandler(request: Request, context: NetlifyContext) {
-  // 0. Bypass incondicional para rastreadores e indexadores oficiales de Google (AdSense, AdsBot, Googlebot)
-  const userAgent = request.headers.get('user-agent') || '';
-  if (GOOGLE_BOT_REGEX.test(userAgent)) {
-    return context.next();
-  }
+export function resolvePrerenderedTab(rawParam: string | null): string | null {
+  if (!rawParam) return null;
+  const cleaned = rawParam.trim().toLowerCase();
+  if (PRERENDERED_TABS.has(cleaned)) return cleaned;
+  return TAB_URL_ALIASES[cleaned] || null;
+}
 
+export default async function geoBlockHandler(request: Request, context: NetlifyContext) {
   const url = new URL(request.url);
 
-  // 1. Siempre permitir verificación de motores de búsqueda, sitemaps y ads.txt
+  // 1. Permitir siempre archivos estáticos y páginas HTML independientes
   if (
     url.pathname === '/robots.txt' ||
     url.pathname === '/sitemap.xml' ||
     url.pathname === '/ads.txt' ||
-    url.pathname === '/geo-blocked.html' ||
     STATIC_FILE_EXTENSIONS.some((ext) => url.pathname.endsWith(ext))
   ) {
     return context.next();
   }
 
-  // 2. Extraer código de país
-  const countryCode = context.geo?.country?.code?.toUpperCase();
+  // 2. Servir HTML pre-renderizado por ruta cuando se solicita /?tab=<ruta>
+  if (request.method === 'GET' && url.pathname === '/' && url.searchParams.has('tab')) {
+    const resolvedTab = resolvePrerenderedTab(url.searchParams.get('tab'));
+    const accept = request.headers.get('accept') || '';
+    const userAgent = request.headers.get('user-agent') || '';
+    const wantsHtml = accept.includes('text/html') || accept === '' || accept.includes('*/*') || GOOGLE_BOT_REGEX.test(userAgent);
 
-  // Si no hay código de país (ej. localhost, entorno de pruebas local o desarrollo), permitir
-  if (!countryCode) {
-    return context.next();
+    if (resolvedTab && wantsHtml) {
+      try {
+        return await context.rewrite(`/routes/${resolvedTab}.html`);
+      } catch {
+        return context.next();
+      }
+    }
   }
 
-  // 3. Comprobar si el país está en la lista blanca de permitidos
-  if (ALLOWED_COUNTRIES.has(countryCode)) {
-    return context.next();
-  }
-
-  // 4. Si proviene de una región no autorizada, devolver 403 Forbidden
-  const blockedResponse = await context.rewrite('/geo-blocked.html');
-  return new Response(blockedResponse.body, {
-    status: 403,
-    statusText: 'Forbidden - Geographic Restriction',
-    headers: {
-      ...Object.fromEntries(blockedResponse.headers.entries()),
-      'X-Geo-Blocked-Reason': 'Country not in authorized distribution territory',
-    },
-  });
+  // 3. Acceso global abierto sin bloqueos HTTP 403
+  return context.next();
 }

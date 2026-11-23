@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { ParticleLoader } from './ParticleLoader';
 import { Courses3DSection, PortalNavigationTarget } from './Courses3DSection';
 import { StatsAndCharts3D } from './StatsAndCharts3D';
 import { AboutUs3D } from './AboutUs3D';
@@ -13,7 +12,8 @@ import { HeaderNavbar, AppPageTab } from '../HeaderNavbar';
 import { User } from '../../types/auth';
 import type { LegalTab } from '../LegalModal';
 import {
-  Rocket,
+  BookOpen,
+  ShieldCheck,
   Users,
 } from 'lucide-react';
 
@@ -41,45 +41,6 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
   currentUser,
 }) => {
   const { t } = useTranslation();
-
-  // Detección de rastreadores web (Googlebot, AdsBot, AdSense, etc.) o enlaces profundos con ?tab=
-  const shouldSkipLoader = (): boolean => {
-    if (typeof window === 'undefined') return true;
-    try {
-      const ua = navigator.userAgent || '';
-      const isBot =
-        /(Googlebot|Mediapartners-Google|AdsBot-Google|Google-Adwords|FeedFetcher-Google|bot|crawler|spider|headlesschrome)/i.test(
-          ua
-        );
-      const params = new URLSearchParams(window.location.search);
-      const tabParam = params.get('tab');
-      const isDeepLink = Boolean(tabParam && tabParam !== 'motionsites3d');
-      return isBot || isDeepLink;
-    } catch {
-      return false;
-    }
-  };
-
-  // Estado del loader inicial de partículas 3D (persistido en localStorage para no repetir atrasos)
-  const [showLoader, setShowLoader] = useState<boolean>(() => {
-    try {
-      if (shouldSkipLoader()) {
-        return false;
-      }
-      return localStorage.getItem('kuskat_3d_loader_seen') !== 'true';
-    } catch {
-      return false;
-    }
-  });
-
-  const handleLoaderComplete = () => {
-    try {
-      localStorage.setItem('kuskat_3d_loader_seen', 'true');
-    } catch (e) {
-      console.warn(e);
-    }
-    setShowLoader(false);
-  };
 
   // Transición 3D de salida
   const [isTransitioning, setIsTransitioning] = useState<boolean>(false);
@@ -154,11 +115,8 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
       {/* Cursor 3D Personalizado */}
       <CustomCursor3D />
 
-      {/* Partículas Flotantes 3D en el fondo suave */}
+      {/* Partículas Flotantes en el fondo suave */}
       <FloatingParticlesBackground />
-
-      {/* Loader Inicial de Partículas 3D */}
-      {showLoader && <ParticleLoader onComplete={handleLoaderComplete} />}
 
       {/* Transición 3D suave */}
       {isTransitioning && (
@@ -245,6 +203,10 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                 <img
                   src="/yeferson_perez.jpg"
                   alt="Yeferson E. Perez - Fundador KUSKAT"
+                  width={128}
+                  height={128}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -277,6 +239,10 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                 <img
                   src="/mayra_romero.jpg"
                   alt="Mayra Romero - Asesora Educativa KUSKAT"
+                  width={128}
+                  height={128}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -309,6 +275,10 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                 <img
                   src="/milena_maeda.jpg"
                   alt="Milena Maeda - Asesora Educativa en Ciencias Médicas"
+                  width={128}
+                  height={128}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -341,6 +311,10 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                 <img
                   src="/juan_interiano.jpg"
                   alt="Juan Interiano - Asesor de Flexibilidad Educativa"
+                  width={128}
+                  height={128}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -373,6 +347,10 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                 <img
                   src="/amilcar_ruiz.jpg"
                   alt="Amílcar Ruiz - Asesor Creativo"
+                  width={128}
+                  height={128}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -405,6 +383,10 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                 <img
                   src="/daniel_siciliano.jpg"
                   alt="Daniel Siciliano - Asesor Educativo KUSKAT"
+                  width={128}
+                  height={128}
+                  loading="lazy"
+                  decoding="async"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -429,6 +411,84 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
       </section>
 
       {/* ==================================================================== */}
+      {/* 6.5 GUÍA ACADÉMICA OFICIAL Y METODOLOGÍA DE ESTUDIO (>600 PALABRAS) */}
+      {/* ==================================================================== */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-10 sm:pb-14" aria-label="Guía Académica Oficial y Metodología de Estudio KUSKAT">
+        <article className="bg-white rounded-3xl border border-slate-200/80 p-6 sm:p-8 lg:p-10 shadow-corporate-subtle space-y-6">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b border-slate-200/80 pb-4">
+            <div className="space-y-1">
+              <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-[#0B1B3D] text-xs font-bold border border-slate-200">
+                <BookOpen className="w-3.5 h-3.5 text-[#C59B27]" />
+                <span>Guía Académica Institucional • El Salvador</span>
+              </div>
+              <h2 className="font-montenegrin text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+                Currículo Salvadoreño, Exámenes Nacionales y Metodología de Estudio
+              </h2>
+            </div>
+            <a
+              href="/sobre-nosotros.html"
+              className="text-xs font-semibold text-blue-700 hover:text-blue-900 underline shrink-0"
+            >
+              Conocer rigor editorial →
+            </a>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 text-sm text-slate-700 leading-relaxed font-caslon">
+            <div className="space-y-4">
+              <h3 className="font-editorial text-lg font-bold text-[#0B1B3D]">
+                1. Alineación con el Currículo Nacional MINED-ESMATE
+              </h3>
+              <p>
+                La arquitectura pedagógica de KUSKAT se fundamenta directamente en los programas oficiales del Ministerio de Educación, Ciencia y Tecnología (MINED) y la serie metodológica ESMATE, abarcando desde Primer Grado de Educación Básica hasta Segundo Año de Bachillerato. Cada unidad temática desarrolla exposición teórica sustantiva, definiciones formales, propiedades algebraicas o geométricas y cinco ejemplos resueltos paso a paso con notación matemática estandarizada.
+              </p>
+              <p>
+                En el nivel de Educación Básica y Media, el estudiante consolida progresivamente el sentido numérico, las operaciones con números racionales, las ecuaciones lineales y cuadráticas, la geometría euclidiana y analítica, la trigonometría, las secciones cónicas, el cálculo diferencial introductorio y la probabilidad. Esta secuencia asegura que tanto escolares como aspirantes universitarios cuenten con un referente confiable y gratuito para su nivelación académica.
+              </p>
+
+              <h3 className="font-editorial text-lg font-bold text-[#0B1B3D] pt-2">
+                2. Preparación para Evaluaciones Nacionales y de Admisión
+              </h3>
+              <p>
+                El sistema educativo y profesional salvadoreño exige superar pruebas estandarizadas con perfiles psicométricos específicos. KUSKAT organiza más de 17,640 reactivos base calibrados para la prueba nacional AVANZO del MINED, el examen de admisión general y específico de la Universidad de El Salvador (UES), el ingreso a la Escuela Nacional de Agricultura (ENA), la evaluación de competencias del Escalafón Docente y las pruebas de ingreso y ascenso de la Academia Nacional de Seguridad Pública (ANSP) y Policía Nacional Civil (PNC).
+              </p>
+              <p>
+                Asimismo, la plataforma integra áreas de habilitación profesional y técnica basadas en normativa oficial vigente: Examen de Suficiencia Notarial y Casoteca Constitucional de la Corte Suprema de Justicia (CSJ), Atención Primaria y Farmacovigilancia conforme al MINSAL y la Superintendencia de Regulación Sanitaria (SRS/DNM), Juntas de Vigilancia del Consejo Superior de Salud Pública (CSSP), cumplimiento financiero ante la UIF-FGR y la SSF, normativa eléctrica SIGET y educación vial del Viceministerio de Transporte (VMT) y SIECA.
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <h3 className="font-editorial text-lg font-bold text-[#0B1B3D]">
+                3. Metodología de Estudio Basada en Evidencia
+              </h3>
+              <p>
+                Para maximizar la retención a largo plazo y el desempeño bajo presión de tiempo, KUSKAT combina tres pilares metodológicos complementarios. En primer lugar, el estudio conceptual guiado permite comprender el fundamento doctrinal, legal o matemático antes de enfrentar reactivos de selección múltiple. Cada pregunta incluye retroalimentación razonada y análisis de distractores para que el estudiante identifique por qué una alternativa es correcta y por qué las demás resultan improcedentes.
+              </p>
+              <p>
+                En segundo lugar, el simulador cronometrado reproduce las condiciones reales de evaluación oficial, permitiendo entrenar la gestión del tiempo por bloque temático y revisar un solucionario completo al finalizar. En tercer lugar, el sistema incorpora tarjetas de repaso espaciado con algoritmo FSRS y un Cuaderno Inteligente de Errores que prioriza automáticamente los temas donde el aspirante requiere refuerzo deliberado.
+              </p>
+
+              <h3 className="font-editorial text-lg font-bold text-[#0B1B3D] pt-2">
+                4. Acceso Abierto, Patrimonio Lingüístico y Herramientas Docentes
+              </h3>
+              <p>
+                Además de las ciencias exactas, médicas y jurídicas, KUSKAT dedica un programa permanente a la revitalización de las lenguas originarias de El Salvador —Náhuat Pipil, Lenca Potón y Kakawira— junto con la enseñanza de idiomas internacionales alineados al Marco Común Europeo de Referencia (MCER/CEFR). Para docentes e institutos nacionales, la plataforma ofrece un exportador tipográfico LaTeX compatible con Overleaf y generadores de hojas de respuesta OMR de 50 y 100 ítems listos para impresión en aula, manteniendo siempre el acceso libre y gratuito para toda la comunidad educativa salvadoreña.
+              </p>
+
+              <h3 className="font-editorial text-lg font-bold text-[#0B1B3D] pt-2">
+                5. Rigor Editorial, Fuentes Oficiales y Transparencia Institucional
+              </h3>
+              <p>
+                Todo el acervo académico publicado en KUSKAT se somete a revisión periódica frente a los programas vigentes del MINED, la Universidad de El Salvador, el Viceministerio de Transporte, la Corte Suprema de Justicia, el Ministerio de Salud y los organismos técnicos internacionales reconocidos. Ninguna unidad temática se publica con plantillas repetitivas ni texto de relleno: cada módulo integra fundamentación teórica verificada, ejemplos resueltos paso a paso y reactivos con justificación pedagógica individualizada.
+              </p>
+              <p>
+                Este Portal de Inicio permanece completamente libre de anuncios publicitarios para ofrecer una navegación clara y directa hacia las áreas de estudio, mientras que el resto de vistas formativas opera bajo un modelo sostenible, no intrusivo y respetuoso de la privacidad del estudiante salvadoreño.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      {/* ==================================================================== */}
       {/* 7. PIE DE PÁGINA */}
       {/* ==================================================================== */}
       <footer className="bg-white border-t border-slate-200 py-10 text-xs text-slate-500 font-caslon">
@@ -450,8 +510,8 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                 Plataforma integral de simulación y bancos de preguntas para aspirantes universitarios (UES), Escalafón Docente, AVANZO y ANSP.
               </p>
               <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-50 text-blue-800 font-semibold border border-blue-200 text-[11px]">
-                <Rocket className="w-3.5 h-3.5 text-blue-600 shrink-0" />
-                <span>Trabajando en material de medicina. Los anuncios que contiene la pagina es un pequeño aporte economico a mis estudios universitarios.</span>
+                <ShieldCheck className="w-3.5 h-3.5 text-blue-600 shrink-0" />
+                <span>Plataforma educativa salvadoreña de acceso libre y gratuito, sostenida mediante publicidad no intrusiva bajo estándares editoriales de rigor científico y curricular.</span>
               </div>
             </div>
 
@@ -461,42 +521,66 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                 Ámbitos de Preparación
               </h4>
               <div className="grid grid-cols-2 gap-2 text-xs">
-                <button
-                  onClick={() => triggerStudyTransition('UES')}
-                  className="text-left text-slate-600 hover:text-blue-600 transition-colors cursor-pointer"
+                <a
+                  href="/?tab=practice"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    triggerStudyTransition('UES');
+                  }}
+                  className="text-left text-slate-600 hover:text-blue-600 transition-colors"
                 >
                   • Admisión UES
-                </button>
-                <button
-                  onClick={() => triggerStudyTransition('ESCALAFON')}
-                  className="text-left text-slate-600 hover:text-blue-600 transition-colors cursor-pointer"
+                </a>
+                <a
+                  href="/?tab=practice"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    triggerStudyTransition('ESCALAFON');
+                  }}
+                  className="text-left text-slate-600 hover:text-blue-600 transition-colors"
                 >
                   • Escalafón Docente
-                </button>
-                <button
-                  onClick={() => triggerStudyTransition('AVANZO')}
-                  className="text-left text-slate-600 hover:text-blue-600 transition-colors cursor-pointer"
+                </a>
+                <a
+                  href="/?tab=practice"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    triggerStudyTransition('AVANZO');
+                  }}
+                  className="text-left text-slate-600 hover:text-blue-600 transition-colors"
                 >
                   • Prueba AVANZO
-                </button>
-                <button
-                  onClick={() => triggerStudyTransition('ASD')}
-                  className="text-left text-slate-600 hover:text-blue-600 transition-colors cursor-pointer"
+                </a>
+                <a
+                  href="/?tab=jovenes-talento"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    triggerStudyTransition('ASD');
+                  }}
+                  className="text-left text-slate-600 hover:text-blue-600 transition-colors"
                 >
                   • ASD MINED
-                </button>
-                <button
-                  onClick={() => triggerStudyTransition('ENA')}
-                  className="text-left text-slate-600 hover:text-blue-600 transition-colors cursor-pointer"
+                </a>
+                <a
+                  href="/?tab=practice"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    triggerStudyTransition('ENA');
+                  }}
+                  className="text-left text-slate-600 hover:text-blue-600 transition-colors"
                 >
                   • Admisión ENA
-                </button>
-                <button
-                  onClick={() => triggerStudyTransition('ANSP')}
-                  className="text-left text-slate-600 hover:text-blue-600 transition-colors cursor-pointer"
+                </a>
+                <a
+                  href="/?tab=ansp-ascenso"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    triggerStudyTransition('ANSP');
+                  }}
+                  className="text-left text-slate-600 hover:text-blue-600 transition-colors"
                 >
                   • Academia ANSP
-                </button>
+                </a>
               </div>
             </div>
 
@@ -509,24 +593,30 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
                 Plataforma de libre acceso educativo en El Salvador conforme al Art. 53 de la Constitución.
               </p>
               <div className="flex flex-col gap-1.5 pt-1 text-slate-600 text-xs">
-                <button
-                  onClick={() => (onOpenLegalModal ? onOpenLegalModal('terms') : undefined)}
-                  className="text-left hover:text-blue-600 transition-colors cursor-pointer"
+                <a
+                  href="/terminos.html"
+                  className="text-left hover:text-blue-600 transition-colors"
                 >
-                  • Términos de Servicio y Privacidad
-                </button>
-                <button
-                  onClick={() => (onOpenLegalModal ? onOpenLegalModal('laws') : undefined)}
-                  className="text-left hover:text-blue-600 transition-colors cursor-pointer"
+                  • Términos y Condiciones de Uso
+                </a>
+                <a
+                  href="/privacidad.html"
+                  className="text-left hover:text-blue-600 transition-colors"
                 >
-                  • Marco Constitucional y Propiedad
-                </button>
-                <button
-                  onClick={() => (onOpenLegalModal ? onOpenLegalModal('privacy') : undefined)}
-                  className="text-left hover:text-blue-600 transition-colors cursor-pointer"
+                  • Política de Privacidad y Cookies
+                </a>
+                <a
+                  href="/sobre-nosotros.html"
+                  className="text-left hover:text-blue-600 transition-colors"
                 >
-                  • Contacto Oficial WhatsApp: +503 7657 4463
-                </button>
+                  • Sobre Nosotros y Rigor Editorial
+                </a>
+                <a
+                  href="/contacto.html"
+                  className="text-left hover:text-blue-600 transition-colors"
+                >
+                  • Contacto Oficial (+503 7657 4463)
+                </a>
               </div>
             </div>
           </div>

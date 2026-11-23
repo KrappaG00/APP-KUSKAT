@@ -144,4 +144,28 @@
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
+  <url>
+    <loc>https://kuskates.com/sobre-nosotros.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://kuskates.com/privacidad.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://kuskates.com/terminos.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.60</priority>
+  </url>
+  <url>
+    <loc>https://kuskates.com/contacto.html</loc>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.70</priority>
+  </url>
 </urlset>

@@ -26,17 +26,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" as="image" href="/kuskat_logo.png" />
-    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Montenegrin+Gothic+One&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Montenegrin+Gothic+One&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,400&family=Libre+Caslon+Condensed:ital,wght@0,400..700;1,400..700&family=Montenegrin+Gothic+One&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet"></noscript>
 
-    <!-- Google Tag Manager & Google Analytics (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-558DNTQ3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-    </script>
-
-    <!-- Google Consent Mode v2 Default Configuration (Pre-AdSense) -->
+    <!-- Google Consent Mode v2 Default Configuration (Pre-GTM & Pre-AdSense) -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -46,18 +39,43 @@
           var raw = localStorage.getItem('kuskat_cookie_consent_v1');
           if (raw) savedConsent = JSON.parse(raw);
         } catch (e) {}
-        var adsGranted = savedConsent && savedConsent.ads === true ? 'granted' : 'denied';
-        var analyticsGranted = savedConsent && savedConsent.analytics === true ? 'granted' : 'denied';
+
+        var eeaAds = savedConsent && savedConsent.ads === true ? 'granted' : 'denied';
+        var eeaAnalytics = savedConsent && savedConsent.analytics === true ? 'granted' : 'denied';
+
+        // Default estricto exclusivamente para EEE, Reino Unido y Suiza
         gtag('consent', 'default', {
-          'ad_storage': adsGranted,
-          'ad_user_data': adsGranted,
-          'ad_personalization': adsGranted,
-          'analytics_storage': analyticsGranted,
+          'ad_storage': eeaAds,
+          'ad_user_data': eeaAds,
+          'ad_personalization': eeaAds,
+          'analytics_storage': eeaAnalytics,
+          'functionality_storage': 'granted',
+          'security_storage': 'granted',
+          'region': ['AT', 'BE', 'BG', 'HR', 'CY', 'CZ', 'DK', 'EE', 'FI', 'FR', 'DE', 'GR', 'HU', 'IE', 'IT', 'LV', 'LT', 'LU', 'MT', 'NL', 'PL', 'PT', 'RO', 'SK', 'SI', 'ES', 'SE', 'IS', 'LI', 'NO', 'GB', 'CH'],
+          'wait_for_update': 500
+        });
+
+        // Default global (El Salvador, América y revisiones globales): habilitado salvo revocación explícita
+        var globalAds = savedConsent && savedConsent.ads === false ? 'denied' : 'granted';
+        var globalAnalytics = savedConsent && savedConsent.analytics === false ? 'denied' : 'granted';
+        gtag('consent', 'default', {
+          'ad_storage': globalAds,
+          'ad_user_data': globalAds,
+          'ad_personalization': globalAds,
+          'analytics_storage': globalAnalytics,
           'functionality_storage': 'granted',
           'security_storage': 'granted',
           'wait_for_update': 500
         });
       })();
+    </script>
+
+    <!-- Google Tag Manager & Google Analytics (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-558DNTQ3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
     </script>
 
     <!-- Google AdSense Oficial KUSKAT -->

@@ -33,7 +33,8 @@ describe('Suite de Arquitectura de Layout, Navegación en 5 Pilares y Anuncios L
 
     // Importación y uso
     expect(code).toContain("import { LateralAdRails } from './components/LateralAdRails';");
-    expect(code).toContain('<LateralAdRails activeTab={activeTab}>');
+    expect(code).toContain('<LateralAdRails activeTab={activeTab}');
+    expect(code).toContain('mainAdsCount={getMainAdsCountForTab(activeTab)}');
     expect(code).toContain('</LateralAdRails>');
 
     // Prevención de scroll horizontal

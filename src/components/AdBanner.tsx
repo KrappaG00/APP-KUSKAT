@@ -65,6 +65,12 @@ export const AdBanner: React.FC<AdBannerProps> = ({
     isBelowWordThreshold ||
     isSuppressedByDom;
 
+  const isNumericSlot = Boolean(
+    slotId && /^\d{10}$/.test(slotId.trim()) && slotId.trim() !== '4241045160'
+  );
+  const isTestSlot = Boolean(slotId && slotId.endsWith('_test'));
+  const effectiveSlot = isNumericSlot ? slotId.trim() : isTestSlot ? slotId : undefined;
+
   useEffect(() => {
     // Si la compuerta rechaza el renderizado, NUNCA empujar anuncio a adsbygoogle
     if (isGuardedOut) {
@@ -99,6 +105,11 @@ export const AdBanner: React.FC<AdBannerProps> = ({
       }
     }
 
+    // Solo ejecutar push() cuando existe un data-ad-slot numérico real (distinto del prefijo del Publisher ID)
+    if (!isNumericSlot) {
+      return;
+    }
+
     try {
       if (typeof window !== 'undefined') {
         // @ts-ignore
@@ -107,16 +118,12 @@ export const AdBanner: React.FC<AdBannerProps> = ({
     } catch {
       // Silencioso ante bloqueadores de anuncios o entornos de desarrollo local
     }
-  }, [isGuardedOut]);
+  }, [isGuardedOut, isNumericSlot]);
 
   // Si no hay contenido sustantivo o las compuertas están activadas, retornar null
   if (isGuardedOut) {
     return null;
   }
-
-  const isNumericSlot = Boolean(slotId && /^\d{10}$/.test(slotId.trim()));
-  const isTestSlot = Boolean(slotId && slotId.endsWith('_test'));
-  const effectiveSlot = isNumericSlot ? slotId.trim() : isTestSlot ? slotId : undefined;
 
   const isDark = variant === 'dark';
 

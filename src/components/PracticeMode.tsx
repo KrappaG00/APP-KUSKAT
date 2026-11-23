@@ -881,7 +881,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
     return (
       <div className="max-w-4xl mx-auto space-y-8">
         {/* 1 Anuncio Arriba del Simulador */}
-        <AdBanner variant="light" positionLabel="Simulador • 1 Arriba" slotId="4241045160_s_top" />
+        <AdBanner variant="light" positionLabel="Simulador • 1 Arriba" slotId="4241045160_s_top" minSubstantiveWords={50} />
 
         <div className="bg-white border border-[#E5E3D8] rounded-xl p-6 sm:p-9 shadow-corporate-card space-y-6">
           {/* Cabecera */}
@@ -1442,9 +1442,6 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
           </div>
         </div>
 
-        {/* Anuncio 1 / 5 Abajo del Simulador */}
-        <AdBanner variant="light" positionLabel="Simulador • 1/2 Inferior" slotId="4241045160_s_b1" />
-
         {/* Panel Informativo: Reglas del Sistema de Evaluación KUSKAT */}
         <div className="bg-white border border-[#E5E3D8] rounded-xl p-5 sm:p-6 shadow-corporate-subtle space-y-3 font-sans-ui">
           <div className="flex items-center gap-2 font-bold text-[#111625] text-sm">
@@ -1473,8 +1470,8 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
           </div>
         </div>
 
-        {/* Anuncio 2 / 5 Abajo del Simulador */}
-        <AdBanner variant="light" positionLabel="Simulador • 2/2 Inferior" slotId="4241045160_s_b2" />
+        {/* 1 Anuncio Abajo del Simulador (después del reglamento) */}
+        <AdBanner variant="light" positionLabel="Simulador • 1 Abajo" slotId="4241045160_s_b1" minSubstantiveWords={50} />
 
       </div>
     );
@@ -1964,6 +1961,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
         variant="light"
         positionLabel="Simulador Resultados • 1 Arriba"
         slotId="4241045160_sr_top"
+        minSubstantiveWords={50}
       />
 
       {/* Boleta Oficial de Rendimiento Académico KUSKAT */}
@@ -2459,6 +2457,7 @@ export const PracticeMode: React.FC<PracticeModeProps> = ({
           variant="light"
           positionLabel="Simulador Resultados • Inferior"
           slotId="4241045160_sr_b1"
+          minSubstantiveWords={50}
         />
       </div>
 

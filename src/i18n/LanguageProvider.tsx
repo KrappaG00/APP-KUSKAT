@@ -2,12 +2,6 @@ import React, { createContext, useCallback, useContext, useEffect, useMemo, useS
 import { getCurrentUser, updateUserPreferredLanguage } from '../services/authService';
 import { safeStorage } from '../services/safeStorage';
 import esLocale from './locales/es.json';
-import nahuatLocale from './locales/nahuat.json';
-import lencaLocale from './locales/lenca.json';
-import kakawiraLocale from './locales/kakawira.json';
-import enLocale from './locales/en.json';
-import arLocale from './locales/ar.json';
-import zhLocale from './locales/zh.json';
 import { SUPPORTED_LANGUAGES, translateQuestionContent, extractContextualGlossary } from './questionTranslator';
 import { AppLocale, LanguageMeta, TranslationDictionary, TranslationValue, TranslatedQuestionContent, GlossaryTerm } from './types';
 import { Question } from '../types';
@@ -15,37 +9,44 @@ import { Question } from '../types';
 export const LANG_STORAGE_KEY = 'kuskat.lang';
 export const LEARN_SPANISH_STORAGE_KEY = 'kuskat.learn_es';
 
-const LOCALE_DICTIONARIES: Record<AppLocale, TranslationDictionary> = {
+const LOCALE_DICTIONARIES: Partial<Record<AppLocale, TranslationDictionary>> = {
   es: esLocale as TranslationDictionary,
-  nahuat: nahuatLocale as TranslationDictionary,
-  lenca: lencaLocale as TranslationDictionary,
-  kakawira: kakawiraLocale as TranslationDictionary,
-  en: enLocale as TranslationDictionary,
-  ar: arLocale as TranslationDictionary,
-  zh: zhLocale as TranslationDictionary,
 };
 
 /**
  * Carga dinámica asíncrona de diccionarios para extensibilidad de paquetes de idioma adicionales.
  */
 export async function loadLocaleChunk(locale: AppLocale): Promise<TranslationDictionary> {
+  const cached = LOCALE_DICTIONARIES[locale];
+  if (cached) return cached;
+
+  let dict: TranslationDictionary;
   switch (locale) {
     case 'nahuat':
-      return (await import('./locales/nahuat.json')).default as TranslationDictionary;
+      dict = (await import('./locales/nahuat.json')).default as TranslationDictionary;
+      break;
     case 'lenca':
-      return (await import('./locales/lenca.json')).default as TranslationDictionary;
+      dict = (await import('./locales/lenca.json')).default as TranslationDictionary;
+      break;
     case 'kakawira':
-      return (await import('./locales/kakawira.json')).default as TranslationDictionary;
+      dict = (await import('./locales/kakawira.json')).default as TranslationDictionary;
+      break;
     case 'en':
-      return (await import('./locales/en.json')).default as TranslationDictionary;
+      dict = (await import('./locales/en.json')).default as TranslationDictionary;
+      break;
     case 'ar':
-      return (await import('./locales/ar.json')).default as TranslationDictionary;
+      dict = (await import('./locales/ar.json')).default as TranslationDictionary;
+      break;
     case 'zh':
-      return (await import('./locales/zh.json')).default as TranslationDictionary;
+      dict = (await import('./locales/zh.json')).default as TranslationDictionary;
+      break;
     case 'es':
     default:
-      return (await import('./locales/es.json')).default as TranslationDictionary;
+      dict = esLocale as TranslationDictionary;
+      break;
   }
+  LOCALE_DICTIONARIES[locale] = dict;
+  return dict;
 }
 
 export function isValidLocale(code: unknown): code is AppLocale {
@@ -147,8 +148,8 @@ export function translateKey(
   key: string,
   params?: Record<string, string | number>
 ): string {
-  const activeDict = LOCALE_DICTIONARIES[locale] || LOCALE_DICTIONARIES.es;
-  const fallbackDict = LOCALE_DICTIONARIES.es;
+  const fallbackDict = LOCALE_DICTIONARIES.es as TranslationDictionary;
+  const activeDict = LOCALE_DICTIONARIES[locale] || fallbackDict;
 
   let targetKey = key;
   if (params && typeof params.count === 'number') {
@@ -209,6 +210,23 @@ export const LanguageProvider: React.FC<{
     detectInitialLearnSpanishMode(initialLocale ?? detectInitialLocale())
   );
   const [announcement, setAnnouncement] = useState<string>('');
+  const [dictVersion, setDictVersion] = useState<number>(0);
+
+  // Cargar bajo demanda el diccionario del idioma activo si aún no está en memoria
+  useEffect(() => {
+    if (locale === 'es' || LOCALE_DICTIONARIES[locale]) return;
+    let cancelled = false;
+    loadLocaleChunk(locale)
+      .then(() => {
+        if (!cancelled) setDictVersion((v) => v + 1);
+      })
+      .catch(() => {
+        // Fallback silencioso a español
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [locale]);
 
   const languageMeta = useMemo<LanguageMeta>(() => {
     return (
@@ -240,8 +258,21 @@ export const LanguageProvider: React.FC<{
     }
 
     const nextMeta = SUPPORTED_LANGUAGES.find((l) => l.code === next) || SUPPORTED_LANGUAGES[0];
-    const msg = translateKey(next, 'app.languageChanged', { lang: nextMeta.nativeName });
-    setAnnouncement(msg);
+    if (LOCALE_DICTIONARIES[next]) {
+      const msg = translateKey(next, 'app.languageChanged', { lang: nextMeta.nativeName });
+      setAnnouncement(msg);
+    } else {
+      loadLocaleChunk(next)
+        .then(() => {
+          setDictVersion((v) => v + 1);
+          const msg = translateKey(next, 'app.languageChanged', { lang: nextMeta.nativeName });
+          setAnnouncement(msg);
+        })
+        .catch(() => {
+          const msg = translateKey(next, 'app.languageChanged', { lang: nextMeta.nativeName });
+          setAnnouncement(msg);
+        });
+    }
   }, []);
 
   const setLearnSpanishMode = useCallback((enabled: boolean) => {
@@ -269,7 +300,8 @@ export const LanguageProvider: React.FC<{
     (key: string, params?: Record<string, string | number>) => {
       return translateKey(locale, key, params);
     },
-    [locale]
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [locale, dictVersion]
   );
 
   const formatNumber = useCallback(

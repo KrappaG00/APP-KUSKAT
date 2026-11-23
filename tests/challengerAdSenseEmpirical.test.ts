@@ -324,14 +324,14 @@ describe('Adversarial Challenge: Google AdSense Guards & Crawlable Assets', () =
       });
     });
 
-    it('public/ads.txt: valid format, DIRECT, publisher IDs pub-5120531548842494 and pub-4241045160320459', () => {
+    it('public/ads.txt: valid format, DIRECT, single authorized publisher ID pub-4241045160320459', () => {
       const adsTxt = fs.readFileSync(path.join(rootDir, 'public/ads.txt'), 'utf-8');
       const lines = adsTxt.split(/\r?\n/).map((l) => l.trim()).filter((l) => l.length > 0 && !l.startsWith('#'));
 
       console.log(`[EMPIRICAL METRIC] ads.txt verified lines: ${JSON.stringify(lines)}`);
-      expect(lines.length).toBe(2);
+      expect(lines.length).toBe(1);
       expect(lines).toContain('google.com, pub-4241045160320459, DIRECT, f08c47fec0942fa0');
-      expect(lines).toContain('google.com, pub-5120531548842494, DIRECT, f08c47fec0942fa0');
+      expect(adsTxt).not.toContain('pub-5120531548842494');
     });
 
     it('public/robots.txt: directives allow Mediapartners-Google, Googlebot, AdsBot-Google and declare sitemap', () => {
