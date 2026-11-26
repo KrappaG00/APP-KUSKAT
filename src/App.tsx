@@ -2598,26 +2598,6 @@ export default function App() {
 
               </div>
 
-              <div className="p-3.5 rounded-2xl bg-slate-50 border border-slate-200 space-y-2">
-                <div className="flex items-center gap-3">
-                  <div className="w-11 h-11 rounded-xl overflow-hidden border-2 border-[#0B1B3D]/40 shrink-0 shadow-xs">
-                    <img
-                      src="/wilson_colato.jpg"
-                      alt="Wilson Colato"
-                      className="w-full h-full object-cover object-top"
-                    />
-                  </div>
-                  <div>
-                    <p className="font-bold text-slate-900">Wilson Colato</p>
-                    <p className="text-[11px] text-slate-500">Cofundador del Proyecto KUSKAT</p>
-                  </div>
-                </div>
-                <div className="space-y-1 text-[11px] text-slate-600 border-t border-slate-200/70 pt-2">
-                  <p className="font-medium text-slate-800">• Profesional en belleza y enfermería.</p>
-                  <p>• Estudiante de abogacía.</p>
-                </div>
-              </div>
-
             </div>
 
 

@@ -192,8 +192,8 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
             </p>
           </div>
 
-          {/* Tarjetas del Equipo: Yeferson E. Perez (Fundador), Wilson Colato (Cofundador) y Asesores */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-6 max-w-7xl mx-auto w-full">
+          {/* Tarjetas del Equipo: Yeferson E. Perez (Fundador) y Asesores Educativos y Creativos */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto w-full">
             {/* Tarjeta del Fundador: Yeferson E. Perez */}
             <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-[#C59B27]/40 p-6 shadow-corporate-subtle flex flex-col items-center text-center relative overflow-hidden group hover:border-[#0B1B3D] transition-all duration-300">
               <div className="absolute top-3.5 right-3.5">
@@ -227,42 +227,6 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
               <div className="mt-auto pt-5 border-t border-slate-200/70 w-full flex items-center justify-center gap-2 text-[11px] font-mono text-slate-500">
                 <span className="w-2 h-2 rounded-full bg-emerald-500 inline-block animate-pulse" />
                 <span>KUSKAT • Educación Superior Abierta</span>
-              </div>
-            </div>
-
-            {/* Tarjeta del Cofundador: Wilson Colato */}
-            <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-[#0B1B3D]/25 p-6 shadow-corporate-subtle flex flex-col items-center text-center relative overflow-hidden group hover:border-[#0B1B3D] transition-all duration-300">
-              <div className="absolute top-3.5 right-3.5">
-                <span className="px-2.5 py-1 rounded-md bg-[#0B1B3D] text-white text-[10px] font-mono font-bold uppercase tracking-wider border border-[#0B1B3D]/30 shadow-2xs">
-                  Cofundador
-                </span>
-              </div>
-
-              <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl overflow-hidden border-2 border-[#0B1B3D]/40 shadow-md mb-4 bg-slate-100 shrink-0 mt-2 group-hover:scale-105 transition-transform duration-300">
-                <img
-                  src="/wilson_colato.jpg"
-                  alt="Wilson Colato - Cofundador KUSKAT"
-                  width={128}
-                  height={128}
-                  loading="lazy"
-                  decoding="async"
-                  className="w-full h-full object-cover object-top"
-                />
-              </div>
-
-              <h3 className="font-editorial text-xl font-bold text-[#0B1B3D] tracking-tight">
-                Wilson Colato
-              </h3>
-              <p className="text-xs sm:text-sm font-semibold text-blue-700 mt-1">
-                Cofundador — KUSKAT
-              </p>
-              <p className="font-caslon text-xs sm:text-sm text-slate-600 mt-3 leading-relaxed max-w-xs">
-                Profesional en belleza y enfermería, estudiante de abogacía.
-              </p>
-
-              <div className="mt-auto pt-5 border-t border-slate-200/70 w-full flex items-center justify-center gap-2 text-[11px] font-mono text-slate-500">
-                <span className="w-2 h-2 rounded-full bg-blue-500 inline-block" />
-                <span>Belleza, Enfermería &amp; Derecho</span>
               </div>
             </div>
 
