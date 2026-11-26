@@ -29,7 +29,7 @@ export const OFFICIAL_WHATSAPP_SHORT = '7657-4463';
 export const OFFICIAL_WHATSAPP_URL = 'https://wa.me/50376574463';
 
 export const BEAUTY_SECTION = {
-  sectionTag: 'SECCIÓN 6: Kuskat Academia y Salón',
+  sectionTag: 'SECCIÓN 1: Kuskat Academia y Salón',
   areaTitle: 'Área de Belleza — Kuskat Academia y Salón',
   badge: 'Servicios y Promociones',
   subtitle: 'Estilismo profesional, tratamientos capilares y atención personalizada.',

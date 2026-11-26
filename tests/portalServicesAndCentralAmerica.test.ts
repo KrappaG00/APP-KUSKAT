@@ -18,7 +18,7 @@ describe('Portal de Inicio — Área de Servicios, América Central y KUSKAT Aca
   it('1. ServiciosCatalogSection renderiza el Área de Belleza (Kuskat Academia y Salón) PRIMERO, antes del Catálogo Digital', () => {
     const html = renderToStaticMarkup(React.createElement(ServiciosCatalogSection));
 
-    const beautyIdx = html.indexOf('SECCIÓN 6: Kuskat Academia y Salón');
+    const beautyIdx = html.indexOf('SECCIÓN 1: Kuskat Academia y Salón');
     const digitalIdx = html.indexOf('CATÁLOGO DE SERVICIOS DIGITALES');
 
     expect(beautyIdx).toBeGreaterThan(-1);

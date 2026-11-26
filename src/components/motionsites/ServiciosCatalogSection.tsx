@@ -50,7 +50,7 @@ export const ServiciosCatalogSection: React.FC = () => {
       </div>
 
       {/* ================================================================== */}
-      {/* 1. PRIMERO: ÁREA DE BELLEZA — KUSKAT ACADEMIA Y SALÓN (SECCIÓN 6)  */}
+      {/* 1. PRIMERO: ÁREA DE BELLEZA — KUSKAT ACADEMIA Y SALÓN (SECCIÓN 1)  */}
       {/* ================================================================== */}
       <article
         id="servicios-belleza"
