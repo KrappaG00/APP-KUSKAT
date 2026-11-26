@@ -8,6 +8,18 @@ const ROUTES_OUT_DIR = path.join(DIST_DIR, 'routes');
 
 const ROUTE_DEFINITIONS = [
   {
+    tab: 'el-salvador-portal',
+    title: 'KUSKAT El Salvador | Portal Académico Completo (19 Áreas y Simuladores)',
+    description:
+      'Portal académico completo de El Salvador con las 19 áreas de estudio, estadísticas educativas, simuladores oficiales UES, AVANZO, MINED-ESMATE, ANSP, CSJ, MINSAL y lenguas originarias.',
+    heading: 'KUSKAT El Salvador — Portal Académico Completo (19 Áreas)',
+    institution: 'UES, MINED, MINSAL, CSJ, VMT y ANSP',
+    focus:
+      '19 áreas académicas gratuitas, estadísticas de preparación, dirección pedagógica y acceso directo a simuladores de admisión universitaria, habilitación profesional, ciencias exactas e idiomas',
+    applications:
+      'estudio integral gratuito para aspirantes salvadoreños a educación superior, certificaciones profesionales, educación media y revitalización lingüística',
+  },
+  {
     tab: 'academic-reinforcement',
     title: 'Refuerzo Curricular Oficial MINED-ESMATE (1° Grado a Bachillerato) | KUSKAT',
     description:

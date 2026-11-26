@@ -39,6 +39,7 @@ import { addConnectivityListener } from '../services/offlineDb';
 
 export type AppPageTab =
   | 'motionsites3d'
+  | 'el-salvador-portal'
   | 'central-america'
   | 'patriotic-history'
   | 'driver-license'
@@ -211,12 +212,22 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
         {
           id: 'motionsites3d',
           title: t('nav.portal3d'),
-          subtitle: 'Portal de bienvenida y presentación del equipo KUSKAT',
+          subtitle: 'Área de Servicios, América Central y KUSKAT Académico Gratuito',
           icon: <Sparkles className="w-4 h-4 text-[#C59B27]" />,
           badge: 'Inicio',
           badgeColor: 'bg-[#F4F3ED] text-[#1E293B] border-[#E2E0D5]',
           action: () => navigateTo('motionsites3d'),
           isActive: activeTab === 'motionsites3d',
+        },
+        {
+          id: 'el-salvador-portal',
+          title: 'KUSKAT El Salvador',
+          subtitle: 'Portal académico completo de El Salvador (19 áreas y estadísticas)',
+          icon: <Flag className="w-4 h-4 text-[#0B1B3D]" />,
+          badge: 'El Salvador',
+          badgeColor: 'bg-blue-50 text-blue-800 border-blue-200',
+          action: () => navigateTo('el-salvador-portal'),
+          isActive: activeTab === 'el-salvador-portal',
         },
       ],
     },

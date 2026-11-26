@@ -27,6 +27,7 @@ interface MotionSitesPortalProps {
   onOpenDevModal?: () => void;
   onOpenLegalModal?: (tab?: LegalTab) => void;
   currentUser?: User | null;
+  hideHeader?: boolean;
 }
 
 export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
@@ -39,6 +40,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
   onOpenDevModal,
   onOpenLegalModal,
   currentUser,
+  hideHeader = false,
 }) => {
   const { t } = useTranslation();
 
@@ -132,21 +134,23 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
       {/* ==================================================================== */}
       {/* 1. ENCABEZADO PRINCIPAL (HEADER CON MENÚ COMPLETO DE TODAS LAS PÁGINAS) */}
       {/* ==================================================================== */}
-      <HeaderNavbar
-        activeTab="motionsites3d"
-        onSelectTab={(tab) => {
-          if (tab === 'practice') {
-            triggerStudyTransition();
-          } else if (tab === 'categories') {
-            onOpenCategories();
-          } else if (onSelectTab) {
-            onSelectTab(tab);
-          }
-        }}
-        onOpenTutorial={() => (onOpenTutorial ? onOpenTutorial() : undefined)}
-        onOpenDevModal={() => (onOpenDevModal ? onOpenDevModal() : undefined)}
-        onOpenLegalModal={(tab) => (onOpenLegalModal ? onOpenLegalModal(tab) : undefined)}
-      />
+      {!hideHeader && (
+        <HeaderNavbar
+          activeTab="motionsites3d"
+          onSelectTab={(tab) => {
+            if (tab === 'practice') {
+              triggerStudyTransition();
+            } else if (tab === 'categories') {
+              onOpenCategories();
+            } else if (onSelectTab) {
+              onSelectTab(tab);
+            }
+          }}
+          onOpenTutorial={() => (onOpenTutorial ? onOpenTutorial() : undefined)}
+          onOpenDevModal={() => (onOpenDevModal ? onOpenDevModal() : undefined)}
+          onOpenLegalModal={(tab) => (onOpenLegalModal ? onOpenLegalModal(tab) : undefined)}
+        />
+      )}
 
 
       {/* ==================================================================== */}

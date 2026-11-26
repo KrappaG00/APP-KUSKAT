@@ -71,6 +71,7 @@ describe('Suite de Arquitectura de Layout, Navegación en 5 Pilares y Anuncios L
       'academic-reinforcement',
       'jovenes-talento',
       'motionsites3d',
+      'el-salvador-portal',
       'notary-exam',
       'residentado-medico',
       'cssp-health',
