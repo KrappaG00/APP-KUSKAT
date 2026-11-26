@@ -185,7 +185,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
               <span>Dirección & Equipo Académico KUSKAT</span>
             </div>
             <h2 className="font-montenegrin text-2xl sm:text-3xl lg:text-4xl font-black text-slate-900 tracking-tight">
-              Presentación del Equipo
+              Presentación de Equipo Académico El Salvador
             </h2>
             <p className="font-caslon text-xs sm:text-sm text-slate-600 leading-relaxed">
               Liderazgo pedagógico, científico y tecnológico comprometido con la democratización educativa, el acceso abierto a la educación superior y la excelencia académica en El Salvador.
