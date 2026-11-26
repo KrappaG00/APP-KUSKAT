@@ -188,15 +188,15 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
       aria-modal="true"
       aria-labelledby="tutorial-modal-title"
       dir={languageMeta.dir}
-      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-slate-900/65 backdrop-blur-sm animate-fade-in"
+      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-900/65 backdrop-blur-sm animate-fade-in"
       onClick={handleSkip}
     >
       <div
-        className="bg-white rounded-t-3xl sm:rounded-3xl border border-slate-200 shadow-2xl max-w-xl w-full max-h-[100dvh] sm:max-h-[90vh] overflow-hidden flex flex-col relative text-slate-800"
+        className="bg-white rounded-3xl border border-slate-200 shadow-2xl max-w-xl w-[92%] sm:w-full max-h-[80dvh] sm:max-h-[80vh] overflow-hidden flex flex-col relative text-slate-800"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Cabecera del Tutorial con Progreso y Marca KUSKAT */}
-        <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 p-4 sm:p-6 text-white relative shrink-0">
+        <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 p-3.5 sm:p-5 text-white relative shrink-0">
           <div className="flex items-start justify-between gap-2 mb-2.5">
             <div className="flex items-center gap-2 min-w-0 flex-1">
               <div className="w-6 h-6 rounded-lg bg-white p-0.5 flex items-center justify-center shrink-0 shadow-2xs">

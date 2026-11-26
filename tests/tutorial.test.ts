@@ -127,4 +127,15 @@ describe('Tutorial de Onboarding Interactivo (6 Pasos y Persistencia)', () => {
     expect(fullText).toContain('Wilson Colato');
     expect(fullText).toContain('El Salvador');
   });
+
+  it('limita la altura del modal del tutorial al 80% en móviles y tablets', async () => {
+    const fs = await import('fs');
+    const path = await import('path');
+    const code = fs.readFileSync(
+      path.join(process.cwd(), 'src', 'components', 'OnboardingTutorial.tsx'),
+      'utf-8'
+    );
+    expect(code).toContain('max-h-[80dvh]');
+    expect(code).not.toContain('max-h-[100dvh]');
+  });
 });
