@@ -28,6 +28,7 @@ interface MotionSitesPortalProps {
   onOpenLegalModal?: (tab?: LegalTab) => void;
   currentUser?: User | null;
   hideHeader?: boolean;
+  hideFooter?: boolean;
 }
 
 export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
@@ -41,6 +42,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
   onOpenLegalModal,
   currentUser,
   hideHeader = false,
+  hideFooter = false,
 }) => {
   const { t } = useTranslation();
 
@@ -495,6 +497,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
       {/* ==================================================================== */}
       {/* 7. PIE DE PÁGINA */}
       {/* ==================================================================== */}
+      {!hideFooter && (
       <footer className="bg-white border-t border-slate-200 py-10 text-xs text-slate-500 font-caslon">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-8 border-b border-slate-100">
@@ -631,6 +634,7 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
           </div>
         </div>
       </footer>
+      )}
     </div>
   );
 };
