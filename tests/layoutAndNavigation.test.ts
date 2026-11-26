@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import fs from 'node:fs';
 import path from 'node:path';
 
-describe('Suite de Arquitectura de Layout, Navegación en 5 Pilares y Anuncios Laterales', () => {
+describe('Suite de Arquitectura de Layout, Navegación en 3 Menús (Servicios, CA+, Idiomas) y Anuncios Laterales', () => {
   const rootDir = process.cwd();
   const headerNavbarPath = path.join(rootDir, 'src', 'components', 'HeaderNavbar.tsx');
   const lateralAdRailsPath = path.join(rootDir, 'src', 'components', 'LateralAdRails.tsx');
@@ -41,31 +41,56 @@ describe('Suite de Arquitectura de Layout, Navegación en 5 Pilares y Anuncios L
     expect(code).toContain('overflow-x-clip');
   });
 
-  it('3. HeaderNavbar implementa los 5 Pilares Académicos sin colisiones de menús', () => {
+  it('3. HeaderNavbar implementa los 3 menús principales (Servicios, CA+, Idiomas), 4 subcategorías de El Salvador, 5 países Próximamente y 7 idiomas', () => {
     expect(fs.existsSync(headerNavbarPath)).toBe(true);
     const code = fs.readFileSync(headerNavbarPath, 'utf-8');
 
-    // Los 5 pilares temáticos
-    expect(code).toContain("id: 'admision'");
-    expect(code).toContain("label: 'Admisión & Pruebas'");
+    // 3 menús principales
+    expect(code).toContain("id: 'servicios'");
+    expect(code).toContain("label: 'Servicios'");
+    expect(code).toContain("id: 'ca-plus'");
+    expect(code).toContain("label: 'CA+'");
+    expect(code).toContain("id: 'idiomas'");
+    expect(code).toContain("label: 'Idiomas'");
 
-    expect(code).toContain("id: 'leyes-salud'");
-    expect(code).toContain("label: 'Habilitación & Leyes'");
+    // Servicios: Área de belleza y Catálogo de servicios digitales
+    expect(code).toContain("title: 'Área de belleza'");
+    expect(code).toContain("navigateToSection('motionsites3d', 'servicios-belleza')");
+    expect(code).toContain("title: 'Catálogo de servicios digitales'");
+    expect(code).toContain("navigateToSection('motionsites3d', 'servicios-digitales')");
 
-    expect(code).toContain("id: 'tecnica-ciencias'");
-    expect(code).toContain("label: 'Técnica & Ciencias'");
+    // CA+: El Salvador (4 subcategorías) + 5 países Próximamente
+    expect(code).toContain("name: 'El Salvador', status: 'active'");
+    for (const country of ['Guatemala', 'Honduras', 'Nicaragua', 'Costa Rica', 'Panamá']) {
+      expect(code).toContain(`name: '${country}', status: 'coming-soon'`);
+    }
+    expect(code).toContain('Aún no hay información trabajada para');
+    expect(code).toContain('Volver a El Salvador');
 
-    expect(code).toContain("id: 'idiomas-civica'");
-    expect(code).toContain("label: 'Idiomas & Cívica'");
+    expect(code).toContain("label: '+Admisión'");
+    expect(code).toContain("label: '+Leyes & Salud'");
+    expect(code).toContain("label: '+Técnica'");
+    expect(code).toContain("label: '+Herramientas'");
 
-    expect(code).toContain("id: 'herramientas'");
-    expect(code).toContain("label: 'Herramientas & OMR'");
+    // Idiomas: 7 lenguas
+    for (const [id, title] of [
+      ['english', 'Inglés'],
+      ['nahuat', 'Náhuat'],
+      ['lenca', 'Lenca'],
+      ['kakawira', 'Kakawira'],
+      ['german', 'Alemán'],
+      ['arabic', 'Árabe'],
+      ['mandarin', 'Mandarín'],
+    ]) {
+      expect(code).toContain(`title: '${title}'`);
+      expect(code).toContain(`navigateToLanguage('${id}')`);
+    }
   });
 
-  it('4. Los 24 módulos/páginas principales están completamente mapeados en los 5 pilares', () => {
+  it('4. Los 25 AppPageTab siguen completamente mapeados y accesibles desde HeaderNavbar', () => {
     const code = fs.readFileSync(headerNavbarPath, 'utf-8');
 
-    const expectedTabs = [
+    const expectedNavigateToTabs = [
       'categories',
       'practice',
       'academic-reinforcement',
@@ -86,16 +111,19 @@ describe('Suite de Arquitectura de Layout, Navegación en 5 Pilares y Anuncios L
       'ingenieria-ciencias',
       'formula-lab',
       'driver-license',
-      'languages',
       'patriotic-history',
       'central-america',
       'latex',
       'one-page-sheets',
     ];
 
-    for (const tab of expectedTabs) {
+    for (const tab of expectedNavigateToTabs) {
       expect(code).toContain(`navigateTo('${tab}')`);
     }
+
+    // Ruta 'languages' se navega vía navigateToLanguage / onSelectLanguage
+    expect(code).toContain("onSelectTab('languages')");
+    expect(code).toContain("navigateToLanguage('english')");
   });
 
   it('5. Jerarquía estricta de z-index para prevenir solapamientos de menús y modales', () => {
@@ -130,13 +158,14 @@ describe('Suite de Arquitectura de Layout, Navegación en 5 Pilares y Anuncios L
     const code = fs.readFileSync(headerNavbarPath, 'utf-8');
 
     // Comprobar la lógica de alineación direccional
-    expect(code).toContain("dropdownAlignmentClass =");
-    expect(code).toContain("pillarIndex === 0 || pillarIndex === 1");
+    expect(code).toContain('dropdownAlignmentClass =');
+    expect(code).toContain('menuIndex === 0');
     expect(code).toContain("'left-0'");
+    expect(code).toContain("'left-1/2 -translate-x-1/2'");
     expect(code).toContain("'right-0'");
 
     // Comprobar la salvaguarda de ancho máximo relativo al viewport
-    expect(code).toContain("max-w-[calc(100vw-2rem)]");
+    expect(code).toContain('max-w-[calc(100vw-2rem)]');
   });
 
   it('8. HeaderNavbar usa etiquetas compactas responsivas en pantallas de 1024px a 1280px', () => {
@@ -145,7 +174,7 @@ describe('Suite de Arquitectura de Layout, Navegación en 5 Pilares y Anuncios L
     // Botones responsivos con shortLabel en pantallas menores a xl
     expect(code).toContain('hidden xl:inline');
     expect(code).toContain('inline xl:hidden');
-    expect(code).toContain('{pillar.shortLabel}');
+    expect(code).toContain('{menu.shortLabel}');
 
     // Subtítulo del logo oculto en pantallas estándar para ahorrar espacio
     expect(code).toContain('hidden 2xl:block');

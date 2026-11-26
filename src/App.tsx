@@ -649,6 +649,61 @@ export default function App() {
 
 
 
+  const [pendingSectionScroll, setPendingSectionScroll] = useState<{
+    tab: AppPageTab;
+    sectionId: string;
+  } | null>(null);
+
+  const handleSelectLanguage = (languageId: string) => {
+    setLanguagesInitialId(languageId);
+    setLanguagesInitialMainTab('theory');
+    handleSelectTab('languages');
+  };
+
+  const handleNavigateSection = (tab: AppPageTab, sectionId: string) => {
+    if (activeTab === tab) {
+      const el = document.getElementById(sectionId);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+    }
+    setPendingSectionScroll({ tab, sectionId });
+    handleSelectTab(tab);
+  };
+
+  useEffect(() => {
+    if (!pendingSectionScroll || activeTab !== pendingSectionScroll.tab) return;
+    let cancelled = false;
+    let attempts = 0;
+    const maxAttempts = 25;
+
+    const tryScroll = () => {
+      if (cancelled) return;
+      const el = document.getElementById(pendingSectionScroll.sectionId);
+      if (el) {
+        setTimeout(() => {
+          if (!cancelled) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            setPendingSectionScroll(null);
+          }
+        }, 80);
+        return;
+      }
+      attempts += 1;
+      if (attempts < maxAttempts) {
+        setTimeout(tryScroll, 60);
+      } else {
+        setPendingSectionScroll(null);
+      }
+    };
+
+    tryScroll();
+    return () => {
+      cancelled = true;
+    };
+  }, [activeTab, pendingSectionScroll]);
+
   const handleSelectTab = (tab: AppPageTab) => {
 
     if (isExamRunning && tab !== activeTab) {
@@ -906,7 +961,33 @@ export default function App() {
 
           onOpenLegalModal={handleOpenLegalModal}
 
+          onOpenFlashcards={() => setIsFlashcardsModalOpen(true)}
+
+          onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+
+          onSelectLanguage={handleSelectLanguage}
+
+          onNavigateSection={handleNavigateSection}
+
         />
+
+        {isFlashcardsModalOpen && (
+          <React.Suspense fallback={null}>
+            <FlashcardModal
+              isOpen={isFlashcardsModalOpen}
+              onClose={() => setIsFlashcardsModalOpen(false)}
+            />
+          </React.Suspense>
+        )}
+
+        {isSmartErrorNotebookOpen && (
+          <React.Suspense fallback={null}>
+            <SmartErrorNotebookModal
+              isOpen={isSmartErrorNotebookOpen}
+              onClose={() => setIsSmartErrorNotebookOpen(false)}
+            />
+          </React.Suspense>
+        )}
 
       </React.Suspense>
 
@@ -941,6 +1022,10 @@ export default function App() {
         onOpenFlashcards={() => setIsFlashcardsModalOpen(true)}
 
         onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+
+        onSelectLanguage={handleSelectLanguage}
+
+        onNavigateSection={handleNavigateSection}
 
       />
 

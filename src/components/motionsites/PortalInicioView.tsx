@@ -19,6 +19,10 @@ export interface PortalInicioViewProps {
   onOpenTutorial?: () => void;
   onOpenDevModal?: () => void;
   onOpenLegalModal?: (tab?: LegalTab) => void;
+  onOpenFlashcards?: () => void;
+  onOpenErrorNotebook?: () => void;
+  onSelectLanguage?: (languageId: string) => void;
+  onNavigateSection?: (tab: AppPageTab, sectionId: string) => void;
   currentUser?: User | null;
 }
 
@@ -30,6 +34,10 @@ export const PortalInicioView: React.FC<PortalInicioViewProps> = ({
   onOpenTutorial,
   onOpenDevModal,
   onOpenLegalModal,
+  onOpenFlashcards,
+  onOpenErrorNotebook,
+  onSelectLanguage,
+  onNavigateSection,
 }) => {
   const [isTransitioning, setIsTransitioning] = useState<boolean>(false);
   const transitionTimerRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -136,6 +144,10 @@ export const PortalInicioView: React.FC<PortalInicioViewProps> = ({
         onOpenTutorial={() => (onOpenTutorial ? onOpenTutorial() : undefined)}
         onOpenDevModal={() => (onOpenDevModal ? onOpenDevModal() : undefined)}
         onOpenLegalModal={(tab) => (onOpenLegalModal ? onOpenLegalModal(tab) : undefined)}
+        onOpenFlashcards={onOpenFlashcards}
+        onOpenErrorNotebook={onOpenErrorNotebook}
+        onSelectLanguage={onSelectLanguage}
+        onNavigateSection={onNavigateSection}
       />
 
       {/* ==================================================================== */}

@@ -73,6 +73,8 @@ export interface HeaderNavbarProps {
   onOpenLegalModal: (tab?: LegalTab) => void;
   onOpenFlashcards?: () => void;
   onOpenErrorNotebook?: () => void;
+  onSelectLanguage?: (languageId: string) => void;
+  onNavigateSection?: (tab: AppPageTab, sectionId: string) => void;
   currentUser?: User | null;
   is2DAccessibleMode?: boolean;
   onToggle2DAccessible?: () => void;
@@ -97,22 +99,34 @@ export interface NavPillar {
   items: NavItem[];
 }
 
+export interface CaCountryOption {
+  id: 'el-salvador' | 'guatemala' | 'honduras' | 'nicaragua' | 'costa-rica' | 'panama';
+  name: string;
+  status: 'active' | 'coming-soon';
+}
+
+export type TopMenuId = 'servicios' | 'ca-plus' | 'idiomas';
+
 export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
   activeTab,
   onSelectTab,
-  onOpenAccountModal,
+  onOpenAccountModal: _onOpenAccountModal,
   onOpenTutorial,
-  onOpenDevModal,
+  onOpenDevModal: _onOpenDevModal,
   onOpenLegalModal,
   onOpenFlashcards,
   onOpenErrorNotebook,
+  onSelectLanguage,
+  onNavigateSection,
   is2DAccessibleMode,
   onToggle2DAccessible,
 }) => {
   const { t } = useTranslation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState<boolean>(false);
-  const [activeMobilePillarId, setActiveMobilePillarId] = useState<string>('admision');
-  const [openDropdownId, setOpenDropdownId] = useState<string | null>(null);
+  const [activeMobileMenuId, setActiveMobileMenuId] = useState<TopMenuId>('servicios');
+  const [selectedCaCountryId, setSelectedCaCountryId] = useState<CaCountryOption['id']>('el-salvador');
+  const [selectedElSalvadorCategoryId, setSelectedElSalvadorCategoryId] = useState<string>('admision');
+  const [openDropdownId, setOpenDropdownId] = useState<TopMenuId | null>(null);
   const [isOnline, setIsOnline] = useState<boolean>(() =>
     typeof navigator !== 'undefined' ? navigator.onLine : true
   );
@@ -156,16 +170,72 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
     setIsMobileMenuOpen(false);
   };
 
+  // Helper para navegar a una sección específica (ej. #servicios-belleza o #servicios-digitales)
+  const navigateToSection = (tab: AppPageTab, sectionId: string) => {
+    if (onNavigateSection) {
+      onNavigateSection(tab, sectionId);
+    } else {
+      onSelectTab(tab);
+      if (typeof document !== 'undefined') {
+        setTimeout(() => {
+          document.getElementById(sectionId)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 120);
+      }
+    }
+    setOpenDropdownId(null);
+    setIsMobileMenuOpen(false);
+  };
+
+  // Helper para navegar directamente a un idioma específico en Escuela de Idiomas
+  const navigateToLanguage = (languageId: string) => {
+    if (onSelectLanguage) {
+      onSelectLanguage(languageId);
+    } else {
+      onSelectTab('languages');
+    }
+    setOpenDropdownId(null);
+    setIsMobileMenuOpen(false);
+  };
+
   // ==========================================================================
-  // ESTRUCTURA TAXONÓMICA: 5 PILARES ACADÉMICOS DE KUSKAT
+  // ESTRUCTURA TAXONÓMICA: 3 MENÚS PRINCIPALES (Servicios, CA+, Idiomas)
   // ==========================================================================
-  const PILLARS: NavPillar[] = [
-    // ------------------------------------------------------------------------
-    // PILAR 1: Admisión & Pruebas Nacionales
-    // ------------------------------------------------------------------------
+  const SERVICIOS_ITEMS: NavItem[] = [
+    {
+      id: 'servicios-belleza',
+      title: 'Área de belleza',
+      subtitle: 'Kuskat Academia y Salón: cursos, spa capilar y estética profesional',
+      icon: <Sparkles className="w-4 h-4 text-[#C59B27]" />,
+      badge: 'Belleza',
+      badgeColor: 'bg-[#FFFBEB] text-[#B45309] border-[#FDE68A]',
+      action: () => navigateToSection('motionsites3d', 'servicios-belleza'),
+      isActive: activeTab === 'motionsites3d',
+    },
+    {
+      id: 'servicios-digitales',
+      title: 'Catálogo de servicios digitales',
+      subtitle: 'KUSKAT S.A.S. de C.V.: redes sociales, desarrollo web, marca y talleres',
+      icon: <Layers className="w-4 h-4 text-[#0B1B3D]" />,
+      badge: 'Digitales',
+      badgeColor: 'bg-[#EBF0FA] text-[#0B1B3D] border-[#D0DCF2]',
+      action: () => navigateToSection('motionsites3d', 'servicios-digitales'),
+      isActive: activeTab === 'motionsites3d',
+    },
+  ];
+
+  const CA_COUNTRIES: CaCountryOption[] = [
+    { id: 'el-salvador', name: 'El Salvador', status: 'active' },
+    { id: 'guatemala', name: 'Guatemala', status: 'coming-soon' },
+    { id: 'honduras', name: 'Honduras', status: 'coming-soon' },
+    { id: 'nicaragua', name: 'Nicaragua', status: 'coming-soon' },
+    { id: 'costa-rica', name: 'Costa Rica', status: 'coming-soon' },
+    { id: 'panama', name: 'Panamá', status: 'coming-soon' },
+  ];
+
+  const EL_SALVADOR_SUBCATEGORIES: NavPillar[] = [
     {
       id: 'admision',
-      label: 'Admisión & Pruebas',
+      label: '+Admisión',
       shortLabel: 'Admisión',
       icon: <GraduationCap className="w-3.5 h-3.5" />,
       items: [
@@ -210,16 +280,6 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
           isActive: activeTab === 'jovenes-talento',
         },
         {
-          id: 'motionsites3d',
-          title: t('nav.portal3d'),
-          subtitle: 'Área de Servicios, América Central y KUSKAT Académico Gratuito',
-          icon: <Sparkles className="w-4 h-4 text-[#C59B27]" />,
-          badge: 'Inicio',
-          badgeColor: 'bg-[#F4F3ED] text-[#1E293B] border-[#E2E0D5]',
-          action: () => navigateTo('motionsites3d'),
-          isActive: activeTab === 'motionsites3d',
-        },
-        {
           id: 'el-salvador-portal',
           title: 'KUSKAT El Salvador',
           subtitle: 'Portal académico completo de El Salvador (19 áreas y estadísticas)',
@@ -229,15 +289,31 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
           action: () => navigateTo('el-salvador-portal'),
           isActive: activeTab === 'el-salvador-portal',
         },
+        {
+          id: 'patriotic-history',
+          title: 'Símbolos Patrios e Historia',
+          subtitle: 'Símbolos nacionales de El Salvador e historial objetivo de presidentes',
+          icon: <Flag className="w-4 h-4 text-[#0B1B3D]" />,
+          badge: 'Cívica & Historia',
+          badgeColor: 'bg-[#F4F3ED] text-[#1E293B] border-[#E2E0D5]',
+          action: () => navigateTo('patriotic-history'),
+          isActive: activeTab === 'patriotic-history',
+        },
+        {
+          id: 'central-america',
+          title: 'Mapa de Centroamérica',
+          subtitle: 'Geopolítica de las 7 naciones del istmo y división departamental',
+          icon: <Globe2 className="w-4 h-4 text-[#0B1B3D]" />,
+          badge: '7 Naciones',
+          badgeColor: 'bg-[#F4F3ED] text-[#1E293B] border-[#E2E0D5]',
+          action: () => navigateTo('central-america'),
+          isActive: activeTab === 'central-america',
+        },
       ],
     },
-
-    // ------------------------------------------------------------------------
-    // PILAR 2: Habilitación Profesional & Leyes
-    // ------------------------------------------------------------------------
     {
       id: 'leyes-salud',
-      label: 'Habilitación & Leyes',
+      label: '+Leyes & Salud',
       shortLabel: 'Leyes & Salud',
       icon: <Scale className="w-3.5 h-3.5" />,
       items: [
@@ -333,13 +409,9 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
         },
       ],
     },
-
-    // ------------------------------------------------------------------------
-    // PILAR 3: Formación Técnica & Ciencias
-    // ------------------------------------------------------------------------
     {
-      id: 'tecnica-ciencias',
-      label: 'Técnica & Ciencias',
+      id: 'tecnica',
+      label: '+Técnica',
       shortLabel: 'Técnica',
       icon: <Wrench className="w-3.5 h-3.5" />,
       items: [
@@ -395,55 +467,9 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
         },
       ],
     },
-
-    // ------------------------------------------------------------------------
-    // PILAR 4: Idiomas & Cultura Cívica
-    // ------------------------------------------------------------------------
-    {
-      id: 'idiomas-civica',
-      label: 'Idiomas & Cívica',
-      shortLabel: 'Idiomas',
-      icon: <Languages className="w-3.5 h-3.5" />,
-      items: [
-        {
-          id: 'languages',
-          title: t('nav.languages'),
-          subtitle: 'Escuela de Idiomas Kuskat: 7 lenguas, 840 clases y corpus MCER A1-C2',
-          icon: <Languages className="w-4 h-4 text-[#1E3A8A]" />,
-          badge: '7 Lenguas MCER',
-          badgeColor: 'bg-[#F4F3ED] text-[#1E293B] border-[#E2E0D5]',
-          action: () => navigateTo('languages'),
-          isActive: activeTab === 'languages',
-        },
-        {
-          id: 'patriotic-history',
-          title: 'Símbolos Patrios e Historia',
-          subtitle: 'Símbolos nacionales de El Salvador e historial objetivo de presidentes',
-          icon: <Flag className="w-4 h-4 text-[#0B1B3D]" />,
-          badge: 'Cívica & Historia',
-          badgeColor: 'bg-[#F4F3ED] text-[#1E293B] border-[#E2E0D5]',
-          action: () => navigateTo('patriotic-history'),
-          isActive: activeTab === 'patriotic-history',
-        },
-        {
-          id: 'central-america',
-          title: 'Mapa de Centroamérica',
-          subtitle: 'Geopolítica de las 7 naciones del istmo y división departamental',
-          icon: <Globe2 className="w-4 h-4 text-[#0B1B3D]" />,
-          badge: '7 Naciones',
-          badgeColor: 'bg-[#F4F3ED] text-[#1E293B] border-[#E2E0D5]',
-          action: () => navigateTo('central-america'),
-          isActive: activeTab === 'central-america',
-        },
-      ],
-    },
-
-    // ------------------------------------------------------------------------
-    // PILAR 5: Herramientas & OMR
-    // ------------------------------------------------------------------------
     {
       id: 'herramientas',
-      label: 'Herramientas & OMR',
+      label: '+Herramientas',
       shortLabel: 'Herramientas',
       icon: <FileCode className="w-3.5 h-3.5" />,
       items: [
@@ -499,14 +525,120 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
     },
   ];
 
-  // Helper para determinar si un pilar contiene la pestaña actualmente activa
-  const isPillarActive = (pillar: NavPillar) => {
-    return pillar.items.some((item) => item.isActive);
+  const IDIOMAS_ITEMS: NavItem[] = [
+    {
+      id: 'english',
+      title: 'Inglés',
+      subtitle: 'Escuela de Idiomas Kuskat: 120 clases, gramática y simulador MCER A1-C2',
+      icon: <Languages className="w-4 h-4 text-[#1E3A8A]" />,
+      badge: 'MCER A1-C2',
+      badgeColor: 'bg-[#EBF0FA] text-[#1E3A8A] border-[#D0DCF2]',
+      action: () => navigateToLanguage('english'),
+      isActive: activeTab === 'languages',
+    },
+    {
+      id: 'nahuat',
+      title: 'Náhuat',
+      subtitle: 'Lengua originaria náhuat pipil de El Salvador: léxico y gramática',
+      icon: <Languages className="w-4 h-4 text-[#1E7E34]" />,
+      badge: 'Originaria',
+      badgeColor: 'bg-[#EBF7EE] text-[#1E7E34] border-[#C3E6CB]',
+      action: () => navigateToLanguage('nahuat'),
+      isActive: activeTab === 'languages',
+    },
+    {
+      id: 'lenca',
+      title: 'Lenca',
+      subtitle: 'Lengua ancestral lenca potón: vocabulario y estructuras comunicativas',
+      icon: <Languages className="w-4 h-4 text-[#1E7E34]" />,
+      badge: 'Originaria',
+      badgeColor: 'bg-[#EBF7EE] text-[#1E7E34] border-[#C3E6CB]',
+      action: () => navigateToLanguage('lenca'),
+      isActive: activeTab === 'languages',
+    },
+    {
+      id: 'kakawira',
+      title: 'Kakawira',
+      subtitle: 'Lengua originaria kakawira (cacaopera): patrimonio lingüístico',
+      icon: <Languages className="w-4 h-4 text-[#1E7E34]" />,
+      badge: 'Originaria',
+      badgeColor: 'bg-[#EBF7EE] text-[#1E7E34] border-[#C3E6CB]',
+      action: () => navigateToLanguage('kakawira'),
+      isActive: activeTab === 'languages',
+    },
+    {
+      id: 'german',
+      title: 'Alemán',
+      subtitle: 'Alemán integral: declinaciones, verbos y certificación Goethe / MCER',
+      icon: <Languages className="w-4 h-4 text-[#0B1B3D]" />,
+      badge: 'MCER A1-C2',
+      badgeColor: 'bg-[#F4F3ED] text-[#1E293B] border-[#E2E0D5]',
+      action: () => navigateToLanguage('german'),
+      isActive: activeTab === 'languages',
+    },
+    {
+      id: 'arabic',
+      title: 'Árabe',
+      subtitle: 'Árabe estándar moderno: alifato, morfología y lectura comunicativa',
+      icon: <Languages className="w-4 h-4 text-[#9E472A]" />,
+      badge: 'MCER A1-C2',
+      badgeColor: 'bg-[#FDF2E9] text-[#9E472A] border-[#FADBD8]',
+      action: () => navigateToLanguage('arabic'),
+      isActive: activeTab === 'languages',
+    },
+    {
+      id: 'mandarin',
+      title: 'Mandarín',
+      subtitle: 'Chino mandarín: pinyin, tonos, caracteres y conversación práctica',
+      icon: <Languages className="w-4 h-4 text-[#B45309]" />,
+      badge: 'HSK / MCER',
+      badgeColor: 'bg-[#FFFBEB] text-[#B45309] border-[#FDE68A]',
+      action: () => navigateToLanguage('mandarin'),
+      isActive: activeTab === 'languages',
+    },
+  ];
+
+  const TOP_MENUS: Array<{
+    id: TopMenuId;
+    label: string;
+    shortLabel: string;
+    icon: React.ReactNode;
+  }> = [
+    {
+      id: 'servicios',
+      label: 'Servicios',
+      shortLabel: 'Servicios',
+      icon: <Sparkles className="w-3.5 h-3.5" />,
+    },
+    {
+      id: 'ca-plus',
+      label: 'CA+',
+      shortLabel: 'CA+',
+      icon: <Globe2 className="w-3.5 h-3.5" />,
+    },
+    {
+      id: 'idiomas',
+      label: 'Idiomas',
+      shortLabel: 'Idiomas',
+      icon: <Languages className="w-3.5 h-3.5" />,
+    },
+  ];
+
+  const isMenuActive = (menuId: TopMenuId): boolean => {
+    if (menuId === 'servicios') return activeTab === 'motionsites3d';
+    if (menuId === 'idiomas') return activeTab === 'languages';
+    return EL_SALVADOR_SUBCATEGORIES.some((sub) => sub.items.some((item) => item.isActive));
   };
 
-  const toggleDropdown = (pillarId: string) => {
-    setOpenDropdownId((prev) => (prev === pillarId ? null : pillarId));
+  const toggleDropdown = (menuId: TopMenuId) => {
+    setOpenDropdownId((prev) => (prev === menuId ? null : menuId));
   };
+
+  const selectedCaCountry =
+    CA_COUNTRIES.find((c) => c.id === selectedCaCountryId) || CA_COUNTRIES[0];
+  const activeElSalvadorSubcategory =
+    EL_SALVADOR_SUBCATEGORIES.find((s) => s.id === selectedElSalvadorCategoryId) ||
+    EL_SALVADOR_SUBCATEGORIES[0];
 
   return (
     <>
@@ -606,36 +738,38 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
           </a>
 
           {/* ================================================================ */}
-          {/* NAVEGACIÓN EN ESCRITORIO / LAPTOP: 5 PILARES ACADÉMICOS (Z-50)   */}
+          {/* NAVEGACIÓN EN ESCRITORIO / LAPTOP: 3 MENÚS PRINCIPALES (Z-50)    */}
           {/* ================================================================ */}
           <div
             ref={navContainerRef}
             className="hidden lg:flex items-center gap-1.5 xl:gap-2 shrink-0"
           >
             <nav
-              aria-label="Navegación principal por pilares académicos"
+              aria-label="Navegación principal: Servicios, CA+ e Idiomas"
               className="flex items-center bg-[#F2F1EA] p-1 rounded-xl text-xs font-semibold text-[#4A5568] gap-1 border border-[#E5E3D8]"
             >
-              {PILLARS.map((pillar, pillarIndex) => {
-                const isPillarCurrent = isPillarActive(pillar);
-                const isDropdownOpen = openDropdownId === pillar.id;
+              {TOP_MENUS.map((menu, menuIndex) => {
+                const isMenuCurrent = isMenuActive(menu.id);
+                const isDropdownOpen = openDropdownId === menu.id;
 
-                // Alineación direccional inteligente: los pilares de la derecha abren hacia la izquierda (right-0)
-                // para que jamás sobresalgan del lateral de la página
+                // Alineación direccional inteligente: Servicios a la izquierda, CA+ centrado, Idiomas hacia la izquierda (right-0)
                 const dropdownAlignmentClass =
-                  pillarIndex === 0 || pillarIndex === 1
+                  menuIndex === 0
                     ? 'left-0'
-                    : pillarIndex === 2
+                    : menuIndex === 1
                     ? 'left-1/2 -translate-x-1/2'
                     : 'right-0';
 
+                const dropdownWidthClass =
+                  menu.id === 'ca-plus' ? 'w-[420px] xl:w-[540px]' : 'w-80 xl:w-96';
+
                 return (
-                  <div key={pillar.id} className="relative">
+                  <div key={menu.id} className="relative">
                     <button
                       type="button"
-                      onClick={() => toggleDropdown(pillar.id)}
-                      className={`flex items-center gap-1 px-2 xl:px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
-                        isPillarCurrent
+                      onClick={() => toggleDropdown(menu.id)}
+                      className={`flex items-center gap-1.5 px-2.5 xl:px-3.5 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer whitespace-nowrap ${
+                        isMenuCurrent
                           ? 'bg-[#0B1B3D] text-[#FAF9F5] shadow-corporate-subtle'
                           : isDropdownOpen
                           ? 'bg-white text-[#0B1B3D] shadow-xs'
@@ -643,11 +777,11 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
                       }`}
                       aria-expanded={isDropdownOpen}
                       aria-haspopup="true"
-                      title={pillar.label}
+                      title={menu.label}
                     >
-                      <span>{pillar.icon}</span>
-                      <span className="hidden xl:inline">{pillar.label}</span>
-                      <span className="inline xl:hidden">{pillar.shortLabel}</span>
+                      <span>{menu.icon}</span>
+                      <span className="hidden xl:inline">{menu.label}</span>
+                      <span className="inline xl:hidden">{menu.shortLabel}</span>
                       <ChevronDown
                         className={`w-3 h-3 transition-transform ${
                           isDropdownOpen ? 'rotate-180' : ''
@@ -658,54 +792,251 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
                     {/* Menú Desplegable Inteligente con Anclaje Inward y Límite Responsivo (Z-INDEX 50) */}
                     {isDropdownOpen && (
                       <div
-                        className={`absolute ${dropdownAlignmentClass} mt-2 w-80 xl:w-88 max-w-[calc(100vw-2rem)] rounded-2xl bg-white border border-[#E5E3D8] shadow-corporate-elevated p-2.5 z-50 space-y-1 animate-fade-in max-h-[75vh] overflow-y-auto touch-scroll`}
+                        className={`absolute ${dropdownAlignmentClass} mt-2 ${dropdownWidthClass} max-w-[calc(100vw-2rem)] rounded-2xl bg-white border border-[#E5E3D8] shadow-corporate-elevated p-3 z-50 space-y-1 animate-fade-in max-h-[78vh] overflow-y-auto touch-scroll`}
                       >
-                        <div className="px-3 py-2 border-b border-[#EAE8DD] flex items-center justify-between">
-                          <span className="text-[11px] font-bold uppercase tracking-wider text-[#0B1B3D] flex items-center gap-1.5">
-                            {pillar.icon}
-                            <span>{pillar.label}</span>
-                          </span>
-                          <span className="text-[9.5px] font-mono font-bold bg-[#F4F3ED] text-[#0B1B3D] px-2 py-0.5 rounded border border-[#E2E0D5]">
-                            {pillar.items.length} módulos
-                          </span>
-                        </div>
+                        {menu.id === 'servicios' && (
+                          <>
+                            <div className="px-2.5 py-2 border-b border-[#EAE8DD] flex items-center justify-between">
+                              <span className="text-[11px] font-bold uppercase tracking-wider text-[#0B1B3D] flex items-center gap-1.5">
+                                {menu.icon}
+                                <span>Servicios KUSKAT</span>
+                              </span>
+                              <span className="text-[9.5px] font-mono font-bold bg-[#F4F3ED] text-[#0B1B3D] px-2 py-0.5 rounded border border-[#E2E0D5]">
+                                {SERVICIOS_ITEMS.length} áreas
+                              </span>
+                            </div>
 
-                        <div className="space-y-1 pt-1">
-                          {pillar.items.map((item) => (
-                            <a
-                              key={item.id}
-                              href={`/?tab=${item.id}`}
-                              onClick={(e) => {
-                                e.preventDefault();
-                                item.action();
-                              }}
-                              className={`w-full text-left p-2.5 rounded-xl border transition-all cursor-pointer flex items-start gap-2.5 ${
-                                item.isActive
-                                  ? 'bg-[#F4F3ED] border-[#0B1B3D] text-[#0B1B3D] font-bold shadow-corporate-subtle'
-                                  : 'bg-white border-transparent hover:bg-[#FAF9F5] hover:border-[#E5E3D8] text-[#2D3748]'
-                              }`}
-                            >
-                              <div className="w-7 h-7 rounded-lg bg-[#FAF9F5] border border-[#E5E3D8] flex items-center justify-center shrink-0 mt-0.5">
-                                {item.icon}
-                              </div>
-                              <div className="flex-1 min-w-0">
-                                <div className="flex items-center justify-between gap-1">
-                                  <span className="text-xs font-bold truncate text-[#0B1B3D]">
-                                    {item.title}
-                                  </span>
-                                  <span
-                                    className={`text-[8.5px] font-bold font-mono px-1.5 py-0.5 rounded border shrink-0 ${item.badgeColor}`}
+                            <div className="space-y-1 pt-1">
+                              {SERVICIOS_ITEMS.map((item) => (
+                                <a
+                                  key={item.id}
+                                  href={`/?tab=motionsites3d#${item.id}`}
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    item.action();
+                                  }}
+                                  className="w-full text-left p-2.5 rounded-xl border border-transparent bg-white hover:bg-[#FAF9F5] hover:border-[#E5E3D8] text-[#2D3748] transition-all cursor-pointer flex items-start gap-2.5"
+                                >
+                                  <div className="w-7 h-7 rounded-lg bg-[#FAF9F5] border border-[#E5E3D8] flex items-center justify-center shrink-0 mt-0.5">
+                                    {item.icon}
+                                  </div>
+                                  <div className="flex-1 min-w-0">
+                                    <div className="flex items-center justify-between gap-1">
+                                      <span className="text-xs font-bold truncate text-[#0B1B3D]">
+                                        {item.title}
+                                      </span>
+                                      <span
+                                        className={`text-[8.5px] font-bold font-mono px-1.5 py-0.5 rounded border shrink-0 ${item.badgeColor}`}
+                                      >
+                                        {item.badge}
+                                      </span>
+                                    </div>
+                                    <p className="text-[10px] text-[#5C6578] font-normal line-clamp-1 leading-snug pt-0.5">
+                                      {item.subtitle}
+                                    </p>
+                                  </div>
+                                </a>
+                              ))}
+                            </div>
+                          </>
+                        )}
+
+                        {menu.id === 'ca-plus' && (
+                          <div className="space-y-2.5">
+                            <div className="px-2 py-1.5 border-b border-[#EAE8DD] flex items-center justify-between gap-2">
+                              <span className="text-[11px] font-bold uppercase tracking-wider text-[#0B1B3D] flex items-center gap-1.5">
+                                <Globe2 className="w-3.5 h-3.5" />
+                                <span>CA+ • Centroamérica Académica</span>
+                              </span>
+                              <span className="text-[9.5px] font-mono font-bold bg-[#F4F3ED] text-[#0B1B3D] px-2 py-0.5 rounded border border-[#E2E0D5]">
+                                6 países
+                              </span>
+                            </div>
+
+                            {/* Selector de País en CA+ */}
+                            <div className="grid grid-cols-3 gap-1.5">
+                              {CA_COUNTRIES.map((country) => {
+                                const isSelected = selectedCaCountryId === country.id;
+                                const isActiveCountry = country.status === 'active';
+                                return (
+                                  <button
+                                    key={country.id}
+                                    type="button"
+                                    onClick={() => setSelectedCaCountryId(country.id)}
+                                    className={`px-2 py-1.5 rounded-xl border text-left transition-all cursor-pointer flex items-center justify-between gap-1 ${
+                                      isSelected
+                                        ? 'bg-[#0B1B3D] text-white border-[#0B1B3D] shadow-corporate-subtle'
+                                        : isActiveCountry
+                                        ? 'bg-[#FAF9F5] text-[#0B1B3D] border-[#C59B27]/50 hover:bg-[#F4F3ED]'
+                                        : 'bg-[#FAF9F5] text-[#4A5568] border-[#E5E3D8] hover:bg-[#F2F1EA]'
+                                    }`}
                                   >
-                                    {item.badge}
-                                  </span>
+                                    <span className="text-[11px] font-bold truncate">
+                                      {country.name}
+                                    </span>
+                                    {isActiveCountry ? (
+                                      <span
+                                        className={`text-[8px] font-mono font-bold px-1 py-0.5 rounded shrink-0 ${
+                                          isSelected
+                                            ? 'bg-emerald-400/20 text-emerald-200'
+                                            : 'bg-emerald-50 text-emerald-700'
+                                        }`}
+                                      >
+                                        Activo
+                                      </span>
+                                    ) : (
+                                      <span
+                                        className={`text-[7.5px] font-mono font-bold px-1 py-0.5 rounded shrink-0 ${
+                                          isSelected
+                                            ? 'bg-amber-400/20 text-amber-200'
+                                            : 'bg-amber-50 text-amber-700'
+                                        }`}
+                                      >
+                                        Próx.
+                                      </span>
+                                    )}
+                                  </button>
+                                );
+                              })}
+                            </div>
+
+                            {/* Contenido de El Salvador (4 subcategorías) o Próximamente para otros países */}
+                            {selectedCaCountry.status === 'active' ? (
+                              <div className="space-y-2 pt-1 border-t border-[#EAE8DD]">
+                                <div className="flex items-center gap-1 overflow-x-auto touch-scroll pb-1">
+                                  {EL_SALVADOR_SUBCATEGORIES.map((sub) => {
+                                    const isSubSelected = selectedElSalvadorCategoryId === sub.id;
+                                    const hasActiveTab = sub.items.some((i) => i.isActive);
+                                    return (
+                                      <button
+                                        key={sub.id}
+                                        type="button"
+                                        onClick={() => setSelectedElSalvadorCategoryId(sub.id)}
+                                        className={`flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold whitespace-nowrap shrink-0 transition-all cursor-pointer ${
+                                          isSubSelected
+                                            ? 'bg-[#0B1B3D] text-[#FAF9F5] shadow-2xs'
+                                            : hasActiveTab
+                                            ? 'bg-[#F4F3ED] text-[#0B1B3D] border border-[#0B1B3D]/30'
+                                            : 'bg-[#FAF9F5] text-[#4A5568] hover:bg-[#F2F1EA]'
+                                        }`}
+                                      >
+                                        <span>{sub.icon}</span>
+                                        <span>{sub.label}</span>
+                                      </button>
+                                    );
+                                  })}
                                 </div>
-                                <p className="text-[10px] text-[#5C6578] font-normal line-clamp-1 leading-snug pt-0.5">
-                                  {item.subtitle}
-                                </p>
+
+                                <div className="space-y-1">
+                                  {activeElSalvadorSubcategory.items.map((item) => (
+                                    <a
+                                      key={item.id}
+                                      href={`/?tab=${item.id}`}
+                                      onClick={(e) => {
+                                        e.preventDefault();
+                                        item.action();
+                                      }}
+                                      className={`w-full text-left p-2 rounded-xl border transition-all cursor-pointer flex items-start gap-2.5 ${
+                                        item.isActive
+                                          ? 'bg-[#F4F3ED] border-[#0B1B3D] text-[#0B1B3D] font-bold shadow-corporate-subtle'
+                                          : 'bg-white border-transparent hover:bg-[#FAF9F5] hover:border-[#E5E3D8] text-[#2D3748]'
+                                      }`}
+                                    >
+                                      <div className="w-7 h-7 rounded-lg bg-[#FAF9F5] border border-[#E5E3D8] flex items-center justify-center shrink-0 mt-0.5">
+                                        {item.icon}
+                                      </div>
+                                      <div className="flex-1 min-w-0">
+                                        <div className="flex items-center justify-between gap-1">
+                                          <span className="text-xs font-bold truncate text-[#0B1B3D]">
+                                            {item.title}
+                                          </span>
+                                          <span
+                                            className={`text-[8.5px] font-bold font-mono px-1.5 py-0.5 rounded border shrink-0 ${item.badgeColor}`}
+                                          >
+                                            {item.badge}
+                                          </span>
+                                        </div>
+                                        <p className="text-[10px] text-[#5C6578] font-normal line-clamp-1 leading-snug pt-0.5">
+                                          {item.subtitle}
+                                        </p>
+                                      </div>
+                                    </a>
+                                  ))}
+                                </div>
                               </div>
-                            </a>
-                          ))}
-                        </div>
+                            ) : (
+                              <div className="p-4 rounded-xl bg-[#FAF9F5] border border-[#E5E3D8] text-center space-y-2.5">
+                                <span className="inline-block px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-200 text-[10px] font-mono font-bold uppercase tracking-wider">
+                                  Próximamente
+                                </span>
+                                <h4 className="text-xs font-bold text-[#0B1B3D]">
+                                  Próximamente — Aún no hay información trabajada para{' '}
+                                  {selectedCaCountry.name}
+                                </h4>
+                                <p className="text-[11px] text-[#5C6578] leading-relaxed">
+                                  Toda la currícula actual de CA+ corresponde a El Salvador.
+                                  Próximamente incorporaremos contenidos oficiales para{' '}
+                                  {selectedCaCountry.name}.
+                                </p>
+                                <button
+                                  type="button"
+                                  onClick={() => setSelectedCaCountryId('el-salvador')}
+                                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#0B1B3D] text-white text-[11px] font-bold hover:bg-[#132A5C] transition-colors cursor-pointer"
+                                >
+                                  <Flag className="w-3 h-3 text-[#C59B27]" />
+                                  <span>Volver a El Salvador</span>
+                                </button>
+                              </div>
+                            )}
+                          </div>
+                        )}
+
+                        {menu.id === 'idiomas' && (
+                          <>
+                            <div className="px-2.5 py-2 border-b border-[#EAE8DD] flex items-center justify-between">
+                              <span className="text-[11px] font-bold uppercase tracking-wider text-[#0B1B3D] flex items-center gap-1.5">
+                                {menu.icon}
+                                <span>Escuela de Idiomas</span>
+                              </span>
+                              <span className="text-[9.5px] font-mono font-bold bg-[#F4F3ED] text-[#0B1B3D] px-2 py-0.5 rounded border border-[#E2E0D5]">
+                                {IDIOMAS_ITEMS.length} lenguas
+                              </span>
+                            </div>
+
+                            <div className="space-y-1 pt-1">
+                              {IDIOMAS_ITEMS.map((item) => (
+                                <a
+                                  key={item.id}
+                                  href={`/?tab=languages&lang=${item.id}`}
+                                  onClick={(e) => {
+                                    e.preventDefault();
+                                    item.action();
+                                  }}
+                                  className="w-full text-left p-2.5 rounded-xl border border-transparent bg-white hover:bg-[#FAF9F5] hover:border-[#E5E3D8] text-[#2D3748] transition-all cursor-pointer flex items-start gap-2.5"
+                                >
+                                  <div className="w-7 h-7 rounded-lg bg-[#FAF9F5] border border-[#E5E3D8] flex items-center justify-center shrink-0 mt-0.5">
+                                    {item.icon}
+                                  </div>
+                                  <div className="flex-1 min-w-0">
+                                    <div className="flex items-center justify-between gap-1">
+                                      <span className="text-xs font-bold truncate text-[#0B1B3D]">
+                                        {item.title}
+                                      </span>
+                                      <span
+                                        className={`text-[8.5px] font-bold font-mono px-1.5 py-0.5 rounded border shrink-0 ${item.badgeColor}`}
+                                      >
+                                        {item.badge}
+                                      </span>
+                                    </div>
+                                    <p className="text-[10px] text-[#5C6578] font-normal line-clamp-1 leading-snug pt-0.5">
+                                      {item.subtitle}
+                                    </p>
+                                  </div>
+                                </a>
+                              ))}
+                            </div>
+                          </>
+                        )}
                       </div>
                     )}
                   </div>
@@ -771,7 +1102,7 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
         </div>
 
         {/* ================================================================== */}
-        {/* CAJÓN DESPLEGABLE MÓVIL / TABLET CON 5 PILARES (Z-INDEX 60)         */}
+        {/* CAJÓN DESPLEGABLE MÓVIL / TABLET CON 3 MENÚS PRINCIPALES (Z-60)    */}
         {/* ================================================================== */}
         {isMobileMenuOpen && (
           <>
@@ -782,88 +1113,271 @@ export const HeaderNavbar: React.FC<HeaderNavbarProps> = ({
             />
 
             <div className="lg:hidden relative z-60 border-t border-[#E5E3D8] bg-white/98 backdrop-blur-xl p-3 sm:p-4 shadow-corporate-elevated animate-fade-in max-h-[82vh] overflow-y-auto touch-scroll space-y-3">
-              {/* Selector de Pestañas de Pilares en Móvil */}
-              <div className="flex items-center gap-1 overflow-x-auto touch-scroll pb-2 border-b border-[#EAE8DD]">
-                {PILLARS.map((pillar) => {
-                  const isSelected = activeMobilePillarId === pillar.id;
-                  const isPillarCurrent = isPillarActive(pillar);
+              {/* Selector de Pestañas Principales en Móvil (Servicios, CA+, Idiomas) */}
+              <div className="flex items-center gap-1.5 overflow-x-auto touch-scroll pb-2 border-b border-[#EAE8DD]">
+                {TOP_MENUS.map((menu) => {
+                  const isSelected = activeMobileMenuId === menu.id;
+                  const isCurrent = isMenuActive(menu.id);
 
                   return (
                     <button
-                      key={pillar.id}
+                      key={menu.id}
                       type="button"
-                      onClick={() => setActiveMobilePillarId(pillar.id)}
-                      className={`flex items-center gap-1 px-3 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap shrink-0 transition-all cursor-pointer ${
+                      onClick={() => setActiveMobileMenuId(menu.id)}
+                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap shrink-0 transition-all cursor-pointer ${
                         isSelected
                           ? 'bg-[#0B1B3D] text-[#FAF9F5] shadow-corporate-subtle'
-                          : isPillarCurrent
+                          : isCurrent
                           ? 'bg-[#F4F3ED] text-[#0B1B3D] border border-[#0B1B3D]/30'
                           : 'bg-[#FAF9F5] text-[#4A5568] hover:bg-[#F2F1EA]'
                       }`}
                     >
-                      <span>{pillar.icon}</span>
-                      <span>{pillar.shortLabel}</span>
+                      <span>{menu.icon}</span>
+                      <span>{menu.shortLabel}</span>
                     </button>
                   );
                 })}
               </div>
 
-              {/* Lista de Módulos del Pilar Seleccionado */}
-              {(() => {
-                const currentPillar =
-                  PILLARS.find((p) => p.id === activeMobilePillarId) || PILLARS[0];
+              {/* Contenido del Menú Móvil Seleccionado */}
+              {activeMobileMenuId === 'servicios' && (
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between px-1">
+                    <span className="text-xs font-bold uppercase tracking-wider text-[#0B1B3D] flex items-center gap-1.5">
+                      <Sparkles className="w-3.5 h-3.5" />
+                      <span>Servicios KUSKAT</span>
+                    </span>
+                    <span className="text-[10px] font-mono font-bold bg-[#F4F3ED] text-[#0B1B3D] px-2 py-0.5 rounded border border-[#E2E0D5]">
+                      {SERVICIOS_ITEMS.length} áreas
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    {SERVICIOS_ITEMS.map((item) => (
+                      <a
+                        key={item.id}
+                        href={`/?tab=motionsites3d#${item.id}`}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          item.action();
+                        }}
+                        className="w-full text-left p-3 rounded-xl border bg-[#FAF9F5] border-[#E5E3D8] text-[#2D3748] hover:bg-white transition-all cursor-pointer flex items-start gap-3 min-h-[54px]"
+                      >
+                        <div className="w-8 h-8 rounded-lg bg-white border border-[#E5E3D8] flex items-center justify-center shrink-0 mt-0.5 shadow-corporate-subtle">
+                          {item.icon}
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center justify-between gap-1">
+                            <span className="text-xs font-bold truncate text-[#0B1B3D]">
+                              {item.title}
+                            </span>
+                            <span
+                              className={`text-[8.5px] font-bold font-mono px-1.5 py-0.5 rounded border shrink-0 ${item.badgeColor}`}
+                            >
+                              {item.badge}
+                            </span>
+                          </div>
+                          <p className="text-[11px] text-[#5C6578] font-normal line-clamp-1 leading-snug pt-0.5">
+                            {item.subtitle}
+                          </p>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
 
-                return (
-                  <div className="space-y-1.5">
-                    <div className="flex items-center justify-between px-1 pb-1">
-                      <span className="text-xs font-bold uppercase tracking-wider text-[#0B1B3D] flex items-center gap-1.5">
-                        {currentPillar.icon}
-                        <span>{currentPillar.label}</span>
-                      </span>
-                      <span className="text-[10px] font-mono font-bold bg-[#F4F3ED] text-[#0B1B3D] px-2 py-0.5 rounded border border-[#E2E0D5]">
-                        {currentPillar.items.length} opciones
-                      </span>
-                    </div>
+              {activeMobileMenuId === 'ca-plus' && (
+                <div className="space-y-2.5">
+                  <div className="flex items-center justify-between px-1">
+                    <span className="text-xs font-bold uppercase tracking-wider text-[#0B1B3D] flex items-center gap-1.5">
+                      <Globe2 className="w-3.5 h-3.5" />
+                      <span>CA+ • Centroamérica</span>
+                    </span>
+                    <span className="text-[10px] font-mono font-bold bg-[#F4F3ED] text-[#0B1B3D] px-2 py-0.5 rounded border border-[#E2E0D5]">
+                      6 países
+                    </span>
+                  </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
-                      {currentPillar.items.map((item) => (
-                        <a
-                          key={item.id}
-                          href={`/?tab=${item.id}`}
-                          onClick={(e) => {
-                            e.preventDefault();
-                            item.action();
-                          }}
-                          className={`w-full text-left p-3 rounded-xl border transition-all cursor-pointer flex items-start gap-3 min-h-[54px] ${
-                            item.isActive
-                              ? 'bg-[#F4F3ED] border-[#0B1B3D] text-[#0B1B3D] font-bold shadow-corporate-subtle'
-                              : 'bg-[#FAF9F5] border-[#E5E3D8] text-[#2D3748] hover:bg-white'
+                  {/* Selector de Países en Móvil */}
+                  <div className="grid grid-cols-2 sm:grid-cols-3 gap-1.5">
+                    {CA_COUNTRIES.map((country) => {
+                      const isSelected = selectedCaCountryId === country.id;
+                      const isActiveCountry = country.status === 'active';
+                      return (
+                        <button
+                          key={country.id}
+                          type="button"
+                          onClick={() => setSelectedCaCountryId(country.id)}
+                          className={`px-2.5 py-2 rounded-xl border text-left transition-all cursor-pointer flex items-center justify-between gap-1 ${
+                            isSelected
+                              ? 'bg-[#0B1B3D] text-white border-[#0B1B3D] shadow-corporate-subtle'
+                              : isActiveCountry
+                              ? 'bg-[#FAF9F5] text-[#0B1B3D] border-[#C59B27]/50'
+                              : 'bg-[#FAF9F5] text-[#4A5568] border-[#E5E3D8]'
                           }`}
                         >
-                          <div className="w-8 h-8 rounded-lg bg-white border border-[#E5E3D8] flex items-center justify-center shrink-0 mt-0.5 shadow-corporate-subtle">
-                            {item.icon}
-                          </div>
-                          <div className="flex-1 min-w-0">
-                            <div className="flex items-center justify-between gap-1">
-                              <span className="text-xs font-bold truncate text-[#0B1B3D]">
-                                {item.title}
-                              </span>
-                              <span
-                                className={`text-[8.5px] font-bold font-mono px-1.5 py-0.5 rounded border shrink-0 ${item.badgeColor}`}
-                              >
-                                {item.badge}
-                              </span>
-                            </div>
-                            <p className="text-[11px] text-[#5C6578] font-normal line-clamp-1 leading-snug pt-0.5">
-                              {item.subtitle}
-                            </p>
-                          </div>
-                        </a>
-                      ))}
-                    </div>
+                          <span className="text-xs font-bold truncate">{country.name}</span>
+                          {isActiveCountry ? (
+                            <span
+                              className={`text-[8.5px] font-mono font-bold px-1.5 py-0.5 rounded shrink-0 ${
+                                isSelected
+                                  ? 'bg-emerald-400/20 text-emerald-200'
+                                  : 'bg-emerald-50 text-emerald-700'
+                              }`}
+                            >
+                              Activo
+                            </span>
+                          ) : (
+                            <span
+                              className={`text-[8px] font-mono font-bold px-1.5 py-0.5 rounded shrink-0 ${
+                                isSelected
+                                  ? 'bg-amber-400/20 text-amber-200'
+                                  : 'bg-amber-50 text-amber-700'
+                              }`}
+                            >
+                              Próximamente
+                            </span>
+                          )}
+                        </button>
+                      );
+                    })}
                   </div>
-                );
-              })()}
+
+                  {selectedCaCountry.status === 'active' ? (
+                    <div className="space-y-2 pt-1 border-t border-[#EAE8DD]">
+                      {/* 4 Subcategorías de El Salvador */}
+                      <div className="flex items-center gap-1 overflow-x-auto touch-scroll pb-1">
+                        {EL_SALVADOR_SUBCATEGORIES.map((sub) => {
+                          const isSubSelected = selectedElSalvadorCategoryId === sub.id;
+                          const hasActiveTab = sub.items.some((i) => i.isActive);
+                          return (
+                            <button
+                              key={sub.id}
+                              type="button"
+                              onClick={() => setSelectedElSalvadorCategoryId(sub.id)}
+                              className={`flex items-center gap-1 px-2.5 py-1.5 rounded-lg text-xs font-bold whitespace-nowrap shrink-0 transition-all cursor-pointer ${
+                                isSubSelected
+                                  ? 'bg-[#0B1B3D] text-[#FAF9F5] shadow-corporate-subtle'
+                                  : hasActiveTab
+                                  ? 'bg-[#F4F3ED] text-[#0B1B3D] border border-[#0B1B3D]/30'
+                                  : 'bg-[#FAF9F5] text-[#4A5568] hover:bg-[#F2F1EA]'
+                              }`}
+                            >
+                              <span>{sub.icon}</span>
+                              <span>{sub.label}</span>
+                            </button>
+                          );
+                        })}
+                      </div>
+
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                        {activeElSalvadorSubcategory.items.map((item) => (
+                          <a
+                            key={item.id}
+                            href={`/?tab=${item.id}`}
+                            onClick={(e) => {
+                              e.preventDefault();
+                              item.action();
+                            }}
+                            className={`w-full text-left p-3 rounded-xl border transition-all cursor-pointer flex items-start gap-3 min-h-[54px] ${
+                              item.isActive
+                                ? 'bg-[#F4F3ED] border-[#0B1B3D] text-[#0B1B3D] font-bold shadow-corporate-subtle'
+                                : 'bg-[#FAF9F5] border-[#E5E3D8] text-[#2D3748] hover:bg-white'
+                            }`}
+                          >
+                            <div className="w-8 h-8 rounded-lg bg-white border border-[#E5E3D8] flex items-center justify-center shrink-0 mt-0.5 shadow-corporate-subtle">
+                              {item.icon}
+                            </div>
+                            <div className="flex-1 min-w-0">
+                              <div className="flex items-center justify-between gap-1">
+                                <span className="text-xs font-bold truncate text-[#0B1B3D]">
+                                  {item.title}
+                                </span>
+                                <span
+                                  className={`text-[8.5px] font-bold font-mono px-1.5 py-0.5 rounded border shrink-0 ${item.badgeColor}`}
+                                >
+                                  {item.badge}
+                                </span>
+                              </div>
+                              <p className="text-[11px] text-[#5C6578] font-normal line-clamp-1 leading-snug pt-0.5">
+                                {item.subtitle}
+                              </p>
+                            </div>
+                          </a>
+                        ))}
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="p-4 rounded-xl bg-[#FAF9F5] border border-[#E5E3D8] text-center space-y-2.5">
+                      <span className="inline-block px-2.5 py-0.5 rounded-full bg-amber-100 text-amber-800 border border-amber-200 text-[10px] font-mono font-bold uppercase tracking-wider">
+                        Próximamente
+                      </span>
+                      <h4 className="text-xs font-bold text-[#0B1B3D]">
+                        Próximamente — Aún no hay información trabajada para{' '}
+                        {selectedCaCountry.name}
+                      </h4>
+                      <p className="text-[11px] text-[#5C6578] leading-relaxed">
+                        Toda la información actual de CA+ pertenece a El Salvador. Próximamente
+                        incorporaremos contenidos académicos para {selectedCaCountry.name}.
+                      </p>
+                      <button
+                        type="button"
+                        onClick={() => setSelectedCaCountryId('el-salvador')}
+                        className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-[#0B1B3D] text-white text-xs font-bold hover:bg-[#132A5C] transition-colors cursor-pointer"
+                      >
+                        <Flag className="w-3.5 h-3.5 text-[#C59B27]" />
+                        <span>Volver a El Salvador</span>
+                      </button>
+                    </div>
+                  )}
+                </div>
+              )}
+
+              {activeMobileMenuId === 'idiomas' && (
+                <div className="space-y-2">
+                  <div className="flex items-center justify-between px-1">
+                    <span className="text-xs font-bold uppercase tracking-wider text-[#0B1B3D] flex items-center gap-1.5">
+                      <Languages className="w-3.5 h-3.5" />
+                      <span>Escuela de Idiomas</span>
+                    </span>
+                    <span className="text-[10px] font-mono font-bold bg-[#F4F3ED] text-[#0B1B3D] px-2 py-0.5 rounded border border-[#E2E0D5]">
+                      {IDIOMAS_ITEMS.length} lenguas
+                    </span>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                    {IDIOMAS_ITEMS.map((item) => (
+                      <a
+                        key={item.id}
+                        href={`/?tab=languages&lang=${item.id}`}
+                        onClick={(e) => {
+                          e.preventDefault();
+                          item.action();
+                        }}
+                        className="w-full text-left p-3 rounded-xl border bg-[#FAF9F5] border-[#E5E3D8] text-[#2D3748] hover:bg-white transition-all cursor-pointer flex items-start gap-3 min-h-[54px]"
+                      >
+                        <div className="w-8 h-8 rounded-lg bg-white border border-[#E5E3D8] flex items-center justify-center shrink-0 mt-0.5 shadow-corporate-subtle">
+                          {item.icon}
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <div className="flex items-center justify-between gap-1">
+                            <span className="text-xs font-bold truncate text-[#0B1B3D]">
+                              {item.title}
+                            </span>
+                            <span
+                              className={`text-[8.5px] font-bold font-mono px-1.5 py-0.5 rounded border shrink-0 ${item.badgeColor}`}
+                            >
+                              {item.badge}
+                            </span>
+                          </div>
+                          <p className="text-[11px] text-[#5C6578] font-normal line-clamp-1 leading-snug pt-0.5">
+                            {item.subtitle}
+                          </p>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              )}
 
               {/* Accesos rápidos de contacto y legal en el menú móvil */}
               <div className="pt-2 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-600">
