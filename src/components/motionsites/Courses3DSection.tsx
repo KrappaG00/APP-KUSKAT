@@ -426,6 +426,7 @@ interface PrimaryCategoryDef {
 
 const PRIMARY_CATEGORIES: PrimaryCategoryDef[] = [
   { id: 'all', label: 'Todas', flag: '🌐', status: 'active' },
+  { id: 'idiomas', label: 'Idiomas', flag: '🗣️', status: 'active' },
   { id: 'el-salvador', label: 'El Salvador', flag: '🇸🇻', status: 'active' },
   { id: 'guatemala', label: 'Guatemala', flag: '🇬🇹', status: 'coming-soon' },
   { id: 'belice', label: 'Belice', flag: '🇧🇿', status: 'coming-soon' },
@@ -433,7 +434,6 @@ const PRIMARY_CATEGORIES: PrimaryCategoryDef[] = [
   { id: 'nicaragua', label: 'Nicaragua', flag: '🇳🇮', status: 'coming-soon' },
   { id: 'costa-rica', label: 'Costa Rica', flag: '🇨🇷', status: 'coming-soon' },
   { id: 'panama', label: 'Panamá', flag: '🇵🇦', status: 'coming-soon' },
-  { id: 'idiomas', label: 'Idiomas', flag: '🗣️', status: 'active' },
 ];
 
 export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onNavigateArea }) => {

@@ -164,8 +164,13 @@ describe('Portal de Inicio — Área de Servicios, América Central y KUSKAT Aca
     expect(html).toContain('pertenece a');
     expect(html).toContain('🇸🇻 El Salvador • Universidad de El Salvador (UES)');
     expect(html).not.toContain('🇸🇻 El Salvador • Idioma');
-    for (const label of ['Todas', 'El Salvador', 'Guatemala', 'Belice', 'Honduras', 'Nicaragua', 'Costa Rica', 'Panamá', 'Idiomas']) {
-      expect(html).toContain(label);
+    const ordered = ['Todas', 'Idiomas', 'El Salvador', 'Guatemala', 'Belice', 'Honduras', 'Nicaragua', 'Costa Rica', 'Panamá'];
+    let lastIdx = -1;
+    const catStart = html.indexOf('Categorías:');
+    for (const label of ordered) {
+      const idx = html.indexOf(label, catStart);
+      expect(idx).toBeGreaterThan(lastIdx);
+      lastIdx = idx;
     }
     expect(html).not.toContain('Pilares El Salvador:');
   });
