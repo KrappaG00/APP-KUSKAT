@@ -156,4 +156,13 @@ describe('Portal de Inicio — Área de Servicios, América Central y KUSKAT Aca
       expect(content).not.toContain('7943-9901');
     }
   });
+
+  it('7. Courses3DSection aclara que todo lo que no es de Idiomas pertenece a El Salvador', async () => {
+    const { Courses3DSection } = await import('../src/components/motionsites/Courses3DSection');
+    const html = renderToStaticMarkup(React.createElement(Courses3DSection, { onNavigateArea: () => {} }));
+    expect(html).toContain('Todo lo que no es de');
+    expect(html).toContain('pertenece a');
+    expect(html).toContain('🇸🇻 El Salvador • Universidad de El Salvador (UES)');
+    expect(html).not.toContain('🇸🇻 El Salvador • Idioma');
+  });
 });

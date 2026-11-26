@@ -550,6 +550,13 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onNavigateAr
               );
             })}
           </div>
+
+          <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-blue-50 border border-blue-200 text-[#0B1B3D] text-xs font-medium">
+            <span aria-hidden="true">🇸🇻</span>
+            <span>
+              <strong>Alcance por país:</strong> Todo lo que no es de <strong>Idiomas</strong> (Admisión, Educación, Profesional, Vial y Ciencias) pertenece a <strong>El Salvador</strong>.
+            </span>
+          </div>
         </div>
 
         {/* Cuadrícula de las 19 Tarjetas */}
@@ -591,8 +598,8 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onNavigateAr
                     </span>
                   </div>
 
-                  <span className="text-[10px] font-mono uppercase tracking-wider text-white/80 block mb-1 truncate">
-                    {area.institutionAuthority}
+                  <span className="text-[10px] font-mono uppercase tracking-wider text-white/85 block mb-1 truncate">
+                    {area.pillar !== 'idiomas' ? `🇸🇻 El Salvador • ${area.institutionAuthority}` : area.institutionAuthority}
                   </span>
 
                   <h3 className="font-montenegrin text-lg sm:text-xl text-white font-black tracking-tight leading-snug break-words">
