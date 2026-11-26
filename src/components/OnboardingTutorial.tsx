@@ -23,19 +23,18 @@ interface OnboardingTutorialProps {
 export const TUTORIAL_STEPS: TutorialStep[] = [
   {
     step: 1,
-    title: 'Portal de Inicio, Institución, Convocatorias & 23 Áreas de Estudio',
-    subtitle: '41,080 reactivos verificados (17,640 del banco base) en 23 áreas, 100% gratuito',
-    badge: 'Paso 1 de 6 • Inicio & Convocatorias',
+    title: 'Portal de Inicio, Servicios, CA+ El Salvador & Convocatorias',
+    subtitle: 'Área de Belleza (Sección 1), Servicios Digitales, 19 Áreas en KUSKAT Académico Gratuito y 41,080 reactivos',
+    badge: 'Paso 1 de 6 • Inicio, Servicios & CA+',
     description:
-      'KUSKAT (fundado por Yeferson E. Perez) reúne en un solo lugar 41,080 reactivos verificados: 17,640 del banco base de admisión, 16,800 de la Escuela de Idiomas, 4,850 del refuerzo MINED-ESMATE y 1,790 de habilitaciones en Derecho, Salud y Técnica. Desde el Portal de Inicio accedes directamente a cada una de las 23 áreas.',
+      'KUSKAT (fundado por Yeferson E. Perez junto al cofundador Wilson Colato) abre con un Portal de Inicio 100% libre de anuncios: primero el Área de Servicios (Belleza en Sección 1 y Catálogo Digital KUSKAT S.A.S. de C.V.), luego Refuerzo Académico América Central y al final KUSKAT Académico Gratuito con las 19 áreas de estudio.',
     bulletPoints: [
-      '🏛️ Portal de Inicio (Vista 2D Accesible): Presentación del fundador, estadísticas 2D del proyecto y catálogo de las 23 áreas con su botón de Acceso Directo.',
-      '🌐 Idioma de la plataforma: Puedes cambiarlo cuando quieras desde el botón de idioma en la cabecera superior.',
-      '🎓 Admisión UES (7,500 reactivos): Matemática, Física, Química, Biología, Ciencias Sociales y Lenguaje.',
-      '📜 Escalafón Docente (3,300 reactivos): Ascenso al Nivel Uno 2026 MINED en Formación General y 10 Especialidades.',
-      '📘 Prueba AVANZO (3,000 reactivos): Bachillerato MINED en Precálculo, Ciudadanía y Valores, Ciencia y Tecnología, Lengua e Inglés.',
-      '🏅 Jóvenes Talento - ASD (2,190 reactivos) y 🌱 Admisión ENA (1,400 reactivos): Preparación científica y agropecuaria integral.',
-      '🛡️ Academia ANSP (250 reactivos): Prueba Cultural PNC en legislación, derecho constitucional y cultura salvadoreña.',
+      '✂️ Área de Servicios (Primera Parte): SECCIÓN 1: Kuskat Academia y Salón (Área de Belleza) aparece primero con sus precios y promociones, seguida del Catálogo de Servicios Digitales (KUSKAT S.A.S. de C.V.).',
+      '🧭 Menú Principal Reorganizado (Servicios, CA+ e Idiomas): En CA+, toda la currícula trabajada pertenece a El Salvador (Admisión, Leyes & Salud, Técnica y Herramientas); Guatemala, Belice, Honduras, Nicaragua, Costa Rica y Panamá aparecen como Próximamente.',
+      '🏛️ KUSKAT Académico Gratuito (Vista 2D Accesible): Al pie del Portal de Inicio, con filtros ordenados por Todas, Idiomas y Países; al elegir El Salvador se despliegan sus pilares (Admisión y Educación, Profesional y Vial, Ciencias).',
+      '🎓 Convocatorias El Salvador (17,640 reactivos base): Admisión UES (7,500), Escalafón Docente (3,300), Prueba AVANZO (3,000), ASD MINED (2,190), Admisión ENA (1,400) y Academia ANSP (250), además de CSJ, ENAR y VMT.',
+      '👥 Fundador & Cofundador: Presentación en el Portal de Inicio de Yeferson E. Perez (Fundador & Desarrollador Principal) y Wilson Colato (Cofundador — profesional en belleza y enfermería, estudiante de abogacía).',
+      '🌐 Idioma de la interfaz: Cambia el idioma de la plataforma en cualquier momento desde el selector superior.',
     ],
   },
   {
@@ -106,11 +105,11 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
     description:
       'El proyecto está optimizado para ejecutarse en el menor tiempo posible mediante carga dinámica de idiomas y módulos, diseño 100% responsivo para móviles/tablets/PC y generación de boletas en PDF o LaTeX 100% en memoria.',
     bulletPoints: [
-      '⚡ Rendimiento Optimizado (Lazy Loading): Los bancos de preguntas y diccionarios de idioma se cargan bajo demanda sin inflar el bundle inicial.',
-      '📱 Diseño Web Responsivo y Accesible (WCAG 2.2 AA): Barra inferior en móviles, navegación por teclado (Flechas, Enter, Escape), foco visible y respeto a prefers-reduced-motion.',
+      '⚡ Rendimiento Optimizado (Lazy Loading): Los bancos de preguntas, el Portal Académico El Salvador y los diccionarios de idioma se cargan bajo demanda sin inflar el bundle inicial.',
+      '📱 Diseño Web Responsivo y Accesible (WCAG 2.2 AA): Encabezado compacto desde 320px con menú adaptable (Servicios, CA+ e Idiomas), navegación por teclado (Flechas, Enter, Escape) y contraste verificado.',
       '📋 Historial en "CUENTA" e Impresión a PDF / LaTeX: Emite al instante tu boleta oficial, solucionario en PDF o código fuente TeX para Overleaf sin subir archivos a la nube.',
       '⚖️ Cumplimiento Legal Salvadoreño: Respaldado por la Constitución de El Salvador (Arts. 53-54), Ley de Comercio Electrónico y Delitos Informáticos.',
-      '💬 Canales de Contacto: Conéctate con el creador Yeferson E. Perez por WhatsApp (+503 7657 4463) e Instagram (@Kuskat.es).',
+      '💬 Canales Oficiales de Contacto: WhatsApp (+503 7657 4463), Instagram (@Kuskat.es) y Facebook (Kuskat).',
     ],
   },
 ];
@@ -189,15 +188,15 @@ export const OnboardingTutorial: React.FC<OnboardingTutorialProps> = ({ isOpen, 
       aria-modal="true"
       aria-labelledby="tutorial-modal-title"
       dir={languageMeta.dir}
-      className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-slate-900/65 backdrop-blur-sm animate-fade-in"
+      className="fixed inset-0 z-50 flex items-center justify-center p-3 sm:p-4 bg-slate-900/65 backdrop-blur-sm animate-fade-in"
       onClick={handleSkip}
     >
       <div
-        className="bg-white rounded-t-3xl sm:rounded-3xl border border-slate-200 shadow-2xl max-w-xl w-full max-h-[100dvh] sm:max-h-[90vh] overflow-hidden flex flex-col relative text-slate-800"
+        className="bg-white rounded-3xl border border-slate-200 shadow-2xl max-w-xl w-[92%] sm:w-full max-h-[80dvh] sm:max-h-[80vh] overflow-hidden flex flex-col relative text-slate-800"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Cabecera del Tutorial con Progreso y Marca KUSKAT */}
-        <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 p-4 sm:p-6 text-white relative shrink-0">
+        <div className="bg-gradient-to-r from-slate-900 via-blue-950 to-indigo-950 p-3.5 sm:p-5 text-white relative shrink-0">
           <div className="flex items-start justify-between gap-2 mb-2.5">
             <div className="flex items-center gap-2 min-w-0 flex-1">
               <div className="w-6 h-6 rounded-lg bg-white p-0.5 flex items-center justify-center shrink-0 shadow-2xs">

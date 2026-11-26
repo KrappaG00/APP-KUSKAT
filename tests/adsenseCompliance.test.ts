@@ -82,16 +82,25 @@ describe('Auditoría Completa de Cumplimiento Google AdSense, E-E-A-T y Acceso G
     // Sin nota informal
     expect(portalCode).not.toContain('pequeño aporte economico a mis estudios universitarios');
 
-    // Enlaces reales <a href> hacia páginas E-E-A-T y simulador
-    expect(portalCode).toContain('href="/privacidad.html"');
-    expect(portalCode).toContain('href="/terminos.html"');
-    expect(portalCode).toContain('href="/sobre-nosotros.html"');
-    expect(portalCode).toContain('href="/contacto.html"');
-    expect(portalCode).toContain('href="/?tab=practice"');
+    const portalInicioCode = fs.readFileSync(
+      path.join(rootDir, 'src', 'components', 'motionsites', 'PortalInicioView.tsx'),
+      'utf-8'
+    );
 
-    // Guía académica >600 palabras en el Portal de Inicio
+    // Enlaces reales <a href> hacia páginas E-E-A-T y simulador
+    expect(portalInicioCode).toContain('href="/privacidad.html"');
+    expect(portalInicioCode).toContain('href="/terminos.html"');
+    expect(portalInicioCode).toContain('href="/sobre-nosotros.html"');
+    expect(portalInicioCode).toContain('href="/contacto.html"');
+    const ctaCode = fs.readFileSync(
+      path.join(rootDir, 'src', 'components', 'motionsites', 'CallToActionFinal3D.tsx'),
+      'utf-8'
+    );
+    expect(ctaCode).toContain('href="/?tab=practice"');
+
+    // Guía académica >600 palabras en el Portal de El Salvador
     const guideStart = portalCode.indexOf('GUÍA ACADÉMICA OFICIAL');
-    const guideEnd = portalCode.indexOf('7. PIE DE PÁGINA');
+    const guideEnd = portalCode.indexOf('</article>', guideStart);
     expect(guideStart).toBeGreaterThan(-1);
     expect(guideEnd).toBeGreaterThan(guideStart);
 

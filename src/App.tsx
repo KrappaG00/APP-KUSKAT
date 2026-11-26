@@ -117,6 +117,12 @@ const MotionSitesPortal = React.lazy(() =>
 
 );
 
+const PortalInicioView = React.lazy(() =>
+
+  import('./components/motionsites/PortalInicioView').then((m) => ({ default: m.PortalInicioView }))
+
+);
+
 const LanguagesView = React.lazy(() => import('./components/LanguagesView'));
 
 const LegalModal = React.lazy(() =>
@@ -211,6 +217,8 @@ const ALL_VALID_TABS: AppPageTab[] = [
 
   'motionsites3d',
 
+  'el-salvador-portal',
+
   'central-america',
 
   'patriotic-history',
@@ -279,6 +287,10 @@ const TAB_URL_ALIASES: Record<string, AppPageTab> = {
 
   lenguas: 'languages',
 
+  'el-salvador': 'el-salvador-portal',
+
+  'academico-gratuito': 'el-salvador-portal',
+
 };
 
 
@@ -286,6 +298,8 @@ const TAB_URL_ALIASES: Record<string, AppPageTab> = {
 const TAB_SEO_TITLES: Record<AppPageTab, string> = {
 
   motionsites3d: 'KUSKAT | Plataforma Salvadoreña de Excelencia Académica y Científica (kuskates.com)',
+
+  'el-salvador-portal': 'KUSKAT El Salvador | Portal Académico Completo (19 Áreas y Simuladores)',
 
   'academic-reinforcement': 'Refuerzo Curricular Oficial MINED-ESMATE (1° Grado a Bachillerato) | KUSKAT',
 
@@ -635,6 +649,61 @@ export default function App() {
 
 
 
+  const [pendingSectionScroll, setPendingSectionScroll] = useState<{
+    tab: AppPageTab;
+    sectionId: string;
+  } | null>(null);
+
+  const handleSelectLanguage = (languageId: string) => {
+    setLanguagesInitialId(languageId);
+    setLanguagesInitialMainTab('theory');
+    handleSelectTab('languages');
+  };
+
+  const handleNavigateSection = (tab: AppPageTab, sectionId: string) => {
+    if (activeTab === tab) {
+      const el = document.getElementById(sectionId);
+      if (el) {
+        el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        return;
+      }
+    }
+    setPendingSectionScroll({ tab, sectionId });
+    handleSelectTab(tab);
+  };
+
+  useEffect(() => {
+    if (!pendingSectionScroll || activeTab !== pendingSectionScroll.tab) return;
+    let cancelled = false;
+    let attempts = 0;
+    const maxAttempts = 25;
+
+    const tryScroll = () => {
+      if (cancelled) return;
+      const el = document.getElementById(pendingSectionScroll.sectionId);
+      if (el) {
+        setTimeout(() => {
+          if (!cancelled) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            setPendingSectionScroll(null);
+          }
+        }, 80);
+        return;
+      }
+      attempts += 1;
+      if (attempts < maxAttempts) {
+        setTimeout(tryScroll, 60);
+      } else {
+        setPendingSectionScroll(null);
+      }
+    };
+
+    tryScroll();
+    return () => {
+      cancelled = true;
+    };
+  }, [activeTab, pendingSectionScroll]);
+
   const handleSelectTab = (tab: AppPageTab) => {
 
     if (isExamRunning && tab !== activeTab) {
@@ -868,7 +937,7 @@ export default function App() {
 
       >
 
-        <MotionSitesPortal
+        <PortalInicioView
 
           onEnterSimulator={(inst) => { if (inst) setPracticeInitialCategory(inst);
 
@@ -892,7 +961,33 @@ export default function App() {
 
           onOpenLegalModal={handleOpenLegalModal}
 
+          onOpenFlashcards={() => setIsFlashcardsModalOpen(true)}
+
+          onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+
+          onSelectLanguage={handleSelectLanguage}
+
+          onNavigateSection={handleNavigateSection}
+
         />
+
+        {isFlashcardsModalOpen && (
+          <React.Suspense fallback={null}>
+            <FlashcardModal
+              isOpen={isFlashcardsModalOpen}
+              onClose={() => setIsFlashcardsModalOpen(false)}
+            />
+          </React.Suspense>
+        )}
+
+        {isSmartErrorNotebookOpen && (
+          <React.Suspense fallback={null}>
+            <SmartErrorNotebookModal
+              isOpen={isSmartErrorNotebookOpen}
+              onClose={() => setIsSmartErrorNotebookOpen(false)}
+            />
+          </React.Suspense>
+        )}
 
       </React.Suspense>
 
@@ -927,6 +1022,10 @@ export default function App() {
         onOpenFlashcards={() => setIsFlashcardsModalOpen(true)}
 
         onOpenErrorNotebook={() => setIsSmartErrorNotebookOpen(true)}
+
+        onSelectLanguage={handleSelectLanguage}
+
+        onNavigateSection={handleNavigateSection}
 
       />
 
@@ -1178,6 +1277,72 @@ export default function App() {
         )}
 
 
+
+        {/* ================================================================== */}
+
+        {/* VISTA 4B: PORTAL ACADÉMICO EL SALVADOR (19 ÁREAS Y ESTADÍSTICAS)   */}
+
+        {/* ================================================================== */}
+
+        {activeTab === 'el-salvador-portal' && (
+
+          <StandalonePageWrapper tab="el-salvador-portal">
+
+            <React.Suspense
+
+              fallback={
+
+                <div className="bg-white rounded-3xl border border-slate-200 p-12 text-center shadow-xs">
+
+                  <div className="w-10 h-10 rounded-xl bg-blue-600 flex items-center justify-center mx-auto mb-3 animate-pulse">
+
+                    <Sparkles className="w-6 h-6 text-white" />
+
+                  </div>
+
+                  <p className="font-caslon text-sm font-semibold text-slate-700">Cargando Portal Académico El Salvador...</p>
+
+                </div>
+
+              }
+
+            >
+
+              <MotionSitesPortal
+
+                hideHeader
+
+                onEnterSimulator={(inst) => {
+
+                  if (inst) setPracticeInitialCategory(inst);
+
+                  handleSelectTab('practice');
+
+                }}
+
+                onOpenCategories={() => {
+
+                  handleSelectTab('categories');
+
+                }}
+
+                onSelectTab={handleSelectTab}
+
+                onNavigateArea={handleNavigateFromPortal}
+
+                onOpenTutorial={() => setIsTutorialOpen(true)}
+
+                onOpenDevModal={() => setIsDevModalOpen(true)}
+
+                onOpenLegalModal={handleOpenLegalModal}
+
+              />
+
+            </React.Suspense>
+
+          </StandalonePageWrapper>
+
+        )}
 
         {/* ================================================================== */}
 
@@ -2101,7 +2266,7 @@ export default function App() {
 
 
 
-                <h3 className="text-xl sm:text-2xl font-extrabold tracking-tight">
+                <h3 className="text-xl sm:text-2xl font-extrabold tracking-tight text-white">
 
                   Yeferson E. Perez
 

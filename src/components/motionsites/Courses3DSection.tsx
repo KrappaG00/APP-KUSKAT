@@ -406,15 +406,60 @@ export const AREAS_CATALOG: ProjectAreaItem[] = [
   },
 ];
 
+export type PrimaryCategory =
+  | 'all'
+  | 'el-salvador'
+  | 'guatemala'
+  | 'belice'
+  | 'honduras'
+  | 'nicaragua'
+  | 'costa-rica'
+  | 'panama'
+  | 'idiomas';
+
+interface PrimaryCategoryDef {
+  id: PrimaryCategory;
+  label: string;
+  flag: string;
+  status: 'active' | 'coming-soon';
+}
+
+const PRIMARY_CATEGORIES: PrimaryCategoryDef[] = [
+  { id: 'all', label: 'Todas', flag: '🌐', status: 'active' },
+  { id: 'idiomas', label: 'Idiomas', flag: '🗣️', status: 'active' },
+  { id: 'el-salvador', label: 'El Salvador', flag: '🇸🇻', status: 'active' },
+  { id: 'guatemala', label: 'Guatemala', flag: '🇬🇹', status: 'coming-soon' },
+  { id: 'belice', label: 'Belice', flag: '🇧🇿', status: 'coming-soon' },
+  { id: 'honduras', label: 'Honduras', flag: '🇭🇳', status: 'coming-soon' },
+  { id: 'nicaragua', label: 'Nicaragua', flag: '🇳🇮', status: 'coming-soon' },
+  { id: 'costa-rica', label: 'Costa Rica', flag: '🇨🇷', status: 'coming-soon' },
+  { id: 'panama', label: 'Panamá', flag: '🇵🇦', status: 'coming-soon' },
+];
+
 export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onNavigateArea }) => {
+  const [activePrimary, setActivePrimary] = useState<PrimaryCategory>('all');
   const [activePillar, setActivePillar] = useState<PillarCategory>('all');
   const [searchQuery, setSearchQuery] = useState<string>('');
 
-  // Filtrado reactivo por pilar y por término de búsqueda
+  const selectedPrimaryDef =
+    PRIMARY_CATEGORIES.find((c) => c.id === activePrimary) ?? PRIMARY_CATEGORIES[0];
+  const isComingSoonPrimary = selectedPrimaryDef.status === 'coming-soon';
+
+  const handleSelectPrimary = (id: PrimaryCategory) => {
+    setActivePrimary(id);
+    setActivePillar('all');
+  };
+
+  // Filtrado reactivo por categoría principal (país/idiomas), subcategoría (pilares) y búsqueda
   const filteredAreas = useMemo(() => {
+    if (isComingSoonPrimary) return [];
+
     return AREAS_CATALOG.filter((area) => {
-      const matchesPillar = activePillar === 'all' || area.pillar === activePillar;
-      if (!matchesPillar) return false;
+      if (activePrimary === 'idiomas' && area.pillar !== 'idiomas') return false;
+      if (activePrimary === 'el-salvador') {
+        if (area.pillar === 'idiomas') return false;
+        if (activePillar !== 'all' && area.pillar !== activePillar) return false;
+      }
 
       if (!searchQuery.trim()) return true;
 
@@ -427,10 +472,14 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onNavigateAr
         area.featureTag.toLowerCase().includes(q)
       );
     });
-  }, [activePillar, searchQuery]);
+  }, [activePrimary, activePillar, isComingSoonPrimary, searchQuery]);
 
-  const PILLAR_TABS: { id: PillarCategory; label: string; count: number }[] = [
-    { id: 'all', label: `Todas (${AREAS_CATALOG.length})`, count: AREAS_CATALOG.length },
+  const EL_SALVADOR_SUB_PILLARS: { id: PillarCategory; label: string; count: number }[] = [
+    {
+      id: 'all',
+      label: 'Todas',
+      count: AREAS_CATALOG.filter((a) => a.pillar !== 'idiomas').length,
+    },
     {
       id: 'admision-educacion',
       label: 'Admisión y Educación',
@@ -440,11 +489,6 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onNavigateAr
       id: 'profesional-vial',
       label: 'Profesional y Vial',
       count: AREAS_CATALOG.filter((a) => a.pillar === 'profesional-vial').length,
-    },
-    {
-      id: 'idiomas',
-      label: 'Idiomas',
-      count: AREAS_CATALOG.filter((a) => a.pillar === 'idiomas').length,
     },
     {
       id: 'ciencias',
@@ -517,27 +561,78 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onNavigateAr
             </div>
           </div>
 
-          {/* Botones de Filtro por Pilar */}
+          {/* Categorías Principales: Todas, Países de América Central e Idiomas */}
           <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto scrollbar-none pb-1 pt-1 -mx-1 px-1 touch-scroll">
-            <span className="text-xs font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1 pl-1 shrink-0">
-              <Filter className="w-3.5 h-3.5 text-slate-400" />
-              <span>Pilares:</span>
+            <span className="text-xs font-bold text-slate-500 uppercase tracking-wider flex items-center gap-1 pl-1 shrink-0">
+              <Globe2 className="w-3.5 h-3.5 text-[#0B1B3D]" />
+              <span>Categorías:</span>
             </span>
-            {PILLAR_TABS.map((p) => {
-              const isActive = activePillar === p.id;
+            {PRIMARY_CATEGORIES.map((cat) => {
+              const isSelected = activePrimary === cat.id;
+              const isComingSoon = cat.status === 'coming-soon';
+              const badgeText =
+                cat.id === 'all'
+                  ? String(AREAS_CATALOG.length)
+                  : cat.id === 'el-salvador'
+                  ? String(AREAS_CATALOG.filter((a) => a.pillar !== 'idiomas').length)
+                  : cat.id === 'idiomas'
+                  ? String(AREAS_CATALOG.filter((a) => a.pillar === 'idiomas').length)
+                  : 'Próx.';
+
               return (
                 <button
-                  key={p.id}
+                  key={cat.id}
                   type="button"
-                  onClick={() => setActivePillar(p.id)}
+                  onClick={() => handleSelectPrimary(cat.id)}
                   className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer flex items-center gap-1.5 border ${
-                    isActive
-                      ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
-                      : 'bg-slate-50 hover:bg-slate-100 text-slate-600 border-slate-200/80'
+                    isSelected
+                      ? 'bg-[#0B1B3D] text-white border-[#0B1B3D] shadow-xs'
+                      : isComingSoon
+                      ? 'bg-slate-50 hover:bg-slate-100 text-slate-600 border-slate-200/80'
+                      : 'bg-slate-50 hover:bg-slate-100 text-[#0B1B3D] border-slate-200/80'
                   }`}
                 >
-                  <span>{p.label}</span>
-                  {p.id !== 'all' && (
+                  <span aria-hidden="true">{cat.flag}</span>
+                  <span>{cat.label}</span>
+                  <span
+                    className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono font-bold ${
+                      isSelected
+                        ? isComingSoon
+                          ? 'bg-amber-400/20 text-amber-200'
+                          : 'bg-white/20 text-white'
+                        : isComingSoon
+                        ? 'bg-amber-50 text-amber-800 border border-amber-200'
+                        : 'bg-slate-200 text-slate-700'
+                    }`}
+                  >
+                    {badgeText}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+
+          {/* Subcategorías dinámicas: aparecen según la categoría principal seleccionada */}
+          {activePrimary === 'el-salvador' && (
+            <div className="flex items-center gap-1.5 sm:gap-2 overflow-x-auto scrollbar-none pb-1 pt-1 border-t border-slate-100 -mx-1 px-1 touch-scroll">
+              <span className="text-xs font-bold text-slate-500 uppercase tracking-wider flex items-center gap-1 pl-1 shrink-0">
+                <Filter className="w-3.5 h-3.5 text-blue-600" />
+                <span>Pilares El Salvador:</span>
+              </span>
+              {EL_SALVADOR_SUB_PILLARS.map((p) => {
+                const isActive = activePillar === p.id;
+                return (
+                  <button
+                    key={p.id}
+                    type="button"
+                    onClick={() => setActivePillar(p.id)}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-bold transition-all shrink-0 cursor-pointer flex items-center gap-1.5 border ${
+                      isActive
+                        ? 'bg-blue-600 text-white border-blue-600 shadow-xs'
+                        : 'bg-slate-50 hover:bg-slate-100 text-slate-600 border-slate-200/80'
+                    }`}
+                  >
+                    <span>{p.label}</span>
                     <span
                       className={`text-[10px] px-1.5 py-0.5 rounded-full font-mono font-bold ${
                         isActive ? 'bg-white/20 text-white' : 'bg-slate-200 text-slate-700'
@@ -545,27 +640,65 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onNavigateAr
                     >
                       {p.count}
                     </span>
-                  )}
-                </button>
-              );
-            })}
+                  </button>
+                );
+              })}
+            </div>
+          )}
+
+          <div className="flex items-center gap-2 px-3 py-2 rounded-xl bg-blue-50 border border-blue-200 text-[#0B1B3D] text-xs font-medium">
+            <span aria-hidden="true">🇸🇻</span>
+            <span>
+              <strong>Alcance por país:</strong> Todo lo que no es de <strong>Idiomas</strong> (Admisión, Educación, Profesional, Vial y Ciencias) pertenece a <strong>El Salvador</strong>.
+            </span>
           </div>
         </div>
 
-        {/* Cuadrícula de las 19 Tarjetas */}
-        {filteredAreas.length === 0 ? (
+        {/* Cuadrícula de las 19 Tarjetas o Estado Próximamente */}
+        {isComingSoonPrimary ? (
+          <div className="bg-white rounded-3xl border border-dashed border-amber-300 p-8 sm:p-10 text-center space-y-3">
+            <span className="inline-block px-3 py-1 rounded-full bg-amber-100 text-amber-800 border border-amber-200 text-xs font-mono font-bold uppercase tracking-wider">
+              Próximamente
+            </span>
+            <h3 className="font-montenegrin text-lg sm:text-xl font-bold text-[#0B1B3D]">
+              {selectedPrimaryDef.flag} {selectedPrimaryDef.label} — Aún no hay información trabajada
+            </h3>
+            <p className="text-xs sm:text-sm text-slate-600 max-w-lg mx-auto">
+              Todo el contenido académico, profesional, vial y científico trabajado hasta el momento pertenece a{' '}
+              <strong>El Salvador</strong>. Próximamente incorporaremos los módulos oficiales de{' '}
+              <strong>{selectedPrimaryDef.label}</strong>.
+            </p>
+            <div className="flex flex-wrap items-center justify-center gap-2 pt-1">
+              <button
+                type="button"
+                onClick={() => handleSelectPrimary('el-salvador')}
+                className="px-4 py-2 bg-[#0B1B3D] text-white text-xs font-bold rounded-xl hover:bg-slate-800 transition-colors cursor-pointer"
+              >
+                Ver áreas de El Salvador
+              </button>
+              <button
+                type="button"
+                onClick={() => handleSelectPrimary('all')}
+                className="px-4 py-2 bg-slate-100 text-[#0B1B3D] text-xs font-bold rounded-xl hover:bg-slate-200 transition-colors cursor-pointer"
+              >
+                Ver todas (19)
+              </button>
+            </div>
+          </div>
+        ) : filteredAreas.length === 0 ? (
           <div className="bg-white rounded-3xl border border-dashed border-slate-300 p-10 text-center space-y-3">
             <Bookmark className="w-10 h-10 text-slate-300 mx-auto" />
             <h3 className="font-montenegrin text-lg font-bold text-slate-700">
               No se encontraron áreas con "{searchQuery}"
             </h3>
             <p className="text-xs text-slate-500 max-w-md mx-auto">
-              Intenta con otro término o selecciona "Todas (19)" en el selector superior para ver el catálogo completo.
+              Intenta con otro término o selecciona "Todas" en el selector superior para ver el catálogo completo.
             </p>
             <button
               type="button"
               onClick={() => {
                 setSearchQuery('');
+                setActivePrimary('all');
                 setActivePillar('all');
               }}
               className="px-4 py-2 bg-blue-600 text-white text-xs font-bold rounded-xl hover:bg-blue-700 transition-colors cursor-pointer"
@@ -591,8 +724,8 @@ export const Courses3DSection: React.FC<Courses3DSectionProps> = ({ onNavigateAr
                     </span>
                   </div>
 
-                  <span className="text-[10px] font-mono uppercase tracking-wider text-white/80 block mb-1 truncate">
-                    {area.institutionAuthority}
+                  <span className="text-[10px] font-mono uppercase tracking-wider text-white/85 block mb-1 truncate">
+                    {area.pillar !== 'idiomas' ? `🇸🇻 El Salvador • ${area.institutionAuthority}` : area.institutionAuthority}
                   </span>
 
                   <h3 className="font-montenegrin text-lg sm:text-xl text-white font-black tracking-tight leading-snug break-words">

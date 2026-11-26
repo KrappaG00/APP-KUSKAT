@@ -78,7 +78,7 @@ describe('Rediseño del Portal de Inicio (19 Áreas Exactas + Estudiar / Hacer e
     expect(headerCode).not.toContain('Jóvenes Talento UES / MINED');
 
     expect(statsCode).toContain("name: 'ASD MINED'");
-    expect(portalCode).toContain('• ASD MINED');
+    expect(portalCode).not.toContain('<footer');
     expect(ctaCode).toContain('y ASD MINED.');
     expect(appCode).toContain('ASD MINED | Programa de Olimpiadas Científicas | KUSKAT');
     expect(appCode).toContain('Cargando ASD MINED...');
