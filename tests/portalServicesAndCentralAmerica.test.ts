@@ -130,12 +130,11 @@ describe('Portal de Inicio — Área de Servicios, América Central y KUSKAT Aca
     expect(appCode).toContain('<StandalonePageWrapper tab="el-salvador-portal">');
     expect(appCode).toContain('<MotionSitesPortal');
     expect(appCode).toContain('hideHeader');
-    expect(appCode).toContain('hideFooter');
     const motionSitesCode = fs.readFileSync(
       path.join(rootDir, 'src', 'components', 'motionsites', 'MotionSitesPortal.tsx'),
       'utf-8'
     );
-    expect(motionSitesCode).toContain('{!hideFooter && (');
+    expect(motionSitesCode).not.toContain('<footer');
     expect(appCode).toContain("if (tab === 'motionsites3d' || tab === 'latex') return 0;");
   });
 

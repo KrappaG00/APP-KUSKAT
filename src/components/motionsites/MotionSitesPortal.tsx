@@ -13,7 +13,6 @@ import { User } from '../../types/auth';
 import type { LegalTab } from '../LegalModal';
 import {
   BookOpen,
-  ShieldCheck,
   Users,
 } from 'lucide-react';
 
@@ -28,7 +27,6 @@ interface MotionSitesPortalProps {
   onOpenLegalModal?: (tab?: LegalTab) => void;
   currentUser?: User | null;
   hideHeader?: boolean;
-  hideFooter?: boolean;
 }
 
 export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
@@ -42,7 +40,6 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
   onOpenLegalModal,
   currentUser,
   hideHeader = false,
-  hideFooter = false,
 }) => {
   const { t } = useTranslation();
 
@@ -494,147 +491,6 @@ export const MotionSitesPortal: React.FC<MotionSitesPortalProps> = ({
         </article>
       </section>
 
-      {/* ==================================================================== */}
-      {/* 7. PIE DE PÁGINA */}
-      {/* ==================================================================== */}
-      {!hideFooter && (
-      <footer className="bg-white border-t border-slate-200 py-10 text-xs text-slate-500 font-caslon">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 pb-8 border-b border-slate-100">
-            {/* Columna 1: Marca KUSKAT con logo original */}
-            <div className="space-y-3">
-              <div className="flex items-center gap-3">
-                <div className="w-9 h-9 rounded-xl bg-white border border-slate-200 flex items-center justify-center p-1 shrink-0 overflow-hidden shadow-2xs">
-                  <img
-                    src="/kuskat_logo.png"
-                    alt="Logo KUSKAT"
-                    className="w-full h-full object-contain"
-                  />
-                </div>
-                <span className="font-montenegrin text-lg font-black text-slate-900 tracking-tight">KUSKAT</span>
-              </div>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Plataforma integral de simulación y bancos de preguntas para aspirantes universitarios (UES), Escalafón Docente, AVANZO y ANSP.
-              </p>
-              <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-blue-50 text-blue-800 font-semibold border border-blue-200 text-[11px]">
-                <ShieldCheck className="w-3.5 h-3.5 text-blue-600 shrink-0" />
-                <span>Plataforma educativa salvadoreña de acceso libre y gratuito, sostenida mediante publicidad no intrusiva bajo estándares editoriales de rigor científico y curricular.</span>
-              </div>
-            </div>
-
-            {/* Columna 2: Enlaces Rápidos */}
-            <div className="space-y-3">
-              <h4 className="font-montenegrin text-xs font-bold text-slate-900 uppercase tracking-wider">
-                Ámbitos de Preparación
-              </h4>
-              <div className="grid grid-cols-2 gap-2 text-xs">
-                <a
-                  href="/?tab=practice"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    triggerStudyTransition('UES');
-                  }}
-                  className="text-left text-slate-600 hover:text-blue-600 transition-colors"
-                >
-                  • Admisión UES
-                </a>
-                <a
-                  href="/?tab=practice"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    triggerStudyTransition('ESCALAFON');
-                  }}
-                  className="text-left text-slate-600 hover:text-blue-600 transition-colors"
-                >
-                  • Escalafón Docente
-                </a>
-                <a
-                  href="/?tab=practice"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    triggerStudyTransition('AVANZO');
-                  }}
-                  className="text-left text-slate-600 hover:text-blue-600 transition-colors"
-                >
-                  • Prueba AVANZO
-                </a>
-                <a
-                  href="/?tab=jovenes-talento"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    triggerStudyTransition('ASD');
-                  }}
-                  className="text-left text-slate-600 hover:text-blue-600 transition-colors"
-                >
-                  • ASD MINED
-                </a>
-                <a
-                  href="/?tab=practice"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    triggerStudyTransition('ENA');
-                  }}
-                  className="text-left text-slate-600 hover:text-blue-600 transition-colors"
-                >
-                  • Admisión ENA
-                </a>
-                <a
-                  href="/?tab=ansp-ascenso"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    triggerStudyTransition('ANSP');
-                  }}
-                  className="text-left text-slate-600 hover:text-blue-600 transition-colors"
-                >
-                  • Academia ANSP
-                </a>
-              </div>
-            </div>
-
-            {/* Columna 3: Información Institucional y Legal */}
-            <div className="space-y-3">
-              <h4 className="font-montenegrin text-xs font-bold text-slate-900 uppercase tracking-wider">
-                Información Institucional
-              </h4>
-              <p className="text-xs text-slate-600 leading-relaxed">
-                Plataforma de libre acceso educativo en El Salvador conforme al Art. 53 de la Constitución.
-              </p>
-              <div className="flex flex-col gap-1.5 pt-1 text-slate-600 text-xs">
-                <a
-                  href="/terminos.html"
-                  className="text-left hover:text-blue-600 transition-colors"
-                >
-                  • Términos y Condiciones de Uso
-                </a>
-                <a
-                  href="/privacidad.html"
-                  className="text-left hover:text-blue-600 transition-colors"
-                >
-                  • Política de Privacidad y Cookies
-                </a>
-                <a
-                  href="/sobre-nosotros.html"
-                  className="text-left hover:text-blue-600 transition-colors"
-                >
-                  • Sobre Nosotros y Rigor Editorial
-                </a>
-                <a
-                  href="/contacto.html"
-                  className="text-left hover:text-blue-600 transition-colors"
-                >
-                  • Contacto Oficial (+503 7657 4463)
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-slate-400 text-[11px]">
-            <p>© {new Date().getFullYear()} KUSKAT • Sistema Académico de Evaluación Intercultural. Todos los derechos reservados.</p>
-            <p className="font-sans">El Salvador, Centroamérica</p>
-          </div>
-        </div>
-      </footer>
-      )}
     </div>
   );
 };

@@ -1227,8 +1227,6 @@ export default function App() {
 
                 hideHeader
 
-                hideFooter
-
                 onEnterSimulator={(inst) => {
 
                   if (inst) setPracticeInitialCategory(inst);
