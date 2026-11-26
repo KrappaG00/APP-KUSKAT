@@ -122,5 +122,9 @@ describe('Tutorial de Onboarding Interactivo (6 Pasos y Persistencia)', () => {
     expect(fullText).toContain('Glosario Técnico Intercultural');
     expect(fullText).toContain('Vista 2D Accesible');
     expect(fullText).toContain('RTL');
+    expect(fullText).toContain('SECCIÓN 1: Kuskat Academia y Salón');
+    expect(fullText).toContain('KUSKAT Académico Gratuito');
+    expect(fullText).toContain('Wilson Colato');
+    expect(fullText).toContain('El Salvador');
   });
 });
