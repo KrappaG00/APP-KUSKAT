@@ -200,38 +200,68 @@ export const PortalInicioView: React.FC<PortalInicioViewProps> = ({
       </section>
 
       {/* ==================================================================== */}
-      {/* 5. PRESENTACIÓN DEL FUNDADOR (YEFERSON E. PEREZ)                     */}
+      {/* 5. PRESENTACIÓN DE FUNDADOR Y COFUNDADOR                             */}
       {/* ==================================================================== */}
       <section
-        className="max-w-4xl mx-auto px-3 sm:px-6 lg:px-8 pb-10"
-        aria-label="Fundador de KUSKAT"
+        className="max-w-6xl mx-auto px-3 sm:px-6 lg:px-8 pb-10"
+        aria-label="Fundador y Cofundador de KUSKAT"
       >
-        <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-[#C59B27]/40 p-6 sm:p-8 shadow-corporate-subtle flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
-          <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl overflow-hidden border-2 border-[#C59B27] shadow-md bg-slate-100 shrink-0">
-            <img
-              src="/yeferson_perez.jpg"
-              alt="Yeferson E. Perez - Fundador KUSKAT"
-              width={128}
-              height={128}
-              loading="lazy"
-              decoding="async"
-              className="w-full h-full object-cover"
-            />
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-[#C59B27]/40 p-6 sm:p-8 shadow-corporate-subtle flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
+            <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl overflow-hidden border-2 border-[#C59B27] shadow-md bg-slate-100 shrink-0">
+              <img
+                src="/yeferson_perez.jpg"
+                alt="Yeferson E. Perez - Fundador KUSKAT"
+                width={128}
+                height={128}
+                loading="lazy"
+                decoding="async"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="space-y-2 min-w-0">
+              <span className="inline-block px-2.5 py-1 rounded-md bg-[#0B1B3D] text-[#C59B27] text-[10px] font-mono font-bold uppercase tracking-wider border border-[#C59B27]/30">
+                Fundador
+              </span>
+              <h3 className="font-editorial text-xl sm:text-2xl font-bold text-[#0B1B3D] tracking-tight">
+                Yeferson E. Perez
+              </h3>
+              <p className="text-xs sm:text-sm font-semibold text-blue-700">
+                Fundador &amp; Desarrollador Principal — KUSKAT
+              </p>
+              <p className="font-caslon text-xs sm:text-sm text-slate-600 leading-relaxed">
+                Dirección general del proyecto, desarrollo integral de la plataforma tecnológica y
+                arquitectura pedagógica abierta de KUSKAT.
+              </p>
+            </div>
           </div>
-          <div className="space-y-2 min-w-0">
-            <span className="inline-block px-2.5 py-1 rounded-md bg-[#0B1B3D] text-[#C59B27] text-[10px] font-mono font-bold uppercase tracking-wider border border-[#C59B27]/30">
-              Fundador
-            </span>
-            <h3 className="font-editorial text-xl sm:text-2xl font-bold text-[#0B1B3D] tracking-tight">
-              Yeferson E. Perez
-            </h3>
-            <p className="text-xs sm:text-sm font-semibold text-blue-700">
-              Fundador &amp; Desarrollador Principal — KUSKAT
-            </p>
-            <p className="font-caslon text-xs sm:text-sm text-slate-600 leading-relaxed">
-              Dirección general del proyecto, desarrollo integral de la plataforma tecnológica y
-              arquitectura pedagógica abierta de KUSKAT.
-            </p>
+
+          <div className="bg-gradient-to-b from-[#FAF9F5] via-white to-slate-50/60 rounded-3xl border-2 border-[#0B1B3D]/25 p-6 sm:p-8 shadow-corporate-subtle flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
+            <div className="w-28 h-28 sm:w-32 sm:h-32 rounded-3xl overflow-hidden border-2 border-[#0B1B3D]/40 shadow-md bg-slate-100 shrink-0">
+              <img
+                src="/wilson_colato.jpg"
+                alt="Wilson Colato - Cofundador KUSKAT"
+                width={128}
+                height={128}
+                loading="lazy"
+                decoding="async"
+                className="w-full h-full object-cover object-top"
+              />
+            </div>
+            <div className="space-y-2 min-w-0">
+              <span className="inline-block px-2.5 py-1 rounded-md bg-[#0B1B3D] text-white text-[10px] font-mono font-bold uppercase tracking-wider border border-[#0B1B3D]/30">
+                Cofundador
+              </span>
+              <h3 className="font-editorial text-xl sm:text-2xl font-bold text-[#0B1B3D] tracking-tight">
+                Wilson Colato
+              </h3>
+              <p className="text-xs sm:text-sm font-semibold text-blue-700">
+                Cofundador — KUSKAT
+              </p>
+              <p className="font-caslon text-xs sm:text-sm text-slate-600 leading-relaxed">
+                Profesional en belleza y enfermería, estudiante de abogacía.
+              </p>
+            </div>
           </div>
         </div>
       </section>

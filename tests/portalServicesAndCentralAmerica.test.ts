@@ -107,6 +107,9 @@ describe('Portal de Inicio — Área de Servicios, América Central y KUSKAT Aca
 
     // Fundador y pie institucional
     expect(html).toContain('Yeferson E. Perez');
+    expect(html).toContain('Wilson Colato');
+    expect(html).toContain('Cofundador');
+    expect(html).toContain('Profesional en belleza y enfermería, estudiante de abogacía.');
     expect(html).toContain('/privacidad.html');
     expect(html).toContain('/terminos.html');
     expect(html).toContain('/sobre-nosotros.html');
