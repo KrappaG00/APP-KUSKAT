@@ -2266,7 +2266,7 @@ export default function App() {
 
 
 
-                <h3 className="text-xl sm:text-2xl font-extrabold tracking-tight">
+                <h3 className="text-xl sm:text-2xl font-extrabold tracking-tight text-white">
 
                   Yeferson E. Perez
 

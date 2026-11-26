@@ -175,7 +175,7 @@ export const PortalInicioView: React.FC<PortalInicioViewProps> = ({
                 <BookOpen className="w-3.5 h-3.5 shrink-0" />
                 <span>100% Gratuito • Sin Muros de Pago</span>
               </div>
-              <h2 className="font-montenegrin text-2xl sm:text-3xl font-black tracking-tight">
+              <h2 className="font-montenegrin text-2xl sm:text-3xl font-black tracking-tight text-white">
                 KUSKAT Académico Gratuito
               </h2>
               <p className="font-caslon text-xs sm:text-sm text-slate-200 leading-relaxed">
